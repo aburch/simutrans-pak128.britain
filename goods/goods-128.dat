@@ -31,10 +31,10 @@
 #-------------------------------------------------------------------------------
 obj=good
 name=Passagiere
+mapcolor=79
 metric=
 catg=0
 value=14
-#value=11
 speed_bonus=18
 weight_per_unit=85
 -----------------------
@@ -335,7 +335,7 @@ weight_per_unit=700
 -----------------------
 obj=good
 name=Autos
-metric=
+metric=cars
 catg=0
 value=150
 #value=140
