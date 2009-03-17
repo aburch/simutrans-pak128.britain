@@ -413,15 +413,18 @@ toolbar[9][12]=dialog_tool[24]
 toolbar[10][0]=general_tool[10],22,,+100
 toolbar[10][1]=general_tool[10],23,,-100
 toolbar[10][2]=general_tool[9]
-toolbar[10][3]=general_tool[14],25,,city_road
-toolbar[10][4]=simple_tool[3]
-toolbar[10][5]=dialog_tool[20],,(
-toolbar[10][6]=general_tool[26]
-toolbar[10][7]=dialog_tool[21],,/
-toolbar[10][8]=dialog_tool[22],,&
-toolbar[10][9]=dialog_tool[23],,�
-toolbar[10][10]=general_tool[28]
-toolbar[10][11]=simple_tool[6]
+toolbar[10][3]=general_tool[11]
+toolbar[10][4]=general_tool[30]
+toolbar[10][5]=general_tool[14],25,,city_road
+toolbar[10][6]=ways(3,255)
+toolbar[10][7]=simple_tool[3]
+toolbar[10][8]=dialog_tool[20],,(
+toolbar[10][9]=general_tool[26]
+toolbar[10][10]=dialog_tool[21],,/
+toolbar[10][11]=dialog_tool[22],,&
+toolbar[10][12]=dialog_tool[23],,�
+toolbar[10][13]=general_tool[28]
+toolbar[10][14]=simple_tool[6]
 
 # list tools
 toolbar[11][0]=dialog_tool[14]

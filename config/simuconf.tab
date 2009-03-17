@@ -301,3 +301,21 @@ citycar_life = 35000000
 random_pedestrians = 1
 
 
+###################################river stuff##################################
+
+# rivers:
+# The highest number is the smallest. A river with max_speed==0 is not navigavable by ships.
+river_type[0] = River3
+river_type[1] = River2
+river_type[2] = River1
+river_type[3] = River0
+
+# start with 16 (looks nice on not too large maps)
+river_number = 16
+
+# river min length (not too short)
+river_min_length = 20
+
+# river max length (not too long?)
+river_max_length = 512
+
