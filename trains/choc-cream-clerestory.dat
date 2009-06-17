@@ -18,6 +18,11 @@ sound=-1
 
 Constraint[Next][0]=CC-Clerestory-Coach
 Constraint[Next][1]=CC-Clerestory-Brake
+Constraint[Next][2]=CC-Clerestory-Mail
+Constraint[Next][3]=CC-Clerestory-Dining
+Constraint[Next][4]=CC-Clerestory-Parcel-Brake
+Constraint[Next][5]=CC-Clerestory-TPO
+
 
 EmptyImage[E]=./images/choc-cream-clerestory.0.0
 EmptyImage[SE]=./images/choc-cream-clerestory.0.1

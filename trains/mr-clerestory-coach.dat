@@ -18,6 +18,11 @@ sound=-1
 
 Constraint[Next][0]=MR-Clerestory-Coach
 Constraint[Next][1]=MR-Clerestory-Brake
+Constraint[Next][2]=MR-Clerestory-Mail
+Constraint[Next][3]=MR-Clerestory-Dining
+Constraint[Next][4]=MR-Clerestory-Parcel-Brake
+Constraint[Next][5]=MR-Clerestory-TPO
+
 
 EmptyImage[E]=./images/mr-clerestory.0.0
 EmptyImage[SE]=./images/mr-clerestory.0.1

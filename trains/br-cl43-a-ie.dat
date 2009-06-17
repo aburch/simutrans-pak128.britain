@@ -22,6 +22,10 @@ sound=-1
 
 Constraint[Prev][0]=none
 
+Constraint[Next][0]=BR-Mk3-TO(Intercity)
+Constraint[Next][1]=BR-Mk3-TRB(Intercity)
+
+
 EmptyImage[E]=./images/br-cl43-ie.0.0
 EmptyImage[SE]=./images/br-cl43-ie.0.1
 EmptyImage[S]=./images/br-cl43-ie.0.2

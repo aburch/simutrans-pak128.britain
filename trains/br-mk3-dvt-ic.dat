@@ -16,6 +16,12 @@ cost=641000
 runningcost=20
 sound=-1
 
+Constraint[Prev][0]=BR-Mk3-TO(Intercity)
+Constraint[Prev][1]=BR-Mk3-TRB(Intercity)
+
+Constraint[Next][0]=None
+
+
 EmptyImage[E]=./images/br-mk3-dvt-ic.0
 EmptyImage[SE]=./images/br-mk3-dvt-ic.1
 EmptyImage[S]=./images/br-mk3-dvt-ic.2
