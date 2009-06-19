@@ -91,7 +91,9 @@ display_height = 720
 # How many frames per second to use? Display will look useful until 10 or so
 frames_per_second = 25
 
-
+# Colour of the cursor shading.
+# Default = 155 (orange).
+cursor_overlay_color = 168
 
 #################################saving settings################################
 
@@ -144,9 +146,9 @@ way_leave_road = 25
 #####################################gameplay###################################
 
 # passenger generation (default is 16) Smaller values means less passengers
-passenger_factor=8
+passenger_factor=16
 
-# in beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
+# in beginner mode, all revenues are multiplied by a factor (default 1500=1.5)
 beginner_price_factor = 1500
 
 # use beginner mode for new maps (can be switched anyway on the new map dialog)
@@ -251,7 +253,7 @@ show_month = 1
 #
 #128x128 use only 2 times longer months... should be way enough for normal games.
 #
-bits_per_month = 19
+bits_per_month = 20
 
 
 
