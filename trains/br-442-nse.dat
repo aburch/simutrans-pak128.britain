@@ -16,7 +16,7 @@ length=13
 
 weight=34
 cost=590000
-runningcost=30
+runningcost=290
 sound=-1
 
 Constraint[Prev][0]=BR-442-Rear(NSE)
@@ -50,7 +50,7 @@ length=13
 
 weight=34
 cost=590000
-runningcost=30
+runningcost=290
 sound=-1
 
 Constraint[Prev][0]=BR-442-Front(NSE)
@@ -82,7 +82,7 @@ length=13
 
 weight=34
 cost=590000
-runningcost=30
+runningcost=290
 sound=-1
 
 Constraint[Prev][0]=BR-442-Middle1(NSE)
@@ -114,7 +114,7 @@ length=13
 
 weight=34
 cost=590000
-runningcost=30
+runningcost=290
 sound=-1
 
 Constraint[Prev][0]=BR-442-Middle2(NSE)
@@ -149,7 +149,7 @@ length=13
 
 weight=34
 cost=590000
-runningcost=30
+runningcost=290
 sound=-1
 
 Constraint[Prev][0]=BR-442-Middle3(NSE)

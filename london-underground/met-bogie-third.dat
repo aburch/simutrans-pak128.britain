@@ -15,6 +15,10 @@ cost=750000
 runningcost=22
 sound=-1
 
+Constraint[Next][0]=Metropolitan-Dreadnought-Third
+Constraint[Next][1]=Metropolitan-Bogie-Third
+Constraint[Next][2]=none
+
 EmptyImage[E]=./images/met-bogie-third.0
 EmptyImage[SE]=./images/met-bogie-third.1
 EmptyImage[S]=./images/met-bogie-third.2

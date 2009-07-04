@@ -2,7 +2,7 @@ obj=vehicle
 name=Metropolitan-Vickers
 engine_type=electric
 speed=105
-gear=200
+gear=500
 power=600
 copyright=Kieron
 intro_year=1922
@@ -15,7 +15,7 @@ payload=0
 
 weight=61
 cost=8928000
-runningcost=446
+runningcost=1188
 sound=-1
 
 EmptyImage[E]=./images/met-vickers.0

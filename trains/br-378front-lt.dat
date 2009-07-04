@@ -16,14 +16,13 @@ length=12
 
 weight=46
 cost=1814400
-runningcost=68
+runningcost=25
 sound=-1
 
 Constraint[Prev][0]=BR-378Rear(LT)
 Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-378Middle(LT)
-Constraint[Next][1]=BR-378Rear(LT)
 
 EmptyImage[E]=./images/br-378-lt.0.0
 EmptyImage[SE]=./images/br-378-lt.0.1

@@ -2,20 +2,20 @@ obj=vehicle
 name=DLR-P86Front
 engine_type=electric
 speed=80
-gear=100
+gear=200
 power=131
 copyright=Kieron
 intro_year=1987
 intro_month=1
 retire_year=2000
 retire_month=1
-waytype=track
+waytype=tram_track
 freight=Passagiere
 payload=105
 
 weight=18
 cost=525000
-runningcost=20
+runningcost=56
 sound=-1
 
 Constraint[Prev][0]=DLR-P86Rear

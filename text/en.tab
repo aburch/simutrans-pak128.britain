@@ -9,7 +9,7 @@
 #                                                                              #
 #                                   authors:                                   #
 #                            James Hood (The Hood)                             #
-#			    James Petts (jamespetts)			       #
+#                          James Petts (jamespetts)                            #
 #                                                                              #
 ################################################################################
 #____________________________________bridge_____________________________________
@@ -55,11 +55,11 @@ DC Trolleybus Catenary
 #___________________________________townhall____________________________________
 #___________________________________townhall____________________________________
 00_CITY
-Town Hall
+Parish Hall
 01_CITY
 Town Hall
 02_CITY
-Town Hall
+City Hall
 03_CITY
 City Hall
 04_CITY
@@ -67,7 +67,7 @@ City Hall
 #___________________________________crossing____________________________________
 #___________________________________crossing____________________________________
 Crossing1
-crossing
+Crossing
 #____________________________________city-buildings____________________________________
 #____________________________________city-buildings____________________________________
 KG_RES_1600_00
@@ -203,9 +203,9 @@ Bookshop
 Brewery
 Brewery
 BuildersYard
-Builder's Yard
+Builders' Yard
 Butchery
-Butchery
+Butcher
 CarDealership
 Car Dealership
 CarFactory
@@ -223,9 +223,9 @@ Coal Power Station
 Dairy
 Dairy
 FishingGround
-Fishing Ground
+Fishery
 Fishmongers
-Fishmongers
+Fishmonger
 ForestSawmill
 Forest / Sawmill
 FurnitureFactory
@@ -237,7 +237,7 @@ Grain Farm
 GrainMill
 Grain Mill
 Greengrocers
-Greengrocers
+Greengrocer
 Hardware
 Hardware Shop
 HardwareFactory
@@ -273,7 +273,7 @@ Quarry
 SheepFarm
 Sheep Farm
 Slaughterhouse
-Slaughterhouse
+Slaughter-house
 SteelMill
 Steel Mill
 TextileMill
@@ -311,7 +311,7 @@ electronics
 Ethanol
 ethanol
 fertilizer
-fertilizer
+fertiliser
 fish
 fish
 flour
@@ -375,15 +375,15 @@ fruit
 hardware
 hardware
 newspaper
-newspaper
+newspapers
 cider
 cider
 #_____________________________________misc______________________________________
 #_____________________________________misc______________________________________
 PowerDest
-Consumer Transformer
+Local substation
 PowerSource
-Powerplant Transformer
+Distribution substation
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 CATEGORY_01
@@ -468,8 +468,40 @@ River2
 River (Navigable)
 River3
 Wide River (Navigable)
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+RailTunnel
+Rail tunnel
+RoadTunnel
+Road tunnel
+RailTunnelStone
+Stone faced tunnel
+RailTunnelBrick
+Brick faced tunnel
+RailTunnelConcrete
+Concrete tunnel
+RoadTunnelStone
+Stone faced tunnel
+RoadTunnelBrick
+Brick faced tunnel
+RoadTunnelConcrete
+Concrete tunnel
+CanalTunnel
+Canal tunnel
 #____________________________________rail-vehicle____________________________________
 #____________________________________rail-vehicle____________________________________
+DLR-P86Front
+Docklands Light Railway P86 (front)
+DLR-P86Rear
+Docklands Light Railway P86 (rear)
+DLR-B92Front
+Docklands Light Railway B92 (front)
+DLR-B92Rear
+Docklands Light Railway B92 (rear)
+DLR-B07Front
+Docklands Light Railway B07 (front)
+DLR-B07Rear
+Docklands Light Railway B07 (rear)
 Metropolitan-Class-E
 Metropolitan Class E 0-4-4T
 Metropolitan-Vickers
@@ -568,6 +600,8 @@ BR-Class71(Green)
 BR Class 71
 BR-Class73(Intercity)
 BR Class 73
+BR-Class81(Electric-Blue)
+BR Class 81
 BR-Class86(Rail-Blue)
 BR Class 86
 BR-Class87(Rail-Blue)
@@ -771,17 +805,17 @@ GWR Droplight Brake Carriage
 LNER-Gresley-Express-Coach(Teak)
 LNER Teak Express Carriage
 BR-Mk1-TO(Blue-Grey)
-BR Mk.1 Carriage
+BR Mk. 1 Standard Open
 BR-Mk1-TO(Crimson-Cream)
-BR Mk.1 Carriage
+BR Mk. 1 Standard Open
 BR-Mk1-TO(Maroon)
-BR Mk.1 Carriage
+BR Mk. 1 Standard Open
 BR-Mk2-TO(Intercity)
-BR Mk.2 Carriage
+BR Mk. 2d Standard Open
 BR-Mk3-TO(Intercity)
-BR Mk.3 Carriage
+BR Mk. 3 Standard Open
 BR-Mk4-TSO(Intercity)
-BR Mk.4 Carriage
+BR Mk. 4 Standard Open
 BR-410[CEP]Front(Blue-Grey)
 BR Class 410 "4Cep" EMU
 BR-410[CEP]Brake(Blue-Grey)
@@ -828,6 +862,8 @@ LMS-502Rear(Maroon)
 LMS Class 502 EMU (rear)
 Metropolitan-Motor-Third-Front
 Metropolitan 1907 Motorised Tube Stock
+Metropolitan-Motor-Third-Middle
+Metropolitan 1907 Motorised Tube Stock (middle)
 Metropolitan-Motor-Third-Back
 Metropolitan 1907 Mororised Tube Stock (rear)
 Metropolitan-Bogie-Third
@@ -1138,6 +1174,174 @@ BR-378Middle(LT)
 BR London Overground Class 378 EMU (middle)
 BR-378Rear(LT)
 BR London Overground Class 378 EMU (rear)
+LivestockEarly1
+Livestock truck
+LivestockEarly2
+Livestock wagon (small)
+LivestockEarly3
+Livestock wagon
+LivestockD21
+8t livestock wagon
+LivestockD25
+12t livestock wagon
+Livestock16T
+16t livestock wagon
+Wagon2CarFlat
+Cartruck
+Wagon3CarBogie
+Carflat FW
+PieceEarly1
+Goods truck
+PieceEarly2
+Goods wagon (small)
+PieceEarly3
+Goods wagon
+PieceD32
+8t box van
+PieceD88
+12t box van
+Piece16T
+16t box van
+PieceZSX
+BR ZSX covered van
+PieceContainer
+FAA container flat
+CoolContainer
+FAA container flat (refrigerated containers)
+CoolEarly1
+Food truck
+CoolEarly2
+Food wagon (small)
+CoolEarly3
+Food wagon
+CoolD32
+8t food van
+CoolD88
+12t food van
+Cool16T
+16t food van
+CoolZSX
+BR refrigerated van
+LongEarly1
+Open truck
+LongEarly2
+Open wagon (small)
+LongEarly3
+Open wagon
+LongD1
+8t open wagon
+Long10T
+10t open wagon
+Long12T
+12t open wagon
+Long20T
+20t open wagon
+Long30T
+30t open wagon
+BrakeSR
+Southern brake van
+BrakeD16
+4t brake van
+BrakeD93
+7t brake van
+BrakeGWR
+GWR 7t "toad" brake van
+BrakeLMS
+LMS 7t brake van
+BrakeLNER
+LNER 7t brake van
+BrakeBR
+BR standard 7t brake van
+CC-Clerestory-Dining
+GWR Chocolate & cream clerestory dining car
+GWR-Express-Dining
+GWR express dining car
+LMS-d1904-dining
+LMS dining car
+LNER-Gresley-Express-Dining(Teak)
+LNER dining car (teak)
+SR-Bulleid-Express-Dining(Green)
+SR Bulleid dining car
+BR-Mk1-RBR(Crimson-Cream)
+BR Mk. 1 Restaurant Buffet
+BR-Mk1-RBR(Maroon)
+BR Mk. 1 Restaurant Buffet
+BR-Mk1-RBR(Blue-Grey)
+BR Mk. 1 Restaurant Buffet Refurbished
+BR-Mk2-RFB(Intercity)
+BR Mk. 2d Restaurant Full Buffet
+BR-Mk3-TRB(Intercity)
+BR Mk. 3 Restaurant Buffet
+BR-Mk4-RSB(Intercity)
+BR Mk. 4 Restaurant Buffet
+LSWR-Third-Brake
+LSWR Third Brake
+LSWR-Third-Carriage
+LSWR Third Carriage
+LNWR-1847-Mail
+LNWR 4-wheel mail coach
+CC-Clerestory-Parcel-Brake
+GWR Chocolate & cream clerestory parcel brake coach
+CC-Clerestory-TPO
+GWR Chocolate & cream clerestory travelling post office
+Teak-Clerestory-Parcel-Brake
+LNER clerestory parcel brake coach (teak)
+Teak-Clerestory-TPO
+LNER clerestory travelling post office (teak)
+MR-Clerestory-Parcel-Brake
+MR clerestory parcel brake coach
+MR-Clerestory-TPO
+MR clerestory travelling post office
+MSLR-4Wheel-Mail
+MSLR 4-wheel mail coach
+MR-4Wheel-Mail
+MR 4-wheel mail coach
+GNR-4Wheel-Mail
+GNR 4-wheel mail coach
+LNWR-6Wheel-Mail
+LNWR 6-wheel mail coach
+GNR-6Wheel-Mail
+GNR 6-wheel mail coach
+MR-6Wheel-Mail
+MR 6-wheel mail coach
+GWR-Express-Parcel-Brake
+GWR Express parcel brake coach
+GWR-Express-TPO
+GWR Travelling Post Office
+SR-Maunsell-Parcels(Green)
+SR Mail van
+LMS-TPO
+LMS Travelling Post Office
+LNER-Gresley-Express-Parcel-Brake(Teak)
+LNER Parcel Brake coach (teak)
+LNER-Gresley-Express-TPO(Teak)
+LNER Travelling Post Office
+SR-Maunsell-TPO(Green)
+SR Travelling Post Office
+BR-Mk1-TPO(RoyalMail)
+BR Mk. 1 Travelling Post Office
+CC-Clerestory-Mail
+GWR Chocolate & cream clerestory mail van
+Teak-Clerestory-Mail
+GNR Clerestory Mail Van (teak)
+MR-Clerestory-Mail
+MR Clerestory Mail van
+BR-Mk1-BG(Crimson-Cream)
+BR Mk. 1 Gangwayed Brake
+BR-Mk1-BG(Maroon)
+BR Mk. 1 Gangwayed Brake
+BR-Mk1-BG(Blue-Grey)
+BR Mk. 1 Gangwayed Brake
+SR-Maunsell-Mail(Green)
+SR Maunsell Mail van
+GWR-Express-Mail
+GWR Express mail coach
+LMS-Mail
+LMS mail coach
+LNER-Gresley-Express-Mail(Teak)
+LNER mail coach (teak)
+BR-Mk1-POS(RoyalMail)
+BR Mk. 1 Mail coach
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -1209,7 +1413,119 @@ Leyland Cub
 Guy_Special(LT-Green)
 Guy Special
 Leyland_National_11(LC)
-Leyland National
+Leyland National (short)
+HackneyCarriage
+Hackney carriage
+StageCoach
+Stage coach
+OmnibusSingle
+Horse omnibus
+BTypeSingle
+B-Type (single deck)
+AECReliance
+AEC Reliance
+AECRegalT
+AEC Regal
+OmnibusDoubleKnifeboard
+"Knifeboard" horse omnibus
+PetrolElectricBus
+Petrol-electric omnibus
+BTypeDouble
+B-Type (double deck)
+OmnibusDoubleGardenseat
+"Garden seat" horse omnibus
+WrightStreetcar(Rear)
+Wright Streetcar (rear)
+WrightElectrocity
+Wright Electrocity
+DennisDart
+Dennis Dart
+AECQ4
+AEC Q4
+RFCoach
+AEC Regal IV (RF) (coach)
+RF
+AEC Regal IV (RF) (standard)
+MercedesCitaroG(Rear)
+Mercedes Citaro G (rear)
+OptareExcel
+Optare Excel
+KTypeDouble
+K-Type
+OptareTempo
+Optare Tempo
+LeylandLeopard
+Leyland Leopard
+LeylandTiger
+Leyland Tiger
+PlaxtonParagon
+Plaxton Paragon
+AECRegentST
+AEC Regent ST
+LeylandLynx
+Leyland Lynx
+STypeDouble
+S-Type
+NSTypeDouble
+NS-Type
+RT
+RT-Type
+AECRenownLT
+AEC Renown LT
+AEC Standard STL
+AEC Standard STL
+RoutemasterLongCoach
+AEC Routemaster (long coach)
+GuyArab
+Guy Arab
+AECSwift
+AEC Swift
+MercedesCitaroG(Front)
+Mercedes Citaro G (front)
+MercedesCitaroK
+Mercedes Citaro K
+WrightStreetcar(Front)
+Wright Streetcar (front)
+Routemaster
+AEC Routemaster (standard)
+AECQ2
+AEC Q2
+LeylandOlympianCoach
+Leyland Olympian (coach)
+LeylandTitanB15
+Leyland Titan
+RoutemasterLong
+AEC Routemaster (long)
+DaimlerFleetline
+Daimler Fleetline
+DennisDominator
+Dennis Dominator
+LeylandAtlantean
+Leyland Atlantean
+VolvoCitybus
+Volvo Citybus
+VolvoOlympian
+Volvo Olympian
+VolvoB7TL
+Volvo B7TL
+LeylandOlympian
+Leyland Olympian
+DennisEnviro400
+Dennis Enviro400
+RoadHorsesSingle
+Single horse
+RoadHorsesDouble
+Pair of horses
+A1Diddler
+A1 "Diddler"
+LeylandK2
+Leyland K2
+MCWQ1
+MCW Q1
+RoutemasterTrolleybus
+Routemaster (trolleybus)
+DennisDominatorTrolley
+Dennis Dominator (trolleybus)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track
@@ -1312,7 +1628,7 @@ GoodsWarehouseOld
 Goods Warehouse
 BusStop
 Basic Bus Stop
-ModernBusStop
+ModernBusShelter
 Bus Stop with Shelter
 OldBusShelter
 Bus Stop with Shelter

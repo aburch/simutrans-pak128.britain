@@ -2,7 +2,7 @@ obj=vehicle
 name=Metropolitan-Motor-Third-Back
 engine_type=electric
 speed=90
-gear=250
+gear=275
 power=400
 copyright=Kieron
 intro_year=1907
@@ -19,7 +19,7 @@ runningcost=148
 sound=-1
 
 Constraint[Prev][0]=Metropolitan-Motor-Third-Front
-Constraint[Prev][1]=Metropolitan-Bogie-Third
+Constraint[Prev][1]=Metropolitan-Motor-Third-Middle
 
 Constraint[Next][0]=Metropolitan-Motor-Third-Front
 Constraint[Next][1]=none

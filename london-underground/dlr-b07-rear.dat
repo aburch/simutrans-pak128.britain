@@ -1,21 +1,21 @@
 obj=vehicle
 name=DLR-B07Rear
 engine_type=electric
-speed=80
-gear=100
+speed=85
+gear=200
 power=150
 copyright=Kieron
 intro_year=2007
 intro_month=1
 retire_year=2035
 retire_month=1
-waytype=track
+waytype=tram_track
 freight=Passagiere
 payload=130
 
 weight=15
 cost=650000
-runningcost=24
+runningcost=37
 sound=-1
 
 Constraint[Prev][0]=DLR-B07Front
