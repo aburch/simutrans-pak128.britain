@@ -59,7 +59,7 @@ Parish Hall
 01_CITY
 Town Hall
 02_CITY
-City Hall
+Town Hall
 03_CITY
 City Hall
 04_CITY
@@ -190,98 +190,422 @@ Nelson-Column
 Nelson's Column
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
-1750-ChinaShop
-China Shop
-1750-ClothesShop
-Clothes Shop
-ArableFarm
+ArableFarm1750
 Arable Farm
+ArableFarm1840
+Arable Farm
+ArableFarm1910
+Arable Farm
+ArableFarm1945
+Arable Farm
+ArableFarm1975
+Arable Farm
+Bakery1750
 Bakery
+Bakery1840
 Bakery
+Bakery1910
+Bakery
+Bakery1945
+Bakery
+Bakery1975
+Bakery
+Bookshop1860
 Bookshop
+Bookshop1920
 Bookshop
+Bookshop1950
+Bookshop
+Bookshop1970
+Bookshop
+Brewery1750
 Brewery
+Brewery1840
 Brewery
-BuildersYard
-Builders' Yard
-Butchery
-Butcher
-CarDealership
-Car Dealership
-CarFactory
-Car Factory
-CattleFarm
-Cattle Farm
-CementWorks
-Cement Works
-Chemist
-Chemist
-ClayPit
-Clay Pit
-CoalPowerBatterseakraftwerk
-Coal Power Station
-Dairy
-Dairy
-FishingGround
-Fishery
-Fishmongers
-Fishmonger
-ForestSawmill
-Forest / Sawmill
-FurnitureFactory
-Furniture Factory
-FurnitureShop
-Furniture Shop
-GrainFarm
-Grain Farm
-GrainMill
-Grain Mill
-Greengrocers
-Greengrocer
-Hardware
-Hardware Shop
-HardwareFactory
-Hardware Factory
-IronOreMine
-Iron Ore Mine
-Newsagent
-Newsagent
-OilPowerkraftwerk
-Oil Power Station
-OilRefinery
-Oil Refinery
-OilRig
-Oil Rig
-OilWell
-Oil Well
-Orchard
-Orchard
-PaperMill
-Paper Mill
-PetrolStation
-Petrol Station
-PharmaceuticalFactory
-Pharmaceutical Factory
-Pottery
-Pottery
-Printworks
-Printworks
-Pub
-Pub
-Quarry
-Quarry
-SheepFarm
-Sheep Farm
-Slaughterhouse
-Slaughter-house
-SteelMill
-Steel Mill
-TextileMill
-Textile Mill
-VictorianCoalMine
-Coal Mine
-brickworks
+Brewery1910
+Brewery
+Brewery1945
+Brewery
+Brewery1975
+Brewery
+Brickworks1800
 Brickworks
+Brickworks1850
+Brickworks
+Brickworks1905
+Brickworks
+Brickworks1960
+Brickworks
+Brickworks1985
+Brickworks
+BuildersYard1750
+Builders' Yard
+BuildersYard1800
+Builders' Yard
+BuildersYard1850
+Builders' Yard
+BuildersYard1905
+Builders' Yard
+BuildersYard1960
+Builders' Yard
+BuildersYard1985
+Builders' Yard
+Butchery1820
+Butcher
+Butchery1840
+Butcher
+Butchery1910
+Butcher
+Butchery1945
+Butcher
+CarDealership1910
+Car Dealership
+CarDealership1925
+Car Dealership
+CarDealership1950
+Car Dealership
+CarDealership1970
+Car Dealership
+CarFactory1910
+Car Factory
+CarFactory1925
+Car Factory
+CarFactory1950
+Car Factory
+CarFactory1970
+Car Factory
+CattleFarm1750
+Cattle Farm
+CattleFarm1840
+Cattle Farm
+CattleFarm1910
+Cattle Farm
+CattleFarm1945
+Cattle Farm
+CattleFarm1975
+Cattle Farm
+CementWorks1800
+Cement Works
+CementWorks1850
+Cement Works
+CementWorks1905
+Cement Works
+CementWorks1960
+Cement Works
+CementWorks1985
+Cement Works
+Chemist1860
+Chemist
+Chemist1955
+Chemist
+Chemist1975
+Chemist
+ChinaShop1750
+China Shop
+ChinaShop1850
+China Shop
+ChinaShop1905
+China Shop
+ClayPit1750
+Clay Pit
+ClayPit1750
+Clay Pit
+ClayPit1850
+Clay Pit
+ClayPit1905
+Clay Pit
+ClayPit1960
+Clay Pit
+ClayPit1985
+Clay Pit
+ClothesShop1750
+Clothes Shop
+ClothesShop1840
+Clothes Shop
+ClothesShop1910
+Clothes Shop
+ClothesShop1945
+Clothes Shop
+CoalMine1750
+Colliery
+CoalMine1850
+Colliery
+CoalMine1920
+Colliery
+CoalMine1950
+Colliery
+CoalMine1970
+Colliery
+CoalPowerStation1910
+Coal-fired Power Station
+CoalPowerStation1920
+Coal-fired Power Station
+CoalPowerStation1955
+Coal-fired Power Station
+CoalPowerStation1970
+Coal-fired Power Station
+CoalYard1750
+Coal Merchant
+CoalYard1850
+Coal Merchant
+CoalYard1920
+Coal Merchant
+Dairy1750
+Dairy
+Dairy1840
+Dairy
+Dairy1910
+Dairy
+Dairy1945
+Dairy
+Dairy1975
+Dairy
+DepartmentStore1907
+Department Store
+DepartmentStore1935
+Department Store
+DepartmentStore1960
+Department Store
+DepartmentStore1990
+Department Store
+FishingGround1750
+Fishery
+FishingGround1840
+Fishery
+FishingGround1910
+Fishery
+FishingGround1945
+Fishery
+FishingGround1975
+Fishery
+Fishmongers1820
+Fishmonger
+Fishmongers1840
+Fishmonger
+Fishmongers1910
+Fishmonger
+Fishmongers1945
+Fishmonger
+ForestSawmill1750
+Forest / Sawmill
+ForestSawmill1850
+Forest / Sawmill
+ForestSawmill1920
+Forest / Sawmill
+ForestSawmill1950
+Forest / Sawmill
+ForestSawmill1970
+Forest / Sawmill
+FurnitureFactory1750
+Furniture Factory
+FurnitureFactory1850
+Furniture Factory
+FurnitureFactory1920
+Furniture Factory
+FurnitureFactory1950
+Furniture Factory
+FurnitureFactory1970
+Furniture Factory
+FurnitureShop1750
+Furniture Shop
+FurnitureShop1850
+Furniture Shop
+FurnitureShop1920
+Furniture Shop
+FurnitureShop1950
+Furniture Shop
+FurnitureShop1970
+Furniture Shop
+GrainFarm1750
+Grain Farm
+GrainFarm1840
+Grain Farm
+GrainFarm1910
+Grain Farm
+GrainFarm1945
+Grain Farm
+GrainFarm1975
+Grain Farm
+GrainMill1750
+Grain Mill
+GrainMill1840
+Grain Mill
+GrainMill1910
+Grain Mill
+GrainMill1945
+Grain Mill
+GrainMill1975
+Grain Mill
+Greengrocers1820
+Greengrocer
+Greengrocers1840
+Greengrocer
+Greengrocers1910
+Greengrocer
+Greengrocers1945
+Greengrocer
+HardwareFactory1790
+Hardware Factory
+HardwareFactory1850
+Hardware Factory
+HardwareFactory1920
+Hardware Factory
+HardwareFactory1950
+Hardware Factory
+HardwareShop1790
+Hardware Shop
+HardwareShop1850
+Hardware Shop
+HardwareShop1920
+Hardware Shop
+HardwareShop1950
+Hardware Shop
+IronOreMine1750
+Iron Ore Mine
+IronOreMine1850
+Iron Ore Mine
+IronOreMine1920
+Iron Ore Mine
+IronOreMine1950
+Iron Ore Mine
+IronOreMine1970
+Iron Ore Mine
+Newsagent1860
+Newsagent
+Newsagent1920
+Newsagent
+Newsagent1950
+Newsagent
+Newsagent1970
+Newsagent
+OilPowerStation1950
+Oil-fired Power Station
+OilPowerStation1970
+Oil-fired Power Station
+OilRefinery1910
+Oil Refinery
+OilRefinery1925
+Oil Refinery
+OilRefinery1955
+Oil Refinery
+OilRefinery1975
+Oil Refinery
+OilRig1955
+Oil Rig
+OilRig1975
+Oil Rig
+OilWell1925
+Oil Well
+OilWell1910
+Oil Well
+OilWell1955
+Oil Well
+Orchard1750
+Orchard
+Orchard1840
+Orchard
+Orchard1910
+Orchard
+Orchard1945
+Orchard
+Orchard1975
+Orchard
+PaperMill1860
+Paper Mill
+PaperMill1920
+Paper Mill
+PaperMill1950
+Paper Mill
+PaperMill1970
+Paper Mill
+PetrolStation1910
+Petrol Station
+PetrolStation1925
+Petrol Station
+PetrolStation1955
+Petrol Station
+PetrolStation1975
+Petrol Station
+PharmaceuticalFactory1860
+Pharmaceuticals Factory
+PharmaceuticalFactory1920
+Pharmaceuticals Factory
+PharmaceuticalFactory1955
+Pharmaceuticals Factory
+PharmaceuticalFactory1975
+Pharmaceuticals Factory
+Pottery1750
+Pottery
+Pottery1850
+Pottery
+Pottery1905
+Pottery
+Pottery1960
+Pottery
+Printworks1860
+Printworks
+Printworks1920
+Printworks
+Printworks1950
+Printworks
+Printworks1970
+Printworks
+Pub1750
+Pub
+Pub1840
+Pub
+Pub1910
+Pub
+Pub1945
+Pub
+Quarry1750
+Quarry
+Quarry1850
+Quarry
+Quarry1905
+Quarry
+Quarry1960
+Quarry
+Quarry1985
+Quarry
+SheepFarm1750
+Sheep Farm
+SheepFarm1840
+Sheep Farm
+SheepFarm1910
+Sheep Farm
+SheepFarm1945
+Sheep Farm
+SheepFarm1975
+Sheep Farm
+Slaughterhouse1750
+Slaughter-house
+Slaughterhouse1840
+Slaughter-house
+Slaughterhouse1910
+Slaughter-house
+Slaughterhouse1945
+Slaughter-house
+Slaughterhouse1975
+Slaughter-house
+SteelMill1790
+Steel Mill
+SteelMill1850
+Steel Mill
+SteelMill1920
+Steel Mill
+SteelMill1950
+Steel Mill
+TextileMill1750
+Textile Mill
+TextileMill1840
+Textile Mill
+TextileMill1910
+Textile Mill
+TextileMill1945
+Textile Mill
+TextileMill1975
+Textile Mill
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -565,9 +889,11 @@ LNER Class A1/A3 4-6-2
 LNER-A1-Tender(Green)
 LNER Class A1/A3 (tender)
 BR-7MT(Green)
-BR Standard Class 7 "Brittania" 4-6-2
+BR Standard Class 7MT "Britannia" 4-6-2
 BR-7MT-Tender(Green)
-BR Standard Class 7 "Brittania" (tender)
+BR Standard tender
+BR-8P(Green)
+BR Standard Class 8P 4-6-2
 LNER-A4(Blue)
 LNER Class A4 4-6-2
 LNER-A4-Tender(Blue)
@@ -576,6 +902,8 @@ BR-Class20(Green)
 BR Class 20
 BR-Class30(Green)
 BR Class 30
+BR-Class31/1(Blue)
+BR Class 31/1
 BR-Class66(EWS)
 BR Class 66
 BR-Class56(Rail-Blue)

@@ -2,21 +2,21 @@ obj=vehicle
 name=BR-7MT(Green)
 engine_type=steam
 smoke=Steam
-speed=160
-gear=140
-power=6300
+speed=155
+gear=350
+power=1969
 copyright=Kieron
 intro_year=1951
 intro_month=1
-retire_year=1967
-retire_month=1
+retire_year=1968
+retire_month=8
 waytype=track
 freight=None
 payload=0
 
 weight=94
 cost=9849000
-runningcost=1980
+runningcost=1732
 sound=-1
 
 Constraint[Next][0]=BR-7MT-Tender(Green)
