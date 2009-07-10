@@ -17,4 +17,11 @@ This version is a beta version - there are many aspects of the pakset which are 
 
 HISTORY
 07/07/2009: Release of Pak128.Britain 1.0
-
+10/07/2009: Release of Pak128.Britain 1.01:
+	FIX: Townhalls not appearing
+	FIX: Buses missing
+	FIX: bridges and some stops missing with timeline on
+	FIX: ground.outside.pak needs to be separate
+	ADD: Swedish translation (Thanks to sanna)
+	CHANGE: goods prices not fully updated
+	CHANGE: speedbonus not updated
