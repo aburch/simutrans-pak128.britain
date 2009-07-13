@@ -25,3 +25,7 @@ HISTORY
 	ADD: Swedish translation (Thanks to sanna)
 	CHANGE: goods prices not fully updated
 	CHANGE: speedbonus not updated
+12/07/2009: Release of Pak128.Britain 1.02
+	FIX: Bookshop (1950) industry duplicated
+	ADD: Partial Japanese translation (Simutranslator)
+	ADD: Partial German translation (Simutranslator)
