@@ -41,10 +41,10 @@ build %OUTPUT% ./grounds/
 echo Build gui
 !size=64
 #build %OUTPUT%BritGUI64.pak ./gui/gui64/
-build %OUTPUT%BritGUI64.pak ./gui/misc_GUI_64/
+build %OUTPUT%BritGUI64.pak ./gui/gui64/
 !size=128
 #build %OUTPUT% ./gui/gui128/
-build %OUTPUT% ./gui/misc_GUI/
+build %OUTPUT% ./gui/gui128/
 
 echo Build industry
 build %OUTPUT%BritIndustry.pak ./industry/
