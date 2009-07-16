@@ -18,6 +18,7 @@ xcopy ./text/*.* %OUTPUT%text/
 xcopy ./demo.sve %OUTPUT%
 xcopy ./licence.txt %OUTPUT%
 xcopy ./readme.txt %OUTPUT%
+xcopy ./compat.tab %OUTPUT%
 
 echo Build attractions
 build %OUTPUT%BritAttractions.pak ./attractions/

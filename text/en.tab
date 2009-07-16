@@ -9,7 +9,7 @@
 #                                                                              #
 #                                   authors:                                   #
 #                            James Hood (The Hood)                             #
-#                          James Petts (jamespetts)                            #
+#							James Petts (jamespetts)						   #
 #                                                                              #
 ################################################################################
 #____________________________________bridge_____________________________________
@@ -336,13 +336,13 @@ CoalMine1950
 Colliery
 CoalMine1970
 Colliery
-CoalPowerStation1910
+CoalPowerStation1910kraftwerk
 Coal-fired Power Station
-CoalPowerStation1920
+CoalPowerStation1920kraftwerk
 Coal-fired Power Station
-CoalPowerStation1955
+CoalPowerStation1955kraftwerk
 Coal-fired Power Station
-CoalPowerStation1970
+CoalPowerStation1970kraftwerk
 Coal-fired Power Station
 CoalYard1750
 Coal Merchant
@@ -478,9 +478,9 @@ Newsagent1950
 Newsagent
 Newsagent1970
 Newsagent
-OilPowerStation1950
+OilPowerStation1950kraftwerk
 Oil-fired Power Station
-OilPowerStation1970
+OilPowerStation1970kraftwerk
 Oil-fired Power Station
 OilRefinery1910
 Oil Refinery
@@ -617,7 +617,7 @@ planks
 Bucher
 books
 canned_food
-canned food
+packaged food
 Cement
 cement
 Chemicals
@@ -968,6 +968,8 @@ BR-370Restaurant(IC)
 BR Class 370 APT (restaurant)
 BR-220Rear(Virgin)
 BR Class 220 "Voyager" (rear)
+BR-221Rear(Virgin)
+BR Class 221 "Super Voyager" (rear)
 BR-370Buffet(IC)
 BR Class 370 APT (buffet)
 LMR-4Wheel-Open-Coach
@@ -1006,6 +1008,8 @@ BR-251FirstParlour
 BR Class 251 "Blue Pullman" (1st class parlour)
 BR-220Front(Virgin)
 BR Class 220 "Voyager"
+BR-221Front(Virgin)
+BR Class 221 "Super Voyager"
 GWR-ParkRoyal-Railcar
 GWR Park Royal Railcar
 SR-Bulleid-Express-Brake(Green)
@@ -1076,6 +1080,12 @@ BR-180Rear(FGW)
 BR Class 180 "Adelante" (rear)
 BR-220Middle(Virgin)
 BR Class 220 "Voyager" (middle)
+BR-220Middle-shop(Virgin)
+BR Class 220 "Voyager" (middle with shop)
+BR-221Middle(Virgin)
+BR Class 221 "Super Voyager" (middle)
+BR-221Middle-shop(Virgin)
+BR Class 221 "Super Voyager" (middle with shop)
 BR-142Front(Regional)
 BR Class 142 "Pacer" DMU
 BR-142Rear(Regional)
@@ -1371,9 +1381,9 @@ LNER Class P2 2-8-2
 LNER-P2-Tender(Green)
 LNER Class P2 2-8-2 (tender)
 LMS-Stanier-7P(Maroon)
-LMS Class 7P "Princess Coronation" 4-6-2
+LMS Class 8P "Princess Coronation" 4-6-2
 LMS-Stanier-7P-Tender(Maroon)
-LMS Class 7P "Princess Coronation" 4-6-2 (tender)
+LMS Class 8P "Princess Coronation" 4-6-2 (tender)
 NER-ClassES1(Green)
 NER Class ES1 Bo-Bo
 NER-ClassEF1(Green)
@@ -1475,9 +1485,9 @@ LMS Class 5XP "Patriot" 4-6-0
 LMS-Patriot-Tender(Maroon)
 LMS Class 5XP "Patriot" 4-6-0 (tender)
 LMS-Princess-Royal(Maroon)
-LMS Class 8P "Princess Royal"
+LMS Class 7P "Princess Royal"
 LMS-Princess-Royal-Tender(Maroon)
-LMS Class 8P "Princess Royal" (tender)
+LMS Class 7P "Princess Royal" (tender)
 LNER-B17(Green)
 LNER Class B17 "Footballer" 4-6-0
 LNER-B17-Tender(Green)
@@ -2006,3 +2016,7 @@ Art Deco Terminal Building with Control Tower
 1950s Terminal Building
 TerminalModernBuilding
 Modern Terminal Building
+CoachStable
+Coaching stable
+AirHangarModern
+Aircraft hangar
