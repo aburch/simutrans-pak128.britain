@@ -1680,6 +1680,12 @@ LNER-Gresley-Express-Mail(Teak)
 LNER mail coach (teak)
 BR-Mk1-POS(RoyalMail)
 BR Mk. 1 Mail coach
+BR-Mk2a-TSO(Blue-Grey)
+BR Mk. 2a Standard Open
+BR-Mk2a-RMB(Blue-Grey)
+BR Mk. 2a Miniature Buffet
+BR-Mk2a-BSO(Blue-Grey)
+BR Mk. 2a Standard Open (brake)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -1864,6 +1870,110 @@ RoutemasterTrolleybus
 Routemaster (trolleybus)
 DennisDominatorTrolley
 Dennis Dominator (trolleybus)
+CartBulk
+Cart (bulk goods)
+CartLong
+Cart (long goods)
+CartPiece
+Cart (piece goods)
+CartCool
+Cart (cooled goods)
+CartMail
+Cart (mail)
+WagonBulk
+Wagon (bulk goods)
+WagonLong
+Wagon (long goods)
+WagonPiece
+Wagon (piece goods)
+WagonCool
+Wagon (cooled goods)
+StageWagonPiece
+Stage Wagon (piece goods)
+StageWagonCool
+Stage Wagon (cooled goods)
+StageWagonMail
+Stage Wagon (mail)
+EagleTrailerBulk
+Eagle Trailer (bulk goods)
+EagleTrailerLong
+Eagle Trailer (long goods)
+EagleTrailerPiece
+Eagle Trailer (piece goods)
+EagleTrailerCool
+Eagle Trailer (cooled goods)
+EagleTrailerLivestock
+Eagle Trailer (livestock)
+EagleTrailerFluid
+Eagle Trailer (bulk fluids)
+LivestockDrover
+Livestock Drover
+MailBike
+Postal Bicycle
+LightRoadLocomotive
+Light Traction Engine
+HeavyRoadLocomotive
+Heavy Traction Engine
+FodenCompoundBulk
+Foden Compound (bulk goods)
+FodenCompoundLong
+Foden Compound (long goods)
+FodenCompoundPiece
+Foden Compound (piece goods)
+FodenCompoundCool
+Foden Compound (cool goods)
+FodenCompoundLivestock
+Foden Compound (livestock)
+SentinelDGBulk
+Sentinel DG (bulk goods)
+SentinelDGLong
+Sentinel DG (long goods)
+SentinelDGPiece
+Sentinel DG (piece goods)
+SentinelDGCool
+Sentinel DG (cool goods)
+SentinelDGLivestock
+Sentinel DG (livestock)
+SentinelSBulk
+Sentinel S (bulk goods)
+SentinelSLong
+Sentinel S (long goods)
+SentinelSPiece
+Sentinel S (piece goods)
+SentinelSCool
+Sentinel S (cool goods)
+SentinelSLivestock
+Sentinel S (livestock)
+SentinelStandardBulk
+Sentinel Standard (bulk goods)
+SentinelStandardLong
+Sentinel Standard (long goods)
+SentinelStandardPiece
+Sentinel Standard (piece goods)
+SentinelStandardCool
+Sentinel Standard (cool goods)
+SentinelStandardLivestock
+Sentinel Standard (livestock)
+ThornycroftWagonBulk
+Thornycroft Wagon (bulk goods)
+ThornycroftWagonLong
+Thornycroft Wagon (long goods)
+ThornycroftWagonPiece
+Thornycroft Wagon (piece goods)
+ThornycroftWagonCool
+Thornycroft Wagon (cool goods)
+ThornycroftWagonLivestock
+Thornycroft Wagon (livestock)
+ThornycroftSteamVanPiece
+Thornycroft Steam Van (piece goods)
+ThornycroftSteamVanCool
+Thornycroft Steam Van (cool goods)
+ThornycroftSteamVanMail
+Thornycroft Steam Van (mail)
+YorkshireSteamTank
+Yorkshire Steam Tank (bulk fluids)
+MailCoach
+Mail Coach
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track
