@@ -52,6 +52,9 @@ build %OUTPUT%BritIndustry.pak ./industry/
 echo Build london-underground
 build %OUTPUT%BritLU.pak ./london-underground/
 
+echo Build pedestrians
+build %OUTPUT%BritPedestrian.pak ./pedestrians/
+
 echo Build smokes
 build %OUTPUT%BritSmoke.pak ./smokes/
 

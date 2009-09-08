@@ -29,3 +29,21 @@ HISTORY
 	FIX: Bookshop (1950) industry duplicated
 	ADD: Partial Japanese translation (Simutranslator)
 	ADD: Partial German translation (Simutranslator)
+17/07/2009: Release of Pak128.Britain 1.03
+	FIX: beer is now a crate good
+	FIX: pubs accept cider
+	FIX: power stations produce power
+	FIX: furniture factories have a sensible production rate
+	FIX: bridges have unlimited length
+	FIX: metropolitan motorised tube stock intro date fixed
+	FIX: fix intro dates of some attractions
+27/08/2009: SVN r177
+	ADD: Lorries part 1
+	FIX: Sheep farm graphical glitch
+28/08/2009: SVN r178
+	FIX: clean up all night images
+	ADD: BR Class 31 (James Petts)
+08/09/2009: SVN r179
+	ADD: Lorries part 2
+	FIX: Some pubs did not accept cider
+	ADD: Pedestrians
