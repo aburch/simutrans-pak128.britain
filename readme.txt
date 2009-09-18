@@ -47,3 +47,6 @@ HISTORY
 	ADD: Lorries part 2
 	FIX: Some pubs did not accept cider
 	ADD: Pedestrians
+18/09/2009: Release of Pak128.Britain 1.04 (SVN r180)
+	ADD: Citycars part 1
+	CHANGE: Pharmaceutical Factory in 1860 no longer requires chemicals
