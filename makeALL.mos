@@ -30,7 +30,7 @@ echo Build citybuildings
 build %OUTPUT%BritCity.pak ./citybuildings/
 
 echo Build citycars
-build %OUTPUT%BritCar.pak ./citycars/
+build %OUTPUT%BritCitycar.pak ./citycars/
 
 echo Build depots
 build %OUTPUT%BritDepot.pak ./depots/
