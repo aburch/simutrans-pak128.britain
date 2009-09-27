@@ -23,6 +23,9 @@ xcopy ./compat.tab %OUTPUT%
 echo Build attractions
 build %OUTPUT%BritAttractions.pak ./attractions/
 
+echo Build boats
+build %OUTPUT%BritBus.pak ./boats/
+
 echo Build busses
 build %OUTPUT%BritBus.pak ./bus/
 

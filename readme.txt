@@ -52,3 +52,8 @@ HISTORY
 	CHANGE: Pharmaceutical Factory in 1860 no longer requires chemicals
 20/09/2009: Release of Pak128.Britain 1.04 (SVN r182)
 	FIX: Citycar and some truck alignments
+27/09/2009:
+	ADD: Leyland Comet, Morris Minor Van, Scammell Trucks
+	ADD: Horse Barges
+	FIX: Graphics for quays
+	FIX: Intro year for old boatyard	
