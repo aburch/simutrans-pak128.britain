@@ -9,7 +9,7 @@
 #                                                                              #
 #                                   authors:                                   #
 #                            James Hood (The Hood)                             #
-#			   James Petts (jamespetts)			       #
+#			    James Petts (jamespetts)			       #
 #                                                                              #
 ################################################################################
 #____________________________________bridge_____________________________________
@@ -19,7 +19,9 @@ Brick Railway Viaduct
 WoodenTrestle
 Wooden Trestle Rail Bridge 
 BrickViaductRoad
-Brick Road Bridge
+Brick Road Bridge (tarmac)
+BrickViaductCobbles
+Brick Road Bridge (cobblestone)
 BrickAqueduct
 Brick Aqueduct
 PowerBridge
@@ -1998,7 +2000,7 @@ ThornycroftBTCool
 Thornycroft BT (cool goods)
 ThornycroftBTLong
 Thornycroft BT (long goods)
-ThornycroftBTCar
+ThornycroftBTCars
 Thornycroft BT (cars)
 ThornycroftBTLivestock
 Thornycroft BT (livestock)
@@ -2030,10 +2032,10 @@ ThornycroftAmazonCool
 Thornycroft Amazon Trailer (cool goods)
 ThornycroftAmazonLong
 Thornycroft Amazon Trailer (long goods)
-ThornycroftAmazonCar
+ThornycroftAmazonCars
 Thornycroft Amazon Trailer (cars)
 ThornycroftAmazonLivestock
-Thornycroft Amazon (livestock)
+Thornycroft Amazon Trailer (livestock)
 ThornycroftQRigidOil
 Thornycroft Q Rigid (bulk fluids)
 ThornycroftQRigidBulk
@@ -2046,6 +2048,8 @@ ThornycroftQRigidLong
 Thornycroft Q Rigid (long goods)
 ThornycroftQRigidLivestock
 Thornycroft Q Rigid (livestock)
+ThornycroftQRigidCars
+Thornycroft Q Rigid (cars)
 ThornycroftQCFluid
 Thornycroft QC Rigid (bulk fluids)
 ThornycroftQCBulk
@@ -2058,6 +2062,8 @@ ThornycroftQCLong
 Thornycroft QC Rigid (long goods)
 ThornycroftQCLivestock
 Thornycroft QC Rigid (livestock)
+ThornycroftQCCars
+Thornycroft QC Rigid (cars)
 ThornycroftStagFluid
 Thornycroft Stag Rigid (bulk fluids)
 ThornycroftStagBulk
@@ -2070,6 +2076,304 @@ ThornycroftStagLong
 Thornycroft Stag Rigid (long goods)
 ThornycroftStagLivestock
 Thornycroft Stag Rigid (livestock)
+ThornycroftStagCars
+Thornycroft Stag Rigid (cars)
+AustinMaestroPiece
+Austin Maestro Van (piece goods)
+AustinMaestroCool
+Austin Maestro Van (cool goods)
+AustinMaestroPost
+Austin Maestro Van (mail)
+AustinMorrisEAPiece
+Austin Maestro Van (piece goods)
+AustinMorrisEACool
+Austin Morris EA Van (cool goods)
+AustinMorrisEAPost
+Austin Morris EA Van (mail)
+DAFCFRigidBulk
+DAF CF Rigid (bulk goods)
+DAFCFRigidLong
+DAF CF Rigid (long goods)
+DAFCFRigidFluid
+DAF CF Rigid (bulk fluids)
+DAFLFBulk
+DAF LF (bulk goods)
+DAFLFLong
+DAF LF (long goods)
+DAFLFPiece
+DAF LF (piece goods)
+DAFLFCool
+DAF LF (cool goods)
+DAFLFLivestock
+DAF LF (livestock)
+DAFLFPost
+DAF LF (mail)
+FordEscortPiece
+Ford Escort Van (piece goods)
+FordEscortCool
+Ford Escort Van (cool goods)
+FordEscortPost
+Ford Escort Van (mail)
+FordTransitConnectPiece
+Ford Transit Connect Van (piece goods)
+FordTransitConnectCool
+Ford Transit Connect Van (cool goods)
+FordTransitConnectPost
+Ford Transit Connect Van (mail)
+FordTransitPiece
+Ford Transit Van (piece goods)
+FordTransitCool
+Ford Transit Van (cool goods)
+FordTransitPost
+Ford Transit Van (mail)
+LeylandDAF95Artic
+Leyland DAF 95 Artic
+LeylandDAF95ArticMail
+Leyland DAF 95 Artic (mail)
+DAFXFArtic
+DAF XF Artic
+DAFXFArticMail
+DAF XF Artic (mail)
+LargeArticTrailerBulk
+Large Artic Trailer (bulk goods)
+LargeArticTrailerLong
+Large Artic Trailer (long goods)
+LargeArticTrailerPiece
+Large Artic Trailer (piece goods)
+LargeArticTrailerCool
+Large Artic Trailer (cool goods)
+LargeArticTrailerLivestock
+Large Artic Trailer (livestock)
+LargeArticTrailerFluid
+Large Artic Trailer (bulk fluids)
+LargeArticTrailerCars
+Large Artic Trailer (cars)
+LargeArticTrailerMail
+Large Artic Trailer (mail)
+LargeArticTrailerBulk
+Large Artic Trailer (bulk goods)
+StandardArticTrailerLong
+Standard Artic Trailer (long goods)
+StandardArticTrailerPiece
+Standard Artic Trailer (piece goods)
+StandardArticTrailerCool
+Standard Artic Trailer (cool goods)
+StandardArticTrailerLivestock
+Standard Artic Trailer (livestock)
+StandardArticTrailerFluid
+Standard Artic Trailer (bulk fluids)
+StandardArticTrailerCars
+Standard Artic Trailer (cars)
+StandardArticTrailerMail
+Standard Artic Trailer (mail)
+LeylandDAF200Piece
+Leyland DAF 200 (piece goods)
+LeylandDAF200Cool
+Leyland DAF 200 (cool goods)
+LeylandDAF200Post
+Leyland DAF 200 (mail)
+LeylandDAF65Bulk
+Leyland DAF 65 (bulk goods)
+LeylandDAF65Long
+Leyland DAF 65 (long goods)
+LeylandDAF65Piece
+Leyland DAF 65 (piece goods)
+LeylandDAF65Cool
+Leyland DAF 65 (cool goods)
+LeylandDAF65Livestock
+Leyland DAF 65 (livestock)
+LeylandDAF65Post
+Leyland DAF 65 (mail)
+LeylandDAF85RigidBulk
+Leyland DAF 85 Rigid (bulk goods)
+LeylandDAF85RigidLong
+Leyland DAF 85 Rigid (long goods)
+LeylandDAF85RigidFluid
+Leyland DAF 85 Rigid (bulk fluids)
+LeylandGBulk
+Leyland G (bulk goods)
+LeylandGLong
+Leyland G (long goods)
+LeylandGPiece
+Leyland G (piece goods)
+LeylandGCool
+Leyland G (cool goods)
+LeylandGLivestock
+Leyland G (livestock)
+LeylandGPost
+Leyland G (mail)
+LeylandRoadrunnerBulk
+Leyland Roadrunner (bulk goods)
+LeylandRoadrunnerLong
+Leyland Roadrunner (long goods)
+LeylandRoadrunnerPiece
+Leyland Roadrunner (piece goods)
+LeylandRoadrunnerCool
+Leyland Roadrunner (cool goods)
+LeylandRoadrunnerLivestock
+Leyland Roadrunner (livestock)
+LeylandRoadrunnerPost
+Leyland Roadrunner (mail)
+LeylandSherpaPiece
+Leyland Sherpa Van (piece goods)
+LeylandSherpaCool
+Leyland Sherpa Van (cool goods)
+LeylandSherpaPost
+Leyland Sherpa Van (mail)
+LeylandT45ConstructorBulk
+Leyland T45 Constructor (bulk goods)
+LeylandT45ConstructorLong
+Leyland T45 Constructor (long goods)
+LeylandT45ConstructorFluid
+Leyland T45 Constructor (fluid goods)
+MorrisFGBulk
+Morris FG (bulk goods)
+MorrisFGLong
+Morris FG (long goods)
+MorrisFGPiece
+Morris FG (piece goods)
+MorrisFGCool
+Morris FG (cool goods)
+MorrisFGLivestock
+Morris FG (livestock)
+MorrisFGPost
+Morris FG (mail)
+MorrisJ4Piece
+Morris J4 (piece goods)
+MorrisJ4Cool
+Morris J4 (cool goods)
+MorrisJ4Post
+Morris J4 (mail)
+MorrisLDPiece
+Morris LD (piece goods)
+MorrisLDCool
+Morris LD (cool goods)
+MorrisLDPost
+Morris LD (mail)
+MorrisMarinaPiece
+Morris Marina Van (piece goods)
+MorrisMarinaCool
+Morris Marina Van (cool goods)
+MorrisMarinaPost
+Morris Marina Van (mail)
+MorrisMinorPiece
+Morris Minor Van (piece goods)
+MorrisMinorCool
+Morris Minor Van (cool goods)
+MorrisMinorPost
+Morris Minor Van (mail)
+LeylandT45Roadtrain
+Leyland T45 Roadtrain
+LeylandT45RoadtrainMail
+Leyland T45 Roadtrain (mail)
+LeylandDAF85Artic
+Leyland DAF 85 Artic
+LeylandDAF85ArticMail
+Leyland DAF 85 Artic (mail)
+DAFCFArtic
+DAF CF Artic
+DAFCFArticMail
+DAF CF Artic (mail)
+LeylandCometBulk
+Leyland Comet (bulk goods)
+LeylandCometLong
+Leyland Comet (long goods)
+LeylandCometPiece
+Leyland Comet (piece goods)
+LeylandCometCool
+Leyland Comet (cool goods)
+LeylandCometLivestock
+Leyland Comet (livestock)
+LeylandCometFluid
+Leyland Comet (bulk fluids)
+LeylandCometCars
+Leyland Comet (cars)
+ScammellHighwayman
+Scammell Highwayman
+ScammellHandyman
+Scammell Handyman
+Scammell1955TrailerBulk
+Scammell 1955 Trailer (bulk goods)
+Scammell1955TrailerLong
+Scammell 1955 Trailer (long goods)
+Scammell1955TrailerPiece
+Scammell 1955 Trailer (piece goods)
+Scammell1955TrailerCool
+Scammell 1955 Trailer (cool goods)
+Scammell1955TrailerFluid
+Scammell 1955 Trailer (bulk fluids)
+Scammell1955TrailerCars
+Scammell 1955 Trailer (cars)
+Scammell1955TrailerLivestock
+Scammell 1955 Trailer (livestock)
+ScammellCrusader
+Scammell Crusader
+ScammellCrusaderTrailerBulk
+Scammell Crusader Trailer (bulk goods)
+ScammellCrusaderTrailerLong
+Scammell Crusader Trailer (long goods)
+ScammellCrusaderTrailerPiece
+Scammell Crusader Trailer (piece goods)
+ScammellCrusaderTrailerCool
+Scammell Crusader Trailer (cool goods)
+ScammellCrusaderTrailerLivestock
+Scammell Crusader Trailer (livestock)
+ScammellCrusaderTrailerFluid
+Scammell Crusader Trailer (bulk fluids)
+ScammellCrusaderTrailerCars
+Scammell Crusader Trailer (cars)
+ScammellScarab
+Scammell Scarab
+ScammellMechanicalHorse
+Scammell Mechanical Horse
+ScammellTownsman
+Scammell Townsman
+ScammellMechHorseTrailerLong
+Scammell Mechanical Horse Trailer (long goods)
+ScammellMechHorseTrailerPiece
+Scammell Mechanical Horse Trailer (piece goods)
+ScammellMechHorseTrailerCool
+Scammell Mechanical Horse Trailer (cool goods)
+ScammellMechHorseTrailerLivestock
+Scammell Mechanical Horse Trailer (livestock)
+ScammellMechHorseTrailerMail
+Scammell Mechanical Horse Trailer (mail)
+ScammellRoutemanBulk
+Scammell Routeman (bulk goods)
+ScammellRoutemanLong
+Scammell Routeman (long goods)
+ScammellRoutemanPiece
+Scammell Routeman (piece goods)
+ScammellRoutemanCool
+Scammell Routeman (cool goods)
+ScammellRoutemanLivestock
+Scammell Routeman (livestock)
+ScammellRoutemanFluid
+Scammell Routeman (bulk fluids)
+MaudslayVanBulk
+Maudslay Van (bulk goods)
+MaudslayVanPiece
+Maudslay Van (piece goods)
+MaudslayVanCool
+Maudslay Van (cool goods)
+MaudslayVanLong
+Maudslay Van (long goods)
+MaudslayVanPost
+Maudslay Van (mail)
+#____________________________________water-vehicle____________________________________
+#____________________________________water-vehicle____________________________________
+BoatHorsesDouble
+Pair of horses
+BoatHorsesSingle
+Single horse
+HorseBargeBulk
+Unpowered Barge (bulk goods)
+HorseBargeLong
+Unpowered Barge (long goods)
+HorseBargePiece
+Unpowered Barge (piece goods)
+HorseBargeCool
+Unpowered Barge (cool goods)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track
