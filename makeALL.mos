@@ -27,7 +27,7 @@ echo Build boats
 build %OUTPUT%BritBus.pak ./boats/
 
 echo Build busses
-build %OUTPUT%BritBus.pak ./bus/
+build %OUTPUT%BritBoat.pak ./bus/
 
 echo Build citybuildings
 build %OUTPUT%BritCity.pak ./citybuildings/
