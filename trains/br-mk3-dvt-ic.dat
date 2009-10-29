@@ -16,8 +16,8 @@ cost=641000
 runningcost=20
 sound=-1
 
-Constraint[Prev][0]=BR-Mk3-TO(Intercity)
-Constraint[Prev][1]=BR-Mk3-TRB(Intercity)
+Constraint[Prev][0]=BR-Mk3a-TO(Intercity)
+Constraint[Prev][1]=BR-Mk3a-TRB(Intercity)
 
 Constraint[Next][0]=None
 
