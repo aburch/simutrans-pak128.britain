@@ -12,7 +12,6 @@ cost=125000
 runningcost=50
 freight=Kohle
 payload=30
-cost=65000
 
 Constraint[Prev][0]=none
 
@@ -102,7 +101,6 @@ cost=125000
 runningcost=50
 freight=Bretter
 payload=30
-cost=65000
 
 intro_year=2000
 intro_month=4
@@ -161,6 +159,8 @@ weight=18
 length=5
 cost=125000
 runningcost=50
+freight=Oel
+payload=32
 
 Constraint[Prev][0]=none
 

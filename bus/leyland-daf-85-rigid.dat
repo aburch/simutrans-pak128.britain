@@ -164,7 +164,9 @@ weight=18
 length=5
 cost=125000
 runningcost=50
-
+freight=Oel
+payload=32
+cost=65000
 Constraint[Prev][0]=none
 
 
