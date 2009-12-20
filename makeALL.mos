@@ -24,10 +24,11 @@ echo Build attractions
 build %OUTPUT%BritAttractions.pak ./attractions/
 
 echo Build boats
-build %OUTPUT%BritBus.pak ./boats/
+build %OUTPUT%BritBoat.pak ./boats/
+build %OUTPUT%BritBoat192.pak ./boats/boat192/
 
 echo Build busses
-build %OUTPUT%BritBoat.pak ./bus/
+build %OUTPUT%BritBus.pak ./bus/
 
 echo Build citybuildings
 build %OUTPUT%BritCity.pak ./citybuildings/

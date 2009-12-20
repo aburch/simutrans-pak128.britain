@@ -16,6 +16,14 @@
 #____________________________________bridge_____________________________________
 BrickViaduct
 Brick Railway Viaduct
+BrickViaduct175
+Brick Railway Viaduct
+BrickViaduct200
+Brick Railway Viaduct
+BrickViaduct225
+Brick Railway Viaduct
+BrickViaduct320
+Brick Railway Viaduct
 WoodenTrestle
 Wooden Trestle Rail Bridge 
 BrickViaductRoad
@@ -608,6 +616,16 @@ TextileMill1945
 Textile Mill
 TextileMill1975
 Textile Mill
+FishPort1750
+Fishing Port
+FishPort1840
+Fishing Port
+FishPort1910
+Fishing Port
+FishPort1945
+Fishing Port
+FishPort1975
+Fishing Port
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -704,6 +722,8 @@ newspaper
 newspapers
 cider
 cider
+FreshFish
+live fish
 #_____________________________________misc______________________________________
 #_____________________________________misc______________________________________
 PowerDest
@@ -777,6 +797,8 @@ One Way Sign
 PrivateRoad
 Private Road Sign
 ChooseSign
+Choose Sign
+airport_choose
 Choose Sign
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
@@ -1229,7 +1251,7 @@ BR Class 43 "HST 125" (rear)
 BR-Mk3-DVT(Intercity)
 BR Mk.3 DVT
 BR-Mk4-DVT(Intercity)
-BR-Mk.4 DVT
+BR Mk.4 DVT
 GWR-Gloucester-Parcel-Railcar
 GWR Gloucester Parcel Railcar
 RM-325Front(RM)
@@ -1621,9 +1643,9 @@ LSWR Third Carriage
 LNWR-1847-Mail
 LNWR 4-wheel mail coach
 CC-Clerestory-Parcel-Brake
-GWR Chocolate & cream clerestory parcel brake coach
+Chocolate & cream clerestory parcel brake coach
 CC-Clerestory-TPO
-GWR Chocolate & cream clerestory travelling post office
+Chocolate & cream clerestory travelling post office
 Teak-Clerestory-Parcel-Brake
 LNER clerestory parcel brake coach (teak)
 Teak-Clerestory-TPO
@@ -1663,9 +1685,13 @@ BR Mk. 1 Travelling Post Office
 CC-Clerestory-Mail
 GWR Chocolate & cream clerestory mail van
 Teak-Clerestory-Mail
-GNR Clerestory Mail Van (teak)
+Teak Clerestory Mail Van
+Teak-Clerestory-Dining
+Teak Clerestory Dining Car
 MR-Clerestory-Mail
 MR Clerestory Mail van
+MR-Clerestory-Dining
+MR Clerestory Dining Car
 BR-Mk1-BG(Crimson-Cream)
 BR Mk. 1 Gangwayed Brake
 BR-Mk1-BG(Maroon)
@@ -1688,6 +1714,30 @@ BR-Mk2a-RMB(Blue-Grey)
 BR Mk. 2a Miniature Buffet
 BR-Mk2a-BSO(Blue-Grey)
 BR Mk. 2a Standard Open (brake)
+GWR-Droplight-Dining(Mahogany)
+GWR Droplight Dining Car
+SR-Maunsell-Dining(Green)
+SR Maunsell Express Dining Car
+LMS-d1904-Dining
+LMS Dining Car
+BR-Mk3a-TRB
+BR Mk. 3a Restaurant Buffet
+BR-Mk3a-TO
+BR Mk. 3a Standard Open
+BR-442-Middle1(NSE)
+BR Class 442 (middle)
+BR-442-Middle2(NSE)
+BR Class 442 (middle)
+BR-442-Middle3(NSE)
+BR Class 442 (middle)
+BR-442-Front(NSE)
+BR Class 442
+BR-442-Rear(NSE)
+BR Class 442 (rear)
+BR-Mk1-BG(RoyalMail)
+BR Mk. 1 Gangwayed Brake
+
+
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -2150,8 +2200,8 @@ LargeArticTrailerCars
 Large Artic Trailer (cars)
 LargeArticTrailerMail
 Large Artic Trailer (mail)
-LargeArticTrailerBulk
-Large Artic Trailer (bulk goods)
+StandardArticTrailerBulk
+Standard Artic Trailer (bulk goods)
 StandardArticTrailerLong
 Standard Artic Trailer (long goods)
 StandardArticTrailerPiece
@@ -2374,6 +2424,88 @@ HorseBargePiece
 Unpowered Barge (piece goods)
 HorseBargeCool
 Unpowered Barge (cool goods)
+NorfolkWherryPassenger
+Norfolk Wherry (passengers)
+ClydeSteamer
+Clyde Steamer
+NorfolkWherryMail
+Norfolk Wherry (mail)
+SeineNetterSteam
+Seine Netter
+SeineNetterDiesel
+Seine Netter
+SteamBargePiece
+Steam Barge (piece goods)
+DieselBargePiece
+Diesel Barge (piece goods)
+NorfolkWherryPiece
+Norfolk Wherry (piece goods)
+HumberKeelPiece
+Humber Keel (piece goods)
+ThamesSailingBargePiece
+Thames Sailing Barge (piece goods)
+ClanLineSteamerPiece
+Clan Line Cargo Steamer (piece goods)
+HandysizePiece
+Handysize Container Ship (piece goods)
+SteamBargeBulk
+Steam Barge (bulk goods)
+DieselBargeBulk
+Diesel Barge (bulk goods)
+NorfolkWherryBulk
+Norfolk Wherry (bulk goods)
+HumberKeelBulk
+Humber Keel (bulk goods)
+ThamesSailingBargeBulk
+Thames Sailing Barge (bulk goods)
+ClanLineSteamerBulk
+Clan Line Cargo Steamer (bulk goods)
+HandysizeBulk
+Handysize Dry Bulk Ship (bulk goods)
+SteamBargeCool
+Steam Barge (cool goods)
+DieselBargeCool
+Diesel Barge (cool goods)
+NorfolkWherryCool
+Norfolk Wherry (cool goods)
+HumberKeelCool
+Humber Keel (cool goods)
+ThamesSailingBargeCool
+Thames Sailing Barge (cool goods)
+ClanLineSteamerCool
+Clan Line Cargo Steamer (cool goods)
+HandysizeCool
+Handysize Container Ship (cool goods)
+SteamBargeLong
+Steam Barge (long goods)
+DieselBargeLong
+Diesel Barge (long goods)
+NorfolkWherryLong
+Norfolk Wherry (long goods)
+HumberKeelLong
+Humber Keel (long goods)
+ThamesSailingBargeLong
+Thames Sailing Barge (long goods)
+ClanLineSteamerLong
+Clan Line Cargo Steamer (long goods)
+HandysizeLong
+Handysize Container Ship (long goods)
+SteamBargeOil
+Steam Barge (bulk fluids)
+DieselBargeOil
+Diesel Barge (bulk fluids)
+ClanLineSteamerOil
+Clan Line Cargo Steamer (bulk fluids)
+HandysizeOil
+Handysize Tanker (bulk fluids)
+SchoonerBulk
+Schooner (bulk goods)
+SchoonerPiece
+Schooner (piece goods)
+SchoonerCool
+Schooner (cool goods)
+SchoonerLong
+Schooner (long goods)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track
