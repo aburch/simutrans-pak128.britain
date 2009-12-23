@@ -81,3 +81,6 @@ HISTORY
 	ADD: Fishing Port industry
 	ADD: Winter images for roads, rivers, canals, and trees
 	FIX: BR Standard Tender and SR Q1 Tender Speed
+23/12/2009: r242
+	ADD: Masonry road bridge (wlindley)
+	ADD: Southern Railway/Region Rail Vehicles (jamespetts)

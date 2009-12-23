@@ -4,23 +4,26 @@ engine_type=steam
 smoke=Steam
 speed=155
 gear=400
-power=1700
+power=1950
+tractive_effort=167
 copyright=Kieron
 intro_year=1941
-intro_month=1
+intro_month=2
 retire_year=1960
-retire_month=1
+retire_month=4
 waytype=track
 freight=None
 payload=0
 length=8
 
 weight=95
-cost=12398000
-runningcost=2178
+cost=10298000
+runningcost=2775
 sound=-1
 
 Constraint[Next][0]=SR-MerchantNavy 4-6-2Tender(Green)
+
+upgrade[0]=SR-MerchantNavyRebuilt 4-6-2(Green)
 
 EmptyImage[E]=./images/sr-mn-4-6-2.0.0
 EmptyImage[SE]=./images/sr-mn-4-6-2.0.1

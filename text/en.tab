@@ -34,6 +34,10 @@ BrickAqueduct
 Brick Aqueduct
 PowerBridge
 High Voltage Transmission Line Bridge
+MasonryViaductRoad
+Masonry Road Bridge (tarmac)
+MasonryViaductCobbles
+Masonry Road Bridge (cobblestone)
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnelStone
@@ -1736,8 +1740,22 @@ BR-442-Rear(NSE)
 BR Class 442 (rear)
 BR-Mk1-BG(RoyalMail)
 BR Mk. 1 Gangwayed Brake
-
-
+BR-423-DTCL-Front
+BR Class 423 "4Vep" EMU
+BR-423-MBSO
+BR Class 423 "4Vep" EMU (MBSO)
+BR-423-TSO
+BR Class 423 "4Vep" EMU (TSO)
+BR-423-DTCL-Rear
+BR Class 423 "4Vep" EMU (Rear)
+SR-CC(Green)
+SR CC Electric
+SR-MerchantNavyRebuilt_4-6-2(Green)
+SR Merchant Navy 4-6-2 (Rebuilt)
+SR-WestCountry_4-6-2(Green)
+SR West Country 4-6-2
+SR-WestCountryRebuilt_4-6-2(Green)
+SR West Country 4-6-2 (Rebuilt)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
