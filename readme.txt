@@ -84,3 +84,7 @@ HISTORY
 23/12/2009: r242
 	ADD: Masonry road bridge (wlindley)
 	ADD: Southern Railway/Region Rail Vehicles (jamespetts)
+10/01/2010:
+	ADD: More citybuildings (wlindley)
+	ADD: Snow images for townhalls, citybuildings and rails
+	CHANGE: New gasometer image

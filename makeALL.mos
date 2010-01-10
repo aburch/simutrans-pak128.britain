@@ -25,8 +25,10 @@ build %OUTPUT%BritAttractions.pak ./attractions/
 
 echo Build boats
 build %OUTPUT%BritBoat.pak ./boats/
+!size=192
 build %OUTPUT%BritBoat192.pak ./boats/boat192/
 
+!size=128
 echo Build busses
 build %OUTPUT%BritBus.pak ./bus/
 
