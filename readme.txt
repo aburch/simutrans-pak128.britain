@@ -91,8 +91,15 @@ HISTORY
 27/01/2010: r246
 	FIX: Mk3/3a Carriage Constraints
 	FIX: 4Vep Acceleration/Speed
-06/02/2010: r247-r248
+06/02/2010: r247-r250
 	ADD: 4 Rotations and Snow images for all attractions/monuments
 	ADD: Fountain monument
 	CHANGE: Nelson's Column is now 2x2
 	ADD: 4 Rotations with Snow for all townhalls
+	ADD: Electrical substation (wlindley)
+	ADD: 1750 inn (Archon)
+	FIX: Snow graphics not showing for some citybuildings
+	FIX: TTA Tanker wagon running cost
+	FIX: Horse and cart intro date
+	CHANGE: Livestock weight increased
+
