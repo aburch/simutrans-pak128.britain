@@ -91,5 +91,8 @@ HISTORY
 27/01/2010: r246
 	FIX: Mk3/3a Carriage Constraints
 	FIX: 4Vep Acceleration/Speed
-06/02/2010: r247
+06/02/2010: r247-r248
 	ADD: 4 Rotations and Snow images for all attractions/monuments
+	ADD: Fountain monument
+	CHANGE: Nelson's Column is now 2x2
+	ADD: 4 Rotations with Snow for all townhalls
