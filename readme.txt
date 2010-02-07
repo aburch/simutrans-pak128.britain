@@ -30,7 +30,7 @@ HISTORY
 	ADD: Partial Japanese translation (Simutranslator)
 	ADD: Partial German translation (Simutranslator)
 17/07/2009: Release of Pak128.Britain 1.03
-	FIX: beer is now a crate good
+	FIX: beer is now a chttps://mail.google.com/mail/?shva=1rate good
 	FIX: pubs accept cider
 	FIX: power stations produce power
 	FIX: furniture factories have a sensible production rate
@@ -102,6 +102,7 @@ HISTORY
 	FIX: TTA Tanker wagon running cost
 	FIX: Horse and cart intro date
 	CHANGE: Livestock weight increased
-07/02/2010: r251
+07/02/2010: r251-r252
 	ADD: Snow images for depots
 	ADD: Snow images for grass runway/taxiway
+	FIX: remove special colours from some images
