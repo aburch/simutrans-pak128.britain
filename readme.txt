@@ -102,4 +102,6 @@ HISTORY
 	FIX: TTA Tanker wagon running cost
 	FIX: Horse and cart intro date
 	CHANGE: Livestock weight increased
-
+07/02/2010: r251
+	ADD: Snow images for depots
+	ADD: Snow images for grass runway/taxiway
