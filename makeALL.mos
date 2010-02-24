@@ -5,7 +5,7 @@ run ./parameter.mos
 echo Build pak128.Britain ...
 echo This could take a few minutes!
 echo
-config only_error=1
+config only_error=0
 config makeobj=%makeobj%
 
 echo Copy system objects
@@ -26,7 +26,9 @@ build %OUTPUT%BritAttractions.pak ./attractions/
 echo Build boats
 build %OUTPUT%BritBoat.pak ./boats/
 !size=192
-build %OUTPUT%BritBoat192.pak ./boats/boat192/
+build %OUTPUT%BritBoat192.pak ./boats/boats192/
+!size=224
+build %OUTPUT%BritBoat224.pak ./boats/boats224/
 
 !size=128
 echo Build busses
@@ -60,6 +62,9 @@ build %OUTPUT%BritIndustry.pak ./industry/
 
 echo Build london-underground
 build %OUTPUT%BritLU.pak ./london-underground/
+
+echo Build maglevs
+build %OUTPUT%BritMaglev.pak ./maglev/
 
 echo Build pedestrians
 build %OUTPUT%BritPedestrian.pak ./pedestrians/
