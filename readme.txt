@@ -128,5 +128,9 @@ HISTORY
 	FIX: factory retire dates
 	FIX: powerline graphics
 	DEL: mose.py (outdated)
-24/04/2010: r270
+24/04/2010: r270-271
 	FIX: Cityuilding names now compatible with auto-replacer
+	DEL: duplicate pavement dat
+	FIX: Diagonal road night pixels
+	FIX: Masonary viaduct night pixels
+	FIX: 1880 Offices snow images
