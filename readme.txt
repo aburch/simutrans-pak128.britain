@@ -128,3 +128,5 @@ HISTORY
 	FIX: factory retire dates
 	FIX: powerline graphics
 	DEL: mose.py (outdated)
+24/04/2010: r270
+	FIX: Cityuilding names now compatible with auto-replacer

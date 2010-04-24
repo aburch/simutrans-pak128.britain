@@ -1,5 +1,5 @@
 Obj=building
-Name=KG_COM_1880_0
+Name=COM_KG_1880_00_10
 copyright=Kieron
 type=com
 chance=20
@@ -27,7 +27,7 @@ BackImage[6][0][0][0][0][1]=images/com/1880-terrace-corner-shop.1.3
 BackImage[7][0][0][0][0][1]=images/com/1880-terrace-corner-shop.1.2
 ----
 Obj=building
-Name=KG_COM_1880_1
+Name=COM_KG_1880_01_08
 copyright=Kieron
 type=com
 chance=20
@@ -56,7 +56,7 @@ BackImage[7][0][0][0][0][1]=images/com/1880-terrace-corner-shop.1.2
 
 ----
 Obj=building
-Name=KG_COM_1880_2
+Name=COM_KG_1880_02_06
 copyright=Kieron
 type=com
 chance=20
@@ -78,7 +78,7 @@ BackImage[3][0][0][0][0][1]=images/com/1880-terrace-row-shop-2f.1.3
 --------
 
 Obj=building
-Name=A_COM_1880_01
+Name=COM_A_1880_00_10
 copyright=Archon
 type=COM
 chance=100

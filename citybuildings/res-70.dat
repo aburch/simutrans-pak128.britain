@@ -1,5 +1,5 @@
 Obj=building
-Name=JH_RES_70_00
+Name=RES_JH_1970_00_02
 copyright=James
 type=res
 chance=50
@@ -19,7 +19,7 @@ BackImage[0][0][0][0][0][1]=images/res/70-garagesemi-a.1.2
 BackImage[3][0][0][0][0][1]=images/res/70-garagesemi-a.1.3
 --
 Obj=building
-Name=JH_RES_70_01
+Name=RES_JH_1970_01_02
 copyright=James
 type=res
 chance=50
@@ -39,7 +39,7 @@ BackImage[0][0][0][0][0][1]=images/res/70-garagesemi-b.1.2
 BackImage[3][0][0][0][0][1]=images/res/70-garagesemi-b.1.3
 --
 Obj=building
-Name=JH_RES_70_02
+Name=RES_JH_1970_02_02
 copyright=James
 type=res
 chance=50
@@ -59,11 +59,11 @@ BackImage[0][0][0][0][0][1]=images/res/70-garagesemi-e.1.2
 BackImage[3][0][0][0][0][1]=images/res/70-garagesemi-e.1.3
 --
 Obj=building
-Name=JH_RES_70_03
+Name=RES_JH_1970_03_04
 copyright=James
 type=res
 chance=15
-Level=12
+Level=4
 intro_year=1970
 retire_year=1990
 needs_ground=1

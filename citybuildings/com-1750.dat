@@ -1,5 +1,5 @@
 Obj=building
-Name=A_COM_1750_00
+Name=COM_A_1750_00_10
 copyright=Archon
 type=com
 chance=100
@@ -21,7 +21,7 @@ BackImage[3][0][0][0][0][1]=images/com/1750_inn.1.3
 ---
 
 Obj=building
-Name=A_COM_1750_01A
+Name=COM_A_1750_01_08
 copyright=Archon
 type=COM
 chance=50
@@ -51,7 +51,7 @@ BackImage[7][0][0][0][0][1]=images/com/1750-terrace-stone-shops.2.3
 ---
 
 Obj=building
-Name=A_COM_1750_01B
+Name=COM_A_1750_02_08
 copyright=Archon
 type=COM
 chance=50
@@ -82,7 +82,7 @@ BackImage[7][0][0][0][0][1]=images/com/1750-terrace-stone-shops.2.3
 ----
 
 Obj=building
-Name=A_COM_1750_02
+Name=COM_A_1750_03_07
 copyright=Archon
 type=com
 chance=100
