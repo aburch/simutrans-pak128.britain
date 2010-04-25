@@ -136,3 +136,6 @@ HISTORY
 	FIX: 1880 Offices snow images
 	FIX: Pillars on viaducts
 	FIX: Foreground images for stations with over-roof
+25/04/2010: r274-r275
+	ADD: combined electrification waytypes (jamespetts)
+	ADD: terraced town house (Archon)
