@@ -139,3 +139,7 @@ HISTORY
 25/04/2010: r274-r275
 	ADD: combined electrification waytypes (jamespetts)
 	ADD: terraced town house (Archon)
+02/05/2010: r277-279
+	ADD: New road and rail vehicles (jamespetts)
+	FIX: Tunnel retire years removed so can now build tunnels beyond 2000
+	CHANGE: implement cityroad timeline compatible with latest nightly exes
