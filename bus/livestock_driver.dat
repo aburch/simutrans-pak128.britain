@@ -12,7 +12,7 @@ freight=livestock
 payload=12
 power=5
 speed=6
-weight=0
+weight=1
 cost=2
 length=6
 runningcost=1
@@ -20,6 +20,7 @@ intro_year=1492
 intro_month=3
 retire_year=1925
 retire_month=3
+loading_time=5000
 
 constraint[next][0]=none
 constraint[prev][0]=none

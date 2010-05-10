@@ -14,6 +14,9 @@ intro_month=1
 retire_year=1932
 retire_month=3
 
+loading_time=7500
+comfort=0
+
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
 Constraint[Prev][2]=EagleTrailerBulk
@@ -100,6 +103,9 @@ intro_month=1
 retire_year=1932
 retire_month=3
 
+loading_time=7500
+comfort=0
+
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
 Constraint[Prev][2]=EagleTrailerBulk
@@ -156,6 +162,9 @@ intro_month=1
 retire_year=1932
 retire_month=3
 
+loading_time=7500
+comfort=0
+
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
 Constraint[Prev][2]=EagleTrailerBulk
@@ -201,6 +210,9 @@ intro_month=1
 retire_year=1932
 retire_month=3
 
+loading_time=7500
+comfort=0
+
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
 Constraint[Prev][2]=EagleTrailerBulk
@@ -245,6 +257,9 @@ intro_month=1
 retire_year=1932
 retire_month=3
 
+loading_time=7500
+comfort=0
+
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
 Constraint[Prev][2]=EagleTrailerBulk
@@ -288,6 +303,9 @@ intro_year=1857
 intro_month=1
 retire_year=1932
 retire_month=3
+
+loading_time=7500
+comfort=0
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive

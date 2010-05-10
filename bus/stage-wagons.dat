@@ -13,6 +13,8 @@ intro_year=1530
 intro_month=5
 retire_year=1842
 
+loading_time=10000
+comfort=0
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
@@ -44,6 +46,8 @@ intro_year=1530
 intro_month=5
 retire_year=1842
 
+loading_time=10000
+comfort=0
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
@@ -73,6 +77,9 @@ runningcost=100
 intro_year=1530
 intro_month=5
 retire_year=1842
+
+loading_time=10000
+comfort=0
 
 
 Constraint[Prev][0]=RoadHorsesSingle

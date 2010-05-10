@@ -19,6 +19,9 @@ Constraint[Prev][1]=RoadHorsesDouble
 
 Constraint[Next][0]=none
 
+loading_time=5000
+comfort=0
+
 EmptyImage[E]=./images/carts.0.0
 EmptyImage[SE]=./images/carts.0.1
 EmptyImage[S]=./images/carts.0.2
@@ -95,6 +98,9 @@ intro_month=1
 retire_year=1918
 retire_month=3
 
+loading_time=5000
+comfort=0
+
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
 
@@ -146,6 +152,9 @@ intro_month=1
 retire_year=1918
 retire_month=3
 
+loading_time=5000
+comfort=0
+
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
 
@@ -185,6 +194,9 @@ intro_year=1750
 intro_month=1
 retire_year=1918
 retire_month=3
+
+loading_time=5000
+comfort=0
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
