@@ -96,8 +96,8 @@ JH_IND_1880_00
 IND_JH_1860_00_06
 JH_IND_1880_01
 IND_JH_1860_01_12
-WL_IND_1900_00
-IND_JH_1900_00_05
+# WL_IND_1900_00
+# IND_JH_1900_00_05
 KG_RES_00_14
 RES_KG_1910_00_04
 KG_RES_00_15
@@ -170,3 +170,33 @@ KG_RES_1890-1
 RES_KG_1890_01_05
 KG_RES_1920_00
 RES_KG_1920_00_02
+############ Renames from old Experimental versions only #######################
+############################# Victorian coal mine ##############################
+VictorianCoalMine
+CoalMine1850
+#
+################################ Brick viaducts ################################
+BrickViaduct175
+BrickViaduct
+BrickViaduct200
+BrickViaduct
+BrickViaduct225
+ConcreteSupportedBridge
+BrickViaduct320
+ConcreteSupportedBridgeHighSpeed
+#
+############################## Stone road bridges ##############################
+stone_road_bridge_dirt
+MasonryViaductDirt
+stone_road_bridge_cobbles
+MasonryViaductCobbles
+#
+################################### Buildings ##################################
+RES_Archon_1900_3St_08
+RES_A_1900_00_08
+#
+############### Present in Standard but not in Experimental ####################
+WL_IND_1900_00
+IND_JH_1860_00_06
+IND_JH_1900_00_05
+IND_JH_1860_00_06
