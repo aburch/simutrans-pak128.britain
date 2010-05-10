@@ -424,22 +424,33 @@ bits_per_month = 20
 # (=1) drive on the left side of the road
 drive_left = 1
 
-# Type of initial intercity roads - must be available
-# as PAK file. Fallback (if PAK is not found) is "asphalt_road"
-intercity_road_type = cobblestone_road
+# The below sections deal with the types of roads built automatically by the game,
+# both when the map starts and during the game (in the case of city roads). Different
+# kinds of roads are available at different times. The types of roads specified must
+# be available in a .pak file. If a specified type is unavailable, Simutrans will
+# guess which road it should be using.
 
-# Type of city roads - must be available as PAK file.
-# Fallback (and default) is "city_road"
-#city_road_type = city_road
+# City roads timeline. Format examples: 
+# city_road[0]=name,1900,1920
+# city_road[1]=name2,1921,1950
+
 city_road[0]=city_road,1905,2050
 city_road[1]=cobblestone_road,1781,1904
 city_road[2]=dirt_road,1700,1780
+# Intercity roads timeline. Format examples: 
+# intercity_road[0]=name,1900,1920
+# intercity_road[1]=name2,1921,1950
+
+intercity_road[0]=dirt_road,1700,1860
+intercity_road[1]=cobblestone_road,1861,1902
+intercity_road[3]=tarmac_road,1903,1932
+intercity_road[4]=asphalt_road,1933,2050
 
 # Max. length of intitial intercity road connections
 # If you want to speed up map creation, lower this value
 # If you want more initial intercity roads, raise this value
 
-intercity_road_length = 6000
+intercity_road_length = 320
 
 ################################ Vehicle settings ##############################
 
