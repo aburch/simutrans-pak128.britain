@@ -7,7 +7,7 @@ waytype=road
 freight=Bucher
 payload=3
 power=6
-gear=140
+#gear=140
 speed=15
 weight=3
 length=3
@@ -23,12 +23,13 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=3000
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
+
+loading_time=6000
 comfort=0
 
 EmptyImage[E]=./images/thornycroft-steam-van.0.0
@@ -49,7 +50,7 @@ smoke=Steam
 waytype=road
 freight=meat
 payload=3
-gear=140
+#gear=140
 power=6
 speed=15
 weight=3
@@ -66,12 +67,14 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=3000
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
+
+
+loading_time=6000
 comfort=0
 
 
@@ -92,7 +95,7 @@ smoke=Steam
 waytype=road
 freight=Post
 payload=10
-gear=140
+#gear=140
 power=6
 speed=15
 weight=3
@@ -108,12 +111,13 @@ constraint[next][0]=none
 constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
-loading_time=3000
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
+
+loading_time=6000
 comfort=0
 
 

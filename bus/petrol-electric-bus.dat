@@ -1,3 +1,5 @@
+# http://home.fastnet.co.uk/gerrycork/amberleybus/ib552.jpg
+
 obj=vehicle
 name=PetrolElectricBus
 copyright=JamesPetts&JamesHood
@@ -6,8 +8,8 @@ engine_type=diesel
 freight=Passagiere
 payload=30
 speed=28
-power=6
-gear=200
+power=13
+gear=150
 weight=4
 length=4
 cost=96000
@@ -16,6 +18,9 @@ intro_year=1902
 intro_month=1
 retire_year=1919
 retire_month=11
+
+comfort=29
+loading_time=3150
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

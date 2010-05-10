@@ -21,12 +21,14 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2750
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
+
+loading_time=7500
+comfort=0
 
 EmptyImage[E]=./images/sentinel-s.0.0
 EmptyImage[SE]=./images/sentinel-s.0.1
@@ -111,12 +113,12 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2750
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
+loading_time=7500
 comfort=0
 
 EmptyImage[E]=./images/sentinel-s.10.0
@@ -172,13 +174,13 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2750
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
 comfort=0
+loading_time=7500
 
 EmptyImage[E]=./images/sentinel-s.7.0
 EmptyImage[SE]=./images/sentinel-s.7.1
@@ -213,13 +215,13 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2750
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
 comfort=0
+loading_time=7500
 
 EmptyImage[E]=./images/sentinel-s.8.0
 EmptyImage[SE]=./images/sentinel-s.8.1
@@ -252,13 +254,13 @@ constraint[next][0]=none
 constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
-loading_time=2750
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
 comfort=0
+loading_time=7500
 
 
 EmptyImage[E]=./images/sentinel-s.9.0

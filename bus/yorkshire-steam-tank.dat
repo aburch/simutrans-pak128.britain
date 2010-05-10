@@ -24,12 +24,13 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2850
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
+loading_time=8000
+comfort=0
 
 EmptyImage[E]=./images/yorkshire-steam-tank.0.0
 EmptyImage[SE]=./images/yorkshire-steam-tank.0.1
