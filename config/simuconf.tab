@@ -526,8 +526,9 @@ citycar_life = 4160
 
 # Colour of the cursor shading.
 # Pak128 default = 155 (orange)
-# Pak128.Britain default = 158 (yellow)
-cursor_overlay_color = 158
+# Older Pak128.Britain default = 158 (yellow)
+# Actual default used in Pak128.Britain-Standard = 168
+cursor_overlay_color = 168
 
 ################################### River settings ##################################
 
