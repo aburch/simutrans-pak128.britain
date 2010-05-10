@@ -6,7 +6,7 @@ smoke=Steam
 waytype=road
 freight=Kohle
 payload=5
-gear=150
+#gear=150
 power=40
 speed=42
 weight=5
@@ -22,7 +22,7 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2750
+loading_time=7500
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
@@ -98,7 +98,7 @@ smoke=Steam
 waytype=road
 freight=Bretter
 payload=5
-gear=150
+#gear=150
 power=40
 speed=42
 weight=5
@@ -114,7 +114,7 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2750
+loading_time=7500
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
@@ -160,7 +160,7 @@ smoke=Steam
 waytype=road
 freight=Bucher
 payload=8
-gear=150
+#gear=150
 power=40
 speed=42
 weight=5
@@ -176,7 +176,7 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2750
+loading_time=7500
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
@@ -211,7 +211,7 @@ smoke=Steam
 waytype=road
 freight=meat
 payload=8
-gear=150
+#gear=150
 power=40
 speed=42
 weight=5
@@ -227,7 +227,7 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2750
+loading_time=7500
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
@@ -261,7 +261,7 @@ smoke=Steam
 waytype=road
 freight=livestock
 payload=8
-gear=150
+#gear=150
 power=40
 speed=42
 weight=5
@@ -277,7 +277,7 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2750
+loading_time=7500
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
