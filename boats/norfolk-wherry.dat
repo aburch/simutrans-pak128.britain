@@ -5,7 +5,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=20
-gear=1200
+#gear=1200
 freight=Kohle
 payload=25
 weight=17
@@ -19,6 +19,9 @@ retire_month=6
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/norfolk-wherry.0.0
 EmptyImage[SE]=./images/norfolk-wherry.0.1
@@ -87,7 +90,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=20
-gear=1200
+#gear=1200
 freight=Bretter
 payload=25
 weight=17
@@ -101,6 +104,9 @@ retire_month=6
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/norfolk-wherry.0.0
 EmptyImage[SE]=./images/norfolk-wherry.0.1
@@ -139,7 +145,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=20
-gear=1200
+#gear=1200
 freight=vegetables
 payload=25
 weight=17
@@ -153,6 +159,9 @@ retire_month=6
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/norfolk-wherry.0.0
 EmptyImage[SE]=./images/norfolk-wherry.0.1
@@ -179,7 +188,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=20
-gear=1200
+#gear=1200
 freight=meat
 payload=25
 weight=17
@@ -193,6 +202,9 @@ retire_month=6
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/norfolk-wherry.0.0
 EmptyImage[SE]=./images/norfolk-wherry.0.1
@@ -219,7 +231,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=20
-gear=1200
+#gear=1200
 freight=Post
 payload=25
 weight=17
@@ -233,6 +245,9 @@ retire_month=6
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/norfolk-wherry.0.0
 EmptyImage[SE]=./images/norfolk-wherry.0.1
@@ -259,7 +274,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=20
-gear=1200
+#gear=1200
 freight=Passagiere
 payload=25
 weight=17
@@ -271,8 +286,13 @@ intro_month=1
 retire_year=1920
 retire_month=6
 
+comfort=125
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/norfolk-wherry.10.0
 EmptyImage[SE]=./images/norfolk-wherry.10.1

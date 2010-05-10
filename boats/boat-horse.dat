@@ -3,7 +3,7 @@ name=BoatHorsesDouble
 engine_type=bio
 speed=10
 power=20
-gear=1200
+#gear=1200
 copyright=James
 intro_year=1750
 intro_month=1
@@ -16,6 +16,9 @@ weight=1
 cost=100000
 runningcost=15
 sound=-1
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/boat-horse-double.0
 EmptyImage[SE]=./images/boat-horse-double.1
@@ -31,7 +34,7 @@ name=BoatHorsesSingle
 engine_type=bio
 speed=10
 power=10
-gear=1200
+#gear=1200
 copyright=James
 intro_year=1750
 intro_month=1
@@ -44,6 +47,9 @@ weight=1
 cost=50000
 runningcost=7
 sound=-1
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/boat-horse-single.0
 EmptyImage[SE]=./images/boat-horse-single.1

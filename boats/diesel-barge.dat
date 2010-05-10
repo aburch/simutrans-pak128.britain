@@ -6,7 +6,7 @@ engine_type=steam
 smoke=Diesel
 speed=30
 power=50
-gear=1200
+#gear=1200
 freight=Kohle
 payload=20
 weight=10
@@ -25,6 +25,8 @@ Constraint[Next][2]=HorseBargeLong
 Constraint[Next][3]=HorseBargePiece
 Constraint[Next][4]=none
 
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/diesel-barge.0.0
 EmptyImage[SE]=./images/diesel-barge.0.1
@@ -94,7 +96,7 @@ engine_type=steam
 smoke=Diesel
 speed=30
 power=50
-gear=1200
+#gear=1200
 freight=Bretter
 payload=20
 weight=10
@@ -112,6 +114,9 @@ Constraint[Next][2]=HorseBargeLong
 Constraint[Next][3]=HorseBargePiece
 Constraint[Next][4]=none
 Constraint[Prev][0]=none
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/diesel-barge.0.0
 EmptyImage[SE]=./images/diesel-barge.0.1
@@ -151,7 +156,7 @@ engine_type=steam
 smoke=Diesel
 speed=30
 power=50
-gear=1200
+#gear=1200
 freight=vegetables
 payload=20
 weight=10
@@ -170,6 +175,9 @@ Constraint[Next][3]=HorseBargePiece
 Constraint[Next][4]=none
 Constraint[Prev][0]=none
 
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
+
 EmptyImage[E]=./images/diesel-barge.7.0
 EmptyImage[SE]=./images/diesel-barge.7.1
 EmptyImage[S]=./images/diesel-barge.7.2
@@ -187,7 +195,7 @@ engine_type=steam
 smoke=Diesel
 speed=30
 power=50
-gear=1200
+#gear=1200
 freight=meat
 payload=20
 weight=10
@@ -206,6 +214,8 @@ Constraint[Next][3]=HorseBargePiece
 Constraint[Next][4]=none
 Constraint[Prev][0]=none
 
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/diesel-barge.8.0
 EmptyImage[SE]=./images/diesel-barge.8.1
@@ -224,7 +234,7 @@ engine_type=steam
 smoke=Diesel
 speed=30
 power=50
-gear=1200
+#gear=1200
 freight=Oel
 payload=20
 weight=10
@@ -243,6 +253,8 @@ Constraint[Next][3]=HorseBargePiece
 Constraint[Next][4]=none
 Constraint[Prev][0]=none
 
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/diesel-barge.9.0
 EmptyImage[SE]=./images/diesel-barge.9.1
