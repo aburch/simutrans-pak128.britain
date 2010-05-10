@@ -2,7 +2,7 @@
 
 obj=vehicle
 name=MailBike
-copyright=jamespetts&graphic_author
+copyright=JamesHood&JamesPetts
 engine_type=bio
 #smoke=Steam
 waytype=road
@@ -10,10 +10,10 @@ waytype=road
 freight=Post
 payload=2
 power=1
-speed=20
-weight=0
+speed=22
+weight=1
 length=2
-cost=1
+cost=5
 runningcost=1
 intro_year=1885
 intro_month=9
@@ -34,10 +34,11 @@ EmptyImage[NE]=./images/mailbike.0.7
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2500
 #upgrade[0]=
 #upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
 comfort=0
+
+loading_time=1500
