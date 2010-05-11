@@ -2,8 +2,9 @@ obj=vehicle
 name=Tram-Horses
 engine_type=bio
 speed=15
-power=5
-gear=1200
+power=12
+tractive_effort=2
+#gear=150
 copyright=James
 intro_year=1860
 intro_month=1
@@ -18,6 +19,7 @@ runningcost=5
 sound=-1
 
 Constraint[Prev][0]=none
+way_constraint_prohibitive[0]=0
 
 Constraint[Next][0]=Large-2-Deck-Trailer
 Constraint[Next][1]=Small-2-Deck-Trailer

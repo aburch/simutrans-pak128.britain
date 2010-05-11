@@ -2,13 +2,13 @@ obj=vehicle
 name=Toastrack
 engine_type=electric
 speed=40
-gear=180
+##gear=180
 power=50
 copyright=James
 intro_year=1890
-intro_month=1
+intro_month=4
 retire_year=1923
-retire_month=1
+retire_month=12
 waytype=schiene_tram
 freight=Passagiere
 payload=40
@@ -19,8 +19,14 @@ cost=200000
 runningcost=86
 sound=-1
 
-Constraint[Prev][0]=none
+can_lead_from_rear=1
+bidirectional=0 # Trolley poles need turning around.
+way_constraint_permissive[1]=1
+way_constraint_prohibitive[0]=0
+comfort=31
+loading_time=3400
 
+Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
 EmptyImage[E]=./images/toastrack.0.0
