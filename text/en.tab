@@ -2284,6 +2284,8 @@ CartCool
 Cart (cooled goods)
 CartMail
 Cart (mail)
+CartMailNew
+Cart (mail)
 WagonBulk
 Wagon (bulk goods)
 WagonLong
@@ -2851,7 +2853,7 @@ Clan Line Cargo Steamer (bulk fluids)
 HandysizeOil
 Handysize Tanker (bulk fluids)
 SchoonerBulk
-Schooner(bulk goods)
+Schooner (bulk goods)
 SchoonerPiece
 Schooner (piece goods)
 SchoonerCool
@@ -2882,6 +2884,10 @@ BlackwallFrigatePiece
 Blackwall Frigate (piece goods)
 BlackwallFrigateLong
 Blackwall Frigate (long goods)
+BlackwallFrigateAddPax
+Passenger accomodation for the Blackwall Frigate
+BlackwallFrigateAddMail
+Mail accomodation for the Blackwall Frigate
 ClipperBulk
 Clipper (bulk goods)
 ClipperPiece
@@ -2944,18 +2950,34 @@ BR-Ultra-520DD(rear)
 Ultraspeed Class M30 "Platinum Jubilee" (rear)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
+wrought_iron_track_light
+Plateway
 wrought_iron_track
 Wrought Iron Track
 wrought_iron_improved_track
 Improved Wrought Iron Track
 wssr
 Wooden Sleeper Steel Rail Track
+wssr_light
+Wooden Sleeper Steel Rail Track (light)
+wssr_heavy
+Wooden Sleeper Steel Rail Track (heavy)
 wssri
 Improved Wooden Sleeper Steel Rail Track
+wssri_heavy
+Improved Wooden Sleeper Steel Rail Track (heavy)
 cssr
 Concrete Sleeper Steel Rail Track
+cssr_heavy
+Concrete Sleeper Steel Rail Track (heavy)
+cssr_light
+Concrete Sleeper Steel Rail Track (light)
 cssri
 Improved Concrete Sleeper Steel Rail Track
+sssr
+Steel Sleeper Steel Rail Track
+sssr_light
+Steel Sleeper Steel Rail Track (light)
 tgv
 High Speed Rail Track
 asphalt_road
@@ -2965,11 +2987,19 @@ City Road
 cobblestone_road
 Cobblestone road
 dirt_road
-Dirt Road
+Macadam Road
+motorway
+Motorway
+concrete_road
+Concrete Road
+tarmac_road
+Tarmac Road
 Powerline
 High voltage transmission line
 TramTrack
 Tramway Tracks
+TramTrackHeavy
+Tramway Tracks (heavyweight)
 Canal
 Canal
 GrassTaxiway
@@ -2989,6 +3019,8 @@ Lightweight Concrete Maglev Track
 Economical_Concrete_Maglev_Track_Elevated
 Lightweight Concrete Maglev Track (elevated)
 BrickViaductElevated
+Brick Viaduct Elevated Railway
+BrickViaductElevatedEarly
 Brick Viaduct Elevated Railway
 #__________________________________stations/stops___________________________________
 #__________________________________stations/stops___________________________________
@@ -3134,5 +3166,37 @@ ATC_choosesignal
 Choose Signal
 ATC_EndofChooseSignal
 End of Choose Signal Block Sign
-
-
+#__________________________________Way constraints__________________________________
+#__________________________________Way constraints__________________________________
+Permissive 0
+DC Third Rail Electrification
+Permissive 1
+DC Overhead Catenary
+Permissive 2
+AC Overhead Catenary
+Permissive 3
+DC Fourth Rail Electrification
+Permissive 4
+Waterway
+Permissive 5
+[Unused] Permissive 5
+Permissive 6
+[Unused] Permissive 6
+Permissive 7
+[Unused] Permissive 7
+Prohibitive 0
+Tramway
+Prohibitive 1
+Tube tunnel
+Prohibitive 2
+Small waterway
+Prohibitive 3
+[Unused] Prohibitive 3
+Prohibitive 4
+[Unused] Prohibitive 4
+Prohibitive 5
+[Unused] Prohibitive 5
+Prohibitive 6
+[Unused] Prohibitive 6
+Prohibitive 7
+[Unused] Prohibitive 7
