@@ -3,13 +3,13 @@ name=Metropolitan-Class-E
 engine_type=steam
 smoke=Steam
 speed=95
-gear=375
+#gear=350
 power=450
 copyright=Kieron
 intro_year=1898
-intro_month=1
+intro_month=4
 retire_year=1924
-retire_month=1
+retire_month=12
 waytype=track
 freight=None
 payload=0
@@ -18,6 +18,8 @@ weight=54
 cost=6300000
 runningcost=594
 sound=-1
+
+bidirectional=1
 
 EmptyImage[E]=./images/met-class-e.0
 EmptyImage[SE]=./images/met-class-e.1
