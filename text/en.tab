@@ -1186,10 +1186,20 @@ LNER-V2-Tender(Green)
 LNER Class V2 (tender)
 SR-MerchantNavy 4-6-2(Green)
 SR Merchant Navy Class 4-6-2
+SR-MerchantNavyRebuilt 4-6-2(Green)
+SR Rebuilt Merchant Navy Class 4-6-2
 SR-MerchantNavy 4-6-2Tender(Green)
-SR Merchant Navy Class (tender)
+SR Merchant Navy/West Country Class (tender)
+SR-WestCountry_4-6-2(Green)
+SR West Country Class 4-6-2
+SR-WestCountryRebuilt_4-6-2(Green)
+SR Rebuilt West Country Class 4-6-2
+SR-CC(Green)
+SR Bulleid/Raworth CC
 LNER-A1(Green)
-LNER Class A1/A3 4-6-2
+LNER Class A1 4-6-2
+LNER-A3(Green)
+LNER Class A3 4-6-2
 LNER-A1-Tender(Green)
 LNER Class A1/A3 (tender)
 BR-7MT(Green)
@@ -1256,10 +1266,22 @@ BR-251Front
 BR Class 251 "Blue Pullman"
 BR-251Rear
 BR Class 251 "Blue Pullman" (rear cab)
+BR-442-Front(NSE)
+BR Class 442 "Wessex Electric" (driving trailer - front)
+BR-442-Middle1(NSE)
+BR Class 442 "Wessex Electric" (trailer)
+BR-442-Middle2(NSE)
+BR Class 442 "Wessex Electric" (motor brake buffet)
+BR-442-Middle3(NSE)
+BR Class 442 "Wessex Electric" (trailer)
+BR-442-Rear(NSE)
+BR Class 442 "Wessex Electric" (driving trailer - rear)
 LMR-4Wheel-First
 LMR 4 Wheel Carriage (1st class)
 LMR-4Wheel-TPO
 LMR 4 Wheel TPO
+LMR-4Wheel-Mail
+LMR 4 Wheel Mail
 LNWR-1847-First
 LNWR 4 Wheel Carriage
 LNWR-1847-Brake
@@ -1307,7 +1329,7 @@ GNR 4 Wheel Carriage (brake)
 BR-251SecondParlourFront
 BR Class 251 "Blue Pullman" (2nd class front parlour)
 BR-251SecondParlourRear
-BR Class 251 "Blue Pullman" (2nd class rear parlour)
+BR Class 251 "Blue Pullman" (kitchen car)
 BR-251FirstParlour
 BR Class 251 "Blue Pullman" (1st class parlour)
 BR-220Front(Virgin)
@@ -1317,7 +1339,7 @@ BR Class 221 "Super Voyager"
 GWR-ParkRoyal-Railcar
 GWR Park Royal Railcar
 SR-Bulleid-Express-Brake(Green)
-SR Express Carriage (brake)
+SR Bulleid Express Carriage (brake)
 BR-Mk1-BC(Blue-Grey)
 BR Mk.1 Carriage (brake)
 BR-Mk1-BC(Crimson-Cream)
@@ -1377,7 +1399,7 @@ BR Class 170 "Turbostar" DMU (middle)
 BR-170Rear(Scotrail)
 BR Class 170 "Turbostar" DMU (rear)
 SR-Bulleid-Express-Coach(Green)
-SR Express Carriage
+SR Bulleid Express Carriage
 BR-180Middle(FGW)
 BR Class 180 "Adelante" (middle)
 BR-180Rear(FGW)
@@ -1441,9 +1463,11 @@ GWR Gloucester Railcar
 GWR-Autocoach
 GWR Autocoach
 GWR-Droplight-Third(Mahogany)
-GWR Droplight Carriage
+GWR Corridor carriage
 GWR-Droplight-Brake(Mahogany)
-GWR Droplight Brake Carriage
+GWR Corridor brake carriage
+GWR-Droplight-Dining(Mahogany)
+GWR Corridor dining carriage
 LNER-Gresley-Express-Coach(Teak)
 LNER Teak Express Carriage
 BR-Mk1-TO(Blue-Grey)
@@ -1456,8 +1480,18 @@ BR-Mk2-TO(Intercity)
 BR Mk. 2d Standard Open
 BR-Mk3-TO(Intercity)
 BR Mk. 3 Standard Open
+BR-Mk3a-TO(Intercity)
+BR Mk. 3a Standard Open
 BR-Mk4-TSO(Intercity)
 BR Mk. 4 Standard Open
+BR-423-DTCL-Front
+BR Class 423 "4Vep" EMU
+BR-423-MBSO
+BR Class 423 "4Vep" EMU (motor brake open)
+BR-423-TSO
+BR Class 423 "4Vep" EMU (trailer open)
+BR-423-DTCL-Rear
+BR Class 423 "4Vep" EMU (rear)
 BR-410[CEP]Front(Blue-Grey)
 BR Class 410 "4Cep" EMU
 BR-410[CEP]Brake(Blue-Grey)
@@ -1480,6 +1514,8 @@ BR-303Rear(CaledonianBlue)
 BR Class 303 EMU (rear)
 BR-153(Regional)
 BR Class 153 "Super-Sprinter" DMU
+BR-153-Trolley(Regional)
+BR Class 153 "Super-Sprinter" DMU (with trolley service)
 BR-313Front(Blue-Grey)
 BR Class 313 EMU
 BR-313Pantograph(Blue-Grey)
@@ -1496,12 +1532,16 @@ BR-319Rear(NSE)
 BR Class 319 EMU (rear)
 BR-156Front(Regional)
 BR Class 156 "Super-Sprinter" DMU
+BR-156Front-Trolley(Regional)
+BR Class 156 "Super-Sprinter" DMU (with trolley service)
 BR-156Rear(Regional)
 BR Class 156 "Super-Sprinter" DMU (rear)
 LMS-502Front(Maroon)
 LMS Class 502 EMU
 LMS-502Rear(Maroon)
 LMS Class 502 EMU (rear)
+LMS-502Middle(Maroon)
+LMS Class 502 EMU (middle)
 Metropolitan-Motor-Third-Front
 Metropolitan 1907 Motorised Tube Stock
 Metropolitan-Motor-Third-Middle
@@ -1524,14 +1564,22 @@ BR-165Middle(NSE)
 BR Class 165 "Network Turbo" DMU (middle)
 BR-165Rear(NSE)
 BR Class 165 "Network Turbo" DMU (rear)
+BR-166Front(NSE)
+BR Class 166 "Network Express" DMU
+BR-166Middle(NSE)
+BR Class 166 "Network Express" DMU (middle)
+BR-166Middle-Trolley(NSE)
+BR Class 166 "Network Express" DMU (middle, with trolley service)
+BR-166Rear(NSE)
+BR Class 166 "Network Express" DMU (rear)
 BR-Class43(Intercity)
-BR Class 43 "HST 125"
+BR Class 253 "InterCity 125"
 BR-Class43Rear(Intercity)
-BR Class 43 "HST 125" (rear)
+BR Class 253 "InterCity 125" (rear)
 BR-Mk3-DVT(Intercity)
 BR Mk.3 DVT
 BR-Mk4-DVT(Intercity)
-BR Mk.4 DVT
+BR-Mk.4 DVT
 GWR-Gloucester-Parcel-Railcar
 GWR Gloucester Parcel Railcar
 RM-325Front(RM)
@@ -1617,25 +1665,29 @@ LMS "Coronation Scot" Carriage (front brake)
 LMS-Coronation-BTK(Maroon)
 LMS "Coronation Scot" Carriage (rear brake)
 LMS-Coronation-FK(Maroon)
-LMS "Coronation Scot" Carriage (first class)
+LMS "Coronation Scot" Dining Carriage
 LMS-Coronation-TO(Maroon)
-LMS "Coronation Scot" Carriage (third class)
+LMS "Coronation Scot" Carriage 
 MR-Clerestory-Brake
 MR Clerestory Carriage (brake)
 MR-Clerestory-Coach
 MR Clerestory Carriage
 Teak-Clerestory-Brake
-Teak Clerestory Carriage (brake)
+GNR Clerestory Carriage (brake)
 Teak-Clerestory-Coach
-Teak Clerestory Carriage
+GNR Clerestory Carriage
+Teak-Clerestory-Dining
+GNR Clerestory Dining Carriage
 CC-Clerestory-Brake
-Chocolate & Cream Clerestory Carriage (brake)
+GWR Clerestory Carriage (brake)
 CC-Clerestory-Coach
-Chocolate & Cream Clerestory Carriage
+GWR Clerestory Carriage
 SR-Maunsell-Brake(Green)
 SR Maunsell Express Carriage (brake)
 SR-Maunsell-Third(Green)
 SR Maunsell Express Carriage
+SR-Maunsell-Dining(Green)
+SR Maunsell Dining Carriage
 GWR-Express-Brake
 GWR Express Carriage (brake)
 GWR-Express-Coach
@@ -1644,6 +1696,8 @@ LMS-d1904-Coach
 LMS Standard Carriage
 LMS-d2007-Parcel-Brake
 LMS Parcel Brake Carriage
+LMS-d1904-Dining
+LMS Dining car
 LMS-Garratt-Middle(Black)
 LMS Garratt 2-6-0+0-6-2 (boiler)
 LMS-Garratt-Front(Black)
@@ -1895,7 +1949,7 @@ LNER 7t brake van
 BrakeBR
 BR standard 7t brake van
 CC-Clerestory-Dining
-GWR Chocolate & cream clerestory dining car
+GWR clerestory dining car
 GWR-Express-Dining
 GWR express dining car
 LMS-d1904-dining
@@ -1904,36 +1958,58 @@ LNER-Gresley-Express-Dining(Teak)
 LNER dining car (teak)
 SR-Bulleid-Express-Dining(Green)
 SR Bulleid dining car
-BR-Mk1-RBR(Crimson-Cream)
+BR-Mk1-RMB(Crimson-Cream)
+BR Mk. 1 Mini-Buffet
+BR-Mk1-RMB(Maroon)
+BR Mk. 1 Mini-Buffet
+BR-Mk1-RMB(Blue-Grey)
+BR Mk. 1 Mini-Buffet
+BR-Mk1-RB(Crimson-Cream)
 BR Mk. 1 Restaurant Buffet
-BR-Mk1-RBR(Maroon)
+BR-Mk1-RB(Maroon)
 BR Mk. 1 Restaurant Buffet
 BR-Mk1-RBR(Blue-Grey)
 BR Mk. 1 Restaurant Buffet Refurbished
 BR-Mk2-RFB(Intercity)
-BR Mk. 2d Restaurant Full Buffet
+BR Mk. 2d Mini-Buffet
+BR-Mk2-DBSO(Intercity)
+BR Mk. 2a Driving Brake Open
+BR-Mk2a-RMB(Blue-Grey)
+BR Mk. 2a Mini-Buffet
+BR-Mk2a-TSO(Blue-Grey)
+BR Mk. 2a Standard Open
+BR-Mk2a-BSO(Blue-Grey)
+BR Mk. 2a Brake Open
 BR-Mk3-TRB(Intercity)
+BR Mk. 3 Buffet
+BR-Mk3a-TRB(Intercity)
+BR Mk. 3a Buffet
+BR-Mk3-TRFB(Intercity)
 BR Mk. 3 Restaurant Buffet
+BR-Mk3a-TRFB(Intercity)
+BR Mk. 3a Restaurant Buffet
 BR-Mk4-RSB(Intercity)
 BR Mk. 4 Restaurant Buffet
 LSWR-Third-Brake
-LSWR Third Brake
+LSWR Compartment Brake
 LSWR-Third-Carriage
-LSWR Third Carriage
+LSWR Compartment Carriage
 LNWR-1847-Mail
 LNWR 4-wheel mail coach
 CC-Clerestory-Parcel-Brake
-Chocolate & cream clerestory parcel brake coach
+GWR clerestory parcel brake coach
 CC-Clerestory-TPO
-Chocolate & cream clerestory travelling post office
+GWR clerestory travelling post office
 Teak-Clerestory-Parcel-Brake
-LNER clerestory parcel brake coach (teak)
+GNR clerestory parcel brake coach (teak)
 Teak-Clerestory-TPO
-LNER clerestory travelling post office (teak)
+GNR clerestory travelling post office (teak)
 MR-Clerestory-Parcel-Brake
 MR clerestory parcel brake coach
 MR-Clerestory-TPO
 MR clerestory travelling post office
+MR-Clerestory-Dining
+MR clerestory dining car
 MSLR-4Wheel-Mail
 MSLR 4-wheel mail coach
 MR-4Wheel-Mail
@@ -1963,21 +2039,23 @@ SR Travelling Post Office
 BR-Mk1-TPO(RoyalMail)
 BR Mk. 1 Travelling Post Office
 CC-Clerestory-Mail
-GWR Chocolate & cream clerestory mail van
+GWR clerestory mail van
 Teak-Clerestory-Mail
-Teak Clerestory Mail Van
-Teak-Clerestory-Dining
-Teak Clerestory Dining Car
+GNR Clerestory Mail Van (teak)
 MR-Clerestory-Mail
 MR Clerestory Mail van
-MR-Clerestory-Dining
-MR Clerestory Dining Car
 BR-Mk1-BG(Crimson-Cream)
+BR Mk. 1 Gangwayed Brake
+BR-Mk1-BG(RoyalMail)
 BR Mk. 1 Gangwayed Brake
 BR-Mk1-BG(Maroon)
 BR Mk. 1 Gangwayed Brake
 BR-Mk1-BG(Blue-Grey)
 BR Mk. 1 Gangwayed Brake
+BR-Mk1-Sub(Maroon)
+BR Mk. 1 Suburban compartment
+BR-Mk1-Sub-Brake(Maroon)
+BR Mk. 1 Suburban compartment brake
 SR-Maunsell-Mail(Green)
 SR Maunsell Mail van
 GWR-Express-Mail
@@ -1988,50 +2066,6 @@ LNER-Gresley-Express-Mail(Teak)
 LNER mail coach (teak)
 BR-Mk1-POS(RoyalMail)
 BR Mk. 1 Mail coach
-BR-Mk2a-TSO(Blue-Grey)
-BR Mk. 2a Standard Open
-BR-Mk2a-RMB(Blue-Grey)
-BR Mk. 2a Miniature Buffet
-BR-Mk2a-BSO(Blue-Grey)
-BR Mk. 2a Standard Open (brake)
-GWR-Droplight-Dining(Mahogany)
-GWR Droplight Dining Car
-SR-Maunsell-Dining(Green)
-SR Maunsell Express Dining Car
-LMS-d1904-Dining
-LMS Dining Car
-BR-Mk3a-TRB
-BR Mk. 3a Restaurant Buffet
-BR-Mk3a-TO
-BR Mk. 3a Standard Open
-BR-442-Middle1(NSE)
-BR Class 442 (middle)
-BR-442-Middle2(NSE)
-BR Class 442 (middle)
-BR-442-Middle3(NSE)
-BR Class 442 (middle)
-BR-442-Front(NSE)
-BR Class 442
-BR-442-Rear(NSE)
-BR Class 442 (rear)
-BR-Mk1-BG(RoyalMail)
-BR Mk. 1 Gangwayed Brake
-BR-423-DTCL-Front
-BR Class 423 "4Vep" EMU
-BR-423-MBSO
-BR Class 423 "4Vep" EMU (MBSO)
-BR-423-TSO
-BR Class 423 "4Vep" EMU (TSO)
-BR-423-DTCL-Rear
-BR Class 423 "4Vep" EMU (Rear)
-SR-CC(Green)
-SR CC Electric
-SR-MerchantNavyRebuilt_4-6-2(Green)
-SR Merchant Navy 4-6-2 (Rebuilt)
-SR-WestCountry_4-6-2(Green)
-SR West Country 4-6-2
-SR-WestCountryRebuilt_4-6-2(Green)
-SR West Country 4-6-2 (Rebuilt)
 MSJ&A-EMU-driving-trailer
 MSJ&A stock driving trailer
 MSJ&A-EMU-centre-trailer
@@ -2070,10 +2104,6 @@ BR-4MT(Black)
 BR Standard Class 4MT 2-6-0
 BR-4MT-Tender(Black)
 BR Standard Class 4MT tender
-BR-Mk1-Sub(Maroon)
-BR Mk. 1 Suburban compartment
-BR-Mk1-Sub-Brake(Maroon)
-BR Mk. 1 Suburban compartment brake
 GWR-Saint
 GWR 2900 "Saint" Class 4-6-0
 GWR-Saint-Tender
