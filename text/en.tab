@@ -90,12 +90,82 @@ ShortSteelGirderLight
 Short Steel Girder Rail Bridge (light)
 ShortSteelGirderHeavy
 Short Steel Girder Rail Bridge (heavy)
+SteelBoxGirder
+Steel Box Girder Rail Bridge
+SteelBoxGirderLight
+Steel Box Girder Rail Bridge (light)
+SupportedSteelLatticeLight
+Supported Steel Lattice Rail Bridge (light)
+SupportedSteelLattice
+Supported Steel Lattice Rail Bridge
+SupportedSteelLatticeHeavy
+Supported Steel Lattice Rail Bridge (heavy)
+Cantilever
+Steel Cantilever Rail Bridge
+SuspensionEarly
+Steel Suspension Rail Bridge
+SuspensionLate
+Steel Suspension Rail Bridge (modern)
+SuspensionHighSpeed
+Steel Suspension Rail Bridge (high speed)
+ConcreteSpanningBridgeLight
+Concrete Spanning Rail Bridge (light)
+ConcreteSpanningBridgeHeavy
+Concrete Spanning Rail Bridge (heavy)
+ConcreteSpanningBridge
+Concrete Spanning Rail Bridge
+ConcreteSpanningBridgeNew
+Concrete Spanning Rail Bridge (improved)
+ConcreteSupportedBridge
+Concrete Supported Rail Bridge
+ConcreteSupportedBridgeLight
+Concrete Supported Rail Bridge (light)
+ConcreteSupportedBridgeHighSpeed
+Concrete Supported Rail Bridge (high speed)
+ConcreteSpanningBridgeHighSpeed
+Concrete Spanning Rail Bridge (high speed)
 WoodTrestleRoad
 Wooden Trestle Road Bridge
 BrickViaductRoad
 Brick Road Bridge (tarmac)
 BrickViaductCobbles
 Brick Road Bridge (cobblestone)
+concrete_spanning_road_bridge
+Concrete Spanning Road Bridge
+concrete_supported_road_bridge
+Concrete Supported Road Bridge
+concrete_supported_motorway_bridge
+Concrete Supported Motorway Bridge
+concrete_spanning_motorway_bridge
+Concrete Spanning Motorway Bridge
+steel_spanning_road_bridge_cobbles
+Steel Spanning Road Bridge (cobblestone)
+steel_spanning_road_bridge_tarmac
+Steel Spanning Road Bridge (tarmac)
+steel_spanning_road_bridge_asphalt
+Steel Spanning Road Bridge (asphalt)
+steel_supported_road_bridge_cobbles
+Steel Supported Road Bridge (cobblestone)
+steel_supported_road_bridge_tarmac
+Steel Supported Road Bridge (tarmac)
+steel_supported_road_bridge_asphalt
+Steel Supported Road Bridge (asphalt)
+suspension_road_bridge_early
+Suspension Road Bridge
+suspension_road_bridge_late
+Suspension Road Bridge (improved)
+suspension_road_bridge_motorway
+Suspension Motorway Bridge
+stone_road_bridge_dirt
+Masonry Road Bridge (Macadam)
+stone_road_bridge_cobbles
+Masonry Road Bridge (cobblestone)
+wooden_road_bridge_dirt
+Wooden Road Trestle (Macadam)
+wooden_road_bridge_cobbles
+Wooden Road Trestle (cobblestone)
+wooden_road_bridge_tarmac
+Wooden Road Trestle (tarmac)
 BrickAqueduct
 Brick Aqueduct
 PowerBridge
@@ -104,6 +174,8 @@ MasonryViaductRoad
 Masonry Road Bridge (tarmac)
 MasonryViaductCobbles
 Masonry Road Bridge (cobblestone)
+MasonryViaductDirt
+Masonry Road Bridge (macadam)
 Concrete_Maglev_Bridge
 Concrete Maglev Bridge
 Economical_Concrete_Maglev_Bridge
@@ -116,6 +188,8 @@ RailTunnelBrick
 Brick Rail Tunnel
 RailTunnelConcrete
 Concrete Rail Tunnel
+RailTunnelHighSpeed
+High Speed Rail Tunnel
 RoadTunnelStone
 Stone Road Tunnel
 RoadTunnelBrick
@@ -160,6 +234,46 @@ City Hall
 #___________________________________crossing____________________________________
 Crossing1
 Crossing
+#_____________________________________depot______________________________________
+#_____________________________________depot______________________________________
+AirHangarOld
+Aircraft hangar
+AirHangarModern
+Aircraft hangar
+ModernBoatyard
+Shipyard
+OldBoatyard
+Shipyard (sail)
+OldBoatyardSteam
+Shipyard (steam)
+CoachStable
+Coaching stable
+OldRoadDepotSteam
+Road garage (steam)
+OldRoadDepot
+Road garage (diesel)
+OldRoadDepotElectric
+Trolleybus garage
+ModernRoadDepot
+Road depot (diesel)
+ModernRoadDepotElectric
+Trolleybus depot
+ModernRoadDepotMixed
+Road depot (general)
+ModernTramDepot
+Tram depot
+OldTramDepotHorse
+Tram stables
+OldTramDepotSteam
+Tram depot (steam)
+OldTramDepot
+Tram depot (electric)
+OldTrainDepotHorse
+Railway stables
+OldTrainDepot
+Railway depot (steam)
+OldTrainDepotElectric
+Railway depot (electric)
 OldTrainDepotDiesel
 Railway depot (diesel)
 ModernTrainDepot
@@ -354,9 +468,9 @@ Small_Rugby_Ground
 Small Rugby Ground
 Stonehenge
 Stonehenge
-Knight-Monument
+Knight_Monument
 Monument of a Knight
-War-Memorial
+War_Memorial
 War Memorial
 NelsonColumn2
 Nelson's Column
