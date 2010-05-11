@@ -15,7 +15,8 @@ mkdir %OUTPUT%config/
 xcopy ./config/*.tab %OUTPUT%config/
 mkdir %OUTPUT%text/
 xcopy ./text/*.* %OUTPUT%text/
-xcopy ./demo.sve %OUTPUT%
+mkdir %OUTPUT%sound/
+xcopy ./sound/*.* %OUTPUT%sound/xcopy ./demo.sve %OUTPUT%
 xcopy ./licence.txt %OUTPUT%
 xcopy ./readme.txt %OUTPUT%
 xcopy ./compat.tab %OUTPUT%
@@ -47,6 +48,7 @@ echo Build goods
 build %OUTPUT%BritGoods.pak ./goods/
 
 echo Build grounds
+# Note, ground.Outside.pak must be in the top dir for it to be ID'ed as a pak
 build %OUTPUT% ./grounds/
 
 echo Build gui
@@ -55,7 +57,7 @@ echo Build gui
 build %OUTPUT%BritGUI64.pak ./gui/gui64/
 !size=128
 #build %OUTPUT% ./gui/gui128/
-build %OUTPUT% ./gui/gui128/
+build %OUTPUT%BritGUI128.pak ./gui/gui128/
 
 echo Build industry
 build %OUTPUT%BritIndustry.pak ./industry/
