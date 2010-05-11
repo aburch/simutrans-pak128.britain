@@ -82,8 +82,16 @@ BrickViaduct320
 Brick Railway Viaduct
 WoodenTrestle
 Wooden Trestle Rail Bridge
+WoodenTrestleHeavy
+Wooden Trestle Rail Bridge (heavy)
+ShortSteelGirder
+Short Steel Girder Rail Bridge
+ShortSteelGirderLight
+Short Steel Girder Rail Bridge (light)
+ShortSteelGirderHeavy
+Short Steel Girder Rail Bridge (heavy)
 WoodTrestleRoad
-Wooden Trestle Road Bridge 
+Wooden Trestle Road Bridge
 BrickViaductRoad
 Brick Road Bridge (tarmac)
 BrickViaductCobbles
@@ -152,6 +160,12 @@ City Hall
 #___________________________________crossing____________________________________
 Crossing1
 Crossing
+OldTrainDepotDiesel
+Railway depot (diesel)
+ModernTrainDepot
+Railway depot (modern traction)
+ModernTrainDepotElectric
+Railway depot (electric)
 #____________________________________city-buildings____________________________________
 #____________________________________city-buildings____________________________________
 RES_KG_1600_00_01
