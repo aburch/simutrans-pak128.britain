@@ -7,7 +7,8 @@ Obj=building
 Name=OldPassengerQuay
 # must be 1*1
 type=stop
-intro_year=1750
+# We want these around as early as possible.
+#intro_year=1750
 retire_year=1950
 waytype=water
 noconstruction=1
@@ -45,7 +46,8 @@ Name=GoodsQuay
 # must be 1*1
 type=stop
 waytype=water
-intro_year=1750
+# We want these around as early as possible.
+#intro_year=1750
 noconstruction=1
 enables_ware=1
 NoInfo=1
