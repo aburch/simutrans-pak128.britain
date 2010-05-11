@@ -3,8 +3,9 @@ name=BR-Class52(Maroon)
 engine_type=diesel
 smoke=Diesel
 speed=145
-gear=300
+gear=80
 power=2025
+tractive_effort=297
 copyright=Kieron
 intro_year=1961
 intro_month=9
@@ -19,6 +20,9 @@ weight=108
 cost=12173000
 runningcost=2376
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 EmptyImage[E]=./images/br-cl52-m.0
 EmptyImage[SE]=./images/br-cl52-m.1

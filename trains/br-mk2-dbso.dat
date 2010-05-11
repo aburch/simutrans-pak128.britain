@@ -1,11 +1,11 @@
 obj=vehicle
 name=BR-Mk2-DBSO(Intercity)
-speed=175
+speed=160
 copyright=Kieron/James
 intro_year=1973
-intro_month=1
-retire_year=2000
-retire_month=1
+intro_month=3
+retire_year=2003
+retire_month=7
 waytype=track
 freight=Passagiere
 payload=32
@@ -15,6 +15,12 @@ weight=32
 cost=460000
 runningcost=23
 sound=-1
+
+can_lead_from_rear=1
+bidirectional=0
+
+loading_time=9250
+comfort=130
 
 Constraint[Prev][0]=BR-Mk2-TO(Intercity)
 Constraint[Prev][1]=BR-Mk2-RFB(Intercity)

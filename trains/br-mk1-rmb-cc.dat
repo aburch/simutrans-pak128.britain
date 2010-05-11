@@ -1,6 +1,6 @@
 obj=vehicle
 name=BR-Mk1-RMB(Crimson-Cream)
-speed=160
+speed=145
 copyright=Kieron/James
 intro_year=1951
 intro_month=2
@@ -43,10 +43,7 @@ Constraint[Next][12]=BR-Mk1-BG(Crimson-Cream)
 Constraint[Next][13]=BR-Mk2a-RMB(Blue-Grey)
 Constraint[Next][14]=BR-Mk2a-BSO(Blue-Grey)
 Constraint[Next][15]=BR-Mk2a-TSO(Blue-Grey)
-Constraint[Next][16]=BR-Mk1-RMB(Crimson-Cream)
-Constraint[Next][17]=BR-Mk1-RMB(Maroon)
-Constraint[Next][18]=BR-Mk1-RMB(Blue-Grey)
-
+Constraint[Next][16]=none
 
 
 EmptyImage[E]=./images/br-mk1-rmb-cc.0

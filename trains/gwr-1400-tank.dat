@@ -3,13 +3,14 @@ name=GWR-1400Tank
 engine_type=steam
 smoke=Steam
 speed=80
-gear=350
+#gear=350
 power=320
+tractive_effort=62
 copyright=James
 intro_year=1933
-intro_month=1
+intro_month=5
 retire_year=1960
-retire_month=1
+retire_month=12
 waytype=track
 freight=None
 payload=0
@@ -19,6 +20,9 @@ weight=41
 cost=1372000
 runningcost=26
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 EmptyImage[E]=./images/gwr-1400-tank.0
 EmptyImage[SE]=./images/gwr-1400-tank.1

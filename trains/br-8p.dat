@@ -3,12 +3,13 @@ name=BR-8P(Green)
 engine_type=steam
 smoke=Steam
 speed=170
-gear=350
+#gear=140
 power=2393
+tractive_effort=174
 copyright=Kieron&JamesPetts
 intro_year=1954
 intro_month=4
-retire_year=1968
+retire_year=1972
 retire_month=2
 waytype=track
 freight=None
@@ -16,7 +17,7 @@ payload=0
 
 weight=103
 cost=10450000
-runningcost=2970
+runningcost=2295
 sound=-1
 
 Constraint[Next][0]=BR-7MT-Tender(Green)

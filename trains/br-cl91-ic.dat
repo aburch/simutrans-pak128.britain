@@ -2,13 +2,13 @@ obj=vehicle
 name=BR-Class91(Intercity)
 engine_type=electric
 speed=225
-gear=350
+#gear=350
 power=4700
 copyright=Kieron
 intro_year=1988
 intro_month=1
-retire_year=2025
-retire_month=1
+retire_year=2030
+retire_month=6
 waytype=track
 freight=None
 payload=0
@@ -18,6 +18,10 @@ weight=84
 cost=14800000
 runningcost=4620
 sound=-1
+
+can_lead_from_rear=1
+bidirectional=0
+way_constraint_permissive[2]=2
 
 EmptyImage[E]=./images/br-cl91-ic.0
 EmptyImage[SE]=./images/br-cl91-ic.1

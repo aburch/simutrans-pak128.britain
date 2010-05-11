@@ -3,13 +3,14 @@ name=BR-Class37(Rail-Blue)
 engine_type=diesel
 smoke=Diesel
 speed=145
-gear=400
+#gear=400
 power=1304
+tractive_effort=247
 copyright=Kieron
 intro_year=1960
-intro_month=1
+intro_month=6
 retire_year=2000
-retire_month=1
+retire_month=3
 waytype=track
 freight=None
 payload=0
@@ -19,6 +20,9 @@ weight=105
 cost=6048000
 runningcost=1122
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 EmptyImage[E]=./images/br-cl37-b.0
 EmptyImage[SE]=./images/br-cl37-b.1

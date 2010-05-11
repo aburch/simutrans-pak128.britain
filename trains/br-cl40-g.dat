@@ -3,13 +3,14 @@ name=BR-Class40(Green)
 engine_type=diesel
 smoke=Diesel
 speed=155
-gear=480
+#gear=480
 power=1500
+tractive_effort=231
 copyright=Kieron
 intro_year=1958
-intro_month=1
+intro_month=9
 retire_year=1985
-retire_month=1
+retire_month=4
 waytype=track
 freight=None
 payload=0
@@ -19,6 +20,9 @@ weight=136
 cost=10598000
 runningcost=2112
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 EmptyImage[E]=./images/br-cl40-g.0
 EmptyImage[SE]=./images/br-cl40-g.1

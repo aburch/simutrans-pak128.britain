@@ -3,8 +3,9 @@ name=BR-Class66(EWS)
 engine_type=diesel
 smoke=Diesel
 speed=120
-gear=360
+#gear=360
 power=2385
+tractive_effort=409
 length=12
 copyright=Kieron
 intro_year=1998
@@ -19,6 +20,9 @@ weight=126
 cost=5280000
 runningcost=2970
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 EmptyImage[E]=./images/br-cl66-ews.0
 EmptyImage[SE]=./images/br-cl66-ews.1

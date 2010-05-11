@@ -3,9 +3,9 @@ name=BR-Mk3-TO(Intercity)
 speed=200
 copyright=Kieron
 intro_year=1975
-intro_month=1
-retire_year=2000
-retire_month=1
+intro_month=4
+retire_year=2015
+retire_month=9
 waytype=track
 freight=Passagiere
 payload=72
@@ -16,12 +16,19 @@ cost=590000
 runningcost=30
 sound=-1
 
+can_lead_from_rear=0
+bidirectional=1
+
+loading_time=9250
+comfort=145
+
 Constraint[Next][0]=BR-Mk3-TO(Intercity)
 Constraint[Next][1]=BR-Mk3-TRB(Intercity)
 Constraint[Next][2]=BR-Class43Rear(Intercity)
 Constraint[Prev][0]=BR-Mk3-TO(Intercity)
 Constraint[Prev][1]=BR-Mk3-TRB(Intercity)
-Constraint[Prev][2]=BR-Class43(Intercity)
+Constraint[Prev][2]=BR-Mk3-TRFB(Intercity)
+Constraint[Prev][3]=BR-Class43(Intercity)
 
 
 EmptyImage[E]=./images/br-mk3-tso-ic.0
@@ -38,9 +45,9 @@ name=BR-Mk3a-TO(Intercity)
 speed=200
 copyright=Kieron
 intro_year=1975
-intro_month=1
-retire_year=2000
-retire_month=1
+intro_month=4
+retire_year=2015
+retire_month=9
 waytype=track
 freight=Passagiere
 payload=72
@@ -51,10 +58,18 @@ cost=590000
 runningcost=30
 sound=-1
 
+can_lead_from_rear=0
+bidirectional=1
+
+loading_time=9250
+comfort=145
+
+
 Constraint[Next][0]=BR-Mk3a-TO(Intercity)
 Constraint[Next][1]=BR-Mk3-DVT(Intercity)
 Constraint[Next][2]=BR-Mk3a-TRB(Intercity)
-Constraint[Next][3]=None
+Constraint[Next][3]=BR-Mk3-TRFB(Intercity)
+Constraint[Next][4]=None
 
 
 EmptyImage[E]=./images/br-mk3-tso-ic.0
