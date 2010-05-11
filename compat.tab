@@ -170,7 +170,7 @@ KG_RES_1890-1
 RES_KG_1890_01_05
 KG_RES_1920_00
 RES_KG_1920_00_02
-############ Renames from old Experimental versions only #######################
+########################### Renames for Experimental ###########################
 ############################# Victorian coal mine ##############################
 VictorianCoalMine
 CoalMine1850
@@ -192,10 +192,6 @@ stone_road_bridge_cobbles
 MasonryViaductCobbles
 #
 ################################### Buildings ##################################
-RES_Archon_1900_3St_08
-RES_A_1900_00_08
-#
-############### Present in Standard but not in Experimental ####################
 WL_IND_1900_00
 IND_JH_1860_00_06
 IND_JH_1900_00_05
@@ -206,3 +202,13 @@ Knight-Monument
 Knight_Monument
 War-Memorial
 War_Memorial
+#
+############### Renames from old versions of Experimental  #####################
+RES_Archon_1900_3St_08
+RES_A_1900_00_08
+#
+############ Variant names for electrification in old Experimental #############
+DCRailCatenaryCombined
+DCThirdRailDCCCatenary
+ACHighSpeedCatenaryCombined
+DCThirdRailACCCatenary
