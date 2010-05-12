@@ -1,5 +1,5 @@
 obj=vehicle
-name=SR-MerchantNavy 4-6-2(Green)
+name=SR-MerchantNavy_4-6-2(Green)
 engine_type=steam
 smoke=Steam
 speed=155
@@ -21,9 +21,9 @@ cost=10298000
 runningcost=2775
 sound=-1
 
-Constraint[Next][0]=SR-MerchantNavy 4-6-2Tender(Green)
+Constraint[Next][0]=SR-MerchantNavy_4-6-2Tender(Green)
 
-upgrade[0]=SR-MerchantNavyRebuilt 4-6-2(Green)
+upgrade[0]=SR-MerchantNavyRebuilt_4-6-2(Green)
 
 EmptyImage[E]=./images/sr-mn-4-6-2.0.0
 EmptyImage[SE]=./images/sr-mn-4-6-2.0.1
