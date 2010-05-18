@@ -5,8 +5,8 @@
 
 #der Ort wo sich makeobj befindet absolut
 #Absolute filepath to where makeobj is located
-!makeobj=makeobj
+!makeobj=./makeobj
 
 #der Ort wo die Dateien hinkopiert werden sollen absolut MIT / am Ende
 #You need to specify the location of the folder you want to build the pak in here
-!OUTPUT=./pak128.Britain-Experimental-built/
+!OUTPUT=./pak128.Britain-built/
