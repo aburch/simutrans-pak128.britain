@@ -9,7 +9,7 @@
 #                                                                              #
 #                                   authors:                                   #
 #                            James Hood (The Hood)                             #
-#			    James Petts (jamespetts)			       #
+#							James Petts (jamespetts)					       #
 #                                                                              #
 ################################################################################
 #____________________________________Stop Names_________________________________
@@ -19,21 +19,21 @@
 1extern
 %s Junction %s
 1nord
-%s north %s
+%s North %s
 1nordost
-%s NE %s
+%s North-East %s
 1nordwest
-%s NW %s
+%s North-West %s
 1ost
-%s east %s
+%s East %s
 1sued
-%s south %s
+%s South %s
 1suedost
-%s SE %s
+%s South-East %s
 1suedwest
-%s SW %s
+%s South-West %s
 1west
-%s west %s
+%s West %s
 2center
 %s Central %s
 2extern
@@ -81,7 +81,7 @@ Brick Railway Viaduct
 BrickViaduct320
 Brick Railway Viaduct
 WoodenTrestle
-Wooden Trestle Rail Bridge
+Wooden Trestle Rail Bridge 
 WoodenTrestleHeavy
 Wooden Trestle Rail Bridge (heavy)
 ShortSteelGirder
@@ -427,7 +427,7 @@ Terraced Shops
 COM_A_1750_02_08
 Terraced Shops
 COM_A_1880_00_10
-Shops & Offices
+Shops and Offices
 IND_JH_1900_00_05
 Electrical Substation
 IND_WL_1980_00_04
@@ -704,6 +704,10 @@ FurnitureShop1950
 Furniture Shop
 FurnitureShop1970
 Furniture Shop
+GasPowerStation1985kraftwerk
+Gas fired Power Station
+GasPowerStation1995kraftwerk
+Gas fired Power Station
 GrainFarm1750
 Grain Farm
 GrainFarm1840
@@ -2116,6 +2120,10 @@ GWR-Modified-Hall
 GWR 6959 "Modified Hall" Class 4-6-0
 GWR-Modified-Hall-Tender
 GWR 6959 "Modified Hall" Tender
+GWR-Hawksworth-County
+GWR 1000 "County" Class 4-6-0
+GWR-Hawksworth-County-Tender
+GWR 1000 "County" Tender
 LMS-Fowler-3P-Tank
 LMS Class 3P
 #____________________________________tram-vehicle____________________________________
@@ -3066,16 +3074,16 @@ ConcretePlatformBuildingTrainStop
 Concrete Platform with Building
 ConcretePlatformOverallTrainStop
 Concrete Platform with Overroof
+WoodenPlatformTrainStop
+Wooden Platform
+woodenPlatformOverallTrainStop
+Wooden Platform with Overroof
 ConcretePlatformMaglevStop
 Concrete Platform
 ConcretePlatformBuildingMaglevStop
 Concrete Platform with Building
 ConcretePlatformOverallMaglevStop
 Concrete Platform with Overroof
-WoodenPlatformTrainStop
-Wooden Platform
-woodenPlatformOverallTrainStop
-Wooden Platform with Overroof
 GoodsSiding
 Goods Siding
 GoodsSidingCrane
@@ -3196,6 +3204,118 @@ ATC_choosesignal
 Choose Signal
 ATC_EndofChooseSignal
 End of Choose Signal Block Sign
+#_________________City cars_______________________
+#_________________City cars_______________________
+AustinMetro(Blue)
+Austin Metro
+AustinMetro(Red)
+Austin Metro
+AustinMetro(Yellow)
+Austin Metro
+AustinMetro(White)
+Austin Metro
+AustinMetro(Green)
+Austin Metro
+AustinMetro(Purple)
+Austin Metro
+AustinPrincess(SilverBlack)
+Austin Princess
+AustinPrincess(Ivory)
+Austin Princess
+AustinSeven(Blue)
+Austin Seven
+AustinSeven(Red)
+Austin Seven
+AustinSeven(Cream)
+Austin Seven
+AustinSeven(Black)
+Austin Seven
+AustinSeven(Green)
+Austin Seven
+BMCMini(Blue)
+Mini
+BMCMini(Navy)
+Mini
+BMCMini(Orange)
+Mini
+BMCMini(RacingGreen)
+Mini
+BMCMini(Red)
+Mini
+BMCMini(White)
+Mini
+FordCortina(Blue)
+Ford Cortina
+FordCortina(Red)
+Ford Cortina
+FordCortina(Brown)
+Ford Cortina
+FordCortina(Black)
+Ford Cortina
+FordCortina(White)
+Ford Cortina
+FordCortina(Olive)
+Ford Cortina
+FordKa(Blue)
+Ford Ka
+FordKa(Silver)
+Ford Ka
+FordKa(Red)
+Ford Ka
+FordKa(Turquoise)
+Ford Ka
+FordKa(Green)
+Ford Ka
+FordKa(Purple)
+Ford Ka
+FordT(Black)
+Ford Model-T
+HorseCarriageOpen(White)
+Open carriage
+HorseCarriageOpen(Yellow)
+Open carriage
+HorseCarriageClosed(Blue)
+Horse-drawn carriage
+HorseCarriageClosed(Green)
+Horse-drawn carriage
+HorseCarriageClosed(Cream)
+Horse-drawn carriage
+HorseCart(Brown)
+Horse cart
+HorseCart(Grey)
+Horse cart
+LandRoverSeries(Green)
+Landrover
+LandRoverSeries(White)
+Landrover
+LandRoverSeries(Blue)
+Landrover
+LandRoverSeries(Desert)
+Landrover
+MorrisEight(Maroon)
+Morris Eight
+MorrisEight(Green)
+Morris Eight
+MorrisEight(Black)
+Morris Eight
+PeelP50(Red)
+Peel P50
+RangeRover(Green)
+Rangerover
+RangeRover(Red)
+Rangerover
+RangeRover(Silver)
+Rangerover
+RangeRover(Black)
+Rangerover
+ReliantRobin(Blue)
+Reliant Robin
+ReliantRobin(Maroon)
+Reliant Robin
+ReliantRobin(Silver)
+Reliant Robin
+ReliantRobin(Yellow)
+Trotter's Independent Trading Co.: New York - Milan - Peckham
 #__________________________________Way constraints__________________________________
 #__________________________________Way constraints__________________________________
 Permissive 0
