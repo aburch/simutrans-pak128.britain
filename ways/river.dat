@@ -63,6 +63,10 @@ intro_year = 1
 waytype=water
 draw_as_ding=1
 system_type=255
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
+
 icon=> ./images/river-1T0.3.4
 cursor=./images/river-1T0.3.5
 Image[-][0]=./images/river-1T0.1.2
