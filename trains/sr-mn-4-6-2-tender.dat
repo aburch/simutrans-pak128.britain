@@ -1,5 +1,5 @@
 obj=vehicle
-name=SR-MerchantNavy 4-6-2Tender(Green)
+name=SR-MerchantNavy_4-6-2Tender(Green)
 speed=155
 power=0
 copyright=Kieron
@@ -17,7 +17,7 @@ cost=0
 runningcost=0
 sound=-1
 
-Constraint[Prev][0]=SR-MerchantNavy 4-6-2(Green)
+Constraint[Prev][0]=SR-MerchantNavy_4-6-2(Green)
 Constraint[Prev][1]=SR-WestCountry_4-6-2(Green)
 
 upgrade[0]=BR-7MT-Tender(Green)
