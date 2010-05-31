@@ -151,11 +151,12 @@ HISTORY
 	FIX: zero-weight problem for some road vehicles
 13/05/2010: r285
 	CHANGE: reduce costs for wooden trestle road bridge
-31/05/2010: r286-r289
+31/05/2010: r286-r290
 	ADD: GWR Hawksworth County (jamespetts)
 	CHANGE: Graphics for GWR modified hall (jamespetts)
 	CHANGE: capacities for BR Mk1 Suburban coaches (jamespetts)
 	FIX: object names for West Country and Merchant Navy (neroden)
 	CHANGE: MOSE script and parameters (neroden)
 	ADD: more shop graphics (Archon & Wlindley)
+	ADD: HQs (Wlindley)
 	
