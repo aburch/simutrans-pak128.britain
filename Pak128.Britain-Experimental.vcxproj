@@ -72,6 +72,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="industry\fishing-port.dat" />
+    <None Include="industry\gas-power-stations.dat" />
     <None Include="trams\1-deck-closed.dat" />
     <None Include="trams\1-deck-trailer.dat" />
     <None Include="industry\1750-china-shop.dat" />
