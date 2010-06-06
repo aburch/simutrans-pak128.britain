@@ -21,6 +21,7 @@ can_lead_from_rear=1
 bidirectional=0
 loading_time=9500
 comfort=136
+air_resistance=882
 
 Constraint[Prev][0]=BR-Ultra-520DD(rear)
 Constraint[Prev][1]=none
@@ -137,6 +138,7 @@ can_lead_from_rear=1
 bidirectional=0
 loading_time=9500
 comfort=136
+air_resistance=882
 
 Constraint[Prev][0]=BR-Ultra-520DD(Open)
 Constraint[Prev][1]=BR-Ultra-520DD(Buffet)
