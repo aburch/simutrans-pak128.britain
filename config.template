@@ -1,0 +1,24 @@
+
+#makeobject executable (default ./makeobj)
+MAKEOBJ = ./makeobj-ex
+
+#name of the pakset the pakset destination dir is also named after it
+DESTDIR  ?= .
+PAKNAME = pak128.britain-ex
+
+#Name of the tar and zip files. default is $(PAKNAME).
+#DESTFILE =
+
+#path where the pakset dir should be built (default ./)
+#DESTDIR  = 
+
+
+#prefix and suffix for pak files (default empty)
+NAMEPREFIX = brit-
+NAMESUFFIX = -ex
+
+
+#files and dirs to be copied into the pakset directory 
+#(default compat.tab only)
+CPFILES = compat.tab readme.txt licence.txt demo.sve
+CPFILES += sound/ config/ text/
