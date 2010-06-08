@@ -13,16 +13,12 @@ cost=176500
 runningcost=52
 intro_year=1926
 intro_month=5
-retire_year=1948
-retire_month=7
+retire_year=1935
+retire_month=5
 
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-#upgrade[0]=
-#upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
@@ -105,16 +101,12 @@ cost=176500
 runningcost=52
 intro_year=1926
 intro_month=5
-retire_year=1948
-retire_month=7
+retire_year=1935
+retire_month=5
 
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-#upgrade[0]=
-#upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
@@ -168,16 +160,12 @@ cost=156500
 runningcost=68
 intro_year=1926
 intro_month=5
-retire_year=1948
-retire_month=7
+retire_year=1935
+retire_month=5
 
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-#upgrade[0]=
-#upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
@@ -212,16 +200,12 @@ cost=156500
 runningcost=68
 intro_year=1926
 intro_month=1
-retire_year=1948
-retire_month=3
+retire_year=1935
+retire_month=5
 
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-#upgrade[0]=
-#upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
@@ -254,15 +238,12 @@ cost=156500
 runningcost=68
 intro_year=1926
 intro_month=5
-retire_year=1948
-retire_month=7
+retire_year=1935
+retire_month=5
 
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-#upgrade[0]=
-#upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0

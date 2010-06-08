@@ -16,11 +16,12 @@ cost=4875000
 runningcost=310
 intro_year=1959
 intro_month=11
-retire_year=1989
+retire_year=1981
 retire_month=7
 
 comfort=75
 loading_time=12000
+increase_maintenance_after_years=10
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
