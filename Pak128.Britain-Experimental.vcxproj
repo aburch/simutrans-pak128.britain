@@ -606,7 +606,6 @@
     <None Include="trains\lyr-emu.dat" />
     <None Include="ways\maglev_bridges.dat" />
     <None Include="ways\maglev_tracks.dat" />
-    <None Include="lorries\mail_coach.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\mailbox.txt" />
     <None Include="bus\mailcoach.dat" />
     <None Include="trains\Makeobj.exe" />
@@ -819,7 +818,6 @@
     <None Include="trains\sr[cor]middle1-g.dat" />
     <None Include="ways\sssr.dat" />
     <None Include="bus\stage-wagons.dat" />
-    <None Include="lorries\stage_wagons.dat" />
     <None Include="bus\stagecoach.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\station.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\station_details.txt" />
@@ -855,7 +853,6 @@
     <None Include="lorries\thornycroft_wagon.dat" />
     <None Include="trams\toastrack.dat" />
     <None Include="townhall\townhalls.dat" />
-    <None Include="lorries\traction_engines.dat" />
     <None Include="trams\tram-horse.dat" />
     <None Include="ways\tram_track.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\tramtools.txt" />

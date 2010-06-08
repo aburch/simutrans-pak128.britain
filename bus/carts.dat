@@ -11,7 +11,7 @@ cost=20000
 runningcost=1
 intro_year=1750
 intro_month=1
-retire_year=1918
+retire_year=1905
 retire_month=3
 
 Constraint[Prev][0]=RoadHorsesSingle
@@ -21,6 +21,9 @@ Constraint[Next][0]=none
 
 loading_time=5000
 comfort=0
+increase_maintenance_after_years=47
+years_before_maintenance_max_reached=30
+increase_maintenance_by_percent=275
 
 EmptyImage[E]=./images/carts.0.0
 EmptyImage[SE]=./images/carts.0.1
@@ -95,11 +98,14 @@ cost=20000
 runningcost=1
 intro_year=1750
 intro_month=1
-retire_year=1918
+retire_year=1905
 retire_month=3
 
 loading_time=5000
 comfort=0
+increase_maintenance_after_years=47
+years_before_maintenance_max_reached=30
+increase_maintenance_by_percent=275
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
@@ -149,11 +155,14 @@ cost=20000
 runningcost=1
 intro_year=1750
 intro_month=1
-retire_year=1918
+retire_year=1905
 retire_month=3
 
 loading_time=5000
 comfort=0
+increase_maintenance_after_years=47
+years_before_maintenance_max_reached=30
+increase_maintenance_by_percent=275
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
@@ -192,11 +201,14 @@ cost=20000
 runningcost=1
 intro_year=1750
 intro_month=1
-retire_year=1918
+retire_year=1905
 retire_month=3
 
 loading_time=5000
 comfort=0
+increase_maintenance_after_years=47
+years_before_maintenance_max_reached=30
+increase_maintenance_by_percent=275
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
@@ -233,12 +245,15 @@ length=3
 cost=20000
 runningcost=2
 intro_year=1700
-intro_month=1
-retire_year=1845
+intro_month=6
+retire_year=1825
 retire_month=11
 
 loading_time=5000
 comfort=0
+increase_maintenance_after_years=127
+years_before_maintenance_max_reached=30
+increase_maintenance_by_percent=275
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
@@ -276,11 +291,14 @@ cost=20750
 runningcost=2
 intro_year=1825
 intro_month=6
-retire_year=1918
+retire_year=1905
 retire_month=3
 
 loading_time=5000
 comfort=0
+increase_maintenance_after_years=47
+years_before_maintenance_max_reached=30
+increase_maintenance_by_percent=275
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble

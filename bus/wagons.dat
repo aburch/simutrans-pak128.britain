@@ -21,6 +21,9 @@ Constraint[Next][0]=none
 
 loading_time=6000
 comfort=0
+increase_maintenance_after_years=35
+years_before_maintenance_max_reached=30
+increase_maintenance_by_percent=275
 
 EmptyImage[E]=./images/wagons.0.0
 EmptyImage[SE]=./images/wagons.0.1
@@ -100,6 +103,9 @@ retire_month=3
 
 loading_time=6000
 comfort=0
+increase_maintenance_after_years=35
+years_before_maintenance_max_reached=30
+increase_maintenance_by_percent=275
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
@@ -154,6 +160,9 @@ retire_month=3
 
 loading_time=6000
 comfort=0
+increase_maintenance_after_years=35
+years_before_maintenance_max_reached=30
+increase_maintenance_by_percent=275
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
@@ -197,6 +206,9 @@ retire_month=3
 
 loading_time=6000
 comfort=0
+increase_maintenance_after_years=35
+years_before_maintenance_max_reached=30
+increase_maintenance_by_percent=275
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble

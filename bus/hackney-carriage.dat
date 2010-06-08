@@ -7,15 +7,17 @@ payload=5
 speed=10
 weight=1
 length=3
-cost=70000
-runningcost=10
-intro_year=1750
+cost=10000
+runningcost=14
+intro_year=1700
 intro_month=1
-retire_year=1918
-retire_month=3
+retire_year=1913
+retire_month=4
 
 comfort=30
 loading_time=4250
+increase_maintenance_after_years=20
+years_before_maintenance_max_reached=45
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble

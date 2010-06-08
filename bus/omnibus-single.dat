@@ -13,11 +13,13 @@ cost=10000
 runningcost=60
 intro_year=1828
 intro_month=3
-retire_year=1888
+retire_year=1878
 retire_month=5
 
 comfort=37
 loading_time=3750
+increase_maintenance_after_years=20
+years_before_maintenance_max_reached=45
 
 Constraint[Prev][0]=RoadHorsesDouble
 Constraint[Next][0]=none
