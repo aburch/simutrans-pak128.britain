@@ -28,6 +28,7 @@ DIRS128 += citycars
 DIRS128 += depots
 DIRS128 += goods
 DIRS128 += grounds
+DIRS128 += hq
 DIRS128 += industry
 DIRS128 += london-underground
 DIRS128 += maglev
