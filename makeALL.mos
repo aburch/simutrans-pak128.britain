@@ -57,6 +57,9 @@ build %OUTPUT%BritGUI64.pak ./gui/gui64/
 #build %OUTPUT% ./gui/gui128/
 build %OUTPUT% ./gui/gui128/
 
+echo Build HQ
+build %OUTPUT%BritHQ.pak ./hq/
+
 echo Build industry
 build %OUTPUT%BritIndustry.pak ./industry/
 
@@ -93,6 +96,5 @@ build %OUTPUT%BritWay.pak ./ways/
 echo -----------------
 echo  !BUILD COMPLETE!
 echo
-
 
 exit
