@@ -102,9 +102,10 @@ InputFactor[0]=100
 InputSupplier[0]=1
 needs_ground=1
 Dims=1,1,4
-BackImage[2][0][0][0][0]=furniture-shop-all.0
-BackImage[1][0][0][0][0]=furniture-shop-all.1
-BackImage[0][0][0][0][0]=furniture-shop-all.2
-BackImage[3][0][0][0][0]=furniture-shop-all.3
+BackImage[2][0][0][0][0]=1950shops.3.0
+BackImage[1][0][0][0][0]=1950shops.3.6
+BackImage[0][0][0][0][0]=1950shops.3.7
+BackImage[3][0][0][0][0]=1950shops.3.3
+
 -------------------
 # After the 1970s, furniture is mainly sold in department stores.

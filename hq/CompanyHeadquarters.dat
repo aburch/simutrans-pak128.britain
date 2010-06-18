@@ -5,7 +5,7 @@
 --------------------------------------------------------------------------------
 
 obj=building
-Name=HQ1
+Name=HQ0_0
 copyright=WLindley
 type=hq
 hq_level=0
@@ -21,10 +21,10 @@ BackImage[1][0][0][0][0]=headquarters.3.2
 BackImage[2][0][0][0][0]=headquarters.3.1
 BackImage[3][0][0][0][0]=headquarters.3.3
 
-#----------------
+----------------
 
 obj=building
-Name=HQ2
+Name=HQ1_0
 copyright=James
 type=hq
 hq_level=1
@@ -40,10 +40,10 @@ BackImage[1][0][0][0][0]=headquarters.2.2
 BackImage[2][0][0][0][0]=headquarters.2.1
 BackImage[3][0][0][0][0]=headquarters.2.3
 
-#----------------
+----------------
 
 obj=building
-Name=HQ1
+Name=HQ2_0
 copyright=Kieron
 type=hq
 hq_level=2

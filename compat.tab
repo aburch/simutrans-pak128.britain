@@ -170,6 +170,14 @@ KG_RES_1890-1
 RES_KG_1890_01_05
 KG_RES_1920_00
 RES_KG_1920_00_02
+#
+###Removing spaces from some locos
+SR-WestCountry 4-6-2(Green)
+SR-WestCountry_4-6-2(Green)
+SR-MerchantNavy 4-6-2(Green)
+SR-MerchantNavy_4-6-2(Green)
+SR-MerchantNavy 4-6-2Tender(Green)
+SR-MerchantNavy_4-6-2Tender(Green)
 ########################### Renames for Experimental ###########################
 ############################# Victorian coal mine ##############################
 VictorianCoalMine
@@ -214,3 +222,9 @@ DCRailCatenaryCombined
 DCThirdRailDCCCatenary
 ACHighSpeedCatenaryCombined
 DCThirdRailACCCatenary
+#
+########### Wrong headquarters names in old unreleased Experimental ############
+HQ1
+HQ0_0
+HQ2
+HQ1_0
