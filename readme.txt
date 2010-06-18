@@ -143,3 +143,20 @@ HISTORY
 	ADD: New road and rail vehicles (jamespetts)
 	FIX: Tunnel retire years removed so can now build tunnels beyond 2000
 	CHANGE: implement cityroad timeline compatible with latest nightly exes
+09/05/2010: r280
+	CHANGE: SVN Eol-style for text files
+11/05/2010: r281-r283
+	DEL: rogue pak files in SVN
+	CHANGE: make rivers more expensive
+	FIX: zero-weight problem for some road vehicles
+13/05/2010: r285
+	CHANGE: reduce costs for wooden trestle road bridge
+31/05/2010: r286-r290
+	ADD: GWR Hawksworth County (jamespetts)
+	CHANGE: Graphics for GWR modified hall (jamespetts)
+	CHANGE: capacities for BR Mk1 Suburban coaches (jamespetts)
+	FIX: object names for West Country and Merchant Navy (neroden)
+	CHANGE: MOSE script and parameters (neroden)
+	ADD: more shop graphics (Archon & Wlindley)
+	ADD: HQs (Wlindley)
+	
