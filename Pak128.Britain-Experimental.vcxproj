@@ -72,6 +72,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="industry\fishing-port.dat" />
+    <None Include="industry\gas-power-stations.dat" />
     <None Include="trams\1-deck-closed.dat" />
     <None Include="trams\1-deck-trailer.dat" />
     <None Include="industry\1750-china-shop.dat" />
@@ -604,7 +606,6 @@
     <None Include="trains\lyr-emu.dat" />
     <None Include="ways\maglev_bridges.dat" />
     <None Include="ways\maglev_tracks.dat" />
-    <None Include="lorries\mail_coach.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\mailbox.txt" />
     <None Include="bus\mailcoach.dat" />
     <None Include="trains\Makeobj.exe" />
@@ -817,7 +818,6 @@
     <None Include="trains\sr[cor]middle1-g.dat" />
     <None Include="ways\sssr.dat" />
     <None Include="bus\stage-wagons.dat" />
-    <None Include="lorries\stage_wagons.dat" />
     <None Include="bus\stagecoach.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\station.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\station_details.txt" />
@@ -853,7 +853,6 @@
     <None Include="lorries\thornycroft_wagon.dat" />
     <None Include="trams\toastrack.dat" />
     <None Include="townhall\townhalls.dat" />
-    <None Include="lorries\traction_engines.dat" />
     <None Include="trams\tram-horse.dat" />
     <None Include="ways\tram_track.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\tramtools.txt" />
@@ -926,8 +925,8 @@
     <None Include="boats\boats224\windjammer.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\window.txt" />
     <None Include="stations\wooden-platform.dat" />
+    <None Include="ways\wood-trestle-road.dat" />
     <None Include="ways\wooden-trestle.dat" />
-    <None Include="ways\wooden_road_bridges.dat" />
     <None Include="bus\wright-electrocity.dat" />
     <None Include="bus\wright-streetcar.dat" />
     <None Include="ways\wrought_iron.dat" />

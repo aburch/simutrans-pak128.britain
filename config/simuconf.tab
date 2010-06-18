@@ -31,8 +31,18 @@ first_beginner = 0
 
 station_coverage = 3
 
-# Town growth is size dependent. There are three different sizes (<1000, 1000-10000, >10000)
-# the idea is, that area increase by square but growth is linear
+# The rate at which towns grow depends on their size. There are three different size categories:
+# "Villages", "Cities" and "Capitals". The following settings define the thresholds (in numbers 
+# of population) above which towns become "Cities" and "Capitals". Anything smaller than 
+# city_threshold_size is a "Village".
+
+city_threshold_size = 2500
+capital_threshold_size = 25000
+
+# These values represent the rate at which towns grow. The raw growth number is *divided*
+# by the growth factors; ergo, the lower the number, the higher the growth. Longer games
+# should have less growth, whereas shorter games do better with more growth.
+
 growthfactor_villages = 600
 growthfactor_cities = 400
 growthfactor_capitals = 200
@@ -445,6 +455,7 @@ drive_left = 1
 city_road[0]=city_road,1905,2050
 city_road[1]=cobblestone_road,1781,1904
 city_road[2]=dirt_road,1700,1780
+
 # Intercity roads timeline. Format examples: 
 # intercity_road[0]=name,1900,1920
 # intercity_road[1]=name2,1921,1950
@@ -510,6 +521,13 @@ global_power_factor_percent=100
 
 enforce_weight_limits=2
 
+# This setting controls whether players are permitted to buy vehicles after their
+# retirement date. The default, allow_buying_obsolete_vehicles=1, allows players
+# to buy old vehicles by clicking a "Show obsolete" button in the depot / replacer
+# window. This button is not shown if this is set to 0.
+
+allow_buying_obsolete_vehicles=0
+
 
 ############################### Display settings ###############################
 
@@ -546,9 +564,8 @@ citycar_life = 4160
 
 # Colour of the cursor shading.
 # Pak128 default = 155 (orange)
-# Older Pak128.Britain default = 158 (yellow)
-# Actual default used in Pak128.Britain-Standard = 168
-cursor_overlay_color = 168
+# Pak128.Britain default = 158 (yellow)
+cursor_overlay_color = 158
 
 ################################### River settings ##################################
 

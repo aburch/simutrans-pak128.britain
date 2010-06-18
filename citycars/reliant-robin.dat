@@ -6,6 +6,7 @@ DistributionWeight=6
 intro_year=1973
 retire_year=1998
 speed=80
+length=1
 
 Image[W]=reliant-robin.0.0
 Image[NW]=reliant-robin.0.1
@@ -24,6 +25,7 @@ DistributionWeight=6
 intro_year=1973
 retire_year=1998
 speed=80
+length=1
 
 Image[W]=reliant-robin.1.0
 Image[NW]=reliant-robin.1.1
@@ -42,6 +44,7 @@ DistributionWeight=6
 intro_year=1990
 retire_year=1998
 speed=80
+length=1
 
 Image[W]=reliant-robin.2.0
 Image[NW]=reliant-robin.2.1
@@ -56,10 +59,11 @@ obj=citycar
 name=ReliantRobin(Yellow)
 copyright=James
 
-DistributionWeight=6
+DistributionWeight=2
 intro_year=1973
 retire_year=1998
 speed=80
+length=1
 
 Image[W]=reliant-robin.3.0
 Image[NW]=reliant-robin.3.1

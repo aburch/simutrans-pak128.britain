@@ -2,21 +2,21 @@ obj=vehicle
 name=Toastrack
 engine_type=electric
 speed=40
-##gear=180
+#gear=180
 power=50
 copyright=James
 intro_year=1890
 intro_month=4
 retire_year=1923
 retire_month=12
-waytype=schiene_tram
+waytype=tram_track
 freight=Passagiere
 payload=40
 length=6
 
 weight=12
 cost=200000
-runningcost=86
+runningcost=42
 sound=-1
 
 can_lead_from_rear=1

@@ -7,12 +7,14 @@ payload=20
 speed=15
 weight=2
 length=3
-cost=100000
-runningcost=520
+cost=250000
+runningcost=100
 intro_year=1784
 intro_month=1
-retire_year=1840
-retire_month=3
+retire_year=1842
+retire_month=6
+increase_maintenance_after_years=25
+years_before_maintenance_max_reached=35
 
 loading_time=6000
 

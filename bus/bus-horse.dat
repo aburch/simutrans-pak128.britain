@@ -8,13 +8,15 @@ copyright=James
 intro_year=1750
 intro_month=1
 retire_year=1918
-retire_month=1
+retire_month=3
 waytype=road
 length=2
+increase_maintenance_after_years=20
+years_before_maintenance_max_reached=50
 
 weight=1
 cost=100000
-runningcost=15
+runningcost=50
 sound=-1
 
 EmptyImage[E]=./images/bus-horse-double.0
@@ -36,14 +38,16 @@ copyright=James
 intro_year=1750
 intro_month=1
 retire_year=1918
-retire_month=1
+retire_month=3
 waytype=road
 length=2
 
 weight=1
 cost=50000
-runningcost=7
+runningcost=25
 sound=-1
+increase_maintenance_after_years=20
+years_before_maintenance_max_reached=50
 
 EmptyImage[E]=./images/bus-horse-single.0
 EmptyImage[SE]=./images/bus-horse-single.1

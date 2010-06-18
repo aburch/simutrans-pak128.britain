@@ -9,14 +9,14 @@ intro_year=1900
 intro_month=11
 retire_year=1920
 retire_month=2
-waytype=schiene_tram
+waytype=tram_track
 freight=Passagiere
 payload=75
 length=6
 
 weight=22
 cost=300000
-runningcost=11
+runningcost=52
 sound=-1
 
 can_lead_from_rear=1

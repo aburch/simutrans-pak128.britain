@@ -9,15 +9,16 @@ freight=Passagiere
 payload=62
 speed=90
 power=250
-gear=90
+#gear=90
 weight=20
 length=6
 cost=2850000
 runningcost=240
 intro_year=2003
 intro_month=12
-retire_year=2019
-retire_month=11
+#retire_year=2019
+#retire_month=11
+# Do not retire - has no replacements!
 
 comfort=58
 loading_time=5750
