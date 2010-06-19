@@ -48,7 +48,7 @@ DIRS192 += boats/192
 DIRS224 :=
 DIRS224 += boats/224
 
-#.dat files to be paked into a single pak file
+#Objects in .dat files to be paked into a single pak file
 SINGLE128 :=
 SINGLE128 += pak1file/128/outside.dat
 
@@ -81,7 +81,7 @@ $(DESTFILE).zip: $(PAKDIR)
 
 copy:
 	@echo "===> COPY"
-	@mkdir $(PAKDIR)
+	@mkdir -p $(PAKDIR)
 	@cp -prt $(PAKDIR) $(CPFILES)
 
 $(DIRS64):
