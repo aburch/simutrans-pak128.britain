@@ -48,14 +48,18 @@ DIRS192 += boats/192
 DIRS224 :=
 DIRS224 += boats/224
 
+#.dat files to be paked into a single pak file
+SINGLE128 :=
+SINGLE128 += pak1file/128/outside.dat
 
-DIRS := $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224)
+
+DIRS := $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224) $(SINGLE128)
 
 #generating filenames
 #with this function the filenames are assembled, by removing the dir, adding prefix
-#and suffix and excluding grounds
-#all dat files in the grounds dir are paked into ground.Outside.pak
-make_name = $(subst $(NAMEPREFIX)grounds$(NAMESUFFIX),ground.Outside.pak,$(NAMEPREFIX)$(notdir $1)$(NAMESUFFIX))
+#and suffix
+make_name = $(NAMEPREFIX)$(notdir $1)$(NAMESUFFIX)
+#make_name = $(subst $(NAMEPREFIX)grounds$(NAMESUFFIX),ground.Outside.pak,$(NAMEPREFIX)$(notdir $1)$(NAMESUFFIX))
 
 
 .PHONY: $(DIRS) copy tar zip clean
@@ -102,6 +106,13 @@ $(DIRS224):
 	@echo "===> PAK224 $@"
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/$(call make_name,$(subst /,,$@)) $@/ > /dev/null
+
+
+$(SINGLE128):
+	@echo "===> PAK128 $@"
+	@mkdir -p $(PAKDIR)
+	$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@ > /dev/null
+
 
 clean:
 	@echo "===> CLEAN"

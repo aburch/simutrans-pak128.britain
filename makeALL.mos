@@ -48,8 +48,12 @@ echo Build goods
 build %OUTPUT%BritGoods.pak ./goods/
 
 echo Build grounds
+build %OUTPUT%BritGrounds.pak ./grounds/
+
 # Note, ground.Outside.pak must be in the top dir for it to be ID'ed as a pak
-build %OUTPUT% ./grounds/
+echo Build ground.Outside.pak
+build %OUTPUT% ./pak1file/128/
+
 
 echo Build gui
 !size=64
