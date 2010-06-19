@@ -43,10 +43,10 @@ DIRS128 += ways
 DIRS128 += gui/gui128
 
 DIRS192 :=
-DIRS192 += boats/192
+DIRS192 += boats/boats192
 
 DIRS224 :=
-DIRS224 += boats/224
+DIRS224 += boats/boats224
 
 #Objects in .dat files to be paked into a single pak file
 SINGLE128 :=
@@ -94,18 +94,15 @@ $(DIRS128):
 	@mkdir -p $(PAKDIR)
 	$(MAKEOBJ) quiet PAK128 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
-#since the subdirectories in the boats dir lack a boats, the / is removed for the filename
-#this will cause trouble as soon as files with a different structure are included. 
-#(e.g. planes/planes192)
 $(DIRS192):
 	@echo "===> PAK192 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK192 $(PAKDIR)/$(call make_name,$(subst /,,$@)) $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK192 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(DIRS224):
 	@echo "===> PAK224 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/$(call make_name,$(subst /,,$@)) $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 
 $(SINGLE128):
