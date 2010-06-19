@@ -1,3 +1,7 @@
+# Makefile based on the pak64 Makefile. Thank you prissi et al!
+# Makefile for pak128-britain standard and experimental
+# 2010-06 sdog 
+#
 # Just run
 #   make clean all archives
 # to get fresh and ready to deploy .tbz2 and .zip archives
