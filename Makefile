@@ -112,7 +112,7 @@ $(DIRS224):
 $(SINGLE128):
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
-	$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@ > /dev/null
+	$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ground.Outside.pak $@ > /dev/null
 
 
 clean:
