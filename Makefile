@@ -11,7 +11,7 @@ CONFIG ?= config.default
 MAKEOBJ ?= ./makeobj
 
 PAKNAME ?= pak128.britain.testing
-DESTDIR  ?= 
+DESTDIR  ?= .
 PAKDIR   ?= $(DESTDIR)/$(PAKNAME)
 DESTFILE ?= $(PAKNAME)
 
