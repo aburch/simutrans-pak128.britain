@@ -1,6 +1,7 @@
 # Makefile based on the pak64 Makefile. Thank you prissi et al!
 # Makefile for pak128-britain standard and experimental
 # 2010-06 sdog 
+# 2010-06 neroden
 #
 # Just run
 #   make clean all archives
@@ -11,7 +12,7 @@ CONFIG ?= config.default
 MAKEOBJ ?= ./makeobj
 
 PAKNAME ?= pak128.britain.testing
-DESTDIR  ?= 
+DESTDIR  ?= .
 PAKDIR   ?= $(DESTDIR)/$(PAKNAME)
 DESTFILE ?= $(PAKNAME)
 
@@ -19,6 +20,12 @@ NAMEPREFIX ?=
 NAMESUFFIX ?=
 
 CPFILES ?= compat.tab
+CPFILES += readme.txt
+CPFILES += licence.txt
+CPFILES += demo.sve
+CPFILES += config
+CPFILES += text
+CPFILES += sound
 
 DIRS64 :=
 DIRS64 += gui/gui64
@@ -53,8 +60,9 @@ DIRS224 :=
 DIRS224 += boats/boats224
 
 #Objects in .dat files to be paked into a single pak file
+# Actually, this is done as a single directory with one file
 SINGLE128 :=
-SINGLE128 += pak1file/128/outside.dat
+SINGLE128 += pak1file/128
 
 
 DIRS := $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224) $(SINGLE128)
@@ -112,7 +120,7 @@ $(DIRS224):
 $(SINGLE128):
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
-	$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@ > /dev/null
+	$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ground.Outside.pak $@/ > /dev/null
 
 
 clean:
