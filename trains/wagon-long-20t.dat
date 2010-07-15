@@ -22,6 +22,8 @@ bidirectional=1
 comfort=0
 loading_time=15000
 
+Constraint[Next][0]=any
+
 EmptyImage[E]=./images/wagon-long-20t.0
 EmptyImage[SE]=./images/wagon-long-20t.1
 EmptyImage[S]=./images/wagon-long-20t.2
