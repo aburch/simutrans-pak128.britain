@@ -3,9 +3,9 @@ name=Blackpool-ProgressTwin-Trailer
 speed=70
 copyright=James
 intro_year=1958
-intro_month=1
-retire_year=1992
-retire_month=1
+intro_month=3
+retire_year=1967
+retire_month=8
 waytype=tram_track
 freight=Passagiere
 payload=67
@@ -20,6 +20,8 @@ bidirectional=1
 way_constraint_prohibitive[0]=0
 comfort=60
 loading_time=4125
+increase_maintenance_after_years=30
+upgrade_price=9500
 
 Constraint[Prev][0]=Blackpool-ProgressTwin-Power
 

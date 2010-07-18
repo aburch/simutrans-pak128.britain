@@ -7,23 +7,25 @@ power=140
 copyright=James
 intro_year=1934
 intro_month=12
-retire_year=1980
-retire_month=12
+retire_year=1957
+retire_month=5
 waytype=tram_track
 freight=Passagiere
 payload=100
 
 weight=30
-cost=300000
-runningcost=135
+cost=600000
+runningcost=155
 sound=-1
 
 can_lead_from_rear=1
 bidirectional=1
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
-comfort=66
+comfort=67
 loading_time=5000
+increase_maintenance_after_years=30
+
 upgrade[0]=Blackpool-Jubilee
 upgrade[1]=Blackpool-Millenium
 

@@ -133,7 +133,7 @@ max_longdistance_tolerance = 2160
 # the actual distance 500, and the max_bonus_multiplier_percent 200, the speed bonus rating
 # would be increased by half of the multiplier, or 150%.
 
-min_bonus_max_distance = 10
+min_bonus_max_distance = 4
 median_bonus_distance = 100
 max_bonus_min_distance = 300
 max_bonus_multiplier_percent = 300
@@ -315,7 +315,7 @@ cost_transformer = 2500
 cost_maintain_transformer = 100
 
 # Minimum distance between factories (in tiles)
-factory_spacing = 8
+factory_spacing = 24
 
 # Some factories have a retirement date, after which they are obsolete. After
 # that date, factories may close down (random chance each month). After the number
