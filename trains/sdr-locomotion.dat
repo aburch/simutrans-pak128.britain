@@ -7,9 +7,9 @@ speed=25
 power=30
 copyright=James
 intro_year=1825
-intro_month=5
-retire_year=1845
-retire_month=3
+intro_month=9
+retire_year=1830
+retire_month=8
 waytype=track
 freight=None
 payload=0
@@ -19,6 +19,7 @@ weight=7
 cost=1663200
 runningcost=105
 sound=-1
+increase_maintenance_after_years=25
 
 Constraint[Next][0]=SDR-Locomotion-Tender
 

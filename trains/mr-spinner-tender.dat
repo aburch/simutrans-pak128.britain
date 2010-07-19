@@ -5,7 +5,7 @@ power=0
 copyright=Kieron
 intro_year=1896
 intro_month=2
-retire_year=1914
+retire_year=1904
 retire_month=4
 waytype=track
 freight=None
@@ -16,6 +16,8 @@ weight=34
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=30
+years_before_maintenance_max_reached=20
 
 Constraint[Prev][0]=MR-Spinner(Maroon)
 

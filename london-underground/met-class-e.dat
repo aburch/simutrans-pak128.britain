@@ -18,6 +18,8 @@ weight=54
 cost=6300000
 runningcost=594
 sound=-1
+increase_maintenance_after_years=20
+years_before_maintenance_max_reached=17
 
 bidirectional=1
 

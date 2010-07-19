@@ -4,9 +4,9 @@ engine_type=steam
 speed=100
 copyright=James
 intro_year=1859
-intro_month=3
-retire_year=1885
-retire_month=2
+intro_month=11
+retire_year=1866
+retire_month=5
 waytype=track
 freight=None
 payload=0
@@ -16,6 +16,7 @@ weight=10
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=40
 
 Constraint[Prev][0]=LNWR-Problem(Green)
 
