@@ -4,8 +4,8 @@ speed=130
 power=0
 copyright=Kieron
 intro_year=1902
-intro_month=1
-retire_year=1930
+intro_month=12
+retire_year=1908
 retire_month=1
 waytype=track
 freight=None
@@ -16,6 +16,8 @@ weight=43
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=28
+years_before_maintenance_max_reached=25
 
 Constraint[Prev][0]=GNR-C1
 

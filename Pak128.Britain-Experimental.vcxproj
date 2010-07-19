@@ -75,6 +75,8 @@
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
     <None Include="trains\br-456-nse.dat" />
+    <None Include="trains\gwr-churchward-star-tender.dat" />
+    <None Include="trains\gwr-churchward-star.dat" />
     <None Include="trams\1-deck-closed.dat" />
     <None Include="trams\1-deck-trailer.dat" />
     <None Include="industry\1750-china-shop.dat" />
@@ -459,8 +461,6 @@
     <None Include="trains\gwr-saint.dat" />
     <None Include="trains\gwr-swindon-twinset-a.dat" />
     <None Include="trains\gwr-swindon-twinset-b.dat" />
-    <None Include="trains\gwt-churchward-star-tender.dat" />
-    <None Include="trains\gwt-churchward-star.dat" />
     <None Include="bus\hackney-carriage.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\haltlist.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\haltlist_filter.txt" />

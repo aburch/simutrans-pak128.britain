@@ -9,8 +9,8 @@ tractive_effort=91
 copyright=Kieron&JamesPetts
 intro_year=1902
 intro_month=3
-retire_year=1953
-retire_month=6
+retire_year=1928
+retire_month=1
 waytype=track
 freight=None
 payload=0
@@ -20,6 +20,8 @@ weight=69
 cost=9601000
 runningcost=1250
 sound=-1
+increase_maintenance_after_years=27
+years_before_maintenance_max_reached=10
 
 Constraint[Next][0]=GWR-Saint-Tender
 
@@ -43,8 +45,8 @@ power=0
 copyright=Kieron
 intro_year=1902
 intro_month=3
-retire_year=1953
-retire_month=6
+retire_year=1928
+retire_month=1
 waytype=track
 freight=None
 payload=0
@@ -54,6 +56,8 @@ weight=44
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=27
+years_before_maintenance_max_reached=10
 
 Constraint[Prev][0]=GWR-Saint
 
