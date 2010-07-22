@@ -5,7 +5,7 @@ speed=130
 copyright=James
 intro_year=1887
 intro_month=9
-retire_year=1905
+retire_year=1901
 retire_month=7
 waytype=track
 freight=None
@@ -16,6 +16,8 @@ weight=25
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=35
+years_before_maintenance_max_reached=25
 
 Constraint[Prev][0]=LNWR-Jumbo(Black)
 

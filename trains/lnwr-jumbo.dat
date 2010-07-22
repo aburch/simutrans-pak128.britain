@@ -9,17 +9,22 @@ tractive_effort=48
 copyright=James
 intro_year=1887
 intro_month=9
-retire_year=1905
+retire_year=1901
 retire_month=7
 waytype=track
 freight=None
 payload=0
 length=5
 
+# Note that these were a development of the "Precedent" class: see Aarons p. 192 and 266. 
+# These should be upgradeable from the earlier class (new graphics needed as the wheel size was changed)
+
 weight=42
 cost=10038000
 runningcost=1718
 sound=-1
+increase_maintenance_after_years=35
+years_before_maintenance_max_reached=25
 
 Constraint[Next][0]=LNWR-Jumbo-Tender(Black)
 

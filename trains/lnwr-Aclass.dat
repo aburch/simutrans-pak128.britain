@@ -8,7 +8,7 @@ power=1200
 copyright=James
 intro_year=1894
 intro_month=10
-retire_year=1935
+retire_year=1900
 retire_month=2
 waytype=track
 freight=None
@@ -19,6 +19,8 @@ weight=49
 cost=6336000
 runningcost=660
 sound=-1
+increase_maintenance_after_years=20
+years_before_maintenance_max_reached=25
 
 Constraint[Next][0]=LNWR-AClass-Tender(Black)
 

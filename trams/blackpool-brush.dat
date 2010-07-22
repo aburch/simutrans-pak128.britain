@@ -5,10 +5,10 @@ speed=65
 #gear=200
 power=100
 copyright=James
-intro_year=1937
-intro_month=1
-retire_year=1984
-retire_month=1
+intro_year=1934
+intro_month=4
+retire_year=1953
+retire_month=6
 waytype=tram_track
 freight=Passagiere
 payload=54
@@ -24,6 +24,9 @@ way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 comfort=66
 loading_time=4125
+increase_maintenance_after_years=30
+
+upgrade[0]=Blackpool-ProgressTwin-Trailer
 
 Constraint[Prev][0]=none
 

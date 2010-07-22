@@ -5,8 +5,8 @@ speed=100
 copyright=James
 intro_year=1894
 intro_month=7
-retire_year=1935
-retire_month=5
+retire_year=1911
+retire_month=8
 waytype=track
 freight=None
 payload=0
@@ -16,6 +16,8 @@ weight=25
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=27
+years_before_maintenance_max_reached=21
 
 Constraint[Prev][0]=HR-Jones-Goods(Yellow)
 
