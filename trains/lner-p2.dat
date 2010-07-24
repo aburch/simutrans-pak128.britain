@@ -8,8 +8,8 @@ power=3000
 tractive_effort=200
 copyright=James
 intro_year=1934
-intro_month=4
-retire_year=1939
+intro_month=5
+retire_year=1942
 retire_month=1
 waytype=track
 freight=None
@@ -20,6 +20,8 @@ weight=107
 cost=15206000
 runningcost=2376
 sound=-1
+increase_maintenance_after_years=13
+years_before_maintenance_max_reached=10
 
 Constraint[Next][0]=LNER-P2-Tender(Green)
 

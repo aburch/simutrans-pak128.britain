@@ -1157,7 +1157,7 @@ LBSCR Class A1 "Terrier" 0-6-0T
 LMS-3F-Jinty
 LMS Class 3F "Jinty" 0-6-0T
 GWR-PannierTank
-GWR Pannier Tank 0-6-0T
+GWR Pannier Tank 57xx 0-6-0T
 MR-Kirtley156(Maroon)
 Midland 156 Class 2-4-0
 MR-Kirtley156Tender(Maroon)
@@ -1216,6 +1216,8 @@ LNER-A3(Green)
 LNER Class A3 4-6-2
 LNER-A1-Tender(Green)
 LNER Class A1/A3 (tender)
+BR-5MT(Green)
+BR Standard Class 5MT 2-6-0
 BR-7MT(Green)
 BR Standard Class 7MT "Britannia" 4-6-2
 BR-7MT-Tender(Green)
@@ -1742,6 +1744,10 @@ SR-N15
 SR N15 Class "King Arthur" 4-6-0
 SR-N15-Tender
 SR N15 Class "King Arthur" 4-6-0 (tender)
+LSWR-N15
+LSWR N15 Class 4-6-0
+LSWR-N15-Tender
+LSWR N15 Class 4-6-0 (tender)
 SR-Schools
 SR V Class "Schools" 4-4-0
 SR-Schools-Tender
@@ -1806,6 +1812,10 @@ LYR-Class25(Black)
 LYR Class 25 0-6-0
 LYR-Class25-Tender(Black)
 LYR Class 25 0-6-0 (tender)
+GWR-517Tank
+GWR 517 Class 0-4-2T
+GWR-517Tank-AutoFitted
+GWR 517 Class 0-4-2T (auto fitted)
 GWR-1400Tank
 GWR 1400 Class 0-4-2T
 LNER-J94(Black)
@@ -1850,6 +1860,8 @@ LNWR-PrinceOfWales(Black)
 LNWR "Prince of Wales" Class 4-6-0
 LNWR-PrinceOfWales-Tender(Black)
 LNWR "Prince of Wales" Class 4-6-0 (tender)
+MR-2441
+MR 2441 Class 0-6-0
 MR-Spinner(Maroon)
 MR 673 Class "Midland Spinner" 4-2-2
 MR-Spinner-Tender(Maroon)

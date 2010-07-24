@@ -9,8 +9,8 @@ tractive_effort=179
 copyright=James
 intro_year=1933
 intro_month=6
-retire_year=1966
-retire_month=5
+retire_year=1951
+retire_month=4
 waytype=track
 freight=None
 payload=0
@@ -20,6 +20,8 @@ weight=104
 cost=9849600
 runningcost=2178
 sound=-1
+increase_maintenance_after_years=6
+years_before_maintenance_max_reached=10
 
 Constraint[Next][0]=LMS-Princess-Royal-Tender(Maroon)
 

@@ -9,7 +9,7 @@ tractive_effort=167
 copyright=Kieron
 intro_year=1941
 intro_month=2
-retire_year=1960
+retire_year=1949
 retire_month=4
 waytype=track
 freight=None
@@ -21,6 +21,8 @@ cost=10298000
 runningcost=2775
 sound=-1
 air_resistance=1200
+increase_maintenance_after_years=7
+years_before_maintenance_max_reached=9
 
 Constraint[Next][0]=SR-MerchantNavy_4-6-2Tender(Green)
 
