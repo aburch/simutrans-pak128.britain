@@ -9,8 +9,9 @@ tractive_effort=80
 copyright=Kieron
 intro_year=1976
 intro_month=3
-retire_year=2015
+retire_year=1987
 retire_month=9
+# Late because no replacements
 waytype=track
 freight=Post
 payload=15
@@ -24,6 +25,8 @@ sound=-1
 loading_time=9250
 comfort=0
 air_resistance=884
+#increase_maintenance_after_years=25
+# TODO: Uncomment this after the MTU refurbished units are added
 
 Constraint[Prev][0]=BR-Mk3-TO(Intercity)
 Constraint[Prev][1]=BR-Mk3-TRB(Intercity)
