@@ -6,7 +6,7 @@ power=0
 copyright=Kieron
 intro_year=1962
 intro_month=10
-retire_year=1996
+retire_year=1981
 retire_month=7
 waytype=track
 freight=Passagiere
@@ -17,6 +17,7 @@ weight=41
 cost=1272000
 runningcost=264
 sound=-1
+increase_maintenance_after_years=13
 
 can_lead_from_rear=1
 bidirectional=0
@@ -26,7 +27,8 @@ loading_time=6000
 comfort=97
 
 Constraint[Prev][0]=BR-309Middle(Blue-Grey)
-Constraint[Prev][1]=BR-309/1Front(Blue-Grey)
+Constraint[Next][1]=BR-309Griddle(Blue-Grey)
+Constraint[Prev][2]=BR-309/1Front(Blue-Grey)
 
 Constraint[Next][0]=BR-309/1Front(Blue-Grey)
 Constraint[Next][1]=BR-309/2Front(Blue-Grey)

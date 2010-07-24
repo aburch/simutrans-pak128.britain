@@ -6,8 +6,9 @@ power=0
 copyright=Kieron
 intro_year=1975
 intro_month=12
-retire_year=2020
-retire_month=5
+retire_year=2009
+retire_month=7
+#TODO: This is late - when the Class 350 is added, this should revert to 2004.
 waytype=track
 freight=Passagiere
 payload=74
@@ -17,6 +18,8 @@ weight=38
 cost=1237000
 runningcost=55
 sound=-1
+increase_maintenance_after_years=5
+#TODO: Change above when retirement date changes
 
 can_lead_from_rear=1
 bidirectional=0

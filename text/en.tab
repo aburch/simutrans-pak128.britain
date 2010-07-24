@@ -1368,6 +1368,8 @@ BR-309Power(Blue-Grey)
 BR Class 309 EMU (power unit)
 BR-309Middle(Blue-Grey)
 BR Class 309 EMU (middle trailer)
+BR-309Griddle(Blue-Grey)
+BR Class 309 EMU (griddle car)
 BR-309/1Front(Blue-Grey)
 BR Class 309/1 (2-car) EMU
 BR-309/2Front(Blue-Grey)
@@ -1385,19 +1387,23 @@ BR Class 104 DMU (middle)
 BR-104Front(Green)
 BR Class 104 DMU
 SR-404[COR]Front(Green)
-SR 4Cor EMU
+SR 4-Cor EMU
 SR-404[COR]Middle(Green)
-SR 4Cor EMU (middle)
+SR 4-Cor EMU (middle)
 SR-404[COR]Middle1(Green)
-SR 4Cor EMU (middle)
+SR 4-Cor EMU (middle)
+SR-404[COR]Middle-buf(Green)
+SR 4-Cor EMU (buffet car)
+SR-404[COR]Middle-res(Green)
+SR 4-Cor EMU (restaurant car)
 SR-404[COR]Middle2(Green)
-SR 4Cor EMU (middle)
+SR 4-Cor EMU (middle)
 SR-404[COR]Rear(Green)
-SR 4Cor EMU (rear)
+SR 4-Cor EMU (rear)
 SR-401[BIL]Front(Green)
-SR 2Bil EMU
+SR 2-Bil EMU
 SR-401[BIL]Rear(Green)
-SR 2Bil EMU (rear)
+SR 2B-il EMU (rear)
 BR-370FrontCab(IC)
 BR Class 370 APT
 BR-370Coach(IC)
@@ -1450,6 +1456,12 @@ BR-375Middle(SE)
 BR Class 375 "Electrostar" EMU (middle)
 BR-375Rear(SE)
 BR Class 375 "Electrostar" EMU (rear)
+BR-375/6Front(SE)
+BR Class 375/6 "Electrostar" EMU
+BR-375/6Middle(SE)
+BR Class 375/6 "Electrostar" EMU (middle)
+BR-375/6Rear(SE)
+BR Class 375/6 "Electrostar" EMU (rear)
 BR-390FrontCab(Virgin)
 BR Class 390 "Pendolino"
 BR-390FrontCoach(Virgin)
@@ -1475,9 +1487,9 @@ BR Class 205 DEMU (middle)
 BR-205Rear(Rail-Blue)
 BR Class 205 DEMU (rear)
 BR-414[HAP]Front(Blue-Grey)
-BR Class 414 "2Hap" EMU
+BR Class 414 "2-Hap" EMU
 BR-414[HAP]Rear(Blue-Grey)
-BR Class 414 "2Hap" EMU (rear)
+BR Class 414 "2-Hap" EMU (rear)
 GWR-Gloucester-Railcar
 GWR Gloucester Railcar
 GWR-Autocoach
@@ -1505,21 +1517,23 @@ BR Mk. 3a Standard Open
 BR-Mk4-TSO(Intercity)
 BR Mk. 4 Standard Open
 BR-423-DTCL-Front
-BR Class 423 "4Vep" EMU
+BR Class 423 "4-Vep" EMU
 BR-423-MBSO
-BR Class 423 "4Vep" EMU (motor brake open)
+BR Class 423 "4-Vep" EMU (motor brake open)
 BR-423-TSO
-BR Class 423 "4Vep" EMU (trailer open)
+BR Class 423 "4-Vep" EMU (trailer open)
 BR-423-DTCL-Rear
-BR Class 423 "4Vep" EMU (rear)
+BR Class 423 "4-Vep" EMU (rear)
 BR-410[CEP]Front(Blue-Grey)
-BR Class 410 "4Cep" EMU
+BR Class 410 "4-Cep" EMU
 BR-410[CEP]Brake(Blue-Grey)
-BR Class 410 "4Cep" EMU (middle brake)
+BR Class 410 "4-Cep" EMU (middle brake)
+BR-410[CEP]Buffet(Blue-Grey)
+BR Class 410 "4-Cep" EMU (buffet)
 BR-410[CEP]Middle(Blue-Grey)
-BR Class 410 "4Cep" EMU (middle)
+BR Class 410 "4-Cep" EMU (middle)
 BR-410[CEP]Rear(Blue-Grey)
-BR Class 410 "4Cep" EMU (rear)
+BR Class 410 "4-Cep" EMU (rear)
 BR-158Front(Regional)
 BR Class 158 "Express Sprinter" DMU 
 BR-158Middle(Regional)
