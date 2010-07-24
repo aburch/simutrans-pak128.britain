@@ -9,8 +9,8 @@ tractive_effort=121
 copyright=James
 intro_year=1944
 intro_month=3
-retire_year=1965
-retire_month=11
+retire_year=1950
+retire_month=9
 waytype=track
 freight=None
 payload=0
@@ -22,6 +22,8 @@ upgrade_price=81400
 runningcost=1175
 sound=-1
 available_only_as_upgrade=1
+increase_maintenance_after_years=9
+years_before_maintenance_max_reached=18
 
 Constraint[Next][0]=GWR-Modified-Hall-Tender
 
@@ -54,6 +56,8 @@ weight=48
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=9
+years_before_maintenance_max_reached=18
 
 Constraint[Prev][0]=GWR-Modified-Hall
 

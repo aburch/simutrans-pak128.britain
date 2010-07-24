@@ -16,6 +16,8 @@ weight=32
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=6
+years_before_maintenance_max_reached=10
 
 Constraint[Prev][0]=SR-Q1(Black)
 

@@ -9,8 +9,8 @@ tractive_effort=149
 copyright=Kieron&JamesPetts
 intro_year=1956
 intro_month=5
-retire_year=1968
-retire_month=8
+retire_year=1959
+retire_month=12
 waytype=track
 freight=None
 payload=0
@@ -21,6 +21,8 @@ cost=13522500
 upgrade_price=6900000
 runningcost=2178
 sound=-1
+increase_maintenance_after_years=4
+years_before_maintenance_max_reached=10
 
 available_only_as_upgrade=1
 
