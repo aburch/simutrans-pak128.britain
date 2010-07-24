@@ -9,8 +9,9 @@ tractive_effort=267
 copyright=Kieron
 intro_year=1983
 intro_month=9
-retire_year=2003
-retire_month=7
+retire_year=1998
+retire_month=79
+#NOTE: These should retire earlier to give way to the class 60s when those are added.
 waytype=track
 freight=None
 payload=0
@@ -20,6 +21,7 @@ weight=130
 cost=7606000
 runningcost=2465
 sound=-1
+increase_maintenance_after_years=12
 
 can_lead_from_rear=0
 bidirectional=1
