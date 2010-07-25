@@ -1438,7 +1438,7 @@ BR-142Front(Regional)
 BR Class 142 "Pacer" DMU
 BR-142Rear(Regional)
 BR Class 142 "Pacer" DMU (rear)
-BR-BR-456-DMSO
+BR-456-DMSO
 BR Class 456 EMU (DMSO)
 BR-456-DTSO
 BR Class 456 EMU (DTSO)
@@ -1457,11 +1457,11 @@ BR Class 375 "Electrostar" EMU (middle)
 BR-375Rear(SE)
 BR Class 375 "Electrostar" EMU (rear)
 BR-375-6Front(SE)
-BR Class 375-6 "Electrostar" EMU
+BR Class 375/6 "Electrostar" EMU
 BR-375-6Middle(SE)
-BR Class 375-6 "Electrostar" EMU (middle)
+BR Class 375/6 "Electrostar" EMU (middle)
 BR-375-6Rear(SE)
-BR Class 375-6 "Electrostar" EMU (rear)
+BR Class 375/6 "Electrostar" EMU (rear)
 BR-390FrontCab(Virgin)
 BR Class 390 "Pendolino"
 BR-390FrontCoach(Virgin)
@@ -1556,6 +1556,12 @@ BR-313Pantograph(Blue-Grey)
 BR Class 313 EMU (pantograph)
 BR-313Rear(Blue-Grey)
 BR Class 313 EMU (rear)
+BR-315Front(Blue-Grey)
+BR Class 315 EMU
+BR-315Pantograph(Blue-Grey)
+BR Class 315 EMU (pantograph)
+BR-315Rear(Blue-Grey)
+BR Class 315 EMU (rear)
 BR-319Front(NSE)
 BR Class 319 EMU
 BR-319Engine(NSE)
