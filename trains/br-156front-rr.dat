@@ -32,10 +32,12 @@ upgrade[0]=BR-156Front-Trolley(Regional)
 
 Constraint[Prev][0]=BR-156Rear(Regional)
 Constraint[Prev][1]=BR-153(Regional)
-Constraint[Prev][2]=none
+Constraint[Prev][2]=BR-153-Trolley(Regional)
+Constraint[Prev][3]=BR-158-Rear(Regional)
+Constraint[Prev][4]=BR-150Rear(Regional)
+Constraint[Prev][5]=none
 
 Constraint[Next][0]=BR-156Rear(Regional)
-Constraint[Next][1]=BR-153(Regional)
 
 EmptyImage[E]=./images/br-156-rr.0.0
 EmptyImage[SE]=./images/br-156-rr.0.1
@@ -88,9 +90,6 @@ Constraint[Prev][3]=BR-158Rear(Regional)
 Constraint[Prev][4]=none
 
 Constraint[Next][0]=BR-156Rear(Regional)
-Constraint[Next][1]=BR-153(Regional)
-Constraint[Next][2]=BR-153-Trolley(Regional)
-Constraint[Next][3]=BR-158Rear(Regional)
 
 EmptyImage[E]=./images/br-156-rr.0.0
 EmptyImage[SE]=./images/br-156-rr.0.1

@@ -74,8 +74,14 @@
   <ItemGroup>
     <None Include="br-315.dat" />
     <None Include="br-375-dual-voltage.dat" />
+    <None Include="br-455-bg.dat" />
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
+    <None Include="trains\br-150-rr.dat" />
+    <None Include="trains\br-315.dat" />
+    <None Include="trains\br-317-bg.dat" />
+    <None Include="trains\br-375-dual-voltage.dat" />
+    <None Include="trains\br-455-bg.dat" />
     <None Include="trains\br-456-nse.dat" />
     <None Include="trains\br-5mt.dat" />
     <None Include="trains\gwr-517.dat" />

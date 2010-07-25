@@ -1442,6 +1442,22 @@ BR-456-DMSO
 BR Class 456 EMU (DMSO)
 BR-456-DTSO
 BR Class 456 EMU (DTSO)
+BR-455-Driving-Front
+BR Class 455 EMU (front)
+BR-455-Motor
+BR Class 455 EMU (power)
+BR-455-Trailer
+BR Class 455 EMU (trailer)
+BR-455-Driving-Rear
+BR Class 455 EMU (rear)
+BR-317-Driving-Front
+BR Class 317 EMU (front)
+BR-317-Motor
+BR Class 317 EMU (power)
+BR-317-Trailer
+BR Class 317 EMU (trailer)
+BR-317-Driving-Rear
+BR Class 317 (rear)
 BR-365Front(NSE)
 BR Class 365 "Networker Express" EMU
 BR-365Middle(NSE)
@@ -1576,6 +1592,12 @@ BR-156Front-Trolley(Regional)
 BR Class 156 "Super-Sprinter" DMU (with trolley service)
 BR-156Rear(Regional)
 BR Class 156 "Super-Sprinter" DMU (rear)
+BR-150Front(Regional)
+BR Class 150 "Sprinter" DMU (front)
+BR-150Centre(Regional)
+BR Class 150 "Sprinter" DMU (centre)
+BR-150Rear(Regional)
+BR Class 150 "Sprinter" DMU (rear)
 LMS-502Front(Maroon)
 LMS Class 502 EMU
 LMS-502Rear(Maroon)

@@ -29,7 +29,9 @@ comfort=100
 Constraint[Prev][0]=BR-158Rear(Regional)
 Constraint[Prev][1]=BR-156Rear(Regional)
 Constraint[Prev][2]=BR-153(Regional)
-Constraint[Prev][3]=none
+Constraint[Prev][3]=BR-153-Trolley(Regional)
+Constraint[Prev][4]=BR-150Rear(Regional)
+Constraint[Prev][5]=none
 
 Constraint[Next][0]=BR-158Rear(Regional)
 Constraint[Next][1]=BR-158Middle(Regional)
