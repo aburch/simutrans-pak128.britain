@@ -2,7 +2,7 @@ obj=vehicle
 name=GWR-Autocoach
 speed=100
 copyright=Kieron
-intro_year=1928
+intro_year=1905
 intro_month=2
 retire_year=1963
 retire_month=7
@@ -21,6 +21,12 @@ bidirectional=1
 
 loading_time=8000
 comfort=75
+
+Constraint[Prev][0]=GWR-517Tank-AutoFitted
+Constraint[Prev][1]=GWR-1400Tank
+Constraint[Prev][2]=GWR-PannierTank
+# NOTE: When other pannier types are added, this will need to be changed.
+# Ony the 54xx and 64xx series were auto fitted in panniers.
 
 EmptyImage[E]=./images/gwr-autocoach.0
 EmptyImage[SE]=./images/gwr-autocoach.1

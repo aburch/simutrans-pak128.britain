@@ -3,27 +3,28 @@ name=BR-365Front(NSE)
 engine_type=electric
 speed=160
 power=628
-##gear=475
+#gear=475
 copyright=Kieron
 intro_year=1994
 intro_month=2
-retire_year=2020
-retire_month=11
+retire_year=1999
+retire_month=10
 waytype=track
 freight=Passagiere
-payload=72
+payload=48
 length=12
 
 weight=47
 cost=1602000
 runningcost=148
 sound=-1
+increase_maintenance_after_years=26
 
 can_lead_from_rear=1
 bidirectional=0
 
 loading_time=6300
-comfort=85
+comfort=96
 
 Constraint[Prev][0]=BR-365Rear(NSE)
 Constraint[Prev][1]=none

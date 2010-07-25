@@ -8,7 +8,7 @@ power=600
 copyright=James
 intro_year=1897
 intro_month=9
-retire_year=1920
+retire_year=1911
 retire_month=7
 waytype=track
 freight=None
@@ -19,6 +19,8 @@ weight=60
 cost=3528000
 runningcost=396
 sound=-1
+increase_maintenance_after_years=33
+years_before_maintenance_max_reached=20
 
 can_lead_from_rear=0
 bidirectional=1

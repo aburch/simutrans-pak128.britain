@@ -7,8 +7,8 @@ power=340
 copyright=Kieron
 intro_year=1937
 intro_month=4
-retire_year=1957
-retire_month=3
+retire_year=1956
+retire_month=9
 waytype=track
 freight=Passagiere
 payload=52
@@ -18,6 +18,7 @@ weight=46
 cost=1680000
 runningcost=132
 sound=-1
+increase_maintenance_after_years=24
 
 can_lead_from_rear=1
 bidirectional=0
@@ -30,6 +31,8 @@ Constraint[Prev][0]=SR-404[COR]Rear(Green)
 Constraint[Prev][1]=none
 
 Constraint[Next][0]=SR-404[COR]Middle1(Green)
+Constraint[Next][1]=SR-404[COR]Middle-Res(Green)
+Constraint[Next][2]=SR-404[COR]Middle-Buf(Green)
 
 EmptyImage[E]=./images/sr-cor-g.0.0
 EmptyImage[SE]=./images/sr-cor-g.0.1

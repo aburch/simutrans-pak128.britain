@@ -3,13 +3,13 @@ name=GWR-Hall
 engine_type=steam
 smoke=Steam
 speed=130
-gear=300
+#gear=300
 power=1250
 tractive_effort=121
 copyright=James
 intro_year=1928
 intro_month=1
-retire_year=1965
+retire_year=1943
 retire_month=11
 waytype=track
 freight=None
@@ -21,6 +21,8 @@ cost=9621000
 upgrade_price=1924200
 runningcost=1420
 sound=-1
+increase_maintenance_after_years=16
+years_before_maintenance_max_reached=13
 
 upgrade[0]=GWR-Modified-Hall
 
@@ -55,6 +57,8 @@ weight=47
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=16
+years_before_maintenance_max_reached=13
 
 Constraint[Prev][0]=GWR-Hall
 

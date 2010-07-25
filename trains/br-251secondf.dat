@@ -5,7 +5,7 @@ speed=145
 copyright=Kieron
 intro_year=1960
 intro_month=7
-retire_year=1973
+retire_year=1965
 retire_month=5
 waytype=track
 freight=Passagiere
@@ -16,6 +16,7 @@ weight=45
 cost=1142000
 runningcost=37
 sound=-1
+increase_maintenance_after_years=15
 
 can_lead_from_rear=0
 bidirectional=1

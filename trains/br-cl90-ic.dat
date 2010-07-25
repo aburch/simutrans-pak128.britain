@@ -8,7 +8,7 @@ tractive_effort=258
 copyright=Kieron
 intro_year=1987
 intro_month=2
-retire_year=2013
+retire_year=1998
 retire_month=10
 waytype=track
 freight=None
@@ -19,11 +19,12 @@ weight=85
 cost=6552000
 runningcost=2176
 sound=-1
+increase_maintenance_after_years=23
 
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[2]=2
-air_resistance=975br-373br-373
+air_resistance=975
 
 EmptyImage[E]=./images/br-cl90-ic.0
 EmptyImage[SE]=./images/br-cl90-ic.1

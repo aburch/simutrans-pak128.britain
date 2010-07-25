@@ -9,7 +9,7 @@ tractive_effort=150
 copyright=Kieron
 intro_year=1936
 intro_month=6
-retire_year=1950
+retire_year=1944
 retire_month=10
 waytype=track
 freight=None
@@ -20,6 +20,8 @@ weight=93
 cost=6585600
 runningcost=1254
 sound=-1
+increase_maintenance_after_years=16
+years_before_maintenance_max_reached=9
 
 Constraint[Next][0]=LNER-V2-Tender(Green)
 

@@ -8,9 +8,10 @@ power=1900
 tractive_effort=118
 copyright=James
 intro_year=1930
-intro_month=6
-retire_year=1964
+intro_month=11
+retire_year=1945
 retire_month=12
+# Production stopped in 1935, but these types are not replaced by newer types.
 waytype=track
 freight=None
 payload=0
@@ -20,6 +21,8 @@ weight=81
 cost=6624000
 runningcost=1386
 sound=-1
+increase_maintenance_after_years=14
+years_before_maintenance_max_reached=11
 
 Constraint[Next][0]=LMS-Patriot-Tender(Maroon)
 

@@ -8,8 +8,8 @@ power=153
 copyright=Kieron
 intro_year=1985
 intro_month=5
-retire_year=1998
-retire_month=8
+retire_year=1989
+retire_month=2
 waytype=track
 freight=Passagiere
 payload=59
@@ -25,6 +25,7 @@ comfort=60
 
 can_lead_from_rear=1
 bidirectional=0
+increase_maintenance_after_years=26
 
 Constraint[Prev][0]=BR-142Front(Regional)
 

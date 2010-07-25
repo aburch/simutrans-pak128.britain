@@ -5,7 +5,7 @@ power=0
 copyright=James
 intro_year=1902
 intro_month=1
-retire_year=1928
+retire_year=1914
 retire_month=1
 waytype=track
 freight=None
@@ -16,6 +16,8 @@ weight=39
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=34
+years_before_maintenance_max_reached=27
 
 Constraint[Prev][0]=MR-1000(Maroon)
 

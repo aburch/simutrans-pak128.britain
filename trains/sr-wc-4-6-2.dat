@@ -9,8 +9,8 @@ tractive_effort=137
 copyright=Kieron&JamesPetts
 intro_year=1945
 intro_month=5
-retire_year=1960
-retire_month=9
+retire_year=1951
+retire_month=5
 waytype=track
 freight=None
 payload=0
@@ -21,6 +21,8 @@ cost=9216500
 runningcost=1950
 sound=-1
 air_resistance=1200
+increase_maintenance_after_years=7
+years_before_maintenance_max_reached=14
 
 Constraint[Next][0]=SR-MerchantNavy_4-6-2Tender(Green)
 

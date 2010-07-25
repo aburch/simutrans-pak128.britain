@@ -9,7 +9,7 @@ tractive_effort=173
 copyright=Kieron
 intro_year=1961
 intro_month=3
-retire_year=1985
+retire_year=1974
 retire_month=6
 waytype=track
 freight=None
@@ -20,6 +20,7 @@ weight=72
 cost=8870000
 runningcost=924
 sound=-1
+increase_maintenance_after_years=14
 
 can_lead_from_rear=0
 bidirectional=1

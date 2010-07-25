@@ -5,8 +5,8 @@ power=0
 copyright=James
 intro_year=1903
 intro_month=6
-retire_year=1935
-retire_month=3
+retire_year=1942
+retire_month=2
 waytype=track
 freight=None
 payload=0
@@ -16,6 +16,8 @@ weight=40
 cost=0
 runningcost=0
 sound=-1
+increase_maintenance_after_years=16
+years_before_maintenance_max_reached=13
 
 Constraint[Prev][0]=GWR-2800(Green)
 
