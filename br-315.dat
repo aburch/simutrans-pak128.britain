@@ -29,10 +29,10 @@ loading_time=6100
 comfort=60
 way_constraint_permissive[2]=2
 
-Constraint[Prev][0]=BR-313Rear(Blue-Grey)
+Constraint[Prev][0]=BR-315Rear(Blue-Grey)
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-313Pantograph(Blue-Grey)
+Constraint[Next][0]=BR-315Pantograph(Blue-Grey)
 
 EmptyImage[E]=./images/br-313-bg.0.0
 EmptyImage[SE]=./images/br-313-bg.0.1
@@ -76,9 +76,9 @@ loading_time=6100
 comfort=60
 way_constraint_permissive[2]=2
 
-Constraint[Prev][0]=BR-313Front(Blue-Grey)
+Constraint[Prev][0]=BR-315Front(Blue-Grey)
 
-Constraint[Next][0]=BR-313Rear(Blue-Grey)
+Constraint[Next][0]=BR-315Rear(Blue-Grey)
 
 EmptyImage[E]=./images/br-313-bg.1.0
 EmptyImage[SE]=./images/br-313-bg.1.1
@@ -121,9 +121,9 @@ way_constraint_permissive[2]=2
 loading_time=6100
 comfort=60
 
-Constraint[Prev][0]=BR-313Pantograph(Blue-Grey)
+Constraint[Prev][0]=BR-315Pantograph(Blue-Grey)
 
-Constraint[Next][0]=BR-313Front(Blue-Grey)
+Constraint[Next][0]=BR-315Front(Blue-Grey)
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-313-bg.2.0
