@@ -4,8 +4,8 @@ speed=160
 copyright=James
 intro_year=1926
 intro_month=9
-retire_year=1959
-retire_month=3
+retire_year=1941
+retire_month=9
 waytype=track
 freight=Passagiere
 payload=64
@@ -21,6 +21,9 @@ bidirectional=1
 
 loading_time=4000
 comfort=96
+increase_maintenance_after_years=15
+years_before_maintenance_max_reached=30
+# Wooden bodied vehicles become obsolete sooner.
 
 Constraint[Next][0]=SR-Maunsell-Third(Green)
 Constraint[Next][1]=SR-Maunsell-Brake(Green)
@@ -44,8 +47,8 @@ speed=140
 copyright=James
 intro_year=1926
 intro_month=9
-retire_year=1959
-retire_month=3
+retire_year=1941
+retire_month=9
 waytype=track
 freight=Passagiere
 payload=24
@@ -62,6 +65,9 @@ catering_level=3
 
 loading_time=4000
 comfort=96
+increase_maintenance_after_years=15
+years_before_maintenance_max_reached=30
+# Wooden bodied vehicles become obsolete sooner.
 
 Constraint[Next][0]=SR-Maunsell-Third(Green)
 Constraint[Next][1]=SR-Maunsell-Brake(Green)

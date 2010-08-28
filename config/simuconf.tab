@@ -296,6 +296,13 @@ passenger_max_wait = 19440
 # If this setting is set to 1, halts will have different capacities for each type of goods.
 seperate_halt_capacities=1
 
+# This setting determines the extent to which cities should be built far away from
+# other cities when the map is first generated. The higher the number, the further
+# away from each other that the cities are built. This is introduced in Simutrans-Experimental
+# 9.0. It replaces Simutrans-Standard's setting of "minimum_city_distance".
+
+city_isolation_factor = 1
+
 ################################## Industry settings #################################
 
 # allow all possible supplier to connect to your factories?

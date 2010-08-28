@@ -4,8 +4,8 @@ speed=160
 copyright=James
 intro_year=1923
 intro_month=2
-retire_year=1953
-retire_month=4
+retire_year=1951
+retire_month=2
 waytype=track
 freight=Post
 payload=40
@@ -21,6 +21,9 @@ bidirectional=1
 
 loading_time=4000
 comfort=0
+increase_maintenance_after_years=15
+years_before_maintenance_max_reached=30
+# Wooden bodied vehicles become obsolete sooner.
 
 EmptyImage[E]=./images/gwr-express-parcel-brake.0
 EmptyImage[SE]=./images/gwr-express-parcel-brake.1

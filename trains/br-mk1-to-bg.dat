@@ -4,7 +4,7 @@ speed=160
 copyright=Kieron
 intro_year=1965
 intro_month=4
-retire_year=1992
+retire_year=1975
 retire_month=3
 waytype=track
 freight=Passagiere
@@ -22,6 +22,7 @@ bidirectional=1
 
 loading_time=6000
 comfort=107
+increase_maintenance_after_years=22
 
 Constraint[Next][0]=BR-Mk1-GUV(Rail-Blue)
 Constraint[Next][1]=BR-Mk1-TO(Blue-Grey)

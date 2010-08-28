@@ -4,8 +4,8 @@ speed=145
 copyright=Kieron/James
 intro_year=1951
 intro_month=2
-retire_year=1962
-retire_month=9
+retire_year=1956
+retire_month=3
 waytype=track
 freight=Passagiere
 payload=24
@@ -23,6 +23,7 @@ catering_level=3
 
 loading_time=6000
 comfort=110
+increase_maintenance_after_years=20
 
 upgrade[0]=BR-Mk1-RMB(Maroon)
 upgrade[1]=BR-Mk1-RMB(Blue-Grey)

@@ -4,7 +4,7 @@ speed=170
 copyright=Kieron
 intro_year=1937
 intro_month=6
-retire_year=1967
+retire_year=1948
 retire_month=1
 waytype=track
 freight=Passagiere
@@ -21,6 +21,9 @@ bidirectional=1
 loading_time=9000
 comfort=124
 catering_level=5
+increase_maintenance_after_years=17
+years_before_maintenance_max_reached=30
+# Wooden bodied vehicles become obsolete sooner.
 
 Constraint[Next][0]=LMS-Coronation-TO(Maroon)
 Constraint[Next][1]=LMS-Coronation-FK(Maroon)
