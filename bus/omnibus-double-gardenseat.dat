@@ -1,16 +1,14 @@
 obj=vehicle
 name=OmnibusDoubleGardenseat
 copyright=JamesPetts&JamesHood
-
 waytype=road
 freight=Passagiere
 payload=35
 speed=15
 weight=4
 length=3
-
 cost=17500
-runningcost=200
+runningcost=7
 intro_year=1882
 intro_month=8
 retire_year=1913

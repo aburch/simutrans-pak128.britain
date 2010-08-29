@@ -2,7 +2,6 @@
 obj=vehicle
 name=OmnibusSingle
 copyright=JamesPetts&JamesHood
-
 waytype=road
 freight=Passagiere
 payload=10
@@ -10,7 +9,7 @@ speed=15
 weight=3
 length=3
 cost=10000
-runningcost=60
+runningcost=5
 intro_year=1828
 intro_month=3
 retire_year=1878
