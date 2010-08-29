@@ -74,6 +74,7 @@
   <ItemGroup>
     <None Include="br-315.dat" />
     <None Include="br-375-dual-voltage.dat" />
+    <None Include="bus\maudslay-van.dat" />
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
     <None Include="trains\br-150-rr.dat" />
@@ -626,7 +627,6 @@
     <None Include="..\..\simutrans-experimental-binaries\text\en\map.txt" />
     <None Include="grounds\marker.dat" />
     <None Include="ways\masonry-viaduct-road.dat" />
-    <None Include="maudslay_van.dat" />
     <None Include="mcnamara_van.dat" />
     <None Include="bus\mcw-q1.dat" />
     <None Include="trams\medium-2-deck-trailer.dat" />

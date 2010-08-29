@@ -1,4 +1,3 @@
-# First really successful motor bus design.
 obj=vehicle
 name=NSTypeDouble
 copyright=JamesPetts&JamesHood
@@ -13,7 +12,7 @@ gear=100
 weight=6
 length=5
 cost=255800
-runningcost=310
+runningcost=155
 intro_year=1923
 intro_month=2
 retire_year=1929

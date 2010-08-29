@@ -7,7 +7,7 @@ payload=3
 engine_type=diesel
 smoke=Diesel
 power=3
-gear=300
+#gear=300
 speed=30
 weight=3
 cost=92000
@@ -17,18 +17,10 @@ intro_month=12
 retire_year=1927
 retire_month=9
 
-
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
 loading_time=3000
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
 
 EmptyImage[E]=./images/maudslay-van.0.0
 EmptyImage[SE]=./images/maudslay-van.0.1
