@@ -6,7 +6,8 @@ waytype=road
 engine_type=diesel
 freight=Passagiere
 
-payload=62
+payload=28
+overcrowded_capacity=55
 speed=87
 power=250
 #gear=90
@@ -44,7 +45,8 @@ waytype=road
 engine_type=diesel
 freight=Passagiere
 
-payload=43
+payload=21
+overcrowded_capacity=45
 speed=87
 power=0
 weight=20
