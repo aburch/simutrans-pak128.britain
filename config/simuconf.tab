@@ -16,7 +16,7 @@
 
 # Passenger generation (the default is 16): smaller values means fewer passengers.
 
-passenger_factor=16
+passenger_factor=20
 
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
 
