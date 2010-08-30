@@ -72,6 +72,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="bus\daf-cf-rigid.dat" />
+    <None Include="bus\daf-lf.dat" />
+    <None Include="bus\leyland-comet.dat" />
+    <None Include="bus\leyland-daf-200.dat" />
+    <None Include="bus\leyland-daf-65.dat" />
+    <None Include="bus\leyland-daf-85-rigid.dat" />
+    <None Include="bus\leyland-g.dat" />
+    <None Include="bus\leyland-roadrunner.dat" />
+    <None Include="bus\leyland-sherpa.dat" />
+    <None Include="bus\leyland-t45-constructor.dat" />
     <None Include="bus\maudslay-van.dat" />
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
