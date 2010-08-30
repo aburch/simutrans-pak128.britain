@@ -12,6 +12,7 @@ intro_month=6
 waytype=track
 freight=Passagiere
 payload=64
+overcrowded_capacity=19
 length=11
 
 weight=47
@@ -21,7 +22,6 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-way_constraint_permissive[2]=2
 
 loading_time=6500
 comfort=95

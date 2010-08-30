@@ -11,6 +11,7 @@ retire_month=5
 waytype=track
 freight=Passagiere
 payload=80
+overcrowded_capacity=26
 length=11
 
 weight=34
@@ -56,6 +57,7 @@ retire_month=5
 waytype=track
 freight=Passagiere
 payload=79
+overcrowded_capacity=26
 length=11
 
 weight=32
@@ -100,6 +102,7 @@ retire_month=5
 waytype=track
 freight=Passagiere
 payload=96
+overcrowded_capacity=30
 length=11
 increase_maintenance_after_years=15
 
@@ -143,7 +146,8 @@ retire_year=1980
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=82
+payload=82	   
+overcrowded_capacity=29
 length=11
 increase_maintenance_after_years=15
 

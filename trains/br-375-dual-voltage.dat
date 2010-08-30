@@ -12,6 +12,7 @@ intro_month=10
 waytype=track
 freight=Passagiere
 payload=60
+overcrowded_capacity=20
 length=12
 
 weight=46
@@ -57,6 +58,7 @@ intro_month=10
 waytype=track
 freight=Passagiere
 payload=66
+overcrowded_capacity=22
 length=11
 
 weight=40
@@ -104,6 +106,7 @@ intro_month=10
 waytype=track
 freight=Passagiere
 payload=60
+overcrowded_capacity=20
 length=12
 
 weight=46

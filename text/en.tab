@@ -1511,11 +1511,11 @@ GWR Gloucester Railcar
 GWR-Autocoach
 GWR Autocoach
 GWR-Droplight-Third(Mahogany)
-GWR Corridor carriage
+GWR Toplight corridor carriage
 GWR-Droplight-Brake(Mahogany)
-GWR Corridor brake carriage
+GWR Toplight corridor brake
 GWR-Droplight-Dining(Mahogany)
-GWR Corridor dining carriage
+GWR Toplight corridor dining carriage
 LNER-Gresley-Express-Coach(Teak)
 LNER Teak Express Carriage
 BR-Mk1-TO(Blue-Grey)
@@ -1605,11 +1605,11 @@ LMS Class 502 EMU (rear)
 LMS-502Middle(Maroon)
 LMS Class 502 EMU (middle)
 Metropolitan-Motor-Third-Front
-Metropolitan 1907 Motorised Tube Stock
+Metropolitan 1905 Motorised Stock
 Metropolitan-Motor-Third-Middle
-Metropolitan 1907 Motorised Tube Stock (middle)
+Metropolitan 1905 Motorised Stock (middle)
 Metropolitan-Motor-Third-Back
-Metropolitan 1907 Mororised Tube Stock (rear)
+Metropolitan 1905 Mororised Stock (rear)
 Metropolitan-Bogie-Third
 Metropolitan Bogie Carriage
 Metropolitan-Dreadnought-Third
@@ -1735,15 +1735,15 @@ MR Clerestory Carriage (brake)
 MR-Clerestory-Coach
 MR Clerestory Carriage
 Teak-Clerestory-Brake
-GNR Clerestory Carriage (brake)
+GNR Corridor Clerestory Carriage (brake)
 Teak-Clerestory-Coach
-GNR Clerestory Carriage
+GNR Corridor Clerestory Carriage
 Teak-Clerestory-Dining
-GNR Clerestory Dining Carriage
+GNR Corridor Clerestory Dining Carriage
 CC-Clerestory-Brake
-GWR Clerestory Carriage (brake)
+GWR Corridor Clerestory Carriage (brake)
 CC-Clerestory-Coach
-GWR Clerestory Carriage
+GWR Corridor Clerestory Carriage
 SR-Maunsell-Brake(Green)
 SR Maunsell Express Carriage (brake)
 SR-Maunsell-Third(Green)
@@ -2023,7 +2023,7 @@ LNER 7t brake van
 BrakeBR
 BR standard 7t brake van
 CC-Clerestory-Dining
-GWR clerestory dining car
+GWR corridor clerestory dining car
 GWR-Express-Dining
 GWR express dining car
 LMS-d1904-dining

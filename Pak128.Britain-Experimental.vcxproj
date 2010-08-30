@@ -72,8 +72,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="br-315.dat" />
-    <None Include="br-375-dual-voltage.dat" />
     <None Include="bus\maudslay-van.dat" />
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
