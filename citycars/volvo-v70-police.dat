@@ -1,0 +1,17 @@
+obj=citycar
+name=Volvo-V70-Police
+copyright=JamesHood&Volvo
+
+DistributionWeight=2
+intro_year=1990
+#retire_year=2030
+speed=130
+
+EmptyImage[E]=./images/volvo-v70-police.2.0
+EmptyImage[SE]=./images/volvo-v70-police.2.1
+EmptyImage[S]=./images/volvo-v70-police.2.2
+EmptyImage[SW]=./images/volvo-v70-police.2.3
+EmptyImage[W]=./images/volvo-v70-police.2.4
+EmptyImage[NW]=./images/volvo-v70-police.2.5
+EmptyImage[N]=./images/volvo-v70-police.2.6
+EmptyImage[NE]=./images/volvo-v70-police.2.7
