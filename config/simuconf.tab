@@ -43,9 +43,9 @@ capital_threshold_size = 25000
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 600
-growthfactor_cities = 400
-growthfactor_capitals = 200
+growthfactor_villages = 400
+growthfactor_cities = 300
+growthfactor_capitals = 150
 
 # Some passengers who are not able to find a route will be content
 # to go to an alternative destination. Set the maximum number here.
@@ -78,7 +78,7 @@ longdistance_passengers_max_distance = 16384
 passenger_routing_local_chance = 40
 passenger_routing_midrange_chance = 38
 # passenger_routing_longdistance_chance is 100 minus the sum of the two above values,
-# but not stipulated individually.
+# but not stipulated individually. (100 - 38 - 40 = 22)
 
 # Passengers have a maximum tolerance level for how long that they will
 # spend travelling. The further that the passengers want to go, the more
@@ -367,7 +367,7 @@ cost_signal = 750
 cost_tunnel = 11000
 
 # other construction/destruction stuff
-cost_alter_land=1000
+cost_alter_land=2000
 cost_set_slope=5250
 cost_found_city=5000000
 cost_multiply_found_industry=500000
@@ -442,7 +442,7 @@ show_month = 4
 # default is 18. For example, 21 will make the month 2^3=8 times longer in real time
 # production and maintainance cost will be adjusted accordingly.
 
-bits_per_month = 20
+bits_per_month = 18
 
 ################################ Road Settings ###################################
 

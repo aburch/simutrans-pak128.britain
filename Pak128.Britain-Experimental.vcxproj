@@ -131,11 +131,8 @@
     <None Include="industry\arable-farm.dat" />
     <None Include="ways\asphalt-road.dat" />
     <None Include="citycars\austin-metro.dat" />
-    <None Include="citycars\austin-metro.png" />
     <None Include="citycars\austin-princess.dat" />
-    <None Include="citycars\austin-princess.png" />
     <None Include="citycars\austin-seven.dat" />
-    <None Include="citycars\austin-seven.png" />
     <None Include="austin_seven_van.dat" />
     <None Include="..\doc\authors.txt" />
     <None Include="bus\b-type-double.dat" />
@@ -156,7 +153,6 @@
     <None Include="trams\blackpool-standard.dat" />
     <None Include="boats\boats192\blackwall-frigate.dat" />
     <None Include="citycars\bmc-mini.dat" />
-    <None Include="citycars\bmc-mini.png" />
     <None Include="boats\boat-horse.dat" />
     <None Include="depots\boatyard-modern.dat" />
     <None Include="depots\boatyard-old.dat" />
@@ -334,7 +330,6 @@
     <None Include="bus\bus-horse.dat" />
     <None Include="stations\bus-stops.dat" />
     <None Include="industry\butchery.dat" />
-    <None Include="ways\canal-tunnel.png" />
     <None Include="ways\canal.dat" />
     <None Include="industry\car-dealership.dat" />
     <None Include="industry\car-factory.dat" />
@@ -427,11 +422,8 @@
     <None Include="attractions\football-ground-lg.dat" />
     <None Include="attractions\football-ground-sm.dat" />
     <None Include="citycars\ford-cortina.dat" />
-    <None Include="citycars\ford-cortina.png" />
     <None Include="citycars\ford-ka.dat" />
-    <None Include="citycars\ford-ka.png" />
     <None Include="citycars\ford-t.dat" />
-    <None Include="citycars\ford-t.png" />
     <None Include="industry\forest-sawmill.dat" />
     <None Include="..\config\forestrules.tab" />
     <None Include="config\forestrules.tab" />
@@ -498,9 +490,7 @@
     <None Include="industry\hardware-shop.dat" />
     <None Include="boats\horse-barge.dat" />
     <None Include="citycars\horse-carriage.dat" />
-    <None Include="citycars\horse-carriage.png" />
     <None Include="citycars\horse-cart-citycar.dat" />
-    <None Include="citycars\horse-cart-citycar.png" />
     <None Include="lorries\horse_wagons.dat" />
     <None Include="trains\hr-jones-goods-tender.dat" />
     <None Include="trains\hr-jones-goods.dat" />
@@ -523,7 +513,6 @@
     <None Include="attractions\knight-monument.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\labellist_filter.txt" />
     <None Include="citycars\land-rover-series.dat" />
-    <None Include="citycars\land-rover-series.png" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\language.txt" />
     <None Include="trams\large-2-deck-trailer.dat" />
     <None Include="trains\lbscr-4wheel-brake.dat" />
@@ -637,7 +626,6 @@
     <None Include="ways\maglev_tracks.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\mailbox.txt" />
     <None Include="bus\mailcoach.dat" />
-    <None Include="trains\Makeobj.exe" />
     <None Include="bus\man_on_bicycle.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\map.txt" />
     <None Include="grounds\marker.dat" />
@@ -645,7 +633,6 @@
     <None Include="mcnamara_van.dat" />
     <None Include="bus\mcw-q1.dat" />
     <None Include="trams\medium-2-deck-trailer.dat" />
-    <None Include="..\config\menuconf.tab" />
     <None Include="config\menuconf.tab" />
     <None Include="bus\mercedes-citaro-g.dat" />
     <None Include="bus\mercedes-citaro-k.dat" />
@@ -667,7 +654,6 @@
     <None Include="..\..\simutrans-experimental-binaries\text\en\monorailtools.txt" />
     <None Include="bus\morris-eight-van.dat" />
     <None Include="citycars\morris-eight.dat" />
-    <None Include="citycars\morris-eight.png" />
     <None Include="morris_eight_van.dat" />
     <None Include="ways\motorway.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\mouse.txt" />
@@ -725,7 +711,6 @@
     <None Include="industry\papermill.dat" />
     <None Include="ways\pavement.dat" />
     <None Include="citycars\peel-p50.dat" />
-    <None Include="citycars\peel-p50.png" />
     <None Include="bus\petrol-electric-bus.dat" />
     <None Include="industry\petrol-station.dat" />
     <None Include="industry\pharmaceutical-factory.dat" />
@@ -743,10 +728,8 @@
     <None Include="industry\quarry.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\railtools.txt" />
     <None Include="citycars\range-rover.dat" />
-    <None Include="citycars\range-rover.png" />
     <None Include="..\doc\readme128.txt" />
     <None Include="citycars\reliant-robin.dat" />
-    <None Include="citycars\reliant-robin.png" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\removal_tool.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\replace.txt" />
     <None Include="citybuildings\res-10.dat" />

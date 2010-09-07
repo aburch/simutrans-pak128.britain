@@ -21,6 +21,7 @@ comfort=58
 loading_time=6500
 
 Constraint[Prev][0]=RoadHorsesDouble
+Constraint[Prev][1]=RoadHorsesSingle
 Constraint[Next][0]=none
 
 EmptyImage[E]=./images/stagecoach.0.0
