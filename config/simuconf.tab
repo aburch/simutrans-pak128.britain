@@ -301,7 +301,7 @@ seperate_halt_capacities=1
 # away from each other that the cities are built. This is introduced in Simutrans-Experimental
 # 9.0. It replaces Simutrans-Standard's setting of "minimum_city_distance".
 
-city_isolation_factor = 1
+city_isolation_factor = 32
 
 ################################## Industry settings #################################
 
@@ -442,7 +442,7 @@ show_month = 4
 # default is 18. For example, 21 will make the month 2^3=8 times longer in real time
 # production and maintainance cost will be adjusted accordingly.
 
-bits_per_month = 18
+bits_per_month = 19
 
 ################################ Road Settings ###################################
 
