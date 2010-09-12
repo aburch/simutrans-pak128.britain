@@ -163,7 +163,7 @@ HISTORY
 	ADD: More citybuildings (Archon)
 	FIX: Correct syntax for tram waytypes
 	FIX: River and canal upgrade costs
-12/09/2010: r317-319
+12/09/2010: r317-320
 	FIX: various bus and truck weights were incorrect (AEO)
 	FIX: various rail vehicle constraints were broken (AEO)
 	FIX: graphical glitch on brick station with overroof
@@ -173,3 +173,5 @@ HISTORY
 	ADD: New EMUs (JamesPetts)
 	ADD: Volvo RH Class bus (VOLVO)
 	ADD: VOLVO's citycars (VOLVO)
+	ADD: Open crossings for early years (WLindley)
+	ADD: Snow images for AHB Crossing
