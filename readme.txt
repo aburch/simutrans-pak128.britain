@@ -159,4 +159,10 @@ HISTORY
 	CHANGE: MOSE script and parameters (neroden)
 	ADD: more shop graphics (Archon & Wlindley)
 	ADD: HQs (Wlindley)
+12/09/2010: r317
+	FIX: various bus and truck weights were incorrect (AEO)
+	FIX: various rail vehicle constraints were broken (AEO)
+	FIX: graphical glitch on brick station with overroof
+	FIX: LNWR PoW class intro date was wrong (Archon)
+	FIX: LNER A3 graphics had some stray pixels (AEO)
 	
