@@ -1972,6 +1972,32 @@ GWR-Hawksworth-County
 GWR 1000 "County" Class 4-6-0
 GWR-Hawksworth-County-Tender
 GWR 1000 "County" Tender
+BR-150Front(Regional)
+BR Class 150 "Sprinter" DMU (front)
+BR-150Centre(Regional)
+BR Class 150 "Sprinter" DMU (centre)
+BR-150Rear(Regional)
+BR Class 150 "Sprinter" DMU (rear)
+BR-456-DMSO
+BR Class 456 EMU (DMSO)
+BR-456-DTSO
+BR Class 456 EMU (DTSO)
+BR-455-Driving-Front
+BR Class 455 EMU (front)
+BR-455-Motor
+BR Class 455 EMU (power)
+BR-455-Trailer
+BR Class 455 EMU (trailer)
+BR-455-Driving-Rear
+BR Class 455 EMU (rear)
+BR-317-Driving-Front
+BR Class 317 EMU (front)
+BR-317-Motor
+BR Class 317 EMU (power)
+BR-317-Trailer
+BR Class 317 EMU (trailer)
+BR-317-Driving-Rear
+BR Class 317 (rear)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -2646,6 +2672,8 @@ MaudslayVanLong
 Maudslay Van (long goods)
 MaudslayVanPost
 Maudslay Van (mail)
+RHVolvoOlympian
+Volvo RH Class
 #____________________________________water-vehicle____________________________________
 #____________________________________water-vehicle____________________________________
 BoatHorsesDouble
@@ -3024,5 +3052,123 @@ ATC_choosesignal
 Choose Signal
 ATC_EndofChooseSignal
 End of Choose Signal Block Sign
-
-
+#_________________City cars_______________________
+#_________________City cars_______________________
+AustinMetro(Blue)
+Austin Metro
+AustinMetro(Red)
+Austin Metro
+AustinMetro(Yellow)
+Austin Metro
+AustinMetro(White)
+Austin Metro
+AustinMetro(Green)
+Austin Metro
+AustinMetro(Purple)
+Austin Metro
+AustinPrincess(SilverBlack)
+Austin Princess
+AustinPrincess(Ivory)
+Austin Princess
+AustinSeven(Blue)
+Austin Seven
+AustinSeven(Red)
+Austin Seven
+AustinSeven(Cream)
+Austin Seven
+AustinSeven(Black)
+Austin Seven
+AustinSeven(Green)
+Austin Seven
+BMCMini(Blue)
+Mini
+BMCMini(Navy)
+Mini
+BMCMini(Orange)
+Mini
+BMCMini(RacingGreen)
+Mini
+BMCMini(Red)
+Mini
+BMCMini(White)
+Mini
+FordCortina(Blue)
+Ford Cortina
+FordCortina(Red)
+Ford Cortina
+FordCortina(Brown)
+Ford Cortina
+FordCortina(Black)
+Ford Cortina
+FordCortina(White)
+Ford Cortina
+FordCortina(Olive)
+Ford Cortina
+FordKa(Blue)
+Ford Ka
+FordKa(Silver)
+Ford Ka
+FordKa(Red)
+Ford Ka
+FordKa(Turquoise)
+Ford Ka
+FordKa(Green)
+Ford Ka
+FordKa(Purple)
+Ford Ka
+FordT(Black)
+Ford Model-T
+HorseCarriageOpen(White)
+Open carriage
+HorseCarriageOpen(Yellow)
+Open carriage
+HorseCarriageClosed(Blue)
+Horse-drawn carriage
+HorseCarriageClosed(Green)
+Horse-drawn carriage
+HorseCarriageClosed(Cream)
+Horse-drawn carriage
+HorseCart(Brown)
+Horse cart
+HorseCart(Grey)
+Horse cart
+LandRoverSeries(Green)
+Landrover
+LandRoverSeries(White)
+Landrover
+LandRoverSeries(Blue)
+Landrover
+LandRoverSeries(Desert)
+Landrover
+MorrisEight(Maroon)
+Morris Eight
+MorrisEight(Green)
+Morris Eight
+MorrisEight(Black)
+Morris Eight
+PeelP50(Red)
+Peel P50
+RangeRover(Green)
+Rangerover
+RangeRover(Red)
+Rangerover
+RangeRover(Silver)
+Rangerover
+RangeRover(Black)
+Rangerover
+ReliantRobin(Blue)
+Reliant Robin
+ReliantRobin(Maroon)
+Reliant Robin
+ReliantRobin(Silver)
+Reliant Robin
+ReliantRobin(Yellow)
+Trotter's Independent Trading Co.: New York - Milan - Peckham
+Volvo-V70-Police
+Volvo V70 police car
+LondonTaxi-Lanchester
+Black cab
+Volvo-240-Estate(Blue)
+Volvo 240 Estate
+Volvo-240-Estate(Silver)
+Volvo 240 Estate

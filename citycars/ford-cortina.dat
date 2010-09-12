@@ -7,14 +7,14 @@ intro_year=1962
 retire_year=1982
 speed=80
 
-Image[W]=ford-cortina.0.0
-Image[NW]=ford-cortina.0.1
-Image[N]=ford-cortina.0.2
-Image[NE]=ford-cortina.0.3
-Image[E]=ford-cortina.0.4
-Image[SE]=ford-cortina.0.5
-Image[S]=ford-cortina.0.6
-Image[SW]=ford-cortina.0.7
+Image[W]=ford-cortina.0.0,15,5
+Image[NW]=ford-cortina.0.1,-3,16
+Image[N]=ford-cortina.0.2,-4,13
+Image[NE]=ford-cortina.0.3,-8,0
+Image[E]=ford-cortina.0.4,-12,-11
+Image[SE]=ford-cortina.0.5,2,-15
+Image[S]=ford-cortina.0.6,7,-14
+Image[SW]=ford-cortina.0.7,15,0
 ---------------------------------
 obj=citycar
 name=FordCortina(Red)
