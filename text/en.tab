@@ -148,12 +148,8 @@ City Hall
 City Hall
 #___________________________________crossing____________________________________
 #___________________________________crossing____________________________________
-CrossingT
-Automated half-barrier crossing
-Crossing1750
-Open crossing
-Crossing1850
-Open crossing
+Crossing1
+Crossing
 #____________________________________city-buildings____________________________________
 #____________________________________city-buildings____________________________________
 RES_KG_1600_00_01
@@ -2816,8 +2812,14 @@ PSComet
 PS Comet
 WoodenPaddleSteamer
 Wooden Paddle Steamer
+IronPaddleSteamer
+Iron Paddle Steamer
 SSGreatWestern
 SS Great Western
+SSGreatBritain
+SS Great Britain
+SSGreatEastern
+SS Great Eastern
 #____________________________________maglev-vehicle____________________________________
 #____________________________________maglev-vehicle____________________________________
 BR-M-Class9000

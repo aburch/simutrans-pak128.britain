@@ -175,3 +175,5 @@ HISTORY
 	ADD: VOLVO's citycars (VOLVO)
 	ADD: Open crossings for early years (WLindley)
 	ADD: Snow images for AHB Crossing
+26/10/2010: r329 (release of 1.08)
+	ADD: SS Great Britain, SS Great Eastern, Iron Paddle Steamer
