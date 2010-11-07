@@ -43,9 +43,15 @@ capital_threshold_size = 25000
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 400
-growthfactor_cities = 300
-growthfactor_capitals = 150
+growthfactor_villages = 600
+growthfactor_cities = 400
+growthfactor_capitals = 200
+
+# These settings determine the proportion of passengers who travel to industries and
+# attractions respectively. 
+
+factory_worker_percentage = 15
+tourist_percentage = 8
 
 # Some passengers who are not able to find a route will be content
 # to go to an alternative destination. Set the maximum number here.
@@ -55,7 +61,7 @@ growthfactor_capitals = 150
 # For example, if the number is set at 2, there will be an equal chance
 # of passengers having 0, 1 or 2 alternative destinations).
 
-max_alternative_destinations = 3
+max_alternative_destinations = 5
 
 # The program will generate three groups of passengers: (1) local;
 # (2) midrange; and (3) long distance. The program will look for a town within
@@ -75,10 +81,10 @@ longdistance_passengers_max_distance = 16384
 # any passengers generated will try to find a town within each of the three
 # ranges, respectively. 
 
-passenger_routing_local_chance = 40
-passenger_routing_midrange_chance = 38
+passenger_routing_local_chance = 37
+passenger_routing_midrange_chance = 36
 # passenger_routing_longdistance_chance is 100 minus the sum of the two above values,
-# but not stipulated individually. (100 - 38 - 40 = 22)
+# but not stipulated individually. 
 
 # Passengers have a maximum tolerance level for how long that they will
 # spend travelling. The further that the passengers want to go, the more
@@ -322,7 +328,7 @@ cost_transformer = 2500
 cost_maintain_transformer = 100
 
 # Minimum distance between factories (in tiles)
-factory_spacing = 24
+factory_spacing = 32
 
 # Some factories have a retirement date, after which they are obsolete. After
 # that date, factories may close down (random chance each month). After the number
@@ -335,7 +341,10 @@ max_years_obsolete = 40
 # the industries in question). 
 
 factory_worker_minimum_towns = 1
-factory_worker_maximum_towns = 4
+factory_worker_maximum_towns = 5
+
+# The maximum distance in tiles from which workers at industries may travel.
+factory_worker_radius = 128
 
 ################################## Finance settings #################################
 
@@ -584,13 +593,13 @@ river_type[2] = River1
 river_type[3] = River0
 
 # The number of rivers
-river_number = 256
+river_number = 128
 
 # river min length (not too short)
 river_min_length = 2
 
 # river max length (not too long)
-river_max_length = 2048
+river_max_length = 4096
 
 ################################### Forest settings ##################################
 
