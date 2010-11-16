@@ -4,7 +4,7 @@ speed=175
 copyright=Kieron
 intro_year=1923
 intro_month=5
-retire_year=1960
+retire_year=1951
 retire_month=2
 waytype=track
 freight=Passagiere
@@ -43,11 +43,13 @@ speed=175
 copyright=Kieron
 intro_year=1923
 intro_month=5
-retire_year=1960
+retire_year=1951
 retire_month=2
+#NOTE: Need Thompson coaches to intersperse here for the 1940s.
 waytype=track
 freight=Passagiere
 payload=24
+overcrowded_capacity=13
 length=11
 
 weight=31
@@ -59,6 +61,9 @@ can_lead_from_rear=0
 bidirectional=1
 loading_time=7200
 comfort=115
+increase_maintenance_after_years=15
+years_before_maintenance_max_reached=30
+# Wooden bodied vehicles become obsolete sooner.
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach(Teak)
 Constraint[Next][1]=LNER-Gresley-Express-Brake(Teak)

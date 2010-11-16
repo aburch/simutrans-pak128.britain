@@ -5,11 +5,11 @@ waytype=road
 freight=Passagiere
 payload=4
 overcrowded_capacity=4
-speed=15
+speed=18
 weight=2
 length=3
 cost=25000
-runningcost=90
+runningcost=6
 intro_year=1700
 intro_month=1
 retire_year=1861
@@ -21,6 +21,7 @@ comfort=58
 loading_time=6500
 
 Constraint[Prev][0]=RoadHorsesDouble
+Constraint[Prev][1]=RoadHorsesSingle
 Constraint[Next][0]=none
 
 EmptyImage[E]=./images/stagecoach.0.0

@@ -4,7 +4,7 @@ speed=175
 copyright=Kieron/James
 intro_year=1923
 intro_month=5
-retire_year=1960
+retire_year=1951
 retire_month=2
 waytype=track
 freight=Post
@@ -20,6 +20,9 @@ can_lead_from_rear=0
 bidirectional=1
 loading_time=8500
 comfort=0
+increase_maintenance_after_years=15
+years_before_maintenance_max_reached=30
+# Wooden bodied vehicles become obsolete sooner.
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach(Teak)
 Constraint[Next][1]=LNER-Gresley-Express-Brake(Teak)
@@ -44,7 +47,7 @@ speed=175
 copyright=Kieron/James
 intro_year=1923
 intro_month=5
-retire_year=1960
+retire_year=1951
 retire_month=2
 waytype=track
 freight=Post
@@ -60,6 +63,9 @@ can_lead_from_rear=0
 bidirectional=1
 loading_time=8500
 comfort=0
+increase_maintenance_after_years=15
+years_before_maintenance_max_reached=30
+# Wooden bodied vehicles become obsolete sooner.
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach(Teak)
 Constraint[Next][1]=LNER-Gresley-Express-Brake(Teak)

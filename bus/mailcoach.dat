@@ -4,11 +4,11 @@ copyright=James
 waytype=road
 freight=Post
 payload=20
-speed=15
+speed=18
 weight=2
 length=3
-cost=250000
-runningcost=100
+cost=30000
+runningcost=8
 intro_year=1784
 intro_month=1
 retire_year=1842
@@ -19,6 +19,7 @@ years_before_maintenance_max_reached=35
 loading_time=6000
 
 Constraint[Prev][0]=RoadHorsesDouble
+Constraint[Prev][1]=RoadHorsesSingle
 Constraint[Next][0]=none
 
 EmptyImage[E]=./images/mailcoach.0.0

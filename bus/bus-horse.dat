@@ -1,7 +1,7 @@
 obj=vehicle
 name=RoadHorsesDouble
 engine_type=bio
-speed=15
+speed=18
 power=20
 #gear=1200
 copyright=James
@@ -31,7 +31,7 @@ EmptyImage[NE]=./images/bus-horse-double.7
 obj=vehicle
 name=RoadHorsesSingle
 engine_type=bio
-speed=15
+speed=18
 power=10
 #gear=1200
 copyright=James

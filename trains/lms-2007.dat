@@ -4,8 +4,8 @@ speed=160
 copyright=Kieron
 intro_year=1932
 intro_month=9
-retire_year=1958
-retire_month=7
+retire_year=1951
+retire_month=2
 waytype=track
 freight=Post
 payload=40
@@ -21,6 +21,9 @@ bidirectional=1
 
 loading_time=7300
 comfort=0
+increase_maintenance_after_years=15
+years_before_maintenance_max_reached=30
+# Wooden bodied vehicles become obsolete sooner.
 
 EmptyImage[E]=./images/lms-d2007-m.0
 EmptyImage[SE]=./images/lms-d2007-m.1

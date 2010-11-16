@@ -4,7 +4,7 @@ speed=160
 copyright=Kieron/James
 intro_year=1965
 intro_month=4
-retire_year=1992
+retire_year=1975
 retire_month=3
 waytype=track
 freight=Post
@@ -21,6 +21,7 @@ bidirectional=1
 
 loading_time=6000
 comfort=0
+increase_maintenance_after_years=22
 
 EmptyImage[E]=./images/br-mk1-bg-bg.0
 EmptyImage[SE]=./images/br-mk1-bg-bg.1

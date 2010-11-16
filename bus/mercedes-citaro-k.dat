@@ -7,13 +7,14 @@ engine_type=diesel
 freight=Passagiere
 
 payload=62
+overcrowded_capacity=32
 speed=90
 power=250
 #gear=90
-weight=20
+weight=9
 length=6
 cost=2850000
-runningcost=240
+runningcost=141
 intro_year=2003
 intro_month=12
 #retire_year=2019

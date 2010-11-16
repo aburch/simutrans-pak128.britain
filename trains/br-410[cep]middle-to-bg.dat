@@ -8,7 +8,7 @@ retire_year=1988
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=64
+payload=21
 length=11
 
 weight=34
@@ -48,6 +48,7 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload=64
+overcrowded_capacity=21
 length=11
 
 weight=36

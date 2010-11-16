@@ -8,13 +8,11 @@ engine_type=diesel
 smoke=Diesel
 power=59
 speed=100
-weight=3
+weight=8
 cost=100000
 runningcost=23
 intro_year=2002
 intro_month=5
-
-
 
 loading_time=3000
 #upgrade[0]=
@@ -96,13 +94,11 @@ engine_type=diesel
 smoke=Diesel
 power=59
 speed=100
-weight=3
+weight=8
 cost=100000
 runningcost=23
 intro_year=2002
 intro_month=5
-
-
 
 loading_time=3000
 #upgrade[0]=
@@ -156,13 +152,11 @@ engine_type=diesel
 smoke=Diesel
 power=59
 speed=100
-weight=3
+weight=8
 cost=100000
 runningcost=47
 intro_year=2002
 intro_month=5
-
-
 
 loading_time=3000
 #upgrade[0]=
@@ -196,12 +190,11 @@ engine_type=diesel
 smoke=Diesel
 power=59
 speed=100
-weight=3
+weight=8
 cost=100000
 runningcost=47
 intro_year=2002
 intro_month=5
-
 
 loading_time=3000
 #upgrade[0]=
@@ -234,13 +227,11 @@ engine_type=diesel
 smoke=Diesel
 power=59
 speed=100
-weight=3
+weight=8
 cost=100000
 runningcost=34
 intro_year=2002
 intro_month=5
-
-
 
 loading_time=3000
 #upgrade[0]=
@@ -274,13 +265,11 @@ engine_type=diesel
 smoke=Diesel
 power=59
 speed=100
-weight=3
+weight=8
 cost=100000
 runningcost=132
 intro_year=2002
 intro_month=5
-
-
 
 loading_time=3000
 #upgrade[0]=
@@ -289,7 +278,6 @@ available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
 comfort=0
-
 
 constraint[next][0]=none 
 constraint[prev][0]=none

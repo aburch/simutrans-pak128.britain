@@ -3,12 +3,13 @@ name=MR-4Wheel-Composite
 speed=115
 copyright=Kieron/James
 intro_year=1866
-intro_month=2
-retire_year=1920
+intro_month=3
+retire_year=1888
 retire_month=9
 waytype=track
 freight=Passagiere
 payload=30
+overcrowded_capacity=15
 length=6
 
 weight=12
@@ -21,6 +22,7 @@ loading_time=3750
 
 can_lead_from_rear=0
 bidirectional=1
+increase_maintenance_after_years=45
 
 
 Constraint[Next][0]=MR-6Wheel-First

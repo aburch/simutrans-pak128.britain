@@ -2,15 +2,14 @@
 obj=vehicle
 name=OmnibusSingle
 copyright=JamesPetts&JamesHood
-
 waytype=road
 freight=Passagiere
 payload=10
-speed=15
+speed=18
 weight=3
 length=3
 cost=10000
-runningcost=60
+runningcost=5
 intro_year=1828
 intro_month=3
 retire_year=1878
@@ -22,6 +21,7 @@ increase_maintenance_after_years=20
 years_before_maintenance_max_reached=45
 
 Constraint[Prev][0]=RoadHorsesDouble
+Constraint[Prev][1]=RoadHorsesSingle
 Constraint[Next][0]=none
 
 EmptyImage[E]=./images/omnibus-single.0.0

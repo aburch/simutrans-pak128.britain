@@ -4,11 +4,12 @@ speed=125
 copyright=Kieron/James
 intro_year=1870
 intro_month=12
-retire_year=1920
-retire_month=11
+intro_month=3
+retire_year=1888
 waytype=track
 freight=Passagiere
 payload=30
+overcrowded_capacity=15
 length=6
 
 weight=12
@@ -18,6 +19,7 @@ sound=-1
 
 comfort=53
 loading_time=3750
+increase_maintenance_after_years=46
 
 Constraint[Next][0]=GNR-6Wheel-First
 Constraint[Next][1]=GNR-6Wheel-Guard

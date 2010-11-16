@@ -4,11 +4,13 @@ speed=110
 copyright=Kieron
 intro_year=1868
 intro_month=4
-retire_year=1923
-retire_month=6
+retire_year=1904
+retire_month=1
+# Temporary measure - should retire sooner. Need later suburban non-corridoors.
 waytype=track
 freight=Passagiere
 payload=34
+overcrowded_capacity=17
 length=6
 
 weight=9
