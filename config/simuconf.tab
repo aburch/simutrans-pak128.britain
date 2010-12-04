@@ -96,11 +96,11 @@ passenger_routing_midrange_chance = 36
 # above. 
 
 min_local_tolerance = 35
-max_local_tolerance = 90
+max_local_tolerance = 180
 min_midrange_tolerance = 60
-max_midrange_tolerance = 240
+max_midrange_tolerance = 360
 min_longdistance_tolerance = 150
-max_longdistance_tolerance = 2160
+max_longdistance_tolerance = 4320
 
 # Settings for calibrating the revenue system
 #
@@ -571,7 +571,11 @@ numbered_stations = 0
 # 1 = station names
 # 2 = statistics
 # 3 = names and statistics
-#
+
+# The visual style is added to this number:
+#   0 = black name in color box
+#   4 = name in player color with outline
+#   8 = box left of name in yellow outline
 show_names = 3
 
 # After how many months a citycar breaks (and will be forever gone) ...
