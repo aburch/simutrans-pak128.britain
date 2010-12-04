@@ -19,6 +19,9 @@ intro_month=5
 retire_year=1860
 retire_month=3
 
+loading_time=9500
+comfort=92
+
 Constraint[Next][0]=WoodenPaddleSteamerMail
 Constraint[Prev][0]=none
 
@@ -47,6 +50,8 @@ intro_year=1820
 intro_month=5
 retire_year=1860
 retire_month=3
+
+loading_time=13000
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=WoodenPaddleSteamer

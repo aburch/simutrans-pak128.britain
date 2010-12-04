@@ -18,6 +18,9 @@ intro_month=5
 retire_year=1840
 retire_month=6
 
+loading_time=9000
+comfort=85
+
 Constraint[Next][0]=PSCometMail
 Constraint[Prev][0]=none
 
@@ -46,6 +49,8 @@ intro_year=1812
 intro_month=5
 retire_year=1840
 retire_month=6
+
+loading_time=12000
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=PSComet

@@ -72,6 +72,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="boats\boats192\ss-great-britain.dat" />
+    <None Include="boats\boats192\ss-great-western.dat" />
+    <None Include="boats\boats224\ss-great-eastern.dat" />
+    <None Include="boats\iron-paddle-steamer.dat" />
+    <None Include="boats\ps-comet.dat" />
+    <None Include="boats\wooden-paddle-steamer.dat" />
     <None Include="bus\daf-cf-rigid.dat" />
     <None Include="bus\daf-lf.dat" />
     <None Include="bus\leyland-comet.dat" />
