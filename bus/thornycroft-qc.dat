@@ -16,13 +16,9 @@ intro_month=1
 retire_year=1938
 retire_month=4
 
-loading_time=2600
-#upgrade[0]=
-#upgrade_price=
+loading_time=7000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -104,14 +100,9 @@ intro_month=1
 retire_year=1938
 retire_month=4
 
-loading_time=2600
-#upgrade[0]=
-#upgrade_price=
+loading_time=7000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -164,13 +155,9 @@ intro_month=1
 retire_year=1938
 retire_month=4
 
-loading_time=2600
-#upgrade[0]=
-#upgrade_price=
+loading_time=7000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -204,14 +191,9 @@ intro_month=1
 retire_year=1938
 retire_month=4
 
-loading_time=2600
-#upgrade[0]=
-#upgrade_price=
+loading_time=7000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -244,14 +226,9 @@ intro_month=1
 retire_year=1938
 retire_month=4
 
-loading_time=2600
-#upgrade[0]=
-#upgrade_price=
+loading_time=7000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -266,7 +243,6 @@ EmptyImage[N]=./images/thornycroft-qc.9.6
 EmptyImage[NE]=./images/thornycroft-qc.9.7
 
 -----------------------------------------
-
 obj=vehicle
 name=ThornycroftQCFluid
 copyright=JamesPetts&JamesHood
@@ -285,15 +261,9 @@ intro_month=1
 retire_year=1938
 retire_month=4
 
-loading_time=2600
-#upgrade[0]=
-#upgrade_price=
+loading_time=7000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
-
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -326,13 +296,9 @@ intro_month=1
 retire_year=1938
 retire_month=4
 
-loading_time=2600
-#upgrade[0]=
-#upgrade_price=
+loading_time=7000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none

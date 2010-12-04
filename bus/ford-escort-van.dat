@@ -17,20 +17,12 @@ retire_year=2002
 retire_month=1
 length=4
 
-
-
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-loading_time=1900
-#upgrade[0]=
-#upgrade_price=
+loading_time=2500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 EmptyImage[E]=./images/ford-escort-van.0.0
 EmptyImage[SE]=./images/ford-escort-van.0.1
@@ -59,22 +51,14 @@ intro_year=1986
 intro_month=5
 retire_year=2002
 retire_month=1
-
 length=4
 
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-loading_time=1900
-#upgrade[0]=
-#upgrade_price=
+loading_time=2500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 EmptyImage[E]=./images/ford-escort-van.1.0
 EmptyImage[SE]=./images/ford-escort-van.1.1
@@ -104,19 +88,12 @@ retire_year=2002
 retire_month=1
 length=4
 
-
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-loading_time=1900
-#upgrade[0]=
-#upgrade_price=
+loading_time=2500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 EmptyImage[E]=./images/ford-escort-van.2.0
 EmptyImage[SE]=./images/ford-escort-van.2.1

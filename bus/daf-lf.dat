@@ -14,13 +14,9 @@ runningcost=23
 intro_year=2002
 intro_month=5
 
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=6000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -100,14 +96,9 @@ runningcost=23
 intro_year=2002
 intro_month=5
 
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=6000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -158,13 +149,9 @@ runningcost=47
 intro_year=2002
 intro_month=5
 
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=6000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -196,13 +183,9 @@ runningcost=47
 intro_year=2002
 intro_month=5
 
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=6000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -233,13 +216,9 @@ runningcost=34
 intro_year=2002
 intro_month=5
 
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=6000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -254,7 +233,6 @@ EmptyImage[N]=./images/daf-lf.9.6
 EmptyImage[NE]=./images/daf-lf.9.7
 
 -----------------------------------------
-
 obj=vehicle
 name=DAFLFPost
 copyright=JamesHood
@@ -271,13 +249,9 @@ runningcost=132
 intro_year=2002
 intro_month=5
 
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=5450
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none

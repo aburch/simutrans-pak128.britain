@@ -13,7 +13,7 @@ intro_year=1530
 intro_month=5
 retire_year=1842
 
-loading_time=10000
+loading_time=7400
 comfort=0
 
 Constraint[Prev][0]=RoadHorsesSingle
@@ -46,7 +46,7 @@ intro_year=1530
 intro_month=5
 retire_year=1842
 
-loading_time=10000
+loading_time=7400
 comfort=0
 
 Constraint[Prev][0]=RoadHorsesSingle
@@ -78,9 +78,8 @@ intro_year=1530
 intro_month=5
 retire_year=1842
 
-loading_time=10000
+loading_time=7000
 comfort=0
-
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble

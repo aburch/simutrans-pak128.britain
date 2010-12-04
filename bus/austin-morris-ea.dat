@@ -17,20 +17,12 @@ retire_year=1984
 retire_month=11
 length=4
 
-
-
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-loading_time=1900
-#upgrade[0]=
-#upgrade_price=
+loading_time=3125
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 EmptyImage[E]=./images/austin-morris-ea.0.0
 EmptyImage[SE]=./images/austin-morris-ea.0.1
@@ -65,15 +57,9 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-loading_time=1900
-#upgrade[0]=
-#upgrade_price=
+loading_time=3125
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 
 EmptyImage[E]=./images/austin-morris-ea.1.0
@@ -104,19 +90,12 @@ retire_year=1984
 retire_month=11
 length=4
 
-
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-loading_time=1900
-#upgrade[0]=
-#upgrade_price=
+loading_time=3125
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 EmptyImage[E]=./images/austin-morris-ea.2.0
 EmptyImage[SE]=./images/austin-morris-ea.2.1
