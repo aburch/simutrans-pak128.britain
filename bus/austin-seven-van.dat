@@ -17,19 +17,12 @@ intro_month=8
 retire_year=1935
 retire_month=11
 
-
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-loading_time=2000
-#upgrade[0]=
-#upgrade_price=
+loading_time=3050
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 EmptyImage[E]=./images/austin-seven-van.0.0
 EmptyImage[SE]=./images/austin-seven-van.0.1
@@ -63,16 +56,9 @@ retire_month=11
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=3050
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 EmptyImage[E]=./images/austin-seven-van.1.0
 EmptyImage[SE]=./images/austin-seven-van.1.1
@@ -105,15 +91,9 @@ retire_month=11
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=3050
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 EmptyImage[E]=./images/austin-seven-van.2.0
 EmptyImage[SE]=./images/austin-seven-van.2.1

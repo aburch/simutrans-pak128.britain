@@ -16,14 +16,9 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=7500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -105,35 +100,9 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=7500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0payload=6
-engine_type=diesel
-smoke=Diesel
-power=18
-speed=34
-weight=2
-cost=100000
-runningcost=36
-intro_year=1913
-intro_month=1
-retire_year=1927
-retire_month=8
-
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -186,14 +155,9 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=7500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -227,14 +191,9 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=7500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -267,14 +226,9 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=7500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -308,15 +262,9 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=7500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -349,14 +297,9 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=7500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 constraint[next][0]=none 
 constraint[prev][0]=none

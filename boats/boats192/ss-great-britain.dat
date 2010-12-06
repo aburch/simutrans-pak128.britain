@@ -18,6 +18,9 @@ intro_month=12
 retire_year=1886
 retire_month=5
 
+comfort=225
+loading_time=35000
+
 Constraint[Next][0]=SSGreatBritainAddMail
 Constraint[Prev][0]=none
 

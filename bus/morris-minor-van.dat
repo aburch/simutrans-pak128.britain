@@ -16,20 +16,12 @@ intro_month=10
 retire_year=1973
 length=4
 
-
-
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-loading_time=1900
-#upgrade[0]=
-#upgrade_price=
+loading_time=2500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 EmptyImage[E]=./images/morris-minor-van.0.0
 EmptyImage[SE]=./images/morris-minor-van.0.1
@@ -62,16 +54,9 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-loading_time=1900
-#upgrade[0]=
-#upgrade_price=
+loading_time=2500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 EmptyImage[E]=./images/morris-minor-van.1.0
 EmptyImage[SE]=./images/morris-minor-van.1.1
@@ -104,15 +89,9 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-loading_time=1900
-#upgrade[0]=
-#upgrade_price=
+loading_time=2500
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 EmptyImage[E]=./images/morris-minor-van.2.0
 EmptyImage[SE]=./images/morris-minor-van.2.1

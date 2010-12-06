@@ -61,7 +61,7 @@ tourist_percentage = 8
 # For example, if the number is set at 2, there will be an equal chance
 # of passengers having 0, 1 or 2 alternative destinations).
 
-max_alternative_destinations = 5
+max_alternative_destinations = 7
 
 # The program will generate three groups of passengers: (1) local;
 # (2) midrange; and (3) long distance. The program will look for a town within
@@ -95,12 +95,12 @@ passenger_routing_midrange_chance = 36
 # local, mid-range and long-distance passenger groups correspond to those
 # above. 
 
-min_local_tolerance = 35
-max_local_tolerance = 90
-min_midrange_tolerance = 60
-max_midrange_tolerance = 240
+min_local_tolerance = 30
+max_local_tolerance = 180
+min_midrange_tolerance = 45
+max_midrange_tolerance = 480
 min_longdistance_tolerance = 150
-max_longdistance_tolerance = 2160
+max_longdistance_tolerance = 4320
 
 # Settings for calibrating the revenue system
 #
@@ -571,7 +571,11 @@ numbered_stations = 0
 # 1 = station names
 # 2 = statistics
 # 3 = names and statistics
-#
+
+# The visual style is added to this number:
+#   0 = black name in color box
+#   4 = name in player color with outline
+#   8 = box left of name in yellow outline
 show_names = 3
 
 # After how many months a citycar breaks (and will be forever gone) ...

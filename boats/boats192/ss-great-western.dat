@@ -18,6 +18,9 @@ intro_month=4
 retire_year=1856
 retire_month=9
 
+comfort=215
+loading_time=40000
+
 Constraint[Next][0]=SSGreatWesternAddMail
 Constraint[Prev][0]=none
 

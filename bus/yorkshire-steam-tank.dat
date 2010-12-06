@@ -22,15 +22,9 @@ retire_month=6
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-#upgrade[0]=
-#upgrade_price=
+loading_time=7100
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-loading_time=8000
-comfort=0
 
 EmptyImage[E]=./images/yorkshire-steam-tank.0.0
 EmptyImage[SE]=./images/yorkshire-steam-tank.0.1

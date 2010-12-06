@@ -263,14 +263,9 @@ runningcost=10
 intro_year=1978
 intro_month=1
 
-
-loading_time=2850
-#upgrade[0]=
-#upgrade_price=
+loading_time=8000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -349,14 +344,9 @@ runningcost=10
 intro_year=1978
 intro_month=1
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=8000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 
 Constraint[Prev][0]=LeylandT45Roadtrain
@@ -407,15 +397,9 @@ runningcost=35
 intro_year=1978
 intro_month=1
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=8000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -446,15 +430,9 @@ runningcost=35
 intro_year=1978
 intro_month=2
 
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
-available_only_aretire_year=1990
-retire_month=10s_upgrade=0
+loading_time=8000
+available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -484,15 +462,9 @@ runningcost=35
 intro_year=1978
 intro_month=1
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=8000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -524,14 +496,9 @@ runningcost=23
 intro_year=1978
 intro_month=1
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=8000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -562,13 +529,9 @@ runningcost=35
 intro_year=1978
 intro_month=1
 
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=8000
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -608,15 +571,9 @@ runningcost=35
 intro_year=1978
 intro_month=1
 
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=6125
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-
 
 Constraint[Prev][0]=LeylandT45RoadtrainMail
 Constraint[Prev][1]=LeylandDAF85ArticMail

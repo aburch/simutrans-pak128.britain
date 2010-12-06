@@ -19,14 +19,9 @@ runningcost=10
 intro_year=2000
 intro_month=4
 
-
-loading_time=2850
-#upgrade[0]=
-#upgrade_price=
+loading_time=7950
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_cap96acity=0
-comfort=0
 
 EmptyImage[E]=./images/daf-cf-rigid.0.0
 EmptyImage[SE]=./images/daf-cf-rigid.0.1
@@ -107,13 +102,9 @@ intro_month=4
 
 Constraint[Prev][0]=none
 
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=7950
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 
 EmptyImage[E]=./images/daf-cf-rigid.7.0
@@ -164,17 +155,12 @@ payload=32
 
 Constraint[Prev][0]=none
 
-
 intro_year=2000
 intro_month=4
 
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
+loading_time=7950
 available_only_as_upgrade=0
 fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
 
 EmptyImage[E]=./images/daf-cf-rigid.8.0
 EmptyImage[SE]=./images/daf-cf-rigid.8.1
