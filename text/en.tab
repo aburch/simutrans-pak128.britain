@@ -1032,8 +1032,20 @@ PowerSource
 Distribution substation
 remove tracks
 Remove railway tracks
-Remove wayobj track
-Remove electrification
+Remove wayobj %s
+Remove electrification %s
+track
+(rail)
+tram_track
+(tramway)
+road
+(road)
+monorail_track
+(monorail)
+narrowgauge_track
+(narrow gauge rail)
+maglev_track
+(maglev)
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
 CATEGORY_01
@@ -2189,7 +2201,9 @@ BR Class 57
 BR-4MT(Black)
 BR Standard Class 4MT 2-6-0
 BR-4MT-Tender(Black)
-BR Standard Class 4MT tender
+BR Standard tender
+BR-5MT(Black)
+BR Sandard Class 5MT 2-6-0
 GWR-Saint
 GWR 2900 "Saint" Class 4-6-0
 GWR-Saint-Tender

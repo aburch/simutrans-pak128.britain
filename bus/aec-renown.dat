@@ -1,8 +1,5 @@
 # AEC Renown - *six* wheeler double decker.
-# See here for details: 
-# http://www.countrybus.org.uk/LT/LT.html
-#
-#
+
 obj=vehicle
 name=AECRenownLT
 copyright=JamesPetts&JamesHood
@@ -17,7 +14,7 @@ gear=100
 weight=9
 length=6
 cost=725200
-runningcost=220
+runningcost=185
 intro_year=1929
 intro_month=10
 retire_year=1942
