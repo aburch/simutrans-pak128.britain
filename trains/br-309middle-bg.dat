@@ -1,5 +1,6 @@
 obj=vehicle
 name=BR-309Middle(Blue-Grey)
+engine_type=electric
 speed=160
 copyright=Kieron
 intro_year=1962
@@ -41,6 +42,7 @@ EmptyImage[NE]=./images/br-mk1-bg.7
 
 obj=vehicle
 name=BR-309Griddle(Blue-Grey)
+engine_type=electric
 speed=160
 copyright=Kieron
 intro_year=1962

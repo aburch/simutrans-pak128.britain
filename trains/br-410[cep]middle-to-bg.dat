@@ -1,5 +1,6 @@
 obj=vehicle
 name=BR-410[CEP]Middle(Blue-Grey)
+engine_type=electric
 speed=145
 copyright=Kieron
 intro_year=1957
@@ -39,6 +40,7 @@ EmptyImage[NE]=./images/br-mk1-bg.7
 
 obj=vehicle
 name=BR-410[CEP]Buffet(Blue-Grey)
+engine_type=electric
 speed=145
 copyright=Kieron
 intro_year=1957

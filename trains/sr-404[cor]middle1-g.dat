@@ -1,5 +1,6 @@
 obj=vehicle
 name=SR-404[COR]Middle1(Green)
+engine_type=electric
 speed=120
 copyright=Kieron
 intro_year=1937
@@ -41,6 +42,7 @@ EmptyImage[NE]=./images/sr-cor-g.1.7
 
 obj=vehicle
 name=SR-404[COR]Middle-Res(Green)
+engine_type=electric
 speed=120
 copyright=Kieron
 intro_year=1937
@@ -84,6 +86,7 @@ EmptyImage[NE]=./images/sr-cor-g.1.7
 
 obj=vehicle
 name=SR-404[COR]Middle-Buf(Green)
+engine_type=electric
 speed=120
 copyright=Kieron
 intro_year=1937
