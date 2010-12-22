@@ -20,7 +20,8 @@ runningcost=123
 sound=-1
 
 Constraint[Prev][0]=LSWR-EMU(rear)
-Constraint[Prev][1]=none
+Constraint[Prev][1]=SR-3SUB(rear)
+Constraint[Prev][2]=none
 
 Constraint[Next][0]=LSWR-EMU(centre)
 
@@ -61,7 +62,8 @@ sound=-1
 Constraint[Prev][0]=LSWR-EMU(centre)
 
 Constraint[Next][0]=LSWR-EMU(front)
-Constraint[Next][1]=none
+Constraint[Next][1]=SR-3SUB(front)
+Constraint[Next][2]=none
 
 EmptyImage[E]=./images/lswr-emu.1.0
 EmptyImage[SE]=./images/lswr-emu.1.1
