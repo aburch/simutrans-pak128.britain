@@ -356,6 +356,8 @@ NelsonColumn2
 Nelson's Column
 Fountain
 Fountain
+OldBrickSchool
+Victorian School
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
@@ -1998,6 +2000,12 @@ BR-317-Trailer
 BR Class 317 EMU (trailer)
 BR-317-Driving-Rear
 BR Class 317 (rear)
+LSWR-EMU(front)
+LSWR suburban EMU (front driving motor)
+LSWR-EMU(centre)
+LSWR suburban EMU (centre trailer)
+LSWR-EMU(rear)
+LSWR suburban EMU (rear driving motor)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -2674,6 +2682,8 @@ MaudslayVanPost
 Maudslay Van (mail)
 RHVolvoOlympian
 Volvo RH Class
+OptareAlero
+Optare Alero
 #____________________________________water-vehicle____________________________________
 #____________________________________water-vehicle____________________________________
 BoatHorsesDouble
