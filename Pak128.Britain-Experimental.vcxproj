@@ -103,6 +103,7 @@
     <None Include="bus\morris-ld.dat" />
     <None Include="bus\morris-marina-van.dat" />
     <None Include="bus\morris-minor-van.dat" />
+    <None Include="bus\optare-alero.dat" />
     <None Include="bus\RHVolvoOlympian.dat" />
     <None Include="bus\scammell-1955-artic.dat" />
     <None Include="bus\scammell-crusader.dat" />
@@ -120,6 +121,7 @@
     <None Include="citycars\volvo-v70-police.dat" />
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
+    <None Include="sr-bulleid-4-sub.dat" />
     <None Include="trains\br-150-rr.dat" />
     <None Include="trains\br-315.dat" />
     <None Include="trains\br-317-bg.dat" />
@@ -131,8 +133,10 @@
     <None Include="trains\gwr-churchward-star-tender.dat" />
     <None Include="trains\gwr-churchward-star.dat" />
     <None Include="trains\gwr-hawksworth-county.dat" />
+    <None Include="trains\lswr-emu.dat" />
     <None Include="trains\lswr-n15.dat" />
     <None Include="trains\mr-2441.dat" />
+    <None Include="trains\sr-3sub.dat" />
     <None Include="trams\1-deck-closed.dat" />
     <None Include="trams\1-deck-trailer.dat" />
     <None Include="industry\1750-china-shop.dat" />

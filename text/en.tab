@@ -494,6 +494,8 @@ NelsonColumn2
 Nelson's Column
 Fountain
 Fountain
+Old_brick_school
+School
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
@@ -1427,7 +1429,7 @@ SR 4-Cor EMU (rear)
 SR-401[BIL]Front(Green)
 SR 2-Bil EMU
 SR-401[BIL]Rear(Green)
-SR 2B-il EMU (rear)
+SR 2-Bil EMU (rear)
 BR-370FrontCab(IC)
 BR Class 370 APT
 BR-370Coach(IC)
@@ -2226,6 +2228,26 @@ GWR-Hawksworth-County
 GWR 1000 "County" Class 4-6-0
 GWR-Hawksworth-County-Tender
 GWR 1000 "County" Tender
+LSWR-EMU(front)
+LSWR suburban EMU (front driving motor)
+LSWR-EMU(centre)
+LSWR suburban EMU (centre trailer)
+LSWR-EMU(rear)
+LSWR suburban EMU (rear driving motor)
+SR-3SUB(front)
+SR 3-SUB (front driving motor)
+SR-3SUB(rear)
+SR 3-SUB (rear driving motor)
+SR-3SUB(centre)
+SR 3-SUB (centre trailer)
+SR-4SUB(front)
+SR 4-SUB (front driving motor)
+SR-4SUB(centre1)
+SR 4-SUB (centre trailer)
+SR-4SUB(centre2)
+SR 4-SUB (centre trailer)
+SR-4SUB(rear)
+SR 4-SUB (rear driving motor)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -2392,8 +2414,10 @@ LeylandAtlantean
 Leyland Atlantean
 VolvoCitybus
 Volvo Citybus
-VolvoOlympian
+VolvoOlympian (1 door)
 Volvo Olympian
+RHVolvoOlympian
+Volvo Olympian (2 doors)
 VolvoB7TL
 Volvo B7TL
 LeylandOlympian
@@ -2904,6 +2928,8 @@ MaudslayVanLong
 Maudslay Van (long goods)
 MaudslayVanPost
 Maudslay Van (mail)
+OptareAlero
+Optare Alero
 #____________________________________water-vehicle____________________________________
 #____________________________________water-vehicle____________________________________
 BoatHorsesDouble
