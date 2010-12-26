@@ -1,4 +1,4 @@
-	obj=vehicle
+obj=vehicle
 name=SR-4SUB(front)
 engine_type=electric
 speed=120
@@ -107,7 +107,7 @@ waytype=track
 freight=Passagiere
 payload=106
 overcrowded_capacity=53
-length=10
+length=11
 
 weight=28
 cost=872000
@@ -121,9 +121,9 @@ way_constraint_permissive[0]=0
 loading_time=4000
 comfort=73
 
-Constraint[Next][0]=SR-4SUB(centre2)
-
 Constraint[Prev][0]=SR-4SUB(front)
+
+Constraint[Next][0]=SR-4SUB(centre2)
 
 EmptyImage[E]=./images/sr-4sub-trailer.0
 EmptyImage[SE]=./images/sr-4sub-trailer.1
@@ -151,7 +151,7 @@ waytype=track
 freight=Passagiere
 payload=108
 overcrowded_capacity=54
-length=10
+length=11
 
 weight=28
 cost=872000
