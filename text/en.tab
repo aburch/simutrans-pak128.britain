@@ -1159,15 +1159,15 @@ Canal tunnel
 #____________________________________rail-vehicle____________________________________
 #____________________________________rail-vehicle____________________________________
 DLR-P86Front
-Docklands Light Railway P86 (front)
+Docklands Light Railway P86
 DLR-P86Rear
 Docklands Light Railway P86 (rear)
 DLR-B92Front
-Docklands Light Railway B92 (front)
+Docklands Light Railway B92
 DLR-B92Rear
 Docklands Light Railway B92 (rear)
 DLR-B07Front
-Docklands Light Railway B07 (front)
+Docklands Light Railway B07
 DLR-B07Rear
 Docklands Light Railway B07 (rear)
 Metropolitan-Class-E
@@ -1430,6 +1430,14 @@ SR-401[BIL]Front(Green)
 SR 2-Bil EMU
 SR-401[BIL]Rear(Green)
 SR 2-Bil EMU (rear)
+SR-4LAV(front)
+SR 4-LAV EMU
+SR-4LAV(rear)
+SR 4-LAV EMU (rear)
+SR-4LAV(centre1)
+SR 4-LAV EMU (centre)
+SR-4LAV(centre2)
+SR 4-LAV EMU (centre, with lavatory)
 BR-370FrontCab(IC)
 BR Class 370 APT
 BR-370Coach(IC)
@@ -1469,7 +1477,7 @@ BR Class 456 EMU (DMSO)
 BR-456-DTSO
 BR Class 456 EMU (DTSO)
 BR-455-Driving-Front
-BR Class 455 EMU (front)
+BR Class 455 EMU
 BR-455-Motor
 BR Class 455 EMU (power)
 BR-455-Trailer
@@ -1477,7 +1485,7 @@ BR Class 455 EMU (trailer)
 BR-455-Driving-Rear
 BR Class 455 EMU (rear)
 BR-317-Driving-Front
-BR Class 317 EMU (front)
+BR Class 317 EMU
 BR-317-Motor
 BR Class 317 EMU (power)
 BR-317-Trailer
@@ -1533,7 +1541,7 @@ BR Class 414 "2-Hap" EMU
 BR-414[HAP]Rear(Blue-Grey)
 BR Class 414 "2-Hap" EMU (rear)
 BR-4EPB(front)
-BR Class 415/6 "2/4-EPB" EMU (front)
+BR Class 415/6 "2/4-EPB" EMU
 BR-2EPB(rear)
 BR Class 416 "2-EPB" EMU (rear)
 BR-4EPB(rear)
@@ -1615,7 +1623,7 @@ BR Class 315 EMU (pantograph)
 BR-315Rear(Blue-Grey)
 BR Class 315 EMU (rear)
 BR-507(front)
-BR Class 507/8 EMU (front)
+BR Class 507/8 EMU
 BR-507(centre1)
 BR Class 507/8 EMU (centre)
 BR-507(centre2)
@@ -1625,11 +1633,19 @@ BR Class 507/8 EMU (rear)
 BR-319Front(NSE)
 BR Class 319 EMU
 BR-319Engine(NSE)
-BR Class 319 EMU (engine)
+BR Class 319 EMU (motor)
 BR-319Pantograph(NSE)
 BR Class 319 EMU (pantograph)
 BR-319Rear(NSE)
 BR Class 319 EMU (rear)
+BR-321(front)
+BR Class 321 EMU
+BR-321(pantograph)
+BR Class 321 EMU (pantograph)
+BR-321(motor)
+BR Class 321 EMU (motor)
+BR-321(rear)
+BR Class 321 EMU (rear)
 BR-156Front(Regional)
 BR Class 156 "Super-Sprinter" DMU
 BR-156Front-Trolley(Regional)
@@ -1637,7 +1653,7 @@ BR Class 156 "Super-Sprinter" DMU (with trolley service)
 BR-156Rear(Regional)
 BR Class 156 "Super-Sprinter" DMU (rear)
 BR-150Front(Regional)
-BR Class 150 "Sprinter" DMU (front)
+BR Class 150 "Sprinter" DMU
 BR-150Centre(Regional)
 BR Class 150 "Sprinter" DMU (centre)
 BR-150Rear(Regional)
@@ -1705,7 +1721,7 @@ BR Class 419 MLV
 BR-Mk1-GUV(Rail-Blue)
 Br Mk.1 GUV
 Autic-4_Car_Transporter(Front)
-Autic Car Transporter (front)
+Autic Car Transporter
 Autic-4_Car_Transporter(Middle1)
 Autic Car Transporter (middle)
 Autic-4_Car_Transporter(Middle2)
@@ -1713,7 +1729,7 @@ Autic Car Transporter (middle)
 Autic-4_Car_Transporter(Rear)
 Autic Car Transporter (rear)
 Cartic-4_Car_Transporter(Front)
-Cartic Car Transporter (front)
+Cartic Car Transporter 
 Cartic-4_Car_Transporter(Middle1)
 Cartic Car Transporter (middle)
 Cartic-4_Car_Transporter(Middle2)
@@ -2201,7 +2217,7 @@ GWR 4073 "Castle" Class 4-6-0
 GWR-Castle-Tender
 GWR 4073 "Castle" Tender
 BR-506Front(BR-Blue)
-BR Class 506 EMU (front)
+BR Class 506 EMU
 BR-506Centre(BR-Blue)
 BR Class 506 EMU (centre)
 BR-506Rear(BR-Blue)
@@ -2247,7 +2263,7 @@ GWR 1000 "County" Class 4-6-0
 GWR-Hawksworth-County-Tender
 GWR 1000 "County" Tender
 LSWR-EMU(front)
-LSWR suburban EMU (front driving motor)
+LSWR suburban EMU
 LSWR-EMU(centre)
 LSWR suburban EMU (centre trailer)
 LSWR-EMU(rear)
@@ -2259,7 +2275,7 @@ SR 3-SUB (rear driving motor)
 SR-3SUB(centre)
 SR 3-SUB (centre trailer)
 SR-4SUB(front)
-SR 4-SUB (front driving motor)
+SR 4-SUB
 SR-4SUB(centre1)
 SR 4-SUB (centre trailer)
 SR-4SUB(centre2)
@@ -2409,7 +2425,7 @@ Guy Arab
 AECSwift
 AEC Swift
 MercedesCitaroG(Front)
-Mercedes Citaro G (front)
+Mercedes Citaro G
 MercedesCitaroK
 Mercedes Citaro K
 WrightStreetcar(Front)

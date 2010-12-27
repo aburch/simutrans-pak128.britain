@@ -23,13 +23,14 @@ increase_maintenance_after_years=23
 can_lead_from_rear=1
 bidirectional=0
 
-loading_time=4000
+loading_time=4100
 comfort=82
 
 Constraint[Prev][0]=SR-401[BIL]Front(Green)
 
 Constraint[Next][0]=SR-401[BIL]Front(Green)
-Constraint[Next][1]=none
+Constraint[Next][1]=SR-4LAV(front)
+Constraint[Next][2]=none
 
 EmptyImage[E]=./images/sr-bil-g.1.0
 EmptyImage[SE]=./images/sr-bil-g.1.1
