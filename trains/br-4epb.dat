@@ -4,7 +4,7 @@ name=BR-4EPB(front)
 engine_type=electric
 speed=120
 power=373
-tractive_effort=85
+tractive_effort=127
 copyright=Kieron&jamespetts
 intro_year=1951
 intro_month=11
@@ -74,10 +74,11 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_permissive[0]=0
+increase_maintenance_after_years=16
 
 loading_time=4000
 comfort=73
+way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(front)
 
@@ -101,7 +102,7 @@ name=BR-4EPB(rear)
 engine_type=electric
 speed=120
 power=373
-tractive_effort=85
+tractive_effort=127
 copyright=Kieron&jamespetts
 intro_year=1951
 intro_month=11
@@ -121,10 +122,11 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_permissive[0]=0
+increase_maintenance_after_years=16
 
 loading_time=4000
 comfort=73
+way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(centre2)
 
@@ -168,10 +170,11 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-way_constraint_permissive[0]=0
+increase_maintenance_after_years=16
 
 loading_time=4000
 comfort=73
+way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(front)
 
@@ -213,10 +216,11 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-way_constraint_permissive[0]=0
+increase_maintenance_after_years=16
 
 loading_time=4000
 comfort=73
+way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(centre1)
 
