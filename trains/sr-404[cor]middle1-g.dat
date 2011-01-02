@@ -72,15 +72,14 @@ Constraint[Prev][0]=SR-404[COR]Front(Green)
 
 Constraint[Next][0]=SR-404[COR]Middle2(Green)
 
-#TODO: Make specific graphics for this.
-EmptyImage[E]=./images/sr-cor-g.1.0
-EmptyImage[SE]=./images/sr-cor-g.1.1
-EmptyImage[S]=./images/sr-cor-g.1.2
-EmptyImage[SW]=./images/sr-cor-g.1.3
-EmptyImage[W]=./images/sr-cor-g.1.4
-EmptyImage[NW]=./images/sr-cor-g.1.5
-EmptyImage[N]=./images/sr-cor-g.1.6
-EmptyImage[NE]=./images/sr-cor-g.1.7
+EmptyImage[E]=./images/sr-4buf.0.0
+EmptyImage[SE]=./images/sr-4buf.0.1
+EmptyImage[S]=./images/sr-4buf.0.2
+EmptyImage[SW]=./images/sr-4buf.0.3
+EmptyImage[W]=./images/sr-4buf.0.4
+EmptyImage[NW]=./images/sr-4buf.0.5
+EmptyImage[N]=./images/sr-4buf.0.6
+EmptyImage[NE]=./images/sr-4buf.0.7
 
 ---
 
@@ -116,12 +115,11 @@ Constraint[Prev][0]=SR-404[COR]Front(Green)
 
 Constraint[Next][0]=SR-404[COR]Middle2(Green)
 
-#TODO: Make specific graphics for this.
-EmptyImage[E]=./images/sr-cor-g.1.0
-EmptyImage[SE]=./images/sr-cor-g.1.1
-EmptyImage[S]=./images/sr-cor-g.1.2
-EmptyImage[SW]=./images/sr-cor-g.1.3
-EmptyImage[W]=./images/sr-cor-g.1.4
-EmptyImage[NW]=./images/sr-cor-g.1.5
-EmptyImage[N]=./images/sr-cor-g.1.6
-EmptyImage[NE]=./images/sr-cor-g.1.7
+EmptyImage[E]=./images/sr-4buf.0.0
+EmptyImage[SE]=./images/sr-4buf.0.1
+EmptyImage[S]=./images/sr-4buf.0.2
+EmptyImage[SW]=./images/sr-4buf.0.3
+EmptyImage[W]=./images/sr-4buf.0.4
+EmptyImage[NW]=./images/sr-4buf.0.5
+EmptyImage[N]=./images/sr-4buf.0.6
+EmptyImage[NE]=./images/sr-4buf.0.7

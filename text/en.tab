@@ -1180,6 +1180,8 @@ LMR-Rocket-Tender
 LMR "Rocket" (tender)
 LBSCR-A1
 LBSCR Class A1 "Terrier" 0-6-0T
+LBSCR-D1
+LBSCR Class D1 0-4-2T
 LMS-3F-Jinty
 LMS Class 3F "Jinty" 0-6-0T
 GWR-PannierTank
@@ -1242,7 +1244,7 @@ LNER-A3(Green)
 LNER Class A3 4-6-2
 LNER-A1-Tender(Green)
 LNER Class A1/A3 (tender)
-BR-5MT(Green)
+BR-5MT(Black)
 BR Standard Class 5MT 2-6-0
 BR-7MT(Green)
 BR Standard Class 7MT "Britannia" 4-6-2
@@ -1470,6 +1472,8 @@ SR-Bulleid-Express-Coach(Green)
 SR Bulleid Express Carriage
 BR-180Middle(FGW)
 BR Class 180 "Adelante" (middle)
+BR-180Middle-Buffet(FGW)
+BR Class 180 "Adelante" (buffet)
 BR-180Rear(FGW)
 BR Class 180 "Adelante" (rear)
 BR-220Middle(Virgin)
@@ -1748,6 +1752,8 @@ RM-325Rear(RM)
 Royal Mail Class 325 EMU (rear)
 BR-499[TLV](Blue-Grey)
 BR Class 499 TLV
+BR-489[GLV]
+BR Class 489 GLV
 BR-489[GLV](Intercity)
 BR Class 489 GLV
 BR-419[MLV](Blue-Grey)
@@ -1844,6 +1850,18 @@ SR-Maunsell-Third(Green)
 SR Maunsell Express Carriage
 SR-Maunsell-Dining(Green)
 SR Maunsell Dining Carriage
+LSWR-Ironclad
+LSWR "Ironclad" corridor coach
+LSWR-Ironclad-Brake
+LSWR "Ironclad" corridor coach (brake)
+LSWR-Ironclad-Dining
+LSWR "Ironclad" corridor dining coach
+LSWR-Ironclad-Pantry
+LSWR "Ironclad" corridor pantry coach
+LSWR-Ironclad-Mail
+LSWR "Ironclad" mail coach
+LSWR-Ironclad-TPO
+LSWR "Ironclad" TPO
 GWR-Express-Brake
 GWR Express Carriage (brake)
 GWR-Express-Coach
@@ -1880,6 +1898,20 @@ MR-1000(Maroon)
 MR 1000 Class 4-4-0
 MR-1000-Tender(Maroon)
 MR 1000 Class (tender)
+MR-483
+MR 483 Class 4-4-0
+MR-483(tender)
+MR 483 Class 4-4-0 (tender)
+LMS-2P
+LMS Class 2P 4-4-0
+LMS-2P(tender)
+LMS Class 2P 4-4-0 (tender)
+LMS-4P
+LMS Class 4P 4-4-0
+LMS-4P(tender)
+LMS Class 4P 4-4-0 (tender)
+MR-1833
+MR 1833 Class 0-4-4T
 SR-N15
 SR N15 Class "King Arthur" 4-6-0
 SR-N15-Tender
@@ -1888,6 +1920,20 @@ LSWR-N15
 LSWR N15 Class 4-6-0
 LSWR-N15-Tender
 LSWR N15 Class 4-6-0 (tender)
+LSWR-corridor
+LSWR corridor carriage
+LSWR-corridor-brake-front
+LSWR corridor carriage (brake)
+LSWR-corridor-brake-rear
+LSWR corridor carriage (brake)
+LBSCR-balloon-full-brake
+LBSCR "Balloon" carriage (full brake)
+LBSCR-balloon-brake-front
+LBSCR non-corridor lavatory "Balloon" carriage (brake)
+LBSCR-balloon-brake-rear
+LBSCR non-corridor lavatory "Balloon" carriage (brake)
+LBSCR-balloon
+LBSCR non-corridor lavatory "Balloon" carriage
 SR-Schools
 SR V Class "Schools" 4-4-0
 SR-Schools-Tender
@@ -1984,6 +2030,12 @@ LBSCR-B1-Gladstone-Tender
 LBSCR Class B1 "Gladstone" 0-4-2 (tender)
 LBSCR-L-Tank(Umber)
 LBSCR Class L "Brighton Baltic" 4-6-4T
+LBSCR-non-cor-lav
+LBSCR non-corridor lavatory coach
+LBSCR-non-cor-lav-brake-rear
+LBSCR non-corridor lavatory coach (brake)
+LBSCR-non-cor-lav-brake-front
+LBSCR non-corridor lavatory coach (brake)
 LNWR-Jumbo(Black)
 LNWR "Jumbo" Class 2-2-2-0
 LNWR-Jumbo-Tender(Black)
@@ -2300,10 +2352,6 @@ GWR-Hawksworth-County-Tender
 GWR 1000 "County" Tender
 LMS-Fowler-3P-Tank
 LMS Class 3P
-GWR-Hawksworth-County
-GWR 1000 "County" Class 4-6-0
-GWR-Hawksworth-County-Tender
-GWR 1000 "County" Tender
 LSWR-EMU(front)
 LSWR suburban EMU
 LSWR-EMU(centre)
@@ -2324,6 +2372,16 @@ SR-4SUB(centre2)
 SR 4-SUB (centre trailer)
 SR-4SUB(rear)
 SR 4-SUB (rear driving motor)
+SR-augmentation-trailer(front)
+SR EMU augmentation trailer
+SR-augmentation-trailer(rear)
+SR EMU augmentation trailer
+LBSCR-bogie-sub
+LBSCR bogie suburban carriage
+LBSCR-bogie-sub-brake-front
+LBSCR bogie suburban carriage (brake)
+LBSCR-bogie-sub-brake-rear
+LBSCR bogie suburban carriage (brake)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer

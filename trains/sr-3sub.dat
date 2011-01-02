@@ -26,7 +26,7 @@ can_lead_from_rear=1
 bidirectional=0
 
 loading_time=4000
-comfort=73
+comfort=72
 way_constraint_permissive[0]=0
 
 upgrade[0]=BR-414[HAP]Front(Blue-Grey)
@@ -40,7 +40,8 @@ upgrade[6]=BR-4EPB(centre2)
 Constraint[Prev][0]=SR-3SUB(rear)
 Constraint[Prev][1]=LSWR-EMU(rear)
 Constraint[Prev][2]=SR-4SUB(rear)
-Constraint[Prev][3]=none
+Constraint[Prev][3]=SR-augmentation-trailer(rear)
+Constraint[Prev][4]=none
 
 Constraint[Next][0]=SR-3SUB(centre)
 
@@ -92,7 +93,7 @@ upgrade[5]=BR-4EPB(centre1)
 upgrade[6]=BR-4EPB(centre2)
 
 loading_time=4000
-comfort=73
+comfort=72
 
 Constraint[Prev][0]=SR-3SUB(centre)
 Constraint[Prev][1]=SR-4SUB(centre2)
@@ -100,7 +101,8 @@ Constraint[Prev][1]=SR-4SUB(centre2)
 Constraint[Next][0]=SR-3SUB(front)
 Constraint[Next][1]=LSWR-EMU(front)
 Constraint[Next][2]=SR-4SUB(front)
-Constraint[Next][3]=none
+Constraint[Next][3]=SR-augmentation-trailer(front)
+Constraint[Next][4]=none
 
 EmptyImage[E]=./images/sr-3sub-driving-motor.1.0
 EmptyImage[SE]=./images/sr-3sub-driving-motor.1.1
@@ -142,7 +144,7 @@ bidirectional=1
 way_constraint_permissive[0]=0
 
 loading_time=4000
-comfort=73
+comfort=72
 
 upgrade[0]=BR-414[HAP]Front(Blue-Grey)
 upgrade[1]=BR-414[HAP]Rear(Blue-Grey)

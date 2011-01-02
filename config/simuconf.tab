@@ -43,9 +43,9 @@ capital_threshold_size = 25000
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 600
-growthfactor_cities = 400
-growthfactor_capitals = 200
+growthfactor_villages = 915
+growthfactor_cities = 625
+growthfactor_capitals = 375
 
 # These settings determine the proportion of passengers who travel to industries and
 # attractions respectively. 
@@ -61,7 +61,7 @@ tourist_percentage = 8
 # For example, if the number is set at 2, there will be an equal chance
 # of passengers having 0, 1 or 2 alternative destinations).
 
-max_alternative_destinations = 7
+max_alternative_destinations = 5
 
 # The program will generate three groups of passengers: (1) local;
 # (2) midrange; and (3) long distance. The program will look for a town within
