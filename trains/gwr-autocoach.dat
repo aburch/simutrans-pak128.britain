@@ -25,9 +25,14 @@ comfort=78
 Constraint[Prev][0]=GWR-517Tank-AutoFitted
 Constraint[Prev][1]=GWR-1400Tank
 Constraint[Prev][2]=GWR-PannierTank
-Constraint[Prev][3]=GWR-Autocoach
+Constraint[Prev][3]=none
 # NOTE: When other pannier types are added, this will need to be changed.
 # Ony the 54xx and 64xx series were auto fitted in panniers.
+
+Constraint[Next][0]=GWR-517Tank-AutoFitted
+Constraint[Next][1]=GWR-1400Tank
+Constraint[Next][2]=GWR-PannierTank
+Constraint[Next][3]=none
 
 EmptyImage[E]=./images/gwr-autocoach.0
 EmptyImage[SE]=./images/gwr-autocoach.1

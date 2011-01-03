@@ -142,8 +142,11 @@
     <None Include="trains\lbscr-bogie-sub.dat" />
     <None Include="trains\lbscr-d1.dat" />
     <None Include="trains\lbscr-non-cor-lav.dat" />
+    <None Include="trains\lms-0-4-4T.dat" />
     <None Include="trains\lms-2p.dat" />
+    <None Include="trains\lms-4p-tanks.dat" />
     <None Include="trains\lms-4p.dat" />
+    <None Include="trains\lms-non-cor.dat" />
     <None Include="trains\lswr-corridor.dat" />
     <None Include="trains\lswr-emu.dat" />
     <None Include="trains\lswr-ironclads.dat" />
@@ -151,6 +154,7 @@
     <None Include="trains\mr-1833.dat" />
     <None Include="trains\mr-2441.dat" />
     <None Include="trains\mr-483.dat" />
+    <None Include="trains\mr-non-cor.dat" />
     <None Include="trains\sr-3sub.dat" />
     <None Include="trains\sr-4-lav.dat" />
     <None Include="trains\sr-6-pan.dat" />

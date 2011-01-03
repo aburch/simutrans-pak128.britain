@@ -1867,17 +1867,35 @@ GWR Express Carriage (brake)
 GWR-Express-Coach
 GWR Express Carriage
 LMS-d1904-Coach
-LMS Standard Carriage
+LMS standard corridor carriage
 LMS-d2007-Parcel-Brake
 LMS Parcel Brake Carriage
 LMS-d1904-Dining
 LMS Dining car
+LMS-non-cor-lav
+LMS standard non-corridor carriage (lavatory)
+LMS-non-cor-non-lav
+LMS standard non-corridor carriage
+LMS-non-cor-brake-front
+LMS standard non-corridor carriage (brake)
+LMS-non-cor-brake-rear
+LMS standard non-corridor carriage (brake)
+MR-non-cor-lav
+MR standard non-corridor carriage (lavatory)
+MR-non-cor-non-lav
+MR standard non-corridor carriage
+MR-non-cor-brake-front
+MR standard non-corridor carriage (brake)
+MR-non-cor-brake-rear
+MR standard non-corridor carriage (brake)
 LMS-Garratt-Middle(Black)
 LMS Garratt 2-6-0+0-6-2 (boiler)
 LMS-Garratt-Front(Black)
 LMS Garratt 2-6-0+0-6-2
 LMS-Garratt-Rear(Black)
 LMS Garratt 2-6-0+0-6-2 (back)
+LMS-0-4-4T
+LMS 2P Class 0-4-4T (push-pull)
 GWR-2800(Green)
 GWR 2800 Class 2-8-0
 GWR-2800-Tender(Green)
@@ -2351,7 +2369,11 @@ GWR 1000 "County" Class 4-6-0
 GWR-Hawksworth-County-Tender
 GWR 1000 "County" Tender
 LMS-Fowler-3P-Tank
-LMS Class 3P
+LMS Class 3P 2-6-2T
+LMS-Fowler-4P-Tank
+LMS Class 4P 2-6-4T
+LMS-Fairburn-4P-Tank
+LMS Class 4P 2-6-4T (Fairburn design)
 LSWR-EMU(front)
 LSWR suburban EMU
 LSWR-EMU(centre)
