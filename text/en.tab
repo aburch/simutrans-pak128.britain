@@ -1184,6 +1184,8 @@ LBSCR-D1
 LBSCR Class D1 0-4-2T
 LMS-3F-Jinty
 LMS Class 3F "Jinty" 0-6-0T
+LMS-3F-Jinty-Push-Pull
+LMS Class 3F "Jinty" 0-6-0T (push-pull)
 GWR-PannierTank
 GWR Pannier Tank 57xx 0-6-0T
 MR-Kirtley156(Maroon)
@@ -1532,6 +1534,14 @@ BR-375-6Middle2(SE)
 BR Class 375/6 "Electrostar" EMU (centre motor)
 BR-375-6Rear(SE)
 BR Class 375/6 "Electrostar" EMU (rear)
+c2c-357(front)
+BR Class 357 "Electrostar" EMU
+c2c-357(centre1)
+BR Class 357 "Electrostar" EMU (pantograph trailer)
+c2c-357(centre2)
+BR Class 357 "Electrostar" EMU (centre motor)
+c2c-357(rear)
+BR Class 357 "Electrostar" EMU (rear)
 BR-390FrontCab(Virgin)
 BR Class 390 "Pendolino"
 BR-390FrontCoach(Virgin)
@@ -1867,7 +1877,11 @@ GWR Express Carriage (brake)
 GWR-Express-Coach
 GWR Express Carriage
 LMS-d1904-Coach
-LMS standard corridor carriage
+LMS high capacity open carriage
+LMS-open-brake-front
+LMS open brake
+LMS-open-brake-rear
+LMS open brake
 LMS-d2007-Parcel-Brake
 LMS Parcel Brake Carriage
 LMS-d1904-Dining
@@ -1880,6 +1894,16 @@ LMS-non-cor-brake-front
 LMS standard non-corridor carriage (brake)
 LMS-non-cor-brake-rear
 LMS standard non-corridor carriage (brake)
+LMS-push-pull-brake
+LMS push-pull set (driving trailer)
+LMS-push-pull-centre-1
+LMS push-pull set (centre trailer)
+LMS-push-pull-centre-2
+LMS push-pull set (centre trailer)
+MR-push-pull-front
+MR push-pull set (front)
+MR-push-pull-rear
+MR push-pull set (rear)
 MR-non-cor-lav
 MR standard non-corridor carriage (lavatory)
 MR-non-cor-non-lav
@@ -1965,9 +1989,11 @@ LNER Class P2 2-8-2
 LNER-P2-Tender(Green)
 LNER Class P2 2-8-2 (tender)
 LMS-Stanier-7P(Maroon)
-LMS Class 8P "Princess Coronation" 4-6-2
+LMS Class 8P "Princess Coronation" 4-6-2 (streamlined)
 LMS-Stanier-7P-Tender(Maroon)
 LMS Class 8P "Princess Coronation" 4-6-2 (tender)
+LMS-Stanier-7P-non-streamlined
+LMS Class 8P "Princess Coronation" 4-6-2 (non-streamlined)
 NER-ClassES1(Green)
 NER Class ES1 Bo-Bo
 NER-ClassEF1(Green)
@@ -2190,8 +2216,6 @@ CC-Clerestory-Dining
 GWR corridor clerestory dining car
 GWR-Express-Dining
 GWR express dining car
-LMS-d1904-dining
-LMS dining car
 LNER-Gresley-Express-Dining(Teak)
 LNER dining car (teak)
 SR-Bulleid-Express-Dining(Green)
@@ -2344,6 +2368,8 @@ BR-304Rear(BR-Blue)
 BR Class 304 EMU (driving trailer)
 BR-2MT-Tank(Black)
 BR Standard Class 2MT 2-6-2T
+BR-2MT-Tank(Black)-Push-Pull
+BR Standard Class 2MT 2-6-2T (push pull)
 BR-Class57(FGW)
 BR Class 57
 BR-4MT(Black)
@@ -2370,6 +2396,8 @@ GWR-Hawksworth-County-Tender
 GWR 1000 "County" Tender
 LMS-Fowler-3P-Tank
 LMS Class 3P 2-6-2T
+LMS-Fowler-3P-Tank-Push-Pull
+LMS Class 3P 2-6-2T (push-pull)
 LMS-Fowler-4P-Tank
 LMS Class 4P 2-6-4T
 LMS-Fairburn-4P-Tank

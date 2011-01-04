@@ -1,14 +1,15 @@
+# The push-pull conversion of the 2441
+# Johnson 0-60- tank
+
 obj=vehicle
-name=MR-2441
+name=MR-1632
 engine_type=steam
 smoke=Steam
 speed=75
-#gear=190
-# Power lower than LMS 3F because latter has Belpaire firebox
 power=350
 tractive_effort=93
 copyright=Kieron
-intro_year=1899
+intro_year=1908
 intro_month=2
 retire_year=1924
 retire_month=6
@@ -17,8 +18,9 @@ freight=None
 payload=0
 length=6
 
-weight=49
-cost=1584000
+weight=50
+cost=1755000
+upgrade_price=32000
 runningcost=199
 sound=-1
 increase_maintenance_after_years=30
@@ -28,7 +30,6 @@ can_lead_from_rear=0
 bidirectional=1
 upgrade[0]=LMS-3F-Jinty
 upgrade[1]=LMS-3F-Jinty-Push-Pull
-upgrade[2]=MR-1632
 
 EmptyImage[E]=./images/mr-2441.0
 EmptyImage[SE]=./images/mr-2441.1
