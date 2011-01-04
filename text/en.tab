@@ -356,6 +356,8 @@ NelsonColumn2
 Nelson's Column
 Fountain
 Fountain
+OldBrickSchool
+Victorian School
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
@@ -1643,7 +1645,7 @@ LBSCR Class B1 "Gladstone" 0-4-2
 LBSCR-B1-Gladstone-Tender
 LBSCR Class B1 "Gladstone" 0-4-2 (tender)
 LBSCR-L-Tank(Umber)
-LBSCR Class L "Rememberance" 4-6-4T
+LBSCR Class L "Brighton Baltic" 4-6-4T
 LNWR-Jumbo(Black)
 LNWR "Jumbo" Class 2-2-2-0
 LNWR-Jumbo-Tender(Black)
@@ -1972,6 +1974,44 @@ GWR-Hawksworth-County
 GWR 1000 "County" Class 4-6-0
 GWR-Hawksworth-County-Tender
 GWR 1000 "County" Tender
+BR-150Front(Regional)
+BR Class 150 "Sprinter" DMU (front)
+BR-150Centre(Regional)
+BR Class 150 "Sprinter" DMU (centre)
+BR-150Rear(Regional)
+BR Class 150 "Sprinter" DMU (rear)
+BR-456-DMSO
+BR Class 456 EMU (DMSO)
+BR-456-DTSO
+BR Class 456 EMU (DTSO)
+BR-455-Driving-Front
+BR Class 455 EMU (front)
+BR-455-Motor
+BR Class 455 EMU (power)
+BR-455-Trailer
+BR Class 455 EMU (trailer)
+BR-455-Driving-Rear
+BR Class 455 EMU (rear)
+BR-317-Driving-Front
+BR Class 317 EMU (front)
+BR-317-Motor
+BR Class 317 EMU (power)
+BR-317-Trailer
+BR Class 317 EMU (trailer)
+BR-317-Driving-Rear
+BR Class 317 (rear)
+LSWR-EMU(front)
+LSWR suburban EMU (front driving motor)
+LSWR-EMU(centre)
+LSWR suburban EMU (centre trailer)
+LSWR-EMU(rear)
+LSWR suburban EMU (rear driving motor)
+SR-3SUB(front)
+SR 3-SUB (front driving motor)
+SR-3SUB(rear)
+SR 3-SUB (rear driving motor)
+SR-3SUB(centre)
+SR 3-SUB (centre trailer)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -2646,6 +2686,10 @@ MaudslayVanLong
 Maudslay Van (long goods)
 MaudslayVanPost
 Maudslay Van (mail)
+RHVolvoOlympian
+Volvo RH Class
+OptareAlero
+Optare Alero
 #____________________________________water-vehicle____________________________________
 #____________________________________water-vehicle____________________________________
 BoatHorsesDouble
@@ -2780,6 +2824,18 @@ WindjammerLong
 Windjammer (long goods)
 WindjammerFluid
 Windjammer (bulk fluids)
+PSComet
+PS Comet
+WoodenPaddleSteamer
+Wooden Paddle Steamer
+IronPaddleSteamer
+Iron Paddle Steamer
+SSGreatWestern
+SS Great Western
+SSGreatBritain
+SS Great Britain
+SSGreatEastern
+SS Great Eastern
 #____________________________________maglev-vehicle____________________________________
 #____________________________________maglev-vehicle____________________________________
 BR-M-Class9000
@@ -3018,5 +3074,123 @@ ATC_choosesignal
 Choose Signal
 ATC_EndofChooseSignal
 End of Choose Signal Block Sign
-
-
+#_________________City cars_______________________
+#_________________City cars_______________________
+AustinMetro(Blue)
+Austin Metro
+AustinMetro(Red)
+Austin Metro
+AustinMetro(Yellow)
+Austin Metro
+AustinMetro(White)
+Austin Metro
+AustinMetro(Green)
+Austin Metro
+AustinMetro(Purple)
+Austin Metro
+AustinPrincess(SilverBlack)
+Austin Princess
+AustinPrincess(Ivory)
+Austin Princess
+AustinSeven(Blue)
+Austin Seven
+AustinSeven(Red)
+Austin Seven
+AustinSeven(Cream)
+Austin Seven
+AustinSeven(Black)
+Austin Seven
+AustinSeven(Green)
+Austin Seven
+BMCMini(Blue)
+Mini
+BMCMini(Navy)
+Mini
+BMCMini(Orange)
+Mini
+BMCMini(RacingGreen)
+Mini
+BMCMini(Red)
+Mini
+BMCMini(White)
+Mini
+FordCortina(Blue)
+Ford Cortina
+FordCortina(Red)
+Ford Cortina
+FordCortina(Brown)
+Ford Cortina
+FordCortina(Black)
+Ford Cortina
+FordCortina(White)
+Ford Cortina
+FordCortina(Olive)
+Ford Cortina
+FordKa(Blue)
+Ford Ka
+FordKa(Silver)
+Ford Ka
+FordKa(Red)
+Ford Ka
+FordKa(Turquoise)
+Ford Ka
+FordKa(Green)
+Ford Ka
+FordKa(Purple)
+Ford Ka
+FordT(Black)
+Ford Model-T
+HorseCarriageOpen(White)
+Open carriage
+HorseCarriageOpen(Yellow)
+Open carriage
+HorseCarriageClosed(Blue)
+Horse-drawn carriage
+HorseCarriageClosed(Green)
+Horse-drawn carriage
+HorseCarriageClosed(Cream)
+Horse-drawn carriage
+HorseCart(Brown)
+Horse cart
+HorseCart(Grey)
+Horse cart
+LandRoverSeries(Green)
+Landrover
+LandRoverSeries(White)
+Landrover
+LandRoverSeries(Blue)
+Landrover
+LandRoverSeries(Desert)
+Landrover
+MorrisEight(Maroon)
+Morris Eight
+MorrisEight(Green)
+Morris Eight
+MorrisEight(Black)
+Morris Eight
+PeelP50(Red)
+Peel P50
+RangeRover(Green)
+Rangerover
+RangeRover(Red)
+Rangerover
+RangeRover(Silver)
+Rangerover
+RangeRover(Black)
+Rangerover
+ReliantRobin(Blue)
+Reliant Robin
+ReliantRobin(Maroon)
+Reliant Robin
+ReliantRobin(Silver)
+Reliant Robin
+ReliantRobin(Yellow)
+Trotter's Independent Trading Co.: New York - Milan - Peckham
+Volvo-V70-Police
+Volvo V70 police car
+LondonTaxi-Lanchester
+Black cab
+Volvo-240-Estate(Blue)
+Volvo 240 Estate
+Volvo-240-Estate(Silver)
+Volvo 240 Estate
