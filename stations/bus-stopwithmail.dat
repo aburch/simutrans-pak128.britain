@@ -1,0 +1,19 @@
+Obj=building
+Name=OldBusShelterWmail
+# must be 1*1
+type=stop
+waytype=road
+intro_year=1750
+retire_year=1950
+noconstruction=1
+enables_pax=1
+enables_post=1
+NoInfo=1
+Dims=1,1,2
+level=3
+BackImage[0][0][0][0][0][0]=old-bus-shelterWMail.0.0
+FrontImage[0][0][0][0][0][0]=old-bus-shelterWMail.0.1
+BackImage[1][0][0][0][0][0]=old-bus-shelterWMail.0.2
+FrontImage[1][0][0][0][0][0]=old-bus-shelterWMail.0.3
+icon=> old-bus-shelterWMail.0.5
+cursor=old-bus-shelterWMail.0.4 
