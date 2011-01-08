@@ -495,7 +495,7 @@ Nelson's Column
 Fountain
 Fountain
 Old_brick_school
-School
+Victorian School
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
@@ -2408,8 +2408,34 @@ LMS-Fowler-4P-Tank
 LMS Class 4P 2-6-4T
 LMS-Fairburn-4P-Tank
 LMS Class 4P 2-6-4T (Fairburn design)
+BR-150Front(Regional)
+BR Class 150 "Sprinter" DMU (front)
+BR-150Centre(Regional)
+BR Class 150 "Sprinter" DMU (centre)
+BR-150Rear(Regional)
+BR Class 150 "Sprinter" DMU (rear)
+BR-456-DMSO
+BR Class 456 EMU (DMSO)
+BR-456-DTSO
+BR Class 456 EMU (DTSO)
+BR-455-Driving-Front
+BR Class 455 EMU (front)
+BR-455-Motor
+BR Class 455 EMU (power)
+BR-455-Trailer
+BR Class 455 EMU (trailer)
+BR-455-Driving-Rear
+BR Class 455 EMU (rear)
+BR-317-Driving-Front
+BR Class 317 EMU (front)
+BR-317-Motor
+BR Class 317 EMU (power)
+BR-317-Trailer
+BR Class 317 EMU (trailer)
+BR-317-Driving-Rear
+BR Class 317 (rear)
 LSWR-EMU(front)
-LSWR suburban EMU
+LSWR suburban EMU (front driving motor)
 LSWR-EMU(centre)
 LSWR suburban EMU (centre trailer)
 LSWR-EMU(rear)
@@ -3118,6 +3144,8 @@ MaudslayVanLong
 Maudslay Van (long goods)
 MaudslayVanPost
 Maudslay Van (mail)
+RHVolvoOlympian
+Volvo RH Class
 OptareAlero
 Optare Alero
 #____________________________________water-vehicle____________________________________
@@ -3656,12 +3684,12 @@ ReliantRobin(Yellow)
 Trotter's Independent Trading Co.: New York - Milan - Peckham
 Volvo-V70-Police
 Volvo V70 police car
-Volvo-240-Estate(Blue)
-Volvo 240 estate
-Volvo-240-Estate(Silver)
-Volvo 240 estate
 LondonTaxi-Lanchester
 Black cab
+Volvo-240-Estate(Blue)
+Volvo 240 Estate
+Volvo-240-Estate(Silver)
+Volvo 240 Estate
 #__________________________________Way constraints__________________________________
 #__________________________________Way constraints__________________________________
 Permissive 0
