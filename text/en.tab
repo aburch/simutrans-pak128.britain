@@ -2087,9 +2087,13 @@ LBSCR non-corridor lavatory coach (brake)
 LBSCR-non-cor-lav-brake-front
 LBSCR non-corridor lavatory coach (brake)
 LNWR-Jumbo(Black)
-LNWR "Jumbo" Class 2-2-2-0
+LNWR "Jumbo" Class 2-2-0
 LNWR-Jumbo-Tender(Black)
-LNWR "Jumbo" Class 2-2-2-0 (tender)
+LNWR "Jumbo" Class 2-2-0 (tender)
+LNWR-Precedent
+LNWR "Precedent" Class 2-2-0
+LNEW-Precedent-Tender
+LNWR "Precedent" Class 2-2-0 (tender)
 GER-Claud-Hamilton(Blue)
 GER Class S46 "Claud Hamilton" 4-4-0
 GER-Claud-Hamilton-Tender(Blue)

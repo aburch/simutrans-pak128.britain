@@ -30,6 +30,10 @@ upgrade[3]=SR-3SUB(front)
 upgrade[4]=SR-3SUB(rear)
 upgrade[5]=SR-3SUB(centre)
 
+Constraint[Next][0]=LSWR-Third-Carriage
+Constraint[Next][1]=LSWR-Third-Brake
+Constraint[Next][2]=none
+
 EmptyImage[E]=./images/lswr-carriage-brake.0
 EmptyImage[SE]=./images/lswr-carriage-brake.1
 EmptyImage[S]=./images/lswr-carriage-brake.2
