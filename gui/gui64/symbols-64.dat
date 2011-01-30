@@ -131,6 +131,22 @@ name=ColorOptions
 copyright=none
 Image[0]=> ColorOptions.0.0
 --------------------
+Obj=symbol
+name=networksym
+Image[0]=> ls-symbols.3.4
+--------------------
+Obj=symbol
+name=timelinesym
+Image[0]=> ls-symbols.3.5
+--------------------
+Obj=symbol
+name=fastforwardsym
+Image[0]=> ls-symbols.3.6
+--------------------
+Obj=symbol
+name=pausesym
+Image[0]=> ls-symbols.3.7
+-------------------- 
 #
 #
 #==============================================================================#
