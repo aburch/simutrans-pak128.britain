@@ -323,6 +323,10 @@ crossconnect_factories_percentage = 15
 # with this switch on (default), overcrowded factories will not recieve goods any more
 just_in_time = 1
 
+# How much is the total electric power available (in relation to total production) 
+# in parts per thousand. 1000 = 100% and default for Simutrans-Experimental.
+electric_promille = 1000
+
 # powerlines
 cost_transformer = 2500
 cost_maintain_transformer = 100
