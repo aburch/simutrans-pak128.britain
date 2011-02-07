@@ -328,13 +328,13 @@ cost_transformer = 2500
 cost_maintain_transformer = 100
 
 # Minimum distance between factories (in tiles)
-factory_spacing = 32
+factory_spacing = 48
 
 # Some factories have a retirement date, after which they are obsolete. After
 # that date, factories may close down (random chance each month). After the number
 # of years stipulated below, factories have a 100% chance of closing down. The
 # chance increases the closer to this value that factories get.
-max_years_obsolete = 40
+max_years_obsolete = 45
 
 # The following settings determine the minimum and maximum number of towns in which
 # workers in industries live (and thus from which they need to be transported to
@@ -543,6 +543,10 @@ enforce_weight_limits=2
 # window. This button is not shown if this is set to 0.
 
 allow_buying_obsolete_vehicles=0
+
+# If this setting is set to 1, the secondhand value of vehicles that have been used
+# (in the sense of having ever been sent out of a depot) will be reduced by 30%.
+used_vehicle_reduction=1
 
 
 ############################### Display settings ###############################
