@@ -3079,6 +3079,10 @@ AirbusA319(EasyJet)
 Airbus A319 (low-cost)
 AirbusA319(BritishAirways)
 Airbus A319 (standard)
+AirbusA321(Monarch)
+Airbus A321
+AirbusA318(BritishAirways)
+Airbus A318
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track
@@ -3101,8 +3105,12 @@ city_road
 City Road
 cobblestone_road
 Cobblestone road
+concrete_road
+Concrete road
 dirt_road
 Dirt Road
+macadam_road
+Macadam Road
 Powerline
 High voltage transmission line
 TramTrack
