@@ -186,3 +186,4 @@ HISTORY
 	ADD: Airbus A318 and A321 (Milko)
 	ADD: New road/rail crossings
 	ADD: Macadam road and concrete road
+	CHANGE: Snow graphics for rails

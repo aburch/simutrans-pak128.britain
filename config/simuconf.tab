@@ -118,8 +118,8 @@ intercity_road_type = cobblestone_road
 # Type of city roads - must be available as PAK file.
 # Fallback (and default) is "city_road"
 #city_road_type = city_road
-city_road[0]=city_road,1905,2050
-city_road[1]=cobblestone_road,1781,1904
+city_road[0]=city_road,1925,2050
+city_road[1]=cobblestone_road,1781,1924
 city_road[2]=dirt_road,1700,1780
 
 # Max. length of intitial intercity road connections
