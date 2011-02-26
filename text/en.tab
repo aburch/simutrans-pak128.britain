@@ -66,6 +66,16 @@ Dock
 Dock
 Airport
 Airport
+#_______________________air-vehicle___________________________
+#_______________________air-vehicle___________________________
+AirbusA319(EasyJet)
+Airbus A319 (low-cost)
+AirbusA319(BritishAirways)
+Airbus A319 (standard)
+AirbusA321(Monarch)
+Airbus A321
+AirbusA318(BritishAirways)
+Airbus A318
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickViaduct
@@ -157,11 +167,11 @@ Suspension Road Bridge (improved)
 suspension_road_bridge_motorway
 Suspension Motorway Bridge
 stone_road_bridge_dirt
-Masonry Road Bridge (Macadam)
+Masonry Road Bridge (Unsurfaced)
 stone_road_bridge_cobbles
 Masonry Road Bridge (cobblestone)
 wooden_road_bridge_dirt
-Wooden Road Trestle (Macadam)
+Wooden Road Trestle (Unsurfaced)
 wooden_road_bridge_cobbles
 Wooden Road Trestle (cobblestone)
 wooden_road_bridge_tarmac
@@ -175,7 +185,7 @@ Masonry Road Bridge (tarmac)
 MasonryViaductCobbles
 Masonry Road Bridge (cobblestone)
 MasonryViaductDirt
-Masonry Road Bridge (macadam)
+Masonry Road Bridge (Unsurfaced)
 Concrete_Maglev_Bridge
 Concrete Maglev Bridge
 Economical_Concrete_Maglev_Bridge
@@ -3391,7 +3401,9 @@ City Road
 cobblestone_road
 Cobblestone road
 dirt_road
-Macadam Road
+Unsurfaced Road
+macadam_road
+MacAdam Road
 motorway
 Motorway
 concrete_road
@@ -3508,6 +3520,8 @@ ModernBusShelter
 Bus Stop with Shelter
 OldBusShelter
 Bus Stop with Shelter
+OldBusShelterWmail
+Bus Stop with Shelter and Post Box
 ModernBusTerminal
 Bus Terminal
 OldBusTerminal

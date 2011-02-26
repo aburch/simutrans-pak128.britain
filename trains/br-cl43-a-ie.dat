@@ -32,7 +32,7 @@ Constraint[Prev][0]=none
 
 Constraint[Next][0]=BR-Mk3-TO(Intercity)
 Constraint[Next][1]=BR-Mk3-TRB(Intercity)
-
+Constraint[Next][2]=BR-Mk3-TRFB(Intercity)
 
 EmptyImage[E]=./images/br-cl43-ie.0.0
 EmptyImage[SE]=./images/br-cl43-ie.0.1

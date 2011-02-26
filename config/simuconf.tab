@@ -309,6 +309,22 @@ seperate_halt_capacities=1
 
 city_isolation_factor = 32
 
+# Passengers will walk to their destination if it is close enough, rather than use
+# players' transport or private cars. This parameter defines how close that close
+# enough is. It is expressed in hundreds of meters (or tenths of kilometres), so
+# the default setting of 15 means that passnegers will walk to their destination if
+# it is within 1.5km of their origin.
+
+max_walking_distance_km_tenth = 15
+
+# This setting determines the amount of private traffic generated on the roads in the game.
+# It does not affect the actual usage of private cars: just how many vehicles appear in
+# the game. Range: 0 - 16.
+# 11 = 61.25% - equivalent to a car occupancy level of 1.6, which is approximately average
+# for the UK.
+
+citycar_level = 11
+
 ################################## Industry settings #################################
 
 # allow all possible supplier to connect to your factories?
@@ -480,8 +496,8 @@ city_road[2]=dirt_road,1700,1780
 # intercity_road[0]=name,1900,1920
 # intercity_road[1]=name2,1921,1950
 
-intercity_road[0]=dirt_road,1700,1860
-intercity_road[1]=cobblestone_road,1861,1902
+intercity_road[0]=dirt_road,1700,1824
+intercity_road[1]=macadam_road,1825,1902
 intercity_road[3]=tarmac_road,1903,1932
 intercity_road[4]=asphalt_road,1933,2050
 
@@ -554,6 +570,10 @@ used_vehicle_reduction=1
 
 
 ############################### Display settings ###############################
+
+# how long is a diagonal (512: faktor 2=1024/512, old way, 724: sqrt(2)=1024/724
+# THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
+#diagonal_multiplier = 724
 
 # Show info windows for private cars and pedestrians?
 # (1=on, 0=off)

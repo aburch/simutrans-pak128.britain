@@ -25,7 +25,9 @@ comfort=145
 
 Constraint[Next][0]=BR-Mk3-TO(Intercity)
 Constraint[Next][1]=BR-Mk3-TRB(Intercity)
-Constraint[Next][2]=BR-Class43Rear(Intercity)
+Constraint[Next][2]=BR-Mk3-TRFB(Intercity)
+Constraint[Next][3]=BR-Class43Rear(Intercity)
+
 Constraint[Prev][0]=BR-Mk3-TO(Intercity)
 Constraint[Prev][1]=BR-Mk3-TRB(Intercity)
 Constraint[Prev][2]=BR-Mk3-TRFB(Intercity)
@@ -70,7 +72,7 @@ comfort=145
 Constraint[Next][0]=BR-Mk3a-TO(Intercity)
 Constraint[Next][1]=BR-Mk3-DVT(Intercity)
 Constraint[Next][2]=BR-Mk3a-TRB(Intercity)
-Constraint[Next][3]=BR-Mk3-TRFB(Intercity)
+Constraint[Next][3]=BR-Mk3a-TRFB(Intercity)
 Constraint[Next][4]=None
 
 

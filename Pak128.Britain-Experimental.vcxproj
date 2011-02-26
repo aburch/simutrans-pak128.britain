@@ -72,6 +72,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="air\A318_BritishAirways.dat" />
+    <None Include="air\A319_BritishAirways.dat" />
+    <None Include="air\A319_EasyJet.dat" />
+    <None Include="air\A321_Monarch.dat" />
     <None Include="attractions\old_school.dat" />
     <None Include="attractions\stonechurch.dat" />
     <None Include="boats\boats192\ss-great-britain.dat" />
@@ -116,6 +120,7 @@
     <None Include="bus\thornycroft-q-rigid.dat" />
     <None Include="bus\thornycroft-qc.dat" />
     <None Include="bus\thornycroft-stag.dat" />
+    <None Include="citybuildings\1950s-offices.dat" />
     <None Include="citycars\London-Taxi-Lanchester.dat" />
     <None Include="citycars\Volvo-240-Estate.dat" />
     <None Include="citycars\volvo-v70-police.dat" />

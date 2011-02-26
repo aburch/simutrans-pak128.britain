@@ -5,11 +5,19 @@
 #                             Language: sv Svenska                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                           Date Created: 26.11 2009                           #
+#                            Date Created: 3.10 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
+#                           Michael Persson - Mippzon                          #
+#                                    note:                                     #
+#                          Susanna Björverud - Susanna                         #
+#                                    note:                                     #
+#                             Paul Color - color42                             #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                                    note:                                     #
 #                                                                              #
 ################################################################################
 #____________________________________bridge_____________________________________
@@ -288,6 +296,120 @@ woodenPlatformOverallTrainStop
 Täckt träplattform
 WoodenPlatformTrainStop
 Träplattform
+#____________________________________citycar____________________________________
+#____________________________________citycar____________________________________
+AustinMetro(Blue)
+Austin Metro
+AustinMetro(Green)
+Austin Metro
+AustinMetro(Purple)
+Austin Metro
+AustinMetro(Red)
+Austin Metro
+AustinMetro(White)
+Austin Metro
+AustinMetro(Yellow)
+Austin Metro
+AustinPrincess(Ivory)
+Austin Princess
+AustinPrincess(SilverBlack)
+Austin Princess
+AustinSeven(Black)
+Austin Seven
+AustinSeven(Blue)
+Austin Seven
+AustinSeven(Cream)
+Austin Seven
+AustinSeven(Green)
+Austin Seven
+AustinSeven(Red)
+Austin Seven
+BMCMini(Blue)
+Mini
+BMCMini(Navy)
+Mini
+BMCMini(Orange)
+Mini
+BMCMini(RacingGreen)
+Mini
+BMCMini(Red)
+Mini
+BMCMini(White)
+Mini
+FordCortina(Black)
+Ford Cortina
+FordCortina(Blue)
+Ford Cortina
+FordCortina(Brown)
+Ford Cortina
+FordCortina(Olive)
+Ford Cortina
+FordCortina(Red)
+Ford Cortina
+FordCortina(White)
+Ford Cortina
+FordKa(Blue)
+Ford Ka
+FordKa(Green)
+Ford Ka
+FordKa(Purple)
+Ford Ka
+FordKa(Red)
+Ford Ka
+FordKa(Silver)
+Ford Ka
+FordKa(Turquoise)
+Ford Ka
+FordT(Black)
+T-Ford
+HorseCarriageClosed(Blue)
+Häst och vagn
+HorseCarriageClosed(Cream)
+Häst och vagn
+HorseCarriageClosed(Green)
+Häst och vagn
+HorseCarriageOpen(White)
+Öppen vagn
+HorseCarriageOpen(Yellow)
+Öppen vagn
+HorseCart(Brown)
+Hästkärra
+HorseCart(Grey)
+Hästkärra
+LandRoverSeries(Blue)
+Landrover
+LandRoverSeries(Desert)
+Landrover
+LandRoverSeries(Green)
+Landrover
+LandRoverSeries(White)
+Landrover
+MorrisEight(Black)
+Morris Eight
+MorrisEight(Green)
+Morris Eight
+MorrisEight(Maroon)
+Morris Eight
+PeelP50(Red)
+Peel P50
+RangeRover(Black)
+Rangerover
+RangeRover(Green)
+Rangerover
+RangeRover(Red)
+Rangerover
+RangeRover(Silver)
+Rangerover
+ReliantRobin(Blue)
+Reliant Robin
+ReliantRobin(Maroon)
+Reliant Robin
+ReliantRobin(Silver)
+Reliant Robin
+ReliantRobin(Yellow)
+Reliant Robin
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
@@ -578,6 +700,10 @@ Newsagent1950
 Tidningshandel
 Newsagent1970
 Tidningshandel
+OilRefinery
+Oljeraffinaderi
+OilRefinery1910
+Oljeraffinaderi
 OilRefinery1925
 Oljeraffinaderi
 OilRefinery1955
@@ -744,6 +870,8 @@ flour
 mjöl
 food
 livsmedel
+FreshFish
+färsk fisk
 fruit
 frukt
 FuelOil
@@ -837,7 +965,7 @@ Tvåblocksignal
 Early_Signals_right
 Huvudsignal
 EndofChooseSignal
-Plattformsval upphör
+Uteslut från plattformsval
 LongSignals
 Långblocksignal
 Modern_ChooseSignals_right
@@ -897,7 +1025,7 @@ Dubbeldäckad täckt spårvagn
 2-Deck-Open
 Dubbeldäckad öppen spårvagn
 A1Diddler
-A1 "Diddler"
+A1 "Diddler" trådbuss
 AECQ2
 AEC Q2
 AECQ4
@@ -1214,9 +1342,9 @@ BR-Mk1-POS(RoyalMail)
 BR Mk. 1 Postvagn
 BR-Mk1-RBR(Blue-Grey)
 BR Mk. 1 Ombyggd buffetvagn
-BR-Mk1-RB(Crimson-Cream)
+BR-Mk1-RBR(Crimson-Cream)
 BR Mk. 1 Buffetvagn
-BR-Mk1-RB(Maroon)
+BR-Mk1-RBR(Maroon)
 BR Mk. 1 Buffetvagn
 BR-Mk1-TO(Blue-Grey)
 BR Mk. 1 Salongsvagn
@@ -1230,12 +1358,12 @@ BR-Mk2-RFB(Intercity)
 BR Mk. 2d Restaurantvagn
 BR-Mk2-TO(Intercity)
 BR Mk. 2d Salongsvagn
-BR-Mk3-DVT(Intercity)
-BR Mk.3 Manövervagn
 BR-Mk3-TO(Intercity)
 BR Mk. 3 Salongsvagn
 BR-Mk3-TRB(Intercity)
 BR Mk. 3 Buffetvagn
+BR-Mk3a-TRB(Intercity)
+BR Mk. 3a Restaurangvagn (Buffé)
 BR-Mk4-DVT(Intercity)
 BR-Mk.4 Manövervagn
 BR-Mk4-RSB(Intercity)
@@ -1260,6 +1388,8 @@ BTypeDouble
 B-Type (dubbeldäckad)
 BTypeSingle
 B-Type (enkeldäckad)
+BuildersYard1750
+Bygghandel
 Bulk Hopper(HAA)
 BR Öppen godsvagn HAA
 Bulk Hopper(HTA)
@@ -1278,6 +1408,8 @@ BulkRCH10T
 RCH 10t öppen godsvagn
 BulkRCH12T
 RCH 12t öppen godsvagn
+CarFactory1970
+Bilfabrik
 CartBulk
 Kärra (bulkgods)
 CartCool
@@ -1382,6 +1514,10 @@ EagleTrailerLong
 Eagle-släp (långgods)
 EagleTrailerPiece
 Eagle-släp (styckegods)
+FishingGround1910
+Fiskevatten
+Fishmongers1945
+Fiskhandlare
 FodenCompoundBulk
 Foden Compound (bulkgods)
 FodenCompoundCool
@@ -1807,7 +1943,7 @@ Tender till LNER Class V2
 LNER-V2(Green)
 LNER Class V2 2-6-2
 LNWR-1847-Brake
-LNWR Tvåaxlig bromsad personvagn
+LNWR Tvåaxlig bromsad postvagn
 LNWR-1847-First
 LNWR Tvåaxlig personvagn
 LNWR-1847-Mail
