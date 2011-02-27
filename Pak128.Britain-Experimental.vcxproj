@@ -126,6 +126,8 @@
     <None Include="citycars\volvo-v70-police.dat" />
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
+    <None Include="stations\bus-stopwithmail.dat" />
+    <None Include="text\de.tab" />
     <None Include="trains\br-150-rr.dat" />
     <None Include="trains\br-307.dat" />
     <None Include="trains\br-321.dat" />
@@ -691,6 +693,7 @@
     <None Include="trains\lyr-cl25-tender.dat" />
     <None Include="trains\lyr-cl25.dat" />
     <None Include="trains\lyr-emu.dat" />
+    <None Include="ways\macadam_road.dat" />
     <None Include="ways\maglev_bridges.dat" />
     <None Include="ways\maglev_tracks.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\mailbox.txt" />
