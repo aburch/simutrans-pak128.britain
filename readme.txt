@@ -187,3 +187,11 @@ HISTORY
 	ADD: New road/rail crossings
 	ADD: Macadam road and concrete road
 	CHANGE: Snow graphics for rails
+04/03/2011
+	ADD: Airbus A320 (Milko)
+	FIX: Airbus graphics improved (Milko)
+	ADD: Snow graphics for some industries
+	ADD: Market & Gas power station (jamespetts)
+	FIX: passenger and mail capacity for oil rigs
+	ADD: Parish church and small parks (wlindley)
+	FIX: Old Library graphics (Archon)
