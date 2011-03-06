@@ -75,7 +75,10 @@
     <None Include="air\A318_BritishAirways.dat" />
     <None Include="air\A319_BritishAirways.dat" />
     <None Include="air\A319_EasyJet.dat" />
+    <None Include="air\A320_ThomsonAirways.dat" />
     <None Include="air\A321_Monarch.dat" />
+    <None Include="attractions\library.dat" />
+    <None Include="attractions\little-park.dat" />
     <None Include="attractions\old_school.dat" />
     <None Include="attractions\stonechurch.dat" />
     <None Include="boats\boats192\ss-great-britain.dat" />
@@ -126,6 +129,8 @@
     <None Include="citycars\volvo-v70-police.dat" />
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
+    <None Include="industry\gasworks.dat" />
+    <None Include="industry\market.dat" />
     <None Include="stations\bus-stopwithmail.dat" />
     <None Include="text\de.tab" />
     <None Include="trains\br-150-rr.dat" />

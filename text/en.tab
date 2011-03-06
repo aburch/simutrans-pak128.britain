@@ -76,6 +76,8 @@ AirbusA321(Monarch)
 Airbus A321
 AirbusA318(BritishAirways)
 Airbus A318
+AirbusA320(Thomson)
+Airbus A320
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickViaduct
@@ -478,9 +480,13 @@ IND_A_1950_03_10
 Warehouse
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
+StoneChurch2
+Parish Church
 1980s-Small-Church
 Small Church
 1990s-Small-Library
+Library
+library
 Library
 Georgian_Mansion
 Georgian Mansion
@@ -505,7 +511,15 @@ Nelson's Column
 Fountain
 Fountain
 Old_brick_school
-Victorian School
+School
+LittlePark1870_1
+Small Park
+LittlePark1870_2
+Small Park
+Park1930_1
+Small Park
+Park1930_2
+Small Park
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
@@ -738,6 +752,10 @@ GasPowerStation1985kraftwerk
 Gas fired Power Station
 GasPowerStation1995kraftwerk
 Gas fired Power Station
+Gasworks1860
+Gasworks
+Gasworks1900
+Gasworks
 GrainFarm1750
 Grain Farm
 GrainFarm1840
@@ -794,6 +812,14 @@ IronOreMine1950
 Iron Ore Mine
 IronOreMine1970
 Iron Ore Mine
+Market1750
+Market
+Market1840
+Market
+Market1910
+Market
+Market1945
+Market
 Newsagent1860
 Newsagent
 Newsagent1920

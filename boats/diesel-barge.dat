@@ -15,8 +15,8 @@ cost=20000
 runningcost=2
 intro_year=1920
 intro_month=1
-retire_year=2050
-retire_month=6
+##retire_year=2050
+#retire_month=6
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=HorseBargeCool
@@ -105,7 +105,7 @@ cost=20000
 runningcost=2
 intro_year=1920
 intro_month=1
-retire_year=2050
+#retire_year=2050
 retire_month=6
 
 Constraint[Next][0]=HorseBargeCool
@@ -165,7 +165,7 @@ cost=20000
 runningcost=2
 intro_year=1920
 intro_month=1
-retire_year=2050
+#retire_year=2050
 retire_month=6
 
 Constraint[Next][0]=HorseBargeCool
@@ -204,7 +204,7 @@ cost=20000
 runningcost=2
 intro_year=1920
 intro_month=1
-retire_year=2050
+#retire_year=2050
 retire_month=6
 
 Constraint[Next][0]=HorseBargeCool
@@ -243,7 +243,7 @@ cost=20000
 runningcost=2
 intro_year=1920
 intro_month=1
-retire_year=2050
+#retire_year=2050
 retire_month=6
 
 Constraint[Next][0]=HorseBargePiece

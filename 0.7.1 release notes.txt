@@ -1,0 +1,23 @@
+0.7.1 release notes
+
+ADD: Concrete elevated railways (presently temporarily sharing the graphics with the brick elevated ways)
+CHANGE: Increase the retirement age of the coaching stable.
+ADD: English translations for the Volvo 240 estate city car
+CHANGE: Allow the GWR Autocoach to run in multiple.
+ADD: Electrification removal tool (SDog)
+REVERT: Set trolleybus catenary to be introduced in May 1931, the same date as the first trolleybus.
+CHANGE: Class 153 can now be upgraded to/from a trolley service
+CHANGE: Restore outside.dat, and add version information.
+ADD: Stand in buttons for steel rail bridges, yet todo (SDog)
+CHANGE: Recalibrate distribution of attractions.
+CHANGE: Alter the cost of the Humber Keel
+CHANGE: Minor changes to running costs of some road vehicles
+CHANGE: Tile border colour is now purple
+ADD: Remove electrification options
+ADD: Graphics for the BR Standard 5MT
+FIX: BR Standard 5MT was not compatible with its tender
+CHANGE: Put introduction date of the car carrying wagon back to 1910
+CHANGE: City roads can no longer be built by ordinary players
+FIX: The masonary road bridge with the unmetalled surface now has the correct graphics
+ADD: Missing graphic for the BR Standard 5MT
+CHANGE: Reduced starting capital to 250,000c

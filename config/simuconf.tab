@@ -284,7 +284,7 @@ tpo_revenue=300
 
 base_car_preference_percent = 95
 always_prefer_car_percent = 10
-congestion_density_factor = 9
+congestion_density_factor = 15
 # was 14
 
 # This setting gives the maximum time that passengers are prepared to wait for their
@@ -499,7 +499,7 @@ city_road[2]=dirt_road,1700,1780
 intercity_road[0]=dirt_road,1700,1824
 intercity_road[1]=macadam_road,1825,1902
 intercity_road[3]=tarmac_road,1903,1932
-intercity_road[4]=asphalt_road,1933,2050
+intercity_road[4]=asphalt_road,1933,2300
 
 # Max. length of intitial intercity road connections
 # If you want to speed up map creation, lower this value
@@ -608,7 +608,7 @@ show_names = 3
 
 # After how many months a citycar breaks (and will be forever gone) ...
 # one day at current settings: 260s
-citycar_life = 4160
+citycar_life = 2750
 
 # Colour of the cursor shading.
 # Pak128 default = 155 (orange)
