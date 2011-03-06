@@ -13,7 +13,7 @@ TECHNICAL ISSUES
 If there are any technical issues (e.g. error messages, crashes) please make a post in "bugs" board of the Simutrans Forum - http://forum.simutrans.com/index.php?board=8.0 - Please also state which version of the Simutrans executable you are using and which operating system.
 
 GAMEPLAY NOTES
-This version is a beta version - there are many aspects of the pakset which are incomplete, missing, or not well-balanced for gameplay.  There may also be bugs present in the pakset which have not been weeded out.  If you have spotted any graphical glitches or other problems with the pakset, please post these in the pak128.Britain forum.  Also if you have any comments to make on the balancing of the gameplay (e.g. financial, industry production, vehicle acceleration, etc.) please post these in the pak128.Britain board of the simutrans forum: http://forum.simutrans.com/index.php?board=51.0 . In particular please note that there are currently no planes or monorails available in the game.  If you really want to use these in a pak128.Britain game, other simutrans graphics objects of 128x128 tilesize (e.g.pak128, pak128.German, pak128.Japan) will also run in pak128.Britain, although they may look out of place and will not be balanced from a gameplay point of view.  Most of all though, we hope you enjoy playing pak128.Britain - please provide feedback on the forum, look forward to future releases, and consider contributing to the drawing of new graphics and balancing of existing ones!
+This version is a beta version - there are many aspects of the pakset which are incomplete, missing, or not well-balanced for gameplay.  There may also be bugs present in the pakset which have not been weeded out.  If you have spotted any graphical glitches or other problems with the pakset, please post these in the pak128.Britain forum.  Also if you have any comments to make on the balancing of the gameplay (e.g. financial, industry production, vehicle acceleration, etc.) please post these in the pak128.Britain board of the simutrans forum: http://forum.simutrans.com/index.php?board=51.0 . In particular please note that there are currently no monorails and only a limited number of planes and boats available in the game.  If you really want to use these in a pak128.Britain game, other simutrans graphics objects of 128x128 tilesize (e.g.pak128, pak128.German, pak128.Japan) will also run in pak128.Britain, although they may look out of place and will not be balanced from a gameplay point of view.  Most of all though, we hope you enjoy playing pak128.Britain - please provide feedback on the forum, look forward to future releases, and consider contributing to the drawing of new graphics and balancing of existing ones!
 
 HISTORY
 07/07/2009: Release of Pak128.Britain 1.0
@@ -177,3 +177,21 @@ HISTORY
 	ADD: Snow images for AHB Crossing
 26/10/2010: r329 (release of 1.08)
 	ADD: SS Great Britain, SS Great Eastern, Iron Paddle Steamer
+13/02/2011:
+	ADD: Airbus A319 (Milko)
+14/02/2011
+	FIX: Graphics for A319
+	ADD: New workshop and library (Archon)
+22/02/2011
+	ADD: Airbus A318 and A321 (Milko)
+	ADD: New road/rail crossings
+	ADD: Macadam road and concrete road
+	CHANGE: Snow graphics for rails
+04/03/2011
+	ADD: Airbus A320 (Milko)
+	FIX: Airbus graphics improved (Milko)
+	ADD: Snow graphics for some industries
+	ADD: Market & Gas power station (jamespetts)
+	FIX: passenger and mail capacity for oil rigs
+	ADD: Parish church and small parks (wlindley)
+	FIX: Old Library graphics (Archon)

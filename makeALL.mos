@@ -20,6 +20,9 @@ xcopy ./licence.txt %OUTPUT%
 xcopy ./readme.txt %OUTPUT%
 xcopy ./compat.tab %OUTPUT%
 
+echo Build aeroplanes
+build %OUTPUT%BritAir.pak ./air/
+
 echo Build attractions
 build %OUTPUT%BritAttractions.pak ./attractions/
 

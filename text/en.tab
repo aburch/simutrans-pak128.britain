@@ -328,6 +328,8 @@ IND_A_1950_02_10
 Warehouse
 IND_A_1950_03_10
 Warehouse
+IND_A_1750_00_10
+Workshop
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
 1980s-Small-Church
@@ -358,6 +360,18 @@ Fountain
 Fountain
 OldBrickSchool
 Victorian School
+OldLibrary
+Library
+StoneChurch
+Parish Church
+LittlePark1870_1
+Small Park
+LittlePark1870_2
+Small Park
+Park1930_1
+Small Park
+Park1930_2
+Small Park
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
@@ -786,6 +800,18 @@ FishPort1945
 Fishing Port
 FishPort1975
 Fishing Port
+GasPowerStation1985kraftwerk
+Gas-fired Power Station
+GasPowerStation1995kraftwerk
+Gas-fired Power Station
+Market1750
+Market
+Market1840
+Market
+Market1910
+Market
+Market1945
+Market
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -2007,11 +2033,198 @@ LSWR suburban EMU (centre trailer)
 LSWR-EMU(rear)
 LSWR suburban EMU (rear driving motor)
 SR-3SUB(front)
-SR 3-SUB (front driving motor)
+SR 3-SUB 
 SR-3SUB(rear)
 SR 3-SUB (rear driving motor)
 SR-3SUB(centre)
 SR 3-SUB (centre trailer)
+SR-4SUB(front)
+SR 4-SUB
+SR-4SUB(rear)
+SR 4-SUB (rear)
+SR-4SUB(centre1)
+SR 4-SUB (centre trailer)
+SR-4SUB(centre2)
+SR 4-SUB (centre trailer)
+LBSCR-D1
+LBSCR Class D1 0-4-2T
+BR-5MT(Black)
+BR Standard Class 5MT 2-6-0
+MR-1833
+MR 1833 Class 0-4-4T
+MR-483
+MR 483 Class 4-4-0
+MR-483(tender)
+MR 483 Class 4-4-0 (tender)
+LMS-2P
+LMS Class 2P 4-4-0
+LMS-2P(tender)
+LMS Class 2P 4-4-0 (tender)
+LMS-4P
+LMS Class 4P 4-4-0
+LMS-4P(tender)
+LMS Class 4P 4-4-0 (tender)
+LMS-Fowler-4P-Tank
+LMS Class 4P 2-6-4T
+LMS-Fairburn-4P-Tank
+LMS Class 4P 2-6-4T (Fairburn design)
+LMS-0-4-4T
+LMS 2P Class 0-4-4T (push-pull)
+LMS-Stanier-8P-non-streamlined
+LMS Class 8P "Princess Coronation" 4-6-2 (non-streamlined)
+LBSCR-J
+LBSCR Class J 4-6-2T
+LBSCR-I3
+LBSCR Class I3 4-4-2T
+LBSCR-E5
+LBSCR Class E5 0-6-2T
+LSWR-N15
+LSWR Class N15 4-6-0
+BR-4EPB(front)
+BR Class 415/6 "2/4-EPB" EMU (front)
+BR-2EPB(rear)
+BR Class 416 "2-EPB" EMU (rear)
+BR-4EPB(rear)
+BR Class 415 "4-EPB" EMU (rear)
+BR-4EPB(centre1)
+BR Class 415 "4-EPB" EMU (centre)
+BR-4EPB(centre2)
+BR Class 415 "4-EPB" EMU (centre)
+BR-321(front)
+BR Class 321 EMU
+BR-321(pantograph)
+BR Class 321 EMU (pantograph)
+BR-321(motor)
+BR Class 321 EMU (motor)
+BR-321(rear)
+BR Class 321 EMU (rear)
+SR 4-LAV EMU
+SR-4LAV(rear)
+SR 4-LAV EMU (rear)
+SR-4LAV(centre1)
+SR 4-LAV EMU (centre)
+SR-4LAV(centre2)
+SR 4-LAV EMU (centre, with lavatory)
+SR-6PAN(front)
+SR 6-PAN EMU
+SR-6PAN(trailer1)
+SR 6-PAN EMU (centre)
+SR-6PAN(trailer2)
+SR 6-PAN EMU (centre)
+SR-6PAN(buffet)
+SR 6-PAN EMU (pantry car)
+SR-6PAN(trailer4)
+SR 6-PAN EMU (centre)
+SR6-PAN(rear)
+SR 6-PAN EMU (rear)
+BR-307(front)
+BR Class 307 EMU
+BR-307(centre1)
+BR Class 307 EMU (motor)
+BR-307(centre2)
+BR Class 307 EMU (centre trailer)
+BR-307(rear)
+BR Class 307 EMU (rear)
+BR-444(front)
+SWT Class 444 "Desiro" EMU
+BR-444(centre1)
+BR Class 444 "Desiro" EMU (centre)
+BR-444(centre2)
+BR Class 444 "Desiro" EMU (centre)
+BR-444(centre3)
+BR Class 444 "Desiro" EMU (centre)
+BR-444(rear)
+BR Class 444 "Desiro" EMU (rear)
+BR-450(front)
+BR Class 450 "Desiro" EMU
+BR-450(centre1)
+BR Class 450 "Desiro" EMU (centre)
+BR-450(centre2)
+BR Class 450 "Desiro" EMU (centre)
+BR-450(rear)
+BR Class 450 "Desiro" EMU (rear)
+SR-augmentation-trailer(front)
+SR EMU augmentation trailer
+SR-augmentation-trailer(rear)
+SR EMU augmentation trailer
+SR-404[COR]Middle-Buf(Green)
+SR 4-Cor EMU (buffet car)
+SR-404[COR]Middle-Res(Green)
+SR 4-Cor EMU (restaurant car)
+c2c-357(front)
+BR Class 357 "Electrostar" EMU
+c2c-357(centre1)
+BR Class 357 "Electrostar" EMU (pantograph trailer)
+c2c-357(centre2)
+BR Class 357 "Electrostar" EMU (centre motor)
+c2c-357(rear)
+BR Class 357 "Electrostar" EMU (rear)
+LBSCR-non-cor-lav
+LBSCR non-corridor lavatory coach
+LBSCR-non-cor-lav-brake-rear
+LBSCR non-corridor lavatory coach (brake)
+LBSCR-non-cor-lav-brake-front
+LBSCR non-corridor lavatory coach (brake)LBSCR bogie suburban carriage
+LBSCR-bogie-sub-brake-front
+LBSCR bogie suburban carriage (brake)
+LBSCR-bogie-sub-brake-rear
+LBSCR bogie suburban carriage (brake)
+LSWR-corridor
+LSWR corridor carriage
+LSWR-corridor-brake-front
+LSWR corridor carriage (brake)
+LSWR-corridor-brake-rear
+LSWR corridor carriage (brake)
+LBSCR-balloon-full-brake
+LBSCR "Balloon" carriage (full brake)
+LBSCR-balloon-brake-front
+LBSCR non-corridor lavatory "Balloon" carriage (brake)
+LBSCR-balloon-brake-rear
+LBSCR non-corridor lavatory "Balloon" carriage (brake)
+LBSCR-balloon
+LBSCR non-corridor lavatory "Balloon" carriage
+LSWR-Ironclad
+LSWR "Ironclad" corridor coach
+LSWR-Ironclad-Brake
+LSWR "Ironclad" corridor coach (brake)
+LSWR-Ironclad-Dining
+LSWR "Ironclad" corridor dining coach
+LSWR-Ironclad-Pantry
+LSWR "Ironclad" corridor pantry coach
+LSWR-Ironclad-Mail
+LSWR "Ironclad" mail coach
+LSWR-Ironclad-TPO
+LSWR "Ironclad" TPO
+LMS-non-cor-lav
+LMS standard non-corridor carriage (lavatory)
+LMS-non-cor-non-lav
+LMS standard non-corridor carriage
+LMS-non-cor-brake-front
+LMS standard non-corridor carriage (brake)
+LMS-non-cor-brake-rear
+LMS standard non-corridor carriage (brake)
+MR-non-cor-lav
+MR standard non-corridor carriage (lavatory)
+MR-non-cor-non-lav
+MR standard non-corridor carriage
+MR-non-cor-brake-front
+MR standard non-corridor carriage (brake)
+MR-non-cor-brake-rear
+MR standard non-corridor carriage (brake)
+LMS-push-pull-brake
+LMS push-pull set (driving trailer)
+LMS-push-pull-centre-1
+LMS push-pull set (centre trailer)
+LMS-push-pull-centre-2
+LMS push-pull set (centre trailer)
+MR-push-pull-front
+MR push-pull set (front)
+MR-push-pull-rear
+MR push-pull set (rear)
+LMS-open-brake-front
+LMS open brake
+LMS-open-brake-rear
+LMS open brake
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -2882,6 +3095,18 @@ BR-Ultra-520DD(Buffet)
 Ultraspeed Class M30 "Platinum Jubilee" (middle buffet)
 BR-Ultra-520DD(rear)
 Ultraspeed Class M30 "Platinum Jubilee" (rear)
+#_______________________air-vehicle___________________________
+#_______________________air-vehicle___________________________
+AirbusA319(EasyJet)
+Airbus A319 (low-cost)
+AirbusA319(BritishAirways)
+Airbus A319 (standard)
+AirbusA321(Monarch)
+Airbus A321
+AirbusA318(BritishAirways)
+Airbus A318
+AirbusA320(Thomson)
+Airbus A320
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track
@@ -2904,8 +3129,12 @@ city_road
 City Road
 cobblestone_road
 Cobblestone road
+concrete_road
+Concrete road
 dirt_road
 Dirt Road
+macadam_road
+Macadam Road
 Powerline
 High voltage transmission line
 TramTrack

@@ -18,6 +18,8 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LMS-Princess-Royal(Maroon)
+Constraint[Prev][1]=LMS-Stanier-8P-non-streamlined
+
 
 EmptyImage[E]=./images/lms-princess-royal.1.0
 EmptyImage[SE]=./images/lms-princess-royal.1.1
