@@ -124,6 +124,7 @@
     <None Include="bus\thornycroft-qc.dat" />
     <None Include="bus\thornycroft-stag.dat" />
     <None Include="citybuildings\1950s-offices.dat" />
+    <None Include="citybuildings\Building_Swan_inn.dat" />
     <None Include="citycars\London-Taxi-Lanchester.dat" />
     <None Include="citycars\Volvo-240-Estate.dat" />
     <None Include="citycars\volvo-v70-police.dat" />
@@ -146,6 +147,7 @@
     <None Include="trains\br-456-nse.dat" />
     <None Include="trains\br-507.dat" />
     <None Include="trains\br-5mt.dat" />
+    <None Include="trains\br-cl50.dat" />
     <None Include="trains\c2c-357.dat" />
     <None Include="trains\gwr-517.dat" />
     <None Include="trains\gwr-churchward-star-tender.dat" />
@@ -181,6 +183,10 @@
     <None Include="trains\sr-6-pan.dat" />
     <None Include="trains\SR-augmentation-trailer.dat" />
     <None Include="trains\sr-bullied-4-sub.dat" />
+    <None Include="trains\wagon-cool-bogie.dat" />
+    <None Include="trains\wagon-cool-fast.dat" />
+    <None Include="trains\wagon-piece-bogie.dat" />
+    <None Include="trains\wagon-piece-fast.dat" />
     <None Include="trams\1-deck-closed.dat" />
     <None Include="trams\1-deck-trailer.dat" />
     <None Include="industry\1750-china-shop.dat" />

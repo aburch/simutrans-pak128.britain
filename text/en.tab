@@ -382,6 +382,8 @@ COM_KG_1970_01_14
 Office Block
 COM_KG_1980_00_16
 Shops & Offices
+COM_A_Swan_Inn_10
+Inn
 IND_JH_1960_00_02
 Sewerage Works
 IND_JH_1980_00_03
@@ -1320,6 +1322,8 @@ BR-Class47(Rail-Blue)
 BR Class 47
 BR-Class40(Green)
 BR Class 40
+BR-Class50
+BR Class 50
 BR-Class55(Green)
 BR Class 55 "Deltic"
 BR-Class71(Green)
@@ -2212,6 +2216,10 @@ PieceD88
 12t box van
 Piece16T
 16t box van
+Piece-Fast
+Fitted goods van
+Piece-Bogie
+Fitted bogie goods van
 PieceZSX
 BR ZSX covered van
 PieceContainer
@@ -2230,6 +2238,10 @@ CoolD88
 12t food van
 Cool16T
 16t food van
+Cool-Fast
+Fitted food van
+Cool-Bogie
+Fitted bogie food van
 CoolZSX
 BR refrigerated van
 LongEarly1

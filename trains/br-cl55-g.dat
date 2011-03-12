@@ -9,8 +9,10 @@ tractive_effort=222
 copyright=Kieron
 intro_year=1961
 intro_month=9
-retire_year=1975
-retire_month=1
+# Retain until Class 50 available
+# so that players can always build 100mph diesel locomotives.
+retire_year=1967
+retire_month=12
 waytype=track
 freight=None
 payload=0

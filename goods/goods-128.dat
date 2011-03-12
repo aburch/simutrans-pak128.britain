@@ -324,6 +324,16 @@ value=54
 speed_bonus=3
 weight_per_unit=820
 ---------------------------------------
+# Canned Food
+obj=good
+name=canned_food
+metric=paletten
+catg=1
+#value=35
+value=53
+speed_bonus=3
+weight_per_unit=820
+---------------------------------------
 ### LONG GOODS ###
 # Steel
 obj=good
@@ -416,17 +426,6 @@ catg=4
 value=136
 speed_bonus=15
 weight_per_unit=960
------------------------
-### OTHER - Not used but apparently required ###
-# Canned Food
-obj=good
-name=canned_food
-metric=paletten
-catg=1
-#value=35
-value=53
-speed_bonus=3
-weight_per_unit=800
 -----------------------
 #===============================================================================
 #

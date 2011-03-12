@@ -3,8 +3,8 @@ name=Bulk Hopper(HTA)
 speed=120
 copyright=Kieron
 intro_year=2001
-intro_month=3
-retire_year=2030
+#intro_month=3
+#retire_year=2030
 retire_month=11
 waytype=track
 freight=Kohle
@@ -12,7 +12,7 @@ payload=75
 length=10
 
 weight=27
-cost=340000
+cost=690000
 runningcost=12
 
 bidirectional=1
