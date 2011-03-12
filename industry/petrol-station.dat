@@ -128,10 +128,13 @@ InputCapacity[2]=64
 #InputSupplier[2]=1
 InputFactor[2]=5
 InputGood[3]=newspaper
-InputCapacity[3]=40
+InputCapacity[3]=25
 #InputSupplier[3]=1
 InputFactor[3]=20
-# Add packaged food here when the chain is created.
+InputGood[4]=canned_food
+InputCapacity[4]=30
+#InputSupplier[4]=1
+InputFactor[4]=30
 Dims=1,2,4
 BackImage[0][0][0][0][0]=petrol-station.0.0
 BackImage[0][1][0][0][0]=petrol-station.1.0
