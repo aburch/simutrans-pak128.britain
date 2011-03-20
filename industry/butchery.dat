@@ -1,8 +1,6 @@
 Obj=factory
 name=Butchery1820
-#intro_year=1820
-#Introduce these later when markets are added
-intro_year=1750
+intro_year=1820
 intro_month=1
 retire_year=1840
 retire_month=10
@@ -53,10 +51,14 @@ InputCapacity[0]=85
 InputFactor[0]=100  
 #InputSupplier[0]=1
 Dims=1,1,4
-BackImage[2][0][0][0][0]=butchery.0
-BackImage[1][0][0][0][0]=butchery.1
-BackImage[0][0][0][0][0]=butchery.2
-BackImage[3][0][0][0][0]=butchery.3
+BackImage[2][0][0][0][0][0]=butchery.0.0
+BackImage[1][0][0][0][0][0]=butchery.0.1
+BackImage[0][0][0][0][0][0]=butchery.0.2
+BackImage[3][0][0][0][0][0]=butchery.0.3
+BackImage[2][0][0][0][0][1]=butchery.0.0
+BackImage[1][0][0][0][0][1]=butchery.0.1
+BackImage[0][0][0][0][0][1]=butchery.0.2
+BackImage[3][0][0][0][0][1]=butchery.0.3
 --------------------
 Obj=factory
 name=Butchery1910
@@ -79,10 +81,14 @@ InputCapacity[0]=100
 InputFactor[0]=100  
 #InputSupplier[0]=1
 Dims=1,1,4
-BackImage[2][0][0][0][0]=butchery.0
-BackImage[1][0][0][0][0]=butchery.1
-BackImage[0][0][0][0][0]=butchery.2
-BackImage[3][0][0][0][0]=butchery.3
+BackImage[2][0][0][0][0][0]=butchery.0.0
+BackImage[1][0][0][0][0][0]=butchery.0.1
+BackImage[0][0][0][0][0][0]=butchery.0.2
+BackImage[3][0][0][0][0][0]=butchery.0.3
+BackImage[2][0][0][0][0][1]=butchery.0.0
+BackImage[1][0][0][0][0][1]=butchery.0.1
+BackImage[0][0][0][0][0][1]=butchery.0.2
+BackImage[3][0][0][0][0][1]=butchery.0.3
 --------------------
 Obj=factory
 name=Butchery1945
