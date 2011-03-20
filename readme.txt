@@ -216,3 +216,4 @@ HISTORY
 	FIX: Various dat files
 	ADD: BR Class 50 loco (jamespetts)
 	ADD: Snow graphics for more industries
+	ADD: Swan Inn (Archon)
