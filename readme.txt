@@ -217,3 +217,9 @@ HISTORY
 	ADD: BR Class 50 loco (jamespetts)
 	ADD: Snow graphics for more industries
 	ADD: Swan Inn (Archon)
+22/03/2011
+	ADD: Missing field snow image
+27/03/2011
+	ADD: Class 60 and class 24 locos (jamespetts)
+	ADD: Fast goods wagons (jamespetts)
+	ADD: ATR 42 planes (Milko)
