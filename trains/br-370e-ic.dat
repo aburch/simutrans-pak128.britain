@@ -1,9 +1,10 @@
 obj=vehicle
 name=BR-370RearPower(IC)
 engine_type=electric
-speed=240
+speed=250
 power=2983
-##gear=290
+tractive_effort=220
+#gear=290
 copyright=Kieron
 intro_year=1980
 intro_month=3

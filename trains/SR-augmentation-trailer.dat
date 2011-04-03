@@ -71,7 +71,6 @@ Constraint[Prev][0]=SR-augmentation-trailer(front)
 
 Constraint[Next][0]=SR-3SUB(front)
 Constraint[Next][1]=LSWR-EMU(front)
-Constraint[Next][2]=none
 
 EmptyImage[E]=./images/sr-augmentation-trailer.1.0
 EmptyImage[SE]=./images/sr-augmentation-trailer.1.1

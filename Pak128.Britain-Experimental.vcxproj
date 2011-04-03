@@ -77,6 +77,8 @@
     <None Include="air\A319_EasyJet.dat" />
     <None Include="air\A320_ThomsonAirways.dat" />
     <None Include="air\A321_Monarch.dat" />
+    <None Include="air\BAE_146_100_DanAirLondon.dat" />
+    <None Include="air\BAE_146_300_JerseyEuropean.dat" />
     <None Include="attractions\library.dat" />
     <None Include="attractions\little-park.dat" />
     <None Include="attractions\old_school.dat" />
@@ -125,6 +127,7 @@
     <None Include="bus\thornycroft-stag.dat" />
     <None Include="citybuildings\1950s-offices.dat" />
     <None Include="citybuildings\Building_Swan_inn.dat" />
+    <None Include="citybuildings\com-1920.dat" />
     <None Include="citycars\London-Taxi-Lanchester.dat" />
     <None Include="citycars\Volvo-240-Estate.dat" />
     <None Include="citycars\volvo-v70-police.dat" />
@@ -150,7 +153,9 @@
     <None Include="trains\br-456-nse.dat" />
     <None Include="trains\br-507.dat" />
     <None Include="trains\br-5mt.dat" />
+    <None Include="trains\br-cl24.dat" />
     <None Include="trains\br-cl50.dat" />
+    <None Include="trains\br-cl60.dat" />
     <None Include="trains\c2c-357.dat" />
     <None Include="trains\gwr-517.dat" />
     <None Include="trains\gwr-churchward-star-tender.dat" />
