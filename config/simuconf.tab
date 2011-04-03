@@ -670,3 +670,39 @@ no_tree_climates = 130
 # if set, no trees will be created at all (save about 30% memory and
 # the season change will be much smoother on small machines)
 #no_tree = 0
+
+
+################################### Livery settings ##################################
+
+# These settings define livery schemes for vehicles. Each scheme can have a number
+# of liveries, each with their own introduction dates. When a livery scheme is applied,
+# the livery of that scheme with the latest introduction date that is not in the 
+# future will be selected. 
+#
+# The following example defines two livery schemes (Yellow and Blue), each with two
+# liveries (Bright-Yellow and Dark-Yellow and Navy-Blue and Royal-Blue respectively)
+# with introduction dates. The default scheme will be the lowest number scheme available.
+
+# livery_scheme[0] = Yellow
+# livery[0][0] = Bright-Yellow
+# intro_year[0][0] = 1900
+# intro_month[0][0] = 1
+# livery[0][1] = Dark-Yellow
+# intro_year[0][1] = 1950
+# intro_month[0][1] = 5
+#
+# livery_scheme[1] = Blue
+# livery[1][0] = Navy-Blue
+# intro_year[1][0] = 1900
+# intro_month[1][0] = 1
+# livery[1][1] = Royal-Blue
+# intro_year[1][1] = 1960
+# intro_month[1][1] = 4
+
+livery_scheme[0] = British-Railways
+livery[0][0] = BR-Blue
+intro_year[0][0] = 1966
+intro_month[0][0] = 6
+livery[0][1] = BR-Large-Logo
+intro_year[0][1] = 1979
+intro_month[0][1] = 6
