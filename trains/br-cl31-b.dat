@@ -25,12 +25,23 @@ can_lead_from_rear=0
 bidirectional=1
 available_only_as_upgrade=1
 
-EmptyImage[E]=./images/br-cl31-b.0
-EmptyImage[SE]=./images/br-cl31-b.1
-EmptyImage[S]=./images/br-cl31-b.2
-EmptyImage[SW]=./images/br-cl31-b.3
-EmptyImage[W]=./images/br-cl31-b.4
-EmptyImage[NW]=./images/br-cl31-b.5
-EmptyImage[N]=./images/br-cl31-b.6
-EmptyImage[NE]=./images/br-cl31-b.7
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
 
+EmptyImage[E][0]=./images/br-cl31-g.0.0
+EmptyImage[SE][0]=./images/br-cl31-g.0.1
+EmptyImage[S][0]=./images/br-cl31-g.0.2
+EmptyImage[SW][0]=./images/br-cl31-g.0.3
+EmptyImage[W][0]=./images/br-cl31-g.0.4
+EmptyImage[NW][0]=./images/br-cl31-g.0.5
+EmptyImage[N][0]=./images/br-cl31-g.0.6
+EmptyImage[NE][0]=./images/br-cl31-g.0.7
+
+EmptyImage[E][1]=./images/br-cl31-b.0
+EmptyImage[SE][1]=./images/br-cl31-b.1
+EmptyImage[S][1]=./images/br-cl31-b.2
+EmptyImage[SW][1]=./images/br-cl31-b.3
+EmptyImage[W][1]=./images/br-cl31-b.4
+EmptyImage[NW][1]=./images/br-cl31-b.5
+EmptyImage[N][1]=./images/br-cl31-b.6
+EmptyImage[NE][1]=./images/br-cl31-b.7
