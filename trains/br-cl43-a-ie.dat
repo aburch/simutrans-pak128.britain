@@ -28,6 +28,9 @@ air_resistance=884
 #increase_maintenance_after_years=25
 # TODO: Uncomment this after the MTU refurbished units are added
 
+can_lead_from_rear=1
+bidirectional=0
+
 Constraint[Prev][0]=none
 
 Constraint[Next][0]=BR-Mk3-TO(Intercity)
