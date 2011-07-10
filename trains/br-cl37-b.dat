@@ -29,15 +29,14 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo
 
-# TEMPORARY - add green livery here when available.
-EmptyImage[E][0]=./images/br-cl37-b.0
-EmptyImage[SE][0]=./images/br-cl37-b.1
-EmptyImage[S][0]=./images/br-cl37-b.2
-EmptyImage[SW][0]=./images/br-cl37-b.3
-EmptyImage[W][0]=./images/br-cl37-b.4
-EmptyImage[NW][0]=./images/br-cl37-b.5
-EmptyImage[N][0]=./images/br-cl37-b.6
-EmptyImage[NE][0]=./images/br-cl37-b.7
+EmptyImage[E][0]=./images//br-cl37-g_E.0
+EmptyImage[SE][0]=./images/br-cl37-g_SE.0
+EmptyImage[S][0]=./images/br-cl37-g_S.0
+EmptyImage[SW][0]=./images/br-cl37-g_SW.0
+EmptyImage[W][0]=./images/br-cl37-g_W.0
+EmptyImage[NW][0]=./images/br-cl37-g_NW.0
+EmptyImage[N][0]=./images/br-cl37-g_N.0
+EmptyImage[NE][0]=./images/br-cl37-g_NE.0
 
 EmptyImage[E][1]=./images/br-cl37-b.0
 EmptyImage[SE][1]=./images/br-cl37-b.1
