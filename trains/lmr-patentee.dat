@@ -3,19 +3,22 @@ name=LMR-Patentee
 engine_type=steam
 smoke=Steam
 speed=55
-#gear=300
-power=50
+# Calculated from data from Ahrons, pp. 22-4
+# Loss factor set at 0.5.
+power=73
+tractive_effort=5
 copyright=James
 intro_year=1833
 intro_month=6
-retire_year=1847
-retire_month=6
+retire_year=1842
+retire_month=2
 waytype=track
 freight=None
 payload=0
 length=5
 
-weight=8
+# Weight not available in Ahrons, guessed on basis of 1t more than "Planet".
+weight=9
 cost=7257600
 runningcost=770
 sound=-1

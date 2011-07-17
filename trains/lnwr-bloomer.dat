@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 # Ahrons (p. 231) records the maximum service speed of a Bloomer being 72mph (115km/h), and a start to stop average of 52mph (83km/h) with 7 6-wheelers.
 speed=110
-#gear=350
+tractive_effort=26
 power=440
 copyright=James
 intro_year=1851
@@ -16,7 +16,8 @@ freight=None
 payload=0
 length=5
 
-weight=25
+# Weight given by Ahrons, p. 94
+weight=30
 cost=8299200
 runningcost=990
 sound=-1

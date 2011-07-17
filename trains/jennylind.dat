@@ -2,9 +2,11 @@ obj=vehicle
 name=JennyLind
 engine_type=steam
 smoke=Steam
-speed=70
-#gear=275
+# Maximum speed given by Ahrons, p. 130.
+speed=95
+# Tractive effort calculated from figures given by Ahrons, p. 76
 power=200
+tractive_effort=24
 copyright=James
 intro_year=1847
 intro_month=6
@@ -15,6 +17,7 @@ freight=None
 payload=0
 length=5
 
+# Ahrons (p. 76) gives the weight as "slightly more than 24 tons".
 weight=25
 cost=4992000
 runningcost=396

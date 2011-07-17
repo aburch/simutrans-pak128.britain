@@ -3,8 +3,10 @@ name=SDR-Derwent
 engine_type=steam
 smoke=Steam
 speed=40
-#gear=350
-power=65
+# Power and TE values calculated from data from Ahrons (p. 48)
+# Loss factor set to 0.5, pressure assumed to be 50lb
+power=130
+tractive_effort=12
 copyright=James
 intro_year=1845
 intro_month=5
@@ -15,7 +17,8 @@ freight=None
 payload=0
 length=4
 
-weight=15
+# Confirmed by Ahrons, p. 48
+weight=22
 cost=5280000
 runningcost=330
 sound=-1
