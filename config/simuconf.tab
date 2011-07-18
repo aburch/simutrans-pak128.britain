@@ -348,6 +348,8 @@ cost_transformer = 2500
 cost_maintain_transformer = 100
 
 # Minimum distance between factories (in tiles)
+# Note that this applies as between *any* pair of factories, not just factories
+# that are connected to each other.
 factory_spacing = 12
 
 # Some factories have a retirement date, after which they are obsolete. After
