@@ -1,4 +1,4 @@
-# Pak 128.Britain
+live# Pak 128.Britain
 # simuconf.tab
 #
 # Low-Level values and constants
@@ -718,3 +718,43 @@ intro_month[0][2] = 6
 livery[0][3] = BR-Large-Logo
 intro_year[0][3] = 1979
 intro_month[0][3] = 6
+
+livery_scheme[1] = LNWR
+retire_year[1] = 1923
+retire_month[1] = 1
+livery[1][0] = LNWR-Early
+intro_year[1][0] = 1846
+intro_month[1][0] = 1
+livery[1][1] = LNWR-Black
+intro_year[1][1] = 1873
+intro_month[1][1] = 4
+
+livery_scheme[2] = LBSCR
+retire_year[2] = 1923
+retire_month[2] = 1
+livery[2][0] = LBSCR-Early
+intro_year[2][0] = 1846
+intro_month[2][0] = 7
+livery[2][1] = LBSCR-Stroudley
+intro_year[2][1] = 1870
+intro_month[2][1] = 3
+livery[2][2] = LBSCR-Marsh
+intro_year[2][2] = 1905
+intro_month[2][2] = 5
+
+livery_scheme[3] = LMS
+retire_year[3] = 1948
+retire_month[3] = 1
+livery[3][0] = LMS-Standard
+intro_year[3][0] = 1923
+intro_month[3][0] = 1
+
+livery_scheme[4] = SR
+retire_year[4] = 1948
+retire_month[4] = 1
+livery[4][0] = SR-Olive-Green
+intro_year[4][0] = 1923
+intro_month[4][0] = 1
+livery[4][1] = SR-Malachite-Green
+intro_year[4][1] = 1937
+intro_month[4][1] = 9
