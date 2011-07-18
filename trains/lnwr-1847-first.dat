@@ -43,12 +43,24 @@ Constraint[Prev][6]=LNWR-1847-Mail
 Constraint[Prev][7]=LNWR-6Wheel-Mail
 Constraint[Prev][8]=MSLR-4Wheel-Mail
 
-EmptyImage[E]=./images/lnwr-1847-first.0
-EmptyImage[SE]=./images/lnwr-1847-first.1
-EmptyImage[S]=./images/lnwr-1847-first.2
-EmptyImage[SW]=./images/lnwr-1847-first.3
-EmptyImage[W]=./images/lnwr-1847-first.4
-EmptyImage[NW]=./images/lnwr-1847-first.5
-EmptyImage[N]=./images/lnwr-1847-first.6
-EmptyImage[NE]=./images/lnwr-1847-first.7
+liverytype[0]=LNWR-Carriage
+liverytype[1]=MR-Standard
+
+EmptyImage[E][0]=./images/lnwr-1847-first.0
+EmptyImage[SE][0]=./images/lnwr-1847-first.1
+EmptyImage[S][0]=./images/lnwr-1847-first.2
+EmptyImage[SW][0]=./images/lnwr-1847-first.3
+EmptyImage[W][0]=./images/lnwr-1847-first.4
+EmptyImage[NW][0]=./images/lnwr-1847-first.5
+EmptyImage[N][0]=./images/lnwr-1847-first.6
+EmptyImage[NE][0]=./images/lnwr-1847-first.7
+
+EmptyImage[E][1]=./images/1847-carriage-mr_E.0
+EmptyImage[SE][1]=./images/1847-carriage-mr_SE.0
+EmptyImage[S][1]=./images/1847-carriage-mr_S.0
+EmptyImage[SW][1]=./images/1847-carriage-mr_SW.0
+EmptyImage[W][1]=./images/1847-carriage-mr_W.0
+EmptyImage[NW][1]=./images/1847-carriage-mr_NW.0
+EmptyImage[N][1]=./images/1847-carriage-mr_N.0
+EmptyImage[NE][1]=./images/1847-carriage-mr_NE.0
 

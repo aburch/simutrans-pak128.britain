@@ -1,0 +1,47 @@
+obj=vehicle
+name=LNWR-sharp-tank
+engine_type=steam
+smoke=Steam
+speed=65
+# Calculated from data from Ahrons, p. 91
+# Loss factor set at 0.7, assumed 100lbs boiler pressure. 
+# Half boiler pressure used to calculate power.
+power=192
+tractive_effort=21
+copyright=James&jamespetts
+intro_year=1854
+intro_month=1
+retire_year=1858
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=5
+
+# Weight not given in Ahrons, but taken from a similar type mentioned at p. 91.
+weight=20
+cost=7500000
+runningcost=800
+sound=-1
+
+liverytype[0]=LNWR-Early
+liverytype[1]=LNWR-Black
+
+EmptyImage[E][0]=./images/lnwr-sharp-tank-green_E.0
+EmptyImage[SE][0]=./images/lnwr-sharp-tank-green_SE.0
+EmptyImage[S][0]=./images/lnwr-sharp-tank-green_S.0
+EmptyImage[SW][0]=./images/lnwr-sharp-tank-green_SW.0
+EmptyImage[W][0]=./images/lnwr-sharp-tank-green_W.0
+EmptyImage[NW][0]=./images/lnwr-sharp-tank-green_NW.0
+EmptyImage[N][0]=./images/lnwr-sharp-tank-green_N.0
+EmptyImage[NE][0]=./images/lnwr-sharp-tank-green_NE.0
+
+EmptyImage[E][1]=./images/lnwr-sharp-tank-black_E.0
+EmptyImage[SE][1]=./images/lnwr-sharp-tank-black_SE.0
+EmptyImage[S][1]=./images/lnwr-sharp-tank-black_S.0
+EmptyImage[SW][1]=./images/lnwr-sharp-tank-black_SW.0
+EmptyImage[W][1]=./images/lnwr-sharp-tank-black_W.0
+EmptyImage[NW][1]=./images/lnwr-sharp-tank-black_NW.0
+EmptyImage[N][1]=./images/lnwr-sharp-tank-black_N.0
+EmptyImage[NE][1]=./images/lnwr-sharp-tank-black_NE.0
+

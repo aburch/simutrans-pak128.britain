@@ -730,6 +730,9 @@ intro_month[1][0] = 1
 livery[1][1] = LNWR-Black
 intro_year[1][1] = 1873
 intro_month[1][1] = 4
+livery[1][2] = LNWR-Carriage
+intro_year[1][2] = 1846
+intro_month[1][2] = 1
 
 livery_scheme[2] = LBSCR
 retire_year[2] = 1923
@@ -760,3 +763,10 @@ intro_month[4][0] = 1
 livery[4][1] = SR-Malachite-Green
 intro_year[4][1] = 1937
 intro_month[4][1] = 9
+
+livery_scheme[5] = MR
+retire_year[5] = 1923
+retire_month[5] = 1
+livery[5][0] = MR-Standard
+intro_year[5][0] = 1844
+intro_month[5][0] = 1

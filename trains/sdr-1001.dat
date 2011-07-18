@@ -3,8 +3,11 @@ name=SDR-1001(Green)
 engine_type=steam
 smoke=Steam
 speed=50
-#gear=300
-power=280
+# Calculated from data from "The Locomotive", 14th of January 1928, p. 14
+# Loss factor set at 0.7, assumed 120lbs boiler pressure. 
+# Half boiler pressure used to calculate power.
+power=297
+tractive_effort=44
 copyright=James
 intro_year=1852
 intro_month=9
@@ -15,9 +18,10 @@ freight=None
 payload=0
 length=6
 
-weight=29
+# Weight taken from "The Locomotive", 14th of January 1928, p. 14
+weight=32
 cost=5913600
-runningcost=660
+runningcost=700
 sound=-1
 
 Constraint[Next][0]=SDR-1001-Tender(Green)

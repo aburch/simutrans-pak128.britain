@@ -12,13 +12,15 @@ freight=None
 payload=0
 length=3
 
-weight=10
+# Weight not given in Ahrons, but guessed from contemporaneous types
+weight=15
 cost=0
 runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LNWR-Bloomer(Red)
 Constraint[Prev][1]=LNWR-crewe-type
+Constraint[Prev][2]=LNWR-sharp-goods
 
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black

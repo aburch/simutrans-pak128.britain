@@ -3,31 +3,57 @@ name=LNWR-DXgoods(Green)
 engine_type=steam
 smoke=Steam
 speed=60
-#gear=300
-power=400
+# Calculated from data from Ahrons, p. 123
+# Loss factor set at 0.75
+# Half boiler pressure used to calculate power.
+# Tractive effort as given by Ahrons, p. 123 - as calculated is lower.
+power=373
+tractive_effort=50
 copyright=James
 intro_year=1858
-intro_month=8
-retire_year=1880
+intro_month=9
+retire_year=1872
 retire_month=5
 waytype=track
 freight=None
 payload=0
 length=5
 
-weight=29
+# Weight given by Ahrons, p. 123
+weight=27
 cost=3165000
 runningcost=462
 sound=-1
 
 Constraint[Next][0]=LNWR-DXgoods-Tender(Green)
 
-EmptyImage[E]=./images/lnwr-DXgoods.0.0
-EmptyImage[SE]=./images/lnwr-DXgoods.0.1
-EmptyImage[S]=./images/lnwr-DXgoods.0.2
-EmptyImage[SW]=./images/lnwr-DXgoods.0.3
-EmptyImage[W]=./images/lnwr-DXgoods.0.4
-EmptyImage[NW]=./images/lnwr-DXgoods.0.5
-EmptyImage[N]=./images/lnwr-DXgoods.0.6
-EmptyImage[NE]=./images/lnwr-DXgoods.0.7
+liverytype[0]=LNWR-Early
+liverytype[1]=LNWR-Black
+liverytype[2]=LMS-Standard
 
+EmptyImage[E][0]=./images/lnwr-DXgoods.0.0
+EmptyImage[SE][0]=./images/lnwr-DXgoods.0.1
+EmptyImage[S][0]=./images/lnwr-DXgoods.0.2
+EmptyImage[SW][0]=./images/lnwr-DXgoods.0.3
+EmptyImage[W][0]=./images/lnwr-DXgoods.0.4
+EmptyImage[NW][0]=./images/lnwr-DXgoods.0.5
+EmptyImage[N][0]=./images/lnwr-DXgoods.0.6
+EmptyImage[NE][0]=./images/lnwr-DXgoods.0.7
+
+EmptyImage[E][1]=./images/lnwr-dxgoods-black_E.0
+EmptyImage[SE][1]=./images/lnwr-dxgoods-black_SE.0
+EmptyImage[S][1]=./images/lnwr-dxgoods-black_S.0
+EmptyImage[SW][1]=./images/lnwr-dxgoods-black_SW.0
+EmptyImage[W][1]=./images/lnwr-dxgoods-black_W.0
+EmptyImage[NW][1]=./images/lnwr-dxgoods-black_NW.0
+EmptyImage[N][1]=./images/lnwr-dxgoods-black_N.0
+EmptyImage[NE][1]=./images/lnwr-dxgoods-black_NE.0
+
+EmptyImage[E][2]=./images/lnwr-dxgoods-lms_E.0
+EmptyImage[SE][2]=./images/lnwr-dxgoods-lms_SE.0
+EmptyImage[S][2]=./images/lnwr-dxgoods-lms_S.0
+EmptyImage[SW][2]=./images/lnwr-dxgoods-lms_SW.0
+EmptyImage[W][2]=./images/lnwr-dxgoods-lms_W.0
+EmptyImage[NW][2]=./images/lnwr-dxgoods-lms_NW.0
+EmptyImage[N][2]=./images/lnwr-dxgoods-lms_N.0
+EmptyImage[NE][2]=./images/lnwr-dxgoods-lms_NE.0
