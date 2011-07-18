@@ -1,4 +1,4 @@
-live# Pak 128.Britain
+spacilive# Pak 128.Britain
 # simuconf.tab
 #
 # Low-Level values and constants
@@ -348,7 +348,7 @@ cost_transformer = 2500
 cost_maintain_transformer = 100
 
 # Minimum distance between factories (in tiles)
-factory_spacing = 48
+factory_spacing = 12
 
 # Some factories have a retirement date, after which they are obsolete. After
 # that date, factories may close down (random chance each month). After the number
