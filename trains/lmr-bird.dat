@@ -5,7 +5,8 @@ smoke=Steam
 speed=60
 # Calculated from data from Ahrons, p. 50
 # Loss factor set at 0.5.
-power=80
+# Half boiler pressure used to calculate power.
+power=40
 tractive_effort=5
 copyright=James&jamespetts
 intro_year=1842
