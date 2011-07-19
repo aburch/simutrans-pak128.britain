@@ -113,6 +113,7 @@
     <None Include="bus\morris-marina-van.dat" />
     <None Include="bus\morris-minor-van.dat" />
     <None Include="bus\optare-alero.dat" />
+    <None Include="bus\parcel-coach.dat" />
     <None Include="bus\RHVolvoOlympian.dat" />
     <None Include="bus\scammell-1955-artic.dat" />
     <None Include="bus\scammell-crusader.dat" />
@@ -168,6 +169,8 @@
     <None Include="trains\lbscr-i3.dat" />
     <None Include="trains\lbscr-j.dat" />
     <None Include="trains\lbscr-non-cor-lav.dat" />
+    <None Include="trains\lmr-bird.dat" />
+    <None Include="trains\lmr-planet-goods.dat" />
     <None Include="trains\lms-0-4-4T.dat" />
     <None Include="trains\lms-2p.dat" />
     <None Include="trains\lms-4p-tanks.dat" />
@@ -175,7 +178,11 @@
     <None Include="trains\lms-non-cor.dat" />
     <None Include="trains\lms-open-brake.dat" />
     <None Include="trains\lms-push-pull.dat" />
+    <None Include="trains\lnwr-crewe-type.dat" />
     <None Include="trains\lnwr-precedent.dat" />
+    <None Include="trains\lnwr-sharp-goods.dat" />
+    <None Include="trains\lnwr-sharp-tank.dat" />
+    <None Include="trains\lnwr-side-tank.dat" />
     <None Include="trains\lswr-corridor.dat" />
     <None Include="trains\lswr-emu.dat" />
     <None Include="trains\lswr-ironclads.dat" />
@@ -183,6 +190,7 @@
     <None Include="trains\mr-1632.dat" />
     <None Include="trains\mr-1833.dat" />
     <None Include="trains\mr-2441.dat" />
+    <None Include="trains\mr-480.dat" />
     <None Include="trains\mr-483.dat" />
     <None Include="trains\mr-non-cor.dat" />
     <None Include="trains\mr-push-pull.dat" />

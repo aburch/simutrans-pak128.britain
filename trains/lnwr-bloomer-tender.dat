@@ -19,15 +19,15 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LNWR-Bloomer(Red)
-Constraint[Prev][1]=LNWR-crewe-type
-Constraint[Prev][2]=LNWR-sharp-goods
+Constraint[Prev][1]=LNWR-Crewe-type
+Constraint[Prev][2]=LNWR-Sharp-goods
 
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 
 EmptyImage[E][0]=./images/lnwr-bloomer.1.0
 EmptyImage[SE][0]=./images/lnwr-bloomer.1.1
-EmptyImage[S]=[0]./images/lnwr-bloomer.1.2
+EmptyImage[S][0]=./images/lnwr-bloomer.1.2
 EmptyImage[SW][0]=./images/lnwr-bloomer.1.3
 EmptyImage[W][0]=./images/lnwr-bloomer.1.4
 EmptyImage[NW][0]=./images/lnwr-bloomer.1.5
