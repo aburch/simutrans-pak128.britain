@@ -5,20 +5,22 @@ speed=55
 copyright=Kieron
 intro_year=1833
 intro_month=6
-retire_year=1844
-retire_month=9
+retire_year=1847
+retire_month=6
 waytype=track
 freight=None
 payload=0
 length=3
 
-weight=1
+# Weight not available: guessed from contemporaneous locomotives
+weight=4
 cost=0
 runningcost=0
 sound=-1
 increase_maintenance_after_years=25
 
 Constraint[Prev][0]=LMR-Patentee
+Constraint[Prev][1]=LMR-Bird
 
 
 EmptyImage[E]=./images/lmr-patentee.1.0

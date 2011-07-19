@@ -3,8 +3,11 @@ name=MR-Kirtley156(Maroon)
 engine_type=steam
 smoke=Steam
 speed=115
-#gear=400
-power=500
+# Calculated from data from Ahrons, p. 170
+# Loss factor set at 0.75
+# Half boiler pressure used to calculate power.
+power=600
+tractive_effort=38
 copyright=Kieron
 intro_year=1866
 intro_month=2
@@ -15,6 +18,7 @@ freight=None
 payload=0
 length=6
 
+# Weight confirmed from Ahrons, p. 170
 weight=41
 cost=6972000
 runningcost=1320

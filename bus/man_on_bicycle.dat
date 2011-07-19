@@ -8,7 +8,7 @@ engine_type=bio
 waytype=road
 #Postman
 freight=Post
-payload=2
+payload=4
 power=1
 speed=22
 weight=1
@@ -32,10 +32,7 @@ EmptyImage[NW]=./images/mailbike.0.5
 EmptyImage[N]=./images/mailbike.0.6
 EmptyImage[NE]=./images/mailbike.0.7
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-#upgrade[0]=
-#upgrade_price=
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0

@@ -12,7 +12,8 @@ freight=None
 payload=0
 length=3
 
-weight=10
+# Weight taken from "The Locomotive", 14th of January 1928, p. 14
+weight=16
 cost=0
 runningcost=0
 sound=-1

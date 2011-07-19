@@ -12,7 +12,8 @@ freight=None
 payload=0
 length=3
 
-weight=1
+# Weight confirmed by "The Railway Engineer", July 1929 ed., p. 265
+weight=3
 cost=0
 runningcost=0
 sound=-1
