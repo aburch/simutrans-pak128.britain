@@ -3,11 +3,14 @@ name=LBSCR-D1
 engine_type=steam
 smoke=Steam
 speed=95
+# Tractive effort taken from:
+# http://www.semgonline.com/steam/d1%28lbsc%29_class_dat.html
+# (Wikipedia seemed unreliable on this locomotive)
 power=300
-tractive_effort=68
+tractive_effort=60
 copyright=Kieron&jamespetts
 intro_year=1873
-intro_month=9
+intro_month=11
 retire_year=1887
 retire_month=12
 waytype=track
@@ -20,7 +23,10 @@ bidirectional=1
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=35
 
-weight=39
+# Weight taken from: 
+# http://www.semgonline.com/steam/d1%28lbsc%29_class_dat.html
+# (Wikipedia seemed unreliable on this locomotive)
+weight=43
 cost=2210000
 runningcost=300
 sound=-1

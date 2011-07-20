@@ -5,8 +5,8 @@ speed=80
 copyright=James
 intro_year=1894
 intro_month=10
-retire_year=1900
-retire_month=2
+retire_year=1921
+retire_month=4
 waytype=track
 freight=None
 payload=0
@@ -20,13 +20,27 @@ increase_maintenance_after_years=20
 years_before_maintenance_max_reached=25
 
 Constraint[Prev][0]=LNWR-AClass(Black)
+Constraint[Prev][1]=LNWR-BClass
+Constraint[Prev][2]=LNWR-G1Class
 
-EmptyImage[E]=./images/lnwr-Aclass.1.0
-EmptyImage[SE]=./images/lnwr-Aclass.1.1
-EmptyImage[S]=./images/lnwr-Aclass.1.2
-EmptyImage[SW]=./images/lnwr-Aclass.1.3
-EmptyImage[W]=./images/lnwr-Aclass.1.4
-EmptyImage[NW]=./images/lnwr-Aclass.1.5
-EmptyImage[N]=./images/lnwr-Aclass.1.6
-EmptyImage[NE]=./images/lnwr-Aclass.1.7
+liverytype[0]=LNWR-Black
+liverytype[1]=LMS-Standard
+
+EmptyImage[E][0]=./images/lnwr-Aclass.1.0
+EmptyImage[SE][0]=./images/lnwr-Aclass.1.1
+EmptyImage[S][0]=./images/lnwr-Aclass.1.2
+EmptyImage[SW][0]=./images/lnwr-Aclass.1.3
+EmptyImage[W][0]=./images/lnwr-Aclass.1.4
+EmptyImage[NW][0]=./images/lnwr-Aclass.1.5
+EmptyImage[N][0]=./images/lnwr-Aclass.1.6
+EmptyImage[NE][0]=./images/lnwr-Aclass.1.7
+
+EmptyImage[E][1]=./images/lnwr-PoW-tender-lms-black_E.0
+EmptyImage[SE][1]=./images/lnwr-PoW-tender-lms-black_SE.0
+EmptyImage[S][1]=./images/lnwr-PoW-tender-lms-black_S.0
+EmptyImage[SW][1]=./images/lnwr-PoW-tender-lms-black_SW.0
+EmptyImage[W][1]=./images/lnwr-PoW-tender-lms-black_W.0
+EmptyImage[NW][1]=./images/lnwr-PoW-tender-lms-black_NW.0
+EmptyImage[N][1]=./images/lnwr-PoW-tender-lms-black_N.0
+EmptyImage[NE][1]=./images/lnwr-PoW-tender-lms-black_NE.0
 

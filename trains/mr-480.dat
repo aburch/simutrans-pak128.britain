@@ -2,12 +2,12 @@ obj=vehicle
 name=MR-480
 engine_type=steam
 smoke=Steam
-speed=115
+speed=65
 # Calculated from data from Ahrons, p. 158
 # Loss factor set at 0.75 
 # Half boiler pressure used to calculate power.
 tractive_effort=50
-power=444
+power=440
 copyright=Kieron&jamespetts
 intro_year=1863
 intro_month=12
@@ -18,7 +18,7 @@ freight=None
 payload=0
 length=7
 
-# Weight not given in Ahrons, but taken from a contemporaneoud type mentioned on p. 158
+# Weight not given by Ahrons, p. 158
 weight=32
 cost=6651000
 runningcost=1051

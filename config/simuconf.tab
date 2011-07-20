@@ -473,7 +473,7 @@ show_month = 4
 # default is 18. For example, 21 will make the month 2^3=8 times longer in real time
 # production and maintainance cost will be adjusted accordingly.
 
-bits_per_month = 19
+bits_per_month = 20
 
 ################################ Road Settings ###################################
 

@@ -3,33 +3,49 @@ name=LNWR-AClass(Black)
 engine_type=steam
 smoke=Steam
 speed=80
-#gear=200
+# Tractive effort data unavailalbe: guessed from similar classes:
+# http://en.wikipedia.org/wiki/LNWR_G_Class
 power=1200
+tractive_effort=95
 copyright=James
 intro_year=1894
 intro_month=10
-retire_year=1900
-retire_month=2
+retire_year=1904
+retire_month=5
 waytype=track
 freight=None
 payload=0
 length=7
 
-weight=49
+# Weight given by Wikipedia: http://en.wikipedia.org/wiki/LNWR_Class_A
+weight=51
 cost=6336000
 runningcost=660
 sound=-1
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=25
 
+upgrade[0]=LNWR-G1Class
+
 Constraint[Next][0]=LNWR-AClass-Tender(Black)
 
-EmptyImage[E]=./images/lnwr-Aclass.0.0
-EmptyImage[SE]=./images/lnwr-Aclass.0.1
-EmptyImage[S]=./images/lnwr-Aclass.0.2
-EmptyImage[SW]=./images/lnwr-Aclass.0.3
-EmptyImage[W]=./images/lnwr-Aclass.0.4
-EmptyImage[NW]=./images/lnwr-Aclass.0.5
-EmptyImage[N]=./images/lnwr-Aclass.0.6
-EmptyImage[NE]=./images/lnwr-Aclass.0.7
+liverytype[0]=LNWR-Black
+liverytype[1]=LMS-Standard
 
+EmptyImage[E][0]=./images/lnwr-Aclass.0.0
+EmptyImage[SE][0]=./images/lnwr-Aclass.0.1
+EmptyImage[S][0]=./images/lnwr-Aclass.0.2
+EmptyImage[SW][0]=./images/lnwr-Aclass.0.3
+EmptyImage[W][0]=./images/lnwr-Aclass.0.4
+EmptyImage[NW][0]=./images/lnwr-Aclass.0.5
+EmptyImage[N][0]=./images/lnwr-Aclass.0.6
+EmptyImage[NE][0]=./images/lnwr-Aclass.0.7
+
+EmptyImage[E][1]=./images/lnwr-aclass-lms_E.0
+EmptyImage[SE][1]=./images/lnwr-aclass-lms_SE.0
+EmptyImage[S][1]=./images/lnwr-aclass-lms_S.0
+EmptyImage[SW][1]=./images/lnwr-aclass-lms_SW.0
+EmptyImage[W][1]=./images/lnwr-aclass-lms_W.0
+EmptyImage[NW][1]=./images/lnwr-aclass-lms_NW.0
+EmptyImage[N][1]=./images/lnwr-aclass-lms_N.0
+EmptyImage[NE][1]=./images/lnwr-aclass-lms_NE.0
