@@ -300,8 +300,8 @@ toolbar[0][18]=dialog_tool[5]
 toolbar[0][19]=-
 # sliced underground
 toolbar[0][20]=simple_tool[15],9,^U,K
-toolbar[0][21]=simple_tool[15],,(,I
-toolbar[0][22]=simple_tool[15],,),D
+toolbar[0][21]=simple_tool[15],,{,I
+toolbar[0][22]=simple_tool[15],,},D
 #
 toolbar[0][23]=simple_tool[2]
 toolbar[0][24]=simple_tool[0]
@@ -310,7 +310,7 @@ toolbar[0][26]=dialog_tool[0]
 # invisible tools (here because they need a parameter or are added twice)
 toolbar[0][27]=-
 toolbar[0][28]=simple_tool[16]
-toolbar[0][29]=simple_tool[7],,.,+1
+toolbar[0][29]=simple_tool[7],,.,+1	
 toolbar[0][30]=simple_tool[7],,#44,-1
 # since ST r2031: allow manual change of daylight
 toolbar[0][31]=simple_tool[19],,+,+

@@ -1,0 +1,56 @@
+obj=vehicle
+name=LNWR-Mansion-House-tank
+engine_type=steam
+smoke=Steam
+speed=85
+# Calculated from data from Ahrons, pp. 219-220
+# Loss factor set at 0.75
+# Half boiler pressure used to calculate power.
+power=574
+tractive_effort=50
+copyright=James&jamespetts
+intro_year=1880
+intro_month=5
+retire_year=1898
+retire_month=4
+waytype=track
+freight=None
+payload=0
+length=7
+
+# Weight taken from Ahrons p. 220
+weight=46
+cost=7800000
+runningcost=780
+sound=-1
+
+liverytype[0]=LNWR-Black
+liverytype[1]=LMS-Standard
+liverytype[2]=BR-Early
+
+EmptyImage[E][0]=./images/lnwr-mansion-house-tank_E.0
+EmptyImage[SE][0]=./images/lnwr-mansion-house-tank_SE.0
+EmptyImage[S][0]=./images/lnwr-mansion-house-tank_S.0
+EmptyImage[SW][0]=./images/lnwr-mansion-house-tank_SW.0
+EmptyImage[W][0]=./images/lnwr-mansion-house-tank_W.0
+EmptyImage[NW][0]=./images/lnwr-mansion-house-tank_NW.0
+EmptyImage[N][0]=./images/lnwr-mansion-house-tank_N.0
+EmptyImage[NE][0]=./images/lnwr-mansion-house-tank_NE.0
+
+EmptyImage[E][1]=./images/lnwr-mansion-house-tank-lms_E.0
+EmptyImage[SE][1]=./images/lnwr-mansion-house-tank-lms_SE.0
+EmptyImage[S][1]=./images/lnwr-mansion-house-tank-lms_S.0
+EmptyImage[SW][1]=./images/lnwr-mansion-house-tank-lms_SW.0
+EmptyImage[W][1]=./images/lnwr-mansion-house-tank-lms_W.0
+EmptyImage[NW][1]=./images/lnwr-mansion-house-tank-lms_NW.0
+EmptyImage[N][1]=./images/lnwr-mansion-house-tank-lms_N.0
+EmptyImage[NE][1]=./images/lnwr-mansion-house-tank-lms_NE.0
+
+EmptyImage[E][2]=./images/lnwr-mansion-house-tank-br_E.0
+EmptyImage[SE][2]=./images/lnwr-mansion-house-tank-br_SE.0
+EmptyImage[S][2]=./images/lnwr-mansion-house-tank-br_S.0
+EmptyImage[SW][2]=./images/lnwr-mansion-house-tank-br_SW.0
+EmptyImage[W][2]=./images/lnwr-mansion-house-tank-br_W.0
+EmptyImage[NW][2]=./images/lnwr-mansion-house-tank-br_NW.0
+EmptyImage[N][2]=./images/lnwr-mansion-house-tank-br_N.0
+EmptyImage[NE][2]=./images/lnwr-mansion-house-tank-br_NE.0

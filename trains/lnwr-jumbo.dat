@@ -3,7 +3,6 @@ name=LNWR-Jumbo(Black)
 engine_type=steam
 smoke=Steam
 speed=130
-#gear=360
 power=820
 tractive_effort=49
 copyright=James
@@ -29,12 +28,23 @@ years_before_maintenance_max_reached=25
 
 Constraint[Next][0]=LNWR-Jumbo-Tender(Black)
 
-EmptyImage[E]=./images/lnwr-jumbo.0.0
-EmptyImage[SE]=./images/lnwr-jumbo.0.1
-EmptyImage[S]=./images/lnwr-jumbo.0.2
-EmptyImage[SW]=./images/lnwr-jumbo.0.3
-EmptyImage[W]=./images/lnwr-jumbo.0.4
-EmptyImage[NW]=./images/lnwr-jumbo.0.5
-EmptyImage[N]=./images/lnwr-jumbo.0.6
-EmptyImage[NE]=./images/lnwr-jumbo.0.7
+liverytype[0]=LNWR-Black
+liverytype[1]=LMS-Standard
 
+EmptyImage[E][0]=./images/lnwr-jumbo.0.0
+EmptyImage[SE][0]=./images/lnwr-jumbo.0.1
+EmptyImage[S][0]=./images/lnwr-jumbo.0.2
+EmptyImage[SW][0]=./images/lnwr-jumbo.0.3
+EmptyImage[W][0]=./images/lnwr-jumbo.0.4
+EmptyImage[NW][0]=./images/lnwr-jumbo.0.5
+EmptyImage[N][0]=./images/lnwr-jumbo.0.6
+EmptyImage[NE][0]=./images/lnwr-jumbo.0.7
+
+EmptyImage[E][1]=./images/lnwr-jumbo-lms_E.0
+EmptyImage[SE][1]=./images/lnwr-jumbo-lms_SE.0
+EmptyImage[S][1]=./images/lnwr-jumbo-lms_S.0
+EmptyImage[SW][1]=./images/lnwr-jumbo-lms_SW.0
+EmptyImage[W][1]=./images/lnwr-jumbo-lms_W.0
+EmptyImage[NW][1]=./images/lnwr-jumbo-lms_NW.0
+EmptyImage[N][1]=./images/lnwr-jumbo-lms_N.0
+EmptyImage[NE][1]=./images/lnwr-jumbo-lms_NE.0

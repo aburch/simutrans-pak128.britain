@@ -3,8 +3,10 @@ name=LYR-Class25(Black)
 engine_type=steam
 smoke=Steam
 speed=75
-#gear=300
-power=430
+# Power and tractive effort calculated from http://orion.math.iastate.edu/jdhsmith/term/slgblyr.htm
+# Loss factor of 0.75 - half boiler pressure used to calculate power.
+power=670
+tractive_effort=70
 copyright=James
 intro_year=1876
 intro_month=7
@@ -15,9 +17,10 @@ freight=None
 payload=0
 length=5
 
-weight=42
-cost=4752000
-runningcost=462
+# Weight given at: http://orion.math.iastate.edu/jdhsmith/term/slgblyr.htm
+weight=39
+cost=6752000
+runningcost=755
 sound=-1
 increase_maintenance_after_years=30
 years_before_maintenance_max_reached=30

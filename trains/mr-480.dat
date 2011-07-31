@@ -2,12 +2,12 @@ obj=vehicle
 name=MR-480
 engine_type=steam
 smoke=Steam
-speed=65
+speed=70
 # Calculated from data from Ahrons, p. 158
 # Loss factor set at 0.75 
 # Half boiler pressure used to calculate power.
 tractive_effort=50
-power=440
+power=479
 copyright=Kieron&jamespetts
 intro_year=1863
 intro_month=12

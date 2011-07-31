@@ -2,17 +2,17 @@ obj=vehicle
 name=MR-700
 engine_type=steam
 smoke=Steam
-speed=65
+speed=75
 # Calculated from data from Ahrons, p. 202
 # Loss factor set at 0.75 
 # Half boiler pressure used to calculate power.
 tractive_effort=53
-power=468
+power=540
 copyright=Kieron&jamespetts
 intro_year=1869
 intro_month=4
-retire_year=1873
-retire_month=7
+retire_year=1878
+retire_month=2
 waytype=track
 freight=None
 payload=0

@@ -3,8 +3,8 @@ name=LNWR-Bloomer-Tender(Red)
 engine_type=steam
 speed=110
 copyright=James
-intro_year=1845
-intro_month=4
+intro_year=1849
+intro_month=10
 retire_year=1862
 retire_month=6
 waytype=track
@@ -19,8 +19,8 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LNWR-Bloomer(Red)
-Constraint[Prev][1]=LNWR-Crewe-type
-Constraint[Prev][2]=LNWR-Sharp-goods
+Constraint[Prev][1]=LNWR-Sharp-goods
+Constraint[Prev][2]=LNWR-crewe-type
 
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
@@ -34,12 +34,12 @@ EmptyImage[NW][0]=./images/lnwr-bloomer.1.5
 EmptyImage[N][0]=./images/lnwr-bloomer.1.6
 EmptyImage[NE][0]=./images/lnwr-bloomer.1.7
 
-EmptyImage[E][0]=./images/lnwr-bloomer-tender-black_E.0
-EmptyImage[SE][0]=./images/lnwr-bloomer-tender-black_SE.0
-EmptyImage[S]=[0]./images/lnwr-bloomer-tender-black_S.0
-EmptyImage[SW][0]=./images/lnwr-bloomer-tender-black_SW.0
-EmptyImage[W][0]=./images/lnwr-bloomer-tender-black_W.0
-EmptyImage[NW][0]=./images/lnwr-bloomer-tender-black_NW.0
-EmptyImage[N][0]=./images/lnwr-bloomer-tender-black_N.0
-EmptyImage[NE][0]=./images/lnwr-bloomer-tender-black_NE.0
+EmptyImage[E][1]=./images/lnwr-bloomer-tender-black_E.0
+EmptyImage[SE][1]=./images/lnwr-bloomer-tender-black_SE.0
+EmptyImage[S][1]=./images/lnwr-bloomer-tender-black_S.0
+EmptyImage[SW][1]=./images/lnwr-bloomer-tender-black_SW.0
+EmptyImage[W][1]=./images/lnwr-bloomer-tender-black_W.0
+EmptyImage[NW][1]=./images/lnwr-bloomer-tender-black_NW.0
+EmptyImage[N][1]=./images/lnwr-bloomer-tender-black_N.0
+EmptyImage[NE][1]=./images/lnwr-bloomer-tender-black_NE.0
 

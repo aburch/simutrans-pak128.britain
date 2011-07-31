@@ -3,7 +3,7 @@ name=LNWR-PrinceOfWales(Black)
 engine_type=steam
 smoke=Steam
 speed=130
-#gear=350
+# Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Prince_of_Wales_Class
 power=1500
 tractive_effort=97
 copyright=James
@@ -16,21 +16,33 @@ freight=None
 payload=0
 length=6
 
-weight=74
+# Weight from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Prince_of_Wales_Class
+weight=67
 cost=12700000
 runningcost=1584
 sound=-1
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=22
 
+liverytype[0]=LNWR-Black
+liverytype[1]=LMS-Standard
+
 Constraint[Next][0]=LNWR-PrinceOfWales-Tender(Black)
 
-EmptyImage[E]=./images/lnwr-PoW.0.0
-EmptyImage[SE]=./images/lnwr-PoW.0.1
-EmptyImage[S]=./images/lnwr-PoW.0.2
-EmptyImage[SW]=./images/lnwr-PoW.0.3
-EmptyImage[W]=./images/lnwr-PoW.0.4
-EmptyImage[NW]=./images/lnwr-PoW.0.5
-EmptyImage[N]=./images/lnwr-PoW.0.6
-EmptyImage[NE]=./images/lnwr-PoW.0.7
+EmptyImage[E][0]=./images/lnwr-PoW.0.0
+EmptyImage[SE][0]=./images/lnwr-PoW.0.1
+EmptyImage[S][0]=./images/lnwr-PoW.0.2
+EmptyImage[SW][0]=./images/lnwr-PoW.0.3
+EmptyImage[W][0]=./images/lnwr-PoW.0.4
+EmptyImage[NW][0]=./images/lnwr-PoW.0.5
+EmptyImage[N][0]=./images/lnwr-PoW.0.6
+EmptyImage[NE][0]=./images/lnwr-PoW.0.7
 
+EmptyImage[E][1]=./images/lnwr-pow-lms_E.0
+EmptyImage[SE][1]=./images/lnwr-pow-lms_SE.0
+EmptyImage[S][1]=./images/lnwr-pow-lms_S.0
+EmptyImage[SW][1]=./images/lnwr-pow-lms_SW.0
+EmptyImage[W][1]=./images/lnwr-pow-lms_W.0
+EmptyImage[NW][1]=./images/lnwr-pow-lms_NW.0
+EmptyImage[N][1]=./images/lnwr-pow-lms_N.0
+EmptyImage[NE][1]=./images/lnwr-pow-lms_NE.0

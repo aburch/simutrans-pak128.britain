@@ -43,9 +43,9 @@ capital_threshold_size = 25000
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 915
-growthfactor_cities = 625
-growthfactor_capitals = 375
+growthfactor_villages = 895
+growthfactor_cities = 600
+growthfactor_capitals = 350
 
 # These settings determine the proportion of passengers who travel to industries and
 # attractions respectively. 
