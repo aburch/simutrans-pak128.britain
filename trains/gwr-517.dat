@@ -2,9 +2,9 @@ obj=vehicle
 name=GWR-517Tank
 engine_type=steam
 smoke=Steam
-speed=80
-#gear=350
-power=295
+speed=70
+# Data from: http://en.wikipedia.org/wiki/GWR_517_Class
+power=280
 tractive_effort=56
 copyright=James
 intro_year=1868
@@ -43,9 +43,9 @@ obj=vehicle
 name=GWR-517Tank-AutoFitted
 engine_type=steam
 smoke=Steam
-speed=80
-#gear=350
-power=295
+speed=70
+# Data from: http://en.wikipedia.org/wiki/GWR_517_Class
+power=280
 tractive_effort=56
 copyright=James
 intro_year=1905

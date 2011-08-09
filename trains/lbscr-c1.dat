@@ -1,0 +1,52 @@
+obj=vehicle
+name=LBSCR-C1
+engine_type=steam
+smoke=Steam
+speed=75
+# Tractive effort taken from:
+# http://en.wikipedia.org/wiki/LB%26SCR_C1_class
+# Power calculated from data from: http://www.semgonline.com/steam/c1class_01.html 
+# (But reduced somewhat, as it is noted that these did not steam well: see the 
+# first link)
+power=642
+tractive_effort=82
+copyright=Kieron&jamespetts
+intro_year=1882
+intro_month=6
+retire_year=1887
+retire_month=6
+waytype=track
+freight=None
+payload=0
+length=6
+
+can_lead_from_rear=0
+bidirectional=1
+
+# Weight given here: http://www.semgonline.com/steam/c1class_01.html
+weight=40
+cost=2950000
+runningcost=314
+sound=-1
+
+Constraint[Next][0]=LBSCR-B1-Gladstone-Tender
+
+liverytype[0]=LBSCR-Stroudley
+
+EmptyImage[E][0]=./images/lbscr-c1_E.0
+EmptyImage[SE][0]=./images/lbscr-c1_SE.0
+EmptyImage[S][0]=./images/lbscr-c1_S.0
+EmptyImage[SW][0]=./images/lbscr-c1_SW.0
+EmptyImage[W][0]=./images/lbscr-c1_W.0
+EmptyImage[NW][0]=./images/lbscr-c1_NW.0
+EmptyImage[N][0]=./images/lbscr-c1_N.0
+EmptyImage[NE][0]=./images/lbscr-c1_NE.0
+
+EmptyImage[E][1]=./images/lbscr-c1-umber_E.0
+EmptyImage[SE][1]=./images/lbscr-c1-umber_SE.0
+EmptyImage[S][1]=./images/lbscr-c1-umber_S.0
+EmptyImage[SW][1]=./images/lbscr-c1-umber_SW.0
+EmptyImage[W][1]=./images/lbscr-c1-umber_W.0
+EmptyImage[NW][1]=./images/lbscr-c1-umber_NW.0
+EmptyImage[N][1]=./images/lbscr-c1-umber_N.0
+EmptyImage[NE][1]=./images/lbscr-c1-umber_NE.0

@@ -1,0 +1,42 @@
+obj=vehicle
+name=LBSCR-C
+engine_type=steam
+smoke=Steam
+speed=70
+# Tractive effort taken from:
+# http://en.wikipedia.org/wiki/LB%26SCR_C_class
+# Power calculated from data from Ahrons p. 203
+power=586
+tractive_effort=82
+copyright=Kieron&jamespetts
+intro_year=1871
+intro_month=6
+retire_year=1874
+retire_month=12
+waytype=track
+freight=None
+payload=0
+length=6
+
+can_lead_from_rear=0
+bidirectional=1
+
+# Weight given on Ahrons, p. 203
+weight=39
+cost=2950000
+runningcost=314
+sound=-1
+
+Constraint[Next][0]=LBSCR-B1-Gladstone-Tender
+
+liverytype[0]=LBSCR-Stroudley
+
+EmptyImage[E][0]=./images/lbscr-c_E.0
+EmptyImage[SE][0]=./images/lbscr-c_SE.0
+EmptyImage[S][0]=./images/lbscr-c_S.0
+EmptyImage[SW][0]=./images/lbscr-c_SW.0
+EmptyImage[W][0]=./images/lbscr-c_W.0
+EmptyImage[NW][0]=./images/lbscr-c_NW.0
+EmptyImage[N][0]=./images/lbscr-c_N.0
+EmptyImage[NE][0]=./images/lbscr-c_NE.0
+

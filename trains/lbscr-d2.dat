@@ -1,0 +1,54 @@
+obj=vehicle
+name=LBSCR-D2
+engine_type=steam
+smoke=Steam
+speed=100
+# Tractive effort taken from:
+# http://en.wikipedia.org/wiki/LB%26SCR_D2_class
+power=325
+tractive_effort=56
+copyright=Kieron&jamespetts
+intro_year=1876
+intro_month=4
+retire_year=1883
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=6
+
+can_lead_from_rear=0
+bidirectional=1
+increase_maintenance_after_years=40
+years_before_maintenance_max_reached=35
+
+# Weight taken from: 
+# http://en.wikipedia.org/wiki/LB%26SCR_D2_class
+weight=35
+cost=2850000
+runningcost=354
+sound=-1
+
+Constraint[Next][0]=LBSCR-B1-Gladstone-Tender
+
+liverytype[0]=LBSCR-Stroudley
+liverytype[1]=LBSCR-Marsh
+
+EmptyImage[E][0]=./images/lbscr-caen_E.0
+EmptyImage[SE][0]=./images/lbscr-caen_SE.0
+EmptyImage[S][0]=./images/lbscr-caen_S.0
+EmptyImage[SW][0]=./images/lbscr-caen_SW.0
+EmptyImage[W][0]=./images/lbscr-caen_W.0
+EmptyImage[NW][0]=./images/lbscr-caen_NW.0
+EmptyImage[N][0]=./images/lbscr-caen_N.0
+EmptyImage[NE][0]=./images/lbscr-caen_NE.0
+
+EmptyImage[E][1]=./images/lbscr-caen-umber_E.0
+EmptyImage[SE][1]=./images/lbscr-caen-umber_SE.0
+EmptyImage[S][1]=./images/lbscr-caen-umber_S.0
+EmptyImage[SW][1]=./images/lbscr-caen-umber_SW.0
+EmptyImage[W][1]=./images/lbscr-caen-umber_W.0
+EmptyImage[NW][1]=./images/lbscr-caen-umber_NW.0
+EmptyImage[N][1]=./images/lbscr-caen-umber_N.0
+EmptyImage[NE][1]=./images/lbscr-caen-umber_NE.0
+
