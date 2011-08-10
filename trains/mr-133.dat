@@ -2,11 +2,13 @@ obj=vehicle
 name=MR-133
 engine_type=steam
 smoke=Steam
-speed=110
+speed=100
 # Calculated from data from Ahrons, p. 113
 # Loss factor set at 0.7, assumed 100lbs boiler pressure. 
 # Half boiler pressure used to calculate power.
-power=304
+# (Power is 304 according to above figures, but not
+# enough to maintain speed, so increased to below).
+power=345
 tractive_effort=22
 copyright=James&jamespetts
 intro_year=1856
@@ -42,7 +44,7 @@ EmptyImage[NE][0]=./images/mr-133_NE.0
 obj=vehicle
 name=MR-133-tender
 engine_type=steam
-speed=110
+speed=100
 copyright=James&jamespetts
 intro_year=1856
 intro_month=3
