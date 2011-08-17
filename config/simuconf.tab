@@ -475,10 +475,36 @@ show_month = 4
 
 bits_per_month = 20
 
+# This setting determines whether passengers can reach their journies by walking
+# between stops en route. If this setting is false, passengers will walk from their
+# origin to the start station/stop and from the destination station/stop to their
+# destination, but will not walk between intermediate stops, even if the distance
+# between the intermediate stops is the same as or less than the distance between
+# their origin and the starting stop. If this setting is set to true then passengers
+# will walk between intermediate stops as well as from their origin to the first stop 
+# on their journey. However, with the setting enabled, there is no means of preventing
+# passengers from walking between two or more consecutive stops (for techincal reasons
+# relating to the need to have a simplified routing system to make the game run at an
+# acceptable speed), or from walking as the first or last stage in their journey, such
+# that their overall walking distance is higher than would be permissible for walking
+# from their origin to the first stop on their journey. This setting might also have
+# the incidental effects of allowing a stop to take passengers from an area not covered
+# by that stop's coverage radius, but covered by the radius of another stop (possibly
+# owned by a rival player) in the nearby vicinity, and of passengers walking instead
+# of using player transport in some cases.
+# 0 = false; 1 = true. Default: false.
+
+allow_routing_on_foot = 1
+
 ################################ Road Settings ###################################
 
 # (=1) drive on the left side of the road
 drive_left = 1
+
+# Draw the signals on the left.
+# (In Pak128.Britain, this must be set to 0 until the signals are re-drawn to suit
+# this setting).
+signals_on_left = 0
 
 # The below sections deal with the types of roads built automatically by the game,
 # both when the map starts and during the game (in the case of city roads). Different
