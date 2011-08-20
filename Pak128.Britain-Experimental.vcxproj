@@ -75,10 +75,16 @@
     <None Include="air\A318_BritishAirways.dat" />
     <None Include="air\A319_BritishAirways.dat" />
     <None Include="air\A319_EasyJet.dat" />
+    <None Include="air\A320_AerLingus_Cargo.dat" />
     <None Include="air\A320_ThomsonAirways.dat" />
     <None Include="air\A321_Monarch.dat" />
+    <None Include="air\ATR_42_300F_FedEx.dat" />
+    <None Include="air\ATR_42_320_BlueIslands.dat" />
+    <None Include="air\ATR_72_200_BritishAirways.dat" />
+    <None Include="air\ATR_72_200_FedEx_Post.dat" />
     <None Include="air\BAE_146_100_DanAirLondon.dat" />
     <None Include="air\BAE_146_300_JerseyEuropean.dat" />
+    <None Include="air\BAE_146_300_TNT_Post.dat" />
     <None Include="attractions\library.dat" />
     <None Include="attractions\little-park.dat" />
     <None Include="attractions\old_school.dat" />
@@ -127,7 +133,7 @@
     <None Include="bus\thornycroft-qc.dat" />
     <None Include="bus\thornycroft-stag.dat" />
     <None Include="citybuildings\1950s-offices.dat" />
-    <None Include="citybuildings\Building_Swan_inn.dat" />
+    <None Include="citybuildings\com-1850.dat" />
     <None Include="citybuildings\com-1920.dat" />
     <None Include="citycars\London-Taxi-Lanchester.dat" />
     <None Include="citycars\Volvo-240-Estate.dat" />

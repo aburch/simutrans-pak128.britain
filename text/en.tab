@@ -78,10 +78,38 @@ AirbusA318(BritishAirways)
 Airbus A318
 AirbusA320(Thomson)
 Airbus A320
-BAE 146_100 - Dan Air London
-BAE 146-100 (DanAir)
-BAE 146_300 - Jersey European
-BAE 146-300 (Jersey European)
+BAE146_300(JerseyEuropean)
+BAE 146 300 Series
+BAE146_100(DanAirLondon)
+BAE 146 100 Series
+BAE146_300QT(TNT)Post
+BAE 146 300 Series (post)
+BAE146_300QT(TNT)Piece
+BAE 146 300 Series (piece goods)
+BAE146_300QT(TNT)Cool
+BAE 146 300 Series (cooled goods)
+ATR_42_320(BlueIslands)
+ATR 42 320 Series
+ATR_42_300F(FedEx)Post
+ATR 42 300 Series (post)
+ATR_42_300F(FedEx)Piece
+ATR 42 300 Series (piece goods)
+ATR_42_300F(FedEx)Cool
+ATR 42 300 Series (cooled goods)
+ATR72_200(FedEx)Post
+ATR 72 200 Series (post)
+ATR72_200(FedEx)Piece
+ATR 72 200 Series (piece goods)
+ATR72_200(FedEx)Cool
+ATR 72 200 Series (cooled goods)
+Airbus320(AerLingus)Post
+Airbus A320 (post)
+Airbus320(AerLingus)Piece
+Airbus A320 (piece goods)
+Airbus320(AerLingus)Cool
+Airbus A320 (cooled goods)
+ATR72_200(BritishAirways)
+ATR 72 200 Series
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickViaduct
@@ -388,7 +416,7 @@ COM_KG_1980_00_16
 Shops & Offices
 COM_JEP_1920_00_16
 Company headquarters
-COM_A_Swan_Inn_10
+COM_A_1850_00_10
 Inn
 IND_JH_1960_00_02
 Sewerage Works
@@ -488,13 +516,13 @@ IND_A_1950_03_10
 Warehouse
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
-StoneChurch2
+StoneChurch
 Parish Church
 1980s-Small-Church
 Small Church
 1990s-Small-Library
 Library
-library
+OldLibrary
 Library
 Georgian_Mansion
 Georgian Mansion
@@ -518,7 +546,7 @@ NelsonColumn2
 Nelson's Column
 Fountain
 Fountain
-Old_brick_school
+OldBrickSchool
 School
 LittlePark1870_1
 Small Park

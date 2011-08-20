@@ -463,7 +463,7 @@ starting_year = 1825
 starting_month = 1
 
 # Should month be shown in date?
-#(0=no, 1=yes, 2>=show day in japan format=2, us format=3, german=4)
+# (0=no, 1=yes, 2>=show day in japan format=2, us format=3, german=4, japanese no season=5, us no season=6, german no season = 7, journey time equivalent = 8)
 # This is most useful, if you use longer months than the default length (see below)
 
 show_month = 4
