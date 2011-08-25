@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Mk2a-TSO
+name=BR-Mk2a-SO
 speed=160
 copyright=Kieron&Jamespetts
 intro_year=1964
@@ -8,7 +8,7 @@ retire_year=1975
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=64
+payload=48
 overcrowded_capacity=22
 length=11
 
@@ -23,7 +23,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 loading_time=6000
-comfort=105
+comfort=115
 
 Constraint[Next][0]=BR-Mk2a-RMB
 Constraint[Next][1]=BR-Mk2a-BSO

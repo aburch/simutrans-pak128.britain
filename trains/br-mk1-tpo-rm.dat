@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Mk1-TPO(RoyalMail)
+name=BR-Mk1-TPO
 speed=175
 copyright=Kieron/James
 intro_year=1959
@@ -23,20 +23,23 @@ catering_level=1
 loading_time=8500
 comfort=0
 
-Constraint[Next][0]=BR-Mk1-POS(RoyalMail)
-Constraint[Next][1]=BR-Mk1-TPO(RoyalMail)
-Constraint[Next][2]=BR-Mk1-BG(RoyalMail)
+Constraint[Next][0]=BR-Mk1-POS
+Constraint[Next][1]=BR-Mk1-TPO
+Constraint[Next][2]=BR-Mk1-BG
 
-Constraint[Prev][0]=BR-Mk1-POS(RoyalMail)
-Constraint[Prev][1]=BR-Mk1-TPO(RoyalMail)
-Constraint[Prev][2]=BR-Mk1-BG(RoyalMail)
+Constraint[Prev][0]=BR-Mk1-POS
+Constraint[Prev][1]=BR-Mk1-TPO
+Constraint[Prev][2]=BR-Mk1-BG
+Constraint[Prev][3]=none
 
-EmptyImage[E]=./images/br-mk1-tpo-rm.0
-EmptyImage[SE]=./images/br-mk1-tpo-rm.1
-EmptyImage[S]=./images/br-mk1-tpo-rm.2
-EmptyImage[SW]=./images/br-mk1-tpo-rm.3
-EmptyImage[W]=./images/br-mk1-tpo-rm.4
-EmptyImage[NW]=./images/br-mk1-tpo-rm.5
-EmptyImage[N]=./images/br-mk1-tpo-rm.6
-EmptyImage[NE]=./images/br-mk1-tpo-rm.7
+liverytype[0]=RM-Early
+
+EmptyImage[E][0]=./images/br-mk1-tpo-rm.0
+EmptyImage[SE][0]=./images/br-mk1-tpo-rm.1
+EmptyImage[S][0]=./images/br-mk1-tpo-rm.2
+EmptyImage[SW][0]=./images/br-mk1-tpo-rm.3
+EmptyImage[W][0]=./images/br-mk1-tpo-rm.4
+EmptyImage[NW][0]=./images/br-mk1-tpo-rm.5
+EmptyImage[N][0]=./images/br-mk1-tpo-rm.6
+EmptyImage[NE][0]=./images/br-mk1-tpo-rm.7
 

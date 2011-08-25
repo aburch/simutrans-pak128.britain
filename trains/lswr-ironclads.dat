@@ -21,7 +21,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 loading_time=4100
-comfort=96
+comfort=93
 
 Constraint[Prev][0]=SR-Maunsell-Third(Green)
 Constraint[Prev][1]=SR-Maunsell-Brake(Green)
@@ -96,7 +96,7 @@ bidirectional=1
 catering_level=3
 
 loading_time=4100
-comfort=96
+comfort=93
 
 Constraint[Prev][0]=SR-Maunsell-Third(Green)
 Constraint[Prev][1]=SR-Maunsell-Brake(Green)
@@ -171,7 +171,7 @@ bidirectional=1
 catering_level=2
 
 loading_time=4100
-comfort=96
+comfort=93
 
 Constraint[Prev][0]=SR-Maunsell-Third(Green)
 Constraint[Prev][1]=SR-Maunsell-Brake(Green)
@@ -245,7 +245,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 loading_time=4100
-comfort=96
+comfort=93
 
 Constraint[Next][0]=SR-Maunsell-Third(Green)
 Constraint[Next][1]=SR-Maunsell-Brake(Green)

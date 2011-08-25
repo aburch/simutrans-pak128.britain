@@ -2,17 +2,24 @@ obj=vehicle
 name=LNER-Gresley-Express-Coach(Teak)
 speed=175
 copyright=Kieron
+# NOTE: The graphics and comfort rating are for
+# the post-1932 version with no compartment side
+# doors (see Jenkinson p. 335). The earlier version
+# with compartment side doors will need new graphics
+# and a lower comfort value, as well as a lower
+# time value. See Jenkinson p. 315. The capacities
+# are the same.
 intro_year=1923
 intro_month=5
 retire_year=1951
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=64
-overcrowded_capacity=26
+payload=48
+overcrowded_capacity=20
 length=11
 
-weight=31
+weight=34
 cost=760000
 runningcost=38
 sound=-1
@@ -60,7 +67,7 @@ payload=24
 overcrowded_capacity=13
 length=11
 
-weight=31
+weight=43
 cost=980000
 runningcost=52
 sound=-1

@@ -21,7 +21,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 loading_time=4100
-comfort=97
+comfort=94
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.
@@ -32,7 +32,7 @@ Constraint[Prev][2]=SR-Maunsell-Dining(Green)
 Constraint[Prev][3]=SR-Maunsell-Parcels(Green)
 Constraint[Prev][4]=SR-Maunsell-Mail(Green)
 Constraint[Prev][5]=SR-Maunsell-TPO(Green)
-Constraint[Prev][6]=LSWR-Ironclad-Pantry
+Constraint[Prev]   [6]=LSWR-Ironclad-Pantry
 Constraint[Prev][7]=SR-Bulleid-Express-Coach(Green)
 Constraint[Prev][8]=SR-Bulleid-Express-Brake(Green)
 Constraint[Prev][9]=SR-Bulleid-Express-Dining(Green)
@@ -97,7 +97,7 @@ bidirectional=1
 catering_level=3
 
 loading_time=4100
-comfort=97
+comfort=94
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.

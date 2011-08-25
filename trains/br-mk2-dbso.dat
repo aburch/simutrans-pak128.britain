@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Mk2-DBSO(Intercity)
+name=BR-Mk2-DBSO
 speed=160
 copyright=Kieron/James
 intro_year=1973
@@ -23,10 +23,25 @@ bidirectional=0
 loading_time=9250
 comfort=130
 
-Constraint[Prev][0]=BR-Mk2-TO(Intercity)
-Constraint[Prev][1]=BR-Mk2-RFB(Intercity)
+Constraint[Prev][0]=BR-Mk2-TSO
+Constraint[Prev][1]=BR-Mk2-RMB
+Constraint[Prev][2]=BR-Mk1-BG
+Constraint[Prev][3]=BR-Mk1-SK
+Constraint[Prev][4]=BR-Mk1-TSO
+Constraint[Prev][5]=BR-Mk1-BSK
+Constraint[Prev][6]=BR-Mk1-BSO
+Constraint[Prev][7]=BR-Mk1-RB
+Constraint[Prev][8]=BR-Mk1-RMB
+Constraint[Prev][9]=BR-Mk2a-RMB
+Constraint[Prev][10]=BR-Mk2a-BSO
+Constraint[Prev][11]=BR-Mk2a-TSO
+Constraint[Prev][15]=BR-Mk2a-SO
+Constraint[Prev][13]=BR-Mk2-TSO
+Constraint[Prev][14]=none
 
 Constraint[Next][0]=none
+
+#TODO: We need a standard Mk2d BSO
 
 EmptyImage[E]=./images/br-mk2-dbso-ic.0
 EmptyImage[SE]=./images/br-mk2-dbso-ic.1

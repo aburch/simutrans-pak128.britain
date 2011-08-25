@@ -8,8 +8,8 @@ retire_year=1953
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=48
-overcrowded_capacity=19
+payload=32
+overcrowded_capacity=13
 length=11
 
 weight=34
@@ -22,7 +22,7 @@ bidirectional=1
 
 loading_time=4200
 # These are still "all door" types.
-comfort=98
+comfort=95
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.

@@ -1435,11 +1435,11 @@ LMR 4 Wheel TPO
 LMR-4Wheel-Mail
 LMR 4 Wheel Mail
 LNWR-1847-First
-LNWR 4 Wheel Carriage
+4-wheel 3 Compartment Carriage
 LNWR-1847-Brake
-LNWR 4 Wheel Carriage (brake)
+4 Compartment Brake
 LBSCR-4Wheel-First
-LBSCR 4 Wheel Carriage
+LBSCR 4 Wheel Compartment Carriage
 LBSCR-4Wheel-Brake
 LBSCR 4 Wheel Brake Carriage
 BR-370Restaurant(IC)
@@ -1492,12 +1492,10 @@ GWR-ParkRoyal-Railcar
 GWR Park Royal Railcar
 SR-Bulleid-Express-Brake(Green)
 SR Bulleid Express Carriage (brake)
-BR-Mk1-BC(Blue-Grey)
-BR Mk.1 Carriage (brake)
-BR-Mk1-BC(Crimson-Cream)
-BR Mk.1 Carriage (brake)
-BR-Mk1-BC(Maroon)
-BR Mk.1 Carriage (brake)
+BR-Mk1-BSO
+BR Mk.1 Open Brake
+BR-Mk1-BSK
+BR Mk.1 Gangwayed Corridor Brake
 BR-180Front(FGW)
 BR Class 180 "Adelante"
 BR-309Power(Blue-Grey)
@@ -1716,13 +1714,11 @@ GWR-Droplight-Dining(Mahogany)
 GWR Toplight corridor dining carriage
 LNER-Gresley-Express-Coach(Teak)
 LNER Teak Express Carriage
-BR-Mk1-TO(Blue-Grey)
-BR Mk. 1 Standard Open
-BR-Mk1-TO(Crimson-Cream)
-BR Mk. 1 Standard Open
-BR-Mk1-TO(Maroon)
-BR Mk. 1 Standard Open
-BR-Mk2-TO(Intercity)
+BR-Mk1-TSO
+BR Mk. 1 Tourist Open
+BR-Mk1-SK
+BR Mk. 1 Gangwayed Corridor
+BR-Mk2-TSO
 BR Mk. 2d Standard Open
 BR-Mk3-TO(Intercity)
 BR Mk. 3 Standard Open
@@ -1874,7 +1870,7 @@ BR-489[GLV](Intercity)
 BR Class 489 GLV
 BR-419[MLV](Blue-Grey)
 BR Class 419 MLV
-BR-Mk1-GUV(Rail-Blue)
+BR-Mk1-GUV
 Br Mk.1 GUV
 Autic-4_Car_Transporter(Front)
 Autic Car Transporter
@@ -2346,27 +2342,21 @@ LNER-Gresley-Express-Dining(Teak)
 LNER dining car (teak)
 SR-Bulleid-Express-Dining(Green)
 SR Bulleid dining car
-BR-Mk1-RMB(Crimson-Cream)
+BR-Mk1-RMB
 BR Mk. 1 Mini-Buffet
-BR-Mk1-RMB(Maroon)
-BR Mk. 1 Mini-Buffet
-BR-Mk1-RMB(Blue-Grey)
-BR Mk. 1 Mini-Buffet
-BR-Mk1-RB(Crimson-Cream)
+BR-Mk1-RB
 BR Mk. 1 Restaurant Buffet
-BR-Mk1-RB(Maroon)
-BR Mk. 1 Restaurant Buffet
-BR-Mk1-RBR(Blue-Grey)
-BR Mk. 1 Restaurant Buffet Refurbished
-BR-Mk2-RFB(Intercity)
+BR-Mk2-RMB
 BR Mk. 2d Mini-Buffet
-BR-Mk2-DBSO(Intercity)
-BR Mk. 2a Driving Brake Open
-BR-Mk2a-RMB(Blue-Grey)
+BR-Mk2-DBSO
+BR Mk. 2d Driving Brake Open
+BR-Mk2a-RMB
 BR Mk. 2a Mini-Buffet
-BR-Mk2a-TSO(Blue-Grey)
+BR-Mk2a-TSO
+BR Mk. 2a Tourist Open
+BR-Mk2a-SO
 BR Mk. 2a Standard Open
-BR-Mk2a-BSO(Blue-Grey)
+BR-Mk2a-BSO
 BR Mk. 2a Brake Open
 BR-Mk3-TRB(Intercity)
 BR Mk. 3 Buffet
@@ -2379,9 +2369,9 @@ BR Mk. 3a Restaurant Buffet
 BR-Mk4-RSB(Intercity)
 BR Mk. 4 Restaurant Buffet
 LSWR-Third-Brake
-LSWR Compartment Brake
+LSWR Bogie Compartment Brake
 LSWR-Third-Carriage
-LSWR Compartment Carriage
+LSWR Bogie Compartment Carriage
 LNWR-1847-Mail
 LNWR 4-wheel mail coach
 CC-Clerestory-Parcel-Brake
@@ -2424,7 +2414,7 @@ LNER-Gresley-Express-TPO(Teak)
 LNER Travelling Post Office
 SR-Maunsell-TPO(Green)
 SR Travelling Post Office
-BR-Mk1-TPO(RoyalMail)
+BR-Mk1-TPO
 BR Mk. 1 Travelling Post Office
 CC-Clerestory-Mail
 GWR clerestory mail van
@@ -2432,27 +2422,21 @@ Teak-Clerestory-Mail
 GNR Clerestory Mail Van (teak)
 MR-Clerestory-Mail
 MR Clerestory Mail van
-BR-Mk1-BG(Crimson-Cream)
-BR Mk. 1 Gangwayed Brake
-BR-Mk1-BG(RoyalMail)
-BR Mk. 1 Gangwayed Brake
-BR-Mk1-BG(Maroon)
-BR Mk. 1 Gangwayed Brake
-BR-Mk1-BG(Blue-Grey)
+BR-Mk1-BG
 BR Mk. 1 Gangwayed Brake
 BR-Mk1-Sub(Maroon)
-BR Mk. 1 Suburban compartment
+BR Mk. 1 Compartment Carriage
 BR-Mk1-Sub-Brake(Maroon)
-BR Mk. 1 Suburban compartment brake
+BR Mk. 1 Compartment Brake
 SR-Maunsell-Mail(Green)
 SR Maunsell Mail van
 GWR-Express-Mail
-GWR Express mail coach
+GWR Bow-ended Mail Coach
 LMS-Mail
-LMS mail coach
+LMS Standard mail coach
 LNER-Gresley-Express-Mail(Teak)
-LNER mail coach (teak)
-BR-Mk1-POS(RoyalMail)
+LNER mail coach
+BR-Mk1-POS
 BR Mk. 1 Mail coach
 MSJ&A-EMU-driving-trailer
 MSJ&A stock driving trailer
@@ -2579,11 +2563,11 @@ SR EMU augmentation trailer
 SR-augmentation-trailer(rear)
 SR EMU augmentation trailer
 LBSCR-bogie-sub
-LBSCR bogie suburban carriage
+LBSCR Bogie Compartment Carriage
 LBSCR-bogie-sub-brake-front
-LBSCR bogie suburban carriage (brake)
+LBSCR Bogie Compartment Brake
 LBSCR-bogie-sub-brake-rear
-LBSCR bogie suburban carriage (brake)
+LBSCR Bogie Compartment Brake
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer

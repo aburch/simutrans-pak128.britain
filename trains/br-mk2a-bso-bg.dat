@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Mk2a-BSO(Blue-Grey)
+name=BR-Mk2a-BSO
 speed=160
 copyright=Kieron&Jamespetts
 intro_year=1967
@@ -21,7 +21,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 loading_time=6000
-comfort=115
+comfort=105
 
 EmptyImage[E]=./images/br-mk2a-bso-bg.0
 EmptyImage[SE]=./images/br-mk2a-bso-bg.1

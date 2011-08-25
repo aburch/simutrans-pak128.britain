@@ -1,4 +1,7 @@
 # "High capacity" open third
+# The corridor carriages should
+# have the same comfort as the 
+# LNER carriages of the time.
 obj=vehicle
 name=LMS-d1904-Coach
 speed=160
@@ -22,7 +25,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 loading_time=7300
-comfort=110
+comfort=100
 
 Constraint[Next][0]=LMS-d1904-Coach
 Constraint[Next][1]=LMS-d2007-Parcel-Brake
@@ -72,7 +75,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 loading_time=7300
-comfort=110
+comfort=100
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.

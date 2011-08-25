@@ -1,5 +1,5 @@
-obj=vehicle
-name=BR-Mk1-BG(RoyalMail)
+#obj=vehicle
+name=BR-Mk1-BG
 speed=160
 copyright=Kieron/James
 intro_year=1959
@@ -23,8 +23,8 @@ bidirectional=1
 loading_time=6000
 comfort=0
 
-Constraint[Prev][0]=BR-Mk1-POS(RoyalMail)
-Constraint[Prev][1]=BR-Mk1-TPO(RoyalMail)
+Constraint[Prev][0]=BR-Mk1-POS
+Constraint[Prev][1]=BR-Mk1-TPO
 
 Constraint[Next][0]=none
 
