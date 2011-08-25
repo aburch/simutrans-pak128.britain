@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-Mk2a-TSO
 speed=160
 copyright=Kieron&Jamespetts
-intro_year=1964
+intro_year=1965
 intro_month=4
 retire_year=1975
 retire_month=1
@@ -12,6 +12,8 @@ payload=64
 overcrowded_capacity=22
 length=11
 
+# Mk. 2s should have a higher purchase but
+# lower running/overhaul cost than Mk. 1s.
 weight=31
 cost=420000
 upgrade_price=1500

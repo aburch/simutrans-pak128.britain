@@ -12,6 +12,8 @@ payload=64
 overcrowded_capacity=22
 length=11
 
+# Mk. 2s should have a higher purchase but
+# lower running/overhaul cost than Mk. 1s.
 weight=32
 cost=460000
 runningcost=23
