@@ -40,12 +40,8 @@ Constraint[Next][9]=BR-Mk2a-BSO
 Constraint[Next][10]=BR-Mk2a-TSO
 Constraint[Next][11]=BR-Mk2a-SO
 Constraint[Next][12]=BR-Mk2-TSO
-Constraint[Next][13]=BR-Mk2-RMB
+Constraint[Next][13]=BR-Mk2-RFB
 Constraint[Next][14]=none
-
-# Note: This shares graphics with the BSO, but the BSK had only
-# 4 compartments and a larger brake portion, so new graphics
-# would be better if possible.
 
 EmptyImage[E][0]=./images/br-mk1-bc-cc.0
 EmptyImage[SE][0]=./images/br-mk1-bc-cc.1

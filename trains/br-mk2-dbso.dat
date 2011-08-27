@@ -1,11 +1,11 @@
 obj=vehicle
 name=BR-Mk2-DBSO
-speed=160
+speed=177
 copyright=Kieron/James
-intro_year=1973
-intro_month=3
-retire_year=1977
-retire_month=7
+intro_year=1979
+intro_month=2
+retire_year=1989
+retire_month=10
 waytype=track
 freight=Passagiere
 payload=32
@@ -13,8 +13,10 @@ overcrowded_capacity=10
 length=11
 
 weight=32
-cost=460000
-runningcost=23
+cost=644000
+upgrade_price=202400
+available_only_as_upgrade=1
+runningcost=24
 sound=-1
 
 can_lead_from_rear=1
@@ -24,7 +26,7 @@ loading_time=9250
 comfort=130
 
 Constraint[Prev][0]=BR-Mk2-TSO
-Constraint[Prev][1]=BR-Mk2-RMB
+Constraint[Prev][1]=BR-Mk2-RFB
 Constraint[Prev][2]=BR-Mk1-BG
 Constraint[Prev][3]=BR-Mk1-SK
 Constraint[Prev][4]=BR-Mk1-TSO
@@ -37,18 +39,30 @@ Constraint[Prev][10]=BR-Mk2a-BSO
 Constraint[Prev][11]=BR-Mk2a-TSO
 Constraint[Prev][15]=BR-Mk2a-SO
 Constraint[Prev][13]=BR-Mk2-TSO
-Constraint[Prev][14]=none
+Constraint[Prev][14]=BR-Mk2-TSOT
+Constraint[Prev][15]=BR-Mk2-BSO
+Constraint[Prev][16]=none
 
 Constraint[Next][0]=none
 
-#TODO: We need a standard Mk2d BSO
+liverytype[0]=BR-Blue
+liverytype[1]=IC-Executive
 
-EmptyImage[E]=./images/br-mk2-dbso-ic.0
-EmptyImage[SE]=./images/br-mk2-dbso-ic.1
-EmptyImage[S]=./images/br-mk2-dbso-ic.2
-EmptyImage[SW]=./images/br-mk2-dbso-ic.3
-EmptyImage[W]=./images/br-mk2-dbso-ic.4
-EmptyImage[NW]=./images/br-mk2-dbso-ic.5
-EmptyImage[N]=./images/br-mk2-dbso-ic.6
-EmptyImage[NE]=./images/br-mk2-dbso-ic.7
+EmptyImage[E][0]=./images/br-mk2-dbso-bg_E.0
+EmptyImage[SE][0]=./images/br-mk2-dbso-bg_SE.0
+EmptyImage[S][0]=./images/br-mk2-dbso-bg_S.0
+EmptyImage[SW][0]=./images/br-mk2-dbso-bg_SW.0
+EmptyImage[W][0]=./images/br-mk2-dbso-bg_W.0
+EmptyImage[NW][0]=./images/br-mk2-dbso-bg_NW.0
+EmptyImage[N][0]=./images/br-mk2-dbso-bg_N.0
+EmptyImage[NE][0]=./images/br-mk2-dbso-bg_NE.0
+
+EmptyImage[E][1]=./images/br-mk2-dbso-ic.0
+EmptyImage[SE][1]=./images/br-mk2-dbso-ic.1
+EmptyImage[S][1]=./images/br-mk2-dbso-ic.2
+EmptyImage[SW][1]=./images/br-mk2-dbso-ic.3
+EmptyImage[W][1]=./images/br-mk2-dbso-ic.4
+EmptyImage[NW][1]=./images/br-mk2-dbso-ic.5
+EmptyImage[N][1]=./images/br-mk2-dbso-ic.6
+EmptyImage[NE][1]=./images/br-mk2-dbso-ic.7
 

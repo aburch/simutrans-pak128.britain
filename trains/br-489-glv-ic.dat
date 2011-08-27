@@ -23,7 +23,7 @@ sound=-1
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-Mk2-TSO
-Constraint[Prev][1]=BR-Mk2-RMB
+Constraint[Prev][1]=BR-Mk2-RFB
 Constraint[Prev][2]=BR-Mk3a-TO(Intercity)
 Constraint[Prev][3]=Mk3a-TRB(Intercity)
 
@@ -68,7 +68,7 @@ loading_time=6000
 comfort=0
 
 Constraint[Prev][0]=BR-Mk2-TSO
-Constraint[Prev][1]=BR-Mk2-RMB
+Constraint[Prev][1]=BR-Mk2-RFB
 Constraint[Prev][2]=BR-Mk3a-TO(Intercity)
 Constraint[Prev][3]=Mk3a-TRB(Intercity)
 Constraint[Prev][4]=BR-Mk3a-TRFB(Intercity)

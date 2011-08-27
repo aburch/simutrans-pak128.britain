@@ -1392,7 +1392,7 @@ BR-Class55(Green)
 BR Class 55 "Deltic"
 BR-Class71(Green)
 BR Class 71
-BR-Class73(Intercity)
+BR-Class73
 BR Class 73
 BR-Class81(Electric-Blue)
 BR Class 81
@@ -1491,9 +1491,9 @@ BR Class 221 "Super Voyager"
 GWR-ParkRoyal-Railcar
 GWR Park Royal Railcar
 SR-Bulleid-Express-Brake(Green)
-SR Bulleid Express Carriage (brake)
+SR Bulleid Brake Corridor
 BR-Mk1-BSO
-BR Mk.1 Open Brake
+BR Mk. 1 Brake Open
 BR-Mk1-BSK
 BR Mk.1 Gangwayed Corridor Brake
 BR-180Front(FGW)
@@ -1575,7 +1575,7 @@ BR Class 170 "Turbostar" DMU (middle)
 BR-170Rear(Scotrail)
 BR Class 170 "Turbostar" DMU (rear)
 SR-Bulleid-Express-Coach(Green)
-SR Bulleid Express Carriage
+SR Bulleid Gangwayed Corridor
 BR-180Middle(FGW)
 BR Class 180 "Adelante" (middle)
 BR-180Middle-Buffet(FGW)
@@ -2341,15 +2341,17 @@ GWR express dining car
 LNER-Gresley-Express-Dining(Teak)
 LNER dining car (teak)
 SR-Bulleid-Express-Dining(Green)
-SR Bulleid dining car
+SR Bulleid Dining Car
 BR-Mk1-RMB
 BR Mk. 1 Mini-Buffet
 BR-Mk1-RB
 BR Mk. 1 Restaurant Buffet
-BR-Mk2-RMB
+BR-Mk2-RFB
 BR Mk. 2D Mini-Buffet
 BR-Mk2-DBSO
 BR Mk. 2D Driving Brake Open
+BR-Mk2-BSO
+BR Mk. 2D Brake Open
 BR-Mk2a-RMB
 BR Mk. 2 Mini-Buffet
 BR-Mk2a-TSO
@@ -2358,6 +2360,8 @@ BR-Mk2a-SO
 BR Mk. 2 Standard Open
 BR-Mk2a-BSO
 BR Mk. 2 Brake Open
+BR-Mk2-TSOT
+BR Mk. 2D Micro-Buffet
 BR-Mk3-TRB(Intercity)
 BR Mk. 3 Buffet
 BR-Mk3a-TRB(Intercity)

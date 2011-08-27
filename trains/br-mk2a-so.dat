@@ -1,9 +1,9 @@
 obj=vehicle
 name=BR-Mk2a-SO
-speed=160
+speed=177
 copyright=Kieron&Jamespetts
-intro_year=1965
-intro_month=4
+intro_year=1964
+intro_month=11
 retire_year=1975
 retire_month=1
 waytype=track
@@ -40,14 +40,14 @@ Constraint[Next][9]=BR-Mk1-BSO
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-mk2a-tso-m_E.0
-EmptyImage[SE][0]=./images/br-mk2a-tso-m_SE.0
-EmptyImage[S][0]=./images/br-mk2a-tso-m_S.0
-EmptyImage[SW][0]=./images/br-mk2a-tso-m_SW.0
-EmptyImage[W][0]=./images/br-mk2a-tso-m_W.0
-EmptyImage[NW][0]=./images/br-mk2a-tso-m_NW.0
-EmptyImage[N][0]=./images/br-mk2a-tso-m_N.0
-EmptyImage[NE][0]=./images/br-mk2a-tso-m_NE.0
+EmptyImage[E][0]=./images/br-mk2-tso-m_E.0
+EmptyImage[SE][0]=./images/br-mk2-tso-m_SE.0
+EmptyImage[S][0]=./images/br-mk2-tso-m_S.0
+EmptyImage[SW][0]=./images/br-mk2-tso-m_SW.0
+EmptyImage[W][0]=./images/br-mk2-tso-m_W.0
+EmptyImage[NW][0]=./images/br-mk2-tso-m_NW.0
+EmptyImage[N][0]=./images/br-mk2-tso-m_N.0
+EmptyImage[NE][0]=./images/br-mk2-tso-m_NE.0
 
 EmptyImage[E][1]=./images/br-mk2a-tso_E.0
 EmptyImage[SE][1]=./images/br-mk2a-tso_SE.0

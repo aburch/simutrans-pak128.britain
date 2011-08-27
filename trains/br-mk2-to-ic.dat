@@ -1,6 +1,6 @@
 obj=vehicle
 name=BR-Mk2-TSO
-speed=160
+speed=177
 copyright=Kieron
 intro_year=1973
 intro_month=3
@@ -21,13 +21,14 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
+upgrade[0]=BR-Mk2-TSOT
 
 loading_time=9250
 comfort=130
 
 Constraint[Next][0]=BR-Mk2-TSO
 Constraint[Next][1]=BR-489[GLV](Intercity)
-Constraint[Next][2]=BR-Mk2-RMB
+Constraint[Next][2]=BR-Mk2-RFB
 Constraint[Next][3]=BR-Mk2-DBSO
 Constraint[Next][4]=BR-Mk1-BG
 Constraint[Next][5]=BR-Mk1-SK
@@ -41,14 +42,28 @@ Constraint[Next][12]=BR-Mk2a-BSO
 Constraint[Next][13]=BR-Mk2a-TSO
 Constraint[Next][14]=BR-Mk2a-SO
 Constraint[Next][15]=BR-Mk2-TSO
-Constraint[Next][16]=BR-Mk2-RMB
+Constraint[Next][16]=BR-Mk2-RFB
+Constraint[Next][17]=BR-Mk2-TSOT
+Constraint[Next][18]=BR-Mk2-BSO
 
-EmptyImage[E]=./images/br-mk2-tso-ic.0
-EmptyImage[SE]=./images/br-mk2-tso-ic.1
-EmptyImage[S]=./images/br-mk2-tso-ic.2
-EmptyImage[SW]=./images/br-mk2-tso-ic.3
-EmptyImage[W]=./images/br-mk2-tso-ic.4
-EmptyImage[NW]=./images/br-mk2-tso-ic.5
-EmptyImage[N]=./images/br-mk2-tso-ic.6
-EmptyImage[NE]=./images/br-mk2-tso-ic.7
+liverytype[0]=BR-Blue
+liverytype[1]=IC-Executive
+
+EmptyImage[E][0]=./images/br-mk2-tso-ic.0
+EmptyImage[SE][0]=./images/br-mk2-tso-ic.1
+EmptyImage[S][0]=./images/br-mk2-tso-ic.2
+EmptyImage[SW][0]=./images/br-mk2-tso-ic.3
+EmptyImage[W][0]=./images/br-mk2-tso-ic.4
+EmptyImage[NW][0]=./images/br-mk2-tso-ic.5
+EmptyImage[N][0]=./images/br-mk2-tso-ic.6
+EmptyImage[NE][0]=./images/br-mk2-tso-ic.7
+
+EmptyImage[E][1]=./images/br-mk2-tso-bg_E.0
+EmptyImage[SE][1]=./images/br-mk2-tso-bg_SE.0
+EmptyImage[S][1]=./images/br-mk2-tso-bg_S.0
+EmptyImage[SW][1]=./images/br-mk2-tso-bg_SW.0
+EmptyImage[W][1]=./images/br-mk2-tso-bg_W.0
+EmptyImage[NW][1]=./images/br-mk2-tso-bg_NW.0
+EmptyImage[N][1]=./images/br-mk2-tso-bg_N.0
+EmptyImage[NE][1]=./images/br-mk2-tso-bg_NE.0
 
