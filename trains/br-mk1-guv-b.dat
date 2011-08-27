@@ -4,8 +4,8 @@ speed=150
 copyright=Kieron
 intro_year=1956
 intro_month=1
-retire_year=2000
-retire_month=1
+retire_year=1960
+retire_month=12
 waytype=track
 freight=Post
 payload=60
@@ -24,12 +24,24 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/br-mk1-guv-b.0
-EmptyImage[SE]=./images/br-mk1-guv-b.1
-EmptyImage[S]=./images/br-mk1-guv-b.2
-EmptyImage[SW]=./images/br-mk1-guv-b.3
-EmptyImage[W]=./images/br-mk1-guv-b.4
-EmptyImage[NW]=./images/br-mk1-guv-b.5
-EmptyImage[N]=./images/br-mk1-guv-b.6
-EmptyImage[NE]=./images/br-mk1-guv-b.7
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/br-mk1-guv-m_E.0
+EmptyImage[SE][0]=./images/br-mk1-guv-m_SE.0
+EmptyImage[S][0]=./images/br-mk1-guv-m_S.0
+EmptyImage[SW][0]=./images/br-mk1-guv-m_SW.0
+EmptyImage[W][0]=./images/br-mk1-guv-m_W.0
+EmptyImage[NW][0]=./images/br-mk1-guv-m_NW.0
+EmptyImage[N][0]=./images/br-mk1-guv-m_N.0
+EmptyImage[NE][0]=./images/br-mk1-guv-m_NE.0
+
+EmptyImage[E][1]=./images/br-mk1-guv-b.0
+EmptyImage[SE][1]=./images/br-mk1-guv-b.1
+EmptyImage[S][1]=./images/br-mk1-guv-b.2
+EmptyImage[SW][1]=./images/br-mk1-guv-b.3
+EmptyImage[W][1]=./images/br-mk1-guv-b.4
+EmptyImage[NW][1]=./images/br-mk1-guv-b.5
+EmptyImage[N][1]=./images/br-mk1-guv-b.6
+EmptyImage[NE][1]=./images/br-mk1-guv-b.7
 

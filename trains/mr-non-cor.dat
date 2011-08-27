@@ -22,8 +22,8 @@ bidirectional=1
 loading_time=4000
 comfort=80
 
-Constraint[Next][0]=BR-Mk1-Sub-Brake(Maroon)
-Constraint[Next][1]=BR-Mk1-Sub(Maroon)
+Constraint[Next][0]=BR-Mk1-Sub-Brake
+Constraint[Next][1]=BR-Mk1-Sub
 Constraint[Next][2]=LMS-non-cor-lav
 Constraint[Next][3]=LMS-non-cor-non-lav
 Constraint[Next][4]=LMS-non-cor-brake-rear
@@ -31,8 +31,8 @@ Constraint[Next][5]=MR-non-cor-lav
 Constraint[Next][6]=MR-non-cor-non-lav
 Constraint[Next][7]=MR-non-cor-brake-rear
 
-Constraint[Prev][0]=BR-Mk1-Sub-Brake(Maroon)
-Constraint[Prev][1]=BR-Mk1-Sub(Maroon)
+Constraint[Prev][0]=BR-Mk1-Sub-Brake
+Constraint[Prev][1]=BR-Mk1-Sub
 Constraint[Prev][2]=LMS-non-cor-lav
 Constraint[Prev][3]=LMS-non-cor-non-lav
 Constraint[Prev][4]=LMS-non-cor-brake-front
@@ -75,8 +75,8 @@ bidirectional=1
 loading_time=4000
 comfort=74
 
-Constraint[Next][0]=BR-Mk1-Sub-Brake(Maroon)
-Constraint[Next][1]=BR-Mk1-Sub(Maroon)
+Constraint[Next][0]=BR-Mk1-Sub-Brake
+Constraint[Next][1]=BR-Mk1-Sub
 Constraint[Next][2]=LMS-non-cor-lav
 Constraint[Next][3]=LMS-non-cor-non-lav
 Constraint[Next][4]=LMS-non-cor-brake-rear
@@ -84,8 +84,8 @@ Constraint[Next][5]=MR-non-cor-lav
 Constraint[Next][6]=MR-non-cor-non-lav
 Constraint[Next][7]=MR-non-cor-brake-rear
 
-Constraint[Prev][0]=BR-Mk1-Sub-Brake(Maroon)
-Constraint[Prev][1]=BR-Mk1-Sub(Maroon)
+Constraint[Prev][0]=BR-Mk1-Sub-Brake
+Constraint[Prev][1]=BR-Mk1-Sub
 Constraint[Prev][2]=LMS-non-cor-lav
 Constraint[Prev][3]=LMS-non-cor-non-lav
 Constraint[Prev][4]=LMS-non-cor-brake-front
@@ -130,8 +130,8 @@ comfort=74
 upgrade[0]=MR-push-pull-front
 upgrade[1]=MR-push-pull-rear
 
-Constraint[Next][0]=BR-Mk1-Sub-Brake(Maroon)
-Constraint[Next][1]=BR-Mk1-Sub(Maroon)
+Constraint[Next][0]=BR-Mk1-Sub-Brake
+Constraint[Next][1]=BR-Mk1-Sub
 Constraint[Next][2]=LMS-non-cor-lav
 Constraint[Next][3]=LMS-non-cor-non-lav
 Constraint[Next][4]=LMS-non-cor-brake-rear
@@ -177,8 +177,8 @@ comfort=74
 upgrade[0]=MR-push-pull-front
 upgrade[1]=MR-push-pull-rear
 
-Constraint[Prev][0]=BR-Mk1-Sub-Brake(Maroon)
-Constraint[Prev][1]=BR-Mk1-Sub(Maroon)
+Constraint[Prev][0]=BR-Mk1-Sub-Brake
+Constraint[Prev][1]=BR-Mk1-Sub
 Constraint[Prev][2]=LMS-non-cor-lav
 Constraint[Prev][3]=LMS-non-cor-non-lav
 Constraint[Prev][4]=LMS-non-cor-brake-front

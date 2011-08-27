@@ -23,12 +23,24 @@ bidirectional=1
 loading_time=6000
 comfort=110
 
-EmptyImage[E]=./images/br-mk2a-bso-bg.0
-EmptyImage[SE]=./images/br-mk2a-bso-bg.1
-EmptyImage[S]=./images/br-mk2a-bso-bg.2
-EmptyImage[SW]=./images/br-mk2a-bso-bg.3
-EmptyImage[W]=./images/br-mk2a-bso-bg.4
-EmptyImage[NW]=./images/br-mk2a-bso-bg.5
-EmptyImage[N]=./images/br-mk2a-bso-bg.6
-EmptyImage[NE]=./images/br-mk2a-bso-bg.7
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/br-mk2a-bso-m_E.0
+EmptyImage[SE][0]=./images/br-mk2a-bso-m_SE.0
+EmptyImage[S][0]=./images/br-mk2a-bso-m_S.0
+EmptyImage[SW][0]=./images/br-mk2a-bso-m_SW.0
+EmptyImage[W][0]=./images/br-mk2a-bso-m_W.0
+EmptyImage[NW][0]=./images/br-mk2a-bso-m_NW.0
+EmptyImage[N][0]=./images/br-mk2a-bso-m_N.0
+EmptyImage[NE][0]=./images/br-mk2a-bso-m_NE.0
+
+EmptyImage[E][1]=./images/br-mk2a-bso-bg_E.0
+EmptyImage[SE][1]=./images/br-mk2a-bso-bg_SE.0
+EmptyImage[S][1]=./images/br-mk2a-bso-bg_S.0
+EmptyImage[SW][1]=./images/br-mk2a-bso-bg_SW.0
+EmptyImage[W][1]=./images/br-mk2a-bso-bg_W.0
+EmptyImage[NW][1]=./images/br-mk2a-bso-bg_NW.0
+EmptyImage[N][1]=./images/br-mk2a-bso-bg_N.0
+EmptyImage[NE][1]=./images/br-mk2a-bso-bg_NE.0
 

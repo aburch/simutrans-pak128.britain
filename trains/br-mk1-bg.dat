@@ -47,6 +47,15 @@ liverytype[2]=BR-Blue
 liverytype[3]=RM-Early
 # We need more varients of the Royal Mail livery
 
+EmptyImage[E][0]=./images/br-mk1-bg-cc.0
+EmptyImage[SE][0]=./images/br-mk1-bg-cc.1
+EmptyImage[S][0]=./images/br-mk1-bg-cc.2
+EmptyImage[SW][0]=./images/br-mk1-bg-cc.3
+EmptyImage[W][0]=./images/br-mk1-bg-cc.4
+EmptyImage[NW][0]=./images/br-mk1-bg-cc.5
+EmptyImage[N][0]=./images/br-mk1-bg-cc.6
+EmptyImage[NE][0]=./images/br-mk1-bg-cc.7
+
 EmptyImage[E][1]=./images/br-mk1-bg-m.0
 EmptyImage[SE][1]=./images/br-mk1-bg-m.1
 EmptyImage[S][1]=./images/br-mk1-bg-m.2
