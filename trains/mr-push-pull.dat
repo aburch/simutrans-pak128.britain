@@ -23,13 +23,13 @@ bidirectional=0
 loading_time=4000
 comfort=74
 
-Constraint[Next][0]=MR-1632
-Constraint[Next][1]=LMS-0-4-4T
-Constraint[Next][2]=LMS-Fowler-3P-Tank-Push-Pull
-Constraint[Next][3]=BR-2MT-Tank(Black)-Push-Pull
-Constraint[Next][4]=LMS-3F-Jinty-Push-Pull
+Constraint[Prev][0]=MR-1632
+Constraint[Prev][1]=LMS-0-4-4T
+Constraint[Prev][2]=LMS-Fowler-3P-Tank-Push-Pull
+Constraint[Prev][3]=BR-2MT-Tank(Black)-Push-Pull
+Constraint[Prev][4]=LMS-3F-Jinty-Push-Pull
 
-Constraint[Prev][0]=none
+Constraint[Next][0]=MR-push-pull-rear
 
 EmptyImage[E]=./images/mr-push-pull.0.0
 EmptyImage[SE]=./images/mr-push-pull.0.1
@@ -74,6 +74,9 @@ Constraint[Prev][1]=LMS-0-4-4T
 Constraint[Prev][2]=LMS-Fowler-3P-Tank-Push-Pull
 Constraint[Prev][3]=BR-2MT-Tank(Black)-Push-Pull
 Constraint[Prev][4]=LMS-3F-Jinty-Push-Pull
+Constraint[Prev][5]=MR-push-pull-front
+
+Constraint[Next][0]=none
 
 EmptyImage[E]=./images/mr-push-pull.1.0
 EmptyImage[SE]=./images/mr-push-pull.1.1

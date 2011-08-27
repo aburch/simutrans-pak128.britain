@@ -820,3 +820,23 @@ intro_month[7][0] = 5
 livery[7][1] = IC-Swallow
 intro_year[7][1] = 1987
 intro_month[7][1] = 5
+
+livery_scheme[8] = LNER
+retire_year[8] = 1948
+retire_month[8] = 1
+livery[8][0] = LNER-Standard
+intro_year[8][0] = 1923
+intro_month[8][0] = 1
+livery[8][1] = LNER-Austerity
+intro_year[8][1] = 1940
+intro_month[8][1] = 3
+
+livery_scheme[9] = LNER-Coronoation
+retire_year[9] = 1948
+retire_month[9] = 1
+livery[9][0] = LNER-Silver
+intro_year[9][0] = 1935
+intro_month[9][0] = 2
+livery[9][1] = LNER-Garter-Blue
+intro_year[9][1] = 1937
+intro_month[9][1] = 10
