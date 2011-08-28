@@ -26,12 +26,12 @@ comfort=145
 Constraint[Next][0]=BR-Mk3-TO(Intercity)
 Constraint[Next][1]=BR-Mk3-TRB(Intercity)
 Constraint[Next][2]=BR-Mk3-TRFB(Intercity)
-Constraint[Next][3]=BR-Class43Rear(Intercity)
+Constraint[Next][3]=BR-Class43Rear
 
 Constraint[Prev][0]=BR-Mk3-TO(Intercity)
 Constraint[Prev][1]=BR-Mk3-TRB(Intercity)
 Constraint[Prev][2]=BR-Mk3-TRFB(Intercity)
-Constraint[Prev][3]=BR-Class43(Intercity)
+Constraint[Prev][3]=BR-Class43
 
 
 EmptyImage[E]=./images/br-mk3-tso-ic.0

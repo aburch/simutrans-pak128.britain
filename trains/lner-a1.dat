@@ -1,5 +1,5 @@
 obj=vehicle
-name=LNER-A1(Green)
+name=LNER-A1
 engine_type=steam
 smoke=Steam
 speed=160
@@ -23,15 +23,37 @@ sound=-1
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=15
 
-Constraint[Next][0]=LNER-A1-Tender(Green)
+Constraint[Next][0]=LNER-A1-Tender
 
-upgrade[0]=LNER-A3(Green)
+upgrade[0]=LNER-A3
 
-EmptyImage[E]=./images/lner-a3.0.0
-EmptyImage[SE]=./images/lner-a3.0.1
-EmptyImage[S]=./images/lner-a3.0.2
-EmptyImage[SW]=./images/lner-a3.0.3
-EmptyImage[W]=./images/lner-a3.0.4
-EmptyImage[NW]=./images/lner-a3.0.5
-EmptyImage[N]=./images/lner-a3.0.6
-EmptyImage[NE]=./images/lner-a3.0.7
+liverytype[0]=LNER-Standard
+liverytype[1]=WW2-Austerity
+liverytype[2]=BR-Early
+
+EmptyImage[E][0]=./images/lner-a3.0.0
+EmptyImage[SE][0]=./images/lner-a3.0.1
+EmptyImage[S][0]=./images/lner-a3.0.2
+EmptyImage[SW][0]=./images/lner-a3.0.3
+EmptyImage[W][0]=./images/lner-a3.0.4
+EmptyImage[NW][0]=./images/lner-a3.0.5
+EmptyImage[N][0]=./images/lner-a3.0.6
+EmptyImage[NE][0]=./images/lner-a3.0.7
+
+EmptyImage[E][1]=./images/lner-a3-black.0.0
+EmptyImage[SE][1]=./images/lner-a3-black.0.1
+EmptyImage[S][1]=./images/lner-a3-black.0.2
+EmptyImage[SW][1]=./images/lner-a3-black.0.3
+EmptyImage[W][1]=./images/lner-a3-black.0.4
+EmptyImage[NW][1]=./images/lner-a3-black.0.5
+EmptyImage[N][1]=./images/lner-a3-black.0.6
+EmptyImage[NE][1]=./images/lner-a3-black.0.7
+
+EmptyImage[E][2]=./images/lner-a3-brgreen.0.0
+EmptyImage[SE][2]=./images/lner-a3-brgreen.0.1
+EmptyImage[S][2]=./images/lner-a3-brgreen.0.2
+EmptyImage[SW][2]=./images/lner-a3-brgreen.0.3
+EmptyImage[W][2]=./images/lner-a3-brgreen.0.4
+EmptyImage[NW][2]=./images/lner-a3-brgreen.0.5
+EmptyImage[N][2]=./images/lner-a3-brgreen.0.6
+EmptyImage[NE][2]=./images/lner-a3-brgreen.0.7

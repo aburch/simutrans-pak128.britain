@@ -21,7 +21,7 @@ bidirectional=1
 loading_time=9000
 comfort=126
 
-Constraint[Prev][0]=LNER-A4-Tender(Blue)
+Constraint[Prev][0]=LNER-A4-Tender
 
 Constraint[Next][0]=LNER-Coronation-Brake-Third-Twin(rear)
 
@@ -95,7 +95,7 @@ bidirectional=1
 loading_time=9000
 comfort=126
 
-Constraint[Prev][0]=LNER-A4-Tender(Blue)
+Constraint[Prev][0]=LNER-A4-Tender
 
 Constraint[Next][0]=LNER-Coronation-Brake-Third-Triple(middle)
 

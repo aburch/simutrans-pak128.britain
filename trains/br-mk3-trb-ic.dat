@@ -25,7 +25,7 @@ loading_time=9250
 comfort=145
 
 Constraint[Next][0]=BR-Mk3-TO(Intercity)
-Constraint[Next][1]=BR-Class43Rear(Intercity)
+Constraint[Next][1]=BR-Class43Rear
 
 Constraint[Prev][0]=BR-Mk3-TO(Intercity)
 Constraint[Prev][1]=BR-Class43Front(Intercity)
@@ -108,7 +108,7 @@ loading_time=9250
 comfort=145
 
 Constraint[Next][0]=BR-Mk3-TO(Intercity)
-Constraint[Next][1]=BR-Class43Rear(Intercity)
+Constraint[Next][1]=BR-Class43Rear
 
 Constraint[Prev][0]=BR-Mk3-TO(Intercity)
 Constraint[Prev][1]=BR-Class43Front(Intercity)

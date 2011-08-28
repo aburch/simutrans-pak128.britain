@@ -1,5 +1,5 @@
 obj=vehicle
-name=LNER-Gresley-Express-Brake(Teak)
+name=LNER-Gresley-Express-Brake
 speed=175
 copyright=Kieron
 # NOTE: The graphics and comfort rating are for
@@ -29,12 +29,33 @@ bidirectional=1
 loading_time=7200
 comfort=117
 
-EmptyImage[E]=./images/lner-gresley-express-brake.0
-EmptyImage[SE]=./images/lner-gresley-express-brake.1
-EmptyImage[S]=./images/lner-gresley-express-brake.2
-EmptyImage[SW]=./images/lner-gresley-express-brake.3
-EmptyImage[W]=./images/lner-gresley-express-brake.4
-EmptyImage[NW]=./images/lner-gresley-express-brake.5
-EmptyImage[N]=./images/lner-gresley-express-brake.6
-EmptyImage[NE]=./images/lner-gresley-express-brake.7
+liverytype[0]=LNER-Standard
+liverytype[1]=BR-Early
+liverytype[2]=BR-Revised
 
+EmptyImage[E][0]=./images/lner-gresley-express-brake.0
+EmptyImage[SE][0]=./images/lner-gresley-express-brake.1
+EmptyImage[S][0]=./images/lner-gresley-express-brake.2
+EmptyImage[SW][0]=./images/lner-gresley-express-brake.3
+EmptyImage[W][0]=./images/lner-gresley-express-brake.4
+EmptyImage[NW][0]=./images/lner-gresley-express-brake.5
+EmptyImage[N][0]=./images/lner-gresley-express-brake.6
+EmptyImage[NE][0]=./images/lner-gresley-express-brake.7
+
+EmptyImage[E][1]=./images/lner-gresley-express-coach-cc.1.0
+EmptyImage[SE][1]=./images/lner-gresley-express-coach-cc.1.1
+EmptyImage[S][1]=./images/lner-gresley-express-coach-cc.1.2
+EmptyImage[SW][1]=./images/lner-gresley-express-coach-cc.1.3
+EmptyImage[W][1]=./images/lner-gresley-express-coach-cc.1.4
+EmptyImage[NW][1]=./images/lner-gresley-express-coach-cc.1.5
+EmptyImage[N][1]=./images/lner-gresley-express-coach-cc.1.6
+EmptyImage[NE][1]=./images/lner-gresley-express-coach-cc.1.7
+
+EmptyImage[E][2]=./images/lner-gresley-express-coach-m.1.0
+EmptyImage[SE][2]=./images/lner-gresley-express-coach-m.1.1
+EmptyImage[S][2]=./images/lner-gresley-express-coach-m.1.2
+EmptyImage[SW][2]=./images/lner-gresley-express-coach-m.1.3
+EmptyImage[W][2]=./images/lner-gresley-express-coach-m.1.4
+EmptyImage[NW][2]=./images/lner-gresley-express-coach-m.1.5
+EmptyImage[N][2]=./images/lner-gresley-express-coach-m.1.6
+EmptyImage[NE][2]=./images/lner-gresley-express-coach-m.1.7
