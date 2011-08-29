@@ -31,9 +31,9 @@ bidirectional=0
 
 Constraint[Prev][0]=none
 
-Constraint[Next][0]=BR-Mk3-TO(Intercity)
-Constraint[Next][1]=BR-Mk3-TRB(Intercity)
-Constraint[Next][2]=BR-Mk3-TRFB(Intercity)
+Constraint[Next][0]=BR-Mk3-TSO
+Constraint[Next][1]=BR-Mk3-TRB
+Constraint[Next][2]=BR-Mk3-TRFB
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive

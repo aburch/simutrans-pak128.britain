@@ -113,7 +113,7 @@ max_longdistance_tolerance = 4320
 # the convoy's maximum speed. 
 #
 # All distances in these settings are measured in kilometres and calibrated using the
-# distance_per_tile setting.
+# meters_per_tile setting.
 #
 # min_bonus_max_distance is the distance below which the speed bonus (or penalty) does not
 # apply. Below this distance, goods pay the same no matter what the average speed.
@@ -144,14 +144,17 @@ median_bonus_distance = 100
 max_bonus_min_distance = 300
 max_bonus_multiplier_percent = 300
 
-# distance_per_tile represents the length of each tile in tens of meters. So, at a setting of 1, 
-# each tile would represent 10 meters. At a setting of 100, each tile would repreesnt 1 kilometre. 
-# The default is 25. (In earlier versions, the default was 30). 
+# meters_per_tile represents the length of each tile in meters. 
+# The default is 250.
 #
 # This setting is used for calculating journey times, revenues, maintenance costs, comfort and
-# catering values. In previous versions, it was known as the "journey_time_multiplier_percent".
+# catering values.
+#
+# Note that, in versions of Simutrans-Experimental before 10.0, the setting "distance_per_tile"
+# was used instead. That setting was calculated in tens of meters. If "distance_per_tile" is
+# specified in simuconf.tab, it will be converted to meters_per_tile by the game.
 
-distance_per_tile = 25
+meters_per_tile = 250
 
 # These next settings affect the interaction between comfort and revenue in Simutrans. Comfort only
 # affects passenger traffic, for obvious reasons. Passengers have a certain level of comfort that
@@ -299,8 +302,15 @@ congestion_density_factor = 15
 
 passenger_max_wait = 19440
 
+# This is the minimum time in minutes that passengers or goods may wait at an airport.
+# This simulates the need for check-in, security checks, etc., that makes travelling by
+# air a slower process at the boarding stage than transport by other means such as road
+# or rail. Setting this to 0 will make air transport behave like any other transport.
+
+min_wait_airport = 30
+
 # If this setting is set to 1, halts will have different capacities for each type of goods.
-seperate_halt_capacities=1
+seperate_halt_capacities = 1
 
 # This setting determines the extent to which cities should be built far away from
 # other cities when the map is first generated. The higher the number, the further
@@ -828,15 +838,15 @@ livery[8][0] = LNER-Standard
 intro_year[8][0] = 1923
 intro_month[8][0] = 1
 
-livery_scheme[9] = LNER-Coronoation
+livery_scheme[9] = LNER-Streamliner
 retire_year[9] = 1948
 retire_month[9] = 1
-livery[9][0] = LNER-Silver
+livery[9][0] = LNER-Silver-Jubilee
 intro_year[9][0] = 1935
-intro_month[9][0] = 2
-livery[9][1] = LNER-Garter-Blue
+intro_month[9][0] = 3
+livery[9][1] = LNER-Cornoation
 intro_year[9][1] = 1937
-intro_month[9][1] = 10
+intro_month[9][1] = 7
 
 livery_scheme[10] = GW-Franchise
 retire_year[10] = 2500

@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Mk3-TO(Intercity)
+name=BR-Mk3-TSO
 speed=200
 copyright=Kieron
 intro_year=1976
@@ -23,28 +23,41 @@ bidirectional=1
 loading_time=9250
 comfort=145
 
-Constraint[Next][0]=BR-Mk3-TO(Intercity)
-Constraint[Next][1]=BR-Mk3-TRB(Intercity)
-Constraint[Next][2]=BR-Mk3-TRFB(Intercity)
+Constraint[Next][0]=BR-Mk3-TSO
+Constraint[Next][1]=BR-Mk3-TRB
+Constraint[Next][2]=BR-Mk3-TRFB
 Constraint[Next][3]=BR-Class43Rear
 
-Constraint[Prev][0]=BR-Mk3-TO(Intercity)
-Constraint[Prev][1]=BR-Mk3-TRB(Intercity)
-Constraint[Prev][2]=BR-Mk3-TRFB(Intercity)
+Constraint[Prev][0]=BR-Mk3-TSO
+Constraint[Prev][1]=BR-Mk3-TRB
+Constraint[Prev][2]=BR-Mk3-TRFB
 Constraint[Prev][3]=BR-Class43
 
+liverytype[0]=BR-Blue
+liverytype[1]=IC-Executive
 
-EmptyImage[E]=./images/br-mk3-tso-ic.0
-EmptyImage[SE]=./images/br-mk3-tso-ic.1
-EmptyImage[S]=./images/br-mk3-tso-ic.2
-EmptyImage[SW]=./images/br-mk3-tso-ic.3
-EmptyImage[W]=./images/br-mk3-tso-ic.4
-EmptyImage[NW]=./images/br-mk3-tso-ic.5
-EmptyImage[N]=./images/br-mk3-tso-ic.6
-EmptyImage[NE]=./images/br-mk3-tso-ic.7
+EmptyImage[E][0]=./images/br-mk3-bg.0.0
+EmptyImage[SE][0]=./images/br-mk3-bg.0.1
+EmptyImage[S][0]=./images/br-mk3-bg.0.2
+EmptyImage[SW][0]=./images/br-mk3-bg.0.3
+EmptyImage[W][0]=./images/br-mk3-bg.0.4
+EmptyImage[NW][0]=./images/br-mk3-bg.0.5
+EmptyImage[N][0]=./images/br-mk3-bg.0.6
+EmptyImage[NE][0]=./images/br-mk3-bg.0.7
+
+EmptyImage[E][1]=./images/br-mk3-tso-ic.0
+EmptyImage[SE][1]=./images/br-mk3-tso-ic.1
+EmptyImage[S][1]=./images/br-mk3-tso-ic.2
+EmptyImage[SW][1]=./images/br-mk3-tso-ic.3
+EmptyImage[W][1]=./images/br-mk3-tso-ic.4
+EmptyImage[NW][1]=./images/br-mk3-tso-ic.5
+EmptyImage[N][1]=./images/br-mk3-tso-ic.6
+EmptyImage[NE][1]=./images/br-mk3-tso-ic.7
+
 -----------------------------------------------
+
 obj=vehicle
-name=BR-Mk3a-TO(Intercity)
+name=BR-Mk3a-TSO
 speed=200
 copyright=Kieron
 intro_year=1975
@@ -69,18 +82,29 @@ loading_time=9250
 comfort=145
 
 
-Constraint[Next][0]=BR-Mk3a-TO(Intercity)
-Constraint[Next][1]=BR-Mk3-DVT(Intercity)
-Constraint[Next][2]=BR-Mk3a-TRB(Intercity)
-Constraint[Next][3]=BR-Mk3a-TRFB(Intercity)
+Constraint[Next][0]=BR-Mk3a-TSO
+Constraint[Next][1]=BR-Mk3-DVT
+Constraint[Next][2]=BR-Mk3a-TRB
+Constraint[Next][3]=BR-Mk3a-TRFB
 Constraint[Next][4]=None
 
+liverytype[0]=BR-Blue
+liverytype[1]=IC-Executive
 
-EmptyImage[E]=./images/br-mk3-tso-ic.0
-EmptyImage[SE]=./images/br-mk3-tso-ic.1
-EmptyImage[S]=./images/br-mk3-tso-ic.2
-EmptyImage[SW]=./images/br-mk3-tso-ic.3
-EmptyImage[W]=./images/br-mk3-tso-ic.4
-EmptyImage[NW]=./images/br-mk3-tso-ic.5
-EmptyImage[N]=./images/br-mk3-tso-ic.6
-EmptyImage[NE]=./images/br-mk3-tso-ic.7
+EmptyImage[E][0]=./images/br-mk3-bg.0.0
+EmptyImage[SE][0]=./images/br-mk3-bg.0.1
+EmptyImage[S][0]=./images/br-mk3-bg.0.2
+EmptyImage[SW][0]=./images/br-mk3-bg.0.3
+EmptyImage[W][0]=./images/br-mk3-bg.0.4
+EmptyImage[NW][0]=./images/br-mk3-bg.0.5
+EmptyImage[N][0]=./images/br-mk3-bg.0.6
+EmptyImage[NE][0]=./images/br-mk3-bg.0.7
+
+EmptyImage[E][1]=./images/br-mk3-tso-ic.0
+EmptyImage[SE][1]=./images/br-mk3-tso-ic.1
+EmptyImage[S][1]=./images/br-mk3-tso-ic.2
+EmptyImage[SW][1]=./images/br-mk3-tso-ic.3
+EmptyImage[W][1]=./images/br-mk3-tso-ic.4
+EmptyImage[NW][1]=./images/br-mk3-tso-ic.5
+EmptyImage[N][1]=./images/br-mk3-tso-ic.6
+EmptyImage[NE][1]=./images/br-mk3-tso-ic.7

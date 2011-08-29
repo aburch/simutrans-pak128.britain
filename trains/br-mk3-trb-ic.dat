@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Mk3-TRB(Intercity)
+name=BR-Mk3-TRB
 speed=200
 copyright=Kieron/James
 intro_year=1976
@@ -24,11 +24,11 @@ catering_level=3
 loading_time=9250
 comfort=145
 
-Constraint[Next][0]=BR-Mk3-TO(Intercity)
+Constraint[Next][0]=BR-Mk3-TSO
 Constraint[Next][1]=BR-Class43Rear
 
-Constraint[Prev][0]=BR-Mk3-TO(Intercity)
-Constraint[Prev][1]=BR-Class43Front(Intercity)
+Constraint[Prev][0]=BR-Mk3-TSO
+Constraint[Prev][1]=BR-Class43
 
 EmptyImage[E]=./images/br-mk3-trb-ic.0
 EmptyImage[SE]=./images/br-mk3-trb-ic.1
@@ -41,7 +41,7 @@ EmptyImage[NE]=./images/br-mk3-trb-ic.7
 -----------------------------
 
 obj=vehicle
-name=BR-Mk3a-TRB(Intercity)
+name=BR-Mk3a-TRB
 speed=200
 copyright=Kieron/James
 intro_year=1975
@@ -66,8 +66,8 @@ catering_level=3
 loading_time=9250
 comfort=145
 
-Constraint[Next][0]=BR-Mk3a-TO(Intercity)
-Constraint[Next][1]=BR-Mk3-DVT(Intercity)
+Constraint[Next][0]=BR-Mk3a-TSO
+Constraint[Next][1]=BR-Mk3-DVT
 Constraint[Next][2]=None
 
 EmptyImage[E]=./images/br-mk3-trb-ic.0
@@ -82,7 +82,7 @@ EmptyImage[NE]=./images/br-mk3-trb-ic.7
 ---
 
 obj=vehicle
-name=BR-Mk3-TRFB(Intercity)
+name=BR-Mk3-TRFB
 speed=200
 copyright=Kieron/James
 intro_year=1976
@@ -107,11 +107,11 @@ catering_level=4
 loading_time=9250
 comfort=145
 
-Constraint[Next][0]=BR-Mk3-TO(Intercity)
+Constraint[Next][0]=BR-Mk3-TSO
 Constraint[Next][1]=BR-Class43Rear
 
-Constraint[Prev][0]=BR-Mk3-TO(Intercity)
-Constraint[Prev][1]=BR-Class43Front(Intercity)
+Constraint[Prev][0]=BR-Mk3-TSO
+Constraint[Prev][1]=BR-Class43
 
 EmptyImage[E]=./images/br-mk3-trfb-ic.0
 EmptyImage[SE]=./images/br-mk3-trfb-ic.1
@@ -125,7 +125,7 @@ EmptyImage[NE]=./images/br-mk3-trfb-ic.7
 ---
 
 obj=vehicle
-name=BR-Mk3a-TRFB(Intercity)
+name=BR-Mk3a-TRFB
 speed=200
 copyright=Kieron/James
 intro_year=1975
@@ -150,8 +150,8 @@ catering_level=4
 loading_time=9250
 comfort=145
 
-Constraint[Next][0]=BR-Mk3a-TO(Intercity)
-Constraint[Next][1]=BR-Mk3a-DVT(Intercity)
+Constraint[Next][0]=BR-Mk3a-TSO
+Constraint[Next][1]=BR-Mk3-DVT
 Constraint[Next][2]=None
 
 EmptyImage[E]=./images/br-mk3-trfb-ic.0

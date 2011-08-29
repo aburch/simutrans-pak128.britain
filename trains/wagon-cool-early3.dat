@@ -1,7 +1,7 @@
 obj=vehicle
 name=CoolEarly3
 #?
-speed=30
+speed=40
 copyright=James
 intro_year=1835
 intro_month=4
@@ -29,7 +29,6 @@ EmptyImage[W]=./images/wagon-piece-early3.4
 EmptyImage[NW]=./images/wagon-piece-early3.5
 EmptyImage[N]=./images/wagon-piece-early3.6
 EmptyImage[NE]=./images/wagon-piece-early3.7
-
 
 FreightImage[E]=./images/wagon-piece-early3.3.0
 FreightImage[SE]=./images/wagon-piece-early3.3.1
