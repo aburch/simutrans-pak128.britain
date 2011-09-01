@@ -223,3 +223,5 @@ HISTORY
 	ADD: Class 60 and class 24 locos (jamespetts)
 	ADD: Fast goods wagons (jamespetts)
 	ADD: ATR 42 planes (Milko)
+01/09/2011
+	ADD: Basic Narrowgauge

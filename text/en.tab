@@ -948,6 +948,8 @@ Signals
 Basic Signal
 Classic_Signals_right
 Basic Signal
+Classic_Signals_right_narrow
+Basic Signal
 Early_Signals_right
 Basic Signal
 Modern_Signals_right
@@ -955,6 +957,8 @@ Basic Signal
 preSignals
 Pre-signal
 Classic_preSignals_right
+Pre-signal
+Classic_preSignals_right_narrow
 Pre-signal
 Early_preSignals_right
 Pre-signal
@@ -964,6 +968,8 @@ LongSignals
 Long-block Signal
 Classic_LongSignals_right
 Long-block Signal
+Classic_LongSignals_right_narrow
+Long-block Signal
 Early_LongSignals_right
 Long-block Signal
 Modern_LongSignals_right
@@ -971,6 +977,8 @@ Long-block Signal
 ChooseSignals
 Platform Choose Signals
 Classic_ChooseSignals_right
+Platform Choose Signal
+Classic_ChooseSignals_right_narrow
 Platform Choose Signal
 Early_ChooseSignals_right
 Platform Choose Signal
@@ -3155,6 +3163,16 @@ Airbus320(AerLingus)Cool
 Airbus A320 (cooled goods)
 ATR72_200(BritishAirways)
 ATR 72 200 Series
+#______________________________________NarrowGaugeVehicle______________________________________
+#______________________________________NarrowGaugeVehicle______________________________________
+FRCoach(CC)
+FR Passenger Coach
+DoubleFairlie
+Double Fairlie 0-4-4-0
+Single-ShireNarrow
+Single Shire Horse
+Twin-ShireNarrow
+Double Shire Horse
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track
@@ -3163,6 +3181,8 @@ wrought_iron_improved_track
 Improved Wrought Iron Track
 wssr
 Wooden Sleeper Steel Rail Track
+wssrN
+Wooden Sleeper Steel Rail Track (narrow gauge)
 wssri
 Improved Wooden Sleeper Steel Rail Track
 cssr
@@ -3213,6 +3233,10 @@ BrickPlatformTrainStop
 Brick Platform
 BrickPlatformBuildingTrainStop
 Brick Platform with Building
+BrickPlatformTrainStopNarrow
+Brick Platform
+BrickPlatformBuildingTrainStopNarrow
+Brick Platform with Building
 BrickPlatformOverallTrainStop
 Brick Platform with Overroof
 ConcretePlatformTrainStop
@@ -3242,6 +3266,18 @@ Bulk Goods Loading Tower
 GoodsShedModern
 Goods Shed
 GoodsShedOld
+Goods Shed
+GoodsSidingNarrow
+Goods Siding
+GoodsSidingCraneNarrow
+Goods Siding with Crane
+BulkLoadingModernNarrow
+Bulk Goods Loading Tower
+BulkLoadingOldNarrow
+Bulk Goods Loading Tower
+GoodsShedModernNarrow
+Goods Shed
+GoodsShedOldNarrow
 Goods Shed
 ConcreteStationBuildingSmall
 Concrete Station Building

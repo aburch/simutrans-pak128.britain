@@ -72,6 +72,9 @@ build %OUTPUT%BritLU.pak ./london-underground/
 echo Build maglevs
 build %OUTPUT%BritMaglev.pak ./maglev/
 
+echo Build narrow gauge
+build %OUTPUT%BritNarrowGauge.pak ./narrowgauge/
+
 echo Build pedestrians
 build %OUTPUT%BritPedestrian.pak ./pedestrians/
 
