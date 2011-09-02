@@ -113,7 +113,10 @@ drive_left = 1
 
 # Type of initial intercity roads - must be available
 # as PAK file. Fallback (if PAK is not found) is "asphalt_road"
-intercity_road_type = cobblestone_road
+intercity_road[0]=dirt_road,1700,1824
+intercity_road[1]=macadam_road,1825,1902
+intercity_road[3]=tarmac_road,1903,1932
+intercity_road[4]=asphalt_road,1933,2050
 
 # Type of city roads - must be available as PAK file.
 # Fallback (and default) is "city_road"
