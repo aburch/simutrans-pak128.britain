@@ -15,6 +15,9 @@ cost=10000
 runningcost=2
 sound=-1
 
+can_lead_from_rear=0
+bidirectional=1
+
 EmptyImage[E]=./images/fr-coach.0
 EmptyImage[SE]=./images/fr-coach.1
 EmptyImage[S]=./images/fr-coach.2
