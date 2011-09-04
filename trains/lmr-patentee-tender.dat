@@ -18,7 +18,7 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LMR-Patentee
-
+Constraint[Prev][1]=LMR-Bird
 
 EmptyImage[E]=./images/lmr-patentee.1.0
 EmptyImage[SE]=./images/lmr-patentee.1.1

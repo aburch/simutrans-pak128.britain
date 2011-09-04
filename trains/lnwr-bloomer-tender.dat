@@ -18,6 +18,8 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LNWR-Bloomer(Red)
+Constraint[Prev][1]=LNWR-Sharp-goods
+Constraint[Prev][2]=LNWR-crewe-type
 
 EmptyImage[E]=./images/lnwr-bloomer.1.0
 EmptyImage[SE]=./images/lnwr-bloomer.1.1

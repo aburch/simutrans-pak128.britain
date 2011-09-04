@@ -18,6 +18,10 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=MR-Kirtley156(Maroon)
+Constraint[Prev][1]=MR-480
+Constraint[Prev][2]=MR-1738
+Constraint[Prev][3]=MR-700
+Constraint[Prev][4]=MR-1357
 
 EmptyImage[E]=./images/mr-kirtley156.1.0
 EmptyImage[SE]=./images/mr-kirtley156.1.1
