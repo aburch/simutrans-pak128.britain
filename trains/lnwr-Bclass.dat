@@ -1,0 +1,35 @@
+obj=vehicle
+name=LNWR-BClass
+engine_type=steam
+smoke=Steam
+speed=80
+# Tractive effort data unavailalbe: guessed from similar classes:
+# http://en.wikipedia.org/wiki/LNWR_G_Class
+power=1400
+gear=300
+copyright=James
+intro_year=1901
+intro_month=8
+retire_year=1912
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=7
+
+# Weight given by the LNWR Soceity: http://www.lnwrs.org.uk/GoodsLocos/Loco11.php
+weight=53
+cost=6456000
+runningcost=670
+sound=-1
+
+Constraint[Next][0]=LNWR-AClass-Tender(Black)
+
+EmptyImage[E]=./images/lnwr-Bclass.4
+EmptyImage[SE]=./images/lnwr-Bclass.5
+EmptyImage[S]=./images/lnwr-Bclass.6
+EmptyImage[SW]=./images/lnwr-Bclass.7
+EmptyImage[W]=./images/lnwr-Bclass.0
+EmptyImage[NW]=./images/lnwr-Bclass.1
+EmptyImage[N]=./images/lnwr-Bclass.2
+EmptyImage[NE]=./images/lnwr-Bclass.3

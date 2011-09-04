@@ -1,0 +1,72 @@
+obj=vehicle
+name=MR-133
+engine_type=steam
+smoke=Steam
+speed=100
+# Calculated from data from Ahrons, p. 113
+# Loss factor set at 0.7, assumed 100lbs boiler pressure. 
+# Half boiler pressure used to calculate power.
+# (Power is 304 according to above figures, but not
+# enough to maintain speed, so increased to below).
+power=345
+gear=300
+copyright=James&jamespetts
+intro_year=1856
+intro_month=3
+retire_year=1861
+retire_month=10
+waytype=track
+freight=None
+payload=0
+length=5
+
+# Weight taken from Ahrons, p. 113
+weight=29
+cost=7975000
+runningcost=915
+sound=-1
+
+Constraint[Next][0]=MR-133-tender
+
+EmptyImage[E]=./images/mr-133.0.4,4,2
+EmptyImage[SE]=./images/mr-133.0.5,0,2
+EmptyImage[S]=./images/mr-133.0.6,-4,2
+EmptyImage[SW]=./images/mr-133.0.7,-4,0
+EmptyImage[W]=./images/mr-133.0.0,-4,-2
+EmptyImage[NW]=./images/mr-133.0.1,0,-2
+EmptyImage[N]=./images/mr-133.0.2,4,-2
+EmptyImage[NE]=./images/mr-133.0.3,4,0
+
+---
+
+obj=vehicle
+name=MR-133-tender
+engine_type=steam
+speed=100
+copyright=James&jamespetts
+intro_year=1856
+intro_month=3
+retire_year=1861
+retire_month=10
+waytype=track
+freight=None
+payload=0
+length=3
+
+# Weight not given in Ahrons, but guessed from contemporaneous types
+weight=14
+cost=0
+runningcost=0
+sound=-1
+
+Constraint[Prev][0]=MR-133
+
+EmptyImage[E]=./images/mr-133.1.4,6,3
+EmptyImage[SE]=./images/mr-133.1.5,0,3
+EmptyImage[S]=./images/mr-133.1.6,-6,3
+EmptyImage[SW]=./images/mr-133.1.7,-6,0
+EmptyImage[W]=./images/mr-133.1.0,-6,-3
+EmptyImage[NW]=./images/mr-133.1.1,0,-3
+EmptyImage[N]=./images/mr-133.1.2,6,-3
+EmptyImage[NE]=./images/mr-133.1.3,6,0
+

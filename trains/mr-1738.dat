@@ -1,0 +1,38 @@
+obj=vehicle
+name=MR-1738
+engine_type=steam
+smoke=Steam
+speed=115
+# Calculated from data from Ahrons, p. 214
+# Loss factor set at 0.75
+# Half boiler pressure used to calculate power.
+power=750
+gear=300
+copyright=Kieron&jamespetts
+intro_year=1877
+intro_month=9
+retire_year=1892
+retire_month=12
+waytype=track
+freight=None
+payload=0
+length=7
+
+# Weight confirmed from Ahrons, p. 214
+weight=42
+cost=7012000
+runningcost=1325
+sound=-1
+
+
+Constraint[Next][0]=MR-Kirtley156Tender(Maroon)
+
+EmptyImage[E]=./images/mr-1738-class.4
+EmptyImage[SE]=./images/mr-1738-class.5
+EmptyImage[S]=./images/mr-1738-class.6
+EmptyImage[SW]=./images/mr-1738-class.7
+EmptyImage[W]=./images/mr-1738-class.0
+EmptyImage[NW]=./images/mr-1738-class.1
+EmptyImage[N]=./images/mr-1738-class.2
+EmptyImage[NE]=./images/mr-1738-class.3
+

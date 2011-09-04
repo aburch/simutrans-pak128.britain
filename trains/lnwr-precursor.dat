@@ -1,0 +1,35 @@
+obj=vehicle
+name=LNWR-Precursor
+engine_type=steam
+smoke=Steam
+speed=120
+# Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
+power=1100
+gear=300
+copyright=James&jamespetts
+intro_year=1904
+intro_month=3
+retire_year=1907
+retire_month=9
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Date from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
+weight=60
+cost=9900000
+runningcost=1402
+sound=-1
+
+Constraint[Next][0]=LNWR-PrinceOfWales-Tender(Black)
+
+EmptyImage[E]=./images/lnwr-precursor.4
+EmptyImage[SE]=./images/lnwr-precursor.5
+EmptyImage[S]=./images/lnwr-precursor.6
+EmptyImage[SW]=./images/lnwr-precursor.7
+EmptyImage[W]=./images/lnwr-precursor.0
+EmptyImage[NW]=./images/lnwr-precursor.1
+EmptyImage[N]=./images/lnwr-precursor.2
+EmptyImage[NE]=./images/lnwr-precursor.3
+

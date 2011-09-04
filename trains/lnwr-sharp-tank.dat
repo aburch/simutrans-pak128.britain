@@ -1,0 +1,34 @@
+obj=vehicle
+name=LNWR-sharp-tank
+engine_type=steam
+smoke=Steam
+speed=65
+# Calculated from data from Ahrons, p. 91
+# Loss factor set at 0.7, assumed 100lbs boiler pressure. 
+# Half boiler pressure used to calculate power.
+power=192
+gear=300
+copyright=James&jamespetts
+intro_year=1854
+intro_month=1
+retire_year=1858
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Weight not given in Ahrons, but taken from a similar type mentioned at p. 91.
+weight=20
+cost=7500000
+runningcost=800
+sound=-1
+
+EmptyImage[E]=./images/lnwr-sharp-tank.4
+EmptyImage[SE]=./images/lnwr-sharp-tank.5
+EmptyImage[S]=./images/lnwr-sharp-tank.6
+EmptyImage[SW]=./images/lnwr-sharp-tank.7
+EmptyImage[W]=./images/lnwr-sharp-tank.0
+EmptyImage[NW]=./images/lnwr-sharp-tank.1
+EmptyImage[N]=./images/lnwr-sharp-tank.2
+EmptyImage[NE]=./images/lnwr-sharp-tank.3

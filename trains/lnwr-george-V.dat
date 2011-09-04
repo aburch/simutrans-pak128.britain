@@ -1,0 +1,34 @@
+obj=vehicle
+name=LNWR-George-V
+engine_type=steam
+smoke=Steam
+speed=120
+# Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_George_the_Fifth_Class
+power=1250
+gear=300
+copyright=James&jamespetts
+intro_year=1910
+intro_month=5
+retire_year=1915
+retire_month=12
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Weight from Wikipedia: http://en.wikipedia.org/wiki/LNWR_George_the_Fifth_Class
+weight=61
+cost=10200000
+runningcost=1300
+sound=-1
+
+Constraint[Next][0]=LNWR-PrinceOfWales-Tender(Black)
+
+EmptyImage[E]=./images/lnwr-george-V.4
+EmptyImage[SE]=./images/lnwr-george-V.5
+EmptyImage[S]=./images/lnwr-george-V.6
+EmptyImage[SW]=./images/lnwr-george-V.7
+EmptyImage[W]=./images/lnwr-george-V.0
+EmptyImage[NW]=./images/lnwr-george-V.1
+EmptyImage[N]=./images/lnwr-george-V.2
+EmptyImage[NE]=./images/lnwr-george-V.3
