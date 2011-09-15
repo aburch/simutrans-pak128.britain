@@ -1,0 +1,38 @@
+obj=vehicle
+name=MR-1357
+engine_type=steam
+smoke=Steam
+speed=80
+# Calculated from data from Ahrons, p. 221
+# Loss factor set at 0.8 
+# Half boiler pressure used to calculate power.
+# Note: these were the first Midland engines to have steam brakes.
+gear=300
+power=705
+copyright=Kieron&jamespetts
+intro_year=1878
+intro_month=2
+retire_year=1891
+retire_month=6
+waytype=track
+freight=None
+payload=0
+length=7
+
+# Weight given by Ahrons, p. 221
+weight=38
+cost=7616000
+runningcost=995
+sound=-1
+
+Constraint[Next][0]=MR-Kirtley156Tender(Maroon)
+
+EmptyImage[E]=./images/mr-1357-class.4
+EmptyImage[SE]=./images/mr-1357-class.5
+EmptyImage[S]=./images/mr-1357-class.6
+EmptyImage[SW]=./images/mr-1357-class.7
+EmptyImage[W]=./images/mr-1357-class.0
+EmptyImage[NW]=./images/mr-1357-class.1
+EmptyImage[N]=./images/mr-1357-class.2
+EmptyImage[NE]=./images/mr-1357-class.3
+

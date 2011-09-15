@@ -4,11 +4,11 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=828
-power=22500
+power=24580
 #gear=1
 freight=Passagiere
 payload=132
-weight=70
+weight=49
 #length=8
 cost=40000000
 runningcost=4200
@@ -24,13 +24,13 @@ sound=aircraft-jet_stop.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/A319_BritishAirways.0.2
-EmptyImage[SE]=./images/A319_BritishAirways.0.1
-EmptyImage[S]=./images/A319_BritishAirways.0.0
-EmptyImage[SW]=./images/A319_BritishAirways.0.7
-EmptyImage[W]=./images/A319_BritishAirways.0.6
-EmptyImage[NW]=./images/A319_BritishAirways.0.5
-EmptyImage[N]=./images/A319_BritishAirways.0.4
-EmptyImage[NE]=./images/A319_BritishAirways.0.3
+EmptyImage[E]=images/A319_BritishAirways.0.2
+EmptyImage[SE]=images/A319_BritishAirways.0.1
+EmptyImage[S]=images/A319_BritishAirways.0.0
+EmptyImage[SW]=images/A319_BritishAirways.0.7
+EmptyImage[W]=images/A319_BritishAirways.0.6
+EmptyImage[NW]=images/A319_BritishAirways.0.5
+EmptyImage[N]=images/A319_BritishAirways.0.4
+EmptyImage[NE]=images/A319_BritishAirways.0.3
 
 -------------

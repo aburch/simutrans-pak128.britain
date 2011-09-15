@@ -18,6 +18,10 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LBSCR-B1-Gladstone
+Constraint[Prev][1]=LBSCR-C
+Constraint[Prev][2]=LBSCR-C1
+Constraint[Prev][3]=LBSCR-D2
+
 
 EmptyImage[E]=./images/lbscr-gladstone.1.0
 EmptyImage[SE]=./images/lbscr-gladstone.1.1

@@ -1,0 +1,33 @@
+obj=vehicle
+name=LNWR-coal-tank
+engine_type=steam
+smoke=Steam
+speed=70
+# http://en.wikipedia.org/wiki/LNWR_Webb_Coal_Tank
+power=360
+gear=300
+copyright=Kieron&jamespetts
+intro_year=1881
+intro_month=3
+retire_year=1896
+retire_month=3
+waytype=track
+freight=None
+payload=0
+length=6
+
+# http://en.wikipedia.org/wiki/LNWR_Webb_Coal_Tank
+weight=44
+cost=2000000
+runningcost=800
+sound=-1
+
+EmptyImage[E]=./images/lnwr-coal-tank.4
+EmptyImage[SE]=./images/lnwr-coal-tank.5
+EmptyImage[S]=./images/lnwr-coal-tank.6
+EmptyImage[SW]=./images/lnwr-coal-tank.7
+EmptyImage[W]=./images/lnwr-coal-tank.0
+EmptyImage[NW]=./images/lnwr-coal-tank.1
+EmptyImage[N]=./images/lnwr-coal-tank.2
+EmptyImage[NE]=./images/lnwr-coal-tank.3
+

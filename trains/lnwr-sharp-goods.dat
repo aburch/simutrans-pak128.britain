@@ -1,0 +1,37 @@
+obj=vehicle
+name=LNWR-Sharp-goods
+engine_type=steam
+smoke=Steam
+speed=50
+# Calculated from data from Ahrons, p. 81
+# Loss factor set at 0.7, assumed 100lbs boiler pressure. 
+# Half boiler pressure used to calculate power.
+power=312
+gear=300
+copyright=James&jamespetts
+intro_year=1849
+intro_month=10
+retire_year=1866
+retire_month=3
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Weight taken from Ahrons, p. 81
+weight=26
+cost=7725912
+runningcost=955
+sound=-1
+
+Constraint[Next][0]=LNWR-Bloomer-Tender(Red)
+
+EmptyImage[E]=./images/lnwr-sharp-goods.4
+EmptyImage[SE]=./images/lnwr-sharp-goods.5
+EmptyImage[S]=./images/lnwr-sharp-goods.6
+EmptyImage[SW]=./images/lnwr-sharp-goods.7
+EmptyImage[W]=./images/lnwr-sharp-goods.0
+EmptyImage[NW]=./images/lnwr-sharp-goods.1
+EmptyImage[N]=./images/lnwr-sharp-goods.2
+EmptyImage[NE]=./images/lnwr-sharp-goods.3
+

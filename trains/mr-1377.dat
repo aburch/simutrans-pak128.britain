@@ -1,0 +1,32 @@
+obj=vehicle
+name=MR-1377
+engine_type=steam
+smoke=Steam
+speed=75
+# Tractive effort from http://en.wikipedia.org/wiki/Midland_Railway_1377_Class
+power=300
+gear=300
+copyright=Kieron&jamespetts
+intro_year=1878
+intro_month=1
+retire_year=1899
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Weight confirmed by: http://en.wikipedia.org/wiki/Midland_Railway_1377_Class
+weight=40
+cost=1420000
+runningcost=187
+sound=-1
+
+EmptyImage[E]=./images/mr-1377-class.4
+EmptyImage[SE]=./images/mr-1377-class.5
+EmptyImage[S]=./images/mr-1377-class.6
+EmptyImage[SW]=./images/mr-1377-class.7
+EmptyImage[W]=./images/mr-1377-class.0
+EmptyImage[NW]=./images/mr-1377-class.1
+EmptyImage[N]=./images/mr-1377-class.2
+EmptyImage[NE]=./images/mr-1377-class.3

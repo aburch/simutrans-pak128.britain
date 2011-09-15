@@ -18,6 +18,8 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LNWR-AClass(Black)
+Constraint[Prev][1]=LNWR-BClass
+Constraint[Prev][2]=LNWR-G1Class
 
 EmptyImage[E]=./images/lnwr-Aclass.1.0
 EmptyImage[SE]=./images/lnwr-Aclass.1.1

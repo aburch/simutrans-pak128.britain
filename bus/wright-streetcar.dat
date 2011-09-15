@@ -16,8 +16,8 @@ cost=3950000
 runningcost=370
 intro_year=2006
 intro_month=5
-retire_year=2026
-retire_month=11
+#retire_year=2026
+#retire_month=11
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=WrightStreetcar(Rear)

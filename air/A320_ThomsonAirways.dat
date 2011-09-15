@@ -8,7 +8,7 @@ power=27600
 #gear=1
 freight=Passagiere
 payload=180
-weight=75
+weight=51
 #length=8
 cost=50000000
 runningcost=4100
@@ -24,13 +24,13 @@ sound=aircraft-jet_stop.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-EmptyImage[E]=images/A320_ThomsonAirways.0.2
-EmptyImage[SE]=images/A320_ThomsonAirways.0.1
-EmptyImage[S]=images/A320_ThomsonAirways.0.0
-EmptyImage[SW]=images/A320_ThomsonAirways.0.7
-EmptyImage[W]=images/A320_ThomsonAirways.0.6
-EmptyImage[NW]=images/A320_ThomsonAirways.0.5
-EmptyImage[N]=images/A320_ThomsonAirways.0.4
-EmptyImage[NE]=images/A320_ThomsonAirways.0.3
+EmptyImage[E]=images/A320_ThomsonAirWays.0.2
+EmptyImage[SE]=images/A320_ThomsonAirWays.0.1
+EmptyImage[S]=images/A320_ThomsonAirWays.0.0
+EmptyImage[SW]=images/A320_ThomsonAirWays.0.7
+EmptyImage[W]=images/A320_ThomsonAirWays.0.6
+EmptyImage[NW]=images/A320_ThomsonAirWays.0.5
+EmptyImage[N]=images/A320_ThomsonAirWays.0.4
+EmptyImage[NE]=images/A320_ThomsonAirWays.0.3
 
 -------------

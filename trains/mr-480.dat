@@ -1,0 +1,38 @@
+obj=vehicle
+name=MR-480
+engine_type=steam
+smoke=Steam
+speed=70
+# Calculated from data from Ahrons, p. 158
+# Loss factor set at 0.75 
+# Half boiler pressure used to calculate power.
+gear=300
+power=479
+copyright=Kieron&jamespetts
+intro_year=1863
+intro_month=12
+retire_year=1869
+retire_month=4
+waytype=track
+freight=None
+payload=0
+length=7
+
+# Weight not given by Ahrons, p. 158
+weight=32
+cost=6651000
+runningcost=1051
+sound=-1
+
+
+Constraint[Next][0]=MR-Kirtley156Tender(Maroon)
+
+EmptyImage[E]=./images/mr-480.4
+EmptyImage[SE]=./images/mr-480.5
+EmptyImage[S]=./images/mr-480.6
+EmptyImage[SW]=./images/mr-480.7
+EmptyImage[W]=./images/mr-480.0
+EmptyImage[NW]=./images/mr-480.1
+EmptyImage[N]=./images/mr-480.2
+EmptyImage[NE]=./images/mr-480.3
+

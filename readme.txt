@@ -177,6 +177,22 @@ HISTORY
 	ADD: Snow images for AHB Crossing
 26/10/2010: r329 (release of 1.08)
 	ADD: SS Great Britain, SS Great Eastern, Iron Paddle Steamer
+17/12/2010:
+	FIX: Dates of car transporter
+20/12/2010:
+	ADD: Victorian school (Archon)
+	CHANGE: new borders (wlindley)
+22/12/2010:
+	ADD: Snow images for pavement
+	ADD: Optare Alero (Mattw62)
+	ADD: 2 EMUs (jamespetts)
+06/01/2011:
+	ADD: Bus stop with postbox (Archon)
+08/01/2011:
+	ADD: Many new trains (jamespetts)
+30/01/2011:
+	FIX: Tram depot intro dates
+	ADD: network mode GUI (Timothy)
 13/02/2011:
 	ADD: Airbus A319 (Milko)
 14/02/2011
@@ -195,3 +211,17 @@ HISTORY
 	FIX: passenger and mail capacity for oil rigs
 	ADD: Parish church and small parks (wlindley)
 	FIX: Old Library graphics (Archon)
+20/03/2011
+	ADD: BAE 146 Series (Milko)
+	FIX: Various dat files
+	ADD: BR Class 50 loco (jamespetts)
+	ADD: Snow graphics for more industries
+	ADD: Swan Inn (Archon)
+22/03/2011
+	ADD: Missing field snow image
+27/03/2011
+	ADD: Class 60 and class 24 locos (jamespetts)
+	ADD: Fast goods wagons (jamespetts)
+	ADD: ATR 42 planes (Milko)
+01/09/2011
+	ADD: Basic Narrowgauge

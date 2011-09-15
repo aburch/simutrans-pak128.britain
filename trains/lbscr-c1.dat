@@ -1,0 +1,37 @@
+obj=vehicle
+name=LBSCR-C1
+engine_type=steam
+smoke=Steam
+speed=75
+# Power calculated from data from: http://www.semgonline.com/steam/c1class_01.html 
+# (But reduced somewhat, as it is noted that these did not steam well: see the 
+# first link)
+power=642
+gear=300
+copyright=Kieron&jamespetts
+intro_year=1882
+intro_month=6
+retire_year=1887
+retire_month=6
+waytype=track
+freight=None
+payload=0
+length=6
+
+
+# Weight given here: http://www.semgonline.com/steam/c1class_01.html
+weight=40
+cost=2950000
+runningcost=314
+sound=-1
+
+Constraint[Next][0]=LBSCR-B1-Gladstone-Tender
+
+EmptyImage[E]=./images/lbscr-c1.0
+EmptyImage[SE]=./images/lbscr-c1.1
+EmptyImage[S]=./images/lbscr-c1.2
+EmptyImage[SW]=./images/lbscr-c1.3
+EmptyImage[W]=./images/lbscr-c1.4
+EmptyImage[NW]=./images/lbscr-c1.5
+EmptyImage[N]=./images/lbscr-c1.6
+EmptyImage[NE]=./images/lbscr-c1.7

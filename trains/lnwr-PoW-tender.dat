@@ -18,6 +18,8 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LNWR-PrinceOfWales(Black)
+Constraint[Prev][1]=LNWR-Precursor
+Constraint[Prev][2]=LNWR-George-V
 
 EmptyImage[E]=./images/lnwr-PoW.1.0
 EmptyImage[SE]=./images/lnwr-PoW.1.1

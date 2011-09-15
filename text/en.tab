@@ -330,6 +330,20 @@ IND_A_1950_03_10
 Warehouse
 IND_A_1750_00_10
 Workshop
+COM_A_1850_00_10
+The Swan Inn
+RES_A_1950_00_24
+Carbuncle
+RES_A_1950_00_28
+Carbuncle
+RES_A_1950_00_32
+Carbuncle
+RES_A_1950_00_36
+Carbuncle
+IND_A_1850_00_20
+Warehouse
+COM_A_1750_04_06
+Old Stores
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
 1980s-Small-Church
@@ -946,6 +960,8 @@ Signals
 Basic Signal
 Classic_Signals_right
 Basic Signal
+Classic_Signals_right_narrow
+Basic Signal
 Early_Signals_right
 Basic Signal
 Modern_Signals_right
@@ -953,6 +969,8 @@ Basic Signal
 preSignals
 Pre-signal
 Classic_preSignals_right
+Pre-signal
+Classic_preSignals_right_narrow
 Pre-signal
 Early_preSignals_right
 Pre-signal
@@ -962,6 +980,8 @@ LongSignals
 Long-block Signal
 Classic_LongSignals_right
 Long-block Signal
+Classic_LongSignals_right_narrow
+Long-block Signal
 Early_LongSignals_right
 Long-block Signal
 Modern_LongSignals_right
@@ -969,6 +989,8 @@ Long-block Signal
 ChooseSignals
 Platform Choose Signals
 Classic_ChooseSignals_right
+Platform Choose Signal
+Classic_ChooseSignals_right_narrow
 Platform Choose Signal
 Early_ChooseSignals_right
 Platform Choose Signal
@@ -2225,6 +2247,96 @@ LMS-open-brake-front
 LMS open brake
 LMS-open-brake-rear
 LMS open brake
+BR-Class50(Blue)
+BR Class 50
+BR-Class60
+BR Class 60
+BR-Class24
+BR Class 24
+Piece-Fast
+Fitted goods van
+Piece-Bogie
+Fitted bogie goods van
+Cool-Fast
+Fitted food van
+Cool-Bogie
+Fitted bogie food van
+LMR-Planet-Goods
+LMR "Planet" Goods 2-2-0
+LMR-Bird
+LMR "Bird" 2-2-2
+LNWR-sharp-tank
+LNWR Sharp Tank 2-4-0T
+LNWR-Sharp-goods
+LNWR Sharp Goods 0-6-0
+LNWR-side-tank
+LNWR Side Tank 2-4-0T
+LNWR-McConnell-tank
+LNWR McConnell Tank 0-4-2T
+LNWR-coal-tank
+LNWR Coal Tank 0-6-2T
+MR-480
+MR 480 Class 0-6-0
+LBSCR-C
+LBSCR C Class 0-6-0
+LNWR-17in-coal-engine
+LNWR 17in Coal Engine 0-6-0
+MR-1377
+MR 1377 Class 0-6-0T
+MR-2441
+MR 2441 Class 0-6-0T
+MR-1632
+MR 1632 Class 0-6-0T
+MR-700
+MR 700 Class 0-6-0
+LBSCR-C1
+LBSCR C1 Class 0-6-0
+MR-1357
+MR 1357 Class 0-6-0
+LNWR-BClass
+LNWR B Class 0-8-0
+LNWR-G1Class
+LNWR G1 Class 0-8-0
+LNWR-Mansion-House-tank
+LNWR Mansion House 2-4-2T
+LNWR-crewe-type
+LNWR Crew Type 2-4-0
+LNWR-Cauliflower
+LNWR "Cauliflower" class 0-6-0
+LNWR-Cauliflower-tender
+LNWR "Cauliflower" class tender
+LBSCR-D2
+LBSCR D2 Class 0-4-2
+MR-133
+MR 133 Class 2-4-0
+MR-133-tender
+MR 133 Class tender
+LNWR-Precendent
+LNWR "Precedent" Class 2-4-0
+MR-1738
+MR 1738 Class 4-4-0
+LNWR-Precursor-tank
+LNWR "Precursor" Tank 4-4-2T
+LNWR-Precursor
+LNWR "Precursor" 4-4-0
+LNWR-George-V
+LNWR "George V" 4-4-0
+LNWR-PrinceOfWales-tank
+LNWR "Prince of Wales" 4-6-2T
+MR-483-Tender
+MR 483 Class Tender
+LMS-4P-Tender
+LMS 4P Tender
+LMS-2P-Tender
+LMS 2P Tender
+LNWR-Precedent-Tender
+LNWR "Precedent" Class Tender
+LNWR-Claughton
+LNWR Claughton Class 4-6-0
+LNWR-Claughton-tender
+LNWR Claughton Class Tender
+LSWR-N15-Tender
+LSWR N15 Tender
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -3107,6 +3219,48 @@ AirbusA318(BritishAirways)
 Airbus A318
 AirbusA320(Thomson)
 Airbus A320
+BAE146_300(JerseyEuropean)
+BAE 146 300 Series
+BAE146_100(DanAirLondon)
+BAE 146 100 Series
+BAE146_300QT(TNT)Post
+BAE 146 300 Series (post)
+BAE146_300QT(TNT)Piece
+BAE 146 300 Series (piece goods)
+BAE146_300QT(TNT)Cool
+BAE 146 300 Series (cooled goods)
+ATR_42_320(BlueIslands)
+ATR 42 320 Series
+ATR_42_300F(FedEx)Post
+ATR 42 300 Series (post)
+ATR_42_300F(FedEx)Piece
+ATR 42 300 Series (piece goods)
+ATR_42_300F(FedEx)Cool
+ATR 42 300 Series (cooled goods)
+ATR72_200(FedEx)Post
+ATR 72 200 Series (post)
+ATR72_200(FedEx)Piece
+ATR 72 200 Series (piece goods)
+ATR72_200(FedEx)Cool
+ATR 72 200 Series (cooled goods)
+Airbus320(AerLingus)Post
+Airbus A320 (post)
+Airbus320(AerLingus)Piece
+Airbus A320 (piece goods)
+Airbus320(AerLingus)Cool
+Airbus A320 (cooled goods)
+ATR72_200(BritishAirways)
+ATR 72 200 Series
+#______________________________________NarrowGaugeVehicle______________________________________
+#______________________________________NarrowGaugeVehicle______________________________________
+FRCoach(CC)
+FR Passenger Coach
+DoubleFairlie
+Double Fairlie 0-4-4-0
+Single-ShireNarrow
+Single Shire Horse
+Twin-ShireNarrow
+Double Shire Horse
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track
@@ -3115,6 +3269,8 @@ wrought_iron_improved_track
 Improved Wrought Iron Track
 wssr
 Wooden Sleeper Steel Rail Track
+wssrN
+Wooden Sleeper Steel Rail Track (narrow gauge)
 wssri
 Improved Wooden Sleeper Steel Rail Track
 cssr
@@ -3165,6 +3321,10 @@ BrickPlatformTrainStop
 Brick Platform
 BrickPlatformBuildingTrainStop
 Brick Platform with Building
+BrickPlatformTrainStopNarrow
+Brick Platform
+BrickPlatformBuildingTrainStopNarrow
+Brick Platform with Building
 BrickPlatformOverallTrainStop
 Brick Platform with Overroof
 ConcretePlatformTrainStop
@@ -3194,6 +3354,18 @@ Bulk Goods Loading Tower
 GoodsShedModern
 Goods Shed
 GoodsShedOld
+Goods Shed
+GoodsSidingNarrow
+Goods Siding
+GoodsSidingCraneNarrow
+Goods Siding with Crane
+BulkLoadingModernNarrow
+Bulk Goods Loading Tower
+BulkLoadingOldNarrow
+Bulk Goods Loading Tower
+GoodsShedModernNarrow
+Goods Shed
+GoodsShedOldNarrow
 Goods Shed
 ConcreteStationBuildingSmall
 Concrete Station Building

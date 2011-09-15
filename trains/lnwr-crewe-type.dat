@@ -1,0 +1,35 @@
+obj=vehicle
+name=LNWR-crewe-type
+engine_type=steam
+smoke=Steam
+speed=90
+# Calculated from data from Ahrons, p. 50
+# Loss factor set at 0.7.
+power=243
+gear=300
+copyright=James&jamespetts
+intro_year=1845
+intro_month=4
+retire_year=1851
+retire_month=5
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Weight taken from Ahrons, p. 52
+weight=18
+cost=8015000
+runningcost=900
+sound=-1
+
+Constraint[Next][0]=LNWR-Bloomer-Tender(Red)
+
+EmptyImage[E]=./images/lnwr-crewe-type.0.4,-2,-1
+EmptyImage[SE]=./images/lnwr-crewe-type.0.5,0,-1
+EmptyImage[S]=./images/lnwr-crewe-type.0.6,2,-1
+EmptyImage[SW]=./images/lnwr-crewe-type.0.7,2,0
+EmptyImage[W]=./images/lnwr-crewe-type.0.0,2,1
+EmptyImage[NW]=./images/lnwr-crewe-type.0.1,0,1
+EmptyImage[N]=./images/lnwr-crewe-type.0.2,-2,1
+EmptyImage[NE]=./images/lnwr-crewe-type.0.3,-2,0

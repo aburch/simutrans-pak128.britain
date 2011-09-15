@@ -1,0 +1,33 @@
+obj=vehicle
+name=LNWR-PrinceOfWales-tank
+engine_type=steam
+smoke=Steam
+speed=125
+# Tractive effort and power data unavailable - guessed from PoW tender locomotive.
+power=1075
+gear=300
+copyright=James
+intro_year=1910
+intro_month=4
+retire_year=1916
+retire_month=8
+waytype=track
+freight=None
+payload=0
+length=7
+
+# Weight data unavailable - guessed from contemporaneous types.
+weight=77
+cost=13000000
+runningcost=1504
+sound=-1
+
+
+EmptyImage[E]=./images/lnwr-PoW-tank.4
+EmptyImage[SE]=./images/lnwr-PoW-tank.5
+EmptyImage[S]=./images/lnwr-PoW-tank.6
+EmptyImage[SW]=./images/lnwr-PoW-tank.7
+EmptyImage[W]=./images/lnwr-PoW-tank.0
+EmptyImage[NW]=./images/lnwr-PoW-tank.1
+EmptyImage[N]=./images/lnwr-PoW-tank.2
+EmptyImage[NE]=./images/lnwr-PoW-tank.3

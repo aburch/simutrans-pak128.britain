@@ -1,0 +1,32 @@
+obj=vehicle
+name=LNWR-Precursor-tank
+engine_type=steam
+smoke=Steam
+speed=115
+# http://en.wikipedia.org/wiki/LNWR_precursor-tank_Class
+power=800
+gear=300
+copyright=Kieron&jamespetts
+intro_year=1906
+intro_month=1
+retire_year=1909
+retire_month=12
+waytype=track
+freight=None
+payload=0
+length=5
+
+# http://en.wikipedia.org/wiki/LNWR_precursor-tank_Class
+weight=76
+cost=3755000
+runningcost=850
+sound=-1
+
+EmptyImage[E]=./images/lnwr-precursor-tank.0.4,4,2
+EmptyImage[SE]=./images/lnwr-precursor-tank.0.5,0,2
+EmptyImage[S]=./images/lnwr-precursor-tank.0.6,-4,2
+EmptyImage[SW]=./images/lnwr-precursor-tank.0.7,-4,0
+EmptyImage[W]=./images/lnwr-precursor-tank.0.0,-4,-2
+EmptyImage[NW]=./images/lnwr-precursor-tank.0.1,0,-2
+EmptyImage[N]=./images/lnwr-precursor-tank.0.2,4,-2
+EmptyImage[NE]=./images/lnwr-precursor-tank.0.3,4,0

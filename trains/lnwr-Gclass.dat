@@ -1,0 +1,37 @@
+obj=vehicle
+name=LNWR-G1Class
+engine_type=steam
+smoke=Steam
+speed=80
+# Tractive effort data taken from Wikipedia
+# http://en.wikipedia.org/wiki/LNWR_G_Class
+power=1550
+gear=300
+copyright=James
+intro_year=1912
+intro_month=2
+retire_year=1921
+retire_month=4
+waytype=track
+freight=None
+payload=0
+length=7
+
+# Weight given by the LNWR Soceity: http://www.lnwrs.org.uk/GoodsLocos/Loco22.php
+weight=56
+cost=6400000
+upgrade_price=1600000
+runningcost=635
+sound=-1
+
+
+Constraint[Next][0]=LNWR-AClass-Tender(Black)
+
+EmptyImage[E]=./images/lnwr-G1class.4
+EmptyImage[SE]=./images/lnwr-G1class.5
+EmptyImage[S]=./images/lnwr-G1class.6
+EmptyImage[SW]=./images/lnwr-G1class.7
+EmptyImage[W]=./images/lnwr-G1class.0
+EmptyImage[NW]=./images/lnwr-G1class.1
+EmptyImage[N]=./images/lnwr-G1class.2
+EmptyImage[NE]=./images/lnwr-G1class.3
