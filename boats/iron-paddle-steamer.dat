@@ -1,4 +1,3 @@
-
 obj=vehicle
 name=IronPaddleSteamer
 copyright=James
@@ -12,14 +11,14 @@ freight=Passagiere
 payload=80
 weight=45
 length=8
-cost=50000
-runningcost=9
+cost=26127360
+runningcost=1232
 intro_year=1844
 intro_month=2
 retire_year=1873
 retire_month=6
 
-comfort=92
+comfort=96
 min_loading_time=420
 max_loading_time=600
 
