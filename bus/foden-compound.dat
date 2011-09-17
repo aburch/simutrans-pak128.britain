@@ -20,7 +20,8 @@ retire_month=3
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=7050
+min_loading_time=360
+max_loading_time=480
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -106,7 +107,8 @@ retire_month=3
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=7050
+min_loading_time=360
+max_loading_time=480
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -162,7 +164,8 @@ retire_month=3
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=7050
+min_loading_time=360
+max_loading_time=480
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -207,7 +210,8 @@ retire_month=3
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=7050
+min_loading_time=360
+max_loading_time=480
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -251,7 +255,8 @@ retire_month=3
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=7050
+min_loading_time=360
+max_loading_time=480
 available_only_as_upgrade=0
 fixed_maintenance=0
 

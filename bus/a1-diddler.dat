@@ -26,7 +26,8 @@ constraint[next][0]=none
 constraint[prev][0]=none 
 
 comfort=62
-loading_time=2050
+min_loading_time=10
+max_loading_time=45
 
 EmptyImage[E]=./images/a1-diddler.0.0
 EmptyImage[SE]=./images/a1-diddler.0.1

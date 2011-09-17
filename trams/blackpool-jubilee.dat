@@ -24,7 +24,8 @@ bidirectional=1
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 comfort=65
-loading_time=5000
+min_loading_time=15
+max_loading_time=45
 upgrade[0]=Blackpool-Millenium
 
 Constraint[Prev][0]=none

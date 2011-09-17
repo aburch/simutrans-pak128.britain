@@ -13,8 +13,9 @@ intro_year=1530
 intro_month=5
 retire_year=1842
 
-loading_time=7400
-comfort=0
+min_loading_time=180
+max_loading_time=480
+
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
@@ -46,8 +47,9 @@ intro_year=1530
 intro_month=5
 retire_year=1842
 
-loading_time=7400
-comfort=0
+min_loading_time=180
+max_loading_time=480
+
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble
@@ -78,8 +80,9 @@ intro_year=1530
 intro_month=5
 retire_year=1842
 
-loading_time=7000
-comfort=0
+min_loading_time=60
+max_loading_time=135
+
 
 Constraint[Prev][0]=RoadHorsesSingle
 Constraint[Prev][1]=RoadHorsesDouble

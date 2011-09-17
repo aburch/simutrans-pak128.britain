@@ -18,8 +18,9 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-loading_time=8500
-comfort=0
+min_loading_time=35
+max_loading_time=180
+
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.
@@ -91,8 +92,9 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-loading_time=8500
-comfort=0
+min_loading_time=35
+max_loading_time=180
+
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.

@@ -33,13 +33,6 @@ Constraint[Next][4]=ThornycroftQArticLivestock
 Constraint[Next][5]=ThornycroftQArticFluid
 Constraint[Next][6]=ThornycroftQArticCars
 
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 obj=vehicle
 name=ThornycroftQArticBulk
@@ -57,9 +50,8 @@ intro_month=2
 retire_year=1934
 retire_month=9
 
-loading_time=7500
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ThornycroftQArticTractor
 
@@ -138,10 +130,8 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-loading_time=7500
-available_only_as_upgrade=0
-fixed_maintenance=0
-
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ThornycroftQArticTractor
 
@@ -191,10 +181,8 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-loading_time=7500
-available_only_as_upgrade=0
-fixed_maintenance=0
-
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ThornycroftQArticTractor
 
@@ -225,10 +213,8 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-loading_time=7500
-available_only_as_upgrade=0
-fixed_maintenance=0
-
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ThornycroftQArticTractor
 
@@ -258,10 +244,8 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-loading_time=7500
-available_only_as_upgrade=0
-fixed_maintenance=0
-
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ThornycroftQArticTractor
 
@@ -292,9 +276,8 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-loading_time=7500
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ThornycroftQArticTractor
 
@@ -324,9 +307,8 @@ intro_month=2
 retire_year=1934
 retire_month=10
 
-loading_time=7500
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ThornycroftQArticTractor
 

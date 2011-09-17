@@ -27,7 +27,8 @@ bidirectional=1
 # Trolley service if no shop
 catering_level=1 
 
-loading_time=8750
+min_loading_time=35
+max_loading_time=240
 comfort=90
 
 Constraint[Prev][0]=BR-220Front(Virgin)
@@ -77,7 +78,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=2
 
-loading_time=8750
+min_loading_time=35
+max_loading_time=240
 comfort=90
 
 Constraint[Prev][0]=BR-220Front(Virgin)
@@ -127,7 +129,8 @@ is_tilting=1
 # Trolley service if no shop
 catering_level=1 
 
-loading_time=8750
+min_loading_time=35
+max_loading_time=240
 comfort=90
 
 Constraint[Prev][0]=BR-221Front(Virgin)
@@ -176,7 +179,8 @@ bidirectional=1
 is_tilting=1
 catering_level=2
 
-loading_time=8750
+min_loading_time=35
+max_loading_time=240
 comfort=90
 
 Constraint[Prev][0]=BR-221Front(Virgin)

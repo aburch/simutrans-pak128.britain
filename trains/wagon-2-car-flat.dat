@@ -18,7 +18,8 @@ runningcost=8
 sound=-1
 
 bidirectional=10
-loading_time=12000
+min_loading_time=240
+max_loading_time=480
 
 Constraint[Next][0]=any
 

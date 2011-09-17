@@ -14,7 +14,8 @@ runningcost=23
 intro_year=2002
 intro_month=5
 
-loading_time=6000
+min_loading_time=90
+max_loading_time=360
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -96,7 +97,8 @@ runningcost=23
 intro_year=2002
 intro_month=5
 
-loading_time=6000
+min_loading_time=90
+max_loading_time=360
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -149,7 +151,8 @@ runningcost=47
 intro_year=2002
 intro_month=5
 
-loading_time=6000
+min_loading_time=90
+max_loading_time=360
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -183,7 +186,8 @@ runningcost=47
 intro_year=2002
 intro_month=5
 
-loading_time=6000
+min_loading_time=90
+max_loading_time=360
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -216,7 +220,8 @@ runningcost=34
 intro_year=2002
 intro_month=5
 
-loading_time=6000
+min_loading_time=90
+max_loading_time=360
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -249,7 +254,8 @@ runningcost=132
 intro_year=2002
 intro_month=5
 
-loading_time=5450
+min_loading_time=75
+max_loading_time=300
 available_only_as_upgrade=0
 fixed_maintenance=0
 

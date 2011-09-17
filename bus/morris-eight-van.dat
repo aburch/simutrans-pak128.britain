@@ -19,9 +19,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=2800
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=300
 
 EmptyImage[E]=./images/morris-eight-van.0.0
 EmptyImage[SE]=./images/morris-eight-van.0.1
@@ -56,9 +55,8 @@ constraint[prev][0]=none
 
 #Simutrans-Experimental specific settings: ignored by standard Makeobj
 
-loading_time=2800
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=300
 
 EmptyImage[E]=./images/morris-eight-van.1.0
 EmptyImage[SE]=./images/morris-eight-van.1.1
@@ -87,13 +85,11 @@ intro_month=10
 retire_year=1953
 length=4
 
-
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=2800
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=200
 
 EmptyImage[E]=./images/morris-eight-van.2.0
 EmptyImage[SE]=./images/morris-eight-van.2.1

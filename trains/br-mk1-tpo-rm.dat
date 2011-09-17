@@ -20,8 +20,9 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=1
 
-loading_time=8500
-comfort=0
+min_loading_time=30
+max_loading_time=360
+
 
 Constraint[Next][0]=BR-Mk1-POS
 Constraint[Next][1]=BR-Mk1-TPO

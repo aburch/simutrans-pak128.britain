@@ -26,7 +26,8 @@ increase_maintenance_after_years=23
 can_lead_from_rear=1
 bidirectional=1
 
-loading_time=7500
+min_loading_time=15
+max_loading_time=65
 comfort=90
 
 upgrade[0]=BR-153-Trolley(Regional)
@@ -90,7 +91,8 @@ increase_maintenance_after_years=23
 can_lead_from_rear=1
 bidirectional=1
 
-loading_time=7500
+min_loading_time=20
+max_loading_time=65
 comfort=90
 catering_level=1
 

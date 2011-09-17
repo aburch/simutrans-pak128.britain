@@ -19,9 +19,8 @@ retire_month=9
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=8100
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=560
 
 EmptyImage[E]=./images/sentinel-s.0.0
 EmptyImage[SE]=./images/sentinel-s.0.1
@@ -104,9 +103,8 @@ retire_month=9
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=8100
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=560
 
 EmptyImage[E]=./images/sentinel-s.10.0
 EmptyImage[SE]=./images/sentinel-s.10.1
@@ -159,9 +157,8 @@ retire_month=9
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=8100
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=560
 
 EmptyImage[E]=./images/sentinel-s.7.0
 EmptyImage[SE]=./images/sentinel-s.7.1
@@ -194,9 +191,8 @@ retire_month=9
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=8100
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=560
 
 EmptyImage[E]=./images/sentinel-s.8.0
 EmptyImage[SE]=./images/sentinel-s.8.1
@@ -228,9 +224,8 @@ retire_month=9
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=8100
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=560
 
 EmptyImage[E]=./images/sentinel-s.9.0
 EmptyImage[SE]=./images/sentinel-s.9.1

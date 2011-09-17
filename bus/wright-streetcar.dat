@@ -22,7 +22,8 @@ intro_month=5
 # Do not retire - has no replacements!
 
 comfort=62
-loading_time=3000
+min_loading_time=12
+max_loading_time=45
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=WrightStreetcar(Rear)
@@ -59,7 +60,8 @@ intro_month=5
 #retire_month=11
 
 comfort=62
-loading_time=3000
+min_loading_time=12
+max_loading_time=45
 
 Constraint[Prev][0]=WrightStreetcar(Front)
 Constraint[Next][0]=none

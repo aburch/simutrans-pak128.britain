@@ -16,7 +16,8 @@ cost=690000
 runningcost=12
 
 bidirectional=1
-loading_time=9000
+min_loading_time=300
+max_loading_time=420
 
 EmptyImage[E]=./images/wagon-hta.0.0
 EmptyImage[SE]=./images/wagon-hta.0.1

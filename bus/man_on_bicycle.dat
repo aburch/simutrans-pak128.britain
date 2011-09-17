@@ -36,6 +36,7 @@ EmptyImage[NE]=./images/mailbike.0.7
 available_only_as_upgrade=0
 fixed_maintenance=0
 overcrowded_capacity=0
-comfort=0
 
-loading_time=1500
+
+min_loading_time=10
+max_loading_time=20

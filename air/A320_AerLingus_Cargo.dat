@@ -14,7 +14,8 @@ cost=50000000
 runningcost=4100
 intro_year=2012
 intro_month=6
-loading_time=31000
+min_loading_time=3600
+max_loading_time=3600
 comfort=1
 
 increase_maintenance_after_years=30
@@ -50,7 +51,8 @@ cost=50000000
 runningcost=4100
 intro_year=2012
 intro_month=6
-loading_time=31000
+min_loading_time=3600
+max_loading_time=3600
 comfort=1
 
 increase_maintenance_after_years=30
@@ -86,7 +88,8 @@ cost=50000000
 runningcost=4100
 intro_year=2012
 intro_month=6
-loading_time=31000
+min_loading_time=3600
+max_loading_time=3600
 comfort=1
 
 increase_maintenance_after_years=30

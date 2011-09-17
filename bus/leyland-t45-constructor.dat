@@ -20,9 +20,8 @@ intro_month=1
 retire_year=1990
 retire_month=9
 
-loading_time=8000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=180
+max_loading_time=570
 
 EmptyImage[E]=./images/leyland-t45-constructor.0.0
 EmptyImage[SE]=./images/leyland-t45-constructor.0.1
@@ -100,9 +99,8 @@ payload=30
 
 Constraint[Prev][0]=none
 
-loading_time=8000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=180
+max_loading_time=570
 
 intro_year=1978
 intro_month=1
@@ -163,9 +161,8 @@ intro_month=1
 retire_year=1990
 retire_month=10
 
-loading_time=8000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=180
+max_loading_time=570
 
 EmptyImage[E]=./images/leyland-t45-constructor.8.0
 EmptyImage[SE]=./images/leyland-t45-constructor.8.1

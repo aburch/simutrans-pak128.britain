@@ -19,8 +19,9 @@ runningcost=4
 sound=-1
 
 bidirectional=1
-comfort=0
-loading_time=10000
+
+min_loading_time=480
+max_loading_time=600
 
 EmptyImage[E]=./images/wagon-5t.0
 EmptyImage[SE]=./images/wagon-5t.1

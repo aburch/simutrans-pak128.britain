@@ -19,12 +19,8 @@ retire_month=5
 constraint[next][0]=none
 constraint[prev][0]=none
 
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-
-loading_time=7500
-comfort=0
+min_loading_time=120
+max_loading_time=560
 
 EmptyImage[E]=./images/sentinel-dg.0.0
 EmptyImage[SE]=./images/sentinel-dg.0.1
@@ -107,13 +103,8 @@ retire_month=5
 constraint[next][0]=none
 constraint[prev][0]=none
 
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-
-
-loading_time=7500
-comfort=0
+min_loading_time=120
+max_loading_time=560
 
 EmptyImage[E]=./images/sentinel-dg.0.0
 EmptyImage[SE]=./images/sentinel-dg.0.1
@@ -166,13 +157,8 @@ retire_month=5
 constraint[next][0]=none
 constraint[prev][0]=none
 
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-
-
-loading_time=7500
-comfort=0
+min_loading_time=120
+max_loading_time=560
 
 EmptyImage[E]=./images/sentinel-dg.7.0
 EmptyImage[SE]=./images/sentinel-dg.7.1
@@ -206,13 +192,8 @@ retire_month=5
 constraint[next][0]=none
 constraint[prev][0]=none
 
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-
-
-loading_time=7500
-comfort=0
+min_loading_time=120
+max_loading_time=560
 
 EmptyImage[E]=./images/sentinel-dg.8.0
 EmptyImage[SE]=./images/sentinel-dg.8.1
@@ -244,13 +225,8 @@ retire_month=5
 constraint[next][0]=none
 constraint[prev][0]=none
 
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-
-loading_time=7500
-comfort=0
-
+min_loading_time=120
+max_loading_time=560
 
 EmptyImage[E]=./images/sentinel-dg.9.0
 EmptyImage[SE]=./images/sentinel-dg.9.1

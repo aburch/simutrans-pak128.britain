@@ -20,14 +20,8 @@ retire_month=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-loading_time=7500
+min_loading_time=120
+max_loading_time=510
 
 EmptyImage[E]=./images/sentinel-standard.0.0
 EmptyImage[SE]=./images/sentinel-standard.0.1
@@ -110,15 +104,8 @@ retire_month=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-loading_time=7500
+min_loading_time=120
+max_loading_time=510
 
 EmptyImage[E]=./images/sentinel-standard.10.0
 EmptyImage[SE]=./images/sentinel-standard.10.1
@@ -171,15 +158,8 @@ retire_month=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-loading_time=7500
+min_loading_time=120
+max_loading_time=510
 
 EmptyImage[E]=./images/sentinel-standard.10.0
 EmptyImage[SE]=./images/sentinel-standard.10.1
@@ -220,15 +200,8 @@ retire_month=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-loading_time=7500
+min_loading_time=120
+max_loading_time=510
 
 EmptyImage[E]=./images/sentinel-standard.10.0
 EmptyImage[SE]=./images/sentinel-standard.10.1
@@ -268,15 +241,8 @@ retire_month=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
-comfort=0
-loading_time=7500
-
+min_loading_time=120
+max_loading_time=510
 
 EmptyImage[E]=./images/sentinel-standard.9.0
 EmptyImage[SE]=./images/sentinel-standard.9.1

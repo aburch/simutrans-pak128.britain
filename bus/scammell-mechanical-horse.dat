@@ -31,13 +31,6 @@ Constraint[Next][3]=ScammellMechHorseTrailerCool
 Constraint[Next][0]=ScammellMechHorseTrailerLivestock
 Constraint[Next][4]=ScammellMechHorseTrailerMail
 
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 ----------------------------------------
 obj=vehicle
 name=ScammellMechanicalHorse
@@ -72,15 +65,8 @@ Constraint[Next][3]=ScammellMechHorseTrailerCool
 Constraint[Next][0]=ScammellMechHorseTrailerLivestock
 Constraint[Next][4]=ScammellMechHorseTrailerMail
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 ----------------------------------------
+
 obj=vehicle
 name=ScammellTownsman
 copyright=JamesHood
@@ -114,15 +100,8 @@ Constraint[Next][3]=ScammellMechHorseTrailerCool
 Constraint[Next][0]=ScammellMechHorseTrailerLivestock
 Constraint[Next][4]=ScammellMechHorseTrailerMail
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 ----------------------------------------
+
 obj=vehicle
 name=ScammellMechHorseTrailerLong
 copyright=JamesHood
@@ -139,9 +118,8 @@ intro_month=2
 retire_year=1976
 retire_month=10
 
-loading_time=7750
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ScammellScarab
 Constraint[Prev][1]=ScammellMechanicalHorse
@@ -193,9 +171,8 @@ intro_month=2
 retire_year=1976
 retire_month=10
 
-loading_time=7750
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ScammellScarab
 Constraint[Prev][1]=ScammellMechanicalHorse
@@ -228,9 +205,8 @@ intro_month=2
 retire_year=1976
 retire_month=10
 
-loading_time=7750
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ScammellScarab
 Constraint[Prev][1]=ScammellMechanicalHorse
@@ -262,9 +238,8 @@ intro_month=2
 retire_year=1976
 retire_month=10
 
-loading_time=7750
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=180
+max_loading_time=600
 
 Constraint[Prev][0]=ScammellScarab
 Constraint[Prev][1]=ScammellMechanicalHorse
@@ -295,9 +270,8 @@ intro_month=2
 retire_year=1976
 retire_month=10
 
-loading_time=6500
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=90
+max_loading_time=400
 
 Constraint[Prev][0]=ScammellScarab
 Constraint[Prev][1]=ScammellMechanicalHorse

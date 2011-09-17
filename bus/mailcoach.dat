@@ -16,7 +16,8 @@ retire_month=6
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=35
 
-loading_time=6000
+min_loading_time=45
+max_loading_time=120
 
 Constraint[Prev][0]=RoadHorsesDouble
 Constraint[Prev][1]=RoadHorsesSingle

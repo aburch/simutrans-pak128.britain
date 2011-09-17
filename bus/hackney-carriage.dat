@@ -15,7 +15,8 @@ retire_year=1913
 retire_month=4
 
 comfort=30
-loading_time=4250
+min_loading_time=7
+max_loading_time=15
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=45
 

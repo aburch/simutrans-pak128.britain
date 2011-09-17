@@ -15,6 +15,9 @@ intro_month=4
 retire_year=2000
 retire_month=10
 
+min_loading_time=120
+max_loading_time=480
+
 EmptyImage[E]=./images/leyland-daf-95-tractor.0.0
 EmptyImage[SE]=./images/leyland-daf-95-tractor.0.1
 EmptyImage[S]=./images/leyland-daf-95-tractor.0.2
@@ -33,14 +36,6 @@ Constraint[Next][4]=LargeArticTrailerLivestock
 Constraint[Next][5]=LargeArticTrailerFluid
 Constraint[Next][6]=LargeArticTrailerCars
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 obj=vehicle
 name=LeylandDAF95ArticMail
@@ -60,6 +55,9 @@ retire_year=2000
 retire_month=10
 Freight=Post
 payload=1
+
+min_loading_time=120
+max_loading_time=480
 
 EmptyImage[E]=./images/leyland-daf-95-tractor.1.0
 EmptyImage[SE]=./images/leyland-daf-95-tractor.1.1
@@ -90,6 +88,8 @@ runningcost=50
 intro_year=2000
 intro_month=7
 
+min_loading_time=120
+max_loading_time=480
 
 EmptyImage[E]=./images/daf-xf-tractor.0.0
 EmptyImage[SE]=./images/daf-xf-tractor.0.1
@@ -109,14 +109,6 @@ Constraint[Next][4]=LargeArticTrailerLivestock
 Constraint[Next][5]=LargeArticTrailerFluid
 Constraint[Next][6]=LargeArticTrailerCars
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 obj=vehicle
 name=DAFXFArticMail
@@ -136,6 +128,9 @@ intro_month=7
 Freight=Post
 payload=1
 
+min_loading_time=120
+max_loading_time=480
+
 EmptyImage[E]=./images/daf-xf-tractor.1.0
 EmptyImage[SE]=./images/daf-xf-tractor.1.1
 EmptyImage[S]=./images/daf-xf-tractor.1.2
@@ -148,9 +143,6 @@ EmptyImage[NE]=./images/daf-xf-tractor.1.7
 Constraint[Prev][0]=none
 Constraint[Next][0]=LargeArticTrailerMail
 
-loading_time=6750
-available_only_as_upgrade=0
-fixed_maintenance=0
 -------------------------------------
 
 obj=vehicle
@@ -167,9 +159,8 @@ runningcost=10
 intro_year=1987
 intro_month=1
 
-loading_time=9000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=480
 
 Constraint[Prev][0]=DAFXFArtic
 Constraint[Prev][1]=LeylandDAF95Artic
@@ -247,9 +238,8 @@ runningcost=10
 intro_year=1987
 intro_month=1
 
-loading_time=9000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=480
 
 Constraint[Prev][0]=DAFXFArtic
 Constraint[Prev][1]=LeylandDAF95Artic
@@ -298,9 +288,8 @@ runningcost=35
 intro_year=1987
 intro_month=1
 
-loading_time=9000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=480
 
 Constraint[Prev][0]=DAFXFArtic
 Constraint[Prev][1]=LeylandDAF95Artic
@@ -330,9 +319,8 @@ runningcost=35
 intro_year=1987
 intro_month=2
 
-loading_time=9000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=480
 
 Constraint[Prev][0]=DAFXFArtic
 Constraint[Prev][1]=LeylandDAF95Artic
@@ -361,9 +349,8 @@ runningcost=35
 intro_year=1987
 intro_month=1
 
-loading_time=9000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=480
 
 Constraint[Prev][0]=DAFXFArtic
 Constraint[Prev][1]=LeylandDAF95Artic
@@ -394,9 +381,8 @@ runningcost=23
 intro_year=1987
 intro_month=1
 
-loading_time=9000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=480
 
 Constraint[Prev][0]=DAFXFArtic
 Constraint[Prev][1]=LeylandDAF95Artic
@@ -426,9 +412,8 @@ runningcost=35
 intro_year=1987
 intro_month=1
 
-loading_time=9000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=480
 
 Constraint[Prev][0]=DAFXFArtic
 Constraint[Prev][1]=LeylandDAF95Artic
@@ -467,10 +452,8 @@ runningcost=35
 intro_year=1987
 intro_month=1
 
-loading_time=9000
-available_only_as_upgrade=0
-fixed_maintenance=0
-
+min_loading_time=120
+max_loading_time=480
 
 Constraint[Prev][0]=DAFXFArticMail
 Constraint[Prev][1]=LeylandDAF95ArticMail

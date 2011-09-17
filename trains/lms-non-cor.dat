@@ -19,7 +19,8 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-loading_time=4000
+min_loading_time=15
+max_loading_time=45
 comfort=83
 
 increase_maintenance_after_years=17
@@ -75,7 +76,8 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-loading_time=4000
+min_loading_time=15
+max_loading_time=45
 comfort=74
 
 increase_maintenance_after_years=17
@@ -132,7 +134,8 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-loading_time=4000
+min_loading_time=15
+max_loading_time=45
 comfort=74
 upgrade[0]=LMS-push-pull-brake
 
@@ -182,7 +185,8 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-loading_time=4000
+min_loading_time=15
+max_loading_time=45
 comfort=74
 upgrade[0]=LMS-push-pull-brake
 

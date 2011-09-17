@@ -33,14 +33,6 @@ Constraint[Next][4]=StandardArticTrailerLivestock
 Constraint[Next][5]=StandardArticTrailerFluid
 Constraint[Next][6]=StandardArticTrailerCars
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 obj=vehicle
 name=LeylandT45RoadtrainMail
@@ -73,14 +65,6 @@ EmptyImage[NE]=./images/leyland-t45-roadtrain-tractor.1.7
 Constraint[Prev][0]=none
 Constraint[Next][0]=StandardArticTrailerMail
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 obj=vehicle
 name=LeylandDAF85Artic
@@ -117,14 +101,6 @@ Constraint[Next][4]=StandardArticTrailerLivestock
 Constraint[Next][5]=StandardArticTrailerFluid
 Constraint[Next][6]=StandardArticTrailerCars
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 obj=vehicle
 name=LeylandDAF85ArticMail
@@ -157,14 +133,6 @@ EmptyImage[NE]=./images/leyland-daf-85-tractor.1.7
 Constraint[Prev][0]=none
 Constraint[Next][0]=StandardArticTrailerMail
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 obj=vehicle
 name=DAFCFArtic
@@ -200,14 +168,6 @@ Constraint[Next][4]=StandardArticTrailerLivestock
 Constraint[Next][5]=StandardArticTrailerFluid
 Constraint[Next][6]=StandardArticTrailerCars
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 obj=vehicle
 name=DAFCFArticMail
@@ -239,14 +199,6 @@ EmptyImage[NE]=./images/daf-cf-tractor.1.7
 Constraint[Prev][0]=none
 Constraint[Next][0]=StandardArticTrailerMail
 
-
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 
 obj=vehicle
@@ -263,9 +215,8 @@ runningcost=10
 intro_year=1978
 intro_month=1
 
-loading_time=8000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=420
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -344,10 +295,8 @@ runningcost=10
 intro_year=1978
 intro_month=1
 
-loading_time=8000
-available_only_as_upgrade=0
-fixed_maintenance=0
-
+min_loading_time=120
+max_loading_time=420
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -397,9 +346,8 @@ runningcost=35
 intro_year=1978
 intro_month=1
 
-loading_time=8000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=420
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -430,9 +378,8 @@ runningcost=35
 intro_year=1978
 intro_month=2
 
-loading_time=8000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=420
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -462,9 +409,8 @@ runningcost=35
 intro_year=1978
 intro_month=1
 
-loading_time=8000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=420
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -496,9 +442,8 @@ runningcost=23
 intro_year=1978
 intro_month=1
 
-loading_time=8000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=420
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -529,9 +474,8 @@ runningcost=35
 intro_year=1978
 intro_month=1
 
-loading_time=8000
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=420
 
 Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
@@ -571,9 +515,8 @@ runningcost=35
 intro_year=1978
 intro_month=1
 
-loading_time=6125
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=120
+max_loading_time=420
 
 Constraint[Prev][0]=LeylandT45RoadtrainMail
 Constraint[Prev][1]=LeylandDAF85ArticMail

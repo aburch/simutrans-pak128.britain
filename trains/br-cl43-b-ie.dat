@@ -22,8 +22,9 @@ cost=9331000
 runningcost=2508
 sound=-1
 
-loading_time=9250
-comfort=0
+min_loading_time=20
+max_loading_time=50
+
 air_resistance=884
 #increase_maintenance_after_years=25
 # TODO: Uncomment this after the MTU refurbished units are added

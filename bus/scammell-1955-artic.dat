@@ -33,13 +33,6 @@ Constraint[Next][4]=Scammell1955TrailerLivestock
 Constraint[Next][5]=Scammell1955TrailerFluid
 Constraint[Next][6]=Scammell1955TrailerCars
 
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 obj=vehicle
 name=ScammellHandyman
@@ -76,13 +69,6 @@ Constraint[Next][4]=Scammell1955TrailerLivestock
 Constraint[Next][5]=Scammell1955TrailerFluid
 Constraint[Next][6]=Scammell1955TrailerCars
 
-loading_time=0
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=09
-overcrowded_capacity=0
-comfort=0
 -------------------------------------
 obj=vehicle
 name=Scammell1955TrailerBulk
@@ -100,9 +86,8 @@ intro_month=2
 retire_year=1973
 retire_month=9
 
-loading_time=7600
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=240
+max_loading_time=660
 
 Constraint[Prev][0]=ScammellHighwayman
 Constraint[Prev][1]=ScammellHandyman
@@ -182,9 +167,8 @@ intro_month=2
 retire_year=1973
 retire_month=10
 
-loading_time=7600
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=240
+max_loading_time=660
 
 Constraint[Prev][0]=ScammellHighwayman
 Constraint[Prev][1]=ScammellHandyman
@@ -235,9 +219,8 @@ intro_month=2
 retire_year=1973
 retire_month=10
 
-loading_time=7600
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=240
+max_loading_time=660
 
 Constraint[Prev][0]=ScammellHighwayman
 Constraint[Prev][1]=ScammellHandyman
@@ -269,9 +252,8 @@ intro_month=2
 retire_year=1973
 retire_month=10
 
-loading_time=7600
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=240
+max_loading_time=660
 
 Constraint[Prev][0]=ScammellHighwayman
 Constraint[Prev][1]=ScammellHandyman
@@ -302,10 +284,8 @@ intro_month=2
 retire_year=1973
 retire_month=10
 
-loading_time=7600
-available_only_as_upgrade=0
-fixed_maintenance=0
-
+min_loading_time=240
+max_loading_time=660
 
 Constraint[Prev][0]=ScammellHighwayman
 Constraint[Prev][1]=ScammellHandyman
@@ -337,9 +317,8 @@ intro_month=2
 retire_year=1973
 retire_month=10
 
-loading_time=7600
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=240
+max_loading_time=660
 
 Constraint[Prev][0]=ScammellHighwayman
 Constraint[Prev][1]=ScammellHandyman
@@ -370,9 +349,8 @@ intro_month=2
 retire_year=1973
 retire_month=10
 
-loading_time=7600
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=240
+max_loading_time=660
 
 Constraint[Prev][0]=ScammellHighwayman
 Constraint[Prev][1]=ScammellHandyman

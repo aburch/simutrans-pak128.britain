@@ -20,9 +20,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=2500
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=240
 
 EmptyImage[E]=./images/morris-marina-van.0.0
 EmptyImage[SE]=./images/morris-marina-van.0.1
@@ -51,15 +50,13 @@ intro_year=1973
 intro_month=3
 retire_year=1984
 retire_month=5
-
 length=4
 
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=2500
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=240
 
 EmptyImage[E]=./images/morris-marina-van.1.0
 EmptyImage[SE]=./images/morris-marina-van.1.1
@@ -92,9 +89,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=2500
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=180
 
 EmptyImage[E]=./images/morris-marina-van.2.0
 EmptyImage[SE]=./images/morris-marina-van.2.1

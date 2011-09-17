@@ -20,9 +20,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=3700
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=300
 
 EmptyImage[E]=./images/leyland-sherpa.0.0
 EmptyImage[SE]=./images/leyland-sherpa.0.1
@@ -56,9 +55,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=3700
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=300
 
 EmptyImage[E]=./images/leyland-sherpa.1.0
 EmptyImage[SE]=./images/leyland-sherpa.1.1
@@ -91,9 +89,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=3700
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=200
 
 EmptyImage[E]=./images/leyland-sherpa.2.0
 EmptyImage[SE]=./images/leyland-sherpa.2.1

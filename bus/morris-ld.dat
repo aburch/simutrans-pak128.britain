@@ -20,9 +20,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=3750
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=300
 
 EmptyImage[E]=./images/morris-ld.0.0
 EmptyImage[SE]=./images/morris-ld.0.1
@@ -51,17 +50,13 @@ intro_year=1952
 intro_month=5
 retire_year=1968
 retire_month=7
-
 length=4
 
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-loading_time=3750
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=300
 
 EmptyImage[E]=./images/morris-ld.1.0
 EmptyImage[SE]=./images/morris-ld.1.1
@@ -94,9 +89,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=3050
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=200
 
 EmptyImage[E]=./images/morris-ld.2.0
 EmptyImage[SE]=./images/morris-ld.2.1

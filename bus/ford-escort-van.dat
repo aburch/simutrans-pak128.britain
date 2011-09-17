@@ -20,9 +20,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=2500
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=240
 
 EmptyImage[E]=./images/ford-escort-van.0.0
 EmptyImage[SE]=./images/ford-escort-van.0.1
@@ -56,9 +55,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=2500
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=240
 
 EmptyImage[E]=./images/ford-escort-van.1.0
 EmptyImage[SE]=./images/ford-escort-van.1.1
@@ -91,9 +89,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=2500
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=30
+max_loading_time=180
 
 EmptyImage[E]=./images/ford-escort-van.2.0
 EmptyImage[SE]=./images/ford-escort-van.2.1

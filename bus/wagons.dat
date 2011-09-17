@@ -19,8 +19,9 @@ Constraint[Prev][1]=RoadHorsesDouble
 
 Constraint[Next][0]=none
 
-loading_time=6000
-comfort=0
+min_loading_time=240
+max_loading_time=360
+
 increase_maintenance_after_years=35
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
@@ -101,8 +102,9 @@ intro_month=1
 retire_year=1918
 retire_month=3
 
-loading_time=6000
-comfort=0
+min_loading_time=240
+max_loading_time=360
+
 increase_maintenance_after_years=35
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
@@ -158,8 +160,9 @@ intro_month=1
 retire_year=1918
 retire_month=3
 
-loading_time=6000
-comfort=0
+min_loading_time=240
+max_loading_time=360
+
 increase_maintenance_after_years=35
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
@@ -204,8 +207,9 @@ intro_month=1
 retire_year=1918
 retire_month=3
 
-loading_time=6000
-comfort=0
+min_loading_time=240
+max_loading_time=360
+
 increase_maintenance_after_years=35
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275

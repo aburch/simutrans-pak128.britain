@@ -25,7 +25,8 @@ bidirectional=0
 way_constraint_permissive[0]=0
 increase_maintenance_after_years=21
 
-loading_time=9250
+min_loading_time=35
+max_loading_time=180
 comfort=145
 
 Constraint[Prev][0]=BR-442-Rear(NSE)
@@ -68,7 +69,8 @@ bidirectional=1
 way_constraint_permissive[0]=0
 increase_maintenance_after_years=21
 
-loading_time=9250
+min_loading_time=35
+max_loading_time=180
 comfort=145
 
 Constraint[Prev][0]=BR-442-Front(NSE)
@@ -112,7 +114,8 @@ catering_level=3
 way_constraint_permissive[0]=0
 increase_maintenance_after_years=21
 
-loading_time=9250
+min_loading_time=35
+max_loading_time=180
 comfort=145
 
 Constraint[Prev][0]=BR-442-Middle1(NSE)
@@ -153,7 +156,8 @@ bidirectional=1
 way_constraint_permissive[0]=0
 increase_maintenance_after_years=21
 
-loading_time=9250
+min_loading_time=35
+max_loading_time=180
 comfort=145
 
 Constraint[Prev][0]=BR-442-Middle2(NSE)
@@ -197,7 +201,8 @@ bidirectional=0
 way_constraint_permissive[0]=0
 increase_maintenance_after_years=21
 
-loading_time=9250
+min_loading_time=35
+max_loading_time=180
 comfort=145
 
 Constraint[Prev][0]=BR-442-Middle3(NSE)

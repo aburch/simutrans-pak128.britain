@@ -18,7 +18,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=4500
+min_loading_time=30
+max_loading_time=300
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -52,7 +53,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=4500
+min_loading_time=30
+max_loading_time=300
 available_only_as_upgrade=0
 fixed_maintenance=0
 
@@ -85,7 +87,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-loading_time=4100
+min_loading_time=30
+max_loading_time=200
 available_only_as_upgrade=0
 fixed_maintenance=0
 
