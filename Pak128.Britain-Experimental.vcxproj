@@ -82,7 +82,7 @@
     <None Include="air\ATR_42_320_BlueIslands.dat" />
     <None Include="air\ATR_72_200_BritishAirways.dat" />
     <None Include="air\ATR_72_200_FedEx_Post.dat" />
-    <None Include="air\BAE_146_100_DanAirLondon.dat" />
+    <None Include="air\BAE_146_100.dat" />
     <None Include="air\BAE_146_300_JerseyEuropean.dat" />
     <None Include="air\BAE_146_300_TNT_Post.dat" />
     <None Include="attractions\library.dat" />
@@ -150,7 +150,9 @@
     <None Include="narrowgauge\fr-coach.dat" />
     <None Include="narrowgauge\single-shire.dat" />
     <None Include="narrowgauge\twin-shire.dat" />
+    <None Include="stations\brick-platform-narrow.dat" />
     <None Include="stations\bus-stopwithmail.dat" />
+    <None Include="stations\goods-narrow-stations.dat" />
     <None Include="text\be.tab" />
     <None Include="text\ca.tab" />
     <None Include="text\ce.tab" />
@@ -798,7 +800,7 @@
     <None Include="trains\lyr-cl25-tender.dat" />
     <None Include="trains\lyr-cl25.dat" />
     <None Include="trains\lyr-emu.dat" />
-    <None Include="ways\macadam_road.dat" />
+    <None Include="ways\macadam-road.dat" />
     <None Include="ways\maglev_bridges.dat" />
     <None Include="ways\maglev_tracks.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\mailbox.txt" />
@@ -861,6 +863,7 @@
     <None Include="trains\ner-es1.dat" />
     <None Include="trams\net-bombardier-incentro-back.dat" />
     <None Include="trams\net-bombardier-incentro-front.dat" />
+    <None Include="ways\narrow-crossing.dat" />
     <None Include="ways\new-crossing.dat" />
     <None Include="gui\gui128\new_cursor.dat" />
     <None Include="gui\gui64\new_menus.dat" />
@@ -963,6 +966,7 @@
     <None Include="trams\sheffield-supertram-rear.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\shiptools.txt" />
     <None Include="citybuildings\sidewalk.dat" />
+    <None Include="ways\signals-narrow.dat" />
     <None Include="ways\signals.dat" />
     <None Include="config\simuconf.tab" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\simutrans.txt" />

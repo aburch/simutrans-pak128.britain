@@ -119,8 +119,10 @@ BackImage[3][2][2][0][0][1]=claypit.9.2
 BackImage[3][3][0][0][0][1]=claypit.9.3
 BackImage[3][3][1][0][0][1]=claypit.9.4
 BackImage[3][3][2][0][0][1]=claypit.9.5
+
 upgrade[0]=ClayPit1850
 upgrade[1]=ClayPit1905
+
 --------------------
 Obj=factory
 name=ClayPit1850
@@ -238,8 +240,10 @@ BackImage[3][2][2][0][0][1]=claypit.9.2
 BackImage[3][3][0][0][0][1]=claypit.9.3
 BackImage[3][3][1][0][0][1]=claypit.9.4
 BackImage[3][3][2][0][0][1]=claypit.9.5
+
 upgrade[0]=ClayPit1905
 upgrade[1]=ClayPit1960
+
 --------------------
 Obj=factory
 name=ClayPit1905
@@ -357,8 +361,10 @@ BackImage[3][2][2][0][0][1]=claypit.9.2
 BackImage[3][3][0][0][0][1]=claypit.9.3
 BackImage[3][3][1][0][0][1]=claypit.9.4
 BackImage[3][3][2][0][0][1]=claypit.9.5
+
 upgrade[0]=ClayPit1960
 upgrade[1]=ClayPit1985
+
 --------------------
 Obj=factory
 name=ClayPit1960
@@ -476,7 +482,9 @@ BackImage[3][2][2][0][0][1]=claypit.9.2
 BackImage[3][3][0][0][0][1]=claypit.9.3
 BackImage[3][3][1][0][0][1]=claypit.9.4
 BackImage[3][3][2][0][0][1]=claypit.9.5
+
 upgrade[0]=ClayPit1985
+
 --------------------
 Obj=factory
 name=ClayPit1985

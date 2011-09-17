@@ -360,6 +360,21 @@ toolbar[3][10]=buildings(35,0)
 toolbar[3][11]=general_tool[14],,t,2
 toolbar[3][12]=general_tool[18],,e,2
 
+# narrowgaugetools
+toolbar[3][0]=ways(8,0)
+toolbar[3][1]=ways(8,1)
+toolbar[3][2]=bridges(8)
+toolbar[3][3]=tunnels(8)
+toolbar[3][4]=wayobjs(8)
+toolbar[3][5]=signs(8)
+toolbar[3][6]=general_tool[17],16,,8 
+toolbar[3][7]=buildings(33,8)
+toolbar[3][8]=buildings(34,8)
+toolbar[3][9]=buildings(35,8)
+toolbar[3][10]=buildings(35,0)
+toolbar[3][11]=general_tool[14],,t,2
+toolbar[3][12]=general_tool[18],,e,2
+
 # monorailtools (waytype 5)
 toolbar[4][0]=ways(5,0)
 toolbar[4][1]=ways(5,1)

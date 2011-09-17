@@ -31,10 +31,12 @@ BackImage[2][0][0][0][0][1]=fishing-port.1.0
 BackImage[1][0][0][0][0][1]=fishing-port.1.1
 BackImage[0][0][0][0][0][1]=fishing-port.1.2
 BackImage[3][0][0][0][0][1]=fishing-port.1.3
+
 upgrade[0]=FishPort1840
 upgrade[1]=FishPort1910
 upgrade[2]=FishPort1945
 upgrade[3]=FishPort1975
+
 --------------------
 Obj=factory
 name=FishPort1840
@@ -69,9 +71,11 @@ BackImage[2][0][0][0][0][1]=fishing-port.1.0
 BackImage[1][0][0][0][0][1]=fishing-port.1.1
 BackImage[0][0][0][0][0][1]=fishing-port.1.2
 BackImage[3][0][0][0][0][1]=fishing-port.1.3
+
 upgrade[0]=FishPort1910
 upgrade[1]=FishPort1945
 upgrade[2]=FishPort1975
+
 --------------------
 Obj=factory
 name=FishPort1910
@@ -106,8 +110,10 @@ BackImage[2][0][0][0][0][1]=fishing-port.1.0
 BackImage[1][0][0][0][0][1]=fishing-port.1.1
 BackImage[0][0][0][0][0][1]=fishing-port.1.2
 BackImage[3][0][0][0][0][1]=fishing-port.1.3
+
 upgrade[0]=FishPort1945
 upgrade[1]=FishPort1975
+
 --------------------
 Obj=factory
 name=FishPort1945
@@ -142,7 +148,9 @@ BackImage[2][0][0][0][0][1]=fishing-port.1.0
 BackImage[1][0][0][0][0][1]=fishing-port.1.1
 BackImage[0][0][0][0][0][1]=fishing-port.1.2
 BackImage[3][0][0][0][0][1]=fishing-port.1.3
+
 upgrade[0]=FishPort1975
+
 --------------------
 Obj=factory
 name=FishPort1975

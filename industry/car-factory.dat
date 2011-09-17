@@ -122,8 +122,10 @@ BackImage[3][2][0][0][0][1]=car-factory.9.2
 BackImage[3][2][1][0][0][1]=car-factory.9.3
 BackImage[3][2][2][0][0][1]=car-factory.9.4
 BackImage[3][2][3][0][0][1]=car-factory.9.5
+
 upgrade[0]=CarFactory1925
 upgrade[1]=CarFactory1950
+
 --------------------
 Obj=factory
 name=CarFactory1925
@@ -249,8 +251,10 @@ BackImage[3][2][0][0][0][1]=car-factory.9.2
 BackImage[3][2][1][0][0][1]=car-factory.9.3
 BackImage[3][2][2][0][0][1]=car-factory.9.4
 BackImage[3][2][3][0][0][1]=car-factory.9.5
+
 upgrade[0]=CarFactory1950
 upgrade[1]=CarFactory1970
+
 --------------------
 Obj=factory
 name=CarFactory1950
@@ -380,7 +384,9 @@ BackImage[3][2][0][0][0][1]=car-factory.9.2
 BackImage[3][2][1][0][0][1]=car-factory.9.3
 BackImage[3][2][2][0][0][1]=car-factory.9.4
 BackImage[3][2][3][0][0][1]=car-factory.9.5
+
 upgrade[0]=CarFactory1970
+
 --------------------
 # By 1970, motor industry beginning decline.
 Obj=factory
