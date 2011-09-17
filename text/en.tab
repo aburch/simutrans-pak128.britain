@@ -41,7 +41,7 @@
 3center
 %s Victoria %s
 3extern
-%s County %s
+%s Fields %s
 4center
 %s Exchange %s
 4extern
@@ -50,14 +50,34 @@
 %s City %s
 5extern
 %s Rural %s
+6extern
+%s Woods %s
 6center
 %s High Street %s
+7extern
+%s Brook %s
 7center
 %s Piccadilly %s
+8extern
+%s Meadow %s
+9extern
+%s Stream %s
+10extern
+%s County %s
+11extern
+%s Marsh %s
+12extern
+%s Lake %s
+13extern
+%s Hollow %s
+14extern
+%s Sands %s
 %s city %d %s
 %s City %d %s
 %s land %d %s
 %s County %d %s
+%s factory %s %s
+%s %s %s
 BF
 Railway Station
 H
@@ -4061,3 +4081,29 @@ Prohibitive 7
 #___________________________________Livery schemes___________________________________
 British-Railways
 British Rail(ways)
+LNWR
+LNWR
+LBSCR
+LBSCR
+LMS
+LMS
+SR
+Southern Railway
+MR
+Midland Railway
+Royal-Mail
+Royal Mail
+Inter-City
+InterCity
+LNER
+LNER
+LNER-Streamliner
+LNER (streamlined express)
+GW-Franchise
+Great Western franchise
+ECML-Franchise
+East coast franchise
+Grand-Central
+Grand Central
+Wartime-Austerity
+Wartime austerity
