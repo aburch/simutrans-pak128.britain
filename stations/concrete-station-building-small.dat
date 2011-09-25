@@ -10,10 +10,15 @@ intro_year=1960
 Dims=1,1,4
 NoInfo=1
 Level=1
-BackImage[0][0][0][0][0]=concrete-station-building-small.0.2
-BackImage[1][0][0][0][0]=concrete-station-building-small.0.1
-BackImage[2][0][0][0][0]=concrete-station-building-small.0.0
-BackImage[3][0][0][0][0]=concrete-station-building-small.0.3
+BackImage[0][0][0][0][0][0]=concrete-station-building-small.0.2
+BackImage[1][0][0][0][0][0]=concrete-station-building-small.0.1
+BackImage[2][0][0][0][0][0]=concrete-station-building-small.0.0
+BackImage[3][0][0][0][0][0]=concrete-station-building-small.0.3
+
+BackImage[0][0][0][0][0][1]=concrete-station-building-small-snow.0.2
+BackImage[1][0][0][0][0][1]=concrete-station-building-small-snow.0.1
+BackImage[2][0][0][0][0][1]=concrete-station-building-small-snow.0.0
+BackImage[3][0][0][0][0][1]=concrete-station-building-small-snow.0.3
 
 Icon=> concrete-station-building-small.0.5
 Cursor=concrete-station-building-small.0.4
