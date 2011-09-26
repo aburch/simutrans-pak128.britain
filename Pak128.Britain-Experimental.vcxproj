@@ -82,6 +82,7 @@
     <None Include="air\ATR_42_320_BlueIslands.dat" />
     <None Include="air\ATR_72_200_BritishAirways.dat" />
     <None Include="air\ATR_72_200_FedEx_Post.dat" />
+    <None Include="air\BAC111_200_BUA.dat" />
     <None Include="air\BAE_146_100.dat" />
     <None Include="air\BAE_146_300_JerseyEuropean.dat" />
     <None Include="air\BAE_146_300_TNT_Post.dat" />
@@ -135,6 +136,7 @@
     <None Include="citybuildings\1950s-offices.dat" />
     <None Include="citybuildings\com-1850.dat" />
     <None Include="citybuildings\com-1920.dat" />
+    <None Include="citybuildings\ind-1830.dat" />
     <None Include="citybuildings\ind50.dat" />
     <None Include="citycars\London-Taxi-Lanchester.dat" />
     <None Include="citycars\Volvo-240-Estate.dat" />
@@ -152,7 +154,9 @@
     <None Include="narrowgauge\single-shire.dat" />
     <None Include="narrowgauge\twin-shire.dat" />
     <None Include="stations\brick-platform-narrow.dat" />
+    <None Include="stations\brick-platform.dat" />
     <None Include="stations\bus-stopwithmail.dat" />
+    <None Include="stations\concrete-platform-maglev.dat" />
     <None Include="stations\goods-narrow-stations.dat" />
     <None Include="text\be.tab" />
     <None Include="text\ca.tab" />

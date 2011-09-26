@@ -81,7 +81,7 @@ echo Build maglevs
 build %OUTPUT%BritMaglev-Ex.pak ./maglev/
 
 echo Build narrow gauge
-build %OUTPUT%BritNarrowGauge.pak ./narrowgauge/ 
+build %OUTPUT%BritNarrowGauge-Ex.pak ./narrowgauge/ 
 
 echo Build pedestrians
 build %OUTPUT%BritPedestrian-Ex.pak ./pedestrians/
