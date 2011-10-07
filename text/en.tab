@@ -1361,8 +1361,12 @@ LMR-Rocket-Tender
 LMR "Rocket" (tender)
 LBSCR-A1
 LBSCR Class A1 "Terrier" 0-6-0T
+LBSCR-A1X
+LBSCR Class A1X "Terrier" 0-6-0T
 LBSCR-D1
 LBSCR Class D1 0-4-2T
+LBSCR-E1
+LBSCR Class E1 0-6-0T
 LMS-3F-Jinty
 LMS Class 3F "Jinty" 0-6-0T
 LMS-3F-Jinty-Push-Pull
@@ -1542,9 +1546,9 @@ LNWR 6 Wheel Carriage
 LNWR-6Wheel-Guard
 LNWR 6 Wheel Carriage (brake)
 MR-6Wheel-First
-MR 6 Wheel Carriage
+Midland 6 Wheel Carriage
 MR-6Wheel-Guard
-MR 6 Wheel Carriage (brake)
+Midland 6 Wheel Carriage (brake)
 LNER-Gresley-Express-Brake
 LNER Teak Express Carriage (brake)
 MSLR-4Wheel-Composite
@@ -1552,9 +1556,9 @@ MSLR 4 Wheel Carriage
 MSLR-4Wheel-Brake
 MSLR 4 Wheel Carriage (brake)
 MR-4Wheel-Composite
-MR 4 Wheel Carriage
+Midland 4 Wheel Carriage
 MR-4Wheel-Brake
-MR 4 Wheel Carriage (brake)
+Midland 4 Wheel Carriage (brake)
 GNR-4Wheel-Composite
 GNR 4 Wheel Carriage
 GNR-4Wheel-Brake
@@ -2024,9 +2028,9 @@ LMS "Coronation Scot" Dining Carriage
 LMS-Coronation-TO(Maroon)
 LMS "Coronation Scot" Carriage 
 MR-Clerestory-Brake
-MR Clerestory Carriage (brake)
+Midland Clerestory Carriage (brake)
 MR-Clerestory-Coach
-MR Clerestory Carriage
+Midland Clerestory Carriage
 Teak-Clerestory-Brake
 GNR Corridor Clerestory Carriage (brake)
 Teak-Clerestory-Coach
@@ -2084,17 +2088,17 @@ LMS push-pull set (centre trailer)
 LMS-push-pull-centre-2
 LMS push-pull set (centre trailer)
 MR-push-pull-front
-MR push-pull set (front)
+Midland push-pull set (front)
 MR-push-pull-rear
-MR push-pull set (rear)
+Midland push-pull set (rear)
 MR-non-cor-lav
-MR standard non-corridor carriage (lavatory)
+Midland standard non-corridor carriage (lavatory)
 MR-non-cor-non-lav
-MR standard non-corridor carriage
+Midland standard non-corridor carriage
 MR-non-cor-brake-front
-MR standard non-corridor carriage (brake)
+Midland standard non-corridor carriage (brake)
 MR-non-cor-brake-rear
-MR standard non-corridor carriage (brake)
+Midland standard non-corridor carriage (brake)
 LMS-Garratt-Middle(Black)
 LMS Garratt 2-6-0+0-6-2 (boiler)
 LMS-Garratt-Front(Black)
@@ -2112,7 +2116,7 @@ SR Q1 Class 0-6-0
 SR-Q1-Tender(Black)
 SR Q1 Class 0-6-0 (tender)
 LMS-4F(Black)
-MR 3835 Class / LMS Class 4F 0-6-0
+Midland 3835 Class / LMS Class 4F 0-6-0
 LMS-4F-Tender(Black)
 LMS Class 4F 0-6-0 (tender)
 GWR-Prairie-Tank(Green)
@@ -2120,13 +2124,13 @@ GWR 3150 Class "Large Prairie" 2-6-2T
 GWR-Prairie-Tank-Modified(Green)
 GWR 3100 Class "Large Prairie" 2-6-2T
 MR-1000(Maroon)
-MR 1000 Class 4-4-0
+Midland 1000 Class 4-4-0
 MR-1000-Tender(Maroon)
-MR 1000 Class (tender)
+Midland 1000 Class (tender)
 MR-483
-MR 483 Class 4-4-0
+Midland 483 Class 4-4-0
 MR-483(tender)
-MR 483 Class 4-4-0 (tender)
+Midland 483 Class 4-4-0 (tender)
 LMS-2P
 LMS Class 2P 4-4-0
 LMS-2P(tender)
@@ -2136,7 +2140,7 @@ LMS Class 4P 4-4-0
 LMS-4P(tender)
 LMS Class 4P 4-4-0 (tender)
 MR-1833
-MR 1833 Class 0-4-4T
+Midland 1833 Class 0-4-4T
 SR-N15
 SR N15 Class "King Arthur" 4-6-0
 SR-N15-Tender
@@ -2261,6 +2265,10 @@ LBSCR-J
 LBSCR Class J 4-6-2T
 LBSCR-I3
 LBSCR Class I3 4-4-2T
+LBSCR-E3
+LBSCR Class E3 0-6-2T
+LBSCR-E4
+LBSCR Class E4 0-6-2T
 LBSCR-E5
 LBSCR Class E5 0-6-2T
 LBSCR-non-cor-lav
@@ -2290,13 +2298,13 @@ LNWR "Prince of Wales" Class 4-6-0
 LNWR-PrinceOfWales-Tender(Black)
 LNWR "Prince of Wales" Class 4-6-0 (tender)
 MR-2441
-MR 2441 Class 0-6-0
+Midland 2441 Class 0-6-0
 MR-1632
-MR 1632 Class 0-6-0
+Midland 1632 Class 0-6-0
 MR-Spinner(Maroon)
-MR 673 Class "Midland Spinner" 4-2-2
+Midland 673 Class "Midland Spinner" 4-2-2
 MR-Spinner-Tender(Maroon)
-MR 673 Class "Midland Spinner" 4-2-2 (tender)
+Midland 673 Class "Midland Spinner" 4-2-2 (tender)
 LMS-Patriot(Maroon)
 LMS Class 5XP "Patriot" 4-6-0
 LMS-Patriot-Tender(Maroon)
@@ -2468,15 +2476,15 @@ GNR clerestory parcel brake coach (teak)
 Teak-Clerestory-TPO
 GNR clerestory travelling post office (teak)
 MR-Clerestory-Parcel-Brake
-MR clerestory parcel brake coach
+Midland clerestory parcel brake coach
 MR-Clerestory-TPO
-MR clerestory travelling post office
+Midland clerestory travelling post office
 MR-Clerestory-Dining
-MR clerestory dining car
+Midland clerestory dining car
 MSLR-4Wheel-Mail
 MSLR 4-wheel mail coach
 MR-4Wheel-Mail
-MR 4-wheel mail coach
+Midland 4-wheel mail coach
 GNR-4Wheel-Mail
 GNR 4-wheel mail coach
 LNWR-6Wheel-Mail
@@ -2484,7 +2492,7 @@ LNWR 6-wheel mail coach
 GNR-6Wheel-Mail
 GNR 6-wheel mail coach
 MR-6Wheel-Mail
-MR 6-wheel mail coach
+Midland 6-wheel mail coach
 GWR-Express-Parcel-Brake
 GWR Express parcel brake coach
 GWR-Express-TPO
@@ -2506,7 +2514,7 @@ GWR clerestory mail van
 Teak-Clerestory-Mail
 GNR Clerestory Mail Van (teak)
 MR-Clerestory-Mail
-MR Clerestory Mail van
+Midland Clerestory Mail van
 BR-Mk1-BG
 BR Mk. 1 Gangwayed Brake
 BR-Mk1-Sub
@@ -2668,23 +2676,23 @@ LNWR McConnell Tank 0-4-2T
 LNWR-coal-tank
 LNWR Coal Tank 0-6-2T
 MR-480
-MR 480 Class 0-6-0
+Midland 480 Class 0-6-0
 LBSCR-C
 LBSCR C Class 0-6-0
 LNWR-17in-coal-engine
 LNWR 17in Coal Engine 0-6-0
 MR-1377
-MR 1377 Class 0-6-0T
+Midland 1377 Class 0-6-0T
 MR-2441
-MR 2441 Class 0-6-0T
+Midland 2441 Class 0-6-0T
 MR-1632
-MR 1632 Class 0-6-0T
+Midland 1632 Class 0-6-0T
 MR-700
-MR 700 Class 0-6-0
+Midland 700 Class 0-6-0
 LBSCR-C1
 LBSCR C1 Class 0-6-0
 MR-1357
-MR 1357 Class 0-6-0
+Midland 1357 Class 0-6-0
 LNWR-BClass
 LNWR B Class 0-8-0
 LNWR-G1Class
@@ -2700,13 +2708,13 @@ LNWR "Cauliflower" class tender
 LBSCR-D2
 LBSCR D2 Class 0-4-2
 MR-133
-MR 133 Class 2-4-0
+Midland 133 Class 2-4-0
 MR-133-tender
-MR 133 Class tender
+Midland 133 Class tender
 LNWR-Precendent
 LNWR "Precedent" Class 2-4-0
 MR-1738
-MR 1738 Class 4-4-0
+Midland 1738 Class 4-4-0
 LNWR-Precursor-tank
 LNWR "Precursor" Tank 4-4-2T
 LNWR-Precursor
@@ -2716,7 +2724,7 @@ LNWR "George V" 4-4-0
 LNWR-PrinceOfWales-tank
 LNWR "Prince of Wales" 4-6-2T
 MR-483-Tender
-MR 483 Class Tender
+Midland 483 Class Tender
 LMS-4P-Tender
 LMS 4P Tender
 LMS-2P-Tender
@@ -3665,6 +3673,8 @@ ATR72_200(BritishAirways)
 ATR 72 200 Series
 BAC111_200(BUA)
 BAC One-eleven 200 Series
+BAC_111_500(Caledonian)
+BAC One-eleven 500 Series
 #______________________________________NarrowGaugeVehicle______________________________________
 #______________________________________NarrowGaugeVehicle______________________________________
 FRCoach(CC)
