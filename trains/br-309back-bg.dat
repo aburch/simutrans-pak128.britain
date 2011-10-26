@@ -19,10 +19,10 @@ runningcost=264
 sound=-1
 
 Constraint[Prev][0]=BR-309Middle(Blue-Grey)
-Constraint[Prev][1]=BR-309/1Front(Blue-Grey)
+Constraint[Prev][1]=BR-309-1Front(Blue-Grey)
 
-Constraint[Next][0]=BR-309/1Front(Blue-Grey)
-Constraint[Next][1]=BR-309/2Front(Blue-Grey)
+Constraint[Next][0]=BR-309-1Front(Blue-Grey)
+Constraint[Next][1]=BR-309-2Front(Blue-Grey)
 Constraint[Next][2]=none
 
 EmptyImage[E]=./images/br-309-bg.2.0
