@@ -85,8 +85,7 @@ $(DIRS64):
 $(DIRS128):
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
-#	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
-	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/
+	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
 
 $(DIRS192):
 	@echo "===> PAK192 $@"
