@@ -1,0 +1,650 @@
+§################################################################################
+#                                                                              #
+#                Simutrans Scenario Specific Translation File                  #
+#                           Scenario: pak128.britain                           #
+#                             Language: ru Russian                             #
+#                                Encoding: UTF-8                               #
+#                                Font : cyr.bdf                                #
+#                           Date Created: 29.08 2011                           #
+#                                                                              #
+#                                   authors:                                   #
+#                       Semichenkov Alexander - AleksRevo                      #
+#                                    note:                                     #
+#                          Timothy Khalatzky - Arhimed                         #
+#                                    note:                                     #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
+#                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                           Sava Bogdanets - Sava2004                          #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                                    note:                                     #
+#                                   - sagaudi                                  #
+#                                    note:                                     #
+#                                                                              #
+################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+PowerBridge
+Мост ВЛЭП
+#___________________________________building____________________________________
+#___________________________________building____________________________________
+PowerDest
+Подстанция
+PowerSource
+Распределительная подстанция
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
+#____________________________________factory____________________________________
+#____________________________________factory____________________________________
+ArableFarm1750
+Овощное хозяйство
+ArableFarm1840
+Овощное хозяйство
+ArableFarm1910
+Овощное хозяйство
+ArableFarm1945
+Овощное хозяйство
+ArableFarm1975
+Овощное хозяйство
+Bakery1750
+Булочная
+Bakery1840
+Булочная
+Bakery1910
+Булочная
+Bakery1945
+Булочная
+Bakery1975
+Булочная
+Bookshop1860
+Книжный магазин
+Bookshop1920
+Книжный магазин
+Bookshop1950
+Книжный магазин
+Bookshop1970
+Книжный магазин
+Brewery1750
+Пивоварня
+Brewery1840
+Пивоварня
+Brewery1910
+Пивоварня
+Brewery1945
+Пивоварня
+Brewery1975
+Пивоварня
+Brickworks1800
+Кирпичный завод
+Brickworks1850
+Кирпичный завод
+Brickworks1905
+Кирпичный завод
+Brickworks1960
+Кирпичный завод
+Brickworks1985
+Кирпичный завод
+BuildersYard1750
+Строительная компания
+BuildersYard1800
+Строительная компания
+BuildersYard1850
+Строительная компания
+BuildersYard1905
+Строительная компания
+BuildersYard1960
+Строительная компания
+BuildersYard1985
+Строительная компания
+Butchery1820
+Мясник
+Butchery1840
+Мясник
+Butchery1910
+Мясник
+Butchery1945
+Мясник
+CarDealership1910
+Автомобильное агентство
+CarDealership1925
+Автомобильное агентство
+CarDealership1950
+Автомобильное агентство
+CarDealership1970
+Автомобильное агентство
+CarFactory1910
+Автомобильный завод
+CarFactory1925
+Автомобильный завод
+CarFactory1950
+Автомобильный завод
+CarFactory1970
+Автомобильный завод
+CattleFarm1750
+Животноводческая ферма
+CattleFarm1840
+Животноводческая ферма
+CattleFarm1910
+Животноводческая ферма
+CattleFarm1945
+Животноводческая ферма
+CattleFarm1975
+Животноводческая ферма
+CementWorks1800
+Цементный завод
+CementWorks1850
+Цементный завод
+CementWorks1905
+Цементный завод
+CementWorks1960
+Цементный завод
+CementWorks1985
+Цементный завод
+Chemist1860
+Химик
+Chemist1955
+Химик
+Chemist1975
+Химик
+ChinaShop1750
+Магазин фарфора
+ChinaShop1850
+Магазин фарфора
+ChinaShop1905
+Магазин фарфора
+ClayPit1750
+Глиняный карьер
+ClayPit1850
+Глиняный карьер
+ClayPit1905
+Глиняный карьер
+ClayPit1960
+Глиняный карьер
+ClayPit1985
+Глиняный карьер
+ClothesShop1750
+Магазин одежды
+ClothesShop1840
+Магазин одежды
+ClothesShop1910
+Магазин одежды
+ClothesShop1945
+Магазин одежды
+CoalMine1750
+Угольная шахта
+CoalMine1850
+Угольная шахта
+CoalMine1920
+Угольная шахта
+CoalMine1950
+Угольная шахта
+CoalMine1970
+Угольная шахта
+CoalPowerStation1910kraftwerk
+Угольная ЭС
+CoalPowerStation1920kraftwerk
+Угольная ЭС
+CoalPowerStation1955kraftwerk
+Угольная ЭС
+CoalPowerStation1970kraftwerk
+Угольная ЭС
+CoalYard1750
+Торговец углем
+CoalYard1850
+Торговец углем
+CoalYard1920
+Торговец углем
+Dairy
+Молочная
+Dairy1750
+Молочная
+Dairy1840
+Молочная
+Dairy1910
+Молочная
+Dairy1945
+Молочная
+Dairy1975
+Молочная
+DepartmentStore1907
+Универмаг
+DepartmentStore1935
+Универмаг
+DepartmentStore1960
+Универмаг
+DepartmentStore1990
+Универмаг
+FishingGround1750
+Рыбный промысел
+FishingGround1840
+Рыбный промысел
+FishingGround1910
+Рыбный промысел
+FishingGround1945
+Рыбный промысел
+FishingGround1975
+Рыбный промысел
+Fishmongers1820
+Торговец рыбой
+Fishmongers1840
+Торговец рыбой
+Fishmongers1910
+Торговец рыбой
+Fishmongers1945
+Торговец рыбой
+ForestSawmill1750
+Лес / Лесопилка
+ForestSawmill1850
+Лес / Лесопилка
+ForestSawmill1920
+Лес / Лесопилка
+ForestSawmill1950
+Лес / Лесопилка
+ForestSawmill1970
+Лес / Лесопилка
+FurnitureFactory1750
+Мебельная фабрика
+FurnitureFactory1850
+Мебельная фабрика
+FurnitureFactory1920
+Мебельная фабрика
+FurnitureFactory1950
+Мебельная фабрика
+FurnitureFactory1970
+Мебельная фабрика
+FurnitureShop1750
+Мебельный магазин
+FurnitureShop1850
+Мебельный магазин
+FurnitureShop1920
+Мебельный магазин
+FurnitureShop1950
+Мебельный магазин
+GrainFarm1750
+Зерновое хозяйство
+GrainFarm1840
+Зерновое хозяйство
+GrainFarm1910
+Зерновое хозяйство
+GrainFarm1945
+Зерновое хозяйство
+GrainFarm1975
+Зерновое хозяйство
+GrainMill
+Зерновая мельница
+GrainMill1750
+Зерновая мельница
+GrainMill1840
+Зерновая мельница
+GrainMill1910
+Зерновая мельница
+GrainMill1945
+Зерновая мельница
+GrainMill1975
+Зерновая мельница
+Greengrocers1820
+Зеленщик
+Greengrocers1840
+Зеленщик
+Greengrocers1910
+Зеленщик
+Greengrocers1945
+Зеленщик
+HardwareFactory1790
+Завод оборудования
+HardwareFactory1850
+Завод оборудования
+HardwareFactory1920
+Завод оборудования
+HardwareFactory1950
+Завод оборудования
+HardwareShop1790
+Магазин оборудования
+HardwareShop1850
+Магазин оборудования
+HardwareShop1920
+Магазин оборудования
+IronOreMine
+Шахта железной руды
+IronOreMine1750
+Шахта железной руды
+IronOreMine1850
+Шахта железной руды
+IronOreMine1920
+Шахта железной руды
+IronOreMine1950
+Шахта железной руды
+IronOreMine1970
+Шахта железной руды
+Newsagent1860
+Газетный киоск
+Newsagent1920
+Газетный киоск
+Newsagent1950
+Газетный киоск
+Newsagent1970
+Газетный киоск
+OilPowerStation1950kraftwerk
+ЭС на мазуте
+OilPowerStation1970kraftwerk
+ЭС на мазуте
+OilRefinery
+НПЗ
+OilRefinery1910
+НПЗ
+OilRefinery1925
+НПЗ
+OilRefinery1955
+НПЗ
+OilRefinery1975
+НПЗ
+OilRig1955
+Нефтяная платформа
+OilRig1975
+Нефтяная платформа
+OilWell1910
+Нефтяная скважина
+OilWell1925
+Нефтяная скважина
+OilWell1955
+Нефтяная скважина
+Orchard1750
+Фруктовый сад
+Orchard1840
+Фруктовый сад
+Orchard1910
+Фруктовый сад
+Orchard1945
+Фруктовый сад
+Orchard1975
+Фруктовый сад
+PaperMill1860
+Бумажная фабрика
+PaperMill1920
+Бумажная фабрика
+PaperMill1950
+Бумажная фабрика
+PaperMill1970
+Бумажная фабрика
+PetrolStation
+АЗС
+PetrolStation1910
+АЗС
+PetrolStation1925
+АЗС
+PetrolStation1955
+АЗС
+PetrolStation1975
+АЗС
+PharmaceuticalFactory1860
+Фармацевтический завод
+PharmaceuticalFactory1920
+Фармацевтический завод
+PharmaceuticalFactory1955
+Фармацевтический завод
+PharmaceuticalFactory1975
+Фармацевтический завод
+Pottery1750
+Завод керамики
+Pottery1850
+Завод керамики
+Pottery1905
+Завод керамики
+Pottery1960
+Завод керамики
+Printworks1860
+Типография
+Printworks1920
+Типография
+Printworks1950
+Типография
+Printworks1970
+Типография
+Pub1750
+Пивная
+Pub1840
+Пивная
+Pub1910
+Пивная
+Pub1945
+Пивная
+Quarry1750
+Каменный карьер
+Quarry1850
+Каменный карьер
+Quarry1905
+Каменный карьер
+Quarry1960
+Каменный карьер
+Quarry1985
+Каменный карьер
+SheepFarm1750
+Овцеферма
+SheepFarm1840
+Овцеферма
+SheepFarm1910
+Овцеферма
+SheepFarm1945
+Овцеферма
+SheepFarm1975
+Овцеферма
+Slaughterhouse1750
+Бойня
+Slaughterhouse1840
+Бойня
+Slaughterhouse1910
+Бойня
+Slaughterhouse1945
+Бойня
+Slaughterhouse1975
+Бойня
+SteelMill1790
+Сталелитейный завод
+SteelMill1850
+Сталелитейный завод
+SteelMill1920
+Сталелитейный завод
+SteelMill1950
+Сталелитейный завод
+TextileMill1750
+Текстильная фабрика
+TextileMill1840
+Текстильная фабрика
+TextileMill1910
+Текстильная фабрика
+TextileMill1945
+Текстильная фабрика
+TextileMill1975
+Текстильная фабрика
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+Autos
+автомобили
+beer
+пиво
+Bretter
+доски
+bricks
+кирпичи
+Bucher
+книги
+canned_food
+полуфабрикаты
+Cement
+цемент
+Chemicals
+химикаты
+china
+фарфор
+cider
+сидр
+clay
+глина
+Concrete
+бетон
+corn
+хлеб
+cotton
+хлопок
+Eisenerz
+железная руда
+electronics
+электроника
+Ethanol
+спирт
+fertilizer
+удобрения
+fish
+рыба
+flour
+мука
+food
+еда
+FreshFish
+живая рыба
+fruit
+фрукты
+FuelOil
+мазут
+Gasoline
+бензин
+glass
+стекло
+goods_
+товары
+grain
+зерно
+hardware
+оборудование
+Holz
+лес
+Kohle
+уголь
+livestock
+скот
+meat
+мясо
+milk
+молоко
+Moebel
+мебель
+newspaper
+газеты
+None
+нет
+Oel
+нефть
+Papier
+бумага
+Passagiere
+пассажиры
+pharmaceuticals
+лекарства
+Plastik
+пластмасса
+Post
+почта
+Sand
+песок
+Stahl
+сталь
+Stone
+камень
+textile
+текстиль
+vegetables
+овощи
+waste
+отходы
+woodchip
+опилки
+wool
+шерсть
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+CATEGORY_01
+штучный груз
+CATEGORY_02
+сыпучий груз\n
+CATEGORY_03
+нефть/бензин
+CATEGORY_04
+заморозка
+CATEGORY_05
+жидкая еда
+CATEGORY_06
+длинномеры
+CATEGORY_07
+с/х продукты
+#_____________________________________tree______________________________________
+#_____________________________________tree______________________________________
+EnglishOak
+дуб
+NorwaySpruce
+ель
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+CanalTunnel
+Канальный тоннель
+RailTunnelBrick
+Кирпичный ж/д тоннель
+RailTunnelConcrete
+Бетонный ж/д тоннель
+RailTunnelStone
+Каменный ж/д тоннель
+RoadTunnelBrick
+Кирпичный автомобильный тоннель
+RoadTunnelConcrete
+Бетонный автомобильный тоннель
+RoadTunnelStone
+Каменный автомобильный тоннель
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+CarFactory1970
+Автомобильный завод
+FishingGround1910
+Рыбный промысел
+Fishmongers1945
+Торговец рыбой
+#______________________________________way______________________________________
+#______________________________________way______________________________________
+asphalt_road
+асфальтовая дорога
+Canal
+канал
+city_road
+городская дорога
+cobblestone_road
+булыжная дорога
+cssr
+стальные рельсы с бетонными шпалами
+cssri
+улучшенные стальные рельсы с бетонными шпалами
+dirt_road
+грунтовая дорога
+Powerline
+ВЛЭП
+River0
+ручей (не судоходный)
+River1
+мелкая река (не судоходная)
+River2
+река (судоходная)
+River3
+широкая река (судоходная)
+tgv
+высокоскоростные рельсы
+TramTrack
+трамвайные пути
+wrought_iron_improved_track
+улучшенные кованные железные рельсы
+wrought_iron_track
+кованные железные рельсы
+wssr
+стальные рельсы с деревянными шпалами
+wssri
+улучшенные стальные рельсы с деревянными шпалами
+#__________________________________way-object___________________________________
+#__________________________________way-object___________________________________
