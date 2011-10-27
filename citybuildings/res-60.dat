@@ -9,8 +9,8 @@ retire_year=1980
 needs_ground=1
 dims=1,1,1
 
-BackImage[0][0][0][0][0][0]=images/res/60-5f-tower-block.0
-BackImage[0][0][0][0][0][1]=images/res/60-5f-tower-block.1
+BackImage[0][0][0][0][0][0]=images/res/60-5f-tower-block.0.0
+BackImage[0][0][0][0][0][1]=images/res/60-5f-tower-block.0.1
 --
 Obj=building
 Name=RES_KG_1960_01_04
@@ -23,10 +23,10 @@ retire_year=1980
 needs_ground=1
 dims=1,1,2
 
-BackImage[0][0][0][0][0][0]=images/res/60-council-house-a-0.0
-BackImage[1][0][0][0][0][0]=images/res/60-council-house-a-1.0
-BackImage[0][0][0][0][0][1]=images/res/60-council-house-a-0.1
-BackImage[1][0][0][0][0][1]=images/res/60-council-house-a-1.1
+BackImage[0][0][0][0][0][0]=images/res/60-council-house-a-0.0.0
+BackImage[1][0][0][0][0][0]=images/res/60-council-house-a-1.0.0
+BackImage[0][0][0][0][0][1]=images/res/60-council-house-a-0.0.1
+BackImage[1][0][0][0][0][1]=images/res/60-council-house-a-1.0.1
 --
 Obj=building
 Name=RES_KG_1960_02_08
@@ -39,10 +39,10 @@ retire_year=1980
 needs_ground=1
 dims=1,1,2
 
-BackImage[0][0][0][0][0][0]=images/res/60-council-house-b-0.0
-BackImage[1][0][0][0][0][0]=images/res/60-council-house-b-1.0
-BackImage[0][0][0][0][0][1]=images/res/60-council-house-b-0.1
-BackImage[1][0][0][0][0][1]=images/res/60-council-house-b-1.1
+BackImage[0][0][0][0][0][0]=images/res/60-council-house-b-0.0.0
+BackImage[1][0][0][0][0][0]=images/res/60-council-house-b-1.0.0
+BackImage[0][0][0][0][0][1]=images/res/60-council-house-b-0.0.1
+BackImage[1][0][0][0][0][1]=images/res/60-council-house-b-1.0.1
 --
 Obj=building
 Name=RES_KG_1960_03_12
