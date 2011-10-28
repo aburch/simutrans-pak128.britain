@@ -100,11 +100,12 @@ $(DIRS224):
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
-	@echo -e -n "Obj=ground\nName=Outside\ncopyright=pak128.Britain 1.09 nightly 111.0 r" >$@/outside.dat
-	@svnversion >>$@/outside.dat
-	@echo -e "Image[0][0]=images/ls-water-128.0.0\n-" >>$@/outside.dat
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
-	@rm $@/outside.dat
+	@echo -e -n "Obj=ground\nName=Outside\ncopyright=pak128.Britain 1.09 nightly 111.0 r" >$@/outsiderev.dat
+	@svnversion >>$@/outsiderev.dat
+	@echo -e "Image[0][0]=images/ls-water-128.0.0\n-" >>$@/outsiderev.dat
+	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/outsiderev.dat > /dev/null
+	@rm $@/outsiderev.dat
 
 clean:
 	@echo "===> CLEAN"
