@@ -19,12 +19,12 @@ sound=-1
 Constraint[Next][0]=LSWR-Third-Carriage
 Constraint[Next][1]=LSWR-Third-Brake
 
-EmptyImage[E]=./images/lswr-carriage.0
-EmptyImage[SE]=./images/lswr-carriage.1
-EmptyImage[S]=./images/lswr-carriage.2
-EmptyImage[SW]=./images/lswr-carriage.3
-EmptyImage[W]=./images/lswr-carriage.4
-EmptyImage[NW]=./images/lswr-carriage.5
-EmptyImage[N]=./images/lswr-carriage.6
-EmptyImage[NE]=./images/lswr-carriage.7
+EmptyImage[E]=./images/lswr-carriage.0.0
+EmptyImage[SE]=./images/lswr-carriage.0.1
+EmptyImage[S]=./images/lswr-carriage.0.2
+EmptyImage[SW]=./images/lswr-carriage.0.3
+EmptyImage[W]=./images/lswr-carriage.0.4
+EmptyImage[NW]=./images/lswr-carriage.0.5
+EmptyImage[N]=./images/lswr-carriage.0.6
+EmptyImage[NE]=./images/lswr-carriage.0.7
 

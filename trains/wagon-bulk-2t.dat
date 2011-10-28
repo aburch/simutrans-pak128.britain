@@ -17,14 +17,14 @@ cost=46000
 runningcost=1
 sound=-1
 
-EmptyImage[E]=./images/wagon-2t.0
-EmptyImage[SE]=./images/wagon-2t.1
-EmptyImage[S]=./images/wagon-2t.2
-EmptyImage[SW]=./images/wagon-2t.3
-EmptyImage[W]=./images/wagon-2t.4
-EmptyImage[NW]=./images/wagon-2t.5
-EmptyImage[N]=./images/wagon-2t.6
-EmptyImage[NE]=./images/wagon-2t.7
+EmptyImage[E]=./images/wagon-2t.0.0
+EmptyImage[SE]=./images/wagon-2t.0.1
+EmptyImage[S]=./images/wagon-2t.0.2
+EmptyImage[SW]=./images/wagon-2t.0.3
+EmptyImage[W]=./images/wagon-2t.0.4
+EmptyImage[NW]=./images/wagon-2t.0.5
+EmptyImage[N]=./images/wagon-2t.0.6
+EmptyImage[NE]=./images/wagon-2t.0.7
 
 
 freightimagetype[4]=Cement

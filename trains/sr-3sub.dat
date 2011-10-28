@@ -102,12 +102,12 @@ Constraint[Next][0]=SR-3SUB(rear)
 
 Constraint[Prev][0]=SR-3SUB(front)
 
-EmptyImage[E]=./images/sr-3sub-trailer.0
-EmptyImage[SE]=./images/sr-3sub-trailer.1
-EmptyImage[S]=./images/sr-3sub-trailer.2
-EmptyImage[SW]=./images/sr-3sub-trailer.3
-EmptyImage[W]=./images/sr-3sub-trailer.4
-EmptyImage[NW]=./images/sr-3sub-trailer.5
-EmptyImage[N]=./images/sr-3sub-trailer.6
-EmptyImage[NE]=./images/sr-3sub-trailer.7
+EmptyImage[E]=./images/sr-3sub-trailer.0.0
+EmptyImage[SE]=./images/sr-3sub-trailer.0.1
+EmptyImage[S]=./images/sr-3sub-trailer.0.2
+EmptyImage[SW]=./images/sr-3sub-trailer.0.3
+EmptyImage[W]=./images/sr-3sub-trailer.0.4
+EmptyImage[NW]=./images/sr-3sub-trailer.0.5
+EmptyImage[N]=./images/sr-3sub-trailer.0.6
+EmptyImage[NE]=./images/sr-3sub-trailer.0.7
 

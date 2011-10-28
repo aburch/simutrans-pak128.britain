@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=70
 # Calculated from data from Ahrons, p. 121
-# Loss factor set at 0.7, assumed 100lbs boiler pressure. 
+# Loss factor set at 0.0.7, assumed 100lbs boiler pressure. 
 # Half boiler pressure used to calculate power.
 power=250
 gear=300
@@ -24,11 +24,11 @@ cost=7790000
 runningcost=820
 sound=-1
 
-EmptyImage[E]=./images/lnwr-side-tank.4
-EmptyImage[SE]=./images/lnwr-side-tank.5
-EmptyImage[S]=./images/lnwr-side-tank.6
-EmptyImage[SW]=./images/lnwr-side-tank.7
-EmptyImage[W]=./images/lnwr-side-tank.0
-EmptyImage[NW]=./images/lnwr-side-tank.1
-EmptyImage[N]=./images/lnwr-side-tank.2
-EmptyImage[NE]=./images/lnwr-side-tank.3
+EmptyImage[E]=./images/lnwr-side-tank.0.4
+EmptyImage[SE]=./images/lnwr-side-tank.0.5
+EmptyImage[S]=./images/lnwr-side-tank.0.6
+EmptyImage[SW]=./images/lnwr-side-tank.0.7
+EmptyImage[W]=./images/lnwr-side-tank.0.0
+EmptyImage[NW]=./images/lnwr-side-tank.0.1
+EmptyImage[N]=./images/lnwr-side-tank.0.2
+EmptyImage[NE]=./images/lnwr-side-tank.0.3

@@ -24,14 +24,14 @@ Constraint[Next][4]=GWR-Express-TPO
 Constraint[Next][5]=GWR-Express-Parcel-Brake
 
 
-EmptyImage[E]=./images/gwr-express-coach.0
-EmptyImage[SE]=./images/gwr-express-coach.1
-EmptyImage[S]=./images/gwr-express-coach.2
-EmptyImage[SW]=./images/gwr-express-coach.3
-EmptyImage[W]=./images/gwr-express-coach.4
-EmptyImage[NW]=./images/gwr-express-coach.5
-EmptyImage[N]=./images/gwr-express-coach.6
-EmptyImage[NE]=./images/gwr-express-coach.7
+EmptyImage[E]=./images/gwr-express-coach.0.0
+EmptyImage[SE]=./images/gwr-express-coach.0.1
+EmptyImage[S]=./images/gwr-express-coach.0.2
+EmptyImage[SW]=./images/gwr-express-coach.0.3
+EmptyImage[W]=./images/gwr-express-coach.0.4
+EmptyImage[NW]=./images/gwr-express-coach.0.5
+EmptyImage[N]=./images/gwr-express-coach.0.6
+EmptyImage[NE]=./images/gwr-express-coach.0.7
 
 ---------------------------------
 obj=vehicle
@@ -59,11 +59,11 @@ Constraint[Next][3]=GWR-Express-Mail
 Constraint[Next][4]=GWR-Express-TPO
 Constraint[Next][5]=GWR-Express-Parcel-Brake
 
-EmptyImage[E]=./images/gwr-express-coach.0
-EmptyImage[SE]=./images/gwr-express-coach.1
-EmptyImage[S]=./images/gwr-express-coach.2
-EmptyImage[SW]=./images/gwr-express-coach.3
-EmptyImage[W]=./images/gwr-express-coach.4
-EmptyImage[NW]=./images/gwr-express-coach.5
-EmptyImage[N]=./images/gwr-express-coach.6
-EmptyImage[NE]=./images/gwr-express-coach.7
+EmptyImage[E]=./images/gwr-express-coach.0.0
+EmptyImage[SE]=./images/gwr-express-coach.0.1
+EmptyImage[S]=./images/gwr-express-coach.0.2
+EmptyImage[SW]=./images/gwr-express-coach.0.3
+EmptyImage[W]=./images/gwr-express-coach.0.4
+EmptyImage[NW]=./images/gwr-express-coach.0.5
+EmptyImage[N]=./images/gwr-express-coach.0.6
+EmptyImage[NE]=./images/gwr-express-coach.0.7

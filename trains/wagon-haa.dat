@@ -16,14 +16,14 @@ cost=300000
 runningcost=7
 sound=-1
 
-EmptyImage[E]=./images/wagon-haa.0
-EmptyImage[SE]=./images/wagon-haa.1
-EmptyImage[S]=./images/wagon-haa.2
-EmptyImage[SW]=./images/wagon-haa.3
-EmptyImage[W]=./images/wagon-haa.4
-EmptyImage[NW]=./images/wagon-haa.5
-EmptyImage[N]=./images/wagon-haa.6
-EmptyImage[NE]=./images/wagon-haa.7
+EmptyImage[E]=./images/wagon-haa.0.0
+EmptyImage[SE]=./images/wagon-haa.0.1
+EmptyImage[S]=./images/wagon-haa.0.2
+EmptyImage[SW]=./images/wagon-haa.0.3
+EmptyImage[W]=./images/wagon-haa.0.4
+EmptyImage[NW]=./images/wagon-haa.0.5
+EmptyImage[N]=./images/wagon-haa.0.6
+EmptyImage[NE]=./images/wagon-haa.0.7
 
 freightimagetype[4]=Cement
 FreightImage[4][E]=./images/wagon-haa.3.0
