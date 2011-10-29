@@ -2,9 +2,9 @@ obj=vehicle
 name=GWR-Hall
 engine_type=steam
 smoke=Steam
-speed=130
-#gear=300
-power=1100
+# Slower than the Saint because of the smaller drivers.
+speed=125
+power=1200
 tractive_effort=121
 copyright=James
 intro_year=1928
@@ -17,8 +17,8 @@ payload=0
 length=7
 
 weight=76
-cost=9621000
-upgrade_price=1924200
+cost=9121000
+upgrade_price=1894200
 runningcost=1420
 sound=-1
 increase_maintenance_after_years=16
@@ -41,7 +41,7 @@ EmptyImage[NE]=./images/gwr-hall.0.7
 
 obj=vehicle
 name=GWR-Hall-Tender
-speed=130
+speed=125
 power=0
 copyright=James
 intro_year=1928

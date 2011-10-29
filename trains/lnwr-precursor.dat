@@ -2,15 +2,15 @@ obj=vehicle
 name=LNWR-Precursor
 engine_type=steam
 smoke=Steam
-speed=120
+speed=125
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
-power=1100
+power=1060
 tractive_effort=81
 copyright=James&jamespetts
 intro_year=1904
 intro_month=3
-retire_year=1907
-retire_month=9
+retire_year=1910
+retire_month=5
 waytype=track
 freight=None
 payload=0
@@ -18,8 +18,8 @@ length=6
 
 # Date from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
 weight=60
-cost=9900000
-runningcost=1402
+cost=7500000
+runningcost=885
 sound=-1
 years_before_maintenance_max_reached=21
 

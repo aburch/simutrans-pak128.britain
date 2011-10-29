@@ -440,7 +440,7 @@ cost_multiply_remove_field=5000
 # 0, set allow_bankruptsy to 1, and set allow_purchases_when_insolvent to 1.
 
 interest_rate_percent = 10
-allow_bankruptsy = 0
+allow_bankruptsy = 1
 allow_purhcases_when_insolvent = 0	
 
 # This is a compatibility setting for Simutrans-Standard. Because, in
@@ -712,6 +712,11 @@ no_tree_climates = 130
 # if set, no trees will be created at all (save about 30% memory and
 # the season change will be much smoother on small machines)
 #no_tree = 0
+
+################################### Network settings ##############################
+
+# Pakset download URL (for display on the list server)
+server_pakurl = https://github.com/downloads/jamespetts/simutrans-pak128.britain/Pak128.Britain-Ex.zip
 
 
 ################################### Livery settings ##################################

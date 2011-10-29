@@ -2,9 +2,9 @@ obj=vehicle
 name=LNWR-PrinceOfWales-tank
 engine_type=steam
 smoke=Steam
-speed=125
+speed=120
 # Tractive effort and power data unavailable - guessed from PoW tender locomotive.
-power=1075
+power=890
 tractive_effort=97
 copyright=James
 intro_year=1910
@@ -18,8 +18,8 @@ length=7
 
 # Weight data unavailable - guessed from contemporaneous types.
 weight=77
-cost=13000000
-runningcost=1504
+cost=9800000
+runningcost=995
 sound=-1
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=20

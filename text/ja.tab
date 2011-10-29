@@ -1034,9 +1034,9 @@ BR-303Pantograph(CaledonianBlue)
 BR クラス303 EMU パンタ車
 BR-303Rear(CaledonianBlue)
 BR クラス303 EMU 後部
-BR-309/1Front(Blue-Grey)
+BR-309-1Front(Blue-Grey)
 BR クラス309/1 EMU
-BR-309/2Front(Blue-Grey)
+BR-309-2Front(Blue-Grey)
 BR クラス309/2 EMU
 BR-309Middle(Blue-Grey)
 BR クラス309 EMU 中間車
@@ -1176,7 +1176,7 @@ BR-Class25(Green)
 BR クラス25
 BR-Class30(Green)
 BR クラス30
-BR-Class31/1(Blue)
+BR-Class31-1(Blue)
 BR クラス31/1
 BR-Class35(Rail-Blue)
 BR クラス35 "Hymek"
@@ -1206,7 +1206,7 @@ BR-Class71(Green)
 BR クラス71
 BR-Class73
 BR クラス73
-BR-Class81(Electric-Blue)
+BR-Class81
 BR クラス81 Bo-Bo
 BR-Class86
 BR クラス86
@@ -1786,7 +1786,7 @@ LNER-B17-Tender(Green)
 LNER クラスB17 フットボーラー 4-6-0 テンダー
 LNER-B17(Green)
 LNER クラスB17 フットボーラー 4-6-0
-LNER-B17/5-Tender(Green)
+LNER-B17-5-Tender(Green)
 LNER クラスB17/5 4-6-0 テンダー
 LNER-B17/5(Green)
 LNER クラスB17/5 4-6-0
@@ -1986,9 +1986,9 @@ MorrisMinorPiece
 モーリス・マイナー 貨物バン
 MorrisMinorPost
 モーリス・マイナー 郵便バン
-MR-1000-Tender(Maroon)
+MR-1000-Tender
 MR 1000形 テンダー
-MR-1000(Maroon)
+MR-1000
 MR 1000形
 MR-4Wheel-Brake
 MR ２軸緩急車

@@ -24,7 +24,7 @@ air_resistance=884
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=11
 
-Constraint[Next][0]=LNER-B17/5-Tender(Green)
+Constraint[Next][0]=LNER-B17-5-Tender(Green)
 
 EmptyImage[E]=./images/lner-b17-5.0.0
 EmptyImage[SE]=./images/lner-b17-5.0.1

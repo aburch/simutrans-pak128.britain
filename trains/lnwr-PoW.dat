@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=130
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Prince_of_Wales_Class
-power=1500
+power=1150	
 tractive_effort=97
 copyright=James
 intro_year=1911
@@ -18,8 +18,8 @@ length=6
 
 # Weight from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Prince_of_Wales_Class
 weight=67
-cost=12700000
-runningcost=1584
+cost=10000000
+runningcost=1000
 sound=-1
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=22
