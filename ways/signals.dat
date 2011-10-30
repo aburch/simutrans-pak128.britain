@@ -502,4 +502,20 @@ Image[7]=signals_3.9.3
 Icon=> signals_0.4.6
 Cursor=signals_0.4.7
 ---------------------------------------
+# private sign
+obj=roadsign
+name=Railgate
+copyright=??? and prissi
+cost=500
+waytype=track
+is_private=1
+intro_year = 1750
+intro_month = 9
+image[0]=images/privaterail-gate.0.0
+Image[1]=images/privaterail-gate.0.1
+Image[2]=images/privaterail-gate.0.3
+Image[3]=images/privaterail-gate.0.2
+Icon=> images/privaterail-gate.0.4
+Cursor=images/privaterail-gate.0.5
+---------------------------------------
 # END OF FILE

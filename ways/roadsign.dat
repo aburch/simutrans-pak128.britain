@@ -6,6 +6,7 @@ cost=500
 waytype=road
 min_speed=0
 single_way=1
+intro_year=1000
 image[0]=roadsign.0.0
 Image[1]=roadsign.0.1
 Image[2]=roadsign.0.2
@@ -21,6 +22,7 @@ cost=500
 waytype=road
 min_speed=0
 single_way=1
+intro_year=1000
 image[0]=roadsign.1.0
 Image[1]=roadsign.1.1
 Image[2]=roadsign.1.2
@@ -105,3 +107,19 @@ Image[14]=traffic-light.4.2
 Image[15]=traffic-light.4.3
 Icon=> traffic-light.0.0
 Cursor=traffic-light.0.1
+---------------------------------------
+# private sign
+obj=roadsign
+name=roadbarrier
+copyright=??? and prissi
+cost=500
+waytype=road
+is_private=1
+intro_year=1000
+image[0]=images/privateroad-barrier.0.0
+Image[1]=images/privateroad-barrier.0.1
+Image[2]=images/privateroad-barrier.0.2
+Image[3]=images/privateroad-barrier.0.3
+Icon=> images/privateroad-barrier.0.4
+Cursor=images/privateroad-barrier.0.5
+---------------------------------------
