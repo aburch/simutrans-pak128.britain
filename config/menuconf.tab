@@ -66,6 +66,7 @@ icon_height = 32
 # WKZ_REMOVE_WAYOBJ=33
 # WKZ_UNDERGROUND_PICK=34
 # WKZ_BUY_HOUSE=35
+# WKZ_CITYROAD=36
 
 #
 general_tool[0]=0,0,9,a
@@ -139,6 +140,22 @@ general_tool[35]=17,,11,K
 # WKZ_FILL_TREES=18
 # WKZ_DAYNIGHT_LEVEL=19
 # WKZ_VEHICLE_TOOLTIPS=20
+# WKZ_TOOGLE_PAX=21
+# WKZ_TOOGLE_PEDESTRIANS=22
+# WKZ_TRAFFIC_LEVEL=23
+# WKZ_CONVOI_TOOL=24
+# WKZ_LINE_TOOL=25
+# WKZ_DEPOT_TOOL=26 (internal use)
+# WKZ_PWDHASH_TOOL=27 (internal use)
+# WKZ_SET_PLAYER_TOOL=28 (internal use)
+# WKZ_TRAFFIC_LIGHT_TOOL=29 (internal use)
+#WKZ_CHANGE_CITY_TOOL=30 (internal use)
+#WKZ_RENAME_TOOL=31 (internal use)
+#WKZ_ADD_MESSAGE_TOOL=32 (internal use)
+#WKZ_TOGGLE_RESERVATION=33
+#WKZ_VIEW_OWNER=34
+#WKZ_RECOLOUR_TOOL=35 (internal use)
+#WKZ_ACCESS_TOOL=36 (internal use)
 #
 simple_tool[0]=0,p
 simple_tool[1]=1,W
@@ -160,6 +177,8 @@ simple_tool[15]=,U,U
 simple_tool[16]=4,R
 simple_tool[17]=,X
 simple_tool[20]=,/
+simple_tool[33]=,B
+simple_tool[34]=,O
 
 # THIRD SECTION: dialoge tools
 # since these tools immeadiately open only a dialoge,
@@ -337,7 +356,7 @@ toolbar[2][3]=tunnels(2)
 toolbar[2][4]=wayobjs(2)
 toolbar[2][5]=signs(2)
 toolbar[2][6]=general_tool[17],16,,2 
-toolbar[2][7]=general_tool[33],29,,2
+toolbar[2][7]=general_tool[33],30,,2
 toolbar[2][8]=buildings(33,2)
 toolbar[2][9]=buildings(34,2)
 toolbar[2][10]=buildings(35,2)

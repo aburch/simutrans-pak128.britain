@@ -49,6 +49,7 @@ Dims=1,1,1
 noconstruction=1
 level=4
 NoInfo=1
+needs_ground=1
 intro_year=1950
 needs_ground=1
 icon=> control-tower-modern.0.3
@@ -56,3 +57,5 @@ cursor=control-tower-modern.0.2
 
 BackImage[0][0][0][0][0][0]=control-tower-modern.0.1
 BackImage[0][0][0][1][0][0]=control-tower-modern.0.0
+BackImage[0][0][0][0][0][1]=control-tower-modern.0.5
+BackImage[0][0][0][1][0][1]=control-tower-modern.0.4

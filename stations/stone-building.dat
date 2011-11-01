@@ -12,10 +12,14 @@ Level=1
 intro_year=1825
 retire_year=1920
 
-BackImage[0][0][0][0][0]=stone-building.0.0
-BackImage[1][0][0][0][0]=stone-building.1.0
-BackImage[2][0][0][0][0]=stone-building.0.1
-BackImage[3][0][0][0][0]=stone-building.1.1
+BackImage[0][0][0][0][0][0]=stone-building.0.0
+BackImage[1][0][0][0][0][0]=stone-building.1.0
+BackImage[2][0][0][0][0][0]=stone-building.0.1
+BackImage[3][0][0][0][0][0]=stone-building.1.1
+BackImage[0][0][0][0][0][1]=stone-building-snow.0.0
+BackImage[1][0][0][0][0][1]=stone-building-snow.1.0
+BackImage[2][0][0][0][0][1]=stone-building-snow.0.1
+BackImage[3][0][0][0][0][1]=stone-building-snow.1.1
 
 #images for 16 rotations - NB simutrans can't do this properly for extension buildings!
 #BackImage[0][0][0][0][0]=stone-building.1.6
