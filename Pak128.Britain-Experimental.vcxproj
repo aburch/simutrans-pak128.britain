@@ -152,6 +152,7 @@
     <None Include="industry\grocers.dat" />
     <None Include="industry\market.dat" />
     <None Include="narrowgauge\double-fairlie.dat" />
+    <None Include="narrowgauge\fr-coach-mail.dat" />
     <None Include="narrowgauge\fr-coach.dat" />
     <None Include="narrowgauge\single-shire.dat" />
     <None Include="narrowgauge\twin-shire.dat" />
@@ -874,6 +875,7 @@
     <None Include="trams\net-bombardier-incentro-back.dat" />
     <None Include="trams\net-bombardier-incentro-front.dat" />
     <None Include="ways\narrow-crossing.dat" />
+    <None Include="ways\narrow-rail-crossing.dat" />
     <None Include="ways\new-crossing.dat" />
     <None Include="gui\gui128\new_cursor.dat" />
     <None Include="gui\gui64\new_menus.dat" />
@@ -991,7 +993,6 @@
     <None Include="..\..\simutrans-experimental-binaries\text\en\sound.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\special.txt" />
     <None Include="config\speedbonus.tab" />
-    <None Include="..\config\speedbonus.tab" />
     <None Include="trains\sr-1-co-co-1.dat" />
     <None Include="trains\sr-401[bil]back-g.dat" />
     <None Include="trains\sr-401[bil]front-g.dat" />

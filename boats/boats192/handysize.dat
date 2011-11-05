@@ -10,11 +10,10 @@ freight=vegetables
 payload=925
 weight=500
 length=16
-cost=200000
-runningcost=200
+cost=6750000
+runningcost=350
 intro_year=1958
 intro_month=1
-
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -50,8 +49,8 @@ freight=fish
 payload=925
 weight=500
 length=16
-cost=200000
-runningcost=200
+cost=6750000
+runningcost=350
 intro_year=1958
 intro_month=1
 
@@ -91,8 +90,8 @@ freight=Oel
 payload=925
 weight=500
 length=16
-cost=200000
-runningcost=200
+cost=6750000
+runningcost=350
 intro_year=1958
 intro_month=1
 
@@ -121,8 +120,8 @@ freight=Kohle
 payload=925
 weight=500
 length=16
-cost=200000
-runningcost=200
+cost=6750000
+runningcost=350
 intro_year=1958
 intro_month=1
 
@@ -203,8 +202,8 @@ freight=Bretter
 payload=925
 weight=500
 length=16
-cost=200000
-runningcost=200
+cost=6750000
+runningcost=350
 intro_year=1958
 intro_month=1
 
