@@ -16,13 +16,16 @@ retire_month=2
 waytype=track
 freight=None
 payload=0
-length=6
+length=7
 
 # Weight not given in Ahrons, but taken from a similar type mentioned at p. 91.
 weight=20
 cost=7500000
 runningcost=800
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
