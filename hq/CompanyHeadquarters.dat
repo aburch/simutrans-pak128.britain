@@ -5,7 +5,7 @@
 --------------------------------------------------------------------------------
 
 obj=building
-Name=HQ0_0
+Name=HQ1-1750
 copyright=WLindley
 type=hq
 hq_level=0
@@ -13,18 +13,90 @@ passengers=10
 NoInfo=1
 Dims=1,1,4
 needs_ground=1
-icon=> headquarters.1.2
-cursor=headquarters.0.2
+icon=> hq-icon.1.0
+cursor=hq-icon.0.0
+intro_year=1750
+retire_year=1840
 
-BackImage[0][0][0][0][0]=headquarters.3.0
-BackImage[1][0][0][0][0]=headquarters.3.2
-BackImage[2][0][0][0][0]=headquarters.3.1
-BackImage[3][0][0][0][0]=headquarters.3.3
+BackImage[0][0][0][0][0][0]=headquarters.0.4
+BackImage[1][0][0][0][0][0]=headquarters.0.5
+BackImage[2][0][0][0][0][0]=headquarters.0.6
+BackImage[3][0][0][0][0][0]=headquarters.0.7
+BackImage[0][0][0][0][0][1]=headquarters-snow.0.4
+BackImage[1][0][0][0][0][1]=headquarters-snow.0.5
+BackImage[2][0][0][0][0][1]=headquarters-snow.0.6
+BackImage[3][0][0][0][0][1]=headquarters-snow.0.7
 
-----------------
+-------------
 
 obj=building
-Name=HQ1_0
+Name=HQ1-1840
+copyright=WLindley
+type=hq
+hq_level=0
+passengers=10
+NoInfo=1
+Dims=1,1,4
+needs_ground=1
+icon=> hq-icon.1.0
+cursor=hq-icon.0.0
+intro_year=1840
+retire_year=1920
+
+BackImage[0][0][0][0][0][0]=headquarters.1.4
+BackImage[1][0][0][0][0][0]=headquarters.1.5
+BackImage[2][0][0][0][0][0]=headquarters.1.6
+BackImage[3][0][0][0][0][0]=headquarters.1.7
+BackImage[0][0][0][0][0][1]=headquarters-snow.1.4
+BackImage[1][0][0][0][0][1]=headquarters-snow.1.5
+BackImage[2][0][0][0][0][1]=headquarters-snow.1.6
+BackImage[3][0][0][0][0][1]=headquarters-snow.1.7
+
+-------------
+
+obj=building
+Name=HQ1-1920
+copyright=WLindley
+type=hq
+hq_level=0
+passengers=10
+NoInfo=1
+Dims=1,1,2
+needs_ground=1
+icon=> hq-icon.1.0
+cursor=hq-icon.0.0
+intro_year=1920
+retire_year=1955
+
+BackImage[0][0][0][0][0][0]=headquarters.2.4
+BackImage[1][0][0][0][0][0]=headquarters.2.5
+BackImage[0][0][0][0][0][1]=headquarters-snow.2.4
+BackImage[1][0][0][0][0][1]=headquarters-snow.2.5
+
+-------------
+
+obj=building
+Name=HQ1-1955
+copyright=WLindley
+type=hq
+hq_level=0
+passengers=10
+NoInfo=1
+Dims=1,1,2
+needs_ground=1
+icon=> hq-icon.1.0
+cursor=hq-icon.0.0
+intro_year=1955
+
+BackImage[0][0][0][0][0][0]=headquarters.2.6
+BackImage[1][0][0][0][0][0]=headquarters.2.7
+BackImage[0][0][0][0][0][1]=headquarters-snow.2.6
+BackImage[1][0][0][0][0][1]=headquarters-snow.2.7
+
+-------------
+
+obj=building
+Name=HQ2
 copyright=James
 type=hq
 hq_level=1
@@ -32,29 +104,60 @@ passengers=50
 NoInfo=1
 Dims=1,1,4
 needs_ground=1
-icon=> headquarters.1.2
-cursor=headquarters.0.2
+icon=> hq-icon.1.0
+cursor=hq-icon.0.0
 
-BackImage[0][0][0][0][0]=headquarters.2.0
-BackImage[1][0][0][0][0]=headquarters.2.2
-BackImage[2][0][0][0][0]=headquarters.2.1
-BackImage[3][0][0][0][0]=headquarters.2.3
+BackImage[0][0][0][0][0][0]=headquarters.0.0
+BackImage[1][0][0][0][0][0]=headquarters.0.1
+BackImage[2][0][0][0][0][0]=headquarters.0.2
+BackImage[3][0][0][0][0][0]=headquarters.0.3
+BackImage[0][0][0][0][0][1]=headquarters-snow.0.0
+BackImage[1][0][0][0][0][1]=headquarters-snow.0.1
+BackImage[2][0][0][0][0][1]=headquarters-snow.0.2
+BackImage[3][0][0][0][0][1]=headquarters-snow.0.3
 
-----------------
+-------------
 
 obj=building
-Name=HQ2_0
+Name=HQ3
 copyright=Kieron
 type=hq
 hq_level=2
+passengers=100
+NoInfo=1
+Dims=1,1,4
+needs_ground=1
+icon=> hq-icon.1.0
+cursor=hq-icon.0.0
+
+BackImage[0][0][0][0][0][0]=headquarters.1.0
+BackImage[1][0][0][0][0][0]=headquarters.1.1
+BackImage[2][0][0][0][0][0]=headquarters.1.2
+BackImage[3][0][0][0][0][0]=headquarters.1.3
+BackImage[0][0][0][0][0][1]=headquarters-snow.1.0
+BackImage[1][0][0][0][0][1]=headquarters-snow.1.1
+BackImage[2][0][0][0][0][1]=headquarters-snow.1.2
+BackImage[3][0][0][0][0][1]=headquarters-snow.1.3
+
+-------------
+
+obj=building
+Name=HQ4
+copyright=Kieron
+type=hq
+hq_level=3
 passengers=200
 NoInfo=1
 Dims=1,1,4
 needs_ground=1
-icon=> headquarters.1.2
-cursor=headquarters.0.2
+icon=> hq-icon.1.0
+cursor=hq-icon.0.0
 
-BackImage[0][0][0][0][0]=headquarters.0.0
-BackImage[1][0][0][0][0]=headquarters.1.0
-BackImage[2][0][0][0][0]=headquarters.0.1
-BackImage[3][0][0][0][0]=headquarters.1.1
+BackImage[0][0][0][0][0][0]=headquarters.2.0
+BackImage[1][0][0][0][0][0]=headquarters.2.1
+BackImage[2][0][0][0][0][0]=headquarters.2.2
+BackImage[3][0][0][0][0][0]=headquarters.2.3
+BackImage[0][0][0][0][0][1]=headquarters-snow.2.0
+BackImage[1][0][0][0][0][1]=headquarters-snow.2.1
+BackImage[2][0][0][0][0][1]=headquarters-snow.2.2
+BackImage[3][0][0][0][0][1]=headquarters-snow.2.3
