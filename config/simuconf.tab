@@ -140,8 +140,8 @@ max_longdistance_tolerance = 4320
 # would be increased by half of the multiplier, or 150%.
 
 min_bonus_max_distance = 4
-median_bonus_distance = 100
-max_bonus_min_distance = 300
+median_bonus_distance = 75
+max_bonus_min_distance = 250
 max_bonus_multiplier_percent = 300
 
 # meters_per_tile represents the length of each tile in meters. 
@@ -194,15 +194,15 @@ tolerable_comfort_median_short=60
 
 #Two hours
 tolerable_comfort_median_median_minutes=120
-tolerable_comfort_median_median=100
+tolerable_comfort_median_median=120
 
 #Five hours
 tolerable_comfort_median_long_minutes=300
-tolerable_comfort_median_long=160
+tolerable_comfort_median_long=190
 
 #12 hours
 tolerable_comfort_long_minutes=720
-tolerable_comfort_long=220
+tolerable_comfort_long=240
 
 # max_luxury_bonus_differential is the maximum number of comfort rating points above the tolerable level
 # that affects the luxury bonus. Anything beyond that, and further added luxury makes no difference to the
