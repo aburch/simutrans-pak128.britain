@@ -5,8 +5,8 @@
 MAKEOBJ ?= ./makeobj
 
 DESTDIR  ?= simutrans
-PAKDIR   ?= $(DESTDIR)/pak128.Britain
-DESTFILE ?= simupak128.Britain
+PAKDIR   ?= $(DESTDIR)/pak128.Britain.Experimental
+DESTFILE ?= simupak128.Britain.Experimental
 
 OUTSIDE :=
 OUTSIDE += grounds
@@ -26,7 +26,8 @@ DIRS128 += goods
 DIRS128 += gui/gui128
 DIRS128 += hq
 DIRS128 += industry
-DIRS128 += livery-trains
+# Experimental doesn't treat livery trains separately
+# DIRS128 += livery-trains
 DIRS128 += london-underground
 DIRS128 += maglev
 DIRS128 += narrowgauge
