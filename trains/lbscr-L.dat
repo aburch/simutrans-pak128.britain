@@ -32,14 +32,14 @@ bidirectional=1
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=SR-Olive-Green
 
-EmptyImage[E][0]=./images/lbscr-L.0
-EmptyImage[SE][0]=./images/lbscr-L.1
-EmptyImage[S][0]=./images/lbscr-L.2
-EmptyImage[SW][0]=./images/lbscr-L.3
-EmptyImage[W][0]=./images/lbscr-L.4
-EmptyImage[NW][0]=./images/lbscr-L.5
-EmptyImage[N][0]=./images/lbscr-L.6
-EmptyImage[NE][0]=./images/lbscr-L.7
+EmptyImage[E][0]=./images/lbscr-L.0.0
+EmptyImage[SE][0]=./images/lbscr-L.0.1
+EmptyImage[S][0]=./images/lbscr-L.0.2
+EmptyImage[SW][0]=./images/lbscr-L.0.3
+EmptyImage[W][0]=./images/lbscr-L.0.4
+EmptyImage[NW][0]=./images/lbscr-L.0.5
+EmptyImage[N][0]=./images/lbscr-L.0.6
+EmptyImage[NE][0]=./images/lbscr-L.0.7
 
 EmptyImage[E][1]=./images/lbscr-l-olive_E.0
 EmptyImage[SE][1]=./images/lbscr-l-olive_SE.0
