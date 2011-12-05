@@ -23,7 +23,6 @@ DIRS128 += citybuildings
 DIRS128 += citycars
 DIRS128 += depots
 DIRS128 += goods
-DIRS128 += grounds
 DIRS128 += gui/gui128
 DIRS128 += hq
 DIRS128 += industry
