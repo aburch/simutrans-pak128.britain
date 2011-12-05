@@ -22,12 +22,12 @@ cost=2000000
 runningcost=800
 sound=-1
 
-EmptyImage[E]=./images/lnwr-coal-tank.4
-EmptyImage[SE]=./images/lnwr-coal-tank.5
-EmptyImage[S]=./images/lnwr-coal-tank.6
-EmptyImage[SW]=./images/lnwr-coal-tank.7
-EmptyImage[W]=./images/lnwr-coal-tank.0
-EmptyImage[NW]=./images/lnwr-coal-tank.1
-EmptyImage[N]=./images/lnwr-coal-tank.2
-EmptyImage[NE]=./images/lnwr-coal-tank.3
+EmptyImage[E]=./images/lnwr-coal-tank.0.4
+EmptyImage[SE]=./images/lnwr-coal-tank.0.5
+EmptyImage[S]=./images/lnwr-coal-tank.0.6
+EmptyImage[SW]=./images/lnwr-coal-tank.0.7
+EmptyImage[W]=./images/lnwr-coal-tank.0.0
+EmptyImage[NW]=./images/lnwr-coal-tank.0.1
+EmptyImage[N]=./images/lnwr-coal-tank.0.2
+EmptyImage[NE]=./images/lnwr-coal-tank.0.3
 

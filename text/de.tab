@@ -5,12 +5,14 @@
 #                             Language: de Deutsch                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
-#                            Date Created: 8.07 2009                           #
+#                           Date Created: 14.03 2010                           #
 #                                                                              #
 #                                   authors:                                   #
 #                            Alexander Brose - AlexB                           #
 #                                    note:                                     #
 #                         Klaus Thenmayer - Bitfreezer                         #
+#                                    note:                                     #
+#                                  - Christian                                 #
 #                                    note:                                     #
 #                                   - Combuijs                                 #
 #                                    note:                                     #
@@ -18,13 +20,21 @@
 #                       note: Administrator pak192.comic                       #
 #                             Dirk W. - DirrrtyDirk                            #
 #                                    note:                                     #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
 #                            Christian W. - Eps-Omo                            #
 #                                    note:                                     #
+#                                   - Florian                                  #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
+#                                    - GerdW                                   #
+#                                    note:                                     #
 #                         Roman Schwörer - Gotthardlok                         #
 #                                    note:                                     #
 #                           Hansjörg Malthaner - Hajo                          #
+#                                    note:                                     #
+#                              Jaroslaw - Jaroslaw                             #
 #                                    note:                                     #
 #                             Marcus Haupt - Marcus                            #
 #note: if I´m not available by email to proximity.de try mail@marcus-haupt.de (#
@@ -35,11 +45,11 @@
 #                            Günter Beine - gebeine                            #
 #                        note: maintainer pak128.german                        #
 #                            Jonas Bushart - jonasbb                           #
-#                                    note:                                     #
+#                        note: developer SimuTranslator                        #
 #                              Markus Rex - msrex                              #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                            Oliver Mayer - rakishly                           #
 #                                    note:                                     #
 #                               Sven Osada - sojo                              #
@@ -66,50 +76,28 @@ Stadthalle
 Stadthalle
 04_CITY
 Stadthalle
-BusStop
-Kleine Bushaltestelle
 KG_COM_1970_0
-Bürogebäude\n\n\n\n\n\n\n
+Bürogebäude
 KG_RES_1920_00
-Vorstadtwohnung\n\n\n\n\n\n\n
+Vorstadtwohnung
 KG_RES_80_00
-Kleine Vorstadtwohnung\n\n\n\n\n\n\n
+Kleine Vorstadtwohnung
 KG_RES_80_01
-Vorstadtwohnung\n\n\n\n\n\n\n
+Vorstadtwohnung
 KG_RES_80_02
-Wohnungsblock\n\n\n\n\n\n\n
-LoadingBay
-Ladebucht mit Briefkasten
+Wohnungsblock
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 GrainMill
 Getreidemühle
 IronOreMine
 Eisenerz Mine
-SheepFarm
-Schaf Farm
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
-beer
-Bier
-Chemicals
-Chemikalien
-fish
-Fisch
-fruit
-Früchte
-Gasoline
-Benzin
-grain
-Getreide
-hardware
-Hardware
-meat
-Fleisch
-milk
-Milch
-newspaper
-Zeitung
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
 ChooseSign
@@ -143,31 +131,13 @@ Signal
 #_____________________________________tree______________________________________
 #_____________________________________tree______________________________________
 EnglishOak
-Englische Eiche\n\n\n\n\n\n\n
+Englische Eiche
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 CanalTunnel
 Kanaltunnel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
-LeylandLeopard
-Leyland Leopard
-LeylandLynx
-Leyland Lynx
-LeylandOlympian
-Leyland Olympian
-LeylandOlympianCoach
-Leyland Olymbian (Omnibus)
-LeylandTiger
-Leyland Tiger
-LeylandTitanB15
-Leyland Titan
-MercedesCitaroG(Front)
-Mercedes Citaro GL
-MercedesCitaroG(Rear)
-Mercedes Citaro GL (Beiwagen)
-MercedesCitaroK
-Mercedes Citaro K
 Tram-Horses
 Pferdegespann
 #______________________________________way______________________________________

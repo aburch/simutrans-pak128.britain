@@ -1,5 +1,5 @@
 obj=vehicle
-name=LNER-B17/5(Green)
+name=LNER-B17-5(Green)
 engine_type=steam
 smoke=Steam
 speed=150
@@ -20,7 +20,7 @@ cost=8467200
 runningcost=1452
 sound=-1
 
-Constraint[Next][0]=LNER-B17/5-Tender(Green)
+Constraint[Next][0]=LNER-B17-5-Tender(Green)
 
 EmptyImage[E]=./images/lner-b17-5.0.0
 EmptyImage[SE]=./images/lner-b17-5.0.1

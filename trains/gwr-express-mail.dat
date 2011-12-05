@@ -24,14 +24,14 @@ Constraint[Next][4]=GWR-Express-TPO
 Constraint[Next][5]=GWR-Express-Parcel-Brake
 
 
-EmptyImage[E]=./images/gwr-express-mail.0
-EmptyImage[SE]=./images/gwr-express-mail.1
-EmptyImage[S]=./images/gwr-express-mail.2
-EmptyImage[SW]=./images/gwr-express-mail.3
-EmptyImage[W]=./images/gwr-express-mail.4
-EmptyImage[NW]=./images/gwr-express-mail.5
-EmptyImage[N]=./images/gwr-express-mail.6
-EmptyImage[NE]=./images/gwr-express-mail.7
+EmptyImage[E]=./images/gwr-express-mail.0.0
+EmptyImage[SE]=./images/gwr-express-mail.0.1
+EmptyImage[S]=./images/gwr-express-mail.0.2
+EmptyImage[SW]=./images/gwr-express-mail.0.3
+EmptyImage[W]=./images/gwr-express-mail.0.4
+EmptyImage[NW]=./images/gwr-express-mail.0.5
+EmptyImage[N]=./images/gwr-express-mail.0.6
+EmptyImage[NE]=./images/gwr-express-mail.0.7
 
 ---------------------------------
 obj=vehicle
@@ -59,11 +59,11 @@ Constraint[Next][3]=GWR-Express-Mail
 Constraint[Next][4]=GWR-Express-TPO
 Constraint[Next][5]=GWR-Express-Parcel-Brake
 
-EmptyImage[E]=./images/gwr-express-tpo.0
-EmptyImage[SE]=./images/gwr-express-tpo.1
-EmptyImage[S]=./images/gwr-express-tpo.2
-EmptyImage[SW]=./images/gwr-express-tpo.3
-EmptyImage[W]=./images/gwr-express-tpo.4
-EmptyImage[NW]=./images/gwr-express-tpo.5
-EmptyImage[N]=./images/gwr-express-tpo.6
-EmptyImage[NE]=./images/gwr-express-tpo.7
+EmptyImage[E]=./images/gwr-express-tpo.0.0
+EmptyImage[SE]=./images/gwr-express-tpo.0.1
+EmptyImage[S]=./images/gwr-express-tpo.0.2
+EmptyImage[SW]=./images/gwr-express-tpo.0.3
+EmptyImage[W]=./images/gwr-express-tpo.0.4
+EmptyImage[NW]=./images/gwr-express-tpo.0.5
+EmptyImage[N]=./images/gwr-express-tpo.0.6
+EmptyImage[NE]=./images/gwr-express-tpo.0.7

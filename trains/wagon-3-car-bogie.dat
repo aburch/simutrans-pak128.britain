@@ -18,14 +18,14 @@ cost=200000
 runningcost=10
 sound=-1
 
-EmptyImage[E]=./images/wagon-3-car-bogie.0
-EmptyImage[SE]=./images/wagon-3-car-bogie.1
-EmptyImage[S]=./images/wagon-3-car-bogie.2
-EmptyImage[SW]=./images/wagon-3-car-bogie.3
-EmptyImage[W]=./images/wagon-3-car-bogie.4
-EmptyImage[NW]=./images/wagon-3-car-bogie.5
-EmptyImage[N]=./images/wagon-3-car-bogie.6
-EmptyImage[NE]=./images/wagon-3-car-bogie.7
+EmptyImage[E]=./images/wagon-3-car-bogie.0.0
+EmptyImage[SE]=./images/wagon-3-car-bogie.0.1
+EmptyImage[S]=./images/wagon-3-car-bogie.0.2
+EmptyImage[SW]=./images/wagon-3-car-bogie.0.3
+EmptyImage[W]=./images/wagon-3-car-bogie.0.4
+EmptyImage[NW]=./images/wagon-3-car-bogie.0.5
+EmptyImage[N]=./images/wagon-3-car-bogie.0.6
+EmptyImage[NE]=./images/wagon-3-car-bogie.0.7
 
 
 freightimagetype[0]=Autos

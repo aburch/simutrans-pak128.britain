@@ -22,14 +22,14 @@ Constraint[Next][2]=LMS-d1904-Dining
 Constraint[Next][3]=LMS-Mail
 Constraint[Next][4]=LMS-TPO
 
-EmptyImage[E]=./images/lms-mail.0
-EmptyImage[SE]=./images/lms-mail.1
-EmptyImage[S]=./images/lms-mail.2
-EmptyImage[SW]=./images/lms-mail.3
-EmptyImage[W]=./images/lms-mail.4
-EmptyImage[NW]=./images/lms-mail.5
-EmptyImage[N]=./images/lms-mail.6
-EmptyImage[NE]=./images/lms-mail.7
+EmptyImage[E]=./images/lms-mail.0.0
+EmptyImage[SE]=./images/lms-mail.0.1
+EmptyImage[S]=./images/lms-mail.0.2
+EmptyImage[SW]=./images/lms-mail.0.3
+EmptyImage[W]=./images/lms-mail.0.4
+EmptyImage[NW]=./images/lms-mail.0.5
+EmptyImage[N]=./images/lms-mail.0.6
+EmptyImage[NE]=./images/lms-mail.0.7
 
 ---------------------------------
 
@@ -57,11 +57,11 @@ Constraint[Next][2]=LMS-d1904-Dining
 Constraint[Next][3]=LMS-Mail
 Constraint[Next][4]=LMS-TPO
 
-EmptyImage[E]=./images/lms-tpo.0
-EmptyImage[SE]=./images/lms-tpo.1
-EmptyImage[S]=./images/lms-tpo.2
-EmptyImage[SW]=./images/lms-tpo.3
-EmptyImage[W]=./images/lms-tpo.4
-EmptyImage[NW]=./images/lms-tpo.5
-EmptyImage[N]=./images/lms-tpo.6
-EmptyImage[NE]=./images/lms-tpo.7
+EmptyImage[E]=./images/lms-tpo.0.0
+EmptyImage[SE]=./images/lms-tpo.0.1
+EmptyImage[S]=./images/lms-tpo.0.2
+EmptyImage[SW]=./images/lms-tpo.0.3
+EmptyImage[W]=./images/lms-tpo.0.4
+EmptyImage[NW]=./images/lms-tpo.0.5
+EmptyImage[N]=./images/lms-tpo.0.6
+EmptyImage[NE]=./images/lms-tpo.0.7

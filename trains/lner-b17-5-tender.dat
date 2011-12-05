@@ -1,5 +1,5 @@
 obj=vehicle
-name=LNER-B17/5-Tender(Green)
+name=LNER-B17-5-Tender(Green)
 speed=155
 power=0
 copyright=Kieron
@@ -17,7 +17,7 @@ cost=0
 runningcost=0
 sound=-1
 
-Constraint[Prev][0]=LNER-B17/5(Green)
+Constraint[Prev][0]=LNER-B17-5(Green)
 
 EmptyImage[E]=./images/lner-b17-5.1.0
 EmptyImage[SE]=./images/lner-b17-5.1.1

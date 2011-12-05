@@ -18,14 +18,14 @@ cost=140000
 runningcost=8
 sound=-1
 
-EmptyImage[E]=./images/wagon-2-car-flat.0
-EmptyImage[SE]=./images/wagon-2-car-flat.1
-EmptyImage[S]=./images/wagon-2-car-flat.2
-EmptyImage[SW]=./images/wagon-2-car-flat.3
-EmptyImage[W]=./images/wagon-2-car-flat.4
-EmptyImage[NW]=./images/wagon-2-car-flat.5
-EmptyImage[N]=./images/wagon-2-car-flat.6
-EmptyImage[NE]=./images/wagon-2-car-flat.7
+EmptyImage[E]=./images/wagon-2-car-flat.0.0
+EmptyImage[SE]=./images/wagon-2-car-flat.0.1
+EmptyImage[S]=./images/wagon-2-car-flat.0.2
+EmptyImage[SW]=./images/wagon-2-car-flat.0.3
+EmptyImage[W]=./images/wagon-2-car-flat.0.4
+EmptyImage[NW]=./images/wagon-2-car-flat.0.5
+EmptyImage[N]=./images/wagon-2-car-flat.0.6
+EmptyImage[NE]=./images/wagon-2-car-flat.0.7
 
 
 freightimagetype[0]=Autos

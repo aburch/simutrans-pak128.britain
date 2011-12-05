@@ -16,14 +16,14 @@ cost=400000
 runningcost=20
 sound=-1
 
-EmptyImage[E]=./images/wagon-container.0
-EmptyImage[SE]=./images/wagon-container.1
-EmptyImage[S]=./images/wagon-container.2
-EmptyImage[SW]=./images/wagon-container.3
-EmptyImage[W]=./images/wagon-container.4
-EmptyImage[NW]=./images/wagon-container.5
-EmptyImage[N]=./images/wagon-container.6
-EmptyImage[NE]=./images/wagon-container.7
+EmptyImage[E]=./images/wagon-container.0.0
+EmptyImage[SE]=./images/wagon-container.0.1
+EmptyImage[S]=./images/wagon-container.0.2
+EmptyImage[SW]=./images/wagon-container.0.3
+EmptyImage[W]=./images/wagon-container.0.4
+EmptyImage[NW]=./images/wagon-container.0.5
+EmptyImage[N]=./images/wagon-container.0.6
+EmptyImage[NE]=./images/wagon-container.0.7
 
 FreightImage[E]=./images/wagon-container.2.0
 FreightImage[SE]=./images/wagon-container.2.1

@@ -1,7 +1,7 @@
 obj=vehicle
 name=CoolEarly3
 #?
-speed=30
+speed=40
 copyright=James
 intro_year=1835
 intro_month=1
@@ -17,14 +17,14 @@ cost=77000
 runningcost=1
 sound=-1
 
-EmptyImage[E]=./images/wagon-piece-early3.0
-EmptyImage[SE]=./images/wagon-piece-early3.1
-EmptyImage[S]=./images/wagon-piece-early3.2
-EmptyImage[SW]=./images/wagon-piece-early3.3
-EmptyImage[W]=./images/wagon-piece-early3.4
-EmptyImage[NW]=./images/wagon-piece-early3.5
-EmptyImage[N]=./images/wagon-piece-early3.6
-EmptyImage[NE]=./images/wagon-piece-early3.7
+EmptyImage[E]=./images/wagon-piece-early3.0.0
+EmptyImage[SE]=./images/wagon-piece-early3.0.1
+EmptyImage[S]=./images/wagon-piece-early3.0.2
+EmptyImage[SW]=./images/wagon-piece-early3.0.3
+EmptyImage[W]=./images/wagon-piece-early3.0.4
+EmptyImage[NW]=./images/wagon-piece-early3.0.5
+EmptyImage[N]=./images/wagon-piece-early3.0.6
+EmptyImage[NE]=./images/wagon-piece-early3.0.7
 
 
 FreightImage[E]=./images/wagon-piece-early3.3.0

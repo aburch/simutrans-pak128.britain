@@ -27,11 +27,11 @@ sound=-1
 
 Constraint[Next][0]=LNWR-AClass-Tender(Black)
 
-EmptyImage[E]=./images/lnwr-G1class.4
-EmptyImage[SE]=./images/lnwr-G1class.5
-EmptyImage[S]=./images/lnwr-G1class.6
-EmptyImage[SW]=./images/lnwr-G1class.7
-EmptyImage[W]=./images/lnwr-G1class.0
-EmptyImage[NW]=./images/lnwr-G1class.1
-EmptyImage[N]=./images/lnwr-G1class.2
-EmptyImage[NE]=./images/lnwr-G1class.3
+EmptyImage[E]=./images/lnwr-G1class.0.4
+EmptyImage[SE]=./images/lnwr-G1class.0.5
+EmptyImage[S]=./images/lnwr-G1class.0.6
+EmptyImage[SW]=./images/lnwr-G1class.0.7
+EmptyImage[W]=./images/lnwr-G1class.0.0
+EmptyImage[NW]=./images/lnwr-G1class.0.1
+EmptyImage[N]=./images/lnwr-G1class.0.2
+EmptyImage[NE]=./images/lnwr-G1class.0.3

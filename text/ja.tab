@@ -5,37 +5,701 @@
 #                             Language: ja Japanese                            #
 #                                Encoding: UTF-8                               #
 #                               Font : m+10r.bdf                               #
-#                            Date Created: 8.07 2009                           #
+#                           Date Created: 26.02 2011                           #
 #                                                                              #
 #                                   authors:                                   #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
 #                              Frank Penz - FrankP                             #
-#                      note: Administrator SimuTranslator                      #
+#                                    note:                                     #
 #                                    - Hamo73                                  #
 #                                    note:                                     #
 #                           Tomohiro MATSUMURA - hiro                          #
 #                                    note:                                     #
 #                          Markus Pristovsek - prissi                          #
-#              note: Administrator Base texts / pak64 / pak.japan              #
+#                                    note:                                     #
 #                          SHISHIDO Yoshihiro - yoshi                          #
 #                                    note:                                     #
 #                                 z9999 - z9999                                #
 #                                    note:                                     #
 #                                                                              #
 ################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+BrickAqueduct
+運河橋
+BrickViaduct
+煉瓦アーチ鉄道橋
+BrickViaductCobbles
+石畳 煉瓦アーチ道路橋
+BrickViaductRoad
+煉瓦アーチ道路橋
+PowerBridge
+高圧線（橋）
+WoodenTrestle
+木造の鉄道橋
+#___________________________________building____________________________________
+#___________________________________building____________________________________
+00_CITY
+村役場
+01_CITY
+町役場
+02_CITY
+町役場
+03_CITY
+市役所
+04_CITY
+市役所
+1950sStationBuilding
+1950年代駅ビル（コンコース）
+1950sStationBuildingEntrance
+1950年代駅ビル（出入口）
+1950sTerminalBuilding
+1950年代ターミナルビル
+1950sTerminalBuildingEntrance
+1950年代ターミナルビル入口
+1980s-Small-Church
+教会\n\n
+1990s-Small-Library
+図書館\n\n
+BasicApron
+駐機場
+BrickPlatformBuildingTrainStop
+屋根付煉瓦プラットホーム
+BrickPlatformOverallTrainStop
+ドーム屋根付煉瓦プラットホーム
+BrickPlatformTrainStop
+煉瓦プラットホーム
+BulkGoodsBunker
+野積み場
+BulkLoadingModern
+近代的ホッパ
+BulkLoadingOld
+ホッパ
+BusStop
+バス停
+CarYard
+駐車場
+ConcretePlatformBuildingTrainStop
+屋根付コンクリートプラットホーム
+ConcretePlatformOverallTrainStop
+大屋根付コンクリートプラットホーム
+ConcretePlatformTrainStop
+コンクリートプラットホーム
+ConcreteStationBuildingSmall
+コンクリート駅舎
+ControlTowerModern
+近代的管制塔
+CountryStationBuilding
+ローカル駅舎
+DecoStationBuildingEntrance
+アール・デコ様式駅ビル
+DecoTerminalBuildingEntrance
+アール・デコ様式ターミナルビル
+DecoTerminalBuildingTower
+アール・デコ様式管制塔付ターミナルビル
+FluidStorageStation
+油槽所
+GoodsQuay
+荷揚げ場
+GoodsSiding
+貨物ヤード
+GoodsSidingCrane
+荷役用クレーン
+GoodsWarehouseModern
+近代的貨物倉庫
+GoodsWarehouseOld
+貨物倉庫
+Greenhouse
+パームハウス\n\n
+HarbourPassenger1950s
+1950年代旅客船ターミナル
+HarbourPassengerDeco
+アール・デコ様式旅客船ターミナル
+HarbourPassengerModern
+近代的旅客船ターミナル
+HarbourPassengerOld
+旅客船ターミナル
+JetwayApron
+駐機場
+Knight-Monument
+騎士像\n\n
+Large_Football_Ground
+サッカースタジアム\n\n
+LivestockPen
+家畜集荷所
+ModernBusShelter
+近代的バス待合所
+ModernBusTerminal
+近代的バスターミナル
+ModernCargoStop
+近代的トラックターミナル
+ModernGoodsHarbour
+近代的貨物埠頭
+ModernPassengerQuay
+近代風旅客乗船場
+ModernPostOffice
+近代的郵便局
+ModernStationBuilding
+近代的駅ビル（コンコース）
+ModernStationBuildingEntrance
+近代的駅ビル（出入口）
+Nelson-Column
+ネルソン記念柱\n\n\n
+OldBusShelter
+バス待合所
+OldBusTerminal
+バスターミナル
+OldCargoStop
+トラックターミナル
+OldGoodsHarbour
+貨物埠頭
+OldPassengerQuay
+旅客乗船場
+OldPostOffice
+郵便局
+Small_Cricket_Ground
+クリケット場\n\n\n
+Small_Football_Ground
+サッカー場\n\n\n
+Small_Rugby_Ground
+ラグビー場\n\n\n
+StationStoneBuilding
+石造駅舎
+Stonehenge
+ストーンヘンジ\n\n\n
+TerminalModernBuilding
+近代的ターミナルビル
+TerminalModernBuildingEntrance
+近代的ターミナルビル入口
+War-Memorial
+戦争記念碑\n\n\n
+woodenPlatformOverallTrainStop
+大屋根付木造プラットホーム
+WoodenPlatformTrainStop
+木造プラットホーム
+#____________________________________citycar____________________________________
+#____________________________________citycar____________________________________
+AustinMetro(Blue)
+オースチン メトロ
+AustinMetro(Green)
+オースチン メトロ
+AustinMetro(Purple)
+オースチン メトロ
+AustinMetro(Red)
+オースチン メトロ
+AustinMetro(White)
+オースチン メトロ
+AustinMetro(Yellow)
+オースチン メトロ
+AustinPrincess(Ivory)
+オースチン プリンセス
+AustinPrincess(SilverBlack)
+オースチン プリンセス
+AustinSeven(Black)
+オースチン セブン
+AustinSeven(Blue)
+オースチン セブン
+AustinSeven(Cream)
+オースチン セブン
+AustinSeven(Green)
+オースチン セブン
+AustinSeven(Red)
+オースチン セブン
+BMCMini(Blue)
+BMC ミニ
+BMCMini(Navy)
+BMC ミニ
+BMCMini(Orange)
+BMC ミニ
+BMCMini(RacingGreen)
+BMC ミニ
+BMCMini(Red)
+BMC ミニ
+BMCMini(White)
+BMC ミニ
+FordCortina(Black)
+フォード コーティナ
+FordCortina(Blue)
+フォード コーティナ
+FordCortina(Brown)
+フォード コーティナ
+FordCortina(Olive)
+フォード コーティナ
+FordCortina(Red)
+フォード コーティナ
+FordCortina(White)
+フォード コーティナ
+FordKa(Blue)
+フォード Ka（カァ）
+FordKa(Green)
+フォード Ka（カァ）
+FordKa(Purple)
+フォード Ka（カァ）
+FordKa(Red)
+フォード Ka（カァ）
+FordKa(Silver)
+フォード Ka（カァ）
+FordKa(Turquoise)
+フォード Ka（カァ）
+FordT(Black)
+フォード モデルT
+LandRoverSeries(Blue)
+ランドローバー
+LandRoverSeries(Desert)
+ランドローバー
+LandRoverSeries(Green)
+ランドローバー
+LandRoverSeries(White)
+ランドローバー
+MorrisEight(Black)
+モーリス エイト
+MorrisEight(Green)
+モーリス エイト
+MorrisEight(Maroon)
+モーリス エイト
+PeelP50(Red)
+ピール P50
+RangeRover(Black)
+レンジローバー
+RangeRover(Green)
+レンジローバー
+RangeRover(Red)
+レンジローバー
+RangeRover(Silver)
+レンジローバー
+ReliantRobin(Blue)
+リライアント ロビン
+ReliantRobin(Maroon)
+リライアント ロビン
+ReliantRobin(Silver)
+リライアント ロビン
+ReliantRobin(Yellow)
+リライアント ロビン
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
+ArableFarm1750
+農場
+ArableFarm1840
+農場
+ArableFarm1910
+農場
+ArableFarm1945
+農場
+ArableFarm1975
+農場
+Bakery1750
+パン屋
+Bakery1840
+パン屋
+Bakery1910
+パン屋
+Bakery1945
+パン屋
+Bakery1975
+パン屋
+Bookshop1860
+書店
+Bookshop1920
+書店
+Bookshop1950
+書店
+Bookshop1970
+書店
+Brewery1750
+醸造所
+Brewery1840
+醸造所
+Brewery1910
+醸造所
+Brewery1945
+醸造所
+Brewery1975
+醸造所
+Brickworks1800
+煉瓦工場
+Brickworks1850
+煉瓦工場
+Brickworks1905
+煉瓦工場
+Brickworks1960
+煉瓦工場
+Brickworks1985
+煉瓦工場
+BuildersYard1750
+資材販売店
+BuildersYard1800
+資材販売店
+BuildersYard1850
+資材販売店
+BuildersYard1905
+資材販売店
+BuildersYard1960
+資材販売店
+BuildersYard1985
+資材販売店
+Butchery1820
+精肉店
+Butchery1840
+精肉店
+Butchery1910
+精肉店
+Butchery1945
+精肉店
+CarDealership1910
+カーショップ
+CarDealership1925
+カーショップ
+CarDealership1950
+カーショップ
+CarDealership1970
+カーショップ
+CarFactory1910
+自動車工場
+CarFactory1925
+自動車工場
+CarFactory1950
+自動車工場
+CarFactory1970
+自動車工場
+CattleFarm1750
+畜産農場
+CattleFarm1840
+畜産農場
+CattleFarm1910
+畜産農場
+CattleFarm1945
+畜産農場
+CattleFarm1975
+畜産農場
+CementWorks1800
+セメント工場
+CementWorks1850
+セメント工場
+CementWorks1905
+セメント工場
+CementWorks1960
+セメント工場
+CementWorks1985
+セメント工場
+Chemist1860
+薬局
+Chemist1955
+薬局
+Chemist1975
+薬局
+ChinaShop1750
+陶器店
+ChinaShop1850
+陶器店
+ChinaShop1905
+陶器店
+ClayPit1750
+粘土採取場
+ClayPit1850
+粘土採取場
+ClayPit1905
+粘土採取場
+ClayPit1960
+粘土採取場
+ClayPit1985
+粘土採取場
+ClothesShop1750
+衣料品店
+ClothesShop1840
+衣料品店
+ClothesShop1910
+衣料品店
+ClothesShop1945
+衣料品店
+CoalMine1750
+炭鉱
+CoalMine1850
+炭鉱
+CoalMine1920
+炭鉱
+CoalMine1950
+炭鉱
+CoalMine1970
+炭鉱
+CoalPowerStation1910kraftwerk
+石炭火力発電所
+CoalPowerStation1920kraftwerk
+石炭火力発電所
+CoalPowerStation1955kraftwerk
+石炭火力発電所
+CoalPowerStation1970kraftwerk
+石炭火力発電所
+CoalYard1750
+石炭販売店
+CoalYard1850
+石炭販売店
+CoalYard1920
+石炭販売店
 Dairy
 乳製品工場
+Dairy1750
+乳製品工場
+Dairy1840
+乳製品工場
+Dairy1910
+乳製品工場
+Dairy1945
+乳製品工場
+Dairy1975
+乳製品工場
+DepartmentStore1907
+百貨店
+DepartmentStore1935
+百貨店
+DepartmentStore1960
+百貨店
+DepartmentStore1990
+百貨店
+FishingGround1750
+漁場
+FishingGround1840
+漁場
+FishingGround1910
+漁場
+FishingGround1945
+漁場
+FishingGround1975
+漁場
+Fishmongers1820
+鮮魚店
+Fishmongers1840
+鮮魚店
+Fishmongers1910
+鮮魚店
+Fishmongers1945
+鮮魚店
+ForestSawmill1750
+製材場
+ForestSawmill1850
+製材場
+ForestSawmill1920
+製材場
+ForestSawmill1950
+製材場
+ForestSawmill1970
+製材場
+FurnitureFactory1750
+家具工場
+FurnitureFactory1850
+家具工場
+FurnitureFactory1920
+家具工場
+FurnitureFactory1950
+家具工場
+FurnitureFactory1970
+家具工場
+FurnitureShop1750
+家具販売店
+FurnitureShop1850
+家具販売店
+FurnitureShop1920
+家具販売店
+FurnitureShop1950
+家具販売店
+GrainFarm1750
+穀物畑
+GrainFarm1840
+穀物畑
+GrainFarm1910
+穀物畑
+GrainFarm1945
+穀物畑
+GrainFarm1975
+穀物畑
 GrainMill
 製粉場
+GrainMill1750
+製粉場
+GrainMill1840
+製粉場
+GrainMill1910
+製粉場
+GrainMill1945
+製粉場
+GrainMill1975
+製粉場
+Greengrocers1820
+青果店
+Greengrocers1840
+青果店
+Greengrocers1910
+青果店
+Greengrocers1945
+青果店
+HardwareFactory1790
+金属加工工場
+HardwareFactory1850
+金属加工工場
+HardwareFactory1920
+金属加工工場
+HardwareFactory1950
+金属加工工場
+HardwareShop1790
+金物店
+HardwareShop1850
+金物店
+HardwareShop1920
+金物店
 IronOreMine
 鉄鉱石鉱山
+IronOreMine1750
+鉄鉱石鉱山
+IronOreMine1850
+鉄鉱石鉱山
+IronOreMine1920
+鉄鉱石鉱山
+IronOreMine1950
+鉄鉱石鉱山
+IronOreMine1970
+鉄鉱石鉱山
+Newsagent1860
+新聞販売店
+Newsagent1920
+新聞販売店
+Newsagent1950
+新聞販売店
+Newsagent1970
+新聞販売店
+OilPowerStation1950kraftwerk
+火力発電所
+OilPowerStation1970kraftwerk
+火力発電所
+OilRefinery
+精製所
+OilRefinery1910
+精製所
+OilRefinery1925
+精製所
+OilRefinery1955
+精製所
+OilRefinery1975
+精製所
+OilRig1955
+海上油田
+OilRig1975
+海上油田
+OilWell1910
+油田
+OilWell1925
+油田
+OilWell1955
+油田
+Orchard1750
+果樹園
+Orchard1840
+果樹園
+Orchard1910
+果樹園
+Orchard1945
+果樹園
+Orchard1975
+果樹園
+PaperMill1860
+製紙工場
+PaperMill1920
+製紙工場
+PaperMill1950
+製紙工場
+PaperMill1970
+製紙工場
 PetrolStation
 ガソリンスタンド
-Pottery
+PetrolStation1910
+ガソリンスタンド
+PetrolStation1925
+ガソリンスタンド
+PetrolStation1955
+ガソリンスタンド
+PetrolStation1975
+ガソリンスタンド
+PharmaceuticalFactory1860
+製薬工場
+PharmaceuticalFactory1920
+製薬工場
+PharmaceuticalFactory1955
+製薬工場
+PharmaceuticalFactory1975
+製薬工場
+Pottery1750
 窯元
-SheepFarm
+Pottery1850
+窯元
+Pottery1905
+窯元
+Pottery1960
+窯元
+Printworks1860
+印刷工場
+Printworks1920
+印刷工場
+Printworks1950
+印刷工場
+Printworks1970
+印刷工場
+Pub1750
+パブ
+Pub1840
+パブ
+Pub1910
+パブ
+Pub1945
+パブ
+Quarry1750
+採石場
+Quarry1850
+採石場
+Quarry1905
+採石場
+Quarry1960
+採石場
+Quarry1985
+採石場
+SheepFarm1750
 羊牧場
+SheepFarm1840
+羊牧場
+SheepFarm1910
+羊牧場
+SheepFarm1945
+羊牧場
+SheepFarm1975
+羊牧場
+Slaughterhouse1750
+食肉処理場
+Slaughterhouse1840
+食肉処理場
+Slaughterhouse1910
+食肉処理場
+Slaughterhouse1945
+食肉処理場
+Slaughterhouse1975
+食肉処理場
+SteelMill1790
+製鉄所
+SteelMill1850
+製鉄所
+SteelMill1920
+製鉄所
+SteelMill1950
+製鉄所
+TextileMill1750
+織物工場
+TextileMill1840
+織物工場
+TextileMill1910
+織物工場
+TextileMill1945
+織物工場
+TextileMill1975
+織物工場
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
@@ -60,20 +724,42 @@ cider
 りんご酒
 clay
 粘土
+Concrete
+コンクリート
+corn
+トウモロコシ
+cotton
+綿花
 Eisenerz
 鉄鉱石
+electronics
+電化製品
+Ethanol
+バイオエタノール
+fertilizer
+肥料
 fish
 魚肉
 flour
 小麦粉
+food
+食品
 fruit
 果物
 FuelOil
 重油
 Gasoline
 ガソリン
+glass
+ガラス
+goods_
+雑貨
 grain
 穀物
+hardware
+金物
+Holz
+木材
 Kohle
 石炭
 livestock
@@ -98,6 +784,8 @@ Plastik
 プラスチック
 Post
 郵便
+Sand
+砂
 Stahl
 鉄鋼
 Stone
@@ -106,7 +794,1711 @@ textile
 織物
 vegetables
 野菜
+waste
+廃棄物
 woodchip
 木材チップ
 wool
 ウール
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+CATEGORY_01
+混載貨物
+CATEGORY_02
+ばら荷貨物
+CATEGORY_03
+石油類
+CATEGORY_04
+低温貨物
+CATEGORY_05
+飲料
+CATEGORY_06
+長物貨物
+CATEGORY_07
+繊維
+#___________________________________roadsign____________________________________
+#___________________________________roadsign____________________________________
+ChooseSign
+停車振分標識
+ChooseSignals
+場内信号機(入線振分)
+Classic_ChooseSignals_right
+腕木式場内信号機(入線振分)
+Classic_LongSignals_right
+腕木式多閉塞信号
+Classic_preSignals_right
+腕木式プレシグナル
+Classic_Signals_right
+腕木式信号
+Early_ChooseSignals_right
+場内信号(入線振分)
+Early_LongSignals_right
+多閉塞信号
+Early_preSignals_right
+プレシグナル
+Early_Signals_right
+信号
+LongSignals
+多閉塞信号
+Modern_ChooseSignals_right
+色灯式場内信号機(入線振分)
+Modern_LongSignals_right
+色灯式多閉塞信号
+Modern_preSignals_right
+色灯式プレシグナル
+Modern_Signals_right
+色灯式信号
+MotorwaySign
+高速道路入口(80km/h)
+NoEntry
+進入禁止標識
+OneWay
+一方通行標識
+preSignals
+プレシグナル
+PrivateRoad
+一般車両進入禁止
+Signals
+信号機
+traffic_light
+道路信号
+#_____________________________________tree______________________________________
+#_____________________________________tree______________________________________
+EnglishOak
+オーク
+NorwaySpruce
+ドイツトウヒ
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+CanalTunnel
+運河トンネル
+RailTunnelBrick
+煉瓦鉄道トンネル
+RailTunnelConcrete
+コンクリート鉄道トンネル
+RailTunnelStone
+石造鉄道トンネル
+RoadTunnelBrick
+煉瓦道路トンネル
+RoadTunnelConcrete
+コンクリート道路トンネル
+RoadTunnelStone
+石造道路トンネル
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+1-Deck-Closed
+1階建トラム
+1-Deck-Trailer
+1階建トラム 後部
+2-Deck-Closed
+2階建トラム
+2-Deck-Open
+オープン2階建トラム
+A1Diddler
+A1形 ディドラー
+AEC Standard STL
+AEC スタンダード STL
+AECQ2
+AEC Q2
+AECQ4
+AEC Q4
+AECRegalT
+AEC リーガル T
+AECRegentST
+AEC リーゼント ST
+AECReliance
+AEC リライアンス
+AECRenownLT
+AEC レナウン LT
+AECSwift
+AEC スウィフト
+Air Braked Tanker (TTA)
+BR TTA タンク車
+AustinMaestroCool
+オースティン マエストロ 保冷バン
+AustinMaestroPiece
+オースティン マエストロ 貨物バン
+AustinMaestroPost
+オースティン マエストロ 郵便バン
+AustinMorrisEACool
+オースティン モーリス EA 保冷バン
+AustinMorrisEAPiece
+オースティン モーリス EA 貨物バン
+AustinMorrisEAPost
+オースティン モーリス EA 郵便バン
+AustinSevenCool
+オースティン セブン 保冷バン
+AustinSevenPiece
+オースティン セブン 貨物バン
+AustinSevenPost
+オースティン セブン 郵便バン
+Autic-4_Car_Transporter(Front)
+Autic 車運車 前部
+Autic-4_Car_Transporter(Rear)
+Autic 車運車 後部
+Blackpool-Balloon
+ブラックプール バルーン
+Blackpool-Brush
+ブラックプール ブラシ
+Blackpool-Centenary
+ブラックプール センテナリー
+Blackpool-Coronation
+ブラックプール コロネーション
+Blackpool-Dreadnought
+ブラックプール ドレッドノート
+Blackpool-Jubilee
+ブラックプール ジュビリー
+Blackpool-Millenium
+ブラックプール ミレニアム
+Blackpool-Original
+ブラックプール オリジナル
+Blackpool-ProgressTwin-Power
+ブラックプール プログレス 前部
+Blackpool-ProgressTwin-Trailer
+ブラックプール プログレス 後部
+Blackpool-Standard
+ブラックプール スタンダード
+BoatHorsesDouble
+2頭立て曳船馬
+BoatHorsesSingle
+1頭立て曳船馬
+Bogie Tanker(TEA)
+BR TEA タンク車
+BR-104Front(Green)
+BR Class 104 DMU
+BR-104Middle(Green)
+BR Class 104 DMU 中間部
+BR-104Rear(Green)
+BR Class 104 DMU 後部
+BR-121(Green)
+BR クラス121 DMU
+BR-142Front(Regional)
+BR クラス142 ペーサー DMU
+BR-142Rear(Regional)
+BR クラス142 ペーサー DMU 後部
+BR-153(Regional)
+BR クラス153 スーパースプリンター DMU
+BR-156Front(Regional)
+BR クラス156 スーパースプリンター DMU
+BR-156Rear(Regional)
+BR クラス156 スーパースプリンター DMU 後部
+BR-158Front(Regional)
+BR 158形 エクスプレス・スプリンター DMU
+BR-158Middle(Regional)
+BR 158形 エクスプレス・スプリンター DMU 中間部
+BR-158Rear(Regional)
+BR 158形 エクスプレス・スプリンター DMU 後部
+BR-165Front(NSE)
+BR 165形 ネットワーク・ターボ DMU
+BR-165Middle(NSE)
+BR 165形 ネットワーク・ターボ DMU 中間部
+BR-165Rear(NSE)
+BR 165形 ネットワーク・ターボ DMU 後部
+BR-170Front(Scotrail)
+BR クラス170 ターボスター DMU
+BR-170Middle(Scotrail)
+BR クラス170 ターボスター DMU 中間部
+BR-170Rear(Scotrail)
+BR クラス170 ターボスター DMU 後部
+BR-180Front(FGW)
+BR クラス180 アデランテ
+BR-180Middle(FGW)
+BR クラス180 アデランテ 中間部
+BR-180Rear(FGW)
+BR クラス180 アデランテ 後部
+BR-205Front(Rail-Blue)
+BR クラス205 DEMU
+BR-205Middle(Rail-Blue)
+BR クラス205 DEMU 中間部
+BR-205Rear(Rail-Blue)
+BR クラス205 DEMU 後部
+BR-220Front(Virgin)
+BR 220系 ボイジャー
+BR-220Middle(Virgin)
+BR 220系 ボイジャー 中間部
+BR-220Rear(Virgin)
+BR 220系 ボイジャー 後部
+BR-251FirstParlour
+BR クラス251 ブループルマン １等パーラーカー
+BR-251Front
+BR クラス251 ブループルマン
+BR-251Rear
+BR クラス251 ブループルマン 後部
+BR-251SecondParlourFront
+BR クラス251 ブループルマン ２等パーラーカー　前部
+BR-251SecondParlourRear
+BR クラス251 ブループルマン ２等パーラーカー　後部
+BR-303Front(CaledonianBlue)
+BR クラス303 EMU
+BR-303Pantograph(CaledonianBlue)
+BR クラス303 EMU パンタ車
+BR-303Rear(CaledonianBlue)
+BR クラス303 EMU 後部
+BR-309-1Front(Blue-Grey)
+BR クラス309/1 EMU
+BR-309-2Front(Blue-Grey)
+BR クラス309/2 EMU
+BR-309Middle(Blue-Grey)
+BR クラス309 EMU 中間車
+BR-309Power(Blue-Grey)
+BR クラス309 EMU 動力車
+BR-309Rear(Blue-Grey)
+BR クラス309 EMU 後部
+BR-313Front(Blue-Grey)
+BR クラス313 EMU
+BR-313Pantograph(Blue-Grey)
+BR クラス313 EMU パンタ車
+BR-313Rear(Blue-Grey)
+BR クラス313 EMU 後部
+BR-319Engine(NSE)
+BR 319形 EMU 動力車
+BR-319Front(NSE)
+BR 319形 EMU
+BR-319Pantograph(NSE)
+BR 319形 EMU パンタ車
+BR-319Rear(NSE)
+BR 319形 EMU 後部
+BR-365Front(NSE)
+BR 365形 ネットワーカーエクスプレス EMU
+BR-365Middle(NSE)
+BR 365形 ネットワーカーエクスプレス EMU 中間車
+BR-365Power(NSE)
+BR 365形 ネットワーカーエクスプレス EMU 中間車
+BR-365Rear(NSE)
+BR 365形 ネットワーカーエクスプレス EMU 後部
+BR-370Buffet(IC)
+BR クラス370 APT ビュフェ車
+BR-370Coach(IC)
+BR クラス370 APT 客車
+BR-370FrontCab(IC)
+BR クラス370 APT
+BR-370FrontPower(IC)
+BR クラス370 APT 中間動力車
+BR-370RearCab(IC)
+BR クラス370 APT 後部
+BR-370RearPower(IC)
+BR クラス370 APT 中間動力車
+BR-370Restaurant(IC)
+BR クラス370 APT 食堂車
+BR-373Coach
+BR 373形 ユーロスター 中間車
+BR-373FrontCab
+BR 373形 ユーロスター
+BR-373FrontPower
+BR 373形 ユーロスター 中間車
+BR-373RearCab
+BR 373形 ユーロスター 後部
+BR-373RearPower
+BR 373形 ユーロスター 中間車
+BR-375Front(SE)
+BR クラス375 エレクトロスター EMU
+BR-375Middle(SE)
+BR クラス375 エレクトロスター EMU 中間部
+BR-375Rear(SE)
+BR クラス375 エレクトロスター EMU 後部
+BR-378Front(LT)
+BR クラス378 EMU
+BR-378Middle(LT)
+BR クラス378 EMU 中間部
+BR-378Rear(LT)
+BR クラス378 EMU 後部
+BR-390Coach(Virgin)
+BR 390形 ペンドリーノ 中間車
+BR-390FrontCab(Virgin)
+BR 390形 ペンドリーノ
+BR-390FrontCoach(Virgin)
+BR 390形 ペンドリーノ 中間車
+BR-390FrontPantograph(Virgin)
+BR 390形 ペンドリーノ パンタ車
+BR-390PoweredCoach(Virgin)
+BR 390形 ペンドリーノ 動力車
+BR-390RearCab(Virgin)
+BR 390形 ペンドリーノ 後部
+BR-390RearCoach(Virgin)
+BR 390形 ペンドリーノ 中間車
+BR-390RearPantograph(Virgin)
+BR 390形 ペンドリーノ パンタ車
+BR-395Front(SE)
+BR 395系 ジャベリン
+BR-395Middle(SE)
+BR 395系 ジャベリン 中間部
+BR-395Rear(SE)
+BR 395系 ジャベリン 後部
+BR-410[CEP]Brake(Blue-Grey)
+BR 410形 "4Cep" EMU 緩急車
+BR-410[CEP]Front(Blue-Grey)
+BR 410形 "4Cep" EMU
+BR-410[CEP]Middle(Blue-Grey)
+BR 410形 "4Cep" EMU 中間車
+BR-410[CEP]Rear(Blue-Grey)
+BR 410形 "4Cep" EMU 後部
+BR-414[HAP]Front(Blue-Grey)
+BR クラス414 "2Hap" EMU
+BR-414[HAP]Rear(Blue-Grey)
+BR クラス414 "2Hap" EMU 後部
+BR-419[MLV](Blue-Grey)
+BR クラス419 手荷物車（動力車）
+BR-442-Front(NSE)
+BR クラス442 NSE
+BR-442-Middle1(NSE)
+BR クラス442 NSE 中間車
+BR-442-Middle2(NSE)
+BR クラス442 NSE 中間車
+BR-442-Middle3(NSE)
+BR クラス442 NSE 中間車
+BR-442-Rear(NSE)
+BR クラス442 NSE 後部
+BR-465Front(NSE)
+BR クラス465 ネットワーカー EMU
+BR-465Middle(NSE)
+BR クラス465 ネットワーカー EMU 中間部
+BR-465Rear(NSE)
+BR クラス465 ネットワーカー EMU 後部
+BR-489[GLV](Intercity)
+BR クラス489 GLV
+BR-499[TLV](Blue-Grey)
+BR クラス499 TLV
+BR-4MT-Tank(Black)
+BR 標準クラス4MT 2-6-4T
+BR-7MT-Tender(Green)
+BR 標準 テンダー
+BR-7MT(Green)
+BR 標準クラス7MT ブリタニア 4-6-2
+BR-8P(Green)
+BR 標準クラス 8P 4-6-2
+BR-9F-Tender(Black)
+BR 標準クラス 9F 2-10-0 テンダー
+BR-9F(Black)
+BR 標準クラス 9F 2-10-0
+BR-Class20(Green)
+BR クラス20
+BR-Class25(Green)
+BR クラス25
+BR-Class30(Green)
+BR クラス30
+BR-Class31-1(Blue)
+BR クラス31/1
+BR-Class35(Rail-Blue)
+BR クラス35 "Hymek"
+BR-Class37(Rail-Blue)
+BR クラス37
+BR-Class40(Green)
+BR クラス40
+BR-Class43(Intercity)
+BR クラス43 "HST 125"
+BR-Class43Rear(Intercity)
+BR クラス43 "HST 125" 後部
+BR-Class47(Rail-Blue)
+BR クラス47
+BR-Class52(Maroon)
+BR クラス52 ウェスタン
+BR-Class55(Green)
+BR クラス55 デルタ
+BR-Class56(Rail-Blue)
+BR クラス56
+BR-Class58(Grey)
+BR クラス58
+BR-Class66(EWS)
+BR クラス66
+BR-Class67(EWS)
+BR クラス67
+BR-Class71(Green)
+BR クラス71
+BR-Class73(Intercity)
+BR クラス73
+BR-Class81(Electric-Blue)
+BR クラス81 Bo-Bo
+BR-Class86(Rail-Blue)
+BR クラス86
+BR-Class87(Rail-Blue)
+BR クラス87
+BR-Class90(Intercity)
+BR クラス90
+BR-Class91(Intercity)
+BR クラス91 "225"
+BR-Class92(Railfreight)
+BR クラス92
+BR-Mk1-BC(Blue-Grey)
+BR マーク1 緩急車
+BR-Mk1-BC(Crimson-Cream)
+BR マーク1 緩急車
+BR-Mk1-BC(Maroon)
+BR マーク1 緩急車
+BR-Mk1-BG(Blue-Grey)
+BR マーク1 緩急車
+BR-Mk1-BG(Crimson-Cream)
+BR マーク1 緩急車
+BR-Mk1-BG(Maroon)
+BR マーク1 緩急車
+BR-Mk1-BG(RoyalMail)
+BR マーク1 緩急車
+BR-Mk1-GUV(Rail-Blue)
+BR マーク1 汎用車
+BR-Mk1-POS(RoyalMail)
+BR マーク1 ビュフェ・郵便車
+BR-Mk1-RBR(Blue-Grey)
+BR マーク1 ビュフェ・食堂車
+BR-Mk1-RBR(Crimson-Cream)
+BR マーク1 ビュフェ・食堂車
+BR-Mk1-RBR(Maroon)
+BR マーク1 ビュフェ・食堂車
+BR-Mk1-TO(Blue-Grey)
+BR マーク1 ３等客車
+BR-Mk1-TO(Crimson-Cream)
+BR マーク1 ３等客車
+BR-Mk1-TO(Maroon)
+BR マーク1 ３等客車
+BR-Mk1-TPO(RoyalMail)
+BR マーク1 移動郵便局
+BR-Mk2-DBSO(Intercity)
+BR マーク2 制御付随車
+BR-Mk2-RFB(Intercity)
+BR マーク2D １等ビュフェ・食堂車
+BR-Mk2-TO(Intercity)
+BR マーク2 ３等客車
+BR-Mk2a-BSO(Blue-Grey)
+BR マーク2A 緩急車
+BR-Mk2a-RMB(Blue-Grey)
+BR マーク2A ビュフェ付客車
+BR-Mk2a-TSO(Blue-Grey)
+BR マーク2A 客車
+BR-Mk3-TO(Intercity)
+BR マーク3 客車
+BR-Mk3-TRB(Intercity)
+BR マーク3 １等ビュフェ車
+BR-Mk3a-TO(Intercity)
+BR マーク3A 客車
+BR-Mk3a-TRB(Intercity)
+BR マーク3A １等ビュフェ車
+BR-Mk4-DVT(Intercity)
+BR マーク4 制御荷物車(DVT)
+BR-Mk4-RSB(Intercity)
+BR マーク4 ビュフェ車
+BR-Mk4-TSO(Intercity)
+BR マーク4 客車
+BrakeBR
+BR 標準 7t 車掌車
+BrakeD16
+4t 車掌車
+BrakeD93
+7t 車掌車
+BrakeGWR
+GWR 7t トード 車掌車
+BrakeLMS
+LMS 7t 車掌車
+BrakeLNER
+LNER 7t 車掌車
+BrakeSR
+サザーン 車掌車
+BTypeDouble
+B-Type 2階建バス
+BTypeSingle
+B-Type バス
+BuildersYard1750
+資材販売店
+Bulk Hopper(HAA)
+BR HAA ホッパ
+Bulk Hopper(HTA)
+BR HTA ホッパ
+Bulk16T
+BR 16t無蓋車
+Bulk2T
+2t ばら積みカート
+Bulk3T
+2t ばら積みカート
+Bulk5T
+2t ばら積みカート
+Bulk8T
+8t 無蓋車
+BulkRCH10T
+RCH 10t無蓋車
+BulkRCH12T
+RCH 12t無蓋車
+CarFactory1970
+自動車工場
+CartBulk
+ばら積みカート
+CartCool
+保冷カート
+Cartic-4_Car_Transporter(Front)
+4連車運車
+Cartic-4_Car_Transporter(Middle1)
+4連車運車
+Cartic-4_Car_Transporter(Middle2)
+4連車運車
+Cartic-4_Car_Transporter(Rear)
+4連車運車
+CartLong
+長物カート
+CartMail
+郵便カート
+CartPiece
+混載カート
+CC-Clerestory-Brake
+GWR 茶/クリーム色 採光窓付緩急車
+CC-Clerestory-Coach
+GWR 茶/クリーム色 採光窓付客車
+CC-Clerestory-Dining
+GWR 茶/クリーム色 採光窓付食堂車
+CC-Clerestory-Mail
+GWR 茶/クリーム色 採光窓付郵便車
+CC-Clerestory-Parcel-Brake
+GWR 茶/クリーム色 採光窓付手荷物車（ブレーキ室）
+CC-Clerestory-TPO
+GWR 茶/クリーム色 採光窓付移動郵便局
+Cool16T
+16t冷蔵車
+CoolContainer
+FAA 冷蔵コンテナ車
+CoolD32
+8t冷蔵車
+CoolD88
+12t冷蔵車
+CoolEarly1
+保冷カート
+CoolEarly2
+保冷カート
+CoolEarly3
+保冷カート
+CoolZSX
+BR 冷蔵車
+DAFCFArtic
+ダフ CF トラクタ
+DAFCFArticMail
+ダフ CF 郵便トラクタ
+DAFCFRigidBulk
+ダフ CF ばら積みトラック
+DAFCFRigidFluid
+ダフ CF ローリー
+DAFCFRigidLong
+ダフ CF 長物トラック
+DAFLFBulk
+ダフ LF ばら積みトラック
+DAFLFCool
+ダフ LF 保冷トラック
+DAFLFLivestock
+ダフ LF 家畜運搬トラック
+DAFLFLong
+ダフ LF 長物トラック
+DAFLFPiece
+ダフ LF 混載トラック
+DAFLFPost
+ダフ LF 郵便トラック
+DAFXFArtic
+ダフ XF トラクタ
+DAFXFArticMail
+ダフ XF 郵便トラクタ
+DaimlerFleetline
+ダイムラー フリートライン
+DennisDart
+アレキサンダーデニス Dart
+DennisDominator
+アレキサンダーデニス Dominator
+DennisDominatorTrolley
+アレキサンダーデニス Dominator
+DennisEnviro400
+アレキサンダーデニス Enviro 400
+DLR-B07Front
+Docklands Light Railway B07 前部
+DLR-B07Rear
+Docklands Light Railway B07 後部
+DLR-B92Front
+Docklands Light Railway B92 前部
+DLR-B92Rear
+Docklands Light Railway B92 後部
+DLR-P86Front
+Docklands Light Railway P86 前部
+DLR-P86Rear
+Docklands Light Railway P86 後部
+EagleTrailerBulk
+ばら積みカート
+EagleTrailerCool
+保冷カート
+EagleTrailerFluid
+石油運搬カート
+EagleTrailerLivestock
+家畜運搬カート
+EagleTrailerLong
+長物カート
+EagleTrailerPiece
+混載カート
+FishingGround1910
+漁場
+Fishmongers1945
+鮮魚店
+FodenCompoundBulk
+フォーデン コンパウンド ばら積みトラック
+FodenCompoundCool
+フォーデン コンパウンド 保冷トラック
+FodenCompoundLivestock
+フォーデン コンパウンド 家畜運搬トラック
+FodenCompoundLong
+フォーデン コンパウンド 長物トラック
+FodenCompoundPiece
+フォーデン コンパウンド 混載トラック
+FordEscortCool
+フォード エスコート 保冷バン
+FordEscortPiece
+フォード エスコート 貨物バン
+FordEscortPost
+フォード エスコート 郵便バン
+FordTransitConnectCool
+フォード トランジット コネクト 保冷バン
+FordTransitConnectPiece
+フォード トランジット コネクト 貨物バン
+FordTransitConnectPost
+フォード トランジット コネクト 郵便バン
+FordTransitCool
+フォード トランジット 保冷バン
+FordTransitPiece
+フォード トランジット 貨物バン
+FordTransitPost
+フォード トランジット 郵便バン
+GER-Claud-Hamilton-Tender(Blue)
+GER S46 クロード・ハミルトン型 4-4-0 テンダー
+GER-Claud-Hamilton(Blue)
+GER S46 クロード・ハミルトン型 4-4-0
+GNR-4Wheel-Brake
+GNR ２軸緩急車
+GNR-4Wheel-Composite
+GNR ２軸客車
+GNR-4Wheel-Mail
+GNR ２軸郵便車
+GNR-6Wheel-First
+GNR ３軸客車
+GNR-6Wheel-Guard
+GNR ３軸緩急車
+GNR-6Wheel-Mail
+GNR ３軸郵便車
+GNR-C1
+GNR クラスC1 4-4-2
+GNR-C1-Tender
+GNR クラスC1 4-4-2 テンダー
+GNR-Stirling8Foot
+GNR スターリングシングル 4-2-2
+GNR-Stirling8Foot-Tender
+GNR スターリングシングル 4-2-2 テンダー
+Guy_Special(LT-Green)
+Guy Special バス
+GuyArab
+Guy Arab 2階建てバス
+GWR-1400Tank
+GWR 1400型 0-4-2T
+GWR-2800-Tender(Green)
+GWR 2800型 2-8-0 テンダー
+GWR-2800(Green)
+GWR 2800型 2-8-0
+GWR-Autocoach
+GWR オートコーチ（制御付随車）
+GWR-Bulldog-Tender(Green)
+GWR ブルドッグ型 4-4-0 テンダー
+GWR-Bulldog(Green)
+GWR ブルドッグ型 4-4-0
+GWR-Churchward-Star
+GWR スター型 4-6-0
+GWR-Churchward-Star-Tender
+GWR スター型 4-6-0 テンダー
+GWR-Droplight-Brake(Mahogany)
+GWR ドロップライト 緩急車
+GWR-Droplight-Dining(Mahogany)
+GWR ドロップライト 食堂車
+GWR-Droplight-Third(Mahogany)
+GWR ドロップライト ３等客車
+GWR-Express-Brake
+GWR 急行 緩急車
+GWR-Express-Coach
+GWR Express 客車
+GWR-Express-Dining
+GWR express 食堂車
+GWR-Express-Mail
+GWR express 郵便車
+GWR-Express-Parcel-Brake
+GWR 急行 緩急車
+GWR-Express-TPO
+GWR 移動郵便局
+GWR-Gloucester-Parcel-Railcar
+GWR グロスター レールカー（郵便）
+GWR-Gloucester-Railcar
+GWR グロスター レールカー
+GWR-King
+GWR 6600 キング型 4-6-0
+GWR-King-Tender
+GWR 6600 キング型 4-6-0 テンダー
+GWR-PannierTank
+GWR パニアタンク 0-6-0T
+GWR-ParkRoyal-Railcar
+GWR パーク・ロイヤル レールカー
+GWR-Prairie-Tank(Green)
+GWR 3100形 プレイリータンク 2-6-2T
+GWR-Swindon-TwinsetFront
+GWR スウィンドン 前部
+GWR-Swindon-TwinsetRear
+GWR スウィンドン 後部
+HackneyCarriage
+ハックニー・キャリッジ
+HeavyRoadLocomotive
+大型蒸気牽引車
+HorseBargeBulk
+ばら荷バージ
+HorseBargeCool
+保冷バージ
+HorseBargeLong
+長物バージ
+HorseBargePiece
+混載バージ
+HR-Jones-Goods-Tender(Yellow)
+HR Jones Goods 4-6-0 テンダー
+HR-Jones-Goods(Yellow)
+HR Jones Goods 4-6-0
+JennyLind
+LBSCR ジェニー・リンド 2-2-2 
+JennyLind-Tender
+LBSCR ジェニー・リンド 2-2-2 テンダー
+KTypeDouble
+Kタイプ 2階建バス
+Large-2-Deck-Trailer
+大型2階建トラム客車
+LargeArticTrailerBulk
+大型ばら積みトレーラー
+LargeArticTrailerCars
+大型キャリアカー
+LargeArticTrailerCool
+大型冷蔵トレーラー
+LargeArticTrailerFluid
+大型ローリー
+LargeArticTrailerLivestock
+大型家畜運搬トレーラー
+LargeArticTrailerLong
+大型ポールトレーラー
+LargeArticTrailerMail
+大型郵便トレーラー
+LargeArticTrailerPiece
+大型コンテナトレーラー
+LBSCR-4Wheel-Brake
+LBSCR ２軸緩急車
+LBSCR-4Wheel-First
+LBSCR ２軸１等客車
+LBSCR-A1
+LBSCR クラスA1 テリア 0-6-0T
+LBSCR-B1-Gladstone
+LBSCR クラスB1 グラッドストーン 0-4-2
+LBSCR-B1-Gladstone-Tender
+LBSCR クラスB1 グラッドストーン 0-4-2 テンダー
+LBSCR-L-Tank(Umber)
+LBSCR L級 リメンバランス 4-6-4T
+Leyland_Cub(LT-Green)
+レイランド カブ
+Leyland_National_11(LC)
+レイランド ナショナル
+LeylandAtlantean
+レイランド アトランティアン
+LeylandCometBulk
+レイランド コメット ばら積みトラック
+LeylandCometCars
+レイランド コメット キャリアカー
+LeylandCometCool
+レイランド コメット 保冷トラック
+LeylandCometFluid
+レイランド コメット ローリー
+LeylandCometLivestock
+レイランド コメット 家畜運搬トラック
+LeylandCometLong
+レイランド コメット 長物トラック
+LeylandCometPiece
+レイランド コメット 混載トラック
+LeylandDAF200Cool
+レイランド ダフ 200 保冷バン
+LeylandDAF200Piece
+レイランド ダフ 200 貨物バン
+LeylandDAF200Post
+レイランド ダフ 200 郵便バン
+LeylandDAF65Bulk
+レイランド ダフ 65 ばら積みトラック
+LeylandDAF65Cool
+レイランド ダフ 65 保冷トラック
+LeylandDAF65Livestock
+レイランド ダフ 65 家畜運搬トラック
+LeylandDAF65Long
+レイランド ダフ 65 長物トラック
+LeylandDAF65Piece
+レイランド ダフ 65 混載トラック
+LeylandDAF65Post
+レイランド ダフ 65 郵便トラック
+LeylandDAF85Artic
+レイランド ダフ 85 トラクタ
+LeylandDAF85ArticMail
+レイランド ダフ 85 郵便トラクタ
+LeylandDAF85RigidBulk
+レイランド ダフ 85 ばら積みトラック
+LeylandDAF85RigidFluid
+レイランド ダフ 85 ローリー
+LeylandDAF85RigidLong
+レイランド ダフ 85 長物トラック
+LeylandDAF95Artic
+レイランド ダフ 95 トラクタ
+LeylandDAF95ArticMail
+レイランド ダフ 95 郵便トラクタ
+LeylandGBulk
+レイランド G ばら積みトラック
+LeylandGCool
+レイランド G 保冷トラック
+LeylandGLivestock
+レイランド G 家畜運搬トラック
+LeylandGLong
+レイランド G 長物トラック
+LeylandGPiece
+レイランド G 混載トラック
+LeylandGPost
+レイランド G 郵便トラック
+LeylandK2
+レイランド K2
+LeylandLeopard
+レイランド レパード
+LeylandLynx
+レイランド リンクス
+LeylandOlympian
+レイランド オリンピアン
+LeylandOlympianCoach
+レイランド オリンピアン 長距離バス
+LeylandRoadrunnerBulk
+レイランド ロードランナー ばら積みトラック
+LeylandRoadrunnerCool
+レイランド ロードランナー 保冷トラック
+LeylandRoadrunnerLivestock
+レイランド ロードランナー 家畜運搬トラック
+LeylandRoadrunnerLong
+レイランド ロードランナー 長物トラック
+LeylandRoadrunnerPiece
+レイランド ロードランナー 混載トラック
+LeylandRoadrunnerPost
+レイランド ロードランナー 郵便トラック
+LeylandSherpaCool
+レイランド シェルパ 保冷バン
+LeylandSherpaPiece
+レイランド シェルパ 貨物バン
+LeylandSherpaPost
+レイランド シェルパ 郵便バン
+LeylandT45ConstructorBulk
+レイランド T45 コンストラクター ばら積みトラック
+LeylandT45ConstructorFluid
+レイランド T45 コンストラクター ローリー
+LeylandT45ConstructorLong
+レイランド T45 コンストラクター 長物トラック
+LeylandT45Roadtrain
+レイランド T45 ロードトレイン トラクタ
+LeylandT45RoadtrainMail
+レイランド T45 ロードトレイン 郵便トラクタ
+LeylandTiger
+レイランド タイガー
+LeylandTitanB15
+レイランド タイタン B15
+LightRoadLocomotive
+小型蒸気牽引車
+Livestock16T
+16t家畜車
+LivestockD21
+8t家畜車
+LivestockD25
+12t家畜車
+LivestockDrover
+家畜商人
+LivestockEarly1
+家畜運搬カート
+LivestockEarly2
+家畜運搬カート
+LivestockEarly3
+家畜運搬カート
+LMR-4Wheel-First
+LMR ２軸１等客車
+LMR-4Wheel-Open-Coach
+LMR ２軸３等オープン客車
+LMR-4Wheel-TPO
+LMR ２軸移動郵便局
+LMR-Lion
+LMR 57 ライオン 0-4-2
+LMR-Patentee
+LMR パテンティ 2-2-2
+LMR-Patentee-Tender
+LMR パテンティ 2-2-2 テンダー
+LMR-Planet
+LMR プラネット 2-2-0
+LMR-Planet-Tender
+LMR プラネット テンダー
+LMR-Rocket
+LMR ロケット号 0-2-2
+LMR-Rocket-Tender
+LMR ロケット号 0-2-2 テンダー
+LMS-10000(Black)
+LMS 10000形
+LMS-3F-Jinty
+LMS 3F級 ジンティー 0-6-0T
+LMS-4F-Tender(Black)
+LMS クラス4F 0-6-0 テンダー
+LMS-4F(Black)
+LMS クラス4F 0-6-0
+LMS-502Front(Maroon)
+LMS クラス502 EMU
+LMS-502Middle(Maroon)
+LMS クラス502 EMU 中間部
+LMS-502Rear(Maroon)
+LMS クラス502 EMU 後部
+LMS-Coronation-BFK(Maroon)
+LMS コロネーション・スコット １等客車（ブレーキ室）
+LMS-Coronation-BTK(Maroon)
+LMS コロネーション・スコット ３等客車（ブレーキ室）
+LMS-Coronation-FK(Maroon)
+LMS コロネーション・スコット １等客車
+LMS-Coronation-TO(Maroon)
+LMS コロネーション・スコット ３等客車
+LMS-d1904-Coach
+LMS D1904 標準客車
+LMS-d1904-Dining
+LMS 食堂車
+LMS-d2007-Parcel-Brake
+LMS d2007 手荷物車（ブレーキ室）
+LMS-Garratt-Front(Black)
+LMS ギャラット 2-6-0+0-6-2
+LMS-Garratt-Middle(Black)
+LMS ギャラット 2-6-0+0-6-2 ボイラー
+LMS-Garratt-Rear(Black)
+LMS ギャラット 2-6-0+0-6-2 後部
+LMS-Mail
+LMS 郵便車
+LMS-Patriot-Tender(Maroon)
+LMS クラス5XP パトリオット 4-6-0 テンダー
+LMS-Patriot(Maroon)
+LMS クラス5XP パトリオット 4-6-0
+LMS-Princess-Royal-Tender(Maroon)
+LMS クラス7P プリンセスロイヤル テンダー
+LMS-Princess-Royal(Maroon)
+LMS クラス7P プリンセスロイヤル
+LMS-Stanier-5MT-Tender(Black)
+LMS クラス5MT ブラックファイブ テンダー
+LMS-Stanier-5MT(Black)
+LMS クラス5MT ブラックファイブ 4-6-0
+LMS-Stanier-7P-Tender(Maroon)
+LMS 8P形 プリンセス・コロネーション 4-6-2 テンダー
+LMS-Stanier-7P(Maroon)
+LMS 8P形 プリンセス・コロネーション 4-6-2
+LMS-Stanier-8F-Tender(Black)
+LMS クラス8F 2-8-0 テンダー
+LMS-Stanier-8F(Black)
+LMS クラス8F 2-8-0
+LMS-TPO
+LMS 移動郵便局
+LNER-A1-Tender(Green)
+LNER A1/A3形 テンダー
+LNER-A1(Green)
+LNER A1/A3形 4-6-2
+LNER-A4-Tender(Blue)
+LNER A4形 テンダー
+LNER-A4(Blue)
+LNER A4形 4-6-2
+LNER-B17-Tender(Green)
+LNER クラスB17 フットボーラー 4-6-0 テンダー
+LNER-B17(Green)
+LNER クラスB17 フットボーラー 4-6-0
+LNER-B17-5-Tender(Green)
+LNER クラスB17/5 4-6-0 テンダー
+LNER-B17-5(Green)
+LNER クラスB17/5 4-6-0
+LNER-ClassEM1(Black)
+LNER クラスEM1 Bo-Bo(0-4+4-0)
+LNER-ClassEM2(Green)
+LNER/BR クラスEM2 Co-Co
+LNER-Coronation-Brake-Third-Triple(front)
+LNER コロネーション ３連節３等客車 前部（ブレーキ室）
+LNER-Coronation-Brake-Third-Triple(middle)
+LNER コロネーション ３連節３等客車 中間部
+LNER-Coronation-Brake-Third-Triple(rear)
+LNER コロネーション ３連節３等客車 後部
+LNER-Coronation-Brake-Third-Twin(front)
+LNER コロネーション ２連接３等客車 前部
+LNER-Coronation-Brake-Third-Twin(rear)
+LNER コロネーション ２連接３等客車 後部
+LNER-Coronation-Observation
+LNER コロネーション 展望車
+LNER-Coronation-RearBrake-Third-Twin(front)
+LNER コロネーション ２連節３等客車 前部
+LNER-Coronation-RearBrake-Third-Twin(rear)
+LNER コロネーション ２連節３等客車 後部（ブレーキ室）
+LNER-Coronation-Restaurant-Triple(front)
+LNER コロネーション ３連節食堂車 前部
+LNER-Coronation-Restaurant-Triple(middle)
+LNER コロネーション ３連節食堂車 中間部
+LNER-Coronation-Restaurant-Triple(rear)
+LNER コロネーション ３連節食堂車 後部
+LNER-Gresley-Express-Brake(Teak)
+LNER 急行 チーク材客車（緩急車）
+LNER-Gresley-Express-Coach(Teak)
+LNER 急行 チーク材客車
+LNER-Gresley-Express-Dining(Teak)
+LNER 急行 チーク材食堂車
+LNER-Gresley-Express-Mail(Teak)
+LNER 急行 チーク材郵便車
+LNER-Gresley-Express-Parcel-Brake(Teak)
+LNER 急行 チーク材車掌車
+LNER-Gresley-Express-TPO(Teak)
+LNER 急行 チーク材移動郵便局
+LNER-J94(Black)
+WD/LNER クラスJ94 0-6-0ST
+LNER-P2-Tender(Green)
+LNER クラスP2 2-8-2 テンダー
+LNER-P2(Green)
+LNER クラスP2 2-8-2
+LNER-V2-Tender(Green)
+LNER クラスV2 テンダー
+LNER-V2(Green)
+LNER クラスV2 2-6-2
+LNWR-1847-Brake
+LNWR ２軸緩急車
+LNWR-1847-First
+LNWR ２軸客車
+LNWR-1847-Mail
+LNWR ２軸郵便車
+LNWR-6Wheel-First
+LNWR ３軸１等客車
+LNWR-6Wheel-Guard
+LNWR ３軸緩急車
+LNWR-6Wheel-Mail
+LNWR ３軸郵便車
+LNWR-AClass-Tender(Black)
+LNWR A形 0-8-0 テンダー
+LNWR-AClass(Black)
+LNWR A形 0-8-0
+LNWR-Bloomer-Tender(Red)
+LNWR ブルーマー型 2-2-2 テンダー
+LNWR-Bloomer(Red)
+LNWR ブルーマー型 2-2-2
+LNWR-DXgoods-Tender(Green)
+LNWR DX Goods 0-6-0 テンダー
+LNWR-DXgoods(Green)
+LNWR DX Goods 0-6-0
+LNWR-Jumbo-Tender(Black)
+LNWR ジャンボ型 2-2-2-0 テンダー
+LNWR-Jumbo(Black)
+LNWR ジャンボ型 2-2-2-0
+LNWR-PrinceOfWales-Tender(Black)
+LNWR プリンスオブウェールズ型 4-6-0 テンダー
+LNWR-PrinceOfWales(Black)
+LNWR プリンスオブウェールズ型 4-6-0
+LNWR-Problem-Tender(Green)
+LNWR プロブレム型 2-2-2 テンダー
+LNWR-Problem(Green)
+LNWR プロブレム型 2-2-2
+Long10T
+10t長物車
+Long12T
+12t長物車
+Long20T
+20t長物車
+Long30T
+30t長物車
+LongD1
+8t長物車
+LongEarly1
+長物カート
+LongEarly2
+長物カート
+LongEarly3
+長物カート
+LSWR-M7(Olive)
+LSWR M7形 0-4-4T
+LSWR-Third-Brake
+LSWR ３等緩急車
+LSWR-Third-Carriage
+LSWR ３等客車
+LYR-Class25-Tender(Black)
+LYR クラス25 0-6-0 テンダー
+LYR-Class25(Black)
+LYR クラス25 0-6-0
+MailBike
+郵便自転車
+MailCoach
+大型郵便馬車（コーチ）
+MaudslayVanBulk
+モーズリー ばら積みバン
+MaudslayVanCool
+モーズリー 保冷バン
+MaudslayVanLong
+モーズリー 長物バン
+MaudslayVanPiece
+モーズリー 貨物バン
+MaudslayVanPost
+モーズリー 郵便バン
+McNamaraDennisVanPost
+マクナマラ デニス 郵便バン
+MCWQ1
+MCW Q1
+Medium-2-Deck-Trailer
+中型2階建トラム客車
+MercedesCitaroG(Front)
+メルセデス シターロG 前部
+MercedesCitaroG(Rear)
+メルセデス シターロG 後部
+MercedesCitaroK
+メルセデス シターロK
+Metrolink-T86(Front)
+マンチェスター・メトロリンク T86
+Metrolink-T86(Rear)
+マンチェスター・メトロリンク T86 後部
+Metropolitan-Bogie-Third
+メトロポリタン鉄道 ３等ボギー客車
+Metropolitan-Class-E
+メトロポリタン鉄道 E形 0-4-4T
+Metropolitan-Dreadnought-Third
+メトロポリタン鉄道  ドレッドノート ３等客車
+Metropolitan-Motor-Third-Back
+メトロポリタン鉄道 ３等車 後部
+Metropolitan-Motor-Third-Front
+メトロポリタン鉄道 ３等車
+Metropolitan-Motor-Third-Middle
+メトロポリタン鉄道 ３等中間車
+Metropolitan-Vickers
+メトロポリタン鉄道 ビッカース
+MorrisEightCool
+モーリス・エイト 保冷バン
+MorrisEightPiece
+モーリス・エイト 貨物バン
+MorrisEightPost
+モーリス・エイト 郵便バン
+MorrisFGBulk
+モーリス FG ばら荷トラック
+MorrisFGCool
+モーリス FG 保冷トラック
+MorrisFGLivestock
+モーリス FG 家畜運搬車
+MorrisFGLong
+モーリス FG 長物トラック
+MorrisFGPiece
+モーリス FG 混載トラック
+MorrisFGPost
+モーリス FG 郵便トラック
+MorrisJ4Cool
+モーリス J4 保冷バン
+MorrisJ4Piece
+モーリス J4 貨物バン
+MorrisJ4Post
+モーリス J4 郵便バン
+MorrisLDCool
+モーリス LD 保冷バン
+MorrisLDPiece
+モーリス LD 貨物バン
+MorrisLDPost
+モーリス LD 郵便バン
+MorrisMarinaCool
+モーリス・マリーナ 保冷バン
+MorrisMarinaPiece
+モーリス・マリーナ 貨物バン
+MorrisMarinaPost
+モーリス・マリーナ 郵便バン
+MorrisMinorCool
+モーリス・マイナー 保冷バン
+MorrisMinorPiece
+モーリス・マイナー 貨物バン
+MorrisMinorPost
+モーリス・マイナー 郵便バン
+MR-1000-Tender(Maroon)
+MR 1000形 テンダー
+MR-1000(Maroon)
+MR 1000形
+MR-4Wheel-Brake
+MR ２軸緩急車
+MR-4Wheel-Composite
+MR ２軸客車
+MR-4Wheel-Mail
+MR ２軸郵便車
+MR-6Wheel-First
+MR ３軸客車
+MR-6Wheel-Guard
+MR ３軸緩急車
+MR-6Wheel-Mail
+MR ３軸郵便車
+MR-Clerestory-Brake
+MR 採光窓付緩急車
+MR-Clerestory-Coach
+MR 採光窓付客車
+MR-Clerestory-Dining
+MR 採光窓付食堂車
+MR-Clerestory-Mail
+MR 採光窓付郵便車
+MR-Clerestory-Parcel-Brake
+MR 採光窓付手荷物車（ブレーキ室）
+MR-Clerestory-TPO
+MR 採光窓付移動郵便局
+MR-Kirtley156(Maroon)
+MR 156形 2-4-0
+MR-Kirtley156Tender(Maroon)
+MR 156形 2-4-0 テンダー
+MR-Spinner-Tender(Maroon)
+MR 673形 ミッドランドスピナー 4-2-2 テンダー
+MR-Spinner(Maroon)
+MR 673形 ミッドランドスピナー 4-2-2
+MSLR-4Wheel-Brake
+MSLR ２軸緩急車
+MSLR-4Wheel-Composite
+MSLR ２軸客車
+MSLR-4Wheel-Mail
+MSLR ２軸郵便車
+NER-ClassEE1(Green)
+NER クラスEE1 2-Co-2(4-6-4)
+NER-ClassEF1(Green)
+NER クラスEF1 Bo-Bo(0-4+4-0)
+NER-ClassES1(Green)
+NER クラスES1 Bo-Bo(0-4+4-0)
+NET-Bombardier-Incentro(Front)
+NET ボンバルディア Incentro
+NET-Bombardier-Incentro(Rear)
+NET ボンバルディア Incentro 後部
+NSTypeDouble
+NSタイプ 2階建てバス
+OmnibusDoubleGardenseat
+2階建乗合馬車
+OmnibusDoubleKnifeboard
+2階建簡易席乗合馬車
+OmnibusSingle
+乗合馬車
+OptareExcel
+Optare Excel 低床バス
+OptareTempo
+Optare Tempo
+PetrolElectricBus
+Petrol-electric オムニバス
+Piece16T
+16t有蓋車
+PieceContainer
+FAA コンテナ車
+PieceD32
+8t有蓋車
+PieceD88
+12t有蓋車
+PieceEarly1
+混載カート
+PieceEarly2
+混載カート
+PieceEarly3
+混載カート
+PieceZSX
+BR ZSX 有蓋車
+PlaxtonParagon
+Plaxton Paragon
+PuffingBilly
+ワイラム炭鉱鉄道 パッフィンビリー 0-4-0
+PuffingBilly-Tender
+ワイラム炭鉱鉄道 パッフィンビリー 0-4-0 テンダー
+RCH-Tanker
+RCH タンク車
+RF
+AEC リーガル IV (RF)
+RFCoach
+AEC リーガル IV (RF) 長距離バス
+RM-325Front(RM)
+英国郵便 クラス325 EMU
+RM-325Middle(RM)
+英国郵便 クラス325 EMU 中間部
+RM-325Power(RM)
+英国郵便 クラス325 EMU 動力車
+RM-325Rear(RM)
+英国郵便 クラス325 EMU 後部
+RoadHorsesDouble
+2頭立て馬車
+RoadHorsesSingle
+1頭立て馬車
+Routemaster
+AEC ルートマスター
+RoutemasterLong
+AEC ルートマスター ロングボディ
+RoutemasterLongCoach
+AEC ルートマスター 長距離バス
+RoutemasterTrolleybus
+ルートマスター トロリーバス
+RT
+RTタイプ 2階建てバス
+Scammell1955TrailerBulk
+スキャンメル 1955 ばら積みトレーラー
+Scammell1955TrailerCars
+スキャンメル 1955 キャリアトレーラー
+Scammell1955TrailerCool
+スキャンメル 1955 冷蔵トレーラー
+Scammell1955TrailerFluid
+スキャンメル 1955 ローリー
+Scammell1955TrailerLivestock
+スキャンメル 1955 家畜運搬トレーラー
+Scammell1955TrailerLong
+スキャンメル 1955 ポールトレーラー
+Scammell1955TrailerPiece
+スキャンメル 1955 コンテナトレーラー
+ScammellCrusader
+スキャンメル クルセーダー トラクタ
+ScammellCrusaderTrailerBulk
+スキャンメル クルセイダー ばら積みトレーラー
+ScammellCrusaderTrailerCars
+スキャンメル クルセーダー キャリアトレーラー
+ScammellCrusaderTrailerCool
+スキャンメル クルセーダー 冷蔵トレーラー
+ScammellCrusaderTrailerFluid
+スキャンメル クルセイダー ローリー
+ScammellCrusaderTrailerLivestock
+スキャンメル クルセイダー 家畜運搬トレーラー
+ScammellCrusaderTrailerLong
+スキャンメル クルセイダー ポールトレーラー
+ScammellCrusaderTrailerPiece
+スキャンメル クルセイダー コンテナトレーラー
+ScammellHandyman
+スキャンメル ハンディマン トラクタ
+ScammellHighwayman
+スキャンメル ハイウェイマン トラクタ
+ScammellMechanicalHorse
+スキャンメル メカニカル・ホース トラクタ
+ScammellMechHorseTrailerCool
+スキャンメル メカニカル・ホース 保冷トレーラー
+ScammellMechHorseTrailerLivestock
+スキャンメル メカニカル・ホース 家畜運搬トレーラー
+ScammellMechHorseTrailerLong
+スキャンメル メカニカル・ホース 長物トレーラー
+ScammellMechHorseTrailerMail
+スキャンメル メカニカル・ホース 郵便トレーラー
+ScammellMechHorseTrailerPiece
+スキャンメル メカニカル・ホース 混載トレーラー
+ScammellRoutemanBulk
+スキャンメル ルートマン ばら積みトラック
+ScammellRoutemanCool
+スキャンメル ルートマン 保冷トラック
+ScammellRoutemanFluid
+スキャンメル ルートマン ローリー
+ScammellRoutemanLivestock
+スキャンメル ルートマン 家畜運搬トラック
+ScammellRoutemanLong
+スキャンメル ルートマン 長物トラック
+ScammellRoutemanPiece
+スキャンメル ルートマン 混載トラック
+ScammellScarab
+スキャンメル スカラベ トラクタ
+ScammellTownsman
+スキャンメル タウンズマン トラクタ
+SDR-1001-Tender(Green)
+SDR 1001形 0-6-0 テンダー
+SDR-1001(Green)
+SDR 1001形 0-6-0
+SDR-Derwent
+SDR ダーウェント 0-6-0
+SDR-Derwent-Tender
+SDR ダーウェント 0-6-0 テンダー
+SDR-Locomotion
+SDR ロコモーション号 0-4-0
+SDR-Locomotion-Tender
+SDR ロコモーション号 0-4-0 テンダー
+SentinelDGBulk
+センチネル DG ばら積みトラック
+SentinelDGCool
+センチネル DG 保冷トラック
+SentinelDGLivestock
+センチネル DG 家畜運搬トラック
+SentinelDGLong
+センチネル DG 長物トラック
+SentinelDGPiece
+センチネル DG 混載トラック
+SentinelSBulk
+センチネル S ばら荷トラック
+SentinelSCool
+センチネル S 保冷トラック
+SentinelSLivestock
+センチネル S 家畜運搬トラック
+SentinelSLong
+センチネル S 長物トラック
+SentinelSPiece
+センチネル S 混載トラック
+SentinelStandardBulk
+センチネル スタンダード ばら積みトラック
+SentinelStandardCool
+センチネル スタンダード 保冷トラック
+SentinelStandardLivestock
+センチネル スタンダード 家畜運搬トラック
+SentinelStandardLong
+センチネル スタンダード 長物トラック
+SentinelStandardPiece
+センチネル スタンダード 混載トラック
+Sheffield-Roberts
+シェフィールド ロバーツ
+Sheffield-Supertram(Front)
+シェフィールド・スーパートラム
+Sheffield-Supertram(Middle)
+シェフィールド・スーパートラム 中間部
+Sheffield-Supertram(Rear)
+シェフィールド・スーパートラム 後部
+Single-Shire
+1頭立て鉄道馬車
+Small-2-Deck-Trailer
+小型2階建トラム客車
+SR-401[BIL]Front(Green)
+SR 2Bil EMU
+SR-401[BIL]Rear(Green)
+SR 2Bil EMU 後部
+SR-404[COR]Front(Green)
+SR 4Cor EMU
+SR-404[COR]Middle1(Green)
+SR 4Cor EMU 中間車
+SR-404[COR]Middle2(Green)
+SR 4Cor EMU 中間車
+SR-404[COR]Rear(Green)
+SR 4Cor EMU 後部
+SR-Bulleid-Express-Brake(Green)
+SR ブレイド急行 緩急車
+SR-Bulleid-Express-Coach(Green)
+SR ブレイド急行 客車
+SR-Bulleid-Express-Dining(Green)
+SR ブレイド急行 食堂車
+SR-Maunsell-Brake(Green)
+SR マウンセル急行 緩急車
+SR-Maunsell-Dining(Green)
+SR マウンセル急行 食堂車
+SR-Maunsell-Mail(Green)
+SR マウンセル急行 郵便車
+SR-Maunsell-Parcels(Green)
+SR マウンセル急行 手荷物車（ブレーキ室）
+SR-Maunsell-Third(Green)
+SR マウンセル急行 ３等客車
+SR-Maunsell-TPO(Green)
+SR マウンセル急行 移動郵便局
+SR-MerchantNavy 4-6-2(Green)
+SR マーチャントネービー型 4-6-2
+SR-MerchantNavy 4-6-2Tender(Green)
+SR マーチャントネービー型 テンダー
+SR-N15
+SR N15 キング・アーサー型 4-6-0
+SR-N15-Tender
+SR N15 キング・アーサー型 4-6-0 テンダー
+SR-Q1-Tender(Black)
+SR Q1形 0-6-0 テンダー
+SR-Q1(Black)
+SR Q1形 0-6-0
+SR-Schools
+SR V級 スクールズ 4-4-0
+SR-Schools-Tender
+SR V級 スクールズ 4-4-0 テンダー
+StageCoach
+大型馬車（コーチ）
+StageWagonCool
+保冷ワゴン
+StageWagonMail
+郵便馬車（ワゴン）
+StageWagonPiece
+荷馬車（ワゴン）
+StandardArticTrailerBulk
+標準ばら積みトレーラー
+StandardArticTrailerCars
+標準キャリアカー
+StandardArticTrailerCool
+標準冷蔵トレーラー
+StandardArticTrailerFluid
+標準ローリー
+StandardArticTrailerLivestock
+標準家畜運搬トレーラー
+StandardArticTrailerLong
+標準ポールトレーラー
+StandardArticTrailerMail
+標準郵便トレーラー
+StandardArticTrailerPiece
+標準コンテナトレーラー
+Steam-Tram
+スチームトラム
+STypeDouble
+Sタイプ オープン2階建てバス
+Teak-Clerestory-Brake
+採光窓付チーク材緩急車
+Teak-Clerestory-Coach
+採光窓付チーク材客車
+Teak-Clerestory-Dining
+採光窓付チーク材食堂車
+Teak-Clerestory-Mail
+GNR 採光窓付チーク材郵便車
+Teak-Clerestory-Parcel-Brake
+LNER 採光窓付チーク材緩急車
+Teak-Clerestory-TPO
+LNER 採光窓付チーク材移動郵便局
+ThornycroftAmazonBulk
+ソーニクロフト アマゾン ばら積みトレーラー
+ThornycroftAmazonCars
+ソーニクロフト アマゾン キャリアカー
+ThornycroftAmazonCool
+ソーニクロフト アマゾン 保冷トレーラー
+ThornycroftAmazonFluid
+ソーニクロフト アマゾン タンクローリー
+ThornycroftAmazonLivestock
+ソーニクロフト アマゾン 家畜運搬トレーラー
+ThornycroftAmazonLong
+ソーニクロフト アマゾン ポールトレーラー
+ThornycroftAmazonPiece
+ソーニクロフト アマゾン コンテナトレーラー
+ThornycroftAmazonTractor
+ソーニクロフト アマゾン トラクタ
+ThornycroftBTBulk
+ソーニクロフト BT ばら積みトラック
+ThornycroftBTCars
+ソーニクロフト BT キャリアカー
+ThornycroftBTCool
+ソーニクロフト BT 保冷トラック
+ThornycroftBTLivestock
+ソーニクロフト BT 家畜運搬トラック
+ThornycroftBTLong
+ソーニクロフト BT 長物トラック
+ThornycroftBTPiece
+ソーニクロフト BT 混載トラック
+ThornycroftBTPost
+ソーニクロフト BT 郵便トラック
+ThornycroftQArticBulk
+ソーニクロフト Q ばら積みトレーラー
+ThornycroftQArticCar
+ソーニクロフト Q キャリアカー
+ThornycroftQArticCool
+ソーニクロフト Q 冷蔵トレーラー
+ThornycroftQArticFluid
+ソーニクロフト Q ローリー
+ThornycroftQArticLivestock
+ソーニクロフト Q 家畜運搬トレーラー
+ThornycroftQArticLong
+ソーニクロフト Q 長物トレーラー
+ThornycroftQArticPiece
+ソーニクロフト Q 混載トレーラー
+ThornycroftQArticTractor
+ソーニクロフト Q トラクタ
+ThornycroftQCBulk
+ソーニクロフト QC ばら積みトラック
+ThornycroftQCCars
+ソーニクロフト QC キャリアカー
+ThornycroftQCCool
+ソーニクロフト QC 保冷トラック
+ThornycroftQCFluid
+ソーニクロフト QC ローリー
+ThornycroftQCLivestock
+ソーニクロフト QC 家畜運搬トラック
+ThornycroftQCLong
+ソーニクロフト QC 長物トラック
+ThornycroftQCPiece
+ソーニクロフト QC 混載トラック
+ThornycroftQRigidBulk
+ソーニクロフト Q ばら積みトラック
+ThornycroftQRigidCars
+ソーニクロフト Q キャリアカー
+ThornycroftQRigidCool
+ソーニクロフト Q 保冷トラック
+ThornycroftQRigidLivestock
+ソーニクロフト Q 家畜運搬トラック
+ThornycroftQRigidLong
+ソーニクロフト Q 長物トラック
+ThornycroftQRigidOil
+ソーニクロフト Q ローリー
+ThornycroftQRigidPiece
+ソーニクロフト Q 混載トラック
+ThornycroftStagBulk
+ソーニクロフト スタッグ ばら積みトラック
+ThornycroftStagCars
+ソーニクロフト スタッグ キャリアカー
+ThornycroftStagCool
+ソーニクロフト スタッグ 保冷トラック
+ThornycroftStagFluid
+ソーニクロフト スタッグ ローリー
+ThornycroftStagLivestock
+ソーニクロフト スタッグ 家畜運搬トラック
+ThornycroftStagLong
+ソーニクロフト スタッグ 長物トラック
+ThornycroftStagPiece
+ソーニクロフト スタッグ 混載トラック
+ThornycroftSteamVanCool
+ソーニクロフト 蒸気エンジン 保冷バン
+ThornycroftSteamVanMail
+ソーニクロフト 蒸気エンジン 郵便バン
+ThornycroftSteamVanPiece
+ソーニクロフト 蒸気エンジン 貨物バン
+ThornycroftWagonBulk
+ソーニクロフト ばら積みワゴン
+ThornycroftWagonCool
+ソーニクロフト 保冷ワゴン
+ThornycroftWagonLivestock
+ソーニクロフト 家畜輸送ワゴン
+ThornycroftWagonLong
+ソーニクロフト 長物ワゴン
+ThornycroftWagonPiece
+ソーニクロフト 混載ワゴン
+Toastrack
+トースト・ラック トラム
+Tram-Horses
+馬車鉄道
+Twin-Shire
+2頭立て鉄道馬車
+VolvoB7TL
+ボルボ B7TL
+VolvoCitybus
+ボルボ シティバス
+VolvoOlympian
+ボルボ オリンピアン
+Wagon2CarFlat
+車運車
+Wagon3CarBogie
+Carflat FW 車運車
+WagonBulk
+ばら積みワゴン
+WagonCool
+保冷ワゴン
+WagonLong
+長物ワゴン
+WagonPiece
+混載ワゴン
+WrightElectrocity
+Wright Electrocity
+WrightStreetcar(Front)
+Wright StreetCar 連節バス 前部
+WrightStreetcar(Rear)
+Wright StreetCar 連節バス 後部
+YorkshireSteamTank
+ヨークシャー 蒸気自動車 ローリー
+#______________________________________way______________________________________
+#______________________________________way______________________________________
+asphalt_road
+アスファルトの道路
+Canal
+運河
+city_road
+市道
+cobblestone_road
+石畳の道路
+cssr
+コンクリート枕木線路
+cssri
+コンクリート枕木線路（改良型）
+dirt_road
+未舗装の道路
+GrassRunway
+草の滑走路
+GrassTaxiway
+草の誘導路
+Powerline
+送電線
+runway
+滑走路
+taxiway
+誘導路
+tgv
+高速規格線路
+TramTrack
+路面軌道
+wrought_iron_improved_track
+鍛鉄軌条線路（改良型）
+wrought_iron_track
+鍛鉄軌条線路
+wssr
+標準の線路
+wssri
+標準の線路（改良型）
+#__________________________________way-object___________________________________
+#__________________________________way-object___________________________________
+ACHighSpeedCatenary
+交流高速架線
+DCRailCatenary
+直流架線
+DCThirdRail
+直流第三軌条
+TramElectrification
+直流トラム架線
+TrollyBusElectrification
+直流トロリーバス架線

@@ -18,14 +18,14 @@ cost=100000
 runningcost=5
 sound=-1
 
-EmptyImage[E]=./images/wagon-long-d1.0
-EmptyImage[SE]=./images/wagon-long-d1.1
-EmptyImage[S]=./images/wagon-long-d1.2
-EmptyImage[SW]=./images/wagon-long-d1.3
-EmptyImage[W]=./images/wagon-long-d1.4
-EmptyImage[NW]=./images/wagon-long-d1.5
-EmptyImage[N]=./images/wagon-long-d1.6
-EmptyImage[NE]=./images/wagon-long-d1.7
+EmptyImage[E]=./images/wagon-long-d1.0.0
+EmptyImage[SE]=./images/wagon-long-d1.0.1
+EmptyImage[S]=./images/wagon-long-d1.0.2
+EmptyImage[SW]=./images/wagon-long-d1.0.3
+EmptyImage[W]=./images/wagon-long-d1.0.4
+EmptyImage[NW]=./images/wagon-long-d1.0.5
+EmptyImage[N]=./images/wagon-long-d1.0.6
+EmptyImage[NE]=./images/wagon-long-d1.0.7
 
 freightimagetype[1]=Stahl
 FreightImage[1][E]=./images/wagon-long-d1.2.0

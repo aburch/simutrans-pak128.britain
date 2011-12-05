@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=85
 # Calculated from data from Ahrons, pp. 219-220
-# Loss factor set at 0.75
+# Loss factor set at 0.0.75
 # Half boiler pressure used to calculate power.
 power=574
 gear=300
@@ -25,12 +25,12 @@ runningcost=780
 sound=-1
 
 
-EmptyImage[E]=./images/lnwr-mansion-house-tank.4
-EmptyImage[SE]=./images/lnwr-mansion-house-tank.5
-EmptyImage[S]=./images/lnwr-mansion-house-tank.6
-EmptyImage[SW]=./images/lnwr-mansion-house-tank.7
-EmptyImage[W]=./images/lnwr-mansion-house-tank.0
-EmptyImage[NW]=./images/lnwr-mansion-house-tank.1
-EmptyImage[N]=./images/lnwr-mansion-house-tank.2
-EmptyImage[NE]=./images/lnwr-mansion-house-tank.3
+EmptyImage[E]=./images/lnwr-mansion-house-tank.0.4
+EmptyImage[SE]=./images/lnwr-mansion-house-tank.0.5
+EmptyImage[S]=./images/lnwr-mansion-house-tank.0.6
+EmptyImage[SW]=./images/lnwr-mansion-house-tank.0.7
+EmptyImage[W]=./images/lnwr-mansion-house-tank.0.0
+EmptyImage[NW]=./images/lnwr-mansion-house-tank.0.1
+EmptyImage[N]=./images/lnwr-mansion-house-tank.0.2
+EmptyImage[NE]=./images/lnwr-mansion-house-tank.0.3
 
