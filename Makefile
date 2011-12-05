@@ -1,36 +1,21 @@
-# Makefile based on the pak64 Makefile. Thank you prissi et al!
-# Makefile for pak128-britain standard and experimental
-# 2010-06 sdog 
-# 2010-06 neroden
-#
 # Just run
 #   make clean all archives
 # to get fresh and ready to deploy .tbz2 and .zip archives
-CONFIG ?= config.default
--include $(CONFIG)
 
 MAKEOBJ ?= ./makeobj
 
-PAKNAME ?= pak128.britain.testing
-DESTDIR  ?= .
-PAKDIR   ?= $(DESTDIR)/$(PAKNAME)
-DESTFILE ?= $(PAKNAME)
+DESTDIR  ?= simutrans
+PAKDIR   ?= $(DESTDIR)/pak128.Britain
+DESTFILE ?= simupak128.Britain
 
-NAMEPREFIX ?=
-NAMESUFFIX ?=
-
-CPFILES ?= compat.tab
-CPFILES += readme.txt
-CPFILES += licence.txt
-CPFILES += demo.sve
-CPFILES += config
-CPFILES += text
-CPFILES += sound
+OUTSIDE :=
+OUTSIDE += grounds
 
 DIRS64 :=
 DIRS64 += gui/gui64
 
 DIRS128 :=
+DIRS128 += air
 DIRS128 += attractions
 DIRS128 += boats
 DIRS128 += bus
@@ -39,42 +24,33 @@ DIRS128 += citycars
 DIRS128 += depots
 DIRS128 += goods
 DIRS128 += grounds
+DIRS128 += gui/gui128
 DIRS128 += hq
 DIRS128 += industry
-DIRS128 += london-underground
+DIRS128 += livery-trains
+DIRS128 += london-undergroud
 DIRS128 += maglev
+DIRS128 += narrowgauge
 DIRS128 += pedestrians
-DIRS128 += smokes
+DIRS128 += smoke
 DIRS128 += stations
 DIRS128 += townhall
 DIRS128 += trains
 DIRS128 += trams
 DIRS128 += trees
 DIRS128 += ways
-DIRS128 += gui/gui128
 
-DIRS192 :=
+DIRS192 := 
 DIRS192 += boats/boats192
 
-DIRS224 :=
+DIRS224 := 
 DIRS224 += boats/boats224
 
-#Objects in .dat files to be paked into a single pak file
-# Actually, this is done as a single directory with one file
-SINGLE128 :=
-SINGLE128 += pak1file/128
+
+DIRS := $(OUTSIDE) $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224)
 
 
-DIRS := $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224) $(SINGLE128)
-
-#generating filenames
-#with this function the filenames are assembled, by removing the dir, adding prefix
-#and suffix
-make_name = $(NAMEPREFIX)$(notdir $1)$(NAMESUFFIX)
-#make_name = $(subst $(NAMEPREFIX)grounds$(NAMESUFFIX),ground.Outside.pak,$(NAMEPREFIX)$(notdir $1)$(NAMESUFFIX))
-
-
-.PHONY: $(DIRS) copy tar zip clean
+.PHONY: $(DIRS) copy tar zip
 
 all: copy $(DIRS)
 
@@ -93,35 +69,43 @@ $(DESTFILE).zip: $(PAKDIR)
 
 copy:
 	@echo "===> COPY"
-	@mkdir -p $(PAKDIR)
-	@cp -prt $(PAKDIR) $(CPFILES)
+	@mkdir -p $(PAKDIR)/text $(PAKDIR)/text/citylists $(PAKDIR)/config
+	@cp -p compat.tab $(PAKDIR)
+	@cp -p config/* $(PAKDIR)/config
+#	@mkdir -p $(PAKDIR)/sound $(PAKDIR)/text $(PAKDIR)/config $(PAKDIR)/scenario
+#	@cp -p sound/* $(PAKDIR)/sound
+#	@cp -p scenario/* $(PAKDIR)/scenario
+	@cp -p text/*.tab $(PAKDIR)/text
 
 $(DIRS64):
 	@echo "===> PAK64 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK $(PAKDIR)/ $@/ > /dev/null
 
 $(DIRS128):
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
+#	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/
 
 $(DIRS192):
 	@echo "===> PAK192 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK192 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK192 $(PAKDIR)/ $@/ > /dev/null
 
 $(DIRS224):
 	@echo "===> PAK224 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/ $@/ > /dev/null
 
-
-$(SINGLE128):
-	@echo "===> PAK128 $@"
+$(OUTSIDE):
+	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ground.Outside.pak $@/ > /dev/null
-
+	@echo -e -n "Obj=ground\nName=Outside\ncopyright=pak128.Britain 1.09 nightly 111.0 r" >$@/outside.dat
+	@svnversion >>$@/outside.dat
+	@echo -e "Image[0][0]=images/ls-water-128.0.0\n-" >>$@/outside.dat
+	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
+	@rm $@/outside.dat
 
 clean:
 	@echo "===> CLEAN"
