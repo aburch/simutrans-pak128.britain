@@ -2,6 +2,8 @@
 #   make clean all archives
 # to get fresh and ready to deploy .tbz2 and .zip archives
 
+GIT_COMMIT = $(shell git log | head -n 1)
+
 MAKEOBJ ?= ./makeobj
 
 DESTDIR  ?= simutrans
@@ -101,8 +103,8 @@ $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
-	@echo -e -n "Obj=ground\nName=Outside\ncopyright=pak128.Britain 1.09 nightly 111.0 r" >$@/outsiderev.dat
-	@svnversion >>$@/outsiderev.dat
+	@echo -e -n "Obj=ground\nName=Outside\ncopyright=pak128.Britain.Experimental git " >$@/outsiderev.dat
+	@echo `git log | head -n 1` >>$@/outsiderev.dat
 	@echo -e "Image[0][0]=images/ls-water-128.0.0\n-" >>$@/outsiderev.dat
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/outsiderev.dat > /dev/null
 	@rm $@/outsiderev.dat
