@@ -99,6 +99,8 @@ $(DIRS224):
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/ $@/ > /dev/null
 
+# Note that ground.Outside.pak must exist and must contain only
+# one object; simutrans uses this to detect the pak format
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
