@@ -288,7 +288,6 @@ tpo_revenue=300
 base_car_preference_percent = 95
 always_prefer_car_percent = 10
 congestion_density_factor = 15
-# was 14
 
 # This setting gives the maximum time that passengers are prepared to wait for their
 # transport. The setting is divided by speed bonus value to get the number of minutes.
@@ -444,7 +443,7 @@ allow_bankruptsy = 1
 allow_purhcases_when_insolvent = 0	
 
 # This is a compatibility setting for Simutrans-Standard. Because, in
-# Simutrans-Standard, the speed bonus data (in speedbonus.tab) is based on the
+# Simutrans-Standard, the speed bonus data (in speedbonus.tab) are based on the
 # *maximum*, rather than the *average* speed of the vehicles, the speeds in
 # speedbonus.tab will be too high. Use this setting to reduce them if playing 
 # with an incompatible pakset. For paksets produced with Simutrans-Standard in
@@ -640,16 +639,15 @@ numbered_stations = 0
 # 1 = station names
 # 2 = statistics
 # 3 = names and statistics
-
 # The visual style is added to this number:
 #   0 = black name in color box
 #   4 = name in player color with outline
 #   8 = box left of name in yellow outline
-show_names = 3
+show_names = 7
 
 # After how many months a citycar breaks (and will be forever gone) ...
 # one day at current settings: 260s
-citycar_life = 2750
+citycar_life = 1375
 
 # Colour of the cursor shading.
 # Pak128 default = 155 (orange)
@@ -672,13 +670,13 @@ river_type[3] = River0
 # The number of rivers
 river_number = 128
 
-# river min length (not too short)
+# river min length
 river_min_length = 2
 
-# river max length (not too long)
+# river max length
 river_max_length = 4096
 
-################################### Forest settings ##################################
+################################### Tree settings ##################################
 
 # These values have a substantial impact on the number of trees in the game.
 # This, in turn, has a large impact on memory consumption and game performance.
@@ -701,7 +699,7 @@ forest_boundary_blur = 16
 # Forest boundary thickness  - determines how thick will the boundary line be
 forest_boundary_thickness = 6
 
-# Determins how dense are spare trees going to be planted (works inversly)
+# Determines how dense are spare trees going to be planted (works inversly)
 forest_inverse_spare_tree_density = 384
 
 # climate with trees entirely (1: water, 2:desert, 4:tropic, 8:mediterran, 16:temperate, 32:tundra, 64:rocky, 128:arctic)
@@ -714,7 +712,7 @@ no_tree_climates = 130
 
 # if set, no trees will be created at all (save about 30% memory and
 # the season change will be much smoother on small machines)
-#no_tree = 0
+no_tree = 0
 
 ################################### Network settings ##############################
 
