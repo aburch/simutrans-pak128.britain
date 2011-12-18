@@ -1,8 +1,11 @@
 ################################### compat.tab #################################
-# The obsolete vehicles will be replaced by the one in the next line           #
+# The obsolete objects will be replaced by the one in the next line           #
 #                                                                              #
 #
 #                                                                              #
+################################ Private road sign #################################
+PrivateRoad
+roadbarrier
 #### Power Stations misnaming
 CoalPowerStation1910
 CoalPowerStation1910kraftwerk
