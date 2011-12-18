@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=70
 # Calculated from data from Ahrons, p. 121
-# Loss factor set at 0.7, assumed 100lbs boiler pressure. 
+# Loss factor set at 0.0.7, assumed 100lbs boiler pressure. 
 # Half boiler pressure used to calculate power.
 power=250
 tractive_effort=26

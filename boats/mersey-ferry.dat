@@ -14,7 +14,7 @@ length=12
 cost=56146000
 runningcost=3925
 intro_year=1959
-intro_month=2
+intro_month=1
 
 min_loading_time=360
 max_loading_time=600
@@ -23,6 +23,9 @@ comfort=128
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/mersey-ferry.0.0
 EmptyImage[SE]=./images/mersey-ferry.0.1

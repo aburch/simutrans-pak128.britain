@@ -25,13 +25,13 @@ max_loading_time=30
 can_lead_from_rear=0
 bidirectional=1
 
-EmptyImage[E]=./images/wagon-brake-sr.0
-EmptyImage[SE]=./images/wagon-brake-sr.1
-EmptyImage[S]=./images/wagon-brake-sr.2
-EmptyImage[SW]=./images/wagon-brake-sr.3
-EmptyImage[W]=./images/wagon-brake-sr.4
-EmptyImage[NW]=./images/wagon-brake-sr.5
-EmptyImage[N]=./images/wagon-brake-sr.6
-EmptyImage[NE]=./images/wagon-brake-sr.7
+EmptyImage[E]=./images/wagon-brake-sr.0.0
+EmptyImage[SE]=./images/wagon-brake-sr.0.1
+EmptyImage[S]=./images/wagon-brake-sr.0.2
+EmptyImage[SW]=./images/wagon-brake-sr.0.3
+EmptyImage[W]=./images/wagon-brake-sr.0.4
+EmptyImage[NW]=./images/wagon-brake-sr.0.5
+EmptyImage[N]=./images/wagon-brake-sr.0.6
+EmptyImage[NE]=./images/wagon-brake-sr.0.7
 
 

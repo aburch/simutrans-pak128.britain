@@ -67,8 +67,8 @@ icon_height = 32
 # WKZ_UNDERGROUND_PICK=34
 # WKZ_BUY_HOUSE=35
 # WKZ_CITYROAD=36
-
 #
+
 general_tool[0]=0,0,9,a
 general_tool[1]=1,1,14,r
 general_tool[2]=2,2,11,u
@@ -215,6 +215,8 @@ simple_tool[34]=,O
 # WKZ_ENLARGE_MAP=24
 # WKZ_LIST_LABELS=25
 # WKZ_CLIMATES=26
+# WKZ_SETTINGS=27
+# WKZ_GAMEINFO_NETWORK=28
 #
 dialog_tool[0]=0,?
 dialog_tool[1]=1,Q
