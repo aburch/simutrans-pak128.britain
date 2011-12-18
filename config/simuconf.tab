@@ -602,8 +602,11 @@ enforce_weight_limits=2
 
 allow_buying_obsolete_vehicles=0
 
-# If this setting is set to 1, the secondhand value of vehicles that have been used
-# (in the sense of having ever been sent out of a depot) will be reduced by 30%.
+# This allows for a "driving it off the lot" drop in value.
+# This is not on by default, even in Experimental.
+# vehicle can loose a part of their value, when they are once used
+# the loss is given in 1/1000th, i.e 300 mean the value will be 70%
+
 used_vehicle_reduction=1
 
 
