@@ -9,8 +9,8 @@ retire_year=1921
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=90
-overcrowded_capacity=30
+payload=80
+overcrowded_capacity=25
 length=10
 
 weight=22
@@ -51,7 +51,7 @@ EmptyImage[NW]=./images/lbscr-bogie-sub.0.5
 EmptyImage[N]=./images/lbscr-bogie-sub.0.6
 EmptyImage[NE]=./images/lbscr-bogie-sub.0.7
 
----
+---8/9
 
 obj=vehicle
 name=LBSCR-bogie-sub-brake-rear
@@ -63,8 +63,8 @@ retire_year=1921
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=84
-overcrowded_capacity=42
+payload=75
+overcrowded_capacity=37
 length=10
 
 weight=23
@@ -119,8 +119,8 @@ retire_year=1921
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=84
-overcrowded_capacity=42
+payload=75
+overcrowded_capacity=37
 length=10
 
 weight=23
