@@ -12,9 +12,11 @@ waytype=track
 freight=Passagiere
 payload=34
 overcrowded_capacity=17
+# 32ft: http://www.vintagecarriagestrust.org/MS&L.htm
 length=6
 
-weight=10
+# Correct weight is 12t: http://www.vintagecarriagestrust.org/MS&L.htm
+weight=12
 cost=295000
 runningcost=19
 sound=-1
