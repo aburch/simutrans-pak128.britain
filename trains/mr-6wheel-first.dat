@@ -10,8 +10,11 @@ waytype=track
 freight=Passagiere
 payload=32
 overcrowded_capacity=16
+# 34ft: http://www.vintagecarriagestrust.org/Midland.htm
 length=7
-weight=12
+
+# Correct weight is 15t: http://www.vintagecarriagestrust.org/Midland.htm
+weight=15
 cost=332000
 runningcost=16
 sound=-1
