@@ -1,0 +1,36 @@
+obj=vehicle
+name=Ford Trimotor - Northern & Scottish Airways
+copyright=Milko
+waytype=air
+engine_type=diesel
+speed=198
+power=420
+gear=100
+freight=Passagiere
+payload=12
+weight=4
+cost=2000000
+runningcost=600
+intro_year=1926
+intro_month=6
+comfort=80
+# Change retire year to 1933 when more vehicles available
+retire_year=1965
+retire_month=7
+smoke=Diesel
+
+#sound=aircraft-jet_stop.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=images/Ford_Trimotor_NSA.0.2
+EmptyImage[SE]=images/Ford_Trimotor_NSA.0.1
+EmptyImage[S]=images/Ford_Trimotor_NSA.0.0
+EmptyImage[SW]=images/Ford_Trimotor_NSA.0.7
+EmptyImage[W]=images/Ford_Trimotor_NSA.0.6
+EmptyImage[NW]=images/Ford_Trimotor_NSA.0.5
+EmptyImage[N]=images/Ford_Trimotor_NSA.0.4
+EmptyImage[NE]=images/Ford_Trimotor_NSA.0.3
+
+-------------

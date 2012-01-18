@@ -15,6 +15,9 @@ cost=10000
 runningcost=2
 sound=-1
 
+Constraint[Next][0]=FRCoach(CC)
+Constraint[Next][1]=FRPostCoach(CC)
+
 EmptyImage[E]=./images/fr-coach.0.0
 EmptyImage[SE]=./images/fr-coach.0.1
 EmptyImage[S]=./images/fr-coach.0.2
@@ -24,3 +27,29 @@ EmptyImage[NW]=./images/fr-coach.0.5
 EmptyImage[N]=./images/fr-coach.0.6
 EmptyImage[NE]=./images/fr-coach.0.7
 
+--
+obj=vehicle
+name=FRPostCoach(CC)
+speed=80
+copyright=James
+#Arbitrary...
+intro_year=1850
+intro_month=1
+waytype=narrowgauge_track
+freight=Post
+payload=20
+length=7
+
+weight=8
+cost=10000
+runningcost=2
+sound=-1
+
+EmptyImage[E]=./images/fr-mail-coach.0.0
+EmptyImage[SE]=./images/fr-mail-coach.0.1
+EmptyImage[S]=./images/fr-mail-coach.0.2
+EmptyImage[SW]=./images/fr-mail-coach.0.3
+EmptyImage[W]=./images/fr-mail-coach.0.4
+EmptyImage[NW]=./images/fr-mail-coach.0.5
+EmptyImage[N]=./images/fr-mail-coach.0.6
+EmptyImage[NE]=./images/fr-mail-coach.0.7
