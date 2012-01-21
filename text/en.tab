@@ -2741,9 +2741,19 @@ LBSCR Craven 0-4-2T
 LBSCR-20ft-third
 LBSCR 4 wheel compartment carriage
 LBSCR-20ft-brake-front
-LBSCR 4 wheel compartment brake (front)
+LBSCR 4 wheel compartment carriage (brake)
 LBSCR-20ft-brake-rear
-LBSCR 4 wheel compartment brake (rear)
+LBSCR 4 wheel compartment brake
+LNWR-8wheel-radial-brake-front
+LNWR 8 wheel (radial) compartment carriage (brake)
+LNWR-8wheel-radial-lav
+LNWR 8 wheel (radial) compartment carriage (lavatory)
+LNWR-8wheel-radial-brake-rear
+LNWR 8 wheel (radial) compartment carriage (brake)
+LNWR-8wheel-radial-mail
+LNWR 8 wheel (radial) mail carriage
+LNWR-8wheel-radial-tpo
+LNWR 8 wheel (radial) TPO
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
