@@ -1,0 +1,36 @@
+obj=vehicle
+name=LBSCR-0-4-2T
+engine_type=steam
+smoke=Steam
+speed=70
+# No data from Ahrons available. 
+# Extrapolated from LNWR Side Tank.
+power=208
+gear=300
+copyright=James&jamespetts
+intro_year=1855
+intro_month=2
+retire_year=1866
+retire_month=3
+waytype=track
+freight=None
+payload=0
+length=5
+
+# Weight not given in Ahrons, but guessed based on contemporaneous types.
+weight=20
+cost=7010000
+runningcost=800
+sound=-1
+
+# No liverytype yet defined for LBSCR Craven.
+
+EmptyImage[E]=./images/lbscr-2-4-0-t-1855.1.4
+EmptyImage[SE]=./images/lbscr-2-4-0-t-1855.1.5
+EmptyImage[S]=./images/lbscr-2-4-0-t-1855.1.6
+EmptyImage[SW]=./images/lbscr-2-4-0-t-1855.1.7
+EmptyImage[W]=./images/lbscr-2-4-0-t-1855.1.0
+EmptyImage[NW]=./images/lbscr-2-4-0-t-1855.1.1
+EmptyImage[N]=./images/lbscr-2-4-0-t-1855.1.2
+EmptyImage[NE]=./images/lbscr-2-4-0-t-1855.1.3
+---

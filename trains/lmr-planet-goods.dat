@@ -3,10 +3,11 @@ name=LMR-Planet-Goods
 engine_type=steam
 smoke=Steam
 speed=30
-# Power and TE values calculated from data from Ahrons (p. 20)
+# Power approximated based on performance.
+power=35
+# Tractive effort value calculated from data from Ahrons (p. 20)
 # Loss factor set to 0.5, pressure assumed to be 50lb
-power=26
-tractive_effort=400
+gear=300
 copyright=Kieron&jamespetts
 intro_year=1830
 intro_month=6
@@ -26,12 +27,11 @@ sound=-1
 
 Constraint[Next][0]=LMR-Planet-Tender
 
-EmptyImage[E]=./images/planet-goods.0.4,10,5
-EmptyImage[SE]=./images/planet-goods.0.5,0,5
-EmptyImage[S]=./images/planet-goods.0.6,-10,5
-EmptyImage[SW]=./images/planet-goods.0.7,-10,0
-EmptyImage[W]=./images/planet-goods.0.0,-10,-5
-EmptyImage[NW]=./images/planet-goods.0.1,0,-5
-EmptyImage[N]=./images/planet-goods.0.2,10,-5
-EmptyImage[NE]=./images/planet-goods.0.3,10,0
-
+EmptyImage[E]=./images/planet-goods.1.4
+EmptyImage[SE]=./images/planet-goods.1.5
+EmptyImage[S]=./images/planet-goods.1.6
+EmptyImage[SW]=./images/planet-goods.1.7
+EmptyImage[W]=./images/planet-goods.1.0
+EmptyImage[NW]=./images/planet-goods.1.1
+EmptyImage[N]=./images/planet-goods.1.2
+EmptyImage[NE]=./images/planet-goods.1.3
