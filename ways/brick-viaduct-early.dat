@@ -1,11 +1,12 @@
 Obj=bridge
 name=BrickViaductEarly
 waytype=track
-intro_year=1815
-#retire_year=1926
+intro_year=1840
+retire_year=1920
 topspeed=115
-cost=190000
-maintenance=1800
+cost=370000
+maintenance=1250
+max_weight=90
 pillar_distance=1
 pillar_asymmetric=1
 cursor=images/brick_viaduct_early.2.0

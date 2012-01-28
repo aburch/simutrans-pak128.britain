@@ -2,13 +2,13 @@ Obj=bridge
 name=TubularBoxGirder
 copyright=AEO/James
 waytype=track
-cost=1
-maintenance=1
+cost=330000
+maintenance=1250
 intro_year=1850
 intro_month=1
 topspeed=120
-max_length=16
 max_height=3
+max_weight=40
 pillar_distance=4
 
 #pillar_asymmetric=1
