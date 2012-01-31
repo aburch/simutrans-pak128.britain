@@ -107,7 +107,7 @@ BAE 146 300 Series (post)
 BAE146_300QT(TNT)Piece
 BAE 146 300 Series (piece goods)
 BAE146_300QT(TNT)Cool
-BAE 146 300 Series (cooled goods)
+BAE 146 300 Series (perishable goods)
 ATR_42_320(BlueIslands)
 ATR 42 320 Series
 ATR_42_300F(FedEx)Post
@@ -115,19 +115,19 @@ ATR 42 300 Series (post)
 ATR_42_300F(FedEx)Piece
 ATR 42 300 Series (piece goods)
 ATR_42_300F(FedEx)Cool
-ATR 42 300 Series (cooled goods)
+ATR 42 300 Series (perishable goods)
 ATR72_200(FedEx)Post
 ATR 72 200 Series (post)
 ATR72_200(FedEx)Piece
 ATR 72 200 Series (piece goods)
 ATR72_200(FedEx)Cool
-ATR 72 200 Series (cooled goods)
+ATR 72 200 Series (perishable goods)
 Airbus320(AerLingus)Post
 Airbus A320 (post)
 Airbus320(AerLingus)Piece
 Airbus A320 (piece goods)
 Airbus320(AerLingus)Cool
-Airbus A320 (cooled goods)
+Airbus A320 (perishable goods)
 ATR72_200(BritishAirways)
 ATR 72 200 Series
 #____________________________________bridge_____________________________________
@@ -1213,7 +1213,7 @@ bulk goods
 CATEGORY_03
 oil/petrol
 CATEGORY_04
-cooled goods
+perishable goods
 CATEGORY_05
 fluid foods
 CATEGORY_06
@@ -2953,7 +2953,7 @@ Cart (long goods)
 CartPiece
 Cart (piece goods)
 CartCool
-Cart (cooled goods)
+Cart (perishable goods)
 CartMail
 Cart (mail)
 CartMailNew
@@ -2965,11 +2965,11 @@ Wagon (long goods)
 WagonPiece
 Wagon (piece goods)
 WagonCool
-Wagon (cooled goods)
+Wagon (perishable goods)
 StageWagonPiece
 Stage Wagon (piece goods)
 StageWagonCool
-Stage Wagon (cooled goods)
+Stage Wagon (perishable goods)
 StageWagonMail
 Stage Wagon (mail)
 EagleTrailerBulk
@@ -2979,7 +2979,7 @@ Eagle Trailer (long goods)
 EagleTrailerPiece
 Eagle Trailer (piece goods)
 EagleTrailerCool
-Eagle Trailer (cooled goods)
+Eagle Trailer (perishable goods)
 EagleTrailerLivestock
 Eagle Trailer (livestock)
 EagleTrailerFluid
@@ -3609,11 +3609,11 @@ RMU Aerocab
 RMU-aerocab(rear)
 RMU Aerocab
 RMUbox(cooled)
-RMU Box Car (cooled goods)
+RMU Box Car (perishable goods)
 RMUbox(piece)
 RMU Box Car (piece goods)
 RMUflat(cooled)
-RMU Flat Car (cooled goods)
+RMU Flat Car (perishable goods)
 RMUflat(piece)
 RMU Flat Car (piece goods)
 BR-Ultra-450(front)
@@ -3667,7 +3667,7 @@ BAE 146 300 Series (post)
 BAE146_300QT(TNT)Piece
 BAE 146 300 Series (piece goods)
 BAE146_300QT(TNT)Cool
-BAE 146 300 Series (cooled goods)
+BAE 146 300 Series (perishable goods)
 ATR_42_320(BlueIslands)
 ATR 42 320 Series
 ATR_42_300F(FedEx)Post
@@ -3675,19 +3675,19 @@ ATR 42 300 Series (post)
 ATR_42_300F(FedEx)Piece
 ATR 42 300 Series (piece goods)
 ATR_42_300F(FedEx)Cool
-ATR 42 300 Series (cooled goods)
+ATR 42 300 Series (perishable goods)
 ATR72_200(FedEx)Post
 ATR 72 200 Series (post)
 ATR72_200(FedEx)Piece
 ATR 72 200 Series (piece goods)
 ATR72_200(FedEx)Cool
-ATR 72 200 Series (cooled goods)
+ATR 72 200 Series (perishable goods)
 Airbus320(AerLingus)Post
 Airbus A320 (post)
 Airbus320(AerLingus)Piece
 Airbus A320 (piece goods)
 Airbus320(AerLingus)Cool
-Airbus A320 (cooled goods)
+Airbus A320 (perishable goods)
 ATR72_200(BritishAirways)
 ATR 72 200 Series
 BAC_111_200(BUA)
