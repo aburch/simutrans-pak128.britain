@@ -548,9 +548,14 @@ bits_per_month = 20
 # by that stop's coverage radius, but covered by the radius of another stop (possibly
 # owned by a rival player) in the nearby vicinity, and of passengers walking instead
 # of using player transport in some cases.
+#
+# It is recommended that this feature only be used in multiplayer games, as its usefulness
+# is limited in single player games. It can be very useful in multiplayer games, however,
+# where it is undesirable or impractical to connect the stations of different players.
+#
 # 0 = false; 1 = true. Default: false.
 
-allow_routing_on_foot = 1
+allow_routing_on_foot = 0
 
 ################################ Road Settings ###################################
 
