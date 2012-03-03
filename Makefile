@@ -41,6 +41,8 @@ DIRS128 += ways
 
 DIRS192 := 
 DIRS192 += boats/boats192
+DIRS192 := 
+DIRS192 += air/air192
 
 DIRS224 := 
 DIRS224 += boats/boats224

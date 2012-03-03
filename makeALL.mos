@@ -22,6 +22,8 @@ xcopy ./compat.tab %OUTPUT%
 
 echo Build aeroplanes
 build %OUTPUT%BritAir.pak ./air/
+!size=192
+build %OUTPUT%BritAir192.pak ./air/air192/
 
 echo Build attractions
 build %OUTPUT%BritAttractions.pak ./attractions/
