@@ -2,8 +2,8 @@ obj=vehicle
 name=BR-378Rear(LT)
 engine_type=electric
 speed=120
-power=250
-gear=420
+power=600
+gear=200
 copyright=Kieron
 intro_year=2009
 intro_month=1
@@ -21,6 +21,7 @@ sound=-1
 
 Constraint[Prev][0]=BR-378Middle(LT)
 Constraint[Prev][1]=BR-378Front(LT)
+Constraint[Prev][2]=BR-378MiddlePower(LT)
 
 Constraint[Next][0]=BR-378Front(LT)
 Constraint[Next][1]=none
