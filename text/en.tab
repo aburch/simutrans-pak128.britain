@@ -572,6 +572,12 @@ Small_Cricket_Ground
 Cricket Ground
 Large_Football_Ground
 Football Ground
+LT_Station1_pc_1standard
+Tube station (basic)
+LT_Station1_pc_2overpass
+Tube station (with overpass)
+LT_Station1_pc_3levelpass
+Tube station (with passageway)
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 AustinMetro(Blue)
@@ -1328,6 +1334,8 @@ RoadTunnelConcrete
 Concrete tunnel
 RoadTunnelStone
 Stone faced tunnel
+LT_Tunnel
+Tube tunnel
 #____________________________________vehicle____________________________________
 #____________________________________vehicle____________________________________
 1-Deck-Closed
@@ -3386,7 +3394,162 @@ LBSCR-0-4-2T
 LBSCR Craven 0-4-2T
 Metropolitan-A-Class
 A Class 4-4-0T
-#______________________________________way______________________________________
+BR-Class485(Blue)Front
+BR Class 485 EMU
+BR-Class485(Blue)Middle1
+BR Class 485 EMU (trailer)
+BR-Class485(Blue)Middle2
+BR Class 485 EMU (trailer)
+BR-Class485(Blue)Rear
+BR Class 485 EMU (rear DM)
+1903TubeStockFront
+CLR 1903 Tube Stock
+1900TubeStockTrailer
+CLR 1900 Tube Stock (trailer)
+1903TubeStockRear
+CLR 1903 Tube Stock (rear DM)
+1900TubeLoco
+CLR 1900 Tube Locomotive
+1890TubeStockLoco
+CSLR 1890 Tube Locomotive
+1890TubeStockTrailer
+CSLR 1890 "Padded Cell" Tube Stock
+1906TubeStockFront
+UERL 1906 Tube Stock
+1906TubeStockTrailer
+UERL 1906 Tube Stock (trailer)
+1906TubeStockRear
+UERL 1906 Tube Stock (rear DM)
+1920TubeStockAirDoorFront
+UERL 1920 "Air Door" Tube Stock
+1920TubeStockAirDoorTrailer
+UERL 1920 "Air Door" Tube Stock (trailer)
+1920TubeStockAirDoorRear
+UERL 1920 "Air Door" Tube Stock (rear DM)
+1914TubeStockFront
+UERL 1914 Tube Stock
+1914TubeStockRear
+UERL 1914 Tube Stock (rear DM)
+1915TubeStockFront
+CLR 1915 Tube Stock
+1915TubeStockRear
+CLR 1915 Tube Stock (rear DM)
+1940TubeStockFront
+WCR 1940 Tube Stock
+1940TubeStockMiddle
+WCR 1940 Tube Stock (trailer)
+1940TubeStockRear
+WCR 1940 Tube Stock (rear DM)
+BR-Class483(NSE)Front
+BR Class 483 EMU
+BR-Class483(NSE)NDM
+BR Class 483 EMU (NDM)
+BR-Class483(NSE)Trailer
+BR Class 483 EMU (trailer)
+BR-Class483(NSE)Rear
+BR Class 483 EMU (rear DM)
+WatfordJointStockFront
+Watford Joint Tube Stock
+WatfordJointStockMiddle
+Watford Joint Tube Stock (trailer)
+WatfordJointStockRear
+Watford Joint Tube Stock (rear DM)
+1923TubeStockFront
+UERL 1923 "Standard" Tube Stock
+1923TubeStockMiddle1
+UERL 1923 "Standard" Tube Stock (trailer)
+1923TubeStockMiddle2
+UERL 1923 "Standard" Tube Stock (trailer)
+1923TubeStockRear
+UERL 1923 "Standard" Tube Stock (rear DM)
+1898TubeStockFront
+WCR 1898 Tube Stock
+1898TubeStockMiddle
+WCR 1898 Tube Stock (trailer)
+1898TubeStockRear
+WCR 1898 Tube Stock (rear DM)
+1938TubeStockFront
+LUL 1938 Tube Stock
+1938TubeStockNDM
+LUL 1938 Tube Stock (NDM)
+1938TubeStockTrailer
+LUL 1938 Tube Stock (trailer)
+1938TubeStockRear
+LUL 1938 Tube Stock (rear DM)
+1959TubeStockFront
+LUL 1959 Tube Stock
+1959TubeStockMiddle1
+LUL 1959 Tube Stock (trailer)
+1959TubeStockMiddle2
+LUL 1959 Tube Stock (trailer)
+1959TubeStockRear
+LUL 1959 Tube Stock (rear DM)
+1967TubeStockFront
+LUL 1967 Tube Stock
+1967TubeStockMiddle1
+LUL 1967 Tube Stock (trailer)
+1967TubeStockMiddle2
+LUL 1967 Tube Stock (trailer)
+1967TubeStockRear
+LUL 1967 Tube Stock (rear DM)
+1973TubeStockFrontDM
+LUL 1973 Tube Stock
+1973TubeStockMiddle1
+LUL 1973 Tube Stock (trailer)
+1973TubeStockMiddle2
+LUL 1973 Tube Stock (trailer)
+1973TubeStockRearDM
+LUL 1973 Tube Stock (rear DM)
+1973TubeStockFrontUNDM
+LUL 1973 Tube Stock (front UNDM)
+1973TubeStockRearUNDM
+LUL 1973 Tube Stock (rear UNDM)
+1983TubeStockFrontDM
+LUL 1983 Tube Stock
+1983TubeStockMiddle1
+LUL 1983 Tube Stock (trailer)
+1983TubeStockMiddle2
+LUL 1983 Tube Stock (trailer)
+1983TubeStockRearDM
+LUL 1983 Tube Stock (rear DM)
+1983TubeStockFrontUNDM
+LUL 1983 Tube Stock (front UNDM)
+1983TubeStockRearUNDM
+LUL 1983 Tube Stock (rear UNDM)
+1995TubeStockFrontDM
+LUL 1995 Tube Stock
+1995TubeStockMiddle1
+LUL 1995 Tube Stock (trailer)
+1995TubeStockMiddle2
+LUL 1995 Tube Stock (trailer)
+1995TubeStockRearDM
+LUL 1995 Tube Stock (rear DM)
+1995TubeStockFrontUNDM
+LUL 1995 Tube Stock (front UNDM)
+1995TubeStockRearUNDM
+LUL 1995 Tube Stock (rear UNDM)
+2009TubeStockFrontDM
+LUL 2009 Tube Stock
+1995TubeStockMiddle1
+LUL 2009 Tube Stock (trailer)
+2009TubeStockMiddle2
+LUL 2009 Tube Stock (trailer)
+2009TubeStockRearDM
+LUL 2009 Tube Stock (rear DM)
+2009TubeStockFrontUNDM
+LUL 2009 Tube Stock (front UNDM)
+2009TubeStockRearUNDM
+LUL 2009 Tube Stock (rear UNDM)
+1992TubeStockFront
+LUL 1992 Tube Stock
+1992TubeStockMiddle1
+LUL 1992 Tube Stock (rear UNDM)
+1992TubeStockMiddle2
+LUL 1992 Tube Stock (front UNDM
+1992TubeStockRear
+LUL 1992 Tube Stock (rear DM)
+#______________________________________way______________________
+________________
 #______________________________________way______________________________________
 asphalt_road
 Asphalt Road
@@ -3486,3 +3649,5 @@ TramElectrification
 DC Tramway Catenary
 TrollyBusElectrification
 DC Trolleybus Catenary
+DCFourthRail
+DC Fourth Rail Electrification
