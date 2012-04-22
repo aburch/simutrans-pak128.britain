@@ -89,8 +89,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-min_loading_time=30
-max_loading_time=200
+min_loading_time=25
+max_loading_time=250
 
 EmptyImage[E]=./images/morris-ld.2.0
 EmptyImage[SE]=./images/morris-ld.2.1

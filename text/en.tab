@@ -1598,11 +1598,11 @@ GWR-Swindon-TwinsetFront
 GWR Swindon Twinset
 GWR-Swindon-TwinsetRear
 GWR Swindon Twinset (rear)
-BR-104Rear(Green)
+BR-104Rear
 BR Class 104 DMU (rear)
-BR-104Middle(Green)
+BR-104Middle
 BR Class 104 DMU (middle)
-BR-104Front(Green)
+BR-104Front
 BR Class 104 DMU
 SR-404[COR]Front(Green)
 SR 4-Cor EMU
@@ -2311,7 +2311,7 @@ LMS Class 5XP "Patriot" 4-6-0 (tender)
 LMS-Princess-Royal(Maroon)
 LMS Class 7P "Princess Royal"
 LMS-Princess-Royal-Tender(Maroon)
-LMS Class 7P "Princess Royal" (tender)
+LMS Stanier express tender
 LNER-B17(Green)
 LNER Class B17 "Footballer" 4-6-0
 LNER-B17-Tender(Green)
@@ -2328,12 +2328,14 @@ Single-Shire
 Single Shire Horse
 Twin-Shire
 Double Shire Horse
-BR-121(Green)
+BR-121
 BR Class 121 DMU
 BR-378Front(LT)
 BR London Overground Class 378 EMU
 BR-378Middle(LT)
-BR London Overground Class 378 EMU (middle)
+BR London Overground Class 378 EMU (centre, powered)
+BR-378Middle(LT)-unpowered
+BR London Overground Class 378 EMU (centre)
 BR-378Rear(LT)
 BR London Overground Class 378 EMU (rear)
 LivestockEarly1
@@ -2756,6 +2758,28 @@ LNWR-8wheel-radial-mail
 LNWR 8 wheel (radial) mail carriage
 LNWR-8wheel-radial-tpo
 LNWR 8 wheel (radial) TPO
+BR-Derby-Lightweight-DTCL
+BR Derby Lightweight DMU
+BR-Derby-Lightweight-DMBS
+BR Derby Lightweight DMU (rear)
+BR-117-DMS
+BR Class 117 DMU
+BR-117-TCL
+BR Class 117 DMU (centre trailer)
+BR-117-DMBS
+BR Class 117 DMU (rear)
+BR-123-DMBS
+BR Class 123 inter-city DMU
+BR-123-TCK
+BR Class 123 inter-city DMU (corridor trailer)
+BR-123-TS
+BR Class 123 inter-city DMU (open trailer)
+BR-123-TBS
+BR Class 123 inter-city DMU (buffet)
+BR-123-DMS
+BR Class 123 inter-city DMU (rear)
+BR-128
+BR Class 128 DMU
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -4160,3 +4184,7 @@ Grand-Central
 Grand Central
 Wartime-Austerity
 Wartime austerity
+NSE
+Networtk SouthEast
+RR
+Regional Railways

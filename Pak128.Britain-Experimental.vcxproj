@@ -218,6 +218,9 @@
     <None Include="text\streetlist_en.txt" />
     <None Include="text\tr.tab" />
     <None Include="text\zh.tab" />
+    <None Include="trains\br-117.dat" />
+    <None Include="trains\br-123.dat" />
+    <None Include="trains\br-128.dat" />
     <None Include="trains\br-150-rr.dat" />
     <None Include="trains\br-307.dat" />
     <None Include="trains\br-321.dat" />
@@ -234,6 +237,7 @@
     <None Include="trains\br-cl24.dat" />
     <None Include="trains\br-cl50.dat" />
     <None Include="trains\br-cl60.dat" />
+    <None Include="trains\br-derby-lightweight.dat" />
     <None Include="trains\br-mk1-bsk.dat" />
     <None Include="trains\br-mk1-bso.dat" />
     <None Include="trains\br-mk1-bg.dat" />

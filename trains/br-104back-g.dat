@@ -1,9 +1,10 @@
 obj=vehicle
-name=BR-104Rear(Green)
+name=BR-104Rear
 engine_type=diesel
 smoke=Diesel
-speed=110
-power=485
+speed=112
+power=224
+tractive_effort=85
 copyright=Kieron
 intro_year=1957
 intro_month=9
@@ -17,8 +18,8 @@ overcrowded_capacity=17
 length=10
 
 weight=32
-cost=20830
-runningcost=66
+cost=1250000
+runningcost=96
 sound=-1
 increase_maintenance_after_years=4
 
@@ -27,20 +28,65 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=60
-comfort=83
+comfort=80
 
-Constraint[Prev][0]=BR-104Middle(Green)
-Constraint[Prev][1]=BR-104Front(Green)
+Constraint[Prev][0]=BR-104Middle
+Constraint[Prev][1]=BR-104Front
 
-Constraint[Next][0]=BR-104Front(Green)
-Constraint[Next][1]=none
+Constraint[Next][0]=BR-104Front
+Constraint[Next][1]=BR-121
+Constraint[Next][2]=BR-128
+Constraint[Next][3]=BR-117-DMS
+Constraint[Next][4]=none
 
-EmptyImage[E]=./images/br-104-g.2.0
-EmptyImage[SE]=./images/br-104-g.2.1
-EmptyImage[S]=./images/br-104-g.2.2
-EmptyImage[SW]=./images/br-104-g.2.3
-EmptyImage[W]=./images/br-104-g.2.4
-EmptyImage[NW]=./images/br-104-g.2.5
-EmptyImage[N]=./images/br-104-g.2.6
-EmptyImage[NE]=./images/br-104-g.2.7
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+liverytype[2]=BR-Large-Logo
+liverytype[3]=NSE-Standard
+liverytype[4]=Regional-Railways-Standard
+
+EmptyImage[E][0]=./images/br-104-g.2.0
+EmptyImage[SE][0]=./images/br-104-g.2.1
+EmptyImage[S][0]=./images/br-104-g.2.2
+EmptyImage[SW][0]=./images/br-104-g.2.3
+EmptyImage[W][0]=./images/br-104-g.2.4
+EmptyImage[NW][0]=./images/br-104-g.2.5
+EmptyImage[N][0]=./images/br-104-g.2.6
+EmptyImage[NE][0]=./images/br-104-g.2.7
+
+EmptyImage[E][1]=./images/br-104-b-c.1.0
+EmptyImage[SE][1]=./images/br-104-b-c.1.1
+EmptyImage[S][1]=./images/br-104-b-c.1.2
+EmptyImage[SW][1]=./images/br-104-b-c.1.3
+EmptyImage[W][1]=./images/br-104-b-c.1.4
+EmptyImage[NW][1]=./images/br-104-b-c.1.5
+EmptyImage[N][1]=./images/br-104-b-c.1.6
+EmptyImage[NE][1]=./images/br-104-b-c.1.7
+
+EmptyImage[E][2]=./images/br-104-bg-c.1.0
+EmptyImage[SE][2]=./images/br-104-bg-c.1.1
+EmptyImage[S][2]=./images/br-104-bg-c.1.2
+EmptyImage[SW][2]=./images/br-104-bg-c.1.3
+EmptyImage[W][2]=./images/br-104-bg-c.1.4
+EmptyImage[NW][2]=./images/br-104-bg-c.1.5
+EmptyImage[N][2]=./images/br-104-bg-c.1.6
+EmptyImage[NE][2]=./images/br-104-bg-c.1.7
+
+EmptyImage[E][3]=./images/br-104-nse-c.1.0
+EmptyImage[SE][3]=./images/br-104-nse-c.1.1
+EmptyImage[S][3]=./images/br-104-nse-c.1.2
+EmptyImage[SW][3]=./images/br-104-nse-c.1.3
+EmptyImage[W][3]=./images/br-104-nse-c.1.4
+EmptyImage[NW][3]=./images/br-104-nse-c.1.5
+EmptyImage[N][3]=./images/br-104-nse-c.1.6
+EmptyImage[NE][3]=./images/br-104-nse-c.1.7
+
+EmptyImage[E][4]=./images/br-104-rr-c.1.0
+EmptyImage[SE][4]=./images/br-104-rr-c.1.1
+EmptyImage[S][4]=./images/br-104-rr-c.1.2
+EmptyImage[SW][4]=./images/br-104-rr-c.1.3
+EmptyImage[W][4]=./images/br-104-rr-c.1.4
+EmptyImage[NW][4]=./images/br-104-rr-c.1.5
+EmptyImage[N][4]=./images/br-104-rr-c.1.6
+EmptyImage[NE][4]=./images/br-104-rr-c.1.7
 

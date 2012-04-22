@@ -71,9 +71,9 @@ max_alternative_destinations = 6
 # kilometres. 
 
 local_passengers_min_distance = 0
-local_passengers_max_distance = 25
+local_passengers_max_distance = 30
 midrange_passengers_min_distance = 6
-midrange_passengers_max_distance = 110
+midrange_passengers_max_distance = 120
 longdistance_passengers_min_distance = 55
 longdistance_passengers_max_distance = 16384
 
@@ -81,8 +81,9 @@ longdistance_passengers_max_distance = 16384
 # any passengers generated will try to find a town within each of the three
 # ranges, respectively. 
 
-passenger_routing_local_chance = 38
-passenger_routing_midrange_chance = 35
+passenger_routing_local_chance = 58
+passenger_routing_midrange_chance = 28
+# (Longdistance by inference = 14)
 # passenger_routing_longdistance_chance is 100 minus the sum of the two above values,
 # but not stipulated individually. 
 
@@ -95,11 +96,11 @@ passenger_routing_midrange_chance = 35
 # local, mid-range and long-distance passenger groups correspond to those
 # above. 
 
-min_local_tolerance = 25
-max_local_tolerance = 135
+min_local_tolerance = 15
+max_local_tolerance = 120
 min_midrange_tolerance = 30
 max_midrange_tolerance = 300
-min_longdistance_tolerance = 60
+min_longdistance_tolerance = 45
 max_longdistance_tolerance = 4320
 
 # Settings for calibrating the revenue system
@@ -954,3 +955,17 @@ intro_month[13][0] = 7
 livery[13][1] = WW2-Austerity
 intro_year[13][1] = 1939
 intro_month[13][1] = 9
+
+livery_scheme[14] = NSE
+retire_year[14] = 1995
+retire_month[14] = 4
+livery[14][0] = NSE-Standard
+intro_year[14][0] = 1986
+intro_month[14][0] = 6
+
+livery_scheme[15] = Regional-Railways
+retire_year[15] = 1995
+retire_month[15] = 4
+livery[15][0] = Regional-Railways-Standard
+intro_year[15][0] = 1986
+intro_month[15][0] = 6

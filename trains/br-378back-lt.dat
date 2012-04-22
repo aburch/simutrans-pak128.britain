@@ -2,9 +2,8 @@ obj=vehicle
 name=BR-378Rear(LT)
 engine_type=electric
 speed=120
-power=250
+power=600
 tractive_effort=142
-#gear=420
 copyright=Kieron
 intro_year=2009
 intro_month=7
@@ -29,7 +28,7 @@ max_loading_time=50
 comfort=70
 
 Constraint[Prev][0]=BR-378Middle(LT)
-Constraint[Prev][1]=BR-378Front(LT)
+Constraint[Prev][1]=BR-378Middle-unpowered(LT)
 
 Constraint[Next][0]=BR-378Front(LT)
 Constraint[Next][1]=none
