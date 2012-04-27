@@ -92,6 +92,7 @@
     <None Include="attractions\library.dat" />
     <None Include="attractions\little-park.dat" />
     <None Include="attractions\old_school.dat" />
+    <None Include="attractions\stone-attractions.dat" />
     <None Include="attractions\stonechurch.dat" />
     <None Include="boats\boats192\ss-great-britain.dat" />
     <None Include="boats\boats192\ss-great-western.dat" />
@@ -155,6 +156,7 @@
     <None Include="industry\gasworks.dat" />
     <None Include="industry\grocers.dat" />
     <None Include="industry\market.dat" />
+    <None Include="Makefile" />
     <None Include="narrowgauge\double-fairlie.dat" />
     <None Include="narrowgauge\fr-coach-mail.dat" />
     <None Include="narrowgauge\fr-coach.dat" />
@@ -521,6 +523,7 @@
     <None Include="trains\br-mk4-rsb-ic.dat" />
     <None Include="trains\br-mk4-to-ic.dat" />
     <None Include="industry\brewery.dat" />
+    <None Include="ways\beam-bridge.dat" />
     <None Include="ways\brick-aqueduct.dat" />
     <None Include="ways\brick-viaduct-early.dat" />
     <None Include="ways\brick-viaduct-elevated.dat" />
@@ -574,6 +577,9 @@
     <None Include="compat.tab" />
     <None Include="stations\concrete-platform.dat" />
     <None Include="stations\concrete-station-building-small.dat" />
+    <None Include="ways\concrete-road-bridges.dat" />
+    <None Include="ways\concrete-viaduct-road.dat" />
+    <None Include="ways\concrete-viaduct.dat" />
     <None Include="ways\concrete_rail_bridges.dat" />
     <None Include="ways\concrete_road.dat" />
     <None Include="ways\concrete_road_bridges.dat" />
@@ -922,6 +928,8 @@
     <None Include="bus\plaxton-paragon.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\players.txt" />
     <None Include="industry\pottery.dat" />
+    <None Include="ways\plate-girder-road.dat" />
+    <None Include="ways\plate-girder.dat" />
     <None Include="ways\Powerlines.dat" />
     <None Include="industry\printworks.dat" />
     <None Include="config\privatecar.tab" />
@@ -1040,6 +1048,7 @@
     <None Include="boats\steam-barge.dat" />
     <None Include="trams\steam-tram.dat" />
     <None Include="industry\steel-mill.dat" />
+    <None Include="ways\steel-truss.dat" />
     <None Include="ways\steel_rail_bridges.dat" />
     <None Include="ways\steel_road_bridges.dat" />
     <None Include="stations\stone-building.dat" />
@@ -1072,6 +1081,7 @@
     <None Include="ways\tram_track.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\tramtools.txt" />
     <None Include="trees\tree.dat" />
+    <None Include="ways\tubular-box-girder.dat" />
     <None Include="ways\tunnels.dat" />
     <None Include="trains\twin-shire.dat" />
     <None Include="maglev\Ultra450.dat" />
@@ -1141,6 +1151,7 @@
     <None Include="..\..\simutrans-experimental-binaries\text\en\window.txt" />
     <None Include="stations\wooden-platform.dat" />
     <None Include="ways\wood-trestle-road.dat" />
+    <None Include="ways\wooden-trestle-narrow.dat" />
     <None Include="ways\wooden-trestle.dat" />
     <None Include="bus\wright-electrocity.dat" />
     <None Include="bus\wright-streetcar.dat" />
