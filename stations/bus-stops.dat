@@ -51,6 +51,7 @@ BackImage[0][0][0][0][0][1]=basic-bus-stop.1.0
 FrontImage[0][0][0][0][0][1]=basic-bus-stop.1.1
 BackImage[1][0][0][0][0][1]=basic-bus-stop.1.2
 FrontImage[1][0][0][0][0][1]=basic-bus-stop.1.3
+
 icon=> basic-bus-stop.0.5
 cursor=basic-bus-stop.0.4
 --------------------
@@ -77,6 +78,7 @@ BackImage[0][0][0][0][0][1]=old-bus-shelter.1.0
 FrontImage[0][0][0][0][0][1]=old-bus-shelter.1.1
 BackImage[1][0][0][0][0][1]=old-bus-shelter.1.2
 FrontImage[1][0][0][0][0][1]=old-bus-shelter.1.3
+
 icon=> old-bus-shelter.0.5
 cursor=old-bus-shelter.0.4
 --------------------
@@ -100,6 +102,7 @@ BackImage[0][0][0][0][0][1]=modern-bus-shelter.1.0
 FrontImage[0][0][0][0][0][1]=modern-bus-shelter.1.1
 BackImage[1][0][0][0][0][1]=modern-bus-shelter.1.2
 FrontImage[1][0][0][0][0][1]=modern-bus-shelter.1.3
+
 icon=> modern-bus-shelter.0.5
 cursor=modern-bus-shelter.0.4
 --------------------
@@ -125,6 +128,7 @@ BackImage[0][0][0][0][0][1]=loading-bay.0.3
 FrontImage[0][0][0][0][0][1]=-
 BackImage[1][0][0][0][0][1]=loading-bay.0.4
 FrontImage[1][0][0][0][0][1]=-
+
 icon=> loading-bay.0.2
 cursor=loading-bay.0.1
 --------------------
@@ -159,6 +163,7 @@ BackImage[2][0][0][0][0][1]=cargo-terminal-old.2.2
 FrontImage[2][0][0][0][0][1]=cargo-terminal-old.3.2
 BackImage[1][0][0][0][0][1]=cargo-terminal-old.2.3
 FrontImage[1][0][0][0][0][1]=cargo-terminal-old.3.3
+
 icon=> cargo-terminal-old.1.4
 cursor=cargo-terminal-old.0.4
 --------------------
@@ -191,6 +196,7 @@ BackImage[2][0][0][0][0][1]=cargo-terminal-modern.2.2
 FrontImage[2][0][0][0][0][1]=cargo-terminal-modern.3.2
 BackImage[1][0][0][0][0][1]=cargo-terminal-modern.2.3
 FrontImage[1][0][0][0][0][1]=cargo-terminal-modern.3.3
+
 icon=> cargo-terminal-modern.1.4
 cursor=cargo-terminal-modern.0.4
 --------------------
@@ -248,5 +254,6 @@ BackImage[2][0][0][0][0][1]=bus-terminal-old.1.2
 FrontImage[2][0][0][0][0][1]=bus-terminal-old.2.2
 BackImage[1][0][0][0][0][1]=bus-terminal-old.1.3
 FrontImage[1][0][0][0][0][1]=bus-terminal-old.2.3
+
 icon=> bus-terminal-old.1.4
 cursor=bus-terminal-old.0.4

@@ -366,6 +366,8 @@ LNER-B17/5-Tender(Green)
 LNER-B17-5-Tender(Green)
 LNER-B17/5(Green)
 LNER-B17-5(Green)
+Ford Trimotor - Northern & Scottish Airways
+Ford-Trimotor-NSA
 #
 ############ Variant names for electrification in old Experimental #############
 DCRailCatenaryCombined
@@ -390,3 +392,9 @@ PlateGirder
 ShortSteelGirderHeavy
 PlateGirderRoad
 steel_spanning_road_bridge_asphalt
+### Replacing faster brick viaducts with new concrete ones
+BrickViaduct225
+ConcreteViaduct
+BrickViaduct320
+ConcreteViaductHS
+
