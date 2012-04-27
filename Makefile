@@ -5,8 +5,8 @@
 MAKEOBJ ?= ./makeobj
 
 DESTDIR  ?= simutrans
-PAKDIR   ?= $(DESTDIR)/pak128.Britain
-DESTFILE ?= simupak128.Britain
+PAKDIR   ?= $(DESTDIR)/pak128.Britain-Ex
+DESTFILE ?= simupak128.Britain-Ex
 
 OUTSIDE :=
 OUTSIDE += grounds
