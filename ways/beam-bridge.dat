@@ -2,12 +2,13 @@ Obj=bridge
 name=BeamBridge
 copyright=AEO/James
 waytype=track
-cost=1
-maintenance=1
+cost=330000
+intro_year=1880
+max_weight=30
+maintenance=1000
 topspeed=120
 max_lenght=8
 max_height=2
-intro_year=1880
 pillar_distance=2
 
 cursor=images/Bridge_rail_beam_hvy.2.1

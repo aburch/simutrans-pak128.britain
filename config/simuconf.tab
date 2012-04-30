@@ -288,7 +288,7 @@ tpo_revenue=300
 
 base_car_preference_percent = 95
 always_prefer_car_percent = 10
-congestion_density_factor = 15
+congestion_density_factor = 15 
 
 # This setting gives the maximum time that passengers are prepared to wait for their
 # transport. The setting is divided by speed bonus value to get the number of minutes.

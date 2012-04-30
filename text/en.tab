@@ -2357,9 +2357,9 @@ Midland 2441 Class 0-6-0 (for push-pull)
 MR-1632
 Midland 1632 Class 0-6-0
 MR-Spinner(Maroon)
-Midland 673 Class "Midland Spinner" 4-2-2
+Midland 673 Class "Spinner" 4-2-2
 MR-Spinner-Tender(Maroon)
-Midland 673 Class "Midland Spinner" 4-2-2 (tender)
+Midland 673 Class "Spinner" 4-2-2 (tender)
 LMS-Patriot(Maroon)
 LMS Class 5XP "Patriot" 4-6-0
 LMS-Patriot-Tender(Maroon)
@@ -4188,8 +4188,9 @@ Permissive 3
 DC Fourth Rail Electrification
 Permissive 4
 Waterway
+# For the DLR - reserved for future use.
 Permissive 5
-[Unused] Permissive 5
+Light rail electrification
 Permissive 6
 [Unused] Permissive 6
 Permissive 7

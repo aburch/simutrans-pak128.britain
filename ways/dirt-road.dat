@@ -5,8 +5,10 @@ cost=1000
 maintenance=10
 topspeed=15
 max_weight=80
-intro_year = 1000
-intro_month = 1
+intro_year=1000
+intro_month=1
+retire_year=1919
+retire_month=12
 icon=> ./images/dirt.3.4
 cursor=./images/dirt.3.5
 

@@ -1,8 +1,13 @@
 Obj=bridge
 name=WoodenTrestleNarrow
 waytype=narrowgauge_track
-intro_year=1750
+intro_year=1836
+intro_month=6
+# No replacements - do not retire.
+# Should eventually be replaced by
+# concrete version. 
 topspeed=30
+max_weight=40
 cost=25000
 maintenance=175
 pillar_distance=1
