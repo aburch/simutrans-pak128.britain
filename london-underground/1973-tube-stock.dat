@@ -13,7 +13,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=161
+payload=44
+overcrowded_capacity=154
 
 weight=27
 cost=1650000
@@ -43,6 +44,7 @@ engine_type=electric
 speed=100
 #gear=250
 power=300
+tractive_effort=80
 length=9
 copyright=James
 intro_year=1973
@@ -51,7 +53,8 @@ retire_year=1995
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=161
+payload=44
+overcrowded_capacity=176
 
 weight=26
 cost=1250000
@@ -87,7 +90,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=161
+payload=44
+overcrowded_capacity=176
 
 weight=18
 cost=800000
@@ -126,7 +130,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=161
+payload=44
+overcrowded_capacity=176
 
 weight=18
 cost=800000
@@ -166,7 +171,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=161
+payload=44
+overcrowded_capacity=176
 
 weight=26
 cost=1250000
@@ -207,7 +213,8 @@ retire_year=1992
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=161
+payload=44
+overcrowded_capacity=154
 
 weight=27
 cost=1650000

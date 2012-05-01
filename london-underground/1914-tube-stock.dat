@@ -13,7 +13,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload=40
+overcrowded_capacity=80
 
 weight=27
 cost=1050000
@@ -52,7 +53,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload=40
+overcrowded_capacity=80
 
 weight=27
 cost=1050000

@@ -45,7 +45,11 @@ retire_year=1910
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=72
+payload=35
+overcrowded_capacity=35
+
+# See here for capacity:
+# http://www.tfl.gov.uk/assets/downloads/foi/Rolling_stock_Data_Sheet_2nd_Edition.pdf
 
 weight=12
 cost=350000

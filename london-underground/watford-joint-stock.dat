@@ -13,7 +13,11 @@ retire_year=1930
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=90
+payload=40
+overcrowded_capacity=64
+
+# This one looks more comfortable than other stock of the era:
+# http://www.ltmcollection.org/images/webmax/0a/i0000b0a.jpg
 
 weight=27
 cost=1050000
@@ -49,7 +53,8 @@ retire_year=1930
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=120
+payload=48
+overcrowded_capacity=96
 
 weight=17
 cost=650000
@@ -90,7 +95,8 @@ retire_year=1930
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=90
+payload=40
+overcrowded_capacity=64
 
 weight=27
 cost=1050000

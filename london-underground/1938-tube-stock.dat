@@ -13,7 +13,8 @@ retire_year=1959
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=120
+payload=42
+overcrowded_capacity=138
 
 weight=26
 cost=1000000
@@ -52,7 +53,8 @@ retire_year=1959
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=120
+payload=40
+overcrowded_capacity=130
 
 weight=25
 cost=800000
@@ -88,7 +90,8 @@ retire_year=1959
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=120
+payload=40
+overcrowded_capacity=150
 
 weight=18
 cost=400000
@@ -126,7 +129,8 @@ retire_year=1959
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=120
+payload=42
+overcrowded_capacity=138
 
 weight=26
 cost=1000000

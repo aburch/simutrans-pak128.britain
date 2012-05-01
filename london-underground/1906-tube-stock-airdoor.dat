@@ -4,21 +4,26 @@ engine_type=electric
 speed=60
 #gear=500
 power=120
-tractive_effort=56
+tractive_effort=55
 length=8
 copyright=James
-intro_year=1906
-intro_month=2
+intro_year=1919
+intro_month=8
 retire_year=1923
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=80
+payload=40
+overcrowded_capacity=88
 
 weight=27
 cost=950000
+upgrade_price=135714
 runningcost=90
 sound=-1
+#available_only_as_upgrade=1
+
+# First air door vehicles.
 
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
@@ -43,13 +48,14 @@ engine_type=electric
 speed=60
 length=8
 copyright=James
-intro_year=1906
-intro_month=2
+intro_year=1919
+intro_month=8
 retire_year=1923
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=110
+payload=44
+overcrowded_capacity=114
 
 weight=23
 cost=350000
@@ -81,21 +87,24 @@ engine_type=electric
 speed=60
 #gear=500
 power=120
-tractive_effort=56
+tractive_effort=55
 length=8
 copyright=James
-intro_year=1906
-intro_month=2
+intro_year=1919
+intro_month=8
 retire_year=1923
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=80
+payload=40
+overcrowded_capacity=88
 
 weight=27
 cost=950000
+upgrade_price=135714
 runningcost=90
 sound=-1
+#available_only_as_upgrade=1
 
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3

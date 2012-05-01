@@ -13,10 +13,12 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=80
+payload=42
+overcrowded_capacity=84
 
 weight=23
 cost=750000
+upgrade_price=250000
 runningcost=61
 sound=-1
 
@@ -46,15 +48,19 @@ copyright=James
 intro_year=1900
 intro_month=3
 retire_year=1923
-retire_month=1
+retire_month=5
 waytype=track
 freight=Passagiere
-payload=110
+payload=48
+overcrowded_capacity=120
 
 weight=15
 cost=250000
 runningcost=5
 sound=-1
+
+upgrade[0]=1903TubeStockFront
+upgrade[1]=1903TubeStockRear
 
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
@@ -93,10 +99,12 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=130
+payload=42
+overcrowded_capacity=84
 
 weight=23
 cost=750000
+upgrade_price=250000
 runningcost=61
 sound=-1
 

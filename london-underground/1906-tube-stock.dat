@@ -13,7 +13,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload=40
+overcrowded_capacity=80
 
 weight=27
 cost=950000
@@ -51,7 +52,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=110
+payload=48
+overcrowded_capacity=106
 
 weight=23
 cost=350000
@@ -85,6 +87,7 @@ engine_type=electric
 speed=60
 #gear=500
 power=120
+tractive_effort=55
 length=8
 copyright=James
 intro_year=1906
@@ -93,7 +96,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload=40
+overcrowded_capacity=80
 
 weight=27
 cost=950000
