@@ -22,6 +22,9 @@ upgrade_price=250000
 runningcost=61
 sound=-1
 
+can_lead_from_rear=1
+bidirectional=0
+
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
@@ -58,6 +61,9 @@ weight=15
 cost=250000
 runningcost=5
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 upgrade[0]=1903TubeStockFront
 upgrade[1]=1903TubeStockRear
@@ -107,6 +113,9 @@ cost=750000
 upgrade_price=250000
 runningcost=61
 sound=-1
+
+can_lead_from_rear=1
+bidirectional=0
 
 Constraint[Prev][0]=1900TubeStockTrailer
 

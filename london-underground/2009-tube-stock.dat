@@ -19,6 +19,9 @@ cost=1950000
 runningcost=80
 sound=-1
 
+can_lead_from_rear=1
+bidirectional=0
+
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
@@ -57,6 +60,9 @@ cost=1500000
 runningcost=80
 sound=-1
 
+can_lead_from_rear=0
+bidirectional=1
+
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
@@ -91,6 +97,9 @@ weight=21
 cost=950000
 runningcost=40
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
@@ -133,6 +142,9 @@ cost=950000
 runningcost=40
 sound=-1
 
+can_lead_from_rear=0
+bidirectional=1
+
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
@@ -171,6 +183,9 @@ weight=27
 cost=1500000
 runningcost=80
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
@@ -211,6 +226,9 @@ weight=27
 cost=1950000
 runningcost=80
 sound=-1
+
+can_lead_from_rear=1
+bidirectional=0
 
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3

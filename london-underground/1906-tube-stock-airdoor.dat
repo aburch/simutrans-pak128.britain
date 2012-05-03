@@ -23,6 +23,9 @@ runningcost=90
 sound=-1
 #available_only_as_upgrade=1
 
+can_lead_from_rear=1
+bidirectional=0
+
 # First air door vehicles.
 
 way_constraint_prohibitive[2]=2
@@ -61,6 +64,9 @@ weight=23
 cost=350000
 runningcost=8
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
@@ -105,6 +111,9 @@ upgrade_price=135714
 runningcost=90
 sound=-1
 #available_only_as_upgrade=1
+
+can_lead_from_rear=1
+bidirectional=0
 
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3

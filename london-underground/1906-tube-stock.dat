@@ -21,6 +21,9 @@ cost=950000
 runningcost=120
 sound=-1
 
+can_lead_from_rear=1
+bidirectional=0
+
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
@@ -59,6 +62,9 @@ weight=23
 cost=350000
 runningcost=10
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
