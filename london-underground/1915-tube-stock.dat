@@ -26,7 +26,7 @@ bidirectional=0
 
 # These have sliding central doors, but operated by gatemen.
 
-way_constraint_prohibitive[2]=2
+way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
 Constraint[Prev][0]=1915TubeStockRear
@@ -69,7 +69,7 @@ sound=-1
 can_lead_from_rear=1
 bidirectional=0
 
-way_constraint_prohibitive[2]=2
+way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
 Constraint[Prev][0]=1900TubeStockTrailer

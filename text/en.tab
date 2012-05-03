@@ -4342,6 +4342,7 @@ Volvo-240-Estate(Silver)
 Volvo 240 Estate
 #__________________________________Way constraints__________________________________
 #__________________________________Way constraints__________________________________
+# Permissive
 Permissive 0
 DC Third Rail Electrification
 Permissive 1
@@ -4359,6 +4360,7 @@ Permissive 6
 [Unused] Permissive 6
 Permissive 7
 [Unused] Permissive 7
+# Prohibitive
 Prohibitive 0
 Tramway
 Prohibitive 1
