@@ -1,5 +1,5 @@
 obj=vehicle
-name=1923TubeStockFront(Orig)
+name=1923TubeStockFront
 engine_type=electric
 speed=72
 #gear=300
@@ -27,10 +27,10 @@ bidirectional=0
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
-Constraint[Prev][0]=1923TubeStockRear(Orig)
+Constraint[Prev][0]=1923TubeStockRear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=1923TubeStockMiddle1(Orig)
+Constraint[Next][0]=1923TubeStockMiddle1
 
 EmptyImage[E]=./images/lu-1923-orig.0.0
 EmptyImage[SE]=./images/lu-1923-orig.0.1
@@ -42,7 +42,7 @@ EmptyImage[N]=./images/lu-1923-orig.0.6
 EmptyImage[NE]=./images/lu-1923-orig.0.7
 --
 obj=vehicle
-name=1923TubeStockMiddle1(Orig)
+name=1923TubeStockMiddle1
 engine_type=electric
 speed=72
 length=8
@@ -67,10 +67,10 @@ bidirectional=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
-Constraint[Prev][0]=1923TubeStockFront(Orig)
+Constraint[Prev][0]=1923TubeStockFront
 
-Constraint[Next][0]=1923TubeStockMiddle2(Orig)
-Constraint[Next][1]=1923TubeStockRear(Orig)
+Constraint[Next][0]=1923TubeStockMiddle2
+Constraint[Next][1]=1923TubeStockRear
 
 EmptyImage[E]=./images/lu-1923-orig.1.0
 EmptyImage[SE]=./images/lu-1923-orig.1.1
@@ -82,7 +82,7 @@ EmptyImage[N]=./images/lu-1923-orig.1.6
 EmptyImage[NE]=./images/lu-1923-orig.1.7
 ----
 obj=vehicle
-name=1923TubeStockMiddle2(Orig)
+name=1923TubeStockMiddle2
 engine_type=electric
 speed=72
 length=8
@@ -107,9 +107,9 @@ bidirectional=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
-Constraint[Prev][0]=1923TubeStockMiddle1(Orig)
+Constraint[Prev][0]=1923TubeStockMiddle1
 
-Constraint[Next][0]=1923TubeStockRear(Orig)
+Constraint[Next][0]=1923TubeStockRear
 
 EmptyImage[E]=./images/lu-1923-orig.1.0
 EmptyImage[SE]=./images/lu-1923-orig.1.1
@@ -122,7 +122,7 @@ EmptyImage[NE]=./images/lu-1923-orig.1.7
 --
 
 obj=vehicle
-name=1923TubeStockRear(Orig)
+name=1923TubeStockRear
 engine_type=electric
 speed=72
 #gear=300
@@ -150,10 +150,10 @@ bidirectional=0
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
-Constraint[Prev][0]=1923TubeStockMiddle1(Orig)
-Constraint[Prev][1]=1923TubeStockMiddle2(Orig)
+Constraint[Prev][0]=1923TubeStockMiddle1
+Constraint[Prev][1]=1923TubeStockMiddle2
 
-Constraint[Next][0]=1923TubeStockFront(Orig)
+Constraint[Next][0]=1923TubeStockFront
 Constraint[Next][1]=none
 
 
