@@ -24,6 +24,8 @@ sound=-1
 can_lead_from_rear=1
 bidirectional=0
 
+comfort=69
+
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
@@ -70,6 +72,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+comfort=69
+
 Constraint[Prev][0]=1973TubeStockRearUNDM
 
 Constraint[Next][0]=1973TubeStockMiddle1
@@ -109,6 +113,8 @@ bidirectional=1
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
+
+comfort=69
 
 Constraint[Prev][0]=1973TubeStockFrontDM
 Constraint[Prev][1]=1973TubeStockFrontUNDM
@@ -152,6 +158,8 @@ bidirectional=1
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
+
+comfort=69
 
 Constraint[Prev][0]=1973TubeStockMiddle1
 
@@ -197,6 +205,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+comfort=69
+
 Constraint[Prev][0]=1973TubeStockMiddle1
 Constraint[Prev][1]=1973TubeStockMiddle2
 
@@ -241,6 +251,8 @@ bidirectional=0
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
+
+comfort=69
 
 Constraint[Prev][0]=1973TubeStockMiddle1
 Constraint[Prev][1]=1973TubeStockMiddle2

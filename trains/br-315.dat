@@ -29,7 +29,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=60
+comfort=65
 way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-315Rear(Blue-Grey)
@@ -79,7 +79,7 @@ bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=60
+comfort=65
 way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-315Front(Blue-Grey)
@@ -128,7 +128,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=50
-comfort=60
+comfort=65
 
 Constraint[Prev][0]=BR-315Pantograph(Blue-Grey)
 

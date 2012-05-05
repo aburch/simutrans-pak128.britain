@@ -30,6 +30,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+comfort=67
+
 Constraint[Prev][0]=WatfordJointStockRear
 Constraint[Prev][1]=none
 
@@ -69,6 +71,8 @@ bidirectional=1
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
+
+comfort=67
 
 Constraint[Prev][0]=WatfordJointStockFront
 Constraint[Prev][1]=WatfordJointStockMiddle
@@ -114,6 +118,8 @@ bidirectional=0
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
+
+comfort=67
 
 Constraint[Prev][0]=WatfordJointStockMiddle
 

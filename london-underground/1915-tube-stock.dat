@@ -29,6 +29,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+comfort=65
+
 Constraint[Prev][0]=1915TubeStockRear
 Constraint[Prev][1]=none
 
@@ -71,6 +73,8 @@ bidirectional=0
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
+
+comfort=65
 
 Constraint[Prev][0]=1900TubeStockTrailer
 

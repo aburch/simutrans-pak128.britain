@@ -26,7 +26,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=60
+comfort=65
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-507(rear)
@@ -73,7 +73,7 @@ bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=60
+comfort=65
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-507(front)
@@ -119,7 +119,7 @@ bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=60
+comfort=65
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-507(centre1)
@@ -167,7 +167,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=60
+comfort=65
 
 Constraint[Prev][0]=BR-507(centre1)
 Constraint[Prev][1]=BR-507(centre2)

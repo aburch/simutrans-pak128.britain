@@ -27,6 +27,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+comfort=57
+
 upgrade[0]=1920TubeStockAirDoorFront
 
 Constraint[Prev][0]=1906TubeStockRear
@@ -68,6 +70,8 @@ bidirectional=1
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
+
+comfort=57
 
 Constraint[Prev][0]=1906TubeStockFront
 Constraint[Prev][1]=1906TubeStockTrailer
@@ -112,6 +116,8 @@ sound=-1
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
+
+comfort=57
 
 upgrade[0]=1920TubeStockAirDoorRear
 

@@ -27,6 +27,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+comfort=67
+
 Constraint[Prev][0]=1923TubeStockRear
 Constraint[Prev][1]=none
 
@@ -67,6 +69,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+comfort=67
+
 Constraint[Prev][0]=1923TubeStockFront
 
 Constraint[Next][0]=1923TubeStockMiddle2
@@ -106,6 +110,8 @@ bidirectional=1
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
+
+comfort=67
 
 Constraint[Prev][0]=1923TubeStockMiddle1
 
@@ -149,6 +155,8 @@ bidirectional=0
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
+
+comfort=67
 
 Constraint[Prev][0]=1923TubeStockMiddle1
 Constraint[Prev][1]=1923TubeStockMiddle2
