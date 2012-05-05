@@ -969,3 +969,26 @@ retire_month[15] = 4
 livery[15][0] = Regional-Railways-Standard
 intro_year[15][0] = 1986
 intro_month[15][0] = 6
+
+livery_scheme[16] = London-Underground
+retire_year[16] = 2500
+retire_month[16] = 1
+livery[16][0] = UERL
+intro_year[16][0] = 1906
+intro_month[16][0] = 1
+livery[16][1] = LT
+intro_year[16][1] = 1933
+intro_month[16][1] = 1
+livery[16][2] = LUL
+intro_year[16][2] = 1990
+intro_month[16][2] = 5
+
+livery_scheme[17] = Island-Line
+retire_year[17] = 2500
+retire_month[17] = 1
+livery[17][0] = Dinasours
+intro_year[17][0] = 1996
+intro_month[17][0] = 7
+livery[17][1] = Island-Heritage
+intro_year[17][1] = 2007
+intro_month[17][1] = 1

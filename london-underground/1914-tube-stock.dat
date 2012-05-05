@@ -36,14 +36,26 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=1906TubeStockTrailer
 
-EmptyImage[E]=./images/uerl-1914-cc.0.0
-EmptyImage[SE]=./images/uerl-1914-cc.0.1
-EmptyImage[S]=./images/uerl-1914-cc.0.2
-EmptyImage[SW]=./images/uerl-1914-cc.0.3
-EmptyImage[W]=./images/uerl-1914-cc.0.4
-EmptyImage[NW]=./images/uerl-1914-cc.0.5
-EmptyImage[N]=./images/uerl-1914-cc.0.6
-EmptyImage[NE]=./images/uerl-1914-cc.0.7
+liverytype[0]=UERL
+liverytype[1]=LT
+
+EmptyImage[E][0]=./images/uerl-1914-cc.0.0
+EmptyImage[SE][0]=./images/uerl-1914-cc.0.1
+EmptyImage[S][0]=./images/uerl-1914-cc.0.2
+EmptyImage[SW][0]=./images/uerl-1914-cc.0.3
+EmptyImage[W][0]=./images/uerl-1914-cc.0.4
+EmptyImage[NW][0]=./images/uerl-1914-cc.0.5
+EmptyImage[N][0]=./images/uerl-1914-cc.0.6
+EmptyImage[NE][0]=./images/uerl-1914-cc.0.7
+
+EmptyImage[E][1]=./images/uerl-1914-red.0.0
+EmptyImage[SE][1]=./images/uerl-1914-red.0.1
+EmptyImage[S][1]=./images/uerl-1914-red.0.2
+EmptyImage[SW][1]=./images/uerl-1914-red.0.3
+EmptyImage[W][1]=./images/uerl-1914-red.0.4
+EmptyImage[NW][1]=./images/uerl-1914-red.0.5
+EmptyImage[N][1]=./images/uerl-1914-red.0.6
+EmptyImage[NE][1]=./images/uerl-1914-red.0.7
 --
 obj=vehicle
 name=1914TubeStockRear
@@ -83,14 +95,25 @@ Constraint[Prev][0]=1906TubeStockTrailer
 Constraint[Next][0]=1914TubeStockFront
 Constraint[Next][1]=none
 
+liverytype[0]=UERL
+liverytype[1]=LT
 
-EmptyImage[E]=./images/uerl-1914-cc.2.0
-EmptyImage[SE]=./images/uerl-1914-cc.2.1
-EmptyImage[S]=./images/uerl-1914-cc.2.2
-EmptyImage[SW]=./images/uerl-1914-cc.2.3
-EmptyImage[W]=./images/uerl-1914-cc.2.4
-EmptyImage[NW]=./images/uerl-1914-cc.2.5
-EmptyImage[N]=./images/uerl-1914-cc.2.6
-EmptyImage[NE]=./images/uerl-1914-cc.2.7
+EmptyImage[E][0]=./images/uerl-1914-cc.2.0
+EmptyImage[SE][0]=./images/uerl-1914-cc.2.1
+EmptyImage[S][0]=./images/uerl-1914-cc.2.2
+EmptyImage[SW][0]=./images/uerl-1914-cc.2.3
+EmptyImage[W][0]=./images/uerl-1914-cc.2.4
+EmptyImage[NW][0]=./images/uerl-1914-cc.2.5
+EmptyImage[N][0]=./images/uerl-1914-cc.2.6
+EmptyImage[NE][0]=./images/uerl-1914-cc.2.7
+
+EmptyImage[E][1]=./images/uerl-1914-red.2.0
+EmptyImage[SE][1]=./images/uerl-1914-red.2.1
+EmptyImage[S][1]=./images/uerl-1914-red.2.2
+EmptyImage[SW][1]=./images/uerl-1914-red.2.3
+EmptyImage[W][1]=./images/uerl-1914-red.2.4
+EmptyImage[NW][1]=./images/uerl-1914-red.2.5
+EmptyImage[N][1]=./images/uerl-1914-red.2.6
+EmptyImage[NE][1]=./images/uerl-1914-red.2.7
 --
 

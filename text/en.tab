@@ -2840,13 +2840,13 @@ BR-123-DMS
 BR Class 123 inter-city DMU (rear)
 BR-128
 BR Class 128 DMU
-BR-Class485(Blue)Front
+BR-Class485Front
 BR Class 485 EMU
-BR-Class485(Blue)Middle1
+BR-Class485Middle1
 BR Class 485 EMU (trailer)
-BR-Class485(Blue)Middle2
+BR-Class485Middle2
 BR Class 485 EMU (trailer)
-BR-Class485(Blue)Rear
+BR-Class485Rear
 BR Class 485 EMU (rear DM)
 1903TubeStockFront
 CLR 1903 Tube Stock
@@ -2886,13 +2886,13 @@ WCR 1940 Tube Stock
 WCR 1940 Tube Stock (trailer)
 1940TubeStockRear
 WCR 1940 Tube Stock (rear DM)
-BR-Class483(NSE)Front
+BR-Class483Front
 BR Class 483 EMU
-BR-Class483(NSE)NDM
+BR-Class483NDM
 BR Class 483 EMU (NDM)
-BR-Class483(NSE)Trailer
+BR-Class483Trailer
 BR Class 483 EMU (trailer)
-BR-Class483(NSE)Rear
+BR-Class483Rear
 BR Class 483 EMU (rear DM)
 WatfordJointStockFront
 Watford Joint Tube Stock
@@ -4409,5 +4409,7 @@ Wartime-Austerity
 Wartime austerity
 NSE
 Networtk SouthEast
-RR
+Regional-Railways
 Regional Railways
+London-Underground
+London Underground
