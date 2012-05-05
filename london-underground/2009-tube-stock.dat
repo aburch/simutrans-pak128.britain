@@ -25,6 +25,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=12
+max_loading_time=40
 comfort=61
 
 Constraint[Prev][0]=2009TubeStockRearDM
@@ -68,6 +70,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=12
+max_loading_time=40
 comfort=61
 
 Constraint[Prev][0]=2009TubeStockRearUNDM
@@ -108,6 +112,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=12
+max_loading_time=40
 comfort=61
 
 Constraint[Prev][0]=2009TubeStockFrontDM
@@ -154,6 +160,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=12
+max_loading_time=40
 comfort=61
 
 Constraint[Prev][0]=2009TubeStockMiddle1
@@ -198,6 +206,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=12
+max_loading_time=40
 comfort=61
 
 Constraint[Prev][0]=2009TubeStockMiddle1
@@ -243,6 +253,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=12
+max_loading_time=40
 comfort=61
 
 Constraint[Prev][0]=2009TubeStockMiddle1

@@ -18,6 +18,7 @@ overcrowded_capacity=64
 
 # This one looks more comfortable than other stock of the era:
 # http://www.ltmcollection.org/images/webmax/0a/i0000b0a.jpg
+# Note the vestibule doors which increased loading times.
 
 weight=27
 cost=1050000
@@ -30,6 +31,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=20
+max_loading_time=62
 comfort=67
 
 Constraint[Prev][0]=WatfordJointStockRear
@@ -72,6 +75,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=20
+max_loading_time=62
 comfort=67
 
 Constraint[Prev][0]=WatfordJointStockFront
@@ -119,6 +124,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=20
+max_loading_time=62
 comfort=67
 
 Constraint[Prev][0]=WatfordJointStockMiddle

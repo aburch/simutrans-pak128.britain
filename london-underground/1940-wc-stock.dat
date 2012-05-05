@@ -24,6 +24,8 @@ sound=-1
 can_lead_from_rear=1
 bidirectional=0
 
+min_loading_time=12
+max_loading_time=42
 comfort=68
 
 way_constraint_prohibitive[1]=1
@@ -69,6 +71,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=12
+max_loading_time=42
 comfort=68
 
 Constraint[Prev][0]=1940TubeStockFront
@@ -115,6 +119,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
+min_loading_time=12
+max_loading_time=42
 comfort=68
 
 Constraint[Prev][0]=1940TubeStockMiddle
