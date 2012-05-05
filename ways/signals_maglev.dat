@@ -8,6 +8,7 @@ name=ATC_signal
 waytype=maglev_track
 cost=500
 is_signal=1
+allow_underground=2
 intro_year = 2004
 intro_month = 1
 # stop
@@ -30,6 +31,7 @@ Name=ATC_presignal
 waytype=maglev_track
 cost=1000
 is_presignal=1
+allow_underground=2
 intro_year = 2004
 intro_month = 1
 # stop
@@ -58,6 +60,7 @@ waytype=maglev_track
 cost=2000
 is_signal=1
 is_longblocksignal=1
+allow_underground=2
 intro_year = 2004
 intro_month = 1
 # stop
@@ -81,6 +84,7 @@ waytype=maglev_track
 cost=4000
 is_signal=1
 free_route=1
+allow_underground=2
 intro_year = 2004
 intro_month = 1
 # stop
@@ -103,6 +107,7 @@ name=ATC_EndofChooseSignal
 waytype=maglev_track
 cost=250
 end_of_choose=1
+allow_underground=2
 intro_year = 2004
 intro_month = 1
 Image[0]=images/signals-maglev.6.1
@@ -119,6 +124,7 @@ name=ATC_OneWay
 waytype=maglev_track
 cost=250
 single_way=1
+allow_underground=2
 intro_year = 2004
 intro_month = 1
 Image[0]=images/signals-maglev.7.0
