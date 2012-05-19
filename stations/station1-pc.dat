@@ -11,11 +11,13 @@ NoConstruction=1
 allow_underground=1
 Dims=1,1,16
 Level=4
-station_maintenance=10800
-station_price=2400000
-station_capacity=24
 intro_year=1890
 intro_month=11
+
+station_maintenance=10800
+station_price=2400000
+station_capacity=8
+
 # This needs a more modern replacement
 icon=>/station1-pc.1.8
 cursor=/station1-pc.0.8
@@ -85,11 +87,13 @@ NoConstruction=1
 allow_underground=1
 Dims=1,1,16
 Level=4
-station_maintenance=10800
-station_price=2400000
-station_capacity=24
 intro_year=1890
 intro_month=11
+
+station_maintenance=10800
+station_price=2400000
+station_capacity=8
+
 # This needs a more modern replacement
 icon=>/station1-pc.5.8
 cursor=/station1-pc.4.8
@@ -159,11 +163,13 @@ NoConstruction=1
 allow_underground=1
 Dims=1,1,16
 Level=4
-station_maintenance=10800
-station_price=2400000
-station_capacity=24
 intro_year=1890
 intro_month=11
+
+station_maintenance=10800
+station_price=2400000
+station_capacity=8
+
 # This needs a more modern replacement
 icon=>/station1-pc.9.8
 cursor=/station1-pc.8.8
