@@ -1,7 +1,7 @@
 Obj=way
 Name=wrought_iron_track
 waytype=track
-cost=3500
+cost=7000
 maintenance=75
 topspeed=110
 max_weight=27
@@ -54,9 +54,10 @@ ImageUp[9][1]=./images/rail-snow.0.0
 ImageUp[12][1]=./images/rail-snow.0.5
 -----
 Obj=way
+# Plateway
 Name=wrought_iron_track_light
 waytype=track
-cost=2500
+cost=5000
 maintenance=60
 topspeed=45
 max_weight=5
