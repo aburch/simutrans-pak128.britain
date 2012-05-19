@@ -1,8 +1,8 @@
 Obj=way
 Name=wrought_iron_track
 waytype=track
-cost=7000
-maintenance=75
+cost=32000
+maintenance=750
 topspeed=110
 max_weight=27
 intro_year = 1814
@@ -57,8 +57,8 @@ Obj=way
 # Plateway
 Name=wrought_iron_track_light
 waytype=track
-cost=5000
-maintenance=60
+cost=10000
+maintenance=600
 topspeed=45
 max_weight=5
 intro_year = 1750
