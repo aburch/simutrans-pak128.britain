@@ -54,13 +54,20 @@ copyright=James
 type=extension
 waytype=track
 enables_pax=1
-intro_year=1920
-retire_year=1950
+intro_year=1922
+intro_year=3
+retire_year=1949
+retire_month=8
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
 NoInfo=1
 Level=3
+
+station_maintenance=10200
+station_price=1045000
+station_capacity=95
+
 BackImage[0][0][0][0][0][0]=deco-station-entrance.0.2
 BackImage[1][0][0][0][0][0]=deco-station-entrance.0.1
 BackImage[2][0][0][0][0][0]=deco-station-entrance.0.0

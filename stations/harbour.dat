@@ -206,8 +206,10 @@ enables_post=1
 icon=> harbour-passenger-1950s.0.4
 cursor=harbour-passenger-1950s.3.4
 level=1
-intro_year=1950
-retire_year=1980
+intro_year=1949
+intro_month=7
+retire_year=1977
+retire_month=1
 
 BackImage[0][0][0][0][0][0]=harbour-passenger-1950s.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-1950s.2.1
@@ -256,7 +258,8 @@ enables_post=1
 icon=> harbour-passenger-modern.0.4
 cursor=harbour-passenger-modern.3.4
 level=1
-intro_year=1980
+intro_year=1977
+intro_month=1
 
 BackImage[0][0][0][0][0][0]=harbour-passenger-modern.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-modern.2.1

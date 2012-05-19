@@ -117,6 +117,11 @@ NoInfo=1
 Level=4
 intro_year=1750
 retire_year=1960
+
+station_maintenance=10000
+station_price=850000
+station_capacity=85
+
 BackImage[0][0][0][0][0][0]=post-office-old.0.2
 BackImage[1][0][0][0][0][0]=post-office-old.0.1
 BackImage[2][0][0][0][0][0]=post-office-old.0.0
@@ -137,6 +142,11 @@ Dims=1,1,4
 NoInfo=1
 Level=4
 intro_year=1960
+
+station_maintenance=95000
+station_price=1000000
+station_capacity=95
+
 BackImage[0][0][0][0][0][0]=post-office-modern.0.2
 BackImage[1][0][0][0][0][0]=post-office-modern.0.1
 BackImage[2][0][0][0][0][0]=post-office-modern.0.0

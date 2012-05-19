@@ -11,6 +11,11 @@ intro_month=3
 Dims=1,1,4
 NoInfo=1
 Level=1
+
+station_maintenance=8000
+station_price=615000
+station_capacity=60
+
 BackImage[0][0][0][0][0][0]=concrete-station-building-small.0.2
 BackImage[1][0][0][0][0][0]=concrete-station-building-small.0.1
 BackImage[2][0][0][0][0][0]=concrete-station-building-small.0.0
