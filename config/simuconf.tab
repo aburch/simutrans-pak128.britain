@@ -516,7 +516,7 @@ speed_bonus_multiplier_percent=100
 # 1 = use introduction dates
 # 2 = (default) use settings during game creation
 
-use_timeline = 2
+use_timeline = 1
 
 # Default starting year of the game
 # Must be between 1492 and 2050

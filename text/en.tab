@@ -148,10 +148,34 @@ BrickViaduct225
 Brick Railway Viaduct
 BrickViaduct320
 Brick Railway Viaduct
+MasonryViaduct
+Masonry Railway Viaduct
+IronViaduct
+Iron Railway Viaduct
+IronBowstringGirderRailBridge
+Iron Bowstring Girder Railway Bridge
+SteelBowstringArchRailBridge
+Steel Bowstring Arch Railway Bridge
+SteelTruss
+Steel Truss Railway Bridge
+IronArchRailBridge
+Iron Arch Railway Bridge
+IronLatticeGirderRailBridge
+Iron Lattice Girder Railway Bridge
+PlateGirder
+Plate Girder Railway Bridge
+PlateGirderConcrete
+Concrete Plate Girder Railway Bridge
 WoodenTrestle
 Wooden Trestle Rail Bridge
 WoodenTrestleHeavy
 Wooden Trestle Rail Bridge (heavy)
+WoodenTrestleStonePillar
+Wooden Trestle Rail Bridge (heavy)
+TubularBoxGirder
+Tubular Box Girder Railway Bridge
+BeamBridge
+Beam Railway Bridge
 ShortSteelGirder
 Short Steel Girder Rail Bridge
 ShortSteelGirderLight
@@ -250,6 +274,8 @@ Concrete_Maglev_Bridge
 Concrete Maglev Bridge
 Economical_Concrete_Maglev_Bridge
 Lightweight Concrete Maglev Bridge
+WoodenTrestleNarrow
+Wooden Trestle
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnelStone
@@ -1472,7 +1498,9 @@ Canal tunnel
 #______________________________________NarrowGaugeVehicle______________________________________
 #______________________________________NarrowGaugeVehicle______________________________________
 FRCoach(CC)
-FR Passenger Coach
+FR Passenger Cariage
+FRPostCoach(CC)
+FR Mail Carriage
 DoubleFairlie
 Double Fairlie 0-4-4-0
 Single-ShireNarrow
