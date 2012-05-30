@@ -305,7 +305,7 @@ congestion_density_factor = 15
 # wait is 2,700 / 18 = 150 minutes, or two and a half hours. 
 #
 # The same applies for other sorts of goods: for example, the speed bonus value for
-# mail is 15. So, with a passenger_max_weight of 2700, mail would wait for 180 
+# mail is 15. So, with a passenger_max_wait of 2700, mail would wait for 180 
 # minutes before being discarded.
 
 passenger_max_wait = 19440
@@ -516,7 +516,7 @@ speed_bonus_multiplier_percent=100
 # 1 = use introduction dates
 # 2 = (default) use settings during game creation
 
-use_timeline = 1
+use_timeline = 2
 
 # Default starting year of the game
 # Must be between 1492 and 2050
