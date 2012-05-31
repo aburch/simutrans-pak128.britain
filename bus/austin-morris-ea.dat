@@ -6,7 +6,7 @@ freight=Bucher
 payload=12
 engine_type=diesel
 smoke=Diesel
-power=41
+power=50
 speed=82
 weight=2
 cost=97500
@@ -21,9 +21,7 @@ constraint[next][0]=none
 constraint[prev][0]=none
 
 min_loading_time=30
-max_loading_time=330
-available_only_as_upgrade=0
-fixed_maintenance=0
+max_loading_time=300
 
 EmptyImage[E]=./images/austin-morris-ea.0.0
 EmptyImage[SE]=./images/austin-morris-ea.0.1
@@ -43,7 +41,7 @@ freight=milk
 payload=12
 engine_type=diesel
 smoke=Diesel
-power=41
+power=50
 speed=82
 weight=2
 cost=97500
@@ -59,10 +57,7 @@ constraint[next][0]=none
 constraint[prev][0]=none
 
 min_loading_time=30
-max_loading_time=330
-available_only_as_upgrade=0
-fixed_maintenance=0
-
+max_loading_time=300
 
 EmptyImage[E]=./images/austin-morris-ea.1.0
 EmptyImage[SE]=./images/austin-morris-ea.1.1
@@ -81,7 +76,7 @@ freight=Post
 payload=34
 engine_type=diesel
 smoke=Diesel
-power=41
+power=50
 speed=82
 weight=2
 cost=97500
@@ -95,10 +90,8 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-min_loading_time=30
-max_loading_time=330
-available_only_as_upgrade=0
-fixed_maintenance=0
+min_loading_time=20
+max_loading_time=250
 
 EmptyImage[E]=./images/austin-morris-ea.2.0
 EmptyImage[SE]=./images/austin-morris-ea.2.1

@@ -1,7 +1,7 @@
 Obj=way
 Name=sssr
 waytype=track
-cost=51500
+cost=103000
 maintenance=750
 topspeed=175
 max_weight=80
@@ -56,7 +56,7 @@ ImageUp[12][1]=./images/rail-snow.0.5
 Obj=way
 Name=sssr_light
 waytype=track
-cost=22500
+cost=45000
 maintenance=300
 topspeed=90
 max_weight=40

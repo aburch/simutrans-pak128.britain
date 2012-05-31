@@ -2,8 +2,7 @@ obj=vehicle
 name=BR-390FrontPantograph(Virgin)
 engine_type=electric
 speed=225
-power=855
-tractive_effort=155
+power=0
 #gear=400
 copyright=Kieron
 intro_year=2003
@@ -32,7 +31,7 @@ comfort=132
 
 Constraint[Prev][0]=BR-390FrontCoach(Virgin)
 
-Constraint[Next][0]=BR-390Coach(Virgin)
+Constraint[Next][0]=BR-390PoweredCoach(Virgin)
 Constraint[Next][1]=BR-390RearCoach(Virgin)
 
 EmptyImage[E]=./images/br-390-virgin.2.0

@@ -5,6 +5,7 @@ smoke=Diesel
 speed=110
 #gear=400
 power=160
+tractive_effort=30
 copyright=Kieron
 intro_year=1941
 intro_month=11
@@ -13,7 +14,7 @@ retire_month=12
 waytype=track
 freight=Passagiere
 payload=42
-overcrowded_capacity=7
+overcrowded_capacity=23
 length=12
 
 weight=38

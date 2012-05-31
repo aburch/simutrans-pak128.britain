@@ -1,11 +1,11 @@
 Obj=way
 Name=wrought_iron_track
 waytype=track
-cost=3500
-maintenance=75
-topspeed=60
+cost=32000
+maintenance=750
+topspeed=110
 max_weight=27
-intro_year = 1814
+intro_year = 1835
 intro_month = 2
 retire_year = 1870
 retire_month = 6
@@ -54,11 +54,12 @@ ImageUp[9][1]=./images/rail-snow.0.0
 ImageUp[12][1]=./images/rail-snow.0.5
 -----
 Obj=way
+# Plateway
 Name=wrought_iron_track_light
 waytype=track
-cost=2500
-maintenance=60
-topspeed=45
+cost=10000
+maintenance=600
+topspeed=12
 max_weight=5
 intro_year = 1750
 intro_month = 1

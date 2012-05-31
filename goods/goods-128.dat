@@ -30,37 +30,114 @@
 #
 #-------------------------------------------------------------------------------
 #
-# NOTE: For Simutrans-Experimental 7.0 and higher, all values are multiplied by 1.5x
+# See W. M. Ackworth, "The Elements of Railway Economics" p. 107 for historical records
+# of relative charges for passengers and different types of goods on the Liverpool &
+# Manchester Railway and previous pages for similar rates for canals (freight only).
 #
+# Generally speaking, per ton per mile:
+# Low value bulk: 1d
+# Medium value bulk (incl. coal) 1 1/2d
+# High value bulk (incl. clay) 2d
+# Perishables and semi-manufactured (incl. flour, timber and finished metals) 2 1/2d
+# Manufactured goods: 3d
+# Passengers (per passenger): -
+# 1.8d (first 10 miles)
+# 1.5d (next 20 miles)
+# 1.4d (thereafter)
+# 
+# Cattle (per head)
+# 2d (first 15 miles)
+# 1.4d (thereafter)
+# Note that the LMR was only 35 miles long.
+#
+# See ibid pp. 111 and onwards for the later RCH classification system, as follows:
+# A: Coal, coke, irone ore, furnace slag
+# B: Clay, sand, manure, limestone, chalk, salt, unfinished stone, zinc ore, copper ore, bricks, paving stones, pig iron
+# C: Hay, straw, grain, flour, seeds, fertiliser, chemicals, lead ore, part-finished iron goods
+# I: Iron/steel hoops, pipes, sheets, plates, common fruit and vegetables, paper, cotton, beer in casks, oil in caks, tin ore
+# II: Beer in bottles, wine in casks, bacon, biscuits, brass, china in casks or crates, coconut matting, nickel ore
+# III: Cotton and linen goods, cured bacon, blankets, books, boots in casks, cases or boxes, china in hampers, woollen cloth, tea, silver ore 
+# IV: Pineapples, fresh cured meats, china in boxes or cases, woollen cloth in boxes, cases parcels or hampers.
+# V: Amber, dyes, peaches and apricots, bonnet boxes, basketwork, bismouth, clocks, hats, artificial flowers, silk
+#
+# 1844 Act - 1d/mile for "parliamentary" vehicles for passengers.
+#
+# Ackworth, p. 145 has a table of maximum charges for each class for the GER, which was similar to that for other railway companies.
+# This dates from around the 1890s as far as can be ascertained. (See for example:
+# http://digital.slv.vic.gov.au/view/action/nmets.do?DOCCHOICE=771636.xml&dvs=1327967822965~470&locale=en_GB&search_terms=&adjacency=&usePid1=true&usePid2=true )
+#
+# Figures are all per ton per mile
+#
+# Class		First 20 miles		Next 30 miles		Next 50 miles			Remainder
+#	A			1.15d				0.90d				0.45d				0.40d
+#	B			1.40d				1.05d				0.80d				0.55d
+#	C			1.80d				1.50d				1.20d				0.70d
+#	I			2.20d				1.85d				1.40d				1.00d
+#	II			2.65d				2.30d				1.80d				1.50d
+#	III			3.10d				2.65d				2.00d				1.80d
+#	IV			3.60d				3.15d				2.50d				2.20d
+#	V			4.30d				3.70d				3.25d				2.50d
+#
+# Note that, for the time being, the original values are retained for backwards compatibility. They are over-written by the new system
+# on the fare-stages branch. 
+
 ### UNIQUE GOODS TYPES ###
 # Passengers
+# Class: passengers
 obj=good
 name=Passagiere
 mapcolor=79
 metric=
 catg=0
+#
 #value=42
-value=63
+value=50
+#
+value[0]=60
+to_distance[0]=16
+value[1]=50
+to_distance[1]=32
+value[2]=47
+to_distance[2]=0
 speed_bonus=18
-weight_per_unit=85
+weight_per_unit=70
 -----------------------
 # Mail
+# Class: mail
 obj=good
 name=Post
 metric= bags
 catg=0
+#
 #value=48
-value=72
+value=57
+#
+value[0]=69
+to_distance[0]=16
+value[1]=57
+to_distance[1]=32
+value[2]=54
+to_distance[2]=0
 speed_bonus=15
 weight_per_unit=50
 -----------------------
 # Livestock
+# Class: Livestock trated as class of own.
 obj=good
 name=livestock
 metric=head
 catg=0
+#
 #value=35
-value=53
+value=56
+#
+value[0]=67
+to_distance[0]=16
+value[1]=56
+to_distance[1]=32
+value[2]=52
+to_distance[2]=0
+speed_bonus=18
 speed_bonus=2
 weight_per_unit=120
 ------------------------------------------
@@ -73,357 +150,749 @@ value=0
 weight_per_unit=1
 -----------------------
 # Cars
+# Class: not given, but treat as IV
 obj=good
 name=Autos
 metric=cars
 catg=0
+#
 #value=225
-value=338
+value=284
+#
+value[0]=324
+to_distance[0]=32
+value[1]=284
+to_distance[1]=48
+value[2]=225
+to_distance[2]=80
+value[3]=198
+to_distance[3]=0
 speed_bonus=15
 weight_per_unit=1800
 -----------------------
 # Fish
+# Class: not given, but treat as III
 obj=good
 name=FreshFish
 metric=paletten
 catg=0
-value=69
+#
+value=133
+#
+value[0]=155
+to_distance[0]=32
+value[1]=133
+to_distance[1]=48
+value[2]=100
+to_distance[2]=80
+value[3]=90
+to_distance[3]=0
 speed_bonus=15
 weight_per_unit=1000
 metric=tonnen
 -----------------------
 ### BULK GOODS ###
 # Coal
+# Class: A
 obj=good
 name=Kohle
 metric=tonnen
 catg=2
+#
 #value=35
-value=53
+value=45
+#
+value[0]=58
+to_distance[0]=32
+value[1]=45
+to_distance[1]=48
+value[2]=23
+to_distance[2]=80
+value[3]=20
+to_distance[3]=240
+value[4]=0
 speed_bonus=0
 weight_per_unit=1000
 -----------------------
 # Iron Ore
+# Class: A
 obj=good
 name=Eisenerz
 metric=tonnen
 catg=2
+#
 #value=35
-value=53
+value=45
+#
+value[0]=58
+to_distance[0]=32
+value[1]=45
+to_distance[1]=48
+value[2]=23
+to_distance[2]=80
+value[3]=20
+to_distance[3]=240
+value[4]=0
 speed_bonus=0
 weight_per_unit=1000
 -----------------------
 # Wood Chip
+# Class: not given, but treat as B
 obj=good
 name=woodchip
 metric=tonnen
 catg=2
+#
 #value=35
 value=53
+#
+value[0]=70
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=28
+to_distance[3]=240
+value[4]=0
 speed_bonus=0
 weight_per_unit=1000
 -----------------------
 # Stone
+# Class: B
 obj=good
 name=Stone
 metric=tonnen
 catg=2
+#
 #value=35
 value=53
+#
+value[0]=70
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=28
+to_distance[3]=240
+value[4]=0
 speed_bonus=0
 weight_per_unit=1000
 -----------------------
 # Clay
+# Class: B
 obj=good
 name=clay
 metric=tonnen
 catg=2
+#
 #value=35
 value=53
+#
+value[0]=70
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=28
+to_distance[3]=240
+value[4]=0
 speed_bonus=0
 weight_per_unit=1000
 -----------------------
 # Cement
+# Not given, but treat as C
 obj=good
 name=Cement
 metric=tonnen
 catg=2
+#
 #value=35
-value=53
+value=75
+#
+value[0]=90
+to_distance[0]=32
+value[1]=75
+to_distance[1]=48
+value[2]=60
+to_distance[2]=80
+value[3]=35
+to_distance[3]=0
 speed_bonus=0
 weight_per_unit=1000
 -----------------------
 obj=good
+# Class: C
 name=grain
 metric=tonnen
 catg=2
+#
 #value=35
-value=53
+value=75
+#
+value[0]=90
+to_distance[0]=32
+value[1]=75
+to_distance[1]=48
+value[2]=60
+to_distance[2]=80
+value[3]=35
+to_distance[3]=0
 speed_bonus=1
 weight_per_unit=1000
 -----------------------
 ### PIECE GOODS ###
 # Subcategory - High Speedbonus
 # Books
+# Class: III
 obj=good
 name=Bucher
 metric=paletten
 catg=1
+#
 #value=51
-value=69
+value=133
+#
+value[0]=155
+to_distance[0]=32
+value[1]=133
+to_distance[1]=48
+value[2]=100
+to_distance[2]=80
+value[3]=90
+to_distance[3]=0
 speed_bonus=10
 weight_per_unit=810
 -----------------------
 # Fruit
+# Class: I
 obj=good
 name=fruit
 metric=paletten
 catg=1
+#
 #value=51
-value=70
+value=68
+#
+value[0]=80
+to_distance[0]=32
+value[1]=68
+to_distance[1]=48
+value[2]=51
+to_distance[2]=80
+value[3]=37
+to_distance[3]=0
 speed_bonus=10
 weight_per_unit=730
 -----------------------
+# Vegetables
+# Class: I
 obj=good
 name=vegetables
 metric=paletten
 catg=1
+#
 #value=51
-value=67
+value=65
+#
+value[0]=77
+to_distance[0]=32
+value[1]=65
+to_distance[1]=48
+value[2]=49
+to_distance[2]=80
+value[3]=35
+to_distance[3]=0
 speed_bonus=15
 weight_per_unit=700
 -----------------------
 # Newspaper
+# Class: not given, but treat as III
 obj=good
 name=newspaper
 metric=paletten
 catg=1
+#
 #value=51
-value=77
+value=105
+#
+value[0]=122
+to_distance[0]=32
+value[1]=105
+to_distance[1]=48
+value[2]=79
+to_distance[2]=80
+value[3]=71
+to_distance[3]=0
 speed_bonus=10
 weight_per_unit=790
 ------------------------------------------
 # Subcategory - Low Speedbonus
 # Hardware
+# Class: I
 obj=good
 name=hardware
 metric=paletten
 catg=1
+#
 #value=35
-value=50
+value=69
+#
+value[0]=83
+to_distance[0]=32
+value[1]=69
+to_distance[1]=48
+value[2]=53
+to_distance[2]=80
+value[3]=38
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=750
 -----------------------
 # Furniture
+# Class: not given, but treat as III
 obj=good
 name=Moebel
 metric=paletten
 catg=1
+#
 #value=50
-value=75
+value=53
+#
+value[0]=62
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=36
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=400
 -----------------------
 # Textiles
+# Class: III
 obj=good
 name=textile
 metric=paletten
 catg=1
+#
 #value=35
-value=91
+value=57
+#
+value[0]=67
+to_distance[0]=32
+value[1]=57
+to_distance[1]=48
+value[2]=43
+to_distance[2]=80
+value[3]=39
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=430
 -----------------------
 # Flour
+# Class: C
 obj=good
 name=flour
 metric=paletten
 catg=1
+#
 #value=35
-value=56
+value=63
+#
+value[0]=76
+to_distance[0]=32
+value[1]=63
+to_distance[1]=48
+value[2]=
+to_distance[2]=80
+value[3]=
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=840
 -----------------------
 # Beer
+# Class: I
 obj=good
 name=beer
 metric=barrels
 catg=1
+#
 #value=35
-value=53
+value=74
+#
+value[0]=88
+to_distance[0]=32
+value[1]=74
+to_distance[1]=48
+value[2]=56
+to_distance[2]=80
+value[3]=40
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=800
 -----------------------
 # Cider
+# Class: not given, but treat as I
 obj=good
 name=cider
 metric=barrels
 catg=1
+#
 #value=35
-value=52
+value=73
+#
+value[0]=86
+to_distance[0]=32
+value[1]=73
+to_distance[1]=48
+value[2]=55
+to_distance[2]=80
+value[3]=39
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=780
 -----------------------
 # Pharmaceuticals
+# Class: not given, but treat as IV
 obj=good
 name=pharmaceuticals
 metric=paletten
 catg=1
+#
 #value=35
-value=61
+value=91
+#
+value[0]=104
+to_distance[0]=32
+value[1]=91
+to_distance[1]=48
+value[2]=73
+to_distance[2]=80
+value[3]=64
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=580
 -----------------------
 # Plastic
+# Class: not given, but treat as C
 obj=good
 name=Plastik
 metric=paletten
 catg=1
+#
 #value=35
-value=66
+value=38
+#
+value[0]=45
+to_distance[0]=32
+value[1]=38
+to_distance[1]=48
+value[2]=30
+to_distance[2]=80
+value[3]=18
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=500
 -----------------------
 # Paper
+# Class: I
 obj=good
 name=Papier
 metric=paletten
 catg=1
+#
 #value=35
-value=57
+value=74
+#
+value[0]=88
+to_distance[0]=32
+value[1]=74
+to_distance[1]=48
+value[2]=56
+to_distance[2]=80
+value[3]=40
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=800
 -----------------------
 # Wool
+# Class: not given, but treat as C
 obj=good
 name=wool
 metric=sack
 catg=1
+#
 #value=35
-value=81
+value=29
+#
+value[0]=34
+to_distance[0]=32
+value[1]=29
+to_distance[1]=48
+value[2]=23
+to_distance[2]=80
+value[3]=13
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=380
 -------------------------
 # China
+# Class: II
 obj=good
 name=china
 metric=paletten
 catg=1
+#
 #value=35
-value=53
+value=52
+#
+value[0]=60
+to_distance[0]=32
+value[1]=52
+to_distance[1]=48
+value[2]=41
+to_distance[2]=80
+value[3]=34
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=450
 ------------------------------------------
 # Bricks
+# Class: B
 obj=good
 name=bricks
 metric=paletten
 catg=1
+#
 #value=35
-value=54
+value=43
+#
+value[0]=57
+to_distance[0]=32
+value[1]=43
+to_distance[1]=48
+value[2]=33
+to_distance[2]=80
+value[3]=23
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=820
 ---------------------------------------
 # Canned Food
+Class: not given, but treat as IV
 obj=good
 name=canned_food
 metric=paletten
 catg=1
+#
 #value=35
-value=53
+value=129
+#
+value[0]=148
+to_distance[0]=32
+value[1]=129
+to_distance[1]=48
+value[2]=103
+to_distance[2]=80
+value[3]=90
+to_distance[3]=0
 speed_bonus=3
 weight_per_unit=820
 ---------------------------------------
 ### LONG GOODS ###
 # Steel
+# Class C
 obj=good
 name=Stahl
 metric=tonnen
 catg=6
+#
 #value=35
-value=53
+value=75
+#
+value[0]=90
+to_distance[0]=32
+value[1]=75
+to_distance[1]=48
+value[2]=60
+to_distance[2]=80
+value[3]=35
+to_distance[3]=0
 speed_bonus=2
 weight_per_unit=1000
 -----------------------
 # Planks
+# Class: not given, but treat as I
 obj=good
 name=Bretter
 metric=tonnen
 catg=6
+#
 #value=35
-value=53
+value=93
+#
+value[0]=110
+to_distance[0]=32
+value[1]=93
+to_distance[1]=48
+value[2]=70
+to_distance[2]=80
+value[3]=50
+to_distance[3]=0
 speed_bonus=2
 weight_per_unit=1000
 -----------------------
 ### BULK LIQUIDS ###
 #Crude Oil
+# Class: I
 obj=good
 name=Oel
 metric=m3
 catg=3
+#
 #value=35
-value=53
+value=83
+#
+value[0]=99
+to_distance[0]=32
+value[1]=83
+to_distance[1]=48
+value[2]=63
+to_distance[2]=80
+value[3]=45
+to_distance[3]=0
 speed_bonus=0
 weight_per_unit=900
 -----------------------
 # Petrol
+# Class: I
 obj=good
 name=Gasoline
 metric=m3
 catg=3
+#
 #value=35
-value=46
+value=70
+#
+value[0]=83
+to_distance[0]=32
+value[1]=70
+to_distance[1]=48
+value[2]=53
+to_distance[2]=80
+value[3]=38
+to_distance[3]=0
 speed_bonus=0
 weight_per_unit=750
 -----------------------
 # Fuel Oil
+# Class: I
 obj=good
 name=FuelOil
 metric=m3
 catg=3
+#
 #value=35
-value=53
+value=93
+#
+value[0]=110
+to_distance[0]=32
+value[1]=93
+to_distance[1]=48
+value[2]=70
+to_distance[2]=80
+value[3]=50
+to_distance[3]=0
 speed_bonus=0
 weight_per_unit=1000
 -----------------------
 # Chemicals
+# Class: C
 obj=good
 name=Chemicals
 metric=m3
 catg=3
+#
 #value=35
-value=65
+value=66
+#
+value[0]=77
+to_distance[0]=32
+value[1]=66
+to_distance[1]=48
+value[2]=53
+to_distance[2]=80
+value[3]=31
+to_distance[3]=0
 speed_bonus=0
 weight_per_unit=860
 -----------------------
 ### COOLED GOODS ###
 # Meat
+# Class: II
 obj=good
 name=meat
 metric=paletten
 catg=4
+#
 #value=69
-value=58
+value=47
+#
+value[0]=54
+to_distance[0]=32
+value[1]=47
+to_distance[1]=48
+value[2]=37
+to_distance[2]=80
+value[3]=31
+to_distance[3]=0
 speed_bonus=15
 weight_per_unit=410
 -----------------------
 # Fish
+# Class: not given, but treat as II
 obj=good
 name=fish
 metric=paletten
 catg=4
+#
 #value=69
-value=58
+value=47
+#
+value[0]=54
+to_distance[0]=32
+value[1]=47
+to_distance[1]=48
+value[2]=37
+to_distance[2]=80
+value[3]=31
+to_distance[3]=0
+speed_bonus=15
 speed_bonus=15
 weight_per_unit=410
 -----------------------
 # Milk
+# Class: not given, but treat as I
 obj=good
 name=milk
 metric=paletten
 catg=4
+#
 #value=69
-value=136
+value=89
+#
+value[0]=106
+to_distance[0]=32
+value[1]=89
+to_distance[1]=48
+value[2]=67
+to_distance[2]=80
+value[3]=48
+to_distance[3]=0
 speed_bonus=15
 weight_per_unit=960
 -----------------------

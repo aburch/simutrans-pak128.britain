@@ -6,7 +6,7 @@ freight=Kohle
 payload=6
 engine_type=diesel
 smoke=Diesel
-power=33
+power=44
 speed=88
 weight=2
 cost=100000
@@ -16,8 +16,8 @@ intro_month=1
 retire_year=1982
 retire_month=8
 
-min_loading_time=90
-max_loading_time=360
+min_loading_time=60
+max_loading_time=280
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -89,7 +89,7 @@ freight=Bretter
 payload=6
 engine_type=diesel
 smoke=Diesel
-power=33
+power=44
 speed=88
 weight=2
 cost=100000
@@ -99,8 +99,8 @@ intro_month=1
 retire_year=1982
 retire_month=8
 
-min_loading_time=90
-max_loading_time=360
+min_loading_time=60
+max_loading_time=280
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -143,7 +143,7 @@ freight=Bucher
 payload=10
 engine_type=diesel
 smoke=Diesel
-power=33
+power=44
 speed=88
 weight=2
 cost=100000
@@ -153,8 +153,8 @@ intro_month=1
 retire_year=1982
 retire_month=8
 
-min_loading_time=90
-max_loading_time=360
+min_loading_time=60
+max_loading_time=280
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -178,7 +178,7 @@ freight=meat
 payload=10
 engine_type=diesel
 smoke=Diesel
-power=33
+power=44
 speed=88
 weight=2
 cost=100000
@@ -188,8 +188,8 @@ intro_month=1
 retire_year=1982
 retire_month=8
 
-min_loading_time=90
-max_loading_time=360
+min_loading_time=60
+max_loading_time=280
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -212,7 +212,7 @@ freight=livestock
 payload=10
 engine_type=diesel
 smoke=Diesel
-power=33
+power=44
 speed=88
 weight=2
 cost=100000
@@ -222,8 +222,8 @@ intro_month=1
 retire_year=1982
 retire_month=8
 
-min_loading_time=90
-max_loading_time=360
+min_loading_time=60
+max_loading_time=280
 
 constraint[next][0]=none 
 constraint[prev][0]=none
@@ -247,7 +247,7 @@ freight=Post
 payload=36
 engine_type=diesel
 smoke=Diesel
-power=33
+power=44
 speed=88
 weight=2
 cost=100000
@@ -257,8 +257,8 @@ intro_month=1
 retire_year=1982
 retire_month=8
 
-min_loading_time=60
-max_loading_time=300
+min_loading_time=22
+max_loading_time=225
 
 constraint[next][0]=none 
 constraint[prev][0]=none

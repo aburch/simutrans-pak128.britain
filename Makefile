@@ -2,13 +2,11 @@
 #   make clean all archives
 # to get fresh and ready to deploy .tbz2 and .zip archives
 
-GIT_COMMIT = $(shell git log | head -n 1)
-
 MAKEOBJ ?= ./makeobj
 
 DESTDIR  ?= simutrans
-PAKDIR   ?= $(DESTDIR)/pak128.Britain.Experimental
-DESTFILE ?= simupak128.Britain.Experimental
+PAKDIR   ?= $(DESTDIR)/pak128.Britain-Ex
+DESTFILE ?= simupak128.Britain-Ex
 
 OUTSIDE :=
 OUTSIDE += grounds
@@ -99,14 +97,12 @@ $(DIRS224):
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/ $@/ > /dev/null
 
-# Note that ground.Outside.pak must exist and must contain only
-# one object; simutrans uses this to detect the pak format
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
 	@echo -e -n "Obj=ground\nName=Outside\ncopyright=pak128.Britain.Experimental git " >$@/outsiderev.dat
-	@echo `git log | head -n 1` >>$@/outsiderev.dat
+	@svnversion >>$@/outsiderev.dat
 	@echo -e "Image[0][0]=images/ls-water-128.0.0\n-" >>$@/outsiderev.dat
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/outsiderev.dat > /dev/null
 	@rm $@/outsiderev.dat

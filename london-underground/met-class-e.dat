@@ -5,6 +5,8 @@ smoke=Steam
 speed=95
 #gear=350
 power=450
+# Tractive effort from: http://www.brc-stockbook.co.uk/Met1.HTM
+tractive_effort=65
 copyright=Kieron
 intro_year=1898
 intro_month=4
@@ -15,7 +17,7 @@ freight=None
 payload=0
 
 weight=54
-cost=6300000
+cost=9300000
 runningcost=594
 sound=-1
 increase_maintenance_after_years=20

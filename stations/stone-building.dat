@@ -9,8 +9,16 @@ enables_pax=1
 Dims=1,1,4
 NoInfo=1
 Level=1
+# Used for TESTing only.
+# allow_underground=1
 intro_year=1825
-retire_year=1920
+intro_month=9
+retire_year=1922
+retire_month=3
+
+station_maintenance=10000
+station_price=850000
+station_capacity=85
 
 BackImage[0][0][0][0][0][0]=stone-building.0.0
 BackImage[1][0][0][0][0][0]=stone-building.1.0

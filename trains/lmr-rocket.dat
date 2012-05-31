@@ -2,10 +2,10 @@ obj=vehicle
 name=LMR-Rocket
 engine_type=steam
 smoke=Steam
-speed=42
+speed=48
 # Tractive effort taken from "The Railway Engineer", July 1929 ed., p. 265
-# Power calculated from same data, using loss factor of 0.5
-power=28
+# Power approximated to give correct speed at correct loads (about 6 carriages).
+power=33
 tractive_effort=4
 copyright=Kieron
 intro_year=1829
@@ -20,7 +20,7 @@ length=4
 # Weight confirmed by "The Railway Engineer", July 1929 ed., p. 265
 weight=5
 cost=5544000
-runningcost=300
+runningcost=500
 sound=-1
 increase_maintenance_after_years=25
 

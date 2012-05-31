@@ -5,7 +5,8 @@ waytype[1]=narrowgauge_track
 waytype[0]=road
 speed[1]=100
 speed[0]=50
-intro_year=1960
+intro_year=1959
+intro_month=8
 
 openimage[ew][0]=images/crossing-narrow-ahb.2.3
 openimage[ns][0]=images/crossing-narrow-ahb.2.2
@@ -38,8 +39,10 @@ waytype[1]=narrowgauge_track
 waytype[0]=road
 speed[1]=80
 speed[0]=35
-intro_year=1850
-retire_year=1960
+intro_year=1855
+intro_month=5
+retire_year=1959
+retire_month=8
 
 openimage[ew][0]=images/crossing-narrow-gated.2.3
 openimage[ns][0]=images/crossing-narrow-gated.2.2
@@ -64,3 +67,25 @@ closedimage[ns][1]=images/crossing-narrow-gated.1.0
 
 front_closedimage[ew][1]=images/crossing-narrow-gated.0.1
 front_closedimage[ns][1]=images/crossing-narrow-gated.0.0
+---
+# Plain, open crossing
+obj=crossing
+name=narrow-rail-crossing
+waytype[0]=track
+waytype[1]=narrowgauge_track
+speed[0]=60
+speed[1]=40
+intro_year=1836
+intro_month=6
+retire_year=1855
+retire_month=5
+
+openimage[ns][0]=images/narrow-rail-crossing.0.1
+closedimage[ns][0]=images/narrow-rail-crossing.0.1
+openimage[ew][0]=images/narrow-rail-crossing.0.0
+closedimage[ew][0]=images/narrow-rail-crossing.0.0
+openimage[ns][1]=images/narrow-rail-crossing.1.1
+closedimage[ns][1]=images/narrow-rail-crossing.1.1
+openimage[ew][1]=images/narrow-rail-crossing.1.0
+closedimage[ew][1]=images/narrow-rail-crossing.1.0
+

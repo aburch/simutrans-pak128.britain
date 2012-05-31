@@ -107,7 +107,7 @@ BAE 146 300 Series (post)
 BAE146_300QT(TNT)Piece
 BAE 146 300 Series (piece goods)
 BAE146_300QT(TNT)Cool
-BAE 146 300 Series (cooled goods)
+BAE 146 300 Series (perishable goods)
 ATR_42_320(BlueIslands)
 ATR 42 320 Series
 ATR_42_300F(FedEx)Post
@@ -115,21 +115,25 @@ ATR 42 300 Series (post)
 ATR_42_300F(FedEx)Piece
 ATR 42 300 Series (piece goods)
 ATR_42_300F(FedEx)Cool
-ATR 42 300 Series (cooled goods)
+ATR 42 300 Series (perishable goods)
 ATR72_200(FedEx)Post
 ATR 72 200 Series (post)
 ATR72_200(FedEx)Piece
 ATR 72 200 Series (piece goods)
 ATR72_200(FedEx)Cool
-ATR 72 200 Series (cooled goods)
+ATR 72 200 Series (perishable goods)
 Airbus320(AerLingus)Post
 Airbus A320 (post)
 Airbus320(AerLingus)Piece
 Airbus A320 (piece goods)
 Airbus320(AerLingus)Cool
-Airbus A320 (cooled goods)
+Airbus A320 (perishable goods)
 ATR72_200(BritishAirways)
 ATR 72 200 Series
+FordTrimotorMail
+Ford Trimotor (mail)
+Ford-Trimotor-NSA
+Ford Trimotor
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickViaductEarly
@@ -144,10 +148,34 @@ BrickViaduct225
 Brick Railway Viaduct
 BrickViaduct320
 Brick Railway Viaduct
+MasonryViaduct
+Masonry Railway Viaduct
+IronViaduct
+Iron Railway Viaduct
+IronBowstringGirderRailBridge
+Iron Bowstring Girder Railway Bridge
+SteelBowstringArchRailBridge
+Steel Bowstring Arch Railway Bridge
+SteelTruss
+Steel Truss Railway Bridge
+IronArchRailBridge
+Iron Arch Railway Bridge
+IronLatticeGirderRailBridge
+Iron Lattice Girder Railway Bridge
+PlateGirder
+Plate Girder Railway Bridge
+PlateGirderConcrete
+Concrete Plate Girder Railway Bridge
 WoodenTrestle
 Wooden Trestle Rail Bridge
 WoodenTrestleHeavy
 Wooden Trestle Rail Bridge (heavy)
+WoodenTrestleStonePillar
+Wooden Trestle Rail Bridge (heavy)
+TubularBoxGirder
+Tubular Box Girder Railway Bridge
+BeamBridge
+Beam Railway Bridge
 ShortSteelGirder
 Short Steel Girder Rail Bridge
 ShortSteelGirderLight
@@ -230,6 +258,8 @@ wooden_road_bridge_cobbles
 Wooden Road Trestle (cobblestone)
 wooden_road_bridge_tarmac
 Wooden Road Trestle (tarmac)
+ConcreteViaductRoad
+Concrete Road Bridge
 BrickAqueduct
 Brick Aqueduct
 PowerBridge
@@ -244,6 +274,8 @@ Concrete_Maglev_Bridge
 Concrete Maglev Bridge
 Economical_Concrete_Maglev_Bridge
 Lightweight Concrete Maglev Bridge
+WoodenTrestleNarrow
+Wooden Trestle
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnelStone
@@ -266,6 +298,8 @@ MaglevTunnelConcrete
 Concrete Maglev Tunnel
 MaglevTunnelEco
 Lightweight Concrete Maglev Tunnel
+LT_Tunnel
+Tube tunnel
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 DCRailCatenary
@@ -321,6 +355,8 @@ Coaching stable
 OldRoadDepotSteam
 Road garage (steam)
 OldRoadDepot
+Road garage (diesel)
+OldRoadDepot2
 Road garage (diesel)
 OldRoadDepotElectric
 Trolleybus garage
@@ -556,6 +592,89 @@ COM_A_1750_04_06
 Shops
 IND_A_1830_00_10
 Tileworks
+RES_JH_1750_01_01
+Hovels
+RES_JH_1750_02_01
+Hovels
+RES_JH_1800_00_06A
+Georgian Terrace Town Houses
+RES_JH_1800_00_06B
+Georgian Terrace Town Houses
+RES_JH_1945_00_01A
+Prefabs
+RES_JH_1945_00_01B
+Prefabs
+RES_JH_1890_01_02
+Town House
+RES_KG_1930_00_02B
+Detatched House
+RES_JH_1890_02_03A
+Detatched House
+RES_JH_1890_02_03B
+Detatched House
+RES_A_1850_00_4
+Town House
+RES_A_1890_02_04
+Corner Terrace
+RES_JH_1930_00_04
+Suburban Semi-detatched Houses
+RES_JH_1930_00_04B
+Suburban Semi-detatched Houses
+RES_JH_1890_00_06A
+Semi-detatched Town Houses
+RES_JH_1890_00_06B
+Semi-detatched Town Houses
+RES_JH_1870_00_06A
+Terraced Houses
+RES_JH_1870_00_06B
+Terraced Houses
+RES_JH_1930_01_06
+Flats
+COM_JH_1930_00_06A
+Parade of Shops
+COM_JH_1930_00_06B
+Parade of Shops
+RES_JH_1930_02_08
+Flats
+COM_JH_1930_00_08B
+Parade of Shops
+COM_JH_1930_01_08A
+Parade of Shops
+RES_JH_1930_03_10
+Flats
+COM_JH_1930_02_10
+Offices
+COM_JH_1930_01_12A
+Offices
+COM_JH_1930_01_12B
+Offices
+IND_JH_1750_06_01
+Cow Field
+IND_JH_1750_07_01
+Sheep Field
+IND_JH_1750_04_02
+Smithy
+IND_JH_1750_05_02
+Carpenter's Workshop
+IND_JH_1920_00_02
+Storage Tanks
+IND_JH_1920_01_02
+Storage Tank
+IND_JH_1920_02_02
+Storage Tanks
+IND_JH_1750_08_03
+Cooper's Workshop
+IND_JH_1930_01_04
+Telephone Exchange
+IND_JH_1930_00_05
+Warehouses
+IND_JH_1800_00_06
+Water Pumping Station
+IND_JH_1850_04_06
+Water Pumping Station
+IND_JH_1850_03_08
+Timber Yard
+
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
 StoneChurch
@@ -592,8 +711,6 @@ OldBrickSchool
 Victorian School
 OldLibrary
 Library
-StoneChurch
-Parish Church
 LittlePark1870_1
 Small Park
 LittlePark1870_2
@@ -602,6 +719,56 @@ Park1930_1
 Small Park
 Park1930_2
 Small Park
+SmallFountain
+Fountain
+BellTower
+Bell Tower
+OldTower
+Old Tower
+CityCemetry
+Cemetry
+ParishChurchStMichaels
+St Michael's Parish Church
+ParishChurchStMarks
+St Mark's Parish Church
+ParishChurchHolyTrinity
+Holy Trinity Parish Church
+ParishChurchStJohns
+St John's Parish Church
+ParishChurchAllSaints
+All Saints Parish Church
+Cathedral1
+Cathedral
+Cathedral2
+Cathedral
+Cathedral3
+Cathedral
+Cathedral4
+Cathedral
+Abbey1
+Abbey
+Abbey2
+Abbey
+Kings College
+King's College
+NewCollege
+New College
+TrinityCollege
+Trinity College
+Castle1
+Castle
+Castle2
+Castle
+CastleKeep
+Castle Keep
+Folly1
+Folly
+Folly2
+Folly
+Cemetry
+Cemetry
+CityWall
+City Walls
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
@@ -760,6 +927,8 @@ CoalMine1950
 Colliery
 CoalMine1970
 Colliery
+CoalPowerStation1882kraftwerk
+Coal-fired Power Station
 CoalPowerStation1910kraftwerk
 Coal-fired Power Station
 CoalPowerStation1920kraftwerk
@@ -1215,7 +1384,7 @@ bulk goods
 CATEGORY_03
 oil/petrol
 CATEGORY_04
-cooled goods
+perishable goods
 CATEGORY_05
 fluid foods
 CATEGORY_06
@@ -1233,17 +1402,17 @@ One-way Runway Sign
 NoEntry
 No Entry Sign
 Signals
-Basic Signal
+Stop Signal
 Classic_Signals_right_narrow
-Basic Signal
+Stop Signal
 Classic_Signals_right
-Basic Signal
+Stop Signal
 Classic_Signals_right_narrow
-Basic Signal
+Stop Signal
 Early_Signals_right
-Basic Signal
+Stop Signal
 Modern_Signals_right
-Basic Signal
+Stop Signal
 preSignals
 Pre-signal
 Classic_preSignals_right_narrow
@@ -1329,7 +1498,9 @@ Canal tunnel
 #______________________________________NarrowGaugeVehicle______________________________________
 #______________________________________NarrowGaugeVehicle______________________________________
 FRCoach(CC)
-FR Passenger Coach
+FR Passenger Cariage
+FRPostCoach(CC)
+FR Mail Carriage
 DoubleFairlie
 Double Fairlie 0-4-4-0
 Single-ShireNarrow
@@ -1352,6 +1523,8 @@ DLR-B07Rear
 Docklands Light Railway B07 (rear)
 Metropolitan-Class-E
 Metropolitan Class E 0-4-4T
+Metropolitan-A-Class
+A Class 4-4-0T
 Metropolitan-Vickers
 Metropolitan Vickers
 LMR-Rocket
@@ -1519,9 +1692,9 @@ LMR 4 Wheel TPO
 LMR-4Wheel-Mail
 LMR 4 Wheel Mail
 LNWR-1847-First
-4-wheel 3 Compartment Carriage
+4 wheel Compartment Carriage
 LNWR-1847-Brake
-4 Compartment Brake
+4 wheel Brake cariage
 LBSCR-4Wheel-First
 LBSCR 4 Wheel Compartment Carriage
 LBSCR-4Wheel-Brake
@@ -1598,11 +1771,11 @@ GWR-Swindon-TwinsetFront
 GWR Swindon Twinset
 GWR-Swindon-TwinsetRear
 GWR Swindon Twinset (rear)
-BR-104Rear(Green)
+BR-104Rear
 BR Class 104 DMU (rear)
-BR-104Middle(Green)
+BR-104Middle
 BR Class 104 DMU (middle)
-BR-104Front(Green)
+BR-104Front
 BR Class 104 DMU
 SR-404[COR]Front(Green)
 SR 4-Cor EMU
@@ -2257,7 +2430,7 @@ HR Jones Goods 4-6-0 (tender)
 LBSCR-B1-Gladstone
 LBSCR Class B1 "Gladstone" 0-4-2
 LBSCR-B1-Gladstone-Tender
-LBSCR Class B1 "Gladstone" 0-4-2 (tender)
+LBSCR Stroudley tender
 LBSCR-L-Tank(Umber)
 LBSCR Class L "Brighton Baltic" 4-6-4T
 LBSCR-J
@@ -2295,15 +2468,15 @@ GWR "Bulldog" Class 4-4-0 (tender)
 LNWR-PrinceOfWales(Black)
 LNWR "Prince of Wales" Class 4-6-0
 LNWR-PrinceOfWales-Tender(Black)
-LNWR "Prince of Wales" Class 4-6-0 (tender)
+LNWR express tender
 MR-2441
-Midland 2441 Class 0-6-0
+Midland 2441 Class 0-6-0 (for push-pull)
 MR-1632
 Midland 1632 Class 0-6-0
 MR-Spinner(Maroon)
-Midland 673 Class "Midland Spinner" 4-2-2
+Midland 673 Class "Spinner" 4-2-2
 MR-Spinner-Tender(Maroon)
-Midland 673 Class "Midland Spinner" 4-2-2 (tender)
+Midland 673 Class "Spinner" 4-2-2 (tender)
 LMS-Patriot(Maroon)
 LMS Class 5XP "Patriot" 4-6-0
 LMS-Patriot-Tender(Maroon)
@@ -2311,7 +2484,7 @@ LMS Class 5XP "Patriot" 4-6-0 (tender)
 LMS-Princess-Royal(Maroon)
 LMS Class 7P "Princess Royal"
 LMS-Princess-Royal-Tender(Maroon)
-LMS Class 7P "Princess Royal" (tender)
+LMS Stanier express tender
 LNER-B17(Green)
 LNER Class B17 "Footballer" 4-6-0
 LNER-B17-Tender(Green)
@@ -2328,12 +2501,14 @@ Single-Shire
 Single Shire Horse
 Twin-Shire
 Double Shire Horse
-BR-121(Green)
+BR-121
 BR Class 121 DMU
 BR-378Front(LT)
 BR London Overground Class 378 EMU
 BR-378Middle(LT)
-BR London Overground Class 378 EMU (middle)
+BR London Overground Class 378 EMU (centre, powered)
+BR-378Middle(LT)-unpowered
+BR London Overground Class 378 EMU (centre)
 BR-378Rear(LT)
 BR London Overground Class 378 EMU (rear)
 LivestockEarly1
@@ -2465,7 +2640,7 @@ LSWR Bogie Compartment Brake
 LSWR-Third-Carriage
 LSWR Bogie Compartment Carriage
 LNWR-1847-Mail
-LNWR 4-wheel mail coach
+4 wheel mail coach
 CC-Clerestory-Parcel-Brake
 GWR clerestory parcel brake coach
 CC-Clerestory-TPO
@@ -2518,7 +2693,9 @@ BR-Mk1-BG
 BR Mk. 1 Gangwayed Brake
 BR-Mk1-Sub
 BR Mk. 1 Compartment Carriage
-BR-Mk1-Sub-Brake
+BR-Mk1-Sub-Brake-rear
+BR Mk. 1 Compartment Brake
+BR-Mk1-Sub-Brake-front
 BR Mk. 1 Compartment Brake
 SR-Maunsell-Mail(Green)
 SR Maunsell Mail van
@@ -2736,6 +2913,200 @@ LNWR-Claughton-tender
 LNWR Claughton Class Tender
 LSWR-N15-Tender
 LSWR N15 Tender
+LBSCR-0-4-2T
+LBSCR Craven 0-4-2T
+LBSCR-20ft-third
+LBSCR 4 wheel compartment carriage
+LBSCR-20ft-brake-front
+LBSCR 4 wheel compartment carriage (brake)
+LBSCR-20ft-brake-rear
+LBSCR 4 wheel compartment brake
+LNWR-8wheel-radial-brake-front
+LNWR 8 wheel (radial) compartment carriage (brake)
+LNWR-8wheel-radial-lav
+LNWR 8 wheel (radial) compartment carriage (lavatory)
+LNWR-8wheel-radial-brake-rear
+LNWR 8 wheel (radial) compartment carriage (brake)
+LNWR-8wheel-radial-mail
+LNWR 8 wheel (radial) mail carriage
+LNWR-8wheel-radial-tpo
+LNWR 8 wheel (radial) TPO
+BR-Derby-Lightweight-DTCL
+BR Derby Lightweight DMU
+BR-Derby-Lightweight-DMBS
+BR Derby Lightweight DMU (rear)
+BR-117-DMS
+BR Class 117 DMU
+BR-117-TCL
+BR Class 117 DMU (centre trailer)
+BR-117-DMBS
+BR Class 117 DMU (rear)
+BR-123-DMBS
+BR Class 123 inter-city DMU
+BR-123-TCK
+BR Class 123 inter-city DMU (corridor trailer)
+BR-123-TS
+BR Class 123 inter-city DMU (open trailer)
+BR-123-TBS
+BR Class 123 inter-city DMU (buffet)
+BR-123-DMS
+BR Class 123 inter-city DMU (rear)
+BR-128
+BR Class 128 DMU
+BR-Class485Front
+BR Class 485 EMU
+BR-Class485Middle1
+BR Class 485 EMU (trailer)
+BR-Class485Middle2
+BR Class 485 EMU (trailer)
+BR-Class485Rear
+BR Class 485 EMU (rear DM)
+1903TubeStockFront
+CLR 1903 Tube Stock
+1900TubeStockTrailer
+CLR 1900 Tube Stock (trailer)
+1903TubeStockRear
+CLR 1903 Tube Stock (rear DM)
+1900TubeLoco
+CLR 1900 Tube Locomotive
+1890TubeStockLoco
+CSLR 1890 Tube Locomotive
+1890TubeStockTrailer
+CSLR 1890 "Padded Cell" Tube Stock
+1906TubeStockFront
+UERL 1906 Tube Stock
+1906TubeStockTrailer
+UERL 1906 Tube Stock (trailer)
+1906TubeStockRear
+UERL 1906 Tube Stock (rear DM)
+1920TubeStockAirDoorFront
+UERL 1920 "Air Door" Tube Stock
+1920TubeStockAirDoorTrailer
+UERL 1920 "Air Door" Tube Stock (trailer)
+1920TubeStockAirDoorRear
+UERL 1920 "Air Door" Tube Stock (rear DM)
+1914TubeStockFront
+UERL 1914 Tube Stock
+1914TubeStockRear
+UERL 1914 Tube Stock (rear DM)
+1915TubeStockFront
+CLR 1915 Tube Stock
+1915TubeStockRear
+CLR 1915 Tube Stock (rear DM)
+1940TubeStockFront
+WCR 1940 Tube Stock
+1940TubeStockMiddle
+WCR 1940 Tube Stock (trailer)
+1940TubeStockRear
+WCR 1940 Tube Stock (rear DM)
+BR-Class483Front
+BR Class 483 EMU
+BR-Class483NDM
+BR Class 483 EMU (NDM)
+BR-Class483Trailer
+BR Class 483 EMU (trailer)
+BR-Class483Rear
+BR Class 483 EMU (rear DM)
+WatfordJointStockFront
+Watford Joint Tube Stock
+WatfordJointStockMiddle
+Watford Joint Tube Stock (trailer)
+WatfordJointStockRear
+Watford Joint Tube Stock (rear DM)
+1923TubeStockFront
+UERL 1923 "Standard" Tube Stock
+1923TubeStockMiddle1
+UERL 1923 "Standard" Tube Stock (trailer)
+1923TubeStockMiddle2
+UERL 1923 "Standard" Tube Stock (trailer)
+1923TubeStockRear
+UERL 1923 "Standard" Tube Stock (rear DM)
+1898TubeStockFront
+WCR 1898 Tube Stock
+1898TubeStockMiddle
+WCR 1898 Tube Stock (trailer)
+1898TubeStockRear
+WCR 1898 Tube Stock (rear DM)
+1938TubeStockFront
+LUL 1938 Tube Stock
+1938TubeStockNDM
+LUL 1938 Tube Stock (NDM)
+1938TubeStockTrailer
+LUL 1938 Tube Stock (trailer)
+1938TubeStockRear
+LUL 1938 Tube Stock (rear DM)
+1959TubeStockFront
+LUL 1959 Tube Stock
+1959TubeStockMiddle1
+LUL 1959 Tube Stock (trailer)
+1959TubeStockMiddle2
+LUL 1959 Tube Stock (trailer)
+1959TubeStockRear
+LUL 1959 Tube Stock (rear DM)
+1967TubeStockFront
+LUL 1967 Tube Stock
+1967TubeStockMiddle1
+LUL 1967 Tube Stock (trailer)
+1967TubeStockMiddle2
+LUL 1967 Tube Stock (trailer)
+1967TubeStockRear
+LUL 1967 Tube Stock (rear DM)
+1973TubeStockFrontDM
+LUL 1973 Tube Stock
+1973TubeStockMiddle1
+LUL 1973 Tube Stock (trailer)
+1973TubeStockMiddle2
+LUL 1973 Tube Stock (trailer)
+1973TubeStockRearDM
+LUL 1973 Tube Stock (rear DM)
+1973TubeStockFrontUNDM
+LUL 1973 Tube Stock (front UNDM)
+1973TubeStockRearUNDM
+LUL 1973 Tube Stock (rear UNDM)
+1983TubeStockFrontDM
+LUL 1983 Tube Stock
+1983TubeStockMiddle1
+LUL 1983 Tube Stock (trailer)
+1983TubeStockMiddle2
+LUL 1983 Tube Stock (trailer)
+1983TubeStockRearDM
+LUL 1983 Tube Stock (rear DM)
+1983TubeStockFrontUNDM
+LUL 1983 Tube Stock (front UNDM)
+1983TubeStockRearUNDM
+LUL 1983 Tube Stock (rear UNDM)
+1995TubeStockFrontDM
+LUL 1995 Tube Stock
+1995TubeStockMiddle1
+LUL 1995 Tube Stock (trailer)
+1995TubeStockMiddle2
+LUL 1995 Tube Stock (trailer)
+1995TubeStockRearDM
+LUL 1995 Tube Stock (rear DM)
+1995TubeStockFrontUNDM
+LUL 1995 Tube Stock (front UNDM)
+1995TubeStockRearUNDM
+LUL 1995 Tube Stock (rear UNDM)
+2009TubeStockFrontDM
+LUL 2009 Tube Stock
+1995TubeStockMiddle1
+LUL 2009 Tube Stock (trailer)
+2009TubeStockMiddle2
+LUL 2009 Tube Stock (trailer)
+2009TubeStockRearDM
+LUL 2009 Tube Stock (rear DM)
+2009TubeStockFrontUNDM
+LUL 2009 Tube Stock (front UNDM)
+2009TubeStockRearUNDM
+LUL 2009 Tube Stock (rear UNDM)
+1992TubeStockFront
+LUL 1992 Tube Stock
+1992TubeStockMiddle1
+LUL 1992 Tube Stock (rear UNDM)
+1992TubeStockMiddle2
+LUL 1992 Tube Stock (front UNDM)
+1992TubeStockRear
+LUL 1992 Tube Stock (rear DM)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -2933,7 +3304,7 @@ Cart (long goods)
 CartPiece
 Cart (piece goods)
 CartCool
-Cart (cooled goods)
+Cart (perishable goods)
 CartMail
 Cart (mail)
 CartMailNew
@@ -2945,11 +3316,11 @@ Wagon (long goods)
 WagonPiece
 Wagon (piece goods)
 WagonCool
-Wagon (cooled goods)
+Wagon (perishable goods)
 StageWagonPiece
 Stage Wagon (piece goods)
 StageWagonCool
-Stage Wagon (cooled goods)
+Stage Wagon (perishable goods)
 StageWagonMail
 Stage Wagon (mail)
 EagleTrailerBulk
@@ -2959,7 +3330,7 @@ Eagle Trailer (long goods)
 EagleTrailerPiece
 Eagle Trailer (piece goods)
 EagleTrailerCool
-Eagle Trailer (cooled goods)
+Eagle Trailer (perishable goods)
 EagleTrailerLivestock
 Eagle Trailer (livestock)
 EagleTrailerFluid
@@ -3032,6 +3403,8 @@ YorkshireSteamTank
 Yorkshire Steam Tank (bulk fluids)
 MailCoach
 Mail Coach
+ParcelCoach
+Parcel Coach
 McNamaraDennisVanPost
 McNamara Dennis Van (mail)
 AustinSevenPost
@@ -3589,11 +3962,11 @@ RMU Aerocab
 RMU-aerocab(rear)
 RMU Aerocab
 RMUbox(cooled)
-RMU Box Car (cooled goods)
+RMU Box Car (perishable goods)
 RMUbox(piece)
 RMU Box Car (piece goods)
 RMUflat(cooled)
-RMU Flat Car (cooled goods)
+RMU Flat Car (perishable goods)
 RMUflat(piece)
 RMU Flat Car (piece goods)
 BR-Ultra-450(front)
@@ -3647,7 +4020,7 @@ BAE 146 300 Series (post)
 BAE146_300QT(TNT)Piece
 BAE 146 300 Series (piece goods)
 BAE146_300QT(TNT)Cool
-BAE 146 300 Series (cooled goods)
+BAE 146 300 Series (perishable goods)
 ATR_42_320(BlueIslands)
 ATR 42 320 Series
 ATR_42_300F(FedEx)Post
@@ -3655,19 +4028,19 @@ ATR 42 300 Series (post)
 ATR_42_300F(FedEx)Piece
 ATR 42 300 Series (piece goods)
 ATR_42_300F(FedEx)Cool
-ATR 42 300 Series (cooled goods)
+ATR 42 300 Series (perishable goods)
 ATR72_200(FedEx)Post
 ATR 72 200 Series (post)
 ATR72_200(FedEx)Piece
 ATR 72 200 Series (piece goods)
 ATR72_200(FedEx)Cool
-ATR 72 200 Series (cooled goods)
+ATR 72 200 Series (perishable goods)
 Airbus320(AerLingus)Post
 Airbus A320 (post)
 Airbus320(AerLingus)Piece
 Airbus A320 (piece goods)
 Airbus320(AerLingus)Cool
-Airbus A320 (cooled goods)
+Airbus A320 (perishable goods)
 ATR72_200(BritishAirways)
 ATR 72 200 Series
 BAC_111_200(BUA)
@@ -3688,8 +4061,10 @@ Double Shire Horse
 #______________________________________way______________________________________
 wrought_iron_track_light
 Plateway
+cast_iron_track
+Cast Iron Track
 wrought_iron_track
-Wrought Iron Track
+Wrought Iron Track (50lb)
 wrought_iron_improved_track
 Improved Wrought Iron Track
 wssr
@@ -3846,16 +4221,18 @@ ConcreteStationBuildingSmall
 Concrete Station Building
 StationStoneBuilding
 Stone Station Building
+StationWoodBuilding
+Wooden Station Building
 ModernStationBuildingEntrance
-Modern Station Building Entrance
+Station Building Entrance
 1950sStationBuildingEntrance
-1950s Station Building Entrance
+Station Building Entrance
 DecoStationBuildingEntrance
-Art Deco Station Building
+Station Building
 1950sStationBuilding
-1950s Station Building Concourse
+Station Building Concourse
 ModernStationBuilding
-Modern Station Building Concourse
+Station Building Concourse
 CountryStationBuilding
 Country Station Building
 ModernPostOffice
@@ -3903,13 +4280,13 @@ Passenger Canal Quay
 GoodsQuay
 Goods Canal Quay
 HarbourPassenger1950s
-1950s Passenger Dock
+Passenger Dock
 HarbourPassengerDeco
-Art Deco Passenger Dock
+Passenger Dock
 HarbourPassengerModern
-Modern Passenger Dock
+Passenger Dock
 HarbourPassengerOld
-Old Passenger Dock
+Passenger Dock
 ModernGoodsHarbour
 Goods Dock
 OldGoodsHarbour
@@ -3921,17 +4298,17 @@ Plane Stand with Jetway
 ControlTowerModern
 Modern Control Tower
 1950sTerminalBuildingEntrance
-1950s Terminal Building Entrance
+Terminal Building Entrance
 TerminalModernBuildingEntrance
-Modern Terminal Building Entrance
+Terminal Building Entrance
 DecoTerminalBuildingEntrance
-Art Deco Terminal Building
+Terminal Building
 DecoTerminalBuildingTower
-Art Deco Terminal Building with Control Tower
+Terminal Building with Control Tower
 1950sTerminalBuilding
-1950s Terminal Building
+Terminal Building
 TerminalModernBuilding
-Modern Terminal Building
+Terminal Building
 CoachStable
 Coaching stable
 AirHangarModern
@@ -3942,10 +4319,20 @@ GoodsPlatformMaglevCrane
 Maglev Goods Platform with Crane
 GoodsPlatformMaglevWarehouse
 Maglev Goods Shed
+LT_Station1_pc_1standard
+Tube station (basic)
+LT_Station1_pc_2overpass
+Tube station (with overpass)
+LT_Station1_pc_3levelpass
+Tube station (with passageway)
+Yerkes-station-building
+Tube station building
+art-deco-underground-station-building
+Tube station building
 #_________________Signals_______________________
 #_________________Signals_______________________
 ATC_signal
-Basic Signal
+Stop Signal
 ATC_OneWay
 One Way Sign
 ATC_presignal
@@ -3956,6 +4343,12 @@ ATC_choosesignal
 Choose Signal
 ATC_EndofChooseSignal
 End of Choose Signal Block Sign
+Underground_Signals_right
+Underground stop signal
+Underground_preSignals_right
+Underground pre-signal
+Underground_ChooseSignals_right
+Underground choose signal
 #_________________City cars_______________________
 #_________________City cars_______________________
 AustinMetro(Blue)
@@ -4078,6 +4471,7 @@ Volvo-240-Estate(Silver)
 Volvo 240 Estate
 #__________________________________Way constraints__________________________________
 #__________________________________Way constraints__________________________________
+# Permissive
 Permissive 0
 DC Third Rail Electrification
 Permissive 1
@@ -4088,12 +4482,14 @@ Permissive 3
 DC Fourth Rail Electrification
 Permissive 4
 Waterway
+# For the DLR - reserved for future use.
 Permissive 5
-[Unused] Permissive 5
+Light rail electrification
 Permissive 6
 [Unused] Permissive 6
 Permissive 7
 [Unused] Permissive 7
+# Prohibitive
 Prohibitive 0
 Tramway
 Prohibitive 1
@@ -4140,3 +4536,9 @@ Grand-Central
 Grand Central
 Wartime-Austerity
 Wartime austerity
+NSE
+Networtk SouthEast
+Regional-Railways
+Regional Railways
+London-Underground
+London Underground

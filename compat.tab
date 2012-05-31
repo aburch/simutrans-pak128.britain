@@ -225,6 +225,7 @@ Old_brick_school
 OldBrickSchool
 StoneChurch2
 StoneChurch
+############### Livery removals from names  #####################
 BAE 146_100 - Dan Air London
 BAE146_100(DanAirLondon)
 BAE 146_300 - Jersey European
@@ -343,6 +344,40 @@ MR-1000(Maroon)
 MR-1000
 MR-1000-Tender(Maroon)
 MR-1000-Tender
+BR-Mk1-Sub-Brake
+BR-Mk1-Sub-Brake-rear
+BR-121(Green)
+BR-121
+BR-104Front(Green)
+BR-104Front
+BR-104Rear(Green)
+BR-104Rear
+BR-104Middle(Green)
+BR-104Middle
+1923TubeStockRear(Orig)
+1923TubeStockRear
+1923TubeStockMiddle2(Orig)
+1923TubeStockMiddle2
+1923TubeStockMiddle1(Orig)
+1923TubeStockMiddle1
+1923TubeStockFront(Orig)
+1923TubeStockFront
+BR-Class485(Blue)Front
+BR-Class485Front
+BR-Class485(Blue)Middle1
+BR-Class485Middle1
+BR-Class485(Blue)Middle2
+BR-Class485Middle2
+BR-Class485(Blue)Rear
+BR-Class485Rear
+BR-Class483(NSE)Front
+BR-Class483Front
+BR-Class483(NSE)NDM
+BR-Class483NDM
+BR-Class483(NSE)Rear
+BR-Class483Rear
+BR-Class483(NSE)Trailer
+BR-Class483Trailer
 #
 ### Illegal names of old stuff
 BR-309/1Front(Blue-Grey)
@@ -355,6 +390,8 @@ LNER-B17/5-Tender(Green)
 LNER-B17-5-Tender(Green)
 LNER-B17/5(Green)
 LNER-B17-5(Green)
+Ford Trimotor - Northern & Scottish Airways
+Ford-Trimotor-NSA
 #
 ############ Variant names for electrification in old Experimental #############
 DCRailCatenaryCombined
@@ -379,3 +416,9 @@ PlateGirder
 ShortSteelGirderHeavy
 PlateGirderRoad
 steel_spanning_road_bridge_asphalt
+### Replacing faster brick viaducts with new concrete ones
+BrickViaduct225
+ConcreteViaduct
+BrickViaduct320
+ConcreteViaductHS
+

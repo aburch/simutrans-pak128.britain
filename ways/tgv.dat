@@ -1,7 +1,10 @@
 Obj=way
 Name=tgv
 waytype=track
-cost=110000
+cost=220000
+# Maintenance of this type of track should be lower
+# than it otherwise would be owing to its hard base
+# in place of ballast.
 maintenance=1750
 topspeed=320
 max_weight=150

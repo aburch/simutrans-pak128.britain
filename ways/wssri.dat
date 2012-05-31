@@ -1,7 +1,7 @@
 Obj=way
 Name=wssri
 waytype=track
-cost=40000
+cost=80000
 maintenance=910
 topspeed=175
 max_weight=88
@@ -56,7 +56,7 @@ ImageUp[12][1]=./images/rail-snow.0.5
 Obj=way
 Name=wssri_heavy
 waytype=track
-cost=67500
+cost=135000
 maintenance=1100
 topspeed=175
 max_weight=150

@@ -23,12 +23,11 @@ Constraint[Prev][0]=RoadHorsesDouble
 Constraint[Prev][1]=RoadHorsesSingle
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/parcel-coach_E.0
-EmptyImage[SE]=./images/parcel-coach_SE.0
-EmptyImage[S]=./images/parcel-coach_S.0
-EmptyImage[SW]=./images/parcel-coach_SW.0
-EmptyImage[W]=./images/parcel-coach_W.0
-EmptyImage[NW]=./images/parcel-coach_NW.0
-EmptyImage[N]=./images/parcel-coach_N.0
-EmptyImage[NE]=./images/parcel-coach_NE.0
-
+EmptyImage[E]=./images/parcel-coach.0.0
+EmptyImage[SE]=./images/parcel-coach.0.1
+EmptyImage[ S]=./images/parcel-coach.0.2
+EmptyImage[SW]=./images/parcel-coach.0.3
+EmptyImage[W]=./images/parcel-coach.0.4
+EmptyImage[NW]=./images/parcel-coach.0.5
+EmptyImage[N]=./images/parcel-coach.0.6
+EmptyImage[NE]=./images/parcel-coach.0.7

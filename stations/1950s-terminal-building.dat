@@ -4,8 +4,10 @@ copyright=James
 type=extension
 waytype=air
 enables_pax=1
-intro_year=1950
-retire_year=1980
+intro_year=1949
+intro_month=8
+retire_year=1977
+retire_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
@@ -29,8 +31,10 @@ copyright=James
 type=extension
 waytype=air
 enables_pax=1
-intro_year=1950
-retire_year=1980
+intro_year=1949
+intro_month=8
+retire_year=1977
+retire_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,1
@@ -48,13 +52,20 @@ copyright=James
 type=extension
 waytype=track
 enables_pax=1
-intro_year=1950
-retire_year=1980
+intro_year=1949
+intro_month=8
+retire_year=1977
+retire_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
 NoInfo=1
 Level=2
+
+station_maintenance=9250
+station_price=1350000
+station_capacity=92
+
 BackImage[0][0][0][0][0][0]=1950s-terminal-entrance.0.2
 BackImage[1][0][0][0][0][0]=1950s-terminal-entrance.0.1
 BackImage[2][0][0][0][0][0]=1950s-terminal-entrance.0.0
@@ -73,13 +84,20 @@ copyright=James
 type=extension
 waytype=track
 enables_pax=1
-intro_year=1950
-retire_year=1980
+intro_year=1949
+intro_month=8
+retire_year=1977
+retire_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,1
 NoInfo=1
 Level=5
+
+station_maintenance=10900
+station_price=1581250
+station_capacity=115
+
 BackImage[0][0][0][0][0][0]=large-terminal-1950s.0.0
 BackImage[0][0][0][0][0][1]=large-terminal-1950s.0.3
 

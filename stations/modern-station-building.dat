@@ -4,13 +4,18 @@ copyright=James
 type=extension
 waytype=track
 enables_pax=1
-intro_year=1980
+intro_year=1977
+intro_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
 NoInfo=1
 Level=1
-Level=1
+
+station_maintenance=9325
+station_price=775000
+station_capacity=75
+
 BackImage[0][0][0][0][0][0]=modern-station-building.0.2
 BackImage[1][0][0][0][0][0]=modern-station-building.0.1
 BackImage[2][0][0][0][0][0]=modern-station-building.0.0
@@ -29,12 +34,18 @@ copyright=James
 type=extension
 waytype=track
 enables_pax=1
-intro_year=1980
+intro_year=1977
+intro_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,2
 NoInfo=1
 Level=5
+
+station_maintenance=16560
+station_price=1368000
+station_capacity=135
+
 BackImage[0][0][0][0][0][0]=large-terminal-modern.0.0
 BackImage[1][0][0][0][0][0]=large-terminal-modern.0.1
 BackImage[0][0][0][0][0][1]=large-terminal-modern.0.4

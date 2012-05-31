@@ -2,11 +2,11 @@ obj=vehicle
 name=LMR-Bird
 engine_type=steam
 smoke=Steam
-speed=60
+speed=66
+# Power approximated based on performance.
+power=66
 # Calculated from data from Ahrons, p. 50
 # Loss factor set at 0.5.
-# Half boiler pressure used to calculate power.
-power=40
 tractive_effort=5
 copyright=James&jamespetts
 intro_year=1842
@@ -28,11 +28,11 @@ increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Patentee-Tender
 
-EmptyImage[E]=./images/lmr-bird_E.0
-EmptyImage[SE]=./images/lmr-bird_SE.0
-EmptyImage[S]=./images/lmr-bird_S.0
-EmptyImage[SW]=./images/lmr-bird_SW.0
-EmptyImage[W]=./images/lmr-bird_W.0
-EmptyImage[NW]=./images/lmr-bird_NW.0
-EmptyImage[N]=./images/lmr-bird_N.0
-EmptyImage[NE]=./images/lmr-bird_NE.0
+EmptyImage[E]=./images/lmr-bird.1.4
+EmptyImage[SE]=./images/lmr-bird.1.5
+EmptyImage[S]=./images/lmr-bird.1.6
+EmptyImage[SW]=./images/lmr-bird.1.7
+EmptyImage[W]=./images/lmr-bird.1.0
+EmptyImage[NW]=./images/lmr-bird.1.1
+EmptyImage[N]=./images/lmr-bird.1.2
+EmptyImage[NE]=./images/lmr-bird.1.3
