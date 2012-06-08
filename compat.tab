@@ -193,12 +193,17 @@ LNER-B17-5(Green)
 #
 ### Replacing faster brick viaducts with new concrete ones
 BrickViaduct225
-ConcreteViaduct225
+ConcreteViaduct
 BrickViaduct320
 ConcreteViaductHS
-BrickViaduct200
-ConcreteViaduct225
-BrickViaduct175
-ConcreteViaduct175
-ConcreteViaduct
-ConcreteViaduct175
+#
+### Wlindley new stone attractions
+StoneChurch
+ParishChurchStMichaels
+ParishChurch
+ParishChurchStMichaels
+#
+### Renaming objects to remove spaces
+Ford Trimotor - Northern & Scottish Airways
+FordTrimotor(NSA)
+

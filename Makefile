@@ -47,8 +47,10 @@ DIRS192 += air/air192
 DIRS224 := 
 DIRS224 += boats/boats224
 
+DIRS256 := 
+DIRS256 += air/air256
 
-DIRS := $(OUTSIDE) $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224)
+DIRS := $(OUTSIDE) $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224) $(DIRS256)
 
 
 .PHONY: $(DIRS) copy tar zip
@@ -98,11 +100,16 @@ $(DIRS224):
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/ $@/ > /dev/null
 
+$(DIRS256):
+	@echo "===> PAK256 $@"
+	@mkdir -p $(PAKDIR)
+	@$(MAKEOBJ) quiet PAK256 $(PAKDIR)/ $@/ > /dev/null
+
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
-	@echo -e -n "Obj=ground\nName=Outside\ncopyright=pak128.Britain 1.09 111.0 r" >$@/outsiderev.dat
+	@echo -e -n "Obj=ground\nName=Outside\ncopyright=pak128.Britain 1.11 112.0 r" >$@/outsiderev.dat
 	@svnversion >>$@/outsiderev.dat
 	@echo -e "Image[0][0]=images/ls-water-128.0.0\n-" >>$@/outsiderev.dat
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/outsiderev.dat > /dev/null
