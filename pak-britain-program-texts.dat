@@ -1,0 +1,28 @@
+# Texts from the game engine
+# where we want a different translation for pak128.britain
+----
+obj=program_text
+name=%s city %d %s
+note=Station name pattern for station in a city
+----
+obj=program_text
+name=%s land %d %s
+note=Station name pattern for station not in a city
+----
+obj=program_text
+name=%s factory %s %s
+note=Station name pattern for station near a factory
+----
+# Not modified, same as base text
+#obj=program_text
+#name=%s building %s %s
+#note=Station name pattern for station near an attraction
+#----
+obj=program_text
+name=battery
+note=Power method for maglev trains
+----
+obj=program_text
+name=Remove wayobj %s
+note=Remove wires for electrified train lines
+----

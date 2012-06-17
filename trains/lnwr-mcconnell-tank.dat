@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=70
 # Calculated from data from Ahrons, p. 151
-# Loss factor set at 0.0.7, assumed 100lbs boiler pressure. 
+# Loss factor set at 0.7, assumed 100lbs boiler pressure. 
 # Half boiler pressure used to calculate power.
 power=268
 gear=300
@@ -32,3 +32,4 @@ EmptyImage[W]=./images/lnwr-mcconnell-side-tank-sd-red.0.0
 EmptyImage[NW]=./images/lnwr-mcconnell-side-tank-sd-red.0.1
 EmptyImage[N]=./images/lnwr-mcconnell-side-tank-sd-red.0.2
 EmptyImage[NE]=./images/lnwr-mcconnell-side-tank-sd-red.0.3
+---

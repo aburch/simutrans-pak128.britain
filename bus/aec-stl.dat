@@ -1,7 +1,7 @@
 # AEC standard STL
 #
 obj=vehicle
-name=AEC Standard STL
+name=AEC-Standard-STL
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
@@ -30,4 +30,4 @@ EmptyImage[W]=./images/aec-stl.0.4
 EmptyImage[NW]=./images/aec-stl.0.5
 EmptyImage[N]=./images/aec-stl.0.6
 EmptyImage[NE]=./images/aec-stl.0.7
-
+----

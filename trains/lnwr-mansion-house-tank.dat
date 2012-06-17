@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=85
 # Calculated from data from Ahrons, pp. 219-220
-# Loss factor set at 0.0.75
+# Loss factor set at 0.75
 # Half boiler pressure used to calculate power.
 power=574
 gear=300
@@ -33,4 +33,4 @@ EmptyImage[W]=./images/lnwr-mansion-house-tank.0.0
 EmptyImage[NW]=./images/lnwr-mansion-house-tank.0.1
 EmptyImage[N]=./images/lnwr-mansion-house-tank.0.2
 EmptyImage[NE]=./images/lnwr-mansion-house-tank.0.3
-
+---
