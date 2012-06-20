@@ -29,9 +29,9 @@ DIRS128 :=
 DIRS128 += air
 TR_DIRS += air
 DIRS128 += attractions
-# attractions need special handling for simutranslator
+TR_DIRS += attractions
 DIRS128 += boats
-# boats need special handling too
+TR_DIRS += boats
 DIRS128 += bus
 TR_DIRS += bus
 DIRS128 += citybuildings
@@ -145,49 +145,47 @@ clean:
 	@echo "===> CLEAN"
 	@rm -fr $(PAKDIR) $(DESTFILE).tbz2 $(DESTFILE).zip simutranslator/*.zip
 
+# -----------
+# Everything after this point in the Makefile is designed for
+# the generation of zip files to upload to simutranslator
+# written by Nathanael Nerode
+# -----------
 
-# Note, this is a really sloppy way to do this;
-# but at least it's automated.
-# Handle attractions specially, see below
-# Also note, there may be too many trains for a single zip file.
-simutranslator:
-	for x in $(TR_DIRS); do zip -r simutranslator/"$$x".zip "$$x"; done
-	zip simutranslator/program_texts.zip simutranslator/*.dat
+# The following image files are too large for simutranslator.
+OVERSIZE_IMAGES :=
+OVERSIZE_IMAGES += attractions/images/cur/football-ground-lg.png
+OVERSIZE_IMAGES += attractions/images/cur/cricket-ground-sm.png
+OVERSIZE_IMAGES += boats/images/clan-line-steamer.png
+OVERSIZE_IMAGES += boats/images/handysize.png
 
-# The entire attractions folder may be too big to do in one go.
-# So separate out the stone attractions.
+
+# For each zip file to generate,
+# (1) Use 'find' to get everything under the directory;
+# (2) But exclude everything in 'blends';
+# (3) And only collect files with .dat and .png endings;
+# (4) Then use zip, but exclude "known bad" image files.
+
+simutranslator/%.zip:
+	FILE_LIST=`find -path ./$*/\* \! -path ./$*/blends/\* \( -name \*.dat -o -name \*.png \)` ; \
+	zip -r $@ $$FILE_LIST -x $(OVERSIZE_IMAGES)
+
+# Special case: Program texts
+simutranslator/program_texts.zip:
+	zip $@ simutranslator/*.dat
+
+# Convert the list of TR_DIRS to a list of TR_ZIPFILES
+TR_ZIPFILES := $(patsubst %,simutranslator/%.zip, $(TR_DIRS) )
+
+# Finally, depend on all the individual zipfiles.
+simutranslator: $(TR_ZIPFILES)
+
+# Potential problems.
+# - The entire attractions folder may be too big to do in one go.
+# - separate out the stone attractions?
 STONE_ATTRACTIONS :=
 STONE_ATTRACTIONS += attractions/stone-attractions.dat
 STONE_ATTRACTIONS += attractions/images/cur/stone-attractions.png 
 STONE_ATTRACTIONS += attractions/images/cur/stone-attractions-snow.png
-
-simutranslator: simutranslator/stone-attractions.zip
-simutranslator/stone-attractions.zip:
-	zip $@ $(STONE_ATTRACTIONS)
-
-# Two of the attractions have images too big for simutranslator
-# to handle.  The images must be left out entirely.
-LARGE_ATTRACTIONS :=
-LARGE_ATTRACTIONS += attractions/images/cur/football-ground-lg.png
-LARGE_ATTRACTIONS += attractions/images/cur/cricket-ground-sm.png
-simutranslator: simutranslator/attractions.zip
-simutranslator/attractions.zip:
-	zip -r $@ attractions -x $(LARGE_ATTRACTIONS) $(STONE_ATTRACTIONS)
-
-# Simutranslator chokes horribly on the large images for certain large boats.
-# We can upload the dats but not the images for the problem boats.
-# Also, break the boats into two uploads for easier debugging.
-LARGE_BOATS := 
-LARGE_BOATS += boats/boats192/*
-LARGE_BOATS += boats/boats224/*
-PROBLEM_BOATS :=
-PROBLEM_BOATS += boats/images/clan-line-steamer.png
-PROBLEM_BOATS += boats/images/handysize.png
-
-simutranslator: simutranslator/boats-small.zip
-simutranslator/boats-small.zip:
-	zip -r $@ boats -x $(LARGE_BOATS) $(PROBLEM_BOATS)
-	
-simutranslator: simutranslator/boats-large.zip
-simutranslator/boats-large.zip:
-	zip -r $@ boats/boats192 boats/boats224 boats/images -x $(PROBLEM_BOATS)
+# - The entire boats folder may also be too big
+# - separate out the large boats?
+# - The entire trains folder may ALSO be too big
