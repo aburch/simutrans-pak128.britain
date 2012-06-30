@@ -29,7 +29,7 @@ first_beginner = 0
 # The size of  the catchment area for a station (default 2 for 1km/tile)
 # older game size was 3 (for Simutrans-Standard)
 
-station_coverage = 3
+station_coverage = 4
 
 # The rate at which towns grow depends on their size. There are three different size categories:
 # "Villages", "Cities" and "Capitals". The following settings define the thresholds (in numbers 
@@ -163,7 +163,7 @@ max_bonus_multiplier_percent = 300
 # was used instead. That setting was calculated in tens of meters. If "distance_per_tile" is
 # specified in simuconf.tab, it will be converted to meters_per_tile by the game.
 
-meters_per_tile = 250
+meters_per_tile = 125
 
 # These next settings affect the interaction between comfort and revenue in Simutrans. Comfort only
 # affects passenger traffic, for obvious reasons. Passengers have a certain level of comfort that
@@ -431,7 +431,7 @@ factory_worker_minimum_towns = 1
 factory_worker_maximum_towns = 5
 
 # The maximum distance in tiles from which workers at industries may travel.
-factory_worker_radius = 128
+factory_worker_radius = 256
 
 ################################## Finance settings #################################
 
