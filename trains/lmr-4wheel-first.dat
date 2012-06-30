@@ -25,7 +25,21 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-Constraint[Next][0]=any
+Constraint[Prev][0]=LMR-4Wheel-Open-Coach
+Constraint[Prev][1]=LMR-4Wheel-Mail
+Constraint[Prev][2]=LMR-4Wheel-TPO
+Constraint[Prev][3]=LMR-4Wheel-Mail-Guard-Front
+Constraint[Prev][4]=LMR-4Wheel-First
+Constraint[Prev][5]=LMR-4Wheel-First-Guard-Front
+Constraint[Prev][6]=LMR-4Wheel-Open-Brake
+
+Constraint[Next][0]=LMR-4Wheel-Open-Brake
+Constraint[Next][1]=LMR-4Wheel-Mail
+Constraint[Next][2]=LMR-4Wheel-TPO
+Constraint[Next][3]=LMR-4Wheel-Mail-Guard-Rear
+Constraint[Next][4]=LMR-4Wheel-Open-Coach
+Constraint[Next][5]=LMR-4Wheel-First
+Constraint[Next][6]=LMR-4Wheel-First-Guard-Rear
 
 EmptyImage[E]=./images/4wheel-first.1.4
 EmptyImage[SE]=./images/4wheel-first.1.5
@@ -74,7 +88,13 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-Constraint[Next][0]=any
+Constraint[Next][0]=LMR-4Wheel-Open-Brake
+Constraint[Next][1]=LMR-4Wheel-Mail
+Constraint[Next][2]=LMR-4Wheel-TPO
+Constraint[Next][3]=LMR-4Wheel-Mail-Guard-Rear
+Constraint[Next][4]=LMR-4Wheel-Open-Coach
+Constraint[Next][5]=LMR-4Wheel-First
+Constraint[Next][6]=LMR-4Wheel-First-Guard-Rear
 
 EmptyImage[E]=./images/4wheel-guard-front.1.4
 EmptyImage[SE]=./images/4wheel-guard-front.1.5
@@ -122,6 +142,14 @@ max_loading_time=47
 
 can_lead_from_rear=0
 bidirectional=1
+
+Constraint[Prev][0]=LMR-4Wheel-Open-Coach
+Constraint[Prev][1]=LMR-4Wheel-Mail
+Constraint[Prev][2]=LMR-4Wheel-TPO
+Constraint[Prev][3]=LMR-4Wheel-Mail-Guard-Front
+Constraint[Prev][4]=LMR-4Wheel-First
+Constraint[Prev][5]=LMR-4Wheel-First-Guard-Front
+Constraint[Prev][6]=LMR-4Wheel-Open-Brake
 
 EmptyImage[E]=./images/4wheel-guard-rear.1.4
 EmptyImage[SE]=./images/4wheel-guard-rear.1.5
