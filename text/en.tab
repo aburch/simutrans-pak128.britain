@@ -1686,13 +1686,21 @@ BR Class 442 "Wessex Electric" (trailer)
 BR-442-Rear(NSE)
 BR Class 442 "Wessex Electric" (driving trailer - rear)
 LMR-4Wheel-First
-LMR 4 Wheel Carriage (1st class)
+LMR 4 wheel carriage (enclosed)
+LMR-4Wheel-First-Guard-Front
+LMR 4 wheel brake carriage (enclosed)
+LMR-4Wheel-First-Guard-Rear
+LMR 4 wheel brake carriage (enclosed)
 LMR-4Wheel-TPO
-LMR 4 Wheel TPO
+LMR 4 wheel TPO
 LMR-4Wheel-Mail
-LMR 4 Wheel Mail
+LMR 4 wheel mail
+LMR-4Wheel-Mail-Guard-Front
+LMR 4 wheel mail (brake)
+MR-4Wheel-Mail-Guard-Rear
+LMR 4 wheel mail (brake)
 LNWR-1847-First
-4 wheel Compartment Carriage
+4 wheel compartment carriage
 LNWR-1847-Brake
 4 wheel Brake cariage
 LBSCR-4Wheel-First
@@ -1708,7 +1716,9 @@ BR Class 221 "Super Voyager" (rear)
 BR-370Buffet(IC)
 BR Class 370 APT (buffet)
 LMR-4Wheel-Open-Coach
-LMR 4 Wheel Open Coach (3rd class)
+LMR 4 wheel carriage (open)
+LMR-4Wheel-Open-Brake
+LMR 4 wheel brake carriage (open)
 GNR-6Wheel-First
 GNR 6 Wheel Carriage
 GNR-6Wheel-Guard
