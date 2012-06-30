@@ -11,6 +11,7 @@ freight=Passagiere
 payload=32
 overcrowded_capacity=16
 length=4
+brake_force=0
 
 weight=6
 cost=267000
@@ -54,6 +55,7 @@ freight=Passagiere
 payload=16
 overcrowded_capacity=8
 length=4
+brake_force=2
 
 weight=6
 cost=267000
@@ -69,6 +71,7 @@ bidirectional=1
 
 Constraint[next][0]=LBSCR-20ft-third
 Constraint[next][1]=LBSCR-20ft-brake-rear
+Constraint[next][2]=none
 
 EmptyImage[E]=./images/lbscr-4wheel-20ft-brake-third-rescaled-front.1.4
 EmptyImage[SE]=./images/lbscr-4wheel-20ft-brake-third-rescaled-front.1.5
@@ -94,6 +97,7 @@ freight=Passagiere
 payload=16
 overcrowded_capacity=8
 length=4
+brake_force=2
 
 weight=6
 cost=267000
