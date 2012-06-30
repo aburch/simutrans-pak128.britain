@@ -10,7 +10,7 @@ waytype=track
 freight=Passagiere
 payload=70
 overcrowded_capacity=36
-length=10
+length=9
 
 weight=25
 cost=581295
@@ -32,14 +32,14 @@ Constraint[Prev][4]=LMS-3F-Jinty-Push-Pull
 
 Constraint[Next][0]=MR-push-pull-rear
 
-EmptyImage[E]=./images/mr-push-pull.0.0
-EmptyImage[SE]=./images/mr-push-pull.0.1
-EmptyImage[S]=./images/mr-push-pull.0.2
-EmptyImage[SW]=./images/mr-push-pull.0.3
-EmptyImage[W]=./images/mr-push-pull.0.4
-EmptyImage[NW]=./images/mr-push-pull.0.5
-EmptyImage[N]=./images/mr-push-pull.0.6
-EmptyImage[NE]=./images/mr-push-pull.0.7
+EmptyImage[E]=./images/mr-non-cor-brake-front.1.4
+EmptyImage[SE]=./images/mr-non-cor-brake-front.1.5
+EmptyImage[S]=./images/mr-non-cor-brake-front.1.6
+EmptyImage[SW]=./images/mr-non-cor-brake-front.1.7
+EmptyImage[W]=./images/mr-non-cor-brake-front.1.0
+EmptyImage[NW]=./images/mr-non-cor-brake-front.1.1
+EmptyImage[N]=./images/mr-non-cor-brake-front.1.2
+EmptyImage[NE]=./images/mr-non-cor-brake-front.1.3
 
 ---
 
@@ -55,7 +55,7 @@ waytype=track
 freight=Passagiere
 payload=70
 overcrowded_capacity=36
-length=10
+length=9
 
 weight=25
 cost=581295
@@ -80,11 +80,11 @@ Constraint[Prev][5]=MR-push-pull-front
 
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/mr-push-pull.1.0
-EmptyImage[SE]=./images/mr-push-pull.1.1
-EmptyImage[S]=./images/mr-push-pull.1.2
-EmptyImage[SW]=./images/mr-push-pull.1.3
-EmptyImage[W]=./images/mr-push-pull.1.4
-EmptyImage[NW]=./images/mr-push-pull.1.5
-EmptyImage[N]=./images/mr-push-pull.1.6
-EmptyImage[NE]=./images/mr-push-pull.1.7
+EmptyImage[E]=./images/mr-push-pull-brake.1.4
+EmptyImage[SE]=./images/mr-push-pull-brake.1.5
+EmptyImage[S]=./images/mr-push-pull-brake.1.6
+EmptyImage[SW]=./images/mr-push-pull-brake.1.7
+EmptyImage[W]=./images/mr-push-pull-brake.1.0
+EmptyImage[NW]=./images/mr-push-pull-brake.1.1
+EmptyImage[N]=./images/mr-push-pull-brake.1.2
+EmptyImage[NE]=./images/mr-push-pull-brake.1.3
