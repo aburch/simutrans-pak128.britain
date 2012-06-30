@@ -11,9 +11,10 @@ waytype=track
 freight=Post
 payload=5
 length=4
+brake_force=8
 
 #?
-weight=7
+weight=25
 cost=3700
 runningcost=17
 sound=-1

@@ -17,6 +17,7 @@ waytype=track
 freight=None
 payload=0
 length=5
+brake_force=0
 
 # Weight not available in Ahrons, guessed on basis of 1t more than "Planet".
 weight=9

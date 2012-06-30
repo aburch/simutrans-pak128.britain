@@ -17,6 +17,7 @@ waytype=track
 freight=None
 payload=0
 length=5
+brake_force=7
 
 # Weight not given in Ahrons, but guessed based on contemporaneous types.
 weight=22
