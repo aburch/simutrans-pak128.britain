@@ -13,6 +13,7 @@ overcrowded_capacity=56
 length=10
 engine_type=electric
 power=0
+brake_force=23
 
 weight=30
 cost=1860000
@@ -60,6 +61,7 @@ length=10
 engine_type=electric
 power=746
 tractive_effort=137
+brake_force=38
 
 weight=50
 cost=1860000
@@ -105,6 +107,7 @@ overcrowded_capacity=64
 length=10
 engine_type=electric
 power=0
+brake_force=18
 
 weight=25
 cost=1860000
@@ -149,6 +152,7 @@ overcrowded_capacity=56
 length=10
 engine_type=electric
 power=0
+brake_force=23
 
 weight=30
 cost=1860000

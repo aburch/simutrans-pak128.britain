@@ -14,6 +14,7 @@ length=11
 engine_type=electric
 power=373
 tractive_effort=133
+brake_force=30
 
 weight=41
 cost=1921000
@@ -60,6 +61,7 @@ overcrowded_capacity=38
 length=11
 engine_type=electric
 power=0
+brake_force=23
 
 weight=31
 cost=1921000

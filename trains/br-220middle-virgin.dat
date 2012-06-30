@@ -16,6 +16,7 @@ freight=Passagiere
 payload=58
 overcrowded_capacity=12
 length=13
+brake_force=33
 
 weight=45
 cost=2415000
@@ -69,6 +70,7 @@ freight=Passagiere
 payload=50
 overcrowded_capacity=10
 length=13
+brake_force=33
 
 weight=45
 cost=2630000
@@ -119,6 +121,7 @@ freight=Passagiere
 payload=58
 overcrowded_capacity=12
 length=13
+brake_force=41
 
 weight=55
 cost=2650000
@@ -171,6 +174,7 @@ freight=Passagiere
 payload=50
 overcrowded_capacity=10
 length=13
+brake_force=41
 
 weight=55
 cost=2865000

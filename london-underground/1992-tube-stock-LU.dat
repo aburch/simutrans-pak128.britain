@@ -15,6 +15,7 @@ waytype=track
 freight=Passagiere
 payload=34
 overcrowded_capacity=100
+brake_force=17
 
 weight=23
 cost=1450000
@@ -74,6 +75,7 @@ waytype=track
 freight=Passagiere
 payload=34
 overcrowded_capacity=120
+brake_force=15
 
 weight=21
 cost=950000
@@ -133,6 +135,7 @@ waytype=track
 freight=Passagiere
 payload=34
 overcrowded_capacity=120
+brake_force=15
 
 weight=21
 cost=950000
@@ -193,6 +196,7 @@ waytype=track
 freight=Passagiere
 payload=34
 overcrowded_capacity=100
+brake_force=17
 
 weight=15
 cost=1450000
