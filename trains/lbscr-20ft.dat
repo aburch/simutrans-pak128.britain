@@ -31,14 +31,14 @@ Constraint[Prev][1]=LBSCR-20ft-brake-front
 Constraint[next][0]=LBSCR-20ft-third
 Constraint[next][1]=LBSCR-20ft-brake-rear
 
-EmptyImage[E]=./images/lbscr-4wheel-20ft-third-rescaled.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-20ft-third-rescaled.1.5
-EmptyImage[S]=./images/lbscr-4wheel-20ft-third-rescaled.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-20ft-third-rescaled.1.7
-EmptyImage[W]=./images/lbscr-4wheel-20ft-third-rescaled.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-20ft-third-rescaled.1.1
-EmptyImage[N]=./images/lbscr-4wheel-20ft-third-rescaled.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-20ft-third-rescaled.1.3
+EmptyImage[E]=./images/lbscr-4wheel-20ft-third.1.4
+EmptyImage[SE]=./images/lbscr-4wheel-20ft-third.1.5
+EmptyImage[S]=./images/lbscr-4wheel-20ft-third.1.6
+EmptyImage[SW]=./images/lbscr-4wheel-20ft-third.1.7
+EmptyImage[W]=./images/lbscr-4wheel-20ft-third.1.0
+EmptyImage[NW]=./images/lbscr-4wheel-20ft-third.1.1
+EmptyImage[N]=./images/lbscr-4wheel-20ft-third.1.2
+EmptyImage[NE]=./images/lbscr-4wheel-20ft-third.1.3
 
 ---
 
@@ -73,14 +73,14 @@ Constraint[next][0]=LBSCR-20ft-third
 Constraint[next][1]=LBSCR-20ft-brake-rear
 Constraint[next][2]=none
 
-EmptyImage[E]=./images/lbscr-4wheel-20ft-brake-third-rescaled-front.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-20ft-brake-third-rescaled-front.1.5
-EmptyImage[S]=./images/lbscr-4wheel-20ft-brake-third-rescaled-front.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-20ft-brake-third-rescaled-front.1.7
-EmptyImage[W]=./images/lbscr-4wheel-20ft-brake-third-rescaled-front.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-20ft-brake-third-rescaled-front.1.1
-EmptyImage[N]=./images/lbscr-4wheel-20ft-brake-third-rescaled-front.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-20ft-brake-third-rescaled-front.1.3
+EmptyImage[E]=./images/lbscr-4wheel-20ft-brake-third-front.1.4
+EmptyImage[SE]=./images/lbscr-4wheel-20ft-brake-third-front.1.5
+EmptyImage[S]=./images/lbscr-4wheel-20ft-brake-third-front.1.6
+EmptyImage[SW]=./images/lbscr-4wheel-20ft-brake-third-front.1.7
+EmptyImage[W]=./images/lbscr-4wheel-20ft-brake-third-front.1.0
+EmptyImage[NW]=./images/lbscr-4wheel-20ft-brake-third-front.1.1
+EmptyImage[N]=./images/lbscr-4wheel-20ft-brake-third-front.1.2
+EmptyImage[NE]=./images/lbscr-4wheel-20ft-brake-third-front.1.3
 
 ---
 
@@ -114,11 +114,11 @@ bidirectional=1
 Constraint[Prev][0]=LBSCR-20ft-third
 Constraint[Prev][1]=LBSCR-20ft-brake-front
 
-EmptyImage[E]=./images/lbscr-4wheel-20ft-brake-third-rescaled-rear.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-20ft-brake-third-rescaled-rear.1.5
-EmptyImage[S]=./images/lbscr-4wheel-20ft-brake-third-rescaled-rear.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-20ft-brake-third-rescaled-rear.1.7
-EmptyImage[W]=./images/lbscr-4wheel-20ft-brake-third-rescaled-rear.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-20ft-brake-third-rescaled-rear.1.1
-EmptyImage[N]=./images/lbscr-4wheel-20ft-brake-third-rescaled-rear.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-20ft-brake-third-rescaled-rear.1.3
+EmptyImage[E]=./images/lbscr-4wheel-20ft-brake-third-rear.1.4
+EmptyImage[SE]=./images/lbscr-4wheel-20ft-brake-third-rear.1.5
+EmptyImage[S]=./images/lbscr-4wheel-20ft-brake-third-rear.1.6
+EmptyImage[SW]=./images/lbscr-4wheel-20ft-brake-third-rear.1.7
+EmptyImage[W]=./images/lbscr-4wheel-20ft-brake-third-rear.1.0
+EmptyImage[NW]=./images/lbscr-4wheel-20ft-brake-third-rear.1.1
+EmptyImage[N]=./images/lbscr-4wheel-20ft-brake-third-rear.1.2
+EmptyImage[NE]=./images/lbscr-4wheel-20ft-brake-third-rear.1.3
