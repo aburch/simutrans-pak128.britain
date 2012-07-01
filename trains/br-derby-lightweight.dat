@@ -30,50 +30,50 @@ max_loading_time=60
 comfort=82
 
 Constraint[Prev][0]=BR-Derby-Lightweight-DMBS
-Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-Derby-Lightweight-DMBS
+Constraint[Next][1]=none
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
 liverytype[3]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-derby-lightweight-dtcl-g.1.0
-EmptyImage[SE][0]=./images/br-derby-lightweight-dtcl-g.1.1
-EmptyImage[S][0]=./images/br-derby-lightweight-dtcl-g.1.2
-EmptyImage[SW][0]=./images/br-derby-lightweight-dtcl-g.1.3
-EmptyImage[W][0]=./images/br-derby-lightweight-dtcl-g.1.4
-EmptyImage[NW][0]=./images/br-derby-lightweight-dtcl-g.1.5
-EmptyImage[N][0]=./images/br-derby-lightweight-dtcl-g.1.6
-EmptyImage[NE][0]=./images/br-derby-lightweight-dtcl-g.1.7
+EmptyImage[E][0]=./images/br-derby-lightweight-dtcl-g.1.4
+EmptyImage[SE][0]=./images/br-derby-lightweight-dtcl-g.1.5
+EmptyImage[S][0]=./images/br-derby-lightweight-dtcl-g.1.6
+EmptyImage[SW][0]=./images/br-derby-lightweight-dtcl-g.1.7
+EmptyImage[W][0]=./images/br-derby-lightweight-dtcl-g.1.0
+EmptyImage[NW][0]=./images/br-derby-lightweight-dtcl-g.1.1
+EmptyImage[N][0]=./images/br-derby-lightweight-dtcl-g.1.2
+EmptyImage[NE][0]=./images/br-derby-lightweight-dtcl-g.1.3
 
-EmptyImage[E][1]=./images/br-derby-lightweight-dtcl-gw.1.0
-EmptyImage[SE][1]=./images/br-derby-lightweight-dtcl-gw.1.1
-EmptyImage[S][1]=./images/br-derby-lightweight-dtcl-gw.1.2
-EmptyImage[SW][1]=./images/br-derby-lightweight-dtcl-gw.1.3
-EmptyImage[W][1]=./images/br-derby-lightweight-dtcl-gw.1.4
-EmptyImage[NW][1]=./images/br-derby-lightweight-dtcl-gw.1.5
-EmptyImage[N][1]=./images/br-derby-lightweight-dtcl-gw.1.6
-EmptyImage[NE][1]=./images/br-derby-lightweight-dtcl-gw.1.7
+EmptyImage[E][1]=./images/br-derby-lightweight-dtcl-gw.1.4
+EmptyImage[SE][1]=./images/br-derby-lightweight-dtcl-gw.1.5
+EmptyImage[S][1]=./images/br-derby-lightweight-dtcl-gw.1.6
+EmptyImage[SW][1]=./images/br-derby-lightweight-dtcl-gw.1.7
+EmptyImage[W][1]=./images/br-derby-lightweight-dtcl-gw.1.0
+EmptyImage[NW][1]=./images/br-derby-lightweight-dtcl-gw.1.1
+EmptyImage[N][1]=./images/br-derby-lightweight-dtcl-gw.1.2
+EmptyImage[NE][1]=./images/br-derby-lightweight-dtcl-gw.1.3
 
-EmptyImage[E][2]=./images/br-derby-lightweight-dtcl-b.1.0
-EmptyImage[SE][2]=./images/br-derby-lightweight-dtcl-b.1.1
-EmptyImage[S][2]=./images/br-derby-lightweight-dtcl-b.1.2
-EmptyImage[SW][2]=./images/br-derby-lightweight-dtcl-b.1.3
-EmptyImage[W][2]=./images/br-derby-lightweight-dtcl-b.1.4
-EmptyImage[NW][2]=./images/br-derby-lightweight-dtcl-b.1.5
-EmptyImage[N][2]=./images/br-derby-lightweight-dtcl-b.1.6
-EmptyImage[NE][2]=./images/br-derby-lightweight-dtcl-b.1.7
+EmptyImage[E][2]=./images/br-derby-lightweight-dtcl-b.1.4
+EmptyImage[SE][2]=./images/br-derby-lightweight-dtcl-b.1.5
+EmptyImage[S][2]=./images/br-derby-lightweight-dtcl-b.1.6
+EmptyImage[SW][2]=./images/br-derby-lightweight-dtcl-b.1.7
+EmptyImage[W][2]=./images/br-derby-lightweight-dtcl-b.1.0
+EmptyImage[NW][2]=./images/br-derby-lightweight-dtcl-b.1.1
+EmptyImage[N][2]=./images/br-derby-lightweight-dtcl-b.1.2
+EmptyImage[NE][2]=./images/br-derby-lightweight-dtcl-b.1.3
 
-EmptyImage[E][3]=./images/br-derby-lightweight-dtcl-bg.1.0
-EmptyImage[SE][3]=./images/br-derby-lightweight-dtcl-bg.1.1
-EmptyImage[S][3]=./images/br-derby-lightweight-dtcl-bg.1.2
-EmptyImage[SW][3]=./images/br-derby-lightweight-dtcl-bg.1.3
-EmptyImage[W][3]=./images/br-derby-lightweight-dtcl-bg.1.4
-EmptyImage[NW][3]=./images/br-derby-lightweight-dtcl-bg.1.5
-EmptyImage[N][3]=./images/br-derby-lightweight-dtcl-bg.1.6
-EmptyImage[NE][3]=./images/br-derby-lightweight-dtcl-bg.1.7
+EmptyImage[E][3]=./images/br-derby-lightweight-dtcl-bg.1.4
+EmptyImage[SE][3]=./images/br-derby-lightweight-dtcl-bg.1.5
+EmptyImage[S][3]=./images/br-derby-lightweight-dtcl-bg.1.6
+EmptyImage[SW][3]=./images/br-derby-lightweight-dtcl-bg.1.7
+EmptyImage[W][3]=./images/br-derby-lightweight-dtcl-bg.1.0
+EmptyImage[NW][3]=./images/br-derby-lightweight-dtcl-bg.1.1
+EmptyImage[N][3]=./images/br-derby-lightweight-dtcl-bg.1.2
+EmptyImage[NE][3]=./images/br-derby-lightweight-dtcl-bg.1.3
 
 ----
 
@@ -109,48 +109,48 @@ max_loading_time=60
 comfort=82
 
 Constraint[Prev][0]=BR-Derby-Lightweight-DTCL
+Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-Derby-Lightweight-DTCL
-Constraint[Next][1]=none
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
 liverytype[3]=BR-Large-Logo
 
-EmptyImage[E][0]=./images/br-derby-lightweight-dmbs-g.1.0
-EmptyImage[SE][0]=./images/br-derby-lightweight-dmbs-g.1.1
-EmptyImage[S][0]=./images/br-derby-lightweight-dmbs-g.1.2
-EmptyImage[SW][0]=./images/br-derby-lightweight-dmbs-g.1.3
-EmptyImage[W][0]=./images/br-derby-lightweight-dmbs-g.1.4
-EmptyImage[NW][0]=./images/br-derby-lightweight-dmbs-g.1.5
-EmptyImage[N][0]=./images/br-derby-lightweight-dmbs-g.1.6
-EmptyImage[NE][0]=./images/br-derby-lightweight-dmbs-g.1.7
+EmptyImage[E][0]=./images/br-derby-lightweight-dmbs-g.1.4
+EmptyImage[SE][0]=./images/br-derby-lightweight-dmbs-g.1.5
+EmptyImage[S][0]=./images/br-derby-lightweight-dmbs-g.1.6
+EmptyImage[SW][0]=./images/br-derby-lightweight-dmbs-g.1.7
+EmptyImage[W][0]=./images/br-derby-lightweight-dmbs-g.1.0
+EmptyImage[NW][0]=./images/br-derby-lightweight-dmbs-g.1.1
+EmptyImage[N][0]=./images/br-derby-lightweight-dmbs-g.1.2
+EmptyImage[NE][0]=./images/br-derby-lightweight-dmbs-g.1.3
 
-EmptyImage[E][1]=./images/br-derby-lightweight-dmbs-gw.1.0
-EmptyImage[SE][1]=./images/br-derby-lightweight-dmbs-gw.1.1
-EmptyImage[S][1]=./images/br-derby-lightweight-dmbs-gw.1.2
-EmptyImage[SW][1]=./images/br-derby-lightweight-dmbs-gw.1.3
-EmptyImage[W][1]=./images/br-derby-lightweight-dmbs-gw.1.4
-EmptyImage[NW][1]=./images/br-derby-lightweight-dmbs-gw.1.5
-EmptyImage[N][1]=./images/br-derby-lightweight-dmbs-gw.1.6
-EmptyImage[NE][1]=./images/br-derby-lightweight-dmbs-gw.1.7
+EmptyImage[E][1]=./images/br-derby-lightweight-dmbs-gw.1.4
+EmptyImage[SE][1]=./images/br-derby-lightweight-dmbs-gw.1.5
+EmptyImage[S][1]=./images/br-derby-lightweight-dmbs-gw.1.6
+EmptyImage[SW][1]=./images/br-derby-lightweight-dmbs-gw.1.7
+EmptyImage[W][1]=./images/br-derby-lightweight-dmbs-gw.1.0
+EmptyImage[NW][1]=./images/br-derby-lightweight-dmbs-gw.1.1
+EmptyImage[N][1]=./images/br-derby-lightweight-dmbs-gw.1.2
+EmptyImage[NE][1]=./images/br-derby-lightweight-dmbs-gw.1.3
 
-EmptyImage[E][2]=./images/br-derby-lightweight-dmbs-b.1.0
-EmptyImage[SE][2]=./images/br-derby-lightweight-dmbs-b.1.1
-EmptyImage[S][2]=./images/br-derby-lightweight-dmbs-b.1.2
-EmptyImage[SW][2]=./images/br-derby-lightweight-dmbs-b.1.3
-EmptyImage[W][2]=./images/br-derby-lightweight-dmbs-b.1.4
-EmptyImage[NW][2]=./images/br-derby-lightweight-dmbs-b.1.5
-EmptyImage[N][2]=./images/br-derby-lightweight-dmbs-b.1.6
-EmptyImage[NE][2]=./images/br-derby-lightweight-dmbs-b.1.7
+EmptyImage[E][2]=./images/br-derby-lightweight-dmbs-b.1.4
+EmptyImage[SE][2]=./images/br-derby-lightweight-dmbs-b.1.5
+EmptyImage[S][2]=./images/br-derby-lightweight-dmbs-b.1.6
+EmptyImage[SW][2]=./images/br-derby-lightweight-dmbs-b.1.7
+EmptyImage[W][2]=./images/br-derby-lightweight-dmbs-b.1.0
+EmptyImage[NW][2]=./images/br-derby-lightweight-dmbs-b.1.1
+EmptyImage[N][2]=./images/br-derby-lightweight-dmbs-b.1.2
+EmptyImage[NE][2]=./images/br-derby-lightweight-dmbs-b.1.3
 
-EmptyImage[E][3]=./images/br-derby-lightweight-dmbs-bg.1.0
-EmptyImage[SE][3]=./images/br-derby-lightweight-dmbs-bg.1.1
-EmptyImage[S][3]=./images/br-derby-lightweight-dmbs-bg.1.2
-EmptyImage[SW][3]=./images/br-derby-lightweight-dmbs-bg.1.3
-EmptyImage[W][3]=./images/br-derby-lightweight-dmbs-bg.1.4
-EmptyImage[NW][3]=./images/br-derby-lightweight-dmbs-bg.1.5
-EmptyImage[N][3]=./images/br-derby-lightweight-dmbs-bg.1.6
-EmptyImage[NE][3]=./images/br-derby-lightweight-dmbs-bg.1.7
+EmptyImage[E][3]=./images/br-derby-lightweight-dmbs-bg.1.4
+EmptyImage[SE][3]=./images/br-derby-lightweight-dmbs-bg.1.5
+EmptyImage[S][3]=./images/br-derby-lightweight-dmbs-bg.1.6
+EmptyImage[SW][3]=./images/br-derby-lightweight-dmbs-bg.1.7
+EmptyImage[W][3]=./images/br-derby-lightweight-dmbs-bg.1.0
+EmptyImage[NW][3]=./images/br-derby-lightweight-dmbs-bg.1.1
+EmptyImage[N][3]=./images/br-derby-lightweight-dmbs-bg.1.2
+EmptyImage[NE][3]=./images/br-derby-lightweight-dmbs-bg.1.3
 

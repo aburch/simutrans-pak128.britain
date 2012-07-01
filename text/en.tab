@@ -1685,6 +1685,8 @@ BR-442-Middle3(NSE)
 BR Class 442 "Wessex Electric" (trailer)
 BR-442-Rear(NSE)
 BR Class 442 "Wessex Electric" (driving trailer - rear)
+passenger-wagon
+Passenger wagon
 LMR-4Wheel-First
 LMR 4 wheel carriage (enclosed)
 LMR-4Wheel-First-Guard-Front
@@ -2944,17 +2946,17 @@ LNWR 8 wheel (radial) mail carriage
 LNWR-8wheel-radial-tpo
 LNWR 8 wheel (radial) TPO
 BR-Derby-Lightweight-DTCL
-BR Derby Lightweight DMU
-BR-Derby-Lightweight-DMBS
 BR Derby Lightweight DMU (rear)
+BR-Derby-Lightweight-DMBS
+BR Derby Lightweight DMU
 BR-117-DMS
-BR Class 117 DMU
+BR Class 117 DMU (rear)
 BR-117-TCL
 BR Class 117 DMU (centre trailer)
 BR-117-DMBS
-BR Class 117 DMU (rear)
+BR Class 117 DMU
 BR-123-DMBS
-BR Class 123 inter-city DMU
+BR Class 123 inter-city DMU (rear)
 BR-123-TCK
 BR Class 123 inter-city DMU (corridor trailer)
 BR-123-TS
@@ -2962,7 +2964,7 @@ BR Class 123 inter-city DMU (open trailer)
 BR-123-TBS
 BR Class 123 inter-city DMU (buffet)
 BR-123-DMS
-BR Class 123 inter-city DMU (rear)
+BR Class 123 inter-city DMU
 BR-128
 BR Class 128 DMU
 BR-Class485Front

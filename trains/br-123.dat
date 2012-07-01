@@ -30,31 +30,32 @@ min_loading_time=25
 max_loading_time=120
 comfort=97
 
-Constraint[Prev][0]=BR-123-DMS
-Constraint[Prev][1]=none
+Constraint[Prev][0]=BR-123-TS
+Constraint[Prev][1]=BR-123-TBS
 
-Constraint[Next][0]=BR-123-TCK
+Constraint[Next][0]=BR-123-DMS
+Constraint[Next][1]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-123-dmbs-g.1.0
-EmptyImage[SE][0]=./images/br-123-dmbs-g.1.1
-EmptyImage[S][0]=./images/br-123-dmbs-g.1.2
-EmptyImage[SW][0]=./images/br-123-dmbs-g.1.3
-EmptyImage[W][0]=./images/br-123-dmbs-g.1.4
-EmptyImage[NW][0]=./images/br-123-dmbs-g.1.5
-EmptyImage[N][0]=./images/br-123-dmbs-g.1.6
-EmptyImage[NE][0]=./images/br-123-dmbs-g.1.7
+EmptyImage[E][0]=./images/br-123-dmbs-g.1.4
+EmptyImage[SE][0]=./images/br-123-dmbs-g.1.5
+EmptyImage[S][0]=./images/br-123-dmbs-g.1.6
+EmptyImage[SW][0]=./images/br-123-dmbs-g.1.7
+EmptyImage[W][0]=./images/br-123-dmbs-g.1.0
+EmptyImage[NW][0]=./images/br-123-dmbs-g.1.1
+EmptyImage[N][0]=./images/br-123-dmbs-g.1.2
+EmptyImage[NE][0]=./images/br-123-dmbs-g.1.3
 
-EmptyImage[E][1]=./images/br-123-dmbs-bg.1.0
-EmptyImage[SE][1]=./images/br-123-dmbs-bg.1.1
-EmptyImage[S][1]=./images/br-123-dmbs-bg.1.2
-EmptyImage[SW][1]=./images/br-123-dmbs-bg.1.3
-EmptyImage[W][1]=./images/br-123-dmbs-bg.1.4
-EmptyImage[NW][1]=./images/br-123-dmbs-bg.1.5
-EmptyImage[N][1]=./images/br-123-dmbs-bg.1.6
-EmptyImage[NE][1]=./images/br-123-dmbs-bg.1.7
+EmptyImage[E][1]=./images/br-123-dmbs-bg.1.4
+EmptyImage[SE][1]=./images/br-123-dmbs-bg.1.5
+EmptyImage[S][1]=./images/br-123-dmbs-bg.1.6
+EmptyImage[SW][1]=./images/br-123-dmbs-bg.1.7
+EmptyImage[W][1]=./images/br-123-dmbs-bg.1.0
+EmptyImage[NW][1]=./images/br-123-dmbs-bg.1.1
+EmptyImage[N][1]=./images/br-123-dmbs-bg.1.2
+EmptyImage[NE][1]=./images/br-123-dmbs-bg.1.3
 
 ----
 
@@ -90,7 +91,7 @@ min_loading_time=25
 max_loading_time=120
 comfort=97
 
-Constraint[Prev][0]=BR-123-DMBS
+Constraint[Prev][0]=BR-123-DMS
 
 Constraint[Next][0]=BR-123-TS
 Constraint[Next][1]=BR-123-TBS
@@ -98,23 +99,23 @@ Constraint[Next][1]=BR-123-TBS
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-mk1-g.1.0
-EmptyImage[SE][0]=./images/br-mk1-g.1.1
-EmptyImage[S][0]=./images/br-mk1-g.1.2
-EmptyImage[SW][0]=./images/br-mk1-g.1.3
-EmptyImage[W][0]=./images/br-mk1-g.1.4
-EmptyImage[NW][0]=./images/br-mk1-g.1.5
-EmptyImage[N][0]=./images/br-mk1-g.1.6
-EmptyImage[NE][0]=./images/br-mk1-g.1.7
+EmptyImage[E][0]=./images/br-mk1-g.1.4
+EmptyImage[SE][0]=./images/br-mk1-g.1.5
+EmptyImage[S][0]=./images/br-mk1-g.1.6
+EmptyImage[SW][0]=./images/br-mk1-g.1.7
+EmptyImage[W][0]=./images/br-mk1-g.1.0
+EmptyImage[NW][0]=./images/br-mk1-g.1.1
+EmptyImage[N][0]=./images/br-mk1-g.1.2
+EmptyImage[NE][0]=./images/br-mk1-g.1.3
 
-EmptyImage[E][1]=./images/br-mk1-bg.0.0
-EmptyImage[SE][1]=./images/br-mk1-bg.0.1
-EmptyImage[S][1]=./images/br-mk1-bg.0.2
-EmptyImage[SW][1]=./images/br-mk1-bg.0.3
-EmptyImage[W][1]=./images/br-mk1-bg.0.4
-EmptyImage[NW][1]=./images/br-mk1-bg.0.5
-EmptyImage[N][1]=./images/br-mk1-bg.0.6
-EmptyImage[NE][1]=./images/br-mk1-bg.0.7
+EmptyImage[E][1]=./images/br-mk1-bg.0.4
+EmptyImage[SE][1]=./images/br-mk1-bg.0.5
+EmptyImage[S][1]=./images/br-mk1-bg.0.6
+EmptyImage[SW][1]=./images/br-mk1-bg.0.7
+EmptyImage[W][1]=./images/br-mk1-bg.0.0
+EmptyImage[NW][1]=./images/br-mk1-bg.0.1
+EmptyImage[N][1]=./images/br-mk1-bg.0.2
+EmptyImage[NE][1]=./images/br-mk1-bg.0.3
 
 ----
 
@@ -152,28 +153,28 @@ comfort=97
 
 Constraint[Prev][0]=BR-123-TCK
 
-Constraint[Next][0]=BR-123-DMS
+Constraint[Next][0]=BR-123-DMBS
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-mk1-g.1.0
-EmptyImage[SE][0]=./images/br-mk1-g.1.1
-EmptyImage[S][0]=./images/br-mk1-g.1.2
-EmptyImage[SW][0]=./images/br-mk1-g.1.3
-EmptyImage[W][0]=./images/br-mk1-g.1.4
-EmptyImage[NW][0]=./images/br-mk1-g.1.5
-EmptyImage[N][0]=./images/br-mk1-g.1.6
-EmptyImage[NE][0]=./images/br-mk1-g.1.7
+EmptyImage[E][0]=./images/br-mk1-g.1.4
+EmptyImage[SE][0]=./images/br-mk1-g.1.5
+EmptyImage[S][0]=./images/br-mk1-g.1.6
+EmptyImage[SW][0]=./images/br-mk1-g.1.7
+EmptyImage[W][0]=./images/br-mk1-g.1.0
+EmptyImage[NW][0]=./images/br-mk1-g.1.1
+EmptyImage[N][0]=./images/br-mk1-g.1.2
+EmptyImage[NE][0]=./images/br-mk1-g.1.3
 
-EmptyImage[E][1]=./images/br-mk1-bg.0.0
-EmptyImage[SE][1]=./images/br-mk1-bg.0.1
-EmptyImage[S][1]=./images/br-mk1-bg.0.2
-EmptyImage[SW][1]=./images/br-mk1-bg.0.3
-EmptyImage[W][1]=./images/br-mk1-bg.0.4
-EmptyImage[NW][1]=./images/br-mk1-bg.0.5
-EmptyImage[N][1]=./images/br-mk1-bg.0.6
-EmptyImage[NE][1]=./images/br-mk1-bg.0.7
+EmptyImage[E][1]=./images/br-mk1-bg.0.4
+EmptyImage[SE][1]=./images/br-mk1-bg.0.5
+EmptyImage[S][1]=./images/br-mk1-bg.0.6
+EmptyImage[SW][1]=./images/br-mk1-bg.0.7
+EmptyImage[W][1]=./images/br-mk1-bg.0.0
+EmptyImage[NW][1]=./images/br-mk1-bg.0.1
+EmptyImage[N][1]=./images/br-mk1-bg.0.2
+EmptyImage[NE][1]=./images/br-mk1-bg.0.3
 
 ----
 
@@ -212,28 +213,28 @@ catering_level=3
 
 Constraint[Prev][0]=BR-123-TCK
 
-Constraint[Next][0]=BR-123-DMS
+Constraint[Next][0]=BR-123-DMBS
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-mk1-rmb-g.1.0
-EmptyImage[SE][0]=./images/br-mk1-rmb-g.1.1
-EmptyImage[S][0]=./images/br-mk1-rmb-g.1.2
-EmptyImage[SW][0]=./images/br-mk1-rmb-g.1.3
-EmptyImage[W][0]=./images/br-mk1-rmb-g.1.4
-EmptyImage[NW][0]=./images/br-mk1-rmb-g.1.5
-EmptyImage[N][0]=./images/br-mk1-rmb-g.1.6
-EmptyImage[NE][0]=./images/br-mk1-rmb-g.1.7
+EmptyImage[E][0]=./images/br-mk1-rmb-g.1.4
+EmptyImage[SE][0]=./images/br-mk1-rmb-g.1.5
+EmptyImage[S][0]=./images/br-mk1-rmb-g.1.6
+EmptyImage[SW][0]=./images/br-mk1-rmb-g.1.7
+EmptyImage[W][0]=./images/br-mk1-rmb-g.1.0
+EmptyImage[NW][0]=./images/br-mk1-rmb-g.1.1
+EmptyImage[N][0]=./images/br-mk1-rmb-g.1.2
+EmptyImage[NE][0]=./images/br-mk1-rmb-g.1.3
 
-EmptyImage[E][1]=./images/br-mk1-rmb-bg.0
-EmptyImage[SE][1]=./images/br-mk1-rmb-bg.1
-EmptyImage[S][1]=./images/br-mk1-rmb-bg.2
-EmptyImage[SW][1]=./images/br-mk1-rmb-bg.3
-EmptyImage[W][1]=./images/br-mk1-rmb-bg.4
-EmptyImage[NW][1]=./images/br-mk1-rmb-bg.5
-EmptyImage[N][1]=./images/br-mk1-rmb-bg.6
-EmptyImage[NE][1]=./images/br-mk1-rmb-bg.7
+EmptyImage[E][1]=./images/br-mk1-rmb-bg.4
+EmptyImage[SE][1]=./images/br-mk1-rmb-bg.5
+EmptyImage[S][1]=./images/br-mk1-rmb-bg.6
+EmptyImage[SW][1]=./images/br-mk1-rmb-bg.7
+EmptyImage[W][1]=./images/br-mk1-rmb-bg.0
+EmptyImage[NW][1]=./images/br-mk1-rmb-bg.1
+EmptyImage[N][1]=./images/br-mk1-rmb-bg.2
+EmptyImage[NE][1]=./images/br-mk1-rmb-bg.3
 
 ----
 
@@ -269,29 +270,28 @@ min_loading_time=25
 max_loading_time=120
 comfort=97
 
-Constraint[Prev][0]=BR-123-TS
-Constraint[Prev][1]=BR-123-TBS
+Constraint[Prev][0]=BR-123-DMBS
+Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-123-DMBS
-Constraint[Next][1]=none
+Constraint[Next][0]=BR-123-TCK
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
-EmptyImage[E][0]=./images/br-123-dms-g.1.0
-EmptyImage[SE][0]=./images/br-123-dms-g.1.1
-EmptyImage[S][0]=./images/br-123-dms-g.1.2
-EmptyImage[SW][0]=./images/br-123-dms-g.1.3
-EmptyImage[W][0]=./images/br-123-dms-g.1.4
-EmptyImage[NW][0]=./images/br-123-dms-g.1.5
-EmptyImage[N][0]=./images/br-123-dms-g.1.6
-EmptyImage[NE][0]=./images/br-123-dms-g.1.7
+EmptyImage[E][0]=./images/br-123-dms-g.1.4
+EmptyImage[SE][0]=./images/br-123-dms-g.1.5
+EmptyImage[S][0]=./images/br-123-dms-g.1.6
+EmptyImage[SW][0]=./images/br-123-dms-g.1.7
+EmptyImage[W][0]=./images/br-123-dms-g.1.0
+EmptyImage[NW][0]=./images/br-123-dms-g.1.1
+EmptyImage[N][0]=./images/br-123-dms-g.1.2
+EmptyImage[NE][0]=./images/br-123-dms-g.1.3
 
-EmptyImage[E][1]=./images/br-123-dms-bg.1.0
-EmptyImage[SE][1]=./images/br-123-dms-bg.1.1
-EmptyImage[S][1]=./images/br-123-dms-bg.1.2
-EmptyImage[SW][1]=./images/br-123-dms-bg.1.3
-EmptyImage[W][1]=./images/br-123-dms-bg.1.4
-EmptyImage[NW][1]=./images/br-123-dms-bg.1.5
-EmptyImage[N][1]=./images/br-123-dms-bg.1.6
-EmptyImage[NE][1]=./images/br-123-dms-bg.1.7
+EmptyImage[E][1]=./images/br-123-dms-bg.1.4
+EmptyImage[SE][1]=./images/br-123-dms-bg.1.5
+EmptyImage[S][1]=./images/br-123-dms-bg.1.6
+EmptyImage[SW][1]=./images/br-123-dms-bg.1.7
+EmptyImage[W][1]=./images/br-123-dms-bg.1.0
+EmptyImage[NW][1]=./images/br-123-dms-bg.1.1
+EmptyImage[N][1]=./images/br-123-dms-bg.1.2
+EmptyImage[NE][1]=./images/br-123-dms-bg.1.3
