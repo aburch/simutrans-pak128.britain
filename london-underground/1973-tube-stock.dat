@@ -15,6 +15,7 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=154
+rolling_resistance=49
 
 weight=27
 cost=1650000
@@ -74,6 +75,7 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=176
+rolling_resistance=49
 
 weight=26
 cost=1250000
@@ -135,6 +137,7 @@ weight=18
 cost=800000
 runningcost=40
 sound=-1
+rolling_resistance=49
 
 can_lead_from_rear=0
 bidirectional=1
@@ -188,6 +191,7 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=176
+rolling_resistance=49
 
 weight=18
 cost=800000
@@ -247,6 +251,7 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=176
+rolling_resistance=49
 
 weight=26
 cost=1250000
@@ -307,6 +312,7 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=154
+rolling_resistance=49
 
 weight=27
 cost=1650000

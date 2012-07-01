@@ -14,6 +14,7 @@ length=10
 engine_type=electric
 power=0
 brake_force=23
+rolling_resistance=49
 
 weight=30
 cost=1860000
@@ -62,6 +63,7 @@ engine_type=electric
 power=746
 tractive_effort=137
 brake_force=38
+rolling_resistance=49
 
 weight=50
 cost=1860000
@@ -108,6 +110,7 @@ length=10
 engine_type=electric
 power=0
 brake_force=18
+rolling_resistance=49
 
 weight=25
 cost=1860000
@@ -153,6 +156,7 @@ length=10
 engine_type=electric
 power=0
 brake_force=23
+rolling_resistance=49
 
 weight=30
 cost=1860000

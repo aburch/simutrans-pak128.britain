@@ -18,6 +18,7 @@ freight=None
 payload=0
 length=5
 brake_force=0
+rolling_resistance=58
 
 # Weight taken from Ahrons, p. 50
 weight=16

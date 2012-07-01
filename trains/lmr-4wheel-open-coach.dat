@@ -11,6 +11,7 @@ freight=Passagiere
 payload=30
 length=3
 brake_force=0
+rolling_resistance=58
 
 weight=1
 cost=67000
@@ -65,6 +66,7 @@ freight=Passagiere
 payload=28
 length=3
 brake_force=1
+rolling_resistance=58
 
 weight=1
 cost=69000

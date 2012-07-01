@@ -1688,37 +1688,65 @@ BR Class 442 "Wessex Electric" (driving trailer - rear)
 passenger-wagon
 Passenger wagon
 LMR-4Wheel-First
-LMR 4 wheel carriage (enclosed)
+LMR four wheel carriage (enclosed)
 LMR-4Wheel-First-Guard-Front
-LMR 4 wheel brake carriage (enclosed)
+LMR four wheel brake carriage (enclosed)
 LMR-4Wheel-First-Guard-Rear
-LMR 4 wheel brake carriage (enclosed)
+LMR four wheel brake carriage (enclosed)
 LMR-4Wheel-TPO
-LMR 4 wheel TPO
+LMR four wheel TPO
 LMR-4Wheel-Mail
-LMR 4 wheel mail
+LMR four wheel mail
 LMR-4Wheel-Mail-Guard-Front
-LMR 4 wheel mail (brake)
+LMR four wheel mail (brake)
 LMR-4Wheel-Mail-Guard-Rear
-LMR 4 wheel mail (brake)
+LMR four wheel mail (brake)
 LNWR-1847-First
-4 wheel compartment carriage
+Four wheel three compartment carriage
 LNWR-1847-Brake
-4 wheel brake cariage
+Four wheel brake cariage
 4-wheel-1860s
-4 wheel compartment carriage
+Four wheel four compartment carriage
 4-wheel-1860s-brake-front
-4 wheel Brake cariage
+Four wheel brake cariage
 4-wheel-1860s-brake-rear
-4 wheel Brake cariage
+Four wheel two compartment brake cariage
 4-wheel-1860s-mail
-4 wheel mail cariage
+Four wheel mail cariage
 4-wheel-1860s-tpo
-4 wheel travelling post office
+Four wheel travelling post office
+4-wheel-1870s-unfitted
+Four wheel four compartment carriage
+4-wheel-1870s-brake-unfitted
+Four wheel two compartment brake cariage
+4-wheel-1870s-mail-unfitted
+Four wheel mail cariage
+4-wheel-1870s-tpo-unfitted
+Four wheel TPO
+4-wheel-1870s-fitted
+Four wheel four compartment carriage (continuously braked)
+4-wheel-1870s-brake-fitted
+Four wheel two compartment brake cariage (continuously braked)
+4-wheel-1870s-mail-fitted
+Four wheel mail cariage (continuously braked)
+4-wheel-1870s-tpo-fitted
+Four wheel TPO (continuously braked)
+4-wheel-sub-1870s-unfitted
+Four wheel five compartment carriage
+4-wheel-sub-1870s-brake-front-unfitted
+Four wheel three compartment brake carriage
+4-wheel-sub-1870s-brake-rear-unfitted
+Four wheel three compartment brake carriage
+4-wheel-sub-1870s-fitted
+Four wheel five compartment carriage (continuously braked)
+4-wheel-sub-1870s-brake-front-fitted
+Four wheel three compartment brake carriage (continuously braked)
+4-wheel-sub-1870s-brake-rear-fitted
+Four wheel three compartment brake carriage (continuously braked)
 LBSCR-4Wheel-First
-LBSCR 4 Wheel Compartment Carriage
+LBSCR four wheel compartment carriage
 LBSCR-4Wheel-Brake
-LBSCR 4 Wheel Brake Carriage
+LBSCR four wheel compartment brake carriage
 BR-370Restaurant(IC)
 BR Class 370 APT (restaurant)
 BR-220Rear(Virgin)
@@ -1728,35 +1756,23 @@ BR Class 221 "Super Voyager" (rear)
 BR-370Buffet(IC)
 BR Class 370 APT (buffet)
 LMR-4Wheel-Open-Coach
-LMR 4 wheel carriage (open)
+LMR four wheel carriage (open)
 LMR-4Wheel-Open-Brake
-LMR 4 wheel brake carriage (open)
+LMR four wheel brake carriage (open)
 GNR-6Wheel-First
-GNR 6 Wheel Carriage
+GNR six wheel carriage
 GNR-6Wheel-Guard
-GNR 6 Wheel Carriage (brake)
+GNR six wheel carriage (brake)
 LNWR-6Wheel-First
-LNWR 6 Wheel Carriage
+LNWR six wheel carriage
 LNWR-6Wheel-Guard
-LNWR 6 Wheel Carriage (brake)
+LNWR six wheel carriage (brake)
 MR-6Wheel-First
-Midland 6 Wheel Carriage
+Midland six wheel carriage
 MR-6Wheel-Guard
-Midland 6 Wheel Carriage (brake)
+Midland six wheel Carriage (brake)
 LNER-Gresley-Express-Brake
 LNER Teak Express Carriage (brake)
-MSLR-4Wheel-Composite
-MSLR 4 Wheel Carriage
-MSLR-4Wheel-Brake
-MSLR 4 Wheel Carriage (brake)
-MR-4Wheel-Composite
-Midland 4 Wheel Carriage
-MR-4Wheel-Brake
-Midland 4 Wheel Carriage (brake)
-GNR-4Wheel-Composite
-GNR 4 Wheel Carriage
-GNR-4Wheel-Brake
-GNR 4 Wheel Carriage (brake)
 BR-251SecondParlourFront
 BR Class 251 "Blue Pullman" (2nd class front parlour)
 BR-251SecondParlourRear
@@ -2662,9 +2678,9 @@ LSWR Bogie Compartment Brake
 LSWR-Third-Carriage
 LSWR Bogie Compartment Carriage
 LNWR-1847-Mail
-4 wheel mail carriage
+Four wheel mail carriage
 LNWR-1847-TPO
-4 wheel TPO
+Four wheel TPO
 CC-Clerestory-Parcel-Brake
 GWR clerestory parcel brake coach
 CC-Clerestory-TPO
@@ -2679,18 +2695,12 @@ MR-Clerestory-TPO
 Midland clerestory travelling post office
 MR-Clerestory-Dining
 Midland clerestory dining car
-MSLR-4Wheel-Mail
-MSLR 4-wheel mail coach
-MR-4Wheel-Mail
-Midland 4-wheel mail coach
-GNR-4Wheel-Mail
-GNR 4-wheel mail coach
 LNWR-6Wheel-Mail
-LNWR 6-wheel mail coach
+LNWR six wheel mail carriage
 GNR-6Wheel-Mail
-GNR 6-wheel mail coach
+GNR six wheel mail carriage
 MR-6Wheel-Mail
-Midland 6-wheel mail coach
+Midland siz wheel mail carriage
 GWR-Express-Parcel-Brake
 GWR Express parcel brake coach
 GWR-Express-TPO
@@ -2940,21 +2950,21 @@ LSWR N15 Tender
 LBSCR-0-4-2T
 LBSCR Craven 0-4-2T
 LBSCR-20ft-third
-LBSCR 4 wheel compartment carriage
+LBSCR four wheel compartment carriage
 LBSCR-20ft-brake-front
-LBSCR 4 wheel compartment carriage (brake)
+LBSCR four wheel compartment brake carriage
 LBSCR-20ft-brake-rear
-LBSCR 4 wheel compartment brake
+LBSCR four wheel compartment brake
 LNWR-8wheel-radial-brake-front
-LNWR 8 wheel (radial) compartment carriage (brake)
+LNWR eight wheel (radial) compartment carriage (brake)
 LNWR-8wheel-radial-lav
-LNWR 8 wheel (radial) compartment carriage (lavatory)
+LNWR eight wheel (radial) compartment carriage (lavatory)
 LNWR-8wheel-radial-brake-rear
-LNWR 8 wheel (radial) compartment carriage (brake)
+LNWR eight wheel (radial) compartment carriage (brake)
 LNWR-8wheel-radial-mail
-LNWR 8 wheel (radial) mail carriage
+LNWR eight wheel (radial) mail carriage
 LNWR-8wheel-radial-tpo
-LNWR 8 wheel (radial) TPO
+LNWR eight wheel (radial) TPO
 BR-Derby-Lightweight-DTCL
 BR Derby Lightweight DMU (rear)
 BR-Derby-Lightweight-DMBS

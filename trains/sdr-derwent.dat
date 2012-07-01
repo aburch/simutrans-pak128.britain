@@ -18,6 +18,7 @@ freight=None
 payload=0
 length=4
 brake_force=0
+rolling_resistance=58
 
 # Confirmed by Ahrons, p. 48
 weight=22

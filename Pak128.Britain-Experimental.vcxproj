@@ -248,6 +248,7 @@
     <None Include="text\tr.tab" />
     <None Include="text\zh.tab" />
     <None Include="trains\4-wheel-1860s.dat" />
+    <None Include="trains\4-wheel-1870s-sub.dat" />
     <None Include="trains\4-wheel-1870s.dat" />
     <None Include="trains\br-117.dat" />
     <None Include="trains\br-123.dat" />
@@ -672,9 +673,6 @@
     <None Include="attractions\georgian-mansion.dat" />
     <None Include="trains\ger-claud-tender.dat" />
     <None Include="trains\ger-claud.dat" />
-    <None Include="trains\gnr-4wheel-brake.dat" />
-    <None Include="trains\gnr-4wheel-composite.dat" />
-    <None Include="trains\gnr-4wheel-mail.dat" />
     <None Include="trains\gnr-6wheel-first.dat" />
     <None Include="trains\gnr-6wheel-guard.dat" />
     <None Include="trains\gnr-6wheel-mail.dat" />
@@ -902,9 +900,6 @@
     <None Include="..\..\simutrans-experimental-binaries\text\en\mouse.txt" />
     <None Include="trains\mr-1000-tender.dat" />
     <None Include="trains\mr-1000.dat" />
-    <None Include="trains\mr-4wheel-brake.dat" />
-    <None Include="trains\mr-4wheel-composite.dat" />
-    <None Include="trains\mr-4wheel-mail.dat" />
     <None Include="trains\mr-6wheel-first.dat" />
     <None Include="trains\mr-6wheel-guard.dat" />
     <None Include="trains\mr-6wheel-mail.dat" />
@@ -919,9 +914,6 @@
     <None Include="trains\mr-spinner-tender.dat" />
     <None Include="trains\mr-spinner.dat" />
     <None Include="trains\msja-emu.dat" />
-    <None Include="trains\mslr-4wheel-brake.dat" />
-    <None Include="trains\mslr-4wheel-composite.dat" />
-    <None Include="trains\mslr-4wheel-mail.dat" />
     <None Include="attractions\nelson-column.dat" />
     <None Include="trains\ner-ee1.dat" />
     <None Include="trains\ner-ef1.dat" />

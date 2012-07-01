@@ -12,6 +12,7 @@ freight=None
 payload=0
 length=3
 brake_force=5
+rolling_resistance=58
 
 # Weight taken from "The Locomotive", 14th of January 1928, p. 14
 weight=16

@@ -12,6 +12,7 @@ freight=None
 payload=0
 length=3
 brake_force=1
+rolling_resistance=58
 
 # Weight not available: guessed from contemporaneous locomotives
 weight=4

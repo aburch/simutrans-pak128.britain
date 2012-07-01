@@ -12,6 +12,7 @@ payload=18
 overcrowded_capacity=9
 length=3
 brake_force=0
+rolling_resistance=58
 
 weight=2
 cost=144000
@@ -75,6 +76,7 @@ payload=18
 overcrowded_capacity=9
 length=3
 brake_force=1
+rolling_resistance=58
 
 weight=2
 cost=150000
@@ -130,6 +132,7 @@ payload=18
 overcrowded_capacity=9
 length=3
 brake_force=1
+rolling_resistance=58
 
 weight=2
 cost=150000
