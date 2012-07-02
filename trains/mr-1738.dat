@@ -2,12 +2,12 @@ obj=vehicle
 name=MR-1738
 engine_type=steam
 smoke=Steam
-speed=115
+speed=122
 # Calculated from data from Ahrons, p. 214
 # Loss factor set at 0.75
 # Half boiler pressure used to calculate power.
 power=750
-tractive_effort=48
+tractive_effort=41
 copyright=Kieron&jamespetts
 intro_year=1877
 intro_month=9
@@ -16,23 +16,23 @@ retire_month=12
 waytype=track
 freight=None
 payload=0
-length=7
+length=6
 
 # Weight confirmed from Ahrons, p. 214
 weight=42
-cost=7012000
-runningcost=1325
+cost=7035000
+runningcost=1335
 sound=-1
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
 
 Constraint[Next][0]=MR-Kirtley156Tender(Maroon)
 
-EmptyImage[E]=./images/mr-1738-class_E.0
-EmptyImage[SE]=./images/mr-1738-class_SE.0
-EmptyImage[S]=./images/mr-1738-class_S.0
-EmptyImage[SW]=./images/mr-1738-class_SW.0
-EmptyImage[W]=./images/mr-1738-class_W.0
-EmptyImage[NW]=./images/mr-1738-class_NW.0
-EmptyImage[N]=./images/mr-1738-class_N.0
-EmptyImage[NE]=./images/mr-1738-class_NE.0
+EmptyImage[E]=./images/mr-1738-class.1.4
+EmptyImage[SE]=./images/mr-1738-class.1.5
+EmptyImage[S]=./images/mr-1738-class.1.6
+EmptyImage[SW]=./images/mr-1738-class.1.7
+EmptyImage[W]=./images/mr-1738-class.1.0
+EmptyImage[NW]=./images/mr-1738-class.1.1
+EmptyImage[N]=./images/mr-1738-class.1.2
+EmptyImage[NE]=./images/mr-1738-class.1.3

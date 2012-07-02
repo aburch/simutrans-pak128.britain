@@ -1,0 +1,39 @@
+obj=vehicle
+name=MR-800
+engine_type=steam
+smoke=Steam
+speed=120
+# Calculated from data from Ahrons, p. 189
+# Loss factor set at 0.76 
+# Half boiler pressure used to calculate power.
+tractive_effort=53
+power=685
+copyright=Kieron&jamespetts
+intro_year=1870
+intro_month=2
+retire_year=1877
+retire_month=12
+waytype=track
+freight=None
+payload=0
+length=6
+brake_force=0
+
+# Weight given by Ahrons, p. 189
+weight=36
+cost=7000000
+runningcost=1325
+sound=-1
+increase_maintenance_after_years=40
+years_before_maintenance_max_reached=40
+
+Constraint[Next][0]=MR-Kirtley156Tender(Maroon)
+
+EmptyImage[E]=./images/mr-800-class.1.4
+EmptyImage[SE]=./images/mr-800-class.1.5
+EmptyImage[S]=./images/mr-800-class.1.6
+EmptyImage[SW]=./images/mr-800-class.1.7
+EmptyImage[W]=./images/mr-800-class.1.0
+EmptyImage[NW]=./images/mr-800-class.1.1
+EmptyImage[N]=./images/mr-800-class.1.2
+EmptyImage[NE]=./images/mr-800-class.1.3
