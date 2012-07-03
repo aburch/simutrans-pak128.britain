@@ -1,8 +1,5 @@
-# The filename is a legacy from Standard. The vehicle modelled is a third.
-# Clayton design.
-
 obj=vehicle
-name=MR-6Wheel-non-lav
+name=MR-6Wheel-brake-front
 speed=135
 copyright=Kieron/James/jamespetts
 # See Hamilton Ellis p. 115 for introduction date for 6-wheelers
@@ -12,9 +9,8 @@ retire_year=1887
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=50
-overcrowded_capacity=25
-# 34ft: http://www.vintagecarriagestrust.org/Midland.htm
+payload=30
+overcrowded_capacity=15
 length=6
 
 # Correct weight is 15t: http://www.vintagecarriagestrust.org/Midland.htm
@@ -22,7 +18,6 @@ weight=15
 cost=332000
 runningcost=25
 sound=-1
-upgrade[0]=MR-6Wheel-lav
 
 can_lead_from_rear=0
 bidirectional=1
@@ -42,60 +37,45 @@ Constraint[Next][8]=MR-6Wheel-tpo
 Constraint[Next][9]=MR-6Wheel-non-lav
 Constraint[Next][10]=MR-6Wheel-lav
 Constraint[Next][11]=MR-6Wheel-brake-rear
+Constraint[Next][12]=none
 
-Constraint[Prev][0]=4-wheel-1870s-fitted
-Constraint[Prev][1]=4-wheel-1870s-brake-fitted
-Constraint[Prev][2]=4-wheel-1870s-mail-fitted
-Constraint[Prev][3]=4-wheel-1870s-tpo-fitted
-Constraint[Prev][4]=4-wheel-sub-1870s-fitted
-Constraint[Prev][5]=4-wheel-sub-1870s-brake-front-fitted
-Constraint[Prev][6]=MR-6Wheel-Mail
-Constraint[Prev][7]=MR-6Wheel-Guard
-Constraint[Prev][8]=MR-6Wheel-tpo
-Constraint[Prev][9]=MR-6Wheel-non-lav
-Constraint[Prev][10]=MR-6Wheel-lav
-Constraint[Prev][11]=MR-6Wheel-brake-front
-
-EmptyImage[E]=./images/mr-6wheel-non-lav.1.4
-EmptyImage[SE]=./images/mr-6wheel-non-lav.1.5
-EmptyImage[S]=./images/mr-6wheel-non-lav.1.6
-EmptyImage[SW]=./images/mr-6wheel-non-lav.1.7
-EmptyImage[W]=./images/mr-6wheel-non-lav.1.0
-EmptyImage[NW]=./images/mr-6wheel-non-lav.1.1
-EmptyImage[N]=./images/mr-6wheel-non-lav.1.2
-EmptyImage[NE]=./images/mr-6wheel-non-lav.1.3
+EmptyImage[E]=./images/mr-6wheel-brake-third-front.1.4
+EmptyImage[SE]=./images/mr-6wheel-brake-third-front.1.5
+EmptyImage[S]=./images/mr-6wheel-brake-third-front.1.6
+EmptyImage[SW]=./images/mr-6wheel-brake-third-front.1.7
+EmptyImage[W]=./images/mr-6wheel-brake-third-front.1.0
+EmptyImage[NW]=./images/mr-6wheel-brake-third-front.1.1
+EmptyImage[N]=./images/mr-6wheel-brake-third-front.1.2
+EmptyImage[NE]=./images/mr-6wheel-brake-third-front.1.3
 
 ----
 
 obj=vehicle
-name=MR-6Wheel-lav
+name=MR-6Wheel-brake-rear
 speed=135
-copyright=Kieron/James
+copyright=Kieron/James/jamespetts
 # See Hamilton Ellis p. 115 for introduction date for 6-wheelers
-intro_year=1887
-intro_month=8
-# Intended to coincide with the introduction of the gangwayed corridor carriages
-retire_year=1898
-retire_month=11
+intro_year=1875
+intro_month=3
+retire_year=1887
+retire_month=8
 waytype=track
 freight=Passagiere
-payload=38
-overcrowded_capacity=20
-# 34ft: http://www.vintagecarriagestrust.org/Midland.htm
+payload=30
+overcrowded_capacity=15
 length=6
 
 # Correct weight is 15t: http://www.vintagecarriagestrust.org/Midland.htm
 weight=15
-cost=345000
-upgrade_price=49285
-runningcost=27
+cost=332000
+runningcost=25
 sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=79
+comfort=73
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -108,7 +88,7 @@ Constraint[Next][7]=MR-6Wheel-Guard
 Constraint[Next][8]=MR-6Wheel-tpo
 Constraint[Next][9]=MR-6Wheel-non-lav
 Constraint[Next][10]=MR-6Wheel-lav
-Constraint[Next][11]=MR-6Wheel-brake-rear
+Constraint[Next][11]=none
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -123,11 +103,11 @@ Constraint[Prev][9]=MR-6Wheel-non-lav
 Constraint[Prev][10]=MR-6Wheel-lav
 Constraint[Prev][11]=MR-6Wheel-brake-front
 
-EmptyImage[E]=./images/mr-6wheel-lav.1.4
-EmptyImage[SE]=./images/mr-6wheel-lav.1.5
-EmptyImage[S]=./images/mr-6wheel-lav.1.6
-EmptyImage[SW]=./images/mr-6wheel-lav.1.7
-EmptyImage[W]=./images/mr-6wheel-lav.1.0
-EmptyImage[NW]=./images/mr-6wheel-lav.1.1
-EmptyImage[N]=./images/mr-6wheel-lav.1.2
-EmptyImage[NE]=./images/mr-6wheel-lav.1.3
+EmptyImage[E]=./images/mr-6wheel-brake-third-rear.1.4
+EmptyImage[SE]=./images/mr-6wheel-brake-third-rear.1.5
+EmptyImage[S]=./images/mr-6wheel-brake-third-rear.1.6
+EmptyImage[SW]=./images/mr-6wheel-brake-third-rear.1.7
+EmptyImage[W]=./images/mr-6wheel-brake-third-rear.1.0
+EmptyImage[NW]=./images/mr-6wheel-brake-third-rear.1.1
+EmptyImage[N]=./images/mr-6wheel-brake-third-rear.1.2
+EmptyImage[NE]=./images/mr-6wheel-brake-third-rear.1.3

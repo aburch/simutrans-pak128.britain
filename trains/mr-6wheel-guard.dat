@@ -32,7 +32,8 @@ Constraint[Next][7]=MR-6Wheel-Guard
 Constraint[Next][8]=MR-6Wheel-tpo
 Constraint[Next][9]=MR-6Wheel-non-lav
 Constraint[Next][10]=MR-6Wheel-lav
-Constraint[Next][11]=none
+Constraint[Next][11]=MR-6Wheel-brake-rear
+Constraint[Next][12]=none
 
 EmptyImage[E]=./images/mr-6wheel-brake.1.4
 EmptyImage[SE]=./images/mr-6wheel-brake.1.5

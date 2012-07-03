@@ -32,6 +32,7 @@ Constraint[Next][7]=MR-6Wheel-Guard
 Constraint[Next][8]=MR-6Wheel-tpo
 Constraint[Next][9]=MR-6Wheel-non-lav
 Constraint[Next][10]=MR-6Wheel-lav
+Constraint[Next][11]=MR-6Wheel-brake-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -44,6 +45,7 @@ Constraint[Prev][7]=MR-6Wheel-Guard
 Constraint[Prev][8]=MR-6Wheel-tpo
 Constraint[Prev][9]=MR-6Wheel-non-lav
 Constraint[Prev][10]=MR-6Wheel-lav
+Constraint[Prev][11]=MR-6Wheel-brake-front
 
 EmptyImage[E]=./images/mr-6wheel-mail.1.4
 EmptyImage[SE]=./images/mr-6wheel-mail.1.5
@@ -91,6 +93,7 @@ Constraint[Next][7]=MR-6Wheel-Guard
 Constraint[Next][8]=MR-6Wheel-tpo
 Constraint[Next][9]=MR-6Wheel-non-lav
 Constraint[Next][10]=MR-6Wheel-lav
+Constraint[Next][11]=MR-6Wheel-brake-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -103,6 +106,7 @@ Constraint[Prev][7]=MR-6Wheel-Guard
 Constraint[Prev][8]=MR-6Wheel-tpo
 Constraint[Prev][9]=MR-6Wheel-non-lav
 Constraint[Prev][10]=MR-6Wheel-lav
+Constraint[Prev][11]=MR-6Wheel-brake-front
 
 EmptyImage[E]=./images/mr-6wheel-mail.1.4
 EmptyImage[SE]=./images/mr-6wheel-mail.1.5
