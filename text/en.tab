@@ -1760,17 +1760,25 @@ LMR four wheel carriage (open)
 LMR-4Wheel-Open-Brake
 LMR four wheel brake carriage (open)
 GNR-6Wheel-First
-GNR six wheel carriage
+GNR six wheel five compartment carriage
+GNR-6Wheel-cor-lav
+GNR six wheel five compartment lavatory corridor (non-gangwayed)
 GNR-6Wheel-Guard
-GNR six wheel carriage (brake)
+GNR six wheel brake/mail carriage
+GNR-6Wheel-brake-third-front
+GNR six wheel four compartment brake carriage
+GNR-6Wheel-brake-third-rear
+GNR six wheel four compartment brake carriage
 LNWR-6Wheel-First
-LNWR six wheel carriage
+LNWR six wheel five compartment carriage
 LNWR-6Wheel-Guard
-LNWR six wheel carriage (brake)
-MR-6Wheel-First
-Midland six wheel carriage
+LNWR six wheel brake/mail carriage
+MR-6Wheel-non-lav
+Midland six wheel five compartment carriage
+MR-6Wheel-lav
+Midland six wheel four compartment lavatory carriage
 MR-6Wheel-Guard
-Midland six wheel Carriage (brake)
+Midland six wheel mail/brake carriage
 LNER-Gresley-Express-Brake
 LNER Teak Express Carriage (brake)
 BR-251SecondParlourFront
@@ -2701,6 +2709,12 @@ GNR-6Wheel-Mail
 GNR six wheel mail carriage
 MR-6Wheel-Mail
 Midland six wheel mail carriage
+LNWR-6Wheel-tpo
+LNWR six wheel TPO
+GNR-6Wheel-tpo
+GNR six wheel TPO
+MR-6Wheel-tpo
+Midland six wheel TPO
 GWR-Express-Parcel-Brake
 GWR Express parcel brake coach
 GWR-Express-TPO
@@ -2927,6 +2941,8 @@ LNWR-Precendent
 LNWR "Precedent" Class 2-4-0
 LNWR-Newton
 LNWR "Newton" Class 2-4-0
+LNWR-Newton-Tender
+LNWR express tender
 MR-1738
 Midland 1738 Class 4-4-0
 LNWR-Precursor-tank
@@ -2944,7 +2960,7 @@ LMS 4P Tender
 LMS-2P-Tender
 LMS 2P Tender
 LNWR-Precedent-Tender
-LNWR "Precedent" Class Tender
+LNWR express Tender
 LNWR-Claughton
 LNWR Claughton Class 4-6-0
 LNWR-Claughton-tender

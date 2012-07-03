@@ -27,7 +27,7 @@ runningcost=1650
 sound=-1
 upgrade[0]=LNWR-Jumbo(Black)
 
-Constraint[Next][0]=LNWR-Precedent-Tender
+Constraint[Next][0]=LNWR-Newton-Tender
 
 EmptyImage[E]=./images/lnwr-newton.1.4
 EmptyImage[SE]=./images/lnwr-newton.1.5
