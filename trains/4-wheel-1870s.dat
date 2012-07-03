@@ -14,7 +14,7 @@
 
 obj=vehicle
 name=4-wheel-1870s-unfitted
-speed=125
+speed=135
 copyright=Kieron/James
 intro_year=1869
 intro_month=1
@@ -27,7 +27,7 @@ overcrowded_capacity=20
 length=6
 brake_force=0
 
-weight=11
+weight=9
 cost=300000
 runningcost=17
 sound=-1
@@ -106,7 +106,7 @@ EmptyImage[NE][2]=./images/gnr-4wheel-composite.0.7
 
 obj=vehicle
 name=4-wheel-1870s-brake-unfitted
-speed=125
+speed=135
 copyright=Kieron/James
 intro_year=1869
 intro_month=1
@@ -118,7 +118,7 @@ payload=12
 length=6
 brake_force=4
 
-weight=11
+weight=9
 cost=300000
 runningcost=17
 sound=-1
@@ -182,7 +182,7 @@ EmptyImage[NE][2]=./images/gnr-4wheel-brake.0.7
 
 obj=vehicle
 name=4-wheel-1870s-mail-unfitted
-speed=125
+speed=135
 copyright=Kieron/James
 intro_year=1869
 intro_month=1
@@ -194,7 +194,7 @@ payload=34
 length=6
 brake_force=0
 
-weight=11
+weight=9
 cost=300000
 runningcost=17
 sound=-1
@@ -269,7 +269,7 @@ EmptyImage[NE][2]=./images/gnr-4wheel-mail.0.7
 
 obj=vehicle
 name=4-wheel-1870s-tpo-unfitted
-speed=125
+speed=135
 copyright=Kieron/James
 intro_year=1869
 intro_month=1
@@ -281,7 +281,7 @@ payload=17
 length=6
 brake_force=0
 
-weight=11
+weight=9
 cost=300000
 runningcost=17
 sound=-1
@@ -359,7 +359,7 @@ EmptyImage[NE][2]=./images/gnr-4wheel-mail.0.7
 
 obj=vehicle
 name=4-wheel-1870s-fitted
-speed=125
+speed=135
 copyright=Kieron/James
 intro_year=1876
 intro_month=3
@@ -372,7 +372,7 @@ overcrowded_capacity=20
 length=6
 brake_force=4
 
-weight=12
+weight=10
 cost=355000
 upgrade_price=65000
 runningcost=22
@@ -467,7 +467,7 @@ EmptyImage[NE][2]=./images/gnr-4wheel-composite.0.7
 
 obj=vehicle
 name=4-wheel-1870s-brake-fitted
-speed=125
+speed=135
 copyright=Kieron/James
 intro_year=1876
 intro_month=3
@@ -479,7 +479,7 @@ payload=12
 length=6
 brake_force=4
 
-weight=12
+weight=10
 cost=355000
 upgrade_price=65000
 runningcost=22
@@ -551,7 +551,7 @@ EmptyImage[NE][2]=./images/gnr-4wheel-brake.0.7
 
 obj=vehicle
 name=4-wheel-1870s-mail-fitted
-speed=125
+speed=135
 copyright=Kieron/James
 intro_year=1876
 intro_month=3
@@ -563,7 +563,7 @@ payload=34
 length=6
 brake_force=4
 
-weight=12
+weight=10
 cost=355000
 upgrade_price=65000
 runningcost=22
@@ -654,7 +654,7 @@ EmptyImage[NE][2]=./images/gnr-4wheel-mail.0.7
 
 obj=vehicle
 name=4-wheel-1870s-tpo-fitted
-speed=125
+speed=135
 copyright=Kieron/James
 intro_year=1876
 intro_month=3
@@ -666,7 +666,7 @@ payload=17
 length=6
 brake_force=4
 
-weight=12
+weight=10
 cost=355000
 upgrade_price=65000
 runningcost=22

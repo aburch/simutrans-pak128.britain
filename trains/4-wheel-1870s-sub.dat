@@ -10,7 +10,7 @@
 
 obj=vehicle
 name=4-wheel-sub-1870s-unfitted
-speed=125
+speed=135
 copyright=Kieron/James/jamespetts
 intro_year=1869
 intro_month=1
@@ -23,7 +23,7 @@ overcrowded_capacity=25
 length=5
 brake_force=0
 
-weight=11
+weight=9
 cost=300000
 runningcost=17
 sound=-1
@@ -93,7 +93,7 @@ EmptyImage[NE][1]=./images/mr-4wheel-suburban.1.3
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-front-unfitted
-speed=125
+speed=135
 copyright=Kieron/James/jamespetts
 intro_year=1869
 intro_month=1
@@ -106,7 +106,7 @@ overcrowded_capacity=15
 length=5
 brake_force=4
 
-weight=11
+weight=9
 cost=300000
 runningcost=17
 sound=-1
@@ -162,7 +162,7 @@ EmptyImage[NE][1]=./images/mr-4wheel-suburban-brake-front.1.3
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-rear-unfitted
-speed=125
+speed=135
 copyright=Kieron/James/jamespetts
 intro_year=1869
 intro_month=1
@@ -175,7 +175,7 @@ overcrowded_capacity=15
 length=5
 brake_force=4
 
-weight=11
+weight=9
 cost=300000
 runningcost=17
 sound=-1
@@ -248,7 +248,7 @@ EmptyImage[NE][1]=./images/mr-4wheel-suburban-brake-rear.1.3
 
 obj=vehicle
 name=4-wheel-sub-1870s-fitted
-speed=125
+speed=135
 copyright=Kieron/James/jamespetts
 intro_year=1876
 intro_month=3
@@ -262,7 +262,7 @@ overcrowded_capacity=25
 length=5
 brake_force=4
 
-weight=12
+weight=10
 cost=355000
 upgrade_price=65000
 runningcost=22
@@ -348,7 +348,7 @@ EmptyImage[NE][1]=./images/mr-4wheel-suburban.1.3
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-front-fitted
-speed=125
+speed=135
 copyright=Kieron/James/jamespetts
 intro_year=1876
 intro_month=3
@@ -362,7 +362,7 @@ overcrowded_capacity=15
 length=5
 brake_force=4
 
-weight=12
+weight=10
 cost=355000
 upgrade_price=65000
 runningcost=22
@@ -426,7 +426,7 @@ EmptyImage[NE][1]=./images/mr-4wheel-suburban-brake-front.1.3
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-rear-fitted
-speed=125
+speed=135
 copyright=Kieron/James/jamespetts
 intro_year=1876
 intro_month=3
@@ -439,7 +439,7 @@ overcrowded_capacity=15
 length=5
 brake_force=4
 
-weight=12
+weight=10
 cost=355000
 upgrade_price=65000
 runningcost=22
