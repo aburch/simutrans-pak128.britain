@@ -26,12 +26,24 @@ Constraint[Prev][3]=MR-700
 Constraint[Prev][4]=MR-1357
 Constraint[Prev][5]=MR-800
 
-EmptyImage[E]=./images/mr-kirtley156-tender.1.4
-EmptyImage[SE]=./images/mr-kirtley156-tender.1.5
-EmptyImage[S]=./images/mr-kirtley156-tender.1.6
-EmptyImage[SW]=./images/mr-kirtley156-tender.1.7
-EmptyImage[W]=./images/mr-kirtley156-tender.1.0
-EmptyImage[NW]=./images/mr-kirtley156-tender.1.1
-EmptyImage[N]=./images/mr-kirtley156-tender.1.2
-EmptyImage[NE]=./images/mr-kirtley156-tender.1.3
+liverytype[0]=MR-Early
+liverytype[1]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-kirtley156-tender-green.1.4
+EmptyImage[SE][0]=./images/mr-kirtley156-tender-green.1.5
+EmptyImage[S][0]=./images/mr-kirtley156-tender-green.1.6
+EmptyImage[SW][0]=./images/mr-kirtley156-tender-green.1.7
+EmptyImage[W][0]=./images/mr-kirtley156-tender-green.1.0
+EmptyImage[NW][0]=./images/mr-kirtley156-tender-green.1.1
+EmptyImage[N][0]=./images/mr-kirtley156-tender-green.1.2
+EmptyImage[NE][0]=./images/mr-kirtley156-tender-green.1.3
+
+EmptyImage[E][1]=./images/mr-kirtley156-tender.1.4
+EmptyImage[SE][1]=./images/mr-kirtley156-tender.1.5
+EmptyImage[S][1]=./images/mr-kirtley156-tender.1.6
+EmptyImage[SW][1]=./images/mr-kirtley156-tender.1.7
+EmptyImage[W][1]=./images/mr-kirtley156-tender.1.0
+EmptyImage[NW][1]=./images/mr-kirtley156-tender.1.1
+EmptyImage[N][1]=./images/mr-kirtley156-tender.1.2
+EmptyImage[NE][1]=./images/mr-kirtley156-tender.1.3
 

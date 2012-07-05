@@ -42,8 +42,9 @@ bidirectional=1
 increase_maintenance_after_years=45
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
-liverytype[2]=GNR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-Standard
 
 Constraint[Next][0]=4-wheel-1860s
 Constraint[Next][1]=4-wheel-1860s-brake-rear
@@ -75,32 +76,41 @@ Constraint[Prev][11]=LNWR-1847-First
 Constraint[Prev][12]=LNWR-1847-TPO
 Constraint[Prev][13]=LNWR-1847-Mail
 
-EmptyImage[E][0]=./images/mslr-4wheel-composite.0.0
-EmptyImage[SE][0]=./images/mslr-4wheel-composite.0.1
-EmptyImage[S][0]=./images/mslr-4wheel-composite.0.2
-EmptyImage[SW][0]=./images/mslr-4wheel-composite.0.3
-EmptyImage[W][0]=./images/mslr-4wheel-composite.0.4
-EmptyImage[NW][0]=./images/mslr-4wheel-composite.0.5
-EmptyImage[N][0]=./images/mslr-4wheel-composite.0.6
-EmptyImage[NE][0]=./images/mslr-4wheel-composite.0.7
+EmptyImage[E][0]=./images/lnwr-4wheel-composite.1.4
+EmptyImage[SE][0]=./images/lnwr-4wheel-composite.1.5
+EmptyImage[S][0]=./images/lnwr-4wheel-composite.1.6
+EmptyImage[SW][0]=./images/lnwr-4wheel-composite.1.7
+EmptyImage[W][0]=./images/lnwr-4wheel-composite.1.0
+EmptyImage[NW][0]=./images/lnwr-4wheel-composite.1.1
+EmptyImage[N][0]=./images/lnwr-4wheel-composite.1.2
+EmptyImage[NE][0]=./images/lnwr-4wheel-composite.1.3
 
-EmptyImage[E][1]=./images/mr-4wheel-composite.0.0
-EmptyImage[SE][1]=./images/mr-4wheel-composite.0.1
-EmptyImage[S][1]=./images/mr-4wheel-composite.0.2
-EmptyImage[SW][1]=./images/mr-4wheel-composite.0.3
-EmptyImage[W][1]=./images/mr-4wheel-composite.0.4
-EmptyImage[NW][1]=./images/mr-4wheel-composite.0.5
-EmptyImage[N][1]=./images/mr-4wheel-composite.0.6
-EmptyImage[NE][1]=./images/mr-4wheel-composite.0.7
+EmptyImage[E][1]=./images/mr-4wheel-composite-dark.1.4
+EmptyImage[SE][1]=./images/mr-4wheel-composite-dark.1.5
+EmptyImage[S][1]=./images/mr-4wheel-composite-dark.1.6
+EmptyImage[SW][1]=./images/mr-4wheel-composite-dark.1.7
+EmptyImage[W][1]=./images/mr-4wheel-composite-dark.1.0
+EmptyImage[NW][1]=./images/mr-4wheel-composite-dark.1.1
+EmptyImage[N][1]=./images/mr-4wheel-composite-dark.1.2
+EmptyImage[NE][1]=./images/mr-4wheel-composite-dark.1.3
 
-EmptyImage[E][2]=./images/gnr-4wheel-composite.0.0
-EmptyImage[SE][2]=./images/gnr-4wheel-composite.0.1
-EmptyImage[S][2]=./images/gnr-4wheel-composite.0.2
-EmptyImage[SW][2]=./images/gnr-4wheel-composite.0.3
-EmptyImage[W][2]=./images/gnr-4wheel-composite.0.4
-EmptyImage[NW][2]=./images/gnr-4wheel-composite.0.5
-EmptyImage[N][2]=./images/gnr-4wheel-composite.0.6
-EmptyImage[NE][2]=./images/gnr-4wheel-composite.0.7
+EmptyImage[E][2]=./images/mr-4wheel-composite.1.4
+EmptyImage[SE][2]=./images/mr-4wheel-composite.1.5
+EmptyImage[S][2]=./images/mr-4wheel-composite.1.6
+EmptyImage[SW][2]=./images/mr-4wheel-composite.1.7
+EmptyImage[W][2]=./images/mr-4wheel-composite.1.0
+EmptyImage[NW][2]=./images/mr-4wheel-composite.1.1
+EmptyImage[N][2]=./images/mr-4wheel-composite.1.2
+EmptyImage[NE][2]=./images/mr-4wheel-composite.1.3
+
+EmptyImage[E][3]=./images/gnr-4wheel-composite.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-composite.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-composite.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-composite.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-composite.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-composite.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-composite.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-composite.1.3
 
 ----
 
@@ -148,35 +158,45 @@ Constraint[Next][13]=LNWR-1847-Mail
 Constraint[Next][14]=none
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
-liverytype[2]=GNR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-Standard
 
-EmptyImage[E][0]=./images/mslr-4wheel-brake.0.0
-EmptyImage[SE][0]=./images/mslr-4wheel-brake.0.1
-EmptyImage[S][0]=./images/mslr-4wheel-brake.0.2
-EmptyImage[SW][0]=./images/mslr-4wheel-brake.0.3
-EmptyImage[W][0]=./images/mslr-4wheel-brake.0.4
-EmptyImage[NW][0]=./images/mslr-4wheel-brake.0.5
-EmptyImage[N][0]=./images/mslr-4wheel-brake.0.6
-EmptyImage[NE][0]=./images/mslr-4wheel-brake.0.7
+EmptyImage[E][0]=./images/lnwr-4wheel-brake.1.4
+EmptyImage[SE][0]=./images/lnwr-4wheel-brake.1.5
+EmptyImage[S][0]=./images/lnwr-4wheel-brake.1.6
+EmptyImage[SW][0]=./images/lnwr-4wheel-brake.1.7
+EmptyImage[W][0]=./images/lnwr-4wheel-brake.1.0
+EmptyImage[NW][0]=./images/lnwr-4wheel-brake.1.1
+EmptyImage[N][0]=./images/lnwr-4wheel-brake.1.2
+EmptyImage[NE][0]=./images/lnwr-4wheel-brake.1.3
 
-EmptyImage[E][1]=./images/mr-4wheel-brake.0.0
-EmptyImage[SE][1]=./images/mr-4wheel-brake.0.1
-EmptyImage[S][1]=./images/mr-4wheel-brake.0.2
-EmptyImage[SW][1]=./images/mr-4wheel-brake.0.3
-EmptyImage[W][1]=./images/mr-4wheel-brake.0.4
-EmptyImage[NW][1]=./images/mr-4wheel-brake.0.5
-EmptyImage[N][1]=./images/mr-4wheel-brake.0.6
-EmptyImage[NE][1]=./images/mr-4wheel-brake.0.7
+EmptyImage[E][1]=./images/mr-4wheel-brake-dark.1.4
+EmptyImage[SE][1]=./images/mr-4wheel-brake-dark.1.5
+EmptyImage[S][1]=./images/mr-4wheel-brake-dark.1.6
+EmptyImage[SW][1]=./images/mr-4wheel-brake-dark.1.7
+EmptyImage[W][1]=./images/mr-4wheel-brake-dark.1.0
+EmptyImage[NW][1]=./images/mr-4wheel-brake-dark.1.1
+EmptyImage[N][1]=./images/mr-4wheel-brake-dark.1.2
+EmptyImage[NE][1]=./images/mr-4wheel-brake-dark.1.3
 
-EmptyImage[E][2]=./images/gnr-4wheel-brake.0.0
-EmptyImage[SE][2]=./images/gnr-4wheel-brake.0.1
-EmptyImage[S][2]=./images/gnr-4wheel-brake.0.2
-EmptyImage[SW][2]=./images/gnr-4wheel-brake.0.3
-EmptyImage[W][2]=./images/gnr-4wheel-brake.0.4
-EmptyImage[NW][2]=./images/gnr-4wheel-brake.0.5
-EmptyImage[N][2]=./images/gnr-4wheel-brake.0.6
-EmptyImage[NE][2]=./images/gnr-4wheel-brake.0.7
+EmptyImage[E][2]=./images/mr-4wheel-brake.1.4
+EmptyImage[SE][2]=./images/mr-4wheel-brake.1.5
+EmptyImage[S][2]=./images/mr-4wheel-brake.1.6
+EmptyImage[SW][2]=./images/mr-4wheel-brake.1.7
+EmptyImage[W][2]=./images/mr-4wheel-brake.1.0
+EmptyImage[NW][2]=./images/mr-4wheel-brake.1.1
+EmptyImage[N][2]=./images/mr-4wheel-brake.1.2
+EmptyImage[NE][2]=./images/mr-4wheel-brake.1.3
+
+EmptyImage[E][3]=./images/gnr-4wheel-brake.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-brake.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-brake.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-brake.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-brake.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-brake.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-brake.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-brake.1.3
 
 ----
 
@@ -235,35 +255,45 @@ Constraint[Prev][12]=LNWR-1847-TPO
 Constraint[Prev][13]=LNWR-1847-Mail
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
-liverytype[2]=GNR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-Standard
 
-EmptyImage[E][0]=./images/mslr-4wheel-mail.0.0
-EmptyImage[SE][0]=./images/mslr-4wheel-mail.0.1
-EmptyImage[S][0]=./images/mslr-4wheel-mail.0.2
-EmptyImage[SW][0]=./images/mslr-4wheel-mail.0.3
-EmptyImage[W][0]=./images/mslr-4wheel-mail.0.4
-EmptyImage[NW][0]=./images/mslr-4wheel-mail.0.5
-EmptyImage[N][0]=./images/mslr-4wheel-mail.0.6
-EmptyImage[NE][0]=./images/mslr-4wheel-mail.0.7
+EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
+EmptyImage[SE][0]=./images/lnwr-4wheel-mail.1.5
+EmptyImage[S][0]=./images/lnwr-4wheel-mail.1.6
+EmptyImage[SW][0]=./images/lnwr-4wheel-mail.1.7
+EmptyImage[W][0]=./images/lnwr-4wheel-mail.1.0
+EmptyImage[NW][0]=./images/lnwr-4wheel-mail.1.1
+EmptyImage[N][0]=./images/lnwr-4wheel-mail.1.2
+EmptyImage[NE][0]=./images/lnwr-4wheel-mail.1.3
 
-EmptyImage[E][1]=./images/mr-4wheel-mail.0.0
-EmptyImage[SE][1]=./images/mr-4wheel-mail.0.1
-EmptyImage[S][1]=./images/mr-4wheel-mail.0.2
-EmptyImage[SW][1]=./images/mr-4wheel-mail.0.3
-EmptyImage[W][1]=./images/mr-4wheel-mail.0.4
-EmptyImage[NW][1]=./images/mr-4wheel-mail.0.5
-EmptyImage[N][1]=./images/mr-4wheel-mail.0.6
-EmptyImage[NE][1]=./images/mr-4wheel-mail.0.7
+EmptyImage[E][1]=./images/mr-4wheel-mail-dark.1.4
+EmptyImage[SE][1]=./images/mr-4wheel-mail-dark.1.5
+EmptyImage[S][1]=./images/mr-4wheel-mail-dark.1.6
+EmptyImage[SW][1]=./images/mr-4wheel-mail-dark.1.7
+EmptyImage[W][1]=./images/mr-4wheel-mail-dark.1.0
+EmptyImage[NW][1]=./images/mr-4wheel-mail-dark.1.1
+EmptyImage[N][1]=./images/mr-4wheel-mail-dark.1.2
+EmptyImage[NE][1]=./images/mr-4wheel-mail-dark.1.3
 
-EmptyImage[E][2]=./images/gnr-4wheel-mail.0.0
-EmptyImage[SE][2]=./images/gnr-4wheel-mail.0.1
-EmptyImage[S][2]=./images/gnr-4wheel-mail.0.2
-EmptyImage[SW][2]=./images/gnr-4wheel-mail.0.3
-EmptyImage[W][2]=./images/gnr-4wheel-mail.0.4
-EmptyImage[NW][2]=./images/gnr-4wheel-mail.0.5
-EmptyImage[N][2]=./images/gnr-4wheel-mail.0.6
-EmptyImage[NE][2]=./images/gnr-4wheel-mail.0.7
+EmptyImage[E][2]=./images/mr-4wheel-mail.1.4
+EmptyImage[SE][2]=./images/mr-4wheel-mail.1.5
+EmptyImage[S][2]=./images/mr-4wheel-mail.1.6
+EmptyImage[SW][2]=./images/mr-4wheel-mail.1.7
+EmptyImage[W][2]=./images/mr-4wheel-mail.1.0
+EmptyImage[NW][2]=./images/mr-4wheel-mail.1.1
+EmptyImage[N][2]=./images/mr-4wheel-mail.1.2
+EmptyImage[NE][2]=./images/mr-4wheel-mail.1.3
+
+EmptyImage[E][3]=./images/gnr-4wheel-mail.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-mail.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-mail.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-mail.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-mail.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-mail.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-mail.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3
 
 ----
 
@@ -323,35 +353,45 @@ Constraint[Prev][12]=LNWR-1847-TPO
 Constraint[Prev][13]=LNWR-1847-Mail
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
-liverytype[2]=GNR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-Standard
 
-EmptyImage[E][0]=./images/mslr-4wheel-mail.0.0
-EmptyImage[SE][0]=./images/mslr-4wheel-mail.0.1
-EmptyImage[S][0]=./images/mslr-4wheel-mail.0.2
-EmptyImage[SW][0]=./images/mslr-4wheel-mail.0.3
-EmptyImage[W][0]=./images/mslr-4wheel-mail.0.4
-EmptyImage[NW][0]=./images/mslr-4wheel-mail.0.5
-EmptyImage[N][0]=./images/mslr-4wheel-mail.0.6
-EmptyImage[NE][0]=./images/mslr-4wheel-mail.0.7
+EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
+EmptyImage[SE][0]=./images/lnwr-4wheel-mail.1.5
+EmptyImage[S][0]=./images/lnwr-4wheel-mail.1.6
+EmptyImage[SW][0]=./images/lnwr-4wheel-mail.1.7
+EmptyImage[W][0]=./images/lnwr-4wheel-mail.1.0
+EmptyImage[NW][0]=./images/lnwr-4wheel-mail.1.1
+EmptyImage[N][0]=./images/lnwr-4wheel-mail.1.2
+EmptyImage[NE][0]=./images/lnwr-4wheel-mail.1.3
 
-EmptyImage[E][1]=./images/mr-4wheel-mail.0.0
-EmptyImage[SE][1]=./images/mr-4wheel-mail.0.1
-EmptyImage[S][1]=./images/mr-4wheel-mail.0.2
-EmptyImage[SW][1]=./images/mr-4wheel-mail.0.3
-EmptyImage[W][1]=./images/mr-4wheel-mail.0.4
-EmptyImage[NW][1]=./images/mr-4wheel-mail.0.5
-EmptyImage[N][1]=./images/mr-4wheel-mail.0.6
-EmptyImage[NE][1]=./images/mr-4wheel-mail.0.7
+EmptyImage[E][1]=./images/mr-4wheel-mail-dark.1.4
+EmptyImage[SE][1]=./images/mr-4wheel-mail-dark.1.5
+EmptyImage[S][1]=./images/mr-4wheel-mail-dark.1.6
+EmptyImage[SW][1]=./images/mr-4wheel-mail-dark.1.7
+EmptyImage[W][1]=./images/mr-4wheel-mail-dark.1.0
+EmptyImage[NW][1]=./images/mr-4wheel-mail-dark.1.1
+EmptyImage[N][1]=./images/mr-4wheel-mail-dark.1.2
+EmptyImage[NE][1]=./images/mr-4wheel-mail-dark.1.3
 
-EmptyImage[E][2]=./images/gnr-4wheel-mail.0.0
-EmptyImage[SE][2]=./images/gnr-4wheel-mail.0.1
-EmptyImage[S][2]=./images/gnr-4wheel-mail.0.2
-EmptyImage[SW][2]=./images/gnr-4wheel-mail.0.3
-EmptyImage[W][2]=./images/gnr-4wheel-mail.0.4
-EmptyImage[NW][2]=./images/gnr-4wheel-mail.0.5
-EmptyImage[N][2]=./images/gnr-4wheel-mail.0.6
-EmptyImage[NE][2]=./images/gnr-4wheel-mail.0.7
+EmptyImage[E][2]=./images/mr-4wheel-mail.1.4
+EmptyImage[SE][2]=./images/mr-4wheel-mail.1.5
+EmptyImage[S][2]=./images/mr-4wheel-mail.1.6
+EmptyImage[SW][2]=./images/mr-4wheel-mail.1.7
+EmptyImage[W][2]=./images/mr-4wheel-mail.1.0
+EmptyImage[NW][2]=./images/mr-4wheel-mail.1.1
+EmptyImage[N][2]=./images/mr-4wheel-mail.1.2
+EmptyImage[NE][2]=./images/mr-4wheel-mail.1.3
+
+EmptyImage[E][3]=./images/gnr-4wheel-mail.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-mail.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-mail.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-mail.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-mail.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-mail.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-mail.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3
 
 ----
 
@@ -387,8 +427,9 @@ bidirectional=1
 increase_maintenance_after_years=45
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
-liverytype[2]=GNR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-Standard
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -436,32 +477,41 @@ Constraint[Prev][19]=GNR-6Wheel-tpo
 Constraint[Prev][20]=GNR-6Wheel-brake-third-front
 Constraint[Prev][21]=GNR-6Wheel-Guard
 
-EmptyImage[E][0]=./images/mslr-4wheel-composite.0.0
-EmptyImage[SE][0]=./images/mslr-4wheel-composite.0.1
-EmptyImage[S][0]=./images/mslr-4wheel-composite.0.2
-EmptyImage[SW][0]=./images/mslr-4wheel-composite.0.3
-EmptyImage[W][0]=./images/mslr-4wheel-composite.0.4
-EmptyImage[NW][0]=./images/mslr-4wheel-composite.0.5
-EmptyImage[N][0]=./images/mslr-4wheel-composite.0.6
-EmptyImage[NE][0]=./images/mslr-4wheel-composite.0.7
+EmptyImage[E][0]=./images/lnwr-4wheel-composite.1.4
+EmptyImage[SE][0]=./images/lnwr-4wheel-composite.1.5
+EmptyImage[S][0]=./images/lnwr-4wheel-composite.1.6
+EmptyImage[SW][0]=./images/lnwr-4wheel-composite.1.7
+EmptyImage[W][0]=./images/lnwr-4wheel-composite.1.0
+EmptyImage[NW][0]=./images/lnwr-4wheel-composite.1.1
+EmptyImage[N][0]=./images/lnwr-4wheel-composite.1.2
+EmptyImage[NE][0]=./images/lnwr-4wheel-composite.1.3
 
-EmptyImage[E][1]=./images/mr-4wheel-composite.0.0
-EmptyImage[SE][1]=./images/mr-4wheel-composite.0.1
-EmptyImage[S][1]=./images/mr-4wheel-composite.0.2
-EmptyImage[SW][1]=./images/mr-4wheel-composite.0.3
-EmptyImage[W][1]=./images/mr-4wheel-composite.0.4
-EmptyImage[NW][1]=./images/mr-4wheel-composite.0.5
-EmptyImage[N][1]=./images/mr-4wheel-composite.0.6
-EmptyImage[NE][1]=./images/mr-4wheel-composite.0.7
+EmptyImage[E][1]=./images/mr-4wheel-composite-dark.1.4
+EmptyImage[SE][1]=./images/mr-4wheel-composite-dark.1.5
+EmptyImage[S][1]=./images/mr-4wheel-composite-dark.1.6
+EmptyImage[SW][1]=./images/mr-4wheel-composite-dark.1.7
+EmptyImage[W][1]=./images/mr-4wheel-composite-dark.1.0
+EmptyImage[NW][1]=./images/mr-4wheel-composite-dark.1.1
+EmptyImage[N][1]=./images/mr-4wheel-composite-dark.1.2
+EmptyImage[NE][1]=./images/mr-4wheel-composite-dark.1.3
 
-EmptyImage[E][2]=./images/gnr-4wheel-composite.0.0
-EmptyImage[SE][2]=./images/gnr-4wheel-composite.0.1
-EmptyImage[S][2]=./images/gnr-4wheel-composite.0.2
-EmptyImage[SW][2]=./images/gnr-4wheel-composite.0.3
-EmptyImage[W][2]=./images/gnr-4wheel-composite.0.4
-EmptyImage[NW][2]=./images/gnr-4wheel-composite.0.5
-EmptyImage[N][2]=./images/gnr-4wheel-composite.0.6
-EmptyImage[NE][2]=./images/gnr-4wheel-composite.0.7
+EmptyImage[E][2]=./images/mr-4wheel-composite.1.4
+EmptyImage[SE][2]=./images/mr-4wheel-composite.1.5
+EmptyImage[S][2]=./images/mr-4wheel-composite.1.6
+EmptyImage[SW][2]=./images/mr-4wheel-composite.1.7
+EmptyImage[W][2]=./images/mr-4wheel-composite.1.0
+EmptyImage[NW][2]=./images/mr-4wheel-composite.1.1
+EmptyImage[N][2]=./images/mr-4wheel-composite.1.2
+EmptyImage[NE][2]=./images/mr-4wheel-composite.1.3
+
+EmptyImage[E][3]=./images/gnr-4wheel-composite.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-composite.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-composite.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-composite.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-composite.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-composite.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-composite.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-composite.1.3
 
 ----
 
@@ -517,35 +567,45 @@ Constraint[Next][21]=GNR-6Wheel-Guard
 Constraint[Next][22]=none
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
-liverytype[2]=GNR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-Standard
 
-EmptyImage[E][0]=./images/mslr-4wheel-brake.0.0
-EmptyImage[SE][0]=./images/mslr-4wheel-brake.0.1
-EmptyImage[S][0]=./images/mslr-4wheel-brake.0.2
-EmptyImage[SW][0]=./images/mslr-4wheel-brake.0.3
-EmptyImage[W][0]=./images/mslr-4wheel-brake.0.4
-EmptyImage[NW][0]=./images/mslr-4wheel-brake.0.5
-EmptyImage[N][0]=./images/mslr-4wheel-brake.0.6
-EmptyImage[NE][0]=./images/mslr-4wheel-brake.0.7
+EmptyImage[E][0]=./images/lnwr-4wheel-brake.1.4
+EmptyImage[SE][0]=./images/lnwr-4wheel-brake.1.5
+EmptyImage[S][0]=./images/lnwr-4wheel-brake.1.6
+EmptyImage[SW][0]=./images/lnwr-4wheel-brake.1.7
+EmptyImage[W][0]=./images/lnwr-4wheel-brake.1.0
+EmptyImage[NW][0]=./images/lnwr-4wheel-brake.1.1
+EmptyImage[N][0]=./images/lnwr-4wheel-brake.1.2
+EmptyImage[NE][0]=./images/lnwr-4wheel-brake.1.3
 
-EmptyImage[E][1]=./images/mr-4wheel-brake.0.0
-EmptyImage[SE][1]=./images/mr-4wheel-brake.0.1
-EmptyImage[S][1]=./images/mr-4wheel-brake.0.2
-EmptyImage[SW][1]=./images/mr-4wheel-brake.0.3
-EmptyImage[W][1]=./images/mr-4wheel-brake.0.4
-EmptyImage[NW][1]=./images/mr-4wheel-brake.0.5
-EmptyImage[N][1]=./images/mr-4wheel-brake.0.6
-EmptyImage[NE][1]=./images/mr-4wheel-brake.0.7
+EmptyImage[E][1]=./images/mr-4wheel-brake-dark.1.4
+EmptyImage[SE][1]=./images/mr-4wheel-brake-dark.1.5
+EmptyImage[S][1]=./images/mr-4wheel-brake-dark.1.6
+EmptyImage[SW][1]=./images/mr-4wheel-brake-dark.1.7
+EmptyImage[W][1]=./images/mr-4wheel-brake-dark.1.0
+EmptyImage[NW][1]=./images/mr-4wheel-brake-dark.1.1
+EmptyImage[N][1]=./images/mr-4wheel-brake-dark.1.2
+EmptyImage[NE][1]=./images/mr-4wheel-brake-dark.1.3
 
-EmptyImage[E][2]=./images/gnr-4wheel-brake.0.0
-EmptyImage[SE][2]=./images/gnr-4wheel-brake.0.1
-EmptyImage[S][2]=./images/gnr-4wheel-brake.0.2
-EmptyImage[SW][2]=./images/gnr-4wheel-brake.0.3
-EmptyImage[W][2]=./images/gnr-4wheel-brake.0.4
-EmptyImage[NW][2]=./images/gnr-4wheel-brake.0.5
-EmptyImage[N][2]=./images/gnr-4wheel-brake.0.6
-EmptyImage[NE][2]=./images/gnr-4wheel-brake.0.7
+EmptyImage[E][2]=./images/mr-4wheel-brake.1.4
+EmptyImage[SE][2]=./images/mr-4wheel-brake.1.5
+EmptyImage[S][2]=./images/mr-4wheel-brake.1.6
+EmptyImage[SW][2]=./images/mr-4wheel-brake.1.7
+EmptyImage[W][2]=./images/mr-4wheel-brake.1.0
+EmptyImage[NW][2]=./images/mr-4wheel-brake.1.1
+EmptyImage[N][2]=./images/mr-4wheel-brake.1.2
+EmptyImage[NE][2]=./images/mr-4wheel-brake.1.3
+
+EmptyImage[E][3]=./images/gnr-4wheel-brake.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-brake.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-brake.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-brake.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-brake.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-brake.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-brake.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-brake.1.3
 
 ----
 
@@ -620,35 +680,45 @@ Constraint[Prev][20]=GNR-6Wheel-brake-third-front
 Constraint[Prev][21]=GNR-6Wheel-Guard
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
-liverytype[2]=GNR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-Standard
 
-EmptyImage[E][0]=./images/mslr-4wheel-mail.0.0
-EmptyImage[SE][0]=./images/mslr-4wheel-mail.0.1
-EmptyImage[S][0]=./images/mslr-4wheel-mail.0.2
-EmptyImage[SW][0]=./images/mslr-4wheel-mail.0.3
-EmptyImage[W][0]=./images/mslr-4wheel-mail.0.4
-EmptyImage[NW][0]=./images/mslr-4wheel-mail.0.5
-EmptyImage[N][0]=./images/mslr-4wheel-mail.0.6
-EmptyImage[NE][0]=./images/mslr-4wheel-mail.0.7
+EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
+EmptyImage[SE][0]=./images/lnwr-4wheel-mail.1.5
+EmptyImage[S][0]=./images/lnwr-4wheel-mail.1.6
+EmptyImage[SW][0]=./images/lnwr-4wheel-mail.1.7
+EmptyImage[W][0]=./images/lnwr-4wheel-mail.1.0
+EmptyImage[NW][0]=./images/lnwr-4wheel-mail.1.1
+EmptyImage[N][0]=./images/lnwr-4wheel-mail.1.1
+EmptyImage[NE][0]=./images/lnwr-4wheel-mail.1.3
 
-EmptyImage[E][1]=./images/mr-4wheel-mail.0.0
-EmptyImage[SE][1]=./images/mr-4wheel-mail.0.1
-EmptyImage[S][1]=./images/mr-4wheel-mail.0.2
-EmptyImage[SW][1]=./images/mr-4wheel-mail.0.3
-EmptyImage[W][1]=./images/mr-4wheel-mail.0.4
-EmptyImage[NW][1]=./images/mr-4wheel-mail.0.5
-EmptyImage[N][1]=./images/mr-4wheel-mail.0.6
-EmptyImage[NE][1]=./images/mr-4wheel-mail.0.7
+EmptyImage[E][1]=./images/mr-4wheel-mail-dark.1.4
+EmptyImage[SE][1]=./images/mr-4wheel-mail-dark.1.5
+EmptyImage[S][1]=./images/mr-4wheel-mail-dark.1.6
+EmptyImage[SW][1]=./images/mr-4wheel-mail-dark.1.7
+EmptyImage[W][1]=./images/mr-4wheel-mail-dark.1.0
+EmptyImage[NW][1]=./images/mr-4wheel-mail-dark.1.1
+EmptyImage[N][1]=./images/mr-4wheel-mail-dark.1.2
+EmptyImage[NE][1]=./images/mr-4wheel-mail-dark.1.3
 
-EmptyImage[E][2]=./images/gnr-4wheel-mail.0.0
-EmptyImage[SE][2]=./images/gnr-4wheel-mail.0.1
-EmptyImage[S][2]=./images/gnr-4wheel-mail.0.2
-EmptyImage[SW][2]=./images/gnr-4wheel-mail.0.3
-EmptyImage[W][2]=./images/gnr-4wheel-mail.0.4
-EmptyImage[NW][2]=./images/gnr-4wheel-mail.0.5
-EmptyImage[N][2]=./images/gnr-4wheel-mail.0.6
-EmptyImage[NE][2]=./images/gnr-4wheel-mail.0.7
+EmptyImage[E][2]=./images/mr-4wheel-mail.1.4
+EmptyImage[SE][2]=./images/mr-4wheel-mail.1.5
+EmptyImage[S][2]=./images/mr-4wheel-mail.1.7
+EmptyImage[SW][2]=./images/mr-4wheel-mail.1.7
+EmptyImage[W][2]=./images/mr-4wheel-mail.1.0
+EmptyImage[NW][2]=./images/mr-4wheel-mail.1.1
+EmptyImage[N][2]=./images/mr-4wheel-mail.1.2
+EmptyImage[NE][2]=./images/mr-4wheel-mail.1.3
+
+sEmptyImage[E][3]=./images/gnr-4wheel-mail.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-mail.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-mail.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-mail.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-mail.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-mail.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-mail.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3
 
 ----
 
@@ -724,32 +794,42 @@ Constraint[Prev][20]=GNR-6Wheel-brake-third-front
 Constraint[Prev][21]=GNR-6Wheel-Guard
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
-liverytype[2]=GNR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-Standard
 
-EmptyImage[E][0]=./images/mslr-4wheel-mail.0.0
-EmptyImage[SE][0]=./images/mslr-4wheel-mail.0.1
-EmptyImage[S][0]=./images/mslr-4wheel-mail.0.2
-EmptyImage[SW][0]=./images/mslr-4wheel-mail.0.3
-EmptyImage[W][0]=./images/mslr-4wheel-mail.0.4
-EmptyImage[NW][0]=./images/mslr-4wheel-mail.0.5
-EmptyImage[N][0]=./images/mslr-4wheel-mail.0.6
-EmptyImage[NE][0]=./images/mslr-4wheel-mail.0.7
+EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
+EmptyImage[SE][0]=./images/lnwr-4wheel-mail.1.5
+EmptyImage[S][0]=./images/lnwr-4wheel-mail.1.6
+EmptyImage[SW][0]=./images/lnwr-4wheel-mail.1.7
+EmptyImage[W][0]=./images/lnwr-4wheel-mail.1.0
+EmptyImage[NW][0]=./images/lnwr-4wheel-mail.1.1
+EmptyImage[N][0]=./images/lnwr-4wheel-mail.1.2
+EmptyImage[NE][0]=./images/lnwr-4wheel-mail.1.3
 
-EmptyImage[E][1]=./images/mr-4wheel-mail.0.0
-EmptyImage[SE][1]=./images/mr-4wheel-mail.0.1
-EmptyImage[S][1]=./images/mr-4wheel-mail.0.2
-EmptyImage[SW][1]=./images/mr-4wheel-mail.0.3
-EmptyImage[W][1]=./images/mr-4wheel-mail.0.4
-EmptyImage[NW][1]=./images/mr-4wheel-mail.0.5
-EmptyImage[N][1]=./images/mr-4wheel-mail.0.6
-EmptyImage[NE][1]=./images/mr-4wheel-mail.0.7
+EmptyImage[E][1]=./images/mr-4wheel-mail-dark.1.4
+EmptyImage[SE][1]=./images/mr-4wheel-mail-dark.1.5
+EmptyImage[S][1]=./images/mr-4wheel-mail-dark.1.6
+EmptyImage[SW][1]=./images/mr-4wheel-mail-dark.1.7
+EmptyImage[W][1]=./images/mr-4wheel-mail-dark.1.0
+EmptyImage[NW][1]=./images/mr-4wheel-mail-dark.1.1
+EmptyImage[N][1]=./images/mr-4wheel-mail-dark.1.2
+EmptyImage[NE][1]=./images/mr-4wheel-mail-dark.1.3
 
-EmptyImage[E][2]=./images/gnr-4wheel-mail.0.0
-EmptyImage[SE][2]=./images/gnr-4wheel-mail.0.1
-EmptyImage[S][2]=./images/gnr-4wheel-mail.0.2
-EmptyImage[SW][2]=./images/gnr-4wheel-mail.0.3
-EmptyImage[W][2]=./images/gnr-4wheel-mail.0.4
-EmptyImage[NW][2]=./images/gnr-4wheel-mail.0.5
-EmptyImage[N][2]=./images/gnr-4wheel-mail.0.6
-EmptyImage[NE][2]=./images/gnr-4wheel-mail.0.7
+EmptyImage[E][2]=./images/mr-4wheel-mail.1.4
+EmptyImage[SE][2]=./images/mr-4wheel-mail.1.5
+EmptyImage[S][2]=./images/mr-4wheel-mail.1.6
+EmptyImage[SW][2]=./images/mr-4wheel-mail.1.7
+EmptyImage[W][2]=./images/mr-4wheel-mail.1.0
+EmptyImage[NW][2]=./images/mr-4wheel-mail.1.1
+EmptyImage[N][2]=./images/mr-4wheel-mail.1.2
+EmptyImage[NE][2]=./images/mr-4wheel-mail.1.3
+
+EmptyImage[E][3]=./images/gnr-4wheel-mail.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-mail.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-mail.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-mail.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-mail.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-mail.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-mail.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3

@@ -30,16 +30,26 @@ sound=-1
 
 Constraint[Next][0]=MR-133-tender
 
-liverytype[0]=MR-Standard
+liverytype[0]=MR-Early
+liverytype[1]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-133.1.4
-EmptyImage[SE][0]=./images/mr-133.1.5
-EmptyImage[S][0]=./images/mr-133.1.6
-EmptyImage[SW][0]=./images/mr-133.1.7
-EmptyImage[W][0]=./images/mr-133.1.0
-EmptyImage[NW][0]=./images/mr-133.1.1
-EmptyImage[N][0]=./images/mr-133.1.2
-EmptyImage[NE][0]=./images/mr-133.1.3
+EmptyImage[E][0]=./images/mr-133-green.1.4
+EmptyImage[SE][0]=./images/mr-133-green.1.5
+EmptyImage[S][0]=./images/mr-133-green.1.6
+EmptyImage[SW][0]=./images/mr-133-green.1.7
+EmptyImage[W][0]=./images/mr-133-green.1.0
+EmptyImage[NW][0]=./images/mr-133-green.1.1
+EmptyImage[N][0]=./images/mr-133-green.1.2
+EmptyImage[NE][0]=./images/mr-133-green.1.3
+
+EmptyImage[E][1]=./images/mr-133.1.4
+EmptyImage[SE][1]=./images/mr-133.1.5
+EmptyImage[S][1]=./images/mr-133.1.6
+EmptyImage[SW][1]=./images/mr-133.1.7
+EmptyImage[W][1]=./images/mr-133.1.0
+EmptyImage[NW][1]=./images/mr-133.1.1
+EmptyImage[N][1]=./images/mr-133.1.2
+EmptyImage[NE][1]=./images/mr-133.1.3
 
 ---
 
@@ -66,13 +76,23 @@ sound=-1
 
 Constraint[Prev][0]=MR-133
 
-liverytype[0]=MR-Standard
+liverytype[0]=MR-Early
+liverytype[1]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-133-tender.1.4
-EmptyImage[SE][0]=./images/mr-133-tender.1.5
-EmptyImage[S][0]=./images/mr-133-tender.1.6
-EmptyImage[SW][0]=./images/mr-133-tender.1.7
-EmptyImage[W][0]=./images/mr-133-tender.1.0
-EmptyImage[NW][0]=./images/mr-133-tender.1.1
-EmptyImage[N][0]=./images/mr-133-tender.1.2
-EmptyImage[NE][0]=./images/mr-133-tender.1.3
+EmptyImage[E][0]=./images/mr-133-tender-green.1.4
+EmptyImage[SE][0]=./images/mr-133-tender-green.1.5
+EmptyImage[S][0]=./images/mr-133-tender-green.1.6
+EmptyImage[SW][0]=./images/mr-133-tender-green.1.7
+EmptyImage[W][0]=./images/mr-133-tender-green.1.0
+EmptyImage[NW][0]=./images/mr-133-tender-green.1.1
+EmptyImage[N][0]=./images/mr-133-tender-green.1.2
+EmptyImage[NE][0]=./images/mr-133-tender-green.1.3
+
+EmptyImage[E][1]=./images/mr-133-tender.1.4
+EmptyImage[SE][1]=./images/mr-133-tender.1.5
+EmptyImage[S][1]=./images/mr-133-tender.1.6
+EmptyImage[SW][1]=./images/mr-133-tender.1.7
+EmptyImage[W][1]=./images/mr-133-tender.1.0
+EmptyImage[NW][1]=./images/mr-133-tender.1.1
+EmptyImage[N][1]=./images/mr-133-tender.1.2
+EmptyImage[NE][1]=./images/mr-133-tender.1.3

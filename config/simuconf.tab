@@ -871,9 +871,12 @@ intro_month[4][1] = 9
 livery_scheme[5] = MR
 retire_year[5] = 1923
 retire_month[5] = 1
-livery[5][0] = MR-Standard
+livery[5][0] = MR-Early
 intro_year[5][0] = 1844
 intro_month[5][0] = 1
+livery[5][1] = MR-Standard
+intro_year[5][1] = 1883
+intro_month[5][1] = 6
 
 livery_scheme[6] = Royal-Mail
 retire_year[6] = 1986

@@ -57,7 +57,8 @@ Constraint[Prev][12]=LNWR-1847-TPO
 Constraint[Prev][13]=LNWR-1847-Mail
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
 
 EmptyImage[E][0]=./images/4wheel-1860s-lnwr.1.4
 EmptyImage[SE][0]=./images/4wheel-1860s-lnwr.1.5
@@ -68,14 +69,23 @@ EmptyImage[NW][0]=./images/4wheel-1860s-lnwr.1.1
 EmptyImage[N][0]=./images/4wheel-1860s-lnwr.1.2
 EmptyImage[NE][0]=./images/4wheel-1860s-lnwr.1.3
 
-EmptyImage[E][1]=./images/4wheel-1860s-mr.1.4
-EmptyImage[SE][1]=./images/4wheel-1860s-mr.1.5
-EmptyImage[S][1]=./images/4wheel-1860s-mr.1.6
-EmptyImage[SW][1]=./images/4wheel-1860s-mr.1.7
-EmptyImage[W][1]=./images/4wheel-1860s-mr.1.0
-EmptyImage[NW][1]=./images/4wheel-1860s-mr.1.1
-EmptyImage[N][1]=./images/4wheel-1860s-mr.1.2
-EmptyImage[NE][1]=./images/4wheel-1860s-mr.1.3
+EmptyImage[E][1]=./images/4wheel-1860s-mr-dark.1.4
+EmptyImage[SE][1]=./images/4wheel-1860s-mr-dark.1.5
+EmptyImage[S][1]=./images/4wheel-1860s-mr-dark.1.6
+EmptyImage[SW][1]=./images/4wheel-1860s-mr-dark.1.7
+EmptyImage[W][1]=./images/4wheel-1860s-mr-dark.1.0
+EmptyImage[NW][1]=./images/4wheel-1860s-mr-dark.1.1
+EmptyImage[N][1]=./images/4wheel-1860s-mr-dark.1.2
+EmptyImage[NE][1]=./images/4wheel-1860s-mr-dark.1.3
+
+EmptyImage[E][2]=./images/4wheel-1860s-mr.1.4
+EmptyImage[SE][2]=./images/4wheel-1860s-mr.1.5
+EmptyImage[S][2]=./images/4wheel-1860s-mr.1.6
+EmptyImage[SW][2]=./images/4wheel-1860s-mr.1.7
+EmptyImage[W][2]=./images/4wheel-1860s-mr.1.0
+EmptyImage[NW][2]=./images/4wheel-1860s-mr.1.1
+EmptyImage[N][2]=./images/4wheel-1860s-mr.1.2
+EmptyImage[NE][2]=./images/4wheel-1860s-mr.1.3
 
 ----
 
@@ -124,7 +134,8 @@ Constraint[Next][13]=LNWR-1847-Mail
 Constraint[Next][14]=none
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
 
 EmptyImage[E][0]=./images/4wheel-1860s-brake-front-lnwr.1.4
 EmptyImage[SE][0]=./images/4wheel-1860s-brake-front-lnwr.1.5
@@ -135,14 +146,23 @@ EmptyImage[NW][0]=./images/4wheel-1860s-brake-front-lnwr.1.1
 EmptyImage[N][0]=./images/4wheel-1860s-brake-front-lnwr.1.2
 EmptyImage[NE][0]=./images/4wheel-1860s-brake-front-lnwr.1.3
 
-EmptyImage[E][1]=./images/4wheel-1860s-brake-front-mr.1.4
-EmptyImage[SE][1]=./images/4wheel-1860s-brake-front-mr.1.5
-EmptyImage[S][1]=./images/4wheel-1860s-brake-front-mr.1.6
-EmptyImage[SW][1]=./images/4wheel-1860s-brake-front-mr.1.7
-EmptyImage[W][1]=./images/4wheel-1860s-brake-front-mr.1.0
-EmptyImage[NW][1]=./images/4wheel-1860s-brake-front-mr.1.1
-EmptyImage[N][1]=./images/4wheel-1860s-brake-front-mr.1.2
-EmptyImage[NE][1]=./images/4wheel-1860s-brake-front-mr.1.3
+EmptyImage[E][1]=./images/4wheel-1860s-brake-front-mr-dark.1.4
+EmptyImage[SE][1]=./images/4wheel-1860s-brake-front-mr-dark.1.5
+EmptyImage[S][1]=./images/4wheel-1860s-brake-front-mr-dark.1.6
+EmptyImage[SW][1]=./images/4wheel-1860s-brake-front-mr-dark.1.7
+EmptyImage[W][1]=./images/4wheel-1860s-brake-front-mr-dark.1.0
+EmptyImage[NW][1]=./images/4wheel-1860s-brake-front-mr-dark.1.1
+EmptyImage[N][1]=./images/4wheel-1860s-brake-front-mr-dark.1.2
+EmptyImage[NE][1]=./images/4wheel-1860s-brake-front-mr-dark.1.3
+
+EmptyImage[E][2]=./images/4wheel-1860s-brake-front-mr.1.4
+EmptyImage[SE][2]=./images/4wheel-1860s-brake-front-mr.1.5
+EmptyImage[S][2]=./images/4wheel-1860s-brake-front-mr.1.6
+EmptyImage[SW][2]=./images/4wheel-1860s-brake-front-mr.1.7
+EmptyImage[W][2]=./images/4wheel-1860s-brake-front-mr.1.0
+EmptyImage[NW][2]=./images/4wheel-1860s-brake-front-mr.1.1
+EmptyImage[N][2]=./images/4wheel-1860s-brake-front-mr.1.2
+EmptyImage[NE][2]=./images/4wheel-1860s-brake-front-mr.1.3
 
 ----
 
@@ -206,7 +226,8 @@ Constraint[Prev][12]=LNWR-1847-TPO
 Constraint[Prev][13]=LNWR-1847-Mail
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
 
 EmptyImage[E][0]=./images/4wheel-1860s-brake-rear-lnwr.1.4
 EmptyImage[SE][0]=./images/4wheel-1860s-brake-rear-lnwr.1.5
@@ -217,14 +238,23 @@ EmptyImage[NW][0]=./images/4wheel-1860s-brake-rear-lnwr.1.1
 EmptyImage[N][0]=./images/4wheel-1860s-brake-rear-lnwr.1.2
 EmptyImage[NE][0]=./images/4wheel-1860s-brake-rear-lnwr.1.3
 
-EmptyImage[E][1]=./images/4wheel-1860s-brake-rear-mr.1.4
-EmptyImage[SE][1]=./images/4wheel-1860s-brake-rear-mr.1.5
-EmptyImage[S][1]=./images/4wheel-1860s-brake-rear-mr.1.6
-EmptyImage[SW][1]=./images/4wheel-1860s-brake-rear-mr.1.7
-EmptyImage[W][1]=./images/4wheel-1860s-brake-rear-mr.1.0
-EmptyImage[NW][1]=./images/4wheel-1860s-brake-rear-mr.1.1
-EmptyImage[N][1]=./images/4wheel-1860s-brake-rear-mr.1.2
-EmptyImage[NE][1]=./images/4wheel-1860s-brake-rear-mr.1.3
+EmptyImage[E][1]=./images/4wheel-1860s-brake-rear-mr-dark.1.4
+EmptyImage[SE][1]=./images/4wheel-1860s-brake-rear-mr-dark.1.5
+EmptyImage[S][1]=./images/4wheel-1860s-brake-rear-mr-dark.1.6
+EmptyImage[SW][1]=./images/4wheel-1860s-brake-rear-mr-dark.1.7
+EmptyImage[W][1]=./images/4wheel-1860s-brake-rear-mr-dark.1.0
+EmptyImage[NW][1]=./images/4wheel-1860s-brake-rear-mr-dark.1.1
+EmptyImage[N][1]=./images/4wheel-1860s-brake-rear-mr-dark.1.2
+EmptyImage[NE][1]=./images/4wheel-1860s-brake-rear-mr-dark.1.3
+
+EmptyImage[E][2]=./images/4wheel-1860s-brake-rear-mr.1.4
+EmptyImage[SE][2]=./images/4wheel-1860s-brake-rear-mr.1.5
+EmptyImage[S][2]=./images/4wheel-1860s-brake-rear-mr.1.6
+EmptyImage[SW][2]=./images/4wheel-1860s-brake-rear-mr.1.7
+EmptyImage[W][2]=./images/4wheel-1860s-brake-rear-mr.1.0
+EmptyImage[NW][2]=./images/4wheel-1860s-brake-rear-mr.1.1
+EmptyImage[N][2]=./images/4wheel-1860s-brake-rear-mr.1.2
+EmptyImage[NE][2]=./images/4wheel-1860s-brake-rear-mr.1.3
 
 ----
 
@@ -285,7 +315,8 @@ Constraint[Prev][12]=LNWR-1847-TPO
 Constraint[Prev][13]=LNWR-1847-Mail
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
 
 EmptyImage[E][0]=./images/4wheel-1860s-mail-lnwr.1.4
 EmptyImage[SE][0]=./images/4wheel-1860s-mail-lnwr.1.5
@@ -296,14 +327,23 @@ EmptyImage[NW][0]=./images/4wheel-1860s-mail-lnwr.1.1
 EmptyImage[N][0]=./images/4wheel-1860s-mail-lnwr.1.2
 EmptyImage[NE][0]=./images/4wheel-1860s-mail-lnwr.1.3
 
-EmptyImage[E][1]=./images/4wheel-1860s-mail-mr.1.4
-EmptyImage[SE][1]=./images/4wheel-1860s-mail-mr.1.5
-EmptyImage[S][1]=./images/4wheel-1860s-mail-mr.1.6
-EmptyImage[SW][1]=./images/4wheel-1860s-mail-mr.1.7
-EmptyImage[W][1]=./images/4wheel-1860s-mail-mr.1.0
-EmptyImage[NW][1]=./images/4wheel-1860s-mail-mr.1.1
-EmptyImage[N][1]=./images/4wheel-1860s-mail-mr.1.2
-EmptyImage[NE][1]=./images/4wheel-1860s-mail-mr.1.3
+EmptyImage[E][1]=./images/4wheel-1860s-mail-mr-dark.1.4
+EmptyImage[SE][1]=./images/4wheel-1860s-mail-mr-dark.1.5
+EmptyImage[S][1]=./images/4wheel-1860s-mail-mr-dark.1.6
+EmptyImage[SW][1]=./images/4wheel-1860s-mail-mr-dark.1.7
+EmptyImage[W][1]=./images/4wheel-1860s-mail-mr-dark.1.0
+EmptyImage[NW][1]=./images/4wheel-1860s-mail-mr-dark.1.1
+EmptyImage[N][1]=./images/4wheel-1860s-mail-mr-dark.1.2
+EmptyImage[NE][1]=./images/4wheel-1860s-mail-mr-dark.1.3
+
+EmptyImage[E][2]=./images/4wheel-1860s-mail-mr.1.4
+EmptyImage[SE][2]=./images/4wheel-1860s-mail-mr.1.5
+EmptyImage[S][2]=./images/4wheel-1860s-mail-mr.1.6
+EmptyImage[SW][2]=./images/4wheel-1860s-mail-mr.1.7
+EmptyImage[W][2]=./images/4wheel-1860s-mail-mr.1.0
+EmptyImage[NW][2]=./images/4wheel-1860s-mail-mr.1.1
+EmptyImage[N][2]=./images/4wheel-1860s-mail-mr.1.2
+EmptyImage[NE][2]=./images/4wheel-1860s-mail-mr.1.3
 
 ----
 
@@ -365,7 +405,8 @@ Constraint[Prev][12]=LNWR-1847-TPO
 Constraint[Prev][13]=LNWR-1847-Mail
 
 liverytype[0]=LNWR-Early
-liverytype[1]=MR-Standard
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
 
 EmptyImage[E][0]=./images/4wheel-1860s-mail-lnwr.1.4
 EmptyImage[SE][0]=./images/4wheel-1860s-mail-lnwr.1.5
@@ -376,11 +417,20 @@ EmptyImage[NW][0]=./images/4wheel-1860s-mail-lnwr.1.1
 EmptyImage[N][0]=./images/4wheel-1860s-mail-lnwr.1.2
 EmptyImage[NE][0]=./images/4wheel-1860s-mail-lnwr.1.3
 
-EmptyImage[E][1]=./images/4wheel-1860s-mail-mr.1.4
-EmptyImage[SE][1]=./images/4wheel-1860s-mail-mr.1.5
-EmptyImage[S][1]=./images/4wheel-1860s-mail-mr.1.6
-EmptyImage[SW][1]=./images/4wheel-1860s-mail-mr.1.7
-EmptyImage[W][1]=./images/4wheel-1860s-mail-mr.1.0
-EmptyImage[NW][1]=./images/4wheel-1860s-mail-mr.1.1
-EmptyImage[N][1]=./images/4wheel-1860s-mail-mr.1.2
-EmptyImage[NE][1]=./images/4wheel-1860s-mail-mr.1.3
+EmptyImage[E][1]=./images/4wheel-1860s-mail-mr-dark.1.4
+EmptyImage[SE][1]=./images/4wheel-1860s-mail-mr-dark.1.5
+EmptyImage[S][1]=./images/4wheel-1860s-mail-mr-dark.1.6
+EmptyImage[SW][1]=./images/4wheel-1860s-mail-mr-dark.1.7
+EmptyImage[W][1]=./images/4wheel-1860s-mail-mr-dark.1.0
+EmptyImage[NW][1]=./images/4wheel-1860s-mail-mr-dark.1.1
+EmptyImage[N][1]=./images/4wheel-1860s-mail-mr-dark.1.2
+EmptyImage[NE][1]=./images/4wheel-1860s-mail-mr-dark.1.3
+
+EmptyImage[E][2]=./images/4wheel-1860s-mail-mr.1.4
+EmptyImage[SE][2]=./images/4wheel-1860s-mail-mr.1.5
+EmptyImage[S][2]=./images/4wheel-1860s-mail-mr.1.6
+EmptyImage[SW][2]=./images/4wheel-1860s-mail-mr.1.7
+EmptyImage[W][2]=./images/4wheel-1860s-mail-mr.1.0
+EmptyImage[NW][2]=./images/4wheel-1860s-mail-mr.1.1
+EmptyImage[N][2]=./images/4wheel-1860s-mail-mr.1.2
+EmptyImage[NE][2]=./images/4wheel-1860s-mail-mr.1.3
