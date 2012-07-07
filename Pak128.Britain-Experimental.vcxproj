@@ -249,7 +249,7 @@
     <None Include="text\zh.tab" />
     <None Include="trains\4-wheel-1860s.dat" />
     <None Include="trains\4-wheel-1870s-sub.dat" />
-    <None Include="trains\4-wheel-1870s.dat" />
+    <None Include="trains\4wheel-1870s.dat" />
     <None Include="trains\br-117.dat" />
     <None Include="trains\br-123.dat" />
     <None Include="trains\br-128.dat" />
@@ -335,6 +335,8 @@
     <None Include="trains\lswr-ironclads.dat" />
     <None Include="trains\lswr-n15.dat" />
     <None Include="trains\met-a-class.dat" />
+    <None Include="trains\mr-12wheel-clayton-arc-roof.dat" />
+    <None Include="trains\mr-12wheel-clayton-bogie-clerestories.dat" />
     <None Include="trains\mr-133.dat" />
     <None Include="trains\mr-1357.dat" />
     <None Include="trains\mr-1377.dat" />
@@ -347,6 +349,8 @@
     <None Include="trains\mr-6wheel-brake-third.dat" />
     <None Include="trains\mr-700.dat" />
     <None Include="trains\mr-800.dat" />
+    <None Include="trains\mr-8wheel-clayton-arc-roof.dat" />
+    <None Include="trains\mr-8wheel-clayton-bogie-clerestories.dat" />
     <None Include="trains\mr-non-cor.dat" />
     <None Include="trains\mr-push-pull.dat" />
     <None Include="trains\sr-3sub.dat" />

@@ -22,6 +22,7 @@ payload=50
 overcrowded_capacity=25
 length=5
 brake_force=0
+rolling_resistance=63
 
 weight=9
 cost=300000
@@ -115,6 +116,7 @@ payload=30
 overcrowded_capacity=15
 length=5
 brake_force=4
+rolling_resistance=63
 
 weight=9
 cost=300000
@@ -194,6 +196,7 @@ payload=30
 overcrowded_capacity=15
 length=5
 brake_force=4
+rolling_resistance=63
 
 weight=9
 cost=300000
@@ -292,6 +295,7 @@ payload=50
 overcrowded_capacity=25
 length=5
 brake_force=4
+rolling_resistance=63
 
 weight=10
 cost=355000
@@ -402,6 +406,7 @@ payload=30
 overcrowded_capacity=15
 length=5
 brake_force=4
+rolling_resistance=63
 
 weight=10
 cost=355000
@@ -490,6 +495,7 @@ payload=30
 overcrowded_capacity=15
 length=5
 brake_force=4
+rolling_resistance=63
 
 weight=10
 cost=355000
