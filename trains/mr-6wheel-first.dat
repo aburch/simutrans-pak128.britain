@@ -17,8 +17,10 @@ overcrowded_capacity=25
 # 34ft: http://www.vintagecarriagestrust.org/Midland.htm
 length=6
 
-# Correct weight is 15t: http://www.vintagecarriagestrust.org/Midland.htm
-weight=15
+# The weight of 15t suggested here: http://www.vintagecarriagestrust.org/Midland.htm
+# is probably wrong. 12-13t is more likely to be accurate for a vehicle of 1875 vintage.
+# Otherwise, the tons per passenger is higher than for bogie stock of this era.
+weight=13
 cost=332000
 runningcost=25
 sound=-1
@@ -96,8 +98,7 @@ overcrowded_capacity=20
 # 34ft: http://www.vintagecarriagestrust.org/Midland.htm
 length=6
 
-# Correct weight is 15t: http://www.vintagecarriagestrust.org/Midland.htm
-weight=15
+weight=13
 cost=345000
 upgrade_price=49285
 runningcost=27
