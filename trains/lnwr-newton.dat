@@ -18,7 +18,7 @@ freight=None
 payload=0
 length=5
 brake_force=0
-rolling_resistance=58
+rolling_resistance=64
 
 # Weight obtained from Ahrons p. 169
 weight=29
@@ -54,7 +54,7 @@ freight=None
 payload=0
 length=3
 brake_force=8
-rolling_resistance=58
+rolling_resistance=64
 
 weight=23
 cost=0
