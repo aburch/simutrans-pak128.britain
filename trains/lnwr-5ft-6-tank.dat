@@ -1,0 +1,60 @@
+obj=vehicle
+name=LNWR-5ft-6-tank
+engine_type=steam
+smoke=Steam
+speed=105
+# Calculated from data from Ahrons, pp. 219-220,
+# (Mansion House tank), with wheels adjusted to
+# 5'6 as the later engines.
+# Loss factor set at 0.75
+power=450
+tractive_effort=42
+copyright=James&jamespetts
+intro_year=1890
+intro_month=2
+retire_year=1897
+retire_month=12
+waytype=track
+freight=None
+payload=0
+length=7
+
+# Weight guessed based on Mansion House type
+weight=47
+cost=8300000
+runningcost=850
+sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
+
+liverytype[0]=LNWR-Black
+liverytype[1]=LMS-Standard
+liverytype[2]=BR-Early
+
+EmptyImage[E][0]=./images/lnwr-5'6-tank.1.4
+EmptyImage[SE][0]=./images/lnwr-5'6-tank.1.5
+EmptyImage[S][0]=./images/lnwr-5'6-tank.1.6
+EmptyImage[SW][0]=./images/lnwr-5'6-tank.1.7
+EmptyImage[W][0]=./images/lnwr-5'6-tank.1.0
+EmptyImage[NW][0]=./images/lnwr-5'6-tank.1.1
+EmptyImage[N][0]=./images/lnwr-5'6-tank.1.2
+EmptyImage[NE][0]=./images/lnwr-5'6-tank.1.3
+
+EmptyImage[E][1]=./images/lnwr-5'6-tank-lms.1.4
+EmptyImage[SE][1]=./images/lnwr-5'6-tank-lms.1.5
+EmptyImage[S][1]=./images/lnwr-5'6-tank-lms.1.6
+EmptyImage[SW][1]=./images/lnwr-5'6-tank-lms.1.7
+EmptyImage[W][1]=./images/lnwr-5'6-tank-lms.1.0
+EmptyImage[NW][1]=./images/lnwr-5'6-tank-lms.1.1
+EmptyImage[N][1]=./images/lnwr-5'6-tank-lms.1.2
+EmptyImage[NE][1]=./images/lnwr-5'6-tank-lms.1.3
+
+EmptyImage[E][2]=./images/lnwr-5'6-tank-br.1.4
+EmptyImage[SE][2]=./images/lnwr-5'6-tank-br.1.5
+EmptyImage[S][2]=./images/lnwr-5'6-tank-br.1.6
+EmptyImage[SW][2]=./images/lnwr-5'6-tank-br.1.7
+EmptyImage[W][2]=./images/lnwr-5'6-tank-br.1.0
+EmptyImage[NW][2]=./images/lnwr-5'6-tank-br.1.1
+EmptyImage[N][2]=./images/lnwr-5'6-tank-br.1.2
+EmptyImage[NE][2]=./images/lnwr-5'6-tank-br.1.3
