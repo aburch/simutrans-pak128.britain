@@ -981,7 +981,7 @@ livery[15][0] = Regional-Railways-Standard
 intro_year[15][0] = 1986
 intro_month[15][0] = 6
 
-livery_scheme[16] = London-Underground
+livery_scheme[16] = London-Transport
 retire_year[16] = 2500
 retire_month[16] = 1
 livery[16][0] = UERL
@@ -1010,3 +1010,12 @@ retire_month[18] = 1
 livery[18][0] = GNR-Standard
 intro_year[18][0] = 1846
 intro_month[18][0] = 6
+
+# Special generic livery for assorted
+# liveries of non-London 'buses
+livery_scheme[19] = Regional
+retire_year[19] = 2500
+retire_month[19] = 1
+livery[19][0] = Non-London
+intro_year[19][0] = 1750
+intro_month[19][0] = 1
