@@ -195,23 +195,23 @@ meters_per_tile = 125
 # reduces to 20% of its maximum at tolerable_comfort_short_minutes, and does not decrease further
 # thereafter. 
 
-tolerable_comfort_short_minutes=2
-tolerable_comfort_short=15
+tolerable_comfort_short_minutes=15
+tolerable_comfort_short=7
 
 tolerable_comfort_median_short_minutes=30
-tolerable_comfort_median_short=60
+tolerable_comfort_median_short=65
 
-#Two hours
-tolerable_comfort_median_median_minutes=120
-tolerable_comfort_median_median=120
+#1:40h
+tolerable_comfort_median_median_minutes=100
+tolerable_comfort_median_median=100
 
-#Five hours
+#5:00h
 tolerable_comfort_median_long_minutes=300
-tolerable_comfort_median_long=190
+tolerable_comfort_median_long=200
 
-#12 hours
+#12:00h
 tolerable_comfort_long_minutes=720
-tolerable_comfort_long=240
+tolerable_comfort_long=250
 
 # max_luxury_bonus_differential is the maximum number of comfort rating points above the tolerable level
 # that affects the luxury bonus. Anything beyond that, and further added luxury makes no difference to the
