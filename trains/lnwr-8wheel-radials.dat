@@ -14,8 +14,10 @@ length=8
 
 weight=18
 cost=340000
-runningcost=11
+runningcost=28
 sound=-1
+
+upgrade[0]=LNWR-8wheel-radial-brake-lav-front
 
 comfort=76
 can_lead_from_rear=0
@@ -29,7 +31,13 @@ Constraint[Next][2]=LNWR-8wheel-radial-mail
 Constraint[Next][3]=LNWR-8wheel-radial-tpo
 Constraint[Next][4]=LNWR-8wheel-radial-non-lav
 Constraint[Next][5]=LNWR-8wheel-radial-brake-lav-rear
-Constraint[Next][6]=none
+Constraint[Next][6]=LNWR-6Wheel-non-lav
+Constraint[Next][7]=LNWR-6Wheel-Mail
+Constraint[Next][8]=LNWR-6Wheel-tpo
+Constraint[Next][9]=LNWR-6Wheel-Guard
+Constraint[Next][10]=LNWR-6Wheel-lav
+Constraint[Next][11]=LNWR-6Wheel-brake-third
+Constraint[Next][12]=none
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -58,10 +66,12 @@ obj=vehicle
 name=LNWR-8wheel-radial-brake-lav-front
 speed=135
 copyright=Kieron/James
-intro_year=1883
-intro_month=6
-retire_year=1893
-retire_month=9
+intro_year=1895
+intro_month=12
+# Was actually 1899, but players may wish to convert later.
+# (Millard p. 10).
+retire_year=1915
+retire_month=5
 waytype=track
 freight=Passagiere
 payload=30
@@ -69,8 +79,8 @@ overcrowded_capacity=15
 length=8
 
 weight=18
-cost=350000
-runningcost=12
+upgrade_price=49285
+runningcost=28
 sound=-1
 
 comfort=83
@@ -85,10 +95,19 @@ Constraint[Next][2]=LNWR-8wheel-radial-mail
 Constraint[Next][3]=LNWR-8wheel-radial-tpo
 Constraint[Next][4]=LNWR-8wheel-radial-non-lav
 Constraint[Next][5]=LNWR-8wheel-radial-brake-lav-rear
-Constraint[Next][6]=none
+Constraint[Next][6]=LNWR-6Wheel-non-lav
+Constraint[Next][7]=LNWR-6Wheel-Mail
+Constraint[Next][8]=LNWR-6Wheel-tpo
+Constraint[Next][9]=LNWR-6Wheel-Guard
+Constraint[Next][10]=LNWR-6Wheel-lav
+Constraint[Next][11]=LNWR-6Wheel-brake-third
+Constraint[Next][12]=none
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
+
+# These were only converts from 1895 onwards. See Millard p. 10
+available_only_as_upgrade=1
 
 EmptyImage[E][0]=./images/lnwr-8wheel-radial-brake-lav-front.1.4
 EmptyImage[SE][0]=./images/lnwr-8wheel-radial-brake-lav-front.1.5
@@ -114,10 +133,12 @@ obj=vehicle
 name=LNWR-8wheel-radial-lav
 speed=135
 copyright=Kieron/James
-intro_year=1883
-intro_month=6
-retire_year=1893
-retire_month=9
+intro_year=1895
+intro_month=12
+# Was actually 1899, but players may wish to convert later.
+# (Millard p. 10).
+retire_year=1915
+retire_month=5
 waytype=track
 freight=Passagiere
 payload=60
@@ -125,8 +146,8 @@ overcrowded_capacity=30
 length=8
 
 weight=18
-cost=350000
-runningcost=12
+upgrade_price=49285
+runningcost=28
 sound=-1
 
 comfort=83
@@ -135,12 +156,21 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
+# These were only converts from 1895 onwards. See Millard p. 10
+available_only_as_upgrade=1
+
 Constraint[Next][0]=LNWR-8wheel-radial-lav
 Constraint[Next][1]=LNWR-8wheel-radial-brake-rear
 Constraint[Next][2]=LNWR-8wheel-radial-mail
 Constraint[Next][3]=LNWR-8wheel-radial-tpo
 Constraint[Next][4]=LNWR-8wheel-radial-non-lav
 Constraint[Next][5]=LNWR-8wheel-radial-brake-lav-rear
+Constraint[Next][6]=LNWR-6Wheel-non-lav
+Constraint[Next][7]=LNWR-6Wheel-Mail
+Constraint[Next][8]=LNWR-6Wheel-tpo
+Constraint[Next][9]=LNWR-6Wheel-Guard
+Constraint[Next][10]=LNWR-6Wheel-lav
+Constraint[Next][11]=LNWR-6Wheel-brake-third
 
 Constraint[Prev][0]=LNWR-8wheel-radial-lav
 Constraint[Prev][1]=LNWR-8wheel-radial-brake-front
@@ -148,6 +178,12 @@ Constraint[Prev][2]=LNWR-8wheel-radial-mail
 Constraint[Prev][3]=LNWR-8wheel-radial-tpo
 Constraint[Prev][4]=LNWR-8wheel-radial-non-lav
 Constraint[Prev][5]=LNWR-8wheel-radial-brake-lav-front
+Constraint[Prev][6]=LNWR-6Wheel-non-lav
+Constraint[Prev][7]=LNWR-6Wheel-Mail
+Constraint[Prev][8]=LNWR-6Wheel-tpo
+Constraint[Prev][9]=LNWR-6Wheel-Guard
+Constraint[Prev][10]=LNWR-6Wheel-lav
+Constraint[Prev][11]=LNWR-6Wheel-brake-third
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -188,8 +224,10 @@ length=8
 
 weight=18
 cost=340000
-runningcost=11
+runningcost=28
 sound=-1
+
+upgrade[0]=LNWR-8wheel-radial-lav
 
 comfort=76
 can_lead_from_rear=0
@@ -203,6 +241,12 @@ Constraint[Next][2]=LNWR-8wheel-radial-mail
 Constraint[Next][3]=LNWR-8wheel-radial-tpo
 Constraint[Next][4]=LNWR-8wheel-radial-non-lav
 Constraint[Next][5]=LNWR-8wheel-radial-brake-lav-rear
+Constraint[Next][6]=LNWR-6Wheel-non-lav
+Constraint[Next][7]=LNWR-6Wheel-Mail
+Constraint[Next][8]=LNWR-6Wheel-tpo
+Constraint[Next][9]=LNWR-6Wheel-Guard
+Constraint[Next][10]=LNWR-6Wheel-lav
+Constraint[Next][11]=LNWR-6Wheel-brake-third
 
 Constraint[Prev][0]=LNWR-8wheel-radial-lav
 Constraint[Prev][1]=LNWR-8wheel-radial-brake-front
@@ -210,6 +254,12 @@ Constraint[Prev][2]=LNWR-8wheel-radial-mail
 Constraint[Prev][3]=LNWR-8wheel-radial-tpo
 Constraint[Prev][4]=LNWR-8wheel-radial-non-lav
 Constraint[Prev][5]=LNWR-8wheel-radial-brake-lav-front
+Constraint[Prev][6]=LNWR-6Wheel-non-lav
+Constraint[Prev][7]=LNWR-6Wheel-Mail
+Constraint[Prev][8]=LNWR-6Wheel-tpo
+Constraint[Prev][9]=LNWR-6Wheel-Guard
+Constraint[Prev][10]=LNWR-6Wheel-lav
+Constraint[Prev][11]=LNWR-6Wheel-brake-third
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -250,8 +300,10 @@ length=8
 
 weight=18
 cost=350000
-runningcost=11
+runningcost=28
 sound=-1
+
+upgrade[0]=LNWR-8wheel-radial-brake-lav-rear
 
 comfort=76
 can_lead_from_rear=0
@@ -265,7 +317,13 @@ Constraint[Next][2]=LNWR-8wheel-radial-mail
 Constraint[Next][3]=LNWR-8wheel-radial-tpo
 Constraint[Next][4]=LNWR-8wheel-radial-non-lav
 Constraint[Next][5]=LNWR-8wheel-radial-brake-lav-rear
-Constraint[Next][6]=none
+Constraint[Next][6]=LNWR-6Wheel-non-lav
+Constraint[Next][7]=LNWR-6Wheel-Mail
+Constraint[Next][8]=LNWR-6Wheel-tpo
+Constraint[Next][9]=LNWR-6Wheel-Guard
+Constraint[Next][10]=LNWR-6Wheel-lav
+Constraint[Next][11]=LNWR-6Wheel-brake-third
+Constraint[Next][12]=none
 
 Constraint[Prev][0]=LNWR-8wheel-radial-lav
 Constraint[Prev][1]=LNWR-8wheel-radial-brake-front
@@ -273,6 +331,12 @@ Constraint[Prev][2]=LNWR-8wheel-radial-mail
 Constraint[Prev][3]=LNWR-8wheel-radial-tpo
 Constraint[Prev][4]=LNWR-8wheel-radial-non-lav
 Constraint[Prev][5]=LNWR-8wheel-radial-brake-lav-front
+Constraint[Prev][6]=LNWR-6Wheel-non-lav
+Constraint[Prev][7]=LNWR-6Wheel-Mail
+Constraint[Prev][8]=LNWR-6Wheel-tpo
+Constraint[Prev][9]=LNWR-6Wheel-Guard
+Constraint[Prev][10]=LNWR-6Wheel-lav
+Constraint[Prev][11]=LNWR-6Wheel-brake-third
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -301,19 +365,21 @@ obj=vehicle
 name=LNWR-8wheel-radial-brake-lav-rear
 speed=135
 copyright=Kieron/James
-intro_year=1883
-intro_month=6
-retire_year=1893
-retire_month=9
+intro_year=1895
+intro_month=12
+# Was actually 1899, but players may wish to convert later.
+# (Millard p. 10).
+retire_year=1915
+retire_month=5
 waytype=track
 freight=Passagiere
-payload=30
+payload=28
 overcrowded_capacity=15
 length=8
 
 weight=18
-cost=350000
-runningcost=12
+upgrade_price=49285
+runningcost=28
 sound=-1
 
 comfort=83
@@ -322,13 +388,22 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
+# These were only converts from 1895 onwards. See Millard p. 10
+available_only_as_upgrade=1
+
 Constraint[Next][0]=LNWR-8wheel-radial-lav
 Constraint[Next][1]=LNWR-8wheel-radial-brake-rear
 Constraint[Next][2]=LNWR-8wheel-radial-mail
 Constraint[Next][3]=LNWR-8wheel-radial-tpo
 Constraint[Next][4]=LNWR-8wheel-radial-non-lav
 Constraint[Next][5]=LNWR-8wheel-radial-brake-lav-rear
-Constraint[Next][6]=none
+Constraint[Next][6]=LNWR-6Wheel-non-lav
+Constraint[Next][7]=LNWR-6Wheel-Mail
+Constraint[Next][8]=LNWR-6Wheel-tpo
+Constraint[Next][9]=LNWR-6Wheel-Guard
+Constraint[Next][10]=LNWR-6Wheel-lav
+Constraint[Next][11]=LNWR-6Wheel-brake-third
+Constraint[Next][12]=none
 
 Constraint[Prev][0]=LNWR-8wheel-radial-lav
 Constraint[Prev][1]=LNWR-8wheel-radial-brake-front
@@ -336,6 +411,12 @@ Constraint[Prev][2]=LNWR-8wheel-radial-mail
 Constraint[Prev][3]=LNWR-8wheel-radial-tpo
 Constraint[Prev][4]=LNWR-8wheel-radial-non-lav
 Constraint[Prev][5]=LNWR-8wheel-radial-brake-lav-front
+Constraint[Prev][6]=LNWR-6Wheel-non-lav
+Constraint[Prev][7]=LNWR-6Wheel-Mail
+Constraint[Prev][8]=LNWR-6Wheel-tpo
+Constraint[Prev][9]=LNWR-6Wheel-Guard
+Constraint[Prev][10]=LNWR-6Wheel-lav
+Constraint[Prev][11]=LNWR-6Wheel-brake-third
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -375,7 +456,7 @@ length=8
 
 weight=18
 cost=350000
-runningcost=11
+runningcost=28
 sound=-1
 
 can_lead_from_rear=0
@@ -389,6 +470,12 @@ Constraint[Next][2]=LNWR-8wheel-radial-mail
 Constraint[Next][3]=LNWR-8wheel-radial-tpo
 Constraint[Next][4]=LNWR-8wheel-radial-non-lav
 Constraint[Next][5]=LNWR-8wheel-radial-brake-lav-rear
+Constraint[Next][6]=LNWR-6Wheel-non-lav
+Constraint[Next][7]=LNWR-6Wheel-Mail
+Constraint[Next][8]=LNWR-6Wheel-tpo
+Constraint[Next][9]=LNWR-6Wheel-Guard
+Constraint[Next][10]=LNWR-6Wheel-lav
+Constraint[Next][11]=LNWR-6Wheel-brake-third
 
 Constraint[Prev][0]=LNWR-8wheel-radial-lav
 Constraint[Prev][1]=LNWR-8wheel-radial-brake-front
@@ -396,6 +483,12 @@ Constraint[Prev][2]=LNWR-8wheel-radial-mail
 Constraint[Prev][3]=LNWR-8wheel-radial-tpo
 Constraint[Prev][4]=LNWR-8wheel-radial-non-lav
 Constraint[Prev][5]=LNWR-8wheel-radial-brake-lav-front
+Constraint[Prev][6]=LNWR-6Wheel-non-lav
+Constraint[Prev][7]=LNWR-6Wheel-Mail
+Constraint[Prev][8]=LNWR-6Wheel-tpo
+Constraint[Prev][9]=LNWR-6Wheel-Guard
+Constraint[Prev][10]=LNWR-6Wheel-lav
+Constraint[Prev][11]=LNWR-6Wheel-brake-third
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -434,7 +527,7 @@ length=8
 
 weight=18
 cost=350000
-runningcost=19
+runningcost=28
 sound=-1
 
 can_lead_from_rear=0
@@ -449,6 +542,12 @@ Constraint[Next][2]=LNWR-8wheel-radial-mail
 Constraint[Next][3]=LNWR-8wheel-radial-tpo
 Constraint[Next][4]=LNWR-8wheel-radial-non-lav
 Constraint[Next][5]=LNWR-8wheel-radial-brake-lav-rear
+Constraint[Next][6]=LNWR-6Wheel-non-lav
+Constraint[Next][7]=LNWR-6Wheel-Mail
+Constraint[Next][8]=LNWR-6Wheel-tpo
+Constraint[Next][9]=LNWR-6Wheel-Guard
+Constraint[Next][10]=LNWR-6Wheel-lav
+Constraint[Next][11]=LNWR-6Wheel-brake-third
 
 Constraint[Prev][0]=LNWR-8wheel-radial-lav
 Constraint[Prev][1]=LNWR-8wheel-radial-brake-front
@@ -456,6 +555,12 @@ Constraint[Prev][2]=LNWR-8wheel-radial-mail
 Constraint[Prev][3]=LNWR-8wheel-radial-tpo
 Constraint[Prev][4]=LNWR-8wheel-radial-non-lav
 Constraint[Prev][5]=LNWR-8wheel-radial-brake-lav-front
+Constraint[Prev][6]=LNWR-6Wheel-non-lav
+Constraint[Prev][7]=LNWR-6Wheel-Mail
+Constraint[Prev][8]=LNWR-6Wheel-tpo
+Constraint[Prev][9]=LNWR-6Wheel-Guard
+Constraint[Prev][10]=LNWR-6Wheel-lav
+Constraint[Prev][11]=LNWR-6Wheel-brake-third
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard

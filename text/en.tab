@@ -1771,10 +1771,14 @@ GNR-6Wheel-brake-third-front
 GNR six wheel four compartment brake carriage
 GNR-6Wheel-brake-third-rear
 GNR six wheel four compartment brake carriage
-LNWR-6Wheel-First
+LNWR-6Wheel-non-lav
 LNWR six wheel five compartment carriage
+LNWR-6Wheel-lav
+LNWR six wheel four compartment lavatory carriage
 LNWR-6Wheel-Guard
 LNWR six wheel brake/mail carriage
+LNWR-6Wheel-brake-third
+LNWR 6 wheel three compartment brake carriage
 MR-6Wheel-non-lav
 Midland six wheel five compartment carriage
 MR-6Wheel-lav
@@ -2759,6 +2763,8 @@ MR-Clerestory-Dining
 Midland clerestory dining car
 LNWR-6Wheel-Mail
 LNWR six wheel mail carriage
+LNWR-6Wheel-tpo
+LNWR six wheel parcel sorting van
 GNR-6Wheel-Mail
 GNR six wheel mail carriage
 MR-6Wheel-Mail
