@@ -34,6 +34,7 @@ Constraint[Next][4]=LNWR-42ft-cor-tpo
 Constraint[Next][5]=LNWR-50ft-6in-diner-twin-kitchen
 Constraint[Next][6]=LNWR-50ft-cor
 Constraint[Next][7]=LNWR-50ft-cor-brake
+Constraint[Next][8]=LNWR-60ft-6in-diner
 # Add constraints for later LNWR corridor vehicles here.
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
@@ -44,6 +45,7 @@ Constraint[Prev][4]=LNWR-42ft-cor-tpo
 Constraint[Prev][5]=LNWR-50ft-6in-diner-twin-saloon
 Constraint[Prev][6]=LNWR-50ft-cor
 Constraint[Prev][7]=LNWR-50ft-cor-brake
+Constraint[Prev][8]=LNWR-60ft-6in-diner
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -104,7 +106,8 @@ Constraint[Next][4]=LNWR-42ft-cor-tpo
 Constraint[Next][5]=LNWR-50ft-6in-diner-twin-kitchen
 Constraint[Next][6]=LNWR-50ft-cor
 Constraint[Next][7]=LNWR-50ft-cor-brake
-Constraint[Next][8]=none
+Constraint[Next][8]=LNWR-60ft-6in-diner
+Constraint[Next][9]=none
 # Add constraints for later LNWR corridor vehicles here.
 
 liverytype[0]=LNWR-Black
