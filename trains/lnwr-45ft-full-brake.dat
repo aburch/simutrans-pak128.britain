@@ -29,7 +29,9 @@ Constraint[Next][2]=LNWR-42ft-cor-brake-rear
 Constraint[Next][3]=LNWR-42ft-cor-mail
 Constraint[Next][4]=LNWR-42ft-cor-tpo
 Constraint[Next][5]=LNWR-50ft-6in-diner-twin-kitchen
-Constraint[Next][6]=none
+Constraint[Next][6]=LNWR-50ft-cor
+Constraint[Next][7]=LNWR-50ft-cor-brake
+Constraint[Next][8]=none
 # Add constraints for later LNWR corridor vehicles here.
 
 liverytype[0]=LNWR-Black

@@ -37,8 +37,9 @@ Constraint[Prev][1]=LNWR-42ft-cor
 Constraint[Prev][2]=LNWR-42ft-cor-brake-front
 Constraint[Prev][3]=LNWR-42ft-cor-mail
 Constraint[Prev][4]=LNWR-42ft-cor-tpo
-
-Constraint[Prev][0]=
+Constraint[Prev][5]=LNWR-50ft-6in-diner-twin-saloon
+Constraint[Prev][6]=LNWR-50ft-cor
+Constraint[Prev][7]=LNWR-50ft-cor-brake
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -95,6 +96,9 @@ Constraint[Next][1]=LNWR-42ft-cor
 Constraint[Next][2]=LNWR-42ft-cor-brake-rear
 Constraint[Next][3]=LNWR-42ft-cor-mail
 Constraint[Next][4]=LNWR-42ft-cor-tpo
+Constraint[Next][5]=LNWR-50ft-6in-diner-twin-kitchen
+Constraint[Next][6]=LNWR-50ft-cor
+Constraint[Next][7]=LNWR-50ft-cor-brake
 
 Constraint[Prev][0]=LNWR-50ft-6in-diner-twin-kitchen
 
