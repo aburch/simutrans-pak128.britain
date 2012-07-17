@@ -1,7 +1,7 @@
 # Lavatory compartment stock
 obj=vehicle
 name=LBSCR-non-cor-lav
-speed=140
+speed=160
 copyright=Kieron&jamespetts
 intro_year=1889
 intro_month=10
@@ -57,7 +57,7 @@ EmptyImage[NE]=./images/lbscr-non-cor-lav.0.7
 
 obj=vehicle
 name=LBSCR-non-cor-lav-brake-rear
-speed=140
+speed=160
 copyright=Kieron&jamespetts
 intro_year=1889
 intro_month=10
@@ -108,7 +108,7 @@ EmptyImage[NE]=./images/lbscr-non-cor-lav-brake.0.7
 
 obj=vehicle
 name=LBSCR-non-cor-lav-brake-front
-speed=140
+speed=160
 copyright=Kieron&jamespetts
 intro_year=1889
 intro_month=10

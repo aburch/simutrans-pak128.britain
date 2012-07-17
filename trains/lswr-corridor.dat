@@ -1,6 +1,6 @@
 obj=vehicle
 name=LSWR-corridor
-speed=130
+speed=160
 copyright=James&jamespetts
 intro_year=1903
 retire_year=1921
@@ -72,7 +72,7 @@ EmptyImage[NE]=./images/lswr-corridor.0.7
 
 obj=vehicle
 name=LSWR-corridor-brake-front
-speed=130
+speed=160
 copyright=James&jamespetts
 intro_year=1903
 intro_month=9
@@ -128,7 +128,7 @@ EmptyImage[NE]=./images/lswr-corridor-brake.0.7
 
 obj=vehicle
 name=LSWR-corridor-brake-rear
-speed=130
+speed=160
 copyright=James&jamespetts
 intro_year=1903
 intro_month=9
