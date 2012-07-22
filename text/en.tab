@@ -2380,21 +2380,41 @@ GWR Express Carriage
 LMS-d1904-Coach
 LMS high capacity open carriage
 LMS-open-brake-front
-LMS open brake
+LMS open brake carriage
 LMS-open-brake-rear
-LMS open brake
+LMS open brake carriage (rear)
 LMS-d2007-Parcel-Brake
-LMS Parcel Brake Carriage
+LMS mail/brake
 LMS-d1904-Dining
-LMS Dining car
+LMS dining car
+LMS-period1-cor
+LMS corridor carriage
+LMS-period1-cor-brake-front
+LMS corridor brake carriage
+LMS-period1-cor-brake-rear
+LMS corridor brake carriage (rear)
+LMS-period1-cor-open
+LMS open carriage
+LMS-period1-cor-open-brake-front
+LMS open brake carriage
+LMS-period1-cor-open-brake-rear
+LMS open brake carriage (rear)
+LMS-period1-mail
+LMS mail carriage
+LMS-period1-tpo
+LMS TPO
+LMS-period1-full-brake
+LMS mail/brake carriage
+LMS-period1-cor-diner
+LMS dining car
 LMS-non-cor-lav
-LMS standard non-corridor carriage (lavatory)
+LMS eight compartment lavatory carriage
 LMS-non-cor-non-lav
-LMS standard non-corridor carriage
+LMS nine compartment carriage
 LMS-non-cor-brake-front
-LMS standard non-corridor carriage (brake)
+LMS six compartment brake carriage
 LMS-non-cor-brake-rear
-LMS standard non-corridor carriage (brake)
+LMS six compartment brake carriage (rear)
 LMS-push-pull-brake
 LMS push-pull set (driving trailer)
 LMS-push-pull-centre-1
@@ -2406,13 +2426,13 @@ Midland push-pull set (front)
 MR-push-pull-rear
 Midland push-pull set (rear)
 MR-non-cor-lav
-Midland standard non-corridor carriage (lavatory)
+Midland seven compartment lavatory carriage
 MR-non-cor-non-lav
-Midland standard non-corridor carriage
+Midland eight compartment carriage
 MR-non-cor-brake-front
-Midland standard non-corridor carriage (brake)
+Midland five compartment brake carriage
 MR-non-cor-brake-rear
-Midland standard non-corridor carriage (brake)
+Midland five compartment brake carriage (rear)
 LMS-Garratt-Middle(Black)
 LMS Garratt 2-6-0+0-6-2 (boiler)
 LMS-Garratt-Front(Black)
