@@ -1791,8 +1791,8 @@ LNWR-42ft-cor-brake-front
 LNWR corridor brake carriage (42ft)
 LNWR-42ft-cor-brake-rear
 LNWR corridor brake carriage (42ft) (rear)
-LNWR-42ft-cor-mail (42ft)
-LNWR corridor mail carriage
+LNWR-42ft-cor-mail
+LNWR corridor mail carriage (42ft)
 LNWR-42ft-cor-tpo
 LNWR corridor TPO (42ft)
 LNWR-50ft-cor
@@ -2377,16 +2377,30 @@ GWR-Express-Brake
 GWR Express Carriage (brake)
 GWR-Express-Coach
 GWR Express Carriage
-LMS-d1904-Coach
+LMS-open
 LMS high capacity open carriage
 LMS-open-brake-front
 LMS open brake carriage
 LMS-open-brake-rear
 LMS open brake carriage (rear)
-LMS-d2007-Parcel-Brake
-LMS mail/brake
-LMS-d1904-Dining
+LMS-full-brake
+LMS mail/brake carriage
+LMS-diner
 LMS dining car
+LMS-cor
+LMS corridor carriage
+LMS-cor-brake-front
+LMS corridor brake carriage
+LMS-cor-brake-rear
+LMS corridor brake carriage (rear)
+LMS-buffet
+LMS buffet car
+LMS-full-brake
+LMS mail/brake carriage
+LMS-Mail
+LMS mail carriage
+LMS-TPO
+LMS TPO
 LMS-period1-cor
 LMS corridor carriage
 LMS-period1-cor-brake-front
@@ -2639,9 +2653,13 @@ MR-Spinner(Maroon)
 Midland 115 Class "Spinner" 4-2-2
 MR-Spinner-Tender(Maroon)
 Midland 673 Class "Spinner" 4-2-2 (tender)
-LMS-Patriot(Maroon)
+LMS-royal-scot
+LMS Class 6P "Royal Scot" 4-6-0
+LMS-royal-scot-tender
+LMS Class 6P "Royal Scot" 4-6-0 (tender)
+LMS-Patriot
 LMS Class 5XP "Patriot" 4-6-0
-LMS-Patriot-Tender(Maroon)
+LMS-Patriot-Tender
 LMS Class 5XP "Patriot" 4-6-0 (tender)
 LMS-Princess-Royal(Maroon)
 LMS Class 7P "Princess Royal"
@@ -2839,8 +2857,6 @@ GWR-Express-TPO
 GWR Travelling Post Office
 SR-Maunsell-Parcels(Green)
 SR Mail van
-LMS-TPO
-LMS Travelling Post Office
 LNER-Gresley-Express-Parcel-Brake
 LNER Parcel Brake coach (teak)
 LNER-Gresley-Express-TPO
@@ -2867,8 +2883,6 @@ SR-Maunsell-Mail(Green)
 SR Maunsell Mail van
 GWR-Express-Mail
 GWR Bow-ended Mail Coach
-LMS-Mail
-LMS Standard mail coach
 LNER-Gresley-Express-Mail
 LNER mail coach
 BR-Mk1-POS

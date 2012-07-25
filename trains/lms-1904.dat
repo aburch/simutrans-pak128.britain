@@ -2,8 +2,10 @@
 # The corridor carriages should
 # have the same comfort as the 
 # LNER carriages of the time.
-obj=vehicle
-name=LMS-d1904-Coach
+# DEPRECATED - see new file.
+# obj=vehicle
+# Formerly: LMS-d1904-Coach
+name=LMS-open
 speed=160
 copyright=Kieron
 intro_year=1933
@@ -52,10 +54,10 @@ Constraint[Next][20]=LMS-period1-mail
 Constraint[Next][21]=LMS-period1-tpo
 Constraint[Next][22]=LMS-period1-full-brake
 Constraint[Next][23]=LMS-period1-cor-diner
-Constraint[Next][24]=LMS-d1904-Coach
-Constraint[Next][25]=LMS-d2007-Parcel-Brake
+Constraint[Next][24]=LMS-open
+Constraint[Next][25]=LMS-full-brake
 Constraint[Next][26]=LMS-open-brake-rear
-Constraint[Next][27]=LMS-d1904-Dining
+Constraint[Next][27]=LMS-diner
 Constraint[Next][28]=LMS-Mail
 Constraint[Next][29]=LMS-TPO
 
@@ -83,10 +85,10 @@ Constraint[Prev][20]=LMS-period1-mail
 Constraint[Prev][21]=LMS-period1-tpo
 Constraint[Prev][22]=LMS-period1-full-brake
 Constraint[Prev][23]=LMS-period1-cor-diner
-Constraint[Prev][24]=LMS-d1904-Coach
-Constraint[Prev][25]=LMS-d2007-Parcel-Brake
+Constraint[Prev][24]=LMS-open
+Constraint[Prev][25]=LMS-full-brake
 Constraint[Prev][26]=LMS-open-brake-front
-Constraint[Prev][27]=LMS-d1904-Dining
+Constraint[Prev][27]=LMS-diner
 Constraint[Prev][28]=LMS-Mail
 Constraint[Prev][29]=LMS-TPO
 
@@ -100,10 +102,11 @@ EmptyImage[N]=./images/lms-d1904-m.0.6
 EmptyImage[NE]=./images/lms-d1904-m.0.7
 
 ---------------------------------
-# Need a proper 12-wheel diner here.
+#  DEPRECATED
 
-obj=vehicle
-name=LMS-d1904-Dining
+#obj=vehicle
+# Formerly: LMS-d1904-Dining
+name=LMS-diner
 speed=160
 copyright=Kieron
 intro_year=1933
@@ -156,10 +159,10 @@ Constraint[Next][20]=LMS-period1-mail
 Constraint[Next][21]=LMS-period1-tpo
 Constraint[Next][22]=LMS-period1-full-brake
 Constraint[Next][23]=LMS-period1-cor-diner
-Constraint[Next][24]=LMS-d1904-Coach
-Constraint[Next][25]=LMS-d2007-Parcel-Brake
+Constraint[Next][24]=LMS-open
+Constraint[Next][25]=LMS-full-brake
 Constraint[Next][26]=LMS-open-brake-rear
-Constraint[Next][27]=LMS-d1904-Dining
+Constraint[Next][27]=LMS-diner
 Constraint[Next][28]=LMS-Mail
 Constraint[Next][29]=LMS-TPO
 
@@ -187,10 +190,10 @@ Constraint[Prev][20]=LMS-period1-mail
 Constraint[Prev][21]=LMS-period1-tpo
 Constraint[Prev][22]=LMS-period1-full-brake
 Constraint[Prev][23]=LMS-period1-cor-diner
-Constraint[Prev][24]=LMS-d1904-Coach
-Constraint[Prev][25]=LMS-d2007-Parcel-Brake
+Constraint[Prev][24]=LMS-open
+Constraint[Prev][25]=LMS-full-brake
 Constraint[Prev][26]=LMS-open-brake-front
-Constraint[Prev][27]=LMS-d1904-Dining
+Constraint[Prev][27]=LMS-diner
 Constraint[Prev][28]=LMS-Mail
 Constraint[Prev][29]=LMS-TPO
 

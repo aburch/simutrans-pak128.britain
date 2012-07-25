@@ -1,9 +1,6 @@
-# NOTE: These carriages might be the wrong length:
-# they are depicted as 50ft vehicles, when they probably
-# ought to be 57ft vehicles. Only the parcel brake is 
-# 50ft.
+# DEPRECATED
 
-obj=vehicle
+#obj=vehicle
 name=LMS-Mail
 speed=160
 copyright=Kieron/James
@@ -51,10 +48,10 @@ Constraint[Next][20]=LMS-period1-mail
 Constraint[Next][21]=LMS-period1-tpo
 Constraint[Next][22]=LMS-period1-full-brake
 Constraint[Next][23]=LMS-period1-cor-diner
-Constraint[Next][24]=LMS-d1904-Coach
-Constraint[Next][25]=LMS-d2007-Parcel-Brake
+Constraint[Next][24]=LMS-open
+Constraint[Next][25]=LMS-full-brake
 Constraint[Next][26]=LMS-open-brake-rear
-Constraint[Next][27]=LMS-d1904-Dining
+Constraint[Next][27]=LMS-diner
 Constraint[Next][28]=LMS-Mail
 Constraint[Next][29]=LMS-TPO
 
@@ -82,10 +79,10 @@ Constraint[Prev][20]=LMS-period1-mail
 Constraint[Prev][21]=LMS-period1-tpo
 Constraint[Prev][22]=LMS-period1-full-brake
 Constraint[Prev][23]=LMS-period1-cor-diner
-Constraint[Prev][24]=LMS-d1904-Coach
-Constraint[Prev][25]=LMS-d2007-Parcel-Brake
+Constraint[Prev][24]=LMS-open
+Constraint[Prev][25]=LMS-full-brake
 Constraint[Prev][26]=LMS-open-brake-front
-Constraint[Prev][27]=LMS-d1904-Dining
+Constraint[Prev][27]=LMS-diner
 Constraint[Prev][28]=LMS-Mail
 Constraint[Prev][29]=LMS-TPO
 
@@ -100,7 +97,8 @@ EmptyImage[NE]=./images/lms-mail.0.7
 
 ---------------------------------
 
-obj=vehicle
+#DEPRECATED
+#obj=vehicle
 name=LMS-TPO
 speed=160
 copyright=Kieron/James
@@ -152,10 +150,10 @@ Constraint[Next][20]=LMS-period1-mail
 Constraint[Next][21]=LMS-period1-tpo
 Constraint[Next][22]=LMS-period1-full-brake
 Constraint[Next][23]=LMS-period1-cor-diner
-Constraint[Next][24]=LMS-d1904-Coach
-Constraint[Next][25]=LMS-d2007-Parcel-Brake
+Constraint[Next][24]=LMS-open
+Constraint[Next][25]=LMS-full-brake
 Constraint[Next][26]=LMS-open-brake-rear
-Constraint[Next][27]=LMS-d1904-Dining
+Constraint[Next][27]=LMS-diner
 Constraint[Next][28]=LMS-Mail
 Constraint[Next][29]=LMS-TPO
 
@@ -183,10 +181,10 @@ Constraint[Prev][20]=LMS-period1-mail
 Constraint[Prev][21]=LMS-period1-tpo
 Constraint[Prev][22]=LMS-period1-full-brake
 Constraint[Prev][23]=LMS-period1-cor-diner
-Constraint[Prev][24]=LMS-d1904-Coach
-Constraint[Prev][25]=LMS-d2007-Parcel-Brake
+Constraint[Prev][24]=LMS-open
+Constraint[Prev][25]=LMS-full-brake
 Constraint[Prev][26]=LMS-open-brake-front
-Constraint[Prev][27]=LMS-d1904-Dining
+Constraint[Prev][27]=LMS-diner
 Constraint[Prev][28]=LMS-Mail
 Constraint[Prev][29]=LMS-TPO
 

@@ -1,5 +1,6 @@
-obj=vehicle
-name=LMS-d2007-Parcel-Brake
+# DEPRECATED
+#obj=vehicle
+name=LMS-full-brake
 speed=160
 copyright=Kieron
 intro_year=1932
@@ -50,10 +51,10 @@ Constraint[Next][20]=LMS-period1-mail
 Constraint[Next][21]=LMS-period1-tpo
 Constraint[Next][22]=LMS-period1-full-brake
 Constraint[Next][23]=LMS-period1-cor-diner
-Constraint[Next][24]=LMS-d1904-Coach
-Constraint[Next][25]=LMS-d2007-Parcel-Brake
+Constraint[Next][24]=LMS-open
+Constraint[Next][25]=LMS-full-brake
 Constraint[Next][26]=LMS-open-brake-rear
-Constraint[Next][27]=LMS-d1904-Dining
+Constraint[Next][27]=LMS-diner
 Constraint[Next][28]=LMS-Mail
 Constraint[Next][29]=LMS-TPO
 Constraint[Next][30]=none
