@@ -2,13 +2,13 @@
 !mose min_version 3
 !size=128
 run ./parameter.mos
-echo Build pak128.Britain-Ex ...
-echo This could take a few minutes!
+echo Buildinging pak128.Britain-Ex...
+echo This might take several minutes.
 echo
 config only_error=0
 config makeobj=%makeobj%
 
-echo Copy system objects
+echo Copying system objects
 rmdir %OUTPUT%
 mkdir %OUTPUT%
 mkdir %OUTPUT%config/
@@ -23,13 +23,18 @@ xcopy ./readme.txt %OUTPUT%
 xcopy ./compat.tab %OUTPUT%
 xcopy ./symbol.BigLogo.pak %OUTPUT%
 
-echo Build aircraft
+echo Building aircraft
 build %OUTPUT%BritAir-Ex.pak ./air/
+!size=192
+build %OUTPUT%BritAir192.pak ./air/air192/
+!size=256
+build %OUTPUT%BritAir256.pak ./air/air256/
 
-echo Build attractions
+!size=128
+echo Building attractions
 build %OUTPUT%BritAttractions-Ex.pak ./attractions/
 
-echo Build boats
+echo Building boats
 build %OUTPUT%BritBoat-Ex.pak ./boats/
 !size=192
 build %OUTPUT%BritBoat192-Ex.pak ./boats/boats192/
@@ -37,30 +42,30 @@ build %OUTPUT%BritBoat192-Ex.pak ./boats/boats192/
 build %OUTPUT%BritBoat224-Ex.pak ./boats/boats224/
 
 !size=128
-echo Build busses
+echo Building busses
 build %OUTPUT%BritBus-Ex.pak ./bus/
 
-echo Build citybuildings
+echo Building citybuildings
 build %OUTPUT%BritCity-Ex.pak ./citybuildings/
 
-echo Build citycars
+echo Building citycars
 build %OUTPUT%BritCitycar-Ex.pak ./citycars/
 
-echo Build depots
+echo Building depots
 build %OUTPUT%BritDepot-Ex.pak ./depots/
 
-echo Build goods
+echo Building goods
 build %OUTPUT%BritGoods-Ex.pak ./goods/
 
-echo Build grounds
+echo Building grounds
 build %OUTPUT%BritGrounds-Ex.pak ./grounds/
 
-# Note, ground.Outside.pak must be in the top dir for it to be ID'ed as a pak
-echo Build ground.Outside.pak
+# Note, ground.Outside.pak must be in the top dir for it to be recognised as a pakset
+echo Building ground.Outside.pak
 build %OUTPUT% ./pak1file/128/
 
 
-echo Build gui
+echo Building gui
 !size=64
 #build %OUTPUT%BritGUI64-Ex.pak ./gui/gui64/
 build %OUTPUT%BritGUI64-Ex.pak ./gui/gui64/
@@ -68,43 +73,43 @@ build %OUTPUT%BritGUI64-Ex.pak ./gui/gui64/
 #build %OUTPUT% ./gui/gui128/
 build %OUTPUT%BritGUI128-Ex.pak ./gui/gui128/
 
-echo Build HQ
+echo Building HQ
 build %OUTPUT%BritHQ-Ex.pak ./hq/
 
-echo Build industry
+echo Building industry
 build %OUTPUT%BritIndustry-Ex.pak ./industry/
 
-echo Build london-underground
+echo Building london-underground
 build %OUTPUT%BritLU-Ex.pak ./london-underground/
 
-echo Build maglevs
+echo Building maglevs
 build %OUTPUT%BritMaglev-Ex.pak ./maglev/
 
-echo Build narrow gauge
+echo Building narrow gauge
 build %OUTPUT%BritNarrowGauge-Ex.pak ./narrowgauge/ 
 
-echo Build pedestrians
+echo Building pedestrians
 build %OUTPUT%BritPedestrian-Ex.pak ./pedestrians/
 
-echo Build smokes
+echo Building smokes
 build %OUTPUT%BritSmoke-Ex.pak ./smokes/
 
-echo Build stations
+echo Building stations
 build %OUTPUT%BritStation-Ex.pak ./stations/
 
-echo Build townhall
+echo Building townhall
 build %OUTPUT%BritHall-Ex.pak ./townhall/
 
-echo Build trains
+echo Building trains
 build %OUTPUT%BritRail-Ex.pak ./trains/
 
-echo Build trams
+echo Building trams
 build %OUTPUT%BritTram-Ex.pak ./trams/
 
-echo Build trees
+echo Building trees
 build %OUTPUT%BritTree-Ex.pak ./trees/
 
-echo Build ways
+echo Building ways
 build %OUTPUT%BritWay-Ex.pak ./ways/
 
 echo -----------------
