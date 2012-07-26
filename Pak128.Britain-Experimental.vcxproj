@@ -116,6 +116,7 @@
     <None Include="bus\daf-lf.dat" />
     <None Include="bus\Enviro200-1door.dat" />
     <None Include="bus\Enviro200-2door.dat" />
+    <None Include="bus\Enviro300.dat" />
     <None Include="bus\ford-escort-van.dat" />
     <None Include="bus\ford-transit-connect.dat" />
     <None Include="bus\ford-transit.dat" />
@@ -322,12 +323,14 @@
     <None Include="trains\lms-2p.dat" />
     <None Include="trains\lms-4p-tanks.dat" />
     <None Include="trains\lms-4p.dat" />
+    <None Include="trains\lms-ivatt-2p.dat" />
     <None Include="trains\lms-non-cor.dat" />
     <None Include="trains\lms-open-brake.dat" />
     <None Include="trains\lms-period1-cor.dat" />
     <None Include="trains\lms-period3-cor.dat" />
     <None Include="trains\lms-push-pull.dat" />
     <None Include="trains\lms-royal-scot.dat" />
+    <None Include="trains\lms-stanier-3p.dat" />
     <None Include="trains\lnwr-17in-coal-engine.dat" />
     <None Include="trains\lnwr-42ft-cor.dat" />
     <None Include="trains\lnwr-45ft-full-brake.dat" />
