@@ -93,8 +93,12 @@
     <None Include="air\BAC111_200_BUA.dat" />
     <None Include="air\BAC_111_500_Caledonian.dat" />
     <None Include="air\BAE_146_100.dat" />
+    <None Include="air\BAE_146_100_DanAirLondon.dat" />
     <None Include="air\BAE_146_300_JerseyEuropean.dat" />
     <None Include="air\BAE_146_300_TNT_Post.dat" />
+    <None Include="air\Boeing_727_100_DanAirLondon.dat" />
+    <None Include="air\Boeing_727_100_DHL_Post.dat" />
+    <None Include="air\Boeing_727_100_UPS_Cargo.dat" />
     <None Include="air\Ford_Trimotor_NSA.dat" />
     <None Include="air\Ford_Trimotor_RoyalMail.dat" />
     <None Include="attractions\library.dat" />
