@@ -4,13 +4,20 @@ copyright=James
 type=extension
 waytype=air
 enables_pax=1
-intro_year=1920
-retire_year=1950
+intro_year=1922
+intro_month=2
+retire_year=1949
+retire_month=8
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
 NoInfo=1
 Level=3
+
+station_maintenance=20400
+station_price=2090000
+station_capacity=95
+
 BackImage[0][0][0][0][0][0]=deco-station-entrance.0.2
 BackImage[1][0][0][0][0][0]=deco-station-entrance.0.1
 BackImage[2][0][0][0][0][0]=deco-station-entrance.0.0
@@ -29,13 +36,21 @@ copyright=James
 type=extension
 waytype=air
 enables_pax=1
-intro_year=1920
-retire_year=1950
+intro_year=1922
+intro_month=2
+retire_year=1949
+retire_month=8
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
 NoInfo=1
 Level=4
+is_control_tower=1
+
+station_maintenance=45000
+station_price=4500000
+station_capacity=95
+
 BackImage[0][0][0][0][0][0]=deco-airport-tower.0.2
 BackImage[1][0][0][0][0][0]=deco-airport-tower.0.1
 BackImage[2][0][0][0][0][0]=deco-airport-tower.0.0

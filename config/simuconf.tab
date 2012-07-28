@@ -390,6 +390,11 @@ toll_free_public_roads = 1
 
 allow_making_public = 0
 
+# This setting determines whether aircraft can land and take off
+# at airports without control towers. 1 = yes; 0 = no.
+
+allow_airports_without_control_towers = 0
+
 ################################## Industry settings #################################
 
 # allow all possible supplier to connect to your factories?

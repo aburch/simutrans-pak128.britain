@@ -56,8 +56,13 @@ needs_ground=1
 intro_year=1949
 intro_month=8
 needs_ground=1
+is_control_tower=1
 icon=> control-tower-modern.0.3
 cursor=control-tower-modern.0.2
+
+station_maintenance=25000
+station_price=2500000
+station_capacity=0
 
 BackImage[0][0][0][0][0][0]=control-tower-modern.0.1
 BackImage[0][0][0][1][0][0]=control-tower-modern.0.0
