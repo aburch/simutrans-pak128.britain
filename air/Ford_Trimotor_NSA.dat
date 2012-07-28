@@ -19,6 +19,9 @@ retire_year=1965
 retire_month=7
 smoke=Diesel
 
+min_loading_time=1800
+max_loading_time=1800
+
 #sound=aircraft-jet_stop.wav
 
 Constraint[Next][0]=none
