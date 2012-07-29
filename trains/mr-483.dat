@@ -9,8 +9,9 @@ tractive_effort=71
 copyright=James
 intro_year=1883
 intro_month=10
-retire_year=1921
-retire_month=12
+# Later than actual end date to interlock with LMS 2P class.
+retire_year=1928
+retire_month=1
 waytype=track
 freight=None
 payload=0
@@ -20,7 +21,7 @@ weight=54
 cost=6841000
 runningcost=1430
 sound=-1
-increase_maintenance_after_years=23
+increase_maintenance_after_years=16
 years_before_maintenance_max_reached=25
 
 Constraint[Next][0]=MR-483-Tender
@@ -65,8 +66,8 @@ power=0
 copyright=James
 intro_year=1883
 intro_month=10
-retire_year=1921
-retire_month=12
+retire_year=1928
+retire_month=1
 waytype=track
 freight=None
 payload=0
@@ -76,7 +77,7 @@ weight=37
 cost=0
 runningcost=0
 sound=-1
-increase_maintenance_after_years=23
+increase_maintenance_after_years=16
 
 Constraint[Prev][0]=MR-483
 
