@@ -1,5 +1,7 @@
+# Streamlined version only
+
 obj=vehicle
-name=LMS-Stanier-7P-Tender(Maroon)
+name=LMS-Stanier-7P-Tender
 speed=163
 power=0
 copyright=Kieron
@@ -19,9 +21,7 @@ sound=-1
 increase_maintenance_after_years=6
 years_before_maintenance_max_reached=10
 
-Constraint[Prev][0]=LMS-Stanier-7P(Maroon)
-
-
+Constraint[Prev][0]=LMS-Stanier-7P
 
 EmptyImage[E]=./images/lms-stanier-7p.1.0
 EmptyImage[SE]=./images/lms-stanier-7p.1.1

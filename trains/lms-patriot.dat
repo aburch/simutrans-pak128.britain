@@ -9,10 +9,8 @@ tractive_effort=118
 copyright=James
 intro_year=1930
 intro_month=11
-retire_year=1945
-retire_month=12
-# Production stopped in 1935, but these types are not replaced by newer types. 
-# Consider using Jubilee class to revert to real reatirement date.
+retire_year=1935
+retire_month=7
 waytype=track
 freight=None
 payload=0
@@ -22,7 +20,7 @@ weight=81
 cost=6624000
 runningcost=1386
 sound=-1
-increase_maintenance_after_years=14
+increase_maintenance_after_years=24
 years_before_maintenance_max_reached=11
 
 Constraint[Next][0]=LMS-Patriot-Tender

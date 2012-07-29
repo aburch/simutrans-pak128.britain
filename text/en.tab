@@ -2547,12 +2547,12 @@ LNER-P2(Green)
 LNER Class P2 2-8-2
 LNER-P2-Tender(Green)
 LNER Class P2 2-8-2 (tender)
-LMS-Stanier-7P(Maroon)
-LMS Class 8P "Princess Coronation" 4-6-2 (streamlined)
-LMS-Stanier-7P-Tender(Maroon)
-LMS Class 8P "Princess Coronation" 4-6-2 (tender)
+LMS-Stanier-7P
+LMS Class 7P "Princess Coronation" 4-6-2 (streamlined)
+LMS-Stanier-7P-Tender
+LMS Class 7P "Princess Coronation" 4-6-2 (tender)
 LMS-Stanier-7P-non-streamlined
-LMS Class 8P "Princess Coronation" 4-6-2 (non-streamlined)
+LMS Class 7P "Princess Coronation" 4-6-2 (non-streamlined)
 NER-ClassES1(Green)
 NER Class ES1 Bo-Bo
 NER-ClassEF1(Green)
@@ -2685,9 +2685,17 @@ LMS-Patriot
 LMS Class 5XP "Patriot" 4-6-0
 LMS-Patriot-Tender
 LMS Class 5XP "Patriot" 4-6-0 (tender)
-LMS-Princess-Royal(Maroon)
+LMS-Jubilee
+LMS Class 5XP "Jubilee" 4-6-0
+LMS-Jubilee-Tender
+LMS Class 5XP "Jubilee" 4-6-0 (tender)
+LMS-rebuilt-royal-scot
+LMS Class 6P "Rebuilt Royal Scot" 4-6-0
+LMS-rebuilt-royal-scot-tender
+*LMS Class 6P "Rebuilt Royal Scot" 4-6-0 (tender)
+LMS-Princess-Royal
 LMS Class 7P "Princess Royal"
-LMS-Princess-Royal-Tender(Maroon)
+LMS-Princess-Royal-Tender
 LMS Stanier express tender
 LNER-B17(Green)
 LNER Class B17 "Footballer" 4-6-0

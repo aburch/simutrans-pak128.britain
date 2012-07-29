@@ -23,6 +23,8 @@ sound=-1
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=12
 
+upgrade[0]=LMS-rebuilt-royal-scot
+
 Constraint[Next][0]=LMS-royal-scot-tender
 
 liverytype[0]=LMS-Standard
@@ -78,6 +80,8 @@ runningcost=0
 sound=-1
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=11
+
+upgrade[0]=LMS-rebuilt-royal-scot-tender
 
 Constraint[Prev][0]=LMS-royal-scot
 
