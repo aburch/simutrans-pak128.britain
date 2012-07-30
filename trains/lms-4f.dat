@@ -1,5 +1,5 @@
 obj=vehicle
-name=LMS-4F(Black)
+name=LMS-4F
 engine_type=steam
 smoke=Steam
 speed=95
@@ -23,14 +23,36 @@ sound=-1
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=14
 
-Constraint[Next][0]=LMS-4F-Tender(Black)
+Constraint[Next][0]=LMS-4F-Tender
 
-EmptyImage[E]=./images/lms-4f.0.0
-EmptyImage[SE]=./images/lms-4f.0.1
-EmptyImage[S]=./images/lms-4f.0.2
-EmptyImage[SW]=./images/lms-4f.0.3
-EmptyImage[W]=./images/lms-4f.0.4
-EmptyImage[NW]=./images/lms-4f.0.5
-EmptyImage[N]=./images/lms-4f.0.6
-EmptyImage[NE]=./images/lms-4f.0.7
+liverytype[0]=MR-Standard
+liverytype[1]=LMS-Standard
+liverytype[2]=BR-Early
+
+EmptyImage[E][0]=./images/mr-3538.1.4
+EmptyImage[SE][0]=./images/mr-3538.1.5
+EmptyImage[S][0]=./images/mr-3538.1.6
+EmptyImage[SW][0]=./images/mr-3538.1.7
+EmptyImage[W][0]=./images/mr-3538.1.0
+EmptyImage[NW][0]=./images/mr-3538.1.1
+EmptyImage[N][0]=./images/mr-3538.1.2
+EmptyImage[NE][0]=./images/mr-3538.1.3
+
+EmptyImage[E][1]=./images/lms-4f.1.4
+EmptyImage[SE][1]=./images/lms-4f.1.5
+EmptyImage[S][1]=./images/lms-4f.1.6
+EmptyImage[SW][1]=./images/lms-4f.1.7
+EmptyImage[W][1]=./images/lms-4f.1.0
+EmptyImage[NW][1]=./images/lms-4f.1.1
+EmptyImage[N][1]=./images/lms-4f.1.2
+EmptyImage[NE][1]=./images/lms-4f.1.3
+
+EmptyImage[E][2]=./images/lms-4f-br.1.4
+EmptyImage[SE][2]=./images/lms-4f-br.1.5
+EmptyImage[S][2]=./images/lms-4f-br.1.6
+EmptyImage[SW][2]=./images/lms-4f-br.1.7
+EmptyImage[W][2]=./images/lms-4f-br.1.0
+EmptyImage[NW][2]=./images/lms-4f-br.1.1
+EmptyImage[N][2]=./images/lms-4f-br.1.2
+EmptyImage[NE][2]=./images/lms-4f-br.1.3
 

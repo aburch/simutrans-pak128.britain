@@ -1575,9 +1575,9 @@ MR-Kirtley156(Maroon)
 Midland 156 Class 2-4-0
 MR-Kirtley156Tender(Maroon)
 Midland 156 Class (tender)
-LMS-Stanier-5MT(Black)
+LMS-Stanier-5MT
 LMS Class 5MT "Black Five" 4-6-0
-LMS-Stanier-5MT-Tender(Black)
+LMS-Stanier-5MT-Tender
 LMS Class 5MT "Black Five" (tender)
 LMR-Lion
 LMR "Lion" 0-4-2
@@ -1585,9 +1585,13 @@ LMR-Planet
 LMR "Planet" 2-2-0
 LMR-Planet-Tender
 LMR "Planet" (tender)
-LMS-Stanier-8F(Black)
+LMS-7F
+LMS Class 7F 0-8-0
+LMS-7F-Tender
+LMS Class 7F (tender)
+LMS-Stanier-8F
 LMS Class 8F 2-8-0
-LMS-Stanier-8F-Tender(Black)
+LMS-Stanier-8F-Tender
 LMS Class 8F (tender)
 GWR-Churchward-Star
 GWR "Star" Class 4-6-0
@@ -2482,15 +2486,19 @@ LMS 2P Class 0-4-4T (push-pull)
 GWR-2800(Green)
 GWR 2800 Class 2-8-0
 GWR-2800-Tender(Green)
-GWR 2800 Class 2-8-0 (tender)
+GWR 2800 Class (tender)
 SR-Q1(Black)
 SR Q1 Class 0-6-0
 SR-Q1-Tender(Black)
-SR Q1 Class 0-6-0 (tender)
-LMS-4F(Black)
+SR Q1 Class (tender)
+LMS-4F
 Midland 3835 Class / LMS Class 4F 0-6-0
-LMS-4F-Tender(Black)
-LMS Class 4F 0-6-0 (tender)
+LMS-4F-Tender
+LMS Class 4F (tender)
+LMS-Ivatt-4F
+LMS Class 4F (Ivatt design) 2-6-0
+LMS-Ivatt-4F-Tender
+LMS Class 4F (Ivatt design) (tender)
 GWR-Prairie-Tank(Green)
 GWR 3150 Class "Large Prairie" 2-6-2T
 GWR-Prairie-Tank-Modified(Green)
@@ -2502,21 +2510,21 @@ Midland 1000 Class (tender)
 MR-483
 Midland 483 Class 4-4-0
 MR-483(tender)
-Midland 483 Class 4-4-0 (tender)
+Midland 483 Class (tender)
 LMS-2P
 LMS Class 2P 4-4-0
 LMS-2P(tender)
-LMS Class 2P 4-4-0 (tender)
+LMS Class 2P (tender)
 LMS-4P
 LMS Class 4P 4-4-0
 LMS-4P(tender)
-LMS Class 4P 4-4-0 (tender)
+LMS Class 4P (tender)
 MR-1833
 Midland 1833 Class 0-4-4T
 SR-N15
 SR N15 Class "King Arthur" 4-6-0
 SR-N15-Tender
-SR N15 Class "King Arthur" 4-6-0 (tender)
+SR N15 Class "King Arthur" (tender)
 LSWR-N15
 LSWR N15 Class 4-6-0
 LSWR-N15-Tender
@@ -2538,19 +2546,19 @@ LBSCR non-corridor lavatory "Balloon" carriage
 SR-Schools
 SR V Class "Schools" 4-4-0
 SR-Schools-Tender
-SR V Class "Schools" 4-4-0 (tender)
+SR V Class "Schools" (tender)
 GWR-King
 GWR 6600 "King" Class 4-6-0
 GWR-King-Tender
-GWR 6600 "King" Class 4-6-0 (tender)
+GWR 6600 "King" Class (tender)
 LNER-P2(Green)
 LNER Class P2 2-8-2
 LNER-P2-Tender(Green)
-LNER Class P2 2-8-2 (tender)
+LNER Class P2 (tender)
 LMS-Stanier-7P
 LMS Class 7P "Princess Coronation" 4-6-2 (streamlined)
 LMS-Stanier-7P-Tender
-LMS Class 7P "Princess Coronation" 4-6-2 (tender)
+LMS Class 7P "Princess Coronation" (tender)
 LMS-Stanier-7P-non-streamlined
 LMS Class 7P "Princess Coronation" 4-6-2 (non-streamlined)
 NER-ClassES1(Green)
@@ -2572,47 +2580,51 @@ BR Class 395 "Javelin" (back)
 PuffingBilly
 Wylam Colliery "Puffing Billy" 0-4-0
 PuffingBilly-Tender
-Wylam Colliery "Puffing Billy" 0-4-0 (tender)
+Wylam Colliery "Puffing Billy" (tender)
 SDR-Locomotion
 SDR "Locomotion" 0-4-0
 SDR-Locomotion-Tender
-SDR "Locomotion" 0-4-0 (tender)
+SDR "Locomotion" (tender)
 SDR-Derwent
 SDR "Derwent" 0-6-0
 SDR-Derwent-Tender
-SDR "Derwent" 0-6-0 (tender)
+SDR "Derwent" (tender)
 SDR-1001(Green)
 SDR 1001 Class 0-6-0
 SDR-1001-Tender(Green)
-SDR 1001 Class 0-6-0 (tender)
+SDR 1001 Class (tender)
 LMR-Patentee
 LMR "Patentee" 2-2-2
 LMR-Patentee-Tender
-LMR "Patentee" 2-2-2 (tender)
+LMR "Patentee" (tender)
 LNWR-DXgoods(Green)
 LNWR DX Goods 0-6-0
 LNWR-DXgoods-Tender(Green)
-LNWR DX Goods 0-6-0 (tender)
+LNWR DX Goods (tender)
 JennyLind
 LBSCR "Jenny Lind" 2-2-2
 JennyLind-Tender
-LBSCR "Jenny Lind" 2-2-2 (tender)
+LBSCR "Jenny Lind" (tender)
 LYR-Class25(Black)
 LYR Class 25 0-6-0
 LYR-Class25-Tender(Black)
-LYR Class 25 0-6-0 (tender)
+LYR Class 25 (tender)
 GWR-517Tank
 GWR 517 Class 0-4-2T
 GWR-517Tank-AutoFitted
 GWR 517 Class 0-4-2T (auto fitted)
 GWR-1400Tank
 GWR 1400 Class 0-4-2T
+WD-Austerity-2-8-0
+WD "Austerity" 2-8-0
+WD-Austerity-2-8-0-Tender
+WD "Austerity" (tender)
 LNER-J94(Black)
 WD/LNER Class J94 0-6-0ST
 LNWR-AClass(Black)
 LNWR A Class 0-8-0
 LNWR-AClass-Tender(Black)
-LNWR A Class 0-8-0 (tender)
+LNWR A Class (tender)
 LNWR-Bloomer(Red)
 LNWR "Bloomer" Class 2-2-2
 LNWR-Bloomer-Tender(Red)
@@ -2620,13 +2632,13 @@ LNWR 15t tender
 LNWR-Problem(Green)
 LNWR "Problem" Class 2-2-2
 LNWR-Problem-Tender(Green)
-LNWR "Problem" Class 2-2-2 (tender)
+LNWR "Problem" Class (tender)
 LSWR-M7(Olive)
 LSWR M7 Class 0-4-4T
 HR-Jones-Goods(Yellow)
 HR Jones Goods 4-6-0
 HR-Jones-Goods-Tender(Yellow)
-HR Jones Goods 4-6-0 (tender)
+HR Jones Goods (tender)
 LBSCR-B1-Gladstone
 LBSCR Class B1 "Gladstone" 0-4-2
 LBSCR-B1-Gladstone-Tender
@@ -2652,19 +2664,19 @@ LBSCR non-corridor lavatory coach (brake)
 LNWR-Jumbo(Black)
 LNWR "Jumbo" Class 2-2-0
 LNWR-Jumbo-Tender(Black)
-LNWR "Jumbo" Class 2-2-0 (tender)
+LNWR "Jumbo" Class (tender)
 LNWR-Precedent
 LNWR "Precedent" Class 2-4-0
 LNEW-Precedent-Tender
-LNWR "Precedent" Class 2-4-0 (tender)
+LNWR "Precedent" Class (tender)
 GER-Claud-Hamilton(Blue)
 GER Class S46 "Claud Hamilton" 4-4-0
 GER-Claud-Hamilton-Tender(Blue)
-GER Class S46 "Claud Hamilton" 4-4-0 (tender)
+GER Class S46 "Claud Hamilton" (tender)
 GWR-Bulldog(Green)
 GWR "Bulldog" Class 4-4-0
 GWR-Bulldog-Tender(Green)
-GWR "Bulldog" Class 4-4-0 (tender)
+GWR "Bulldog" Class (tender)
 LNWR-PrinceOfWales(Black)
 LNWR "Prince of Wales" Class 4-6-0
 LNWR-PrinceOfWales-Tender(Black)
@@ -2676,19 +2688,19 @@ Midland 1632 Class 0-6-0
 MR-Spinner(Maroon)
 Midland 115 Class "Spinner" 4-2-2
 MR-Spinner-Tender(Maroon)
-Midland 673 Class "Spinner" 4-2-2 (tender)
+Midland 673 Class "Spinner" (tender)
 LMS-royal-scot
 LMS Class 6P "Royal Scot" 4-6-0
 LMS-royal-scot-tender
-LMS Class 6P "Royal Scot" 4-6-0 (tender)
+LMS Class 6P "Royal Scot" (tender)
 LMS-Patriot
 LMS Class 5XP "Patriot" 4-6-0
 LMS-Patriot-Tender
-LMS Class 5XP "Patriot" 4-6-0 (tender)
+LMS Class 5XP "Patriot"(tender)
 LMS-Jubilee
 LMS Class 5XP "Jubilee" 4-6-0
 LMS-Jubilee-Tender
-LMS Class 5XP "Jubilee" 4-6-0 (tender)
+LMS Class 5XP "Jubilee" (tender)
 LMS-rebuilt-royal-scot
 LMS Class 6P "Rebuilt Royal Scot" 4-6-0
 LMS-rebuilt-royal-scot-tender
@@ -2700,11 +2712,11 @@ LMS Stanier express tender
 LNER-B17(Green)
 LNER Class B17 "Footballer" 4-6-0
 LNER-B17-Tender(Green)
-LNER Class B17 "Footballer" 4-6-0 (tender)
+LNER Class B17 "Footballer" (tender)
 LNER-B17-5(Green)
 LNER Class B17/5 streamlined 4-6-0
 LNER-B17-5-Tender(Green)
-LNER Class B17 streamlined 4-6-0 (tender)
+LNER Class B17 streamlined (tender)
 LMS-10000(Black)
 LMS 10000 Class
 BR-Class67(EWS)
@@ -2963,10 +2975,12 @@ BR-2MT-Tank(Black)-Push-Pull
 BR Standard Class 2MT 2-6-2T (push pull)
 BR-Class57(FGW)
 BR Class 57
-BR-4MT(Black)
-BR Standard Class 4MT 2-6-0
-BR-4MT-Tender(Black)
+BR-4MT-4-6-0
+BR Standard Class 4MT 4-6-0
+BR-4MT-Tender
 BR Standard tender
+BR-4MT-2-6-0
+BR Standard Class 4MT 2-6-0
 BR-5MT(Black)
 BR Standard Class 5MT 2-6-0
 GWR-Saint

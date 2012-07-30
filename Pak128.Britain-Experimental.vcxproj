@@ -283,6 +283,7 @@
     <None Include="trains\br-375-dual-voltage.dat" />
     <None Include="trains\br-455-bg.dat" />
     <None Include="trains\br-456-nse.dat" />
+    <None Include="trains\br-4mt-2-6-0.dat" />
     <None Include="trains\br-507.dat" />
     <None Include="trains\br-5mt.dat" />
     <None Include="trains\br-cl24.dat" />
@@ -328,6 +329,7 @@
     <None Include="trains\lms-4p-tanks.dat" />
     <None Include="trains\lms-4p.dat" />
     <None Include="trains\lms-ivatt-2p.dat" />
+    <None Include="trains\lms-ivatt-4f.dat" />
     <None Include="trains\lms-jubilee.dat" />
     <None Include="trains\lms-non-cor.dat" />
     <None Include="trains\lms-open-brake.dat" />
@@ -399,6 +401,7 @@
     <None Include="trains\wagon-passenger.dat" />
     <None Include="trains\wagon-piece-bogie.dat" />
     <None Include="trains\wagon-piece-fast.dat" />
+    <None Include="trains\wd-austerity-2-8-0.dat" />
     <None Include="trams\1-deck-closed.dat" />
     <None Include="trams\1-deck-trailer.dat" />
     <None Include="industry\1750-china-shop.dat" />
@@ -547,7 +550,7 @@
     <None Include="trains\br-489-glv-ic.dat" />
     <None Include="trains\br-499-bg.dat" />
     <None Include="trains\br-4mt-tank.dat" />
-    <None Include="trains\br-4mt.dat" />
+    <None Include="trains\br-4mt-4-6-0.dat" />
     <None Include="trains\br-506.dat" />
     <None Include="trains\br-7mt-tender.dat" />
     <None Include="trains\br-7mt.dat" />
@@ -1235,6 +1238,9 @@
     <None Include="ways\wssr.dat" />
     <None Include="ways\wssri.dat" />
     <None Include="bus\yorkshire-steam-tank.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="trains\lms-7f.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
