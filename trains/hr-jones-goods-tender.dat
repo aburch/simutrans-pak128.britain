@@ -1,5 +1,5 @@
 obj=vehicle
-name=HR-Jones-Goods-Tender(Yellow)
+name=HR-Jones-Goods-Tender
 engine_type=steam
 speed=100
 copyright=James
@@ -19,14 +19,28 @@ sound=-1
 increase_maintenance_after_years=27
 years_before_maintenance_max_reached=21
 
-Constraint[Prev][0]=HR-Jones-Goods(Yellow)
+Constraint[Prev][0]=HR-Jones-Goods
 
-EmptyImage[E]=./images/hr-jones-goods.1.0
-EmptyImage[SE]=./images/hr-jones-goods.1.1
-EmptyImage[S]=./images/hr-jones-goods.1.2
-EmptyImage[SW]=./images/hr-jones-goods.1.3
-EmptyImage[W]=./images/hr-jones-goods.1.4
-EmptyImage[NW]=./images/hr-jones-goods.1.5
-EmptyImage[N]=./images/hr-jones-goods.1.6
-EmptyImage[NE]=./images/hr-jones-goods.1.7
+# HACK: We use the Midland scheme here as a generic pre-grouping scheme. 
+liverytype[0]=MR-Standard
+liverytype[1]=LMS-Standard
+
+EmptyImage[E][0]=./images/hr-jones-goods-tender.1.4
+EmptyImage[SE][0]=./images/hr-jones-goods-tender.1.5
+EmptyImage[S][0]=./images/hr-jones-goods-tender.1.6
+EmptyImage[SW][0]=./images/hr-jones-goods-tender.1.7
+EmptyImage[W][0]=./images/hr-jones-goods-tender.1.0
+EmptyImage[NW][0]=./images/hr-jones-goods-tender.1.1
+EmptyImage[N][0]=./images/hr-jones-goods-tender.1.2
+EmptyImage[NE][0]=./images/hr-jones-goods-tender.1.3
+
+EmptyImage[E][1]=./images/hr-jones-goods-tender-lms.1.4
+EmptyImage[SE][1]=./images/hr-jones-goods-tender-lms.1.5
+EmptyImage[S][1]=./images/hr-jones-goods-tender-lms.1.6
+EmptyImage[SW][1]=./images/hr-jones-goods-tender-lms.1.7
+EmptyImage[W][1]=./images/hr-jones-goods-tender-lms.1.0
+EmptyImage[NW][1]=./images/hr-jones-goods-tender-lms.1.1
+EmptyImage[N][1]=./images/hr-jones-goods-tender-lms.1.2
+EmptyImage[NE][1]=./images/hr-jones-goods-tender-lms.1.3
+
 
