@@ -176,9 +176,6 @@
     <None Include="industry\grocers.dat" />
     <None Include="industry\market.dat" />
     <None Include="lner-gresely-express-dining.dat" />
-    <None Include="lner-gresley-express-buffet.dat" />
-    <None Include="lner-gresley-express-coach-all-doors-brake.dat" />
-    <None Include="lner-gresley-express-coach-all-doors.dat" />
     <None Include="london-underground\1890-tube-stock.dat" />
     <None Include="london-underground\1898-tube-stock.dat" />
     <None Include="london-underground\1900-tube-stock.dat" />
@@ -345,6 +342,11 @@
     <None Include="trains\lms-royal-scot.dat" />
     <None Include="trains\lms-stanier-3p.dat" />
     <None Include="trains\lms-stanier-mogul.dat" />
+    <None Include="trains\lner-d49.dat" />
+    <None Include="trains\lner-gresley-express-buffet.dat" />
+    <None Include="trains\lner-gresley-express-coach-all-doors-brake.dat" />
+    <None Include="trains\lner-gresley-express-coach-all-doors.dat" />
+    <None Include="trains\lner-p2.dat" />
     <None Include="trains\lnwr-17in-coal-engine.dat" />
     <None Include="trains\lnwr-42ft-cor.dat" />
     <None Include="trains\lnwr-45ft-full-brake.dat" />
@@ -882,8 +884,6 @@
     <None Include="trains\lner-gresley-express-mail.dat" />
     <None Include="trains\lner-gresley-express-parcel-brake.dat" />
     <None Include="trains\lner-j94.dat" />
-    <None Include="trains\lner-p2-tender.dat" />
-    <None Include="trains\lner-p2.dat" />
     <None Include="trains\lner-v2-tender.dat" />
     <None Include="trains\lner-v2.dat" />
     <None Include="trains\4wheel-1840s-brake.dat" />

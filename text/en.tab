@@ -1613,9 +1613,9 @@ BR-9F(Black)
 BR Standard Class 9F 2-10-0
 BR-9F-Tender(Black)
 BR Standard Class 9F (tender)
-LNER-V2(Green)
+LNER-V2
 LNER Class V2 2-6-2
-LNER-V2-Tender(Green)
+LNER-V2-Tender
 LNER Class V2 (tender)
 SR-MerchantNavy_4-6-2(Green)
 SR Merchant Navy Class 4-6-2
@@ -2561,9 +2561,9 @@ GWR-King
 GWR 6600 "King" Class 4-6-0
 GWR-King-Tender
 GWR 6600 "King" Class (tender)
-LNER-P2(Green)
+LNER-P2
 LNER Class P2 2-8-2
-LNER-P2-Tender(Green)
+LNER-P2-Tender
 LNER Class P2 (tender)
 LMS-Stanier-7P
 LMS Class 7P "Princess Coronation" 4-6-2 (streamlined)
@@ -2719,14 +2719,18 @@ LMS-Princess-Royal
 LMS Class 7P "Princess Royal"
 LMS-Princess-Royal-Tender
 LMS Stanier express tender
-LNER-B17(Green)
+LNER-B17
 LNER Class B17 "Footballer" 4-6-0
-LNER-B17-Tender(Green)
+LNER-B17-Tender
 LNER Class B17 "Footballer" (tender)
-LNER-B17-5(Green)
+LNER-B17-5
 LNER Class B17/5 streamlined 4-6-0
-LNER-B17-5-Tender(Green)
+LNER-B17-5-Tender
 LNER Class B17 streamlined (tender)
+LNER-D49
+LNER Class D49 "Hunt" 4-4-0
+LNER-D49-Tender
+LNER Class D49 "Hunt" (tender)
 LMS-10000(Black)
 LMS 10000 Class
 BR-Class67(EWS)
