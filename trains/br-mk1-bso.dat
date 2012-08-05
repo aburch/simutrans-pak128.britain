@@ -36,7 +36,11 @@ Constraint[Next][8]=BR-Mk2a-RMB
 Constraint[Next][9]=BR-Mk2a-BSO
 Constraint[Next][10]=BR-Mk2a-TSO
 Constraint[Next][11]=BR-Mk2a-SO
-Constraint[Next][12]=none
+Constraint[Next][12]=BR-Mk2-TSO
+Constraint[Next][13]=BR-Mk2-RFB
+Constraint[Next][14]=LNER-Gresley-Express-Dining
+Constraint[Next][15]=LNER-Gresley-Express-Buffet
+Constraint[Next][16]=none
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised

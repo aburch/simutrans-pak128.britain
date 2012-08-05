@@ -42,7 +42,9 @@ Constraint[Next][10]=BR-Mk2a-TSO
 Constraint[Next][11]=BR-Mk2a-SO
 Constraint[Next][12]=BR-Mk2-TSO
 Constraint[Next][13]=BR-Mk2-RFB
-Constraint[Next][14]=none
+Constraint[Next][14]=LNER-Gresley-Express-Dining
+Constraint[Next][15]=LNER-Gresley-Express-Buffet
+Constraint[Next][16]=none
 
 EmptyImage[E][0]=./images/br-mk1-bc-cc.0
 EmptyImage[SE][0]=./images/br-mk1-bc-cc.1

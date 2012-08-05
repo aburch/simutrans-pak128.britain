@@ -1905,8 +1905,6 @@ MR-clayton-12wheel-arc-roof-brake-lav-front
 Midland twelve wheel bogie five compartment lavatory brake carriage
 MR-clayton-12wheel-arc-roof-brake-lav-rear
 Midland twelve wheel bogie five compartment lavatory brake carriage (rear)
-LNER-Gresley-Express-Brake
-LNER Teak Express Carriage (brake)
 BR-251SecondParlourFront
 BR Class 251 "Blue Pullman" (2nd class front parlour)
 BR-251SecondParlourRear
@@ -2141,8 +2139,6 @@ GWR-Droplight-Brake(Mahogany)
 GWR Toplight corridor brake
 GWR-Droplight-Dining(Mahogany)
 GWR Toplight corridor dining carriage
-LNER-Gresley-Express-Coach
-LNER Teak Express Carriage
 BR-Mk1-TSO
 BR Mk. 1 Tourist Open
 BR-Mk1-SK
@@ -2418,11 +2414,11 @@ LMS mail/brake carriage
 LMS-diner
 LMS dining car
 LMS-cor
-LMS corridor carriage
+LMS corridor vestibule carriage
 LMS-cor-brake-front
-LMS corridor brake carriage
+LMS corridor vestibule brake carriage
 LMS-cor-brake-rear
-LMS corridor brake carriage (rear)
+LMS corridor vestibule brake carriage (rear)
 LMS-buffet
 LMS buffet car
 LMS-full-brake
@@ -2718,7 +2714,7 @@ LMS Class 5XP "Jubilee" (tender)
 LMS-rebuilt-royal-scot
 LMS Class 6P "Rebuilt Royal Scot" 4-6-0
 LMS-rebuilt-royal-scot-tender
-*LMS Class 6P "Rebuilt Royal Scot" 4-6-0 (tender)
+LMS Class 6P "Rebuilt Royal Scot" 4-6-0 (tender)
 LMS-Princess-Royal
 LMS Class 7P "Princess Royal"
 LMS-Princess-Royal-Tender
@@ -2839,8 +2835,6 @@ CC-Clerestory-Dining
 GWR corridor clerestory dining car
 GWR-Express-Dining
 GWR express dining car
-LNER-Gresley-Express-Dining
-LNER dining car (teak)
 SR-Bulleid-Express-Dining(Green)
 SR Bulleid Dining Car
 BR-Mk1-RMB
@@ -2915,8 +2909,26 @@ GWR-Express-TPO
 GWR Travelling Post Office
 SR-Maunsell-Parcels(Green)
 SR Mail van
+LNER-Gresley-Express-Dining
+LNER dining car
+LNER-Gresley-Express-Brake-front
+LNER vestibule corridor brake carriage
+LNER-Gresley-Express-Brake-rear
+LNER vestibule corridor brake carriage (rear)
+LNER-Gresley-Express-Buffet
+LNER buffet car
+LNER-Gresley-Express-Brake-all-doors-front
+LNER corridor brake carriage
+LNER-Gresley-Express-Brake-all-doors-rear
+LNER corridor brake carriage (rear)
+LNER-Gresley-Express-Coach-All-Doors
+LNER corridor carriage
+LNER-Gresley-Express-Coach
+LNER vestibule corridor carriage
+LNER-Gresley-Express-Mail
+LNER mail carriage
 LNER-Gresley-Express-Parcel-Brake
-LNER Parcel Brake coach (teak)
+LNER brake/mail carriage
 LNER-Gresley-Express-TPO
 LNER Travelling Post Office
 SR-Maunsell-TPO(Green)
@@ -2941,8 +2953,6 @@ SR-Maunsell-Mail(Green)
 SR Maunsell Mail van
 GWR-Express-Mail
 GWR Bow-ended Mail Coach
-LNER-Gresley-Express-Mail
-LNER mail coach
 BR-Mk1-POS
 BR Mk. 1 Mail coach
 MSJ&A-EMU-driving-trailer
