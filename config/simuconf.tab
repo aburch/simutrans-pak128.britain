@@ -1026,3 +1026,23 @@ retire_month[19] = 1
 livery[19][0] = Non-London
 intro_year[19][0] = 1750
 intro_month[19][0] = 1
+
+# See: http://www.gersociety.org.uk/index.php?option=com_content&view=article&id=23&Itemid=32
+livery_scheme[20] = GER
+retire_year[20] = 1923
+retire_month[20] = 1
+livery[20][0] = GER-Pea-Green
+intro_year[20][0] = 1863
+intro_month[20][0] = 1
+# Similar to early Midland green
+livery[20][1] = GER-Dark-Green
+intro_year[20][1] = 1869
+intro_month[20][1] = 5
+livery[20][2] = GER-Black
+intro_year[20][2] = 1876
+intro_month[20][2] = 8
+# Black for goods locomotives
+livery[20][3] = GER-Ultramarine
+intro_year[20][3] = 1882
+intro_month[20][3] = 5
+# Wartime livery was mid grey.
