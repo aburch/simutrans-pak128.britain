@@ -30,3 +30,35 @@ ImageUp[3][0]=-
 ImageUp[6][0]=-
 ImageUp[9][0]=-
 ImageUp[12][0]=-
+
+----
+# From Pak128 (open source)
+# see https://simutrans.svn.sourceforge.net/svnroot/simutrans/pak128/base/airport_ways_items/
+
+obj=roadsign
+name=airport_oneway
+copyright=Shunter
+type=airport
+waytype=air
+system_type=0
+intro_year = 1938
+intro_month = 9
+cost=1500
+min_speed=0
+single_way=1
+free_route=0
+is_private=0
+Icon=> ./images/airport_oneway.0.4
+Cursor=./images/airport_oneway.0.5
+
+#BackImage[0][0][0][0][0][0]=./images/airport_oneway.0.1
+#BackImage[0][0][0][1][0][0]=./images/airport_oneway.0.0
+#BackImage[0][0][0][0][0][1]=./images/airport_oneway.0.3
+#BackImage[0][0][0][1][0][1]=./images/airport_oneway.0.2
+
+Image[0]=./images/airport_oneway.0.1
+Image[1]=./images/airport_oneway.0.0
+Image[2]=./images/airport_oneway.0.3
+Image[3]=./images/airport_oneway.0.2
+
+
