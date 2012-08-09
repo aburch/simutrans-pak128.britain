@@ -4,7 +4,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=828
-power=33810
+power=52920
+tractive_effort=294
 #gear=1
 freight=Passagiere
 payload=214
@@ -24,8 +25,6 @@ max_loading_time=2400
 #minimum_runway_length=2050
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=2250
-
-increase_maintenance_after_years=30
 
 sound=aircraft-jet_stop.wav
 

@@ -4,7 +4,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=828
-power=27600
+power=43200
+tractive_effort=240
 #gear=1
 freight=Passagiere
 payload=180
@@ -23,8 +24,6 @@ max_loading_time=2400
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=2100
 
-increase_maintenance_after_years=30
-
 sound=aircraft-jet_stop.wav
 
 Constraint[Next][0]=none
@@ -38,3 +37,5 @@ EmptyImage[W]=images/A320_ThomsonAirWays.0.6
 EmptyImage[NW]=images/A320_ThomsonAirWays.0.5
 EmptyImage[N]=images/A320_ThomsonAirWays.0.4
 EmptyImage[NE]=images/A320_ThomsonAirWays.0.3
+
+-------------

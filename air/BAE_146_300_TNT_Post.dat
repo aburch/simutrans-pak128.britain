@@ -4,7 +4,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=775
-power=13500
+power=22500
+tractive_effort=125
 #gear=1
 freight=Post
 #payload 9.4t
@@ -47,7 +48,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=775
-power=13500
+power=22500
+tractive_effort=125
 #gear=1
 freight=meat
 #payload 9.4t
@@ -90,7 +92,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=775
-power=13500
+power=22500
+tractive_effort=125
 #gear=1
 freight=Bucher
 #payload 9.4t

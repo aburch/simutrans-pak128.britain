@@ -4,7 +4,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=828
-power=22500
+power=35280
+tractive_effort=196
 #gear=1
 freight=Passagiere
 payload=156
@@ -36,3 +37,5 @@ EmptyImage[W]=./images/A319.0.6
 EmptyImage[NW]=./images/A319.0.5
 EmptyImage[N]=./images/A319.0.4
 EmptyImage[NE]=./images/A319.0.3
+
+-------------

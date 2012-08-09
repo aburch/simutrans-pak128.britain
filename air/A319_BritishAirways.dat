@@ -4,7 +4,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=828
-power=24580
+power=38520
+tractive_effort=214
 #gear=1
 freight=Passagiere
 payload=132
@@ -23,8 +24,6 @@ max_loading_time=2400
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1800
 
-increase_maintenance_after_years=30
-
 sound=aircraft-jet_stop.wav
 
 Constraint[Next][0]=none
@@ -38,3 +37,5 @@ EmptyImage[W]=./images/A319_BritishAirways.0.6
 EmptyImage[NW]=./images/A319_BritishAirways.0.5
 EmptyImage[N]=./images/A319_BritishAirways.0.4
 EmptyImage[NE]=./images/A319_BritishAirways.0.3
+
+-------------

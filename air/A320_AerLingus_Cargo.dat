@@ -4,7 +4,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=828
-power=27600
+power=43200
+tractive_effort=240
 #gear=1
 freight=Post
 #payload 17.8t
@@ -22,8 +23,6 @@ max_loading_time=3600
 #minimum_runway_length=2000
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=2200
-
-increase_maintenance_after_years=30
 
 sound=aircraft-jet_stop.wav
 
@@ -46,7 +45,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=828
-power=27600
+power=43200
+tractive_effort=240
 #gear=1
 freight=Bucher
 #payload 17.8t
@@ -64,8 +64,6 @@ max_loading_time=3600
 #minimum_runway_length=2000
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=2200
-
-increase_maintenance_after_years=30
 
 sound=aircraft-jet_stop.wav
 
@@ -88,7 +86,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=828
-power=27600
+power=43200
+tractive_effort=240
 #gear=1
 freight=fish
 #payload 17.8t
@@ -107,8 +106,6 @@ max_loading_time=3600
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=2200
 
-increase_maintenance_after_years=30
-
 sound=aircraft-jet_stop.wav
 
 Constraint[Next][0]=none
@@ -122,3 +119,5 @@ EmptyImage[W]=./images/A320_AerLingus_Cargo.0.6
 EmptyImage[NW]=./images/A320_AerLingus_Cargo.0.5
 EmptyImage[N]=./images/A320_AerLingus_Cargo.0.4
 EmptyImage[NE]=./images/A320_AerLingus_Cargo.0.3
+
+-------------

@@ -4,7 +4,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=450
-power=3140
+power=3220
+tractive_effort=12
 #gear=1
 freight=Post
 #payload 4.8t
@@ -20,8 +21,6 @@ min_loading_time=2700
 max_loading_time=2700
 retire_year=1998
 retire_month=6
-
-increase_maintenance_after_years=30
 
 sound=aircraft-jet_stop.wav
 
@@ -49,7 +48,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=450
-power=3140
+power=3220
+tractive_effort=12
 #gear=1
 freight=Bucher
 #payload 4.8t
@@ -65,8 +65,6 @@ min_loading_time=2700
 max_loading_time=2700
 retire_year=1998
 retire_month=06
-
-increase_maintenance_after_years=30
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=1400
@@ -95,7 +93,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=450
-power=3140
+power=3220
+tractive_effort=12
 #gear=1
 freight=fish
 #payload 4.8t
@@ -111,8 +110,6 @@ min_loading_time=2700
 max_loading_time=2700
 retire_year=1998
 retire_month=06
-
-increase_maintenance_after_years=30
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=1400
