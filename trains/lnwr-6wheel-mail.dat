@@ -1,17 +1,13 @@
-# These vehicles encompass the earlier 1870s type of LNWR 6-wheelers
-# and the later 30'1" standard types built from the mid 1880s onwards.
-# The differences between them, whilst techincally significant, are
-# not sufficiently economically significant to simulate here. The
-# graphics and types are based on the later series. See "London
-# & North Western Railway Thirty Foot One Inch Carriages" by
-# Philip A. Millard for details.
+# These vehicles the later 30'1" standard types built from 
+# the mid 1880s onwards. See "London & North Western Railway
+# Thirty Foot One Inch Carriages" by Philip A. Millard for details.
 
 obj=vehicle
 name=LNWR-6Wheel-Mail
 speed=135
-copyright=Kieron/jamespetts
-intro_year=1873
-intro_month=10
+copyright=Kieron/James/jamespettspetts
+intro_year=1887
+intro_month=7
 retire_year=1896
 retire_month=2
 waytype=track
@@ -21,7 +17,7 @@ length=6
 brake_force=5
 
 weight=12
-cost=314000
+cost=304000
 runningcost=24
 sound=-1
 
@@ -48,6 +44,32 @@ Constraint[Next][14]=LNWR-8wheel-radial-mail
 Constraint[Next][15]=LNWR-8wheel-radial-tpo
 Constraint[Next][16]=LNWR-8wheel-radial-non-lav
 Constraint[Next][17]=LNWR-8wheel-radial-brake-lav-rear
+Constraint[Next][18]=LNWR-8wheel-radial-full-brake
+Constraint[Next][19]=LNWR-42ft-non-cor-lav
+Constraint[Next][20]=LNWR-42ft-non-cor-non-lav
+Constraint[Next][21]=LNWR-42ft-non-cor-brake-rear
+Constraint[Next][22]=LNWR-42ft-non-cor-brake-lav-rear
+Constraint[Next][23]=LNWR-42ft-non-cor-mail
+Constraint[Next][24]=LNWR-42ft-non-cor-full-brake
+Constraint[Next][25]=LNWR-45ft-non-cor-lav
+Constraint[Next][26]=LNWR-45ft-non-cor-lav-brake
+Constraint[Next][27]=LNWR-50ft-non-cor-arc
+Constraint[Next][28]=LNWR-50ft-non-cor-arc-brake-rear
+Constraint[Next][29]=LNWR-50ft-non-cor-eliptical-brake-rear
+Constraint[Next][30]=LNWR-50ft-non-cor-eliptical
+Constraint[Next][31]=LNWR-57ft-non-cor-lav-brake-rear
+Constraint[Next][32]=LNWR-57ft-non-cor-lav
+Constraint[Next][33]=LNWR-57ft-non-cor-brake-rear
+Constraint[Next][34]=LNWR-57ft-non-cor-lav
+Constraint[Next][35]=LNWR-6wheel-radial
+Constraint[Next][36]=LNWR-6wheel-radial-brake-third
+Constraint[Next][37]=LNWR-6wheel-radial-full-brake
+Constraint[Next][38]=LNWR-6wheel-radial-mail
+Constraint[Next][39]=LNWR-6wheel-radial-tpo
+Constraint[Next][40]=LMS-non-cor-lav
+Constraint[Next][41]=LMS-non-cor-non-lav
+Constraint[Next][42]=LMS-non-cor-brake-rear
+Constraint[Next][43]=LMS-non-cor-brake-lav-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -67,6 +89,32 @@ Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
 Constraint[Prev][17]=LNWR-8wheel-radial-brake-lav-front
+Constraint[Prev][18]=LNWR-8wheel-radial-full-brake
+Constraint[Prev][19]=LNWR-42ft-non-cor-lav
+Constraint[Prev][20]=LNWR-42ft-non-cor-non-lav
+Constraint[Prev][21]=LNWR-42ft-non-cor-brake-front
+Constraint[Prev][22]=LNWR-42ft-non-cor-brake-lav-front
+Constraint[Prev][23]=LNWR-42ft-non-cor-mail
+Constraint[Prev][24]=LNWR-42ft-non-cor-full-brake
+Constraint[Prev][25]=LNWR-45ft-non-cor-lav
+Constraint[Prev][26]=LNWR-45ft-non-cor-lav-brake
+Constraint[Prev][27]=LNWR-50ft-non-cor-arc
+Constraint[Prev][28]=LNWR-50ft-non-cor-arc-brake-front
+Constraint[Prev][29]=LNWR-50ft-non-cor-eliptical-brake-front
+Constraint[Prev][30]=LNWR-50ft-non-cor-eliptical
+Constraint[Prev][31]=LNWR-57ft-non-cor-lav-brake-front
+Constraint[Prev][32]=LNWR-57ft-non-cor-lav
+Constraint[Prev][33]=LNWR-57ft-non-cor-brake-front
+Constraint[Prev][34]=LNWR-57ft-non-cor-lav
+Constraint[Prev][35]=LNWR-6wheel-radial
+Constraint[Prev][36]=LNWR-6wheel-radial-brake-third
+Constraint[Prev][37]=LNWR-6wheel-radial-full-brake
+Constraint[Prev][38]=LNWR-6wheel-radial-mail
+Constraint[Prev][39]=LNWR-6wheel-radial-tpo
+Constraint[Prev][40]=LMS-non-cor-lav
+Constraint[Prev][41]=LMS-non-cor-non-lav
+Constraint[Prev][42]=LMS-non-cor-brake-front
+Constraint[Prev][43]=LMS-non-cor-brake-lav-front
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -94,9 +142,9 @@ EmptyImage[NE][1]=./images/lnwr-6wheel-mail-lms.1.7
 obj=vehicle
 name=LNWR-6Wheel-tpo
 speed=135
-copyright=Kieron/James
-intro_year=1873
-intro_month=10
+copyright=Kieron/James/jamespetts
+intro_year=1887
+intro_month=7
 retire_year=1896
 retire_month=2
 waytype=track
@@ -106,7 +154,7 @@ length=6
 brake_force=5
 
 weight=12
-cost=314000
+cost=304000
 runningcost=24
 sound=-1
 catering_level=1
@@ -134,6 +182,32 @@ Constraint[Next][14]=LNWR-8wheel-radial-mail
 Constraint[Next][15]=LNWR-8wheel-radial-tpo
 Constraint[Next][16]=LNWR-8wheel-radial-non-lav
 Constraint[Next][17]=LNWR-8wheel-radial-brake-lav-rear
+Constraint[Next][18]=LNWR-8wheel-radial-full-brake
+Constraint[Next][19]=LNWR-42ft-non-cor-lav
+Constraint[Next][20]=LNWR-42ft-non-cor-non-lav
+Constraint[Next][21]=LNWR-42ft-non-cor-brake-rear
+Constraint[Next][22]=LNWR-42ft-non-cor-brake-lav-rear
+Constraint[Next][23]=LNWR-42ft-non-cor-mail
+Constraint[Next][24]=LNWR-42ft-non-cor-full-brake
+Constraint[Next][25]=LNWR-45ft-non-cor-lav
+Constraint[Next][26]=LNWR-45ft-non-cor-lav-brake
+Constraint[Next][27]=LNWR-50ft-non-cor-arc
+Constraint[Next][28]=LNWR-50ft-non-cor-arc-brake-rear
+Constraint[Next][29]=LNWR-50ft-non-cor-eliptical-brake-rear
+Constraint[Next][30]=LNWR-50ft-non-cor-eliptical
+Constraint[Next][31]=LNWR-57ft-non-cor-lav-brake-rear
+Constraint[Next][32]=LNWR-57ft-non-cor-lav
+Constraint[Next][33]=LNWR-57ft-non-cor-brake-rear
+Constraint[Next][34]=LNWR-57ft-non-cor-lav
+Constraint[Next][35]=LNWR-6wheel-radial
+Constraint[Next][36]=LNWR-6wheel-radial-brake-third
+Constraint[Next][37]=LNWR-6wheel-radial-full-brake
+Constraint[Next][38]=LNWR-6wheel-radial-mail
+Constraint[Next][39]=LNWR-6wheel-radial-tpo
+Constraint[Next][40]=LMS-non-cor-lav
+Constraint[Next][41]=LMS-non-cor-non-lav
+Constraint[Next][42]=LMS-non-cor-brake-rear
+Constraint[Next][43]=LMS-non-cor-brake-lav-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -153,6 +227,32 @@ Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
 Constraint[Prev][17]=LNWR-8wheel-radial-brake-lav-front
+Constraint[Prev][18]=LNWR-8wheel-radial-full-brake
+Constraint[Prev][19]=LNWR-42ft-non-cor-lav
+Constraint[Prev][20]=LNWR-42ft-non-cor-non-lav
+Constraint[Prev][21]=LNWR-42ft-non-cor-brake-front
+Constraint[Prev][22]=LNWR-42ft-non-cor-brake-lav-front
+Constraint[Prev][23]=LNWR-42ft-non-cor-mail
+Constraint[Prev][24]=LNWR-42ft-non-cor-full-brake
+Constraint[Prev][25]=LNWR-45ft-non-cor-lav
+Constraint[Prev][26]=LNWR-45ft-non-cor-lav-brake
+Constraint[Prev][27]=LNWR-50ft-non-cor-arc
+Constraint[Prev][28]=LNWR-50ft-non-cor-arc-brake-front
+Constraint[Prev][29]=LNWR-50ft-non-cor-eliptical-brake-front
+Constraint[Prev][30]=LNWR-50ft-non-cor-eliptical
+Constraint[Prev][31]=LNWR-57ft-non-cor-lav-brake-front
+Constraint[Prev][32]=LNWR-57ft-non-cor-lav
+Constraint[Prev][33]=LNWR-57ft-non-cor-brake-front
+Constraint[Prev][34]=LNWR-57ft-non-cor-lav
+Constraint[Prev][35]=LNWR-6wheel-radial
+Constraint[Prev][36]=LNWR-6wheel-radial-brake-third
+Constraint[Prev][37]=LNWR-6wheel-radial-full-brake
+Constraint[Prev][38]=LNWR-6wheel-radial-mail
+Constraint[Prev][39]=LNWR-6wheel-radial-tpo
+Constraint[Prev][40]=LMS-non-cor-lav
+Constraint[Prev][41]=LMS-non-cor-non-lav
+Constraint[Prev][42]=LMS-non-cor-brake-front
+Constraint[Prev][43]=LMS-non-cor-brake-lav-front
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard

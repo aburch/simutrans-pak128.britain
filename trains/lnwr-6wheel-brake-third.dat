@@ -1,17 +1,15 @@
-# These vehicles encompass the earlier 1870s type of LNWR 6-wheelers
-# and the later 30'1" standard types built from the mid 1880s onwards.
-# The differences between them, whilst techincally significant, are
-# not sufficiently economically significant to simulate here. The
-# graphics and types are based on the later series. See "London
-# & North Western Railway Thirty Foot One Inch Carriages" by
-# Philip A. Millard for details.
+# These vehicles the later 30'1" standard types built from 
+# the mid 1880s onwards. See "London & North Western Railway
+# Thirty Foot One Inch Carriages" by Philip A. Millard for details.
+
+# For the purposes of comfort, note 5'10" between compartments in third.
 
 obj=vehicle
 name=LNWR-6Wheel-brake-third
 speed=135
 copyright=Kieron/jamespetts
-intro_year=1873
-intro_month=10
+intro_year=1887
+intro_month=7
 retire_year=1896
 retire_month=2
 waytype=track
@@ -22,7 +20,7 @@ length=6
 brake_force=5
 
 weight=12
-cost=314000
+cost=304000
 runningcost=24
 sound=-1
 comfort=70
@@ -32,25 +30,44 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-Constraint[Next][0]=4-wheel-1870s-fitted
-Constraint[Next][1]=4-wheel-1870s-brake-fitted
-Constraint[Next][2]=4-wheel-1870s-mail-fitted
-Constraint[Next][3]=4-wheel-1870s-tpo-fitted
-Constraint[Next][4]=4-wheel-sub-1870s-fitted
-Constraint[Next][5]=4-wheel-sub-1870s-brake-rear-fitted
-Constraint[Next][6]=LNWR-6Wheel-non-lav
-Constraint[Next][7]=LNWR-6Wheel-Mail
-Constraint[Next][8]=LNWR-6Wheel-tpo
-Constraint[Next][9]=LNWR-6Wheel-Guard
-Constraint[Next][10]=LNWR-6Wheel-lav
-Constraint[Next][11]=LNWR-6Wheel-brake-third
-Constraint[Next][12]=LNWR-8wheel-radial-lav
-Constraint[Next][13]=LNWR-8wheel-radial-brake-rear
-Constraint[Next][14]=LNWR-8wheel-radial-mail
-Constraint[Next][15]=LNWR-8wheel-radial-tpo
-Constraint[Next][16]=LNWR-8wheel-radial-non-lav
-Constraint[Next][17]=LNWR-8wheel-radial-brake-lav-rear
-Constraint[Next][18]=none
+Constraint[Prev][0]=LNWR-6Wheel-non-lav
+Constraint[Prev][1]=LNWR-6Wheel-Mail
+Constraint[Prev][2]=LNWR-6Wheel-tpo
+Constraint[Prev][3]=LNWR-6Wheel-Guard
+Constraint[Prev][4]=LNWR-6Wheel-lav
+Constraint[Prev][5]=LNWR-6Wheel-brake-third
+Constraint[Prev][6]=LNWR-8wheel-radial-lav
+Constraint[Prev][7]=LNWR-8wheel-radial-brake-front
+Constraint[Prev][8]=LNWR-8wheel-radial-mail
+Constraint[Prev][9]=LNWR-8wheel-radial-tpo
+Constraint[Prev][10]=LNWR-8wheel-radial-non-lav
+Constraint[Prev][11]=LNWR-8wheel-radial-brake-lav-front
+Constraint[Prev][12]=LNWR-8wheel-radial-full-brake
+Constraint[Prev][13]=LNWR-42ft-non-cor-lav
+Constraint[Prev][14]=LNWR-42ft-non-cor-non-lav
+Constraint[Prev][15]=LNWR-42ft-non-cor-brake-front
+Constraint[Prev][16]=LNWR-42ft-non-cor-brake-lav-front
+Constraint[Prev][17]=LNWR-42ft-non-cor-mail
+Constraint[Prev][18]=LNWR-42ft-non-cor-full-brake
+Constraint[Prev][19]=LNWR-45ft-non-cor-lav
+Constraint[Prev][20]=LNWR-45ft-non-cor-lav-brake
+Constraint[Prev][21]=LNWR-50ft-non-cor-arc
+Constraint[Prev][22]=LNWR-50ft-non-cor-arc-brake-front
+Constraint[Prev][23]=LNWR-50ft-non-cor-eliptical-brake-front
+Constraint[Prev][24]=LNWR-50ft-non-cor-eliptical
+Constraint[Prev][25]=LNWR-57ft-non-cor-lav-brake-front
+Constraint[Prev][26]=LNWR-57ft-non-cor-lav
+Constraint[Prev][27]=LNWR-57ft-non-cor-brake-front
+Constraint[Prev][28]=LNWR-57ft-non-cor-lav
+Constraint[Prev][29]=LNWR-6wheel-radial
+Constraint[Prev][30]=LNWR-6wheel-radial-brake-third
+Constraint[Prev][31]=LNWR-6wheel-radial-full-brake
+Constraint[Prev][32]=LNWR-6wheel-radial-mail
+Constraint[Prev][33]=LNWR-6wheel-radial-tpo
+Constraint[Prev][34]=LMS-non-cor-lav
+Constraint[Prev][35]=LMS-non-cor-non-lav
+Constraint[Prev][36]=LMS-non-cor-brake-front
+Constraint[Prev][37]=LMS-non-cor-brake-lav-front
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard

@@ -28,24 +28,6 @@ liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
 
-Constraint[Next][0]=BR-Mk1-GUV
-Constraint[Next][1]=BR-Mk1-SK
-Constraint[Next][2]=BR-Mk1-TSO
-Constraint[Next][3]=BR-Mk1-BSK
-Constraint[Next][4]=BR-Mk1-BSO
-Constraint[Next][5]=BR-Mk1-BG
-Constraint[Next][6]=BR-Mk1-RB
-Constraint[Next][7]=BR-Mk1-RMB
-Constraint[Next][8]=BR-Mk2a-RMB
-Constraint[Next][9]=BR-Mk2a-BSO
-Constraint[Next][10]=BR-Mk2a-TSO
-Constraint[Next][11]=BR-Mk2a-SO
-Constraint[Next][12]=BR-Mk2-TSO
-Constraint[Next][13]=BR-Mk2-RFB
-Constraint[Next][14]=LNER-Gresley-Express-Dining
-Constraint[Next][15]=LNER-Gresley-Express-Buffet
-Constraint[Next][16]=none
-
 EmptyImage[E][0]=./images/br-mk1-bc-cc.0
 EmptyImage[SE][0]=./images/br-mk1-bc-cc.1
 EmptyImage[S][0]=./images/br-mk1-bc-cc.2
