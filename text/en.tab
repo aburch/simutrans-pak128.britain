@@ -2687,9 +2687,9 @@ LBSCR-non-cor-lav-brake-rear
 LBSCR non-corridor lavatory coach (brake)
 LBSCR-non-cor-lav-brake-front
 LBSCR non-corridor lavatory coach (brake)
-LNWR-Jumbo(Black)
+LNWR-Jumbo
 LNWR "Jumbo" Class 2-4-0
-LNWR-Jumbo-Tender(Black)
+LNWR-Jumbo-Tender
 LNWR "Jumbo" Class (tender)
 LNWR-Precedent
 LNWR "Precedent" Class 2-4-0
@@ -3176,6 +3176,14 @@ LNWR "Precedent" Class 2-4-0
 LNWR-Newton
 LNWR "Newton" Class 2-4-0
 LNWR-Newton-Tender
+LNWR express tender
+LNWR-Waterloo
+LNWR "Waterloo" Class 2-4-0
+LNWR-Waterloo-Tender
+LNWR express tender
+LNWR-Sampson
+LNWR "Sampson" Class 2-4-0
+LNWR-Sampson-Tender
 LNWR express tender
 MR-1738
 Midland 1738 Class 4-4-0
@@ -4849,10 +4857,16 @@ Grand Central
 Wartime-Austerity
 Wartime austerity
 NSE
-Networtk SouthEast
+Network SouthEast
 Regional-Railways
 Regional Railways
 London-Transport
 London Transport
 Regional
 Regional
+Island-Line
+Island Line
+GNR
+Great Northern
+GER
+Great Eastern

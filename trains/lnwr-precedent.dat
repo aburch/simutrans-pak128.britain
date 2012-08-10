@@ -23,7 +23,7 @@ weight=33
 cost=9021000
 runningcost=1700
 sound=-1
-upgrade[0]=LNWR-Jumbo(Black)
+upgrade[0]=LNWR-Jumbo
 
 Constraint[Next][0]=LNWR-Precedent-Tender
 
@@ -58,7 +58,7 @@ cost=0
 runningcost=0
 sound=-1
 
-upgrade[0]=LNWR-Jumbo-Tender(Black)
+upgrade[0]=LNWR-Jumbo-Tender
 
 Constraint[Prev][0]=LNWR-Precedent
 
