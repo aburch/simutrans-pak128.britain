@@ -2530,7 +2530,7 @@ GWR 3150 Class "Large Prairie" 2-6-2T
 GWR-Prairie-Tank-Modified(Green)
 GWR 3100 Class "Large Prairie" 2-6-2T
 MR-1000
-Midland 1000 Class 4-4-0
+Midland 1000 Class 4-4-0 (compound)
 MR-1000-Tender
 Midland 1000 Class (tender)
 MR-483
@@ -2703,9 +2703,9 @@ GWR-Bulldog(Green)
 GWR "Bulldog" Class 4-4-0
 GWR-Bulldog-Tender(Green)
 GWR "Bulldog" Class (tender)
-LNWR-PrinceOfWales(Black)
+LNWR-PrinceOfWales
 LNWR "Prince of Wales" Class 4-6-0
-LNWR-PrinceOfWales-Tender(Black)
+LNWR-PrinceOfWales-Tender
 LNWR express tender
 MR-2441
 Midland 2441 Class 0-6-0 (for push-pull)
@@ -3185,6 +3185,12 @@ LNWR-Precursor
 LNWR "Precursor" 4-4-0
 LNWR-George-V
 LNWR "George V" 4-4-0
+LNWR-Jubilee
+LNWR "Jubilee" 4-4-0 (compound)
+LNWR-Renown
+LNWR "Renown" 4-4-0
+LNWR-Alfred-the-Great
+LNWR "Alfred the Great" 4-4-0 (compound)
 LNWR-PrinceOfWales-tank
 LNWR "Prince of Wales" 4-6-2T
 MR-483-Tender

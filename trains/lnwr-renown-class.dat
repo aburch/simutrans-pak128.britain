@@ -1,34 +1,37 @@
+# Rebuilds from Webb compounds
+
 obj=vehicle
-name=LNWR-Precursor
+name=LNWR-Renown
 engine_type=steam
 smoke=Steam
-speed=125
-# Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
-power=1060
-tractive_effort=81
+speed=127
+# Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Renown_Class
+power=910
+tractive_effort=73
 copyright=James/jamespetts
-intro_year=1904
+intro_year=1908
 intro_month=3
-retire_year=1910
+retire_year=1924
 retire_month=5
 waytype=track
 freight=None
 payload=0
 length=6
 
-# Weight from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
-weight=60
-cost=7500000
-runningcost=885
+# Note: These compound locomotives were considered mechanically unreliable.
+
+# Weight from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Renown_Class
+weight=57
+upgrade_price=1700000
+runningcost=850
 sound=-1
-years_before_maintenance_max_reached=21
+available_only_as_upgrade=1
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
 Constraint[Next][0]=LNWR-PrinceOfWales-Tender
 
-# Graphics also used by "Renown" class
 EmptyImage[E][0]=./images/lnwr-precursor_E.0
 EmptyImage[SE][0]=./images/lnwr-precursor_SE.0
 EmptyImage[S][0]=./images/lnwr-precursor_S.0

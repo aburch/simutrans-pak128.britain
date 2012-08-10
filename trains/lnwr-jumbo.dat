@@ -15,9 +15,6 @@ freight=None
 payload=0
 length=5
 
-# Note that these were a development of the "Precedent" class: see Aarons p. 192 and 266. 
-# These should be upgradeable from the earlier class
-
 weight=42
 cost=10038000
 upgrade_price=1056500
