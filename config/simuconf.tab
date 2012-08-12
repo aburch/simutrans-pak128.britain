@@ -14,6 +14,14 @@ spacilive# Pak 128.Britain
 
 ################################# General gameplay settings ################################
 
+# Enforce vehicle (and other item) introduction dates?
+# 0 = all vehicles available from start of the game
+# 1 = use introduction dates
+# 2 = (default) use settings during game creation, new games off
+# 3 = use settings during game creation, new games on
+#
+use_timeline = 3
+
 # Passenger generation (the default is 16): smaller values means fewer passengers.
 
 passenger_factor=10
@@ -1046,3 +1054,28 @@ livery[20][3] = GER-Ultramarine
 intro_year[20][3] = 1882
 intro_month[20][3] = 5
 # Wartime livery was mid grey.
+
+livery_scheme[21] = FR
+retire_year[21] = 2500
+retire_month[21] = 1
+livery[21][0] = FR-Royal-Purple
+intro_year[21][0] = 1863
+intro_month[21][0] = 7
+livery[21][1] = FR-Royal-Purple-Cream
+# Guessed date - no information to hand
+intro_year[21][1] = 1889
+intro_month[21][1] = 8
+livery[21][2] = FR-Col-Stephens
+intro_year[21][2] = 1925
+intro_month[21][2] = 4
+livery[21][3] = FR-Green-Cream
+intro_year[21][3] = 1955
+intro_month[21][3] = 7
+livery[21][4] = FR-Cherry-Red
+# Guessed date - no information to hand
+intro_year[21][4] = 1969
+intro_month[21][4] = 10
+livery[21][5] = FR-Red-Cream
+# Guessed date - no information to hand
+intro_year[21][5] = 1991
+intro_month[21][5] = 2

@@ -423,7 +423,9 @@ Maglev depot
 OldTrainDepotNarrow
 Narrow gauge depot (steam)
 OldTrainDepotNarrowHorse
-Narrow gauge depot (horse)
+Narrow gauge stables
+ModernTrainDepotNarrow
+Narrow gauge depot (diesel)
 #____________________________________city-buildings____________________________________
 #____________________________________city-buildings____________________________________
 RES_KG_1600_00_01
@@ -1531,16 +1533,102 @@ CanalTunnel
 Canal tunnel
 #______________________________________NarrowGaugeVehicle______________________________________
 #______________________________________NarrowGaugeVehicle______________________________________
-FRCoach(CC)
-FR Passenger Cariage
-FRPostCoach(CC)
-FR Mail Carriage
-DoubleFairlie
-Double Fairlie 0-4-4-0
 Single-ShireNarrow
 Single Shire Horse
 Twin-ShireNarrow
 Double Shire Horse
+wagon-ng-bulk
+2t bulk wagon
+wagon-ng-long
+2t long goods wagon
+wagon-ng-box
+2t box van
+wagon-ng-food
+2t foods van
+wagon-ng-van-bogie-food
+Bogie food van
+wagon-ng-van-bogie
+Bogie goods van
+wagon-ng-long-bogie
+Bogie long wagon
+wagon-ng-bulk-bogie
+Bogie bulk wagon
+wagon-ng-piece-sar
+Goods van
+wagon-ng-food-sar
+Foods van
+wagon-ng-long-sar
+Long wagon
+wagon-ng-bulk-sar
+Hopper wagon
+FR-Goods-Brake
+FR brake van
+FR-Superbarn
+WHR "Super barn" carriage
+FR-Superbarn-service-coach
+WHR "Super barn" service carriage
+FR-Barn
+FR "Barn" carriage
+FR-Barn-Mail
+FR "Barn" mail carriage
+FR-Barn-Buffet
+FR "Barn" buffet carriage
+FR-Barn-Brake
+FR "Barn" brake carriage
+FR-Small-Birmingham-unfitted
+FR "Small Birmingham" knifeboard carriage
+FR-Small-Birmingham-fitted
+FR "Small Birmingham" knifeboard carriage (continuously braked)
+FR-Ashbury-unfitted
+FR two compartment carriage
+FR-Ashbury-fitted
+FR two compartment carriage (continuously braked)
+FR-bogie-unfitted
+FR seven compartment bogie carriage
+FR-bogie-fitted
+FR seven compartment bogie carriage (continuously braked)
+FR-bogie-van-unfitted
+FR bogie van
+FR-bogie-van-fitted
+FR bogie van (continuously braked)
+WHR-open
+NWNG open carriage
+WHR-buffet
+NWNG buffet carriage
+WHR-brake
+NWNG brake carriage
+George-England
+FR "George England" 0-4-0T
+George-England-tender
+FR "George England" (tender)
+DoubleFairlie
+FR Double Fairlie 0-4-4-0T
+DoubleFairlie-superheated
+FR Double Fairlie 0-4-4-0T (superheated)
+SingleFairlie
+FR Single Fairlie 0-4-4T
+SingleFairlie-superheated
+FR Single Fairlie 0-4-4T (superheated)
+Hunslet-Alice
+Hunslet "Alice" Class 0-4-0T
+Garrett-K1-front
+Garrett K1 Class 0-4-0+0-4-0
+Garrett-K1-middle
+Garrett K1 Class 0-4-0+0-4-0 (centre section)
+Garrett-K1-rear
+Garrett K1 Class 0-4-0+0-4-0 (rear section)
+Garrett-NGG16-front
+Garrett NG G16 Class 2-6-2+2-6-2
+Garrett-NGG16-middle
+Garrett NG G16 Class 2-6-2+2-6-2 (centre section)
+Garrett-NGG16-rear
+Garrett NG G16 Class 2-6-2+2-6-2 (rear section)
+Hibberd-Planet
+Hibberd Planet Class 4wDM
+Baguely-Drewery-0-6-0
+Baguely-Drewery 0-6-0
+Funkey-Deisel
+Funkey B-B
 #____________________________________rail-vehicle____________________________________
 #____________________________________rail-vehicle____________________________________
 DLR-P86Front
@@ -4367,16 +4455,6 @@ BR-Ultra-520DD(Buffet)
 Ultraspeed Class M30 "Platinum Jubilee" (middle buffet)
 BR-Ultra-520DD(rear)
 Ultraspeed Class M30 "Platinum Jubilee" (rear)
-#______________________________________NarrowGaugeVehicle______________________________________
-#______________________________________NarrowGaugeVehicle______________________________________
-FRCoach(CC)
-FR Passenger Coach
-DoubleFairlie
-Double Fairlie 0-4-4-0
-Single-ShireNarrow
-Single Shire Horse
-Twin-ShireNarrow
-Double Shire Horse
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 wrought_iron_track_light
@@ -4870,3 +4948,5 @@ GNR
 Great Northern
 GER
 Great Eastern
+FR
+Ffestiniog Railway

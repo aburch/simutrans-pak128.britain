@@ -16,10 +16,10 @@
 forest_no_of_trees_per_square = 3
 
 # Base forest size - minimal size of forest - map independent
-forest_base_size = 36
+forest_base_size = 18
 
 # Map size divisor - smaller it is the larger are individual forests
-forest_map_size_divisor = 128
+forest_map_size_divisor = 256
 
 # Forest count divisor - smaller it is, the more forest are generated
 forest_count_divisor = 64
@@ -31,7 +31,7 @@ forest_boundary_blur = 15
 forest_boundary_thickness = 6
 
 # Determins how dense are spare trees going to be planted (works inversly)
-forest_inverse_spare_tree_density = 384
+forest_inverse_spare_tree_density = 480
 
 # climate with trees entirely (1: water, 2:desert, 4:tropic, 8:mediterran, 16:temperate, 32:tundra, 64:rocky, 128:arctic)
 # zero (default) means no climate with at least one tree per tile
