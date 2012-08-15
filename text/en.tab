@@ -2711,7 +2711,7 @@ LMR-Patentee
 LMR "Patentee" 2-2-2
 LMR-Patentee-Tender
 LMR "Patentee" (tender)
-LNWR-DXgoods(Green)
+LNWR-DXgoods
 LNWR DX Goods 0-6-0
 LNWR-DXgoods-Tender(Green)
 LNWR DX Goods (tender)
@@ -2739,9 +2739,9 @@ LNWR-AClass(Black)
 LNWR A Class 0-8-0
 LNWR-AClass-Tender(Black)
 LNWR A Class (tender)
-LNWR-Bloomer(Red)
+LNWR-Bloomer
 LNWR "Bloomer" Class 2-2-2
-LNWR-Bloomer-Tender(Red)
+LNWR-Bloomer-Tender
 LNWR 15t tender
 LNWR-Problem(Green)
 LNWR "Problem" Class 2-2-2
@@ -3250,17 +3250,25 @@ LNWR 5'6 Radial Tank 2-4-2T
 LNWR-crewe-type
 LNWR Crewe Type 2-4-0
 LNWR-Cauliflower
-LNWR "Cauliflower" class 0-6-0
+LNWR "Cauliflower" Class 0-6-0
 LNWR-Cauliflower-tender
-LNWR "Cauliflower" class tender
+LNWR "Cauliflower" Class tender
 LNWR-watford-tank
 LNWR "Watford Tank" class 0-6-2T
 LBSCR-D2
 LBSCR D2 Class 0-4-2
 MR-133
-Midland 133 Class 2-4-0
+Midland 133 Class 2-2-0
 MR-133-tender
 Midland 133 Class tender
+MR-130
+Midland 130 "Crampton" Class 4-2-0
+MR-130-tender
+Midland 130 Class tender
+MR-1
+Midland 1 Class 2-2-0
+MR-1-tender
+Midland 1 Class tender
 LNWR-Precendent
 LNWR "Precedent" Class 2-4-0
 LNWR-Newton
