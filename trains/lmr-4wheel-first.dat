@@ -48,6 +48,7 @@ Constraint[Next][18]=LMR-4Wheel-Mail-Guard-rear
 Constraint[Next][19]=LMR-4Wheel-TPO
 Constraint[Next][20]=LMR-4Wheel-Mail
 Constraint[Next][21]=LMR-4Wheel-Parliamentary
+Constraint[Next][22]=4-wheel-1860s-full-brake
 
 Constraint[Prev][0]=4-wheel-1860s
 Constraint[Prev][1]=4-wheel-1860s-brake-front
@@ -71,6 +72,8 @@ Constraint[Prev][18]=LMR-4Wheel-Mail-Guard-front
 Constraint[Prev][19]=LMR-4Wheel-TPO
 Constraint[Prev][20]=LMR-4Wheel-Mail
 Constraint[Prev][21]=LMR-4Wheel-Parliamentary
+Constraint[Prev][22]=4-wheel-1860s-full-brake
+
 
 liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
@@ -182,7 +185,8 @@ Constraint[Next][18]=LMR-4Wheel-Mail-Guard-rear
 Constraint[Next][19]=LMR-4Wheel-TPO
 Constraint[Next][20]=LMR-4Wheel-Mail
 Constraint[Next][21]=LMR-4Wheel-Parliamentary
-Constraint[Next][22]=none
+Constraint[Next][22]=4-wheel-1860s-full-brake
+Constraint[Next][23]=none
 
 liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
@@ -294,6 +298,8 @@ Constraint[Prev][18]=LMR-4Wheel-Mail-Guard-front
 Constraint[Prev][19]=LMR-4Wheel-TPO
 Constraint[Prev][20]=LMR-4Wheel-Mail
 Constraint[Prev][21]=LMR-4Wheel-Parliamentary
+Constraint[Prev][22]=4-wheel-1860s-full-brake
+
 
 liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
