@@ -21,10 +21,12 @@ length=5
 brake_force=0
 rolling_resistance=64
 
-# Weight not given - guessed from LNWR version.
-weight=35
+# Weight not given - guessed.
+weight=27
 cost=7816000
-runningcost=870
+# These were, according to Ahrons, very fuel inefficient,
+# as they had no brick arch, so much heat energy was wasted.
+runningcost=980
 sound=-1
 
 Constraint[Next][0]=MR-130-tender

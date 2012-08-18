@@ -2,7 +2,7 @@
 !mose min_version 3
 !size=128
 run ./parameter.mos
-echo Buildinging pak128.Britain-Ex...
+echo Building pak128.Britain-Ex...
 echo This might take several minutes.
 echo
 config only_error=0

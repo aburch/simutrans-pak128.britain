@@ -1,9 +1,9 @@
 obj=vehicle
-name=LNWR-1847-Brake
+name=4-wheel-1850s-brake
 speed=100
 copyright=James/jamespetts
-intro_year=1845
-intro_month=4
+intro_year=1853
+intro_month=9
 retire_year=1859
 retire_month=10
 waytype=track
@@ -23,22 +23,6 @@ max_loading_time=100
 
 can_lead_from_rear=0
 bidirectional=1
-
-Constraint[Next][0]=4-wheel-1860s
-Constraint[Next][1]=4-wheel-1860s-brake-rear
-Constraint[Next][2]=4-wheel-1860s-mail
-Constraint[Next][3]=4-wheel-1860s-tpo
-Constraint[Next][4]=4-wheel-1870s-unfitted
-Constraint[Next][5]=4-wheel-1870s-brake-unfitted
-Constraint[Next][6]=4-wheel-1870s-mail-unfitted
-Constraint[Next][7]=4-wheel-1870s-tpo-unfitted
-Constraint[Next][8]=4-wheel-sub-1870s-unfitted
-Constraint[Next][9]=4-wheel-sub-1870s-brake-rear-unfitted
-Constraint[Next][10]=LNWR-1847-Brake
-Constraint[Next][11]=LNWR-1847-First
-Constraint[Next][12]=LNWR-1847-TPO
-Constraint[Next][13]=LNWR-1847-Mail
-Constraint[Next][14]=none
 
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
