@@ -1,30 +1,32 @@
+# See Midland Railway Carriages (Vol. 1)
+# by Lacy & Dow, p. 22
 obj=vehicle
-name=4-wheel-1850s
-speed=100
-copyright=James/jamespetts
-intro_year=1853
-intro_month=9
-retire_year=1859
-retire_month=10
+name=LMR-4Wheel-Parliamentary
+speed=66
+copyright=Kieron/JamesPetts
+intro_year=1840
+intro_month=11
+retire_year=1857
+retire_month=6
 waytype=track
 freight=Passagiere
-payload=24
-overcrowded_capacity=12
-length=4
+payload=30
+overcrowded_capacity=15
+length=3
 brake_force=0
-rolling_resistance=66
+rolling_resistance=64
 
-weight=4
-cost=144000
-runningcost=7
+weight=2
+cost=100000
+runningcost=8
 sound=-1
+
+comfort=30
+min_loading_time=17
+max_loading_time=47
 
 can_lead_from_rear=0
 bidirectional=1
-
-comfort=36
-min_loading_time=17
-max_loading_time=47
 
 Constraint[Next][0]=4-wheel-1860s
 Constraint[Next][1]=4-wheel-1860s-brake-rear
@@ -72,33 +74,33 @@ Constraint[Prev][19]=LMR-4Wheel-TPO
 Constraint[Prev][20]=LMR-4Wheel-Mail
 Constraint[Prev][21]=LMR-4Wheel-Parliamentary
 
-liverytype[0]=LNWR-Early
+liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
-liverytype[2]=MR-Standard
+liverytype[2]=LNWR-Early
 
-EmptyImage[E][0]=./images/4wheel-1840s-lnwr.1.4
-EmptyImage[SE][0]=./images/4wheel-1840s-lnwr.1.5
-EmptyImage[S][0]=./images/4wheel-1840s-lnwr.1.6
-EmptyImage[SW][0]=./images/4wheel-1840s-lnwr.1.7
-EmptyImage[W][0]=./images/4wheel-1840s-lnwr.1.0
-EmptyImage[NW][0]=./images/4wheel-1840s-lnwr.1.1
-EmptyImage[N][0]=./images/4wheel-1840s-lnwr.1.2
-EmptyImage[NE][0]=./images/4wheel-1840s-lnwr.1.3
+EmptyImage[E][0]=./images/4wheel-parliamentary.1.4
+EmptyImage[SE][0]=./images/4wheel-parliamentary.1.5
+EmptyImage[S][0]=./images/4wheel-parliamentary.1.6
+EmptyImage[SW][0]=./images/4wheel-parliamentary.1.7
+EmptyImage[W][0]=./images/4wheel-parliamentary.1.0
+EmptyImage[NW][0]=./images/4wheel-parliamentary.1.1
+EmptyImage[N][0]=./images/4wheel-parliamentary.1.2
+EmptyImage[NE][0]=./images/4wheel-parliamentary.1.3
 
-EmptyImage[E][1]=./images/4wheel-1840s-mr-dark.1.4
-EmptyImage[SE][1]=./images/4wheel-1840s-mr-dark.1.5
-EmptyImage[S][1]=./images/4wheel-1840s-mr-dark.1.6
-EmptyImage[SW][1]=./images/4wheel-1840s-mr-dark.1.7
-EmptyImage[W][1]=./images/4wheel-1840s-mr-dark.1.0
-EmptyImage[NW][1]=./images/4wheel-1840s-mr-dark.1.1
-EmptyImage[N][1]=./images/4wheel-1840s-mr-dark.1.2
-EmptyImage[NE][1]=./images/4wheel-1840s-mr-dark.1.3
+EmptyImage[E][1]=./images/4wheel-parliamentary-mr.1.4
+EmptyImage[SE][1]=./images/4wheel-parliamentary-mr.1.5
+EmptyImage[S][1]=./images/4wheel-parliamentary-mr.1.6
+EmptyImage[SW][1]=./images/4wheel-parliamentary-mr.1.7
+EmptyImage[W][1]=./images/4wheel-parliamentary-mr.1.0
+EmptyImage[NW][1]=./images/4wheel-parliamentary-mr.1.1
+EmptyImage[N][1]=./images/4wheel-parliamentary-mr.1.2
+EmptyImage[NE][1]=./images/4wheel-parliamentary-mr.1.3
 
-EmptyImage[E][2]=./images/4wheel-1840s-mr.1.4
-EmptyImage[SE][2]=./images/4wheel-1840s-mr.1.5
-EmptyImage[S][2]=./images/4wheel-1840s-mr.1.6
-EmptyImage[SW][2]=./images/4wheel-1840s-mr.1.7
-EmptyImage[W][2]=./images/4wheel-1840s-mr.1.0
-EmptyImage[NW][2]=./images/4wheel-1840s-mr.1.1
-EmptyImage[N][2]=./images/4wheel-1840s-mr.1.2
-EmptyImage[NE][2]=./images/4wheel-1840s-mr.1.3
+EmptyImage[E][2]=./images/4wheel-parliamentary-lnwr.1.4
+EmptyImage[SE][2]=./images/4wheel-parliamentary-lnwr.1.5
+EmptyImage[S][2]=./images/4wheel-parliamentary-lnwr.1.6
+EmptyImage[SW][2]=./images/4wheel-parliamentary-lnwr.1.7
+EmptyImage[W][2]=./images/4wheel-parliamentary-lnwr.1.0
+EmptyImage[NW][2]=./images/4wheel-parliamentary-lnwr.1.1
+EmptyImage[N][2]=./images/4wheel-parliamentary-lnwr.1.2
+EmptyImage[NE][2]=./images/4wheel-parliamentary-lnwr.1.3

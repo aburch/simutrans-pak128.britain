@@ -64,6 +64,7 @@ Constraint[Next][17]=LMR-4Wheel-Open-Brake
 Constraint[Next][18]=LMR-4Wheel-Mail-Guard-rear
 Constraint[Next][19]=LMR-4Wheel-TPO
 Constraint[Next][20]=LMR-4Wheel-Mail
+Constraint[Next][21]=LMR-4Wheel-Parliamentary
 
 Constraint[Prev][0]=4-wheel-1860s
 Constraint[Prev][1]=4-wheel-1860s-brake-front
@@ -86,6 +87,7 @@ Constraint[Prev][17]=LMR-4Wheel-Open-Brake
 Constraint[Prev][18]=LMR-4Wheel-Mail-Guard-front
 Constraint[Prev][19]=LMR-4Wheel-TPO
 Constraint[Prev][20]=LMR-4Wheel-Mail
+Constraint[Prev][21]=LMR-4Wheel-Parliamentary
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban.1.5
@@ -167,7 +169,8 @@ Constraint[Next][17]=LMR-4Wheel-Open-Brake
 Constraint[Next][18]=LMR-4Wheel-Mail-Guard-rear
 Constraint[Next][19]=LMR-4Wheel-TPO
 Constraint[Next][20]=LMR-4Wheel-Mail
-Constraint[Next][21]=none
+Constraint[Next][21]=LMR-4Wheel-Parliamentary
+Constraint[Next][22]=none
 
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
@@ -254,6 +257,7 @@ Constraint[Prev][17]=LMR-4Wheel-Open-Brake
 Constraint[Prev][18]=LMR-4Wheel-Mail-Guard-front
 Constraint[Prev][19]=LMR-4Wheel-TPO
 Constraint[Prev][20]=LMR-4Wheel-Mail
+Constraint[Prev][21]=LMR-4Wheel-Parliamentary
 
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
