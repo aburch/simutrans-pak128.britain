@@ -29,6 +29,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 upgrade[0]=LBSCR-4wheel-parliamentary-third
+upgrade[1]=milk-van
 
 Constraint[Next][0]=LBSCR-4wheel-open
 Constraint[Next][1]=LBSCR-4wheel-open-brake
@@ -107,6 +108,9 @@ max_loading_time=47
 
 can_lead_from_rear=0
 bidirectional=1
+
+upgrade[0]=LBSCR-4wheel-parliamentary-third-brake
+upgrade[1]=milk-van
 
 EmptyImage[E]=./images/lbscr-4wheel-open-sided.1.4
 EmptyImage[SE]=./images/lbscr-4wheel-open-sided.1.5

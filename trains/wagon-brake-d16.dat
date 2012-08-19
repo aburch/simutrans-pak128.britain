@@ -1,7 +1,7 @@
 obj=vehicle
 name=BrakeD16
 #?
-speed=70
+speed=80
 copyright=James
 intro_year=1855
 intro_month=2
@@ -11,6 +11,7 @@ freight=Bucher
 payload=0
 waytype=track
 brake_force=3
+rolling_resistance=64
 
 length=3
 
