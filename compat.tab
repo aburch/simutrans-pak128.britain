@@ -203,14 +203,12 @@ ParishChurchStMichaels
 ParishChurch
 ParishChurchStMichaels
 #
-### And typo fix in new stone attractions
-Cemetry
-Cemetery
-#
 ### Renaming objects to remove spaces
 Ford Trimotor - Northern & Scottish Airways
-FordTrimotor(NorthernAndScottishAirways)
-#
-### And for clarity...
 FordTrimotor(NSA)
-FordTrimotor(NorthernAndScottishAirways)
+### Additional Narrow Gauge Vehicles renaming
+#
+FRCoach(CC)
+FR-Barn
+FRPostCoach(CC)
+FR-Barn-Mail
