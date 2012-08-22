@@ -1,0 +1,36 @@
+obj=vehicle
+name=SingleFairlie-superheated
+engine_type=steam
+smoke=Steam
+speed=60
+gear=200
+power=105
+# Calculated from values from http://www.festipedia.org.uk/wiki/Taliesin_III 
+tractive_effort=24
+copyright=James/jamespetts
+# http://www.festipedia.org.uk/wiki/Taliesin
+intro_year=1910
+intro_month=10
+# Functional rather than historical
+retire_year=1954
+retire_month=11
+waytype=narrowgauge_track
+freight=None
+payload=0
+length=4
+
+weight=16
+cost=3597436
+runningcost=85
+sound=-1
+
+EmptyImage[E]=./images/single-fairlie-superheated-green.1.0
+EmptyImage[SE]=./images/single-fairlie-superheated-green.1.1
+EmptyImage[S]=./images/single-fairlie-superheated-green.1.2
+EmptyImage[SW]=./images/single-fairlie-superheated-green.1.3
+EmptyImage[W]=./images/single-fairlie-superheated-green.1.4
+EmptyImage[NW]=./images/single-fairlie-superheated-green.1.5
+EmptyImage[N]=./images/single-fairlie-superheated-green.1.6
+EmptyImage[NE]=./images/single-fairlie-superheated-green.1.7
+
+---

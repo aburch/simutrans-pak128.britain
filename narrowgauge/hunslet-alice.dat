@@ -1,0 +1,38 @@
+# http://en.wikipedia.org/wiki/Alice_%28locomotive%29
+
+obj=vehicle
+name=Hunslet-Alice
+engine_type=steam
+smoke=Steam
+speed=40
+gear=200
+power=52
+# Guessed
+copyright=James/jamespetts
+# See Ffestiniog illustrated stock list p. 40
+intro_year=1886
+intro_month=2
+retire_year=1917
+retire_month=14
+waytype=narrowgauge_track
+freight=None
+payload=0
+length=3
+
+http://welshhighland.freeforums.org/hugh-napier-t1364.html
+weight=6
+cost=1550251
+runningcost=75
+sound=-1
+
+
+EmptyImage[E]=./images/hunslet-alice-maroon.1.0
+EmptyImage[SE]=./images/hunslet-alice-maroon.1.1
+EmptyImage[S]=./images/hunslet-alice-maroon.1.2
+EmptyImage[SW]=./images/hunslet-alice-maroon.1.3
+EmptyImage[W]=./images/hunslet-alice-maroon.1.4
+EmptyImage[NW]=./images/hunslet-alice-maroon.1.5
+EmptyImage[N]=./images/hunslet-alice-maroon.1.6
+EmptyImage[NE]=./images/hunslet-alice-maroon.1.7
+
+---
