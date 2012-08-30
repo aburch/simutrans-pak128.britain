@@ -1,0 +1,38 @@
+# Should be a little underpowered, but
+# more economical than the Fowler 3P.
+# (See Wikipedia article)
+
+obj=vehicle
+name=LMS-Stanier-3P-Tank
+engine_type=steam
+smoke=Steam
+speed=110
+gear=300
+power=597
+copyright=Kieron/JamesPetts
+intro_year=1935
+intro_month=12
+retire_year=1946
+retire_month=1
+waytype=track
+freight=None
+payload=0
+length=7
+
+weight=72
+cost=3024049
+runningcost=660
+sound=-1
+
+
+EmptyImage[E]=./images/lms-stanier-3p.1.4
+EmptyImage[SE]=./images/lms-stanier-3p.1.5
+EmptyImage[S]=./images/lms-stanier-3p.1.6
+EmptyImage[SW]=./images/lms-stanier-3p.1.7
+EmptyImage[W]=./images/lms-stanier-3p.1.0
+EmptyImage[NW]=./images/lms-stanier-3p.1.1
+EmptyImage[N]=./images/lms-stanier-3p.1.2
+EmptyImage[NE]=./images/lms-stanier-3p.1.3
+
+
+---

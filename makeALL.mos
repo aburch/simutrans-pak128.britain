@@ -90,7 +90,7 @@ echo Build townhall
 build %OUTPUT%BritHall.pak ./townhall/
 
 echo Build trains
-build %OUTPUT%BritRail.pak ./trains/
+build %OUTPUT%BritRail.pak ./trains112/
 
 echo Build trams
 build %OUTPUT%BritTram.pak ./trams/

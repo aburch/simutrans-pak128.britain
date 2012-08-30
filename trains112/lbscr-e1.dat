@@ -1,0 +1,36 @@
+obj=vehicle
+name=LBSCR-E1
+engine_type=steam
+smoke=Steam
+speed=70
+# Tractive effort taken from:
+# http://en.wikipedia.org/wiki/LB%26SCR_E1_class
+power=335
+gear=300
+copyright=Kieron/JamesPetts
+intro_year=1874
+intro_month=11
+retire_year=1891
+retire_month=12
+waytype=track
+freight=None
+payload=0
+length=7
+
+# Weight taken from: 
+# http://en.wikipedia.org/wiki/LB%26SCR_E1_class
+weight=45
+cost=2200000
+runningcost=280
+sound=-1
+
+EmptyImage[E]=./images/lbscr-e1-goods-green.1.4
+EmptyImage[SE]=./images/lbscr-e1-goods-green.1.5
+EmptyImage[S]=./images/lbscr-e1-goods-green.1.6
+EmptyImage[SW]=./images/lbscr-e1-goods-green.1.7
+EmptyImage[W]=./images/lbscr-e1-goods-green.1.0
+EmptyImage[NW]=./images/lbscr-e1-goods-green.1.1
+EmptyImage[N]=./images/lbscr-e1-goods-green.1.2
+EmptyImage[NE]=./images/lbscr-e1-goods-green.1.3
+
+---

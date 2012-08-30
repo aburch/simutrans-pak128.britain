@@ -1,0 +1,34 @@
+obj=vehicle
+name=LNWR-17in-coal-engine
+engine_type=steam
+smoke=Steam
+speed=70
+# http://en.wikipedia.org/wiki/LNWR_17in_Coal_Engine	
+power=800
+gear=300
+copyright=James&jamespetts
+intro_year=1873
+intro_month=4
+retire_year=1892
+retire_month=10
+waytype=track
+freight=None
+payload=0
+length=5
+
+# http://en.wikipedia.org/wiki/LNWR_17in_Coal_Engine
+weight=33
+cost=3750000
+runningcost=500
+sound=-1
+
+Constraint[Next][0]=LNWR-Cauliflower-tender
+
+EmptyImage[E]=./images/lnwr-17in-coal-engine.0.4,4,2
+EmptyImage[SE]=./images/lnwr-17in-coal-engine.0.5,0,2
+EmptyImage[S]=./images/lnwr-17in-coal-engine.0.6,-4,2
+EmptyImage[SW]=./images/lnwr-17in-coal-engine.0.7,-4,0
+EmptyImage[W]=./images/lnwr-17in-coal-engine.0.0,-4,-2
+EmptyImage[NW]=./images/lnwr-17in-coal-engine.0.1,0,-2
+EmptyImage[N]=./images/lnwr-17in-coal-engine.0.2,4,-2
+EmptyImage[NE]=./images/lnwr-17in-coal-engine.0.3,4,0
