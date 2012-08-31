@@ -1,10 +1,10 @@
-Pak128.Britain 1.0 (beta) - 7th July 2009
+Pak128.Britain 1.12 (beta) - 31st August 2012
 
 INTRODUCTION
-Pak128.Britain is a graphics set (pak) for Simutrans.  It requires a Simutrans executable in order to play.  This version is compatible with Simutrans version 102.1 - it has not been tested fully with earlier versions of Simutrans and may not work fully.  Use of the latest version of Simutrans is therefore recommended.  
+Pak128.Britain is a graphics set (pak) for Simutrans.  It requires a Simutrans executable in order to play.  This version is compatible with Simutrans version 111.3.1 - it has not been tested fully with earlier versions of Simutrans and may not work fully.  Use of the latest version of Simutrans is therefore recommended.  
 
 COMPATIBILITY
-This release of pak128.Britain 1.0 is the first standalone release of pak128.Britain, i.e. it does not require any other graphics objects to run (unlike previous pre-release versions in the 0.x series which required elements of pak128 in order to run).  There are many new objects since the release of 0.03 and as such this version is NOT compatible with previous versions of pak128.Britain.  You will therefore not be able to continue using save games saved in the 0.0x with 1.0.  However, the pakset is still a work in progress and many items are still missing or unfinished - please bear with us or consider contributing yourself :-)
+This release of pak128.Britain should be backwards compatible with all previous releases in the 1.xx series, however a number of major changes have been made to trains. While this should not break any savegames, you may find that certain convoys cannot drive after being sent to the depot. You will need to reform these trains in the depot according to the new vehicle constraints.
 
 LICENCE
 Pak128.Britain is released open source under the terms of the Artistic License.  Please read licence.txt for details.
@@ -225,3 +225,5 @@ HISTORY
 	ADD: ATR 42 planes (Milko)
 01/09/2011
 	ADD: Basic Narrowgauge
+31/8/2012: release of version 1.12
+	Various additions: many trains, attractions, planes, narrow gauge vehicles, ways, bridges, city buildings, buses. I will try and keep up with the changelog from now on again!
