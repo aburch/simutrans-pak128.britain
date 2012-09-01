@@ -4,7 +4,7 @@ engine_type=electric
 speed=160
 power=500
 tractive_effort=158
-#gear=420
+gear=80
 copyright=Kieron
 intro_year=2001
 intro_month=3
@@ -16,7 +16,7 @@ payload=60
 overcrowded_capacity=46
 length=12
 brake_force=35
-rolling_resistance=48
+rolling_resistance=13
 
 weight=46
 cost=1512000

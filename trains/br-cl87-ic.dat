@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-Class87(Rail-Blue)
 engine_type=electric
 speed=177
-#gear=140
+gear=80
 power=3730
 tractive_effort=258
 copyright=Kieron
@@ -15,7 +15,7 @@ freight=None
 payload=0
 length=10
 brake_force=65
-rolling_resistance=48
+rolling_resistance=13
 
 weight=83
 cost=8295000

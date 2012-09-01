@@ -4,7 +4,7 @@ engine_type=electric
 speed=225
 power=855
 tractive_effort=34
-#gear=400
+gear=80
 copyright=Kieron
 intro_year=2003
 intro_month=6
@@ -16,7 +16,7 @@ payload=46
 overcrowded_capacity=12
 length=13
 brake_force=40
-rolling_resistance=48
+rolling_resistance=13
 
 weight=54
 cost=2785000
@@ -31,7 +31,7 @@ way_constraint_permissive[2]=2
 min_loading_time=30
 max_loading_time=165
 comfort=132
-air_resistance=884
+air_resistance=272
 
 Constraint[Prev][0]=none
 

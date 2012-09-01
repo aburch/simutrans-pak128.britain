@@ -3,6 +3,7 @@
 obj=vehicle
 name=Hibberd-Planet
 engine_type=diesel
+gear=50
 smoke=Diesel
 speed=60
 power=134
@@ -18,7 +19,7 @@ waytype=narrowgauge_track
 freight=None
 payload=0
 length=4
-rolling_resistance=61
+rolling_resistance=18
 
 # No information - guessed
 weight=19

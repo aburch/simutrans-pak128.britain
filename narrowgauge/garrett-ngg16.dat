@@ -20,7 +20,7 @@ waytype=narrowgauge_track
 freight=None
 payload=0
 length=3
-rolling_resistance=62
+rolling_resistance=18
 
 # http://en.wikipedia.org/wiki/South_African_Class_NG_G16_2-6-2%2B2-6-2
 weight=63
@@ -58,7 +58,7 @@ waytype=narrowgauge_track
 freight=None
 payload=0
 length=7
-rolling_resistance=62
+rolling_resistance=18
 
 # Must be zero, as total weight is 34t on two bogies. Should be shown in front vehicle.
 weight=0
@@ -97,7 +97,7 @@ waytype=narrowgauge_track
 freight=None
 payload=0
 length=3
-rolling_resistance=62
+rolling_resistance=18
 
 # Must be zero, as total weight is 34t on two bogies. Should be shown in front vehicle.
 weight=0

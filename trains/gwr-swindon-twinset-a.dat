@@ -3,7 +3,7 @@ name=GWR-Swindon-TwinsetFront
 engine_type=diesel
 smoke=Diesel
 speed=110
-#gear=400
+gear=50
 power=160
 tractive_effort=30
 copyright=Kieron
@@ -29,7 +29,7 @@ bidirectional=0
 min_loading_time=25
 max_loading_time=90
 comfort=90
-air_resistance=884
+air_resistance=272
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=GWR-Swindon-TwinsetRear

@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-489[GLV](Intercity)
 engine_type=electric
 speed=175
-#gear=340
+gear=80
 power=375
 tractive_effort=100
 copyright=Kieron
@@ -14,7 +14,7 @@ waytype=track
 freight=Post
 payload=60
 length=11
-rolling_resistance=48
+rolling_resistance=13
 
 weight=45
 cost=1500000
@@ -54,7 +54,7 @@ waytype=track
 freight=Post
 payload=60
 length=11
-rolling_resistance=48
+rolling_resistance=13
 
 weight=32
 upgrade_price=620000

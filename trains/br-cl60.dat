@@ -4,6 +4,7 @@ engine_type=diesel
 smoke=Diesel
 speed=97
 power=2300
+gear=50
 tractive_effort=474
 copyright=Kieron/JamesPetts
 intro_year=1989
@@ -15,7 +16,7 @@ freight=None
 payload=0
 length=12
 brake_force=96
-rolling_resistance=48
+rolling_resistance=13
 
 weight=129
 cost=8206000

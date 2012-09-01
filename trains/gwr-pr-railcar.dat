@@ -3,7 +3,7 @@ name=GWR-ParkRoyal-Railcar
 engine_type=diesel
 smoke=Diesel
 speed=100
-#gear=320
+gear=50
 power=195
 copyright=Kieron
 intro_year=1933
@@ -27,7 +27,7 @@ bidirectional=1
 min_loading_time=20
 max_loading_time=90
 comfort=80
-air_resistance=884
+air_resistance=272
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

@@ -4,7 +4,7 @@ engine_type=electric
 speed=120
 power=328
 tractive_effort=128
-#gear=680
+gear=80
 copyright=Kieron
 intro_year=1975
 intro_month=12
@@ -15,7 +15,7 @@ freight=Passagiere
 payload=74
 overcrowded_capacity=56
 length=11
-rolling_resistance=48
+rolling_resistance=13
 
 weight=36
 cost=1237000

@@ -14,7 +14,7 @@ payload=52
 overcrowded_capacity=13
 length=12
 brake_force=26
-rolling_resistance=48
+rolling_resistance=13
 
 weight=34
 cost=2000000
@@ -31,7 +31,7 @@ way_constraint_permissive[2]=2
 min_loading_time=35
 max_loading_time=165
 comfort=140
-air_resistance=884
+air_resistance=272
 
 Constraint[Prev][0]=BR-370Coach(IC)
 Constraint[Prev][1]=BR-370Restaurant(IC)

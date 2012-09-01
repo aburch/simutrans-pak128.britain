@@ -136,6 +136,7 @@
     <None Include="bus\leyland-sherpa.dat" />
     <None Include="bus\leyland-t45-constructor.dat" />
     <None Include="bus\maudslay-van.dat" />
+    <None Include="bus\mcnamara.dat" />
     <None Include="bus\morris-fg.dat" />
     <None Include="bus\morris-j4.dat" />
     <None Include="bus\morris-ld.dat" />
@@ -981,7 +982,6 @@
     <None Include="..\..\simutrans-experimental-binaries\text\en\map.txt" />
     <None Include="grounds\marker.dat" />
     <None Include="ways\masonry-viaduct-road.dat" />
-    <None Include="mcnamara_van.dat" />
     <None Include="bus\mcw-q1.dat" />
     <None Include="trams\medium-2-deck-trailer.dat" />
     <None Include="config\menuconf.tab" />
@@ -1207,11 +1207,6 @@
     <None Include="boats\thames-sailing-barge.dat" />
     <None Include="bus\thornycroft-steam-van.dat" />
     <None Include="bus\thornycroft-wagon.dat" />
-    <None Include="lorries\thornycroft_bt.dat" />
-    <None Include="thornycroft_q.dat" />
-    <None Include="thornycroft_qc.dat" />
-    <None Include="thornycroft_stag.dat" />
-    <None Include="lorries\thornycroft_wagon.dat" />
     <None Include="trams\toastrack.dat" />
     <None Include="townhall\townhalls.dat" />
     <None Include="trams\tram-horse.dat" />

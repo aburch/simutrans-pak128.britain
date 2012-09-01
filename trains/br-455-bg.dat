@@ -14,7 +14,7 @@ length=10
 engine_type=electric
 power=0
 brake_force=23
-rolling_resistance=48
+rolling_resistance=13
 
 weight=30
 cost=1860000
@@ -61,9 +61,10 @@ overcrowded_capacity=63
 length=10
 engine_type=electric
 power=746
+gear=80
 tractive_effort=137
 brake_force=38
-rolling_resistance=48
+rolling_resistance=13
 
 weight=50
 cost=1860000
@@ -110,7 +111,7 @@ length=10
 engine_type=electric
 power=0
 brake_force=18
-rolling_resistance=48
+rolling_resistance=13
 
 weight=25
 cost=1860000
@@ -156,7 +157,7 @@ length=10
 engine_type=electric
 power=0
 brake_force=23
-rolling_resistance=48
+rolling_resistance=13
 
 weight=30
 cost=1860000

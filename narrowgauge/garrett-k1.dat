@@ -19,7 +19,7 @@ waytype=narrowgauge_track
 freight=None
 payload=0
 length=2
-rolling_resistance=64
+rolling_resistance=19
 
 # http://en.wikipedia.org/wiki/TGR_K_class
 weight=34
@@ -58,7 +58,7 @@ waytype=narrowgauge_track
 freight=None
 payload=0
 length=4
-rolling_resistance=64
+rolling_resistance=19
 
 # Must be zero, as total weight is 34t on two bogies. Should be shown in front vehicle.
 weight=0
@@ -98,7 +98,7 @@ waytype=narrowgauge_track
 freight=None
 payload=0
 length=3
-rolling_resistance=64
+rolling_resistance=19
 
 # Must be zero, as total weight is 34t on two bogies. Should be shown in front vehicle.
 weight=0

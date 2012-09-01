@@ -12,7 +12,7 @@ payload=40
 overcrowded_capacity=20
 length=5
 brake_force=0
-rolling_resistance=65
+rolling_resistance=19
 
 weight=8
 cost=200000
@@ -121,7 +121,7 @@ payload=20
 overcrowded_capacity=10
 length=5
 brake_force=3
-rolling_resistance=65
+rolling_resistance=19
 
 weight=8
 cost=200000
@@ -207,7 +207,7 @@ payload=20
 overcrowded_capacity=10
 length=5
 brake_force=3
-rolling_resistance=65
+rolling_resistance=19
 
 weight=8
 cost=200000
@@ -291,7 +291,7 @@ freight=Post
 payload=12
 length=5
 brake_force=3
-rolling_resistance=65
+rolling_resistance=19
 
 weight=8
 cost=200000
@@ -351,7 +351,7 @@ freight=Post
 payload=16
 length=5
 brake_force=0
-rolling_resistance=65
+rolling_resistance=19
 
 weight=8
 cost=200000
@@ -458,7 +458,7 @@ freight=Post
 payload=8
 length=5
 brake_force=0
-rolling_resistance=65
+rolling_resistance=19
 
 weight=8
 cost=200000

@@ -3,7 +3,6 @@ name=BR-390FrontPantograph(Virgin)
 engine_type=electric
 speed=225
 power=0
-#gear=400
 copyright=Kieron
 intro_year=2003
 intro_month=6
@@ -15,7 +14,7 @@ payload=48
 overcrowded_capacity=12
 length=14
 brake_force=40
-rolling_resistance=48
+rolling_resistance=13
 
 weight=51
 cost=2785000

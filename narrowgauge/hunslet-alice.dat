@@ -5,7 +5,6 @@ name=Hunslet-Alice
 engine_type=steam
 smoke=Steam
 speed=40
-#gear=200
 power=52
 # Guessed
 tractive_effort=11
@@ -19,7 +18,7 @@ waytype=narrowgauge_track
 freight=None
 payload=0
 length=3
-rolling_resistance=64
+rolling_resistance=19
 
 http://welshhighland.freeforums.org/hugh-napier-t1364.html
 weight=6

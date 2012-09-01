@@ -1,7 +1,6 @@
 obj=vehicle
 name=BR-499[TLV](Blue-Grey)
 speed=145
-#gear=100
 copyright=Kieron
 intro_year=1968
 intro_month=7
@@ -11,7 +10,7 @@ waytype=track
 freight=Post
 payload=60
 length=11
-rolling_resistance=48
+rolling_resistance=13
 
 weight=32
 cost=1000000

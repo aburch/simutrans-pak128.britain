@@ -3,7 +3,6 @@ name=BR-395Rear(SE)
 engine_type=electric
 speed=225
 power=0
-#gear=420
 copyright=Kieron
 intro_year=2009
 intro_month=6
@@ -15,7 +14,7 @@ payload=27
 overcrowded_capacity=8
 length=12
 brake_force=30
-rolling_resistance=48
+rolling_resistance=13
 
 weight=40
 cost=2067000
@@ -28,7 +27,7 @@ bidirectional=0
 min_loading_time=20
 max_loading_time=65
 comfort=95
-air_resistance=884
+air_resistance=272
 
 Constraint[Next][0]=BR-395Front(SE)
 Constraint[Next][1]=none

@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-Class90
 engine_type=electric
 speed=177
-#gear=130
+gear=80
 power=3730
 tractive_effort=258
 copyright=Kieron
@@ -15,7 +15,7 @@ freight=None
 payload=0
 length=11
 brake_force=65
-rolling_resistance=48
+rolling_resistance=13
 
 weight=85
 cost=6552000
@@ -26,7 +26,7 @@ increase_maintenance_after_years=23
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[2]=2
-air_resistance=975
+air_resistance=300
 
 liverytype[0]=IC-Swallow
 liverytype[1]=GNER

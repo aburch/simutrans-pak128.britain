@@ -25,7 +25,7 @@ payload=40
 overcrowded_capacity=20
 length=6
 brake_force=0
-rolling_resistance=63
+rolling_resistance=18
 
 weight=9
 cost=300000
@@ -146,7 +146,7 @@ freight=Post
 payload=21
 length=6
 brake_force=4
-rolling_resistance=63
+rolling_resistance=18
 
 weight=9
 cost=300000
@@ -217,7 +217,7 @@ freight=Post
 payload=34
 length=6
 brake_force=0
-rolling_resistance=63
+rolling_resistance=18
 
 weight=9
 cost=300000
@@ -334,7 +334,7 @@ freight=Post
 payload=17
 length=6
 brake_force=0
-rolling_resistance=63
+rolling_resistance=18
 
 weight=9
 cost=300000
@@ -455,7 +455,7 @@ payload=40
 overcrowded_capacity=20
 length=6
 brake_force=4
-rolling_resistance=63
+rolling_resistance=18
 
 weight=10
 cost=355000
@@ -587,7 +587,7 @@ freight=Post
 payload=21
 length=6
 brake_force=4
-rolling_resistance=63
+rolling_resistance=18
 
 weight=10
 cost=355000
@@ -658,7 +658,7 @@ freight=Post
 payload=34
 length=6
 brake_force=4
-rolling_resistance=63
+rolling_resistance=18
 
 weight=10
 cost=355000
@@ -786,7 +786,7 @@ freight=Post
 payload=17
 length=6
 brake_force=4
-rolling_resistance=63
+rolling_resistance=18
 
 weight=10
 cost=355000

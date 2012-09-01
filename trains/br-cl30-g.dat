@@ -3,7 +3,7 @@ name=BR-Class30(Green)
 engine_type=diesel
 smoke=Diesel
 speed=130
-#gear=310
+gear=50
 power=930
 tractive_effort=120
 copyright=Kieron
@@ -24,7 +24,7 @@ sound=-1
 # Consider using overhaul parameters for this when overhauls are
 # first introduced.
 increase_maintenance_after_years=6
-rolling_resistance=48
+rolling_resistance=13
 
 can_lead_from_rear=0
 bidirectional=1

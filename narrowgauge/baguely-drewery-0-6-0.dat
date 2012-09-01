@@ -6,6 +6,7 @@ engine_type=diesel
 smoke=Diesel
 speed=60
 power=186
+gear=50
 # Guessed value
 tractive_effort=60
 copyright=James
@@ -16,7 +17,7 @@ waytype=narrowgauge_track
 freight=None
 payload=0
 length=4
-rolling_resistance=60
+rolling_resistance=18
 
 # No information - guessed
 weight=23

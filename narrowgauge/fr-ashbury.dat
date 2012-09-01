@@ -15,7 +15,7 @@ freight=Passagiere
 # per side, giving 12 seats, but this is less than the small Birmingham.
 payload=16
 length=2
-rolling_resistance=65
+rolling_resistance=19
 brake_force=0
 
 weight=2
@@ -108,7 +108,7 @@ waytype=narrowgauge_track
 freight=Passagiere
 payload=16
 length=2
-rolling_resistance=65
+rolling_resistance=19
 
 weight=2
 upgrade_price=20000

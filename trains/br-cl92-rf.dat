@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-Class92(Railfreight)
 engine_type=electric
 speed=145
-#gear=250
+gear=80
 power=5000
 tractive_effort=360
 copyright=Kieron
@@ -15,7 +15,7 @@ freight=None
 payload=0
 length=12
 brake_force=95
-rolling_resistance=48
+rolling_resistance=13
 
 weight=126
 cost=8800000

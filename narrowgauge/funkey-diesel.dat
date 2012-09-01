@@ -6,6 +6,7 @@ engine_type=diesel
 smoke=Diesel
 speed=60
 power=265
+gear=50
 # Guessed value
 tractive_effort=72
 copyright=James
@@ -15,7 +16,7 @@ waytype=narrowgauge_track
 freight=None
 payload=0
 length=7
-rolling_resistance=60
+rolling_resistance=18
 
 # http://www.festipedia.org.uk/wiki/Castell_Caernarfon
 weight= 27
