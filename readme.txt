@@ -226,4 +226,4 @@ HISTORY
 01/09/2011
 	ADD: Basic Narrowgauge
 31/8/2012: release of version 1.12
-	Various additions: many trains, attractions, planes, narrow gauge vehicles, ways, bridges, city buildings, buses. I will try and keep up with the changelog from now on again!
+	Various additions: many trains, underground trains, attractions, planes, narrow gauge vehicles, ways, bridges, city buildings, buses. I will try and keep up with the changelog from now on again!
