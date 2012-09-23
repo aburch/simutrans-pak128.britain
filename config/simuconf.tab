@@ -737,7 +737,7 @@ turntable_reverse_time=50000
 # 2.0 and the global_power_factor_percent was set to 200, the vehicle would behave
 # as if it had a total power of 4,800kw. 
 #
-# The default is 100.
+# The default is 100 (but should be set to 50% for Standard paksets).
 
 global_power_factor_percent=100
 
