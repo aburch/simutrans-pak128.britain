@@ -87,7 +87,7 @@ max_alternative_destinations = 6
 # kilometres. 
 
 local_passengers_min_distance = 0
-local_passengers_max_distance = 30
+local_passengers_max_distance = 25
 midrange_passengers_min_distance = 6
 midrange_passengers_max_distance = 120
 longdistance_passengers_min_distance = 55
