@@ -112,11 +112,11 @@ passenger_routing_midrange_chance = 28
 # local, mid-range and long-distance passenger groups correspond to those
 # above. 
 
-min_local_tolerance = 15
+min_local_tolerance = 10
 max_local_tolerance = 120
-min_midrange_tolerance = 30
-max_midrange_tolerance = 300
-min_longdistance_tolerance = 45
+min_midrange_tolerance = 25
+max_midrange_tolerance = 240
+min_longdistance_tolerance = 40
 max_longdistance_tolerance = 4320
 
 # Settings for calibrating the revenue system
