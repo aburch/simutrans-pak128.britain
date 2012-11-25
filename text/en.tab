@@ -2020,6 +2020,8 @@ BrigLong
 Brig (long goods)
 BrigPiece
 Brig (piece goods)
+BrigLivestock
+Brig (livestock)
 BTypeDouble
 B-Type (double deck)
 BTypeSingle
@@ -2142,6 +2144,10 @@ DieselBargeLong
 Diesel Barge (long goods)
 DieselBargePiece
 Diesel Barge (piece goods)
+DieselBargeLivestock
+Diesel Barge (livestock)
+SteamBargeLivestock
+Steam Barge (livestock)
 DLR-B07Front
 Docklands Light Railway B07 (front)
 DLR-B07Rear
@@ -2290,6 +2296,8 @@ HorseBargeLong
 Unpowered Barge (long goods)
 HorseBargePiece
 Unpowered Barge (piece goods)
+HorseBargeLivestock
+Unpowered Barge (livestock)
 HR-Jones-Goods-Tender(Yellow)
 HR Jones Goods 4-6-0 (tender)
 HR-Jones-Goods(Yellow)
@@ -2300,6 +2308,8 @@ HumberKeelLong
 Humber Keel (long goods)
 HumberKeelPiece
 Humber Keel (piece goods)
+HumberKeelLivestock
+Humber Keel (livestock)
 IronPaddleSteamer
 Iron Paddle Steamer
 IronPaddleSteamerMail
@@ -2966,6 +2976,8 @@ NET-Bombardier-Incentro(Rear)
 NET Bombardier Incentro (rear)
 NorfolkWherryBulk
 Norfolk Wherry (bulk goods)
+NorfolkWherryLivestock
+Norfolk Wherry (livestock)
 NorfolkWherryCool
 Norfolk Wherry (cool goods)
 NorfolkWherryLong
@@ -3124,6 +3136,8 @@ SchoonerLong
 Schooner (long goods)
 SchoonerPiece
 Schooner (piece goods)
+SchoonerLivestock
+Schooner (livestock)
 SDR-1001-Tender(Green)
 SDR 1001 Class 0-6-0 (tender)
 SDR-1001(Green)
@@ -3330,6 +3344,8 @@ ThamesSailingBargeLong
 Thames Sailing Barge (long goods)
 ThamesSailingBargePiece
 Thames Sailing Barge (piece goods)
+ThamesSailingBargeLivestock
+Thames Sailing Barge (livestock)
 ThornycroftAmazonBulk
 Thornycroft Amazon Trailer (bulk goods)
 ThornycroftAmazonCars
@@ -4430,11 +4446,11 @@ ATR_72_500(AurignyAirServices)
 ATR 72 500 series
 SR-N6-Winchester
 Saunders Roe N6 "Winchester class" hovercraft
-BHC-AP1-88-100
+BHC-AP1-88_100
 BHC AP1-88 100 series hovercraft
-BHC-AP1-88-400(Piece)
+BHC-AP1-88_400(Piece)
 BHC AP1-88 400 series hovercraft (piece goods)
-BHC-AP1-88-400(Cool)
+BHC-AP1-88_400(Cool)
 BHC AP1-88 400 series hovercraft (cooled goods)
 BHT-130
 BHT 130 hovercraft
@@ -4448,6 +4464,64 @@ SR-N4-Mountbatten-Mk3
 Saunders Roe N4 "Mountbatten class" Mk3 hovercraft
 MerseyFerry
 Mersey Ferry
+SSGreatWestern
+SS Great Western
+SSGreatBritain
+SS Great Britain
+SSGreatEastern
+SS Great Eastern
+ClipperPiece
+Clipper (piece goods)
+EastIndiamanPiece
+East Indiaman (piece goods)
+BlackwallFrigatePiece
+Blackwall Frigate (piece goods)
+ClanLineSteamerPiece
+Clan Line Steamer (piece goods)
+WindjammerPiece
+Windjammer (piece goods)
+HandysizePiece
+Handysize (piece goods)
+ClipperBulk
+Clipper (bulk goods)
+EastIndiamanBulk
+East Indiaman (bulk goods)
+BlackwallFrigateBulk
+Blackwall Frigate (bulk goods)
+ClanLineSteamerBulk
+Clan Line Steamer (bulk goods)
+WindjammerBulk
+Windjammer (bulk goods)
+HandysizeBulk
+Handysize (bulk goods)
+ClipperLong
+Clipper (long goods)
+EastIndiamanLong
+East Indiaman (long goods)
+BlackwallFrigateLong
+Blackwall Frigate (long goods)
+ClanLineSteamerLong
+Clan Line Steamer (long goods)
+WindjammerLong
+Windjammer (long goods)
+HandysizeLong
+Handysize (long goods)
+ClanLineSteamerCool
+Clan Line Steamer (cooled goods)
+HandysizeCool
+Handysize (cooled goods)
+ClanLineSteamerOil
+Clan Line Steamer (bulk fluids)
+WindjammerFluid
+Windjammer (bulk fluids)
+HandysizeOil
+Handysize (bulk fluids)
+HorseBargeCool
+Unpowered barge (cooled goods)
+HandysizeCar
+Handysize (cars)
+ClanLineSteamerCar
+Clan Line Steamer (cars)
 #______________________________________way______________________
 ________________
 #______________________________________way______________________________________
