@@ -24,7 +24,7 @@ use_timeline = 3
 
 # Passenger generation (the default is 16): smaller values means fewer passengers.
 
-passenger_factor=10
+passenger_factor=9
 
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
 
