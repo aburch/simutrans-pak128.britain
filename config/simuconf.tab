@@ -97,9 +97,9 @@ longdistance_passengers_max_distance = 16384
 # any passengers generated will try to find a town within each of the three
 # ranges, respectively. 
 
-passenger_routing_local_chance = 58
-passenger_routing_midrange_chance = 28
-# (Longdistance by inference = 14)
+passenger_routing_local_chance = 70
+passenger_routing_midrange_chance = 25
+# (Longdistance by inference = 5)
 # passenger_routing_longdistance_chance is 100 minus the sum of the two above values,
 # but not stipulated individually. 
 
