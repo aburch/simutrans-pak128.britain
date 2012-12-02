@@ -2874,7 +2874,7 @@ LMS Class 6P "Royal Scot" (tender)
 LMS-Patriot
 LMS Class 5XP "Patriot" 4-6-0
 LMS-Patriot-Tender
-LMS Class 5XP "Patriot"(tender)
+LMS Class 5XP "Patriot" (tender)
 LMS-Jubilee
 LMS Class 5XP "Jubilee" 4-6-0
 LMS-Jubilee-Tender
@@ -4433,6 +4433,10 @@ EastIndiamanPiece
 East Indiaman (piece goods)
 EastIndiamanLong
 East Indiaman (long goods)
+EastIndiamanAddPax
+Passenger accomodation for the East Indiaman
+EastIndiamanAddMail
+Mail accomodation for the East Indiaman
 BlackwallFrigateBulk
 Blackwall Frigate (bulk goods)
 BlackwallFrigatePiece
@@ -4449,6 +4453,10 @@ ClipperPiece
 Clipper (piece goods)
 ClipperLong
 Clipper (long goods)
+ClipperAddPax
+Passenger accomodation for the Clipper
+ClipperAddMail
+Mail accomodation for the Clipper
 WindjammerBulk
 Windjammer (bulk goods)
 WindjammerPiece
