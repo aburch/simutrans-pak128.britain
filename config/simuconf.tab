@@ -438,7 +438,7 @@ factory_spacing = 2
 # that date, factories may close down (random chance each month). After the number
 # of years stipulated below, factories have a 100% chance of closing down. The
 # chance increases the closer to this value that factories get.
-max_years_obsolete = 45
+max_years_obsolete = 32
 
 # The following settings determine the minimum and maximum number of towns in which
 # workers in industries live (and thus from which they need to be transported to

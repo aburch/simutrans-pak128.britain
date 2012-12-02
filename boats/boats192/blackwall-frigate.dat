@@ -103,6 +103,7 @@ intro_year=1830
 intro_month=1
 retire_year=1880
 retire_month=9
+comfort=50
 
 Constraint[Next][0]=BlackwallFrigateAddMail
 Constraint[Prev][0]=BlackwallFrigatePiece
