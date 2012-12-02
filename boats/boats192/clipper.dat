@@ -103,6 +103,8 @@ intro_year=1837
 intro_month=1
 retire_year=1900
 retire_month=9
+comfort=52
+
 
 Constraint[Next][0]=ClipperAddMail
 Constraint[Prev][0]=ClipperPiece
