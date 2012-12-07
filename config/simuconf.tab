@@ -339,6 +339,9 @@ seperate_halt_capacities = 1
 
 city_isolation_factor = 32
 
+# Minimum distance of a city attraction to other special buildings
+special_building_distance = 2
+
 # Passengers will walk to their destination if it is close enough, rather than use
 # players' transport or private cars. This parameter defines how close that close
 # enough is. It is expressed in hundreds of meters (or tenths of kilometres), so
