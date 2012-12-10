@@ -87,7 +87,6 @@ max_alternative_destinations = 7
 # find such a town within a certain number of tries, it will pick a random town.
 # The ranges *may* overlap. These values are in kilometres. 
 
-
 local_passengers_min_distance = 0
 local_passengers_max_distance = 16
 midrange_passengers_min_distance = 16
@@ -126,7 +125,7 @@ max_local_tolerance = 75
 min_midrange_tolerance = 5
 max_midrange_tolerance = 240
 min_longdistance_tolerance = 30
-max_longdistance_tolerance = 4320
+max_longdistance_tolerance = 5400
 
 # Settings for calibrating the revenue system
 #
