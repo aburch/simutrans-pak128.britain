@@ -30,6 +30,8 @@ build %OUTPUT%BritAttractions.pak ./attractions/
 
 echo Build boats
 build %OUTPUT%BritBoat.pak ./boats/
+!size=32
+build %OUTPUT%BritBoatHolds.pak ./boats/holds/
 !size=192
 build %OUTPUT%BritBoat192.pak ./boats/boats192/
 !size=224

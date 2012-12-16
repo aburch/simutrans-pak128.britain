@@ -4,7 +4,7 @@
 #
 # Change THIS to change the version string encoded in the pak file
 # The SVN revision will be appended to it
-VERSION_STRING = "pak128.Britain 1.11 112.0 r"
+VERSION_STRING = "pak128.Britain 1.13 112.0 r"
 #
 #
 #
@@ -20,6 +20,9 @@ TR_DIRS :=
 OUTSIDE :=
 OUTSIDE += grounds
 TR_DIRS += grounds
+
+DIRS32 :=
+DIRS32 += boats/holds
 
 DIRS64 :=
 DIRS64 += gui/gui64
@@ -79,7 +82,7 @@ DIRS224 :=
 DIRS224 += boats/boats224
 
 
-DIRS := $(OUTSIDE) $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224)
+DIRS := $(OUTSIDE) $(DIRS32) $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224)
 
 
 .PHONY: $(DIRS) copy tar zip simutranslator
@@ -108,6 +111,11 @@ copy:
 #	@cp -p sound/* $(PAKDIR)/sound
 #	@cp -p scenario/* $(PAKDIR)/scenario
 	@cp -p text/*.tab $(PAKDIR)/text
+
+$(DIRS32):
+	@echo "===> PAK32 $@"
+	@mkdir -p $(PAKDIR)
+	@$(MAKEOBJ) quiet PAK $(PAKDIR)/ $@/ > /dev/null
 
 $(DIRS64):
 	@echo "===> PAK64 $@"
