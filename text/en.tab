@@ -4443,56 +4443,90 @@ HandysizeCars
 Handysize Tanker (cars)
 HandysizeLivestock
 Handysize Tanker (livestock)
-SchoonerBulk
-Schooner (bulk goods)
-SchoonerPiece
-Schooner (piece goods)
-SchoonerCool
-Schooner (cool goods)
-SchoonerLong
-Schooner (long goods)
+SchoonerHull
+Schooner (hull)
+SchoonerAddPax
+Schooner passenger berths
+SchoonerAddMail
+Schooner mail hold
+SchoonerAddPiece
+Schooner piece goods hold
+SchoonerAddCool
+Schooner cooled goods hold
+SchoonerAddLong
+Schooner long goods hold
+SchoonerAddBulk
+Schooner bulk goods hold
+SchoonerAddLivestock
+Schooner livestock hold
 Dogger
 Dogger
 Fifie
 Fifie
-BrigBulk
-Brig (bulk goods)
-BrigPiece
-Brig (piece goods)
-BrigCool
-Brig (cool goods)
-BrigLong
-Brig (long goods)
-EastIndiamanBulk
-East Indiaman (bulk goods)
-EastIndiamanPiece
-East Indiaman (piece goods)
-EastIndiamanLong
-East Indiaman (long goods)
+BrigHull
+Brig (hull)
+BrigAddPax
+Brig passenger berths
+BrigAddMail
+Brig mail hold
+BrigAddPiece
+Brig piece goods hold
+BrigAddCool
+Brig cooled goods hold
+BrigAddLong
+Brig long goods hold
+BrigAddBulk
+Brig bulk goods hold
+BrigAddLivestock
+Brig livestock hold
+EastIndiamanHull
+East Indiaman (hull)
 EastIndiamanAddPax
-Passenger accomodation for the East Indiaman
+East Indiaman passenger berths
 EastIndiamanAddMail
-Mail accomodation for the East Indiaman
-BlackwallFrigateBulk
-Blackwall Frigate (bulk goods)
-BlackwallFrigatePiece
-Blackwall Frigate (piece goods)
-BlackwallFrigateLong
-Blackwall Frigate (long goods)
+East Indiaman mail hold
+EastIndiamanAddPiece
+East Indiaman piece goods hold
+EastIndiamanAddCool
+East Indiaman cooled goods hold
+EastIndiamanAddLong
+East Indiaman long goods hold
+EastIndiamanAddBulk
+East Indiaman bulk goods hold
+EastIndiamanAddLivestock
+East Indiaman livestock hold
+BlackwallFrigateHull
+Blackwall Frigate (hull)
 BlackwallFrigateAddPax
-Passenger accomodation for the Blackwall Frigate
+Blackwall Frigate passenger berths
 BlackwallFrigateAddMail
-Mail accomodation for the Blackwall Frigate
-ClipperBulk
-Clipper (bulk goods)
-ClipperPiece
-Clipper (piece goods)
-ClipperLong
-Clipper (long goods)
+Blackwall Frigate mail hold
+BlackwallFrigateAddPiece
+Blackwall Frigate piece goods hold
+BlackwallFrigateAddCool
+Blackwall Frigate cooled goods hold
+BlackwallFrigateAddLong
+Blackwall Frigate long goods hold
+BlackwallFrigateAddBulk
+Blackwall Frigate bulk goods hold
+BlackwallFrigateAddLivestock
+Blackwall Frigate livestock hold
+ClipperHull
+Clipper (hull)
 ClipperAddPax
-Passenger accomodation for the Clipper
+Clipper passenger berths
 ClipperAddMail
-Mail accomodation for the Clipper
+Clipper mail hold
+ClipperAddPiece
+Clipper piece goods hold
+ClipperAddCool
+Clipper cooled goods hold
+ClipperAddLong
+Clipper long goods hold
+ClipperAddBulk
+Clipper bulk goods hold
+ClipperAddLivestock
+Clipper livestock hold
 WindjammerBulk
 Windjammer (bulk goods)
 WindjammerPiece
