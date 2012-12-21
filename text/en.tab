@@ -2305,13 +2305,13 @@ Hackney carriage
 HeavyRoadLocomotive
 Heavy Traction Engine
 HorseBargeBulk
-Unpowered Barge (bulk goods)
+Unpowered Horse Barge (bulk goods)
 HorseBargeLong
-Unpowered Barge (long goods)
+Unpowered Horse Barge (long goods)
 HorseBargePiece
-Unpowered Barge (piece goods)
+Unpowered Horse Barge (piece goods)
 HorseBargeLivestock
-Unpowered Barge (livestock)
+Unpowered Horse Barge (livestock)
 HR-Jones-Goods-Tender(Yellow)
 HR Jones Goods 4-6-0 (tender)
 HR-Jones-Goods(Yellow)
@@ -4730,6 +4730,56 @@ TTEuropeanFreightAddPiece
 TT European Class freight ferry piece goods hold
 TTEuropeanFreightAddCool
 TT European Class freight ferry cooled goods hold
+WindjammerHull
+Windjammer (hull)
+WindjammerAddOil
+Windjammer bulk fluid hold
+WindjammerAddMail
+Windjammer mail hold
+WindjammerAddPiece
+Windjammer piece goods hold
+WindjammerAddCool
+Windjammer cooled goods hold
+WindjammerAddLong
+Windjammer long goods hold
+WindjammerAddBulk
+Windjammer bulk goods hold
+WindjammerAddLivestock
+Windjammer livestock hold
+WoodenPaddleTug
+Wooden Paddle Steamer Tug
+IronSteamTug
+Iron Steam Tug
+DieselTug
+Diesel Tug
+ClydeCargoSteamerHull
+Clyde Cargo Steamer (hull)
+ClydeCargoSteamerAddOil
+Clyde Cargo Steamer bulk fluid hold
+ClydeCargoSteamerAddMail
+Clyde Cargo Steamer mail hold
+ClydeCargoSteamerAddPiece
+Clyde Cargo Steamer piece goods hold
+ClydeCargoSteamerAddCool
+Clyde Cargo Steamer cooled goods hold
+ClydeCargoSteamerAddLong
+Clyde Cargo Steamer long goods hold
+ClydeCargoSteamerAddBulk
+Clyde Cargo Steamer bulk goods hold
+ClydeCargoSteamerAddLivestock
+Clyde Cargo Steamer livestock hold
+TugBargeLivestock
+Unpowered Tug Barge (livestock)
+TugBargeBulk
+Unpowered Tug Barge (bulk goods)
+TugBargeLong
+Unpowered Tug Barge (long goods)
+TugBargePiece
+Unpowered Tug Barge (piece goods)
+TugBargeCool
+Unpowered Tug Barge (cooled goods)
+TugBargeOil
+Unpowered Tug Barge (bulk fluids)
 #______________________________________way______________________
 ________________
 #______________________________________way______________________________________
