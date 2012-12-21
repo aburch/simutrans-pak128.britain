@@ -1,10 +1,10 @@
-Pak128.Britain 1.12 (beta) - 31st August 2012
+Pak128.Britain 1.13 (beta) - 21st December 2012
 
 INTRODUCTION
 Pak128.Britain is a graphics set (pak) for Simutrans.  It requires a Simutrans executable in order to play.  This version is compatible with Simutrans version 111.3.1 - it has not been tested fully with earlier versions of Simutrans and may not work fully.  Use of the latest version of Simutrans is therefore recommended.  
 
 COMPATIBILITY
-This release of pak128.Britain should be backwards compatible with all previous releases in the 1.xx series, however a number of major changes have been made to trains. While this should not break any savegames, you may find that certain convoys cannot drive after being sent to the depot. You will need to reform these trains in the depot according to the new vehicle constraints.
+This release of pak128.Britain should be backwards compatible with all previous releases in the 1.xx series, however a number of changes have been made to some of the ships. While this should not break any savegames, you may find that certain convoys cannot drive after being sent to the depot and may lose all their cargo and cargo capacity on loading. You will need to reform these ships in the depot according to the new vehicle constraints.
 
 LICENCE
 Pak128.Britain is released open source under the terms of the Artistic License.  Please read licence.txt for details.
@@ -13,7 +13,7 @@ TECHNICAL ISSUES
 If there are any technical issues (e.g. error messages, crashes) please make a post in "bugs" board of the Simutrans Forum - http://forum.simutrans.com/index.php?board=8.0 - Please also state which version of the Simutrans executable you are using and which operating system.
 
 GAMEPLAY NOTES
-This version is a beta version - there are many aspects of the pakset which are incomplete, missing, or not well-balanced for gameplay.  There may also be bugs present in the pakset which have not been weeded out.  If you have spotted any graphical glitches or other problems with the pakset, please post these in the pak128.Britain forum.  Also if you have any comments to make on the balancing of the gameplay (e.g. financial, industry production, vehicle acceleration, etc.) please post these in the pak128.Britain board of the simutrans forum: http://forum.simutrans.com/index.php?board=51.0 . In particular please note that there are currently no monorails and only a limited number of planes and boats available in the game.  If you really want to use these in a pak128.Britain game, other simutrans graphics objects of 128x128 tilesize (e.g.pak128, pak128.German, pak128.Japan) will also run in pak128.Britain, although they may look out of place and will not be balanced from a gameplay point of view.  Most of all though, we hope you enjoy playing pak128.Britain - please provide feedback on the forum, look forward to future releases, and consider contributing to the drawing of new graphics and balancing of existing ones!
+This version is a beta version - there are many aspects of the pakset which are incomplete, missing, or not well-balanced for gameplay.  There may also be bugs present in the pakset which have not been weeded out.  If you have spotted any graphical glitches or other problems with the pakset, please post these in the pak128.Britain forum.  Also if you have any comments to make on the balancing of the gameplay (e.g. financial, industry production, vehicle acceleration, etc.) please post these in the pak128.Britain board of the simutrans forum: http://forum.simutrans.com/index.php?board=51.0 . In particular please note that there are currently no monorails and only a limited number of planes available in the game.  If you really want to use these in a pak128.Britain game, other simutrans graphics objects of 128x128 tilesize (e.g.pak128, pak128.German, pak128.Japan) will also run in pak128.Britain, although they may look out of place and will not be balanced from a gameplay point of view.  Most of all though, we hope you enjoy playing pak128.Britain - please provide feedback on the forum, look forward to future releases, and consider contributing to the drawing of new graphics and balancing of existing ones!
 
 HISTORY
 07/07/2009: Release of Pak128.Britain 1.0
@@ -226,4 +226,8 @@ HISTORY
 01/09/2011
 	ADD: Basic Narrowgauge
 31/8/2012: release of version 1.12
-	Various additions: many trains, underground trains, attractions, planes, narrow gauge vehicles, ways, bridges, city buildings, buses. I will try and keep up with the changelog from now on again!
+	Various additions: many trains, underground trains, attractions, planes, narrow gauge vehicles, ways, bridges, city buildings, buses. 
+21/12/2012: release of version 1.13
+	FIXES: including tube tunnels & electrification, rail vehicle speeds, dates & missing carriages
+	CHANGES: including boats with multiple holds, 4 wheel coach graphics
+	ADDITIONS: including many new ships/boats, ironworks & gasworks industries, powerline tunnels

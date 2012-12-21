@@ -304,6 +304,15 @@ value=35
 speed_bonus=2
 weight_per_unit=1000
 -----------------------
+# Wrought Iron
+obj=good
+name=WroughtIron
+metric=tonnen
+catg=6
+value=35
+speed_bonus=2
+weight_per_unit=1000
+-----------------------
 # Planks
 obj=good
 name=Bretter
