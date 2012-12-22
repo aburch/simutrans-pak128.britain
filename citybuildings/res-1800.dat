@@ -1,9 +1,11 @@
+# Duplication necessary because these are terraces.
+
 Obj=building
 Name=RES_JH_1800_00_06A
 copyright=James
 type=res
-chance=100
-Level=1
+chance=33
+Level=2
 intro_year=1800
 retire_year=1850
 needs_ground=1
@@ -22,8 +24,8 @@ Obj=building
 Name=RES_JH_1800_00_06B
 copyright=James
 type=res
-chance=100
-Level=1
+chance=33
+Level=2
 intro_year=1800
 retire_year=1850
 needs_ground=1

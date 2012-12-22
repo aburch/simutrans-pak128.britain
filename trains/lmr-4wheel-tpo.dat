@@ -243,7 +243,6 @@ max_loading_time=120
 
 can_lead_from_rear=0
 bidirectional=1
-catering_level=0
 
 Constraint[Next][0]=4-wheel-1860s
 Constraint[Next][1]=4-wheel-1860s-brake-rear

@@ -134,8 +134,8 @@ max_longdistance_tolerance = 5400
 # behave eratically. Make sure to know what you are doing before changing these values.
 
 # These settings calibrate the speed bonus. Note that, with Simutrans-Experimental, unlike
-# Simutrans-Standard, the speed bonus is based on the convoy or line's *average* speed, not
-# the convoy's maximum speed. 
+# Simutrans-Standard, the speed bonus is based on the convoy or line's *average* speed between
+# any two given stops, not the convoy's overall maximum speed. 
 #
 # All distances in these settings are measured in kilometres and calibrated using the
 # meters_per_tile setting.
@@ -405,6 +405,30 @@ seaport_toll_revenue_percentage = 15
 # Default: 0
 
 toll_free_public_roads = 1
+
+# If a player has allowed access to its roads to the public player, private
+# cars may use those roads. They will pay a toll to do so for every tile.
+# This is the amount (in simucents: 100 = 1 simucredit; 1 = 1 simucent)
+# that the player who owns the road will receive. 
+#
+# NOTE: This value will not be saved with the saved game until the 
+# major version is incremented to 11. In a network game, this value
+# will default to 1.
+
+private_car_toll_per_tile = 1
+
+# If this is set to 1, any road built in a town will be adopted
+# by that town (set to unowned), meaning that the building player
+# will not have to maintain it, but does not have exclusive use
+# of the way, and cannot prevent other players from upgrading/
+# downgrading/removing it. Setting it to 0 will disable this 
+# feature.
+#
+# NOTE: This value will not be saved with the saved game until the 
+# major version is incremented to 11. In a network game, this value
+# will default to 1.
+
+towns_adopt_player_roads = 1
 
 # If this is set to 1, any player may transfer any way tile or stop to the ownership
 # of the public player. If this is set to 0, only the public player may transfer

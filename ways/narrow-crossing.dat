@@ -39,8 +39,8 @@ waytype[1]=narrowgauge_track
 waytype[0]=road
 speed[1]=80
 speed[0]=35
-intro_year=1855
-intro_month=5
+intro_year=1869
+intro_month=2
 retire_year=1959
 retire_month=8
 
@@ -68,7 +68,32 @@ closedimage[ns][1]=images/crossing-narrow-gated.1.0
 front_closedimage[ew][1]=images/crossing-narrow-gated.0.1
 front_closedimage[ns][1]=images/crossing-narrow-gated.0.0
 ---
-# Plain, open crossing
+# cobblestone road, unprotected
+Obj=crossing
+Name=CrossingNarrowUnprotected
+waytype[1]=narrowgauge_track
+waytype[0]=road
+speed[1]=50
+speed[0]=25
+intro_year=1836
+intro_month=6
+retire_year=1959
+retire_month=8
+
+openimage[ew][0]=images/crossing-narrow.1.1
+openimage[ns][0]=images/crossing-narrow.1.0
+
+closedimage[ew][0]=images/crossing-narrow.1.1
+closedimage[ns][0]=images/crossing-narrow.1.0
+
+openimage[ew][1]=images/crossing-narrow.1.3
+openimage[ns][1]=images/crossing-narrow.1.2
+
+closedimage[ew][1]=images/crossing-narrow.1.3
+closedimage[ns][1]=images/crossing-narrow.1.2
+
+---
+# Standard/Narrow rail crossing
 obj=crossing
 name=narrow-rail-crossing
 waytype[0]=track

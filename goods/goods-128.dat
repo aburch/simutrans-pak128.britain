@@ -51,7 +51,7 @@
 # Note that the LMR was only 35 miles long.
 #
 # See ibid pp. 111 and onwards for the later RCH classification system, as follows:
-# A: Coal, coke, irone ore, furnace slag
+# A: Coal, coke, iron ore, furnace slag
 # B: Clay, sand, manure, limestone, chalk, salt, unfinished stone, zinc ore, copper ore, bricks, paving stones, pig iron
 # C: Hay, straw, grain, flour, seeds, fertiliser, chemicals, lead ore, part-finished iron goods
 # I: Iron/steel hoops, pipes, sheets, plates, common fruit and vegetables, paper, cotton, beer in casks, oil in caks, tin ore
@@ -723,6 +723,27 @@ to_distance[2]=80
 value[3]=35
 to_distance[3]=0
 speed_bonus=2
+weight_per_unit=1000
+-----------------------
+# Wrought iron
+# Class: C
+obj=good
+name=WroughtIron
+metric=tonnen
+catg=6
+#
+value=53
+#
+value[0]=70
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=28
+to_distance[3]=240
+value[4]=0
+speed_bonus=0
 weight_per_unit=1000
 -----------------------
 # Planks
