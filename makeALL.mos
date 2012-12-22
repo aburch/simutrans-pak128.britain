@@ -36,6 +36,8 @@ build %OUTPUT%BritAttractions-Ex.pak ./attractions/
 
 echo Building boats
 build %OUTPUT%BritBoat-Ex.pak ./boats/
+!size=32
+build %OUTPUT%BritBoatHolds.pak ./boats/holds/
 !size=192
 build %OUTPUT%BritBoat192-Ex.pak ./boats/boats192/
 !size=224
