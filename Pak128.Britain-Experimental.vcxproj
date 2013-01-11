@@ -174,7 +174,9 @@
     <None Include="gui\gui64\pakmak.tab" />
     <None Include="hq\CompanyHeadquarters.dat" />
     <None Include="industry\1750-ironworks.dat" />
-    <None Include="industry\cannery.dat" />
+    <None Include="industry\cannery-fish.dat" />
+    <None Include="industry\cannery-fruit.dat" />
+    <None Include="industry\cannery-meat.dat" />
     <None Include="industry\fish-chip.dat" />
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
