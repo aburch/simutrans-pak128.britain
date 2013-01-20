@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -200,6 +200,10 @@
     <None Include="hq\CompanyHeadquarters.dat" />
     <None Include="industry\ironworks.dat" />
     <None Include="industry\cannery.dat" />
+    <None Include="industry\1750-ironworks.dat" />
+    <None Include="industry\cannery-fish.dat" />
+    <None Include="industry\cannery-fruit.dat" />
+    <None Include="industry\cannery-meat.dat" />
     <None Include="industry\fish-chip.dat" />
     <None Include="industry\fishing-port.dat" />
     <None Include="industry\gas-power-stations.dat" />
