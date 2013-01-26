@@ -100,14 +100,58 @@ closedimage[ns][1]=images/crossing-asphalt-gated.1.0
 front_closedimage[ew][1]=images/crossing-asphalt-gated.0.1
 front_closedimage[ns][1]=images/crossing-asphalt-gated.0.0
 ---
-# cobblestone road, wrought iron track, unprotected
+# cobblestone road, cast iron track, unprotected
+Obj=crossing
+Name=Crossing1820
+waytype[1]=track
+waytype[0]=road
+speed[1]=30
+speed[0]=35
+intro_year=1820
+retire_year=1835
+
+openimage[ew][0]=images/crossing-castiron.1.1
+openimage[ns][0]=images/crossing-castiron.1.0
+
+closedimage[ew][0]=images/crossing-castiron.1.1
+closedimage[ns][0]=images/crossing-castiron.1.0
+
+openimage[ew][1]=images/crossing-castiron.0.1
+openimage[ns][1]=images/crossing-castiron.0.0
+
+closedimage[ew][1]=images/crossing-castiron.0.1
+closedimage[ns][1]=images/crossing-castiron.0.0
+--
+# cobblestone road, plateway track, unprotected
 Obj=crossing
 Name=Crossing1750
 waytype[1]=track
 waytype[0]=road
-speed[1]=60
+speed[1]=15
 speed[0]=35
 intro_year=1750
+retire_year=1850
+
+openimage[ew][0]=images/crossing-plateway.1.1
+openimage[ns][0]=images/crossing-plateway.1.0
+
+closedimage[ew][0]=images/crossing-plateway.1.1
+closedimage[ns][0]=images/crossing-plateway.1.0
+
+openimage[ew][1]=images/crossing-plateway.0.1
+openimage[ns][1]=images/crossing-plateway.0.0
+
+closedimage[ew][1]=images/crossing-plateway.0.1
+closedimage[ns][1]=images/crossing-plateway.0.0
+--
+# cobblestone road, wrought iron track, unprotected
+Obj=crossing
+Name=Crossing1835
+waytype[1]=track
+waytype[0]=road
+speed[1]=60
+speed[0]=35
+intro_year=1835
 retire_year=1850
 
 openimage[ew][0]=images/crossing-unprotected.1.1
@@ -122,6 +166,7 @@ openimage[ns][1]=images/crossing-unprotected.0.0
 closedimage[ew][1]=images/crossing-unprotected.0.1
 closedimage[ns][1]=images/crossing-unprotected.0.0
 --
+
 # cobblestone road, improved wrought iron track, gated
 Obj=crossing
 Name=Crossing1850
