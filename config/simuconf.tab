@@ -34,10 +34,17 @@ beginner_price_factor = 1500
 
 first_beginner = 0
 
-# The size of  the catchment area for a station (default 2 for 1km/tile)
-# older game size was 3 (for Simutrans-Standard)
+# Size of the catchment area of a station/stop in tiles.
+# This is for city buildings (mail and passengers) only.
+# (In older versions, this was used for both city buildings and factories)
+#
+# Default: 2
+station_coverage = 12
 
-station_coverage = 4
+# Size of the catchment area of a station/stop in tiles.
+# This is for factories only.
+# Default: 1
+station_coverage_size_factories = 1
 
 # The rate at which towns grow depends on their size. There are three different size categories:
 # "Villages", "Cities" and "Capitals". The following settings define the thresholds (in numbers 
@@ -289,29 +296,22 @@ tpo_revenue=300
 # These settings relate to private car use. See /config/privatecar.tab for
 # the configuration of private car ownership for different years.
 #
-# "Base car preference percent" is the chance, expressed in percentage, that, all
-# other things being equal, a passenger with a private car will choose to use that
-# car in preference to using public (i.e., the player's) transport. Higher values
-# are more realistic; lower values make the game easier. 
-# 
+# These settings relate to private car use. See /config/privatecar.tab for
+# the configuration of private car ownership for different years.
+#
 # "Always prefer car percent" is the percentage of drivers who prefer to use their
-# car no matter how congested the roads. The remaining percentage of drivers are 
-# deterred from using their car to go to or from (or within) towns that have a
-# high level of congestion. The default is 10. 
+# car even if walking or taking public transport is faster. The default is 10% 
 #
 # "Congestion density factor" is the factor by which the population density (in
 # citizens per tile) is divided to get a factor multiplied by the number of cars
 # per tile per month to get the congestion figure. In simple terms, the lower this
 # number, the easier that it will be for cities to register as congested, and 
 # the more likely that it is that passengers will opt for public (i.e., the player's)
-# transport instead. 
-#
-# To revert to the behaviour of Simutrans Standard (with no competition from private cars 
-# at all), simply set "base_car_preference_percent" to 0. Passengers will then only choose
-# private cars if no public transport is available.
+# transport instead. If "congestion density factor" is set to zero, then the congestion
+# will be calculated using a much simpler formula that does not depend on the city's
+# population density at all.  
 
-base_car_preference_percent = 95
-always_prefer_car_percent = 10
+always_prefer_car_percent = 5
 congestion_density_factor = 15 
 
 # This setting gives the maximum time that passengers are prepared to wait for their
@@ -407,15 +407,16 @@ seaport_toll_revenue_percentage = 15
 toll_free_public_roads = 1
 
 # If a player has allowed access to its roads to the public player, private
-# cars may use those roads. They will pay a toll to do so for every tile.
+# cars may use those roads. They will pay a toll to do so for every kilometre.
 # This is the amount (in simucents: 100 = 1 simucredit; 1 = 1 simucent)
-# that the player who owns the road will receive. 
+# that the player who owns the road will receive for each km traversed by a
+# private car on that road.
 #
 # NOTE: This value will not be saved with the saved game until the 
 # major version is incremented to 11. In a network game, this value
 # will default to 1.
 
-private_car_toll_per_tile = 1
+private_car_toll_per_km = 1
 
 # If this is set to 1, any road built in a town will be adopted
 # by that town (set to unowned), meaning that the building player
@@ -616,7 +617,7 @@ bits_per_month = 21
 #
 # 0 = false; 1 = true. Default: false.
 
-# allow_routing_on_foot = 0
+allow_routing_on_foot = 0
 
 ################################ Road Settings ###################################
 
@@ -766,7 +767,7 @@ curve_friction_factor_narrowgauge=0
 
 unit_reverse_time=8000
 hauled_reverse_time=30000
-turntable_reverse_time=50000
+turntable_reverse_time=82500
 
 # This setting allows the power of all vehicles to be adjusted at once. It is a
 # percentage figure. Thus, if, for example, a vehicle has a power rating of 1,200kw
