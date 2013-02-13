@@ -108,3 +108,37 @@ Image[7]=signals_2.9.3
 Icon=> signals_0.3.6
 Cursor=signals_0.3.7
 ---------------------------------------
+# End of Choose Signal
+obj=roadsign
+copyright=James
+name=Modern_EndofChooseSignal_narrow
+waytype=narrowgauge_track
+cost=250
+end_of_choose=1
+intro_year = 1970
+intro_month = 1
+Image[0]=signals_1.10.2
+Image[1]=signals_1.10.0
+Image[2]=signals_1.10.3
+Image[3]=signals_1.10.1
+Icon=> signals_0.1.8
+Cursor=signals_0.1.9
+---------------------------------------
+# End of Choose Signal
+obj=roadsign
+copyright=James
+name=EndofChooseSignal_narrow
+waytype=narrowgauge_track
+cost=250
+end_of_choose=1
+intro_year = 1810
+intro_month = 1
+retire_year = 1970
+retire_month = 1
+Image[0]=signals_2.10.2
+Image[1]=signals_2.10.0
+Image[2]=signals_2.10.3
+Image[3]=signals_2.10.1
+Icon=> signals_0.2.8
+Cursor=signals_0.2.9
+---------------------------------------
