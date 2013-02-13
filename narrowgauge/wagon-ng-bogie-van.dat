@@ -23,11 +23,11 @@ max_loading_time=600
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/ng-van-bogie.1.4
+EmptyImage[E]=./images/ng-van-bogie.1.4,-10,-5
 EmptyImage[SE]=./images/ng-van-bogie.1.5
-EmptyImage[S]=./images/ng-van-bogie.1.6
+EmptyImage[S]=./images/ng-van-bogie.1.6,10,-5
 EmptyImage[SW]=./images/ng-van-bogie.1.7
-EmptyImage[W]=./images/ng-van-bogie.1.0
+EmptyImage[W]=./images/ng-van-bogie.1.0,10,5
 EmptyImage[NW]=./images/ng-van-bogie.1.1
-EmptyImage[N]=./images/ng-van-bogie.1.2
+EmptyImage[N]=./images/ng-van-bogie.1.2,-10,5
 EmptyImage[NE]=./images/ng-van-bogie.1.3

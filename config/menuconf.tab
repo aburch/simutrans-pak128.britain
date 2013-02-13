@@ -378,7 +378,7 @@ toolbar[3][7]=buildings(33,8)
 toolbar[3][8]=buildings(34,8)
 toolbar[3][9]=buildings(35,8)
 toolbar[3][10]=buildings(35,0)
-toolbar[3][11]=general_tool[14],,q,8
+toolbar[3][11]=general_tool[14],,N,8
 toolbar[3][12]=general_tool[18]
 
 # monorailtools (waytype 5)
@@ -400,10 +400,10 @@ toolbar[5][2]=bridges(6)
 toolbar[5][3]=tunnels(6)
 toolbar[5][4]=wayobjs(6)
 toolbar[5][5]=signs(6)
-toolbar[5][6]=general_tool[17],27,,6 
+toolbar[5][6]=general_tool[17],27,x,6 
 toolbar[5][7]=buildings(33,6)
 toolbar[5][8]=buildings(34,6)
-toolbar[5][9]=buildings(35,6),,x,6
+toolbar[5][9]=buildings(35,6),,,6
 toolbar[5][10]=buildings(35,0)
 
 # tramtools (waytype 7)
@@ -411,8 +411,8 @@ toolbar[6][0]=ways(7,0)
 toolbar[6][1]=ways(2,7)
 toolbar[6][2]=wayobjs(7)
 toolbar[6][3]=signs(7)
-toolbar[6][4]=general_tool[17],16,,2
-toolbar[6][5]=general_tool[33],30,j,7
+toolbar[6][4]=general_tool[17],16,j,2
+toolbar[6][5]=general_tool[33],30,E,7
 toolbar[6][6]=buildings(33,7)
 toolbar[6][7]=buildings(34,7)
 # road stops
@@ -425,7 +425,7 @@ toolbar[7][2]=bridges(1)
 toolbar[7][3]=tunnels(1)
 toolbar[7][4]=wayobjs(1)
 toolbar[7][5]=signs(1)
-toolbar[7][6]=general_tool[17],18,,1 
+toolbar[7][6]=general_tool[17],18,q,1 
 toolbar[7][7]=general_tool[33],30,,1
 toolbar[7][8]=buildings(33,1)
 toolbar[7][9]=buildings(34,1)
@@ -440,7 +440,7 @@ toolbar[8][2]=bridges(3)
 toolbar[8][3]=tunnels(3)
 toolbar[8][4]=wayobjs(3)
 toolbar[8][5]=signs(3)
-toolbar[8][6]=general_tool[17],20,,3 
+toolbar[8][6]=general_tool[17],20,x,3 
 toolbar[8][7]=buildings(33,3)
 toolbar[8][8]=buildings(34,3)
 toolbar[8][9]=buildings(11,3)

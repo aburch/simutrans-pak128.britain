@@ -24,11 +24,11 @@ max_loading_time=600
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/ng-box-food.1.4
+EmptyImage[E]=./images/ng-box-food.1.4,-10,-5
 EmptyImage[SE]=./images/ng-box-food.1.5
-EmptyImage[S]=./images/ng-box-food.1.6
+EmptyImage[S]=./images/ng-box-food.1.6,10,-5
 EmptyImage[SW]=./images/ng-box-food.1.7
-EmptyImage[W]=./images/ng-box-food.1.0
+EmptyImage[W]=./images/ng-box-food.1.0,10,5
 EmptyImage[NW]=./images/ng-box-food.1.1
-EmptyImage[N]=./images/ng-box-food.1.2
+EmptyImage[N]=./images/ng-box-food.1.2,-10,5
 EmptyImage[NE]=./images/ng-box-food.1.3
