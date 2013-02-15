@@ -31,13 +31,13 @@ sound=-1
 Constraint[Next][0]=Garrett-NGG16-middle
 
 EmptyImage[E]=./images/garrett-ngg16-front.1.0,-10,-5
-EmptyImage[SE]=./images/garrett-ngg16-front.1.1
+EmptyImage[SE]=./images/garrett-ngg16-front.1.1,0,-5
 EmptyImage[S]=./images/garrett-ngg16-front.1.2,10,-5
-EmptyImage[SW]=./images/garrett-ngg16-front.1.3
+EmptyImage[SW]=./images/garrett-ngg16-front.1.3,10,0
 EmptyImage[W]=./images/garrett-ngg16-front.1.4,10,5
-EmptyImage[NW]=./images/garrett-ngg16-front.1.5
+EmptyImage[NW]=./images/garrett-ngg16-front.1.5,0,5
 EmptyImage[N]=./images/garrett-ngg16-front.1.6,-10,5
-EmptyImage[NE]=./images/garrett-ngg16-front.1.7
+EmptyImage[NE]=./images/garrett-ngg16-front.1.7,-10,0
 
 ----
 
@@ -70,13 +70,13 @@ Constraint[Prev][0]=Garrett-NGG16-front
 Constraint[Next][0]=Garrett-NGG16-rear
 
 EmptyImage[E]=./images/garrett-ngg16-middle.1.0,-10,-5
-EmptyImage[SE]=./images/garrett-ngg16-middle.1.1
+EmptyImage[SE]=./images/garrett-ngg16-middle.1.1,0,-5
 EmptyImage[S]=./images/garrett-ngg16-middle.1.2,10,-5
-EmptyImage[SW]=./images/garrett-ngg16-middle.1.3
+EmptyImage[SW]=./images/garrett-ngg16-middle.1.3,10,0
 EmptyImage[W]=./images/garrett-ngg16-middle.1.4,10,5
-EmptyImage[NW]=./images/garrett-ngg16-middle.1.5
+EmptyImage[NW]=./images/garrett-ngg16-middle.1.5,0,5
 EmptyImage[N]=./images/garrett-ngg16-middle.1.6,-10,5
-EmptyImage[NE]=./images/garrett-ngg16-middle.1.7
+EmptyImage[NE]=./images/garrett-ngg16-middle.1.7,-10,0
 
 ----
 
@@ -108,10 +108,10 @@ sound=-1
 Constraint[Prev][0]=Garrett-NGG16-middle
 
 EmptyImage[E]=./images/garrett-ngg16-rear.1.0,-10,-5
-EmptyImage[SE]=./images/garrett-ngg16-rear.1.1
+EmptyImage[SE]=./images/garrett-ngg16-rear.1.1,0,-5
 EmptyImage[S]=./images/garrett-ngg16-rear.1.2,10,-5
-EmptyImage[SW]=./images/garrett-ngg16-rear.1.3
+EmptyImage[SW]=./images/garrett-ngg16-rear.1.3,10,0
 EmptyImage[W]=./images/garrett-ngg16-rear.1.4,10,5
-EmptyImage[NW]=./images/garrett-ngg16-rear.1.5
+EmptyImage[NW]=./images/garrett-ngg16-rear.1.5,0,5
 EmptyImage[N]=./images/garrett-ngg16-rear.1.6,-10,5
-EmptyImage[NE]=./images/garrett-ngg16-rear.1.7
+EmptyImage[NE]=./images/garrett-ngg16-rear.1.7,-10,0
