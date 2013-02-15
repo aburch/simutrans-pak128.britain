@@ -760,14 +760,15 @@ curve_friction_factor_narrowgauge=0
 # around to face the other direction (such as steam locomotives with tenders) at the
 # end of the journey. These will genearlly take the most time to reverse.
 #
-# All times are in milliseconds (1000 = 1 sec), assuming that the game is set to the 
-# normal speed (i.e., not fast-forwarded). Consequently, these values will need to
-# be doubled if the meters per tile value is halved, and halved if hte distance per
-# tile value is doubled (etc.). 
+# All times are in game seconds. In previous versions, these were specified in internal
+# milliseconds by "unit_reverse_time" (etc.) without "_seconds", but these values
+# had to be adjusted manually to match the meters per tile setting. The old keywords
+# "(unit_reverse_time)" etc. still work, but are overridden by the "..._seconds" version
+# where it is present. 
 
-unit_reverse_time=8000
-hauled_reverse_time=30000
-turntable_reverse_time=82500
+unit_reverse_time_seconds=60
+hauled_reverse_time_seconds=150
+turntable_reverse_time_seconds=360
 
 # This setting allows the power of all vehicles to be adjusted at once. It is a
 # percentage figure. Thus, if, for example, a vehicle has a power rating of 1,200kw
