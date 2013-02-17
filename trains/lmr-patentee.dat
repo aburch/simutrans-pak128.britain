@@ -5,8 +5,9 @@ smoke=Steam
 # CALIBRATED: see Ahrons p. 67. 
 # Max. speed given as 50mph with a train of 22 1/3 tons.
 # Assumed that LMR 2-2-2 of 1839 is a Patentee.
+# Adjusted for a 1/894 falling gradient (-1Kw). 
 speed=80
-power=38
+power=37
 # Calculated from data from Ahrons, pp. 22-4
 # Loss factor set at 0.5.
 tractive_effort=5
