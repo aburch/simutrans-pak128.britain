@@ -4,10 +4,13 @@ obj=vehicle
 name=MR-130
 engine_type=steam
 smoke=Steam
-speed=95
+speed=100
+# CALIBRATED: see Ahrons p. 235 (Newark brake trials)
+# Max. speed given as 51mph with a train of 210t (gross)
+# On the level (Newark brake trials)
+power=140
 # Calculated from data from Ahrons, pp. 72-3
 # Loss factor set at 0.7, assumed 100lbs boiler pressure. 
-power=280
 tractive_effort=21
 copyright=James/jamespetts
 intro_year=1848
@@ -57,7 +60,7 @@ EmptyImage[NE][1]=./images/mr-130.1.3
 obj=vehicle
 name=MR-130-tender
 engine_type=steam
-speed=95
+speed=100
 copyright=James/jamespetts
 intro_year=1848
 intro_month=2

@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-8P(Green)
+name=BR-8P
 engine_type=steam
 smoke=Steam
 speed=162
@@ -23,7 +23,7 @@ sound=-1
 increase_maintenance_after_years=5
 years_before_maintenance_max_reached=12
 
-Constraint[Next][0]=BR-7MT-Tender(Green)
+Constraint[Next][0]=BR-7MT-Tender
 
 EmptyImage[E]=./images/br-8p.0.0
 EmptyImage[SE]=./images/br-8p.0.1

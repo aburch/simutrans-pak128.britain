@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-9F-Tender(Black)
+name=BR-9F-Tender
 speed=125
 power=0
 copyright=Kieron
@@ -20,7 +20,7 @@ sound=-1
 increase_maintenance_after_years=4
 years_before_maintenance_max_reached=12
 
-Constraint[Prev][0]=BR-9F(Black)
+Constraint[Prev][0]=BR-9F
 
 EmptyImage[E]=./images/br-9f.1.0
 EmptyImage[SE]=./images/br-9f.1.1

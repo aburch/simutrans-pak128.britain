@@ -3,8 +3,10 @@ name=BR-5MT(Black)
 engine_type=steam
 smoke=Steam
 speed=130
-#gear=320
-power=1510
+# See http://www.traintesting.com/bulletin_6.htm for information on power.
+# Sadly, the data sheet is missing, but the summary suggests 1,000Hp, or approx.
+# 1/2 the power of the BR 7MT, so the below figure is a good estimate.
+power=424
 tractive_effort=116
 copyright=Kieron/JamesPetts
 intro_year=1951

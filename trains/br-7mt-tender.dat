@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-7MT-Tender(Green)
+name=BR-7MT-Tender
 speed=175
 power=0
 copyright=Kieron
@@ -20,10 +20,10 @@ sound=-1
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=13
 
-Constraint[Prev][0]=BR-7MT(Green)
-Constraint[Prev][1]=BR-8P(Green)
-Constraint[Prev][2]=SR-MerchantNavyRebuilt_4-6-2(Green)
-Constraint[Prev][3]=SR-WestCountryRebuilt_4-6-2(Green)
+Constraint[Prev][0]=BR-7MT
+Constraint[Prev][1]=BR-8P
+Constraint[Prev][2]=SR-MerchantNavyRebuilt_4-6-2
+Constraint[Prev][3]=SR-WestCountryRebuilt_4-6-2
 
 EmptyImage[E]=./images/br-7mt.1.0
 EmptyImage[SE]=./images/br-7mt.1.1

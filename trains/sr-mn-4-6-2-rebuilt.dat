@@ -1,5 +1,5 @@
 obj=vehicle
-name=SR-MerchantNavyRebuilt_4-6-2(Green)
+name=SR-MerchantNavyRebuilt_4-6-2
 engine_type=steam
 smoke=Steam
 speed=160
@@ -26,7 +26,7 @@ years_before_maintenance_max_reached=10
 
 available_only_as_upgrade=1
 
-Constraint[Next][0]=BR-7MT-Tender(Green)
+Constraint[Next][0]=BR-7MT-Tender
 
 EmptyImage[E]=./images/sr-mn-4-6-2-rebuilt.0.0
 EmptyImage[SE]=./images/sr-mn-4-6-2-rebuilt.0.1

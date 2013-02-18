@@ -1,5 +1,5 @@
 obj=vehicle
-name=SR-MerchantNavy_4-6-2Tender(Green)
+name=SR-MerchantNavy_4-6-2Tender
 speed=160
 power=0
 copyright=Kieron
@@ -19,10 +19,10 @@ sound=-1
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=9
 
-Constraint[Prev][0]=SR-MerchantNavy_4-6-2(Green)
-Constraint[Prev][1]=SR-WestCountry_4-6-2(Green)
+Constraint[Prev][0]=SR-MerchantNavy_4-6-2
+Constraint[Prev][1]=SR-WestCountry_4-6-2
 
-upgrade[0]=BR-7MT-Tender(Green)
+upgrade[0]=BR-7MT-Tender
 
 EmptyImage[E]=./images/sr-mn-4-6-2.1.0
 EmptyImage[SE]=./images/sr-mn-4-6-2.1.1

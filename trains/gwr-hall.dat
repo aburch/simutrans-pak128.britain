@@ -4,7 +4,13 @@ engine_type=steam
 smoke=Steam
 # Slower than the Saint because of the smaller drivers.
 speed=125
-power=1200
+# CALIBRATED: see http://www.traintesting.com/bulletin_1.htm
+# Max. speed given as 47mph with a train of 582t (gross)
+# Adjusting for rising gradient of 1/834 (+14Kw)
+# NOTE: The source itself suggests drawbar horsepower at approx. 500hp,
+# which is equivalent to 372.8Kw, compared to the 338Kw suggested
+# by in-game tests adjusted for by gradient.
+power=338
 tractive_effort=121
 copyright=James
 intro_year=1928

@@ -2,17 +2,19 @@ obj=vehicle
 name=LNWR-Problem(Green)
 engine_type=steam
 smoke=Steam
-speed=100
+speed=115
+# Attempt at calibration, but probably inaccurate, as load not known: see Ahrons p. 236
+# Max. speed given as 62mph with a train of unspecified load. Assuming 190t based on other loads in that table (p. 236 Ahrons).
+# Adjusted for a 1/364 falling gradient (-14Kw) (gradient guessed based on data on p. 231).
+power=173
 # Calculated from data from Ahrons, pp. 144-5
 # Loss factor set at 0.75
-# Half boiler pressure used to calculate power.
-power=373
 tractive_effort=27
 copyright=James
 intro_year=1859
 intro_month=11
 retire_year=1866
-#Retire year should be 1865, but replacement not introduced until 1866.
+# Retire year should be 1865, but replacement not introduced until 1866.
 retire_month=5
 waytype=track
 freight=None

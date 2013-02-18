@@ -1,5 +1,5 @@
 obj=vehicle
-name=SR-WestCountry_4-6-2(Green)
+name=SR-WestCountry_4-6-2
 engine_type=steam
 smoke=Steam
 speed=155
@@ -24,9 +24,9 @@ air_resistance=140
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=14
 
-Constraint[Next][0]=SR-MerchantNavy_4-6-2Tender(Green)
+Constraint[Next][0]=SR-MerchantNavy_4-6-2Tender
 
-upgrade[0]=SR-WestCountryRebuilt_4-6-2(Green)
+upgrade[0]=SR-WestCountryRebuilt_4-6-2
 
 EmptyImage[E]=./images/sr-wc-4-6-2.0.0
 EmptyImage[SE]=./images/sr-wc-4-6-2.0.1
