@@ -2,8 +2,10 @@ obj=vehicle
 name=LNWR-Jumbo
 engine_type=steam
 smoke=Steam
-speed=140
-power=820
+speed=145
+# Approximately calibrated based on assumption of 90mph speed with 201t gross
+# load down a 1/175 gradient. (-45.49Kw).
+power=233
 tractive_effort=49
 copyright=James
 intro_year=1887

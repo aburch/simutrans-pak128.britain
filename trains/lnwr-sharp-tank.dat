@@ -2,11 +2,12 @@ obj=vehicle
 name=LNWR-sharp-tank
 engine_type=steam
 smoke=Steam
-speed=65
+speed=75
+# Approximately extrapolated - heating surface area guessed
+# Averaged extrapolation points from Crewe Type (56.4) and Jenny Lind (89).
+power=64
 # Calculated from data from Ahrons, p. 91
 # Loss factor set at 0.7, assumed 100lbs boiler pressure. 
-# Half boiler pressure used to calculate power.
-power=192
 tractive_effort=21
 copyright=James/jamespetts
 intro_year=1854

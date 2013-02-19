@@ -3,10 +3,10 @@ name=MR-133
 engine_type=steam
 smoke=Steam
 speed=100
+# Extrapolated
+power=154
 # Calculated from data from Ahrons, p. 93 (fig. 102)
 # Loss factor set at 0.7, assumed 110lbs boiler pressure. 
-# Half boiler pressure used to calculate power.
-power=321
 tractive_effort=24
 copyright=James/jamespetts
 intro_year=1852

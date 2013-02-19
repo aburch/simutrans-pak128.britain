@@ -1,5 +1,5 @@
 obj=vehicle
-name=LNWR-Problem(Green)
+name=LNWR-Problem
 engine_type=steam
 smoke=Steam
 speed=115
@@ -32,7 +32,7 @@ increase_maintenance_after_years=40
 
 # NOTE: These locomotives were rebuilt in 1895-1899 - see Aarons p. 145
 
-Constraint[Next][0]=LNWR-Problem-Tender(Green)
+Constraint[Next][0]=LNWR-Problem-Tender
 
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black

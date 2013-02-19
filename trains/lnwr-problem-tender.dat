@@ -1,5 +1,5 @@
 obj=vehicle
-name=LNWR-Problem-Tender(Green)
+name=LNWR-Problem-Tender
 engine_type=steam
 speed=115
 copyright=James
@@ -21,7 +21,7 @@ runningcost=0
 sound=-1
 increase_maintenance_after_years=40
 
-Constraint[Prev][0]=LNWR-Problem(Green)
+Constraint[Prev][0]=LNWR-Problem
 
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black

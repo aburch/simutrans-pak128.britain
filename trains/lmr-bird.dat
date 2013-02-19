@@ -2,12 +2,12 @@ obj=vehicle
 name=LMR-Bird
 engine_type=steam
 smoke=Steam
-speed=66
-# Power approximated based on performance.
-power=66
+speed=85
+# Approximately extrapolated
+power=58
 # Calculated from data from Ahrons, p. 50
-# Loss factor set at 0.5.
-tractive_effort=5
+# Loss factor set at 0.5. Assuming boiler pressure of 60psi.
+tractive_effort=6
 copyright=James/jamespetts
 intro_year=1842
 intro_month=2

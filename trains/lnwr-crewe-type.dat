@@ -1,3 +1,4 @@
+# NOTE: There was also a 2-4-0 goods version of this - see Ahrons p. 52 for details. 
 obj=vehicle
 name=LNWR-crewe-type
 engine_type=steam
@@ -7,9 +8,9 @@ speed=92
 # Max. speed given as 45.4mph with a train of 115 tons
 # Assumed to be level track, as no gradient information is given.
 power=83
-# Calculated from data from Ahrons, p. 50
-# Loss factor set at 0.7.
-tractive_effort=10
+# Calculated from data from Ahrons, p. 52
+# Loss factor set at 0.65
+tractive_effort=15
 copyright=James/jamespetts
 intro_year=1845
 intro_month=4

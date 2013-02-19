@@ -2,12 +2,12 @@ obj=vehicle
 name=SDR-1001(Green)
 engine_type=steam
 smoke=Steam
-speed=50
-# Calculated from data from "The Locomotive", 14th of January 1928, p. 14
-# Loss factor set at 0.7, assumed 120lbs boiler pressure. 
-# Half boiler pressure used to calculate power.
-power=297
-tractive_effort=44
+speed=45
+# Extrapolated, approximately (was 91 when multiplied for heating surface area, but that was excessive)
+power=61
+# See "The Locomotive", 14th of January 1928, p. 14
+# TE data taken from: http://www.lner.info/locos/J/ner_1001.shtml
+tractive_effort=66
 copyright=James
 intro_year=1852
 intro_month=9
@@ -23,6 +23,7 @@ rolling_resistance=19
 # Weight taken from "The Locomotive", 14th of January 1928, p. 14
 weight=32
 cost=3548160
+# These were economical to run: see above website.
 runningcost=700
 sound=-1
 

@@ -3,10 +3,10 @@ name=LNWR-Sharp-goods
 engine_type=steam
 smoke=Steam
 speed=50
+# Extrapolated
+power=53
 # Calculated from data from Ahrons, p. 81
 # Loss factor set at 0.7, assumed 100lbs boiler pressure. 
-# Half boiler pressure used to calculate power.
-power=312
 tractive_effort=46
 copyright=James/jamespetts
 intro_year=1849
