@@ -2,12 +2,12 @@ obj=vehicle
 name=MR-480
 engine_type=steam
 smoke=Steam
-speed=70
+speed=75
+# Extrapolated
+power=115
 # Calculated from data from Ahrons, p. 158
 # Loss factor set at 0.75 
-# Half boiler pressure used to calculate power.
 tractive_effort=50
-power=479
 copyright=Kieron/JamesPetts
 intro_year=1863
 intro_month=12
@@ -28,7 +28,7 @@ sound=-1
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
 
-Constraint[Next][0]=MR-Kirtley156Tender(Maroon)
+Constraint[Next][0]=MR-Kirtley156Tender
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard

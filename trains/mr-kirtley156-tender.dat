@@ -1,5 +1,5 @@
 obj=vehicle
-name=MR-Kirtley156Tender(Maroon)
+name=MR-Kirtley156Tender
 speed=115
 power=0
 copyright=Kieron
@@ -19,7 +19,7 @@ sound=-1
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
 
-Constraint[Prev][0]=MR-Kirtley156(Maroon)
+Constraint[Prev][0]=MR-Kirtley156
 Constraint[Prev][1]=MR-480
 Constraint[Prev][2]=MR-1738
 Constraint[Prev][3]=MR-700

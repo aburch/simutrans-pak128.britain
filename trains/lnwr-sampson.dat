@@ -6,8 +6,9 @@ obj=vehicle
 name=LNWR-Sampson
 engine_type=steam
 smoke=Steam
-speed=95
-power=438
+speed=100
+# Extrapolated
+power=121
 tractive_effort=39
 copyright=James/jamespetts
 intro_year=1863
