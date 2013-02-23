@@ -3,8 +3,9 @@ name=Steam-Tram
 engine_type=steam
 smoke=Steam
 speed=40
+# Estimated
 power=60
-#gear=200
+tractive_effort=32
 copyright=James
 intro_year=1878
 intro_month=4

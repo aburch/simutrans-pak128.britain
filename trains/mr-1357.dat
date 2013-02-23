@@ -2,13 +2,13 @@ obj=vehicle
 name=MR-1357
 engine_type=steam
 smoke=Steam
-speed=80
+speed=85
+# Extrapolated
+power=149
 # Calculated from data from Ahrons, p. 221
 # Loss factor set at 0.8 
-# Half boiler pressure used to calculate power.
 # Note: these were the first Midland engines to have steam brakes.
 tractive_effort=65
-power=705
 copyright=Kieron/JamesPetts
 intro_year=1878
 intro_month=2

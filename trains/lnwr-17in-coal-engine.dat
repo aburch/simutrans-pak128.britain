@@ -2,9 +2,10 @@ obj=vehicle
 name=LNWR-17in-coal-engine
 engine_type=steam
 smoke=Steam
-speed=70
+speed=85
+# Extrapolated
+power=110
 # http://en.wikipedia.org/wiki/LNWR_17in_Coal_Engine	
-power=800
 tractive_effort=74
 copyright=James/jamespetts
 intro_year=1873

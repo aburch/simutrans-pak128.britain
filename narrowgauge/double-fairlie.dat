@@ -1,10 +1,14 @@
+# http://www.festipedia.org.uk/wiki/Double_Fairlie
 obj=vehicle
 name=DoubleFairlie
 engine_type=steam
 smoke=Steam
 speed=60
-#gear=200
-power=185
+# CALIBRATED: see http://www.festipedia.org.uk/wiki/Little_Wonder
+# Speed given as 13mph with a train of 210 tons (254 gross)
+# 1/189 rising gradient: (+8Kw). This is average, not top, speed, so might
+# be too low.
+power=60
 # http://www.ffestiniograilway.co.uk/locos/merddinemrys.htm
 tractive_effort=27
 copyright=James

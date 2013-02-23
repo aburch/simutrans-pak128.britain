@@ -2,12 +2,12 @@ obj=vehicle
 name=MR-1738
 engine_type=steam
 smoke=Steam
-speed=122
+speed=130
+# Extrapolated
+power=204
 # Calculated from data from Ahrons, p. 214
-# Loss factor set at 0.75
-# Half boiler pressure used to calculate power.
-power=750
-tractive_effort=41
+# Loss factor set at 0.8
+tractive_effort=50
 copyright=Kieron/JamesPetts
 intro_year=1877
 intro_month=9

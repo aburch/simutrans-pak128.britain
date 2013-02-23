@@ -2,9 +2,11 @@ obj=vehicle
 name=LBSCR-A1
 engine_type=steam
 smoke=Steam
-speed=70
-#gear=200
-power=220
+speed=100
+# Extrapolated from: http://orion.math.iastate.edu/jdhsmith/term/slgblbsc.htm 
+# See also Ahrons p. 202
+power=70
+# http://www.smileatyou.com/1/5/96/46/1-5-96-46-1.html
 tractive_effort=34
 copyright=Kieron
 intro_year=1872
@@ -96,9 +98,10 @@ obj=vehicle
 name=LBSCR-A1X
 engine_type=steam
 smoke=Steam
-speed=75
-#gear=200
-power=260
+speed=100
+# Extrapolated
+power=115
+# http://en.wikipedia.org/wiki/LB%26SCR_A1_class
 tractive_effort=48
 copyright=Kieron
 intro_year=1911

@@ -2,11 +2,12 @@ obj=vehicle
 name=LBSCR-D1
 engine_type=steam
 smoke=Steam
-speed=95
+speed=105
+# Extrapolated
+power=117
 # Tractive effort taken from:
 # http://www.semgonline.com/steam/d1%28lbsc%29_class_dat.html
 # (Wikipedia seemed unreliable on this locomotive)
-power=350
 tractive_effort=60
 copyright=Kieron/JamesPetts
 intro_year=1873
