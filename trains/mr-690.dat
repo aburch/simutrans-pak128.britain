@@ -5,12 +5,12 @@ obj=vehicle
 name=MR-690
 engine_type=steam
 smoke=Steam
-speed=75
+speed=85
+# Extrapolated
+power=142
 # Calculated from data from data at above website.
 # Loss factor set at 0.75 
-# Half boiler pressure used to calculate power.
 tractive_effort=53
-power=495
 copyright=Kieron/JamesPetts
 intro_year=1869
 intro_month=10

@@ -3,10 +3,10 @@ name=MR-Kirtley156
 engine_type=steam
 smoke=Steam
 speed=115
+# Extrapolated
+power=139
 # Calculated from data from Ahrons, p. 170
 # Loss factor set at 0.75
-# Half boiler pressure used to calculate power.
-power=600
 tractive_effort=38
 copyright=Kieron
 intro_year=1866

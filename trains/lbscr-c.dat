@@ -2,11 +2,12 @@ obj=vehicle
 name=LBSCR-C
 engine_type=steam
 smoke=Steam
-speed=70
+speed=75
+# Extrapolated
+power=141
 # Tractive effort taken from:
 # http://en.wikipedia.org/wiki/LB%26SCR_C_class
-# Power calculated from data from Ahrons p. 203
-power=586
+# See also Ahrons p. 203
 tractive_effort=82
 copyright=Kieron/JamesPetts
 intro_year=1871

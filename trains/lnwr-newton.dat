@@ -2,11 +2,11 @@ obj=vehicle
 name=LNWR-Newton
 engine_type=steam
 smoke=Steam
-speed=105
-#gear=360
-# Power and tractive effort calculated from data on Ahrons p. 169
+speed=115
+# Extrapolated
+power=152
+# Calculated from data on Ahrons p. 169
 # Loss factor 0.75
-power=475
 tractive_effort=36
 copyright=James/jamespetts
 intro_year=1866
