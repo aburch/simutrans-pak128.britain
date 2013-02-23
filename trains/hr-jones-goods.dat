@@ -2,9 +2,10 @@ obj=vehicle
 name=HR-Jones-Goods
 engine_type=steam
 smoke=Steam
-speed=100
-#gear=220
-power=900
+speed=110
+# Extrapolated
+power=258
+# http://en.wikipedia.org/wiki/Highland_Railway_Jones_Goods_Class
 tractive_effort=109
 copyright=James
 intro_year=1894
@@ -16,6 +17,7 @@ freight=None
 payload=0
 length=6
 
+# http://en.wikipedia.org/wiki/Highland_Railway_Jones_Goods_Class
 weight=57
 cost=4435200
 runningcost=528

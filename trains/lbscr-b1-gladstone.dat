@@ -2,9 +2,11 @@ obj=vehicle
 name=LBSCR-B1-Gladstone
 engine_type=steam
 smoke=Steam
-speed=120
-#gear=275
-power=715
+speed=130
+# Extrapolated
+power=226
+# http://www.semgonline.com/steam/gladstone_dat.html
+# See also Ahrons p. 273
 tractive_effort=63
 copyright=James
 intro_year=1882
@@ -18,6 +20,8 @@ length=5
 brake_force=20
 
 weight=39
+# These should be expensive to construct and run by comparison to equivalents:
+# see: http://www.semgonline.com/steam/gladstone.html
 cost=5796000
 runningcost=924
 sound=-1

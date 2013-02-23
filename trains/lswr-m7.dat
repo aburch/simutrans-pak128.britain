@@ -1,10 +1,10 @@
 obj=vehicle
-name=LSWR-M7(Olive)
+name=LSWR-M7
 engine_type=steam
 smoke=Steam
 speed=110
-#gear=300
-power=600
+# Extrapolated
+power=183
 tractive_effort=87
 copyright=James
 intro_year=1897

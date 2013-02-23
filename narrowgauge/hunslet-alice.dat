@@ -1,13 +1,14 @@
 # http://en.wikipedia.org/wiki/Alice_%28locomotive%29
-
+# http://en.wikipedia.org/wiki/Dinorwic_Alice_Class
 obj=vehicle
 name=Hunslet-Alice
 engine_type=steam
 smoke=Steam
 speed=40
-power=52
-# Guessed
-tractive_effort=11
+# Estimated
+power=11
+# Estimated
+tractive_effort=20
 copyright=James/jamespetts
 # See Ffestiniog illustrated stock list p. 40
 intro_year=1886

@@ -2,13 +2,11 @@ obj=vehicle
 name=LNWR-watford-tank
 engine_type=steam
 smoke=Steam
-speed=100
-# Not described in detail in Ahrons.
-# Very similar to "Cauliflower" class 
-# (was tank version of same). Figures
-# extrapolated.
-power=785
-tractive_effort=63
+speed=115
+# Extrapolated
+power=143
+# Calculated using data from: http://orion.math.iastate.edu/jdhsmith/term/slgblnwr.htm
+tractive_effort=73
 copyright=James/jamespetts
 intro_year=1895
 intro_month=3
