@@ -3,9 +3,9 @@ name=MR-2441
 engine_type=steam
 smoke=Steam
 speed=75
-#gear=190
-# Power lower than LMS 3F because latter has Belpaire firebox
-power=350
+# Extrapolated
+power=104
+# http://en.wikipedia.org/wiki/Midland_Railway_2441_Class
 tractive_effort=93
 copyright=Kieron
 intro_year=1899

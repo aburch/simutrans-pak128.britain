@@ -3,8 +3,8 @@ name=Metropolitan-Class-E
 engine_type=steam
 smoke=Steam
 speed=95
-#gear=350
-power=450
+# Extrapolated
+power=187
 # Tractive effort from: http://www.brc-stockbook.co.uk/Met1.HTM
 tractive_effort=65
 copyright=Kieron
@@ -33,4 +33,3 @@ EmptyImage[W]=./images/met-class-e.0.4
 EmptyImage[NW]=./images/met-class-e.0.5
 EmptyImage[N]=./images/met-class-e.0.6
 EmptyImage[NE]=./images/met-class-e.0.7
-
