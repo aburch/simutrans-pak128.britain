@@ -2,10 +2,11 @@ obj=vehicle
 name=LNWR-BClass
 engine_type=steam
 smoke=Steam
-speed=80
+speed=90
+# Extrapolated
+power=260
 # Tractive effort data unavailalbe: guessed from similar classes:
 # http://en.wikipedia.org/wiki/LNWR_G_Class
-power=1400
 tractive_effort=104
 copyright=James
 intro_year=1901

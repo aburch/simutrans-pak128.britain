@@ -1,25 +1,28 @@
 obj=vehicle
-name=GNR-C1
+name=GNR-Klondyke
 engine_type=steam
 smoke=Steam
-speed=150
-# Extrapolated - query whether too high.
-power=556
-# http://en.wikipedia.org/wiki/GNR_Class_C1_%28large_boiler%29
-tractive_effort=77
-copyright=Kieron
-intro_year=1902
-intro_month=12
-retire_year=1908
-retire_month=11
+speed=140
+# Extrapolated
+power=286
+# http://en.wikipedia.org/wiki/GNR_Class_C1_%28small_boiler%29
+tractive_effort=70
+copyright=Kieron&jamespetts
+intro_year=1898
+intro_month=2
+retire_year=1903
+retire_month=8
 waytype=track
 freight=None
 payload=0
 length=6
 
-# http://en.wikipedia.org/wiki/GNR_Class_C1_%28large_boiler%29
-weight=70
+# http://en.wikipedia.org/wiki/GNR_Class_C1_%28small_boiler%29
+weight=61
 cost=6677000
+# Should be somewhat uneconomic, as cylinders were too small for the boiler
+# and locomotives had to be worked hard to get required performance: see
+# above link
 runningcost=775
 sound=-1
 increase_maintenance_after_years=28

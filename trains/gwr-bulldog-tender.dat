@@ -1,6 +1,6 @@
 obj=vehicle
 name=GWR-Bulldog-Tender
-speed=135
+speed=166
 power=0
 copyright=James
 intro_year=1898
@@ -21,13 +21,13 @@ increase_maintenance_after_years=36
 years_before_maintenance_max_reached=20
 
 Constraint[Prev][0]=GWR-Bulldog
+Constraint[Prev][1]=GWR-City
 
-EmptyImage[E]=./images/gwr-bulldog.1.0
-EmptyImage[SE]=./images/gwr-bulldog.1.1
-EmptyImage[S]=./images/gwr-bulldog.1.2
-EmptyImage[SW]=./images/gwr-bulldog.1.3
-EmptyImage[W]=./images/gwr-bulldog.1.4
-EmptyImage[NW]=./images/gwr-bulldog.1.5
-EmptyImage[N]=./images/gwr-bulldog.1.6
-EmptyImage[NE]=./images/gwr-bulldog.1.7
-
+EmptyImage[E]=./images/gwr-bulldog-tender.1.4
+EmptyImage[SE]=./images/gwr-bulldog-tender.1.5
+EmptyImage[S]=./images/gwr-bulldog-tender.1.6
+EmptyImage[SW]=./images/gwr-bulldog-tender.1.7
+EmptyImage[W]=./images/gwr-bulldog-tender.1.0
+EmptyImage[NW]=./images/gwr-bulldog-tender.1.1
+EmptyImage[N]=./images/gwr-bulldog-tender.1.2
+EmptyImage[NE]=./images/gwr-bulldog-tender.1.3
