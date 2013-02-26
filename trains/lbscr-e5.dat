@@ -2,9 +2,10 @@ obj=vehicle
 name=LBSCR-E5
 engine_type=steam
 smoke=Steam
-speed=105
-#gear=350
-power=520
+speed=110
+# Extrapolated
+power=150
+# http://en.wikipedia.org/wiki/LB%26SCR_E5_class
 tractive_effort=77
 copyright=James
 intro_year=1902
@@ -17,6 +18,7 @@ freight=None
 payload=0
 length=7
 
+# http://www.semgonline.com/steam/e5class_01.html
 weight=60
 cost=4023300
 runningcost=700
