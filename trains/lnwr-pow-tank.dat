@@ -3,9 +3,11 @@ name=LNWR-PrinceOfWales-tank
 engine_type=steam
 smoke=Steam
 speed=120
-# Tractive effort and power data unavailable - guessed from PoW tender locomotive.
-power=890
-tractive_effort=97
+# Extrapolated
+power=247
+# Calculated from figures at: http://www.smex.net.au/Reference/TractiveEffort02.php
+# Efficiency factor of 0.85 used, as this is a superheated locomotive music.
+tractive_effort=102
 copyright=James
 intro_year=1910
 intro_month=4
@@ -16,7 +18,7 @@ freight=None
 payload=0
 length=7
 
-# Weight data unavailable - guessed from contemporaneous types.
+# http://www.lnwrs.org.uk/PassLocos/PassLoco.php?loco=15a
 weight=77
 cost=9800000
 runningcost=995

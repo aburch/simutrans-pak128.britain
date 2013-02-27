@@ -1,12 +1,13 @@
-# Rebuilds from Webb compounds
+# Rebuilds from unreliable Webb compounds
 
 obj=vehicle
 name=LNWR-Renown
 engine_type=steam
 smoke=Steam
-speed=127
+speed=135
+# Extrapolated
+power=232
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Renown_Class
-power=910
 tractive_effort=73
 copyright=James/jamespetts
 intro_year=1908
@@ -17,8 +18,6 @@ waytype=track
 freight=None
 payload=0
 length=6
-
-# Note: These compound locomotives were considered mechanically unreliable.
 
 # Weight from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Renown_Class
 weight=57

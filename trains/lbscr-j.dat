@@ -3,12 +3,15 @@ name=LBSCR-J
 engine_type=steam
 smoke=Steam
 speed=115
-#gear=350
-power=815
-tractive_effort=93
+# Extrapolated
+power=363
+# http://www.semgonline.com/steam/jclass.html
+# Note: Wikipedia gives 92.5kN, but this seems 
+# out of keeping with other classes of the period.
+tractive_effort=84
 copyright=James
 intro_year=1910
-intro_month=2
+intro_month=12
 retire_year=1917
 retire_month=6
 waytype=track
