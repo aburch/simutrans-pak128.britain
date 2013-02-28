@@ -2,10 +2,10 @@ obj=vehicle
 name=LNWR-G1Class
 engine_type=steam
 smoke=Steam
-speed=80
-# Tractive effort data taken from Wikipedia
+speed=90
+# Extrapolated
+power=270
 # http://en.wikipedia.org/wiki/LNWR_G_Class
-power=1550
 tractive_effort=114
 copyright=James
 intro_year=1912

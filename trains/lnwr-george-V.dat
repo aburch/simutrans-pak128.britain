@@ -3,7 +3,9 @@ name=LNWR-George-V
 engine_type=steam
 smoke=Steam
 speed=140
-# Extrapolated
+# Extrapolated, although see here: http://lnwrgeorgevtrust.org.uk/Trust_03.html
+# This suggests that a George V was measured with a drawbar horsepower of 950hp,
+# which equates to 708kW. 
 power=291
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_George_the_Fifth_Class
 tractive_effort=92

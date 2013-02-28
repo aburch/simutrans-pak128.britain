@@ -2,9 +2,10 @@ obj=vehicle
 name=LNWR-PrinceOfWales
 engine_type=steam
 smoke=Steam
-speed=130
+speed=145
+# Extrapolated
+power=321
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Prince_of_Wales_Class
-power=1150	
 tractive_effort=97
 copyright=James
 intro_year=1911

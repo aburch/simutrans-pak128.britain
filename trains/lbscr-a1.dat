@@ -100,7 +100,7 @@ engine_type=steam
 smoke=Steam
 speed=100
 # Extrapolated
-power=115
+power=49
 # http://en.wikipedia.org/wiki/LB%26SCR_A1_class
 tractive_effort=48
 copyright=Kieron
@@ -118,7 +118,8 @@ bidirectional=1
 available_only_as_upgrade=1
 years_before_maintenance_max_reached=26
 
-weight=28
+# http://en.wikipedia.org/wiki/LB%26SCR_A1_class
+weight=29
 cost=2016000
 upgrade_price=500000
 runningcost=75

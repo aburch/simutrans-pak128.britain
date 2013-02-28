@@ -3,8 +3,11 @@ name=GWR-Castle
 engine_type=steam
 smoke=Steam
 speed=155
-#gear=300
-power=1760
+# CALIBRATED: see http://mikes.railhistory.railfan.net/r070.html
+# Max. speed given as 90mph on level track with train (net) load
+# of 195 tons. 
+power=458
+# http://en.wikipedia.org/wiki/GWR_4073_Class
 tractive_effort=141
 copyright=James
 intro_year=1923

@@ -8,6 +8,7 @@ speed=160
 # 2,000 recorded for the BR 7MT (see its own .dat file). 
 # Extrapolated from 2,200 / 2,000 x the 7MT's power.
 # Query whether too powerful: can pull about 20 carriages at 160km/h
+# See http://locoperformance.tripod.com/edition13/60007pet.htm - is too powerful. 
 power=932
 # http://en.wikipedia.org/wiki/LNER_Class_A4
 tractive_effort=158
