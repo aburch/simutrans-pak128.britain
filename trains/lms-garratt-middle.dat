@@ -1,5 +1,5 @@
 obj=vehicle
-name=LMS-Garratt-Middle(Black)
+name=LMS-Garratt-Middle
 engine_type=steam
 smoke=Steam
 speed=80
@@ -22,8 +22,8 @@ sound=-1
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=13
 
-Constraint[Prev][0]=LMS-Garratt-Front(Black)
-Constraint[Next][0]=LMS-Garratt-Rear(Black)
+Constraint[Prev][0]=LMS-Garratt-Front
+Constraint[Next][0]=LMS-Garratt-Rear
 
 EmptyImage[E]=./images/lms-garratt.1.0
 EmptyImage[SE]=./images/lms-garratt.1.1

@@ -3,7 +3,8 @@ name=LMS-7F
 engine_type=steam
 smoke=Steam
 speed=90
-power=1200
+# Extrapolated
+power=255
 tractive_effort=132
 copyright=James
 intro_year=1929
