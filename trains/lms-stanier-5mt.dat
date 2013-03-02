@@ -3,11 +3,8 @@ name=LMS-Stanier-5MT
 engine_type=steam
 smoke=Steam
 speed=130
-# CALIBRATED: see http://www.heritagerailway.co.uk/news/black-five. 
-# A black 5 hauled a load of 10 (presumably BR Mk. I) carriages at an
-# average of 68mph on what is assumed to be level track on the Southern
-# stretches of the WCML. 
-power=435
+# Extrapolated
+power=460
 # http://en.wikipedia.org/wiki/LMS_Stanier_Class_5_4-6-0
 tractive_effort=113
 copyright=Kieron

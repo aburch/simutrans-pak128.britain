@@ -6,7 +6,7 @@ engine_type=steam
 smoke=Steam
 speed=60
 # Extrapolated
-power=174
+power=184
 # http://en.wikipedia.org/wiki/South_African_Class_NG_G16_2-6-2%2B2-6-2
 tractive_effort=84
 copyright=James/jamespetts
@@ -46,7 +46,6 @@ name=Garrett-NGG16-middle
 engine_type=steam
 smoke=Steam
 speed=60
-#gear=200
 power=0
 tractive_effort=0
 copyright=James
@@ -85,7 +84,6 @@ name=Garrett-NGG16-rear
 engine_type=steam
 smoke=Steam
 speed=60
-#gear=200
 power=0
 tractive_effort=0
 copyright=James
