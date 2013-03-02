@@ -7,8 +7,8 @@ name=LMS-Stanier-3P-Tank
 engine_type=steam
 smoke=Steam
 speed=110
-#gear=300
-power=597
+# Extrapolated (from Hall class rather than BR 4MT, as underpowered)
+power=151
 tractive_effort=96
 copyright=Kieron/JamesPetts
 intro_year=1935
@@ -22,6 +22,7 @@ length=7
 
 weight=72
 cost=3024049
+# Should be uneconomical compared to Fowler 3P
 runningcost=660
 sound=-1
 increase_maintenance_after_years=12
@@ -60,8 +61,8 @@ name=LMS-Stanier-3P-Tank-Push-Pull
 engine_type=steam
 smoke=Steam
 speed=110
-#gear=300
-power=597
+# Extrapolated (from Hall class rather than BR 4MT, as underpowered)
+power=151
 tractive_effort=96
 copyright=Kieron/JamesPetts
 intro_year=1935

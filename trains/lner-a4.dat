@@ -3,13 +3,13 @@ name=LNER-A4
 engine_type=steam
 smoke=Steam
 speed=160
-# Extrapolated using recorded drawbar horsepower figures.
 # 2,200 recorded in 1940: http://en.wikipedia.org/wiki/LNER_Class_A4
 # 2,000 recorded for the BR 7MT (see its own .dat file). 
 # Extrapolated from 2,200 / 2,000 x the 7MT's power.
-# Query whether too powerful: can pull about 20 carriages at 160km/h
-# See http://locoperformance.tripod.com/edition13/60007pet.htm - is too powerful. 
-power=932
+# Can pull about 20 carriages at 160km/h
+# See http://locoperformance.tripod.com/edition13/60007pet.htm 
+# Extrapolated 
+power=766
 # http://en.wikipedia.org/wiki/LNER_Class_A4
 tractive_effort=158
 copyright=Kieron

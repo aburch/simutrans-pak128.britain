@@ -2,7 +2,7 @@ obj=vehicle
 name=LMS-Fowler-4P-Tank
 engine_type=steam
 smoke=Steam
-speed=120
+speed=115
 # Extrapolated
 power=308
 tractive_effort=106
@@ -66,8 +66,8 @@ name=LMS-Stanier-4P-Tank
 engine_type=steam
 smoke=Steam
 speed=120
-#gear=300
-power=1095
+# Extrapolated
+power=297
 tractive_effort=110
 copyright=Kieron/JamesPetts
 intro_year=1935
@@ -118,9 +118,9 @@ obj=vehicle
 name=LMS-Stanier-4P-Tank-3-cylinder
 engine_type=steam
 smoke=Steam
-speed=120
-#gear=300
-power=1078
+speed=105
+# Extrapolated
+power=186
 # Calculated figure: data not otherwise available.
 tractive_effort=168
 copyright=Kieron/JamesPetts

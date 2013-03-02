@@ -3,8 +3,9 @@ name=LMS-Patriot
 engine_type=steam
 smoke=Steam
 speed=145
-#gear=350
-power=1640
+# Extrapolated
+power=418
+# http://en.wikipedia.org/wiki/LMS_Patriot_Class
 tractive_effort=118
 copyright=James
 intro_year=1930
