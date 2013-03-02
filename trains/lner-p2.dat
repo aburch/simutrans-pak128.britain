@@ -5,8 +5,10 @@ smoke=Steam
 speed=135
 # See: http://www.steamindex.com/locotype/gresloco.htm
 # 2,090 DBHP recorded.
-# Extrapolated
-power=696
+# CALIBRATED: See http://www.railperf.org.uk/members/milepost/RPSSteamSeminar%20web.pdf
+# Recorded at 57mph on an upward gradient of 1/178 with a load of 651 tons (presumably
+# 815 tons gross). 540kW for this speed with this load as if on the level, +113kW
+power=653
 tractive_effort=200
 copyright=James
 intro_year=1934
