@@ -27,7 +27,7 @@ comfort=74
 Constraint[Prev][0]=MR-1632
 Constraint[Prev][1]=LMS-0-4-4T
 Constraint[Prev][2]=LMS-Fowler-3P-Tank-Push-Pull
-Constraint[Prev][3]=BR-2MT-Tank(Black)-Push-Pull
+Constraint[Prev][3]=BR-2MT-Tank-Push-Pull
 Constraint[Prev][4]=LMS-3F-Jinty-Push-Pull
 
 Constraint[Next][0]=MR-push-pull-rear
@@ -74,7 +74,7 @@ Constraint[Next][0]=none
 Constraint[Prev][0]=MR-1632
 Constraint[Prev][1]=LMS-0-4-4T
 Constraint[Prev][2]=LMS-Fowler-3P-Tank-Push-Pull
-Constraint[Prev][3]=BR-2MT-Tank(Black)-Push-Pull
+Constraint[Prev][3]=BR-2MT-Tank-Push-Pull
 Constraint[Prev][4]=LMS-3F-Jinty-Push-Pull
 Constraint[Prev][5]=MR-push-pull-front
 
