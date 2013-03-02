@@ -1,14 +1,14 @@
 obj=vehicle
-name=BR-4MT-Tank(Black)
+name=BR-4MT-Tank
 engine_type=steam
 smoke=Steam
 speed=120
-#gear=300
-power=1150
+# Extrapolated
+power=353
 tractive_effort=111
 copyright=Kieron
 intro_year=1951
-intro_month=6
+intro_month=7
 retire_year=1957
 retire_month=11
 waytype=track
