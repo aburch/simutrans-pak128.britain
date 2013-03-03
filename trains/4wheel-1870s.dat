@@ -13,7 +13,7 @@
 # whereas fitted vehicles can run with newer carriages.
 obj=vehicle
 name=4-wheel-1870s-unfitted
-speed=135
+speed=145
 copyright=Kieron/James
 intro_year=1870
 intro_month=1
@@ -135,7 +135,7 @@ EmptyImage[NE][3]=./images/gnr-4wheel-composite.1.3
 
 obj=vehicle
 name=4-wheel-1870s-brake-unfitted
-speed=135
+speed=145
 copyright=Kieron/James
 intro_year=1870
 intro_month=1
@@ -206,7 +206,7 @@ EmptyImage[NE][3]=./images/gnr-4wheel-brake.1.3
 
 obj=vehicle
 name=4-wheel-1870s-mail-unfitted
-speed=135
+speed=145
 copyright=Kieron/James
 intro_year=1870
 intro_month=1
@@ -323,7 +323,7 @@ EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3
 
 obj=vehicle
 name=4-wheel-1870s-tpo-unfitted
-speed=135
+speed=145
 copyright=Kieron/James
 intro_year=1870
 intro_month=1
@@ -443,7 +443,7 @@ EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3
 
 obj=vehicle
 name=4-wheel-1870s-fitted
-speed=135
+speed=145
 copyright=Kieron/James
 intro_year=1876
 intro_month=3
@@ -576,7 +576,7 @@ EmptyImage[NE][3]=./images/gnr-4wheel-composite.1.3
 
 obj=vehicle
 name=4-wheel-1870s-brake-fitted
-speed=135
+speed=145
 copyright=Kieron/James
 intro_year=1876
 intro_month=3
@@ -647,7 +647,7 @@ EmptyImage[NE][3]=./images/gnr-4wheel-brake.1.3
 
 obj=vehicle
 name=4-wheel-1870s-mail-fitted
-speed=135
+speed=145
 copyright=Kieron/James
 intro_year=1876
 intro_month=3
@@ -775,7 +775,7 @@ EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3
 
 obj=vehicle
 name=4-wheel-1870s-tpo-fitted
-speed=135
+speed=145
 copyright=Kieron/James
 intro_year=1876
 intro_month=3
