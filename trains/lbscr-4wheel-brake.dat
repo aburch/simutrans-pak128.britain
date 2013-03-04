@@ -51,6 +51,7 @@ Constraint[Next][20]=none
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
+liverytype[2]=SR-Olive-Green
 
 EmptyImage[E][0]=./images/lbscr-4wheel-brake-front.1.4
 EmptyImage[SE][0]=./images/lbscr-4wheel-brake-front.1.5
@@ -69,6 +70,15 @@ EmptyImage[W][1]=./images/lbscr-4wheel-brake-umber-front.1.0
 EmptyImage[NW][1]=./images/lbscr-4wheel-brake-umber-front.1.1
 EmptyImage[N][1]=./images/lbscr-4wheel-brake-umber-front.1.2
 EmptyImage[NE][1]=./images/lbscr-4wheel-brake-umber-front.1.3
+
+EmptyImage[E][2]=./images/lbscr-4wheel-brake-olive-front.1.4
+EmptyImage[SE][2]=./images/lbscr-4wheel-brake-olive-front.1.5
+EmptyImage[S][2]=./images/lbscr-4wheel-brake-olive-front.1.6
+EmptyImage[SW][2]=./images/lbscr-4wheel-brake-olive-front.1.7
+EmptyImage[W][2]=./images/lbscr-4wheel-brake-olive-front.1.0
+EmptyImage[NW][2]=./images/lbscr-4wheel-brake-olive-front.1.1
+EmptyImage[N][2]=./images/lbscr-4wheel-brake-olive-front.1.2
+EmptyImage[NE][2]=./images/lbscr-4wheel-brake-olive-front.1.3
 
 ---
 
@@ -124,6 +134,7 @@ Constraint[Prev][19]=LBSCR-4Wheel-Second
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
+liverytype[2]=SR-Olive-Green
 
 EmptyImage[E][0]=./images/lbscr-4wheel-brake-rear.1.4
 EmptyImage[SE][0]=./images/lbscr-4wheel-brake-rear.1.5
@@ -142,6 +153,15 @@ EmptyImage[W][1]=./images/lbscr-4wheel-brake-umber-rear.1.0
 EmptyImage[NW][1]=./images/lbscr-4wheel-brake-umber-rear.1.1
 EmptyImage[N][1]=./images/lbscr-4wheel-brake-umber-rear.1.2
 EmptyImage[NE][1]=./images/lbscr-4wheel-brake-umber-rear.1.3
+
+EmptyImage[E][2]=./images/lbscr-4wheel-brake-olive-rear.1.4
+EmptyImage[SE][2]=./images/lbscr-4wheel-brake-olive-rear.1.5
+EmptyImage[S][2]=./images/lbscr-4wheel-brake-olive-rear.1.6
+EmptyImage[SW][2]=./images/lbscr-4wheel-brake-olive-rear.1.7
+EmptyImage[W][2]=./images/lbscr-4wheel-brake-olive-rear.1.0
+EmptyImage[NW][2]=./images/lbscr-4wheel-brake-olive-rear.1.1
+EmptyImage[N][2]=./images/lbscr-4wheel-brake-olive-rear.1.2
+EmptyImage[NE][2]=./images/lbscr-4wheel-brake-olive-rear.1.3
 
 ---
 
@@ -181,6 +201,7 @@ bidirectional=1
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
+liverytype[2]=SR-Olive-Green
 
 EmptyImage[E][0]=./images/lbscr-4wheel-brake-front.1.4
 EmptyImage[SE][0]=./images/lbscr-4wheel-brake-front.1.5
@@ -199,6 +220,15 @@ EmptyImage[W][1]=./images/lbscr-4wheel-brake-umber-front.1.0
 EmptyImage[NW][1]=./images/lbscr-4wheel-brake-umber-front.1.1
 EmptyImage[N][1]=./images/lbscr-4wheel-brake-umber-front.1.2
 EmptyImage[NE][1]=./images/lbscr-4wheel-brake-umber-front.1.3
+
+EmptyImage[E][2]=./images/lbscr-4wheel-brake-olive-front.1.4
+EmptyImage[SE][2]=./images/lbscr-4wheel-brake-olive-front.1.5
+EmptyImage[S][2]=./images/lbscr-4wheel-brake-olive-front.1.6
+EmptyImage[SW][2]=./images/lbscr-4wheel-brake-olive-front.1.7
+EmptyImage[W][2]=./images/lbscr-4wheel-brake-olive-front.1.0
+EmptyImage[NW][2]=./images/lbscr-4wheel-brake-olive-front.1.1
+EmptyImage[N][2]=./images/lbscr-4wheel-brake-olive-front.1.2
+EmptyImage[NE][2]=./images/lbscr-4wheel-brake-olive-front.1.3
 
 ---
 
@@ -236,6 +266,7 @@ bidirectional=1
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
+liverytype[2]=SR-Olive-Green
 
 EmptyImage[E][0]=./images/lbscr-4wheel-brake-rear.1.4
 EmptyImage[SE][0]=./images/lbscr-4wheel-brake-rear.1.5
@@ -254,3 +285,12 @@ EmptyImage[W][1]=./images/lbscr-4wheel-brake-umber-rear.1.0
 EmptyImage[NW][1]=./images/lbscr-4wheel-brake-umber-rear.1.1
 EmptyImage[N][1]=./images/lbscr-4wheel-brake-umber-rear.1.2
 EmptyImage[NE][1]=./images/lbscr-4wheel-brake-umber-rear.1.3
+
+EmptyImage[E][2]=./images/lbscr-4wheel-brake-olive-rear.1.4
+EmptyImage[SE][2]=./images/lbscr-4wheel-brake-olive-rear.1.5
+EmptyImage[S][2]=./images/lbscr-4wheel-brake-olive-rear.1.6
+EmptyImage[SW][2]=./images/lbscr-4wheel-brake-olive-rear.1.7
+EmptyImage[W][2]=./images/lbscr-4wheel-brake-olive-rear.1.0
+EmptyImage[NW][2]=./images/lbscr-4wheel-brake-olive-rear.1.1
+EmptyImage[N][2]=./images/lbscr-4wheel-brake-olive-rear.1.2
+EmptyImage[NE][2]=./images/lbscr-4wheel-brake-olive-rear.1.3
