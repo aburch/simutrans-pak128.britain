@@ -47,8 +47,10 @@ Constraint[Next][12]=LBSCR-craven-second
 Constraint[Next][13]=LBSCR-craven-brake-rear
 Constraint[Next][14]=LBSCR-craven-full-brake
 Constraint[Next][15]=LBSCR-craven-mail
-Constraint[Next][16]=LBSCR-4Wheel-Brake
+Constraint[Next][16]=LBSCR-4Wheel-Brake-rear
 Constraint[Next][17]=LBSCR-4Wheel-First
+Constraint[Next][18]=LBSCR-4Wheel-full-brake
+Constraint[Next][19]=LBSCR-4Wheel-Second
 
 Constraint[Prev][0]=LBSCR-4wheel-open
 Constraint[Prev][1]=LBSCR-4wheel-open-brake
@@ -66,8 +68,10 @@ Constraint[Prev][12]=LBSCR-craven-second
 Constraint[Prev][13]=LBSCR-craven-brake-front
 Constraint[Prev][14]=LBSCR-craven-full-brake
 Constraint[Prev][15]=LBSCR-craven-mail
-Constraint[Prev][16]=LBSCR-4Wheel-Brake
+Constraint[Prev][16]=LBSCR-4Wheel-Brake-front
 Constraint[Prev][17]=LBSCR-4Wheel-First
+Constraint[Prev][18]=LBSCR-4Wheel-full-brake
+Constraint[Prev][19]=LBSCR-4Wheel-Second
 
 EmptyImage[E]=./images/lbscr-4wheel-open.1.4
 EmptyImage[SE]=./images/lbscr-4wheel-open.1.5

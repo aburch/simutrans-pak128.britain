@@ -11,14 +11,16 @@
 # span the 1870s, the period in which continuous brakes were
 # introduced. Unfitted vehicles can run with older carriages,
 # whereas fitted vehicles can run with newer carriages.
+# Perid of grace needed where both can be built to avoid
+# problems for those who need to couple to unfitted sets.
 obj=vehicle
 name=4-wheel-1870s-unfitted
 speed=145
 copyright=Kieron/James
 intro_year=1870
 intro_month=1
-retire_year=1876
-retire_month=3
+retire_year=1878
+retire_month=2
 waytype=track
 freight=Passagiere
 payload=40
@@ -139,8 +141,8 @@ speed=145
 copyright=Kieron/James
 intro_year=1870
 intro_month=1
-retire_year=1876
-retire_month=3
+retire_year=1878
+retire_month=2
 waytype=track
 freight=Post
 payload=21
@@ -210,8 +212,8 @@ speed=145
 copyright=Kieron/James
 intro_year=1870
 intro_month=1
-retire_year=1876
-retire_month=3
+retire_year=1878
+retire_month=2
 waytype=track
 freight=Post
 payload=34
@@ -327,8 +329,8 @@ speed=145
 copyright=Kieron/James
 intro_year=1870
 intro_month=1
-retire_year=1876
-retire_month=3
+retire_year=1878
+retire_month=2
 waytype=track
 freight=Post
 payload=17

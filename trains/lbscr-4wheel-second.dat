@@ -1,7 +1,9 @@
 # See http://basilicafields.wordpress.com/2010/12/19/lbscr-carriages
-# Four compartments (but compartment capacity as a third)
+# http://www.bluebellrailway.co.uk/bluebell/pic2/328.html
+
+# Five compartments (but compartment capacity as a third)
 obj=vehicle
-name=LBSCR-4Wheel-First
+name=LBSCR-4Wheel-Second
 speed=145
 copyright=Kieron
 intro_year=1872
@@ -10,8 +12,8 @@ retire_year=1877
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=30
-overcrowded_capacity=15
+payload=50
+overcrowded_capacity=25
 length=5
 brake_force=0
 rolling_resistance=18
@@ -20,9 +22,9 @@ weight=9
 cost=285000
 runningcost=17
 sound=-1
-upgrade[0]=LBSCR-4Wheel-First-fitted
+upgrade[0]=LBSCR-4Wheel-Second-fitted
 
-comfort=60
+comfort=49
 min_loading_time=17
 max_loading_time=47
 
@@ -74,42 +76,37 @@ Constraint[Prev][19]=LBSCR-4Wheel-Second
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-4wheel-first.1.4
-EmptyImage[SE][0]=./images/lbscr-4wheel-first.1.5
-EmptyImage[S][0]=./images/lbscr-4wheel-first.1.6
-EmptyImage[SW][0]=./images/lbscr-4wheel-first.1.7
-EmptyImage[W][0]=./images/lbscr-4wheel-first.1.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-first.1.1
-EmptyImage[N][0]=./images/lbscr-4wheel-first.1.2
-EmptyImage[NE][0]=./images/lbscr-4wheel-first.1.3
+EmptyImage[E][0]=./images/lbscr-4wheel-second.1.4
+EmptyImage[SE][0]=./images/lbscr-4wheel-second.1.5
+EmptyImage[S][0]=./images/lbscr-4wheel-second.1.6
+EmptyImage[SW][0]=./images/lbscr-4wheel-second.1.7
+EmptyImage[W][0]=./images/lbscr-4wheel-second.1.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-second.1.1
+EmptyImage[N][0]=./images/lbscr-4wheel-second.1.2
+EmptyImage[NE][0]=./images/lbscr-4wheel-second.1.3
 
-EmptyImage[E][1]=./images/lbscr-4wheel-first-umber.1.4
-EmptyImage[SE][1]=./images/lbscr-4wheel-first-umber.1.5
-EmptyImage[S][1]=./images/lbscr-4wheel-first-umber.1.6
-EmptyImage[SW][1]=./images/lbscr-4wheel-first-umber.1.7
-EmptyImage[W][1]=./images/lbscr-4wheel-first-umber.1.0
-EmptyImage[NW][1]=./images/lbscr-4wheel-first-umber.1.1
-EmptyImage[N][1]=./images/lbscr-4wheel-first-umber.1.2
-EmptyImage[NE][1]=./images/lbscr-4wheel-first-umber.1.3
+EmptyImage[E][1]=./images/lbscr-4wheel-second-umber.1.4
+EmptyImage[SE][1]=./images/lbscr-4wheel-second-umber.1.5
+EmptyImage[S][1]=./images/lbscr-4wheel-second-umber.1.6
+EmptyImage[SW][1]=./images/lbscr-4wheel-second-umber.1.7
+EmptyImage[W][1]=./images/lbscr-4wheel-second-umber.1.0
+EmptyImage[NW][1]=./images/lbscr-4wheel-second-umber.1.1
+EmptyImage[N][1]=./images/lbscr-4wheel-second-umber.1.2
+EmptyImage[NE][1]=./images/lbscr-4wheel-second-umber.1.3
 
 ---
 
-# The fitted vehicles use the Westinghouse air brake
-# They therefore have better brake force than contemporaries,
-# but are more expensive.
-
-obj=vehicle
-name=LBSCR-4Wheel-First-fitted
+name=LBSCR-4Wheel-Second-fitted
 speed=145
-copyright=Kieron
+copyright=Kieron/JamesPetts
 intro_year=1875
 intro_month=9
 retire_year=1901
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=30
-overcrowded_capacity=15
+payload=50
+overcrowded_capacity=25
 length=5
 brake_force=5
 rolling_resistance=18
@@ -120,7 +117,7 @@ upgrade_price=80000
 runningcost=18
 sound=-1
 
-comfort=60
+comfort=49
 min_loading_time=17
 max_loading_time=47
 
@@ -134,20 +131,20 @@ bidirectional=1
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-4wheel-first.1.4
-EmptyImage[SE][0]=./images/lbscr-4wheel-first.1.5
-EmptyImage[S][0]=./images/lbscr-4wheel-first.1.6
-EmptyImage[SW][0]=./images/lbscr-4wheel-first.1.7
-EmptyImage[W][0]=./images/lbscr-4wheel-first.1.0
-EmptyImage[NW][0]=./images/lbscr-4wheel-first.1.1
-EmptyImage[N][0]=./images/lbscr-4wheel-first.1.2
-EmptyImage[NE][0]=./images/lbscr-4wheel-first.1.3
+EmptyImage[E][0]=./images/lbscr-4wheel-second.1.4
+EmptyImage[SE][0]=./images/lbscr-4wheel-second.1.5
+EmptyImage[S][0]=./images/lbscr-4wheel-second.1.6
+EmptyImage[SW][0]=./images/lbscr-4wheel-second.1.7
+EmptyImage[W][0]=./images/lbscr-4wheel-second.1.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-second.1.1
+EmptyImage[N][0]=./images/lbscr-4wheel-second.1.2
+EmptyImage[NE][0]=./images/lbscr-4wheel-second.1.3
 
-EmptyImage[E][1]=./images/lbscr-4wheel-first-umber.1.4
-EmptyImage[SE][1]=./images/lbscr-4wheel-first-umber.1.5
-EmptyImage[S][1]=./images/lbscr-4wheel-first-umber.1.6
-EmptyImage[SW][1]=./images/lbscr-4wheel-first-umber.1.7
-EmptyImage[W][1]=./images/lbscr-4wheel-first-umber.1.0
-EmptyImage[NW][1]=./images/lbscr-4wheel-first-umber.1.1
-EmptyImage[N][1]=./images/lbscr-4wheel-first-umber.1.2
-EmptyImage[NE][1]=./images/lbscr-4wheel-first-umber.1.3
+EmptyImage[E][1]=./images/lbscr-4wheel-second-umber.1.4
+EmptyImage[SE][1]=./images/lbscr-4wheel-second-umber.1.5
+EmptyImage[S][1]=./images/lbscr-4wheel-second-umber.1.6
+EmptyImage[SW][1]=./images/lbscr-4wheel-second-umber.1.7
+EmptyImage[W][1]=./images/lbscr-4wheel-second-umber.1.0
+EmptyImage[NW][1]=./images/lbscr-4wheel-second-umber.1.1
+EmptyImage[N][1]=./images/lbscr-4wheel-second-umber.1.2
+EmptyImage[NE][1]=./images/lbscr-4wheel-second-umber.1.3

@@ -35,11 +35,11 @@ upgrade[7]=SR-augmentation-trailer(rear)
 
 Constraint[Prev][0]=LBSCR-bogie-sub
 Constraint[Prev][1]=LBSCR-bogie-sub-brake-front
-Constraint[Prev][2]=LBSCR-4Wheel-Brake
+Constraint[Prev][2]=LBSCR-4Wheel-Brake-rear
 
 Constraint[Next][0]=LBSCR-bogie-sub
 Constraint[Next][1]=LBSCR-bogie-sub-brake-rear
-Constraint[next][2]=LBSCR-4Wheel-Brake
+Constraint[next][2]=LBSCR-4Wheel-Brake-rear
 
 
 EmptyImage[E]=./images/lbscr-bogie-sub.0.0
@@ -90,12 +90,12 @@ upgrade[7]=SR-augmentation-trailer(rear)
 Constraint[Prev][0]=LBSCR-bogie-sub
 Constraint[Prev][1]=LBSCR-bogie-sub-brake-front
 Constraint[Prev][2]=LBSCR-4Wheel-First
-Constraint[Prev][3]=LBSCR-4Wheel-Brake
+Constraint[Prev][3]=LBSCR-4Wheel-Brake-rear
 
 Constraint[Next][0]=LBSCR-bogie-sub
 Constraint[Next][1]=LBSCR-bogie-sub-brake-front
 Constraint[next][2]=LBSCR-4Wheel-First
-Constraint[next][3]=LBSCR-4Wheel-Brake
+Constraint[next][3]=LBSCR-4Wheel-Brake-rear
 Constraint[Next][4]=none
 
 EmptyImage[E]=./images/lbscr-bogie-sub-brake.0.0
@@ -146,7 +146,7 @@ upgrade[7]=SR-augmentation-trailer(rear)
 Constraint[Next][0]=LBSCR-bogie-sub
 Constraint[Next][1]=LBSCR-bogie-sub-brake-rear
 Constraint[next][2]=LBSCR-4Wheel-First
-Constraint[next][3]=LBSCR-4Wheel-Brake
+Constraint[next][3]=LBSCR-4Wheel-Brake-rear
 Constraint[Next][4]=none
 
 EmptyImage[E]=./images/lbscr-bogie-sub-brake.1.0

@@ -11,7 +11,7 @@
 
 obj=vehicle
 name=LNWR-6wheel-radial
-speed=135
+speed=150
 copyright=Kieron/jamespetts
 intro_year=1873
 intro_month=3
@@ -139,7 +139,7 @@ EmptyImage[NE]=./images/lnwr-6wheel-radial.1.3
 # D356 - see Jenkinson (LNWR) p. 110
 obj=vehicle
 name=LNWR-6wheel-radial-brake-third
-speed=135
+speed=150
 copyright=Kieron/jamespetts
 intro_year=1873
 intro_month=3
@@ -176,7 +176,7 @@ EmptyImage[NE]=./images/lnwr-6wheel-radial-brake-third.1.3
 
 obj=vehicle
 name=LNWR-6wheel-radial-full-brake
-speed=135
+speed=150
 copyright=Kieron/jamespetts
 intro_year=1873
 intro_month=3
@@ -212,7 +212,7 @@ EmptyImage[NE]=./images/lnwr-6wheel-radial-full-brake.1.3
 
 obj=vehicle
 name=LNWR-6wheel-radial-mail
-speed=135
+speed=150
 copyright=Kieron/jamespetts
 intro_year=1873
 intro_month=3
@@ -337,7 +337,7 @@ EmptyImage[NE]=./images/lnwr-6wheel-radial-mail.1.3
 
 obj=vehicle
 name=LNWR-6wheel-radial-tpo
-speed=135
+speed=150
 copyright=Kieron/jamespetts
 intro_year=1873
 intro_month=3
