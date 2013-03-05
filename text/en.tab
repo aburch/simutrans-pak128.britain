@@ -2769,13 +2769,13 @@ LSWR corridor carriage (brake)
 LSWR-corridor-brake-rear
 LSWR corridor carriage (brake)
 LBSCR-balloon-full-brake
-LBSCR "Balloon" carriage (full brake)
+LBSCR "Balloon" mail/brake carriage
 LBSCR-balloon-brake-front
-LBSCR non-corridor lavatory "Balloon" carriage (brake)
+LBSCR "Balloon" four compartment lavatory brake carriage
 LBSCR-balloon-brake-rear
-LBSCR non-corridor lavatory "Balloon" carriage (brake)
+LBSCR "Balloon" four compartment lavatory brake carriage (rear)
 LBSCR-balloon
-LBSCR non-corridor lavatory "Balloon" carriage
+LBSCR "Balloon" eight compartment lavatory carriage
 SR-Schools
 SR V Class "Schools" 4-4-0
 SR-Schools-Tender
@@ -2893,11 +2893,11 @@ LBSCR Class H1 "Brighton Atlantic" 4-4-2
 LBSCR-H1-Tender
 LBSCR Class H1 tender
 LBSCR-non-cor-lav
-LBSCR non-corridor lavatory coach
+LBSCR six compartment lavatory carriage
 LBSCR-non-cor-lav-brake-rear
-LBSCR non-corridor lavatory coach (brake)
+LBSCR four compartment lavatory brake carriage
 LBSCR-non-cor-lav-brake-front
-LBSCR non-corridor lavatory coach (brake)
+LBSCR four compartment lavatory brake carriage (rear)
 LNWR-Jumbo
 LNWR "Jumbo" Class 2-4-0
 LNWR-Jumbo-Tender
@@ -3103,9 +3103,9 @@ BR Mk. 3a Restaurant Buffet
 BR-Mk4-RSB
 BR Mk. 4 Restaurant Buffet
 LSWR-Third-Brake
-LSWR Bogie Compartment Brake
+LSWR four compartment brake carriage
 LSWR-Third-Carriage
-LSWR Bogie Compartment Carriage
+LSWR seven compartment carriage
 4-wheel-1850s-mail
 Four wheel mail carriage
 4-wheel-1850s-tpo
