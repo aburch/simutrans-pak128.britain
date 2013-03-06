@@ -3328,12 +3328,18 @@ SR-augmentation-trailer(front)
 SR EMU augmentation trailer
 SR-augmentation-trailer(rear)
 SR EMU augmentation trailer
-LBSCR-bogie-sub
-LBSCR Bogie Compartment Carriage
-LBSCR-bogie-sub-brake-front
-LBSCR Bogie Compartment Brake
-LBSCR-bogie-sub-brake-rear
-LBSCR Bogie Compartment Brake
+LBSCR-sub-bogie-48ft
+LBSCR eight compartment bogie carriage
+LBSCR-sub-bogie-48ft-brake-front
+LBSCR six compartment bogie brake carriage
+LBSCR-sub-bogie-48ft-brake-rear
+LBSCR six compartment bogie brake carriage (rear)
+LBSCR-sub-bogie-54ft
+LBSCR nine compartment bogie carriage
+LBSCR-sub-bogie-54ft-brake-front
+LBSCR seven compartment bogie brake carriage
+LBSCR-sub-bogie-54ft-brake-rear
+LBSCR seven compartment bogie brake carriage (rear)
 LMR-Planet-Goods
 LMR "Planet" Goods 2-2-0
 LMR-Bird
@@ -3493,9 +3499,9 @@ LNWR eight compartment bogie carriage (50ft)
 LNWR-50ft-non-cor-arc-brake-rear
 LNWR six compartment bogie brake carriage (rear) (50ft)
 LNWR-50ft-non-cor-eliptical-brake-front
-LNWR six compartment brake carriage (50ft)
+LNWR four compartment brake carriage (50ft)
 LNWR-50ft-non-cor-eliptical-brake-rear
-LNWR six compartment brake carriage (rear)
+LNWR four compartment brake carriage (rear)
 LNWR-50ft-non-cor-eliptical
 LNWR eight compartment carriage
 LNWR-57ft-non-cor-lav-brake-front
