@@ -3,8 +3,9 @@ name=BR-4MT-2-6-0
 engine_type=steam
 smoke=Steam
 speed=115
-#gear=300
-power=1150
+# Extrapolated
+power=276
+# http://en.wikipedia.org/wiki/BR_Standard_Class_4_2-6-0
 tractive_effort=108
 copyright=Kieron/JamesPetts
 intro_year=1952

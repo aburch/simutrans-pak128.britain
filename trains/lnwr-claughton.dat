@@ -1,11 +1,13 @@
-
 obj=vehicle
 name=LNWR-Claughton
 engine_type=steam
 smoke=Steam
-speed=135
+speed=145
+# Extrapolated. However see: http://www.steamindex.com/locotype/lnwr3.htm#claughton
+# That suggests that the drawbar horsepower of these locomotives was closer to 920,
+# equivalent to 686kW.
+power=402
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Claughton_Class
-power=1630
 tractive_effort=120
 copyright=James/jamespetts
 intro_year=1913
@@ -52,7 +54,7 @@ EmptyImage[NE][1]=./images/lnwr-claughton-lms_NE.0
 
 obj=vehicle
 name=LNWR-Claughton-tender
-speed=135
+speed=145
 power=0
 copyright=James/jamespetts
 intro_year=1913

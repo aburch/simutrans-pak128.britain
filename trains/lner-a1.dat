@@ -3,8 +3,8 @@ name=LNER-A1
 engine_type=steam
 smoke=Steam
 speed=155
-#gear=320
-power=1920
+# Extrapolated
+power=669
 tractive_effort=133
 copyright=Kieron
 intro_year=1922
@@ -18,6 +18,8 @@ length=8
 
 weight=92
 cost=11276400
+# See here: http://www.lner.info/locos/A/a1a3a10.shtml for
+# information on coal consumption
 runningcost=2408
 sound=-1
 increase_maintenance_after_years=25

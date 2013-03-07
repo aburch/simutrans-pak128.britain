@@ -2,9 +2,10 @@ obj=vehicle
 name=LNWR-Jubilee
 engine_type=steam
 smoke=Steam
-speed=125
+speed=135
+# Extrapolated. Compensated for compounding by assuming TE of 95.
+power=219
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Jubilee_Class
-power=883
 tractive_effort=130
 copyright=James/jamespetts
 intro_year=1897

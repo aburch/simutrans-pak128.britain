@@ -3,7 +3,9 @@ name=LMS-0-4-4T
 engine_type=steam
 smoke=Steam
 speed=100
-power=485
+# Extrapolated
+power=118
+# http://en.wikipedia.org/wiki/LMS_Stanier_Class_2_0-4-4T
 tractive_effort=76
 copyright=James/jamespetts
 intro_year=1932

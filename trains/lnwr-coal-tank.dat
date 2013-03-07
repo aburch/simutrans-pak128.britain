@@ -2,9 +2,10 @@ obj=vehicle
 name=LNWR-coal-tank
 engine_type=steam
 smoke=Steam
-speed=70
+speed=82
+# Extrapolated
+power=110
 # http://en.wikipedia.org/wiki/LNWR_Webb_Coal_Tank
-power=360
 tractive_effort=74
 copyright=Kieron/JamesPetts
 intro_year=1881

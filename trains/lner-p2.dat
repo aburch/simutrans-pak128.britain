@@ -2,9 +2,13 @@ obj=vehicle
 name=LNER-P2
 engine_type=steam
 smoke=Steam
-speed=150
-#gear=300
-power=3000
+speed=135
+# See: http://www.steamindex.com/locotype/gresloco.htm
+# 2,090 DBHP recorded.
+# CALIBRATED: See http://www.railperf.org.uk/members/milepost/RPSSteamSeminar%20web.pdf
+# Recorded at 57mph on an upward gradient of 1/178 with a load of 651 tons (presumably
+# 815 tons gross). 540kW for this speed with this load as if on the level, +113kW
+power=653
 tractive_effort=200
 copyright=James
 intro_year=1934
@@ -18,6 +22,7 @@ length=8
 
 weight=107
 cost=15206000
+# These were noted as unreliable: http://www.lner.info/locos/P/p2.shtml
 runningcost=2376
 sound=-1
 increase_maintenance_after_years=13
@@ -60,7 +65,7 @@ EmptyImage[NE][2]=./images/lner-p2-br.1.3
 
 obj=vehicle
 name=LNER-P2-Tender
-speed=160
+speed=135
 power=0
 copyright=James
 intro_year=1934

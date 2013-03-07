@@ -2,8 +2,10 @@ obj=vehicle
 name=LBSCR-E3
 engine_type=steam
 smoke=Steam
-speed=75
-power=465
+speed=90
+# Extrapolated
+power=133
+# http://en.wikipedia.org/wiki/LB%26SCR_E3_class
 tractive_effort=89
 copyright=James/jamespetts
 intro_year=1891

@@ -2,12 +2,12 @@ obj=vehicle
 name=MR-700
 engine_type=steam
 smoke=Steam
-speed=75
+speed=80
+# Extrapolated
+power=152
 # Calculated from data from Ahrons, p. 202
 # Loss factor set at 0.75 
-# Half boiler pressure used to calculate power.
 tractive_effort=53
-power=540
 copyright=Kieron/JamesPetts
 intro_year=1869
 intro_month=4
@@ -27,7 +27,7 @@ sound=-1
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
 
-Constraint[Next][0]=MR-Kirtley156Tender(Maroon)
+Constraint[Next][0]=MR-Kirtley156Tender
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard

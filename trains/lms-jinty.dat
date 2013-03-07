@@ -2,17 +2,18 @@ obj=vehicle
 name=LMS-3F-Jinty
 engine_type=steam
 smoke=Steam
-speed=75
-#gear=190
-power=400
+speed=90
+# Extrapolated
+power=120
+# http://en.wikipedia.org/wiki/LMS_Fowler_Class_3F
 tractive_effort=93
 copyright=Kieron
 intro_year=1924
 intro_month=6
-retire_year=1953
-retire_month=11
 # In reality, these were only built until 1931.
 # However, there are no suitable replacements yet.
+retire_year=1953
+retire_month=11LMS
 waytype=track
 freight=None
 payload=0
@@ -57,9 +58,10 @@ obj=vehicle
 name=LMS-3F-Jinty-Push-Pull
 engine_type=steam
 smoke=Steam
-speed=75
-#gear=190
-power=400
+speed=90
+# Extrapolated
+power=120
+# http://en.wikipedia.org/wiki/LMS_Fowler_Class_3F
 tractive_effort=93
 copyright=Kieron
 intro_year=1924

@@ -2,8 +2,10 @@ obj=vehicle
 name=LMS-2P
 engine_type=steam
 smoke=Steam
-speed=120
-power=910
+speed=125
+# Extrapolated
+power=265
+# http://en.wikipedia.org/wiki/LMS_Class_2P_4-4-0
 tractive_effort=79
 copyright=James
 intro_year=1928
@@ -49,7 +51,7 @@ EmptyImage[NE][1]=./images/mr-483-br.1.7
 
 obj=vehicle
 name=LMS-2P-Tender
-speed=120
+speed=125
 power=0
 copyright=James
 intro_year=1928

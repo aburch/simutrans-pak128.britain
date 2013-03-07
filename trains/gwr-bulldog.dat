@@ -1,14 +1,16 @@
 obj=vehicle
-name=GWR-Bulldog(Green)
+name=GWR-Bulldog
 engine_type=steam
 smoke=Steam
-speed=125
-#gear=350
-power=995
-tractive_effort=93
+speed=135
+# Extrapolated. Based on non-rebuilt version (superheating was added in 1910)
+power=179
+# Calculated using figures from: http://orion.math.iastate.edu/jdhsmith/term/slgbgw.htm
+# Loss factor set to 0.8. See also: http://www.gwr.org.uk/no440s.html
+tractive_effort=90
 copyright=James
-intro_year=1899
-intro_month=3
+intro_year=1898
+intro_month=10
 retire_year=1906
 retire_month=8
 waytype=track
@@ -16,21 +18,22 @@ freight=None
 payload=0
 length=6
 
-weight=51
+# http://en.wikipedia.org/wiki/GWR_3300_Class
+weight=53
 cost=9273600
 runningcost=1122
 sound=-1
 increase_maintenance_after_years=36
 years_before_maintenance_max_reached=20
 
-Constraint[Next][0]=GWR-Bulldog-Tender(Green)
+Constraint[Next][0]=GWR-Bulldog-Tender
 
-EmptyImage[E]=./images/gwr-bulldog.0.0
-EmptyImage[SE]=./images/gwr-bulldog.0.1
-EmptyImage[S]=./images/gwr-bulldog.0.2
-EmptyImage[SW]=./images/gwr-bulldog.0.3
-EmptyImage[W]=./images/gwr-bulldog.0.4
-EmptyImage[NW]=./images/gwr-bulldog.0.5
-EmptyImage[N]=./images/gwr-bulldog.0.6
-EmptyImage[NE]=./images/gwr-bulldog.0.7
+EmptyImage[E]=./images/gwr-bulldog.1.4
+EmptyImage[SE]=./images/gwr-bulldog.1.5
+EmptyImage[S]=./images/gwr-bulldog.1.6
+EmptyImage[SW]=./images/gwr-bulldog.1.7
+EmptyImage[W]=./images/gwr-bulldog.1.0
+EmptyImage[NW]=./images/gwr-bulldog.1.1
+EmptyImage[N]=./images/gwr-bulldog.1.2
+EmptyImage[NE]=./images/gwr-bulldog.1.3
 

@@ -2,11 +2,12 @@ obj=vehicle
 name=BR-9F
 engine_type=steam
 smoke=Steam
-speed=125
+speed=105
 # See http://www.traintesting.com/bulletin_13.htm for information on power.
 # The gradients are too steep for an easy comparison but the summary suggests
 # 1,500Hp, or approx. 1/2 the power of the BR 7MT, so the below figure is a good estimate.
-power=565
+# Extrapolated
+power=501
 tractive_effort=176
 copyright=Kieron
 intro_year=1954

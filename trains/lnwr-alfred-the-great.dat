@@ -4,9 +4,10 @@ obj=vehicle
 name=LNWR-Alfred-the-Great
 engine_type=steam
 smoke=Steam
-speed=120
+speed=140
+# Extrapolated
+power=235
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Alfred_the_Great_Class
-power=875
 tractive_effort=136
 copyright=James/jamespetts
 intro_year=1901

@@ -1,0 +1,53 @@
+obj=vehicle
+name=MR-27
+engine_type=steam
+smoke=Steam
+speed=120
+# Extrapolated
+power=168
+# Calculated from data from Ahrons, p. 145
+# Loss factor set at 0.75, at 140lbs boiler pressure. 
+tractive_effort=36
+copyright=James/jamespetts
+intro_year=1864
+intro_month=2
+# Actual retire year 1866, but advanced as no other contemporary singles.
+retire_year=1869
+retire_month=3
+waytype=track
+freight=None
+payload=0
+length=5
+brake_force=0
+rolling_resistance=19
+
+# Weight not available in Ahrons - guessed from contemporaneous types - see Ahrons p. 145 (table)
+weight=33
+cost=6972000
+runningcost=1477
+sound=-1
+increase_maintenance_after_years=40
+years_before_maintenance_max_reached=40
+
+Constraint[Next][0]=MR-Kirtley156Tender
+
+liverytype[0]=MR-Early
+liverytype[1]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-27-class-green.1.4
+EmptyImage[SE][0]=./images/mr-27-class-green.1.5
+EmptyImage[S][0]=./images/mr-27-class-green.1.6
+EmptyImage[SW][0]=./images/mr-27-class-green.1.7
+EmptyImage[W][0]=./images/mr-27-class-green.1.0
+EmptyImage[NW][0]=./images/mr-27-class-green.1.1
+EmptyImage[N][0]=./images/mr-27-class-green.1.2
+EmptyImage[NE][0]=./images/mr-27-class-green.1.3
+
+EmptyImage[E][1]=./images/mr-1.1.4
+EmptyImage[SE][1]=./images/mr-1.1.5
+EmptyImage[S][1]=./images/mr-1.1.6
+EmptyImage[SW][1]=./images/mr-1.1.7
+EmptyImage[W][1]=./images/mr-1.1.0
+EmptyImage[NW][1]=./images/mr-1.1.1
+EmptyImage[N][1]=./images/mr-1.1.2
+EmptyImage[NE][1]=./images/mr-1.1.3

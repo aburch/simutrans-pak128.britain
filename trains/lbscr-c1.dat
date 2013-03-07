@@ -3,12 +3,12 @@ name=LBSCR-C1
 engine_type=steam
 smoke=Steam
 speed=75
+# Extrapolated valueis 163kW - but reduced on account of
+# these being recorded as poor steamers.
+power=157
 # Tractive effort taken from:
 # http://en.wikipedia.org/wiki/LB%26SCR_C1_class
-# Power calculated from data from: http://www.semgonline.com/steam/c1class_01.html 
-# (But reduced somewhat, as it is noted that these did not steam well: see the 
-# first link)
-power=642
+# See also: http://www.semgonline.com/steam/c1class_01.html 
 tractive_effort=82
 copyright=Kieron/JamesPetts
 intro_year=1882

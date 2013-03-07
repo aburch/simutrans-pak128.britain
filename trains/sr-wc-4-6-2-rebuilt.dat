@@ -3,12 +3,14 @@ name=SR-WestCountryRebuilt_4-6-2
 engine_type=steam
 smoke=Steam
 speed=155
-#gear=400
-power=1757
+# Extrapolated
+power=471
 tractive_effort=123
 copyright=Kieron/JamesPetts
+# http://www.semgonline.com/steam/blp_dat.html
+# Wikipedia claims 1955
 intro_year=1957
-intro_month=2
+intro_month=7
 retire_year=1960
 retire_month=12
 waytype=track

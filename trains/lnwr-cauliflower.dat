@@ -2,11 +2,11 @@ obj=vehicle
 name=LNWR-Cauliflower
 engine_type=steam
 smoke=Steam
-speed=95
+speed=100
+# Extrapolated
+power=127
 # Calculated from data from Ahrons, p. 222
 # Loss factor set at 0.8
-# Half boiler pressure used to calculate power.	
-power=831
 tractive_effort=64
 copyright=James/jamespetts
 intro_year=1880
@@ -62,7 +62,7 @@ EmptyImage[NE][2]=./images/lnwr-18in-goods-engine-br_NE.0
 obj=vehicle
 name=LNWR-Cauliflower-tender
 engine_type=steam
-speed=95
+speed=100
 copyright=James/jamespetts
 intro_year=1873
 intro_month=4

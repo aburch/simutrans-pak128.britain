@@ -1,17 +1,18 @@
 # http://www.festipedia.org.uk/wiki/Palmerston
-
+# http://www.festipedia.org.uk/wiki/England_Engines
 obj=vehicle
 name=George-England
 engine_type=steam
 smoke=Steam
 speed=45
-#gear=200
-power=78
+# CALIBRATED (but adjusted) based on 10mph speed hauling 30 ton trains up a 1:80 gradient: see the Festipedia link above.
+# Calibration gives a power of 8, but this is clearly too low in practice.
+power=14
 # Calculated from values from "Ffestiniog & Welsh Highland Railways - illustrated stock list" (2011 ed.) p. 20
 tractive_effort=17
 copyright=James/jamespetts
 intro_year=1863
-intro_month=7
+intro_month=8
 # Functional rather than historical: for introduction of single Fairlie
 retire_year=1876
 retire_month=12
@@ -83,7 +84,7 @@ speed=45
 power=0
 copyright=James/jamespetts
 intro_year=1863
-intro_month=7
+intro_month=8
 # Functional rather than historical: for introduction of single Fairlie
 retire_year=1876
 retire_month=12

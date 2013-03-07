@@ -5,8 +5,8 @@ name=Garrett-K1-front
 engine_type=steam
 smoke=Steam
 speed=60
-#gear=200
-power=250
+# Extrapolated
+power=80
 # http://en.wikipedia.org/wiki/TGR_K_class
 tractive_effort=72
 copyright=James/jamespetts
@@ -45,7 +45,6 @@ name=Garrett-K1-middle
 engine_type=steam
 smoke=Steam
 speed=60
-#gear=200
 power=0
 tractive_effort=0
 copyright=James/jamespetts
@@ -85,7 +84,6 @@ name=Garrett-K1-rear
 engine_type=steam
 smoke=Steam
 speed=60
-#gear=200
 power=0
 tractive_effort=0
 copyright=James/jamespetts

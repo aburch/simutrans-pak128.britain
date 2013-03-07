@@ -2,9 +2,9 @@ obj=vehicle
 name=LNWR-Precursor-tank
 engine_type=steam
 smoke=Steam
-speed=112
-# http://en.wikipedia.org/wiki/LNWR_precursor-tank_Class
-power=800
+speed=115
+# http://en.wikipedia.org/wiki/LNWR_Precursor_Tank_Class
+power=360
 tractive_effort=68
 copyright=Kieron/JamesPetts
 intro_year=1906
@@ -16,7 +16,7 @@ freight=None
 payload=0
 length=7
 
-# http://en.wikipedia.org/wiki/LNWR_precursor-tank_Class
+# http://en.wikipedia.org/wiki/LNWR_Precursor_Tank_Class
 weight=76
 cost=3755000
 runningcost=850

@@ -3,8 +3,9 @@ name=LMS-Stanier-5MT
 engine_type=steam
 smoke=Steam
 speed=130
-#gear=320
-power=1500
+# Extrapolated
+power=460
+# http://en.wikipedia.org/wiki/LMS_Stanier_Class_5_4-6-0
 tractive_effort=113
 copyright=Kieron
 intro_year=1934

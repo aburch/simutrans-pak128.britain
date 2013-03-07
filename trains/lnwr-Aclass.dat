@@ -1,12 +1,13 @@
 obj=vehicle
-name=LNWR-AClass(Black)
+name=LNWR-AClass
 engine_type=steam
 smoke=Steam
-speed=80
+speed=90
+# Extrapolated
+power=215
 # Tractive effort data unavailalbe: guessed from similar classes:
 # http://en.wikipedia.org/wiki/LNWR_G_Class
-power=1200
-tractive_effort=95
+tractive_effort=106
 copyright=James
 intro_year=1894
 intro_month=10
@@ -27,7 +28,7 @@ years_before_maintenance_max_reached=25
 
 upgrade[0]=LNWR-G1Class
 
-Constraint[Next][0]=LNWR-AClass-Tender(Black)
+Constraint[Next][0]=LNWR-AClass-Tender
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard

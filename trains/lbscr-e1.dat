@@ -2,10 +2,11 @@ obj=vehicle
 name=LBSCR-E1
 engine_type=steam
 smoke=Steam
-speed=70
+speed=80
+# Extrapolated
+power=97
 # Tractive effort taken from:
 # http://en.wikipedia.org/wiki/LB%26SCR_E1_class
-power=335
 tractive_effort=78
 copyright=Kieron/JamesPetts
 intro_year=1874

@@ -1,0 +1,59 @@
+obj=vehicle
+name=MR-2736
+engine_type=steam
+smoke=Steam
+speed=90
+# Estimated - no firebox/heating surface data available.
+power=183
+# Calculated from data http://en.wikipedia.org/wiki/Midland_Railway_Johnson_0-6-0
+# Loss factor set at 0.8 
+tractive_effort=86
+copyright=James/JamesPetts
+intro_year=1903
+intro_month=5
+# Should be 1908, but 3836 class/4F not introduced until 1911
+retire_year=1911
+retire_month=6
+waytype=track
+freight=None
+payload=0
+length=5
+
+# http://en.wikipedia.org/wiki/Midland_Railway_Johnson_0-6-0
+weight=43
+cost=7616000
+runningcost=995
+sound=-1
+
+Constraint[Next][0]=MR-483-Tender
+
+liverytype[0]=MR-Standard
+liverytype[1]=LMS-Standard
+liverytype[2]=BR-Early
+
+EmptyImage[E][0]=./images/mr-2736.1.4
+EmptyImage[SE][0]=./images/mr-2736.1.5
+EmptyImage[S][0]=./images/mr-2736.1.6
+EmptyImage[SW][0]=./images/mr-2736.1.7
+EmptyImage[W][0]=./images/mr-2736.1.0
+EmptyImage[NW][0]=./images/mr-2736.1.1
+EmptyImage[N][0]=./images/mr-2736.1.2
+EmptyImage[NE][0]=./images/mr-2736.1.3
+
+EmptyImage[E][1]=./images/mr-2736-lms.1.4
+EmptyImage[SE][1]=./images/mr-2736-lms.1.5
+EmptyImage[S][1]=./images/mr-2736-lms.1.6
+EmptyImage[SW][1]=./images/mr-2736-lms.1.7
+EmptyImage[W][1]=./images/mr-2736-lms.1.0
+EmptyImage[NW][1]=./images/mr-2736-lms.1.1
+EmptyImage[N][1]=./images/mr-2736-lms.1.2
+EmptyImage[NE][1]=./images/mr-2736-lms.1.3
+
+EmptyImage[E][2]=./images/mr-2736-br.1.0
+EmptyImage[SE][2]=./images/mr-2736-br.1.1
+EmptyImage[S][2]=./images/mr-2736-br.1.2
+EmptyImage[SW][2]=./images/mr-2736-br.1.3
+EmptyImage[W][2]=./images/mr-2736-br.1.4
+EmptyImage[NW][2]=./images/mr-2736-br.1.5
+EmptyImage[N][2]=./images/mr-2736-br.1.6
+EmptyImage[NE][2]=./images/mr-2736-br.1.7

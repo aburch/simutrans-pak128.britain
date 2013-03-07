@@ -3,8 +3,9 @@ name=LMS-Ivatt-4F
 engine_type=steam
 smoke=Steam
 speed=115
-#gear=300
-power=1150
+# Extrapolated
+power=279
+# http://en.wikipedia.org/wiki/LMS_Ivatt_Class_4
 tractive_effort=108
 copyright=Kieron/JamesPetts
 intro_year=1947

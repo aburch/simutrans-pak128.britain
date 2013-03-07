@@ -1,6 +1,6 @@
 obj=vehicle
-name=GWR-2800-Tender(Green)
-speed=90
+name=GWR-2800-Tender
+speed=92
 power=0
 copyright=James
 intro_year=1903
@@ -19,7 +19,7 @@ sound=-1
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=13
 
-Constraint[Prev][0]=GWR-2800(Green)
+Constraint[Prev][0]=GWR-2800
 
 EmptyImage[E]=./images/gwr-2800.1.0
 EmptyImage[SE]=./images/gwr-2800.1.1

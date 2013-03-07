@@ -10,12 +10,12 @@
 
 obj=vehicle
 name=4-wheel-sub-1870s-unfitted
-speed=135
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1870
 intro_month=1
-retire_year=1876
-retire_month=3
+retire_year=1878
+retire_month=2
 waytype=track
 freight=Passagiere
 payload=50
@@ -91,7 +91,6 @@ Constraint[Prev][20]=LMR-4Wheel-Mail
 Constraint[Prev][21]=LMR-4Wheel-Parliamentary
 Constraint[Prev][22]=4-wheel-1860s-full-brake
 
-
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban.1.5
 EmptyImage[S][0]=./images/lnwr-4wheel-suburban.1.6
@@ -123,12 +122,12 @@ EmptyImage[NE][2]=./images/mr-4wheel-suburban.1.3
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-front-unfitted
-speed=135
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1870
 intro_month=1
-retire_year=1876
-retire_month=3
+retire_year=1878
+retire_month=2
 waytype=track
 freight=Passagiere
 payload=30
@@ -174,7 +173,6 @@ Constraint[Next][19]=LMR-4Wheel-TPO
 Constraint[Next][20]=LMR-4Wheel-Mail
 Constraint[Next][21]=LMR-4Wheel-Parliamentary
 Constraint[Next][22]=4-wheel-1860s-full-brake
-Constraint[Next][23]=none
 
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
@@ -212,12 +210,12 @@ EmptyImage[NE][2]=./images/mr-4wheel-suburban-brake-front.1.3
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-rear-unfitted
-speed=135
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1870
 intro_month=1
-retire_year=1876
-retire_month=3
+retire_year=1878
+retire_month=2
 waytype=track
 freight=Passagiere
 payload=30
@@ -303,7 +301,7 @@ EmptyImage[NE][2]=./images/mr-4wheel-suburban-brake-rear.1.3
 
 obj=vehicle
 name=4-wheel-sub-1870s-fitted
-speed=135
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1876
 intro_month=3
@@ -428,7 +426,7 @@ EmptyImage[NE][2]=./images/mr-4wheel-suburban.1.3
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-front-fitted
-speed=135
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1876
 intro_month=3
@@ -525,7 +523,7 @@ EmptyImage[NE][2]=./images/mr-4wheel-suburban-brake-front.1.3
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-rear-fitted
-speed=135
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1876
 intro_month=3

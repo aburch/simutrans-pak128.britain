@@ -150,6 +150,8 @@ BAC_111_200(BUA)
 BAC One-eleven 200 Series
 BAC_111_500(Caledonian)
 BAC One-eleven 500 Series
+Boeing_707_420(BOAC)
+Boeing 707 420 series
 Boeing_727_200(BritishAirWays)
 Boeing 727 200 series
 Boeing_727_200Adv(DHL)Post
@@ -1718,9 +1720,9 @@ LMS-3F-Jinty-Push-Pull
 LMS Class 3F "Jinty" 0-6-0T (push-pull)
 GWR-PannierTank
 GWR Pannier Tank 57xx 0-6-0T
-MR-Kirtley156(Maroon)
+MR-Kirtley156
 Midland 156 Class 2-4-0
-MR-Kirtley156Tender(Maroon)
+MR-Kirtley156Tender
 Midland 156 Class (tender)
 LMS-Stanier-5MT
 LMS Class 5MT "Black Five" 4-6-0
@@ -1741,18 +1743,22 @@ LMS Class 8F 2-8-0
 LMS-Stanier-8F-Tender
 LMS Class 8F (tender)
 GWR-Churchward-Star
-GWR "Star" Class 4-6-0
+GWR 4000 "Star" Class 4-6-0
+GWR-Churchward-Star-superheated
+GWR 4000 "Star" Class 4-6-0 (superheated)
 GWR-Churchward-Star-Tender
-GWR "Star" Class (tender)
+GWR 4000 "Star" Class (tender)
 GNR-C1
 GNR Class C1 4-4-2
 GNR-C1-Tender
-GNR Class C1 (tender)
+GNR Express tender
+GNR-Klondyke
+GNR Class C2 "Klondyke" 4-4-2
 GNR-Stirling8Foot
-GNR Stirling Single 4-2-2
+GNR G Class "Stirling 8ft Single" 4-2-2
 GNR-Stirling8Foot-Tender
 GNR Stirling Single (tender)
-BR-4MT-Tank(Black)
+BR-4MT-Tank
 BR Standard Class 4MT 2-6-4T
 BR-9F
 BR Standard Class 9F 2-10-0
@@ -1772,7 +1778,7 @@ SR-WestCountry_4-6-2
 SR West Country Class 4-6-2
 SR-WestCountryRebuilt_4-6-2
 SR Rebuilt West Country Class 4-6-2
-SR-CC(Green)
+SR-CC
 SR Bulleid/Raworth CC
 LNER-A1
 LNER Class A1 4-6-2
@@ -1792,11 +1798,11 @@ LNER-A4
 LNER Class A4 4-6-2
 LNER-A4-Tender
 LNER Class A4 (tender)
-BR-Class20(Green)
+BR-Class20
 BR Class 20
 BR-Class24
 BR Class 24
-BR-Class30(Green)
+BR-Class30
 BR Class 30
 BR-Class31-1(Blue)
 BR Class 31/1
@@ -1961,9 +1967,31 @@ LBSCR four wheel mail carriage (20ft)
 LBSCR-20ft-full-brake
 LBSCR four wheel mail/brake carriage (20ft)
 LBSCR-4Wheel-First
-LBSCR four wheel compartment carriage
-LBSCR-4Wheel-Brake
-LBSCR four wheel compartment brake carriage
+LBSCR four wheel four compartment carriage
+LBSCR-4Wheel-Second
+LBSCR four wheel five compartment carriage
+LBSCR-4Wheel-Brake-rear
+LBSCR four wheel three compartment brake carriage (rear)
+LBSCR-4Wheel-Brake-front
+LBSCR four wheel three compartment brake carriage
+LBSCR-4Wheel-full-brake
+LBSCR four wheel mail/brake carriage
+LBSCR-4Wheel-First-fitted
+LBSCR four wheel four compartment carriage (continuously braked)
+LBSCR-4Wheel-Second-fitted
+LBSCR four wheel five compartment carriage (continuously braked)
+LBSCR-4Wheel-Brake-rear-fitted
+LBSCR four wheel three compartment brake carriage (rear) (continuously braked)
+LBSCR-4Wheel-Brake-front-fitted
+LBSCR four wheel three compartment brake carriage (continuously braked)
+LBSCR-4Wheel-full-brake-fitted
+LBSCR four wheel mail/brake carriage (continuously braked)
+LBSCR-6Wheel-5-com
+LBSCR six wheel five compartment carriage
+LBSCR-6Wheel-mail
+LBSCR six wheel mail carriage
+LBSCR-6Wheel-guard
+LBSCR six wheel mail/brake carriage
 BR-370Restaurant(IC)
 BR Class 370 APT (restaurant)
 BR-220Rear(Virgin)
@@ -2672,11 +2700,11 @@ MR-non-cor-brake-front
 Midland five compartment brake carriage
 MR-non-cor-brake-rear
 Midland five compartment brake carriage (rear)
-LMS-Garratt-Middle(Black)
+LMS-Garratt-Middle
 LMS Garratt 2-6-0+0-6-2 (boiler)
-LMS-Garratt-Front(Black)
+LMS-Garratt-Front
 LMS Garratt 2-6-0+0-6-2
-LMS-Garratt-Rear(Black)
+LMS-Garratt-Rear
 LMS Garratt 2-6-0+0-6-2 (back)
 LMS-0-4-4T
 LMS 2P Class 0-4-4T (push-pull)
@@ -2688,13 +2716,13 @@ LMS-Stanier-Mogul
 LMS 4P5F Class "Stanier Mogul" 2-6-0
 LMS-Stanier-Mogul-Tender
 LMS 4P5F Class "Stanier Mogul" (tender)
-GWR-2800(Green)
+GWR-2800
 GWR 2800 Class 2-8-0
-GWR-2800-Tender(Green)
+GWR-2800-Tender
 GWR 2800 Class (tender)
-SR-Q1(Black)
+SR-Q1
 SR Q1 Class 0-6-0
-SR-Q1-Tender(Black)
+SR-Q1-Tender
 SR Q1 Class (tender)
 LMS-4F
 Midland 3835 Class / LMS Class 4F 0-6-0
@@ -2704,9 +2732,9 @@ LMS-Ivatt-4F
 LMS Class 4F (Ivatt design) 2-6-0
 LMS-Ivatt-4F-Tender
 LMS Class 4F (Ivatt design) (tender)
-GWR-Prairie-Tank(Green)
+GWR-Prairie-Tank
 GWR 3150 Class "Large Prairie" 2-6-2T
-GWR-Prairie-Tank-Modified(Green)
+GWR-Prairie-Tank-Modified
 GWR 3100 Class "Large Prairie" 2-6-2T
 MR-1000
 Midland 1000 Class 4-4-0 (compound)
@@ -2741,13 +2769,13 @@ LSWR corridor carriage (brake)
 LSWR-corridor-brake-rear
 LSWR corridor carriage (brake)
 LBSCR-balloon-full-brake
-LBSCR "Balloon" carriage (full brake)
+LBSCR "Balloon" mail/brake carriage
 LBSCR-balloon-brake-front
-LBSCR non-corridor lavatory "Balloon" carriage (brake)
+LBSCR "Balloon" four compartment lavatory brake carriage
 LBSCR-balloon-brake-rear
-LBSCR non-corridor lavatory "Balloon" carriage (brake)
+LBSCR "Balloon" four compartment lavatory brake carriage (rear)
 LBSCR-balloon
-LBSCR non-corridor lavatory "Balloon" carriage
+LBSCR "Balloon" eight compartment lavatory carriage
 SR-Schools
 SR V Class "Schools" 4-4-0
 SR-Schools-Tender
@@ -2766,15 +2794,15 @@ LMS-Stanier-7P-Tender
 LMS Class 7P "Princess Coronation" (tender)
 LMS-Stanier-7P-non-streamlined
 LMS Class 7P "Princess Coronation" 4-6-2 (non-streamlined)
-NER-ClassES1(Green)
+NER-ClassES1
 NER Class ES1 Bo-Bo
-NER-ClassEF1(Green)
+NER-ClassEF1
 NER Class EF1 Bo-Bo
-NER-ClassEE1(Green)
+NER-ClassEE1
 NER Class EE1 2-Co-2
-LNER-ClassEM1(Black)
+LNER-ClassEM1
 LNER Class EM1 Bo-Bo
-LNER-ClassEM2(Green)
+LNER-ClassEM2
 LNER/BR Class EM2 Co-Co
 BR-395Front(SE)
 BR Class 395 "Javelin"
@@ -2810,9 +2838,9 @@ JennyLind
 LBSCR "Jenny Lind" 2-2-2
 JennyLind-Tender
 LBSCR "Jenny Lind" (tender)
-LYR-Class25(Black)
+LYR-Class25
 LYR Class 25 0-6-0
-LYR-Class25-Tender(Black)
+LYR-Class25-Tender
 LYR Class 25 (tender)
 GWR-517Tank
 GWR 517 Class 0-4-2T
@@ -2824,21 +2852,21 @@ WD-Austerity-2-8-0
 WD "Austerity" 2-8-0
 WD-Austerity-2-8-0-Tender
 WD "Austerity" (tender)
-LNER-J94(Black)
+LNER-J94
 WD/LNER Class J94 0-6-0ST
-LNWR-AClass(Black)
+LNWR-AClass
 LNWR A Class 0-8-0
-LNWR-AClass-Tender(Black)
+LNWR-AClass-Tender
 LNWR A Class (tender)
 LNWR-Bloomer
 LNWR "Bloomer" Class 2-2-2
 LNWR-Bloomer-Tender
 LNWR 15t tender
 LNWR-Problem
-LNWR "Problem" Class 2-2-2
+LNWR "Lady of the Lake" Class 2-2-2
 LNWR-Problem-Tender
-LNWR "Problem" Class (tender)
-LSWR-M7(Olive)
+LNWR "Lady of the Lake" Class (tender)
+LSWR-M7
 LSWR M7 Class 0-4-4T
 HR-Jones-Goods
 HR Jones Goods 4-6-0
@@ -2860,12 +2888,16 @@ LBSCR-E4
 LBSCR Class E4 0-6-2T
 LBSCR-E5
 LBSCR Class E5 0-6-2T
+LBSCR-H1
+LBSCR Class H1 "Brighton Atlantic" 4-4-2
+LBSCR-H1-Tender
+LBSCR Class H1 tender
 LBSCR-non-cor-lav
-LBSCR non-corridor lavatory coach
+LBSCR six compartment lavatory carriage
 LBSCR-non-cor-lav-brake-rear
-LBSCR non-corridor lavatory coach (brake)
+LBSCR four compartment lavatory brake carriage
 LBSCR-non-cor-lav-brake-front
-LBSCR non-corridor lavatory coach (brake)
+LBSCR four compartment lavatory brake carriage (rear)
 LNWR-Jumbo
 LNWR "Jumbo" Class 2-4-0
 LNWR-Jumbo-Tender
@@ -2878,10 +2910,12 @@ GER-Claud-Hamilton
 GER Class S46 "Claud Hamilton" 4-4-0
 GER-Claud-Hamilton-Tender
 GER Class S46 "Claud Hamilton" (tender)
-GWR-Bulldog(Green)
-GWR "Bulldog" Class 4-4-0
-GWR-Bulldog-Tender(Green)
-GWR "Bulldog" Class (tender)
+GWR-Bulldog
+GWR 3300 "Bulldog" Class 4-4-0
+GWR-Bulldog-Tender
+GWR Express tender
+GWR-City
+GWR 3700 "City" Class 4-4-0
 LNWR-PrinceOfWales
 LNWR "Prince of Wales" Class 4-6-0
 LNWR-PrinceOfWales-Tender
@@ -2890,10 +2924,10 @@ MR-2441
 Midland 2441 Class 0-6-0
 MR-1632
 Midland 1632 Class 0-6-0 (for push-pull)
-MR-Spinner(Maroon)
+MR-Spinner
 Midland 115 Class "Spinner" 4-2-2
-MR-Spinner-Tender(Maroon)
-Midland 673 Class "Spinner" (tender)
+MR-Spinner-Tender
+Midland 115 Class "Spinner" (tender)
 LMS-royal-scot
 LMS Class 6P "Royal Scot" 4-6-0
 LMS-royal-scot-tender
@@ -3069,9 +3103,9 @@ BR Mk. 3a Restaurant Buffet
 BR-Mk4-RSB
 BR Mk. 4 Restaurant Buffet
 LSWR-Third-Brake
-LSWR Bogie Compartment Brake
+LSWR four compartment brake carriage
 LSWR-Third-Carriage
-LSWR Bogie Compartment Carriage
+LSWR seven compartment carriage
 4-wheel-1850s-mail
 Four wheel mail carriage
 4-wheel-1850s-tpo
@@ -3166,7 +3200,7 @@ L&YR-EMU-driving-motor
 L&YR EMU driving motor
 L&YR-EMU-driving-trailer
 L&YR EMU driving trailer
-SR-1-Co-Co-1(Black)
+SR-1-Co-Co-1
 Bulleid 1-Co-Co-1
 GWR-Castle
 GWR 4073 "Castle" Class 4-6-0
@@ -3194,9 +3228,9 @@ BR-304Centre-Motor(BR-Blue)
 BR Class 304 EMU (centre motor)
 BR-304Rear(BR-Blue)
 BR Class 304 EMU (driving trailer)
-BR-2MT-Tank(Black)
+BR-2MT-Tank
 BR Standard Class 2MT 2-6-2T
-BR-2MT-Tank(Black)-Push-Pull
+BR-2MT-Tank-Push-Pull
 BR Standard Class 2MT 2-6-2T (push pull)
 BR-Class57(FGW)
 BR Class 57
@@ -3294,12 +3328,18 @@ SR-augmentation-trailer(front)
 SR EMU augmentation trailer
 SR-augmentation-trailer(rear)
 SR EMU augmentation trailer
-LBSCR-bogie-sub
-LBSCR Bogie Compartment Carriage
-LBSCR-bogie-sub-brake-front
-LBSCR Bogie Compartment Brake
-LBSCR-bogie-sub-brake-rear
-LBSCR Bogie Compartment Brake
+LBSCR-sub-bogie-48ft
+LBSCR eight compartment bogie carriage
+LBSCR-sub-bogie-48ft-brake-front
+LBSCR six compartment bogie brake carriage
+LBSCR-sub-bogie-48ft-brake-rear
+LBSCR six compartment bogie brake carriage (rear)
+LBSCR-sub-bogie-54ft
+LBSCR nine compartment bogie carriage
+LBSCR-sub-bogie-54ft-brake-front
+LBSCR seven compartment bogie brake carriage
+LBSCR-sub-bogie-54ft-brake-rear
+LBSCR seven compartment bogie brake carriage (rear)
 LMR-Planet-Goods
 LMR "Planet" Goods 2-2-0
 LMR-Bird
@@ -3362,6 +3402,8 @@ MR-1
 Midland 1 Class 2-2-0
 MR-1-tender
 Midland 1 Class tender
+MR-27
+Midland 27 Class 2-2-2
 LNWR-Precendent
 LNWR "Precedent" Class 2-4-0
 LNWR-Newton
@@ -3393,7 +3435,11 @@ LNWR "Alfred the Great" 4-4-0 (compound)
 LNWR-PrinceOfWales-tank
 LNWR "Prince of Wales" 4-6-2T
 MR-483-Tender
-Midland 483 Class Tender
+Midland tender
+MR-1873
+Midland 1873 "Neilson Goods" Class 0-6-0
+MR-2736
+Midland 2736 Class 0-6-0
 LMS-4P-Tender
 LMS 4P Tender
 LMS-2P-Tender
@@ -3453,9 +3499,9 @@ LNWR eight compartment bogie carriage (50ft)
 LNWR-50ft-non-cor-arc-brake-rear
 LNWR six compartment bogie brake carriage (rear) (50ft)
 LNWR-50ft-non-cor-eliptical-brake-front
-LNWR six compartment brake carriage (50ft)
+LNWR four compartment brake carriage (50ft)
 LNWR-50ft-non-cor-eliptical-brake-rear
-LNWR six compartment brake carriage (rear)
+LNWR four compartment brake carriage (rear)
 LNWR-50ft-non-cor-eliptical
 LNWR eight compartment carriage
 LNWR-57ft-non-cor-lav-brake-front

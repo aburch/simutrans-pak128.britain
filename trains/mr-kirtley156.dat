@@ -1,12 +1,12 @@
 obj=vehicle
-name=MR-Kirtley156(Maroon)
+name=MR-Kirtley156
 engine_type=steam
 smoke=Steam
 speed=115
+# Extrapolated
+power=139
 # Calculated from data from Ahrons, p. 170
 # Loss factor set at 0.75
-# Half boiler pressure used to calculate power.
-power=600
 tractive_effort=38
 copyright=Kieron
 intro_year=1866
@@ -27,7 +27,7 @@ sound=-1
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
 
-Constraint[Next][0]=MR-Kirtley156Tender(Maroon)
+Constraint[Next][0]=MR-Kirtley156Tender
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard

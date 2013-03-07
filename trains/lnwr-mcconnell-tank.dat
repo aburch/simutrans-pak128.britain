@@ -2,11 +2,11 @@ obj=vehicle
 name=LNWR-McConnell-tank
 engine_type=steam
 smoke=Steam
-speed=70
+speed=80
+# Approximately extrapolated. Heating surface area and fire grate area estimated.
+power=84
 # Calculated from data from Ahrons, p. 151
-# Loss factor set at 0.7, assumed 100lbs boiler pressure. 
-# Half boiler pressure used to calculate power.
-power=268
+# Loss factor set at 0.72, assumed 120lbs boiler pressure. 
 tractive_effort=29
 copyright=James/jamespetts
 intro_year=1862

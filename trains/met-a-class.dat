@@ -3,8 +3,9 @@ obj=vehicle
 name=Metropolitan-A-Class
 engine_type=steam
 smoke=Steam
-speed=87
-power=385
+speed=90
+# Extrapolated: see data here: http://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm
+power=129
 # Tractive effort calculated using figures from Ahrons, p. 155. Loss factor: 0.7
 tractive_effort=42
 copyright=James/jamespetts

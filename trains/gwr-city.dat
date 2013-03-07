@@ -1,0 +1,44 @@
+# Non-superheated version.
+obj=vehicle
+name=GWR-City
+engine_type=steam
+smoke=Steam
+speed=150
+# CALIBRATED
+# Calibrated at 102.3mph on the flat with load of 243t gross: 421.2kW
+# Calibrated at 92mph on the flat with load of 243t gross: 349kW (see http://www.swindonweb.com/index.asp?m=8&s=116&ss=336)
+# This was down a 1:90 bank: http://en.wikipedia.org/wiki/Wellington_Bank,_Somerset
+# So, -121kW for 102.3mph or -108kW for 92mph, giving net figures of
+# 300kW for 102.3mph or 241kW for 92mph
+power=300
+# http://en.wikipedia.org/wiki/GWR_3700_Class
+tractive_effort=79
+copyright=James/jamespetts
+intro_year=1902
+intro_month=6
+retire_year=1909
+retire_month=11
+waytype=track
+freight=None
+payload=0
+length=6
+
+# http://en.wikipedia.org/wiki/GWR_3700_Class
+weight=56
+cost=9273600
+runningcost=1122
+sound=-1
+increase_maintenance_after_years=36
+years_before_maintenance_max_reached=20
+
+Constraint[Next][0]=GWR-Bulldog-Tender
+
+EmptyImage[E]=./images/gwr-city.1.4
+EmptyImage[SE]=./images/gwr-city.1.5
+EmptyImage[S]=./images/gwr-city.1.6
+EmptyImage[SW]=./images/gwr-city.1.7
+EmptyImage[W]=./images/gwr-city.1.0
+EmptyImage[NW]=./images/gwr-city.1.1
+EmptyImage[N]=./images/gwr-city.1.2
+EmptyImage[NE]=./images/gwr-city.1.3
+
