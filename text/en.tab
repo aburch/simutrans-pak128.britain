@@ -115,7 +115,23 @@
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickAqueduct
-Brick Aqueduct
+Brick Barge Aqueduct
+BrickAqueductNarrow
+Brick Narrowboat Aqueduct
+BrickAqueductTub
+Brick Tub Boat Aqueduct
+Masonry AqueductBarge
+Masonry Barge Aqueduct
+MasonryAqueductNarrow
+Masonry Narrowboat Aqueduct
+MasonryAqueductTub
+Masonry Tub Boat Aqueduct
+ConcreteAqueductBarge
+Concrete Barge Aqueduct
+ConcreteAqueductNarrow
+Concrete Narrowboat Aqueduct
+ConcreteAqueductTub
+Concrete Tub Boat Aqueduct
 BrickViaduct
 Brick Railway Viaduct
 BrickViaduct175
@@ -1423,7 +1439,9 @@ Norway spruce
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 CanalTunnel
-Canal tunnel
+Barge Canal tunnel
+CanalTunnelNarrow
+Narrowboat Canal tunnel
 MaglevTunnelConcrete
 Concrete Maglev Tunnel
 MaglevTunnelEco
@@ -4951,6 +4969,16 @@ EndofChooseSignal_narrow
 End of choose signal
 Modern_EndofChooseSignal_narrow
 End of choose signal
+Canal
+Barge Canal
+CanalNarrow
+Narrowboat Canal
+CanalTub
+Tub Boat Canal
+CanalShip
+Ship Canal
+CanalLargeShip
+Large Ship Canal
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 ACHighSpeedCatenary
