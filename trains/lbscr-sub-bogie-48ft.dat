@@ -37,6 +37,13 @@ Constraint[Next][0]=LBSCR-sub-bogie-48ft
 Constraint[Next][1]=LBSCR-sub-bogie-48ft-brake-rear
 Constraint[next][2]=LBSCR-4Wheel-Brake-rear
 
+# NOTE: The "umber" livery for these suburban carriages # is the later (post 1911) 
+# umber livery. The "umber" livery for the long distance carriages is the earlier
+# 1903 livery. See http://www.lbscr.org/livery/index.html#Coaches1903 for 
+# information. See http://www.lbscr.org/models/coaches/DS-photos/48ft-third.jpg
+# for an image of a later umber livery. The liveries are conflated in this way
+# to reduce the number of images necessary to produce. Consider adding full
+# liveries in the future.
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=SR-Olive-Green
