@@ -1,5 +1,5 @@
 obj=vehicle
-name=CalMacLoch
+name=Loch
 copyright=Kieron
 waytype=water
 engine_type=diesel
@@ -10,20 +10,20 @@ gear=1200
 freight=Passagiere
 payload=203
 weight=206
-length=12
+length=15
 cost=80000
 runningcost=20
 intro_year=1986
 intro_month=7
-retire_year=1997
-retire_month=4
+retire_year=2007
+retire_month=6
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/loch.0.0
+EmptyImage[E]=./images/loch.0.0,-16,-8
 EmptyImage[SE]=./images/loch.0.1
-EmptyImage[S]=./images/loch.0.2
+EmptyImage[S]=./images/loch.0.2,16,-8
 EmptyImage[SW]=./images/loch.0.3
 EmptyImage[W]=./images/loch.0.4
 EmptyImage[NW]=./images/loch.0.5
