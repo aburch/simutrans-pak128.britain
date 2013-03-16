@@ -2,7 +2,7 @@ obj=vehicle
 name=GWR-Hawksworth-County
 engine_type=steam
 smoke=Steam
-speed=145
+speed=140
 # Extrapolated
 power=440
 tractive_effort=145
@@ -38,7 +38,7 @@ EmptyImage[NE]=./images/gwr-hawksworth-county.0.7
 
 obj=vehicle
 name=GWR-Hawksworth-County-Tender
-speed=135
+speed=140
 power=0
 copyright=James
 intro_year=1945

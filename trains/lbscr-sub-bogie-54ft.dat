@@ -48,9 +48,10 @@ Constraint[Next][1]=LBSCR-sub-bogie-54ft-brake-rear
 Constraint[next][2]=LBSCR-4Wheel-Brake-rear
 
 liverytype[0]=LBSCR-Marsh
-liverytype[1]=SR-Olive-Green
-liverytype[2]=SR-Malachite-Green
-liverytype[3]=BR-Early
+liverytype[1]=LBSCR-Late
+liverytype[2]=SR-Olive-Green
+liverytype[3]=SR-Malachite-Green
+liverytype[4]=BR-Early
 
 EmptyImage[E][0]=./images/lbscr-sub-bogie-54ft-umber.1.4
 EmptyImage[SE][0]=./images/lbscr-sub-bogie-54ft-umber.1.5
@@ -61,32 +62,41 @@ EmptyImage[NW][0]=./images/lbscr-sub-bogie-54ft-umber.1.1
 EmptyImage[N][0]=./images/lbscr-sub-bogie-54ft-umber.1.2
 EmptyImage[NE][0]=./images/lbscr-sub-bogie-54ft-umber.1.3
 
-EmptyImage[E][1]=./images/lbscr-sub-bogie-54ft-olive.1.4
-EmptyImage[SE][1]=./images/lbscr-sub-bogie-54ft-olive.1.5
-EmptyImage[S][1]=./images/lbscr-sub-bogie-54ft-olive.1.6
-EmptyImage[SW][1]=./images/lbscr-sub-bogie-54ft-olive.1.7
-EmptyImage[W][1]=./images/lbscr-sub-bogie-54ft-olive.1.0
-EmptyImage[NW][1]=./images/lbscr-sub-bogie-54ft-olive.1.1
-EmptyImage[N][1]=./images/lbscr-sub-bogie-54ft-olive.1.2
-EmptyImage[NE][1]=./images/lbscr-sub-bogie-54ft-olive.1.3
+EmptyImage[E][1]=./images/lbscr-sub-bogie-54ft-late.1.4
+EmptyImage[SE][1]=./images/lbscr-sub-bogie-54ft-late.1.5
+EmptyImage[S][1]=./images/lbscr-sub-bogie-54ft-late.1.6
+EmptyImage[SW][1]=./images/lbscr-sub-bogie-54ft-late.1.7
+EmptyImage[W][1]=./images/lbscr-sub-bogie-54ft-late.1.0
+EmptyImage[NW][1]=./images/lbscr-sub-bogie-54ft-late.1.1
+EmptyImage[N][1]=./images/lbscr-sub-bogie-54ft-late.1.2
+EmptyImage[NE][1]=./images/lbscr-sub-bogie-54ft-late.1.3
 
-EmptyImage[E][2]=./images/lbscr-sub-bogie-54ft-malachite.1.4
-EmptyImage[SE][2]=./images/lbscr-sub-bogie-54ft-malachite.1.5
-EmptyImage[S][2]=./images/lbscr-sub-bogie-54ft-malachite.1.6
-EmptyImage[SW][2]=./images/lbscr-sub-bogie-54ft-malachite.1.7
-EmptyImage[W][2]=./images/lbscr-sub-bogie-54ft-malachite.1.0
-EmptyImage[NW][2]=./images/lbscr-sub-bogie-54ft-malachite.1.1
-EmptyImage[N][2]=./images/lbscr-sub-bogie-54ft-malachite.1.2
-EmptyImage[NE][2]=./images/lbscr-sub-bogie-54ft-malachite.1.3
+EmptyImage[E][2]=./images/lbscr-sub-bogie-54ft-olive.1.4
+EmptyImage[SE][2]=./images/lbscr-sub-bogie-54ft-olive.1.5
+EmptyImage[S][2]=./images/lbscr-sub-bogie-54ft-olive.1.6
+EmptyImage[SW][2]=./images/lbscr-sub-bogie-54ft-olive.1.7
+EmptyImage[W][2]=./images/lbscr-sub-bogie-54ft-olive.1.0
+EmptyImage[NW][2]=./images/lbscr-sub-bogie-54ft-olive.1.1
+EmptyImage[N][2]=./images/lbscr-sub-bogie-54ft-olive.1.2
+EmptyImage[NE][2]=./images/lbscr-sub-bogie-54ft-olive.1.3
 
-EmptyImage[E][3]=./images/lbscr-sub-bogie-54ft-br.1.4
-EmptyImage[SE][3]=./images/lbscr-sub-bogie-54ft-br.1.5
-EmptyImage[S][3]=./images/lbscr-sub-bogie-54ft-br.1.6
-EmptyImage[SW][3]=./images/lbscr-sub-bogie-54ft-br.1.7
-EmptyImage[W][3]=./images/lbscr-sub-bogie-54ft-br.1.0
-EmptyImage[NW][3]=./images/lbscr-sub-bogie-54ft-br.1.1
-EmptyImage[N][3]=./images/lbscr-sub-bogie-54ft-br.1.2
-EmptyImage[NE][3]=./images/lbscr-sub-bogie-54ft-br.1.3
+EmptyImage[E][3]=./images/lbscr-sub-bogie-54ft-malachite.1.4
+EmptyImage[SE][3]=./images/lbscr-sub-bogie-54ft-malachite.1.5
+EmptyImage[S][3]=./images/lbscr-sub-bogie-54ft-malachite.1.6
+EmptyImage[SW][3]=./images/lbscr-sub-bogie-54ft-malachite.1.7
+EmptyImage[W][3]=./images/lbscr-sub-bogie-54ft-malachite.1.0
+EmptyImage[NW][3]=./images/lbscr-sub-bogie-54ft-malachite.1.1
+EmptyImage[N][3]=./images/lbscr-sub-bogie-54ft-malachite.1.2
+EmptyImage[NE][3]=./images/lbscr-sub-bogie-54ft-malachite.1.3
+
+EmptyImage[E][4]=./images/lbscr-sub-bogie-54ft-br.1.4
+EmptyImage[SE][4]=./images/lbscr-sub-bogie-54ft-br.1.5
+EmptyImage[S][4]=./images/lbscr-sub-bogie-54ft-br.1.6
+EmptyImage[SW][4]=./images/lbscr-sub-bogie-54ft-br.1.7
+EmptyImage[W][4]=./images/lbscr-sub-bogie-54ft-br.1.0
+EmptyImage[NW][4]=./images/lbscr-sub-bogie-54ft-br.1.1
+EmptyImage[N][4]=./images/lbscr-sub-bogie-54ft-br.1.2
+EmptyImage[NE][4]=./images/lbscr-sub-bogie-54ft-br.1.3
 
 ----
 
@@ -137,9 +147,10 @@ Constraint[next][3]=LBSCR-4Wheel-Brake-rear
 Constraint[Next][4]=none
 
 liverytype[0]=LBSCR-Marsh
-liverytype[1]=SR-Olive-Green
-liverytype[2]=SR-Malachite-Green
-liverytype[3]=BR-Early
+liverytype[1]=LBSCR-Late
+liverytype[2]=SR-Olive-Green
+liverytype[3]=SR-Malachite-Green
+liverytype[4]=BR-Early
 
 EmptyImage[E][0]=./images/lbscr-sub-bogie-54ft-brake-rear-umber.1.4
 EmptyImage[SE][0]=./images/lbscr-sub-bogie-54ft-brake-rear-umber.1.5
@@ -150,32 +161,41 @@ EmptyImage[NW][0]=./images/lbscr-sub-bogie-54ft-brake-rear-umber.1.1
 EmptyImage[N][0]=./images/lbscr-sub-bogie-54ft-brake-rear-umber.1.2
 EmptyImage[NE][0]=./images/lbscr-sub-bogie-54ft-brake-rear-umber.1.3
 
-EmptyImage[E][1]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.4
-EmptyImage[SE][1]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.5
-EmptyImage[S][1]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.6
-EmptyImage[SW][1]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.7
-EmptyImage[W][1]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.0
-EmptyImage[NW][1]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.1
-EmptyImage[N][1]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.2
-EmptyImage[NE][1]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.3
+EmptyImage[E][1]=./images/lbscr-sub-bogie-54ft-brake-rear-late.1.4
+EmptyImage[SE][1]=./images/lbscr-sub-bogie-54ft-brake-rear-late.1.5
+EmptyImage[S][1]=./images/lbscr-sub-bogie-54ft-brake-rear-late.1.6
+EmptyImage[SW][1]=./images/lbscr-sub-bogie-54ft-brake-rear-late.1.7
+EmptyImage[W][1]=./images/lbscr-sub-bogie-54ft-brake-rear-late.1.0
+EmptyImage[NW][1]=./images/lbscr-sub-bogie-54ft-brake-rear-late.1.1
+EmptyImage[N][1]=./images/lbscr-sub-bogie-54ft-brake-rear-late.1.2
+EmptyImage[NE][1]=./images/lbscr-sub-bogie-54ft-brake-rear-late.1.3
 
-EmptyImage[E][2]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.4
-EmptyImage[SE][2]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.5
-EmptyImage[S][2]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.6
-EmptyImage[SW][2]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.7
-EmptyImage[W][2]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.0
-EmptyImage[NW][2]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.1
-EmptyImage[N][2]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.2
-EmptyImage[NE][2]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.3
+EmptyImage[E][2]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.4
+EmptyImage[SE][2]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.5
+EmptyImage[S][2]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.6
+EmptyImage[SW][2]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.7
+EmptyImage[W][2]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.0
+EmptyImage[NW][2]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.1
+EmptyImage[N][2]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.2
+EmptyImage[NE][2]=./images/lbscr-sub-bogie-54ft-brake-rear-olive.1.3
 
-EmptyImage[E][3]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.4
-EmptyImage[SE][3]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.5
-EmptyImage[S][3]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.6
-EmptyImage[SW][3]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.7
-EmptyImage[W][3]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.0
-EmptyImage[NW][3]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.1
-EmptyImage[N][3]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.2
-EmptyImage[NE][3]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.3
+EmptyImage[E][3]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.4
+EmptyImage[SE][3]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.5
+EmptyImage[S][3]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.6
+EmptyImage[SW][3]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.7
+EmptyImage[W][3]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.0
+EmptyImage[NW][3]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.1
+EmptyImage[N][3]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.2
+EmptyImage[NE][3]=./images/lbscr-sub-bogie-54ft-brake-rear-malachite.1.3
+
+EmptyImage[E][4]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.4
+EmptyImage[SE][4]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.5
+EmptyImage[S][4]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.6
+EmptyImage[SW][4]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.7
+EmptyImage[W][4]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.0
+EmptyImage[NW][4]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.1
+EmptyImage[N][4]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.2
+EmptyImage[NE][4]=./images/lbscr-sub-bogie-54ft-brake-rear-br.1.3
 
 ----
 
@@ -221,9 +241,10 @@ Constraint[next][3]=LBSCR-4Wheel-Brake-rear
 Constraint[Next][4]=none
 
 liverytype[0]=LBSCR-Marsh
-liverytype[1]=SR-Olive-Green
-liverytype[2]=SR-Malachite-Green
-liverytype[3]=BR-Early
+liverytype[1]=LBSCR-Late
+liverytype[2]=SR-Olive-Green
+liverytype[3]=SR-Malachite-Green
+liverytype[4]=BR-Early
 
 EmptyImage[E][0]=./images/lbscr-sub-bogie-54ft-brake-front-umber.1.4
 EmptyImage[SE][0]=./images/lbscr-sub-bogie-54ft-brake-front-umber.1.5
@@ -234,29 +255,38 @@ EmptyImage[NW][0]=./images/lbscr-sub-bogie-54ft-brake-front-umber.1.1
 EmptyImage[N][0]=./images/lbscr-sub-bogie-54ft-brake-front-umber.1.2
 EmptyImage[NE][0]=./images/lbscr-sub-bogie-54ft-brake-front-umber.1.3
 
-EmptyImage[E][1]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.4
-EmptyImage[SE][1]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.5
-EmptyImage[S][1]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.6
-EmptyImage[SW][1]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.7
-EmptyImage[W][1]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.0
-EmptyImage[NW][1]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.1
-EmptyImage[N][1]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.2
-EmptyImage[NE][1]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.3
+EmptyImage[E][1]=./images/lbscr-sub-bogie-54ft-brake-front-late.1.4
+EmptyImage[SE][1]=./images/lbscr-sub-bogie-54ft-brake-front-late.1.5
+EmptyImage[S][1]=./images/lbscr-sub-bogie-54ft-brake-front-late.1.6
+EmptyImage[SW][1]=./images/lbscr-sub-bogie-54ft-brake-front-late.1.7
+EmptyImage[W][1]=./images/lbscr-sub-bogie-54ft-brake-front-late.1.0
+EmptyImage[NW][1]=./images/lbscr-sub-bogie-54ft-brake-front-late.1.1
+EmptyImage[N][1]=./images/lbscr-sub-bogie-54ft-brake-front-late.1.2
+EmptyImage[NE][1]=./images/lbscr-sub-bogie-54ft-brake-front-late.1.3
 
-EmptyImage[E][2]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.4
-EmptyImage[SE][2]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.5
-EmptyImage[S][2]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.6
-EmptyImage[SW][2]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.7
-EmptyImage[W][2]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.0
-EmptyImage[NW][2]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.1
-EmptyImage[N][2]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.2
-EmptyImage[NE][2]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.3
+EmptyImage[E][2]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.4
+EmptyImage[SE][2]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.5
+EmptyImage[S][2]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.6
+EmptyImage[SW][2]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.7
+EmptyImage[W][2]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.0
+EmptyImage[NW][2]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.1
+EmptyImage[N][2]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.2
+EmptyImage[NE][2]=./images/lbscr-sub-bogie-54ft-brake-front-olive.1.3
 
-EmptyImage[E][3]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.4
-EmptyImage[SE][3]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.5
-EmptyImage[S][3]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.6
-EmptyImage[SW][3]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.7
-EmptyImage[W][3]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.0
-EmptyImage[NW][3]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.1
-EmptyImage[N][3]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.2
-EmptyImage[NE][3]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.3
+EmptyImage[E][3]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.4
+EmptyImage[SE][3]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.5
+EmptyImage[S][3]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.6
+EmptyImage[SW][3]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.7
+EmptyImage[W][3]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.0
+EmptyImage[NW][3]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.1
+EmptyImage[N][3]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.2
+EmptyImage[NE][3]=./images/lbscr-sub-bogie-54ft-brake-front-malachite.1.3
+
+EmptyImage[E][4]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.4
+EmptyImage[SE][4]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.5
+EmptyImage[S][4]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.6
+EmptyImage[SW][4]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.7
+EmptyImage[W][4]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.0
+EmptyImage[NW][4]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.1
+EmptyImage[N][4]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.2
+EmptyImage[NE][4]=./images/lbscr-sub-bogie-54ft-brake-front-br.1.3
