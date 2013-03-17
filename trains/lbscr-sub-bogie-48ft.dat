@@ -28,22 +28,41 @@ min_loading_time=20
 max_loading_time=50
 comfort=69
 
-# Reconstitute these.
-Constraint[Prev][0]=LBSCR-sub-bogie-48ft
-Constraint[Prev][1]=LBSCR-sub-bogie-48ft-brake-front
-Constraint[Prev][2]=LBSCR-4Wheel-Brake-rear
+Constraint[Prev][0]=LBSCR-4Wheel-Brake-front-fitted
+Constraint[Prev][1]=LBSCR-4Wheel-First-fitted
+Constraint[Prev][2]=LBSCR-4Wheel-full-brake-fitted
+Constraint[Prev][3]=LBSCR-4Wheel-Second-fitted
+Constraint[Prev][4]=LBSCR-6Wheel-5-com
+Constraint[Prev][5]=LBSCR-6Wheel-brake-front
+Constraint[Prev][6]=LBSCR-6Wheel-guard
+Constraint[Prev][7]=LBSCR-6Wheel-mail
+Constraint[Prev][8]=LBSCR-balloon
+Constraint[Prev][9]=LBSCR-balloon-brake-front
+Constraint[Prev][10]=LBSCR-balloon-full-brake
+Constraint[Prev][11]=LBSCR-non-cor-lav
+Constraint[Prev][12]=LBSCR-non-cor-lav-brake-front
+Constraint[Prev][13]=LBSCR-sub-bogie-48ft
+Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
+Constraint[Prev][15]=LBSCR-sub-bogie-54ft
+Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
 
-Constraint[Next][0]=LBSCR-sub-bogie-48ft
-Constraint[Next][1]=LBSCR-sub-bogie-48ft-brake-rear
-Constraint[next][2]=LBSCR-4Wheel-Brake-rear
-
-# NOTE: The "umber" livery for these suburban carriages # is the later (post 1911) 
-# umber livery. The "umber" livery for the long distance carriages is the earlier
-# 1903 livery. See http://www.lbscr.org/livery/index.html#Coaches1903 for 
-# information. See http://www.lbscr.org/models/coaches/DS-photos/48ft-third.jpg
-# for an image of a later umber livery. The liveries are conflated in this way
-# to reduce the number of images necessary to produce. Consider adding full
-# liveries in the future.
+Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
+Constraint[Next][1]=LBSCR-4Wheel-First-fitted
+Constraint[Next][2]=LBSCR-4Wheel-full-brake-fitted
+Constraint[Next][3]=LBSCR-4Wheel-Second-fitted
+Constraint[Next][4]=LBSCR-6Wheel-5-com
+Constraint[Next][5]=LBSCR-6Wheel-brake-rear
+Constraint[Next][6]=LBSCR-6Wheel-guard
+Constraint[Next][7]=LBSCR-6Wheel-mail
+Constraint[Next][8]=LBSCR-balloon
+Constraint[Next][9]=LBSCR-balloon-brake-rear
+Constraint[Next][10]=LBSCR-balloon-full-brake
+Constraint[Next][11]=LBSCR-non-cor-lav
+Constraint[Next][12]=LBSCR-non-cor-lav-brake-rear
+Constraint[Next][13]=LBSCR-sub-bogie-48ft
+Constraint[Next][14]=LBSCR-sub-bogie-48ft-brake-rear
+Constraint[Next][15]=LBSCR-sub-bogie-54ft
+Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -133,16 +152,23 @@ min_loading_time=20
 max_loading_time=50
 comfort=69
 
-Constraint[Prev][0]=LBSCR-sub-bogie-48ft
-Constraint[Prev][1]=LBSCR-sub-bogie-48ft-brake-front
-Constraint[Prev][2]=LBSCR-4Wheel-First
-Constraint[Prev][3]=LBSCR-4Wheel-Brake-rear
-
-Constraint[Next][0]=LBSCR-sub-bogie-48ft
-Constraint[Next][1]=LBSCR-sub-bogie-48ft-brake-front
-Constraint[next][2]=LBSCR-4Wheel-First
-Constraint[next][3]=LBSCR-4Wheel-Brake-rear
-Constraint[Next][4]=none
+Constraint[Prev][0]=LBSCR-4Wheel-Brake-front-fitted
+Constraint[Prev][1]=LBSCR-4Wheel-First-fitted
+Constraint[Prev][2]=LBSCR-4Wheel-full-brake-fitted
+Constraint[Prev][3]=LBSCR-4Wheel-Second-fitted
+Constraint[Prev][4]=LBSCR-6Wheel-5-com
+Constraint[Prev][5]=LBSCR-6Wheel-brake-front
+Constraint[Prev][6]=LBSCR-6Wheel-guard
+Constraint[Prev][7]=LBSCR-6Wheel-mail
+Constraint[Prev][8]=LBSCR-balloon
+Constraint[Prev][9]=LBSCR-balloon-brake-front
+Constraint[Prev][10]=LBSCR-balloon-full-brake
+Constraint[Prev][11]=LBSCR-non-cor-lav
+Constraint[Prev][12]=LBSCR-non-cor-lav-brake-front
+Constraint[Prev][13]=LBSCR-sub-bogie-48ft
+Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
+Constraint[Prev][15]=LBSCR-sub-bogie-54ft
+Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -232,12 +258,24 @@ min_loading_time=20
 max_loading_time=50
 comfort=69
 
-Constraint[Next][0]=LBSCR-sub-bogie-48ft
-Constraint[Next][1]=LBSCR-sub-bogie-48ft-brake-rear
-Constraint[next][2]=LBSCR-4Wheel-First
-Constraint[next][3]=LBSCR-4Wheel-Brake-rear
-Constraint[Next][4]=none
-
+Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
+Constraint[Next][1]=LBSCR-4Wheel-First-fitted
+Constraint[Next][2]=LBSCR-4Wheel-full-brake-fitted
+Constraint[Next][3]=LBSCR-4Wheel-Second-fitted
+Constraint[Next][4]=LBSCR-6Wheel-5-com
+Constraint[Next][5]=LBSCR-6Wheel-brake-rear
+Constraint[Next][6]=LBSCR-6Wheel-guard
+Constraint[Next][7]=LBSCR-6Wheel-mail
+Constraint[Next][8]=LBSCR-balloon
+Constraint[Next][9]=LBSCR-balloon-brake-rear
+Constraint[Next][10]=LBSCR-balloon-full-brake
+Constraint[Next][11]=LBSCR-non-cor-lav
+Constraint[Next][12]=LBSCR-non-cor-lav-brake-rear
+Constraint[Next][13]=LBSCR-sub-bogie-48ft
+Constraint[Next][14]=LBSCR-sub-bogie-48ft-brake-rear
+Constraint[Next][15]=LBSCR-sub-bogie-54ft
+Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
+Constraint[Next][17]=none
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=LBSCR-Late
