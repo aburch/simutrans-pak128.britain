@@ -23,6 +23,7 @@ TR_DIRS += grounds
 
 DIRS32 :=
 DIRS32 += boats/holds
+TR_DIRS += boats/holds
 
 DIRS64 :=
 DIRS64 += gui/gui64
