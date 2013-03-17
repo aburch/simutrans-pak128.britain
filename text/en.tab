@@ -1711,7 +1711,7 @@ LMR "Rocket" (tender)
 LBSCR-A1
 LBSCR Class A1 "Terrier" 0-6-0T
 LBSCR-A1X
-LBSCR Class A1X "Terrier" 0-6-0T
+LBSCR Class A1X "Terrier" 0-6-0T (push-pull)
 LBSCR-D1
 LBSCR Class D1 0-4-2T
 LBSCR-E1
@@ -2782,6 +2782,8 @@ LBSCR-balloon-brake-rear
 LBSCR "Balloon" four compartment lavatory brake carriage (rear)
 LBSCR-balloon
 LBSCR "Balloon" eight compartment lavatory carriage
+LBSCR-balloon-push-pull
+LBSCR seven compartment push-pull carriage
 SR-Schools
 SR V Class "Schools" 4-4-0
 SR-Schools-Tender
