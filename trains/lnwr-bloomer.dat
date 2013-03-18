@@ -1,6 +1,10 @@
 # Original Bloomer. 
 # Consider adding large type (more TE: see Ahrons p. 95) 
 # and small type (lighter, more economical: see Ahrons p. 94)
+# Note: the LNWR black livery version is the unmodified version
+# (which did exist in black: see http://www.lnwrs.org.uk/PassLocos/P001L2.jpg).
+# The modified versions with full cabs had 120lb boilers - consider adding
+# these later.
 obj=vehicle
 name=LNWR-Bloomer
 engine_type=steam
