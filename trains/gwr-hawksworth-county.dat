@@ -17,6 +17,8 @@ payload=0
 length=7
 
 weight=78
+# http://en.wikipedia.org/wiki/GWR_1000_Class
+axle_load=20
 cost=9994500
 runningcost=1195
 sound=-1
@@ -51,6 +53,7 @@ payload=0
 length=4
 
 weight=49
+axles=3
 cost=0
 runningcost=0
 sound=-1

@@ -18,6 +18,8 @@ payload=0
 length=7
 
 weight=69
+# Ahrons p. 334
+axle_load=18
 cost=9601000
 runningcost=1250
 sound=-1
@@ -54,6 +56,7 @@ payload=0
 length=4
 
 weight=44
+axles=3
 cost=0
 runningcost=0
 sound=-1

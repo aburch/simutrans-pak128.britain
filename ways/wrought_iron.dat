@@ -1,13 +1,14 @@
 Obj=way
-# Should probably be about 55lb/yrd - see Ahrons p. 94
+# Should probably be about 55lb/yrd - see Ahrons p. 95
+# Actually, better as 60lb/yard - axle loading too low at 55lb.
 Name=wrought_iron_track
 waytype=track
-cost=32000
-maintenance=750
+cost=40000
+maintenance=500
 topspeed=110
-max_weight=27
-intro_year = 1835
-intro_month = 2
+max_weight=12
+intro_year = 1845
+intro_month = 5
 retire_year = 1870
 retire_month = 6
 icon=> ./images/wrought_iron.3.4

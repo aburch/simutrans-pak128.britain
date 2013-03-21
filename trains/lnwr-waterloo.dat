@@ -20,6 +20,8 @@ payload=0
 length=5
 
 weight=41
+# See Ahrons pp. 295-6
+axle_load=12
 cost=10020000
 upgrade_price=1045500
 runningcost=1620
@@ -67,6 +69,7 @@ payload=0
 length=3
 
 weight=25
+axles=3
 cost=0
 runningcost=0
 sound=-1

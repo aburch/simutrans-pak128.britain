@@ -17,6 +17,7 @@ freight=None
 payload=0
 
 weight=60
+axle_load=17
 cost=4500000
 runningcost=790
 sound=-1
@@ -67,6 +68,7 @@ payload=0
 length=4
 
 weight=43
+axle_load=17
 cost=0
 runningcost=0
 sound=-1

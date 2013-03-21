@@ -19,6 +19,8 @@ length=7
 rolling_resistance=13
 
 weight=67
+# http://en.wikipedia.org/wiki/BR_Standard_Class_2_2-6-2T
+axle_load=14
 cost=3205000
 runningcost=601
 sound=-1
@@ -60,6 +62,7 @@ length=7
 rolling_resistance=13
 
 weight=67
+axle_load=14
 cost=3275000
 upgrade_price=95000
 runningcost=601

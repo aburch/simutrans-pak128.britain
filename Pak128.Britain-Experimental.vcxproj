@@ -256,7 +256,6 @@
     <None Include="narrowgauge\whr-brake.dat" />
     <None Include="narrowgauge\whr-buffet.dat" />
     <None Include="narrowgauge\whr-open.dat" />
-    <None Include="plateway.dat" />
     <None Include="stations\art-deco-underground-station.dat" />
     <None Include="stations\brick-platform-narrow.dat" />
     <None Include="stations\brick-platform.dat" />
@@ -472,8 +471,10 @@
     <None Include="trains\mr-1632.dat" />
     <None Include="trains\mr-1738.dat" />
     <None Include="trains\mr-1833.dat" />
+    <None Include="trains\mr-1873.dat" />
     <None Include="trains\mr-2441.dat" />
     <None Include="trains\mr-27.dat" />
+    <None Include="trains\mr-2736.dat" />
     <None Include="trains\mr-480.dat" />
     <None Include="trains\mr-483.dat" />
     <None Include="trains\mr-690.dat" />
@@ -1092,6 +1093,7 @@
     <None Include="industry\pottery.dat" />
     <None Include="ways\plate-girder-road.dat" />
     <None Include="ways\plate-girder.dat" />
+    <None Include="ways\plateway.dat" />
     <None Include="ways\Powerlines.dat" />
     <None Include="industry\printworks.dat" />
     <None Include="config\privatecar.tab" />
@@ -1318,6 +1320,7 @@
     <None Include="bus\wright-streetcar.dat" />
     <None Include="ways\wrought_iron.dat" />
     <None Include="ways\wrought_iron_improved.dat" />
+    <None Include="ways\wrought_iron_light.dat" />
     <None Include="ways\wssr-n.dat" />
     <None Include="ways\wssr.dat" />
     <None Include="ways\wssri.dat" />

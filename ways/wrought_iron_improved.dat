@@ -1,11 +1,11 @@
 Obj=way
-# Should probably be about 75lb/yrd - see Ahrons p. 94
+# Should probably be about 75lb/yrd - see Ahrons p. 95
 Name=wrought_iron_improved_track
 waytype=track
 cost=45000
 maintenance=400
 topspeed=130
-max_weight=43
+max_weight=15
 intro_year = 1850
 intro_month = 4
 retire_year = 1914

@@ -18,7 +18,9 @@ payload=0
 length=7
 
 weight=75
+axle_load=20
 cost=10752000
+# See Ahrons p. 356 - 2.83lb of coal per drawbar horsepower, 0.101lb of coal per ton mile. 
 runningcost=1518
 sound=-1
 increase_maintenance_after_years=28
@@ -60,6 +62,8 @@ payload=0
 length=7
 
 weight=75
+# Ahrons p. 334
+axle_load=19
 cost=10752000
 upgrade_price=25000
 runningcost=1018

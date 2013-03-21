@@ -16,7 +16,8 @@ freight=None
 payload=0
 length=4
 
-weight=53
+weight=50
+axle_load=19
 cost=12672000
 # These were "heavy on coal and maintenance": http://en.wikipedia.org/wiki/LMS_Garratt
 runningcost=1188

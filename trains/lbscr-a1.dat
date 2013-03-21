@@ -26,6 +26,7 @@ years_before_maintenance_max_reached=26
 upgrade[0]=LBSCR-A1X
 
 weight=27
+axles=3
 cost=2016000
 runningcost=266
 sound=-1
@@ -119,6 +120,7 @@ years_before_maintenance_max_reached=26
 
 # http://en.wikipedia.org/wiki/LB%26SCR_A1_class
 weight=29
+axles=3
 cost=2016000
 upgrade_price=500000
 runningcost=75

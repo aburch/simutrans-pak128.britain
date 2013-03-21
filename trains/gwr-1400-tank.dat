@@ -16,7 +16,9 @@ freight=None
 payload=0
 length=5
 
-weight=41
+# http://en.wikipedia.org/wiki/GWR_1400_Class
+weight=42
+axle_load=14
 cost=1372000
 runningcost=260
 sound=-1

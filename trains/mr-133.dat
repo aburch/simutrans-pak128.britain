@@ -22,8 +22,8 @@ rolling_resistance=19
 
 # Weight taken from Ahrons, p. 93
 weight=28
+axle_load=12
 cost=7575000
-#cost=7975000
 runningcost=876
 sound=-1
 
@@ -69,6 +69,7 @@ brake_force=3
 
 # Weight not given in Ahrons, but guessed from contemporaneous types
 weight=14
+axles=3
 cost=0
 runningcost=0
 sound=-1

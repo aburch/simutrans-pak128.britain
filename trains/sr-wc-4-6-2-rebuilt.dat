@@ -18,9 +18,8 @@ freight=None
 payload=0
 length=8
 
-weight=88
-# 92 is the correct weight, but it loses route availability over medium weight routes if so set.
-#weight=92
+weight=93
+axle_load=20
 cost=9992500
 upgrade_price=6450000
 runningcost=1765

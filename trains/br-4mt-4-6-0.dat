@@ -22,6 +22,7 @@ payload=0
 rolling_resistance=13
 
 weight=69
+axle_load=18
 cost=4621000
 runningcost=799
 sound=-1
@@ -61,6 +62,7 @@ length=4
 rolling_resistance=13
 
 weight=43
+axle_load=17
 cost=0
 runningcost=0
 sound=-1
@@ -69,7 +71,7 @@ years_before_maintenance_max_reached=11
 
 Constraint[Prev][0]=BR-4MT-4-6-0
 Constraint[Prev][1]=BR-4MT-2-6-0
-Constraint[Prev][2]=BR-5MT(Black)
+Constraint[Prev][2]=BR-5MT
 
 EmptyImage[E]=./images/br-4mt-tender.1.4
 EmptyImage[SE]=./images/br-4mt-tender.1.5

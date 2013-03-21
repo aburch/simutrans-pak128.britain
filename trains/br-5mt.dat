@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-5MT(Black)
+name=BR-5MT
 engine_type=steam
 smoke=Steam
 speed=130
@@ -20,6 +20,7 @@ length=7
 rolling_resistance=13
 
 weight=77
+axle_load=20
 cost=5210000
 runningcost=1045
 sound=-1

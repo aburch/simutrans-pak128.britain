@@ -1788,7 +1788,7 @@ LNER-A3
 LNER Class A3 4-6-2
 LNER-A1-Tender
 LNER Class A1/A3 (tender)
-BR-5MT(Black)
+BR-5MT
 BR Standard Class 5MT 2-6-0
 BR-7MT
 BR Standard Class 7MT "Britannia" 4-6-2
@@ -3248,7 +3248,7 @@ BR-4MT-Tender
 BR Standard tender
 BR-4MT-2-6-0
 BR Standard Class 4MT 2-6-0
-BR-5MT(Black)
+BR-5MT
 BR Standard Class 5MT 2-6-0
 GWR-Saint
 GWR 2900 "Saint" Class 4-6-0
@@ -3349,7 +3349,7 @@ LBSCR seven compartment brake carriage
 LBSCR-sub-bogie-54ft-brake-rear
 LBSCR seven compartment brake carriage (rear)
 LMR-Planet-Goods
-LMR "Planet" Goods 2-2-0
+LMR "Planet" Goods 0-4-0
 LMR-Bird
 LMR "Bird" 2-2-2
 LNWR-sharp-tank
@@ -3389,7 +3389,7 @@ LNWR Mansion House Radial Tank 2-4-2T
 LNWR-5ft-6-tank
 LNWR 5'6 Radial Tank 2-4-2T
 LNWR-crewe-type
-LNWR Crewe Type 2-4-0
+LNWR Crewe Type 2-2-0
 LNWR-Cauliflower
 LNWR "Cauliflower" Class 0-6-0
 LNWR-Cauliflower-tender
@@ -3399,7 +3399,7 @@ LNWR "Watford Tank" class 0-6-2T
 LBSCR-D2
 LBSCR D2 Class 0-4-2
 MR-133
-Midland 133 Class 2-2-0
+Midland 133 Class 2-2-2
 MR-133-tender
 Midland 133 Class tender
 MR-130
@@ -3407,7 +3407,7 @@ Midland 130 "Crampton" Class 4-2-0
 MR-130-tender
 Midland 130 Class tender
 MR-1
-Midland 1 Class 2-2-0
+Midland 1 Class 2-2-2
 MR-1-tender
 Midland 1 Class tender
 MR-27
@@ -4626,10 +4626,12 @@ plateway
 Plateway
 cast_iron_track
 Cast Iron Track
+wrought_iron_light_track
+Wrought Iron Track (40lb/yard)
 wrought_iron_track
-Wrought Iron Track (50lb)
+Wrought Iron Track (60lb/yard)
 wrought_iron_improved_track
-Improved Wrought Iron Track
+Wrought Iron Track (75lb/yard)
 wssr
 Wooden Sleeper Steel Rail Track
 wssrN

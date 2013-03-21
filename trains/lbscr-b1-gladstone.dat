@@ -20,6 +20,8 @@ length=5
 brake_force=20
 
 weight=39
+# See Ahrons p. 288
+axle_load=14
 # These should be expensive to construct and run by comparison to equivalents:
 # see: http://www.semgonline.com/steam/gladstone.html
 cost=5796000

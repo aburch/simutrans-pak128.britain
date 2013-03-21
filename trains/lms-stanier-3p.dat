@@ -21,6 +21,7 @@ payload=0
 length=7
 
 weight=72
+axle_load=16
 cost=3024049
 # Should be uneconomical compared to Fowler 3P
 runningcost=660
@@ -75,6 +76,7 @@ payload=0
 length=7
 
 weight=72
+axle_load=16
 cost=3064049
 upgrade_price=50000
 runningcost=660

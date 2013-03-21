@@ -25,6 +25,7 @@ bidirectional=1
 
 # Weight given here: http://www.semgonline.com/steam/c1class_01.html
 weight=40
+axles=3
 cost=2950000
 runningcost=314
 sound=-1
@@ -69,6 +70,7 @@ payload=0
 length=4
 
 weight=25
+axles=3
 cost=0
 runningcost=0
 sound=-1
