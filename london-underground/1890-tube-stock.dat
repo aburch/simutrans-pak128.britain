@@ -14,6 +14,7 @@ retire_month=1
 waytype=track
 
 weight=20
+axles=4
 cost=650000
 runningcost=25
 sound=-1
@@ -55,6 +56,7 @@ overcrowded_capacity=35
 # http://www.tfl.gov.uk/assets/downloads/foi/Rolling_stock_Data_Sheet_2nd_Edition.pdf
 
 weight=12
+axles=4
 cost=350000
 runningcost=2
 sound=-1

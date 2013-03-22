@@ -30,6 +30,7 @@ brake_force=0
 rolling_resistance=18
 
 weight=9
+axles=2
 cost=300000
 runningcost=17
 sound=-1
@@ -42,11 +43,6 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=45
-
-liverytype[0]=LNWR-Early
-liverytype[1]=MR-Early
-liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
 
 Constraint[Next][0]=4-wheel-1860s
 Constraint[Next][1]=4-wheel-1860s-brake-rear
@@ -96,6 +92,10 @@ Constraint[Prev][20]=LMR-4Wheel-Mail
 Constraint[Prev][21]=LMR-4Wheel-Parliamentary
 Constraint[Prev][22]=4-wheel-1860s-full-brake
 
+liverytype[0]=LNWR-Early
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-Standard
 
 EmptyImage[E][0]=./images/lnwr-4wheel-composite.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-composite.1.5

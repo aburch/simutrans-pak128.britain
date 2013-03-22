@@ -194,7 +194,6 @@
     <None Include="industry\gasworks.dat" />
     <None Include="industry\grocers.dat" />
     <None Include="industry\market.dat" />
-    <None Include="lner-gresely-express-dining.dat" />
     <None Include="london-underground\1890-tube-stock.dat" />
     <None Include="london-underground\1898-tube-stock.dat" />
     <None Include="london-underground\1900-tube-stock.dat" />
@@ -409,6 +408,7 @@
     <None Include="trains\lms-stanier-3p.dat" />
     <None Include="trains\lms-stanier-mogul.dat" />
     <None Include="trains\lner-d49.dat" />
+    <None Include="trains\lner-gresely-express-dining.dat" />
     <None Include="trains\lner-gresley-express-buffet.dat" />
     <None Include="trains\lner-gresley-express-coach-all-doors-brake.dat" />
     <None Include="trains\lner-gresley-express-coach-all-doors.dat" />
@@ -868,7 +868,6 @@
     <None Include="boats\horse-barge.dat" />
     <None Include="citycars\horse-carriage.dat" />
     <None Include="citycars\horse-cart-citycar.dat" />
-    <None Include="lorries\horse_wagons.dat" />
     <None Include="trains\hr-jones-goods-tender.dat" />
     <None Include="trains\hr-jones-goods.dat" />
     <None Include="boats\humber-keel.dat" />
@@ -1097,7 +1096,6 @@
     <None Include="ways\Powerlines.dat" />
     <None Include="industry\printworks.dat" />
     <None Include="config\privatecar.tab" />
-    <None Include="..\config\privatecar.tab" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\privatecar.txt" />
     <None Include="industry\pub.dat" />
     <None Include="trains\puffingbilly-tender.dat" />

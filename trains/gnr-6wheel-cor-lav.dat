@@ -1,7 +1,4 @@
-# "First" is an anachronism - the capacity is of a third,
-# and likewise the graphics. This is the non-lavatory version.
-
-obj=vehicle
+bj=vehicle
 name=GNR-6Wheel-cor-lav
 speed=135
 copyright=Kieron/jamespetts
@@ -16,6 +13,7 @@ overcrowded_capacity=20
 length=7
 
 weight=17
+axles=3
 cost=398500
 runningcost=27
 sound=-1

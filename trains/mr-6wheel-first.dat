@@ -21,6 +21,7 @@ length=6
 # is probably wrong. 12-13t is more likely to be accurate for a vehicle of 1875 vintage.
 # Otherwise, the tons per passenger is higher than for bogie stock of this era.
 weight=13
+axles=3
 cost=332000
 runningcost=25
 sound=-1
@@ -98,6 +99,7 @@ overcrowded_capacity=20
 # 34ft: http://www.vintagecarriagestrust.org/Midland.htm
 length=6
 
+axles=3
 weight=13
 cost=345000
 upgrade_price=49285

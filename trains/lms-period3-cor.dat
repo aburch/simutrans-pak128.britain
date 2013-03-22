@@ -18,6 +18,7 @@ overcrowded_capacity=20
 length=10
 
 weight=33
+axles=4
 cost=755000
 runningcost=37
 sound=-1
@@ -148,6 +149,7 @@ overcrowded_capacity=10
 length=10
 
 weight=32
+axles=4
 cost=755000
 runningcost=37
 sound=-1
@@ -245,6 +247,7 @@ overcrowded_capacity=10
 length=10
 
 weight=32
+axles=4
 cost=755000
 runningcost=37
 sound=-1
@@ -308,6 +311,7 @@ overcrowded_capacity=32
 length=10
 
 weight=31
+axles=4
 cost=700000
 runningcost=37
 sound=-1
@@ -438,6 +442,7 @@ overcrowded_capacity=22
 length=10
 
 weight=30
+axles=4
 cost=700000
 runningcost=37
 sound=-1
@@ -534,6 +539,7 @@ overcrowded_capacity=22
 length=10
 
 weight=30
+axles=4
 cost=700000
 runningcost=37
 sound=-1
@@ -594,6 +600,7 @@ length=11
 rolling_resistance=17
 
 weight=44
+axles=4
 cost=910000
 runningcost=50
 sound=-1
@@ -723,6 +730,7 @@ overcrowded_capacity=10
 length=10
 
 weight=34
+axles=4
 cost=820000
 runningcost=44
 sound=-1
@@ -851,6 +859,7 @@ payload=40
 length=9
 
 weight=27
+axles=4
 cost=548000
 runningcost=22
 sound=-1
@@ -908,6 +917,7 @@ payload=53
 length=10
 
 weight=30
+axles=4
 cost=700000
 runningcost=37
 sound=-1
@@ -1033,6 +1043,7 @@ payload=30
 length=10
 
 weight=30
+axles=4
 cost=777500
 runningcost=39
 sound=-1

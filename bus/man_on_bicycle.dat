@@ -8,10 +8,11 @@ waytype=road
 #Postman
 freight=Post
 payload=3
-power=2
+power=1
 tractive_effort=1
 speed=20
-weight=1
+weight=0.1
+axle_load=0
 length=2
 cost=5
 runningcost=1
