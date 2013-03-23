@@ -761,7 +761,10 @@
     <None Include="..\..\simutrans-experimental-binaries\text\en\convoiinfo.txt" />
     <None Include="stations\country-station-building.dat" />
     <None Include="attractions\cricket-ground-sm.dat" />
+    <None Include="ways\cssr-heavy.dat" />
+    <None Include="ways\cssr-light.dat" />
     <None Include="ways\cssr.dat" />
+    <None Include="ways\cssri-125.dat" />
     <None Include="ways\cssri.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\curiosity_build.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\curiositylist_filter.txt" />
@@ -1318,11 +1321,18 @@
     <None Include="bus\wright-streetcar.dat" />
     <None Include="ways\wrought_iron.dat" />
     <None Include="ways\wrought_iron_improved.dat" />
+    <None Include="ways\wrought_iron_improved_light.dat" />
+    <None Include="ways\wrought_iron_intermediate.dat" />
     <None Include="ways\wrought_iron_light.dat" />
+    <None Include="ways\wssr-light.dat" />
     <None Include="ways\wssr-n.dat" />
     <None Include="ways\wssr.dat" />
+    <None Include="ways\wssri-heavy.dat" />
+    <None Include="ways\wssri-intermediate.dat" />
+    <None Include="ways\wssri-light.dat" />
     <None Include="ways\wssri.dat" />
     <None Include="bus\yorkshire-steam-tank.dat" />
+    <None Include="ways\wssr_early.dat" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="trains\lms-7f.dat" />

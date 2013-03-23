@@ -1,15 +1,15 @@
 Obj=way
 Name=tgv
 waytype=track
-cost=220000
+cost=250000
 # Maintenance of this type of track should be lower
 # than it otherwise would be owing to its hard base
 # in place of ballast.
-maintenance=1750
+maintenance=950
 topspeed=320
-max_weight=150
-intro_year = 1978
-intro_month = 3
+max_weight=24
+intro_year=1978
+intro_month=3
 icon=> ./images/tgv.3.4
 cursor=./images/tgv.3.5
 Image[-][0]=./images/tgv.1.2

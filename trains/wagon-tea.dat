@@ -1,6 +1,7 @@
 obj=vehicle
 name=Bogie Tanker(TEA)
-speed=120
+# http://www.mremag.com/news/article/graham-farish-tea-bogie-tank-wagon/12109
+speed=96
 copyright=Kieron
 intro_year=1970
 intro_month=2
@@ -12,7 +13,9 @@ payload=78
 length=10
 
 weight=24
-axle_load=25
+# Ought to be 23, but is too heavy for track using
+# known formula. Not clear why this should be.
+axle_load=22
 cost=340000
 runningcost=11
 sound=-1
