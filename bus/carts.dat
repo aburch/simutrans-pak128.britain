@@ -6,6 +6,8 @@ freight=Kohle
 payload=1
 speed=6
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=7500
 runningcost=1
@@ -94,6 +96,8 @@ freight=Bretter
 payload=1
 speed=6
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=7500
 runningcost=1
@@ -152,6 +156,8 @@ freight=vegetables
 payload=1
 speed=6
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=7500
 runningcost=1
@@ -199,6 +205,8 @@ freight=fish
 payload=1
 speed=6
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=7500
 runningcost=1
@@ -245,6 +253,8 @@ freight=Post
 payload=5
 speed=6
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=7500
 runningcost=2
@@ -291,6 +301,8 @@ freight=Post
 payload=15
 speed=12
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=8750
 runningcost=3

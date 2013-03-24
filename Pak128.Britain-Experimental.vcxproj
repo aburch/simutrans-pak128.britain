@@ -706,6 +706,7 @@
     <None Include="bus\bus-horse.dat" />
     <None Include="stations\bus-stops.dat" />
     <None Include="industry\butchery.dat" />
+    <None Include="ways\bridleway.dat" />
     <None Include="ways\canal.dat" />
     <None Include="industry\car-dealership.dat" />
     <None Include="industry\car-factory.dat" />
@@ -910,7 +911,7 @@
     <None Include="bus\leyland-olympian.dat" />
     <None Include="bus\leyland-tiger.dat" />
     <None Include="bus\leyland-titan.dat" />
-    <None Include="bus\leyland_cub.dat" />
+    <None Include="bus\leyland-cub.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\linemanagement.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\list.txt" />
     <None Include="bus\livestock_driver.dat" />
@@ -1224,6 +1225,7 @@
     <None Include="attractions\stonehenge.dat" />
     <None Include="text\sv.tab" />
     <None Include="gui\gui64\symbols-64.dat" />
+    <None Include="ways\tarmac_city_road.dat" />
     <None Include="ways\tarmac_road.dat" />
     <None Include="ways\taxiway.dat" />
     <None Include="trains\teak-clerestory-brake.dat" />

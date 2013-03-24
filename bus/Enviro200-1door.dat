@@ -3,7 +3,7 @@
 obj=vehicle
 name=Envrio200-1door
 copyright=MattWilson&JamesPetts
-speed=85
+speed=96
 intro_year=2006
 intro_month=3
 #retire_year=2020
@@ -14,6 +14,7 @@ freight=Passagiere
 payload=39
 overcrowded_capacity=12
 power=140
+gear=50
 length=5
 
 weight=12

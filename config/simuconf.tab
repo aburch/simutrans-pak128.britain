@@ -639,9 +639,10 @@ signals_on_left = 0
 # city_road[0]=name,1900,1920
 # city_road[1]=name2,1921,1950
 
-city_road[0]=city_road,1905,2100
-city_road[1]=cobblestone_road,1781,1904
-city_road[2]=dirt_road,1700,1780
+city_road[0]=city_road,1933,2200
+city_road[1]=tarmac_city_road,1911,1932
+city_road[2]=cobblestone_road,1781,1910
+city_road[3]=dirt_road,1700,1780
 
 # Intercity roads timeline. Format examples: 
 # intercity_road[0]=name,1900,1920
