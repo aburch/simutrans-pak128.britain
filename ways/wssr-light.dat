@@ -4,12 +4,12 @@ Name=wssr_light
 waytype=track
 cost=32000
 # Lower maintenace is allowed for lighter track because of the lower speed limit
-maintenance=360
+maintenance=375
 topspeed=80
 max_weight=15
 intro_year=1876
 intro_month=2
-retire_year=1921
+retire_year=1903
 retire_month=4
 icon=> ./images/wooden_sleeper_steel_rail.3.4
 cursor=./images/wooden_sleeper_steel_rail.3.5

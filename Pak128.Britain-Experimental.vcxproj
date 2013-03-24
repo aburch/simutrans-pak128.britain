@@ -721,6 +721,7 @@
     <None Include="trains\choc-cream-clerestory-parcel-brake.dat" />
     <None Include="trains\choc-cream-clerestory-tpo.dat" />
     <None Include="trains\choc-cream-clerestory.dat" />
+    <None Include="ways\cast-iron-narrow.dat" />
     <None Include="ways\cast_iron.dat" />
     <None Include="ways\city-road.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\citybuilding_build.txt" />
@@ -1319,12 +1320,14 @@
     <None Include="ways\wooden-trestle.dat" />
     <None Include="bus\wright-electrocity.dat" />
     <None Include="bus\wright-streetcar.dat" />
+    <None Include="ways\wrought-iron-narrow.dat" />
     <None Include="ways\wrought_iron.dat" />
     <None Include="ways\wrought_iron_improved.dat" />
     <None Include="ways\wrought_iron_improved_light.dat" />
     <None Include="ways\wrought_iron_intermediate.dat" />
     <None Include="ways\wrought_iron_light.dat" />
     <None Include="ways\wssr-light.dat" />
+    <None Include="ways\wssr-n-improved.dat" />
     <None Include="ways\wssr-n.dat" />
     <None Include="ways\wssr.dat" />
     <None Include="ways\wssri-heavy.dat" />
