@@ -6,9 +6,9 @@ way=LT_Tunnel_Track
 cost=775000
 maintenance=2750
 topspeed=80
-max_weight=100
-intro_year = 1890
-intro_month = 11
+max_weight=17
+intro_year=1890
+intro_month=11
 # No retirement yet - no modern type tunnels to replace it.
 way_constraint_prohibitive[1]=1
 # Normal images
@@ -33,8 +33,8 @@ copyright=TimothyBaldock&KieronGreen&James
 cost=728000
 maintenance=2600
 topspeed=80
-intro_year = 1890
-intro_month = 11
+intro_year=1890
+intro_month=11
 waytype=track
 way_constraint_prohibitive[1]=1
 system_type=64

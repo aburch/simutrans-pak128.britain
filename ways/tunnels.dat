@@ -4,8 +4,9 @@ copyright=James
 waytype=track
 cost=2200000
 maintenance=3000
-topspeed=110
-max_weight=105
+topspeed=80
+# This has to be fudged rather, as there is no way presently of separating the tunnel from the track.
+max_weight=19
 intro_year=1829
 intro_month=3
 retire_year=1940
@@ -32,8 +33,9 @@ copyright=James
 waytype=track
 cost=2700000
 maintenance=4400
-topspeed=175
-max_weight=150
+# Based on the speed limit for the Severn Tunnel
+topspeed=120
+max_weight=22
 intro_year=1848
 intro_month=9
 retire_year=1986
@@ -60,8 +62,8 @@ copyright=James
 waytype=track
 cost=3000000
 maintenance=4000
-topspeed=225
-max_weight=150
+topspeed=135
+max_weight=26
 intro_year=1959
 intro_month=7
 # Normal images
@@ -86,8 +88,9 @@ copyright=James
 waytype=track
 cost=4400000
 maintenance=7000
-topspeed=350
-max_weight=160
+# http://en.wikipedia.org/wiki/Channel_Tunnel
+topspeed=160
+max_weight=23
 intro_year=1978
 intro_month=3
 # Normal images
@@ -224,8 +227,8 @@ copyright=James
 waytype=maglev_track
 cost=10000000
 maintenance=9000
-topspeed=560
-max_weight=100
+topspeed=225
+max_weight=50
 intro_year=2004
 intro_month=1
 # Normal images
@@ -250,8 +253,8 @@ copyright=James
 waytype=maglev_track
 cost=8000000
 maintenance=4900
-topspeed=320
-max_weight=100
+topspeed=200
+max_weight=50
 intro_year=2004
 intro_month=1
 # Normal images
