@@ -76,8 +76,9 @@ copy:
 	@mkdir -p $(PAKDIR)/text $(PAKDIR)/text/citylists $(PAKDIR)/config
 	@cp -p compat.tab $(PAKDIR)
 	@cp -p config/* $(PAKDIR)/config
-#	@mkdir -p $(PAKDIR)/sound $(PAKDIR)/text $(PAKDIR)/config $(PAKDIR)/scenario
-#	@cp -p sound/* $(PAKDIR)/sound
+	@mkdir -p $(PAKDIR)/sound
+	@cp -p sound/* $(PAKDIR)/sound
+#	@mkdir -p $(PAKDIR)/scenario
 #	@cp -p scenario/* $(PAKDIR)/scenario
 	@cp -p text/*.tab $(PAKDIR)/text
 
