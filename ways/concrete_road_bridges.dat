@@ -12,6 +12,7 @@ maintenance=400
 # BELOW GRAPHICS USED AS STOPGAP.
 pillar_distance=2
 pillar_asymmetric=1
+max_height=2
 cursor=images/plate-girder-road.2.1
 icon=> images/plate-girder-road.2.0
 BackImage[NS][0]=images/plate-girder-road.0.5,0,32
