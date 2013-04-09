@@ -1,0 +1,47 @@
+obj=vehicle
+name=MR-2203
+engine_type=steam
+smoke=Steam
+speed=133
+# Extrapolated
+power=201
+# Calculated using data from http://en.wikipedia.org/wiki/Midland_Railway_Class_2_4-4-0
+# Loss factor set at 0.8
+tractive_effort=66
+copyright=Kieron/JamesPetts
+intro_year=1893
+intro_month=6
+# See http://en.wikipedia.org/wiki/Midland_Railway_Class_2_4-4-0
+# There were many, very similar, classes of locomotives
+retire_year=1914
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=6
+
+# http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm
+weight=44
+axle_load=15
+cost=7125000
+runningcost=1300
+sound=-1
+increase_maintenance_after_years=40
+years_before_maintenance_max_reached=40
+
+upgrade[0]=MR-483
+
+Constraint[Next][0]=MR-Kirtley156Tender
+
+liverytype[0]=MR-Standard
+
+# At the Simutrans scale, visually indistinguishable from the 1738 class
+
+EmptyImage[E][0]=./images/mr-1738-class.1.4
+EmptyImage[SE][0]=./images/mr-1738-class.1.5
+EmptyImage[S][0]=./images/mr-1738-class.1.6
+EmptyImage[SW][0]=./images/mr-1738-class.1.7
+EmptyImage[W][0]=./images/mr-1738-class.1.0
+EmptyImage[NW][0]=./images/mr-1738-class.1.1
+EmptyImage[N][0]=./images/mr-1738-class.1.2
+EmptyImage[NE][0]=./images/mr-1738-class.1.3

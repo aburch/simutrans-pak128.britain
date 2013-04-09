@@ -20,6 +20,8 @@ sound=-1
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
 
+upgrade[0]=MR-483-Tender
+
 Constraint[Prev][0]=MR-Kirtley156
 Constraint[Prev][1]=MR-480
 Constraint[Prev][2]=MR-1738
@@ -27,6 +29,7 @@ Constraint[Prev][3]=MR-700
 Constraint[Prev][4]=MR-1357
 Constraint[Prev][5]=MR-800
 Constraint[Prev][6]=MR-27
+Constraint[Prev][7]=MR-2203
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
