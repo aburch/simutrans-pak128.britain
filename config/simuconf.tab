@@ -591,7 +591,7 @@ show_month = 8
 # default is 18. For example, 21 will make the month 2^3=8 times longer in real time
 # production and maintainance cost will be adjusted accordingly.
 
-bits_per_month = 21
+bits_per_month = 22
 
 # This setting determines whether passengers can reach their journies by walking
 # between stops en route. If this setting is false, passengers will walk from their
@@ -600,20 +600,16 @@ bits_per_month = 21
 # between the intermediate stops is the same as or less than the distance between
 # their origin and the starting stop. If this setting is set to true then passengers
 # will walk between intermediate stops as well as from their origin to the first stop 
-# on their journey. However, with the setting enabled, there is no means of preventing
-# passengers from walking between two or more consecutive stops (for techincal reasons
-# relating to the need to have a simplified routing system to make the game run at an
-# acceptable speed), or from walking as the first or last stage in their journey, such
-# that their overall walking distance is higher than would be permissible for walking
-# from their origin to the first stop on their journey. This setting might also have
-# the incidental effects of allowing a stop to take passengers from an area not covered
-# by that stop's coverage radius, but covered by the radius of another stop (possibly
-# owned by a rival player) in the nearby vicinity, and of passengers walking instead
-# of using player transport in some cases.
+# on their journey. 
 #
-# It is recommended that this feature only be used in multiplayer games, as its usefulness
-# is limited in single player games. It can be very useful in multiplayer games, however,
-# where it is undesirable or impractical to connect the stations of different players.
+# Note that, with the setting enabled, there is no means of preventing passengers from
+# walking between two or more consecutive stops or from walking as the first or last stage
+# in their journey, such that their overall walking distance is greater than the catchment
+# area would be permissible for walking for the stop to or from which they are walking.
+# This setting might also have the incidental effects of allowing a stop to take passengers
+# from an area not covered by that stop's coverage radius, but covered by the radius of 
+# another stop (possibly owned by a rival player) in the nearby vicinity, and of passengers
+# walking instead of using player transport in some cases.
 #
 # 0 = false; 1 = true. Default: false.
 
