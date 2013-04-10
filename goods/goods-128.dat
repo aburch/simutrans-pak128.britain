@@ -106,20 +106,20 @@ weight_per_unit=70
 # Class: mail
 obj=good
 name=Post
-metric= bags
+metric= bundles
 catg=0
 #
 #value=48
 value=57
 #
-value[0]=69
+value[0]=7
 to_distance[0]=16
-value[1]=57
+value[1]=6
 to_distance[1]=32
-value[2]=54
+value[2]=5
 to_distance[2]=0
 speed_bonus=15
-weight_per_unit=50
+weight_per_unit=1
 -----------------------
 # Livestock
 # Class: Livestock treated as class of own.

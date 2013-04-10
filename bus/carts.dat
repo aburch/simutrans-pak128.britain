@@ -250,7 +250,7 @@ name=CartMail
 copyright=James
 waytype=road
 freight=Post
-payload=5
+payload=50
 speed=6
 weight=1
 # Necessary to prohibit this vehicle from bridleways
@@ -298,7 +298,7 @@ name=CartMailNew
 copyright=James
 waytype=road
 freight=Post
-payload=15
+payload=150
 speed=12
 weight=1
 # Necessary to prohibit this vehicle from bridleways
