@@ -696,6 +696,7 @@
     <None Include="industry\brewery.dat" />
     <None Include="ways\beam-bridge.dat" />
     <None Include="ways\brick-aqueduct.dat" />
+    <None Include="ways\brick-viaduct-early-elevated.dat" />
     <None Include="ways\brick-viaduct-early.dat" />
     <None Include="ways\brick-viaduct-elevated.dat" />
     <None Include="ways\brick-viaduct-road.dat" />
@@ -752,6 +753,7 @@
     <None Include="stations\concrete-platform.dat" />
     <None Include="stations\concrete-station-building-small.dat" />
     <None Include="ways\concrete-road-bridges.dat" />
+    <None Include="ways\concrete-viaduct-elevated.dat" />
     <None Include="ways\concrete-viaduct-road.dat" />
     <None Include="ways\concrete-viaduct.dat" />
     <None Include="ways\concrete_rail_bridges.dat" />
@@ -1004,6 +1006,7 @@
     <None Include="ways\iron-arch-rail.dat" />
     <None Include="ways\iron-bowstring-girder.dat" />
     <None Include="ways\iron-girder-bridge.dat" />
+    <None Include="ways\iron-girder-elevated.dat" />
     <None Include="ways\iron-lattice-girder-rail.dat" />
     <None Include="ways\iron-viaduct.dat" />
     <None Include="ways\macadam-road.dat" />
@@ -1014,6 +1017,7 @@
     <None Include="bus\man_on_bicycle.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\map.txt" />
     <None Include="grounds\marker.dat" />
+    <None Include="ways\masonry-viaduct-elevated.dat" />
     <None Include="ways\masonry-viaduct-road.dat" />
     <None Include="bus\mcw-q1.dat" />
     <None Include="trams\medium-2-deck-trailer.dat" />
@@ -1317,6 +1321,7 @@
     <None Include="boats\boats224\windjammer.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\window.txt" />
     <None Include="stations\wooden-platform.dat" />
+    <None Include="ways\wood-trestle-elevated.dat" />
     <None Include="ways\wood-trestle-road.dat" />
     <None Include="ways\wooden-trestle-narrow.dat" />
     <None Include="ways\wooden-trestle-stone-pillar.dat" />
