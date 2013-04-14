@@ -185,155 +185,93 @@ Aerospatiale/BAC Concorde
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickViaductEarly
-Brick Railway Viaduct
+Brick viaduct
 BrickViaduct
-Brick Railway Viaduct
+Brick viaduct
 BrickViaduct175
-Brick Railway Viaduct
+Brick viaduct
 BrickViaduct200
-Brick Railway Viaduct
+Brick viaduct
 BrickViaduct225
-Brick Railway Viaduct
+Brick viaduct
 BrickViaduct320
-Brick Railway Viaduct
+Brick viaduct
 MasonryViaduct
-Masonry Railway Viaduct
+Masonry viaduct
 IronViaduct
-Iron Railway Viaduct
+Iron viaduct
 IronBowstringGirderRailBridge
-Iron Bowstring Girder Railway Bridge
+Iron bowstring girder bridge
 SteelBowstringArchRailBridge
-Steel Bowstring Arch Railway Bridge
+Steel bowstring arch bridge
 SteelTruss
-Steel Truss Railway Bridge
+Steel truss bridge
 IronArchRailBridge
-Iron Arch Railway Bridge
+Iron arch rridge
 IronLatticeGirderRailBridge
-Iron Lattice Girder Railway Bridge
-PlateGirder
-Plate Girder Railway Bridge
+Iron lattice girder bridge
 PlateGirderConcrete
-Concrete Plate Girder Railway Bridge
+Concrete plate girder bridge
 IronGirderBridge
 Iron girder railway bridge
+PlateGirder
+Plate girder bridge
 ConcreteViaduct175
-Concrete railway viaduct
+Concrete bridge
 ConcreteViaduct200
-Concrete railway viaduct
+Concrete bridge
 ConcreteViaduct225
-Concrete railway viaduct
+Concrete bridge
 ConcreteViaductHS
-Concrete railway viaduct (high speed)
+Concrete bridge (high speed)
 WoodenTrestle
-Wooden Trestle Rail Bridge
-WoodenTrestleHeavy
-Wooden Trestle Rail Bridge (heavy)
+Wooden trestle bridge
 WoodenTrestleStonePillar
-Wooden Trestle Rail Bridge (heavy)
+Wooden trestle bridge (stone pillars)
 TubularBoxGirder
-Tubular Box Girder Railway Bridge
+Tubular box girder bridge
 BeamBridge
-Beam Railway Bridge
-ShortSteelGirder
-Short Steel Girder Rail Bridge
-ShortSteelGirderLight
-Short Steel Girder Rail Bridge (light)
-ShortSteelGirderHeavy
-Short Steel Girder Rail Bridge (heavy)
-SteelBoxGirder
-Steel Box Girder Rail Bridge
-SteelBoxGirderLight
-Steel Box Girder Rail Bridge (light)
-SupportedSteelLatticeLight
-Supported Steel Lattice Rail Bridge (light)
-SupportedSteelLattice
-Supported Steel Lattice Rail Bridge
-SupportedSteelLatticeHeavy
-Supported Steel Lattice Rail Bridge (heavy)
-Cantilever
-Steel Cantilever Rail Bridge
-SuspensionEarly
-Steel Suspension Rail Bridge
-SuspensionLate
-Steel Suspension Rail Bridge (modern)
-SuspensionHighSpeed
-Steel Suspension Rail Bridge (high speed)
-ConcreteSpanningBridgeLight
-Concrete Spanning Rail Bridge (light)
-ConcreteSpanningBridgeHeavy
-Concrete Spanning Rail Bridge (heavy)
-ConcreteSpanningBridge
-Concrete Spanning Rail Bridge
-ConcreteSpanningBridgeNew
-Concrete Spanning Rail Bridge (improved)
-ConcreteSupportedBridge
-Concrete Supported Rail Bridge
-ConcreteSupportedBridgeLight
-Concrete Supported Rail Bridge (light)
-ConcreteSupportedBridgeHighSpeed
-Concrete Supported Rail Bridge (high speed)
-ConcreteSpanningBridgeHighSpeed
-Concrete Spanning Rail Bridge (high speed)
+Beam bridge
 WoodTrestleRoad
-Wooden Trestle Road Bridge
+Wooden trestle bridge
 BrickViaductRoad
-Brick Road Bridge (tarmac)
+Brick bridge (tarmac)
 BrickViaductCobbles
-Brick Road Bridge (cobblestone)
-concrete_spanning_road_bridge
-Concrete Spanning Road Bridge
-concrete_supported_road_bridge
-Concrete Supported Road Bridge
-concrete_supported_motorway_bridge
-Concrete Supported Motorway Bridge
-concrete_spanning_motorway_bridge
-Concrete Spanning Motorway Bridge
-steel_spanning_road_bridge_cobbles
-Steel Spanning Road Bridge (cobblestone)
-steel_spanning_road_bridge_tarmac
-Steel Spanning Road Bridge (tarmac)
-steel_spanning_road_bridge_asphalt
-Steel Spanning Road Bridge (asphalt)
-steel_supported_road_bridge_cobbles
-Steel Supported Road Bridge (cobblestone)
-steel_supported_road_bridge_tarmac
-Steel Supported Road Bridge (tarmac)
-steel_supported_road_bridge_asphalt
-Steel Supported Road Bridge (asphalt)
-suspension_road_bridge_early
-Suspension Road Bridge
-suspension_road_bridge_late
-Suspension Road Bridge (improved)
-suspension_road_bridge_motorway
-Suspension Motorway Bridge
-stone_road_bridge_dirt
-Masonry Road Bridge (Unsurfaced)
+Brick bridge (cobblestone)
 stone_road_bridge_cobbles
-Masonry Road Bridge (cobblestone)
+Masonry bridge (cobblestone)
 wooden_road_bridge_dirt
-Wooden Road Trestle (Unsurfaced)
+Wooden trestle bridge
 wooden_road_bridge_cobbles
-Wooden Road Trestle (cobblestone)
+Wooden trestle bridge (cobblestone)
 wooden_road_bridge_tarmac
-Wooden Road Trestle (tarmac)
+Wooden trestle bridge (tarmac)
 ConcreteViaductRoad
 Concrete bridge
 IronGirderBridgeRoad
 Iron girder bridge
+ConcreteSteelTrussRoad
+Steel truss bridge
+ConcreteBeamRoad
+Concrete beam bridge
+ConcreteSteelCantileverRoad
+Steel cantilever bridge
+PlateGirderRoad
+Plate girder bridge
 BrickAqueduct
 Brick Aqueduct
 PowerBridge
 High voltage transmission line bridge
 MasonryViaductRoad
-Masonry Road Bridge (tarmac)
+Masonry bridge (tarmac)
 MasonryViaductCobbles
-Masonry Road Bridge (cobblestone)
+Masonry bridge (cobblestone)
 MasonryViaductDirt
-Masonry Road Bridge (Unsurfaced)
+Masonry bridge (unsurfaced)
 Concrete_Maglev_Bridge
-Concrete Maglev Bridge
+Concrete bridge
 Economical_Concrete_Maglev_Bridge
-Lightweight Concrete Maglev Bridge
+Lightweight concrete bridge
 WoodenTrestleNarrow
 Wooden trestle
 BrickViaductNarrow
@@ -4759,9 +4697,9 @@ Concrete viaduct elevated track (high speed)
 ConcreteViaductElevatedLight
 Concrete viaduct elevated track (light weight)
 IronGirderElevated
-Iron girder elevated railway
+Iron girder elevated track
 WoodTrestleElevated
-Wooden trestle elevated railway
+Wooden trestle elevated track
 BrickViaductElevatedNarrow
 Brick viaduct elevated track
 ConcreteViaductElevatedNarrow
