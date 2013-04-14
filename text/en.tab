@@ -214,6 +214,16 @@ PlateGirder
 Plate Girder Railway Bridge
 PlateGirderConcrete
 Concrete Plate Girder Railway Bridge
+IronGirderBridge
+Iron girder railway bridge
+ConcreteViaduct175
+Concrete railway viaduct
+ConcreteViaduct200
+Concrete railway viaduct
+ConcreteViaduct225
+Concrete railway viaduct
+ConcreteViaductHS
+Concrete railway viaduct (high speed)
 WoodenTrestle
 Wooden Trestle Rail Bridge
 WoodenTrestleHeavy
@@ -307,7 +317,9 @@ Wooden Road Trestle (cobblestone)
 wooden_road_bridge_tarmac
 Wooden Road Trestle (tarmac)
 ConcreteViaductRoad
-Concrete Road Bridge
+Concrete bridge
+IronGirderBridgeRoad
+Iron girder bridge
 BrickAqueduct
 Brick Aqueduct
 PowerBridge
@@ -323,7 +335,15 @@ Concrete Maglev Bridge
 Economical_Concrete_Maglev_Bridge
 Lightweight Concrete Maglev Bridge
 WoodenTrestleNarrow
-Wooden Trestle
+Wooden trestle
+BrickViaductNarrow
+Brick viaduct
+ConcreteViaductNarrow
+Concrete viaduct
+IronGirderNarrow
+Iron girder bridge
+MasonryViaductNarrow
+Masonry viaduct
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnelStone
@@ -4717,19 +4737,47 @@ Asphalt runway
 Concrete_Maglev_Track
 Concrete maglev track
 Concrete_Maglev_Track_Elevated
-Concrete maglev track (elevated)
+Concrete elevated maglev track
 Economical_Concrete_Maglev_Track
 Lightweight concrete maglev track
 Economical_Concrete_Maglev_Track_Elevated
-Lightweight concrete maglev track (elevated)
+Lightweight concrete elevated maglev track
+MasonryViaductElevated
+Masonry viaduct elevated track
 BrickViaductElevated
-Brick viaduct elevated railway
-BrickViaductElevatedEarly
-Brick viaduct elevated railway
-ConcreteViaductElevated
-Concrete viaduct elevated railway
+Brick viaduct elevated track
+BrickViaductEarlyElevated
+Brick viaduct elevated track
+ConcreteViaductElevated175
+Concrete viaduct elevated track
+ConcreteViaductElevated200
+Concrete viaduct elevated track
+ConcreteViaductElevated225
+Concrete viaduct elevated track
+ConcreteViaductElevatedHS
+Concrete viaduct elevated track (high speed)
 ConcreteViaductElevatedLight
-Concrete viaduct elevated railway (light weight)
+Concrete viaduct elevated track (light weight)
+IronGirderElevated
+Iron girder elevated railway
+WoodTrestleElevated
+Wooden trestle elevated railway
+BrickViaductElevatedNarrow
+Brick viaduct elevated track
+ConcreteViaductElevatedNarrow
+Concrete viaduct elevated track
+IronGirderElevatedNarrow
+Iron girder elevated track
+MasonryViaductElevatedNarrow
+Masonry viaduct elevated track
+WoodenTretleElevatedNarrow
+Wooden trestle elevated track
+ConcreteViaductElevatedRoad
+Concrete viaduct elevated road
+IronGirderElevatedRoad
+Iron girder elevated road
+WoodTrestleElevatedRoad
+Wooden trestle elevated road
 Railgate
 Private gate
 Railgate_narrow
