@@ -254,6 +254,7 @@
     <None Include="narrowgauge\whr-brake.dat" />
     <None Include="narrowgauge\whr-buffet.dat" />
     <None Include="narrowgauge\whr-open.dat" />
+    <None Include="pak1file\128\outside.dat" />
     <None Include="stations\art-deco-underground-station.dat" />
     <None Include="stations\brick-platform-narrow.dat" />
     <None Include="stations\brick-platform.dat" />
@@ -1100,7 +1101,7 @@
     <None Include="bus\optare-tempo.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\options.txt" />
     <None Include="industry\orchard.dat" />
-    <None Include="grounds\outside.dat" />
+    <None Include="grounds\outside-old.dat" />
     <None Include="gui\gui128\pakmak.tab" />
     <None Include="industry\papermill.dat" />
     <None Include="ways\pavement.dat" />
