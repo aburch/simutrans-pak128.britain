@@ -2,9 +2,12 @@ Obj=bridge
 name=BeamBridge
 copyright=AEO/James
 waytype=track
-cost=330000
-intro_year=1880
-max_weight=30
+cost=520000
+intro_year=1881
+intro_month=11
+# Does not retire, as is useful low cost
+# bridge for latter day light rail
+max_weight=280
 maintenance=1000
 topspeed=120
 max_length=8

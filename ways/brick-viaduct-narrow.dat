@@ -1,10 +1,13 @@
 Obj=bridge
 name=BrickViaductNarrow
 waytype=narrowgauge_track
-intro_year=1875
-retire_year=1950
+intro_year=1869
+intro_month=6
+retire_year=1966
+retire_month=1
+max_weight=150
 topspeed=70
-cost=35000
+cost=350000
 maintenance=475
 pillar_distance=1
 cursor=images/brick-viaduct-narrow.2.1
