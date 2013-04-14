@@ -762,9 +762,7 @@
     <None Include="ways\concrete-viaduct-narrow.dat" />
     <None Include="ways\concrete-viaduct-road.dat" />
     <None Include="ways\concrete-viaduct.dat" />
-    <None Include="ways\concrete_rail_bridges.dat" />
     <None Include="ways\concrete_road.dat" />
-    <None Include="ways\concrete_road_bridges.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\convoi.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\convoi_filter.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\convoidetail.txt" />
@@ -1235,10 +1233,7 @@
     <None Include="industry\steel-mill.dat" />
     <None Include="ways\steel-bowstring-arch.dat" />
     <None Include="ways\steel-truss.dat" />
-    <None Include="ways\steel_rail_bridges.dat" />
-    <None Include="ways\steel_road_bridges.dat" />
     <None Include="stations\stone-building.dat" />
-    <None Include="ways\stone_road_bridges.dat" />
     <None Include="attractions\stonehenge.dat" />
     <None Include="text\sv.tab" />
     <None Include="gui\gui64\symbols-64.dat" />
