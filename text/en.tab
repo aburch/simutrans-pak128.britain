@@ -3721,7 +3721,7 @@ BR Class 117 DMU (centre trailer)
 BR-117-DMBS
 BR Class 117 DMU (rear)
 BR-123-DMBS
-BR Class 123 inter-city DMU
+BR Class 123 inter-city DMU (rear)
 BR-123-TCK
 BR Class 123 inter-city DMU (corridor trailer)
 BR-123-TS
@@ -3729,7 +3729,7 @@ BR Class 123 inter-city DMU (open trailer)
 BR-123-TBS
 BR Class 123 inter-city DMU (buffet)
 BR-123-DMS
-BR Class 123 inter-city DMU (rear)
+BR Class 123 inter-city DMU 
 BR-128
 BR Class 128 DMU
 LNWR-5ft-6-tank
@@ -4856,7 +4856,7 @@ LightweightDieselBargePiece
 Lightweight Diesel Barge (piece goods)
 LightweightDieselBargeCool
 Lightweight Diesel Barge (cooled goods)
-LightweightDieselBargeOil
+LightweightDieselBargeOel
 Lightweight Diesel Barge (bulk fluids)
 LightweightDieselBargeLivestock
 Lightweight Diesel Barge (livestock)
@@ -4876,7 +4876,7 @@ SteamNarrowboatPiece
 Steam Narrowboat (piece goods)
 SteamNarrowboatCool
 Steam Narrowboat (cooled goods)
-SteamNarrowboatOil
+SteamNarrowboatOel
 Steam Narrowboat (bulk fluids)
 SteamNarrowboatLivestock
 Steam Narrowboat (livestock)
@@ -4888,7 +4888,7 @@ SemiDieselNarrowboatPiece
 Semi-diesel Narrowboat (piece goods)
 SemiDieselNarrowboatCool
 Semi-diesel Narrowboat (cooled goods)
-SemiDieselNarrowboatOil
+SemiDieselNarrowboatOel
 Semi-diesel Narrowboat (bulk fluids)
 SemiDieselNarrowboatLivestock
 Semi-diesel Narrowboat (livestock)
@@ -4900,7 +4900,7 @@ DieselNarrowboatPiece
 Diesel Narrowboat (piece goods)
 DieselNarrowboatCool
 Diesel Narrowboat (cooled goods)
-DieselNarrowboatOil
+DieselNarrowboatOel
 Diesel Narrowboat (bulk fluids)
 DieselNarrowboatLivestock
 Diesel Narrowboat (livestock)
@@ -4912,7 +4912,7 @@ TubBoatPiece
 Tub Boat (piece goods)
 TubBoatCool
 Tub Boat (cooled goods)
-TubBoatOil
+TubBoatOel
 Tub Boat (bulk fluids)
 TubBoatLivestock
 Tub Boat (livestock)
@@ -4924,7 +4924,7 @@ CompositeHullUnpoweredNarrowboatPiece
 Composite Hull Unpowered Narrowboat (piece goods)
 CompositeHullUnpoweredNarrowboatCool
 Composite Hull Unpowered Narrowboat (cooled goods)
-CompositeHullUnpoweredNarrowboatOil
+CompositeHullUnpoweredNarrowboatOel
 Composite Hull Unpowered Narrowboat (bulk fluids)
 CompositeHullUnpoweredNarrowboatLivestock
 Composite Hull Unpowered Narrowboat (livestock)
@@ -4936,7 +4936,7 @@ WoodenHullUnpoweredNarrowboatPiece
 Wooden Hull Unpowered Narrowboat (piece goods)
 WoodenHullUnpoweredNarrowboatCool
 Wooden Hull Unpowered Narrowboat (cooled goods)
-WoodenHullUnpoweredNarrowboatOil
+WoodenHullUnpoweredNarrowboatOel
 Wooden Hull Unpowered Narrowboat (bulk fluids)
 WoodenHullUnpoweredNarrowboatLivestock
 Wooden Hull Unpowered Narrowboat (livestock)
@@ -4948,7 +4948,7 @@ SteelHullUnpoweredNarrowboatPiece
 Steel Hull Unpowered Narrowboat (piece goods)
 SteelHullUnpoweredNarrowboatCool
 Steel Hull Unpowered Narrowboat (cooled goods)
-SteelHullUnpoweredNarrowboatOil
+SteelHullUnpoweredNarrowboatOel
 Steel Hull Unpowered Narrowboat (bulk fluids)
 SteelHullUnpoweredNarrowboatLivestock
 Steel Hull Unpowered Narrowboat (livestock)
@@ -4968,7 +4968,7 @@ DieselBargePiece
 Diesel Barge (piece goods)
 DieselBargeCool
 Diesel Barge (cooled goods)
-DieselBargeOil
+DieselBargeOel
 Diesel Barge (bulk fluids)
 DieselBargeLivestock
 Diesel Barge (livestock)
@@ -4988,7 +4988,7 @@ SteelHullDumbBargePiece
 Steel Hull Dumb Barge (piece goods)
 SteelHullDumbBargeCool
 Steel Hull Dumb Barge (cooled goods)
-SteelHullDumbBargeOil
+SteelHullDumbBargeOel
 Steel Hull Dumb Barge (bulk fluids)
 SteelHullDumbBargeLivestock
 Steel Hull Dumb Barge (livestock)
@@ -5000,7 +5000,7 @@ WoodenHullDumbBargePiece
 Wooden Hull Dumb Barge (piece goods)
 WoodenHullDumbBargeCool
 Wooden Hull Dumb Barge (cooled goods)
-WoodenHullDumbBargeOil
+WoodenHullDumbBargeOel
 Wooden Hull Dumb Barge (bulk fluids)
 WoodenHullDumbBargeLivestock
 Wooden Hull Dumb Barge (livestock)
