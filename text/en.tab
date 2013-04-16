@@ -4378,134 +4378,200 @@ HorseBargePiece
 Unpowered Barge (piece goods)
 HorseBargeCool
 Unpowered Barge (cool goods)
-NorfolkWherryPassenger
-Norfolk Wherry (passengers)
+HorseBargeLivestock
+Unpowered Barge (livestock)
+ClydePufferBulk
+Clyde Puffer (bulk goods)
+ClydePufferLong
+Clyde Puffer (long goods)
+ClydePufferPiece
+Clyde Puffer (piece goods)
+ClydePufferCool
+Clyde Puffer (cooled goods)
+ClydePufferOil
+Clyde Puffer (bulk fluids)
+ClydePufferLivestock
+Clyde Puffer (livestock)
 ClydeSteamer
 Clyde Steamer
-NorfolkWherryMail
-Norfolk Wherry (mail)
-HumberKeelMail
-Humber Keel (mail)
-ThamesSailingBargeMail
-Thames Sailing Barge (mail)
 SeineNetterSteam
 Seine Netter
 SeineNetterDiesel
 Seine Netter
-SteamBargePiece
-Steam Barge (piece goods)
-DieselBargePiece
-Diesel Barge (piece goods)
+NorfolkWherryPassenger
+Norfolk Wherry (passengers)
+NorfolkWherryMail
+Norfolk Wherry (mail)
 NorfolkWherryPiece
 Norfolk Wherry (piece goods)
-HumberKeelPiece
-Humber Keel (piece goods)
-ThamesSailingBargePiece
-Thames Sailing Barge (piece goods)
-ClanLineSteamerPiece
-Clan Line Cargo Steamer (piece goods)
-HandysizePiece
-Handysize Container Ship (piece goods)
-SteamBargeBulk
-Steam Barge (bulk goods)
-DieselBargeBulk
-Diesel Barge (bulk goods)
 NorfolkWherryBulk
 Norfolk Wherry (bulk goods)
-HumberKeelBulk
-Humber Keel (bulk goods)
-ThamesSailingBargeBulk
-Thames Sailing Barge (bulk goods)
-ClanLineSteamerBulk
-Clan Line Cargo Steamer (bulk goods)
-HandysizeBulk
-Handysize Dry Bulk Ship (bulk goods)
-SteamBargeCool
-Steam Barge (cool goods)
-DieselBargeCool
-Diesel Barge (cool goods)
 NorfolkWherryCool
 Norfolk Wherry (cool goods)
-HumberKeelCool
-Humber Keel (cool goods)
-ThamesSailingBargeCool
-Thames Sailing Barge (cool goods)
-ClanLineSteamerCool
-Clan Line Cargo Steamer (cool goods)
-HandysizeCool
-Handysize Container Ship (cool goods)
-SteamBargeLong
-Steam Barge (long goods)
-DieselBargeLong
-Diesel Barge (long goods)
+NorfolkWherryLivestock
+Norfolk Wherry (livestock)
 NorfolkWherryLong
 Norfolk Wherry (long goods)
-HumberKeelLong
-Humber Keel (long goods)
-ThamesSailingBargeLong
-Thames Sailing Barge (long goods)
-ClanLineSteamerLong
-Clan Line Cargo Steamer (long goods)
-HandysizeLong
-Handysize Container Ship (long goods)
+SteamBargePiece
+Steam Barge (piece goods)
+SteamBargeBulk
+Steam Barge (bulk goods)
+SteamBargeCool
+Steam Barge (cool goods)
+SteamBargeLong
+Steam Barge (long goods)
 SteamBargeOil
 Steam Barge (bulk fluids)
+SteamBargeLivestock
+Steam Barge (livestock)
+DieselBargePiece
+Diesel Barge (piece goods)
+DieselBargeBulk
+Diesel Barge (bulk goods)
+DieselBargeCool
+Diesel Barge (cool goods)
+DieselBargeLong
+Diesel Barge (long goods)
 DieselBargeOil
 Diesel Barge (bulk fluids)
+DieselBargeLivestock
+Diesel Barge (livestock)
+HumberKeelMail
+Humber Keel (mail)
+HumberKeelPiece
+Humber Keel (piece goods)
+HumberKeelBulk
+Humber Keel (bulk goods)
+HumberKeelCool
+Humber Keel (cool goods)
+HumberKeelLivestock
+Humber Keel (livestock)
+HumberKeelLong
+Humber Keel (long goods)
+ThamesSailingBargeMail
+Thames Sailing Barge (mail)
+ThamesSailingBargePiece
+Thames Sailing Barge (piece goods)
+ThamesSailingBargeBulk
+Thames Sailing Barge (bulk goods)
+ThamesSailingBargeCool
+Thames Sailing Barge (cool goods)
+ThamesSailingBargeLivestock
+Thames Sailing Barge (livestock
+ThamesSailingBargeLong
+Thames Sailing Barge (long goods)
+ClanLineSteamerPiece
+Clan Line Cargo Steamer (piece goods)
+ClanLineSteamerBulk
+Clan Line Cargo Steamer (bulk goods)
+ClanLineSteamerCool
+Clan Line Cargo Steamer (cool goods)
+ClanLineSteamerLong
+Clan Line Cargo Steamer (long goods)
+ClanLineSteamerLivestock
+Clan Line Steamer (livestock)
+ClanLineSteamerCars
+Clan Line Steamer (cars)
 ClanLineSteamerOil
 Clan Line Cargo Steamer (bulk fluids)
+HandysizePiece
+Handysize Container Ship (piece goods)
+HandysizeBulk
+Handysize Dry Bulk Ship (bulk goods)
+HandysizeCool
+Handysize Container Ship (cool goods)
+HandysizeLong
+Handysize Container Ship (long goods)
 HandysizeOil
 Handysize Tanker (bulk fluids)
-SchoonerBulk
-Schooner (bulk goods)
-SchoonerPiece
-Schooner (piece goods)
-SchoonerCool
-Schooner (cool goods)
-SchoonerLong
-Schooner (long goods)
+HandysizeCars
+Handysize Tanker (cars)
+HandysizeLivestock
+Handysize Tanker (livestock)
+SchoonerHull
+Schooner (hull)
+SchoonerAddPax
+Schooner passenger berths
+SchoonerAddMail
+Schooner mail hold
+SchoonerAddPiece
+Schooner piece goods hold
+SchoonerAddCool
+Schooner cooled goods hold
+SchoonerAddLong
+Schooner long goods hold
+SchoonerAddBulk
+Schooner bulk goods hold
+SchoonerAddLivestock
+Schooner livestock hold
 Dogger
 Dogger
 Fifie
 Fifie
-BrigBulk
-Brig (bulk goods)
-BrigPiece
-Brig (piece goods)
-BrigCool
-Brig (cool goods)
-BrigLong
-Brig (long goods)
-EastIndiamanBulk
-East Indiaman (bulk goods)
-EastIndiamanPiece
-East Indiaman (piece goods)
-EastIndiamanLong
-East Indiaman (long goods)
+BrigHull
+Brig (hull)
+BrigAddPax
+Brig passenger berths
+BrigAddMail
+Brig mail hold
+BrigAddPiece
+Brig piece goods hold
+BrigAddCool
+Brig cooled goods hold
+BrigAddLong
+Brig long goods hold
+BrigAddBulk
+Brig bulk goods hold
+BrigAddLivestock
+Brig livestock hold
+EastIndiamanHull
+East Indiaman (hull)
 EastIndiamanAddPax
-Passenger accomodation for the East Indiaman
+East Indiaman passenger berths
 EastIndiamanAddMail
-Mail accomodation for the East Indiaman
-BlackwallFrigateBulk
-Blackwall Frigate (bulk goods)
-BlackwallFrigatePiece
-Blackwall Frigate (piece goods)
-BlackwallFrigateLong
-Blackwall Frigate (long goods)
+East Indiaman mail hold
+EastIndiamanAddPiece
+East Indiaman piece goods hold
+EastIndiamanAddCool
+East Indiaman cooled goods hold
+EastIndiamanAddLong
+East Indiaman long goods hold
+EastIndiamanAddBulk
+East Indiaman bulk goods hold
+EastIndiamanAddLivestock
+East Indiaman livestock hold
+BlackwallFrigateHull
+Blackwall Frigate (hull)
 BlackwallFrigateAddPax
-Passenger accomodation for the Blackwall Frigate
+Blackwall Frigate passenger berths
 BlackwallFrigateAddMail
-Mail accomodation for the Blackwall Frigate
-ClipperBulk
-Clipper (bulk goods)
-ClipperPiece
-Clipper (piece goods)
-ClipperLong
-Clipper (long goods)
+Blackwall Frigate mail hold
+BlackwallFrigateAddPiece
+Blackwall Frigate piece goods hold
+BlackwallFrigateAddCool
+Blackwall Frigate cooled goods hold
+BlackwallFrigateAddLong
+Blackwall Frigate long goods hold
+BlackwallFrigateAddBulk
+Blackwall Frigate bulk goods hold
+BlackwallFrigateAddLivestock
+Blackwall Frigate livestock hold
+ClipperHull
+Clipper (hull)
 ClipperAddPax
-Passenger accomodation for the Clipper
+Clipper passenger berths
 ClipperAddMail
-Mail accomodation for the Clipper
+Clipper mail hold
+ClipperAddPiece
+Clipper piece goods hold
+ClipperAddCool
+Clipper cooled goods hold
+ClipperAddLong
+Clipper long goods hold
+ClipperAddBulk
+Clipper bulk goods hold
+ClipperAddLivestock
+Clipper livestock hold
 WindjammerBulk
 Windjammer (bulk goods)
 WindjammerPiece
@@ -4514,10 +4580,18 @@ WindjammerLong
 Windjammer (long goods)
 WindjammerFluid
 Windjammer (bulk fluids)
+WindjammerLivestock
+Windjammer (livestock)
 PSComet
 PS Comet
 PSCometMail
 Mail deck
+PSIndustryMail
+PS Industry (mail)
+PSIndustryPiece
+PS Industry (piece goods)
+PSIndustryCool
+PS Industry (cool goods)
 MerseyFerry
 Mersey Ferry
 WoodenPaddleSteamer
@@ -4532,12 +4606,60 @@ SSGreatWestern
 SS Great Western
 SSGreatBritain
 SS Great Britain
+SSGreatBritainAddMail
+Mail storage deck
 SSGreatEastern
 SS Great Eastern
 SSGreatWesternAddMail
 Mail storage deck
 SSGreatEasternAddMail
 Mail storage deck
+ThameslineRiverbus
+Thamesline Riverbus
+FBM-Hydrocat
+FBM Hydrocat catamaran
+River-Runner-150
+River Runner 150 catamaran
+River-Runner-200
+River Runner 200 catamaran
+HSC-WightRyder
+Wight Ryder class catamaran
+HSC-Our-Lady
+Our Lady class catamaran
+HSC-FastCat
+Fastcat class catamaran
+BHT-130
+BHT-130
+BHT-150(Piece)
+BHT-150(piece goods)
+BHC-BHT-150_400(Cool)
+BHT-150(cool goods)
+MDV-1200
+MDV 1200 Class Fast Ferry
+MDV-1200(addmail)
+Mail storage deck
+Incat74m
+Incat 74m Catamaran
+Incat74m(addmail)
+Mail storage Deck
+Incat96m
+Incat 96m Catamaran
+Incat96m(addmail)
+Mail storage deck
+Incat112m
+Incat 112m Catamaran
+Incat112m(addmail)
+Mail storage deck
+HSS-1500
+Stena HSS 1500 Class Catamaran
+HSS-1500(addmail)
+Mail storage deck
+SR-N4-Mountbatten-Mk1
+Saunders Roe N4 "Mountbatten class" Mk1 hovercraft
+SR-N4-Mountbatten-Mk3
+Saunders Roe N4 "Mountbatten class" Mk3 hovercraft
+SR-N6-Winchester
+Saunders Roe N6 "Winchester class" hovercraft
 #____________________________________maglev-vehicle____________________________________
 #____________________________________maglev-vehicle____________________________________
 BR-M-Class9000
