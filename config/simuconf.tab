@@ -761,7 +761,7 @@ curve_friction_factor_narrowgauge=0
 # milliseconds by "unit_reverse_time" (etc.) without "_seconds", but these values
 # had to be adjusted manually to match the meters per tile setting. The old keywords
 # "(unit_reverse_time)" etc. still work, but are overridden by the "..._seconds" version
-# where it is present. 
+# where they are present. 
 
 unit_reverse_time_seconds=60
 hauled_reverse_time_seconds=120
