@@ -184,6 +184,24 @@ Aerospatiale_BAC_Concorde(BritishAirWays)
 Aerospatiale/BAC Concorde
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
+BrickAqueduct
+Brick barge aqueduct
+BrickAqueductNarrow
+Brick narrowboat aqueduct
+BrickAqueductTub
+Brick tub boat aqueduct
+Masonry AqueductBarge
+Masonry barge aqueduct
+MasonryAqueductNarrow
+Masonry narrowboat aqueduct
+MasonryAqueductTub
+Masonry tub boat aqueduct
+ConcreteAqueductBarge
+Concrete barge aqueduct
+ConcreteAqueductNarrow
+Concrete narrowboat aqueduct
+ConcreteAqueductTub
+Concrete tub boat aqueduct
 BrickViaductEarly
 Brick viaduct
 BrickViaduct
@@ -285,29 +303,41 @@ Masonry viaduct
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnelStone
-Stone Rail Tunnel
+Stone rail tunnel
 RailTunnelBrick
-Brick Rail Tunnel
+Brick rail tunnel
 RailTunnelConcrete
-Concrete Rail Tunnel
+Concrete rail tunnel
 RailTunnelHighSpeed
-High Speed Rail Tunnel
+High speed rail tunnel
 RoadTunnelStone
-Stone Road Tunnel
+Stone road tunnel
 RoadTunnelBrick
-Brick Road Tunnel
+Brick road tunnel
 RoadTunnelConcrete
-Concrete Road Tunnel
+Concrete road tunnel
 CanalTunnel
-Canal Tunnel
+Barge canal tunnel
+CanalTunnelNarrow
+Narrowboat canal tunnel
 MaglevTunnelConcrete
-Concrete Maglev Tunnel
+Concrete maglev tunnel
 MaglevTunnelEco
-Lightweight Concrete Maglev Tunnel
+Lightweight concrete maglev tunnel
 LT_Tunnel
 Tube tunnel
 PowerTunnel
 High voltage transmission line tunnel
+Canal
+Barge Canal
+CanalNarrow
+Narrowboat Canal
+CanalTub
+Tub boat Canal
+CanalShip
+Ship Canal
+CanalLargeShip
+Large Ship Canal
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 DCRailCatenary
@@ -1522,26 +1552,6 @@ River2
 River (Navigable)
 River3
 Wide River (Navigable)
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Rail tunnel
-RoadTunnel
-Road tunnel
-RailTunnelStone
-Stone faced tunnel
-RailTunnelBrick
-Brick faced tunnel
-RailTunnelConcrete
-Concrete tunnel
-RoadTunnelStone
-Stone faced tunnel
-RoadTunnelBrick
-Brick faced tunnel
-RoadTunnelConcrete
-Concrete tunnel
-CanalTunnel
-Canal tunnel
 #______________________________________NarrowGaugeVehicle______________________________________
 #______________________________________NarrowGaugeVehicle______________________________________
 Single-ShireNarrow
@@ -4366,148 +4376,152 @@ OptareAlero
 Optare Alero
 #____________________________________water-vehicle____________________________________
 #____________________________________water-vehicle____________________________________
-BoatHorsesDouble
-Pair of horses
-BoatHorsesSingle
-Single horse
-HorseBargeBulk
-Unpowered Barge (bulk goods)
-HorseBargeLong
-Unpowered Barge (long goods)
-HorseBargePiece
-Unpowered Barge (piece goods)
-HorseBargeCool
-Unpowered Barge (cool goods)
-HorseBargeLivestock
-Unpowered Barge (livestock)
 ClydePufferBulk
-Clyde Puffer (bulk goods)
+Clyde puffer (bulk goods)
 ClydePufferLong
-Clyde Puffer (long goods)
+Clyde puffer (long goods)
 ClydePufferPiece
-Clyde Puffer (piece goods)
+Clyde puffer (piece goods)
 ClydePufferCool
-Clyde Puffer (cooled goods)
+Clyde puffer (cooled goods)
 ClydePufferOil
-Clyde Puffer (bulk fluids)
+Clyde puffer (bulk fluids)
 ClydePufferLivestock
-Clyde Puffer (livestock)
-ClydeSteamer
-Clyde Steamer
-SeineNetterSteam
-Seine Netter
-SeineNetterDiesel
-Seine Netter
-NorfolkWherryPassenger
-Norfolk Wherry (passengers)
-NorfolkWherryMail
-Norfolk Wherry (mail)
-NorfolkWherryPiece
-Norfolk Wherry (piece goods)
-NorfolkWherryBulk
-Norfolk Wherry (bulk goods)
-NorfolkWherryCool
-Norfolk Wherry (cool goods)
-NorfolkWherryLivestock
-Norfolk Wherry (livestock)
-NorfolkWherryLong
-Norfolk Wherry (long goods)
-SteamBargePiece
-Steam Barge (piece goods)
-SteamBargeBulk
-Steam Barge (bulk goods)
-SteamBargeCool
-Steam Barge (cool goods)
-SteamBargeLong
-Steam Barge (long goods)
-SteamBargeOil
-Steam Barge (bulk fluids)
-SteamBargeLivestock
-Steam Barge (livestock)
-DieselBargePiece
-Diesel Barge (piece goods)
-DieselBargeBulk
-Diesel Barge (bulk goods)
-DieselBargeCool
-Diesel Barge (cool goods)
-DieselBargeLong
-Diesel Barge (long goods)
-DieselBargeOil
-Diesel Barge (bulk fluids)
-DieselBargeLivestock
-Diesel Barge (livestock)
-HumberKeelMail
-Humber Keel (mail)
-HumberKeelPiece
-Humber Keel (piece goods)
-HumberKeelBulk
-Humber Keel (bulk goods)
-HumberKeelCool
-Humber Keel (cool goods)
-HumberKeelLivestock
-Humber Keel (livestock)
-HumberKeelLong
-Humber Keel (long goods)
-ThamesSailingBargeMail
-Thames Sailing Barge (mail)
-ThamesSailingBargePiece
-Thames Sailing Barge (piece goods)
-ThamesSailingBargeBulk
-Thames Sailing Barge (bulk goods)
-ThamesSailingBargeCool
-Thames Sailing Barge (cool goods)
-ThamesSailingBargeLivestock
-Thames Sailing Barge (livestock
-ThamesSailingBargeLong
-Thames Sailing Barge (long goods)
+Clyde puffer (livestock)
+PSIndustryPiece
+Cargo paddle steamer (piece goods)
+PSIndustryCool
+Cargo paddle steamer (cooled goods)
+PSIndustryMail
+Cargo paddle steamer (mail)
+SR-N6-Winchester
+Saunders Roe N6 "Winchester class" hovercraft
+BHC-AP1-88_100
+BHC AP1-88 100 series hovercraft
+BHC-AP1-88_400(Piece)
+BHC AP1-88 400 series hovercraft (piece goods)
+BHC-AP1-88_400(Cool)
+BHC AP1-88 400 series hovercraft (cooled goods)
+BHT-130
+BHT 130 hovercraft
+BHT-150(Piece)
+BHT 150 hovercraft (piece goods)
+BHT-150(Cool)
+BHT 150 hovercraft (cooled goods)
+SR-N4-Mountbatten-Mk1
+Saunders Roe N4 "Mountbatten class" Mk1 hovercraft
+SR-N4-Mountbatten-Mk3
+Saunders Roe N4 "Mountbatten class" Mk3 hovercraft
+MerseyFerry
+River ferry
+SSGreatWestern
+SS Great Western
+SSGreatBritain
+SS Great Britain
+SSGreatEastern
+SS Great Eastern
+ClipperPiece
+Clipper (piece goods)
+EastIndiamanPiece
+East Indiaman (piece goods)
+BlackwallFrigatePiece
+Blackwall Frigate (piece goods)
 ClanLineSteamerPiece
-Clan Line Cargo Steamer (piece goods)
+Clan Line Steamer (piece goods)
+WindjammerPiece
+Windjammer (piece goods)
+HandysizePiece
+Handysize (piece goods)
+HandysizeCars
+Handysize (cars)
+HandysizeLivestock
+Handysize (livestock)
+ClipperBulk
+Clipper (bulk goods)
+EastIndiamanBulk
+East Indiaman (bulk goods)
+BlackwallFrigateBulk
+Blackwall Frigate (bulk goods)
 ClanLineSteamerBulk
-Clan Line Cargo Steamer (bulk goods)
-ClanLineSteamerCool
-Clan Line Cargo Steamer (cool goods)
-ClanLineSteamerLong
-Clan Line Cargo Steamer (long goods)
-ClanLineSteamerLivestock
-Clan Line Steamer (livestock)
+Clan Line Steamer (bulk goods)
 ClanLineSteamerCars
 Clan Line Steamer (cars)
-ClanLineSteamerOil
-Clan Line Cargo Steamer (bulk fluids)
-HandysizePiece
-Handysize Container Ship (piece goods)
+ClanLineSteamerLivestock
+Clan Line Steamer (livestock)
+WindjammerBulk
+Windjammer (bulk goods)
 HandysizeBulk
-Handysize Dry Bulk Ship (bulk goods)
-HandysizeCool
-Handysize Container Ship (cool goods)
+Handysize (bulk goods)
+ClipperLong
+Clipper (long goods)
+EastIndiamanLong
+East Indiaman (long goods)
+BlackwallFrigateLong
+Blackwall Frigate (long goods)
+ClanLineSteamerLong
+Clan Line steamer (long goods)
+WindjammerLong
+Windjammer (long goods)
 HandysizeLong
-Handysize Container Ship (long goods)
+Handysize (long goods)
+ClanLineSteamerCool
+Clan Line steamer (cooled goods)
+HandysizeCool
+Handysize (cooled goods)
+ClanLineSteamerOil
+Clan Line steamer (bulk fluids)
+WindjammerFluid
+Windjammer (bulk fluids)
 HandysizeOil
-Handysize Tanker (bulk fluids)
-HandysizeCars
-Handysize Tanker (cars)
-HandysizeLivestock
-Handysize Tanker (livestock)
-SchoonerHull
-Schooner (hull)
-SchoonerAddPax
-Schooner passenger berths
-SchoonerAddMail
-Schooner mail hold
-SchoonerAddPiece
-Schooner piece goods hold
-SchoonerAddCool
-Schooner cooled goods hold
-SchoonerAddLong
-Schooner long goods hold
-SchoonerAddBulk
-Schooner bulk goods hold
-SchoonerAddLivestock
-Schooner livestock hold
-Dogger
-Dogger
-Fifie
-Fifie
+Handysize (bulk fluids)
+HorseBargeCool
+Unpowered barge (cooled goods)
+DieselBargeBulk
+Diesel barge (bulk goods)
+DieselBargeCool
+Diesel barge (cool goods)
+DieselBargeLong
+Diesel barge (long goods)
+DieselBargePiece
+Diesel barge (piece goods)
+DieselBargeLivestock
+Diesel barge (livestock)
+SteamBargeLivestock
+Steam barge (livestock)
+HandysizeCar
+Handysize (cars)
+ClanLineSteamerCar
+Clan Line steamer (cars)
+ThameslineRiverbus
+Thamesline Riverbus
+FBM-Hydrocat
+FBM Hydrocat catamaran
+River-Runner-150
+River Runner 150 catamaran
+River-Runner-200
+River Runner 200 catamaran
+HSC-WightRyder
+Wight Ryder class catamaran
+HSC-Our-Lady
+Our Lady class catamaran
+HSC-FastCat
+Fastcat class catamaran
+ClipperHull
+Clipper (hull)
+ClipperAddPax
+Clipper passenger berths
+ClipperAddMail
+Clipper mail hold
+ClipperAddPiece
+Clipper piece goods hold
+ClipperAddCool
+Clipper cooled goods hold
+ClipperAddLong
+Clipper long goods hold
+ClipperAddBulk
+Clipper bulk goods hold
+ClipperAddLivestock
+Clipper livestock hold
 BrigHull
 Brig (hull)
 BrigAddPax
@@ -4524,6 +4538,22 @@ BrigAddBulk
 Brig bulk goods hold
 BrigAddLivestock
 Brig livestock hold
+SchoonerHull
+Schooner (hull)
+SchoonerAddPax
+Schooner passenger berths
+SchoonerAddMail
+Schooner mail hold
+SchoonerAddPiece
+Schooner piece goods hold
+SchoonerAddCool
+Schooner cooled goods hold
+SchoonerAddLong
+Schooner long goods hold
+SchoonerAddBulk
+Schooner bulk goods hold
+SchoonerAddLivestock
+Schooner livestock hold
 EastIndiamanHull
 East Indiaman (hull)
 EastIndiamanAddPax
@@ -4556,110 +4586,416 @@ BlackwallFrigateAddBulk
 Blackwall Frigate bulk goods hold
 BlackwallFrigateAddLivestock
 Blackwall Frigate livestock hold
-ClipperHull
-Clipper (hull)
-ClipperAddPax
-Clipper passenger berths
-ClipperAddMail
-Clipper mail hold
-ClipperAddPiece
-Clipper piece goods hold
-ClipperAddCool
-Clipper cooled goods hold
-ClipperAddLong
-Clipper long goods hold
-ClipperAddBulk
-Clipper bulk goods hold
-ClipperAddLivestock
-Clipper livestock hold
-WindjammerBulk
-Windjammer (bulk goods)
-WindjammerPiece
-Windjammer (piece goods)
-WindjammerLong
-Windjammer (long goods)
-WindjammerFluid
-Windjammer (bulk fluids)
-WindjammerLivestock
-Windjammer (livestock)
-PSComet
-PS Comet
-PSCometMail
-Mail deck
-PSIndustryMail
-PS Industry (mail)
-PSIndustryPiece
-PS Industry (piece goods)
-PSIndustryCool
-PS Industry (cool goods)
-MerseyFerry
-Mersey Ferry
-WoodenPaddleSteamer
-Wooden Paddle Steamer
-WoodenPaddleSteamerMail
-Mail deck
-IronPaddleSteamer
-Iron Paddle Steamer
-IronPaddleSteamerMail
-Mail deck
-SSGreatWestern
-SS Great Western
-SSGreatBritain
-SS Great Britain
-SSGreatBritainAddMail
-Mail storage deck
-SSGreatEastern
-SS Great Eastern
-SSGreatWesternAddMail
-Mail storage deck
-SSGreatEasternAddMail
-Mail storage deck
-ThameslineRiverbus
-Thamesline Riverbus
-FBM-Hydrocat
-FBM Hydrocat catamaran
-River-Runner-150
-River Runner 150 catamaran
-River-Runner-200
-River Runner 200 catamaran
-HSC-WightRyder
-Wight Ryder class catamaran
-HSC-Our-Lady
-Our Lady class catamaran
-HSC-FastCat
-Fastcat class catamaran
-BHT-130
-BHT-130
-BHT-150(Piece)
-BHT-150(piece goods)
-BHC-BHT-150_400(Cool)
-BHT-150(cool goods)
+ThamesSailingBargeCool
+Thames sailing barge (cooled goods)
 MDV-1200
 MDV 1200 Class Fast Ferry
-MDV-1200(addmail)
-Mail storage deck
 Incat74m
 Incat 74m Catamaran
-Incat74m(addmail)
-Mail storage Deck
 Incat96m
 Incat 96m Catamaran
-Incat96m(addmail)
-Mail storage deck
 Incat112m
 Incat 112m Catamaran
-Incat112m(addmail)
-Mail storage deck
 HSS-1500
 Stena HSS 1500 Class Catamaran
-HSS-1500(addmail)
-Mail storage deck
-SR-N4-Mountbatten-Mk1
-Saunders Roe N4 "Mountbatten class" Mk1 hovercraft
-SR-N4-Mountbatten-Mk3
-Saunders Roe N4 "Mountbatten class" Mk3 hovercraft
-SR-N6-Winchester
-Saunders Roe N6 "Winchester class" hovercraft
+ChannelPaddleSteamerHull
+Channel paddle steamer (hull)
+ChannelPaddleSteamerAddPax
+Channel paddle steamer passenger berths
+ChannelPaddleSteamerAddMail
+Channel paddle steamer mail hold
+ChannelPaddleSteamerAddPiece
+Channel paddle steamer piece goods hold
+ChannelPaddleSteamerAddCool
+Channel paddle steamer cooled goods hold
+ChannelPaddleSteamerAddLong
+Channel paddle steamer long goods hold
+ChannelPaddleSteamerAddBulk
+Channel paddle steamer bulk goods hold
+ChannelPaddleSteamerAddLivestock
+Channel paddle steamer livestock hold
+ChannelScrewSteamship
+Channel Screw Steamship
+ChannelScrewSteamshipAddMail
+Channel Screw Steamship mail hold
+SECRQueen
+SECR TS "The Queen" ferry
+SECRQueenAddMail
+SECR TS "The Queen" ferry mail hold
+SRIsleOfThanet
+SR TS "Isle of Thanet" ferry
+SRIsleOfThanetAddMail
+SR TS "Isle of Thanet" ferry mail hold
+BTCLordWarden
+BTC TS "Lord Warden" ferry
+BTCLordWardenAddMail
+BTC TS "Lord Warden" ferry mail hold
+BTCLordWardenAddPiece
+BTC TS "Lord Warden" ferry piece goods hold
+BTCLordWardenAddCool
+BTC TS "Lord Warden" ferry cooled goods hold
+SRInvicta
+SR TS "Invicta" ferry
+SRInvictaAddMail
+SR TS "Invicta" ferry mail hold
+SealinkHorsa
+Sealink MV "Horsa" ferry
+SealinkHorsaAddMail
+Sealink MV "Horsa" ferry mail hold
+SealinkHorsaAddPiece
+Sealink MV "Horsa" ferry piece goods hold
+SealinkHorsaAddCool
+Sealink MV "Horsa" ferry cooled goods hold
+POPride
+P&O Pride class ferry
+POPrideAddMail
+P&O Pride class ferry mail hold
+POPrideAddPiece
+P&O Pride class ferry piece goods hold
+POPrideAddCool
+P&O Pride class ferry cooled goods hold
+POSuperEuropeanMixed
+P&O Super European class mixed ferry
+POSuperEuropeanMixedAddMail
+P&O Super European class mixed ferry mail hold
+POSuperEuropeanMixedAddPiece
+P&O Super European class mixed ferry piece goods hold
+POSuperEuropeanMixedAddCool
+P&O Super European class mixed ferry cooled goods hold
+POSuperEuropeanFreight
+P&O Super European class freight ferry
+POSuperEuropeanFreightAddMail
+P&O Super European class freight ferry mail hold
+POSuperEuropeanFreightAddPiece
+P&O Super European class freight ferry piece goods hold
+POSuperEuropeanFreightAddCool
+P&O Super European class freight ferry cooled goods hold
+POSpirit
+P&O Spirit class ferry
+POSpiritAddMail
+P&O Spirit class ferry mail hold
+POSpiritAddPiece
+P&O Spirit class ferry piece goods hold
+POSpiritAddCool
+P&O Spirit class ferry cooled goods hold
+TTEuropeanFreight
+TT European Class freight ferry
+TTEuropeanFreightAddMail
+TT European Class freight ferry mail hold
+TTEuropeanFreightAddPiece
+TT European Class freight ferry piece goods hold
+TTEuropeanFreightAddCool
+TT European Class freight ferry cooled goods hold
+WindjammerHull
+Windjammer (hull)
+WindjammerAddOil
+Windjammer bulk fluid hold
+WindjammerAddMail
+Windjammer mail hold
+WindjammerAddPiece
+Windjammer piece goods hold
+WindjammerAddCool
+Windjammer cooled goods hold
+WindjammerAddLong
+Windjammer long goods hold
+WindjammerAddBulk
+Windjammer bulk goods hold
+WindjammerAddLivestock
+Windjammer livestock hold
+WoodenPaddleTug
+Wooden paddle steamer Tug
+IronSteamTug
+Iron steam tug
+DieselTug
+Diesel tug
+ClydeCargoSteamerHull
+Clyde Cargo Steamer (hull)
+ClydeCargoSteamerAddOil
+Clyde Cargo Steamer bulk fluid hold
+ClydeCargoSteamerAddMail
+Clyde Cargo Steamer mail hold
+ClydeCargoSteamerAddPiece
+Clyde Cargo Steamer piece goods hold
+ClydeCargoSteamerAddCool
+Clyde Cargo Steamer cooled goods hold
+ClydeCargoSteamerAddLong
+Clyde Cargo Steamer long goods hold
+ClydeCargoSteamerAddBulk
+Clyde Cargo Steamer bulk goods hold
+ClydeCargoSteamerAddLivestock
+Clyde Cargo Steamer livestock hold
+TugBargeLivestock
+Unpowered tug barge (livestock)
+TugBargeBulk
+Unpowered tug barge (bulk goods)
+TugBargeLong
+Unpowered tug barge (long goods)
+TugBargePiece
+Unpowered tug barge (piece goods)
+TugBargeCool
+Unpowered tug barge (cooled goods)
+TugBargeOil
+Unpowered tug barge (bulk fluids)
+Island
+"Island" Class car ferry
+Loch
+"Loch" Class car ferry
+Super-Loch
+"Super Loch" Class car ferry
+IronRiverSteamer
+Iron river paddle steamer
+SteelRiverSteamer
+Steel river paddle steamer
+LargeSteelRiverSteamer
+Large steel river paddle steamer
+IronPaddleSteamer
+Iron coastal paddle steamer
+IronPaddleSteamerMail
+Mail deck
+PSComet
+Paddle steamer with sail
+PSCometMail
+Mail deck
+WoodenPaddleSteamer
+Wooden paddle steamer
+WoodenPaddleSteamerMail
+Mail deck
+IronPaddleSteamerMail
+Mail deck
+MVBalmoral
+Small coastal ferry
+MVLochfyne
+Coastal ferry
+PSChevalier
+Large iron coastal paddle steamer
+PSMadgeWildfire
+Steel coastal paddle steamer
+ClydeSteamer
+Small iron coastal paddle steamer
+PSPremier
+Iron coastal paddle steamer (open deck)
+PSWaverley2
+Compound coastal paddle steamer
+RMSColumba
+Luxury coastal paddle steamer
+TSSKingEdward
+Turbine coastal steamer
+TSSQueenMary
+Large turbine coastal steamer
+TSSQueenMaryMail
+Mail deck
+TSSKingEdwardMail
+Mail deck
+RMSColumbaMail
+Mail deck
+TyneFerry
+Small river ferry
+WoodenRiverSteamer
+Wooden River Steamer
+LightweightDieselBargeBulk
+Lightweight diesel barge (bulk goods)
+LightweightDieselBargeLong
+Lightweight diesel barge (long goods)
+LightweightDieselBargePiece
+Lightweight diesel barge (piece goods)
+LightweightDieselBargeCool
+Lightweight diesel barge (cooled goods)
+LightweightDieselBargeOel
+Lightweight diesel barge (bulk fluids)
+LightweightDieselBargeLivestock
+Lightweight diesel barge (livestock)
+BoxBoatBulk
+Box Boat (bulk goods)
+BoxBoatLong
+Box Boat (long goods)
+BoxBoatPiece
+Box Boat (piece goods)
+BoxBoatCool
+Box Boat (cooled goods)
+SteamNarrowboatBulk
+Steam narrowboat (bulk goods)
+SteamNarrowboatLong
+Steam narrowboat (long goods)
+SteamNarrowboatPiece
+Steam narrowboat (piece goods)
+SteamNarrowboatCool
+Steam narrowboat (cooled goods)
+SteamNarrowboatOel
+Steam narrowboat (bulk fluids)
+SteamNarrowboatLivestock
+Steam narrowboat (livestock)
+SemiDieselNarrowboatBulk
+Semi-diesel narrowboat (bulk goods)
+SemiDieselNarrowboatLong
+Semi-diesel narrowboat (long goods)
+SemiDieselNarrowboatPiece
+Semi-diesel narrowboat (piece goods)
+SemiDieselNarrowboatCool
+Semi-diesel narrowboat (cooled goods)
+SemiDieselNarrowboatOel
+Semi-diesel narrowboat (bulk fluids)
+SemiDieselNarrowboatLivestock
+Semi-diesel narrowboat (livestock)
+DieselNarrowboatBulk
+Diesel narrowboat (bulk goods)
+DieselNarrowboatLong
+Diesel narrowboat (long goods)
+DieselNarrowboatPiece
+Diesel narrowboat (piece goods)
+DieselNarrowboatCool
+Diesel narrowboat (cooled goods)
+DieselNarrowboatOel
+Diesel narrowboat (bulk fluids)
+DieselNarrowboatLivestock
+Diesel narrowboat (livestock)
+TubBoatBulk
+Tub boat (bulk goods)
+TubBoatLong
+Tub boat (long goods)
+TubBoatPiece
+Tub boat (piece goods)
+TubBoatCool
+Tub boat (cooled goods)
+TubBoatOel
+Tub boat (bulk fluids)
+TubBoatLivestock
+Tub boat (livestock)
+CompositeHullUnpoweredNarrowboatBulk
+Composite hull unpowered narrowboat (bulk goods)
+CompositeHullUnpoweredNarrowboatLong
+Composite hull unpowered narrowboat (long goods)
+CompositeHullUnpoweredNarrowboatPiece
+Composite hull unpowered narrowboat (piece goods)
+CompositeHullUnpoweredNarrowboatCool
+Composite hull unpowered narrowboat (cooled goods)
+CompositeHullUnpoweredNarrowboatOel
+Composite hull unpowered narrowboat (bulk fluids)
+CompositeHullUnpoweredNarrowboatLivestock
+Composite hull unpowered narrowboat (livestock)
+WoodenHullUnpoweredNarrowboatBulk
+Wooden hull unpowered narrowboat (bulk goods)
+WoodenHullUnpoweredNarrowboatLong
+Wooden hull unpowered narrowboat (long goods)
+WoodenHullUnpoweredNarrowboatPiece
+Wooden hull unpowered narrowboat (piece goods)
+WoodenHullUnpoweredNarrowboatCool
+Wooden hull unpowered narrowboat (cooled goods)
+WoodenHullUnpoweredNarrowboatOel
+Wooden hull unpowered narrowboat (bulk fluids)
+WoodenHullUnpoweredNarrowboatLivestock
+Wooden hull unpowered narrowboat (livestock)
+SteelHullUnpoweredNarrowboatBulk
+Steel hull unpowered narrowboat (bulk goods)
+SteelHullUnpoweredNarrowboatLong
+Steel hull unpowered narrowboat (long goods)
+SteelHullUnpoweredNarrowboatPiece
+Steel hull unpowered narrowboat (piece goods)
+SteelHullUnpoweredNarrowboatCool
+Steel hull unpowered narrowboat (cooled goods)
+SteelHullUnpoweredNarrowboatOel
+Steel hull unpowered narrowboat (bulk fluids)
+SteelHullUnpoweredNarrowboatLivestock
+Steel hull unpowered narrowboat (livestock)
+TowpathTractor
+Towpath tractor
+BantamPusher
+Bantam pusher
+MarketNarrowboat
+Market narrowboat
+MarketNarrowboatAddMail
+Market narrowboat (mail compartment)
+DieselBargeBulk
+Diesel barge (bulk goods)
+DieselBargeLong
+Diesel barge (long goods)
+DieselBargePiece
+Diesel barge (piece goods)
+DieselBargeCool
+Diesel barge (cooled goods)
+DieselBargeOel
+Diesel barge (bulk fluids)
+DieselBargeLivestock
+Diesel barge (livestock)
+MarketBarge
+Market Barge
+MarketBargeAddMail
+Market Barge(mail compartment)
+PacketBarge
+Packet boat
+PacketBargeAddMail
+Packet boat (mail compartment)
+SteelHullDumbBargeBulk
+Steel hull unpowered barge (bulk goods)
+SteelHullDumbBargeLong
+Steel hull unpowered barge (long goods)
+SteelHullDumbBargePiece
+Steel hull unpowered barge (piece goods)
+SteelHullDumbBargeCool
+Steel hull unpowered barge (cooled goods)
+SteelHullDumbBargeOel
+Steel hull unpowered barge (bulk fluids)
+SteelHullDumbBargeLivestock
+Steel hull unpowered barge (livestock)
+WoodenHullDumbBargeBulk
+Wooden hull unpowered barge (bulk goods)
+WoodenHullDumbBargeLong
+Wooden hull unpowered barge (long goods)
+WoodenHullDumbBargePiece
+Wooden hull unpowered barge (piece goods)
+WoodenHullDumbBargeCool
+Wooden hull unpowered barge (cooled goods)
+WoodenHullDumbBargeOel
+Wooden hull unpowered barge (bulk fluids)
+WoodenHullDumbBargeLivestock
+Wooden hull unpowered barge (livestock)
+FlyboatMail
+Flyboat (mail)
+FlyboatPax
+Flyboat (passenger)
+FlyboatPiece
+Flyboat (piece goods)
+FlyboatCool
+Flyboat (cooled goods)
+SteamBargeTug
+Steam Barge Tug
+SteamNarrowboatTug
+Steam narrowboat Tug
+BoatHorsesFly
+Fly-boat horses
+BoatHorsesDouble
+Boat horses (pair)
+BoatHorsesSingle
+Boat horse
+HorseBargeBulk
+Unpowered horse barge (bulk goods)
+HorseBargeLong
+Unpowered horse barge (long goods)
+HorseBargePiece
+Unpowered horse barge (piece goods)
+HorseBargeLivestock
+Unpowered horse barge (livestock)
+HumberKeelBulk
+Humber keel (bulk goods)
+HumberKeelLong
+Humber keel (long goods)
+HumberKeelPiece
+Humber keel (piece goods)
+HumberKeelLivestock
+Humber keel (livestock)
+NorfolkWherryBulk
+Norfolk wherry (bulk goods)
+NorfolkWherryLivestock
+Norfolk wherry (livestock)
+NorfolkWherryCool
+Norfolk wherry (cool goods)
+NorfolkWherryLong
+Norfolk wherry (long goods)
+NorfolkWherryMail
+Norfolk wherry (mail)
+NorfolkWherryPassenger
+Norfolk wherry (passengers)
+NorfolkWherryPiece
+Norfolk wherry (piece goods)
 #____________________________________maglev-vehicle____________________________________
 #____________________________________maglev-vehicle____________________________________
 BR-M-Class9000
@@ -4784,8 +5120,6 @@ TramTrack
 Tramway tracks
 TramTrackHeavy
 Tramway tracks (heavyweight)
-Canal
-Canal
 GrassTaxiway
 Grass taxiway
 taxiway
