@@ -22,6 +22,9 @@ comfort=96
 min_loading_time=420
 max_loading_time=600
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=IronPaddleSteamerMail
 Constraint[Prev][0]=none
 

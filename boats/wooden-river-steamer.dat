@@ -2,8 +2,8 @@ obj=vehicle
 name=WoodenRiverSteamer
 copyright=jamespetts
 waytype=water
-engine_type=diesel
-smoke=Diesel
+engine_type=steam
+smoke=Steam
 speed=15
 power=120
 gear=1200
@@ -17,6 +17,10 @@ intro_year=1842
 intro_month=1
 retire_year=1866
 retire_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

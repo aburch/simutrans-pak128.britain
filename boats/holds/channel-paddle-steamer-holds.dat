@@ -13,6 +13,8 @@ retire_month=1
 
 length=3
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=ChannelPaddleSteamerHull
 Constraint[Prev][1]=ChannelPaddleSteamerAddBulk
 Constraint[Prev][2]=ChannelPaddleSteamerAddMail
@@ -55,13 +57,15 @@ copyright=James
 waytype=water
 speed=25
 freight=Post
-payload=100
+payload=1000
 intro_year=1853
 intro_month=1
 retire_year=1880
 retire_month=1
 
 length=3
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=ChannelPaddleSteamerHull
 Constraint[Prev][1]=ChannelPaddleSteamerAddBulk
@@ -112,6 +116,8 @@ retire_year=1880
 retire_month=1
 
 length=3
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=ChannelPaddleSteamerHull
 Constraint[Prev][1]=ChannelPaddleSteamerAddBulk
@@ -204,6 +210,8 @@ retire_month=1
 
 length=3
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=ChannelPaddleSteamerHull
 Constraint[Prev][1]=ChannelPaddleSteamerAddBulk
 Constraint[Prev][2]=ChannelPaddleSteamerAddMail
@@ -265,6 +273,8 @@ retire_month=1
 
 length=3
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=ChannelPaddleSteamerHull
 Constraint[Prev][1]=ChannelPaddleSteamerAddBulk
 Constraint[Prev][2]=ChannelPaddleSteamerAddMail
@@ -315,6 +325,8 @@ retire_month=1
 
 length=3
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=ChannelPaddleSteamerHull
 Constraint[Prev][1]=ChannelPaddleSteamerAddBulk
 Constraint[Prev][2]=ChannelPaddleSteamerAddMail
@@ -364,6 +376,8 @@ retire_year=1880
 retire_month=1
 
 length=3
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=ChannelPaddleSteamerHull
 Constraint[Prev][1]=ChannelPaddleSteamerAddBulk

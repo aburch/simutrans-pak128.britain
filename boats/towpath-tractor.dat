@@ -10,12 +10,18 @@ intro_year=1950
 intro_month=1
 
 waytype=water
-length=2
+length=4
 
 weight=10
 cost=100000
 runningcost=15
 sound=-1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong

@@ -14,6 +14,8 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=EastIndiamanHull
 Constraint[Prev][1]=EastIndiamanAddBulk
 Constraint[Prev][2]=EastIndiamanAddMail
@@ -57,13 +59,15 @@ waytype=water
 engine_type=sail
 speed=15
 freight=Post
-payload=100
+payload=1000
 intro_year=1700
 intro_month=1
 retire_year=1830
 retire_month=9
 
 length=3
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=EastIndiamanHull
 Constraint[Prev][1]=EastIndiamanAddBulk
@@ -115,6 +119,8 @@ retire_year=1830
 retire_month=9
 
 length=3
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=EastIndiamanHull
 Constraint[Prev][1]=EastIndiamanAddBulk
@@ -208,6 +214,8 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=EastIndiamanHull
 Constraint[Prev][1]=EastIndiamanAddBulk
 Constraint[Prev][2]=EastIndiamanAddMail
@@ -270,6 +278,8 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=EastIndiamanHull
 Constraint[Prev][1]=EastIndiamanAddBulk
 Constraint[Prev][2]=EastIndiamanAddMail
@@ -321,6 +331,8 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=EastIndiamanHull
 Constraint[Prev][1]=EastIndiamanAddBulk
 Constraint[Prev][2]=EastIndiamanAddMail
@@ -371,6 +383,9 @@ retire_year=1830
 retire_month=9
 
 length=3
+
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=EastIndiamanHull
 Constraint[Prev][1]=EastIndiamanAddBulk

@@ -190,7 +190,7 @@ BrickAqueductNarrow
 Brick narrowboat aqueduct
 BrickAqueductTub
 Brick tub boat aqueduct
-Masonry AqueductBarge
+MasonryAqueductBarge
 Masonry barge aqueduct
 MasonryAqueductNarrow
 Masonry narrowboat aqueduct
@@ -276,8 +276,6 @@ ConcreteSteelCantileverRoad
 Steel cantilever bridge
 PlateGirderRoad
 Plate girder bridge
-BrickAqueduct
-Brick Aqueduct
 PowerBridge
 High voltage transmission line bridge
 MasonryViaductRoad
@@ -1549,7 +1547,11 @@ Stream (Not Navigable)
 River1
 Small River (Navigable)
 River2
-River (Navigable)
+Upstream medium river (Navigable)
+River2a
+Medium river (Navigable)
+River2b
+Downstream medium river (Navigable)
 River3
 Wide River (Navigable)
 #______________________________________NarrowGaugeVehicle______________________________________
@@ -3931,7 +3933,7 @@ Foden Compound (long goods)
 FodenCompoundPiece
 Foden Compound (piece goods)
 FodenCompoundCool
-Foden Compound (cool goods)
+Foden Compound (perishable goods)
 FodenCompoundLivestock
 Foden Compound (livestock)
 SentinelDGBulk
@@ -3941,7 +3943,7 @@ Sentinel DG (long goods)
 SentinelDGPiece
 Sentinel DG (piece goods)
 SentinelDGCool
-Sentinel DG (cool goods)
+Sentinel DG (perishable goods)
 SentinelDGLivestock
 Sentinel DG (livestock)
 SentinelSBulk
@@ -3951,7 +3953,7 @@ Sentinel S (long goods)
 SentinelSPiece
 Sentinel S (piece goods)
 SentinelSCool
-Sentinel S (cool goods)
+Sentinel S (perishable goods)
 SentinelSLivestock
 Sentinel S (livestock)
 SentinelStandardBulk
@@ -3961,7 +3963,7 @@ Sentinel Standard (long goods)
 SentinelStandardPiece
 Sentinel Standard (piece goods)
 SentinelStandardCool
-Sentinel Standard (cool goods)
+Sentinel Standard (perishable goods)
 SentinelStandardLivestock
 Sentinel Standard (livestock)
 ThornycroftWagonBulk
@@ -3971,13 +3973,13 @@ Thornycroft Wagon (long goods)
 ThornycroftWagonPiece
 Thornycroft Wagon (piece goods)
 ThornycroftWagonCool
-Thornycroft Wagon (cool goods)
+Thornycroft Wagon (perishable goods)
 ThornycroftWagonLivestock
 Thornycroft Wagon (livestock)
 ThornycroftSteamVanPiece
 Thornycroft Steam Van (piece goods)
 ThornycroftSteamVanCool
-Thornycroft Steam Van (cool goods)
+Thornycroft Steam Van (perishable goods)
 ThornycroftSteamVanMail
 Thornycroft Steam Van (mail)
 YorkshireSteamTank
@@ -3991,13 +3993,13 @@ McNamara Dennis Van (mail)
 AustinSevenPost
 Austin Seven Van (mail)
 AustinSevenCool
-Austin Seven Van (cool goods)
+Austin Seven Van (perishable goods)
 AustinSevenPiece
 Austin Seven Van (piece goods)
 MorrisEightPost
 Morris Eight Van (mail)
 MorrisEightCool
-Morris Eight Van (cool goods)
+Morris Eight Van (perishable goods)
 MorrisEightPiece
 Morris Eight Van (piece goods)
 ThornycroftBTPost
@@ -4007,7 +4009,7 @@ Thornycroft BT (bulk goods)
 ThornycroftBTPiece
 Thornycroft BT (piece goods)
 ThornycroftBTCool
-Thornycroft BT (cool goods)
+Thornycroft BT (perishable goods)
 ThornycroftBTLong
 Thornycroft BT (long goods)
 ThornycroftBTCars
@@ -4023,7 +4025,7 @@ Thornycroft Q Trailer (bulk goods)
 ThornycroftQArticPiece
 Thornycroft Q Trailer (piece goods)
 ThornycroftQArticCool
-Thornycroft Q Trailer (cool goods)
+Thornycroft Q Trailer (perishable goods)
 ThornycroftQArticLong
 Thornycroft Q Trailer (long goods)
 ThornycroftQArticCars
@@ -4039,7 +4041,7 @@ Thornycroft Amazon Trailer (bulk goods)
 ThornycroftAmazonPiece
 Thornycroft Amazon Trailer (piece goods)
 ThornycroftAmazonCool
-Thornycroft Amazon Trailer (cool goods)
+Thornycroft Amazon Trailer (perishable goods)
 ThornycroftAmazonLong
 Thornycroft Amazon Trailer (long goods)
 ThornycroftAmazonCars
@@ -4053,7 +4055,7 @@ Thornycroft Q Rigid (bulk goods)
 ThornycroftQRigidPiece
 Thornycroft Q Rigid (piece goods)
 ThornycroftQRigidCool
-Thornycroft Q Rigid (cool goods)
+Thornycroft Q Rigid (perishable goods)
 ThornycroftQRigidLong
 Thornycroft Q Rigid (long goods)
 ThornycroftQRigidLivestock
@@ -4067,7 +4069,7 @@ Thornycroft QC Rigid (bulk goods)
 ThornycroftQCPiece
 Thornycroft QC Rigid (piece goods)
 ThornycroftQCCool
-Thornycroft QC Rigid (cool goods)
+Thornycroft QC Rigid (perishable goods)
 ThornycroftQCLong
 Thornycroft QC Rigid (long goods)
 ThornycroftQCLivestock
@@ -4081,7 +4083,7 @@ Thornycroft Stag Rigid (bulk goods)
 ThornycroftStagPiece
 Thornycroft Stag Rigid (piece goods)
 ThornycroftStagCool
-Thornycroft Stag Rigid (cool goods)
+Thornycroft Stag Rigid (perishable goods)
 ThornycroftStagLong
 Thornycroft Stag Rigid (long goods)
 ThornycroftStagLivestock
@@ -4091,13 +4093,13 @@ Thornycroft Stag Rigid (cars)
 AustinMaestroPiece
 Austin Maestro Van (piece goods)
 AustinMaestroCool
-Austin Maestro Van (cool goods)
+Austin Maestro Van (perishable goods)
 AustinMaestroPost
 Austin Maestro Van (mail)
 AustinMorrisEAPiece
 Austin Maestro Van (piece goods)
 AustinMorrisEACool
-Austin Morris EA Van (cool goods)
+Austin Morris EA Van (perishable goods)
 AustinMorrisEAPost
 Austin Morris EA Van (mail)
 DAFCFRigidBulk
@@ -4113,7 +4115,7 @@ DAF LF (long goods)
 DAFLFPiece
 DAF LF (piece goods)
 DAFLFCool
-DAF LF (cool goods)
+DAF LF (perishable goods)
 DAFLFLivestock
 DAF LF (livestock)
 DAFLFPost
@@ -4121,19 +4123,19 @@ DAF LF (mail)
 FordEscortPiece
 Ford Escort Van (piece goods)
 FordEscortCool
-Ford Escort Van (cool goods)
+Ford Escort Van (perishable goods)
 FordEscortPost
 Ford Escort Van (mail)
 FordTransitConnectPiece
 Ford Transit Connect Van (piece goods)
 FordTransitConnectCool
-Ford Transit Connect Van (cool goods)
+Ford Transit Connect Van (perishable goods)
 FordTransitConnectPost
 Ford Transit Connect Van (mail)
 FordTransitPiece
 Ford Transit Van (piece goods)
 FordTransitCool
-Ford Transit Van (cool goods)
+Ford Transit Van (perishable goods)
 FordTransitPost
 Ford Transit Van (mail)
 LeylandDAF95Artic
@@ -4151,7 +4153,7 @@ Large Artic Trailer (long goods)
 LargeArticTrailerPiece
 Large Artic Trailer (piece goods)
 LargeArticTrailerCool
-Large Artic Trailer (cool goods)
+Large Artic Trailer (perishable goods)
 LargeArticTrailerLivestock
 Large Artic Trailer (livestock)
 LargeArticTrailerFluid
@@ -4167,7 +4169,7 @@ Standard Artic Trailer (long goods)
 StandardArticTrailerPiece
 Standard Artic Trailer (piece goods)
 StandardArticTrailerCool
-Standard Artic Trailer (cool goods)
+Standard Artic Trailer (perishable goods)
 StandardArticTrailerLivestock
 Standard Artic Trailer (livestock)
 StandardArticTrailerFluid
@@ -4179,7 +4181,7 @@ Standard Artic Trailer (mail)
 LeylandDAF200Piece
 Leyland DAF 200 (piece goods)
 LeylandDAF200Cool
-Leyland DAF 200 (cool goods)
+Leyland DAF 200 (perishable goods)
 LeylandDAF200Post
 Leyland DAF 200 (mail)
 LeylandDAF65Bulk
@@ -4189,7 +4191,7 @@ Leyland DAF 65 (long goods)
 LeylandDAF65Piece
 Leyland DAF 65 (piece goods)
 LeylandDAF65Cool
-Leyland DAF 65 (cool goods)
+Leyland DAF 65 (perishable goods)
 LeylandDAF65Livestock
 Leyland DAF 65 (livestock)
 LeylandDAF65Post
@@ -4207,7 +4209,7 @@ Leyland G (long goods)
 LeylandGPiece
 Leyland G (piece goods)
 LeylandGCool
-Leyland G (cool goods)
+Leyland G (perishable goods)
 LeylandGLivestock
 Leyland G (livestock)
 LeylandGPost
@@ -4219,7 +4221,7 @@ Leyland Roadrunner (long goods)
 LeylandRoadrunnerPiece
 Leyland Roadrunner (piece goods)
 LeylandRoadrunnerCool
-Leyland Roadrunner (cool goods)
+Leyland Roadrunner (perishable goods)
 LeylandRoadrunnerLivestock
 Leyland Roadrunner (livestock)
 LeylandRoadrunnerPost
@@ -4227,7 +4229,7 @@ Leyland Roadrunner (mail)
 LeylandSherpaPiece
 Leyland Sherpa Van (piece goods)
 LeylandSherpaCool
-Leyland Sherpa Van (cool goods)
+Leyland Sherpa Van (perishable goods)
 LeylandSherpaPost
 Leyland Sherpa Van (mail)
 LeylandT45ConstructorBulk
@@ -4243,7 +4245,7 @@ Morris FG (long goods)
 MorrisFGPiece
 Morris FG (piece goods)
 MorrisFGCool
-Morris FG (cool goods)
+Morris FG (perishable goods)
 MorrisFGLivestock
 Morris FG (livestock)
 MorrisFGPost
@@ -4251,25 +4253,25 @@ Morris FG (mail)
 MorrisJ4Piece
 Morris J4 (piece goods)
 MorrisJ4Cool
-Morris J4 (cool goods)
+Morris J4 (perishable goods)
 MorrisJ4Post
 Morris J4 (mail)
 MorrisLDPiece
 Morris LD (piece goods)
 MorrisLDCool
-Morris LD (cool goods)
+Morris LD (perishable goods)
 MorrisLDPost
 Morris LD (mail)
 MorrisMarinaPiece
 Morris Marina Van (piece goods)
 MorrisMarinaCool
-Morris Marina Van (cool goods)
+Morris Marina Van (perishable goods)
 MorrisMarinaPost
 Morris Marina Van (mail)
 MorrisMinorPiece
 Morris Minor Van (piece goods)
 MorrisMinorCool
-Morris Minor Van (cool goods)
+Morris Minor Van (perishable goods)
 MorrisMinorPost
 Morris Minor Van (mail)
 LeylandT45Roadtrain
@@ -4291,7 +4293,7 @@ Leyland Comet (long goods)
 LeylandCometPiece
 Leyland Comet (piece goods)
 LeylandCometCool
-Leyland Comet (cool goods)
+Leyland Comet (perishable goods)
 LeylandCometLivestock
 Leyland Comet (livestock)
 LeylandCometFluid
@@ -4309,7 +4311,7 @@ Scammell 1955 Trailer (long goods)
 Scammell1955TrailerPiece
 Scammell 1955 Trailer (piece goods)
 Scammell1955TrailerCool
-Scammell 1955 Trailer (cool goods)
+Scammell 1955 Trailer (perishable goods)
 Scammell1955TrailerFluid
 Scammell 1955 Trailer (bulk fluids)
 Scammell1955TrailerCars
@@ -4325,7 +4327,7 @@ Scammell Crusader Trailer (long goods)
 ScammellCrusaderTrailerPiece
 Scammell Crusader Trailer (piece goods)
 ScammellCrusaderTrailerCool
-Scammell Crusader Trailer (cool goods)
+Scammell Crusader Trailer (perishable goods)
 ScammellCrusaderTrailerLivestock
 Scammell Crusader Trailer (livestock)
 ScammellCrusaderTrailerFluid
@@ -4343,7 +4345,7 @@ Scammell Mechanical Horse Trailer (long goods)
 ScammellMechHorseTrailerPiece
 Scammell Mechanical Horse Trailer (piece goods)
 ScammellMechHorseTrailerCool
-Scammell Mechanical Horse Trailer (cool goods)
+Scammell Mechanical Horse Trailer (perishable goods)
 ScammellMechHorseTrailerLivestock
 Scammell Mechanical Horse Trailer (livestock)
 ScammellMechHorseTrailerMail
@@ -4355,7 +4357,7 @@ Scammell Routeman (long goods)
 ScammellRoutemanPiece
 Scammell Routeman (piece goods)
 ScammellRoutemanCool
-Scammell Routeman (cool goods)
+Scammell Routeman (perishable goods)
 ScammellRoutemanLivestock
 Scammell Routeman (livestock)
 ScammellRoutemanFluid
@@ -4365,7 +4367,7 @@ Maudslay Van (bulk goods)
 MaudslayVanPiece
 Maudslay Van (piece goods)
 MaudslayVanCool
-Maudslay Van (cool goods)
+Maudslay Van (perishable goods)
 MaudslayVanLong
 Maudslay Van (long goods)
 MaudslayVanPost
@@ -4389,11 +4391,11 @@ Clyde puffer (bulk fluids)
 ClydePufferLivestock
 Clyde puffer (livestock)
 PSIndustryPiece
-Cargo paddle steamer (piece goods)
+Cargo paddle ship (piece goods)
 PSIndustryCool
-Cargo paddle steamer (cooled goods)
+Cargo paddle ship (cooled goods)
 PSIndustryMail
-Cargo paddle steamer (mail)
+Cargo paddle ship (mail)
 SR-N6-Winchester
 Saunders Roe N6 "Winchester class" hovercraft
 BHC-AP1-88_100
@@ -4427,7 +4429,7 @@ East Indiaman (piece goods)
 BlackwallFrigatePiece
 Blackwall Frigate (piece goods)
 ClanLineSteamerPiece
-Clan Line Steamer (piece goods)
+Clan Line ship (piece goods)
 WindjammerPiece
 Windjammer (piece goods)
 HandysizePiece
@@ -4443,11 +4445,11 @@ East Indiaman (bulk goods)
 BlackwallFrigateBulk
 Blackwall Frigate (bulk goods)
 ClanLineSteamerBulk
-Clan Line Steamer (bulk goods)
+Clan Line ship (bulk goods)
 ClanLineSteamerCars
-Clan Line Steamer (cars)
+Clan Line ship (cars)
 ClanLineSteamerLivestock
-Clan Line Steamer (livestock)
+Clan Line ship (livestock)
 WindjammerBulk
 Windjammer (bulk goods)
 HandysizeBulk
@@ -4459,17 +4461,17 @@ East Indiaman (long goods)
 BlackwallFrigateLong
 Blackwall Frigate (long goods)
 ClanLineSteamerLong
-Clan Line steamer (long goods)
+Clan Line ship (long goods)
 WindjammerLong
 Windjammer (long goods)
 HandysizeLong
 Handysize (long goods)
 ClanLineSteamerCool
-Clan Line steamer (cooled goods)
+Clan Line ship (cooled goods)
 HandysizeCool
 Handysize (cooled goods)
 ClanLineSteamerOil
-Clan Line steamer (bulk fluids)
+Clan Line ship (bulk fluids)
 WindjammerFluid
 Windjammer (bulk fluids)
 HandysizeOil
@@ -4479,7 +4481,7 @@ Unpowered barge (cooled goods)
 DieselBargeBulk
 Diesel barge (bulk goods)
 DieselBargeCool
-Diesel barge (cool goods)
+Diesel barge (perishable goods)
 DieselBargeLong
 Diesel barge (long goods)
 DieselBargePiece
@@ -4491,7 +4493,7 @@ Steam barge (livestock)
 HandysizeCar
 Handysize (cars)
 ClanLineSteamerCar
-Clan Line steamer (cars)
+Clan Line ship (cars)
 ThameslineRiverbus
 Thamesline Riverbus
 FBM-Hydrocat
@@ -4587,7 +4589,15 @@ Blackwall Frigate bulk goods hold
 BlackwallFrigateAddLivestock
 Blackwall Frigate livestock hold
 ThamesSailingBargeCool
-Thames sailing barge (cooled goods)
+Thames sailing barge (perishable goods)
+ThamesSailingBargeBulk
+Thames sailing barge (bulk goods)
+ThamesSailingBargeLong
+Thames sailing barge (long goods)
+ThamesSailingBargePiece
+Thames sailing barge (piece goods)
+ThamesSailingBargeLivestock
+Thames sailing barge (livestock)
 MDV-1200
 MDV 1200 Class Fast Ferry
 Incat74m
@@ -4599,21 +4609,21 @@ Incat 112m Catamaran
 HSS-1500
 Stena HSS 1500 Class Catamaran
 ChannelPaddleSteamerHull
-Channel paddle steamer (hull)
+Channel paddle ship (hull)
 ChannelPaddleSteamerAddPax
-Channel paddle steamer passenger berths
+Channel paddle ship passenger berths
 ChannelPaddleSteamerAddMail
-Channel paddle steamer mail hold
+Channel paddle ship mail hold
 ChannelPaddleSteamerAddPiece
-Channel paddle steamer piece goods hold
+Channel paddle ship piece goods hold
 ChannelPaddleSteamerAddCool
-Channel paddle steamer cooled goods hold
+Channel paddle ship cooled goods hold
 ChannelPaddleSteamerAddLong
-Channel paddle steamer long goods hold
+Channel paddle ship long goods hold
 ChannelPaddleSteamerAddBulk
-Channel paddle steamer bulk goods hold
+Channel paddle ship bulk goods hold
 ChannelPaddleSteamerAddLivestock
-Channel paddle steamer livestock hold
+Channel paddle ship livestock hold
 ChannelScrewSteamship
 Channel Screw Steamship
 ChannelScrewSteamshipAddMail
@@ -4703,39 +4713,43 @@ Windjammer bulk goods hold
 WindjammerAddLivestock
 Windjammer livestock hold
 WoodenPaddleTug
-Wooden paddle steamer Tug
+Wooden paddle river tug
 IronSteamTug
-Iron steam tug
+Iron river tug
 DieselTug
-Diesel tug
+River tug
+SeineNetterDiesel
+Seine Netter
+SeineNetterSteam
+Seine Netter
 ClydeCargoSteamerHull
-Clyde Cargo Steamer (hull)
+Clyde cargo ship (hull)
 ClydeCargoSteamerAddOil
-Clyde Cargo Steamer bulk fluid hold
+Clyde cargo ship bulk fluid hold
 ClydeCargoSteamerAddMail
-Clyde Cargo Steamer mail hold
+Clyde cargo ship mail hold
 ClydeCargoSteamerAddPiece
-Clyde Cargo Steamer piece goods hold
+Clyde cargo ship piece goods hold
 ClydeCargoSteamerAddCool
-Clyde Cargo Steamer cooled goods hold
+Clyde cargo ship cooled goods hold
 ClydeCargoSteamerAddLong
-Clyde Cargo Steamer long goods hold
+Clyde cargo ship long goods hold
 ClydeCargoSteamerAddBulk
-Clyde Cargo Steamer bulk goods hold
+Clyde cargo ship bulk goods hold
 ClydeCargoSteamerAddLivestock
-Clyde Cargo Steamer livestock hold
+Clyde cargo ship livestock hold
 TugBargeLivestock
 Unpowered tug barge (livestock)
 TugBargeBulk
-Unpowered tug barge (bulk goods)
+Unpowered river barge (bulk goods)
 TugBargeLong
-Unpowered tug barge (long goods)
+Unpowered river barge (long goods)
 TugBargePiece
 Unpowered tug barge (piece goods)
 TugBargeCool
-Unpowered tug barge (cooled goods)
+Unpowered river barge (cooled goods)
 TugBargeOil
-Unpowered tug barge (bulk fluids)
+Unpowered river barge (bulk fluids)
 Island
 "Island" Class car ferry
 Loch
@@ -4743,21 +4757,21 @@ Loch
 Super-Loch
 "Super Loch" Class car ferry
 IronRiverSteamer
-Iron river paddle steamer
+Iron river paddle ferry
 SteelRiverSteamer
-Steel river paddle steamer
+Steel river paddle ferry
 LargeSteelRiverSteamer
-Large steel river paddle steamer
+Large steel river paddle ferry
 IronPaddleSteamer
-Iron coastal paddle steamer
+Iron coastal paddle ferry
 IronPaddleSteamerMail
 Mail deck
 PSComet
-Paddle steamer with sail
+Paddle ship with sail
 PSCometMail
 Mail deck
 WoodenPaddleSteamer
-Wooden paddle steamer
+Wooden paddle ship
 WoodenPaddleSteamerMail
 Mail deck
 IronPaddleSteamerMail
@@ -4767,21 +4781,21 @@ Small coastal ferry
 MVLochfyne
 Coastal ferry
 PSChevalier
-Large iron coastal paddle steamer
+Large iron coastal paddle ship
 PSMadgeWildfire
-Steel coastal paddle steamer
+Steel coastal paddle ship
 ClydeSteamer
-Small iron coastal paddle steamer
+Small iron coastal paddle ship
 PSPremier
-Iron coastal paddle steamer (open deck)
+Iron coastal paddle ship (open deck)
 PSWaverley2
-Compound coastal paddle steamer
+Compound coastal paddle ship
 RMSColumba
-Luxury coastal paddle steamer
+Luxury coastal paddle ship
 TSSKingEdward
-Turbine coastal steamer
+Turbine coastal ship
 TSSQueenMary
-Large turbine coastal steamer
+Large turbine coastal ship
 TSSQueenMaryMail
 Mail deck
 TSSKingEdwardMail
@@ -4791,7 +4805,7 @@ Mail deck
 TyneFerry
 Small river ferry
 WoodenRiverSteamer
-Wooden River Steamer
+Wooden river ferry
 LightweightDieselBargeBulk
 Lightweight diesel barge (bulk goods)
 LightweightDieselBargeLong
@@ -4800,7 +4814,7 @@ LightweightDieselBargePiece
 Lightweight diesel barge (piece goods)
 LightweightDieselBargeCool
 Lightweight diesel barge (cooled goods)
-LightweightDieselBargeOel
+LightweightDieselBargeOil
 Lightweight diesel barge (bulk fluids)
 LightweightDieselBargeLivestock
 Lightweight diesel barge (livestock)
@@ -4820,7 +4834,7 @@ SteamNarrowboatPiece
 Steam narrowboat (piece goods)
 SteamNarrowboatCool
 Steam narrowboat (cooled goods)
-SteamNarrowboatOel
+SteamNarrowboatOil
 Steam narrowboat (bulk fluids)
 SteamNarrowboatLivestock
 Steam narrowboat (livestock)
@@ -4832,7 +4846,7 @@ SemiDieselNarrowboatPiece
 Semi-diesel narrowboat (piece goods)
 SemiDieselNarrowboatCool
 Semi-diesel narrowboat (cooled goods)
-SemiDieselNarrowboatOel
+SemiDieselNarrowboatOil
 Semi-diesel narrowboat (bulk fluids)
 SemiDieselNarrowboatLivestock
 Semi-diesel narrowboat (livestock)
@@ -4844,7 +4858,7 @@ DieselNarrowboatPiece
 Diesel narrowboat (piece goods)
 DieselNarrowboatCool
 Diesel narrowboat (cooled goods)
-DieselNarrowboatOel
+DieselNarrowboatOil
 Diesel narrowboat (bulk fluids)
 DieselNarrowboatLivestock
 Diesel narrowboat (livestock)
@@ -4856,7 +4870,7 @@ TubBoatPiece
 Tub boat (piece goods)
 TubBoatCool
 Tub boat (cooled goods)
-TubBoatOel
+TubBoatOil
 Tub boat (bulk fluids)
 TubBoatLivestock
 Tub boat (livestock)
@@ -4868,7 +4882,7 @@ CompositeHullUnpoweredNarrowboatPiece
 Composite hull unpowered narrowboat (piece goods)
 CompositeHullUnpoweredNarrowboatCool
 Composite hull unpowered narrowboat (cooled goods)
-CompositeHullUnpoweredNarrowboatOel
+CompositeHullUnpoweredNarrowboatOil
 Composite hull unpowered narrowboat (bulk fluids)
 CompositeHullUnpoweredNarrowboatLivestock
 Composite hull unpowered narrowboat (livestock)
@@ -4880,7 +4894,7 @@ WoodenHullUnpoweredNarrowboatPiece
 Wooden hull unpowered narrowboat (piece goods)
 WoodenHullUnpoweredNarrowboatCool
 Wooden hull unpowered narrowboat (cooled goods)
-WoodenHullUnpoweredNarrowboatOel
+WoodenHullUnpoweredNarrowboatOil
 Wooden hull unpowered narrowboat (bulk fluids)
 WoodenHullUnpoweredNarrowboatLivestock
 Wooden hull unpowered narrowboat (livestock)
@@ -4892,7 +4906,7 @@ SteelHullUnpoweredNarrowboatPiece
 Steel hull unpowered narrowboat (piece goods)
 SteelHullUnpoweredNarrowboatCool
 Steel hull unpowered narrowboat (cooled goods)
-SteelHullUnpoweredNarrowboatOel
+SteelHullUnpoweredNarrowboatOil
 Steel hull unpowered narrowboat (bulk fluids)
 SteelHullUnpoweredNarrowboatLivestock
 Steel hull unpowered narrowboat (livestock)
@@ -4912,7 +4926,7 @@ DieselBargePiece
 Diesel barge (piece goods)
 DieselBargeCool
 Diesel barge (cooled goods)
-DieselBargeOel
+DieselBargeOil
 Diesel barge (bulk fluids)
 DieselBargeLivestock
 Diesel barge (livestock)
@@ -4932,7 +4946,7 @@ SteelHullDumbBargePiece
 Steel hull unpowered barge (piece goods)
 SteelHullDumbBargeCool
 Steel hull unpowered barge (cooled goods)
-SteelHullDumbBargeOel
+SteelHullDumbBargeOil
 Steel hull unpowered barge (bulk fluids)
 SteelHullDumbBargeLivestock
 Steel hull unpowered barge (livestock)
@@ -4944,7 +4958,7 @@ WoodenHullDumbBargePiece
 Wooden hull unpowered barge (piece goods)
 WoodenHullDumbBargeCool
 Wooden hull unpowered barge (cooled goods)
-WoodenHullDumbBargeOel
+WoodenHullDumbBargeOil
 Wooden hull unpowered barge (bulk fluids)
 WoodenHullDumbBargeLivestock
 Wooden hull unpowered barge (livestock)
@@ -4957,9 +4971,9 @@ Flyboat (piece goods)
 FlyboatCool
 Flyboat (cooled goods)
 SteamBargeTug
-Steam Barge Tug
+Steam Barge tug
 SteamNarrowboatTug
-Steam narrowboat Tug
+Steam narrowboat tug
 BoatHorsesFly
 Fly-boat horses
 BoatHorsesDouble
@@ -4974,6 +4988,8 @@ HorseBargePiece
 Unpowered horse barge (piece goods)
 HorseBargeLivestock
 Unpowered horse barge (livestock)
+HumberKeelMail
+Humber keel (mail)
 HumberKeelBulk
 Humber keel (bulk goods)
 HumberKeelLong
@@ -4982,12 +4998,14 @@ HumberKeelPiece
 Humber keel (piece goods)
 HumberKeelLivestock
 Humber keel (livestock)
+HumberKeelCool
+Humber keel (perishable goods)
 NorfolkWherryBulk
 Norfolk wherry (bulk goods)
 NorfolkWherryLivestock
 Norfolk wherry (livestock)
 NorfolkWherryCool
-Norfolk wherry (cool goods)
+Norfolk wherry (perishable goods)
 NorfolkWherryLong
 Norfolk wherry (long goods)
 NorfolkWherryMail
@@ -5524,15 +5542,15 @@ Tramway
 Prohibitive 1
 Tube tunnel
 Prohibitive 2
-Small waterway
+Barge canal/small river
 Prohibitive 3
-[Unused] Prohibitive 3
+Tub boat canal
 Prohibitive 4
-[Unused] Prohibitive 4
+Narrow canal
 Prohibitive 5
-[Unused] Prohibitive 5
+Ship canal/medium river
 Prohibitive 6
-[Unused] Prohibitive 6
+Large ship canal/large river
 Prohibitive 7
 [Unused] Prohibitive 7
 #___________________________________Livery schemes___________________________________

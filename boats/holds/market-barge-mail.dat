@@ -4,13 +4,18 @@ copyright=James
 waytype=water
 speed=7
 freight=Post
-payload=20
+payload=200
 intro_year=1761
 intro_month=1
 retire_year=1802
 retire_month=1
 
 length=3
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=MarketBarge
 Constraint[Next][0]=none

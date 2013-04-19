@@ -2,6 +2,7 @@ Obj=bridge
 name=BrickAqueductTub
 waytype=water
 topspeed=20
+max_weight=100
 intro_year=1850
 intro_month=1
 retire_year=1950
@@ -10,6 +11,10 @@ cost=45000
 maintenance=600
 pillar_distance=1
 pillar_asymmetric=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[3]=3 # Tub
+
 cursor=images/brick-aqueduct-tub.2.1
 icon=> images/brick-aqueduct-tub.2.0
 BackImage[NS][0]=images/brick-aqueduct-tub.0.5,0,32

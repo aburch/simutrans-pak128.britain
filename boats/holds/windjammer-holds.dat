@@ -13,6 +13,9 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=WindjammerHull
 Constraint[Prev][1]=WindjammerAddBulk
 Constraint[Prev][2]=WindjammerAddMail
@@ -64,6 +67,9 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=WindjammerHull
 Constraint[Prev][1]=WindjammerAddBulk
 Constraint[Prev][2]=WindjammerAddMail
@@ -114,6 +120,9 @@ retire_year=1939
 retire_month=9
 
 length=3
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=WindjammerHull
 Constraint[Prev][1]=WindjammerAddBulk
@@ -207,6 +216,9 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=WindjammerHull
 Constraint[Prev][1]=WindjammerAddBulk
 Constraint[Prev][2]=WindjammerAddMail
@@ -269,6 +281,9 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=WindjammerHull
 Constraint[Prev][1]=WindjammerAddBulk
 Constraint[Prev][2]=WindjammerAddMail
@@ -320,6 +335,9 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=WindjammerHull
 Constraint[Prev][1]=WindjammerAddBulk
 Constraint[Prev][2]=WindjammerAddMail
@@ -370,6 +388,9 @@ retire_year=1939
 retire_month=9
 
 length=3
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=WindjammerHull
 Constraint[Prev][1]=WindjammerAddBulk

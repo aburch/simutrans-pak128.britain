@@ -18,6 +18,8 @@ intro_month=1
 retire_year=1880
 retire_month=1
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=ChannelPaddleSteamerAddMail
 Constraint[Next][1]=ChannelPaddleSteamerAddPax
 Constraint[Next][2]=ChannelPaddleSteamerAddLivestock

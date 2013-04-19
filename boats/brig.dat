@@ -15,6 +15,9 @@ intro_month=1
 retire_year=1880
 retire_month=6
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=BrigAddPax
 Constraint[Next][1]=BrigAddBulk
 Constraint[Next][2]=BrigAddMail

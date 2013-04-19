@@ -6,6 +6,10 @@ maintenance=150
 topspeed=30
 intro_year = 1750
 intro_month = 1
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[4]=4
+
 icon=> ./images/canal-narrow.3.4
 cursor=./images/canal-narrow.3.5
 Image[-][0]=./images/canal-narrow.1.2

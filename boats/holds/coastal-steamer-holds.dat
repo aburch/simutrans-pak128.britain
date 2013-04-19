@@ -4,7 +4,7 @@ copyright=James
 waytype=water
 speed=38
 freight=Post
-payload=200
+payload=2000
 weight=1
 length=3
 cost=20000
@@ -13,6 +13,9 @@ intro_year=1901
 intro_month=1
 retire_year=1933
 retire_month=1
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=TSSKingEdward
@@ -42,7 +45,7 @@ copyright=James
 waytype=water
 speed=18
 freight=Post
-payload=50
+payload=500
 weight=1
 length=3
 cost=20000
@@ -51,6 +54,9 @@ intro_year=1820
 intro_month=5
 retire_year=1860
 retire_month=3
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=WoodenPaddleSteamer
@@ -80,7 +86,7 @@ copyright=James
 waytype=water
 speed=40
 freight=Post
-payload=200
+payload=2000
 weight=1
 length=3
 cost=20000
@@ -89,6 +95,9 @@ intro_year=1933
 intro_month=1
 retire_year=1960
 retire_month=1
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=TSSQueenMary
@@ -117,7 +126,7 @@ copyright=James
 waytype=water
 speed=35
 freight=Post
-payload=200
+payload=2000
 weight=1
 length=3
 cost=20000
@@ -154,7 +163,7 @@ copyright=James
 waytype=water
 speed=22
 freight=Post
-payload=100
+payload=1000
 weight=1
 length=3
 cost=20000
@@ -164,6 +173,8 @@ intro_month=2
 retire_year=1877
 retire_month=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=IronPaddleSteamer
@@ -193,7 +204,7 @@ copyright=James
 waytype=water
 speed=25
 freight=Post
-payload=150
+payload=1500
 weight=1
 length=3
 cost=20000
@@ -203,6 +214,8 @@ intro_month=1
 retire_year=1886
 retire_month=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=PSChevalier
@@ -231,7 +244,7 @@ copyright=James
 waytype=water
 speed=35
 freight=Post
-payload=200
+payload=2000
 weight=1
 length=3
 cost=20000
@@ -241,6 +254,8 @@ intro_month=1
 retire_year=1948
 retire_month=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=PSWaverley2
@@ -269,7 +284,7 @@ copyright=James
 waytype=water
 speed=30
 freight=Post
-payload=200
+payload=2000
 weight=1
 length=3
 cost=20000
@@ -279,6 +294,8 @@ intro_month=1
 retire_year=1899
 retire_month=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=PSMadgeWildfire
@@ -307,7 +324,7 @@ copyright=James
 waytype=water
 speed=15
 freight=Post
-payload=20
+payload=200
 weight=1
 length=3
 cost=20000
@@ -316,6 +333,9 @@ intro_year=1812
 intro_month=5
 retire_year=1840
 retire_month=6
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=PSComet

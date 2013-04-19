@@ -18,6 +18,12 @@ intro_month=1
 retire_year=1920
 retire_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong
@@ -122,6 +128,12 @@ intro_month=1
 retire_year=1920
 retire_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong
@@ -206,6 +218,12 @@ intro_month=1
 retire_year=1920
 retire_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong
@@ -259,6 +277,12 @@ intro_year=1905
 intro_month=1
 retire_year=1920
 retire_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
@@ -315,6 +339,12 @@ intro_month=1
 retire_year=1920
 retire_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk
 Constraint[Next][1]=SteelHullUnpoweredNarrowboatLong
@@ -369,6 +399,12 @@ intro_year=1905
 intro_month=1
 retire_year=1920
 retire_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullUnpoweredNarrowboatBulk

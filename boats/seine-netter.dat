@@ -15,6 +15,9 @@ runningcost=100
 intro_year=1927
 intro_month=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -46,6 +49,9 @@ intro_year=1864
 intro_month=1
 retire_year=1927
 retire_month=1
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

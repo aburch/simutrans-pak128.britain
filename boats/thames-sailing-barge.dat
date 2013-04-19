@@ -20,8 +20,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/thames-sailing-barge-empty.1.0
 EmptyImage[SE]=./images/thames-sailing-barge-empty.1.1
@@ -105,8 +106,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/thames-sailing-barge-empty.1.0
 EmptyImage[SE]=./images/thames-sailing-barge-empty.1.1
@@ -161,8 +163,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/thames-sailing-barge-empty.1.0
 EmptyImage[SE]=./images/thames-sailing-barge-empty.1.1
@@ -204,8 +207,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/thames-sailing-barge-empty.1.0
 EmptyImage[SE]=./images/thames-sailing-barge-empty.1.1
@@ -247,8 +251,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/thames-sailing-barge-empty.1.0
 EmptyImage[SE]=./images/thames-sailing-barge-empty.1.1

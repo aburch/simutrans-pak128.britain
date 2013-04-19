@@ -14,6 +14,9 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=SchoonerHull
 Constraint[Prev][1]=SchoonerAddBulk
 Constraint[Prev][2]=SchoonerAddMail
@@ -57,13 +60,16 @@ waytype=water
 engine_type=sail
 speed=18
 freight=Post
-payload=25
+payload=250
 intro_year=1820
 intro_month=1
 retire_year=1925
 retire_month=9
 
 length=3
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=SchoonerHull
 Constraint[Prev][1]=SchoonerAddBulk
@@ -115,6 +121,9 @@ retire_year=1925
 retire_month=9
 
 length=3
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=SchoonerHull
 Constraint[Prev][1]=SchoonerAddBulk
@@ -208,6 +217,9 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=SchoonerHull
 Constraint[Prev][1]=SchoonerAddBulk
 Constraint[Prev][2]=SchoonerAddMail
@@ -270,6 +282,9 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=SchoonerHull
 Constraint[Prev][1]=SchoonerAddBulk
 Constraint[Prev][2]=SchoonerAddMail
@@ -321,6 +336,9 @@ retire_month=9
 
 length=3
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=SchoonerHull
 Constraint[Prev][1]=SchoonerAddBulk
 Constraint[Prev][2]=SchoonerAddMail
@@ -371,6 +389,9 @@ retire_year=1925
 retire_month=9
 
 length=3
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=SchoonerHull
 Constraint[Prev][1]=SchoonerAddBulk

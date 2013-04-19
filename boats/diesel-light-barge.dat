@@ -16,6 +16,11 @@ runningcost=2
 intro_year=1950
 intro_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
@@ -104,6 +109,11 @@ runningcost=2
 intro_year=1950
 intro_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
@@ -162,6 +172,11 @@ runningcost=2
 intro_year=1950
 intro_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
@@ -208,6 +223,11 @@ cost=20000
 runningcost=2
 intro_year=1950
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullDumbBargeBulk
@@ -257,6 +277,11 @@ runningcost=2
 intro_year=1950
 intro_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
@@ -304,6 +329,11 @@ cost=20000
 runningcost=2
 intro_year=1950
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=SteelHullDumbBargeBulk

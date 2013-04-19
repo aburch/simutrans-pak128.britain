@@ -16,6 +16,8 @@ runningcost=9
 intro_year=2005
 intro_month=1
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 

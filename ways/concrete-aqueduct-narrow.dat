@@ -8,6 +8,10 @@ cost=45000
 maintenance=600
 pillar_distance=1
 pillar_asymmetric=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[4]=4 # Narrow
+
 cursor=images/concrete-aqueduct-narrow.2.1
 icon=> images/concrete-aqueduct-narrow.2.0
 BackImage[NS][0]=images/concrete-aqueduct-narrow.0.5,0,32

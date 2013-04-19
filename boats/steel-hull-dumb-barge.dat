@@ -6,11 +6,16 @@ speed=11
 freight=Kohle
 payload=50
 weight=15
-length=8
+length=9
 cost=20000
 runningcost=2
 intro_year=1930
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=DieselBargeBulk
 Constraint[Prev][1]=DieselBargeLong
@@ -100,11 +105,16 @@ speed=11
 freight=Bretter
 payload=50
 weight=15
-length=8
+length=9
 cost=20000
 runningcost=2
 intro_year=1930
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=DieselBargeBulk
 Constraint[Prev][1]=DieselBargeLong
@@ -164,11 +174,16 @@ speed=11
 freight=vegetables
 payload=50
 weight=15
-length=8
+length=9
 cost=20000
 runningcost=2
 intro_year=1930
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=DieselBargeBulk
 Constraint[Prev][1]=DieselBargeLong
@@ -217,11 +232,16 @@ speed=11
 freight=fish
 payload=50
 weight=15
-length=8
+length=9
 cost=20000
 runningcost=2
 intro_year=1930
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=DieselBargeBulk
 Constraint[Prev][1]=DieselBargeLong
@@ -271,11 +291,16 @@ speed=11
 freight=Oel
 payload=50
 weight=15
-length=8
+length=9
 cost=20000
 runningcost=2
 intro_year=1930
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=DieselBargeBulk
 Constraint[Prev][1]=DieselBargeLong
@@ -325,11 +350,16 @@ speed=11
 freight=livestock
 payload=50
 weight=15
-length=8
+length=9
 cost=20000
 runningcost=2
 intro_year=1930
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=DieselBargeBulk
 Constraint[Prev][1]=DieselBargeLong

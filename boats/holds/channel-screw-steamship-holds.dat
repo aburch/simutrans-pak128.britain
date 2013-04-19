@@ -4,13 +4,15 @@ copyright=James
 waytype=water
 speed=30
 freight=Post
-payload=100
+payload=1000
 intro_year=1880
 intro_month=1
 retire_year=1903
 retire_month=1
 
 length=3
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=ChannelScrewSteamship
 Constraint[Next][0]=none

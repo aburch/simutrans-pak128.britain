@@ -19,6 +19,9 @@ intro_month=1
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 EmptyImage[E]=./images/fbm-hydrocat.1.0
 EmptyImage[SE]=./images/fbm-hydrocat.1.1
 EmptyImage[S]=./images/fbm-hydrocat.1.2

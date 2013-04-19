@@ -14,6 +14,12 @@ intro_month=1
 retire_year=1920
 retire_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=DieselNarrowboatBulk
 Constraint[Prev][1]=DieselNarrowboatLong
 Constraint[Prev][2]=DieselNarrowboatPiece
@@ -116,6 +122,12 @@ intro_month=1
 retire_year=1920
 retire_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=DieselNarrowboatBulk
 Constraint[Prev][1]=DieselNarrowboatLong
 Constraint[Prev][2]=DieselNarrowboatPiece
@@ -198,6 +210,12 @@ intro_month=1
 retire_year=1920
 retire_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=DieselNarrowboatBulk
 Constraint[Prev][1]=DieselNarrowboatLong
 Constraint[Prev][2]=DieselNarrowboatPiece
@@ -249,6 +267,12 @@ intro_year=1850
 intro_month=1
 retire_year=1920
 retire_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=DieselNarrowboatBulk
 Constraint[Prev][1]=DieselNarrowboatLong
@@ -303,6 +327,12 @@ intro_month=1
 retire_year=1920
 retire_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=DieselNarrowboatBulk
 Constraint[Prev][1]=DieselNarrowboatLong
 Constraint[Prev][2]=DieselNarrowboatPiece
@@ -354,6 +384,12 @@ intro_year=1850
 intro_month=1
 retire_year=1920
 retire_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=DieselNarrowboatBulk
 Constraint[Prev][1]=DieselNarrowboatLong

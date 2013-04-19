@@ -4,13 +4,15 @@ copyright=James
 waytype=water
 speed=40
 freight=Post
-payload=100
+payload=1000
 intro_year=1939
 intro_month=1
 retire_year=1952
 retire_month=1
 
 length=3
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=SRInvicta
 Constraint[Next][0]=none

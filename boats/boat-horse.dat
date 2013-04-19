@@ -10,8 +10,14 @@ intro_month=1
 retire_year=1918
 retire_month=1
 waytype=water
-length=2
+length=4
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=BoxBoatBulk
@@ -87,7 +93,14 @@ intro_month=1
 retire_year=1918
 retire_month=1
 waytype=water
-length=2
+length=4
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=BoxBoatBulk
@@ -163,8 +176,19 @@ intro_month=1
 retire_year=1918
 retire_month=1
 waytype=water
-length=2
+length=4
 
+weight=1
+cost=100000
+runningcost=15
+sound=-1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=FlyboatPiece
@@ -173,12 +197,6 @@ Constraint[Next][2]=FlyboatMail
 Constraint[Next][3]=FlyboatPax
 Constraint[Next][4]=SteelHullDumbBargeBulk
 Constraint[Next][5]=none
-
-
-weight=1
-cost=100000
-runningcost=15
-sound=-1
 
 EmptyImage[E]=./images/boat-horse-double.0.0
 EmptyImage[SE]=./images/boat-horse-double.0.1

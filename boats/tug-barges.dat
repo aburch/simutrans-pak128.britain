@@ -15,6 +15,10 @@ intro_month=1
 retire_year=1841
 retire_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=TugBargeLivestock
 Constraint[Next][1]=TugBargeBulk
 Constraint[Next][2]=TugBargePiece
@@ -51,6 +55,10 @@ intro_month=1
 retire_year=1935
 retire_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=TugBargeLivestock
 Constraint[Next][1]=TugBargeBulk
 Constraint[Next][2]=TugBargePiece
@@ -85,6 +93,9 @@ runningcost=2
 intro_year=1935
 intro_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=TugBargeLivestock
 Constraint[Next][1]=TugBargeBulk
@@ -107,7 +118,7 @@ EmptyImage[NE]=./images/diesel-tug.1.7,12,0
 ---
 
 obj=vehicle
-name=ThamesSailingBargeBulk
+name=TugBargeBulk
 copyright=James
 waytype=water
 speed=20
@@ -119,6 +130,10 @@ cost=20000
 runningcost=2
 intro_year=1816
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=TugBargeLivestock
 Constraint[Next][1]=TugBargeBulk
@@ -212,6 +227,10 @@ runningcost=2
 intro_year=1816
 intro_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=TugBargeLivestock
 Constraint[Next][1]=TugBargeBulk
 Constraint[Next][2]=TugBargePiece
@@ -274,6 +293,10 @@ runningcost=2
 intro_year=1816
 intro_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=TugBargeLivestock
 Constraint[Next][1]=TugBargeBulk
 Constraint[Next][2]=TugBargePiece
@@ -323,6 +346,10 @@ cost=20000
 runningcost=2
 intro_year=1816
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=TugBargeLivestock
 Constraint[Next][1]=TugBargeBulk
@@ -375,6 +402,10 @@ runningcost=2
 intro_year=1816
 intro_month=1
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=TugBargeLivestock
 Constraint[Next][1]=TugBargeBulk
 Constraint[Next][2]=TugBargePiece
@@ -424,6 +455,10 @@ cost=20000
 runningcost=2
 intro_year=1816
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=TugBargeLivestock
 Constraint[Next][1]=TugBargeBulk

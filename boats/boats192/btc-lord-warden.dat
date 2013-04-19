@@ -18,6 +18,8 @@ intro_month=1
 retire_year=1972
 retire_month=1
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=BTCLordWardenAddMail
 Constraint[Next][1]=BTCLordWardenAddPiece
 Constraint[Next][2]=BTCLordWardenAddCool

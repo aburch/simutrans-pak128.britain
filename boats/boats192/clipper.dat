@@ -15,6 +15,8 @@ intro_month=1
 retire_year=1900
 retire_month=9
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
 Constraint[Next][2]=ClipperAddMail

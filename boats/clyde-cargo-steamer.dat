@@ -16,6 +16,9 @@ intro_month=1
 retire_year=1912
 retire_month=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=ClydeCargoSteamerAddMail
 Constraint[Next][1]=ClydeCargoSteamerAddLivestock
 Constraint[Next][2]=ClydeCargoSteamerAddPiece

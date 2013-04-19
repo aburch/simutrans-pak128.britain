@@ -18,6 +18,9 @@ intro_month=1
 retire_year=1950
 retire_month=6
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -101,6 +104,9 @@ intro_month=1
 retire_year=1950
 retire_month=6
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -154,6 +160,9 @@ intro_month=1
 retire_year=1950
 retire_month=6
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -198,6 +207,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 EmptyImage[E]=./images/clyde-puffer-empty.1.0
 EmptyImage[SE]=./images/clyde-puffer-empty.1.1
 EmptyImage[S]=./images/clyde-puffer-empty.1.2
@@ -235,6 +247,9 @@ intro_year=1856
 intro_month=1
 retire_year=1950
 retire_month=6
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -276,6 +291,9 @@ intro_year=1856
 intro_month=1
 retire_year=1950
 retire_month=6
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

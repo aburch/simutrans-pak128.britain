@@ -18,6 +18,8 @@ intro_month=1
 retire_year=2005
 intro_month=1
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
@@ -49,6 +51,8 @@ intro_year=1983
 intro_month=1
 retire_year=2005
 intro_month=1
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
@@ -90,6 +94,8 @@ intro_year=1983
 intro_month=1
 retire_year=2005
 intro_month=1
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

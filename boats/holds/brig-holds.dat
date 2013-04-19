@@ -14,6 +14,9 @@ retire_month=9
 
 length=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BrigHull
 Constraint[Prev][1]=BrigAddBulk
 Constraint[Prev][2]=BrigAddMail
@@ -65,6 +68,9 @@ retire_month=9
 
 length=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BrigHull
 Constraint[Prev][1]=BrigAddBulk
 Constraint[Prev][2]=BrigAddMail
@@ -115,6 +121,9 @@ retire_year=1880
 retire_month=9
 
 length=1
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=BrigHull
 Constraint[Prev][1]=BrigAddBulk
@@ -208,6 +217,9 @@ retire_month=9
 
 length=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BrigHull
 Constraint[Prev][1]=BrigAddBulk
 Constraint[Prev][2]=BrigAddMail
@@ -270,6 +282,9 @@ retire_month=9
 
 length=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BrigHull
 Constraint[Prev][1]=BrigAddBulk
 Constraint[Prev][2]=BrigAddMail
@@ -321,6 +336,9 @@ retire_month=9
 
 length=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BrigHull
 Constraint[Prev][1]=BrigAddBulk
 Constraint[Prev][2]=BrigAddMail
@@ -371,6 +389,9 @@ retire_year=1880
 retire_month=9
 
 length=1
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=BrigHull
 Constraint[Prev][1]=BrigAddBulk

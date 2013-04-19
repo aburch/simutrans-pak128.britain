@@ -15,6 +15,8 @@ intro_month=1
 retire_year=1830
 retire_month=9
 
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
 Constraint[Next][2]=EastIndiamanAddMail

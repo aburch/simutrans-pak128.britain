@@ -14,9 +14,14 @@ intro_month=1
 retire_year=1761	
 retire_month=3
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BoatHorsesSingle
 Constraint[Next][0]=none
-
 
 EmptyImage[E]=./images/box-boat-empty.1.4
 EmptyImage[SE]=./images/box-boat-empty.1.5
@@ -94,6 +99,12 @@ intro_month=1
 retire_year=1761	
 retire_month=3
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BoatHorsesSingle
 Constraint[Next][0]=none
 
@@ -143,6 +154,12 @@ intro_month=1
 retire_year=1761	
 retire_month=3
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BoatHorsesSingle
 Constraint[Next][0]=none
 
@@ -180,6 +197,12 @@ intro_year=1750
 intro_month=1
 retire_year=1761	
 retire_month=3
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=BoatHorsesSingle
 Constraint[Next][0]=none

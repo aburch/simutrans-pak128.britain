@@ -8,6 +8,10 @@ cost=45000
 maintenance=600
 pillar_distance=1
 pillar_asymmetric=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[3]=3 # Tub
+
 cursor=images/concrete-aqueduct-tub.2.1
 icon=> images/concrete-aqueduct-tub.2.0
 BackImage[NS][0]=images/concrete-aqueduct-tub.0.5,0,32

@@ -4,7 +4,7 @@ copyright=James
 waytype=water
 engine_type=diesel
 smoke=diesel
-speed=60
+speed=63
 power=4000
 gear=100
 freight=Passagiere
@@ -17,6 +17,8 @@ intro_year=1996
 intro_month=1
 retire_year=2009
 retire_month=1
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

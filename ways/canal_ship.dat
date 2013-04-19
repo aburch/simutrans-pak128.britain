@@ -6,6 +6,10 @@ maintenance=300
 topspeed=60
 intro_year = 1822
 intro_month = 1
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[5]=5
+
 icon=> ./images/canal-ship.3.4
 cursor=./images/canal-ship.3.5
 Image[-][0]=./images/canal-ship.1.2

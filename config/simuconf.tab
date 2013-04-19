@@ -859,9 +859,11 @@ tile_height = 16
 # rivers:
 # The highest number is the smallest. A river with max_speed==0 is not navigavable by ships.
 river_type[0] = River3
-river_type[1] = River2
-river_type[2] = River1
-river_type[3] = River0
+river_type[1] = River2b
+river_type[2] = River2a
+river_type[3] = River2
+river_type[4] = River1
+river_type[5] = River0
 
 # The number of rivers
 river_number = 128

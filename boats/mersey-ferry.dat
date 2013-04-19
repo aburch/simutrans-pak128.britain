@@ -24,8 +24,9 @@ comfort=128
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/mersey-ferry.1.4
 EmptyImage[SE]=./images/mersey-ferry.1.5

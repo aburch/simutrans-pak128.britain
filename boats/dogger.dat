@@ -17,10 +17,11 @@ intro_month=1
 retire_year=1900
 intro_month=1
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
-
-way_constraint_prohibitive[2]=2
 
 EmptyImage[E]=./images/dogger.1.0
 EmptyImage[SE]=./images/dogger.1.1

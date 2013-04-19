@@ -6,6 +6,10 @@ maintenance=400
 topspeed=100
 intro_year = 1892
 intro_month = 1
+
+way_constraint_permissive[4]=4
+way_constraint_prohibitive[6]=6
+
 icon=> ./images/canal-large-ship.3.4
 cursor=./images/canal-large-ship.3.5
 Image[-][0]=./images/canal-large-ship.1.2

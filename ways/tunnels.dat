@@ -122,8 +122,8 @@ intro_month=9
 #retire_year=2050
 #retire_month=1
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
 
 # Normal images
 BackImage[W][0]=canal-tunnel.1.0
@@ -151,6 +151,10 @@ topspeed=30
 max_weight=100
 intro_year=1773
 intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[4]=4 # Narrow
+
 # Normal images
 BackImage[W][0]=narrow-canal-tunnel.1.0
 FrontImage[W][0]=narrow-canal-tunnel.0.0

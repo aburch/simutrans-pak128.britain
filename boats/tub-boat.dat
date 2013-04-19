@@ -14,13 +14,24 @@ intro_month=1
 retire_year=1918	
 retire_month=3
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BoatHorsesSingle
+Constraint[Prev][1]=TubBoatBulk
+Constraint[Prev][2]=TubBoatLong
+Constraint[Prev][3]=TubBoatPiece
+Constraint[Prev][4]=TubBoatCool
+
 Constraint[Next][0]=TubBoatBulk
 Constraint[Next][1]=TubBoatLong
 Constraint[Next][2]=TubBoatPiece
 Constraint[Next][3]=TubBoatCool
 Constraint[Next][4]=none
-
 
 EmptyImage[E]=./images/tub-boat-empty.1.4
 EmptyImage[SE]=./images/tub-boat-empty.1.5
@@ -98,7 +109,19 @@ intro_month=1
 retire_year=1918	
 retire_month=3
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BoatHorsesSingle
+Constraint[Prev][1]=TubBoatBulk
+Constraint[Prev][2]=TubBoatLong
+Constraint[Prev][3]=TubBoatPiece
+Constraint[Prev][4]=TubBoatCool
+
 Constraint[Next][0]=TubBoatBulk
 Constraint[Next][1]=TubBoatLong
 Constraint[Next][2]=TubBoatPiece
@@ -151,7 +174,19 @@ intro_month=1
 retire_year=1918	
 retire_month=3
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BoatHorsesSingle
+Constraint[Prev][1]=TubBoatBulk
+Constraint[Prev][2]=TubBoatLong
+Constraint[Prev][3]=TubBoatPiece
+Constraint[Prev][4]=TubBoatCool
+
 Constraint[Next][0]=TubBoatBulk
 Constraint[Next][1]=TubBoatLong
 Constraint[Next][2]=TubBoatPiece
@@ -193,7 +228,19 @@ intro_month=1
 retire_year=1918	
 retire_month=3
 
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
+way_constraint_prohibitive[3]=3 # Tub
+way_constraint_prohibitive[4]=4 # Narrow
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Prev][0]=BoatHorsesSingle
+Constraint[Prev][1]=TubBoatBulk
+Constraint[Prev][2]=TubBoatLong
+Constraint[Prev][3]=TubBoatPiece
+Constraint[Prev][4]=TubBoatCool
+
 Constraint[Next][0]=TubBoatBulk
 Constraint[Next][1]=TubBoatLong
 Constraint[Next][2]=TubBoatPiece
