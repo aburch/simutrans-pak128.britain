@@ -1545,15 +1545,17 @@ Norway spruce
 River0
 Stream (Not Navigable)
 River1
-Small River (Navigable)
+Upstream small river (Navigable)
+River1a
+Downstream small river (Navigable)
 River2
 Upstream medium river (Navigable)
 River2a
-Medium river (Navigable)
+Midstream medium river (Navigable)
 River2b
 Downstream medium river (Navigable)
 River3
-Wide River (Navigable)
+Large river (Navigable)
 #______________________________________NarrowGaugeVehicle______________________________________
 #______________________________________NarrowGaugeVehicle______________________________________
 Single-ShireNarrow
@@ -4625,9 +4627,9 @@ Channel paddle ship bulk goods hold
 ChannelPaddleSteamerAddLivestock
 Channel paddle ship livestock hold
 ChannelScrewSteamship
-Channel Screw Steamship
+Channel screw ship
 ChannelScrewSteamshipAddMail
-Channel Screw Steamship mail hold
+Mail hold
 SECRQueen
 SECR TS "The Queen" ferry
 SECRQueenAddMail
@@ -4719,9 +4721,9 @@ Iron river tug
 DieselTug
 River tug
 SeineNetterDiesel
-Seine Netter
+Seine netter
 SeineNetterSteam
-Seine Netter
+Seine netter
 ClydeCargoSteamerHull
 Clyde cargo ship (hull)
 ClydeCargoSteamerAddOil
