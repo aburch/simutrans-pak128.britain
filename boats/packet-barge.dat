@@ -1,9 +1,8 @@
-
 obj=vehicle
 Name=PacketBarge
 copyright=Jamespetts
 waytype=water
-speed=7
+speed=17
 freight=Passagiere
 payload=60
 weight=10
@@ -20,11 +19,9 @@ way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-Constraint[Prev][0]=BoatHorsesSingle
-Constraint[Prev][1]=BoatHorsesDouble
+Constraint[Prev][0]=BoatHorsesFly
 
 Constraint[Next][0]=PacketBargeAddMail
-
 
 EmptyImage[E]=./images/dumb-barge-wooden-passenger-packet-boat.1.4
 EmptyImage[SE]=./images/dumb-barge-wooden-passenger-packet-boat.1.5

@@ -22,7 +22,6 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=BoatHorsesSingle
-Constraint[Prev][1]=BoatHorsesDouble
 
 Constraint[Next][0]=MarketNarrowboatAddMail
 
