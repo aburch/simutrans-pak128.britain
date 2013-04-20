@@ -644,8 +644,9 @@ city_road[3]=dirt_road,1700,1780
 # intercity_road[0]=name,1900,1920
 # intercity_road[1]=name2,1921,1950
 
-intercity_road[0]=dirt_road,1700,1824
-intercity_road[1]=macadam_road,1825,1902
+intercity_road[0]=bridleway,1700,1784
+intercity_road[1]=dirt_road,1785,1824
+intercity_road[2]=macadam_road,1825,1902
 intercity_road[3]=tarmac_road,1903,1932
 intercity_road[4]=asphalt_road,1933,2300
 

@@ -29,6 +29,7 @@ comfort=109
 can_lead_from_rear=1
 bidirectional=0
 catering_level=1
+way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-450(rear)
 Constraint[Prev][1]=BR-444(rear)
@@ -76,6 +77,7 @@ comfort=109
 
 can_lead_from_rear=0
 bidirectional=1
+way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-444(front)
 
@@ -121,6 +123,7 @@ comfort=109
 
 can_lead_from_rear=0
 bidirectional=1
+way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-444(centre1)
 
@@ -166,6 +169,7 @@ comfort=109
 
 can_lead_from_rear=0
 bidirectional=1
+way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-444(centre2)
 
@@ -212,6 +216,7 @@ comfort=109
 
 can_lead_from_rear=1
 bidirectional=0
+way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-444(centre3)
 

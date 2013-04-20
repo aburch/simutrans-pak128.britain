@@ -1424,6 +1424,20 @@ cider
 cider
 FreshFish
 live fish
+barrels
+barrels
+head
+head
+cars
+cars
+tonnen
+tonnes
+paletten
+crates
+sack
+sacks
+m3
+cubic meters
 #_____________________________________misc______________________________________
 #_____________________________________misc______________________________________
 PowerDest
@@ -4765,7 +4779,7 @@ Steel river paddle ferry
 LargeSteelRiverSteamer
 Large steel river paddle ferry
 IronPaddleSteamer
-Iron coastal paddle ferry
+Iron coastal paddle ship
 IronPaddleSteamerMail
 Mail deck
 PSComet
@@ -4933,11 +4947,11 @@ Diesel barge (bulk fluids)
 DieselBargeLivestock
 Diesel barge (livestock)
 MarketBarge
-Market Barge
+Market barge
 MarketBargeAddMail
 Market Barge(mail compartment)
 PacketBarge
-Packet boat
+Packet barge
 PacketBargeAddMail
 Packet boat (mail compartment)
 SteelHullDumbBargeBulk
@@ -5201,169 +5215,169 @@ Remove narrow gauge railway tracks
 #__________________________________stations/stops___________________________________
 #__________________________________stations/stops___________________________________
 BrickPlatformTrainStop
-Brick Platform
+Brick platform
 BrickPlatformBuildingTrainStop
-Brick Platform with Building
+Brick platform with building
 BrickPlatformTrainStopNarrow
-Brick Platform
+Brick platform
 BrickPlatformBuildingTrainStopNarrow
-Brick Platform with Building
+Brick platform with building
 BrickPlatformOverallTrainStop
-Brick Platform with Overroof
+Brick platform with overroof
 BrickPlatformOverallTrainStopNarrow
-Brick Platform with Overroof
+Brick platform with overroof
 ConcretePlatformTrainStop
-Concrete Platform
+Concrete platform
 ConcretePlatformBuildingTrainStop
-Concrete Platform with Building
+Concrete platform with building
 ConcretePlatformOverallTrainStop
-Concrete Platform with Overroof
+Concrete platform with overroof
 WoodenPlatformTrainStop
-Wooden Platform
+Wooden platform
 woodenPlatformOverallTrainStop
-Wooden Platform with Overroof
+Wooden platform with overroof
 ConcretePlatformMaglevStop
-Concrete Platform
+Concrete platform
 ConcretePlatformBuildingMaglevStop
-Concrete Platform with Building
+Concrete platform with building
 ConcretePlatformOverallMaglevStop
-Concrete Platform with Overroof
+Concrete platform with overroof
 GoodsSiding
-Goods Siding
+Goods siding
 GoodsSidingCrane
 Goods Siding with Crane
 BulkLoadingModern
-Bulk Goods Loading Tower
+Bulk goods loading tower
 BulkLoadingOld
-Bulk Goods Loading Tower
+Bulk goods loading tower
 GoodsShedModern
-Goods Shed
+Goods shed
 GoodsSidingNarrow
-Goods Siding
+Goods siding
 GoodsSidingCraneNarrow
-Goods Siding with Crane
+Goods siding with crane
 BulkLoadingModernNarrow
-Bulk Goods Loading Tower
+Bulk Goods loading tower
 BulkLoadingOldNarrow
-Bulk Goods Loading Tower
+Bulk goods loading tower
 GoodsShedModernNarrow
-Goods Shed
+Goods shed
 GoodsShedOldNarrow
-Goods Shed
+Goods shed
 GoodsShedOld
-Goods Shed
+Goods shed
 GoodsSidingNarrow
-Goods Siding
+Goods siding
 GoodsSidingCraneNarrow
-Goods Siding with Crane
+Goods siding with crane
 BulkLoadingModernNarrow
-Bulk Goods Loading Tower
+Bulk goods loading tower
 BulkLoadingOldNarrow
-Bulk Goods Loading Tower
+Bulk goods loading tower
 GoodsShedModernNarrow
-Goods Shed
+Goods shed
 GoodsShedOldNarrow
-Goods Shed
+Goods shed
 ConcreteStationBuildingSmall
-Concrete Station Building
+Concrete station building
 StationStoneBuilding
-Stone Station Building
+Stone station building
 StationWoodBuilding
-Wooden Station Building
+Wooden station building
 ModernStationBuildingEntrance
-Station Building Entrance
+Station building entrance
 1950sStationBuildingEntrance
-Station Building Entrance
+Station building entrance
 DecoStationBuildingEntrance
-Station Building
+Station building
 1950sStationBuilding
-Station Building Concourse
+Station building concourse
 ModernStationBuilding
-Station Building Concourse
+Station building concourse
 CountryStationBuilding
-Country Station Building
+Country atation building
 ModernPostOffice
-Post Office
+Post office
 OldPostOffice
-Post Office
+Post office
 BulkGoodsBunker
-Bulk Goods Bunker
+Bulk goods bunker
 CarYard
-Car Yard
+Car yard
 FluidStorageStation
-Fluid Storage Tanks
+Fluid storage tanks
 LivestockPen
-Livestock Pen
+Livestock pen
 GoodsWarehouseModern
-Goods Warehouse
+Goods warehouse
 GoodsWarehouseOld
-Goods Warehouse
+Goods warehouse
 BusStop
-Basic Bus Stop
+Basic bus stop
 StagingPost
-Staging Post
+Staging post
 StagingInn
-Staging Inn
+Staging inn
 ModernBusShelter
-Bus Stop with Shelter
+Bus stop with shelter
 OldBusShelter
-Bus Stop with Shelter
+Bus stop with ahelter
 OldBusShelterWmail
-Bus Stop with Shelter and Post Box
+Bus stop with shelter and post box
 ModernBusTerminal
-Bus Terminal
+Bus terminal
 OldBusTerminal
-Bus Terminal
+Bus terminal
 ModernCargoStop
-Cargo Bay
+Cargo bay
 OldCargoStop
-Cargo Bay
+Cargo bay
 LoadingBay
-Post Box
+Post box
 ModernPassengerQuay
-Passenger Canal Quay
+Passenger canal quay
 OldPassengerQuay
-Passenger Canal Quay
+Passenger canal quay
 GoodsQuay
-Goods Canal Quay
+Goods canal quay
 HarbourPassenger1950s
-Passenger Dock
+Passenger dock
 HarbourPassengerDeco
-Passenger Dock
+Passenger dock
 HarbourPassengerModern
-Passenger Dock
+Passenger dock
 HarbourPassengerOld
-Passenger Dock
+Passenger dock
 ModernGoodsHarbour
-Goods Dock
+Goods dock
 OldGoodsHarbour
-Goods Dock
+Goods dock
 BasicApron
 Apron
 JetwayApron
 Apron
 ControlTowerModern
-Control Tower
+Control tower
 1950sTerminalBuildingEntrance
-Terminal Building Entrance
+Terminal building wntrance
 TerminalModernBuildingEntrance
-Terminal Building Entrance
+Terminal building wntrance
 DecoTerminalBuildingEntrance
-Terminal Building
+Terminal building
 DecoTerminalBuildingTower
-Terminal Building with Control Tower
+Terminal building with control tower
 1950sTerminalBuilding
-Terminal Building
+Terminal building
 TerminalModernBuilding
-Terminal Building
+Terminal building
 CoachStable
 Coaching stable
 AirHangarModern
 Aircraft hangar
 GoodsPlatformMaglevStop
-Maglev Goods Platform
+Maglev goods platform
 GoodsPlatformMaglevCrane
-Maglev Goods Platform with Crane
+Maglev goods platform with crane
 GoodsPlatformMaglevWarehouse
 Maglev Goods Shed
 LT_Station1_pc_1standard
@@ -5379,17 +5393,17 @@ Tube station building
 #_________________Signals_______________________
 #_________________Signals_______________________
 ATC_signal
-Stop Signal
+Stop signal
 ATC_OneWay
-One Way Sign
+One way sign
 ATC_presignal
 Pre-signal
 ATC_Longblock
-Long-block Signal
+Long-block signal
 ATC_choosesignal
-Choose Signal
+Choose signal
 ATC_EndofChooseSignal
-End of Choose Signal Block Sign
+End of choose signal block sign
 Underground_Signals_right
 Underground stop signal
 Underground_preSignals_right
