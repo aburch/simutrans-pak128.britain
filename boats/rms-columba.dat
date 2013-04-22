@@ -18,6 +18,9 @@ intro_month=1
 retire_year=1901
 retire_month=1
 
+comfort=163
+catering_level=4
+
 Constraint[Next][0]=RMSColumbaMail
 Constraint[Prev][0]=none
 

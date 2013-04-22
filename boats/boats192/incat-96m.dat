@@ -16,6 +16,8 @@ runningcost=2
 intro_year=1998
 intro_month=1
 
+comfort=140
+catering_level=3
 
 Constraint[Next][0]=Incat96m(AddMail)
 Constraint[Prev][0]=none

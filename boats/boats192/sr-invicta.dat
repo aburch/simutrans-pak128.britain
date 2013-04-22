@@ -18,6 +18,9 @@ intro_month=12
 retire_year=1952
 retire_month=1
 
+comfort=160
+catering_level=4
+
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=SRInvictaAddMail

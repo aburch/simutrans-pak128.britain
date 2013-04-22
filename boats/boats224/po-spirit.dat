@@ -16,6 +16,8 @@ runningcost=2
 intro_year=2011
 intro_month=1
 
+comfort=182
+catering_level=3
 
 Constraint[Next][0]=POSpiritAddMail
 Constraint[Next][1]=POSpiritAddPiece

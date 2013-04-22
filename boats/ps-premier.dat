@@ -1,4 +1,3 @@
-
 obj=vehicle
 name=PSPremier
 copyright=James
@@ -18,6 +17,8 @@ intro_year=1846
 intro_month=1
 retire_year=1860
 retire_month=1
+
+comfort=72
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

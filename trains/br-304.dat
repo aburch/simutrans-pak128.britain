@@ -27,7 +27,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=45
-comfort=76
+comfort=103
 
 Constraint[Prev][0]=BR-304Rear(BR-Blue)
 Constraint[Prev][1]=none
@@ -75,7 +75,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=45
-comfort=76
+comfort=103
 
 Constraint[Prev][0]=BR-304Front(BR-Blue)
 
@@ -123,7 +123,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=45
-comfort=76
+comfort=103
 
 Constraint[Prev][0]=BR-304Front(BR-Blue)
 Constraint[Prev][1]=BR-304Centre-Trailer(BR-Blue)
@@ -170,7 +170,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=45
-comfort=76
+comfort=103
 
 Constraint[Prev][0]=BR-304Centre-Motor(BR-Blue)
 

@@ -24,7 +24,7 @@ axles=3
 cost=304000
 runningcost=24
 sound=-1
-comfort=70
+comfort=107
 
 upgrade[0]=LNWR-6Wheel-lav
 
@@ -168,11 +168,10 @@ axles=3
 upgrade_price=49285
 runningcost=24
 sound=-1
-# Lavatories should probably have a higher impact on comfort than this.
-# Consider recalibrating all early lavatory stock. Note that only half
-# the passengers in this carriage have lavatory access: see Jenkinson (LNWR)
-# p. 101 (this is D279).
-comfort=78
+
+# Note that only half the passengers in this carriage have lavatory access:
+# see Jenkinson (LNWR) p. 101 (this is D279).
+comfort=119
 
 can_lead_from_rear=0
 bidirectional=1

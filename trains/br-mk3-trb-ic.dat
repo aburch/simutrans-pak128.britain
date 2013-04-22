@@ -26,7 +26,7 @@ catering_level=3
 
 min_loading_time=30
 max_loading_time=160
-comfort=145
+comfort=170
 
 Constraint[Next][0]=BR-Mk3-TSO
 Constraint[Next][1]=BR-Class43Rear
@@ -165,7 +165,7 @@ catering_level=3
 
 min_loading_time=30
 max_loading_time=160
-comfort=145
+comfort=170
 
 Constraint[Next][0]=BR-Mk3a-TSO
 Constraint[Next][1]=BR-Mk3-DVT
@@ -301,7 +301,7 @@ catering_level=4
 
 min_loading_time=30
 max_loading_time=160
-comfort=145
+comfort=170
 
 Constraint[Next][0]=BR-Mk3-TSO
 Constraint[Next][1]=BR-Class43Rear
@@ -439,7 +439,7 @@ catering_level=4
 
 min_loading_time=30
 max_loading_time=160
-comfort=145
+comfort=170
 
 Constraint[Next][0]=BR-Mk3a-TSO
 Constraint[Next][1]=BR-Mk3-DVT

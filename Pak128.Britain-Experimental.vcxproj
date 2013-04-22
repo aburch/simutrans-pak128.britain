@@ -78,6 +78,7 @@
     <None Include="air\A320_AerLingus_Cargo.dat" />
     <None Include="air\A320_ThomsonAirways.dat" />
     <None Include="air\A321_Monarch.dat" />
+    <None Include="air\air192\Aerospatiale_BAC_Concorde.dat" />
     <None Include="air\air192\Boeing_707_320C_PelicanCargoAirlines.dat" />
     <None Include="air\air192\Boeing_707_420_BOAC.dat" />
     <None Include="air\air192\Boeing_727_200_BritishAirWays.dat" />
@@ -94,9 +95,8 @@
     <None Include="air\ATR_42_500_TitanAirways.dat" />
     <None Include="air\ATR_72_200_BritishAirways.dat" />
     <None Include="air\ATR_72_200_FedEx_Post.dat" />
-    <None Include="air\BAC111_200_BUA.dat" />
+    <None Include="air\BAC_111_200_BUA.dat" />
     <None Include="air\BAC_111_500_Caledonian.dat" />
-    <None Include="air\BAE_146_100.dat" />
     <None Include="air\BAE_146_100_DanAirLondon.dat" />
     <None Include="air\BAE_146_300_JerseyEuropean.dat" />
     <None Include="air\BAE_146_300_TNT_Post.dat" />

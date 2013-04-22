@@ -18,6 +18,10 @@ intro_month=1
 #retire_year=1960
 #retire_month=1
 
+# Comfort adversely affected by vibrations
+comfort=124
+catering_level=2
+
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none

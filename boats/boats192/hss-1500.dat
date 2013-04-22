@@ -16,6 +16,9 @@ runningcost=2
 intro_year=1995
 intro_month=1
 
+comfort=129
+catering_level=3
+
 
 Constraint[Next][0]=HSS-1500(AddMail)
 Constraint[Prev][0]=none

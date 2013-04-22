@@ -18,6 +18,9 @@ intro_month=4
 retire_year=1925
 retire_month=1
 
+comfort=157
+catering_level=4
+
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=SECRQueenAddMail

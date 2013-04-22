@@ -16,6 +16,9 @@ runningcost=9
 intro_year=2001
 intro_month=1
 
+comfort=125
+catering_level=2
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -49,6 +52,9 @@ cost=40000
 runningcost=9
 intro_year=2001
 intro_month=1
+
+comfort=125
+catering_level=2
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship

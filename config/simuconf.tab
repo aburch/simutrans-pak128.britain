@@ -213,27 +213,29 @@ meters_per_tile = 125
 #
 # For any journeys of a time between any of the values, a scaled proportion is taken. 
 # 
-# Note that (versions 7.2 onwards), the impact of comfort on revenue decreases with journey time.
+# Note that the impact of comfort on revenue decreases with journey time.
 # It is at its maximum level down to tolerable_comfort_median_long_minutes, after which it gradually
 # reduces to 20% of its maximum at tolerable_comfort_short_minutes, and does not decrease further
 # thereafter. 
 
-tolerable_comfort_short_minutes=15
-tolerable_comfort_short=7
+# 0:05h
+tolerable_comfort_short_minutes=5
+tolerable_comfort_short=10
 
-tolerable_comfort_median_short_minutes=30
-tolerable_comfort_median_short=65
+# 1:00h
+tolerable_comfort_median_short_minutes=60
+tolerable_comfort_median_short=50
 
-#1:40h
-tolerable_comfort_median_median_minutes=100
-tolerable_comfort_median_median=100
+# 2:00h
+tolerable_comfort_median_median_minutes=120
+tolerable_comfort_median_median=125
 
-#5:00h
-tolerable_comfort_median_long_minutes=300
-tolerable_comfort_median_long=200
+# 6:00h
+tolerable_comfort_median_long_minutes=360
+tolerable_comfort_median_long=175
 
-#12:00h
-tolerable_comfort_long_minutes=720
+# 18:00h
+tolerable_comfort_long_minutes=1080
 tolerable_comfort_long=250
 
 # max_luxury_bonus_differential is the maximum number of comfort rating points above the tolerable level
@@ -247,13 +249,13 @@ tolerable_comfort_long=250
 # in comfort beyond 150. 
 
 max_luxury_bonus_differential=55
-max_luxury_bonus_percent=45
+max_luxury_bonus_percent=33
 
 # The discomfort penalty works in exactly the same way as the comfort bonus. max_discomfort_penalty_percent is the
 # percentage decrease in revenue from the maximum level of discomfort specified in max_discomfort_penalty_differential. 
 
 max_discomfort_penalty_differential=200
-max_discomfort_penalty_percent=95
+max_discomfort_penalty_percent=85
 
 # These settings control the revenue that can be earned from catering and travelling post offices. Note that catering
 # vehicles on a convoy also increase the comfort by a small amount, which has an indirect effect on the revenue. These

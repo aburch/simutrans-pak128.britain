@@ -4,7 +4,8 @@ copyright=James
 waytype=water
 engine_type=diesel
 smoke=Diesel
-speed=40
+# http://www.doverferryphotosforums.co.uk/wordpress/mv-horsa-past-and-present/
+speed=36
 power=8575
 #gear=500
 weight=7500
@@ -17,6 +18,9 @@ intro_year=1972
 intro_month=1
 retire_year=1987
 retire_month=1
+
+comfort=161
+catering_level=3
 
 way_constraint_prohibitive[6]=6 # Large ship
 
