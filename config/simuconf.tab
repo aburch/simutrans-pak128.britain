@@ -226,8 +226,8 @@ tolerable_comfort_short=10
 tolerable_comfort_median_short_minutes=60
 tolerable_comfort_median_short=50
 
-# 2:00h
-tolerable_comfort_median_median_minutes=120
+# 2:30h
+tolerable_comfort_median_median_minutes=150
 tolerable_comfort_median_median=125
 
 # 6:00h
@@ -248,14 +248,14 @@ tolerable_comfort_long=250
 # 50% beyond the normal revenue for additional comfort up to 150, but would not increase further with any increase
 # in comfort beyond 150. 
 
-max_luxury_bonus_differential=55
-max_luxury_bonus_percent=33
+max_luxury_bonus_differential=65
+max_luxury_bonus_percent=50
 
 # The discomfort penalty works in exactly the same way as the comfort bonus. max_discomfort_penalty_percent is the
 # percentage decrease in revenue from the maximum level of discomfort specified in max_discomfort_penalty_differential. 
 
-max_discomfort_penalty_differential=200
-max_discomfort_penalty_percent=85
+max_discomfort_penalty_differential=220
+max_discomfort_penalty_percent=97
 
 # These settings control the revenue that can be earned from catering and travelling post offices. Note that catering
 # vehicles on a convoy also increase the comfort by a small amount, which has an indirect effect on the revenue. These
