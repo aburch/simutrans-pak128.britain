@@ -110,6 +110,35 @@ icon=> rail-tunnel-concrete.1.3
 cursor=rail-tunnel-concrete.1.2
 -------------------------------
 Obj=tunnel
+Name=NarrowTunnelBrick
+copyright=James
+waytype=narrowgauge_track
+cost=1542857
+maintenance=2514
+topspeed=20
+max_weight=12
+# Could do with more different types of tunnels
+intro_year=1832
+intro_month=5
+#retire_year=1849
+#retire_month=8
+# Normal images
+BackImage[W][0]=narrowgauge-tunnel-brick.1.0
+FrontImage[W][0]=narrowgauge-tunnel-brick.0.0
+BackImage[N][0]=narrowgauge-tunnel-brick.1.1
+FrontImage[N][0]=narrowgauge-tunnel-brick.0.1
+FrontImage[E][0]=narrowgauge-tunnel-brick.0.2
+FrontImage[S][0]=narrowgauge-tunnel-brick.0.3
+BackImage[W][1]=narrowgauge-tunnel-brick-snow.1.0
+FrontImage[W][1]=narrowgauge-tunnel-brick-snow.0.0
+BackImage[N][1]=narrowgauge-tunnel-brick-snow.1.1
+FrontImage[N][1]=narrowgauge-tunnel-brick-snow.0.1
+FrontImage[E][1]=narrowgauge-tunnel-brick-snow.0.2
+FrontImage[S][1]=narrowgauge-tunnel-brick-snow.0.3
+icon=> narrowgauge-tunnel-brick.1.3
+cursor=narrowgauge-tunnel-brick.1.2
+-------------------------------
+Obj=tunnel
 Name=CanalTunnel
 copyright=James
 waytype=water
