@@ -29,7 +29,8 @@ increase_maintenance_after_years=16
 
 min_loading_time=15
 max_loading_time=45
-comfort=87
+# http://www.semgonline.com/gallery/class415_7.html
+comfort=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(rear)
@@ -81,7 +82,7 @@ increase_maintenance_after_years=16
 
 min_loading_time=15
 max_loading_time=45
-comfort=87
+comfort=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(front)
@@ -131,7 +132,7 @@ increase_maintenance_after_years=16
 
 min_loading_time=15
 max_loading_time=45
-comfort=87
+comfort=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(centre2)
@@ -181,7 +182,7 @@ increase_maintenance_after_years=16
 
 min_loading_time=15
 max_loading_time=45
-comfort=87
+comfort=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(front)
@@ -229,7 +230,7 @@ increase_maintenance_after_years=16
 
 min_loading_time=15
 max_loading_time=45
-comfort=87
+comfort=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(centre1)

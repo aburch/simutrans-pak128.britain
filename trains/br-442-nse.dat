@@ -28,7 +28,7 @@ increase_maintenance_after_years=21
 
 min_loading_time=35
 max_loading_time=180
-comfort=170
+comfort=150
 
 Constraint[Prev][0]=BR-442-Rear(NSE)
 Constraint[Prev][1]=none
@@ -75,7 +75,7 @@ increase_maintenance_after_years=21
 
 min_loading_time=35
 max_loading_time=180
-comfort=170
+comfort=150
 
 Constraint[Prev][0]=BR-442-Front(NSE)
 Constraint[Next][0]=BR-442-Middle2(NSE)
@@ -124,7 +124,7 @@ increase_maintenance_after_years=21
 
 min_loading_time=35
 max_loading_time=180
-comfort=170
+comfort=150
 
 Constraint[Prev][0]=BR-442-Middle1(NSE)
 Constraint[Next][0]=BR-442-Middle3(NSE)
@@ -169,7 +169,7 @@ increase_maintenance_after_years=21
 
 min_loading_time=35
 max_loading_time=180
-comfort=145
+comfort=150
 
 Constraint[Prev][0]=BR-442-Middle2(NSE)
 Constraint[Next][0]=BR-442-Rear(NSE)
@@ -217,7 +217,7 @@ increase_maintenance_after_years=21
 
 min_loading_time=35
 max_loading_time=180
-comfort=145
+comfort=150
 
 Constraint[Prev][0]=BR-442-Middle3(NSE)
 Constraint[Next][0]=BR-442-Front(NSE)

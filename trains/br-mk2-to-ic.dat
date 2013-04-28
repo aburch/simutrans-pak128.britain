@@ -27,7 +27,7 @@ upgrade[0]=BR-Mk2-TSOT
 
 min_loading_time=25
 max_loading_time=180
-comfort=165
+comfort=146
 
 Constraint[Next][0]=BR-Mk2-TSO
 Constraint[Next][1]=BR-489[GLV](Intercity)

@@ -27,7 +27,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=79
+comfort=70
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=SR-4SUB(rear)
@@ -78,7 +78,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=79
+comfort=70
 
 Constraint[Prev][0]=SR-4SUB(centre2)
 
@@ -127,7 +127,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=79
+comfort=70
 
 Constraint[Prev][0]=SR-4SUB(front)
 
@@ -173,7 +173,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=79
+comfort=70
 
 Constraint[Next][0]=SR-4SUB(rear)
 Constraint[Next][1]=SR-3SUB(rear)

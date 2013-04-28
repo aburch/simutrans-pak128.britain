@@ -12,15 +12,14 @@ payload=418
 weight=320
 length=10
 cost=40000
-runningcost=9
+runningcost=900
 intro_year=1976
 intro_month=1
 
 retire_year=2000
 intro_month=1
 
-comfort=130
-catering_level=2
+comfort=87
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

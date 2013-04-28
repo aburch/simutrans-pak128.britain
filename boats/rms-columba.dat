@@ -1,3 +1,4 @@
+# See http://website.lineone.net/~tom_lee/columba%20dining.htm
 obj=vehicle
 name=RMSColumba
 copyright=jamespetts
@@ -18,7 +19,7 @@ intro_month=1
 retire_year=1901
 retire_month=1
 
-comfort=163
+comfort=125
 catering_level=4
 
 Constraint[Next][0]=RMSColumbaMail

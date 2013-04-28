@@ -7,7 +7,7 @@
 
 obj=vehicle
 name=LNER-Gresley-Express-Coach-All-Doors
-speed=175
+speed=170
 copyright=Kieron/jamespetts
 intro_year=1923
 intro_month=5
@@ -29,7 +29,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=149
+comfort=133
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear

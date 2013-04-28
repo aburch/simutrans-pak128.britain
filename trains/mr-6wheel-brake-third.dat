@@ -24,7 +24,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=113
+comfort=74
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -89,7 +89,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=113
+comfort=85
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted

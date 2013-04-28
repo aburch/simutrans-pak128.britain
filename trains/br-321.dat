@@ -28,7 +28,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=116
+comfort=84
 
 Constraint[Prev][0]=BR-321(rear)
 Constraint[Prev][1]=none
@@ -76,7 +76,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=116
+comfort=84
 
 Constraint[Prev][0]=BR-321(front)
 
@@ -125,7 +125,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=116
+comfort=84
 
 Constraint[Prev][0]=BR-321(pantograph)
 
@@ -172,7 +172,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=116
+comfort=84
 
 Constraint[Prev][0]=BR-321(motor)
 

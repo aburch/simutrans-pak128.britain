@@ -21,7 +21,7 @@ cost=560000
 runningcost=32
 sound=-1
 
-comfort=98
+comfort=78
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=15
@@ -120,7 +120,7 @@ cost=560000
 runningcost=32
 sound=-1
 
-comfort=98
+comfort=78
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=15
@@ -198,7 +198,7 @@ EmptyImage[NE][2]=./images/lnwr-50ft-non-cor-eliptical-brake-rear-br.1.3
 
 ----
 
-# D337 - see Jenkinson p. 110
+# D284 - see Jenkinson p. 110
 obj=vehicle
 name=LNWR-50ft-non-cor-eliptical
 speed=160
@@ -209,8 +209,8 @@ retire_year=1909
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=60
-overcrowded_capacity=30
+payload=96
+overcrowded_capacity=48
 length=9
 
 weight=27
@@ -219,7 +219,7 @@ cost=560000
 runningcost=32
 sound=-1
 
-comfort=98
+comfort=78
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=15

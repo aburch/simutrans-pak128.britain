@@ -1,3 +1,5 @@
+# http://www.incat.com.au/domino/incat/incatweb.nsf/0/13C40ADB45E9B437CA2571AF0019ECA0?OpenDocument
+# http://www.shipspotting.com/gallery/photo.php?lid=1450659 (interior)
 obj=vehicle
 name=Incat96m
 copyright=James
@@ -9,6 +11,7 @@ power=28337
 gear=100
 freight=Passagiere
 payload=900
+# 260 cars
 weight=500
 length=12
 cost=80000
@@ -16,7 +19,7 @@ runningcost=2
 intro_year=1998
 intro_month=1
 
-comfort=140
+comfort=155
 catering_level=3
 
 Constraint[Next][0]=Incat96m(AddMail)

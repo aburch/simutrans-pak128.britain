@@ -16,8 +16,10 @@ runningcost=2
 intro_year=1995
 intro_month=1
 
-comfort=129
-catering_level=3
+comfort=158
+catering_level=4
+
+# http://en.wikipedia.org/wiki/HSS_1500 - loading times 30 minutes or less (which is unusually low)
 
 
 Constraint[Next][0]=HSS-1500(AddMail)
