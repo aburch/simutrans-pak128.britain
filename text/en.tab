@@ -184,172 +184,162 @@ Aerospatiale_BAC_Concorde(BritishAirWays)
 Aerospatiale/BAC Concorde
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
-BrickViaductEarly
-Brick Railway Viaduct
-BrickViaduct
-Brick Railway Viaduct
-BrickViaduct175
-Brick Railway Viaduct
-BrickViaduct200
-Brick Railway Viaduct
-BrickViaduct225
-Brick Railway Viaduct
-BrickViaduct320
-Brick Railway Viaduct
-MasonryViaduct
-Masonry Railway Viaduct
-IronViaduct
-Iron Railway Viaduct
-IronBowstringGirderRailBridge
-Iron Bowstring Girder Railway Bridge
-SteelBowstringArchRailBridge
-Steel Bowstring Arch Railway Bridge
-SteelTruss
-Steel Truss Railway Bridge
-IronArchRailBridge
-Iron Arch Railway Bridge
-IronLatticeGirderRailBridge
-Iron Lattice Girder Railway Bridge
-PlateGirder
-Plate Girder Railway Bridge
-PlateGirderConcrete
-Concrete Plate Girder Railway Bridge
-WoodenTrestle
-Wooden Trestle Rail Bridge
-WoodenTrestleHeavy
-Wooden Trestle Rail Bridge (heavy)
-WoodenTrestleStonePillar
-Wooden Trestle Rail Bridge (heavy)
-TubularBoxGirder
-Tubular Box Girder Railway Bridge
-BeamBridge
-Beam Railway Bridge
-ShortSteelGirder
-Short Steel Girder Rail Bridge
-ShortSteelGirderLight
-Short Steel Girder Rail Bridge (light)
-ShortSteelGirderHeavy
-Short Steel Girder Rail Bridge (heavy)
-SteelBoxGirder
-Steel Box Girder Rail Bridge
-SteelBoxGirderLight
-Steel Box Girder Rail Bridge (light)
-SupportedSteelLatticeLight
-Supported Steel Lattice Rail Bridge (light)
-SupportedSteelLattice
-Supported Steel Lattice Rail Bridge
-SupportedSteelLatticeHeavy
-Supported Steel Lattice Rail Bridge (heavy)
-Cantilever
-Steel Cantilever Rail Bridge
-SuspensionEarly
-Steel Suspension Rail Bridge
-SuspensionLate
-Steel Suspension Rail Bridge (modern)
-SuspensionHighSpeed
-Steel Suspension Rail Bridge (high speed)
-ConcreteSpanningBridgeLight
-Concrete Spanning Rail Bridge (light)
-ConcreteSpanningBridgeHeavy
-Concrete Spanning Rail Bridge (heavy)
-ConcreteSpanningBridge
-Concrete Spanning Rail Bridge
-ConcreteSpanningBridgeNew
-Concrete Spanning Rail Bridge (improved)
-ConcreteSupportedBridge
-Concrete Supported Rail Bridge
-ConcreteSupportedBridgeLight
-Concrete Supported Rail Bridge (light)
-ConcreteSupportedBridgeHighSpeed
-Concrete Supported Rail Bridge (high speed)
-ConcreteSpanningBridgeHighSpeed
-Concrete Spanning Rail Bridge (high speed)
-WoodTrestleRoad
-Wooden Trestle Road Bridge
-BrickViaductRoad
-Brick Road Bridge (tarmac)
-BrickViaductCobbles
-Brick Road Bridge (cobblestone)
-concrete_spanning_road_bridge
-Concrete Spanning Road Bridge
-concrete_supported_road_bridge
-Concrete Supported Road Bridge
-concrete_supported_motorway_bridge
-Concrete Supported Motorway Bridge
-concrete_spanning_motorway_bridge
-Concrete Spanning Motorway Bridge
-steel_spanning_road_bridge_cobbles
-Steel Spanning Road Bridge (cobblestone)
-steel_spanning_road_bridge_tarmac
-Steel Spanning Road Bridge (tarmac)
-steel_spanning_road_bridge_asphalt
-Steel Spanning Road Bridge (asphalt)
-steel_supported_road_bridge_cobbles
-Steel Supported Road Bridge (cobblestone)
-steel_supported_road_bridge_tarmac
-Steel Supported Road Bridge (tarmac)
-steel_supported_road_bridge_asphalt
-Steel Supported Road Bridge (asphalt)
-suspension_road_bridge_early
-Suspension Road Bridge
-suspension_road_bridge_late
-Suspension Road Bridge (improved)
-suspension_road_bridge_motorway
-Suspension Motorway Bridge
-stone_road_bridge_dirt
-Masonry Road Bridge (Unsurfaced)
-stone_road_bridge_cobbles
-Masonry Road Bridge (cobblestone)
-wooden_road_bridge_dirt
-Wooden Road Trestle (Unsurfaced)
-wooden_road_bridge_cobbles
-Wooden Road Trestle (cobblestone)
-wooden_road_bridge_tarmac
-Wooden Road Trestle (tarmac)
-ConcreteViaductRoad
-Concrete Road Bridge
 BrickAqueduct
-Brick Aqueduct
+Brick barge aqueduct
+BrickAqueductNarrow
+Brick narrowboat aqueduct
+BrickAqueductTub
+Brick tub boat aqueduct
+MasonryAqueductBarge
+Masonry barge aqueduct
+MasonryAqueductNarrow
+Masonry narrowboat aqueduct
+MasonryAqueductTub
+Masonry tub boat aqueduct
+ConcreteAqueductBarge
+Concrete barge aqueduct
+ConcreteAqueductNarrow
+Concrete narrowboat aqueduct
+ConcreteAqueductTub
+Concrete tub boat aqueduct
+BrickViaductEarly
+Brick viaduct
+BrickViaduct
+Brick viaduct
+BrickViaduct175
+Brick viaduct
+BrickViaduct200
+Brick viaduct
+BrickViaduct225
+Brick viaduct
+BrickViaduct320
+Brick viaduct
+MasonryViaduct
+Masonry viaduct
+IronViaduct
+Iron viaduct
+IronBowstringGirderRailBridge
+Iron bowstring girder bridge
+SteelBowstringArchRailBridge
+Steel bowstring arch bridge
+SteelTruss
+Steel truss bridge
+IronArchRailBridge
+Iron arch rridge
+IronLatticeGirderRailBridge
+Iron lattice girder bridge
+PlateGirderConcrete
+Concrete plate girder bridge
+IronGirderBridge
+Iron girder railway bridge
+PlateGirder
+Plate girder bridge
+ConcreteViaduct175
+Concrete bridge
+ConcreteViaduct200
+Concrete bridge
+ConcreteViaduct225
+Concrete bridge
+ConcreteViaductHS
+Concrete bridge (high speed)
+WoodenTrestle
+Wooden trestle bridge
+WoodenTrestleStonePillar
+Wooden trestle bridge (stone pillars)
+TubularBoxGirder
+Tubular box girder bridge
+BeamBridge
+Beam bridge
+WoodTrestleRoad
+Wooden trestle bridge
+BrickViaductRoad
+Brick bridge (tarmac)
+BrickViaductCobbles
+Brick bridge (cobblestone)
+stone_road_bridge_cobbles
+Masonry bridge (cobblestone)
+wooden_road_bridge_dirt
+Wooden trestle bridge
+wooden_road_bridge_cobbles
+Wooden trestle bridge (cobblestone)
+wooden_road_bridge_tarmac
+Wooden trestle bridge (tarmac)
+ConcreteViaductRoad
+Concrete bridge
+IronGirderBridgeRoad
+Iron girder bridge
+ConcreteSteelTrussRoad
+Steel truss bridge
+ConcreteBeamRoad
+Concrete beam bridge
+ConcreteSteelCantileverRoad
+Steel cantilever bridge
+PlateGirderRoad
+Plate girder bridge
 PowerBridge
 High voltage transmission line bridge
 MasonryViaductRoad
-Masonry Road Bridge (tarmac)
+Masonry bridge (tarmac)
 MasonryViaductCobbles
-Masonry Road Bridge (cobblestone)
+Masonry bridge (cobblestone)
 MasonryViaductDirt
-Masonry Road Bridge (Unsurfaced)
+Masonry bridge (unsurfaced)
 Concrete_Maglev_Bridge
-Concrete Maglev Bridge
+Concrete bridge
 Economical_Concrete_Maglev_Bridge
-Lightweight Concrete Maglev Bridge
+Lightweight concrete bridge
 WoodenTrestleNarrow
-Wooden Trestle
+Wooden trestle
+BrickViaductNarrow
+Brick viaduct
+ConcreteViaductNarrow
+Concrete viaduct
+IronGirderNarrow
+Iron girder bridge
+MasonryViaductNarrow
+Masonry viaduct
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnelStone
-Stone Rail Tunnel
+Stone rail tunnel
 RailTunnelBrick
-Brick Rail Tunnel
+Brick rail tunnel
 RailTunnelConcrete
-Concrete Rail Tunnel
+Concrete rail tunnel
 RailTunnelHighSpeed
-High Speed Rail Tunnel
+High speed rail tunnel
 RoadTunnelStone
-Stone Road Tunnel
+Stone road tunnel
 RoadTunnelBrick
-Brick Road Tunnel
+Brick road tunnel
 RoadTunnelConcrete
-Concrete Road Tunnel
+Concrete road tunnel
 CanalTunnel
-Canal Tunnel
+Barge canal tunnel
+CanalTunnelNarrow
+Narrowboat canal tunnel
 MaglevTunnelConcrete
-Concrete Maglev Tunnel
+Concrete maglev tunnel
 MaglevTunnelEco
-Lightweight Concrete Maglev Tunnel
+Lightweight concrete maglev tunnel
 LT_Tunnel
 Tube tunnel
 PowerTunnel
 High voltage transmission line tunnel
+Canal
+Barge Canal
+CanalNarrow
+Narrowboat Canal
+CanalTub
+Tub boat Canal
+CanalShip
+Ship Canal
+CanalLargeShip
+Large Ship Canal
+NarrowTunnelBrick
+Brick tunnel (narrow gauge)
+NarrowTunnelStone
+Stone tunnel (narrow gauge)
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 DCRailCatenary
@@ -732,8 +722,6 @@ COM_JH_1970_00_50
 Simutrans Fried Chicken
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
-StoneChurch
-Parish Church
 1980s-Small-Church
 Small Church
 1990s-Small-Library
@@ -1440,6 +1428,20 @@ cider
 cider
 FreshFish
 live fish
+barrels
+barrels
+head
+head
+cars
+cars
+tonnen
+t
+paletten
+crates
+sack
+sacks
+m3
+cubic meters
 #_____________________________________misc______________________________________
 #_____________________________________misc______________________________________
 PowerDest
@@ -1561,31 +1563,17 @@ Norway spruce
 River0
 Stream (Not Navigable)
 River1
-Small River (Navigable)
+Upstream small river (Navigable)
+River1a
+Downstream small river (Navigable)
 River2
-River (Navigable)
+Upstream medium river (Navigable)
+River2a
+Midstream medium river (Navigable)
+River2b
+Downstream medium river (Navigable)
 River3
-Wide River (Navigable)
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-RailTunnel
-Rail tunnel
-RoadTunnel
-Road tunnel
-RailTunnelStone
-Stone faced tunnel
-RailTunnelBrick
-Brick faced tunnel
-RailTunnelConcrete
-Concrete tunnel
-RoadTunnelStone
-Stone faced tunnel
-RoadTunnelBrick
-Brick faced tunnel
-RoadTunnelConcrete
-Concrete tunnel
-CanalTunnel
-Canal tunnel
+Large river (Navigable)
 #______________________________________NarrowGaugeVehicle______________________________________
 #______________________________________NarrowGaugeVehicle______________________________________
 Single-ShireNarrow
@@ -2750,6 +2738,10 @@ MR-483
 Midland 483 Class 4-4-0
 MR-483(tender)
 Midland 483 Class (tender)
+MR-2000
+Midland 2000 Class "Flatiron" 0-6-4
+MR-2000-superheated
+Midland 2000 Class "Flatiron" 0-6-4 (superheated)
 LMS-2P
 LMS Class 2P 4-4-0
 LMS-2P(tender)
@@ -3123,9 +3115,9 @@ GWR clerestory parcel brake coach
 CC-Clerestory-TPO
 GWR clerestory travelling post office
 Teak-Clerestory-Parcel-Brake
-GNR clerestory parcel brake coach (teak)
+GNR clerestory parcel brake coach
 Teak-Clerestory-TPO
-GNR clerestory travelling post office (teak)
+GNR clerestory travelling post office
 MR-Clerestory-Parcel-Brake
 Midland clerestory parcel brake coach
 MR-Clerestory-TPO
@@ -3173,29 +3165,29 @@ LNER mail carriage
 LNER-Gresley-Express-Parcel-Brake
 LNER brake/mail carriage
 LNER-Gresley-Express-TPO
-LNER Travelling Post Office
+LNER travelling post office
 SR-Maunsell-TPO(Green)
-SR Travelling Post Office
+SR travelling post office
 BR-Mk1-TPO
-BR Mk. 1 Travelling Post Office
+BR Mk. 1 travelling post office
 CC-Clerestory-Mail
 GWR clerestory mail van
 Teak-Clerestory-Mail
-GNR Clerestory Mail Van (teak)
+GNR clerestory mail Van
 MR-Clerestory-Mail
-Midland Clerestory Mail van
+Midland clerestory mail van
 BR-Mk1-BG
-BR Mk. 1 Gangwayed Brake
+BR Mk. 1 gangwayed brake carriage
 BR-Mk1-Sub
-BR Mk. 1 Compartment Carriage
+BR Mk. 1 compartment carriage
 BR-Mk1-Sub-Brake-rear
-BR Mk. 1 Compartment Brake
+BR Mk. 1 compartment brake carriage (rear)
 BR-Mk1-Sub-Brake-front
-BR Mk. 1 Compartment Brake
+BR Mk. 1 compartment brake carriage
 SR-Maunsell-Mail(Green)
-SR Maunsell Mail van
+SR mail van
 GWR-Express-Mail
-GWR Bow-ended Mail Coach
+GWR bow-ended corridor mail coach
 BR-Mk1-POS
 BR Mk. 1 Mail coach
 MSJ&A-EMU-driving-trailer
@@ -3213,7 +3205,7 @@ Bulleid 1-Co-Co-1
 GWR-Castle
 GWR 4073 "Castle" Class 4-6-0
 GWR-Castle-Tender
-GWR 4073 "Castle" Tender
+GWR 4073 "Castle" tender
 BR-506Front(BR-Blue)
 BR Class 506 EMU
 BR-506Centre(BR-Blue)
@@ -3351,7 +3343,7 @@ LBSCR seven compartment brake carriage (rear)
 LMR-Planet-Goods
 LMR "Planet" Goods 0-4-0
 LMR-Bird
-LMR "Bird" 2-2-2
+LMR "Bird" class 2-2-2
 LNWR-sharp-tank
 LNWR Sharp Tank 2-4-0T
 LNWR-Sharp-goods
@@ -3428,6 +3420,10 @@ LNWR-Sampson-Tender
 LNWR express tender
 MR-1738
 Midland 1738 Class 4-4-0
+MR-2203
+Midland 2203 Class 4-4-0
+MR-2781
+Midland 2781 Class "Belpaire" 4-4-0
 LNWR-Precursor-tank
 LNWR "Precursor" Tank 4-4-2T
 LNWR-Precursor
@@ -3957,7 +3953,7 @@ Foden Compound (long goods)
 FodenCompoundPiece
 Foden Compound (piece goods)
 FodenCompoundCool
-Foden Compound (cool goods)
+Foden Compound (perishable goods)
 FodenCompoundLivestock
 Foden Compound (livestock)
 SentinelDGBulk
@@ -3967,7 +3963,7 @@ Sentinel DG (long goods)
 SentinelDGPiece
 Sentinel DG (piece goods)
 SentinelDGCool
-Sentinel DG (cool goods)
+Sentinel DG (perishable goods)
 SentinelDGLivestock
 Sentinel DG (livestock)
 SentinelSBulk
@@ -3977,7 +3973,7 @@ Sentinel S (long goods)
 SentinelSPiece
 Sentinel S (piece goods)
 SentinelSCool
-Sentinel S (cool goods)
+Sentinel S (perishable goods)
 SentinelSLivestock
 Sentinel S (livestock)
 SentinelStandardBulk
@@ -3987,7 +3983,7 @@ Sentinel Standard (long goods)
 SentinelStandardPiece
 Sentinel Standard (piece goods)
 SentinelStandardCool
-Sentinel Standard (cool goods)
+Sentinel Standard (perishable goods)
 SentinelStandardLivestock
 Sentinel Standard (livestock)
 ThornycroftWagonBulk
@@ -3997,13 +3993,13 @@ Thornycroft Wagon (long goods)
 ThornycroftWagonPiece
 Thornycroft Wagon (piece goods)
 ThornycroftWagonCool
-Thornycroft Wagon (cool goods)
+Thornycroft Wagon (perishable goods)
 ThornycroftWagonLivestock
 Thornycroft Wagon (livestock)
 ThornycroftSteamVanPiece
 Thornycroft Steam Van (piece goods)
 ThornycroftSteamVanCool
-Thornycroft Steam Van (cool goods)
+Thornycroft Steam Van (perishable goods)
 ThornycroftSteamVanMail
 Thornycroft Steam Van (mail)
 YorkshireSteamTank
@@ -4017,13 +4013,13 @@ McNamara Dennis Van (mail)
 AustinSevenPost
 Austin Seven Van (mail)
 AustinSevenCool
-Austin Seven Van (cool goods)
+Austin Seven Van (perishable goods)
 AustinSevenPiece
 Austin Seven Van (piece goods)
 MorrisEightPost
 Morris Eight Van (mail)
 MorrisEightCool
-Morris Eight Van (cool goods)
+Morris Eight Van (perishable goods)
 MorrisEightPiece
 Morris Eight Van (piece goods)
 ThornycroftBTPost
@@ -4033,7 +4029,7 @@ Thornycroft BT (bulk goods)
 ThornycroftBTPiece
 Thornycroft BT (piece goods)
 ThornycroftBTCool
-Thornycroft BT (cool goods)
+Thornycroft BT (perishable goods)
 ThornycroftBTLong
 Thornycroft BT (long goods)
 ThornycroftBTCars
@@ -4049,7 +4045,7 @@ Thornycroft Q Trailer (bulk goods)
 ThornycroftQArticPiece
 Thornycroft Q Trailer (piece goods)
 ThornycroftQArticCool
-Thornycroft Q Trailer (cool goods)
+Thornycroft Q Trailer (perishable goods)
 ThornycroftQArticLong
 Thornycroft Q Trailer (long goods)
 ThornycroftQArticCars
@@ -4065,7 +4061,7 @@ Thornycroft Amazon Trailer (bulk goods)
 ThornycroftAmazonPiece
 Thornycroft Amazon Trailer (piece goods)
 ThornycroftAmazonCool
-Thornycroft Amazon Trailer (cool goods)
+Thornycroft Amazon Trailer (perishable goods)
 ThornycroftAmazonLong
 Thornycroft Amazon Trailer (long goods)
 ThornycroftAmazonCars
@@ -4079,7 +4075,7 @@ Thornycroft Q Rigid (bulk goods)
 ThornycroftQRigidPiece
 Thornycroft Q Rigid (piece goods)
 ThornycroftQRigidCool
-Thornycroft Q Rigid (cool goods)
+Thornycroft Q Rigid (perishable goods)
 ThornycroftQRigidLong
 Thornycroft Q Rigid (long goods)
 ThornycroftQRigidLivestock
@@ -4093,7 +4089,7 @@ Thornycroft QC Rigid (bulk goods)
 ThornycroftQCPiece
 Thornycroft QC Rigid (piece goods)
 ThornycroftQCCool
-Thornycroft QC Rigid (cool goods)
+Thornycroft QC Rigid (perishable goods)
 ThornycroftQCLong
 Thornycroft QC Rigid (long goods)
 ThornycroftQCLivestock
@@ -4107,7 +4103,7 @@ Thornycroft Stag Rigid (bulk goods)
 ThornycroftStagPiece
 Thornycroft Stag Rigid (piece goods)
 ThornycroftStagCool
-Thornycroft Stag Rigid (cool goods)
+Thornycroft Stag Rigid (perishable goods)
 ThornycroftStagLong
 Thornycroft Stag Rigid (long goods)
 ThornycroftStagLivestock
@@ -4117,13 +4113,13 @@ Thornycroft Stag Rigid (cars)
 AustinMaestroPiece
 Austin Maestro Van (piece goods)
 AustinMaestroCool
-Austin Maestro Van (cool goods)
+Austin Maestro Van (perishable goods)
 AustinMaestroPost
 Austin Maestro Van (mail)
 AustinMorrisEAPiece
 Austin Maestro Van (piece goods)
 AustinMorrisEACool
-Austin Morris EA Van (cool goods)
+Austin Morris EA Van (perishable goods)
 AustinMorrisEAPost
 Austin Morris EA Van (mail)
 DAFCFRigidBulk
@@ -4139,7 +4135,7 @@ DAF LF (long goods)
 DAFLFPiece
 DAF LF (piece goods)
 DAFLFCool
-DAF LF (cool goods)
+DAF LF (perishable goods)
 DAFLFLivestock
 DAF LF (livestock)
 DAFLFPost
@@ -4147,19 +4143,19 @@ DAF LF (mail)
 FordEscortPiece
 Ford Escort Van (piece goods)
 FordEscortCool
-Ford Escort Van (cool goods)
+Ford Escort Van (perishable goods)
 FordEscortPost
 Ford Escort Van (mail)
 FordTransitConnectPiece
 Ford Transit Connect Van (piece goods)
 FordTransitConnectCool
-Ford Transit Connect Van (cool goods)
+Ford Transit Connect Van (perishable goods)
 FordTransitConnectPost
 Ford Transit Connect Van (mail)
 FordTransitPiece
 Ford Transit Van (piece goods)
 FordTransitCool
-Ford Transit Van (cool goods)
+Ford Transit Van (perishable goods)
 FordTransitPost
 Ford Transit Van (mail)
 LeylandDAF95Artic
@@ -4177,7 +4173,7 @@ Large Artic Trailer (long goods)
 LargeArticTrailerPiece
 Large Artic Trailer (piece goods)
 LargeArticTrailerCool
-Large Artic Trailer (cool goods)
+Large Artic Trailer (perishable goods)
 LargeArticTrailerLivestock
 Large Artic Trailer (livestock)
 LargeArticTrailerFluid
@@ -4193,7 +4189,7 @@ Standard Artic Trailer (long goods)
 StandardArticTrailerPiece
 Standard Artic Trailer (piece goods)
 StandardArticTrailerCool
-Standard Artic Trailer (cool goods)
+Standard Artic Trailer (perishable goods)
 StandardArticTrailerLivestock
 Standard Artic Trailer (livestock)
 StandardArticTrailerFluid
@@ -4205,7 +4201,7 @@ Standard Artic Trailer (mail)
 LeylandDAF200Piece
 Leyland DAF 200 (piece goods)
 LeylandDAF200Cool
-Leyland DAF 200 (cool goods)
+Leyland DAF 200 (perishable goods)
 LeylandDAF200Post
 Leyland DAF 200 (mail)
 LeylandDAF65Bulk
@@ -4215,7 +4211,7 @@ Leyland DAF 65 (long goods)
 LeylandDAF65Piece
 Leyland DAF 65 (piece goods)
 LeylandDAF65Cool
-Leyland DAF 65 (cool goods)
+Leyland DAF 65 (perishable goods)
 LeylandDAF65Livestock
 Leyland DAF 65 (livestock)
 LeylandDAF65Post
@@ -4233,7 +4229,7 @@ Leyland G (long goods)
 LeylandGPiece
 Leyland G (piece goods)
 LeylandGCool
-Leyland G (cool goods)
+Leyland G (perishable goods)
 LeylandGLivestock
 Leyland G (livestock)
 LeylandGPost
@@ -4245,7 +4241,7 @@ Leyland Roadrunner (long goods)
 LeylandRoadrunnerPiece
 Leyland Roadrunner (piece goods)
 LeylandRoadrunnerCool
-Leyland Roadrunner (cool goods)
+Leyland Roadrunner (perishable goods)
 LeylandRoadrunnerLivestock
 Leyland Roadrunner (livestock)
 LeylandRoadrunnerPost
@@ -4253,7 +4249,7 @@ Leyland Roadrunner (mail)
 LeylandSherpaPiece
 Leyland Sherpa Van (piece goods)
 LeylandSherpaCool
-Leyland Sherpa Van (cool goods)
+Leyland Sherpa Van (perishable goods)
 LeylandSherpaPost
 Leyland Sherpa Van (mail)
 LeylandT45ConstructorBulk
@@ -4269,7 +4265,7 @@ Morris FG (long goods)
 MorrisFGPiece
 Morris FG (piece goods)
 MorrisFGCool
-Morris FG (cool goods)
+Morris FG (perishable goods)
 MorrisFGLivestock
 Morris FG (livestock)
 MorrisFGPost
@@ -4277,25 +4273,25 @@ Morris FG (mail)
 MorrisJ4Piece
 Morris J4 (piece goods)
 MorrisJ4Cool
-Morris J4 (cool goods)
+Morris J4 (perishable goods)
 MorrisJ4Post
 Morris J4 (mail)
 MorrisLDPiece
 Morris LD (piece goods)
 MorrisLDCool
-Morris LD (cool goods)
+Morris LD (perishable goods)
 MorrisLDPost
 Morris LD (mail)
 MorrisMarinaPiece
 Morris Marina Van (piece goods)
 MorrisMarinaCool
-Morris Marina Van (cool goods)
+Morris Marina Van (perishable goods)
 MorrisMarinaPost
 Morris Marina Van (mail)
 MorrisMinorPiece
 Morris Minor Van (piece goods)
 MorrisMinorCool
-Morris Minor Van (cool goods)
+Morris Minor Van (perishable goods)
 MorrisMinorPost
 Morris Minor Van (mail)
 LeylandT45Roadtrain
@@ -4317,7 +4313,7 @@ Leyland Comet (long goods)
 LeylandCometPiece
 Leyland Comet (piece goods)
 LeylandCometCool
-Leyland Comet (cool goods)
+Leyland Comet (perishable goods)
 LeylandCometLivestock
 Leyland Comet (livestock)
 LeylandCometFluid
@@ -4335,7 +4331,7 @@ Scammell 1955 Trailer (long goods)
 Scammell1955TrailerPiece
 Scammell 1955 Trailer (piece goods)
 Scammell1955TrailerCool
-Scammell 1955 Trailer (cool goods)
+Scammell 1955 Trailer (perishable goods)
 Scammell1955TrailerFluid
 Scammell 1955 Trailer (bulk fluids)
 Scammell1955TrailerCars
@@ -4351,7 +4347,7 @@ Scammell Crusader Trailer (long goods)
 ScammellCrusaderTrailerPiece
 Scammell Crusader Trailer (piece goods)
 ScammellCrusaderTrailerCool
-Scammell Crusader Trailer (cool goods)
+Scammell Crusader Trailer (perishable goods)
 ScammellCrusaderTrailerLivestock
 Scammell Crusader Trailer (livestock)
 ScammellCrusaderTrailerFluid
@@ -4369,7 +4365,7 @@ Scammell Mechanical Horse Trailer (long goods)
 ScammellMechHorseTrailerPiece
 Scammell Mechanical Horse Trailer (piece goods)
 ScammellMechHorseTrailerCool
-Scammell Mechanical Horse Trailer (cool goods)
+Scammell Mechanical Horse Trailer (perishable goods)
 ScammellMechHorseTrailerLivestock
 Scammell Mechanical Horse Trailer (livestock)
 ScammellMechHorseTrailerMail
@@ -4381,7 +4377,7 @@ Scammell Routeman (long goods)
 ScammellRoutemanPiece
 Scammell Routeman (piece goods)
 ScammellRoutemanCool
-Scammell Routeman (cool goods)
+Scammell Routeman (perishable goods)
 ScammellRoutemanLivestock
 Scammell Routeman (livestock)
 ScammellRoutemanFluid
@@ -4391,7 +4387,7 @@ Maudslay Van (bulk goods)
 MaudslayVanPiece
 Maudslay Van (piece goods)
 MaudslayVanCool
-Maudslay Van (cool goods)
+Maudslay Van (perishable goods)
 MaudslayVanLong
 Maudslay Van (long goods)
 MaudslayVanPost
@@ -4402,178 +4398,640 @@ OptareAlero
 Optare Alero
 #____________________________________water-vehicle____________________________________
 #____________________________________water-vehicle____________________________________
-BoatHorsesDouble
-Pair of horses
-BoatHorsesSingle
-Single horse
-HorseBargeBulk
-Unpowered Barge (bulk goods)
-HorseBargeLong
-Unpowered Barge (long goods)
-HorseBargePiece
-Unpowered Barge (piece goods)
-HorseBargeCool
-Unpowered Barge (cool goods)
-NorfolkWherryPassenger
-Norfolk Wherry (passengers)
-ClydeSteamer
-Clyde Steamer
-NorfolkWherryMail
-Norfolk Wherry (mail)
-HumberKeelMail
-Humber Keel (mail)
-ThamesSailingBargeMail
-Thames Sailing Barge (mail)
-SeineNetterSteam
-Seine Netter
-SeineNetterDiesel
-Seine Netter
-SteamBargePiece
-Steam Barge (piece goods)
-DieselBargePiece
-Diesel Barge (piece goods)
-NorfolkWherryPiece
-Norfolk Wherry (piece goods)
-HumberKeelPiece
-Humber Keel (piece goods)
-ThamesSailingBargePiece
-Thames Sailing Barge (piece goods)
-ClanLineSteamerPiece
-Clan Line Cargo Steamer (piece goods)
-HandysizePiece
-Handysize Container Ship (piece goods)
-SteamBargeBulk
-Steam Barge (bulk goods)
-DieselBargeBulk
-Diesel Barge (bulk goods)
-NorfolkWherryBulk
-Norfolk Wherry (bulk goods)
-HumberKeelBulk
-Humber Keel (bulk goods)
-ThamesSailingBargeBulk
-Thames Sailing Barge (bulk goods)
-ClanLineSteamerBulk
-Clan Line Cargo Steamer (bulk goods)
-HandysizeBulk
-Handysize Dry Bulk Ship (bulk goods)
-SteamBargeCool
-Steam Barge (cool goods)
-DieselBargeCool
-Diesel Barge (cool goods)
-NorfolkWherryCool
-Norfolk Wherry (cool goods)
-HumberKeelCool
-Humber Keel (cool goods)
-ThamesSailingBargeCool
-Thames Sailing Barge (cool goods)
-ClanLineSteamerCool
-Clan Line Cargo Steamer (cool goods)
-HandysizeCool
-Handysize Container Ship (cool goods)
-SteamBargeLong
-Steam Barge (long goods)
-DieselBargeLong
-Diesel Barge (long goods)
-NorfolkWherryLong
-Norfolk Wherry (long goods)
-HumberKeelLong
-Humber Keel (long goods)
-ThamesSailingBargeLong
-Thames Sailing Barge (long goods)
-ClanLineSteamerLong
-Clan Line Cargo Steamer (long goods)
-HandysizeLong
-Handysize Container Ship (long goods)
-SteamBargeOil
-Steam Barge (bulk fluids)
-DieselBargeOil
-Diesel Barge (bulk fluids)
-ClanLineSteamerOil
-Clan Line Cargo Steamer (bulk fluids)
-HandysizeOil
-Handysize Tanker (bulk fluids)
-SchoonerBulk
-Schooner (bulk goods)
-SchoonerPiece
-Schooner (piece goods)
-SchoonerCool
-Schooner (cool goods)
-SchoonerLong
-Schooner (long goods)
-Dogger
-Dogger
-Fifie
-Fifie
-BrigBulk
-Brig (bulk goods)
-BrigPiece
-Brig (piece goods)
-BrigCool
-Brig (cool goods)
-BrigLong
-Brig (long goods)
-EastIndiamanBulk
-East Indiaman (bulk goods)
-EastIndiamanPiece
-East Indiaman (piece goods)
-EastIndiamanLong
-East Indiaman (long goods)
-EastIndiamanAddPax
-Passenger accomodation for the East Indiaman
-EastIndiamanAddMail
-Mail accomodation for the East Indiaman
-BlackwallFrigateBulk
-Blackwall Frigate (bulk goods)
-BlackwallFrigatePiece
-Blackwall Frigate (piece goods)
-BlackwallFrigateLong
-Blackwall Frigate (long goods)
-BlackwallFrigateAddPax
-Passenger accomodation for the Blackwall Frigate
-BlackwallFrigateAddMail
-Mail accomodation for the Blackwall Frigate
-ClipperBulk
-Clipper (bulk goods)
-ClipperPiece
-Clipper (piece goods)
-ClipperLong
-Clipper (long goods)
-ClipperAddPax
-Passenger accomodation for the Clipper
-ClipperAddMail
-Mail accomodation for the Clipper
-WindjammerBulk
-Windjammer (bulk goods)
-WindjammerPiece
-Windjammer (piece goods)
-WindjammerLong
-Windjammer (long goods)
-WindjammerFluid
-Windjammer (bulk fluids)
-PSComet
-PS Comet
-PSCometMail
-Mail deck
+ClydePufferBulk
+Clyde puffer (bulk goods)
+ClydePufferLong
+Clyde puffer (long goods)
+ClydePufferPiece
+Clyde puffer (piece goods)
+ClydePufferCool
+Clyde puffer (cooled goods)
+ClydePufferOil
+Clyde puffer (bulk fluids)
+ClydePufferLivestock
+Clyde puffer (livestock)
+PSIndustryPiece
+Cargo paddle ship (piece goods)
+PSIndustryCool
+Cargo paddle ship (cooled goods)
+PSIndustryMail
+Cargo paddle ship (mail)
+SR-N6-Winchester
+Saunders Roe N6 "Winchester class" hovercraft
+BHC-AP1-88_100
+BHC AP1-88 100 series hovercraft
+BHC-AP1-88_400(Piece)
+BHC AP1-88 400 series hovercraft (piece goods)
+BHC-AP1-88_400(Cool)
+BHC AP1-88 400 series hovercraft (cooled goods)
+BHT-130
+BHT 130 hovercraft
+BHT-150(Piece)
+BHT 150 hovercraft (piece goods)
+BHT-150(Cool)
+BHT 150 hovercraft (cooled goods)
+SR-N4-Mountbatten-Mk1
+Saunders Roe N4 "Mountbatten class" Mk1 hovercraft
+SR-N4-Mountbatten-Mk3
+Saunders Roe N4 "Mountbatten class" Mk3 hovercraft
 MerseyFerry
-Mersey Ferry
-WoodenPaddleSteamer
-Wooden Paddle Steamer
-WoodenPaddleSteamerMail
-Mail deck
-IronPaddleSteamer
-Iron Paddle Steamer
-IronPaddleSteamerMail
-Mail deck
+River ferry
 SSGreatWestern
 SS Great Western
 SSGreatBritain
 SS Great Britain
 SSGreatEastern
 SS Great Eastern
-SSGreatWesternAddMail
-Mail storage deck
-SSGreatEasternAddMail
-Mail storage deck
+ClipperPiece
+Clipper (piece goods)
+EastIndiamanPiece
+East Indiaman (piece goods)
+BlackwallFrigatePiece
+Blackwall Frigate (piece goods)
+ClanLineSteamerPiece
+Clan Line ship (piece goods)
+WindjammerPiece
+Windjammer (piece goods)
+HandysizePiece
+Handysize (piece goods)
+HandysizeCars
+Handysize (cars)
+HandysizeLivestock
+Handysize (livestock)
+ClipperBulk
+Clipper (bulk goods)
+EastIndiamanBulk
+East Indiaman (bulk goods)
+BlackwallFrigateBulk
+Blackwall Frigate (bulk goods)
+ClanLineSteamerBulk
+Clan Line ship (bulk goods)
+ClanLineSteamerCars
+Clan Line ship (cars)
+ClanLineSteamerLivestock
+Clan Line ship (livestock)
+WindjammerBulk
+Windjammer (bulk goods)
+HandysizeBulk
+Handysize (bulk goods)
+ClipperLong
+Clipper (long goods)
+EastIndiamanLong
+East Indiaman (long goods)
+BlackwallFrigateLong
+Blackwall Frigate (long goods)
+ClanLineSteamerLong
+Clan Line ship (long goods)
+WindjammerLong
+Windjammer (long goods)
+HandysizeLong
+Handysize (long goods)
+ClanLineSteamerCool
+Clan Line ship (cooled goods)
+HandysizeCool
+Handysize (cooled goods)
+ClanLineSteamerOil
+Clan Line ship (bulk fluids)
+WindjammerFluid
+Windjammer (bulk fluids)
+HandysizeOil
+Handysize (bulk fluids)
+HorseBargeCool
+Unpowered barge (cooled goods)
+DieselBargeBulk
+Diesel barge (bulk goods)
+DieselBargeCool
+Diesel barge (perishable goods)
+DieselBargeLong
+Diesel barge (long goods)
+DieselBargePiece
+Diesel barge (piece goods)
+DieselBargeLivestock
+Diesel barge (livestock)
+SteamBargeLivestock
+Steam barge (livestock)
+HandysizeCar
+Handysize (cars)
+ClanLineSteamerCar
+Clan Line ship (cars)
+ThameslineRiverbus
+Thamesline Riverbus
+FBM-Hydrocat
+FBM Hydrocat catamaran
+River-Runner-150
+River Runner 150 catamaran
+River-Runner-200
+River Runner 200 catamaran
+HSC-WightRyder
+Wight Ryder class catamaran
+HSC-Our-Lady
+Our Lady class catamaran
+HSC-FastCat
+Fastcat class catamaran
+ClipperHull
+Clipper (hull)
+ClipperAddPax
+Clipper passenger berths
+ClipperAddMail
+Clipper mail hold
+ClipperAddPiece
+Clipper piece goods hold
+ClipperAddCool
+Clipper cooled goods hold
+ClipperAddLong
+Clipper long goods hold
+ClipperAddBulk
+Clipper bulk goods hold
+ClipperAddLivestock
+Clipper livestock hold
+BrigHull
+Brig (hull)
+BrigAddPax
+Brig passenger berths
+BrigAddMail
+Brig mail hold
+BrigAddPiece
+Brig piece goods hold
+BrigAddCool
+Brig cooled goods hold
+BrigAddLong
+Brig long goods hold
+BrigAddBulk
+Brig bulk goods hold
+BrigAddLivestock
+Brig livestock hold
+SchoonerHull
+Schooner (hull)
+SchoonerAddPax
+Schooner passenger berths
+SchoonerAddMail
+Schooner mail hold
+SchoonerAddPiece
+Schooner piece goods hold
+SchoonerAddCool
+Schooner cooled goods hold
+SchoonerAddLong
+Schooner long goods hold
+SchoonerAddBulk
+Schooner bulk goods hold
+SchoonerAddLivestock
+Schooner livestock hold
+EastIndiamanHull
+East Indiaman (hull)
+EastIndiamanAddPax
+East Indiaman passenger berths
+EastIndiamanAddMail
+East Indiaman mail hold
+EastIndiamanAddPiece
+East Indiaman piece goods hold
+EastIndiamanAddCool
+East Indiaman cooled goods hold
+EastIndiamanAddLong
+East Indiaman long goods hold
+EastIndiamanAddBulk
+East Indiaman bulk goods hold
+EastIndiamanAddLivestock
+East Indiaman livestock hold
+BlackwallFrigateHull
+Blackwall Frigate (hull)
+BlackwallFrigateAddPax
+Blackwall Frigate passenger berths
+BlackwallFrigateAddMail
+Blackwall Frigate mail hold
+BlackwallFrigateAddPiece
+Blackwall Frigate piece goods hold
+BlackwallFrigateAddCool
+Blackwall Frigate cooled goods hold
+BlackwallFrigateAddLong
+Blackwall Frigate long goods hold
+BlackwallFrigateAddBulk
+Blackwall Frigate bulk goods hold
+BlackwallFrigateAddLivestock
+Blackwall Frigate livestock hold
+ThamesSailingBargeCool
+Thames sailing barge (perishable goods)
+ThamesSailingBargeBulk
+Thames sailing barge (bulk goods)
+ThamesSailingBargeLong
+Thames sailing barge (long goods)
+ThamesSailingBargePiece
+Thames sailing barge (piece goods)
+ThamesSailingBargeLivestock
+Thames sailing barge (livestock)
+MDV-1200
+MDV 1200 Class Fast Ferry
+Incat74m
+Incat 74m Catamaran
+Incat96m
+Incat 96m Catamaran
+Incat112m
+Incat 112m Catamaran
+HSS-1500
+Stena HSS 1500 Class Catamaran
+ChannelPaddleSteamerHull
+Channel paddle ship (hull)
+ChannelPaddleSteamerAddPax
+Channel paddle ship passenger berths
+ChannelPaddleSteamerAddMail
+Channel paddle ship mail hold
+ChannelPaddleSteamerAddPiece
+Channel paddle ship piece goods hold
+ChannelPaddleSteamerAddCool
+Channel paddle ship cooled goods hold
+ChannelPaddleSteamerAddLong
+Channel paddle ship long goods hold
+ChannelPaddleSteamerAddBulk
+Channel paddle ship bulk goods hold
+ChannelPaddleSteamerAddLivestock
+Channel paddle ship livestock hold
+ChannelScrewSteamship
+Channel screw ship
+ChannelScrewSteamshipAddMail
+Mail hold
+SECRQueen
+SECR TS "The Queen" ferry
+SECRQueenAddMail
+SECR TS "The Queen" ferry mail hold
+SRIsleOfThanet
+SR TS "Isle of Thanet" ferry
+SRIsleOfThanetAddMail
+SR TS "Isle of Thanet" ferry mail hold
+BTCLordWarden
+BTC TS "Lord Warden" ferry
+BTCLordWardenAddMail
+BTC TS "Lord Warden" ferry mail hold
+BTCLordWardenAddPiece
+BTC TS "Lord Warden" ferry piece goods hold
+BTCLordWardenAddCool
+BTC TS "Lord Warden" ferry cooled goods hold
+SRInvicta
+SR TS "Invicta" ferry
+SRInvictaAddMail
+SR TS "Invicta" ferry mail hold
+SealinkHorsa
+Sealink MV "Horsa" ferry
+SealinkHorsaAddMail
+Sealink MV "Horsa" ferry mail hold
+SealinkHorsaAddPiece
+Sealink MV "Horsa" ferry piece goods hold
+SealinkHorsaAddCool
+Sealink MV "Horsa" ferry cooled goods hold
+POPride
+P&O Pride class ferry
+POPrideAddMail
+P&O Pride class ferry mail hold
+POPrideAddPiece
+P&O Pride class ferry piece goods hold
+POPrideAddCool
+P&O Pride class ferry cooled goods hold
+POSuperEuropeanMixed
+P&O Super European class mixed ferry
+POSuperEuropeanMixedAddMail
+P&O Super European class mixed ferry mail hold
+POSuperEuropeanMixedAddPiece
+P&O Super European class mixed ferry piece goods hold
+POSuperEuropeanMixedAddCool
+P&O Super European class mixed ferry cooled goods hold
+POSuperEuropeanFreight
+P&O Super European class freight ferry
+POSuperEuropeanFreightAddMail
+P&O Super European class freight ferry mail hold
+POSuperEuropeanFreightAddPiece
+P&O Super European class freight ferry piece goods hold
+POSuperEuropeanFreightAddCool
+P&O Super European class freight ferry cooled goods hold
+POSpirit
+P&O Spirit class ferry
+POSpiritAddMail
+P&O Spirit class ferry mail hold
+POSpiritAddPiece
+P&O Spirit class ferry piece goods hold
+POSpiritAddCool
+P&O Spirit class ferry cooled goods hold
+TTEuropeanFreight
+TT European Class freight ferry
+TTEuropeanFreightAddMail
+TT European Class freight ferry mail hold
+TTEuropeanFreightAddPiece
+TT European Class freight ferry piece goods hold
+TTEuropeanFreightAddCool
+TT European Class freight ferry cooled goods hold
+WindjammerHull
+Windjammer (hull)
+WindjammerAddOil
+Windjammer bulk fluid hold
+WindjammerAddMail
+Windjammer mail hold
+WindjammerAddPiece
+Windjammer piece goods hold
+WindjammerAddCool
+Windjammer cooled goods hold
+WindjammerAddLong
+Windjammer long goods hold
+WindjammerAddBulk
+Windjammer bulk goods hold
+WindjammerAddLivestock
+Windjammer livestock hold
+WoodenPaddleTug
+Wooden paddle river tug
+IronSteamTug
+Iron river tug
+DieselTug
+River tug
+SeineNetterDiesel
+Seine netter
+SeineNetterSteam
+Seine netter
+ClydeCargoSteamerHull
+Clyde cargo ship (hull)
+ClydeCargoSteamerAddOil
+Clyde cargo ship bulk fluid hold
+ClydeCargoSteamerAddMail
+Clyde cargo ship mail hold
+ClydeCargoSteamerAddPiece
+Clyde cargo ship piece goods hold
+ClydeCargoSteamerAddCool
+Clyde cargo ship cooled goods hold
+ClydeCargoSteamerAddLong
+Clyde cargo ship long goods hold
+ClydeCargoSteamerAddBulk
+Clyde cargo ship bulk goods hold
+ClydeCargoSteamerAddLivestock
+Clyde cargo ship livestock hold
+TugBargeLivestock
+Unpowered tug barge (livestock)
+TugBargeBulk
+Unpowered river barge (bulk goods)
+TugBargeLong
+Unpowered river barge (long goods)
+TugBargePiece
+Unpowered tug barge (piece goods)
+TugBargeCool
+Unpowered river barge (cooled goods)
+TugBargeOil
+Unpowered river barge (bulk fluids)
+Island
+"Island" Class car ferry
+Loch
+"Loch" Class car ferry
+Super-Loch
+"Super Loch" Class car ferry
+IronRiverSteamer
+Iron river paddle ferry
+SteelRiverSteamer
+Steel river paddle ferry
+LargeSteelRiverSteamer
+Large steel river paddle ferry
+IronPaddleSteamer
+Iron coastal paddle ship
+IronPaddleSteamerMail
+Mail deck
+PSComet
+Paddle ship with sail
+PSCometMail
+Mail deck
+WoodenPaddleSteamer
+Wooden paddle ship
+WoodenPaddleSteamerMail
+Mail deck
+IronPaddleSteamerMail
+Mail deck
+MVBalmoral
+Small coastal ferry
+MVLochfyne
+Coastal ferry
+PSChevalier
+Large iron coastal paddle ship
+PSMadgeWildfire
+Steel coastal paddle ship
+ClydeSteamer
+Small iron coastal paddle ship
+PSPremier
+Iron coastal paddle ship (open deck)
+PSWaverley2
+Compound coastal paddle ship
+RMSColumba
+Luxury coastal paddle ship
+TSSKingEdward
+Turbine coastal ship
+TSSQueenMary
+Large turbine coastal ship
+TSSQueenMaryMail
+Mail deck
+TSSKingEdwardMail
+Mail deck
+RMSColumbaMail
+Mail deck
+TyneFerry
+Small river ferry
+WoodenRiverSteamer
+Wooden river ferry
+LightweightDieselBargeBulk
+Lightweight diesel barge (bulk goods)
+LightweightDieselBargeLong
+Lightweight diesel barge (long goods)
+LightweightDieselBargePiece
+Lightweight diesel barge (piece goods)
+LightweightDieselBargeCool
+Lightweight diesel barge (cooled goods)
+LightweightDieselBargeOil
+Lightweight diesel barge (bulk fluids)
+LightweightDieselBargeLivestock
+Lightweight diesel barge (livestock)
+BoxBoatBulk
+Box Boat (bulk goods)
+BoxBoatLong
+Box Boat (long goods)
+BoxBoatPiece
+Box Boat (piece goods)
+BoxBoatCool
+Box Boat (cooled goods)
+SteamNarrowboatBulk
+Steam narrowboat (bulk goods)
+SteamNarrowboatLong
+Steam narrowboat (long goods)
+SteamNarrowboatPiece
+Steam narrowboat (piece goods)
+SteamNarrowboatCool
+Steam narrowboat (cooled goods)
+SteamNarrowboatOil
+Steam narrowboat (bulk fluids)
+SteamNarrowboatLivestock
+Steam narrowboat (livestock)
+SemiDieselNarrowboatBulk
+Semi-diesel narrowboat (bulk goods)
+SemiDieselNarrowboatLong
+Semi-diesel narrowboat (long goods)
+SemiDieselNarrowboatPiece
+Semi-diesel narrowboat (piece goods)
+SemiDieselNarrowboatCool
+Semi-diesel narrowboat (cooled goods)
+SemiDieselNarrowboatOil
+Semi-diesel narrowboat (bulk fluids)
+SemiDieselNarrowboatLivestock
+Semi-diesel narrowboat (livestock)
+DieselNarrowboatBulk
+Diesel narrowboat (bulk goods)
+DieselNarrowboatLong
+Diesel narrowboat (long goods)
+DieselNarrowboatPiece
+Diesel narrowboat (piece goods)
+DieselNarrowboatCool
+Diesel narrowboat (cooled goods)
+DieselNarrowboatOil
+Diesel narrowboat (bulk fluids)
+DieselNarrowboatLivestock
+Diesel narrowboat (livestock)
+TubBoatBulk
+Tub boat (bulk goods)
+TubBoatLong
+Tub boat (long goods)
+TubBoatPiece
+Tub boat (piece goods)
+TubBoatCool
+Tub boat (cooled goods)
+TubBoatOil
+Tub boat (bulk fluids)
+TubBoatLivestock
+Tub boat (livestock)
+CompositeHullUnpoweredNarrowboatBulk
+Composite hull unpowered narrowboat (bulk goods)
+CompositeHullUnpoweredNarrowboatLong
+Composite hull unpowered narrowboat (long goods)
+CompositeHullUnpoweredNarrowboatPiece
+Composite hull unpowered narrowboat (piece goods)
+CompositeHullUnpoweredNarrowboatCool
+Composite hull unpowered narrowboat (cooled goods)
+CompositeHullUnpoweredNarrowboatOil
+Composite hull unpowered narrowboat (bulk fluids)
+CompositeHullUnpoweredNarrowboatLivestock
+Composite hull unpowered narrowboat (livestock)
+WoodenHullUnpoweredNarrowboatBulk
+Wooden hull unpowered narrowboat (bulk goods)
+WoodenHullUnpoweredNarrowboatLong
+Wooden hull unpowered narrowboat (long goods)
+WoodenHullUnpoweredNarrowboatPiece
+Wooden hull unpowered narrowboat (piece goods)
+WoodenHullUnpoweredNarrowboatCool
+Wooden hull unpowered narrowboat (cooled goods)
+WoodenHullUnpoweredNarrowboatOil
+Wooden hull unpowered narrowboat (bulk fluids)
+WoodenHullUnpoweredNarrowboatLivestock
+Wooden hull unpowered narrowboat (livestock)
+SteelHullUnpoweredNarrowboatBulk
+Steel hull unpowered narrowboat (bulk goods)
+SteelHullUnpoweredNarrowboatLong
+Steel hull unpowered narrowboat (long goods)
+SteelHullUnpoweredNarrowboatPiece
+Steel hull unpowered narrowboat (piece goods)
+SteelHullUnpoweredNarrowboatCool
+Steel hull unpowered narrowboat (cooled goods)
+SteelHullUnpoweredNarrowboatOil
+Steel hull unpowered narrowboat (bulk fluids)
+SteelHullUnpoweredNarrowboatLivestock
+Steel hull unpowered narrowboat (livestock)
+TowpathTractor
+Towpath tractor
+BantamPusher
+Bantam pusher
+MarketNarrowboat
+Market narrowboat
+MarketNarrowboatAddMail
+Market narrowboat (mail compartment)
+DieselBargeBulk
+Diesel barge (bulk goods)
+DieselBargeLong
+Diesel barge (long goods)
+DieselBargePiece
+Diesel barge (piece goods)
+DieselBargeCool
+Diesel barge (cooled goods)
+DieselBargeOil
+Diesel barge (bulk fluids)
+DieselBargeLivestock
+Diesel barge (livestock)
+MarketBarge
+Market barge
+MarketBargeAddMail
+Market Barge(mail compartment)
+PacketBarge
+Packet barge
+PacketBargeAddMail
+Packet boat (mail compartment)
+SteelHullDumbBargeBulk
+Steel hull unpowered barge (bulk goods)
+SteelHullDumbBargeLong
+Steel hull unpowered barge (long goods)
+SteelHullDumbBargePiece
+Steel hull unpowered barge (piece goods)
+SteelHullDumbBargeCool
+Steel hull unpowered barge (cooled goods)
+SteelHullDumbBargeOil
+Steel hull unpowered barge (bulk fluids)
+SteelHullDumbBargeLivestock
+Steel hull unpowered barge (livestock)
+WoodenHullDumbBargeBulk
+Wooden hull unpowered barge (bulk goods)
+WoodenHullDumbBargeLong
+Wooden hull unpowered barge (long goods)
+WoodenHullDumbBargePiece
+Wooden hull unpowered barge (piece goods)
+WoodenHullDumbBargeCool
+Wooden hull unpowered barge (cooled goods)
+WoodenHullDumbBargeOil
+Wooden hull unpowered barge (bulk fluids)
+WoodenHullDumbBargeLivestock
+Wooden hull unpowered barge (livestock)
+FlyboatMail
+Flyboat (mail)
+FlyboatPax
+Flyboat (passenger)
+FlyboatPiece
+Flyboat (piece goods)
+FlyboatCool
+Flyboat (cooled goods)
+SteamBargeTug
+Steam Barge tug
+SteamNarrowboatTug
+Steam narrowboat tug
+BoatHorsesFly
+Fly-boat horses
+BoatHorsesSingle
+Boat horse
+HorseBargeBulk
+Unpowered horse barge (bulk goods)
+HorseBargeLong
+Unpowered horse barge (long goods)
+HorseBargePiece
+Unpowered horse barge (piece goods)
+HorseBargeLivestock
+Unpowered horse barge (livestock)
+HumberKeelMail
+Humber keel (mail)
+HumberKeelBulk
+Humber keel (bulk goods)
+HumberKeelLong
+Humber keel (long goods)
+HumberKeelPiece
+Humber keel (piece goods)
+HumberKeelLivestock
+Humber keel (livestock)
+HumberKeelCool
+Humber keel (perishable goods)
+NorfolkWherryBulk
+Norfolk wherry (bulk goods)
+NorfolkWherryLivestock
+Norfolk wherry (livestock)
+NorfolkWherryCool
+Norfolk wherry (perishable goods)
+NorfolkWherryLong
+Norfolk wherry (long goods)
+NorfolkWherryMail
+Norfolk wherry (mail)
+NorfolkWherryPassenger
+Norfolk wherry (passengers)
+NorfolkWherryPiece
+Norfolk wherry (piece goods)
 #____________________________________maglev-vehicle____________________________________
 #____________________________________maglev-vehicle____________________________________
 BR-M-Class9000
@@ -4698,8 +5156,6 @@ TramTrack
 Tramway tracks
 TramTrackHeavy
 Tramway tracks (heavyweight)
-Canal
-Canal
 GrassTaxiway
 Grass taxiway
 taxiway
@@ -4711,19 +5167,47 @@ Asphalt runway
 Concrete_Maglev_Track
 Concrete maglev track
 Concrete_Maglev_Track_Elevated
-Concrete maglev track (elevated)
+Concrete elevated maglev track
 Economical_Concrete_Maglev_Track
 Lightweight concrete maglev track
 Economical_Concrete_Maglev_Track_Elevated
-Lightweight concrete maglev track (elevated)
+Lightweight concrete elevated maglev track
+MasonryViaductElevated
+Masonry viaduct elevated track
 BrickViaductElevated
-Brick viaduct elevated railway
-BrickViaductElevatedEarly
-Brick viaduct elevated railway
-ConcreteViaductElevated
-Concrete viaduct elevated railway
+Brick viaduct elevated track
+BrickViaductEarlyElevated
+Brick viaduct elevated track
+ConcreteViaductElevated175
+Concrete viaduct elevated track
+ConcreteViaductElevated200
+Concrete viaduct elevated track
+ConcreteViaductElevated225
+Concrete viaduct elevated track
+ConcreteViaductElevatedHS
+Concrete viaduct elevated track (high speed)
 ConcreteViaductElevatedLight
-Concrete viaduct elevated railway (light weight)
+Concrete viaduct elevated track (light weight)
+IronGirderElevated
+Iron girder elevated track
+WoodTrestleElevated
+Wooden trestle elevated track
+BrickViaductElevatedNarrow
+Brick viaduct elevated track
+ConcreteViaductElevatedNarrow
+Concrete viaduct elevated track
+IronGirderElevatedNarrow
+Iron girder elevated track
+MasonryViaductElevatedNarrow
+Masonry viaduct elevated track
+WoodenTretleElevatedNarrow
+Wooden trestle elevated track
+ConcreteViaductElevatedRoad
+Concrete viaduct elevated road
+IronGirderElevatedRoad
+Iron girder elevated road
+WoodTrestleElevatedRoad
+Wooden trestle elevated road
 Railgate
 Private gate
 Railgate_narrow
@@ -4735,169 +5219,169 @@ Remove narrow gauge railway tracks
 #__________________________________stations/stops___________________________________
 #__________________________________stations/stops___________________________________
 BrickPlatformTrainStop
-Brick Platform
+Brick platform
 BrickPlatformBuildingTrainStop
-Brick Platform with Building
+Brick platform with building
 BrickPlatformTrainStopNarrow
-Brick Platform
+Brick platform
 BrickPlatformBuildingTrainStopNarrow
-Brick Platform with Building
+Brick platform with building
 BrickPlatformOverallTrainStop
-Brick Platform with Overroof
+Brick platform with overroof
 BrickPlatformOverallTrainStopNarrow
-Brick Platform with Overroof
+Brick platform with overroof
 ConcretePlatformTrainStop
-Concrete Platform
+Concrete platform
 ConcretePlatformBuildingTrainStop
-Concrete Platform with Building
+Concrete platform with building
 ConcretePlatformOverallTrainStop
-Concrete Platform with Overroof
+Concrete platform with overroof
 WoodenPlatformTrainStop
-Wooden Platform
+Wooden platform
 woodenPlatformOverallTrainStop
-Wooden Platform with Overroof
+Wooden platform with overroof
 ConcretePlatformMaglevStop
-Concrete Platform
+Concrete platform
 ConcretePlatformBuildingMaglevStop
-Concrete Platform with Building
+Concrete platform with building
 ConcretePlatformOverallMaglevStop
-Concrete Platform with Overroof
+Concrete platform with overroof
 GoodsSiding
-Goods Siding
+Goods siding
 GoodsSidingCrane
 Goods Siding with Crane
 BulkLoadingModern
-Bulk Goods Loading Tower
+Bulk goods loading tower
 BulkLoadingOld
-Bulk Goods Loading Tower
+Bulk goods loading tower
 GoodsShedModern
-Goods Shed
+Goods shed
 GoodsSidingNarrow
-Goods Siding
+Goods siding
 GoodsSidingCraneNarrow
-Goods Siding with Crane
+Goods siding with crane
 BulkLoadingModernNarrow
-Bulk Goods Loading Tower
+Bulk Goods loading tower
 BulkLoadingOldNarrow
-Bulk Goods Loading Tower
+Bulk goods loading tower
 GoodsShedModernNarrow
-Goods Shed
+Goods shed
 GoodsShedOldNarrow
-Goods Shed
+Goods shed
 GoodsShedOld
-Goods Shed
+Goods shed
 GoodsSidingNarrow
-Goods Siding
+Goods siding
 GoodsSidingCraneNarrow
-Goods Siding with Crane
+Goods siding with crane
 BulkLoadingModernNarrow
-Bulk Goods Loading Tower
+Bulk goods loading tower
 BulkLoadingOldNarrow
-Bulk Goods Loading Tower
+Bulk goods loading tower
 GoodsShedModernNarrow
-Goods Shed
+Goods shed
 GoodsShedOldNarrow
-Goods Shed
+Goods shed
 ConcreteStationBuildingSmall
-Concrete Station Building
+Concrete station building
 StationStoneBuilding
-Stone Station Building
+Stone station building
 StationWoodBuilding
-Wooden Station Building
+Wooden station building
 ModernStationBuildingEntrance
-Station Building Entrance
+Station building entrance
 1950sStationBuildingEntrance
-Station Building Entrance
+Station building entrance
 DecoStationBuildingEntrance
-Station Building
+Station building
 1950sStationBuilding
-Station Building Concourse
+Station building concourse
 ModernStationBuilding
-Station Building Concourse
+Station building concourse
 CountryStationBuilding
-Country Station Building
+Country atation building
 ModernPostOffice
-Post Office
+Post office
 OldPostOffice
-Post Office
+Post office
 BulkGoodsBunker
-Bulk Goods Bunker
+Bulk goods bunker
 CarYard
-Car Yard
+Car yard
 FluidStorageStation
-Fluid Storage Tanks
+Fluid storage tanks
 LivestockPen
-Livestock Pen
+Livestock pen
 GoodsWarehouseModern
-Goods Warehouse
+Goods warehouse
 GoodsWarehouseOld
-Goods Warehouse
+Goods warehouse
 BusStop
-Basic Bus Stop
+Basic bus stop
 StagingPost
-Staging Post
+Staging post
 StagingInn
-Staging Inn
+Staging inn
 ModernBusShelter
-Bus Stop with Shelter
+Bus stop with shelter
 OldBusShelter
-Bus Stop with Shelter
+Bus stop with ahelter
 OldBusShelterWmail
-Bus Stop with Shelter and Post Box
+Bus stop with shelter and post box
 ModernBusTerminal
-Bus Terminal
+Bus terminal
 OldBusTerminal
-Bus Terminal
+Bus terminal
 ModernCargoStop
-Cargo Bay
+Cargo bay
 OldCargoStop
-Cargo Bay
+Cargo bay
 LoadingBay
-Loading Bay with Post Box
+Post box
 ModernPassengerQuay
-Passenger Canal Quay
+Passenger canal quay
 OldPassengerQuay
-Passenger Canal Quay
+Passenger canal quay
 GoodsQuay
-Goods Canal Quay
+Goods canal quay
 HarbourPassenger1950s
-Passenger Dock
+Passenger dock
 HarbourPassengerDeco
-Passenger Dock
+Passenger dock
 HarbourPassengerModern
-Passenger Dock
+Passenger dock
 HarbourPassengerOld
-Passenger Dock
+Passenger dock
 ModernGoodsHarbour
-Goods Dock
+Goods dock
 OldGoodsHarbour
-Goods Dock
+Goods dock
 BasicApron
 Apron
 JetwayApron
 Apron
 ControlTowerModern
-Control Tower
+Control tower
 1950sTerminalBuildingEntrance
-Terminal Building Entrance
+Terminal building wntrance
 TerminalModernBuildingEntrance
-Terminal Building Entrance
+Terminal building wntrance
 DecoTerminalBuildingEntrance
-Terminal Building
+Terminal building
 DecoTerminalBuildingTower
-Terminal Building with Control Tower
+Terminal building with control tower
 1950sTerminalBuilding
-Terminal Building
+Terminal building
 TerminalModernBuilding
-Terminal Building
+Terminal building
 CoachStable
 Coaching stable
 AirHangarModern
 Aircraft hangar
 GoodsPlatformMaglevStop
-Maglev Goods Platform
+Maglev goods platform
 GoodsPlatformMaglevCrane
-Maglev Goods Platform with Crane
+Maglev goods platform with crane
 GoodsPlatformMaglevWarehouse
 Maglev Goods Shed
 LT_Station1_pc_1standard
@@ -4913,17 +5397,17 @@ Tube station building
 #_________________Signals_______________________
 #_________________Signals_______________________
 ATC_signal
-Stop Signal
+Stop signal
 ATC_OneWay
-One Way Sign
+One way sign
 ATC_presignal
 Pre-signal
 ATC_Longblock
-Long-block Signal
+Long-block signal
 ATC_choosesignal
-Choose Signal
+Choose signal
 ATC_EndofChooseSignal
-End of Choose Signal Block Sign
+End of choose signal block sign
 Underground_Signals_right
 Underground stop signal
 Underground_preSignals_right
@@ -5076,15 +5560,15 @@ Tramway
 Prohibitive 1
 Tube tunnel
 Prohibitive 2
-Small waterway
+Barge canal/small river
 Prohibitive 3
-[Unused] Prohibitive 3
+Tub boat canal
 Prohibitive 4
-[Unused] Prohibitive 4
+Narrow canal
 Prohibitive 5
-[Unused] Prohibitive 5
+Ship canal/medium river
 Prohibitive 6
-[Unused] Prohibitive 6
+Large ship canal/large river
 Prohibitive 7
 [Unused] Prohibitive 7
 #___________________________________Livery schemes___________________________________

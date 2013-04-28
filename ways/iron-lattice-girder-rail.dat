@@ -4,12 +4,15 @@ copyright=James
 
 waytype=track
 intro_year=1848
-reitre_year=1930
+intro_month=3
+reitre_year=1933
+retire_month=5
 topspeed=145
 cost=360000
 maintenance=1500
 max_height=2
-max_weight=40
+max_length=7
+max_weight=450
 pillar_distance=2
 pillar_asymmetric=1
 cursor=images/iron-lattice-girder-rail.2.1

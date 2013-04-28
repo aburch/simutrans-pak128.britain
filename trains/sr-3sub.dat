@@ -29,7 +29,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=84
 way_constraint_permissive[0]=0
 
 upgrade[0]=BR-414[HAP]Front(Blue-Grey)
@@ -99,7 +99,7 @@ upgrade[6]=BR-4EPB(centre2)
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=84
 
 Constraint[Prev][0]=SR-3SUB(centre)
 Constraint[Prev][1]=SR-4SUB(centre2)
@@ -152,7 +152,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=84
 
 upgrade[0]=BR-414[HAP]Front(Blue-Grey)
 upgrade[1]=BR-414[HAP]Rear(Blue-Grey)

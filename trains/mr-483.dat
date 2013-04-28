@@ -4,12 +4,19 @@ engine_type=steam
 smoke=Steam
 speed=135
 # Extrapolated
-power=158
+power=185
 # http://en.wikipedia.org/wiki/Midland_Railway_483_Class
-tractive_effort=71
+tractive_effort=78
 copyright=James
-intro_year=1883
-intro_month=10
+# The Wikipedia article is unclear on the introduction date.
+# See: http://en.wikipedia.org/wiki/Midland_Railway_Class_2_4-4-0
+# for more information. A very large number of similar classes
+# count as what the 483's article calls this class. The locomotive
+# with this shape was an early 20th century thing.
+# Clear introduction date *very* hard to find for this. The closest
+# is: http://chasewaterstuff.wordpress.com/tag/s-w-johnson/
+intro_year=1910
+intro_month=2
 # Later than actual end date to interlock with LMS 2P class.
 retire_year=1928
 retire_month=1
@@ -21,6 +28,7 @@ length=6
 weight=54
 axle_load=16
 cost=6841000
+upgrade_cost=3420500
 runningcost=1430
 sound=-1
 increase_maintenance_after_years=16

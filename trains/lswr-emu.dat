@@ -38,7 +38,7 @@ upgrade[6]=BR-4EPB(centre2)
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=84
 
 Constraint[Prev][0]=LSWR-EMU(rear)
 Constraint[Prev][1]=SR-3SUB(rear)
@@ -99,7 +99,7 @@ upgrade[6]=BR-4EPB(centre2)
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=84
 
 Constraint[Prev][0]=LSWR-EMU(centre)
 Constraint[Prev][1]=SR-4SUB(centre2)
@@ -158,7 +158,7 @@ upgrade[6]=BR-4EPB(centre2)
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=84
 
 Constraint[Next][0]=LSWR-EMU(rear)
 Constraint[Next][1]=SR-4SUB(centre2)

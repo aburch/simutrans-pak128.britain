@@ -1,0 +1,36 @@
+obj=vehicle
+name=FBM-Hydrocat
+copyright=James
+waytype=water
+engine_type=diesel
+smoke=diesel
+speed=45
+power=450
+gear=100
+freight=Passagiere
+payload=65
+weight=30
+length=10
+cost=40000
+runningcost=9
+intro_year=1991
+intro_month=1
+
+comfort=125
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+EmptyImage[E]=./images/fbm-hydrocat.1.0
+EmptyImage[SE]=./images/fbm-hydrocat.1.1
+EmptyImage[S]=./images/fbm-hydrocat.1.2
+EmptyImage[SW]=./images/fbm-hydrocat.1.3
+EmptyImage[W]=./images/fbm-hydrocat.1.4
+EmptyImage[NW]=./images/fbm-hydrocat.1.5
+EmptyImage[N]=./images/fbm-hydrocat.1.6
+EmptyImage[NE]=./images/fbm-hydrocat.1.7
+---

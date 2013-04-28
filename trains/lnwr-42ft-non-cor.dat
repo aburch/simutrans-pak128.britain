@@ -1,4 +1,5 @@
 # D352 - see Jenkinson (LNWR) p. 110
+# Non-lavatory
 
 obj=vehicle
 name=LNWR-42ft-non-cor-brake-front
@@ -21,7 +22,7 @@ upgrade_price=12000
 runningcost=27
 sound=-1
 
-comfort=73
+comfort=114
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -112,7 +113,7 @@ upgrade_price=12000
 runningcost=29
 sound=-1
 
-comfort=80
+comfort=156
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -203,7 +204,7 @@ upgrade_price=12000
 runningcost=27
 sound=-1
 
-comfort=80
+comfort=114
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -332,7 +333,7 @@ upgrade_price=12000
 runningcost=27
 sound=-1
 
-comfort=73
+comfort=114
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -462,7 +463,7 @@ sound=-1
 
 upgrade[0]=LNWR-8wheel-radial-brake-lav-rear
 
-comfort=73
+comfort=114
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -552,7 +553,7 @@ upgrade_price=12000
 runningcost=27
 sound=-1
 
-comfort=80
+comfort=156
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -630,7 +631,7 @@ retire_year=1907
 retire_month=8
 waytype=track
 freight=Post
-payload=55
+payload=550
 length=8
 
 weight=19
@@ -755,7 +756,7 @@ retire_year=1907
 retire_month=8
 waytype=track
 freight=Post
-payload=36
+payload=360
 length=8
 
 weight=19

@@ -5,7 +5,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=70
-#gear=1200
+##gear=1200
 freight=Kohle
 payload=25
 weight=17
@@ -20,8 +20,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/norfolk-wherry.0.0
 EmptyImage[SE]=./images/norfolk-wherry.0.1
@@ -90,7 +91,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=70
-#gear=1200
+##gear=1200
 freight=Bretter
 payload=25
 weight=17
@@ -101,6 +102,10 @@ intro_year=1750
 intro_month=1
 retire_year=1920
 retire_month=6
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -145,7 +150,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=70
-#gear=1200
+##gear=1200
 freight=vegetables
 payload=25
 weight=17
@@ -156,6 +161,10 @@ intro_year=1750
 intro_month=1
 retire_year=1920
 retire_month=6
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -188,7 +197,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=70
-#gear=1200
+##gear=1200
 freight=meat
 payload=25
 weight=17
@@ -203,8 +212,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/norfolk-wherry.0.0
 EmptyImage[SE]=./images/norfolk-wherry.0.1
@@ -231,9 +241,9 @@ waytype=water
 engine_type=sail
 speed=12
 power=70
-#gear=1200
+##gear=1200
 freight=Post
-payload=25
+payload=250
 weight=17
 length=3
 cost=85000
@@ -246,8 +256,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/norfolk-wherry.0.0
 EmptyImage[SE]=./images/norfolk-wherry.0.1
@@ -286,13 +297,14 @@ intro_month=1
 retire_year=1920
 retire_month=6
 
-comfort=125
+comfort=65
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/norfolk-wherry.10.0
 EmptyImage[SE]=./images/norfolk-wherry.10.1
@@ -302,5 +314,48 @@ EmptyImage[W]=./images/norfolk-wherry.10.4
 EmptyImage[NW]=./images/norfolk-wherry.10.5
 EmptyImage[N]=./images/norfolk-wherry.10.6
 EmptyImage[NE]=./images/norfolk-wherry.10.7
+----------------------------------------
+obj=vehicle
+name=NorfolkWherryLivestock
+copyright=James
+waytype=water
+engine_type=sail
+speed=12
+power=70
+##gear=1200
+freight=livestock
+payload=25
+weight=17
+length=3
+cost=85000
+runningcost=35
+intro_year=1750
+intro_month=1
+retire_year=1920
+retire_month=6
 
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+EmptyImage[E]=./images/norfolk-wherry.0.0
+EmptyImage[SE]=./images/norfolk-wherry.0.1
+EmptyImage[S]=./images/norfolk-wherry.0.2
+EmptyImage[SW]=./images/norfolk-wherry.0.3
+EmptyImage[W]=./images/norfolk-wherry.0.4
+EmptyImage[NW]=./images/norfolk-wherry.0.5
+EmptyImage[N]=./images/norfolk-wherry.0.6
+EmptyImage[NE]=./images/norfolk-wherry.0.7
+
+FreightImage[E]=./images/norfolk-wherry-livestock.1.0
+FreightImage[SE]=./images/norfolk-wherry-livestock.1.1
+FreightImage[S]=./images/norfolk-wherry-livestock.1.2
+FreightImage[SW]=./images/norfolk-wherry-livestock.1.3
+FreightImage[W]=./images/norfolk-wherry-livestock.1.4
+FreightImage[NW]=./images/norfolk-wherry-livestock.1.5
+FreightImage[N]=./images/norfolk-wherry-livestock.1.6
+FreightImage[NE]=./images/norfolk-wherry-livestock.1.7
 ----------------------------------------

@@ -4,11 +4,14 @@ speed=160
 copyright=Kieron/James
 intro_year=1951
 intro_month=2
-retire_year=1975
-retire_month=3
+# These cannot retire earlier, as are needed for the mail vehicles.
+retire_year=2003
+retire_month=6
+#retire_year=1975
+#retire_month=3
 waytype=track
 freight=Post
-payload=50
+payload=500
 length=11
 
 weight=45

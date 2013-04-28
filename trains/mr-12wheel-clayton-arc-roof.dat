@@ -14,8 +14,8 @@ overcrowded_capacity=40
 length=9
 rolling_resistance=17
 
-# See Hamilton Ellis p. 74/5 (correct weight - 23.5t)
-weight=24
+# See Hamilton Ellis p. 74/5
+weight=23
 axles=6
 cost=645408
 runningcost=31
@@ -26,7 +26,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=77
+comfort=117
 
 Constraint[Next][0]=MR-clayton-8wheel-clerestory-third
 Constraint[Next][1]=MR-clayton-8wheel-clerestory-third-lav
@@ -108,8 +108,8 @@ overcrowded_capacity=35
 length=9
 rolling_resistance=17
 
-# See Hamilton Ellis p. 74/5 (correct weight - 23.5t)
-weight=24
+# See Hamilton Ellis p. 74/5
+weight=23
 axles=6
 cost=645408
 upgrade_price=40195
@@ -122,7 +122,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=83
+comfort=126
 
 Constraint[Next][0]=MR-clayton-8wheel-clerestory-third
 Constraint[Next][1]=MR-clayton-8wheel-clerestory-third-lav
@@ -191,8 +191,8 @@ overcrowded_capacity=30
 length=9
 rolling_resistance=17
 
-# See Hamilton Ellis p. 74/5 (correct weight - 23.5t)
-weight=24
+# See Hamilton Ellis p. 74/5
+weight=23
 axles=6
 cost=645408
 runningcost=31
@@ -203,7 +203,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=77
+comfort=117
 
 Constraint[Next][0]=MR-clayton-8wheel-clerestory-third
 Constraint[Next][1]=MR-clayton-8wheel-clerestory-third-lav
@@ -265,8 +265,8 @@ overcrowded_capacity=30
 length=9
 rolling_resistance=17
 
-# See Hamilton Ellis p. 74/5 (correct weight - 23.5t)
-weight=24
+# See Hamilton Ellis p. 74/5
+weight=23
 axles=6
 cost=645408
 runningcost=31
@@ -277,7 +277,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=77
+comfort=126
 
 Constraint[Next][0]=MR-clayton-8wheel-clerestory-third
 Constraint[Next][1]=MR-clayton-8wheel-clerestory-third-lav
@@ -359,8 +359,8 @@ overcrowded_capacity=25
 length=9
 rolling_resistance=17
 
-# See Hamilton Ellis p. 74/5 (correct weight - 23.5t)
-weight=24
+# See Hamilton Ellis p. 74/5
+weight=23
 axles=6
 cost=645408
 upgrade_price=40195
@@ -373,7 +373,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=83
+comfort=117
 
 Constraint[Next][0]=MR-clayton-8wheel-clerestory-third
 Constraint[Next][1]=MR-clayton-8wheel-clerestory-third-lav
@@ -423,8 +423,8 @@ overcrowded_capacity=25
 length=9
 rolling_resistance=17
 
-# See Hamilton Ellis p. 74/5 (correct weight - 23.5t)
-weight=24
+# See Hamilton Ellis p. 74/5
+weight=23
 axles=6
 cost=645408
 runningcost=31
@@ -436,7 +436,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=83
+comfort=126
 
 Constraint[Next][0]=MR-clayton-8wheel-clerestory-third
 Constraint[Next][1]=MR-clayton-8wheel-clerestory-third-lav

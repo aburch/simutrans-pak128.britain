@@ -3,12 +3,11 @@ name=WoodenTrestleNarrow
 waytype=narrowgauge_track
 intro_year=1836
 intro_month=6
-# No replacements - do not retire.
-# Should eventually be replaced by
-# concrete version. 
-topspeed=40
-max_weight=65
-cost=25000
+retire_year=1938
+retire_month=7
+topspeed=35
+max_weight=50
+cost=170000
 maintenance=175
 pillar_distance=1
 cursor=images/wooden-trestle-narrow.2.1

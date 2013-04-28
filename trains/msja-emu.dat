@@ -27,7 +27,7 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=45
-comfort=80
+comfort=96
 
 Constraint[Prev][0]=MSJ&A-EMU-driving-motor
 Constraint[Prev][1]=none
@@ -74,7 +74,7 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=45
-comfort=80
+comfort=96
 
 Constraint[Prev][0]=MSJ&A-EMU-driving-trailer
 
@@ -121,7 +121,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=80
+comfort=96
 way_constraint_permissive[1]=1
 
 Constraint[Prev][0]=MSJ&A-EMU-centre-trailer

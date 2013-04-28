@@ -26,10 +26,10 @@ industry_increase_every = 7500
 # Note: the rougher the desired landscape, the lower that this number should be.
 # Note: this value is automatically reduced by a factor of three if quick_city_growth
 # is enabled in simuconf.tab.
-renovation_percentage = 43
+renovation_percentage = 45
 
 # cities will not growth further along exiting roads, if the buildings density is lower (in percent)
-minimum_building_desity = 28
+minimum_building_desity = 27
 
 
 #

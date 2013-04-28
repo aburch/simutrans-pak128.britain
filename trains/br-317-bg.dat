@@ -28,7 +28,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=96
+comfort=121
 
 Constraint[Prev][0]=BR-317-Driving-Rear
 Constraint[Prev][1]=none
@@ -50,8 +50,8 @@ obj=vehicle
 name=BR-317-Motor
 speed=160
 copyright=Kieron/JamesPetts
-intro_year=1982
-intro_month=3
+intro_year=1981
+intro_month=1
 retire_year=1987
 retire_month=12
 waytype=track
@@ -77,7 +77,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=96
+comfort=121
 
 Constraint[Next][0]=BR-317-Trailer
 
@@ -98,8 +98,8 @@ obj=vehicle
 name=BR-317-Trailer
 speed=160
 copyright=Kieron/JamesPetts
-intro_year=1982
-intro_month=3
+intro_year=1981
+intro_month=1
 retire_year=1987
 retire_month=12
 waytype=track
@@ -124,7 +124,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=96
+comfort=121
 
 Constraint[Prev][0]=BR-317-Motor
 
@@ -146,8 +146,8 @@ obj=vehicle
 name=BR-317-Driving-Rear
 speed=160
 copyright=Kieron/JamesPetts
-intro_year=1982
-intro_month=3
+intro_year=1981
+intro_month=1
 retire_year=1987
 retire_month=12
 waytype=track
@@ -172,7 +172,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=96
+comfort=121
 
 Constraint[Next][0]=BR-317-Driving-Front
 Constraint[Next][1]=none

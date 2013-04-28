@@ -173,28 +173,9 @@ KG_RES_1890-1
 RES_KG_1890_01_05
 KG_RES_1920_00
 RES_KG_1920_00_02
-#
-###Removing spaces from some locos
-SR-WestCountry 4-6-2(Green)
-SR-WestCountry_4-6-2
-SR-MerchantNavy 4-6-2(Green)
-SR-MerchantNavy_4-6-2
-SR-MerchantNavy 4-6-2Tender(Green)
-SR-MerchantNavy_4-6-2Tender
-########################### Renames for Experimental ###########################
 ############################# Victorian coal mine ##############################
 VictorianCoalMine
 CoalMine1850
-#
-################################ Brick viaducts ################################
-BrickViaduct175
-BrickViaduct
-BrickViaduct200
-BrickViaduct
-BrickViaduct225
-ConcreteSupportedBridge
-BrickViaduct320
-ConcreteSupportedBridgeHighSpeed
 #
 ################################# Road bridges #################################
 stone_road_bridge_dirt
@@ -224,7 +205,9 @@ OldLibrary
 Old_brick_school
 OldBrickSchool
 StoneChurch2
+ParishChurchStJohns
 StoneChurch
+ParishChurchStJohns
 ############### Livery removals from names  #####################
 BAE 146_100 - Dan Air London
 BAE146_100(DanAirLondon)
@@ -598,6 +581,7 @@ LBSCR-bogie-sub-brake-rear
 LBSCR-sub-bogie-48ft-brake-rear
 LBSCR-bogie-sub-brake-front
 LBSCR-sub-bogie-48ft-brake-front
+################################# New track ##################################
 wrought_iron_track_light
 plateway
 wssr_heavy
@@ -620,18 +604,25 @@ LNER-B17/5(Green)
 LNER-B17-5
 Ford Trimotor - Northern & Scottish Airways
 Ford-Trimotor-NSA
+SR-WestCountry 4-6-2(Green)
+SR-WestCountry_4-6-2
+SR-MerchantNavy 4-6-2(Green)
+SR-MerchantNavy_4-6-2
+SR-MerchantNavy 4-6-2Tender(Green)
+SR-MerchantNavy_4-6-2Tender
 #
-############ Variant names for electrification in old Experimental #############
+############# Variant names for electrification in old Experimental ##############
 DCRailCatenaryCombined
 DCThirdRailDCCCatenary
 ACHighSpeedCatenaryCombined
 DCThirdRailACCCatenary
 #
-########### Wrong headquarters names in old unreleased Experimental ############
+############ Wrong headquarters names in old unreleased Experimental #############
 HQ1
 HQ0_0
 HQ2
 HQ1_0
+#
 ################################# New headquarters ##################################
 HQ0_0
 HQ1-1750
@@ -639,16 +630,164 @@ HQ1_0
 HQ1-1840
 HQ2_0
 HQ3
-################################# Standard bridges ##################################
-PlateGirder
-ShortSteelGirderHeavy
-PlateGirderRoad
-steel_spanning_road_bridge_asphalt
-### Replacing faster brick viaducts with new concrete ones
+#
+#################################### Old bridges #####################################
 BrickViaduct225
 ConcreteViaduct
 BrickViaduct320
 ConcreteViaductHS
+BrickViaductElevatedEarly
+BrickViaductEarlyElevated
+WoodenTrestleHeavy
+WoodenTrestleStonePillar
+ShortSteelGirderLight
+PlateGirder
+ShortSteelGirder
+PlateGirder
+ShortSteelGirderHeavy
+PlateGirder
+SteelBoxGirderLight
+SteelTruss
+SteelBoxGirder
+SteelTruss
+SupportedSteelLatticeLight
+IronLatticeGirderRailBridge
+SupportedSteelLattice
+IronLatticeGirderRailBridge
+SupportedSteelLatticeHeavy
+IronLatticeGirderRailBridge
+Cantilever
+TubularBoxGirder
+SuspensionEarly
+IronBowstringGirderRailBridge
+SuspensionLate
+SteelBowstringArchRailBridge
+SuspensionHighSpeed
+ConcreteViaductHS
+ConcreteSpanningBridge
+ConcreteViaduct175
+ConcreteSpanningBridgeLight
+ConcreteViaduct175
+ConcreteSpanningBridgeHeavy
+ConcreteViaduct225
+ConcreteSpanningBridgeNew
+ConcreteViaduct200
+ConcreteSupportedBridge
+ConcreteViaduct175
+ConcreteSupportedBridgeLight
+ConcreteViaduct175
+ConcreteSupportedBridgeHighSpeed
+ConcreteViaductHS
+ConcreteSpanningBridgeHighSpeed
+ConcreteViaductHS
+steel_spanning_road_bridge_cobbles
+IronGirderBridgeRoad
+steel_spanning_road_bridge_tarmac
+PlateGirderRoad
+steel_spanning_road_bridge_asphalt
+PlateGirderRoad
+steel_supported_road_bridge_cobbles
+IronGirderBridgeRoad
+steel_supported_road_bridge_tarmac
+PlateGirderRoad
+steel_supported_road_bridge_asphalt
+PlateGirderRoad
+suspension_road_bridge_early
+ConcreteSteelTrussRoad
+suspension_road_bridge_late
+ConcreteSteelCantileverRoad
+suspension_road_bridge_motorway
+ConcreteBeamRoad
+concrete_spanning_road_bridge
+ConcreteSteelTrussRoad
+concrete_supported_road_bridge
+ConcreteSteelTrussRoad
+concrete_supported_motorway_bridge
+ConcreteBeamRoad
+concrete_spanning_motorway_bridge
+ConcreteBeamRoad
+#
+############################## New hull/hold ship system ###############################
+# This may cause loss of cargo capacity but should not crash -TheHood
+ClipperBulk
+ClipperHull
+ClipperLong
+ClipperHull
+ClipperLivestock
+ClipperHull
+ClipperPiece
+ClipperHull
+ClipperCool
+ClipperHull
+EastIndiamanBulk
+EastIndiamanHull
+EastIndiamanLong
+EastIndiamanHull
+EastIndiamanLivestock
+EastIndiamanHull
+EastIndiamanPiece
+EastIndiamanHull
+EastIndiamanCool
+EastIndiamanHull
+BlackwallFrigateBulk
+BlackwallFrigateHull
+BlackwallFrigateLong
+BlackwallFrigateHull
+BlackwallFrigateLivestock
+BlackwallFrigateHull
+BlackwallFrigatePiece
+BlackwallFrigateHull
+BlackwallFrigateCool
+BlackwallFrigateHull
+BrigBulk
+BrigHull
+BrigLong
+BrigHull
+BrigLivestock
+BrigHull
+BrigPiece
+BrigHull
+BrigCool
+BrigHull
+SchoonerBulk
+SchoonerHull
+SchoonerLong
+SchoonerHull
+SchoonerLivestock
+SchoonerHull
+SchoonerPiece
+SchoonerHull
+SchoonerCool
+SchoonerHull
+ThamesSailingBargeMail
+ThamesSailingBargeCool
+WindjammerBulk
+WindjammerHull
+WindjammerLong
+WindjammerHull
+WindjammerLivestock
+WindjammerHull
+WindjammerPiece
+WindjammerHull
+WindjammerCool
+WindjammerHull
+WindjammerFluid
+WindjammerHull
+################################# New canal boats ##################################
+SteamBargeBulk
+SteamNarrowboatBulk
+SteamBargeLong
+SteamNarrowboatLong
+SteamBargePiece
+SteamNarrowboatPiece
+SteamBargeCool
+SteamNarrowboatCool
+SteamBargeOil
+SteamNarrowboatOil
+SteamBargeLivestock
+SteamNarrowboatLivestock
+BoatHorsesDouble
+BoatHorsesSingle
 ################################# New single type canneries ##################################
 Cannery1810
 Cannery-fruit1810
@@ -660,3 +799,4 @@ Cannery1945
 Cannery-fruit1945
 Cannery1975
 Cannery-fruit1975
+#

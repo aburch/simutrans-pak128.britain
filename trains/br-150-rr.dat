@@ -31,7 +31,7 @@ increase_maintenance_after_years=24
 
 min_loading_time=15
 max_loading_time=55
-comfort=86
+comfort=113
 
 Constraint[Prev][0]=BR-150Rear(Regional)
 Constraint[Prev][1]=BR-153(Regional)
@@ -87,7 +87,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=55
-comfort=86
+comfort=113
 
 Constraint[Prev][0]=BR-150Front(Regional)
 
@@ -136,7 +136,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=55
-comfort=86
+comfort=113
 
 Constraint[Prev][0]=BR-150Front(Regional)
 Constraint[Prev][1]=BR-150Centre(Regional)

@@ -55,7 +55,7 @@ intro_month=1
 retire_year=1990
 retire_month=12
 Freight=Post
-payload=1
+payload=600
 
 EmptyImage[E]=./images/leyland-t45-roadtrain-tractor.1.0
 EmptyImage[SE]=./images/leyland-t45-roadtrain-tractor.1.1
@@ -127,7 +127,7 @@ intro_month=4
 retire_year=2000
 retire_month=10
 Freight=Post
-payload=1
+payload=750
 
 EmptyImage[E]=./images/leyland-daf-85-tractor.1.0
 EmptyImage[SE]=./images/leyland-daf-85-tractor.1.1
@@ -197,7 +197,7 @@ intro_year=2000
 intro_month=4
 
 Freight=Post
-payload=1
+payload=900
 
 EmptyImage[E]=./images/daf-cf-tractor.1.0
 EmptyImage[SE]=./images/daf-cf-tractor.1.1
@@ -525,7 +525,7 @@ name=StandardArticTrailerMail
 copyright=JamesHood
 waytype=road
 freight=Post
-payload=54
+payload=540
 axles=2
 speed=86
 weight=5

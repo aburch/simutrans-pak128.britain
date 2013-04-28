@@ -2,7 +2,9 @@ obj=vehicle
 name=Single-ShireNarrow
 engine_type=bio
 smoke=none
-speed=5
+# This should be changed when we have different types of horses:
+# shire horses were built for strength, not speed.
+speed=18
 power=1
 tractive_effort=1
 copyright=James

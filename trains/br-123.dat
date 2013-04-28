@@ -30,7 +30,7 @@ increase_maintenance_after_years=5
 
 min_loading_time=25
 max_loading_time=120
-comfort=97
+comfort=120
 
 Constraint[Prev][0]=BR-123-TS
 Constraint[Prev][1]=BR-123-TBS
@@ -90,7 +90,7 @@ increase_maintenance_after_years=5
 
 min_loading_time=25
 max_loading_time=120
-comfort=97
+comfort=120
 
 Constraint[Prev][0]=BR-123-DMS
 
@@ -149,7 +149,7 @@ increase_maintenance_after_years=5
 
 min_loading_time=25
 max_loading_time=120
-comfort=97
+comfort=120
 
 Constraint[Prev][0]=BR-123-TCK
 
@@ -207,7 +207,7 @@ increase_maintenance_after_years=5
 
 min_loading_time=25
 max_loading_time=120
-comfort=97
+comfort=120
 catering_level=3
 
 Constraint[Prev][0]=BR-123-TCK
@@ -269,7 +269,7 @@ increase_maintenance_after_years=5
 
 min_loading_time=25
 max_loading_time=120
-comfort=97
+comfort=120
 
 Constraint[Prev][0]=BR-123-DMBS
 Constraint[Prev][1]=none

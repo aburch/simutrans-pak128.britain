@@ -21,7 +21,7 @@ sound=-1
 upgrade[0]=LNWR-8wheel-radial-brake-lav-front
 upgrade[1]=LNWR-42ft-non-cor-brake-front
 
-comfort=72
+comfort=112
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -114,7 +114,7 @@ sound=-1
 
 upgrade[0]=LNWR-42ft-non-cor-brake-lav-front
 
-comfort=79
+comfort=125
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -210,7 +210,7 @@ sound=-1
 
 upgrade[0]=LNWR-42ft-non-cor-lav
 
-comfort=79
+comfort=125
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -343,7 +343,7 @@ sound=-1
 upgrade[0]=LNWR-8wheel-radial-lav
 upgrade[1]=LNWR-42ft-non-cor-non-lav
 
-comfort=72
+comfort=112
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -473,7 +473,7 @@ sound=-1
 upgrade[0]=LNWR-8wheel-radial-brake-lav-rear
 upgrade[1]=LNWR-42ft-non-cor-brake-rear
 
-comfort=72
+comfort=112
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -565,7 +565,7 @@ sound=-1
 
 upgrade[0]=LNWR-42ft-non-cor-brake-lav-rear
 
-comfort=79
+comfort=125
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
@@ -646,7 +646,7 @@ retire_year=1893
 retire_month=9
 waytype=track
 freight=Post
-payload=36
+payload=360
 length=8
 
 weight=18
@@ -695,7 +695,7 @@ retire_year=1893
 retire_month=9
 waytype=track
 freight=Post
-payload=55
+payload=550
 length=8
 
 weight=18
@@ -822,7 +822,7 @@ retire_year=1893
 retire_month=9
 waytype=track
 freight=Post
-payload=55
+payload=550
 length=8
 
 weight=18

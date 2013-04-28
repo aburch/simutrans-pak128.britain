@@ -5,7 +5,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
+##gear=1200
 freight=Kohle
 payload=50
 weight=20
@@ -20,8 +20,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/humber-keel.0.0
 EmptyImage[SE]=./images/humber-keel.0.1
@@ -90,7 +91,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
+##gear=1200
 freight=Bretter
 payload=50
 weight=20
@@ -105,8 +106,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/humber-keel.0.0
 EmptyImage[SE]=./images/humber-keel.0.1
@@ -145,7 +147,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
+##gear=1200
 freight=vegetables
 payload=50
 weight=20
@@ -160,8 +162,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/humber-keel.0.0
 EmptyImage[SE]=./images/humber-keel.0.1
@@ -188,7 +191,7 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
+##gear=1200
 freight=meat
 payload=50
 weight=20
@@ -203,8 +206,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/humber-keel.0.0
 EmptyImage[SE]=./images/humber-keel.0.1
@@ -225,14 +229,14 @@ FreightImage[N]=./images/humber-keel.8.6
 FreightImage[NE]=./images/humber-keel.8.7
 ----------------------------------------
 obj=vehicle
-name=HumberKeelMail
+name=HumberKeelLivestock
 copyright=James
 waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
-freight=Post
+##gear=1200
+freight=livestock
 payload=50
 weight=20
 length=6
@@ -246,8 +250,9 @@ retire_month=6
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 EmptyImage[E]=./images/humber-keel.0.0
 EmptyImage[SE]=./images/humber-keel.0.1
@@ -258,11 +263,55 @@ EmptyImage[NW]=./images/humber-keel.0.5
 EmptyImage[N]=./images/humber-keel.0.6
 EmptyImage[NE]=./images/humber-keel.0.7
 
-FreightImage[E]=./images/humber-keel.8.0
-FreightImage[SE]=./images/humber-keel.8.1
-FreightImage[S]=./images/humber-keel.8.2
-FreightImage[SW]=./images/humber-keel.8.3
-FreightImage[W]=./images/humber-keel.8.4
-FreightImage[NW]=./images/humber-keel.8.5
-FreightImage[N]=./images/humber-keel.8.6
-FreightImage[NE]=./images/humber-keel.8.7
+FreightImage[E]=./images/humber-keel-livestock.1.0
+FreightImage[SE]=./images/humber-keel-livestock.1.1
+FreightImage[S]=./images/humber-keel-livestock.1.2
+FreightImage[SW]=./images/humber-keel-livestock.1.3
+FreightImage[W]=./images/humber-keel-livestock.1.4
+FreightImage[NW]=./images/humber-keel-livestock.1.5
+FreightImage[N]=./images/humber-keel-livestock.1.6
+FreightImage[NE]=./images/humber-keel-livestock.1.7
+----------------------------------------
+obj=vehicle
+name=HumberKeelMail
+copyright=James
+waytype=water
+engine_type=sail
+speed=12
+power=111
+##gear=1200
+freight=Post
+payload=500
+weight=20
+length=6
+cost=182500
+runningcost=70
+intro_year=1750
+intro_month=1
+retire_year=1900
+retire_month=6
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+EmptyImage[E]=./images/humber-keel.0.0
+EmptyImage[SE]=./images/humber-keel.0.1
+EmptyImage[S]=./images/humber-keel.0.2
+EmptyImage[SW]=./images/humber-keel.0.3
+EmptyImage[W]=./images/humber-keel.0.4
+EmptyImage[NW]=./images/humber-keel.0.5
+EmptyImage[N]=./images/humber-keel.0.6
+EmptyImage[NE]=./images/humber-keel.0.7
+
+FreightImage[E]=./images/humber-keel.7.0
+FreightImage[SE]=./images/humber-keel.7.1
+FreightImage[S]=./images/humber-keel.7.2
+FreightImage[SW]=./images/humber-keel.7.3
+FreightImage[W]=./images/humber-keel.7.4
+FreightImage[NW]=./images/humber-keel.7.5
+FreightImage[N]=./images/humber-keel.7.6
+FreightImage[NE]=./images/humber-keel.7.7

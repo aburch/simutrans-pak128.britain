@@ -24,7 +24,7 @@ cost=200000
 runningcost=20
 sound=-1
 
-comfort=44
+comfort=72
 min_loading_time=17
 max_loading_time=47
 
@@ -107,7 +107,7 @@ cost=200000
 runningcost=20
 sound=-1
 
-comfort=51
+comfort=72
 min_loading_time=17
 max_loading_time=47
 
@@ -189,7 +189,7 @@ cost=200000
 runningcost=21
 sound=-1
 
-comfort=44
+comfort=72
 min_loading_time=17
 max_loading_time=47
 
@@ -251,7 +251,7 @@ cost=200000
 runningcost=21
 sound=-1
 
-comfort=44
+comfort=72
 min_loading_time=17
 max_loading_time=47
 
@@ -300,7 +300,7 @@ retire_year=1872
 retire_month=4
 waytype=track
 freight=Post
-payload=24
+payload=240
 length=4
 brake_force=3
 rolling_resistance=19
@@ -339,7 +339,7 @@ retire_year=1872
 retire_month=4
 waytype=track
 freight=Post
-payload=36
+payload=360
 length=4
 brake_force=0
 rolling_resistance=19
