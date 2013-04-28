@@ -3,7 +3,7 @@
 # D1899
 obj=vehicle
 name=LMS-cor
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
@@ -134,7 +134,7 @@ EmptyImage[NE][2]=./images/lms-cor-br-m.1.3
 # D1905
 obj=vehicle
 name=LMS-cor-brake-front
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
@@ -232,7 +232,7 @@ EmptyImage[NE][2]=./images/lms-cor-brake-front-br-m.1.3
 # D1905
 obj=vehicle
 name=LMS-cor-brake-rear
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
@@ -296,7 +296,7 @@ EmptyImage[NE][2]=./images/lms-cor-brake-rear-br-m.1.3
 # "High capacity" open
 obj=vehicle
 name=LMS-open
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
@@ -427,7 +427,7 @@ EmptyImage[NE][2]=./images/lms-open-br-m.1.3
 # D1913
 obj=vehicle
 name=LMS-open-brake-front
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
@@ -524,7 +524,7 @@ EmptyImage[NE][2]=./images/lms-open-brake-front-br-m.1.3
 # D1913
 obj=vehicle
 name=LMS-open-brake-rear
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
@@ -586,7 +586,7 @@ EmptyImage[NE][2]=./images/lms-open-brake-rear-br-m.1.3
 # D1903
 obj=vehicle
 name=LMS-diner
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
@@ -716,7 +716,7 @@ EmptyImage[NE][2]=./images/lms-diner-br-m.1.3
 # See Jenkinson p. 378
 obj=vehicle
 name=LMS-buffet
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
@@ -846,7 +846,7 @@ EmptyImage[NE][2]=./images/lms-buffet-br-m.1.3
 # D2007
 obj=vehicle
 name=LMS-full-brake
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
@@ -904,7 +904,7 @@ EmptyImage[NE][2]=./images/lms-full-brake-br-m.1.3
 
 obj=vehicle
 name=LMS-Mail
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
@@ -1030,7 +1030,7 @@ EmptyImage[NE][2]=./images/lms-mail-br-m.1.3
 
 obj=vehicle
 name=LMS-TPO
-speed=170
+speed=160
 copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
