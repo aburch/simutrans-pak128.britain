@@ -9,7 +9,7 @@ VERSION_STRING = "pak128.Britain-Ex-0.9.0"
 #
 MAKEOBJ ?= ./makeobj
 
-DESTDIR  ?= simutrans
+DESTDIR  ?= .
 PAKDIR   ?= $(DESTDIR)/pak128.Britain-Ex
 DESTFILE ?= simupak128.Britain-Ex
 
@@ -17,8 +17,8 @@ DESTFILE ?= simupak128.Britain-Ex
 TR_DIRS :=
 
 OUTSIDE :=
-OUTSIDE += grounds
-TR_DIRS += grounds
+OUTSIDE += pak1file/128
+TR_DIRS += pak1file/128
 
 DIRS32 :=
 DIRS32 += boats/holds
@@ -45,6 +45,8 @@ DIRS128 += depots
 TR_DIRS += depots
 DIRS128 += goods
 TR_DIRS += goods
+DIRS128 += grounds
+TR_DIRS += grounds
 DIRS128 += gui/gui128
 DIRS128 += hq
 TR_DIRS += hq
@@ -75,7 +77,6 @@ TR_DIRS += ways
 
 DIRS192 := 
 DIRS192 += boats/boats192
-DIRS192 := 
 DIRS192 += air/air192
 
 DIRS224 := 
@@ -106,14 +107,19 @@ $(DESTFILE).zip: $(PAKDIR)
 
 copy:
 	@echo "===> COPY"
-	@mkdir -p $(PAKDIR)/text $(PAKDIR)/text/citylists $(PAKDIR)/config
-	@cp -p compat.tab $(PAKDIR)
+	@mkdir -p $(PAKDIR)/config
 	@cp -p config/* $(PAKDIR)/config
+	@mkdir -p $(PAKDIR)/text 
+	@cp -p text/*.* $(PAKDIR)/text
+#   @mkdir -p $(PAKDIR)/text/citylists 
 	@mkdir -p $(PAKDIR)/sound
 	@cp -p sound/* $(PAKDIR)/sound
 #	@mkdir -p $(PAKDIR)/scenario
 #	@cp -p scenario/* $(PAKDIR)/scenario
-	@cp -p text/*.tab $(PAKDIR)/text
+	@cp -p demo.sve $(PAKDIR)
+	@cp -p licence.txt $(PAKDIR)
+	@cp -p compat.tab $(PAKDIR)
+	@cp -p symbol.BigLogo.pak $(PAKDIR)
 
 $(DIRS32):
 	@echo "===> PAK32 $@"
@@ -151,7 +157,7 @@ $(OUTSIDE):
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
 	@echo -e -n "Obj=ground\nName=Outside\ncopyright=$(VERSION_STRING)" >$@/outsiderev.dat
 	@svnversion >>$@/outsiderev.dat
-	@echo -e "Image[0][0]=images/ls-water-128.0.0\n-" >>$@/outsiderev.dat
+	@echo -e "Image[0][0]=images/ls-water-outside-128.0.0\n-" >>$@/outsiderev.dat
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/outsiderev.dat > /dev/null
 	@rm $@/outsiderev.dat
 
