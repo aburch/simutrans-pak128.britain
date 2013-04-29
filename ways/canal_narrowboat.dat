@@ -4,8 +4,9 @@ waytype=water
 cost=15000
 maintenance=150
 topspeed=30
-intro_year = 1750
-intro_month = 1
+max_weight=70
+intro_year=1750
+intro_month=1
 
 way_constraint_permissive[4]=4
 way_constraint_prohibitive[4]=4
