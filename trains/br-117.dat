@@ -30,7 +30,7 @@ increase_maintenance_after_years=10
 
 min_loading_time=15
 max_loading_time=45
-comfort=90
+comfort=75
 
 Constraint[Prev][0]=BR-121
 Constraint[Prev][1]=BR-117-DMBS
@@ -127,7 +127,7 @@ increase_maintenance_after_years=10
 
 min_loading_time=15
 max_loading_time=45
-comfort=93
+comfort=75
 
 Constraint[Prev][0]=BR-117-DMBS
 
@@ -218,7 +218,7 @@ increase_maintenance_after_years=10
 
 min_loading_time=15
 max_loading_time=45
-comfort=90
+comfort=75
 
 Constraint[Prev][0]=BR-121
 Constraint[Prev][1]=BR-117-DMS

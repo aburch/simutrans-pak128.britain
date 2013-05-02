@@ -27,7 +27,7 @@ bidirectional=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=80
+comfort=61
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
@@ -78,7 +78,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
-comfort=80
+comfort=61
 
 Constraint[Prev][0]=1938TubeStockFront
 
@@ -122,7 +122,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
-comfort=80
+comfort=61
 
 Constraint[Prev][0]=1938TubeStockNDM
 
@@ -169,7 +169,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
-comfort=80
+comfort=61
 
 Constraint[Prev][0]=1938TubeStockNDM
 Constraint[Prev][1]=1938TubeStockTrailer

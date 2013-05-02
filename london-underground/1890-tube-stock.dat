@@ -33,7 +33,7 @@ EmptyImage[E]=./images/cslr-1890.0.0
 EmptyImage[SE]=./images/cslr-1890.0.1
 EmptyImage[S]=./images/cslr-1890.0.2
 EmptyImage[SW]=./images/cslr-1890.0.3
-EmptyImage[W]=./images/cslr-1890.0.4
+EmptyImage[W]=./images/cslr-1890.0.454
 EmptyImage[NW]=./images/cslr-1890.0.5
 EmptyImage[N]=./images/cslr-1890.0.6
 EmptyImage[NE]=./images/cslr-1890.0.7
@@ -66,7 +66,7 @@ bidirectional=1
 
 min_loading_time=20
 max_loading_time=75
-comfort=72
+comfort=54
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3

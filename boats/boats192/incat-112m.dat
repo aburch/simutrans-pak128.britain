@@ -1,3 +1,4 @@
+# http://www.irishseashipping.com/features/manannannorman/manannannorman.htm
 obj=vehicle
 name=Incat112m
 copyright=James
@@ -16,8 +17,8 @@ runningcost=2
 intro_year=2009
 intro_month=1
 
-comfort=146
-catering_level=3
+comfort=156
+catering_level=4
 
 Constraint[Next][0]=Incat112m(AddMail)
 Constraint[Prev][0]=none

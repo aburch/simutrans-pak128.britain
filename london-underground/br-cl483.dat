@@ -30,7 +30,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=71
+# http://upload.wikimedia.org/wikipedia/commons/2/25/483004_Interior.JPG
+comfort=61
 
 Constraint[Prev][0]=BR-Class483Rear
 Constraint[Prev][1]=none
@@ -92,7 +93,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=71
+comfort=61
 
 Constraint[Prev][0]=BR-Class483Front
 
@@ -149,7 +150,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=71
+comfort=61
 
 Constraint[Prev][0]=BR-Class483NDM
 Constraint[Prev][1]=BR-Class483Front
@@ -209,7 +210,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=71
+comfort=61
 
 Constraint[Prev][0]=BR-Class483NDM
 Constraint[Prev][1]=BR-Class483Trailer

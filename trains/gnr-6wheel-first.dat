@@ -3,7 +3,7 @@
 
 obj=vehicle
 name=GNR-6Wheel-First
-speed=135
+speed=150
 copyright=Kieron/jamespetts
 intro_year=1876
 intro_month=8
@@ -25,7 +25,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=112
+comfort=70	
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted

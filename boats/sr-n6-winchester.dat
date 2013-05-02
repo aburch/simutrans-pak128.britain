@@ -12,14 +12,14 @@ payload=58
 weight=11
 length=10
 cost=40000
-runningcost=9
+# Hovercraft are expensive on fuel: see http://www.youtube.com/watch?v=Cyq0M4WhW9s
+runningcost=400
 intro_year=1965
 intro_month=1
-
 retire_year=1983
 intro_month=1
 
-comfort=127
+comfort=56
 
 way_constraint_prohibitive[6]=6 # Large ship
 

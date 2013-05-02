@@ -27,7 +27,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=119
+comfort=81
 
 Constraint[Prev][0]=BR-423-DTCL-Rear
 Constraint[Prev][1]=BR-410[CEP]Rear(Blue-Grey)
@@ -79,7 +79,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=119
+comfort=81
 
 Constraint[Prev][0]=BR-423-DTCL-Front
 Constraint[Next][0]=BR-423-TSO
@@ -123,7 +123,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=119
+comfort=81
 
 Constraint[Prev][0]=BR-423-MBSO
 Constraint[Next][0]=BR-423-DTCL-Rear
@@ -168,7 +168,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=119
+comfort=81
 
 Constraint[Next][0]=BR-423-DTCL-Front
 Constraint[Next][1]=BR-410[CEP]Front(Blue-Grey)

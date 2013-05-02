@@ -1,4 +1,4 @@
-# These should have low maintenance costs: they are very reliable and save engery with regenerative braking.
+87# These should have low maintenance costs: they are very reliable and save engery with regenerative braking.
 
 obj=vehicle
 name=c2c-357(front)
@@ -28,7 +28,7 @@ sound=-1
 
 min_loading_time=17
 max_loading_time=60
-comfort=113
+comfort=87
 
 can_lead_from_rear=1
 bidirectional=0
@@ -78,7 +78,7 @@ sound=-1
 
 min_loading_time=17
 max_loading_time=60
-comfort=113
+comfort=87
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[2]=2
@@ -125,7 +125,7 @@ sound=-1
 
 min_loading_time=17
 max_loading_time=60
-comfort=113
+comfort=87
 
 can_lead_from_rear=1
 bidirectional=0
@@ -174,7 +174,7 @@ sound=-1
 
 min_loading_time=17
 max_loading_time=60
-comfort=113
+comfort=87
 
 can_lead_from_rear=1
 bidirectional=0
