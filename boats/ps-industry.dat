@@ -18,6 +18,10 @@ intro_month=1
 retire_year=1842
 retire_month=6
 
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
+
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -62,6 +66,10 @@ intro_month=1
 retire_year=1842
 retire_month=6
 
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
+
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -105,6 +113,10 @@ intro_year=1814
 intro_month=1
 retire_year=1842
 retire_month=6
+
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

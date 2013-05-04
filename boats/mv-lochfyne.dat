@@ -23,6 +23,9 @@ intro_month=1
 # Comfort adversely affected by vibrations
 comfort=99
 catering_level=2
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1400
 
 way_constraint_prohibitive[6]=6 # Large ship
 

@@ -18,6 +18,10 @@ intro_month=1
 retire_year=1961
 retire_month=6
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -49,6 +53,10 @@ intro_year=1912
 intro_month=1
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -83,6 +91,10 @@ intro_month=1
 retire_year=1961
 retire_month=6
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -115,6 +127,10 @@ intro_year=1912
 intro_month=1
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -149,6 +165,10 @@ intro_month=1
 retire_year=1961
 retire_month=6
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -182,6 +202,10 @@ intro_year=1912
 intro_month=1
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -266,6 +290,10 @@ intro_year=1912
 intro_month=1
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

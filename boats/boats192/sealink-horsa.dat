@@ -21,6 +21,9 @@ retire_month=1
 
 comfort=157
 catering_level=4
+# 35-50 minutes
+min_loading_time=2100
+max_loading_time=3000
 
 way_constraint_prohibitive[6]=6 # Large ship
 

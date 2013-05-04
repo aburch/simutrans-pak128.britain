@@ -17,6 +17,9 @@ intro_year=2007
 intro_month=6
 
 comfort=90
+# 5-10 minutes
+min_loading_time=300
+max_loading_time=600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

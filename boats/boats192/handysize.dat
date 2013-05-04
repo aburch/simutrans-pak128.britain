@@ -15,6 +15,10 @@ runningcost=350
 intro_year=1958
 intro_month=1
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -53,6 +57,10 @@ cost=6750000
 runningcost=350
 intro_year=1958
 intro_month=1
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -93,6 +101,9 @@ runningcost=350
 intro_year=1958
 intro_month=1
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -134,6 +145,10 @@ runningcost=350
 intro_year=1958
 intro_month=1
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -164,6 +179,10 @@ runningcost=350
 intro_year=1958
 intro_month=1
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
@@ -184,7 +203,7 @@ waytype=water
 engine_type=diesel
 speed=40
 power=3500
-##gear=1200
+#gear=1200
 freight=Kohle
 payload=925
 weight=500
@@ -194,6 +213,9 @@ runningcost=350
 intro_year=1958
 intro_month=1
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -276,6 +298,9 @@ runningcost=350
 intro_year=1958
 intro_month=1
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

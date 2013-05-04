@@ -20,6 +20,9 @@ retire_month=1
 
 comfort=166
 catering_level=4
+# 30-45 minutes
+min_loading_time=2400
+max_loading_time=2700
 
 Constraint[Next][0]=POSuperEuropeanMixedAddMail
 Constraint[Next][1]=POSuperEuropeanMixedAddPiece

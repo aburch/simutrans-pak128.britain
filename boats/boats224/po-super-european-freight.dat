@@ -14,6 +14,9 @@ runningcost=2
 intro_year=1991
 intro_month=1
 
+# 30-45 minutes
+min_loading_time=2400
+max_loading_time=2700
 
 Constraint[Next][0]=POSuperEuropeanFreightAddMail
 Constraint[Next][1]=POSuperEuropeanFreightAddPiece

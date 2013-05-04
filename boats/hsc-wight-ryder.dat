@@ -21,6 +21,9 @@ intro_month=1
 
 # http://commons.wikimedia.org/wiki/File:Wight_Ryder_II_interior_2.jpg
 comfort=101
+# 15-20 minutes
+min_loading_time=900
+max_loading_time=1200
 
 way_constraint_prohibitive[6]=6 # Large ship
 

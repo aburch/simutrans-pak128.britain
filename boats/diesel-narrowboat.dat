@@ -16,6 +16,10 @@ runningcost=2
 intro_year=1920
 intro_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[4]=4 # Narrow
@@ -124,6 +128,10 @@ runningcost=2
 intro_year=1920
 intro_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[4]=4 # Narrow
@@ -212,6 +220,10 @@ runningcost=2
 intro_year=1920
 intro_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[4]=4 # Narrow
@@ -269,6 +281,10 @@ cost=20000
 runningcost=2
 intro_year=1920
 intro_month=1
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
@@ -329,6 +345,10 @@ runningcost=2
 intro_year=1920
 intro_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[4]=4 # Narrow
@@ -386,6 +406,10 @@ cost=20000
 runningcost=2
 intro_year=1920
 intro_month=1
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge

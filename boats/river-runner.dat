@@ -17,6 +17,8 @@ intro_year=2001
 intro_month=1
 
 comfort=104
+min_loading_time=45
+max_loading_time=90
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -54,6 +56,8 @@ intro_month=1
 
 comfort=104
 catering_level=2
+min_loading_time=45
+max_loading_time=90
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship

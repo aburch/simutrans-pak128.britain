@@ -6,9 +6,9 @@ engine_type=steam
 smoke=Steam
 speed=22
 power=90
-##gear=1200
+#gear=1200
 freight=Passagiere
-payload=80
+payload=320
 weight=45
 length=8
 cost=15676416
@@ -19,8 +19,9 @@ retire_year=1873
 retire_month=6
 
 comfort=68
-min_loading_time=420
-max_loading_time=600
+# 30-45 minutes
+min_loading_time=2400
+max_loading_time=2700
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
