@@ -15,6 +15,10 @@ intro_month=1
 retire_year=1841
 retire_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -55,6 +59,10 @@ intro_month=1
 retire_year=1935
 retire_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -93,6 +101,10 @@ runningcost=2
 intro_year=1935
 intro_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -130,6 +142,10 @@ cost=20000
 runningcost=2
 intro_year=1816
 intro_month=1
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -227,6 +243,10 @@ runningcost=2
 intro_year=1816
 intro_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -293,6 +313,10 @@ runningcost=2
 intro_year=1816
 intro_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -346,6 +370,10 @@ cost=20000
 runningcost=2
 intro_year=1816
 intro_month=1
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -402,6 +430,10 @@ runningcost=2
 intro_year=1816
 intro_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -455,6 +487,10 @@ cost=20000
 runningcost=2
 intro_year=1816
 intro_month=1
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
