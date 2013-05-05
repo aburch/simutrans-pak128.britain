@@ -17,8 +17,9 @@ intro_year=1959
 intro_month=1
 
 comfort=61
+# 2-3 minutes
 min_loading_time=120
-max_loading_time=240
+max_loading_time=180
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

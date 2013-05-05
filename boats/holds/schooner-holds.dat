@@ -15,6 +15,9 @@ retire_month=9
 length=3
 
 comfort=50
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -69,6 +72,9 @@ retire_year=1925
 retire_month=9
 
 length=3
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -123,6 +129,9 @@ retire_year=1925
 retire_month=9
 
 length=3
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -218,6 +227,9 @@ retire_year=1925
 retire_month=9
 
 length=3
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -283,6 +295,9 @@ retire_year=1925
 retire_month=9
 
 length=3
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -337,6 +352,9 @@ retire_year=1925
 retire_month=9
 
 length=3
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -391,6 +409,9 @@ retire_year=1925
 retire_month=9
 
 length=3
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

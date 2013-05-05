@@ -14,6 +14,10 @@ intro_month=1
 retire_year=1940
 retire_month=1
 
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[4]=4 # Narrow
@@ -49,6 +53,10 @@ intro_year=1835
 intro_month=1
 retire_year=1940
 retire_month=1
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
@@ -87,6 +95,10 @@ intro_month=1
 retire_year=1940
 retire_month=1
 
+# 4-6 minutes
+min_loading_time=240
+max_loading_time=360
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[4]=4 # Narrow
@@ -95,9 +107,7 @@ way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=BoatHorsesFly
 
-
 Constraint[Next][0]=none
-
 
 EmptyImage[E]=./images/unpowered-narrowboat-flyboat-covered.1.4
 EmptyImage[SE]=./images/unpowered-narrowboat-flyboat-covered.1.5
@@ -126,6 +136,9 @@ retire_month=1
 
 comfort=59
 catering_level=2
+# 2-3 minutes
+min_loading_time=120
+max_loading_time=180
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
