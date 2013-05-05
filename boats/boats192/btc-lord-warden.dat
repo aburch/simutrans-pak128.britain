@@ -24,6 +24,9 @@ catering_level=4
 min_loading_time=2400
 max_loading_time=3600
 
+liverytype[0]=BTC
+liverytype[1]=BR-ferries
+
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=BTCLordWardenAddMail
@@ -31,12 +34,21 @@ Constraint[Next][1]=BTCLordWardenAddPiece
 Constraint[Next][2]=BTCLordWardenAddCool
 Constraint[Prev][0]=none
 
-EmptyImage[E]=../images/BTC-lord-warden.1.0,-20,-30
-EmptyImage[SE]=../images/BTC-lord-warden.1.1,-20,-30
-EmptyImage[S]=../images/BTC-lord-warden.1.2,-20,-30
-EmptyImage[SW]=../images/BTC-lord-warden.1.3,-20,-30
-EmptyImage[W]=../images/BTC-lord-warden.1.4,-20,-30
-EmptyImage[NW]=../images/BTC-lord-warden.1.5,-20,-30
-EmptyImage[N]=../images/BTC-lord-warden.1.6,-20,-30
-EmptyImage[NE]=../images/BTC-lord-warden.1.7,-20,-30
+EmptyImage[E][0]=../images/BTC-lord-warden.1.0,-20,-30
+EmptyImage[SE][0]=../images/BTC-lord-warden.1.1,-20,-30
+EmptyImage[S][0]=../images/BTC-lord-warden.1.2,-20,-30
+EmptyImage[SW][0]=../images/BTC-lord-warden.1.3,-20,-30
+EmptyImage[W][0]=../images/BTC-lord-warden.1.4,-20,-30
+EmptyImage[NW][0]=../images/BTC-lord-warden.1.5,-20,-30
+EmptyImage[N][0]=../images/BTC-lord-warden.1.6,-20,-30
+EmptyImage[NE][0]=../images/BTC-lord-warden.1.7,-20,-30
+
+EmptyImage[E][1]=../images/BTC-lord-warden-sealink.1.0,-20,-30
+EmptyImage[SE][1]=../images/BTC-lord-warden-sealink.1.1,-20,-30
+EmptyImage[S][1]=../images/BTC-lord-warden-sealink.1.2,-20,-30
+EmptyImage[SW][1]=../images/BTC-lord-warden-sealink.1.3,-20,-30
+EmptyImage[W][1]=../images/BTC-lord-warden-sealink.1.4,-20,-30
+EmptyImage[NW][1]=../images/BTC-lord-warden-sealink.1.5,-20,-30
+EmptyImage[N][1]=../images/BTC-lord-warden-sealink.1.6,-20,-30
+EmptyImage[NE][1]=../images/BTC-lord-warden-sealink.1.7,-20,-30
 ---

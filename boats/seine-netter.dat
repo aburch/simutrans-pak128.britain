@@ -14,6 +14,9 @@ cost=273750
 runningcost=100
 intro_year=1927
 intro_month=1
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -49,6 +52,9 @@ intro_year=1864
 intro_month=1
 retire_year=1927
 retire_month=1
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

@@ -1218,3 +1218,80 @@ retire_month[22] = 1
 livery[22][0] = LMR-Standard
 intro_year[22][0] = 1829
 intro_month[22][0] = 8
+
+livery_scheme[23] = Sealink
+retire_year[23] = 1996
+retire_month[23] = 4
+livery[23][0] = BTC
+intro_year[23][0] = 1948
+intro_month[23][0] = 1
+livery[23][1] = BR-ferries
+# http://www.doverferryphotosforums.co.uk/wordpress/ts-lord-warden-past-and-present/
+intro_year[23][1] = 1964
+intro_month[23][1] = 10
+livery[23][2] = Sealink-red
+intro_year[23][2] = 1970
+intro_month[23][2] = 1
+livery[23][3] = Sealink-British-Ferries
+intro_year[23][3] = 1984
+intro_month[23][3] = 7
+livery[23][4] = Stena-Sealink
+intro_year[23][4] = 1991
+intro_month[23][4] = 6
+
+livery_scheme[24] = Townsend-Thoresen
+retire_year[24] = 1987
+retire_month[24] = 10
+livery[24][0] = TT-Green
+intro_year[24][0] = 1968
+intro_month[24][0] = 9
+livery[24][1] = TT-Orange
+intro_year[24][1] = 1976
+intro_month[24][1] = 2
+
+livery_scheme[25] = P&O
+retire_year[25] = 2500
+retire_month[25] = 1
+livery[25][0] = P&O-Early
+#?
+intro_year[25][0] = 1960
+intro_month[25][0] = 1
+livery[25][1] = P&O-European-Ferries
+intro_year[25][1] = 1987
+intro_month[25][1] = 10
+
+livery_scheme[26] = Hoverlloyd
+retire_year[26] = 1981
+retire_month[26] = 3
+livery[26][0] = Hoverlloyd-Standard
+intro_year[26][0] = 1966
+intro_month[26][0] = 4
+
+livery_scheme[26] = Seaspeed
+retire_year[26] = 1981
+retire_month[26] = 10
+livery[26][0] = Seaspeed-early
+intro_year[26][0] = 1965
+intro_month[26][0] = 12
+# Actual date not known
+livery[26][1] = Seaspeed-late
+intro_year[26][1] = 1977
+intro_month[26][1] = 11
+
+livery_scheme[27] = Hoverspeed
+retire_year[27] = 2000
+retire_month[27] = 10
+livery[27][0] = Hoverspeed-early
+intro_year[27][0] = 1981
+intro_month[27][0] = 10
+# Actual date not known
+livery[27][1] = Hoverspeed-late
+intro_year[27][1] = 1996
+intro_month[27][1] = 2
+
+livery_scheme[28] = Hovertravel
+retire_year[28] = 2500
+retire_month[28] = 1
+livery[28][0] = Hovertravel-standard
+intro_year[28][0] = 1965
+intro_month[28][0] = 8

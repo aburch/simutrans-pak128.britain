@@ -18,6 +18,8 @@ intro_month=1
 min_loading_time=2400
 max_loading_time=2700
 
+upgrade[0]=POSuperEuropeanMixed
+
 Constraint[Next][0]=POSuperEuropeanFreightAddMail
 Constraint[Next][1]=POSuperEuropeanFreightAddPiece
 Constraint[Next][2]=POSuperEuropeanFreightAddCool
