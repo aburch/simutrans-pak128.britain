@@ -1262,14 +1262,14 @@ intro_month[25][1] = 10
 
 livery_scheme[26] = Hoverlloyd
 retire_year[26] = 1981
-retire_month[26] = 3
+retire_month[26] = 11
 livery[26][0] = Hoverlloyd-Standard
 intro_year[26][0] = 1966
 intro_month[26][0] = 4
 
 livery_scheme[26] = Seaspeed
 retire_year[26] = 1981
-retire_month[26] = 10
+retire_month[26] = 11
 livery[26][0] = Seaspeed-early
 intro_year[26][0] = 1965
 intro_month[26][0] = 12
@@ -1283,7 +1283,7 @@ retire_year[27] = 2000
 retire_month[27] = 10
 livery[27][0] = Hoverspeed-early
 intro_year[27][0] = 1981
-intro_month[27][0] = 10
+intro_month[27][0] = 11
 # Actual date not known
 livery[27][1] = Hoverspeed-late
 intro_year[27][1] = 1996
