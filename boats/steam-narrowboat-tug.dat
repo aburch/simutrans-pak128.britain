@@ -49,12 +49,24 @@ Constraint[Next][20]=WoodenHullUnpoweredNarrowboatOil
 
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/steam-narrowboat-tug.1.4
-EmptyImage[SE]=./images/steam-narrowboat-tug.1.5
-EmptyImage[S]=./images/steam-narrowboat-tug.1.6
-EmptyImage[SW]=./images/steam-narrowboat-tug.1.7
-EmptyImage[W]=./images/steam-narrowboat-tug.1.0
-EmptyImage[NW]=./images/steam-narrowboat-tug.1.1
-EmptyImage[N]=./images/steam-narrowboat-tug.1.2
-EmptyImage[NE]=./images/steam-narrowboat-tug.1.3
+liverytype[0]=Private
+liverytype[1]=BW-Standard
+
+EmptyImage[E][0]=./images/steam-narrowboat-tug.1.4
+EmptyImage[SE][0]=./images/steam-narrowboat-tug.1.5
+EmptyImage[S][0]=./images/steam-narrowboat-tug.1.6
+EmptyImage[SW][0]=./images/steam-narrowboat-tug.1.7
+EmptyImage[W][0]=./images/steam-narrowboat-tug.1.0
+EmptyImage[NW][0]=./images/steam-narrowboat-tug.1.1
+EmptyImage[N][0]=./images/steam-narrowboat-tug.1.2
+EmptyImage[NE][0]=./images/steam-narrowboat-tug.1.3
+
+EmptyImage[E][1]=./images/steam-narrowboat-tug-bw.1.4
+EmptyImage[SE][1]=./images/steam-narrowboat-tug-bw.1.5
+EmptyImage[S][1]=./images/steam-narrowboat-tug-bw.1.6
+EmptyImage[SW][1]=./images/steam-narrowboat-tug-bw.1.7
+EmptyImage[W][1]=./images/steam-narrowboat-tug-bw.1.0
+EmptyImage[NW][1]=./images/steam-narrowboat-tug-bw.1.1
+EmptyImage[N][1]=./images/steam-narrowboat-tug-bw.1.2
+EmptyImage[NE][1]=./images/steam-narrowboat-tug-bw.1.3
 ---------------------------------

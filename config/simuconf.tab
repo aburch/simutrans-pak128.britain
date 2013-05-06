@@ -1295,3 +1295,19 @@ retire_month[28] = 1
 livery[28][0] = Hovertravel-standard
 intro_year[28][0] = 1965
 intro_month[28][0] = 8
+
+# For canal boats. Can also be used for 
+# small road freight vehicles.
+livery_scheme[29] = Private-operator
+retire_year[29] = 2500
+retire_month[29] = 1
+livery[29][0] = Private
+intro_year[29][0] = 1750
+intro_month[29][0] = 1
+
+livery_scheme[30] = British-Waterways
+retire_year[30] = 2500
+retire_month[30] = 1
+livery[30][0] = BW-Standard
+intro_year[30][0] = 1948
+intro_month[30][0] = 1
