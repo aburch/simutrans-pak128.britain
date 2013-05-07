@@ -459,6 +459,9 @@ crossconnect_factories_percentage = 15
 # with this switch on (default), overcrowded factories will not recieve goods any more
 just_in_time = 1
 
+# True if substations ("transformers") are allowed to be built underground (default)
+allow_underground_transformers = 1
+
 # How much is the total electric power available (in relation to total production) 
 # in parts per thousand. 1000 = 100% and default for Simutrans-Experimental.
 electric_promille = 1000
@@ -470,7 +473,13 @@ cost_maintain_transformer = 100
 # Minimum distance between factories (in tiles)
 # Note that this applies as between *any* pair of factories, not just factories
 # that are connected to each other.
-factory_spacing = 2
+min_factory_spacing = 2
+
+# Maximum distance for connected factories
+# If percentage>0, it will be in percent of the largest map dimension
+# percentage also over-rides the absolute value (which is in tiles)
+max_factory_spacing_percentage = 33
+#max_factory_spacing = 40
 
 # Some factories have a retirement date, after which they are obsolete. After
 # that date, factories may close down (random chance each month). After the number
@@ -483,10 +492,25 @@ max_years_obsolete = 32
 # the industries in question). 
 
 factory_worker_minimum_towns = 1
-factory_worker_maximum_towns = 5
+factory_worker_maximum_towns = 6
+
+# number of periods for averaging the amount of arrived pax/mail at factories for boost calculation
+# one period represents a fixed interval of 2^18 ms in-game time
+# value can range from 1 to 16, inclusive; 1 means no averaging; default is 4
+factory_arrival_periods = 4
+
+# whether factory's pax/mail demands are enforced or not; default is on
+factory_enforce_demand = 1
 
 # The maximum distance in tiles from which workers at industries may travel.
-factory_worker_radius = 256
+factory_worker_radius = 320
+
+# How much amount in transport is sent before further distribution stops
+# This is only enabled when "just_in_time" is enabled
+# The limit is given in percent of factory storage (0=off)
+# It should be not too low to allow big convoys fully loaded at more than one
+# factory (for medium sized maps 500 seems a reasonable number)
+maximum_intransit_percentage = 750
 
 ################################## Finance settings #################################
 
