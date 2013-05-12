@@ -11,12 +11,12 @@ freight=Passagiere
 payload=100
 weight=48
 length=10
-cost=40000
-runningcost=9
+cost=12000000
+runningcost=9500
 intro_year=1983
-intro_month=1
+intro_month=3
 retire_year=2005
-intro_month=1
+intro_month=11
 
 comfort=55
 # Hovercraft loading time: approx. 15 mins:
@@ -51,12 +51,12 @@ freight=Bucher
 payload=25
 weight=48
 length=10
-cost=40000
-runningcost=9
+cost=12000000
+runningcost=9500
 intro_year=1983
-intro_month=1
+intro_month=3
 retire_year=2005
-intro_month=1
+intro_month=11
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -98,12 +98,12 @@ freight=meat
 payload=25
 weight=48
 length=10
-cost=40000
-runningcost=9
+cost=12000000
+runningcost=9500
 intro_year=1983
-intro_month=1
+intro_month=3
 retire_year=2005
-intro_month=1
+intro_month=11
 
 way_constraint_prohibitive[6]=6 # Large ship
 

@@ -11,10 +11,11 @@ freight=Passagiere
 payload=418
 weight=320
 length=10
-cost=40000
-runningcost=900
+cost=12900000
+# Hovercraft are expensive on fuel: see http://www.youtube.com/watch?v=Cyq0M4WhW9s
+runningcost=9700
 intro_year=1976
-intro_month=1
+intro_month=3
 
 retire_year=2000
 intro_month=1

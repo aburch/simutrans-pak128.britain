@@ -11,12 +11,12 @@ freight=Kohle
 payload=20
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=120000
+runningcost=33
 intro_year=1889
-intro_month=1
+intro_month=8
 retire_year=1920
-retire_month=1
+retire_month=4
 
 # 45-60 minutes
 min_loading_time=2700
@@ -182,12 +182,12 @@ freight=Bretter
 payload=20
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=120000
+runningcost=33
 intro_year=1889
-intro_month=1
+intro_month=8
 retire_year=1920
-retire_month=1
+retire_month=4
 
 # 45-60 minutes
 min_loading_time=2700
@@ -315,12 +315,12 @@ freight=vegetables
 payload=20
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=120000
+runningcost=33
 intro_year=1889
-intro_month=1
+intro_month=8
 retire_year=1920
-retire_month=1
+retire_month=4
 
 # 45-60 minutes
 min_loading_time=2700
@@ -391,12 +391,12 @@ freight=fish
 payload=20
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=120000
+runningcost=33
 intro_year=1889
-intro_month=1
+intro_month=8
 retire_year=1920
-retire_month=1
+retire_month=4
 
 # 45-60 minutes
 min_loading_time=2700
@@ -468,12 +468,12 @@ freight=Oel
 payload=20
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=120000
+runningcost=33
 intro_year=1889
-intro_month=1
+intro_month=8
 retire_year=1920
-retire_month=1
+retire_month=4
 
 # 45-60 minutes
 min_loading_time=2700
@@ -544,12 +544,12 @@ freight=livestock
 payload=20
 weight=10
 length=8
-cost=20000
-runningcost=2
+cost=120000
+runningcost=33
 intro_year=1889
-intro_month=1
+intro_month=8
 retire_year=1920
-retire_month=1
+retire_month=4
 
 # 45-60 minutes
 min_loading_time=2700

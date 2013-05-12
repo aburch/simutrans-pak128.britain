@@ -11,13 +11,11 @@ freight=Passagiere
 payload=260
 weight=150
 length=10
-cost=40000
-runningcost=9
+cost=91000000
+runningcost=3500
 intro_year=2009
-intro_month=1
-#Most modern catamaran so no retire year...
-#retire_year=2009
-#retire_month=1
+intro_month=9
+# Most modern catamaran so no retire year.
 
 # http://commons.wikimedia.org/wiki/File:Wight_Ryder_II_interior_2.jpg
 comfort=101

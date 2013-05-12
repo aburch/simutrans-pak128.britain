@@ -6,17 +6,17 @@ speed=8
 power=60
 #gear=1200
 copyright=Jamespetts
-intro_year=1850
-intro_month=1
-retire_year=1950
-retire_month=1
+intro_year=1851
+intro_month=10
+retire_year=1902
+retire_month=5
 
 waytype=water
 length=6
 
 weight=10
 cost=100000
-runningcost=15
+runningcost=32
 sound=-1
 
 way_constraint_permissive[4]=4  # Waterway
