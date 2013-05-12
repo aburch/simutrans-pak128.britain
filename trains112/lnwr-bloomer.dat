@@ -22,14 +22,14 @@ sound=-1
 
 Constraint[Next][0]=LNWR-Bloomer-Tender(Red)
 
-EmptyImage[E]=./images/lnwr-bloomer.0.0
-EmptyImage[SE]=./images/lnwr-bloomer.0.1
-EmptyImage[S]=./images/lnwr-bloomer.0.2
-EmptyImage[SW]=./images/lnwr-bloomer.0.3
-EmptyImage[W]=./images/lnwr-bloomer.0.4
-EmptyImage[NW]=./images/lnwr-bloomer.0.5
-EmptyImage[N]=./images/lnwr-bloomer.0.6
-EmptyImage[NE]=./images/lnwr-bloomer.0.7
+EmptyImage[E]=./images/lnwr-bloomer.1.4
+EmptyImage[SE]=./images/lnwr-bloomer.1.5
+EmptyImage[S]=./images/lnwr-bloomer.1.6
+EmptyImage[SW]=./images/lnwr-bloomer.1.7
+EmptyImage[W]=./images/lnwr-bloomer.1.0
+EmptyImage[NW]=./images/lnwr-bloomer.1.1
+EmptyImage[N]=./images/lnwr-bloomer.1.2
+EmptyImage[NE]=./images/lnwr-bloomer.1.3
 ---
 obj=vehicle
 name=LNWR-Bloomer-Tender(Red)
@@ -54,14 +54,15 @@ Constraint[Prev][0]=LNWR-Bloomer(Red)
 Constraint[Prev][1]=LNWR-Sharp-goods
 Constraint[Prev][2]=LNWR-crewe-type
 
-EmptyImage[E]=./images/lnwr-bloomer.1.0
-EmptyImage[SE]=./images/lnwr-bloomer.1.1
-EmptyImage[S]=./images/lnwr-bloomer.1.2
-EmptyImage[SW]=./images/lnwr-bloomer.1.3
-EmptyImage[W]=./images/lnwr-bloomer.1.4
-EmptyImage[NW]=./images/lnwr-bloomer.1.5
-EmptyImage[N]=./images/lnwr-bloomer.1.6
-EmptyImage[NE]=./images/lnwr-bloomer.1.7
+EmptyImage[E]=./images/lnwr-bloomer-tender.1.4
+EmptyImage[SE]=./images/lnwr-bloomer-tender.1.5
+EmptyImage[S]=./images/lnwr-bloomer-tender.1.6
+EmptyImage[SW]=./images/lnwr-bloomer-tender.1.7
+EmptyImage[W]=./images/lnwr-bloomer-tender.1.0
+EmptyImage[NW]=./images/lnwr-bloomer-tender.1.1
+EmptyImage[N]=./images/lnwr-bloomer-tender.1.2
+EmptyImage[NE]=./images/lnwr-bloomer-tender.1.3
+
 
 
 ---

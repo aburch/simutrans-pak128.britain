@@ -37,7 +37,7 @@ name=MR-Kirtley156Tender(Maroon)
 speed=115
 power=0
 copyright=Kieron
-intro_year=1866
+intro_year=1863
 intro_month=1
 retire_year=1910
 retire_month=1
@@ -56,6 +56,7 @@ Constraint[Prev][1]=MR-480
 Constraint[Prev][2]=MR-1738
 Constraint[Prev][3]=MR-700
 Constraint[Prev][4]=MR-1357
+Constraint[Prev][5]=MR-27
 
 EmptyImage[E]=./images/mr-kirtley156.1.0
 EmptyImage[SE]=./images/mr-kirtley156.1.1

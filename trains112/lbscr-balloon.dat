@@ -5,12 +5,12 @@ speed=140
 copyright=James&jamespetts
 intro_year=1905
 intro_month=10
-retire_year=1920
+retire_year=1926
 retire_month=1
 waytype=track
 freight=Passagiere
 payload=70
-length=11
+length=9
 
 weight=27
 cost=777000
@@ -29,14 +29,14 @@ Constraint[Next][2]=LBSCR-balloon-full-brake
 Constraint[Next][3]=LBSCR-non-cor-lav
 Constraint[Next][4]=LBSCR-non-cor-lav-brake-rear
 
-EmptyImage[E]=./images/lbscr-balloon.0.0
-EmptyImage[SE]=./images/lbscr-balloon.0.1
-EmptyImage[S]=./images/lbscr-balloon.0.2
-EmptyImage[SW]=./images/lbscr-balloon.0.3
-EmptyImage[W]=./images/lbscr-balloon.0.4
-EmptyImage[NW]=./images/lbscr-balloon.0.5
-EmptyImage[N]=./images/lbscr-balloon.0.6
-EmptyImage[NE]=./images/lbscr-balloon.0.7
+EmptyImage[E]=./images/lbscr-balloon.1.4
+EmptyImage[SE]=./images/lbscr-balloon.1.5
+EmptyImage[S]=./images/lbscr-balloon.1.6
+EmptyImage[SW]=./images/lbscr-balloon.1.7
+EmptyImage[W]=./images/lbscr-balloon.1.0
+EmptyImage[NW]=./images/lbscr-balloon.1.1
+EmptyImage[N]=./images/lbscr-balloon.1.2
+EmptyImage[NE]=./images/lbscr-balloon.1.3
 
 ---
 
@@ -46,12 +46,12 @@ speed=140
 copyright=James&jamespetts
 intro_year=1905
 intro_month=10
-retire_year=1920
+retire_year=1926
 retire_month=1
 waytype=track
 freight=Passagiere
 payload=40
-length=11
+length=9
 
 weight=27
 cost=777000
@@ -73,14 +73,14 @@ Constraint[Next][3]=LBSCR-balloon-brake-front
 Constraint[Next][4]=LBSCR-balloon-full-brake
 Constraint[Next][5]=none
 
-EmptyImage[E]=./images/lbscr-balloon-brake.1.0
-EmptyImage[SE]=./images/lbscr-balloon-brake.1.1
-EmptyImage[S]=./images/lbscr-balloon-brake.1.2
-EmptyImage[SW]=./images/lbscr-balloon-brake.1.3
-EmptyImage[W]=./images/lbscr-balloon-brake.1.4
-EmptyImage[NW]=./images/lbscr-balloon-brake.1.5
-EmptyImage[N]=./images/lbscr-balloon-brake.1.6
-EmptyImage[NE]=./images/lbscr-balloon-brake.1.7
+EmptyImage[E]=./images/lbscr-balloon-brake-rear.1.4
+EmptyImage[SE]=./images/lbscr-balloon-brake-rear.1.5
+EmptyImage[S]=./images/lbscr-balloon-brake-rear.1.6
+EmptyImage[SW]=./images/lbscr-balloon-brake-rear.1.7
+EmptyImage[W]=./images/lbscr-balloon-brake-rear.1.0
+EmptyImage[NW]=./images/lbscr-balloon-brake-rear.1.1
+EmptyImage[N]=./images/lbscr-balloon-brake-rear.1.2
+EmptyImage[NE]=./images/lbscr-balloon-brake-rear.1.3
 
 ---
 
@@ -90,7 +90,7 @@ speed=140
 copyright=James&jamespetts
 intro_year=1905
 intro_month=10
-retire_year=1920
+retire_year=1926
 retire_month=1
 waytype=track
 freight=Passagiere
@@ -110,14 +110,14 @@ Constraint[Next][3]=LBSCR-balloon-full-brake-rear
 Constraint[Next][4]=LBSCR-balloon-full-brake
 Constraint[Next][5]=none
 
-EmptyImage[E]=./images/lbscr-balloon-brake.0.0
-EmptyImage[SE]=./images/lbscr-balloon-brake.0.1
-EmptyImage[S]=./images/lbscr-balloon-brake.0.2
-EmptyImage[SW]=./images/lbscr-balloon-brake.0.3
-EmptyImage[W]=./images/lbscr-balloon-brake.0.4
-EmptyImage[NW]=./images/lbscr-balloon-brake.0.5
-EmptyImage[N]=./images/lbscr-balloon-brake.0.6
-EmptyImage[NE]=./images/lbscr-balloon-brake.0.7
+EmptyImage[E]=./images/lbscr-balloon-brake-front.1.4
+EmptyImage[SE]=./images/lbscr-balloon-brake-front.1.5
+EmptyImage[S]=./images/lbscr-balloon-brake-front.1.6
+EmptyImage[SW]=./images/lbscr-balloon-brake-front.1.7
+EmptyImage[W]=./images/lbscr-balloon-brake-front.1.0
+EmptyImage[NW]=./images/lbscr-balloon-brake-front.1.1
+EmptyImage[N]=./images/lbscr-balloon-brake-front.1.2
+EmptyImage[NE]=./images/lbscr-balloon-brake-front.1.3
 
 ---
 
@@ -132,19 +132,52 @@ retire_month=1
 waytype=track
 freight=Post
 payload=35
-length=10
+length=8
 
 weight=26
 cost=740000
 runningcost=35
 sound=-1
 
+EmptyImage[E]=./images/lbscr-balloon-full-brake.1.4
+EmptyImage[SE]=./images/lbscr-balloon-full-brake.1.5
+EmptyImage[S]=./images/lbscr-balloon-full-brake.1.6
+EmptyImage[SW]=./images/lbscr-balloon-full-brake.1.7
+EmptyImage[W]=./images/lbscr-balloon-full-brake.1.0
+EmptyImage[NW]=./images/lbscr-balloon-full-brake.1.1
+EmptyImage[N]=./images/lbscr-balloon-full-brake.1.2
+EmptyImage[NE]=./images/lbscr-balloon-full-brake.1.3
+---
+obj=vehicle
+name=LBSCR-balloon-push-pull
+speed=160
+copyright=James/jamespetts
+intro_year=1907
+intro_month=1
+retire_year=1926
+retire_month=1
+waytype=track
+freight=Passagiere
+payload=70
+length=9
 
-EmptyImage[E]=./images/lbscr-balloon.1.0
-EmptyImage[SE]=./images/lbscr-balloon.1.1
-EmptyImage[S]=./images/lbscr-balloon.1.2
-EmptyImage[SW]=./images/lbscr-balloon.1.3
-EmptyImage[W]=./images/lbscr-balloon.1.4
-EmptyImage[NW]=./images/lbscr-balloon.1.5
-EmptyImage[N]=./images/lbscr-balloon.1.6
-EmptyImage[NE]=./images/lbscr-balloon.1.7
+weight=27
+cost=800000
+runningcost=39
+sound=-1
+
+
+Constraint[Prev][0]=LBSCR-A1
+
+Constraint[Next][0]=none
+
+EmptyImage[E]=./images/lbscr-balloon-push-pull.1.4
+EmptyImage[SE]=./images/lbscr-balloon-push-pull.1.5
+EmptyImage[S]=./images/lbscr-balloon-push-pull.1.6
+EmptyImage[SW]=./images/lbscr-balloon-push-pull.1.7
+EmptyImage[W]=./images/lbscr-balloon-push-pull.1.0
+EmptyImage[NW]=./images/lbscr-balloon-push-pull.1.1
+EmptyImage[N]=./images/lbscr-balloon-push-pull.1.2
+EmptyImage[NE]=./images/lbscr-balloon-push-pull.1.3
+
+---

@@ -2374,10 +2374,26 @@ LargeArticTrailerMail
 Large Artic Trailer (mail)
 LargeArticTrailerPiece
 Large Artic Trailer (piece goods)
-LBSCR-4Wheel-Brake
+LBSCR-4Wheel-Brake-front
+LBSCR 4 Wheel Brake Carriage
+LBSCR-4Wheel-Brake-rear
 LBSCR 4 Wheel Brake Carriage
 LBSCR-4Wheel-First
-LBSCR 4 Wheel Carriage
+LBSCR 4 Wheel First Class Carriage
+LBSCR-4Wheel-Second
+LBSCR 4 Wheel Second Class Carriage
+LBSCR-4Wheel-full-brake
+LBSCR 4 Wheel Full Brake Carriage
+LBSCR-6Wheel-5-com
+LBSCR 6 Wheel Carriage
+LBSCR-6Wheel-brake-front
+LBSCR 6 Wheel Brake Carriage
+LBSCR-6Wheel-brake-rear
+LBSCR 6 Wheel Brake Carriage
+LBSCR-6Wheel-guard
+LBSCR 6 Wheel Full Brake Carriage
+LBSCR-6Wheel-mail
+LBSCR 6 Wheel Mail Carriage
 LBSCR-A1
 LBSCR Class A1 "Terrier" 0-6-0T
 LBSCR-B1-Gladstone
@@ -2392,12 +2408,20 @@ LBSCR-balloon-brake-rear
 LBSCR non-corridor lavatory "Balloon" carriage (brake)
 LBSCR-balloon-full-brake
 LBSCR "Balloon" carriage (full brake)
-LBSCR-bogie-sub
-LBSCR bogie suburban carriage
-LBSCR-bogie-sub-brake-front
-LBSCR bogie suburban carriage (brake)
-LBSCR-bogie-sub-brake-rear
-LBSCR bogie suburban carriage (brake)
+LBSCR-balloon-push-pull
+LBSCR "Balloon" carriage (push-pull)
+LBSCR-sub-bogie-48ft
+LBSCR 48ft bogie suburban carriage
+LBSCR-sub-bogie-48ft-brake-front
+LBSCR 48ft bogie suburban carriage (brake)
+LBSCR-sub-bogie-48ft-brake-rear
+LBSCR 48ft bogie suburban carriage (brake)
+LBSCR-sub-bogie-54ft
+LBSCR 54ft bogie suburban carriage
+LBSCR-sub-bogie-54ft-brake-front
+LBSCR 54ft bogie suburban carriage (brake)
+LBSCR-sub-bogie-54ft-brake-rear
+LBSCR 54ft bogie suburban carriage (brake)
 LBSCR-C
 LBSCR C Class 0-6-0
 LBSCR-C1
@@ -2417,7 +2441,7 @@ LBSCR Class L "Brighton Baltic" 4-6-4T
 LBSCR-non-cor-lav
 LBSCR non-corridor lavatory coach
 LBSCR-non-cor-lav-brake-front
-LBSCR non-corridor lavatory coach (brake)LBSCR bogie suburba
+LBSCR non-corridor lavatory coach (brake)
 LBSCR-non-cor-lav-brake-rear
 LBSCR non-corridor lavatory coach (brake)
 Leyland_Cub(LT-Green)
@@ -5018,6 +5042,24 @@ SteamNarrowboatTug
 Steam Narrowboat Tug
 BoatHorsesFly
 Boat Horses (flyboat)
+MR-27
+Midland 27 Class 2-2-2
+LBSCR-E1
+LBSCR Class E1 0-6-0T
+MR-1873
+Midland 1873 "Neilson Goods" Class 0-6-0
+MR-2736
+Midland 2736 Class 0-6-0
+GNR-Klondyke
+GNR Class C2 "Klondyke" 4-4-2
+LBSCR-H1
+LBSCR Class H1 "Brighton Atlantic" 4-4-2
+LBSCR-H1-Tender
+LBSCR Class H1 tender
+GWR-City
+GWR 3700 "City" Class 4-4-0
+MR-2781
+Midland 2781 Class "Belpaire" 4-4-0
 #______________________________________way______________________
 ________________
 #______________________________________way______________________________________

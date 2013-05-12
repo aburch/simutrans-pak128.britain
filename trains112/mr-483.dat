@@ -59,6 +59,8 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=MR-483
+Constraint[Prev][1]=MR-1873
+Constraint[Prev][2]=MR-2736
 
 EmptyImage[E]=./images/mr-1000.1.0
 EmptyImage[SE]=./images/mr-1000.1.1
