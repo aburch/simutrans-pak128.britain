@@ -23,8 +23,11 @@ spacilive# Pak 128.Britain
 use_timeline = 3
 
 # Passenger generation (the default is 16): smaller values means fewer passengers.
+# NOTE: This will need to be adjusted depending on the meters_per_tile setting.
+# 16 is calibrated to be correct for 125m/tile. This should be doubled for every
+# halving of the meters per tile setting, and halved for every doubling thereof.
 
-passenger_factor = 8
+passenger_factor = 15
 
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
 
@@ -319,8 +322,7 @@ tpo_revenue=300
 # in the TomTom Congestion Index in 2012, the average is 141 (1.41). 
 
 always_prefer_car_percent = 6
-congestion_density_factor = 70
-# Temporarily reduced to 70 pending more accurate passenger generation.
+congestion_density_factor = 141
 
 # This setting gives the maximum time that passengers are prepared to wait for their
 # transport. The setting is divided by speed bonus value to get the number of minutes.
