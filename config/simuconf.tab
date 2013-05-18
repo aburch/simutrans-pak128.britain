@@ -131,9 +131,9 @@ passenger_routing_midrange_chance = 12
 # long-distance passenger groups correspond to those above. 
 
 min_local_tolerance = 2
-max_local_tolerance = 75
-min_midrange_tolerance = 5
-max_midrange_tolerance = 240
+max_local_tolerance = 150
+min_midrange_tolerance = 12
+max_midrange_tolerance = 270
 min_longdistance_tolerance = 30
 max_longdistance_tolerance = 5400
 
