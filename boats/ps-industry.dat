@@ -11,12 +11,16 @@ freight=vegetables
 payload=45
 weight=50
 length=6
-cost=20000
-runningcost=2
+cost=8909120
+runningcost=430
 intro_year=1814
-intro_month=1
+intro_month=2
 retire_year=1842
 retire_month=6
+
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -55,12 +59,16 @@ freight=meat
 payload=45
 weight=50
 length=6
-cost=20000
-runningcost=2
+cost=8909120
+runningcost=430
 intro_year=1814
-intro_month=1
+intro_month=2
 retire_year=1842
 retire_month=6
+
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -99,12 +107,16 @@ freight=Post
 payload=45
 weight=50
 length=6
-cost=20000
-runningcost=2
+cost=8909120
+runningcost=430
 intro_year=1814
-intro_month=1
+intro_month=2
 retire_year=1842
 retire_month=6
+
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

@@ -8,12 +8,12 @@ power=100
 speed=15
 weight=40
 length=8
-cost=20000
-runningcost=2
+cost=150000
+runningcost=45
 intro_year=1816
-intro_month=1
+intro_month=9
 retire_year=1841
-retire_month=1
+retire_month=5
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -48,12 +48,12 @@ power=200
 speed=20
 weight=40
 length=8
-cost=20000
-runningcost=2
+cost=170000
+runningcost=35
 intro_year=1841
-intro_month=1
-retire_year=1935
-retire_month=1
+intro_month=5
+retire_year=1946
+retire_month=9
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -88,10 +88,10 @@ power=300
 speed=20
 weight=40
 length=8
-cost=20000
-runningcost=2
-intro_year=1935
-intro_month=1
+cost=235000
+runningcost=17
+intro_year=1933
+intro_month=12
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -126,10 +126,14 @@ freight=Kohle
 payload=75
 weight=30
 length=8
-cost=20000
+cost=25000
 runningcost=2
 intro_year=1816
 intro_month=1
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -222,10 +226,14 @@ freight=Bretter
 payload=75
 weight=5
 length=8
-cost=20000
+cost=25000
 runningcost=2
 intro_year=1816
-intro_month=1
+intro_month=9
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -288,10 +296,14 @@ freight=vegetables
 payload=75
 weight=5
 length=8
-cost=20000
+cost=25000
 runningcost=2
 intro_year=1816
-intro_month=1
+intro_month=9
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -342,10 +354,14 @@ freight=meat
 payload=75
 weight=5
 length=8
-cost=20000
+cost=25000
 runningcost=2
 intro_year=1816
-intro_month=1
+intro_month=9
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -397,10 +413,14 @@ freight=livestock
 payload=75
 weight=5
 length=8
-cost=20000
+cost=25000
 runningcost=2
 intro_year=1816
-intro_month=1
+intro_month=9
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -451,10 +471,14 @@ freight=Oel
 payload=75
 weight=5
 length=8
-cost=20000
+cost=25000
 runningcost=2
 intro_year=1816
-intro_month=1
+intro_month=9
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship

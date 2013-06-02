@@ -11,14 +11,16 @@ freight=Passagiere
 payload=250
 weight=100
 length=12
-cost=200000
-runningcost=200
+cost=12000000
+runningcost=2100
 intro_year=1842
-intro_month=1
-retire_year=1866
-retire_month=1
+intro_month=5
+retire_year=1875
+retire_month=12
 
-comfort=55
+comfort=29
+min_loading_time=60
+max_loading_time=120
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship

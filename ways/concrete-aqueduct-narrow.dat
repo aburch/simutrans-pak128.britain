@@ -2,6 +2,7 @@ Obj=bridge
 name=ConcreteAqueductNarrow
 waytype=water
 topspeed=30
+max_weight=1000
 intro_year=1950
 intro_month=1
 cost=45000

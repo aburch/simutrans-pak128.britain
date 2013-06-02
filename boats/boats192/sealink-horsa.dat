@@ -10,17 +10,23 @@ power=8575
 #gear=500
 weight=7500
 length=10
-cost=80000
 freight=Passagiere
 payload=1400
-runningcost=2
+cost=85600000
+runningcost=700
 intro_year=1972
-intro_month=1
+intro_month=4
 retire_year=1987
 retire_month=1
 
-comfort=161
-catering_level=3
+comfort=157
+catering_level=4
+# 35-50 minutes
+min_loading_time=2100
+max_loading_time=3000
+
+liverytype[0]=Sealink-red
+liverytype[1]=Sealink-British-Ferries
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -29,12 +35,21 @@ Constraint[Next][1]=SealinkHorsaAddPiece
 Constraint[Next][2]=SealinkHorsaAddCool
 Constraint[Prev][0]=none
 
-EmptyImage[E]=../images/sealink-horsa.1.0,-20,-30
-EmptyImage[SE]=../images/sealink-horsa.1.1,-20,-30
-EmptyImage[S]=../images/sealink-horsa.1.2,-20,-30
-EmptyImage[SW]=../images/sealink-horsa.1.3,-20,-30
-EmptyImage[W]=../images/sealink-horsa.1.4,-20,-30
-EmptyImage[NW]=../images/sealink-horsa.1.5,-20,-30
-EmptyImage[N]=../images/sealink-horsa.1.6,-20,-30
-EmptyImage[NE]=../images/sealink-horsa.1.7,-20,-30
+EmptyImage[E][0]=../images/sealink-horsa.1.0,-20,-30
+EmptyImage[SE][0]=../images/sealink-horsa.1.1,-20,-30
+EmptyImage[S][0]=../images/sealink-horsa.1.2,-20,-30
+EmptyImage[SW][0]=../images/sealink-horsa.1.3,-20,-30
+EmptyImage[W][0]=../images/sealink-horsa.1.4,-20,-30
+EmptyImage[NW][0]=../images/sealink-horsa.1.5,-20,-30
+EmptyImage[N][0]=../images/sealink-horsa.1.6,-20,-30
+EmptyImage[NE][0]=../images/sealink-horsa.1.7,-20,-30
+
+EmptyImage[E][1]=../images/sealink-horsa-bf.1.0,-20,-30
+EmptyImage[SE][1]=../images/sealink-horsa-bf.1.1,-20,-30
+EmptyImage[S][1]=../images/sealink-horsa-bf.1.2,-20,-30
+EmptyImage[SW][1]=../images/sealink-horsa-bf.1.3,-20,-30
+EmptyImage[W][1]=../images/sealink-horsa-bf.1.4,-20,-30
+EmptyImage[NW][1]=../images/sealink-horsa-bf.1.5,-20,-30
+EmptyImage[N][1]=../images/sealink-horsa-bf.1.6,-20,-30
+EmptyImage[NE][1]=../images/sealink-horsa-bf.1.7,-20,-30
 ---

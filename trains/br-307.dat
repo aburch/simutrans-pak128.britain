@@ -26,7 +26,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=87
+comfort=77
 way_constraint_permissive[1]=1
 
 Constraint[Prev][0]=BR-307(rear)
@@ -74,7 +74,7 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=45
-comfort=87
+comfort=77
 
 Constraint[Prev][0]=BR-307(centre2)
 
@@ -122,7 +122,7 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=45
-comfort=87
+comfort=77
 
 Constraint[Prev][0]=BR-307(front)
 
@@ -168,7 +168,7 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=45
-comfort=87
+comfort=77
 
 Constraint[Prev][0]=BR-307(centre1)
 

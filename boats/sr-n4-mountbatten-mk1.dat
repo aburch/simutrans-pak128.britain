@@ -11,25 +11,71 @@ freight=Passagiere
 payload=250
 weight=165
 length=10
-cost=40000
-runningcost=9
+cost=117000000
+# Hovercraft are expensive on fuel: see http://www.youtube.com/watch?v=Cyq0M4WhW9s
+runningcost=9800
 intro_year=1968
-intro_month=1
+intro_month=7
 
 retire_year=1990
 retire_month=1
 
-comfort=129
-catering_level=2
+comfort=87
+# Hovercraft loading time: approx. 15 mins:
+# http://www.theyworkforyou.com/debates/?id=1986-06-05a.1100.0#g1124.0
+min_loading_time=900
+max_loading_time=1020
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/sr-n4-mountbatten-mk1-seaspeed.1.0
-EmptyImage[SE]=./images/sr-n4-mountbatten-mk1-seaspeed.1.1
-EmptyImage[S]=./images/sr-n4-mountbatten-mk1-seaspeed.1.2
-EmptyImage[SW]=./images/sr-n4-mountbatten-mk1-seaspeed.1.3
-EmptyImage[W]=./images/sr-n4-mountbatten-mk1-seaspeed.1.4
-EmptyImage[NW]=./images/sr-n4-mountbatten-mk1-seaspeed.1.5
-EmptyImage[N]=./images/sr-n4-mountbatten-mk1-seaspeed.1.6
-EmptyImage[NE]=./images/sr-n4-mountbatten-mk1-seaspeed.1.7
+liverytype[0]=Hoverlloyd-Standard
+liverytype[1]=Seaspeed-early
+liverytype[2]=Seaspeed-late
+liverytype[3]=Hoverspeed-early
+liverytype[4]=Hoverspeed-late
+
+EmptyImage[E][0]=./images/sr-n4-mountbatten-mk1-hoverlloyd.1.0
+EmptyImage[SE][0]=./images/sr-n4-mountbatten-mk1-hoverlloyd.1.1
+EmptyImage[S][0]=./images/sr-n4-mountbatten-mk1-hoverlloyd.1.2
+EmptyImage[SW][0]=./images/sr-n4-mountbatten-mk1-hoverlloyd.1.3
+EmptyImage[W][0]=./images/sr-n4-mountbatten-mk1-hoverlloyd.1.4
+EmptyImage[NW][0]=./images/sr-n4-mountbatten-mk1-hoverlloyd.1.5
+EmptyImage[N][0]=./images/sr-n4-mountbatten-mk1-hoverlloyd.1.6
+EmptyImage[NE][0]=./images/sr-n4-mountbatten-mk1-hoverlloyd.1.7
+
+EmptyImage[E][1]=./images/sr-n4-mountbatten-mk1-seaspeed.1.0
+EmptyImage[SE][1]=./images/sr-n4-mountbatten-mk1-seaspeed.1.1
+EmptyImage[S][1]=./images/sr-n4-mountbatten-mk1-seaspeed.1.2
+EmptyImage[SW][1]=./images/sr-n4-mountbatten-mk1-seaspeed.1.3
+EmptyImage[W][1]=./images/sr-n4-mountbatten-mk1-seaspeed.1.4
+EmptyImage[NW][1]=./images/sr-n4-mountbatten-mk1-seaspeed.1.5
+EmptyImage[N][1]=./images/sr-n4-mountbatten-mk1-seaspeed.1.6
+EmptyImage[NE][1]=./images/sr-n4-mountbatten-mk1-seaspeed.1.7
+
+EmptyImage[E][2]=./images/sr-n4-mountbatten-mk1-seaspeed2.1.0
+EmptyImage[SE][2]=./images/sr-n4-mountbatten-mk1-seaspeed2.1.1
+EmptyImage[S][2]=./images/sr-n4-mountbatten-mk1-seaspeed2.1.2
+EmptyImage[SW][2]=./images/sr-n4-mountbatten-mk1-seaspeed2.1.3
+EmptyImage[W][2]=./images/sr-n4-mountbatten-mk1-seaspeed2.1.4
+EmptyImage[NW][2]=./images/sr-n4-mountbatten-mk1-seaspeed2.1.5
+EmptyImage[N][2]=./images/sr-n4-mountbatten-mk1-seaspeed2.1.6
+EmptyImage[NE][2]=./images/sr-n4-mountbatten-mk1-seaspeed2.1.7
+
+EmptyImage[E][3]=./images/sr-n4-mountbatten-mk1-hoverspeed.1.0
+EmptyImage[SE][3]=./images/sr-n4-mountbatten-mk1-hoverspeed.1.1
+EmptyImage[S][3]=./images/sr-n4-mountbatten-mk1-hoverspeed.1.2
+EmptyImage[SW][3]=./images/sr-n4-mountbatten-mk1-hoverspeed.1.3
+EmptyImage[W][3]=./images/sr-n4-mountbatten-mk1-hoverspeed.1.4
+EmptyImage[NW][3]=./images/sr-n4-mountbatten-mk1-hoverspeed.1.5
+EmptyImage[N][3]=./images/sr-n4-mountbatten-mk1-hoverspeed.1.6
+EmptyImage[NE][3]=./images/sr-n4-mountbatten-mk1-hoverspeed.1.7
+
+EmptyImage[E][4]=./images/sr-n4-mountbatten-mk1-hoverspeed2.1.0
+EmptyImage[SE][4]=./images/sr-n4-mountbatten-mk1-hoverspeed2.1.1
+EmptyImage[S][4]=./images/sr-n4-mountbatten-mk1-hoverspeed2.1.2
+EmptyImage[SW][4]=./images/sr-n4-mountbatten-mk1-hoverspeed2.1.3
+EmptyImage[W][4]=./images/sr-n4-mountbatten-mk1-hoverspeed2.1.4
+EmptyImage[NW][4]=./images/sr-n4-mountbatten-mk1-hoverspeed2.1.5
+EmptyImage[N][4]=./images/sr-n4-mountbatten-mk1-hoverspeed2.1.6
+EmptyImage[NE][4]=./images/sr-n4-mountbatten-mk1-hoverspeed2.1.7

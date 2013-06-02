@@ -11,12 +11,16 @@ freight=Kohle
 payload=75
 weight=30
 length=6
-cost=20000
-runningcost=2
+cost=11000000
+runningcost=330
 intro_year=1856
-intro_month=1
+intro_month=5
 retire_year=1950
 retire_month=6
+
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -100,9 +104,13 @@ length=6
 cost=20000
 runningcost=2
 intro_year=1856
-intro_month=1
+intro_month=5
 retire_year=1950
 retire_month=6
+
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -156,9 +164,13 @@ length=6
 cost=20000
 runningcost=2
 intro_year=1856
-intro_month=1
+intro_month=5
 retire_year=1950
 retire_month=6
+
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -200,9 +212,13 @@ length=6
 cost=20000
 runningcost=2
 intro_year=1856
-intro_month=1
+intro_month=5
 retire_year=1950
 retire_month=6
+
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -244,9 +260,13 @@ length=6
 cost=20000
 runningcost=2
 intro_year=1856
-intro_month=1
+intro_month=5
 retire_year=1950
 retire_month=6
+
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -288,9 +308,13 @@ length=6
 cost=20000
 runningcost=2
 intro_year=1856
-intro_month=1
+intro_month=5
 retire_year=1950
 retire_month=6
+
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

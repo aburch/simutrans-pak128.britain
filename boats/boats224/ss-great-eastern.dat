@@ -6,7 +6,7 @@ engine_type=steam
 smoke=Steam
 speed=26
 power=5400
-##gear=1200
+#gear=1200
 freight=Passagiere
 payload=4000
 weight=3000
@@ -18,10 +18,11 @@ intro_month=1
 retire_year=1889
 retire_month=7
 
-comfort=248
+comfort=225
 catering_level=5
-min_loading_time=1800
-max_loading_time=3600
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=SSGreatEasternAddMail
 Constraint[Prev][0]=none

@@ -11,12 +11,16 @@ freight=vegetables
 payload=800
 weight=320
 length=16
-cost=200000
-runningcost=200
+cost=22000000
+runningcost=500
 intro_year=1912
-intro_month=1
+intro_month=2
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -43,12 +47,16 @@ freight=fish
 payload=800
 weight=320
 length=16
-cost=200000
-runningcost=200
+cost=22000000
+runningcost=500
 intro_year=1912
-intro_month=1
+intro_month=2
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -76,12 +84,16 @@ freight=Oel
 payload=800
 weight=320
 length=16
-cost=200000
-runningcost=200
+cost=22000000
+runningcost=500
 intro_year=1912
-intro_month=1
+intro_month=2
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -109,12 +121,16 @@ freight=livestock
 payload=800
 weight=320
 length=16
-cost=200000
-runningcost=200
+cost=22000000
+runningcost=500
 intro_year=1912
-intro_month=1
+intro_month=2
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -142,12 +158,16 @@ freight=Autos
 payload=800
 weight=320
 length=16
-cost=200000
-runningcost=200
+cost=22000000
+runningcost=500
 intro_year=1912
-intro_month=1
+intro_month=2
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -176,12 +196,16 @@ freight=Kohle
 payload=800
 weight=320
 length=16
-cost=200000
-runningcost=200
+cost=22000000
+runningcost=500
 intro_year=1912
-intro_month=1
+intro_month=2
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -260,12 +284,16 @@ freight=Bretter
 payload=800
 weight=320
 length=16
-cost=200000
-runningcost=200
+cost=22000000
+runningcost=500
 intro_year=1912
-intro_month=1
+intro_month=2
 retire_year=1961
 retire_month=6
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

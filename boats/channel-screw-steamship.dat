@@ -9,17 +9,20 @@ power=3550
 #gear=400
 weight=3000
 length=10
-cost=80000
+cost=18900000
 freight=Passagiere
 payload=500
-runningcost=2
-intro_year=1880
-intro_month=1
+runningcost=460
+intro_year=1886
+intro_month=2
 retire_year=1903
-retire_month=1
+retire_month=4
 
-comfort=124
+comfort=122
 catering_level=4
+# 40-60 minutes
+min_loading_time=2400
+max_loading_time=3600
 
 way_constraint_prohibitive[6]=6 # Large ship
 

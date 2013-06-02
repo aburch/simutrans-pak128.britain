@@ -5,7 +5,7 @@ waytype=water
 engine_type=sail
 speed=15
 power=250
-##gear=1200
+#gear=1200
 freight=FreshFish
 payload=15
 weight=15
@@ -16,6 +16,10 @@ intro_year=1852
 intro_month=1
 retire_year=1945
 intro_month=1
+
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

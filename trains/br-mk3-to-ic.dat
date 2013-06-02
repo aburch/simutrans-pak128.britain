@@ -25,7 +25,7 @@ bidirectional=1
 
 min_loading_time=30
 max_loading_time=160
-comfort=170
+comfort=150
 
 Constraint[Next][0]=BR-Mk3-TSO
 Constraint[Next][1]=BR-Mk3-TRB
@@ -168,8 +168,7 @@ bidirectional=1
 
 min_loading_time=30
 max_loading_time=160
-comfort=170
-
+comfort=150
 
 Constraint[Next][0]=BR-Mk3a-TSO
 Constraint[Next][1]=BR-Mk3-DVT

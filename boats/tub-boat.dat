@@ -14,6 +14,10 @@ intro_month=1
 retire_year=1918	
 retire_month=3
 
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1800
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[3]=3 # Tub
@@ -109,6 +113,10 @@ intro_month=1
 retire_year=1918	
 retire_month=3
 
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1800
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[3]=3 # Tub
@@ -174,6 +182,10 @@ intro_month=1
 retire_year=1918	
 retire_month=3
 
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1800
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[3]=3 # Tub
@@ -227,6 +239,10 @@ intro_year=1761
 intro_month=1
 retire_year=1918	
 retire_month=3
+
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1800
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge

@@ -7,14 +7,14 @@ power=80
 #gear=1200
 copyright=Jamespetts
 intro_year=1950
-intro_month=1
+intro_month=4
 
 waytype=water
 length=8
 
 weight=10
-cost=100000
-runningcost=15
+cost=652500
+runningcost=5
 sound=-1
 
 way_constraint_permissive[4]=4  # Waterway

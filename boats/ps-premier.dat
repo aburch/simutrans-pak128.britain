@@ -11,14 +11,17 @@ freight=Passagiere
 payload=400
 weight=200
 length=8
-cost=50000
-runningcost=9
+cost=13970000
+runningcost=780
 intro_year=1846
-intro_month=1
-retire_year=1860
-retire_month=1
+intro_month=9
+retire_year=1862
+retire_month=4
 
-comfort=72
+comfort=40
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1400
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

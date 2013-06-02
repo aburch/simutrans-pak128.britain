@@ -7,6 +7,8 @@ retire_year=1900
 retire_month=6
 level=3  
 pax_level=4
+passenger_demand = 60
+mail_demand = 2
 needs_ground=1
 climates=rocky,tundra,temperate,desert,mediterran,arctic,tropic
 Location=City
@@ -133,7 +135,6 @@ BackImage[3][2][0][1][0][1]=gasworks.9.10
 BackImage[3][2][1][0][0][1]=gasworks.10.0
 BackImage[3][2][2][0][0][1]=gasworks.10.1
 
-
 ------
 
 Obj=factory
@@ -145,6 +146,8 @@ retire_year=1940
 retire_month=4
 level=3  
 pax_level=4
+passenger_demand = 80
+mail_demand = 2
 needs_ground=1
 climates=rocky,tundra,temperate,desert,mediterran,arctic,tropic
 Location=City

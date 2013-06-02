@@ -14,8 +14,11 @@ intro_month=1
 retire_year=1918
 retire_month=1
 
-comfort=120
+comfort=60
 catering_level=2
+# 2-3 minutes
+min_loading_time=120
+max_loading_time=180
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge

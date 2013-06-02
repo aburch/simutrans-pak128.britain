@@ -1,3 +1,4 @@
+# http://www.boats.com/boat-details/INCAT-Wave-Piercing-Catamaran-Ferry/122795431
 obj=vehicle
 name=Incat74m
 copyright=James
@@ -11,13 +12,16 @@ freight=Passagiere
 payload=450
 weight=300
 length=12
-cost=80000
-runningcost=2
+cost=125000000
+runningcost=780
 intro_year=1990
-intro_month=1
+intro_month=4
 
-comfort=143
+comfort=150
 catering_level=3
+# 30-40 minutes
+min_loading_time=1800
+max_loading_time=2400
 
 Constraint[Next][0]=Incat74m(AddMail)
 Constraint[Prev][0]=none
@@ -40,7 +44,7 @@ weight=1
 freight=Post
 payload=1000
 intro_year=1990
-intro_month=1
+intro_month=4
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=Incat74m

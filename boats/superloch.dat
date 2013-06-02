@@ -11,12 +11,15 @@ freight=Passagiere
 payload=250
 weight=230
 length=21
-cost=100000
-runningcost=100
+cost=114000000
+runningcost=3500
 intro_year=2007
 intro_month=6
 
-comfort=129
+comfort=90
+# 5-10 minutes
+min_loading_time=300
+max_loading_time=600
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

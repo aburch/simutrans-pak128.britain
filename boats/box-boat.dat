@@ -3,7 +3,7 @@ name=BoxBoatBulk
 copyright=Jamespetts
 waytype=water
 freight=Kohle
-payload=25
+payload=17
 speed=7
 weight=1
 length=3
@@ -13,6 +13,10 @@ intro_year=1750
 intro_month=1
 retire_year=1761	
 retire_month=3
+
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1800
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
@@ -88,7 +92,7 @@ name=BoxBoatLong
 copyright=Jamespetts
 waytype=water
 freight=Bretter
-payload=25
+payload=17
 speed=7
 weight=1
 length=3
@@ -98,6 +102,10 @@ intro_year=1750
 intro_month=1
 retire_year=1761	
 retire_month=3
+
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1800
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
@@ -143,7 +151,7 @@ name=BoxBoatPiece
 copyright=Jamespetts
 waytype=water
 freight=vegetables
-payload=25
+payload=17
 speed=7
 weight=1
 length=3
@@ -153,6 +161,10 @@ intro_year=1750
 intro_month=1
 retire_year=1761	
 retire_month=3
+
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1800
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
@@ -187,7 +199,7 @@ name=BoxBoatCool
 copyright=Jamespetts
 waytype=water
 freight=fish
-payload=25
+payload=17
 speed=7
 weight=1
 length=3
@@ -197,6 +209,10 @@ intro_year=1750
 intro_month=1
 retire_year=1761	
 retire_month=3
+
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1800
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge

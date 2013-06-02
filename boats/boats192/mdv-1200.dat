@@ -11,12 +11,15 @@ freight=Passagiere
 payload=710
 weight=1000
 length=12
-cost=80000
-runningcost=2
+cost=175000000
+runningcost=885
 intro_year=1996
-intro_month=1
+intro_month=6
 
-comfort=138
+comfort=85
+# 30-40 minutes
+min_loading_time=1800
+max_loading_time=2400
 
 Constraint[Next][0]=MDV-1200(AddMail)
 Constraint[Prev][0]=none
@@ -39,7 +42,7 @@ weight=1
 freight=Post
 payload=1500
 intro_year=1996
-intro_month=1
+intro_month=6
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=MDV-1200

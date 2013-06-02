@@ -12,7 +12,11 @@ intro_month=1
 retire_year=1830
 retire_month=9
 
-comfort=150
+comfort=105
+catering_level=4
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 length=3
 
@@ -68,6 +72,9 @@ retire_year=1830
 retire_month=9
 
 length=3
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -121,6 +128,9 @@ retire_year=1830
 retire_month=9
 
 length=3
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -215,6 +225,9 @@ retire_year=1830
 retire_month=9
 
 length=3
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -279,6 +292,9 @@ retire_year=1830
 retire_month=9
 
 length=3
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -332,6 +348,9 @@ retire_year=1830
 retire_month=9
 
 length=3
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -385,6 +404,9 @@ retire_year=1830
 retire_month=9
 
 length=3
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 
 way_constraint_prohibitive[6]=6 # Large ship

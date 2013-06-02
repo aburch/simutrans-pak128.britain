@@ -11,16 +11,21 @@ freight=Passagiere
 payload=1200
 weight=400
 length=12
-cost=200000
-runningcost=200
+cost=85000000
+# Running cost £3-10-0  per day, half that of steam ships of the era:
+# http://www.flickr.com/photos/scottishmaritimemuseum/4834160312/in/faves-24718842@N04/
+runningcost=450
 intro_year=1931
-intro_month=1
-#retire_year=1960
-#retire_month=1
+intro_month=3
+#retire_year=1950
+#retire_month=7
 
 # Comfort adversely affected by vibrations
-comfort=124
+comfort=99
 catering_level=2
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1400
 
 way_constraint_prohibitive[6]=6 # Large ship
 

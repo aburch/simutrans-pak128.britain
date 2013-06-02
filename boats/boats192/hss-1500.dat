@@ -11,14 +11,18 @@ freight=Passagiere
 payload=1500
 weight=1000
 length=12
-cost=80000
-runningcost=2
+cost=188200000
+runningcost=950
 intro_year=1995
-intro_month=1
+intro_month=10
 
-comfort=129
-catering_level=3
+comfort=158
+catering_level=4
 
+# http://en.wikipedia.org/wiki/HSS_1500 - loading times 30 minutes or less (which is unusually low)
+# 25-30 minutes
+min_loading_time=1500
+max_loading_time=1800
 
 Constraint[Next][0]=HSS-1500(AddMail)
 Constraint[Prev][0]=none
@@ -41,7 +45,7 @@ weight=1
 freight=Post
 payload=3000
 intro_year=1995
-intro_month=1
+intro_month=10
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=HSS-1500

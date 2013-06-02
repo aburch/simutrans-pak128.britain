@@ -11,15 +11,18 @@ freight=Passagiere
 payload=1936
 weight=550
 length=12
-cost=200000
-runningcost=200
+cost=74000000
+runningcost=1200
 intro_year=1901
-intro_month=1
+intro_month=5
 retire_year=1933
-retire_month=1
+retire_month=9
 
-comfort=134
+comfort=115
 catering_level=3
+# 20-30 minutes
+min_loading_time=1200
+max_loading_time=1400
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

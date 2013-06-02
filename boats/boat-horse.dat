@@ -2,15 +2,20 @@ obj=vehicle
 name=BoatHorsesSingle
 engine_type=bio
 speed=7
-power=10
+power=23
 #gear=1200
 copyright=James
 intro_year=1750
 intro_month=1
 retire_year=1918
-retire_month=1
+retire_month=12
 waytype=water
 length=8
+
+weight=1
+cost=50000
+runningcost=7
+sound=-1
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
@@ -66,12 +71,6 @@ Constraint[Next][42]=MarketNarrowboat
 Constraint[Next][43]=PacketBarge
 Constraint[Next][44]=none
 
-
-weight=1
-cost=50000
-runningcost=7
-sound=-1
-
 EmptyImage[E]=./images/boat-horse-single.0.0
 EmptyImage[SE]=./images/boat-horse-single.0.1
 EmptyImage[S]=./images/boat-horse-single.0.2
@@ -85,13 +84,13 @@ obj=vehicle
 name=BoatHorsesFly
 engine_type=bio
 speed=18
-power=20
+power=46
 #gear=1200
 copyright=James
 intro_year=1835
 intro_month=1
-retire_year=1918
-retire_month=1
+retire_year=1869
+retire_month=11
 waytype=water
 length=8
 

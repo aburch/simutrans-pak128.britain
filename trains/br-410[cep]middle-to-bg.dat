@@ -9,7 +9,8 @@ retire_year=1988
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=21
+payload=64
+overcrowded_capacity=19
 length=11
 
 weight=34
@@ -24,7 +25,7 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=195
+comfort=137
 
 Constraint[Prev][0]=BR-410[CEP]Brake(Blue-Grey)
 Constraint[Next][0]=BR-410[CEP]Rear(Blue-Grey)
@@ -51,8 +52,8 @@ retire_year=1988
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=64
-overcrowded_capacity=21
+payload=21
+overcrowded_capacity=6
 length=11
 
 weight=36
@@ -66,7 +67,7 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=97
+comfort=137
 catering_level=3
 
 Constraint[Prev][0]=BR-410[CEP]Brake(Blue-Grey)

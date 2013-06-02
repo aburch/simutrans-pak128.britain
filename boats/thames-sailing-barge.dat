@@ -5,7 +5,7 @@ waytype=water
 engine_type=sail
 speed=15
 power=175
-##gear=1200
+#gear=1200
 freight=Kohle
 payload=75
 weight=30
@@ -16,6 +16,10 @@ intro_year=1810
 intro_month=1
 retire_year=1950
 retire_month=6
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -91,7 +95,7 @@ waytype=water
 engine_type=sail
 speed=15
 power=175
-##gear=1200
+#gear=1200
 freight=Bretter
 payload=75
 weight=30
@@ -102,6 +106,10 @@ intro_year=1810
 intro_month=1
 retire_year=1950
 retire_month=6
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -148,7 +156,7 @@ waytype=water
 engine_type=sail
 speed=15
 power=175
-##gear=1200
+#gear=1200
 freight=vegetables
 payload=75
 weight=30
@@ -159,6 +167,10 @@ intro_year=1810
 intro_month=1
 retire_year=1950
 retire_month=6
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -192,7 +204,7 @@ waytype=water
 engine_type=sail
 speed=15
 power=175
-##gear=1200
+#gear=1200
 freight=meat
 payload=75
 weight=30
@@ -203,6 +215,10 @@ intro_year=1810
 intro_month=1
 retire_year=1950
 retire_month=6
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -236,7 +252,7 @@ waytype=water
 engine_type=sail
 speed=15
 power=175
-##gear=1200
+#gear=1200
 freight=livestock
 payload=75
 weight=30
@@ -247,6 +263,10 @@ intro_year=1810
 intro_month=1
 retire_year=1950
 retire_month=6
+
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

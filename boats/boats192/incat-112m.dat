@@ -1,3 +1,4 @@
+# http://www.irishseashipping.com/features/manannannorman/manannannorman.htm
 obj=vehicle
 name=Incat112m
 copyright=James
@@ -11,13 +12,16 @@ freight=Passagiere
 payload=1200
 weight=750
 length=12
-cost=80000
-runningcost=2
+cost=162500000
+runningcost=870
 intro_year=2009
-intro_month=1
+intro_month=2
 
-comfort=146
-catering_level=3
+comfort=156
+catering_level=4
+# 30-40 minutes
+min_loading_time=1800
+max_loading_time=2400
 
 Constraint[Next][0]=Incat112m(AddMail)
 Constraint[Prev][0]=none
