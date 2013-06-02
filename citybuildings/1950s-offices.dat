@@ -1,6 +1,6 @@
 # 2-story Shops & Offices. not an industry, but uses some common images with the shops
 Obj=building
-Name=WL_IND_50_01
+Name=IND_WL_1950_01_10
 copyright=Kieron & WLindley
 type=com
 chance=50
@@ -16,7 +16,7 @@ BackImage[3][0][0][0][0]=../industry/1950shops.2.3
 --
 # 4-story Shops & Offices. not an industry, but uses some common images with the Department store
 Obj=building
-Name=WL_IND_50_02
+Name=IND_WL_1950_02_15
 copyright=Kieron & WLindley
 type=com
 chance=50
@@ -32,7 +32,7 @@ BackImage[3][0][0][0][0]=../industry/1950shops.1.3
 --
 # 4-story Shops & Offices. not an industry, but uses some common images with the Department store
 Obj=building
-Name=WL_IND_50_03
+Name=IND_WL_1950_03_20
 copyright=Kieron & WLindley
 type=com
 chance=50
