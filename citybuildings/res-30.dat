@@ -71,7 +71,7 @@ intro_year=1926
 retire_year=1952
 needs_ground=1
 dims=1,1,4
-clusters=5
+clusters=5,20
 
 BackImage[2][0][0][0][0][0]=images/res/30-semi-detatched-house-2f.0.0
 BackImage[1][0][0][0][0][0]=images/res/30-semi-detatched-house-2f.0.1
@@ -92,7 +92,7 @@ intro_year=1927
 retire_year=1954
 needs_ground=1
 dims=1,1,4
-clusters=5
+clusters=5,20
 
 BackImage[2][0][0][0][0][0]=images/res/30-semi-detatched-house-2f-b.0.0
 BackImage[1][0][0][0][0][0]=images/res/30-semi-detatched-house-2f-b.0.1
@@ -113,7 +113,7 @@ intro_year=1928
 retire_year=1954
 needs_ground=1
 dims=1,1,4
-clusters=8,5
+clusters=8,5,20
 
 BackImage[2][0][0][0][0][0]=images/res/30-flats-3f.0.0
 BackImage[1][0][0][0][0][0]=images/res/30-flats-3f.0.1
@@ -134,7 +134,7 @@ intro_year=1929
 retire_year=1955
 needs_ground=1
 dims=1,1,4
-clusters=8,5
+clusters=8,5,20
 
 BackImage[2][0][0][0][0][0]=images/res/30-flats-4f.0.0
 BackImage[1][0][0][0][0][0]=images/res/30-flats-4f.0.1
