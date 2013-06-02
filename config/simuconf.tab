@@ -47,7 +47,7 @@ station_coverage = 12
 # Size of the catchment area of a station/stop in tiles.
 # This is for factories only.
 # Default: 3
-station_coverage_size_factories = 3
+station_coverage_factories = 3
 
 # The rate at which towns grow depends on their size. There are three different size categories:
 # "Villages", "Cities" and "Capitals". The following settings define the thresholds (in numbers 
