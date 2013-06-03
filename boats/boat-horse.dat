@@ -2,8 +2,10 @@ obj=vehicle
 name=BoatHorsesSingle
 engine_type=bio
 speed=7
+# Power should be low (terrible acceleration)
 power=1
-tractive_effort=30
+# Tractive effort should be very high (huge pulling power)
+tractive_effort=60
 #gear=1200
 copyright=James
 intro_year=1750
