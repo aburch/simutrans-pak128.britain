@@ -21,8 +21,8 @@ Constraint[Prev][1]=RoadHorsesDouble
 
 Constraint[Next][0]=none
 
-min_loading_time=300
-max_loading_time=900
+min_loading_time=30
+max_loading_time=90
 
 increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
@@ -106,8 +106,8 @@ intro_month=1
 retire_year=1905
 retire_month=3
 
-min_loading_time=300
-max_loading_time=900
+min_loading_time=30
+max_loading_time=90
 
 increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
@@ -166,8 +166,8 @@ intro_month=1
 retire_year=1905
 retire_month=3
 
-min_loading_time=300
-max_loading_time=900
+min_loading_time=30
+max_loading_time=90
 
 increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
@@ -215,8 +215,8 @@ intro_month=1
 retire_year=1905
 retire_month=3
 
-min_loading_time=300
-max_loading_time=900
+min_loading_time=30
+max_loading_time=90
 
 increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
@@ -266,6 +266,8 @@ retire_month=11
 min_loading_time=30
 max_loading_time=90
 
+upgrade[0]=CartMailNew
+
 increase_maintenance_after_years=127
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
@@ -298,13 +300,16 @@ name=CartMailNew
 copyright=James
 waytype=road
 freight=Post
-payload=150
+payload=50
 speed=12
 weight=1
 # Necessary to prohibit this vehicle from bridleways
 axle_load=1
 length=3
 cost=8750
+# Just for fun, slightly cheaper to upgrade
+# (just improve the axles for higher speed)
+upgrade_price=8000
 runningcost=3
 intro_year=1825
 intro_month=6
