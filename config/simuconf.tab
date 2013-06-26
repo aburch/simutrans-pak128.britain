@@ -174,10 +174,10 @@ max_longdistance_tolerance = 5400
 # the actual distance 500, and the max_bonus_multiplier_percent 200, the speed bonus rating
 # would be increased by half of the multiplier, or 150%.
 
-min_bonus_max_distance = 4
-median_bonus_distance = 75
-max_bonus_min_distance = 250
-max_bonus_multiplier_percent = 300
+min_bonus_max_distance = 1
+median_bonus_distance = 160
+max_bonus_min_distance = 1000
+max_bonus_multiplier_percent = 50
 
 # meters_per_tile represents the length of each tile in meters. 
 # The default is 250.
