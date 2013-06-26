@@ -265,7 +265,7 @@ max_discomfort_penalty_percent=97
 # settings do not affect that: these settings affect the revenue earned from the catering itself: i.e., by selling food
 # and drink. 
 #
-# catering_min_minutes is the shortest journey time that will provide any catering revenue. Anything below that, and 
+# catering_min_minutes is the shortest journey time that will provide any catering revenue. At any value below that, 
 # passengers will not bother to buy any food or drink at all. 
 #
 # catering_level1_minutes is the journey time at which any convoy with a catering level of 1 or higher will earn, per

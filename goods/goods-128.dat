@@ -78,8 +78,8 @@
 #	IV			3.60d				3.15d				2.50d				2.20d
 #	V			4.30d				3.70d				3.25d				2.50d
 #
-# Note that, for the time being, the original values are retained for backwards compatibility. They are over-written by the new system
-# on the fare-stages branch. 
+# Note that, for the time being, the original values are retained for backwards compatibility and reference. They are 
+# over-written by the current system.
 
 ### UNIQUE GOODS TYPES ###
 # Passengers
@@ -170,7 +170,7 @@ to_distance[3]=0
 speed_bonus=15
 weight_per_unit=1800
 -----------------------
-# Fish
+# Fresh fish (caught from the sea)
 # Class: not given, but treat as III
 obj=good
 name=FreshFish
@@ -179,13 +179,13 @@ catg=0
 #
 value=133
 #
-value[0]=155
+value[0]=110
 to_distance[0]=32
-value[1]=133
+value[1]=93
 to_distance[1]=48
-value[2]=100
+value[2]=70
 to_distance[2]=80
-value[3]=90
+value[3]=50
 to_distance[3]=0
 speed_bonus=15
 weight_per_unit=1000
@@ -875,7 +875,7 @@ speed_bonus=15
 weight_per_unit=410
 -----------------------
 # Fish
-# Class: not given, but treat as II
+# Class: not given, but treat as I
 obj=good
 name=fish
 metric=paletten
@@ -884,15 +884,14 @@ catg=4
 #value=69
 value=47
 #
-value[0]=54
+value[0]=45
 to_distance[0]=32
-value[1]=47
+value[1]=38
 to_distance[1]=48
-value[2]=37
+value[2]=29
 to_distance[2]=80
-value[3]=31
+value[3]=21
 to_distance[3]=0
-speed_bonus=15
 speed_bonus=15
 weight_per_unit=410
 -----------------------
