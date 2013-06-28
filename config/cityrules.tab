@@ -349,9 +349,9 @@ road_18.chance = -4
 
 ### Cutting diagonals
 ##
-# . . . H . . .
-# . . S H S S .
-# . S S H S s s
+# . . . . . . .
+# . . S . S S .
+# . S S . S s s
 # H H H n s s S
 # . S S s s S .
 # . S s s S . .
@@ -361,18 +361,54 @@ road_19 = ....... ..S.SS. .SS.Sss HHHnssS .SSssS. .SssS.. ..s....
 road_19.chance = -4
 road_20 = ....... .SS.S.. ssS.SS. SssnHHH .SssSS. ..SssS. ....s..
 road_20.chance = -4
+
+
+### Cutting diagonals
+##
+# . . . H . . .
+# . . S H S S .
+# . S S H S s s
+# . . . n s s S
+# . S S s s S .
+# . S s s S . .
+# . . s . . . .
+#
 road_21 = ...H... ..SHSS. .SSHSss ...nssS .SSssS. .SssS.. ..s....
 road_21.chance = -4
 road_22 = ...H... .SSHS.. ssSHSS. Sssn... .SssSS. ..SssS. ....s..
 road_22.chance = -4
+
+### Joining diagonal to straight road.
+## These ALWAYS happen.  Chance -8 means guaranteed rule.
+##
+# . . . . . . .
+# . . . . . . .
+# . . . . . . .
+# s s s n s s .
+# . S S s s S .
+# . S s s S . .
+# . . s . . . .
 road_23 = ....... ....... ....... sssnss. .SSssS. .SssS.. ..s....
 road_23.chance = -8
 road_24 = ....... ....... ....... .ssnsss .SssSS. ..SssS. ....s..
 road_24.chance = -8
+
+### Vaguely wandering off from a diagonal toward a straight road.
+## These ALWAYS happen.  Chance -8 means guaranteed rule.
+##
+# . . . s . . .
+# . . . . . . .
+# . . . . . . .
+# . . . n s s .
+# . S S s s S .
+# . S s s S . .
+# . . s . . . .
 road_25 = ...s... ....... ....... ...nss. .SSssS. .SssS.. ..s....
 road_25.chance = -8
 road_26 = ...s... ....... ....... .ssn... .SssSS. ..SssS. ....s..
 road_26.chance = -8
+
+### Dead-end extension from a diagonal.
 ##
 # . . . . . . .
 # . . . S . . .
