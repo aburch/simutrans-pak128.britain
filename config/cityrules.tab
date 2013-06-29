@@ -196,6 +196,21 @@ house_13.chance = -2
 house_14 = ....... ....... ....... ...n... ...st.. ....... .......
 house_14.chance = -2
 
+### House on an extremely long straightaway
+##
+# . . . . . . .
+# . . . . . . .
+# S S S S S S S
+# S S S n h h h
+# s s s s s s s
+# . . . . . . .
+# . . . . . . .
+#
+house_15 = ....... ....... SSSSSSS SSSnhhh sssssss ....... .......
+house_15.chance = -2
+house_16 = ....... ....... SSSSSSS hhhnSSS sssssss ....... .......
+house_16.chance = -2
+
 
 #### R O A D S ####
 
@@ -413,14 +428,43 @@ road_28.chance = -4
 ### Filling in behind monuments, factories, City Hall, etc.
 ##
 # . . . . . . .
-# . . . S S S .
-# . . . S S n h
+# . . . . S S .
+# . . . S . . S
 # . s s n n n h
-# . . . S S n h
-# . . . S S S .
+# . . . S . . .
+# . . . . . . .
 # . . . . . . .
 #
-road_29 = ....... ...SSS. ...SSnh .ssnnnh ...SSnh ...SSS. .......
+road_29 = ....... ....SS. ...S..S .ssnnnh ...S... ....... .......
 road_29.chance = -4
+road_30 = ....... .SS.... S..S... hnnnss. ...S... ....... .......
+road_30.chance = -4
+##
+# . . . . . . .
+# . . . . S . .
+# . . . S n S .
+# . s s n n h .
+# . . . S n S .
+# . . . . . . .
+# . . . . . . .
+#
+road_31 = ....... ....S.. ...SnS. .ssnnh. ...SnS. ....... .......
+road_31.chance = -4
+road_32 = ....... ..S.... .SnS... .hnnss. .SnS... ....... .......
+road_32.chance = -4
+
+### Diagonal link.
+# . . . . . . .
+# . . S . . . .
+# . . S S S . .
+# s s s n S . .
+# . . S s s s .
+# . . S S S . .
+# . . . . S . .
+road_33 = ....... .S..... ..SSS.. sssnS.. ..Ssss. ..SSS.. .....S.
+road_33_chance = -4
+road_34 = ....... .....S. ..SSS.. ..Snsss .sssS.. ..SSS.. .S.....
+road_34_chance = -4
+
 
 ### End of file
