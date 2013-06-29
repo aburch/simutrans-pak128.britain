@@ -156,21 +156,21 @@ house_8.chance = -2
 house_9 = ....... ....... ..ShS.. ..SnS.. ..SsS.. ..sss.. .......
 house_9.chance = -2
 
-### House near an end
+### Houses near stops and stations
 ##
 # . . . . . . .
 # . . . . . . .
-# . . S S . . .
-# . . S n . . .
-# . S s S . . .
-# . s s s . . .
 # . . . . . . .
-house_10 = ....... ....... ..SS... ..Sn... .SsS... .sss... .......
+# . . t n . . .
+# . . . s . . .
+# . . . . . . .
+# . . . . . . .
+#
+house_10 = ....... ....... ....... ..tn... ...s... ....... .......
 house_10.chance = -2
-house_11 = ....... ....... ...SS.. ...nS.. ...SsS. ...sss. .......
+house_11 = ....... ....... ....... ...nt.. ...s... ....... .......
 house_11.chance = -2
-
-## House near a stop
+## House near a stop or station
 ##
 # . . . . . . .
 # . . . . . . .
@@ -187,27 +187,14 @@ house_12.chance = -2
 # . . . . . . .
 # . . . . . . .
 # . . . n . . .
-# . s t s . . .
+# . . t s . . .
 # . . . . . . .
 # . . . . . . .
 #
-house_13 = ....... ....... ....... ...n... .sts... ....... .......
+house_13 = ....... ....... ....... ...n... ..ts... ....... .......
 house_13.chance = -2
-house_14 = ....... ....... ....... ...n... ...sts. ....... .......
+house_14 = ....... ....... ....... ...n... ...st.. ....... .......
 house_14.chance = -2
-##
-# . . . . . . .
-# . . . . . . .
-# . . . . . . .
-# . . . n . . .
-# s t s . . . .
-# . . . . . . .
-# . . . . . . .
-#
-house_15 = ....... ....... ....... ...n... sts.... ....... .......
-house_15.chance = -2
-house_16 = ....... ....... ....... ...n... ....sts ....... .......
-house_16.chance = -2
 
 
 #### R O A D S ####
@@ -422,5 +409,18 @@ road_27 = ....... ...S... ..SS.S. .HHnsss ..SSss. ..Sss.. ...s...
 road_27.chance = -4
 road_28 = ....... ...S... .S.SS.. sssnHH. .ssSS.. ..ssS.. ...s...
 road_28.chance = -4
+
+### Filling in behind monuments, factories, City Hall, etc.
+##
+# . . . . . . .
+# . . . S S S .
+# . . . S S n h
+# . s s n n n h
+# . . . S S n h
+# . . . S S S .
+# . . . . . . .
+#
+road_29 = ....... ...SSS. ...SSnh .ssnnnh ...SSnh ...SSS. .......
+road_29.chance = -4
 
 ### End of file
