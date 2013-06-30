@@ -243,6 +243,7 @@
     <None Include="bus\OptareSolo.dat" />
     <None Include="bus\OptareTempoSR.dat" />
     <None Include="bus\parcel-coach.dat" />
+    <None Include="bus\post-boy.dat" />
     <None Include="bus\RHVolvoOlympian.dat" />
     <None Include="bus\scammell-1955-artic.dat" />
     <None Include="bus\scammell-crusader.dat" />
@@ -347,6 +348,8 @@
     <None Include="narrowgauge\wagon-ng-long-sar.dat" />
     <None Include="narrowgauge\wagon-ng-long.dat" />
     <None Include="narrowgauge\wagon-ng-piece-sar.dat" />
+    <None Include="narrowgauge\wagon-ng-tanker-sar.dat" />
+    <None Include="narrowgauge\wagon-ng-tanker.dat" />
     <None Include="narrowgauge\whr-brake.dat" />
     <None Include="narrowgauge\whr-buffet.dat" />
     <None Include="narrowgauge\whr-open.dat" />
