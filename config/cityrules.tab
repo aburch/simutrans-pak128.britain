@@ -24,11 +24,13 @@ industry_increase_every = 7500
 # Note: the rougher the desired landscape, the lower that this number should be.
 # Note: this value is automatically reduced by a factor of three if quick_city_growth
 # is enabled in simuconf.tab.
-renovation_percentage = 53
+#
+# With low minimum_building_density, must raise renovation_percentage to avoid sprawl
+renovation_percentage = 60
 
 # cities will not grow further along existing roads, if the buildings density is lower (in percent)
 # It's surprisingly easy to get stuck at 21 with "poorly located" cities full of geographical obstacles
-minimum_building_density = 21
+minimum_building_density = 20
 
 # When a city tries to extend a road along a bridge, it will only succeed this percent of the time
 # (encouraging development in the other directions first)
