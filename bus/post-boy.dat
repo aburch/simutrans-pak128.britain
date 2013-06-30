@@ -23,6 +23,10 @@ sound=-1
 min_loading_time=20
 max_loading_time=40
 
+Constraint[next][0]=none
+
+Constraint[prev][0]=none
+
 EmptyImage[E]=./images/post-boy.1.4
 EmptyImage[SE]=./images/post-boy.1.5
 EmptyImage[S]=./images/post-boy.1.6
