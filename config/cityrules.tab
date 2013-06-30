@@ -82,18 +82,31 @@ ind_near_res = -8
 #### H O U S E S ####
 
 ### House at the corner
+## (for the diagonal variations see below)
 ##
 # . . . . . . .
 # . . . . . . .
 # . . . . . . .
-# . . . n s . .
+# . . . n s S .
 # . . . s s . .
-# . . . . . . .
+# . . . S . . .
 # . . . . . . .
 #
-house_1 = ....... ....... ....... ...ns.. ...ss.. ....... .......
-house_1.chance = -2
-house_2 = ....... ....... ....... ..sn... ..ss... ....... .......
+house_1 = ....... ....... ....... ...nsS. ...ss.. ...S... .......
+house_1.chance = -5
+
+### House on a diagonal
+## (reduced chance, to allow more roads off a diagonal)
+##
+# . . . . . . .
+# . . . . . . .
+# . . . . . . .
+# . . . n s s .
+# . . . s s . .
+# . . . s . . .
+# . . . . . . .
+#
+house_2 = ....... ....... ....... ...nss. ...ss.. ...s... .......
 house_2.chance = -2
 
 ### House one tile from the corner
@@ -218,6 +231,20 @@ house_15.chance = -2
 house_16 = ....... ....... SSSSSSS hhhnSSS sssssss ....... .......
 house_16.chance = -2
 
+### House on a *semi-diagonal* (2 variants)
+## (Effectively same chance as house on corner)
+# . . . . . . .
+# . . . . . . .
+# . . . . . . .
+# . . . n s S .
+# . . . s s . .
+# . . . s . . .
+# . . . . . . .
+#
+house_17 = ....... ....... ....... ...nsS. ...ss.. ...s... .......
+house_17.chance = -5
+house_18 = ....... ....... ....... .Ssn... ..ss... ...s... .......
+house_18.chance = -5
 
 #### R O A D S ####
 
