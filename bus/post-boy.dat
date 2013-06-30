@@ -4,6 +4,8 @@ engine_type=bio
 speed=15
 power=1
 tractive_effort=1
+freight=Post
+payload=15
 copyright=James&jamespetts
 intro_year=1750
 intro_month=1
@@ -17,6 +19,9 @@ axle_load=0
 cost=52500
 runningcost=15
 sound=-1
+
+min_loading_time=20
+max_loading_time=40
 
 EmptyImage[E]=./images/post-boy.1.4
 EmptyImage[SE]=./images/post-boy.1.5
