@@ -449,13 +449,13 @@ road_30.chance = -4
 # . . . . S . .
 # . . . S n S .
 # . s s n n h .
-# . . . S n S .
+# . . . S . S .
 # . . . . . . .
 # . . . . . . .
 #
-road_31 = ....... ....S.. ...SnS. .ssnnh. ...SnS. ....... .......
+road_31 = ....... ....S.. ...SnS. .ssnnh. ...S.S. ....... .......
 road_31.chance = -4
-road_32 = ....... ..S.... .SnS... .hnnss. .SnS... ....... .......
+road_32 = ....... ..S.... .SnS... .hnnss. .S.S... ....... .......
 road_32.chance = -4
 
 ### Diagonal link.
