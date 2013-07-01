@@ -242,6 +242,7 @@
     <None Include="bus\optare-metrorider-short-lt.dat" />
     <None Include="bus\OptareSolo.dat" />
     <None Include="bus\OptareTempoSR.dat" />
+    <None Include="bus\pack-horses.dat" />
     <None Include="bus\parcel-coach.dat" />
     <None Include="bus\post-boy.dat" />
     <None Include="bus\RHVolvoOlympian.dat" />
@@ -590,6 +591,7 @@
     <None Include="trains\sr-6-pan.dat" />
     <None Include="trains\SR-augmentation-trailer.dat" />
     <None Include="trains\sr-bullied-4-sub.dat" />
+    <None Include="trains\sr-bullied-4dd.dat" />
     <None Include="trains\wagon-cool-bogie.dat" />
     <None Include="trains\wagon-cool-fast.dat" />
     <None Include="trains\wagon-passenger.dat" />

@@ -32,7 +32,7 @@ max_loading_time=46
 comfort=76
 
 Constraint[Prev][0]=SR-4LAV(rear)
-Constraint[Prev][1]=SR-401[BIL]Rear(Green)
+Constraint[Prev][1]=SR-401[BIL]Rear
 Constraint[Prev][2]=none
 
 Constraint[Next][0]=SR-4LAV(centre1)
@@ -83,7 +83,7 @@ comfort=76
 Constraint[Prev][0]=SR-4LAV(centre2)
 
 Constraint[Next][0]=SR-4LAV(front)
-Constraint[Next][1]=SR-401[BIL]Front(Green)
+Constraint[Next][1]=SR-401[BIL]Front
 Constraint[Next][2]=none
 
 EmptyImage[E]=./images/sr-4-lav-driving.1.0

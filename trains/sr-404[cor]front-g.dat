@@ -1,5 +1,5 @@
 obj=vehicle
-name=SR-404[COR]Front(Green)
+name=SR-404[COR]Front
 engine_type=electric
 speed=120
 gear=80
@@ -31,19 +31,38 @@ min_loading_time=20
 max_loading_time=70
 comfort=135
 
-Constraint[Prev][0]=SR-404[COR]Rear(Green)
+Constraint[Prev][0]=SR-404[COR]Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=SR-404[COR]Middle1(Green)
-Constraint[Next][1]=SR-404[COR]Middle-Res(Green)
-Constraint[Next][2]=SR-404[COR]Middle-Buf(Green)
+Constraint[Next][0]=SR-404[COR]Middle1
+Constraint[Next][1]=SR-404[COR]Middle-Res
+Constraint[Next][2]=SR-404[COR]Middle-Buf
 
-EmptyImage[E]=./images/sr-cor-g.0.0
-EmptyImage[SE]=./images/sr-cor-g.0.1
-EmptyImage[S]=./images/sr-cor-g.0.2
-EmptyImage[SW]=./images/sr-cor-g.0.3
-EmptyImage[W]=./images/sr-cor-g.0.4
-EmptyImage[NW]=./images/sr-cor-g.0.5
-EmptyImage[N]=./images/sr-cor-g.0.6
-EmptyImage[NE]=./images/sr-cor-g.0.7
+# FIXME: Only SR-Malachite-Green and BR-Blue currently available.
+#liverytype[0]=SR-Olive-Green
+#liverytype[1]=SR-Malachite-Green
+#liverytype[2]=BR-Early
+#liverytype[3]=BR-Revised
+#liverytype[4]=BR-Blue
+
+liverytype[0]=SR-Malachite-Green
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/sr-cor-g.0.0
+EmptyImage[SE][0]=./images/sr-cor-g.0.1
+EmptyImage[S][0]=./images/sr-cor-g.0.2
+EmptyImage[SW][0]=./images/sr-cor-g.0.3
+EmptyImage[W][0]=./images/sr-cor-g.0.4
+EmptyImage[NW][0]=./images/sr-cor-g.0.5
+EmptyImage[N][0]=./images/sr-cor-g.0.6
+EmptyImage[NE][0]=./images/sr-cor-g.0.7
+
+EmptyImage[E][1]=./images/sr-cor-br.0.0
+EmptyImage[SE][1]=./images/sr-cor-br.0.1
+EmptyImage[S][1]=./images/sr-cor-br.0.2
+EmptyImage[SW][1]=./images/sr-cor-br.0.3
+EmptyImage[W][1]=./images/sr-cor-br.0.4
+EmptyImage[NW][1]=./images/sr-cor-br.0.5
+EmptyImage[N][1]=./images/sr-cor-br.0.6
+EmptyImage[NE][1]=./images/sr-cor-br.0.7
 

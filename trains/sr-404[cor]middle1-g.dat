@@ -1,5 +1,5 @@
 obj=vehicle
-name=SR-404[COR]Middle1(Green)
+name=SR-404[COR]Middle1
 engine_type=electric
 speed=120
 copyright=Kieron
@@ -27,23 +27,42 @@ min_loading_time=20
 max_loading_time=70
 comfort=129
 
-Constraint[Prev][0]=SR-404[COR]Front(Green)
+Constraint[Prev][0]=SR-404[COR]Front
 
-Constraint[Next][0]=SR-404[COR]Middle2(Green)
+Constraint[Next][0]=SR-404[COR]Middle2
 
-EmptyImage[E]=./images/sr-cor-g.1.0
-EmptyImage[SE]=./images/sr-cor-g.1.1
-EmptyImage[S]=./images/sr-cor-g.1.2
-EmptyImage[SW]=./images/sr-cor-g.1.3
-EmptyImage[W]=./images/sr-cor-g.1.4
-EmptyImage[NW]=./images/sr-cor-g.1.5
-EmptyImage[N]=./images/sr-cor-g.1.6
-EmptyImage[NE]=./images/sr-cor-g.1.7
+# FIXME: Only SR-Malachite-Green and BR-Blue currently available.
+#liverytype[0]=SR-Olive-Green
+#liverytype[1]=SR-Malachite-Green
+#liverytype[2]=BR-Early
+#liverytype[3]=BR-Revised
+#liverytype[4]=BR-Blue
+
+liverytype[0]=SR-Malachite-Green
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/sr-cor-g.1.0
+EmptyImage[SE][0]=./images/sr-cor-g.1.1
+EmptyImage[S][0]=./images/sr-cor-g.1.2
+EmptyImage[SW][0]=./images/sr-cor-g.1.3
+EmptyImage[W][0]=./images/sr-cor-g.1.4
+EmptyImage[NW][0]=./images/sr-cor-g.1.5
+EmptyImage[N][0]=./images/sr-cor-g.1.6
+EmptyImage[NE][0]=./images/sr-cor-g.1.7
+
+EmptyImage[E][1]=./images/sr-cor-br.1.0
+EmptyImage[SE][1]=./images/sr-cor-br.1.1
+EmptyImage[S][1]=./images/sr-cor-br.1.2
+EmptyImage[SW][1]=./images/sr-cor-br.1.3
+EmptyImage[W][1]=./images/sr-cor-br.1.4
+EmptyImage[NW][1]=./images/sr-cor-br.1.5
+EmptyImage[N][1]=./images/sr-cor-br.1.6
+EmptyImage[NE][1]=./images/sr-cor-br.1.7
 
 ---
 
 obj=vehicle
-name=SR-404[COR]Middle-Res(Green)
+name=SR-404[COR]Middle-Res
 engine_type=electric
 speed=120
 copyright=Kieron
@@ -72,23 +91,42 @@ max_loading_time=70
 comfort=129
 catering_level=4
 
-Constraint[Prev][0]=SR-404[COR]Front(Green)
+Constraint[Prev][0]=SR-404[COR]Front
 
-Constraint[Next][0]=SR-404[COR]Middle2(Green)
+Constraint[Next][0]=SR-404[COR]Middle2
 
-EmptyImage[E]=./images/sr-4buf.1.0
-EmptyImage[SE]=./images/sr-4buf.0.1
-EmptyImage[S]=./images/sr-4buf.0.2
-EmptyImage[SW]=./images/sr-4buf.0.3
-EmptyImage[W]=./images/sr-4buf.0.4
-EmptyImage[NW]=./images/sr-4buf.0.5
-EmptyImage[N]=./images/sr-4buf.1.6
-EmptyImage[NE]=./images/sr-4buf.1.7
+# FIXME: Only SR-Malachite-Green and BR-Blue currently available.
+#liverytype[0]=SR-Olive-Green
+#liverytype[1]=SR-Malachite-Green
+#liverytype[2]=BR-Early
+#liverytype[3]=BR-Revised
+#liverytype[4]=BR-Blue
+
+liverytype[0]=SR-Malachite-Green
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/sr-cor-g.1.0
+EmptyImage[SE][0]=./images/sr-cor-g.1.1
+EmptyImage[S][0]=./images/sr-cor-g.1.2
+EmptyImage[SW][0]=./images/sr-cor-g.1.3
+EmptyImage[W][0]=./images/sr-cor-g.1.4
+EmptyImage[NW][0]=./images/sr-cor-g.1.5
+EmptyImage[N][0]=./images/sr-cor-g.1.6
+EmptyImage[NE][0]=./images/sr-cor-g.1.7
+
+EmptyImage[E][1]=./images/sr-cor-br.1.0
+EmptyImage[SE][1]=./images/sr-cor-br.1.1
+EmptyImage[S][1]=./images/sr-cor-br.1.2
+EmptyImage[SW][1]=./images/sr-cor-br.1.3
+EmptyImage[W][1]=./images/sr-cor-br.1.4
+EmptyImage[NW][1]=./images/sr-cor-br.1.5
+EmptyImage[N][1]=./images/sr-cor-br.1.6
+EmptyImage[NE][1]=./images/sr-cor-br.1.7
 
 ---
 
 obj=vehicle
-name=SR-404[COR]Middle-Buf(Green)
+name=SR-404[COR]Middle-Buf
 engine_type=electric
 speed=120
 copyright=Kieron
@@ -117,15 +155,34 @@ max_loading_time=70
 comfort=120
 catering_level=3
 
-Constraint[Prev][0]=SR-404[COR]Front(Green)
+Constraint[Prev][0]=SR-404[COR]Front
 
-Constraint[Next][0]=SR-404[COR]Middle2(Green)
+Constraint[Next][0]=SR-404[COR]Middle2
 
-EmptyImage[E]=./images/sr-4buf.1.0
-EmptyImage[SE]=./images/sr-4buf.0.1
-EmptyImage[S]=./images/sr-4buf.0.2
-EmptyImage[SW]=./images/sr-4buf.0.3
-EmptyImage[W]=./images/sr-4buf.0.4
-EmptyImage[NW]=./images/sr-4buf.0.5
-EmptyImage[N]=./images/sr-4buf.1.6
-EmptyImage[NE]=./images/sr-4buf.1.7
+# FIXME: Only SR-Malachite-Green and BR-Blue currently available.
+#liverytype[0]=SR-Olive-Green
+#liverytype[1]=SR-Malachite-Green
+#liverytype[2]=BR-Early
+#liverytype[3]=BR-Revised
+#liverytype[4]=BR-Blue
+
+liverytype[0]=SR-Malachite-Green
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/sr-4buf.1.0
+EmptyImage[SE][0]=./images/sr-4buf.0.1
+EmptyImage[S][0]=./images/sr-4buf.0.2
+EmptyImage[SW][0]=./images/sr-4buf.0.3
+EmptyImage[W][0]=./images/sr-4buf.0.4
+EmptyImage[NW][0]=./images/sr-4buf.0.5
+EmptyImage[N][0]=./images/sr-4buf.1.6
+EmptyImage[NE][0]=./images/sr-4buf.1.7
+
+EmptyImage[E][1]=./images/sr-4buf-br.1.0
+EmptyImage[SE][1]=./images/sr-4buf-br.0.1
+EmptyImage[S][1]=./images/sr-4buf-br.0.2
+EmptyImage[SW][1]=./images/sr-4buf-br.0.3
+EmptyImage[W][1]=./images/sr-4buf-br.0.4
+EmptyImage[NW][1]=./images/sr-4buf-br.0.5
+EmptyImage[N][1]=./images/sr-4buf-br.1.6
+EmptyImage[NE][1]=./images/sr-4buf-br.1.7
