@@ -23,8 +23,13 @@ sound[10]=boing.wav
 sound[9]=click.wav
 
 
-#other used sounds
-#does not need to be here
-
-
+#other used sounds do not need to be here
+#
+# For reference: the following "climate" sounds will be used by the program automatically
+# (hard-coded in besch/grund_besch.cc in climate_names)
+# "Water", "desert", "tropic", "mediterran", "temperate", "tundra", "rocky", "arctic"
+#
+# (Yes, this has inconsistent capitalization and some misspellings.)
+# In addition, the following are hardcoded in besch/sound_besch.cc:
+# "forest", "beaches"
 
