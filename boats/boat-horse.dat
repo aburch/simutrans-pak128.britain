@@ -1,7 +1,7 @@
 obj=vehicle
 name=BoatHorsesDouble
 engine_type=bio
-speed=7
+speed=18
 power=20
 gear=1200
 copyright=James
@@ -58,7 +58,13 @@ Constraint[Next][40]=TubBoatCool
 Constraint[Next][41]=MarketBarge
 Constraint[Next][42]=MarketNarrowboat
 Constraint[Next][43]=PacketBarge
-Constraint[Next][44]=none
+Constraint[Prev][44]=none
+Constraint[Next][45]=FlyboatPiece
+Constraint[Next][46]=FlyboatCool
+Constraint[Next][47]=FlyboatMail
+Constraint[Next][48]=FlyboatPax
+Constraint[Next][49]=SteelHullDumbBargeBulk
+Constraint[Next][50]=none
 
 
 weight=1
@@ -150,43 +156,5 @@ EmptyImage[W]=./images/boat-horse-single.0.4
 EmptyImage[NW]=./images/boat-horse-single.0.5
 EmptyImage[N]=./images/boat-horse-single.0.6
 EmptyImage[NE]=./images/boat-horse-single.0.7
----------------------------------
-obj=vehicle
-name=BoatHorsesFly
-engine_type=bio
-speed=18
-power=20
-gear=1200
-copyright=James
-intro_year=1835
-intro_month=1
-retire_year=1918
-retire_month=1
-waytype=water
-length=2
-
-
-Constraint[Prev][0]=none
-Constraint[Next][0]=FlyboatPiece
-Constraint[Next][1]=FlyboatCool
-Constraint[Next][2]=FlyboatMail
-Constraint[Next][3]=FlyboatPax
-Constraint[Next][4]=SteelHullDumbBargeBulk
-Constraint[Next][5]=none
-
-
-weight=1
-cost=100000
-runningcost=15
-sound=-1
-
-EmptyImage[E]=./images/boat-horse-double.0.0
-EmptyImage[SE]=./images/boat-horse-double.0.1
-EmptyImage[S]=./images/boat-horse-double.0.2
-EmptyImage[SW]=./images/boat-horse-double.0.3
-EmptyImage[W]=./images/boat-horse-double.0.4
-EmptyImage[NW]=./images/boat-horse-double.0.5
-EmptyImage[N]=./images/boat-horse-double.0.6
-EmptyImage[NE]=./images/boat-horse-double.0.7
 ---------------------------------
 
