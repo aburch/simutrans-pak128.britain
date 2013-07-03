@@ -3297,11 +3297,11 @@ BR Class 150 "Sprinter" DMU (centre)
 BR-150Rear(Regional)
 BR Class 150 "Sprinter" DMU (rear)
 BR-456-DMSO
-BR Class 456 EMU (DMSO)
+BR Class 456 EMU
 BR-456-DTSO
-BR Class 456 EMU (DTSO)
+BR Class 456 EMU (rear)
 BR-455-Driving-Front
-BR Class 455 EMU (front)
+BR Class 455 EMU
 BR-455-Motor
 BR Class 455 EMU (power)
 BR-455-Trailer
@@ -3309,13 +3309,17 @@ BR Class 455 EMU (trailer)
 BR-455-Driving-Rear
 BR Class 455 EMU (rear)
 BR-317-Driving-Front
-BR Class 317 EMU (front)
+BR Class 317 EMU
 BR-317-Motor
 BR Class 317 EMU (power)
 BR-317-Trailer
 BR Class 317 EMU (trailer)
 BR-317-Driving-Rear
 BR Class 317 (rear)
+LOR-EMU(front)
+Liverpool Overhead Railway EMU
+LOR-EMU(trailer)
+Liverpool Overhead Railway EMU (rear)
 LSWR-EMU(front)
 LSWR suburban EMU (front driving motor)
 LSWR-EMU(centre)
@@ -3340,6 +3344,14 @@ SR-augmentation-trailer(front)
 SR EMU augmentation trailer
 SR-augmentation-trailer(rear)
 SR EMU augmentation trailer
+SR-4DD-front
+SR 4DD
+SR-4DD-rear
+SR 4DD (rear)
+SR-4DD-TT1
+SR 4DD (centre trailer)
+SR-4DD-TT2
+SR 4DD (centre trailer)
 LBSCR-sub-bogie-48ft
 LBSCR eight compartment bogie carriage
 LBSCR-sub-bogie-48ft-brake-front
