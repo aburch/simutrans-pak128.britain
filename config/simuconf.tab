@@ -540,9 +540,12 @@ factory_worker_radius = 320
 # How much amount in transport is sent before further distribution stops
 # This is only enabled when "just_in_time" is enabled
 # The limit is given in percent of factory storage (0=off)
-# It should be not too low to allow big convoys fully loaded at more than one
-# factory (for medium sized maps 500 seems a reasonable number)
-maximum_intransit_percentage = 750
+#
+# This needs to be very high.  Many factories have low storage numbers (like 30)
+# and high production per month (like 600).  Long, slow ship routes can take 6 months
+# to cross the map.  To keep a steady flow, we need a setting like 6 * (600/30) * 100% = 12000.
+# Make it even larger to avoid breakage.
+maximum_intransit_percentage = 16000
 
 ################################## Finance settings #################################
 
