@@ -19,7 +19,8 @@ increase_maintenance_after_years=32
 years_before_maintenance_max_reached=35
 
 # Inside only
-comfort=75
+# Apparently, these have a *very* hard/bumpy ride.
+comfort=38
 min_loading_time=300
 max_loading_time=600
 
