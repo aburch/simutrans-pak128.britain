@@ -28,6 +28,15 @@ InputGood[0]=milk
 InputCapacity[0]=48
 #InputSupplier[0]=1
 Dims=2,1,4
+
+expand_probability=10
+expand_minimum=3
+expand_range=2
+expand_times=3
+
+upgrade[0]=Dairy1840
+upgrade[1]=Dairy1910
+
 BackImage[0][0][0][0][0][0]=dairy.0.0
 BackImage[0][0][1][0][0][0]=dairy.0.1
 BackImage[0][0][0][0][0][1]=dairy.0.2
@@ -71,6 +80,15 @@ InputGood[0]=milk
 InputCapacity[0]=96
 #InputSupplier[0]=1
 Dims=2,1,4
+
+expand_probability=10
+expand_minimum=9
+expand_range=3
+expand_times=3
+
+upgrade[0]=Dairy1910
+upgrade[1]=Dairy1945
+
 BackImage[0][0][0][0][0][0]=dairy.0.0
 BackImage[0][0][1][0][0][0]=dairy.0.1
 BackImage[0][0][0][0][0][1]=dairy.0.2
@@ -114,6 +132,15 @@ InputGood[0]=milk
 InputCapacity[0]=168
 #InputSupplier[0]=1
 Dims=2,1,4
+
+expand_probability=15
+expand_minimum=1
+expand_range=9
+expand_times=1
+
+upgrade[0]=Dairy1945
+upgrade[1]=Dairy1975
+
 BackImage[0][0][0][0][0][0]=dairy.0.0
 BackImage[0][0][1][0][0][0]=dairy.0.1
 BackImage[0][0][0][0][0][1]=dairy.0.2
@@ -158,6 +185,14 @@ InputCapacity[0]=192
 #InputSupplier[0]=1
 # When the supermarket chain is completed, diaries of this age out output packaged food.
 Dims=2,1,4
+
+expand_probability=10
+expand_minimum=18
+expand_range=6
+expand_times=3
+
+upgrade[0]=Dairy1975
+
 BackImage[0][0][0][0][0][0]=dairy.0.0
 BackImage[0][0][1][0][0][0]=dairy.0.1
 BackImage[0][0][0][0][0][1]=dairy.0.2
@@ -200,6 +235,12 @@ InputCapacity[0]=384
 #InputSupplier[0]=1
 # When the supermarket chain is completed, diaries of this age out output packaged food.
 Dims=2,1,4
+
+expand_probability=9
+expand_minimum=20
+expand_range=8
+expand_times=6
+
 BackImage[0][0][0][0][0][0]=dairy.0.0
 BackImage[0][0][1][0][0][0]=dairy.0.1
 BackImage[0][0][0][0][0][1]=dairy.0.2

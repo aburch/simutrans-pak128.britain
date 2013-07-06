@@ -32,6 +32,11 @@ OutputCapacity[0]=90
 OutputFactor[0]=83   
 Dims=2,3,4
 
+expand_probability=10
+expand_minimum=4
+expand_range=3
+expand_times=3
+
 upgrade[0]=TextileMill1840
 upgrade[1]=TextileMill1910
 
@@ -147,6 +152,11 @@ OutputCapacity[0]=180
 OutputFactor[0]=83   
 Dims=2,3,4
 
+expand_probability=10
+expand_minimum=20
+expand_range=12
+expand_times=3
+
 upgrade[0]=TextileMill1910
 upgrade[1]=TextileMill1945
 
@@ -260,8 +270,12 @@ InputFactor[0]=100
 OutputGood[0]=textile
 OutputCapacity[0]=360 
 OutputFactor[0]=83   
-electricity_proportion=25
 Dims=2,3,4
+
+expand_probability=7
+expand_minimum=4
+expand_range=5
+expand_times=2
 
 upgrade[0]=TextileMill1945
 upgrade[1]=TextileMill1975
@@ -384,8 +398,12 @@ InputFactor[2]=10
 OutputGood[0]=textile
 OutputCapacity[0]=400 
 OutputFactor[0]=100  
-electricity_proportion=25 
 Dims=2,3,4
+
+expand_probability=10
+expand_minimum=10
+expand_range=7
+expand_times=3
 
 upgrade[0]=TextileMill1975
 
@@ -505,8 +523,13 @@ InputFactor[2]=17
 OutputGood[0]=textile
 OutputCapacity[0]=480 
 OutputFactor[0]=100  
-electricity_proportion=30
 Dims=2,3,4
+
+expand_probability=10
+expand_minimum=24
+expand_range=16
+expand_times=6
+
 BackImage[0][0][0][0][0][0]=textile-mill.0.0
 BackImage[0][0][0][1][0][0]=textile-mill.0.1
 BackImage[0][0][1][0][0][0]=textile-mill.0.2

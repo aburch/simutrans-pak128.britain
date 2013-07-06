@@ -33,6 +33,11 @@ OutputCapacity[0]=32
 OutputFactor[0]=200    
 Dims=2,2,4
 
+expand_probability=12
+expand_minimum=1
+expand_range=1
+expand_times=1
+
 upgrade[0]=FurnitureFactory1850
 upgrade[1]=FurnitureFactory1920
 
@@ -103,6 +108,11 @@ OutputGood[0]=Moebel
 OutputCapacity[0]=80
 OutputFactor[0]=222    
 Dims=2,2,4
+
+expand_probability=10
+expand_minimum=5
+expand_range=2
+expand_times=3
 
 upgrade[0]=FurnitureFactory1920
 upgrade[1]=FurnitureFactory1950
@@ -178,6 +188,11 @@ OutputCapacity[0]=216
 OutputFactor[0]=192   
 Dims=2,2,4
 
+expand_probability=10
+expand_minimum=6
+expand_range=3
+expand_times=3
+
 upgrade[0]=FurnitureFactory1950
 upgrade[1]=FurnitureFactory1970
 
@@ -251,6 +266,11 @@ OutputGood[0]=Moebel
 OutputCapacity[0]=288
 OutputFactor[0]=218
 Dims=2,2,4
+
+expand_probability=10
+expand_minimum=6
+expand_range=7
+expand_times=3
 
 upgrade[0]=FurnitureFactory1970
 
@@ -326,6 +346,12 @@ OutputGood[0]=Moebel
 OutputCapacity[0]=360
 OutputFactor[0]=200
 Dims=2,2,4
+
+expand_probability=10
+expand_minimum=20
+expand_range=12
+expand_times=6
+
 BackImage[0][0][0][0][0][0]=furniture-factory.0.0
 BackImage[0][0][1][0][0][0]=furniture-factory.0.1
 BackImage[0][1][0][0][0][0]=furniture-factory.0.2

@@ -30,6 +30,11 @@ OutputFactor[0]=100
 electricity_proportion=30
 Dims=2,2,4
 
+expand_probability=11
+expand_minimum=9
+expand_range=3
+expand_times=3
+
 upgrade[0]=IronOreMine1850
 upgrade[1]=IronOreMine1920
 
@@ -94,6 +99,11 @@ OutputCapacity[0]=450
 OutputFactor[0]=100  
 electricity_proportion=30
 Dims=2,2,4
+
+expand_probability=11
+expand_minimum=30
+expand_range=2
+expand_times=3
 
 upgrade[0]=IronOreMine1920
 upgrade[1]=IronOreMine1950
@@ -160,6 +170,11 @@ OutputFactor[0]=100
 electricity_proportion=30
 Dims=2,2,4
 
+expand_probability=11
+expand_minimum=21
+expand_range=3
+expand_times=3
+
 upgrade[0]=IronOreMine1950
 upgrade[1]=IronOreMine1970
 
@@ -225,6 +240,11 @@ OutputFactor[0]=100
 electricity_proportion=30
 Dims=2,2,4
 
+expand_probability=10
+expand_minimum=23
+expand_range=8
+expand_times=3
+
 upgrade[0]=IronOreMine1970
 
 BackImage[0][0][0][0][0][0]=iron-ore-mine.0.0
@@ -288,6 +308,12 @@ OutputCapacity[0]=1620
 OutputFactor[0]=100
 electricity_proportion=30  
 Dims=2,2,4
+
+expand_probability=9
+expand_minimum=20
+expand_range=40
+expand_times=4
+
 BackImage[0][0][0][0][0][0]=iron-ore-mine.0.0
 BackImage[0][0][1][0][0][0]=iron-ore-mine.0.1
 BackImage[0][1][0][0][0][0]=iron-ore-mine.0.2

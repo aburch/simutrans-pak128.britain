@@ -32,6 +32,11 @@ OutputCapacity[0]=10
 OutputFactor[0]=29  
 Dims=2,2,4
 
+expand_probability=10
+expand_minimum=4
+expand_range=2
+expand_times=3
+
 upgrade[0]=Slaughterhouse1840
 upgrade[1]=Slaughterhouse1910
 
@@ -122,6 +127,11 @@ OutputGood[0]=meat
 OutputCapacity[0]=21 
 OutputFactor[0]=29  
 Dims=2,2,4
+
+expand_probability=10
+expand_minimum=8
+expand_range=2
+expand_times=3
 
 upgrade[0]=Slaughterhouse1910
 upgrade[1]=Slaughterhouse1945
@@ -214,6 +224,11 @@ OutputCapacity[0]=42
 OutputFactor[0]=29  
 Dims=2,2,4
 
+expand_probability=10
+expand_minimum=12
+expand_range=3
+expand_times=3
+
 upgrade[0]=Slaughterhouse1945
 upgrade[1]=Slaughterhouse1975
 
@@ -305,6 +320,11 @@ OutputCapacity[0]=84
 OutputFactor[0]=29  
 Dims=2,2,4
 
+expand_probability=10
+expand_minimum=24
+expand_range=6
+expand_times=3
+
 upgrade[0]=Slaughterhouse1975
 
 BackImage[0][0][0][0][0][0]=slaughterhouse.0.0
@@ -391,6 +411,12 @@ OutputGood[0]=meat
 OutputCapacity[0]=154 
 OutputFactor[0]=29
 Dims=2,2,4
+
+expand_probability=10
+expand_minimum=20
+expand_range=12
+expand_times=6
+
 BackImage[0][0][0][0][0][0]=slaughterhouse.0.0
 BackImage[0][0][0][1][0][0]=slaughterhouse.0.1
 BackImage[0][0][1][0][0][0]=slaughterhouse.0.2

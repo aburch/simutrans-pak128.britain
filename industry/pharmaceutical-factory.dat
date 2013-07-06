@@ -36,6 +36,11 @@ OutputGood[0]=pharmaceuticals
 OutputCapacity[0]=48 
 Dims=2,2,4
 
+expand_probability=17
+expand_minimum=1
+expand_range=2
+expand_times=1
+
 upgrade[0]=PharmaceuticalFactory1920
 upgrade[1]=PharmaceuticalFactory1955
 
@@ -126,6 +131,11 @@ OutputGood[0]=pharmaceuticals
 OutputCapacity[0]=96 
 OutputFactor[0]=150
 Dims=2,2,4
+
+expand_probability=12
+expand_minimum=1
+expand_range=2
+expand_times=2
 
 upgrade[0]=PharmaceuticalFactory1955
 upgrade[1]=PharmaceuticalFactory1975
@@ -218,6 +228,11 @@ OutputCapacity[0]=192
 OutputFactor[0]=200
 Dims=2,2,4
 
+expand_probability=12
+expand_minimum=1
+expand_range=2
+expand_times=2
+
 upgrade[0]=PharmaceuticalFactory1975
 
 BackImage[0][0][0][0][0][0]=pharmaceutical-factory.0.0
@@ -309,6 +324,12 @@ OutputGood[0]=pharmaceuticals
 OutputCapacity[0]=200
 OutputFactor[0]=167
 Dims=2,2,4
+
+expand_probability=9
+expand_minimum=3
+expand_range=5
+expand_times=6
+
 BackImage[0][0][0][0][0][0]=pharmaceutical-factory.0.0
 BackImage[0][0][0][1][0][0]=pharmaceutical-factory.0.1
 BackImage[0][0][1][0][0][0]=pharmaceutical-factory.0.2

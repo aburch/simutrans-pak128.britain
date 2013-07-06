@@ -35,6 +35,11 @@ OutputCapacity[1]=24
 OutputFactor[1]=50   
 Dims=2,3,4
 
+expand_probability=17
+expand_minimum=1
+expand_range=1
+expand_times=1
+
 upgrade[0]=Printworks1920
 upgrade[1]=Printworks1950
 
@@ -134,7 +139,7 @@ mail_demand = 2
 climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
 Location=City
 distributionweight=7
-Productivity=1000
+Productivity=10
 Range=5
 passenger_boost=600
 mail_boost=150
@@ -156,6 +161,11 @@ OutputGood[1]=Bucher
 OutputCapacity[1]=54
 OutputFactor[1]=41
 Dims=2,3,4
+
+expand_probability=10
+expand_minimum=12
+expand_range=3
+expand_times=3
 
 upgrade[0]=Printworks1950
 upgrade[1]=Printworks1970
@@ -278,6 +288,11 @@ OutputCapacity[1]=144
 OutputFactor[1]=43   
 Dims=2,3,4
 
+expand_probability=10
+expand_minimum=16
+expand_range=7
+expand_times=3
+
 upgrade[0]=Printworks1970
 
 BackImage[0][0][0][0][0][0]=printworks.0.0
@@ -396,6 +411,12 @@ OutputGood[1]=Bucher
 OutputCapacity[1]=350 
 OutputFactor[1]=44   
 Dims=2,3,4
+
+expand_probability=10
+expand_minimum=20
+expand_range=14
+expand_times=6
+
 BackImage[0][0][0][0][0][0]=printworks.0.0
 BackImage[0][0][0][1][0][0]=printworks.0.1
 BackImage[0][0][1][0][0][0]=printworks.0.2

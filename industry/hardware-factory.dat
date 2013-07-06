@@ -36,6 +36,11 @@ OutputCapacity[0]=248
 OutputFactor[0]=129  
 Dims=1,2,4
 
+expand_probability=10
+expand_minimum=20
+expand_range=14
+expand_times=3
+
 upgrade[0]=HardwareFactory1920
 upgrade[1]=HardwareFactory1950
 
@@ -90,6 +95,11 @@ OutputGood[0]=hardware
 OutputCapacity[0]=336 
 OutputFactor[0]=131  
 Dims=1,2,4
+
+expand_probability=10
+expand_minimum=10
+expand_range=6
+expand_times=1
 
 upgrade[0]=HardwareFactory1950
 

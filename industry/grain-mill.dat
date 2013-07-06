@@ -34,6 +34,10 @@ OutputCapacity[0]=140
 OutputFactor[0]=100  
 Dims=1,2,4
 
+expand_probability=10
+expand_minimum=10
+expand_range=5
+expand_times=3
 
 upgrade[0]=GrainMill1840
 upgrade[1]=GrainMill1910
@@ -100,6 +104,11 @@ OutputCapacity[0]=280
 OutputFactor[0]=100  
 Dims=1,2,4
 
+expand_probability=10
+expand_minimum=19
+expand_range=8
+expand_times=3
+
 upgrade[0]=GrainMill1910
 upgrade[1]=GrainMill1945
 
@@ -164,6 +173,11 @@ OutputGood[0]=flour
 OutputCapacity[0]=560 
 OutputFactor[0]=100  
 Dims=1,2,4
+
+expand_probability=10
+expand_minimum=25
+expand_range=33
+expand_times=3
 
 upgrade[0]=GrainMill1945
 upgrade[1]=GrainMill1975
@@ -232,6 +246,11 @@ OutputCapacity[0]=1120
 OutputFactor[0]=100  
 Dims=1,2,4
 
+expand_probability=10
+expand_minimum=8
+expand_range=6
+expand_times=3
+
 upgrade[0]=GrainMill1975
 
 BackImage[0][0][0][0][0][0]=grain-mill.0.0
@@ -295,6 +314,12 @@ OutputGood[0]=flour
 OutputCapacity[0]=1015 
 OutputFactor[0]=100  
 Dims=1,2,4
+
+expand_probability=10
+expand_minimum=12
+expand_range=16
+expand_times=6
+
 BackImage[0][0][0][0][0][0]=grain-mill.0.0
 BackImage[0][0][0][1][0][0]=grain-mill.0.1
 BackImage[0][1][0][0][0][0]=grain-mill.0.2
