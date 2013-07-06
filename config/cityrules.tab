@@ -36,7 +36,7 @@ minimum_building_density = 20
 # (encouraging development in the other directions first)
 # In order to avoid bridge overbuilding, this needs to be *really* low, since road extension
 # will be tried repeatedly
-bridge_success_percentage = 15
+bridge_success_percentage = 17
 
 #
 # relative affinities for certain building types which can lead to clustering of certain building types
