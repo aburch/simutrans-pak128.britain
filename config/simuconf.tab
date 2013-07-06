@@ -553,6 +553,7 @@ maximum_intransit_percentage = 16000
 starting_money = 25000000
 
 # Maintenance costs of buildings
+# This is also in credit cents
 maintenance_building = 1800
 
 # first stops: the actual cost is (cost*level*width*height*km/tile)
@@ -563,7 +564,6 @@ cost_multiply_roadstop = 400
 cost_multiply_airterminal = 1000
 #used for all extra buildings
 cost_multiply_post = 500
-cost_multiply_headquarter=10000
 
 # cost for depots
 # Now multiplied by the level (Simutrans-Experimental 8.0 and later)
@@ -577,14 +577,19 @@ cost_signal = 750
 cost_tunnel = 11000
 
 # other construction/destruction stuff
-cost_alter_land=2000
-cost_set_slope=5250
-cost_found_city=5000000
-cost_multiply_found_industry=500000
+# The following are adjusted by meters_per_tile:
+cost_alter_land=16000
+cost_set_slope=42000
 cost_remove_tree=50
 cost_buy_land=1500
 cost_multiply_remove_haus=500
-cost_multiply_remove_field=5000
+cost_multiply_remove_field=40000
+
+# The following aren't adjusted by meters_per_tile:
+cost_found_city=5000000
+cost_multiply_found_industry=500000
+# Multiplied by headquarters "level"
+cost_multiply_headquarter=10000
 
 # Insolvency and debt settings
 #
@@ -595,7 +600,7 @@ cost_multiply_remove_field=5000
 # overdraft debt (i.e., on all negative account balances). It can be between 0
 # and 255. 
 # 
-# "allow_bankruptsy" determines whether, when the player is deemed to have been
+# "allow_bankruptcy" determines whether, when the player is deemed to have been
 # insolvent for more than a certain period, the player should be declared
 # bankrupt and the game over. 0 = no, 1 = yes.
 # 
@@ -609,8 +614,8 @@ cost_multiply_remove_field=5000
 # 0, set allow_bankruptsy to 1, and set allow_purchases_when_insolvent to 1.
 
 interest_rate_percent = 10
-allow_bankruptsy = 1
-allow_purhcases_when_insolvent = 0	
+allow_bankruptcy = 1
+allow_purchases_when_insolvent = 0	
 
 # This is a compatibility setting for Simutrans-Standard. Because, in
 # Simutrans-Standard, the speed bonus data (in speedbonus.tab) are based on the
