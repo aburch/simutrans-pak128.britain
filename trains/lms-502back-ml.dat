@@ -1,5 +1,5 @@
 obj=vehicle
-name=LMS-502Rear(Maroon)
+name=LMS-502Rear
 engine_type=electric
 speed=112
 power=0
@@ -26,10 +26,10 @@ min_loading_time=15
 max_loading_time=60
 comfort=80
 
-Constraint[Prev][0]=LMS-502Middle(Maroon)
-Constraint[Prev][1]=LMS-502Front(Maroon)
+Constraint[Prev][0]=LMS-502Middle
+Constraint[Prev][1]=LMS-502Front
 
-Constraint[Next][0]=LMS-502Front(Maroon)
+Constraint[Next][0]=LMS-502Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/lms-502-ml.2.0

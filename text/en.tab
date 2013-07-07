@@ -1800,6 +1800,8 @@ LNER-A4
 LNER Class A4 4-6-2
 LNER-A4-Tender
 LNER Class A4 (tender)
+BR-Class09
+BR Class 09
 BR-Class20
 BR Class 20
 BR-Class24
@@ -2175,21 +2177,21 @@ GWR Swindon Twinset (rear)
 BR-104Rear
 BR Class 104 DMU (rear)
 BR-104Middle
-BR Class 104 DMU (middle)
+BR Class 104 DMU (centre)
 BR-104Front
 BR Class 104 DMU
 SR-404[COR]Front
 SR 4-Cor EMU
 SR-404[COR]Middle(Green)
-SR 4-Cor EMU (middle)
+SR 4-Cor EMU (centre)
 SR-404[COR]Middle1
-SR 4-Cor EMU (middle)
+SR 4-Cor EMU (centre)
 SR-404[COR]Middle-Buf
 SR 4-Cor EMU (buffet car)
 SR-404[COR]Middle-Res
 SR 4-Cor EMU (restaurant car)
 SR-404[COR]Middle2
-SR 4-Cor EMU (middle)
+SR 4-Cor EMU (centre)
 SR-404[COR]Rear
 SR 4-Cor EMU (rear)
 SR-401[BIL]Front
@@ -2229,23 +2231,23 @@ BR Class 373 "Eurostar" (rear power)
 BR-170Front(Scotrail)
 BR Class 170 "Turbostar" DMU
 BR-170Middle(Scotrail)
-BR Class 170 "Turbostar" DMU (middle)
+BR Class 170 "Turbostar" DMU (centre)
 BR-170Rear(Scotrail)
 BR Class 170 "Turbostar" DMU (rear)
 SR-Bulleid-Express-Coach(Green)
 SR Bulleid Gangwayed Corridor
 BR-180Middle(FGW)
-BR Class 180 "Adelante" (middle)
+BR Class 180 "Adelante" (centre)
 BR-180Middle-Buffet(FGW)
 BR Class 180 "Adelante" (buffet)
 BR-180Rear(FGW)
 BR Class 180 "Adelante" (rear)
 BR-220Middle(Virgin)
-BR Class 220 "Voyager" (middle)
+BR Class 220 "Voyager" (centre)
 BR-220Middle-shop(Virgin)
 BR Class 220 "Voyager" (middle with shop)
 BR-221Middle(Virgin)
-BR Class 221 "Super Voyager" (middle)
+BR Class 221 "Super Voyager" (centre)
 BR-221Middle-shop(Virgin)
 BR Class 221 "Super Voyager" (middle with shop)
 BR-142Front(Regional)
@@ -2325,7 +2327,7 @@ BR Class 373 "Eurostar" (coach)
 BR-205Front(Rail-Blue)
 BR Class 205 DEMU
 BR-205Middle(Rail-Blue)
-BR Class 205 DEMU (middle)
+BR Class 205 DEMU (centre)
 BR-205Rear(Rail-Blue)
 BR Class 205 DEMU (rear)
 BR-414[HAP]Front(Blue-Grey)
@@ -2397,13 +2399,13 @@ BR Class 410 "4-Cep" EMU (middle brake)
 BR-410[CEP]Buffet(Blue-Grey)
 BR Class 410 "4-Cep" EMU (buffet)
 BR-410[CEP]Middle(Blue-Grey)
-BR Class 410 "4-Cep" EMU (middle)
+BR Class 410 "4-Cep" EMU (centre)
 BR-410[CEP]Rear(Blue-Grey)
 BR Class 410 "4-Cep" EMU (rear)
 BR-158Front(Regional)
 BR Class 158 "Express Sprinter" DMU 
 BR-158Middle(Regional)
-BR Class 158 "Express Sprinter" DMU (middle)
+BR Class 158 "Express Sprinter" DMU (centre)
 BR-158Rear(Regional)
 BR Class 158 "Express Sprinter" DMU (rear)
 BR-303Front(CaledonianBlue)
@@ -2464,16 +2466,22 @@ BR-150Centre(Regional)
 BR Class 150 "Sprinter" DMU (centre)
 BR-150Rear(Regional)
 BR Class 150 "Sprinter" DMU (rear)
-LMS-502Front(Maroon)
+LMS-EMU-driving-trailer
+LMS suburban EMU
+LMS-EMU-centre-trailer
+LMS suburban EMU (centre)
+LMS-EMU-driving-motor
+LMS suburban EMU (rear motor)
+LMS-502Front
 LMS Class 502 EMU
-LMS-502Rear(Maroon)
+LMS-502Rear
 LMS Class 502 EMU (rear)
-LMS-502Middle(Maroon)
-LMS Class 502 EMU (middle)
+LMS-502Middle
+LMS Class 502 EMU (centre)
 Metropolitan-Motor-Third-Front
 Metropolitan 1905 Motorised Stock
 Metropolitan-Motor-Third-Middle
-Metropolitan 1905 Motorised Stock (middle)
+Metropolitan 1905 Motorised Stock (centre)
 Metropolitan-Motor-Third-Back
 Metropolitan 1905 Mororised Stock (rear)
 Metropolitan-Bogie-Third
@@ -2483,19 +2491,19 @@ Metropolitan "Dreadnought" Carriage
 BR-465Front(NSE)
 BR Class 465 "Networker" EMU
 BR-465Middle(NSE)
-BR Class 465 "Networker" EMU (middle)
+BR Class 465 "Networker" EMU (centre)
 BR-465Rear(NSE)
 BR Class 465 "Networker" EMU (rear)
 BR-165Front(NSE)
 BR Class 165 "Network Turbo" DMU
 BR-165Middle(NSE)
-BR Class 165 "Network Turbo" DMU (middle)
+BR Class 165 "Network Turbo" DMU (centre)
 BR-165Rear(NSE)
 BR Class 165 "Network Turbo" DMU (rear)
 BR-166Front(NSE)
 BR Class 166 "Network Express" DMU
 BR-166Middle(NSE)
-BR Class 166 "Network Express" DMU (middle)
+BR Class 166 "Network Express" DMU (centre)
 BR-166Middle-Trolley(NSE)
 BR Class 166 "Network Express" DMU (middle, with trolley service)
 BR-166Rear(NSE)
@@ -2513,7 +2521,7 @@ GWR Gloucester Parcel Railcar
 RM-325Front(RM)
 Royal Mail Class 325 EMU
 RM-325Middle(RM)
-Royal Mail Class 325 EMU (middle)
+Royal Mail Class 325 EMU (centre)
 RM-325Power(RM)
 Royal Mail Class 325 EMU (power)
 RM-325Rear(RM)
@@ -2531,17 +2539,17 @@ BR Mk. 1 GUV
 Autic-4_Car_Transporter(Front)
 Autic Car Transporter
 Autic-4_Car_Transporter(Middle1)
-Autic Car Transporter (middle)
+Autic Car Transporter (centre)
 Autic-4_Car_Transporter(Middle2)
-Autic Car Transporter (middle)
+Autic Car Transporter (centre)
 Autic-4_Car_Transporter(Rear)
 Autic Car Transporter (rear)
 Cartic-4_Car_Transporter(Front)
 Cartic Car Transporter 
 Cartic-4_Car_Transporter(Middle1)
-Cartic Car Transporter (middle)
+Cartic Car Transporter (centre)
 Cartic-4_Car_Transporter(Middle2)
-Cartic Car Transporter (middle)
+Cartic Car Transporter (centre)
 Cartic-4_Car_Transporter(Rear)
 Cartic Car Transporter (rear)
 Bulk16T
@@ -2821,7 +2829,7 @@ LNER/BR Class EM2 Co-Co
 BR-395Front(SE)
 BR Class 395 "Javelin"
 BR-395Middle(SE)
-BR Class 395 "Javelin" (middle)
+BR Class 395 "Javelin" (centre)
 BR-395Rear(SE)
 BR Class 395 "Javelin" (back)
 PuffingBilly
@@ -3753,7 +3761,7 @@ Blackpool Coronation
 Sheffield-Supertram(Front)
 Sheffield Supertram
 Sheffield-Supertram(Middle)
-Sheffield Supertram (middle)
+Sheffield Supertram (centre)
 Sheffield-Supertram(Rear)
 Sheffield Supertram (rear)
 Blackpool-Dreadnought
@@ -5093,19 +5101,19 @@ Ultraspeed Class M10 "Zephyr"
 BR-Ultra-450(Buffet)
 Ultraspeed Class M10 "Zephyr" (middle buffet)
 BR-Ultra-450(Open)
-Ultraspeed Class M10 "Zephyr" (middle)
+Ultraspeed Class M10 "Zephyr" (centre)
 BR-Ultra-450(rear)
 Ultraspeed Class M10 "Zephyr" (rear)
 BR-Ultra-Mail(front)
 Ultraspeed Class M21 "Hermes"
 BR-Ultra-Mail(Open)
-Ultraspeed Class M21 "Hermes" (middle)
+Ultraspeed Class M21 "Hermes" (centre)
 BR-Ultra-Mail(rear)
 Ultraspeed Class M21 "Hermes" (rear)
 BR-Ultra-520(front)
 Ultraspeed Class M20 "Olympian" 
 BR-Ultra-520(Open)
-Ultraspeed Class M20 "Olympian" (middle)
+Ultraspeed Class M20 "Olympian" (centre)
 BR-Ultra-520(Buffet)
 Ultraspeed Class M20 "Olympian" (middle buffet)
 BR-Ultra-520(rear)
@@ -5113,7 +5121,7 @@ Ultraspeed Class M20 "Olympian" (rear)
 BR-Ultra-520DD(front)
 Ultraspeed Class M30 "Platinum Jubilee"
 BR-Ultra-520DD(Open)
-Ultraspeed Class M30 "Platinum Jubilee" (middle)
+Ultraspeed Class M30 "Platinum Jubilee" (centre)
 BR-Ultra-520DD(Buffet)
 Ultraspeed Class M30 "Platinum Jubilee" (middle buffet)
 BR-Ultra-520DD(rear)
