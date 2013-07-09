@@ -21,8 +21,8 @@ Constraint[Prev][1]=RoadHorsesDouble
 
 Constraint[Next][0]=none
 
-min_loading_time=30
-max_loading_time=90
+min_loading_time=300
+max_loading_time=900
 
 increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
@@ -106,8 +106,8 @@ intro_month=1
 retire_year=1905
 retire_month=3
 
-min_loading_time=30
-max_loading_time=90
+min_loading_time=300
+max_loading_time=900
 
 increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
@@ -166,8 +166,8 @@ intro_month=1
 retire_year=1905
 retire_month=3
 
-min_loading_time=30
-max_loading_time=90
+min_loading_time=200
+max_loading_time=400
 
 increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
@@ -215,8 +215,8 @@ intro_month=1
 retire_year=1905
 retire_month=3
 
-min_loading_time=30
-max_loading_time=90
+min_loading_time=200
+max_loading_time=400
 
 increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
@@ -300,7 +300,7 @@ name=CartMailNew
 copyright=James
 waytype=road
 freight=Post
-payload=50
+payload=95
 speed=12
 weight=1
 # Necessary to prohibit this vehicle from bridleways
