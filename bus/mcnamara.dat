@@ -21,14 +21,8 @@ retire_month=1
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
-loading_time=3000
-#upgrade[0]=
-#upgrade_price=
-available_only_as_upgrade=0
-fixed_maintenance=0
-overcrowded_capacity=0
+min_loading_time=25
+max_loading_time=300
 
 EmptyImage[E]=./images/mcnamara-van.0.0
 EmptyImage[SE]=./images/mcnamara-van.0.1
