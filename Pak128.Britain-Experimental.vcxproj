@@ -81,6 +81,8 @@
     <None Include="air\air192\Aerospatiale_BAC_Concorde.dat" />
     <None Include="air\air192\Boeing_707_320C_PelicanCargoAirlines.dat" />
     <None Include="air\air192\Boeing_707_420_BOAC.dat" />
+    <None Include="air\air192\Boeing_727_200Adv_DHL_Yellow.dat" />
+    <None Include="air\air192\Boeing_727_200Adv_TNT.dat" />
     <None Include="air\air192\Boeing_727_200_BritishAirWays.dat" />
     <None Include="air\air192\Boeing_727_200_DHL_Yellow.dat" />
     <None Include="air\air192\Boeing_727_200_TNT.dat" />
@@ -95,6 +97,8 @@
     <None Include="air\ATR_42_500_TitanAirways.dat" />
     <None Include="air\ATR_72_200_BritishAirways.dat" />
     <None Include="air\ATR_72_200_FedEx_Post.dat" />
+    <None Include="air\ATR_72_500_AurignyAirServices.dat" />
+    <None Include="air\ATR_72_500_FarnairEurope.dat" />
     <None Include="air\BAC_111_200_BUA.dat" />
     <None Include="air\BAC_111_500_Caledonian.dat" />
     <None Include="air\BAE_146_100_DanAirLondon.dat" />
@@ -105,6 +109,7 @@
     <None Include="air\Boeing_727_100_UPS_Cargo.dat" />
     <None Include="air\Ford_Trimotor_NSA.dat" />
     <None Include="air\Ford_Trimotor_RoyalMail.dat" />
+    <None Include="air\Vickers_Viscount_757_Cambrian.dat" />
     <None Include="air\Vickers_Viscount_802_BEA.dat" />
     <None Include="attractions\library.dat" />
     <None Include="attractions\little-park.dat" />
@@ -591,6 +596,7 @@
     <None Include="trains\mr-8wheel-clayton-bogie-clerestories.dat" />
     <None Include="trains\mr-non-cor.dat" />
     <None Include="trains\mr-push-pull.dat" />
+    <None Include="trains\ner-tyneside-emu.dat" />
     <None Include="trains\sr-3sub.dat" />
     <None Include="trains\sr-4-lav.dat" />
     <None Include="trains\sr-6-pan.dat" />

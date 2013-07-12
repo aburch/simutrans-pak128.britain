@@ -2468,6 +2468,16 @@ BR-150Centre(Regional)
 BR Class 150 "Sprinter" DMU (centre)
 BR-150Rear(Regional)
 BR Class 150 "Sprinter" DMU (rear)
+NER-Tyneside-unit(front)
+NER Tyneside EMU
+NER-Tyneside-unit(rear motor)
+NER Tyneside EMU (rear motor)
+NER-Tyneside-unit(driving trailer)
+NER Tyneside EMU (driving trailer)
+NER-Tyneside-unit(trailer1)
+NER Tyneside EMU (trailer)
+NER-Tyneside-unit(trailer2)
+NER Tyneside EMU (trailer)
 LMS-EMU-driving-trailer
 LMS suburban EMU
 LMS-EMU-centre-trailer
