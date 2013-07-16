@@ -40,7 +40,7 @@ Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
 Constraint[Next][7]=none
 
-EmptyImage[E]=../images/holds.0.0,,40,56
+EmptyImage[E]=../images/holds.0.0,40,56
 EmptyImage[SE]=../images/holds.0.0,48,40
 EmptyImage[S]=../images/holds.0.0,48,48
 EmptyImage[SW]=../images/holds.0.0,64,64
@@ -49,7 +49,7 @@ EmptyImage[NW]=../images/holds.0.0,48,40
 EmptyImage[N]=../images/holds.0.0,56,48
 EmptyImage[NE]=../images/holds.0.0,64,48
 
-FreightImage[E]=../images/holds.1.0,,40,56
+FreightImage[E]=../images/holds.1.0,40,56
 FreightImage[SE]=../images/holds.1.0,48,40
 FreightImage[S]=../images/holds.1.0,48,48
 FreightImage[SW]=../images/holds.1.0,64,64
