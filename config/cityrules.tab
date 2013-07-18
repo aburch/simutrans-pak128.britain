@@ -523,14 +523,27 @@ road_34_chance = -4
 # . . . . . . .
 # . . . . . . .
 # . . h . . . .
-# . s s n n h .
+# s s s n n h .
 # . . h n n s s
 # . . . . . h .
 # . . . . . . .
 
-road_35 = ....... ....... ..h.... .ssnnh. ..hnnss .....h. .......
+road_35 = ....... ....... ..h.... sssnnh. ..hnnss .....h. .......
 road_35_chance = -4
-road_36 = ....... ....... ....h.. .hnnss. ssnnh.. .h..... .......
+road_36 = ....... ....... ....h.. .hnnsss ssnnh.. .h..... .......
 road_36_chance = -4
+
+# . . . . . . .
+# . . . . . . .
+# . . h . . . .
+# s s s n h . .
+# . . h n s s s
+# . . . . h . .
+# . . . . . . .
+
+road_37 = ....... ....... ..h.... sssnh.. ..hnsss ....h.. .......
+road_37_chance = -6
+road_38 = ....... ....... ....h.. ..hnsss sssnh.. ..h.... .......
+road_38_chance = -6
 
 ### End of file
