@@ -248,6 +248,23 @@ house_17.chance = -5
 house_18 = ....... ....... ....... .Ssn... ..ss... ...s... .......
 house_18.chance = -5
 
+### House on an extremely long straightaway with a nearby road
+### Only do this when a road won't build
+##
+# . . . . . . .
+# . . . h h h h
+# S S S s s s s
+# S S S n h h h
+# s s s s s s s
+# . . . h h h h
+# . . . . . . .
+#
+house_19 = ....... ...hhhh SSSssss SSSnhhh ssssssss ...hhhhh .......
+house_19_chance = 0
+house_20 = ....... hhhh... ssssSSS hhhnSSS ssssssss hhhhh... .......
+house_20_chance = 0
+
+
 #### R O A D S ####
 
 ### Straight Road
@@ -502,5 +519,18 @@ road_33_chance = -4
 road_34 = ....... .....S. ..SSS.. ..Snsss .sssS.. ..SSS.. .S.....
 road_34_chance = -4
 
+### Filling in gap from two street grids meeting.
+# . . . . . . .
+# . . . . . . .
+# . . h . . . .
+# . s s n n h .
+# . . h n n s s
+# . . . . . h .
+# . . . . . . .
+
+road_35 = ....... ....... ..h.... .ssnnh. ..hnnss .....h. .......
+road_35_chance = -4
+road_36 = ....... ....... ....h.. .hnnss. ssnnh.. .h..... .......
+road_36_chance = -4
 
 ### End of file
