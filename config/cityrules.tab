@@ -253,15 +253,15 @@ house_18.chance = -5
 ##
 # . . . . . . .
 # . . . h h h h
-# S S S s s s s
-# S S S n h h h
+# . . . s s s s
+# h h S n h h h
 # s s s s s s s
 # . . . h h h h
 # . . . . . . .
 #
-house_19 = ....... ...hhhh SSSssss SSSnhhh ssssssss ...hhhhh .......
+house_19 = ....... ...hhhh ...ssss hhSnhhh ssssssss ...hhhhh .......
 house_19_chance = 0
-house_20 = ....... hhhh... ssssSSS hhhnSSS ssssssss hhhhh... .......
+house_20 = ....... hhhh... ssss... hhhnShh ssssssss hhhhh... .......
 house_20_chance = 0
 
 
@@ -449,7 +449,6 @@ road_24 = ....... ....... ....... .ssnsss .SssSS. ..SssS. ....s..
 road_24.chance = -8
 
 ### Vaguely wandering off from a diagonal toward a straight road.
-## These ALWAYS happen.  Chance -8 means guaranteed rule.
 ##
 # . . . s . . .
 # . . . . . . .
@@ -459,9 +458,9 @@ road_24.chance = -8
 # . S s s S . .
 # . . s . . . .
 road_25 = ...s... ....... ....... ...nss. .SSssS. .SssS.. ..s....
-road_25.chance = -8
+road_25.chance = -4
 road_26 = ...s... ....... ....... .ssn... .SssSS. ..SssS. ....s..
-road_26.chance = -8
+road_26.chance = -4
 
 ### Dead-end extension from a diagonal.
 ##
@@ -497,13 +496,13 @@ road_30.chance = -4
 # . . . . S . .
 # . . . S n S .
 # . s s n n h .
-# . . . S . S .
+# . . . S . . .
 # . . . . . . .
 # . . . . . . .
 #
-road_31 = ....... ....S.. ...SnS. .ssnnh. ...S.S. ....... .......
+road_31 = ....... ....S.. ...SnS. .ssnnh. ...S... ....... .......
 road_31.chance = -4
-road_32 = ....... ..S.... .SnS... .hnnss. .S.S... ....... .......
+road_32 = ....... ..S.... .SnS... .hnnss. ...S... ....... .......
 road_32.chance = -4
 
 ### Diagonal link.
