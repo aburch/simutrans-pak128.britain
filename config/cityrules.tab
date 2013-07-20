@@ -36,7 +36,7 @@ minimum_building_density = 20
 # (encouraging development in the other directions first)
 # In order to avoid bridge overbuilding, this needs to be *really* low, since road extension
 # will be tried repeatedly
-bridge_success_percentage = 15
+bridge_success_percentage = 17
 
 #
 # relative affinities for certain building types which can lead to clustering of certain building types
@@ -248,6 +248,23 @@ house_17.chance = -5
 house_18 = ....... ....... ....... .Ssn... ..ss... ...s... .......
 house_18.chance = -5
 
+### House on an extremely long straightaway with a nearby road
+### Only do this when a road won't build
+##
+# . . . . . . .
+# . . . h h h h
+# . . . s s s s
+# h h S n h h h
+# s s s s s s s
+# . . . h h h h
+# . . . . . . .
+#
+house_19 = ....... ...hhhh ...ssss hhSnhhh ssssssss ...hhhhh .......
+house_19_chance = -2
+house_20 = ....... hhhh... ssss... hhhnShh ssssssss hhhhh... .......
+house_20_chance = -2
+
+
 #### R O A D S ####
 
 ### Straight Road
@@ -432,7 +449,6 @@ road_24 = ....... ....... ....... .ssnsss .SssSS. ..SssS. ....s..
 road_24.chance = -8
 
 ### Vaguely wandering off from a diagonal toward a straight road.
-## These ALWAYS happen.  Chance -8 means guaranteed rule.
 ##
 # . . . s . . .
 # . . . . . . .
@@ -442,9 +458,9 @@ road_24.chance = -8
 # . S s s S . .
 # . . s . . . .
 road_25 = ...s... ....... ....... ...nss. .SSssS. .SssS.. ..s....
-road_25.chance = -8
+road_25.chance = -4
 road_26 = ...s... ....... ....... .ssn... .SssSS. ..SssS. ....s..
-road_26.chance = -8
+road_26.chance = -4
 
 ### Dead-end extension from a diagonal.
 ##
@@ -480,13 +496,13 @@ road_30.chance = -4
 # . . . . S . .
 # . . . S n S .
 # . s s n n h .
-# . . . S . S .
+# . . . S . . .
 # . . . . . . .
 # . . . . . . .
 #
-road_31 = ....... ....S.. ...SnS. .ssnnh. ...S.S. ....... .......
+road_31 = ....... ....S.. ...SnS. .ssnnh. ...S... ....... .......
 road_31.chance = -4
-road_32 = ....... ..S.... .SnS... .hnnss. .S.S... ....... .......
+road_32 = ....... ..S.... .SnS... .hnnss. ...S... ....... .......
 road_32.chance = -4
 
 ### Diagonal link.
@@ -502,5 +518,31 @@ road_33_chance = -4
 road_34 = ....... .....S. ..SSS.. ..Snsss .sssS.. ..SSS.. .S.....
 road_34_chance = -4
 
+### Filling in gap from two street grids meeting.
+# . . . . . . .
+# . . . . . . .
+# . . h . . . .
+# s s s n n h .
+# . . h n n s s
+# . . . . . h .
+# . . . . . . .
+
+road_35 = ....... ....... ..h.... sssnnh. ..hnnss .....h. .......
+road_35_chance = -4
+road_36 = ....... ....... ....h.. .hnnsss ssnnh.. .h..... .......
+road_36_chance = -4
+
+# . . . . . . .
+# . . . . . . .
+# . . h . . . .
+# s s s n h . .
+# . . h n s s s
+# . . . . h . .
+# . . . . . . .
+
+road_37 = ....... ....... ..h.... sssnh.. ..hnsss ....h.. .......
+road_37_chance = -6
+road_38 = ....... ....... ....h.. ..hnsss sssnh.. ..h.... .......
+road_38_chance = -6
 
 ### End of file
