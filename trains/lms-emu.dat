@@ -1,3 +1,4 @@
+# http://en.wikipedia.org/wiki/LMS_electric_units
 obj=vehicle
 name=LMS-EMU-driving-trailer
 engine_type=electric
@@ -97,7 +98,7 @@ name=LMS-EMU-driving-motor
 engine_type=electric
 speed=110
 power=792
-tractive_effort=99
+tractive_effort=62
 gear=80
 copyright=Kieron/JamesPetts/Junna
 intro_year=1926

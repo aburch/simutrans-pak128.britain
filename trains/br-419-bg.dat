@@ -1,10 +1,10 @@
 obj=vehicle
-name=BR-419[MLV](Blue-Grey)
+name=BR-419[MLV]
 engine_type=electric
 speed=145
 gear=80
-power=410
-tractive_effort=117
+power=373
+tractive_effort=40
 copyright=Kieron
 intro_year=1959
 intro_month=1
@@ -28,15 +28,15 @@ way_constraint_permissive[0]=0
 Constraint[Prev][0]=BR-410[CEP]Rear(Blue-Grey)
 Constraint[Prev][1]=BR-414[HAP]Rear(Blue-Grey)
 Constraint[Prev][2]=BR-423-DTCL-Rear
-Constraint[Prev][3]=BR-419[MLV](Blue-Grey)
-Constraint[Prev][4]=BR-499[TLV](Blue-Grey)
+Constraint[Prev][3]=BR-419[MLV]
+Constraint[Prev][4]=BR-499[TLV]
 Constraint[Prev][5]=none
 
 Constraint[Next][0]=BR-410[CEP]Front(Blue-Grey)
 Constraint[Next][1]=BR-414[HAP]Front(Blue-Grey)
 Constraint[Next][2]=BR-423-DTCL-Front
-Constraint[Next][3]=BR-419[MLV](Blue-Grey)
-Constraint[Next][4]=BR-499[TLV](Blue-Grey)
+Constraint[Next][3]=BR-419[MLV]
+Constraint[Next][4]=BR-499[TLV]
 Constraint[Next][5]=none
 
 EmptyImage[E]=./images/br-419-bg.0

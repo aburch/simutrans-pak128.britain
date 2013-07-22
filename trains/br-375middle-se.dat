@@ -53,8 +53,9 @@ name=BR-375Middle2(SE)
 engine_type=electric
 speed=160
 power=500
-tractive_effort=90
-#gear=420
+# See http://www.districtdavesforum.co.uk/thread/22284/378-fifth-car
+tractive_effort=44
+gear=80
 copyright=Kieron
 intro_year=2001
 intro_month=3

@@ -4,8 +4,9 @@ engine_type=diesel
 smoke=Diesel
 speed=120
 gear=50
-power=650
-tractive_effort=75
+power=750
+# http://en.wikipedia.org/wiki/British_Rail_Class_205
+tractive_effort=56
 copyright=Kieron
 intro_year=1958
 intro_month=3

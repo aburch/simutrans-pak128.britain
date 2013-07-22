@@ -1,11 +1,11 @@
-87# These should have low maintenance costs: they are very reliable and save engery with regenerative braking.
+# These should have low maintenance costs: they are very reliable and save engery with regenerative braking.
 
 obj=vehicle
 name=c2c-357(front)
 engine_type=electric
 speed=160
 power=560
-tractive_effort=165
+tractive_effort=85
 gear=80
 copyright=Kieron/JamesPetts
 intro_year=1999
@@ -103,7 +103,7 @@ name=c2c-357(centre2)
 engine_type=electric
 speed=160
 power=560
-tractive_effort=165
+tractive_effort=85
 gear=80
 copyright=Kieron/JamesPetts
 intro_year=1999
@@ -151,7 +151,7 @@ name=c2c-357(rear)
 engine_type=electric
 speed=160
 power=560
-tractive_effort=165
+tractive_effort=85
 gear=80
 copyright=Kieron/JamesPetts
 intro_year=1999

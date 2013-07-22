@@ -2187,23 +2187,23 @@ BR Class 104 DMU (centre)
 BR-104Front
 BR Class 104 DMU
 SR-404[COR]Front
-SR 4-Cor EMU
+SR 4-COR EMU
 SR-404[COR]Middle(Green)
-SR 4-Cor EMU (centre)
+SR 4-COR EMU (centre)
 SR-404[COR]Middle1
-SR 4-Cor EMU (centre)
+SR 4-COR EMU (centre)
 SR-404[COR]Middle-Buf
-SR 4-Cor EMU (buffet car)
+SR 4-COR EMU (buffet car)
 SR-404[COR]Middle-Res
-SR 4-Cor EMU (restaurant car)
+SR 4-COR EMU (restaurant car)
 SR-404[COR]Middle2
-SR 4-Cor EMU (centre)
+SR 4-COR EMU (centre)
 SR-404[COR]Rear
 SR 4-Cor EMU (rear)
 SR-401[BIL]Front
-SR 2-Bil EMU
+SR 2-BIL EMU
 SR-401[BIL]Rear
-SR 2-Bil EMU (rear)
+SR 2-BIL EMU (rear)
 SR-4LAV(front)
 SR 4-LAV EMU
 SR-4LAV(rear)
@@ -2544,13 +2544,13 @@ RM-325Power(RM)
 Royal Mail Class 325 EMU (power)
 RM-325Rear(RM)
 Royal Mail Class 325 EMU (rear)
-BR-499[TLV](Blue-Grey)
+BR-499[TLV]
 BR Class 499 TLV
 BR-489[GLV]
 BR Class 489 GLV
-BR-489[GLV](Intercity)
+BR-489[GLV]
 BR Class 489 GLV
-BR-419[MLV](Blue-Grey)
+BR-419[MLV]
 BR Class 419 MLV
 BR-Mk1-GUV
 BR Mk. 1 GUV
@@ -3012,13 +3012,13 @@ Twin-Shire
 Double Shire Horse
 BR-121
 BR Class 121 DMU
-BR-378Front(LT)
+BR-378Front
 BR London Overground Class 378 EMU
-BR-378Middle(LT)
+BR-378Middle
 BR London Overground Class 378 EMU (centre, powered)
-BR-378Middle(LT)-unpowered
+BR-378Middle-unpowered
 BR London Overground Class 378 EMU (centre)
-BR-378Rear(LT)
+BR-378Rear
 BR London Overground Class 378 EMU (rear)
 LivestockEarly1
 Livestock truck
@@ -3248,11 +3248,11 @@ GWR-Castle
 GWR 4073 "Castle" Class 4-6-0
 GWR-Castle-Tender
 GWR 4073 "Castle" tender
-BR-506Front(BR-Blue)
+BR-506Front
 BR Class 506 EMU
-BR-506Centre(BR-Blue)
+BR-506Centre
 BR Class 506 EMU (centre)
-BR-506Rear(BR-Blue)
+BR-506Rear
 BR Class 506 EMU (rear)
 BR-307(front)
 BR Class 307 EMU
