@@ -7,7 +7,11 @@ cost=250000
 # in place of ballast.
 maintenance=950
 topspeed=320
-max_weight=24
+# Actual French TGV track has an axle load of 17t:
+# http://www.therailwaycentre.com/Recognition%20Tech%20Data%20EMU/EMU_373.html
+# However, HS1 in the UK can accomodate at least the Class 92, with an axle
+# loading of 21t.
+max_weight=21
 intro_year=1978
 intro_month=3
 icon=> ./images/tgv.3.4
