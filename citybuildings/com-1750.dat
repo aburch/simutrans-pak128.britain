@@ -30,6 +30,7 @@ intro_year=1750
 retire_year=1880
 needs_ground=1
 dims=1,1,8
+clusters=4
 
 BackImage[0][0][0][0][0][0]=images/com/1750-terrace-stone-shops.0.0
 BackImage[1][0][0][0][0][0]=images/com/1750-terrace-stone-shops.0.1
@@ -60,6 +61,7 @@ intro_year=1750
 retire_year=1880
 needs_ground=1
 dims=1,1,8
+clusters=4
 
 BackImage[0][0][0][0][0][0]=images/com/1750-terrace-stone-shops.0.0
 BackImage[1][0][0][0][0][0]=images/com/1750-terrace-stone-shops.0.1
@@ -120,4 +122,3 @@ BackImage[0][0][0][0][0][1]=images/com/1750-old_stores.1.0
 BackImage[1][0][0][0][0][1]=images/com/1750-old_stores.1.1
 BackImage[2][0][0][0][0][1]=images/com/1750-old_stores.1.2
 BackImage[3][0][0][0][0][1]=images/com/1750-old_stores.1.3
----

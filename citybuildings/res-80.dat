@@ -2,12 +2,14 @@ Obj=building
 Name=RES_KG_1980_00_04
 copyright=Kieron
 type=res
-chance=100
+chance=90
 Level=4
 intro_year=1980
-retire_year=2000
+# Cannot retire yet as there are no replacements
+#retire_year=2000
 needs_ground=1
 dims=1,1,4
+clusters=3
 
 BackImage[2][0][0][0][0][0]=images/res/80-brick-semi-a.0.0
 BackImage[1][0][0][0][0][0]=images/res/80-brick-semi-a.0.1
@@ -22,12 +24,14 @@ Obj=building
 Name=RES_KG_1980_01_04
 copyright=Kieron
 type=res
-chance=100
+chance=91
 Level=4
-intro_year=1980
+intro_year=1977
+intro_month=1
 retire_year=2000
 needs_ground=1
 dims=1,1,4
+clusters=3
 
 BackImage[2][0][0][0][0][0]=images/res/80-brick-semi-b.0.0
 BackImage[1][0][0][0][0][0]=images/res/80-brick-semi-b.0.1
@@ -46,7 +50,8 @@ type=res
 chance=1
 Level=48
 intro_year=1980
-retire_year=2000
+# Cannot retire yet as there are no replacements
+#retire_year=2000
 needs_ground=1
 dims=1,1,2
 
@@ -54,4 +59,3 @@ BackImage[0][0][0][0][0][0]=images/res/80-5f-tower-block.0.0
 BackImage[1][0][0][0][0][0]=images/res/80-5f-tower-block.0.1
 BackImage[0][0][0][0][0][1]=images/res/80-5f-tower-block.1.0
 BackImage[1][0][0][0][0][1]=images/res/80-5f-tower-block.1.1
---

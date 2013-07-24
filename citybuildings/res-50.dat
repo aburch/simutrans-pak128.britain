@@ -8,6 +8,7 @@ intro_year=1950
 retire_year=1970
 needs_ground=1
 dims=1,1,1
+clusters=15
 
 BackImage[0][0][0][0][0][0]=images/res/50-6f-tower-block.0.0
 BackImage[0][0][0][0][0][1]=images/res/50-6f-tower-block.1.0
@@ -22,6 +23,7 @@ intro_year=1950
 retire_year=1970
 needs_ground=1
 dims=1,1,2
+clusters=3
 
 BackImage[0][0][0][0][0][0]=images/res/50-maissonette.0.0
 BackImage[1][0][0][0][0][0]=images/res/50-maissonette.0.1
@@ -32,12 +34,13 @@ Obj=building
 Name=RES_A_1950_00_24
 copyright=Archon
 type=res
-chance=100
+chance=4
 Level=24
-intro_year=1950
+intro_year=1954
 retire_year=1980
 needs_ground=0
 dims=1,1,4
+clusters=15
 
 BackImage[0][0][0][1][0][0]=images/res/50-apartments-short.0.0
 BackImage[0][0][0][0][0][0]=images/res/50-apartments-short.1.0
@@ -61,12 +64,13 @@ Obj=building
 Name=RES_A_1950_00_28
 copyright=Archon
 type=res
-chance=100
+chance=3
 Level=28
-intro_year=1950
+intro_year=1954
 retire_year=1980
 needs_ground=1
 dims=1,1,4
+clusters=15
 
 BackImage[0][0][0][1][0][0]=images/res/50-apartments-med.0.0
 BackImage[0][0][0][0][0][0]=images/res/50-apartments-med.1.0
@@ -90,12 +94,13 @@ Obj=building
 Name=RES_A_1950_00_32
 copyright=Archon
 type=res
-chance=100
+chance=2
 Level=32
-intro_year=1950
+intro_year=1957
 retire_year=1980
 needs_ground=1
 dims=1,1,4
+clusters=15
 
 BackImage[0][0][0][1][0][0]=images/res/50-apartments-tall.0.0
 BackImage[0][0][0][0][0][0]=images/res/50-apartments-tall.1.0
@@ -119,12 +124,13 @@ Obj=building
 Name=RES_A_1950_00_36
 copyright=Archon
 type=res
-chance=100
+chance=1
 Level=36
-intro_year=1950
+intro_year=1957
 retire_year=1980
 needs_ground=1
 dims=1,1,4
+clusters=15
 
 BackImage[0][0][0][1][0][0]=images/res/50-apartments-xtall.0.0
 BackImage[0][0][0][0][0][0]=images/res/50-apartments-xtall.1.0
@@ -143,4 +149,4 @@ BackImage[2][0][0][1][0][1]=images/res/50-apartments-xtall.2.2
 BackImage[2][0][0][0][0][1]=images/res/50-apartments-xtall.3.2
 BackImage[3][0][0][1][0][1]=images/res/50-apartments-xtall.2.3
 BackImage[3][0][0][0][0][1]=images/res/50-apartments-xtall.3.3
---
+
