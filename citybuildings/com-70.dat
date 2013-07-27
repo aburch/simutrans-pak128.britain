@@ -182,3 +182,26 @@ BackImage[6][0][0][0][0][1]=images/com/70s-fast-food-sfc.1.3
 BackImage[7][0][0][0][0][1]=images/com/70s-fast-food-sfc.1.2
 
 ---
+obj=building
+name=COM_DB_1970_00_24
+copyright=deadlyboring
+type=com
+intro_year=1970
+#retire_year=2020
+#retire_month=12
+noinfo=0
+noconstruction=0
+level=24
+Dims=1,1,4
+chance=4
+needs_ground=0
+climates=desert,tundra,tropic,mediterran,temperate,rocky,arctic
+BackImage[0][0][0][0][0][0]=images/com/70s-shop-offices.0.2
+BackImage[1][0][0][0][0][0]=images/com/70s-shop-offices.0.1
+BackImage[2][0][0][0][0][0]=images/com/70s-shop-offices.0.0
+BackImage[3][0][0][0][0][0]=images/com/70s-shop-offices.0.3
+BackImage[0][0][0][0][0][1]=images/com/70s-shop-offices.1.2
+BackImage[1][0][0][0][0][1]=images/com/70s-shop-offices.1.1
+BackImage[2][0][0][0][0][1]=images/com/70s-shop-offices.1.0
+BackImage[3][0][0][0][0][1]=images/com/70s-shop-offices.1.3
+---
