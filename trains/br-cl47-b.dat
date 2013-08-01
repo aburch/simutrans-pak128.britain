@@ -29,6 +29,9 @@ bidirectional=1
 
 upgrade[0]=BR-Class57
 
+# Green circle
+Constraint[Prev][0]=BR-Class47
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=BR-Large-Logo

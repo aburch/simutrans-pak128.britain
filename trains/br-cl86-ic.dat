@@ -30,6 +30,13 @@ way_constraint_permissive[2]=2
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 
+# TDM
+Constraint[Prev][0]=BR-Class86
+Constraint[Prev][1]=BR-Class87
+Constraint[Prev][2]=BR-Class90
+Constraint[Prev][3]=BR-Class91
+# Also class 89
+
 EmptyImage[E][0]=./images/br-cl86-b.0
 EmptyImage[SE][0]=./images/br-cl86-b.1
 EmptyImage[S][0]=./images/br-cl86-b.2

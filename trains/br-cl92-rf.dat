@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Class92(Railfreight)
+name=BR-Class92
 engine_type=electric
 speed=140
 gear=80
@@ -25,6 +25,9 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
+
+# Within type only
+Constraint[Prev][0]=BR-Class92
 
 EmptyImage[E]=./images/br-cl92-rf.0
 EmptyImage[SE]=./images/br-cl92-rf.1

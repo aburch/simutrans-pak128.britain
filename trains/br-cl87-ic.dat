@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Class87(Rail-Blue)
+name=BR-Class87
 engine_type=electric
 speed=177
 gear=80
@@ -27,6 +27,13 @@ increase_maintenance_after_years=20
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[2]=2
+
+# TDM
+Constraint[Prev][0]=BR-Class86
+Constraint[Prev][1]=BR-Class87
+Constraint[Prev][2]=BR-Class90
+Constraint[Prev][3]=BR-Class91
+# Also class 89
 
 EmptyImage[E]=./images/br-cl87-b.0
 EmptyImage[SE]=./images/br-cl87-b.1

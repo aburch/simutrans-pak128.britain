@@ -28,6 +28,9 @@ increase_maintenance_after_years=20
 can_lead_from_rear=0
 bidirectional=1
 
+# Orange square
+Constraint[Prev][0]=BR-Class50
+
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 

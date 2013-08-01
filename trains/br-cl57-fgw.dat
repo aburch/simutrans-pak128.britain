@@ -28,6 +28,9 @@ can_lead_from_rear=0
 bidirectional=1
 available_only_as_upgrade=1
 
+# Within type only
+Constraint[Prev][0]=BR-Class57
+
 EmptyImage[E]=./images/br-cl57-fgw.0
 EmptyImage[SE]=./images/br-cl57-fgw.1
 EmptyImage[S]=./images/br-cl57-fgw.2

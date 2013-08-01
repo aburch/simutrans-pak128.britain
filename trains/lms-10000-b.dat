@@ -28,6 +28,9 @@ increase_maintenance_after_years=15
 can_lead_from_rear=0
 bidirectional=1
 
+# Multiple working within type
+Constraint[Prev][0]=LMS-10000
+
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised

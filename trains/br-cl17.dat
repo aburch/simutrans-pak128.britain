@@ -27,6 +27,9 @@ increase_maintenance_after_years=11
 can_lead_from_rear=0
 bidirectional=1
 
+# Multiple working within type (red diamond)
+Constraint[Prev][0]=BR-Class17
+
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 

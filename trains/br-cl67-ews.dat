@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Class67(EWS)
+name=BR-Class67
 engine_type=diesel
 smoke=Diesel
 speed=200
@@ -26,6 +26,11 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
+
+# AAR
+Constraint[Prev][0]=BR-Class66
+Constraint[Prev][1]=BR-Class67
+# Also classes 70 and 59
 
 EmptyImage[E]=./images/br-cl67-ews.0
 EmptyImage[SE]=./images/br-cl67-ews.1

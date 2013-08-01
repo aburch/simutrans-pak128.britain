@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Class55(Green)
+name=BR-Class55
 engine_type=diesel
 smoke=Diesel
 speed=160
@@ -28,6 +28,9 @@ increase_maintenance_after_years=15
 
 can_lead_from_rear=0
 bidirectional=1
+
+# No multiple working fitted
+Constraint[Prev][0]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
