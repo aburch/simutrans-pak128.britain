@@ -65,10 +65,14 @@ Diagonal[SE]=way-power_lines-128.3.1
 Diagonal[NW]=way-power_lines-128.3.2
 Diagonal[SW]=way-power_lines-128.3.3
 # slopes
-ImageUp[3]=way-power_lines-128.4.0
-ImageUp[6]=way-power_lines-128.4.1
-ImageUp[9]=way-power_lines-128.4.2
-ImageUp[12]=way-power_lines-128.4.3
+ImageUp[3]=way-power_lines-128.6.0
+ImageUp[6]=way-power_lines-128.6.1
+ImageUp[9]=way-power_lines-128.6.2
+ImageUp[12]=way-power_lines-128.6.3
+ImageUp2[3]=way-power_lines-128.4.0
+ImageUp2[6]=way-power_lines-128.4.1
+ImageUp2[9]=way-power_lines-128.4.2
+ImageUp2[12]=way-power_lines-128.4.3
 
 --------------------------------------------------------------------------------
 Obj=bridge
@@ -86,14 +90,26 @@ BackImage[NS]=-
 FrontImage[NS]=way-power_lines-128.3.0
 BackImage[EW]=-
 FrontImage[EW]=way-power_lines-128.3.1
+BackImage2[NS]=-
+FrontImage2[NS]=way-power_lines-128.3.0
+BackImage2[EW]=-
+FrontImage2[EW]=way-power_lines-128.3.1
 BackRamp[N]=-
-FrontRamp[N]=way-power_lines-128.5.4
+FrontRamp[N]=way-power_lines-128.7.4
 BackRamp[W]=-
-FrontRamp[W]=way-power_lines-128.5.7
+FrontRamp[W]=way-power_lines-128.7.7
 BackRamp[S]=-
-FrontRamp[S]=way-power_lines-128.5.6
+FrontRamp[S]=way-power_lines-128.7.6
 BackRamp[E]=-
-FrontRamp[E]=way-power_lines-128.5.5
+FrontRamp[E]=way-power_lines-128.7.5
+BackRamp2[N]=-
+FrontRamp2[N]=way-power_lines-128.5.4
+BackRamp2[W]=-
+FrontRamp2[W]=way-power_lines-128.5.7
+BackRamp2[S]=-
+FrontRamp2[S]=way-power_lines-128.5.6
+BackRamp2[E]=-
+FrontRamp2[E]=way-power_lines-128.5.5
 BackStart[N]=-
 FrontStart[N]=way-power_lines-128.5.0
 BackStart[S]=-
@@ -102,6 +118,14 @@ BackStart[E]=-
 FrontStart[E]=way-power_lines-128.5.2
 BackStart[W]=-
 FrontStart[W]=way-power_lines-128.5.1
+BackStart2[N]=-
+FrontStart2[N]=way-power_lines-128.5.0
+BackStart2[S]=-
+FrontStart2[S]=way-power_lines-128.5.3
+BackStart2[E]=-
+FrontStart2[E]=way-power_lines-128.5.2
+BackStart2[W]=-
+FrontStart2[W]=way-power_lines-128.5.1
 --------------------------------------------------------------------------------
 Obj=tunnel
 Name=PowerTunnel
@@ -118,5 +142,3 @@ FrontImage[S]=way-power_lines-128.6.6
 FrontImage[E]=way-power_lines-128.6.5
 FrontImage[W]=way-power_lines-128.6.7
 ----------------------------------------
-
-#    EOF

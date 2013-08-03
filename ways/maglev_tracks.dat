@@ -30,6 +30,10 @@ ImageUp[3][0]=./images/maglev-rail-std.1.3,0,0
 ImageUp[6][0]=./images/maglev-rail-std.1.4,0,0
 ImageUp[9][0]=./images/maglev-rail-std.0.0,0,0
 ImageUp[12][0]=./images/maglev-rail-std.0.5,0,0
+ImageUp2[3][0]=./images/maglev-rail-std.1.3,0,0
+ImageUp2[6][0]=./images/maglev-rail-std.1.4,0,0
+ImageUp2[9][0]=./images/maglev-rail-std.0.0,0,0
+ImageUp2[12][0]=./images/maglev-rail-std.0.5,0,0
 --------------------------------------------------
 Obj=way
 Name=Concrete_Maglev_Track_Elevated
@@ -63,6 +67,10 @@ ImageUp[3][0]=./images/maglev-rail-std-elv.1.3,0,32
 ImageUp[6][0]=./images/maglev-rail-std-elv.1.4,0,32
 ImageUp[9][0]=./images/maglev-rail-std-elv.0.0,0,32
 ImageUp[12][0]=./images/maglev-rail-std-elv.0.5,0,32
+ImageUp2[3][0]=./images/maglev-rail-std-elv.1.3,0,32
+ImageUp2[6][0]=./images/maglev-rail-std-elv.1.4,0,32
+ImageUp2[9][0]=./images/maglev-rail-std-elv.0.0,0,32
+ImageUp2[12][0]=./images/maglev-rail-std-elv.0.5,0,32
 ----------------------------------------------
 Obj=way
 Name=Economical_Concrete_Maglev_Track
@@ -96,6 +104,10 @@ ImageUp[3][0]=./images/maglev-rail-eco.1.3
 ImageUp[6][0]=./images/maglev-rail-eco.1.4
 ImageUp[9][0]=./images/maglev-rail-eco.0.0
 ImageUp[12][0]=./images/maglev-rail-eco.0.5
+ImageUp2[3][0]=./images/maglev-rail-eco.1.3
+ImageUp2[6][0]=./images/maglev-rail-eco.1.4
+ImageUp2[9][0]=./images/maglev-rail-eco.0.0
+ImageUp2[12][0]=./images/maglev-rail-eco.0.5
 -----------------------------------------------
 Obj=way
 Name=Economical_Concrete_Maglev_Track_Elevated
@@ -129,4 +141,8 @@ ImageUp[3][0]=./images/maglev-rail-eco-elv.1.3,0,32
 ImageUp[6][0]=./images/maglev-rail-eco-elv.1.4,0,32
 ImageUp[9][0]=./images/maglev-rail-eco-elv.0.0,0,32
 ImageUp[12][0]=./images/maglev-rail-eco-elv.0.5,0,32
+ImageUp2[3][0]=./images/maglev-rail-eco-elv.1.3,0,32
+ImageUp2[6][0]=./images/maglev-rail-eco-elv.1.4,0,32
+ImageUp2[9][0]=./images/maglev-rail-eco-elv.0.0,0,32
+ImageUp2[12][0]=./images/maglev-rail-eco-elv.0.5,0,32
 ----------------------------------------------

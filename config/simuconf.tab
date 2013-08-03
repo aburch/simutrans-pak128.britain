@@ -328,3 +328,6 @@ river_min_length = 20
 # river max length (not too long?)
 river_max_length = 512
 
+tile_height = 8
+
+height_conversion_factor = 2
