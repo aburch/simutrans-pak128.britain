@@ -28,6 +28,7 @@ bidirectional=1
 
 # Within type only
 Constraint[Prev][0]=BR-Class92
+Constraint[Prev][1]=none
 
 EmptyImage[E]=./images/br-cl92-rf.0
 EmptyImage[SE]=./images/br-cl92-rf.1

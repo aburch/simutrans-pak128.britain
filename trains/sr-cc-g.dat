@@ -25,7 +25,8 @@ can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[0]=0
 
-
+# No multiple working
+Constraint[Prev][0]=none
 
 EmptyImage[E]=./images/sr-cc-g.0.0
 EmptyImage[SE]=./images/sr-cc-g.0.1

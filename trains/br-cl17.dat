@@ -29,6 +29,7 @@ bidirectional=1
 
 # Multiple working within type (red diamond)
 Constraint[Prev][0]=BR-Class17
+Constraint[Prev][1]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

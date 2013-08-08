@@ -30,6 +30,7 @@ bidirectional=1
 # Red diamond
 Constraint[Prev][0]=BR-Class56
 Constraint[Prev][1]=BR-Class58
+Constraint[Prev][2]=none
 
 EmptyImage[E]=./images/br-cl56-b.0
 EmptyImage[SE]=./images/br-cl56-b.1

@@ -29,6 +29,7 @@ rolling_resistance=13
 
 # Red circle
 Constraint[Prev][0]=BR-Class30
+Constraint[Prev][1]=none
 
 can_lead_from_rear=0
 bidirectional=1

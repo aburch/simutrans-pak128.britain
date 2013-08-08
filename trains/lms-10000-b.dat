@@ -30,6 +30,7 @@ bidirectional=1
 
 # Multiple working within type
 Constraint[Prev][0]=LMS-10000
+Constraint[Prev][1]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

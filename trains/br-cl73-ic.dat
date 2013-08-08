@@ -29,6 +29,7 @@ way_constraint_permissive[0]=0
 
 # SR EMU
 Constraint[Prev][0]=BR-Class73
+Constraint[Prev][1]=none
 # Also class 33/1 and Mark I electric units.
 # Blue star in diesel mode.
 

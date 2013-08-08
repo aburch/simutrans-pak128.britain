@@ -26,6 +26,10 @@ can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[1]=1
 
+# Within type only
+Constraint[Prev][0]=LNER-ClassEM1
+Constraint[Prev][1]=none
+
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised

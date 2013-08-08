@@ -30,6 +30,7 @@ bidirectional=1
 
 # Orange square
 Constraint[Prev][0]=BR-Class50
+Constraint[Prev][1]=none
 
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo

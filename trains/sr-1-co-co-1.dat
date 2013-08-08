@@ -28,6 +28,7 @@ bidirectional=1
 
 # Multiple working within type
 Constraint[Prev][0]=SR-1-Co-Co-1
+Constraint[Prev][1]=none
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
