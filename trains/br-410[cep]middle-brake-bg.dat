@@ -32,13 +32,12 @@ Constraint[Prev][0]=BR-410[CEP]Front(Blue-Grey)
 Constraint[Next][0]=BR-410[CEP]Middle(Blue-Grey)
 Constraint[Next][1]=BR-410[CEP]Buffet(Blue-Grey)
 
-
-EmptyImage[E]=./images/br-mk1-bc-bg.0
-EmptyImage[SE]=./images/br-mk1-bc-bg.1
-EmptyImage[S]=./images/br-mk1-bc-bg.2
-EmptyImage[SW]=./images/br-mk1-bc-bg.3
-EmptyImage[W]=./images/br-mk1-bc-bg.4
-EmptyImage[NW]=./images/br-mk1-bc-bg.5
-EmptyImage[N]=./images/br-mk1-bc-bg.6
-EmptyImage[NE]=./images/br-mk1-bc-bg.7
+EmptyImage[E]=./images/br-mk1-bso-front-bg.1.4
+EmptyImage[SE]=./images/br-mk1-bso-front-bg.1.5
+EmptyImage[S]=./images/br-mk1-bso-front-bg.1.6
+EmptyImage[SW]=./images/br-mk1-bso-front-bg.1.7
+EmptyImage[W]=./images/br-mk1-bso-front-bg.1.0
+EmptyImage[NW]=./images/br-mk1-bso-front-bg.1.1
+EmptyImage[N]=./images/br-mk1-bso-front-bg.1.2
+EmptyImage[NE]=./images/br-mk1-bso-front-bg.1.3
 

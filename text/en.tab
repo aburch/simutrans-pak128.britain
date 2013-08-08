@@ -2170,10 +2170,6 @@ GWR-ParkRoyal-Railcar
 GWR Park Royal Railcar
 SR-Bulleid-Express-Brake(Green)
 SR Bulleid Brake Corridor
-BR-Mk1-BSO
-BR Mk. 1 Brake Open
-BR-Mk1-BSK
-BR Mk. 1 Gangwayed Corridor Brake
 BR-180Front(FGW)
 BR Class 180 "Adelante"
 BR-309Power(Blue-Grey)
@@ -2392,10 +2388,36 @@ GWR-Droplight-Brake(Mahogany)
 GWR Toplight corridor brake
 GWR-Droplight-Dining(Mahogany)
 GWR Toplight corridor dining carriage
+BR-Mk1-RMB
+BR Mk. 1 mini-buffet
+BR-Mk1-RB
+BR Mk. 1 restaurant buffet
 BR-Mk1-TSO
-BR Mk. 1 Tourist Open
+BR Mk. 1 open carriage
 BR-Mk1-SK
-BR Mk. 1 Gangwayed Corridor
+BR Mk. 1 corridor vestibule carriage
+BR-Mk1-BSO-front
+BR Mk. 1 open brake cariage
+BR-Mk1-BSO-rear
+BR Mk. 1 open brake cariage (rear)
+BR-Mk1-BSK-rear
+BR Mk. 1 corridor vestibule brake carriage (rear)
+BR-Mk1-BSK-front
+BR Mk. 1 corridor vestibule brake carriage
+BR-Mk1-GUV
+BR Mk. 1 general utility vehicle
+BR-Mk1-TPO
+BR Mk. 1 travelling post office
+BR-Mk1-POS
+BR Mk. 1 mail carriage
+BR-Mk1-BG
+BR Mk. 1 mail/brake carriage
+BR-Mk1-Sub
+BR Mk. 1 compartment carriage
+BR-Mk1-Sub-Brake-rear
+BR Mk. 1 compartment brake carriage (rear)
+BR-Mk1-Sub-Brake-front
+BR Mk. 1 compartment brake carriage
 BR-Mk2-TSO
 BR Mk. 2D Standard Open
 BR-Mk3-TSO
@@ -2564,8 +2586,6 @@ BR-489[GLV]
 BR Class 489 GLV
 BR-419[MLV]
 BR Class 419 MLV
-BR-Mk1-GUV
-BR Mk. 1 GUV
 Autic-4_Car_Transporter(Front)
 Autic Car Transporter
 Autic-4_Car_Transporter(Middle1)
@@ -3126,10 +3146,6 @@ GWR-Express-Dining
 GWR express dining car
 SR-Bulleid-Express-Dining(Green)
 SR Bulleid Dining Car
-BR-Mk1-RMB
-BR Mk. 1 Mini-Buffet
-BR-Mk1-RB
-BR Mk. 1 Restaurant Buffet
 BR-Mk2-RFB
 BR Mk. 2D Mini-Buffet
 BR-Mk2-DBSO
@@ -3222,28 +3238,16 @@ LNER-Gresley-Express-TPO
 LNER travelling post office
 SR-Maunsell-TPO(Green)
 SR travelling post office
-BR-Mk1-TPO
-BR Mk. 1 travelling post office
 CC-Clerestory-Mail
 GWR clerestory mail van
 Teak-Clerestory-Mail
 GNR clerestory mail Van
 MR-Clerestory-Mail
 Midland clerestory mail van
-BR-Mk1-BG
-BR Mk. 1 gangwayed brake carriage
-BR-Mk1-Sub
-BR Mk. 1 compartment carriage
-BR-Mk1-Sub-Brake-rear
-BR Mk. 1 compartment brake carriage (rear)
-BR-Mk1-Sub-Brake-front
-BR Mk. 1 compartment brake carriage
 SR-Maunsell-Mail(Green)
 SR mail van
 GWR-Express-Mail
 GWR bow-ended corridor mail coach
-BR-Mk1-POS
-BR Mk. 1 Mail coach
 MSJ&A-EMU-driving-trailer
 MSJ&A stock driving trailer
 MSJ&A-EMU-centre-trailer
@@ -4879,6 +4883,8 @@ Iron coastal paddle ship
 IronPaddleSteamerMail
 Mail deck
 PSChevalierMail
+Mail deck
+PSWaverley2Mail
 Mail deck
 PSComet
 Paddle ship with sail
