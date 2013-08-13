@@ -36,12 +36,14 @@ comfort=95
 
 upgrade[0]=BR-156Front-Trolley(Regional)
 
-Constraint[Prev][0]=BR-156Rear(Regional)
+# BSI multiple working
+Constraint[Prev][0]=BR-150Rear(Regional)
 Constraint[Prev][1]=BR-153(Regional)
 Constraint[Prev][2]=BR-153-Trolley(Regional)
-Constraint[Prev][3]=BR-158-Rear(Regional)
-Constraint[Prev][4]=BR-150Rear(Regional)
-Constraint[Prev][5]=none
+Constraint[Prev][3]=BR-158Rear(Regional)
+Constraint[Prev][4]=BR-156Rear(Regional)
+Constraint[Prev][5]=BR-142Rear(Regional)
+Constraint[Prev][6]=none
 
 Constraint[Next][0]=BR-156Rear(Regional)
 
@@ -94,11 +96,14 @@ catering_level=1
 
 upgrade[0]=BR-156Front(Regional)
 
-Constraint[Prev][0]=BR-156Rear(Regional)
+# BSI multiple working
+Constraint[Prev][0]=BR-150Rear(Regional)
 Constraint[Prev][1]=BR-153(Regional)
 Constraint[Prev][2]=BR-153-Trolley(Regional)
 Constraint[Prev][3]=BR-158Rear(Regional)
-Constraint[Prev][4]=none
+Constraint[Prev][4]=BR-156Rear(Regional)
+Constraint[Prev][5]=BR-142Rear(Regional)
+Constraint[Prev][6]=none
 
 Constraint[Next][0]=BR-156Rear(Regional)
 

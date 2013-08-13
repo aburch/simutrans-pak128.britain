@@ -35,12 +35,16 @@ comfort=95
 Constraint[Prev][0]=BR-156Front(Regional)
 Constraint[Prev][1]=BR-156Front-Trolley(Regional)
 
-Constraint[Next][0]=BR-156Front(Regional)
-Constraint[Next][1]=BR-156Front-Trolley(Regional)
-Constraint[Next][2]=BR-153(Regional)
-Constraint[Next][3]=BR-158Front(Regional)
-Constraint[Next][4]=BR-150Front(Regional)
-Constraint[Next][5]=none
+# BSI multiple working.
+Constraint[Next][0]=BR-150Front(Regional)
+Constraint[Next][1]=BR-153(Regional)
+Constraint[Next][2]=BR-158Front(Regional)
+Constraint[Next][3]=BR-158Front-Trolley(Regional)
+Constraint[Next][4]=BR-156Front(Regional)
+Constraint[Next][5]=BR-153-Trolley(Regional)
+Constraint[Next][6]=BR-156Front-Trolley(Regional)
+Constraint[Next][7]=BR-142Front(Regional)
+Constraint[Next][8]=none
 
 EmptyImage[E]=./images/br-156-rr.1.0
 EmptyImage[SE]=./images/br-156-rr.1.1

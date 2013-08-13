@@ -31,8 +31,14 @@ max_loading_time=55
 comfort=55
 increase_maintenance_after_years=26
 
-Constraint[Prev][0]=BR-142Rear(Regional)
-Constraint[Prev][1]=none
+# BSI multiple working
+Constraint[Prev][0]=BR-150Rear(Regional)
+Constraint[Prev][1]=BR-153(Regional)
+Constraint[Prev][2]=BR-153-Trolley(Regional)
+Constraint[Prev][3]=BR-158Rear(Regional)
+Constraint[Prev][4]=BR-156Rear(Regional)
+Constraint[Prev][5]=BR-142Rear(Regional)
+Constraint[Prev][6]=none
 
 Constraint[Next][0]=BR-142Rear(Regional)
 

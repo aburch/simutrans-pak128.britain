@@ -32,6 +32,9 @@ min_loading_time=25
 max_loading_time=120
 comfort=125
 
+# Although these used "blue square" multiple working systems,
+# they are incompatible with other "blue square" types, having
+# buckeye couplings and pullman gangways: http://railcar.co.uk/type/123/123.html
 Constraint[Prev][0]=BR-123-TS
 Constraint[Prev][1]=BR-123-TBS
 
