@@ -29,7 +29,7 @@ catering_level=1
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1150
 
-sound=aircraft-jet_stop.wav
+sound=planelow.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
