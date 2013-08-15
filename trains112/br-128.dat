@@ -21,14 +21,14 @@ cost=1340000
 runningcost=99
 sound=-1
 
-Constraint[Prev][0]=BR-121
+Constraint[Prev][0]=BR-121(Green)
 Constraint[Prev][1]=BR-128
-Constraint[Prev][2]=BR-104Rear
+Constraint[Prev][2]=BR-104Rear(Green)
 Constraint[Prev][3]=BR-117-DMBS
 Constraint[Prev][4]=none
 
-Constraint[Next][0]=BR-121
-Constraint[Next][1]=BR-104Front
+Constraint[Next][0]=BR-121(Green)
+Constraint[Next][1]=BR-104Front(Green)
 Constraint[Next][2]=BR-128
 Constraint[Next][3]=BR-117-DMS
 Constraint[Next][4]=none

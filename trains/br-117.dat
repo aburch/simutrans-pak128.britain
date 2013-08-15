@@ -23,15 +23,14 @@ sound=-1
 
 Constraint[Prev][0]=BR-121
 Constraint[Prev][1]=BR-117-DMBS
-Constraint[Prev][2]=BR-104Rear
+Constraint[Prev][2]=BR-104Rear(Green)
 Constraint[Prev][3]=BR-128
 Constraint[Prev][4]=none
 
 Constraint[Next][0]=BR-121
 Constraint[Next][1]=BR-117-DMBS
 Constraint[Next][2]=BR-117-TCL
-Constraint[Next][3]=BR-104Front
-Constraint[Next][4]=BR-128
+Constraint[Next][3]=BR-128
 
 
 EmptyImage[E]=./images/br-117-dms-g.1.0
@@ -115,7 +114,7 @@ Constraint[Prev][3]=BR-128
 
 Constraint[Next][0]=BR-121
 Constraint[Next][1]=BR-117-DMS
-Constraint[Next][2]=BR-104Front
+Constraint[Next][2]=BR-104Front(Green)
 Constraint[Next][3]=BR-128
 Constraint[Next][4]=none
 
