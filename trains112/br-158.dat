@@ -20,18 +20,11 @@ cost=2100000
 runningcost=154
 sound=-1
 
-can_lead_from_rear=1
-bidirectional=0
-
-loading_time=9500
-comfort=100
-
-Constraint[Prev][0]=BR-158Rear(Regional)
+Constraint[Prev][0]=BR-153(Regional)
 Constraint[Prev][1]=BR-156Rear(Regional)
-Constraint[Prev][2]=BR-153(Regional)
-Constraint[Prev][3]=BR-153-Trolley(Regional)
-Constraint[Prev][4]=BR-150Rear(Regional)
-Constraint[Prev][5]=none
+Constraint[Prev][2]=BR-158Rear(Regional)
+Constraint[Prev][3]=BR-150Rear(Regional)
+Constraint[Prev][4]=none
 
 Constraint[Next][0]=BR-158Rear(Regional)
 Constraint[Next][1]=BR-158Middle(Regional)
@@ -68,22 +61,14 @@ cost=2100000
 runningcost=154
 sound=-1
 
-can_lead_from_rear=1
-bidirectional=0
-
-loading_time=9500
-comfort=100
-
 Constraint[Prev][0]=BR-158Middle(Regional)
 Constraint[Prev][1]=BR-158Front(Regional)
 
-Constraint[Next][0]=BR-158Front(Regional)
+Constraint[Next][0]=BR-153(Regional)
 Constraint[Next][1]=BR-156Front(Regional)
-Constraint[Next][2]=BR-156Front-Trolley(Regional)
-Constraint[Next][3]=BR-153(Regional)
-Constraint[Next][4]=BR-153-Trolley(Regional)
-Constraint[Next][5]=BR-150Front(Regional)
-Constraint[Next][6]=none
+Constraint[Next][2]=BR-158Front(Regional)
+Constraint[Next][3]=BR-150Front(Regional)
+Constraint[Next][4]=none
 
 EmptyImage[E]=./images/br-158-rr.2.0
 EmptyImage[SE]=./images/br-158-rr.2.1
@@ -122,6 +107,7 @@ Constraint[Prev][0]=BR-158Front(Regional)
 Constraint[Prev][1]=BR-158Middle(Regional)
 
 Constraint[Next][0]=BR-158Rear(Regional)
+Constraint[Next][1]=BR-158Middle(Regional)
 
 EmptyImage[E]=./images/br-158-rr.1.0
 EmptyImage[SE]=./images/br-158-rr.1.1
