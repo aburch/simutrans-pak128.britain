@@ -21,7 +21,7 @@ max_loading_time=2700
 retire_year=1998
 retire_month=6
 
-sound=aircraft-jet_stop.wav
+sound=planelow.wav
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=1400
@@ -69,7 +69,7 @@ retire_month=06
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1550
 
-sound=aircraft-jet_stop.wav
+sound=planelow.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -113,7 +113,7 @@ retire_month=06
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1550
 
-sound=aircraft-jet_stop.wav
+sound=planelow.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
