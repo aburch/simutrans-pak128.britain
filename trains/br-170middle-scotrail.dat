@@ -34,10 +34,8 @@ max_loading_time=60
 comfort=122
 
 Constraint[Prev][0]=BR-170Front(Scotrail)
-Constraint[Prev][1]=BR-170Middle(Scotrail)
 
 Constraint[Next][0]=BR-170Rear(Scotrail)
-Constraint[Next][1]=BR-170Middle(Scotrail)
 
 EmptyImage[E]=./images/br-170-Scotrail.1.0
 EmptyImage[SE]=./images/br-170-Scotrail.1.1
