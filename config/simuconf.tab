@@ -496,7 +496,7 @@ allow_underground_transformers = 1
 
 # How much is the total electric power available (in relation to total production) 
 # in parts per thousand. 1000 = 100% and default for Simutrans-Experimental.
-electric_promille = 1000
+electric_promille = 1200
 
 # powerlines
 cost_transformer = 2500
