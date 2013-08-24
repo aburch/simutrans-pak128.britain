@@ -2,12 +2,14 @@ obj=vehicle
 name=Single-ShireNarrow
 engine_type=bio
 smoke=none
-speed=5
-#gear=350
-power=2
+# This should be changed when we have different types of horses:
+# shire horses were built for strength, not speed.
+speed=18
+power=1
+tractive_effort=1
 copyright=James
-intro_year=1750
-intro_month=1
+intro_year=1836
+intro_month=5
 retire_year=1918
 retire_month=1
 waytype=narrowgauge_track
@@ -16,6 +18,7 @@ payload=0
 length=2
 
 weight=1
+axle_load=0
 cost=66000
 runningcost=3
 sound=-1

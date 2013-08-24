@@ -1,9 +1,9 @@
 obj=vehicle
-name=BR-Class55(Green)
+name=BR-Class55
 engine_type=diesel
 smoke=Diesel
 speed=160
-#gear=280
+gear=50
 power=2460
 tractive_effort=222
 copyright=Kieron
@@ -17,8 +17,10 @@ waytype=track
 freight=None
 payload=0
 length=12
+rolling_resistance=13
 
 weight=101
+axles=6
 cost=13364000
 runningcost=2442
 sound=-1
@@ -26,6 +28,9 @@ increase_maintenance_after_years=15
 
 can_lead_from_rear=0
 bidirectional=1
+
+# No multiple working fitted
+Constraint[Prev][0]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

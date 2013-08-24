@@ -1,17 +1,18 @@
 obj=vehicle
 name=Teak-Clerestory-Mail
-speed=145
+speed=160
 copyright=James
-intro_year=1894
+intro_year=1897
 intro_month=4
-retire_year=1923
+retire_year=1913
 retire_month=5
 waytype=track
 freight=Post
-payload=50
+payload=500
 length=10
 
 weight=25
+axles=4
 cost=660000
 runningcost=32
 sound=-1

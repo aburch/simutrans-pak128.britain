@@ -3,7 +3,7 @@ name=BR-251Rear
 engine_type=diesel
 smoke=Diesel
 speed=145
-#gear=525
+gear=50
 power=750
 tractive_effort=65
 copyright=Kieron
@@ -17,6 +17,7 @@ payload=18
 length=11
 
 weight=67
+axles=4
 cost=3998000
 runningcost=500
 sound=-1
@@ -27,7 +28,7 @@ bidirectional=0
 
 min_loading_time=45
 max_loading_time=150
-comfort=150
+comfort=146
 
 Constraint[Prev][0]=BR-251SecondParlourRear
 

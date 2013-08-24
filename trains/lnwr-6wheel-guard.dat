@@ -1,45 +1,52 @@
+# These vehicles the later 30'1" standard types built from 
+# the mid 1880s onwards. See "London & North Western Railway
+# Thirty Foot One Inch Carriages" by Philip A. Millard for details.
+
+# For the purposes of comfort, note 5'10" between compartments in third.
+
 obj=vehicle
 name=LNWR-6Wheel-Guard
-speed=135
-copyright=Kieron/James
+speed=150
+copyright=Kieron/jamespetts
 intro_year=1887
-intro_month=10
-retire_year=1910
-retire_month=8
+intro_month=7
+retire_year=1896
+retire_month=2
 waytype=track
 freight=Post
-payload=15
-overcrowded_capacity=7
-length=7
+payload=320
+length=6
+brake_force=5
 
-weight=15
-cost=280000
-runningcost=9
+weight=12
+axles=3
+cost=304000
+runningcost=24
 sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-min_loading_time=17
-max_loading_time=47
+min_loading_time=35
+max_loading_time=90
 
+liverytype[0]=LNWR-Black
+liverytype[1]=LMS-Standard
 
-Constraint[Next][0]=LNWR-6Wheel-First
-Constraint[Next][1]=LNWR-6Wheel-Guard
-Constraint[Next][2]=MSLR-4Wheel-Composite
-Constraint[Next][3]=MSLR-4Wheel-Brake
-Constraint[Next][4]=LNWR-1847-First
-Constraint[Next][5]=LNWR-1847-Brake
-Constraint[Next][6]=LNWR-1847-Mail
-Constraint[Next][7]=LNWR-6Wheel-Mail
-Constraint[Next][8]=MSLR-4Wheel-Mail
-Constraint[Next][9]=none
+EmptyImage[E][0]=./images/lnwr-6wheel-full-brake.1.0
+EmptyImage[SE][0]=./images/lnwr-6wheel-full-brake.1.1
+EmptyImage[S][0]=./images/lnwr-6wheel-full-brake.1.2
+EmptyImage[SW][0]=./images/lnwr-6wheel-full-brake.1.3
+EmptyImage[W][0]=./images/lnwr-6wheel-full-brake.1.4
+EmptyImage[NW][0]=./images/lnwr-6wheel-full-brake.1.5
+EmptyImage[N][0]=./images/lnwr-6wheel-full-brake.1.6
+EmptyImage[NE][0]=./images/lnwr-6wheel-full-brake.1.7
 
-EmptyImage[E]=./images/lnwr-6wheel-guard.0.0
-EmptyImage[SE]=./images/lnwr-6wheel-guard.0.1
-EmptyImage[S]=./images/lnwr-6wheel-guard.0.2
-EmptyImage[SW]=./images/lnwr-6wheel-guard.0.3
-EmptyImage[W]=./images/lnwr-6wheel-guard.0.4
-EmptyImage[NW]=./images/lnwr-6wheel-guard.0.5
-EmptyImage[N]=./images/lnwr-6wheel-guard.0.6
-EmptyImage[NE]=./images/lnwr-6wheel-guard.0.7
+EmptyImage[E][1]=./images/lnwr-6wheel-full-brake.1.0
+EmptyImage[SE][1]=./images/lnwr-6wheel-full-brake.1.1
+EmptyImage[S][1]=./images/lnwr-6wheel-full-brake.1.2
+EmptyImage[SW][1]=./images/lnwr-6wheel-full-brake.1.3
+EmptyImage[W][1]=./images/lnwr-6wheel-full-brake.1.4
+EmptyImage[NW][1]=./images/lnwr-6wheel-full-brake.1.5
+EmptyImage[N][1]=./images/lnwr-6wheel-full-brake.1.6
+EmptyImage[NE][1]=./images/lnwr-6wheel-full-brake.1.7
 

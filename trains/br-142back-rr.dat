@@ -4,6 +4,7 @@ engine_type=diesel
 smoke=Diesel
 speed=120
 power=168
+gear=50
 tractive_effort=35
 copyright=Kieron
 intro_year=1985
@@ -17,13 +18,14 @@ overcrowded_capacity=41
 length=9
 
 weight=24
+axles=2
 cost=1250000
 runningcost=99
 sound=-1
 
 min_loading_time=20
 max_loading_time=55
-comfort=60
+comfort=55
 
 can_lead_from_rear=1
 bidirectional=0
@@ -31,8 +33,16 @@ increase_maintenance_after_years=26
 
 Constraint[Prev][0]=BR-142Front(Regional)
 
-Constraint[Next][0]=BR-142Front(Regional)
-Constraint[Next][1]=none
+# BSI multiple working.
+Constraint[Next][0]=BR-150Front(Regional)
+Constraint[Next][1]=BR-153(Regional)
+Constraint[Next][2]=BR-158Front(Regional)
+Constraint[Next][3]=BR-158Front-Trolley(Regional)
+Constraint[Next][4]=BR-156Front(Regional)
+Constraint[Next][5]=BR-153-Trolley(Regional)
+Constraint[Next][6]=BR-156Front-Trolley(Regional)
+Constraint[Next][7]=BR-142Front(Regional)
+Constraint[Next][8]=none
 
 EmptyImage[E]=./images/br-142-rr.1.0
 EmptyImage[SE]=./images/br-142-rr.1.1

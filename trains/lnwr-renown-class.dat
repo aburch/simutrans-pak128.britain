@@ -1,0 +1,51 @@
+# Rebuilds from unreliable Webb compounds
+
+obj=vehicle
+name=LNWR-Renown
+engine_type=steam
+smoke=Steam
+speed=135
+# Extrapolated
+power=232
+# Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Renown_Class
+tractive_effort=73
+copyright=James/jamespetts
+intro_year=1908
+intro_month=3
+retire_year=1924
+retire_month=5
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Weight from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Renown_Class
+weight=57
+axle_load=15
+upgrade_price=1700000
+runningcost=850
+sound=-1
+available_only_as_upgrade=1
+
+liverytype[0]=LNWR-Black
+liverytype[1]=LMS-Standard
+
+Constraint[Next][0]=LNWR-PrinceOfWales-Tender
+
+EmptyImage[E][0]=./images/lnwr-precursor_E.0
+EmptyImage[SE][0]=./images/lnwr-precursor_SE.0
+EmptyImage[S][0]=./images/lnwr-precursor_S.0
+EmptyImage[SW][0]=./images/lnwr-precursor_SW.0
+EmptyImage[W][0]=./images/lnwr-precursor_W.0
+EmptyImage[NW][0]=./images/lnwr-precursor_NW.0
+EmptyImage[N][0]=./images/lnwr-precursor_N.0
+EmptyImage[NE][0]=./images/lnwr-precursor_NE.0
+
+EmptyImage[E][1]=./images/lnwr-precursor-lms_E.0
+EmptyImage[SE][1]=./images/lnwr-precursor-lms_SE.0
+EmptyImage[S][1]=./images/lnwr-precursor-lms_S.0
+EmptyImage[SW][1]=./images/lnwr-precursor-lms_SW.0
+EmptyImage[W][1]=./images/lnwr-precursor-lms_W.0
+EmptyImage[NW][1]=./images/lnwr-precursor-lms_NW.0
+EmptyImage[N][1]=./images/lnwr-precursor-lms_N.0
+EmptyImage[NE][1]=./images/lnwr-precursor-lms_NE.0

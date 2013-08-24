@@ -2,9 +2,9 @@ obj=vehicle
 name=1914TubeStockFront
 engine_type=electric
 speed=60
-#gear=500
+gear=80
 power=150
-tractive_effort=56
+tractive_effort=28
 length=8
 copyright=James
 intro_year=1914
@@ -17,6 +17,7 @@ payload=40
 overcrowded_capacity=80
 
 weight=27
+axles=4
 cost=1050000
 runningcost=90
 sound=-1
@@ -29,7 +30,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=16
 max_loading_time=55
-comfort=66
+comfort=54
 
 Constraint[Prev][0]=1914TubeStockRear
 Constraint[Prev][1]=none
@@ -61,9 +62,9 @@ obj=vehicle
 name=1914TubeStockRear
 engine_type=electric
 speed=60
-#gear=500
+gear=80
 power=150
-tractive_effort=56
+tractive_effort=28
 length=8
 copyright=James
 intro_year=1914
@@ -76,6 +77,7 @@ payload=40
 overcrowded_capacity=80
 
 weight=27
+axles=4
 cost=1050000
 runningcost=90
 sound=-1
@@ -88,7 +90,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=16
 max_loading_time=55
-comfort=66
+comfort=54
 
 Constraint[Prev][0]=1906TubeStockTrailer
 

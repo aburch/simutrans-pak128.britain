@@ -3,8 +3,10 @@ name=LMS-4P
 engine_type=steam
 smoke=Steam
 # Lower maximum speed than 1000 class, as wheel diameter reduced.
-speed=125
-power=1075
+speed=130
+# Extrapolated
+power=355
+# http://en.wikipedia.org/wiki/LMS_Compound_4-4-0
 tractive_effort=101
 copyright=James
 intro_year=1924
@@ -16,8 +18,9 @@ freight=None
 payload=0
 length=6
 
-# http://en.wikipedia.org/wiki/LMS_Compound_4-4-07
+# http://en.wikipedia.org/wiki/LMS_Compound_4-4-0
 weight=63
+axle_load=17
 cost=7800000
 runningcost=813
 sound=-1
@@ -64,6 +67,7 @@ payload=0
 length=4
 
 weight=37
+axles=3
 cost=0
 runningcost=0
 sound=-1

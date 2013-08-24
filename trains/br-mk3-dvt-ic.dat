@@ -8,10 +8,13 @@ retire_year=1989
 retire_month=11
 waytype=track
 freight=Post
-payload=30
+payload=300
 length=11
+brake_force=27
+rolling_resistance=13
 
 weight=43
+axles=4
 cost=641000
 runningcost=20
 sound=-1

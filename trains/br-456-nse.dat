@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-456-DMSO
 speed=121
-copyright=Kieron&JamesPetts
+copyright=Kieron/JamesPetts
 intro_year=1990
 intro_month=7
 retire_year=1995
@@ -13,9 +13,13 @@ overcrowded_capacity=59
 length=11
 engine_type=electric
 power=373
-tractive_effort=133
+gear=80
+tractive_effort=75
+brake_force=30
+rolling_resistance=13
 
 weight=41
+axles=4
 cost=1921000
 runningcost=120
 sound=-1
@@ -26,7 +30,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=76
+comfort=79
 
 Constraint[Prev][0]=BR-456-DTSO
 Constraint[Prev][1]=BR-455-Driving-Rear
@@ -48,7 +52,7 @@ EmptyImage[NE]=./images/br-456-nse.0.7
 obj=vehicle
 name=BR-456-DTSO
 speed=121
-copyright=Kieron&JamesPetts
+copyright=Kieron/JamesPetts
 intro_year=1990
 intro_month=7
 retire_year=1995
@@ -60,8 +64,11 @@ overcrowded_capacity=38
 length=11
 engine_type=electric
 power=0
+brake_force=23
+rolling_resistance=13
 
 weight=31
+axles=4
 cost=1921000
 runningcost=120
 sound=-1
@@ -72,7 +79,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=76
+comfort=79
 
 Constraint[Next][0]=BR-456-DMSO
 Constraint[Next][1]=BR-455-Driving-Front

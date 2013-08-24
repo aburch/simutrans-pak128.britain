@@ -6,6 +6,8 @@ freight=vegetables
 payload=6
 speed=10
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=4
 cost=25000
 runningcost=4
@@ -40,6 +42,8 @@ freight=fish
 payload=6
 speed=10
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=4
 cost=25000
 runningcost=4
@@ -70,9 +74,11 @@ name=StageWagonMail
 copyright=JamesPetts&JamesHood
 waytype=road
 freight=Post
-payload=12
+payload=80
 speed=10
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=4
 cost=25000
 runningcost=5

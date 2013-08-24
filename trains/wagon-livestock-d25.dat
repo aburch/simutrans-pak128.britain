@@ -11,9 +11,12 @@ waytype=track
 freight=livestock
 payload=12
 length=4
+brake_force=0
+rolling_resistance=19
 
 #?
 weight=7
+axle_load=4
 cost=120000
 runningcost=6
 sound=-1

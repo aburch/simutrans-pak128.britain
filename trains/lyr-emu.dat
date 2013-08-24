@@ -3,8 +3,9 @@ name=L&YR-EMU-driving-motor
 engine_type=electric
 speed=89
 power=552
-tractive_effort=85
-copyright=Kieron&JamesPetts
+gear=80
+tractive_effort=30
+copyright=Kieron/JamesPetts
 intro_year=1913
 intro_month=2
 retire_year=1935
@@ -16,6 +17,7 @@ overcrowded_capacity=26
 length=11
 
 weight=55
+axles=4
 cost=13210000
 runningcost=114
 sound=-1
@@ -26,7 +28,7 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=75
-comfort=79
+comfort=72
 way_constraint_permissive[1]=1
 
 Constraint[Prev][0]=L&YR-EMU-driving-trailer
@@ -50,7 +52,7 @@ name=L&YR-EMU-driving-trailer
 engine_type=electric
 speed=89
 power=0
-copyright=Kieron&JamesPetts
+copyright=Kieron/JamesPetts
 intro_year=1913
 intro_month=2
 retire_year=1935
@@ -62,6 +64,7 @@ overcrowded_capacity=29
 length=11
 
 weight=29
+axles=4
 cost=13210000
 runningcost=114
 sound=-1
@@ -73,7 +76,7 @@ way_constraint_permissive[1]=1
 
 min_loading_time=20
 max_loading_time=75
-comfort=79
+comfort=72
 
 Constraint[Prev][0]=L&YR-EMU-driving-motor
 

@@ -1,5 +1,5 @@
 obj=vehicle
-name=LMS-502Middle(Maroon)
+name=LMS-502Middle
 engine_type=electric
 speed=112
 power=0
@@ -15,6 +15,7 @@ overcrowded_capacity=55
 length=11
 
 weight=24
+axles=4
 cost=163200
 runningcost=65
 sound=-1
@@ -24,11 +25,11 @@ bidirectional=1
 
 min_loading_time=15
 max_loading_time=60
-comfort=90
+comfort=80
 
-Constraint[Prev][0]=LMS-502Front(Maroon)
+Constraint[Prev][0]=LMS-502Front
 
-Constraint[Next][0]=LMS-502Rear(Maroon)
+Constraint[Next][0]=LMS-502Rear
 
 EmptyImage[E]=./images/lms-502-ml.1.0
 EmptyImage[SE]=./images/lms-502-ml.1.1

@@ -1,12 +1,16 @@
 obj=vehicle
-name=SR-MerchantNavyRebuilt_4-6-2(Green)
+name=SR-MerchantNavyRebuilt_4-6-2
 engine_type=steam
 smoke=Steam
 speed=160
-#gear=400
-power=1975
+# CALIBRATED:
+# 68mph (108.8km/h) up a 1/80 gradient: see http://www.traintesting.com/images/Mn%2035020%20results.jpg
+# Load not given, but a picture appears to show approx. 9 carriages including dynomometer car:
+# http://www.traintesting.com/images/MN%2035020%20on%20road.jpg
+# 395kW assuming on level; adjusted to +175kW for gradient
+power=570
 tractive_effort=149
-copyright=Kieron&JamesPetts
+copyright=Kieron/JamesPetts
 intro_year=1956
 intro_month=5
 retire_year=1959
@@ -26,7 +30,7 @@ years_before_maintenance_max_reached=10
 
 available_only_as_upgrade=1
 
-Constraint[Next][0]=BR-7MT-Tender(Green)
+Constraint[Next][0]=BR-7MT-Tender
 
 EmptyImage[E]=./images/sr-mn-4-6-2-rebuilt.0.0
 EmptyImage[SE]=./images/sr-mn-4-6-2-rebuilt.0.1

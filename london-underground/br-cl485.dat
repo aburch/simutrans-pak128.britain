@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-Class485Front
 engine_type=electric
 speed=72
-#gear=300
+gear=80
 power=200
 tractive_effort=60
 length=8
@@ -17,6 +17,7 @@ payload=26
 overcrowded_capacity=72
 
 weight=27
+axles=4
 upgrade_price=115000
 runningcost=5
 sound=-1
@@ -31,7 +32,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=14
 max_loading_time=45
-comfort=67
+comfort=57
 
 Constraint[Prev][0]=BR-Class485Rear
 Constraint[Prev][1]=none
@@ -85,6 +86,7 @@ payload=42
 overcrowded_capacity=126
 
 weight=17
+axles=4
 upgrade_price=45000
 runningcost=3
 sound=-1
@@ -99,7 +101,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=14
 max_loading_time=45
-comfort=67
+comfort=57
 
 Constraint[Prev][0]=BR-Class485Front
 
@@ -153,6 +155,7 @@ payload=38
 overcrowded_capacity=114
 
 weight=17
+axles=4
 upgrade_price=45000
 runningcost=3
 sound=-1
@@ -167,7 +170,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=14
 max_loading_time=45
-comfort=67
+comfort=57
 
 Constraint[Prev][0]=BR-Class485Middle1
 
@@ -209,7 +212,7 @@ obj=vehicle
 name=BR-Class485Rear
 engine_type=electric
 speed=72
-#gear=300
+gear=80
 power=200
 tractive_effort=60
 length=8
@@ -224,6 +227,7 @@ payload=26
 overcrowded_capacity=72
 
 weight=27
+axles=4
 upgrade_price=115000
 runningcost=5
 sound=-1
@@ -238,7 +242,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=14
 max_loading_time=45
-comfort=67
+comfort=57
 
 Constraint[Prev][0]=BR-Class485Middle1
 Constraint[Prev][1]=BR-Class485Middle2

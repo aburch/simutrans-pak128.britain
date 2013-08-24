@@ -2,9 +2,11 @@ obj=vehicle
 name=Twin-Shire
 engine_type=bio
 smoke=none
-speed=5
-#gear=150
-power=24
+# This should be changed when we have different types of horses:
+# shire horses were built for strength, not speed.
+speed=18
+power=2
+tractive_effort=2
 copyright=James
 intro_year=1750
 intro_month=1
@@ -16,6 +18,7 @@ payload=0
 length=2
 
 weight=1
+axle_load=0
 cost=132000
 runningcost=6
 sound=-1

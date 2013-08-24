@@ -9,18 +9,19 @@ payload=16
 overcrowded_capacity=5
 speed=70
 power=100
-#gear=100
+gear=50
 weight=5
+axles=2
 length=5
 cost=550000
 runningcost=150
 intro_year=2001
-intro_month=34
+intro_month=3
 # Do not retire this until replacements are available.
 #retire_year=2009
 #retire_month=2
 
-comfort=60
+comfort=39
 min_loading_time=15
 max_loading_time=50
 

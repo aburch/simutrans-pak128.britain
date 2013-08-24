@@ -9,10 +9,11 @@ freight=Passagiere
 
 payload=53
 overcrowded_capacity=20
-speed=90
+speed=84
 power=135
-#gear=100
+gear=50
 weight=9
+axles=2
 length=6
 cost=3250000
 runningcost=125
@@ -21,7 +22,7 @@ intro_month=3
 retire_year=1995
 retire_month=12
 
-comfort=59
+comfort=39
 min_loading_time=20
 max_loading_time=60
 

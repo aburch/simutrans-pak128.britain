@@ -1,8 +1,8 @@
 obj=vehicle
-name=LNER-ClassEM2(Green)
+name=LNER-ClassEM2
 engine_type=electric
 speed=150
-#gear=250
+gear=80
 power=2060
 tractive_effort=200
 copyright=James
@@ -16,6 +16,7 @@ payload=0
 length=10
 
 weight=103
+axles=6
 cost=7296000
 runningcost=1650
 sound=-1
@@ -24,6 +25,9 @@ increase_maintenance_after_years=25
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[1]=1
+
+# No multiple working
+Constraint[Prev][0]=none
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised

@@ -2,9 +2,9 @@ obj=vehicle
 name=1920TubeStockAirDoorFront
 engine_type=electric
 speed=60
-#gear=500
+gear=80
 power=120
-tractive_effort=55
+tractive_effort=27
 length=8
 copyright=James
 intro_year=1919
@@ -17,6 +17,7 @@ payload=40
 overcrowded_capacity=88
 
 weight=27
+axles=4
 cost=950000
 upgrade_price=135714
 runningcost=90
@@ -33,7 +34,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=47
-comfort=57
+comfort=52
 
 Constraint[Prev][0]=1920TubeStockAirDoorRear
 Constraint[Prev][1]=none
@@ -77,6 +78,7 @@ payload=44
 overcrowded_capacity=114
 
 weight=23
+axles=4
 cost=350000
 runningcost=8
 sound=-1
@@ -89,7 +91,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=47
-comfort=56
+comfort=52
 
 Constraint[Prev][0]=1920TubeStockAirDoorFront
 Constraint[Prev][1]=1920TubeStockAirDoorTrailer
@@ -123,9 +125,9 @@ obj=vehicle
 name=1920TubeStockAirDoorRear
 engine_type=electric
 speed=60
-#gear=500
+gear=80
 power=120
-tractive_effort=55
+tractive_effort=27
 length=8
 copyright=James
 intro_year=1919
@@ -138,6 +140,7 @@ payload=40
 overcrowded_capacity=88
 
 weight=27
+axles=4
 cost=950000
 upgrade_price=135714
 runningcost=90
@@ -152,7 +155,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=47
-comfort=57
+comfort=52
 
 Constraint[Prev][0]=1920TubeStockAirDoorTrailer
 

@@ -3,9 +3,9 @@ name=GWR-Gloucester-Parcel-Railcar
 engine_type=diesel
 smoke=Diesel
 speed=130
-#gear=370
+gear=50
 power=195
-tractive_effort=35
+tractive_effort=30
 copyright=Kieron
 intro_year=1935
 intro_month=7
@@ -13,10 +13,11 @@ retire_year=1948
 retire_month=1
 waytype=track
 freight=Post
-payload=50
+payload=500
 length=12
 
 weight=29
+axles=4
 cost=3200000
 runningcost=264
 sound=-1
@@ -28,7 +29,7 @@ bidirectional=1
 min_loading_time=35
 max_loading_time=120
 
-air_resistance=884
+air_resistance=108
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

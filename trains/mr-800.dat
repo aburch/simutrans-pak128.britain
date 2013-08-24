@@ -1,0 +1,55 @@
+obj=vehicle
+name=MR-800
+engine_type=steam
+smoke=Steam
+speed=125
+# Calculated from data from Ahrons, p. 189
+# Loss factor set at 0.76 
+tractive_effort=53
+# CALIBRATED: see Ahrons p. 233
+# Max. speed given as 47mph with a train of 202 tons (278 gross)
+# This was on the flat. This is average, not top, speed, so might
+# be too low.
+power=171
+copyright=Kieron/JamesPetts
+intro_year=1870
+intro_month=2
+retire_year=1877
+retire_month=12
+waytype=track
+freight=None
+payload=0
+length=6
+brake_force=0
+
+# Weight given by Ahrons, p. 189
+weight=36
+axle_load=15
+cost=7000000
+runningcost=1325
+sound=-1
+increase_maintenance_after_years=40
+years_before_maintenance_max_reached=40
+
+Constraint[Next][0]=MR-Kirtley156Tender
+
+liverytype[0]=MR-Early
+liverytype[1]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-800-class-green.1.4
+EmptyImage[SE][0]=./images/mr-800-class-green.1.5
+EmptyImage[S][0]=./images/mr-800-class-green.1.6
+EmptyImage[SW][0]=./images/mr-800-class-green.1.7
+EmptyImage[W][0]=./images/mr-800-class-green.1.0
+EmptyImage[NW][0]=./images/mr-800-class-green.1.1
+EmptyImage[N][0]=./images/mr-800-class-green.1.2
+EmptyImage[NE][0]=./images/mr-800-class-green.1.3
+
+EmptyImage[E][1]=./images/mr-800-class.1.4
+EmptyImage[SE][1]=./images/mr-800-class.1.5
+EmptyImage[S][1]=./images/mr-800-class.1.6
+EmptyImage[SW][1]=./images/mr-800-class.1.7
+EmptyImage[W][1]=./images/mr-800-class.1.0
+EmptyImage[NW][1]=./images/mr-800-class.1.1
+EmptyImage[N][1]=./images/mr-800-class.1.2
+EmptyImage[NE][1]=./images/mr-800-class.1.3

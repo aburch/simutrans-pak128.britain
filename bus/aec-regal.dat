@@ -6,10 +6,11 @@ engine_type=diesel
 freight=Passagiere
 payload=29
 overcrowded_capacity=4
-speed=47
+speed=32
 power=39
-#gear=100
+gear=50
 weight=5
+axles=2
 length=5
 cost=362000
 runningcost=140
@@ -18,7 +19,7 @@ intro_month=12
 retire_year=1947
 retire_month=6
 
-comfort=50
+comfort=41
 min_loading_time=15
 max_loading_time=45
 

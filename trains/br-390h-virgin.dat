@@ -3,6 +3,7 @@ name=BR-390RearCab(Virgin)
 engine_type=electric
 speed=225
 power=855
+gear=80
 tractive_effort=34
 copyright=Kieron
 intro_year=2003
@@ -14,8 +15,11 @@ freight=Passagiere
 payload=46
 overcrowded_capacity=11
 length=13
+brake_force=40
+rolling_resistance=13
 
 weight=53
+axles=4
 cost=2785000
 runningcost=104
 sound=-1
@@ -27,8 +31,8 @@ way_constraint_permissive[2]=2
 
 min_loading_time=30
 max_loading_time=165
-comfort=132
-air_resistance=884
+comfort=117
+air_resistance=108
 
 Constraint[Prev][0]=BR-390RearCoach(Virgin)
 

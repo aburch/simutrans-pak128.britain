@@ -1,10 +1,17 @@
+# TODO: Consider producing separate version with better performance to indicate later series.
 obj=vehicle
 name=GNR-Stirling8Foot
 engine_type=steam
 smoke=Steam
 speed=135
-#gear=450
-power=700
+# CALIBRATED: see http://en.wikipedia.org/wiki/GNR_Stirling_4-2-2
+# Max. speed given as 50mph with a train of 275 tons (343 gross)
+# Assumed to be on the flat. This is average, not top, speed, so might
+# be too low.
+power=203
+# Calculated from information on http://en.wikipedia.org/wiki/GNR_Stirling_4-2-2
+# Loss factor set at 0.75
+tractive_effort=45
 copyright=Kieron
 intro_year=1870
 intro_month=3
@@ -15,7 +22,10 @@ freight=None
 payload=0
 length=5
 
-weight=39
+# http://en.wikipedia.org/wiki/GNR_Stirling_4-2-2
+weight=40
+# Ahrons p. 186
+axle_load=15
 cost=13094400
 runningcost=1750
 sound=-1

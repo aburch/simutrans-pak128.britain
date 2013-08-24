@@ -17,16 +17,23 @@ intro_month=1
 retire_year=1945
 intro_month=1
 
+# 1-2 hours
+min_loading_time=3600
+max_loading_time=7200
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/fifie.0.0
-EmptyImage[SE]=./images/fifie.0.1
-EmptyImage[S]=./images/fifie.0.2
-EmptyImage[SW]=./images/fifie.0.3
-EmptyImage[W]=./images/fifie.0.4
-EmptyImage[NW]=./images/fifie.0.5
-EmptyImage[N]=./images/fifie.0.6
-EmptyImage[NE]=./images/fifie.0.7
+EmptyImage[E]=./images/fifie.1.0
+EmptyImage[SE]=./images/fifie.1.1
+EmptyImage[S]=./images/fifie.1.2
+EmptyImage[SW]=./images/fifie.1.3
+EmptyImage[W]=./images/fifie.1.4
+EmptyImage[NW]=./images/fifie.1.5
+EmptyImage[N]=./images/fifie.1.6
+EmptyImage[NE]=./images/fifie.1.7
 
 -------------

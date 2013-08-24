@@ -13,8 +13,11 @@ freight=Passagiere
 payload=48
 overcrowded_capacity=12
 length=14
+brake_force=40
+rolling_resistance=13
 
 weight=43
+axles=4
 cost=2785000
 runningcost=1200
 sound=-1
@@ -26,9 +29,10 @@ way_constraint_permissive[2]=2
 
 min_loading_time=30
 max_loading_time=165
-comfort=132
+comfort=117
 
 Constraint[Prev][0]=BR-390Coach(Virgin)
+Constraint[Prev][1]=BR-390PoweredCoach(Virgin)
 
 Constraint[Next][0]=BR-390RearCoach(Virgin)
 

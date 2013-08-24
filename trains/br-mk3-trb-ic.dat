@@ -11,8 +11,11 @@ freight=Passagiere
 payload=32
 overcrowded_capacity=9
 length=13
+brake_force=27
+rolling_resistance=13
 
 weight=34
+axles=4
 cost=675000
 runningcost=45
 sound=-1
@@ -23,7 +26,7 @@ catering_level=3
 
 min_loading_time=30
 max_loading_time=160
-comfort=145
+comfort=150
 
 Constraint[Next][0]=BR-Mk3-TSO
 Constraint[Next][1]=BR-Class43Rear
@@ -147,8 +150,11 @@ freight=Passagiere
 payload=32
 overcrowded_capacity=9
 length=13
+brake_force=27
+rolling_resistance=13
 
 weight=34
+axles=4
 cost=590000
 runningcost=30
 sound=-1
@@ -159,7 +165,7 @@ catering_level=3
 
 min_loading_time=30
 max_loading_time=160
-comfort=145
+comfort=150
 
 Constraint[Next][0]=BR-Mk3a-TSO
 Constraint[Next][1]=BR-Mk3-DVT
@@ -281,6 +287,8 @@ freight=Passagiere
 payload=24
 overcrowded_capacity=7
 length=13
+brake_force=27
+rolling_resistance=13
 
 weight=34
 cost=7200000
@@ -293,7 +301,7 @@ catering_level=4
 
 min_loading_time=30
 max_loading_time=160
-comfort=145
+comfort=150
 
 Constraint[Next][0]=BR-Mk3-TSO
 Constraint[Next][1]=BR-Class43Rear
@@ -417,6 +425,8 @@ freight=Passagiere
 payload=24
 overcrowded_capacity=7
 length=13
+brake_force=26
+rolling_resistance=13
 
 weight=34
 cost=7200000
@@ -429,7 +439,7 @@ catering_level=4
 
 min_loading_time=30
 max_loading_time=160
-comfort=145
+comfort=150 
 
 Constraint[Next][0]=BR-Mk3a-TSO
 Constraint[Next][1]=BR-Mk3-DVT

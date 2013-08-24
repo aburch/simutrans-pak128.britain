@@ -4,8 +4,8 @@ name=BR-4EPB(front)
 engine_type=electric
 speed=120
 power=373
-tractive_effort=132
-copyright=Kieron&jamespetts
+tractive_effort=66
+copyright=Kieron/JamesPetts
 intro_year=1951
 intro_month=11
 retire_year=1975
@@ -17,6 +17,7 @@ overcrowded_capacity=42
 length=11
 
 weight=41
+axles=4
 cost=1920000
 upgrade_price=1542000
 runningcost=120
@@ -28,7 +29,8 @@ increase_maintenance_after_years=16
 
 min_loading_time=15
 max_loading_time=45
-comfort=74
+# http://www.semgonline.com/gallery/class415_7.html
+comfort=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(rear)
@@ -39,14 +41,26 @@ Constraint[Prev][3]=none
 Constraint[Next][0]=BR-4EPB(centre1)
 Constraint[Next][1]=BR-2EPB(rear)
 
-EmptyImage[E]=./images/br-4epb-driving.0.0
-EmptyImage[SE]=./images/br-4epb-driving.0.1
-EmptyImage[S]=./images/br-4epb-driving.0.2
-EmptyImage[SW]=./images/br-4epb-driving.0.3
-EmptyImage[W]=./images/br-4epb-driving.0.4
-EmptyImage[NW]=./images/br-4epb-driving.0.5
-EmptyImage[N]=./images/br-4epb-driving.0.6
-EmptyImage[NE]=./images/br-4epb-driving.0.7
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/br-4epb-driving.0.0
+EmptyImage[SE][0]=./images/br-4epb-driving.0.1
+EmptyImage[S][0]=./images/br-4epb-driving.0.2
+EmptyImage[SW][0]=./images/br-4epb-driving.0.3
+EmptyImage[W][0]=./images/br-4epb-driving.0.4
+EmptyImage[NW][0]=./images/br-4epb-driving.0.5
+EmptyImage[N][0]=./images/br-4epb-driving.0.6
+EmptyImage[NE][0]=./images/br-4epb-driving.0.7
+
+EmptyImage[E][1]=./images/br-4epb-driving-blue.0.0
+EmptyImage[SE][1]=./images/br-4epb-driving-blue.0.1
+EmptyImage[S][1]=./images/br-4epb-driving-blue.0.2
+EmptyImage[SW][1]=./images/br-4epb-driving-blue.0.3
+EmptyImage[W][1]=./images/br-4epb-driving-blue.0.4
+EmptyImage[NW][1]=./images/br-4epb-driving-blue.0.5
+EmptyImage[N][1]=./images/br-4epb-driving-blue.0.6
+EmptyImage[NE][1]=./images/br-4epb-driving-blue.0.7
 
 ---
 # This is the driving *trailer* for the 2EBP only.
@@ -56,7 +70,7 @@ engine_type=electric
 speed=120
 power=0
 tractive_effort=0
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1951
 intro_month=11
 retire_year=1975
@@ -68,6 +82,7 @@ overcrowded_capacity=45
 length=11
 
 weight=30
+axles=4
 cost=1095000
 upgrade_price=717000
 runningcost=35
@@ -79,7 +94,7 @@ increase_maintenance_after_years=16
 
 min_loading_time=15
 max_loading_time=45
-comfort=74
+comfort=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(front)
@@ -88,14 +103,26 @@ Constraint[Next][0]=BR-4EPB(front)
 Constraint[Next][1]=BR-414[HAP]Front(Blue-Grey)
 Constraint[Next][2]=none
 
-EmptyImage[E]=./images/br-4epb-driving.1.0
-EmptyImage[SE]=./images/br-4epb-driving.1.1
-EmptyImage[S]=./images/br-4epb-driving.1.2
-EmptyImage[SW]=./images/br-4epb-driving.1.3
-EmptyImage[W]=./images/br-4epb-driving.1.4
-EmptyImage[NW]=./images/br-4epb-driving.1.5
-EmptyImage[N]=./images/br-4epb-driving.1.6
-EmptyImage[NE]=./images/br-4epb-driving.1.7
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/br-4epb-driving.1.0
+EmptyImage[SE][0]=./images/br-4epb-driving.1.1
+EmptyImage[S][0]=./images/br-4epb-driving.1.2
+EmptyImage[SW][0]=./images/br-4epb-driving.1.3
+EmptyImage[W][0]=./images/br-4epb-driving.1.4
+EmptyImage[NW][0]=./images/br-4epb-driving.1.5
+EmptyImage[N][0]=./images/br-4epb-driving.1.6
+EmptyImage[NE][0]=./images/br-4epb-driving.1.7
+
+EmptyImage[E][1]=./images/br-4epb-driving-blue.1.0
+EmptyImage[SE][1]=./images/br-4epb-driving-blue.1.1
+EmptyImage[S][1]=./images/br-4epb-driving-blue.1.2
+EmptyImage[SW][1]=./images/br-4epb-driving-blue.1.3
+EmptyImage[W][1]=./images/br-4epb-driving-blue.1.4
+EmptyImage[NW][1]=./images/br-4epb-driving-blue.1.5
+EmptyImage[N][1]=./images/br-4epb-driving-blue.1.6
+EmptyImage[NE][1]=./images/br-4epb-driving-blue.1.7
 
 ---
 # This is the driving *motor* for the 4EBP only.
@@ -104,8 +131,8 @@ name=BR-4EPB(rear)
 engine_type=electric
 speed=120
 power=373
-tractive_effort=132
-copyright=Kieron&jamespetts
+tractive_effort=66
+copyright=Kieron/JamesPetts
 intro_year=1951
 intro_month=11
 retire_year=1975
@@ -117,6 +144,7 @@ overcrowded_capacity=45
 length=11
 
 weight=41
+axles=4
 cost=1920000
 upgrade_price=1542000
 runningcost=120
@@ -128,7 +156,7 @@ increase_maintenance_after_years=16
 
 min_loading_time=15
 max_loading_time=45
-comfort=74
+comfort=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(centre2)
@@ -137,14 +165,26 @@ Constraint[Next][0]=BR-4EPB(front)
 Constraint[Next][1]=BR-414[HAP]Front(Blue-Grey)
 Constraint[Next][2]=none
 
-EmptyImage[E]=./images/br-4epb-driving.1.0
-EmptyImage[SE]=./images/br-4epb-driving.1.1
-EmptyImage[S]=./images/br-4epb-driving.1.2
-EmptyImage[SW]=./images/br-4epb-driving.1.3
-EmptyImage[W]=./images/br-4epb-driving.1.4
-EmptyImage[NW]=./images/br-4epb-driving.1.5
-EmptyImage[N]=./images/br-4epb-driving.1.6
-EmptyImage[NE]=./images/br-4epb-driving.1.7
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/br-4epb-driving.1.0
+EmptyImage[SE][0]=./images/br-4epb-driving.1.1
+EmptyImage[S][0]=./images/br-4epb-driving.1.2
+EmptyImage[SW][0]=./images/br-4epb-driving.1.3
+EmptyImage[W][0]=./images/br-4epb-driving.1.4
+EmptyImage[NW][0]=./images/br-4epb-driving.1.5
+EmptyImage[N][0]=./images/br-4epb-driving.1.6
+EmptyImage[NE][0]=./images/br-4epb-driving.1.7
+
+EmptyImage[E][1]=./images/br-4epb-driving-blue.1.0
+EmptyImage[SE][1]=./images/br-4epb-driving-blue.1.1
+EmptyImage[S][1]=./images/br-4epb-driving-blue.1.2
+EmptyImage[SW][1]=./images/br-4epb-driving-blue.1.3
+EmptyImage[W][1]=./images/br-4epb-driving-blue.1.4
+EmptyImage[NW][1]=./images/br-4epb-driving-blue.1.5
+EmptyImage[N][1]=./images/br-4epb-driving-blue.1.6
+EmptyImage[NE][1]=./images/br-4epb-driving-blue.1.7
 
 ---
 
@@ -154,7 +194,7 @@ engine_type=electric
 speed=120
 power=0
 tractive_effort=0
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1951
 intro_month=11
 retire_year=1975
@@ -166,6 +206,7 @@ overcrowded_capacity=54
 length=11
 
 weight=28
+axles=4
 cost=945000
 upgrade_price=567000
 runningcost=35
@@ -177,21 +218,33 @@ increase_maintenance_after_years=16
 
 min_loading_time=15
 max_loading_time=45
-comfort=74
+comfort=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(front)
 
 Constraint[Next][0]=BR-4EPB(centre2)
 
-EmptyImage[E]=./images/br-4epb-centre-trailer.0
-EmptyImage[SE]=./images/br-4epb-centre-trailer.1
-EmptyImage[S]=./images/br-4epb-centre-trailer.2
-EmptyImage[SW]=./images/br-4epb-centre-trailer.3
-EmptyImage[W]=./images/br-4epb-centre-trailer.4
-EmptyImage[NW]=./images/br-4epb-centre-trailer.5
-EmptyImage[N]=./images/br-4epb-centre-trailer.6
-EmptyImage[NE]=./images/br-4epb-centre-trailer.7
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/br-4epb-centre-trailer.0
+EmptyImage[SE][0]=./images/br-4epb-centre-trailer.1
+EmptyImage[S][0]=./images/br-4epb-centre-trailer.2
+EmptyImage[SW][0]=./images/br-4epb-centre-trailer.3
+EmptyImage[W][0]=./images/br-4epb-centre-trailer.4
+EmptyImage[NW][0]=./images/br-4epb-centre-trailer.5
+EmptyImage[N][0]=./images/br-4epb-centre-trailer.6
+EmptyImage[NE][0]=./images/br-4epb-centre-trailer.7
+
+EmptyImage[E][1]=./images/br-4epb-centre-trailer-blue.0
+EmptyImage[SE][1]=./images/br-4epb-centre-trailer-blue.1
+EmptyImage[S][1]=./images/br-4epb-centre-trailer-blue.2
+EmptyImage[SW][1]=./images/br-4epb-centre-trailer-blue.3
+EmptyImage[W][1]=./images/br-4epb-centre-trailer-blue.4
+EmptyImage[NW][1]=./images/br-4epb-centre-trailer-blue.5
+EmptyImage[N][1]=./images/br-4epb-centre-trailer-blue.6
+EmptyImage[NE][1]=./images/br-4epb-centre-trailer-blue.7
 
 ---
 
@@ -201,7 +254,7 @@ engine_type=electric
 speed=120
 power=0
 tractive_effort=0
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1951
 intro_month=11
 retire_year=1975
@@ -213,6 +266,7 @@ overcrowded_capacity=54
 length=11
 
 weight=28
+axles=4
 cost=945000
 upgrade_price=567000
 runningcost=35
@@ -224,18 +278,30 @@ increase_maintenance_after_years=16
 
 min_loading_time=15
 max_loading_time=45
-comfort=74
+comfort=77
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(centre1)
 
 Constraint[Next][0]=BR-4EPB(rear)
 
-EmptyImage[E]=./images/br-4epb-centre-trailer.0
-EmptyImage[SE]=./images/br-4epb-centre-trailer.1
-EmptyImage[S]=./images/br-4epb-centre-trailer.2
-EmptyImage[SW]=./images/br-4epb-centre-trailer.3
-EmptyImage[W]=./images/br-4epb-centre-trailer.4
-EmptyImage[NW]=./images/br-4epb-centre-trailer.5
-EmptyImage[N]=./images/br-4epb-centre-trailer.6
-EmptyImage[NE]=./images/br-4epb-centre-trailer.7
+liverytype[0]=BR-Revised
+liverytype[1]=BR-Blue
+
+EmptyImage[E][0]=./images/br-4epb-centre-trailer.0
+EmptyImage[SE][0]=./images/br-4epb-centre-trailer.1
+EmptyImage[S][0]=./images/br-4epb-centre-trailer.2
+EmptyImage[SW][0]=./images/br-4epb-centre-trailer.3
+EmptyImage[W][0]=./images/br-4epb-centre-trailer.4
+EmptyImage[NW][0]=./images/br-4epb-centre-trailer.5
+EmptyImage[N][0]=./images/br-4epb-centre-trailer.6
+EmptyImage[NE][0]=./images/br-4epb-centre-trailer.7
+
+EmptyImage[E][1]=./images/br-4epb-centre-trailer-blue.0
+EmptyImage[SE][1]=./images/br-4epb-centre-trailer-blue.1
+EmptyImage[S][1]=./images/br-4epb-centre-trailer-blue.2
+EmptyImage[SW][1]=./images/br-4epb-centre-trailer-blue.3
+EmptyImage[W][1]=./images/br-4epb-centre-trailer-blue.4
+EmptyImage[NW][1]=./images/br-4epb-centre-trailer-blue.5
+EmptyImage[N][1]=./images/br-4epb-centre-trailer-blue.6
+EmptyImage[NE][1]=./images/br-4epb-centre-trailer-blue.7

@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-Class73
 engine_type=electric
 speed=145
-#gear=250
+gear=80
 power=1059
 tractive_effort=178
 copyright=Kieron
@@ -14,8 +14,10 @@ waytype=track
 freight=None
 payload=0
 length=10
+rolling_resistance=13
 
 weight=77
+axles=4
 cost=5040000
 runningcost=890
 sound=-1
@@ -24,6 +26,12 @@ increase_maintenance_after_years=22
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[0]=0
+
+# SR EMU
+Constraint[Prev][0]=BR-Class73
+Constraint[Prev][1]=none
+# Also class 33/1 and Mark I electric units.
+# Blue star in diesel mode.
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

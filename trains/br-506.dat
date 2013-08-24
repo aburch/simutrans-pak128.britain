@@ -1,10 +1,11 @@
 obj=vehicle
-name=BR-506Front(BR-Blue)
+name=BR-506Front
 engine_type=electric
 speed=120
 power=552
-tractive_effort=113
-copyright=Kieron&JamesPetts
+gear=80
+tractive_effort=64
+copyright=Kieron/JamesPetts
 intro_year=1950
 intro_month=12
 retire_year=1965
@@ -16,6 +17,7 @@ overcrowded_capacity=39
 length=11
 
 weight=51
+axles=4
 cost=1843000
 runningcost=158
 sound=-1
@@ -27,12 +29,12 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=55
-comfort=81
+comfort=78
 
-Constraint[Prev][0]=BR-506Rear(BR-Blue)
+Constraint[Prev][0]=BR-506Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-506Centre(BR-Blue)
+Constraint[Next][0]=BR-506Centre
 
 EmptyImage[E]=./images/br-506-b.0.0
 EmptyImage[SE]=./images/br-506-b.0.1
@@ -46,11 +48,11 @@ EmptyImage[NE]=./images/br-506-b.0.7
 ----
 
 obj=vehicle
-name=BR-506Centre(BR-Blue)
+name=BR-506Centre
 engine_type=electric
 speed=120
 power=0
-copyright=Kieron&JamesPetts
+copyright=Kieron/JamesPetts
 intro_year=1950
 intro_month=12
 retire_year=1965
@@ -62,6 +64,7 @@ overcrowded_capacity=46
 length=11
 
 weight=26
+axles=4
 cost=1843000
 runningcost=158
 sound=-1
@@ -73,11 +76,11 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=55
-comfort=81
+comfort=78
 
-Constraint[Prev][0]=BR-506Front(BR-Blue)
+Constraint[Prev][0]=BR-506Front
 
-Constraint[Next][0]=BR-506Rear(BR-Blue)
+Constraint[Next][0]=BR-506Rear
 
 EmptyImage[E]=./images/br-506-b.1.0
 EmptyImage[SE]=./images/br-506-b.1.1
@@ -92,11 +95,11 @@ EmptyImage[NE]=./images/br-506-b.1.7
 ----
 
 obj=vehicle
-name=BR-506Rear(BR-Blue)
+name=BR-506Rear
 engine_type=electric
 speed=120
 power=0
-copyright=Kieron&JamesPetts
+copyright=Kieron/JamesPetts
 intro_year=1950
 intro_month=12
 retire_year=1965
@@ -108,6 +111,7 @@ overcrowded_capacity=45
 length=11
 
 weight=28
+axles=4
 cost=1843000
 runningcost=158
 sound=-1
@@ -119,11 +123,11 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=55
-comfort=81
+comfort=78
 
-Constraint[Prev][0]=BR-506Centre(BR-Blue)
+Constraint[Prev][0]=BR-506Centre
 
-Constraint[Next][0]=BR-506Front(BR-Blue)
+Constraint[Next][0]=BR-506Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-506-b.2.0

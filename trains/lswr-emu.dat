@@ -3,8 +3,9 @@ name=LSWR-EMU(front)
 engine_type=electric
 speed=97
 power=400
-tractive_effort=90
-copyright=Kieron&jamespetts
+gear=80
+tractive_effort=28
+copyright=Kieron/JamesPetts
 intro_year=1913
 intro_month=6
 retire_year=1925
@@ -16,6 +17,7 @@ overcrowded_capacity=35
 length=11
 
 weight=30
+axles=4
 cost=1461000
 upgrade_price=1022700
 runningcost=123
@@ -36,7 +38,7 @@ upgrade[6]=BR-4EPB(centre2)
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=75
 
 Constraint[Prev][0]=LSWR-EMU(rear)
 Constraint[Prev][1]=SR-3SUB(rear)
@@ -62,8 +64,9 @@ name=LSWR-EMU(rear)
 engine_type=electric
 speed=97
 power=400
-tractive_effort=90
-copyright=Kieron&jamespetts
+gear=80
+tractive_effort=28
+copyright=Kieron/JamesPetts
 intro_year=1913
 intro_month=6
 retire_year=1925
@@ -75,6 +78,7 @@ overcrowded_capacity=35
 length=11
 
 weight=30
+axles=4
 cost=1461000
 upgrade_price=1022700
 runningcost=123
@@ -95,7 +99,7 @@ upgrade[6]=BR-4EPB(centre2)
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=75
 
 Constraint[Prev][0]=LSWR-EMU(centre)
 Constraint[Prev][1]=SR-4SUB(centre2)
@@ -121,7 +125,7 @@ obj=vehicle
 name=LSWR-EMU(centre)
 engine_type=electric
 speed=97
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1913
 intro_month=6
 retire_year=1925
@@ -133,6 +137,7 @@ overcrowded_capacity=39
 length=10
 
 weight=25
+axles=4
 cost=716000
 upgrade_price=143200
 runningcost=36
@@ -153,7 +158,7 @@ upgrade[6]=BR-4EPB(centre2)
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=75
 
 Constraint[Next][0]=LSWR-EMU(rear)
 Constraint[Next][1]=SR-4SUB(centre2)

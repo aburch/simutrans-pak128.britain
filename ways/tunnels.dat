@@ -4,8 +4,9 @@ copyright=James
 waytype=track
 cost=2200000
 maintenance=3000
-topspeed=110
-max_weight=105
+topspeed=80
+# This has to be fudged rather, as there is no way presently of separating the tunnel from the track.
+max_weight=19
 intro_year=1829
 intro_month=3
 retire_year=1940
@@ -32,8 +33,9 @@ copyright=James
 waytype=track
 cost=2700000
 maintenance=4400
-topspeed=175
-max_weight=150
+# Based on the speed limit for the Severn Tunnel
+topspeed=120
+max_weight=22
 intro_year=1848
 intro_month=9
 retire_year=1986
@@ -60,8 +62,8 @@ copyright=James
 waytype=track
 cost=3000000
 maintenance=4000
-topspeed=225
-max_weight=150
+topspeed=135
+max_weight=26
 intro_year=1959
 intro_month=7
 # Normal images
@@ -86,8 +88,9 @@ copyright=James
 waytype=track
 cost=4400000
 maintenance=7000
-topspeed=350
-max_weight=160
+# http://en.wikipedia.org/wiki/Channel_Tunnel
+topspeed=160
+max_weight=23
 intro_year=1978
 intro_month=3
 # Normal images
@@ -107,6 +110,63 @@ icon=> rail-tunnel-concrete.1.3
 cursor=rail-tunnel-concrete.1.2
 -------------------------------
 Obj=tunnel
+Name=NarrowTunnelBrick
+copyright=James
+waytype=narrowgauge_track
+cost=1500000
+maintenance=2500
+topspeed=40
+max_weight=12
+intro_year=1871
+intro_month=7
+# Could do with a later concrete tunnel
+#retire_year=
+#retire_month=
+# Normal images
+BackImage[W][0]=narrowgauge-tunnel-brick.1.0
+FrontImage[W][0]=narrowgauge-tunnel-brick.0.0
+BackImage[N][0]=narrowgauge-tunnel-brick.1.1
+FrontImage[N][0]=narrowgauge-tunnel-brick.0.1
+FrontImage[E][0]=narrowgauge-tunnel-brick.0.2
+FrontImage[S][0]=narrowgauge-tunnel-brick.0.3
+BackImage[W][1]=narrowgauge-tunnel-brick-snow.1.0
+FrontImage[W][1]=narrowgauge-tunnel-brick-snow.0.0
+BackImage[N][1]=narrowgauge-tunnel-brick-snow.1.1
+FrontImage[N][1]=narrowgauge-tunnel-brick-snow.0.1
+FrontImage[E][1]=narrowgauge-tunnel-brick-snow.0.2
+FrontImage[S][1]=narrowgauge-tunnel-brick-snow.0.3
+icon=> narrowgauge-tunnel-brick.1.3
+cursor=narrowgauge-tunnel-brick.1.2
+-------------------------------
+Obj=tunnel
+Name=NarrowTunnelStone
+copyright=James
+waytype=narrowgauge_track
+cost=1350000
+maintenance=2675
+topspeed=20
+max_weight=8
+intro_year=1832
+intro_month=5
+retire_year=1871
+retire_month=7
+# Normal images
+BackImage[W][0]=narrowgauge-tunnel-stone.1.0
+FrontImage[W][0]=narrowgauge-tunnel-stone.0.0
+BackImage[N][0]=narrowgauge-tunnel-stone.1.1
+FrontImage[N][0]=narrowgauge-tunnel-stone.0.1
+FrontImage[E][0]=narrowgauge-tunnel-stone.0.2
+FrontImage[S][0]=narrowgauge-tunnel-stone.0.3
+BackImage[W][1]=narrowgauge-tunnel-stone-snow.1.0
+FrontImage[W][1]=narrowgauge-tunnel-stone-snow.0.0
+BackImage[N][1]=narrowgauge-tunnel-stone-snow.1.1
+FrontImage[N][1]=narrowgauge-tunnel-stone-snow.0.1
+FrontImage[E][1]=narrowgauge-tunnel-stone-snow.0.2
+FrontImage[S][1]=narrowgauge-tunnel-stone-snow.0.3
+icon=> narrowgauge-tunnel-stone.1.3
+cursor=narrowgauge-tunnel-stone.1.2
+-------------------------------
+Obj=tunnel
 Name=CanalTunnel
 copyright=James
 waytype=water
@@ -119,8 +179,8 @@ intro_month=9
 #retire_year=2050
 #retire_month=1
 
-way_constraint_permissive[4]=4
-way_constraint_prohibitive[2]=2
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[2]=2 # Barge
 
 # Normal images
 BackImage[W][0]=canal-tunnel.1.0
@@ -139,13 +199,43 @@ icon=> canal-tunnel.1.3
 cursor=canal-tunnel.1.2
 -----------------------------------------------
 Obj=tunnel
+Name=CanalTunnelNarrow
+copyright=James
+waytype=water
+cost=480000
+maintenance=960
+topspeed=30
+max_weight=100
+intro_year=1773
+intro_month=1
+
+way_constraint_permissive[4]=4  # Waterway
+way_constraint_prohibitive[4]=4 # Narrow
+
+# Normal images
+BackImage[W][0]=narrow-canal-tunnel.1.0
+FrontImage[W][0]=narrow-canal-tunnel.0.0
+BackImage[N][0]=narrow-canal-tunnel.1.1
+FrontImage[N][0]=narrow-canal-tunnel.0.1
+FrontImage[E][0]=narrow-canal-tunnel.0.2
+FrontImage[S][0]=narrow-canal-tunnel.0.3
+BackImage[W][1]=narrow-canal-tunnel-snow.1.0
+FrontImage[W][1]=narrow-canal-tunnel-snow.0.0
+BackImage[N][1]=narrow-canal-tunnel-snow.1.1
+FrontImage[N][1]=narrow-canal-tunnel-snow.0.1
+FrontImage[E][1]=narrow-canal-tunnel-snow.0.2
+FrontImage[S][1]=narrow-canal-tunnel-snow.0.3
+icon=> narrow-canal-tunnel.1.3
+cursor=narrow-canal-tunnel.1.2
+-----------------------------------------------
+Obj=tunnel
 Name=RoadTunnelStone
 copyright=James
 waytype=road
 cost=880000
 maintenance=1000
 topspeed=35
-max_weight=100
+max_weight=12
 intro_year=1750
 intro_month=1
 retire_year=1940
@@ -173,7 +263,7 @@ waytype=road
 cost=800000
 maintenance=1600
 topspeed=50
-max_weight=100
+max_weight=12
 intro_year=1900
 intro_month=1
 # Normal images
@@ -199,7 +289,7 @@ waytype=road
 cost=1460000
 maintenance=1500
 topspeed=110
-max_weight=100
+max_weight=16
 intro_year=1960
 intro_month=1
 # Normal images
@@ -224,8 +314,8 @@ copyright=James
 waytype=maglev_track
 cost=10000000
 maintenance=9000
-topspeed=560
-max_weight=100
+topspeed=225
+max_weight=50
 intro_year=2004
 intro_month=1
 # Normal images
@@ -250,8 +340,8 @@ copyright=James
 waytype=maglev_track
 cost=8000000
 maintenance=4900
-topspeed=320
-max_weight=100
+topspeed=200
+max_weight=50
 intro_year=2004
 intro_month=1
 # Normal images

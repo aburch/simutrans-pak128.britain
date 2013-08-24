@@ -1,15 +1,19 @@
 Obj=way
 Name=tgv
 waytype=track
-cost=220000
+cost=250000
 # Maintenance of this type of track should be lower
 # than it otherwise would be owing to its hard base
 # in place of ballast.
-maintenance=1750
+maintenance=950
 topspeed=320
-max_weight=150
-intro_year = 1978
-intro_month = 3
+# Actual French TGV track has an axle load of 17t:
+# http://www.therailwaycentre.com/Recognition%20Tech%20Data%20EMU/EMU_373.html
+# However, HS1 in the UK can accomodate at least the Class 92, with an axle
+# loading of 21t.
+max_weight=21
+intro_year=1978
+intro_month=3
 icon=> ./images/tgv.3.4
 cursor=./images/tgv.3.5
 Image[-][0]=./images/tgv.1.2

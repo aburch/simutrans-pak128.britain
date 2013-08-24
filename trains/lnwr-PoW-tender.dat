@@ -1,10 +1,10 @@
 obj=vehicle
-name=LNWR-PrinceOfWales-Tender(Black)
-speed=130
+name=LNWR-PrinceOfWales-Tender
+speed=145
 power=0
 copyright=James
-intro_year=1904
-intro_month=3
+intro_year=1897
+intro_month=5
 retire_year=1924
 retire_month=1
 waytype=track
@@ -13,15 +13,19 @@ payload=0
 length=4
 
 weight=35
+axles=3
 cost=0
 runningcost=0
 sound=-1
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=22
 
-Constraint[Prev][0]=LNWR-PrinceOfWales(Black)
+Constraint[Prev][0]=LNWR-PrinceOfWales
 Constraint[Prev][1]=LNWR-Precursor
 Constraint[Prev][2]=LNWR-George-V
+Constraint[Prev][3]=LNWR-Jubilee
+Constraint[Prev][4]=LNWR-Alfred-the-Great
+Constraint[Prev][5]=LNWR-Experiment
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard

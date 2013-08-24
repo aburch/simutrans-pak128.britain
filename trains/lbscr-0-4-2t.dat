@@ -2,12 +2,13 @@ obj=vehicle
 name=LBSCR-0-4-2T
 engine_type=steam
 smoke=Steam
-speed=70
+speed=78
+# Estimated based on similar types
+power=71
 # No data from Ahrons available. 
-# Extrapolated from LNWR Side Tank.
-power=208
-tractive_effort=24
-copyright=James&jamespetts
+# Approximately extrapolated from LNWR Sharp Tank.
+tractive_effort=23
+copyright=James/jamespetts
 intro_year=1855
 intro_month=2
 retire_year=1866
@@ -16,9 +17,12 @@ waytype=track
 freight=None
 payload=0
 length=5
+brake_force=7
+rolling_resistance=19
 
 # Weight not given in Ahrons, but guessed based on contemporaneous types.
 weight=20
+axles=3
 cost=7010000
 runningcost=800
 sound=-1

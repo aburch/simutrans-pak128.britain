@@ -1,9 +1,9 @@
 obj=vehicle
-name=BR-Class67(EWS)
+name=BR-Class67
 engine_type=diesel
 smoke=Diesel
 speed=200
-#gear=450
+gear=50
 power=2200
 tractive_effort=144
 length=11
@@ -15,14 +15,23 @@ intro_month=2
 waytype=track
 freight=None
 payload=0
+brake_force=68
+rolling_resistance=13
 
 weight=90
+axles=4
 cost=5670000
 runningcost=2772
 sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
+
+# AAR
+Constraint[Prev][0]=BR-Class66
+Constraint[Prev][1]=BR-Class67
+Constraint[Prev][2]=none
+# Also classes 70 and 59
 
 EmptyImage[E]=./images/br-cl67-ews.0
 EmptyImage[SE]=./images/br-cl67-ews.1

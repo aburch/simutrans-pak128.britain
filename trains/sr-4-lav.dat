@@ -3,12 +3,13 @@ name=SR-4LAV(front)
 engine_type=electric
 speed=120
 power=410
-tractive_effort=95
-copyright=Kieron&jamespetts
+gear=80
+tractive_effort=30
+copyright=Kieron/JamesPetts
 intro_year=1930
 intro_month=6
-retire_year=1940
-retire_month=1
+retire_year=1941
+retire_month=5
 waytype=track
 freight=Passagiere
 payload=70
@@ -16,6 +17,7 @@ overcrowded_capacity=35
 length=11
 
 weight=42
+axles=4
 cost=1421000
 runningcost=122
 sound=-1
@@ -27,10 +29,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=20
 max_loading_time=46
-comfort=77
+comfort=76
 
 Constraint[Prev][0]=SR-4LAV(rear)
-Constraint[Prev][1]=SR-401[BIL]Rear(Green)
+Constraint[Prev][1]=SR-401[BIL]Rear
 Constraint[Prev][2]=none
 
 Constraint[Next][0]=SR-4LAV(centre1)
@@ -51,12 +53,13 @@ name=SR-4LAV(rear)
 engine_type=electric
 speed=120
 power=410
-tractive_effort=95
-copyright=Kieron&jamespetts
+gear=80
+tractive_effort=30
+copyright=Kieron/JamesPetts
 intro_year=1930
 intro_month=6
-retire_year=1940
-retire_month=1
+retire_year=1941
+retire_month=5
 waytype=track
 freight=Passagiere
 payload=70
@@ -64,6 +67,7 @@ overcrowded_capacity=35
 length=11
 
 weight=42
+axles=4
 cost=1421000
 runningcost=122
 sound=-1
@@ -74,12 +78,12 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=46
-comfort=77
+comfort=76
 
 Constraint[Prev][0]=SR-4LAV(centre2)
 
 Constraint[Next][0]=SR-4LAV(front)
-Constraint[Next][1]=SR-401[BIL]Front(Green)
+Constraint[Next][1]=SR-401[BIL]Front
 Constraint[Next][2]=none
 
 EmptyImage[E]=./images/sr-4-lav-driving.1.0
@@ -98,11 +102,11 @@ name=SR-4LAV(centre1)
 engine_type=electric
 speed=120
 power=0
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1930
 intro_month=6
-retire_year=1940
-retire_month=1
+retire_year=1941
+retire_month=5
 waytype=track
 freight=Passagiere
 payload=80
@@ -110,6 +114,7 @@ overcrowded_capacity=40
 length=11
 
 weight=28
+axles=4
 cost=801000
 runningcost=35
 sound=-1
@@ -120,7 +125,7 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=46
-comfort=77
+comfort=76
 
 Constraint[Prev][0]=SR-4LAV(front)
 
@@ -142,11 +147,11 @@ name=SR-4LAV(centre2)
 engine_type=electric
 speed=120
 power=0
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1930
 intro_month=6
-retire_year=1940
-retire_month=1
+retire_year=1941
+retire_month=5
 waytype=track
 freight=Passagiere
 payload=54
@@ -154,6 +159,7 @@ overcrowded_capacity=29
 length=11
 
 weight=29
+axles=4
 cost=901200
 runningcost=35
 sound=-1
@@ -164,7 +170,7 @@ bidirectional=0
 
 min_loading_time=20
 max_loading_time=46
-comfort=82
+comfort=110
 
 Constraint[Prev][0]=SR-4LAV(centre1)
 

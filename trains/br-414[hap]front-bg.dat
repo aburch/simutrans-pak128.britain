@@ -2,9 +2,9 @@ obj=vehicle
 name=BR-414[HAP]Front(Blue-Grey)
 engine_type=electric
 speed=121
-#gear=700
+gear=80
 power=370
-tractive_effort=115
+tractive_effort=35
 copyright=Kieron
 intro_year=1956
 intro_month=4
@@ -17,6 +17,7 @@ overcrowded_capacity=86
 length=11
 
 weight=40
+axles=4
 cost=1460000
 upgrade_price=1109600
 runningcost=120
@@ -29,16 +30,16 @@ can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[0]=0
 
-upgrade[0]=BR-489[GLV](Intercity)
+upgrade[0]=BR-489[GLV]
 
 min_loading_time=15
 max_loading_time=45
-comfort=77
+comfort=79
 
 Constraint[Prev][0]=BR-410[CEP]Rear(Blue-Grey)
 Constraint[Prev][1]=BR-414[HAP]Rear(Blue-Grey)
-Constraint[Prev][2]=BR-419[MLV](Blue-Grey)
-Constraint[Prev][3]=BR-499[TLV](Blue-Grey)
+Constraint[Prev][2]=BR-419[MLV]
+Constraint[Prev][3]=BR-499[TLV]
 Constraint[Prev][4]=BR-423-DTCL-Rear
 Constraint[Prev][5]=BR-4EPB(rear)
 Constraint[Prev][6]=BR-2EPB(rear)

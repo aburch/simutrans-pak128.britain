@@ -958,8 +958,6 @@ Blackpool-ProgressTwin-Trailer
 ブラックプール プログレス 後部
 Blackpool-Standard
 ブラックプール スタンダード
-BoatHorsesDouble
-2頭立て曳船馬
 BoatHorsesSingle
 1頭立て曳船馬
 Bogie Tanker(TEA)
@@ -1096,11 +1094,11 @@ BR-375Middle(SE)
 BR クラス375 エレクトロスター EMU 中間部
 BR-375Rear(SE)
 BR クラス375 エレクトロスター EMU 後部
-BR-378Front(LT)
+BR-378Front
 BR クラス378 EMU
-BR-378Middle(LT)
+BR-378Middle
 BR クラス378 EMU 中間部
-BR-378Rear(LT)
+BR-378Rear
 BR クラス378 EMU 後部
 BR-390Coach(Virgin)
 BR 390形 ペンドリーノ 中間車
@@ -1136,7 +1134,7 @@ BR-414[HAP]Front(Blue-Grey)
 BR クラス414 "2Hap" EMU
 BR-414[HAP]Rear(Blue-Grey)
 BR クラス414 "2Hap" EMU 後部
-BR-419[MLV](Blue-Grey)
+BR-419[MLV]
 BR クラス419 手荷物車（動力車）
 BR-442-Front(NSE)
 BR クラス442 NSE
@@ -1154,53 +1152,53 @@ BR-465Middle(NSE)
 BR クラス465 ネットワーカー EMU 中間部
 BR-465Rear(NSE)
 BR クラス465 ネットワーカー EMU 後部
-BR-489[GLV](Intercity)
+BR-489[GLV]
 BR クラス489 GLV
-BR-499[TLV](Blue-Grey)
+BR-499[TLV]
 BR クラス499 TLV
-BR-4MT-Tank(Black)
+BR-4MT-Tank
 BR 標準クラス4MT 2-6-4T
-BR-7MT-Tender(Green)
+BR-7MT-Tender
 BR 標準 テンダー
-BR-7MT(Green)
+BR-7MT
 BR 標準クラス7MT ブリタニア 4-6-2
-BR-8P(Green)
+BR-8P
 BR 標準クラス 8P 4-6-2
-BR-9F-Tender(Black)
+BR-9F-Tender
 BR 標準クラス 9F 2-10-0 テンダー
-BR-9F(Black)
+BR-9F
 BR 標準クラス 9F 2-10-0
-BR-Class20(Green)
+BR-Class20
 BR クラス20
-BR-Class25(Green)
+BR-Class25
 BR クラス25
-BR-Class30(Green)
+BR-Class30
 BR クラス30
-BR-Class31-1(Blue)
+BR-Class31-1
 BR クラス31/1
-BR-Class35(Rail-Blue)
+BR-Class35
 BR クラス35 "Hymek"
-BR-Class37(Rail-Blue)
+BR-Class37
 BR クラス37
-BR-Class40(Green)
+BR-Class40
 BR クラス40
 BR-Class43
 BR クラス43 "HST 125"
 BR-Class43Rear
 BR クラス43 "HST 125" 後部
-BR-Class47(Rail-Blue)
+BR-Class47
 BR クラス47
-BR-Class52(Maroon)
+BR-Class52
 BR クラス52 ウェスタン
-BR-Class55(Green)
+BR-Class55
 BR クラス55 デルタ
-BR-Class56(Rail-Blue)
+BR-Class56
 BR クラス56
-BR-Class58(Grey)
+BR-Class58
 BR クラス58
-BR-Class66(EWS)
+BR-Class66
 BR クラス66
-BR-Class67(EWS)
+BR-Class67
 BR クラス67
 BR-Class71(Green)
 BR クラス71
@@ -1210,15 +1208,15 @@ BR-Class81
 BR クラス81 Bo-Bo
 BR-Class86
 BR クラス86
-BR-Class87(Rail-Blue)
+BR-Class87
 BR クラス87
 BR-Class90
 BR クラス90
 BR-Class91
 BR クラス91 "225"
-BR-Class92(Railfreight)
+BR-Class92
 BR クラス92
-BR-Mk1-BSK
+BR-Mk1-BSK-rear
 BR マーク1 緩急車
 BR-Mk1-BSO
 BR マーク1 緩急車
@@ -1442,9 +1440,9 @@ FordTransitPiece
 フォード トランジット 貨物バン
 FordTransitPost
 フォード トランジット 郵便バン
-GER-Claud-Hamilton-Tender(Blue)
+GER-Claud-Hamilton-Tender
 GER S46 クロード・ハミルトン型 4-4-0 テンダー
-GER-Claud-Hamilton(Blue)
+GER-Claud-Hamilton
 GER S46 クロード・ハミルトン型 4-4-0
 GNR-4Wheel-Brake
 GNR ２軸緩急車
@@ -1472,15 +1470,15 @@ GuyArab
 Guy Arab 2階建てバス
 GWR-1400Tank
 GWR 1400型 0-4-2T
-GWR-2800-Tender(Green)
+GWR-2800-Tender
 GWR 2800型 2-8-0 テンダー
-GWR-2800(Green)
+GWR-2800
 GWR 2800型 2-8-0
 GWR-Autocoach
 GWR オートコーチ（制御付随車）
-GWR-Bulldog-Tender(Green)
+GWR-Bulldog-Tender
 GWR ブルドッグ型 4-4-0 テンダー
-GWR-Bulldog(Green)
+GWR-Bulldog
 GWR ブルドッグ型 4-4-0
 GWR-Churchward-Star
 GWR スター型 4-6-0
@@ -1516,7 +1514,7 @@ GWR-PannierTank
 GWR パニアタンク 0-6-0T
 GWR-ParkRoyal-Railcar
 GWR パーク・ロイヤル レールカー
-GWR-Prairie-Tank(Green)
+GWR-Prairie-Tank
 GWR 3100形 プレイリータンク 2-6-2T
 GWR-Swindon-TwinsetFront
 GWR スウィンドン 前部
@@ -1534,9 +1532,9 @@ HorseBargeLong
 長物バージ
 HorseBargePiece
 混載バージ
-HR-Jones-Goods-Tender(Yellow)
+HR-Jones-Goods-Tender
 HR Jones Goods 4-6-0 テンダー
-HR-Jones-Goods(Yellow)
+HR-Jones-Goods
 HR Jones Goods 4-6-0
 JennyLind
 LBSCR ジェニー・リンド 2-2-2 
@@ -1562,7 +1560,7 @@ LargeArticTrailerMail
 大型郵便トレーラー
 LargeArticTrailerPiece
 大型コンテナトレーラー
-LBSCR-4Wheel-Brake
+LBSCR-4Wheel-Brake-rear
 LBSCR ２軸緩急車
 LBSCR-4Wheel-First
 LBSCR ２軸１等客車
@@ -1716,19 +1714,19 @@ LMR-Rocket
 LMR ロケット号 0-2-2
 LMR-Rocket-Tender
 LMR ロケット号 0-2-2 テンダー
-LMS-10000(Black)
+LMS-10000
 LMS 10000形
 LMS-3F-Jinty
 LMS 3F級 ジンティー 0-6-0T
-LMS-4F-Tender(Black)
+LMS-4F-Tender
 LMS クラス4F 0-6-0 テンダー
-LMS-4F(Black)
+LMS-4F
 LMS クラス4F 0-6-0
-LMS-502Front(Maroon)
+LMS-502Front
 LMS クラス502 EMU
-LMS-502Middle(Maroon)
+LMS-502Middle
 LMS クラス502 EMU 中間部
-LMS-502Rear(Maroon)
+LMS-502Rear
 LMS クラス502 EMU 後部
 LMS-Coronation-BFK(Maroon)
 LMS コロネーション・スコット １等客車（ブレーキ室）
@@ -1738,39 +1736,39 @@ LMS-Coronation-FK(Maroon)
 LMS コロネーション・スコット １等客車
 LMS-Coronation-TO(Maroon)
 LMS コロネーション・スコット ３等客車
-LMS-d1904-Coach
+LMS-open
 LMS D1904 標準客車
-LMS-d1904-Dining
+LMS-diner
 LMS 食堂車
-LMS-d2007-Parcel-Brake
+LMS-full-brake
 LMS d2007 手荷物車（ブレーキ室）
-LMS-Garratt-Front(Black)
+LMS-Garratt-Front
 LMS ギャラット 2-6-0+0-6-2
-LMS-Garratt-Middle(Black)
+LMS-Garratt-Middle
 LMS ギャラット 2-6-0+0-6-2 ボイラー
-LMS-Garratt-Rear(Black)
+LMS-Garratt-Rear
 LMS ギャラット 2-6-0+0-6-2 後部
 LMS-Mail
 LMS 郵便車
-LMS-Patriot-Tender(Maroon)
+LMS-Patriot-Tender
 LMS クラス5XP パトリオット 4-6-0 テンダー
-LMS-Patriot(Maroon)
+LMS-Patriot
 LMS クラス5XP パトリオット 4-6-0
-LMS-Princess-Royal-Tender(Maroon)
+LMS-Princess-Royal-Tender
 LMS クラス7P プリンセスロイヤル テンダー
-LMS-Princess-Royal(Maroon)
+LMS-Princess-Royal
 LMS クラス7P プリンセスロイヤル
-LMS-Stanier-5MT-Tender(Black)
+LMS-Stanier-5MT-Tender
 LMS クラス5MT ブラックファイブ テンダー
-LMS-Stanier-5MT(Black)
+LMS-Stanier-5MT
 LMS クラス5MT ブラックファイブ 4-6-0
-LMS-Stanier-7P-Tender(Maroon)
+LMS-Stanier-7P-Tender
 LMS 8P形 プリンセス・コロネーション 4-6-2 テンダー
-LMS-Stanier-7P(Maroon)
+LMS-Stanier-7P
 LMS 8P形 プリンセス・コロネーション 4-6-2
-LMS-Stanier-8F-Tender(Black)
+LMS-Stanier-8F-Tender
 LMS クラス8F 2-8-0 テンダー
-LMS-Stanier-8F(Black)
+LMS-Stanier-8F
 LMS クラス8F 2-8-0
 LMS-TPO
 LMS 移動郵便局
@@ -1782,17 +1780,17 @@ LNER-A4-Tender
 LNER A4形 テンダー
 LNER-A4
 LNER A4形 4-6-2
-LNER-B17-Tender(Green)
+LNER-B17-Tender
 LNER クラスB17 フットボーラー 4-6-0 テンダー
-LNER-B17(Green)
+LNER-B17
 LNER クラスB17 フットボーラー 4-6-0
-LNER-B17-5-Tender(Green)
+LNER-B17-5-Tender
 LNER クラスB17/5 4-6-0 テンダー
-LNER-B17-5(Green)
+LNER-B17-5
 LNER クラスB17/5 4-6-0
-LNER-ClassEM1(Black)
+LNER-ClassEM1
 LNER クラスEM1 Bo-Bo(0-4+4-0)
-LNER-ClassEM2(Green)
+LNER-ClassEM2
 LNER/BR クラスEM2 Co-Co
 LNER-Coronation-Brake-Third-Triple(front)
 LNER コロネーション ３連節３等客車 前部（ブレーキ室）
@@ -1828,51 +1826,51 @@ LNER-Gresley-Express-Parcel-Brake
 LNER 急行 チーク材車掌車
 LNER-Gresley-Express-TPO
 LNER 急行 チーク材移動郵便局
-LNER-J94(Black)
+LNER-J94
 WD/LNER クラスJ94 0-6-0ST
-LNER-P2-Tender(Green)
+LNER-P2-Tender
 LNER クラスP2 2-8-2 テンダー
-LNER-P2(Green)
+LNER-P2
 LNER クラスP2 2-8-2
-LNER-V2-Tender(Green)
+LNER-V2-Tender
 LNER クラスV2 テンダー
-LNER-V2(Green)
+LNER-V2
 LNER クラスV2 2-6-2
-LNWR-1847-Brake
+4-wheel-1850s-brake
 LNWR ２軸緩急車
-LNWR-1847-First
+4-wheel-1850s
 LNWR ２軸客車
-LNWR-1847-Mail
+4-wheel-1850s-mail
 LNWR ２軸郵便車
-LNWR-6Wheel-First
+LNWR-6Wheel-non-lav
 LNWR ３軸１等客車
 LNWR-6Wheel-Guard
 LNWR ３軸緩急車
 LNWR-6Wheel-Mail
 LNWR ３軸郵便車
-LNWR-AClass-Tender(Black)
+LNWR-AClass-Tender
 LNWR A形 0-8-0 テンダー
-LNWR-AClass(Black)
+LNWR-AClass
 LNWR A形 0-8-0
-LNWR-Bloomer-Tender(Red)
+LNWR-Bloomer-Tender
 LNWR ブルーマー型 2-2-2 テンダー
-LNWR-Bloomer(Red)
+LNWR-Bloomer
 LNWR ブルーマー型 2-2-2
 LNWR-DXgoods-Tender(Green)
 LNWR DX Goods 0-6-0 テンダー
-LNWR-DXgoods(Green)
+LNWR-DXgoods
 LNWR DX Goods 0-6-0
-LNWR-Jumbo-Tender(Black)
+LNWR-Jumbo-Tender
 LNWR ジャンボ型 2-2-2-0 テンダー
-LNWR-Jumbo(Black)
+LNWR-Jumbo
 LNWR ジャンボ型 2-2-2-0
-LNWR-PrinceOfWales-Tender(Black)
+LNWR-PrinceOfWales-Tender
 LNWR プリンスオブウェールズ型 4-6-0 テンダー
-LNWR-PrinceOfWales(Black)
+LNWR-PrinceOfWales
 LNWR プリンスオブウェールズ型 4-6-0
-LNWR-Problem-Tender(Green)
+LNWR-Problem-Tender
 LNWR プロブレム型 2-2-2 テンダー
-LNWR-Problem(Green)
+LNWR-Problem
 LNWR プロブレム型 2-2-2
 Long10T
 10t長物車
@@ -1890,15 +1888,15 @@ LongEarly2
 長物カート
 LongEarly3
 長物カート
-LSWR-M7(Olive)
+LSWR-M7
 LSWR M7形 0-4-4T
 LSWR-Third-Brake
 LSWR ３等緩急車
 LSWR-Third-Carriage
 LSWR ３等客車
-LYR-Class25-Tender(Black)
+LYR-Class25-Tender
 LYR クラス25 0-6-0 テンダー
-LYR-Class25(Black)
+LYR-Class25
 LYR クラス25 0-6-0
 MailBike
 郵便自転車
@@ -2014,13 +2012,13 @@ MR-Clerestory-Parcel-Brake
 MR 採光窓付手荷物車（ブレーキ室）
 MR-Clerestory-TPO
 MR 採光窓付移動郵便局
-MR-Kirtley156(Maroon)
+MR-Kirtley156
 MR 156形 2-4-0
-MR-Kirtley156Tender(Maroon)
+MR-Kirtley156Tender
 MR 156形 2-4-0 テンダー
-MR-Spinner-Tender(Maroon)
+MR-Spinner-Tender
 MR 673形 ミッドランドスピナー 4-2-2 テンダー
-MR-Spinner(Maroon)
+MR-Spinner
 MR 673形 ミッドランドスピナー 4-2-2
 MSLR-4Wheel-Brake
 MSLR ２軸緩急車
@@ -2028,11 +2026,11 @@ MSLR-4Wheel-Composite
 MSLR ２軸客車
 MSLR-4Wheel-Mail
 MSLR ２軸郵便車
-NER-ClassEE1(Green)
+NER-ClassEE1
 NER クラスEE1 2-Co-2(4-6-4)
-NER-ClassEF1(Green)
+NER-ClassEF1
 NER クラスEF1 Bo-Bo(0-4+4-0)
-NER-ClassES1(Green)
+NER-ClassES1
 NER クラスES1 Bo-Bo(0-4+4-0)
 NET-Bombardier-Incentro(Front)
 NET ボンバルディア Incentro
@@ -2218,17 +2216,17 @@ Single-Shire
 1頭立て鉄道馬車
 Small-2-Deck-Trailer
 小型2階建トラム客車
-SR-401[BIL]Front(Green)
+SR-401[BIL]Front
 SR 2Bil EMU
-SR-401[BIL]Rear(Green)
+SR-401[BIL]Rear
 SR 2Bil EMU 後部
-SR-404[COR]Front(Green)
+SR-404[COR]Front
 SR 4Cor EMU
-SR-404[COR]Middle1(Green)
+SR-404[COR]Middle1
 SR 4Cor EMU 中間車
-SR-404[COR]Middle2(Green)
+SR-404[COR]Middle2
 SR 4Cor EMU 中間車
-SR-404[COR]Rear(Green)
+SR-404[COR]Rear
 SR 4Cor EMU 後部
 SR-Bulleid-Express-Brake(Green)
 SR ブレイド急行 緩急車
@@ -2256,9 +2254,9 @@ SR-N15
 SR N15 キング・アーサー型 4-6-0
 SR-N15-Tender
 SR N15 キング・アーサー型 4-6-0 テンダー
-SR-Q1-Tender(Black)
+SR-Q1-Tender
 SR Q1形 0-6-0 テンダー
-SR-Q1(Black)
+SR-Q1
 SR Q1形 0-6-0
 SR-Schools
 SR V級 スクールズ 4-4-0

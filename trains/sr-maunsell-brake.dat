@@ -13,6 +13,7 @@ overcrowded_capacity=24
 length=11
 
 weight=34
+axles=4
 cost=633000
 runningcost=25
 sound=-1
@@ -22,7 +23,7 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
-comfort=94
+comfort=129
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=30
 # Wooden bodied vehicles become obsolete sooner.

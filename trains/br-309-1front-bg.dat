@@ -3,8 +3,8 @@ name=BR-309-1Front(Blue-Grey)
 engine_type=electric
 speed=160
 power=846
-tractive_effort=135
-#gear=340
+tractive_effort=70
+gear=80
 copyright=Kieron
 intro_year=1962
 intro_month=10
@@ -17,6 +17,7 @@ overcrowded_capacity=17
 length=11
 
 weight=41
+axles=4
 cost=1272000
 runningcost=264
 sound=-1
@@ -28,7 +29,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=25
 max_loading_time=120
-comfort=97
+comfort=137
 
 Constraint[Prev][0]=BR-309Rear(Blue-Grey)
 Constraint[Prev][1]=none

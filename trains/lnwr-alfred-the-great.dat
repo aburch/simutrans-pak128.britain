@@ -1,0 +1,56 @@
+# These were also called the "Benbow class" afer a modification.
+
+obj=vehicle
+name=LNWR-Alfred-the-Great
+engine_type=steam
+smoke=Steam
+speed=140
+# Extrapolated
+power=235
+# Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Alfred_the_Great_Class
+tractive_effort=136
+copyright=James/jamespetts
+intro_year=1901
+intro_month=3
+retire_year=1904
+retire_month=3
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Note: These compound locomotives were considered mechanically unreliable.
+
+# Weight from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Alfred_the_Great_Class
+weight=55
+axle_load=16
+cost=8600000
+runningcost=950
+sound=-1
+increase_maintenance_after_years=17
+years_before_maintenance_max_reached=21
+upgrade[0]=LNWR-Renown
+
+liverytype[0]=LNWR-Black
+liverytype[1]=LMS-Standard
+
+Constraint[Next][0]=LNWR-PrinceOfWales-Tender
+
+# Graphics also used by "Jubilee" class
+EmptyImage[E][0]=./images/lnwr-alfred-the-great.1.4
+EmptyImage[SE][0]=./images/lnwr-alfred-the-great.1.5
+EmptyImage[S][0]=./images/lnwr-alfred-the-great.1.6
+EmptyImage[SW][0]=./images/lnwr-alfred-the-great.1.7
+EmptyImage[W][0]=./images/lnwr-alfred-the-great.1.0
+EmptyImage[NW][0]=./images/lnwr-alfred-the-great.1.1
+EmptyImage[N][0]=./images/lnwr-alfred-the-great.1.2
+EmptyImage[NE][0]=./images/lnwr-alfred-the-great.1.3
+
+EmptyImage[E][1]=./images/lnwr-alfred-the-great-lms.1.4
+EmptyImage[SE][1]=./images/lnwr-alfred-the-great-lms.1.5
+EmptyImage[S][1]=./images/lnwr-alfred-the-great-lms.1.6
+EmptyImage[SW][1]=./images/lnwr-alfred-the-great-lms.1.7
+EmptyImage[W][1]=./images/lnwr-alfred-the-great-lms.1.0
+EmptyImage[NW][1]=./images/lnwr-alfred-the-great-lms.1.1
+EmptyImage[N][1]=./images/lnwr-alfred-the-great-lms.1.2
+EmptyImage[NE][1]=./images/lnwr-alfred-the-great-lms.1.3

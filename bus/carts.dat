@@ -6,6 +6,8 @@ freight=Kohle
 payload=1
 speed=6
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=7500
 runningcost=1
@@ -94,6 +96,8 @@ freight=Bretter
 payload=1
 speed=6
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=7500
 runningcost=1
@@ -152,6 +156,8 @@ freight=vegetables
 payload=1
 speed=6
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=7500
 runningcost=1
@@ -160,8 +166,8 @@ intro_month=1
 retire_year=1905
 retire_month=3
 
-min_loading_time=300
-max_loading_time=900
+min_loading_time=200
+max_loading_time=400
 
 increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
@@ -199,6 +205,8 @@ freight=fish
 payload=1
 speed=6
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=7500
 runningcost=1
@@ -207,8 +215,8 @@ intro_month=1
 retire_year=1905
 retire_month=3
 
-min_loading_time=300
-max_loading_time=900
+min_loading_time=200
+max_loading_time=400
 
 increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
@@ -242,9 +250,11 @@ name=CartMail
 copyright=James
 waytype=road
 freight=Post
-payload=5
+payload=50
 speed=6
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=7500
 runningcost=2
@@ -255,6 +265,8 @@ retire_month=11
 
 min_loading_time=30
 max_loading_time=90
+
+upgrade[0]=CartMailNew
 
 increase_maintenance_after_years=127
 years_before_maintenance_max_reached=30
@@ -288,11 +300,16 @@ name=CartMailNew
 copyright=James
 waytype=road
 freight=Post
-payload=15
+payload=95
 speed=12
 weight=1
+# Necessary to prohibit this vehicle from bridleways
+axle_load=1
 length=3
 cost=8750
+# Just for fun, slightly cheaper to upgrade
+# (just improve the axles for higher speed)
+upgrade_price=8000
 runningcost=3
 intro_year=1825
 intro_month=6
@@ -313,7 +330,7 @@ Constraint[Next][0]=none
 
 EmptyImage[E]=./images/MailCartNew.0.0
 EmptyImage[SE]=./images/MailCartNew.0.1
-EmptyImage[ S]=./images/MailCartNew.0.2
+EmptyImage[S]=./images/MailCartNew.0.2
 EmptyImage[SW]=./images/MailCartNew.0.3
 EmptyImage[W]=./images/MailCartNew.0.4
 EmptyImage[NW]=./images/MailCartNew.0.5

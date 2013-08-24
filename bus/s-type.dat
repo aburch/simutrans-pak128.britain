@@ -5,11 +5,14 @@ copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
 freight=Passagiere
-payload=56
+payload=54
 overcrowded_capacity=4
-speed=32
+speed=20
 power=28
-weight=6
+gear=50
+# http://books.google.co.uk/books?id=9_U9AAAAIAAJ&pg=PA89&lpg=PA89&dq=%22s+type%22+bus+tons&source=bl&ots=iPbhhBMC1M&sig=_aTg-lI1658ArAB8CBlrZrhVREE&hl=en&sa=X&ei=X_BOUdixG4Wr0AWZ4YG4CQ&ved=0CE0Q6AEwAw#v=onepage&q=%22s%20type%22%20bus%20tons&f=false
+weight=8
+axles=2
 length=5
 cost=120000
 runningcost=140
@@ -18,7 +21,7 @@ intro_month=2
 retire_year=1931
 retire_month=5
 
-comfort=37
+comfort=21
 min_loading_time=10
 max_loading_time=50
 
@@ -54,9 +57,11 @@ engine_type=diesel
 freight=Passagiere
 payload=29
 overcrowded_capacity=4
-speed=32
+speed=20
 power=25
+gear=50
 weight=6
+axles=2
 length=5
 cost=107500
 runningcost=110
@@ -65,7 +70,7 @@ intro_month=2
 retire_year=1931
 retire_month=5
 
-comfort=37
+comfort=26
 min_loading_time=10
 max_loading_time=45
 

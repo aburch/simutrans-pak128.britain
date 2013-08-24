@@ -2,13 +2,13 @@ obj=vehicle
 name=LNWR-side-tank
 engine_type=steam
 smoke=Steam
-speed=70
+speed=75
+# Estimated - no heating surface area data available.
+power=67
 # Calculated from data from Ahrons, p. 121
-# Loss factor set at 0.0.7, assumed 100lbs boiler pressure. 
-# Half boiler pressure used to calculate power.
-power=250
+# Loss factor set at 0.7, assumed 100lbs boiler pressure. 
 tractive_effort=26
-copyright=James&jamespetts
+copyright=James/jamespetts
 intro_year=1856
 intro_month=8
 retire_year=1862
@@ -17,9 +17,12 @@ waytype=track
 freight=None
 payload=0
 length=5
+brake_force=7
+rolling_resistance=19
 
 # Weight not given in Ahrons, but guessed based on contemporaneous types.
 weight=22
+axles=3
 cost=7790000
 runningcost=820
 sound=-1

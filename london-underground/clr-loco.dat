@@ -2,7 +2,7 @@ obj=vehicle
 name=1900TubeLoco
 engine_type=electric
 speed=50
-#gear=450
+gear=80
 power=150
 tractive_effort=52
 copyright=James
@@ -16,6 +16,7 @@ payload=0
 length=6
 
 weight=33
+axles=4
 cost=884000
 runningcost=124
 sound=-1

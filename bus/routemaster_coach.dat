@@ -7,10 +7,11 @@ engine_type=diesel
 freight=Passagiere
 
 payload=61
-speed=88
+speed=64
 power=85
-#gear=90
+gear=50
 weight=7
+axle_load=5
 length=7
 cost=2650000
 runningcost=210
@@ -19,7 +20,7 @@ intro_month=2
 retire_year=1968
 retire_month=12
 
-comfort=72
+comfort=70
 min_loading_time=10
 max_loading_time=50
 increase_maintenance_after_years=17

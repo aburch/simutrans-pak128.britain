@@ -4,25 +4,33 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=198
-power=220
+power=940
+tractive_effort=17
 #gear=1
 freight=Post
-payload=14
+#payload 1.2t
+payload=1200
 weight=4
 #length=8
 cost=1800000
 runningcost=550
 intro_year=1926
 intro_month=6
-comfort=1
-## revert to 1933 once more vehicles in timeline
+# revert to 1933 once more vehicles in timeline
 retire_year=1965
 retire_month=7
 
 smoke=Diesel
 
+min_loading_time=2000
+max_loading_time=2400
 
-#sound=aircraft-jet_stop.wav
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1600
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1750
+
+sound=planelow.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

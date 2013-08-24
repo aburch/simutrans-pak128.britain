@@ -1,9 +1,9 @@
 obj=vehicle
-name=BR-Class56(Rail-Blue)
+name=BR-Class56
 engine_type=diesel
 smoke=Diesel
 speed=130
-#gear=200
+gear=50
 power=2420
 tractive_effort=275
 copyright=Kieron
@@ -15,8 +15,10 @@ waytype=track
 freight=None
 payload=0
 length=11
+rolling_resistance=13
 
 weight=126
+axles=6
 cost=6758000
 runningcost=2244
 sound=-1
@@ -24,6 +26,11 @@ increase_maintenance_after_years=16
 
 can_lead_from_rear=0
 bidirectional=1
+
+# Red diamond
+Constraint[Prev][0]=BR-Class56
+Constraint[Prev][1]=BR-Class58
+Constraint[Prev][2]=none
 
 EmptyImage[E]=./images/br-cl56-b.0
 EmptyImage[SE]=./images/br-cl56-b.1

@@ -4,8 +4,9 @@ engine_type=diesel
 smoke=Diesel
 speed=97
 power=2300
+gear=50
 tractive_effort=474
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1989
 intro_month=9
 retire_year=1998
@@ -14,8 +15,11 @@ waytype=track
 freight=None
 payload=0
 length=12
+brake_force=96
+rolling_resistance=13
 
 weight=129
+axles=6
 cost=8206000
 runningcost=2396
 sound=-1
@@ -23,6 +27,10 @@ increase_maintenance_after_years=20
 
 can_lead_from_rear=0
 bidirectional=1
+
+# Within type only
+Constraint[Prev][0]=BR-Class60
+Constraint[Prev][1]=none
 
 EmptyImage[E]=./images/br-cl60-rf.0
 EmptyImage[SE]=./images/br-cl60-rf.1

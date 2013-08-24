@@ -4,11 +4,13 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=775
-power=13500
+power=22500
+tractive_effort=125
 #gear=1
 freight=Post
-payload=110
-weight=29,1
+#payload 9.4t
+payload=9400
+weight=29.1
 #length=8
 cost=16000000
 runningcost=2700
@@ -19,6 +21,11 @@ retire_month=12
 
 min_loading_time=3600
 max_loading_time=3600
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1100
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1200
 
 sound=aircraft-jet_stop.wav
 
@@ -41,11 +48,13 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=775
-power=13500
+power=22500
+tractive_effort=125
 #gear=1
 freight=meat
+#payload 9.4t
 payload=110
-weight=29,1
+weight=29.1
 #length=8
 cost=16000000
 runningcost=2700
@@ -56,6 +65,11 @@ retire_month=12
 
 min_loading_time=3600
 max_loading_time=3600
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1100
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1200
 
 sound=aircraft-jet_stop.wav
 
@@ -78,11 +92,13 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=775
-power=13500
+power=22500
+tractive_effort=125
 #gear=1
 freight=Bucher
+#payload 9.4t
 payload=110
-weight=29,1
+weight=29.1
 #length=8
 cost=16000000
 runningcost=2700
@@ -93,6 +109,11 @@ retire_month=12
 
 min_loading_time=3600
 max_loading_time=3600
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1100
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1200
 
 sound=aircraft-jet_stop.wav
 

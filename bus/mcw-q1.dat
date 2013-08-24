@@ -9,10 +9,11 @@ engine_type=electric
 freight=Passagiere
 payload=71
 overcrowded_capacity=6
-speed=60
+speed=50
 power=135
-#gear=100
+gear=80
 weight=9
+axles=3
 cost=42000
 runningcost=96
 intro_year=1948
@@ -20,7 +21,7 @@ intro_month=1
 retire_year=1966
 retire_month=1
 
-comfort=59
+comfort=46
 min_loading_time=10
 max_loading_time=50
 

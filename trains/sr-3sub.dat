@@ -3,8 +3,9 @@ name=SR-3SUB(front)
 engine_type=electric
 speed=97
 power=410
-tractive_effort=92
-copyright=Kieron&jamespetts
+gear=80
+tractive_effort=31
+copyright=Kieron/JamesPetts
 intro_year=1925
 intro_month=4
 retire_year=1941
@@ -16,6 +17,7 @@ overcrowded_capacity=40
 length=11
 
 weight=30
+axles=4
 cost=1700000
 upgrade_price=1101700
 runningcost=123
@@ -27,7 +29,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=75
 way_constraint_permissive[0]=0
 
 upgrade[0]=BR-414[HAP]Front(Blue-Grey)
@@ -62,8 +64,9 @@ name=SR-3SUB(rear)
 engine_type=electric
 speed=97
 power=410
-tractive_effort=92
-copyright=Kieron&jamespetts
+gear=80
+tractive_effort=31
+copyright=Kieron/JamesPetts
 intro_year=1925
 intro_month=4
 retire_year=1941
@@ -75,6 +78,7 @@ overcrowded_capacity=40
 length=11
 
 weight=30
+axles=4
 cost=1700000
 upgrade_price=1101700
 runningcost=123
@@ -95,7 +99,7 @@ upgrade[6]=BR-4EPB(centre2)
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=75
 
 Constraint[Prev][0]=SR-3SUB(centre)
 Constraint[Prev][1]=SR-4SUB(centre2)
@@ -123,7 +127,7 @@ engine_type=electric
 speed=97
 power=0
 tractive_effort=0
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1925
 intro_month=4
 retire_year=1941
@@ -135,6 +139,7 @@ overcrowded_capacity=45
 length=10
 
 weight=25
+axles=4
 cost=787600
 upgrade_price=157520
 runningcost=36
@@ -147,7 +152,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=72
+comfort=75
 
 upgrade[0]=BR-414[HAP]Front(Blue-Grey)
 upgrade[1]=BR-414[HAP]Rear(Blue-Grey)

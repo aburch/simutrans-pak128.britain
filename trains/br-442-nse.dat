@@ -2,8 +2,6 @@ obj=vehicle
 name=BR-442-Front(NSE)
 engine_type=electric
 speed=160
-#gear=350
-#power=600
 copyright=James
 intro_year=1988
 intro_month=2
@@ -14,8 +12,11 @@ freight=Passagiere
 payload=65
 overcrowded_capacity=18
 length=13
+brake_force=29
+rolling_resistance=13
 
 weight=39
+axles=4
 cost=590000
 runningcost=45
 sound=-1
@@ -27,7 +28,7 @@ increase_maintenance_after_years=21
 
 min_loading_time=35
 max_loading_time=180
-comfort=145
+comfort=150
 
 Constraint[Prev][0]=BR-442-Rear(NSE)
 Constraint[Prev][1]=none
@@ -58,8 +59,11 @@ freight=Passagiere
 payload=72
 overcrowded_capacity=20
 length=13
+brake_force=26
+rolling_resistance=13
 
 weight=35
+axles=4
 cost=590000
 runningcost=31
 sound=-1
@@ -71,7 +75,7 @@ increase_maintenance_after_years=21
 
 min_loading_time=35
 max_loading_time=180
-comfort=145
+comfort=150
 
 Constraint[Prev][0]=BR-442-Front(NSE)
 Constraint[Next][0]=BR-442-Middle2(NSE)
@@ -97,13 +101,17 @@ retire_year=2001
 retire_month=3
 waytype=track
 power=1200
-tractive_effort=140
+gear=80
+tractive_effort=95
 freight=Passagiere
 payload=51
 overcrowded_capacity=14
 length=13
+brake_force=41
+rolling_resistance=13
 
 weight=54
+axles=4
 cost=590000
 runningcost=290
 sound=-1
@@ -116,7 +124,7 @@ increase_maintenance_after_years=21
 
 min_loading_time=35
 max_loading_time=180
-comfort=145
+comfort=150
 
 Constraint[Prev][0]=BR-442-Middle1(NSE)
 Constraint[Next][0]=BR-442-Middle3(NSE)
@@ -145,8 +153,11 @@ freight=Passagiere
 payload=72
 overcrowded_capacity=20
 length=13
+brake_force=26
+rolling_resistance=13
 
 weight=35
+axles=4
 cost=590000
 runningcost=31
 sound=-1
@@ -158,7 +169,7 @@ increase_maintenance_after_years=21
 
 min_loading_time=35
 max_loading_time=180
-comfort=145
+comfort=150
 
 Constraint[Prev][0]=BR-442-Middle2(NSE)
 Constraint[Next][0]=BR-442-Rear(NSE)
@@ -190,8 +201,11 @@ freight=Passagiere
 payload=65
 overcrowded_capacity=18
 length=13
+brake_force=29
+rolling_resistance=13
 
 weight=39
+axles=4
 cost=590000
 runningcost=31
 sound=-1
@@ -203,7 +217,7 @@ increase_maintenance_after_years=21
 
 min_loading_time=35
 max_loading_time=180
-comfort=145
+comfort=150
 
 Constraint[Prev][0]=BR-442-Middle3(NSE)
 Constraint[Next][0]=BR-442-Front(NSE)

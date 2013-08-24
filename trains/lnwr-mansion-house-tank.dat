@@ -2,13 +2,13 @@ obj=vehicle
 name=LNWR-Mansion-House-tank
 engine_type=steam
 smoke=Steam
-speed=85
+speed=95
+# Extrapolated
+power=114
 # Calculated from data from Ahrons, pp. 219-220
-# Loss factor set at 0.0.75
-# Half boiler pressure used to calculate power.
-power=574
-tractive_effort=50
-copyright=James&jamespetts
+# Loss factor set at 0.8
+tractive_effort=54
+copyright=James/jamespetts
 intro_year=1880
 intro_month=5
 retire_year=1898
@@ -19,9 +19,10 @@ payload=0
 length=7
 
 # Weight taken from Ahrons p. 220
+axle_load=14
 weight=46
 cost=7800000
-runningcost=780
+runningcost=450
 sound=-1
 
 can_lead_from_rear=0

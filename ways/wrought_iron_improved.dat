@@ -1,14 +1,15 @@
 Obj=way
+# 82lb/yard - see http://www.archive.org/stream/steelrailstheir02sellgoog/steelrailstheir02sellgoog_djvu.txt
 Name=wrought_iron_improved_track
 waytype=track
-cost=45000
-maintenance=400
+cost=46500
+maintenance=610
 topspeed=130
-max_weight=43
-intro_year = 1850
-intro_month = 4
-retire_year = 1914
-retire_month = 10
+max_weight=14
+intro_year=1855
+intro_month=3
+retire_year=1875
+retire_month=9
 icon=> ./images/wrought_iron_improved.3.4
 cursor=./images/wrought_iron_improved.3.5
 Image[-][0]=./images/wrought_iron_improved.1.2

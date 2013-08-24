@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-Class483Front
 engine_type=electric
 speed=72
-#gear=200
+gear=80
 power=250
 tractive_effort=65
 length=8
@@ -15,6 +15,7 @@ payload=42
 overcrowded_capacity=138
 
 weight=26
+axles=4
 upgrade_price=100000
 runningcost=7
 sound=-1
@@ -29,7 +30,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=71
+# http://upload.wikimedia.org/wikipedia/commons/2/25/483004_Interior.JPG
+comfort=61
 
 Constraint[Prev][0]=BR-Class483Rear
 Constraint[Prev][1]=none
@@ -63,7 +65,7 @@ obj=vehicle
 name=BR-Class483NDM
 engine_type=electric
 speed=72
-#gear=200
+gear=80
 power=250
 tractive_effort=65
 length=8
@@ -76,6 +78,7 @@ payload=40
 overcrowded_capacity=130
 
 weight=25
+axles=4
 upgrade_price=80000
 runningcost=6
 sound=-1
@@ -90,7 +93,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=71
+comfort=61
 
 Constraint[Prev][0]=BR-Class483Front
 
@@ -132,6 +135,7 @@ payload=40
 overcrowded_capacity=150
 
 weight=18
+axles=4
 upgrade_price=40000
 runningcost=3
 sound=-1
@@ -146,7 +150,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=71
+comfort=61
 
 Constraint[Prev][0]=BR-Class483NDM
 Constraint[Prev][1]=BR-Class483Front
@@ -178,7 +182,7 @@ obj=vehicle
 name=BR-Class483Rear
 engine_type=electric
 speed=72
-#gear=200
+gear=80
 power=250
 tractive_effort=65
 length=8
@@ -191,6 +195,7 @@ payload=42
 overcrowded_capacity=138
 
 weight=26
+axles=4
 upgrade_price=1000000
 runningcost=7
 sound=-1
@@ -205,7 +210,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=71
+comfort=61
 
 Constraint[Prev][0]=BR-Class483NDM
 Constraint[Prev][1]=BR-Class483Trailer

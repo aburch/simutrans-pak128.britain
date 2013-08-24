@@ -51,7 +51,7 @@
 # Note that the LMR was only 35 miles long.
 #
 # See ibid pp. 111 and onwards for the later RCH classification system, as follows:
-# A: Coal, coke, irone ore, furnace slag
+# A: Coal, coke, iron ore, furnace slag
 # B: Clay, sand, manure, limestone, chalk, salt, unfinished stone, zinc ore, copper ore, bricks, paving stones, pig iron
 # C: Hay, straw, grain, flour, seeds, fertiliser, chemicals, lead ore, part-finished iron goods
 # I: Iron/steel hoops, pipes, sheets, plates, common fruit and vegetables, paper, cotton, beer in casks, oil in caks, tin ore
@@ -78,8 +78,8 @@
 #	IV			3.60d				3.15d				2.50d				2.20d
 #	V			4.30d				3.70d				3.25d				2.50d
 #
-# Note that, for the time being, the original values are retained for backwards compatibility. They are over-written by the new system
-# on the fare-stages branch. 
+# Note that, for the time being, the original values are retained for backwards compatibility and reference. They are 
+# over-written by the current system.
 
 ### UNIQUE GOODS TYPES ###
 # Passengers
@@ -106,23 +106,23 @@ weight_per_unit=70
 # Class: mail
 obj=good
 name=Post
-metric= bags
+metric= bundles
 catg=0
 #
 #value=48
 value=57
 #
-value[0]=69
+value[0]=7
 to_distance[0]=16
-value[1]=57
+value[1]=6
 to_distance[1]=32
-value[2]=54
+value[2]=5
 to_distance[2]=0
 speed_bonus=15
-weight_per_unit=50
+weight_per_unit=1
 -----------------------
 # Livestock
-# Class: Livestock trated as class of own.
+# Class: Livestock treated as class of own.
 obj=good
 name=livestock
 metric=head
@@ -170,7 +170,7 @@ to_distance[3]=0
 speed_bonus=15
 weight_per_unit=1800
 -----------------------
-# Fish
+# Fresh fish (caught from the sea)
 # Class: not given, but treat as III
 obj=good
 name=FreshFish
@@ -179,13 +179,13 @@ catg=0
 #
 value=133
 #
-value[0]=155
+value[0]=110
 to_distance[0]=32
-value[1]=133
+value[1]=93
 to_distance[1]=48
-value[2]=100
+value[2]=70
 to_distance[2]=80
-value[3]=90
+value[3]=50
 to_distance[3]=0
 speed_bonus=15
 weight_per_unit=1000
@@ -683,7 +683,7 @@ speed_bonus=3
 weight_per_unit=820
 ---------------------------------------
 # Canned Food
-Class: not given, but treat as IV
+# Class: not given, but treat as IV
 obj=good
 name=canned_food
 metric=paletten
@@ -723,6 +723,27 @@ to_distance[2]=80
 value[3]=35
 to_distance[3]=0
 speed_bonus=2
+weight_per_unit=1000
+-----------------------
+# Wrought iron
+# Class: C
+obj=good
+name=WroughtIron
+metric=tonnen
+catg=6
+#
+value=53
+#
+value[0]=70
+to_distance[0]=32
+value[1]=53
+to_distance[1]=48
+value[2]=40
+to_distance[2]=80
+value[3]=28
+to_distance[3]=240
+value[4]=0
+speed_bonus=0
 weight_per_unit=1000
 -----------------------
 # Planks
@@ -854,7 +875,7 @@ speed_bonus=15
 weight_per_unit=410
 -----------------------
 # Fish
-# Class: not given, but treat as II
+# Class: not given, but treat as I
 obj=good
 name=fish
 metric=paletten
@@ -863,15 +884,14 @@ catg=4
 #value=69
 value=47
 #
-value[0]=54
+value[0]=45
 to_distance[0]=32
-value[1]=47
+value[1]=38
 to_distance[1]=48
-value[2]=37
+value[2]=29
 to_distance[2]=80
-value[3]=31
+value[3]=21
 to_distance[3]=0
-speed_bonus=15
 speed_bonus=15
 weight_per_unit=410
 -----------------------

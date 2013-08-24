@@ -1,6 +1,6 @@
 obj=vehicle
 name=SR-Bulleid-Express-Brake(Green)
-speed=175
+speed=160
 copyright=Kieron
 intro_year=1941
 intro_month=9
@@ -12,6 +12,7 @@ payload=48
 length=11
 
 weight=32
+axles=4
 cost=434000
 runningcost=22
 sound=-1
@@ -21,7 +22,7 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=104
+comfort=142
 
 Constraint[Next][0]=SR-Maunsell-Third(Green)
 Constraint[Next][1]=SR-Maunsell-Brake(Green)

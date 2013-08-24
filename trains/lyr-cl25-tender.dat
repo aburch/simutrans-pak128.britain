@@ -1,7 +1,7 @@
 obj=vehicle
-name=LYR-Class25-Tender(Black)
+name=LYR-Class25-Tender
 engine_type=steam
-speed=75
+speed=80
 copyright=James
 intro_year=1876
 intro_month=7
@@ -13,13 +13,14 @@ payload=0
 length=3
 
 weight=20
+axles=3
 cost=0
 runningcost=0
 sound=-1
 increase_maintenance_after_years=30
 years_before_maintenance_max_reached=30
 
-Constraint[Prev][0]=LYR-Class25(Black)
+Constraint[Prev][0]=LYR-Class25
 
 EmptyImage[E]=./images/lyr-cl25.1.0
 EmptyImage[SE]=./images/lyr-cl25.1.1

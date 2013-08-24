@@ -3,8 +3,8 @@ name=BR-375-6Front(SE)
 engine_type=electric
 speed=160
 power=500
-tractive_effort=158
-#gear=420
+tractive_effort=44
+gear=80
 copyright=Kieron
 intro_year=1999
 intro_month=10
@@ -15,8 +15,11 @@ freight=Passagiere
 payload=60
 overcrowded_capacity=46
 length=12
+brake_force=35
+rolling_resistance=13
 
 weight=46
+axles=4
 cost=1008000
 upgrade_price=89610
 runningcost=138
@@ -24,7 +27,7 @@ sound=-1
 
 min_loading_time=17
 max_loading_time=60
-comfort=97
+comfort=86
 
 can_lead_from_rear=1
 bidirectional=0
@@ -63,8 +66,11 @@ freight=Passagiere
 payload=66
 overcrowded_capacity=50
 length=11
+brake_force=30
+rolling_resistance=13
 
 weight=40
+axles=4
 cost=1852000
 upgrade_price=89610
 runningcost=45
@@ -72,7 +78,7 @@ sound=-1
 
 min_loading_time=17
 max_loading_time=60
-comfort=97
+comfort=86
 
 can_lead_from_rear=0
 bidirectional=1
@@ -98,7 +104,7 @@ name=BR-375-6Middle2(SE)
 engine_type=electric
 speed=160
 power=500
-tractive_effort=158
+tractive_effort=44
 #gear=420
 copyright=Kieron
 intro_year=1999
@@ -110,8 +116,11 @@ freight=Passagiere
 payload=66
 overcrowded_capacity=50
 length=11
+brake_force=30
+rolling_resistance=13
 
 weight=40
+axles=4
 cost=1008000
 upgrade_price=89610
 runningcost=138
@@ -119,7 +128,7 @@ sound=-1
 
 min_loading_time=17
 max_loading_time=60
-comfort=97
+comfort=86
 
 can_lead_from_rear=0
 bidirectional=1
@@ -144,7 +153,7 @@ name=BR-375-6Rear(SE)
 engine_type=electric
 speed=160
 power=500
-tractive_effort=158
+tractive_effort=44
 #gear=420
 copyright=Kieron
 intro_year=1999
@@ -156,8 +165,11 @@ freight=Passagiere
 payload=60
 overcrowded_capacity=46
 length=12
+brake_force=35
+rolling_resistance=13
 
 weight=46
+axles=4
 cost=1008000
 upgrade_price=89610
 runningcost=138
@@ -165,7 +177,7 @@ sound=-1
 
 min_loading_time=17
 max_loading_time=60
-comfort=97
+comfort=86
 
 can_lead_from_rear=1
 bidirectional=0

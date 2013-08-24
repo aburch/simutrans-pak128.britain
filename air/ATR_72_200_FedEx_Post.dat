@@ -4,25 +4,29 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=450
-power=3140
+power=3220
+tractive_effort=25
 #gear=1
 freight=Post
-payload=56
+#payload 4.8t
+payload=4800
 weight=14
 #length=8
 cost=14000000
 runningcost=1300
 intro_year=1989
 intro_month=10
-comfort=100
 min_loading_time=2700
 max_loading_time=2700
 retire_year=1998
-retire_month=06
+retire_month=6
 
-increase_maintenance_after_years=30
+sound=planelow.wav
 
-sound=aircraft-jet_stop.wav
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1400
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1550
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -43,9 +47,11 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=450
-power=3140
+power=3220
+tractive_effort=25
 #gear=1
 freight=Bucher
+#payload 4.8t
 payload=56
 weight=14
 #length=8
@@ -53,15 +59,17 @@ cost=14000000
 runningcost=1300
 intro_year=1989
 intro_month=10
-comfort=100
 min_loading_time=2700
 max_loading_time=2700
 retire_year=1998
 retire_month=06
 
-increase_maintenance_after_years=30
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1400
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1550
 
-sound=aircraft-jet_stop.wav
+sound=planelow.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -83,9 +91,11 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=450
-power=3140
+power=3220
+tractive_effort=25
 #gear=1
 freight=fish
+#payload 4.8t
 payload=56
 weight=14
 #length=8
@@ -93,15 +103,17 @@ cost=14000000
 runningcost=1300
 intro_year=1989
 intro_month=10
-comfort=100
 min_loading_time=2700
 max_loading_time=2700
 retire_year=1998
 retire_month=06
 
-increase_maintenance_after_years=30
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1400
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1550
 
-sound=aircraft-jet_stop.wav
+sound=planelow.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -114,3 +126,5 @@ EmptyImage[W]=./images/ATR_72_200_FedEx.0.6
 EmptyImage[NW]=./images/ATR_72_200_FedEx.0.5
 EmptyImage[N]=./images/ATR_72_200_FedEx.0.4
 EmptyImage[NE]=./images/ATR_72_200_FedEx.0.3
+
+-------------

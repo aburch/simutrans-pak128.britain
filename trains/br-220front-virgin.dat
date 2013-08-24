@@ -3,9 +3,9 @@ name=BR-220Front(Virgin)
 engine_type=diesel
 smoke=Diesel
 speed=200
-#gear=270
+gear=50
 power=560
-tractive_effort=160
+tractive_effort=47
 copyright=Kieron
 intro_year=2001
 intro_month=2
@@ -16,8 +16,10 @@ freight=Passagiere
 payload=42
 overcrowded_capacity=8
 length=14
+brake_force=36
 
 weight=48
+axles=4
 cost=2415000
 runningcost=297
 fixed_maintenance=0
@@ -28,8 +30,8 @@ bidirectional=0
 
 min_loading_time=35
 max_loading_time=240
-comfort=90
-air_resistance=884
+comfort=97
+air_resistance=108
 
 Constraint[Prev][0]=BR-220Rear(Virgin)
 Constraint[Prev][1]=none
@@ -54,9 +56,9 @@ name=BR-221Front(Virgin)
 engine_type=diesel
 smoke=Diesel
 speed=200
-#gear=270
+gear=50
 power=560
-tractive_effort=160
+tractive_effort=47
 copyright=Kieron
 intro_year=2002
 intro_month=4
@@ -67,8 +69,11 @@ freight=Passagiere
 payload=42
 overcrowded_capacity=8
 length=14
+brake_force=42
+rolling_resistance=13
 
 weight=57
+axles=4
 cost=2640000
 runningcost=320
 fixed_maintenance=0
@@ -80,7 +85,7 @@ is_tilting=1
 
 min_loading_time=35
 max_loading_time=240
-comfort=90
+comfort=97
 
 Constraint[Prev][0]=BR-221Rear(Virgin)
 Constraint[Prev][1]=none

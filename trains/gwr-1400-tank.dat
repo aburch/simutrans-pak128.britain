@@ -3,8 +3,8 @@ name=GWR-1400Tank
 engine_type=steam
 smoke=Steam
 speed=80
-#gear=350
-power=320
+# Extrapolated
+power=149
 tractive_effort=62
 copyright=James
 intro_year=1930
@@ -16,7 +16,9 @@ freight=None
 payload=0
 length=5
 
-weight=41
+# http://en.wikipedia.org/wiki/GWR_1400_Class
+weight=42
+axle_load=14
 cost=1372000
 runningcost=260
 sound=-1

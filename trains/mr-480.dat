@@ -2,13 +2,13 @@ obj=vehicle
 name=MR-480
 engine_type=steam
 smoke=Steam
-speed=70
+speed=75
+# Extrapolated
+power=115
 # Calculated from data from Ahrons, p. 158
 # Loss factor set at 0.75 
-# Half boiler pressure used to calculate power.
 tractive_effort=50
-power=479
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1863
 intro_month=12
 retire_year=1869
@@ -16,23 +16,38 @@ retire_month=4
 waytype=track
 freight=None
 payload=0
-length=7
+length=4
+brake_force=0
+rolling_resistance=17
 
 # Weight not given by Ahrons, p. 158
 weight=32
+axles=3
 cost=6651000
 runningcost=1051
 sound=-1
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
 
-Constraint[Next][0]=MR-Kirtley156Tender(Maroon)
+Constraint[Next][0]=MR-Kirtley156Tender
 
-EmptyImage[E]=./images/mr-480.0.4
-EmptyImage[SE]=./images/mr-480.0.5
-EmptyImage[S]=./images/mr-480.0.6
-EmptyImage[SW]=./images/mr-480.0.7
-EmptyImage[W]=./images/mr-480.0.0
-EmptyImage[NW]=./images/mr-480.0.1
-EmptyImage[N]=./images/mr-480.0.2
-EmptyImage[NE]=./images/mr-480.0.3
+liverytype[0]=MR-Early
+liverytype[1]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-480-class-green.1.4
+EmptyImage[SE][0]=./images/mr-480-class-green.1.5
+EmptyImage[S][0]=./images/mr-480-class-green.1.6
+EmptyImage[SW][0]=./images/mr-480-class-green.1.7
+EmptyImage[W][0]=./images/mr-480-class-green.1.0
+EmptyImage[NW][0]=./images/mr-480-class-green.1.1
+EmptyImage[N][0]=./images/mr-480-class-green.1.2
+EmptyImage[NE][0]=./images/mr-480-class-green.1.3
+
+EmptyImage[E][1]=./images/mr-480-class.1.4
+EmptyImage[SE][1]=./images/mr-480-class.1.5
+EmptyImage[S][1]=./images/mr-480-class.1.6
+EmptyImage[SW][1]=./images/mr-480-class.1.7
+EmptyImage[W][1]=./images/mr-480-class.1.0
+EmptyImage[NW][1]=./images/mr-480-class.1.1
+EmptyImage[N][1]=./images/mr-480-class.1.2
+EmptyImage[NE][1]=./images/mr-480-class.1.3

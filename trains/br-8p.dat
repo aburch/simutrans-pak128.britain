@@ -1,12 +1,12 @@
 obj=vehicle
-name=BR-8P(Green)
+name=BR-8P
 engine_type=steam
 smoke=Steam
-speed=162
-#gear=140
-power=2393
+speed=160
+# Extrapolated
+power=767
 tractive_effort=174
-copyright=Kieron&JamesPetts
+copyright=Kieron/JamesPetts
 intro_year=1954
 intro_month=4
 retire_year=1959
@@ -14,15 +14,18 @@ retire_month=3
 waytype=track
 freight=None
 payload=0
+rolling_resistance=13
 
 weight=103
+# http://en.wikipedia.org/wiki/BR_Standard_Class_8
+axle_load=22
 cost=10450000
 runningcost=2295
 sound=-1
 increase_maintenance_after_years=5
 years_before_maintenance_max_reached=12
 
-Constraint[Next][0]=BR-7MT-Tender(Green)
+Constraint[Next][0]=BR-7MT-Tender
 
 EmptyImage[E]=./images/br-8p.0.0
 EmptyImage[SE]=./images/br-8p.0.1

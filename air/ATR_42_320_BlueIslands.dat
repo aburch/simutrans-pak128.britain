@@ -4,7 +4,8 @@ copyright=Milko
 waytype=air
 engine_type=diesel
 speed=450
-power=3052
+power=3132
+tractive_effort=25
 #gear=1
 freight=Passagiere
 payload=48
@@ -14,13 +15,19 @@ cost=10000000
 runningcost=1500
 intro_year=1987
 intro_month=12
-comfort=100
+comfort=110
 min_loading_time=1800
 max_loading_time=1800
 retire_year=1996
 retire_month=12
+catering_level=2
 
-sound=aircraft-jet_stop.wav
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=1000
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=1100
+
+sound=planelow.wav
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -33,3 +40,5 @@ EmptyImage[W]=images/ATR_42_320_BlueIsland.0.6
 EmptyImage[NW]=images/ATR_42_320_BlueIsland.0.5
 EmptyImage[N]=images/ATR_42_320_BlueIsland.0.4
 EmptyImage[NE]=images/ATR_42_320_BlueIsland.0.3
+
+-------------

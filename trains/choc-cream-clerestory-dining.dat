@@ -1,6 +1,6 @@
 obj=vehicle
 name=CC-Clerestory-Dining
-speed=145
+speed=160
 copyright=James
 intro_year=1890
 intro_month=7
@@ -13,6 +13,7 @@ overcrowded_capacity=12
 length=10
 
 weight=25
+axles=4
 cost=731500
 runningcost=45
 sound=-1
@@ -23,7 +24,7 @@ catering_level=4
 
 min_loading_time=20
 max_loading_time=50
-comfort=95
+comfort=119
 
 Constraint[Next][0]=CC-Clerestory-Coach
 Constraint[Next][1]=CC-Clerestory-Brake

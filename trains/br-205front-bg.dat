@@ -3,9 +3,10 @@ name=BR-205Front(Rail-Blue)
 engine_type=diesel
 smoke=Diesel
 speed=120
-#gear=800
-power=650
-tractive_effort=75
+gear=50
+power=750
+# http://en.wikipedia.org/wiki/British_Rail_Class_205
+tractive_effort=56
 copyright=Kieron
 intro_year=1958
 intro_month=3
@@ -18,6 +19,7 @@ overcrowded_capacity=84
 length=11
 
 weight=56
+axles=4
 cost=3500000
 runningcost=132
 sound=-1
@@ -27,7 +29,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=78
+comfort=77
 
 Constraint[Prev][0]=BR-205Rear(Rail-Blue)
 Constraint[Prev][1]=none

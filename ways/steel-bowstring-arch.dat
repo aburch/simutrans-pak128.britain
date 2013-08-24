@@ -3,12 +3,14 @@ name=SteelBowstringArchRailBridge
 copyright=James
 
 waytype=track
-intro_year=1950
+intro_year=1951
+intro_month=6
 topspeed=160
 cost=540000
 maintenance=1775
 max_height=3
-max_weight=60
+max_length=9
+max_weight=565
 pillar_distance=1
 pillar_asymmetric=1
 cursor=images/steel-bowstring-arch.2.1

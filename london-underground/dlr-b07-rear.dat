@@ -4,7 +4,7 @@ engine_type=electric
 speed=85
 #gear=100
 power=150
-tractive_effort=60
+tractive_effort=40
 copyright=Kieron
 intro_year=2007
 intro_month=4
@@ -16,6 +16,7 @@ payload=52
 overcrowded_capacity=122
 
 weight=15
+axles=4
 cost=650000
 runningcost=37
 sound=-1

@@ -15,6 +15,7 @@ overcrowded_capacity=64
 length=11
 
 weight=30
+axles=4
 cost=1460000
 upgrade_price=1109600
 runningcost=27
@@ -26,18 +27,18 @@ years_before_maintenance_max_reached=15
 can_lead_from_rear=1
 bidirectional=0
 
-upgrade[0]=BR-489[GLV](Intercity)
+upgrade[0]=BR-489[GLV]
 
 min_loading_time=15
 max_loading_time=45
-comfort=77
+comfort=79
 
 Constraint[Prev][0]=BR-414[HAP]Front(Blue-Grey)
 
 Constraint[Next][0]=BR-410[CEP]Front(Blue-Grey)
 Constraint[Next][1]=BR-414[HAP]Front(Blue-Grey)
-Constraint[Next][2]=BR-419[MLV](Blue-Grey)
-Constraint[Next][3]=BR-499[TLV](Blue-Grey)
+Constraint[Next][2]=BR-419[MLV]
+Constraint[Next][3]=BR-499[TLV]
 Constraint[Next][4]=BR-423-DTCL-Front
 Constraint[Next][5]=BR-4EPB(front)
 Constraint[Next][6]=none

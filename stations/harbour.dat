@@ -12,7 +12,8 @@ enables_ware=1
 icon=> harbour-goods-old.0.4
 cursor=harbour-goods-old.3.4
 intro_year=1750
-retire_year=1920
+retire_year=1922
+retire_month=2
 level=1
 
 BackImage[0][0][0][0][0][0]=harbour-goods-old.1.1
@@ -60,8 +61,10 @@ type=habour
 enables_ware=1
 icon=> harbour-goods-modern.0.4
 cursor=harbour-goods-modern.3.4
-intro_year=1920
+intro_year=1922
+intro_month=2
 level=1
+
 BackImage[0][0][0][0][0][0]=harbour-goods-modern.1.1
 BackImage[1][0][0][0][0][0]=harbour-goods-modern.2.1
 BackImage[2][0][0][0][0][0]=harbour-goods-modern.1.2
@@ -109,7 +112,12 @@ icon=> harbour-passenger.0.4
 cursor=harbour-passenger.3.4
 level=1
 intro_year=1750
-retire_year=1920
+retire_year=1922
+retire_month=2
+
+station_maintenance=15000
+station_price=1275000
+station_capacity=85
 
 BackImage[0][0][0][0][0][0]=harbour-passenger.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger.2.1
@@ -157,8 +165,14 @@ enables_post=1
 icon=> harbour-passenger-deco.0.4
 cursor=harbour-passenger-deco.3.4
 level=1
-intro_year=1920
-retire_year=1950
+intro_year=1922
+intro_month=2
+retire_year=1949
+retire_month=8
+
+station_maintenance=15300
+station_price=1567500
+station_capacity=95
 
 BackImage[0][0][0][0][0][0]=harbour-passenger-deco.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-deco.2.1
@@ -211,6 +225,10 @@ intro_month=7
 retire_year=1977
 retire_month=1
 
+station_maintenance=16350
+station_price=2371875
+station_capacity=115
+
 BackImage[0][0][0][0][0][0]=harbour-passenger-1950s.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-1950s.2.1
 BackImage[2][0][0][0][0][0]=harbour-passenger-1950s.1.2
@@ -260,6 +278,10 @@ cursor=harbour-passenger-modern.3.4
 level=1
 intro_year=1977
 intro_month=1
+
+station_maintenance=24840
+station_price=2052000
+station_capacity=135
 
 BackImage[0][0][0][0][0][0]=harbour-passenger-modern.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-modern.2.1

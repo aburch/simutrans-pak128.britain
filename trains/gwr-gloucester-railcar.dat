@@ -3,9 +3,9 @@ name=GWR-Gloucester-Railcar
 engine_type=diesel
 smoke=Diesel
 speed=130
-#gear=400
+gear=50
 power=195
-tractive_effort=35
+tractive_effort=30
 copyright=Kieron
 intro_year=1935
 intro_month=7
@@ -18,6 +18,7 @@ overcrowded_capacity=37
 length=12
 
 weight=30
+axles=4
 cost=2772000
 runningcost=264
 sound=-1
@@ -28,8 +29,9 @@ bidirectional=1
 
 min_loading_time=20
 max_loading_time=90
-comfort=92
-air_resistance=884
+# http://www.greatwestern.org.uk/aec2.htm
+comfort=83
+air_resistance=108
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

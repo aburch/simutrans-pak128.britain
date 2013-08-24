@@ -1,10 +1,10 @@
 obj=vehicle
 name=LBSCR-B1-Gladstone-Tender
 engine_type=steam
-speed=120
+speed=135
 copyright=James
-intro_year=1871
-intro_month=6
+intro_year=1876
+intro_month=4
 retire_year=1891
 retire_month=10
 waytype=track
@@ -14,6 +14,7 @@ length=3
 brake_force=13
 
 weight=25
+axles=3
 cost=0
 runningcost=0
 sound=-1
@@ -45,11 +46,12 @@ EmptyImage[NW][1]=./images/lbscr-tender-umber_NW.0
 EmptyImage[N][1]=./images/lbscr-tender-umber_N.0
 EmptyImage[NE][1]=./images/lbscr-tender-umber_NE.0
 
-EmptyImage[E][2]=./images/lbscr-gladstone-sr-tender_E.0
-EmptyImage[SE][2]=./images/lbscr-gladstone-sr-tender_SE.0
-EmptyImage[S][2]=./images/lbscr-gladstone-sr-tender_S.0
-EmptyImage[SW][2]=./images/lbscr-gladstone-sr-tender_SW.0
-EmptyImage[W][2]=./images/lbscr-gladstone-sr-tender_W.0
-EmptyImage[NW][2]=./images/lbscr-gladstone-sr-tender_NW.0
-EmptyImage[N][2]=./images/lbscr-gladstone-sr-tender_N.0
-EmptyImage[NE][2]=./images/lbscr-gladstone-sr-tender_NE.0
+EmptyImage[E][2]=./images/lbscr-gladstone-tender-olive.1.4
+EmptyImage[SE][2]=./images/lbscr-gladstone-tender-olive.1.5
+EmptyImage[S][2]=./images/lbscr-gladstone-tender-olive.1.6
+EmptyImage[SW][2]=./images/lbscr-gladstone-tender-olive.1.7
+EmptyImage[W][2]=./images/lbscr-gladstone-tender-olive.1.0
+EmptyImage[NW][2]=./images/lbscr-gladstone-tender-olive.1.1
+EmptyImage[N][2]=./images/lbscr-gladstone-tender-olive.1.2
+EmptyImage[NE][2]=./images/lbscr-gladstone-tender-olive.1.3
+

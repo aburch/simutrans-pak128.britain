@@ -10,8 +10,11 @@ waytype=track
 freight=Kohle
 payload=10
 length=3
+brake_force=0
+rolling_resistance=19
 
 weight=7
+axle_load=8
 cost=120000
 runningcost=6
 sound=-1

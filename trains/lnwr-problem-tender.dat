@@ -1,7 +1,7 @@
 obj=vehicle
-name=LNWR-Problem-Tender(Green)
+name=LNWR-Problem-Tender
 engine_type=steam
-speed=100
+speed=115
 copyright=James
 intro_year=1859
 intro_month=11
@@ -11,15 +11,18 @@ waytype=track
 freight=None
 payload=0
 length=3
+brake_force=3
+rolling_resistance=19
 
 # Weight not given in Ahrons, but guessed from contemporaneous types
 weight=15
+axles=3
 cost=0
 runningcost=0
 sound=-1
 increase_maintenance_after_years=40
 
-Constraint[Prev][0]=LNWR-Problem(Green)
+Constraint[Prev][0]=LNWR-Problem
 
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
@@ -33,12 +36,12 @@ EmptyImage[NW][0]=./images/lnwr-problem.1.5
 EmptyImage[N][0]=./images/lnwr-problem.1.6
 EmptyImage[NE][0]=./images/lnwr-problem.1.7
 
-EmptyImage[E][1]=./images/lnwr-bloomer-tender-black_E.0
-EmptyImage[SE][1]=./images/lnwr-bloomer-tender-black_SE.0
-EmptyImage[S][1]=./images/lnwr-bloomer-tender-black_S.0
-EmptyImage[SW][1]=./images/lnwr-bloomer-tender-black_SW.0
-EmptyImage[W][1]=./images/lnwr-bloomer-tender-black_W.0
-EmptyImage[NW][1]=./images/lnwr-bloomer-tender-black_NW.0
-EmptyImage[N][1]=./images/lnwr-bloomer-tender-black_N.0
-EmptyImage[NE][1]=./images/lnwr-bloomer-tender-black_NE.0
+EmptyImage[E][1]=./images/lnwr-bloomer-tender-black.1.4
+EmptyImage[SE][1]=./images/lnwr-bloomer-tender-black.1.5
+EmptyImage[S][1]=./images/lnwr-bloomer-tender-black.1.6
+EmptyImage[SW][1]=./images/lnwr-bloomer-tender-black.1.7
+EmptyImage[W][1]=./images/lnwr-bloomer-tender-black.1.0
+EmptyImage[NW][1]=./images/lnwr-bloomer-tender-black.1.1
+EmptyImage[N][1]=./images/lnwr-bloomer-tender-black.1.2
+EmptyImage[NE][1]=./images/lnwr-bloomer-tender-black.1.3
 

@@ -2,9 +2,9 @@ obj=vehicle
 name=LBSCR-I3
 engine_type=steam
 smoke=Steam
-speed=105
-#gear=350
-power=775
+speed=120
+# Extrapolated
+power=201
 tractive_effort=98
 copyright=James
 intro_year=1907
@@ -18,8 +18,11 @@ payload=0
 length=7
 
 weight=75
+axle_load=18
 cost=6041100
 # This should be low: these were the first superheated locomotives and were efficient for their size.
+# See: http://www.semgonline.com/steam/i3class_01.html for information on the economies for this locomotive.
+# (30lbs of coal per mile compared to approx. 40lbs for the saturated equivalent)
 runningcost=750
 sound=-1
 increase_maintenance_after_years=24
@@ -34,14 +37,14 @@ liverytype[2]=SR-Malachite-Green
 liverytype[3]=WW2-Austerity
 liverytype[4]=BR-Early
 
-EmptyImage[E][0]=./images/lbsc-i3.0.0
-EmptyImage[SE][0]=./images/lbsc-i3.0.1
-EmptyImage[S][0]=./images/lbsc-i3.0.2
-EmptyImage[SW][0]=./images/lbsc-i3.0.3
-EmptyImage[W][0]=./images/lbsc-i3.0.4
-EmptyImage[NW][0]=./images/lbsc-i3.0.5
-EmptyImage[N][0]=./images/lbsc-i3.0.6
-EmptyImage[NE][0]=./images/lbsc-i3.0.7
+EmptyImage[E][0]=./images/lbscr-i3-umber.1.4
+EmptyImage[SE][0]=./images/lbscr-i3-umber.1.5
+EmptyImage[S][0]=./images/lbscr-i3-umber.1.6
+EmptyImage[SW][0]=./images/lbscr-i3-umber.1.7
+EmptyImage[W][0]=./images/lbscr-i3-umber.1.0
+EmptyImage[NW][0]=./images/lbscr-i3-umber.1.1
+EmptyImage[N][0]=./images/lbscr-i3-umber.1.2
+EmptyImage[NE][0]=./images/lbscr-i3-umber.1.3
 
 EmptyImage[E][1]=./images/lbscr-i3-olive_E.0
 EmptyImage[SE][1]=./images/lbscr-i3-olive_SE.0

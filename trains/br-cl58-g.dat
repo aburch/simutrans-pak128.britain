@@ -1,9 +1,9 @@
 obj=vehicle
-name=BR-Class58(Grey)
+name=BR-Class58
 engine_type=diesel
 smoke=Diesel
 speed=130
-#gear=200
+gear=50
 power=2460
 tractive_effort=267
 copyright=Kieron
@@ -15,8 +15,10 @@ waytype=track
 freight=None
 payload=0
 length=11
+rolling_resistance=13
 
 weight=130
+axles=6
 cost=7606000
 runningcost=2465
 sound=-1
@@ -24,6 +26,11 @@ increase_maintenance_after_years=12
 
 can_lead_from_rear=0
 bidirectional=1
+
+# Red diamond
+Constraint[Prev][0]=BR-Class56
+Constraint[Prev][1]=BR-Class58
+Constraint[Prev][2]=none
 
 EmptyImage[E]=./images/br-cl58-g.0
 EmptyImage[SE]=./images/br-cl58-g.1

@@ -2,9 +2,9 @@ obj=vehicle
 name=Metropolitan-Motor-Third-Back
 engine_type=electric
 speed=65
-#gear=250
+gear=80
 power=400
-tractive_effort=70
+tractive_effort=45
 copyright=Kieron
 intro_year=1905
 intro_month=4
@@ -15,18 +15,18 @@ freight=Passagiere
 payload=48
 overcrowded_capacity=30
 weight=45
+axles=4
 cost=4000000
 runningcost=148
 sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
-catering_level=0
 way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=45
-comfort=70
+comfort=74
 
 Constraint[Prev][0]=Metropolitan-Motor-Third-Front
 Constraint[Prev][1]=Metropolitan-Motor-Third-Middle

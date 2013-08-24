@@ -117,6 +117,7 @@ cost=800
 end_of_choose=1
 intro_year = 1970
 intro_month = 1
+allow_underground=1
 Image[0]=signals_1.10.2
 Image[1]=signals_1.10.0
 Image[2]=signals_1.10.3
@@ -281,6 +282,7 @@ name=EndofChooseSignal
 waytype=track
 cost=800
 end_of_choose=1
+allow_underground=1
 intro_year = 1810
 intro_month = 1
 retire_year = 1970
@@ -397,7 +399,7 @@ Image[7]=signals_2.9.3
 Icon=> signals_0.3.6
 Cursor=signals_0.3.7
 ---------------------------------------
-# EARLY STYLE 1750-1860
+# EARLY STYLE 1825/1840-1860
 #--------------------------------------
 # normal signal right side
 obj=roadsign
@@ -406,7 +408,7 @@ name=Early_Signals_right
 waytype=track
 cost=1600
 is_signal=1
-intro_year = 1750
+intro_year = 1825
 intro_month = 1
 retire_year = 1860
 retire_month = 1
@@ -430,7 +432,7 @@ Name=Early_preSignals_right
 waytype=track
 cost=3200
 is_presignal=1
-intro_year = 1750
+intro_year = 1830
 intro_month = 1
 retire_year = 1860
 retire_month = 1
@@ -460,7 +462,7 @@ waytype=track
 cost=6400
 is_signal=1
 is_longblocksignal=1
-intro_year = 1750
+intro_year = 1830
 intro_month = 1
 retire_year = 1860
 retire_month = 1
@@ -485,7 +487,7 @@ waytype=track
 cost=12800
 is_signal=1
 free_route=1
-intro_year = 1750
+intro_year = 1840
 intro_month = 1
 retire_year = 1860
 retire_month = 1
@@ -611,5 +613,21 @@ Image[2]=images/privaterail-gate.0.3
 Image[3]=images/privaterail-gate.0.2
 Icon=> images/privaterail-gate.0.4
 Cursor=images/privaterail-gate.0.5
+---------------------------------------
+# one-way sign
+obj=roadsign
+name=RailOneWay
+copyright=James
+cost=500
+waytype=track
+single_way=1
+intro_year = 1825
+intro_month = 9
+image[0]=rail-one-way.0.0
+Image[1]=rail-one-way.0.1
+Image[2]=rail-one-way.0.3
+Image[3]=rail-one-way.0.2
+Icon=> rail-one-way.0.5
+Cursor=rail-one-way.0.4
 ---------------------------------------
 # END OF FILE

@@ -1,8 +1,10 @@
 obj=vehicle
-name=LMS-Garratt-Front(Black)
+name=LMS-Garratt-Front
 engine_type=steam
 speed=80
-power=1700
+# Extrapolated
+power=425
+# http://en.wikipedia.org/wiki/LMS_Garratt
 tractive_effort=203
 copyright=James
 intro_year=1927
@@ -14,14 +16,16 @@ freight=None
 payload=0
 length=4
 
-weight=53
+weight=50
+axle_load=19
 cost=12672000
+# These were "heavy on coal and maintenance": http://en.wikipedia.org/wiki/LMS_Garratt
 runningcost=1188
 sound=-1
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=13
 
-Constraint[Next][0]=LMS-Garratt-Middle(Black)
+Constraint[Next][0]=LMS-Garratt-Middle
 
 EmptyImage[E]=./images/lms-garratt.0.0
 EmptyImage[SE]=./images/lms-garratt.0.1

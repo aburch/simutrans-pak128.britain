@@ -1,7 +1,7 @@
 obj=vehicle
 name=BrakeD16
 #?
-speed=70
+speed=80
 copyright=James
 intro_year=1855
 intro_month=2
@@ -10,16 +10,18 @@ retire_month=4
 freight=Bucher
 payload=0
 waytype=track
+brake_force=3
+rolling_resistance=19
 
 length=3
 
 #?
-weight=4
+weight=10
 cost=0
 runningcost=0
 sound=-1
 
-bidirectional=0
+bidirectional=1
 
 EmptyImage[E]=./images/wagon-brake-d16.0.0
 EmptyImage[SE]=./images/wagon-brake-d16.0.1

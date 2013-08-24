@@ -12,6 +12,7 @@ payload=56
 length=9
 
 weight=31
+axles=4
 cost=885000
 runningcost=56
 sound=-1
@@ -22,7 +23,7 @@ catering_level=5
 
 min_loading_time=35
 max_loading_time=180
-comfort=126
+comfort=150
 
 Constraint[Prev][0]=LNER-Coronation-Brake-Third-Twin(rear)
 Constraint[Prev][1]=LNER-Coronation-Brake-Third-Triple(rear)
@@ -86,6 +87,7 @@ payload=0
 length=7
 
 weight=31
+axles=4
 cost=885000
 runningcost=25
 sound=-1
@@ -96,7 +98,7 @@ catering_level=5
 
 min_loading_time=35
 max_loading_time=180
-comfort=126
+comfort=150
 
 Constraint[Prev][0]=LNER-Coronation-Restaurant-Triple(front)
 
@@ -159,6 +161,7 @@ payload=36
 length=9
 
 weight=31
+axles=4
 cost=885000
 runningcost=25
 sound=-1
@@ -169,7 +172,7 @@ catering_level=5
 
 min_loading_time=35
 max_loading_time=180
-comfort=126
+comfort=150
 
 Constraint[Prev][0]=LNER-Coronation-Restaurant-Triple(middle)
 

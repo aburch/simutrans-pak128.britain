@@ -2,9 +2,9 @@ obj=vehicle
 name=1906TubeStockFront
 engine_type=electric
 speed=60
-#gear=500
+gear=80
 power=120
-tractive_effort=55
+tractive_effort=27
 length=8
 copyright=James
 intro_year=1906
@@ -17,6 +17,7 @@ payload=40
 overcrowded_capacity=80
 
 weight=27
+axles=4
 cost=950000
 runningcost=120
 sound=-1
@@ -29,7 +30,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=80
-comfort=57
+comfort=52
 
 upgrade[0]=1920TubeStockAirDoorFront
 
@@ -75,6 +76,7 @@ payload=48
 overcrowded_capacity=106
 
 weight=23
+axles=4
 cost=350000
 runningcost=10
 sound=-1
@@ -87,7 +89,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=80
-comfort=57
+comfort=52
 
 Constraint[Prev][0]=1906TubeStockFront
 Constraint[Prev][1]=1906TubeStockTrailer
@@ -123,9 +125,9 @@ obj=vehicle
 name=1906TubeStockRear
 engine_type=electric
 speed=60
-#gear=500
+gear=80
 power=120
-tractive_effort=55
+tractive_effort=27
 length=8
 copyright=James
 intro_year=1906
@@ -138,6 +140,7 @@ payload=40
 overcrowded_capacity=80
 
 weight=27
+axles=4
 cost=950000
 runningcost=120
 sound=-1
@@ -147,7 +150,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=80
-comfort=57
+comfort=52
 
 upgrade[0]=1920TubeStockAirDoorRear
 

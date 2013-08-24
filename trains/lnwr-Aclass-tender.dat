@@ -1,7 +1,7 @@
 obj=vehicle
-name=LNWR-AClass-Tender(Black)
+name=LNWR-AClass-Tender
 engine_type=steam
-speed=80
+speed=100
 copyright=James
 intro_year=1894
 intro_month=10
@@ -13,13 +13,14 @@ payload=0
 length=3
 
 weight=30
+axles=3
 cost=0
 runningcost=0
 sound=-1
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=25
 
-Constraint[Prev][0]=LNWR-AClass(Black)
+Constraint[Prev][0]=LNWR-AClass
 Constraint[Prev][1]=LNWR-BClass
 Constraint[Prev][2]=LNWR-G1Class
 

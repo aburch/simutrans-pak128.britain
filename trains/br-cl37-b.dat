@@ -1,9 +1,9 @@
 obj=vehicle
-name=BR-Class37(Rail-Blue)
+name=BR-Class37
 engine_type=diesel
 smoke=Diesel
 speed=145
-#gear=400
+gear=50
 power=1304
 tractive_effort=247
 copyright=Kieron
@@ -15,8 +15,10 @@ waytype=track
 freight=None
 payload=0
 length=11
+rolling_resistance=13
 
 weight=105
+axles=6
 cost=6048000
 runningcost=1122
 sound=-1
@@ -24,6 +26,16 @@ increase_maintenance_after_years=25
 
 can_lead_from_rear=0
 bidirectional=1
+
+# Blue star
+Constraint[Prev][0]=BR-Class20
+Constraint[Prev][1]=BR-Class24
+Constraint[Prev][2]=BR-Class25
+Constraint[Prev][3]=BR-Class31-1
+Constraint[Prev][4]=BR-Class37
+Constraint[Prev][5]=BR-Class40
+Constraint[Prev][6]=BR-Class45
+Constraint[Prev][7]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

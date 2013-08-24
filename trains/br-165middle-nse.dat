@@ -3,9 +3,9 @@ name=BR-165Middle(NSE)
 engine_type=diesel
 smoke=Diesel
 speed=120
-#gear=520
+gear=50
 power=260
-tractive_effort=155
+tractive_effort=55
 copyright=Kieron
 intro_year=1991
 intro_month=8
@@ -16,8 +16,10 @@ freight=Passagiere
 payload=106
 overcrowded_capacity=80
 length=13
+brake_force=27
 
 weight=37
+axles=4
 cost=1752000
 runningcost=88
 sound=-1
@@ -28,7 +30,7 @@ bidirectional=1
 
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort=84
 
 Constraint[Prev][0]=BR-165Front(NSE)
 Constraint[Prev][1]=BR-165Middle(NSE)
@@ -51,9 +53,9 @@ name=BR-166Middle(NSE)
 engine_type=diesel
 smoke=Diesel
 speed=145
-#gear=520
+gear=50
 power=260
-tractive_effort=142
+tractive_effort=48
 copyright=Kieron
 intro_year=1992
 intro_month=11
@@ -64,8 +66,10 @@ freight=Passagiere
 payload=102
 overcrowded_capacity=77
 length=13
+brake_force=27
 
 weight=37
+axles=4
 cost=1822000
 upgrade_price=0
 runningcost=91
@@ -77,7 +81,7 @@ bidirectional=1
 
 min_loading_time=17
 max_loading_time=55
-comfort=93
+comfort=88
 
 upgrade[0]=BR-166Middle-Trolley(NSE)
 
@@ -105,7 +109,7 @@ smoke=Diesel
 speed=145
 #gear=520
 power=260
-tractive_effort=142
+tractive_effort=48
 copyright=Kieron
 intro_year=1992
 intro_month=11
@@ -116,8 +120,10 @@ freight=Passagiere
 payload=102
 overcrowded_capacity=74
 length=13
+brake_force=27
 
 weight=37
+axles=4
 cost=1822000
 upgrade_price=1500
 runningcost=91
@@ -129,7 +135,7 @@ catering_level=1
 
 min_loading_time=17
 max_loading_time=55
-comfort=93
+comfort=88
 
 upgrade[0]=BR-166Middle(NSE)
 

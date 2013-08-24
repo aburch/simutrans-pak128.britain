@@ -2,8 +2,9 @@ obj=vehicle
 name=BR-373RearCab
 engine_type=electric
 speed=300
-power=4080
-tractive_effort=95
+power=6100
+gear=80
+tractive_effort=205
 copyright=Kieron
 intro_year=1994
 intro_month=11
@@ -13,8 +14,11 @@ waytype=track
 freight=Passagiere
 payload=0
 length=13
+brake_force=60
+rolling_resistance=13
 
-weight=80
+weight=68.5
+axles=4
 cost=9744000
 runningcost=1500
 sound=-1
@@ -24,8 +28,7 @@ bidirectional=0
 
 min_loading_time=35
 max_loading_time=165
-comfort=143
-air_resistance=884
+air_resistance=108
 
 Constraint[Prev][0]=BR-373RearPower
 

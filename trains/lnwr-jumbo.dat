@@ -1,9 +1,11 @@
 obj=vehicle
-name=LNWR-Jumbo(Black)
+name=LNWR-Jumbo
 engine_type=steam
 smoke=Steam
-speed=130
-power=820
+speed=145
+# Approximately calibrated based on assumption of 90mph speed with 201t gross
+# load down a 1/175 gradient. (-45.49Kw).
+power=233
 tractive_effort=49
 copyright=James
 intro_year=1887
@@ -15,10 +17,9 @@ freight=None
 payload=0
 length=5
 
-# Note that these were a development of the "Precedent" class: see Aarons p. 192 and 266. 
-# These should be upgradeable from the earlier class (new graphics needed as the wheel size was changed)
-
 weight=42
+# See Ahrons p. 295
+axle_load=12
 cost=10038000
 upgrade_price=1056500
 runningcost=1718
@@ -26,7 +27,7 @@ sound=-1
 increase_maintenance_after_years=35
 years_before_maintenance_max_reached=25
 
-Constraint[Next][0]=LNWR-Jumbo-Tender(Black)
+Constraint[Next][0]=LNWR-Jumbo-Tender
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -40,11 +41,11 @@ EmptyImage[NW][0]=./images/lnwr-jumbo.0.5
 EmptyImage[N][0]=./images/lnwr-jumbo.0.6
 EmptyImage[NE][0]=./images/lnwr-jumbo.0.7
 
-EmptyImage[E][1]=./images/lnwr-jumbo-lms_E.0
-EmptyImage[SE][1]=./images/lnwr-jumbo-lms_SE.0
-EmptyImage[S][1]=./images/lnwr-jumbo-lms_S.0
-EmptyImage[SW][1]=./images/lnwr-jumbo-lms_SW.0
-EmptyImage[W][1]=./images/lnwr-jumbo-lms_W.0
-EmptyImage[NW][1]=./images/lnwr-jumbo-lms_NW.0
-EmptyImage[N][1]=./images/lnwr-jumbo-lms_N.0
-EmptyImage[NE][1]=./images/lnwr-jumbo-lms_NE.0
+EmptyImage[E][1]=./images/lnwr-jumbo-lms.1.4
+EmptyImage[SE][1]=./images/lnwr-jumbo-lms.1.5
+EmptyImage[S][1]=./images/lnwr-jumbo-lms.1.6
+EmptyImage[SW][1]=./images/lnwr-jumbo-lms.1.7
+EmptyImage[W][1]=./images/lnwr-jumbo-lms.1.0
+EmptyImage[NW][1]=./images/lnwr-jumbo-lms.1.1
+EmptyImage[N][1]=./images/lnwr-jumbo-lms.1.2
+EmptyImage[NE][1]=./images/lnwr-jumbo-lms.1.3

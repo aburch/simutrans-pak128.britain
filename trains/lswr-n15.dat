@@ -3,10 +3,11 @@ name=LSWR-N15
 engine_type=steam
 smoke=Steam
 speed=140
-#gear=350
-power=1675
-tractive_effort=97
-#Guessed figure for TE, as not available for the LSWR version.
+# Extrapolated
+power=408
+# Calculated from figures given at: http://orion.math.iastate.edu/jdhsmith/term/slgblswr.htm
+# 85% efficiency used, as superheated locomotive.
+tractive_effort=119
 copyright=James
 intro_year=1918
 intro_month=8
@@ -18,6 +19,7 @@ payload=0
 length=7
 
 weight=82
+axle_load=19
 cost=11486200
 runningcost=1782
 sound=-1
@@ -55,6 +57,7 @@ payload=0
 length=5
 
 weight=57
+axles=4
 cost=0
 runningcost=0
 sound=-1

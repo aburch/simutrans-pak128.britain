@@ -10,16 +10,18 @@ retire_month=7
 freight=Bucher
 payload=0
 waytype=track
+brake_force=7
+rolling_resistance=19
 
 length=4
 
 #?
-weight=7
+weight=20
 cost=0
 runningcost=0
 sound=-1
 
-bidirectional=0
+bidirectional=1
 
 EmptyImage[E]=./images/wagon-brake-lms.0.0
 EmptyImage[SE]=./images/wagon-brake-lms.0.1

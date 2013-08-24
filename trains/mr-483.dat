@@ -2,25 +2,36 @@ obj=vehicle
 name=MR-483
 engine_type=steam
 smoke=Steam
-speed=120
-#gear=400
-power=775
-tractive_effort=71
+speed=135
+# Extrapolated
+power=185
+# http://en.wikipedia.org/wiki/Midland_Railway_483_Class
+tractive_effort=78
 copyright=James
-intro_year=1883
-intro_month=10
-retire_year=1921
-retire_month=12
+# The Wikipedia article is unclear on the introduction date.
+# See: http://en.wikipedia.org/wiki/Midland_Railway_Class_2_4-4-0
+# for more information. A very large number of similar classes
+# count as what the 483's article calls this class. The locomotive
+# with this shape was an early 20th century thing.
+# Clear introduction date *very* hard to find for this. The closest
+# is: http://chasewaterstuff.wordpress.com/tag/s-w-johnson/
+intro_year=1910
+intro_month=2
+# Later than actual end date to interlock with LMS 2P class.
+retire_year=1928
+retire_month=1
 waytype=track
 freight=None
 payload=0
 length=6
 
 weight=54
+axle_load=16
 cost=6841000
+upgrade_price=3420500
 runningcost=1430
 sound=-1
-increase_maintenance_after_years=23
+increase_maintenance_after_years=16
 years_before_maintenance_max_reached=25
 
 Constraint[Next][0]=MR-483-Tender
@@ -60,13 +71,13 @@ EmptyImage[NE][2]=./images/mr-483-br.1.7
 
 obj=vehicle
 name=MR-483-Tender
-speed=120
+speed=135
 power=0
 copyright=James
 intro_year=1883
 intro_month=10
-retire_year=1921
-retire_month=12
+retire_year=1928
+retire_month=1
 waytype=track
 freight=None
 payload=0
@@ -76,9 +87,11 @@ weight=37
 cost=0
 runningcost=0
 sound=-1
-increase_maintenance_after_years=23
+increase_maintenance_after_years=16
 
 Constraint[Prev][0]=MR-483
+Constraint[Prev][1]=MR-1873
+Constraint[Prev][2]=MR-2736
 
 liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard

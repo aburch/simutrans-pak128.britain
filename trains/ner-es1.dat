@@ -1,8 +1,8 @@
 obj=vehicle
-name=NER-ClassES1(Green)
+name=NER-ClassES1
 engine_type=electric
 speed=75
-#gear=250
+gear=80
 power=480
 tractive_effort=111
 copyright=James
@@ -16,6 +16,7 @@ payload=0
 length=6
 
 weight=56
+axles=4
 cost=1584000
 runningcost=264
 sound=-1

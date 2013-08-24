@@ -8,10 +8,11 @@ freight=Passagiere
 
 payload=28
 overcrowded_capacity=55
-speed=87
+speed=84
 power=250
-#gear=90
-weight=9
+gear=50
+weight=13
+axles=2
 length=5
 cost=4850000
 runningcost=187
@@ -21,7 +22,7 @@ intro_month=12
 #retire_month=11
 # Do not retire - has no replacements!
 
-comfort=58
+comfort=40
 min_loading_time=12
 max_loading_time=45
 
@@ -48,9 +49,10 @@ freight=Passagiere
 
 payload=21
 overcrowded_capacity=45
-speed=87
+speed=84
 power=0
-weight=9
+weight=14
+axles=1
 length=4
 cost=0
 runningcost=0
@@ -59,7 +61,7 @@ intro_month=12
 #retire_year=2019
 #retire_month=11
 
-comfort=58
+comfort=40
 min_loading_time=12
 max_loading_time=45
 

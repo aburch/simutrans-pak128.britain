@@ -3,11 +3,12 @@ obj=vehicle
 name=Metropolitan-A-Class
 engine_type=steam
 smoke=Steam
-speed=87
-power=385
+speed=90
+# Extrapolated: see data here: http://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm
+power=129
 # Tractive effort calculated using figures from Ahrons, p. 155. Loss factor: 0.7
 tractive_effort=42
-copyright=James&jamespetts
+copyright=James/jamespetts
 intro_year=1864
 intro_month=9
 retire_year=1886
@@ -18,6 +19,7 @@ payload=0
 length=5
 
 # Weight taken from Ahrons, p. 155
+axle_load=14
 weight=42
 cost=8750000
 runningcost=845
@@ -28,7 +30,8 @@ bidirectional=1
 # TODO: Add Metropolitan and LSWR liveries for this.
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
-liverytype[2]=MR-Standard
+liverytype[2]=MR-Early
+liverytype[3]=MR-Standard
 
 EmptyImage[E][0]=./images/met-a-class-lnwr-red.1.4
 EmptyImage[SE][0]=./images/met-a-class-lnwr-red.1.5
@@ -48,11 +51,20 @@ EmptyImage[NW][1]=./images/met-a-class-lnwr-black.1.1
 EmptyImage[N][1]=./images/met-a-class-lnwr-black.1.2
 EmptyImage[NE][1]=./images/met-a-class-lnwr-black.1.3
 
-EmptyImage[E][2]=./images/met-a-class-mr.1.4
-EmptyImage[SE][2]=./images/met-a-class-mr.1.5
-EmptyImage[S][2]=./images/met-a-class-mr.1.6
-EmptyImage[SW][2]=./images/met-a-class-mr.1.7
-EmptyImage[W][2]=./images/met-a-class-mr.1.0
-EmptyImage[NW][2]=./images/met-a-class-mr.1.1
-EmptyImage[N][2]=./images/met-a-class-mr.1.2
-EmptyImage[NE][2]=./images/met-a-class-mr.1.3
+EmptyImage[E][2]=./images/met-a-class-mr-green.1.4
+EmptyImage[SE][2]=./images/met-a-class-mr-green.1.5
+EmptyImage[S][2]=./images/met-a-class-mr-green.1.6
+EmptyImage[SW][2]=./images/met-a-class-mr-green.1.7
+EmptyImage[W][2]=./images/met-a-class-mr-green.1.0
+EmptyImage[NW][2]=./images/met-a-class-mr-green.1.1
+EmptyImage[N][2]=./images/met-a-class-mr-green.1.2
+EmptyImage[NE][2]=./images/met-a-class-mr-green.1.3
+
+EmptyImage[E][3]=./images/met-a-class-mr.1.4
+EmptyImage[SE][3]=./images/met-a-class-mr.1.5
+EmptyImage[S][3]=./images/met-a-class-mr.1.6
+EmptyImage[SW][3]=./images/met-a-class-mr.1.7
+EmptyImage[W][3]=./images/met-a-class-mr.1.0
+EmptyImage[NW][3]=./images/met-a-class-mr.1.1
+EmptyImage[N][3]=./images/met-a-class-mr.1.2
+EmptyImage[NE][3]=./images/met-a-class-mr.1.3

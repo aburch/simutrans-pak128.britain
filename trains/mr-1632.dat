@@ -5,9 +5,10 @@ obj=vehicle
 name=MR-1632
 engine_type=steam
 smoke=Steam
-speed=75
-power=350
-tractive_effort=93
+speed=85
+# Extrapolated (figures from the 2441 used)
+power=104
+# http://en.wikipedia.org/wiki/Midland_Railway_2441_Class
 copyright=Kieron
 intro_year=1908
 intro_month=2
@@ -19,6 +20,7 @@ payload=0
 length=6
 
 weight=50
+axles=3
 cost=1755000
 upgrade_price=32000
 runningcost=199

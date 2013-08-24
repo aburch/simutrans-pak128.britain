@@ -1,11 +1,12 @@
 obj=vehicle
 name=ParcelCoach
-copyright=James&jamespetts
+copyright=James/jamespetts
 waytype=road
 freight=Post
-payload=25
+payload=250
 speed=18
-weight=2
+weight=1.5
+axles=2
 length=3
 cost=45000
 runningcost=10
@@ -16,8 +17,8 @@ retire_month=3
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=35
 
-min_loading_time=45
-max_loading_time=120
+min_loading_time=60
+max_loading_time=240
 
 Constraint[Prev][0]=RoadHorsesDouble
 Constraint[Prev][1]=RoadHorsesSingle
@@ -25,7 +26,7 @@ Constraint[Next][0]=none
 
 EmptyImage[E]=./images/parcel-coach.0.0
 EmptyImage[SE]=./images/parcel-coach.0.1
-EmptyImage[ S]=./images/parcel-coach.0.2
+EmptyImage[S]=./images/parcel-coach.0.2
 EmptyImage[SW]=./images/parcel-coach.0.3
 EmptyImage[W]=./images/parcel-coach.0.4
 EmptyImage[NW]=./images/parcel-coach.0.5

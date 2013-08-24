@@ -1,7 +1,7 @@
 obj=vehicle
 name=LMR-Patentee-Tender
 engine_type=steam
-speed=66
+speed=85
 copyright=Kieron
 intro_year=1833
 intro_month=6
@@ -11,6 +11,8 @@ waytype=track
 freight=None
 payload=0
 length=3
+brake_force=1
+rolling_resistance=19
 
 # Weight not available: guessed from contemporaneous locomotives
 weight=4

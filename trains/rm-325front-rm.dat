@@ -10,10 +10,12 @@ intro_month=6
 #retire_month=11
 waytype=track
 freight=Post
-payload=50
+payload=500
 length=11
+brake_force=21
 
 weight=29
+axles=4
 cost=1200000
 runningcost=181
 sound=-1

@@ -4,7 +4,7 @@ engine_type=electric
 speed=120
 power=0
 tractive_effort=0
-#gear=680
+gear=80
 copyright=Kieron
 intro_year=1975
 intro_month=12
@@ -15,8 +15,10 @@ freight=Passagiere
 payload=84
 overcrowded_capacity=64
 length=11
+rolling_resistance=13
 
 weight=30
+axles=4
 cost=1237000
 runningcost=55
 sound=-1
@@ -28,7 +30,7 @@ bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=65
+comfort=56
 
 Constraint[Prev][0]=BR-313Front(Blue-Grey)
 

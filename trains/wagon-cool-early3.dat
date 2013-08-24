@@ -9,10 +9,13 @@ retire_year=1855
 retire_month=6
 waytype=track
 freight=meat
-payload=5
+payload=6
 length=2
+brake_force=0
+rolling_resistance=19
 
 weight=2
+axle_load=2
 cost=77000
 runningcost=1
 sound=-1

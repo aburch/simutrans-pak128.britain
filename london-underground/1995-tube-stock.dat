@@ -2,9 +2,9 @@ obj=vehicle
 name=1995TubeStockFrontDM
 engine_type=electric
 speed=100
-#gear=250
+gear=80
 power=500
-tractive_effort=80
+tractive_effort=75
 length=9
 copyright=James
 intro_year=1995
@@ -15,8 +15,11 @@ waytype=track
 freight=Passagiere
 payload=32
 overcrowded_capacity=96
+brake_force=21
+rolling_resistance=13
 
 weight=29
+axles=4
 cost=1500000
 runningcost=100
 sound=-1
@@ -29,7 +32,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=12
 max_loading_time=40
-comfort=64
+comfort=56
 
 Constraint[Prev][0]=1995TubeStockRearDM
 Constraint[Prev][1]=none
@@ -49,9 +52,9 @@ obj=vehicle
 name=1995TubeStockFrontUNDM
 engine_type=electric
 speed=100
-#gear=250
+gear=80
 power=500
-tractive_effort=80
+tractive_effort=75
 length=9
 copyright=James
 intro_year=1995
@@ -62,8 +65,10 @@ waytype=track
 freight=Passagiere
 payload=34
 overcrowded_capacity=110
+brake_force=21
 
 weight=28
+axles=4
 cost=1000000
 runningcost=100
 sound=-1
@@ -76,7 +81,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=12
 max_loading_time=40
-comfort=64
+comfort=56
 
 Constraint[Prev][0]=1995TubeStockRearUNDM
 
@@ -106,8 +111,11 @@ waytype=track
 freight=Passagiere
 payload=34
 overcrowded_capacity=110
+brake_force=15
+rolling_resistance=13
 
 weight=21
+axles=4
 cost=800000
 runningcost=40
 sound=-1
@@ -120,7 +128,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=12
 max_loading_time=40
-comfort=64
+comfort=56
 
 Constraint[Prev][0]=1995TubeStockFrontDM
 Constraint[Prev][1]=1995TubeStockFrontUNDM
@@ -153,8 +161,11 @@ waytype=track
 freight=Passagiere
 payload=34
 overcrowded_capacity=110
+brake_force=15
+rolling_resistance=13
 
 weight=21
+axles=4
 cost=800000
 runningcost=40
 sound=-1
@@ -167,7 +178,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=12
 max_loading_time=40
-comfort=64
+comfort=56
 
 Constraint[Prev][0]=1995TubeStockMiddle1
 
@@ -188,9 +199,9 @@ obj=vehicle
 name=1995TubeStockRearUNDM
 engine_type=electric
 speed=100
-#gear=250
+gear=80
 power=500
-tractive_effort=80
+tractive_effort=75
 length=9
 copyright=James
 intro_year=1995
@@ -201,8 +212,11 @@ waytype=track
 freight=Passagiere
 payload=34
 overcrowded_capacity=110
+brake_force=21
+rolling_resistance=13
 
 weight=28
+axles=4
 cost=1000000
 runningcost=100
 sound=-1
@@ -215,7 +229,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=12
 max_loading_time=40
-comfort=64
+comfort=56
 
 Constraint[Prev][0]=1995TubeStockMiddle1
 Constraint[Prev][1]=1995TubeStockMiddle2
@@ -237,9 +251,9 @@ obj=vehicle
 name=1995TubeStockRearDM
 engine_type=electric
 speed=100
-#gear=250
+gear=80
 power=500
-tractive_effort=80
+tractive_effort=75
 length=9
 copyright=James
 intro_year=1995
@@ -250,8 +264,11 @@ waytype=track
 freight=Passagiere
 payload=32
 overcrowded_capacity=96
+brake_force=21
+rolling_resistance=13
 
 weight=29
+axles=4
 cost=1500000
 runningcost=100
 sound=-1
@@ -264,7 +281,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=12
 max_loading_time=40
-comfort=64
+comfort=56
 
 Constraint[Prev][0]=1995TubeStockMiddle1
 Constraint[Prev][1]=1995TubeStockMiddle2

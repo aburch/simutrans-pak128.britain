@@ -1088,8 +1088,6 @@ Blackpool-ProgressTwin-Trailer
 Blackpool Progress Twin (släp)
 Blackpool-Standard
 Blackpool Standard
-BoatHorsesDouble
-Hästspann
 BoatHorsesSingle
 Draghäst
 Bogie Tanker(TEA)
@@ -1226,11 +1224,11 @@ BR-375Middle(SE)
 BR Class 375 "Electrostar" EMV (mittsektion)
 BR-375Rear(SE)
 BR Class 375 "Electrostar" EMV (B-ände)
-BR-378Front(LT)
+BR-378Front
 BR London Overground Class 378 EMV
-BR-378Middle(LT)
+BR-378Middle
 BR London Overground Class 378 EMV (mittsektion)
-BR-378Rear(LT)
+BR-378Rear
 BR London Overground Class 378 EMV (B-ände)
 BR-390Coach(Virgin)
 BR Class 390 "Pendolino" passagerarvagn
@@ -1266,51 +1264,51 @@ BR-414[HAP]Front(Blue-Grey)
 BR Class 414 "2Hap" EMV
 BR-414[HAP]Rear(Blue-Grey)
 BR Class 414 "2Hap" EMV (b-ände)
-BR-419[MLV](Blue-Grey)
+BR-419[MLV]
 BR Class 419 MLV
-BR-489[GLV](Intercity)
+BR-489[GLV]
 BR Class 489 GLV
-BR-499[TLV](Blue-Grey)
+BR-499[TLV]
 BR Class 499 TLV
-BR-4MT-Tank(Black)
+BR-4MT-Tank
 BR Standard Class 4MT 2-6-4T
-BR-7MT-Tender(Green)
+BR-7MT-Tender
 Tender till BR Standard Class 7 "Brittania"
-BR-7MT(Green)
+BR-7MT
 BR Standard Class 7 "Brittania" 4-6-2
-BR-9F-Tender(Black)
+BR-9F-Tender
 Tender till BR Standard Class 9F 
-BR-9F(Black)
+BR-9F
 BR Standard Class 9F 2-10-0
-BR-Class20(Green)
+BR-Class20
 BR Class 20
-BR-Class25(Green)
+BR-Class25
 BR Class 25
-BR-Class30(Green)
+BR-Class30
 BR Class 30
-BR-Class35(Rail-Blue)
+BR-Class35
 BR Class 35 "Hymek"
-BR-Class37(Rail-Blue)
+BR-Class37
 BR Class 37
-BR-Class40(Green)
+BR-Class40
 BR Class 40
 BR-Class43
 BR Class 43 "HST 125"
 BR-Class43Rear
 BR Class 43 "HST 125" (b-ände)
-BR-Class47(Rail-Blue)
+BR-Class47
 BR Class 47
-BR-Class52(Maroon)
+BR-Class52
 BR Class 52 "Western"
-BR-Class55(Green)
+BR-Class55
 BR Class 55 "Deltic"
-BR-Class56(Rail-Blue)
+BR-Class56
 BR Class 56
-BR-Class58(Grey)
+BR-Class58
 BR Class 58
-BR-Class66(EWS)
+BR-Class66
 BR Class 66
-BR-Class67(EWS)
+BR-Class67
 BR Class 67
 BR-Class71(Green)
 BR Class 71
@@ -1318,15 +1316,15 @@ BR-Class73
 BR Class 73
 BR-Class86
 BR Class 86
-BR-Class87(Rail-Blue)
+BR-Class87
 BR Class 87
 BR-Class90
 BR Class 90
 BR-Class91
 BR Class 91 "225"
-BR-Class92(Railfreight)
+BR-Class92
 BR Class 92
-BR-Mk1-BSK
+BR-Mk1-BSK-rear
 BR Mk.1 Bromsad personvagn
 BR-Mk1-BSO
 BR Mk.1 Bromsad personvagn
@@ -1538,9 +1536,9 @@ FordTransitPiece
 Ford Transit styckegodsskåpbil
 FordTransitPost
 Ford Transit postskåpbil
-GER-Claud-Hamilton-Tender(Blue)
+GER-Claud-Hamilton-Tender
 Tender till GER Class S46 "Claud Hamilton" 4-4-0
-GER-Claud-Hamilton(Blue)
+GER-Claud-Hamilton
 GER Class S46 "Claud Hamilton" 4-4-0
 GNR-4Wheel-Brake
 GNR Bromsad tvåaxlig personvagn
@@ -1568,15 +1566,15 @@ GuyArab
 Guy Arab
 GWR-1400Tank
 GWR 1400 Class 0-4-2T
-GWR-2800-Tender(Green)
+GWR-2800-Tender
 Tender till GWR 2800 Class 2-8-0
-GWR-2800(Green)
+GWR-2800
 GWR 2800 Class 2-8-0
 GWR-Autocoach
 GWR Autocoach
-GWR-Bulldog-Tender(Green)
+GWR-Bulldog-Tender
 Tender till GWR "Bulldog" Class 4-4-0
-GWR-Bulldog(Green)
+GWR-Bulldog
 GWR "Bulldog" Class 4-4-0
 GWR-Churchward-Star
 GWR "Star" Class 4-6-0
@@ -1612,7 +1610,7 @@ GWR-PannierTank
 GWR Pannier tanklok 0-6-0T
 GWR-ParkRoyal-Railcar
 GWR Park Royal rälsbuss
-GWR-Prairie-Tank(Green)
+GWR-Prairie-Tank
 GWR 3100 Class "Prairie Tank" 2-6-2T
 GWR-Swindon-TwinsetFront
 GWR Swindon Twinset
@@ -1630,9 +1628,9 @@ HorseBargeLong
 Kanalflotte (långgods)
 HorseBargePiece
 Kanalflotte (styckegods)
-HR-Jones-Goods-Tender(Yellow)
+HR-Jones-Goods-Tender
 Tender till HR Jones Goods 4-6-0
-HR-Jones-Goods(Yellow)
+HR-Jones-Goods
 HR Jones Goods 4-6-0
 JennyLind
 LBSCR "Jenny Lind" 2-2-2
@@ -1658,7 +1656,7 @@ LargeArticTrailerMail
 Stort lastbilssläp (post)
 LargeArticTrailerPiece
 Stort lastbilssläp (styckegods)
-LBSCR-4Wheel-Brake
+LBSCR-4Wheel-Brake-rear
 LBSCR Bromsad tvåaxlig personvagn
 LBSCR-4Wheel-First
 LBSCR Tvåaxlig personvagn
@@ -1812,19 +1810,19 @@ LMR-Rocket
 LMR "Rocket" 0-2-2
 LMR-Rocket-Tender
 Tender till LMR "Rocket" 
-LMS-10000(Black)
+LMS-10000
 LMS 10000 Class
 LMS-3F-Jinty
 LMS Class 3F "Jinty" 0-6-0T
-LMS-4F-Tender(Black)
+LMS-4F-Tender
 Tender till LMS Class 4F 0-6-0
-LMS-4F(Black)
+LMS-4F
 LMS Class 4F 0-6-0
-LMS-502Front(Maroon)
+LMS-502Front
 LMS Class 502 EMV
-LMS-502Middle(Maroon)
+LMS-502Middle
 LMS Class 502 EMV (mittsektion)
-LMS-502Rear(Maroon)
+LMS-502Rear
 LMS Class 502 EMV (bakre ände)
 LMS-Coronation-BFK(Maroon)
 LMS "Coronation Scot" främre bromsad personvagn
@@ -1834,39 +1832,39 @@ LMS-Coronation-FK(Maroon)
 LMS "Coronation Scot" förstaklassvagn
 LMS-Coronation-TO(Maroon)
 LMS "Coronation Scot" tredjeklassvagn
-LMS-d1904-Coach
+LMS-open
 LMS personvagn
-LMS-d1904-Dining
+LMS-diner
 LMS Restaurantvagn
-LMS-d2007-Parcel-Brake
+LMS-full-brake
 LMS Resgodsvagn med bromshytt
-LMS-Garratt-Front(Black)
+LMS-Garratt-Front
 LMS Garratt 2-6-0+0-6-2
-LMS-Garratt-Middle(Black)
+LMS-Garratt-Middle
 LMS Garratt 2-6-0+0-6-2 (ångpanna)
-LMS-Garratt-Rear(Black)
+LMS-Garratt-Rear
 LMS Garratt 2-6-0+0-6-2 (bakre del)
 LMS-Mail
 LMS Postvagn
-LMS-Patriot-Tender(Maroon)
+LMS-Patriot-Tender
 Tender till LMS Class 5XP "Patriot" 4-6-0
-LMS-Patriot(Maroon)
+LMS-Patriot
 LMS Class 5XP "Patriot" 4-6-0
-LMS-Princess-Royal-Tender(Maroon)
+LMS-Princess-Royal-Tender
 Tender till LMS Class 8P "Princess Royal"
-LMS-Princess-Royal(Maroon)
+LMS-Princess-Royal
 LMS Class 8P "Princess Royal"
-LMS-Stanier-5MT-Tender(Black)
+LMS-Stanier-5MT-Tender
 Tender till LMS Class 5MT "Black Five"
-LMS-Stanier-5MT(Black)
+LMS-Stanier-5MT
 LMS Class 5MT "Black Five" 4-6-0
-LMS-Stanier-7P-Tender(Maroon)
+LMS-Stanier-7P-Tender
 Tender till LMS Class 7P "Princess Coronation" 4-6-2
-LMS-Stanier-7P(Maroon)
+LMS-Stanier-7P
 LMS Class 7P "Princess Coronation" 4-6-2
-LMS-Stanier-8F-Tender(Black)
+LMS-Stanier-8F-Tender
 Tender till LMS Class 8F
-LMS-Stanier-8F(Black)
+LMS-Stanier-8F
 LMS Class 8F 2-8-0
 LMS-TPO
 LMS Postsorteringsvagn
@@ -1878,17 +1876,17 @@ LNER-A4-Tender
 Tender till LNER Class A4
 LNER-A4
 LNER Class A4 4-6-2
-LNER-B17-Tender(Green)
+LNER-B17-Tender
 Tender till LNER Class B17 "Footballer" 4-6-0
-LNER-B17(Green)
+LNER-B17
 LNER Class B17 "Footballer" 4-6-0
-LNER-B17-5-Tender(Green)
+LNER-B17-5-Tender
 Tender till LNER Class B17 streamlined 4-6-0
-LNER-B17-5(Green)
+LNER-B17-5
 LNER Class B17/5 streamlined 4-6-0
-LNER-ClassEM1(Black)
+LNER-ClassEM1
 LNER Class EM1 Bo-Bo
-LNER-ClassEM2(Green)
+LNER-ClassEM2
 LNER/BR Class EM2 Co-C
 LNER-Coronation-Brake-Third-Triple(front)
 LNER Främre bromsad personvagn "Coronation"
@@ -1924,51 +1922,51 @@ LNER-Gresley-Express-Parcel-Brake
 LNER Teakklädd resgodsvagn med bromshytt
 LNER-Gresley-Express-TPO
 LNER Teakklädd postsorteringsvagn
-LNER-J94(Black)
+LNER-J94
 WD/LNER Class J94 0-6-0ST
-LNER-P2-Tender(Green)
+LNER-P2-Tender
 Tender till LNER Class P2 2-8-2
-LNER-P2(Green)
+LNER-P2
 LNER Class P2 2-8-2
-LNER-V2-Tender(Green)
+LNER-V2-Tender
 Tender till LNER Class V2
-LNER-V2(Green)
+LNER-V2
 LNER Class V2 2-6-2
-LNWR-1847-Brake
+4-wheel-1850s-brake
 LNWR Tvåaxlig bromsad postvagn
-LNWR-1847-First
+4-wheel-1850s
 LNWR Tvåaxlig personvagn
-LNWR-1847-Mail
+4-wheel-1850s-mail
 LNWR Tvåaxlig postvagn
-LNWR-6Wheel-First
+LNWR-6Wheel-non-lav
 LNWR Treaxlig personvagn
 LNWR-6Wheel-Guard
 LNWR bromsad treaxlig personvagn
 LNWR-6Wheel-Mail
 LNWR Treaxlig postvagn
-LNWR-AClass-Tender(Black)
+LNWR-AClass-Tender
 Tender till LNWR A Class 0-8-0
-LNWR-AClass(Black)
+LNWR-AClass
 LNWR A Class 0-8-0
-LNWR-Bloomer-Tender(Red)
+LNWR-Bloomer-Tender
 Tender till LNWR "Bloomer" Class 2-2-2
-LNWR-Bloomer(Red)
+LNWR-Bloomer
 LNWR "Bloomer" Class 2-2-2
 LNWR-DXgoods-Tender(Green)
 Tender till LNWR DX Goods 0-6-0
-LNWR-DXgoods(Green)
+LNWR-DXgoods
 LNWR DX Goods 0-6-0
-LNWR-Jumbo-Tender(Black)
+LNWR-Jumbo-Tender
 Tender till LNWR "Jumbo" Class 2-2-2-0
-LNWR-Jumbo(Black)
+LNWR-Jumbo
 LNWR "Jumbo" Class 2-2-2-0
-LNWR-PrinceOfWales-Tender(Black)
+LNWR-PrinceOfWales-Tender
 Tender till LNWR "Prince of Wales" Class 4-6-0
-LNWR-PrinceOfWales(Black)
+LNWR-PrinceOfWales
 LNWR "Prince of Wales" Class 4-6-0
-LNWR-Problem-Tender(Green)
+LNWR-Problem-Tender
 Tender till LNWR "Problem" Class 2-2-2
-LNWR-Problem(Green)
+LNWR-Problem
 LNWR "Problem" Class 2-2-2
 Long10T
 10t flakvagn
@@ -1990,9 +1988,9 @@ LSWR-Third-Brake
 LSWR Bromsad tredjeklassvagn
 LSWR-Third-Carriage
 LSWR Tredjeklassvagn
-LYR-Class25-Tender(Black)
+LYR-Class25-Tender
 Tender till LYR Class 25 0-6-0
-LYR-Class25(Black)
+LYR-Class25
 LYR Class 25 0-6-0
 MailBike
 Cyklande brevbärare
@@ -2104,13 +2102,13 @@ MR-Clerestory-Parcel-Brake
 MR Resgodsvagn med lanternin
 MR-Clerestory-TPO
 MR Postsorteringsvagn med lanternin
-MR-Kirtley156(Maroon)
+MR-Kirtley156
 Midland 156 Class 2-4-0
-MR-Kirtley156Tender(Maroon)
+MR-Kirtley156Tender
 Tender till Midland 156 Class
-MR-Spinner-Tender(Maroon)
+MR-Spinner-Tender
 Tender till MR 673 Class "Midland Spinner" 4-2-2
-MR-Spinner(Maroon)
+MR-Spinner
 MR 673 Class "Midland Spinner" 4-2-2
 MSLR-4Wheel-Brake
 MSLR Tvåaxlig bromsad postvagn
@@ -2118,11 +2116,11 @@ MSLR-4Wheel-Composite
 MSLR Tvåaxlig personvagn
 MSLR-4Wheel-Mail
 MSLR Tvåaxlig postvagn
-NER-ClassEE1(Green)
+NER-ClassEE1
 NER Class EE1 2-Co-2
-NER-ClassEF1(Green)
+NER-ClassEF1
 NER Class EF1 Bo-Bo
-NER-ClassES1(Green)
+NER-ClassES1
 NER Class ES1 Bo-Bo
 NET-Bombardier-Incentro(Front)
 NET Bombardier Incentro
@@ -2308,17 +2306,17 @@ Single-Shire
 Shirehäst
 Small-2-Deck-Trailer
 Litet tvådäckat spårvagnssläp
-SR-401[BIL]Front(Green)
+SR-401[BIL]Front
 SR 2Bil EMV
-SR-401[BIL]Rear(Green)
+SR-401[BIL]Rear
 SR 2Bil EMV (b-ände)
-SR-404[COR]Front(Green)
+SR-404[COR]Front
 SR 4Cor EMV
-SR-404[COR]Middle1(Green)
+SR-404[COR]Middle1
 SR 4Cor EMV (mittsektion)
-SR-404[COR]Middle2(Green)
+SR-404[COR]Middle2
 SR 4Cor EMV (mittsektion)
-SR-404[COR]Rear(Green)
+SR-404[COR]Rear
 SR 4Cor EMV (b-ände)
 SR-Bulleid-Express-Brake(Green)
 SR Bulleid bromsad snabbpersonvagn
@@ -2346,9 +2344,9 @@ SR-N15
 SR N15 Class "King Arthur" 4-6-0
 SR-N15-Tender
 Tender till SR N15 Class "King Arthur" 4-6-0
-SR-Q1-Tender(Black)
+SR-Q1-Tender
 Tender till SR Q1 Class 0-6-0
-SR-Q1(Black)
+SR-Q1
 SR Q1 Class 0-6-0
 SR-Schools
 SR V Class "Schools"

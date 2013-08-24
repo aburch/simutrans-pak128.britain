@@ -13,8 +13,11 @@ freight=Passagiere
 payload=73
 overcrowded_capacity=55
 length=11
+brake_force=24
+rolling_resistance=13
 
 weight=33
+axles=4
 cost=1602000
 runningcost=148
 sound=-1
@@ -24,7 +27,7 @@ bidirectional=1
 
 min_loading_time=17
 max_loading_time=55
-comfort=97
+comfort=100
 
 Constraint[Prev][0]=BR-365Power(NSE)
 

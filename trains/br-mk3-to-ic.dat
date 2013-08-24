@@ -11,8 +11,11 @@ freight=Passagiere
 payload=72
 overcrowded_capacity=20
 length=13
+brake_force=27
+rolling_resistance=13
 
 weight=34
+axles=4
 cost=590000
 runningcost=30
 sound=-1
@@ -22,7 +25,7 @@ bidirectional=1
 
 min_loading_time=30
 max_loading_time=160
-comfort=145
+comfort=150
 
 Constraint[Next][0]=BR-Mk3-TSO
 Constraint[Next][1]=BR-Mk3-TRB
@@ -151,8 +154,11 @@ freight=Passagiere
 payload=72
 overcrowded_capacity=20
 length=13
+brake_force=27
+rolling_resistance=13
 
 weight=34
+axles=4
 cost=590000
 runningcost=30
 sound=-1
@@ -162,8 +168,7 @@ bidirectional=1
 
 min_loading_time=30
 max_loading_time=160
-comfort=145
-
+comfort=150
 
 Constraint[Next][0]=BR-Mk3a-TSO
 Constraint[Next][1]=BR-Mk3-DVT

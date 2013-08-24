@@ -1,13 +1,11 @@
 obj=vehicle
-name=LNWR-DXgoods(Green)
+name=LNWR-DXgoods
 engine_type=steam
 smoke=Steam
 speed=60
-# Calculated from data from Ahrons, p. 123
-# Loss factor set at 0.75
-# Half boiler pressure used to calculate power.
+# Extrapolated
+power=69
 # Tractive effort as given by Ahrons, p. 123 - as calculated is lower.
-power=373
 tractive_effort=50
 copyright=James
 intro_year=1858
@@ -18,9 +16,12 @@ waytype=track
 freight=None
 payload=0
 length=5
+brake_force=0
+rolling_resistance=19
 
 # Weight given by Ahrons, p. 123
 weight=27
+axles=3
 cost=3165000
 runningcost=462
 sound=-1

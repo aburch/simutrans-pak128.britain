@@ -3,9 +3,9 @@ name=BR-180Middle(FGW)
 engine_type=diesel
 smoke=Diesel
 speed=200
-#gear=320
+gear=50
 power=560
-tractive_effort=158
+tractive_effort=56
 copyright=Kieron
 intro_year=2000
 intro_month=7
@@ -16,8 +16,11 @@ freight=Passagiere
 payload=72
 overcrowded_capacity=20
 length=13
+brake_force=38
+rolling_resistance=13
 
 weight=50
+axles=4
 cost=2705000
 runningcost=428
 sound=-1
@@ -29,7 +32,7 @@ catering_level=1
 
 min_loading_time=30
 max_loading_time=150
-comfort=125
+comfort=134
 
 Constraint[Prev][0]=BR-180Front(FGW)
 Constraint[Prev][1]=BR-180Middle(FGW)
@@ -57,7 +60,7 @@ smoke=Diesel
 speed=200
 #gear=320
 power=560
-tractive_effort=158
+tractive_effort=56
 copyright=Kieron
 intro_year=2000
 intro_month=7
@@ -70,6 +73,7 @@ overcrowded_capacity=20
 length=13
 
 weight=50
+axles=4
 cost=2957000
 runningcost=458
 sound=-1
@@ -80,7 +84,7 @@ catering_level=2
 
 min_loading_time=30
 max_loading_time=150
-comfort=125
+comfort=134
 
 Constraint[Prev][0]=BR-180Front(FGW)
 Constraint[Prev][1]=BR-180Middle(FGW)

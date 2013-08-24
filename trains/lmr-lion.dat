@@ -2,9 +2,9 @@ obj=vehicle
 name=LMR-Lion
 engine_type=steam
 smoke=Steam
-speed=35
-# No Ahrons data available, guessed from contemporary locomotives.
-power=68
+speed=45
+# Approximately extrapolated
+power=28
 tractive_effort=9
 copyright=Kieron
 intro_year=1837
@@ -15,9 +15,12 @@ waytype=track
 freight=None
 payload=0
 length=5
+brake_force=0
+rolling_resistance=19
 
 # No Ahrons data available, guessed from contemporary locomotives.
 weight=23
+axle_load=8
 cost=4640000
 runningcost=600
 sound=-1

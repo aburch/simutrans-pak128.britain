@@ -3,8 +3,9 @@ name=SR-4SUB(front)
 engine_type=electric
 speed=120
 power=412
-tractive_effort=117
-copyright=Kieron&jamespetts
+gear=80
+tractive_effort=35
+copyright=Kieron/JamesPetts
 intro_year=1941
 intro_month=5
 retire_year=1953
@@ -16,6 +17,7 @@ overcrowded_capacity=42
 length=11
 
 weight=41
+axles=4
 cost=1850000
 runningcost=123
 sound=-1
@@ -25,7 +27,7 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=74
+comfort=70
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=SR-4SUB(rear)
@@ -51,8 +53,9 @@ name=SR-4SUB(rear)
 engine_type=electric
 speed=120
 power=412
-tractive_effort=117
-copyright=Kieron&jamespetts
+gear=80
+tractive_effort=35
+copyright=Kieron/JamesPetts
 intro_year=1941
 intro_month=5
 retire_year=1953
@@ -64,6 +67,7 @@ overcrowded_capacity=42
 length=11
 
 weight=41
+axles=4
 cost=1850000
 runningcost=123
 sound=-1
@@ -74,7 +78,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=74
+comfort=70
 
 Constraint[Prev][0]=SR-4SUB(centre2)
 
@@ -100,7 +104,7 @@ engine_type=electric
 speed=120
 power=0
 tractive_effort=0
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1941
 intro_month=5
 retire_year=1953
@@ -112,6 +116,7 @@ overcrowded_capacity=53
 length=11
 
 weight=28
+axles=4
 cost=872000
 runningcost=36
 sound=-1
@@ -122,7 +127,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=74
+comfort=70
 
 Constraint[Prev][0]=SR-4SUB(front)
 
@@ -145,7 +150,7 @@ engine_type=electric
 speed=120
 power=0
 tractive_effort=0
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1941
 intro_month=5
 retire_year=1953
@@ -157,6 +162,7 @@ overcrowded_capacity=54
 length=11
 
 weight=28
+axles=4
 cost=872000
 runningcost=36
 sound=-1
@@ -167,7 +173,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=74
+comfort=70
 
 Constraint[Next][0]=SR-4SUB(rear)
 Constraint[Next][1]=SR-3SUB(rear)

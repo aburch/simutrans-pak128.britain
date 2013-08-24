@@ -1,6 +1,6 @@
 obj=vehicle
-name=BR-9F-Tender(Black)
-speed=145
+name=BR-9F-Tender
+speed=105
 power=0
 copyright=Kieron
 intro_year=1954
@@ -11,15 +11,17 @@ waytype=track
 freight=None
 payload=0
 length=4
+rolling_resistance=13
 
-weight=55
+weight=56
+axles=3
 cost=0
 runningcost=0
 sound=-1
 increase_maintenance_after_years=4
 years_before_maintenance_max_reached=12
 
-Constraint[Prev][0]=BR-9F(Black)
+Constraint[Prev][0]=BR-9F
 
 EmptyImage[E]=./images/br-9f.1.0
 EmptyImage[SE]=./images/br-9f.1.1

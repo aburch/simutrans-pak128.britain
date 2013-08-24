@@ -10,8 +10,9 @@ payload=37
 overcrowded_capacity=30
 speed=72
 power=85
-#gear=100
+gear=50
 weight=8
+axles=2
 length=6
 cost=2700000
 runningcost=141
@@ -20,7 +21,7 @@ intro_month=11
 retire_year=1976
 retire_month=1
 
-comfort=55
+comfort=35
 min_loading_time=25
 max_loading_time=50
 

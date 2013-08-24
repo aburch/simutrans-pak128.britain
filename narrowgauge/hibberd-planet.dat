@@ -1,0 +1,41 @@
+# http://www.festipedia.org.uk/wiki/Upnor_Castle
+
+obj=vehicle
+name=Hibberd-Planet
+engine_type=diesel
+gear=50
+smoke=Diesel
+speed=60
+power=134
+# Guessed value
+tractive_effort=45
+copyright=James
+# See Ffestiniog illustrated stock list p. 28
+intro_year=1954
+intro_month=11
+retire_year=1987
+retire_month=9
+waytype=narrowgauge_track
+freight=None
+payload=0
+length=4
+rolling_resistance=18
+
+# No information - guessed
+weight=19
+axles=2
+cost=8993590
+runningcost=72
+sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
+
+EmptyImage[E]=./images/hibberd-planet.1.0,-10,-5
+EmptyImage[SE]=./images/hibberd-planet.1.1,0,-5
+EmptyImage[S]=./images/hibberd-planet.1.2,10,-5
+EmptyImage[SW]=./images/hibberd-planet.1.3,10,0
+EmptyImage[W]=./images/hibberd-planet.1.4,10,5
+EmptyImage[NW]=./images/hibberd-planet.1.5,0,5
+EmptyImage[N]=./images/hibberd-planet.1.6,-10,5
+EmptyImage[NE]=./images/hibberd-planet.1.7,-10,0

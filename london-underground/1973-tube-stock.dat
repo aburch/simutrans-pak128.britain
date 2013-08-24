@@ -2,9 +2,9 @@ obj=vehicle
 name=1973TubeStockFrontDM
 engine_type=electric
 speed=100
-#gear=250
+gear=80
 power=300
-tractive_effort=80
+tractive_effort=70
 length=9
 copyright=James
 intro_year=1973
@@ -15,8 +15,10 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=154
+rolling_resistance=13
 
 weight=27
+axles=4
 cost=1650000
 runningcost=180
 sound=-1
@@ -26,7 +28,7 @@ bidirectional=0
 
 min_loading_time=11
 max_loading_time=42
-comfort=69
+comfort=58
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
@@ -61,9 +63,9 @@ obj=vehicle
 name=1973TubeStockFrontUNDM
 engine_type=electric
 speed=100
-#gear=250
+gear=80
 power=300
-tractive_effort=80
+tractive_effort=70
 length=9
 copyright=James
 intro_year=1973
@@ -74,8 +76,10 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=176
+rolling_resistance=13
 
 weight=26
+axles=4
 cost=1250000
 runningcost=180
 sound=-1
@@ -88,7 +92,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=11
 max_loading_time=42
-comfort=69
+comfort=58
 
 Constraint[Prev][0]=1973TubeStockRearUNDM
 
@@ -132,9 +136,11 @@ payload=44
 overcrowded_capacity=176
 
 weight=18
+axles=4
 cost=800000
 runningcost=40
 sound=-1
+rolling_resistance=13
 
 can_lead_from_rear=0
 bidirectional=1
@@ -144,7 +150,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=11
 max_loading_time=42
-comfort=69
+comfort=58
 
 Constraint[Prev][0]=1973TubeStockFrontDM
 Constraint[Prev][1]=1973TubeStockFrontUNDM
@@ -188,8 +194,10 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=176
+rolling_resistance=13
 
 weight=18
+axles=4
 cost=800000
 runningcost=40
 sound=-1
@@ -202,7 +210,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=11
 max_loading_time=42
-comfort=69
+comfort=58
 
 Constraint[Prev][0]=1973TubeStockMiddle1
 
@@ -234,9 +242,9 @@ obj=vehicle
 name=1973TubeStockRearUNDM
 engine_type=electric
 speed=100
-#gear=250
+gear=80
 power=300
-tractive_effort=80
+tractive_effort=70
 length=9
 copyright=James
 intro_year=1973
@@ -247,8 +255,10 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=176
+rolling_resistance=13
 
 weight=26
+axles=4
 cost=1250000
 runningcost=180
 sound=-1
@@ -261,7 +271,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=11
 max_loading_time=42
-comfort=69
+comfort=58
 
 Constraint[Prev][0]=1973TubeStockMiddle1
 Constraint[Prev][1]=1973TubeStockMiddle2
@@ -294,9 +304,9 @@ obj=vehicle
 name=1973TubeStockRearDM
 engine_type=electric
 speed=100
-#gear=250
+gear=80
 power=300
-tractive_effort=80
+tractive_effort=70
 length=9
 copyright=James
 intro_year=1973
@@ -307,8 +317,10 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=154
+rolling_resistance=13
 
 weight=27
+axles=4
 cost=1650000
 runningcost=180
 sound=-1
@@ -321,7 +333,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=11
 max_loading_time=42
-comfort=69
+comfort=58
 
 Constraint[Prev][0]=1973TubeStockMiddle1
 Constraint[Prev][1]=1973TubeStockMiddle2

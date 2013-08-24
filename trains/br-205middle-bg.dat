@@ -15,6 +15,7 @@ overcrowded_capacity=104
 length=11
 
 weight=31
+axles=4
 cost=1300000
 runningcost=24
 sound=-1
@@ -24,7 +25,7 @@ bidirectional=1
 
 min_loading_time=15
 max_loading_time=45
-comfort=78
+comfort=77
 
 Constraint[Prev][0]=BR-205Front(Rail-Blue)
 Constraint[Prev][1]=BR-205Middle(Rail-Blue)

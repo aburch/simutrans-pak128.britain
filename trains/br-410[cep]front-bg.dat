@@ -2,9 +2,9 @@ obj=vehicle
 name=BR-410[CEP]Front(Blue-Grey)
 engine_type=electric
 speed=145
-#gear=690
+gear=80
 power=375
-tractive_effort=120
+tractive_effort=33
 copyright=Kieron
 intro_year=1957
 intro_month=9
@@ -13,10 +13,11 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload=64
-overcrowded_capacity=21
+overcrowded_capacity=19
 length=11
 
 weight=41
+axles=4
 cost=1680000
 runningcost=165
 sound=-1
@@ -28,12 +29,12 @@ way_constraint_permissive[0]=0
 
 min_loading_time=25
 max_loading_time=120
-comfort=97
+comfort=137
 
 Constraint[Prev][0]=BR-410[CEP]Rear(Blue-Grey)
 Constraint[Prev][1]=BR-414[HAP]Rear(Blue-Grey)
-Constraint[Prev][2]=BR-419[MLV](Blue-Grey)
-Constraint[Prev][3]=BR-499[TLV](Blue-Grey)
+Constraint[Prev][2]=BR-419[MLV]
+Constraint[Prev][3]=BR-499[TLV]
 Constraint[Prev][4]=BR-423-DTCL-Rear
 Constraint[Prev][5]=none
 

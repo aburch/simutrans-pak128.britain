@@ -3,8 +3,9 @@ name=Steam-Tram
 engine_type=steam
 smoke=Steam
 speed=40
+# Estimated
 power=60
-#gear=200
+tractive_effort=32
 copyright=James
 intro_year=1878
 intro_month=4
@@ -14,6 +15,7 @@ waytype=tram_track
 length=5
 
 weight=10
+axles=2
 cost=210000
 runningcost=66
 sound=-1

@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-Class86
 engine_type=electric
 speed=160
-#gear=160
+gear=80
 power=3010
 tractive_effort=267
 copyright=Kieron
@@ -14,8 +14,10 @@ waytype=track
 freight=None
 payload=0
 length=10
+rolling_resistance=13
 
 weight=81
+axles=4
 cost=8830000
 runningcost=1914
 sound=-1
@@ -27,6 +29,14 @@ way_constraint_permissive[2]=2
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
+
+# TDM
+Constraint[Prev][0]=BR-Class86
+Constraint[Prev][1]=BR-Class87
+Constraint[Prev][2]=BR-Class90
+Constraint[Prev][3]=BR-Class91
+Constraint[Prev][4]=none
+# Also class 89
 
 EmptyImage[E][0]=./images/br-cl86-b.0
 EmptyImage[SE][0]=./images/br-cl86-b.1

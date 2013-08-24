@@ -1,10 +1,13 @@
 obj=vehicle
-name=BR-9F(Black)
+name=BR-9F
 engine_type=steam
 smoke=Steam
-speed=145
-#gear=290
-power=2500
+speed=105
+# See http://www.traintesting.com/bulletin_13.htm for information on power.
+# The gradients are too steep for an easy comparison but the summary suggests
+# 1,500Hp, or approx. 1/2 the power of the BR 7MT, so the below figure is a good estimate.
+# Extrapolated
+power=501
 tractive_effort=176
 copyright=Kieron
 intro_year=1954
@@ -14,15 +17,18 @@ retire_month=2
 waytype=track
 freight=None
 payload=0
+rolling_resistance=13
 
-weight=141
+# http://en.wikipedia.org/wiki/BR_Standard_Class_9F
+weight=85
+axle_load=16
 cost=7948000
 runningcost=1584
 sound=-1
 increase_maintenance_after_years=4
 years_before_maintenance_max_reached=12
 
-Constraint[Next][0]=BR-9F-Tender(Black)
+Constraint[Next][0]=BR-9F-Tender
 
 EmptyImage[E]=./images/br-9f.0.0
 EmptyImage[SE]=./images/br-9f.0.1

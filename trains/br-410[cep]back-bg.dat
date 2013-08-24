@@ -2,10 +2,10 @@ obj=vehicle
 name=BR-410[CEP]Rear(Blue-Grey)
 engine_type=electric
 speed=145
-#gear=690
+gear=80
 power=375
-#Would be 136Kn for a 4-CIG
-tractive_effort=120
+# Would be 136Kn for a 4-CIG (presumably for the *whole* unit)
+tractive_effort=33
 copyright=Kieron
 intro_year=1956
 intro_month=9
@@ -18,6 +18,7 @@ overcrowded_capacity=21
 length=11
 
 weight=41
+axles=4
 cost=1680000
 runningcost=165
 sound=-1
@@ -29,15 +30,15 @@ way_constraint_permissive[0]=0
 
 min_loading_time=25
 max_loading_time=120
-comfort=97
+comfort=137
 
 Constraint[Prev][0]=BR-410[CEP]Middle(Blue-Grey)
 Constraint[Prev][1]=BR-410[CEP]Buffet(Blue-Grey)
 
 Constraint[Next][0]=BR-410[CEP]Front(Blue-Grey)
 Constraint[Next][1]=BR-414[HAP]Front(Blue-Grey)
-Constraint[Next][2]=BR-419[MLV](Blue-Grey)
-Constraint[Next][3]=BR-499[TLV](Blue-Grey)
+Constraint[Next][2]=BR-419[MLV]
+Constraint[Next][3]=BR-499[TLV]
 Constraint[Next][4]=BR-423-DTCL-Front
 Constraint[Next][5]=none
 

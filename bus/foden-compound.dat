@@ -6,7 +6,7 @@ smoke=Steam
 waytype=road
 freight=Kohle
 payload=5
-#gear=150
+gear=50
 power=40
 speed=42
 weight=5
@@ -14,7 +14,7 @@ cost=98742
 runningcost=42
 intro_year=1911
 intro_month=1
-retire_year=1931
+retire_year=1934
 retire_month=3
 
 constraint[next][0]=none
@@ -101,7 +101,7 @@ cost=98742
 runningcost=42
 intro_year=1911
 intro_month=1
-retire_year=1931
+retire_year=1934
 retire_month=3
 
 constraint[next][0]=none
@@ -158,7 +158,7 @@ cost=98742
 runningcost=42
 intro_year=1911
 intro_month=1
-retire_year=1931
+retire_year=1934
 retire_month=3
 
 constraint[next][0]=none
@@ -204,7 +204,7 @@ cost=98742
 runningcost=42
 intro_year=1911
 intro_month=1
-retire_year=1931
+retire_year=1934
 retire_month=3
 
 constraint[next][0]=none
@@ -249,7 +249,7 @@ cost=98742
 runningcost=42
 intro_year=1911
 intro_month=1
-retire_year=1931
+retire_year=1934
 retire_month=3
 
 constraint[next][0]=none

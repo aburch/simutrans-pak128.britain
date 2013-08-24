@@ -3,21 +3,25 @@ name=BR-170Middle(Scotrail)
 engine_type=diesel
 smoke=Diesel
 speed=160
-#gear=520
+gear=50
 power=315
-tractive_effort=143
+tractive_effort=55
 copyright=Kieron
 intro_year=1998
 intro_month=1
-#retire_year=2025
-#retire_month=1
+# Do not retire as no replacements available.
+#retire_year=2005
+#retire_month=4
 waytype=track
 freight=Passagiere
 payload=76
 overcrowded_capacity=50
 length=12
+brake_force=32
+rolling_resistance=13
 
 weight=42
+axles=4
 cost=1931500
 runningcost=178
 sound=-1
@@ -28,13 +32,11 @@ catering_level=1
 
 min_loading_time=15
 max_loading_time=60
-comfort=97
+comfort=122
 
 Constraint[Prev][0]=BR-170Front(Scotrail)
-Constraint[Prev][1]=BR-170Middle(Scotrail)
 
 Constraint[Next][0]=BR-170Rear(Scotrail)
-Constraint[Next][1]=BR-170Middle(Scotrail)
 
 EmptyImage[E]=./images/br-170-Scotrail.1.0
 EmptyImage[SE]=./images/br-170-Scotrail.1.1

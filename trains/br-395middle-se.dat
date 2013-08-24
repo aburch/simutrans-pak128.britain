@@ -3,8 +3,8 @@ name=BR-395Middle(SE)
 engine_type=electric
 speed=225
 power=840
-tractive_effort=90
-#gear=420
+tractive_effort=38
+gear=80
 copyright=Kieron
 intro_year=2009
 intro_month=6
@@ -15,8 +15,11 @@ freight=Passagiere
 payload=64
 overcrowded_capacity=19
 length=11
+brake_force=35
+rolling_resistance=13
 
 weight=47
+axles=4
 cost=2067000
 runningcost=660
 sound=-1
@@ -26,7 +29,7 @@ bidirectional=1
 
 min_loading_time=20
 max_loading_time=65
-comfort=95
+comfort=120
 
 Constraint[Prev][0]=BR-395Front(SE)
 Constraint[Prev][1]=BR-395Middle(SE)

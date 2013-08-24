@@ -7,10 +7,13 @@ waytype=road
 engine_type=diesel
 freight=Passagiere
 payload=48
-speed=85
+# Speed limit was incerased from 40mph (64km/h) to 60mph (96km/h) for 'buses on
+# the "open road" in 1961: http://en.wikipedia.org/wiki/Coach_transport_in_the_United_Kingdom
+speed=96
 power=93
-#gear=110
+gear=50
 weight=13
+axles=2
 length=6
 cost=4875000
 runningcost=210
@@ -19,7 +22,7 @@ intro_month=11
 retire_year=1981
 retire_month=7
 
-comfort=75
+comfort=78
 min_loading_time=45
 max_loading_time=180
 increase_maintenance_after_years=10

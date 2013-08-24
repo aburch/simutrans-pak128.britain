@@ -1,14 +1,15 @@
+# 40lb/yard
 Obj=way
 Name=wssrN
 waytype=narrowgauge_track
-cost=30000
-maintenance=350
-topspeed=100
-max_weight=55
-intro_year=1836
-intro_month=6
-#retire_year=1963
-#retire_month=3
+cost=12000
+maintenance=165
+topspeed=60
+max_weight=7
+intro_year=1871
+intro_month=4
+retire_year=1950
+retire_month=2
 icon=> ./images/wooden_sleeper_steel_rail_narrow.3.4
 cursor=./images/wooden_sleeper_steel_rail_narrow.3.5
 Image[-][0]=./images/wooden_sleeper_steel_rail_narrow.1.2

@@ -1,12 +1,14 @@
 obj=vehicle
-name=BR-5MT(Black)
+name=BR-5MT
 engine_type=steam
 smoke=Steam
 speed=130
-#gear=320
-power=1510
+# See http://www.traintesting.com/bulletin_6.htm for information on power.
+# Sadly, the data sheet is missing, but the summary suggests 1,000Hp, or approx.
+# So, extrapolated.
+power=439
 tractive_effort=116
-copyright=Kieron&JamesPetts
+copyright=Kieron/JamesPetts
 intro_year=1951
 intro_month=4
 retire_year=1957
@@ -15,15 +17,17 @@ waytype=track
 freight=None
 payload=0
 length=7
+rolling_resistance=13
 
 weight=77
+axle_load=20
 cost=5210000
 runningcost=1045
 sound=-1
 increase_maintenance_after_years=4
 years_before_maintenance_max_reached=13
 
-Constraint[Next][0]=BR-4MT-Tender(Black)
+Constraint[Next][0]=BR-4MT-Tender
 
 EmptyImage[E]=./images/br-standard-5mt.0.0
 EmptyImage[SE]=./images/br-standard-5mt.0.1

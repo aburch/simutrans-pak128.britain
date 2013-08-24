@@ -3,8 +3,8 @@ name=BR-303Pantograph(CaledonianBlue)
 engine_type=electric
 speed=120
 power=618
-tractive_effort=129
-#gear=800
+tractive_effort=69
+gear=80
 copyright=Kieron
 intro_year=1959
 intro_month=2
@@ -15,8 +15,10 @@ freight=Passagiere
 payload=70
 overcrowded_capacity=52
 length=11
+rolling_resistance=13
 
 weight=56
+axles=4
 cost=1967000
 runningcost=154
 sound=-1
@@ -28,7 +30,7 @@ way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
-comfort=83
+comfort=82
 
 Constraint[Prev][0]=BR-303Front(CaledonianBlue)
 

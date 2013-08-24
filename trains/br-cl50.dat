@@ -3,10 +3,10 @@ name=BR-Class50
 engine_type=diesel
 smoke=Diesel
 speed=160
-#gear=320
+gear=50
 power=2010
 tractive_effort=216
-copyright=Kieron&jamespetts
+copyright=Kieron/JamesPetts
 intro_year=1967
 intro_month=11
 # Should be 1968, but otherwise big gap with no diesel locomotives, so must extend.
@@ -16,8 +16,10 @@ waytype=track
 freight=None
 payload=0
 length=12
+rolling_resistance=13
 
 weight=117
+axles=6
 cost=7221000
 runningcost=2100
 sound=-1
@@ -25,6 +27,10 @@ increase_maintenance_after_years=20
 
 can_lead_from_rear=0
 bidirectional=1
+
+# Orange square
+Constraint[Prev][0]=BR-Class50
+Constraint[Prev][1]=none
 
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo

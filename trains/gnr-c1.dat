@@ -2,10 +2,11 @@ obj=vehicle
 name=GNR-C1
 engine_type=steam
 smoke=Steam
-speed=130
-#gear=130
-power=1000
-tractive_effort=69
+speed=150
+# Extrapolated - query whether too high.
+power=556
+# http://en.wikipedia.org/wiki/GNR_Class_C1_%28large_boiler%29
+tractive_effort=77
 copyright=Kieron
 intro_year=1902
 intro_month=12
@@ -16,7 +17,10 @@ freight=None
 payload=0
 length=6
 
-weight=69
+# http://en.wikipedia.org/wiki/GNR_Class_C1_%28large_boiler%29
+weight=70
+# Ahrons p. 334
+axle_load=18
 cost=6677000
 runningcost=775
 sound=-1
@@ -25,12 +29,12 @@ years_before_maintenance_max_reached=25
 
 Constraint[Next][0]=GNR-C1-Tender
 
-EmptyImage[E]=./images/gnr-c1.0.0
-EmptyImage[SE]=./images/gnr-c1.0.1
-EmptyImage[S]=./images/gnr-c1.0.2
-EmptyImage[SW]=./images/gnr-c1.0.3
-EmptyImage[W]=./images/gnr-c1.0.4
-EmptyImage[NW]=./images/gnr-c1.0.5
-EmptyImage[N]=./images/gnr-c1.0.6
-EmptyImage[NE]=./images/gnr-c1.0.7
+EmptyImage[E]=./images/gnr-c1.1.4
+EmptyImage[SE]=./images/gnr-c1.1.5
+EmptyImage[S]=./images/gnr-c1.1.6
+EmptyImage[SW]=./images/gnr-c1.1.7
+EmptyImage[W]=./images/gnr-c1.1.0
+EmptyImage[NW]=./images/gnr-c1.1.1
+EmptyImage[N]=./images/gnr-c1.1.2
+EmptyImage[NE]=./images/gnr-c1.1.3
 

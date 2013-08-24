@@ -2,13 +2,14 @@ obj=vehicle
 name=LNWR-sharp-tank
 engine_type=steam
 smoke=Steam
-speed=65
+speed=75
+# Approximately extrapolated - heating surface area guessed
+# Averaged extrapolation points from Crewe Type (56.4) and Jenny Lind (89).
+power=64
 # Calculated from data from Ahrons, p. 91
 # Loss factor set at 0.7, assumed 100lbs boiler pressure. 
-# Half boiler pressure used to calculate power.
-power=192
 tractive_effort=21
-copyright=James&jamespetts
+copyright=James/jamespetts
 intro_year=1854
 intro_month=1
 retire_year=1858
@@ -17,9 +18,12 @@ waytype=track
 freight=None
 payload=0
 length=7
+brake_force=7
+rolling_resistance=19
 
 # Weight not given in Ahrons, but taken from a similar type mentioned at p. 91.
 weight=20
+axles=3
 cost=7500000
 runningcost=800
 sound=-1

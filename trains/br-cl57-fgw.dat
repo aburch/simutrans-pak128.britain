@@ -1,12 +1,12 @@
 obj=vehicle
-name=BR-Class57(FGW)
+name=BR-Class57
 engine_type=diesel
 smoke=Diesel
 speed=153
-#gear=320
+gear=50
 power=2050
 tractive_effort=245
-copyright=Kieron&JamesPetts
+copyright=Kieron/JamesPetts
 intro_year=1997
 intro_month=2
 retire_year=2007
@@ -15,8 +15,10 @@ waytype=track
 freight=None
 payload=0
 length=11
+rolling_resistance=13
 
 weight=121
+axles=6
 cost=6912000
 runningcost=1105
 upgrade_price=1974857
@@ -25,6 +27,10 @@ sound=-1
 can_lead_from_rear=0
 bidirectional=1
 available_only_as_upgrade=1
+
+# Within type only
+Constraint[Prev][0]=BR-Class57
+Constraint[Prev][1]=none
 
 EmptyImage[E]=./images/br-cl57-fgw.0
 EmptyImage[SE]=./images/br-cl57-fgw.1

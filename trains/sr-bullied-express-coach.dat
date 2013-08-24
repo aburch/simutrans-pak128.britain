@@ -1,6 +1,6 @@
 obj=vehicle
 name=SR-Bulleid-Express-Coach(Green)
-speed=175
+speed=160
 copyright=Kieron
 intro_year=1941
 intro_month=9
@@ -13,6 +13,7 @@ overcrowded_capacity=25
 length=11
 
 weight=32
+axles=4
 cost=579000
 runningcost=29
 sound=-1
@@ -22,7 +23,7 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=104
+comfort=142
 
 Constraint[Prev][0]=SR-Maunsell-Third(Green)
 Constraint[Prev][1]=SR-Maunsell-Brake(Green)
@@ -71,7 +72,7 @@ EmptyImage[NE]=./images/sr-bulleid-express-coach.0.7
 --------------------------------------------
 obj=vehicle
 name=SR-Bulleid-Express-Dining(Green)
-speed=175
+speed=160
 copyright=Kieron
 intro_year=1941
 intro_month=9
@@ -84,6 +85,7 @@ overcrowded_capacity=10
 length=11
 
 weight=32
+axles=4
 cost=677000
 runningcost=40
 sound=-1
@@ -93,7 +95,7 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=104
+comfort=142
 catering_level=4
 
 Constraint[Prev][0]=SR-Maunsell-Third(Green)

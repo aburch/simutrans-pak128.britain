@@ -3,8 +3,9 @@ name=GWR-ParkRoyal-Railcar
 engine_type=diesel
 smoke=Diesel
 speed=100
-#gear=320
+gear=50
 power=195
+tractive_effort=32
 copyright=Kieron
 intro_year=1933
 intro_month=12
@@ -17,6 +18,7 @@ overcrowded_capacity=41
 length=12
 
 weight=24
+axles=4
 cost=4032000
 runningcost=198
 sound=-1
@@ -26,8 +28,9 @@ bidirectional=1
 
 min_loading_time=20
 max_loading_time=90
-comfort=80
-air_resistance=884
+#http://www.greatwestern.org.uk/aec1.htm
+comfort=82
+air_resistance=108
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

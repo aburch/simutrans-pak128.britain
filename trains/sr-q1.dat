@@ -1,10 +1,10 @@
 obj=vehicle
-name=SR-Q1(Black)
+name=SR-Q1
 engine_type=steam
 smoke=Steam
 speed=96
-#gear=240
-power=1036
+# Extrapolated
+power=328
 tractive_effort=133
 copyright=Kieron
 intro_year=1942
@@ -17,13 +17,14 @@ payload=0
 length=6
 
 weight=57
+axles=3
 cost=4980000
 runningcost=462
 sound=-1
 increase_maintenance_after_years=6
 years_before_maintenance_max_reached=10
 
-Constraint[Next][0]=SR-Q1-Tender(Black)
+Constraint[Next][0]=SR-Q1-Tender
 
 EmptyImage[E]=./images/sr-q1.0.0
 EmptyImage[SE]=./images/sr-q1.0.1

@@ -3,8 +3,8 @@ name=PuffingBilly
 engine_type=steam
 smoke=Steam
 speed=10
-#gear=350
-power=17
+# Estimated
+power=2
 tractive_effort=4
 copyright=James
 intro_year=1813
@@ -15,8 +15,11 @@ waytype=track
 freight=None
 payload=0
 length=3
+brake_force=0
+rolling_resistance=19
 
 weight=8
+axles=2
 cost=924000
 runningcost=60
 sound=-1

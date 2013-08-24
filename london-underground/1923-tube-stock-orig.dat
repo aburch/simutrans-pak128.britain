@@ -2,9 +2,9 @@ obj=vehicle
 name=1923TubeStockFront
 engine_type=electric
 speed=72
-#gear=300
+gear=80
 power=200
-tractive_effort=60
+tractive_effort=45
 length=8
 copyright=James
 intro_year=1923
@@ -17,6 +17,7 @@ payload=26
 overcrowded_capacity=72
 
 weight=29
+axles=4
 cost=1150000
 runningcost=5
 sound=-1
@@ -30,7 +31,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=14
 max_loading_time=45
-comfort=67
+comfort=57
 
 Constraint[Prev][0]=1923TubeStockRear
 Constraint[Prev][1]=none
@@ -74,6 +75,7 @@ payload=42
 overcrowded_capacity=126
 
 weight=19
+axles=4
 cost=450000
 runningcost=20
 sound=-1
@@ -87,7 +89,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=14
 max_loading_time=45
-comfort=67
+comfort=57
 
 Constraint[Prev][0]=1923TubeStockFront
 
@@ -131,6 +133,7 @@ payload=38
 overcrowded_capacity=114
 
 weight=17
+axles=4
 cost=450000
 runningcost=20
 sound=-1
@@ -144,7 +147,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=14
 max_loading_time=45
-comfort=67
+comfort=57
 
 Constraint[Prev][0]=1923TubeStockMiddle1
 
@@ -176,9 +179,9 @@ obj=vehicle
 name=1923TubeStockRear
 engine_type=electric
 speed=72
-#gear=300
+gear=80
 power=150
-tractive_effort=60
+tractive_effort=45
 length=8
 copyright=James
 intro_year=1923
@@ -191,6 +194,7 @@ payload=26
 overcrowded_capacity=72
 
 weight=29
+axles=4
 cost=1050000
 runningcost=80
 sound=-1
@@ -204,7 +208,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=14
 max_loading_time=45
-comfort=67
+comfort=57
 
 Constraint[Prev][0]=1923TubeStockMiddle1
 Constraint[Prev][1]=1923TubeStockMiddle2

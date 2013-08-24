@@ -2,9 +2,9 @@ obj=vehicle
 name=1967TubeStockFront
 engine_type=electric
 speed=100
-#gear=250
+gear=80
 power=400
-tractive_effort=80
+tractive_effort=70
 length=8
 copyright=James
 intro_year=1967
@@ -15,8 +15,10 @@ waytype=track
 freight=Passagiere
 payload=40
 overcrowded_capacity=125
+rolling_resistance=13
 
 weight=28
+axles=4
 cost=1450000
 runningcost=160
 sound=-1
@@ -26,7 +28,7 @@ bidirectional=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=69
+comfort=57
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
@@ -71,8 +73,10 @@ waytype=track
 freight=Passagiere
 payload=40
 overcrowded_capacity=152
+rolling_resistance=13
 
 weight=19
+axles=4
 cost=750000
 runningcost=30
 sound=-1
@@ -85,7 +89,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
-comfort=69
+comfort=57
 
 Constraint[Prev][0]=1967TubeStockFront
 
@@ -119,7 +123,8 @@ name=1967TubeStockMiddle2
 engine_type=electric
 speed=100
 power=400
-tractive_effort=80
+gear=80
+tractive_effort=70
 length=8
 copyright=James
 intro_year=1967
@@ -130,8 +135,10 @@ waytype=track
 freight=Passagiere
 payload=36
 overcrowded_capacity=126
+rolling_resistance=13
 
 weight=28
+axles=4
 cost=1450000
 runningcost=160
 sound=-1
@@ -144,7 +151,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
-comfort=69
+comfort=57
 
 Constraint[Prev][0]=1967TubeStockMiddle1
 
@@ -175,9 +182,9 @@ obj=vehicle
 name=1967TubeStockRear
 engine_type=electric
 speed=100
-#gear=250
+gear=80
 power=400
-tractive_effort=80
+tractive_effort=70
 length=8
 copyright=James
 intro_year=1967
@@ -188,8 +195,10 @@ waytype=track
 freight=Passagiere
 payload=40
 overcrowded_capacity=125
+rolling_resistance=13
 
 weight=28
+axles=4
 cost=1450000
 runningcost=160
 sound=-1
@@ -202,7 +211,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=10
 max_loading_time=40
-comfort=69
+comfort=57
 
 Constraint[Prev][0]=1967TubeStockMiddle1
 Constraint[Prev][1]=1967TubeStockMiddle2

@@ -1,8 +1,6 @@
 # The A1 "Diddler" - London's first trolleybus
 # See here for details: 
 # http://www.20thcenturylondon.org.uk/server.php?show=ConMediaFile.5490
-#
-#
 obj=vehicle
 name=A1Diddler
 copyright=JamesPetts&JamesHood
@@ -11,10 +9,11 @@ engine_type=electric
 freight=Passagiere
 payload=66
 overcrowded_capacity=5
-speed=55
+speed=32
 power=100
-#gear=100
+gear=80
 weight=6
+axle_load=3
 length=6
 cost=210000
 runningcost=86
@@ -25,7 +24,7 @@ retire_month=8
 constraint[next][0]=none 
 constraint[prev][0]=none 
 
-comfort=62
+comfort=45
 min_loading_time=10
 max_loading_time=45
 

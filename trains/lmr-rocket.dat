@@ -4,8 +4,10 @@ engine_type=steam
 smoke=Steam
 speed=48
 # Tractive effort taken from "The Railway Engineer", July 1929 ed., p. 265
-# Power approximated to give correct speed at correct loads (about 6 carriages).
-power=33
+# CALIBRATED based on Rainhill trials performance
+# Max. speed given as 30mph with a gross weight of 21t
+# Assumed level ground. Actual figure is 11.55Kw12 - rounded up.
+power=12
 tractive_effort=4
 copyright=Kieron
 intro_year=1829
@@ -16,6 +18,8 @@ waytype=track
 freight=None
 payload=0
 length=4
+brake_force=0
+rolling_resistance=19
 
 # Weight confirmed by "The Railway Engineer", July 1929 ed., p. 265
 weight=5

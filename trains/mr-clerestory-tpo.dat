@@ -1,6 +1,6 @@
 obj=vehicle
 name=MR-Clerestory-TPO
-speed=145
+speed=160
 copyright=James
 intro_year=1897
 intro_month=3
@@ -8,10 +8,11 @@ retire_year=1913
 retire_month=6
 waytype=track
 freight=Post
-payload=35
+payload=350
 length=10
 
 weight=25
+axles=4
 cost=720500
 runningcost=41
 sound=-1

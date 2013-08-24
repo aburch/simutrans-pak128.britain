@@ -1,10 +1,11 @@
+# These were later superheated: see http://orion.math.iastate.edu/jdhsmith/term/slgbgw.htm
 obj=vehicle
-name=GWR-Prairie-Tank(Green)
+name=GWR-Prairie-Tank
 engine_type=steam
 smoke=Steam
-speed=105
-#gear=180
-power=1375
+speed=115
+# Extrapolated
+power=225
 tractive_effort=108
 copyright=James
 intro_year=1903
@@ -17,6 +18,7 @@ payload=0
 length=7
 
 weight=78
+axle_load=20
 cost=4147200
 runningcost=594
 sound=-1
@@ -25,7 +27,7 @@ years_before_maintenance_max_reached=15
 
 can_lead_from_rear=0
 bidirectional=1
-upgrade[0]=GWR-Prairie-Tank-Modified(Green)
+upgrade[0]=GWR-Prairie-Tank-Modified
 
 EmptyImage[E]=./images/gwr-prairie.0.0
 EmptyImage[SE]=./images/gwr-prairie.0.1
@@ -39,12 +41,12 @@ EmptyImage[NE]=./images/gwr-prairie.0.7
 ---
 
 obj=vehicle
-name=GWR-Prairie-Tank-Modified(Green)
+name=GWR-Prairie-Tank-Modified
 engine_type=steam
 smoke=Steam
-speed=105
-#gear=180
-power=1375
+speed=115
+# Extrapolated
+power=160
 tractive_effort=139
 copyright=James
 intro_year=1938
@@ -57,6 +59,7 @@ payload=0
 length=7
 
 weight=78
+axle_load=20
 cost=4165000
 upgrade_price=400000
 runningcost=594

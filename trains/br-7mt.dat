@@ -1,10 +1,16 @@
 obj=vehicle
-name=BR-7MT(Green)
+name=BR-7MT
 engine_type=steam
 smoke=Steam
 speed=160
-#gear=140
-power=1969
+# For possible calibration data see http://www.traintesting.com/bulletin_5.htm
+# Max. speed given as 73mph with a train of 993t (gross, equivalent given testing vehicles)
+# On the level
+# NOTE: The source itself suggests drawbar horsepower at approx. 2,000,
+# which is equivalent to 1491Kw, compared to the 847kW suggested
+# by in-game tests. However, even this is out of line with other
+# locomotives, so extrapolated from the A4.
+power=747
 tractive_effort=143
 copyright=Kieron
 intro_year=1951
@@ -14,15 +20,18 @@ retire_month=9
 waytype=track
 freight=None
 payload=0
+rolling_resistance=13
 
 weight=94
+# http://en.wikipedia.org/wiki/BR_Standard_Class_7
+axle_load=20
 cost=9849000
 runningcost=1732
 sound=-1
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=13
 
-Constraint[Next][0]=BR-7MT-Tender(Green)
+Constraint[Next][0]=BR-7MT-Tender
 
 EmptyImage[E]=./images/br-7mt.0.0
 EmptyImage[SE]=./images/br-7mt.0.1

@@ -114,7 +114,7 @@ general_tool[35]=17,,11,K
 # SECOND SECTION: simple tools
 # since these tools act immeadiately
 # they have only an icon assigned
-# each entry has the form: dialoge_tool[i],a,k
+# each entry has the form: simple_tool[i],a,k
 # i is the tool number (as seen below)
 # a is the icon as number in menu: menu.SimpleTools.pak
 # k is the key to toggle this
@@ -170,12 +170,13 @@ simple_tool[9]=8,<
 # lots of icons still not drawn ...
 simple_tool[10]=,v
 simple_tool[11]=,!
-simple_tool[12]=,#
+simple_tool[12]=9,#
 simple_tool[13]=,%
 simple_tool[14]=,"
 simple_tool[15]=,U,U
 simple_tool[16]=4,R
-simple_tool[17]=,X
+# Quit (17) removed due to people accidentally killing their games
+#simple_tool[17]=,X
 simple_tool[20]=,/
 simple_tool[33]=,B
 simple_tool[34]=,O
@@ -246,7 +247,7 @@ dialog_tool[24]=25
 dialog_tool[25]=20
 dialog_tool[26]=,
 dialog_tool[27]=,i
-dialog_tool[28]=,n
+dialog_tool[28]=26,n
 
 # FINAL SECTION: compose all tool bars
 # now the defintion of all tool bars
@@ -337,7 +338,13 @@ toolbar[0][31]=simple_tool[7],,#44,-1
 # since ST r2031: allow manual change of daylight
 toolbar[0][32]=simple_tool[19],,+,+
 toolbar[0][33]=simple_tool[19],,-,-
-
+toolbar[0][34]=simple_tool[19],,*,4
+toolbar[0][35]=simple_tool[12]
+toolbar[0][36]=simple_tool[8]
+toolbar[0][37]=simple_tool[9]
+# network mode button
+toolbar[0][38]=-
+toolbar[0][39]=dialog_tool[28]
 
 # slope tools
 toolbar[1][0]=general_tool[2]
@@ -378,23 +385,8 @@ toolbar[3][7]=buildings(33,8)
 toolbar[3][8]=buildings(34,8)
 toolbar[3][9]=buildings(35,8)
 toolbar[3][10]=buildings(35,0)
-toolbar[3][11]=general_tool[14],,t,2
-toolbar[3][12]=general_tool[18],,e,2
-
-# narrowgaugetools
-toolbar[3][0]=ways(8,0)
-toolbar[3][1]=ways(8,1)
-toolbar[3][2]=bridges(8)
-toolbar[3][3]=tunnels(8)
-toolbar[3][4]=wayobjs(8)
-toolbar[3][5]=signs(8)
-toolbar[3][6]=general_tool[17],16,,8 
-toolbar[3][7]=buildings(33,8)
-toolbar[3][8]=buildings(34,8)
-toolbar[3][9]=buildings(35,8)
-toolbar[3][10]=buildings(35,0)
-toolbar[3][11]=general_tool[14],,t,2
-toolbar[3][12]=general_tool[18],,e,2
+toolbar[3][11]=general_tool[14],,N,8
+toolbar[3][12]=general_tool[18]
 
 # monorailtools (waytype 5)
 toolbar[4][0]=ways(5,0)
@@ -415,10 +407,10 @@ toolbar[5][2]=bridges(6)
 toolbar[5][3]=tunnels(6)
 toolbar[5][4]=wayobjs(6)
 toolbar[5][5]=signs(6)
-toolbar[5][6]=general_tool[17],27,,6 
+toolbar[5][6]=general_tool[17],27,x,6 
 toolbar[5][7]=buildings(33,6)
 toolbar[5][8]=buildings(34,6)
-toolbar[5][9]=buildings(35,6)
+toolbar[5][9]=buildings(35,6),,,6
 toolbar[5][10]=buildings(35,0)
 
 # tramtools (waytype 7)
@@ -426,8 +418,8 @@ toolbar[6][0]=ways(7,0)
 toolbar[6][1]=ways(2,7)
 toolbar[6][2]=wayobjs(7)
 toolbar[6][3]=signs(7)
-toolbar[6][4]=general_tool[17],16,,2
-toolbar[6][5]=general_tool[33],30,,7
+toolbar[6][4]=general_tool[17],16,j,2
+toolbar[6][5]=general_tool[33],30,E,7
 toolbar[6][6]=buildings(33,7)
 toolbar[6][7]=buildings(34,7)
 # road stops
@@ -440,7 +432,7 @@ toolbar[7][2]=bridges(1)
 toolbar[7][3]=tunnels(1)
 toolbar[7][4]=wayobjs(1)
 toolbar[7][5]=signs(1)
-toolbar[7][6]=general_tool[17],18,,1 
+toolbar[7][6]=general_tool[17],18,q,1 
 toolbar[7][7]=general_tool[33],30,,1
 toolbar[7][8]=buildings(33,1)
 toolbar[7][9]=buildings(34,1)
@@ -455,7 +447,7 @@ toolbar[8][2]=bridges(3)
 toolbar[8][3]=tunnels(3)
 toolbar[8][4]=wayobjs(3)
 toolbar[8][5]=signs(3)
-toolbar[8][6]=general_tool[17],20,,3 
+toolbar[8][6]=general_tool[17],20,x,3 
 toolbar[8][7]=buildings(33,3)
 toolbar[8][8]=buildings(34,3)
 toolbar[8][9]=buildings(11,3)
@@ -482,14 +474,16 @@ toolbar[10][3]=general_tool[11]
 toolbar[10][4]=general_tool[30]
 toolbar[10][5]=ways(128,0)
 toolbar[10][6]=bridges(128)
-toolbar[10][7]=general_tool[8]
-toolbar[10][8]=general_tool[6]
-toolbar[10][9]=general_tool[31]
-toolbar[10][10]=general_tool[14],,l,128
-toolbar[10][11]=general_tool[32]
-toolbar[10][12]=dialog_tool[24]
-toolbar[10][13]=general_tool[29]
-toolbar[10][14]=general_tool[35]
+toolbar[10][7]=tunnels(128)
+toolbar[10][8]=general_tool[17],31,,128
+toolbar[10][9]=general_tool[8]
+toolbar[10][10]=general_tool[6]
+toolbar[10][11]=general_tool[31]
+toolbar[10][12]=general_tool[14],,l,128
+toolbar[10][13]=general_tool[32]
+toolbar[10][14]=dialog_tool[24]
+toolbar[10][15]=general_tool[29]
+toolbar[10][16]=general_tool[35]
 
 # editor tools
 toolbar[11][0]=general_tool[10],22,,+100

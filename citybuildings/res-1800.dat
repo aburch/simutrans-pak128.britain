@@ -1,13 +1,16 @@
+# Duplication necessary because these are terraces.
+
 Obj=building
 Name=RES_JH_1800_00_06A
 copyright=James
 type=res
-chance=100
-Level=1
+chance=33
+Level=2
 intro_year=1800
 retire_year=1850
 needs_ground=1
 dims=1,1,4
+clusters=2
 
 BackImage[2][0][0][0][0][0]=images/res/1800-georgian-terrace-3f.0.0
 BackImage[1][0][0][0][0][0]=images/res/1800-georgian-terrace-3f.0.1
@@ -22,12 +25,13 @@ Obj=building
 Name=RES_JH_1800_00_06B
 copyright=James
 type=res
-chance=100
-Level=1
+chance=33
+Level=2
 intro_year=1800
 retire_year=1850
 needs_ground=1
 dims=1,1,4
+clusters=2
 
 BackImage[2][0][0][0][0][0]=images/res/1800-georgian-terrace-3f.0.0
 BackImage[1][0][0][0][0][0]=images/res/1800-georgian-terrace-3f.0.1

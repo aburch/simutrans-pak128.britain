@@ -3,9 +3,9 @@ name=BR-153(Regional)
 engine_type=diesel
 smoke=Diesel
 speed=120
-#gear=395
+gear=50
 power=212
-tractive_effort=93
+tractive_effort=48
 copyright=Kieron
 intro_year=1991
 intro_month=3
@@ -16,8 +16,11 @@ freight=Passagiere
 payload=72
 overcrowded_capacity=29
 length=13
+brake_force=44
+rolling_resistance=13
 
 weight=41
+axles=4
 cost=1296000
 upgrade_price=0
 runningcost=66
@@ -29,10 +32,11 @@ bidirectional=1
 
 min_loading_time=15
 max_loading_time=65
-comfort=90
+comfort=92
 
 upgrade[0]=BR-153-Trolley(Regional)
 
+#BSI multiple working
 Constraint[Prev][0]=BR-153(Regional)
 Constraint[Prev][1]=BR-153-Trolley(Regional)
 Constraint[Prev][2]=BR-156Front(Regional)
@@ -41,17 +45,21 @@ Constraint[Prev][4]=BR-156Rear(Regional)
 Constraint[Prev][5]=BR-158Front(Regional)
 Constraint[Prev][6]=BR-158Rear(Regional)
 Constraint[Prev][7]=BR-150Rear(Regional)
-Constraint[Prev][8]=none
+Constraint[Prev][8]=BR-142Rear(Regional)
+Constraint[Prev][9]=none
 
 Constraint[Next][0]=BR-153(Regional)
 Constraint[Next][1]=BR-153-Trolley(Regional)
 Constraint[Next][2]=BR-156Front(Regional)
 Constraint[Next][3]=BR-156Rear(Regional)
-Constraint[Next][4]=BR-1568Front(Regional)
-Constraint[Next][5]=BR-1568Front-Trolley(Regional)
+Constraint[Next][4]=BR-158Front(Regional)
+Constraint[Next][5]=BR-158Front-Trolley(Regional)
 Constraint[Next][6]=BR-158Rear(Regional)
 Constraint[Next][7]=BR-150Front(Regional)
-Constraint[Next][8]=none
+Constraint[Next][8]=BR-142Front(Regional)
+Constraint[Next][9]=none
+
+
 
 EmptyImage[E]=./images/br-153-rr.0.0
 EmptyImage[SE]=./images/br-153-rr.0.1
@@ -69,9 +77,9 @@ name=BR-153-Trolley(Regional)
 engine_type=diesel
 smoke=Diesel
 speed=120
-#gear=395
+gear=50
 power=212
-tractive_effort=93
+tractive_effort=48
 copyright=Kieron
 intro_year=1991
 intro_month=3
@@ -82,8 +90,11 @@ freight=Passagiere
 payload=72
 overcrowded_capacity=25
 length=13
+brake_force=44
+rolling_resistance=13
 
 weight=41
+axles=4
 cost=1299000
 upgrade_price=1500
 runningcost=71
@@ -95,7 +106,7 @@ bidirectional=1
 
 min_loading_time=20
 max_loading_time=65
-comfort=90
+comfort=92
 catering_level=1
 
 upgrade[0]=BR-153(Regional)

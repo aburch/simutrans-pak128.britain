@@ -1,12 +1,14 @@
 Obj=bridge
 name=IronViaduct
 waytype=track
-intro_year=1850
-retire_year=1930
+intro_year=1852
+intro_month=7
+retire_year=1919
+retire_month=12
 topspeed=90
 cost=200000
 maintenance=2000
-max_weight=25
+max_weight=250
 pillar_distance=1
 pillar_asymmetric=1
 cursor=images/iron-viaduct.2.1

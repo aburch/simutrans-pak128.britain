@@ -1,10 +1,10 @@
 obj=vehicle
-name=SR-MerchantNavy_4-6-2(Green)
+name=SR-MerchantNavy_4-6-2
 engine_type=steam
 smoke=Steam
 speed=160
-#gear=400
-power=1950
+# Extrapolated
+power=575
 tractive_effort=167
 copyright=Kieron
 intro_year=1941
@@ -16,17 +16,18 @@ freight=None
 payload=0
 length=8
 
-weight=95
+weight=96
+axle_load=21
 cost=10298000
 runningcost=2775
 sound=-1
-air_resistance=1200
+air_resistance=140
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=9
 
-Constraint[Next][0]=SR-MerchantNavy_4-6-2Tender(Green)
+Constraint[Next][0]=SR-MerchantNavy_4-6-2Tender
 
-upgrade[0]=SR-MerchantNavyRebuilt_4-6-2(Green)
+upgrade[0]=SR-MerchantNavyRebuilt_4-6-2
 
 EmptyImage[E]=./images/sr-mn-4-6-2.0.0
 EmptyImage[SE]=./images/sr-mn-4-6-2.0.1

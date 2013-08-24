@@ -2,11 +2,12 @@ obj=vehicle
 name=LNWR-Precursor
 engine_type=steam
 smoke=Steam
-speed=125
+speed=140
+# Extrapolated
+power=302
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
-power=1060
 tractive_effort=81
-copyright=James&jamespetts
+copyright=James/jamespetts
 intro_year=1904
 intro_month=3
 retire_year=1910
@@ -16,8 +17,9 @@ freight=None
 payload=0
 length=6
 
-# Date from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
-weight=60
+# Weight from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
+weight=60.1
+axle_load=17
 cost=7500000
 runningcost=885
 sound=-1
@@ -26,8 +28,9 @@ years_before_maintenance_max_reached=21
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-Constraint[Next][0]=LNWR-PrinceOfWales-Tender(Black)
+Constraint[Next][0]=LNWR-PrinceOfWales-Tender
 
+# Graphics also used by "Renown" class
 EmptyImage[E][0]=./images/lnwr-precursor_E.0
 EmptyImage[SE][0]=./images/lnwr-precursor_SE.0
 EmptyImage[S][0]=./images/lnwr-precursor_S.0

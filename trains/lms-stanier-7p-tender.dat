@@ -1,6 +1,8 @@
+# Streamlined version only
+
 obj=vehicle
-name=LMS-Stanier-7P-Tender(Maroon)
-speed=163
+name=LMS-Stanier-7P-Tender
+speed=160
 power=0
 copyright=Kieron
 intro_year=1937
@@ -13,15 +15,14 @@ payload=0
 length=4
 
 weight=56
+axles=3
 cost=0
 runningcost=0
 sound=-1
 increase_maintenance_after_years=6
 years_before_maintenance_max_reached=10
 
-Constraint[Prev][0]=LMS-Stanier-7P(Maroon)
-
-
+Constraint[Prev][0]=LMS-Stanier-7P
 
 EmptyImage[E]=./images/lms-stanier-7p.1.0
 EmptyImage[SE]=./images/lms-stanier-7p.1.1

@@ -11,9 +11,12 @@ waytype=track
 freight=Bretter
 payload=8
 length=3
+brake_force=0
+rolling_resistance=19
 
 #?
 weight=4
+axle_load=6
 cost=100000
 runningcost=5
 sound=-1

@@ -1,22 +1,24 @@
 obj=vehicle
-name=BR-Class40(Green)
+name=BR-Class40
 engine_type=diesel
 smoke=Diesel
-speed=155
-#gear=480
-power=1500
+speed=145
+gear=50
+power=1490
 tractive_effort=231
 copyright=Kieron
 intro_year=1958
 intro_month=9
-retire_year=1963
-retire_month=1
+retire_year=1962
+retire_month=2
 waytype=track
 freight=None
 payload=0
 length=12
+rolling_resistance=13
 
 weight=136
+axles=8
 cost=10598000
 runningcost=1998
 sound=-1
@@ -24,6 +26,16 @@ increase_maintenance_after_years=22
 
 can_lead_from_rear=0
 bidirectional=1
+
+# Blue star
+Constraint[Prev][0]=BR-Class20
+Constraint[Prev][1]=BR-Class24
+Constraint[Prev][2]=BR-Class25
+Constraint[Prev][3]=BR-Class31-1
+Constraint[Prev][4]=BR-Class37
+Constraint[Prev][5]=BR-Class40
+Constraint[Prev][6]=BR-Class45
+Constraint[Prev][7]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
