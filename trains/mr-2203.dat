@@ -2,7 +2,7 @@ obj=vehicle
 name=MR-2203
 engine_type=steam
 smoke=Steam
-speed=133
+speed=143
 # Extrapolated
 power=201
 # Calculated using data from http://en.wikipedia.org/wiki/Midland_Railway_Class_2_4-4-0
@@ -23,8 +23,8 @@ length=6
 # http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm
 weight=44
 axle_load=15
-cost=7125000
-runningcost=1300
+cost=5215000
+runningcost=750
 sound=-1
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
