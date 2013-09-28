@@ -1024,15 +1024,19 @@ retire_month[0] = 6
 livery[0][0] = BR-Early
 intro_year[0][0] = 1948
 intro_month[0][0] = 1
-livery[0][1] = BR-Revised
-intro_year[0][1] = 1956
-intro_month[0][1] = 2
-livery[0][2] = BR-Blue
-intro_year[0][2] = 1966
-intro_month[0][2] = 6
-livery[0][3] = BR-Large-Logo
-intro_year[0][3] = 1979
+# Used only for steam locomotives for which "early" is the express passenger blue.
+livery[0][1] = BR-Green
+intro_year[0][1] = 1950
+intro_month[0][1] = 5
+livery[0][2] = BR-Revised
+intro_year[0][2] = 1956
+intro_month[0][2] = 2
+livery[0][3] = BR-Blue
+intro_year[0][3] = 1966
 intro_month[0][3] = 6
+livery[0][4] = BR-Large-Logo
+intro_year[0][4] = 1979
+intro_month[0][4] = 6
 
 livery_scheme[1] = LNWR
 retire_year[1] = 1923
