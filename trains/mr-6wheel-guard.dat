@@ -1,20 +1,20 @@
-# NOTE: This vehicle should not exist. In reality, only 4 wheeled vehicles were used until 1896, when the clerestory brake was introduced. 
+# D530. See Lacey & Dow, vol. 2, p. 369
 obj=vehicle
-name=MR-6Wheel-Guard
-speed=150
-copyright=Kieron/James/jamespetts
-intro_year=1875
-intro_month=3
-retire_year=1887
-retire_month=8
+name=MR-6wheel-clerestory-brake-d530
+speed=160
+copyright=jamespetts
+intro_year=1896
+intro_month=4
+retire_year=1913
+retire_month=1
 waytype=track
 freight=Post
 payload=320
 length=6
 
-weight=12.5
+weight=11.3
 axles=3
-cost=332000
+cost=452000
 runningcost=25
 sound=-1
 
@@ -53,23 +53,53 @@ Constraint[Next][26]=MR-clayton-12wheel-arc-roof-brake-rear
 Constraint[Next][27]=MR-clayton-12wheel-arc-roof-brake-lav-rear
 Constraint[Next][28]=none
 
-liverytype[0]=MR-Early
-liverytype[1]=MR-Standard
+liverytype[0]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-6wheel-brake-dark.1.4
-EmptyImage[SE][0]=./images/mr-6wheel-brake-dark.1.5
-EmptyImage[S][0]=./images/mr-6wheel-brake-dark.1.6
-EmptyImage[SW][0]=./images/mr-6wheel-brake-dark.1.7
-EmptyImage[W][0]=./images/mr-6wheel-brake-dark.1.0
-EmptyImage[NW][0]=./images/mr-6wheel-brake-dark.1.1
-EmptyImage[N][0]=./images/mr-6wheel-brake-dark.1.2
-EmptyImage[NE][0]=./images/mr-6wheel-brake-dark.1.3
+EmptyImage[E][0]=./images/mr-31ft-clerestory-full-brake-d530.1.4
+EmptyImage[SE][0]=./images/mr-31ft-clerestory-full-brake-d530.1.5
+EmptyImage[S][0]=./images/mr-31ft-clerestory-full-brake-d530.1.6
+EmptyImage[SW][0]=./images/mr-31ft-clerestory-full-brake-d530.1.7
+EmptyImage[W][0]=./images/mr-31ft-clerestory-full-brake-d530.1.0
+EmptyImage[NW][0]=./images/mr-31ft-clerestory-full-brake-d530.1.1
+EmptyImage[N][0]=./images/mr-31ft-clerestory-full-brake-d530.1.2
+EmptyImage[NE][0]=./images/mr-31ft-clerestory-full-brake-d530.1.3
 
-EmptyImage[E][1]=./images/mr-6wheel-brake.1.4
-EmptyImage[SE][1]=./images/mr-6wheel-brake.1.5
-EmptyImage[S][1]=./images/mr-6wheel-brake.1.6
-EmptyImage[SW][1]=./images/mr-6wheel-brake.1.7
-EmptyImage[W][1]=./images/mr-6wheel-brake.1.0
-EmptyImage[NW][1]=./images/mr-6wheel-brake.1.1
-EmptyImage[N][1]=./images/mr-6wheel-brake.1.2
-EmptyImage[NE][1]=./images/mr-6wheel-brake.1.3
+----
+
+# D530a. See Lacey & Dow, vol. 2, p. 373
+obj=vehicle
+name=MR-6wheel-cove-brake-d530a
+speed=160
+copyright=jamespetts
+intro_year=1913
+intro_month=1
+retire_year=1920
+retire_month=5
+waytype=track
+freight=Post
+payload=320
+length=6
+
+weight=11
+axles=3
+cost=411000
+runningcost=23
+sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
+min_loading_time=35
+max_loading_time=100
+
+# TODO: Add constraints
+
+liverytype[0]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-31ft-cove-full-brake-d530a.1.4
+EmptyImage[SE][0]=./images/mr-31ft-cove-full-brake-d530a.1.5
+EmptyImage[S][0]=./images/mr-31ft-cove-full-brake-d530a.1.6
+EmptyImage[SW][0]=./images/mr-31ft-cove-full-brake-d530a.1.7
+EmptyImage[W][0]=./images/mr-31ft-cove-full-brake-d530a.1.0
+EmptyImage[NW][0]=./images/mr-31ft-cove-full-brake-d530a.1.1
+EmptyImage[N][0]=./images/mr-31ft-cove-full-brake-d530a.1.2
+EmptyImage[NE][0]=./images/mr-31ft-cove-full-brake-d530a.1.3

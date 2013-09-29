@@ -1937,9 +1937,9 @@ Four wheel mail carriage
 4-wheel-1860s-tpo
 Four wheel travelling post office
 4-wheel-1860s-fast-freight
-Four wheel fast goods van
+Four wheel fast goods van (passenger rated)
 4-wheel-1860s-milk
-Four wheel milk van
+Four wheel milk van (passenger rated)
 4-wheel-1870s-unfitted
 Four wheel four compartment carriage
 4-wheel-1870s-brake-unfitted
@@ -1949,9 +1949,9 @@ Four wheel mail carriage
 4-wheel-1870s-tpo-unfitted
 Four wheel TPO
 4-wheel-1870s-fast-freight-unfitted
-Four wheel fast goods van
+Four wheel fast goods van (passenger rated)
 4-wheel-1870s-milk-unfitted
-Four wheel milk van
+Four wheel milk van (passenger rated)
 4-wheel-1870s-fitted
 Four wheel four compartment carriage (continuously braked)
 4-wheel-1870s-brake-fitted
@@ -2120,7 +2120,9 @@ MR-6Wheel-non-lav
 Midland six wheel five compartment carriage
 MR-6Wheel-lav
 Midland six wheel four compartment lavatory carriage
-MR-6Wheel-Guard
+MR-6wheel-clerestory-brake-d530
+Midland six wheel clerestory mail/brake carriage
+MR-6wheel-cove-brake-d530a
 Midland six wheel mail/brake carriage
 MR-6Wheel-brake-front
 Midland six wheel three compartment brake carriage
@@ -2138,6 +2140,8 @@ MR-clayton-8wheel-arc-roof-brake-lav-front
 Midland eight wheel bogie four compartment lavatory brake carriage
 MR-clayton-8wheel-arc-roof-brake-lav-rear
 Midland eight wheel bogie four compartment lavatory brake carriage (rear)
+MR-clayton-8wheel-arc-roof-mail
+Midland eight wheel bogie mail carriage
 MR-clayton-8wheel-clerestory-third
 Midland eight wheel bogie seven compartment clerestory carriage
 MR-clayton-8wheel-clerestory-third-lav
@@ -2150,6 +2154,8 @@ MR-clayton-8wheel-clerestory-brake-lav-front
 Midland eight wheel bogie four compartment clerestory lavatory brake carriage
 MR-clayton-8wheel-clerestory-brake-lav-rear
 Midland eight wheel bogie four compartment clerestory lavatory brake carriage (rear)
+MR-clayton-8wheel-clerestory-mail
+Midland eight wheel bogie clerestory mail carriage
 MR-clayton-12wheel-clerestory-third
 Midland twelve wheel bogie eight compartment clerestory carriage
 MR-clayton-12wheel-clerestory-third-lav
