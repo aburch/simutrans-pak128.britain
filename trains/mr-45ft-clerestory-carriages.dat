@@ -1,0 +1,38 @@
+# See Lacey & Dow vol. 2 pp. 370-1
+# Before these were built, 6 wheel full brakes were used instead (d530).
+obj=vehicle
+name=MR-45ft-clerestory-full-brake-d531
+speed=160
+copyright=jamespetts
+intro_year=1902
+intro_month=10
+# TODO: Check retire date
+retire_year=1913
+retire_month=6
+waytype=track
+freight=Post
+payload=270
+length=8
+
+weight=23
+axles=4
+cost=470000
+runningcost=30
+sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
+
+min_loading_time=35
+max_loading_time=90
+
+# TODO: Add constraints
+
+EmptyImage[E]=./images/mr-45ft-clerestory-full-brake-d531.1.4
+EmptyImage[SE]=./images/mr-45ft-clerestory-full-brake-d531.1.5
+EmptyImage[S]=./images/mr-45ft-clerestory-full-brake-d531.1.6
+EmptyImage[SW]=./images/mr-45ft-clerestory-full-brake-d531.1.7
+EmptyImage[W]=./images/mr-45ft-clerestory-full-brake-d531.1.0
+EmptyImage[NW]=./images/mr-45ft-clerestory-full-brake-d531.1.1
+EmptyImage[N]=./images/mr-45ft-clerestory-full-brake-d531.1.2
+EmptyImage[NE]=./images/mr-45ft-clerestory-full-brake-d531.1.3
