@@ -5,8 +5,7 @@ speed=140
 copyright=jamespetts
 intro_year=1902
 intro_month=11
-# TODO: Check retire date
-retire_year=1913
+retire_year=1915
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -47,8 +46,7 @@ speed=140
 copyright=jamespetts
 intro_year=1902
 intro_month=11
-# TODO: Check retire date
-retire_year=1913
+retire_year=1915
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -61,6 +59,9 @@ axles=4
 cost=432000
 runningcost=27
 sound=-1
+
+upgrade[0]=MR-push-pull-front
+upgrade[1]=MR-push-pull-rear
 
 can_lead_from_front=0
 bidirectional=1
@@ -89,8 +90,7 @@ speed=140
 copyright=jamespetts
 intro_year=1902
 intro_month=11
-# TODO: Check retire date
-retire_year=1913
+retire_year=1915
 retire_month=6
 waytype=track
 freight=Passagiere
@@ -103,6 +103,9 @@ axles=4
 cost=432000
 runningcost=27
 sound=-1
+
+upgrade[0]=MR-push-pull-front
+upgrade[1]=MR-push-pull-rear
 
 can_lead_from_rear=0
 bidirectional=1
