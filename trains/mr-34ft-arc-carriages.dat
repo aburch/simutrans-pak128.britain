@@ -181,9 +181,8 @@ copyright=Kieron/James
 # See Hamilton Ellis p. 115 for introduction date for 6-wheelers
 intro_year=1887
 intro_month=8
-# Intended to coincide with the introduction of the gangwayed corridor carriages
-retire_year=1898
-retire_month=11
+retire_year=1897
+retire_month=6
 waytype=track
 freight=Passagiere
 payload=38
@@ -353,9 +352,8 @@ copyright=Kieron/James/jamespetts
 # See Hamilton Ellis p. 115 for introduction date for 6-wheelers
 intro_year=1875
 intro_month=3
-# Intended to coincide with the introduction of the gangwayed corridor carriages
-retire_year=1898
-retire_month=11
+retire_year=1897
+retire_month=6
 waytype=track
 freight=Passagiere
 payload=30
@@ -465,9 +463,8 @@ copyright=Kieron/James/jamespetts
 # See Hamilton Ellis p. 115 for introduction date for 6-wheelers
 intro_year=1875
 intro_month=3
-# Intended to coincide with the introduction of the gangwayed corridor carriages
-retire_year=1898
-retire_month=11
+retire_year=1897
+retire_month=6
 waytype=track
 freight=Passagiere
 payload=30
@@ -576,9 +573,8 @@ speed=150
 copyright=Kieron/James/jamespetts
 intro_year=1879
 intro_month=1
-# Intended to coincide with the introduction of the gangwayed corridor carriages
-retire_year=1898
-retire_month=11
+retire_year=1897
+retire_month=6
 waytype=track
 freight=Post
 payload=400
@@ -744,9 +740,8 @@ speed=150
 copyright=Kieron/James/jamespetts
 intro_year=1879
 intro_month=1
-# Intended to coincide with the introduction of the gangwayed corridor carriages
-retire_year=1898
-retire_month=11
+retire_year=1897
+retire_month=6
 waytype=track
 freight=Post
 payload=200
@@ -882,7 +877,6 @@ Constraint[Prev][54]=MR-54ft-eliptical-non-lav-d1277
 Constraint[Prev][55]=MR-54ft-eliptical-non-lav-brake-front-d1246
 Constraint[Prev][56]=MR-60ft-clerestory-lav-3rd-d484
 Constraint[Prev][57]=MR-60ft-clerestory-brake-3rd-d496-front
-
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
