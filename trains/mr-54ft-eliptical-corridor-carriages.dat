@@ -28,6 +28,72 @@ max_loading_time=50
 # but have more advanced features (better lavatories, etc.). 
 comfort=122
 
+Constraint[Next][0]=MR-31ft-clerestory-cor-brake-d568
+Constraint[Next][1]=MR-48ft-clerestory-cor-d575
+Constraint[Next][2]=MR-48ft-clerestory-cor-lav-brake-rear
+Constraint[Next][3]=MR-48ft-clerestory-full-brake-d1067
+Constraint[Next][4]=MR-54ft-clerestory-cor-d560
+Constraint[Next][5]=MR-54ft-clerestory-cor-brake-d467-rear
+Constraint[Next][6]=MR-54ft-clerestory-mini-restaurant-brake-d443-rear
+Constraint[Next][7]=MR-54ft-clerestory-open-vestibule-d595
+Constraint[Next][8]=MR-54ft-clerestory-open-vestibule-brake-d594-rear
+Constraint[Next][9]=MR-54ft-eliptical-cor-d1047
+Constraint[Next][10]=MR-54ft-eliptical-cor-brake-rear-d1048
+Constraint[Next][11]=MR-54ft-eliptical-full-brake-d1114
+Constraint[Next][12]=MR-60ft-clerestory-kitchen-dining-d444
+Constraint[Next][13]=MR-65ft-clerestory-dining-d575
+Constraint[Next][14]=MR-65ft-eliptical-dining-d1196
+Constraint[Next][15]=LMS-buffet
+Constraint[Next][16]=LMS-period1-cor
+Constraint[Next][17]=LMS-period1-cor-brake-rear
+Constraint[Next][18]=LMS-period1-cor-open
+Constraint[Next][19]=LMS-period1-cor-open-brake-rear
+Constraint[Next][20]=LMS-period1-mail
+Constraint[Next][21]=LMS-period1-tpo
+Constraint[Next][22]=LMS-period1-full-brake
+Constraint[Next][23]=LMS-period1-cor-diner
+Constraint[Next][24]=LMS-open
+Constraint[Next][25]=LMS-full-brake
+Constraint[Next][26]=LMS-open-brake-rear
+Constraint[Next][27]=LMS-diner
+Constraint[Next][28]=LMS-Mail
+Constraint[Next][29]=LMS-TPO
+Constraint[Next][30]=LMS-cor
+Constraint[Next][31]=LMS-cor-brake-rear
+
+Constraint[Prev][0]=MR-31ft-clerestory-cor-brake-d568
+Constraint[Prev][1]=MR-48ft-clerestory-cor-d575
+Constraint[Prev][2]=MR-48ft-clerestory-cor-lav-brake-front
+Constraint[Prev][3]=MR-48ft-clerestory-full-brake-d1067
+Constraint[Prev][4]=MR-54ft-clerestory-cor-d560
+Constraint[Prev][5]=MR-54ft-clerestory-cor-brake-d467-front
+Constraint[Prev][6]=MR-54ft-clerestory-mini-restaurant-brake-d443-front
+Constraint[Prev][7]=MR-54ft-clerestory-open-vestibule-d595
+Constraint[Prev][8]=MR-54ft-clerestory-open-vestibule-brake-d594-front
+Constraint[Prev][9]=MR-54ft-eliptical-cor-d1047
+Constraint[Prev][10]=MR-54ft-eliptical-cor-brake-front-d1048
+Constraint[Prev][11]=MR-54ft-eliptical-full-brake-d1114
+Constraint[Prev][12]=MR-60ft-clerestory-kitchen-dining-d444
+Constraint[Prev][13]=MR-65ft-clerestory-dining-d575
+Constraint[Prev][14]=MR-65ft-eliptical-dining-d1196
+Constraint[Prev][15]=LMS-buffet
+Constraint[Prev][16]=LMS-period1-cor
+Constraint[Prev][17]=LMS-period1-cor-brake-front
+Constraint[Prev][18]=LMS-period1-cor-open
+Constraint[Prev][19]=LMS-period1-cor-open-brake-front
+Constraint[Prev][20]=LMS-period1-mail
+Constraint[Prev][21]=LMS-period1-tpo
+Constraint[Prev][22]=LMS-period1-full-brake
+Constraint[Prev][23]=LMS-period1-cor-diner
+Constraint[Prev][24]=LMS-open
+Constraint[Prev][25]=LMS-full-brake
+Constraint[Prev][26]=LMS-open-brake-front
+Constraint[Prev][27]=LMS-diner
+Constraint[Prev][28]=LMS-Mail
+Constraint[Prev][29]=LMS-TPO
+Constraint[Prev][30]=LMS-cor
+Constraint[Prev][31]=LMS-cor-brake-front
+
 liverytype[0]=MR-Standard
 liverytype[1]=BR-Early
 
@@ -81,7 +147,40 @@ max_loading_time=50
 # but have more advanced features (better lavatories, etc.). 
 comfort=122
 
-# TODO: Add constraints
+Constraint[Next][0]=MR-31ft-clerestory-cor-brake-d568
+Constraint[Next][1]=MR-48ft-clerestory-cor-d575
+Constraint[Next][2]=MR-48ft-clerestory-cor-lav-brake-rear
+Constraint[Next][3]=MR-48ft-clerestory-full-brake-d1067
+Constraint[Next][4]=MR-54ft-clerestory-cor-d560
+Constraint[Next][5]=MR-54ft-clerestory-cor-brake-d467-rear
+Constraint[Next][6]=MR-54ft-clerestory-mini-restaurant-brake-d443-rear
+Constraint[Next][7]=MR-54ft-clerestory-open-vestibule-d595
+Constraint[Next][8]=MR-54ft-clerestory-open-vestibule-brake-d594-rear
+Constraint[Next][9]=MR-54ft-eliptical-cor-d1047
+Constraint[Next][10]=MR-54ft-eliptical-cor-brake-rear-d1048
+Constraint[Next][11]=MR-54ft-eliptical-full-brake-d1114
+Constraint[Next][12]=MR-60ft-clerestory-kitchen-dining-d444
+Constraint[Next][13]=MR-65ft-clerestory-dining-d575
+Constraint[Next][14]=MR-65ft-eliptical-dining-d1196
+Constraint[Next][15]=LMS-buffet
+Constraint[Next][16]=LMS-period1-cor
+Constraint[Next][17]=LMS-period1-cor-brake-rear
+Constraint[Next][18]=LMS-period1-cor-open
+Constraint[Next][19]=LMS-period1-cor-open-brake-rear
+Constraint[Next][20]=LMS-period1-mail
+Constraint[Next][21]=LMS-period1-tpo
+Constraint[Next][22]=LMS-period1-full-brake
+Constraint[Next][23]=LMS-period1-cor-diner
+Constraint[Next][24]=LMS-open
+Constraint[Next][25]=LMS-full-brake
+Constraint[Next][26]=LMS-open-brake-rear
+Constraint[Next][27]=LMS-diner
+Constraint[Next][28]=LMS-Mail
+Constraint[Next][29]=LMS-TPO
+Constraint[Next][30]=LMS-cor
+Constraint[Next][31]=LMS-cor-brake-rear
+Constraint[Next][32]=none
+
 
 liverytype[0]=MR-Standard
 liverytype[1]=BR-Early
@@ -136,7 +235,38 @@ max_loading_time=50
 # but have more advanced features (better lavatories, etc.). 
 comfort=122
 
-# TODO: Add constraints
+Constraint[Prev][0]=MR-31ft-clerestory-cor-brake-d568
+Constraint[Prev][1]=MR-48ft-clerestory-cor-d575
+Constraint[Prev][2]=MR-48ft-clerestory-cor-lav-brake-front
+Constraint[Prev][3]=MR-48ft-clerestory-full-brake-d1067
+Constraint[Prev][4]=MR-54ft-clerestory-cor-d560
+Constraint[Prev][5]=MR-54ft-clerestory-cor-brake-d467-front
+Constraint[Prev][6]=MR-54ft-clerestory-mini-restaurant-brake-d443-front
+Constraint[Prev][7]=MR-54ft-clerestory-open-vestibule-d595
+Constraint[Prev][8]=MR-54ft-clerestory-open-vestibule-brake-d594-front
+Constraint[Prev][9]=MR-54ft-eliptical-cor-d1047
+Constraint[Prev][10]=MR-54ft-eliptical-cor-brake-front-d1048
+Constraint[Prev][11]=MR-54ft-eliptical-full-brake-d1114
+Constraint[Prev][12]=MR-60ft-clerestory-kitchen-dining-d444
+Constraint[Prev][13]=MR-65ft-clerestory-dining-d575
+Constraint[Prev][14]=MR-65ft-eliptical-dining-d1196
+Constraint[Prev][15]=LMS-buffet
+Constraint[Prev][16]=LMS-period1-cor
+Constraint[Prev][17]=LMS-period1-cor-brake-front
+Constraint[Prev][18]=LMS-period1-cor-open
+Constraint[Prev][19]=LMS-period1-cor-open-brake-front
+Constraint[Prev][20]=LMS-period1-mail
+Constraint[Prev][21]=LMS-period1-tpo
+Constraint[Prev][22]=LMS-period1-full-brake
+Constraint[Prev][23]=LMS-period1-cor-diner
+Constraint[Prev][24]=LMS-open
+Constraint[Prev][25]=LMS-full-brake
+Constraint[Prev][26]=LMS-open-brake-front
+Constraint[Prev][27]=LMS-diner
+Constraint[Prev][28]=LMS-Mail
+Constraint[Prev][29]=LMS-TPO
+Constraint[Prev][30]=LMS-cor
+Constraint[Prev][31]=LMS-cor-brake-front
 
 liverytype[0]=MR-Standard
 liverytype[1]=BR-Early
@@ -186,8 +316,6 @@ bidirectional=1
 
 min_loading_time=35
 max_loading_time=90
-
-# TODO: Add constraints
 
 liverytype[0]=MR-Standard
 liverytype[1]=BR-Early
