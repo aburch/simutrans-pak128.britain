@@ -3,14 +3,14 @@ name=LBSCR-0-4-2T
 engine_type=steam
 smoke=Steam
 speed=78
-# Estimated based on similar types
-power=71
-# No data from Ahrons available. 
-# Approximately extrapolated from LNWR Sharp Tank.
-tractive_effort=23
+# Extrapolated
+power=75
+# Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
+# with loss factor of 0.71
+tractive_effort=26
 copyright=James/jamespetts
 intro_year=1855
-intro_month=2
+intro_month=8
 retire_year=1866
 retire_month=3
 waytype=track
