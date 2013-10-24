@@ -479,6 +479,7 @@
     <None Include="trains\gwr-churchward-star.dat" />
     <None Include="trains\gwr-city.dat" />
     <None Include="trains\gwr-hawksworth-county.dat" />
+    <None Include="trains\lbr-2-4-0t.dat" />
     <None Include="trains\lbscr-0-4-2t.dat" />
     <None Include="trains\lbscr-20ft.dat" />
     <None Include="trains\lbscr-4wheel-craven.dat" />
@@ -486,9 +487,25 @@
     <None Include="trains\lbscr-4wheel-open-sided.dat" />
     <None Include="trains\lbscr-4wheel-open.dat" />
     <None Include="trains\lbscr-4wheel-second.dat" />
+    <None Include="trains\lbscr-6ft-6-single.dat" />
     <None Include="trains\lbscr-6wheel-carriages.dat" />
     <None Include="trains\lbscr-balloon-push-pull.dat" />
     <None Include="trains\lbscr-balloon.dat" />
+    <None Include="trains\lbscr-belgravia.dat" />
+    <None Include="trains\lbscr-craven-tender.dat" />
+    <None Include="trains\lbscr-croydon.dat" />
+    <None Include="trains\lbscr-crystal-palace-tank.dat" />
+    <None Include="trains\lbscr-g.dat" />
+    <None Include="trains\lbscr-light-tank.dat" />
+    <None Include="trains\lbscr-long-boiler-mixed.dat" />
+    <None Include="trains\lbscr-long-boiler-passenger.dat" />
+    <None Include="trains\lbscr-richmond.dat" />
+    <None Include="trains\lbscr-sharp-well-tank.dat" />
+    <None Include="trains\lbscr-single-well-tank.dat" />
+    <None Include="trains\lbscr-small-goods.dat" />
+    <None Include="trains\lbscr-small-single.dat" />
+    <None Include="trains\lbscr-standard-goods.dat" />
+    <None Include="trains\lbscr-standard-passenger.dat" />
     <None Include="trains\lbscr-sub-bogie-48ft.dat" />
     <None Include="trains\lbscr-c.dat" />
     <None Include="trains\lbscr-c1.dat" />
@@ -504,6 +521,8 @@
     <None Include="trains\lbscr-non-cor-lav.dat" />
     <None Include="trains\lbscr-parliamentary-carriages.dat" />
     <None Include="trains\lbscr-sub-bogie-54ft.dat" />
+    <None Include="trains\lbscr-victoria.dat" />
+    <None Include="trains\lbscr-west-end-tank.dat" />
     <None Include="trains\lmr-4wheel-parliamentary.dat" />
     <None Include="trains\lmr-bird.dat" />
     <None Include="trains\lmr-planet-goods.dat" />
@@ -1495,6 +1514,7 @@
     <None Include="ways\wssr_early.dat" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="trains\Header.h" />
     <ClInclude Include="trains\lms-7f.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
