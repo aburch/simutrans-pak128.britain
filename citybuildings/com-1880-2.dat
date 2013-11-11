@@ -9,21 +9,21 @@ retire_year=1915
 Dims=1,1,4
 
 #summer
-backimage[0][0][0][0][0][0]=1880-shop.1.0
-backimage[0][0][0][1][0][0]=1880-shop.0.0
-backimage[1][0][0][0][0][0]=1880-shop.1.1
-backimage[1][0][0][1][0][0]=1880-shop.0.1
-backimage[2][0][0][0][0][0]=1880-shop.1.2
-backimage[2][0][0][1][0][0]=1880-shop.0.2
-backimage[3][0][0][0][0][0]=1880-shop.1.3
-backimage[3][0][0][1][0][0]=1880-shop.0.3
+backimage[0][0][0][0][0][0]=images/com/1880-shop.1.0
+backimage[0][0][0][1][0][0]=images/com/1880-shop.0.0
+backimage[1][0][0][0][0][0]=images/com/1880-shop.1.1
+backimage[1][0][0][1][0][0]=images/com/1880-shop.0.1
+backimage[2][0][0][0][0][0]=images/com/1880-shop.1.2
+backimage[2][0][0][1][0][0]=images/com/1880-shop.0.2
+backimage[3][0][0][0][0][0]=images/com/1880-shop.1.3
+backimage[3][0][0][1][0][0]=images/com/1880-shop.0.3
 
 #winter
-backimage[0][0][0][0][0][1]=1880-shop.3.0
-backimage[0][0][0][1][0][1]=1880-shop.2.0
-backimage[1][0][0][0][0][1]=1880-shop.3.1
-backimage[1][0][0][1][0][1]=1880-shop.2.1
-backimage[2][0][0][0][0][1]=1880-shop.3.2
-backimage[2][0][0][1][0][1]=1880-shop.2.2
-backimage[3][0][0][0][0][1]=1880-shop.3.3
-backimage[3][0][0][1][0][1]=1880-shop.2.3
+backimage[0][0][0][0][0][1]=images/com/1880-shop.3.0
+backimage[0][0][0][1][0][1]=images/com/1880-shop.2.0
+backimage[1][0][0][0][0][1]=images/com/1880-shop.3.1
+backimage[1][0][0][1][0][1]=images/com/1880-shop.2.1
+backimage[2][0][0][0][0][1]=images/com/1880-shop.3.2
+backimage[2][0][0][1][0][1]=images/com/1880-shop.2.2
+backimage[3][0][0][0][0][1]=images/com/1880-shop.3.3
+backimage[3][0][0][1][0][1]=images/com/1880-shop.2.3
