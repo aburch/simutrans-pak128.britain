@@ -76,7 +76,6 @@ TR_DIRS += ways
 
 DIRS192 := 
 DIRS192 += boats/boats192
-DIRS192 := 
 DIRS192 += air/air192
 
 DIRS224 := 
@@ -113,7 +112,7 @@ copy:
 #	@mkdir -p $(PAKDIR)/sound $(PAKDIR)/text $(PAKDIR)/config $(PAKDIR)/scenario
 #	@cp -p sound/* $(PAKDIR)/sound
 #	@cp -p scenario/* $(PAKDIR)/scenario
-	@cp -p text/*.tab $(PAKDIR)/text
+	@cp -p text/*.* $(PAKDIR)/text
 
 $(DIRS32):
 	@echo "===> PAK32 $@"
