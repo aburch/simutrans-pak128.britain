@@ -1,0 +1,39 @@
+obj=vehicle
+name=MR-25
+engine_type=steam
+smoke=Steam
+speed=142
+# Extrapolated
+power=228
+# http://chasewaterstuff.wordpress.com/2012/04/07/steam-locos-of-a-leisurely-era-1887-johnson-4-2-2-midland-railway/
+# Calculated using data from: http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm (multiplied by 0.95 to reflect reduction in these values
+# between measured value of the MR 2601 class of 66kN and the calculated value of 69kN)
+tractive_effort=54
+copyright=James/jamespetts
+intro_year=1887
+intro_month=8
+retire_year=1896
+retire_month=4
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Weight guessed.
+weight=40
+axle_load=17
+cost=5015500
+runningcost=821
+sound=-1
+
+Constraint[Next][0]=MR-Kirtley156Tender
+
+EmptyImage[E]=./images/mr-25-class.1.4
+EmptyImage[SE]=./images/mr-25-class.1.5
+EmptyImage[S]=./images/mr-25-class.1.6
+EmptyImage[SW]=./images/mr-25-class.1.7
+EmptyImage[W]=./images/mr-25-class.1.0
+EmptyImage[NW]=./images/mr-25-class.1.1
+EmptyImage[N]=./images/mr-25-class.1.2
+EmptyImage[NE]=./images/mr-25-class.1.3
+

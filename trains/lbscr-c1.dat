@@ -35,23 +35,23 @@ Constraint[Next][0]=LBSCR-C1-tender
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-c1-goods-green_E.0
-EmptyImage[SE][0]=./images/lbscr-c1-goods-green_SE.0
-EmptyImage[S][0]=./images/lbscr-c1-goods-green_S.0
-EmptyImage[SW][0]=./images/lbscr-c1-goods-green_SW.0
-EmptyImage[W][0]=./images/lbscr-c1-goods-green_W.0
-EmptyImage[NW][0]=./images/lbscr-c1-goods-green_NW.0
-EmptyImage[N][0]=./images/lbscr-c1-goods-green_N.0
-EmptyImage[NE][0]=./images/lbscr-c1-goods-green_NE.0
+EmptyImage[E][0]=./images/lbscr-c1-goods-green.1.4
+EmptyImage[SE][0]=./images/lbscr-c1-goods-green.1.5
+EmptyImage[S][0]=./images/lbscr-c1-goods-green.1.6
+EmptyImage[SW][0]=./images/lbscr-c1-goods-green.1.7
+EmptyImage[W][0]=./images/lbscr-c1-goods-green.1.0
+EmptyImage[NW][0]=./images/lbscr-c1-goods-green.1.1
+EmptyImage[N][0]=./images/lbscr-c1-goods-green.1.2
+EmptyImage[NE][0]=./images/lbscr-c1-goods-green.1.3
 
-EmptyImage[E][1]=./images/lbscr-c1-black_E.0
-EmptyImage[SE][1]=./images/lbscr-c1-black_SE.0
-EmptyImage[S][1]=./images/lbscr-c1-black_S.0
-EmptyImage[SW][1]=./images/lbscr-c1-black_SW.0
-EmptyImage[W][1]=./images/lbscr-c1-black_W.0
-EmptyImage[NW][1]=./images/lbscr-c1-black_NW.0
-EmptyImage[N][1]=./images/lbscr-c1-black_N.0
-EmptyImage[NE][1]=./images/lbscr-c1-black_NE.0
+EmptyImage[E][1]=./images/lbscr-c1-umber.1.4
+EmptyImage[SE][1]=./images/lbscr-c1-umber.1.5
+EmptyImage[S][1]=./images/lbscr-c1-umber.1.6
+EmptyImage[SW][1]=./images/lbscr-c1-umber.1.7
+EmptyImage[W][1]=./images/lbscr-c1-umber.1.0
+EmptyImage[NW][1]=./images/lbscr-c1-umber.1.1
+EmptyImage[N][1]=./images/lbscr-c1-umber.1.2
+EmptyImage[NE][1]=./images/lbscr-c1-umber.1.3
 
 ---
 
@@ -67,7 +67,7 @@ retire_month=6
 waytype=track
 freight=None
 payload=0
-length=4
+length=3
 
 weight=25
 axles=3
@@ -80,20 +80,23 @@ Constraint[Prev][0]=LBSCR-C1
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-c1-tender-goods-green_E.0
-EmptyImage[SE][0]=./images/lbscr-c1-tender-goods-green_SE.0
-EmptyImage[S][0]=./images/lbscr-c1-tender-goods-green_S.0
-EmptyImage[SW][0]=./images/lbscr-c1-tender-goods-green_SW.0
-EmptyImage[W][0]=./images/lbscr-c1-tender-goods-green_W.0
-EmptyImage[NW][0]=./images/lbscr-c1-tender-goods-green_NW.0
-EmptyImage[N][0]=./images/lbscr-c1-tender-goods-green_N.0
-EmptyImage[NE][0]=./images/lbscr-c1-tender-goods-green_NE.0
+liverytype[0]=LBSCR-Stroudley
+liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][1]=./images/lbscr-c1-tender-black_E.0
-EmptyImage[SE][1]=./images/lbscr-c1-tender-black_SE.0
-EmptyImage[S][1]=./images/lbscr-c1-tender-black_S.0
-EmptyImage[SW][1]=./images/lbscr-c1-tender-black_SW.0
-EmptyImage[W][1]=./images/lbscr-c1-tender-black_W.0
-EmptyImage[NW][1]=./images/lbscr-c1-tender-black_NW.0
-EmptyImage[N][1]=./images/lbscr-c1-tender-black_N.0
-EmptyImage[NE][1]=./images/lbscr-c1-tender-black_NE.0
+EmptyImage[E][0]=./images/lbscr-gladstone-tender-goods-green.1.4
+EmptyImage[SE][0]=./images/lbscr-gladstone-tender-goods-green.1.5
+EmptyImage[S][0]=./images/lbscr-gladstone-tender-goods-green.1.6
+EmptyImage[SW][0]=./images/lbscr-gladstone-tender-goods-green.1.7
+EmptyImage[W][0]=./images/lbscr-gladstone-tender-goods-green.1.0
+EmptyImage[NW][0]=./images/lbscr-gladstone-tender-goods-green.1.1
+EmptyImage[N][0]=./images/lbscr-gladstone-tender-goods-green.1.2
+EmptyImage[NE][0]=./images/lbscr-gladstone-tender-goods-green.1.3
+
+EmptyImage[E][1]=./images/lbscr-gladstone-tender-goods-black.1.4
+EmptyImage[SE][1]=./images/lbscr-gladstone-tender-goods-black.1.5
+EmptyImage[S][1]=./images/lbscr-gladstone-tender-goods-black.1.6
+EmptyImage[SW][1]=./images/lbscr-gladstone-tender-goods-black.1.7
+EmptyImage[W][1]=./images/lbscr-gladstone-tender-goods-black.1.0
+EmptyImage[NW][1]=./images/lbscr-gladstone-tender-goods-black.1.1
+EmptyImage[N][1]=./images/lbscr-gladstone-tender-goods-black.1.2
+EmptyImage[NE][1]=./images/lbscr-gladstone-tender-goods-black.1.3

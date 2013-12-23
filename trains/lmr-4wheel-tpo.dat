@@ -49,6 +49,10 @@ Constraint[Next][19]=LMR-4Wheel-TPO
 Constraint[Next][20]=LMR-4Wheel-Mail
 Constraint[Next][21]=LMR-4Wheel-Parliamentary
 Constraint[Next][22]=4-wheel-1860s-full-brake
+Constraint[Next][23]=4-wheel-1860s-fast-freight
+Constraint[Next][24]=4-wheel-1860s-milk
+Constraint[Next][25]=4-wheel-1870s-fast-freight-unfitted
+Constraint[Next][26]=4-wheel-1870s-milk-unfitted
 
 Constraint[Prev][0]=4-wheel-1860s
 Constraint[Prev][1]=4-wheel-1860s-brake-front
@@ -73,7 +77,10 @@ Constraint[Prev][19]=LMR-4Wheel-TPO
 Constraint[Prev][20]=LMR-4Wheel-Mail
 Constraint[Prev][21]=LMR-4Wheel-Parliamentary
 Constraint[Prev][22]=4-wheel-1860s-full-brake
-
+Constraint[Prev][23]=4-wheel-1860s-fast-freight
+Constraint[Prev][24]=4-wheel-1860s-milk
+Constraint[Prev][25]=4-wheel-1870s-fast-freight-unfitted
+Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 
 liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early

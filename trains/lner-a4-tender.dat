@@ -27,6 +27,7 @@ liverytype[1]=LNER-Cornoation
 liverytype[2]=LNER-Standard
 liverytype[3]=WW2-Austerity
 liverytype[4]=BR-Early
+liverytype[5]=BR-Green
 
 EmptyImage[E][0]=./images/lner-a4-silver.1.0
 EmptyImage[SE][0]=./images/lner-a4-silver.1.1
@@ -63,3 +64,21 @@ EmptyImage[W][3]=./images/lner-a4-black.1.4
 EmptyImage[NW][3]=./images/lner-a4-black.1.5
 EmptyImage[N][3]=./images/lner-a4-black.1.6
 EmptyImage[NE][3]=./images/lner-a4-black.1.7
+
+EmptyImage[E][4]=./images/lner-a4-brblue.1.0
+EmptyImage[SE][4]=./images/lner-a4-brblue.1.1
+EmptyImage[S][4]=./images/lner-a4-brblue.1.2
+EmptyImage[SW][4]=./images/lner-a4-brblue.1.3
+EmptyImage[W][4]=./images/lner-a4-brblue.1.4
+EmptyImage[NW][4]=./images/lner-a4-brblue.1.5
+EmptyImage[N][4]=./images/lner-a4-brblue.1.6
+EmptyImage[NE][4]=./images/lner-a4-brblue.1.7
+
+EmptyImage[E][5]=./images/lner-a4-brgreen.1.0
+EmptyImage[SE][5]=./images/lner-a4-brgreen.1.1
+EmptyImage[S][5]=./images/lner-a4-brgreen.1.2
+EmptyImage[SW][5]=./images/lner-a4-brgreen.1.3
+EmptyImage[W][5]=./images/lner-a4-brgreen.1.4
+EmptyImage[NW][5]=./images/lner-a4-brgreen.1.5
+EmptyImage[N][5]=./images/lner-a4-brgreen.1.6
+EmptyImage[NE][5]=./images/lner-a4-brgreen.1.7

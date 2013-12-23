@@ -169,13 +169,13 @@ Boeing 727 200 series
 Boeing_727_200Adv(DHL)Post
 Boeing 727 200 Advanced series (mail)
 Boeing727_100(UPS)Cargo
-Beoing 727 100 series (piece goods)
+Boeing 727 100 series (piece goods)
 Boeing727_100(UPS)CargoCool
-Beoing 727 100 series (perishable goods)
+Boeing 727 100 series (perishable goods)
 Boeing_727_200(TNT)CargoPiece
-Beoing 727 200 series (piece goods)
+Boeing 727 200 series (piece goods)
 Boeing_727_200(TNT)CargoCool
-Beoing 727 200 series (foods)
+Boeing 727 200 series (foods)
 Boeing_727_100(DanAirLondon)
 Boeing 727 100 series
 Boeing727_100(DHL)Post
@@ -193,7 +193,9 @@ Boeing 747 200F series (mail)
 Aerospatiale_BAC_Concorde(BritishAirWays)
 Aerospatiale/BAC Concorde
 Zeppelin_LZ127_GrafZeppelin
-LZ 127 Graf Zeppelin 
+Graf Zeppelin LZ 127
+Zeppelin_LZ127_GrafZeppelin_Mail
+Graf Zeppelin LZ 127 (mail)
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickAqueduct
@@ -237,7 +239,7 @@ Steel bowstring arch bridge
 SteelTruss
 Steel truss bridge
 IronArchRailBridge
-Iron arch rridge
+Iron arch bridge
 IronLatticeGirderRailBridge
 Iron lattice girder bridge
 PlateGirderConcrete
@@ -461,51 +463,51 @@ Bungalow
 RES_KG_1930_01_01
 Bungalow
 RES_JH_1970_00_02
-Detatched House
+Detached House
 RES_JH_1970_01_02
-Detatched House
+Detached House
 RES_JH_1970_02_02
-Detatched House
+Detached House
 RES_KG_1930_00_02
-Detatched House
+Detached House
 RES_KG_1890_00_02
 Town House
 RES_KG_1990_00_02
-Detatched House
+Detached House
 RES_KG_1990_01_02
-Detatched House
+Detached House
 RES_KG_1700_00_02
 Terraced Houses
 RES_KG_1920_00_02
-Detatched House
+Detached House
 RES_KG_1960_04_03
-Semi-detatched Houses
+Semi-detached Houses
 RES_JH_1750_00_04
 Town House
 RES_KG_1880_00_04
 Semi-detached Cottages
 RES_KG_1910_00_04
-Semi-detatched Town Houses
+Semi-detached Town Houses
 RES_KG_1700_01_04
 Terraced Houses
 RES_KG_1960_01_04
-Semi-detatched Houses
+Semi-detached Houses
 RES_KG_1980_00_04
-Semi-detatched Houses
+Semi-detached Houses
 RES_KG_1980_01_04
-Semi-detatched Houses
+Semi-detached Houses
 RES_KG_1890_01_05
-Victorian Semi-detatched Houses
+Victorian Semi-detached Houses
 RES_KG_1870_00_06
-Victorian Semi-detatched Houses
+Victorian Semi-detached Houses
 RES_KG_1910_01_06
-Victorian Semi-detatched Town Houses
+Victorian Semi-detached Town Houses
 RES_KG_1880_01_06
 Victorian Terraced Houses
 RES_KG_1950_01_08
 Maisonettes
 RES_KG_1960_02_08
-Semi-detatched Houses
+Semi-detached Houses
 RES_JH_1970_03_04
 Bungalows
 RES_KG_1960_03_12
@@ -551,7 +553,7 @@ Small Factory
 IND_JH_1860_00_10
 Gasometer
 RES_KG_1990_02_03
-Semi-detatched Houses
+Semi-detached Houses
 IND_JH_1750_03_04
 Warehouse
 IND_WL_1950_00_04
@@ -667,23 +669,23 @@ Prefabs
 RES_JH_1890_01_02
 Town House
 RES_KG_1930_00_02B
-Detatched House
+Detached House
 RES_JH_1890_02_03A
-Detatched House
+Detached House
 RES_JH_1890_02_03B
-Detatched House
+Detached House
 RES_A_1850_00_4
 Town House
 RES_A_1890_02_04
 Corner Terrace
 RES_JH_1930_00_04
-Suburban Semi-detatched Houses
+Suburban Semi-detached Houses
 RES_JH_1930_00_04B
-Suburban Semi-detatched Houses
+Suburban Semi-detached Houses
 RES_JH_1890_00_06A
-Semi-detatched Town Houses
+Semi-detached Town Houses
 RES_JH_1890_00_06B
-Semi-detatched Town Houses
+Semi-detached Town Houses
 RES_JH_1870_00_06A
 Terraced Houses
 RES_JH_1870_00_06B
@@ -1505,7 +1507,7 @@ foods
 CATEGORY_05
 fluid foods
 CATEGORY_06
-woods
+long goods
 CATEGORY_07
 farm products
 battery
@@ -1747,7 +1749,7 @@ GWR Pannier Tank 57xx 0-6-0T
 MR-Kirtley156
 Midland 156 Class 2-4-0
 MR-Kirtley156Tender
-Midland 156 Class (tender)
+Midland express tender
 LMS-Stanier-5MT
 LMS Class 5MT "Black Five" 4-6-0
 LMS-Stanier-5MT-Tender
@@ -1927,29 +1929,41 @@ Four wheel four compartment carriage
 4-wheel-1860s-brake-front
 Four wheel two compartment brake carriage
 4-wheel-1860s-brake-rear
-Four wheel two compartment brake cariage
+Four wheel two compartment brake carriage
 4-wheel-1860s-full-brake
 Four wheel mail/brake carriage
 4-wheel-1860s-mail
-Four wheel mail cariage
+Four wheel mail carriage
 4-wheel-1860s-tpo
 Four wheel travelling post office
+4-wheel-1860s-fast-freight
+Four wheel fast goods van (passenger rated)
+4-wheel-1860s-milk
+Four wheel milk van (passenger rated)
 4-wheel-1870s-unfitted
 Four wheel four compartment carriage
 4-wheel-1870s-brake-unfitted
-Four wheel mail/brake cariage
+Four wheel mail/brake carriage
 4-wheel-1870s-mail-unfitted
-Four wheel mail cariage
+Four wheel mail carriage
 4-wheel-1870s-tpo-unfitted
 Four wheel TPO
+4-wheel-1870s-fast-freight-unfitted
+Four wheel fast goods van (passenger rated)
+4-wheel-1870s-milk-unfitted
+Four wheel milk van (passenger rated)
 4-wheel-1870s-fitted
 Four wheel four compartment carriage (continuously braked)
 4-wheel-1870s-brake-fitted
-Four wheel mail/brake cariage (continuously braked)
+Four wheel mail/brake carriage (continuously braked)
 4-wheel-1870s-mail-fitted
-Four wheel mail cariage (continuously braked)
+Four wheel mail carriage (continuously braked)
 4-wheel-1870s-tpo-fitted
 Four wheel TPO (continuously braked)
+4-wheel-1870s-fast-freight-fitted
+Four wheel fast goods van (passenger rated) (continuously braked)
+4-wheel-1870s-milk-fitted
+Four wheel milk van (passenger rated) (continuously braked)
 4-wheel-sub-1870s-unfitted
 Four wheel five compartment carriage
 4-wheel-sub-1870s-brake-front-unfitted
@@ -1963,11 +1977,11 @@ Four wheel three compartment brake carriage (continuously braked)
 4-wheel-sub-1870s-brake-rear-fitted
 Four wheel three compartment brake carriage (continuously braked)
 LBSCR-4wheel-parliamentary-second
-LBSCR four comaprtment Parliamentary carriage
+LBSCR four compartment Parliamentary carriage
 LBSCR-4wheel-parliamentary-third
-LBSCR five comaprtment Parliamentary carriage
+LBSCR five compartment Parliamentary carriage
 LBSCR-4wheel-parliamentary-third-brake
-LBSCR five comaprtment Parliamentary brake carriage
+LBSCR five compartment Parliamentary brake carriage
 LBSCR-4wheel-open
 LBSCR open carriage
 LBSCR-4wheel-open-brake
@@ -2110,7 +2124,9 @@ MR-6Wheel-non-lav
 Midland six wheel five compartment carriage
 MR-6Wheel-lav
 Midland six wheel four compartment lavatory carriage
-MR-6Wheel-Guard
+MR-6wheel-clerestory-brake-d530
+Midland six wheel clerestory mail/brake carriage
+MR-6wheel-cove-brake-d530a
 Midland six wheel mail/brake carriage
 MR-6Wheel-brake-front
 Midland six wheel three compartment brake carriage
@@ -2128,6 +2144,8 @@ MR-clayton-8wheel-arc-roof-brake-lav-front
 Midland eight wheel bogie four compartment lavatory brake carriage
 MR-clayton-8wheel-arc-roof-brake-lav-rear
 Midland eight wheel bogie four compartment lavatory brake carriage (rear)
+MR-clayton-8wheel-arc-roof-mail
+Midland eight wheel bogie mail carriage
 MR-clayton-8wheel-clerestory-third
 Midland eight wheel bogie seven compartment clerestory carriage
 MR-clayton-8wheel-clerestory-third-lav
@@ -2140,6 +2158,8 @@ MR-clayton-8wheel-clerestory-brake-lav-front
 Midland eight wheel bogie four compartment clerestory lavatory brake carriage
 MR-clayton-8wheel-clerestory-brake-lav-rear
 Midland eight wheel bogie four compartment clerestory lavatory brake carriage (rear)
+MR-clayton-8wheel-clerestory-mail
+Midland eight wheel bogie clerestory mail carriage
 MR-clayton-12wheel-clerestory-third
 Midland twelve wheel bogie eight compartment clerestory carriage
 MR-clayton-12wheel-clerestory-third-lav
@@ -2164,6 +2184,120 @@ MR-clayton-12wheel-arc-roof-brake-lav-front
 Midland twelve wheel bogie five compartment lavatory brake carriage
 MR-clayton-12wheel-arc-roof-brake-lav-rear
 Midland twelve wheel bogie five compartment lavatory brake carriage (rear)
+MR-60ft-clerestory-dining-d448
+Midland clerestory dining twin set
+MR-31ft-clerestory-kitchen-car-d532
+Midland kitchen car
+MR-31ft-clerestory-lavatory-d492
+Midland six wheel clerestory lavatory carriage
+MR-33ft-6in-clerestory-d491
+Midland six wheel clerestory carriage
+MR-33ft-6in-clerestory-brake-d503-front
+Midland six wheel clerestory brake carriage
+MR-33ft-6in-clerestory-brake-d503-rear
+Midland six wheel clerestory brake carriage (rear)
+MR-48ft-clerestory-lav-3rd-d486
+Midland six compartment bogie clerestory lavatory carriage
+MR-48ft-clerestory-lav-brake-d499-front
+Midland four compartment bogie clerestory lavatory brake carriage
+MR-48ft-clerestory-lav-brake-d499-rear
+Midland four compartment bogie clerestory lavatory brake carriage (rear)
+MR-48ft-clerestory-non-lav-brake-d500-front
+Midland five compartment bogie clerestory brake carriage
+MR-48ft-clerestory-non-lav-brake-d500-rear
+Midland five compartment bogie clerestory brake carriage (rear)
+MR-48ft-clerestory-non-lav
+Midland seven compartment bogie clerestory carriage
+MR-45ft-clerestory-full-brake-d531
+Midland bogie clerestory mail/brake carriage
+MR-48ft-clerestory-mail
+Midland bogie clerestory mail carriage
+MR-48ft-clerestory-tpo
+Midland bogie clerestory travelling post office
+MR-60ft-clerestory-lav-3rd-d484
+Midland eight compartment bogie clerestory lavatory carriage
+MR-60ft-clerestory-brake-3rd-d496-front
+Midland six compartment bogie clerestory brake carriage
+MR-60ft-clerestory-brake-3rd-d496-rear
+Midland six compartment bogie clerestory brake carriage (rear)
+MR-45ft-clerestory-cor-full-brake-d536
+Midland bogie clerestory gangwayed mail/brake carriage
+MR-48ft-clerestory-cor-d575
+Midland six compartment bogie clerestory gangwayed corridor carriage
+MR-48ft-clerestory-cor-lav-brake-front
+Midland four compartment bogie clerestory corridor brake carriage
+MR-48ft-clerestory-cor-lav-brake-rear
+Midland four compartment bogie clerestory gangwayed corridor brake carriage (rear)
+MR-31ft-clerestory-cor-brake-d568
+Midland six wheel clerestory corridor mail/brake carriage
+MR-60ft-clerestory-kitchen-dining-d444
+Midland clerestory bogie dining/kitchen carriage
+MR-48ft-clerestory-full-brake-d1067
+Midland bogie clerestory gangwayed mail/brake carriage
+MR-54ft-clerestory-cor-d560
+Midland seven compartment clerestory gangwayed corridor carriage
+MR-54ft-clerestory-cor-brake-d467-front
+Midland three compartment clerestory gangwayed corridor brake carriage
+MR-54ft-clerestory-cor-brake-d467-rear
+Midland three compartment clerestory gangwayed corridor brake carriage (rear)
+MR-65ft-clerestory-dining-d575
+Midland clerestory dining/kitchen carriage
+MR-54ft-clerestory-mini-restaurant-brake-d443-front
+Midland clerestory mini-restaurant brake carriage
+MR-54ft-clerestory-mini-restaurant-brake-d443-rear
+Midland clerestory mini-restaurant brake carriage (rear)
+MR-54ft-clerestory-open-vestibule-d595
+Midland clerestory open vestibuled carriage
+MR-54ft-clerestory-open-vestibule-brake-d594-front
+Midland clerestory open vestibuled brake carriage
+MR-54ft-clerestory-open-vestibule-brake-d594-rear
+Midland clerestory open vestibuled brake carriage (rear)
+MR-54ft-clerestory-lav-d1056
+Midland seven compartment clerestory lavatory carriage
+MR-54ft-clerestory-lav-brake-d550-front
+Midland seven compartment clerestory lavatory carriage
+MR-54ft-clerestory-lav-brake-d550-front
+Midland four compartment clerestory lavatory carriage
+MR-54ft-clerestory-lav-brake-d550-rear
+Midland four compartment clerestory lavatory carriage (rear)
+MR-54ft-clerestory-non-lav-d485
+Midland eight compartment clerestory carriage
+MR-54ft-clerestory-brake-d497-front
+Midland six compartment clerestory brake carriage
+MR-54ft-clerestory-brake-d497-rear
+Midland six compartment clerestory brake carriage (rear)
+MR-54ft-clerestory-mail
+Midland clerestory mail carriage
+MR-54ft-clerestory-tpo
+Midland clerestory travelling post office
+MR-48ft-arc-d487
+Midland eight compartment bogie carriage
+MR-48ft-arc-brake-d501-front
+Midland six compartment bogie brake carriage
+MR-48ft-arc-brake-d501-rear
+Midland six compartment bogie brake carriage (rear)
+MR-50ft-arc-d1053
+Midland seven compartment bogie lavatory carriage
+MR-50ft-arc-brake-front-d1052
+Midland six compartment bogie brake carriage
+MR-50ft-arc-brake-rear-d1052
+Midland six compartment bogie brake carriage (rear)
+MR-54ft-eliptical-cor-d1047
+Midland seven compartment gangwayed corridor carriage
+MR-54ft-eliptical-cor-brake-front-d1048
+Midland three compartment gangwayed corridor brake carriage
+MR-54ft-eliptical-cor-brake-rear-d1048
+Midland three compartment gangwayed corridor brake carriage (rear)
+MR-54ft-eliptical-full-brake-d1114
+Midland gangwayed mail/brake carriage
+MR-54ft-eliptical-non-lav-d1277
+Midland nine compartment carriage
+MR-54ft-eliptical-non-lav-brake-front-d1246
+Midland six compartment brake carriage
+MR-54ft-eliptical-non-lav-brake-rear-d1246
+Midland six compartment brake carriage (rear)
+MR-65ft-eliptical-dining-d1196
+Midland dining carriage
 BR-251SecondParlourFront
 BR Class 251 "Blue Pullman" (2nd class front parlour)
 BR-251SecondParlourRear
@@ -2405,9 +2539,9 @@ BR Mk. 1 open carriage
 BR-Mk1-SK
 BR Mk. 1 corridor vestibule carriage
 BR-Mk1-BSO-front
-BR Mk. 1 open brake cariage
+BR Mk. 1 open brake carriage
 BR-Mk1-BSO-rear
-BR Mk. 1 open brake cariage (rear)
+BR Mk. 1 open brake carriage (rear)
 BR-Mk1-BSK-rear
 BR Mk. 1 corridor vestibule brake carriage (rear)
 BR-Mk1-BSK-front
@@ -2543,7 +2677,7 @@ Metropolitan 1905 Motorised Stock
 Metropolitan-Motor-Third-Middle
 Metropolitan 1905 Motorised Stock (centre)
 Metropolitan-Motor-Third-Back
-Metropolitan 1905 Mororised Stock (rear)
+Metropolitan 1905 Motorised Stock (rear)
 Metropolitan-Bogie-Third
 Metropolitan Bogie Carriage
 Metropolitan-Dreadnought-Third
@@ -2764,14 +2898,6 @@ MR-push-pull-front
 Midland push-pull set (front)
 MR-push-pull-rear
 Midland push-pull set (rear)
-MR-non-cor-lav
-Midland seven compartment lavatory carriage
-MR-non-cor-non-lav
-Midland eight compartment carriage
-MR-non-cor-brake-front
-Midland five compartment brake carriage
-MR-non-cor-brake-rear
-Midland five compartment brake carriage (rear)
 LMS-Garratt-Middle
 LMS Garratt 2-6-0+0-6-2 (boiler)
 LMS-Garratt-Front
@@ -2858,6 +2984,10 @@ SR-Schools
 SR V Class "Schools" 4-4-0
 SR-Schools-Tender
 SR V Class "Schools" (tender)
+SR-Lord-Nelson
+SR "Lord Nelson" Class 4-6-0
+SR-Lord-Nelson-Tender
+SR "Lord Nelson" Class 4-6-0  (tender)
 GWR-King
 GWR 6600 "King" Class 4-6-0
 GWR-King-Tender
@@ -2916,6 +3046,10 @@ JennyLind
 LBSCR "Jenny Lind" 2-2-2
 JennyLind-Tender
 LBSCR "Jenny Lind" (tender)
+LBSCR-Crystal-Palace-tank
+LBSCR Crystal Palace tank 2-2-2
+LBSCR-West-End-tank
+LBSCR West End (experimental) tank 4-4-0
 LYR-Class25
 LYR Class 25 0-6-0
 LYR-Class25-Tender
@@ -3007,7 +3141,13 @@ Midland 1632 Class 0-6-0 (for push-pull)
 MR-Spinner
 Midland 115 Class "Spinner" 4-2-2
 MR-Spinner-Tender
-Midland 115 Class "Spinner" (tender)
+Midland bogie tender
+MR-25
+Midland 25 Class 4-2-2
+MR-2601
+Midland 2601 Class 4-2-2
+MR-1327
+Midland 1327 Class 4-4-0
 LMS-royal-scot
 LMS Class 6P "Royal Scot" 4-6-0
 LMS-royal-scot-tender
@@ -3471,7 +3611,7 @@ LNWR "Cauliflower" Class tender
 LNWR-watford-tank
 LNWR "Watford Tank" class 0-6-2T
 LBSCR-D2
-LBSCR D2 Class 0-4-2
+LBSCR D2 "Lyons" Class 0-4-2
 MR-133
 Midland 133 Class 2-2-2
 MR-133-tender
@@ -3531,15 +3671,51 @@ LMS 4P Tender
 LMS-2P-Tender
 LMS 2P Tender
 LNWR-Precedent-Tender
-LNWR express Tender
+LNWR express tender
 LNWR-Claughton
 LNWR Claughton Class 4-6-0
 LNWR-Claughton-tender
-LNWR Claughton Class Tender
+LNWR Claughton class tender
 LSWR-N15-Tender
-LSWR N15 Tender
+LSWR N15 tender
 LBSCR-0-4-2T
-LBSCR Craven 0-4-2T
+LBSCR Small Saddle Tank 0-4-2T
+LBSCR-craven-tender
+LBSCR standard passenger tender
+LBSCR-standard-goods-tender
+LBSCR standard goods tender
+LBSCR-standard-passenger
+LBSCR Standard Passenger Engine 2-4-0
+LBSCR-victoria
+LBSCR Victoria Class 2-2-2
+LBSCR-6ft-6-single
+LBSCR 6ft 6" Single 2-2-2
+LBSCR-standard-goods
+LBSCR Standard Goods Engine 0-6-0
+LBSCR-small-goods
+LBSCR Small Goods Engine 0-6-0
+LBSCR-small-single
+LBSCR Small Single 2-2-2
+LBSCR-Richmond
+LBSCR Richmond Class 0-4-2
+LBSCR-long-boiler-passenger
+LBSCR Long Boiler Engine (passenger) 2-4-0
+LBSCR-long-boiler-mixed
+LBSCR Long Boiler Engine (mixed traffic) 2-4-0
+LBSCR-light-tank
+LBSCR Kemp Town Tank 2-4-0
+LBSCR-single-well-tank
+LBSCR Single Well tank 2-2-2
+LBSCR-G
+LBSCR G Class 2-2-2
+LBSCR-croydon
+LBSCR Croydon Engine 2-4-0
+LBSCR-Belgravia
+LBSCR Belgravia Class 2-4-0
+LBSCR-sharp-well-tank
+LBSCR Sharp Well Tank 2-2-2
+LBR-2-4-0T
+L&BR Small Tank 2-4-0T
 LNWR-8wheel-radial-brake-front
 LNWR eight wheel (radial) four compartment brake
 LNWR-8wheel-radial-brake-lav-front
@@ -3617,9 +3793,9 @@ BR Class 101 DMU
 BR-101-TSL
 BR Class 101 DMU (centre trailer)
 BR-101-DMCL
-BR Class 101 DMU (drivng motor - rear)
+BR Class 101 DMU (driving motor - rear)
 BR-101-DTCL
-BR Class 101 DMU (drivng trailer - rear)
+BR Class 101 DMU (driving trailer - rear)
 BR-120-DMBC
 BR Class 120 cross-country DMU
 BR-120-TSLRB
@@ -3843,7 +4019,7 @@ NET Bombardier Incentro (rear)
 Blackpool-Balloon
 Blackpool Balloon
 Blackpool-Millenium
-Blackpool Millenium
+Blackpool Millennium
 Metrolink-T86(Front)
 Metrolink T86
 Metrolink-T86(Rear)
@@ -5411,7 +5587,7 @@ Station building concourse
 ModernStationBuilding
 Station building concourse
 CountryStationBuilding
-Country atation building
+Country station building
 ModernPostOffice
 Post office
 OldPostOffice
@@ -5437,7 +5613,7 @@ Staging inn
 ModernBusShelter
 Bus stop with shelter
 OldBusShelter
-Bus stop with ahelter
+Bus stop with shelter
 OldBusShelterWmail
 Bus stop with shelter and post box
 ModernBusTerminal
@@ -5475,9 +5651,9 @@ Apron
 ControlTowerModern
 Control tower
 1950sTerminalBuildingEntrance
-Terminal building wntrance
+Terminal building entrance
 TerminalModernBuildingEntrance
-Terminal building wntrance
+Terminal building entrance
 DecoTerminalBuildingEntrance
 Terminal building
 DecoTerminalBuildingTower

@@ -1,0 +1,54 @@
+obj=vehicle
+name=LBSCR-long-boiler-mixed
+engine_type=steam
+smoke=Steam
+speed=90
+# Extrapolated
+power=103
+# Tractive effort calculated using data from 
+# http://www.steamindex.com/locotype/lbscrloc.htm
+# (These data are incomplete, partly guessed)
+tractive_effort=35
+copyright=Kieron/JamesPetts
+intro_year=1855
+intro_month=2
+retire_year=1861
+retire_month=6
+waytype=track
+freight=None
+payload=0
+length=5
+brake_force=0
+
+can_lead_from_rear=0
+bidirectional=0
+
+# Weight not available. Guessed from contemporaneous types
+weight=29
+axle_load=12
+cost=4550000
+runningcost=700
+sound=-1
+
+Constraint[Next][0]=LBSCR-standard-goods-tender
+
+liverytype[0]=LBSCR-Craven
+liverytype[1]=LBSCR-Stroudley
+
+EmptyImage[E][0]=./images/lbscr-long-boiler-mixed-traffic-craven.1.4
+EmptyImage[SE][0]=./images/lbscr-long-boiler-mixed-traffic-craven.1.5
+EmptyImage[S][0]=./images/lbscr-long-boiler-mixed-traffic-craven.1.6
+EmptyImage[SW][0]=./images/lbscr-long-boiler-mixed-traffic-craven.1.7
+EmptyImage[W][0]=./images/lbscr-long-boiler-mixed-traffic-craven.1.0
+EmptyImage[NW][0]=./images/lbscr-long-boiler-mixed-traffic-craven.1.1
+EmptyImage[N][0]=./images/lbscr-long-boiler-mixed-traffic-craven.1.2
+EmptyImage[NE][0]=./images/lbscr-long-boiler-mixed-traffic-craven.1.3
+
+EmptyImage[E][1]=./images/lbscr-long-boiler-mixed-traffic.1.4
+EmptyImage[SE][1]=./images/lbscr-long-boiler-mixed-traffic.1.5
+EmptyImage[S][1]=./images/lbscr-long-boiler-mixed-traffic.1.6
+EmptyImage[SW][1]=./images/lbscr-long-boiler-mixed-traffic.1.7
+EmptyImage[W][1]=./images/lbscr-long-boiler-mixed-traffic.1.0
+EmptyImage[NW][1]=./images/lbscr-long-boiler-mixed-traffic.1.1
+EmptyImage[N][1]=./images/lbscr-long-boiler-mixed-traffic.1.2
+EmptyImage[NE][1]=./images/lbscr-long-boiler-mixed-traffic.1.3
