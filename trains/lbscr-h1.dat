@@ -20,7 +20,7 @@ length=6
 
 # http://www.bluebell-railway.co.uk/bluebell/locos/atlantic/
 weight=68
-axle_load=18
+axle_load=19
 cost=6677000
 runningcost=775
 sound=-1
@@ -96,6 +96,7 @@ payload=0
 length=4
 
 weight=43
+axles=3
 cost=0
 runningcost=0
 sound=-1
