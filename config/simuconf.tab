@@ -749,9 +749,6 @@ intercity_road_length = 320
 # The direction steps are phased in the same way as the adjustment factor.
 #
 # Curve friction factor (x): The number of times extra friction that applies as a vehicle corners.
-# Since the friction occasioned by cornering is not usually a significant speed limiting factor for
-# most transport vehicles, it is recommended to set this to 0. It is preserved for those who prefer
-# the Simutrans-Standard system of cornering.
 #
 # Reverting to the older cornering system: To make Simutrans behave in the conventional way (by
 # using friction rather than speed limits to reduce speed in corners), set the minimum and
@@ -780,7 +777,7 @@ max_corner_adjustment_factor_tram=70
 min_corner_adjustment_factor_tram=87
 min_direction_steps_tram=3
 max_direction_steps_tram=8
-curve_friction_factor_tram=0
+curve_friction_factor_tram=2
 
 max_corner_limit_monorail=425
 min_corner_limit_monorail=75

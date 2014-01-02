@@ -4009,7 +4009,9 @@ Large Double Deck Tram Trailer
 Steam-Tram
 Steam Tram
 Tram-Horses
-Horses
+Horses (double)
+tram-horse-single
+Horses (single)
 Blackpool-Original
 Blackpool Original
 Toastrack
@@ -5469,9 +5471,19 @@ Tarmac road (urban)
 Powerline
 High voltage transmission line
 TramTrack
-Tramway tracks
+Wrought iron tramway track (41lb/yard)
+tram_track-55lb
+Steel tramway track (55lb/yard)
+tram_track-75lb
+Steel tramway track (75lb/yard)
+tram_track-85lb
+Steel tramway track (85lb/yard)
+tram_track-92lb
+Steel tramway track (92lb/yard)
+tram_track-98lb
+Steel tramway track (98lb/yard)
 TramTrackHeavy
-Tramway tracks (heavyweight)
+Heavy rail compatible tramway tracks
 GrassTaxiway
 Grass taxiway
 taxiway
