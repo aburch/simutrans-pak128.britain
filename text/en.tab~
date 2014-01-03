@@ -3999,15 +3999,22 @@ LUL 1992 Tube Stock (rear DM)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
-Single Deck Tram Trailer
+Single deck tram car
 Small-2-Deck-Trailer
-Small Double Deck Tram Trailer
+Lightweight double deck tram car
 Medium-2-Deck-Trailer
-Medium Double Deck Tram Trailer
+Double deck tram car
+Medium-large-2-Deck-Trailer
+Double deck tram car (semi-enclosed)
 Large-2-Deck-Trailer
-Large Double Deck Tram Trailer
-Steam-Tram
-Steam Tram
+Double deck tram car (enclosed)
+Extra-large-2-Deck-Trailer
+Enlarged double deck tram car (enclosed)
+# DEPRECATED
+#Steam-Tram
+#Steam Tram
+kitson-standard-2
+Kitson Standard No. 2 tram engine 0-4-0
 Tram-Horses
 Horses (double)
 tram-horse-single
@@ -5480,6 +5487,8 @@ tram_track-85lb
 Steel tramway track (85lb/yard)
 tram_track-92lb
 Steel tramway track (92lb/yard)
+tram_track-98lb
+Steel tramway track (98lb/yard)
 TramTrackHeavy
 Heavy rail compatible tramway tracks
 GrassTaxiway
