@@ -9,7 +9,7 @@ speed=16
 # Extrapolated
 power=11
 tractive_effort=16
-copyright=James
+copyright=jamespetts
 intro_year=1882
 intro_month=11
 retire_year=1891
@@ -27,13 +27,6 @@ bidirectional=1
 way_constraint_prohibitive[0]=0
 
 Constraint[Prev][0]=none
-
-Constraint[Next][0]=1-Deck-Trailer
-Constraint[Next][1]=Medium-2-Deck-Trailer
-Constraint[Next][2]=Small-2-Deck-Trailer
-Constraint[Next][3]=Medium-large-2-Deck-Trailer
-Constraint[Next][4]=Large-2-Deck-Trailer
-Constraint[Next][5]=Extra-large-2-Deck-Trailer
 
 EmptyImage[E]=./images/kitson-standard-2.1.4
 EmptyImage[SE]=./images/kitson-standard-2.1.5

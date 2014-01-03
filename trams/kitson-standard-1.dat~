@@ -1,15 +1,15 @@
-# See Gladwin (vol. 1) pp. 66-67 for illustrations
+# See Gladwin (vol. 1) p. 65 for illustrations
 # and pp. 109-202 of vol. 3 and pp. 64-5 of vol. 1 for data.
 obj=vehicle
 waytype=tram_track
 name=kitson-standard-1
 engine_type=steam
 smoke=Steam
-speed=32
+speed=16
 # Extrapolated
 power=11
 tractive_effort=12
-copyright=James
+copyright=jamespetts
 intro_year=1879
 intro_month=6
 retire_year=1883
@@ -17,7 +17,10 @@ retire_month=1
 length=2
 
 weight=7.0
-axles=2
+# The below is desirable to force rounding up rather than rounding down of the axle
+# load and thus give a weight advantage to the Wilkinson engine.
+axle_load=4
+#axles=2
 cost=200000
 runningcost=85
 sound=-1

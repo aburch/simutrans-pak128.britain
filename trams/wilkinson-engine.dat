@@ -1,0 +1,42 @@
+# See Gladwin (vol. 1) p. 65 for illustrations
+# and pp. 109-202 of vol. 3 and pp. 64-5 of vol. 1 for data.
+obj=vehicle
+waytype=tram_track
+name=wilkinson-engine
+engine_type=steam
+smoke=Steam
+speed=16
+# Extrapolated
+power=13
+tractive_effort=9
+copyright=jamespetts
+intro_year=1881
+intro_month=1
+retire_year=1887
+retire_month=8
+length=2
+
+weight=5.5
+# The below is desirable to force rounding down rather than rounding up of the axle
+# load and thus give a weight advantage to the Wilkinson engine over the Kitson.
+axle_load=3
+#axles=2
+cost=230000
+runningcost=91
+sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
+way_constraint_prohibitive[0]=0
+
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/wilkinson-engine.1.4
+EmptyImage[SE]=./images/wilkinson-engine.1.5
+EmptyImage[S]=./images/wilkinson-engine.1.6
+EmptyImage[SW]=./images/wilkinson-engine.1.7
+EmptyImage[W]=./images/wilkinson-engine.1.0
+EmptyImage[NW]=./images/wilkinson-engine.1.1
+EmptyImage[N]=./images/wilkinson-engine.1.2
+EmptyImage[NE]=./images/wilkinson-engine.1.3
+
