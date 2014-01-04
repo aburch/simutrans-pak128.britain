@@ -1,7 +1,7 @@
 obj=vehicle
 name=tram-horse-single
 engine_type=bio
-speed=12
+speed=10
 power=1
 tractive_effort=1
 copyright=James
@@ -41,7 +41,7 @@ EmptyImage[NE]=./images/tram-horse-single.1.3
 obj=vehicle
 name=Tram-Horses
 engine_type=bio
-speed=12
+speed=10
 power=2
 tractive_effort=2
 copyright=James
@@ -62,11 +62,11 @@ years_before_maintenance_max_reached=75
 Constraint[Prev]=none
 way_constraint_prohibitive[0]=0
 
-Constraint[Next][0]=Large-2-Deck-Trailer
-Constraint[Next][1]=Small-2-Deck-Trailer
-Constraint[Next][2]=Medium-2-Deck-Trailer
-Constraint[Next][3]=1-Deck-Trailer
-Constraint[Next][4]=Medium-large-2-Deck-Trailer
+Constraint[Next][0]=1-Deck-Trailer
+Constraint[Next][1]=Medium-2-Deck-Trailer
+Constraint[Next][2]=Small-2-Deck-Trailer
+Constraint[Next][3]=Medium-large-2-Deck-Trailer
+Constraint[Next][4]=Large-2-Deck-Trailer
 Constraint[Next][5]=Tram-Horses
 
 EmptyImage[E]=./images/tram-horse-double.1.4
