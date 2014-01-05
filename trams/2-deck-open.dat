@@ -1,6 +1,7 @@
 # Based on the original 1899 Sheffield tram car:
 # http://farm7.static.flickr.com/6109/6253438679_b85f925917.jpg (illustration)
 # http://en.wikipedia.org/wiki/Tramcars_of_the_Sheffield_Tramway (data)
+# These seem to have been a common standard of tram car.
 obj=vehicle
 name=2-Deck-Open
 engine_type=electric
@@ -36,20 +37,42 @@ max_loading_time=45
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/2-deck-open.1.4
-EmptyImage[SE]=./images/2-deck-open.1.5
-EmptyImage[S]=./images/2-deck-open.1.6
-EmptyImage[SW]=./images/2-deck-open.1.7
-EmptyImage[W]=./images/2-deck-open.1.0
-EmptyImage[NW]=./images/2-deck-open.1.1
-EmptyImage[N]=./images/2-deck-open.1.2
-EmptyImage[NE]=./images/2-deck-open.1.3
+liverytype[0]=Sheffield-dark
+liverytype[1]=Sheffield-light
 
-FreightImage[E]=./images/2-deck-open-loaded.1.4
-FreightImage[SE]=./images/2-deck-open-loaded.1.5
-FreightImage[S]=./images/2-deck-open-loaded.1.6
-FreightImage[SW]=./images/2-deck-open-loaded.1.7
-FreightImage[W]=./images/2-deck-open-loaded.1.0
-FreightImage[NW]=./images/2-deck-open-loaded.1.1
-FreightImage[N]=./images/2-deck-open-loaded.1.2
-FreightImage[NE]=./images/2-deck-open-loaded.1.3
+EmptyImage[E][0]=./images/2-deck-open-dark.1.4
+EmptyImage[SE][0]=./images/2-deck-open-dark.1.5
+EmptyImage[S][0]=./images/2-deck-open-dark.1.6
+EmptyImage[SW][0]=./images/2-deck-open-dark.1.7
+EmptyImage[W][0]=./images/2-deck-open-dark.1.0
+EmptyImage[NW][0]=./images/2-deck-open-dark.1.1
+EmptyImage[N][0]=./images/2-deck-open-dark.1.2
+EmptyImage[NE][0]=./images/2-deck-open-dark.1.3
+
+FreightImage[E][0]=./images/2-deck-open-dark-loaded.1.4
+FreightImage[SE][0]=./images/2-deck-open-dark-loaded.1.5
+FreightImage[S][0]=./images/2-deck-open-dark-loaded.1.6
+FreightImage[SW][0]=./images/2-deck-open-dark-loaded.1.7
+FreightImage[W][0]=./images/2-deck-open-dark-loaded.1.0
+FreightImage[NW][0]=./images/2-deck-open-dark-loaded.1.1
+FreightImage[N][0]=./images/2-deck-open-dark-loaded.1.2
+FreightImage[NE][0]=./images/2-deck-open-dark-loaded.1.3
+
+EmptyImage[E][1]=./images/2-deck-open.1.4
+EmptyImage[SE][1]=./images/2-deck-open.1.5
+EmptyImage[S][1]=./images/2-deck-open.1.6
+EmptyImage[SW][1]=./images/2-deck-open.1.7
+EmptyImage[W][1]=./images/2-deck-open.1.0
+EmptyImage[NW][1]=./images/2-deck-open.1.1
+EmptyImage[N][1]=./images/2-deck-open.1.2
+EmptyImage[NE][1]=./images/2-deck-open.1.3
+
+FreightImage[E][1]=./images/2-deck-open-loaded.1.4
+FreightImage[SE][1]=./images/2-deck-open-loaded.1.5
+FreightImage[S][1]=./images/2-deck-open-loaded.1.6
+FreightImage[SW][1]=./images/2-deck-open-loaded.1.7
+FreightImage[W][1]=./images/2-deck-open-loaded.1.0
+FreightImage[NW][1]=./images/2-deck-open-loaded.1.1
+FreightImage[N][1]=./images/2-deck-open-loaded.1.2
+FreightImage[NE][1]=./images/2-deck-open-loaded.1.3
+

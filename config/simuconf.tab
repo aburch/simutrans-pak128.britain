@@ -1384,7 +1384,7 @@ livery[30][0] = BW-Standard
 intro_year[30][0] = 1948
 intro_month[30][0] = 1
 
-ivery_scheme[31] = Scotrail
+livery_scheme[31] = Scotrail
 retire_year[31] = 2500
 retire_month[31] = 1
 livery[31][0] = Scotrail-original
@@ -1399,3 +1399,44 @@ intro_month[31][2] = 10
 livery[31][3] = Scotrail-Saltire
 intro_year[31][3] = 2010
 intro_month[31][3] = 6
+
+livery_scheme[32] = Blackpool
+retire_year[32] = 2500
+retire_month[32] = 1
+livery[32][0] = Blackpool-red
+intro_year[32][0] = 1890
+intro_month[32][0] = 4
+livery[32][1] = Blackpool-green
+intro_year[32][1] = 1933
+intro_month[32][1] = 3
+livery[32][2] = Blackpool-green-postwar
+intro_year[32][2] = 1945
+intro_month[32][2] = 7
+livery[32][3] = Blackpool-purple
+intro_year[32][3] = 2012
+intro_month[32][3] = 4
+
+livery_scheme[33] = Sheffield
+retire_year[33] = 2500
+retire_month[33] = 1
+livery[33][0] = Sheffield-dark
+intro_year[33][0] = 1896
+intro_month[33][0] = 4
+livery[33][1] = Sheffield-light
+intro_year[33][1] = 1936
+intro_month[33][1] = 2
+livery[33][2] = Sheffield-modern
+intro_year[33][2] = 1994
+intro_month[33][2] = 3
+
+livery_scheme[34] = LCC
+retire_year[34] = 1933
+retire_month[34] = 7
+livery[34][0] = LCC-plum
+intro_year[34][0] = 1896
+intro_month[34][0] = 4
+livery[34][1] = LCC-red
+intro_year[34][1] = 1926
+intro_month[34][1] = 3
+
+
