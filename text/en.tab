@@ -3999,17 +3999,17 @@ LUL 1992 Tube Stock (rear DM)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
-Single deck tram car
+Starbuck single deck tram car
 Small-2-Deck-Trailer
-Lightweight double deck tram car
+Starbuck lightweight double deck tram car
 Medium-2-Deck-Trailer
-Double deck tram car
+Starbuck double deck tram car
 Medium-large-2-Deck-Trailer
-Double deck tram car (semi-enclosed)
+Starbuck double deck tram car (semi-enclosed)
 Large-2-Deck-Trailer
-Double deck tram car (enclosed)
+Starbuck double deck tram car (enclosed)
 Extra-large-2-Deck-Trailer
-Enlarged double deck tram car (enclosed)
+Milnes enlarged double deck tram car (enclosed)
 # DEPRECATED
 #Steam-Tram
 #Steam Tram
@@ -4075,6 +4075,8 @@ Sheffield-Roberts
 Sheffield Roberts
 sheffield-preston
 Sheffield Corpn. double deck "Preston" tram
+sheffield-rocker-panel
+Sheffield Corpn. double deck "Rocker panel" tram
 sheffield-standard
 Sheffield Corpn. double deck "Standard" tram
 Blackpool-Jubilee
@@ -4083,6 +4085,22 @@ Flexity-SwiftFront
 Flexity Swift
 Flexity-SwiftRear
 Flexity Swift (rear)
+lcc-a-class
+London County Council double deck A class tram
+lcc-c-class
+London County Council double deck C class tram
+lcc-e-class
+London County Council double deck E class tram
+lcc-e1-class
+London County Council double deck E/1 class tram
+lcc-e3-class
+London County Council double deck E/3 class tram
+lcc-g-class
+London County Council single deck G class tram
+lcc-m-class
+London County Council double deck M class tram
+lcc-hr2-class
+London County Council double deck HR2 class tram
 #____________________________________road-vehicle____________________________________
 #____________________________________road-vehicle____________________________________
 Leyland_Cub(LT-Green)

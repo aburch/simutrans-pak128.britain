@@ -17,9 +17,9 @@ freight=Passagiere
 payload=78
 overcrowded_capacity=6
 
-weight=22
+weight=17.5
 axles=4
-cost=400000
+cost=415000
 runningcost=65
 sound=-1
 
@@ -27,9 +27,9 @@ can_lead_from_rear=0
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
-comfort=41
+comfort=37
 min_loading_time=10
-max_loading_time=60
+max_loading_time=67
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

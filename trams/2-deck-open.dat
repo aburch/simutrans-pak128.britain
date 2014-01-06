@@ -20,14 +20,14 @@ payload=51
 overcrowded_capacity=5
 length=5
 
-weight=15
+weight=10
 axles=2
 cost=360000
 runningcost=52
 sound=-1
 
-can_lead_from_rear=1
-bidirectional=1
+can_lead_from_rear=0
+bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 comfort=33
