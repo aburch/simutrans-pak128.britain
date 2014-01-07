@@ -4010,9 +4010,8 @@ Large-2-Deck-Trailer
 Starbuck double deck tram car (enclosed)
 Extra-large-2-Deck-Trailer
 Milnes enlarged double deck tram car (enclosed)
-# DEPRECATED
-#Steam-Tram
-#Steam Tram
+Steam-Tram
+DEPRECATED
 kitson-standard-1
 Kitson Standard No. 1 tram engine 0-4-0
 kitson-standard-2
@@ -4056,7 +4055,7 @@ Blackpool Centenary
 2-Deck-Open
 Sheffield Corpn. double deck tram
 2-Deck-Closed
-Double Deck Closed-top Tram
+DEPRECATED
 Blackpool-Standard
 Blackpool Standard
 NET-Bombardier-Incentro(Front)
@@ -4075,6 +4074,8 @@ Sheffield-Roberts
 Sheffield Roberts
 sheffield-preston
 Sheffield Corpn. double deck "Preston" tram
+sheffield-rocker-panel
+Sheffield Corpn. double deck "Rocker panel" tram
 sheffield-standard
 Sheffield Corpn. double deck "Standard" tram
 Blackpool-Jubilee
@@ -4099,6 +4100,8 @@ lcc-m-class
 London County Council double deck M class tram
 lcc-hr2-class
 London County Council double deck HR2 class tram
+lut-type-z
+London United double deck type Z tram
 #____________________________________road-vehicle____________________________________
 #____________________________________road-vehicle____________________________________
 Leyland_Cub(LT-Green)
@@ -6008,3 +6011,5 @@ Sheffield
 Sheffield Corpn.
 LCC
 London County Council
+LUT
+London United

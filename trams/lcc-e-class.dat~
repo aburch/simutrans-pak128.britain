@@ -25,6 +25,8 @@ cost=411000
 runningcost=59
 sound=-1
 
+upgrade[0]=lcc-e3-class
+
 can_lead_from_rear=0
 bidirectional=0
 way_constraint_permissive[0]=1
@@ -42,8 +44,8 @@ Constraint[Next][1]=none
 # They were very similar, but must have been at least
 # slightly different. Using the same graphics for now.
 
-liverytype[1]=LCC-plum
-liverytype[0]=LCC-red
+liverytype[0]=LCC-plum
+liverytype[1]=LCC-red
 liverytype[2]=LT
 
 EmptyImage[E][0]=./images/lcc-e-class.1.4

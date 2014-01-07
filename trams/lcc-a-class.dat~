@@ -17,7 +17,7 @@ payload=66
 overcrowded_capacity=6
 length=5
 
-weight=18.4
+weight=12.5
 axles=4
 cost=395000
 runningcost=58
@@ -40,8 +40,8 @@ Constraint[Next][1]=none
 # They were very similar, but must have been at least
 # slightly different. Using the same graphics for now.
 
-liverytype[1]=LCC-plum
-liverytype[0]=LCC-red
+liverytype[0]=LCC-plum
+liverytype[1]=LCC-red
 liverytype[2]=LT
 
 EmptyImage[E][0]=./images/lcc-a-class.1.4

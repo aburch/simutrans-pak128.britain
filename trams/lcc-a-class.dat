@@ -32,16 +32,16 @@ comfort=35
 min_loading_time=10
 max_loading_time=60
 
-Constraint[Prev][1]=none
-Constraint[Next][1]=none
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
 
 # I cannot find information as to the differences between
 # the LCC red livery of post 1926 and the LPTB livery.
 # They were very similar, but must have been at least
 # slightly different. Using the same graphics for now.
 
-liverytype[1]=LCC-plum
-liverytype[0]=LCC-red
+liverytype[0]=LCC-plum
+liverytype[1]=LCC-red
 liverytype[2]=LT
 
 EmptyImage[E][0]=./images/lcc-a-class.1.4

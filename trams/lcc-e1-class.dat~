@@ -19,30 +19,16 @@ overcrowded_capacity=6
 length=5
 
 weight=16.5
-axles=4
-cost=420000
-runningcost=60
-sound=-1
-
-can_lead_from_rear=0
-bidirectional=0
-way_constraint_permissive[0]=1
-way_constraint_prohibitive[1]=0
-# Bogies and fully enclosed upper deck
-comfort=38
-min_loading_time=11
-max_loading_time=67
-
-Constraint[Prev][1]=none
-Constraint[Next][1]=none
+axles=4Constraint[Prev][0]=none
+Constraint[Next][0]=none
 
 # I cannot find information as to the differences between
 # the LCC red livery of post 1926 and the LPTB livery.
 # They were very similar, but must have been at least
 # slightly different. Using the same graphics for now.
 
-liverytype[1]=LCC-plum
-liverytype[0]=LCC-red
+liverytype[0]=LCC-plum
+liverytype[1]=LCC-red
 liverytype[2]=LT
 
 EmptyImage[E][0]=./images/lcc-e1-class.1.4

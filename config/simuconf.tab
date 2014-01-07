@@ -1439,4 +1439,13 @@ livery[34][1] = LCC-red
 intro_year[34][1] = 1926
 intro_month[34][1] = 3
 
+livery_scheme[35] = LUT
+retire_year[35] = 1933
+retire_month[35] = 7
+# There were other liveries before vermillion, but information on them is scarce.
+# Vermillion was actally introduced in 1909.
+livery[35][0] = LUT-vermillion
+intro_year[35][0] = 1900
+intro_month[35][0] = 1
+
 
