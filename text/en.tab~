@@ -4010,8 +4010,6 @@ Large-2-Deck-Trailer
 Starbuck double deck tram car (enclosed)
 Extra-large-2-Deck-Trailer
 Milnes enlarged double deck tram car (enclosed)
-Steam-Tram
-DEPRECATED
 kitson-standard-1
 Kitson Standard No. 1 tram engine 0-4-0
 kitson-standard-2
@@ -4032,58 +4030,44 @@ Blackpool-Original
 Blackpool Electric Tramway Co. double deck tram
 Toastrack
 Blackpool & Fleetwood single deck "toastrack" tram
-1-Deck-Closed
-Sheffield Corpn. single deck tram
-Blackpool-Brush
-Blackpool Brush
-Blackpool-ProgressTwin-Power
-Blackpool Progress Twin
-Blackpool-ProgressTwin-Trailer
-Blackpool Progress Twin (trailer)
-Blackpool-Coronation
-Blackpool Coronation
-Sheffield-Supertram(Front)
-Sheffield Supertram
-Sheffield-Supertram(Middle)
-Sheffield Supertram (centre)
-Sheffield-Supertram(Rear)
-Sheffield Supertram (rear)
 Blackpool-Dreadnought
 Blackpool Corpn. double deck "Dreadnought" tram
+Blackpool-Standard
+Blackpool Corpn. double deck "Standard" tram
+Blackpool-Balloon
+Blackpool Corpn. double deck "Balloon" tram
+Blackpool-Brush
+Blackpool Corpn. single deck Brush railcoach
+Blackpool-Coronation
+Blackpool Corpn. "Cornoation" railcoach
+Blackpool-ProgressTwin-Power
+Blackpool Corpn. Progress twin railcoach
+Blackpool-ProgressTwin-Trailer
+Blackpool Corpn. Progress twin railcoach (trailer)
+Blackpool-Jubilee
+Blackpool Corpn. double deck "Jubilee" tram
 Blackpool-Centenary
-Blackpool Centenary
+Blackpool Corpn. single deck "Centenary" tram
+Blackpool-Millenium
+Blackpool Corpn. double deck "Millennium" tram
 2-Deck-Open
 Sheffield Corpn. double deck tram
-2-Deck-Closed
-DEPRECATED
-Blackpool-Standard
-Blackpool Standard
-NET-Bombardier-Incentro(Front)
-NET Bombardier Incentro
-NET-Bombardier-Incentro(Rear)
-NET Bombardier Incentro (rear)
-Blackpool-Balloon
-Blackpool Balloon
-Blackpool-Millenium
-Blackpool Millennium
-Metrolink-T86(Front)
-Metrolink T86
-Metrolink-T86(Rear)
-Metrolink T86 (rear)
-Sheffield-Roberts
-Sheffield Roberts
+1-Deck-Closed
+Sheffield Corpn. single deck tram
 sheffield-preston
 Sheffield Corpn. double deck "Preston" tram
 sheffield-rocker-panel
 Sheffield Corpn. double deck "Rocker panel" tram
 sheffield-standard
 Sheffield Corpn. double deck "Standard" tram
-Blackpool-Jubilee
-Blackpool Jubilee
-Flexity-SwiftFront
-Flexity Swift
-Flexity-SwiftRear
-Flexity Swift (rear)
+Sheffield-Roberts
+Sheffield Corpn. double deck "Roberts" tram
+Sheffield-Supertram(Front)
+Sheffield Supertram
+Sheffield-Supertram(Middle)
+Sheffield Supertram (centre)
+Sheffield-Supertram(Rear)
+Sheffield Supertram (rear)
 lcc-a-class
 London County Council double deck A class tram
 lcc-c-class
@@ -4102,6 +4086,26 @@ lcc-hr2-class
 London County Council double deck HR2 class tram
 lut-type-z
 London United double deck type Z tram
+lut-type-t
+London United double deck type T tram
+feltham
+London United double deck "Feltham" tram
+Flexity-SwiftFront
+Flexity Swift
+Flexity-SwiftRear
+Flexity Swift (rear)
+Metrolink-T86(Front)
+Metrolink T68
+Metrolink-T86(Rear)
+Metrolink T68 (rear)
+NET-Bombardier-Incentro(Front)
+Bombardier Incentro
+NET-Bombardier-Incentro(Rear)
+Bombardier Incentro (rear)
+2-Deck-Closed
+DEPRECATED
+Steam-Tram
+DEPRECATED
 #____________________________________road-vehicle____________________________________
 #____________________________________road-vehicle____________________________________
 Leyland_Cub(LT-Green)

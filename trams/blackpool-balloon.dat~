@@ -8,6 +8,7 @@ speed=65
 gear=80
 # http://en.wikipedia.org/wiki/English_Electric_Balloon_tram
 power=86
+tractive=effort=32
 copyright=James
 intro_year=1934
 intro_month=12
@@ -18,6 +19,7 @@ freight=Passagiere
 payload=78
 overcrowded_capacity=8
 
+# Found in an unverified source.
 weight=17.5
 axles=4
 cost=600000
@@ -30,8 +32,8 @@ way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 
 comfort=49
-min_loading_time=17
-max_loading_time=65
+min_loading_time=12
+max_loading_time=67
 increase_maintenance_after_years=30
 
 upgrade[0]=Blackpool-Jubilee

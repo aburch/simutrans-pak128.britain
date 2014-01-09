@@ -2,7 +2,7 @@
 obj=vehicle
 name=lcc-hr2-class
 engine_type=electric
-speed=32
+speed=50
 gear=80
 # 4x 35hp motors (guessed): the caption to this photograph: http://www.flickr.com/photos/ingythewingy/11017240334/
 # suggests that they had 35hp motors; but this was the era of the 60hp motor *and* these trams were
@@ -48,6 +48,15 @@ Constraint[Next][0]=none
 liverytype[0]=LCC-red
 liverytype[1]=LT
 
+EmptyImage[E][0]=./images/lcc-hr2-class-red.1.4
+EmptyImage[SE][0]=./images/lcc-hr2-class-red.1.5
+EmptyImage[S][0]=./images/lcc-hr2-class-red.1.6
+EmptyImage[SW][0]=./images/lcc-hr2-class-red.1.7
+EmptyImage[W][0]=./images/lcc-hr2-class-red.1.0
+EmptyImage[NW][0]=./images/lcc-hr2-class-red.1.1
+EmptyImage[N][0]=./images/lcc-hr2-class-red.1.2
+EmptyImage[NE][0]=./images/lcc-hr2-class-red.1.3
+
 EmptyImage[E][1]=./images/lcc-hr2-class-red.1.4
 EmptyImage[SE][1]=./images/lcc-hr2-class-red.1.5
 EmptyImage[S][1]=./images/lcc-hr2-class-red.1.6
@@ -56,13 +65,4 @@ EmptyImage[W][1]=./images/lcc-hr2-class-red.1.0
 EmptyImage[NW][1]=./images/lcc-hr2-class-red.1.1
 EmptyImage[N][1]=./images/lcc-hr2-class-red.1.2
 EmptyImage[NE][1]=./images/lcc-hr2-class-red.1.3
-
-EmptyImage[E][2]=./images/lcc-hr2-class-red.1.4
-EmptyImage[SE][2]=./images/lcc-hr2-class-red.1.5
-EmptyImage[S][2]=./images/lcc-hr2-class-red.1.6
-EmptyImage[SW][2]=./images/lcc-hr2-class-red.1.7
-EmptyImage[W][2]=./images/lcc-hr2-class-red.1.0
-EmptyImage[NW][2]=./images/lcc-hr2-class-red.1.1
-EmptyImage[N][2]=./images/lcc-hr2-class-red.1.2
-EmptyImage[NE][2]=./images/lcc-hr2-class-red.1.3
 

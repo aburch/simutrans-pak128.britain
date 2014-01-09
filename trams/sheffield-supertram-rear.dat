@@ -1,9 +1,13 @@
 obj=vehicle
 name=Sheffield-Supertram(Rear)
 speed=80
+gear=80
+# http://en.wikipedia.org/wiki/Siemens-Duewag_Supertram
+power=554
+tractive_effort=55
 copyright=James
-intro_year=1994
-intro_month=4
+intro_year=1992
+intro_month=12
 retire_year=2005
 retire_month=10
 waytype=tram_track
@@ -11,10 +15,10 @@ freight=Passagiere
 payload=32
 length=6
 overcrowded_capacity=52
-weight=15
+weight=15.5
 axles=4
-cost=360000
-runningcost=12
+cost=0
+runningcost=0
 sound=-1
 
 can_lead_from_rear=1

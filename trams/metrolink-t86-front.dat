@@ -2,8 +2,10 @@ obj=vehicle
 name=Metrolink-T86(Front)
 engine_type=electric
 speed=80
-#gear=220
-power=140
+gear=80
+# http://en.wikipedia.org/wiki/T-68
+power=210
+tractive_effort=40
 copyright=James
 intro_year=1992
 intro_month=1
@@ -11,12 +13,16 @@ retire_year=2000
 retire_month=8
 waytype=tram_track
 freight=Passagiere
+# http://en.wikipedia.org/wiki/T-68
+# This gives "per vehicle" specifications, which can only
+# sensibly mean per set of two, as 45t each is insane,
+# likewise the capacity.
 payload=41
-overcrowded_capacity=59
-weight=18
+overcrowded_capacity=58
+weight=22.5
 axles=4
-cost=400000
-runningcost=20
+cost=800000
+runningcost=60
 sound=-1
 
 can_lead_from_rear=1
@@ -32,12 +38,12 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=Metrolink-T86(Rear)
 
-EmptyImage[E]=./images/metrolink-t86.0.0
-EmptyImage[SE]=./images/metrolink-t86.0.1
-EmptyImage[S]=./images/metrolink-t86.0.2
-EmptyImage[SW]=./images/metrolink-t86.0.3
-EmptyImage[W]=./images/metrolink-t86.0.4
-EmptyImage[NW]=./images/metrolink-t86.0.5
-EmptyImage[N]=./images/metrolink-t86.0.6
-EmptyImage[NE]=./images/metrolink-t86.0.7
+EmptyImage[E]=./images/metrolink-t68-front.1.4
+EmptyImage[SE]=./images/metrolink-t68-front.1.5
+EmptyImage[S]=./images/metrolink-t68-front.1.6
+EmptyImage[SW]=./images/metrolink-t68-front.1.7
+EmptyImage[W]=./images/metrolink-t68-front.1.0
+EmptyImage[NW]=./images/metrolink-t68-front.1.1
+EmptyImage[N]=./images/metrolink-t68-front.1.2
+EmptyImage[NE]=./images/metrolink-t68-front.1.3
 

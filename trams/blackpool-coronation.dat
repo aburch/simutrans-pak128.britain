@@ -1,9 +1,11 @@
 obj=vehicle
 name=Blackpool-Coronation
 engine_type=electric
-speed=75
+speed=70
 gear=80
-power=130
+# Guessed
+power=50
+tractive=effort=25
 copyright=James
 intro_year=1953
 intro_month=6
@@ -11,37 +13,37 @@ retire_year=1958
 retire_month=5
 waytype=tram_track
 freight=Passagiere
-payload=60
-overcrowded_capacity=11
-weight=20
+# http://www.sct61.org.uk/bp306
+payload=56
+overcrowded_capacity=10
+weight=12
 axles=4
-cost=360000
-runningcost=178
+cost=560000
+runningcost=138
 sound=-1
 
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 
-comfort=47
-min_loading_time=17
+comfort=48
+min_loading_time=10
 max_loading_time=45
 
 can_lead_from_rear=1
 bidirectional=1
 
-increase_maintenance_after_years=4
+increase_maintenance_after_years=5
 years_before_maintenance_max_reached=12
 
 Constraint[Prev][0]=none
-
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/blackpool-coronation.0.0
-EmptyImage[SE]=./images/blackpool-coronation.0.1
-EmptyImage[S]=./images/blackpool-coronation.0.2
-EmptyImage[SW]=./images/blackpool-coronation.0.3
-EmptyImage[W]=./images/blackpool-coronation.0.4
-EmptyImage[NW]=./images/blackpool-coronation.0.5
-EmptyImage[N]=./images/blackpool-coronation.0.6
-EmptyImage[NE]=./images/blackpool-coronation.0.7
+EmptyImage[E]=./images/blackpool-coronation.1.4
+EmptyImage[SE]=./images/blackpool-coronation.1.5
+EmptyImage[S]=./images/blackpool-coronation.1.6
+EmptyImage[SW]=./images/blackpool-coronation.1.7
+EmptyImage[W]=./images/blackpool-coronation.1.0
+EmptyImage[NW]=./images/blackpool-coronation.1.1
+EmptyImage[N]=./images/blackpool-coronation.1.2
+EmptyImage[NE]=./images/blackpool-coronation.1.3
 
