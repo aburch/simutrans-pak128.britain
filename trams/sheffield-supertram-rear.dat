@@ -29,15 +29,14 @@ min_loading_time=15
 max_loading_time=40
 
 Constraint[Prev][0]=Sheffield-Supertram(Middle)
-
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/sheffield-supertram.1.0
-EmptyImage[SE]=./images/sheffield-supertram.1.1
-EmptyImage[S]=./images/sheffield-supertram.1.2
-EmptyImage[SW]=./images/sheffield-supertram.1.3
-EmptyImage[W]=./images/sheffield-supertram.1.4
-EmptyImage[NW]=./images/sheffield-supertram.1.5
-EmptyImage[N]=./images/sheffield-supertram.1.6
-EmptyImage[NE]=./images/sheffield-supertram.1.7
+EmptyImage[E]=./images/sheffield-supertram-rear.1.4
+EmptyImage[SE]=./images/sheffield-supertram-rear.1.5
+EmptyImage[S]=./images/sheffield-supertram-rear.1.6
+EmptyImage[SW]=./images/sheffield-supertram-rear.1.7
+EmptyImage[W]=./images/sheffield-supertram-rear.1.0
+EmptyImage[NW]=./images/sheffield-supertram-rear.1.1
+EmptyImage[N]=./images/sheffield-supertram-rear.1.2
+EmptyImage[NE]=./images/sheffield-supertram-rear.1.3
 
