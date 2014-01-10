@@ -5,11 +5,12 @@ speed=65
 gear=80
 # http://en.wikipedia.org/wiki/Blackpool_tramway#Boat_cars
 power=60
+tractive=effort=23
 copyright=James
-intro_year=1934
-intro_month=4
-retire_year=1953
-retire_month=6
+intro_year=1937
+intro_month=6
+retire_year=1938
+retire_month=9
 waytype=tram_track
 freight=Passagiere
 # http://www.britishtramsonline.co.uk/blackpoolfleet.doc
@@ -30,7 +31,8 @@ min_loading_time=10
 max_loading_time=50
 increase_maintenance_after_years=30
 
-# This was actually the English Electric railcoaches, but we do not have these yet.
+# This was actually the English Electric railcoaches, 
+# but these were so similar that they should also in principle be upgradeable.
 upgrade[0]=Blackpool-ProgressTwin-Power
 
 Constraint[Prev][0]=none
