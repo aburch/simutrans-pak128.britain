@@ -3113,9 +3113,9 @@ LBSCR K Class "Brighton Mogul" 2-6-0
 LBSCR-non-cor-lav
 LBSCR six compartment lavatory carriage
 LBSCR-non-cor-lav-brake-rear
-LBSCR four compartment lavatory brake carriage
-LBSCR-non-cor-lav-brake-front
 LBSCR four compartment lavatory brake carriage (rear)
+LBSCR-non-cor-lav-brake-front
+LBSCR four compartment lavatory brake carriage
 LNWR-Jumbo
 LNWR "Jumbo" Class 2-4-0
 LNWR-Jumbo-Tender
@@ -5522,15 +5522,15 @@ Powerline
 High voltage transmission line
 TramTrack
 Wrought iron tramway track (41lb/yard)
-tram_track-55lb
+TramTrack-55lb
 Steel tramway track (55lb/yard)
-tram_track-75lb
+TramTrack-75lb
 Steel tramway track (75lb/yard)
-tram_track-85lb
+TramTrackk-85lb
 Steel tramway track (85lb/yard)
-tram_track-92lb
+TramTrack-92lb
 Steel tramway track (92lb/yard)
-tram_track-98lb
+TramTrack-98lb
 Steel tramway track (98lb/yard)
 TramTrackHeavy
 Heavy rail compatible tramway tracks

@@ -25,7 +25,7 @@ runningcost=2100
 sound=-1
 
 upgrade[0]=LBSCR-B4x
-Constraint[Next][0]=LBSCR-B4-Tender
+Constraint[Next][0]=LBSCR-B4-tender
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -102,7 +102,7 @@ retire_month=11
 waytype=track
 freight=None
 payload=0
-length=3
+length=4
 
 weight=32
 axles=3

@@ -36,8 +36,8 @@ ImageUp[12][0]=./images/tram_track-41lb.0.5
 -----
 Obj=way
 # 55lb/yrd
-Name=TramTrack
-waytype=tram_track-55lb
+Name=TramTrack-55lb
+waytype=tram_track
 cost=65000
 maintenance=450
 topspeed=14
@@ -72,8 +72,8 @@ ImageUp[12][0]=./images/tram_track-55lb.0.5
 -----
 Obj=way
 # 75lb/yrd
-Name=TramTrack
-waytype=tram_track-75lb
+Name=TramTrack-75lb
+waytype=tram_track
 cost=80000
 maintenance=525
 topspeed=16
@@ -108,8 +108,8 @@ ImageUp[12][0]=./images/tram_track-75lb.0.5
 -----
 Obj=way
 # 85lb/yrd
-Name=TramTrack
-waytype=tram_track-85lb
+Name=TramTrack-85lb
+waytype=tram_track
 cost=107500
 maintenance=485
 topspeed=24
@@ -144,8 +144,8 @@ ImageUp[12][0]=./images/tram_track-85lb.0.5
 -----
 Obj=way
 # 92lb/yrd
-Name=TramTrack
-waytype=tram_track-92lb
+Name=TramTrack-92lb
+waytype=tram_track
 cost=120000
 maintenance=600
 topspeed=32
@@ -180,8 +180,8 @@ ImageUp[12][0]=./images/tram_track-92lb.0.5
 -----
 Obj=way
 # 98lb/yrd
-Name=TramTrack
-waytype=tram_track-98lb
+Name=TramTrack-98lb
+waytype=tram_track
 cost=300000
 maintenance=700
 topspeed=50

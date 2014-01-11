@@ -73,8 +73,8 @@ comfort=46
 min_loading_time=10
 max_loading_time=45
 
-Constraint[Prev][0]=none
-Constraint[Next][0]=Bombardier-Flexity-2-front
+Constraint[Prev][0]=Bombardier-Flexity-2-front
+Constraint[Next][0]=none
 
 EmptyImage[E]=./images/bombardier-flexity-2-rear.1.4
 EmptyImage[SE]=./images/bombardier-flexity-2-rear.1.5
