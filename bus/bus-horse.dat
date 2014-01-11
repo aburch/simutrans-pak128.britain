@@ -14,7 +14,7 @@ length=2
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=50
 
-weight=1
+weight=1.4
 axle_load=0
 cost=100000
 runningcost=26
@@ -43,7 +43,7 @@ retire_month=3
 waytype=road
 length=2
 
-weight=1
+weight=0.7
 axle_load=0
 cost=50000
 runningcost=13
