@@ -4,17 +4,18 @@ obj=vehicle
 waytype=tram_track
 name=kitson-standard-1
 engine_type=steam
-smoke=Steam
+# These had effective condensers
+#smoke=Steam
 speed=16
 # Extrapolated
-power=2
+power=4
 tractive_effort=12
 copyright=jamespetts
 intro_year=1879
 intro_month=6
 retire_year=1883
 retire_month=1
-length=2
+length=3
 
 weight=7.0
 # The below is desirable to force rounding up rather than rounding down of the axle

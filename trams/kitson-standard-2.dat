@@ -4,17 +4,18 @@ obj=vehicle
 waytype=tram_track
 name=kitson-standard-2
 engine_type=steam
-smoke=Steam
+# These had effective condensers
+#smoke=Steam
 speed=16
 # Extrapolated
-power=2
+power=4
 tractive_effort=16
 copyright=jamespetts
 intro_year=1882
 intro_month=11
 retire_year=1891
 retire_month=3
-length=2
+length=3
 
 weight=9.5
 axles=2

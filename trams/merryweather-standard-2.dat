@@ -3,9 +3,10 @@ obj=vehicle
 waytype=tram_track
 name=merryweather-standard-2
 engine_type=steam
-smoke=Steam
+# These had effective condensers
+#smoke=Steam
 speed=14
-# Extrapolated
+# Estimated (extrapolated value is 6, but this is so high as to be better than most other steam trams by a long way)
 power=4
 tractive_effort=7
 copyright=jamespetts
@@ -13,11 +14,11 @@ intro_year=1879
 intro_month=12
 retire_year=1890
 retire_month=5
-length=2
+length=3
 
 weight=5.0
 axles=2
-cost=205000
+cost=201000
 runningcost=89
 sound=-1
 

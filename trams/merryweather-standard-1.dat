@@ -4,9 +4,9 @@ waytype=tram_track
 name=merryweather-standard-1
 engine_type=steam
 smoke=Steam
-speed=14
-# Approximately deduced based on haulage ability
-power=2
+speed=12
+# Guessed
+power=1
 tractive_effort=6
 copyright=jamespetts
 intro_year=1875

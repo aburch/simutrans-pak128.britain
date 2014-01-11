@@ -3,10 +3,11 @@ obj=vehicle
 waytype=tram_track
 name=kitson-standard-3
 engine_type=steam
-smoke=Steam
+# These had effective condensers
+#smoke=Steam
 speed=16
 # Extrapolated
-power=3
+power=6
 tractive_effort=18
 copyright=jamespetts
 intro_year=1886
