@@ -1448,4 +1448,14 @@ livery[35][0] = LUT-vermillion
 intro_year[35][0] = 1900
 intro_month[35][0] = 1
 
+livery_scheme[36] = Tramlink
+retire_year[36] = 2500
+retire_month[36] = 1
+livery[36][0] = Tramlink-red
+intro_year[36][0] = 1998
+intro_month[36][0] = 3
+livery[36][1] = Tramlink-green
+intro_year[36][1] = 2006
+intro_month[36][1] = 5
+
 
