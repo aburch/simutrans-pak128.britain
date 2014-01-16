@@ -12,8 +12,10 @@ tractive_effort=60
 copyright=Kieron/JamesPetts
 intro_year=1873
 intro_month=11
-retire_year=1887
-retire_month=12
+# Extended to match introduction date of D3, as is otherwise a gap in
+# LBSCR suburban locomotives.
+retire_year=1892
+retire_month=7
 waytype=track
 freight=None
 payload=0
