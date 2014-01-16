@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-303Rear(CaledonianBlue)
+name=BR-303Rear
 engine_type=electric
 speed=120
 power=0
@@ -30,10 +30,14 @@ min_loading_time=15
 max_loading_time=55
 comfort=82
 
-Constraint[Prev][0]=BR-303Pantograph(CaledonianBlue)
+Constraint[Prev][0]=BR-303Pantograph
 
-Constraint[Next][0]=BR-303Front(CaledonianBlue)
-Constraint[Next][1]=none
+# Multiple working with BR classes 302-312:
+# http://en.wikipedia.org/wiki/British_Rail_Class_312
+Constraint[Next][0]=BR-312-BDTSOL
+Constraint[Next][1]=BR-304Front
+Constraint[Next][2]=BR-303Front
+Constraint[Next][3]=none
 
 EmptyImage[E]=./images/br-303-cb.2.0
 EmptyImage[SE]=./images/br-303-cb.2.1

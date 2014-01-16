@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-304Front(BR-Blue)
+name=BR-304Front
 engine_type=electric
 speed=120
 power=0
@@ -29,11 +29,15 @@ min_loading_time=15
 max_loading_time=45
 comfort=77
 
-Constraint[Prev][0]=BR-304Rear(BR-Blue)
-Constraint[Prev][1]=none
+# Multiple working with BR classes 302-312:
+# http://en.wikipedia.org/wiki/British_Rail_Class_312
+Constraint[Prev][0]=BR-312-DTCOL
+Constraint[Prev][1]=BR-304Rear
+Constraint[Prev][2]=BR-303Rear
+Constraint[Prev][3]=none
 
-Constraint[Next][0]=BR-304Centre-Trailer(BR-Blue)
-Constraint[Next][1]=BR-304Centre-Motor(BR-Blue)
+Constraint[Next][0]=BR-304Centre-Trailer
+Constraint[Next][1]=BR-304Centre-Motor
 
 EmptyImage[E]=./images/br-304-bg.0.0
 EmptyImage[SE]=./images/br-304-bg.0.1
@@ -47,7 +51,7 @@ EmptyImage[NE]=./images/br-304-bg.0.7
 ----
 
 obj=vehicle
-name=BR-304Centre-Trailer(BR-Blue)
+name=BR-304Centre-Trailer
 engine_type=electric
 speed=120
 power=0
@@ -77,9 +81,9 @@ min_loading_time=15
 max_loading_time=45
 comfort=77
 
-Constraint[Prev][0]=BR-304Front(BR-Blue)
+Constraint[Prev][0]=BR-304Front
 
-Constraint[Next][0]=BR-304Centre-Motor(BR-Blue)
+Constraint[Next][0]=BR-304Centre-Motor
 
 EmptyImage[E]=./images/br-304-bg.1.0
 EmptyImage[SE]=./images/br-304-bg.1.1
@@ -93,7 +97,7 @@ EmptyImage[NE]=./images/br-304-bg.1.7
 ----
 
 obj=vehicle
-name=BR-304Centre-Motor(BR-Blue)
+name=BR-304Centre-Motor
 engine_type=electric
 speed=120
 power=618
@@ -125,10 +129,10 @@ min_loading_time=15
 max_loading_time=45
 comfort=77
 
-Constraint[Prev][0]=BR-304Front(BR-Blue)
-Constraint[Prev][1]=BR-304Centre-Trailer(BR-Blue)
+Constraint[Prev][0]=BR-304Front
+Constraint[Prev][1]=BR-304Centre-Trailer
 
-Constraint[Next][0]=BR-304Rear(BR-Blue)
+Constraint[Next][0]=BR-304Rear
 
 EmptyImage[E]=./images/br-304-bg.2.0
 EmptyImage[SE]=./images/br-304-bg.2.1
@@ -142,7 +146,7 @@ EmptyImage[NE]=./images/br-304-bg.2.7
 ----
 
 obj=vehicle
-name=BR-304Rear(BR-Blue)
+name=BR-304Rear
 engine_type=electric
 speed=120
 power=0
@@ -172,10 +176,14 @@ min_loading_time=15
 max_loading_time=45
 comfort=77
 
-Constraint[Prev][0]=BR-304Centre-Motor(BR-Blue)
+Constraint[Prev][0]=BR-304Centre-Motor
 
-Constraint[Next][0]=BR-304Front(BR-Blue)
-Constraint[Next][1]=none
+# Multiple working with BR classes 302-312:
+# http://en.wikipedia.org/wiki/British_Rail_Class_312
+Constraint[Next][0]=BR-312-BDTSOL
+Constraint[Next][1]=BR-304Front
+Constraint[Next][2]=BR-303Front
+Constraint[Next][3]=none
 
 EmptyImage[E]=./images/br-304-bg-rear.0.0
 EmptyImage[SE]=./images/br-304-bg-rear.0.1

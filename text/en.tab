@@ -2594,11 +2594,11 @@ BR-158Middle(Regional)
 BR Class 158 "Express Sprinter" DMU (centre)
 BR-158Rear(Regional)
 BR Class 158 "Express Sprinter" DMU (rear)
-BR-303Front(CaledonianBlue)
+BR-303Front
 BR Class 303 EMU
-BR-303Pantograph(CaledonianBlue)
+BR-303Pantograph
 BR Class 303 EMU (pantograph)
-BR-303Rear(CaledonianBlue)
+BR-303Rear
 BR Class 303 EMU (rear)
 BR-153(Regional)
 BR Class 153 "Super-Sprinter" DMU
@@ -2630,6 +2630,14 @@ BR-501(T)
 BR Class 501 EMU (centre)
 BR-501(DTB)
 BR Class 501 EMU (rear)
+BR-312-BDTSOL
+BR Class 312 EMU
+BR-312-MBSO
+BR Class 312 EMU (pantograph)
+BR-312-TSO
+BR Class 312 EMU (centre)
+BR-312-DTCOL
+BR Class 312 EMU (rear)
 BR-319Front(NSE)
 BR Class 319 EMU
 BR-319Engine(NSE)
@@ -3436,13 +3444,13 @@ BR-307(centre2)
 BR Class 307 EMU (centre trailer)
 BR-307(rear)
 BR Class 307 EMU (rear)
-BR-304Front(BR-Blue)
+BR-304Front
 BR Class 304 EMU
-BR-304Centre-Trailer(BR-Blue)
+BR-304Centre-Trailer
 BR Class 304 EMU (centre trailer)
-BR-304Centre-Motor(BR-Blue)
+BR-304Centre-Motor
 BR Class 304 EMU (centre motor)
-BR-304Rear(BR-Blue)
+BR-304Rear
 BR Class 304 EMU (driving trailer)
 BR-2MT-Tank
 BR Standard Class 2MT 2-6-2T
