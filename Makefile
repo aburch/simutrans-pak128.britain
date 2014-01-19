@@ -108,6 +108,9 @@ copy:
 	@echo "===> COPY"
 	@mkdir -p $(PAKDIR)/text $(PAKDIR)/text/citylists $(PAKDIR)/config
 	@cp -p compat.tab $(PAKDIR)
+	@cp -p demo.sve $(PAKDIR)
+	@cp -p licence.txt $(PAKDIR)
+	@cp -p readme.txt $(PAKDIR)
 	@cp -p config/* $(PAKDIR)/config
 #	@mkdir -p $(PAKDIR)/sound $(PAKDIR)/text $(PAKDIR)/config $(PAKDIR)/scenario
 #	@cp -p sound/* $(PAKDIR)/sound
