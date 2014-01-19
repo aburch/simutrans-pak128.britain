@@ -9,6 +9,7 @@ payload=54
 overcrowded_capacity=4
 speed=20
 power=28
+tractive_effort=5
 gear=50
 # http://books.google.co.uk/books?id=9_U9AAAAIAAJ&pg=PA89&lpg=PA89&dq=%22s+type%22+bus+tons&source=bl&ots=iPbhhBMC1M&sig=_aTg-lI1658ArAB8CBlrZrhVREE&hl=en&sa=X&ei=X_BOUdixG4Wr0AWZ4YG4CQ&ved=0CE0Q6AEwAw#v=onepage&q=%22s%20type%22%20bus%20tons&f=false
 weight=8
@@ -59,6 +60,7 @@ payload=29
 overcrowded_capacity=4
 speed=20
 power=25
+tractive_effort=5
 gear=50
 weight=6
 axles=2
