@@ -540,12 +540,11 @@ factory_worker_radius = 320
 # How much amount in transport is sent before further distribution stops
 # This is only enabled when "just_in_time" is enabled
 # The limit is given in percent of factory storage (0=off)
-#
-# This needs to be very high.  Many factories have low storage numbers (like 30)
-# and high production per month (like 600).  Long, slow ship routes can take 6 months
-# to cross the map.  To keep a steady flow, we need a setting like 6 * (600/30) * 100% = 12000.
-# Make it even larger to avoid breakage.
-maximum_intransit_percentage = 16000
+# 
+# This number is (as of Simutrans-Experimental 11.16) scaled to the ratio
+# of the time that it takes the industry to consume its stock to the average
+# lead time for new deliveries. Values of slightly over 100% are recommended.
+maximum_intransit_percentage = 110
 
 ################################## Finance settings #################################
 
