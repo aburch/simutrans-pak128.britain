@@ -694,6 +694,10 @@ COM_DB_1970_00_24
 Shops & Offices
 ModernHospital
 Hospital
+OldTrainDepotHorse
+Railway stables (depot)
+OldTramDepotHorse
+Tramway stables (depot)
 #____________________________________citycar____________________________________
 #____________________________________citycar____________________________________
 AustinMetro(Blue)
@@ -1815,7 +1819,7 @@ BR Class 414 "2Hap" EMU
 BR-414[HAP]Rear(Blue-Grey)
 BR Class 414 "2Hap" EMU (rear)
 BR-419[MLV](Blue-Grey)
-BR Class 419 MLV
+BR Class 419 Motor Luggage Van
 BR-423-DTCL-Front
 BR Class 423 "4Vep" EMU
 BR-423-DTCL-Rear
@@ -1871,9 +1875,9 @@ BR Class 465 "Networker" EMU (middle)
 BR-465Rear(NSE)
 BR Class 465 "Networker" EMU (rear)
 BR-489[GLV](Intercity)
-BR Class 489 GLV
+BR Class 489 Guard Luggage Van
 BR-499[TLV](Blue-Grey)
-BR Class 499 TLV
+BR Class 499 Trailer Luggage Van
 BR-4EPB(centre1)
 BR Class 415 "4-EPB" EMU (centre)
 BR-4EPB(centre2)
@@ -5339,6 +5343,24 @@ CanalLargeShip
 Large Ship Canal
 Dennis_Dart_CMB
 Dennis Dart
+Zeppelin_LZ10_Mail
+Zeppelin LZ10 (Mail)
+Zeppelin_LZ6
+Zeppelin LZ6
+Zeppelin_LZ10
+Zeppelin LZ10
+LNER-1937-Tyneside-EMU-front
+LNER 1937 Tyneside EMU
+LNER-1937-Tyneside-EMU-rear
+LNER 1937 Tyneside EMU (rear)
+LNER-1937-Tyneside-EMU-MPV
+LNER 1937 Tyneside EMU (motorised parcel van)
+BR-210-DM
+BR Class 210 DMU
+BR-210-TSO
+BR Class 210 DMU (TSO)
+BR-210-DTSOL
+BR Class 210 DMU (DTSOL)
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 ACHighSpeedCatenary
