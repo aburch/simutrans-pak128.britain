@@ -1,0 +1,38 @@
+obj=vehicle
+name=LBSCR-small-goods
+engine_type=steam
+smoke=Steam
+speed=75
+# Extrapolated
+power=40
+# Tractive effort calculated using data from 
+# http://www.steamindex.com/locotype/lbscrloc.htm
+gear=300
+copyright=Kieron/JamesPetts
+intro_year=1859
+intro_month=4
+retire_year=1874
+retire_month=11
+waytype=track
+freight=None
+payload=0
+length=4
+
+# Weight not available. Guessed from contemporaneous types
+weight=25.7
+axles=3
+cost=3750000
+runningcost=290
+sound=-1
+
+Constraint[Next][0]=LBSCR-standard-goods-tender
+
+EmptyImage[E]=./images/lbscr-small-goods-craven.1.4
+EmptyImage[SE]=./images/lbscr-small-goods-craven.1.5
+EmptyImage[S]=./images/lbscr-small-goods-craven.1.6
+EmptyImage[SW]=./images/lbscr-small-goods-craven.1.7
+EmptyImage[W]=./images/lbscr-small-goods-craven.1.0
+EmptyImage[NW]=./images/lbscr-small-goods-craven.1.1
+EmptyImage[N]=./images/lbscr-small-goods-craven.1.2
+EmptyImage[NE]=./images/lbscr-small-goods-craven.1.3
+---

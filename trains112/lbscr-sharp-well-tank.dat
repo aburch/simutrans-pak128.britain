@@ -1,0 +1,40 @@
+obj=vehicle
+name=LBSCR-sharp-well-tank
+engine_type=steam
+smoke=Steam
+speed=75
+# Data not available, so part guessed from contemporaneous types
+power=78
+gear=250
+# Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
+# with loss factor of 0.7
+tractive_effort=27
+copyright=James/jamespetts
+intro_year=1847
+intro_month=4
+# Should be Nov. 1849, but replacement type not introduced until later.
+retire_year=1852
+retire_month=6
+waytype=track
+freight=None
+payload=0
+length=4
+
+# Weight not available, but guessed based on contemporaneous types.
+weight=20.1
+axle_load=9
+cost=5000000
+runningcost=200
+sound=-1
+
+EmptyImage[E]=./images/lbscr-2-2-2wt-early.1.4
+EmptyImage[SE]=./images/lbscr-2-2-2wt-early.1.5
+EmptyImage[S]=./images/lbscr-2-2-2wt-early.1.6
+EmptyImage[SW]=./images/lbscr-2-2-2wt-early.1.7
+EmptyImage[W]=./images/lbscr-2-2-2wt-early.1.0
+EmptyImage[NW]=./images/lbscr-2-2-2wt-early.1.1
+EmptyImage[N]=./images/lbscr-2-2-2wt-early.1.2
+EmptyImage[NE]=./images/lbscr-2-2-2wt-early.1.3
+
+---
+

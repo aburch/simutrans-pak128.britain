@@ -1,0 +1,39 @@
+obj=vehicle
+name=LBSCR-H2
+engine_type=steam
+smoke=Steam
+speed=145
+# Extrapolated
+power=575
+gear=250
+# http://en.wikipedia.org/wiki/LB%26SCR_H2_class
+copyright=Kieron/JamesPetts
+intro_year=1911
+intro_month=6
+# Should be January 1912, but no obvious replacements.
+retire_year=1916
+retire_month=10
+waytype=track
+freight=None
+payload=0
+length=6
+
+# http://www.bluebell-railway.co.uk/bluebell/locos/atlantic/
+weight=68
+cost=6977000
+runningcost=685
+sound=-1
+
+Constraint[Next][0]=LBSCR-H1-Tender
+
+EmptyImage[E]=./images/lbscr-h2.1.4
+EmptyImage[SE]=./images/lbscr-h2.1.5
+EmptyImage[S]=./images/lbscr-h2.1.6
+EmptyImage[SW]=./images/lbscr-h2.1.7
+EmptyImage[W]=./images/lbscr-h2.1.0
+EmptyImage[NW]=./images/lbscr-h2.1.1
+EmptyImage[N]=./images/lbscr-h2.1.2
+EmptyImage[NE]=./images/lbscr-h2.1.3
+
+---
+

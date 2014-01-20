@@ -1,0 +1,39 @@
+obj=vehicle
+name=LBSCR-6ft-6-single
+engine_type=steam
+smoke=Steam
+speed=120
+# Extrapolated
+power=169
+# Tractive effort calculated using data from 
+# http://www.steamindex.com/locotype/lbscrloc.htm
+gear=350
+copyright=Kieron/JamesPetts
+intro_year=1864
+intro_month=10
+retire_year=1871
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+
+# Weight not available. Guessed from contemporaneous types
+weight=33
+cost=8750000
+runningcost=540
+sound=-1
+
+Constraint[Next][0]=LBSCR-craven-tender
+
+EmptyImage[E]=./images/lbscr-6ft-6-single-craven.1.4
+EmptyImage[SE]=./images/lbscr-6ft-6-single-craven.1.5
+EmptyImage[S]=./images/lbscr-6ft-6-single-craven.1.6
+EmptyImage[SW]=./images/lbscr-6ft-6-single-craven.1.7
+EmptyImage[W]=./images/lbscr-6ft-6-single-craven.1.0
+EmptyImage[NW]=./images/lbscr-6ft-6-single-craven.1.1
+EmptyImage[N]=./images/lbscr-6ft-6-single-craven.1.2
+EmptyImage[NE]=./images/lbscr-6ft-6-single-craven.1.3
+
+---

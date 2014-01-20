@@ -1,0 +1,39 @@
+obj=vehicle
+name=LBSCR-E6
+engine_type=steam
+smoke=Steam
+speed=92
+# Extrapolated
+power=163
+gear=250
+# http://en.wikipedia.org/wiki/LB%26SCR_E6_class
+tractive_effort=94
+copyright=James/jamespetts
+intro_year=1904
+intro_month=12
+# In reality, only built to 1915, but are no successors.
+retire_year=1921
+retire_month=9
+waytype=track
+freight=None
+payload=0
+length=7
+
+# http://en.wikipedia.org/wiki/LB%26SCR_E6_class
+weight=62
+# http://orion.math.iastate.edu/jdhsmith/term/slgblbsc.htm
+axle_load=16
+cost=4500000
+runningcost=750
+sound=-1
+
+EmptyImage[E]=./images/lbscr-e6-goods-green.1.4
+EmptyImage[SE]=./images/lbscr-e6-goods-green.1.5
+EmptyImage[S]=./images/lbscr-e6-goods-green.1.6
+EmptyImage[SW]=./images/lbscr-e6-goods-green.1.7
+EmptyImage[W]=./images/lbscr-e6-goods-green.1.0
+EmptyImage[NW]=./images/lbscr-e6-goods-green.1.1
+EmptyImage[N]=./images/lbscr-e6-goods-green.1.2
+EmptyImage[NE]=./images/lbscr-e6-goods-green.1.3
+
+---

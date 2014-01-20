@@ -1,0 +1,38 @@
+obj=vehicle
+name=LBR-2-4-0T
+engine_type=steam
+smoke=Steam
+speed=70
+# Guessed as data unavailable
+power=33
+# Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
+# (data incomplete, largely guessed)
+gear=250
+copyright=James/jamespetts
+intro_year=1843
+intro_month=3
+# This was in reality the withdrawal date, but too short a run (single locomotive) otherwise.
+retire_year=1847
+retire_month=4
+waytype=track
+freight=None
+payload=0
+length=4
+
+# Weight not available, but guessed based on contemporaneous types.
+weight=17
+axle_load=7
+cost=5575000
+runningcost=210
+sound=-1
+
+EmptyImage[E]=./images/lbscr-2-4-0t-early.1.4
+EmptyImage[SE]=./images/lbscr-2-4-0t-early.1.5
+EmptyImage[S]=./images/lbscr-2-4-0t-early.1.6
+EmptyImage[SW]=./images/lbscr-2-4-0t-early.1.7
+EmptyImage[W]=./images/lbscr-2-4-0t-early.1.0
+EmptyImage[NW]=./images/lbscr-2-4-0t-early.1.1
+EmptyImage[N]=./images/lbscr-2-4-0t-early.1.2
+EmptyImage[NE]=./images/lbscr-2-4-0t-early.1.3
+
+---

@@ -1,0 +1,40 @@
+obj=vehicle
+name=LBSCR-standard-passenger
+engine_type=steam
+smoke=Steam
+speed=110
+# Extrapolated
+power=172
+# Tractive effort calculated using data from 
+# http://www.steamindex.com/locotype/lbscrloc.htm
+gear=250
+copyright=Kieron/JamesPetts
+intro_year=1862
+intro_month=2
+retire_year=1872
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=4
+
+# Weight not available. Guessed from contemporaneous types
+weight=30.5
+axle_load=13
+cost=9000000
+runningcost=500
+sound=-1
+
+Constraint[Next][0]=LBSCR-craven-tender
+
+
+EmptyImage[E]=./images/lbscr-standard-passenger-craven.1.4
+EmptyImage[SE]=./images/lbscr-standard-passenger-craven.1.5
+EmptyImage[S]=./images/lbscr-standard-passenger-craven.1.6
+EmptyImage[SW]=./images/lbscr-standard-passenger-craven.1.7
+EmptyImage[W]=./images/lbscr-standard-passenger-craven.1.0
+EmptyImage[NW]=./images/lbscr-standard-passenger-craven.1.1
+EmptyImage[N]=./images/lbscr-standard-passenger-craven.1.2
+EmptyImage[NE]=./images/lbscr-standard-passenger-craven.1.3
+
+---

@@ -57,6 +57,7 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LBSCR-H1
+Constraint[Prev][1]=LBSCR-H2
 
 EmptyImage[E]=./images/lbscr-h1-tender.1.4
 EmptyImage[SE]=./images/lbscr-h1-tender.1.5

@@ -1,0 +1,38 @@
+obj=vehicle
+name=LBSCR-D3
+engine_type=steam
+smoke=Steam
+speed=112
+# Extrapolated
+power=146
+# http://en.wikipedia.org/wiki/LB%26SCR_D3_class
+gear=250
+copyright=James/jamespetts
+intro_year=1892
+intro_month=5
+# In reality, only built to Nov. 1896, but are no successors until the E4
+retire_year=1902
+retire_month=11
+waytype=track
+freight=None
+payload=0
+length=6
+
+# http://en.wikipedia.org/wiki/LB%26SCR_D3_class
+weight=52.8
+axle_load=15
+cost=3790000
+runningcost=600
+sound=-1
+
+
+EmptyImage[E]=./images/lbscr-d3.1.4
+EmptyImage[SE]=./images/lbscr-d3.1.5
+EmptyImage[S]=./images/lbscr-d3.1.6
+EmptyImage[SW]=./images/lbscr-d3.1.7
+EmptyImage[W]=./images/lbscr-d3.1.0
+EmptyImage[NW]=./images/lbscr-d3.1.1
+EmptyImage[N]=./images/lbscr-d3.1.2
+EmptyImage[NE]=./images/lbscr-d3.1.3
+
+---

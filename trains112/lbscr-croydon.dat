@@ -1,0 +1,40 @@
+obj=vehicle
+name=LBSCR-croydon
+engine_type=steam
+smoke=Steam
+speed=100
+# Extrapolated
+power=117
+# Tractive effort calculated using data from 
+# http://www.steamindex.com/locotype/lbscrloc.htm
+# (These data are incomplete, partly guessed)
+gear=250
+copyright=Kieron/JamesPetts
+intro_year=1854
+intro_month=11
+# In reality, December 1854, but too short a run.
+retire_year=1856
+retire_month=10
+waytype=track
+freight=None
+payload=0
+length=4
+
+# Weight not available. Guessed from contemporaneous types
+weight=28.1
+axle_load=11
+cost=4750000
+runningcost=400
+sound=-1
+
+Constraint[Next][0]=LBSCR-craven-tender
+
+EmptyImage[E]=./images/lbscr-croydon-craven.1.4
+EmptyImage[SE]=./images/lbscr-croydon-craven.1.5
+EmptyImage[S]=./images/lbscr-croydon-craven.1.6
+EmptyImage[SW]=./images/lbscr-croydon-craven.1.7
+EmptyImage[W]=./images/lbscr-croydon-craven.1.0
+EmptyImage[NW]=./images/lbscr-croydon-craven.1.1
+EmptyImage[N]=./images/lbscr-croydon-craven.1.2
+EmptyImage[NE]=./images/lbscr-croydon-craven.1.3
+---

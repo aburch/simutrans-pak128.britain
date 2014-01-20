@@ -1,0 +1,39 @@
+obj=vehicle
+# NOTE: These are the 4-4-0 experimental types described by Ahrons pp. 120-1.
+name=LBSCR-West-End-tank
+engine_type=steam
+smoke=Steam
+speed=80
+# Largely guessed - no boiler data available.
+power=94
+gear=250
+# Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
+# with loss factor of 0.75
+tractive_effort=32
+copyright=James/jamespetts
+intro_year=1859
+intro_month=6
+retire_year=1864
+retire_month=5
+waytype=track
+freight=None
+payload=0
+length=5
+
+# Weight not available, but guessed based on contemporaneous types.
+axle_load=8
+weight=24
+cost=7200000
+runningcost=830
+sound=-1
+
+EmptyImage[E]=./images/lbscr-west-end-tank-craven.1.4
+EmptyImage[SE]=./images/lbscr-west-end-tank-craven.1.5
+EmptyImage[S]=./images/lbscr-west-end-tank-craven.1.6
+EmptyImage[SW]=./images/lbscr-west-end-tank-craven.1.7
+EmptyImage[W]=./images/lbscr-west-end-tank-craven.1.0
+EmptyImage[NW]=./images/lbscr-west-end-tank-craven.1.1
+EmptyImage[N]=./images/lbscr-west-end-tank-craven.1.2
+EmptyImage[NE]=./images/lbscr-west-end-tank-craven.1.3
+
+---

@@ -1,0 +1,37 @@
+obj=vehicle
+name=LBSCR-Crystal-Palace-tank
+engine_type=steam
+smoke=Steam
+speed=85
+# Extrapolated
+power=101
+# Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
+# with loss factor of 0.75
+gear=250
+copyright=James/jamespetts
+intro_year=1863
+intro_month=11
+retire_year=1873
+retire_month=9
+waytype=track
+freight=None
+payload=0
+length=5
+
+# Weight not available, but guessed based on contemporaneous types.
+# Axle load must be 14, as anything higher would not work on contemporary track.
+axle_load=14
+weight=39
+cost=7310000
+runningcost=840
+sound=-1
+
+EmptyImage[E]=./images/lbscr-crystal-palace-tank-craven.1.4
+EmptyImage[SE]=./images/lbscr-crystal-palace-tank-craven.1.5
+EmptyImage[S]=./images/lbscr-crystal-palace-tank-craven.1.6
+EmptyImage[SW]=./images/lbscr-crystal-palace-tank-craven.1.7
+EmptyImage[W]=./images/lbscr-crystal-palace-tank-craven.1.0
+EmptyImage[NW]=./images/lbscr-crystal-palace-tank-craven.1.1
+EmptyImage[N]=./images/lbscr-crystal-palace-tank-craven.1.2
+EmptyImage[NE]=./images/lbscr-crystal-palace-tank-craven.1.3
+---

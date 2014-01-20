@@ -1,0 +1,40 @@
+obj=vehicle
+name=LBSCR-victoria
+engine_type=steam
+smoke=Steam
+speed=125
+# Extrapolated
+power=168
+gear=350
+# Tractive effort calculated using data from 
+# http://www.steamindex.com/locotype/lbscrloc.htm
+tractive_effort=38
+copyright=Kieron/JamesPetts
+intro_year=1868
+intro_month=12
+retire_year=1876
+retire_month=4
+waytype=track
+freight=None
+payload=0
+length=4
+
+
+# Weight not available. Guessed from contemporaneous types
+weight=34
+cost=9100000
+runningcost=590
+sound=-1
+
+Constraint[Next][0]=LBSCR-craven-tender
+
+EmptyImage[E]=./images/lbscr-victoria-craven.1.4
+EmptyImage[SE]=./images/lbscr-victoria-craven.1.5
+EmptyImage[S]=./images/lbscr-victoria-craven.1.6
+EmptyImage[SW]=./images/lbscr-victoria-craven.1.7
+EmptyImage[W]=./images/lbscr-victoria-craven.1.0
+EmptyImage[NW]=./images/lbscr-victoria-craven.1.1
+EmptyImage[N]=./images/lbscr-victoria-craven.1.2
+EmptyImage[NE]=./images/lbscr-victoria-craven.1.3
+
+---

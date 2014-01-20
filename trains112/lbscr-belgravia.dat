@@ -1,0 +1,43 @@
+obj=vehicle
+name=LBSCR-Belgravia
+engine_type=steam
+smoke=Steam
+speed=130
+# Extrapolated
+power=188
+# Tractive calculated using data from
+# http://en.wikipedia.org/wiki/LB%26SCR_Belgravia_class
+tractive_effort=44
+copyright=Kieron/JamesPetts
+intro_year=1872
+intro_month=2
+retire_year=1876
+retire_month=11
+waytype=track
+freight=None
+payload=0
+length=5
+
+
+# Weight and axle load taken from: 
+# http://en.wikipedia.org/wiki/LB%26SCR_G_class
+weight=40.3
+axle_load=8
+cost=2750000
+runningcost=354
+sound=-1
+
+Constraint[Next][0]=LBSCR-B1-Gladstone-Tender
+
+
+EmptyImage[E]=./images/lbscr-belgravia.1.4
+EmptyImage[SE]=./images/lbscr-belgravia.1.5
+EmptyImage[S]=./images/lbscr-belgravia.1.6
+EmptyImage[SW]=./images/lbscr-belgravia.1.7
+EmptyImage[W]=./images/lbscr-belgravia.1.0
+EmptyImage[NW]=./images/lbscr-belgravia.1.1
+EmptyImage[N]=./images/lbscr-belgravia.1.2
+EmptyImage[NE]=./images/lbscr-belgravia.1.3
+
+---
+

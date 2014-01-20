@@ -1,0 +1,40 @@
+obj=vehicle
+name=LBSCR-Richmond
+engine_type=steam
+smoke=Steam
+speed=130
+# Extrapolated
+power=159
+gear=400
+# Tractive effort taken from:
+# http://en.wikipedia.org/wiki/LB%26SCR_Richmond_class
+tractive_effort=56
+copyright=Kieron/JamesPetts
+intro_year=1878
+intro_month=6
+retire_year=1883
+retire_month=9
+waytype=track
+freight=None
+payload=0
+length=5
+
+# Weight taken from: 
+# http://en.wikipedia.org/wiki/LB%26SCR_Richmond_class
+weight=37.6
+cost=2900000
+runningcost=600
+sound=-1
+
+Constraint[Next][0]=LBSCR-B1-Gladstone-Tender
+
+EmptyImage[E]=./images/lbscr-richmond.1.4
+EmptyImage[SE]=./images/lbscr-richmond.1.5
+EmptyImage[S]=./images/lbscr-richmond.1.6
+EmptyImage[SW]=./images/lbscr-richmond.1.7
+EmptyImage[W]=./images/lbscr-richmond.1.0
+EmptyImage[NW]=./images/lbscr-richmond.1.1
+EmptyImage[N]=./images/lbscr-richmond.1.2
+EmptyImage[NE]=./images/lbscr-richmond.1.3
+
+---

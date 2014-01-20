@@ -1,0 +1,41 @@
+obj=vehicle
+name=LBSCR-single-well-tank
+engine_type=steam
+smoke=Steam
+speed=78
+# Data not available, so part guessed from contemporaneous types
+power=100
+gear=250
+# Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
+# with loss factor of 0.7
+tractive_effort=25
+copyright=James/jamespetts
+intro_year=1852
+intro_month=5
+retire_year=1855
+retire_month=11
+waytype=track
+freight=None
+payload=0
+length=4
+
+# Weight not available, but guessed based on contemporaneous types.
+weight=20.4
+axle_load=9
+cost=7000000
+runningcost=820
+sound=-1
+
+
+
+EmptyImage[E]=./images/lbscr-later-2-2-2wt-craven.1.4
+EmptyImage[SE]=./images/lbscr-later-2-2-2wt-craven.1.5
+EmptyImage[S]=./images/lbscr-later-2-2-2wt-craven.1.6
+EmptyImage[SW]=./images/lbscr-later-2-2-2wt-craven.1.7
+EmptyImage[W]=./images/lbscr-later-2-2-2wt-craven.1.0
+EmptyImage[NW]=./images/lbscr-later-2-2-2wt-craven.1.1
+EmptyImage[N]=./images/lbscr-later-2-2-2wt-craven.1.2
+EmptyImage[NE]=./images/lbscr-later-2-2-2wt-craven.1.3
+
+---
+
