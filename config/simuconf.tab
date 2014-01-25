@@ -27,14 +27,14 @@ use_timeline = 3
 # 16 is calibrated to be correct for 125m/tile. This should be doubled for every
 # halving of the meters per tile setting, and halved for every doubling thereof.
 
-passenger_factor = 15
+# RESERVED FOR VERSION 12.x
+# passenger_factor = 15
+ passenger_factor = 9
 
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
-
 beginner_price_factor = 1500
 
 # Use beginner mode for new maps
-
 first_beginner = 0
 
 # Size of the catchment area of a station/stop in tiles.
@@ -42,7 +42,7 @@ first_beginner = 0
 # (In older versions, this was used for both city buildings and factories)
 #
 # Default: 2
-station_coverage = 12
+station_coverage = 16
 
 # Size of the catchment area of a station/stop in tiles.
 # This is for factories only.
@@ -69,13 +69,13 @@ max_small_city_size = 3000
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 895
-growthfactor_cities = 600
-growthfactor_capitals = 350
+growthfactor_villages = 1165
+growthfactor_cities = 720
+growthfactor_capitals = 420
 
 # These settings determine the proportion of passengers who travel to industries and
 # attractions respectively. 
-
+# REMOVE in version 12.x
 factory_worker_percentage = 15
 tourist_percentage = 8
 
@@ -88,7 +88,7 @@ tourist_percentage = 8
 # of passengers having 0, 1 or 2 alternative destinations).
 #
 # Max: 7
-
+# INCREASE in version 12.x
 max_alternative_destinations = 7
 
 # The program will generate three groups of passengers: (1) local;
@@ -96,7 +96,7 @@ max_alternative_destinations = 7
 # the specified distance ranges for each class of passenger. If it cannot
 # find such a town within a certain number of tries, it will pick a random town.
 # The ranges *may* overlap. These values are in kilometres. 
-
+# REMOVE in version 12.x
 local_passengers_min_distance = 0
 local_passengers_max_distance = 16
 midrange_passengers_min_distance = 16
@@ -113,7 +113,7 @@ longdistance_passengers_max_distance = 16384
 # 2% of journeys are >50 miles (80km)
 # See: http://www.sustrans.org.uk/assets/files/connect2/guidelines%2016.pdf
 # Allow for some overlap, however, between midrange and long distance.
-
+# REMOVE in version 12.x
 passenger_routing_local_chance = 84
 passenger_routing_midrange_chance = 12
 # (Longdistance by inference = 4)
@@ -129,7 +129,7 @@ passenger_routing_midrange_chance = 12
 # normal distribution, meaning that the numbers are more likely to be in
 # the middle of the range than at either end. The local, mid-range and
 # long-distance passenger groups correspond to those above. 
-
+# MODIFY in version 12.x
 min_local_tolerance = 5
 max_local_tolerance = 150
 min_midrange_tolerance = 15
@@ -445,10 +445,6 @@ toll_free_public_roads = 1
 # This is the amount (in simucents: 100 = 1 simucredit; 1 = 1 simucent)
 # that the player who owns the road will receive for each km traversed by a
 # private car on that road.
-#
-# NOTE: This value will not be saved with the saved game until the 
-# major version is incremented to 11. In a network game, this value
-# will default to 1.
 
 private_car_toll_per_km = 1
 
@@ -458,10 +454,6 @@ private_car_toll_per_km = 1
 # of the way, and cannot prevent other players from upgrading/
 # downgrading/removing it. Setting it to 0 will disable this 
 # feature.
-#
-# NOTE: This value will not be saved with the saved game until the 
-# major version is incremented to 11. In a network game, this value
-# will default to 1.
 
 towns_adopt_player_roads = 1
 
@@ -522,7 +514,7 @@ max_years_obsolete = 32
 # The following settings determine the minimum and maximum number of towns in which
 # workers in industries live (and thus from which they need to be transported to
 # the industries in question). 
-
+# REMOVE in version 12.x
 factory_worker_minimum_towns = 1
 factory_worker_maximum_towns = 6
 
@@ -535,6 +527,7 @@ factory_arrival_periods = 4
 factory_enforce_demand = 1
 
 # The maximum distance in tiles from which workers at industries may travel.
+# REMOVE in version 12.x
 factory_worker_radius = 320
 
 # How much amount in transport is sent before further distribution stops
@@ -676,7 +669,7 @@ bits_per_month = 22
 # another stop (possibly owned by a rival player) in the nearby vicinity, and of passengers
 # walking instead of using player transport in some cases.
 #
-# 0 = false; 1 = true. Default: false.
+# 0 = off; 1 = on. Default: off.
 
 allow_routing_on_foot = 1
 
@@ -774,8 +767,8 @@ max_corner_limit_tram=250
 min_corner_limit_tram=30
 max_corner_adjustment_factor_tram=70
 min_corner_adjustment_factor_tram=87
-min_direction_steps_tram=3
-max_direction_steps_tram=8
+min_direction_steps_tram=2
+max_direction_steps_tram=4
 curve_friction_factor_tram=2
 
 max_corner_limit_monorail=425
@@ -984,7 +977,7 @@ no_tree = 0
 ################################### Network settings ##############################
 
 # Pakset download URL (for display on the list server)
-server_pakurl = https://github.com/downloads/jamespetts/simutrans-pak128.britain/Pak128.Britain-Ex.zip
+server_pakurl = http://www.bridgewater-brunel.me.uk/downloads/Pak128.Britain-Ex-0.9.1.zip
 
 
 ################################### Livery settings ##################################
