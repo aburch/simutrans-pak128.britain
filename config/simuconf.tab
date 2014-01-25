@@ -355,7 +355,7 @@ seperate_halt_capacities = 1
 # away from each other that the cities are built. This is introduced in Simutrans-Experimental
 # 9.0. It replaces Simutrans-Standard's setting of "minimum_city_distance".
 
-city_isolation_factor = 32
+city_isolation_factor = 48
 
 # Minimum distance of a city attraction to other special buildings
 special_building_distance = 2
@@ -367,6 +367,13 @@ special_building_distance = 2
 # it is within 1.5km of their origin.
 
 max_walking_distance_km_tenth = 15
+
+# This is the speed in km/h at which passengers will walk. The average walking speed
+# is 5km/h, and this is the default. However, there is much to be said for a lower
+# setting than this to take into account the fact that many walking journeys are
+# not in a straight line.
+
+walking_speed = 4
 
 # This setting determines the relationship between the number of private car trips
 # generated and (1) the congestion recorded in the cities; and (2) the number of
