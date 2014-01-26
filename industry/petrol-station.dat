@@ -112,10 +112,10 @@ InputGood[0]=Gasoline
 InputCapacity[0]=180  
 InputFactor[0]=100  
 #InputSupplier[0]=1  
-InputGood[2]=newspaper
-InputCapacity[2]=8
-#InputSupplier[2]=1
-InputFactor[2]=20
+InputGood[1]=newspaper
+InputCapacity[1]=8
+#InputSupplier[1]=1
+InputFactor[1]=20
 Dims=1,2,4
 
 upgrade[0]=PetrolStation1975
