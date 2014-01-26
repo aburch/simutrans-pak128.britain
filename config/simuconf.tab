@@ -22,6 +22,11 @@
 #
 use_timeline = 3
 
+# The height of tiles for the double/half height tile system
+tile_height = 8
+
+height_conversion_factor = 2
+
 # Passenger generation (the default is 16): smaller values means fewer passengers.
 # NOTE: This will need to be adjusted depending on the meters_per_tile setting.
 # 16 is calibrated to be correct for 125m/tile. This should be doubled for every
