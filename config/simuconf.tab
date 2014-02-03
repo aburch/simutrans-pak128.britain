@@ -32,9 +32,7 @@ height_conversion_factor = 2
 # 16 is calibrated to be correct for 125m/tile. This should be doubled for every
 # halving of the meters per tile setting, and halved for every doubling thereof.
 
-# RESERVED FOR VERSION 12.x
-# passenger_factor = 15
- passenger_factor = 9
+passenger_factor = 15
 
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
 beginner_price_factor = 1500
@@ -78,12 +76,6 @@ growthfactor_villages = 1165
 growthfactor_cities = 720
 growthfactor_capitals = 420
 
-# These settings determine the proportion of passengers who travel to industries and
-# attractions respectively. 
-# REMOVE in version 12.x
-factory_worker_percentage = 15
-tourist_percentage = 8
-
 # Some passengers who are not able to find a route will be content
 # to go to an alternative destination. Set the maximum number here.
 # (Note: whether any given passenger is content to go to an alternative
@@ -94,53 +86,25 @@ tourist_percentage = 8
 #
 # Max: 7
 # INCREASE in version 12.x
+# TODO: Calibrate this
 max_alternative_destinations = 7
 
-# The program will generate three groups of passengers: (1) local;
-# (2) midrange; and (3) long distance. The program will look for a town within
-# the specified distance ranges for each class of passenger. If it cannot
-# find such a town within a certain number of tries, it will pick a random town.
-# The ranges *may* overlap. These values are in kilometres. 
-# REMOVE in version 12.x
-local_passengers_min_distance = 0
-local_passengers_max_distance = 16
-midrange_passengers_min_distance = 16
-midrange_passengers_max_distance = 80
-longdistance_passengers_min_distance = 55
-longdistance_passengers_max_distance = 16384
-
-# The following are percentage chances. They represent the chances that
-# any passengers generated will try to find a town within each of the three
-# ranges, respectively. 
+# Passengers have a maximum tolerance level for how long that they will spend travelling. 
+# Passengers are generated in two groups: commuting and visiting passengers. Commuting 
+# passengers travel to find work, whereas visiting passengers travel for other reasons, such
+# as leisure, business (i.e., travel between workplaces) and shopping. Each of these two
+# different types of passenger has a minimum and maximum journey time tolerance.
 #
-# 84% of journeys are 10 miles (16km) or under
-# 14% of journeys are 10 - 50  miles (16-80km)
-# 2% of journeys are >50 miles (80km)
-# See: http://www.sustrans.org.uk/assets/files/connect2/guidelines%2016.pdf
-# Allow for some overlap, however, between midrange and long distance.
-# REMOVE in version 12.x
-passenger_routing_local_chance = 84
-passenger_routing_midrange_chance = 12
-# (Longdistance by inference = 4)
-# passenger_routing_longdistance_chance is 100 minus the sum of the two above values,
-# but not stipulated individually. 
+# The number is  expressed in minutes. For each packet of passengers, the number of minutes
+# travelling time (including waiting time) that they are prepared to tolerate is randomised 
+# between the minimum and maximum amount using a normal distribution, meaning that the numbers
+# are more likely to be in the middle of the range than at either end.
 
-# Passengers have a maximum tolerance level for how long that they will
-# spend travelling. The further that the passengers want to go, the more
-# time that they will be prepared to spend travelling. The number is 
-# expressed in minutes. For each packet of passengers, the number of 
-# minutes travelling time (including waiting time) that they are prepared
-# to tolerate is randomised between the minimum and maximum amount using a
-# normal distribution, meaning that the numbers are more likely to be in
-# the middle of the range than at either end. The local, mid-range and
-# long-distance passenger groups correspond to those above. 
-# MODIFY in version 12.x
-min_local_tolerance = 5
-max_local_tolerance = 150
-min_midrange_tolerance = 15
-max_midrange_tolerance = 270
-min_longdistance_tolerance = 60
-max_longdistance_tolerance = 5400
+min_visiting_tolerance = 3
+range_visiting_tolerance = 5400
+min_commuting_tolerance = 15
+range_commuting_tolerance = 100
+
 
 # Settings for calibrating the revenue system
 #
@@ -523,13 +487,6 @@ max_factory_spacing_percentage = 33
 # chance increases the closer to this value that factories get.
 max_years_obsolete = 32
 
-# The following settings determine the minimum and maximum number of towns in which
-# workers in industries live (and thus from which they need to be transported to
-# the industries in question). 
-# REMOVE in version 12.x
-factory_worker_minimum_towns = 1
-factory_worker_maximum_towns = 6
-
 # number of periods for averaging the amount of arrived pax/mail at factories for boost calculation
 # one period represents a fixed interval of 2^18 ms in-game time
 # value can range from 1 to 16, inclusive; 1 means no averaging; default is 4
@@ -537,10 +494,6 @@ factory_arrival_periods = 4
 
 # whether factory's pax/mail demands are enforced or not; default is on
 factory_enforce_demand = 1
-
-# The maximum distance in tiles from which workers at industries may travel.
-# REMOVE in version 12.x
-factory_worker_radius = 320
 
 # How much amount in transport is sent before further distribution stops
 # This is only enabled when "just_in_time" is enabled
