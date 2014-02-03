@@ -478,8 +478,8 @@ min_factory_spacing = 2
 # Maximum distance for connected factories
 # If percentage>0, it will be in percent of the largest map dimension
 # percentage also over-rides the absolute value (which is in tiles)
-max_factory_spacing_percentage = 33
-#max_factory_spacing = 40
+max_factory_spacing_percentage = 25
+#max_factory_spacing = 1280
 
 # Some factories have a retirement date, after which they are obsolete. After
 # that date, factories may close down (random chance each month). After the number
@@ -492,7 +492,7 @@ max_years_obsolete = 32
 # value can range from 1 to 16, inclusive; 1 means no averaging; default is 4
 factory_arrival_periods = 4
 
-# whether factory's pax/mail demands are enforced or not; default is on
+# whether factory's passenger and mail demands are enforced or not; the default is on (1).
 factory_enforce_demand = 1
 
 # How much amount in transport is sent before further distribution stops
