@@ -127,12 +127,15 @@ ImageUp2[9][1]=./images/river-0-snow.0.0
 ImageUp2[12][1]=./images/river-0-snow.0.5
 ---------------------------------------
 # Small river
+# Navigable only on the flat
 Obj=way
 Name=River1
 copyright=James
 cost=10000
 maintenance=0
 topspeed=10
+topspeed_gradient_1=0
+topspeed_gradient_2=0
 max_weight=80
 intro_year = 1
 waytype=water
@@ -200,6 +203,8 @@ copyright=James
 cost=10000
 maintenance=0
 topspeed=10
+topspeed_gradient_1=0
+topspeed_gradient_2=0
 max_weight=80
 intro_year = 1
 waytype=water
@@ -261,12 +266,15 @@ ImageUp2[9][1]=./images/river-1T0-snow.0.0
 ImageUp2[12][1]=./images/river-1T0-snow.0.5
 ---------------------------------------
 # Medium river
+# Navigable on the flat and shallow gradients
 Obj=way
 Name=River2
 copyright=James
 cost=5000000
 maintenance=0
 topspeed=22
+topspeed_gradient_1=10
+topspeed_gradient_2=0
 max_weight=7500
 intro_year = 1
 waytype=water
@@ -334,6 +342,8 @@ copyright=James
 cost=5000000
 maintenance=0
 topspeed=22
+topspeed_gradient_1=10
+topspeed_gradient_2=0
 max_weight=7500
 intro_year = 1
 waytype=water
@@ -401,6 +411,8 @@ copyright=James
 cost=5000000
 maintenance=0
 topspeed=22
+topspeed_gradient_1=10
+topspeed_gradient_2=0
 max_weight=7500
 intro_year = 1
 waytype=water
@@ -462,12 +474,15 @@ ImageUp2[9][1]=./images/river-2T1-snow.0.0
 ImageUp2[12][1]=./images/river-2T1-snow.0.5
 ---------------------------------------
 # Large river
+# Navigable on all gradients
 Obj=way
 Name=River3
 copyright=James
 cost=50000000
 maintenance=0
 topspeed=50
+topspeed_gradient_1=40
+topspeed_gradient_2=15
 max_weight=12000
 intro_year = 1
 waytype=water
