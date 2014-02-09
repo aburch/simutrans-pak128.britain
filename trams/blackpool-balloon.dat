@@ -1,33 +1,54 @@
 obj=vehicle
 name=Blackpool-Balloon
 engine_type=electric
+# Speed will be limited by the limit of the track
+# so this higher speed will only be possible on
+# dedicated railway track.
 speed=65
-gear=240
-power=140
+gear=300
+# http://en.wikipedia.org/wiki/English_Electric_Balloon_tram
+power=86
+tractive_effort=28
 copyright=James
 intro_year=1934
-intro_month=1
-retire_year=1979
-retire_month=1
+intro_month=12
+retire_year=1957
+retire_month=5
 waytype=tram_track
 freight=Passagiere
-payload=100
+payload=78
+overcrowded_capacity=8
 
-weight=30
-cost=300000
-runningcost=125
+# Found in an unverified source.
+weight=17.5
+axles=4
+cost=600000
+runningcost=155
 sound=-1
 
-Constraint[Prev][0]=none
+can_lead_from_rear=1
+bidirectional=1
+way_constraint_permissive[1]=1
+way_constraint_prohibitive[0]=0
 
+comfort=49
+min_loading_time=12
+max_loading_time=67
+increase_maintenance_after_years=30
+
+upgrade[0]=Blackpool-Jubilee
+upgrade[1]=Blackpool-Millenium
+
+Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/blackpool-balloon.0.0
-EmptyImage[SE]=./images/blackpool-balloon.0.1
-EmptyImage[S]=./images/blackpool-balloon.0.2
-EmptyImage[SW]=./images/blackpool-balloon.0.3
-EmptyImage[W]=./images/blackpool-balloon.0.4
-EmptyImage[NW]=./images/blackpool-balloon.0.5
-EmptyImage[N]=./images/blackpool-balloon.0.6
-EmptyImage[NE]=./images/blackpool-balloon.0.7
---
+EmptyImage[E]=./images/blackpool-balloon.1.4
+EmptyImage[SE]=./images/blackpool-balloon.1.5
+EmptyImage[S]=./images/blackpool-balloon.1.6
+EmptyImage[SW]=./images/blackpool-balloon.1.7
+EmptyImage[W]=./images/blackpool-balloon.1.0
+EmptyImage[NW]=./images/blackpool-balloon.1.1
+EmptyImage[N]=./images/blackpool-balloon.1.2
+EmptyImage[NE]=./images/blackpool-balloon.1.3
+
+---

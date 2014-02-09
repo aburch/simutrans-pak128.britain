@@ -1,0 +1,53 @@
+# See "London Tramways" (John Reed, pub. Capital Transport, ISBN 1-85414-179-1) pp. 80-1
+obj=vehicle
+name=feltham
+engine_type=electric
+# Very little information on maximum speed.
+# Speed will be limited by the limit of the track
+# so this higher speed will only be possible on
+# dedicated railway track.
+speed=65
+gear=300
+# 2x 70hp motors = 104kW
+power=104
+tractive_effort=32
+copyright=James/jamespetts
+intro_year=1930
+intro_month=5
+retire_year=1943
+retire_month=7
+waytype=tram_track
+freight=Passagiere
+payload=64
+overcrowded_capacity=12
+length=5
+
+# Guessed
+weight=20
+axles=4
+cost=550000
+runningcost=65
+sound=-1
+
+can_lead_from_rear=0
+bidirectional=0
+way_constraint_permissive[0]=1
+way_constraint_prohibitive[1]=0
+# Padded seats, bogies and fully enclosed upper deck
+comfort=49
+min_loading_time=9
+max_loading_time=45
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+
+EmptyImage[E]=./images/feltham.1.4
+EmptyImage[SE]=./images/feltham.1.5
+EmptyImage[S]=./images/feltham.1.6
+EmptyImage[SW]=./images/feltham.1.7
+EmptyImage[W]=./images/feltham.1.0
+EmptyImage[NW]=./images/feltham.1.1
+EmptyImage[N]=./images/feltham.1.2
+EmptyImage[NE]=./images/feltham.1.3
+---

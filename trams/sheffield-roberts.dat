@@ -1,33 +1,44 @@
 obj=vehicle
 name=Sheffield-Roberts
 engine_type=electric
-speed=70
-gear=270
-power=120
+speed=65
+gear=300
+# http://en.wikipedia.org/wiki/Tramcars_of_the_Sheffield_Tramway
+# 2x 65hp motors; 130hp = 97kW
+power=97
 copyright=James
 intro_year=1950
 intro_month=1
-retire_year=1960
-retire_month=1
+retire_year=1962
+retire_month=11
 waytype=tram_track
 freight=Passagiere
-payload=104
-
-weight=30
-cost=520000
-runningcost=165
+payload=62
+overcrowded_capacity=7
+weight=16
+axles=2
+cost=635000
+runningcost=75
 sound=-1
 
-Constraint[Prev][0]=none
+can_lead_from_rear=0
+bidirectional=0
+way_constraint_permissive[1]=1
+way_constraint_prohibitive[0]=0
+# Comfortable seats, all enclosed, but no bogies
+comfort=47
+min_loading_time=10
+max_loading_time=62
 
+Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/sheffield-roberts.0.0
-EmptyImage[SE]=./images/sheffield-roberts.0.1
-EmptyImage[S]=./images/sheffield-roberts.0.2
-EmptyImage[SW]=./images/sheffield-roberts.0.3
-EmptyImage[W]=./images/sheffield-roberts.0.4
-EmptyImage[NW]=./images/sheffield-roberts.0.5
-EmptyImage[N]=./images/sheffield-roberts.0.6
-EmptyImage[NE]=./images/sheffield-roberts.0.7
---
+EmptyImage[E]=./images/sheffield-roberts.1.4
+EmptyImage[SE]=./images/sheffield-roberts.1.5
+EmptyImage[S]=./images/sheffield-roberts.1.6
+EmptyImage[SW]=./images/sheffield-roberts.1.7
+EmptyImage[W]=./images/sheffield-roberts.1.0
+EmptyImage[NW]=./images/sheffield-roberts.1.1
+EmptyImage[N]=./images/sheffield-roberts.1.2
+EmptyImage[NE]=./images/sheffield-roberts.1.3
+---

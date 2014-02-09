@@ -1,0 +1,63 @@
+# See "London Tramways" (John Reed, pub. Capital Transport, ISBN 1-85414-179-1) p. 38
+obj=vehicle
+name=lcc-a-class
+engine_type=electric
+speed=32
+gear=300
+power=45
+tractive_effort=23
+copyright=James/jamespetts
+intro_year=1903
+intro_month=9
+retire_year=1906
+retire_month=7
+waytype=tram_track
+freight=Passagiere
+payload=66
+overcrowded_capacity=6
+length=5
+
+weight=12.5
+axles=4
+cost=395000
+runningcost=58
+sound=-1
+
+can_lead_from_rear=0
+bidirectional=0
+way_constraint_permissive[0]=1
+way_constraint_prohibitive[1]=0
+# Bogies, wooden seats, open top
+comfort=35
+min_loading_time=10
+max_loading_time=60
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# I cannot find information as to the differences between
+# the LCC red livery of post 1926 and the LPTB livery.
+# They were very similar, but must have been at least
+# slightly different. Using the same graphics for now.
+
+liverytype[0]=LCC-plum
+
+EmptyImage[E]=./images/lcc-a-class.1.4
+EmptyImage[SE]=./images/lcc-a-class.1.5
+EmptyImage[S]=./images/lcc-a-class.1.6
+EmptyImage[SW]=./images/lcc-a-class.1.7
+EmptyImage[W]=./images/lcc-a-class.1.0
+EmptyImage[NW]=./images/lcc-a-class.1.1
+EmptyImage[N]=./images/lcc-a-class.1.2
+EmptyImage[NE]=./images/lcc-a-class.1.3
+
+FreightImage[E]=./images/lcc-a-class-loaded.1.4
+FreightImage[SE]=./images/lcc-a-class-loaded.1.5
+FreightImage[S]=./images/lcc-a-class-loaded.1.6
+FreightImage[SW]=./images/lcc-a-class-loaded.1.7
+FreightImage[W]=./images/lcc-a-class-loaded.1.0
+FreightImage[NW]=./images/lcc-a-class-loaded.1.1
+FreightImage[N]=./images/lcc-a-class-loaded.1.2
+FreightImage[NE]=./images/lcc-a-class-loaded.1.3
+
+---

@@ -2,8 +2,10 @@ obj=vehicle
 name=Blackpool-Centenary
 engine_type=electric
 speed=70
-gear=250
-power=120
+gear=300
+# http://www.britishtramsonline.co.uk/blackpoolfleet.doc
+power=50
+tractive_effort=22
 copyright=James
 intro_year=1984
 intro_month=1
@@ -11,23 +13,35 @@ retire_year=2015
 retire_month=1
 waytype=tram_track
 freight=Passagiere
-payload=68
+# http://www.britishtramsonline.co.uk/blackpoolfleet.doc
+payload=52
+overcrowded_capacity=16
 
 weight=20
-cost=204000
-runningcost=20
+axles=4
+cost=434000
+runningcost=45
 sound=-1
+
+can_lead_from_rear=1
+bidirectional=1
+way_constraint_permissive[1]=1
+way_constraint_prohibitive[0]=0
+comfort=45
+min_loading_time=15
+max_loading_time=40
 
 Constraint[Prev][0]=none
 
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/blackpool-centenary.0.0
-EmptyImage[SE]=./images/blackpool-centenary.0.1
-EmptyImage[S]=./images/blackpool-centenary.0.2
-EmptyImage[SW]=./images/blackpool-centenary.0.3
-EmptyImage[W]=./images/blackpool-centenary.0.4
-EmptyImage[NW]=./images/blackpool-centenary.0.5
-EmptyImage[N]=./images/blackpool-centenary.0.6
-EmptyImage[NE]=./images/blackpool-centenary.0.7
---
+EmptyImage[E]=./images/blackpool-centenary.1.4
+EmptyImage[SE]=./images/blackpool-centenary.1.5
+EmptyImage[S]=./images/blackpool-centenary.1.6
+EmptyImage[SW]=./images/blackpool-centenary.1.7
+EmptyImage[W]=./images/blackpool-centenary.1.0
+EmptyImage[NW]=./images/blackpool-centenary.1.1
+EmptyImage[N]=./images/blackpool-centenary.1.2
+EmptyImage[NE]=./images/blackpool-centenary.1.3
+
+---

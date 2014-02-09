@@ -1,0 +1,57 @@
+# See "London Tramways" (John Reed, pub. Capital Transport, ISBN 1-85414-179-1) p. 75
+obj=vehicle
+name=lcc-hr2-class
+engine_type=electric
+speed=50
+gear=300
+# 4x 35hp motors (guessed): the caption to this photograph: http://www.flickr.com/photos/ingythewingy/11017240334/
+# suggests that they had 35hp motors; but this was the era of the 60hp motor *and* these trams were
+# intended to be especially powerful to deal with "hilly routes" (hence "HR"). The only sensible deduction, therefore
+# is that these had *four* 35hp motors - one for each wheel, so as to maximise both power and tractive effort.
+power=104
+tractive_effort=32
+copyright=James/jamespetts
+intro_year=1930
+intro_month=12
+retire_year=1951
+retire_month=2
+waytype=tram_track
+freight=Passagiere
+payload=74
+overcrowded_capacity=6
+length=5
+
+# http://www.britishtramsonline.co.uk/lt185860years.html
+weight=20
+axles=4
+cost=495000
+runningcost=72
+sound=-1
+
+can_lead_from_rear=0
+bidirectional=0
+way_constraint_permissive[0]=1
+way_constraint_prohibitive[1]=0
+# Padded seats, bogies and fully enclosed upper deck
+comfort=45
+min_loading_time=11
+max_loading_time=65
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# I cannot find information as to the differences between
+# the LCC red livery of post 1926 and the LPTB livery.
+# They were very similar, but must have been at least
+# slightly different. Using the same graphics for now.
+
+
+EmptyImage[E]=./images/lcc-hr2-class-red.1.4
+EmptyImage[SE]=./images/lcc-hr2-class-red.1.5
+EmptyImage[S]=./images/lcc-hr2-class-red.1.6
+EmptyImage[SW]=./images/lcc-hr2-class-red.1.7
+EmptyImage[W]=./images/lcc-hr2-class-red.1.0
+EmptyImage[NW]=./images/lcc-hr2-class-red.1.1
+EmptyImage[N]=./images/lcc-hr2-class-red.1.2
+EmptyImage[NE]=./images/lcc-hr2-class-red.1.3
+---

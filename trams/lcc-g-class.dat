@@ -1,0 +1,54 @@
+# See "London Tramways" (John Reed, pub. Capital Transport, ISBN 1-85414-179-1) p. 41
+obj=vehicle
+name=lcc-g-class
+engine_type=electric
+speed=32
+gear=300
+# Assumed to have the same power as the early batch of E class trams.
+power=45
+tractive_effort=24
+copyright=James/jamespetts
+intro_year=1906
+intro_month=5
+retire_year=1938
+retire_month=10
+waytype=tram_track
+freight=Passagiere
+payload=35
+overcrowded_capacity=5
+length=5
+
+weight=9
+axles=4
+cost=317500
+runningcost=43
+sound=-1
+
+can_lead_from_rear=0
+bidirectional=0
+way_constraint_permissive[0]=1
+way_constraint_prohibitive[1]=0
+# Bogies and fully enclosed deck
+comfort=38
+min_loading_time=10
+max_loading_time=35
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# I cannot find information as to the differences between
+# the LCC red livery of post 1926 and the LPTB livery.
+# They were very similar, but must have been at least
+# slightly different. Using the same graphics for now.
+
+EmptyImage[E]=./images/lcc-g-class.1.4
+EmptyImage[SE]=./images/lcc-g-class.1.5
+EmptyImage[S]=./images/lcc-g-class.1.6
+EmptyImage[SW]=./images/lcc-g-class.1.7
+EmptyImage[W]=./images/lcc-g-class.1.0
+EmptyImage[NW]=./images/lcc-g-class.1.1
+EmptyImage[N]=./images/lcc-g-class.1.2
+EmptyImage[NE]=./images/lcc-g-class.1.3
+
+
+---

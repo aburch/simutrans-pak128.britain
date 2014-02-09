@@ -1,33 +1,47 @@
 obj=vehicle
 name=Blackpool-Standard
 engine_type=electric
-speed=55
-gear=240
-power=100
+speed=32
+gear=300
+# According to this web page: http://www.flickr.com/photos/ingythewingy/6348843530/
+# these use 2x. 35hp motors. 70hp = 52kW
+power=52
+tractive_effort=30
 copyright=James
 intro_year=1923
-intro_month=1
-retire_year=1950
+intro_month=8
+retire_year=1936
 retire_month=1
 waytype=tram_track
 freight=Passagiere
-payload=90
+payload=78
+overcrowded_capacity=6
 
-weight=25
-cost=360000
-runningcost=132
+weight=17.5
+axles=4
+cost=415000
+runningcost=65
 sound=-1
 
-Constraint[Prev][0]=none
+can_lead_from_rear=0
+bidirectional=0
+way_constraint_permissive[1]=1
+way_constraint_prohibitive[0]=0
+comfort=37
+min_loading_time=10
+max_loading_time=67
 
+Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/blackpool-standard.0.0
-EmptyImage[SE]=./images/blackpool-standard.0.1
-EmptyImage[S]=./images/blackpool-standard.0.2
-EmptyImage[SW]=./images/blackpool-standard.0.3
-EmptyImage[W]=./images/blackpool-standard.0.4
-EmptyImage[NW]=./images/blackpool-standard.0.5
-EmptyImage[N]=./images/blackpool-standard.0.6
-EmptyImage[NE]=./images/blackpool-standard.0.7
---
+
+EmptyImage[E]=./images/blackpool-standard.1.4
+EmptyImage[SE]=./images/blackpool-standard.1.5
+EmptyImage[S]=./images/blackpool-standard.1.6
+EmptyImage[SW]=./images/blackpool-standard.1.7
+EmptyImage[W]=./images/blackpool-standard.1.0
+EmptyImage[NW]=./images/blackpool-standard.1.1
+EmptyImage[N]=./images/blackpool-standard.1.2
+EmptyImage[NE]=./images/blackpool-standard.1.3
+
+---
