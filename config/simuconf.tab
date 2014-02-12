@@ -548,6 +548,41 @@ cost_multiply_found_industry=500000
 # Multiplied by headquarters "level"
 cost_multiply_headquarter=10000
 
+# Forge cost settings
+# 
+# The forge cost settings determine the cost of building a new way, in
+# SimuCents per kilometre. This cost is charged when building a new
+# way of a specified type on a tile, but not when upgrading an existing
+# way of that same type. This therefore makes it cheaper to upgrade ways
+# than build new ones. This cost is added to the base cost of the ways
+# specified in the .dat files.
+
+forge_cost_road = 10000
+forge_cost_track = 20000
+forge_cost_water = 40000
+forge_cost_monorail = 20000
+forge_cost_maglev = 30000
+forge_cost_tram = 5000
+forge_cost_narrowgauge = 10000
+forge_cost_air = 25000
+
+
+# The parallel ways forge cost percentage is the percentage of the
+# forge cost that is charged when building one way of each type
+# adjacent to an already existing way of that same type. For example,
+# if this number is set to 50 for roads, the forge cost (as specified 
+# above) of building one road immediately adjacent to another is 50%
+# of the full value.
+
+parallel_ways_forge_cost_percentage_road = 50
+parallel_ways_forge_cost_percentage_track = 35
+parallel_ways_forge_cost_percentage_water = 75
+parallel_ways_forge_cost_percentage_monorail = 35
+parallel_ways_forge_cost_percentage_maglev = 40
+parallel_ways_forge_cost_percentage_tram = 85
+parallel_ways_forge_cost_percentage_narrowgauge = 35
+parallel_ways_forge_cost_percentage_air = 85
+
 # Insolvency and debt settings
 #
 # These settings allow what happens when the player runs out of money and goes
