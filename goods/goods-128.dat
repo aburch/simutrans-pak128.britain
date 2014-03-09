@@ -768,11 +768,11 @@ speed_bonus=2
 weight_per_unit=1000
 -----------------------
 ### BULK LIQUIDS ###
-#Crude Oil
+# Crude Oil
 # Class: I
 obj=good
 name=Oel
-metric=m3
+metric=kilolitres
 catg=3
 #
 #value=35
@@ -787,13 +787,14 @@ to_distance[2]=80
 value[3]=45
 to_distance[3]=0
 speed_bonus=0
-weight_per_unit=900
+# http://www.bp.com/conversionfactors.jsp
+weight_per_unit=858
 -----------------------
 # Petrol
 # Class: I
 obj=good
 name=Gasoline
-metric=m3
+metric=kilolitres
 catg=3
 #
 #value=35
@@ -808,7 +809,8 @@ to_distance[2]=80
 value[3]=38
 to_distance[3]=0
 speed_bonus=0
-weight_per_unit=750
+# http://www.bp.com/conversionfactors.jsp
+weight_per_unit=740
 -----------------------
 # Fuel Oil
 # Class: I
