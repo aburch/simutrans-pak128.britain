@@ -103,7 +103,7 @@ BAE 146 300 Series
 BAE146_100(DanAirLondon)
 BAE 146 100 Series
 BAE146_300QT(TNT)Post
-BAE 146 300 Series (post)
+BAE 146 300 Series (mail)
 BAE146_300QT(TNT)Piece
 BAE 146 300 Series (piece goods)
 BAE146_300QT(TNT)Cool
@@ -111,7 +111,7 @@ BAE 146 300 Series (foods)
 ATR_42_320(BlueIslands)
 ATR 42 320 Series
 ATR_42_300F(FedEx)Post
-ATR 42 300 Series (post)
+ATR 42 300 Series (mail)
 ATR_42_300F(FedEx)Piece
 ATR 42 300 Series (piece goods)
 ATR_42_300F(FedEx)Cool
@@ -125,7 +125,7 @@ ATR 42 500F Series (foods)
 ATR_42_500(TitanAirways)
 ATR 42 500 Series
 ATR72_200(FedEx)Post
-ATR 72 200 Series (post)
+ATR 72 200 Series (mail)
 ATR72_200(FedEx)Piece
 ATR 72 200 Series (piece goods)
 ATR72_200(FedEx)Cool
@@ -137,7 +137,7 @@ ATR 72 500 Series
 ATR_72_500(FarnairEurope)Post
 ATR 72 500 Series
 Airbus320(AerLingus)Post
-Airbus A320 (post)
+Airbus A320 (mail)
 Airbus320(AerLingus)Piece
 Airbus A320 (piece goods)
 Airbus320(AerLingus)Cool
@@ -198,6 +198,10 @@ Zeppelin_LZ127_GrafZeppelin_Mail
 Graf Zeppelin LZ 127 (mail)
 Zeppelin_LZ10
 Zeppelin LZ 10 "Schwaben"
+Zeppelin_LZ10_Mail
+Zeppelin LZ 10 "Schwaben" (mail)
+Zeppelin_LZ6
+Zeppelin LZ 6
 HandleyPageO400
 Handley Page O/400
 HandleyPageO400_Mail
