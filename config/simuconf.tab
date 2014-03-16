@@ -27,15 +27,25 @@ tile_height = 8
 
 height_conversion_factor = 2
 
-# Passenger generation (the default is 16): smaller values means fewer passengers.
-# NOTE: This will need to be adjusted depending on the meters_per_tile setting.
-# 16 is calibrated to be correct for 125m/tile. This should be doubled for every
-# halving of the meters per tile setting, and halved for every doubling thereof.
-
-passenger_factor = 15
-
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
 beginner_price_factor = 1500
+
+# These settings are used to calculate adjusted figures based on the length of the month. 
+# To assume a base month length based on the settings in Simutrans-Standard, use 1,000
+# base_meters_per_tile and 18 base_bits_per_month.
+# 
+# To assume a base month length of 24 hours (to allow various settings to be calibrated
+# as if months were days), use a base meters per tile of 7500
+base_meters_per_tile = 1000
+base_bits_per_month = 18
+
+# This setting determines the rate at which jobs replenish. At the default, 100, all
+# of a building's jobs replenish in exactly 1 month. At 200, it takes 2 months, and at
+# 50, it takes 1/2 a month. This is useful when calibrating the month/year scale as
+# against the hour/minute scale. If a month is timed as 6.4 hours (6:24), for example,
+# a day (24 hours) consists of 3.75 "months". For jobs to replenish once every 24 hours,
+# therefore, set this to 375 if the length of a month is 6:24.
+job_replenishment_per_hundredths_of_months = 375
 
 # Use beginner mode for new maps
 first_beginner = 0
@@ -624,6 +634,34 @@ allow_purchases_when_insolvent = 0
 
 speed_bonus_multiplier_percent=100
 
+# These settings determine the population, visitor demand, jobs and mail per "level" of building.
+# Each of these things can be set independently in the buildings' .dat files, but for older paksets
+# or paksets from Standard, only a "level" will be supplied, so these conversion factors are
+# important in those cases.
+population_per_level = 4
+visitor_demand_per_level = 4
+jobs_per_level = 3
+mail_per_level = 1
+
+# These settings determine the number of passenger trips that each person makes per game month
+# and the number of items of mail that each unit of mail demand produces per month, in 1/100ths.
+# This does *not* include onward and return trips, however.
+passenger_trips_per_month_hundredths = 21
+mail_packets_per_month_hundredths = 10
+
+# This setting determines the maximum number of onward trips that passengers may make on a journey.
+# The actual number of onward trips for any given packet of passengers is a random number of anywhere
+# between 1 and this figure. This is only applicable if passengers are in fact going to make an onward
+# trip, the chance of which is determined by a different setting (see below).
+max_onward_trips = 3
+
+# This figure determines how likely that it is that passengers will make any onward trips at all. It
+# is expressed in percentage terms.
+onward_trip_chance_percent = 25
+
+# This is the chance, in percentage, that any given passenger journey will be a commuting trip. Any
+# trip that is not a commuting trip is classed as a visiting trip.
+commuting_trip_chance_percent = 67
 
 ################################### Time settings ################################
 
@@ -980,6 +1018,8 @@ no_tree_climates = 130
 no_tree = 0
 
 ################################### Network settings ##############################
+
+# Most network settings are found in the base simuconf.tab
 
 # Pakset download URL (for display on the list server)
 server_pakurl = http://www.bridgewater-brunel.me.uk/downloads/Pak128.Britain-Ex-0.9.2.zip
