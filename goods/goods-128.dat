@@ -26,7 +26,7 @@
 # sack     = bags
 # tonnen   = t
 # paletten = crates
-# m3       = m^3
+# kilolitres = m^3
 #
 #-------------------------------------------------------------------------------
 #
@@ -816,7 +816,7 @@ weight_per_unit=740
 # Class: I
 obj=good
 name=FuelOil
-metric=m3
+metric=kilolitres
 catg=3
 #
 #value=35
@@ -837,7 +837,7 @@ weight_per_unit=1000
 # Class: C
 obj=good
 name=Chemicals
-metric=m3
+metric=kilolitres
 catg=3
 #
 #value=35
