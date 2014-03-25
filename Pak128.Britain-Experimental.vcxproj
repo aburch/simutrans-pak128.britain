@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -119,6 +119,8 @@
     <None Include="air\Ford_Trimotor_RoyalMail.dat" />
     <None Include="air\HandleyPageO400_Verde.dat" />
     <None Include="air\HandleyPage_O400.dat" />
+    <None Include="air\HandleyPage_W8b.dat" />
+    <None Include="air\HandleyPageW8b_Mail.dat" />
     <None Include="air\Vickers_Viscount_757_Cambrian.dat" />
     <None Include="air\Vickers_Viscount_802_BEA.dat" />
     <None Include="attractions\library.dat" />
