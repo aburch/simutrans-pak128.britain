@@ -102,7 +102,7 @@ growthfactor_capitals = 420
 #max_alternative_destinations_commuting = 6
 #max_alternative_destinations_visiting = 12
 
-max_alternative_destinations_per_visitor_demand_millionths = 900
+max_alternative_destinations_per_visitor_demand_millionths = 500
 max_alternative_destinations_per_job_millionths = 675
 
 # Passengers have a maximum tolerance level for how long that they will spend travelling. 
