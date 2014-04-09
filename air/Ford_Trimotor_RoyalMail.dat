@@ -16,8 +16,9 @@ cost=1800000
 runningcost=550
 intro_year=1926
 intro_month=6
-# revert to 1933 once more vehicles in timeline
-retire_year=1965
+# Change to 1933 when other aircraft become available. (Perhaps the Boeing 247)
+# Currently, the next aircraft, the DC-2, is available from 1934.
+retire_year=1934
 retire_month=7
 
 smoke=Diesel
