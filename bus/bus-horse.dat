@@ -20,6 +20,8 @@ cost=100000
 runningcost=26
 sound=-1
 
+range=24
+
 EmptyImage[E]=./images/bus-horse-double.0.0
 EmptyImage[SE]=./images/bus-horse-double.0.1
 EmptyImage[S]=./images/bus-horse-double.0.2
@@ -50,6 +52,8 @@ runningcost=13
 sound=-1
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=50
+
+range=24
 
 EmptyImage[E]=./images/bus-horse-single.0.0
 EmptyImage[SE]=./images/bus-horse-single.0.1

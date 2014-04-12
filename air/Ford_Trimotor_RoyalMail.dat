@@ -32,6 +32,7 @@ max_loading_time=2400
 minimum_runway_length=1750
 
 sound=planelow.wav
+range=885
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

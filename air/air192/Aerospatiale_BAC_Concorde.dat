@@ -33,6 +33,7 @@ minimum_runway_length=3400
 
 air_resistance=45
 sound=aircraft-jet_stop.wav
+range=7223
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

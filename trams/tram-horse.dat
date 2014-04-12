@@ -21,6 +21,8 @@ years_before_maintenance_max_reached=75
 
 way_constraint_prohibitive[0]=0
 
+range=24
+
 Constraint[Prev][0]=none
 
 Constraint[Next][0]=Small-2-Deck-Trailer
@@ -64,6 +66,8 @@ years_before_maintenance_max_reached=75
 
 Constraint[Prev][0]=none
 way_constraint_prohibitive[0]=0
+
+range=24
 
 Constraint[Next][0]=1-Deck-Trailer
 Constraint[Next][1]=Medium-2-Deck-Trailer

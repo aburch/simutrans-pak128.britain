@@ -29,6 +29,7 @@ minimum_runway_length=600
 smoke=Diesel
 
 sound=planelow.wav
+range=1120
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

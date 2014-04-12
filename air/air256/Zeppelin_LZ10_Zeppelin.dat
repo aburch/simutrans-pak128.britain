@@ -32,7 +32,9 @@ catering_level=5
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=0
 
-sound=planelow.wav
+# Not sure that this sound is appropriate here.
+#sound=planelow.wav
+range=1400
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

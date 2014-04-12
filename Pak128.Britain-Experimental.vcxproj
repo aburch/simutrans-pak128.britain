@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -84,8 +84,6 @@
     <None Include="air\air192\Boeing_727_200Adv_DHL_Yellow.dat" />
     <None Include="air\air192\Boeing_727_200Adv_TNT.dat" />
     <None Include="air\air192\Boeing_727_200_BritishAirWays.dat" />
-    <None Include="air\air192\Boeing_727_200_DHL_Yellow.dat" />
-    <None Include="air\air192\Boeing_727_200_TNT.dat" />
     <None Include="air\air256\Boeing_747_100_BOAC.dat" />
     <None Include="air\air256\Boeing_747_200F_SeaboardWorld.dat" />
     <None Include="air\air256\Boeing_747_200_BritishCaledonian.dat" />

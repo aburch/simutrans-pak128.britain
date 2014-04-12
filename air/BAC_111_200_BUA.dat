@@ -29,6 +29,7 @@ catering_level=3
 minimum_runway_length=2050
 
 sound=aircraft-jet_stop.wav
+range=1340
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
