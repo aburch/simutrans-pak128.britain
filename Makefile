@@ -120,32 +120,32 @@ copy:
 $(DIRS32):
 	@echo "===> PAK32 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK32 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) verbose PAK32 $(PAKDIR)/ $@/ > /dev/null
 
 $(DIRS64):
 	@echo "===> PAK64 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) verbose PAK $(PAKDIR)/ $@/ > /dev/null
 
 $(DIRS128):
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) verbose PAK128 $(PAKDIR)/ $@/ > /dev/null
 
 $(DIRS192):
 	@echo "===> PAK192 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK192 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) verbose PAK192 $(PAKDIR)/ $@/ > /dev/null
 
 $(DIRS224):
 	@echo "===> PAK224 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) verbose PAK224 $(PAKDIR)/ $@/ > /dev/null
 
 $(DIRS256):
 	@echo "===> PAK256 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK256 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) verbose PAK256 $(PAKDIR)/ $@/ > /dev/null
 
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"
