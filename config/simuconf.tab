@@ -786,6 +786,14 @@ intercity_road[4]=asphalt_road,1933,2300
 
 intercity_road_length = 320
 
+# This is the maximum number of tiles that a road, river or canal
+# that is a public right of way may be diverted for an existing
+# public right of way to be deleted. Diversion allows players to
+# change the course of public rights of way to accomodate, for
+# example, railways whilst protecting their integrity.
+
+max_diversion_tiles = 16
+
 ################################ Vehicle settings ##############################
 
 # These settings determine how vehicles take corners, for each individual type of way.  They
