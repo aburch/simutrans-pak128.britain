@@ -1461,4 +1461,30 @@ livery[36][1] = Tramlink-green
 intro_year[36][1] = 2006
 intro_month[36][1] = 5
 
+livery_scheme[37] = Metrolink
+retire_year[37] = 2500
+retire_month[37] = 1
+livery[37][0] = Metrolink-original
+intro_year[37][0] = 1992
+intro_month[37][0] = 1
+livery[37][1] = Metrolink-yellow
+intro_year[37][1] = 2008
+intro_month[37][1] = 7
+
+livery_scheme[38] = WMPTE
+retire_year[38] = 2500
+retire_month[38] = 1
+livery[38][0] = Blue-cream
+intro_year[38][0] = 1969
+intro_month[38][0] = 1
+livery[38][1] = Centro
+intro_year[38][1] = 1991
+intro_month[38][1] = 5
+livery[38][2] = Midland-Metro
+intro_year[38][2] = 1996
+intro_month[38][2] = 4
+livery[38][3] = NWM
+intro_year[38][3] = 2008
+intro_month[38][3] = 7
+
 
