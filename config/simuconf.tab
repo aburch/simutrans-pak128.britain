@@ -1372,7 +1372,8 @@ intro_year[28][0] = 1965
 intro_month[28][0] = 8
 
 # For canal boats. Can also be used for 
-# small road freight vehicles.
+# small road freight vehicles or aicraft
+# with charter or generic liveries.
 livery_scheme[29] = Private-operator
 retire_year[29] = 2500
 retire_month[29] = 1
@@ -1474,7 +1475,7 @@ intro_month[37][1] = 7
 livery_scheme[38] = WMPTE
 retire_year[38] = 2500
 retire_month[38] = 1
-livery[38][0] = Blue-cream
+livery[38][0] = WMPTE-Blue-cream
 intro_year[38][0] = 1969
 intro_month[38][0] = 1
 livery[38][1] = Centro
@@ -1486,5 +1487,66 @@ intro_month[38][2] = 4
 livery[38][3] = NWM
 intro_year[38][3] = 2008
 intro_month[38][3] = 7
+
+livery_scheme[39] = BOAC
+retire_year[39] = 1974
+retire_month[39] = 3
+livery[39][0] = BOAC-unpainted
+intro_year[39][0] = 1939
+intro_month[39][0] = 11
+livery[39][1] = BOAC-speedbird
+intro_year[39][1] = 1946
+intro_month[39][1] = 1
+
+livery_scheme[40] = BEA
+retire_year[40] = 1974
+retire_month[40] = 3
+livery[40][0] = BEA-unpainted
+intro_year[40][0] = 1946
+intro_month[40][0] = 1
+livery[40][1] = BEA-red-line
+intro_year[40][1] = 1951
+intro_month[40][1] = 2
+livery[40][2] = BEA-red-square
+intro_year[40][2] = 1959
+intro_month[40][2] = 9
+livery[40][3] = BEA-speedjack
+intro_year[40][3] = 1969
+intro_month[40][3] = 1
+
+livery_scheme[41] = BA
+retire_year[41] = 2500
+retire_month[41] = 1
+livery[41][0] = BA-Union-flag
+intro_year[41][0] = 1974
+intro_month[41][0] = 3
+livery[41][1] = BA-Landor
+intro_year[41][1] = 1986
+intro_month[41][1] = 9
+livery[41][2] = BA-new
+intro_year[41][2] = 1997
+intro_month[41][2] = 4
+
+livery_scheme[42] = Dan-Air
+retire_year[42] = 1992
+retire_month[42] = 11
+livery[42][0] = Dan-Air-Early
+intro_year[42][0] = 1953
+intro_month[42][0] = 4
+# http://www.airliners.net/photo/Dan-Air-London/De-Havilland-DH-106/1274037/L/
+# Introduction date guessed
+livery[42][1] = Dan-Air-White-Tail
+intro_year[42][1] = 1960
+intro_month[42][1] = 7
+# http://www.airliners.net/photo/Dan-Air-London/Boeing-707-321/1274058/L/
+# Introduction date guessed
+livery[42][2] = Dan-Air-Red-Tail
+intro_year[42][2] = 1970
+intro_month[42][2] = 1
+# http://www.airliners.net/photo/Dan-Air/Boeing-727-2D3-Adv/1002341/L/
+# Introduction date guessed
+livery[42][3] = Dan-Air-Red-Blue
+intro_year[42][3] = 1981
+intro_month[42][3] = 5
 
 
