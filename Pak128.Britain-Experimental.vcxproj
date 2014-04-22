@@ -79,6 +79,7 @@
     <None Include="air\A320_ThomsonAirways.dat" />
     <None Include="air\A321_Monarch.dat" />
     <None Include="air\air192\Aerospatiale_BAC_Concorde.dat" />
+    <None Include="air\air192\Boeing_707_120.dat" />
     <None Include="air\air192\Boeing_707_320C_PelicanCargoAirlines.dat" />
     <None Include="air\air192\Boeing_707_420_BOAC.dat" />
     <None Include="air\air192\Boeing_727_200Adv_DHL_Yellow.dat" />
@@ -91,8 +92,11 @@
     <None Include="air\air256\Boeing_747_200_BritishCaledonian.dat" />
     <None Include="air\air256\Boeing_747_400F_CargoLux.dat" />
     <None Include="air\air256\Boeing_747_400_BritishAirWays.dat" />
+    <None Include="air\air256\Zeppelin_LZ10_Mail.dat" />
+    <None Include="air\air256\Zeppelin_LZ10_Zeppelin.dat" />
     <None Include="air\air256\Zeppelin_LZ127_GrafZeppelin.dat" />
     <None Include="air\air256\Zeppelin_LZ127_GrafZeppelin_Mail.dat" />
+    <None Include="air\air256\Zeppelin_LZ6.dat" />
     <None Include="air\ATR_42_300F_FedEx.dat" />
     <None Include="air\ATR_42_320_BlueIslands.dat" />
     <None Include="air\ATR_42_500F_DHL.dat" />
@@ -109,6 +113,8 @@
     <None Include="air\Boeing_727_100_DanAirLondon.dat" />
     <None Include="air\Boeing_727_100_DHL_Post.dat" />
     <None Include="air\Boeing_727_100_UPS_Cargo.dat" />
+    <None Include="air\Douglas_DC3.dat" />
+    <None Include="air\Douglas_DC3A.dat" />
     <None Include="air\Fokker_F27_100_300_BritishMidlandAir.dat" />
     <None Include="air\Fokker_F27_100_300_RoyalMail.dat" />
     <None Include="air\Fokker_F27_200_AirAnglia.dat" />
