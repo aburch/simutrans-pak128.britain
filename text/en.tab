@@ -160,6 +160,8 @@ Vickers Viscount 757 (Cambrian)
 Vickers Viscount 757 Series
 Vickers Viscount 802 (BEA)
 Vickers Viscount 802 Series
+Boeing_707_120
+Boeing 707 120 series
 Boeing_707_420(BOAC)
 Boeing 707 420 series
 707_320C(PelicanCargoAirlines)Post
@@ -214,6 +216,14 @@ Douglas_DC2
 Douglas DC2
 Douglas_DC2_Mail
 Douglas DC2 (mail)
+Douglas_DC3
+Douglas DC-3 "Dakota"
+Douglas_DC3_Mail
+Douglas DC-3 "Dakota" (mail)
+Douglas_DC3A
+Douglas DC-3A "Dakota"
+Douglas_DC3A_Mail
+Douglas DC-3A "Dakota" (mail)
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickAqueduct
@@ -882,6 +892,8 @@ Bakery1945
 Bakery
 Bakery1975
 Bakery
+Bookshop1750
+Bookshop
 Bookshop1860
 Bookshop
 Bookshop1920
@@ -4054,6 +4066,10 @@ LUL 1992 Tube Stock (rear UNDM)
 LUL 1992 Tube Stock (front UNDM)
 1992TubeStockRear
 LUL 1992 Tube Stock (rear DM)
+TyneWearMetroClass994Front
+Tyne & Wear Metro Class 994 LRV
+TyneWearMetroClass994Rear
+Tyne & Wear Metro Class 994 LRV (rear)
 #____________________________________tram-vehicle____________________________________
 #____________________________________tram-vehicle____________________________________
 1-Deck-Trailer
@@ -4158,14 +4174,62 @@ Metrolink-T86(Front)
 Metrolink T68
 Metrolink-T86(Rear)
 Metrolink T68 (rear)
-NET-Bombardier-Incentro(Front)
+MidlandMetroT69Front
+Midland Metro T69
+MidlandMetroT69Rear
+Midland Metro T69 (rear)
+bombardier-incentro-front
 Bombardier Incentro
-NET-Bombardier-Incentro(Rear)
+bombardier-incentro-middle1
+Bombardier Incentro (articulated section)
+bombardier-incentro-panto
+Bombardier Incentro (bogie pantograph)
+bombardier-incentro-middle2
+Bombardier Incentro (articulated section)
+bombardier-incentro-rear
 Bombardier Incentro (rear)
 Bombardier-Flexity-2-front
 Bombardier Flexity 2
+Bombardier-Flexity-2-middle1
+Bombardier Flexity 2(articulated section)
+Bombardier-Flexity-2-panto
+Bombardier Flexity 2 (bogie pantograph)
+Bombardier-Flexity-2-middle2
+Bombardier Flexity 2 (articulated section)
 Bombardier-Flexity-2-rear
 Bombardier Flexity 2 (rear)
+CAF-Edinburgh-front
+CAF Edinburgh tram
+CAF-Edinburgh-middle1
+CAF Edinburgh tram (front articulated section)
+CAF-Edinburgh-middle2
+CAF Edinburgh tram (rear articulated section)
+CAF-Edinburgh-panto
+CAF Edinburgh tram (pantograph articulated section)
+CAF-Edinburgh-bogie
+CAF Edinburgh tram (bogie section)
+CAF-Edinburgh-rear
+CAF Edinburgh tram (rear)
+CAF-Urbos-3-front
+CAF Urbos 3
+CAF-Urbos-3-middle1
+CAF Urbos 3 (front articulated section)
+CAF-Urbos-3-middle2
+CAF Urbos 3 (rear articulated section)
+CAF-Urbos-3-panto
+CAF Urbos 3 (bogie pantograph)
+CAF-Urbos-3-rear
+CAF Urbos 3 (rear)
+Croydon-Variobahn-front
+Stadler Variobahn
+Croydon-Variobahn-middle1
+Stadler Variobahn (front articulated section)
+Croydon-Variobahn-middle2
+tadler Variobahn (rear articulated section)
+Croydon-Variobahn-panto
+Stadler Variobahn (bogie pantograph)
+Croydon-Variobahn-rear
+Stadler Variobahn (rear cab)
 #____________________________________road-vehicle____________________________________
 #____________________________________road-vehicle____________________________________
 Leyland_Cub(LT-Green)
@@ -6099,3 +6163,11 @@ LCC
 London County Council
 LUT
 London United
+Metrolink
+Metrolink
+WMPTE
+W. Midlands PTE
+BA
+British Airways
+Dan-Air
+Dan Air

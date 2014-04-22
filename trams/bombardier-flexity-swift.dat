@@ -33,10 +33,9 @@ max_loading_time=45
 Constraint[Prev][0]=none
 Constraint[Next][0]=Flexity-SwiftRear
 
-# Could consider adding Manchester Metrolink liveries, but the
-# Manchester versions are high floor and look quite different.
 liverytype[0]=Tramlink-red
 liverytype[1]=Tramlink-green
+liverytype[2]=Metrolink-yellow
 
 EmptyImage[E][0]=./images/flexity-swift-croydon-red-front.1.4
 EmptyImage[SE][0]=./images/flexity-swift-croydon-red-front.1.5
@@ -55,6 +54,15 @@ EmptyImage[W][1]=./images/flexity-swift-croydon-green-front.1.0
 EmptyImage[NW][1]=./images/flexity-swift-croydon-green-front.1.1
 EmptyImage[N][1]=./images/flexity-swift-croydon-green-front.1.2
 EmptyImage[NE][1]=./images/flexity-swift-croydon-green-front.1.3
+
+EmptyImage[E][2]=./images/flexity-swift-metrolink-front.1.4
+EmptyImage[SE][2]=./images/flexity-swift-metrolink-front.1.5
+EmptyImage[S][2]=./images/flexity-swift-metrolink-front.1.6
+EmptyImage[SW][2]=./images/flexity-swift-metrolink-front.1.7
+EmptyImage[W][2]=./images/flexity-swift-metrolink-front.1.0
+EmptyImage[NW][2]=./images/flexity-swift-metrolink-front.1.1
+EmptyImage[N][2]=./images/flexity-swift-metrolink-front.1.2
+EmptyImage[NE][2]=./images/flexity-swift-metrolink-front.1.3
 
 ---
 
@@ -95,6 +103,7 @@ Constraint[Next][0]=none
 
 liverytype[0]=Tramlink-red
 liverytype[1]=Tramlink-green
+liverytype[2]=Metrolink-yellow
 
 EmptyImage[E][0]=./images/flexity-swift-croydon-red-rear.1.4
 EmptyImage[SE][0]=./images/flexity-swift-croydon-red-rear.1.5
@@ -113,5 +122,15 @@ EmptyImage[W][1]=./images/flexity-swift-croydon-green-rear.1.0
 EmptyImage[NW][1]=./images/flexity-swift-croydon-green-rear.1.1
 EmptyImage[N][1]=./images/flexity-swift-croydon-green-rear.1.2
 EmptyImage[NE][1]=./images/flexity-swift-croydon-green-rear.1.3
+
+EmptyImage[E][2]=./images/flexity-swift-metrolink-rear.1.4
+EmptyImage[SE][2]=./images/flexity-swift-metrolink-rear.1.5
+EmptyImage[S][2]=./images/flexity-swift-metrolink-rear.1.6
+EmptyImage[SW][2]=./images/flexity-swift-metrolink-rear.1.7
+EmptyImage[W][2]=./images/flexity-swift-metrolink-rear.1.0
+EmptyImage[NW][2]=./images/flexity-swift-metrolink-rear.1.1
+EmptyImage[N][2]=./images/flexity-swift-metrolink-rear.1.2
+EmptyImage[NE][2]=./images/flexity-swift-metrolink-rear.1.3
+
 
 
