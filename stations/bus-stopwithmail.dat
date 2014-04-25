@@ -13,6 +13,7 @@ enables_post=1
 NoInfo=1
 Dims=1,1,2
 level=3
+allow_underground=0
 station_capacity=25
 BackImage[0][0][0][0][0][0]=old-bus-shelterWMail.0.0
 FrontImage[0][0][0][0][0][0]=old-bus-shelterWMail.0.1
