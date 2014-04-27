@@ -4,10 +4,13 @@ waytype=water
 cost=15000
 maintenance=150
 topspeed=30
-intro_year = 1750
-intro_month = 1
+max_weight=70
+intro_year=1750
+intro_month=1
+
 icon=> ./images/canal-narrow.3.4
 cursor=./images/canal-narrow.3.5
+
 Image[-][0]=./images/canal-narrow.1.2
 Image[N][0]=./images/canal-narrow.1.5
 Image[S][0]=./images/canal-narrow.2.1
@@ -32,6 +35,11 @@ ImageUp2[3][0]=./images/canal-narrow.1.3
 ImageUp2[6][0]=./images/canal-narrow.1.4
 ImageUp2[9][0]=./images/canal-narrow.0.0
 ImageUp2[12][0]=./images/canal-narrow.0.5
+Diagonal[NE][0]=./images/canal-narrow.3.0
+Diagonal[SE][0]=./images/canal-narrow.2.3
+Diagonal[NW][0]=./images/canal-narrow.2.4
+Diagonal[SW][0]=./images/canal-narrow.2.5
+
 Image[-][1]=./images/canal-narrow-snow.1.2
 Image[N][1]=./images/canal-narrow-snow.1.5
 Image[S][1]=./images/canal-narrow-snow.2.1
@@ -56,4 +64,8 @@ ImageUp2[3][1]=./images/canal-narrow-snow.1.3
 ImageUp2[6][1]=./images/canal-narrow-snow.1.4
 ImageUp2[9][1]=./images/canal-narrow-snow.0.0
 ImageUp2[12][1]=./images/canal-narrow-snow.0.5
+Diagonal[NE][1]=./images/canal-narrow-snow.3.0
+Diagonal[SE][1]=./images/canal-narrow-snow.2.3
+Diagonal[NW][1]=./images/canal-narrow-snow.2.4
+Diagonal[SW][1]=./images/canal-narrow-snow.2.5
 --
