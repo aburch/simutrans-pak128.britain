@@ -17,6 +17,11 @@ InputGood[0]=china
 InputCapacity[0]=40
 InputFactor[0]=100  
 #InputSupplier[0]=2
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 needs_ground=1
 Dims=1,1,4
 BackImage[2][0][0][0][0][0]=1750-china-shop.0.0
@@ -48,6 +53,11 @@ InputGood[0]=china
 InputCapacity[0]=60 
 InputFactor[0]=100  
 #InputSupplier[0]=2
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 needs_ground=1
 Dims=1,1,4
 BackImage[2][0][0][0][0][0]=victorian-china-shop.0.0
@@ -78,6 +88,11 @@ InputGood[0]=china
 InputCapacity[0]=60 
 InputFactor[0]=100  
 #InputSupplier[0]=1
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 needs_ground=1
 Dims=1,1,4
 BackImage[2][0][0][0][0][0]=deco-china-shop.0.0

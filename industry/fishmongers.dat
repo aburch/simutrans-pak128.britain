@@ -6,7 +6,7 @@ intro_year=1750
 intro_month=1
 retire_year=1840
 retire_month=10
-copyright=James
+copyright=Archon
 level=3
 pax_level=8
 climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
@@ -20,6 +20,11 @@ InputGood[0]=fish
 InputCapacity[0]=54 
 InputFactor[0]=100  
 #InputSupplier[0]=1
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 Dims=1,1,4
 BackImage[2][0][0][0][0][0]=1750-shops.5.2
 BackImage[1][0][0][0][0][0]=1750-shops.5.3
@@ -52,6 +57,11 @@ InputGood[0]=fish
 InputCapacity[0]=72 
 InputFactor[0]=100  
 #InputSupplier[0]=1
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 Dims=1,1,4
 BackImage[2][0][0][0][0][0]=fishmongers.0.0
 BackImage[1][0][0][0][0][0]=fishmongers.0.1
@@ -82,6 +92,11 @@ InputGood[0]=fish
 InputCapacity[0]=125 
 InputFactor[0]=100  
 #InputSupplier[0]=1
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 Dims=1,1,4
 BackImage[2][0][0][0][0][0]=fishmongers.0.0
 BackImage[1][0][0][0][0][0]=fishmongers.0.1
@@ -112,6 +127,11 @@ InputGood[0]=fish
 InputCapacity[0]=250 
 InputFactor[0]=100  
 #InputSupplier[0]=1
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 Dims=1,1,4
 BackImage[2][0][0][0][0]=1950shops.3.0
 BackImage[1][0][0][0][0]=1950shops.0.6

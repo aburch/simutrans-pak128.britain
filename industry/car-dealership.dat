@@ -22,6 +22,11 @@ InputGood[0]=Autos
 InputCapacity[0]=30 
 InputFactor[0]=100
 #InputSupplier[0]=1
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 Dims=1,1,4
 BackImage[2][0][0][0][0][0]=1910-car-dealer.0.0
 BackImage[1][0][0][0][0][0]=1910-car-dealer.0.1
@@ -52,6 +57,11 @@ InputGood[0]=Autos
 InputCapacity[0]=50 
 InputFactor[0]=100
 #InputSupplier[0]=1
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 Dims=2,1,4
 BackImage[0][0][0][0][0][0]=car-dealership-deco.0.0
 BackImage[0][0][1][0][0][0]=car-dealership-deco.0.1
@@ -90,6 +100,11 @@ InputGood[0]=Autos
 InputCapacity[0]=60 
 InputFactor[0]=100
 #InputSupplier[0]=1
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 Dims=2,1,4
 BackImage[0][0][0][0][0][0]=car-dealership.0.0
 BackImage[0][0][1][0][0][0]=car-dealership.0.1
@@ -128,6 +143,11 @@ InputGood[0]=Autos
 InputCapacity[0]=70 
 InputFactor[0]=100
 #InputSupplier[0]=1
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
 Dims=2,1,4
 BackImage[0][0][0][0][0][0]=car-dealership.0.0
 BackImage[0][0][1][0][0][0]=car-dealership.0.1

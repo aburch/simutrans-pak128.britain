@@ -21,6 +21,10 @@ InputGood[1]=cider
 InputCapacity[1]=75 
 InputFactor[1]=80  
 
+electricity_boost=0
+passenger_boost=2000
+mail_boost=500
+
 needs_ground=1
 #InputSupplier[1]=1
 Dims=1,1,4
@@ -57,6 +61,11 @@ InputCapacity[1]=125
 InputFactor[1]=80  
 #InputSupplier[1]=1
 needs_ground=1
+
+electricity_boost=0
+passenger_boost=2000
+mail_boost=500
+
 Dims=1,1,4
 BackImage[2][0][0][0][0][0]=pub.0.0
 BackImage[1][0][0][0][0][0]=pub.0.1
@@ -91,6 +100,11 @@ InputCapacity[1]=150
 InputFactor[1]=80  
 #InputSupplier[1]=1
 needs_ground=1
+
+electricity_boost=0
+passenger_boost=2000
+mail_boost=500
+
 Dims=1,1,4
 BackImage[2][0][0][0][0][0]=pub.0.0
 BackImage[1][0][0][0][0][0]=pub.0.1
@@ -124,6 +138,11 @@ InputGood[1]=cider
 InputCapacity[1]=200 
 InputFactor[1]=80  
 #InputSupplier[1]=1
+
+electricity_boost=0
+passenger_boost=2000
+mail_boost=500
+
 needs_ground=1
 Dims=1,1,4
 BackImage[2][0][0][0][0]=1950shops.0.0

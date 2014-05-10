@@ -17,6 +17,11 @@ MapColor=154
 InputGood[0]=Kohle
 InputCapaCity[0]=65 
 #InputSupplier[0]=1
+
+electricity_boost=0
+passenger_boost=500
+mail_boost=500
+
 Dims=2,1,4
 BackImage[0][0][0][0][0][0]=coal-yard.0.0
 BackImage[0][0][1][0][0][0]=coal-yard.0.1
@@ -55,6 +60,11 @@ MapColor=154
 InputGood[0]=Kohle
 InputCapaCity[0]=80 
 #InputSupplier[0]=1 
+
+electricity_boost=0
+passenger_boost=500
+mail_boost=500
+
 Dims=2,1,4
 BackImage[0][0][0][0][0][0]=coal-yard.0.0
 BackImage[0][0][1][0][0][0]=coal-yard.0.1
@@ -92,6 +102,11 @@ MapColor=154
 InputGood[0]=Kohle
 InputCapaCity[0]=165 
 #InputSupplier[0]=1 
+
+electricity_boost=0
+passenger_boost=500
+mail_boost=500
+
 Dims=2,1,4
 BackImage[0][0][0][0][0][0]=coal-yard.0.0
 BackImage[0][0][1][0][0][0]=coal-yard.0.1

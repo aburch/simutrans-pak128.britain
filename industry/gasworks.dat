@@ -20,6 +20,10 @@ InputGood[0]=Kohle
 InputCapaCity[0]=180 
 #InputSupplier[0]=2
 
+electricity_boost=0
+passenger_boost=500
+mail_boost=500
+
 dims=3,3,4
 BackImage[0][0][0][0][0][0]=gasworks.0.0
 BackImage[0][0][0][1][0][0]=gasworks.0.1
@@ -158,6 +162,11 @@ MapColor=210
 InputGood[0]=Kohle
 InputCapaCity[0]=360 
 #InputSupplier[0]=2
+
+electricity_boost=0
+passenger_boost=500
+mail_boost=500
+
 
 dims=3,3,4
 BackImage[0][0][0][0][0][0]=gasworks.0.0

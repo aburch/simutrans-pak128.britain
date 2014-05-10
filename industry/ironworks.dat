@@ -32,6 +32,11 @@ OutputGood[1]=WroughtIron
 OutputCapacity[1]=77
 OutputFactor[1]=35
 needs_ground=1 
+
+electricity_boost=0
+passenger_boost=500
+mail_boost=500
+
 Dims=2,2,4
 BackImage[0][0][0][0][0][0]=mills1.2.0
 BackImage[0][0][0][1][0][0]=mills1.1.0
@@ -109,6 +114,11 @@ OutputGood[1]=WroughtIron
 OutputCapacity[1]=82
 OutputFactor[1]=35
 needs_ground=1 
+
+electricity_boost=0
+passenger_boost=500
+mail_boost=500
+
 Dims=2,2,4
 BackImage[0][0][0][0][0][0]=mills1.0.0
 BackImage[0][0][1][0][0][0]=mills1.2.2
@@ -181,6 +191,11 @@ OutputFactor[0]=35
 OutputGood[1]=WroughtIron
 OutputCapacity[1]=135
 OutputFactor[1]=35
+
+electricity_boost=0
+passenger_boost=500
+mail_boost=500
+
 needs_ground=1 
 Dims=2,2,4
 BackImage[0][0][0][0][0][0]=mills2.1.3
