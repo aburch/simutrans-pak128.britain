@@ -7,7 +7,6 @@
 obj=roadsign
 name=airport_oneway
 copyright=Shunter
-type=airport
 waytype=air
 min_speed=0
 single_way=1
@@ -23,7 +22,6 @@ Image[3]=airport_oneway.0.2
 obj=roadsign
 name=airport_choose
 copyright=Shunter/James
-type=airport
 waytype=air
 min_speed=0
 single_way=0
