@@ -19,19 +19,25 @@ payload=0
 length=5
 
 # Weight taken from Ahrons, p. 155
-axle_load=14
 weight=42
+# This should be 15, but no tracks that can take this available contemporaneously.
+axle_load=14
 cost=8750000
 runningcost=845
 sound=-1
 
 bidirectional=1
 
-# TODO: Add Metropolitan and LSWR liveries for this.
+# TODO: Add LSWR and SECR liveries for this.
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
 liverytype[2]=MR-Early
 liverytype[3]=MR-Standard
+liverytype[4]=District Standard
+liverytype[5]=Metropolitan-Green
+liverytype[6]=Metropolitan-Red
+liverytype[7]=Metropolitan-Late
+liverytype[8]=LT
 
 EmptyImage[E][0]=./images/met-a-class-lnwr-red.1.4
 EmptyImage[SE][0]=./images/met-a-class-lnwr-red.1.5
@@ -68,3 +74,48 @@ EmptyImage[W][3]=./images/met-a-class-mr.1.0
 EmptyImage[NW][3]=./images/met-a-class-mr.1.1
 EmptyImage[N][3]=./images/met-a-class-mr.1.2
 EmptyImage[NE][3]=./images/met-a-class-mr.1.3
+
+EmptyImage[E][4]=./images/met-a-class-district.1.4
+EmptyImage[SE][4]=./images/met-a-class-district.1.5
+EmptyImage[S][4]=./images/met-a-class-district.1.6
+EmptyImage[SW][4]=./images/met-a-class-district.1.7
+EmptyImage[W][4]=./images/met-a-class-district.1.0
+EmptyImage[NW][4]=./images/met-a-class-district.1.1
+EmptyImage[N][4]=./images/met-a-class-district.1.2
+EmptyImage[NE][4]=./images/met-a-class-district.1.3
+
+EmptyImage[E][5]=./images/met-a-class-met-green.1.4
+EmptyImage[SE][5]=./images/met-a-class-met-green.1.5
+EmptyImage[S][5]=./images/met-a-class-met-green.1.6
+EmptyImage[SW][5]=./images/met-a-class-met-green.1.7
+EmptyImage[W][5]=./images/met-a-class-met-green.1.0
+EmptyImage[NW][5]=./images/met-a-class-met-green.1.1
+EmptyImage[N][5]=./images/met-a-class-met-green.1.2
+EmptyImage[NE][5]=./images/met-a-class-met-green.1.3
+
+EmptyImage[E][6]=./images/met-a-class-met-red.1.4
+EmptyImage[SE][6]=./images/met-a-class-met-red.1.5
+EmptyImage[S][6]=./images/met-a-class-met-red.1.6
+EmptyImage[SW][6]=./images/met-a-class-met-red.1.7
+EmptyImage[W][6]=./images/met-a-class-met-red.1.0
+EmptyImage[NW][6]=./images/met-a-class-met-red.1.1
+EmptyImage[N][6]=./images/met-a-class-met-red.1.2
+EmptyImage[NE][6]=./images/met-a-class-met-red.1.3
+
+EmptyImage[E][7]=./images/met-a-class-met-late.1.4
+EmptyImage[SE][7]=./images/met-a-class-met-late.1.5
+EmptyImage[S][7]=./images/met-a-class-met-late.1.6
+EmptyImage[SW][7]=./images/met-a-class-met-late.1.7
+EmptyImage[W][7]=./images/met-a-class-met-late.1.0
+EmptyImage[NW][7]=./images/met-a-class-met-late.1.1
+EmptyImage[N][7]=./images/met-a-class-met-late.1.2
+EmptyImage[NE][7]=./images/met-a-class-met-late.1.3
+
+EmptyImage[E][8]=./images/met-a-class-lt.1.4
+EmptyImage[SE][8]=./images/met-a-class-lt.1.5
+EmptyImage[S][8]=./images/met-a-class-lt.1.6
+EmptyImage[SW][8]=./images/met-a-class-lt.1.7
+EmptyImage[W][8]=./images/met-a-class-lt.1.0
+EmptyImage[NW][8]=./images/met-a-class-lt.1.1
+EmptyImage[N][8]=./images/met-a-class-lt.1.2
+EmptyImage[NE][8]=./images/met-a-class-lt.1.3

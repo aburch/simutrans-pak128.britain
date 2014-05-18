@@ -1624,4 +1624,23 @@ livery[42][3] = Dan-Air-Red-Blue
 intro_year[42][3] = 1981
 intro_month[42][3] = 5
 
+livery_scheme[43] = Metropolitan
+retire_year[43] = 1933
+retire_month[43] = 1
+livery[43][0] = Metropolitan-Green
+intro_year[43][0] = 1863
+intro_month[43][0] = 1
+livery[43][1] = Metropolitan-Red
+intro_year[43][1] = 1885
+intro_month[43][1] = 5
+# Guessed - no easy information available on Metropolitan liveries. There might be more than represented here.
+livery[43][2] = Metropolitan-Late
+intro_year[43][2] = 1915
+intro_month[43][2] = 7
 
+livery_scheme[44] = District
+retire_year[44] = 1933
+retire_month[44] = 1
+livery[44][0] = District Standard
+intro_year[44][0] = 1869
+intro_month[44][0] = 4
