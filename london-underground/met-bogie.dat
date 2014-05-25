@@ -27,7 +27,7 @@ upgrade[2]=Metropolitan-Motor-Third-Middle
 
 min_loading_time=15
 max_loading_time=45
-comfort=73
+comfort=70
 
 Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear
@@ -101,7 +101,7 @@ upgrade[1]=Metropolitan-Motor-Third-Front
 
 min_loading_time=15
 max_loading_time=45
-comfort=73
+comfort=70
 
 Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear
@@ -165,7 +165,7 @@ upgrade[1]=Metropolitan-Motor-Third-Back
 
 min_loading_time=15
 max_loading_time=45
-comfort=73
+comfort=70
 
 Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear
