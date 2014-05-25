@@ -332,9 +332,15 @@
     <None Include="london-underground\1992-tube-stock-LU.dat" />
     <None Include="london-underground\1995-tube-stock.dat" />
     <None Include="london-underground\2009-tube-stock.dat" />
+    <None Include="london-underground\district-4-wheel.dat" />
     <None Include="london-underground\br-cl483.dat" />
     <None Include="london-underground\br-cl485.dat" />
     <None Include="london-underground\clr-loco.dat" />
+    <None Include="london-underground\met-a-class.dat" />
+    <None Include="london-underground\met-ashbury-1863.dat" />
+    <None Include="london-underground\met-c-class.dat" />
+    <None Include="london-underground\met-jubilee.dat" />
+    <None Include="london-underground\met-push-pull.dat" />
     <None Include="london-underground\watford-joint-stock.dat" />
     <None Include="Makefile" />
     <None Include="narrowgauge\baguely-drewery-0-6-0.dat" />
@@ -630,7 +636,6 @@
     <None Include="trains\lswr-ironclads.dat" />
     <None Include="trains\lswr-n15.dat" />
     <None Include="trains\mersey-emu.dat" />
-    <None Include="trains\met-a-class.dat" />
     <None Include="trains\milk-van.dat" />
     <None Include="trains\mr-1.dat" />
     <None Include="trains\mr-53ft-arc-carriages.dat" />
@@ -1256,7 +1261,7 @@
     <None Include="config\menuconf.tab" />
     <None Include="bus\mercedes-citaro-g.dat" />
     <None Include="bus\mercedes-citaro-k.dat" />
-    <None Include="london-underground\met-bogie-third.dat" />
+    <None Include="london-underground\met-bogie.dat" />
     <None Include="london-underground\met-class-e.dat" />
     <None Include="london-underground\met-dreadnought-third.dat" />
     <None Include="london-underground\met-motor-third-back.dat" />
