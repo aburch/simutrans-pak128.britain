@@ -28,8 +28,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[0]=0
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 # http://upload.wikimedia.org/wikipedia/commons/2/25/483004_Interior.JPG
 comfort=61
 
@@ -91,8 +91,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[0]=0
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 comfort=61
 
 Constraint[Prev][0]=BR-Class483Front
@@ -148,8 +148,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[0]=0
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 comfort=61
 
 Constraint[Prev][0]=BR-Class483NDM
@@ -208,8 +208,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[0]=0
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 comfort=61
 
 Constraint[Prev][0]=BR-Class483NDM

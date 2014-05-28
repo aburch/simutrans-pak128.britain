@@ -30,8 +30,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=11
-max_loading_time=40
+min_loading_time=16
+max_loading_time=47
 comfort=53
 
 Constraint[Prev][0]=1992TubeStockRear
@@ -92,8 +92,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=11
-max_loading_time=40
+min_loading_time=16
+max_loading_time=47
 comfort=53
 
 Constraint[Prev][0]=1992TubeStockFront
@@ -154,8 +154,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=11
-max_loading_time=40
+min_loading_time=16
+max_loading_time=47
 comfort=53
 
 Constraint[Prev][0]=1992TubeStockMiddle1
@@ -217,8 +217,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=11
-max_loading_time=40
+min_loading_time=16
+max_loading_time=47
 comfort=53
 
 Constraint[Prev][0]=1992TubeStockMiddle2

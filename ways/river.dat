@@ -1,9 +1,15 @@
+# Note that the construction costs are actually the
+# removal costs (and removal costs are half construction
+# costs, so should be doubled). The removal costs are 
+# intended to simulate the cost of putting the river 
+# into a culvert.
+#
 # Stream (unnavigable)
 # Iteration 1
 Obj=way
 Name=River0
 copyright=James
-cost=5000
+cost=750000
 maintenance=0
 topspeed=0
 max_weight=0
@@ -67,7 +73,7 @@ ImageUp2[12][1]=./images/river-0-snow.0.5
 Obj=way
 Name=River0a
 copyright=James
-cost=5000
+cost=750000
 maintenance=0
 topspeed=0
 max_weight=0
@@ -131,7 +137,7 @@ ImageUp2[12][1]=./images/river-0-snow.0.5
 Obj=way
 Name=River1
 copyright=James
-cost=10000
+cost=1500000
 maintenance=0
 topspeed=10
 topspeed_gradient_1=0
@@ -201,7 +207,7 @@ ImageUp2[12][1]=./images/river-1T0-snow.0.5
 Obj=way
 Name=River1a
 copyright=James
-cost=10000
+cost=2000000
 maintenance=0
 topspeed=10
 topspeed_gradient_1=0
@@ -342,7 +348,7 @@ ImageUp2[12][1]=./images/river-2T1-snow.0.5
 Obj=way
 Name=River2a
 copyright=James
-cost=5000000
+cost=7500000
 maintenance=0
 topspeed=22
 topspeed_gradient_1=10
@@ -412,7 +418,7 @@ ImageUp2[12][1]=./images/river-2T1-snow.0.5
 Obj=way
 Name=River2b
 copyright=James
-cost=5000000
+cost=7500000
 maintenance=0
 topspeed=22
 topspeed_gradient_1=10
@@ -483,7 +489,7 @@ ImageUp2[12][1]=./images/river-2T1-snow.0.5
 Obj=way
 Name=River3
 copyright=James
-cost=50000000
+cost=500000000
 maintenance=0
 topspeed=50
 topspeed_gradient_1=40

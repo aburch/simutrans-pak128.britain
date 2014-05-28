@@ -26,8 +26,8 @@ sound=-1
 can_lead_from_rear=1
 bidirectional=0
 
-min_loading_time=16
-max_loading_time=45
+min_loading_time=18
+max_loading_time=50
 comfort=57
 
 way_constraint_prohibitive[1]=1
@@ -78,8 +78,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=16
-max_loading_time=45
+min_loading_time=18
+max_loading_time=50
 comfort=57
 
 Constraint[Prev][0]=1983TubeStockRearUNDM
@@ -124,8 +124,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=16
-max_loading_time=45
+min_loading_time=18
+max_loading_time=50
 comfort=57
 
 Constraint[Prev][0]=1983TubeStockFrontDM
@@ -173,8 +173,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=16
-max_loading_time=45
+min_loading_time=18
+max_loading_time=50
 comfort=57
 
 Constraint[Prev][0]=1983TubeStockMiddle1
@@ -223,8 +223,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=16
-max_loading_time=45
+min_loading_time=18
+max_loading_time=50
 comfort=57
 
 Constraint[Prev][0]=1983TubeStockMiddle1
@@ -274,8 +274,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=16
-max_loading_time=45
+min_loading_time=18
+max_loading_time=50
 comfort=57
 
 Constraint[Prev][0]=1983TubeStockMiddle1

@@ -25,8 +25,8 @@ can_lead_from_rear=0
 bidirectional=1
 available_only_as_upgrade=1
 
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=30
 comfort=73
 
 Constraint[Next][0]=met-bogie-push-pull-rear
@@ -82,8 +82,8 @@ can_lead_from_rear=0
 bidirectional=1
 available_only_as_upgrade=1
 
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=30
 comfort=73
 
 Constraint[Next][0]=met-bogie-push-pull-rear
@@ -140,8 +140,8 @@ can_lead_from_rear=1
 bidirectional=1
 available_only_as_upgrade=1
 
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=30
 comfort=73
 
 Constraint[Next][0]=none
