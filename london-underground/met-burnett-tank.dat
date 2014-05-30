@@ -1,0 +1,53 @@
+# See Ahrons p. 174
+obj=vehicle
+name=Metropolitan-Burnett-Tank
+engine_type=steam
+smoke=Steam
+speed=70
+# Extrapolated
+power=146
+# Tractive effort calculated using figures from Ahrons, p. 174. Loss factor: 0.7
+# Note: This is based on the specifications in the state as modified by the Taff Vale,
+# or else the tractive effort is exceptionally high.
+tractive_effort=54
+copyright=James/jamespetts
+intro_year=1868
+intro_month=3
+retire_year=1873
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=5
+
+# Weight taken from Ahrons, p. 174
+weight=45
+axles=3
+cost=9550000
+# These were uneconomical: Ahrons, p. 174
+runningcost=955
+sound=-1
+
+bidirectional=1
+
+liverytype[0]=Metropolitan-Green
+liverytype[1]=Metropolitan-Red
+
+EmptyImage[E][0]=./images/met-burnett-tank-met-green.1.4
+EmptyImage[SE][0]=./images/met-burnett-tank-met-green.1.5
+EmptyImage[S][0]=./images/met-burnett-tank-met-green.1.6
+EmptyImage[SW][0]=./images/met-burnett-tank-met-green.1.7
+EmptyImage[W][0]=./images/met-burnett-tank-met-green.1.0
+EmptyImage[NW][0]=./images/met-burnett-tank-met-green.1.1
+EmptyImage[N][0]=./images/met-burnett-tank-met-green.1.2
+EmptyImage[NE][0]=./images/met-burnett-tank-met-green.1.3
+
+EmptyImage[E][1]=./images/met-burnett-tank-met-red.1.4
+EmptyImage[SE][1]=./images/met-burnett-tank-met-red.1.5
+EmptyImage[S][1]=./images/met-burnett-tank-met-red.1.6
+EmptyImage[SW][1]=./images/met-burnett-tank-met-red.1.7
+EmptyImage[W][1]=./images/met-burnett-tank-met-red.1.0
+EmptyImage[NW][1]=./images/met-burnett-tank-met-red.1.1
+EmptyImage[N][1]=./images/met-burnett-tank-met-red.1.2
+EmptyImage[NE][1]=./images/met-burnett-tank-met-red.1.3
+
