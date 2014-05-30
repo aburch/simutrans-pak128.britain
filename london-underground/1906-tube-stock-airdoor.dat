@@ -32,8 +32,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=15
-max_loading_time=47
+min_loading_time=17
+max_loading_time=50
 comfort=52
 
 Constraint[Prev][0]=1920TubeStockAirDoorRear
@@ -89,8 +89,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=15
-max_loading_time=47
+min_loading_time=17
+max_loading_time=50
 comfort=52
 
 Constraint[Prev][0]=1920TubeStockAirDoorFront
@@ -153,8 +153,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=15
-max_loading_time=47
+min_loading_time=17
+max_loading_time=50
 comfort=52
 
 Constraint[Prev][0]=1920TubeStockAirDoorTrailer

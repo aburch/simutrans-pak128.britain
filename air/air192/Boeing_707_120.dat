@@ -6,12 +6,13 @@ copyright=Milko/jamespetts
 waytype=air
 engine_type=diesel
 speed=885
-power=37791
-tractive_effort=211
+power=43200
+tractive_effort=240
 #gear=1
 freight=Passagiere
-payload=110
-weight=91.7
+#payload=6.9t
+payload=137
+weight=84
 #length=8
 cost=18750000
 # Turbojets are less fuel efficient than turbofans.
@@ -22,16 +23,14 @@ retire_year=1960
 retire_month=5
 comfort=140
 
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=3100
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=3400
+
 min_loading_time=2400
 max_loading_time=2400
 catering_level=4
-
-# Could not obtain accurate information;
-# extrapolated from difference between
-# 707-120 and 707-320B using information
-# here: http://en.wikipedia.org/wiki/Boeing_707#Variants
-# Not clear how accurate that this is.
-minimum_runway_length=3744
 
 sound=aircraft-jet_stop.wav
 range=5037

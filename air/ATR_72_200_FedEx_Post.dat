@@ -22,6 +22,7 @@ retire_year=1998
 retire_month=6
 
 sound=planelow.wav
+range=1528
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=1400
@@ -70,6 +71,7 @@ retire_month=06
 minimum_runway_length=1550
 
 sound=planelow.wav
+range=1528
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -114,6 +116,7 @@ retire_month=06
 minimum_runway_length=1550
 
 sound=planelow.wav
+range=1528
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

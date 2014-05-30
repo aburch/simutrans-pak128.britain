@@ -36,6 +36,7 @@ minimum_runway_length=0
 
 # Not sure that this sound is appropriate here.
 #sound=planelow.wav
+range=1400
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

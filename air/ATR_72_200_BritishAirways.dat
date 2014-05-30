@@ -28,6 +28,7 @@ catering_level=2
 minimum_runway_length=1550
 
 sound=planelow.wav
+range=1528
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

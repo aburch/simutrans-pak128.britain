@@ -22,17 +22,30 @@
 #
 use_timeline = 3
 
-# Passenger generation (the default is 16): smaller values means fewer passengers.
-# NOTE: This will need to be adjusted depending on the meters_per_tile setting.
-# 16 is calibrated to be correct for 125m/tile. This should be doubled for every
-# halving of the meters per tile setting, and halved for every doubling thereof.
+# The height of tiles for the double/half height tile system
+tile_height = 8
 
-# RESERVED FOR VERSION 12.x
-# passenger_factor = 15
- passenger_factor = 9
+height_conversion_factor = 2
 
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
 beginner_price_factor = 1500
+
+# These settings are used to calculate adjusted figures based on the length of the month. 
+# To assume a base month length based on the settings in Simutrans-Standard, use 1,000
+# base_meters_per_tile and 18 base_bits_per_month.
+# 
+# To assume a base month length of 24 hours (to allow various settings to be calibrated
+# as if months were days), use a base meters per tile of 7500
+base_meters_per_tile = 1000
+base_bits_per_month = 18
+
+# This setting determines the rate at which jobs replenish. At the default, 100, all
+# of a building's jobs replenish in exactly 1 month. At 200, it takes 2 months, and at
+# 50, it takes 1/2 a month. This is useful when calibrating the month/year scale as
+# against the hour/minute scale. If a month is timed as 6.4 hours (6:24), for example,
+# a day (24 hours) consists of 3.75 "months". For jobs to replenish once every 24 hours,
+# therefore, set this to 375 if the length of a month is 6:24.
+job_replenishment_per_hundredths_of_months = 375
 
 # Use beginner mode for new maps
 first_beginner = 0
@@ -73,69 +86,69 @@ growthfactor_villages = 1165
 growthfactor_cities = 720
 growthfactor_capitals = 420
 
-# These settings determine the proportion of passengers who travel to industries and
-# attractions respectively. 
-# REMOVE in version 12.x
-factory_worker_percentage = 15
-tourist_percentage = 8
-
-# Some passengers who are not able to find a route will be content
-# to go to an alternative destination. Set the maximum number here.
-# (Note: whether any given passenger is content to go to an alternative
-# destination, and, if so, the number, will be random. For each 
-# possible number of alternative destinations, the chances will be even.
-# For example, if the number is set at 2, there will be an equal chance
-# of passengers having 0, 1 or 2 alternative destinations).
+# Some passengers who are not able to find a route will be content to go to an alternative destination. 
+# This is set separately for visiting passengers and commuting passengers. It can either be set in
+# absolute figures using max_alternative_destinations_visiting and max_alternative_destinations_commuting,
+# or set as a proportion of the total number of jobs and total level of visitor demand, using 
+# max_alternative_destinations_per_visitor_demand_millionths and max_alternative_destinations_per_job_millionths.
+# Using the relative settings is recommended, as this scales much better to the map size.
+# 
+# This is specified as the maximum number of alternative destinations, as the actual number for any
+# given packet of passengers will be randomised between zero and this number. 
 #
-# Max: 7
-# INCREASE in version 12.x
-max_alternative_destinations = 7
+# This figure strongly affects how many passengers will travel, and also can have a significant effect on
+# the computational load.
 
-# The program will generate three groups of passengers: (1) local;
-# (2) midrange; and (3) long distance. The program will look for a town within
-# the specified distance ranges for each class of passenger. If it cannot
-# find such a town within a certain number of tries, it will pick a random town.
-# The ranges *may* overlap. These values are in kilometres. 
-# REMOVE in version 12.x
-local_passengers_min_distance = 0
-local_passengers_max_distance = 16
-midrange_passengers_min_distance = 16
-midrange_passengers_max_distance = 80
-longdistance_passengers_min_distance = 55
-longdistance_passengers_max_distance = 16384
+#max_alternative_destinations_commuting = 6
+#max_alternative_destinations_visiting = 12
 
-# The following are percentage chances. They represent the chances that
-# any passengers generated will try to find a town within each of the three
-# ranges, respectively. 
+max_alternative_destinations_per_visitor_demand_millionths = 500
+max_alternative_destinations_per_job_millionths = 675
+
+# Passengers have a maximum tolerance level for how long that they will spend travelling. 
+# Passengers are generated in two groups: commuting and visiting passengers. Commuting 
+# passengers travel to find work, whereas visiting passengers travel for other reasons, such
+# as leisure, business (i.e., travel between workplaces) and shopping. Each of these two
+# different types of passenger has a minimum and maximum journey time tolerance.
 #
-# 84% of journeys are 10 miles (16km) or under
-# 14% of journeys are 10 - 50  miles (16-80km)
-# 2% of journeys are >50 miles (80km)
-# See: http://www.sustrans.org.uk/assets/files/connect2/guidelines%2016.pdf
-# Allow for some overlap, however, between midrange and long distance.
-# REMOVE in version 12.x
-passenger_routing_local_chance = 84
-passenger_routing_midrange_chance = 12
-# (Longdistance by inference = 4)
-# passenger_routing_longdistance_chance is 100 minus the sum of the two above values,
-# but not stipulated individually. 
+# The number is  expressed in minutes. For each packet of passengers, the number of minutes
+# travelling time (including waiting time) that they are prepared to tolerate is randomised 
+# between the minimum and maximum amount using a normal distribution, meaning that the numbers
+# are more likely to be in the middle of the range than at either end.
 
-# Passengers have a maximum tolerance level for how long that they will
-# spend travelling. The further that the passengers want to go, the more
-# time that they will be prepared to spend travelling. The number is 
-# expressed in minutes. For each packet of passengers, the number of 
-# minutes travelling time (including waiting time) that they are prepared
-# to tolerate is randomised between the minimum and maximum amount using a
-# normal distribution, meaning that the numbers are more likely to be in
-# the middle of the range than at either end. The local, mid-range and
-# long-distance passenger groups correspond to those above. 
-# MODIFY in version 12.x
-min_local_tolerance = 5
-max_local_tolerance = 150
-min_midrange_tolerance = 15
-max_midrange_tolerance = 270
-min_longdistance_tolerance = 60
-max_longdistance_tolerance = 5400
+min_visiting_tolerance = 3
+range_visiting_tolerance = 5400
+min_commuting_tolerance = 20
+range_commuting_tolerance = 120
+
+# The following settings determine the way in which individual packets of passengers decide
+# what their actual journey time tolerance is, within the above ranges. The options are:
+#
+# 0 - Even distribution
+# Every point between the minimum and maximum is equally likely to be selected
+#
+# 1 - Normal distribution (http://en.wikipedia.org/wiki/Normal_distribution)
+# Points nearer the middle of the range between minimum and maximum are more likely 
+# to be selected than points nearer the end of the ranges.
+#
+# 2 - Positively skewed normal distribution (squared) (http://en.wikipedia.org/wiki/Skewness)
+# Points nearer the a point in the range that is not the middle but is nearer to the lower
+# end of the range are more likely to be selected. The distance from the middle is the skew.
+#
+# 3 - Positively skewed normal distribution (cubed)
+# As with no. 2, but the degree of skewness (the extent to which the modal point in the range
+# is nearer the beginning than the end) is considerably greater.
+#
+# 4 - Positively skewed normal distribution (squared recursive)
+# As with nos. 2 and 3 with an even greater degree of skew.
+#
+# 5 - Positively skewed normal distribution (cubed recursive)
+# As with nos. 2, 3 and 4 with a still greater degree of skew.
+#
+# 6 and over - Positively skewed normal distribution (cubed multiple recursive)
+
+random_mode_commuting = 2
+random_mode_visiting = 5
 
 # Settings for calibrating the revenue system
 #
@@ -509,8 +522,8 @@ min_factory_spacing = 2
 # Maximum distance for connected factories
 # If percentage>0, it will be in percent of the largest map dimension
 # percentage also over-rides the absolute value (which is in tiles)
-max_factory_spacing_percentage = 33
-#max_factory_spacing = 40
+max_factory_spacing_percentage = 25
+#max_factory_spacing = 1280
 
 # Some factories have a retirement date, after which they are obsolete. After
 # that date, factories may close down (random chance each month). After the number
@@ -518,24 +531,13 @@ max_factory_spacing_percentage = 33
 # chance increases the closer to this value that factories get.
 max_years_obsolete = 32
 
-# The following settings determine the minimum and maximum number of towns in which
-# workers in industries live (and thus from which they need to be transported to
-# the industries in question). 
-# REMOVE in version 12.x
-factory_worker_minimum_towns = 1
-factory_worker_maximum_towns = 6
-
 # number of periods for averaging the amount of arrived pax/mail at factories for boost calculation
 # one period represents a fixed interval of 2^18 ms in-game time
 # value can range from 1 to 16, inclusive; 1 means no averaging; default is 4
 factory_arrival_periods = 4
 
-# whether factory's pax/mail demands are enforced or not; default is on
+# whether factory's passenger and mail demands are enforced or not; the default is on (1).
 factory_enforce_demand = 1
-
-# The maximum distance in tiles from which workers at industries may travel.
-# REMOVE in version 12.x
-factory_worker_radius = 320
 
 # How much amount in transport is sent before further distribution stops
 # This is only enabled when "just_in_time" is enabled
@@ -590,6 +592,40 @@ cost_multiply_found_industry=500000
 # Multiplied by headquarters "level"
 cost_multiply_headquarter=10000
 
+# Forge cost settings
+# 
+# The forge cost settings determine the cost of building a new way, in
+# SimuCents per kilometre. This cost is charged when building a new
+# way of a specified type on a tile, but not when upgrading an existing
+# way of that same type. This therefore makes it cheaper to upgrade ways
+# than build new ones. This cost is added to the base cost of the ways
+# specified in the .dat files.
+
+forge_cost_road = 10000
+forge_cost_track = 20000
+forge_cost_water = 40000
+forge_cost_monorail = 20000
+forge_cost_maglev = 30000
+forge_cost_tram = 5000
+forge_cost_narrowgauge = 10000
+forge_cost_air = 25000
+
+# The parallel ways forge cost percentage is the percentage of the
+# forge cost that is charged when building one way of each type
+# adjacent to an already existing way of that same type. For example,
+# if this number is set to 50 for roads, the forge cost (as specified 
+# above) of building one road immediately adjacent to another is 50%
+# of the full value.
+
+parallel_ways_forge_cost_percentage_road = 50
+parallel_ways_forge_cost_percentage_track = 35
+parallel_ways_forge_cost_percentage_water = 75
+parallel_ways_forge_cost_percentage_monorail = 35
+parallel_ways_forge_cost_percentage_maglev = 40
+parallel_ways_forge_cost_percentage_tram = 85
+parallel_ways_forge_cost_percentage_narrowgauge = 35
+parallel_ways_forge_cost_percentage_air = 85
+
 # Insolvency and debt settings
 #
 # These settings allow what happens when the player runs out of money and goes
@@ -626,6 +662,35 @@ allow_purchases_when_insolvent = 0
 
 speed_bonus_multiplier_percent=100
 
+# These settings determine the population, visitor demand, jobs and mail per "level" of building.
+# Each of these things can be set independently in the buildings' .dat files, but for older paksets
+# or paksets from Standard, only a "level" will be supplied, so these conversion factors are
+# important in those cases.
+population_per_level = 4
+visitor_demand_per_level = 4
+jobs_per_level = 3
+mail_per_level = 1
+
+# These settings determine the number of passenger trips that each person makes per game month
+# and the number of items of mail that each unit of mail demand produces per month, in 1/100ths.
+# This does *not* include onward and return trips, however, and is *before* adjustment for the
+# meters per tile and bits per month scales.
+passenger_trips_per_month_hundredths = 60
+mail_packets_per_month_hundredths = 5
+
+# This setting determines the maximum number of onward trips that passengers may make on a journey.
+# The actual number of onward trips for any given packet of passengers is a random number of anywhere
+# between 1 and this figure. This is only applicable if passengers are in fact going to make an onward
+# trip, the chance of which is determined by a different setting (see below).
+max_onward_trips = 3
+
+# This figure determines how likely that it is that passengers will make any onward trips at all. It
+# is expressed in percentage terms.
+onward_trip_chance_percent = 25
+
+# This is the chance, in percentage, that any given passenger journey will be a commuting trip. Any
+# trip that is not a commuting trip is classed as a visiting trip.
+commuting_trip_chance_percent = 67
 
 ################################### Time settings ################################
 
@@ -720,6 +785,14 @@ intercity_road[4]=asphalt_road,1933,2300
 # If you want more initial intercity roads, raise this value
 
 intercity_road_length = 320
+
+# This is the maximum number of tiles that a road, river or canal
+# that is a public right of way may be diverted for an existing
+# public right of way to be deleted. Diversion allows players to
+# change the course of public rights of way to accomodate, for
+# example, railways whilst protecting their integrity.
+
+max_diversion_tiles = 16
 
 ################################ Vehicle settings ##############################
 
@@ -982,6 +1055,8 @@ no_tree_climates = 130
 no_tree = 0
 
 ################################### Network settings ##############################
+
+# Most network settings are found in the base simuconf.tab
 
 # Pakset download URL (for display on the list server)
 server_pakurl = http://www.bridgewater-brunel.me.uk/downloads/Pak128.Britain-Ex-0.9.2.zip
@@ -1549,4 +1624,23 @@ livery[42][3] = Dan-Air-Red-Blue
 intro_year[42][3] = 1981
 intro_month[42][3] = 5
 
+livery_scheme[43] = Metropolitan
+retire_year[43] = 1933
+retire_month[43] = 1
+livery[43][0] = Metropolitan-Green
+intro_year[43][0] = 1863
+intro_month[43][0] = 1
+livery[43][1] = Metropolitan-Red
+intro_year[43][1] = 1885
+intro_month[43][1] = 5
+# Guessed - no easy information available on Metropolitan liveries. There might be more than represented here.
+livery[43][2] = Metropolitan-Late
+intro_year[43][2] = 1915
+intro_month[43][2] = 7
 
+livery_scheme[44] = District
+retire_year[44] = 1933
+retire_month[44] = 1
+livery[44][0] = District-Standard
+intro_year[44][0] = 1869
+intro_month[44][0] = 4

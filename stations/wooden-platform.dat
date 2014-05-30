@@ -12,6 +12,7 @@ retire_year=1960
 Dims=1,1,16
 NoInfo=1
 Level=1
+allow_underground=0
 
 station_maintenance=4000
 station_price=75000
@@ -71,6 +72,7 @@ retire_month=3
 Dims=1,1,16
 NoInfo=1
 Level=4
+allow_underground=0
 
 station_maintenance=8500
 station_price=240000

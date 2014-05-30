@@ -103,7 +103,7 @@ BAE 146 300 Series
 BAE146_100(DanAirLondon)
 BAE 146 100 Series
 BAE146_300QT(TNT)Post
-BAE 146 300 Series (post)
+BAE 146 300 Series (mail)
 BAE146_300QT(TNT)Piece
 BAE 146 300 Series (piece goods)
 BAE146_300QT(TNT)Cool
@@ -111,7 +111,7 @@ BAE 146 300 Series (foods)
 ATR_42_320(BlueIslands)
 ATR 42 320 Series
 ATR_42_300F(FedEx)Post
-ATR 42 300 Series (post)
+ATR 42 300 Series (mail)
 ATR_42_300F(FedEx)Piece
 ATR 42 300 Series (piece goods)
 ATR_42_300F(FedEx)Cool
@@ -125,7 +125,7 @@ ATR 42 500F Series (foods)
 ATR_42_500(TitanAirways)
 ATR 42 500 Series
 ATR72_200(FedEx)Post
-ATR 72 200 Series (post)
+ATR 72 200 Series (mail)
 ATR72_200(FedEx)Piece
 ATR 72 200 Series (piece goods)
 ATR72_200(FedEx)Cool
@@ -137,7 +137,7 @@ ATR 72 500 Series
 ATR_72_500(FarnairEurope)Post
 ATR 72 500 Series
 Airbus320(AerLingus)Post
-Airbus A320 (post)
+Airbus A320 (mail)
 Airbus320(AerLingus)Piece
 Airbus A320 (piece goods)
 Airbus320(AerLingus)Cool
@@ -200,6 +200,22 @@ Zeppelin_LZ127_GrafZeppelin_Mail
 Graf Zeppelin LZ 127 (mail)
 Zeppelin_LZ10
 Zeppelin LZ 10 "Schwaben"
+Zeppelin_LZ10_Mail
+Zeppelin LZ 10 "Schwaben" (mail)
+Zeppelin_LZ6
+Zeppelin LZ 6
+HandleyPageO400
+Handley Page O/400
+HandleyPageO400_Mail
+Handley Page O/400 (mail)
+HandleyPageW8b
+Handley Page W8b
+HandleyPageW8b_Mail
+Handley Page W8b (mail)
+Douglas_DC2
+Douglas DC-2
+Douglas_DC2_Mail
+Douglas DC-2 (mail)
 Douglas_DC3
 Douglas DC-3 "Dakota"
 Douglas_DC3_Mail
@@ -509,13 +525,13 @@ Semi-detached Houses
 RES_KG_1980_01_04
 Semi-detached Houses
 RES_KG_1890_01_05
-Victorian Semi-detached Houses
+Semi-detached Houses
 RES_KG_1870_00_06
-Victorian Semi-detached Houses
+Semi-detached Houses
 RES_KG_1910_01_06
-Victorian Semi-detached Town Houses
+Semi-detached Town Houses
 RES_KG_1880_01_06
-Victorian Terraced Houses
+Terraced Houses
 RES_KG_1950_01_08
 Maisonettes
 RES_KG_1960_02_08
@@ -533,17 +549,17 @@ Block of Flats
 COM_KG_1870_00_06
 Freehouse Pub
 COM_KG_1880_02_06
-Victorian Terraced Shops
+Terraced Shops
 COM_KG_1960_00_08
 Office Block
 COM_KG_1880_01_08
-Victorian Terraced Shops
+Terraced Shops
 COM_KG_1970_00_08
 Office Unit
 COM_KG_1910_00_10
 Offices
 COM_KG_1880_00_10
-Victorian Corner Shop
+Corner Shop
 COM_KG_1970_01_14
 Office Block
 COM_KG_1980_00_16
@@ -789,7 +805,7 @@ Nelson's Column
 Fountain
 Fountain
 OldBrickSchool
-Victorian School
+School
 OldLibrary
 Library
 LittlePark1870_1
@@ -1470,22 +1486,25 @@ cider
 cider
 FreshFish
 live fish
+WroughtIron
+wrought iron
+# Plural names
 barrels
-barrels
+ barrels
 head
-head
+ head
 cars
-cars
+ cars
 tonnen
 t
 paletten
-crates
+ crates
 sack
-sacks
+ sacks
+  bundles
+  bundles
 m3
-cubic meters
-WroughtIron
-wrought iron
+kL
 #_____________________________________misc______________________________________
 #_____________________________________misc______________________________________
 PowerDest
@@ -1583,6 +1602,10 @@ Platform choose signal
 EndofChooseSignal
 End of choose signal
 Modern_EndofChooseSignal
+End of choose signal
+EndofChooseSignalNarrow
+End of choose signal
+Modern_EndofChooseSignalNarrow
 End of choose signal
 MotorwaySign
 Start of motorway sign
@@ -1739,7 +1762,9 @@ Docklands Light Railway B07 (rear)
 Metropolitan-Class-E
 Metropolitan Class E 0-4-4T
 Metropolitan-A-Class
-A Class 4-4-0T
+Metropolitan A Class 4-4-0T
+Metropolitan-C-Class
+Metropolitan C Class 0-4-4T
 Metropolitan-Vickers
 Metropolitan Vickers
 LMR-Rocket
@@ -2723,15 +2748,65 @@ LMS Class 502 EMU (rear)
 LMS-502Middle
 LMS Class 502 EMU (centre)
 Metropolitan-Motor-Third-Front
-Metropolitan 1905 Motorised Stock
+Metropolitan four compartment EMU driving carriage
 Metropolitan-Motor-Third-Middle
-Metropolitan 1905 Motorised Stock (centre)
+Metropolitan seven compartment EMU centre carriage
 Metropolitan-Motor-Third-Back
-Metropolitan 1905 Motorised Stock (rear)
-Metropolitan-Bogie-Third
-Metropolitan Bogie Carriage
-Metropolitan-Dreadnought-Third
-Metropolitan "Dreadnought" Carriage
+Metropolitan four compartment EMU driving carriage (rear)
+met-mv-stock-front
+Metropolitan MV Stock EMU
+met-mv-stock-centre
+Metropolitan MV Stock EMU (trailer)
+met-mv-stock-rear
+Metropolitan MV Stock EMU (rear)
+met-bogie-third
+Metropolitan seven compartment bogie carriage
+met-bogie-brake-front
+Metropolitan five compartment bogie brake carriage
+met-bogie-brake-rear
+Metropolitan five compartment bogie brake carriage (rear)
+met-bogie-push-pull-centre
+Metropolitan seven compartment bogie carriage (push pull)
+met-bogie-push-pull-front
+Metropolitan five compartment bogie brake carriage (push pull)
+met-bogie-push-pull-rear
+Metropolitan six compartment bogie driving carriage (push pull)
+met-dreadnought-third
+Metropolitan nine compartment bogie "Dreadnought" carriage
+met-dreadnought-brake-front
+Metropolitan seven compartment bogie "Dreadnought" brake carriage
+met-dreadnought-brake-rear
+Metropolitan seven compartment bogie "Dreadnought" brake carriage (rear)
+met-ashbury-1863-third-unfitted
+Metropolitan eight wheel (radial) eight compartment carriage
+met-ashbury-1863-brake-front-unfitted
+Metropolitan eight wheel (radial) five compartment brake carriage
+met-ashbury-1863-brake-rear-unfitted
+Metropolitan eight wheel (radial) five compartment brake carriage (rear)
+met-ashbury-1863-third-fitted
+Metropolitan eight wheel (radial) eight compartment carriage (continuously braked)
+met-ashbury-1863-brake-front-fitted
+Metropolitan eight wheel (radial) five compartment brake carriage (continuously braked)
+met-ashbury-1863-brake-rear-fitted
+Metropolitan eight wheel (radial) five compartment brake carriage (rear) (continuously braked)
+district-4-wheel-third-unfitted
+District four wheel four compartment carriage
+district-4-wheel-brake-front-unfitted
+District four wheel two compartment brake carriage
+district-4-wheel-brake-rear-unfitted
+District four wheel two compartment brake carriage (rear)
+district-4-wheel-third-fitted
+District four wheel four compartment carriage (continuously braked)
+district-4-wheel-brake-front-fitted
+District four wheel two compartment brake carriage (continuously braked)
+district-4-wheel-brake-rear-fitted
+District four wheel two compartment brake carriage (rear) (continuously braked)
+met-jubilee-third
+Metropolitan four wheel five compartment "Jubilee" carriage
+met-jubilee-brake-front
+Metropolitan four wheel three compartment "Jubilee" brake carriage
+met-jubilee-brake-rear
+Metropolitan four wheel three compartment "Jubilee" brake carriage (rear)
 BR-465Front(NSE)
 BR Class 465 "Networker" EMU
 BR-465Middle(NSE)
@@ -5549,7 +5624,7 @@ Ultraspeed Class M30 "Platinum Jubilee" (rear)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
 plateway
-Plateway
+Waggonway
 cast_iron_track
 Cast iron track
 wrought_iron_light_track
@@ -5588,6 +5663,8 @@ cssri
 Steel track (fast) - continuously welded (130lb/yard)
 tgv
 Steel track (high speed) - hard base (60kg/m)
+rail-mothballed
+Mothballed railway track
 cast_iron_N
 Cast iron narrow gauge track
 wrought_iron_N
@@ -5596,6 +5673,8 @@ wssrN
 Steel narrow gauge track (40lb/yard)
 wssrN-improved
 Steel narrow gauge track (60lb/yard)
+rail-narrow-mothballed
+Mothballed narrowgauge track
 asphalt_road
 Asphalt road
 city_road
@@ -5633,7 +5712,9 @@ Steel tramway track (92lb/yard)
 TramTrack-98lb
 Steel tramway track (98lb/yard)
 TramTrackHeavy
-Heavy rail compatible tramway tracks
+Heavy rail compatible tramway track
+TramTrack-mothballed
+Mothballed tramway track
 GrassTaxiway
 Grass taxiway
 taxiway
@@ -6049,6 +6130,20 @@ Prohibitive 6
 Large ship canal/large river
 Prohibitive 7
 [Unused] Prohibitive 7
+#_____________________________________Climates_____________________________________
+#_____________________________________Climates_____________________________________
+temperate
+Lowlands
+tundra
+Uplands
+desert
+Beach
+Mediterranean
+Coastal plains
+rocky
+Mountain
+arctic
+Mountain peak
 #___________________________________Livery schemes___________________________________
 #___________________________________Livery schemes___________________________________
 British-Railways
@@ -6131,3 +6226,7 @@ BA
 British Airways
 Dan-Air
 Dan Air
+Metropolitan
+Metropolitan Rly.
+District
+District Rly.

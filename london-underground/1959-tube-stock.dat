@@ -25,8 +25,8 @@ sound=-1
 can_lead_from_rear=1
 bidirectional=0
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 comfort=58
 
 way_constraint_prohibitive[1]=1
@@ -70,8 +70,8 @@ sound=-1
 can_lead_from_rear=0
 bidirectional=1
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 comfort=58
 
 way_constraint_prohibitive[1]=1
@@ -118,8 +118,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 comfort=58
 
 Constraint[Prev][0]=1959TubeStockMiddle1
@@ -166,8 +166,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 comfort=58
 
 Constraint[Prev][0]=1959TubeStockMiddle1

@@ -7,7 +7,8 @@ speed=40
 power=3500
 #gear=1200
 freight=vegetables
-payload=925
+# http://en.wikipedia.org/wiki/Handysize
+payload=20000
 weight=500
 length=16
 cost=67500000
@@ -50,7 +51,8 @@ speed=40
 power=3500
 #gear=1200
 freight=Autos
-payload=925
+# Guessed - no research available
+payload=2000
 weight=500
 length=16
 cost=67500000
@@ -93,7 +95,8 @@ speed=40
 power=3500
 #gear=1200
 freight=fish
-payload=925
+# http://en.wikipedia.org/wiki/Handysize
+payload=20000
 weight=500
 length=16
 cost=67500000
@@ -137,7 +140,8 @@ speed=40
 power=3500
 #gear=1200
 freight=Oel
-payload=925
+# http://stevesmaritime.com/tanker.html
+payload=20000
 weight=500
 length=16
 cost=67500000
@@ -171,7 +175,8 @@ speed=40
 power=3500
 #gear=1200
 freight=livestock
-payload=925
+# Guessed figure - no research available.
+payload=4000
 weight=500
 length=16
 cost=67500000
@@ -205,7 +210,8 @@ speed=40
 power=3500
 #gear=1200
 freight=Kohle
-payload=925
+# http://en.wikipedia.org/wiki/Handysize
+payload=20000
 weight=500
 length=16
 cost=67500000
@@ -290,7 +296,8 @@ speed=40
 power=3500
 #gear=1200
 freight=Bretter
-payload=925
+# http://en.wikipedia.org/wiki/Handysize
+payload=20000
 weight=500
 length=16
 cost=67500000

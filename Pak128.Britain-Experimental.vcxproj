@@ -23,6 +23,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110_xp</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -85,8 +86,6 @@
     <None Include="air\air192\Boeing_727_200Adv_DHL_Yellow.dat" />
     <None Include="air\air192\Boeing_727_200Adv_TNT.dat" />
     <None Include="air\air192\Boeing_727_200_BritishAirWays.dat" />
-    <None Include="air\air192\Boeing_727_200_DHL_Yellow.dat" />
-    <None Include="air\air192\Boeing_727_200_TNT.dat" />
     <None Include="air\air256\Boeing_747_100_BOAC.dat" />
     <None Include="air\air256\Boeing_747_200F_SeaboardWorld.dat" />
     <None Include="air\air256\Boeing_747_200_BritishCaledonian.dat" />
@@ -120,6 +119,12 @@
     <None Include="air\Fokker_F27_200_AirAnglia.dat" />
     <None Include="air\Ford_Trimotor_NSA.dat" />
     <None Include="air\Ford_Trimotor_RoyalMail.dat" />
+    <None Include="air\HandleyPageO400_Verde.dat" />
+    <None Include="air\HandleyPage_O400.dat" />
+    <None Include="air\HandleyPage_W8b.dat" />
+    <None Include="air\HandleyPageW8b_Mail.dat" />
+    <None Include="air\Douglas_DC2.dat" />
+    <None Include="air\Douglas_DC2_Mail.dat" />
     <None Include="air\Vickers_Viscount_757_Cambrian.dat" />
     <None Include="air\Vickers_Viscount_802_BEA.dat" />
     <None Include="attractions\library.dat" />
@@ -164,6 +169,7 @@
     <None Include="boats\holds\channel-paddle-steamer-holds.dat" />
     <None Include="boats\holds\channel-screw-steamship-holds.dat" />
     <None Include="boats\holds\clipper-holds.dat" />
+    <None Include="boats\holds\clyde-cargo-steamer-holds.dat" />
     <None Include="boats\holds\coastal-steamer-holds.dat" />
     <None Include="boats\holds\east-indiaman-holds.dat" />
     <None Include="boats\holds\market-barge-mail.dat" />
@@ -326,9 +332,16 @@
     <None Include="london-underground\1992-tube-stock-LU.dat" />
     <None Include="london-underground\1995-tube-stock.dat" />
     <None Include="london-underground\2009-tube-stock.dat" />
+    <None Include="london-underground\district-4-wheel.dat" />
     <None Include="london-underground\br-cl483.dat" />
     <None Include="london-underground\br-cl485.dat" />
     <None Include="london-underground\clr-loco.dat" />
+    <None Include="london-underground\met-a-class.dat" />
+    <None Include="london-underground\met-ashbury-1863.dat" />
+    <None Include="london-underground\met-c-class.dat" />
+    <None Include="london-underground\met-jubilee.dat" />
+    <None Include="london-underground\met-mv-stock.dat" />
+    <None Include="london-underground\met-push-pull.dat" />
     <None Include="london-underground\watford-joint-stock.dat" />
     <None Include="Makefile" />
     <None Include="narrowgauge\baguely-drewery-0-6-0.dat" />
@@ -373,6 +386,7 @@
     <None Include="narrowgauge\whr-buffet.dat" />
     <None Include="narrowgauge\whr-open.dat" />
     <None Include="pak1file\128\outside.dat" />
+    <None Include="pedestrians\Pedestrians.dat" />
     <None Include="stations\art-deco-underground-station.dat" />
     <None Include="stations\brick-platform-narrow.dat" />
     <None Include="stations\brick-platform.dat" />
@@ -623,7 +637,6 @@
     <None Include="trains\lswr-ironclads.dat" />
     <None Include="trains\lswr-n15.dat" />
     <None Include="trains\mersey-emu.dat" />
-    <None Include="trains\met-a-class.dat" />
     <None Include="trains\milk-van.dat" />
     <None Include="trains\mr-1.dat" />
     <None Include="trains\mr-53ft-arc-carriages.dat" />
@@ -1249,7 +1262,7 @@
     <None Include="config\menuconf.tab" />
     <None Include="bus\mercedes-citaro-g.dat" />
     <None Include="bus\mercedes-citaro-k.dat" />
-    <None Include="london-underground\met-bogie-third.dat" />
+    <None Include="london-underground\met-bogie.dat" />
     <None Include="london-underground\met-class-e.dat" />
     <None Include="london-underground\met-dreadnought-third.dat" />
     <None Include="london-underground\met-motor-third-back.dat" />
@@ -1350,6 +1363,8 @@
     <None Include="citybuildings\res-90.dat" />
     <None Include="bus\rf-coach.dat" />
     <None Include="bus\rf.dat" />
+    <None Include="ways\rail-mothballed.dat" />
+    <None Include="ways\rail-narrow-mothballed.dat" />
     <None Include="ways\river.dat" />
     <None Include="trains\rm-325back-rm.dat" />
     <None Include="trains\rm-325front-rm.dat" />

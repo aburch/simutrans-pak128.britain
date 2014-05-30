@@ -11,6 +11,7 @@ retire_month=12
 Dims=1,1,16
 NoInfo=1
 Level=1
+allow_underground=0
 
 station_maintenance=2700
 station_price=180000
@@ -69,6 +70,7 @@ retire_month=12
 Dims=1,1,16
 NoInfo=1
 Level=2
+allow_underground=0
 
 station_maintenance=3600
 station_price=360000
@@ -128,6 +130,7 @@ retire_month=12
 Dims=1,1,16
 NoInfo=1
 Level=4
+allow_underground=0
 
 station_maintenance=5760
 station_price=576000

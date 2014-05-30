@@ -22,8 +22,8 @@ sound=-1
 can_lead_from_rear=0
 bidirectional=1
 
-min_loading_time=17
-max_loading_time=47
+min_loading_time=10
+max_loading_time=30
 comfort=74
 
 Constraint[Next][0]=4-wheel-1870s-fitted
@@ -187,11 +187,11 @@ sound=-1
 upgrade[0]=MR-push-pull-front
 upgrade[1]=MR-push-pull-rear
 
-can_lead_from_front=0
+can_lead_from_rear=0
 bidirectional=1
 
-min_loading_time=17
-max_loading_time=47
+min_loading_time=10
+max_loading_time=30
 comfort=74
 
 Constraint[Next][0]=4-wheel-1870s-fitted
@@ -296,8 +296,8 @@ upgrade[1]=MR-push-pull-rear
 can_lead_from_rear=0
 bidirectional=1
 
-min_loading_time=17
-max_loading_time=47
+min_loading_time=10
+max_loading_time=30
 comfort=74
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
@@ -398,8 +398,8 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=30
 comfort=74
 
 Constraint[Next][0]=MR-1632
@@ -445,8 +445,8 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=30
 comfort=74
 
 Constraint[Next][0]=none

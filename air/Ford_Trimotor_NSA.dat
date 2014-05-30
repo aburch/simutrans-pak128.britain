@@ -17,8 +17,9 @@ intro_month=6
 # http://www.bagophily.com/images/ford_trimotor_01.jpg
 comfort=69
 catering_level=1
-# Change retire year to 1933 when more vehicles available
-retire_year=1965
+# Change to 1933 when other aircraft become available. (Perhaps the Boeing 247)
+# Currently, the next aircraft, the DC-2, is available from 1934.
+retire_year=1934
 retire_month=7
 smoke=Diesel
 
@@ -31,6 +32,7 @@ max_loading_time=1800
 minimum_runway_length=1750
 
 sound=planelow.wav
+range=885
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

@@ -31,6 +31,7 @@ max_loading_time=3200
 minimum_runway_length=3500
 
 sound=aircraft-jet_stop.wav
+range=13450
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
