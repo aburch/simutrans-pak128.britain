@@ -1,5 +1,6 @@
-obj=vehicle
+# http://basilicafields.wordpress.com/2010/03/22/metropoliatn-4-4-0t/
 # Mainly used by the Met, but also used by the LNWR, MR and LSWR: Ahrons p. 156
+obj=vehicle
 name=Metropolitan-A-Class
 engine_type=steam
 smoke=Steam
@@ -10,9 +11,9 @@ power=129
 tractive_effort=42
 copyright=James/jamespetts
 intro_year=1864
-intro_month=9
-retire_year=1886
-retire_month=2
+intro_month=6
+retire_year=1885
+retire_month=10
 waytype=track
 freight=None
 payload=0
