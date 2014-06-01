@@ -24,12 +24,14 @@ increase_maintenance_after_years=25
 Constraint[Prev][0]=LMR-Patentee
 Constraint[Prev][1]=LMR-Bird
 
-EmptyImage[E]=./images/lmr-patentee.1.0
-EmptyImage[SE]=./images/lmr-patentee.1.1
-EmptyImage[S]=./images/lmr-patentee.1.2
-EmptyImage[SW]=./images/lmr-patentee.1.3
-EmptyImage[W]=./images/lmr-patentee.1.4
-EmptyImage[NW]=./images/lmr-patentee.1.5
-EmptyImage[N]=./images/lmr-patentee.1.6
-EmptyImage[NE]=./images/lmr-patentee.1.7
+# Did this once have separate graphics? The .blend file cannot be found.
+EmptyImage[E]=./images/lmr-planet-tender.1.4
+EmptyImage[SE]=./images/lmr-planet-tender.1.5
+EmptyImage[S]=./images/lmr-planet-tender.1.6
+EmptyImage[SW]=./images/lmr-planet-tender.1.7
+EmptyImage[W]=./images/lmr-planet-tender.1.0
+EmptyImage[NW]=./images/lmr-planet-tender.1.1
+EmptyImage[N]=./images/lmr-planet-tender.1.2
+EmptyImage[NE]=./images/lmr-planet-tender.1.3
+
 
