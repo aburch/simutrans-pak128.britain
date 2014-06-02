@@ -31,7 +31,7 @@ cost=5280000
 runningcost=330
 sound=-1
 
-Constraint[Next]=SDR-Derwent-Tender
+Constraint[Next][0]=SDR-Derwent-Tender
 
 EmptyImage[E]=./images/sdr-derwent.1.4
 EmptyImage[SE]=./images/sdr-derwent.1.5
