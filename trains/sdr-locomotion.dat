@@ -16,7 +16,7 @@ retire_month=8
 waytype=track
 freight=None
 payload=0
-length=3
+length=2
 brake_force=0
 rolling_resistance=19
 
@@ -29,12 +29,11 @@ increase_maintenance_after_years=25
 
 Constraint[Next][0]=SDR-Locomotion-Tender
 
-EmptyImage[E]=./images/sdr-locomotion.0.0
-EmptyImage[SE]=./images/sdr-locomotion.0.1
-EmptyImage[S]=./images/sdr-locomotion.0.2
-EmptyImage[SW]=./images/sdr-locomotion.0.3
-EmptyImage[W]=./images/sdr-locomotion.0.4
-EmptyImage[NW]=./images/sdr-locomotion.0.5
-EmptyImage[N]=./images/sdr-locomotion.0.6
-EmptyImage[NE]=./images/sdr-locomotion.0.7
-
+EmptyImage[E]=./images/sdr-locomotion.1.4
+EmptyImage[SE]=./images/sdr-locomotion.1.5
+EmptyImage[S]=./images/sdr-locomotion.1.6
+EmptyImage[SW]=./images/sdr-locomotion.1.7
+EmptyImage[W]=./images/sdr-locomotion.1.0
+EmptyImage[NW]=./images/sdr-locomotion.1.1
+EmptyImage[N]=./images/sdr-locomotion.1.2
+EmptyImage[NE]=./images/sdr-locomotion.1.3
