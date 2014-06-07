@@ -17,7 +17,7 @@ retire_month=10
 waytype=track
 freight=None
 payload=0
-length=4
+length=2
 brake_force=0
 rolling_resistance=19
 
@@ -30,12 +30,11 @@ increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Rocket-Tender
 
-EmptyImage[E]=./images/lmr-rocket.0.0
-EmptyImage[SE]=./images/lmr-rocket.0.1
-EmptyImage[S]=./images/lmr-rocket.0.2
-EmptyImage[SW]=./images/lmr-rocket.0.3
-EmptyImage[W]=./images/lmr-rocket.0.4
-EmptyImage[NW]=./images/lmr-rocket.0.5
-EmptyImage[N]=./images/lmr-rocket.0.6
-EmptyImage[NE]=./images/lmr-rocket.0.7
-
+EmptyImage[E]=./images/lmr-rocket.1.4
+EmptyImage[SE]=./images/lmr-rocket.1.5
+EmptyImage[S]=./images/lmr-rocket.1.6
+EmptyImage[SW]=./images/lmr-rocket.1.7
+EmptyImage[W]=./images/lmr-rocket.1.0
+EmptyImage[NW]=./images/lmr-rocket.1.1
+EmptyImage[N]=./images/lmr-rocket.1.2
+EmptyImage[NE]=./images/lmr-rocket.1.3
