@@ -1,5 +1,5 @@
 obj=vehicle
-name=SDR-1001(Green)
+name=SDR-1001
 engine_type=steam
 smoke=Steam
 speed=45
@@ -28,14 +28,14 @@ cost=3548160
 runningcost=700
 sound=-1
 
-Constraint[Next][0]=SDR-1001-Tender(Green)
+Constraint[Next][0]=SDR-1001-Tender
 
-EmptyImage[E]=./images/sdr-1001.0.0
-EmptyImage[SE]=./images/sdr-1001.0.1
-EmptyImage[S]=./images/sdr-1001.0.2
-EmptyImage[SW]=./images/sdr-1001.0.3
-EmptyImage[W]=./images/sdr-1001.0.4
-EmptyImage[NW]=./images/sdr-1001.0.5
-EmptyImage[N]=./images/sdr-1001.0.6
-EmptyImage[NE]=./images/sdr-1001.0.7
+EmptyImage[E]=./images/sdr-1001.1.4
+EmptyImage[SE]=./images/sdr-1001.1.5
+EmptyImage[S]=./images/sdr-1001.1.6
+EmptyImage[SW]=./images/sdr-1001.1.7
+EmptyImage[W]=./images/sdr-1001.1.0
+EmptyImage[NW]=./images/sdr-1001.1.1
+EmptyImage[N]=./images/sdr-1001.1.2
+EmptyImage[NE]=./images/sdr-1001.1.3
 
