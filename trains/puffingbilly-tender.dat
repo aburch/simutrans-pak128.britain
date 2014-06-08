@@ -10,7 +10,7 @@ retire_month=8
 waytype=track
 freight=None
 payload=0
-length=2
+length=3
 brake_force=1
 rolling_resistance=19
 
@@ -23,7 +23,7 @@ increase_maintenance_after_years=42
 
 Constraint[Prev][0]=PuffingBilly
 
-EEmptyImage[E]=./images/sdr-locomotion-tender.1.4
+EmptyImage[E]=./images/sdr-locomotion-tender.1.4
 EmptyImage[SE]=./images/sdr-locomotion-tender.1.5
 EmptyImage[S]=./images/sdr-locomotion-tender.1.6
 EmptyImage[SW]=./images/sdr-locomotion-tender.1.7
