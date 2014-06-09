@@ -1,4 +1,6 @@
 # See: http://www.festipedia.org.uk/wiki/Carriage_25
+# Note: this is *not* the open-sided carriage, which would
+# have a comfort of 23.
 
 obj=vehicle
 name=WHR-open
@@ -19,7 +21,7 @@ axles=4
 cost=575000
 runningcost=19
 sound=-1
-comfort=23
+comfort=40
 available_only_as_upgrade=0
 
 can_lead_from_rear=0

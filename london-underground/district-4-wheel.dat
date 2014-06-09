@@ -26,7 +26,7 @@ upgrade[0]=district-4-wheel-third-fitted
 
 min_loading_time=10
 max_loading_time=30
-comfort=45
+comfort=39
 
 Constraint[Next][0]=met-ashbury-1863-third-unfitted
 Constraint[Next][1]=met-ashbury-1863-brake-rear-unfitted
@@ -89,7 +89,7 @@ upgrade[0]=district-4-wheel-brake-front-fitted
 
 min_loading_time=10
 max_loading_time=30
-comfort=45
+comfort=39
 
 Constraint[Next][0]=met-ashbury-1863-third-unfitted
 Constraint[Next][1]=met-ashbury-1863-brake-rear-unfitted
@@ -148,7 +148,7 @@ upgrade[0]=district-4-wheel-brake-rear-fitted
 
 min_loading_time=10
 max_loading_time=30
-comfort=45
+comfort=39
 
 Constraint[Next][0]=met-ashbury-1863-third-unfitted
 Constraint[Next][1]=met-ashbury-1863-brake-rear-unfitted
@@ -211,7 +211,7 @@ bidirectional=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=45
+comfort=39
 
 Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear
@@ -285,7 +285,7 @@ bidirectional=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=45
+comfort=39
 
 liverytype[0]=District-Standard
 liverytype[1]=LT
@@ -349,7 +349,7 @@ bidirectional=1
 
 min_loading_time=10
 max_loading_time=30
-comfort=45
+comfort=39
 
 liverytype[0]=District-Standard
 liverytype[1]=LT
