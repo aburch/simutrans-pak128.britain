@@ -47,6 +47,8 @@ min_fields=7
 needs_ground=1
 
 has_snow[0]=1
+upgrade[0]=SheepFarm1840
+upgrade[1]=SheepFarm1910
 --------------------
 Obj=field
 name=SheepField
@@ -102,7 +104,8 @@ max_fields=28
 min_fields=16
 needs_ground=1
 has_snow[0]=1
-
+upgrade[0]=SheepFarm1910
+upgrade[1]=SheepFarm1945
 --------------------
 Obj=factory
 name=SheepFarm1910
@@ -149,6 +152,8 @@ max_fields=36
 min_fields=25
 needs_ground=1
 has_snow[0]=1
+upgrade[0]=SheepFarm1945
+upgrade[1]=SheepFarm1975
 --------------------
 Obj=factory
 name=SheepFarm1945
@@ -196,6 +201,7 @@ max_fields=48
 min_fields=36
 needs_ground=1
 has_snow[0]=1
+upgrade[0]=SheepFarm1975
 
 --------------------
 Obj=factory

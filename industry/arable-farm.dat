@@ -51,6 +51,8 @@ max_fields=25
 min_fields=7
 has_snow[0]=1
 spawn_weight[0]=100
+upgrade[0]=ArableFarm1840
+upgrade[1]=ArableFarm1910
 --------------------
 Obj=field
 name=VegetableField
@@ -109,6 +111,8 @@ production_per_field[0]=1
 max_fields=35
 min_fields=11
 has_snow[0]=1
+upgrade[0]=ArableFarm1910
+upgrade[1]=ArableFarm1945
 -------------------------------
 Obj=factory
 name=ArableFarm1910
@@ -159,6 +163,8 @@ production_per_field[0]=1
 max_fields=40
 min_fields=20
 has_snow[0]=1
+upgrade[0]=ArableFarm1945
+upgrade[1]=ArableFarm1975
 --------------------
 Obj=factory
 name=ArableFarm1945
@@ -209,7 +215,7 @@ production_per_field[0]=2
 max_fields=50
 min_fields=16
 has_snow[0]=1
-
+upgrade[0]=ArableFarm1975
 --------------------
 Obj=factory
 name=ArableFarm1975
