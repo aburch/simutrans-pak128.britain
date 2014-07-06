@@ -29,11 +29,11 @@ upgrade[0]=BR-Class28-2
 
 # Red circle
 Constraint[Prev][0]=BR-Class16
-#Constraint[Prev][X]=BR-Class21
-Constraint[Prev][1]=BR-Class28
-#Constraint[Prev][X]=BR-Class29
-Constraint[Prev][2]=BR-Class30
-Constraint[Prev][3]=none
+Constraint[Prev][1]=BR-Class21
+Constraint[Prev][2]=BR-Class28
+Constraint[Prev][3]=BR-Class29
+Constraint[Prev][4]=BR-Class30
+Constraint[Prev][5]=none
 
 liverytype[0]=BR-Early
 
@@ -81,11 +81,11 @@ available_only_as_upgrade=1
 
 # Red circle
 Constraint[Prev][0]=BR-Class16
-#Constraint[Prev][X]=BR-Class21
-Constraint[Prev][1]=BR-Class28
-#Constraint[Prev][X]=BR-Class29
-Constraint[Prev][2]=BR-Class30
-Constraint[Prev][3]=none
+Constraint[Prev][1]=BR-Class21
+Constraint[Prev][2]=BR-Class28
+Constraint[Prev][3]=BR-Class29
+Constraint[Prev][4]=BR-Class30
+Constraint[Prev][5]=none
 
 liverytype[0]=BR-Early
 
