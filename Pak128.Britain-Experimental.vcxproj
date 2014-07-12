@@ -467,6 +467,7 @@
     <None Include="trains\br-150-rr.dat" />
     <None Include="trains\br-202.dat" />
     <None Include="trains\br-210.dat" />
+    <None Include="trains\br-302.dat" />
     <None Include="trains\br-307.dat" />
     <None Include="trains\br-312.dat" />
     <None Include="trains\br-321.dat" />
@@ -494,10 +495,13 @@
     <None Include="trains\br-cl28.dat" />
     <None Include="trains\br-cl29.dat" />
     <None Include="trains\br-cl33.dat" />
+    <None Include="trains\br-cl41.dat" />
+    <None Include="trains\br-cl42.dat" />
     <None Include="trains\br-cl45.dat" />
     <None Include="trains\br-cl50.dat" />
     <None Include="trains\br-cl60.dat" />
     <None Include="trains\br-cl09.dat" />
+    <None Include="trains\br-cl62.dat" />
     <None Include="trains\br-derby-lightweight.dat" />
     <None Include="trains\br-mk1-bsk.dat" />
     <None Include="trains\br-mk1-bso.dat" />
@@ -1458,6 +1462,7 @@
     <None Include="trains\sr-wc-4-6-2-rebuilt.dat" />
     <None Include="trains\sr-wc-4-6-2.dat" />
     <None Include="ways\signals_maglev.dat" />
+    <None Include="ways\speedsignal.dat" />
     <None Include="ways\sssr.dat" />
     <None Include="bus\stage-wagons.dat" />
     <None Include="bus\stagecoach.dat" />

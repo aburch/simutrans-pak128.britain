@@ -1885,8 +1885,6 @@ BR-Class20
 BR Class 20
 BR-Class21
 BR Class 21
-BR-Class29
-BR Class 29
 BR-Class24
 BR Class 24
 BR-Class25
@@ -1899,37 +1897,53 @@ BR-Class28
 BR Class 28 "Co-Bo"
 BR-Class28-2
 BR Class 28/2
+BR-Class29
+BR Class 29
 BR-Class30
 BR Class 30
 BR-Class31-1
 BR Class 31
 BR-Class33
 BR Class 33
-BR-Class66
-BR Class 66
-BR-Class56
-BR Class 56
-BR-Class58
-BR Class 58
-BR-Class60
-BR Class 60
 BR-Class37
 BR Class 37
 BR-Class35
 BR Class 35 "Hymek"
-BR-Class52
-BR Class 52 "Western"
-BR-Class47
-BR Class 47
 BR-Class40
 BR Class 40
+BR-Class41
+BR Class 41
+BR-Class42
+BR Class 42 "Warship"
+BR-Class43
+BR Class 43 "InterCity 125"
+BR-Class43Rear
+BR Class 43 "InterCity 125" (rear)
 BR-Class45
 BR Class 45
+BR-Class47
+BR Class 47
 BR-Class50
 BR Class 50
+BR-Class52
+BR Class 52 "Western"
 BR-Class55
 BR Class 55 "Deltic"
-BR-Class71(Green)
+BR-Class56
+BR Class 56
+BR-Class57
+BR Class 57
+BR-Class58
+BR Class 58
+BR-Class60
+BR Class 60
+BR-Class62
+BR Class 62 "Kestrel"
+BR-Class66
+BR Class 66
+BR-Class67
+BR Class 67
+BR-Class71
 BR Class 71
 BR-Class73
 BR Class 73
@@ -1942,7 +1956,7 @@ BR Class 87
 BR-Class90
 BR Class 90
 BR-Class91
-BR Class 91 "225"
+BR Class 91 "Electra"
 BR-Class92
 BR Class 92
 BR-370FrontPower(IC)
@@ -2851,10 +2865,6 @@ BR-166Middle-Trolley(NSE)
 BR Class 166 "Network Express" DMU (middle, with trolley service)
 BR-166Rear(NSE)
 BR Class 166 "Network Express" DMU (rear)
-BR-Class43
-BR Class 43 "InterCity 125"
-BR-Class43Rear
-BR Class 43 "InterCity 125" (rear)
 BR-Mk3-DVT
 BR Mk.3 DVT
 BR-Mk4-DVT
@@ -3337,8 +3347,6 @@ LMS-10000
 LMS 10000 Class
 BR-Class10800
 BR 10800 Class
-BR-Class67
-BR Class 67
 Single-Shire
 Single Shire Horse
 Twin-Shire
@@ -3579,6 +3587,14 @@ BR-307(centre2)
 BR Class 307 EMU (centre trailer)
 BR-307(rear)
 BR Class 307 EMU (rear)
+BR-302(front)
+BR Class 302 EMU
+BR-302(rear)
+BR Class 302 EMU (rear)
+BR-302(centre1)
+BR Class 302 EMU (motor)
+BR-302(centre2)
+BR Class 302 EMU (centre)
 BR-304Front
 BR Class 304 EMU
 BR-304Centre-Trailer
@@ -3591,8 +3607,6 @@ BR-2MT-Tank
 BR Standard Class 2MT 2-6-2T
 BR-2MT-Tank-Push-Pull
 BR Standard Class 2MT 2-6-2T (push pull)
-BR-Class57
-BR Class 57
 BR-4MT-4-6-0
 BR Standard Class 4MT 4-6-0
 BR-4MT-Tender
@@ -5999,6 +6013,12 @@ Underground_preSignals_right
 Underground pre-signal
 Underground_ChooseSignals_right
 Underground choose signal
+60minspeed
+Min. 60km/h restriction
+100minspeed
+Min. 100km/h restriction
+121minspeed
+Min. 121km/h restriction
 #_________________City cars_______________________
 #_________________City cars_______________________
 AustinMetro(Blue)

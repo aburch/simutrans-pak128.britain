@@ -1,0 +1,50 @@
+# 60 Min speed
+obj=roadsign
+copyright=Junna
+name=60minspeed
+waytype=track
+cost=800
+minspeed=60
+intro_year=1841
+intro_month=3
+allow_underground=2
+Image[0]=minspeed.0.2
+Image[1]=minspeed.0.0
+Image[2]=minspeed.0.3
+Image[3]=minspeed.0.1
+Icon=> signals_0.1.8
+Cursor=signals_0.1.9
+---------------------------------------
+# 100 Min speed
+obj=roadsign
+copyright=Junna
+name=100minspeed
+waytype=track
+cost=800
+minspeed=100
+intro_year=1855
+intro_month=7
+allow_underground=2
+Image[0]=minspeed.0.2
+Image[1]=minspeed.0.0
+Image[2]=minspeed.0.3
+Image[3]=minspeed.0.1
+Icon=> signals_0.1.8
+Cursor=signals_0.1.9
+--------------------------------------
+# 121 Min speed
+obj=roadsign
+copyright=Junna
+name=121minspeed
+waytype=track
+cost=800
+minspeed=121
+intro_year=1870
+intro_month=1
+allow_underground=2
+Image[0]=minspeed.0.2
+Image[1]=minspeed.0.0
+Image[2]=minspeed.0.3
+Image[3]=minspeed.0.1
+Icon=> signals_0.1.8
+Cursor=signals_0.1.9
