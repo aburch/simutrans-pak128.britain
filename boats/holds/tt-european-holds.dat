@@ -12,6 +12,10 @@ retire_month=1
 
 length=3
 
+# 30-45 minutes
+min_loading_time=1800
+max_loading_time=2700
+
 Constraint[Prev][0]=TTEuropeanFreight
 Constraint[Prev][1]=TTEuropeanFreightAddMail
 Constraint[Prev][2]=TTEuropeanFreightAddPiece
@@ -54,6 +58,10 @@ retire_month=1
 
 length=3
 
+# 30-45 minutes
+min_loading_time=1800
+max_loading_time=2700
+
 Constraint[Prev][0]=TTEuropeanFreight
 Constraint[Prev][1]=TTEuropeanFreightAddMail
 Constraint[Prev][2]=TTEuropeanFreightAddPiece
@@ -95,6 +103,10 @@ retire_year=1991
 retire_month=1
 
 length=3
+
+# 30-45 minutes
+min_loading_time=1800
+max_loading_time=2700
 
 Constraint[Prev][0]=TTEuropeanFreight
 Constraint[Prev][1]=TTEuropeanFreightAddMail
