@@ -10,6 +10,10 @@ intro_month=11
 retire_year=1912
 retire_month=8
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 length=3
 
 Constraint[Prev][0]=ClydeCargoSteamerHull
@@ -57,6 +61,10 @@ intro_year=1869
 intro_month=11
 retire_year=1912
 retire_month=8
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 length=3
 
@@ -147,6 +155,10 @@ intro_month=11
 retire_year=1912
 retire_month=8
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 length=3
 
 Constraint[Prev][0]=ClydeCargoSteamerHull
@@ -206,6 +218,10 @@ intro_month=11
 retire_year=1912
 retire_month=8
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 length=3
 
 Constraint[Prev][0]=ClydeCargoSteamerHull
@@ -254,6 +270,10 @@ intro_month=11
 retire_year=1912
 retire_month=8
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 length=3
 
 Constraint[Prev][0]=ClydeCargoSteamerHull
@@ -301,6 +321,10 @@ intro_year=1869
 intro_month=11
 retire_year=1912
 retire_month=8
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 length=3
 
