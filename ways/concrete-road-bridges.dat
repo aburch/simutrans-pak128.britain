@@ -205,7 +205,8 @@ FrontRamp2[S][1]=images/concrete-beam-road-snow.3.8
 FrontRamp2[E][1]=images/concrete-beam-road-snow.3.9
 FrontRamp2[W][1]=images/concrete-beam-road-snow.3.7
 backPillar2[S][1]=images/concrete-beam-road-snow.4.5,0,2
-backPillar2[W][1]=images/concrete-beam-road-snow.4.4,0,2--
+backPillar2[W][1]=images/concrete-beam-road-snow.4.4,0,2
+--
 Obj=bridge
 name=ConcreteSteelCantileverRoad
 copyright=AEO/James
