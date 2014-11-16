@@ -3067,6 +3067,14 @@ BR-2EPB(rear)
 BR Class 416 "2-EPB" EMU (rear)
 BR-2MT-Tank(Black)
 BR Standard Class 2MT 2-6-2T
+BR-302(front)
+BR Class 302 EMU
+BR-302(rear)
+BR Class 302 EMU (rear)
+BR-302(centre1)
+BR Class 302 EMU (centre pantograph)
+BR-302(centre2)
+BR Class 302 EMU (centre trailer)
 BR-303Front(CaledonianBlue)
 BR Class 303 EMU
 BR-303Pantograph(CaledonianBlue)
@@ -3299,12 +3307,26 @@ BR-9F-Tender(Black)
 BR Standard Class 9F (tender)
 BR-9F(Black)
 BR Standard Class 9F 2-10-0
+BR-Class15
+BR Class 15
+BR-Class17
+BR Class 16
 BR-Class20(Green)
 BR Class 20
+BR-Class21
+BR Class 21
 BR-Class24
 BR Class 24
 BR-Class25(Green)
 BR Class 25
+BR-Class26
+BR Class 26
+BR-Class27
+BR Class 27
+BR-Class28
+BR Class 28
+BR-Class29
+BR Class 29
 BR-Class30(Green)
 BR Class 30
 BR-Class31-1(Blue)
@@ -3315,6 +3337,10 @@ BR-Class37(Rail-Blue)
 BR Class 37
 BR-Class40(Green)
 BR Class 40
+BR-Class41
+BR Class 41 "Warship"
+BR-Class42
+BR Class 42 "Warship"
 BR-Class43(Intercity)
 BR Class 43 "HST 125"
 BR-Class43Rear(Intercity)
@@ -3883,6 +3909,8 @@ LMS-0-4-4T
 LMS 2P Class 0-4-4T (push-pull)
 LMS-10000(Black)
 LMS 10000 Class
+LMS-Class10800
+LMS 10800 Class
 LMS-2P
 LMS Class 2P 4-4-0
 LMS-2P-Tender

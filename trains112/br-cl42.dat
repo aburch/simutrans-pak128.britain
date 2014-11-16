@@ -1,0 +1,35 @@
+obj=vehicle
+name=BR-Class42
+engine_type=diesel
+smoke=Diesel
+#Gearing did not well restrict speed, exceeded 100mph numerous times, restricted later to 90mph due to track wear
+speed=160
+power=1692
+gear=200
+copyright=Junna/Cake
+intro_year=1958
+intro_month=4
+retire_year=1962
+retire_month=9
+waytype=track
+freight=None
+payload=0
+length=11
+weight=79
+cost=1620000
+runningcost=1014
+sound=-1
+
+# White Diamond
+Constraint[Prev][0]=BR-Class42
+Constraint[Prev][1]=none
+
+EmptyImage[E]=./images/br-cl42-b.1.4
+EmptyImage[SE]=./images/br-cl42-b.1.5
+EmptyImage[S]=./images/br-cl42-b.1.6
+EmptyImage[SW]=./images/br-cl42-b.1.7
+EmptyImage[W]=./images/br-cl42-b.1.0
+EmptyImage[NW]=./images/br-cl42-b.1.1
+EmptyImage[N]=./images/br-cl42-b.1.2
+EmptyImage[NE]=./images/br-cl42-b.1.3
+--
