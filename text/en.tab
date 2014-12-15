@@ -4475,22 +4475,6 @@ Mersey-EMU(rear)
 Mersey EMU (rear)
 Mersey-EMU(trailer)
 Mersey EMU (trailer)
-Metropolitan-A-Class
-A Class 4-4-0T
-Metropolitan-Bogie-Third
-Metropolitan Bogie Carriage
-Metropolitan-Class-E
-Metropolitan Class E 0-4-4T
-Metropolitan-Dreadnought-Third
-Metropolitan "Dreadnought" Carriage
-Metropolitan-Motor-Third-Back
-Metropolitan 1907 Mororised Tube Stock (rear)
-Metropolitan-Motor-Third-Front
-Metropolitan 1907 Motorised Tube Stock
-Metropolitan-Motor-Third-Middle
-Metropolitan 1907 Motorised Tube Stock (middle)
-Metropolitan-Vickers
-Metropolitan Vickers
 MR-6Wheel-non-lav
 Midland six wheel five compartment carriage
 MR-6Wheel-lav
@@ -5062,9 +5046,168 @@ LUL 1992 Tube Stock
 1992TubeStockMiddle1
 LUL 1992 Tube Stock (rear UNDM)
 1992TubeStockMiddle2
-LUL 1992 Tube Stock (front UNDM
+LUL 1992 Tube Stock (front UNDM)
 1992TubeStockRear
 LUL 1992 Tube Stock (rear DM)
+district-4-wheel-brake-front-fitted
+District 4 wheel carriage (front brake)
+district-4-wheel-brake-rear-fitted
+District 4 wheel carriage (rear brake)
+district-4-wheel-third-fitted
+District 4 wheel carriage
+District_A_StockFrontDM
+District A Stock
+District_A_StockMiddle
+District A Stock (trailer)
+District_A_StockRearDM
+District A Stock (rear DM)
+District_BCD_StockFrontDM
+District B/C/D Stock
+District_BCD_StockMiddle
+District B/C/D Stock (trailer)
+District_BCD_StockRearDM
+District B/C/D Stock (rear DM)
+District_E_StockFrontDM
+District E Stock
+District_E_StockMiddle
+District E Stock (trailer)
+District_E_StockRearDM
+District E Stock (rear DM)
+District_F_StockFrontDM
+District F Stock
+District_F_StockMiddle1
+District F Stock (trailer)
+District_F_StockMiddle2
+District F Stock (trailer)
+District_F_StockRearDM
+District F Stock (rear DM)
+District_G_StockFrontDM
+District G Stock
+District_G_StockMiddle
+District G Stock (trailer)
+District_G_StockRearDM
+District G Stock (rear DM)
+District_KLMN_StockFrontDM
+District K/L/M/N Stock
+District_KLMN_StockMiddle
+District K/L/M/N Stock (trailer)
+District_KLMN_StockRearDM
+District K/L/M/N Stock (rear DM)
+LUL_OP_StockFrontDM
+LUL O/P Stock
+LUL_OP_StockMiddle
+LUL O/P Stock (trailer)
+LUL_OP_StockRearDM
+LUL O/P Stock (rear DM)
+LUL_R_StockFrontDM
+LUL R Stock
+LUL_R_StockMiddle
+LUL R Stock (trailer)
+LUL_R_StockRearDM
+LUL R Stock (rear DM)
+LUL_A_StockFrontDM
+LUL A Stock
+LUL_A_StockMiddle1
+LUL A Stock (trailer)
+LUL_A_StockMiddle2
+LUL A Stock (trailer)
+LUL_A_StockRearDM
+LUL A Stock (rear DM)
+LUL_C_StockFrontDM
+LUL C Stock
+LUL_C_StockMiddle1
+LUL C Stock (trailer)
+LUL_C_StockMiddle2
+LUL C Stock (trailer)
+LUL_C_StockRearDM
+LUL C Stock (rear DM)
+LUL_D_StockFrontDM
+LUL D Stock
+LUL_D_StockMiddle1
+LUL D Stock (trailer)
+LUL_D_StockMiddle2
+LUL D Stock (trailer)
+LUL_D_StockRearUNDM
+LUL D Stock (rear UNDM)
+LUL_D_StockRearDM
+LUL D Stock (rear DM)
+LUL_S_Stock(Front)
+LUL S Stock
+LUL_S_Stock(Middle)
+LUL S Stock (middle)
+LUL_S_Stock(Rear)
+LUL S Stock (rear DM)
+Metropolitan1905GateFront
+Metropolitan 1905 Gate Stock
+Metropolitan1905GateMiddle
+Metropolitan 1905 Gate Stock (trailer)
+Metropolitan1905GateRear
+Metropolitan 1905 Gate Stock (rear DM)
+Metropolitan1913CircleFront
+Metropolitan 1913 Circle Stock
+Metropolitan1913CircleMiddle
+Metropolitan 1913 Circle Stock (trailer)
+Metropolitan1913CircleRear
+Metropolitan 1913 Circle Stock (rear DM)
+Metropolitan1921CircleFront
+Metropolitan 1921 Circle Stock
+Metropolitan1921CircleMiddle
+Metropolitan 1921 Circle Stock (trailer)
+Metropolitan1921CircleRear
+Metropolitan 1921 Circle Stock (rear DM)
+met-mv-stock-front
+Metropolitan MV Stock
+met-mv-stock-centre
+Metropolitan MV Stock (trailer)
+met-mv-stock-rear
+Metropolitan MV Stock (rear DM)
+met-jubilee-brake-rear
+Metropolitan "Jubilee" Carriage (rear brake)
+met-jubilee-brake-front
+Metropolitan "Jubilee" Carriage (front brake)
+met-jubilee-third
+Metropolitan "Jubilee" Carriage
+met-bogie-brake-rear
+Metropolitan 1898 Bogie Carriage (rear brake)
+met-bogie-brake-front
+Metropolitan 1898 Bogie Carriage (front brake)
+met-bogie-third
+Metropolitan 1898 Bogie Carriage
+met-ashbury-1863-brake-rear-fitted
+Metropolitan 1863 Ashbury Carriage (rear brake)
+met-ashbury-1863-brake-front-fitted
+Metropolitan 1863 Ashbury Carriage (front brake)
+met-ashbury-1863-third-fitted
+Metropolitan 1863 Ashbury Carriage
+met-dreadnought-brake-rear
+Metropolitan "Dreadnought" Carriage (rear brake)
+met-dreadnought-brake-front
+Metropolitan "Dreadnought" Carriage (front brake)
+met-dreadnought-third
+Metropolitan "Dreadnought" Carriage 
+Metropolitan-Burnett-Tank
+Metropolitan Burnett Tank 0-6-0T
+Metropolitan-A-Class
+Metropolitan A Class 4-4-0T
+Metropolitan-C-Class
+Metropolitan C Class 0-4-4T
+Metropolitan-Class-E
+Metropolitan E Class 0-4-4T
+Metropolitan-F-Class
+Metropolitan F Class 0-6-2T
+Metropolitan-g-class
+Metropolitan G Class 0-6-4T
+Metropolitan-h-class
+Metropolitan H Class 4-4-4T
+Metropolitan "Dreadnought" Carriage
+Metropolitan-Motor-Third-Back
+Metropolitan 1907 Mororised Stock (rear)
+Metropolitan-Motor-Third-Front
+Metropolitan 1907 Motorised Stock
+Metropolitan-Motor-Third-Middle
+Metropolitan 1907 Motorised Stock (middle)
+Metropolitan-Vickers
+Metropolitan Vickers
 #______________________________________way______________________
 #______________________________________way______________________
 asphalt_road

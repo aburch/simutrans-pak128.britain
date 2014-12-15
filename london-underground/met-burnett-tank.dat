@@ -1,0 +1,37 @@
+# See Ahrons p. 174
+obj=vehicle
+name=Metropolitan-Burnett-Tank
+engine_type=steam
+smoke=Steam
+speed=70
+# Extrapolated
+power=146
+gear=200
+copyright=James/jamespetts
+intro_year=1868
+intro_month=3
+retire_year=1873
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Weight taken from Ahrons, p. 174
+weight=45
+cost=9550000
+# These were uneconomical: Ahrons, p. 174
+runningcost=955
+sound=-1
+
+
+EmptyImage[E]=./images/met-burnett-tank-met-red.1.4
+EmptyImage[SE]=./images/met-burnett-tank-met-red.1.5
+EmptyImage[S]=./images/met-burnett-tank-met-red.1.6
+EmptyImage[SW]=./images/met-burnett-tank-met-red.1.7
+EmptyImage[W]=./images/met-burnett-tank-met-red.1.0
+EmptyImage[NW]=./images/met-burnett-tank-met-red.1.1
+EmptyImage[N]=./images/met-burnett-tank-met-red.1.2
+EmptyImage[NE]=./images/met-burnett-tank-met-red.1.3
+
+---

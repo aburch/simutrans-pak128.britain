@@ -1,0 +1,37 @@
+obj=vehicle
+name=Metropolitan-g-class
+engine_type=steam
+smoke=Steam
+speed=90
+# Extrapolated
+power=162
+# http://en.wikipedia.org/wiki/Metropolitan_Railway_G_Class
+gear=200
+copyright=James/jamespetts
+intro_year=1915
+intro_month=6
+# Actually only built in 1915, but this is very short.
+retire_year=1920
+retire_month=3
+waytype=track
+freight=None
+payload=0
+length=7
+
+# http://en.wikipedia.org/wiki/Metropolitan_Railway_G_Class
+weight=72.2
+cost=10000000
+runningcost=612
+sound=-1
+
+
+EmptyImage[E]=./images/met-g-class-met-red.1.4
+EmptyImage[SE]=./images/met-g-class-met-red.1.5
+EmptyImage[S]=./images/met-g-class-met-red.1.6
+EmptyImage[SW]=./images/met-g-class-met-red.1.7
+EmptyImage[W]=./images/met-g-class-met-red.1.0
+EmptyImage[NW]=./images/met-g-class-met-red.1.1
+EmptyImage[N]=./images/met-g-class-met-red.1.2
+EmptyImage[NE]=./images/met-g-class-met-red.1.3
+
+---

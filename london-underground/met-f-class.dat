@@ -1,0 +1,38 @@
+obj=vehicle
+name=Metropolitan-F-Class
+engine_type=steam
+smoke=Steam
+speed=85
+# Extrapolated
+power=180
+# Calculated using data from https://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm with loss factor of 0.8
+gear=200
+copyright=James/jamespetts
+intro_year=1901
+intro_month=1
+# Actually only built in 1901, but this is very short.
+retire_year=1915
+retire_month=5
+waytype=track
+freight=None
+payload=0
+length=6
+
+# Weight guessed.
+weight=55
+cost=9400000
+runningcost=594
+sound=-1
+
+
+
+EmptyImage[E]=./images/met-f-class-met-red.1.4
+EmptyImage[SE]=./images/met-f-class-met-red.1.5
+EmptyImage[S]=./images/met-f-class-met-red.1.6
+EmptyImage[SW]=./images/met-f-class-met-red.1.7
+EmptyImage[W]=./images/met-f-class-met-red.1.0
+EmptyImage[NW]=./images/met-f-class-met-red.1.1
+EmptyImage[N]=./images/met-f-class-met-red.1.2
+EmptyImage[NE]=./images/met-f-class-met-red.1.3
+
+---

@@ -1,0 +1,38 @@
+# http://www.lner.info/locos/H/h2.shtml
+obj=vehicle
+name=Metropolitan-h-class
+engine_type=steam
+smoke=Steam
+speed=121
+# Extrapolated
+power=241
+# http://en.wikipedia.org/wiki/Metropolitan_Railway_H_Class
+gear=200
+copyright=James/jamespetts
+intro_year=1920
+intro_month=1
+# Actually only built in 1921, but this is very short.
+retire_year=1925
+retire_month=9
+waytype=track
+freight=None
+payload=0
+length=8
+
+# http://en.wikipedia.org/wiki/Metropolitan_Railway_H_Class
+weight=79.5
+# https://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm
+cost=11000000
+sound=-1
+
+
+EmptyImage[E]=./images/met-h-class-met-late.1.4
+EmptyImage[SE]=./images/met-h-class-met-late.1.5
+EmptyImage[S]=./images/met-h-class-met-late.1.6
+EmptyImage[SW]=./images/met-h-class-met-late.1.7
+EmptyImage[W]=./images/met-h-class-met-late.1.0
+EmptyImage[NW]=./images/met-h-class-met-late.1.1
+EmptyImage[N]=./images/met-h-class-met-late.1.2
+EmptyImage[NE]=./images/met-h-class-met-late.1.3
+
+---
