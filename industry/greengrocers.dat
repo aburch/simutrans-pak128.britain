@@ -1,6 +1,6 @@
 Obj=factory
 name=Greengrocers1820
-copyright=James
+copyright=Archon
 intro_year=1818
 intro_month=2
 retire_year=1840
@@ -131,9 +131,8 @@ name=Greengrocers1945
 copyright=Kieron & WLindley
 intro_year=1945
 intro_month=12
-#retire_year=1975
-#retire_month=10
-# Retire this only when supermarkets are added.
+retire_year=1987
+retire_month=12
 pax_level=8
 passenger_demand = 2
 mail_demand = 1

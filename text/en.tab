@@ -563,7 +563,7 @@ Corner Shop
 COM_KG_1970_01_14
 Office Block
 COM_KG_1980_00_16
-Shops & Offices
+Shops and offices
 COM_JEP_1920_00_16
 Company headquarters
 COM_A_1850_00_10
@@ -773,7 +773,17 @@ Council Flats
 COM_DB_1980_00_18
 Block of offices
 COM_DB_1970_00_24
-Shops & Offices
+Shops and offices
+COM_JH_1870_00_10
+Offices
+COM_JH_1870_00_12
+Offices
+COM_WL_1950_01_10
+Shops and offices
+COM_WL_1950_02_15
+Shops and offices
+COM_WL_1950_03_20
+Shops and offices
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
 1980s-Small-Church
@@ -988,6 +998,8 @@ CarFactory1950
 Car Factory
 CarFactory1970
 Car Factory
+CarFactory1980
+Car Factory
 CattleFarm1750
 Cattle Farm
 CattleFarm1840
@@ -1159,7 +1171,7 @@ Grain Farm
 GrainFarm1975
 Grain Farm
 GrainMill1750
-Grain Mill
+Windmill
 GrainMill1840
 Grain Mill
 GrainMill1910
@@ -1186,6 +1198,12 @@ Grocer1945
 Grocer
 Convenience1975
 Convenience Shop
+Supermarket1950
+Convenience Shop
+Supermarket1960
+Supermarket
+Supermarket1980
+Supermarket
 HardwareFactory1790
 Hardware Factory
 HardwareFactory1850
