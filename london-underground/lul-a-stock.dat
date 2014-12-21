@@ -30,7 +30,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=50
-comfort=71
+comfort=65
 
 Constraint[Prev][0]=LUL_A_StockRearDM
 Constraint[Prev][1]=none
@@ -84,7 +84,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=50
-comfort=71
+comfort=65
 
 Constraint[Prev][0]=LUL_A_StockFrontDM
 
@@ -138,7 +138,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=50
-comfort=71
+comfort=65
 
 Constraint[Prev][0]=LUL_A_StockMiddle1
 
@@ -194,7 +194,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=50
-comfort=71
+comfort=65
 
 Constraint[Prev][0]=LUL_A_StockMiddle1
 Constraint[Prev][1]=LUL_A_StockMiddle2

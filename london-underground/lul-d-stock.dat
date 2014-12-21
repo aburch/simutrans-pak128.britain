@@ -18,6 +18,7 @@ waytype=track
 freight=Passagiere
 payload=44
 overcrowded_capacity=172
+rolling_resistance=13
 
 weight=27.5
 axles=4
@@ -30,7 +31,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=51
-comfort=66
+comfort=59
 
 Constraint[Prev][0]=LUL_D_StockRearDM
 Constraint[Prev][1]=none
@@ -75,6 +76,7 @@ waytype=track
 freight=Passagiere
 payload=48
 overcrowded_capacity=187
+rolling_resistance=13
 
 weight=26.1
 axles=4
@@ -110,6 +112,7 @@ waytype=track
 freight=Passagiere
 payload=48
 overcrowded_capacity=187
+rolling_resistance=13
 
 weight=18.4
 axles=4
@@ -159,6 +162,7 @@ waytype=track
 freight=Passagiere
 payload=48
 overcrowded_capacity=187
+rolling_resistance=13
 
 weight=18.4
 axles=4
@@ -221,7 +225,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=51
-comfort=66
+comfort=59
 
 Constraint[Prev][0]=LUL_D_StockMiddle1
 Constraint[Prev][1]=LUL_D_StockMiddle2
@@ -279,7 +283,7 @@ way_constraint_permissive[3]=3
 
 min_loading_time=19
 max_loading_time=51
-comfort=66
+comfort=59
 
 Constraint[Prev][0]=LUL_D_StockMiddle1
 Constraint[Prev][1]=LUL_D_StockMiddle2
