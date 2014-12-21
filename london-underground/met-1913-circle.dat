@@ -46,23 +46,23 @@ Constraint[Next][2]=Metropolitan1921CircleMiddle
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
 
-EmptyImage[E][0]=./images/met-1913-circle-rear.1.4
-EmptyImage[SE][0]=./images/met-1913-circle-rear.1.5
-EmptyImage[S][0]=./images/met-1913-circle-rear.1.6
-EmptyImage[SW][0]=./images/met-1913-circle-rear.1.7
-EmptyImage[W][0]=./images/met-1913-circle-rear.1.0
-EmptyImage[NW][0]=./images/met-1913-circle-rear.1.1
-EmptyImage[N][0]=./images/met-1913-circle-rear.1.2
-EmptyImage[NE][0]=./images/met-1913-circle-rear.1.3
+EmptyImage[E][0]=./images/met-1913-circle-front.1.4
+EmptyImage[SE][0]=./images/met-1913-circle-front.1.5
+EmptyImage[S][0]=./images/met-1913-circle-front.1.6
+EmptyImage[SW][0]=./images/met-1913-circle-front.1.7
+EmptyImage[W][0]=./images/met-1913-circle-front.1.0
+EmptyImage[NW][0]=./images/met-1913-circle-front.1.1
+EmptyImage[N][0]=./images/met-1913-circle-front.1.2
+EmptyImage[NE][0]=./images/met-1913-circle-front.1.3
 
-EmptyImage[E][1]=./images/met-1913-circle-red-rear.1.4
-EmptyImage[SE][1]=./images/met-1913-circle-red-rear.1.5
-EmptyImage[S][1]=./images/met-1913-circle-red-rear.1.6
-EmptyImage[SW][1]=./images/met-1913-circle-red-rear.1.7
-EmptyImage[W][1]=./images/met-1913-circle-red-rear.1.0
-EmptyImage[NW][1]=./images/met-1913-circle-red-rear.1.1
-EmptyImage[N][1]=./images/met-1913-circle-red-rear.1.2
-EmptyImage[NE][1]=./images/met-1913-circle-red-rear.1.3
+EmptyImage[E][1]=./images/met-1913-circle-front-red.1.4
+EmptyImage[SE][1]=./images/met-1913-circle-front-red.1.5
+EmptyImage[S][1]=./images/met-1913-circle-front-red.1.6
+EmptyImage[SW][1]=./images/met-1913-circle-front-red.1.7
+EmptyImage[W][1]=./images/met-1913-circle-front-red.1.0
+EmptyImage[NW][1]=./images/met-1913-circle-front-red.1.1
+EmptyImage[N][1]=./images/met-1913-circle-front-red.1.2
+EmptyImage[NE][1]=./images/met-1913-circle-front-red.1.3
 
 --
 obj=vehicle
@@ -120,14 +120,14 @@ EmptyImage[NW][0]=./images/met-1913-circle-middle.1.1
 EmptyImage[N][0]=./images/met-1913-circle-middle.1.2
 EmptyImage[NE][0]=./images/met-1913-circle-middle.1.3
 
-EmptyImage[E][1]=./images/met-1913-circle-red-middle.1.4
-EmptyImage[SE][1]=./images/met-1913-circle-red-middle.1.5
-EmptyImage[S][1]=./images/met-1913-circle-red-middle.1.6
-EmptyImage[SW][1]=./images/met-1913-circle-red-middle.1.7
-EmptyImage[W][1]=./images/met-1913-circle-red-middle.1.0
-EmptyImage[NW][1]=./images/met-1913-circle-red-middle.1.1
-EmptyImage[N][1]=./images/met-1913-circle-red-middle.1.2
-EmptyImage[NE][1]=./images/met-1913-circle-red-middle.1.3
+EmptyImage[E][1]=./images/met-1913-circle-middle-red.1.4
+EmptyImage[SE][1]=./images/met-1913-circle-middle-red.1.5
+EmptyImage[S][1]=./images/met-1913-circle-middle-red.1.6
+EmptyImage[SW][1]=./images/met-1913-circle-middle-red.1.7
+EmptyImage[W][1]=./images/met-1913-circle-middle-red.1.0
+EmptyImage[NW][1]=./images/met-1913-circle-middle-red.1.1
+EmptyImage[N][1]=./images/met-1913-circle-middle-red.1.2
+EmptyImage[NE][1]=./images/met-1913-circle-middle-red.1.3
 ----
 obj=vehicle
 name=Metropolitan1913CircleRear
@@ -181,12 +181,12 @@ EmptyImage[NW][0]=./images/met-1913-circle-rear.1.1
 EmptyImage[N][0]=./images/met-1913-circle-rear.1.2
 EmptyImage[NE][0]=./images/met-1913-circle-rear.1.3
 
-EmptyImage[E][1]=./images/met-1913-circle-red-rear.1.4
-EmptyImage[SE][1]=./images/met-1913-circle-red-rear.1.5
-EmptyImage[S][1]=./images/met-1913-circle-red-rear.1.6
-EmptyImage[SW][1]=./images/met-1913-circle-red-rear.1.7
-EmptyImage[W][1]=./images/met-1913-circle-red-rear.1.0
-EmptyImage[NW][1]=./images/met-1913-circle-red-rear.1.1
-EmptyImage[N][1]=./images/met-1913-circle-red-rear.1.2
-EmptyImage[NE][1]=./images/met-1913-circle-red-rear.1.3
+EmptyImage[E][1]=./images/met-1913-circle-rear-red.1.4
+EmptyImage[SE][1]=./images/met-1913-circle-rear-red.1.5
+EmptyImage[S][1]=./images/met-1913-circle-rear-red.1.6
+EmptyImage[SW][1]=./images/met-1913-circle-rear-red.1.7
+EmptyImage[W][1]=./images/met-1913-circle-rear-red.1.0
+EmptyImage[NW][1]=./images/met-1913-circle-rear-red.1.1
+EmptyImage[N][1]=./images/met-1913-circle-rear-red.1.2
+EmptyImage[NE][1]=./images/met-1913-circle-rear-red.1.3
 --

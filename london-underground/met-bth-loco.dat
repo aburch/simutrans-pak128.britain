@@ -26,6 +26,8 @@ sound=-1
 bidirectional=1
 way_constraint_permissive[3]=3
 
+Constraint[Prev][0]=MetBTHLoco
+
 EmptyImage[E]=./images/met-bth-loco.1.4
 EmptyImage[SE]=./images/met-bth-loco.1.5
 EmptyImage[S]=./images/met-bth-loco.1.6

@@ -26,6 +26,8 @@ sound=-1
 bidirectional=1
 way_constraint_permissive[3]=3
 
+Constraint[Prev][0]=Metropolitan-Vickers
+
 EmptyImage[E]=./images/met-vickers.0.0
 EmptyImage[SE]=./images/met-vickers.0.1
 EmptyImage[S]=./images/met-vickers.0.2

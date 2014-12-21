@@ -4,7 +4,7 @@ engine_type=electric
 speed=65
 gear=80
 power=596
-tractive_effort=88
+tractive_effort=56
 copyright=James
 intro_year=1905
 intro_month=7
@@ -23,6 +23,8 @@ sound=-1
 
 bidirectional=1
 way_constraint_permissive[3]=3
+
+Constraint[Prev][0]=DistrictElectricLoco
 
 EmptyImage[E]=./images/district-electric-loco.1.4
 EmptyImage[SE]=./images/district-electric-loco.1.5
