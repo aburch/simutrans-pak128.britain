@@ -88,14 +88,26 @@ Constraint[Prev][0]=LUL_D_StockRearUNDM
 
 Constraint[Next][0]=LUL_D_StockMiddle1
 
-EmptyImage[E]=./images/lul-d-stock-middle.1.4
-EmptyImage[SE]=./images/lul-d-stock-middle.1.5
-EmptyImage[S]=./images/lul-d-stock-middle.1.6
-EmptyImage[SW]=./images/lul-d-stock-middle.1.7
-EmptyImage[W]=./images/lul-d-stock-middle.1.0
-EmptyImage[NW]=./images/lul-d-stock-middle.1.1
-EmptyImage[N]=./images/lul-d-stock-middle.1.2
-EmptyImage[NE]=./images/lul-d-stock-middle.1.3
+liverytype[0]=LT
+liverytype[1]=LUL
+
+EmptyImage[E][0]=./images/lul-d-stock-middle.1.4
+EmptyImage[SE][0]=./images/lul-d-stock-middle.1.5
+EmptyImage[S][0]=./images/lul-d-stock-middle.1.6
+EmptyImage[SW][0]=./images/lul-d-stock-middle.1.7
+EmptyImage[W][0]=./images/lul-d-stock-middle.1.0
+EmptyImage[NW][0]=./images/lul-d-stock-middle.1.1
+EmptyImage[N][0]=./images/lul-d-stock-middle.1.2
+EmptyImage[NE][0]=./images/lul-d-stock-middle.1.3
+
+EmptyImage[E][1]=./images/lul-d-stock-refurb-middle.1.4
+EmptyImage[SE][1]=./images/lul-d-stock-refurb-middle.1.5
+EmptyImage[S][1]=./images/lul-d-stock-refurb-middle.1.6
+EmptyImage[SW][1]=./images/lul-d-stock-refurb-middle.1.7
+EmptyImage[W][1]=./images/lul-d-stock-refurb-middle.1.0
+EmptyImage[NW][1]=./images/lul-d-stock-refurb-middle.1.1
+EmptyImage[N][1]=./images/lul-d-stock-refurb-middle.1.2
+EmptyImage[NE][1]=./images/lul-d-stock-refurb-middle.1.3
 --
 
 obj=vehicle
