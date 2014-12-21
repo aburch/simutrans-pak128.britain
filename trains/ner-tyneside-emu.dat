@@ -4,7 +4,7 @@ engine_type=electric
 speed=70
 power=200
 gear=80
-tractive_effort=90
+tractive_effort=60
 copyright=Junna/Cake
 intro_year=1904
 intro_month=7
@@ -29,7 +29,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=20
 max_loading_time=50
-comfort=75
+comfort=68
 
 Constraint[Prev][0]=NER-Tyneside-unit(driving trailer)
 Constraint[Prev][1]=NER-Tyneside-unit(rear motor)
@@ -53,7 +53,7 @@ engine_type=electric
 speed=70
 power=200
 gear=80
-tractive_effort=90
+tractive_effort=60
 copyright=Junna/Cake
 intro_year=1904
 intro_month=7
@@ -78,7 +78,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=20
 max_loading_time=50
-comfort=75
+comfort=68
 
 Constraint[Prev][0]=NER-Tyneside-unit(trailer1)
 Constraint[Prev][1]=NER-Tyneside-unit(trailer2)
@@ -125,7 +125,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=20
 max_loading_time=50
-comfort=75
+comfort=68
 
 Constraint[Prev][0]=NER-Tyneside-unit(trailer1)
 Constraint[Prev][1]=NER-Tyneside-unit(trailer2)
@@ -172,7 +172,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=20
 max_loading_time=50
-comfort=75
+comfort=68
 
 Constraint[Next][0]=NER-Tyneside-unit(driving trailer)
 Constraint[Next][1]=NER-Tyneside-unit(rear motor)
@@ -219,7 +219,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=20
 max_loading_time=50
-comfort=75
+comfort=68
 
 Constraint[Next][0]=NER-Tyneside-unit(driving trailer)
 Constraint[Next][1]=NER-Tyneside-unit(rear motor)

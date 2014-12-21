@@ -4,7 +4,7 @@ engine_type=electric
 speed=90
 gear=80
 power=320
-tractive_effort=107
+tractive_effort=70
 copyright=Junna/Cake
 intro_year=1937
 intro_month=7
@@ -13,7 +13,7 @@ retire_month=12
 waytype=track
 freight=Passagiere
 payload=64
-overcrowded_capacity=55
+overcrowded_capacity=75
 length=10
 
 weight=43
@@ -29,7 +29,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=35
 max_loading_time=59
-comfort=83
+comfort=69
 
 Constraint[Prev][0]=LNER-1937-Tyneside-EMU-rear
 Constraint[Prev][1]=none
@@ -71,8 +71,9 @@ retire_year=1956
 retire_month=12
 waytype=track
 freight=Passagiere
+comfort=69
 payload=64
-overcrowded_capacity=55
+overcrowded_capacity=75
 length=10
 
 weight=31
@@ -87,7 +88,7 @@ bidirectional=0
 
 min_loading_time=35
 max_loading_time=59
-comfort=83
+comfort=69
 
 Constraint[Prev][0]=LNER-1937-Tyneside-EMU-front
 
@@ -123,7 +124,7 @@ engine_type=electric
 speed=90
 gear=80
 power=640
-tractive_effort=107
+tractive_effort=70
 copyright=Junna/Cake
 intro_year=1937
 intro_month=7
@@ -147,7 +148,6 @@ way_constraint_permissive[0]=0
 
 min_loading_time=20
 max_loading_time=46
-comfort=114
 
 Constraint[Prev][0]=LNER-1937-Tyneside-EMU-rear
 Constraint[Prev][1]=none

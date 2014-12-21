@@ -1,21 +1,23 @@
+# http://en.wikipedia.org/wiki/Metropolitan_Railway_electric_locomotives#Metropolitan-Vickers
+#
 obj=vehicle
 name=Metropolitan-Vickers
 engine_type=electric
-speed=85
+speed=105
 gear=80
-power=626
+power=890
 tractive_effort=100
 copyright=Kieron
 intro_year=1922
 intro_month=2
-retire_year=1935
+# These were only built for a year, but they are not replaced, so need to remain in production for much longer.
+retire_year=1937
 retire_month=9
-# Retirement date will need changing when further Underground stock is introduced.
 waytype=track
 freight=None
 payload=0
 
-weight=61
+weight=62.4
 axles=4
 cost=8928000
 runningcost=1188

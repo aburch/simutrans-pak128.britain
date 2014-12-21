@@ -315,6 +315,7 @@
     <None Include="industry\gasworks.dat" />
     <None Include="industry\grocers.dat" />
     <None Include="industry\market.dat" />
+    <None Include="industry\supermarket.dat" />
     <None Include="london-underground\1890-tube-stock.dat" />
     <None Include="london-underground\1898-tube-stock.dat" />
     <None Include="london-underground\1900-tube-stock.dat" />
@@ -336,6 +337,12 @@
     <None Include="london-underground\br-cl483.dat" />
     <None Include="london-underground\br-cl485.dat" />
     <None Include="london-underground\clr-loco.dat" />
+    <None Include="london-underground\district-a-stock.dat" />
+    <None Include="london-underground\district-bcd-stock.dat" />
+    <None Include="london-underground\district-e-stock.dat" />
+    <None Include="london-underground\district-electric-loco.dat" />
+    <None Include="london-underground\district-f-stock.dat" />
+    <None Include="london-underground\district-g-stock.dat" />
     <None Include="london-underground\met-a-class.dat" />
     <None Include="london-underground\met-ashbury-1863.dat" />
     <None Include="london-underground\met-burnett-tank.dat" />
@@ -1349,6 +1356,7 @@
     <None Include="ways\plate-girder-road.dat" />
     <None Include="ways\plate-girder.dat" />
     <None Include="ways\plateway.dat" />
+    <None Include="ways\plexi-noise-barrier.dat" />
     <None Include="ways\Powerlines.dat" />
     <None Include="industry\printworks.dat" />
     <None Include="config\privatecar.tab" />
