@@ -1287,9 +1287,13 @@ intro_month[16][0] = 1
 livery[16][1] = LT
 intro_year[16][1] = 1933
 intro_month[16][1] = 1
-livery[16][2] = LUL
-intro_year[16][2] = 1990
-intro_month[16][2] = 5
+# This is used only for the R stock.
+livery[16][2] = LT-alu
+intro_year[16][2] = 1952
+intro_month[16][2] = 3
+livery[16][3] = LUL
+intro_year[16][3] = 1990
+intro_month[16][3] = 5
 
 livery_scheme[17] = Island-Line
 retire_year[17] = 2500
