@@ -9,7 +9,7 @@ topspeed=80
 max_weight=19
 intro_year=1829
 intro_month=3
-retire_year=1940
+retire_year=1916
 retire_month=1
 # Normal images
 BackImage[W][0]=rail-tunnel-stone.1.0
@@ -38,8 +38,8 @@ topspeed=120
 max_weight=22
 intro_year=1848
 intro_month=9
-retire_year=1986
-retire_month=4
+retire_year=1959
+retire_month=5
 # Normal images
 BackImage[W][0]=rail-tunnel-brick.1.0
 FrontImage[W][0]=rail-tunnel-brick.0.0
@@ -62,9 +62,9 @@ copyright=James
 waytype=track
 cost=3000000
 maintenance=4000
-topspeed=135
+topspeed=150
 max_weight=26
-intro_year=1959
+intro_year=1954
 intro_month=7
 # Normal images
 BackImage[W][0]=rail-tunnel-concrete.1.0
@@ -88,11 +88,11 @@ copyright=James
 waytype=track
 cost=4400000
 maintenance=7000
-# http://en.wikipedia.org/wiki/Channel_Tunnel
-topspeed=160
+# https://de.wikipedia.org/wiki/Schulwaldtunnel
+topspeed=300
 max_weight=23
-intro_year=1978
-intro_month=3
+intro_year=2001
+intro_month=9
 # Normal images
 BackImage[W][0]=rail-tunnel-concrete.1.0
 FrontImage[W][0]=rail-tunnel-concrete.0.0
