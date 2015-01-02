@@ -245,17 +245,9 @@ Concrete narrowboat aqueduct
 ConcreteAqueductTub
 Concrete tub boat aqueduct
 BrickViaductEarly
-Brick viaduct
+Brick arch viaduct
 BrickViaduct
-Brick viaduct
-BrickViaduct175
-Brick viaduct
-BrickViaduct200
-Brick viaduct
-BrickViaduct225
-Brick viaduct
-BrickViaduct320
-Brick viaduct
+Brick arch viaduct
 MasonryViaduct
 Masonry viaduct
 IronViaduct
@@ -295,9 +287,7 @@ Beam bridge
 WoodTrestleRoad
 Wooden trestle bridge
 BrickViaductRoad
-Brick bridge (tarmac)
-BrickViaductCobbles
-Brick bridge (cobblestone)
+Brick arch viadict
 stone_road_bridge_cobbles
 Masonry bridge (cobblestone)
 wooden_road_bridge_dirt
@@ -333,7 +323,7 @@ Lightweight concrete bridge
 WoodenTrestleNarrow
 Wooden trestle
 BrickViaductNarrow
-Brick viaduct
+Brick arch viaduct
 ConcreteViaductNarrow
 Concrete viaduct
 IronGirderNarrow
@@ -5841,6 +5831,8 @@ wssrN-improved
 Steel narrow gauge track (60lb/yard)
 rail-narrow-mothballed
 Mothballed narrowgauge track
+mothballed_road
+Mothballed road
 asphalt_road
 Asphalt road
 city_road
