@@ -6,13 +6,17 @@ intro_year=1805
 intro_month=4
 retire_year=1852
 retire_month=12
-topspeed=80
+topspeed=100
 cost=300000
 maintenance=750
 max_height=8
 max_weight=175
+
+has_own_way_graphics=0
+
 pillar_distance=1
 pillar_asymmetric=1
+
 cursor=images/masonry-viaduct.4.1
 icon=> images/masonry-viaduct.4.0
 BackImage[NS][0]=images/masonry-viaduct.0.5,0,32
