@@ -3,15 +3,15 @@ name=BrickViaductNarrow
 waytype=narrowgauge_track
 intro_year=1844
 intro_month=10
-retire_year=1966
-retire_month=1
+retire_year=1948
+retire_month=7
 max_weight=150
 topspeed=70
 cost=350000
+maintenance=475
 
 has_own_way_graphics=0
 
-maintenance=475
 pillar_distance=1
 cursor=images/brick-viaduct-narrow.4.1
 icon=> images/brick-viaduct-narrow.4.0

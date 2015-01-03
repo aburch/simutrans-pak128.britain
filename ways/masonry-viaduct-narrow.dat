@@ -1,17 +1,21 @@
 Obj=bridge
 name=MasonryViaductNarrow
 waytype=narrowgauge_track
-intro_year=1852
-intro_month=7
-retire_year=1954
+intro_year=1844
+intro_month=10
+retire_year=1931
 retire_month=6
 max_weight=60
 max_height=10
-topspeed=50
+topspeed=65
 cost=250000
 maintenance=350
+
+has_own_way_graphics=0
+
 pillar_distance=1
 pillar_asymmetric=1
+
 cursor=images/masonry-viaduct-narrow.4.1
 icon=> images/masonry-viaduct-narrow.4.0
 BackImage[NS][0]=images/masonry-viaduct-narrow.0.5,0,32
