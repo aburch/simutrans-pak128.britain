@@ -7,6 +7,9 @@ max_weight=200
 topspeed=100
 cost=450000
 maintenance=350
+
+has_own_way_graphics=0
+
 pillar_distance=1
 cursor=images/concrete-viaduct-narrow.4.1
 icon=> images/concrete-viaduct-narrow.4.0

@@ -14,6 +14,9 @@ max_length=8
 max_height=4
 pillar_distance=2
 
+has_own_way_graphics=1
+
+
 cursor=images/Bridge_rail_beam_hvy.4.1
 icon=> images/Bridge_rail_beam_hvy.4.0
 BackStart[N][0]=images/Bridge_rail_beam_hvy.0.0,0,32

@@ -10,6 +10,9 @@ max_weight=50
 cost=170000
 maintenance=175
 pillar_distance=1
+
+has_own_way_graphics=1
+
 cursor=images/wooden-trestle-narrow.4.1
 icon=> images/wooden-trestle-narrow.4.0
 BackImage[NS][0]=images/wooden-trestle-narrow.0.5,0,32

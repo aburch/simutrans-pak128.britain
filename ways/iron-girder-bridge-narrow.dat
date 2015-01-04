@@ -12,6 +12,9 @@ topspeed=55
 cost=200000
 maintenance=200
 pillar_distance=1
+
+has_own_way_graphics=0
+
 cursor=images/iron-girder-narrow.4.1
 icon=> images/iron-girder-narrow.4.0
 BackImage[NS][0]=images/iron-girder-narrow.0.5,0,32

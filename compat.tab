@@ -190,14 +190,6 @@ RES_KG_1920_00_02
 VictorianCoalMine
 CoalMine1850
 #
-################################# Road bridges #################################
-stone_road_bridge_dirt
-MasonryViaductDirt
-stone_road_bridge_cobbles
-MasonryViaductCobbles
-wooden_road_bridge_dirt
-WoodTrestleRoad
-#
 ################################### Buildings ##################################
 WL_IND_1900_00
 IND_JH_1860_00_06
@@ -949,6 +941,12 @@ bombardier-incentro-front
 NET-Bombardier-Incentro(Rear)
 bombardier-incentro-rear
 ################################# Bridge rationalisation ##################################
+stone_road_bridge_dirt
+MasonryViaductRoad
+stone_road_bridge_cobbles
+MasonryViaductRoad
+wooden_road_bridge_dirt
+WoodTrestleRoad
 BrickViaduct175
 BrickViaduct
 BrickViaduct175
@@ -961,6 +959,14 @@ MasonryViaductCobbles
 MasonryViaductRoad
 MasonryViaductDirt
 MasonryViaductRoad
+ConcreteViaduct175
+ConcreteViaduct
+ConcreteViaduct200
+ConcreteViaduct
+ConcreteViaduct225
+ConcreteViaduct
+wooden_road_bridge_tarmac
+wooden_road_bridge_surfaced
 #
 
 

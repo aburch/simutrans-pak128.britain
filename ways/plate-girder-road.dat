@@ -4,10 +4,13 @@ copyright=kieron/James
 waytype=road
 intro_year=1917
 intro_month=12
-topspeed=75
+topspeed=80
 max_weight=23
 cost=560000
 maintenance=1800
+
+has_own_way_graphics=0
+
 pillar_distance=2
 pillar_asymmetric=1
 cursor=images/plate-girder-road.4.1

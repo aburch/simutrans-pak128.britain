@@ -11,6 +11,9 @@ max_height=4
 cost=25000
 maintenance=1200
 pillar_distance=1
+
+has_own_way_graphics=1
+
 cursor=images/wooden-trestle.4.1
 icon=> images/wooden-trestle.4.0
 BackImage[NS][0]=images/wooden-trestle.0.5,0,32

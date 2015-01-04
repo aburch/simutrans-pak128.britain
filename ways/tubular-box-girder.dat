@@ -17,6 +17,8 @@ pillar_distance=4
 #pillar_asymmetric=1
 #0 or 1, fixes draw height
 
+has_own_way_graphics=0
+
 cursor=images/Bridge_rail_boxtubular.4.1
 icon=> images/Bridge_rail_boxtubular.4.0
 BackStart[N][0]=images/Bridge_rail_boxtubular.0.0,0,32

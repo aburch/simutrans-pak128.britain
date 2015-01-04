@@ -10,6 +10,9 @@ topspeed=125
 max_weight=400
 cost=580000
 maintenance=1485
+
+has_own_way_graphics=0
+
 pillar_distance=1
 pillar_asymmetric=1
 cursor=images/brick-viaduct-dark.4.1

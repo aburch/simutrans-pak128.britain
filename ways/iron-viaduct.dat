@@ -11,6 +11,9 @@ maintenance=2000
 max_weight=250
 pillar_distance=1
 pillar_asymmetric=1
+
+has_own_way_graphics=0
+
 cursor=images/iron-viaduct.4.1
 icon=> images/iron-viaduct.4.0
 BackImage[NS][0]=images/iron-viaduct.0.5,0,32

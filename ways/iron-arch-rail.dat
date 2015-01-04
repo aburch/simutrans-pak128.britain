@@ -1,7 +1,6 @@
 Obj=bridge
 name=IronArchRailBridge
 copyright=James
-
 waytype=track
 intro_year=1860
 intro_month=10
@@ -13,6 +12,9 @@ cost=570000
 maintenance=1500
 max_height=6
 max_weight=50
+
+has_own_way_graphics=0
+
 pillar_distance=1
 pillar_asymmetric=1
 cursor=images/iron-arch-rail.4.1

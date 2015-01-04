@@ -9,11 +9,15 @@ retire_month=1
 topspeed=160
 cost=460000
 maintenance=1250
-pillar_distance=2
-pillar_asymmetric=1
 #max_height=2
 max_weight=400
 max_length=4
+
+has_own_way_graphics=0
+
+pillar_distance=2
+pillar_asymmetric=1
+
 cursor=images/plate-girder.4.1
 icon=> images/plate-girder.4.0
 BackImage[NS][0]=images/plate-girder.0.5,0,32
@@ -121,6 +125,9 @@ pillar_asymmetric=1
 max_weight=535
 #max_height=2
 max_length=4
+
+has_own_way_graphics=0
+
 cursor=images/plate-girder-concrete.4.1
 icon=> images/plate-girder-concrete.4.0
 BackImage[NS][0]=images/plate-girder-concrete.0.5,0,32
