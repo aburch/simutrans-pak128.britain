@@ -54,7 +54,7 @@
 # A: Coal, coke, iron ore, furnace slag
 # B: Clay, sand, manure, limestone, chalk, salt, unfinished stone, zinc ore, copper ore, bricks, paving stones, pig iron
 # C: Hay, straw, grain, flour, seeds, fertiliser, chemicals, lead ore, part-finished iron goods
-# I: Iron/steel hoops, pipes, sheets, plates, common fruit and vegetables, paper, cotton, beer in casks, oil in caks, tin ore
+# I: Iron/steel hoops, pipes, sheets, plates, common fruit and vegetables, paper, cotton, beer in casks, oil in casks, tin ore
 # II: Beer in bottles, wine in casks, bacon, biscuits, brass, china in casks or crates, coconut matting, nickel ore
 # III: Cotton and linen goods, cured bacon, blankets, books, boots in casks, cases or boxes, china in hampers, woollen cloth, tea, silver ore 
 # IV: Pineapples, fresh cured meats, china in boxes or cases, woollen cloth in boxes, cases parcels or hampers.
@@ -899,24 +899,31 @@ weight_per_unit=410
 -----------------------
 # Milk
 # Class: not given, but treat as I
+# http://www.igg.org.uk/gansg/12-linind/milk.htm
+# Each churn held 17 gal., or 77l
+# For capacity of churn vans, see:
+# http://www.gersociety.org.uk/index.php/rolling-stock/misc-stock/milk-vans
+# This gives about 5 churns per loadable unit for standard food vehicles.
 obj=good
 name=milk
-metric=paletten
+metric=churns (x5)
 catg=4
 #
 #value=69
-value=89
+value=32
 #
-value[0]=106
+value[0]=51
 to_distance[0]=32
-value[1]=89
+value[1]=43
 to_distance[1]=48
-value[2]=67
+value[2]=32
 to_distance[2]=80
-value[3]=48
+value[3]=23
+to_distance[3]=160
+value[4]=0
 to_distance[3]=0
 speed_bonus=15
-weight_per_unit=960
+weight_per_unit=385
 -----------------------
 #===============================================================================
 #
