@@ -7,6 +7,9 @@ topspeed=64
 max_weight=8
 intro_year=1896
 intro_month=6
+# 0.5msa
+wear_capacity=32500000
+
 icon=> ./images/tarmac_road.3.4
 cursor=./images/tarmac_road.3.5
 

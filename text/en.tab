@@ -5825,10 +5825,22 @@ rail-narrow-mothballed
 Mothballed narrowgauge track
 mothballed_road
 Mothballed road
-asphalt_road
-Asphalt road
+hr-asphalt-road-light
+Hot rolled asphalt road (210mm)
+hr-asphalt-road-medium
+Hot rolled asphalt road (260mm)
+hr-asphalt-road-heavy
+Hot rolled asphalt road (280mm)
+sma-road-heavy
+Stone mastic asphalt road (175mm)
+sma-road-medium
+Stone mastic asphalt road (165mm)
+sma-road-light
+Stone mastic asphalt road (130mm)
 city_road
-City Road
+Hot rolled asphalt road (270mm)
+city_road-sma
+Stone mastic asphalt road (140mm)
 cobblestone_road
 Cobblestone road
 concrete_road
@@ -5840,13 +5852,15 @@ Unsurfaced road
 macadam_road
 MacAdam road
 motorway
-Motorway
+Motorway (hot rolled asphalt, 350mm)
+motorway-sma
+Motorway (stone mastic asphalt, 230mm)
 concrete_road
 Concrete road
 tarmac_road
-Tarmac road
+Tar MacAdam road
 tarmac_city_road
-Tarmac road (urban)
+Tar MacAdam road (heavy)
 Powerline
 High voltage transmission line
 TramTrack

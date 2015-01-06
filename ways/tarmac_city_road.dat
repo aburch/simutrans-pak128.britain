@@ -3,12 +3,14 @@ Name=tarmac_city_road
 waytype=road
 cost=35000
 maintenance=350
-topspeed=50
+topspeed=80
 max_weight=4
 intro_year=1904
 intro_month=6
-retire_year=1938
-retire_month=6
+
+# Approx. 1 msa
+wear_capacity=65000000
+
 icon=> ./images/tarmac_city_road.3.4
 cursor=./images/tarmac_city_road.3.5
 

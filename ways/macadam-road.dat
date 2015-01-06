@@ -9,6 +9,9 @@ intro_year = 1820
 intro_month = 6
 retire_year = 1936
 retire_month = 7
+# Approx. 0.1msa
+wear_capacity=6600000
+
 icon=> ./images/macadam_road.3.4
 cursor=./images/macadam_road.3.5
 
