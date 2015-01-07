@@ -17,6 +17,7 @@ payload=0
 length=3
 brake_force=0
 rolling_resistance=19
+way_wear_factor=44225
 
 # No Ahrons data available, guessed from contemporary locomotives.
 weight=23
@@ -27,7 +28,7 @@ sound=-1
 
 Constraint[Next][0]=LMR-Planet-Tender
 
-EmptyImage[E]=./images/lmr-lion.1.4
+2EmptyImage[E]=./images/lmr-lion.1.4
 EmptyImage[SE]=./images/lmr-lion.1.5
 EmptyImage[S]=./images/lmr-lion.1.6
 EmptyImage[SW]=./images/lmr-lion.1.7

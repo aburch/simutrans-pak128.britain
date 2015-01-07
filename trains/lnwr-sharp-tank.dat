@@ -20,6 +20,7 @@ payload=0
 length=4
 brake_force=7
 rolling_resistance=19
+way_wear_factor=41500
 
 # Weight not given in Ahrons, but taken from a similar type mentioned at p. 91.
 weight=20

@@ -4,6 +4,8 @@ waytype=track
 system_type=1
 topspeed=100
 cost=220000
+# Wrought iron light
+way_only_cost=46500
 maintenance=1200
 max_weight=300
 max_height=2
@@ -12,6 +14,7 @@ intro_month=1
 retire_year=1897
 retire_month=4
 intro_month=1
+upgrade_group=4
 icon=> ./images/iron-girder-elevated.3.4
 cursor=./images/iron-girder-elevated.3.5
 Image[-][0]=./images/iron-girder-elevated.1.2,0,32

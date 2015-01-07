@@ -22,10 +22,12 @@ payload=0
 length=5
 brake_force=0
 rolling_resistance=19
+way_wear_factor=33862
 
 # Weight taken from Ahrons, p. 52
 weight=18
-axle_load=8
+# Ibid
+axle_load=9
 cost=8015000
 runningcost=900
 sound=-1
