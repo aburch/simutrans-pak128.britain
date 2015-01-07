@@ -16,8 +16,10 @@ freight=None
 payload=0
 length=8
 
-weight=96
+weight=96.3
 axle_load=21
+# No hammer blow
+way_wear_factor=120375
 cost=10298000
 runningcost=2775
 sound=-1

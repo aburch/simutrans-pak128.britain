@@ -18,6 +18,8 @@ length=7
 
 weight=81
 axle_load=20
+# Three cylinders
+way_wear_factor=11375
 cost=6689000
 runningcost=1345
 sound=-1

@@ -17,6 +17,8 @@ waytype=track
 freight=None
 payload=0
 length=7
+# Three cylinder.
+way_wear_factor=70125
 
 # Weight given by Wikipedia: http://en.wikipedia.org/wiki/LNWR_Class_A
 weight=51

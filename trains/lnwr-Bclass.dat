@@ -17,6 +17,8 @@ waytype=track
 freight=None
 payload=0
 length=7
+# Fully balanced 4 cylinder compound
+way_wear_factor=66250
 
 # Weight given by the LNWR Soceity: http://www.lnwrs.org.uk/GoodsLocos/Loco11.php
 weight=53

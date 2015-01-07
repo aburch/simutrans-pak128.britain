@@ -16,6 +16,8 @@ waytype=track
 freight=None
 payload=0
 length=7
+# Four cylinder, but pictures show small balance weights
+way_wear_factor=108938
 
 # http://www.semgonline.com/steam/lnclass_1.html
 weight=83

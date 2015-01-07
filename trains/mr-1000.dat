@@ -18,6 +18,8 @@ waytype=track
 freight=None
 payload=0
 length=6
+# Three cylinder compound
+way_wear_factor=75625
 
 weight=62
 # Ahrons p. 328

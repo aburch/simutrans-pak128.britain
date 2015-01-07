@@ -16,8 +16,10 @@ freight=None
 payload=0
 length=7
 
-weight=86
+weight=86.3
 axle_load=20
+# Three cylinders
+way_wear_factor=118663
 cost=6975000
 runningcost=1500
 sound=-1

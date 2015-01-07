@@ -21,6 +21,7 @@ freight=None
 payload=0
 length=7
 brake_force=15
+way_wear_factor=69013
 
 # Guessed based on Johnson tanks
 weight=43

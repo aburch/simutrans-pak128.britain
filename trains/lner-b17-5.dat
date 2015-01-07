@@ -19,6 +19,8 @@ length=7
 weight=81
 # http://www.lner.info/locos/B/b17.shtml
 axle_load=18
+# Three cylinders
+way_wear_factor=111375
 cost=8467200
 runningcost=1452
 sound=-1

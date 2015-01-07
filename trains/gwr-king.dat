@@ -17,8 +17,9 @@ freight=None
 payload=0
 length=7
 
-weight=90
+weight=90.4
 axle_load=22
+way_wear_factor=118650
 cost=11404800
 runningcost=2310
 sound=-1

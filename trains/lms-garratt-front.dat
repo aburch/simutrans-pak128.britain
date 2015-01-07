@@ -1,4 +1,4 @@
-obj=vehicle
+19obj=vehicle
 name=LMS-Garratt-Front
 engine_type=steam
 speed=80
@@ -18,6 +18,7 @@ length=4
 
 weight=50
 axle_load=19
+way_wear_factor=118125
 cost=12672000
 # These were "heavy on coal and maintenance": http://en.wikipedia.org/wiki/LMS_Garratt
 runningcost=1188

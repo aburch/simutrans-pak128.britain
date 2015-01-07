@@ -17,8 +17,9 @@ waytype=track
 freight=None
 payload=0
 length=5
-brake_force=10
+brake_force=101	
 rolling_resistance=19
+way_wear_factor=61425
 
 # Weight not available, but guessed based on contemporaneous types.
 # Axle load must be 14, as anything higher would not work on contemporary track.

@@ -16,6 +16,8 @@ waytype=track
 freight=None
 payload=0
 length=6
+# Three cylinder
+way_wear_factor=93500
 
 weight=68
 # http://en.wikipedia.org/wiki/SR_V_Schools_class

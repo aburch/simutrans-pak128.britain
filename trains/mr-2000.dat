@@ -20,6 +20,7 @@ waytype=track
 freight=None
 payload=0
 length=7
+way_wear_factor=114795
 
 # http://en.wikipedia.org/wiki/Midland_Railway_2000_Class
 weight=73
@@ -75,6 +76,7 @@ waytype=track
 freight=None
 payload=0
 length=7
+way_wear_factor=119700
 
 # See addendum diagram between pp. 342-3 Ahrons
 weight=76

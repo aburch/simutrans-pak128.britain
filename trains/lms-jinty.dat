@@ -18,6 +18,7 @@ waytype=track
 freight=None
 payload=0
 length=5
+way_wear_factor=79223
 
 weight=50.3
 axles=3
@@ -75,8 +76,9 @@ waytype=track
 freight=None
 payload=0
 length=5
+way_wear_factor=79223
 
-weight=50
+weight=50.3
 axles=3
 cost=1584000
 upgrade_price=55000

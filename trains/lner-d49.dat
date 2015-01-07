@@ -16,6 +16,8 @@ waytype=track
 freight=None
 payload=0
 length=6
+# Three cylinders
+way_wear_factor=89375
 
 weight=65
 axle_load=22

@@ -16,9 +16,11 @@ freight=None
 payload=0
 rolling_resistance=13
 
-weight=103
+weight=102.9
 # http://en.wikipedia.org/wiki/BR_Standard_Class_8
 axle_load=22
+# Three cylinders
+way_wear_factor=141488
 cost=10450000
 runningcost=2295
 sound=-1
