@@ -16,6 +16,7 @@ weight=24
 # Ought to be 23, but is too heavy for track using
 # known formula. Not clear why this should be.
 axle_load=22
+way_wear_factor=127500
 cost=340000
 runningcost=11
 sound=-1
