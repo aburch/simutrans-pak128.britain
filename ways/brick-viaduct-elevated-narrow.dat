@@ -11,6 +11,10 @@ topspeed=70
 cost=350000
 maintenance=475
 max_weight=120
+upgrade_group=1
+way_only_cost=12000
+wear_capacity=250000000
+
 icon=> ./images/brick-viaduct-elevated-narrow.3.4
 cursor=./images/brick-viaduct-elevated-narrow.3.5
 Image[-][0]=./images/brick-viaduct-elevated-narrow.1.2,0,32

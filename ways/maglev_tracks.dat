@@ -46,6 +46,8 @@ topspeed=560
 max_weight=5000
 intro_year = 2004
 intro_month = 1
+upgrade_group=99
+way_only_cost=600000
 
 icon=> ./images/maglev-rail-std-elv.3.4
 cursor=./images/maglev-rail-std-elv.3.5
@@ -122,6 +124,8 @@ topspeed=320
 max_weight=50
 intro_year = 2004
 intro_month = 1
+upgrade_group=99
+way_only_cost=400000
 
 icon=> ./images/maglev-rail-eco-elv.3.4
 cursor=./images/maglev-rail-eco-elv.3.5

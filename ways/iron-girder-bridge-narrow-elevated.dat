@@ -10,6 +10,8 @@ way_only_cost=9500
 maintenance=200
 max_weight=120
 upgrade_group=4
+wear_capacity=95000000
+
 icon=> ./images/iron-girder-elevated-narrow.3.4
 cursor=./images/iron-girder-elevated-narrow.3.5
 Image[-][0]=./images/iron-girder-elevated-narrow.1.2,0,32

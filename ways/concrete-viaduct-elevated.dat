@@ -13,6 +13,7 @@ cost=570000
 # cssr
 way_only_cost=140000
 upgrade_group=2
+wear_capacity=2880000000
 
 icon=> ./images/concrete-viaduct-elevated-175.3.4
 cursor=./images/concrete-viaduct-elevated-175.3.5
@@ -80,6 +81,7 @@ cost=720000
 # cssr-125
 way_only_cost=150000
 upgrade_group=2
+wear_capacity=2940000000
 
 icon=> ./images/concrete-viaduct-elevated-200.3.4
 cursor=./images/concrete-viaduct-elevated-200.3.5
@@ -146,6 +148,7 @@ cost=950000
 # cssri
 way_only_cost=175000
 upgrade_group=2
+wear_capacity=3000000000
 
 icon=> ./images/concrete-viaduct-elevated-225.3.4
 cursor=./images/concrete-viaduct-elevated-225.3.5
@@ -213,6 +216,7 @@ cost=1290000
 # tgv
 way_only_cost=250000
 upgrade_group=2
+wear_capacity=3100000000
 
 icon=> ./images/concrete-viaduct-elevated-hs.3.4
 cursor=./images/concrete-viaduct-elevated-hs.3.5

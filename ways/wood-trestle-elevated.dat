@@ -12,6 +12,8 @@ topspeed=40
 max_weight=150
 upgrade_group=3
 way_only_cost=30000
+wear_capacity=276480000
+
 icon=> ./images/wood-trestle-elevated.3.4
 cursor=./images/wood-trestle-elevated.3.5
 Image[-][0]=./images/wood-trestle-elevated.1.2,0,32
