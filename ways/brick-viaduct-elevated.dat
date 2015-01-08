@@ -11,8 +11,9 @@ max_weight=1000
 cost=850000
 maintenance=1900
 way_only_cost=55000
+# 95lb/yard
 upgrade_group=1
-wear_capacity=2745600000
+wear_capacity=3088800000
 
 icon=> ./images/brick-viaduct-elevated.3.4
 cursor=./images/brick-viaduct-elevated.3.5
