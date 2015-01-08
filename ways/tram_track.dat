@@ -52,7 +52,7 @@ intro_year=1875
 intro_month=6
 retire_year=1889
 retire_month=12
-wear_capacity=264000000
+wear_capacity=482742857
 
 way_constraint_prohibitive[0]=0
 icon=> ./images/tram_track-55lb.3.4
@@ -94,7 +94,7 @@ intro_year=1881
 intro_month=8
 retire_year=1895
 retire_month=2
-wear_capacity=360000000
+wear_capacity=658285714
 
 way_constraint_prohibitive[0]=0
 icon=> ./images/tram_track-75lb.3.4
@@ -136,7 +136,7 @@ intro_year=1885
 intro_month=1
 retire_year=1901
 retire_month=1
-wear_capacity=408000000
+wear_capacity=746057143
 
 way_constraint_prohibitive[0]=0
 icon=> ./images/tram_track-85lb.3.4
@@ -178,7 +178,7 @@ intro_year=1899
 intro_month=9
 retire_year=1992
 retire_month=6
-wear_capacity=441600000
+wear_capacity=807497143
 
 way_constraint_prohibitive[0]=0
 icon=> ./images/tram_track-92lb.3.4
@@ -258,7 +258,7 @@ topspeed=20
 max_weight=18
 intro_year=1892
 intro_month=4
-wear_capacity=624000000
+wear_capacity=1544400000
 
 icon=> ./images/tram_track-heavy.3.4
 cursor=./images/tram_track-heavy.3.5

@@ -58,15 +58,21 @@ cursor=tube-tunnel-concrete.1.2
 -------------------------------
 Obj=way
 Name=LT_Tunnel_Track
+waytype=track
 copyright=TimothyBaldock&KieronGreen&James
-cost=728000
-maintenance=2600
-topspeed=70
+cost=75000
+maintenance=500
+topspeed=155
+max_weight=19
 intro_year=1890
 intro_month=11
-retire_year=1968
-retire_month=1
-waytype=track
+# Late retirement date as this was the standard used by the Underground: 
+# see http://www.trainweb.org/tubeprune/Surrey%20Quays%20Track.htm
+retire_year=1990
+retire_month=7
+wear_capacity=2745600000
+# 95lb/yard
+
 way_constraint_prohibitive[1]=1
 system_type=64
 icon=> ./images/tube-tunnel-track.3.4
@@ -101,12 +107,15 @@ ImageUp2[12][0]=./images/tube-tunnel-track.0.5
 Obj=way
 Name=LT_Tunnel_Track_Fast
 copyright=TimothyBaldock&KieronGreen&James
-cost=915000
-maintenance=1900
-topspeed=80
-intro_year=1965
-intro_month=8
-waytype=track
+cost=140000
+maintenance=375
+topspeed=160
+max_weight=22
+intro_year=1968
+intro_month=3
+# 110lb/yard
+wear_capacity=3840000000
+
 way_constraint_prohibitive[1]=1
 system_type=64
 icon=> ./images/tube-tunnel-track-fast.3.4
