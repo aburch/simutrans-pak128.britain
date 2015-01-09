@@ -842,82 +842,41 @@ max_diversion_tiles = 16
 
 # These settings determine how vehicles take corners, for each individual type of way.  They
 # only apply to vehicles that use fixed ways (road, rail, monorail, etc.), and not aircraft or
-# ships.
-#
-# Corner adjustment facotor (min/max) (%): The percentage of the normal speed limit applied
-# on a 45 degree bend (for example, if the speed limit was 200kph, and the adjustment
-# factor set to 50, the speed limit on the corner would be 100kph). 
+# ships. Note that these settings have changed substantially from versions earlier than 11.
 # 
-# Corner limit (min/max) (kph): The minimum and maximum speed limits for phasing of the 
-# corner adjustment factor. On a way with the speed limit at or below the minimum limit,
-# the minimum adjustment factor applies. On a way with the limit at or above the maximum
-# speed limit, the maximum adjustment factor applies. Between the two, a phased proportion
-# of the adjustment factor applies as a linear function of the difference between the two.
-# For example, at halfway between the minimum and maximum speeds, halfway between the
-# minimum and maximum adjustment factors apply.
+# corner_force_divider_[way type]: The maximum force as a proportion of G (gravitational force)
+# that it is permissible for vehicles of this way type to experience when taking a corner. This
+# number is expressed as a divider: e.g., a value of 10 is 1/10th of G, or 0.1G. The higher this
+# number, the slower that vehicles have to travel in corners. 
 #
-# Direction steps (min/max) (number of tiles): The number of steps that the simulation takes
-# into account when determining how sharp that a corner is. For example, if the number is set
-# to 6, the corner speed limit will be based on the greatest difference in angle between the
-# current direction and the direction in which the vehicle was travelling over the last 6 tiles.
-# The higher the number, therefore, the more important that it is to have straight ways.
-# Higher numbers should be set for railways and track based ways, and lower numbers for roadways.
-# The direction steps are phased in the same way as the adjustment factor.
+# The explanation for this formula can be found here:
+# https://books.google.co.uk/books?id=NbYqQSQcE2MC&pg=PA30&lpg=PA30&dq=curve+radius+speed+limit+formula+rail&source=bl&ots=mbfC3lCnX4&sig=qClyuNSarnvL-zgOj4HlTVgYOr8&hl=en&sa=X&ei=sBGwVOSGHMyBU4mHgNAC&ved=0CCYQ6AEwATgK#v=onepage&q=curve%20radius%20speed%20limit%20formula%20rail&f=false
+# The value of 10 (i.e., 0.1G) is accurate for rail for modern practice in the UK. Road appears
+# to work well at 5 (0.2G), but the value is an estimate. Superelevation is not accounted for.
+# Tilting trains are defined for the individual vehicles.
 #
-# Curve friction factor (x): The number of times extra friction that applies as a vehicle corners.
+# curve_friction_factor_[way type]: The number of times extra friction that applies as a vehicle 
+# corners. 
 #
-# Reverting to the older cornering system: To make Simutrans behave in the conventional way (by
-# using friction rather than speed limits to reduce speed in corners), set the minimum and
-# maximum adjustment factors, and the minimum and maximum direction steps, to 1, and the friction
-# factor to 8. With those settings, the minimum and maximum speed will be irrelevant. 
+# tilting_min_radius_effect: The minimum radius of a corner (in meters, calibrated according
+# to the meters_per_tile setting) at which a tilting train can traverse a corner faster than
+# a non-tilting train. 
 
-max_corner_limit_road=200
-min_corner_limit_road=30
-max_corner_adjustment_factor_road=80
-min_corner_adjustment_factor_road=90
-min_direction_steps_road=2
-max_direction_steps_road=2
+corner_force_divider_road=5
+corner_force_divider_track=10
+corner_force_divider_tram=8
+corner_force_divider_monorail=10
+corner_force_divider_maglev=10
+corner_force_divider_narrowgauge=10
+
 curve_friction_factor_road=0
-
-max_corner_limit_track=425
-min_corner_limit_track=45
-max_corner_adjustment_factor_track=50
-min_corner_adjustment_factor_track=85
-min_direction_steps_track=8
-max_direction_steps_track=28
 curve_friction_factor_track=0
-
-max_corner_limit_tram=250
-min_corner_limit_tram=30
-max_corner_adjustment_factor_tram=70
-min_corner_adjustment_factor_tram=87
-min_direction_steps_tram=2
-max_direction_steps_tram=4
 curve_friction_factor_tram=2
-
-max_corner_limit_monorail=425
-min_corner_limit_monorail=75
-max_corner_adjustment_factor_monorail=62
-min_corner_adjustment_factor_monorail=90
-min_direction_steps_monorail=10
-max_direction_steps_monorail=32
 curve_friction_factor_monorail=0
-
-max_corner_limit_maglev=500
-min_corner_limit_maglev=50
-max_corner_adjustment_factor_maglev=40
-min_corner_adjustment_factor_maglev=80
-min_direction_steps_maglev=8
-max_direction_steps_maglev=32
 curve_friction_factor_maglev=0
-
-max_corner_limit_narrowgauge=250
-min_corner_limit_narrowgauge=30
-max_corner_adjustment_factor_narrowgauge=66
-min_corner_adjustment_factor_narrowgauge=92
-min_direction_steps_narrowgauge=6
-max_direction_steps_narrowgauge=16
 curve_friction_factor_narrowgauge=0
+
+tilting_min_radius_effect=1000
 
 # These settings determine how long that it takes a train-type convoy to turn
 # around when it reaches the end of the line. They do not apply to road vehicles
