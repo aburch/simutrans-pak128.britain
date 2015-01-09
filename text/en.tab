@@ -227,13 +227,13 @@ Douglas DC-3A "Dakota" (mail)
 Bristol_Type170_Mk32_BritishUnitedAirFerries
 Bristol Type 170 Mk32
 Bristol_Type170_Mk32_RoyalMail
-Bristol Type170 Mk32 (mail)
+Bristol Type 170 Mk32 (mail)
 Bristol_Type170_Mk32_CargoCars
-Bristol Type170 Mk32 (cars)
+Bristol Type 170 Mk32 (cars)
 Bristol_Type170_Mk32_CargoPiece
-Bristol Type170 Mk32 (piece goods)
+Bristol Type 170 Mk32 (piece goods)
 Bristol_Type170_Mk32_CargoCool
-Bristol Type170 Mk32 (perishable goods)
+Bristol Type 170 Mk32 (perishable goods)
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickAqueduct
@@ -1564,9 +1564,9 @@ Traffic lights
 RailOneWay
 One way sign
 airport_oneway
-One-way Runway Sign
+One-way taxiway sign
 NoEntry
-No Entry Sign
+No entry sign
 Signals
 Stop Signal
 Classic_Signals_right_narrow
@@ -5897,6 +5897,10 @@ concrete-runway
 Concrete runway
 concrete-taxiway
 Concrete taxiway
+tarmac-runway
+Tar MacAdam runway
+tarmac-taxiway
+Tar MacAdam taxiway
 GrassRunway
 Grass runway
 GrassTaxiway
