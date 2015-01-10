@@ -18,6 +18,7 @@ Location=City
 distributionweight=7
 Productivity=4
 Range=2
+max_distance_to_consumer=100
 MapColor=64 
 InputGood[0]=Papier
 InputCapacity[0]=10 
