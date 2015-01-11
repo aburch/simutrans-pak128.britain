@@ -1,5 +1,5 @@
 obj=vehicle
-name=Vickers_VC1b_Viking
+name=Vickers_VC1b_Viking_AirFerry
 copyright=Milko/jamespetts
 waytype=air
 engine_type=diesel
@@ -35,13 +35,13 @@ sound=planelow.wav
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/Vickers_Viking_VC1b.0.2
-EmptyImage[SE]=./images/Vickers_Viking_VC1b.0.1
-EmptyImage[S]=./images/Vickers_Viking_VC1b.0.0
-EmptyImage[SW]=./images/Vickers_Viking_VC1b.0.7
-EmptyImage[W]=./images/Vickers_Viking_VC1b.0.6
-EmptyImage[NW]=./images/Vickers_Viking_VC1b.0.5
-EmptyImage[N]=./images/Vickers_Viking_VC1b.0.4
-EmptyImage[NE]=./images/Vickers_Viking_VC1b.0.3
+EmptyImage[E]=./images/Vickers_Viking_VC1b_AirFerry.0.2
+EmptyImage[SE]=./images/Vickers_Viking_VC1b_AirFerry.0.1
+EmptyImage[S]=./images/Vickers_Viking_VC1b_AirFerry.0.0
+EmptyImage[SW]=./images/Vickers_Viking_VC1b_AirFerry.0.7
+EmptyImage[W]=./images/Vickers_Viking_VC1b_AirFerry.0.6
+EmptyImage[NW]=./images/Vickers_Viking_VC1b_AirFerry.0.5
+EmptyImage[N]=./images/Vickers_Viking_VC1b_AirFerry.0.4
+EmptyImage[NE]=./images/Vickers_Viking_VC1b_AirFerry.0.3
 
 -------------
