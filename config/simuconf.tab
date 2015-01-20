@@ -793,7 +793,7 @@ drive_left = 1
 # Draw the signals on the left.
 # (In Pak128.Britain, this must be set to 0 until the signals are re-drawn to suit
 # this setting).
-signals_on_left = 0
+signals_on_left = 1
 
 # The below sections deal with the types of roads built automatically by the game,
 # both when the map starts and during the game (in the case of city roads). Different
