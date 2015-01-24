@@ -113,10 +113,14 @@ fields[3]=Car1910Field2
 fields[4]=GoodsField1
 fields[5]=GoodsField2
 probability_to_spawn=25
-production_per_field=1
+production_per_field[0]=1
 max_fields=15
 min_fields=5
-has_snow=1
+has_snow[0]=1
+
+upgrade[0]=CarFactory1925
+upgrade[1]=CarFactory1950
+
 --------------------
 obj=field
 name=GoodsField1
@@ -165,9 +169,6 @@ Image[1]=car-fields.0.1
 Image[2]=car-fields.0.1
 Image[3]=car-fields.0.1
 Image[4]=car-fields-snow.0.1
-
-upgrade[0]=CarFactory1925
-upgrade[1]=CarFactory1950
 
 --------------------
 Obj=factory
@@ -280,10 +281,13 @@ fields[4]=GoodsField1
 fields[5]=GoodsField2
 fields[6]=Truck1935Field
 probability_to_spawn=25
-production_per_field=1
+production_per_field[0]=1
 max_fields=20
 min_fields=10
-has_snow=1
+has_snow[0]=1
+
+upgrade[0]=CarFactory1950
+upgrade[1]=CarFactory1970
 --------------------
 Obj=field
 name=Car1925Field1
@@ -300,9 +304,6 @@ Image[1]=car-fields.1.1
 Image[2]=car-fields.1.1
 Image[3]=car-fields.1.1
 Image[4]=car-fields-snow.1.1
-
-upgrade[0]=CarFactory1950
-upgrade[1]=CarFactory1970
 
 --------------------
 Obj=factory
@@ -416,10 +417,13 @@ fields[5]=GoodsField2
 fields[6]=Truck1935Field
 fields[7]=TaxiField
 probability_to_spawn=25
-production_per_field=1
+production_per_field[0]=1
 max_fields=25
 min_fields=15
-has_snow=1
+has_snow[0]=1
+
+upgrade[0]=CarFactory1970
+upgrade[1]=CarFactory1980
 -----
 Obj=field
 name=Car1948Field1
@@ -452,9 +456,6 @@ Image[1]=car-fields.3.0
 Image[2]=car-fields.3.0
 Image[3]=car-fields.3.0
 Image[3]=car-fields-snow.3.0
-
-upgrade[0]=CarFactory1970
-upgrade[1]=CarFactory1980
 
 --------------------
 Obj=factory
@@ -568,10 +569,12 @@ fields[5]=GoodsField2
 fields[6]=Truck1935Field
 fields[7]=TaxiField
 probability_to_spawn=25
-production_per_field=1
+production_per_field[0]=1
 max_fields=25
 min_fields=15
-has_snow=1
+has_snow[0]=1
+
+upgrade[0]=CarFactory1980
 --------------------
 Obj=field
 name=Car1962Field1
@@ -588,8 +591,6 @@ Image[1]=car-fields.2.1
 Image[2]=car-fields.2.1
 Image[3]=car-fields.2.1
 Image[4]=car-fields-snow.2.1
-
-upgrade[0]=CarFactory1980
 
 --------------------
 
@@ -702,10 +703,10 @@ fields[4]=ContainerField1
 fields[5]=ContainerField2
 fields[6]=TaxiField
 probability_to_spawn=10
-production_per_field=1
+production_per_field[0]=1
 max_fields=20
 min_fields=10
-has_snow=1
+has_snow[0]=1
 ------------------
 Obj=field
 name=ContainerField1

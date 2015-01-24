@@ -351,7 +351,7 @@ MapColor=38
 OutputGood[0]=Stone
 OutputCapacity[0]=720
 OutputFactor[0]=100  
-electricity_proportion=25
+electricity_percent=25
 Dims=4,4,4
 
 upgrade[0]=Quarry1960
@@ -512,7 +512,7 @@ MapColor=38
 OutputGood[0]=Stone
 OutputCapacity[0]=1000
 OutputFactor[0]=100  
-electricity_proportion=35
+electricity_percent=35
 Dims=4,4,4
 
 upgrade[0]=Quarry1985
@@ -670,7 +670,7 @@ MapColor=38
 OutputGood[0]=Stone
 OutputCapacity[0]=1275
 OutputFactor[0]=100  
-electricity_proportion=35
+electricity_percent=35
 Dims=4,4,4
 BackImage[0][0][0][0][0][0]=quarry.0.0
 BackImage[0][0][1][0][0][0]=quarry.0.1

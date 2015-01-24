@@ -33,7 +33,7 @@ MapColor=37
 OutputGood[0]=Kohle
 OutputCapacity[0]=120 
 OutputFactor[0]=100  
-electricity_proportion=30
+electricity_percent=30
 
 expand_probability=11
 expand_minimum=9
@@ -106,7 +106,7 @@ MapColor=37
 OutputGood[0]=Kohle
 OutputCapacity[0]=120 
 OutputFactor[0]=100  
-electricity_proportion=30
+electricity_percent=30
 
 expand_probability=11
 expand_minimum=9
@@ -179,7 +179,7 @@ MapColor=37
 OutputGood[0]=Kohle
 OutputCapacity[0]=480 
 OutputFactor[0]=100  
-electricity_proportion=30
+electricity_percent=30
 Dims=2,2,4
 
 expand_probability=11
@@ -275,7 +275,7 @@ MapColor=37
 OutputGood[0]=Kohle
 OutputCapacity[0]=480 
 OutputFactor[0]=100  
-electricity_proportion=30
+electricity_percent=30
 Dims=2,2,4
 
 expand_probability=11
@@ -464,7 +464,7 @@ MapColor=37
 OutputGood[0]=Kohle
 OutputCapacity[0]=1500 
 OutputFactor[0]=100  
-electricity_proportion=30
+electricity_percent=30
 
 expand_probability=10
 expand_minimum=23
@@ -647,7 +647,7 @@ MapColor=37
 OutputGood[0]=Kohle
 OutputCapacity[0]=1260 
 OutputFactor[0]=100  
-electricity_proportion=30
+electricity_percent=30
 
 expand_probability=9
 expand_minimum=20

@@ -28,7 +28,7 @@ MapColor=16
 OutputGood[0]=Eisenerz
 OutputCapacity[0]=150 
 OutputFactor[0]=100  
-electricity_proportion=30
+electricity_percent=30
 Dims=2,2,4
 
 expand_probability=11
@@ -98,7 +98,7 @@ MapColor=16
 OutputGood[0]=Eisenerz
 OutputCapacity[0]=450 
 OutputFactor[0]=100  
-electricity_proportion=30
+electricity_percent=30
 Dims=2,2,4
 
 expand_probability=11
@@ -168,7 +168,7 @@ MapColor=16
 OutputGood[0]=Eisenerz
 OutputCapacity[0]=1080 
 OutputFactor[0]=100  
-electricity_proportion=30
+electricity_percent=30
 Dims=2,2,4
 
 expand_probability=11
@@ -238,7 +238,7 @@ MapColor=16
 OutputGood[0]=Eisenerz
 OutputCapacity[0]=1215 
 OutputFactor[0]=100  
-electricity_proportion=30
+electricity_percent=30
 
 expand_probability=10
 expand_minimum=23
@@ -371,7 +371,7 @@ MapColor=16
 OutputGood[0]=Eisenerz
 OutputCapacity[0]=1620 
 OutputFactor[0]=100
-electricity_proportion=30  
+electricity_percent=30  
 
 expand_probability=9
 expand_minimum=20
