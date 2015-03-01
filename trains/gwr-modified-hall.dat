@@ -3,11 +3,12 @@ name=GWR-Modified-Hall
 engine_type=steam
 smoke=Steam
 speed=130
-power=319
+# Extrapolated
+power=401
 tractive_effort=121
 copyright=James
 intro_year=1944
-intro_month=3
+intro_month=1
 retire_year=1950
 retire_month=9
 waytype=track
@@ -21,7 +22,7 @@ cost=9895000
 upgrade_price=81400
 runningcost=1175
 sound=-1
-available_only_as_upgrade=1
+available_only_as_upgrade=0
 increase_maintenance_after_years=9
 years_before_maintenance_max_reached=18
 
