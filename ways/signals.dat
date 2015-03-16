@@ -648,20 +648,20 @@ Image[3]=images/privaterail-gate.0.2
 Icon=> images/privaterail-gate.0.4
 Cursor=images/privaterail-gate.0.5
 ---------------------------------------
-# one-way sign (left-hand)
+# one-way sign
 obj=roadsign
 name=RailOneWay
-copyright=James
+copyright=Vladki
 cost=500
 waytype=track
 single_way=1
 intro_year=1825
 intro_month=9
-image[0]=rail-one-way.0.0
-Image[1]=rail-one-way.0.1
-Image[2]=rail-one-way.0.2
-Image[3]=rail-one-way.0.3
-Icon=> rail-one-way.0.5
-Cursor=rail-one-way.0.4
+Image[0]=images/rail-one-way.0.0
+Image[1]=images/rail-one-way.0.2
+Image[2]=images/rail-one-way.0.1
+Image[3]=images/rail-one-way.0.3
+Icon=> images/rail-one-way.0.5
+Cursor=images/rail-one-way.0.4
 ---------------------------------------
 # END OF FILE
