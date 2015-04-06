@@ -93,7 +93,8 @@ comfort=69
 Constraint[Prev][0]=LNER-1937-Tyneside-EMU-front
 
 Constraint[Next][0]=LNER-1937-Tyneside-EMU-front
-Constraint[Next][1]=none
+Constraint[Next][1]=LNER-1937-Tyneside-EMU-MPV
+Constraint[Next][2]=none
 
 liverytype[0]=LNER
 liverytype[1]=BR-Early
