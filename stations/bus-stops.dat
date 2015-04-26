@@ -137,8 +137,8 @@ FrontImage[0][0][0][0][0][1]=-
 BackImage[1][0][0][0][0][1]=loading-bay.1.4
 FrontImage[1][0][0][0][0][1]=-
 
-icon=> loading-bay.0.2
-cursor=loading-bay.0.1
+icon=> loading-bay.1.2
+cursor=loading-bay.1.1
 --------------------
 Obj=building
 Name=LoadingBay
@@ -166,6 +166,33 @@ FrontImage[1][0][0][0][0][1]=-
 
 icon=> loading-bay.0.2
 cursor=loading-bay.0.1
+--------------------
+Obj=building
+Name=LoadingBayCargo
+# must be 1*1
+type=stop
+waytype=road
+intro_year=1842
+intro_month=12
+noconstruction=1
+enables_ware=1
+NoInfo=1
+Dims=1,1,2
+level=1
+allow_underground=0
+station_capacity=25
+BackImage[0][0][0][0][0][0]=loading-bay-cargo.0.0
+FrontImage[0][0][0][0][0][0]=-
+BackImage[1][0][0][0][0][0]=loading-bay-cargo.0.1
+FrontImage[1][0][0][0][0][0]=-
+
+BackImage[0][0][0][0][0][1]=loading-bay-cargo.0.3
+FrontImage[0][0][0][0][0][1]=-
+BackImage[1][0][0][0][0][1]=loading-bay-cargo.0.4
+FrontImage[1][0][0][0][0][1]=-
+
+icon=> loading-bay-cargo.0.2
+cursor=loading-bay-cargo.0.1
 --------------------
 Obj=building
 Name=OldCargoStop
