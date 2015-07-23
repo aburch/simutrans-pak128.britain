@@ -489,6 +489,10 @@ allow_making_public = 0
 
 allow_airports_without_control_towers = 0
 
+# If this is set to 2, single height bridges cannot be built over ways.
+
+way_height_clearance = 2
+
 ################################## Industry settings #################################
 
 # allow all possible supplier to connect to your factories?
