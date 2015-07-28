@@ -39,6 +39,11 @@ Image[4]=images/signal-3-aspect-clear.1.2,42,-2
 Image[5]=images/signal-3-aspect-clear.1.0,-37,12
 Image[6]=images/signal-3-aspect-clear.1.1,-7,-18
 Image[7]=images/signal-3-aspect-clear.1.3,10,27
+# YELLOW
+Image[8]=images/signal-3-aspect-caution.1.2,42,-2
+Image[9]=images/signal-3-aspect-caution.1.0,-37,12
+Image[10]=images/signal-3-aspect-caution.1.1,-7,-18
+Image[11]=images/signal-3-aspect-caution.1.3,10,27
 Icon=> images/signal-icons.1.0
 Cursor=images/signal-icons.1.1
 
@@ -55,15 +60,15 @@ is_signal=1
 intro_year=1920
 intro_month=4
 # RED
-Image[0]=images/signal-2-aspect-danger.1.2
-Image[1]=images/signal-2-aspect-danger.1.0
-Image[2]=images/signal-2-aspect-danger.1.1
-Image[3]=images/signal-2-aspect-danger.1.3
+Image[0]=images/signal-2-aspect-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-danger.1.3,10,27
 # GREEN
-Image[4]=images/signal-2-aspect-clear.1.2
-Image[5]=images/signal-2-aspect-clear.1.0
-Image[6]=images/signal-2-aspect-clear.1.1
-Image[7]=images/signal-2-aspect-clear.1.3
+Image[4]=images/signal-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-clear.1.3,10,27
 Icon=> images/signal-icons.1.2
 Cursor=images/signal-icons.1.3
 ---------------------------------------
@@ -77,20 +82,20 @@ is_presignal=1
 intro_year=1920
 intro_month=4
 # RED (unused)
-Image[0]=images/signal-2-aspect-danger.1.2
-Image[1]=images/signal-2-aspect-danger.1.0
-Image[2]=images/signal-2-aspect-danger.1.1
-Image[3]=images/signal-2-aspect-danger.1.3
+Image[0]=images/signal-2-aspect-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-danger.1.3,10,27
 # GREEN
-Image[4]=images/signal-2-aspect-clear.1.2
-Image[5]=images/signal-2-aspect-clear.1.0
-Image[6]=images/signal-2-aspect-clear.1.1
-Image[7]=images/signal-2-aspect-clear.1.3
+Image[4]=images/signal-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-clear.1.3,10,27
 # YELLOW
-Image[8]=images/signal-2-aspect-caution.1.2
-Image[9]=images/signal-2-aspect-caution.1.0
-Image[10]=images/signal-2-aspect-caution.1.1
-Image[11]=images/signal-2-aspect-caution.1.3
+Image[8]=images/signal-2-aspect-caution.1.2,42,-2
+Image[9]=images/signal-2-aspect-caution.1.0,-37,12
+Image[10]=images/signal-2-aspect-caution.1.1,-7,-18
+Image[11]=images/signal-2-aspect-caution.1.3,10,27
 Icon=> images/signal-icons.1.4
 Cursor=images/signal-icons.1.5
 ---------------------------------------
@@ -106,15 +111,15 @@ is_longblocksignal=1
 intro_year=1920
 intro_month=4
 # RED
-Image[0]=images/signal-3-aspect-longblock.1.2
-Image[1]=images/signal-3-aspect-longblock.1.0
-Image[2]=images/signal-3-aspect-longblock.1.1
-Image[3]=images/signal-3-aspect-longblock.1.3
+Image[0]=images/signal-3-aspect-longblock.1.2,42,-2
+Image[1]=images/signal-3-aspect-longblock.1.0,-37,12
+Image[2]=images/signal-3-aspect-longblock.1.1,-7,-18
+Image[3]=images/signal-3-aspect-longblock.1.3,10,27
 # GREEN
-Image[4]=images/signal-3-aspect-clear.1.2
-Image[5]=images/signal-3-aspect-clear.1.0
-Image[6]=images/signal-3-aspect-clear.1.1
-Image[7]=images/signal-3-aspect-clear.1.3
+Image[4]=images/signal-3-aspect-clear.1.2,42,-2
+Image[5]=images/signal-3-aspect-clear.1.0,-37,12
+Image[6]=images/signal-3-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-3-aspect-clear.1.3,10,27
 Icon=> images/signal-icons.1.6
 Cursor=images/signal-icons.1.7
 ---------------------------------------
@@ -129,15 +134,15 @@ free_route=1
 intro_year=1920
 intro_month=4
 # RED
-Image[0]=images/signal-2-aspect-route-indicator-danger.1.2
-Image[1]=images/signal-2-aspect-route-indicator-danger.1.0
-Image[2]=images/signal-2-aspect-route-indicator-danger.1.1
-Image[3]=images/signal-2-aspect-route-indicator-danger.1.3
+Image[0]=images/signal-2-aspect-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-route-indicator-danger.1.3,10,27
 # GREEN
-Image[4]=images/signal-2-aspect-route-indicator-clear.1.2
-Image[5]=images/signal-2-aspect-route-indicator-clear.1.0
-Image[6]=images/signal-2-aspect-route-indicator-clear.1.1
-Image[7]=images/signal-2-aspect-route-indicator-clear.1.3
+Image[4]=images/signal-2-aspect-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-route-indicator-clear.1.3,10,27
 Icon=> images/signal-icons.1.8
 Cursor=images/signal-icons.1.9
 ---------------------------------------
