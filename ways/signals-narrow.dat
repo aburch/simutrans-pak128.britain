@@ -1,17 +1,506 @@
 #--------------------------------------
-# RAIL SIGNALS FOR SIMUTRANS 2.0
+# NARROW GAUGE RAIL SIGNALS FOR SIMUTRANS
 #--------------------------------------
 #
 # author: Fabio Gonella (Fagonella)
 # date:   01-Aug-06
 # update: 11-Sep-06
 # update: 12-Jan-07
-# revised for Pak128.Britain 01-Mar-09 James Hood with permission; revised again for narrow gauge 01-Sep-11
+# revised for Pak128.Britain 01-Mar-09 James Hood with permission
+# Further revised 2015 by James E. Petts for rendered left-handed signals
 #
 # A special thank to Timothy, VS, Claire and an unknown japanese friend!
 #
+# Offsets: [image name],x,y
+# where x is left/right (negative left, positive right)
+# and y is up/down (negative up, positive down)
+#
+# See usefully here: http://www.modelrailforum.com/forums/index.php?showtopic=3052
+#
+# NOTE: It is not entirely clear the extent to which narrow gauge signals
+# differed in size from standard gauge signals. Many older signals appear
+# to be the same size as on standard gauge, but some newer signals appear
+# to be shorter. Standard gauge signal graphics are used for now for the
+# sake of economy, but consideration may be given to adapting this at a
+# later date.
+#
 ---------------------------------------
-# CLASSIC STYLE All ages...
+# COLOUR LIGHT 1920s
+#--------------------------------------
+# Stop signal left side
+obj=roadsign
+copyright=JamesPetts
+name=two-aspect-colour-light-stop-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+intro_year=1920
+intro_month=4
+# RED
+Image[0]=images/signal-2-aspect-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-danger.1.3,10,27
+# GREEN
+Image[4]=images/signal-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-clear.1.3,10,27
+Icon=> images/signal-icons.1.2
+Cursor=images/signal-icons.1.3
+---------------------------------------
+# Distant signal left side
+obj=roadsign
+copyright=JamesPetts
+Name=two-aspect-colour-light-distant-narrow
+waytype=narrowgauge_track
+cost=3200
+is_presignal=1
+intro_year=1920
+intro_month=4
+# RED (unused)
+Image[0]=images/signal-2-aspect-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-danger.1.3,10,27
+# GREEN
+Image[4]=images/signal-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-clear.1.3,10,27
+# YELLOW
+Image[8]=images/signal-2-aspect-caution.1.2,42,-2
+Image[9]=images/signal-2-aspect-caution.1.0,-37,12
+Image[10]=images/signal-2-aspect-caution.1.1,-7,-18
+Image[11]=images/signal-2-aspect-caution.1.3,10,27
+Icon=> images/signal-icons.1.4
+Cursor=images/signal-icons.1.5
+---------------------------------------
+# Long block signal left side
+obj=roadsign
+copyright=JamesPetts
+# TODO: Change the name and graphics of this more accurately to represent token block signalling.
+Name=long-block-colour-light-narrow
+waytype=narrowgauge_track
+cost=6400
+is_signal=1
+is_longblocksignal=1
+intro_year=1920
+intro_month=4
+# RED
+Image[0]=images/signal-3-aspect-longblock.1.2,42,-2
+Image[1]=images/signal-3-aspect-longblock.1.0,-37,12
+Image[2]=images/signal-3-aspect-longblock.1.1,-7,-18
+Image[3]=images/signal-3-aspect-longblock.1.3,10,27
+# GREEN
+Image[4]=images/signal-3-aspect-clear.1.2,42,-2
+Image[5]=images/signal-3-aspect-clear.1.0,-37,12
+Image[6]=images/signal-3-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-3-aspect-clear.1.3,10,27
+Icon=> images/signal-icons.1.6
+Cursor=images/signal-icons.1.7
+---------------------------------------
+# Route indicator (choose) signal left side
+obj=roadsign
+copyright=JamesPetts
+Name=two-aspect-colour-light-choose-narrow
+waytype=narrowgauge_track
+cost=12800
+is_signal=1
+free_route=1
+intro_year=1920
+intro_month=4
+# RED
+Image[0]=images/signal-2-aspect-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-route-indicator-danger.1.3,10,27
+# GREEN
+Image[4]=images/signal-2-aspect-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-route-indicator-clear.1.3,10,27
+Icon=> images/signal-icons.1.8
+Cursor=images/signal-icons.1.9
+---------------------------------------
+# UPPER QUADRANT SEMAPHORES 1920s
+#--------------------------------------
+# See http://www.railsigns.uk/sect2page5/sect2page5.html
+# These were only introduced from 1924 onwards.
+# Previously, only lower quadrant signals were used.
+# Stop signal left side
+obj=roadsign
+copyright=JamesPetts
+name=uq-semaphore-stop-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+intro_year=1924
+intro_month=7
+# DANGER
+Image[0]=images/semaphore-upper-quadrant-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-upper-quadrant-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-upper-quadrant-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-upper-quadrant-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-upper-quadrant-stop-clear.1.2,42,-2
+Image[5]=images/semaphore-upper-quadrant-stop-clear.1.0,-37,12
+Image[6]=images/semaphore-upper-quadrant-stop-clear.1.1,-7,-18
+Image[7]=images/semaphore-upper-quadrant-stop-clear.1.3,10,27
+Icon=> images/signal-icons.2.0
+Cursor=images/signal-icons.2.1
+---------------------------------------
+# Distant signal left side
+obj=roadsign
+copyright=JamesPetts
+name=uq-semaphore-distant-narrow
+waytype=narrowgauge_track
+cost=1600
+is_presignal=1
+intro_year=1924
+intro_month=7
+# DANGER (unused)
+Image[0]=images/semaphore-upper-quadrant-distant-caution.1.2,42,-2
+Image[1]=images/semaphore-upper-quadrant-distant-caution.1.0,-37,12
+Image[2]=images/semaphore-upper-quadrant-distant-caution.1.1,-7,-18
+Image[3]=images/semaphore-upper-quadrant-distant-caution.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-upper-quadrant-distant-clear.1.2,42,-2
+Image[5]=images/semaphore-upper-quadrant-distant-clear.1.0,-37,12
+Image[6]=images/semaphore-upper-quadrant-distant-clear.1.1,-7,-18
+Image[7]=images/semaphore-upper-quadrant-distant-clear.1.3,10,27
+# CAUTION
+Image[8]=images/semaphore-upper-quadrant-distant-caution.1.2,42,-2
+Image[9]=images/semaphore-upper-quadrant-distant-caution.1.0,-37,12
+Image[10]=images/semaphore-upper-quadrant-distant-caution.1.1,-7,-18
+Image[11]=images/semaphore-upper-quadrant-distant-caution.1.3,10,27
+Icon=> images/signal-icons.2.2
+Cursor=images/signal-icons.2.3
+---------------------------------------
+# Junction (choose) signal left side
+obj=roadsign
+copyright=JamesPetts
+name=uq-semaphore-junction-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+free_route=1
+intro_year=1924
+intro_month=7
+# DANGER
+Image[0]=images/semaphore-upper-quadrant-junction-danger.1.2,42,-2
+Image[1]=images/semaphore-upper-quadrant-junction-danger.1.0,-37,12
+Image[2]=images/semaphore-upper-quadrant-junction-danger.1.1,-7,-18
+Image[3]=images/semaphore-upper-quadrant-junction-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-upper-quadrant-junction-clear.1.2,42,-2
+Image[5]=images/semaphore-upper-quadrant-junction-clear.1.0,-37,12
+Image[6]=images/semaphore-upper-quadrant-junction-clear.1.1,-7,-18
+Image[7]=images/semaphore-upper-quadrant-junction-clear.1.3,10,27
+Icon=> images/signal-icons.2.4
+Cursor=images/signal-icons.2.5
+---------------------------------------
+# Long block signal left side
+# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
+obj=roadsign
+copyright=JamesPetts
+name=uq-semaphore-longblock-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+is_longblocksignal=1
+intro_year=1924
+intro_month=7
+# DANGER
+Image[0]=images/semaphore-upper-quadrant-longblock-danger.1.2,42,-2
+Image[1]=images/semaphore-upper-quadrant-longblock-danger.1.0,-37,12
+Image[2]=images/semaphore-upper-quadrant-longblock-danger.1.1,-7,-18
+Image[3]=images/semaphore-upper-quadrant-longblock-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-upper-quadrant-longblock-clear.1.2,42,-2
+Image[5]=images/semaphore-upper-quadrant-longblock-clear.1.0,-37,12
+Image[6]=images/semaphore-upper-quadrant-longblock-clear.1.1,-7,-18
+Image[7]=images/semaphore-upper-quadrant-longblock-clear.1.3,10,27
+Icon=> images/signal-icons.2.6
+Cursor=images/signal-icons.2.7
+---------------------------------------
+# LOWER QUADRANT SEMAPHORES
+#--------------------------------------
+# See http://www.railsigns.uk/sect2page1/sect2page1.html
+# Lower quadrant signals were used for most of the 19th and early 20th centuries.
+# Stop signal left side (original, with white clear aspect)
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-stop-white-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+intro_year=1860
+intro_month=2
+retire_year=1880
+retire_month=5
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-stop-clear-white.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-stop-clear-white.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-stop-clear-white.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-stop-clear-white.1.3,10,27
+Icon=> images/signal-icons.3.0
+Cursor=images/signal-icons.3.1
+---------------------------------------
+# Stop signal left side (later, with green clear aspect)
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-stop-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+intro_year=1880
+intro_month=5
+retire_year=1924
+retire_month=7
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-stop-clear.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-stop-clear.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-stop-clear.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-stop-clear.1.3,10,27
+Icon=> images/signal-icons.3.0
+Cursor=images/signal-icons.3.1
+---------------------------------------
+# Distant signal left side
+# (Early version with red arm and white clear aspect)
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-distant-red-white-narrow
+waytype=narrowgauge_track
+cost=1600
+is_presignal=1
+intro_year=1860
+intro_month=2
+retire_year=1880
+retire_month=5
+# DANGER (unused)
+Image[0]=images/semaphore-lower-quadrant-distant-red-caution.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-distant-red-caution.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-distant-red-caution.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-distant-red-caution.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-distant-red-clear-white.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-distant-red-clear-white.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-distant-red-clear-white.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-distant-red-clear-white.1.3,10,27
+# CAUTION
+Image[8]=images/semaphore-lower-quadrant-distant-red-caution.1.2,42,-2
+Image[9]=images/semaphore-lower-quadrant-distant-red-caution.1.0,-37,12
+Image[10]=images/semaphore-lower-quadrant-distant-red-caution.1.1,-7,-18
+Image[11]=images/semaphore-lower-quadrant-distant-red-caution.1.3,10,27
+Icon=> images/signal-icons.3.2
+Cursor=images/signal-icons.3.3
+---------------------------------------
+# Distant signal left side
+# (Intermediate version with red arm and green clear aspect)
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-distant-red-narrow
+waytype=narrowgauge_track
+cost=1600
+is_presignal=1
+intro_year=1880
+intro_month=5
+retire_year=1918
+retire_month=1
+# DANGER (unused)
+Image[0]=images/semaphore-lower-quadrant-distant-red-caution.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-distant-red-caution.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-distant-red-caution.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-distant-red-caution.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-distant-red-clear.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-distant-red-clear.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-distant-red-clear.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-distant-red-clear.1.3,10,27
+# CAUTION
+Image[8]=images/semaphore-lower-quadrant-distant-red-caution.1.2,42,-2
+Image[9]=images/semaphore-lower-quadrant-distant-red-caution.1.0,-37,12
+Image[10]=images/semaphore-lower-quadrant-distant-red-caution.1.1,-7,-18
+Image[11]=images/semaphore-lower-quadrant-distant-red-caution.1.3,10,27
+Icon=> images/signal-icons.3.2
+Cursor=images/signal-icons.3.3
+---------------------------------------
+# Distant signal left side
+# (Later version with yellow arm)
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-distant-narrow
+waytype=narrowgauge_track
+cost=1600
+is_presignal=1
+intro_year=1918
+intro_month=1
+retire_year=1924
+retire_month=7
+# DANGER (unused)
+Image[0]=images/semaphore-lower-quadrant-distant-caution.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-distant-caution.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-distant-caution.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-distant-caution.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-distant-clear.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-distant-clear.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-distant-clear.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-distant-clear.1.3,10,27
+# CAUTION
+Image[8]=images/semaphore-lower-quadrant-distant-caution.1.2,42,-2
+Image[9]=images/semaphore-lower-quadrant-distant-caution.1.0,-37,12
+Image[10]=images/semaphore-lower-quadrant-distant-caution.1.1,-7,-18
+Image[11]=images/semaphore-lower-quadrant-distant-caution.1.3,10,27
+Icon=> images/signal-icons.3.2
+Cursor=images/signal-icons.3.3
+---------------------------------------
+# Long block signal left side
+# (Later version with yellow distant arm)
+# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-longblock-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+is_longblocksignal=1
+intro_year=1918
+intro_month=1
+retire_year=1924
+retire_month=7
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-longblock-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-longblock-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-longblock-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-longblock-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-longblock-clear.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-longblock-clear.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-longblock-clear.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-longblock-clear.1.3,10,27
+Icon=> images/signal-icons.3.4
+Cursor=images/signal-icons.3.5
+---------------------------------------
+# Long block signal left side
+# (Intermediate version with red distant arm and green clear aspect)
+# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-longblock-red-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+is_longblocksignal=1
+intro_year=1880
+intro_month=5
+retire_year=1918
+retire_month=1
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-longblock-red-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-longblock-red-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-longblock-red-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-longblock-red-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-longblock-red-clear.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-longblock-red-clear.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-longblock-red-clear.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-longblock-red-clear.1.3,10,27
+Icon=> images/signal-icons.3.4
+Cursor=images/signal-icons.3.5
+---------------------------------------
+# Long block signal left side
+# (Early version with red distant arm and white clear aspect)
+# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-longblock-red-white-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+is_longblocksignal=1
+intro_year=1860
+intro_month=2
+retire_year=1880
+retire_month=5
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-longblock-red-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-longblock-red-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-longblock-red-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-longblock-red-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-longblock-red-clear-white.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-longblock-red-clear-white.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-longblock-red-clear-white.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-longblock-red-clear-white.1.3,10,27
+Icon=> images/signal-icons.3.4
+Cursor=images/signal-icons.3.5
+---------------------------------------
+# Junction (choose) signal left side
+# (Later version with green clear aspect)
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-junction-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+free_route=1
+intro_year=1880
+intro_month=5
+retire_year=1924
+retire_month=7
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-junction-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-junction-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-junction-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-junction-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-junction-clear.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-junction-clear.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-junction-clear.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-junction-clear.1.3,10,27
+Icon=> images/signal-icons.3.6
+Cursor=images/signal-icons.3.7
+---------------------------------------
+# Junction (choose) signal left side
+# (Earlier version with white clear aspect)
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-junction-white-narrow
+waytype=narrowgauge_track
+cost=1600
+is_signal=1
+free_route=1
+intro_year=1880
+intro_month=5
+retire_year=1924
+retire_month=7
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-junction-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-junction-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-junction-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-junction-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-junction-clear-white.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-junction-clear-white.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-junction-clear-white.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-junction-clear-white.1.3,10,27
+Icon=> images/signal-icons.3.6
+Cursor=images/signal-icons.3.7
+
+---------------------------------------
+# CLASSIC STYLE All ages... (DEPRECATED)
 #--------------------------------------
 # normal signal right side
 obj=roadsign
