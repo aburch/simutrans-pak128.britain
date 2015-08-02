@@ -1615,6 +1615,26 @@ uq-semaphore-junction
 Semaphore choose signal
 uq-semaphore-longblock
 Semaphore long block signal
+lq-semaphore-stop-white
+Semaphore stop signal
+lq-semaphore-stop
+Semaphore stop signal
+lq-semaphore-distant-red-white
+Semaphore distant signal
+lq-semaphore-distant-red
+Semaphore distant signal
+lq-semaphore-distant
+Semaphore distant signal
+lq-semaphore-longblock
+Semaphore long block signal
+lq-semaphore-longblock-red
+Semaphore long block signal
+lq-semaphore-longblock-red-white
+Semaphore long block signal
+lq-semaphore-junction
+Semaphore choose signal
+lq-semaphore-junction-white
+Semaphore choose signal
 Classic_LongSignals_right
 Long-block signal
 Classic_LongSignals_right_narrow
