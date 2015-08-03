@@ -1581,26 +1581,10 @@ airport_oneway
 One-way taxiway sign
 NoEntry
 No entry sign
-Signals
-Stop Signal
-Classic_Signals_right_narrow
-Stop Signal
-Classic_Signals_right
-Stop Signal
-Classic_Signals_right_narrow
-Stop Signal
 Early_Signals_right
 Stop signal
 two-aspect-colour-light-stop
 Stop signal (colour light)
-preSignals
-Pre-signal
-Classic_preSignals_right_narrow
-Pre-signal
-Classic_preSignals_right
-Pre-signal
-Classic_preSignals_right_narrow
-Pre-signal
 Early_preSignals_right
 Pre-signal
 two-aspect-colour-light-distant
@@ -1671,20 +1655,28 @@ lq-semaphore-junction-narrow
 Semaphore choose signal
 lq-semaphore-junction-white-narrow
 Semaphore choose signal
-Classic_LongSignals_right
-Long-block signal
-Classic_LongSignals_right_narrow
-Long-block signal
+lq-semaphore-underground-stop-white
+Semaphore stop signal (underground)
+lq-semaphore-underground-stop
+Semaphore stop signal (underground)
+lq-semaphore-underground-distant-red-white
+Semaphore distant signal (underground)
+lq-semaphore-underground-distant-red
+Semaphore distant signal (underground)
+lq-semaphore-underground-distant
+Semaphore distant signal (underground)
+lq-semaphore-underground-longblock
+Semaphore long block signal (underground)
+lq-semaphore-underground-longblock-red
+Semaphore long block signal (underground)
+lq-semaphore-underground-longblock-red-white
+Semaphore long block signal (underground)
+lq-semaphore-underground-junction
+Semaphore choose signal (underground)
+lq-semaphore-underground-junction-white
+Semaphore choose signal (underground)
 Early_LongSignals_right
 Long-block signal
-Modern_LongSignals_right
-Long-block signal
-ChooseSignals
-Platform choose signals
-Classic_ChooseSignals_right
-Platform choose signal
-Classic_ChooseSignals_right_narrow
-Platform choose signal
 Early_ChooseSignals_right
 Platform choose signal
 two-aspect-colour-light-choose
