@@ -1573,6 +1573,24 @@ battery
 maglev
 #___________________________________way-signs____________________________________
 #___________________________________way-signs____________________________________
+ATC_signal
+Stop signal
+ATC_OneWay
+One way sign
+ATC_presignal
+Pre-signal
+ATC_Longblock
+Long-block signal
+ATC_choosesignal
+Choose signal
+ATC_EndofChooseSignal
+End of choose signal block sign
+60minspeed
+Min. 60km/h restriction
+100minspeed
+Min. 100km/h restriction
+121minspeed
+Min. 121km/h restriction
 traffic_light
 Traffic lights
 RailOneWay
@@ -1689,6 +1707,14 @@ longblock-colour-light-square
 Long block signal (colour light)
 two-aspect-colour-light-square-choose
 Choose signal (colour light)
+underground-two-aspect-colour-light-stop
+Stop signal (underground)
+underground-two-aspect-colour-light-distant
+Distant signal (underground)
+underground-longblock-colour-light
+Long block signal (underground)
+underground-two-aspect-colour-light-choose
+Choose signal (underground)
 EndofChooseSignal
 End of choose signal
 Modern_EndofChooseSignal
@@ -6225,32 +6251,6 @@ Yerkes-station-building
 Tube station building
 art-deco-underground-station-building
 Tube station building
-#_________________Signals_______________________
-#_________________Signals_______________________
-ATC_signal
-Stop signal
-ATC_OneWay
-One way sign
-ATC_presignal
-Pre-signal
-ATC_Longblock
-Long-block signal
-ATC_choosesignal
-Choose signal
-ATC_EndofChooseSignal
-End of choose signal block sign
-Underground_Signals_right
-Underground stop signal
-Underground_preSignals_right
-Underground pre-signal
-Underground_ChooseSignals_right
-Underground choose signal
-60minspeed
-Min. 60km/h restriction
-100minspeed
-Min. 100km/h restriction
-121minspeed
-Min. 121km/h restriction
 #_________________City cars_______________________
 #_________________City cars_______________________
 AustinMetro(Blue)
