@@ -1607,8 +1607,16 @@ Early_preSignals_right
 Pre-signal
 two-aspect-colour-light-distant
 Distant signal (colour light)
-LongSignals
-Long-block signal
+two-aspect-colour-light-led-square-stop
+Stop signal (LED)
+two-aspect-colour-light-led-square-distant
+Distant signal (LED)
+longblock-colour-light-led-square
+Long block signal (LED)
+two-aspect-colour-light-led-square-choose
+Choose signal (LED)
+three-aspect-colour-light-longblock
+Long-block signal (colour light)
 uq-semaphore-stop
 Semaphore stop signal
 uq-semaphore-distant
