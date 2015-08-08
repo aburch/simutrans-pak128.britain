@@ -1599,12 +1599,14 @@ airport_oneway
 One-way taxiway sign
 NoEntry
 No entry sign
-Early_Signals_right
-Stop signal
+flag-signal-stop
+Flag signal
+flag-signal-distant
+Flag pre-signal
+flag-signal-junction
+Flag choose signal
 two-aspect-colour-light-stop
 Stop signal (colour light)
-Early_preSignals_right
-Pre-signal
 two-aspect-colour-light-distant
 Distant signal (colour light)
 two-aspect-colour-light-led-square-stop
@@ -1701,10 +1703,6 @@ lq-semaphore-underground-junction
 Semaphore choose signal (underground)
 lq-semaphore-underground-junction-white
 Semaphore choose signal (underground)
-Early_LongSignals_right
-Long-block signal
-Early_ChooseSignals_right
-Platform choose signal
 two-aspect-colour-light-choose
 Choose signal (colour light)
 two-aspect-colour-light-square-stop
