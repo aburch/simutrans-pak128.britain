@@ -1,0 +1,13 @@
+Obj=building
+Name=power-signalbox-deco
+Type=signalbox
+
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=images/power-signalbox-deco.0.0
+BackImage[0][0][0][0][0][1]=images/power-signalbox-deco.0.1
+BackImage[1][0][0][0][0][0]=images/power-signalbox-deco.0.2
+BackImage[1][0][0][0][0][1]=images/power-signalbox-deco.1.0
+BackImage[2][0][0][0][0][0]=images/power-signalbox-deco.1.1
+BackImage[2][0][0][0][0][1]=images/power-signalbox-deco.1.2
+BackImage[3][0][0][0][0][0]=images/power-signalbox-deco.2.0
+BackImage[3][0][0][0][0][1]=images/power-signalbox-deco.2.1
