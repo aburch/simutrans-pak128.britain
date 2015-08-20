@@ -6,26 +6,32 @@ NoInfo=1
 Level=1
 intro_year=1858
 intro_month=6
+#retire_year=1971
+#retire_month=8
 
 allow_underground=0
-maintenance=10000
+maintenance=7500
 cost=850000
-capacity=85
+population_and_visitor_demand_capacity=0
+employment_capacity=1
+mail_demand=1
 
 # Signal groups (maximum of 32)
 #  0 - ungrouped (default, needs no box)
 #  1 - time interval
-#  2 - absolute block, mechanical
-#  3 - token block, mechanical
+#  2 - absolute block
+#  3 - token block
 #  4 - speed signalling 
-#  5 - track circuit block, colour light
-#  6 - radio electronic token block
+#  5 - track circuit block
+#  6 - radio electronic token block (RETB)
 #  7 - TVM (TGV/CTRL cab signalling)
 #  8 - ETRMS Level 2 (cab signalling)
 #  9 - ETRMS Level 3 (high speed moving block)
 # 10 - Seltrac (low speed moving block)
 
 signal_groups=2,3
+radius=1500
+capacity=8
 
 dims=1,1,4
 BackImage[0][0][0][0][0][0]=mechanical-signalbox-intermediate.1.3

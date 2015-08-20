@@ -9,7 +9,16 @@ intro_month=4
 retire_year=1971
 retire_month=8
 
+allow_underground=0
+maintenance=10000
+cost=1000000
+population_and_visitor_demand_capacity=0
+employment_capacity=2
+mail_demand=2
+
 signal_groups=2,3
+radius=1500
+capacity=16
 
 dims=2,1,4
 BackImage[0][0][0][0][0][0]=images/mechanical-signalbox-large.0.0
