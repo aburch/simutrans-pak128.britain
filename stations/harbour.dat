@@ -115,9 +115,9 @@ intro_year=1750
 retire_year=1922
 retire_month=2
 
-station_maintenance=15000
-station_price=1275000
-station_capacity=85
+maintenance=15000
+cost=1275000
+capacity=85
 
 BackImage[0][0][0][0][0][0]=harbour-passenger.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger.2.1
@@ -170,9 +170,9 @@ intro_month=2
 retire_year=1949
 retire_month=8
 
-station_maintenance=15300
-station_price=1567500
-station_capacity=95
+maintenance=15300
+cost=1567500
+capacity=95
 
 BackImage[0][0][0][0][0][0]=harbour-passenger-deco.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-deco.2.1
@@ -225,9 +225,9 @@ intro_month=7
 retire_year=1977
 retire_month=1
 
-station_maintenance=16350
-station_price=2371875
-station_capacity=115
+maintenance=16350
+cost=2371875
+capacity=115
 
 BackImage[0][0][0][0][0][0]=harbour-passenger-1950s.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-1950s.2.1
@@ -279,9 +279,9 @@ level=1
 intro_year=1977
 intro_month=1
 
-station_maintenance=24840
-station_price=2052000
-station_capacity=135
+maintenance=24840
+cost=2052000
+capacity=135
 
 BackImage[0][0][0][0][0][0]=harbour-passenger-modern.1.1
 BackImage[1][0][0][0][0][0]=harbour-passenger-modern.2.1

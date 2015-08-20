@@ -60,9 +60,9 @@ is_control_tower=1
 icon=> control-tower-modern.0.3
 cursor=control-tower-modern.0.2
 
-station_maintenance=25000
-station_price=2500000
-station_capacity=0
+maintenance=25000
+cost=2500000
+capacity=0
 
 BackImage[0][0][0][0][0][0]=control-tower-modern.0.1
 BackImage[0][0][0][1][0][0]=control-tower-modern.0.0

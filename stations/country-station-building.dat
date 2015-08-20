@@ -13,9 +13,9 @@ Dims=1,1,4
 NoInfo=1
 Level=2
 
-station_maintenance=11800
-station_price=800000
-station_capacity=75
+maintenance=11800
+cost=800000
+capacity=75
 
 BackImage[0][0][0][0][0][0]=country-station-building.0.2
 BackImage[1][0][0][0][0][0]=country-station-building.0.1
