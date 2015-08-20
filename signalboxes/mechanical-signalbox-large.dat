@@ -1,6 +1,13 @@
 Obj=building
 Name=mechanical-signalbox-large
 Type=signalbox
+copyright=JamesPetts
+NoInfo=1
+Level=1
+intro_year=1860
+intro_month=4
+retire_year=1971
+retire_month=8
 
 dims=2,1,4
 BackImage[0][0][0][0][0][0]=images/mechanical-signalbox-large.0.0
@@ -19,3 +26,6 @@ BackImage[3][0][0][0][0][0]=images/mechanical-signalbox-large.3.0
 BackImage[3][1][0][0][0][0]=images/mechanical-signalbox-large.3.1
 BackImage[3][0][0][0][0][1]=images/mechanical-signalbox-large.3.2
 BackImage[3][1][0][0][0][1]=images/mechanical-signalbox-large.3.3
+
+Cursor=mechanical-signalbox-large-icon.0.0
+Icon=> mechanical-signalbox-large-icon.0.1
