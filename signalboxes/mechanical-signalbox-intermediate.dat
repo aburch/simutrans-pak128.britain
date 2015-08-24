@@ -17,7 +17,7 @@ mail_demand=1
 
 # Signal groups (maximum of 32)
 #  0 - ungrouped (default, needs no box)
-#  1 - time interval
+#  1 - n/a (does not work)
 #  2 - absolute block
 #  3 - token block
 #  4 - speed signalling 
@@ -27,6 +27,7 @@ mail_demand=1
 #  8 - ETRMS Level 2 (cab signalling)
 #  9 - ETRMS Level 3 (high speed moving block)
 # 10 - Seltrac (low speed moving block)
+# 11 - time interval
 
 signal_groups=2,3
 radius=1500

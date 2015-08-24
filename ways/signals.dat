@@ -1239,7 +1239,7 @@ intro_year=1840
 intro_month=3
 retire_year=1860
 retire_month=2
-signal_groups=1
+signal_groups=11
 # DANGER
 Image[0]=images/vane-signal-danger.1.2,42,-2
 Image[1]=images/vane-signal-danger.1.0,-37,12
@@ -1265,7 +1265,7 @@ intro_year=1840
 intro_month=3
 retire_year=1860
 retire_month=2
-signal_groups=1
+signal_groups=11
 # DANGER (unused)
 Image[0]=images/vane-signal-aux-caution.1.2,42,-2
 Image[1]=images/vane-signal-aux-caution.1.0,-37,12
@@ -1297,7 +1297,7 @@ intro_year=1840
 intro_month=3
 retire_year=1860
 retire_month=2
-signal_groups=1
+signal_groups=11
 # DANGER
 Image[0]=images/vane-signal-choose-danger.1.2,42,-2
 Image[1]=images/vane-signal-choose-danger.1.0,-37,12
@@ -1327,7 +1327,7 @@ intro_year=1825
 intro_month=1
 retire_year=1840
 retire_month=3
-signal_groups=1
+signal_groups=11
 # DANGER
 Image[0]=images/flag-signal-danger.1.2,42,-2
 Image[1]=images/flag-signal-danger.1.0,-37,12
@@ -1353,7 +1353,7 @@ intro_year=1825
 intro_month=1
 retire_year=1840
 retire_month=3
-signal_groups=1
+signal_groups=11
 # DANGER (unused)
 Image[0]=images/flag-signal-caution.1.2,42,-2
 Image[1]=images/flag-signal-caution.1.0,-37,12
@@ -1385,7 +1385,7 @@ intro_year=1825
 intro_month=1
 retire_year=1840
 retire_month=3
-signal_groups=1
+signal_groups=11
 # DANGER
 Image[0]=images/flag-signal-danger.1.2,42,-2
 Image[1]=images/flag-signal-danger.1.0,-37,12
