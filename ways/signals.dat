@@ -1,6 +1,6 @@
-#--------------------------------------
-# RAIL SIGNALS FOR SIMUTRANS
-#--------------------------------------
+#-------------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS-EXPERIMENTAL
+#-------------------------------------------
 #
 # author: Fabio Gonella (Fagonella)
 # date:   01-Aug-06
@@ -994,6 +994,7 @@ waytype=track
 allow_underground=1
 cost=2800
 is_presignal=1
+aspects=2
 intro_year=1860
 intro_month=2
 retire_year=1880
