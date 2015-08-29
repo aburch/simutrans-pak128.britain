@@ -1,6 +1,23 @@
 Obj=building
 Name=power-signalbox-large
 Type=signalbox
+copyright=JamesPetts
+Level=3
+intro_year=1960
+intro_month=8
+retire_year=1993
+retire_month=6
+
+allow_underground=0
+maintenance=14500
+cost=1600000
+population_and_visitor_demand_capacity=0
+employment_capacity=18
+mail_demand=2
+
+signal_groups=5,6
+radius=50000
+capacity=50
 
 dims=2,1,4
 BackImage[0][0][0][0][0][0]=images/power-signalbox-large.0.0
@@ -19,3 +36,6 @@ BackImage[3][0][0][0][0][0]=images/power-signalbox-large.3.0
 BackImage[3][1][0][0][0][0]=images/power-signalbox-large.3.1
 BackImage[3][0][0][0][0][1]=images/power-signalbox-large.3.2
 BackImage[3][1][0][0][0][1]=images/power-signalbox-large.3.3
+
+Cursor=images/power-signalbox-large-icon.1.0
+Icon=> images/power-signalbox-large-icon.1.1

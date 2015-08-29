@@ -1,6 +1,23 @@
 Obj=building
 Name=tvm-signalling-tower
 Type=signalbox
+copyright=JamesPetts
+Level=3
+intro_year=1978
+intro_month=3
+retire_year=2010
+retire_month=12
+
+allow_underground=0
+maintenance=10000
+cost=5000000
+population_and_visitor_demand_capacity=0
+employment_capacity=16
+mail_demand=2
+
+signal_groups=7
+radius=100000
+capacity=65
 
 dims=2,1,4
 BackImage[0][0][0][0][0][0]=images/tvm-signalling-tower.0.0
@@ -35,3 +52,6 @@ BackImage[3][0][0][0][0][1]=images/tvm-signalling-tower.4.4
 BackImage[3][0][0][1][0][1]=images/tvm-signalling-tower.4.5
 BackImage[3][1][0][0][0][1]=images/tvm-signalling-tower.5.0
 BackImage[3][1][0][1][0][1]=images/tvm-signalling-tower.5.1
+
+Cursor=images/tvm-signalling-tower-icon.1.0
+Icon=> images/tvm-signalling-tower-icon.1.1

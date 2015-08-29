@@ -1,24 +1,24 @@
 Obj=building
-Name=signalling-centre
+Name=seltrac-control-centre
 Type=signalbox
 copyright=JamesPetts
 Level=3
-intro_year=1989
-intro_month=4
-retire_year=2011
-retire_month=7
+intro_year=1991
+intro_month=12
 
 allow_underground=0
-maintenance=12000
-cost=5000000
+maintenance=10000
+cost=4000000
 population_and_visitor_demand_capacity=0
-employment_capacity=22
+employment_capacity=18
 mail_demand=2
 
-signal_groups=5,6
-radius=90000
-capacity=75
+signal_groups=10
+radius=70000
+capacity=80
 
+# TODO: Produce unique graphics for this.
+# It is hard to find images of these control centres from the outside.
 dims=2,1,4
 BackImage[0][0][0][0][0][0]=images/signalling-centre.0.0
 BackImage[0][0][1][0][0][0]=images/signalling-centre.0.1

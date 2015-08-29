@@ -1,6 +1,21 @@
 Obj=building
 Name=etrms-centre-small
 Type=signalbox
+copyright=JamesPetts
+Level=1
+intro_year=2010
+intro_month=2
+
+allow_underground=0
+maintenance=4500
+cost=3375000
+population_and_visitor_demand_capacity=0
+employment_capacity=5
+mail_demand=1
+
+signal_groups=8,9
+radius=175000
+capacity=25
 
 dims=2,1,4
 BackImage[0][0][0][0][0][0]=images/etrms-centre-small.0.0
@@ -19,3 +34,6 @@ BackImage[3][0][0][0][0][0]=images/etrms-centre-small.3.0
 BackImage[3][1][0][0][0][0]=images/etrms-centre-small.3.1
 BackImage[3][0][0][0][0][1]=images/etrms-centre-small.3.2
 BackImage[3][1][0][0][0][1]=images/etrms-centre-small.3.3
+
+Cursor=images/etrms-centre-small-icon.1.0
+Icon=> images/etrms-centre-small-icon.1.1

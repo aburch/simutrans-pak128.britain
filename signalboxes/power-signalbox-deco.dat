@@ -1,6 +1,23 @@
 Obj=building
 Name=power-signalbox-deco
 Type=signalbox
+copyright=JamesPetts
+Level=2
+intro_year=1924
+intro_month=6
+retire_year=1961
+retire_month=2
+
+allow_underground=0
+maintenance=9750
+cost=800000
+population_and_visitor_demand_capacity=0
+employment_capacity=12
+mail_demand=2
+
+signal_groups=5,6
+radius=20000
+capacity=30
 
 dims=1,1,4
 BackImage[0][0][0][0][0][0]=images/power-signalbox-deco.0.0
@@ -11,3 +28,6 @@ BackImage[2][0][0][0][0][0]=images/power-signalbox-deco.1.1
 BackImage[2][0][0][0][0][1]=images/power-signalbox-deco.1.2
 BackImage[3][0][0][0][0][0]=images/power-signalbox-deco.2.0
 BackImage[3][0][0][0][0][1]=images/power-signalbox-deco.2.1
+
+Cursor=images/power-signalbox-deco-icon.1.0
+Icon=> images/power-signalbox-deco-icon.1.1
