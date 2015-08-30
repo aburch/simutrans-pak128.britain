@@ -1739,6 +1739,24 @@ speed-signal-permissive
 Five aspect speed signal (permissive block)
 speed-signal-choose
 Five aspect speed chose signal
+retb-board
+Radio Electronic Token Block stop board
+tvm-stop-board
+TVM section board (cab signalling)
+tvm-shunt-entry-marker
+TVM choose board (cab signalling)
+seltrac-beacon
+Seltrac beacon (moving block)
+seltrac-beacon-choose
+Seltrac choose beacon (moving block)
+etcs-stop-board
+ETCS Level 2 stop board (cab signalling)
+etcs-shunt-entry-marker
+ETCS Level 2 choose board (cab signalling)
+etcs-beacon
+ETCS Level 3 beacon (moving block)
+etcs-beacon-choose
+ETCS Level 3 beacon (moving block)
 underground-two-aspect-colour-light-stop
 Stop signal (underground)
 underground-two-aspect-colour-light-distant
