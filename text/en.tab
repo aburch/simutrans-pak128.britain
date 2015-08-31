@@ -1575,17 +1575,21 @@ battery
 maglev
 #___________________________________way-signs____________________________________
 #___________________________________way-signs____________________________________
-ATC_signal
-Stop signal
-ATC_OneWay
+tvm-stop-board-maglev
+TVM section board (cab signalling)
+tvm-shunt-entry-marker-maglev
+TVM choose board (cab signalling)
+etcs-stop-board-maglev
+ETCS Level 2 stop board (cab signalling)
+etcs-shunt-entry-marker-maglev
+ETCS Level 2 choose board (cab signalling)
+etcs-beacon-maglev
+ETCS Level 3 beacon (moving block)
+etcs-beacon-choose-maglev
+ETCS Level 3 beacon (moving block)
+RailOneWay-maglev
 One way sign
-ATC_presignal
-Pre-signal
-ATC_Longblock
-Long-block signal
-ATC_choosesignal
-Choose signal
-ATC_EndofChooseSignal
+Modern_EndofChooseSignal-maglev
 End of choose signal block sign
 60minspeed
 Min. 60km/h restriction

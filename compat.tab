@@ -1017,6 +1017,18 @@ Early_LongSignals_right
 flag-signal-stop
 Early_ChooseSignals_right
 flag-signal-junction
+ATC_signal
+tvm-stop-board
+ATC_presignal
+tvm-stop-board
+ATC_Longblock
+tvm-stop-board
+ATC_choosesignal
+tvm-shunt-entry-marker
+ATC_EndofChooseSignal
+Modern_EndofChooseSignal-maglev
+ATC_OneWay
+RailOneWay-maglev
 #
 
 
