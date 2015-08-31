@@ -982,7 +982,7 @@ uq-semaphore-stop
 preSignals
 uq-semaphore-distant
 LongSignals
-uq-semaphore-longblock
+uq-semaphore-token
 ChooseSignals
 uq-semaphore-junction
 Classic_Signals_right
@@ -990,7 +990,7 @@ lq-semaphore-stop
 Classic_preSignals_right
 lq-semaphore-distant
 Classic_LongSignals_right
-lq-semaphore-longblock
+lq-semaphore-token
 Classic_ChooseSignals_right
 lq-semaphore-junction
 Classic_Signals_right_narrow
@@ -998,7 +998,7 @@ lq-semaphore-stop-narrow
 Classic_preSignals_right_narrow
 lq-semaphore-distant-narrow
 Classic_LongSignals_right_narrow
-lq-semaphore-longblock-narrow
+lq-semaphore-token-narrow
 Classic_ChooseSignals_right_narrow
 lq-semaphore-junction-narrow
 Underground_ChooseSignals_right
@@ -1008,7 +1008,7 @@ underground-two-aspect-colour-light-distant
 Underground_Signals_right
 underground-two-aspect-colour-light-stop
 Modern_LongSignals_right
-three-aspect-colour-light-longblock
+two-aspect-colour-light-token
 Early_Signals_right
 flag-signal-stop
 Early_preSignals_right

@@ -1681,16 +1681,24 @@ lq-semaphore-distant-red
 Semaphore distant signal
 lq-semaphore-distant
 Semaphore distant signal
-lq-semaphore-longblock
-Semaphore long block signal
-lq-semaphore-longblock-red
-Semaphore long block signal
-lq-semaphore-longblock-red-white
-Semaphore long block signal
+lq-semaphore-permissive-white
+Semaphore permissive block signal
+lq-semaphore-permissive
+Semaphore permissive block signal
 lq-semaphore-junction
 Semaphore choose signal
 lq-semaphore-junction-white
 Semaphore choose signal
+lq-semaphore-token
+Semaphore token block signal
+lq-semaphore-token-white
+Semaphore token block signal
+lq-semaphore-combined-red-white
+Semaphore combined signal
+lq-semaphore-combined-red
+Semaphore combined signal
+lq-semaphore-combined
+Semaphore combined signal
 two-aspect-colour-light-stop-narrow
 Stop signal (colour light)
 two-aspect-colour-light-distant-narrow
