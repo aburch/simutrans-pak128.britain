@@ -1783,10 +1783,30 @@ underground-two-aspect-colour-light-stop
 Stop signal (underground)
 underground-two-aspect-colour-light-distant
 Distant signal (underground)
-underground-longblock-colour-light
-Long block signal (underground)
+underground-two-aspect-colour-light-permissive
+Stop signal (permissive block; underground)
 underground-two-aspect-colour-light-choose
 Choose signal (underground)
+underground-two-aspect-colour-light-track-circuit
+Two aspect signal (underground)
+underground-two-aspect-colour-light-track-circuit-distant
+Two aspect distant signal (underground)
+underground-two-aspect-colour-light-track-circuit-permissive
+Two aspect signal (permissive block; underground)
+underground-two-aspect-colour-light-track-circuit-choose
+Two aspect choose signal (underground)
+underground-three-aspect-colour-light
+Three aspect signal (underground)
+underground-three-aspect-colour-light-permissive
+Three aspect signal (permissive block; underground)
+underground-three-aspect-colour-light-choose
+Three aspect choose signal (underground)
+underground-four-aspect-colour-light
+Four aspect signal (underground)
+underground-four-aspect-colour-light-permissive
+Four aspect signal (permissive block; underground)
+underground-four-aspect-colour-light-choose
+Four aspect choose signal (underground)
 EndofChooseSignal
 End of choose signal
 Modern_EndofChooseSignal
