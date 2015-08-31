@@ -1617,6 +1617,32 @@ two-aspect-colour-light-stop
 Stop signal (colour light)
 two-aspect-colour-light-distant
 Distant signal (colour light)
+two-aspect-colour-light-permissive
+Permissive stop signal (colour light)
+two-aspect-colour-light-choose
+Choose signal (colour light)
+two-aspect-colour-light-token
+Token block signal (colour light)
+two-aspect-colour-light-track-circuit
+Two aspect signal
+two-aspect-colour-light-track-circuit-distant
+Two aspect distant signal
+two-aspect-colour-light-track-circuit-permissive
+Two aspect signal (permissive block)
+two-aspect-colour-light-track-circuit-choose
+Two aspect choose signal
+three-aspect-colour-light
+Three aspect signal
+three-aspect-colour-light-permissive
+Three aspect signal (permissive block)
+three-aspect-colour-light-choose
+Three aspect choose signal
+four-aspect-colour-light
+Four aspect signal
+four-aspect-colour-light-permissive
+Four aspect signal (permissive block)
+four-aspect-colour-light-choose
+Four aspect choose signal
 two-aspect-colour-light-led-square-stop
 Two aspect signal (LED)
 two-aspect-colour-light-led-square-distant
@@ -1665,8 +1691,6 @@ two-aspect-colour-light-stop-narrow
 Stop signal (colour light)
 two-aspect-colour-light-distant-narrow
 Distant signal (colour light)
-long-block-colour-light-narrow
-Long-block signal (colour light)
 two-aspect-colour-light-choose-narrow
 Choose signal (colour light)
 uq-semaphore-stop-narrow
@@ -1717,8 +1741,6 @@ lq-semaphore-underground-junction
 Semaphore choose signal (underground)
 lq-semaphore-underground-junction-white
 Semaphore choose signal (underground)
-two-aspect-colour-light-choose
-Choose signal (colour light)
 two-aspect-colour-light-square-stop
 Stop signal (colour light)
 two-aspect-colour-light-square-distant
