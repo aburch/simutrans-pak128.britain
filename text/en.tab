@@ -1665,8 +1665,12 @@ uq-semaphore-distant
 Semaphore distant signal
 uq-semaphore-junction
 Semaphore choose signal
-uq-semaphore-longblock
-Semaphore long block signal
+uq-semaphore-token
+Semaphore token block signal
+uq-semaphore-permissive
+Semaphore permissive block signal
+uq-semaphore-combined
+Semaphore combined signal
 lq-semaphore-stop-white
 Semaphore stop signal
 lq-semaphore-stop
