@@ -2327,6 +2327,8 @@ signal_groups=2
 allow_underground=0
 upgrade_group=8
 is_signal=1
+intro_year=1924
+intro_month=7
 # DANGER
 Image[0]=images/semaphore-upper-quadrant-stop-danger.1.2,42,-2
 Image[1]=images/semaphore-upper-quadrant-stop-danger.1.0,-37,12
@@ -2393,6 +2395,8 @@ signal_groups=2
 allow_underground=0
 upgrade_group=13
 is_signal=1
+intro_year=1924
+intro_month=7
 # DANGER
 Image[0]=images/semaphore-upper-quadrant-stop-permissive-danger.1.2,42,-2
 Image[1]=images/semaphore-upper-quadrant-stop-permissive-danger.1.0,-37,12
