@@ -85,10 +85,11 @@ signal_upgrade_cost=21000
 maintenance=200
 aspects=1
 working_method=moving_block
-max_speed=70
+max_speed=80
 has_selective_choose=0
 has_call_on=0
-max_distance_to_signalbox=0
+# Actually maximum distance between beacons in moving block
+max_distance_to_signalbox=500
 permissive=0
 signal_groups=10
 allow_underground=2
@@ -114,10 +115,11 @@ signal_upgrade_cost=21500
 maintenance=215
 aspects=1
 working_method=moving_block
-max_speed=70
+max_speed=80
 has_selective_choose=0
 has_call_on=0
-max_distance_to_signalbox=0
+# Actually maximum distance between beacons in moving block
+max_distance_to_signalbox=500
 permissive=0
 signal_groups=10
 allow_underground=2
@@ -290,7 +292,8 @@ working_method=moving_block
 max_speed=500
 has_selective_choose=0
 has_call_on=0
-max_distance_to_signalbox=0
+# Actually maximum distance between beacons in moving block
+max_distance_to_signalbox=2000
 permissive=0
 signal_groups=9
 allow_underground=2
@@ -319,7 +322,8 @@ working_method=moving_block
 max_speed=500
 has_selective_choose=0
 has_call_on=0
-max_distance_to_signalbox=0
+# Actually maximum distance between beacons in moving block
+max_distance_to_signalbox=2000
 permissive=0
 signal_groups=9
 allow_underground=2
