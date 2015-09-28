@@ -1661,8 +1661,6 @@ three-aspect-colour-light-led-square-choose
 Three aspect choose signal (LED)
 four-aspect-colour-light-led-square-choose
 Four aspect choose signal (LED)
-three-aspect-colour-light-longblock
-Long-block signal (colour light)
 uq-semaphore-stop
 Semaphore stop signal
 uq-semaphore-distant
@@ -1715,8 +1713,6 @@ uq-semaphore-distant-narrow
 Semaphore distant signal
 uq-semaphore-junction-narrow
 Semaphore choose signal
-uq-semaphore-longblock-narrow
-Semaphore long block signal
 lq-semaphore-stop-white-narrow
 Semaphore stop signal
 lq-semaphore-stop-narrow
@@ -1727,12 +1723,6 @@ lq-semaphore-distant-red-narrow
 Semaphore distant signal
 lq-semaphore-distant-narrow
 Semaphore distant signal
-lq-semaphore-longblock-narrow
-Semaphore long block signal
-lq-semaphore-longblock-red-narrow
-Semaphore long block signal
-lq-semaphore-longblock-red-white-narrow
-Semaphore long block signal
 lq-semaphore-junction-narrow
 Semaphore choose signal
 lq-semaphore-junction-white-narrow
@@ -1746,8 +1736,6 @@ Underground mechanical distant signal
 underground-mechanical-distant-red
 Underground mechanical distant signal
 underground-mechanical-distant
-Underground mechanical distant signal
-underground-mechanical-longblock
 Underground mechanical distant signal
 underground-mechanical-junction
 Underground mechanical choose signal
