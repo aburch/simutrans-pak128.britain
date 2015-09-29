@@ -3,7 +3,7 @@ name=MR-2000
 engine_type=steam
 smoke=Steam
 # Low top speed as these were known to be unstable.
-speed=80
+speed=85
 # Extrapolated
 power=187
 # 80/85ths of the value given at 
@@ -23,7 +23,7 @@ length=7
 way_wear_factor=114795
 
 # http://en.wikipedia.org/wiki/Midland_Railway_2000_Class
-weight=73
+weight=73.6
 axle_load=18
 cost=3520000
 runningcost=800
@@ -61,7 +61,7 @@ name=MR-2000-superheated
 engine_type=steam
 smoke=Steam
 # Low top speed as these were known to be unstable.
-speed=80
+speed=85
 # Extrapolated
 power=210
 # http://en.wikipedia.org/wiki/Midland_Railway_2000_Class
