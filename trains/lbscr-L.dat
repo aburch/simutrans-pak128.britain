@@ -1,5 +1,5 @@
 obj=vehicle
-name=LBSCR-L-Tank(Umber)
+name=LBSCR-L
 engine_type=steam
 smoke=Steam
 speed=130
@@ -31,6 +31,7 @@ bidirectional=1
 
 # NOTE: This should be upgradeable to the post-WW1 "Rememberance" tender type class
 # See: http://en.wikipedia.org/wiki/SR_N15X_class
+# However, the logistics of upgrading tank to tender in Simutrans-Experimental are potentially problematic.
 
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=SR-Olive-Green
