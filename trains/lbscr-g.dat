@@ -2,17 +2,17 @@ obj=vehicle
 name=LBSCR-G
 engine_type=steam
 smoke=Steam
-speed=130
+speed=132
 # Extrapolated
-power=148
+power=176
 # Tractive calculated using data from
 # http://en.wikipedia.org/wiki/LB%26SCR_G_class
 tractive_effort=48
 copyright=Kieron/JamesPetts
-intro_year=1876
-intro_month=4
-retire_year=1883
-retire_month=7
+intro_year=1874
+intro_month=1
+retire_year=1882
+retire_month=6
 waytype=track
 freight=None
 payload=0
@@ -25,7 +25,7 @@ years_before_maintenance_max_reached=35
 
 # Weight and axle load taken from: 
 # http://en.wikipedia.org/wiki/LB%26SCR_G_class
-weight=33.9
+weight=36.2
 axle_load=14
 cost=2850000
 runningcost=400
