@@ -1,30 +1,29 @@
-# http://basilicafields.wordpress.com/2010/03/22/metropoliatn-4-4-0t/
-# Mainly used by the Met, but also used by the LNWR, MR and LSWR: Ahrons p. 156
+# Very similar to the A Class: see http://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm and
+# https://en.wikipedia.org/wiki/Metropolitan_Railway_A_Class
 obj=vehicle
-name=Metropolitan-A-Class
+name=Metropolitan-B-Class
 engine_type=steam
 smoke=Steam
 speed=90
 # Extrapolated: see data here: http://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm
-power=143
-# Tractive effort calculated using figures from http://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm. Loss factor: 0.7
-tractive_effort=38
+power=168
+# Tractive effort calculated using figures from https://en.wikipedia.org/wiki/Metropolitan_Railway_A_Class. Loss factor: 0.7
+tractive_effort=42
 copyright=James/jamespetts
-intro_year=1864
-intro_month=6
-retire_year=1879
-retire_month=3
+intro_year=1879
+intro_month=3
+retire_year=1885
+retire_month=11
 waytype=track
 freight=None
 payload=0
 length=5
-way_wear_factor=66150
 
 # Weight taken from Ahrons, p. 155
-weight=42
-# This should be 15.5, but no tracks that can take this available contemporaneously.
-axle_load=14
-cost=8750000
+weight=48
+# This should be 18.5, but no tracks that can take this available contemporaneously.
+axle_load=17
+cost=8825000
 runningcost=845
 sound=-1
 
