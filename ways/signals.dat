@@ -2558,6 +2558,7 @@ intro_year=1860
 intro_month=2
 retire_year=1880
 retire_month=5
+
 # DANGER
 Image[0]=images/semaphore-lower-quadrant-stop-danger.1.2,42,-2
 Image[1]=images/semaphore-lower-quadrant-stop-danger.1.0,-37,12
@@ -2594,6 +2595,7 @@ intro_year=1880
 intro_month=5
 retire_year=1924
 retire_month=7
+
 # DANGER
 Image[0]=images/semaphore-lower-quadrant-stop-danger.1.2,42,-2
 Image[1]=images/semaphore-lower-quadrant-stop-danger.1.0,-37,12
@@ -3448,7 +3450,6 @@ Cursor=images/signal-icons-ex.8.9
 #--------------------------------------
 # See http://gerald-massey.org.uk/Railway/c10_construction_%28IV%29.htm
 # for illustrations. The choose signal is entirely ficational.
-# Stop signal left side
 obj=roadsign
 copyright=JamesPetts
 name=vane-signal-stop

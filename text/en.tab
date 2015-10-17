@@ -1705,14 +1705,26 @@ two-aspect-colour-light-stop-narrow
 Stop signal (colour light)
 two-aspect-colour-light-distant-narrow
 Distant signal (colour light)
+two-aspect-colour-light-permissive-narrow
+Stop signal (permissive; colour light)
 two-aspect-colour-light-choose-narrow
 Choose signal (colour light)
-uq-semaphore-stop-narrow
-Semaphore stop signal
-uq-semaphore-distant-narrow
-Semaphore distant signal
-uq-semaphore-junction-narrow
-Semaphore choose signal
+two-aspect-colour-light-token-narrow
+Token block signal (colour light)
+two-aspect-colour-light-track-circuit-narrow
+Two aspect stop signal
+two-aspect-colour-light-track-circuit-distant-narrow
+Two aspect distant signal
+two-aspect-colour-light-track-circuit-permissive-narrow
+Two aspect signal (permissive block)
+two-aspect-colour-light-track-circuit-choose-narrow
+Two aspect junction signal
+three-aspect-colour-light-narrow
+Three aspect signal
+three-aspect-colour-light-permissive-narrow
+Three aspect signal (permissive block)
+three-aspect-colour-light-choose-narrow
+Three aspect junction signal
 lq-semaphore-stop-white-narrow
 Semaphore stop signal
 lq-semaphore-stop-narrow
@@ -1723,10 +1735,26 @@ lq-semaphore-distant-red-narrow
 Semaphore distant signal
 lq-semaphore-distant-narrow
 Semaphore distant signal
+lq-semaphore-permissive-white-narrow
+Semaphore permissive signal
+lq-semaphore-permissive-narrow
+Semaphore permissive signal
 lq-semaphore-junction-narrow
 Semaphore choose signal
 lq-semaphore-junction-white-narrow
 Semaphore choose signal
+lq-semaphore-token-narrow
+Semaphore token block signal
+lq-semaphore-token-white
+Semaphore token block signal
+lq-semaphore-combined-red-white-narrow
+Semaphore combined signal
+lq-semaphore-combined-red-narrow
+Semaphore combined signal
+lq-semaphore-combined-narrow
+Semaphore combined signal
+one-train-staff-narrow
+One train staff cabinet
 underground-mechanical-stop-white
 Underground mechanical signal
 underground-mechanical-stop
