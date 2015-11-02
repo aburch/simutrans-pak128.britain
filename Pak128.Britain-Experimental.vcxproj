@@ -1639,7 +1639,6 @@
     <None Include="ways\wssr_early.dat" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="trains\Header.h" />
     <ClInclude Include="trains\lms-7f.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
