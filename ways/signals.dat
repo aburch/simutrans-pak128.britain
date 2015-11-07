@@ -33,6 +33,7 @@
 # 13: Permissive signal, absolute block
 # 14: Stop signal, time interval
 # 15: Junction signal, time interval
+# 16: Two aspect permissive signal, track circuit block
 ---------------------------------------
 # RETB BOARD
 #--------------------------------------
@@ -1239,7 +1240,7 @@ max_distance_to_signalbox=0
 permissive=1
 signal_groups=2
 allow_underground=0
-upgrade_group=0
+upgrade_group=16
 is_signal=1
 intro_year=1920
 intro_month=4
@@ -2531,6 +2532,160 @@ Image[7]=images/semaphore-upper-quadrant-stop-token-clear.1.3,10,27
 Icon=> images/signal-icons-ex.5.2
 Cursor=images/signal-icons-ex.5.3
 ---------------------------------------
+# ELECTRO-PNEUMATIC TUNNEL SIGNALS, 1900s
+#--------------------------------------
+# See https://archive.org/stream/powerrailwaysign00wilsrich#page/172/mode/2up
+# As used by the District Railway
+obj=roadsign
+copyright=JamesPetts
+name=electro-pneumatic-tunnel-signal-stop
+waytype=track
+cost=30875
+signal_upgrade_cost=13125
+maintenance=1875
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1905
+intro_month=7
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/electro-pneumatic-tunnel-signal-danger.1.2,42,-2
+Image[1]=images/electro-pneumatic-tunnel-signal-danger.1.0,-37,12
+Image[2]=images/electro-pneumatic-tunnel-signal-danger.1.1,-7,-18
+Image[3]=images/electro-pneumatic-tunnel-signal-danger.1.3,10,27
+# CLEAR
+Image[4]=images/electro-pneumatic-tunnel-signal-clear.1.2,42,-2
+Image[5]=images/electro-pneumatic-tunnel-signal-clear.1.0,-37,12
+Image[6]=images/electro-pneumatic-tunnel-signal-clear.1.1,-7,-18
+Image[7]=images/electro-pneumatic-tunnel-signal-clear.1.3,10,27
+Icon=> images/electro-pneumatic-tunnel-signal-icon.1.1
+Cursor=images/electro-pneumatic-tunnel-signal-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=electro-pneumatic-tunnel-signal-stop-permissive
+waytype=track
+cost=30875
+signal_upgrade_cost=13125
+maintenance=1875
+aspects=2
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1905
+intro_month=7
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/electro-pneumatic-tunnel-signal-danger.1.2,42,-2
+Image[1]=images/electro-pneumatic-tunnel-signal-danger.1.0,-37,12
+Image[2]=images/electro-pneumatic-tunnel-signal-danger.1.1,-7,-18
+Image[3]=images/electro-pneumatic-tunnel-signal-danger.1.3,10,27
+# CLEAR
+Image[4]=images/electro-pneumatic-tunnel-signal-clear.1.2,42,-2
+Image[5]=images/electro-pneumatic-tunnel-signal-clear.1.0,-37,12
+Image[6]=images/electro-pneumatic-tunnel-signal-clear.1.1,-7,-18
+Image[7]=images/electro-pneumatic-tunnel-signal-clear.1.3,10,27
+Icon=> images/electro-pneumatic-tunnel-signal-icon.1.1
+Cursor=images/electro-pneumatic-tunnel-signal-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=electro-pneumatic-tunnel-signal-distant
+waytype=track
+cost=30875
+signal_upgrade_cost=13125
+maintenance=1875
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=2
+is_presignal=1
+intro_year=1905
+intro_month=7
+retire_year=1920
+retire_month=4
+
+# CAUTION
+Image[0]=images/electro-pneumatic-tunnel-signal-caution.1.2,42,-2
+Image[1]=images/electro-pneumatic-tunnel-signal-caution.1.0,-37,12
+Image[2]=images/electro-pneumatic-tunnel-signal-caution.1.1,-7,-18
+Image[3]=images/electro-pneumatic-tunnel-signal-caution.1.3,10,27
+# CLEAR
+Image[4]=images/electro-pneumatic-tunnel-signal-clear.1.2,42,-2
+Image[5]=images/electro-pneumatic-tunnel-signal-clear.1.0,-37,12
+Image[6]=images/electro-pneumatic-tunnel-signal-clear.1.1,-7,-18
+Image[7]=images/electro-pneumatic-tunnel-signal-clear.1.3,10,27
+Icon=> images/electro-pneumatic-tunnel-signal-icon-distant.1.1
+Cursor=images/electro-pneumatic-tunnel-signal-icon-distant.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=electro-pneumatic-tunnel-signal-choose
+waytype=track
+cost=55575
+signal_upgrade_cost=23625
+maintenance=3375
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+free_route=1
+intro_year=1905
+intro_month=7
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/electro-pneumatic-tunnel-signal-junction-danger.1.2,42,-2
+Image[1]=images/electro-pneumatic-tunnel-signal-junction-danger.1.0,-37,12
+Image[2]=images/electro-pneumatic-tunnel-signal-junction-danger.1.1,-7,-18
+Image[3]=images/electro-pneumatic-tunnel-signal-junction-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/electro-pneumatic-tunnel-signal-junction-clear.1.2,42,-2
+Image[5]=images/electro-pneumatic-tunnel-signal-junction-clear.1.0,-37,12
+Image[6]=images/electro-pneumatic-tunnel-signal-junction-clear.1.1,-7,-18
+Image[7]=images/electro-pneumatic-tunnel-signal-junction-clear.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/electro-pneumatic-tunnel-signal-junction-clear-main.1.2,42,-2
+Image[9]=images/electro-pneumatic-tunnel-signal-junction-clear-main.1.0,-37,12
+Image[10]=images/electro-pneumatic-tunnel-signal-junction-clear-main.1.1,-7,-18
+Image[11]=images/electro-pneumatic-tunnel-signal-junction-clear-main.1.3,10,27
+Icon=> images/electro-pneumatic-tunnel-signal-junction-icon.1.1
+Cursor=images/electro-pneumatic-tunnel-signal-junction-icon.1.0
+---------------------------------------
 # POWER OPERATED AUTOMATIC SEMAPHORES 1900s
 #--------------------------------------
 # See https://archive.org/stream/powerrailwaysign00wilsrich#page/172/mode/2up
@@ -2625,7 +2780,7 @@ max_distance_to_signalbox=0
 permissive=1
 signal_groups=5
 allow_underground=0
-upgrade_group=0
+upgrade_group=16
 is_signal=1
 intro_year=1902
 intro_month=8
