@@ -1029,7 +1029,7 @@ signal_upgrade_cost=10750
 maintenance=1050
 aspects=5
 working_method=track_circuit_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=1
 max_distance_to_signalbox=0
@@ -1232,7 +1232,7 @@ signal_upgrade_cost=9250
 maintenance=1100
 aspects=2
 working_method=absolute_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=1
 max_distance_to_signalbox=0
@@ -1422,7 +1422,7 @@ signal_upgrade_cost=9250
 maintenance=1100
 aspects=2
 working_method=track_circuit_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=1
 max_distance_to_signalbox=0
@@ -1541,7 +1541,7 @@ signal_upgrade_cost=10000
 maintenance=1210
 aspects=3
 working_method=track_circuit_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=1
 max_distance_to_signalbox=0
@@ -1675,7 +1675,7 @@ signal_upgrade_cost=10500
 maintenance=1285
 aspects=4
 working_method=track_circuit_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=1
 max_distance_to_signalbox=0
@@ -1849,7 +1849,7 @@ signal_upgrade_cost=14250
 maintenance=1100
 aspects=2
 working_method=absolute_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=0
 max_distance_to_signalbox=0
@@ -1993,7 +1993,7 @@ signal_upgrade_cost=14250
 maintenance=1100
 aspects=2
 working_method=track_circuit_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=0
 max_distance_to_signalbox=0
@@ -2101,7 +2101,7 @@ signal_upgrade_cost=15000
 maintenance=1210
 aspects=3
 working_method=track_circuit_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=0
 max_distance_to_signalbox=0
@@ -2226,7 +2226,7 @@ signal_upgrade_cost=20050
 maintenance=1285
 aspects=4
 working_method=track_circuit_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=0
 max_distance_to_signalbox=0
@@ -2390,7 +2390,7 @@ signal_upgrade_cost=4550
 maintenance=1575
 aspects=2
 working_method=absolute_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=1
 max_distance_to_signalbox=1750
@@ -2530,6 +2530,296 @@ Image[6]=images/semaphore-upper-quadrant-stop-token-clear.1.1,-7,-18
 Image[7]=images/semaphore-upper-quadrant-stop-token-clear.1.3,10,27
 Icon=> images/signal-icons-ex.5.2
 Cursor=images/signal-icons-ex.5.3
+---------------------------------------
+# POWER OPERATED AUTOMATIC SEMAPHORES 1900s
+#--------------------------------------
+# See https://archive.org/stream/powerrailwaysign00wilsrich#page/172/mode/2up
+# These were automatic (i.e. track circuit block) signals, worked by air or
+# electricity, but mechanical/semaphore because there were not bright
+# enough lamps to allow colour light signals by day until the 1920s.
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-stop
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=1
+is_signal=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-stop-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-stop-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-stop-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-stop-clear.1.3,10,27
+Icon=> images/semaphore-automatic-stop-icon.1.1
+Cursor=images/semaphore-automatic-stop-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-distant
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=2
+is_presignal=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# CAUTION
+Image[0]=images/semaphore-automatic-distant-caution.1.2,42,-2
+Image[1]=images/semaphore-automatic-distant-caution.1.0,-37,12
+Image[2]=images/semaphore-automatic-distant-caution.1.1,-7,-18
+Image[3]=images/semaphore-automatic-distant-caution.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-distant-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-distant-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-distant-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-distant-clear.1.3,10,27
+Icon=> images/semaphore-automatic-distant-icon.1.1
+Cursor=images/semaphore-automatic-distant-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-stop-permissive
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=0
+upgrade_group=0
+is_signal=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-stop-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-stop-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-stop-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-stop-clear.1.3,10,27
+Icon=> images/semaphore-automatic-stop-icon.1.1
+Cursor=images/semaphore-automatic-stop-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=automatic-semaphore-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=44460
+signal_upgrade_cost=15750
+maintenance=2250
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=5
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-junction-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-junction-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-junction-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-junction-stop-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/semaphore-automatic-junction-stop-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-junction-stop-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-junction-stop-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-junction-stop-clear.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/semaphore-automatic-junction-stop-clear-main.1.2,42,-2
+Image[9]=images/semaphore-automatic-junction-stop-clear-main.1.0,-37,12
+Image[10]=images/semaphore-automatic-junction-stop-clear-main.1.1,-7,-18
+Image[11]=images/semaphore-automatic-junction-stop-clear-main.1.3,10,27
+Icon=> images/semaphore-automatic-junction-stop-icon.1.1
+Cursor=images/semaphore-automatic-junction-stop-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-combined
+waytype=track
+cost=44460
+signal_upgrade_cost=15750
+maintenance=2250
+aspects=3
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=1
+is_signal=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-combined-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-combined-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-combined-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-combined-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-combined-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-combined-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-combined-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-combined-clear.1.3,10,27
+# CAUTION
+Image[8]=images/semaphore-automatic-combined-caution.1.2,42,-2
+Image[9]=images/semaphore-automatic-combined-caution.1.0,-37,12
+Image[10]=images/semaphore-automatic-combined-caution.1.1,-7,-18
+Image[11]=images/semaphore-automatic-combined-caution.1.3,10,27
+Icon=> images/semaphore-automatic-combined-icon.1.1
+Cursor=images/semaphore-automatic-combined-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-combined-permissive
+waytype=track
+cost=44460
+signal_upgrade_cost=15750
+maintenance=2250
+aspects=3
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=0
+upgrade_group=1
+is_signal=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-combined-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-combined-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-combined-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-combined-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-combined-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-combined-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-combined-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-combined-clear.1.3,10,27
+# CAUTION
+Image[8]=images/semaphore-automatic-combined-caution.1.2,42,-2
+Image[9]=images/semaphore-automatic-combined-caution.1.0,-37,12
+Image[10]=images/semaphore-automatic-combined-caution.1.1,-7,-18
+Image[11]=images/semaphore-automatic-combined-caution.1.3,10,27
+Icon=> images/semaphore-automatic-combined-icon.1.1
+Cursor=images/semaphore-automatic-combined-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-combined-choose
+waytype=track
+cost=88920
+signal_upgrade_cost=31500
+maintenance=4500
+aspects=3
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=1
+is_signal=1
+free_route=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-junction-combined-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-junction-combined-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-junction-combined-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-junction-combined-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/semaphore-automatic-junction-combined-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-junction-combined-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-junction-combined-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-junction-combined-clear.1.3,10,27
+# CAUTION (subsidiary route)
+Image[8]=images/semaphore-automatic-junction-combined-caution.1.2,42,-2
+Image[9]=images/semaphore-automatic-junction-combined-caution.1.0,-37,12
+Image[10]=images/semaphore-automatic-junction-combined-caution.1.1,-7,-18
+Image[11]=images/semaphore-automatic-junction-combined-caution.1.3,10,27
+# CLEAR (main route)
+Image[12]=images/semaphore-automatic-junction-combined-clear-main.1.2,42,-2
+Image[13]=images/semaphore-automatic-junction-combined-clear-main.1.0,-37,12
+Image[14]=images/semaphore-automatic-junction-combined-clear-main.1.1,-7,-18
+Image[15]=images/semaphore-automatic-junction-combined-clear-main.1.3,10,27
+# CAUTION (main route)
+Image[16]=images/semaphore-automatic-junction-combined-caution-main.1.2,42,-2
+Image[17]=images/semaphore-automatic-junction-combined-caution-main.1.0,-37,12
+Image[18]=images/semaphore-automatic-junction-combined-caution-main.1.1,-7,-18
+Image[19]=images/semaphore-automatic-junction-combined-caution-main.1.3,10,27
+Icon=> images/semaphore-automatic-junction-combined-icon.1.1
+Cursor=images/semaphore-automatic-junction-combined-icon.1.0
 ---------------------------------------
 # LOWER QUADRANT SEMAPHORES
 #--------------------------------------
@@ -2730,7 +3020,7 @@ signal_upgrade_cost=4550
 maintenance=1575
 aspects=2
 working_method=absolute_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=1
 max_distance_to_signalbox=1750
@@ -2772,7 +3062,7 @@ signal_upgrade_cost=4550
 maintenance=1575
 aspects=2
 working_method=absolute_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=1
 max_distance_to_signalbox=1750
@@ -3181,7 +3471,7 @@ signal_upgrade_cost=9000
 maintenance=1600
 aspects=2
 working_method=absolute_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=0
 max_distance_to_signalbox=1750
@@ -3217,7 +3507,7 @@ signal_upgrade_cost=9000
 maintenance=1600
 aspects=2
 working_method=absolute_block
-max_speed=70
+max_speed=75
 has_selective_choose=0
 has_call_on=0
 max_distance_to_signalbox=1750
