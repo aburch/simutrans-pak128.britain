@@ -948,6 +948,26 @@ allow_buying_obsolete_vehicles=0
 used_vehicle_reduction=1
 
 
+# This is the distance in meters at which train drivers can see signals ahead.
+# Trains have to brake in time for signals which might be at danger, so this
+# distance affects train speed. 
+
+sighting_distance_meters = 250
+
+# Corners of greater than 45 degrees have their radius calculated. However, because of 
+# the rigid tile system in Simutrans, this produces unrealistic results when applied
+# to corners of 45 degrees. A value is thus specified here. This affects the speed
+# at which vehicles can take 45 degree corners. 
+#
+# If this is set to 0, 45 degree corners are treated as straight.
+# 
+# If this is set to 9999, adjacent pairs of degree corners are treated as half the
+# radius of a 90 degree corner (and non-adjacent pairs scaled according to the distance
+# between them). This is techincally correct but does not work well in Simutrans because
+# of the inability to have gentler corners. 
+#
+assumed_curve_radius_45_degrees = 1000
+
 ############################### Display settings ###############################
 
 # how long is a diagonal (512: faktor 2=1024/512, old way, 724: sqrt(2)=1024/724
