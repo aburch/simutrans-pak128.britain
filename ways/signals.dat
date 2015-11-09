@@ -37,6 +37,8 @@
 # 17: Minimum speed sign, 60km/h
 # 18: Minimum speed sign, 100km/h
 # 19: Minimum speed sign, 121km/h
+# 20: Intermediate block stop signal
+# 21: Intermediate block distant signal
 ---------------------------------------
 # RETB BOARD
 #--------------------------------------
@@ -1768,6 +1770,84 @@ Image[11]=images/signal-4-aspect-route-indicator-preliminary-caution.1.3,10,27
 Icon=> images/signal-icons-ex.2.8
 Cursor=images/signal-icons-ex.2.9
 ---------------------------------------
+# INTERMEDIATE BLOCK COLOUR LIGHT SIGNALS
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=two-aspect-colour-light-stop-ib
+waytype=track
+cost=17500
+signal_upgrade_cost=8750
+maintenance=1000
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+intermediate_block=1
+upgrade_group=20
+is_signal=1
+intro_year=1920
+intro_month=4
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# DANGER
+Image[0]=images/signal-2-aspect-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-clear.1.3,10,27
+Icon=> images/signal-icons.1.2
+Cursor=images/signal-icons.1.3
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=two-aspect-colour-light-distant-ib
+waytype=track
+is_presignal=1
+cost=17500
+signal_upgrade_cost=8750
+maintenance=1000
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+intermediate_block=1
+upgrade_group=21
+intro_year=1920
+intro_month=4
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# CAUTION
+Image[0]=images/signal-2-aspect-caution.1.2,42,-2
+Image[1]=images/signal-2-aspect-caution.1.0,-37,12
+Image[2]=images/signal-2-aspect-caution.1.1,-7,-18
+Image[3]=images/signal-2-aspect-caution.1.3,10,27
+# CLEAR
+Image[4]=images/signal-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-clear.1.3,10,27
+Icon=> images/signal-icons.1.4
+Cursor=images/signal-icons.1.5
+---------------------------------------
 # UNDERGROUND COLOUR LIGHT SIGNALS
 #--------------------------------------
 obj=roadsign
@@ -2534,6 +2614,119 @@ Image[6]=images/semaphore-upper-quadrant-stop-token-clear.1.1,-7,-18
 Image[7]=images/semaphore-upper-quadrant-stop-token-clear.1.3,10,27
 Icon=> images/signal-icons-ex.5.2
 Cursor=images/signal-icons-ex.5.3
+---------------------------------------
+# INTERMEDIATE BLOCK AUTO SEMAPHORES
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=ib-semaphore-stop
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=20
+is_signal=1
+intermediate_block=1
+intro_year=1911
+intro_month=1
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-stop-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-stop-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-stop-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-stop-clear.1.3,10,27
+Icon=> images/semaphore-automatic-stop-icon.1.1
+Cursor=images/semaphore-automatic-stop-icon.1.0
+--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=ib-semaphore-distant-red
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=21
+is_presignal=1
+intermediate_block=1
+intro_year=1911
+intro_month=1
+retire_year=1918
+retire_month=1
+
+# CAUTION
+Image[0]=images/semaphore-ib-distant-caution.1.2,42,-2
+Image[1]=images/semaphore-ib-distant-caution.1.0,-37,12
+Image[2]=images/semaphore-ib-distant-caution.1.1,-7,-18
+Image[3]=images/semaphore-ib-distant-caution.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-ib-distant-clear.1.2,42,-2
+Image[5]=images/semaphore-ib-distant-clear.1.0,-37,12
+Image[6]=images/semaphore-ib-distant-clear.1.1,-7,-18
+Image[7]=images/semaphore-ib-distant-clear.1.3,10,27
+Icon=> images/semaphore-automatic-distant-icon.1.1
+Cursor=images/semaphore-automatic-distant-icon.1.0
+--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=ib-semaphore-distant
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=21
+is_presignal=1
+intermediate_block=1
+intro_year=1918
+intro_month=1
+retire_year=1920
+retire_month=4
+
+# CAUTION
+Image[0]=images/semaphore-automatic-distant-caution.1.2,42,-2
+Image[1]=images/semaphore-automatic-distant-caution.1.0,-37,12
+Image[2]=images/semaphore-automatic-distant-caution.1.1,-7,-18
+Image[3]=images/semaphore-automatic-distant-caution.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-distant-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-distant-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-distant-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-distant-clear.1.3,10,27
+Icon=> images/semaphore-automatic-distant-icon.1.1
+Cursor=images/semaphore-automatic-distant-icon.1.0
 ---------------------------------------
 # ELECTRO-PNEUMATIC TUNNEL SIGNALS, 1900s
 #--------------------------------------

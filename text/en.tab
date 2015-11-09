@@ -1671,6 +1671,10 @@ vane-signal-distant
 Vane auxilliary signal
 vane-signal-junction
 Vane choose signal
+two-aspect-colour-light-stop-ib
+Intermediate block stop signal (colour light)
+two-aspect-colour-light-distant-ib
+Intermediate block distant signal (colour light)
 two-aspect-colour-light-stop
 Stop signal (colour light)
 two-aspect-colour-light-distant
@@ -1737,6 +1741,12 @@ electro-pneumatic-tunnel-signal-distant
 Electro-pneumatic tunnel repeater
 electro-pneumatic-tunnel-signal-choose
 Electro-pneumatic tunnel choose signal
+ib-semaphore-stop
+Intermediate block stop signal
+ib-semaphore-distant-red
+Intermediate block distant signal
+ib-semaphore-distant
+Intermediate block distant signal
 uq-semaphore-stop
 Semaphore stop signal
 uq-semaphore-distant
