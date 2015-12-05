@@ -918,9 +918,13 @@ turntable_reverse_time_seconds=360
 # 2.0 and the global_power_factor_percent was set to 200, the vehicle would behave
 # as if it had a total power of 4,800kw. 
 #
-# The default is 100 (but should be set to 50% for Standard paksets).
+# The force factor percent has the same effect for tractive effort. 
+#
+# The default is 100 (but should be set to 50% for Standard paksets
+# in the case of the power factor only).
 
 global_power_factor_percent=100
+global_force_factor_percent=100
 
 # This setting allows the way in which weight limits are enforced to be customised.
 # If enforce_weight_limits is set to 0, weight limits are ignored entirely. If
