@@ -14,7 +14,8 @@ length=3
 brake_force=1
 rolling_resistance=19
 
-weight=1
+# https://ia600309.us.archive.org/17/items/evolutionofsteam00nokerich/evolutionofsteam00nokerich.pdf p. 35 (The weight of the engine is wrong there)
+weight=2.25
 cost=0
 runningcost=0
 sound=-1
