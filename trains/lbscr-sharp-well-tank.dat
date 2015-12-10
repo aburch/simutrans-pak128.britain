@@ -3,8 +3,8 @@ name=LBSCR-sharp-well-tank
 engine_type=steam
 smoke=Steam
 speed=75
-# Data not available, so part guessed from contemporaneous types
-power=78
+# Estimated
+power=85
 # Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
 # with loss factor of 0.7
 tractive_effort=27

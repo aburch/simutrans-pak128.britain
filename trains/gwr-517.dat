@@ -2,9 +2,9 @@ obj=vehicle
 name=GWR-517Tank
 engine_type=steam
 smoke=Steam
-speed=95
+speed=85
 # Extrapolated
-power=72
+power=154
 # Data from: http://en.wikipedia.org/wiki/GWR_517_Class
 tractive_effort=56
 copyright=James
@@ -49,7 +49,7 @@ engine_type=steam
 smoke=Steam
 speed=85
 # Extrapolated
-power=74
+power=154
 # Data from: http://en.wikipedia.org/wiki/GWR_517_Class
 tractive_effort=56
 copyright=James

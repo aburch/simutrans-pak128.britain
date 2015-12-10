@@ -4,12 +4,12 @@ engine_type=steam
 smoke=Steam
 speed=110
 # Extrapolated
-power=164
+power=173
 # Calculated from data from Ahrons, pp. 219-220,
 # (Mansion House tank), with wheels adjusted to
 # 5'6 as the later engines.
-# Loss factor set at 0.8
-tractive_effort=45
+# Loss factor set at 0.85
+tractive_effort=48
 copyright=James/jamespetts
 intro_year=1890
 intro_month=2

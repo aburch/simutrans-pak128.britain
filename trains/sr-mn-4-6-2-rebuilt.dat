@@ -3,12 +3,14 @@ name=SR-MerchantNavyRebuilt_4-6-2
 engine_type=steam
 smoke=Steam
 speed=160
-# CALIBRATED:
+# (Was formerly calibrated as below)
 # 68mph (108.8km/h) up a 1/80 gradient: see http://www.traintesting.com/images/Mn%2035020%20results.jpg
 # Load not given, but a picture appears to show approx. 9 carriages including dynomometer car:
 # http://www.traintesting.com/images/MN%2035020%20on%20road.jpg
 # 395kW assuming on level; adjusted to +175kW for gradient
-power=570
+#
+# Now extrapolated. Calibration from data as above produces a result inconsistently low compared to other locomotives.
+power=681
 tractive_effort=149
 copyright=Kieron/JamesPetts
 intro_year=1956

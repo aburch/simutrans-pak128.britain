@@ -352,6 +352,8 @@ RailTunnelStone
 Stone rail tunnel
 RailTunnelBrick
 Brick rail tunnel
+severn-tunnel
+Stone and brick rail tunnel
 RailTunnelConcrete
 Concrete rail tunnel
 RailTunnelHighSpeed
@@ -2096,7 +2098,7 @@ NWNG buffet carriage
 WHR-brake
 NWNG brake carriage
 George-England
-FR "George England" 0-4-0T
+FR "George England" 0-4-0
 George-England-tender
 FR "George England" (tender)
 DoubleFairlie
@@ -2109,18 +2111,18 @@ SingleFairlie-superheated
 FR Single Fairlie 0-4-4T (superheated)
 Hunslet-Alice
 Hunslet "Alice" Class 0-4-0T
-Garrett-K1-front
-Garrett K1 Class 0-4-0+0-4-0
-Garrett-K1-middle
-Garrett K1 Class 0-4-0+0-4-0 (centre section)
-Garrett-K1-rear
-Garrett K1 Class 0-4-0+0-4-0 (rear section)
-Garrett-NGG16-front
-Garrett NG G16 Class 2-6-2+2-6-2
-Garrett-NGG16-middle
-Garrett NG G16 Class 2-6-2+2-6-2 (centre section)
-Garrett-NGG16-rear
-Garrett NG G16 Class 2-6-2+2-6-2 (rear section)
+Garratt-K1-front
+Garratt K1 Class 0-4-0+0-4-0
+Garratt-K1-middle
+Garratt K1 Class 0-4-0+0-4-0 (centre section)
+Garratt-K1-rear
+Garratt K1 Class 0-4-0+0-4-0 (rear section)
+Garratt-NGG16-front
+Garratt NG G16 Class 2-6-2+2-6-2
+Garratt-NGG16-middle
+Garratt NG G16 Class 2-6-2+2-6-2 (centre section)
+Garratt-NGG16-rear
+Garratt NG G16 Class 2-6-2+2-6-2 (rear section)
 Hibberd-Planet
 Hibberd Planet Class 4wDM
 Baguely-Drewery-0-6-0
@@ -2215,6 +2217,8 @@ GNR-C1
 GNR Class C1 4-4-2
 GNR-C1-Tender
 GNR Express tender
+GNR-C1-superheated
+GNR Class C1 4-4-2 (superheated)
 GNR-Klondyke
 GNR Class C2 "Klondyke" 4-4-2
 GNR-Stirling8Foot
@@ -3592,9 +3596,9 @@ Midland 483 Class 4-4-0
 MR-483(tender)
 Midland 483 Class (tender)
 MR-2000
-Midland 2000 Class "Flatiron" 0-6-4
+Midland 2000 Class "Flatiron" 0-6-4T
 MR-2000-superheated
-Midland 2000 Class "Flatiron" 0-6-4 (superheated)
+Midland 2000 Class "Flatiron" 0-6-4T (superheated)
 LMS-2P
 LMS Class 2P 4-4-0
 LMS-2P(tender)
@@ -3788,9 +3792,9 @@ LNWR "Prince of Wales" Class 4-6-0
 LNWR-PrinceOfWales-Tender
 LNWR express tender
 MR-2441
-Midland 2441 Class 0-6-0
+Midland 2441 Class 0-6-0T
 MR-1632
-Midland 1632 Class 0-6-0 (for push-pull)
+Midland 1632 Class 0-6-0T (for push-pull)
 MR-Spinner
 Midland 115 Class "Spinner" 4-2-2
 MR-Spinner-Tender
@@ -4272,7 +4276,7 @@ LNWR "Watford Tank" class 0-6-2T
 LBSCR-D2
 LBSCR D2 "Lyons" Class 0-4-2
 LBSCR-D3
-LBSCR D3 Class 0-4-4
+LBSCR D3 Class 0-4-4T
 LBSCR-C2
 LBSCR C2 Class 0-6-0
 LBSCR-C2-tender
@@ -4292,7 +4296,7 @@ LBSCR B2x Class 4-4-0
 LBSCR-B4x
 LBSCR B4x Class 4-4-0
 LBSCR-E6
-LBSCR E6 Class 0-6-2
+LBSCR E6 Class 0-6-2T
 MR-133
 Midland 133 Class 2-2-2
 MR-133-tender
@@ -4386,7 +4390,7 @@ LBSCR Long Boiler Engine (passenger) 2-4-0
 LBSCR-long-boiler-mixed
 LBSCR Long Boiler Engine (mixed traffic) 2-4-0
 LBSCR-light-tank
-LBSCR Kemp Town Tank 2-4-0
+LBSCR Kemp Town Tank 2-4-0T
 LBSCR-single-well-tank
 LBSCR Single Well tank 2-2-2
 LBSCR-G
@@ -4396,7 +4400,7 @@ LBSCR Croydon Engine 2-4-0
 LBSCR-Belgravia
 LBSCR Belgravia Class 2-4-0
 LBSCR-sharp-well-tank
-LBSCR Sharp Well Tank 2-2-2
+LBSCR Sharp Well Tank 2-2-2WT
 LBR-2-4-0T
 L&BR Small Tank 2-4-0T
 LNWR-8wheel-radial-brake-front

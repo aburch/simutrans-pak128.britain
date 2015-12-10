@@ -4,10 +4,10 @@ engine_type=steam
 smoke=Steam
 speed=80
 # Extrapolated
-power=123
+power=215
 # Tractive effort calculated from http://orion.math.iastate.edu/jdhsmith/term/slgblyr.htm
-# Loss factor of 0.75 - half boiler pressure used to calculate power.
-tractive_effort=70
+# Loss factor of 0.8
+tractive_effort=75
 copyright=James
 intro_year=1876
 intro_month=7

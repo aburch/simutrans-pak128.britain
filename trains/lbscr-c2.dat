@@ -2,9 +2,10 @@ obj=vehicle
 name=LBSCR-C2
 engine_type=steam
 smoke=Steam
-speed=85
+# "Capable of running at speed" - Wikipedia
+speed=100
 # Extrapolated
-power=139
+power=223
 # http://en.wikipedia.org/wiki/LB%26SCR_C2_class
 tractive_effort=80
 copyright=Kieron/JamesPetts

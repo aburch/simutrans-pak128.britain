@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=120
 # Extrapolated
-power=152
+power=163
 # Calculated from data on Ahrons p. 169
 # Loss factor 0.75
 tractive_effort=36
@@ -26,6 +26,7 @@ axle_load=9
 cost=8850000
 runningcost=1650
 sound=-1
+
 upgrade[0]=LNWR-Jumbo
 
 Constraint[Next][0]=LNWR-Newton-Tender

@@ -3,8 +3,8 @@ name=SingleFairlie
 engine_type=steam
 smoke=Steam
 speed=55
-# Estimated
-power=95
+# Approximately extrapolated - boiler data not available
+power=34
 # Calculated from values from http://www.festipedia.org.uk/wiki/Taliesin_III 
 # with the 135lb boiler pressure specified at http://www.festipedia.org.uk/wiki/Taliesin
 tractive_effort=17

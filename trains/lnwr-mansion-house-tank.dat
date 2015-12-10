@@ -4,10 +4,10 @@ engine_type=steam
 smoke=Steam
 speed=95
 # Extrapolated
-power=114
+power=172
 # Calculated from data from Ahrons, pp. 219-220
-# Loss factor set at 0.8
-tractive_effort=54
+# Loss factor set at 0.85
+tractive_effort=57
 copyright=James/jamespetts
 intro_year=1880
 intro_month=5
