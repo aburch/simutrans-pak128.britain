@@ -1702,3 +1702,10 @@ intro_month[45][1] = 4
 livery[45][2] = LYR-Black
 intro_year[45][2] = 1883
 intro_month[45][2] = 8
+
+livery_scheme[46] = LTSR
+retire_year[46] = 1912
+retire_month[46] = 8
+livery[46][0] = LTSR-standard
+intro_year[46][0] = 1875
+intro_month[46][0] = 1

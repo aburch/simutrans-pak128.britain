@@ -699,6 +699,7 @@
     <None Include="trains\lswr-emu.dat" />
     <None Include="trains\lswr-ironclads.dat" />
     <None Include="trains\lswr-n15.dat" />
+    <None Include="trains\ltsr-1-class.dat" />
     <None Include="trains\mersey-emu.dat" />
     <None Include="trains\milk-van.dat" />
     <None Include="trains\mr-1.dat" />
@@ -1472,6 +1473,7 @@
     <None Include="trams\sheffield-supertram-rear.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\shiptools.txt" />
     <None Include="citybuildings\sidewalk.dat" />
+    <None Include="ways\tunnel-tracks.dat" />
     <None Include="ways\signals-narrow.dat" />
     <None Include="ways\signals.dat" />
     <None Include="config\simuconf.tab" />
