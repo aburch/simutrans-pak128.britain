@@ -14,6 +14,7 @@ cost=12500
 population_and_visitor_demand_capacity=0
 employment_capacity=1
 mail_demand=1
+needs_ground=1
 
 signal_groups=11
 # This cannot be too restrictive, as this needs to allow for mechanically operated repeaters.
