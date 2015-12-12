@@ -9,8 +9,8 @@ gear=420
 copyright=Kieron
 intro_year=1999
 intro_month=1
-#retire_year=2025
-#retire_month=1
+retire_year=2015
+retire_month=1
 waytype=track
 freight=Passagiere
 payload=60
@@ -24,17 +24,17 @@ sound=-1
 Constraint[Prev][0]=BR-375Rear(SE)
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-375Middle(SE)
-Constraint[Next][1]=BR-375Rear(SE)
+Constraint[Next][0]=BR-375Panto(SE)
 
-EmptyImage[E]=./images/br-375-se.0.0
-EmptyImage[SE]=./images/br-375-se.0.1
-EmptyImage[S]=./images/br-375-se.0.2
-EmptyImage[SW]=./images/br-375-se.0.3
-EmptyImage[W]=./images/br-375-se.0.4
-EmptyImage[NW]=./images/br-375-se.0.5
-EmptyImage[N]=./images/br-375-se.0.6
-EmptyImage[NE]=./images/br-375-se.0.7
+EmptyImage[E]=./images/br-375-front-se.1.4
+EmptyImage[SE]=./images/br-375-front-se.1.5
+EmptyImage[S]=./images/br-375-front-se.1.6
+EmptyImage[SW]=./images/br-375-front-se.1.7
+EmptyImage[W]=./images/br-375-front-se.1.0
+EmptyImage[NW]=./images/br-375-front-se.1.1
+EmptyImage[N]=./images/br-375-front-se.1.2
+EmptyImage[NE]=./images/br-375-front-se.1.3
+
 ---
 obj=vehicle
 name=BR-375Rear(SE)
@@ -45,8 +45,8 @@ gear=420
 copyright=Kieron
 intro_year=1999
 intro_month=1
-#retire_year=2025
-#retire_month=1
+retire_year=2015
+retire_month=1
 waytype=track
 freight=Passagiere
 payload=60
@@ -59,18 +59,20 @@ sound=-1
 
 Constraint[Prev][0]=BR-375Middle(SE)
 Constraint[Prev][1]=BR-375Front(SE)
+Constraint[Prev][2]=BR-375Panto(SE)
 
 Constraint[Next][0]=BR-375Front(SE)
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-375-se.2.0
-EmptyImage[SE]=./images/br-375-se.2.1
-EmptyImage[S]=./images/br-375-se.2.2
-EmptyImage[SW]=./images/br-375-se.2.3
-EmptyImage[W]=./images/br-375-se.2.4
-EmptyImage[NW]=./images/br-375-se.2.5
-EmptyImage[N]=./images/br-375-se.2.6
-EmptyImage[NE]=./images/br-375-se.2.7
+EmptyImage[E]=./images/br-375-rear-se.1.4
+EmptyImage[SE]=./images/br-375-rear-se.1.5
+EmptyImage[S]=./images/br-375-rear-se.1.6
+EmptyImage[SW]=./images/br-375-rear-se.1.7
+EmptyImage[W]=./images/br-375-rear-se.1.0
+EmptyImage[NW]=./images/br-375-rear-se.1.1
+EmptyImage[N]=./images/br-375-rear-se.1.2
+EmptyImage[NE]=./images/br-375-rear-se.1.3
+
 
 
 ---
@@ -83,8 +85,47 @@ gear=420
 copyright=Kieron
 intro_year=1999
 intro_month=1
-#retire_year=2025
-#retire_month=1
+retire_year=2015
+retire_month=1
+waytype=track
+freight=Passagiere
+payload=66
+length=11
+
+weight=40
+cost=1512000
+runningcost=132
+sound=-1
+
+Constraint[Prev][0]=BR-375Panto(SE)
+Constraint[Prev][1]=BR-375Middle(SE)
+
+Constraint[Next][0]=BR-375Rear(SE)
+Constraint[Next][1]=BR-375Middle(SE)
+
+EmptyImage[E]=./images/br-375-middle-se.1.4
+EmptyImage[SE]=./images/br-375-middle-se.1.5
+EmptyImage[S]=./images/br-375-middle-se.1.6
+EmptyImage[SW]=./images/br-375-middle-se.1.7
+EmptyImage[W]=./images/br-375-middle-se.1.0
+EmptyImage[NW]=./images/br-375-middle-se.1.1
+EmptyImage[N]=./images/br-375-middle-se.1.2
+EmptyImage[NE]=./images/br-375-middle-se.1.3
+
+
+
+---
+obj=vehicle
+name=BR-375Panto(SE)
+engine_type=electric
+speed=160
+power=500
+gear=420
+copyright=Kieron
+intro_year=1999
+intro_month=1
+retire_year=2015
+retire_month=1
 waytype=track
 freight=Passagiere
 payload=66
@@ -96,19 +137,18 @@ runningcost=132
 sound=-1
 
 Constraint[Prev][0]=BR-375Front(SE)
-Constraint[Prev][1]=BR-375Middle(SE)
 
 Constraint[Next][0]=BR-375Rear(SE)
 Constraint[Next][1]=BR-375Middle(SE)
 
-EmptyImage[E]=./images/br-375-se.1.0
-EmptyImage[SE]=./images/br-375-se.1.1
-EmptyImage[S]=./images/br-375-se.1.2
-EmptyImage[SW]=./images/br-375-se.1.3
-EmptyImage[W]=./images/br-375-se.1.4
-EmptyImage[NW]=./images/br-375-se.1.5
-EmptyImage[N]=./images/br-375-se.1.6
-EmptyImage[NE]=./images/br-375-se.1.7
+EmptyImage[E]=./images/br-375-panto-se.1.4
+EmptyImage[SE]=./images/br-375-panto-se.1.5
+EmptyImage[S]=./images/br-375-panto-se.1.6
+EmptyImage[SW]=./images/br-375-panto-se.1.7
+EmptyImage[W]=./images/br-375-panto-se.1.0
+EmptyImage[NW]=./images/br-375-panto-se.1.1
+EmptyImage[N]=./images/br-375-panto-se.1.2
+EmptyImage[NE]=./images/br-375-panto-se.1.3
 
 
 ---
