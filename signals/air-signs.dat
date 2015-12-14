@@ -1,0 +1,36 @@
+######################################################################
+#Airport signs for PakBritain
+# - one way sign - shunter
+# - choose sign modified from one way sign by James Hood April 2009
+######################################################################
+
+obj=roadsign
+name=airport_oneway
+copyright=Shunter
+waytype=air
+min_speed=0
+single_way=1
+free_route=0
+is_private=0
+Icon=> airport_oneway.0.4
+Cursor=airport_oneway.0.5
+Image[0]=airport_oneway.0.1
+Image[1]=airport_oneway.0.0
+Image[2]=airport_oneway.0.3
+Image[3]=airport_oneway.0.2
+--------------------------------
+obj=roadsign
+name=airport_choose
+copyright=Shunter/James
+waytype=air
+min_speed=0
+single_way=0
+free_route=1
+is_private=0
+Icon=> airport_choose.0.4
+Cursor=airport_choose.0.5
+Image[0]=airport_choose.0.1
+Image[1]=airport_choose.0.0
+Image[2]=airport_choose.0.3
+Image[3]=airport_choose.0.2
+---
