@@ -152,6 +152,14 @@ Obj=symbol
 name=pausesym
 Image[0]=> ls-symbols.3.7
 -------------------- 
+Obj=symbol
+name=CompassIso
+copyright=FrankP
+Image[0]=> compass-old.0.0
+Image[1]=> compass-old.0.1
+Image[2]=> compass-old.0.2
+Image[3]=> compass-old.0.3
+--
 #
 #
 #==============================================================================#
