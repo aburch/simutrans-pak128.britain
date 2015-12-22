@@ -110,6 +110,7 @@ autosave = 6
 
 # (=1) drive on the left side of the road
 drive_left = 1
+signals_on_left = 1
 
 # Type of initial intercity roads - must be available
 # as PAK file. Fallback (if PAK is not found) is "asphalt_road"
