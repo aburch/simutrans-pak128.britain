@@ -178,6 +178,36 @@ Yerkes-station-building
 Tube station building
 StationWoodBuilding
 Wooden Station Building
+OldBusShelterWmail
+Bus Shelter with Postbox
+OldBusShelterWmail1852
+Bus Shelter with Postbox
+TruckStopSmall1750
+Small Cargo Stop (1750)
+TruckStopMedium1750
+Medium Cargo Stop (1750)
+TruckStopSmall1844
+Small Cargo Stop (1844)
+TruckStopMedium1844
+Medium Cargo Stop (1844)
+TruckStopLarge1844
+Large Cargo Stop (1844)
+TruckStopSmall1920
+Small Cargo Stop (1920)
+TruckStopMedium1920
+Medium Cargo Stop (1920)
+TruckStopLarge1920
+Large Cargo Stop (1920)
+TruckStopSmall1969
+Small Truck Stop
+TruckStopMedium1969
+Medium Truck Stop
+TruckStopLarge
+Large Truck Stop
+LoadingBay1852
+Loading Bay with Postbox
+StagingInn
+Staging Inn
 #___________________________________attraction________________
 #___________________________________attraction________________
 1980s-Small-Church
@@ -620,6 +650,10 @@ COM_A_1950_01_18
 Offices
 COM_A_1950_01_24
 Offices
+COM_A_1920_00_18
+Art Deco Offices
+IND_A_01_20
+Warehouses
 #____________________________________citycar__________________
 #____________________________________citycar__________________
 AustinMetro(Blue)
@@ -1432,9 +1466,9 @@ ATR_72_500(AurignyAirServices)
 ATR 72 500 series
 Aerospatiale_BAC_Concorde(BritishAirWays)
 Aerospatiale/BAC Concorde
-BAC111_200(BUA)
+BAC_111_200(BUA)
 BAC 111 200 series
-BAC111_500(Caledonian)
+BAC_111_500(Caledonian)
 BAC 111 500 series
 BAE146_100(DanAirLondon)
 BAE 146 100 Series
@@ -1446,6 +1480,18 @@ BAE146_300QT(TNT)Piece
 BAE 146 300 Series (piece goods)
 BAE146_300QT(TNT)Post
 BAE 146 300 Series (post)
+Bristol_Type170_Mk32_BritishUnitedAirFerries
+Bristol Type 170 Mk32
+Bristol_Type170_Mk32_RoyalMail
+Bristol Type 170 Mk32 (mail)
+Bristol_Type170_Mk32_CargoCar
+Bristol Type 170 Mk32 (cars)
+Bristol_Type170_Mk32_CargoPiece
+Bristol Type 170 Mk32 (piece goods)
+Bristol_Type170_Mk32_CargoCool
+Bristol Type 170 Mk32 (cooled goods)
+Boeing_707_120
+Boeing 707 120 series
 Boeing_707_420(BOAC)
 Boeing 707 420 series
 707_320C(PelicanCargoAirlines)Post
@@ -1464,17 +1510,21 @@ Boeing_727_200(TNT)CargoCool
 Boeing 727 200 series (cooled goods)
 Boeing_727_100(DanAirLondon)
 Boeing 727 100 series
-Boeing727_100(DHL)Post
+Boeing_727_100(DHL)Post
 Boeing 727 100 series (mail)
-Boeing727_200Adv(DHL)Post
+Boeing_727_200Adv(DHL)Post
 Boeing 727 200 series (mail)
 Boeing_747_100(BOAC)
 Boeing 747 100 series
 Boeing_747_200(BritishCaledonian)
 Boeing 747 200 series
+Boeing_747_200(BritishAirWays)
+Boeing 747 200 series
 747_200F(SeaboardWorld)
 Boeing 747 200 series (mail)
 747_400F(CargoLux)
+Boeing 747 400 series (mail)
+747_400F(CargoLux)Post
 Boeing 747 400 series (mail)
 Boeing_747_400(BritishAirWays)
 Boeing 747 400 series
@@ -1482,6 +1532,24 @@ Douglas_DC2
 Douglas DC2
 Douglas_DC2_Mail
 Douglas DC2 (mail)
+Douglas_DC3
+Douglas DC3
+Douglas_DC3_Mail
+Douglas DC3 (mail)
+Douglas_DC3A
+Douglas DC3A
+Douglas_DC3A_Mail
+Douglas DC3A (mail)
+Douglas_DC6
+Douglas DC6
+Douglas_DC6A_RoyalMail
+Douglas DC6A (mail)
+Douglas_DC6A_CargoPiece
+Douglas DC6A (piece goods)
+Douglas_DC6A_CargoCool
+Douglas DC6A (cooled goods)
+Douglas DC6_BritishEagleAirways
+Douglas DC6B
 Fokker-F27-200
 Fokker F27 200
 Fokker_F27_100_300(Post)
@@ -1492,6 +1560,10 @@ FordTrimotor(NSA)
 Ford Trimotor
 FordTrimotorMail
 Ford Trimotor (mail)
+FordTrimotor(NorthernAndScottishAirways)
+Ford Trimotor
+MailMonoPlane
+Mail Monoplane
 HandleyPageW8b
 Handley Page W8b
 HandleyPageW8b_Mail
@@ -1500,12 +1572,16 @@ HandleyPageO400
 Handley Page O400
 HandleyPageO400_Mail
 Handley Page O400 (mail)
+Vickers_VC1b_Viking_AirFerry
+Vickers Viking VC1b Air Ferry
 Vickers_Viscount_757(Cambrian)
 Vickers Viscount 757 series
 Vickers_Viscount_802(BEA)
 Vickers Viscount 802 series
 Zeppelin_LZ127_GrafZeppelin
 Zeppelin LZ127 "Graf Zeppelin"
+Zeppelin_LZ127_GrafZeppelin_Mail
+Zeppelin LZ127 "Graf Zeppelin" (mail)
 Zeppelin_LZ10_Mail
 Zeppelin LZ10 (Mail)
 Zeppelin_LZ6
@@ -2989,6 +3065,8 @@ BR-123-DMS
 BR Class 123 inter-city DMU
 BR-128
 BR Class 128 DMU
+BR-139
+BR Class 139 "Parry People Mover" DMU
 BR-142Front(Regional)
 BR Class 142 "Pacer" DMU
 BR-142Rear(Regional)
@@ -3029,12 +3107,36 @@ BR-170Middle(Scotrail)
 BR Class 170 "Turbostar" DMU (middle)
 BR-170Rear(Scotrail)
 BR Class 170 "Turbostar" DMU (rear)
+BR-172Front(LOROL)
+BR Class 172/0 "Turbostar" DMU
+BR-172Middle(LOROL)
+BR Class 172/0 "Turbostar" DMU (middle)
+BR-172Rear(LOROL)
+BR Class 172/0 "Turbostar" DMU (rear)
+BR-172Front(LM)
+BR Class 172/2 "Turbostar" DMU
+BR-172Middle(LM)
+BR Class 172/2 "Turbostar" DMU (middle)
+BR-172Rear(LM)
+BR Class 172/2 "Turbostar" DMU (rear)
+BR-175Front(FNW)
+BR Class 175 "Coradia" DMU
+BR-175Middle(FNW)
+BR Class 175 "Coradia" DMU (middle)
+BR-175Rear(FNW)
+BR Class 175 "Coradia" DMU (rear)
 BR-180Front(FGW)
 BR Class 180 "Adelante"
 BR-180Middle(FGW)
 BR Class 180 "Adelante" (middle)
 BR-180Rear(FGW)
 BR Class 180 "Adelante" (rear)
+BR-185Front
+BR Class 185 "Desiro"
+BR-185Rear
+BR Class 185 "Desiro" (rear)
+BR-185Middle
+BR Class 185 "Desiro" (middle)
 BR-205Front(Rail-Blue)
 BR Class 205 DEMU
 BR-205Middle(Rail-Blue)
@@ -3137,6 +3239,74 @@ BR-321(pantograph)
 BR Class 321 EMU (pantograph)
 BR-321(rear)
 BR Class 321 EMU (rear)
+BR-323Front(GMPTE)
+BR Class 323 EMU
+BR-323Rear(GMPTE)
+BR Class 323 EMU (rear)
+BR-323Middle(GMPTE)
+BR Class 323 EMU (centre)
+BR-332(front)
+BR Class 332 EMU
+BR-332(centre1)
+BR Class 332 EMU (centre trailer)
+BR-332(centre2)
+BR Class 332 EMU (centre power)
+BR-332(rear)
+BR Class 332 EMU (rear)
+BR-333(front)
+BR Class 333 EMU
+BR-333(centre1)
+BR Class 333 EMU (centre trailer)
+BR-333(centre2)
+BR Class 333 EMU (centre power)
+BR-333(rear)
+BR Class 333 EMU (rear)
+BR-334Front(Strathclyde)
+BR Class 334 "Juniper" EMU
+BR-334Rear(Strathclyde)
+BR Class 334 "Juniper" EMU (rear)
+BR-334Middle(Strathclyde)
+BR Class 334 "Juniper" EMU (centre)
+BR-345Front(Crossrail)
+BR Class 345 "Aventra" EMU
+BR-345Rear(Crossrail)
+BR Class 345 "Aventra" EMU (rear)
+BR-345Panto(Crossrail)
+BR Class 345 "Aventra" EMU (panto)
+BR-345Middle(Crossrail)
+BR Class 345 "Aventra" EMU (middle)
+BR-350(front)
+BR Class 350 "Desiro" EMU
+BR-350(centre1)
+BR Class 350 "Desiro" EMU (centre trailer)
+BR-350(centre2)
+BR Class 350 "Desiro" EMU (pantograph trailer)
+BR-350(rear)
+BR Class 350 "Desiro" EMU (rear)
+BR-360(front)
+BR Class 360 "Desiro" EMU
+BR-360(centre1)
+BR Class 360 "Desiro" EMU (centre trailer)
+BR-360(centre2)
+BR Class 360 "Desiro" EMU (pantograph trailer)
+BR-360(rear)
+BR Class 360 "Desiro" EMU (rear)
+BR-380(front)
+BR Class 380 "Desiro" EMU
+BR-380(centre2)
+BR Class 380 "Desiro" EMU (centre trailer)
+BR-380(centre1)
+BR Class 380 "Desiro" EMU (pantograph trailer)
+BR-380(rear)
+BR Class 380 "Desiro" EMU (rear)
+BR-385(front)
+BR Class 385 "AT200" EMU
+BR-385(centre2)
+BR Class 385 "AT200" EMU (centre trailer)
+BR-385(centre1)
+BR Class 385 "AT200" EMU (pantograph trailer)
+BR-385(rear)
+BR Class 385 "Desiro" EMU (rear)
 BR-365Front(NSE)
 BR Class 365 "Networker Express" EMU
 BR-365Middle(NSE)
@@ -3169,18 +3339,44 @@ BR-373RearCab
 BR Class 373 "Eurostar" (rear cab)
 BR-373RearPower
 BR Class 373 "Eurostar" (rear power)
+BR-374(front)
+BR Class 374 "Eurostar e320"
+BR-374(rear)
+BR Class 374 "Eurostar e320" (rear)
+BR-374(power)
+BR Class 374 "Eurostar e320" (centre power)
+BR-374(panto)
+BR Class 374 "Eurostar e320" (pantograph)
 BR-375Front(SE)
 BR Class 375 "Electrostar" EMU
 BR-375Middle(SE)
 BR Class 375 "Electrostar" EMU (middle)
+BR-375Panto(SE)
+BR Class 375 "Electrostar" EMU (pantograph)
 BR-375Rear(SE)
 BR Class 375 "Electrostar" EMU (rear)
+BR-376Front
+BR Class 376 "Electrostar" EMU
+BR-376Middle
+BR Class 376 "Electrostar" EMU (middle trailer)
+BR-376MiddlePower
+BR Class 3736 "Electrostar" EMU (middle power)
+BR-376Rear
+BR Class 376 "Electrostar" EMU (rear)
 BR-378Front(LT)
 BR London Overground Class 378 EMU
 BR-378Middle(LT)
 BR London Overground Class 378 EMU (middle)
 BR-378Rear(LT)
 BR London Overground Class 378 EMU (rear)
+BR-387Front
+BR Class 387 "Electrostar" EMU
+BR-387Middle
+BR Class 387 "Electrostar" EMU (middle)
+BR-387Panto
+BR Class 387 "Electrostar" EMU (pantograph)
+BR-387Rear
+BR Class 387 "Electrostar" EMU (rear)
 BR-390Coach(Virgin)
 BR Class 390 "Pendolino" (unpowered coach)
 BR-390FrontCab(Virgin)
@@ -3265,6 +3461,22 @@ BR-456-DMSO
 BR Class 456 EMU (DMSO)
 BR-456-DTSO
 BR Class 456 EMU (DTSO)
+BR-458(front)
+BR Class 458 "Juniper" EMU
+BR-458(centre1)
+BR Class 458 "Juniper" EMU (centre trailer)
+BR-458(centre2)
+BR Class 458 "Juniper" EMU (centre power)
+BR-458(rear)
+BR Class 460 "Juniper" EMU (rear)
+BR-460(front)
+BR Class 460 "Juniper" EMU
+BR-460(centre1)
+BR Class 460 "Juniper" EMU (centre trailer)
+BR-460(centre2)
+BR Class 460 "Juniper" EMU (centre power)
+BR-460(rear)
+BR Class 460 "Juniper" EMU (rear)
 BR-465Front(NSE)
 BR Class 465 "Networker" EMU
 BR-465Middle(NSE)
@@ -3295,6 +3507,48 @@ BR-506Front(BR-Blue)
 BR Class 506 EMU (front)
 BR-506Rear(BR-Blue)
 BR Class 506 EMU (rear)
+BR-700Front(TSGN)
+BR Class 700 "Desiro City" EMU
+BR-700Panto(TSGN)
+BR Class 700 "Desiro City" EMU (pantograph)
+BR-700MiddlePower(TSGN)
+BR Class 700 "Desiro City" EMU (centre power)
+BR-700MiddleTrailer(TSGN)
+BR Class 700 "Desiro City" EMU (centre trailer)
+BR-700Rear(TSGN)
+BR Class 700 "Desiro City" EMU (rear)
+BR-707Front(TSGN)
+BR Class 707 "Desiro City" EMU
+BR-707MiddlePower(TSGN)
+BR Class 707 "Desiro City" EMU (centre power)
+BR-707MiddleTrailer(TSGN)
+BR Class 707 "Desiro City" EMU (centre trailer)
+BR-707Rear(TSGN)
+BR Class 707 "Desiro City" EMU (rear)
+BR-710Front(LOROL)
+BR Class 710 "Aventra" EMU
+BR-710Rear(LOROL)
+BR Class 710 "Aventra" EMU (rear)
+BR-710Panto(LOROL)
+BR Class 710 "Aventra" EMU (panto)
+BR-710Middle(LOROL)
+BR Class 710 "Aventra" EMU (middle)
+BR-800Front(GWR)
+BR Class 800 "Intercity Express"
+BR-800MiddlePower(GWR)
+BR Class 800 "Intercity Express" (middle power)
+BR-800MiddleTrailer(GWR)
+BR Class 800 "Intercity Express" (middle trailer)
+BR-800Rear(GWR)
+BR Class 800 "Intercity Express" (rear)
+BR-801Front(Virgin)
+BR Class 801 "Intercity Express"
+BR-801MiddlePower(Virgin)
+BR Class 801 "Intercity Express" (middle power)
+BR-801MiddleTrailer(Virgin)
+BR Class 801 "Intercity Express" (middle trailer)
+BR-801Rear(Virgin)
+BR Class 801 "Intercity Express" (rear)
 BR-5MT(Black)
 BR Standard Class 5MT 2-6-0
 BR-7MT-Tender(Green)
@@ -3365,6 +3619,10 @@ BR-Class66(EWS)
 BR Class 66
 BR-Class67(EWS)
 BR Class 67
+BR-Class68
+BR Class 68
+BR-Class70
+BR Class 70
 BR-Class71(Green)
 BR Class 71
 BR-Class73(Intercity)
@@ -3375,6 +3633,8 @@ BR-Class86(Rail-Blue)
 BR Class 86
 BR-Class87(Rail-Blue)
 BR Class 87
+BR-Class88
+BR Class 88
 BR-Class90(Intercity)
 BR Class 90
 BR-Class91(Intercity)
@@ -5522,6 +5782,8 @@ traffic_light
 Traffic Lights
 RailOneWay
 One Way Sign
+roadbarrier
+Private Road Barrier
 #_____________________________________tree____________________
 #_____________________________________tree____________________
 EnglishOak
@@ -5554,6 +5816,12 @@ LT_Tunnel
 Tube tunnel
 LT_Tunnel_Fast
 Tube tunnel (fast)
+brick_Faced_Tunnel
+Brick Faced Tunnel
+severn-tunnel
+Stone Faced Tunnel
+RailTunnelConcrete
+Concrete Tunnel
 #_____________________________________good____________________
 #_____________________________________good____________________
 Autos
@@ -5664,6 +5932,160 @@ CATEGORY_06
 woods
 H
  
+#______________________signals_____________________
+#______________________signals_____________________
+flag-signal-stop
+Flag signal
+flag-signal-distant
+Flag pre-signal
+flag-signal-junction
+Flag choose signal
+vane-signal-stop
+Vane signal
+vane-signal-distant
+Vane auxilliary signal
+vane-signal-junction
+Vane choose signal
+two-aspect-colour-light-stop
+Stop signal (colour light)
+two-aspect-colour-light-distant
+Distant signal (colour light)
+two-aspect-colour-light-led-square-stop
+Stop signal (LED)
+two-aspect-colour-light-led-square-distant
+Distant signal (LED)
+longblock-colour-light-led-square
+Long block signal (LED)
+two-aspect-colour-light-led-square-choose
+Choose signal (LED)
+three-aspect-colour-light-longblock
+Long-block signal (colour light)
+uq-semaphore-stop
+Semaphore stop signal
+uq-semaphore-distant
+Semaphore distant signal
+uq-semaphore-junction
+Semaphore choose signal
+uq-semaphore-longblock
+Semaphore long block signal
+lq-semaphore-stop-white
+Semaphore stop signal
+lq-semaphore-stop
+Semaphore stop signal
+lq-semaphore-distant-red-white
+Semaphore distant signal
+lq-semaphore-distant-red
+Semaphore distant signal
+lq-semaphore-distant
+Semaphore distant signal
+lq-semaphore-longblock
+Semaphore long block signal
+lq-semaphore-longblock-red
+Semaphore long block signal
+lq-semaphore-longblock-red-white
+Semaphore long block signal
+lq-semaphore-junction
+Semaphore choose signal
+lq-semaphore-junction-white
+Semaphore choose signal
+two-aspect-colour-light-stop-narrow
+Stop signal (colour light)
+two-aspect-colour-light-distant-narrow
+Distant signal (colour light)
+long-block-colour-light-narrow
+Long-block signal (colour light)
+two-aspect-colour-light-choose-narrow
+Choose signal (colour light)
+uq-semaphore-stop-narrow
+Semaphore stop signal
+uq-semaphore-distant-narrow
+Semaphore distant signal
+uq-semaphore-junction-narrow
+Semaphore choose signal
+uq-semaphore-longblock-narrow
+Semaphore long block signal
+lq-semaphore-stop-white-narrow
+Semaphore stop signal
+lq-semaphore-stop-narrow
+Semaphore stop signal
+lq-semaphore-distant-red-white-narrow
+Semaphore distant signal
+lq-semaphore-distant-red-narrow
+Semaphore distant signal
+lq-semaphore-distant-narrow
+Semaphore distant signal
+lq-semaphore-longblock-narrow
+Semaphore long block signal
+lq-semaphore-longblock-red-narrow
+Semaphore long block signal
+lq-semaphore-longblock-red-white-narrow
+Semaphore long block signal
+lq-semaphore-junction-narrow
+Semaphore choose signal
+lq-semaphore-junction-white-narrow
+Semaphore choose signal
+lq-semaphore-underground-stop-white
+Semaphore stop signal (underground)
+lq-semaphore-underground-stop
+Semaphore stop signal (underground)
+lq-semaphore-underground-distant-red-white
+Semaphore distant signal (underground)
+lq-semaphore-underground-distant-red
+Semaphore distant signal (underground)
+lq-semaphore-underground-distant
+Semaphore distant signal (underground)
+lq-semaphore-underground-longblock
+Semaphore long block signal (underground)
+lq-semaphore-underground-longblock-red
+Semaphore long block signal (underground)
+lq-semaphore-underground-longblock-red-white
+Semaphore long block signal (underground)
+lq-semaphore-underground-junction
+Semaphore choose signal (underground)
+lq-semaphore-underground-junction-white
+Semaphore choose signal (underground)
+two-aspect-colour-light-choose
+Choose signal (colour light)
+two-aspect-colour-light-square-stop
+Stop signal (colour light)
+two-aspect-colour-light-square-distant
+Distant signal (colour light)
+longblock-colour-light-square
+Long block signal (colour light)
+two-aspect-colour-light-square-choose
+Choose signal (colour light)
+underground-two-aspect-colour-light-stop
+Stop signal (underground)
+underground-two-aspect-colour-light-distant
+Distant signal (underground)
+underground-longblock-colour-light
+Long block signal (underground)
+underground-two-aspect-colour-light-choose
+Choose signal (underground)
+100minspeed
+Minimum Speed Sign (100km/h)
+100minspeed-br
+Minimum Speed Sign (100km/h)
+100minspeed-lner
+Minimum Speed Sign (100km/h)
+100minspeed-modern
+Minimum Speed Sign (100km/h)
+121minspeed
+Minimum Speed Sign (121 km/h)
+121minspeed-br
+Minimum Speed Sign (121km/h)
+121minspeed-lner
+Minimum Speed Sign (121km/h)
+121minspeed-modern
+Minimum Speed Sign (121km/h)
+60minspeed
+Minimum Speed Sign (60 km/h)
+60minspeed-br
+Minimum Speed Sign (60 km/h)
+60minspeed-lner
+Minimum Speed Sign (60km/h)
+60minspeed-modern
+Minimum Speed Sign (60km/h)
 #______________________other_____________________
 #______________________other_____________________
 To attract more tourists\n%s built\na %s\nwith the aid of\n%i tax payers.
