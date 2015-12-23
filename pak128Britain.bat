@@ -11,7 +11,7 @@ cd %1
 md sound
 md text
 md config
-md scenario
+rem md scenario
 cd ..
 
 echo copying directory
@@ -19,7 +19,7 @@ echo copying directory
 xcopy %2\sound\*.* %1\sound\*.* /s
 xcopy %2\text\*.* %1\text\*.* /s
 xcopy %2\config\*.* %1\config\*.* /s
-xcopy %2\scenario\*.* %1\scenario\*.* /s
+rem xcopy %2\scenario\*.* %1\scenario\*.* /s
 
 echo copying files
 
@@ -54,7 +54,7 @@ makeobj PAK128 %1/BritTrees-Ex %2/trees/
 makeobj PAK128 %1/BritWays-Ex %2/ways/
 makeobj PAK128 %1/BritAir-Ex %2/air/
 makeobj PAK128 %1/BritNarrowGauge-Ex %2/narrowgauge/
-makeobj PAK128 %1/signalboxes-Ex %2/signalboxes/
+makeobj PAK128 %1/BritSignalboxes-Ex %2/signalboxes/
 
 echo IMPORTANT NOW PAKING SINGLE FILES -- UPDATE THIS
 
