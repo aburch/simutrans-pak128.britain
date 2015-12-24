@@ -4,8 +4,8 @@ name=LBSCR-West-End-tank
 engine_type=steam
 smoke=Steam
 speed=80
-# Largely guessed - no boiler data available.
-power=69	
+# Estimated
+power=89	
 # Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
 # with loss factor of 0.75
 tractive_effort=32

@@ -93,6 +93,9 @@ build %OUTPUT%BritNarrowGauge-Ex.pak ./narrowgauge/
 echo Building pedestrians
 build %OUTPUT%BritPedestrian-Ex.pak ./pedestrians/
 
+echo Building signalgoxes
+build %OUTPUT%BritSignalboxes-Ex.pak ./signalboxes/
+
 echo Building smokes
 build %OUTPUT%BritSmoke-Ex.pak ./smokes/
 

@@ -224,6 +224,14 @@ Douglas_DC3A
 Douglas DC-3A "Dakota"
 Douglas_DC3A_Mail
 Douglas DC-3A "Dakota" (mail)
+Douglas_DC4_BritishUnitedAirways
+Douglas DC-4
+Douglas_DC4_C54_CargoPiece
+Douglas DC-4 (piece goods)
+Douglas_DC4_C54_CargoCool
+Douglas DC-4 (perishable goods)
+Douglas_DC4_C54_Mail
+Douglas DC-4 (mail)
 Bristol_Type170_Mk32_BritishUnitedAirFerries
 Bristol Type 170 Mk32
 Bristol_Type170_Mk32_RoyalMail
@@ -239,15 +247,23 @@ Vickers Viking VC1b
 MailMonoPlane
 Mail Mono Plane
 Douglas_DC6_LloydInternationalAirways
-Douglas DC6
+Douglas DC-6
 Douglas_DC6A_RoyalMail
-Douglas DC6A
+Douglas DC-6A
 Douglas_DC6A_CargoPiece
-Douglas DC6A
+Douglas DC-6A
 Douglas_DC6A_CargoCool
-Douglas DC6A
+Douglas DC-6A
 Douglas_DC6_BritishEagleAirways
-Douglas DC6B
+Douglas DC-6B
+Douglas_DC4_BritishUnitedAirways
+Douglas DC4
+Douglas_DC4_C54_Mail
+Douglas C54
+Douglas_DC4_C54_CargoPiece
+Douglas C54
+Douglas_DC4_C54_CargoCool
+Douglas C54
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickAqueduct
@@ -352,6 +368,8 @@ RailTunnelStone
 Stone rail tunnel
 RailTunnelBrick
 Brick rail tunnel
+severn-tunnel
+Stone and brick rail tunnel
 RailTunnelConcrete
 Concrete rail tunnel
 RailTunnelHighSpeed
@@ -717,7 +735,7 @@ semi-detached houses
 RES_JH_1930_00_04B
 semi-detached houses
 RES_JH_1890_00_06A
-Semi-detached town youses
+Semi-detached town houses
 RES_JH_1890_00_06B
 Semi-detached town houses
 RES_JH_1870_00_06A
@@ -790,6 +808,62 @@ COM_WL_1950_02_15
 Shops and offices
 COM_WL_1950_03_20
 Shops and offices
+RES_A_1950_01_24
+Block of apartments
+RES_A_1950_01_28
+Block of apartments
+RES_A_1950_01_32
+Block of apartments
+RES_A_1950_01_36
+Block of apartments
+RES_A_1950_02_24
+Block of apartments
+RES_A_1950_02_28
+Block of apartments
+RES_A_1950_02_32
+Block of apartments
+RES_A_1950_02_36
+Block of apartments
+RES_A_1950_03_24
+Block of apartments
+RES_A_1950_03_28
+Block of apartments
+RES_A_1950_03_32
+Block of apartments
+RES_A_1950_03_36
+Block of apartments
+COM_A_1890_00_14
+Offices
+COM_A_1890_01_14
+Offices
+COM_A_1890_02_14
+Offices
+COM_A_1890_03_18
+Offices
+COM_A_1970_00_18
+Offices
+COM_A_1970_01_24
+Offices
+COM_A_1970_02_30
+Offices
+COM_A_1970_03_18
+Offices
+COM_A_1970_04_24
+Offices
+COM_A_1970_05_30
+Offices
+COM_A_1960_02_18
+Offices
+COM_A_1960_02_24
+Offices
+COM_A_1950_00_10
+Offices
+COM_A_1950_00_18
+Offices
+COM_A_1950_01_18
+Offices
+COM_A_1950_01_24
+Offices
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
 1980s-Small-Church
@@ -1377,9 +1451,11 @@ Steel Mill
 SteelMill1855
 Steel Mill
 SteelMill1920
-Steel Mill
+Steelworks
 SteelMill1950
-Steel Mill
+Steelworks
+SteelMill1990
+Steelworks
 TextileMill1750
 Textile Mill
 TextileMill1840
@@ -1573,66 +1649,190 @@ battery
 maglev
 #___________________________________way-signs____________________________________
 #___________________________________way-signs____________________________________
-ATC_signal
-Stop signal
-ATC_OneWay
+tvm-stop-board-maglev
+TVM section board (cab signalling)
+tvm-shunt-entry-marker-maglev
+TVM choose board (cab signalling)
+etcs-stop-board-maglev
+ETCS Level 2 stop board (cab signalling)
+etcs-shunt-entry-marker-maglev
+ETCS Level 2 choose board (cab signalling)
+etcs-beacon-maglev
+ETCS Level 3 beacon (moving block)
+etcs-beacon-choose-maglev
+ETCS Level 3 beacon (moving block)
+RailOneWay-maglev
 One way sign
-ATC_presignal
-Pre-signal
-ATC_Longblock
-Long-block signal
-ATC_choosesignal
-Choose signal
-ATC_EndofChooseSignal
+Modern_EndofChooseSignal-maglev
 End of choose signal block sign
 60minspeed
 Min. 60km/h restriction
+60minspeed-lner
+Min. 60km/h restriction
+60minspeed-br
+Min. 60km/h restriction
+60minspeed-modern
+Min. 60km/h restriction
+60minspeed-narrow
+Min. 60km/h restriction
+60minspeed-lner-narrow
+Min. 60km/h restriction
+60minspeed-br-narrow
+Min. 60km/h restriction
+60minspeed-modern-narrow
+Min. 60km/h restriction
 100minspeed
 Min. 100km/h restriction
+100minspeed-lner
+Min. 100km/h restriction
+100minspeed-br
+Min. 100km/h restriction
+100minspeed-modern
+Min. 100km/h restriction
+100minspeed-narrow
+Min. 100km/h restriction
+100minspeed-lner-narrow
+Min. 100km/h restriction
+100minspeed-br-narrow
+Min. 100km/h restriction
+100minspeed-modern-narrow
+Min. 100km/h restriction
 121minspeed
+Min. 121km/h restriction
+121minspeed-lner
+Min. 121km/h restriction
+121minspeed-br
+Min. 121km/h restriction
+121minspeed-modern
+Min. 121km/h restriction
+121minspeed-narrow
+Min. 121km/h restriction
+121minspeed-lner-narrow
+Min. 121km/h restriction
+121minspeed-br-narrow
+Min. 121km/h restriction
+121minspeed-modern-narrow
 Min. 121km/h restriction
 traffic_light
 Traffic lights
 RailOneWay
 One way sign
+one-way-sign-narrow
+One way sign
+modern-one-way-sign-narrow
+One way sign
+modern-one-way-sign
+One way sign
+end-of-signalling
+End of signalling (drive by sight)
+end-of-signalling-narrow
+End of signalling (drive by sight)
+modern-end-of-signalling-narrow
+End of signalling (drive by sight)
+modern-end-of-signalling
+End of signalling (drive by sight)
 airport_oneway
 One-way taxiway sign
 NoEntry
 No entry sign
-flag-signal-stop
+one-train-staff
+One train staff cabinet
+flag-signal
 Flag signal
-flag-signal-distant
-Flag pre-signal
-flag-signal-junction
-Flag choose signal
 vane-signal-stop
 Vane signal
 vane-signal-distant
 Vane auxilliary signal
 vane-signal-junction
 Vane choose signal
+two-aspect-colour-light-stop-ib
+Intermediate block stop signal (colour light)
+two-aspect-colour-light-distant-ib
+Intermediate block distant signal (colour light)
 two-aspect-colour-light-stop
 Stop signal (colour light)
 two-aspect-colour-light-distant
 Distant signal (colour light)
+two-aspect-colour-light-permissive
+Permissive stop signal (colour light)
+two-aspect-colour-light-choose
+Choose signal (colour light)
+two-aspect-colour-light-token
+Token block signal (colour light)
+two-aspect-colour-light-track-circuit
+Two aspect signal
+two-aspect-colour-light-track-circuit-distant
+Two aspect distant signal
+two-aspect-colour-light-track-circuit-permissive
+Two aspect signal (permissive block)
+two-aspect-colour-light-track-circuit-choose
+Two aspect choose signal
+three-aspect-colour-light
+Three aspect signal
+three-aspect-colour-light-permissive
+Three aspect signal (permissive block)
+three-aspect-colour-light-choose
+Three aspect choose signal
+four-aspect-colour-light
+Four aspect signal
+four-aspect-colour-light-permissive
+Four aspect signal (permissive block)
+four-aspect-colour-light-choose
+Four aspect choose signal
 two-aspect-colour-light-led-square-stop
-Stop signal (LED)
+Two aspect signal (LED)
 two-aspect-colour-light-led-square-distant
 Distant signal (LED)
-longblock-colour-light-led-square
-Long block signal (LED)
+three-aspect-colour-light-led-square-stop
+Three aspect signal (LED)
+four-aspect-colour-light-led-square-stop
+Four aspect signal (LED)
 two-aspect-colour-light-led-square-choose
-Choose signal (LED)
-three-aspect-colour-light-longblock
-Long-block signal (colour light)
+Two aspect choose signal (LED)
+three-aspect-colour-light-led-square-choose
+Three aspect choose signal (LED)
+four-aspect-colour-light-led-square-choose
+Four aspect choose signal (LED)
+automatic-semaphore-stop
+Automatic semaphore stop signal
+automatic-semaphore-distant
+Automatic semaphore distant signal
+automatic-semaphore-stop-permissive
+Automatic semaphore stop signal (permissive)
+automatic-semaphore-choose
+Automatic semaphore choose signal
+automatic-semaphore-combined
+Automatic semaphore combined signal
+automatic-semaphore-combined-permissive
+Automatic semaphore combined signal (permissive)
+automatic-semaphore-combined-choose
+Automatic semaphore combined choose signal
+electro-pneumatic-tunnel-signal-stop
+Electro-pneumatic tunnel stop signal
+electro-pneumatic-tunnel-signal-stop-permissive
+Electro-penumatic tunnel stop signal (permissive)
+electro-pneumatic-tunnel-signal-distant
+Electro-pneumatic tunnel repeater
+electro-pneumatic-tunnel-signal-choose
+Electro-pneumatic tunnel choose signal
+ib-semaphore-stop
+Intermediate block stop signal
+ib-semaphore-distant-red
+Intermediate block distant signal
+ib-semaphore-distant
+Intermediate block distant signal
 uq-semaphore-stop
 Semaphore stop signal
 uq-semaphore-distant
 Semaphore distant signal
 uq-semaphore-junction
 Semaphore choose signal
-uq-semaphore-longblock
-Semaphore long block signal
+uq-semaphore-token
+Semaphore token block signal
+uq-semaphore-permissive
+Semaphore permissive block signal
+uq-semaphore-combined
+Semaphore combined signal
 lq-semaphore-stop-white
 Semaphore stop signal
 lq-semaphore-stop
@@ -1643,32 +1843,48 @@ lq-semaphore-distant-red
 Semaphore distant signal
 lq-semaphore-distant
 Semaphore distant signal
-lq-semaphore-longblock
-Semaphore long block signal
-lq-semaphore-longblock-red
-Semaphore long block signal
-lq-semaphore-longblock-red-white
-Semaphore long block signal
+lq-semaphore-permissive-white
+Semaphore permissive block signal
+lq-semaphore-permissive
+Semaphore permissive block signal
 lq-semaphore-junction
 Semaphore choose signal
 lq-semaphore-junction-white
 Semaphore choose signal
+lq-semaphore-token
+Semaphore token block signal
+lq-semaphore-token-white
+Semaphore token block signal
+lq-semaphore-combined-red-white
+Semaphore combined signal
+lq-semaphore-combined-red
+Semaphore combined signal
+lq-semaphore-combined
+Semaphore combined signal
 two-aspect-colour-light-stop-narrow
 Stop signal (colour light)
 two-aspect-colour-light-distant-narrow
 Distant signal (colour light)
-long-block-colour-light-narrow
-Long-block signal (colour light)
+two-aspect-colour-light-permissive-narrow
+Stop signal (permissive; colour light)
 two-aspect-colour-light-choose-narrow
 Choose signal (colour light)
-uq-semaphore-stop-narrow
-Semaphore stop signal
-uq-semaphore-distant-narrow
-Semaphore distant signal
-uq-semaphore-junction-narrow
-Semaphore choose signal
-uq-semaphore-longblock-narrow
-Semaphore long block signal
+two-aspect-colour-light-token-narrow
+Token block signal (colour light)
+two-aspect-colour-light-track-circuit-narrow
+Two aspect stop signal
+two-aspect-colour-light-track-circuit-distant-narrow
+Two aspect distant signal
+two-aspect-colour-light-track-circuit-permissive-narrow
+Two aspect signal (permissive block)
+two-aspect-colour-light-track-circuit-choose-narrow
+Two aspect junction signal
+three-aspect-colour-light-narrow
+Three aspect signal
+three-aspect-colour-light-permissive-narrow
+Three aspect signal (permissive block)
+three-aspect-colour-light-choose-narrow
+Three aspect junction signal
 lq-semaphore-stop-white-narrow
 Semaphore stop signal
 lq-semaphore-stop-narrow
@@ -1679,54 +1895,110 @@ lq-semaphore-distant-red-narrow
 Semaphore distant signal
 lq-semaphore-distant-narrow
 Semaphore distant signal
-lq-semaphore-longblock-narrow
-Semaphore long block signal
-lq-semaphore-longblock-red-narrow
-Semaphore long block signal
-lq-semaphore-longblock-red-white-narrow
-Semaphore long block signal
+lq-semaphore-permissive-white-narrow
+Semaphore permissive signal
+lq-semaphore-permissive-narrow
+Semaphore permissive signal
 lq-semaphore-junction-narrow
 Semaphore choose signal
 lq-semaphore-junction-white-narrow
 Semaphore choose signal
-lq-semaphore-underground-stop-white
-Semaphore stop signal (underground)
-lq-semaphore-underground-stop
-Semaphore stop signal (underground)
-lq-semaphore-underground-distant-red-white
-Semaphore distant signal (underground)
-lq-semaphore-underground-distant-red
-Semaphore distant signal (underground)
-lq-semaphore-underground-distant
-Semaphore distant signal (underground)
-lq-semaphore-underground-longblock
-Semaphore long block signal (underground)
-lq-semaphore-underground-longblock-red
-Semaphore long block signal (underground)
-lq-semaphore-underground-longblock-red-white
-Semaphore long block signal (underground)
-lq-semaphore-underground-junction
-Semaphore choose signal (underground)
-lq-semaphore-underground-junction-white
-Semaphore choose signal (underground)
-two-aspect-colour-light-choose
-Choose signal (colour light)
+lq-semaphore-token-narrow
+Semaphore token block signal
+lq-semaphore-token-white
+Semaphore token block signal
+lq-semaphore-combined-red-white-narrow
+Semaphore combined signal
+lq-semaphore-combined-red-narrow
+Semaphore combined signal
+lq-semaphore-combined-narrow
+Semaphore combined signal
+one-train-staff-narrow
+One train staff cabinet
+underground-mechanical-stop-white
+Underground mechanical signal
+underground-mechanical-stop
+Underground mechanical signal
+underground-mechanical-distant-red-white
+Underground mechanical distant signal
+underground-mechanical-distant-red
+Underground mechanical distant signal
+underground-mechanical-distant
+Underground mechanical distant signal
+underground-mechanical-junction
+Underground mechanical choose signal
+underground-mechanical-junction-white
+Underground mechanical choose signal
+underground-mechanical-permissive-white
+Underground mechanical permissive block signal
+underground-mechanical-permissive
+Underground mechanical permissive block signal
 two-aspect-colour-light-square-stop
-Stop signal (colour light)
+Two aspect signal (colour light)
 two-aspect-colour-light-square-distant
-Distant signal (colour light)
-longblock-colour-light-square
-Long block signal (colour light)
+Two aspect repeater signal (colour light)
+three-aspect-colour-light-square-stop
+Three aspect signal (colour light)
+four-aspect-colour-light-square-stop
+Four aspect signal (colour light)
+three-aspect-colour-light-led-square-choose
+Three aspect choose signal (colour light)
+four-aspect-colour-light-square-choose
+Four aspect choose signal (colour light)
 two-aspect-colour-light-square-choose
-Choose signal (colour light)
+Two aspect choose signal (colour light)
+speed-signal-plain
+Five aspect searchlight signal
+speed-signal-permissive
+Five aspect searchlight signal (permissive block)
+speed-signal-choose
+Five aspect searchlight chose signal
+retb-board
+Radio Electronic Token Block stop board
+tvm-stop-board
+TVM section board (cab signalling)
+tvm-shunt-entry-marker
+TVM choose board (cab signalling)
+seltrac-beacon
+Seltrac beacon (moving block)
+seltrac-beacon-choose
+Seltrac choose beacon (moving block)
+etcs-stop-board
+ETCS Level 2 stop board (cab signalling)
+etcs-shunt-entry-marker
+ETCS Level 2 choose board (cab signalling)
+etcs-beacon
+ETCS Level 3 beacon (moving block)
+etcs-beacon-choose
+ETCS Level 3 beacon (moving block)
 underground-two-aspect-colour-light-stop
 Stop signal (underground)
 underground-two-aspect-colour-light-distant
 Distant signal (underground)
-underground-longblock-colour-light
-Long block signal (underground)
+underground-two-aspect-colour-light-permissive
+Stop signal (permissive block; underground)
 underground-two-aspect-colour-light-choose
 Choose signal (underground)
+underground-two-aspect-colour-light-track-circuit
+Two aspect signal (underground)
+underground-two-aspect-colour-light-track-circuit-distant
+Two aspect distant signal (underground)
+underground-two-aspect-colour-light-track-circuit-permissive
+Two aspect signal (permissive block; underground)
+underground-two-aspect-colour-light-track-circuit-choose
+Two aspect choose signal (underground)
+underground-three-aspect-colour-light
+Three aspect signal (underground)
+underground-three-aspect-colour-light-permissive
+Three aspect signal (permissive block; underground)
+underground-three-aspect-colour-light-choose
+Three aspect choose signal (underground)
+underground-four-aspect-colour-light
+Four aspect signal (underground)
+underground-four-aspect-colour-light-permissive
+Four aspect signal (permissive block; underground)
+underground-four-aspect-colour-light-choose
+Four aspect choose signal (underground)
 EndofChooseSignal
 End of choose signal
 Modern_EndofChooseSignal
@@ -1842,7 +2114,7 @@ NWNG buffet carriage
 WHR-brake
 NWNG brake carriage
 George-England
-FR "George England" 0-4-0T
+FR "George England" 0-4-0
 George-England-tender
 FR "George England" (tender)
 DoubleFairlie
@@ -1855,18 +2127,18 @@ SingleFairlie-superheated
 FR Single Fairlie 0-4-4T (superheated)
 Hunslet-Alice
 Hunslet "Alice" Class 0-4-0T
-Garrett-K1-front
-Garrett K1 Class 0-4-0+0-4-0
-Garrett-K1-middle
-Garrett K1 Class 0-4-0+0-4-0 (centre section)
-Garrett-K1-rear
-Garrett K1 Class 0-4-0+0-4-0 (rear section)
-Garrett-NGG16-front
-Garrett NG G16 Class 2-6-2+2-6-2
-Garrett-NGG16-middle
-Garrett NG G16 Class 2-6-2+2-6-2 (centre section)
-Garrett-NGG16-rear
-Garrett NG G16 Class 2-6-2+2-6-2 (rear section)
+Garratt-K1-front
+Garratt K1 Class 0-4-0+0-4-0
+Garratt-K1-middle
+Garratt K1 Class 0-4-0+0-4-0 (centre section)
+Garratt-K1-rear
+Garratt K1 Class 0-4-0+0-4-0 (rear section)
+Garratt-NGG16-front
+Garratt NG G16 Class 2-6-2+2-6-2
+Garratt-NGG16-middle
+Garratt NG G16 Class 2-6-2+2-6-2 (centre section)
+Garratt-NGG16-rear
+Garratt NG G16 Class 2-6-2+2-6-2 (rear section)
 Hibberd-Planet
 Hibberd Planet Class 4wDM
 Baguely-Drewery-0-6-0
@@ -1891,6 +2163,8 @@ Metropolitan-Burnett-Tank
 Metropolitan Burnett tank 0-6-0T
 Metropolitan-A-Class
 Metropolitan A Class 4-4-0T
+Metropolitan-B-Class
+Metropolitan B Class 4-4-0T
 Metropolitan-C-Class
 Metropolitan C Class 0-4-4T
 Metropolitan-Class-E
@@ -1959,6 +2233,8 @@ GNR-C1
 GNR Class C1 4-4-2
 GNR-C1-Tender
 GNR Express tender
+GNR-C1-superheated
+GNR Class C1 4-4-2 (superheated)
 GNR-Klondyke
 GNR Class C2 "Klondyke" 4-4-2
 GNR-Stirling8Foot
@@ -2292,7 +2568,7 @@ LNWR six wheel (radial) three compartment brake carriage
 LNWR-6wheel-radial-full-brake
 LNWR six wheel (radial) mail/brake carriage
 LNWR-6wheel-radial-mail
-LNWR six wheel (radial) brake carriage
+LNWR six wheel (radial) mail carriage
 LNWR-6wheel-radial-tpo
 LNWR six wheel (radial) TPO
 LNWR-50ft-6in-diner-twin-kitchen
@@ -3336,9 +3612,9 @@ Midland 483 Class 4-4-0
 MR-483(tender)
 Midland 483 Class (tender)
 MR-2000
-Midland 2000 Class "Flatiron" 0-6-4
+Midland 2000 Class "Flatiron" 0-6-4T
 MR-2000-superheated
-Midland 2000 Class "Flatiron" 0-6-4 (superheated)
+Midland 2000 Class "Flatiron" 0-6-4T (superheated)
 LMS-2P
 LMS Class 2P 4-4-0
 LMS-2P(tender)
@@ -3481,7 +3757,7 @@ LBSCR-B1-Gladstone
 LBSCR B1 Class "Gladstone" 0-4-2
 LBSCR-B1-Gladstone-Tender
 LBSCR Stroudley tender
-LBSCR-L-Tank(Umber)
+LBSCR-L
 LBSCR L Class "Brighton Baltic" 4-6-4T
 LBSCR-J
 LBSCR J Class 4-6-2T
@@ -3532,9 +3808,9 @@ LNWR "Prince of Wales" Class 4-6-0
 LNWR-PrinceOfWales-Tender
 LNWR express tender
 MR-2441
-Midland 2441 Class 0-6-0
+Midland 2441 Class 0-6-0T
 MR-1632
-Midland 1632 Class 0-6-0 (for push-pull)
+Midland 1632 Class 0-6-0T (for push-pull)
 MR-Spinner
 Midland 115 Class "Spinner" 4-2-2
 MR-Spinner-Tender
@@ -3997,14 +4273,16 @@ LBSCR-C1
 LBSCR C1 Class 0-6-0
 MR-1357
 Midland 1357 Class 0-6-0
+ltsr-1-class
+L&TSR 1 Class 4-4-2T
 LNWR-BClass
 LNWR B Class 0-8-0
 LNWR-G1Class
 LNWR G1 Class 0-8-0
 LNWR-Mansion-House-tank
-LNWR Mansion House Radial Tank 2-4-2T
+LNWR Mansion House radial tank 2-4-2T
 LNWR-5ft-6-tank
-LNWR 5'6 Radial Tank 2-4-2T
+LNWR 5'6 radial tank 2-4-2T
 LNWR-crewe-type
 LNWR Crewe Type 2-2-2
 LNWR-Cauliflower
@@ -4016,7 +4294,7 @@ LNWR "Watford Tank" class 0-6-2T
 LBSCR-D2
 LBSCR D2 "Lyons" Class 0-4-2
 LBSCR-D3
-LBSCR D3 Class 0-4-4
+LBSCR D3 Class 0-4-4T
 LBSCR-C2
 LBSCR C2 Class 0-6-0
 LBSCR-C2-tender
@@ -4036,7 +4314,7 @@ LBSCR B2x Class 4-4-0
 LBSCR-B4x
 LBSCR B4x Class 4-4-0
 LBSCR-E6
-LBSCR E6 Class 0-6-2
+LBSCR E6 Class 0-6-2T
 MR-133
 Midland 133 Class 2-2-2
 MR-133-tender
@@ -4130,7 +4408,7 @@ LBSCR Long Boiler Engine (passenger) 2-4-0
 LBSCR-long-boiler-mixed
 LBSCR Long Boiler Engine (mixed traffic) 2-4-0
 LBSCR-light-tank
-LBSCR Kemp Town Tank 2-4-0
+LBSCR Kemp Town Tank 2-4-0T
 LBSCR-single-well-tank
 LBSCR Single Well tank 2-2-2
 LBSCR-G
@@ -4140,7 +4418,7 @@ LBSCR Croydon Engine 2-4-0
 LBSCR-Belgravia
 LBSCR Belgravia Class 2-4-0
 LBSCR-sharp-well-tank
-LBSCR Sharp Well Tank 2-2-2
+LBSCR Sharp Well Tank 2-2-2WT
 LBR-2-4-0T
 L&BR Small Tank 2-4-0T
 LNWR-8wheel-radial-brake-front
@@ -6434,6 +6712,46 @@ rocky
 Mountain
 arctic
 Mountain peak
+#____________________________________Signalboxes_____________________________________
+#____________________________________Signalboxes_____________________________________
+mechanical-signalbox-large
+Mechanical signalbox (large)
+mechanical-signalbox-intermediate
+Mechanical signalbox
+mechanical-signalbox-small
+Mechanical signalbox (small)
+etrms-centre-large
+ETRMS control centre (large)
+etrms-centre-small
+ETRMS control centre (small)
+mini-signalling-centre
+Signalling centre (small)
+policeman's-cottage
+Railway policeman's cottage
+power-signalbox-deco
+Power signalbox
+power-signalbox-large
+Panel signalbox (large)
+power-signalgox-small
+Panel signalbox (small)
+retb-cabin
+RETB control cabin
+seltrac-control-centre
+Seltrac control centre
+signalling-centre
+Signalling centre
+tvm-signalling-tower
+TVM signalling tower
+underground-signal-cabin-ab
+Underground signal cabin (mechanical)
+underground-signal-cabin-tcb
+Underground power signal cabin
+westinghouse-lms-box
+Power signalbox (five aspect signalling)
+westinghouse-early-signalbox-large
+Power signalbox (large)
+westinghouse-early-signalbox-small
+Power signalbox (small)
 #___________________________________Livery schemes___________________________________
 #___________________________________Livery schemes___________________________________
 British-Railways
@@ -6522,3 +6840,5 @@ District
 District Rly.
 LYR
 L & Y Rly.
+LTSR
+L&TSR

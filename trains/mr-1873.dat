@@ -3,8 +3,8 @@ name=MR-1873
 engine_type=steam
 smoke=Steam
 speed=85
-# Estimated - no firebox/heating surface data available.
-power=151
+# Extrapolated from estimated figures on firebox grate area and heating surface area
+power=221
 # Calculated from data http://en.wikipedia.org/wiki/Midland_Railway_Johnson_0-6-0
 # Loss factor set at 0.8 
 tractive_effort=73

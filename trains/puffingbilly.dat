@@ -3,8 +3,9 @@ name=PuffingBilly
 engine_type=steam
 smoke=Steam
 speed=10
-# Estimated
-power=2
+# Based on real performance data of a locomotive said to be similar to this at p. 21 of this ebook:
+# https://ia600309.us.archive.org/17/items/evolutionofsteam00nokerich/evolutionofsteam00nokerich.pdf
+power=8
 tractive_effort=4
 copyright=James
 intro_year=1813
@@ -17,9 +18,8 @@ payload=0
 length=3
 brake_force=0
 rolling_resistance=19
-way_wear_factor=14600
 
-weight=8
+weight=6
 axles=2
 cost=924000
 runningcost=60

@@ -6,8 +6,8 @@ name=MR-690
 engine_type=steam
 smoke=Steam
 speed=85
-# Extrapolated
-power=142
+# Estimated (no firegrate area data available)
+power=180
 # Calculated from data from data at above website.
 # Loss factor set at 0.75 
 tractive_effort=53
@@ -37,6 +37,7 @@ bidirectional=1
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard
+liverytype[2]=LMS-Standard
 
 EmptyImage[E][0]=./images/mr-690-class-green.1.4
 EmptyImage[SE][0]=./images/mr-690-class-green.1.5
@@ -55,3 +56,12 @@ EmptyImage[W][1]=./images/mr-690-class.1.0
 EmptyImage[NW][1]=./images/mr-690-class.1.1
 EmptyImage[N][1]=./images/mr-690-class.1.2
 EmptyImage[NE][1]=./images/mr-690-class.1.3
+
+EmptyImage[E][2]=./images/mr-690-class-lms.1.4
+EmptyImage[SE][2]=./images/mr-690-class-lms.1.5
+EmptyImage[S][2]=./images/mr-690-class-lms.1.6
+EmptyImage[SW][2]=./images/mr-690-class-lms.1.7
+EmptyImage[W][2]=./images/mr-690-class-lms.1.0
+EmptyImage[NW][2]=./images/mr-690-class-lms.1.1
+EmptyImage[N][2]=./images/mr-690-class-lms.1.2
+EmptyImage[NE][2]=./images/mr-690-class-lms.1.3

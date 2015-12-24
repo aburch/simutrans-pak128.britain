@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=80
 # Approximately extrapolated. Heating surface area and fire grate area estimated.
-power=84
+power=101
 # Calculated from data from Ahrons, p. 151
 # Loss factor set at 0.72, assumed 120lbs boiler pressure. 
 tractive_effort=29

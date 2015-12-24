@@ -3,8 +3,8 @@ name=SingleFairlie-superheated
 engine_type=steam
 smoke=Steam
 speed=60
-# Extrapolated (approximately)
-power=86
+# Extrapolated approximately - firegrate and heating surface areas not known
+power=46
 # Calculated from values from http://www.festipedia.org.uk/wiki/Taliesin_III 
 tractive_effort=24
 copyright=James/jamespetts

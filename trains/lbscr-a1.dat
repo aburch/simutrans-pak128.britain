@@ -3,9 +3,10 @@ name=LBSCR-A1
 engine_type=steam
 smoke=Steam
 speed=100
-# Extrapolated from: http://orion.math.iastate.edu/jdhsmith/term/slgblbsc.htm 
+# Extrapolated
+power=120
+# http://orion.math.iastate.edu/jdhsmith/term/slgblbsc.htm 
 # See also Ahrons p. 202
-power=70
 # http://www.smileatyou.com/1/5/96/46/1-5-96-46-1.html
 tractive_effort=34
 copyright=Kieron
@@ -100,7 +101,7 @@ engine_type=steam
 smoke=Steam
 speed=100
 # Extrapolated
-power=49
+power=120
 # http://en.wikipedia.org/wiki/LB%26SCR_A1_class
 tractive_effort=48
 copyright=Kieron

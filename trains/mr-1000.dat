@@ -4,9 +4,8 @@ name=MR-1000
 engine_type=steam
 smoke=Steam
 speed=140
-# Extrapolated, with adjustment to take account of higher TE
-# for compounding - assumed equivalent TE of 85 rather than 97.
-power=317
+# Extrapolated
+power=376
 # http://en.wikipedia.org/wiki/Midland_Railway_1000_Class
 tractive_effort=97
 copyright=James
@@ -17,7 +16,7 @@ retire_month=2
 waytype=track
 freight=None
 payload=0
-length=6
+length=5
 # Three cylinder compound
 way_wear_factor=75625
 
@@ -36,14 +35,14 @@ liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/mr-1000.0.0
-EmptyImage[SE][0]=./images/mr-1000.0.1
-EmptyImage[S][0]=./images/mr-1000.0.2
-EmptyImage[SW][0]=./images/mr-1000.0.3
-EmptyImage[W][0]=./images/mr-1000.0.4
-EmptyImage[NW][0]=./images/mr-1000.0.5
-EmptyImage[N][0]=./images/mr-1000.0.6
-EmptyImage[NE][0]=./images/mr-1000.0.7
+EmptyImage[E][0]=./images/mr-1000-red.1.4
+EmptyImage[SE][0]=./images/mr-1000-red.1.5
+EmptyImage[S][0]=./images/mr-1000-red.1.6
+EmptyImage[SW][0]=./images/mr-1000-red.1.7
+EmptyImage[W][0]=./images/mr-1000-red.1.0
+EmptyImage[NW][0]=./images/mr-1000-red.1.1
+EmptyImage[N][0]=./images/mr-1000-red.1.2
+EmptyImage[NE][0]=./images/mr-1000-red.1.3
 
 EmptyImage[E][1]=./images/mr-1000-lms.1.4
 EmptyImage[SE][1]=./images/mr-1000-lms.1.5

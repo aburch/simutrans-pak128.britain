@@ -25,6 +25,7 @@ bidirectional=1
 way_constraint_permissive[3]=3
 
 Constraint[Prev][0]=DistrictElectricLoco
+Constraint[Prev][1]=none
 
 EmptyImage[E]=./images/district-electric-loco.1.4
 EmptyImage[SE]=./images/district-electric-loco.1.5

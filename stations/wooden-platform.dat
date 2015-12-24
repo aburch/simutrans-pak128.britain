@@ -14,9 +14,9 @@ NoInfo=1
 Level=1
 allow_underground=0
 
-station_maintenance=4000
-station_price=75000
-station_capacity=0
+maintenance=4000
+cost=75000
+capacity=0
 
 BackImage[0][0][0][0][0][0]=wooden-platform.1.0
 BackImage[1][0][0][0][0][0]=wooden-platform.0.0
@@ -74,9 +74,9 @@ NoInfo=1
 Level=4
 allow_underground=0
 
-station_maintenance=8500
-station_price=240000
-station_capacity=42
+maintenance=8500
+cost=240000
+capacity=42
 
 BackImage[0][0][0][0][0][0]=wooden-platform-overall.0.1
 BackImage[1][0][0][0][0][0]=wooden-platform-overall.0.2

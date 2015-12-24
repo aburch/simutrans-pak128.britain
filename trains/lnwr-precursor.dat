@@ -3,8 +3,9 @@ name=LNWR-Precursor
 engine_type=steam
 smoke=Steam
 speed=140
-# Extrapolated
-power=302
+# CALIBRATED: See 77.4mph with 170 tons recorded by Charles Rous-Marten in the July 1905 Railway Magazine
+# reprinted by Charles Fryer, "British Locomotive Practice and Performance", p. 96. 
+power=290
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
 tractive_effort=81
 copyright=James/jamespetts

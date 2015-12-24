@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=140
 # Extrapolated
-power=212
+power=221
 # Calculated from data from http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm
 # (Note: that site has the class incorrectly named as the 1740 class)
 # Loss factor set at 0.8
@@ -19,7 +19,7 @@ retire_month=6
 waytype=track
 freight=None
 payload=0
-length=6
+length=5
 
 # http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm
 weight=43

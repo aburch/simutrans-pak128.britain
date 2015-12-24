@@ -291,8 +291,10 @@
     <None Include="citybuildings\com-1750.dat" />
     <None Include="citybuildings\com-1850.dat" />
     <None Include="citybuildings\com-1880-2.dat" />
+    <None Include="citybuildings\com-1890.dat" />
     <None Include="citybuildings\com-1920.dat" />
     <None Include="citybuildings\com-30.dat" />
+    <None Include="citybuildings\com-50.dat" />
     <None Include="citybuildings\ind-1800.dat" />
     <None Include="citybuildings\ind-1830.dat" />
     <None Include="citybuildings\ind-1850.dat" />
@@ -362,6 +364,7 @@
     <None Include="london-underground\met-1921-circle.dat" />
     <None Include="london-underground\met-a-class.dat" />
     <None Include="london-underground\met-ashbury-1863.dat" />
+    <None Include="london-underground\met-b-class.dat" />
     <None Include="london-underground\met-bth-loco.dat" />
     <None Include="london-underground\met-burnett-tank.dat" />
     <None Include="london-underground\met-c-class.dat" />
@@ -417,6 +420,24 @@
     <None Include="narrowgauge\whr-open.dat" />
     <None Include="pak1file\128\outside.dat" />
     <None Include="pedestrians\Pedestrians.dat" />
+    <None Include="signalboxes\etrms-centre-large.dat" />
+    <None Include="signalboxes\etrms-centre-small.dat" />
+    <None Include="signalboxes\mechanical-signalbox-intermediate.dat" />
+    <None Include="signalboxes\mechanical-signalbox-large.dat" />
+    <None Include="signalboxes\mechanical-signalbox-small.dat" />
+    <None Include="signalboxes\mini-signalling-centre.dat" />
+    <None Include="signalboxes\policeman%27s-cottage.dat" />
+    <None Include="signalboxes\power-signalbox-deco.dat" />
+    <None Include="signalboxes\power-signalbox-large.dat" />
+    <None Include="signalboxes\power-signalgox-small.dat" />
+    <None Include="signalboxes\retb-cabin.dat" />
+    <None Include="signalboxes\seltrac-control-centre.dat" />
+    <None Include="signalboxes\signalling-centre.dat" />
+    <None Include="signalboxes\tvm-signalling-tower.dat" />
+    <None Include="signalboxes\underground-signal-cabin.dat" />
+    <None Include="signalboxes\westinghouse-early-signalbox-large.dat" />
+    <None Include="signalboxes\westinghouse-early-signalbox-small.dat" />
+    <None Include="signalboxes\westinghouse-lms-box.dat" />
     <None Include="stations\art-deco-underground-station.dat" />
     <None Include="stations\brick-platform-narrow.dat" />
     <None Include="stations\brick-platform.dat" />
@@ -678,6 +699,7 @@
     <None Include="trains\lswr-emu.dat" />
     <None Include="trains\lswr-ironclads.dat" />
     <None Include="trains\lswr-n15.dat" />
+    <None Include="trains\ltsr-1-class.dat" />
     <None Include="trains\mersey-emu.dat" />
     <None Include="trains\milk-van.dat" />
     <None Include="trains\mr-1.dat" />
@@ -1451,6 +1473,7 @@
     <None Include="trams\sheffield-supertram-rear.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\shiptools.txt" />
     <None Include="citybuildings\sidewalk.dat" />
+    <None Include="ways\tunnel-tracks.dat" />
     <None Include="ways\signals-narrow.dat" />
     <None Include="ways\signals.dat" />
     <None Include="config\simuconf.tab" />
@@ -1623,7 +1646,6 @@
     <None Include="ways\wssr_early.dat" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="trains\Header.h" />
     <ClInclude Include="trains\lms-7f.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

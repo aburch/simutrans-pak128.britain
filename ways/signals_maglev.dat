@@ -1,135 +1,241 @@
+---------------------------------------
+# TVM BOARDS
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=tvm-stop-board-maglev
+waytype=maglev_track
+is_signal=1
+cost=25000
+signal_upgrade_cost=25000
+maintenance=450
+aspects=2
+working_method=cab_signalling
+max_speed=320
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=7
+allow_underground=2
+upgrade_group=0
+signal_groups=5
+intro_year=2004
+intro_month=1
 
-# ATC, simplified style 2004
---------------------------------------
-# normal signal
-obj=roadsign
-copyright=AEO
-name=ATC_signal
-waytype=maglev_track
-cost=500
-is_signal=1
-allow_underground=2
-intro_year = 2004
-intro_month = 1
-# stop
-Image[0]=images/signals-maglev.0.1
-Image[1]=images/signals-maglev.0.0
-Image[2]=images/signals-maglev.0.2
-Image[3]=images/signals-maglev.0.3
-# go
-Image[4]=images/signals-maglev.3.1
-Image[5]=images/signals-maglev.3.0
-Image[6]=images/signals-maglev.3.2
-Image[7]=images/signals-maglev.3.3
-Icon=> images/signals-maglev.0.4
-Cursor=images/signals-maglev.0.5
+# DANGER
+Image[0]=images/tvm-block-marker.1.2,42,-2
+Image[1]=images/tvm-block-marker.1.0,-37,12
+Image[2]=images/tvm-block-marker.1.1,-7,-18
+Image[3]=images/tvm-block-marker.1.3,10,27
+# CLEAR
+Image[4]=images/tvm-block-marker.1.2,42,-2
+Image[5]=images/tvm-block-marker.1.0,-37,12
+Image[6]=images/tvm-block-marker.1.1,-7,-18
+Image[7]=images/tvm-block-marker.1.3,10,27
+Icon=> images/signal-icons-ex.6.0
+Cursor=images/signal-icons-ex.6.1
 ---------------------------------------
-# presignal
 obj=roadsign
-copyright=AEO
-Name=ATC_presignal
+copyright=JamesPetts
+name=tvm-shunt-entry-marker-maglev
 waytype=maglev_track
-cost=1000
-is_presignal=1
-allow_underground=2
-intro_year = 2004
-intro_month = 1
-# stop
-Image[0]=images/signals-maglev.1.1
-Image[1]=images/signals-maglev.1.0
-Image[2]=images/signals-maglev.1.2
-Image[3]=images/signals-maglev.1.3
-# go
-Image[4]=images/signals-maglev.3.1
-Image[5]=images/signals-maglev.3.0
-Image[6]=images/signals-maglev.3.2
-Image[7]=images/signals-maglev.3.3
-# wait
-Image[8]=images/signals-maglev.1.1
-Image[9]=images/signals-maglev.1.0
-Image[10]=images/signals-maglev.1.2
-Image[11]=images/signals-maglev.1.3
-Icon=> images/signals-maglev.1.4
-Cursor=images/signals-maglev.1.5
----------------------------------------
-# long block signal
-obj=roadsign
-copyright=AEO
-Name=ATC_Longblock
-waytype=maglev_track
-cost=2000
-is_signal=1
-is_longblocksignal=1
-allow_underground=2
-intro_year = 2004
-intro_month = 1
-# stop
-Image[0]=images/signals-maglev.2.1
-Image[1]=images/signals-maglev.2.0
-Image[2]=images/signals-maglev.2.2
-Image[3]=images/signals-maglev.2.3
-# go
-Image[4]=images/signals-maglev.3.1
-Image[5]=images/signals-maglev.3.0
-Image[6]=images/signals-maglev.3.2
-Image[7]=images/signals-maglev.3.3
-Icon=> images/signals-maglev.2.4
-Cursor=images/signals-maglev.2.5
----------------------------------------
-# choose signal
-obj=roadsign
-copyright=AEO
-Name=ATC_choosesignal
-waytype=maglev_track
-cost=4000
 is_signal=1
 free_route=1
+cost=26000
+signal_upgrade_cost=25000
+maintenance=475
+aspects=2
+working_method=cab_signalling
+max_speed=320
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=7
+allow_underground=0
+upgrade_group=0
+intro_year=2004
+intro_month=1
+
+# DANGER
+Image[0]=images/etcs-shunt-entry.1.2,42,-2
+Image[1]=images/etcs-shunt-entry.1.0,-37,12
+Image[2]=images/etcs-shunt-entry.1.1,-7,-18
+Image[3]=images/etcs-shunt-entry.1.3,10,27
+# CLEAR
+Image[4]=images/etcs-shunt-entry.1.2,42,-2
+Image[5]=images/etcs-shunt-entry.1.0,-37,12
+Image[6]=images/etcs-shunt-entry.1.1,-7,-18
+Image[7]=images/etcs-shunt-entry.1.3,10,27
+Icon=> images/signal-icons-ex.6.2
+Cursor=images/signal-icons-ex.6.3
+---------------------------------------
+# ETCS LEVEL 2 BOARDS
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=etcs-stop-board-maglev
+waytype=maglev_track
+is_signal=1
+cost=25000
+signal_upgrade_cost=25000
+maintenance=450
+aspects=2
+working_method=cab_signalling
+max_speed=350
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=8
 allow_underground=2
-intro_year = 2004
-intro_month = 1
-# stop
-Image[0]=images/signals-maglev.4.1
-Image[1]=images/signals-maglev.4.0
-Image[2]=images/signals-maglev.4.2
-Image[3]=images/signals-maglev.4.3
-# go
-Image[4]=images/signals-maglev.5.1
-Image[5]=images/signals-maglev.5.0
-Image[6]=images/signals-maglev.5.2
-Image[7]=images/signals-maglev.5.3
-Icon=> images/signals-maglev.4.4
-Cursor=images/signals-maglev.4.5
+upgrade_group=0
+intro_year=2010
+intro_month=2
+
+# DANGER
+Image[0]=images/etcs-block-marker.1.2,42,-2
+Image[1]=images/etcs-block-marker.1.0,-37,12
+Image[2]=images/etcs-block-marker.1.1,-7,-18
+Image[3]=images/etcs-block-marker.1.3,10,27
+# CLEAR
+Image[4]=images/etcs-block-marker.1.2,42,-2
+Image[5]=images/etcs-block-marker.1.0,-37,12
+Image[6]=images/etcs-block-marker.1.1,-7,-18
+Image[7]=images/etcs-block-marker.1.3,10,27
+Icon=> images/signal-icons-ex.6.4
+Cursor=images/signal-icons-ex.6.5
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=etcs-shunt-entry-marker-maglev
+waytype=maglev_track
+is_signal=1
+free_route=1
+cost=26000
+signal_upgrade_cost=25000
+maintenance=475
+aspects=2
+working_method=cab_signalling
+max_speed=350
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=8
+allow_underground=0
+upgrade_group=0
+intro_year=2010
+intro_month=2
+
+# DANGER
+Image[0]=images/etcs-shunt-entry.1.2,42,-2
+Image[1]=images/etcs-shunt-entry.1.0,-37,12
+Image[2]=images/etcs-shunt-entry.1.1,-7,-18
+Image[3]=images/etcs-shunt-entry.1.3,10,27
+# CLEAR
+Image[4]=images/etcs-shunt-entry.1.2,42,-2
+Image[5]=images/etcs-shunt-entry.1.0,-37,12
+Image[6]=images/etcs-shunt-entry.1.1,-7,-18
+Image[7]=images/etcs-shunt-entry.1.3,10,27
+Icon=> images/signal-icons-ex.6.2
+Cursor=images/signal-icons-ex.6.3
+---------------------------------------
+# ETCS LEVEL 3 BEACONS
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=etcs-beacon-maglev
+waytype=maglev_track
+is_signal=1
+cost=27500
+signal_upgrade_cost=27500
+maintenance=450
+aspects=1
+working_method=moving_block
+max_speed=500
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=9
+allow_underground=2
+upgrade_group=0
+intro_year=1991
+intro_month=12
+
+Image[0]=images/moving-block-beacon-yellow-single.1.2,42,-2
+Image[1]=images/moving-block-beacon-yellow-single.1.0,-37,12
+Image[2]=images/moving-block-beacon-yellow-single.1.1,-7,-18
+Image[3]=images/moving-block-beacon-yellow-single.1.3,10,27
+Icon=> images/signal-icons-ex.7.0
+Cursor=images/signal-icons-ex.7.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=etcs-beacon-choose-maglev
+waytype=maglev_track
+is_signal=1
+free_route=1
+cost=28000
+signal_upgrade_cost=28000
+maintenance=460
+aspects=1
+working_method=moving_block
+max_speed=500
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=9
+allow_underground=2
+upgrade_group=0
+intro_year=1991
+intro_month=12
+
+Image[0]=images/moving-block-beacon-yellow-double.1.2,42,-2
+Image[1]=images/moving-block-beacon-yellow-double.1.0,-37,12
+Image[2]=images/moving-block-beacon-yellow-double.1.1,-7,-18
+Image[3]=images/moving-block-beacon-yellow-double.1.3,10,27
+Icon=> images/signal-icons-ex.7.2
+Cursor=images/signal-icons-ex.7.3
+---------------------------------------
+# one-way sign
+obj=roadsign
+name=RailOneWay-maglev
+copyright=Vladki
+cost=500
+waytype=maglev_track
+single_way=1
+max_speed=1000
+intro_year=2004
+intro_month=1
+allow_underground=2
+
+Image[0]=images/modern-one-way-sign.1.2,42,-2
+Image[1]=images/modern-one-way-sign.1.0,-37,12
+Image[2]=images/modern-one-way-sign.1.1,-7,-18
+Image[3]=images/modern-one-way-sign.1.3,10,27
+Icon=> images/modern-one-way-sign-icon.1.1
+Cursor=images/modern-one-way-sign-icon.1.0
 ---------------------------------------
 # End of Choose Signal
 obj=roadsign
-copyright=AEO
-name=ATC_EndofChooseSignal
+copyright=James
+name=Modern_EndofChooseSignal-maglev
 waytype=maglev_track
-cost=250
+cost=800
+max_speed=1000
+upgrade_group=17
 end_of_choose=1
+intro_year=2004
+intro_month=1
 allow_underground=2
-intro_year = 2004
-intro_month = 1
-Image[0]=images/signals-maglev.6.1
-Image[1]=images/signals-maglev.6.0
-Image[2]=images/signals-maglev.6.2
-Image[3]=images/signals-maglev.6.3
-Icon=> images/signals-maglev.6.4
-Cursor=images/signals-maglev.6.5
----------------------------------------
-# oneway signal
-obj=roadsign
-copyright=AEO
-name=ATC_OneWay
-waytype=maglev_track
-cost=250
-single_way=1
-allow_underground=2
-intro_year = 2004
-intro_month = 1
-Image[0]=images/signals-maglev.7.0,52,-26
-Image[1]=images/signals-maglev.7.1,-52,26
-Image[2]=images/signals-maglev.7.3,-52,-26
-Image[3]=images/signals-maglev.7.2,52,26
-Icon=> images/signals-maglev.7.4
-Cursor=images/signals-maglev.7.5
+
+Image[0]=images/modern-end-of-choose-sign.1.2,42,-2
+Image[1]=images/modern-end-of-choose-sign.1.0,-37,12
+Image[2]=images/modern-end-of-choose-sign.1.1,-7,-18
+Image[3]=images/modern-end-of-choose-sign.1.3,10,27
+Icon=> images/modern-end-of-choose-sign-icon.1.1
+Cursor=images/modern-end-of-choose-sign-icon.1.0

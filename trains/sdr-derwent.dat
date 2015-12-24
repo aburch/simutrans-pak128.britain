@@ -3,8 +3,8 @@ name=SDR-Derwent
 engine_type=steam
 smoke=Steam
 speed=46
-# Approximately extrapolated
-power=25
+# Estimated
+power=70
 # Tractive effort value calculated from data from Ahrons (p. 48)
 # Loss factor set to 0.5, pressure was 75lb.
 tractive_effort=18

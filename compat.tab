@@ -699,6 +699,8 @@ SDR-1001(Green)
 SDR-1001
 BR-Class71(Green)
 BR-Class71
+LBSCR-L-Tank(Umber)
+LBSCR-L
 ################################# New track ##################################
 wrought_iron_track_light
 plateway
@@ -742,6 +744,18 @@ BR-303Front(CaledonianBlue)
 BR-303Front
 BR-303Pantograph(CaledonianBlue)
 BR-303Pantograph
+Garrett-K1-front
+Garratt-K1-front
+Garrett-K1-middle
+Garratt-K1-middle
+Garrett-K1-rear
+Garratt-K1-rear
+Garrett-NGG16-front
+Garratt-NGG16-front
+Garrett-NGG16-middle
+Garratt-NGG16-middle
+Garrett-NGG16-rear
+Garratt-NGG16-rear
 #
 ############# Variant names for electrification in old Experimental ##############
 DCRailCatenaryCombined
@@ -982,7 +996,7 @@ uq-semaphore-stop
 preSignals
 uq-semaphore-distant
 LongSignals
-uq-semaphore-longblock
+uq-semaphore-token
 ChooseSignals
 uq-semaphore-junction
 Classic_Signals_right
@@ -990,7 +1004,7 @@ lq-semaphore-stop
 Classic_preSignals_right
 lq-semaphore-distant
 Classic_LongSignals_right
-lq-semaphore-longblock
+lq-semaphore-token
 Classic_ChooseSignals_right
 lq-semaphore-junction
 Classic_Signals_right_narrow
@@ -998,7 +1012,7 @@ lq-semaphore-stop-narrow
 Classic_preSignals_right_narrow
 lq-semaphore-distant-narrow
 Classic_LongSignals_right_narrow
-lq-semaphore-longblock-narrow
+lq-semaphore-token-narrow
 Classic_ChooseSignals_right_narrow
 lq-semaphore-junction-narrow
 Underground_ChooseSignals_right
@@ -1008,7 +1022,7 @@ underground-two-aspect-colour-light-distant
 Underground_Signals_right
 underground-two-aspect-colour-light-stop
 Modern_LongSignals_right
-three-aspect-colour-light-longblock
+two-aspect-colour-light-token
 Early_Signals_right
 flag-signal-stop
 Early_preSignals_right
@@ -1017,6 +1031,36 @@ Early_LongSignals_right
 flag-signal-stop
 Early_ChooseSignals_right
 flag-signal-junction
+ATC_signal
+tvm-stop-board
+ATC_presignal
+tvm-stop-board
+ATC_Longblock
+tvm-stop-board
+ATC_choosesignal
+tvm-shunt-entry-marker
+ATC_EndofChooseSignal
+Modern_EndofChooseSignal-maglev
+ATC_OneWay
+RailOneWay-maglev
+uq-semaphore-longblock
+uq-semaphore-token
+lq-semaphore-longblock
+lq-semaphore-token
+lq-semaphore-longblock-red
+lq-semaphore-token
+lq-semaphore-longblock-red-white
+lq-semaphore-token-white
+three-aspect-colour-light-longblock
+two-aspect-colour-light-token
+long-block-colour-light-narrow
+two-aspect-colour-light-token-narrow
+lq-semaphore-longblock-narrow
+lq-semaphore-token-narrow
+lq-semaphore-longblock-red-narrow
+lq-semaphore-token-narrow
+lq-semaphore-longblock-red-white-narrow
+lq-semaphore-token-white
 #
 
 

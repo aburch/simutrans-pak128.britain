@@ -5,14 +5,14 @@ power=0
 copyright=Kieron
 intro_year=1898
 intro_month=2
-retire_year=1908
-retire_month=1
+retire_year=1924
+retire_month=4
 waytype=track
 freight=None
 payload=0
 length=4
 
-weight=43
+weight=43.8
 axles=3
 cost=0
 runningcost=0
@@ -22,6 +22,7 @@ years_before_maintenance_max_reached=25
 
 Constraint[Prev][0]=GNR-C1
 Constraint[Prev][1]=GNR-Klondyke
+Constraint[Prev][2]=GNR-C1-superheated
 
 EmptyImage[E]=./images/gnr-c1-tender.1.4
 EmptyImage[SE]=./images/gnr-c1-tender.1.5

@@ -3,7 +3,7 @@ name=MR-1
 engine_type=steam
 smoke=Steam
 speed=110
-# Approximately extrapolated, given no heating surface data
+# Approximately extrapolated, given no heating surface data (old system)
 power=156
 # Calculated from data from Ahrons, p. 113
 # Loss factor set at 0.7, assumed 120lbs boiler pressure. 
@@ -16,7 +16,7 @@ retire_month=2
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 brake_force=0
 rolling_resistance=19
 

@@ -1,6 +1,6 @@
-#--------------------------------------
-# RAIL SIGNALS FOR SIMUTRANS
-#--------------------------------------
+#-------------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS-EXPERIMENTAL
+#-------------------------------------------
 #
 # author: Fabio Gonella (Fagonella)
 # date:   01-Aug-06
@@ -17,115 +17,363 @@
 #
 # See usefully here: http://www.modelrailforum.com/forums/index.php?showtopic=3052
 #
+# Upgrade groups:
+# 1: Two aspect stop, track circuit block
+# 2: Two aspect distant, track circuit block
+# 3: Three aspect plain
+# 4: Four aspect plain
+# 5: Two aspect junction, track circuit block
+# 6: Three aspect junction
+# 7: Four aspect junction
+# 8: Stop signal, absolute block
+# 9: Distant signal, absolute block
+# 10: Junction signal, absolute block
+# 11: Token block signal
+# 12: Combined signal, absolute block
+# 13: Permissive signal, absolute block
+# 14: Stop signal, time interval
+# 15: Junction signal, time interval
+# 16: Two aspect permissive signal, track circuit block
+# 17: Minimum speed sign, 60km/h
+# 18: Minimum speed sign, 100km/h
+# 19: Minimum speed sign, 121km/h
+# 20: Intermediate block stop signal
+# 21: Intermediate block distant signal
 ---------------------------------------
-# TEST THREE ASPECT
+# RETB BOARD
 #--------------------------------------
-# Three aspect signal left side
-# 1920s style
-# (Testing signal. These are the 3 aspect graphics)
 obj=roadsign
 copyright=JamesPetts
-name=test_signal
+name=retb-board
 waytype=track
-cost=1600
 is_signal=1
-intro_year=1920
-intro_month=4
-retire_year-1962
-retire_month=8
-# RED
-Image[0]=images/signal-3-aspect-danger.1.2,42,-2
-Image[1]=images/signal-3-aspect-danger.1.0,-37,12
-Image[2]=images/signal-3-aspect-danger.1.1,-7,-18
-Image[3]=images/signal-3-aspect-danger.1.3,10,27
-# GREEN
-Image[4]=images/signal-3-aspect-clear.1.2,42,-2
-Image[5]=images/signal-3-aspect-clear.1.0,-37,12
-Image[6]=images/signal-3-aspect-clear.1.1,-7,-18
-Image[7]=images/signal-3-aspect-clear.1.3,10,27
-# YELLOW
-Image[8]=images/signal-3-aspect-caution.1.2,42,-2
-Image[9]=images/signal-3-aspect-caution.1.0,-37,12
-Image[10]=images/signal-3-aspect-caution.1.1,-7,-18
-Image[11]=images/signal-3-aspect-caution.1.3,10,27
-Icon=> images/signal-icons.1.0
-Cursor=images/signal-icons.1.1
---------------------------------------
-# Three aspect signal left side
-# 1960s style
-# (Testing signal. These are the 3 aspect graphics)
+is_longblocksignal=1
+cost=1000
+signal_upgrade_cost=1000
+maintenance=20
+aspects=2
+working_method=token_block
+max_speed=135
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=6
+allow_underground=0
+upgrade_group=0
+intro_year=1984
+intro_month=10
+retire_year=2010
+retire_month=9
+
+# DANGER
+Image[0]=images/retb-stop-board.1.2,42,-2
+Image[1]=images/retb-stop-board.1.0,-37,12
+Image[2]=images/retb-stop-board.1.1,-7,-18
+Image[3]=images/retb-stop-board.1.3,10,27
+# CLEAR
+Image[4]=images/retb-stop-board.1.2,42,-2
+Image[5]=images/retb-stop-board.1.0,-37,12
+Image[6]=images/retb-stop-board.1.1,-7,-18
+Image[7]=images/retb-stop-board.1.3,10,27
+Icon=> images/signal-icons-ex.5.8
+Cursor=images/signal-icons-ex.5.9
+---------------------------------------
+# SELTRAC BEACONS
+#--------------------------------------
 obj=roadsign
 copyright=JamesPetts
-name=test_signal_square
+name=seltrac-beacon
 waytype=track
-cost=1600
 is_signal=1
-intro_year=1962
-intro_month=8
-# RED
-Image[0]=images/signal-3-aspect-square-danger.1.2,42,-2
-Image[1]=images/signal-3-aspect-square-danger.1.0,-37,12
-Image[2]=images/signal-3-aspect-square-danger.1.1,-7,-18
-Image[3]=images/signal-3-aspect-square-danger.1.3,10,27
-# GREEN
-Image[4]=images/signal-3-aspect-square-clear.1.2,42,-2
-Image[5]=images/signal-3-aspect-square-clear.1.0,-37,12
-Image[6]=images/signal-3-aspect-square-clear.1.1,-7,-18
-Image[7]=images/signal-3-aspect-square-clear.1.3,10,27
-# YELLOW
-Image[8]=images/signal-3-aspect-square-caution.1.2,42,-2
-Image[9]=images/signal-3-aspect-square-caution.1.0,-37,12
-Image[10]=images/signal-3-aspect-square-caution.1.1,-7,-18
-Image[11]=images/signal-3-aspect-square-caution.1.3,10,27
-Icon=> images/signal-icons.4.0
-Cursor=images/signal-icons.4.1
---------------------------------------
-# Three aspect signal left side
-# 2010s style
-# (Testing signal. These are the 3 aspect graphics)
+cost=21000
+signal_upgrade_cost=21000
+maintenance=200
+aspects=1
+working_method=moving_block
+max_speed=80
+has_selective_choose=0
+has_call_on=0
+# Actually maximum distance between beacons in moving block
+max_distance_to_signalbox=500
+permissive=0
+signal_groups=10
+allow_underground=2
+upgrade_group=0
+intro_year=1991
+intro_month=12
+
+Image[0]=images/moving-block-beacon-white-single.1.2,42,-2
+Image[1]=images/moving-block-beacon-white-single.1.0,-37,12
+Image[2]=images/moving-block-beacon-white-single.1.1,-7,-18
+Image[3]=images/moving-block-beacon-white-single.1.3,10,27
+Icon=> images/signal-icons-ex.6.6
+Cursor=images/signal-icons-ex.6.7
+---------------------------------------
 obj=roadsign
 copyright=JamesPetts
-name=test_signal_square_led
+name=seltrac-beacon-choose
 waytype=track
-cost=1600
 is_signal=1
-intro_year=2009
-intro_month=6
-# RED
-Image[0]=images/signal-1-aspect-led-square-danger.1.2,42,-2
-Image[1]=images/signal-1-aspect-led-square-danger.1.0,-37,12
-Image[2]=images/signal-1-aspect-led-square-danger.1.1,-7,-18
-Image[3]=images/signal-1-aspect-led-square-danger.1.3,10,27
-# GREEN
-Image[4]=images/signal-1-aspect-led-square-clear.1.2,42,-2
-Image[5]=images/signal-1-aspect-led-square-clear.1.0,-37,12
-Image[6]=images/signal-1-aspect-led-square-clear.1.1,-7,-18
-Image[7]=images/signal-1-aspect-led-square-clear.1.3,10,27
-# YELLOW
-Image[8]=images/signal-1-aspect-led-square-caution.1.2,42,-2
-Image[9]=images/signal-1-aspect-led-square-caution.1.0,-37,12
-Image[10]=images/signal-1-aspect-led-square-caution.1.1,-7,-18
-Image[11]=images/signal-1-aspect-led-square-caution.1.3,10,27
-Icon=> images/signal-icons.6.0
-Cursor=images/signal-icons.6.1
+free_route=1
+cost=21500
+signal_upgrade_cost=21500
+maintenance=215
+aspects=1
+working_method=moving_block
+max_speed=80
+has_selective_choose=0
+has_call_on=0
+# Actually maximum distance between beacons in moving block
+max_distance_to_signalbox=500
+permissive=0
+signal_groups=10
+allow_underground=2
+upgrade_group=0
+intro_year=1991
+intro_month=12
+
+Image[0]=images/moving-block-beacon-white-double.1.2,42,-2
+Image[1]=images/moving-block-beacon-white-double.1.0,-37,12
+Image[2]=images/moving-block-beacon-white-double.1.1,-7,-18
+Image[3]=images/moving-block-beacon-white-double.1.3,10,27
+Icon=> images/signal-icons-ex.6.8
+Cursor=images/signal-icons-ex.6.9
+---------------------------------------
+# TVM BOARDS
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=tvm-stop-board
+waytype=track
+is_signal=1
+cost=25000
+signal_upgrade_cost=25000
+maintenance=450
+aspects=2
+working_method=cab_signalling
+max_speed=320
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=7
+allow_underground=2
+upgrade_group=0
+signal_groups=5
+intro_year=1981
+intro_month=9
+
+# DANGER
+Image[0]=images/tvm-block-marker.1.2,42,-2
+Image[1]=images/tvm-block-marker.1.0,-37,12
+Image[2]=images/tvm-block-marker.1.1,-7,-18
+Image[3]=images/tvm-block-marker.1.3,10,27
+# CLEAR
+Image[4]=images/tvm-block-marker.1.2,42,-2
+Image[5]=images/tvm-block-marker.1.0,-37,12
+Image[6]=images/tvm-block-marker.1.1,-7,-18
+Image[7]=images/tvm-block-marker.1.3,10,27
+Icon=> images/signal-icons-ex.6.0
+Cursor=images/signal-icons-ex.6.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=tvm-shunt-entry-marker
+waytype=track
+is_signal=1
+free_route=1
+cost=26000
+signal_upgrade_cost=25000
+maintenance=475
+aspects=2
+working_method=cab_signalling
+max_speed=320
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=7
+allow_underground=0
+upgrade_group=0
+intro_year=1981
+intro_month=9
+
+# DANGER
+Image[0]=images/etcs-shunt-entry.1.2,42,-2
+Image[1]=images/etcs-shunt-entry.1.0,-37,12
+Image[2]=images/etcs-shunt-entry.1.1,-7,-18
+Image[3]=images/etcs-shunt-entry.1.3,10,27
+# CLEAR
+Image[4]=images/etcs-shunt-entry.1.2,42,-2
+Image[5]=images/etcs-shunt-entry.1.0,-37,12
+Image[6]=images/etcs-shunt-entry.1.1,-7,-18
+Image[7]=images/etcs-shunt-entry.1.3,10,27
+Icon=> images/signal-icons-ex.6.2
+Cursor=images/signal-icons-ex.6.3
+---------------------------------------
+# ETCS LEVEL 2 BOARDS
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=etcs-stop-board
+waytype=track
+is_signal=1
+cost=25000
+signal_upgrade_cost=25000
+maintenance=450
+aspects=2
+working_method=cab_signalling
+max_speed=350
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=8
+allow_underground=2
+upgrade_group=0
+intro_year=2010
+intro_month=2
+
+# DANGER
+Image[0]=images/etcs-block-marker.1.2,42,-2
+Image[1]=images/etcs-block-marker.1.0,-37,12
+Image[2]=images/etcs-block-marker.1.1,-7,-18
+Image[3]=images/etcs-block-marker.1.3,10,27
+# CLEAR
+Image[4]=images/etcs-block-marker.1.2,42,-2
+Image[5]=images/etcs-block-marker.1.0,-37,12
+Image[6]=images/etcs-block-marker.1.1,-7,-18
+Image[7]=images/etcs-block-marker.1.3,10,27
+Icon=> images/signal-icons-ex.6.4
+Cursor=images/signal-icons-ex.6.5
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=etcs-shunt-entry-marker
+waytype=track
+is_signal=1
+free_route=1
+cost=26000
+signal_upgrade_cost=25000
+maintenance=475
+aspects=2
+working_method=cab_signalling
+max_speed=350
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=8
+allow_underground=0
+upgrade_group=0
+intro_year=2010
+intro_month=2
+
+# DANGER
+Image[0]=images/etcs-shunt-entry.1.2,42,-2
+Image[1]=images/etcs-shunt-entry.1.0,-37,12
+Image[2]=images/etcs-shunt-entry.1.1,-7,-18
+Image[3]=images/etcs-shunt-entry.1.3,10,27
+# CLEAR
+Image[4]=images/etcs-shunt-entry.1.2,42,-2
+Image[5]=images/etcs-shunt-entry.1.0,-37,12
+Image[6]=images/etcs-shunt-entry.1.1,-7,-18
+Image[7]=images/etcs-shunt-entry.1.3,10,27
+Icon=> images/signal-icons-ex.6.2
+Cursor=images/signal-icons-ex.6.3
+---------------------------------------
+# ETCS LEVEL 3 BEACONS
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=etcs-beacon
+waytype=track
+is_signal=1
+cost=27500
+signal_upgrade_cost=27500
+maintenance=450
+aspects=1
+working_method=moving_block
+max_speed=500
+has_selective_choose=0
+has_call_on=0
+# Actually maximum distance between beacons in moving block
+max_distance_to_signalbox=2000
+permissive=0
+signal_groups=9
+allow_underground=2
+upgrade_group=0
+intro_year=1991
+intro_month=12
+
+Image[0]=images/moving-block-beacon-yellow-single.1.2,42,-2
+Image[1]=images/moving-block-beacon-yellow-single.1.0,-37,12
+Image[2]=images/moving-block-beacon-yellow-single.1.1,-7,-18
+Image[3]=images/moving-block-beacon-yellow-single.1.3,10,27
+Icon=> images/signal-icons-ex.7.0
+Cursor=images/signal-icons-ex.7.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=etcs-beacon-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=28000
+signal_upgrade_cost=28000
+maintenance=460
+aspects=1
+working_method=moving_block
+max_speed=500
+has_selective_choose=0
+has_call_on=0
+# Actually maximum distance between beacons in moving block
+max_distance_to_signalbox=2000
+permissive=0
+signal_groups=9
+allow_underground=2
+upgrade_group=0
+intro_year=1991
+intro_month=12
+
+Image[0]=images/moving-block-beacon-yellow-double.1.2,42,-2
+Image[1]=images/moving-block-beacon-yellow-double.1.0,-37,12
+Image[2]=images/moving-block-beacon-yellow-double.1.1,-7,-18
+Image[3]=images/moving-block-beacon-yellow-double.1.3,10,27
+Icon=> images/signal-icons-ex.7.2
+Cursor=images/signal-icons-ex.7.3
 ---------------------------------------
 # COLOUR LIGHT LEDs
 #--------------------------------------
-# Stop signal left side
 obj=roadsign
 copyright=JamesPetts
 name=two-aspect-colour-light-led-square-stop
 waytype=track
-cost=1600
 is_signal=1
+cost=16000
+signal_upgrade_cost=8000
+maintenance=500
+aspects=2
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=1
+signal_groups=5
 intro_year=2009
 intro_month=6
-# RED
+
+# DANGER
 Image[0]=images/signal-1-aspect-led-square-danger.1.2,42,-2
 Image[1]=images/signal-1-aspect-led-square-danger.1.0,-37,12
 Image[2]=images/signal-1-aspect-led-square-danger.1.1,-7,-18
 Image[3]=images/signal-1-aspect-led-square-danger.1.3,10,27
-# GREEN
+# CLEAR
 Image[4]=images/signal-1-aspect-led-square-clear.1.2,42,-2
 Image[5]=images/signal-1-aspect-led-square-clear.1.0,-37,12
 Image[6]=images/signal-1-aspect-led-square-clear.1.1,-7,-18
@@ -138,94 +386,306 @@ obj=roadsign
 copyright=JamesPetts
 Name=two-aspect-colour-light-led-square-distant
 waytype=track
-cost=3200
 is_presignal=1
+cost=16000
+signal_upgrade_cost=8000
+maintenance=500
+aspects=2
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=2
+signal_groups=5
 intro_year=2009
 intro_month=6
-# RED (unused)
-Image[0]=images/signal-1-aspect-led-square-danger.1.2,42,-2
-Image[1]=images/signal-1-aspect-led-square-danger.1.0,-37,12
-Image[2]=images/signal-1-aspect-led-square-danger.1.1,-7,-18
-Image[3]=images/signal-1-aspect-led-square-danger.1.3,10,27
-# GREEN
+
+# CAUTION
+Image[0]=images/signal-1-aspect-led-square-caution.1.2,42,-2
+Image[1]=images/signal-1-aspect-led-square-caution.1.0,-37,12
+Image[2]=images/signal-1-aspect-led-square-caution.1.1,-7,-18
+Image[3]=images/signal-1-aspect-led-square-caution.1.3,10,27
+# CLEAR
 Image[4]=images/signal-1-aspect-led-square-clear.1.2,42,-2
 Image[5]=images/signal-1-aspect-led-square-clear.1.0,-37,12
 Image[6]=images/signal-1-aspect-led-square-clear.1.1,-7,-18
 Image[7]=images/signal-1-aspect-led-square-clear.1.3,10,27
-# YELLOW
+Icon=> images/signal-icons.6.4
+Cursor=images/signal-icons.6.5
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=three-aspect-colour-light-led-square-stop
+waytype=track
+is_signal=1
+cost=20000
+signal_upgrade_cost=10000
+maintenance=550
+aspects=3
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=3
+signal_groups=5
+intro_year=2009
+intro_month=6
+
+# DANGER
+Image[0]=images/signal-1-aspect-led-square-danger.1.2,42,-2
+Image[1]=images/signal-1-aspect-led-square-danger.1.0,-37,12
+Image[2]=images/signal-1-aspect-led-square-danger.1.1,-7,-18
+Image[3]=images/signal-1-aspect-led-square-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-1-aspect-led-square-clear.1.2,42,-2
+Image[5]=images/signal-1-aspect-led-square-clear.1.0,-37,12
+Image[6]=images/signal-1-aspect-led-square-clear.1.1,-7,-18
+Image[7]=images/signal-1-aspect-led-square-clear.1.3,10,27
+# CAUTION
 Image[8]=images/signal-1-aspect-led-square-caution.1.2,42,-2
 Image[9]=images/signal-1-aspect-led-square-caution.1.0,-37,12
 Image[10]=images/signal-1-aspect-led-square-caution.1.1,-7,-18
 Image[11]=images/signal-1-aspect-led-square-caution.1.3,10,27
-Icon=> images/signal-icons.6.4
-Cursor=images/signal-icons.6.5
+Icon=> images/signal-icons.6.2
+Cursor=images/signal-icons.6.3
 ---------------------------------------
-# Long block signal left side
 obj=roadsign
 copyright=JamesPetts
-# TODO: Change the name and graphics of this more accurately to represent token block signalling.
-Name=longblock-colour-light-led-square
+name=four-aspect-colour-light-led-square-stop
 waytype=track
-cost=6400
 is_signal=1
-is_longblocksignal=1
+cost=22000
+signal_upgrade_cost=11000
+maintenance=600
+aspects=4
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=4
+signal_groups=5
 intro_year=2009
 intro_month=6
-# RED
-Image[0]=images/signal-2-aspect-led-square-longblock.1.2,42,-2
-Image[1]=images/signal-2-aspect-led-square-longblock.1.0,-37,12
-Image[2]=images/signal-2-aspect-led-square-longblock.1.1,-7,-18
-Image[3]=images/signal-2-aspect-led-square-longblock.1.3,10,27
-# GREEN
+
+# DANGER
+Image[0]=images/signal-2-aspect-led-square-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-led-square-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-led-square-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-led-square-danger.1.3,10,27
+# CLEAR
 Image[4]=images/signal-2-aspect-led-square-clear.1.2,42,-2
 Image[5]=images/signal-2-aspect-led-square-clear.1.0,-37,12
 Image[6]=images/signal-2-aspect-led-square-clear.1.1,-7,-18
 Image[7]=images/signal-2-aspect-led-square-clear.1.3,10,27
-Icon=> images/signal-icons.6.6
-Cursor=images/signal-icons.6.7
+# CAUTION
+Image[8]=images/signal-2-aspect-led-square-caution.1.2,42,-2
+Image[9]=images/signal-2-aspect-led-square-caution.1.0,-37,12
+Image[10]=images/signal-2-aspect-led-square-caution.1.1,-7,-18
+Image[11]=images/signal-2-aspect-led-square-caution.1.3,10,27
+# PRELIMINARY CAUTION
+Image[12]=images/signal-2-aspect-led-square-preliminary-caution.1.2,42,-2
+Image[13]=images/signal-2-aspect-led-square-preliminary-caution.1.0,-37,12
+Image[14]=images/signal-2-aspect-led-square-preliminary-caution.1.1,-7,-18
+Image[15]=images/signal-2-aspect-led-square-preliminary-caution.1.3,10,27
+Icon=> images/signal-icons.6.0
+Cursor=images/signal-icons.6.1
 ---------------------------------------
-# Route indicator (choose) signal left side
 obj=roadsign
 copyright=JamesPetts
 Name=two-aspect-colour-light-led-square-choose
 waytype=track
-cost=12800
 is_signal=1
 free_route=1
+cost=12800
+signal_upgrade_cost=6400
+maintenance=600
+aspects=2
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=5
+signal_groups=5
 intro_year=2009
 intro_month=6
-# RED
+
+# DANGER
 Image[0]=images/signal-1-aspect-led-square-route-indicator-danger.1.2,42,-2
 Image[1]=images/signal-1-aspect-led-square-route-indicator-danger.1.0,-37,12
 Image[2]=images/signal-1-aspect-led-square-route-indicator-danger.1.1,-7,-18
 Image[3]=images/signal-1-aspect-led-square-route-indicator-danger.1.3,10,27
-# GREEN
+# CLEAR (subsidiary route)
 Image[4]=images/signal-1-aspect-led-square-route-indicator-clear.1.2,42,-2
 Image[5]=images/signal-1-aspect-led-square-route-indicator-clear.1.0,-37,12
 Image[6]=images/signal-1-aspect-led-square-route-indicator-clear.1.1,-7,-18
 Image[7]=images/signal-1-aspect-led-square-route-indicator-clear.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/signal-1-aspect-led-square-route-indicator-clear-main.1.2,42,-2
+Image[9]=images/signal-1-aspect-led-square-route-indicator-clear-main.1.0,-37,12
+Image[10]=images/signal-1-aspect-led-square-route-indicator-clear-main.1.1,-7,-18
+Image[11]=images/signal-1-aspect-led-square-route-indicator-clear-main.1.3,10,27
+Icon=> images/signal-icons.6.8
+Cursor=images/signal-icons.6.9
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=three-aspect-colour-light-led-square-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=24500
+signal_upgrade_cost=12250
+maintenance=615
+aspects=3
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=6
+signal_groups=5
+intro_year=2009
+intro_month=6
+
+# DANGER
+Image[0]=images/signal-1-aspect-led-square-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-1-aspect-led-square-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-1-aspect-led-square-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-1-aspect-led-square-route-indicator-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/signal-1-aspect-led-square-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-1-aspect-led-square-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-1-aspect-led-square-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-1-aspect-led-square-route-indicator-clear.1.3,10,27
+# CAUTION (subsidiary route)
+Image[8]=images/signal-1-aspect-led-square-route-indicator-caution.1.2,42,-2
+Image[9]=images/signal-1-aspect-led-square-route-indicator-caution.1.0,-37,12
+Image[10]=images/signal-1-aspect-led-square-route-indicator-caution.1.1,-7,-18
+Image[11]=images/signal-1-aspect-led-square-route-indicator-caution.1.3,10,27
+# CLEAR (main route)
+Image[12]=images/signal-1-aspect-led-square-route-indicator-clear-main.1.2,42,-2
+Image[13]=images/signal-1-aspect-led-square-route-indicator-clear-main.1.0,-37,12
+Image[14]=images/signal-1-aspect-led-square-route-indicator-clear-main.1.1,-7,-18
+Image[15]=images/signal-1-aspect-led-square-route-indicator-clear-main.1.3,10,27
+# CAUTION (main route)
+Image[16]=images/signal-1-aspect-led-square-route-indicator-caution-main.1.2,42,-2
+Image[17]=images/signal-1-aspect-led-square-route-indicator-caution-main.1.0,-37,12
+Image[18]=images/signal-1-aspect-led-square-route-indicator-caution-main.1.1,-7,-18
+Image[19]=images/signal-1-aspect-led-square-route-indicator-caution-main.1.3,10,27
+Icon=> images/signal-icons.6.8
+Cursor=images/signal-icons.6.9
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=four-aspect-colour-light-led-square-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=26700
+signal_upgrade_cost=13350
+maintenance=685
+aspects=4
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=7
+signal_groups=5
+intro_year=2009
+intro_month=6
+
+# DANGER
+Image[0]=images/signal-2-aspect-led-square-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-led-square-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-led-square-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-led-square-route-indicator-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/signal-2-aspect-led-square-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-led-square-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-led-square-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-led-square-route-indicator-clear.1.3,10,27
+# CAUTION (subsidiary route)
+Image[8]=images/signal-2-aspect-led-square-route-indicator-caution.1.2,42,-2
+Image[9]=images/signal-2-aspect-led-square-route-indicator-caution.1.0,-37,12
+Image[10]=images/signal-2-aspect-led-square-route-indicator-caution.1.1,-7,-18
+Image[11]=images/signal-2-aspect-led-square-route-indicator-caution.1.3,10,27
+# PRELIMINARY CAUTION (subsidiary route)
+Image[12]=images/signal-2-aspect-led-square-route-indicator-preliminary-caution.1.2,42,-2
+Image[13]=images/signal-2-aspect-led-square-route-indicator-preliminary-caution.1.0,-37,12
+Image[14]=images/signal-2-aspect-led-square-route-indicator-preliminary-caution.1.1,-7,-18
+Image[15]=images/signal-2-aspect-led-square-route-indicator-preliminary-caution.1.3,10,27
+# CLEAR (main route)
+Image[16]=images/signal-2-aspect-led-square-route-indicator-clear-main.1.2,42,-2
+Image[17]=images/signal-2-aspect-led-square-route-indicator-clear-main.1.0,-37,12
+Image[18]=images/signal-2-aspect-led-square-route-indicator-clear-main.1.1,-7,-18
+Image[19]=images/signal-2-aspect-led-square-route-indicator-clear-main.1.3,10,27
+# CAUTION (main route)
+Image[20]=images/signal-2-aspect-led-square-route-indicator-caution-main.1.2,42,-2
+Image[21]=images/signal-2-aspect-led-square-route-indicator-caution-main.1.0,-37,12
+Image[22]=images/signal-2-aspect-led-square-route-indicator-caution-main.1.1,-7,-18
+Image[23]=images/signal-2-aspect-led-square-route-indicator-caution-main.1.3,10,27
+# PRELIMINARY CAUTION (main route)
+Image[24]=images/signal-2-aspect-led-square-route-indicator-preliminary-caution-main.1.2,42,-2
+Image[25]=images/signal-2-aspect-led-square-route-indicator-preliminary-caution-main.1.0,-37,12
+Image[26]=images/signal-2-aspect-led-square-route-indicator-preliminary-caution-main.1.1,-7,-18
+Image[27]=images/signal-2-aspect-led-square-route-indicator-preliminary-caution-main.1.3,10,27
 Icon=> images/signal-icons.6.8
 Cursor=images/signal-icons.6.9
 ---------------------------------------
 # COLOUR LIGHT 1960s
 #--------------------------------------
-# Stop signal left side
 obj=roadsign
 copyright=JamesPetts
 name=two-aspect-colour-light-square-stop
 waytype=track
-cost=1600
+cost=1400
+signal_upgrade_cost=7000
+maintenance=750
+aspects=2
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=1
 is_signal=1
-intro_year=1962
-intro_month=8
+intro_year=1959
+intro_month=9
 retire_year=2009
 retire_month=6
-# RED
+
+# DANGER
 Image[0]=images/signal-2-aspect-square-danger.1.2,42,-2
 Image[1]=images/signal-2-aspect-square-danger.1.0,-37,12
 Image[2]=images/signal-2-aspect-square-danger.1.1,-7,-18
 Image[3]=images/signal-2-aspect-square-danger.1.3,10,27
-# GREEN
+# CLEAR
 Image[4]=images/signal-2-aspect-square-clear.1.2,42,-2
 Image[5]=images/signal-2-aspect-square-clear.1.0,-37,12
 Image[6]=images/signal-2-aspect-square-clear.1.1,-7,-18
@@ -233,105 +693,498 @@ Image[7]=images/signal-2-aspect-square-clear.1.3,10,27
 Icon=> images/signal-icons.4.2
 Cursor=images/signal-icons.4.3
 ---------------------------------------
-# Distant signal left side
 obj=roadsign
 copyright=JamesPetts
 Name=two-aspect-colour-light-square-distant
 waytype=track
-cost=3200
 is_presignal=1
-intro_year=1962
-intro_month=8
+cost=14000
+signal_upgrade_cost=7000
+maintenance=750
+aspects=2
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+allow_underground=0
+upgrade_group=2
+signal_groups=5
+intro_year=1959
+intro_month=9
 retire_year=2009
 retire_month=6
-# RED (unused)
-Image[0]=images/signal-2-aspect-square-danger.1.2,42,-2
-Image[1]=images/signal-2-aspect-square-danger.1.0,-37,12
-Image[2]=images/signal-2-aspect-square-danger.1.1,-7,-18
-Image[3]=images/signal-2-aspect-square-danger.1.3,10,27
-# GREEN
+
+# CAUTION
+Image[0]=images/signal-2-aspect-square-caution.1.2,42,-2
+Image[1]=images/signal-2-aspect-square-caution.1.0,-37,12
+Image[2]=images/signal-2-aspect-square-caution.1.1,-7,-18
+Image[3]=images/signal-2-aspect-square-caution.1.3,10,27
+# CLEAR
 Image[4]=images/signal-2-aspect-square-clear.1.2,42,-2
 Image[5]=images/signal-2-aspect-square-clear.1.0,-37,12
 Image[6]=images/signal-2-aspect-square-clear.1.1,-7,-18
 Image[7]=images/signal-2-aspect-square-clear.1.3,10,27
-# YELLOW
-Image[8]=images/signal-2-aspect-square-caution.1.2,42,-2
-Image[9]=images/signal-2-aspect-square-caution.1.0,-37,12
-Image[10]=images/signal-2-aspect-square-caution.1.1,-7,-18
-Image[11]=images/signal-2-aspect-square-caution.1.3,10,27
 Icon=> images/signal-icons.4.4
 Cursor=images/signal-icons.4.5
 ---------------------------------------
-# Long block signal left side
 obj=roadsign
 copyright=JamesPetts
-# TODO: Change the name and graphics of this more accurately to represent token block signalling.
-Name=longblock-colour-light-square
+name=three-aspect-colour-light-square-stop
 waytype=track
-cost=6400
 is_signal=1
-is_longblocksignal=1
-intro_year=1962
-intro_month=8
+cost=18000
+signal_upgrade_cost=9000
+maintenance=850
+aspects=3
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+allow_underground=0
+upgrade_group=3
+signal_groups=5
+intro_year=1959
+intro_month=9
 retire_year=2009
 retire_month=6
-# RED
-Image[0]=images/signal-3-aspect-square-longblock.1.2,42,-2
-Image[1]=images/signal-3-aspect-square-longblock.1.0,-37,12
-Image[2]=images/signal-3-aspect-square-longblock.1.1,-7,-18
-Image[3]=images/signal-3-aspect-square-longblock.1.3,10,27
-# GREEN
+
+# DANGER
+Image[0]=images/signal-3-aspect-square-danger.1.2,42,-2
+Image[1]=images/signal-3-aspect-square-danger.1.0,-37,12
+Image[2]=images/signal-3-aspect-square-danger.1.1,-7,-18
+Image[3]=images/signal-3-aspect-square-danger.1.3,10,27
+# CLEAR
 Image[4]=images/signal-3-aspect-square-clear.1.2,42,-2
 Image[5]=images/signal-3-aspect-square-clear.1.0,-37,12
 Image[6]=images/signal-3-aspect-square-clear.1.1,-7,-18
 Image[7]=images/signal-3-aspect-square-clear.1.3,10,27
-Icon=> images/signal-icons.4.6
-Cursor=images/signal-icons.4.7
+# CAUTION
+Image[8]=images/signal-3-aspect-square-caution.1.2,42,-2
+Image[9]=images/signal-3-aspect-square-caution.1.0,-37,12
+Image[10]=images/signal-3-aspect-square-caution.1.1,-7,-18
+Image[11]=images/signal-3-aspect-square-caution.1.3,10,27
+Icon=> images/signal-icons.4.0
+Cursor=images/signal-icons.4.1
 ---------------------------------------
-# Route indicator (choose) signal left side
+obj=roadsign
+copyright=JamesPetts
+name=four-aspect-colour-light-square-stop
+waytype=track
+is_signal=1
+cost=20000
+signal_upgrade_cost=10000
+maintenance=900
+aspects=4
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+allow_underground=0
+upgrade_group=4
+signal_groups=5
+intro_year=1959
+intro_month=9
+retire_year=2009
+retire_month=6
+
+# DANGER
+Image[0]=images/signal-4-aspect-square-danger.1.2,42,-2
+Image[1]=images/signal-4-aspect-square-danger.1.0,-37,12
+Image[2]=images/signal-4-aspect-square-danger.1.1,-7,-18
+Image[3]=images/signal-4-aspect-square-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-4-aspect-square-clear.1.2,42,-2
+Image[5]=images/signal-4-aspect-square-clear.1.0,-37,12
+Image[6]=images/signal-4-aspect-square-clear.1.1,-7,-18
+Image[7]=images/signal-4-aspect-square-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-4-aspect-square-caution.1.2,42,-2
+Image[9]=images/signal-4-aspect-square-caution.1.0,-37,12
+Image[10]=images/signal-4-aspect-square-caution.1.1,-7,-18
+Image[11]=images/signal-4-aspect-square-caution.1.3,10,27
+# PRELIMINARY CAUTION
+Image[12]=images/signal-4-aspect-square-preliminary-caution.1.2,42,-2
+Image[13]=images/signal-4-aspect-square-preliminary-caution.1.0,-37,12
+Image[14]=images/signal-4-aspect-square-preliminary-caution.1.1,-7,-18
+Image[15]=images/signal-4-aspect-square-preliminary-caution.1.3,10,27
+Icon=> images/signal-icons-ex.3.6
+Cursor=images/signal-icons-ex.3.7
+---------------------------------------
 obj=roadsign
 copyright=JamesPetts
 Name=two-aspect-colour-light-square-choose
 waytype=track
-cost=12800
 is_signal=1
 free_route=1
-intro_year=1962
-intro_month=8
+cost=11000
+signal_upgrade_cost=5500
+maintenance=1000
+aspects=2
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+allow_underground=0
+upgrade_group=5
+signal_groups=5
+intro_year=1959
+intro_month=9
 retire_year=2009
 retire_month=6
-# RED
+
+# DANGER
 Image[0]=images/signal-2-aspect-square-route-indicator-danger.1.2,42,-2
 Image[1]=images/signal-2-aspect-square-route-indicator-danger.1.0,-37,12
 Image[2]=images/signal-2-aspect-square-route-indicator-danger.1.1,-7,-18
 Image[3]=images/signal-2-aspect-square-route-indicator-danger.1.3,10,27
-# GREEN
+# CLEAR (subsidiary route)
 Image[4]=images/signal-2-aspect-square-route-indicator-clear.1.2,42,-2
 Image[5]=images/signal-2-aspect-square-route-indicator-clear.1.0,-37,12
 Image[6]=images/signal-2-aspect-square-route-indicator-clear.1.1,-7,-18
 Image[7]=images/signal-2-aspect-square-route-indicator-clear.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/signal-2-aspect-square-route-indicator-clear-main.1.2,42,-2
+Image[9]=images/signal-2-aspect-square-route-indicator-clear-main.1.0,-37,12
+Image[10]=images/signal-2-aspect-square-route-indicator-clear-main.1.1,-7,-18
+Image[11]=images/signal-2-aspect-square-route-indicator-clear-main.1.3,10,27
 Icon=> images/signal-icons.4.8
 Cursor=images/signal-icons.4.9
 ---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=three-aspect-colour-light-led-square-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=22500
+signal_upgrade_cost=11250
+maintenance=1000
+aspects=3
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=6
+intro_year=1959
+intro_month=9
+retire_year=2009
+retire_month=6
+
+# DANGER
+Image[0]=images/signal-3-aspect-square-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-3-aspect-square-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-3-aspect-square-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-3-aspect-square-route-indicator-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/signal-3-aspect-square-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-3-aspect-square-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-3-aspect-square-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-3-aspect-square-route-indicator-clear.1.3,10,27
+# CAUTION (subsidiary route)
+Image[8]=images/signal-3-aspect-square-route-indicator-caution.1.2,42,-2
+Image[9]=images/signal-3-aspect-square-route-indicator-caution.1.0,-37,12
+Image[10]=images/signal-3-aspect-square-route-indicator-caution.1.1,-7,-18
+Image[11]=images/signal-3-aspect-square-route-indicator-caution.1.3,10,27
+# CLEAR (main route)
+Image[12]=images/signal-3-aspect-square-route-indicator-clear-main.1.2,42,-2
+Image[13]=images/signal-3-aspect-square-route-indicator-clear-main.1.0,-37,12
+Image[14]=images/signal-3-aspect-square-route-indicator-clear-main.1.1,-7,-18
+Image[15]=images/signal-3-aspect-square-route-indicator-clear-main.1.3,10,27
+# CAUTION (main route)
+Image[16]=images/signal-3-aspect-square-route-indicator-caution-main.1.2,42,-2
+Image[17]=images/signal-3-aspect-square-route-indicator-caution-main.1.0,-37,12
+Image[18]=images/signal-3-aspect-square-route-indicator-caution-main.1.1,-7,-18
+Image[19]=images/signal-3-aspect-square-route-indicator-caution-main.1.3,10,27
+Icon=> images/signal-icons-ex.3.4
+Cursor=images/signal-icons-ex.3.5
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=four-aspect-colour-light-square-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=25000
+signal_upgrade_cost=12000
+maintenance=1250
+aspects=4
+working_method=track_circuit_block
+max_speed=200
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=7
+intro_year=1959
+intro_month=9
+retire_year=2009
+retire_month=6
+
+# DANGER
+Image[0]=images/signal-4-aspect-square-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-4-aspect-square-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-4-aspect-square-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-4-aspect-square-route-indicator-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/signal-4-aspect-square-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-4-aspect-square-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-4-aspect-square-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-4-aspect-square-route-indicator-clear.1.3,10,27
+# CAUTION (subsidiary route)
+Image[8]=images/signal-4-aspect-square-route-indicator-caution.1.2,42,-2
+Image[9]=images/signal-4-aspect-square-route-indicator-caution.1.0,-37,12
+Image[10]=images/signal-4-aspect-square-route-indicator-caution.1.1,-7,-18
+Image[11]=images/signal-4-aspect-square-route-indicator-caution.1.3,10,27
+# PRELIMINARY CAUTION (subsidiary route)
+Image[12]=images/signal-4-aspect-square-route-indicator-preliminary-caution.1.2,42,-2
+Image[13]=images/signal-4-aspect-square-route-indicator-preliminary-caution.1.0,-37,12
+Image[14]=images/signal-4-aspect-square-route-indicator-preliminary-caution.1.1,-7,-18
+Image[15]=images/signal-4-aspect-square-route-indicator-preliminary-caution.1.3,10,27
+# CLEAR (main route)
+Image[16]=images/signal-4-aspect-square-route-indicator-clear-main.1.2,42,-2
+Image[17]=images/signal-4-aspect-square-route-indicator-clear-main.1.0,-37,12
+Image[18]=images/signal-4-aspect-square-route-indicator-clear-main.1.1,-7,-18
+Image[19]=images/signal-4-aspect-square-route-indicator-clear-main.1.3,10,27
+# CAUTION (main route)
+Image[20]=images/signal-4-aspect-square-route-indicator-caution-main.1.2,42,-2
+Image[21]=images/signal-4-aspect-square-route-indicator-caution-main.1.0,-37,12
+Image[22]=images/signal-4-aspect-square-route-indicator-caution-main.1.1,-7,-18
+Image[23]=images/signal-4-aspect-square-route-indicator-caution-main.1.3,10,27
+# PRELIMINARY CAUTION (main route)
+Image[24]=images/signal-4-aspect-square-route-indicator-preliminary-caution-main.1.2,42,-2
+Image[25]=images/signal-4-aspect-square-route-indicator-preliminary-caution-main.1.0,-37,12
+Image[26]=images/signal-4-aspect-square-route-indicator-preliminary-caution-main.1.1,-7,-18
+Image[27]=images/signal-4-aspect-square-route-indicator-preliminary-caution-main.1.3,10,27
+Icon=> images/signal-icons-ex.2.4
+Cursor=images/signal-icons-ex.3.5
+---------------------------------------
+# SPEED SIGNALS 1930s
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=speed-signal-plain
+waytype=track
+is_signal=1
+cost=21000
+signal_upgrade_cost=10500
+maintenance=1000
+aspects=5
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+allow_underground=0
+upgrade_group=0
+signal_groups=4
+intro_year=1934
+intro_month=4
+retire_year=1948
+retire_month=1
+
+# DANGER
+Image[0]=images/speed-signal-danger.1.2,42,-2
+Image[1]=images/speed-signal-danger.1.0,-37,12
+Image[2]=images/speed-signal-danger.1.1,-7,-18
+Image[3]=images/speed-signal-danger.1.3,10,27
+# CLEAR
+Image[4]=images/speed-signal-clear.1.2,42,-2
+Image[5]=images/speed-signal-clear.1.0,-37,12
+Image[6]=images/speed-signal-clear.1.1,-7,-18
+Image[7]=images/speed-signal-clear.1.3,10,27
+# CAUTION
+Image[8]=images/speed-signal-caution.1.2,42,-2
+Image[9]=images/speed-signal-caution.1.0,-37,12
+Image[10]=images/speed-signal-caution.1.1,-7,-18
+Image[11]=images/speed-signal-caution.1.3,10,27
+# PRELIMINARY CAUTION
+Image[12]=images/speed-signal-preliminary-caution.1.2,42,-2
+Image[13]=images/speed-signal-preliminary-caution.1.0,-37,12
+Image[14]=images/speed-signal-preliminary-caution.1.1,-7,-18
+Image[15]=images/speed-signal-preliminary-caution.1.3,10,27
+# ADVANCE CAUTION
+Image[16]=images/speed-signal-advance-caution.1.2,42,-2
+Image[17]=images/speed-signal-advance-caution.1.0,-37,12
+Image[18]=images/speed-signal-advance-caution.1.1,-7,-18
+Image[19]=images/speed-signal-advance-caution.1.3,10,27
+Icon=> images/signal-icons-ex.1.0
+Cursor=images/signal-icons-ex.1.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=speed-signal-permissive
+waytype=track
+is_signal=1
+cost=21500
+signal_upgrade_cost=10750
+maintenance=1050
+aspects=5
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=1
+max_distance_to_signalbox=0
+permissive=1
+allow_underground=0
+upgrade_group=0
+signal_groups=4
+intro_year=1934
+intro_month=4
+retire_year=1948
+retire_month=1
+
+# DANGER
+Image[0]=images/speed-signal-permissive-danger.1.2,42,-2
+Image[1]=images/speed-signal-permissive-danger.1.0,-37,12
+Image[2]=images/speed-signal-permissive-danger.1.1,-7,-18
+Image[3]=images/speed-signal-permissive-danger.1.3,10,27
+# CLEAR
+Image[4]=images/speed-signal-permissive-clear.1.2,42,-2
+Image[5]=images/speed-signal-permissive-clear.1.0,-37,12
+Image[6]=images/speed-signal-permissive-clear.1.1,-7,-18
+Image[7]=images/speed-signal-permissive-clear.1.3,10,27
+# CAUTION
+Image[8]=images/speed-signal-permissive-caution.1.2,42,-2
+Image[9]=images/speed-signal-permissive-caution.1.0,-37,12
+Image[10]=images/speed-signal-permissive-caution.1.1,-7,-18
+Image[11]=images/speed-signal-permissive-caution.1.3,10,27
+# PRELIMINARY CAUTION
+Image[12]=images/speed-signal-permissive-preliminary-caution.1.2,42,-2
+Image[13]=images/speed-signal-permissive-preliminary-caution.1.0,-37,12
+Image[14]=images/speed-signal-permissive-preliminary-caution.1.1,-7,-18
+Image[15]=images/speed-signal-permissive-preliminary-caution.1.3,10,27
+# ADVANCE CAUTION
+Image[16]=images/speed-signal-permissive-advance-caution.1.2,42,-2
+Image[17]=images/speed-signal-permissive-advance-caution.1.0,-37,12
+Image[18]=images/speed-signal-permissive-advance-caution.1.1,-7,-18
+Image[19]=images/speed-signal-permissive-advance-caution.1.3,10,27
+# CALL ON
+Image[20]=images/speed-signal-permissive-call-on.1.2,42,-2
+Image[21]=images/speed-signal-permissive-call-on.1.0,-37,12
+Image[22]=images/speed-signal-permissive-call-on.1.1,-7,-18
+Image[23]=images/speed-signal-permissive-call-on.1.3,10,27
+Icon=> images/signal-icons-ex.1.4
+Cursor=images/signal-icons-ex.1.5
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=speed-signal-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=22500
+signal_upgrade_cost=11250
+maintenance=1150
+aspects=5
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=4
+allow_underground=0
+upgrade_group=0
+intro_year=1934
+intro_month=4
+retire_year=1948
+retire_month=1
+
+# DANGER
+Image[0]=images/speed-signal-junction-danger.1.2,42,-2
+Image[1]=images/speed-signal-junction-danger.1.0,-37,12
+Image[2]=images/speed-signal-junction-danger.1.1,-7,-18
+Image[3]=images/speed-signal-junction-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/speed-signal-junction-clear.1.2,42,-2
+Image[5]=images/speed-signal-junction-clear.1.0,-37,12
+Image[6]=images/speed-signal-junction-clear.1.1,-7,-18
+Image[7]=images/speed-signal-junction-clear.1.3,10,27
+# CAUTION (subsidiary route)
+Image[8]=images/speed-signal-junction-caution.1.2,42,-2
+Image[9]=images/speed-signal-junction-caution.1.0,-37,12
+Image[10]=images/speed-signal-junction-caution.1.1,-7,-18
+Image[11]=images/speed-signal-junction-caution.1.3,10,27
+# PRELIMINARY CAUTION (subsidiary route)
+Image[12]=images/speed-signal-junction-preliminary-caution.1.2,42,-2
+Image[13]=images/speed-signal-junction-preliminary-caution.1.0,-37,12
+Image[14]=images/speed-signal-junction-preliminary-caution.1.1,-7,-18
+Image[15]=images/speed-signal-junction-preliminary-caution.1.3,10,27
+# ADVANCE CAUTION (subsidiary route)
+Image[16]=images/speed-signal-junction-advance-caution.1.2,42,-2
+Image[17]=images/speed-signal-junction-advance-caution.1.0,-37,12
+Image[18]=images/speed-signal-junction-advance-caution.1.1,-7,-18
+Image[19]=images/speed-signal-junction-advance-caution.1.3,10,27
+# CLEAR (main route)
+Image[20]=images/speed-signal-junction-clear-main.1.2,42,-2
+Image[21]=images/speed-signal-junction-clear-main.1.0,-37,12
+Image[22]=images/speed-signal-junction-clear-main.1.1,-7,-18
+Image[23]=images/speed-signal-junction-clear-main.1.3,10,27
+# CAUTION (main route)
+Image[24]=images/speed-signal-junction-caution-main.1.2,42,-2
+Image[25]=images/speed-signal-junction-caution-main.1.0,-37,12
+Image[26]=images/speed-signal-junction-caution-main.1.1,-7,-18
+Image[27]=images/speed-signal-junction-caution-main.1.3,10,27
+# PRELIMINARY CAUTION (main route)
+Image[28]=images/speed-signal-junction-preliminary-caution-main.1.2,42,-2
+Image[29]=images/speed-signal-junction-preliminary-caution-main.1.0,-37,12
+Image[30]=images/speed-signal-junction-preliminary-caution-main.1.1,-7,-18
+Image[31]=images/speed-signal-junction-preliminary-caution-main.1.3,10,27
+# ADVANCE CAUTION (main route)
+Image[32]=images/speed-signal-junction-advance-caution-main.1.2,42,-2
+Image[33]=images/speed-signal-junction-advance-caution-main.1.0,-37,12
+Image[34]=images/speed-signal-junction-advance-caution-main.1.1,-7,-18
+Image[35]=images/speed-signal-junction-advance-caution-main.1.3,10,27
+Icon=> images/signal-icons-ex.1.2
+Cursor=images/signal-icons-ex.1.3
+---------------------------------------
 # COLOUR LIGHT 1920s
 #--------------------------------------
-# Stop signal left side
 obj=roadsign
 copyright=JamesPetts
 name=two-aspect-colour-light-stop
 waytype=track
-cost=1600
+cost=17500
+signal_upgrade_cost=8750
+maintenance=1000
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=0
 is_signal=1
 intro_year=1920
 intro_month=4
-retire_year-1962
-retire_month=8
-# RED
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# DANGER
 Image[0]=images/signal-2-aspect-danger.1.2,42,-2
 Image[1]=images/signal-2-aspect-danger.1.0,-37,12
 Image[2]=images/signal-2-aspect-danger.1.1,-7,-18
 Image[3]=images/signal-2-aspect-danger.1.3,10,27
-# GREEN
+# CLEAR
 Image[4]=images/signal-2-aspect-clear.1.2,42,-2
 Image[5]=images/signal-2-aspect-clear.1.0,-37,12
 Image[6]=images/signal-2-aspect-clear.1.1,-7,-18
@@ -339,78 +1192,116 @@ Image[7]=images/signal-2-aspect-clear.1.3,10,27
 Icon=> images/signal-icons.1.2
 Cursor=images/signal-icons.1.3
 ---------------------------------------
-# Distant signal left side
 obj=roadsign
 copyright=JamesPetts
 Name=two-aspect-colour-light-distant
 waytype=track
-cost=3200
 is_presignal=1
+cost=17500
+signal_upgrade_cost=8750
+maintenance=1000
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=0
 intro_year=1920
 intro_month=4
-retire_year-1962
-retire_month=8
-# RED (unused)
-Image[0]=images/signal-2-aspect-danger.1.2,42,-2
-Image[1]=images/signal-2-aspect-danger.1.0,-37,12
-Image[2]=images/signal-2-aspect-danger.1.1,-7,-18
-Image[3]=images/signal-2-aspect-danger.1.3,10,27
-# GREEN
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# CAUTION
+Image[0]=images/signal-2-aspect-caution.1.2,42,-2
+Image[1]=images/signal-2-aspect-caution.1.0,-37,12
+Image[2]=images/signal-2-aspect-caution.1.1,-7,-18
+Image[3]=images/signal-2-aspect-caution.1.3,10,27
+# CLEAR
 Image[4]=images/signal-2-aspect-clear.1.2,42,-2
 Image[5]=images/signal-2-aspect-clear.1.0,-37,12
 Image[6]=images/signal-2-aspect-clear.1.1,-7,-18
 Image[7]=images/signal-2-aspect-clear.1.3,10,27
-# YELLOW
-Image[8]=images/signal-2-aspect-caution.1.2,42,-2
-Image[9]=images/signal-2-aspect-caution.1.0,-37,12
-Image[10]=images/signal-2-aspect-caution.1.1,-7,-18
-Image[11]=images/signal-2-aspect-caution.1.3,10,27
 Icon=> images/signal-icons.1.4
 Cursor=images/signal-icons.1.5
 ---------------------------------------
-# Long block signal left side
 obj=roadsign
 copyright=JamesPetts
-Name=three-aspect-colour-light-longblock
+name=two-aspect-colour-light-permissive
 waytype=track
-cost=6400
+cost=18500
+signal_upgrade_cost=9250
+maintenance=1100
+aspects=2
+working_method=absolute_block
+max_speed=75
+has_selective_choose=0
+has_call_on=1
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=2
+allow_underground=0
+upgrade_group=16
 is_signal=1
-is_longblocksignal=1
 intro_year=1920
 intro_month=4
-retire_year-1962
-retire_month=8
-# RED
-Image[0]=images/signal-3-aspect-longblock.1.2,42,-2
-Image[1]=images/signal-3-aspect-longblock.1.0,-37,12
-Image[2]=images/signal-3-aspect-longblock.1.1,-7,-18
-Image[3]=images/signal-3-aspect-longblock.1.3,10,27
-# GREEN
-Image[4]=images/signal-3-aspect-clear.1.2,42,-2
-Image[5]=images/signal-3-aspect-clear.1.0,-37,12
-Image[6]=images/signal-3-aspect-clear.1.1,-7,-18
-Image[7]=images/signal-3-aspect-clear.1.3,10,27
-Icon=> images/signal-icons.1.6
-Cursor=images/signal-icons.1.7
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# DANGER
+Image[0]=images/signal-2-aspect-permissive-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-permissive-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-permissive-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-permissive-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-2-aspect-permissive-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-permissive-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-permissive-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-permissive-clear.1.3,10,27
+# CALL ON
+Image[8]=images/signal-2-aspect-permissive-call-on.1.2,42,-2
+Image[9]=images/signal-2-aspect-permissive-call-on.1.0,-37,12
+Image[10]=images/signal-2-aspect-permissive-call-on.1.1,-7,-18
+Image[11]=images/signal-2-aspect-permissive-call-on.1.3,10,27
+Icon=> images/signal-icons-ex.7.6
+Cursor=images/signal-icons-ex.7.7
 ---------------------------------------
-# Route indicator (choose) signal left side
 obj=roadsign
 copyright=JamesPetts
 Name=two-aspect-colour-light-choose
 waytype=track
-cost=12800
 is_signal=1
 free_route=1
+cost=19500
+signal_upgrade_cost=9750
+maintenance=1200
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=0
 intro_year=1920
 intro_month=4
-retire_year-1962
-retire_month=8
-# RED
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# DANGER
 Image[0]=images/signal-2-aspect-route-indicator-danger.1.2,42,-2
 Image[1]=images/signal-2-aspect-route-indicator-danger.1.0,-37,12
 Image[2]=images/signal-2-aspect-route-indicator-danger.1.1,-7,-18
 Image[3]=images/signal-2-aspect-route-indicator-danger.1.3,10,27
-# GREEN
+# CLEAR
 Image[4]=images/signal-2-aspect-route-indicator-clear.1.2,42,-2
 Image[5]=images/signal-2-aspect-route-indicator-clear.1.0,-37,12
 Image[6]=images/signal-2-aspect-route-indicator-clear.1.1,-7,-18
@@ -418,24 +1309,577 @@ Image[7]=images/signal-2-aspect-route-indicator-clear.1.3,10,27
 Icon=> images/signal-icons.1.8
 Cursor=images/signal-icons.1.9
 ---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=two-aspect-colour-light-token
+waytype=track
+cost=19500
+signal_upgrade_cost=9750
+maintenance=1250
+aspects=2
+working_method=token_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=3
+allow_underground=0
+upgrade_group=0
+is_signal=1
+is_longblocksignal=1
+intro_year=1920
+intro_month=4
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# DANGER
+Image[0]=images/signal-2-aspect-token-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-token-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-token-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-token-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-2-aspect-token-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-token-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-token-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-token-clear.1.3,10,27
+Icon=> images/signal-icons-ex.5.0
+Cursor=images/signal-icons-ex.5.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=two-aspect-colour-light-track-circuit
+waytype=track
+cost=17500
+signal_upgrade_cost=8750
+maintenance=1000
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=1
+is_signal=1
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-2-aspect-track-circuit-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-track-circuit-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-track-circuit-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-track-circuit-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-2-aspect-track-circuit-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-track-circuit-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-track-circuit-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-track-circuit-clear.1.3,10,27
+Icon=> images/signal-icons-ex.4.2
+Cursor=images/signal-icons-ex.4.3
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=two-aspect-colour-light-track-circuit-distant
+waytype=track
+cost=17500
+signal_upgrade_cost=8750
+maintenance=1000
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=2
+is_presignal=1
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# CAUTION
+Image[0]=images/signal-2-aspect-track-circuit-caution.1.2,42,-2
+Image[1]=images/signal-2-aspect-track-circuit-caution.1.0,-37,12
+Image[2]=images/signal-2-aspect-track-circuit-caution.1.1,-7,-18
+Image[3]=images/signal-2-aspect-track-circuit-caution.1.3,10,27
+# CLEAR
+Image[4]=images/signal-2-aspect-track-circuit-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-track-circuit-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-track-circuit-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-track-circuit-clear.1.3,10,27
+Icon=> images/signal-icons-ex.7.4
+Cursor=images/signal-icons-ex.7.5
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=two-aspect-colour-light-track-circuit-permissive
+waytype=track
+cost=18500
+signal_upgrade_cost=9250
+maintenance=1100
+aspects=2
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=1
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=0
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-2-aspect-track-circuit-permissive-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-track-circuit-permissive-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-track-circuit-permissive-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-track-circuit-permissive-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-2-aspect-track-circuit-permissive-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-track-circuit-permissive-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-track-circuit-permissive-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-track-circuit-permissive-clear.1.3,10,27
+# CALL ON
+Image[8]=images/signal-2-aspect-track-circuit-permissive-call-on.1.2,42,-2
+Image[9]=images/signal-2-aspect-track-circuit-permissive-call-on.1.0,-37,12
+Image[10]=images/signal-2-aspect-track-circuit-permissive-call-on.1.1,-7,-18
+Image[11]=images/signal-2-aspect-track-circuit-permissive-call-on.1.3,10,27
+Icon=> images/signal-icons-ex.4.0
+Cursor=images/signal-icons-ex.4.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=two-aspect-colour-light-track-circuit-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=19500
+signal_upgrade_cost=9750
+maintenance=1200
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=5
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-2-aspect-track-circuit-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-track-circuit-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-track-circuit-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-track-circuit-route-indicator-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-2-aspect-track-circuit-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-track-circuit-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-track-circuit-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-track-circuit-route-indicator-clear.1.3,10,27
+Icon=> images/signal-icons-ex.7.8
+Cursor=images/signal-icons-ex.7.9
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=three-aspect-colour-light
+waytype=track
+cost=19500
+signal_upgrade_cost=9750
+maintenance=1150
+aspects=3
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=3
+is_signal=1
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-3-aspect-danger.1.2,42,-2
+Image[1]=images/signal-3-aspect-danger.1.0,-37,12
+Image[2]=images/signal-3-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-3-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-3-aspect-clear.1.2,42,-2
+Image[5]=images/signal-3-aspect-clear.1.0,-37,12
+Image[6]=images/signal-3-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-3-aspect-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-3-aspect-caution.1.2,42,-2
+Image[9]=images/signal-3-aspect-caution.1.0,-37,12
+Image[10]=images/signal-3-aspect-caution.1.1,-7,-18
+Image[11]=images/signal-3-aspect-caution.1.3,10,27
+Icon=> images/signal-icons.1.0
+Cursor=images/signal-icons.1.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=three-aspect-colour-light-permissive
+waytype=track
+cost=20000
+signal_upgrade_cost=10000
+maintenance=1210
+aspects=3
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=1
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=0
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-3-aspect-permissive-danger.1.2,42,-2
+Image[1]=images/signal-3-aspect-permissive-danger.1.0,-37,12
+Image[2]=images/signal-3-aspect-permissive-danger.1.1,-7,-18
+Image[3]=images/signal-3-aspect-permissive-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-3-aspect-permissive-clear.1.2,42,-2
+Image[5]=images/signal-3-aspect-permissive-clear.1.0,-37,12
+Image[6]=images/signal-3-aspect-permissive-clear.1.1,-7,-18
+Image[7]=images/signal-3-aspect-permissive-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-3-aspect-permissive-caution.1.2,42,-2
+Image[9]=images/signal-3-aspect-permissive-caution.1.0,-37,12
+Image[10]=images/signal-3-aspect-permissive-caution.1.1,-7,-18
+Image[11]=images/signal-3-aspect-permissive-caution.1.3,10,27
+# CALL ON
+Image[12]=images/signal-3-aspect-permissive-call-on.1.2,42,-2
+Image[13]=images/signal-3-aspect-permissive-call-on.1.0,-37,12
+Image[14]=images/signal-3-aspect-permissive-call-on.1.1,-7,-18
+Image[15]=images/signal-3-aspect-permissive-call-on.1.3,10,27
+Icon=> images/signal-icons-ex.8.0
+Cursor=images/signal-icons-ex.8.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=three-aspect-colour-light-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=21200
+signal_upgrade_cost=10600
+maintenance=1300
+aspects=3
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=6
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-3-aspect-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-3-aspect-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-3-aspect-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-3-aspect-route-indicator-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-3-aspect-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-3-aspect-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-3-aspect-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-3-aspect-route-indicator-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-3-aspect-route-indicator-caution.1.2,42,-2
+Image[9]=images/signal-3-aspect-route-indicator-caution.1.0,-37,12
+Image[10]=images/signal-3-aspect-route-indicator-caution.1.1,-7,-18
+Image[11]=images/signal-3-aspect-route-indicator-caution.1.3,10,27
+Icon=> images/signal-icons-ex.8.2
+Cursor=images/signal-icons-ex.8.3
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=four-aspect-colour-light
+waytype=track
+cost=20100
+signal_upgrade_cost=10050
+maintenance=1200
+aspects=4
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=4
+is_signal=1
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-4-aspect-danger.1.2,42,-2
+Image[1]=images/signal-4-aspect-danger.1.0,-37,12
+Image[2]=images/signal-4-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-4-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-4-aspect-clear.1.2,42,-2
+Image[5]=images/signal-4-aspect-clear.1.0,-37,12
+Image[6]=images/signal-4-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-4-aspect-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-4-aspect-caution.1.2,42,-2
+Image[9]=images/signal-4-aspect-caution.1.0,-37,12
+Image[10]=images/signal-4-aspect-caution.1.1,-7,-18
+Image[11]=images/signal-4-aspect-caution.1.3,10,27
+# PRELIMINARY CAUTION
+Image[12]=images/signal-4-aspect-preliminary-caution.1.2,42,-2
+Image[13]=images/signal-4-aspect-preliminary-caution.1.0,-37,12
+Image[14]=images/signal-4-aspect-preliminary-caution.1.1,-7,-18
+Image[15]=images/signal-4-aspect-preliminary-caution.1.3,10,27
+Icon=> images/signal-icons-ex.3.2
+Cursor=images/signal-icons-ex.3.3
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=four-aspect-colour-light-permissive
+waytype=track
+cost=21000
+signal_upgrade_cost=10500
+maintenance=1285
+aspects=4
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=1
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=0
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-4-aspect-permissive-danger.1.2,42,-2
+Image[1]=images/signal-4-aspect-permissive-danger.1.0,-37,12
+Image[2]=images/signal-4-aspect-permissive-danger.1.1,-7,-18
+Image[3]=images/signal-4-aspect-permissive-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-4-aspect-permissive-clear.1.2,42,-2
+Image[5]=images/signal-4-aspect-permissive-clear.1.0,-37,12
+Image[6]=images/signal-4-aspect-permissive-clear.1.1,-7,-18
+Image[7]=images/signal-4-aspect-permissive-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-4-aspect-permissive-caution.1.2,42,-2
+Image[9]=images/signal-4-aspect-permissive-caution.1.0,-37,12
+Image[10]=images/signal-4-aspect-permissive-caution.1.1,-7,-18
+Image[11]=images/signal-4-aspect-permissive-caution.1.3,10,27
+# PRELIMINARY CAUTION
+Image[12]=images/signal-4-aspect-permissive-preliminary-caution.1.2,42,-2
+Image[13]=images/signal-4-aspect-permissive-preliminary-caution.1.0,-37,12
+Image[14]=images/signal-4-aspect-permissive-preliminary-caution.1.1,-7,-18
+Image[15]=images/signal-4-aspect-permissive-preliminary-caution.1.3,10,27
+# CALL ON
+Image[16]=images/signal-4-aspect-permissive-call-on.1.2,42,-2
+Image[17]=images/signal-4-aspect-permissive-call-on.1.0,-37,12
+Image[18]=images/signal-4-aspect-permissive-call-on.1.1,-7,-18
+Image[19]=images/signal-4-aspect-permissive-call-on.1.3,10,27
+Icon=> images/signal-icons-ex.3.0
+Cursor=images/signal-icons-ex.3.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=four-aspect-colour-light-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=22200
+signal_upgrade_cost=11100
+maintenance=1375
+aspects=4
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=7
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-4-aspect-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-4-aspect-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-4-aspect-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-4-aspect-route-indicator-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-4-aspect-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-4-aspect-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-4-aspect-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-4-aspect-route-indicator-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-4-aspect-route-indicator-caution.1.2,42,-2
+Image[9]=images/signal-4-aspect-route-indicator-caution.1.0,-37,12
+Image[10]=images/signal-4-aspect-route-indicator-caution.1.1,-7,-18
+Image[11]=images/signal-4-aspect-route-indicator-caution.1.3,10,27
+# PRELIMINARY CAUTION
+Image[8]=images/signal-4-aspect-route-indicator-preliminary-caution.1.2,42,-2
+Image[9]=images/signal-4-aspect-route-indicator-preliminary-caution.1.0,-37,12
+Image[10]=images/signal-4-aspect-route-indicator-preliminary-caution.1.1,-7,-18
+Image[11]=images/signal-4-aspect-route-indicator-preliminary-caution.1.3,10,27
+Icon=> images/signal-icons-ex.2.8
+Cursor=images/signal-icons-ex.2.9
+---------------------------------------
+# INTERMEDIATE BLOCK COLOUR LIGHT SIGNALS
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=two-aspect-colour-light-stop-ib
+waytype=track
+cost=17500
+signal_upgrade_cost=8750
+maintenance=1000
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+intermediate_block=1
+upgrade_group=20
+is_signal=1
+intro_year=1920
+intro_month=4
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# DANGER
+Image[0]=images/signal-2-aspect-danger.1.2,42,-2
+Image[1]=images/signal-2-aspect-danger.1.0,-37,12
+Image[2]=images/signal-2-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-2-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-clear.1.3,10,27
+Icon=> images/signal-icons.1.2
+Cursor=images/signal-icons.1.3
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=two-aspect-colour-light-distant-ib
+waytype=track
+is_presignal=1
+cost=17500
+signal_upgrade_cost=8750
+maintenance=1000
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+intermediate_block=1
+upgrade_group=21
+intro_year=1920
+intro_month=4
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# CAUTION
+Image[0]=images/signal-2-aspect-caution.1.2,42,-2
+Image[1]=images/signal-2-aspect-caution.1.0,-37,12
+Image[2]=images/signal-2-aspect-caution.1.1,-7,-18
+Image[3]=images/signal-2-aspect-caution.1.3,10,27
+# CLEAR
+Image[4]=images/signal-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-2-aspect-clear.1.3,10,27
+Icon=> images/signal-icons.1.4
+Cursor=images/signal-icons.1.5
+---------------------------------------
 # UNDERGROUND COLOUR LIGHT SIGNALS
 #--------------------------------------
-# Underground stop signal left side
 obj=roadsign
 copyright=JamesPetts
 name=underground-two-aspect-colour-light-stop
 waytype=track
-cost=2000
-is_signal=1
+cost=27500
+signal_upgrade_cost=13750
+maintenance=1000
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
 allow_underground=1
-intro_year = 1898
-intro_month = 11
-# RED
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# DANGER
 Image[0]=images/signal-tunnel-2-aspect-danger.1.2,42,-2
 Image[1]=images/signal-tunnel-2-aspect-danger.1.0,-37,12
 Image[2]=images/signal-tunnel-2-aspect-danger.1.1,-7,-18
 Image[3]=images/signal-tunnel-2-aspect-danger.1.3,10,27
-# GREEN
+# CLEAR
 Image[4]=images/signal-tunnel-2-aspect-clear.1.2,42,-2
 Image[5]=images/signal-tunnel-2-aspect-clear.1.0,-37,12
 Image[6]=images/signal-tunnel-2-aspect-clear.1.1,-7,-18
@@ -443,75 +1887,111 @@ Image[7]=images/signal-tunnel-2-aspect-clear.1.3,10,27
 Icon=> images/signal-icons.5.0
 Cursor=images/signal-icons.5.1
 ---------------------------------------
-# Underground distant signal left side
 obj=roadsign
 copyright=JamesPetts
 Name=underground-two-aspect-colour-light-distant
 waytype=track
-cost=4000
 is_presignal=1
+cost=27500
+signal_upgrade_cost=13750
+maintenance=1000
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
 allow_underground=1
-intro_year = 1898
-intro_month = 11
-# RED (unused)
-Image[0]=images/signal-tunnel-2-aspect-danger.1.2,42,-2
-Image[1]=images/signal-tunnel-2-aspect-danger.1.0,-37,12
-Image[2]=images/signal-tunnel-2-aspect-danger.1.1,-7,-18
-Image[3]=images/signal-tunnel-2-aspect-danger.1.3,10,27
+upgrade_group=0
+intro_year=1920
+intro_month=4
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# CAUTION
+Image[0]=images/signal-tunnel-2-aspect-caution.1.2,42,-2
+Image[1]=images/signal-tunnel-2-aspect-caution.1.0,-37,12
+Image[2]=images/signal-tunnel-2-aspect-caution.1.1,-7,-18
+Image[3]=images/signal-tunnel-2-aspect-caution.1.3,10,27
 # GREEN
 Image[4]=images/signal-tunnel-2-aspect-clear.1.2,42,-2
 Image[5]=images/signal-tunnel-2-aspect-clear.1.0,-37,12
 Image[6]=images/signal-tunnel-2-aspect-clear.1.1,-7,-18
 Image[7]=images/signal-tunnel-2-aspect-clear.1.3,10,27
-# YELLOW
-Image[8]=images/signal-tunnel-2-aspect-caution.1.2,42,-2
-Image[9]=images/signal-tunnel-2-aspect-caution.1.0,-37,12
-Image[10]=images/signal-tunnel-2-aspect-caution.1.1,-7,-18
-Image[11]=images/signal-tunnel-2-aspect-caution.1.3,10,27
 Icon=> images/signal-icons.5.2
 Cursor=images/signal-icons.5.3
 ---------------------------------------
-# Underground long block signal left side
 obj=roadsign
 copyright=JamesPetts
-Name=underground-longblock-colour-light
+name=underground-two-aspect-colour-light-permissive
 waytype=track
-cost=14400
-is_signal=1
-free_route=1
+cost=28500
+signal_upgrade_cost=14250
+maintenance=1100
+aspects=2
+working_method=absolute_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=2
 allow_underground=1
-intro_year = 1898
-intro_month = 11
-# RED
-Image[0]=images/signal-tunnel-3-aspect-longblock.1.2,42,-2
-Image[1]=images/signal-tunnel-3-aspect-longblock.1.0,-37,12
-Image[2]=images/signal-tunnel-3-aspect-longblock.1.1,-7,-18
-Image[3]=images/signal-tunnel-3-aspect-longblock.1.3,10,27
-# GREEN
-Image[4]=images/signal-tunnel-3-aspect-clear.1.2,42,-2
-Image[5]=images/signal-tunnel-3-aspect-clear.1.0,-37,12
-Image[6]=images/signal-tunnel-3-aspect-clear.1.1,-7,-18
-Image[7]=images/signal-tunnel-3-aspect-clear.1.3,10,27
-Icon=> images/signal-icons.5.4
-Cursor=images/signal-icons.5.5
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# DANGER
+Image[0]=images/signal-tunnel-2-aspect-danger.1.2,42,-2
+Image[1]=images/signal-tunnel-2-aspect-danger.1.0,-37,12
+Image[2]=images/signal-tunnel-2-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-tunnel-2-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-tunnel-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-2-aspect-clear.1.3,10,27
+Icon=> images/signal-icons.5.0
+Cursor=images/signal-icons.5.1
 ---------------------------------------
-# Underground choose signal left side
 obj=roadsign
 copyright=JamesPetts
 Name=underground-two-aspect-colour-light-choose
 waytype=track
-cost=14400
 is_signal=1
 free_route=1
+cost=29500
+signal_upgrade_cost=14750
+maintenance=1200
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
 allow_underground=1
-intro_year = 1898
-intro_month = 11
-# RED
+upgrade_group=0
+intro_year=1920
+intro_month=4
+# Allow these signals to be built in perpetuity to go with existing mechanical boxes
+#retire_year-1962
+#retire_month=8
+
+# DANGER
 Image[0]=images/signal-tunnel-2-aspect-route-indicator-danger.1.2,42,-2
 Image[1]=images/signal-tunnel-2-aspect-route-indicator-danger.1.0,-37,12
 Image[2]=images/signal-tunnel-2-aspect-route-indicator-danger.1.1,-7,-18
 Image[3]=images/signal-tunnel-2-aspect-route-indicator-danger.1.3,10,27
-# GREEN
+# CLEAR
 Image[4]=images/signal-tunnel-2-aspect-route-indicator-clear.1.2,42,-2
 Image[5]=images/signal-tunnel-2-aspect-route-indicator-clear.1.0,-37,12
 Image[6]=images/signal-tunnel-2-aspect-route-indicator-clear.1.1,-7,-18
@@ -519,17 +1999,421 @@ Image[7]=images/signal-tunnel-2-aspect-route-indicator-clear.1.3,10,27
 Icon=> images/signal-icons.5.6
 Cursor=images/signal-icons.5.7
 ---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=underground-two-aspect-colour-light-track-circuit
+waytype=track
+cost=27500
+signal_upgrade_cost=13750
+maintenance=1000
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+# There are no later track circuit block underground signals at present.
+
+# DANGER
+Image[0]=images/signal-tunnel-2-aspect-danger.1.2,42,-2
+Image[1]=images/signal-tunnel-2-aspect-danger.1.0,-37,12
+Image[2]=images/signal-tunnel-2-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-tunnel-2-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-tunnel-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-2-aspect-clear.1.3,10,27
+Icon=> images/signal-icons.5.0
+Cursor=images/signal-icons.5.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=underground-two-aspect-colour-light-track-circuit-distant
+waytype=track
+cost=27500
+signal_upgrade_cost=13750
+maintenance=1000
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_presignal=1
+intro_year=1920
+intro_month=4
+
+# CAUTION
+Image[0]=images/signal-tunnel-2-aspect-caution.1.2,42,-2
+Image[1]=images/signal-tunnel-2-aspect-caution.1.0,-37,12
+Image[2]=images/signal-tunnel-2-aspect-caution.1.1,-7,-18
+Image[3]=images/signal-tunnel-2-aspect-caution.1.3,10,27
+# GREEN
+Image[4]=images/signal-tunnel-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-2-aspect-clear.1.3,10,27
+Icon=> images/signal-icons.5.2
+Cursor=images/signal-icons.5.3
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=underground-two-aspect-colour-light-track-circuit-permissive
+waytype=track
+cost=28500
+signal_upgrade_cost=14250
+maintenance=1100
+aspects=2
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+
+# DANGER
+Image[0]=images/signal-tunnel-2-aspect-danger.1.2,42,-2
+Image[1]=images/signal-tunnel-2-aspect-danger.1.0,-37,12
+Image[2]=images/signal-tunnel-2-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-tunnel-2-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-tunnel-2-aspect-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-2-aspect-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-2-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-2-aspect-clear.1.3,10,27
+Icon=> images/signal-icons.5.0
+Cursor=images/signal-icons.5.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=underground-two-aspect-colour-light-track-circuit-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=29500
+signal_upgrade_cost=14750
+maintenance=1200
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+intro_year=1920
+intro_month=4
+
+# DANGER
+Image[0]=images/signal-tunnel-2-aspect-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-tunnel-2-aspect-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-tunnel-2-aspect-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-tunnel-2-aspect-route-indicator-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-tunnel-2-aspect-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-2-aspect-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-2-aspect-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-2-aspect-route-indicator-clear.1.3,10,27
+Icon=> images/signal-icons.5.6
+Cursor=images/signal-icons.5.7
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=underground-three-aspect-colour-light
+waytype=track
+cost=29500
+signal_upgrade_cost=14750
+maintenance=1150
+aspects=3
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+
+# DANGER
+Image[0]=images/signal-tunnel-3-aspect-danger.1.2,42,-2
+Image[1]=images/signal-tunnel-3-aspect-danger.1.0,-37,12
+Image[2]=images/signal-tunnel-3-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-tunnel-3-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-tunnel-3-aspect-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-3-aspect-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-3-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-3-aspect-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-tunnel-3-aspect-caution.1.2,42,-2
+Image[9]=images/signal-tunnel-3-aspect-caution.1.0,-37,12
+Image[10]=images/signal-tunnel-3-aspect-caution.1.1,-7,-18
+Image[11]=images/signal-tunnel-3-aspect-caution.1.3,10,27
+Icon=> images/signal-icons-ex.2.2
+Cursor=images/signal-icons-ex.2.3
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=underground-three-aspect-colour-light-permissive
+waytype=track
+cost=30000
+signal_upgrade_cost=15000
+maintenance=1210
+aspects=3
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-tunnel-3-aspect-danger.1.2,42,-2
+Image[1]=images/signal-tunnel-3-aspect-danger.1.0,-37,12
+Image[2]=images/signal-tunnel-3-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-tunnel-3-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-tunnel-3-aspect-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-3-aspect-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-3-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-3-aspect-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-tunnel-3-aspect-caution.1.2,42,-2
+Image[9]=images/signal-tunnel-3-aspect-caution.1.0,-37,12
+Image[10]=images/signal-tunnel-3-aspect-caution.1.1,-7,-18
+Image[11]=images/signal-tunnel-3-aspect-caution.1.3,10,27
+Icon=> images/signal-icons-ex.2.2
+Cursor=images/signal-icons-ex.2.3
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=underground-three-aspect-colour-light-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=36200
+signal_upgrade_cost=18100
+maintenance=1300
+aspects=3
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+intro_year=1920
+intro_month=4
+
+# DANGER
+Image[0]=images/signal-tunnel-3-aspect-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-tunnel-3-aspect-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-tunnel-3-aspect-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-tunnel-3-aspect-route-indicator-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-tunnel-3-aspect-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-3-aspect-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-3-aspect-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-3-aspect-route-indicator-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-tunnel-3-aspect-route-indicator-caution.1.2,42,-2
+Image[9]=images/signal-tunnel-3-aspect-route-indicator-caution.1.0,-37,12
+Image[10]=images/signal-tunnel-3-aspect-route-indicator-caution.1.1,-7,-18
+Image[11]=images/signal-tunnel-3-aspect-route-indicator-caution.1.3,10,27
+Icon=> images/signal-icons-ex.2.0
+Cursor=images/signal-icons-ex.2.1
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=underground-four-aspect-colour-light
+waytype=track
+cost=40100
+signal_upgrade_cost=20050
+maintenance=1200
+aspects=4
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+
+# DANGER
+Image[0]=images/signal-tunnel-4-aspect-danger.1.2,42,-2
+Image[1]=images/signal-tunnel-4-aspect-danger.1.0,-37,12
+Image[2]=images/signal-tunnel-4-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-tunnel-4-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-tunnel-4-aspect-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-4-aspect-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-4-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-4-aspect-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-tunnel-4-aspect-caution.1.2,42,-2
+Image[9]=images/signal-tunnel-4-aspect-caution.1.0,-37,12
+Image[10]=images/signal-tunnel-4-aspect-caution.1.1,-7,-18
+Image[11]=images/signal-tunnel-4-aspect-caution.1.3,10,27
+# PRELIMINARY CAUTION
+Image[12]=images/signal-tunnel-4-aspect-preliminary-caution.1.2,42,-2
+Image[13]=images/signal-tunnel-4-aspect-preliminary-caution.1.0,-37,12
+Image[14]=images/signal-tunnel-4-aspect-preliminary-caution.1.1,-7,-18
+Image[15]=images/signal-tunnel-4-aspect-preliminary-caution.1.3,10,27
+Icon=> images/signal-icons-ex.1.8
+Cursor=images/signal-icons-ex.1.9
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=underground-four-aspect-colour-light-permissive
+waytype=track
+cost=41000
+signal_upgrade_cost=20050
+maintenance=1285
+aspects=4
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1920
+intro_month=4
+retire_year=1959
+retire_month=9
+
+# DANGER
+Image[0]=images/signal-tunnel-4-aspect-danger.1.2,42,-2
+Image[1]=images/signal-tunnel-4-aspect-danger.1.0,-37,12
+Image[2]=images/signal-tunnel-4-aspect-danger.1.1,-7,-18
+Image[3]=images/signal-tunnel-4-aspect-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-tunnel-4-aspect-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-4-aspect-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-4-aspect-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-4-aspect-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-tunnel-4-aspect-caution.1.2,42,-2
+Image[9]=images/signal-tunnel-4-aspect-caution.1.0,-37,12
+Image[10]=images/signal-tunnel-4-aspect-caution.1.1,-7,-18
+Image[11]=images/signal-tunnel-4-aspect-caution.1.3,10,27
+# PRELIMINARY CAUTION
+Image[12]=images/signal-tunnel-4-aspect-preliminary-caution.1.2,42,-2
+Image[13]=images/signal-tunnel-4-aspect-preliminary-caution.1.0,-37,12
+Image[14]=images/signal-tunnel-4-aspect-preliminary-caution.1.1,-7,-18
+Image[15]=images/signal-tunnel-4-aspect-preliminary-caution.1.3,10,27
+Icon=> images/signal-icons-ex.1.8
+Cursor=images/signal-icons-ex.1.9
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=underground-four-aspect-colour-light-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=42200
+signal_upgrade_cost=21100
+maintenance=1375
+aspects=4
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=7
+intro_year=1920
+intro_month=4
+
+# DANGER
+Image[0]=images/signal-tunnel-4-aspect-route-indicator-danger.1.2,42,-2
+Image[1]=images/signal-tunnel-4-aspect-route-indicator-danger.1.0,-37,12
+Image[2]=images/signal-tunnel-4-aspect-route-indicator-danger.1.1,-7,-18
+Image[3]=images/signal-tunnel-4-aspect-route-indicator-danger.1.3,10,27
+# CLEAR
+Image[4]=images/signal-tunnel-4-aspect-route-indicator-clear.1.2,42,-2
+Image[5]=images/signal-tunnel-4-aspect-route-indicator-clear.1.0,-37,12
+Image[6]=images/signal-tunnel-4-aspect-route-indicator-clear.1.1,-7,-18
+Image[7]=images/signal-tunnel-4-aspect-route-indicator-clear.1.3,10,27
+# CAUTION
+Image[8]=images/signal-tunnel-4-aspect-route-indicator-caution.1.2,42,-2
+Image[9]=images/signal-tunnel-4-aspect-route-indicator-caution.1.0,-37,12
+Image[10]=images/signal-tunnel-4-aspect-route-indicator-caution.1.1,-7,-18
+Image[11]=images/signal-tunnel-4-aspect-route-indicator-caution.1.3,10,27
+# PRELIMINARY CAUTION
+Image[8]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.2,42,-2
+Image[9]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.0,-37,12
+Image[10]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.1,-7,-18
+Image[11]=images/signal-tunnel-4-aspect-route-indicator-preliminary-caution.1.3,10,27
+Icon=> images/signal-icons-ex.1.6
+Cursor=images/signal-icons-ex.1.7
+---------------------------------------
 # UPPER QUADRANT SEMAPHORES 1920s
 #--------------------------------------
 # See http://www.railsigns.uk/sect2page5/sect2page5.html
 # These were only introduced from 1924 onwards.
 # Previously, only lower quadrant signals were used.
-# Stop signal left side
 obj=roadsign
 copyright=JamesPetts
 name=uq-semaphore-stop
 waytype=track
-cost=1600
+cost=9000
+signal_upgrade_cost=4500
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=8
 is_signal=1
 intro_year=1924
 intro_month=7
@@ -551,11 +2435,24 @@ obj=roadsign
 copyright=JamesPetts
 name=uq-semaphore-distant
 waytype=track
-cost=1600
+cost=9000
+signal_upgrade_cost=4500
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=9
 is_presignal=1
 intro_year=1924
 intro_month=7
-# DANGER (unused)
+signal_groups=2
+# CAUTION
 Image[0]=images/semaphore-upper-quadrant-distant-caution.1.2,42,-2
 Image[1]=images/semaphore-upper-quadrant-distant-caution.1.0,-37,12
 Image[2]=images/semaphore-upper-quadrant-distant-caution.1.1,-7,-18
@@ -565,20 +2462,103 @@ Image[4]=images/semaphore-upper-quadrant-distant-clear.1.2,42,-2
 Image[5]=images/semaphore-upper-quadrant-distant-clear.1.0,-37,12
 Image[6]=images/semaphore-upper-quadrant-distant-clear.1.1,-7,-18
 Image[7]=images/semaphore-upper-quadrant-distant-clear.1.3,10,27
-# CAUTION
-Image[8]=images/semaphore-upper-quadrant-distant-caution.1.2,42,-2
-Image[9]=images/semaphore-upper-quadrant-distant-caution.1.0,-37,12
-Image[10]=images/semaphore-upper-quadrant-distant-caution.1.1,-7,-18
-Image[11]=images/semaphore-upper-quadrant-distant-caution.1.3,10,27
 Icon=> images/signal-icons.2.2
 Cursor=images/signal-icons.2.3
 ---------------------------------------
-# Junction (choose) signal left side
+obj=roadsign
+copyright=JamesPetts
+name=uq-semaphore-permissive
+waytype=track
+cost=9100
+signal_upgrade_cost=4550
+maintenance=1575
+aspects=2
+working_method=absolute_block
+max_speed=75
+has_selective_choose=0
+has_call_on=1
+max_distance_to_signalbox=1750
+permissive=1
+signal_groups=2
+allow_underground=0
+upgrade_group=13
+is_signal=1
+intro_year=1924
+intro_month=7
+# DANGER
+Image[0]=images/semaphore-upper-quadrant-stop-permissive-danger.1.2,42,-2
+Image[1]=images/semaphore-upper-quadrant-stop-permissive-danger.1.0,-37,12
+Image[2]=images/semaphore-upper-quadrant-stop-permissive-danger.1.1,-7,-18
+Image[3]=images/semaphore-upper-quadrant-stop-permissive-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-upper-quadrant-stop-permissive-clear.1.2,42,-2
+Image[5]=images/semaphore-upper-quadrant-stop-permissive-clear.1.0,-37,12
+Image[6]=images/semaphore-upper-quadrant-stop-permissive-clear.1.1,-7,-18
+Image[7]=images/semaphore-upper-quadrant-stop-permissive-clear.1.3,10,27
+# CALL ON
+Image[8]=images/semaphore-upper-quadrant-stop-permissive-call-on.1.2,42,-2
+Image[9]=images/semaphore-upper-quadrant-stop-permissive-call-on.1.0,-37,12
+Image[10]=images/semaphore-upper-quadrant-stop-permissive-call-on.1.1,-7,-18
+Image[11]=images/semaphore-upper-quadrant-stop-permissive-call-on.1.3,10,27
+Icon=> images/signal-icons-ex.4.6
+Cursor=images/signal-icons-ex.4.7
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=uq-semaphore-combined
+waytype=track
+cost=20000
+signal_upgrade_cost=10000
+maintenance=3400
+aspects=3
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=12
+is_signal=1
+is_presignal=1
+intro_year=1924
+intro_month=7
+# DANGER
+Image[0]=images/semaphore-upper-quadrant-combined-danger.1.2,42,-2
+Image[1]=images/semaphore-upper-quadrant-combined-danger.1.0,-37,12
+Image[2]=images/semaphore-upper-quadrant-combined-danger.1.1,-7,-18
+Image[3]=images/semaphore-upper-quadrant-combined-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-upper-quadrant-combined-clear.1.2,42,-2
+Image[5]=images/semaphore-upper-quadrant-combined-clear.1.0,-37,12
+Image[6]=images/semaphore-upper-quadrant-combined-clear.1.1,-7,-18
+Image[7]=images/semaphore-upper-quadrant-combined-clear.1.3,10,27
+# CAUTION
+Image[8]=images/semaphore-upper-quadrant-combined-caution.1.2,42,-2
+Image[9]=images/semaphore-upper-quadrant-combined-caution.1.0,-37,12
+Image[10]=images/semaphore-upper-quadrant-combined-caution.1.1,-7,-18
+Image[11]=images/semaphore-upper-quadrant-combined-caution.1.3,10,27
+Icon=> images/signal-icons.2.6
+Cursor=images/signal-icons.2.7
+---------------------------------------
 obj=roadsign
 copyright=JamesPetts
 name=uq-semaphore-junction
 waytype=track
-cost=1600
+cost=10000
+signal_upgrade_cost=5000
+maintenance=1700
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=10
 is_signal=1
 free_route=1
 intro_year=1924
@@ -588,53 +2568,639 @@ Image[0]=images/semaphore-upper-quadrant-junction-danger.1.2,42,-2
 Image[1]=images/semaphore-upper-quadrant-junction-danger.1.0,-37,12
 Image[2]=images/semaphore-upper-quadrant-junction-danger.1.1,-7,-18
 Image[3]=images/semaphore-upper-quadrant-junction-danger.1.3,10,27
-# CLEAR
+# CLEAR (subsidiary route)
 Image[4]=images/semaphore-upper-quadrant-junction-clear.1.2,42,-2
 Image[5]=images/semaphore-upper-quadrant-junction-clear.1.0,-37,12
 Image[6]=images/semaphore-upper-quadrant-junction-clear.1.1,-7,-18
 Image[7]=images/semaphore-upper-quadrant-junction-clear.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/semaphore-upper-quadrant-junction-clear-main.1.2,42,-2
+Image[9]=images/semaphore-upper-quadrant-junction-clear-main.1.0,-37,12
+Image[10]=images/semaphore-upper-quadrant-junction-clear-main.1.1,-7,-18
+Image[11]=images/semaphore-upper-quadrant-junction-clear-main.1.3,10,27
 Icon=> images/signal-icons.2.4
 Cursor=images/signal-icons.2.5
 ---------------------------------------
-# Long block signal left side
-# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
 obj=roadsign
 copyright=JamesPetts
-name=uq-semaphore-longblock
+name=uq-semaphore-token
 waytype=track
-cost=1600
+cost=10000
+signal_upgrade_cost=5000
+maintenance=1700
+aspects=2
+working_method=token_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=3
+allow_underground=0
+upgrade_group=11
 is_signal=1
 is_longblocksignal=1
 intro_year=1924
 intro_month=7
 # DANGER
-Image[0]=images/semaphore-upper-quadrant-longblock-danger.1.2,42,-2
-Image[1]=images/semaphore-upper-quadrant-longblock-danger.1.0,-37,12
-Image[2]=images/semaphore-upper-quadrant-longblock-danger.1.1,-7,-18
-Image[3]=images/semaphore-upper-quadrant-longblock-danger.1.3,10,27
+Image[0]=images/semaphore-upper-quadrant-stop-token-danger.1.2,42,-2
+Image[1]=images/semaphore-upper-quadrant-stop-token-danger.1.0,-37,12
+Image[2]=images/semaphore-upper-quadrant-stop-token-danger.1.1,-7,-18
+Image[3]=images/semaphore-upper-quadrant-stop-token-danger.1.3,10,27
 # CLEAR
-Image[4]=images/semaphore-upper-quadrant-longblock-clear.1.2,42,-2
-Image[5]=images/semaphore-upper-quadrant-longblock-clear.1.0,-37,12
-Image[6]=images/semaphore-upper-quadrant-longblock-clear.1.1,-7,-18
-Image[7]=images/semaphore-upper-quadrant-longblock-clear.1.3,10,27
-Icon=> images/signal-icons.2.6
-Cursor=images/signal-icons.2.7
+Image[4]=images/semaphore-upper-quadrant-stop-token-clear.1.2,42,-2
+Image[5]=images/semaphore-upper-quadrant-stop-token-clear.1.0,-37,12
+Image[6]=images/semaphore-upper-quadrant-stop-token-clear.1.1,-7,-18
+Image[7]=images/semaphore-upper-quadrant-stop-token-clear.1.3,10,27
+Icon=> images/signal-icons-ex.5.2
+Cursor=images/signal-icons-ex.5.3
+---------------------------------------
+# INTERMEDIATE BLOCK AUTO SEMAPHORES
+#--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=ib-semaphore-stop
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=20
+is_signal=1
+intermediate_block=1
+intro_year=1911
+intro_month=1
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-stop-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-stop-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-stop-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-stop-clear.1.3,10,27
+Icon=> images/semaphore-automatic-stop-icon.1.1
+Cursor=images/semaphore-automatic-stop-icon.1.0
+--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=ib-semaphore-distant-red
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=21
+is_presignal=1
+intermediate_block=1
+intro_year=1911
+intro_month=1
+retire_year=1918
+retire_month=1
+
+# CAUTION
+Image[0]=images/semaphore-ib-distant-caution.1.2,42,-2
+Image[1]=images/semaphore-ib-distant-caution.1.0,-37,12
+Image[2]=images/semaphore-ib-distant-caution.1.1,-7,-18
+Image[3]=images/semaphore-ib-distant-caution.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-ib-distant-clear.1.2,42,-2
+Image[5]=images/semaphore-ib-distant-clear.1.0,-37,12
+Image[6]=images/semaphore-ib-distant-clear.1.1,-7,-18
+Image[7]=images/semaphore-ib-distant-clear.1.3,10,27
+Icon=> images/semaphore-automatic-distant-icon.1.1
+Cursor=images/semaphore-automatic-distant-icon.1.0
+--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=ib-semaphore-distant
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=21
+is_presignal=1
+intermediate_block=1
+intro_year=1918
+intro_month=1
+retire_year=1920
+retire_month=4
+
+# CAUTION
+Image[0]=images/semaphore-automatic-distant-caution.1.2,42,-2
+Image[1]=images/semaphore-automatic-distant-caution.1.0,-37,12
+Image[2]=images/semaphore-automatic-distant-caution.1.1,-7,-18
+Image[3]=images/semaphore-automatic-distant-caution.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-distant-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-distant-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-distant-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-distant-clear.1.3,10,27
+Icon=> images/semaphore-automatic-distant-icon.1.1
+Cursor=images/semaphore-automatic-distant-icon.1.0
+---------------------------------------
+# ELECTRO-PNEUMATIC TUNNEL SIGNALS, 1900s
+#--------------------------------------
+# See https://archive.org/stream/powerrailwaysign00wilsrich#page/172/mode/2up
+# As used by the District Railway
+obj=roadsign
+copyright=JamesPetts
+name=electro-pneumatic-tunnel-signal-stop
+waytype=track
+cost=30875
+signal_upgrade_cost=13125
+maintenance=1875
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1905
+intro_month=7
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/electro-pneumatic-tunnel-signal-danger.1.2,42,-2
+Image[1]=images/electro-pneumatic-tunnel-signal-danger.1.0,-37,12
+Image[2]=images/electro-pneumatic-tunnel-signal-danger.1.1,-7,-18
+Image[3]=images/electro-pneumatic-tunnel-signal-danger.1.3,10,27
+# CLEAR
+Image[4]=images/electro-pneumatic-tunnel-signal-clear.1.2,42,-2
+Image[5]=images/electro-pneumatic-tunnel-signal-clear.1.0,-37,12
+Image[6]=images/electro-pneumatic-tunnel-signal-clear.1.1,-7,-18
+Image[7]=images/electro-pneumatic-tunnel-signal-clear.1.3,10,27
+Icon=> images/electro-pneumatic-tunnel-signal-icon.1.1
+Cursor=images/electro-pneumatic-tunnel-signal-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=electro-pneumatic-tunnel-signal-stop-permissive
+waytype=track
+cost=30875
+signal_upgrade_cost=13125
+maintenance=1875
+aspects=2
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1905
+intro_month=7
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/electro-pneumatic-tunnel-signal-danger.1.2,42,-2
+Image[1]=images/electro-pneumatic-tunnel-signal-danger.1.0,-37,12
+Image[2]=images/electro-pneumatic-tunnel-signal-danger.1.1,-7,-18
+Image[3]=images/electro-pneumatic-tunnel-signal-danger.1.3,10,27
+# CLEAR
+Image[4]=images/electro-pneumatic-tunnel-signal-clear.1.2,42,-2
+Image[5]=images/electro-pneumatic-tunnel-signal-clear.1.0,-37,12
+Image[6]=images/electro-pneumatic-tunnel-signal-clear.1.1,-7,-18
+Image[7]=images/electro-pneumatic-tunnel-signal-clear.1.3,10,27
+Icon=> images/electro-pneumatic-tunnel-signal-icon.1.1
+Cursor=images/electro-pneumatic-tunnel-signal-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=electro-pneumatic-tunnel-signal-distant
+waytype=track
+cost=30875
+signal_upgrade_cost=13125
+maintenance=1875
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=2
+is_presignal=1
+intro_year=1905
+intro_month=7
+retire_year=1920
+retire_month=4
+
+# CAUTION
+Image[0]=images/electro-pneumatic-tunnel-signal-caution.1.2,42,-2
+Image[1]=images/electro-pneumatic-tunnel-signal-caution.1.0,-37,12
+Image[2]=images/electro-pneumatic-tunnel-signal-caution.1.1,-7,-18
+Image[3]=images/electro-pneumatic-tunnel-signal-caution.1.3,10,27
+# CLEAR
+Image[4]=images/electro-pneumatic-tunnel-signal-clear.1.2,42,-2
+Image[5]=images/electro-pneumatic-tunnel-signal-clear.1.0,-37,12
+Image[6]=images/electro-pneumatic-tunnel-signal-clear.1.1,-7,-18
+Image[7]=images/electro-pneumatic-tunnel-signal-clear.1.3,10,27
+Icon=> images/electro-pneumatic-tunnel-signal-icon-distant.1.1
+Cursor=images/electro-pneumatic-tunnel-signal-icon-distant.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=electro-pneumatic-tunnel-signal-choose
+waytype=track
+cost=55575
+signal_upgrade_cost=23625
+maintenance=3375
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=1
+upgrade_group=0
+is_signal=1
+free_route=1
+intro_year=1905
+intro_month=7
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/electro-pneumatic-tunnel-signal-junction-danger.1.2,42,-2
+Image[1]=images/electro-pneumatic-tunnel-signal-junction-danger.1.0,-37,12
+Image[2]=images/electro-pneumatic-tunnel-signal-junction-danger.1.1,-7,-18
+Image[3]=images/electro-pneumatic-tunnel-signal-junction-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/electro-pneumatic-tunnel-signal-junction-clear.1.2,42,-2
+Image[5]=images/electro-pneumatic-tunnel-signal-junction-clear.1.0,-37,12
+Image[6]=images/electro-pneumatic-tunnel-signal-junction-clear.1.1,-7,-18
+Image[7]=images/electro-pneumatic-tunnel-signal-junction-clear.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/electro-pneumatic-tunnel-signal-junction-clear-main.1.2,42,-2
+Image[9]=images/electro-pneumatic-tunnel-signal-junction-clear-main.1.0,-37,12
+Image[10]=images/electro-pneumatic-tunnel-signal-junction-clear-main.1.1,-7,-18
+Image[11]=images/electro-pneumatic-tunnel-signal-junction-clear-main.1.3,10,27
+Icon=> images/electro-pneumatic-tunnel-signal-junction-icon.1.1
+Cursor=images/electro-pneumatic-tunnel-signal-junction-icon.1.0
+---------------------------------------
+# POWER OPERATED AUTOMATIC SEMAPHORES 1900s
+#--------------------------------------
+# See https://archive.org/stream/powerrailwaysign00wilsrich#page/172/mode/2up
+# These were automatic (i.e. track circuit block) signals, worked by air or
+# electricity, but mechanical/semaphore because there were not bright
+# enough lamps to allow colour light signals by day until the 1920s.
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-stop
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=1
+is_signal=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-stop-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-stop-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-stop-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-stop-clear.1.3,10,27
+Icon=> images/semaphore-automatic-stop-icon.1.1
+Cursor=images/semaphore-automatic-stop-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-distant
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=2
+normal_danger=0
+is_presignal=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# CAUTION
+Image[0]=images/semaphore-automatic-distant-caution.1.2,42,-2
+Image[1]=images/semaphore-automatic-distant-caution.1.0,-37,12
+Image[2]=images/semaphore-automatic-distant-caution.1.1,-7,-18
+Image[3]=images/semaphore-automatic-distant-caution.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-distant-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-distant-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-distant-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-distant-clear.1.3,10,27
+Icon=> images/semaphore-automatic-distant-icon.1.1
+Cursor=images/semaphore-automatic-distant-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-stop-permissive
+waytype=track
+cost=24700
+signal_upgrade_cost=8750
+maintenance=1250
+aspects=2
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=0
+upgrade_group=16
+is_signal=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-stop-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-stop-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-stop-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-stop-clear.1.3,10,27
+Icon=> images/semaphore-automatic-stop-icon.1.1
+Cursor=images/semaphore-automatic-stop-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+Name=automatic-semaphore-choose
+waytype=track
+is_signal=1
+free_route=1
+cost=44460
+signal_upgrade_cost=15750
+maintenance=2250
+aspects=2
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=5
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-junction-stop-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-junction-stop-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-junction-stop-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-junction-stop-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/semaphore-automatic-junction-stop-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-junction-stop-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-junction-stop-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-junction-stop-clear.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/semaphore-automatic-junction-stop-clear-main.1.2,42,-2
+Image[9]=images/semaphore-automatic-junction-stop-clear-main.1.0,-37,12
+Image[10]=images/semaphore-automatic-junction-stop-clear-main.1.1,-7,-18
+Image[11]=images/semaphore-automatic-junction-stop-clear-main.1.3,10,27
+Icon=> images/semaphore-automatic-junction-stop-icon.1.1
+Cursor=images/semaphore-automatic-junction-stop-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-combined
+waytype=track
+cost=44460
+signal_upgrade_cost=15750
+maintenance=2250
+aspects=3
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=1
+is_signal=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-combined-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-combined-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-combined-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-combined-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-combined-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-combined-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-combined-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-combined-clear.1.3,10,27
+# CAUTION
+Image[8]=images/semaphore-automatic-combined-caution.1.2,42,-2
+Image[9]=images/semaphore-automatic-combined-caution.1.0,-37,12
+Image[10]=images/semaphore-automatic-combined-caution.1.1,-7,-18
+Image[11]=images/semaphore-automatic-combined-caution.1.3,10,27
+Icon=> images/semaphore-automatic-combined-icon.1.1
+Cursor=images/semaphore-automatic-combined-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-combined-permissive
+waytype=track
+cost=44460
+signal_upgrade_cost=15750
+maintenance=2250
+aspects=3
+working_method=track_circuit_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=1
+signal_groups=5
+allow_underground=0
+upgrade_group=1
+is_signal=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-combined-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-combined-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-combined-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-combined-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-automatic-combined-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-combined-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-combined-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-combined-clear.1.3,10,27
+# CAUTION
+Image[8]=images/semaphore-automatic-combined-caution.1.2,42,-2
+Image[9]=images/semaphore-automatic-combined-caution.1.0,-37,12
+Image[10]=images/semaphore-automatic-combined-caution.1.1,-7,-18
+Image[11]=images/semaphore-automatic-combined-caution.1.3,10,27
+Icon=> images/semaphore-automatic-combined-icon.1.1
+Cursor=images/semaphore-automatic-combined-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=automatic-semaphore-combined-choose
+waytype=track
+cost=88920
+signal_upgrade_cost=31500
+maintenance=4500
+aspects=3
+working_method=track_circuit_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=5
+allow_underground=0
+upgrade_group=1
+is_signal=1
+free_route=1
+intro_year=1902
+intro_month=8
+retire_year=1920
+retire_month=4
+
+# DANGER
+Image[0]=images/semaphore-automatic-junction-combined-danger.1.2,42,-2
+Image[1]=images/semaphore-automatic-junction-combined-danger.1.0,-37,12
+Image[2]=images/semaphore-automatic-junction-combined-danger.1.1,-7,-18
+Image[3]=images/semaphore-automatic-junction-combined-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/semaphore-automatic-junction-combined-clear.1.2,42,-2
+Image[5]=images/semaphore-automatic-junction-combined-clear.1.0,-37,12
+Image[6]=images/semaphore-automatic-junction-combined-clear.1.1,-7,-18
+Image[7]=images/semaphore-automatic-junction-combined-clear.1.3,10,27
+# CAUTION (subsidiary route)
+Image[8]=images/semaphore-automatic-junction-combined-caution.1.2,42,-2
+Image[9]=images/semaphore-automatic-junction-combined-caution.1.0,-37,12
+Image[10]=images/semaphore-automatic-junction-combined-caution.1.1,-7,-18
+Image[11]=images/semaphore-automatic-junction-combined-caution.1.3,10,27
+# CLEAR (main route)
+Image[12]=images/semaphore-automatic-junction-combined-clear-main.1.2,42,-2
+Image[13]=images/semaphore-automatic-junction-combined-clear-main.1.0,-37,12
+Image[14]=images/semaphore-automatic-junction-combined-clear-main.1.1,-7,-18
+Image[15]=images/semaphore-automatic-junction-combined-clear-main.1.3,10,27
+# CAUTION (main route)
+Image[16]=images/semaphore-automatic-junction-combined-caution-main.1.2,42,-2
+Image[17]=images/semaphore-automatic-junction-combined-caution-main.1.0,-37,12
+Image[18]=images/semaphore-automatic-junction-combined-caution-main.1.1,-7,-18
+Image[19]=images/semaphore-automatic-junction-combined-caution-main.1.3,10,27
+Icon=> images/semaphore-automatic-junction-combined-icon.1.1
+Cursor=images/semaphore-automatic-junction-combined-icon.1.0
 ---------------------------------------
 # LOWER QUADRANT SEMAPHORES
 #--------------------------------------
 # See http://www.railsigns.uk/sect2page1/sect2page1.html
 # Lower quadrant signals were used for most of the 19th and early 20th centuries.
-# Stop signal left side (original, with white clear aspect)
+# (Original, with white clear aspect)
 obj=roadsign
 copyright=JamesPetts
 name=lq-semaphore-stop-white
 waytype=track
-cost=1600
+cost=9000
+signal_upgrade_cost=4500
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=8
 is_signal=1
 intro_year=1860
 intro_month=2
 retire_year=1880
 retire_month=5
+
 # DANGER
 Image[0]=images/semaphore-lower-quadrant-stop-danger.1.2,42,-2
 Image[1]=images/semaphore-lower-quadrant-stop-danger.1.0,-37,12
@@ -648,17 +3214,30 @@ Image[7]=images/semaphore-lower-quadrant-stop-clear-white.1.3,10,27
 Icon=> images/signal-icons.3.0
 Cursor=images/signal-icons.3.1
 ---------------------------------------
-# Stop signal left side (later, with green clear aspect)
+# (Later, with green clear aspect)
 obj=roadsign
 copyright=JamesPetts
 name=lq-semaphore-stop
 waytype=track
-cost=1600
+cost=9000
+signal_upgrade_cost=4500
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=8
 is_signal=1
 intro_year=1880
 intro_month=5
 retire_year=1924
 retire_month=7
+
 # DANGER
 Image[0]=images/semaphore-lower-quadrant-stop-danger.1.2,42,-2
 Image[1]=images/semaphore-lower-quadrant-stop-danger.1.0,-37,12
@@ -672,19 +3251,31 @@ Image[7]=images/semaphore-lower-quadrant-stop-clear.1.3,10,27
 Icon=> images/signal-icons.3.0
 Cursor=images/signal-icons.3.1
 ---------------------------------------
-# Distant signal left side
 # (Early version with red arm and white clear aspect)
 obj=roadsign
 copyright=JamesPetts
 name=lq-semaphore-distant-red-white
 waytype=track
-cost=1600
+cost=9000
+signal_upgrade_cost=4500
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=9
 is_presignal=1
 intro_year=1860
 intro_month=2
 retire_year=1880
 retire_month=5
-# DANGER (unused)
+
+# CAUTION
 Image[0]=images/semaphore-lower-quadrant-distant-red-caution.1.2,42,-2
 Image[1]=images/semaphore-lower-quadrant-distant-red-caution.1.0,-37,12
 Image[2]=images/semaphore-lower-quadrant-distant-red-caution.1.1,-7,-18
@@ -694,27 +3285,34 @@ Image[4]=images/semaphore-lower-quadrant-distant-red-clear-white.1.2,42,-2
 Image[5]=images/semaphore-lower-quadrant-distant-red-clear-white.1.0,-37,12
 Image[6]=images/semaphore-lower-quadrant-distant-red-clear-white.1.1,-7,-18
 Image[7]=images/semaphore-lower-quadrant-distant-red-clear-white.1.3,10,27
-# CAUTION
-Image[8]=images/semaphore-lower-quadrant-distant-red-caution.1.2,42,-2
-Image[9]=images/semaphore-lower-quadrant-distant-red-caution.1.0,-37,12
-Image[10]=images/semaphore-lower-quadrant-distant-red-caution.1.1,-7,-18
-Image[11]=images/semaphore-lower-quadrant-distant-red-caution.1.3,10,27
 Icon=> images/signal-icons.3.2
 Cursor=images/signal-icons.3.3
 ---------------------------------------
-# Distant signal left side
 # (Intermediate version with red arm and green clear aspect)
 obj=roadsign
 copyright=JamesPetts
 name=lq-semaphore-distant-red
 waytype=track
-cost=1600
+cost=9000
+signal_upgrade_cost=4500
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=9
 is_presignal=1
 intro_year=1880
 intro_month=5
 retire_year=1918
 retire_month=1
-# DANGER (unused)
+
+# CAUTION
 Image[0]=images/semaphore-lower-quadrant-distant-red-caution.1.2,42,-2
 Image[1]=images/semaphore-lower-quadrant-distant-red-caution.1.0,-37,12
 Image[2]=images/semaphore-lower-quadrant-distant-red-caution.1.1,-7,-18
@@ -724,27 +3322,34 @@ Image[4]=images/semaphore-lower-quadrant-distant-red-clear.1.2,42,-2
 Image[5]=images/semaphore-lower-quadrant-distant-red-clear.1.0,-37,12
 Image[6]=images/semaphore-lower-quadrant-distant-red-clear.1.1,-7,-18
 Image[7]=images/semaphore-lower-quadrant-distant-red-clear.1.3,10,27
-# CAUTION
-Image[8]=images/semaphore-lower-quadrant-distant-red-caution.1.2,42,-2
-Image[9]=images/semaphore-lower-quadrant-distant-red-caution.1.0,-37,12
-Image[10]=images/semaphore-lower-quadrant-distant-red-caution.1.1,-7,-18
-Image[11]=images/semaphore-lower-quadrant-distant-red-caution.1.3,10,27
 Icon=> images/signal-icons.3.2
 Cursor=images/signal-icons.3.3
 ---------------------------------------
-# Distant signal left side
 # (Later version with yellow arm)
 obj=roadsign
 copyright=JamesPetts
 name=lq-semaphore-distant
 waytype=track
-cost=1600
+cost=9000
+signal_upgrade_cost=4500
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=9
 is_presignal=1
 intro_year=1918
 intro_month=1
 retire_year=1924
 retire_month=7
-# DANGER (unused)
+
+#CAUTION
 Image[0]=images/semaphore-lower-quadrant-distant-caution.1.2,42,-2
 Image[1]=images/semaphore-lower-quadrant-distant-caution.1.0,-37,12
 Image[2]=images/semaphore-lower-quadrant-distant-caution.1.1,-7,-18
@@ -754,134 +3359,162 @@ Image[4]=images/semaphore-lower-quadrant-distant-clear.1.2,42,-2
 Image[5]=images/semaphore-lower-quadrant-distant-clear.1.0,-37,12
 Image[6]=images/semaphore-lower-quadrant-distant-clear.1.1,-7,-18
 Image[7]=images/semaphore-lower-quadrant-distant-clear.1.3,10,27
-# CAUTION
-Image[8]=images/semaphore-lower-quadrant-distant-caution.1.2,42,-2
-Image[9]=images/semaphore-lower-quadrant-distant-caution.1.0,-37,12
-Image[10]=images/semaphore-lower-quadrant-distant-caution.1.1,-7,-18
-Image[11]=images/semaphore-lower-quadrant-distant-caution.1.3,10,27
 Icon=> images/signal-icons.3.2
 Cursor=images/signal-icons.3.3
 ---------------------------------------
-# Long block signal left side
-# (Later version with yellow distant arm)
-# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
+# (Original, with white clear aspect)
 obj=roadsign
 copyright=JamesPetts
-name=lq-semaphore-longblock
+name=lq-semaphore-permissive-white
 waytype=track
-cost=1600
+cost=9100
+signal_upgrade_cost=4550
+maintenance=1575
+aspects=2
+working_method=absolute_block
+max_speed=75
+has_selective_choose=0
+has_call_on=1
+max_distance_to_signalbox=1750
+permissive=1
+signal_groups=2
+allow_underground=0
+upgrade_group=13
 is_signal=1
-is_longblocksignal=1
-intro_year=1918
-intro_month=1
-retire_year=1924
-retire_month=7
-# DANGER
-Image[0]=images/semaphore-lower-quadrant-longblock-danger.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-longblock-danger.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-longblock-danger.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-longblock-danger.1.3,10,27
-# CLEAR
-Image[4]=images/semaphore-lower-quadrant-longblock-clear.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-longblock-clear.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-longblock-clear.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-longblock-clear.1.3,10,27
-Icon=> images/signal-icons.3.4
-Cursor=images/signal-icons.3.5
----------------------------------------
-# Long block signal left side
-# (Intermediate version with red distant arm and green clear aspect)
-# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
-obj=roadsign
-copyright=JamesPetts
-name=lq-semaphore-longblock-red
-waytype=track
-cost=1600
-is_signal=1
-is_longblocksignal=1
-intro_year=1880
-intro_month=5
-retire_year=1918
-retire_month=1
-# DANGER
-Image[0]=images/semaphore-lower-quadrant-longblock-red-danger.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-longblock-red-danger.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-longblock-red-danger.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-longblock-red-danger.1.3,10,27
-# CLEAR
-Image[4]=images/semaphore-lower-quadrant-longblock-red-clear.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-longblock-red-clear.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-longblock-red-clear.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-longblock-red-clear.1.3,10,27
-Icon=> images/signal-icons.3.4
-Cursor=images/signal-icons.3.5
----------------------------------------
-# Long block signal left side
-# (Early version with red distant arm and white clear aspect)
-# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
-obj=roadsign
-copyright=JamesPetts
-name=lq-semaphore-longblock-red-white
-waytype=track
-cost=1600
-is_signal=1
-is_longblocksignal=1
 intro_year=1860
 intro_month=2
 retire_year=1880
 retire_month=5
+
 # DANGER
-Image[0]=images/semaphore-lower-quadrant-longblock-red-danger.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-longblock-red-danger.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-longblock-red-danger.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-longblock-red-danger.1.3,10,27
+Image[0]=images/semaphore-lower-quadrant-stop-permissive-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-stop-permissive-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-stop-permissive-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-stop-permissive-danger.1.3,10,27
 # CLEAR
-Image[4]=images/semaphore-lower-quadrant-longblock-red-clear-white.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-longblock-red-clear-white.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-longblock-red-clear-white.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-longblock-red-clear-white.1.3,10,27
-Icon=> images/signal-icons.3.4
-Cursor=images/signal-icons.3.5
+Image[4]=images/semaphore-lower-quadrant-stop-permissive-clear-white.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-stop-permissive-clear-white.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-stop-permissive-clear-white.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-stop-permissive-clear-white.1.3,10,27
+# CALL ON
+Image[8]=images/semaphore-lower-quadrant-stop-permissive-call-on.1.2,42,-2
+Image[9]=images/semaphore-lower-quadrant-stop-permissive-call-on.1.0,-37,12
+Image[10]=images/semaphore-lower-quadrant-stop-permissive-call-on.1.1,-7,-18
+Image[11]=images/semaphore-lower-quadrant-stop-permissive-call-on.1.3,10,27
+Icon=> images/signal-icons-ex.4.8
+Cursor=images/signal-icons-ex.4.9
 ---------------------------------------
-# Junction (choose) signal left side
+# (Later, with green clear aspect)
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-permissive
+waytype=track
+cost=9100
+signal_upgrade_cost=4550
+maintenance=1575
+aspects=2
+working_method=absolute_block
+max_speed=75
+has_selective_choose=0
+has_call_on=1
+max_distance_to_signalbox=1750
+permissive=1
+signal_groups=2
+allow_underground=0
+upgrade_group=13
+is_signal=1
+intro_year=1880
+intro_month=5
+retire_year=1924
+retire_month=7
+
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-stop-permissive-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-stop-permissive-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-stop-permissive-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-stop-permissive-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-stop-permissive-clear.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-stop-permissive-clear.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-stop-permissive-clear.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-stop-permissive-clear.1.3,10,27
+# CALL ON
+Image[8]=images/semaphore-lower-quadrant-stop-permissive-call-on.1.2,42,-2
+Image[9]=images/semaphore-lower-quadrant-stop-permissive-call-on.1.0,-37,12
+Image[10]=images/semaphore-lower-quadrant-stop-permissive-call-on.1.1,-7,-18
+Image[11]=images/semaphore-lower-quadrant-stop-permissive-call-on.1.3,10,27
+Icon=> images/signal-icons-ex.4.8
+Cursor=images/signal-icons-ex.4.9
+---------------------------------------
 # (Later version with green clear aspect)
 obj=roadsign
 copyright=JamesPetts
 name=lq-semaphore-junction
 waytype=track
-cost=1600
+cost=10000
+signal_upgrade_cost=5000
+maintenance=1700
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=10
 is_signal=1
 free_route=1
 intro_year=1880
 intro_month=5
 retire_year=1924
 retire_month=7
+
 # DANGER
 Image[0]=images/semaphore-lower-quadrant-junction-danger.1.2,42,-2
 Image[1]=images/semaphore-lower-quadrant-junction-danger.1.0,-37,12
 Image[2]=images/semaphore-lower-quadrant-junction-danger.1.1,-7,-18
 Image[3]=images/semaphore-lower-quadrant-junction-danger.1.3,10,27
-# CLEAR
+# CLEAR (subsidiary route)
 Image[4]=images/semaphore-lower-quadrant-junction-clear.1.2,42,-2
 Image[5]=images/semaphore-lower-quadrant-junction-clear.1.0,-37,12
 Image[6]=images/semaphore-lower-quadrant-junction-clear.1.1,-7,-18
 Image[7]=images/semaphore-lower-quadrant-junction-clear.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/semaphore-lower-quadrant-junction-clear-main.1.2,42,-2
+Image[9]=images/semaphore-lower-quadrant-junction-clear-main.1.0,-37,12
+Image[10]=images/semaphore-lower-quadrant-junction-clear-main.1.1,-7,-18
+Image[11]=images/semaphore-lower-quadrant-junction-clear-main.1.3,10,27
 Icon=> images/signal-icons.3.6
 Cursor=images/signal-icons.3.7
 ---------------------------------------
-# Junction (choose) signal left side
 # (Earlier version with white clear aspect)
 obj=roadsign
 copyright=JamesPetts
 name=lq-semaphore-junction-white
 waytype=track
-cost=1600
+cost=10000
+signal_upgrade_cost=5000
+maintenance=1700
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=10
 is_signal=1
 free_route=1
-intro_year=1880
-intro_month=5
-retire_year=1924
-retire_month=7
+intro_year=1860
+intro_month=2
+retire_year=1880
+retire_month=5
+signal_groups=2
+
 # DANGER
 Image[0]=images/semaphore-lower-quadrant-junction-danger.1.2,42,-2
 Image[1]=images/semaphore-lower-quadrant-junction-danger.1.0,-37,12
@@ -892,310 +3525,593 @@ Image[4]=images/semaphore-lower-quadrant-junction-clear-white.1.2,42,-2
 Image[5]=images/semaphore-lower-quadrant-junction-clear-white.1.0,-37,12
 Image[6]=images/semaphore-lower-quadrant-junction-clear-white.1.1,-7,-18
 Image[7]=images/semaphore-lower-quadrant-junction-clear-white.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/semaphore-lower-quadrant-junction-clear-main-white.1.2,42,-2
+Image[9]=images/semaphore-lower-quadrant-junction-clear-main-white.1.0,-37,12
+Image[10]=images/semaphore-lower-quadrant-junction-clear-main-white.1.1,-7,-18
+Image[11]=images/semaphore-lower-quadrant-junction-clear-main-white.1.3,10,27
 Icon=> images/signal-icons.3.6
 Cursor=images/signal-icons.3.7
 ---------------------------------------
-# UNDERGROUND SEMAPHORES
-#--------------------------------------
-# There is little information available about underground
-# semaphore signalling, but some photographs show ordinary 
-# signals on shorter posts. These thus share graphics with
-# the narrow gauge signals.
+# (Later version with green clear aspect)
 obj=roadsign
 copyright=JamesPetts
-name=lq-semaphore-underground-stop-white
+name=lq-semaphore-token
 waytype=track
-allow_underground=1
-cost=2800
+cost=10000
+signal_upgrade_cost=5000
+maintenance=1700
+aspects=2
+working_method=token_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=3
+allow_underground=0
+upgrade_group=11
 is_signal=1
-intro_year=1860
-intro_month=2
-retire_year=1880
-retire_month=5
-# DANGER
-Image[0]=images/semaphore-lower-quadrant-short-post-stop-danger.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-short-post-stop-danger.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-short-post-stop-danger.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-short-post-stop-danger.1.3,10,27
-# CLEAR
-Image[4]=images/semaphore-lower-quadrant-short-post-stop-clear-white.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-short-post-stop-clear-white.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-short-post-stop-clear-white.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-short-post-stop-clear-white.1.3,10,27
-Icon=> images/signal-icons.3.0
-Cursor=images/signal-icons.3.1
----------------------------------------
-# Stop signal left side (later, with green clear aspect)
-obj=roadsign
-copyright=JamesPetts
-name=lq-semaphore-underground-stop
-waytype=track
-allow_underground=1
-cost=2800
-is_signal=1
+is_longblocksignal=1
 intro_year=1880
 intro_month=5
 retire_year=1924
 retire_month=7
+
 # DANGER
-Image[0]=images/semaphore-lower-quadrant-short-post-stop-danger.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-short-post-stop-danger.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-short-post-stop-danger.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-short-post-stop-danger.1.3,10,27
+Image[0]=images/semaphore-lower-quadrant-stop-token-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-stop-token-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-stop-token-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-stop-token-danger.1.3,10,27
 # CLEAR
-Image[4]=images/semaphore-lower-quadrant-short-post-stop-clear.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-short-post-stop-clear.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-short-post-stop-clear.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-short-post-stop-clear.1.3,10,27
-Icon=> images/signal-icons.3.0
-Cursor=images/signal-icons.3.1
+Image[4]=images/semaphore-lower-quadrant-stop-token-clear.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-stop-token-clear.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-stop-token-clear.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-stop-token-clear.1.3,10,27
+Icon=> images/signal-icons-ex.5.4
+Cursor=images/signal-icons-ex.5.5
 ---------------------------------------
-# Distant signal left side
+# (Earlier version with white clear aspect)
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-token-white
+waytype=track
+cost=10000
+signal_upgrade_cost=5000
+maintenance=1700
+aspects=2
+working_method=token_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=3
+allow_underground=0
+upgrade_group=11
+is_signal=1
+is_longblocksignal=1
+intro_year=1860
+intro_month=2
+retire_year=1880
+retire_month=5
+
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-stop-token-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-stop-token-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-stop-token-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-stop-token-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-stop-token-clear-white.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-stop-token-clear-white.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-stop-token-clear-white.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-stop-token-clear-white.1.3,10,27
+Icon=> images/signal-icons-ex.5.4
+Cursor=images/signal-icons-ex.5.5
+---------------------------------------
 # (Early version with red arm and white clear aspect)
 obj=roadsign
 copyright=JamesPetts
-name=lq-semaphore-underground-distant-red-white
+name=lq-semaphore-combined-red-white
 waytype=track
-allow_underground=1
-cost=2800
+cost=20000
+signal_upgrade_cost=10000
+maintenance=3400
+aspects=3
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=12
+is_signal=1
 is_presignal=1
 intro_year=1860
 intro_month=2
 retire_year=1880
 retire_month=5
-# DANGER (unused)
-Image[0]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.3,10,27
+
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-combined-red-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-combined-red-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-combined-red-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-combined-red-danger.1.3,10,27
 # CLEAR
-Image[4]=images/semaphore-lower-quadrant-short-post-distant-red-clear-white.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-short-post-distant-red-clear-white.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-short-post-distant-red-clear-white.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-short-post-distant-red-clear-white.1.3,10,27
+Image[4]=images/semaphore-lower-quadrant-combined-red-clear-white.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-combined-red-clear-white.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-combined-red-clear-white.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-combined-red-clear-white.1.3,10,27
 # CAUTION
-Image[8]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.2,42,-2
-Image[9]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.0,-37,12
-Image[10]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.1,-7,-18
-Image[11]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.3,10,27
-Icon=> images/signal-icons.3.2
-Cursor=images/signal-icons.3.3
+Image[8]=images/semaphore-lower-quadrant-combined-red-caution.1.2,42,-2
+Image[9]=images/semaphore-lower-quadrant-combined-red-caution.1.0,-37,12
+Image[10]=images/semaphore-lower-quadrant-combined-red-caution.1.1,-7,-18
+Image[11]=images/semaphore-lower-quadrant-combined-red-caution.1.3,10,27
+Icon=> images/signal-icons.3.4
+Cursor=images/signal-icons.3.5
 ---------------------------------------
-# Distant signal left side
 # (Intermediate version with red arm and green clear aspect)
 obj=roadsign
 copyright=JamesPetts
-name=lq-semaphore-underground-distant-red
+name=lq-semaphore-combined-red
 waytype=track
-allow_underground=1
-cost=2800
+cost=20000
+signal_upgrade_cost=10000
+maintenance=3400
+aspects=3
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=12
+is_signal=1
 is_presignal=1
 intro_year=1880
 intro_month=5
 retire_year=1918
 retire_month=1
-# DANGER (unused)
-Image[0]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.3,10,27
+
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-combined-red-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-combined-red-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-combined-red-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-combined-red-danger.1.3,10,27
 # CLEAR
-Image[4]=images/semaphore-lower-quadrant-short-post-distant-red-clear.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-short-post-distant-red-clear.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-short-post-distant-red-clear.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-short-post-distant-red-clear.1.3,10,27
+Image[4]=images/semaphore-lower-quadrant-combined-red-clear.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-combined-red-clear.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-combined-red-clear.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-combined-red-clear.1.3,10,27
 # CAUTION
-Image[8]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.2,42,-2
-Image[9]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.0,-37,12
-Image[10]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.1,-7,-18
-Image[11]=images/semaphore-lower-quadrant-short-post-distant-red-caution.1.3,10,27
-Icon=> images/signal-icons.3.2
-Cursor=images/signal-icons.3.3
+Image[8]=images/semaphore-lower-quadrant-combined-red-caution.1.2,42,-2
+Image[9]=images/semaphore-lower-quadrant-combined-red-caution.1.0,-37,12
+Image[10]=images/semaphore-lower-quadrant-combined-red-caution.1.1,-7,-18
+Image[11]=images/semaphore-lower-quadrant-combined-red-caution.1.3,10,27
+Icon=> images/signal-icons.3.4
+Cursor=images/signal-icons.3.5
+---------------------------------------
+# (Later version with yellow arm)
+obj=roadsign
+copyright=JamesPetts
+name=lq-semaphore-combined
+waytype=track
+cost=20000
+signal_upgrade_cost=10000
+maintenance=3400
+aspects=3
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=0
+upgrade_group=12
+is_signal=1
+is_presignal=1
+intro_year=1918
+intro_month=1
+retire_year=1924
+retire_month=7
+
+# DANGER
+Image[0]=images/semaphore-lower-quadrant-combined-danger.1.2,42,-2
+Image[1]=images/semaphore-lower-quadrant-combined-danger.1.0,-37,12
+Image[2]=images/semaphore-lower-quadrant-combined-danger.1.1,-7,-18
+Image[3]=images/semaphore-lower-quadrant-combined-danger.1.3,10,27
+# CLEAR
+Image[4]=images/semaphore-lower-quadrant-combined-clear.1.2,42,-2
+Image[5]=images/semaphore-lower-quadrant-combined-clear.1.0,-37,12
+Image[6]=images/semaphore-lower-quadrant-combined-clear.1.1,-7,-18
+Image[7]=images/semaphore-lower-quadrant-combined-clear.1.3,10,27
+# CAUTION
+Image[8]=images/semaphore-lower-quadrant-combined-caution.1.2,42,-2
+Image[9]=images/semaphore-lower-quadrant-combined-caution.1.0,-37,12
+Image[10]=images/semaphore-lower-quadrant-combined-caution.1.1,-7,-18
+Image[11]=images/semaphore-lower-quadrant-combined-caution.1.3,10,27
+Icon=> images/signal-icons.3.4
+Cursor=images/signal-icons.3.5
+---------------------------------------
+# UNDERGROUND MECHANICAL SIGNALS
+#--------------------------------------
+# Apparently, these were similar to semaphores,
+# but without the arms (just the lamps).
+obj=roadsign
+copyright=JamesPetts
+name=underground-mechanical-stop-white
+waytype=track
+cost=16000
+signal_upgrade_cost=8000
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1864
+intro_month=6
+retire_year=1880
+retire_month=5
+
+# DANGER
+Image[0]=images/underground-mechanical-signal-stop-danger.1.2,42,-2
+Image[1]=images/underground-mechanical-signal-stop-danger.1.0,-37,12
+Image[2]=images/underground-mechanical-signal-stop-danger.1.1,-7,-18
+Image[3]=images/underground-mechanical-signal-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/underground-mechanical-signal-stop-clear-white.1.2,42,-2
+Image[5]=images/underground-mechanical-signal-stop-clear-white.1.0,-37,12
+Image[6]=images/underground-mechanical-signal-stop-clear-white.1.1,-7,-18
+Image[7]=images/underground-mechanical-signal-stop-clear-white.1.3,10,27
+Icon=> images/signal-icons-ex.8.4
+Cursor=images/signal-icons-ex.8.5
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=underground-mechanical-stop
+waytype=track
+cost=16000
+signal_upgrade_cost=8000
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1880
+intro_month=5
+retire_year=1924
+retire_month=7
+
+# DANGER
+Image[0]=images/underground-mechanical-signal-stop-danger.1.2,42,-2
+Image[1]=images/underground-mechanical-signal-stop-danger.1.0,-37,12
+Image[2]=images/underground-mechanical-signal-stop-danger.1.1,-7,-18
+Image[3]=images/underground-mechanical-signal-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/underground-mechanical-signal-stop-clear.1.2,42,-2
+Image[5]=images/underground-mechanical-signal-stop-clear.1.0,-37,12
+Image[6]=images/underground-mechanical-signal-stop-clear.1.1,-7,-18
+Image[7]=images/underground-mechanical-signal-stop-clear.1.3,10,27
+Icon=> images/signal-icons-ex.8.4
+Cursor=images/signal-icons-ex.8.5
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=underground-mechanical-permissive-white
+waytype=track
+cost=18000
+signal_upgrade_cost=9000
+maintenance=1600
+aspects=2
+working_method=absolute_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=1
+signal_groups=2
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1864
+intro_month=6
+retire_year=1880
+retire_month=5
+
+# DANGER
+Image[0]=images/underground-mechanical-signal-stop-danger.1.2,42,-2
+Image[1]=images/underground-mechanical-signal-stop-danger.1.0,-37,12
+Image[2]=images/underground-mechanical-signal-stop-danger.1.1,-7,-18
+Image[3]=images/underground-mechanical-signal-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/underground-mechanical-signal-stop-clear-white.1.2,42,-2
+Image[5]=images/underground-mechanical-signal-stop-clear-white.1.0,-37,12
+Image[6]=images/underground-mechanical-signal-stop-clear-white.1.1,-7,-18
+Image[7]=images/underground-mechanical-signal-stop-clear-white.1.3,10,27
+Icon=> images/signal-icons-ex.8.4
+Cursor=images/signal-icons-ex.8.5
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=underground-mechanical-permissive
+waytype=track
+cost=18000
+signal_upgrade_cost=9000
+maintenance=1600
+aspects=2
+working_method=absolute_block
+max_speed=75
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=1
+signal_groups=2
+allow_underground=1
+upgrade_group=0
+is_signal=1
+intro_year=1880
+intro_month=5
+retire_year=1924
+retire_month=7
+
+# DANGER
+Image[0]=images/underground-mechanical-signal-stop-danger.1.2,42,-2
+Image[1]=images/underground-mechanical-signal-stop-danger.1.0,-37,12
+Image[2]=images/underground-mechanical-signal-stop-danger.1.1,-7,-18
+Image[3]=images/underground-mechanical-signal-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/underground-mechanical-signal-stop-clear.1.2,42,-2
+Image[5]=images/underground-mechanical-signal-stop-clear.1.0,-37,12
+Image[6]=images/underground-mechanical-signal-stop-clear.1.1,-7,-18
+Image[7]=images/underground-mechanical-signal-stop-clear.1.3,10,27
+Icon=> images/signal-icons-ex.8.4
+Cursor=images/signal-icons-ex.8.5
+---------------------------------------
+# (Early version with red lamp and white clear aspect)
+obj=roadsign
+copyright=JamesPetts
+name=underground-mechanical-distant-red-white
+waytype=track
+allow_underground=1
+cost=16000
+signal_upgrade_cost=8000
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=1
+upgrade_group=0
+is_presignal=1
+intro_year=1864
+intro_month=6
+retire_year=1880
+retire_month=5
+
+# CAUTION
+Image[0]=images/underground-mechanical-signal-stop-danger.1.2,42,-2
+Image[1]=images/underground-mechanical-signal-stop-danger.1.0,-37,12
+Image[2]=images/underground-mechanical-signal-stop-danger.1.1,-7,-18
+Image[3]=images/underground-mechanical-signal-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/underground-mechanical-signal-stop-clear-white.1.2,42,-2
+Image[5]=images/underground-mechanical-signal-stop-clear-white.1.0,-37,12
+Image[6]=images/underground-mechanical-signal-stop-clear-white.1.1,-7,-18
+Image[7]=images/underground-mechanical-signal-stop-clear-white.1.3,10,27
+Icon=> images/signal-icons-ex.8.6
+Cursor=images/signal-icons-ex.8.7
+---------------------------------------
+# (Intermediate version with red lamp and green clear aspect)
+obj=roadsign
+copyright=JamesPetts
+name=underground-mechanical-distant-red
+waytype=track
+cost=16000
+signal_upgrade_cost=8000
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
+allow_underground=1
+upgrade_group=0
+is_presignal=1
+intro_year=1880
+intro_month=5
+retire_year=1918
+retire_month=1
+
+# CAUTION
+Image[0]=images/underground-mechanical-signal-stop-danger.1.2,42,-2
+Image[1]=images/underground-mechanical-signal-stop-danger.1.0,-37,12
+Image[2]=images/underground-mechanical-signal-stop-danger.1.1,-7,-18
+Image[3]=images/underground-mechanical-signal-stop-danger.1.3,10,27
+# CLEAR
+Image[4]=images/underground-mechanical-signal-stop-clear.1.2,42,-2
+Image[5]=images/underground-mechanical-signal-stop-clear.1.0,-37,12
+Image[6]=images/underground-mechanical-signal-stop-clear.1.1,-7,-18
+Image[7]=images/underground-mechanical-signal-stop-clear.1.3,10,27
+Icon=> images/signal-icons-ex.8.6
+Cursor=images/signal-icons-ex.8.7
 ---------------------------------------
 # Distant signal left side
 # (Later version with yellow arm)
 obj=roadsign
 copyright=JamesPetts
-name=lq-semaphore-underground-distant
+name=underground-mechanical-distant
 waytype=track
+cost=16000
+signal_upgrade_cost=8000
+maintenance=1500
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
 allow_underground=1
-cost=2800
+upgrade_group=0
 is_presignal=1
 intro_year=1918
 intro_month=1
 retire_year=1924
 retire_month=7
-# DANGER (unused)
-Image[0]=images/semaphore-lower-quadrant-short-post-distant-caution.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-short-post-distant-caution.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-short-post-distant-caution.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-short-post-distant-caution.1.3,10,27
-# CLEAR
-Image[4]=images/semaphore-lower-quadrant-short-post-distant-clear.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-short-post-distant-clear.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-short-post-distant-clear.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-short-post-distant-clear.1.3,10,27
+
 # CAUTION
-Image[8]=images/semaphore-lower-quadrant-short-post-distant-caution.1.2,42,-2
-Image[9]=images/semaphore-lower-quadrant-short-post-distant-caution.1.0,-37,12
-Image[10]=images/semaphore-lower-quadrant-short-post-distant-caution.1.1,-7,-18
-Image[11]=images/semaphore-lower-quadrant-short-post-distant-caution.1.3,10,27
-Icon=> images/signal-icons.3.2
-Cursor=images/signal-icons.3.3
----------------------------------------
-# Long block signal left side
-# (Later version with yellow distant arm)
-# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
-obj=roadsign
-copyright=JamesPetts
-name=lq-semaphore-underground-longblock
-waytype=track
-allow_underground=1
-cost=2800
-is_signal=1
-is_longblocksignal=1
-intro_year=1918
-intro_month=1
-retire_year=1924
-retire_month=7
-# DANGER
-Image[0]=images/semaphore-lower-quadrant-short-post-longblock-danger.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-short-post-longblock-danger.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-short-post-longblock-danger.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-short-post-longblock-danger.1.3,10,27
+Image[0]=images/underground-mechanical-signal-caution.1.2,42,-2
+Image[1]=images/underground-mechanical-signal-caution.1.0,-37,12
+Image[2]=images/underground-mechanical-signal-caution.1.1,-7,-18
+Image[3]=images/underground-mechanical-signal-caution.1.3,10,27
 # CLEAR
-Image[4]=images/semaphore-lower-quadrant-short-post-longblock-clear.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-short-post-longblock-clear.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-short-post-longblock-clear.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-short-post-longblock-clear.1.3,10,27
-Icon=> images/signal-icons.3.4
-Cursor=images/signal-icons.3.5
+Image[4]=images/underground-mechanical-signal-stop-clear.1.2,42,-2
+Image[5]=images/underground-mechanical-signal-stop-clear.1.0,-37,12
+Image[6]=images/underground-mechanical-signal-stop-clear.1.1,-7,-18
+Image[7]=images/underground-mechanical-signal-stop-clear.1.3,10,27
+Icon=> images/signal-icons-ex.8.6
+Cursor=images/signal-icons-ex.8.7
 ---------------------------------------
-# Long block signal left side
-# (Intermediate version with red distant arm and green clear aspect)
-# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
-obj=roadsign
-copyright=JamesPetts
-name=lq-semaphore-underground-longblock-red
-waytype=track
-allow_underground=1
-cost=2800
-is_signal=1
-is_longblocksignal=1
-intro_year=1880
-intro_month=5
-retire_year=1918
-retire_month=1
-# DANGER
-Image[0]=images/semaphore-lower-quadrant-short-post-longblock-red-danger.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-short-post-longblock-red-danger.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-short-post-longblock-red-danger.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-short-post-longblock-red-danger.1.3,10,27
-# CLEAR
-Image[4]=images/semaphore-lower-quadrant-short-post-longblock-red-clear.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-short-post-longblock-red-clear.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-short-post-longblock-red-clear.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-short-post-longblock-red-clear.1.3,10,27
-Icon=> images/signal-icons.3.4
-Cursor=images/signal-icons.3.5
----------------------------------------
-# Long block signal left side
-# (Early version with red distant arm and white clear aspect)
-# TODO: Make a proper token block version of this with tablet catcher graphics for Experimental
-obj=roadsign
-copyright=JamesPetts
-name=lq-semaphore-underground-longblock-red-white
-waytype=track
-allow_underground=1
-cost=2800
-is_signal=1
-is_longblocksignal=1
-intro_year=1860
-intro_month=2
-retire_year=1880
-retire_month=5
-# DANGER
-Image[0]=images/semaphore-lower-quadrant-short-post-longblock-red-danger.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-short-post-longblock-red-danger.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-short-post-longblock-red-danger.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-short-post-longblock-red-danger.1.3,10,27
-# CLEAR
-Image[4]=images/semaphore-lower-quadrant-short-post-longblock-red-clear-white.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-short-post-longblock-red-clear-white.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-short-post-longblock-red-clear-white.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-short-post-longblock-red-clear-white.1.3,10,27
-Icon=> images/signal-icons.3.4
-Cursor=images/signal-icons.3.5
----------------------------------------
-# Junction (choose) signal left side
 # (Later version with green clear aspect)
 obj=roadsign
 copyright=JamesPetts
-name=lq-semaphore-underground-junction
+name=underground-mechanical-junction
 waytype=track
+cost=19000
+signal_upgrade_cost=9500
+maintenance=1700
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
 allow_underground=1
-cost=2800
+upgrade_group=0
 is_signal=1
 free_route=1
 intro_year=1880
 intro_month=5
 retire_year=1924
 retire_month=7
+
 # DANGER
-Image[0]=images/semaphore-lower-quadrant-short-post-junction-danger.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-short-post-junction-danger.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-short-post-junction-danger.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-short-post-junction-danger.1.3,10,27
-# CLEAR
-Image[4]=images/semaphore-lower-quadrant-short-post-junction-clear.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-short-post-junction-clear.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-short-post-junction-clear.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-short-post-junction-clear.1.3,10,27
-Icon=> images/signal-icons.3.6
-Cursor=images/signal-icons.3.7
+Image[0]=images/underground-mechanical-signal-junction-danger.1.2,42,-2
+Image[1]=images/underground-mechanical-signal-junction-danger.1.0,-37,12
+Image[2]=images/underground-mechanical-signal-junction-danger.1.1,-7,-18
+Image[3]=images/underground-mechanical-signal-junction-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/underground-mechanical-signal-junction-clear.1.2,42,-2
+Image[5]=images/underground-mechanical-signal-junction-clear.1.0,-37,12
+Image[6]=images/underground-mechanical-signal-junction-clear.1.1,-7,-18
+Image[7]=images/underground-mechanical-signal-junction-clear.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/underground-mechanical-signal-junction-clear-main.1.2,42,-2
+Image[9]=images/underground-mechanical-signal-junction-clear-main.1.0,-37,12
+Image[10]=images/underground-mechanical-signal-junction-clear-main.1.1,-7,-18
+Image[11]=images/underground-mechanical-signal-junction-clear-main.1.3,10,27
+Icon=> images/signal-icons-ex.8.8
+Cursor=images/signal-icons-ex.8.9
 ---------------------------------------
-# Junction (choose) signal left side
 # (Earlier version with white clear aspect)
 obj=roadsign
 copyright=JamesPetts
-name=lq-semaphore-underground-junction-white
+name=underground-mechanical-junction-white
 waytype=track
+cost=19000
+signal_upgrade_cost=9500
+maintenance=1700
+aspects=2
+working_method=absolute_block
+max_speed=160
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=1750
+permissive=0
+signal_groups=2
 allow_underground=1
-cost=2800
+upgrade_group=0
 is_signal=1
 free_route=1
-intro_year=1880
-intro_month=5
-retire_year=1924
-retire_month=7
+intro_year=1864
+intro_month=6
+retire_year=1880
+retire_month=5
+
 # DANGER
-Image[0]=images/semaphore-lower-quadrant-short-post-junction-danger.1.2,42,-2
-Image[1]=images/semaphore-lower-quadrant-short-post-junction-danger.1.0,-37,12
-Image[2]=images/semaphore-lower-quadrant-short-post-junction-danger.1.1,-7,-18
-Image[3]=images/semaphore-lower-quadrant-short-post-junction-danger.1.3,10,27
-# CLEAR
-Image[4]=images/semaphore-lower-quadrant-short-post-junction-clear-white.1.2,42,-2
-Image[5]=images/semaphore-lower-quadrant-short-post-junction-clear-white.1.0,-37,12
-Image[6]=images/semaphore-lower-quadrant-short-post-junction-clear-white.1.1,-7,-18
-Image[7]=images/semaphore-lower-quadrant-short-post-junction-clear-white.1.3,10,27
-Icon=> images/signal-icons.3.6
-Cursor=images/signal-icons.3.7
+Image[0]=images/underground-mechanical-signal-junction-danger.1.2,42,-2
+Image[1]=images/underground-mechanical-signal-junction-danger.1.0,-37,12
+Image[2]=images/underground-mechanical-signal-junction-danger.1.1,-7,-18
+Image[3]=images/underground-mechanical-signal-junction-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/underground-mechanical-signal-junction-clear-white.1.2,42,-2
+Image[5]=images/underground-mechanical-signal-junction-clear-white.1.0,-37,12
+Image[6]=images/underground-mechanical-signal-junction-clear-white.1.1,-7,-18
+Image[7]=images/underground-mechanical-signal-junction-clear-white.1.3,10,27
+# CLEAR (main route)
+Image[8]=images/underground-mechanical-signal-junction-clear-white-main.1.2,42,-2
+Image[9]=images/underground-mechanical-signal-junction-clear-white-main.1.0,-37,12
+Image[10]=images/underground-mechanical-signal-junction-clear-white-main.1.1,-7,-18
+Image[11]=images/underground-mechanical-signal-junction-clear-white-main.1.3,10,27
+Icon=> images/signal-icons-ex.8.8
+Cursor=images/signal-icons-ex.8.9
 ---------------------------------------
 # VANE SIGNALS (1840s)
 #--------------------------------------
 # See http://gerald-massey.org.uk/Railway/c10_construction_%28IV%29.htm
 # for illustrations. The choose signal is entirely ficational.
-# Stop signal left side
 obj=roadsign
 copyright=JamesPetts
 name=vane-signal-stop
 waytype=track
 cost=1600
+signal_upgrade_cost=800
+maintenance=1700
+aspects=3
+working_method=time_interval
+max_speed=135
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=375
+permissive=0
+signal_groups=11
+allow_underground=0
+upgrade_group=14
 is_signal=1
 intro_year=1840
 intro_month=3
-retire_year=1860
-retire_month=2
+retire_year=1889
+retire_month=8
+
 # DANGER
 Image[0]=images/vane-signal-danger.1.2,42,-2
 Image[1]=images/vane-signal-danger.1.0,-37,12
@@ -1206,22 +4122,40 @@ Image[4]=images/vane-signal-clear.1.2,42,-2
 Image[5]=images/vane-signal-clear.1.0,-37,12
 Image[6]=images/vane-signal-clear.1.1,-7,-18
 Image[7]=images/vane-signal-clear.1.3,10,27
+# CAUTION
+Image[8]=images/vane-signal-caution.1.2,42,-2
+Image[9]=images/vane-signal-caution.1.0,-37,12
+Image[10]=images/vane-signal-caution.1.1,-7,-18
+Image[11]=images/vane-signal-caution.1.3,10,27
 Icon=> images/signal-icons.8.0
 Cursor=images/signal-icons.8.1
 ---------------------------------------
-# Distant signal left side
-# TODO: Replace this with a single three aspect time interval signal
 obj=roadsign
 copyright=JamesPetts
 name=vane-signal-distant
 waytype=track
 cost=1600
+signal_upgrade_cost=800
+maintenance=1700
+aspects=2
+working_method=time_interval
+max_speed=135
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=1125
+permissive=0
+signal_groups=11
+allow_underground=0
+upgrade_group=16
+is_signal=1
 is_presignal=1
 intro_year=1840
 intro_month=3
-retire_year=1860
-retire_month=2
-# DANGER (unused)
+retire_year=1889
+retire_month=8
+signal_groups=11
+
+# CAUTION
 Image[0]=images/vane-signal-aux-caution.1.2,42,-2
 Image[1]=images/vane-signal-aux-caution.1.0,-37,12
 Image[2]=images/vane-signal-aux-caution.1.1,-7,-18
@@ -1231,27 +4165,34 @@ Image[4]=images/vane-signal-aux-clear.1.2,42,-2
 Image[5]=images/vane-signal-aux-clear.1.0,-37,12
 Image[6]=images/vane-signal-aux-clear.1.1,-7,-18
 Image[7]=images/vane-signal-aux-clear.1.3,10,27
-# CAUTION
-Image[8]=images/vane-signal-aux-caution.1.2,42,-2
-Image[9]=images/vane-signal-aux-caution.1.0,-37,12
-Image[10]=images/vane-signal-aux-caution.1.1,-7,-18
-Image[11]=images/vane-signal-aux-caution.1.3,10,27
 Icon=> images/signal-icons.8.2
 Cursor=images/signal-icons.8.3
 ---------------------------------------
-# Choose signal left side
-# TODO: Consider whether to retain this, as this is not a proper historical type. 
+# Is there a source for more accurate graphics for a junction vane signal?
 obj=roadsign
 copyright=JamesPetts
 name=vane-signal-junction
 waytype=track
 cost=1600
+signal_upgrade_cost=800
+maintenance=1700
+aspects=3
+working_method=time_interval
+max_speed=135
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=375
+permissive=0
+signal_groups=11
+allow_underground=0
+upgrade_group=15
 is_signal=1
 free_route=1
 intro_year=1840
 intro_month=3
-retire_year=1860
-retire_month=2
+retire_year=1889
+retire_month=8
+
 # DANGER
 Image[0]=images/vane-signal-choose-danger.1.2,42,-2
 Image[1]=images/vane-signal-choose-danger.1.0,-37,12
@@ -1262,55 +4203,47 @@ Image[4]=images/vane-signal-choose-clear.1.2,42,-2
 Image[5]=images/vane-signal-choose-clear.1.0,-37,12
 Image[6]=images/vane-signal-choose-clear.1.1,-7,-18
 Image[7]=images/vane-signal-choose-clear.1.3,10,27
+# CAUTION	
+Image[8]=images/vane-signal-choose-caution.1.2,42,-2
+Image[9]=images/vane-signal-choose-caution.1.0,-37,12
+Image[10]=images/vane-signal-choose-caution.1.1,-7,-18
+Image[11]=images/vane-signal-choose-caution.1.3,10,27
 Icon=> images/signal-icons.8.4
 Cursor=images/signal-icons.8.5
-# NOTE: No long-block signal in this early type: single line running was not possible before the telegraph
+# NOTE: Token block and permissive signals not available in these early days.
 ---------------------------------------
-# FLAG SIGNALS (1820s)
+# FLAG SIGNAL (1820s)
 #--------------------------------------
 # For details of the historical colours, see here: http://gerald-massey.org.uk/Railway/c10_construction_%28IV%29.htm
 # and especially here: http://gerald-massey.org.uk/Railway/images/Track/P0.png
-# Stop signal left side
 obj=roadsign
 copyright=JamesPetts
-name=flag-signal-stop
+name=flag-signal
 waytype=track
-cost=1600
+cost=1000
+signal_upgrade_cost=500
+maintenance=1700
+aspects=3
+working_method=time_interval
+max_speed=115
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=250
+permissive=0
+signal_groups=11
+allow_underground=0
+upgrade_group=14
 is_signal=1
 intro_year=1825
 intro_month=1
 retire_year=1840
 retire_month=3
+
 # DANGER
 Image[0]=images/flag-signal-danger.1.2,42,-2
 Image[1]=images/flag-signal-danger.1.0,-37,12
 Image[2]=images/flag-signal-danger.1.1,-7,-18
 Image[3]=images/flag-signal-danger.1.3,10,27
-# CLEAR
-Image[4]=images/flag-signal-clear.1.2,42,-2
-Image[5]=images/flag-signal-clear.1.0,-37,12
-Image[6]=images/flag-signal-clear.1.1,-7,-18
-Image[7]=images/flag-signal-clear.1.3,10,27
-Icon=> images/signal-icons.7.0
-Cursor=images/signal-icons.7.1
----------------------------------------
-# Distant signal left side
-# TODO: Replace this with a single three flag time interval signal
-obj=roadsign
-copyright=JamesPetts
-name=flag-signal-distant
-waytype=track
-cost=1600
-is_presignal=1
-intro_year=1825
-intro_month=1
-retire_year=1840
-retire_month=3
-# DANGER (unused)
-Image[0]=images/flag-signal-caution.1.2,42,-2
-Image[1]=images/flag-signal-caution.1.0,-37,12
-Image[2]=images/flag-signal-caution.1.1,-7,-18
-Image[3]=images/flag-signal-caution.1.3,10,27
 # CLEAR
 Image[4]=images/flag-signal-clear.1.2,42,-2
 Image[5]=images/flag-signal-clear.1.0,-37,12
@@ -1321,74 +4254,81 @@ Image[8]=images/flag-signal-caution.1.2,42,-2
 Image[9]=images/flag-signal-caution.1.0,-37,12
 Image[10]=images/flag-signal-caution.1.1,-7,-18
 Image[11]=images/flag-signal-caution.1.3,10,27
-Icon=> images/signal-icons.7.4
-Cursor=images/signal-icons.7.5
----------------------------------------
-# Choose signal left side
-# TODO: Consider whether to retain this, as this is not a proper historical type. 
-obj=roadsign
-copyright=JamesPetts
-name=flag-signal-junction
-waytype=track
-cost=1600
-is_signal=1
-free_route=1
-intro_year=1825
-intro_month=1
-retire_year=1840
-retire_month=3
-# DANGER
-Image[0]=images/flag-signal-danger.1.2,42,-2
-Image[1]=images/flag-signal-danger.1.0,-37,12
-Image[2]=images/flag-signal-danger.1.1,-7,-18
-Image[3]=images/flag-signal-danger.1.3,10,27
-# CLEAR
-Image[4]=images/flag-signal-choose.1.2,42,-2
-Image[5]=images/flag-signal-choose.1.0,-37,12
-Image[6]=images/flag-signal-choose.1.1,-7,-18
-Image[7]=images/flag-signal-choose.1.3,10,27
-Icon=> images/signal-icons.7.2
-Cursor=images/signal-icons.7.3
-# NOTE: No long-block signal in this early type: single line running was not possible before the telegraph
+Icon=> images/signal-icons.7.0
+Cursor=images/signal-icons.7.1
+# NOTE: Choose signal omitted in this early type
 ---------------------------------------
 #	MISCELLANEOUS SIGNALS/SIGNS
 #--------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=one-train-staff
+waytype=track
+cost=1000
+signal_upgrade_cost=750
+maintenance=100
+aspects=1
+working_method=one_train_staff
+max_speed=160
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=0
+permissive=0
+signal_groups=0
+allow_underground=0
+upgrade_group=0
+is_signal=1
+intro_year=1860
+intro_month=2
+
+Image[0]=images/one-train-staff-cabinet.1.2,42,-2
+Image[1]=images/one-train-staff-cabinet.1.0,-37,12
+Image[2]=images/one-train-staff-cabinet.1.1,-7,-18
+Image[3]=images/one-train-staff-cabinet.1.3,10,27
+Icon=> images/signal-icons-ex.5.6
+Cursor=images/signal-icons-ex.5.7
+---------------------------------------
 # End of Choose Signal
 obj=roadsign
-copyright=James
+copyright=JamesPetts
 name=EndofChooseSignal
 waytype=track
 cost=800
+upgrade_group=17
 end_of_choose=1
+max_speed=1000
 allow_underground=2
-intro_year = 1810
-intro_month = 1
-retire_year = 1970
-retire_month = 1
-Image[0]=signals_2.10.0
-Image[1]=signals_2.10.2
-Image[2]=signals_2.10.1
-Image[3]=signals_2.10.3
-Icon=> signals_0.2.8
-Cursor=signals_0.2.9
+intro_year=1840
+intro_month=3
+retire_year=1959
+retire_month=9
+
+Image[0]=images/end-of-choose-sign.1.2,42,-2
+Image[1]=images/end-of-choose-sign.1.0,-37,12
+Image[2]=images/end-of-choose-sign.1.1,-7,-18
+Image[3]=images/end-of-choose-sign.1.3,10,27
+Icon=> images/end-of-choose-sign-icon.1.1
+Cursor=images/end-of-choose-sign-icon.1.0
 ---------------------------------------
-# TODO: New graphics for this and separate it into the real modern set.
 # End of Choose Signal
 obj=roadsign
-copyright=James
+copyright=JamesPetts
 name=Modern_EndofChooseSignal
 waytype=track
 cost=800
+max_speed=1000
+upgrade_group=17
 end_of_choose=1
-intro_year=1970
-intro_month=1
 allow_underground=2
-Image[0]=signals_1.10.0
-Image[1]=signals_1.10.2
-Image[2]=signals_1.10.1
-Image[3]=signals_1.10.3
-Icon=> signals_0.1.8
-Cursor=signals_0.1.9
+intro_year=1959
+intro_month=9
+
+Image[0]=images/modern-end-of-choose-sign.1.2,42,-2
+Image[1]=images/modern-end-of-choose-sign.1.0,-37,12
+Image[2]=images/modern-end-of-choose-sign.1.1,-7,-18
+Image[3]=images/modern-end-of-choose-sign.1.3,10,27
+Icon=> images/modern-end-of-choose-sign-icon.1.1
+Cursor=images/modern-end-of-choose-sign-icon.1.0
 ---------------------------------------
 # private sign
 obj=roadsign
@@ -1396,10 +4336,12 @@ name=Railgate
 copyright=??? and prissi
 cost=750
 waytype=track
+max_speed=1000
 is_private=1
-intro_year = 1750
-intro_month = 9
+intro_year=1750
+intro_month=9
 allow_underground=2
+
 image[0]=images/privaterail-gate.0.0
 Image[1]=images/privaterail-gate.0.1
 Image[2]=images/privaterail-gate.0.3
@@ -1410,18 +4352,80 @@ Cursor=images/privaterail-gate.0.5
 # one-way sign
 obj=roadsign
 name=RailOneWay
-copyright=Vladki
+copyright=JamesPetts
 cost=500
 waytype=track
+max_speed=1000
 single_way=1
+allow_underground=2
+intro_year=1750
+intro_month=1
+retire_year=1959
+retire_month=9
+
+Image[0]=images/one-way-sign.1.2,42,-2
+Image[1]=images/one-way-sign.1.0,-37,12
+Image[2]=images/one-way-sign.1.1,-7,-18
+Image[3]=images/one-way-sign.1.3,10,27
+Icon=> images/one-way-sign-icon.1.1
+Cursor=images/one-way-sign-icon.1.0
+---------------------------------------
+# one-way sign
+obj=roadsign
+name=modern-one-way-sign
+copyright=JamesPetts
+cost=500
+max_speed=1000
+waytype=track
+single_way=1
+allow_underground=2
+intro_year=1959
+intro_month=9
+
+Image[0]=images/modern-one-way-sign.1.2,42,-2
+Image[1]=images/modern-one-way-sign.1.0,-37,12
+Image[2]=images/modern-one-way-sign.1.1,-7,-18
+Image[3]=images/modern-one-way-sign.1.3,10,27
+Icon=> images/modern-one-way-sign-icon.1.1
+Cursor=images/modern-one-way-sign-icon.1.0
+---------------------------------------
+# End of signalling
+obj=roadsign
+name=end-of-signalling
+copyright=JamesPetts
+cost=500
+waytype=track
+working_method=drive_by_sight
+is_signal=1
+allow_underground=2
 intro_year=1825
 intro_month=9
-allow_underground=2
-Image[0]=images/rail-one-way.0.0
-Image[1]=images/rail-one-way.0.2
-Image[2]=images/rail-one-way.0.1
-Image[3]=images/rail-one-way.0.3
-Icon=> images/rail-one-way.0.5
-Cursor=images/rail-one-way.0.4
+retire_year=1959
+retire_month=9
+
+Image[0]=images/end-of-signalling-sign.1.2,42,-2
+Image[1]=images/end-of-signalling-sign.1.0,-37,12
+Image[2]=images/end-of-signalling-sign.1.1,-7,-18
+Image[3]=images/end-of-signalling-sign.1.3,10,27
+Icon=> images/end-of-signalling-icon.1.1
+Cursor=images/end-of-signalling-icon.1.0
 ---------------------------------------
+# End of signalling
+obj=roadsign
+name=modern-end-of-signalling
+copyright=JamesPetts
+cost=500
+waytype=track
+working_method=drive_by_sight
+is_signal=1
+allow_underground=2
+intro_year=1959
+intro_month=9
+
+Image[0]=images/modern-end-of-signalling-sign.1.2,42,-2
+Image[1]=images/modern-end-of-signalling-sign.1.0,-37,12
+Image[2]=images/modern-end-of-signalling-sign.1.1,-7,-18
+Image[3]=images/modern-end-of-signalling-sign.1.3,10,27
+Icon=> images/modern-end-of-signalling-icon.1.1
+Cursor=images/modern-end-of-signalling-icon.1.0
 # END OF FILE

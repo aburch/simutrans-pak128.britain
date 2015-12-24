@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=120
 # Extrapolated
-power=261
+power=325
 # Calculated from figures at: http://www.smex.net.au/Reference/TractiveEffort02.php
 # Efficiency factor of 0.85 used, as this is a superheated locomotive music.
 tractive_effort=102
@@ -33,20 +33,20 @@ bidirectional=1
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-PoW-tank_E.0
-EmptyImage[SE][0]=./images/lnwr-PoW-tank_SE.0
-EmptyImage[S][0]=./images/lnwr-PoW-tank_S.0
-EmptyImage[SW][0]=./images/lnwr-PoW-tank_SW.0
-EmptyImage[W][0]=./images/lnwr-PoW-tank_W.0
-EmptyImage[NW][0]=./images/lnwr-PoW-tank_NW.0
-EmptyImage[N][0]=./images/lnwr-PoW-tank_N.0
-EmptyImage[NE][0]=./images/lnwr-PoW-tank_NE.0
+EmptyImage[E][0]=./images/lnwr-prince-of-wales-tank.1.4
+EmptyImage[SE][0]=./images/lnwr-prince-of-wales-tank.1.5
+EmptyImage[S][0]=./images/lnwr-prince-of-wales-tank.1.6
+EmptyImage[SW][0]=./images/lnwr-prince-of-wales-tank.1.7
+EmptyImage[W][0]=./images/lnwr-prince-of-wales-tank.1.0
+EmptyImage[NW][0]=./images/lnwr-prince-of-wales-tank.1.1
+EmptyImage[N][0]=./images/lnwr-prince-of-wales-tank.1.2
+EmptyImage[NE][0]=./images/lnwr-prince-of-wales-tank.1.3
 
-EmptyImage[E][1]=./images/lnwr-PoW-tank-lms_E.0
-EmptyImage[SE][1]=./images/lnwr-PoW-tank-lms_SE.0
-EmptyImage[S][1]=./images/lnwr-PoW-tank-lms_S.0
-EmptyImage[SW][1]=./images/lnwr-PoW-tank-lms_SW.0
-EmptyImage[W][1]=./images/lnwr-PoW-tank-lms_W.0
-EmptyImage[NW][1]=./images/lnwr-PoW-tank-lms_NW.0
-EmptyImage[N][1]=./images/lnwr-PoW-tank-lms_N.0
-EmptyImage[NE][1]=./images/lnwr-PoW-tank-lms_NE.0
+EmptyImage[E][1]=./images/lnwr-prince-of-wales-tank-lms.1.4
+EmptyImage[SE][1]=./images/lnwr-prince-of-wales-tank-lms.1.5
+EmptyImage[S][1]=./images/lnwr-prince-of-wales-tank-lms.1.6
+EmptyImage[SW][1]=./images/lnwr-prince-of-wales-tank-lms.1.7
+EmptyImage[W][1]=./images/lnwr-prince-of-wales-tank-lms.1.0
+EmptyImage[NW][1]=./images/lnwr-prince-of-wales-tank-lms.1.1
+EmptyImage[N][1]=./images/lnwr-prince-of-wales-tank-lms.1.2
+EmptyImage[NE][1]=./images/lnwr-prince-of-wales-tank-lms.1.3

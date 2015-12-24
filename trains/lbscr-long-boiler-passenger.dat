@@ -2,8 +2,8 @@ obj=vehicle
 name=LBSCR-long-boiler-passenger
 engine_type=steam
 smoke=Steam
-speed=105
-# Extrapolated
+speed=110
+# Extrapolated (old system)
 power=144
 # Tractive effort calculated using data from 
 # http://www.steamindex.com/locotype/lbscrloc.htm
