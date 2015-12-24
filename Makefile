@@ -60,6 +60,8 @@ DIRS128 += narrowgauge
 TR_DIRS += narrowgauge
 DIRS128 += pedestrians
 TR_DIRS += pedestrians
+DIRS128 += signalboxes
+TR_DIRS += signalboxes
 DIRS128 += smokes
 TR_DIRS += smokes
 DIRS128 += stations
@@ -156,7 +158,7 @@ $(OUTSIDE):
 	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
 	@echo -e -n "Obj=ground\nName=Outside\ncopyright=$(VERSION_STRING)" >$@/outsiderev.dat
-	@svnversion >>$@/outsiderev.dat
+	#@svnversion >>$@/outsiderev.dat
 	@echo -e "Image[0][0]=images/ls-water-outside-128.0.0\n-" >>$@/outsiderev.dat
 	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/outsiderev.dat > /dev/null
 	@rm $@/outsiderev.dat
