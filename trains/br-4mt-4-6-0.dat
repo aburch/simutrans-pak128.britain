@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-4MT-4-6-0
 engine_type=steam
 smoke=Steam
-speed=125
+speed=131
 # CALIBRATED: see http://www.traintesting.com/bulletin_4.htm
 # Max. speed given as 47mph with a train of 657t (gross)
 # Adjusting for rising gradient of 1/834 (+16Kw)
@@ -48,7 +48,7 @@ EmptyImage[NE]=./images/br-4mt-4-6-0.1.3
 
 obj=vehicle
 name=BR-4MT-Tender
-speed=130
+speed=135
 power=0
 copyright=Kieron/JamesPetts
 intro_year=1951

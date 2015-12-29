@@ -2,7 +2,7 @@ obj=vehicle
 name=MR-1
 engine_type=steam
 smoke=Steam
-speed=110
+speed=113
 # Approximately extrapolated, given no heating surface data (old system)
 power=156
 # Calculated from data from Ahrons, p. 113
@@ -55,7 +55,7 @@ EmptyImage[NE][1]=./images/mr-1.1.3
 obj=vehicle
 name=MR-1-tender
 engine_type=steam
-speed=110
+speed=113
 copyright=James/jamespetts
 intro_year=1859
 intro_month=4

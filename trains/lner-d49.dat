@@ -2,7 +2,7 @@ obj=vehicle
 name=LNER-D49
 engine_type=steam
 smoke=Steam
-speed=135
+speed=145
 # Extrapolated
 power=375
 # http://en.wikipedia.org/wiki/LNER_Class_D49
@@ -64,7 +64,7 @@ EmptyImage[NE][2]=./images/lner-d49-class-br.1.3
 
 obj=vehicle
 name=LNER-D49-Tender
-speed=135
+speed=145
 power=0
 copyright=Kieron/jamespetts
 intro_year=1927

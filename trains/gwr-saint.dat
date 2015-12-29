@@ -2,7 +2,7 @@ obj=vehicle
 name=GWR-Saint
 engine_type=steam
 smoke=Steam
-speed=140
+speed=144
 # Extrapolated.
 power=374
 # http://en.wikipedia.org/wiki/GWR_2900_Class
@@ -43,7 +43,7 @@ EmptyImage[NE]=./images/gwr-saint.0.7
 
 obj=vehicle
 name=GWR-Saint-Tender
-speed=140
+speed=144
 power=0
 copyright=Kieron
 intro_year=1902

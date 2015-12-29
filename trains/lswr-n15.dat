@@ -2,7 +2,7 @@ obj=vehicle
 name=LSWR-N15
 engine_type=steam
 smoke=Steam
-speed=140
+speed=142
 # Extrapolated
 power=420
 # Calculated from figures given at: http://orion.math.iastate.edu/jdhsmith/term/slgblswr.htm
@@ -44,7 +44,7 @@ EmptyImage[NE]=./images/lswr-n15.0.7
 
 obj=vehicle
 name=LSWR-N15-Tender
-speed=140
+speed=142
 power=0
 copyright=James
 intro_year=1918

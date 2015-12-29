@@ -2,7 +2,7 @@ obj=vehicle
 name=LBSCR-A1
 engine_type=steam
 smoke=Steam
-speed=100
+speed=85
 # Extrapolated
 power=120
 # http://orion.math.iastate.edu/jdhsmith/term/slgblbsc.htm 
@@ -99,7 +99,7 @@ obj=vehicle
 name=LBSCR-A1X
 engine_type=steam
 smoke=Steam
-speed=100
+speed=85
 # Extrapolated
 power=120
 # http://en.wikipedia.org/wiki/LB%26SCR_A1_class

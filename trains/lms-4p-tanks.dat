@@ -2,7 +2,7 @@ obj=vehicle
 name=LMS-Fowler-4P-Tank
 engine_type=steam
 smoke=Steam
-speed=115
+speed=126
 # Extrapolated
 power=377
 tractive_effort=106
@@ -66,7 +66,7 @@ obj=vehicle
 name=LMS-Stanier-4P-Tank
 engine_type=steam
 smoke=Steam
-speed=120
+speed=126
 # Extrapolated
 power=377
 tractive_effort=110
@@ -120,7 +120,7 @@ obj=vehicle
 name=LMS-Stanier-4P-Tank-3-cylinder
 engine_type=steam
 smoke=Steam
-speed=105
+speed=126
 # Extrapolated
 power=377
 # Calculated figure: data not otherwise available.
@@ -174,7 +174,7 @@ obj=vehicle
 name=LMS-Fairburn-4P-Tank
 engine_type=steam
 smoke=Steam
-speed=120
+speed=126
 # Extrapolated
 power=339
 tractive_effort=109

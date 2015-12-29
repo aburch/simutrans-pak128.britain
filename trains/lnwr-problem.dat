@@ -2,7 +2,7 @@ obj=vehicle
 name=LNWR-Problem
 engine_type=steam
 smoke=Steam
-speed=115
+speed=117
 # Attempt at calibration, but probably inaccurate, as load not known: see Ahrons p. 236
 # Max. speed given as 62mph with a train of unspecified load. Assuming 190t based on other loads in that table (p. 236 Ahrons).
 # Adjusted for a 1/364 falling gradient (-14Kw) (gradient guessed based on data on p. 231).

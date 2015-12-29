@@ -3,7 +3,7 @@ name=GWR-Hall
 engine_type=steam
 smoke=Steam
 # Slower than the Saint because of the smaller drivers.
-speed=125
+speed=137
 # CALIBRATED: see http://www.traintesting.com/bulletin_1.htm
 # Max. speed given as 47mph with a train of 582t (gross)
 # Adjusting for rising gradient of 1/834 (+14Kw)
@@ -49,7 +49,7 @@ EmptyImage[NE]=./images/gwr-hall.0.7
 
 obj=vehicle
 name=GWR-Hall-Tender
-speed=125
+speed=137
 power=0
 copyright=James
 intro_year=1928

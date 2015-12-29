@@ -2,7 +2,7 @@ obj=vehicle
 name=GWR-Modified-Hall
 engine_type=steam
 smoke=Steam
-speed=130
+speed=137
 # Extrapolated
 power=375
 tractive_effort=121
@@ -41,7 +41,7 @@ EmptyImage[NE]=./images/gwr-modified-hall.0.7
 
 obj=vehicle
 name=GWR-Modified-Hall-Tender
-speed=130
+speed=137
 power=0
 copyright=James
 intro_year=1944

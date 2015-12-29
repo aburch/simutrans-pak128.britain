@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-9F
 engine_type=steam
 smoke=Steam
-speed=112
+speed=110
 # See http://www.traintesting.com/bulletin_13.htm for information on power.
 # However, the figure suggests over 800kW, which would give >12% thermal
 # efficiency, which is not accurate, so extrapolated on the basis of 
