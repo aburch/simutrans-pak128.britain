@@ -8,7 +8,7 @@ VERSION_STRING = "pak128.Britain 1.13 112.0 r"
 #
 #
 #
-MAKEOBJ ?= ./makeobj
+MAKEOBJ ?= makeobj
 
 DESTDIR  ?= simutrans
 PAKDIR   ?= $(DESTDIR)/pak128.Britain
@@ -59,6 +59,8 @@ DIRS128 += narrowgauge
 TR_DIRS += narrowgauge
 DIRS128 += pedestrians
 TR_DIRS += pedestrians
+DIRS128 += signals
+TR_DIRS += signals
 DIRS128 += smokes
 TR_DIRS += smokes
 DIRS128 += stations

@@ -390,8 +390,10 @@ Modern_Signals_right
 two-aspect-colour-light-stop
 Modern_preSignals_right
 two-aspect-colour-light-distant
+Modern_LongSignals_right
+three-aspect-colour-light-longblock
 Modern_ChooseSignals_right
-two-aspect-colour-light-distant
+two-aspect-colour-light-choose
 Signals
 uq-semaphore-stop
 preSignals
@@ -418,12 +420,12 @@ Classic_ChooseSignals_right_narrow
 lq-semaphore-junction-narrow
 Underground_ChooseSignals_right
 underground-two-aspect-colour-light-choose
+Underground_LongSignals_right
+underground-longblock-colour-light
 Underground_preSignals_right
 underground-two-aspect-colour-light-distant
 Underground_Signals_right
 underground-two-aspect-colour-light-stop
-Modern_LongSignals_right
-three-aspect-colour-light-longblock
 Early_Signals_right
 flag-signal-stop
 Early_preSignals_right
@@ -440,3 +442,6 @@ RailTunnelConcrete
 Channel_Tunnel
 RailTunnelStone
 severn-tunnel
+### errors in london underground definitions
+Metropolitan-Bogie-Third
+met-bogie-third

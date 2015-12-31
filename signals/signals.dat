@@ -233,7 +233,7 @@ cost=1600
 is_signal=1
 intro_year=1920
 intro_month=4
-retire_year-1962
+retire_year=1962
 retire_month=8
 # RED
 Image[0]=images/signal-2-aspect-danger.1.2,42,-2
@@ -257,7 +257,7 @@ cost=3200
 is_presignal=1
 intro_year=1920
 intro_month=4
-retire_year-1962
+retire_year=1962
 retire_month=8
 # RED (unused)
 Image[0]=images/signal-2-aspect-danger.1.2,42,-2
@@ -287,7 +287,7 @@ is_signal=1
 is_longblocksignal=1
 intro_year=1920
 intro_month=4
-retire_year-1962
+retire_year=1962
 retire_month=8
 # RED
 Image[0]=images/signal-3-aspect-longblock.1.2,42,-2
@@ -312,7 +312,7 @@ is_signal=1
 free_route=1
 intro_year=1920
 intro_month=4
-retire_year-1962
+retire_year=1962
 retire_month=8
 # RED
 Image[0]=images/signal-2-aspect-route-indicator-danger.1.2,42,-2
@@ -387,7 +387,7 @@ Name=underground-longblock-colour-light
 waytype=track
 cost=14400
 is_signal=1
-free_route=1
+is_longblocksignal=1
 allow_underground=1
 intro_year = 1898
 intro_month = 11
@@ -1274,6 +1274,7 @@ intro_year = 1810
 intro_month = 1
 retire_year = 1970
 retire_month = 1
+offset_left = 11
 Image[0]=signals_2.10.0
 Image[1]=signals_2.10.2
 Image[2]=signals_2.10.1
@@ -1291,6 +1292,7 @@ cost=800
 end_of_choose=1
 intro_year=1970
 intro_month=1
+offset_left=11
 allow_underground=2
 Image[0]=signals_1.10.0
 Image[1]=signals_1.10.2
@@ -1325,6 +1327,7 @@ waytype=track
 single_way=1
 intro_year=1825
 intro_month=9
+offset_left=11
 allow_underground=2
 Image[0]=images/rail-one-way.0.0
 Image[1]=images/rail-one-way.0.2

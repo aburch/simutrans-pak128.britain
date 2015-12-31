@@ -373,8 +373,10 @@ waytype=narrowgauge_track
 cost=1600
 is_signal=1
 free_route=1
-intro_year=1880
-intro_month=5
+intro_year=1860
+intro_month=2
+retire_year=1880
+retire_month=5
 # DANGER
 Image[0]=images/semaphore-lower-quadrant-short-post-junction-danger.1.2,42,-2
 Image[1]=images/semaphore-lower-quadrant-short-post-junction-danger.1.0,-37,12
@@ -419,10 +421,11 @@ intro_year = 1810
 intro_month = 1
 retire_year = 1970
 retire_month = 1
-Image[0]=signals_2.10.2
-Image[1]=signals_2.10.0
-Image[2]=signals_2.10.3
-Image[3]=signals_2.10.1
+offset_left = 11
+Image[0]=signals_2.10.0
+Image[1]=signals_2.10.2
+Image[2]=signals_2.10.1
+Image[3]=signals_2.10.3
 Icon=> signals_0.2.8
 Cursor=signals_0.2.9
 ---------------------------------------
@@ -435,12 +438,31 @@ cost=750
 end_of_choose=1
 intro_year = 1970
 intro_month = 1
+offset_left = 11
 allow_underground=2
-Image[0]=signals_1.10.2
-Image[1]=signals_1.10.0
-Image[2]=signals_1.10.3
-Image[3]=signals_1.10.1
+Image[0]=signals_1.10.0
+Image[1]=signals_1.10.2
+Image[2]=signals_1.10.1
+Image[3]=signals_1.10.3
 Icon=> signals_0.1.8
 Cursor=signals_0.1.9
+---------------------------------------
+# one-way sign
+obj=roadsign
+name=RailOneWayNarrow
+copyright=Vladki
+cost=500
+waytype=narrowgauge_track
+single_way=1
+intro_year=1825
+intro_month=9
+offset_left=11
+allow_underground=2
+Image[0]=images/rail-one-way.0.0
+Image[1]=images/rail-one-way.0.2
+Image[2]=images/rail-one-way.0.1
+Image[3]=images/rail-one-way.0.3
+Icon=> images/rail-one-way.0.5
+Cursor=images/rail-one-way.0.4
 ---------------------------------------
 # END OF FILE
