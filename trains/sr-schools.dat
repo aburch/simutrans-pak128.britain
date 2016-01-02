@@ -2,7 +2,8 @@ obj=vehicle
 name=SR-Schools
 engine_type=steam
 smoke=Steam
-speed=147
+# This is an actual recorded top speed: see https://en.wikipedia.org/wiki/SR_V_Schools_class
+speed=153
 # Extrapolated
 power=403
 tractive_effort=112
