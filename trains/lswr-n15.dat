@@ -5,9 +5,8 @@ smoke=Steam
 speed=142
 # Extrapolated
 power=420
-# Calculated from figures given at: http://orion.math.iastate.edu/jdhsmith/term/slgblswr.htm
-# 85% efficiency used, as superheated locomotive.
-tractive_effort=119
+# https://en.wikipedia.org/wiki/LSWR_N15_class
+tractive_effort=106
 copyright=James
 intro_year=1918
 intro_month=8
