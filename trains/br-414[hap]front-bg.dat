@@ -32,9 +32,9 @@ way_constraint_permissive[0]=0
 
 upgrade[0]=BR-489[GLV]
 
-min_loading_time=12
-max_loading_time=43
-comfort=79
+min_loading_time=20
+max_loading_time=46
+comfort=77
 
 Constraint[Prev][0]=BR-410[CEP]Rear(Blue-Grey)
 Constraint[Prev][1]=BR-414[HAP]Rear(Blue-Grey)
