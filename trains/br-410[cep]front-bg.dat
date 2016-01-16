@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-410[CEP]Front(Blue-Grey)
+name=BR-410[CEP]Front
 engine_type=electric
 speed=145
 gear=80
@@ -31,14 +31,14 @@ min_loading_time=25
 max_loading_time=120
 comfort=137
 
-Constraint[Prev][0]=BR-410[CEP]Rear(Blue-Grey)
-Constraint[Prev][1]=BR-414[HAP]Rear(Blue-Grey)
+Constraint[Prev][0]=BR-410[CEP]Rear
+Constraint[Prev][1]=BR-414[HAP]Rear
 Constraint[Prev][2]=BR-419[MLV]
 Constraint[Prev][3]=BR-499[TLV]
 Constraint[Prev][4]=BR-423-DTCL-Rear
 Constraint[Prev][5]=none
 
-Constraint[Next][0]=BR-410[CEP]Brake(Blue-Grey)
+Constraint[Next][0]=BR-410[CEP]Brake
 
 EmptyImage[E]=./images/br-410-bg.0.0
 EmptyImage[SE]=./images/br-410-bg.0.1

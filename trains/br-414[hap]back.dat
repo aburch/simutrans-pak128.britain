@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-414[HAP]Rear(Blue-Grey)
+name=BR-414[HAP]Rear
 engine_type=electric
 speed=121
 power=0
@@ -33,10 +33,10 @@ min_loading_time=20
 max_loading_time=46
 comfort=110
 
-Constraint[Prev][0]=BR-414[HAP]Front(Blue-Grey)
+Constraint[Prev][0]=BR-414[HAP]Front
 
-Constraint[Next][0]=BR-410[CEP]Front(Blue-Grey)
-Constraint[Next][1]=BR-414[HAP]Front(Blue-Grey)
+Constraint[Next][0]=BR-410[CEP]Front
+Constraint[Next][1]=BR-414[HAP]Front
 Constraint[Next][2]=BR-419[MLV]
 Constraint[Next][3]=BR-499[TLV]
 Constraint[Next][4]=BR-423-DTCL-Front

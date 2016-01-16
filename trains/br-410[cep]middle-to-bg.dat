@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-410[CEP]Middle(Blue-Grey)
+name=BR-410[CEP]Middle
 engine_type=electric
 speed=145
 copyright=Kieron
@@ -27,8 +27,8 @@ min_loading_time=25
 max_loading_time=120
 comfort=137
 
-Constraint[Prev][0]=BR-410[CEP]Brake(Blue-Grey)
-Constraint[Next][0]=BR-410[CEP]Rear(Blue-Grey)
+Constraint[Prev][0]=BR-410[CEP]Brake
+Constraint[Next][0]=BR-410[CEP]Rear
 
 EmptyImage[E]=./images/br-mk1-sk-bg.1.4
 EmptyImage[SE]=./images/br-mk1-sk-bg.1.5
@@ -42,7 +42,7 @@ EmptyImage[NE]=./images/br-mk1-sk-bg.1.3
 ---
 
 obj=vehicle
-name=BR-410[CEP]Buffet(Blue-Grey)
+name=BR-410[CEP]Buffet
 engine_type=electric
 speed=145
 copyright=Kieron
@@ -70,8 +70,8 @@ max_loading_time=120
 comfort=137
 catering_level=3
 
-Constraint[Prev][0]=BR-410[CEP]Brake(Blue-Grey)
-Constraint[Next][0]=BR-410[CEP]Rear(Blue-Grey)
+Constraint[Prev][0]=BR-410[CEP]Brake
+Constraint[Next][0]=BR-410[CEP]Rear
 
 EmptyImage[E]=./images/br-mk1-rmb-bg.1.4
 EmptyImage[SE]=./images/br-mk1-rmb-bg.1.5

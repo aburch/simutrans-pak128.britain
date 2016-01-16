@@ -30,7 +30,7 @@ max_loading_time=50
 comfort=79
 
 Constraint[Prev][0]=BR-423-DTCL-Rear
-Constraint[Prev][1]=BR-410[CEP]Rear(Blue-Grey)
+Constraint[Prev][1]=BR-410[CEP]Rear
 Constraint[Prev][2]=BR-419[MLV]
 Constraint[Prev][3]=BR-499[TLV]
 Constraint[Prev][4]=none
@@ -238,8 +238,8 @@ max_loading_time=50
 comfort=79
 
 Constraint[Next][0]=BR-423-DTCL-Front
-Constraint[Next][1]=BR-410[CEP]Front(Blue-Grey)
-Constraint[Next][2]=BR-414[HAP]Front(Blue-Grey)
+Constraint[Next][1]=BR-410[CEP]Front
+Constraint[Next][2]=BR-414[HAP]Front
 Constraint[Next][3]=BR-419[MLV]
 Constraint[Next][4]=BR-499[TLV]
 Constraint[Next][5]=none

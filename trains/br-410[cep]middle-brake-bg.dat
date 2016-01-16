@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-410[CEP]Brake(Blue-Grey)
+name=BR-410[CEP]Brake
 engine_type=electric
 speed=145
 copyright=Kieron
@@ -27,10 +27,10 @@ min_loading_time=25
 max_loading_time=120
 comfort=137
 
-Constraint[Prev][0]=BR-410[CEP]Front(Blue-Grey)
+Constraint[Prev][0]=BR-410[CEP]Front
 
-Constraint[Next][0]=BR-410[CEP]Middle(Blue-Grey)
-Constraint[Next][1]=BR-410[CEP]Buffet(Blue-Grey)
+Constraint[Next][0]=BR-410[CEP]Middle
+Constraint[Next][1]=BR-410[CEP]Buffet
 
 EmptyImage[E]=./images/br-mk1-bso-front-bg.1.4
 EmptyImage[SE]=./images/br-mk1-bso-front-bg.1.5

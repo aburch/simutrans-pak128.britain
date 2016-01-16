@@ -28,8 +28,8 @@ can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[0]=0
 
-upgrade[0]=BR-414[HAP]Front(Blue-Grey)
-upgrade[1]=BR-414[HAP]Rear(Blue-Grey)
+upgrade[0]=BR-414[HAP]Front
+upgrade[1]=BR-414[HAP]Rear
 upgrade[2]=BR-4EPB(front)
 upgrade[3]=BR-2EPB(rear)
 upgrade[4]=BR-4EPB(rear)
@@ -89,8 +89,8 @@ can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[0]=0
 
-upgrade[0]=BR-414[HAP]Front(Blue-Grey)
-upgrade[1]=BR-414[HAP]Rear(Blue-Grey)
+upgrade[0]=BR-414[HAP]Front
+upgrade[1]=BR-414[HAP]Rear
 upgrade[2]=BR-4EPB(front)
 upgrade[3]=BR-2EPB(rear)
 upgrade[4]=BR-4EPB(rear)
@@ -148,8 +148,8 @@ can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[0]=0
 
-upgrade[0]=BR-414[HAP]Front(Blue-Grey)
-upgrade[1]=BR-414[HAP]Rear(Blue-Grey)
+upgrade[0]=BR-414[HAP]Front
+upgrade[1]=BR-414[HAP]Rear
 upgrade[2]=BR-4EPB(front)
 upgrade[3]=BR-2EPB(rear)
 upgrade[4]=BR-4EPB(rear)

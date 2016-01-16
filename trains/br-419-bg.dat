@@ -25,8 +25,8 @@ can_lead_from_rear=1
 bidirectional=1
 way_constraint_permissive[0]=0
 
-Constraint[Prev][0]=BR-410[CEP]Rear(Blue-Grey)
-Constraint[Prev][1]=BR-414[HAP]Rear(Blue-Grey)
+Constraint[Prev][0]=BR-410[CEP]Rear
+Constraint[Prev][1]=BR-414[HAP]Rear
 Constraint[Prev][2]=BR-423-DTCL-Rear
 Constraint[Prev][3]=BR-419[MLV]
 Constraint[Prev][4]=BR-499[TLV]

@@ -35,7 +35,7 @@ way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(rear)
 Constraint[Prev][1]=BR-2EPB(rear)
-Constraint[Prev][2]=BR-414[HAP]Rear(Blue-Grey)
+Constraint[Prev][2]=BR-414[HAP]Rear
 Constraint[Prev][3]=none
 
 Constraint[Next][0]=BR-4EPB(centre1)
@@ -100,7 +100,7 @@ way_constraint_permissive[0]=0
 Constraint[Prev][0]=BR-4EPB(front)
 
 Constraint[Next][0]=BR-4EPB(front)
-Constraint[Next][1]=BR-414[HAP]Front(Blue-Grey)
+Constraint[Next][1]=BR-414[HAP]Front
 Constraint[Next][2]=none
 
 liverytype[0]=BR-Revised
@@ -162,7 +162,7 @@ way_constraint_permissive[0]=0
 Constraint[Prev][0]=BR-4EPB(centre2)
 
 Constraint[Next][0]=BR-4EPB(front)
-Constraint[Next][1]=BR-414[HAP]Front(Blue-Grey)
+Constraint[Next][1]=BR-414[HAP]Front
 Constraint[Next][2]=none
 
 liverytype[0]=BR-Revised
