@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-205Middle(Rail-Blue)
+name=BR-205Middle
 engine_type=diesel
 speed=120
 power=0
@@ -28,10 +28,10 @@ max_loading_time=43
 comfort=77
 
 Constraint[Prev][0]=BR-205Front(Rail-Blue)
-Constraint[Prev][1]=BR-205Middle(Rail-Blue)
+Constraint[Prev][1]=BR-205Middle
 
-Constraint[Next][0]=BR-205Rear(Rail-Blue)
-Constraint[Next][1]=BR-205Middle(Rail-Blue)
+Constraint[Next][0]=BR-205Rear
+Constraint[Next][1]=BR-205Middle
 
 EmptyImage[E]=./images/br-205-b.1.0
 EmptyImage[SE]=./images/br-205-b.1.1

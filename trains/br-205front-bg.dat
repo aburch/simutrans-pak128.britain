@@ -31,11 +31,11 @@ min_loading_time=12
 max_loading_time=43
 comfort=77
 
-Constraint[Prev][0]=BR-205Rear(Rail-Blue)
+Constraint[Prev][0]=BR-205Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-205Rear(Rail-Blue)
-Constraint[Next][1]=BR-205Middle(Rail-Blue)
+Constraint[Next][0]=BR-205Rear
+Constraint[Next][1]=BR-205Middle
 
 EmptyImage[E]=./images/br-205-b.0.0
 EmptyImage[SE]=./images/br-205-b.0.1
