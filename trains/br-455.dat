@@ -133,6 +133,8 @@ Constraint[Prev][0]=BR-455-Motor
 
 Constraint[Next][0]=BR-455-Driving-Rear
 
+# NOTE: Use the class 317 graphics for this, as they are identical; separate 455 version not provided.
+
 EmptyImage[E]=./images/br-455-bg-2.0.0
 EmptyImage[SE]=./images/br-455-bg-2.0.1
 EmptyImage[S]=./images/br-455-bg-2.0.2

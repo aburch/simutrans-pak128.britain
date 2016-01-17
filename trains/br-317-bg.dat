@@ -35,6 +35,8 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-317-Motor
 
+# NOTE: Use the class 455 images for the NSE livery for this as they are identical: NSE versions of the 317 driving trailers therefore not provided.
+
 EmptyImage[E]=./images/br-317-bg-1.0.0
 EmptyImage[SE]=./images/br-317-bg-1.0.1
 EmptyImage[S]=./images/br-317-bg-1.0.2
