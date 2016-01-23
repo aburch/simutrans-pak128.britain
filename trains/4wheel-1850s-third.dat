@@ -86,6 +86,7 @@ Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
+liverytype[3]=GNR-Standard
 
 EmptyImage[E][0]=./images/4wheel-1840s-lnwr.1.4
 EmptyImage[SE][0]=./images/4wheel-1840s-lnwr.1.5
@@ -113,3 +114,13 @@ EmptyImage[W][2]=./images/4wheel-1840s-mr.1.0
 EmptyImage[NW][2]=./images/4wheel-1840s-mr.1.1
 EmptyImage[N][2]=./images/4wheel-1840s-mr.1.2
 EmptyImage[NE][2]=./images/4wheel-1840s-mr.1.3
+
+EmptyImage[E][3]=./images/4wheel-1840s-gnr.1.4
+EmptyImage[SE][3]=./images/4wheel-1840s-gnr.1.5
+EmptyImage[S][3]=./images/4wheel-1840s-gnr.1.6
+EmptyImage[SW][3]=./images/4wheel-1840s-gnr.1.7
+EmptyImage[W][3]=./images/4wheel-1840s-gnr.1.0
+EmptyImage[NW][3]=./images/4wheel-1840s-gnr.1.1
+EmptyImage[N][3]=./images/4wheel-1840s-gnr.1.2
+EmptyImage[NE][3]=./images/4wheel-1840s-gnr.1.3
+
