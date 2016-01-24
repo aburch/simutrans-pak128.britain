@@ -14,7 +14,7 @@ waytype=track
 freight=Passagiere
 payload=50
 overcrowded_capacity=25
-length=6
+length=5
 
 weight=13
 axles=3
@@ -124,7 +124,7 @@ waytype=track
 freight=Passagiere
 payload=30
 overcrowded_capacity=15
-length=6
+length=5
 
 weight=13
 axles=3
@@ -215,7 +215,7 @@ waytype=track
 freight=Passagiere
 payload=30
 overcrowded_capacity=15
-length=6
+length=5
 
 weight=13
 axles=3
@@ -372,7 +372,7 @@ retire_month=6
 waytype=track
 freight=Post
 payload=400
-length=6
+length=5
 
 weight=13
 axles=3
@@ -480,7 +480,7 @@ retire_month=6
 waytype=track
 freight=milk
 payload=14
-length=6
+length=5
 
 weight=13
 axles=3
@@ -589,7 +589,7 @@ retire_month=6
 waytype=track
 freight=Bucher
 payload=14
-length=6
+length=5
 
 weight=13
 axles=3
@@ -620,6 +620,8 @@ Constraint[Prev][13]=LBSCR-sub-bogie-48ft
 Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
 Constraint[Prev][15]=LBSCR-sub-bogie-54ft
 Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
+Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
