@@ -89,6 +89,7 @@ liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
 liverytype[2]=LNWR-Early
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-early
 
 EmptyImage[E][0]=./images/lmr-4wheel-parliamentary.1.4
 EmptyImage[SE][0]=./images/lmr-4wheel-parliamentary.1.5
@@ -125,3 +126,12 @@ EmptyImage[W][3]=./images/lmr-4wheel-parliamentary-gnr.1.0
 EmptyImage[NW][3]=./images/lmr-4wheel-parliamentary-gnr.1.1
 EmptyImage[N][3]=./images/lmr-4wheel-parliamentary-gnr.1.2
 EmptyImage[NE][3]=./images/lmr-4wheel-parliamentary-gnr.1.3
+
+EmptyImage[E][4]=./images/lmr-4wheel-parliamentary-lswr.1.4
+EmptyImage[SE][4]=./images/lmr-4wheel-parliamentary-lswr.1.5
+EmptyImage[S][4]=./images/lmr-4wheel-parliamentary-lswr.1.6
+EmptyImage[SW][4]=./images/lmr-4wheel-parliamentary-lswr.1.7
+EmptyImage[W][4]=./images/lmr-4wheel-parliamentary-lswr.1.0
+EmptyImage[NW][4]=./images/lmr-4wheel-parliamentary-lswr.1.1
+EmptyImage[N][4]=./images/lmr-4wheel-parliamentary-lswr.1.2
+EmptyImage[NE][4]=./images/lmr-4wheel-parliamentary-lswr.1.3

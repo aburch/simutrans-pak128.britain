@@ -83,11 +83,11 @@ Constraint[Prev][24]=4-wheel-1860s-milk
 Constraint[Prev][25]=4-wheel-1870s-fast-freight-unfitted
 Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 
-
 liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
 liverytype[2]=LNWR-Early
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-early
 
 EmptyImage[E][0]=./images/4wheel-first.1.4
 EmptyImage[SE][0]=./images/4wheel-first.1.5
@@ -161,6 +161,24 @@ FreightImage[NW][3]=./images/4wheel-first-gnr-loaded.1.1
 FreightImage[N][3]=./images/4wheel-first-gnr-loaded.1.2
 FreightImage[NE][3]=./images/4wheel-first-gnr-loaded.1.3
 
+EmptyImage[E][4]=./images/4wheel-first-lswr.1.4
+EmptyImage[SE][4]=./images/4wheel-first-lswr.1.5
+EmptyImage[S][4]=./images/4wheel-first-lswr.1.6
+EmptyImage[SW][4]=./images/4wheel-first-lswr.1.7
+EmptyImage[W][4]=./images/4wheel-first-lswr.1.0
+EmptyImage[NW][4]=./images/4wheel-first-lswr.1.1
+EmptyImage[N][4]=./images/4wheel-first-lswr.1.2
+EmptyImage[NE][4]=./images/4wheel-first-lswr.1.3
+
+FreightImage[E][4]=./images/4wheel-first-lswr-loaded.1.4
+FreightImage[SE][4]=./images/4wheel-first-lswr-loaded.1.5
+FreightImage[S][4]=./images/4wheel-first-lswr-loaded.1.6
+FreightImage[SW][4]=./images/4wheel-first-lswr-loaded.1.7
+FreightImage[W][4]=./images/4wheel-first-lswr-loaded.1.0
+FreightImage[NW][4]=./images/4wheel-first-lswr-loaded.1.1
+FreightImage[N][4]=./images/4wheel-first-lswr-loaded.1.2
+FreightImage[NE][4]=./images/4wheel-first-lswr-loaded.1.3
+
 ---
 
 obj=vehicle
@@ -225,6 +243,7 @@ liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
 liverytype[2]=LNWR-Early
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-early
 
 EmptyImage[E][0]=./images/4wheel-guard-front.1.4
 EmptyImage[SE][0]=./images/4wheel-guard-front.1.5
@@ -298,6 +317,24 @@ FreightImage[NW][3]=./images/4wheel-guard-front-loaded-gnr.1.1
 FreightImage[N][3]=./images/4wheel-guard-front-loaded-gnr.1.2
 FreightImage[NE][3]=./images/4wheel-guard-front-loaded-gnr.1.3
 
+EmptyImage[E][4]=./images/4wheel-guard-front-lswr.1.4
+EmptyImage[SE][4]=./images/4wheel-guard-front-lswr.1.5
+EmptyImage[S][4]=./images/4wheel-guard-front-lswr.1.6
+EmptyImage[SW][4]=./images/4wheel-guard-front-lswr.1.7
+EmptyImage[W][4]=./images/4wheel-guard-front-lswr.1.0
+EmptyImage[NW][4]=./images/4wheel-guard-front-lswr.1.1
+EmptyImage[N][4]=./images/4wheel-guard-front-lswr.1.2
+EmptyImage[NE][4]=./images/4wheel-guard-front-lswr.1.3
+
+FreightImage[E][4]=./images/4wheel-guard-front-loaded-lswr.1.4
+FreightImage[SE][4]=./images/4wheel-guard-front-loaded-lswr.1.5
+FreightImage[S][4]=./images/4wheel-guard-front-loaded-lswr.1.6
+FreightImage[SW][4]=./images/4wheel-guard-front-loaded-lswr.1.7
+FreightImage[W][4]=./images/4wheel-guard-front-loaded-lswr.1.0
+FreightImage[NW][4]=./images/4wheel-guard-front-loaded-lswr.1.1
+FreightImage[N][4]=./images/4wheel-guard-front-loaded-lswr.1.2
+FreightImage[NE][4]=./images/4wheel-guard-front-loaded-lswr.1.3
+
 ---
 
 obj=vehicle
@@ -361,6 +398,7 @@ liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
 liverytype[2]=LNWR-Early
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-early
 
 EmptyImage[E][0]=./images/4wheel-guard-rear.1.4
 EmptyImage[SE][0]=./images/4wheel-guard-rear.1.5
@@ -433,3 +471,21 @@ FreightImage[W][3]=./images/4wheel-guard-rear-loaded-gnr.1.0
 FreightImage[NW][3]=./images/4wheel-guard-rear-loaded-gnr.1.1
 FreightImage[N][3]=./images/4wheel-guard-rear-loaded-gnr.1.2
 FreightImage[NE][3]=./images/4wheel-guard-rear-loaded-gnr.1.3
+
+EmptyImage[E][4]=./images/4wheel-guard-rear-lswr.1.4
+EmptyImage[SE][4]=./images/4wheel-guard-rear-lswr.1.5
+EmptyImage[S][4]=./images/4wheel-guard-rear-lswr.1.6
+EmptyImage[SW][4]=./images/4wheel-guard-rear-lswr.1.7
+EmptyImage[W][4]=./images/4wheel-guard-rear-lswr.1.0
+EmptyImage[NW][4]=./images/4wheel-guard-rear-lswr.1.1
+EmptyImage[N][4]=./images/4wheel-guard-rear-lswr.1.2
+EmptyImage[NE][4]=./images/4wheel-guard-rear-lswr.1.3
+
+FreightImage[E][4]=./images/4wheel-guard-rear-loaded-lswr.1.4
+FreightImage[SE][4]=./images/4wheel-guard-rear-loaded-lswr.1.5
+FreightImage[S][4]=./images/4wheel-guard-rear-loaded-lswr.1.6
+FreightImage[SW][4]=./images/4wheel-guard-rear-loaded-lswr.1.7
+FreightImage[W][4]=./images/4wheel-guard-rear-loaded-lswr.1.0
+FreightImage[NW][4]=./images/4wheel-guard-rear-loaded-lswr.1.1
+FreightImage[N][4]=./images/4wheel-guard-rear-loaded-lswr.1.2
+FreightImage[NE][4]=./images/4wheel-guard-rear-loaded-lswr.1.3

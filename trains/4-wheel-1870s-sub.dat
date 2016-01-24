@@ -100,6 +100,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban.1.5
@@ -136,6 +137,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-suburban.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-suburban.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-suburban.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-suburban.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban.1.3
 
 ----
 
@@ -203,6 +213,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban-brake-front.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban-brake-front.1.5
@@ -239,6 +250,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-suburban-brake-front.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-suburban-brake-front.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-suburban-brake-front.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-suburban-brake-front.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban-brake-front.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban-brake-front.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban-brake-front.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban-brake-front.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban-brake-front.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban-brake-front.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban-brake-front.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban-brake-front.1.3
 
 ----
 
@@ -305,6 +325,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban-brake-rear.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban-brake-rear.1.5
@@ -341,6 +362,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-suburban-brake-rear.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-suburban-brake-rear.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-suburban-brake-rear.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-suburban-brake-rear.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban-brake-rear.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban-brake-rear.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban-brake-rear.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban-brake-rear.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban-brake-rear.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban-brake-rear.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban-brake-rear.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban-brake-rear.1.3
 
 ----
 
@@ -444,6 +474,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban.1.5
@@ -480,6 +511,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-suburban.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-suburban.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-suburban.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-suburban.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban.1.3
 
 ----
 
@@ -551,6 +591,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban-brake-front.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban-brake-front.1.5
@@ -587,6 +628,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-suburban-brake-front.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-suburban-brake-front.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-suburban-brake-front.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-suburban-brake-front.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban-brake-front.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban-brake-front.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban-brake-front.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban-brake-front.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban-brake-front.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban-brake-front.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban-brake-front.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban-brake-front.1.3
 
 ----
 
@@ -656,6 +706,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban-brake-rear.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban-brake-rear.1.5
@@ -692,3 +743,13 @@ EmptyImage[W][3]=./images/gnr-4wheel-suburban-brake-rear.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-suburban-brake-rear.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-suburban-brake-rear.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-suburban-brake-rear.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban-brake-rear.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban-brake-rear.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban-brake-rear.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban-brake-rear.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban-brake-rear.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban-brake-rear.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban-brake-rear.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban-brake-rear.1.3
+

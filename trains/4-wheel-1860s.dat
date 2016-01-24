@@ -87,6 +87,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/lnwr-4wheel-1860s.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-1860s.1.5
@@ -123,6 +124,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-1860s.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-1860s.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-1860s.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-1860s.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-1860s.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-1860s.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-1860s.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-1860s.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-1860s.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-1860s.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-1860s.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-1860s.1.3
 
 ----
 
@@ -188,6 +198,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/lnwr-4wheel-1860s-brake-front.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-1860s-brake-front.1.5
@@ -224,6 +235,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-1860s-brake-front.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-1860s-brake-front.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-1860s-brake-front.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-1860s-brake-front.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-1860s-brake-front.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-1860s-brake-front.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-1860s-brake-front.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-1860s-brake-front.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-1860s-brake-front.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-1860s-brake-front.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-1860s-brake-front.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-1860s-brake-front.1.3
 
 
 ----
@@ -289,6 +309,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/lnwr-4wheel-1860s-brake-rear.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-1860s-brake-rear.1.5
@@ -326,6 +347,15 @@ EmptyImage[NW][3]=./images/gnr-4wheel-1860s-brake-rear.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-1860s-brake-rear.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-1860s-brake-rear.1.3
 
+EmptyImage[E][4]=./images/lswr-4wheel-1860s-brake-rear.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-1860s-brake-rear.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-1860s-brake-rear.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-1860s-brake-rear.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-1860s-brake-rear.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-1860s-brake-rear.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-1860s-brake-rear.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-1860s-brake-rear.1.3
+
 ----
 
 obj=vehicle
@@ -359,6 +389,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/lnwr-4wheel-1860s-full-brake.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-1860s-full-brake.1.5
@@ -395,6 +426,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-1860s-full-brake.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-1860s-full-brake.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-1860s-full-brake.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-1860s-full-brake.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-1860s-full-brake.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-1860s-full-brake.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-1860s-full-brake.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-1860s-full-brake.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-1860s-full-brake.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-1860s-full-brake.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-1860s-full-brake.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-1860s-full-brake.1.3
 
 ----
 
@@ -485,6 +525,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/lnwr-4wheel-1860s-mail.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-1860s-mail.1.5
@@ -521,6 +562,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-1860s-mail.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-1860s-mail.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-1860s-mail.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-1860s-mail.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-1860s-mail.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-1860s-mail.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-1860s-mail.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-1860s-mail.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-1860s-mail.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-1860s-mail.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-1860s-mail.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-1860s-mail.1.3
 
 ----
 
@@ -612,6 +662,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/lnwr-4wheel-1860s-mail.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-1860s-mail.1.5
@@ -648,6 +699,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-1860s-mail.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-1860s-mail.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-1860s-mail.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-1860s-mail.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-1860s-mail.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-1860s-mail.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-1860s-mail.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-1860s-mail.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-1860s-mail.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-1860s-mail.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-1860s-mail.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-1860s-mail.1.3
 
 ----
 
@@ -738,6 +798,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/lnwr-4wheel-1860s-fast-freight.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-1860s-fast-freight.1.5
@@ -774,6 +835,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-1860s-fast-freight.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-1860s-fast-freight.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-1860s-fast-freight.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-1860s-fast-freight.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-1860s-fast-freight.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-1860s-fast-freight.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-1860s-fast-freight.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-1860s-fast-freight.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-1860s-fast-freight.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-1860s-fast-freight.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-1860s-fast-freight.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-1860s-fast-freight.1.3
 
 ----
 
@@ -864,6 +934,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/lnwr-4wheel-1860s-milk.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-1860s-milk.1.5
@@ -900,3 +971,12 @@ EmptyImage[W][3]=./images/gnr-4wheel-1860s-milk.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-1860s-milk.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-1860s-milk.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-1860s-milk.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-1860s-milk.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-1860s-milk.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-1860s-milk.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-1860s-milk.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-1860s-milk.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-1860s-milk.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-1860s-milk.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-1860s-milk.1.3

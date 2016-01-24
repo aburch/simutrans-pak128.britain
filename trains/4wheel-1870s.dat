@@ -104,6 +104,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-composite.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-composite.1.5
@@ -141,6 +142,15 @@ EmptyImage[NW][3]=./images/gnr-4wheel-composite.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-composite.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-composite.1.3
 
+EmptyImage[E][4]=./images/lswr-4wheel-composite.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-composite.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-composite.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-composite.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-composite.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-composite.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-composite.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-composite.1.3
+
 ----
 
 obj=vehicle
@@ -175,6 +185,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-brake.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-brake.1.5
@@ -211,6 +222,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-brake.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-brake.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-brake.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-brake.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-brake.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-brake.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-brake.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-brake.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-brake.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-brake.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-brake.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-brake.1.3
 
 ----
 
@@ -302,6 +322,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-mail.1.5
@@ -338,6 +359,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-mail.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-mail.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-mail.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-mail.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-mail.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-mail.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-mail.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-mail.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-mail.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-mail.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-mail.1.3
 
 ----
 
@@ -430,6 +460,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-mail.1.5
@@ -466,6 +497,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-mail.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-mail.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-mail.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-mail.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-mail.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-mail.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-mail.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-mail.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-mail.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-mail.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-mail.1.3
 
 ----
 
@@ -557,6 +597,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-fast-freight.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-fast-freight.1.5
@@ -593,6 +634,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-fast-freight.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-fast-freight.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-fast-freight.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-fast-freight.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-fast-freight.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-fast-freight.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-fast-freight.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-fast-freight.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-fast-freight.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-fast-freight.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-fast-freight.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-fast-freight.1.3
 
 ----
 
@@ -684,6 +734,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-milk.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-milk.1.5
@@ -720,6 +771,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-milk.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-milk.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-milk.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-milk.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-milk.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-milk.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-milk.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-milk.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-milk.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-milk.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-milk.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-milk.1.3
 
 ----
 
@@ -759,6 +819,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -858,6 +919,15 @@ EmptyImage[NW][3]=./images/gnr-4wheel-composite.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-composite.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-composite.1.3
 
+EmptyImage[E][4]=./images/lswr-4wheel-composite.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-composite.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-composite.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-composite.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-composite.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-composite.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-composite.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-composite.1.3
+
 ----
 
 obj=vehicle
@@ -892,6 +962,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-brake.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-brake.1.5
@@ -928,6 +999,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-brake.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-brake.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-brake.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-brake.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-brake.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-brake.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-brake.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-brake.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-brake.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-brake.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-brake.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-brake.1.3
 
 ----
 
@@ -1025,6 +1105,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-mail.1.5
@@ -1061,6 +1142,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-mail.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-mail.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-mail.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-mail.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-mail.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-mail.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-mail.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-mail.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-mail.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-mail.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-mail.1.3
 
 ----
 
@@ -1159,6 +1249,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-mail.1.5
@@ -1195,6 +1286,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-mail.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-mail.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-mail.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-mail.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-mail.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-mail.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-mail.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-mail.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-mail.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-mail.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-mail.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-mail.1.3
 
 ----
 
@@ -1291,6 +1391,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-fast-freight.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-fast-freight.1.5
@@ -1327,6 +1428,15 @@ EmptyImage[W][3]=./images/gnr-4wheel-fast-freight.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-fast-freight.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-fast-freight.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-fast-freight.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-fast-freight.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-fast-freight.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-fast-freight.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-fast-freight.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-fast-freight.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-fast-freight.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-fast-freight.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-fast-freight.1.3
 
 ----
 
@@ -1423,6 +1533,7 @@ liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
 liverytype[3]=GNR-Standard
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-milk.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-milk.1.5
@@ -1459,3 +1570,12 @@ EmptyImage[W][3]=./images/gnr-4wheel-milk.1.0
 EmptyImage[NW][3]=./images/gnr-4wheel-milk.1.1
 EmptyImage[N][3]=./images/gnr-4wheel-milk.1.2
 EmptyImage[NE][3]=./images/gnr-4wheel-milk.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-milk.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-milk.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-milk.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-milk.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-milk.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-milk.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-milk.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-milk.1.3
