@@ -14,7 +14,8 @@ length=5
 brake_force=4
 rolling_resistance=18
 
-weight=8.8
+# http://www.lbscr.org/coaches/Stroudley/thirds.html#D34
+weight=9
 axles=2
 cost=285000
 runningcost=17
@@ -109,7 +110,8 @@ length=5
 brake_force=4
 rolling_resistance=18
 
-weight=8.8
+# http://www.lbscr.org/coaches/Stroudley/thirds.html#D34
+weight=9
 axles=2
 cost=285000
 runningcost=17
@@ -203,7 +205,7 @@ length=5
 brake_force=5
 rolling_resistance=18
 
-weight=9
+weight=9.2
 axles=2
 cost=340000
 upgrade_price=80000
@@ -296,7 +298,7 @@ length=5
 brake_force=5
 rolling_resistance=18
 
-weight=9
+weight=9.2
 axles=2
 cost=340000
 upgrade_price=80000
