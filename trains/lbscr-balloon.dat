@@ -42,6 +42,8 @@ Constraint[Prev][13]=LBSCR-sub-bogie-48ft
 Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
 Constraint[Prev][15]=LBSCR-sub-bogie-54ft
 Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
+Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -60,6 +62,8 @@ Constraint[Next][13]=LBSCR-sub-bogie-48ft
 Constraint[Next][14]=LBSCR-sub-bogie-48ft-brake-rear
 Constraint[Next][15]=LBSCR-sub-bogie-54ft
 Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
+Constraint[Next][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Next][18]=LBSCR-6Wheel-fast-freight-van
 
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=LBSCR-Late
@@ -157,6 +161,8 @@ Constraint[Prev][13]=LBSCR-sub-bogie-48ft
 Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
 Constraint[Prev][15]=LBSCR-sub-bogie-54ft
 Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
+Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
 
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=LBSCR-Late
@@ -254,7 +260,9 @@ Constraint[Next][13]=LBSCR-sub-bogie-48ft
 Constraint[Next][14]=LBSCR-sub-bogie-48ft-brake-rear
 Constraint[Next][15]=LBSCR-sub-bogie-54ft
 Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
-Constraint[Next][17]=none
+Constraint[Next][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Next][18]=LBSCR-6Wheel-fast-freight-van
+Constraint[Next][19]=none
 
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=LBSCR-Late
