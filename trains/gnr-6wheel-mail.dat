@@ -110,6 +110,8 @@ Constraint[Prev][9]=GNR-6Wheel-tpo
 Constraint[Prev][10]=GNR-6Wheel-brake-third-front
 Constraint[Prev][11]=GNR-6Wheel-Guard
 
+#TODO: Produce unique graphics for this. See: http://www.steve-banks.org/prototype-and-traffic/209-tpo-services-in-lner-and-er-days
+
 EmptyImage[E]=./images/gnr-6wheel-mail.1.4
 EmptyImage[SE]=./images/gnr-6wheel-mail.1.5
 EmptyImage[S]=./images/gnr-6wheel-mail.1.6
