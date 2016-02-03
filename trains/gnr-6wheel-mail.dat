@@ -58,7 +58,7 @@ EmptyImage[N]=./images/gnr-6wheel-mail.1.2
 EmptyImage[NE]=./images/gnr-6wheel-mail.1.3
 
 ----
-
+# http://www.steve-banks.org/prototype-and-traffic/209-tpo-services-in-lner-and-er-days
 obj=vehicle
 name=GNR-6Wheel-tpo
 speed=150
@@ -110,13 +110,11 @@ Constraint[Prev][9]=GNR-6Wheel-tpo
 Constraint[Prev][10]=GNR-6Wheel-brake-third-front
 Constraint[Prev][11]=GNR-6Wheel-Guard
 
-#TODO: Produce unique graphics for this. See: http://www.steve-banks.org/prototype-and-traffic/209-tpo-services-in-lner-and-er-days
-
-EmptyImage[E]=./images/gnr-6wheel-mail.1.4
-EmptyImage[SE]=./images/gnr-6wheel-mail.1.5
-EmptyImage[S]=./images/gnr-6wheel-mail.1.6
-EmptyImage[SW]=./images/gnr-6wheel-mail.1.7
-EmptyImage[W]=./images/gnr-6wheel-mail.1.0
-EmptyImage[NW]=./images/gnr-6wheel-mail.1.1
-EmptyImage[N]=./images/gnr-6wheel-mail.1.2
-EmptyImage[NE]=./images/gnr-6wheel-mail.1.3
+EmptyImage[E]=./images/gnr-6wheel-tpo.1.4
+EmptyImage[SE]=./images/gnr-6wheel-tpo.1.5
+EmptyImage[S]=./images/gnr-6wheel-tpo.1.6
+EmptyImage[SW]=./images/gnr-6wheel-tpo.1.7
+EmptyImage[W]=./images/gnr-6wheel-tpo.1.0
+EmptyImage[NW]=./images/gnr-6wheel-tpo.1.1
+EmptyImage[N]=./images/gnr-6wheel-tpo.1.2
+EmptyImage[NE]=./images/gnr-6wheel-tpo.1.3
