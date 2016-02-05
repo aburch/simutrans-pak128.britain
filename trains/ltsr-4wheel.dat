@@ -34,7 +34,10 @@ Constraint[Next][2]=ltsr-4wheel-full-brake-dia29
 Constraint[Next][3]=ltsr-4wheel-mail
 Constraint[Next][4]=ltsr-6wheel-dia17
 Constraint[Next][5]=ltsr-6wheel-brake-dia22
-Constraint[Next][6]=none
+Constraint[Next][6]=ltsr-46ft-bogie-dia18
+Constraint[Next][7]=ltsr-46ft-bogie-lav
+Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
+Constraint[Next][9]=none
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
@@ -104,6 +107,9 @@ Constraint[Next][2]=ltsr-4wheel-full-brake-dia29
 Constraint[Next][3]=ltsr-4wheel-mail
 Constraint[Next][4]=ltsr-6wheel-dia17
 Constraint[Next][5]=ltsr-6wheel-brake-dia22
+Constraint[Next][6]=ltsr-46ft-bogie-dia18
+Constraint[Next][7]=ltsr-46ft-bogie-lav
+Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
 
 Constraint[Prev][0]=ltsr-4wheel-brake-dia21
 Constraint[Prev][1]=ltsr-4wheel-dia12
@@ -111,6 +117,9 @@ Constraint[Prev][2]=ltsr-4wheel-full-brake-dia29
 Constraint[Prev][3]=ltsr-4wheel-mail
 Constraint[Prev][4]=ltsr-6wheel-dia17
 Constraint[Prev][5]=ltsr-6wheel-brake-dia22
+Constraint[Prev][6]=ltsr-46ft-bogie-dia18
+Constraint[Prev][7]=ltsr-46ft-bogie-lav
+Constraint[Prev][8]=ltsr-46ft-bogie-brake-dia26
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
@@ -178,7 +187,10 @@ Constraint[Next][2]=ltsr-4wheel-full-brake-dia29
 Constraint[Next][3]=ltsr-4wheel-mail
 Constraint[Next][4]=ltsr-6wheel-dia17
 Constraint[Next][5]=ltsr-6wheel-brake-dia22
-Constraint[Next][6]=none
+Constraint[Next][6]=ltsr-46ft-bogie-dia18
+Constraint[Next][7]=ltsr-46ft-bogie-lav
+Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
+Constraint[Next][9]=none
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
@@ -246,6 +258,9 @@ Constraint[Next][2]=ltsr-4wheel-full-brake-dia29
 Constraint[Next][3]=ltsr-4wheel-mail
 Constraint[Next][4]=ltsr-6wheel-dia17
 Constraint[Next][5]=ltsr-6wheel-brake-dia22
+Constraint[Next][6]=ltsr-46ft-bogie-dia18
+Constraint[Next][7]=ltsr-46ft-bogie-lav
+Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
 
 Constraint[Prev][0]=ltsr-4wheel-brake-dia21
 Constraint[Prev][1]=ltsr-4wheel-dia12
@@ -253,6 +268,9 @@ Constraint[Prev][2]=ltsr-4wheel-full-brake-dia29
 Constraint[Prev][3]=ltsr-4wheel-mail
 Constraint[Prev][4]=ltsr-6wheel-dia17
 Constraint[Prev][5]=ltsr-6wheel-brake-dia22
+Constraint[Prev][6]=ltsr-46ft-bogie-dia18
+Constraint[Prev][7]=ltsr-46ft-bogie-lav
+Constraint[Prev][8]=ltsr-46ft-bogie-brake-dia26
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
