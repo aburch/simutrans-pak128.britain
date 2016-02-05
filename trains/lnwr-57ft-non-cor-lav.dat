@@ -1,5 +1,4 @@
-# Based on D326 (Jenkinson (LNWR) p. 106), but that was 50ft in length.
-# D321 (5 compartments, 44 seats) might have been better.
+# Based on D321 (Jenkinson (LNWR) p. 106)
 
 obj=vehicle
 name=LNWR-57ft-non-cor-lav-brake-front
@@ -11,8 +10,8 @@ retire_year=1924
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=36
-overcrowded_capacity=18
+payload=44
+overcrowded_capacity=22
 length=10
 
 weight=31
@@ -110,8 +109,8 @@ retire_year=1924
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=36
-overcrowded_capacity=18
+payload=44
+overcrowded_capacity=22
 length=10
 
 weight=31
