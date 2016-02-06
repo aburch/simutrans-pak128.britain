@@ -48,6 +48,7 @@ Constraint[Prev][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Prev][20]=SR-Bulleid-Express-brake-front-all-doors
 Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
+Constraint[Prev][23]=LSWR-dining-saloon
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -72,6 +73,7 @@ Constraint[Next][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Next][20]=SR-Bulleid-Express-brake-rear-all-doors
 Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
+Constraint[Next][23]=LSWR-dining-saloon
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -156,6 +158,7 @@ Constraint[Prev][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Prev][20]=SR-Bulleid-Express-brake-front-all-doors
 Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
+Constraint[Prev][23]=LSWR-dining-saloon
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -180,6 +183,7 @@ Constraint[Next][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Next][20]=SR-Bulleid-Express-brake-rear-all-doors
 Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
+Constraint[Next][23]=LSWR-dining-saloon
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -211,7 +215,6 @@ EmptyImage[W][2]=./images/sr-maunsell-saloon-br.1.0
 EmptyImage[NW][2]=./images/sr-maunsell-saloon-br.1.1
 EmptyImage[N][2]=./images/sr-maunsell-saloon-br.1.2
 EmptyImage[NE][2]=./images/sr-maunsell-saloon-br.1.3
-
 
 ----
 
@@ -266,6 +269,7 @@ Constraint[Prev][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Prev][20]=SR-Bulleid-Express-brake-front-all-doors
 Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
+Constraint[Prev][23]=LSWR-dining-saloon
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -290,6 +294,7 @@ Constraint[Next][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Next][20]=SR-Bulleid-Express-brake-rear-all-doors
 Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
+Constraint[Next][23]=LSWR-dining-saloon
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -375,6 +380,7 @@ Constraint[Prev][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Prev][20]=SR-Bulleid-Express-brake-front-all-doors
 Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
+Constraint[Prev][23]=LSWR-dining-saloon
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -399,6 +405,7 @@ Constraint[Next][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Next][20]=SR-Bulleid-Express-brake-rear-all-doors
 Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
+Constraint[Next][23]=LSWR-dining-saloon
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -483,6 +490,8 @@ Constraint[Prev][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Prev][20]=SR-Bulleid-Express-brake-front-all-doors
 Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
+Constraint[Prev][23]=LSWR-dining-saloon
+Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -561,10 +570,15 @@ Constraint[Next][13]=LSWR-Ironclad-Mail
 Constraint[Next][14]=LSWR-Ironclad-TPO
 Constraint[Next][15]=LSWR-corridor
 Constraint[Next][16]=LSWR-corridor-brake-rear
-Constraint[Next][17]=LSWR-corridor-brake-front
-Constraint[Next][18]=SR-Maunsell-Saloon
-Constraint[Next][19]=SR-Maunsell-Buffet
-Constraint[Next][20]=none
+Constraint[Next][17]=SR-Maunsell-Saloon
+Constraint[Next][18]=SR-Maunsell-Buffet
+Constraint[Next][19]=SR-Bulleid-Express-Coach-all-doors
+Constraint[Next][20]=SR-Bulleid-Express-brake-rear-all-doors
+Constraint[Next][21]=SR-Bulleid-Express-Saloon
+Constraint[Next][22]=SR-Bulleid-Express-Buffet
+Constraint[Next][23]=LSWR-dining-saloon
+Constraint[Next][24]=SR-Maunsell-Parcels-Brake
+Constraint[Next][25]=none
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -647,6 +661,7 @@ Constraint[Prev][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Prev][20]=SR-Bulleid-Express-brake-front-all-doors
 Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
+Constraint[Prev][23]=LSWR-dining-saloon
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -671,6 +686,7 @@ Constraint[Next][19]=SR-Bulleid-Express-Coach-all-doors
 Constraint[Next][20]=SR-Bulleid-Express-brake-rear-all-doors
 Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
+Constraint[Next][23]=LSWR-dining-saloon
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
