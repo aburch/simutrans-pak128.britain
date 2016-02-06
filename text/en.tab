@@ -2805,8 +2805,6 @@ BR-221Front(Virgin)
 BR Class 221 "Super Voyager"
 GWR-ParkRoyal-Railcar
 GWR Park Royal Railcar
-SR-Bulleid-Express-Brake(Green)
-SR Bulleid Brake Corridor
 BR-180Front(FGW)
 BR Class 180 "Adelante"
 BR-309Power(Blue-Grey)
@@ -2887,8 +2885,6 @@ BR-170Middle(Scotrail)
 BR Class 170 "Turbostar" DMU (centre)
 BR-170Rear(Scotrail)
 BR Class 170 "Turbostar" DMU (rear)
-SR-Bulleid-Express-Coach(Green)
-SR Bulleid Gangwayed Corridor
 BR-180Middle(FGW)
 BR Class 180 "Adelante" (centre)
 BR-180Middle-Buffet(FGW)
@@ -3485,6 +3481,24 @@ CC-Clerestory-Brake
 GWR Corridor Clerestory Carriage (brake)
 CC-Clerestory-Coach
 GWR Corridor Clerestory Carriage
+SR-Bulleid-Express-Coach-all-doors
+SR eight compartment corridor carriage
+SR-Bulleid-Express-brake-front-all-doors
+SR six compartment corridor brake carriage
+SR-Bulleid-Express-brake-rear-all-doors
+SR six compartment corridor brake carriage (rear)
+SR-Bulleid-Express-Coach
+SR eight compartment corridor vestibule carriage
+SR-Bulleid-Express-Saloon
+SR vestibule saloon carriage
+SR-Bulleid-Express-Dining
+SR restaurant car
+SR-Bulleid-Express-Buffet
+SR buffet car
+SR-Bulleid-Express-Brake-rear
+SR six compartment vestibule corridor brake carriage (rear)
+SR-Bulleid-Express-Brake-front
+SR six compartment vestibule corridor brake carriage
 SR-Maunsell-Third
 SR eight compartment corridor carriage
 SR-Maunsell-Saloon
@@ -3499,6 +3513,8 @@ SR-Maunsell-Dining
 SR restaurant car
 SR-Maunsell-Parcels
 SR parcels van
+SR-Maunsell-Parcels-Brake
+SR parcel brake
 SR-Maunsell-Mail
 SR mail carriage
 SR-Maunsell-TPO
@@ -3981,8 +3997,6 @@ CC-Clerestory-Dining
 GWR corridor clerestory dining car
 GWR-Express-Dining
 GWR express dining car
-SR-Bulleid-Express-Dining(Green)
-SR Bulleid Dining Car
 BR-Mk2-RFB
 BR Mk. 2D Mini-Buffet
 BR-Mk2-DBSO
