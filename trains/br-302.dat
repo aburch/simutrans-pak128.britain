@@ -29,8 +29,13 @@ max_loading_time=43
 comfort=77
 way_constraint_permissive[2]=2
 
-Constraint[Prev][0]=BR-302(rear)
-Constraint[Prev][1]=none
+# Multiple working with BR classes 302-312:
+# http://en.wikipedia.org/wiki/British_Rail_Class_312
+Constraint[Prev][0]=BR-312-DTCOL
+Constraint[Prev][1]=BR-304Rear
+Constraint[Prev][2]=BR-303Rear
+Constraint[Prev][3]=BR-302(rear)
+Constraint[Prev][4]=none
 
 Constraint[Next][0]=BR-302(centre1)
 
@@ -110,8 +115,13 @@ comfort=77
 
 Constraint[Prev][0]=BR-302(centre2)
 
-Constraint[Next][0]=BR-302(front)
-Constraint[Next][1]=none
+# Multiple working with BR classes 302-312:
+# http://en.wikipedia.org/wiki/British_Rail_Class_312
+Constraint[Next][0]=BR-312-BDTSOL
+Constraint[Next][1]=BR-304Front
+Constraint[Next][2]=BR-303Front
+Constraint[Next][3]=BR-302(front)
+Constraint[Next][4]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

@@ -34,7 +34,8 @@ comfort=77
 Constraint[Prev][0]=BR-312-DTCOL
 Constraint[Prev][1]=BR-304Rear
 Constraint[Prev][2]=BR-303Rear
-Constraint[Prev][3]=none
+Constraint[Prev][3]=BR-302(rear)
+Constraint[Prev][4]=none
 
 Constraint[Next][0]=BR-304Centre-Trailer
 Constraint[Next][1]=BR-304Centre-Motor
@@ -183,7 +184,8 @@ Constraint[Prev][0]=BR-304Centre-Motor
 Constraint[Next][0]=BR-312-BDTSOL
 Constraint[Next][1]=BR-304Front
 Constraint[Next][2]=BR-303Front
-Constraint[Next][3]=none
+Constraint[Next][3]=BR-302(front)
+Constraint[Next][4]=none
 
 EmptyImage[E]=./images/br-304-bg-rear.0.0
 EmptyImage[SE]=./images/br-304-bg-rear.0.1
