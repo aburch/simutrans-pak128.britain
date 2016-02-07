@@ -16,7 +16,7 @@ waytype=track
 freight=Passagiere
 payload=71
 overcrowded_capacity=53
-length=13
+length=12
 brake_force=30
 rolling_resistance=13
 
@@ -39,14 +39,14 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=c2c-357(centre1)
 
-EmptyImage[E]=./images/c2c-357-driving.0.0
-EmptyImage[SE]=./images/c2c-357-driving.0.1
-EmptyImage[S]=./images/c2c-357-driving.0.2
-EmptyImage[SW]=./images/c2c-357-driving.0.3
-EmptyImage[W]=./images/c2c-357-driving.0.4
-EmptyImage[NW]=./images/c2c-357-driving.0.5
-EmptyImage[N]=./images/c2c-357-driving.0.6
-EmptyImage[NE]=./images/c2c-357-driving.0.7
+EmptyImage[E]=./images/br-357-driving-front.1.4
+EmptyImage[SE]=./images/br-357-driving-front.1.5
+EmptyImage[S]=./images/br-357-driving-front.1.6
+EmptyImage[SW]=./images/br-357-driving-front.1.7
+EmptyImage[W]=./images/br-357-driving-front.1.0
+EmptyImage[NW]=./images/br-357-driving-front.1.1
+EmptyImage[N]=./images/br-357-driving-front.1.2
+EmptyImage[NE]=./images/br-357-driving-front.1.3
 
 ---
 
@@ -87,14 +87,14 @@ Constraint[Prev][0]=c2c-357(front)
 
 Constraint[Next][0]=c2c-357(centre2)
 
-EmptyImage[E]=./images/c2c-357-centre.0.0
-EmptyImage[SE]=./images/c2c-357-centre.0.1
-EmptyImage[S]=./images/c2c-357-centre.0.2
-EmptyImage[SW]=./images/c2c-357-centre.0.3
-EmptyImage[W]=./images/c2c-357-centre.0.4
-EmptyImage[NW]=./images/c2c-357-centre.0.5
-EmptyImage[N]=./images/c2c-357-centre.0.6
-EmptyImage[NE]=./images/c2c-357-centre.0.7
+EmptyImage[E]=./images/br-357-centre.1.4
+EmptyImage[SE]=./images/br-357-centre.1.5
+EmptyImage[S]=./images/br-357-centre.1.6
+EmptyImage[SW]=./images/br-357-centre.1.7
+EmptyImage[W]=./images/br-357-centre.1.0
+EmptyImage[NW]=./images/br-357-centre.1.1
+EmptyImage[N]=./images/br-357-centre.1.2
+EmptyImage[NE]=./images/br-357-centre.1.3
 
 ---
 
@@ -135,14 +135,14 @@ Constraint[Prev][0]=c2c-357(centre1)
 
 Constraint[Next][0]=c2c-357(rear)
 
-EmptyImage[E]=./images/c2c-357-centre.1.0
-EmptyImage[SE]=./images/c2c-357-centre.1.1
-EmptyImage[S]=./images/c2c-357-centre.1.2
-EmptyImage[SW]=./images/c2c-357-centre.1.3
-EmptyImage[W]=./images/c2c-357-centre.1.4
-EmptyImage[NW]=./images/c2c-357-centre.1.5
-EmptyImage[N]=./images/c2c-357-centre.1.6
-EmptyImage[NE]=./images/c2c-357-centre.1.7
+EmptyImage[E]=./images/br-357-pantograph.1.4
+EmptyImage[SE]=./images/br-357-pantograph.1.5
+EmptyImage[S]=./images/br-357-pantograph.1.6
+EmptyImage[SW]=./images/br-357-pantograph.1.7
+EmptyImage[W]=./images/br-357-pantograph.1.0
+EmptyImage[NW]=./images/br-357-pantograph.1.1
+EmptyImage[N]=./images/br-357-pantograph.1.2
+EmptyImage[NE]=./images/br-357-pantograph.1.3
 
 ---
 
@@ -185,11 +185,11 @@ Constraint[Prev][0]=c2c-357(centre2)
 Constraint[Next][0]=c2c-357(front)
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/c2c-357-driving.1.0
-EmptyImage[SE]=./images/c2c-357-driving.1.1
-EmptyImage[S]=./images/c2c-357-driving.1.2
-EmptyImage[SW]=./images/c2c-357-driving.1.3
-EmptyImage[W]=./images/c2c-357-driving.1.4
-EmptyImage[NW]=./images/c2c-357-driving.1.5
-EmptyImage[N]=./images/c2c-357-driving.1.6
-EmptyImage[NE]=./images/c2c-357-driving.1.7
+EmptyImage[E]=./images/br-357-driving-rear.1.4
+EmptyImage[SE]=./images/br-357-driving-rear.1.5
+EmptyImage[S]=./images/br-357-driving-rear.1.6
+EmptyImage[SW]=./images/br-357-driving-rear.1.7
+EmptyImage[W]=./images/br-357-driving-rear.1.0
+EmptyImage[NW]=./images/br-357-driving-rear.1.1
+EmptyImage[N]=./images/br-357-driving-rear.1.2
+EmptyImage[NE]=./images/br-357-driving-rear.1.3
