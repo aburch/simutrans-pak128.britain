@@ -27,10 +27,13 @@ way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-410[CEP]Rear
 Constraint[Prev][1]=BR-414[HAP]Rear
-Constraint[Prev][2]=BR-423-DTCL-Rear
-Constraint[Prev][3]=BR-419[MLV]
-Constraint[Prev][4]=BR-499[TLV]
-Constraint[Prev][5]=none
+Constraint[Prev][2]=BR-419[MLV]
+Constraint[Prev][3]=BR-499[TLV]
+Constraint[Prev][4]=BR-423-DTCL-Rear
+Constraint[Prev][5]=BR-421[CIG]Rear
+Constraint[Prev][6]=BR-4EPB(rear)
+Constraint[Prev][7]=BR-2EPB(rear)
+Constraint[Prev][8]=none
 
 # No next constraints, as this could haul a trailing load
 # of 100t: http://www.therailwaycentre.com/Recognition%20Tech%20Data%20EMU/EMU_419_499.html

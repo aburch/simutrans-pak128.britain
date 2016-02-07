@@ -33,10 +33,15 @@ max_loading_time=40
 comfort=77
 way_constraint_permissive[0]=0
 
-Constraint[Prev][0]=BR-4EPB(rear)
-Constraint[Prev][1]=BR-2EPB(rear)
-Constraint[Prev][2]=BR-414[HAP]Rear
-Constraint[Prev][3]=none
+Constraint[Prev][0]=BR-410[CEP]Rear
+Constraint[Prev][1]=BR-414[HAP]Rear
+Constraint[Prev][2]=BR-419[MLV]
+Constraint[Prev][3]=BR-499[TLV]
+Constraint[Prev][4]=BR-423-DTCL-Rear
+Constraint[Prev][5]=BR-421[CIG]Rear
+Constraint[Prev][6]=BR-4EPB(rear)
+Constraint[Prev][7]=BR-2EPB(rear)
+Constraint[Prev][8]=none
 
 Constraint[Next][0]=BR-4EPB(centre1)
 Constraint[Next][1]=BR-2EPB(rear)
@@ -119,9 +124,14 @@ way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(front)
 
-Constraint[Next][0]=BR-4EPB(front)
+Constraint[Next][0]=BR-410[CEP]Front
 Constraint[Next][1]=BR-414[HAP]Front
-Constraint[Next][2]=none
+Constraint[Next][2]=BR-419[MLV]
+Constraint[Next][3]=BR-499[TLV]
+Constraint[Next][4]=BR-423-DTCL-Front
+Constraint[Next][5]=BR-421[CIG]Front
+Constraint[Next][6]=BR-4EPB(front)
+Constraint[Next][7]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
@@ -201,9 +211,14 @@ way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-4EPB(centre2)
 
-Constraint[Next][0]=BR-4EPB(front)
+Constraint[Next][0]=BR-410[CEP]Front
 Constraint[Next][1]=BR-414[HAP]Front
-Constraint[Next][2]=none
+Constraint[Next][2]=BR-419[MLV]
+Constraint[Next][3]=BR-499[TLV]
+Constraint[Next][4]=BR-423-DTCL-Front
+Constraint[Next][5]=BR-421[CIG]Front
+Constraint[Next][6]=BR-4EPB(front)
+Constraint[Next][7]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

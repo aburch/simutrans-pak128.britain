@@ -3084,13 +3084,23 @@ BR Class 423 "4-Vep" EMU (rear)
 BR-410[CEP]Front
 BR Class 410 "4-Cep" EMU
 BR-410[CEP]Brake
-BR Class 410 "4-Cep" EMU (middle brake)
+BR Class 410 "4-Cep" EMU (centre brake)
 BR-410[CEP]Buffet
 BR Class 410 "4-Cep" EMU (buffet)
 BR-410[CEP]Middle
-BR Class 410 "4-Cep" EMU (centre)
+BR Class 410 "4-Cep" EMU (trailer open)
 BR-410[CEP]Rear
 BR Class 410 "4-Cep" EMU (rear)
+BR-421[CIG]Front
+BR Class 421 "4-Cig" EMU
+BR-421[CIG]Motor
+BR Class 421 "4-Cig" EMU (motor brake open)
+BR-421[CIG]Middle
+BR Class 421 "4-Cig" EMU (trailer open)
+BR-421[CIG]Buffet
+BR Class 421 "4-Cig" EMU (buffet)
+BR-421[CIG]Rear
+BR Class 421 "4-Cig" EMU (rear)
 BR-158Front(Regional)
 BR Class 158 "Express Sprinter" DMU 
 BR-158Middle(Regional)
