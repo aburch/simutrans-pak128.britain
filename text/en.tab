@@ -3668,15 +3668,15 @@ SR N15 Class "King Arthur" (tender)
 LSWR-N15
 LSWR N15 Class 4-6-0
 LSWR-N15-Tender
-LSWR N15 Class 4-6-0 (tender)
+LSWR N15 Class (tender)
 LSWR-H15
 LSWR H15 Class 4-6-0
 LSWR-H15-Tender
-LSWR H15 Class 4-6-0 (tender)
+LSWR H15 Class (tender)
 LSWR-S15
 LSWR S15 Class 4-6-0
 LSWR-S15-Tender
-LSWR S15 Class 4-6-0 (tender)
+LSWR S15 Class (tender)
 LSWR-corridor
 LSWR eight compartment corridor carriage
 LSWR-corridor-brake-front
@@ -3699,10 +3699,14 @@ SR-Schools
 SR V Class "Schools" 4-4-0
 SR-Schools-Tender
 SR V Class "Schools" (tender)
+SR-U-Class
+SR U Class 2-6-0
+SR-U-Class-Tender
+SR U Class (tender) 
 SR-Lord-Nelson
 SR "Lord Nelson" Class 4-6-0
 SR-Lord-Nelson-Tender
-SR "Lord Nelson" Class 4-6-0  (tender)
+SR "Lord Nelson" Class (tender)
 GWR-King
 GWR 6600 "King" Class 4-6-0
 GWR-King-Tender
