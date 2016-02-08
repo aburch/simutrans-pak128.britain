@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-442-Front(NSE)
+name=BR-442-Front
 engine_type=electric
 speed=160
 copyright=James
@@ -30,10 +30,10 @@ min_loading_time=35
 max_loading_time=180
 comfort=150
 
-Constraint[Prev][0]=BR-442-Rear(NSE)
+Constraint[Prev][0]=BR-442-Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-442-Middle1(NSE)
+Constraint[Next][0]=BR-442-Middle1
 
 EmptyImage[E]=./images/br-442.0.0
 EmptyImage[SE]=./images/br-442.0.1
@@ -47,7 +47,7 @@ EmptyImage[NE]=./images/br-442.0.7
 --
 
 obj=vehicle
-name=BR-442-Middle1(NSE)
+name=BR-442-Middle1
 speed=160
 copyright=James
 intro_year=1988
@@ -77,8 +77,8 @@ min_loading_time=35
 max_loading_time=180
 comfort=150
 
-Constraint[Prev][0]=BR-442-Front(NSE)
-Constraint[Next][0]=BR-442-Middle2(NSE)
+Constraint[Prev][0]=BR-442-Front
+Constraint[Next][0]=BR-442-Middle2
 
 EmptyImage[E]=./images/br-442.1.0
 EmptyImage[SE]=./images/br-442.1.1
@@ -92,7 +92,7 @@ EmptyImage[NE]=./images/br-442.1.7
 --
 
 obj=vehicle
-name=BR-442-Middle2(NSE)
+name=BR-442-Middle2
 speed=160
 copyright=James
 intro_year=1988
@@ -113,6 +113,7 @@ rolling_resistance=13
 weight=54
 axles=4
 cost=590000
+upgrade_price=472000
 runningcost=290
 sound=-1
 
@@ -126,8 +127,8 @@ min_loading_time=35
 max_loading_time=180
 comfort=150
 
-Constraint[Prev][0]=BR-442-Middle1(NSE)
-Constraint[Next][0]=BR-442-Middle3(NSE)
+Constraint[Prev][0]=BR-442-Middle1
+Constraint[Next][0]=BR-442-Middle3
 
 EmptyImage[E]=./images/br-442.1.0
 EmptyImage[SE]=./images/br-442.1.1
@@ -141,7 +142,7 @@ EmptyImage[NE]=./images/br-442.1.7
 --
 
 obj=vehicle
-name=BR-442-Middle3(NSE)
+name=BR-442-Middle3
 speed=160
 copyright=James
 intro_year=1988
@@ -171,8 +172,8 @@ min_loading_time=35
 max_loading_time=180
 comfort=150
 
-Constraint[Prev][0]=BR-442-Middle2(NSE)
-Constraint[Next][0]=BR-442-Rear(NSE)
+Constraint[Prev][0]=BR-442-Middle2
+Constraint[Next][0]=BR-442-Rear
 
 EmptyImage[E]=./images/br-442.1.0
 EmptyImage[SE]=./images/br-442.1.1
@@ -186,7 +187,7 @@ EmptyImage[NE]=./images/br-442.1.7
 --
 
 obj=vehicle
-name=BR-442-Rear(NSE)
+name=BR-442-Rear
 speed=160
 engine_type=electric
 #gear=350
@@ -219,8 +220,8 @@ min_loading_time=35
 max_loading_time=180
 comfort=150
 
-Constraint[Prev][0]=BR-442-Middle3(NSE)
-Constraint[Next][0]=BR-442-Front(NSE)
+Constraint[Prev][0]=BR-442-Middle3
+Constraint[Next][0]=BR-442-Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-442.2.0
