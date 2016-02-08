@@ -3504,11 +3504,17 @@ Midland Clerestory Carriage (brake)
 MR-Clerestory-Coach
 Midland Clerestory Carriage
 Teak-Clerestory-Brake
-GNR Corridor Clerestory Carriage (brake)
+GER five compartment corridor clerestory brake carriage
 Teak-Clerestory-Coach
-GNR Corridor Clerestory Carriage
+GER six compartment corridor clerestory carriage
 Teak-Clerestory-Dining
-GNR Corridor Clerestory Dining Carriage
+GER clerestory dining carriage carriage
+Teak-Clerestory-Parcel-Brake
+GER clerestory parcel brake carriage
+Teak-Clerestory-TPO
+GER clerestory travelling post office
+Teak-Clerestory-Mail
+GER clerestory mail carriage
 CC-Clerestory-Brake
 GWR Corridor Clerestory Carriage (brake)
 CC-Clerestory-Coach
@@ -4087,10 +4093,6 @@ CC-Clerestory-Parcel-Brake
 GWR clerestory parcel brake coach
 CC-Clerestory-TPO
 GWR clerestory travelling post office
-Teak-Clerestory-Parcel-Brake
-GNR clerestory parcel brake coach
-Teak-Clerestory-TPO
-GNR clerestory travelling post office
 MR-Clerestory-Parcel-Brake
 Midland clerestory parcel brake coach
 MR-Clerestory-TPO
@@ -4139,8 +4141,6 @@ LNER-Gresley-Express-TPO
 LNER travelling post office
 CC-Clerestory-Mail
 GWR clerestory mail van
-Teak-Clerestory-Mail
-GNR clerestory mail Van
 MR-Clerestory-Mail
 Midland clerestory mail van
 GWR-Express-Mail

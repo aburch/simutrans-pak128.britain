@@ -1,14 +1,16 @@
+# Treat these as GER carriages:
+# http://www.gersociety.org.uk/index.php/rolling-stock/carriages/types-9-13
 obj=vehicle
 name=Teak-Clerestory-Coach
 speed=160
 copyright=James
-intro_year=1897
+intro_year=1898
 intro_month=4
 retire_year=1913
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=60
+payload=48
 overcrowded_capacity=30
 length=10
 
