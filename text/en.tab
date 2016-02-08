@@ -3884,9 +3884,13 @@ LNWR "Precedent" Class 2-4-0
 LNEW-Precedent-Tender
 LNWR "Precedent" Class (tender)
 GER-Claud-Hamilton
-GER Class S46 "Claud Hamilton" 4-4-0
+GER S46 Class "Claud Hamilton" 4-4-0
 GER-Claud-Hamilton-Tender
-GER Class S46 "Claud Hamilton" (tender)
+GER express tender
+ger-belpaire-claud
+GER D56 Class "Belpaire Claud" 4-4-0
+ger-super-claud
+GER H88 Class "Super Claud" 4-4-0
 GWR-Bulldog
 GWR 3300 "Bulldog" Class 4-4-0
 GWR-Bulldog-Tender

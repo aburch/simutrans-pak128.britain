@@ -1,12 +1,12 @@
 obj=vehicle
 name=GER-Claud-Hamilton-Tender
-speed=145
+speed=148
 power=0
 copyright=James
 intro_year=1900
 intro_month=2
-retire_year=1911
-retire_month=11
+retire_year=1925
+retire_month=7
 waytype=track
 freight=None
 payload=0
@@ -21,6 +21,8 @@ increase_maintenance_after_years=27
 years_before_maintenance_max_reached=25
 
 Constraint[Prev][0]=GER-Claud-Hamilton
+Constraint[Prev][1]=ger-belpaire-claud
+Constraint[Prev][2]=ger-super-claud
 
 liverytype[0]=GER-Ultramarine
 liverytype[1]=WW1-Austerity
