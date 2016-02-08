@@ -25,6 +25,9 @@ max_loading_time=120
 comfort=137
 increase_maintenance_after_years=34
 
+upgrade[0]=BR-430[REP]Middle
+upgrade[1]=BR-491[TC]Middle
+
 Constraint[Next][0]=BR-Mk1-GUV
 Constraint[Next][1]=BR-Mk1-SK
 Constraint[Next][2]=BR-Mk1-TSO
