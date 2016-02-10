@@ -1,0 +1,52 @@
+# See Ahrons pp. 171-2
+obj=vehicle
+name=gnr-a-class
+engine_type=steam
+smoke=Steam
+# Mixed traffic engine
+speed=100
+# Extrapolated
+power=170
+tractive_effort=56
+copyright=James/jamespetts
+intro_year=1867
+intro_month=3
+retire_year=1885
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+# Do we need this?
+#rolling_resistance=19
+
+# Weight taken from Ahrons, p. 172
+weight=32.8
+axle_load=13
+cost=82820000
+runningcost=900
+sound=-1
+
+Constraint[Next][0]=gnr-sturrock-tender
+
+liverytype[0]=GNR-early
+liverytype[1]=GNR-Standard
+
+EmptyImage[E][0]=./images/gnr-a-class-dark.1.4
+EmptyImage[SE][0]=./images/gnr-a-class-dark.1.5
+EmptyImage[S][0]=./images/gnr-a-class-dark.1.6
+EmptyImage[SW][0]=./images/gnr-a-class-dark.1.7
+EmptyImage[W][0]=./images/gnr-a-class-dark.1.0
+EmptyImage[NW][0]=./images/gnr-a-class-dark.1.1
+EmptyImage[N][0]=./images/gnr-a-class-dark.1.2
+EmptyImage[NE][0]=./images/gnr-a-class-dark.1.3
+
+EmptyImage[E][1]=./images/gnr-a-class.1.4
+EmptyImage[SE][1]=./images/gnr-a-class.1.5
+EmptyImage[S][1]=./images/gnr-a-class.1.6
+EmptyImage[SW][1]=./images/gnr-a-class.1.7
+EmptyImage[W][1]=./images/gnr-a-class.1.0
+EmptyImage[NW][1]=./images/gnr-a-class.1.1
+EmptyImage[N][1]=./images/gnr-a-class.1.2
+EmptyImage[NE][1]=./images/gnr-a-class.1.3

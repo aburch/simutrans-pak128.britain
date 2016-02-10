@@ -23,7 +23,9 @@ way_wear_factor=70875
 
 # Weight taken from Ahrons, p. 174
 weight=45
-axles=3
+# Should be 15, but this is too heavy for all tracks of this era.
+axle_load=14
+#axles=3
 cost=9550000
 # These were uneconomical: Ahrons, p. 174
 runningcost=955

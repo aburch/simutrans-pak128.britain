@@ -1349,9 +1349,12 @@ intro_month[17][1] = 1
 livery_scheme[18] = GNR
 retire_year[18] = 1923
 retire_month[18] = 1
-livery[18][0] = GNR-Standard
+livery[18][0] = GNR-early
 intro_year[18][0] = 1846
 intro_month[18][0] = 6
+livery[18][1] = GNR-standard
+intro_year[18][1] = 1870
+intro_month[18][1] = 1
 
 # Special generic livery for assorted
 # liveries of non-London 'buses

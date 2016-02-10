@@ -2234,13 +2234,19 @@ GNR Class C1 4-4-2
 GNR-C1-Tender
 GNR Express tender
 GNR-C1-superheated
-GNR Class C1 4-4-2 (superheated)
+GNR C1 Class  4-4-2 (superheated)
 GNR-Klondyke
-GNR Class C2 "Klondyke" 4-4-2
+GNR C2 Class "Klondyke" 4-4-2
+gnr-a-class
+GNR A Class 0-4-2
+gnr-h-class
+GNR H Class 2-4-0
 GNR-Stirling8Foot
 GNR G Class "Stirling 8ft Single" 4-2-2
 GNR-Stirling8Foot-Tender
-GNR Stirling Single (tender)
+GNR Stirling tender
+gnr-sturrock-tender
+GNR Sturrock tender
 BR-4MT-Tank
 BR Standard Class 4MT 2-6-4T
 BR-9F
@@ -4107,12 +4113,12 @@ LNWR-6Wheel-Mail
 LNWR six wheel mail carriage
 LNWR-6Wheel-tpo
 LNWR six wheel parcel sorting van
-GNR-6Wheel-Mail
-GNR six wheel mail carriage
 MR-6Wheel-Mail
 Midland six wheel mail carriage
 LNWR-6Wheel-tpo
 LNWR six wheel TPO
+GNR-6Wheel-Mail
+GNR six wheel mail carriage
 GNR-6Wheel-tpo
 GNR six wheel TPO
 MR-6Wheel-tpo

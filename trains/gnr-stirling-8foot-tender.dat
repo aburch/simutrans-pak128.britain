@@ -22,12 +22,23 @@ years_before_maintenance_max_reached=31
 
 Constraint[Prev][0]=GNR-Stirling8Foot
 
-EmptyImage[E]=./images/gnr-stirling8foot.1.0
-EmptyImage[SE]=./images/gnr-stirling8foot.1.1
-EmptyImage[S]=./images/gnr-stirling8foot.1.2
-EmptyImage[SW]=./images/gnr-stirling8foot.1.3
-EmptyImage[W]=./images/gnr-stirling8foot.1.4
-EmptyImage[NW]=./images/gnr-stirling8foot.1.5
-EmptyImage[N]=./images/gnr-stirling8foot.1.6
-EmptyImage[NE]=./images/gnr-stirling8foot.1.7
+liverytype[0]=GNR-Standard
+liverytype[1]=LNER-Standard
 
+EmptyImage[E][0]=./images/gnr-stirling-single-tender.1.4
+EmptyImage[SE][0]=./images/gnr-stirling-single-tender.1.5
+EmptyImage[S][0]=./images/gnr-stirling-single-tender.1.6
+EmptyImage[SW][0]=./images/gnr-stirling-single-tender.1.7
+EmptyImage[W][0]=./images/gnr-stirling-single-tender.1.0
+EmptyImage[NW][0]=./images/gnr-stirling-single-tender.1.1
+EmptyImage[N][0]=./images/gnr-stirling-single-tender.1.2
+EmptyImage[NE][0]=./images/gnr-stirling-single-tender.1.3
+
+EmptyImage[E][1]=./images/gnr-stirling-single-tender-lner.1.4
+EmptyImage[SE][1]=./images/gnr-stirling-single-tender-lner.1.5
+EmptyImage[S][1]=./images/gnr-stirling-single-tender-lner.1.6
+EmptyImage[SW][1]=./images/gnr-stirling-single-tender-lner.1.7
+EmptyImage[W][1]=./images/gnr-stirling-single-tender-lner.1.0
+EmptyImage[NW][1]=./images/gnr-stirling-single-tender-lner.1.1
+EmptyImage[N][1]=./images/gnr-stirling-single-tender-lner.1.2
+EmptyImage[NE][1]=./images/gnr-stirling-single-tender-lner.1.3
