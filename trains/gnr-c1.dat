@@ -31,14 +31,26 @@ upgrade[0]=GNR-C1-superheated
 
 Constraint[Next][0]=GNR-C1-Tender
 
-EmptyImage[E]=./images/gnr-c1.1.4
-EmptyImage[SE]=./images/gnr-c1.1.5
-EmptyImage[S]=./images/gnr-c1.1.6
-EmptyImage[SW]=./images/gnr-c1.1.7
-EmptyImage[W]=./images/gnr-c1.1.0
-EmptyImage[NW]=./images/gnr-c1.1.1
-EmptyImage[N]=./images/gnr-c1.1.2
-EmptyImage[NE]=./images/gnr-c1.1.3
+liverytype[0]=GNR-Standard
+liverytype[1]=LNER-Standard
+
+EmptyImage[E][0]=./images/gnr-c1.1.4
+EmptyImage[SE][0]=./images/gnr-c1.1.5
+EmptyImage[S][0]=./images/gnr-c1.1.6
+EmptyImage[SW][0]=./images/gnr-c1.1.7
+EmptyImage[W][0]=./images/gnr-c1.1.0
+EmptyImage[NW][0]=./images/gnr-c1.1.1
+EmptyImage[N][0]=./images/gnr-c1.1.2
+EmptyImage[NE][0]=./images/gnr-c1.1.3
+
+EmptyImage[E][1]=./images/gnr-c1-lner.1.4
+EmptyImage[SE][1]=./images/gnr-c1-lner.1.5
+EmptyImage[S][1]=./images/gnr-c1-lner.1.6
+EmptyImage[SW][1]=./images/gnr-c1-lner.1.7
+EmptyImage[W][1]=./images/gnr-c1-lner.1.0
+EmptyImage[NW][1]=./images/gnr-c1-lner.1.1
+EmptyImage[N][1]=./images/gnr-c1-lner.1.2
+EmptyImage[NE][1]=./images/gnr-c1-lner.1.3
 ---------------------------------------
 # http://www.lner.info/locos/C/c1.php
 obj=vehicle
@@ -74,12 +86,24 @@ years_before_maintenance_max_reached=25
 
 Constraint[Next][0]=GNR-C1-Tender
 
-EmptyImage[E]=./images/gnr-c1.1.4
-EmptyImage[SE]=./images/gnr-c1.1.5
-EmptyImage[S]=./images/gnr-c1.1.6
-EmptyImage[SW]=./images/gnr-c1.1.7
-EmptyImage[W]=./images/gnr-c1.1.0
-EmptyImage[NW]=./images/gnr-c1.1.1
-EmptyImage[N]=./images/gnr-c1.1.2
-EmptyImage[NE]=./images/gnr-c1.1.3
+liverytype[0]=GNR-Standard
+liverytype[1]=LNER-Standard
+
+EmptyImage[E][0]=./images/gnr-c1.1.4
+EmptyImage[SE][0]=./images/gnr-c1.1.5
+EmptyImage[S][0]=./images/gnr-c1.1.6
+EmptyImage[SW][0]=./images/gnr-c1.1.7
+EmptyImage[W][0]=./images/gnr-c1.1.0
+EmptyImage[NW][0]=./images/gnr-c1.1.1
+EmptyImage[N][0]=./images/gnr-c1.1.2
+EmptyImage[NE][0]=./images/gnr-c1.1.3
+
+EmptyImage[E][1]=./images/gnr-c1-lner.1.4
+EmptyImage[SE][1]=./images/gnr-c1-lner.1.5
+EmptyImage[S][1]=./images/gnr-c1-lner.1.6
+EmptyImage[SW][1]=./images/gnr-c1-lner.1.7
+EmptyImage[W][1]=./images/gnr-c1-lner.1.0
+EmptyImage[NW][1]=./images/gnr-c1-lner.1.1
+EmptyImage[N][1]=./images/gnr-c1-lner.1.2
+EmptyImage[NE][1]=./images/gnr-c1-lner.1.3
 
