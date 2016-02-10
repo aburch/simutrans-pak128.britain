@@ -9,7 +9,7 @@ tractive_effort=68
 copyright==Kieron/JamesPetts
 intro_year=1894
 intro_month=1
-retire_year=1895
+retire_year=1900
 retire_month=11
 waytype=track
 freight=None
@@ -20,8 +20,11 @@ length=5
 weight=45
 axle_load=17
 cost=13550000
+upgrade_price=564583
 runningcost=1770
 sound=-1
+
+upgrade[0]=gnr-g3
 
 Constraint[Next][0]=GNR-Stirling8Foot-Tender
 

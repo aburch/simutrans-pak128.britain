@@ -31,6 +31,9 @@ sound=-1
 increase_maintenance_after_years=27
 years_before_maintenance_max_reached=31
 
+upgrade[0]=gnr-g2
+upgrade[1]=gnr-g3
+
 Constraint[Next][0]=GNR-Stirling8Foot-Tender
 
 EmptyImage[E]=./images/gnr-stirling-single.1.4

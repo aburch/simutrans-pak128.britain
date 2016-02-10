@@ -33,6 +33,9 @@ years_before_maintenance_max_reached=25
 
 Constraint[Next][0]=GNR-C1-Tender
 
+liverytype[0]=GNR-Standard
+liverytype[1]=LNER-Standard
+
 EmptyImage[E][0]=./images/gnr-klondyke.1.4
 EmptyImage[SE][0]=./images/gnr-klondyke.1.5
 EmptyImage[S][0]=./images/gnr-klondyke.1.6
