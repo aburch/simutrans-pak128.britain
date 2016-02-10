@@ -1,26 +1,26 @@
 obj=vehicle
-name=gnr-g1
+name=gnr-g2
 engine_type=steam
 smoke=Steam
 speed=135
 # Extrapolated
-power=209
-tractive_effort=54
+power=211
+tractive_effort=68
 copyright==Kieron/JamesPetts
-intro_year=1884
-intro_month=6
-retire_year=1894
-retire_month=1
+intro_year=1894
+intro_month=1
+retire_year=1895
+retire_month=11
 waytype=track
 freight=None
 payload=0
 length=5
 
-weight=40
-# Ahrons p. 186
-axle_load=15
-cost=13150000
-runningcost=1756
+# http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
+weight=45
+axle_load=17
+cost=13550000
+runningcost=1770
 sound=-1
 
 Constraint[Next][0]=GNR-Stirling8Foot-Tender

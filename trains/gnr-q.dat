@@ -1,0 +1,38 @@
+obj=vehicle
+name=gnr-q
+engine_type=steam
+smoke=Steam
+speed=140
+# Extrapolated
+power=208
+tractive_effort=53
+copyright=Kieron/JamesPetts
+intro_year=1886
+intro_month=12
+# This may not be correct
+retire_year=1897
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=5
+
+# http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
+axle_load=17
+weight=40
+cost=13250000
+runningcost=1744
+sound=-1
+
+Constraint[Next][0]=GNR-Stirling8Foot-Tender
+
+EmptyImage[E]=./images/gnr-q.1.4
+EmptyImage[SE]=./images/gnr-q.1.5
+EmptyImage[S]=./images/gnr-q.1.6
+EmptyImage[SW]=./images/gnr-q.1.7
+EmptyImage[W]=./images/gnr-q.1.0
+EmptyImage[NW]=./images/gnr-q.1.1
+EmptyImage[N]=./images/gnr-q.1.2
+EmptyImage[NE]=./images/gnr-q.1.3
+
+
