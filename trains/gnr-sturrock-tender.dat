@@ -5,8 +5,8 @@ speed=130
 copyright=James/jamespetts
 intro_year=1860
 intro_month=1
-retire_year=1870
-retire_month=9
+retire_year=1873
+retire_month=7
 waytype=track
 freight=None
 payload=0
@@ -15,15 +15,15 @@ brake_force=3
 
 # Weight not given in Ahrons, but guessed from contemporaneous types
 weight=20
+axles=3
 cost=0
 runningcost=0
 sound=-1
 
 Constraint[Prev][0]=gnr-a-class
 Constraint[Prev][1]=gnr-h-class
-Constraint[Prev][2]=
-Constraint[Prev][3]=
-Constraint[Prev][4]=
+Constraint[Prev][2]=GNR-Stirling7Foot
+Constraint[Prev][3]=gnr-sturrock-single
 
 liverytype[0]=GNR-early
 liverytype[1]=GNR-Standard

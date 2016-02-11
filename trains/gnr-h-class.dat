@@ -17,8 +17,7 @@ freight=None
 payload=0
 length=4
 brake_force=0
-# Do we need this?
-#rolling_resistance=19
+rolling_resistance=25
 
 # http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
 weight=37
