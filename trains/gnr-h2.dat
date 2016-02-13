@@ -1,32 +1,32 @@
 # See Ahrons p. 169
 obj=vehicle
-name=gnr-h-class
+name=gnr-h2-class
 engine_type=steam
 smoke=Steam
-speed=120
+speed=125
 # Extrapolated
-power=170
-tractive_effort=48
+power=189
+# Calculated from data at http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
+# with a loss factor of 0.8
+tractive_effort=59
 copyright=James/jamespetts
-intro_year=1867
+intro_year=1874
 intro_month=5
-retire_year=1874
-retire_month=5
+retire_year=1895
+retire_month=12
 waytype=track
 freight=None
 payload=0
 length=4
-brake_force=0
-rolling_resistance=25
 
 # http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
-weight=37
-axle_load=13
-cost=85920000
-runningcost=900
+weight=39
+axle_load=14
+cost=86251402
+runningcost=921
 sound=-1
 
-Constraint[Next][0]=gnr-sturrock-tender
+Constraint[Next][0]=GNR-Stirling8Foot-Tender
 
 liverytype[0]=GNR-early
 liverytype[1]=GNR-Standard
