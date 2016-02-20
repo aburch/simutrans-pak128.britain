@@ -24,7 +24,7 @@ bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=93
+comfort=100
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -181,7 +181,7 @@ bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=93
+comfort=100
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -280,7 +280,7 @@ bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=93
+comfort=100
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -379,7 +379,7 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 # These were unusually comfortable suburban carriages
-comfort=78
+comfort=81
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -480,7 +480,7 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 # These were unusually comfortable suburban carriages
-comfort=78
+comfort=81
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -578,7 +578,7 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 # These were unusually comfortable suburban carriages
-comfort=78
+comfort=81
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted

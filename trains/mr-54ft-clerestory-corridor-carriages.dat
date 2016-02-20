@@ -25,7 +25,7 @@ bidirectional=1
 min_loading_time=20
 max_loading_time=50
 # These are 6'5 rather than 6'6 between compartments as the 48ft versions were.
-comfort=118
+comfort=131
 
 Constraint[Next][0]=MR-31ft-clerestory-cor-brake-d568
 Constraint[Next][1]=MR-48ft-clerestory-cor-d575
@@ -131,7 +131,7 @@ bidirectional=1
 min_loading_time=20
 max_loading_time=50
 # These are 6'5 rather than 6'6 between compartments as the 48ft versions were.
-comfort=118
+comfort=131
 
 Constraint[Next][0]=MR-31ft-clerestory-cor-brake-d568
 Constraint[Next][1]=MR-48ft-clerestory-cor-d575
@@ -205,7 +205,7 @@ bidirectional=1
 min_loading_time=20
 max_loading_time=50
 # These are 6'5 rather than 6'6 between compartments as the 48ft versions were.
-comfort=118
+comfort=131
 
 Constraint[Prev][0]=MR-31ft-clerestory-cor-brake-d568
 Constraint[Prev][1]=MR-48ft-clerestory-cor-d575
@@ -277,7 +277,7 @@ bidirectional=1
 
 min_loading_time=20
 max_loading_time=50
-comfort=118
+comfort=131
 catering_level=3
 
 Constraint[Next][0]=MR-31ft-clerestory-cor-brake-d568
@@ -351,7 +351,7 @@ bidirectional=1
 
 min_loading_time=20
 max_loading_time=50
-comfort=118
+comfort=131
 catering_level=3
 
 Constraint[Prev][0]=MR-31ft-clerestory-cor-brake-d568
