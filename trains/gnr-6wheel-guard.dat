@@ -22,20 +22,6 @@ bidirectional=1
 min_loading_time=35
 max_loading_time=90
 
-Constraint[Next][0]=4-wheel-1870s-fitted
-Constraint[Next][1]=4-wheel-1870s-brake-fitted
-Constraint[Next][2]=4-wheel-1870s-mail-fitted
-Constraint[Next][3]=4-wheel-1870s-tpo-fitted
-Constraint[Next][4]=4-wheel-sub-1870s-fitted
-Constraint[Next][5]=4-wheel-sub-1870s-brake-rear-fitted
-Constraint[Next][6]=GNR-6Wheel-First
-Constraint[Next][7]=GNR-6Wheel-cor-lav
-Constraint[Next][8]=GNR-6Wheel-Mail
-Constraint[Next][9]=GNR-6Wheel-tpo
-Constraint[Next][10]=GNR-6Wheel-brake-third-rear
-Constraint[Next][11]=GNR-6Wheel-Guard
-Constraint[Next][12]=none
-
 EmptyImage[E]=./images/gnr-6wheel-guard.1.4
 EmptyImage[SE]=./images/gnr-6wheel-guard.1.5
 EmptyImage[S]=./images/gnr-6wheel-guard.1.6
