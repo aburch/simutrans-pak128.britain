@@ -103,7 +103,7 @@ Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-composite.1.4
@@ -184,7 +184,7 @@ increase_maintenance_after_years=45
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-brake.1.4
@@ -321,7 +321,7 @@ Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
@@ -459,7 +459,7 @@ Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
@@ -596,7 +596,7 @@ Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-fast-freight.1.4
@@ -733,7 +733,7 @@ Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-milk.1.4
@@ -818,7 +818,7 @@ increase_maintenance_after_years=45
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 Constraint[Next][0]=4-wheel-1870s-fitted
@@ -979,7 +979,7 @@ increase_maintenance_after_years=45
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-brake.1.4
@@ -1140,7 +1140,7 @@ Constraint[Prev][38]=gnr-non-cor-mail
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
@@ -1302,7 +1302,7 @@ Constraint[Prev][38]=gnr-non-cor-mail
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-mail.1.4
@@ -1462,7 +1462,7 @@ Constraint[Prev][38]=gnr-non-cor-mail
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-fast-freight.1.4
@@ -1622,7 +1622,7 @@ Constraint[Prev][38]=gnr-non-cor-mail
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
 liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-milk.1.4
