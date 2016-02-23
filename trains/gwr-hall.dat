@@ -21,7 +21,7 @@ retire_month=11
 waytype=track
 freight=None
 payload=0
-length=7
+length=6
 
 weight=76
 axle_load=19
@@ -36,14 +36,14 @@ upgrade[0]=GWR-Modified-Hall
 
 Constraint[Next][0]=GWR-Hall-Tender
 
-EmptyImage[E]=./images/gwr-hall.0.0
-EmptyImage[SE]=./images/gwr-hall.0.1
-EmptyImage[S]=./images/gwr-hall.0.2
-EmptyImage[SW]=./images/gwr-hall.0.3
-EmptyImage[W]=./images/gwr-hall.0.4
-EmptyImage[NW]=./images/gwr-hall.0.5
-EmptyImage[N]=./images/gwr-hall.0.6
-EmptyImage[NE]=./images/gwr-hall.0.7
+EmptyImage[E]=./images/gwr-hall.1.4
+EmptyImage[SE]=./images/gwr-hall.1.5
+EmptyImage[S]=./images/gwr-hall.1.6
+EmptyImage[SW]=./images/gwr-hall.1.7
+EmptyImage[W]=./images/gwr-hall.1.0
+EmptyImage[NW]=./images/gwr-hall.1.1
+EmptyImage[N]=./images/gwr-hall.1.2
+EmptyImage[NE]=./images/gwr-hall.1.3
 
 ----
 
@@ -71,11 +71,11 @@ years_before_maintenance_max_reached=13
 
 Constraint[Prev][0]=GWR-Hall
 
-EmptyImage[E]=./images/gwr-hall.1.0
-EmptyImage[SE]=./images/gwr-hall.1.1
-EmptyImage[S]=./images/gwr-hall.1.2
-EmptyImage[SW]=./images/gwr-hall.1.3
-EmptyImage[W]=./images/gwr-hall.1.4
-EmptyImage[NW]=./images/gwr-hall.1.5
-EmptyImage[N]=./images/gwr-hall.1.6
-EmptyImage[NE]=./images/gwr-hall.1.7
+EmptyImage[E]=./images/gwr-collett-tender.1.4
+EmptyImage[SE]=./images/gwr-collett-tender.1.5
+EmptyImage[S]=./images/gwr-collett-tender.1.6
+EmptyImage[SW]=./images/gwr-collett-tender.1.7
+EmptyImage[W]=./images/gwr-collett-tender.1.0
+EmptyImage[NW]=./images/gwr-collett-tender.1.1
+EmptyImage[N]=./images/gwr-collett-tender.1.2
+EmptyImage[NE]=./images/gwr-collett-tender.1.3
