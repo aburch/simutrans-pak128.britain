@@ -17,7 +17,7 @@ retire_month=12
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 brake_force=0
 way_wear_factor=61425
 
@@ -55,8 +55,7 @@ EmptyImage[N][1]=./images/lbscr-c-umber.1.2
 EmptyImage[NE][1]=./images/lbscr-c-umber.1.3
 
 ---
-# TODO: Add other liveries for this to make this the default tender for 1870s tender engines; 
-# the Gladstone tender is too big for these earlier locomotives. 
+
 obj=vehicle
 name=LBSCR-C-tender
 engine_type=steam
@@ -81,25 +80,24 @@ can_lead_from_rear=0
 bidirectional=0
 
 Constraint[Prev][0]=LBSCR-C
-Constraint[Prev][0]=LBSCR-Belgravia
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 
-EmptyImage[E][0]=./images/lbscr-gladstone-tender-goods-green.1.4
-EmptyImage[SE][0]=./images/lbscr-gladstone-tender-goods-green.1.5
-EmptyImage[S][0]=./images/lbscr-gladstone-tender-goods-green.1.6
-EmptyImage[SW][0]=./images/lbscr-gladstone-tender-goods-green.1.7
-EmptyImage[W][0]=./images/lbscr-gladstone-tender-goods-green.1.0
-EmptyImage[NW][0]=./images/lbscr-gladstone-tender-goods-green.1.1
-EmptyImage[N][0]=./images/lbscr-gladstone-tender-goods-green.1.2
-EmptyImage[NE][0]=./images/lbscr-gladstone-tender-goods-green.1.3
+EmptyImage[E][0]=./images/lbscr-c-tender-goods-green.1.4
+EmptyImage[SE][0]=./images/lbscr-c-tender-goods-green.1.5
+EmptyImage[S][0]=./images/lbscr-c-tender-goods-green.1.6
+EmptyImage[SW][0]=./images/lbscr-c-tender-goods-green.1.7
+EmptyImage[W][0]=./images/lbscr-c-tender-goods-green.1.0
+EmptyImage[NW][0]=./images/lbscr-c-tender-goods-green.1.1
+EmptyImage[N][0]=./images/lbscr-c-tender-goods-green.1.2
+EmptyImage[NE][0]=./images/lbscr-c-tender-goods-green.1.3
 
-EmptyImage[E][1]=./images/lbscr-gladstone-tender-goods-black.1.4
-EmptyImage[SE][1]=./images/lbscr-gladstone-tender-goods-black.1.5
-EmptyImage[S][1]=./images/lbscr-gladstone-tender-goods-black.1.6
-EmptyImage[SW][1]=./images/lbscr-gladstone-tender-goods-black.1.7
-EmptyImage[W][1]=./images/lbscr-gladstone-tender-goods-black.1.0
-EmptyImage[NW][1]=./images/lbscr-gladstone-tender-goods-black.1.1
-EmptyImage[N][1]=./images/lbscr-gladstone-tender-goods-black.1.2
-EmptyImage[NE][1]=./images/lbscr-gladstone-tender-goods-black.1.3
+EmptyImage[E][1]=./images/lbscr-c-tender-goods-black.1.4
+EmptyImage[SE][1]=./images/lbscr-c-tender-goods-black.1.5
+EmptyImage[S][1]=./images/lbscr-c-tender-goods-black.1.6
+EmptyImage[SW][1]=./images/lbscr-c-tender-goods-black.1.7
+EmptyImage[W][1]=./images/lbscr-c-tender-goods-black.1.0
+EmptyImage[NW][1]=./images/lbscr-c-tender-goods-black.1.1
+EmptyImage[N][1]=./images/lbscr-c-tender-goods-black.1.2
+EmptyImage[NE][1]=./images/lbscr-c-tender-goods-black.1.3
