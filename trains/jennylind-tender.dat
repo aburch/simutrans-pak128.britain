@@ -3,8 +3,8 @@ name=JennyLind-Tender
 engine_type=steam
 speed=105
 copyright=James
-intro_year=1847
-intro_month=6
+intro_year=1846
+intro_month=1
 retire_year=1858
 retire_month=4
 waytype=track
@@ -21,6 +21,7 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=JennyLind
+Constraint[Prev][1]=lbscr-gray-single
 
 liverytype[0]=LBSCR-Early
 liverytype[1]=LBSCR-Craven
