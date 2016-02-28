@@ -408,7 +408,7 @@ obj=vehicle
 name=DieselBargeOil
 copyright=Jamespetts
 waytype=water
-engine_type=steam
+engine_type=diesel
 smoke=Diesel
 speed=8
 power=50
@@ -558,4 +558,3 @@ FreightImage[0][NW][1]=./images/diesel-barge-bw-light-cover.1.1
 FreightImage[0][N][1]=./images/diesel-barge-bw-light-cover.1.2
 FreightImage[0][NE][1]=./images/diesel-barge-bw-light-cover.1.3
 
----
