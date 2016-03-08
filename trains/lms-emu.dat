@@ -13,7 +13,7 @@ waytype=track
 freight=Passagiere
 payload=100
 overcrowded_capacity=48
-length=11
+length=10
 
 weight=32
 axles=4
@@ -35,14 +35,26 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=LMS-EMU-centre-trailer
 
-EmptyImage[E]=./images/lms-emu-driving-trailer.1.4
-EmptyImage[SE]=./images/lms-emu-driving-trailer.1.5
-EmptyImage[S]=./images/lms-emu-driving-trailer.1.6
-EmptyImage[SW]=./images/lms-emu-driving-trailer.1.7
-EmptyImage[W]=./images/lms-emu-driving-trailer.1.0
-EmptyImage[NW]=./images/lms-emu-driving-trailer.1.1
-EmptyImage[N]=./images/lms-emu-driving-trailer.1.2
-EmptyImage[NE]=./images/lms-emu-driving-trailer.1.3
+liverytype[0]=LMS-Standard
+liverytype[1]=BR-Early
+
+EmptyImage[E][0]=./images/lms-emu-driving-trailer.1.4
+EmptyImage[SE][0]=./images/lms-emu-driving-trailer.1.5
+EmptyImage[S][0]=./images/lms-emu-driving-trailer.1.6
+EmptyImage[SW][0]=./images/lms-emu-driving-trailer.1.7
+EmptyImage[W][0]=./images/lms-emu-driving-trailer.1.0
+EmptyImage[NW][0]=./images/lms-emu-driving-trailer.1.1
+EmptyImage[N][0]=./images/lms-emu-driving-trailer.1.2
+EmptyImage[NE][0]=./images/lms-emu-driving-trailer.1.3
+
+EmptyImage[E][1]=./images/lms-emu-driving-trailer.1.4
+EmptyImage[SE][1]=./images/lms-emu-driving-trailer.1.5
+EmptyImage[S][1]=./images/lms-emu-driving-trailer.1.6
+EmptyImage[SW][1]=./images/lms-emu-driving-trailer.1.7
+EmptyImage[W][1]=./images/lms-emu-driving-trailer.1.0
+EmptyImage[NW][1]=./images/lms-emu-driving-trailer.1.1
+EmptyImage[N][1]=./images/lms-emu-driving-trailer.1.2
+EmptyImage[NE][1]=./images/lms-emu-driving-trailer.1.3
 
 
 ----
@@ -61,7 +73,7 @@ waytype=track
 freight=Passagiere
 payload=78
 overcrowded_capacity=54
-length=11
+length=10
 
 weight=31
 axles=4
@@ -82,14 +94,26 @@ Constraint[Prev][0]=LMS-EMU-driving-trailer
 
 Constraint[Next][0]=LMS-EMU-driving-motor
 
-EmptyImage[E]=./images/lms-emu-centre-trailer.1.4
-EmptyImage[SE]=./images/lms-emu-centre-trailer.1.5
-EmptyImage[S]=./images/lms-emu-centre-trailer.1.6
-EmptyImage[SW]=./images/lms-emu-centre-trailer.1.7
-EmptyImage[W]=./images/lms-emu-centre-trailer.1.0
-EmptyImage[NW]=./images/lms-emu-centre-trailer.1.1
-EmptyImage[N]=./images/lms-emu-centre-trailer.1.2
-EmptyImage[NE]=./images/lms-emu-centre-trailer.1.3
+liverytype[0]=LMS-Standard
+liverytype[1]=BR-Early
+
+EmptyImage[E][0]=./images/lms-emu-centre-trailer.1.4
+EmptyImage[SE][0]=./images/lms-emu-centre-trailer.1.5
+EmptyImage[S][0]=./images/lms-emu-centre-trailer.1.6
+EmptyImage[SW][0]=./images/lms-emu-centre-trailer.1.7
+EmptyImage[W][0]=./images/lms-emu-centre-trailer.1.0
+EmptyImage[NW][0]=./images/lms-emu-centre-trailer.1.1
+EmptyImage[N][0]=./images/lms-emu-centre-trailer.1.2
+EmptyImage[NE][0]=./images/lms-emu-centre-trailer.1.3
+
+EmptyImage[E][1]=./images/lms-emu-centre-trailer.1.4
+EmptyImage[SE][1]=./images/lms-emu-centre-trailer.1.5
+EmptyImage[S][1]=./images/lms-emu-centre-trailer.1.6
+EmptyImage[SW][1]=./images/lms-emu-centre-trailer.1.7
+EmptyImage[W][1]=./images/lms-emu-centre-trailer.1.0
+EmptyImage[NW][1]=./images/lms-emu-centre-trailer.1.1
+EmptyImage[N][1]=./images/lms-emu-centre-trailer.1.2
+EmptyImage[NE][1]=./images/lms-emu-centre-trailer.1.3
 
 ----
 
@@ -109,7 +133,7 @@ waytype=track
 freight=Passagiere
 payload=100
 overcrowded_capacity=26
-length=11
+length=10
 
 weight=58
 axles=4
@@ -131,11 +155,23 @@ Constraint[Prev][0]=LMS-EMU-centre-trailer
 Constraint[Next][0]=LMS-EMU-driving-trailer
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/lms-emu-driving-motor.1.4
-EmptyImage[SE]=./images/lms-emu-driving-motor.1.5
-EmptyImage[S]=./images/lms-emu-driving-motor.1.6
-EmptyImage[SW]=./images/lms-emu-driving-motor.1.7
-EmptyImage[W]=./images/lms-emu-driving-motor.1.0
-EmptyImage[NW]=./images/lms-emu-driving-motor.1.1
-EmptyImage[N]=./images/lms-emu-driving-motor.1.2
-EmptyImage[NE]=./images/lms-emu-driving-motor.1.3
+liverytype[0]=LMS-Standard
+liverytype[1]=BR-Early
+
+EmptyImage[E][0]=./images/lms-emu-driving-motor.1.4
+EmptyImage[SE][0]=./images/lms-emu-driving-motor.1.5
+EmptyImage[S][0]=./images/lms-emu-driving-motor.1.6
+EmptyImage[SW][0]=./images/lms-emu-driving-motor.1.7
+EmptyImage[W][0]=./images/lms-emu-driving-motor.1.0
+EmptyImage[NW][0]=./images/lms-emu-driving-motor.1.1
+EmptyImage[N][0]=./images/lms-emu-driving-motor.1.2
+EmptyImage[NE][0]=./images/lms-emu-driving-motor.1.3
+
+EmptyImage[E][1]=./images/lms-emu-driving-motor.1.4
+EmptyImage[SE][1]=./images/lms-emu-driving-motor.1.5
+EmptyImage[S][1]=./images/lms-emu-driving-motor.1.6
+EmptyImage[SW][1]=./images/lms-emu-driving-motor.1.7
+EmptyImage[W][1]=./images/lms-emu-driving-motor.1.0
+EmptyImage[NW][1]=./images/lms-emu-driving-motor.1.1
+EmptyImage[N][1]=./images/lms-emu-driving-motor.1.2
+EmptyImage[NE][1]=./images/lms-emu-driving-motor.1.3
