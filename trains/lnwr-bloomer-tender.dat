@@ -5,8 +5,8 @@ speed=115
 copyright=James
 intro_year=1845
 intro_month=4
-retire_year=1862
-retire_month=6
+retire_year=1864
+retire_month=2
 waytype=track
 freight=None
 payload=0
@@ -22,8 +22,10 @@ runningcost=0
 sound=-1
 
 Constraint[Prev][0]=LNWR-Bloomer
-Constraint[Prev][1]=LNWR-Sharp-goods
-Constraint[Prev][2]=LNWR-crewe-type
+Constraint[Prev][1]=LNWR-extra-large-bloomer
+Constraint[Prev][2]=LNWR-small-bloomer
+Constraint[Prev][3]=LNWR-Sharp-goods
+Constraint[Prev][4]=LNWR-crewe-type
 
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
