@@ -50,7 +50,7 @@ engine_type=steam
 speed=130
 copyright=James
 intro_year=1874
-intro_month=12
+intro_month=3
 retire_year=1887
 retire_month=9
 waytype=track
@@ -68,6 +68,7 @@ sound=-1
 upgrade[0]=LNWR-Jumbo-Tender
 
 Constraint[Prev][0]=LNWR-Precedent
+Constraint[Prev][1]=LNWR-precursor-webb
 
 EmptyImage[E]=./images/lnwr-express-tender.1.4
 EmptyImage[SE]=./images/lnwr-express-tender.1.5
