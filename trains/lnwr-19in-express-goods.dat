@@ -23,11 +23,11 @@ cost=99000000
 runningcost=1250
 sound=-1
 
+Constraint[Next][0]=LNWR-PrinceOfWales-Tender
+
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 liverytype[2]=BR-Early
-
-Constraint[Next][0]=LNWR-PrinceOfWales-Tender
 
 EmptyImage[E][0]=./images/lnwr-19in-express-goods.1.4
 EmptyImage[SE][0]=./images/lnwr-19in-express-goods.1.5
