@@ -1,30 +1,26 @@
 obj=vehicle
-name=LNWR-DXgoods
+name=LNWR-special-dx
 engine_type=steam
 smoke=Steam
-speed=82
+speed=85
 # Extrapolated
-power=167
-# Tractive effort as given by Ahrons, p. 123 - as calculated is lower.
-tractive_effort=50
-copyright=James
-intro_year=1858
-intro_month=9
-retire_year=1881
-retire_month=4
+power=178
+tractive_effort=61
+copyright=James/jamespetts
+intro_year=1881
+intro_month=4
+retire_year=1895
+retire_month=3
 waytype=track
 freight=None
 payload=0
 length=4
-brake_force=0
-rolling_resistance=19
-way_wear_factor=56025
 
-# Weight given by Ahrons, p. 123
-weight=27
+# Guessed
+weight=27.5
 axles=3
-cost=3165000
-runningcost=462
+cost=3255000
+runningcost=461
 sound=-1
 
 Constraint[Next][0]=LNWR-DXgoods-Tender
