@@ -26,6 +26,9 @@ bidirectional=1
 way_constraint_permissive[1]=1
 air_resistance=1000
 
+# No multiple working
+Constraint[Prev][0]=none
+
 EmptyImage[E]=./images/ner-es1.0.0
 EmptyImage[SE]=./images/ner-es1.0.1
 EmptyImage[S]=./images/ner-es1.0.2
