@@ -8,13 +8,13 @@ tractive_effort=16
 copyright=Junna/Cake
 intro_year=1903
 intro_month=7
-retire_year=1936
-retire_month=4
+retire_year=1923
+retire_month=6
 waytype=track
 freight=Passagiere
 payload=49
 overcrowded_capacity=31
-length=11
+length=10
 
 weight=30
 axles=4
@@ -32,12 +32,17 @@ max_loading_time=45
 # Unheated with hard wooden seats.
 comfort=58
 
-Constraint[Prev][0]=Mersey-EMU(trailer)
-Constraint[Prev][1]=Mersey-EMU(rear)
-Constraint[Prev][2]=none
+Constraint[Prev][0]=Mersey-EMU-1923(trailer)
+Constraint[Prev][1]=Mersey-EMU-1923(rear)
+Constraint[Prev][2]=Mersey-EMU(trailer)
+Constraint[Prev][3]=Mersey-EMU(rear)
+Constraint[Prev][4]=none
 
-Constraint[Next][0]=Mersey-EMU(trailer)
-Constraint[Next][1]=Mersey-EMU(rear)
+Constraint[Next][0]=Mersey-EMU-1923(trailer)
+Constraint[Next][1]=Mersey-EMU-1923(rear)
+Constraint[Next][2]=Mersey-EMU(trailer)
+Constraint[Next][3]=Mersey-EMU(rear)
+
 
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
@@ -71,13 +76,13 @@ tractive_effort=16
 copyright=Junna/Cake
 intro_year=1903
 intro_month=7
-retire_year=1936
-retire_month=4
+retire_year=1923
+retire_month=6
 waytype=track
 freight=Passagiere
 payload=49
 overcrowded_capacity=35
-length=11
+length=10
 
 weight=30
 axles=4
@@ -94,11 +99,14 @@ min_loading_time=25
 max_loading_time=45
 comfort=58
 
-Constraint[Prev][0]=Mersey-EMU(front)
-Constraint[Prev][1]=Mersey-EMU(trailer)
+Constraint[Prev][0]=Mersey-EMU-1923(front)
+Constraint[Prev][1]=Mersey-EMU-1923(trailer)
+Constraint[Prev][2]=Mersey-EMU(front)
+Constraint[Prev][3]=Mersey-EMU(trailer)
 
-Constraint[Next][0]=Mersey-EMU(front)
-Constraint[Next][1]=none
+Constraint[Next][0]=Mersey-EMU-1923(front)
+Constraint[Next][1]=Mersey-EMU(front)
+Constraint[Next][2]=none
 
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
@@ -130,13 +138,13 @@ speed=70
 copyright=Junna/Cake
 intro_year=1903
 intro_month=7
-retire_year=1936
-retire_month=4
+retire_year=1923
+retire_month=6
 waytype=track
 freight=Passagiere
 payload=57
 overcrowded_capacity=35
-length=11
+length=10
 
 weight=30
 axles=4
@@ -153,11 +161,15 @@ min_loading_time=25
 max_loading_time=45
 comfort=58
 
-Constraint[Prev][0]=Mersey-EMU(front)
+Constraint[Prev][0]=Mersey-EMU-1923(front)
+Constraint[Prev][1]=Mersey-EMU(front)
 
-Constraint[Next][0]=Mersey-EMU(rear)
-Constraint[Next][1]=Mersey-EMU(trailer)
-Constraint[Next][2]=none
+Constraint[Next][0]=Mersey-EMU-1923(rear)
+Constraint[Next][1]=Mersey-EMU-1923(trailer)
+Constraint[Next][2]=Mersey-EMU(rear)
+Constraint[Next][3]=Mersey-EMU(trailer)
+Constraint[Next][4]=none
+
 
 liverytype[0]=Mersey-Railway-Standard
 liverytype[1]=BR-Early
