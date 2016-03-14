@@ -1742,3 +1742,10 @@ intro_month[47][6] = 1
 livery[47][7] = LSWR-sage
 intro_year[47][7] = 1914
 intro_month[47][7] = 3
+
+livery_scheme[48] = Mersey-Railway
+retire_year[48] = 1948
+retire_month[48] = 1
+livery[48][0] = Mersey-Railway-Standard
+intro_year[48][0] = 1886
+intro_month[48][0] = 1
