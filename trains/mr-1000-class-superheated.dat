@@ -14,7 +14,7 @@ retire_month=2
 waytype=track
 freight=None
 payload=0
-length=5
+length=6
 # Three cylinder compound
 way_wear_factor=86075
 
@@ -22,6 +22,7 @@ weight=62.6
 # Ahrons p. 328
 axle_load=20
 cost=7732500
+upgrade_price=1546500
 runningcost=655
 sound=-1
 
