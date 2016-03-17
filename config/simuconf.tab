@@ -1764,3 +1764,10 @@ intro_month[49][1] = 7
 livery[49][2] = NER-late
 intro_year[49][2] = 1903
 intro_month[49][2] = 10
+
+livery_scheme[50] = SECR
+retire_year[50] = 1923
+retire_month[50] = 1
+livery[50][0] = SECR-standard
+intro_year[50][0] = 1899
+intro_month[50][0] = 4
