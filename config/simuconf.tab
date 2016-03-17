@@ -1749,3 +1749,18 @@ retire_month[48] = 1
 livery[48][0] = Mersey-Railway-Standard
 intro_year[48][0] = 1886
 intro_month[48][0] = 1
+
+# http://www.lner.info/co/NER/livery.php
+livery_scheme[49] = North-Eastern
+retire_year[49] = 1923
+retire_month[49] = 1
+livery[49][0] = NER-early
+intro_year[49][0] = 1854
+intro_month[49][0] = 1
+livery[49][1] = NER-standard
+intro_year[49][1] = 1885
+intro_month[49][1] = 7
+# Goods locomotives only
+livery[49][2] = NER-late
+intro_year[49][2] = 1903
+intro_month[49][2] = 10
