@@ -15,6 +15,7 @@ waytype=track
 freight=None
 payload=0
 length=6
+way_wear_factor=100800
 
 weight=61
 # http://orion.math.iastate.edu/jdhsmith/term/slgbsr.htm
@@ -23,13 +24,13 @@ cost=7400000
 runningcost=987
 sound=-1
 
-Constraint[Next][0]=SR-N-Class-Tender
+Constraint[Next][0]=SECR-N-Class-Tender
 
 liverytype[0]=WW1-Austerity
 liverytype[1]=SR-Olive-Green
-liverytype[1]=SR-Malachite-Green
-liverytype[2]=WW2-Austerity
-liverytype[3]=BR-Early
+liverytype[2]=SR-Malachite-Green
+liverytype[3]=WW2-Austerity
+liverytype[4]=BR-Early
 
 EmptyImage[E][0]=./images/secr-n-class-ww1-austerity.1.4
 EmptyImage[SE][0]=./images/secr-n-class-ww1-austerity.1.5
@@ -103,9 +104,9 @@ Constraint[Prev][1]=SECR-N1-Class
 
 liverytype[0]=WW1-Austerity
 liverytype[1]=SR-Olive-Green
-liverytype[1]=SR-Malachite-Green
-liverytype[2]=WW2-Austerity
-liverytype[3]=BR-Early
+liverytype[2]=SR-Malachite-Green
+liverytype[3]=WW2-Austerity
+liverytype[4]=BR-Early
 
 EmptyImage[E][0]=./images/sr-schools-tender-ww1-austerity.1.4
 EmptyImage[SE][0]=./images/sr-schools-tender-ww1-austerity.1.5
