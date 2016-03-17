@@ -50,6 +50,7 @@ Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
+Constraint[Prev][25]=secr-utility-van
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -76,6 +77,7 @@ Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
+Constraint[Next][25]=secr-utility-van
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -162,6 +164,7 @@ Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
+Constraint[Prev][25]=secr-utility-van
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -188,6 +191,7 @@ Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
+Constraint[Next][25]=secr-utility-van
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -275,6 +279,7 @@ Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
+Constraint[Prev][25]=secr-utility-van
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -301,6 +306,7 @@ Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
+Constraint[Next][25]=secr-utility-van
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -388,6 +394,7 @@ Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
+Constraint[Prev][25]=secr-utility-van
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -414,6 +421,7 @@ Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
+Constraint[Next][25]=secr-utility-van
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -500,6 +508,7 @@ Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
+Constraint[Prev][25]=secr-utility-van
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -586,7 +595,8 @@ Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
-Constraint[Next][25]=none
+Constraint[Next][25]=secr-utility-van
+Constraint[Next][26]=none
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -625,8 +635,8 @@ obj=vehicle
 name=SR-Maunsell-Parcels
 speed=160
 copyright=James/JamesPetts
-intro_year=1926
-intro_month=9
+intro_year=1928
+intro_month=3
 retire_year=1951
 retire_month=2
 waytype=track
@@ -634,8 +644,8 @@ freight=Post
 payload=400
 length=6
 
-weight=33
-axles=4
+weight=12
+axles=2
 cost=633000
 runningcost=39
 sound=-1
@@ -671,6 +681,7 @@ Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
+Constraint[Prev][25]=secr-utility-van
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -697,6 +708,7 @@ Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
+Constraint[Next][25]=secr-utility-van
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -745,9 +757,8 @@ obj=vehicle
 name=SR-Maunsell-Parcels-Brake
 speed=160
 copyright=James/JamesPetts
-# Should be March 1928 (see King p. 183), but it seems sensible to have these introduced at the same time as the other Maunsell carriages.
-intro_year=1926
-intro_month=9
+intro_year=1928
+intro_month=3
 retire_year=1951
 retire_month=2
 waytype=track
@@ -755,8 +766,8 @@ freight=Post
 payload=300
 length=6
 
-weight=33
-axles=4
+weight=12
+axles=2
 cost=633000
 runningcost=39
 sound=-1
@@ -792,7 +803,8 @@ Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
-Constraint[Next][25]=none
+Constraint[Next][25]=secr-utility-van
+Constraint[Next][26]=none
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -876,6 +888,7 @@ Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
+Constraint[Prev][25]=secr-utility-van
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -902,6 +915,7 @@ Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
+Constraint[Next][25]=secr-utility-van
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -987,6 +1001,7 @@ Constraint[Prev][21]=SR-Bulleid-Express-Saloon
 Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
+Constraint[Prev][25]=secr-utility-van
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -1013,6 +1028,7 @@ Constraint[Next][21]=SR-Bulleid-Express-Saloon
 Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
+Constraint[Next][25]=secr-utility-van
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
