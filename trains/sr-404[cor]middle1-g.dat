@@ -31,33 +31,46 @@ Constraint[Prev][0]=SR-404[COR]Front
 
 Constraint[Next][0]=SR-404[COR]Middle2
 
-# FIXME: Only SR-Malachite-Green and BR-Blue currently available.
-#liverytype[0]=SR-Olive-Green
-#liverytype[1]=SR-Malachite-Green
-#liverytype[2]=BR-Early
-#liverytype[3]=BR-Revised
-#liverytype[4]=BR-Blue
+liverytype[0]=SR-Olive-Green
+liverytype[1]=SR-Malachite-Green
+liverytype[2]=BR-Early
+liverytype[3]=BR-Blue
 
-liverytype[0]=SR-Malachite-Green
-liverytype[1]=BR-Blue
+EmptyImage[E][0]=./images/sr-4-cor-trailer.1.4
+EmptyImage[SE][0]=./images/sr-4-cor-trailer.1.5
+EmptyImage[S][0]=./images/sr-4-cor-trailer.1.6
+EmptyImage[SW][0]=./images/sr-4-cor-trailer.1.7
+EmptyImage[W][0]=./images/sr-4-cor-trailer.1.0
+EmptyImage[NW][0]=./images/sr-4-cor-trailer.1.1
+EmptyImage[N][0]=./images/sr-4-cor-trailer.1.2
+EmptyImage[NE][0]=./images/sr-4-cor-trailer.1.3
 
-EmptyImage[E][0]=./images/sr-cor-g.1.0
-EmptyImage[SE][0]=./images/sr-cor-g.1.1
-EmptyImage[S][0]=./images/sr-cor-g.1.2
-EmptyImage[SW][0]=./images/sr-cor-g.1.3
-EmptyImage[W][0]=./images/sr-cor-g.1.4
-EmptyImage[NW][0]=./images/sr-cor-g.1.5
-EmptyImage[N][0]=./images/sr-cor-g.1.6
-EmptyImage[NE][0]=./images/sr-cor-g.1.7
+EmptyImage[E][1]=./images/sr-4-cor-trailer-malachite.1.4
+EmptyImage[SE][1]=./images/sr-4-cor-trailer-malachite.1.5
+EmptyImage[S][1]=./images/sr-4-cor-trailer-malachite.1.6
+EmptyImage[SW][1]=./images/sr-4-cor-trailer-malachite.1.7
+EmptyImage[W][1]=./images/sr-4-cor-trailer-malachite.1.0
+EmptyImage[NW][1]=./images/sr-4-cor-trailer-malachite.1.1
+EmptyImage[N][1]=./images/sr-4-cor-trailer-malachite.1.2
+EmptyImage[NE][1]=./images/sr-4-cor-trailer-malachite.1.3
 
-EmptyImage[E][1]=./images/sr-cor-br.1.0
-EmptyImage[SE][1]=./images/sr-cor-br.1.1
-EmptyImage[S][1]=./images/sr-cor-br.1.2
-EmptyImage[SW][1]=./images/sr-cor-br.1.3
-EmptyImage[W][1]=./images/sr-cor-br.1.4
-EmptyImage[NW][1]=./images/sr-cor-br.1.5
-EmptyImage[N][1]=./images/sr-cor-br.1.6
-EmptyImage[NE][1]=./images/sr-cor-br.1.7
+EmptyImage[E][2]=./images/sr-4-cor-trailer-br.1.4
+EmptyImage[SE][2]=./images/sr-4-cor-trailer-br.1.5
+EmptyImage[S][2]=./images/sr-4-cor-trailer-br.1.6
+EmptyImage[SW][2]=./images/sr-4-cor-trailer-br.1.7
+EmptyImage[W][2]=./images/sr-4-cor-trailer-br.1.0
+EmptyImage[NW][2]=./images/sr-4-cor-trailer-br.1.1
+EmptyImage[N][2]=./images/sr-4-cor-trailer-br.1.2
+EmptyImage[NE][2]=./images/sr-4-cor-trailer-br.1.3
+
+EmptyImage[E][3]=./images/sr-4-cor-trailer-br-blue.1.4
+EmptyImage[SE][3]=./images/sr-4-cor-trailer-br-blue.1.5
+EmptyImage[S][3]=./images/sr-4-cor-trailer-br-blue.1.6
+EmptyImage[SW][3]=./images/sr-4-cor-trailer-br-blue.1.7
+EmptyImage[W][3]=./images/sr-4-cor-trailer-br-blue.1.0
+EmptyImage[NW][3]=./images/sr-4-cor-trailer-br-blue.1.1
+EmptyImage[N][3]=./images/sr-4-cor-trailer-br-blue.1.2
+EmptyImage[NE][3]=./images/sr-4-cor-trailer-br-blue.1.3
 
 ---
 
@@ -95,33 +108,46 @@ Constraint[Prev][0]=SR-404[COR]Front
 
 Constraint[Next][0]=SR-404[COR]Middle2
 
-# FIXME: Only SR-Malachite-Green and BR-Blue currently available.
-#liverytype[0]=SR-Olive-Green
-#liverytype[1]=SR-Malachite-Green
-#liverytype[2]=BR-Early
-#liverytype[3]=BR-Revised
-#liverytype[4]=BR-Blue
+liverytype[0]=SR-Olive-Green
+liverytype[1]=SR-Malachite-Green
+liverytype[2]=BR-Early
+liverytype[3]=BR-Blue
 
-liverytype[0]=SR-Malachite-Green
-liverytype[1]=BR-Blue
+EmptyImage[E][0]=./images/sr-4-cor-restaurant.1.4
+EmptyImage[SE][0]=./images/sr-4-cor-restaurant.1.5
+EmptyImage[S][0]=./images/sr-4-cor-restaurant.1.6
+EmptyImage[SW][0]=./images/sr-4-cor-restaurant.1.7
+EmptyImage[W][0]=./images/sr-4-cor-restaurant.1.0
+EmptyImage[NW][0]=./images/sr-4-cor-restaurant.1.1
+EmptyImage[N][0]=./images/sr-4-cor-restaurant.1.2
+EmptyImage[NE][0]=./images/sr-4-cor-restaurant.1.3
 
-EmptyImage[E][0]=./images/sr-cor-g.1.0
-EmptyImage[SE][0]=./images/sr-cor-g.1.1
-EmptyImage[S][0]=./images/sr-cor-g.1.2
-EmptyImage[SW][0]=./images/sr-cor-g.1.3
-EmptyImage[W][0]=./images/sr-cor-g.1.4
-EmptyImage[NW][0]=./images/sr-cor-g.1.5
-EmptyImage[N][0]=./images/sr-cor-g.1.6
-EmptyImage[NE][0]=./images/sr-cor-g.1.7
+EmptyImage[E][1]=./images/sr-4-cor-restaurant-malachite.1.4
+EmptyImage[SE][1]=./images/sr-4-cor-restaurant-malachite.1.5
+EmptyImage[S][1]=./images/sr-4-cor-restaurant-malachite.1.6
+EmptyImage[SW][1]=./images/sr-4-cor-restaurant-malachite.1.7
+EmptyImage[W][1]=./images/sr-4-cor-restaurant-malachite.1.0
+EmptyImage[NW][1]=./images/sr-4-cor-restaurant-malachite.1.1
+EmptyImage[N][1]=./images/sr-4-cor-restaurant-malachite.1.2
+EmptyImage[NE][1]=./images/sr-4-cor-restaurant-malachite.1.3
 
-EmptyImage[E][1]=./images/sr-cor-br.1.0
-EmptyImage[SE][1]=./images/sr-cor-br.1.1
-EmptyImage[S][1]=./images/sr-cor-br.1.2
-EmptyImage[SW][1]=./images/sr-cor-br.1.3
-EmptyImage[W][1]=./images/sr-cor-br.1.4
-EmptyImage[NW][1]=./images/sr-cor-br.1.5
-EmptyImage[N][1]=./images/sr-cor-br.1.6
-EmptyImage[NE][1]=./images/sr-cor-br.1.7
+EmptyImage[E][2]=./images/sr-4-cor-restaurant-br.1.4
+EmptyImage[SE][2]=./images/sr-4-cor-restaurant-br.1.5
+EmptyImage[S][2]=./images/sr-4-cor-restaurant-br.1.6
+EmptyImage[SW][2]=./images/sr-4-cor-restaurant-br.1.7
+EmptyImage[W][2]=./images/sr-4-cor-restaurant-br.1.0
+EmptyImage[NW][2]=./images/sr-4-cor-restaurant-br.1.1
+EmptyImage[N][2]=./images/sr-4-cor-restaurant-br.1.2
+EmptyImage[NE][2]=./images/sr-4-cor-restaurant-br.1.3
+
+EmptyImage[E][3]=./images/sr-4-cor-restaurant-br-blue.1.4
+EmptyImage[SE][3]=./images/sr-4-cor-restaurant-br-blue.1.5
+EmptyImage[S][3]=./images/sr-4-cor-restaurant-br-blue.1.6
+EmptyImage[SW][3]=./images/sr-4-cor-restaurant-br-blue.1.7
+EmptyImage[W][3]=./images/sr-4-cor-restaurant-br-blue.1.0
+EmptyImage[NW][3]=./images/sr-4-cor-restaurant-br-blue.1.1
+EmptyImage[N][3]=./images/sr-4-cor-restaurant-br-blue.1.2
+EmptyImage[NE][3]=./images/sr-4-cor-restaurant-br-blue.1.3
 
 ---
 
@@ -159,30 +185,33 @@ Constraint[Prev][0]=SR-404[COR]Front
 
 Constraint[Next][0]=SR-404[COR]Middle2
 
-# FIXME: Only SR-Malachite-Green and BR-Blue currently available.
-#liverytype[0]=SR-Olive-Green
-#liverytype[1]=SR-Malachite-Green
-#liverytype[2]=BR-Early
-#liverytype[3]=BR-Revised
-#liverytype[4]=BR-Blue
-
 liverytype[0]=SR-Malachite-Green
-liverytype[1]=BR-Blue
+liverytype[1]=BR-Early
+liverytype[2]=BR-Blue
 
-EmptyImage[E][0]=./images/sr-4buf.1.0
-EmptyImage[SE][0]=./images/sr-4buf.0.1
-EmptyImage[S][0]=./images/sr-4buf.0.2
-EmptyImage[SW][0]=./images/sr-4buf.0.3
-EmptyImage[W][0]=./images/sr-4buf.0.4
-EmptyImage[NW][0]=./images/sr-4buf.0.5
-EmptyImage[N][0]=./images/sr-4buf.1.6
-EmptyImage[NE][0]=./images/sr-4buf.1.7
+EmptyImage[E][0]=./images/sr-4-cor-buffet-malachite.1.4
+EmptyImage[SE][0]=./images/sr-4-cor-buffet-malachite.1.5
+EmptyImage[S][0]=./images/sr-4-cor-buffet-malachite.1.6
+EmptyImage[SW][0]=./images/sr-4-cor-buffet-malachite.1.7
+EmptyImage[W][0]=./images/sr-4-cor-buffet-malachite.1.0
+EmptyImage[NW][0]=./images/sr-4-cor-buffet-malachite.1.1
+EmptyImage[N][0]=./images/sr-4-cor-buffet-malachite.1.2
+EmptyImage[NE][0]=./images/sr-4-cor-buffet-malachite.1.3
 
-EmptyImage[E][1]=./images/sr-4buf-br.1.0
-EmptyImage[SE][1]=./images/sr-4buf-br.0.1
-EmptyImage[S][1]=./images/sr-4buf-br.0.2
-EmptyImage[SW][1]=./images/sr-4buf-br.0.3
-EmptyImage[W][1]=./images/sr-4buf-br.0.4
-EmptyImage[NW][1]=./images/sr-4buf-br.0.5
-EmptyImage[N][1]=./images/sr-4buf-br.1.6
-EmptyImage[NE][1]=./images/sr-4buf-br.1.7
+EmptyImage[E][1]=./images/sr-4-cor-buffet-br.1.4
+EmptyImage[SE][1]=./images/sr-4-cor-buffet-br.1.5
+EmptyImage[S][1]=./images/sr-4-cor-buffet-br.1.6
+EmptyImage[SW][1]=./images/sr-4-cor-buffet-br.1.7
+EmptyImage[W][1]=./images/sr-4-cor-buffet-br.1.0
+EmptyImage[NW][1]=./images/sr-4-cor-buffet-br.1.1
+EmptyImage[N][1]=./images/sr-4-cor-buffet-br.1.2
+EmptyImage[NE][1]=./images/sr-4-cor-buffet-br.1.3
+
+EmptyImage[E][2]=./images/sr-4-cor-buffet-br-blue.1.4
+EmptyImage[SE][2]=./images/sr-4-cor-buffet-br-blue.1.5
+EmptyImage[S][2]=./images/sr-4-cor-buffet-br-blue.1.6
+EmptyImage[SW][2]=./images/sr-4-cor-buffet-br-blue.1.7
+EmptyImage[W][2]=./images/sr-4-cor-buffet-br-blue.1.0
+EmptyImage[NW][2]=./images/sr-4-cor-buffet-br-blue.1.1
+EmptyImage[N][2]=./images/sr-4-cor-buffet-br-blue.1.2
+EmptyImage[NE][2]=./images/sr-4-cor-buffet-br-blue.1.3
