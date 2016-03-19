@@ -6,8 +6,8 @@ power=0
 copyright=Kieron
 intro_year=1935
 intro_month=4
-retire_year=1948
-retire_month=2
+retire_year=1940
+retire_month=3
 waytype=track
 freight=Passagiere
 payload=52
@@ -32,7 +32,8 @@ Constraint[Prev][0]=SR-401[BIL]Front
 
 Constraint[Next][0]=SR-401[BIL]Front
 Constraint[Next][1]=SR-4LAV(front)
-Constraint[Next][2]=none
+Constraint[Next][2]=sr-2hal-front
+Constraint[Next][3]=none
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
