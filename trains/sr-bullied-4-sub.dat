@@ -30,10 +30,17 @@ max_loading_time=40
 comfort=70
 way_constraint_permissive[0]=0
 
-Constraint[Prev][0]=SR-4SUB(rear)
-Constraint[Prev][1]=SR-3SUB(rear)
-Constraint[Prev][2]=LSWR-EMU(rear)
-Constraint[Prev][3]=none
+Constraint[Prev][0]=SR-3SUB(rear)
+Constraint[Prev][1]=LSWR-EMU(rear)
+Constraint[Prev][2]=SR-4SUB(rear)
+Constraint[Prev][3]=SR-2-NOL-rear
+Constraint[Prev][4]=SR-4LAV(rear)
+Constraint[Prev][5]=SR-401[BIL]Rear
+Constraint[Prev][6]=SR-6PAN(rear)
+Constraint[Prev][7]=sr-2hal-rear
+Constraint[Prev][8]=SR-404[COR]Rear
+Constraint[Prev][9]=SR-augmentation-trailer(rear)
+Constraint[Prev][10]=none
 
 Constraint[Next][0]=SR-4SUB(centre1)
 
@@ -104,10 +111,17 @@ comfort=70
 
 Constraint[Prev][0]=SR-4SUB(centre2)
 
-Constraint[Next][0]=SR-4SUB(front)
-Constraint[Next][1]=SR-3SUB(front)
-Constraint[Next][2]=LSWR-EMU(front)
-Constraint[Next][3]=none
+Constraint[Next][0]=SR-3SUB(front)
+Constraint[Next][1]=LSWR-EMU(front)
+Constraint[Next][2]=SR-4SUB(front)
+Constraint[Next][3]=SR-2-NOL-front
+Constraint[Next][4]=SR-4LAV(front)
+Constraint[Next][5]=SR-401[BIL]Front
+Constraint[Next][6]=SR-6PAN(front)
+Constraint[Next][7]=sr-2hal-front
+Constraint[Next][8]=SR-404[COR]Front
+Constraint[Next][9]=SR-augmentation-trailer(front)
+Constraint[Next][10]=none
 
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early
