@@ -1066,6 +1066,9 @@ wooden_road_bridge_surfaced
 ################################# Roads upgrade ##################################
 asphalt_road
 hr-asphalt-road-medium
+# The private road sign is replaced by the road barrier
+PrivateRoad
+roadbarrier
 ################################# Signals upgrade ##################################
 Modern_Signals_right
 two-aspect-colour-light-stop
