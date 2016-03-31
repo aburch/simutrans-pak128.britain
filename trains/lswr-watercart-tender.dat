@@ -11,10 +11,10 @@ retire_month=11
 waytype=track
 freight=None
 payload=0
-length=3
+length=4
 
-# Guessed
-weight=45
+# https://en.wikipedia.org/wiki/LSWR_D15_class
+weight=49.8
 axles=4
 cost=0
 runningcost=0
@@ -25,6 +25,7 @@ Constraint[Prev][1]=LSWR-S11
 Constraint[Prev][2]=LSWR-L11
 Constraint[Prev][3]=LSWR-L12
 Constraint[Prev][4]=LSWR-T14
+Constraint[Prev][5]=LSWR-D15
 
 liverytype[0]=LSWR-royal-green
 liverytype[1]=LSWR-sage
