@@ -22,6 +22,8 @@ cost=6552500
 runningcost=995
 sound=-1
 
+upgrade[0]=LSWR-L12-superheated
+
 Constraint[Next][0]=lswr-watercart-tender
 
 liverytype[0]=LSWR-royal-green
