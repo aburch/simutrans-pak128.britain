@@ -147,9 +147,11 @@ comfort=97
 
 Constraint[Prev][0]=BR-221Front(Virgin)
 Constraint[Prev][1]=BR-221Middle(Virgin)
+Constraint[Prev][2]=BR-221Middle-shop(Virgin)
 
 Constraint[Next][0]=BR-221Rear(Virgin)
 Constraint[Next][1]=BR-221Middle(Virgin)
+Constraint[Next][2]=BR-221Middle-shop(Virgin)
 
 EmptyImage[E]=./images/br-220-virgin.1.0
 EmptyImage[SE]=./images/br-220-virgin.1.1
