@@ -7,7 +7,7 @@ VERSION_STRING = "pak128.Britain-Ex-0.9.2"
 #
 #
 #
-MAKEOBJ ?= ./makeobj
+MAKEOBJ ?= ./makeobj-experimental
 
 DESTDIR  ?= .
 PAKDIR   ?= $(DESTDIR)/pak128.Britain-Ex
