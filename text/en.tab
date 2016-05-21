@@ -1745,6 +1745,12 @@ vane-signal-distant
 Vane auxilliary signal
 vane-signal-junction
 Vane choose signal
+sp-semaphore-stop
+Slotted post stop signal (with telegraph)
+sp-semaphore-distant
+Slotted post distant signal (with telegraph)
+sp-semaphore-junction
+Slotted post choose signal (with telegraph)
 two-aspect-colour-light-stop-ib
 Intermediate block stop signal (colour light)
 two-aspect-colour-light-distant-ib
@@ -7012,6 +7018,8 @@ mini-signalling-centre
 Signalling centre (small)
 policeman's-cottage
 Railway policeman's cottage
+policeman's-cottage-with-telegraph
+Railway policeman's cottage (with telegraph)
 power-signalbox-deco
 Power signalbox
 power-signalbox-large

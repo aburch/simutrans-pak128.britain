@@ -29,6 +29,7 @@ needs_ground=1
 #  9 - ETRMS Level 3 (high speed moving block)
 # 10 - Seltrac (low speed moving block)
 # 11 - time interval
+# 12 - time interval with telegraph
 
 signal_groups=2,3
 radius=4000
