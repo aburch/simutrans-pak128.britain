@@ -9,7 +9,7 @@ retire_month=1
 waytype=track
 freight=fruit
 payload=32
-length=8
+length=9
 
 # Estimated
 weight=21
@@ -30,8 +30,8 @@ Constraint[Next][0]=
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
-liverytype[3]=SR-olive-Green
-liverytype[4]=SR-Malachite-Green
+liverytype[2]=SR-olive-Green
+liverytype[3]=SR-Malachite-Green
 
 EmptyImage[E][0]=./images/lswr-48ft-fruit-and-parcels-brake.1.4
 EmptyImage[SE][0]=./images/lswr-48ft-fruit-and-parcels-brake.1.5
@@ -82,7 +82,7 @@ retire_month=1
 waytype=track
 freight=Post
 payload=310
-length=8
+length=9
 
 # Estimated
 weight=21
@@ -103,8 +103,8 @@ Constraint[Next][0]=
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
-liverytype[3]=SR-olive-Green
-liverytype[4]=SR-Malachite-Green
+liverytype[2]=SR-olive-Green
+liverytype[3]=SR-Malachite-Green
 
 EmptyImage[E][0]=./images/lswr-48ft-fruit-and-parcels-brake.1.4
 EmptyImage[SE][0]=./images/lswr-48ft-fruit-and-parcels-brake.1.5
