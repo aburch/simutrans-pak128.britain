@@ -96,11 +96,6 @@ bidirectional=1
 min_loading_time=35
 max_loading_time=90
 
-#TODO: Add these
-Constraint[Prev][0]=
-
-Constraint[Next][0]=
-
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
