@@ -36,8 +36,8 @@ upgrade[2]=LSWR-EMU(front)
 upgrade[3]=SR-3SUB(front)
 upgrade[4]=SR-3SUB(rear)
 upgrade[5]=SR-3SUB(centre)
-upgrade[6]=SR-augmentation-trailer(front)
-upgrade[7]=SR-augmentation-trailer(rear)
+upgrade[6]=lbscr-54ft-augmentation-trailer-front
+upgrade[7]=lbscr-54ft-augmentation-trailer-rear
 
 Constraint[Prev][0]=LBSCR-4Wheel-Brake-front-fitted
 Constraint[Prev][1]=LBSCR-4Wheel-First-fitted
@@ -165,8 +165,8 @@ upgrade[2]=LSWR-EMU(front)
 upgrade[3]=SR-3SUB(front)
 upgrade[4]=SR-3SUB(rear)
 upgrade[5]=SR-3SUB(centre)
-upgrade[6]=SR-augmentation-trailer(front)
-upgrade[7]=SR-augmentation-trailer(rear)
+upgrade[6]=lbscr-54ft-augmentation-trailer-front
+upgrade[7]=lbscr-54ft-augmentation-trailer-rear
 
 Constraint[Prev][0]=LBSCR-4Wheel-Brake-front-fitted
 Constraint[Prev][1]=LBSCR-4Wheel-First-fitted
@@ -274,8 +274,8 @@ upgrade[2]=LSWR-EMU(front)
 upgrade[3]=SR-3SUB(front)
 upgrade[4]=SR-3SUB(rear)
 upgrade[5]=SR-3SUB(centre)
-upgrade[6]=SR-augmentation-trailer(front)
-upgrade[7]=SR-augmentation-trailer(rear)
+upgrade[6]=lbscr-54ft-augmentation-trailer-front
+upgrade[7]=lbscr-54ft-augmentation-trailer-rear
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted

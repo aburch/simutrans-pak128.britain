@@ -34,6 +34,8 @@ upgrade[2]=LSWR-EMU(rear)
 upgrade[3]=SR-3SUB(rear)
 upgrade[4]=SR-3SUB(rear)
 upgrade[5]=SR-3SUB(centre)
+upgrade[6]=lswr-56ft-augmentation-trailer-front
+upgrade[7]=lswr-56ft-augmentation-trailer-rear
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -161,6 +163,8 @@ upgrade[2]=LSWR-EMU(rear)
 upgrade[3]=SR-3SUB(rear)
 upgrade[4]=SR-3SUB(rear)
 upgrade[5]=SR-3SUB(centre)
+upgrade[6]=lswr-56ft-augmentation-trailer-front
+upgrade[7]=lswr-56ft-augmentation-trailer-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -286,6 +290,8 @@ upgrade[2]=LSWR-EMU(rear)
 upgrade[3]=SR-3SUB(rear)
 upgrade[4]=SR-3SUB(rear)
 upgrade[5]=SR-3SUB(centre)
+upgrade[6]=lswr-56ft-augmentation-trailer-front
+upgrade[7]=lswr-56ft-augmentation-trailer-rear
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
