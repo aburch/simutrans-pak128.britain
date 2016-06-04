@@ -3,7 +3,7 @@ name=BR-350(front)
 engine_type=electric
 speed=175
 power=750
-gear=250
+gear=80
 copyright=Kieron/jamespetts/James
 intro_year=2005
 intro_month=6
@@ -19,7 +19,6 @@ sound=-1
 
 loading_time=6300
 comfort=88
-
 
 Constraint[Prev][0]=BR-350(rear)
 Constraint[Prev][1]=none
@@ -55,7 +54,6 @@ weight=40
 cost=1899100
 runningcost=43
 sound=-1
-
 
 Constraint[Prev][0]=BR-350(front)
 
@@ -111,7 +109,7 @@ name=BR-350(rear)
 engine_type=electric
 speed=175
 power=750
-gear=250
+gear=80
 copyright=Kieron/jamespetts/James
 intro_year=2005
 intro_month=6
@@ -124,8 +122,6 @@ weight=45
 cost=1057500
 runningcost=126
 sound=-1
-
-
 
 Constraint[Prev][0]=BR-350(centre2)
 

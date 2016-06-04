@@ -1,9 +1,10 @@
+# TODO: In reality, these are bi-mode vehicles.
+# Make these electro-diesel when bi-mode capability is added to the code.
 obj=vehicle
-name=BR-800Front(GWR)
+name=BR-800Front
 engine_type=diesel
 speed=225
 power=0
-gear=420
 copyright=Kieron/James
 intro_year=2017
 intro_month=1
@@ -19,10 +20,10 @@ cost=2067000
 runningcost=660
 sound=-1
 
-Constraint[Prev][0]=BR-800Rear(GWR)
+Constraint[Prev][0]=BR-800Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-800MiddlePower(GWR)
+Constraint[Next][0]=BR-800MiddlePower
 
 EmptyImage[E]=./images/br-800-front-gwr.1.4
 EmptyImage[SE]=./images/br-800-front-gwr.1.5
@@ -33,14 +34,14 @@ EmptyImage[NW]=./images/br-800-front-gwr.1.1
 EmptyImage[N]=./images/br-800-front-gwr.1.2
 EmptyImage[NE]=./images/br-800-front-gwr.1.3
 
-
 ---
+
 obj=vehicle
-name=BR-800MiddlePower(GWR)
+name=BR-800MiddlePower
 engine_type=diesel
 speed=225
 power=700
-gear=420
+gear=50
 copyright=Kieron/James
 intro_year=2017
 intro_month=1
@@ -56,13 +57,13 @@ cost=2067000
 runningcost=660
 sound=-1
 
-Constraint[Prev][0]=BR-800Front(GWR)
-Constraint[Prev][1]=BR-800MiddlePower(GWR)
-Constraint[Prev][2]=BR-800MiddleTrailer(GWR)
+Constraint[Prev][0]=BR-800Front
+Constraint[Prev][1]=BR-800MiddlePower
+Constraint[Prev][2]=BR-800MiddleTrailer
 
-Constraint[Next][0]=BR-800MiddlePower(GWR)
-Constraint[Next][1]=BR-800Rear(GWR)
-Constraint[Next][2]=BR-800MiddleTrailer(GWR)
+Constraint[Next][0]=BR-800MiddlePower
+Constraint[Next][1]=BR-800Rear
+Constraint[Next][2]=BR-800MiddleTrailer
 
 EmptyImage[E]=./images/br-800-middle-gwr.1.4
 EmptyImage[SE]=./images/br-800-middle-gwr.1.5
@@ -73,10 +74,10 @@ EmptyImage[NW]=./images/br-800-middle-gwr.1.1
 EmptyImage[N]=./images/br-800-middle-gwr.1.2
 EmptyImage[NE]=./images/br-800-middle-gwr.1.3
 
-
 ---
+
 obj=vehicle
-name=BR-800MiddleTrailer(GWR)
+name=BR-800MiddleTrailer
 engine_type=diesel
 speed=225
 copyright=Kieron/James
@@ -94,11 +95,11 @@ cost=2067000
 runningcost=660
 sound=-1
 
-Constraint[Prev][0]=BR-800MiddlePower(GWR)
-Constraint[Prev][1]=BR-800MiddleTrailer(GWR)
+Constraint[Prev][0]=BR-800MiddlePower
+Constraint[Prev][1]=BR-800MiddleTrailer
 
-Constraint[Next][0]=BR-800MiddlePower(GWR)
-Constraint[Next][1]=BR-800MiddleTrailer(GWR)
+Constraint[Next][0]=BR-800MiddlePower
+Constraint[Next][1]=BR-800MiddleTrailer
 
 EmptyImage[E]=./images/br-800-middle-gwr.1.4
 EmptyImage[SE]=./images/br-800-middle-gwr.1.5
@@ -109,15 +110,13 @@ EmptyImage[NW]=./images/br-800-middle-gwr.1.1
 EmptyImage[N]=./images/br-800-middle-gwr.1.2
 EmptyImage[NE]=./images/br-800-middle-gwr.1.3
 
-
 ---
 
 obj=vehicle
-name=BR-800Rear(GWR)
+name=BR-800Rear
 engine_type=diesel
 speed=225
 power=0
-gear=420
 copyright=Kieron/James
 intro_year=2017
 intro_month=1
@@ -133,10 +132,10 @@ cost=2067000
 runningcost=660
 sound=-1
 
-Constraint[Next][0]=BR-800Front(GWR)
+Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none
 
-Constraint[Prev][0]=BR-800MiddlePower(GWR)
+Constraint[Prev][0]=BR-800MiddlePower
 
 EmptyImage[E]=./images/br-800-rear-gwr.1.4
 EmptyImage[SE]=./images/br-800-rear-gwr.1.5

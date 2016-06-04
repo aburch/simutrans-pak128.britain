@@ -3,7 +3,7 @@ name=BR-374(front)
 engine_type=electric
 speed=320
 power=2000
-gear=250
+gear=80
 copyright=James
 intro_year=2015
 intro_month=12
@@ -16,8 +16,6 @@ weight=60
 cost=1057500
 runningcost=126
 sound=-1
-=88
-
 
 Constraint[Prev][0]=BR-374(rear)
 Constraint[Prev][1]=none
@@ -78,7 +76,7 @@ name=BR-374(power)
 engine_type=electric
 speed=320
 power=2000
-gear=250
+gear=80
 tractive_effort=0
 copyright=James
 intro_year=2015
@@ -116,7 +114,7 @@ name=BR-374(rear)
 engine_type=electric
 speed=320
 power=2000
-gear=250
+gear=80
 copyright=James
 intro_year=2015
 intro_month=12
@@ -129,8 +127,6 @@ weight=60
 cost=1057500
 runningcost=126
 sound=-1
-
-
 
 Constraint[Prev][0]=BR-374(panto)
 Constraint[Prev][1]=BR-374(power)
