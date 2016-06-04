@@ -21,6 +21,7 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
+way_constraint_permissive[2]=2
 
 loading_time=6300
 comfort=88
@@ -64,6 +65,7 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-385(front)
 
@@ -104,6 +106,7 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-385(centre1)
 
@@ -143,6 +146,7 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-385(centre2)
 Constraint[Prev][1]=BR-385(centre1)

@@ -25,6 +25,7 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-387Rear
 Constraint[Prev][1]=none
@@ -67,6 +68,7 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-387Middle
 Constraint[Prev][1]=BR-387Front
@@ -111,6 +113,7 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-387Panto
 Constraint[Prev][1]=BR-387Middle
@@ -154,6 +157,7 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-387Front
 

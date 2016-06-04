@@ -7,8 +7,8 @@ power=400
 copyright=Kieron/James
 intro_year=2001
 intro_month=12
-#retire_year=2025
-#retire_month=12
+retire_year=2009
+retire_month=6
 waytype=track
 freight=Passagiere
 payload=61
@@ -23,6 +23,7 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-334Rear
 Constraint[Prev][1]=none
@@ -49,8 +50,8 @@ power=400
 copyright=Kieron/James
 intro_year=2001
 intro_month=12
-#retire_year=2025
-#retire_month=12
+retire_year=2009
+retire_month=6
 waytype=track
 freight=Passagiere
 payload=61
@@ -65,6 +66,7 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-334Middle
 
@@ -91,8 +93,8 @@ power=400
 copyright=Kieron/James
 intro_year=2001
 intro_month=12
-#retire_year=2025
-#retire_month=12
+retire_year=2009
+retire_month=6
 waytype=track
 freight=Passagiere
 payload=61
@@ -107,7 +109,7 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
-
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-334Front
 
