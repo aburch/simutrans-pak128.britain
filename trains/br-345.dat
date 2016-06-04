@@ -14,6 +14,7 @@ freight=Passagiere
 payload=70
 length=13
 rolling_resistance=13
+brake_force=29
 air_resistance=120
 
 weight=39
@@ -51,6 +52,7 @@ intro_month=5
 waytype=track
 freight=Passagiere
 payload=70
+brake_force=29
 length=13
 rolling_resistance=13
 air_resistance=120
@@ -93,6 +95,7 @@ waytype=track
 freight=Passagiere
 payload=80
 length=12
+brake_force=29
 rolling_resistance=13
 
 weight=39
@@ -132,6 +135,7 @@ waytype=track
 freight=Passagiere
 payload=80
 length=12
+brake_force=29
 rolling_resistance=13
 
 weight=39

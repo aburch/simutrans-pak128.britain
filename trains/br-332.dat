@@ -13,6 +13,7 @@ waytype=track
 freight=Passagiere
 payload=25
 length=11
+brake_force=38
 rolling_resistance=13
 
 weight=50
@@ -22,7 +23,6 @@ sound=-1
 
 loading_time=6300
 comfort=88
-
 
 Constraint[Prev][0]=BR-332(rear)
 Constraint[Prev][1]=none
@@ -55,13 +55,13 @@ waytype=track
 freight=Passagiere
 payload=64
 length=11
+brake_force=35
 rolling_resistance=13
 
 weight=46
 cost=1899100
 runningcost=43
 sound=-1
-
 
 Constraint[Prev][0]=BR-332(centre2)
 Constraint[Prev][1]=BR-332(centre1)
@@ -94,13 +94,13 @@ waytype=track
 freight=Passagiere
 payload=64
 length=11
+brake_force=29
 rolling_resistance=13
 
 weight=39
 cost=1899100
 runningcost=43
 sound=-1
-
 
 Constraint[Prev][0]=BR-332(front)
 
@@ -133,6 +133,7 @@ waytype=track
 freight=Passagiere
 payload=25
 length=11
+brake_force=38
 rolling_resistance=13
 
 weight=50

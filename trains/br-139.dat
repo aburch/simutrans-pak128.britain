@@ -8,18 +8,21 @@ power=64
 copyright=Kieron
 intro_year=2009
 intro_month=6
-#retire_year=1999
-#retire_month=2
 waytype=track
 freight=Passagiere
 payload=50
 length=6
+brake_force=10
 rolling_resistance=13
 
 weight=12
 cost=1296000
 runningcost=5
 sound=-1
+
+Constraint[Prev][0]=none
+
+Constraint[Next][0]=none
 
 EmptyImage[E]=./images/br-139-lm.1.4
 EmptyImage[SE]=./images/br-139-lm.1.5

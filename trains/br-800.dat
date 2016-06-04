@@ -14,7 +14,9 @@ waytype=track
 freight=Passagiere
 payload=35
 length=14
+brake_force=30
 rolling_resistance=13
+air_resistance=105
 
 weight=40
 cost=2067000
@@ -52,8 +54,8 @@ waytype=track
 freight=Passagiere
 payload=72
 length=14
+brake_force=35
 rolling_resistance=13
-air_resistance=105
 
 weight=47
 cost=2067000
@@ -92,6 +94,7 @@ waytype=track
 freight=Passagiere
 payload=72
 length=14
+brake_force=30
 rolling_resistance=13
 
 weight=47
@@ -130,6 +133,7 @@ waytype=track
 freight=Passagiere
 payload=35
 length=14
+brake_force=35
 rolling_resistance=13
 air_resistance=105
 
@@ -151,6 +155,3 @@ EmptyImage[W]=./images/br-800-rear-gwr.1.0
 EmptyImage[NW]=./images/br-800-rear-gwr.1.1
 EmptyImage[N]=./images/br-800-rear-gwr.1.2
 EmptyImage[NE]=./images/br-800-rear-gwr.1.3
-
-
----

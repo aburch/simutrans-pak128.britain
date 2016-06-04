@@ -11,6 +11,7 @@ waytype=track
 freight=Passagiere
 payload=70
 length=11
+brake_force=34
 rolling_resistance=13
 
 weight=45
@@ -50,13 +51,13 @@ waytype=track
 freight=Passagiere
 payload=70
 length=11
+brake_force=30
 rolling_resistance=13
 
 weight=40
 cost=1899100
 runningcost=43
 sound=-1
-
 
 Constraint[Prev][0]=BR-360(centre2)
 
@@ -87,13 +88,13 @@ waytype=track
 freight=Passagiere
 payload=70
 length=11
+brake_force=30
 rolling_resistance=13
 
 weight=40
 cost=1899100
 runningcost=43
 sound=-1
-
 
 Constraint[Prev][0]=BR-360(front)
 
@@ -124,6 +125,7 @@ waytype=track
 freight=Passagiere
 payload=70
 length=11
+brake_force=35
 rolling_resistance=13
 
 weight=45
