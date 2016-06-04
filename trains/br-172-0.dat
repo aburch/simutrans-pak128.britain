@@ -7,7 +7,7 @@ gear=50
 power=360
 copyright=Kieron/James
 intro_year=2010
-intro_month=10
+intro_month=7
 #retire_year=2025
 #retire_month=10
 waytype=track
@@ -22,6 +22,9 @@ axles=4
 cost=1930000
 runningcost=171
 sound=-1
+
+min_loading_time=12
+max_loading_time=50
 
 can_lead_from_rear=1
 bidirectional=0
@@ -52,7 +55,7 @@ gear=50
 power=360
 copyright=Kieron/James
 intro_year=2010
-intro_month=10
+intro_month=7
 #retire_year=2025
 #retire_month=10
 waytype=track
@@ -70,6 +73,9 @@ sound=-1
 
 can_lead_from_rear=1
 bidirectional=0
+
+min_loading_time=12
+max_loading_time=50
 
 Constraint[Prev][0]=BR-172-0Middle
 Constraint[Prev][1]=BR-172-0Front
@@ -97,7 +103,7 @@ gear=50
 power=360
 copyright=Kieron/James
 intro_year=2010
-intro_month=10
+intro_month=7
 #retire_year=2025
 #retire_month=10
 waytype=track
@@ -112,6 +118,9 @@ axles=4
 cost=1930000
 runningcost=170
 sound=-1
+
+min_loading_time=12
+max_loading_time=50
 
 can_lead_from_rear=0
 bidirectional=1

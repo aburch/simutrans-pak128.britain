@@ -23,6 +23,9 @@ cost=1008000
 runningcost=132
 sound=-1
 
+min_loading_time=12
+max_loading_time=50
+
 can_lead_from_rear=1
 bidirectional=0
 
@@ -65,6 +68,9 @@ axles=4
 cost=1008000
 runningcost=132
 sound=-1
+
+min_loading_time=12
+max_loading_time=50
 
 can_lead_from_rear=1
 bidirectional=0
@@ -112,6 +118,9 @@ sound=-1
 can_lead_from_rear=0
 bidirectional=1
 
+min_loading_time=12
+max_loading_time=50
+
 Constraint[Prev][0]=BR-700Panto
 Constraint[Prev][1]=BR-700MiddleTrailer
 Constraint[Prev][2]=BR-700MiddlePower
@@ -156,6 +165,9 @@ sound=-1
 can_lead_from_rear=0
 bidirectional=1
 
+min_loading_time=12
+max_loading_time=50
+
 Constraint[Prev][0]=BR-700Panto
 Constraint[Prev][1]=BR-700MiddleTrailer
 Constraint[Prev][2]=BR-700MiddlePower
@@ -199,6 +211,9 @@ sound=-1
 
 can_lead_from_rear=0
 bidirectional=1
+
+min_loading_time=12
+max_loading_time=50
 
 Constraint[Prev][0]=BR-700Front
 Constraint[Prev][1]=BR-700MiddlePower

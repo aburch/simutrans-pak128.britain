@@ -22,6 +22,9 @@ cost=1057500
 runningcost=126
 sound=-1
 
+min_loading_time=35
+max_loading_time=165
+
 can_lead_from_rear=1
 bidirectional=0
 
@@ -62,6 +65,9 @@ axles=4
 cost=1899100
 runningcost=43
 sound=-1
+
+min_loading_time=35
+max_loading_time=165
 
 can_lead_from_rear=0
 bidirectional=1
@@ -108,6 +114,9 @@ cost=1899100
 runningcost=43
 sound=-1
 
+min_loading_time=35
+max_loading_time=165
+
 can_lead_from_rear=0
 bidirectional=1
 
@@ -150,6 +159,9 @@ axles=4
 cost=1057500
 runningcost=126
 sound=-1
+
+min_loading_time=35
+max_loading_time=165
 
 can_lead_from_rear=1
 bidirectional=0

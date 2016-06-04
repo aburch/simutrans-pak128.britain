@@ -22,12 +22,12 @@ cost=1057500
 runningcost=126
 sound=-1
 
+min_loading_time=20
+max_loading_time=65
+
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[2]=2
-
-loading_time=6300
-comfort=88
 
 Constraint[Prev][0]=BR-333(rear)
 Constraint[Prev][1]=none
@@ -68,6 +68,9 @@ axles=4
 cost=1899100
 runningcost=43
 sound=-1
+
+min_loading_time=20
+max_loading_time=65
 
 can_lead_from_rear=0
 bidirectional=1
@@ -113,6 +116,9 @@ cost=1899100
 runningcost=43
 sound=-1
 
+min_loading_time=20
+max_loading_time=65
+
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[2]=2
@@ -156,6 +162,9 @@ axles=4
 cost=1057500
 runningcost=126
 sound=-1
+
+min_loading_time=20
+max_loading_time=65
 
 can_lead_from_rear=1
 bidirectional=0
