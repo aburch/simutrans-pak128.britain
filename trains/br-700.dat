@@ -21,6 +21,9 @@ cost=1008000
 runningcost=132
 sound=-1
 
+can_lead_from_rear=1
+bidirectional=0
+
 Constraint[Prev][0]=BR-700Rear
 Constraint[Prev][1]=none
 
@@ -60,6 +63,9 @@ cost=1008000
 runningcost=132
 sound=-1
 
+can_lead_from_rear=1
+bidirectional=0
+
 Constraint[Prev][0]=BR-700Panto
 
 Constraint[Next][0]=BR-700Front
@@ -98,6 +104,9 @@ weight=36
 cost=1512000
 runningcost=132
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 Constraint[Prev][0]=BR-700Panto
 Constraint[Prev][1]=BR-700MiddleTrailer
@@ -139,6 +148,9 @@ cost=1012000
 runningcost=80
 sound=-1
 
+can_lead_from_rear=0
+bidirectional=1
+
 Constraint[Prev][0]=BR-700Panto
 Constraint[Prev][1]=BR-700MiddleTrailer
 Constraint[Prev][2]=BR-700MiddlePower
@@ -178,6 +190,9 @@ weight=30
 cost=1012000
 runningcost=20
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 Constraint[Prev][0]=BR-700Front
 Constraint[Prev][1]=BR-700MiddlePower

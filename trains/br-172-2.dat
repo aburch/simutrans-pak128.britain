@@ -22,6 +22,9 @@ cost=1930000
 runningcost=171
 sound=-1
 
+can_lead_from_rear=1
+bidirectional=0
+
 Constraint[Prev][0]=BR-172-2Rear
 Constraint[Prev][1]=none
 
@@ -63,6 +66,9 @@ cost=1930000
 runningcost=170
 sound=-1
 
+can_lead_from_rear=1
+bidirectional=0
+
 Constraint[Prev][0]=BR-172-2Middle
 Constraint[Prev][1]=BR-172-2Front
 
@@ -103,6 +109,9 @@ weight=39
 cost=1930000
 runningcost=170
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 Constraint[Prev][0]=BR-172-2Front
 Constraint[Prev][1]=BR-172-2Middle

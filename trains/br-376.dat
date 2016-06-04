@@ -21,6 +21,9 @@ cost=1814400
 runningcost=25
 sound=-1
 
+can_lead_from_rear=1
+bidirectional=0
+
 Constraint[Prev][0]=BR-376Rear
 Constraint[Prev][1]=none
 
@@ -59,6 +62,9 @@ weight=46
 cost=1814400
 runningcost=24
 sound=-1
+
+can_lead_from_rear=1
+bidirectional=0
 
 Constraint[Prev][0]=BR-376Middle
 Constraint[Prev][1]=BR-376Front
@@ -100,6 +106,9 @@ cost=2721000
 runningcost=25
 sound=-1
 
+can_lead_from_rear=0
+bidirectional=1
+
 Constraint[Prev][0]=BR-376Front
 Constraint[Prev][1]=BR-376Middle
 
@@ -140,6 +149,9 @@ weight=40
 cost=2721000
 runningcost=25
 sound=-1
+
+can_lead_from_rear=0
+bidirectional=1
 
 Constraint[Prev][0]=BR-376Front
 Constraint[Prev][1]=BR-376Middle

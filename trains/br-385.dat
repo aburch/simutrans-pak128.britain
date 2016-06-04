@@ -19,6 +19,9 @@ cost=1057500
 runningcost=126
 sound=-1
 
+can_lead_from_rear=1
+bidirectional=0
+
 loading_time=6300
 comfort=88
 
@@ -59,6 +62,9 @@ cost=1899100
 runningcost=43
 sound=-1
 
+can_lead_from_rear=0
+bidirectional=1
+
 Constraint[Prev][0]=BR-385(front)
 
 Constraint[Next][0]=BR-385(centre2)
@@ -96,6 +102,9 @@ cost=1899100
 runningcost=43
 sound=-1
 
+can_lead_from_rear=0
+bidirectional=1
+
 Constraint[Prev][0]=BR-385(centre1)
 
 Constraint[Next][0]=BR-385(rear)
@@ -131,6 +140,9 @@ weight=45
 cost=1057500
 runningcost=126
 sound=-1
+
+can_lead_from_rear=1
+bidirectional=0
 
 Constraint[Prev][0]=BR-385(centre2)
 Constraint[Prev][1]=BR-385(centre1)
