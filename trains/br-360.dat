@@ -21,7 +21,6 @@ sound=-1
 loading_time=6300
 comfort=88
 
-
 Constraint[Prev][0]=BR-360(rear)
 Constraint[Prev][1]=none
 
@@ -72,6 +71,7 @@ EmptyImage[W]=./images/br-360-middle-hc.1.0
 EmptyImage[NW]=./images/br-360-middle-hc.1.1
 EmptyImage[N]=./images/br-360-middle-hc.1.2
 EmptyImage[NE]=./images/br-360-middle-hc.1.3
+
 ---
 
 obj=vehicle
@@ -135,7 +135,6 @@ Constraint[Prev][0]=BR-360(centre2)
 Constraint[Prev][1]=BR-360(centre1)
 
 Constraint[Next][0]=BR-360(front)
-
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-360-rear-hc.1.4

@@ -13,6 +13,8 @@ waytype=track
 freight=Passagiere
 payload=90
 length=13
+rolling_resistance=13
+air_resistance=125
 
 weight=39
 cost=1008000
@@ -50,6 +52,8 @@ waytype=track
 freight=Passagiere
 payload=90
 length=13
+rolling_resistance=13
+air_resistance=125
 
 weight=39
 cost=1008000
@@ -89,6 +93,7 @@ waytype=track
 freight=Passagiere
 payload=100
 length=11
+rolling_resistance=13
 
 weight=39
 cost=1512000
@@ -127,6 +132,7 @@ waytype=track
 freight=Passagiere
 payload=100
 length=11
+rolling_resistance=13
 
 weight=39
 cost=1512000
