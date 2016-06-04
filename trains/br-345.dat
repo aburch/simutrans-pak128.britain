@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-345Front(Crossrail)
+name=BR-345Front
 engine_type=electric
 speed=145
 power=600
@@ -19,10 +19,10 @@ cost=1008000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-345Rear(Crossrail)
+Constraint[Prev][0]=BR-345Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-345Panto(Crossrail)
+Constraint[Next][0]=BR-345Panto
 
 EmptyImage[E]=./images/br-345-front-crossrail.1.4
 EmptyImage[SE]=./images/br-345-front-crossrail.1.5
@@ -34,7 +34,7 @@ EmptyImage[N]=./images/br-345-front-crossrail.1.2
 EmptyImage[NE]=./images/br-345-front-crossrail.1.3
 ---
 obj=vehicle
-name=BR-345Rear(Crossrail)
+name=BR-345Rear
 engine_type=electric
 speed=145
 power=250
@@ -54,11 +54,11 @@ cost=1008000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-345Middle(Crossrail)
-Constraint[Prev][1]=BR-345Front(Crossrail)
-Constraint[Prev][2]=BR-345Panto(Crossrail)
+Constraint[Prev][0]=BR-345Middle
+Constraint[Prev][1]=BR-345Front
+Constraint[Prev][2]=BR-345Panto
 
-Constraint[Next][0]=BR-345Front(Crossrail)
+Constraint[Next][0]=BR-345Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-345-rear-crossrail.1.4
@@ -72,7 +72,7 @@ EmptyImage[NE]=./images/br-345-rear-crossrail.1.3
 
 ---
 obj=vehicle
-name=BR-345Middle(Crossrail)
+name=BR-345Middle
 engine_type=electric
 speed=145
 power=500
@@ -92,11 +92,11 @@ cost=1512000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-345Panto(Crossrail)
-Constraint[Prev][1]=BR-345Middle(Crossrail)
+Constraint[Prev][0]=BR-345Panto
+Constraint[Prev][1]=BR-345Middle
 
-Constraint[Next][0]=BR-345Rear(Crossrail)
-Constraint[Next][1]=BR-345Middle(Crossrail)
+Constraint[Next][0]=BR-345Rear
+Constraint[Next][1]=BR-345Middle
 
 EmptyImage[E]=./images/br-345-middle-crossrail.1.4
 EmptyImage[SE]=./images/br-345-middle-crossrail.1.5
@@ -109,7 +109,7 @@ EmptyImage[NE]=./images/br-345-middle-crossrail.1.3
 
 ---
 obj=vehicle
-name=BR-345Panto(Crossrail)
+name=BR-345Panto
 engine_type=electric
 speed=145
 power=500
@@ -129,10 +129,10 @@ cost=1512000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-345Front(Crossrail)
+Constraint[Prev][0]=BR-345Front
 
-Constraint[Next][0]=BR-345Rear(Crossrail)
-Constraint[Next][1]=BR-345Middle(Crossrail)
+Constraint[Next][0]=BR-345Rear
+Constraint[Next][1]=BR-345Middle
 
 EmptyImage[E]=./images/br-345-panto-crossrail.1.4
 EmptyImage[SE]=./images/br-345-panto-crossrail.1.5

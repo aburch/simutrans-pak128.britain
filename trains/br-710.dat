@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-710Front(LOROL)
+name=BR-710Front
 engine_type=electric
 speed=120
 power=600
@@ -19,10 +19,10 @@ cost=1008000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-710Rear(LOROL)
+Constraint[Prev][0]=BR-710Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-710Panto(LOROL)
+Constraint[Next][0]=BR-710Panto
 
 EmptyImage[E]=./images/br-710-front-lorol.1.4
 EmptyImage[SE]=./images/br-710-front-lorol.1.5
@@ -32,9 +32,11 @@ EmptyImage[W]=./images/br-710-front-lorol.1.0
 EmptyImage[NW]=./images/br-710-front-lorol.1.1
 EmptyImage[N]=./images/br-710-front-lorol.1.2
 EmptyImage[NE]=./images/br-710-front-lorol.1.3
+
 ---
+
 obj=vehicle
-name=BR-710Rear(LOROL)
+name=BR-710Rear
 engine_type=electric
 speed=120
 power=250
@@ -54,11 +56,11 @@ cost=1008000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-710Middle(LOROL)
-Constraint[Prev][1]=BR-710Front(LOROL)
-Constraint[Prev][2]=BR-710Panto(LOROL)
+Constraint[Prev][0]=BR-710Middle
+Constraint[Prev][1]=BR-710Front
+Constraint[Prev][2]=BR-710Panto
 
-Constraint[Next][0]=BR-710Front(LOROL)
+Constraint[Next][0]=BR-710Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-710-rear-lorol.1.4
@@ -71,8 +73,9 @@ EmptyImage[N]=./images/br-710-rear-lorol.1.2
 EmptyImage[NE]=./images/br-710-rear-lorol.1.3
 
 ---
+
 obj=vehicle
-name=BR-710Middle(LOROL)
+name=BR-710Middle
 engine_type=electric
 speed=120
 power=500
@@ -92,11 +95,11 @@ cost=1512000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-710Panto(LOROL)
-Constraint[Prev][1]=BR-710Middle(LOROL)
+Constraint[Prev][0]=BR-710Panto
+Constraint[Prev][1]=BR-710Middle
 
-Constraint[Next][0]=BR-710Rear(LOROL)
-Constraint[Next][1]=BR-710Middle(LOROL)
+Constraint[Next][0]=BR-710Rear
+Constraint[Next][1]=BR-710Middle
 
 EmptyImage[E]=./images/br-710-middle-lorol.1.4
 EmptyImage[SE]=./images/br-710-middle-lorol.1.5
@@ -108,8 +111,9 @@ EmptyImage[N]=./images/br-710-middle-lorol.1.2
 EmptyImage[NE]=./images/br-710-middle-lorol.1.3
 
 ---
+
 obj=vehicle
-name=BR-710Panto(LOROL)
+name=BR-710Panto
 engine_type=electric
 speed=120
 power=500
@@ -129,10 +133,10 @@ cost=1512000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-710Front(LOROL)
+Constraint[Prev][0]=BR-710Front
 
-Constraint[Next][0]=BR-710Rear(LOROL)
-Constraint[Next][1]=BR-710Middle(LOROL)
+Constraint[Next][0]=BR-710Rear
+Constraint[Next][1]=BR-710Middle
 
 EmptyImage[E]=./images/br-710-panto-lorol.1.4
 EmptyImage[SE]=./images/br-710-panto-lorol.1.5

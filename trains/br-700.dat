@@ -1,7 +1,5 @@
-# Also stands for similar class 707.
-
 obj=vehicle
-name=BR-700Front(TSGN)
+name=BR-700Front
 engine_type=electric
 speed=160
 power=850
@@ -21,10 +19,10 @@ cost=1008000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-700Rear(TSGN)
+Constraint[Prev][0]=BR-700Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-700Panto(TSGN)
+Constraint[Next][0]=BR-700Panto
 
 EmptyImage[E]=./images/br-700-front-tsgn.1.4
 EmptyImage[SE]=./images/br-700-front-tsgn.1.5
@@ -36,8 +34,9 @@ EmptyImage[N]=./images/br-700-front-tsgn.1.2
 EmptyImage[NE]=./images/br-700-front-tsgn.1.3
 
 ---
+
 obj=vehicle
-name=BR-700Rear(TSGN)
+name=BR-700Rear
 engine_type=electric
 speed=160
 power=850
@@ -57,9 +56,9 @@ cost=1008000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-700Panto(TSGN)
+Constraint[Prev][0]=BR-700Panto
 
-Constraint[Next][0]=BR-700Front(TSGN)
+Constraint[Next][0]=BR-700Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-700-rear-tsgn.1.4
@@ -71,11 +70,10 @@ EmptyImage[NW]=./images/br-700-rear-tsgn.1.1
 EmptyImage[N]=./images/br-700-rear-tsgn.1.2
 EmptyImage[NE]=./images/br-700-rear-tsgn.1.3
 
-
-
 ---
+
 obj=vehicle
-name=BR-700MiddlePower(TSGN)
+name=BR-700MiddlePower
 engine_type=electric
 speed=160
 power=850
@@ -95,13 +93,13 @@ cost=1512000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-700Panto(TSGN)
-Constraint[Prev][1]=BR-700MiddleTrailer(TSGN)
-Constraint[Prev][2]=BR-700MiddlePower(TSGN)
+Constraint[Prev][0]=BR-700Panto
+Constraint[Prev][1]=BR-700MiddleTrailer
+Constraint[Prev][2]=BR-700MiddlePower
 
-Constraint[Next][0]=BR-700Panto(TSGN)
-Constraint[Next][1]=BR-700MiddlePower(TSGN)
-Constraint[Next][2]=BR-700MiddleTrailer(TSGN)
+Constraint[Next][0]=BR-700Panto
+Constraint[Next][1]=BR-700MiddlePower
+Constraint[Next][2]=BR-700MiddleTrailer
 
 EmptyImage[E]=./images/br-700-middle-tsgn.1.4
 EmptyImage[SE]=./images/br-700-middle-tsgn.1.5
@@ -113,8 +111,9 @@ EmptyImage[N]=./images/br-700-middle-tsgn.1.2
 EmptyImage[NE]=./images/br-700-middle-tsgn.1.3
 
 ---
+
 obj=vehicle
-name=BR-700MiddleTrailer(TSGN)
+name=BR-700MiddleTrailer
 engine_type=electric
 speed=160
 copyright=James
@@ -132,13 +131,13 @@ cost=1012000
 runningcost=80
 sound=-1
 
-Constraint[Prev][0]=BR-700Panto(TSGN)
-Constraint[Prev][1]=BR-700MiddleTrailer(TSGN)
-Constraint[Prev][2]=BR-700MiddlePower(TSGN)
+Constraint[Prev][0]=BR-700Panto
+Constraint[Prev][1]=BR-700MiddleTrailer
+Constraint[Prev][2]=BR-700MiddlePower
 
-Constraint[Next][0]=BR-700Panto(TSGN)
-Constraint[Next][1]=BR-700MiddlePower(TSGN)
-Constraint[Next][2]=BR-700MiddleTrailer(TSGN)
+Constraint[Next][0]=BR-700Panto
+Constraint[Next][1]=BR-700MiddlePower
+Constraint[Next][2]=BR-700MiddleTrailer
 
 EmptyImage[E]=./images/br-700-middle-tsgn.1.4
 EmptyImage[SE]=./images/br-700-middle-tsgn.1.5
@@ -149,11 +148,10 @@ EmptyImage[NW]=./images/br-700-middle-tsgn.1.1
 EmptyImage[N]=./images/br-700-middle-tsgn.1.2
 EmptyImage[NE]=./images/br-700-middle-tsgn.1.3
 
-
-
 ---
+
 obj=vehicle
-name=BR-700Panto(TSGN)
+name=BR-700Panto
 speed=160
 engine_type=electric
 
@@ -172,13 +170,13 @@ cost=1012000
 runningcost=20
 sound=-1
 
-Constraint[Prev][0]=BR-700Front(TSGN)
-Constraint[Prev][1]=BR-700MiddlePower(TSGN)
-Constraint[Prev][2]=BR-700MiddleTrailer(TSGN)
+Constraint[Prev][0]=BR-700Front
+Constraint[Prev][1]=BR-700MiddlePower
+Constraint[Prev][2]=BR-700MiddleTrailer
 
-Constraint[Next][0]=BR-700Rear(TSGN)
-Constraint[Next][1]=BR-700MiddlePower(TSGN)
-Constraint[Next][2]=BR-700MiddleTrailer(TSGN)
+Constraint[Next][0]=BR-700Rear
+Constraint[Next][1]=BR-700MiddlePower
+Constraint[Next][2]=BR-700MiddleTrailer
 
 EmptyImage[E]=./images/BR-700-panto-tsgn.1.4
 EmptyImage[SE]=./images/BR-700-panto-tsgn.1.5
@@ -188,6 +186,3 @@ EmptyImage[W]=./images/BR-700-panto-tsgn.1.0
 EmptyImage[NW]=./images/BR-700-panto-tsgn.1.1
 EmptyImage[N]=./images/BR-700-panto-tsgn.1.2
 EmptyImage[NE]=./images/BR-700-panto-tsgn.1.3
-
-
----

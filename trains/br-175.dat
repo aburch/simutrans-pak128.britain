@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-175Front(FNW)
+name=BR-175Front
 engine_type=diesel
 smoke=Diesel
 speed=160
@@ -20,11 +20,11 @@ cost=1930000
 runningcost=171
 sound=-1
 
-Constraint[Prev][0]=BR-175Rear(FNW)
+Constraint[Prev][0]=BR-175Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-175Rear(FNW)
-Constraint[Next][1]=BR-175Middle(FNW)
+Constraint[Next][0]=BR-175Rear
+Constraint[Next][1]=BR-175Middle
 
 EmptyImage[E]=./images/br-175-front-fnw.1.4
 EmptyImage[SE]=./images/br-175-front-fnw.1.5
@@ -36,7 +36,7 @@ EmptyImage[N]=./images/br-175-front-fnw.1.2
 EmptyImage[NE]=./images/br-175-front-fnw.1.3
 ---
 obj=vehicle
-name=BR-175Rear(FNW)
+name=BR-175Rear
 engine_type=diesel
 smoke=Diesel
 speed=160
@@ -57,10 +57,10 @@ cost=1930000
 runningcost=170
 sound=-1
 
-Constraint[Prev][0]=BR-175Middle(FNW)
-Constraint[Prev][1]=BR-175Front(FNW)
+Constraint[Prev][0]=BR-175Middle
+Constraint[Prev][1]=BR-175Front
 
-Constraint[Next][0]=BR-175Front(FNW)
+Constraint[Next][0]=BR-175Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-175-rear-fnw.1.4
@@ -73,7 +73,7 @@ EmptyImage[N]=./images/br-175-rear-fnw.1.2
 EmptyImage[NE]=./images/br-175-rear-fnw.1.3
 ---
 obj=vehicle
-name=BR-175Middle(FNW)
+name=BR-175Middle
 engine_type=diesel
 smoke=Diesel
 speed=160
@@ -94,11 +94,11 @@ cost=1930000
 runningcost=170
 sound=-1
 
-Constraint[Prev][0]=BR-175Front(FNW)
-Constraint[Prev][1]=BR-175Middle(FNW)
+Constraint[Prev][0]=BR-175Front
+Constraint[Prev][1]=BR-175Middle
 
-Constraint[Next][0]=BR-175Rear(FNW)
-Constraint[Next][1]=BR-175Middle(FNW)
+Constraint[Next][0]=BR-175Rear
+Constraint[Next][1]=BR-175Middle
 
 EmptyImage[E]=./images/br-175-middle-fnw.1.4
 EmptyImage[SE]=./images/br-175-middle-fnw.1.5

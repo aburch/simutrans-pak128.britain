@@ -1,7 +1,5 @@
-# Also stands for similar class 707.
-
 obj=vehicle
-name=BR-707Front(SWT)
+name=BR-707Front
 engine_type=electric
 speed=160
 power=850
@@ -21,10 +19,10 @@ cost=1008000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-707Rear(SWT)
+Constraint[Prev][0]=BR-707Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-707MiddleTrailer(SWT)
+Constraint[Next][0]=BR-707MiddleTrailer
 
 EmptyImage[E]=./images/br-707-front-swt.1.4
 EmptyImage[SE]=./images/br-707-front-swt.1.5
@@ -36,8 +34,9 @@ EmptyImage[N]=./images/br-707-front-swt.1.2
 EmptyImage[NE]=./images/br-707-front-swt.1.3
 
 ---
+
 obj=vehicle
-name=BR-707Rear(SWT)
+name=BR-707Rear
 engine_type=electric
 speed=160
 power=850
@@ -57,9 +56,9 @@ cost=1008000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-707MiddleTrailer(SWT)
+Constraint[Prev][0]=BR-707MiddleTrailer
 
-Constraint[Next][0]=BR-707Front(SWT)
+Constraint[Next][0]=BR-707Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-707-rear-swt.1.4
@@ -71,11 +70,10 @@ EmptyImage[NW]=./images/br-707-rear-swt.1.1
 EmptyImage[N]=./images/br-707-rear-swt.1.2
 EmptyImage[NE]=./images/br-707-rear-swt.1.3
 
-
-
 ---
+
 obj=vehicle
-name=BR-707MiddlePower(SWT)
+name=BR-707MiddlePower
 engine_type=electric
 speed=160
 power=850
@@ -95,11 +93,11 @@ cost=1512000
 runningcost=132
 sound=-1
 
-Constraint[Prev][0]=BR-707MiddleTrailer(SWT)
-Constraint[Prev][1]=BR-707MiddlePower(SWT)
+Constraint[Prev][0]=BR-707MiddleTrailer
+Constraint[Prev][1]=BR-707MiddlePower
 
-Constraint[Next][0]=BR-707MiddlePower(SWT)
-Constraint[Next][1]=BR-707MiddleTrailer(SWT)
+Constraint[Next][0]=BR-707MiddlePower
+Constraint[Next][1]=BR-707MiddleTrailer
 
 EmptyImage[E]=./images/br-707-middle-swt.1.4
 EmptyImage[SE]=./images/br-707-middle-swt.1.5
@@ -111,8 +109,9 @@ EmptyImage[N]=./images/br-707-middle-swt.1.2
 EmptyImage[NE]=./images/br-707-middle-swt.1.3
 
 ---
+
 obj=vehicle
-name=BR-707MiddleTrailer(SWT)
+name=BR-707MiddleTrailer
 engine_type=electric
 speed=160
 copyright=James
@@ -130,13 +129,13 @@ cost=1012000
 runningcost=80
 sound=-1
 
-Constraint[Prev][0]=BR-707MiddleTrailer(SWT)
-Constraint[Prev][1]=BR-707MiddlePower(SWT)
-Constraint[Prev][2]=BR-707Front(SWT)
+Constraint[Prev][0]=BR-707MiddleTrailer
+Constraint[Prev][1]=BR-707MiddlePower
+Constraint[Prev][2]=BR-707Front
 
-Constraint[Next][0]=BR-707MiddlePower(SWT)
-Constraint[Next][1]=BR-707MiddleTrailer(SWT)
-Constraint[Next][2]=BR-707Rear(SWT)
+Constraint[Next][0]=BR-707MiddlePower
+Constraint[Next][1]=BR-707MiddleTrailer
+Constraint[Next][2]=BR-707Rear
 
 EmptyImage[E]=./images/br-707-middle-swt.1.4
 EmptyImage[SE]=./images/br-707-middle-swt.1.5
@@ -146,9 +145,3 @@ EmptyImage[W]=./images/br-707-middle-swt.1.0
 EmptyImage[NW]=./images/br-707-middle-swt.1.1
 EmptyImage[N]=./images/br-707-middle-swt.1.2
 EmptyImage[NE]=./images/br-707-middle-swt.1.3
-
-
-
-
-
----

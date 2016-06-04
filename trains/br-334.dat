@@ -1,7 +1,6 @@
 obj=vehicle
-name=BR-334Front(Strathclyde)
+name=BR-334Front
 engine_type=electric
-
 speed=145
 gear=520
 power=400
@@ -20,10 +19,10 @@ cost=1930000
 runningcost=171
 sound=-1
 
-Constraint[Prev][0]=BR-334Rear(Strathclyde)
+Constraint[Prev][0]=BR-334Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-334Middle(Strathclyde)
+Constraint[Next][0]=BR-334Middle
 
 EmptyImage[E]=./images/br-334-front-strathclyde.1.4
 EmptyImage[SE]=./images/br-334-front-strathclyde.1.5
@@ -33,11 +32,12 @@ EmptyImage[W]=./images/br-334-front-strathclyde.1.0
 EmptyImage[NW]=./images/br-334-front-strathclyde.1.1
 EmptyImage[N]=./images/br-334-front-strathclyde.1.2
 EmptyImage[NE]=./images/br-334-front-strathclyde.1.3
----
-obj=vehicle
-name=BR-334Rear(Strathclyde)
-engine_type=electric
 
+---
+
+obj=vehicle
+name=BR-334Rear
+engine_type=electric
 speed=145
 gear=520
 power=400
@@ -56,9 +56,9 @@ cost=1930000
 runningcost=170
 sound=-1
 
-Constraint[Prev][0]=BR-334Middle(Strathclyde)
+Constraint[Prev][0]=BR-334Middle
 
-Constraint[Next][0]=BR-334Front(Strathclyde)
+Constraint[Next][0]=BR-334Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-334-rear-strathclyde.1.4
@@ -69,11 +69,12 @@ EmptyImage[W]=./images/br-334-rear-strathclyde.1.0
 EmptyImage[NW]=./images/br-334-rear-strathclyde.1.1
 EmptyImage[N]=./images/br-334-rear-strathclyde.1.2
 EmptyImage[NE]=./images/br-334-rear-strathclyde.1.3
----
-obj=vehicle
-name=BR-334Middle(Strathclyde)
-engine_type=electric
 
+---
+
+obj=vehicle
+name=BR-334Middle
+engine_type=electric
 speed=145
 gear=520
 power=400
@@ -92,9 +93,9 @@ cost=1930000
 runningcost=170
 sound=-1
 
-Constraint[Prev][0]=BR-334Front(Strathclyde)
+Constraint[Prev][0]=BR-334Front
 
-Constraint[Next][0]=BR-334Rear(Strathclyde)
+Constraint[Next][0]=BR-334Rear
 
 EmptyImage[E]=./images/br-334-middle-strathclyde.1.4
 EmptyImage[SE]=./images/br-334-middle-strathclyde.1.5

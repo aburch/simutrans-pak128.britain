@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-172Front(LOROL)
+name=BR-172-0Front
 engine_type=diesel
 smoke=Diesel
 speed=120
@@ -20,11 +20,11 @@ cost=1930000
 runningcost=171
 sound=-1
 
-Constraint[Prev][0]=BR-172Rear(LOROL)
+Constraint[Prev][0]=BR-172-0Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-172Rear(LOROL)
-Constraint[Next][1]=BR-172Middle(LOROL)
+Constraint[Next][0]=BR-172-0Rear
+Constraint[Next][1]=BR-172-0Middle
 
 EmptyImage[E]=./images/br-172-front-lorol.1.4
 EmptyImage[SE]=./images/br-172-front-lorol.1.5
@@ -36,7 +36,7 @@ EmptyImage[N]=./images/br-172-front-lorol.1.2
 EmptyImage[NE]=./images/br-172-front-lorol.1.3
 ---
 obj=vehicle
-name=BR-172Rear(LOROL)
+name=BR-172-0Rear
 engine_type=diesel
 smoke=Diesel
 speed=120
@@ -57,10 +57,10 @@ cost=1930000
 runningcost=170
 sound=-1
 
-Constraint[Prev][0]=BR-172Middle(LOROL)
-Constraint[Prev][1]=BR-172Front(LOROL)
+Constraint[Prev][0]=BR-172-0Middle
+Constraint[Prev][1]=BR-172-0Front
 
-Constraint[Next][0]=BR-172Front(LOROL)
+Constraint[Next][0]=BR-172-0Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-172-rear-lorol.1.4
@@ -73,7 +73,7 @@ EmptyImage[N]=./images/br-172-rear-lorol.1.2
 EmptyImage[NE]=./images/br-172-rear-lorol.1.3
 ---
 obj=vehicle
-name=BR-172Middle(LOROL)
+name=BR-172-0Middle
 engine_type=diesel
 smoke=Diesel
 speed=120
@@ -94,11 +94,11 @@ cost=1930000
 runningcost=170
 sound=-1
 
-Constraint[Prev][0]=BR-172Front(LOROL)
-Constraint[Prev][1]=BR-172Middle(LOROL)
+Constraint[Prev][0]=BR-172-0Front
+Constraint[Prev][1]=BR-172-0Middle
 
-Constraint[Next][0]=BR-172Rear(LOROL)
-Constraint[Next][1]=BR-172Middle(LOROL)
+Constraint[Next][0]=BR-172-0Rear
+Constraint[Next][1]=BR-172-0Middle
 
 EmptyImage[E]=./images/br-172-middle-lorol.1.4
 EmptyImage[SE]=./images/br-172-middle-lorol.1.5
