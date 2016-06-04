@@ -894,6 +894,7 @@
     <None Include="trams\sheffield-preston.dat" />
     <None Include="trams\sheffield-rocker-panel.dat" />
     <None Include="trams\sheffield-standard.dat" />
+    <None Include="trams\sheffield-vossloh-tramtrain.dat" />
     <None Include="trams\wilkinson-engine.dat" />
     <None Include="ways\asphalt-roads.dat" />
     <None Include="citycars\austin-metro.dat" />
@@ -937,9 +938,7 @@
     <None Include="trains\br-165back-nse.dat" />
     <None Include="trains\br-165front-nse.dat" />
     <None Include="trains\br-165middle-nse.dat" />
-    <None Include="trains\br-170back-scotrail.dat" />
-    <None Include="trains\br-170front-scotrail.dat" />
-    <None Include="trains\br-170middle-scotrail.dat" />
+    <None Include="trains\br-170.dat" />
     <None Include="trains\br-180back-fgw.dat" />
     <None Include="trains\br-180front-fgw.dat" />
     <None Include="trains\br-180middle-fgw.dat" />
@@ -979,9 +978,7 @@
     <None Include="trains\br-373c.dat" />
     <None Include="trains\br-373d.dat" />
     <None Include="trains\br-373e.dat" />
-    <None Include="trains\br-375back-se.dat" />
-    <None Include="trains\br-375front-se.dat" />
-    <None Include="trains\br-375middle-se.dat" />
+    <None Include="trains\br-375.dat" />
     <None Include="trains\br-378back-lt.dat" />
     <None Include="trains\br-378front-lt.dat" />
     <None Include="trains\br-378middle-lt.dat" />
@@ -993,9 +990,7 @@
     <None Include="trains\br-390f-virgin.dat" />
     <None Include="trains\br-390g-virgin.dat" />
     <None Include="trains\br-390h-virgin.dat" />
-    <None Include="trains\br-395front-se.dat" />
-    <None Include="trains\br-395middle-se.dat" />
-    <None Include="trains\br-395rear-se.dat" />
+    <None Include="trains\br-395.dat" />
     <None Include="trains\br-410[cep].dat" />
     <None Include="trains\br-414[hap].dat" />
     <None Include="trains\br-419-bg.dat" />

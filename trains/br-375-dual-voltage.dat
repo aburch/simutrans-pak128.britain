@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-375-6Front(SE)
+name=BR-375-6Front
 engine_type=electric
 speed=160
 power=500
@@ -32,25 +32,25 @@ comfort=86
 can_lead_from_rear=1
 bidirectional=0
 
-Constraint[Prev][0]=BR-375-6Rear(SE)
-Constraint[Prev][1]=BR-375Rear(SE)
+Constraint[Prev][0]=BR-375-6Rear
+Constraint[Prev][1]=BR-375Rear
 Constraint[Prev][2]=none
 
-Constraint[Next][0]=BR-375-6Middle1(SE)
+Constraint[Next][0]=BR-375-6Middle
 
-EmptyImage[E]=./images/br-375-se.0.0
-EmptyImage[SE]=./images/br-375-se.0.1
-EmptyImage[S]=./images/br-375-se.0.2
-EmptyImage[SW]=./images/br-375-se.0.3
-EmptyImage[W]=./images/br-375-se.0.4
-EmptyImage[NW]=./images/br-375-se.0.5
-EmptyImage[N]=./images/br-375-se.0.6
-EmptyImage[NE]=./images/br-375-se.0.7
+EmptyImage[E]=./images/br-375-front-se.1.4
+EmptyImage[SE]=./images/br-375-front-se.1.5
+EmptyImage[S]=./images/br-375-front-se.1.6
+EmptyImage[SW]=./images/br-375-front-se.1.7
+EmptyImage[W]=./images/br-375-front-se.1.0
+EmptyImage[NW]=./images/br-375-front-se.1.1
+EmptyImage[N]=./images/br-375-front-se.1.2
+EmptyImage[NE]=./images/br-375-front-se.1.3
 
 ---
 
 obj=vehicle
-name=BR-375-6Middle1(SE)
+name=BR-375-6Middle
 engine_type=electric
 speed=160
 power=0
@@ -83,10 +83,10 @@ comfort=86
 can_lead_from_rear=0
 bidirectional=1
 
-Constraint[Prev][0]=BR-375-6Front(SE)
+Constraint[Prev][0]=BR-375-6Front
 
-Constraint[Next][0]=BR-375-6Rear(SE)
-Constraint[Next][1]=BR-375-6Middle2(SE)
+Constraint[Next][0]=BR-375-6Rear
+Constraint[Next][1]=BR-375-6Panto
 
 EmptyImage[E]=./images/br-375-pantograph.0.0
 EmptyImage[SE]=./images/br-375-pantograph.0.1
@@ -100,7 +100,7 @@ EmptyImage[NE]=./images/br-375-pantograph.0.7
 ---
 
 obj=vehicle
-name=BR-375-6Middle2(SE)
+name=BR-375-6Panto
 engine_type=electric
 speed=160
 power=500
@@ -133,23 +133,23 @@ comfort=86
 can_lead_from_rear=0
 bidirectional=1
 
-Constraint[Prev][0]=BR-375-6Middle1(SE)
+Constraint[Prev][0]=BR-375-6Middle
 
-Constraint[Next][0]=BR-375-6Rear(SE)
+Constraint[Next][0]=BR-375-6Rear
 
-EmptyImage[E]=./images/br-375-se.1.0
-EmptyImage[SE]=./images/br-375-se.1.1
-EmptyImage[S]=./images/br-375-se.1.2
-EmptyImage[SW]=./images/br-375-se.1.3
-EmptyImage[W]=./images/br-375-se.1.4
-EmptyImage[NW]=./images/br-375-se.1.5
-EmptyImage[N]=./images/br-375-se.1.6
-EmptyImage[NE]=./images/br-375-se.1.7
+EmptyImage[E]=./images/br-375-middle-se.1.4
+EmptyImage[SE]=./images/br-375-middle-se.1.5
+EmptyImage[S]=./images/br-375-middle-se.1.6
+EmptyImage[SW]=./images/br-375-middle-se.1.7
+EmptyImage[W]=./images/br-375-middle-se.1.0
+EmptyImage[NW]=./images/br-375-middle-se.1.1
+EmptyImage[N]=./images/br-375-middle-se.1.2
+EmptyImage[NE]=./images/br-375-middle-se.1.3
 
 ---
 
 obj=vehicle
-name=BR-375-6Rear(SE)
+name=BR-375-6Rear
 engine_type=electric
 speed=160
 power=500
@@ -182,19 +182,18 @@ comfort=86
 can_lead_from_rear=1
 bidirectional=0
 
-Constraint[Prev][0]=BR-375-6Middle2(SE)
-Constraint[Prev][1]=BR-375-6Middle1(SE)
+Constraint[Prev][0]=BR-375-6Panto
+Constraint[Prev][1]=BR-375-6Middle
 
-Constraint[Next][0]=BR-375-6Front(SE)
-Constraint[Next][1]=BR-375Front(SE)
+Constraint[Next][0]=BR-375-6Front
+Constraint[Next][1]=BR-375Front
 Constraint[Next][2]=none
 
-EmptyImage[E]=./images/br-375-se.2.0
-EmptyImage[SE]=./images/br-375-se.2.1
-EmptyImage[S]=./images/br-375-se.2.2
-EmptyImage[SW]=./images/br-375-se.2.3
-EmptyImage[W]=./images/br-375-se.2.4
-EmptyImage[NW]=./images/br-375-se.2.5
-EmptyImage[N]=./images/br-375-se.2.6
-EmptyImage[NE]=./images/br-375-se.2.7
-
+EmptyImage[E]=./images/br-375-rear-se.1.4
+EmptyImage[SE]=./images/br-375-rear-se.1.5
+EmptyImage[S]=./images/br-375-rear-se.1.6
+EmptyImage[SW]=./images/br-375-rear-se.1.7
+EmptyImage[W]=./images/br-375-rear-se.1.0
+EmptyImage[NW]=./images/br-375-rear-se.1.1
+EmptyImage[N]=./images/br-375-rear-se.1.2
+EmptyImage[NE]=./images/br-375-rear-se.1.3

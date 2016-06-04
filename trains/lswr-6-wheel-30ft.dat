@@ -743,7 +743,7 @@ bidirectional=1
 min_loading_time=35
 max_loading_time=120
 
-#Constraint[Next][0]=4-wheel-1870s-fitted
+Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
 Constraint[Next][2]=4-wheel-1870s-mail-fitted
 Constraint[Next][3]=4-wheel-1870s-tpo-fitted
