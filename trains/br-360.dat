@@ -11,6 +11,7 @@ waytype=track
 freight=Passagiere
 payload=70
 length=11
+rolling_resistance=13
 
 weight=45
 cost=1057500
@@ -50,6 +51,7 @@ waytype=track
 freight=Passagiere
 payload=70
 length=11
+rolling_resistance=13
 
 weight=40
 cost=1899100
@@ -85,6 +87,7 @@ waytype=track
 freight=Passagiere
 payload=70
 length=11
+rolling_resistance=13
 
 weight=40
 cost=1899100
@@ -121,13 +124,12 @@ waytype=track
 freight=Passagiere
 payload=70
 length=11
+rolling_resistance=13
 
 weight=45
 cost=1057500
 runningcost=126
 sound=-1
-
-
 
 Constraint[Prev][0]=BR-360(centre2)
 Constraint[Prev][1]=BR-360(centre1)

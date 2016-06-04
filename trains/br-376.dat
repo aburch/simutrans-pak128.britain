@@ -13,6 +13,7 @@ waytype=track
 freight=Passagiere
 payload=80
 length=12
+rolling_resistance=13
 
 weight=46
 cost=1814400
@@ -34,6 +35,7 @@ EmptyImage[N]=./images/br-376-front-se.1.2
 EmptyImage[NE]=./images/br-376-front-se.1.3
 
 ---
+
 obj=vehicle
 name=BR-376Rear
 engine_type=electric
@@ -49,6 +51,7 @@ waytype=track
 freight=Passagiere
 payload=80
 length=12
+rolling_resistance=13
 
 weight=46
 cost=1814400
@@ -71,8 +74,8 @@ EmptyImage[NW]=./images/br-376-rear-se.1.1
 EmptyImage[N]=./images/br-376-rear-se.1.2
 EmptyImage[NE]=./images/br-376-rear-se.1.3
 
-
 ---
+
 obj=vehicle
 name=BR-376Middle
 engine_type=electric
@@ -87,6 +90,7 @@ waytype=track
 freight=Passagiere
 payload=85
 length=11
+rolling_resistance=13
 
 weight=40
 cost=2721000
@@ -108,7 +112,9 @@ EmptyImage[W]=./images/br-376-middle-se.1.0
 EmptyImage[NW]=./images/br-376-middle-se.1.1
 EmptyImage[N]=./images/br-376-middle-se.1.2
 EmptyImage[NE]=./images/br-376-middle-se.1.3
+
 --
+
 obj=vehicle
 name=BR-376MiddlePower
 engine_type=electric
@@ -124,6 +130,7 @@ waytype=track
 freight=Passagiere
 payload=85
 length=11
+rolling_resistance=13
 
 weight=40
 cost=2721000

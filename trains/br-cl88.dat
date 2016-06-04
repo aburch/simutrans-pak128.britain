@@ -1,8 +1,11 @@
+# TODO: In reality, these are bi-mode vehicles.
+# Make this electro-diesel when bi-mode capability is added to the code.
 obj=vehicle
 name=BR-Class88
 engine_type=electric
 speed=160
 power=4700
+tractive_effort=317
 gear=80
 copyright=James
 intro_year=2014
@@ -13,13 +16,15 @@ waytype=track
 freight=None
 payload=0
 length=11
+rolling_resistance=13
+
 weight=120
 axles=6
 cost=9450000
 runningcost=439
 sound=-1
 
-# Blue star
+# Unknown
 Constraint[Prev][0]=none
 
 EmptyImage[E]=./images/br-cl88-drs.1.4

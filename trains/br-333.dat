@@ -13,6 +13,7 @@ waytype=track
 freight=Passagiere
 payload=85
 length=11
+rolling_resistance=13
 
 weight=50
 cost=1057500
@@ -53,6 +54,7 @@ waytype=track
 freight=Passagiere
 payload=95
 length=11
+rolling_resistance=13
 
 weight=46
 cost=1899100
@@ -90,6 +92,7 @@ waytype=track
 freight=Passagiere
 payload=95
 length=11
+rolling_resistance=13
 
 weight=39
 cost=1899100
@@ -128,6 +131,7 @@ waytype=track
 freight=Passagiere
 payload=85
 length=11
+rolling_resistance=13
 
 weight=50
 cost=1057500
@@ -138,7 +142,6 @@ Constraint[Prev][0]=BR-333(centre2)
 Constraint[Prev][1]=BR-333(centre1)
 
 Constraint[Next][0]=BR-333(front)
-
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-333-rear-wypte.1.4

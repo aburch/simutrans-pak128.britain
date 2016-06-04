@@ -11,6 +11,7 @@ waytype=track
 freight=Passagiere
 payload=32
 length=12
+rolling_resistance=13
 
 weight=60
 cost=1057500
@@ -46,12 +47,12 @@ waytype=track
 freight=Passagiere
 payload=60
 length=12
+rolling_resistance=13
 
 weight=40
 cost=1899100
 runningcost=43
 sound=-1
-
 
 Constraint[Prev][0]=BR-374(front)
 Constraint[Prev][1]=BR-374(panto)
@@ -85,12 +86,12 @@ waytype=track
 freight=Passagiere
 payload=60
 length=12
+rolling_resistance=13
 
 weight=60
 cost=1899100
 runningcost=43
 sound=-1
-
 
 Constraint[Prev][0]=BR-374(panto)
 Constraint[Prev][1]=BR-374(power)
@@ -122,6 +123,7 @@ waytype=track
 freight=Passagiere
 payload=32
 length=12
+rolling_resistance=13
 
 weight=60
 cost=1057500
@@ -132,7 +134,6 @@ Constraint[Prev][0]=BR-374(panto)
 Constraint[Prev][1]=BR-374(power)
 
 Constraint[Next][0]=BR-374(front)
-
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-374-rear.1.4

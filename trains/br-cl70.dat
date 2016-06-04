@@ -4,24 +4,29 @@ engine_type=diesel
 smoke=Diesel
 speed=120
 power=2750
+tractive_effort=534
 gear=50
 copyright=James
 intro_year=2009
 intro_month=11
-#retire_year=1975
-#retire_month=9
 waytype=track
 freight=None
 payload=0
 length=12
+rolling_resistance=13
+
 weight=129
 axles=6
 cost=9450000
 runningcost=439
 sound=-1
 
-# Blue star
-Constraint[Prev][0]=none
+# AAR
+Constraint[Prev][0]=BR-Class66
+Constraint[Prev][1]=BR-Class67
+Constraint[Prev][2]=BR-Class70
+Constraint[Prev][3]=none
+# Also class 59
 
 EmptyImage[E]=./images/br-cl70-fl.1.4
 EmptyImage[SE]=./images/br-cl70-fl.1.5

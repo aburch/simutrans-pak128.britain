@@ -14,6 +14,7 @@ waytype=track
 freight=Passagiere
 payload=56
 length=12
+rolling_resistance=13
 
 weight=56
 cost=1930000
@@ -51,6 +52,7 @@ waytype=track
 freight=Passagiere
 payload=56
 length=12
+rolling_resistance=13
 
 weight=56
 cost=1930000
@@ -88,6 +90,7 @@ waytype=track
 freight=Passagiere
 payload=56
 length=12
+rolling_resistance=13
 
 weight=56
 cost=1930000
@@ -108,5 +111,3 @@ EmptyImage[W]=./images/br-185-middle-ftpe2.1.0
 EmptyImage[NW]=./images/br-185-middle-ftpe2.1.1
 EmptyImage[N]=./images/br-185-middle-ftpe2.1.2
 EmptyImage[NE]=./images/br-185-middle-ftpe2.1.3
-
----

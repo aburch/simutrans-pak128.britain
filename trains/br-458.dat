@@ -11,6 +11,7 @@ waytype=track
 freight=Passagiere
 payload=71
 length=11
+rolling_resistance=13
 
 weight=45
 cost=1057500
@@ -19,7 +20,6 @@ sound=-1
 
 loading_time=6300
 comfort=88
-
 
 Constraint[Prev][0]=BR-458(rear)
 Constraint[Prev][1]=none
@@ -50,12 +50,12 @@ waytype=track
 freight=Passagiere
 payload=63
 length=11
+rolling_resistance=13
 
 weight=40
 cost=1899100
 runningcost=43
 sound=-1
-
 
 Constraint[Prev][0]=BR-458(front)
 Constraint[Prev][1]=BR-458(centre1)
@@ -88,12 +88,12 @@ waytype=track
 freight=Passagiere
 payload=68
 length=11
+rolling_resistance=13
 
 weight=40
 cost=1899100
 runningcost=43
 sound=-1
-
 
 Constraint[Prev][0]=BR-458(centre1)
 Constraint[Prev][1]=BR-458(centre2)
@@ -126,13 +126,12 @@ waytype=track
 freight=Passagiere
 payload=20
 length=12
+rolling_resistance=13
 
 weight=45
 cost=1057500
 runningcost=126
 sound=-1
-
-
 
 Constraint[Prev][0]=BR-458(centre1)
 Constraint[Prev][1]=BR-458(centre2)

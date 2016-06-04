@@ -13,6 +13,7 @@ waytype=track
 freight=Passagiere
 payload=25
 length=11
+rolling_resistance=13
 
 weight=50
 cost=1057500
@@ -54,6 +55,7 @@ waytype=track
 freight=Passagiere
 payload=64
 length=11
+rolling_resistance=13
 
 weight=46
 cost=1899100
@@ -92,6 +94,7 @@ waytype=track
 freight=Passagiere
 payload=64
 length=11
+rolling_resistance=13
 
 weight=39
 cost=1899100
@@ -130,19 +133,17 @@ waytype=track
 freight=Passagiere
 payload=25
 length=11
+rolling_resistance=13
 
 weight=50
 cost=1057500
 runningcost=126
 sound=-1
 
-
-
 Constraint[Prev][0]=BR-332(centre2)
 Constraint[Prev][1]=BR-332(centre1)
 
 Constraint[Next][0]=BR-332(front)
-
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-332-rear-hex.1.4

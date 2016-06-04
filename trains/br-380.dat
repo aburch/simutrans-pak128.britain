@@ -11,6 +11,7 @@ waytype=track
 freight=Passagiere
 payload=59
 length=12
+rolling_resistance=13
 
 weight=45
 cost=1057500
@@ -49,6 +50,7 @@ waytype=track
 freight=Passagiere
 payload=73
 length=12
+rolling_resistance=13
 
 weight=40
 cost=1899100
@@ -84,6 +86,7 @@ waytype=track
 freight=Passagiere
 payload=73
 length=12
+rolling_resistance=13
 
 weight=40
 cost=1899100
@@ -118,6 +121,7 @@ waytype=track
 freight=Passagiere
 payload=59
 length=12
+rolling_resistance=13
 
 weight=45
 cost=1057500
@@ -128,7 +132,6 @@ Constraint[Prev][0]=BR-380(centre2)
 Constraint[Prev][1]=BR-380(centre1)
 
 Constraint[Next][0]=BR-380(front)
-
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-380-rear.1.4

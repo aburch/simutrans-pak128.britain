@@ -11,6 +11,7 @@ waytype=track
 freight=Passagiere
 payload=71
 length=11
+rolling_resistance=13
 
 weight=45
 cost=1057500
@@ -49,6 +50,7 @@ waytype=track
 freight=Passagiere
 payload=63
 length=11
+rolling_resistance=13
 
 weight=40
 cost=1899100
@@ -82,6 +84,7 @@ waytype=track
 freight=Passagiere
 payload=68
 length=11
+rolling_resistance=13
 
 weight=40
 cost=1899100
@@ -117,6 +120,7 @@ waytype=track
 freight=Passagiere
 payload=71
 length=11
+rolling_resistance=13
 
 weight=45
 cost=1057500
@@ -126,7 +130,6 @@ sound=-1
 Constraint[Prev][0]=BR-350(centre2)
 
 Constraint[Next][0]=BR-350(front)
-
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/br-350-rear-lm.1.4
