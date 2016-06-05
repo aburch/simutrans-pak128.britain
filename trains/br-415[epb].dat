@@ -88,6 +88,7 @@ EmptyImage[N][3]=./images/br-4epb-driving-motor-front-nse.1.2
 EmptyImage[NE][3]=./images/br-4epb-driving-motor-front-nse.1.3
 
 ---
+
 # This is the driving *trailer* for the 2EBP only.
 obj=vehicle
 name=BR-2EPB(rear)
@@ -175,6 +176,7 @@ EmptyImage[N][3]=./images/br-4epb-driving-trailer-nse.1.2
 EmptyImage[NE][3]=./images/br-4epb-driving-trailer-nse.1.3
 
 ---
+
 # This is the driving *motor* for the 4EBP only.
 obj=vehicle
 name=BR-4EPB(rear)
