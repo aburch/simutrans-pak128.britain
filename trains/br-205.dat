@@ -32,7 +32,8 @@ max_loading_time=43
 comfort=77
 
 Constraint[Prev][0]=BR-205Rear
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR-202-rear
+Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-205Rear
 Constraint[Next][1]=BR-205Middle
@@ -114,7 +115,8 @@ Constraint[Prev][0]=BR-205Front
 Constraint[Prev][1]=BR-205Middle
 
 Constraint[Next][0]=BR-205Front
-Constraint[Next][1]=none
+Constraint[Next][1]=BR-202-front
+Constraint[Next][2]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
