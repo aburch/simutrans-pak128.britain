@@ -1250,12 +1250,12 @@ livery[9][1] = LNER-Cornoation
 intro_year[9][1] = 1937
 intro_month[9][1] = 7
 
-livery_scheme[10] = GW-Franchise
+livery_scheme[10] = First-Group
 retire_year[10] = 2500
 retire_month[10] = 1
 livery[10][0] = GWT
-intro_year[10][0] = 1996
-intro_month[10][0] = 2
+intro_year[10][0] = 1995
+intro_month[10][0] = 12
 livery[10][1] = FGW-Green
 intro_year[10][1] = 1998
 intro_month[10][1] = 9
@@ -1265,6 +1265,9 @@ intro_month[10][2] = 4
 livery[10][3] = Firstgroup-Neon
 intro_year[10][3] = 2006
 intro_month[10][3] = 10
+livery[10][4] = Firstgroup-GWR
+intro_year[10][4] = 2015
+intro_month[10][4] = 9
 
 livery_scheme[11] = ECML-Franchise
 retire_year[11] = 2500
@@ -1335,6 +1338,9 @@ intro_month[16][2] = 3
 livery[16][3] = LUL
 intro_year[16][3] = 1990
 intro_month[16][3] = 5
+livery[16][4] = LOROL
+intro_year[16][4] = 2007
+intro_month[16][4] = 1
 
 livery_scheme[17] = Island-Line
 retire_year[17] = 2500
@@ -1358,6 +1364,7 @@ intro_month[18][1] = 1
 
 # Special generic livery for assorted
 # liveries of non-London 'buses
+# TODO: Replace this with specific livery schemes.
 livery_scheme[19] = Regional
 retire_year[19] = 2500
 retire_month[19] = 1
@@ -1771,3 +1778,141 @@ retire_month[50] = 1
 livery[50][0] = SECR-standard
 intro_year[50][0] = 1899
 intro_month[50][0] = 4
+
+livery_scheme[51] = Colas-Rail
+retire_year[51] = 2999
+retire_month[51] = 9
+livery[51][0] = Colas-Standard
+intro_year[51][0] = 2007
+intro_month[51][0] = 9
+
+livery_scheme[52] = Freightliner
+retire_year[52] = 2999
+retire_month[52] = 9
+livery[52][0] = Freightliner-early
+intro_year[52][0] = 1995
+intro_month[52][0] = 5
+livery[52][1] = Freightliner-green
+intro_year[52][1] = 1998
+intro_month[52][1] = 9
+
+# There are multiple DRS liveries, but it is very hard to find details of them. 
+livery_scheme[53] = DRS
+retire_year[53] = 2999
+retire_month[53] = 9
+livery[53][0] = DRS-Standard
+intro_year[53][0] = 1995
+intro_month[53][0] = 4
+
+livery_scheme[54] = Chiltern
+retire_year[54] = 2999
+retire_month[54] = 9
+livery[54][0] = Chiltern-Standard
+intro_year[54][0] = 1996
+intro_month[54][0] = 7
+livery[54][1] = Chiltern-Mainline
+intro_year[54][1] = 2011
+intro_month[54][1] = 9
+
+livery_scheme[55] = London-Midland
+retire_year[55] = 2999
+retire_month[55] = 9
+livery[55][0] = LM-Standard
+intro_year[55][0] = 2007
+intro_month[55][0] = 11
+
+livery_scheme[56] = Northern-Franchise
+retire_year[56] = 2999
+retire_month[56] = 9
+livery[56][0] = Northern-Spirit
+intro_year[56][0] = 1997
+intro_month[56][0] = 3
+livery[56][1] = Arriva-Trains-Northern
+intro_year[56][1] = 2001
+intro_month[56][1] = 4
+livery[56][2] = Northern-Rail
+intro_year[56][2] = 2004
+intro_month[56][2] = 12
+livery[56][3] = Northern
+intro_year[56][3] = 2016
+intro_month[56][3] = 4
+
+livery_scheme[56] = WYPTE
+retire_year[56] = 2999
+retire_month[56] = 9
+livery[56][0] = WYPTE-Green-Cream
+intro_year[56][0] = 1974
+intro_month[56][0] = 1
+livery[56][1] = WYPTE-Red-Cream
+# Date guessed
+intro_year[56][1] = 1983
+intro_month[56][1] = 4
+livery[56][2] = Yorkshire-Rider
+intro_year[56][2] = 1986
+intro_month[56][2] = 10
+livery[56][3] = WYPTE-Northern-Spirit
+intro_year[56][3] = 1997
+intro_month[56][3] = 3
+livery[56][4] = Northern-Metro
+intro_year[56][4] = 2008
+intro_month[56][4] = 5
+
+livery_scheme[57] = Strathclyde
+retire_year[57] = 2008
+retire_month[57] = 9
+livery[57][0] = Trans-Clyde
+intro_year[57][0] = 1972
+intro_month[57][0] = 1
+livery[57][1] = Strathclyde-orange-black
+intro_year[57][1] = 1983
+intro_month[57][1] = 3
+livery[57][2] = Strathclyde-carmine-cream
+intro_year[57][2] = 1996
+intro_month[57][2] = 6
+livery[57][3] = STP
+intro_year[57][3] = 2006
+intro_month[57][3] = 4
+
+livery_scheme[58] = Transport-Scotland
+retire_year[58] = 2999
+retire_month[58] = 9
+livery[58][0] = Saltire
+intro_year[58][0] = 2008
+intro_month[58][0] = 9
+
+livery_scheme[59] = WMPTE
+retire_year[59] = 2007
+retire_month[59] = 11
+livery[59][0] = WMPTE-blue-cream
+intro_year[59][0] = 1969
+intro_month[59][0] = 10
+livery[59][1] = WMT
+intro_year[59][1] = 1986
+intro_month[59][1] = 10
+livery[59][2] = Centro
+# Date guessed
+intro_year[59][2] = 1991
+intro_month[59][2] = 11
+livery[59][3] = Central-Trains
+intro_year[59][3] = 1997
+intro_month[59][3] = 3
+
+livery_scheme[60] = GMPTE
+retire_year[60] = 1997
+retire_month[60] = 3
+livery[60][0] = GMPTE-orange-white
+intro_year[60][0] = 1969
+intro_month[60][0] = 4
+livery[60][1] = GMPTE-black-red
+intro_year[60][1] = 1991
+intro_month[60][1] = 5
+
+livery_scheme[61] = Arriva
+retire_year[61] = 2999
+retire_month[61] = 12
+livery[61][0] = Arriva-original
+intro_year[61][0] = 1997
+intro_month[61][0] = 11
+livery[61][1] = Arriva-modified
+intro_year[61][1] = 2008
+intro_month[61][1] = 12
