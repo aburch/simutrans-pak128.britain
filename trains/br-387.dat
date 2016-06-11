@@ -37,14 +37,26 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-387Panto
 
-EmptyImage[E]=./images/br-387-front-gatex.1.4
-EmptyImage[SE]=./images/br-387-front-gatex.1.5
-EmptyImage[S]=./images/br-387-front-gatex.1.6
-EmptyImage[SW]=./images/br-387-front-gatex.1.7
-EmptyImage[W]=./images/br-387-front-gatex.1.0
-EmptyImage[NW]=./images/br-387-front-gatex.1.1
-EmptyImage[N]=./images/br-387-front-gatex.1.2
-EmptyImage[NE]=./images/br-387-front-gatex.1.3
+liverytype[0]=Southern
+liverytype[1]=GATEX
+
+EmptyImage[E][0]=./images/br-387-panto-orig.1.4
+EmptyImage[SE][0]=./images/br-387-panto-orig.1.5
+EmptyImage[S][0]=./images/br-387-panto-orig.1.6
+EmptyImage[SW][0]=./images/br-387-panto-orig.1.7
+EmptyImage[W][0]=./images/br-387-panto-orig.1.0
+EmptyImage[NW][0]=./images/br-387-panto-orig.1.1
+EmptyImage[N][0]=./images/br-387-panto-orig.1.2
+EmptyImage[NE][0]=./images/br-387-panto-orig.1.3
+
+EmptyImage[E][1]=./images/br-387-panto-gatex.1.4
+EmptyImage[SE][1]=./images/br-387-panto-gatex.1.5
+EmptyImage[S][1]=./images/br-387-panto-gatex.1.6
+EmptyImage[SW][1]=./images/br-387-panto-gatex.1.7
+EmptyImage[W][1]=./images/br-387-panto-gatex.1.0
+EmptyImage[NW][1]=./images/br-387-panto-gatex.1.1
+EmptyImage[N][1]=./images/br-387-panto-gatex.1.2
+EmptyImage[NE][1]=./images/br-387-panto-gatex.1.3
 
 ---
 
@@ -87,14 +99,26 @@ Constraint[Prev][2]=BR-387Panto
 Constraint[Next][0]=BR-387Front
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-387-rear-gatex.1.4
-EmptyImage[SE]=./images/br-387-rear-gatex.1.5
-EmptyImage[S]=./images/br-387-rear-gatex.1.6
-EmptyImage[SW]=./images/br-387-rear-gatex.1.7
-EmptyImage[W]=./images/br-387-rear-gatex.1.0
-EmptyImage[NW]=./images/br-387-rear-gatex.1.1
-EmptyImage[N]=./images/br-387-rear-gatex.1.2
-EmptyImage[NE]=./images/br-387-rear-gatex.1.3
+liverytype[0]=Southern
+liverytype[1]=GATEX
+
+EmptyImage[E][0]=./images/br-387-rear-orig.1.4
+EmptyImage[SE][0]=./images/br-387-rear-orig.1.5
+EmptyImage[S][0]=./images/br-387-rear-orig.1.6
+EmptyImage[SW][0]=./images/br-387-rear-orig.1.7
+EmptyImage[W][0]=./images/br-387-rear-orig.1.0
+EmptyImage[NW][0]=./images/br-387-rear-orig.1.1
+EmptyImage[N][0]=./images/br-387-rear-orig.1.2
+EmptyImage[NE][0]=./images/br-387-rear-orig.1.3
+
+EmptyImage[E][1]=./images/br-387-rear-gatex.1.4
+EmptyImage[SE][1]=./images/br-387-rear-gatex.1.5
+EmptyImage[S][1]=./images/br-387-rear-gatex.1.6
+EmptyImage[SW][1]=./images/br-387-rear-gatex.1.7
+EmptyImage[W][1]=./images/br-387-rear-gatex.1.0
+EmptyImage[NW][1]=./images/br-387-rear-gatex.1.1
+EmptyImage[N][1]=./images/br-387-rear-gatex.1.2
+EmptyImage[NE][1]=./images/br-387-rear-gatex.1.3
 
 ---
 
@@ -136,14 +160,26 @@ Constraint[Prev][1]=BR-387Middle
 Constraint[Next][0]=BR-387Rear
 Constraint[Next][1]=BR-387Middle
 
-EmptyImage[E]=./images/br-387-middle-gatex.1.4
-EmptyImage[SE]=./images/br-387-middle-gatex.1.5
-EmptyImage[S]=./images/br-387-middle-gatex.1.6
-EmptyImage[SW]=./images/br-387-middle-gatex.1.7
-EmptyImage[W]=./images/br-387-middle-gatex.1.0
-EmptyImage[NW]=./images/br-387-middle-gatex.1.1
-EmptyImage[N]=./images/br-387-middle-gatex.1.2
-EmptyImage[NE]=./images/br-387-middle-gatex.1.3
+liverytype[0]=Southern
+liverytype[1]=GATEX
+
+EmptyImage[E][0]=./images/br-387-middle-orig.1.4
+EmptyImage[SE][0]=./images/br-387-middle-orig.1.5
+EmptyImage[S][0]=./images/br-387-middle-orig.1.6
+EmptyImage[SW][0]=./images/br-387-middle-orig.1.7
+EmptyImage[W][0]=./images/br-387-middle-orig.1.0
+EmptyImage[NW][0]=./images/br-387-middle-orig.1.1
+EmptyImage[N][0]=./images/br-387-middle-orig.1.2
+EmptyImage[NE][0]=./images/br-387-middle-orig.1.3
+
+EmptyImage[E][1]=./images/br-387-middle-gatex.1.4
+EmptyImage[SE][1]=./images/br-387-middle-gatex.1.5
+EmptyImage[S][1]=./images/br-387-middle-gatex.1.6
+EmptyImage[SW][1]=./images/br-387-middle-gatex.1.7
+EmptyImage[W][1]=./images/br-387-middle-gatex.1.0
+EmptyImage[NW][1]=./images/br-387-middle-gatex.1.1
+EmptyImage[N][1]=./images/br-387-middle-gatex.1.2
+EmptyImage[NE][1]=./images/br-387-middle-gatex.1.3
 
 ---
 
@@ -184,11 +220,23 @@ Constraint[Prev][0]=BR-387Front
 Constraint[Next][0]=BR-387Rear
 Constraint[Next][1]=BR-387Middle
 
-EmptyImage[E]=./images/br-387-panto-gatex.1.4
-EmptyImage[SE]=./images/br-387-panto-gatex.1.5
-EmptyImage[S]=./images/br-387-panto-gatex.1.6
-EmptyImage[SW]=./images/br-387-panto-gatex.1.7
-EmptyImage[W]=./images/br-387-panto-gatex.1.0
-EmptyImage[NW]=./images/br-387-panto-gatex.1.1
-EmptyImage[N]=./images/br-387-panto-gatex.1.2
-EmptyImage[NE]=./images/br-387-panto-gatex.1.3
+liverytype[0]=Southern
+liverytype[1]=GATEX
+
+EmptyImage[E][0]=./images/br-387-panto-orig.1.4
+EmptyImage[SE][0]=./images/br-387-panto-orig.1.5
+EmptyImage[S][0]=./images/br-387-panto-orig.1.6
+EmptyImage[SW][0]=./images/br-387-panto-orig.1.7
+EmptyImage[W][0]=./images/br-387-panto-orig.1.0
+EmptyImage[NW][0]=./images/br-387-panto-orig.1.1
+EmptyImage[N][0]=./images/br-387-panto-orig.1.2
+EmptyImage[NE][0]=./images/br-387-panto-orig.1.3
+
+EmptyImage[E][1]=./images/br-387-panto-gatex.1.4
+EmptyImage[SE][1]=./images/br-387-panto-gatex.1.5
+EmptyImage[S][1]=./images/br-387-panto-gatex.1.6
+EmptyImage[SW][1]=./images/br-387-panto-gatex.1.7
+EmptyImage[W][1]=./images/br-387-panto-gatex.1.0
+EmptyImage[NW][1]=./images/br-387-panto-gatex.1.1
+EmptyImage[N][1]=./images/br-387-panto-gatex.1.2
+EmptyImage[NE][1]=./images/br-387-panto-gatex.1.3

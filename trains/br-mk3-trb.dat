@@ -135,7 +135,7 @@ EmptyImage[NW][9]=./images/br-mk3-trb-gc2_NW.0
 EmptyImage[N][9]=./images/br-mk3-trb-gc2_N.0
 EmptyImage[NE][9]=./images/br-mk3-trb-gc2_NE.0
 
------------------------------
+---
 
 obj=vehicle
 name=BR-Mk3a-TRB
@@ -181,6 +181,7 @@ liverytype[6]=GNER
 liverytype[7]=National-Express
 liverytype[8]=GC-Original
 liverytype[9]=GC-Daylight
+liverytype[10]=Chiltern-Mainline
 
 EmptyImage[E][0]=./images/br-mk3-trb-bg_E.0
 EmptyImage[SE][0]=./images/br-mk3-trb-bg_SE.0
@@ -271,6 +272,15 @@ EmptyImage[W][9]=./images/br-mk3-trb-gc2_W.0
 EmptyImage[NW][9]=./images/br-mk3-trb-gc2_NW.0
 EmptyImage[N][9]=./images/br-mk3-trb-gc2_N.0
 EmptyImage[NE][9]=./images/br-mk3-trb-gc2_NE.0
+
+EmptyImage[E][10]=./images/br-mk3-trb-chiltern.1.4
+EmptyImage[SE][10]=./images/br-mk3-trb-chiltern.1.5
+EmptyImage[S][10]=./images/br-mk3-trb-chiltern.1.6
+EmptyImage[SW][10]=./images/br-mk3-trb-chiltern.1.7
+EmptyImage[W][10]=./images/br-mk3-trb-chiltern.1.0
+EmptyImage[NW][10]=./images/br-mk3-trb-chiltern.1.1
+EmptyImage[N][10]=./images/br-mk3-trb-chiltern.1.2
+EmptyImage[NE][10]=./images/br-mk3-trb-chiltern.1.3
 
 ---
 
@@ -455,6 +465,7 @@ liverytype[6]=GNER
 liverytype[7]=National-Express
 liverytype[8]=GC-Original
 liverytype[9]=GC-Daylight
+liverytype[10]=Chiltern-Mainline
 
 EmptyImage[E][0]=./images/br-mk3-trfb-bg.1.0
 EmptyImage[SE][0]=./images/br-mk3-trfb-bg.1.1
@@ -546,3 +557,12 @@ EmptyImage[NW][9]=./images/br-mk3-trfb-gc2_NW.0
 EmptyImage[N][9]=./images/br-mk3-trfb-gc2_N.0
 EmptyImage[NE][9]=./images/br-mk3-trfb-gc2_NE.0
 
+# TODO: Produce proper TRFB graphics for this.
+EmptyImage[E][10]=./images/br-mk3-trb-chiltern.1.4
+EmptyImage[SE][10]=./images/br-mk3-trb-chiltern.1.5
+EmptyImage[S][10]=./images/br-mk3-trb-chiltern.1.6
+EmptyImage[SW][10]=./images/br-mk3-trb-chiltern.1.7
+EmptyImage[W][10]=./images/br-mk3-trb-chiltern.1.0
+EmptyImage[NW][10]=./images/br-mk3-trb-chiltern.1.1
+EmptyImage[N][10]=./images/br-mk3-trb-chiltern.1.2
+EmptyImage[NE][10]=./images/br-mk3-trb-chiltern.1.3

@@ -1969,6 +1969,35 @@ retire_month[66] = 1
 livery[66][0] = Midland-Mainline
 intro_year[66][0] = 1996
 intro_month[66][0] = 4
-livery[66][0] = East-Midlands-Trains
-intro_year[66][0] = 2007
-intro_month[66][0] = 11
+livery[66][1] = East-Midlands-Trains
+intro_year[66][1] = 2007
+intro_month[66][1] = 11
+
+livery_scheme[67] = South-Eastern
+retire_year[67] = 2999
+retire_month[67] = 1
+livery[67][0] = Connex-South-Eastern
+intro_year[67][0] = 1996
+intro_month[67][0] = 10
+livery[67][1] = South-Eastern-Trains
+intro_year[67][1] = 2003
+intro_month[67][1] = 11
+livery[67][2] = southeastern
+intro_year[67][2] = 2006
+intro_month[67][2] = 4
+
+livery_scheme[68] = Gatwick-Express
+retire_year[68] = 2999
+retire_month[68] = 1
+# This is put as a single livery on the basis that no one type of rolling stock has ever carried more than one type of Gatwick Express livery
+livery[68][0] = GATEX
+intro_year[68][0] = 1984
+intro_month[68][0] = 5
+
+livery_scheme[68] = Heathrow-Express
+retire_year[68] = 2999
+retire_month[68] = 1
+# Includes Heathrow Connect as no one vehicle operates both types of service.
+livery[68][0] = HEX
+intro_year[68][0] = 1998
+intro_month[68][0] = 6
