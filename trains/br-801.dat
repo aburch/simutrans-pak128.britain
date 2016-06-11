@@ -139,11 +139,11 @@ way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-801MiddlePower
 Constraint[Prev][1]=BR-801MiddleTrailer
-Constraint[Prev][3]=BR-801MiddleTrolley
+Constraint[Prev][2]=BR-801MiddleTrolley
 
 Constraint[Next][0]=BR-801MiddlePower
 Constraint[Next][1]=BR-801MiddleTrailer
-Constraint[Next][3]=BR-801MiddleTrolley
+Constraint[Next][2]=BR-801MiddleTrolley
 
 EmptyImage[E]=./images/br-801-middle-virgin.1.4
 EmptyImage[SE]=./images/br-801-middle-virgin.1.5
@@ -191,11 +191,11 @@ way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-801MiddlePower
 Constraint[Prev][1]=BR-801MiddleTrailer
-Constraint[Prev][3]=BR-801MiddleTrolley
+Constraint[Prev][2]=BR-801MiddleTrolley
 
 Constraint[Next][0]=BR-801MiddlePower
 Constraint[Next][1]=BR-801MiddleTrailer
-Constraint[Next][3]=BR-801MiddleTrolley
+Constraint[Next][2]=BR-801MiddleTrolley
 
 EmptyImage[E]=./images/br-801-middle-virgin.1.4
 EmptyImage[SE]=./images/br-801-middle-virgin.1.5

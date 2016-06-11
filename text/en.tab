@@ -2397,6 +2397,10 @@ BR-Class66
 BR Class 66
 BR-Class67
 BR Class 67
+BR-Class68
+BR Class 68 "Vossloh UKLight"
+BR-Class70
+BR Class 70 "Powerhaul"
 BR-Class71
 BR Class 71
 BR-Class73
@@ -2407,6 +2411,8 @@ BR-Class86
 BR Class 86
 BR-Class87
 BR Class 87
+BR-Class88
+BR Class 88 "Vossloh Euro Dual"
 BR-Class90
 BR Class 90
 BR-Class91
@@ -2993,20 +2999,62 @@ BR-170Middle
 BR Class 170 "Turbostar" DMU (centre)
 BR-170Rear
 BR Class 170 "Turbostar" DMU (rear)
+BR-172-0Front
+BR Class 172/0 "Turbostar" DMU
+BR-172-0Rear
+BR Class 172/0 "Turbostar" DMU (rear)
+BR-172-0Middle
+BR Class 172/0 "Turbostar" DMU (centre)
+BR-172-2Front
+BR Class 172/2 "Turbostar" DMU
+BR-172-2Rear
+BR Class 172/2 "Turbostar" DMU (rear)
+BR-172-2Middle
+BR Class 172/2 "Turbostar" DMU (centre)
+BR-139
+BR Class 139 "Parry People Mover" DMU
 BR-180Middle
-BR Class 180 "Adelante" (centre)
+BR Class 180 "Adelante" DMU (centre)
 BR-180Middle-Buffet
-BR Class 180 "Adelante" (buffet)
+BR Class 180 "Adelante" DMU (buffet)
 BR-180Rear
-BR Class 180 "Adelante" (rear)
+BR Class 180 "Adelante" DMU (rear)
+BR-175Front
+BR Class 175 "Coradia" DMU
+BR-175Rear
+BR Class 175 "Coradia" DMU (rear)
+BR-175Middle
+BR Class 175 "Coradia" DMU (centre)
+BR-175Middle-trolley
+BR Class 175 "Coradia" DMU (centre, with trolley service)
 BR-220Middle(Virgin)
 BR Class 220 "Voyager" (centre)
 BR-220Middle-shop(Virgin)
-BR Class 220 "Voyager" (middle with shop)
+BR Class 220 "Voyager" (centre with shop)
 BR-221Middle(Virgin)
 BR Class 221 "Super Voyager" (centre)
 BR-221Middle-shop(Virgin)
-BR Class 221 "Super Voyager" (middle with shop)
+BR Class 221 "Super Voyager" (centre with shop)
+BR-800Front
+BR Class 800 "Super Express"
+BR-800MiddlePower
+BR Class 800 "Super Express" (centre motor)
+BR-800MiddleTrailer
+BR Class 800 "Super Express" (centre trailer)
+BR-800MiddleTrolley
+BR Class 800 "Super Express" (centre trailer with trolley service)
+BR-800Rear
+BR Class 800 "Super Express" (rear)
+BR-801Front
+BR Class 801 "Super Express"
+BR-801MiddlePower
+BR Class 801 "Super Express" (centre motor)
+BR-801MiddleTrailer
+BR Class 801 "Super Express" (centre trailer)
+BR-801MiddleTrolley
+BR Class 801 "Super Express" (centre trailer with trolley service)
+BR-801Rear
+BR Class 801 "Super Express" (rear)
 BR-142Front(Regional)
 BR Class 142 "Pacer" DMU
 BR-142Rear(Regional)
@@ -3023,6 +3071,28 @@ BR-455-Trailer
 BR Class 455 EMU (trailer)
 BR-455-Driving-Rear
 BR Class 455 EMU (rear)
+BR-458(front)
+BR Class 458 "Juniper" EMU
+BR-458(centre1)
+BR Class 458 "Juniper" EMU (centre trailer)
+BR-458(centre2)
+BR Class 458 "Juniper" EMU (centre motor)
+BR-458(rear)
+BR Class 458 "Juniper" EMU (rear)
+BR-460(front)
+BR Class 460 "Juniper" EMU
+BR-460(centre1)
+BR Class 460 "Juniper" EMU (centre trailer)
+BR-460(centre2)
+BR Class 460 "Juniper" EMU (centre motor)
+BR-460(rear)
+BR Class 460 "Juniper" EMU (rear)
+BR-334Front
+BR Class 334 "Juniper" EMU
+BR-334Rear
+BR Class 334 "Juniper" EMU (centre motor)
+BR-334Middle
+BR Class 334 "Juniper" EMU (rear)
 BR-317-Driving-Front
 BR Class 317 EMU
 BR-317-Motor
@@ -3031,6 +3101,12 @@ BR-317-Trailer
 BR Class 317 EMU (trailer)
 BR-317-Driving-Rear
 BR Class 317 (rear)
+BR-323Front
+BR Class 323 EMU
+BR-323Rear
+BR Class 323 EMU (rear)
+BR-323Middle
+BR Class 323 EMU (centre)
 BR-365Front(NSE)
 BR Class 365 "Networker Express" EMU
 BR-365Middle(NSE)
@@ -3055,6 +3131,14 @@ BR-375-6Panto
 BR Class 375/6 "Electrostar" EMU (centre motor)
 BR-375-6Rear
 BR Class 375/6 "Electrostar" EMU (rear)
+BR-376Front
+BR Class 376 "Electrostar" EMU
+BR-376Rear
+BR Class 376 "Electrostar" EMU (rear)
+BR-376Middle
+BR Class 376 "Electrostar" EMU (centre trailer)
+BR-376MiddlePower
+BR Class 376 "Electrostar" EMU (centre motor)
 c2c-357(front)
 BR Class 357 "Electrostar" EMU
 c2c-357(centre1)
@@ -3063,6 +3147,68 @@ c2c-357(centre2)
 BR Class 357 "Electrostar" EMU (centre motor)
 c2c-357(rear)
 BR Class 357 "Electrostar" EMU (rear)
+BR-379Front
+BR Class 379 "Electrostar" EMU
+BR-379Middle
+BR Class 379 "Electrostar" EMU (centre trailer)
+BR-379Panto
+BR Class 379 "Electrostar" EMU (centre motor)
+BR-379Rear
+BR Class 379 "Electrostar" EMU (rear)
+BR-387Front
+BR Class 387 "Electrostar" EMU
+BR-387Rear
+BR Class 387 "Electrostar" EMU (rear)
+BR-387Middle
+BR Class 387 "Electrostar" EMU (centre motor)
+BR-387Panto
+BR Class 387 "Electrostar" EMU (pantograph car)
+BR-360(front)
+BR Class 360 "Desiro" EMU
+BR-360(centre1)
+BR Class 360 "Desiro" EMU (centre trailer)
+BR-360(centre2)
+BR Class 360 "Desiro" EMU (centre trailer)
+BR-360(rear)
+BR Class 360 "Desiro" EMU (rear)
+BR-380(front)
+BR Class 380 "Desiro" EMU 
+BR-380(centre1)
+BR Class 380 "Desiro" EMU (centre trailer)
+BR-380(centre2)
+BR Class 380 "Desiro" EMU (centre trailer)
+BR-380(rear)
+BR Class 380 "Desiro" EMU (rear)
+BR-185Front
+BR Class 185 "Desiro" DMU
+BR-185Rear
+BR Class 185 "Desiro" DMU (rear)
+BR-185Middle
+BR Class 185 "Desiro" DMU (centre)
+BR-385(front)
+BR Class 385 EMU
+BR-385(centre1)
+BR Class 385 EMU (centre trailer)
+BR-385(centre2)
+BR Class 385 EMU (centre trailer)
+BR-385(rear)
+BR Class 385 EMU (rear)
+BR-332(front)
+BR Class 332 EMU
+BR-332(centre1)
+*BR Class 332 EMU (centre trailer)
+R-332(centre2)
+BR Class 332 EMU (centre trailer)
+BR-332(rear)
+BR Class 332 EMU (rear)
+BR-333(front)
+BR Class 333 EMU
+BR-333(centre1)
+BR Class 333 EMU (centre trailer)
+BR-333(centre2)
+BR Class 333 EMU (centre trailer)
+BR-333(rear)
+BR Class 333 EMU (rear)
 BR-390FrontCab(Virgin)
 BR Class 390 "Pendolino"
 BR-390FrontCoach(Virgin)
@@ -3092,13 +3238,13 @@ BR Class 202 DEMU (buffet)
 BR-205Front
 BR Class 205 DEMU
 BR-205Middle
-BR Class 205 DEMU (centre)
+BR Class 205 DEMU (centre trailer)
 BR-205Rear
 BR Class 205 DEMU (rear)
 BR-210-DM
 BR Class 210 DEMU
 BR-210-TSO
-BR Class 210 DEMU (centre)
+BR Class 210 DEMU (centre trailer)
 BR-210-DTSOL
 BR Class 210 DEMU (rear)
 BR-414[HAP]Front
@@ -3118,21 +3264,71 @@ BR Class 415 "4-EPB" EMU (centre)
 BR-444(front)
 SWT Class 444 "Desiro" EMU
 BR-444(centre1)
-BR Class 444 "Desiro" EMU (centre)
+BR Class 444 "Desiro" EMU (centre trailer)
 BR-444(centre2)
-BR Class 444 "Desiro" EMU (centre)
+BR Class 444 "Desiro" EMU (centre trailer)
 BR-444(centre3)
-BR Class 444 "Desiro" EMU (centre)
+BR Class 444 "Desiro" EMU (centre trailer)
 BR-444(rear)
 BR Class 444 "Desiro" EMU (rear)
 BR-450(front)
 BR Class 450 "Desiro" EMU
 BR-450(centre1)
-BR Class 450 "Desiro" EMU (centre)
+BR Class 450 "Desiro" EMU (centre trailer)
 BR-450(centre2)
-BR Class 450 "Desiro" EMU (centre)
+BR Class 450 "Desiro" EMU (centre trailer)
 BR-450(rear)
 BR Class 450 "Desiro" EMU (rear)
+BR-350(front)
+BR Class 350 "Desiro" EMU
+BR-350(centre1)
+BR Class 350 "Desiro" EMU (centre trailer)
+BR-350(centre2)
+BR Class 350 "Desiro" EMU (centre trailer)
+BR-350(rear)
+BR Class 350 "Desiro" EMU (rear)
+BR-700Front
+BR Class 700 "Desiro City" EMU
+BR-700Rear
+BR Class 700 "Desiro City" EMU (rear)
+BR-700MiddlePower
+BR Class 700 "Desiro City" EMU (centre motor)
+BR-700MiddleTrailer
+BR Class 700 "Desiro City" EMU (centre trailer)
+BR-707Front
+BR Class 707 "Desiro City" EMU
+BR-707Rear
+BR Class 707 "Desiro City" EMU (rear)
+BR-707MiddlePower
+BR Class 707 "Desiro City" EMU (centre motor)
+BR-707MiddleTrailer
+BR Class 707 "Desiro City" EMU (centre trailer)
+BR-345Front
+BR Class 345 "Aventera" EMU
+BR-345Rear
+BR Class 345 "Aventera" EMU (rear)
+BR-345Middle
+BR Class 345 "Aventera" EMU (centre motor)
+BR-345Panto
+BR Class 345 "Aventera" EMU (pantograph car)
+BR-710Front
+BR Class 710 "Aventra" EMU
+BR-710Rear
+BR Class 710 "Aventra" EMU (rear)
+BR-710Middle
+BR Class 710 "Aventra" EMU (centre motor)
+BR-710Panto
+BR Class 710 "Aventra" EMU (pantograph car)
+BR-374(front)
+BR Class 374 "Eurostar e320"
+BR-374(panto)
+BR Class 374 "Eurostar e320" (pantograph car)
+BR-374(power)
+BR Class 374 "Eurostar e320" (centre motor)
+BR-374(buffet)
+BR Class 374 "Eurostar e320" (buffet)
+BR-374(rear)
+BR Class 374 "Eurostar e320" (rear)
 GWR-Gloucester-Railcar
 GWR Gloucester Railcar
 GWR-Autocoach
