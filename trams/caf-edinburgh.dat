@@ -5,6 +5,7 @@ name=CAF-Edinburgh-front
 engine_type=electric
 speed=70
 power=320
+gear=80
 tractive_effort=55
 copyright=James/jamespetts
 intro_year=2011
@@ -15,6 +16,7 @@ payload=13
 overcrowded_capacity=28
 length=4
 weight=10
+brake_force=13
 axles=3
 cost=620000
 runningcost=34
@@ -43,6 +45,7 @@ EmptyImage[N]=./images/caf-edinburgh-front.1.2
 EmptyImage[NE]=./images/caf-edinburgh-front.1.3
 
 ---
+
 obj=vehicle
 name=CAF-Edinburgh-middle1
 engine_type=electric
@@ -56,6 +59,7 @@ payload=13
 overcrowded_capacity=28
 length=4
 weight=8
+brake_force=11
 axles=3
 cost=620000
 runningcost=34
@@ -82,6 +86,7 @@ EmptyImage[N]=./images/caf-edinburgh-artic-front.1.2
 EmptyImage[NE]=./images/caf-edinburgh-artic-front.1.3
 
 ---
+
 obj=vehicle
 name=CAF-Edinburgh-middle2
 engine_type=electric
@@ -95,6 +100,7 @@ payload=13
 overcrowded_capacity=28
 length=4
 weight=8
+brake_force=11
 axles=3
 cost=620000
 runningcost=34
@@ -121,6 +127,7 @@ EmptyImage[N]=./images/caf-edinburgh-artic-rear.1.2
 EmptyImage[NE]=./images/caf-edinburgh-artic-rear.1.3
 
 ---
+
 obj=vehicle
 name=CAF-Edinburgh-panto
 engine_type=electric
@@ -134,6 +141,7 @@ payload=13
 overcrowded_capacity=28
 length=4
 weight=8
+brake_force=11
 axles=3
 cost=620000
 runningcost=34
@@ -160,7 +168,9 @@ EmptyImage[W]=./images/caf-edinburgh-artic-panto.1.0
 EmptyImage[NW]=./images/caf-edinburgh-artic-panto.1.1
 EmptyImage[N]=./images/caf-edinburgh-artic-panto.1.2
 EmptyImage[NE]=./images/caf-edinburgh-artic-panto.1.3
+
 ---
+
 obj=vehicle
 name=CAF-Edinburgh-bogie
 engine_type=electric
@@ -169,6 +179,7 @@ copyright=James/jamespetts
 intro_year=2011
 intro_month=1
 power=320
+gear=80
 tractive_effort=55
 waytype=tram_track
 freight=Passagiere
@@ -176,6 +187,7 @@ payload=13
 overcrowded_capacity=28
 length=2
 weight=6
+brake_force=8
 axles=3
 cost=620000
 runningcost=34
@@ -202,6 +214,7 @@ EmptyImage[W]=./images/caf-edinburgh-bogie.1.0
 EmptyImage[NW]=./images/caf-edinburgh-bogie.1.1
 EmptyImage[N]=./images/caf-edinburgh-bogie.1.2
 EmptyImage[NE]=./images/caf-edinburgh-bogie.1.3
+
 ---
 
 obj=vehicle
@@ -209,6 +222,7 @@ name=CAF-Edinburgh-rear
 engine_type=electric
 speed=70
 power=320
+gear=80
 tractive_effort=55
 copyright=James/jamespetts
 intro_year=2011
@@ -219,6 +233,7 @@ payload=13
 overcrowded_capacity=28
 length=4
 weight=10
+brake_force=13
 axles=3
 cost=0
 runningcost=0
@@ -244,6 +259,3 @@ EmptyImage[W]=./images/caf-edinburgh-rear.1.0
 EmptyImage[NW]=./images/caf-edinburgh-rear.1.1
 EmptyImage[N]=./images/caf-edinburgh-rear.1.2
 EmptyImage[NE]=./images/caf-edinburgh-rear.1.3
-
-
----

@@ -6,6 +6,7 @@ name=CAF-Urbos-3-front
 engine_type=electric
 speed=70
 power=160
+gear=80
 tractive_effort=58
 copyright=James/jamespetts
 intro_year=2014
@@ -15,6 +16,8 @@ freight=Passagiere
 payload=10
 length=4
 overcrowded_capacity=32
+brake_force=11
+
 weight=9
 axles=5
 cost=620000
@@ -42,6 +45,7 @@ EmptyImage[N]=./images/caf-urbos-3-front.1.2
 EmptyImage[NE]=./images/caf-urbos-3-front.1.3
 
 ---
+
 obj=vehicle
 name=CAF-Urbos-3-middle1
 engine_type=electric
@@ -54,6 +58,8 @@ freight=Passagiere
 payload=11
 length=4
 overcrowded_capacity=31
+brake_force=10
+
 weight=8
 axles=5
 cost=620000
@@ -81,6 +87,7 @@ EmptyImage[N]=./images/caf-urbos-3-middle.1.2
 EmptyImage[NE]=./images/caf-urbos-3-middle.1.3
 
 ---
+
 obj=vehicle
 name=CAF-Urbos-3-middle2
 engine_type=electric
@@ -93,6 +100,8 @@ freight=Passagiere
 payload=11
 length=4
 overcrowded_capacity=31
+brake_force=10
+
 weight=8
 axles=5
 cost=620000
@@ -121,6 +130,7 @@ EmptyImage[N]=./images/caf-urbos-3-middle.1.2
 EmptyImage[NE]=./images/caf-urbos-3-middle.1.3
 
 ---
+
 obj=vehicle
 name=CAF-Urbos-3-panto
 engine_type=electric
@@ -128,8 +138,9 @@ speed=70
 copyright=James/jamespetts
 intro_year=2014
 intro_month=4
-gear=300
+gear=80
 power=160
+gear=80
 tractive_effort=55
 waytype=tram_track
 freight=Passagiere
@@ -137,6 +148,7 @@ payload=11
 length=3
 overcrowded_capacity=31
 weight=6
+brake_force=8
 axles=5
 cost=620000
 runningcost=34
@@ -162,6 +174,7 @@ EmptyImage[W]=./images/caf-urbos-3-panto.1.0
 EmptyImage[NW]=./images/caf-urbos-3-panto.1.1
 EmptyImage[N]=./images/caf-urbos-3-panto.1.2
 EmptyImage[NE]=./images/caf-urbos-3-panto.1.3
+
 ---
 
 obj=vehicle
@@ -169,6 +182,7 @@ name=CAF-Urbos-3-rear
 engine_type=electric
 speed=70
 power=160
+gear=80
 tractive_effort=58
 copyright=James/jamespetts
 intro_year=2014
@@ -179,6 +193,7 @@ payload=10
 length=4
 overcrowded_capacity=32
 weight=9
+brake_force=11
 axles=5
 cost=0
 runningcost=0

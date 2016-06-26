@@ -2,7 +2,7 @@ obj=vehicle
 name=Sheffield-VosslohTramtrain(Front)
 engine_type=electric
 speed=110
-gear=300
+gear=80
 # https://en.wikipedia.org/wiki/British_Rail_Class_399
 power=554
 tractive_effort=55
@@ -88,7 +88,7 @@ EmptyImage[NE]=./images/sheffield-vossloh-tramtrain-middle.1.3
 obj=vehicle
 name=Sheffield-VosslohTramtrain(Rear)
 speed=110
-gear=300
+gear=80
 # https://en.wikipedia.org/wiki/British_Rail_Class_399
 power=554
 tractive_effort=55
