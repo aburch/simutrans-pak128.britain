@@ -2,20 +2,20 @@ obj=vehicle
 name=Metropolitan-Class-E
 engine_type=steam
 smoke=Steam
-speed=95
+speed=100
 # Extrapolated
-power=187
+power=230
 # Tractive effort from: http://www.brc-stockbook.co.uk/Met1.HTM
 tractive_effort=65
-copyright=James/jamespetts
-intro_year=1896
-intro_month=10
-retire_year=1901
+copyright=Kieron
+intro_year=1898
+intro_month=4
+retire_year=1924
 retire_month=12
 waytype=track
 freight=None
 payload=0
-length=7
+length=6
 
 weight=54
 axle_load=18
