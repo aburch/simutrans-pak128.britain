@@ -86,6 +86,10 @@ growthfactor_villages = 1165
 growthfactor_cities = 720
 growthfactor_capitals = 420
 
+# Enable this to use the old algorithm for city growth from Standard.
+# NOTE: The renovation_percentage in cityrules.tab should be increased if this be done.
+quick_city_growth = 0
+
 # Some passengers who are not able to find a route will be content to go to an alternative destination. 
 # This is set separately for visiting passengers and commuting passengers. It can either be set in
 # absolute figures using max_alternative_destinations_visiting and max_alternative_destinations_commuting,
