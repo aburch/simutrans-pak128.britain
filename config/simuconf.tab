@@ -362,7 +362,7 @@ passenger_max_wait = 19440
 # air a slower process at the boarding stage than transport by other means such as road
 # or rail. Setting this to 0 will make air transport behave like any other transport.
 
-min_wait_airport = 30
+min_wait_airport = 45
 
 # If this setting is set to 1, halts will have different capacities for each type of goods.
 seperate_halt_capacities = 1
