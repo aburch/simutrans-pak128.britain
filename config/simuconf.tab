@@ -2001,10 +2001,10 @@ livery[68][0] = GATEX
 intro_year[68][0] = 1984
 intro_month[68][0] = 5
 
-livery_scheme[68] = Heathrow-Express
-retire_year[68] = 2999
-retire_month[68] = 1
+livery_scheme[69] = Heathrow-Express
+retire_year[69] = 2999
+retire_month[69] = 1
 # Includes Heathrow Connect as no one vehicle operates both types of service.
-livery[68][0] = HEX
-intro_year[68][0] = 1998
-intro_month[68][0] = 6
+livery[69][0] = HEX
+intro_year[69][0] = 1998
+intro_month[69][0] = 6
