@@ -1748,13 +1748,33 @@ Vane auxilliary signal
 vane-signal-junction
 Vane choose signal
 sp-semaphore-stop
-Slotted post stop signal (with telegraph)
+Slotted post stop signal
 sp-semaphore-distant
-Slotted post distant signal (with telegraph)
+Slotted post distant signal
 sp-semaphore-junction
-Slotted post choose signal (with telegraph)
+Slotted post choose signal
 sp-semaphore-station
-Slotted post station signal (with telegraph)
+Slotted post station signal
+sp-semaphore-basic-stop
+Slotted post stop signal
+sp-semaphore-basic-distant
+Slotted post distant signal
+sp-semaphore-basic-junction
+Slotted post choose signal
+sp-semaphore-stop-narrow
+Slotted post stop signal
+sp-semaphore-distant-narrow
+Slotted post distant signal
+sp-semaphore-station-narrow
+Slotted post station signal
+sp-semaphore-junction-narrow
+Slotted post choose signal
+sp-semaphore-basic-stop-narrow
+Slotted post stop signal
+sp-semaphore-basic-distant-narrow
+Slotted post distant signal
+sp-semaphore-basic-junction-narrow
+Slotted post choose signal
 two-aspect-colour-light-stop-ib
 Intermediate block stop signal (colour light)
 two-aspect-colour-light-distant-ib

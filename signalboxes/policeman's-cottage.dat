@@ -54,7 +54,7 @@ employment_capacity=1
 mail_demand=1
 needs_ground=1
 
-signal_groups=11,12
+signal_groups=12
 # This cannot be too restrictive, as this needs to allow for mechanically operated repeaters.
 radius=1500
 capacity=6
