@@ -846,6 +846,15 @@ intercity_road_length = 320
 
 max_diversion_tiles = 16
 
+# Towns have speed limits. This value, expressed in km/h, is the speed limit
+# value for urban roads in the game.
+# Default: 50
+# Set to 0 to disable town speed limits (roads will have their base speed limits in towns).
+# This only applies to roads.
+# 48 km/h = 30mph
+
+town_road_speed_limit = 48
+
 ################################ Vehicle settings ##############################
 
 # These settings determine how vehicles take corners, for each individual type of way.  They
