@@ -621,10 +621,6 @@ cost_depot_road = 1000
 cost_depot_ship = 4000
 cost_depot_air  = 7500
 
-# other way related stuff
-cost_signal = 750
-cost_tunnel = 11000
-
 # other construction/destruction stuff
 # The following are adjusted by meters_per_tile:
 cost_alter_land=16000
