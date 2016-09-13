@@ -4170,7 +4170,7 @@ maintenance=1600
 aspects=3
 working_method=time_interval_with_telegraph
 max_speed=135
-has_selective_choose=0
+has_selective_choose=1
 has_call_on=0
 max_distance_to_signalbox=1250
 permissive=0
@@ -4188,16 +4188,26 @@ Image[0]=images/semaphore-slotted-post-station-danger.1.2,42,-2
 Image[1]=images/semaphore-slotted-post-station-danger.1.0,-37,12
 Image[2]=images/semaphore-slotted-post-station-danger.1.1,-7,-18
 Image[3]=images/semaphore-slotted-post-station-danger.1.3,10,27
-# CLEAR
-Image[4]=images/semaphore-slotted-post-station-clear.1.2,42,-2
-Image[5]=images/semaphore-slotted-post-station-clear.1.0,-37,12
-Image[6]=images/semaphore-slotted-post-station-clear.1.1,-7,-18
-Image[7]=images/semaphore-slotted-post-station-clear.1.3,10,27
-# CAUTION
-Image[8]=images/semaphore-slotted-post-station-caution.1.2,42,-2
-Image[9]=images/semaphore-slotted-post-station-caution.1.0,-37,12
-Image[10]=images/semaphore-slotted-post-station-caution.1.1,-7,-18
-Image[11]=images/semaphore-slotted-post-station-caution.1.3,10,27
+# CLEAR (inverse)
+Image[4]=images/semaphore-slotted-post-station-clear-inverse.1.2,42,-2
+Image[5]=images/semaphore-slotted-post-station-clear-inverse.1.0,-37,12
+Image[6]=images/semaphore-slotted-post-station-clear-inverse.1.1,-7,-18
+Image[7]=images/semaphore-slotted-post-station-clear-inverse.1.3,10,27
+# CAUTION (inverse)
+Image[8]=images/semaphore-slotted-post-station-caution-inverse.1.2,42,-2
+Image[9]=images/semaphore-slotted-post-station-caution-inverse.1.0,-37,12
+Image[10]=images/semaphore-slotted-post-station-caution-inverse.1.1,-7,-18
+Image[11]=images/semaphore-slotted-post-station-caution-inverse.1.3,10,27
+# CLEAR (obverse)
+Image[12]=images/semaphore-slotted-post-station-clear.1.2,42,-2
+Image[13]=images/semaphore-slotted-post-station-clear.1.0,-37,12
+Image[14]=images/semaphore-slotted-post-station-clear.1.1,-7,-18
+Image[15]=images/semaphore-slotted-post-station-clear.1.3,10,27
+# CAUTION (obverse)
+Image[16]=images/semaphore-slotted-post-station-caution.1.2,42,-2
+Image[17]=images/semaphore-slotted-post-station-caution.1.0,-37,12
+Image[18]=images/semaphore-slotted-post-station-caution.1.1,-7,-18
+Image[19]=images/semaphore-slotted-post-station-caution.1.3,10,27
 
 Icon=> images/semaphore-slotted-post-station-icon.1.1
 Cursor=images/semaphore-slotted-post-station-icon.1.0
@@ -4382,6 +4392,58 @@ Image[18]=images/semaphore-slotted-post-junction-caution-main.1.1,-7,-18
 Image[19]=images/semaphore-slotted-post-junction-caution-main.1.3,10,27
 Icon=> images/semaphore-slotted-post-junction-icon.1.1
 Cursor=images/semaphore-slotted-post-junction-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=sp-semaphore-station-basic
+waytype=track
+cost=2000
+maintenance=1600
+aspects=3
+working_method=time_interval
+max_speed=135
+has_selective_choose=1
+has_call_on=0
+max_distance_to_signalbox=800
+permissive=0
+signal_groups=11
+upgrade_group=14
+allow_underground=0
+is_signal=1
+is_longblocksignal=1
+intro_year=1848
+intro_month=12
+retire_year=1889
+retire_month=8
+
+# DANGER
+Image[0]=images/semaphore-slotted-post-station-danger.1.2,42,-2
+Image[1]=images/semaphore-slotted-post-station-danger.1.0,-37,12
+Image[2]=images/semaphore-slotted-post-station-danger.1.1,-7,-18
+Image[3]=images/semaphore-slotted-post-station-danger.1.3,10,27
+# CLEAR (inverse)
+Image[4]=images/semaphore-slotted-post-station-clear-inverse.1.2,42,-2
+Image[5]=images/semaphore-slotted-post-station-clear-inverse.1.0,-37,12
+Image[6]=images/semaphore-slotted-post-station-clear-inverse.1.1,-7,-18
+Image[7]=images/semaphore-slotted-post-station-clear-inverse.1.3,10,27
+# CAUTION (inverse)
+Image[8]=images/semaphore-slotted-post-station-caution-inverse.1.2,42,-2
+Image[9]=images/semaphore-slotted-post-station-caution-inverse.1.0,-37,12
+Image[10]=images/semaphore-slotted-post-station-caution-inverse.1.1,-7,-18
+Image[11]=images/semaphore-slotted-post-station-caution-inverse.1.3,10,27
+# CLEAR (obverse)
+Image[12]=images/semaphore-slotted-post-station-clear.1.2,42,-2
+Image[13]=images/semaphore-slotted-post-station-clear.1.0,-37,12
+Image[14]=images/semaphore-slotted-post-station-clear.1.1,-7,-18
+Image[15]=images/semaphore-slotted-post-station-clear.1.3,10,27
+# CAUTION (obverse)
+Image[16]=images/semaphore-slotted-post-station-caution.1.2,42,-2
+Image[17]=images/semaphore-slotted-post-station-caution.1.0,-37,12
+Image[18]=images/semaphore-slotted-post-station-caution.1.1,-7,-18
+Image[19]=images/semaphore-slotted-post-station-caution.1.3,10,27
+
+Icon=> images/semaphore-slotted-post-station-icon.1.1
+Cursor=images/semaphore-slotted-post-station-icon.1.0
 # NOTE: Token block and permissive signals not available in these early days.
 ---------------------------------------
 # VANE SIGNALS (1840s)

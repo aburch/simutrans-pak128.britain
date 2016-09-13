@@ -1761,6 +1761,8 @@ sp-semaphore-basic-distant
 Slotted post distant signal
 sp-semaphore-basic-junction
 Slotted post choose signal
+sp-semaphore-station-basic
+Slotted post station signal
 sp-semaphore-stop-narrow
 Slotted post stop signal
 sp-semaphore-distant-narrow
@@ -1775,6 +1777,8 @@ sp-semaphore-basic-distant-narrow
 Slotted post distant signal
 sp-semaphore-basic-junction-narrow
 Slotted post choose signal
+sp-semaphore-station-basic-narrow
+Slotted post station signal
 two-aspect-colour-light-stop-ib
 Intermediate block stop signal (colour light)
 two-aspect-colour-light-distant-ib
