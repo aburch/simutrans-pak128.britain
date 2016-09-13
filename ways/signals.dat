@@ -39,6 +39,7 @@
 # 19: Minimum speed sign, 121km/h
 # 20: Intermediate block stop signal
 # 21: Intermediate block distant signal
+# 22: Station signal, time interval
 ---------------------------------------
 # RETB BOARD
 #--------------------------------------
@@ -4407,7 +4408,7 @@ has_call_on=0
 max_distance_to_signalbox=800
 permissive=0
 signal_groups=11
-upgrade_group=14
+upgrade_group=22
 allow_underground=0
 is_signal=1
 is_longblocksignal=1
@@ -4449,7 +4450,10 @@ Cursor=images/semaphore-slotted-post-station-icon.1.0
 # VANE SIGNALS (1840s)
 #--------------------------------------
 # See http://gerald-massey.org.uk/Railway/c10_construction_%28IV%29.htm
-# for illustrations. The choose signal is entirely ficational.
+# for illustrations. The choose signal is based on the junction signal
+# at the Trent Valley Junction shown on that page. The station signal
+# is entirely fictional (inverse colour of main signal). 
+# Vane signals came in circa 1838: http://www.railsigns.uk/sect1page1/sect1page1.html
 obj=roadsign
 copyright=JamesPetts
 name=vane-signal-stop
@@ -4468,7 +4472,7 @@ signal_groups=11
 allow_underground=0
 upgrade_group=14
 is_signal=1
-intro_year=1840
+intro_year=1838
 intro_month=3
 retire_year=1848
 retire_month=12
@@ -4510,7 +4514,7 @@ allow_underground=0
 upgrade_group=16
 is_signal=1
 is_presignal=1
-intro_year=1840
+intro_year=1838
 intro_month=3
 retire_year=1848
 retire_month=12
@@ -4528,7 +4532,6 @@ Image[7]=images/vane-signal-aux-clear.1.3,10,27
 Icon=> images/signal-icons.8.2
 Cursor=images/signal-icons.8.3
 ---------------------------------------
-# Is there a source for more accurate graphics for a junction vane signal?
 obj=roadsign
 copyright=JamesPetts
 name=vane-signal-junction
@@ -4539,7 +4542,7 @@ maintenance=2000
 aspects=3
 working_method=time_interval
 max_speed=135
-has_selective_choose=0
+has_selective_choose=1
 has_call_on=0
 max_distance_to_signalbox=375
 permissive=0
@@ -4548,26 +4551,79 @@ allow_underground=0
 upgrade_group=15
 is_signal=1
 free_route=1
-intro_year=1840
+intro_year=1838
 intro_month=3
 retire_year=1848
 retire_month=12
 
 # DANGER
-Image[0]=images/vane-signal-choose-danger.1.2,42,-2
-Image[1]=images/vane-signal-choose-danger.1.0,-37,12
-Image[2]=images/vane-signal-choose-danger.1.1,-7,-18
-Image[3]=images/vane-signal-choose-danger.1.3,10,27
+Image[0]=images/vane-junction-signal-danger.1.2,42,-2
+Image[1]=images/vane-junction-signal-danger.1.0,-37,12
+Image[2]=images/vane-junction-signal-danger.1.1,-7,-18
+Image[3]=images/vane-junction-signal-danger.1.3,10,27
+# CLEAR (subsidiary route)
+Image[4]=images/vane-junction-signal-clear.1.2,42,-2
+Image[5]=images/vane-junction-signal-clear.1.0,-37,12
+Image[6]=images/vane-junction-signal-clear.1.1,-7,-18
+Image[7]=images/vane-junction-signal-clear.1.3,10,27
+# CAUTION (subsidiary route)
+Image[8]=images/vane-junction-signal-caution.1.2,42,-2
+Image[9]=images/vane-junction-signal-caution.1.0,-37,12
+Image[10]=images/vane-junction-signal-caution.1.1,-7,-18
+Image[11]=images/vane-junction-signal-caution.1.3,10,27
+# CLEAR (main route)
+Image[12]=images/vane-junction-signal-clear-main.1.2,42,-2
+Image[13]=images/vane-junction-signal-clear-main.1.0,-37,12
+Image[14]=images/vane-junction-signal-clear-main.1.1,-7,-18
+Image[15]=images/vane-junction-signal-clear-main.1.3,10,27
+# CAUTION (main route)
+Image[16]=images/vane-junction-signal-caution-main.1.2,42,-2
+Image[17]=images/vane-junction-signal-caution-main.1.0,-37,12
+Image[18]=images/vane-junction-signal-caution-main.1.1,-7,-18
+Image[19]=images/vane-junction-signal-caution-main.1.3,10,27
+
+Icon=> images/vane-junction-signal-icon.1.1
+Cursor=images/vane-junction-signal-icon.1.0
+---------------------------------------
+obj=roadsign
+copyright=JamesPetts
+name=vane-station-signal
+waytype=track
+cost=1600
+signal_upgrade_cost=800
+maintenance=1700
+aspects=3
+working_method=time_interval
+max_speed=135
+has_selective_choose=0
+has_call_on=0
+max_distance_to_signalbox=800
+permissive=0
+signal_groups=11
+upgrade_group=22
+allow_underground=0
+is_signal=1
+is_longblocksignal=1
+intro_year=1838
+intro_month=3
+retire_year=1848
+retire_month=12
+
+# DANGER
+Image[0]=images/vane-signal-station-danger.1.2,42,-2
+Image[1]=images/vane-signal-station-danger.1.0,-37,12
+Image[2]=images/vane-signal-station-danger.1.1,-7,-18
+Image[3]=images/vane-signal-station-danger.1.3,10,27
 # CLEAR
-Image[4]=images/vane-signal-choose-clear.1.2,42,-2
-Image[5]=images/vane-signal-choose-clear.1.0,-37,12
-Image[6]=images/vane-signal-choose-clear.1.1,-7,-18
-Image[7]=images/vane-signal-choose-clear.1.3,10,27
+Image[4]=images/vane-signal-station-clear.1.2,42,-2
+Image[5]=images/vane-signal-station-clear.1.0,-37,12
+Image[6]=images/vane-signal-station-clear.1.1,-7,-18
+Image[7]=images/vane-signal-station-clear.1.3,10,27
 # CAUTION	
-Image[8]=images/vane-signal-choose-caution.1.2,42,-2
-Image[9]=images/vane-signal-choose-caution.1.0,-37,12
-Image[10]=images/vane-signal-choose-caution.1.1,-7,-18
-Image[11]=images/vane-signal-choose-caution.1.3,10,27
+Image[8]=images/vane-signal-station-caution.1.2,42,-2
+Image[9]=images/vane-signal-station-caution.1.0,-37,12
+Image[10]=images/vane-signal-station-caution.1.1,-7,-18
+Image[11]=images/vane-signal-station-caution.1.3,10,27
 Icon=> images/signal-icons.8.4
 Cursor=images/signal-icons.8.5
 # NOTE: Token block and permissive signals not available in these early days.
@@ -4596,7 +4652,7 @@ upgrade_group=14
 is_signal=1
 intro_year=1825
 intro_month=1
-retire_year=1840
+retire_year=1838
 retire_month=3
 
 # DANGER
