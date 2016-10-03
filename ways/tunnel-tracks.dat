@@ -1,5 +1,8 @@
+# These have been deprecated (in the tunnels' .dat files) because they do 
+# not work well: tunnels lastmuch longer than ways, so players will be 
+# building out of date ways in their tunnels by default with these enabled.
+# Tunnel internal graphics should make this irrelevant eventually in any event.
 # This is based on wssr-early (data are the same)
-# TODO: Abolish this if and when tunnel internal images are implemented.
 Obj=way
 Name=severn-tunnel-track
 waytype=track

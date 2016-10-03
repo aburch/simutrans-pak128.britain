@@ -26,11 +26,16 @@ FrontImage[S][1]=rail-tunnel-stone-snow.0.3
 icon=> rail-tunnel-stone.1.3
 cursor=rail-tunnel-stone.1.2
 --------------------------------------
-Obj=tunnel
 Name=RailTunnelBrick
 copyright=James
 waytype=track
-way=brick_Faced_Tunnel_Track
+# Disable these: the system of having dedicated tunnel tracks works very badly in Experimental: 
+# the track to go into the tunnel should be the same sort of track as is available generally.
+# This should depend on the era, as the weight and speed limit will vary greatly with time.
+# Eventually, Experimental should be modified so as to allow tunnel interior graphics to be
+# separate from the underlying way.
+Obj=tunnel
+#way=brick_Faced_Tunnel_Track
 cost=2700000
 maintenance=4400
 topspeed=110
@@ -109,7 +114,8 @@ Obj=tunnel
 Name=severn-tunnel
 copyright=Jonny
 waytype=track
-way=severn-tunnel-track
+# Disabled for the reasons set out above
+# way=severn-tunnel-track
 cost=2250000
 maintenance=5250
 topspeed=120
@@ -137,7 +143,6 @@ BackImage[N][1]=images/severn-tunnel-portal-snow.1.1
 FrontImage[N][1]=images/severn-tunnel-portal-snow.0.1
 FrontImage[E][1]=images/severn-tunnel-portal-snow.0.2
 FrontImage[S][1]=images/severn-tunnel-portal-snow.0.3
-
 
 # Left images
 BackImage[Wl][0]=images/severn-tunnel-portal-left.1.0
@@ -307,7 +312,8 @@ Obj=tunnel
 Name=RailTunnelHighSpeed
 copyright=James
 waytype=track
-way=Channel_Tunnel_Track
+# Disabled for the reasons set out above
+# way=Channel_Tunnel_Track
 cost=4400000
 maintenance=7000
 # https://de.wikipedia.org/wiki/Schulwaldtunnel
