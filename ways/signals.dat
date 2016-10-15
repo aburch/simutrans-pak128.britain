@@ -18,6 +18,7 @@
 # See usefully here: http://www.modelrailforum.com/forums/index.php?showtopic=3052
 #
 # Upgrade groups:
+# 0: Not upgradeable
 # 1: Two aspect stop, track circuit block
 # 2: Two aspect distant, track circuit block
 # 3: Three aspect plain
@@ -40,6 +41,7 @@
 # 20: Intermediate block stop signal
 # 21: Intermediate block distant signal
 # 22: Station signal, time interval
+# 23: Auxilliary/distant signal, time interval
 ---------------------------------------
 # RETB BOARD
 #--------------------------------------
@@ -4103,6 +4105,7 @@ max_distance_to_signalbox=500
 permissive=0
 signal_groups=12
 allow_underground=0
+upgrade_group=0
 is_signal=1
 intro_year=1848
 intro_month=12
@@ -4142,6 +4145,7 @@ max_distance_to_signalbox=1250
 permissive=0
 signal_groups=12
 allow_underground=0
+upgrade_group=0
 is_signal=1
 is_presignal=1
 intro_year=1848
@@ -4177,6 +4181,7 @@ max_distance_to_signalbox=500
 permissive=0
 signal_groups=12
 allow_underground=0
+upgrade_group=0
 is_signal=1
 is_longblocksignal=1
 intro_year=1848
@@ -4228,6 +4233,7 @@ max_distance_to_signalbox=625
 permissive=0
 signal_groups=12
 allow_underground=0
+upgrade_group=0
 is_signal=1
 free_route=1
 intro_year=1848
@@ -4320,7 +4326,7 @@ has_call_on=0
 max_distance_to_signalbox=1250
 permissive=0
 signal_groups=11
-upgrade_group=14
+upgrade_group=23
 allow_underground=0
 is_signal=1
 is_presignal=1
@@ -4357,7 +4363,7 @@ has_call_on=0
 max_distance_to_signalbox=625
 permissive=0
 signal_groups=11
-upgrade_group=14
+upgrade_group=15
 allow_underground=0
 is_signal=1
 free_route=1
@@ -4511,7 +4517,7 @@ max_distance_to_signalbox=1125
 permissive=0
 signal_groups=11
 allow_underground=0
-upgrade_group=16
+upgrade_group=23
 is_signal=1
 is_presignal=1
 intro_year=1838
