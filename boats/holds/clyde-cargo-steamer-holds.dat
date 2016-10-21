@@ -15,6 +15,9 @@ retire_month=8
 min_loading_time=7200
 max_loading_time=10800
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 length=3
 
 Constraint[Prev][0]=ClydeCargoSteamerHull
@@ -66,6 +69,9 @@ retire_month=8
 # 2-3 hours
 min_loading_time=7200
 max_loading_time=10800
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 length=3
 
@@ -160,6 +166,9 @@ retire_month=8
 min_loading_time=7200
 max_loading_time=10800
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 length=3
 
 Constraint[Prev][0]=ClydeCargoSteamerHull
@@ -223,6 +232,9 @@ retire_month=8
 min_loading_time=7200
 max_loading_time=10800
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 length=3
 
 Constraint[Prev][0]=ClydeCargoSteamerHull
@@ -275,6 +287,9 @@ retire_month=8
 min_loading_time=7200
 max_loading_time=10800
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 length=3
 
 Constraint[Prev][0]=ClydeCargoSteamerHull
@@ -326,6 +341,9 @@ retire_month=8
 # 2-3 hours
 min_loading_time=7200
 max_loading_time=10800
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
 
 length=3
 
