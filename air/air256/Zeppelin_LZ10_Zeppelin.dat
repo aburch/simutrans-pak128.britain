@@ -13,7 +13,11 @@ freight=Passagiere
 #payload 7t
 payload=20
 # dead-weight = 45.520pound
-weight=21
+# The realistic weight does not work with contemporary grass runways/taxiways.
+# The dead-weight would have no effect on performance of a ligter than air vehicle
+# and is arguably not the correct figure to use anyway.
+#weight=21
+weight=5
 cost=15000000
 runningcost=800
 intro_year=1911

@@ -13,7 +13,11 @@ freight=Passagiere
 #payload 15t
 payload=20
 # dead-weight = 150.000lb
-weight=68
+# The realistic weight does not work with contemporary grass runways/taxiways.
+# The dead-weight would have no effect on performance of a ligter than air vehicle
+# and is arguably not the correct figure to use anyway.
+#weight=68
+weight=5
 # For landing pads
 axle_load=1
 cost=20000000
