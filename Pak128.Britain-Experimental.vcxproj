@@ -114,8 +114,13 @@
     <None Include="air\Boeing_727_100_DHL_Post.dat" />
     <None Include="air\Boeing_727_100_UPS_Cargo.dat" />
     <None Include="air\Bristol_Type170_Mk32_BUAF.dat" />
+    <None Include="air\Bristol_Type170_Mk32_Cargo.dat" />
+    <None Include="air\Bristol_Type170_Mk32_RoyalMail.dat" />
     <None Include="air\Douglas_DC3.dat" />
     <None Include="air\Douglas_DC3A.dat" />
+    <None Include="air\Douglas_DC4_BritishUnitedAirways.dat" />
+    <None Include="air\Douglas_DC4_C54_Cargo.dat" />
+    <None Include="air\Douglas_DC4_C54_Mail.dat" />
     <None Include="air\Douglas_DC6A_Cargo.dat" />
     <None Include="air\Douglas_DC6A_RoyalMail.dat" />
     <None Include="air\Douglas_DC6B_BritishEagleAirways.dat" />
@@ -132,7 +137,7 @@
     <None Include="air\Douglas_DC2.dat" />
     <None Include="air\Douglas_DC2_Mail.dat" />
     <None Include="air\MailMonoPlane.dat" />
-    <None Include="air\Vickers_Viking_VC1b.dat" />
+    <None Include="air\Vickers_VC1b_Viking_AirFerry.dat" />
     <None Include="air\Vickers_Viscount_757_Cambrian.dat" />
     <None Include="air\Vickers_Viscount_802_BEA.dat" />
     <None Include="attractions\library.dat" />

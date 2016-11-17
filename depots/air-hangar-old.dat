@@ -11,6 +11,9 @@ intro_month=8
 retire_year=1949
 retire_month=8
 allow_underground=0
+traction_type[0]=petrol
+# Deisel is necessary for some old airship engines
+traction_type[1]=diesel
 BackImage[1][0][0][0][0][0]=air-hangar-old.1.0
 FrontImage[1][0][0][0][0][0]=air-hangar-old.0.0
 BackImage[0][0][0][0][0][0]=air-hangar-old.1.1

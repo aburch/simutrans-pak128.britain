@@ -2,9 +2,12 @@ obj=vehicle
 name=ThornycroftAmazonTractor
 copyright=JamesPetts&JamesHood
 waytype=road
-engine_type=diesel
+# Note: a 61hp diesel was alao available:
+# https://hampshireculturaltrust.org.uk/content/amazon
+# Presumably, this would have lower running costs.
+engine_type=petrol
 smoke=Diesel
-power=75
+power=74
 tractive_effort=18
 gear=50
 speed=50

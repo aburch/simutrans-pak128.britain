@@ -3,7 +3,7 @@ obj=vehicle
 name=Boeing_707_420(BOAC)
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 # Cruising speed of the 707-420 is hard to find, so
 # using speed of the 707-320B for the time being.
 speed=890
