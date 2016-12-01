@@ -90,7 +90,7 @@ Constraint[Next][0]=met-bogie-push-pull-rear
 Constraint[Next][1]=met-bogie-push-pull-centre
 
 Constraint[Prev][0]=Metropolitan-C-Class
-Constraint[Prev][1]=Metropolitan-E-Class
+Constraint[Prev][1]=Metropolitan-Class-E
 Constraint[Prev][2]=BR-2MT-Tank-Push-Pull
 
 liverytype[0]=Metropolitan-Red
@@ -149,7 +149,7 @@ Constraint[Next][0]=none
 Constraint[Prev][0]=met-bogie-push-pull-front
 Constraint[Prev][1]=met-bogie-push-pull-centre
 Constraint[Prev][2]=Metropolitan-C-Class
-Constraint[Prev][3]=Metropolitan-E-Class
+Constraint[Prev][3]=Metropolitan-Class-E
 Constraint[Prev][4]=BR-2MT-Tank-Push-Pull
 
 liverytype[0]=Metropolitan-Red
