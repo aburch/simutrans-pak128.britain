@@ -155,6 +155,7 @@ $(DIRS256):
 
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"
+	@mkdir -p $(PAKDIR)
 	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
 
 clean:
