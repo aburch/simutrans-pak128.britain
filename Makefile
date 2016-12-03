@@ -155,13 +155,7 @@ $(DIRS256):
 
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"
-	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
-	@echo -e "Obj=ground\nName=Outside\ncopyright=$(VERSION_STRING)" >$@/outsiderev.dat
-	#@svnversion >>$@/outsiderev.dat
-	@echo -e "Image[0][0]=images/ls-water-outside-128.0.0\n-" >>$@/outsiderev.dat
-	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/outsiderev.dat > /dev/null
-	@rm $@/outsiderev.dat
+	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
 
 clean:
 	@echo "===> CLEAN"
