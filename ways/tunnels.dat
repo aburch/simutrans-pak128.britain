@@ -29,13 +29,7 @@ cursor=rail-tunnel-stone.1.2
 Name=RailTunnelBrick
 copyright=James
 waytype=track
-# Disable these: the system of having dedicated tunnel tracks works very badly in Experimental: 
-# the track to go into the tunnel should be the same sort of track as is available generally.
-# This should depend on the era, as the weight and speed limit will vary greatly with time.
-# Eventually, Experimental should be modified so as to allow tunnel interior graphics to be
-# separate from the underlying way.
 Obj=tunnel
-#way=brick_Faced_Tunnel_Track
 cost=2700000
 maintenance=4400
 topspeed=110
@@ -45,7 +39,7 @@ intro_month=9
 retire_year=1959
 retire_month=5
 
-# Normal images
+# Portal images
 BackImage[W][0]=images/brick-face-tunnel-portal.1.0
 FrontImage[W][0]=images/brick-face-tunnel-portal.0.0
 BackImage[N][0]=images/brick-face-tunnel-portal.1.1
@@ -105,6 +99,34 @@ BackImage[Nr][1]=images/brick-face-tunnel-portal-right-snow.1.1
 FrontImage[Nr][1]=images/brick-face-tunnel-portal-right-snow.0.1
 FrontImage[Er][1]=images/brick-face-tunnel-portal-right-snow.0.2
 FrontImage[Sr][1]=images/brick-face-tunnel-portal-right-snow.0.3
+
+# Underground images (no snow necessary)
+undergroundimage[-]=./images/brick-face-tunnel-notrack.1.2
+undergroundimage[N]=./images/brick-face-tunnel-notrack.1.5
+undergroundimage[S]=./images/brick-face-tunnel-notrack.2.1
+undergroundimage[E]=./images/brick-face-tunnel-notrack.2.2
+undergroundimage[W]=./images/brick-face-tunnel-notrack.2.0
+undergroundimage[NS]=./images/brick-face-tunnel-notrack.1.0
+undergroundimage[EW]=./images/brick-face-tunnel-notrack.1.1
+undergroundimage[NSE]=./images/brick-face-tunnel-notrack.0.2
+undergroundimage[NSW]=./images/brick-face-tunnel-notrack.0.4
+undergroundimage[NEW]=./images/brick-face-tunnel-notrack.0.1
+undergroundimage[SEW]=./images/brick-face-tunnel-notrack.0.3
+undergroundimage[NSEW]=./images/brick-face-tunnel-notrack.1.2
+undergroundimage[NE]=./images/brick-face-tunnel-notrack.3.0
+undergroundimage[SE]=./images/brick-face-tunnel-notrack.2.3
+undergroundimage[NW]=./images/brick-face-tunnel-notrack.2.4
+undergroundimage[SW]=./images/brick-face-tunnel-notrack.2.5
+
+undergroundimageup2[3]=./images/brick-face-tunnel-notrack.1.3
+undergroundimageup2[6]=./images/brick-face-tunnel-notrack.1.4
+undergroundimageup2[9]=./images/brick-face-tunnel-notrack.0.0
+undergroundimageup2[12]=./images/brick-face-tunnel-notrack.0.5
+
+undergroundimageup[3]=./images/brick-face-tunnel-notrack.4.2
+undergroundimageup[6]=./images/brick-face-tunnel-notrack.4.3
+undergroundimageup[9]=./images/brick-face-tunnel-notrack.4.0
+undergroundimageup[12]=./images/brick-face-tunnel-notrack.4.1
 
 icon=> images/brick-face-tunnel-portal.2.1
 cursor=images/brick-face-tunnel-portal.2.0
