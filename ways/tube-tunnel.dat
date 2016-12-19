@@ -2,7 +2,6 @@ Obj=tunnel
 Name=LT_Tunnel
 copyright=James
 waytype=track
-way=LT_Tunnel_Track
 cost=775000
 maintenance=2750
 topspeed=70
@@ -12,7 +11,8 @@ intro_month=11
 retire_year=1968
 retire_month=1
 way_constraint_prohibitive[1]=1
-# Normal images
+
+# Portal images (single)
 BackImage[W][0]=tube-tunnel-brick.1.0
 FrontImage[W][0]=tube-tunnel-brick.0.0
 BackImage[N][0]=tube-tunnel-brick.1.1
@@ -25,9 +25,40 @@ BackImage[N][1]=tube-tunnel-brick-snow.1.1
 FrontImage[N][1]=tube-tunnel-brick-snow.0.1
 FrontImage[E][1]=tube-tunnel-brick-snow.0.2
 FrontImage[S][1]=tube-tunnel-brick-snow.0.3
+
+# Underground images
+UndergroundImage[-]=./images/tube-tunnel-notrack.1.2
+UndergroundImage[N]=./images/tube-tunnel-notrack.1.0
+UndergroundImage[S]=./images/tube-tunnel-notrack.1.0
+UndergroundImage[E]=./images/tube-tunnel-notrack.1.1
+UndergroundImage[W]=./images/tube-tunnel-notrack.1.1
+UndergroundImage[NS]=./images/tube-tunnel-notrack.1.0
+UndergroundImage[EW]=./images/tube-tunnel-notrack.1.1
+UndergroundImage[NSE]=./images/tube-tunnel-notrack.0.2
+UndergroundImage[NSW]=./images/tube-tunnel-notrack.0.4
+UndergroundImage[NEW]=./images/tube-tunnel-notrack.0.1
+UndergroundImage[SEW]=./images/tube-tunnel-notrack.0.3
+UndergroundImage[NSEW]=./images/tube-tunnel-notrack.1.2
+UndergroundImage[NE]=./images/tube-tunnel-notrack.3.0
+UndergroundImage[SE]=./images/tube-tunnel-notrack.2.3
+UndergroundImage[NW]=./images/tube-tunnel-notrack.2.4
+UndergroundImage[SW]=./images/tube-tunnel-notrack.2.5
+
+UndergroundImageUp[3]=./images/tube-tunnel-notrack.4.2
+UndergroundImageUp[6]=./images/tube-tunnel-notrack.4.3
+UndergroundImageUp[9]=./images/tube-tunnel-notrack.4.0
+UndergroundImageUp[12]=./images/tube-tunnel-notrack.4.1
+
+UndergroundImageUp2[3]=./images/tube-tunnel-notrack.1.3
+UndergroundImageUp2[6]=./images/tube-tunnel-notrack.1.4
+UndergroundImageUp2[9]=./images/tube-tunnel-notrack.0.0
+UndergroundImageUp2[12]=./images/tube-tunnel-notrack.0.5
+
 icon=> tube-tunnel-brick.1.3
 cursor=tube-tunnel-brick.1.2
+
 -------------------------------
+
 Obj=tunnel
 Name=LT_Tunnel_Fast
 copyright=James
@@ -40,7 +71,8 @@ max_weight=17
 intro_year=1965
 intro_month=8
 way_constraint_prohibitive[1]=1
-# Normal images
+
+# Portal images (single)
 BackImage[W][0]=tube-tunnel-concrete.1.0
 FrontImage[W][0]=tube-tunnel-concrete.0.0
 BackImage[N][0]=tube-tunnel-concrete.1.1
@@ -53,96 +85,34 @@ BackImage[N][1]=tube-tunnel-concrete-snow.1.1
 FrontImage[N][1]=tube-tunnel-concrete-snow.0.1
 FrontImage[E][1]=tube-tunnel-concrete-snow.0.2
 FrontImage[S][1]=tube-tunnel-concrete-snow.0.3
+
+# Underground images
+UndergroundImage[-]=./images/tube-tunnel-notrack-fast.1.2
+UndergroundImage[N]=./images/tube-tunnel-notrack-fast.1.0
+UndergroundImage[S]=./images/tube-tunnel-notrack-fast.1.0
+UndergroundImage[E]=./images/tube-tunnel-notrack-fast.1.1
+UndergroundImage[W]=./images/tube-tunnel-notrack-fast.1.1
+UndergroundImage[NS]=./images/tube-tunnel-notrack-fast.1.0
+UndergroundImage[EW]=./images/tube-tunnel-notrack-fast.1.1
+UndergroundImage[NSE]=./images/tube-tunnel-notrack-fast.0.2
+UndergroundImage[NSW]=./images/tube-tunnel-notrack-fast.0.4
+UndergroundImage[NEW]=./images/tube-tunnel-notrack-fast.0.1
+UndergroundImage[SEW]=./images/tube-tunnel-notrack-fast.0.3
+UndergroundImage[NSEW]=./images/tube-tunnel-notrack-fast.1.2
+UndergroundImage[NE]=./images/tube-tunnel-notrack-fast.3.0
+UndergroundImage[SE]=./images/tube-tunnel-notrack-fast.2.3
+UndergroundImage[NW]=./images/tube-tunnel-notrack-fast.2.4
+UndergroundImage[SW]=./images/tube-tunnel-notrack-fast.2.5
+
+UndergroundImageUp[3]=./images/tube-tunnel-notrack-fast.4.2
+UndergroundImageUp[6]=./images/tube-tunnel-notrack-fast.4.3
+UndergroundImageUp[9]=./images/tube-tunnel-notrack-fast.4.0
+UndergroundImageUp[12]=./images/tube-tunnel-notrack-fast.4.1
+
+UndergroundImageUp2[3]=./images/tube-tunnel-notrack-fast.1.3
+UndergroundImageUp2[6]=./images/tube-tunnel-notrack-fast.1.4
+UndergroundImageUp2[9]=./images/tube-tunnel-notrack-fast.0.0
+UndergroundImageUp2[12]=./images/tube-tunnel-notrack-fast.0.5
+
 icon=> tube-tunnel-concrete.1.3
 cursor=tube-tunnel-concrete.1.2
--------------------------------
-Obj=way
-Name=LT_Tunnel_Track
-waytype=track
-copyright=TimothyBaldock&KieronGreen&James
-cost=75000
-maintenance=500
-topspeed=155
-max_weight=19
-intro_year=1890
-intro_month=11
-# Late retirement date as this was the standard used by the Underground: 
-# see http://www.trainweb.org/tubeprune/Surrey%20Quays%20Track.htm
-retire_year=1990
-retire_month=7
-wear_capacity=3088800000
-# 95lb/yard
-
-way_constraint_prohibitive[1]=1
-system_type=64
-icon=> ./images/tube-tunnel-track.3.4
-cursor=./images/tube-tunnel-track.3.5
-Image[-][0]=./images/tube-tunnel-track.1.2
-Image[N][0]=./images/tube-tunnel-track.1.5
-Image[S][0]=./images/tube-tunnel-track.2.1
-Image[E][0]=./images/tube-tunnel-track.2.2
-Image[W][0]=./images/tube-tunnel-track.2.0
-Image[NS][0]=./images/tube-tunnel-track.1.0
-Image[EW][0]=./images/tube-tunnel-track.1.1
-Image[NSE][0]=./images/tube-tunnel-track.0.2
-Image[NSW][0]=./images/tube-tunnel-track.0.4
-Image[NEW][0]=./images/tube-tunnel-track.0.1
-Image[SEW][0]=./images/tube-tunnel-track.0.3
-Image[NSEW][0]=./images/tube-tunnel-track.1.2
-Image[NE][0]=./images/tube-tunnel-track.3.0
-Image[SE][0]=./images/tube-tunnel-track.2.3
-Image[NW][0]=./images/tube-tunnel-track.2.4
-Image[SW][0]=./images/tube-tunnel-track.2.5
-
-ImageUp[3][0]=./images/tube-tunnel-track.4.2
-ImageUp[6][0]=./images/tube-tunnel-track.4.3
-ImageUp[9][0]=./images/tube-tunnel-track.4.0
-ImageUp[12][0]=./images/tube-tunnel-track.4.1
-
-ImageUp2[3][0]=./images/tube-tunnel-track.1.3
-ImageUp2[6][0]=./images/tube-tunnel-track.1.4
-ImageUp2[9][0]=./images/tube-tunnel-track.0.0
-ImageUp2[12][0]=./images/tube-tunnel-track.0.5
--------------------------------
-Obj=way
-Name=LT_Tunnel_Track_Fast
-waytype=track
-copyright=TimothyBaldock&KieronGreen&James
-cost=140000
-maintenance=375
-topspeed=160
-max_weight=22
-intro_year=1968
-intro_month=3
-# 110lb/yard
-wear_capacity=3840000000
-
-way_constraint_prohibitive[1]=1
-system_type=64
-icon=> ./images/tube-tunnel-track-fast.3.4
-cursor=./images/tube-tunnel-track-fast.3.5
-Image[-][0]=./images/tube-tunnel-track-fast.1.2
-Image[N][0]=./images/tube-tunnel-track-fast.1.5
-Image[S][0]=./images/tube-tunnel-track-fast.2.1
-Image[E][0]=./images/tube-tunnel-track-fast.2.2
-Image[W][0]=./images/tube-tunnel-track-fast.2.0
-Image[NS][0]=./images/tube-tunnel-track-fast.1.0
-Image[EW][0]=./images/tube-tunnel-track-fast.1.1
-Image[NSE][0]=./images/tube-tunnel-track-fast.0.2
-Image[NSW][0]=./images/tube-tunnel-track-fast.0.4
-Image[NEW][0]=./images/tube-tunnel-track-fast.0.1
-Image[SEW][0]=./images/tube-tunnel-track-fast.0.3
-Image[NSEW][0]=./images/tube-tunnel-track-fast.1.2
-Image[NE][0]=./images/tube-tunnel-track-fast.3.0
-Image[SE][0]=./images/tube-tunnel-track-fast.2.3
-Image[NW][0]=./images/tube-tunnel-track-fast.2.4
-Image[SW][0]=./images/tube-tunnel-track-fast.2.5
-ImageUp[3][0]=./images/tube-tunnel-track-fast.4.2
-ImageUp[6][0]=./images/tube-tunnel-track-fast.4.3
-ImageUp[9][0]=./images/tube-tunnel-track-fast.4.0
-ImageUp[12][0]=./images/tube-tunnel-track-fast.4.1
-ImageUp2[3][0]=./images/tube-tunnel-track-fast.1.3
-ImageUp2[6][0]=./images/tube-tunnel-track-fast.1.4
-ImageUp2[9][0]=./images/tube-tunnel-track-fast.0.0
-ImageUp2[12][0]=./images/tube-tunnel-track-fast.0.5
--------------------------------
