@@ -145,8 +145,37 @@ menupos=-10
 cursor=way-power_lines-128.0.1
 icon=> way-power_lines-128.0.5
 
+# Portal images
 FrontImage[N]=way-power_lines-128.6.4
 FrontImage[S]=way-power_lines-128.6.6
 FrontImage[E]=way-power_lines-128.6.5
 FrontImage[W]=way-power_lines-128.6.7
+
+# Underground images
+UndergroundImage[-]=./images/brick-face-tunnel-notrack.1.2
+UndergroundImage[N]=./images/brick-face-tunnel-notrack.1.5
+UndergroundImage[S]=./images/brick-face-tunnel-notrack.2.1
+UndergroundImage[E]=./images/brick-face-tunnel-notrack.2.2
+UndergroundImage[W]=./images/brick-face-tunnel-notrack.2.0
+UndergroundImage[NS]=./images/brick-face-tunnel-notrack.1.0
+UndergroundImage[EW]=./images/brick-face-tunnel-notrack.1.1
+UndergroundImage[NSE]=./images/brick-face-tunnel-notrack.0.2
+UndergroundImage[NSW]=./images/brick-face-tunnel-notrack.0.4
+UndergroundImage[NEW]=./images/brick-face-tunnel-notrack.0.1
+UndergroundImage[SEW]=./images/brick-face-tunnel-notrack.0.3
+UndergroundImage[NSEW]=./images/brick-face-tunnel-notrack.1.2
+UndergroundImage[NE]=./images/brick-face-tunnel-notrack.3.0
+UndergroundImage[SE]=./images/brick-face-tunnel-notrack.2.3
+UndergroundImage[NW]=./images/brick-face-tunnel-notrack.2.4
+UndergroundImage[SW]=./images/brick-face-tunnel-notrack.2.5
+
+UndergroundImageUp[3]=./images/brick-face-tunnel-notrack.4.2
+UndergroundImageUp[6]=./images/brick-face-tunnel-notrack.4.3
+UndergroundImageUp[9]=./images/brick-face-tunnel-notrack.4.0
+UndergroundImageUp[12]=./images/brick-face-tunnel-notrack.4.1
+
+UndergroundImageUp2[3]=./images/brick-face-tunnel-notrack.1.3
+UndergroundImageUp2[6]=./images/brick-face-tunnel-notrack.1.4
+UndergroundImageUp2[9]=./images/brick-face-tunnel-notrack.0.0
+UndergroundImageUp2[12]=./images/brick-face-tunnel-notrack.0.5
 ---------------------------------------
