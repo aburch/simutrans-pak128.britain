@@ -39,7 +39,7 @@ Constraint[Next][0]=LUL_R_StockMiddle
 Constraint[Next][1]=LUL_R_StockRearDM
 
 liverytype[0]=LT
-liverytype[1]=LT-alu
+liverytype[1]=LT-revised
 
 EmptyImage[E][0]=./images/lul-op-stock-front.1.4
 EmptyImage[SE][0]=./images/lul-op-stock-front.1.5
@@ -97,7 +97,7 @@ Constraint[Next][0]=LUL_R_StockRearDM
 Constraint[Next][1]=LUL_R_StockMiddle
 
 liverytype[0]=LT
-liverytype[1]=LT-alu
+liverytype[1]=LT-revised
 
 EmptyImage[E][0]=./images/lul-op-stock-middle.1.4
 EmptyImage[SE][0]=./images/lul-op-stock-middle.1.5
@@ -155,7 +155,7 @@ Constraint[Next][0]=LUL_R_StockFrontDM
 Constraint[Next][1]=none
 
 liverytype[0]=LT
-liverytype[1]=LT-alu
+liverytype[1]=LT-revised
 
 EmptyImage[E][0]=./images/lul-op-stock-rear.1.4
 EmptyImage[SE][0]=./images/lul-op-stock-rear.1.5

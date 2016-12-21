@@ -1340,8 +1340,8 @@ intro_month[16][0] = 1
 livery[16][1] = LT
 intro_year[16][1] = 1933
 intro_month[16][1] = 1
-# This is used only for the R stock.
-livery[16][2] = LT-alu
+# This is for the R-stock and all over red 'buses
+livery[16][2] = LT-revised
 intro_year[16][2] = 1952
 intro_month[16][2] = 3
 livery[16][3] = LUL
