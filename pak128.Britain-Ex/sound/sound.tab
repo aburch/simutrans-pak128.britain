@@ -1,0 +1,35 @@
+# 0..8 standard (old) game sounds
+sound[0]=engine-start-diesel-1.wav
+sound[1]=engine-start-diesel_d.wav
+sound[2]=engine-start-diesel_d.wav
+sound[3]=train-horn-diesel-0.wav
+sound[4]=train-horn-steam-0.wav
+
+# hardcoded game sounds
+# do not alter these numbers!
+#cash
+sound[15]=cash.wav
+# remover sound
+sound[14]=explosion.wav
+# - construction on water
+sound[13]=dock.wav
+# - metal construction gets built
+sound[12]=gavel.wav
+# - stone/concrete construction gets built
+sound[11]=jackhammer.wav
+# - tool failed
+sound[10]=boing.wav
+# - tool selection
+sound[9]=click.wav
+
+
+#other used sounds do not need to be here
+#
+# For reference: the following "climate" sounds will be used by the program automatically
+# (hard-coded in besch/grund_besch.cc in climate_names)
+# "Water", "desert", "tropic", "mediterran", "temperate", "tundra", "rocky", "arctic"
+#
+# (Yes, this has inconsistent capitalization and some misspellings.)
+# In addition, the following are hardcoded in besch/sound_besch.cc:
+# "forest", "beaches"
+

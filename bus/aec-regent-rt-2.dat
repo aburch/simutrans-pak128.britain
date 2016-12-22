@@ -29,7 +29,7 @@ Constraint[Next][0]=none
 
 liverytype[0]=LT
 liverytype[1]=LT-revised
-liverytype[2]=LT-Green-revised
+liverytype[2]=LT-Green-modified
 
 EmptyImage[E][0]=./images/aec-regent-2rt-lt-red-white.1.4,-33,14
 EmptyImage[SE][0]=./images/aec-regent-2rt-lt-red-white.1.5,-13,0
@@ -57,3 +57,12 @@ EmptyImage[W][2]=./images/aec-regent-2rt-lt-green.1.0,4,5
 EmptyImage[NW][2]=./images/aec-regent-2rt-lt-green.1.1,12,10
 EmptyImage[N][2]=./images/aec-regent-2rt-lt-green.1.2,0,33
 EmptyImage[NE][2]=./images/aec-regent-2rt-lt-green.1.3,0,24
+
+#EmptyImage[E]=./images/aec-regent-2rt-lt-green_E.0.0,-33,14
+#EmptyImage[SE]=./images/aec-regent-2rt-lt-green_SE.0.0,-13,0
+#EmptyImage[S]=./images/aec-regent-2rt-lt-green_S.0.0,0,0
+#EmptyImage[SW]=./images/aec-regent-2rt-lt-green_SW.0.0,-8,10
+#EmptyImage[W]=./images/aec-regent-2rt-lt-green_W.0.0,4,5
+#EmptyImage[NW]=./images/aec-regent-2rt-lt-green_NW.0.0,12,10
+#EmptyImage[N]=./images/aec-regent-2rt-lt-green_N.0.0,0,33
+#EmptyImage[NE]=./images/aec-regent-2rt-lt-green_NE.0.0,0,24
