@@ -1,5 +1,5 @@
-# AEC Renown - *six* wheeler double decker.
-
+# http://www.countrybus.org/LT/LT.html
+# http://www.countrybus.org/LT/LT3.html
 obj=vehicle
 name=AECRenownLT
 copyright=JamesPetts&JamesHood
@@ -9,8 +9,9 @@ freight=Passagiere
 payload=56
 overcrowded_capacity=5
 speed=32
-power=72
-tractive_effort=8
+# 45hp - see John Day, The Story of the London Bus, p. 68
+power=34
+tractive_effort=9
 gear=50
 weight=8
 axle_load=4
@@ -19,22 +20,35 @@ cost=725200
 runningcost=185
 intro_year=1929
 intro_month=10
-retire_year=1942
-retire_month=8
+retire_year=1933
+retire_month=7
 
 comfort=40
-min_loading_time=10
-max_loading_time=45
+min_loading_time=11
+max_loading_time=56
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/aec-renown.0.0
-EmptyImage[SE]=./images/aec-renown.0.1
-EmptyImage[S]=./images/aec-renown.0.2
-EmptyImage[SW]=./images/aec-renown.0.3
-EmptyImage[W]=./images/aec-renown.0.4
-EmptyImage[NW]=./images/aec-renown.0.5
-EmptyImage[N]=./images/aec-renown.0.6
-EmptyImage[NE]=./images/aec-renown.0.7
+liverytype[0]=General
+liverytype[1]=LT
+
+EmptyImage[E][0]=./images/aec-renown-lt-general_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-renown-lt-general_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-renown-lt-general_S.0.0,4,0
+EmptyImage[SW][0]=./images/aec-renown-lt-general_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-renown-lt-general_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-renown-lt-general_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-renown-lt-general_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-renown-lt-general_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-renown-lt-red-white_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-renown-lt-red-white_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-renown-lt-red-white_S.0.0,4,0
+EmptyImage[SW][1]=./images/aec-renown-lt-red-white_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-renown-lt-red-white_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-renown-lt-red-white_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-renown-lt-red-white_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-renown-lt-red-white_NE.0.0,0,24
+
 
