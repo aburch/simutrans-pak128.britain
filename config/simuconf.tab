@@ -2046,15 +2046,20 @@ intro_month[72][0] = 4
 # http://www.ampyx.org.uk/lcountry/history.html
 
 # https://en.wikipedia.org/wiki/London_Country_Bus_Services
+# See the below for information on the two different types of London Country liveries in the 1930s
+# http://www.countrybus.org/STL/STL07.htm
 livery_scheme[73] = London-Country
 retire_year[73] = 1972
 retire_month[73] = 4
 livery[73][0] = LT-Green
 intro_year[73][0] = 1933
 intro_month[73][0] = 1
-livery[73][1] = London-Country-standard
-intro_year[73][1] = 1970
-intro_month[73][1] = 1
+livery[73][1] = LT-Green-revised
+intro_year[73][1] = 1939
+intro_month[73][1] = 3
+livery[73][2] = London-Country-standard
+intro_year[73][2] = 1970
+intro_month[73][2] = 1
 
 # https://en.wikipedia.org/wiki/Green_Line_Coaches
 livery_scheme[74] = Green-Line
