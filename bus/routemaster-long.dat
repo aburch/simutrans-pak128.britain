@@ -1,15 +1,15 @@
-# The Long-chassis Routemaster
+# http://www.countrybus.org/RML/RML.html
 obj=vehicle
 name=RoutemasterLong
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
 freight=Passagiere
-
 payload=72
 overcrowded_capacity=5
 speed=50
 power=86
+tractive_effort=14
 gear=50
 weight=7.87
 axle_load=5
@@ -29,12 +29,24 @@ increase_maintenance_after_years=22
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/routemaster-long-red.0.0
-EmptyImage[SE]=./images/routemaster-long-red.0.1
-EmptyImage[S]=./images/routemaster-long-red.0.2
-EmptyImage[SW]=./images/routemaster-long-red.0.3
-EmptyImage[W]=./images/routemaster-long-red.0.4
-EmptyImage[NW]=./images/routemaster-long-red.0.5
-EmptyImage[N]=./images/routemaster-long-red.0.6
-EmptyImage[NE]=./images/routemaster-long-red.0.7
+liverytype[0]=LT-revised
+liverytype[1]=LT-Green-revised
+
+EmptyImage[E][0]=./images/aec-rml-red_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-rml-red_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-rml-red_S.0.0,4,0
+EmptyImage[SW][0]=./images/aec-rml-red_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-rml-red_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-rml-red_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-rml-red_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-rml-red_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-rml-green_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-rml-green_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-rml-green_S.0.0,4,0
+EmptyImage[SW][1]=./images/aec-rml-green_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-rml-green_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-rml-green_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-rml-green_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-rml-green_NE.0.0,0,24
 

@@ -1,11 +1,10 @@
-# The Routemaster
+# http://www.countrybus.org/RM/RM7i.htm
 obj=vehicle
 name=Routemaster
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
 freight=Passagiere
-
 payload=64
 overcrowded_capacity=5
 speed=50
@@ -30,51 +29,24 @@ increase_maintenance_after_years=22
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/routemaster.0.0
-EmptyImage[SE]=./images/routemaster.0.1
-EmptyImage[S]=./images/routemaster.0.2
-EmptyImage[SW]=./images/routemaster.0.3
-EmptyImage[W]=./images/routemaster.0.4
-EmptyImage[NW]=./images/routemaster.0.5
-EmptyImage[N]=./images/routemaster.0.6
-EmptyImage[NE]=./images/routemaster.0.7
----
-# For TESTing of rescaled vehicles only - delete when testing complete.
-#obj=vehicle
-name=Routemaster-rescaled
-copyright=JamesPetts&JamesHood
-waytype=road
-engine_type=diesel
-freight=Passagiere
+liverytype[0]=LT-revised
+liverytype[1]=LT-Green-revised
 
-payload=64
-overcrowded_capacity=5
-speed=50
-power=86
-gear=50
-weight=7
-axle_load=5
-length=4
-cost=2110000
-runningcost=198
-intro_year=1956
-intro_month=5
-retire_year=1968
-retire_month=12
+EmptyImage[E][0]=./images/aec-routemaster-red_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-routemaster-red_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-routemaster-red_S.0.0,4,0
+EmptyImage[SW][0]=./images/aec-routemaster-red_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-routemaster-red_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-routemaster-red_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-routemaster-red_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-routemaster-red_NE.0.0,0,24
 
-comfort=43
-min_loading_time=10
-max_loading_time=50
-increase_maintenance_after_years=22
+EmptyImage[E][1]=./images/aec-routemaster-green_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-routemaster-green_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-routemaster-green_S.0.0,4,0
+EmptyImage[SW][1]=./images/aec-routemaster-green_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-routemaster-green_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-routemaster-green_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-routemaster-green_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-routemaster-green_NE.0.0,0,24
 
-Constraint[Prev][0]=none
-Constraint[Next][0]=none
-
-EmptyImage[E]=./images/routemaster-rescaled.1.4,-28,14
-EmptyImage[SE]=./images/routemaster-rescaled.1.5,-13,0
-EmptyImage[S]=./images/routemaster-rescaled.1.6,4,4
-EmptyImage[SW]=./images/routemaster-rescaled.1.7,-8,10
-EmptyImage[W]=./images/routemaster-rescaled.1.0,4,5
-EmptyImage[NW]=./images/routemaster-rescaled.1.1,12,10
-EmptyImage[N]=./images/routemaster-rescaled.1.2,28,14
-EmptyImage[NE]=./images/routemaster-rescaled.1.3,0,24
