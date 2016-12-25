@@ -1,4 +1,4 @@
-# First really successful motor bus design. (Single decker variant)
+# 
 obj=vehicle
 name=BTypeSingle
 copyright=JamesPetts&JamesHood
@@ -6,12 +6,12 @@ waytype=road
 engine_type=petrol
 freight=Passagiere
 payload=20
-overcrowded_capacity=4
+overcrowded_capacity=2
 speed=20
-power=20
+power=22
 tractive_effort=4
 gear=50
-weight=4
+weight=3.6
 axles=2
 length=4
 cost=60000
@@ -21,21 +21,19 @@ intro_month=2
 retire_year=1920
 retire_month=2
 
-# NOTE: Need more single-deckers. Should make an S-type single decker, at least.
-
 comfort=25
-min_loading_time=10
+min_loading_time=11
 max_loading_time=35
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/b-type-single.0.0
-EmptyImage[SE]=./images/b-type-single.0.1
-EmptyImage[S]=./images/b-type-single.0.2
-EmptyImage[SW]=./images/b-type-single.0.3
-EmptyImage[W]=./images/b-type-single.0.4
-EmptyImage[NW]=./images/b-type-single.0.5
-EmptyImage[N]=./images/b-type-single.0.6
-EmptyImage[NE]=./images/b-type-single.0.7
+EmptyImage[E]=./images/aec-b-type-single_E.0.0,-33,14
+EmptyImage[SE]=./images/aec-b-type-single_SE.0.0,-13,0
+EmptyImage[S]=./images/aec-b-type-single_S.0.0,0,0
+EmptyImage[SW]=./images/aec-b-type-single_SW.0.0,-8,10
+EmptyImage[W]=./images/aec-b-type-single_W.0.0,4,5
+EmptyImage[NW]=./images/aec-b-type-single_NW.0.0,12,10
+EmptyImage[N]=./images/aec-b-type-single_N.0.0,0,33
+EmptyImage[NE]=./images/aec-b-type-single_NE.0.0,0,24
 
