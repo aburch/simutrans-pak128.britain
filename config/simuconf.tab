@@ -2038,9 +2038,14 @@ intro_month[71][1] = 6
 livery_scheme[72] = London-General
 retire_year[72] = 1933
 retire_month[72] = 1
-livery[72][0] = General
+# The all over dark red livery
+livery[72][0] = General-early
 intro_year[72][0] = 1855
 intro_month[72][0] = 4
+livery[72][1] = General
+# Guessed
+intro_year[72][1] = 1919
+intro_month[72][1] = 1
 
 # See here for some information on London Country liveries:
 # http://www.ampyx.org.uk/lcountry/history.html

@@ -28,12 +28,24 @@ max_loading_time=35
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/aec-b-type-single_E.0.0,-33,14
-EmptyImage[SE]=./images/aec-b-type-single_SE.0.0,-13,0
-EmptyImage[S]=./images/aec-b-type-single_S.0.0,0,0
-EmptyImage[SW]=./images/aec-b-type-single_SW.0.0,-8,10
-EmptyImage[W]=./images/aec-b-type-single_W.0.0,4,5
-EmptyImage[NW]=./images/aec-b-type-single_NW.0.0,12,10
-EmptyImage[N]=./images/aec-b-type-single_N.0.0,0,33
-EmptyImage[NE]=./images/aec-b-type-single_NE.0.0,0,24
+liverytype[0]=General-early
+liverytype[1]=General
+
+EmptyImage[E][0]=./images/aec-b-type-single-general-early_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-b-type-single-general-early_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-b-type-single-general-early_S.0.0,0,0
+EmptyImage[SW][0]=./images/aec-b-type-single-general-early_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-b-type-single-general-early_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-b-type-single-general-early_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-b-type-single-general-early_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-b-type-single-general-early_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-b-type-single_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-b-type-single_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-b-type-single_S.0.0,0,0
+EmptyImage[SW][1]=./images/aec-b-type-single_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-b-type-single_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-b-type-single_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-b-type-single_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-b-type-single_NE.0.0,0,24
 
