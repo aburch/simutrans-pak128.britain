@@ -2017,12 +2017,17 @@ intro_month[69][0] = 6
 livery_scheme[70] = London-General
 retire_year[70] = 1933
 retire_month[70] = 1
-livery[70][0] = General
+# The all over dark red livery
+livery[70][0] = General-early
 intro_year[70][0] = 1855
 intro_month[70][0] = 4
-livery[70][1] = General-Country
-intro_year[70][1] = 1932
-intro_month[70][1] = 5
+livery[70][1] = General
+# Guessed
+intro_year[70][1] = 1919
+intro_month[70][1] = 1
+livery[70][2] = General-Country
+intro_year[70][2] = 1932
+intro_month[70][2] = 5
 
 # http://www.aim25.ac.uk/cgi-bin/vcdf/detail?coll_id=13315&inst_id=118
 livery_scheme[71] = East-Surrey
@@ -2035,17 +2040,13 @@ livery[71][1] = E-Surrey-Red
 intro_year[71][1] = 1923
 intro_month[71][1] = 6
 
-livery_scheme[72] = London-General
-retire_year[72] = 1933
+livery_scheme[72] = Tilling
+retire_year[72] = 1969
 retire_month[72] = 1
-# The all over dark red livery
-livery[72][0] = General-early
-intro_year[72][0] = 1855
+livery[72][0] = Tilling-red
+intro_year[72][0] = 1897
 intro_month[72][0] = 4
-livery[72][1] = General
-# Guessed
-intro_year[72][1] = 1919
-intro_month[72][1] = 1
+# Difficult to find information about livery progression
 
 # See here for some information on London Country liveries:
 # http://www.ampyx.org.uk/lcountry/history.html
