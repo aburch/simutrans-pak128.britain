@@ -38,6 +38,7 @@ liverytype[0]=E-Surrey-Blue
 liverytype[1]=E-Surrey-Red
 liverytype[2]=Tilling-early
 liverytype[3]=Southdown-standard
+liverytype[4]=Birmingham-Corporation
 
 EmptyImage[E][0]=./images/tilling-stevens-tta1-east-surrey_E.0.0,-33,14
 EmptyImage[SE][0]=./images/tilling-stevens-tta1-east-surrey_SE.0.0,-13,0
@@ -110,3 +111,21 @@ FreightImage[W][3]=./images/tilling-stevens-tta1-southdown-loaded_W.0.0,4,5
 FreightImage[NW][3]=./images/tilling-stevens-tta1-southdown-loaded_NW.0.0,12,10
 FreightImage[N][3]=./images/tilling-stevens-tta1-southdown-loaded_N.0.0,0,33
 FreightImage[NE][3]=./images/tilling-stevens-tta1-southdown-loaded_NE.0.0,0,24
+
+EmptyImage[E][4]=./images/tilling-stevens-tta1-birmingham_E.0.0,-33,14
+EmptyImage[SE][4]=./images/tilling-stevens-tta1-birmingham_SE.0.0,-13,0
+EmptyImage[S][4]=./images/tilling-stevens-tta1-birmingham_S.0.0,0,0
+EmptyImage[SW][4]=./images/tilling-stevens-tta1-birmingham_SW.0.0,-8,10
+EmptyImage[W][4]=./images/tilling-stevens-tta1-birmingham_W.0.0,4,5
+EmptyImage[NW][4]=./images/tilling-stevens-tta1-birmingham_NW.0.0,12,10
+EmptyImage[N][4]=./images/tilling-stevens-tta1-birmingham_N.0.0,0,33
+EmptyImage[NE][4]=./images/tilling-stevens-tta1-birmingham_NE.0.0,0,24
+
+FreightImage[E][4]=./images/tilling-stevens-tta1-birmingham-loaded_E.0.0,-33,14
+FreightImage[SE][4]=./images/tilling-stevens-tta1-birmingham-loaded_SE.0.0,-13,0
+FreightImage[S][4]=./images/tilling-stevens-tta1-birmingham-loaded_S.0.0,4,0
+FreightImage[SW][4]=./images/tilling-stevens-tta1-birmingham-loaded_SW.0.0,-8,10
+FreightImage[W][4]=./images/tilling-stevens-tta1-birmingham-loaded_W.0.0,4,5
+FreightImage[NW][4]=./images/tilling-stevens-tta1-birmingham-loaded_NW.0.0,12,10
+FreightImage[N][4]=./images/tilling-stevens-tta1-birmingham-loaded_N.0.0,0,33
+FreightImage[NE][4]=./images/tilling-stevens-tta1-birmingham-loaded_NE.0.0,0,24
