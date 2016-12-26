@@ -1612,20 +1612,23 @@ intro_year[37][1] = 2008
 intro_month[37][1] = 7
 
 livery_scheme[38] = WMPTE
-retire_year[38] = 2500
+retire_year[38] = 2999
 retire_month[38] = 1
-livery[38][0] = WMPTE-Blue-cream
-intro_year[38][0] = 1969
-intro_month[38][0] = 1
-livery[38][1] = Centro
-intro_year[38][1] = 1991
-intro_month[38][1] = 5
-livery[38][2] = Midland-Metro
-intro_year[38][2] = 1996
-intro_month[38][2] = 4
-livery[38][3] = NWM
-intro_year[38][3] = 2008
-intro_month[38][3] = 7
+livery[38][0] = Birmingham-Corporation
+intro_year[38][0] = 1899
+intro_month[38][0] = 3
+livery[38][1] = WMPTE-Blue-cream
+intro_year[38][1] = 1969
+intro_month[38][1] = 1
+livery[38][2] = Centro
+intro_year[38][2] = 1991
+intro_month[38][2] = 5
+livery[38][3] = Midland-Metro
+intro_year[38][3] = 1996
+intro_month[38][3] = 4
+livery[38][4] = NWM
+intro_year[38][4] = 2008
+intro_month[38][4] = 7
 
 livery_scheme[39] = BOAC
 retire_year[39] = 1974
@@ -2043,10 +2046,14 @@ intro_month[71][1] = 6
 livery_scheme[72] = Tilling
 retire_year[72] = 1969
 retire_month[72] = 1
-livery[72][0] = Tilling-red
+livery[72][0] = Tilling-early
 intro_year[72][0] = 1897
 intro_month[72][0] = 4
 # Difficult to find information about livery progression
+# Below guessed
+livery[72][1] = Tilling-standard
+intro_year[72][1] = 1924
+intro_month[72][1] = 5
 
 # See here for some information on London Country liveries:
 # http://www.ampyx.org.uk/lcountry/history.html
@@ -2163,6 +2170,7 @@ retire_month[82] = 12
 livery[82][0] = Glasgow-Corporation
 intro_year[82][0] = 1872
 intro_month[82][0] = 7
+# NOTE: Motor 'buses from 1924 onwards only
 # https://en.wikipedia.org/wiki/Strathclyde_Partnership_for_Transport#History
 livery[82][1] = GGPTE
 intro_year[82][1] = 1972
@@ -2173,3 +2181,4 @@ intro_month[82][2] = 6
 livery[82][3] = SPTA
 intro_year[82][3] = 1996
 intro_month[82][3] = 4
+
