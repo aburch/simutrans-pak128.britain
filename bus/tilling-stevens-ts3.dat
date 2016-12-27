@@ -8,8 +8,8 @@ copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=petrol
 freight=Passagiere
-payload=30
-overcrowded_capacity=4
+payload=34
+overcrowded_capacity=2
 speed=20
 # Guessed
 power=36
@@ -23,13 +23,12 @@ cost=97700
 runningcost=115
 intro_year=1914
 intro_month=5
-retire_year=1917
+retire_year=1921
 retire_month=7
 
 comfort=21
-min_loading_time=10
-max_loading_time=45
-increase_maintenance_after_years=10
+min_loading_time=11
+max_loading_time=47
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
