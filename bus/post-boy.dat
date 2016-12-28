@@ -1,7 +1,7 @@
 obj=vehicle
 name=post-boy
 engine_type=bio
-speed=15
+speed=12
 power=1
 tractive_effort=1
 freight=Post
@@ -18,20 +18,20 @@ weight=1
 axle_load=0
 cost=52500
 runningcost=15
+fixed_cost=75
 sound=-1
 
-min_loading_time=20
-max_loading_time=40
+min_loading_time=45
+max_loading_time=60
 
 Constraint[next][0]=none
-
 Constraint[prev][0]=none
 
-EmptyImage[E]=./images/post-boy.1.4
-EmptyImage[SE]=./images/post-boy.1.5
-EmptyImage[S]=./images/post-boy.1.6
-EmptyImage[SW]=./images/post-boy.1.7
-EmptyImage[W]=./images/post-boy.1.0
-EmptyImage[NW]=./images/post-boy.1.1
-EmptyImage[N]=./images/post-boy.1.2
-EmptyImage[NE]=./images/post-boy.1.3
+EmptyImage[E]=./images/post-boy_E.0.0,-33,14
+EmptyImage[SE]=./images/post-boy_SE.0.0,-13,0
+EmptyImage[S]=./images/post-boy_S.0.0,0,0
+EmptyImage[SW]=./images/post-boy_SW.0.0,-8,10
+EmptyImage[W]=./images/post-boy_W.0.0,4,5
+EmptyImage[NW]=./images/post-boy_NW.0.0,12,10
+EmptyImage[N]=./images/post-boy_N.0.0,0,33
+EmptyImage[NE]=./images/post-boy_NE.0.0,0,24

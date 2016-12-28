@@ -8,6 +8,7 @@ speed=6
 weight=1
 # Necessary to prohibit this vehicle from bridleways
 axle_load=1
+brake_force=1
 length=3
 cost=7500
 runningcost=1
@@ -16,8 +17,19 @@ intro_month=1
 retire_year=1905
 retire_month=3
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-cleveland-bay-single
+Constraint[Prev][7]=road-horse-friesian-single
+Constraint[Prev][8]=road-horse-yorkshire-coach-single
+Constraint[Prev][9]=road-horse-irish-draught-single
+Constraint[Prev][10]=road-horse-clydesdale-single
+Constraint[Prev][11]=road-horse-pony-single
+Constraint[Prev][12]=road-horse-pony-double
 
 Constraint[Next][0]=none
 
@@ -98,6 +110,7 @@ speed=6
 weight=1
 # Necessary to prohibit this vehicle from bridleways
 axle_load=1
+brake_force=1
 length=3
 cost=7500
 runningcost=1
@@ -113,8 +126,19 @@ increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-cleveland-bay-single
+Constraint[Prev][7]=road-horse-friesian-single
+Constraint[Prev][8]=road-horse-yorkshire-coach-single
+Constraint[Prev][9]=road-horse-irish-draught-single
+Constraint[Prev][10]=road-horse-clydesdale-single
+Constraint[Prev][11]=road-horse-pony-single
+Constraint[Prev][12]=road-horse-pony-double
 
 Constraint[Next][0]=none
 
@@ -158,6 +182,7 @@ speed=6
 weight=1
 # Necessary to prohibit this vehicle from bridleways
 axle_load=1
+brake_force=1
 length=3
 cost=7500
 runningcost=1
@@ -173,8 +198,19 @@ increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-cleveland-bay-single
+Constraint[Prev][7]=road-horse-friesian-single
+Constraint[Prev][8]=road-horse-yorkshire-coach-single
+Constraint[Prev][9]=road-horse-irish-draught-single
+Constraint[Prev][10]=road-horse-clydesdale-single
+Constraint[Prev][11]=road-horse-pony-single
+Constraint[Prev][12]=road-horse-pony-double
 
 Constraint[Next][0]=none
 
@@ -207,6 +243,7 @@ speed=6
 weight=1
 # Necessary to prohibit this vehicle from bridleways
 axle_load=1
+brake_force=1
 length=3
 cost=7500
 runningcost=1
@@ -222,8 +259,19 @@ increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-cleveland-bay-single
+Constraint[Prev][7]=road-horse-friesian-single
+Constraint[Prev][8]=road-horse-yorkshire-coach-single
+Constraint[Prev][9]=road-horse-irish-draught-single
+Constraint[Prev][10]=road-horse-clydesdale-single
+Constraint[Prev][11]=road-horse-pony-single
+Constraint[Prev][12]=road-horse-pony-double
 
 Constraint[Next][0]=none
 
@@ -255,6 +303,7 @@ speed=6
 weight=1
 # Necessary to prohibit this vehicle from bridleways
 axle_load=1
+brake_force=1
 length=3
 cost=7500
 runningcost=2
@@ -272,8 +321,19 @@ increase_maintenance_after_years=127
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-cleveland-bay-single
+Constraint[Prev][7]=road-horse-friesian-single
+Constraint[Prev][8]=road-horse-yorkshire-coach-single
+Constraint[Prev][9]=road-horse-irish-draught-single
+Constraint[Prev][10]=road-horse-clydesdale-single
+Constraint[Prev][11]=road-horse-pony-single
+Constraint[Prev][12]=road-horse-pony-double
 
 Constraint[Next][0]=none
 
@@ -305,6 +365,7 @@ speed=12
 weight=1
 # Necessary to prohibit this vehicle from bridleways
 axle_load=1
+brake_force=1
 length=3
 cost=8750
 # Just for fun, slightly cheaper to upgrade
@@ -323,8 +384,19 @@ increase_maintenance_after_years=47
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-cleveland-bay-single
+Constraint[Prev][7]=road-horse-friesian-single
+Constraint[Prev][8]=road-horse-yorkshire-coach-single
+Constraint[Prev][9]=road-horse-irish-draught-single
+Constraint[Prev][10]=road-horse-clydesdale-single
+Constraint[Prev][11]=road-horse-pony-single
+Constraint[Prev][12]=road-horse-pony-double
 
 Constraint[Next][0]=none
 

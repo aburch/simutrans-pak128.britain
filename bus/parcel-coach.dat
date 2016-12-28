@@ -15,6 +15,7 @@ intro_month=11
 retire_year=1912
 retire_month=3
 rolling_resistance=150
+brake_force=1
 
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=35
@@ -22,8 +23,13 @@ years_before_maintenance_max_reached=35
 min_loading_time=60
 max_loading_time=240
 
-Constraint[Prev][0]=RoadHorsesDouble
-Constraint[Prev][1]=RoadHorsesSingle
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+
 Constraint[Next][0]=none
 
 EmptyImage[E]=./images/parcel-coach.0.0

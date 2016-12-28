@@ -1,0 +1,79 @@
+# https://en.wikipedia.org/wiki/Shire_horse
+# http://www.cotebrookshirehorses.co.uk/p/207/shire_horse_history
+obj=vehicle
+name=road-horse-shire-single
+engine_type=bio
+speed=10
+# These values are not fine enough to capture
+# the differing power of different horses.
+# See http://gluedideas.com/content-collection/Textbook-on-Roads-and-Pavements-1908/Tractive-Power-of-Horses.html
+# for information: an average horse will have a tractive effort
+# of 80lb/f, or 0.33kN at approx. 5km/h and an average power of 0.45kW. "Gear" works only for power. 
+gear=65
+power=1
+tractive_effort=1
+copyright=James&jamespetts
+intro_year=1755
+intro_month=1
+retire_year=1918
+retire_month=3
+waytype=road
+length=2
+brake_force=1
+rolling_resistance=0
+
+weight=1.1
+axle_load=0
+cost=80000
+runningcost=12
+fixed_cost=400
+sound=-1
+
+range=33
+
+EmptyImage[E]=./images/horse-shire-single_E.0.0,-33,14
+EmptyImage[SE]=./images/horse-shire-single_SE.0.0,-13,0
+EmptyImage[S]=./images/horse-shire-single_S.0.0,0,0
+EmptyImage[SW]=./images/horse-shire-single_SW.0.0,-8,10
+EmptyImage[W]=./images/horse-shire-single_W.0.0,4,5
+EmptyImage[NW]=./images/horse-shire-single_NW.0.0,12,10
+EmptyImage[N]=./images/horse-shire-single_N.0.0,0,33
+EmptyImage[NE]=./images/horse-shire-single_NE.0.0,0,24
+
+---
+
+obj=vehicle
+name=road-horse-shire-double
+engine_type=bio
+speed=10
+gear=65
+power=2
+tractive_effort=2
+copyright=James&jamespetts
+intro_year=1755
+intro_month=1
+retire_year=1918
+retire_month=3
+waytype=road
+length=2
+brake_force=2
+rolling_resistance=0
+
+weight=2.2
+axle_load=0
+cost=160000
+runningcost=24
+fixed_cost=800
+sound=-1
+
+range=33
+
+EmptyImage[E]=./images/horse-shire-double_E.0.0,-33,14
+EmptyImage[SE]=./images/horse-shire-double_SE.0.0,-13,0
+EmptyImage[S]=./images/horse-shire-double_S.0.0,0,0
+EmptyImage[SW]=./images/horse-shire-double_SW.0.0,-8,10
+EmptyImage[W]=./images/horse-shire-double_W.0.0,4,5
+EmptyImage[NW]=./images/horse-shire-double_NW.0.0,12,10
+EmptyImage[N]=./images/horse-shire-double_N.0.0,0,33
+EmptyImage[NE]=./images/horse-shire-double_NE.0.0,0,24
+

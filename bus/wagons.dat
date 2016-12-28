@@ -7,6 +7,7 @@ payload=3
 speed=6
 weight=1
 axle_load=1
+brake_force=1
 way_wear_factor=4
 length=3
 cost=20000
@@ -17,8 +18,12 @@ retire_year=1918
 retire_month=3
 rolling_resistance=150
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
 
 Constraint[Next][0]=none
 
@@ -98,6 +103,7 @@ payload=3
 speed=6
 weight=1
 axle_load=1
+brake_force=1
 way_wear_factor=4
 length=3
 cost=20000
@@ -115,8 +121,12 @@ increase_maintenance_after_years=35
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
 
 Constraint[Next][0]=none
 
@@ -159,6 +169,7 @@ payload=5
 speed=6
 weight=1
 axle_load=1
+brake_force=1
 way_wear_factor=4
 length=3
 cost=20000
@@ -176,8 +187,12 @@ increase_maintenance_after_years=35
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
 
 Constraint[Next][0]=none
 
@@ -209,6 +224,7 @@ payload=5
 speed=6
 weight=1
 axle_load=1
+brake_force=1
 way_wear_factor=4
 length=3
 cost=20000
@@ -226,8 +242,12 @@ increase_maintenance_after_years=35
 years_before_maintenance_max_reached=30
 increase_maintenance_by_percent=275
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
 
 Constraint[Next][0]=none
 
