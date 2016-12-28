@@ -9,7 +9,7 @@ speed=10
 # See http://gluedideas.com/content-collection/Textbook-on-Roads-and-Pavements-1908/Tractive-Power-of-Horses.html
 # for information: an average horse will have a tractive effort
 # of 80lb/f, or 0.33kN at approx. 5km/h and an average power of 0.45kW. "Gear" works only for power. 
-gear=65
+gear=57
 power=1
 tractive_effort=1
 copyright=James&jamespetts
@@ -29,8 +29,6 @@ runningcost=12
 fixed_cost=400
 sound=-1
 
-range=33
-
 EmptyImage[E]=./images/horse-shire-single_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-shire-single_SE.0.0,-13,0
 EmptyImage[S]=./images/horse-shire-single_S.0.0,0,0
@@ -46,7 +44,7 @@ obj=vehicle
 name=road-horse-shire-double
 engine_type=bio
 speed=10
-gear=65
+gear=57
 power=2
 tractive_effort=2
 copyright=James&jamespetts
@@ -65,8 +63,6 @@ cost=160000
 runningcost=24
 fixed_cost=800
 sound=-1
-
-range=33
 
 EmptyImage[E]=./images/horse-shire-double_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-shire-double_SE.0.0,-13,0

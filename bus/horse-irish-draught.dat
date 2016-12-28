@@ -3,7 +3,7 @@ obj=vehicle
 name=road-horse-irish-draught-single
 engine_type=bio
 speed=10
-gear=45
+gear=43
 power=1
 tractive_effort=1
 copyright=James&jamespetts
@@ -23,8 +23,6 @@ runningcost=12
 fixed_cost=100
 sound=-1
 
-range=28
-
 EmptyImage[E]=./images/horse-irish-draught-single_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-irish-draught-single_SE.0.0,-13,0
 EmptyImage[S]=./images/horse-irish-draught-single_S.0.0,0,0
@@ -40,7 +38,7 @@ obj=vehicle
 name=road-horse-irish-draught-double
 engine_type=bio
 speed=10
-gear=45
+gear=43
 power=2
 tractive_effort=2
 copyright=James&jamespetts
@@ -59,8 +57,6 @@ cost=90000
 runningcost=24
 fixed_cost=200
 sound=-1
-
-range=28
 
 EmptyImage[E]=./images/horse-irish-draught-double_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-irish-draught-double_SE.0.0,-13,0

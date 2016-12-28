@@ -4,7 +4,7 @@ name=road-horse-clydesdale-single
 engine_type=bio
 speed=11
 power=1
-gear=55
+gear=50
 tractive_effort=1
 copyright=James&jamespetts
 intro_year=1826
@@ -23,8 +23,6 @@ runningcost=15
 fixed_cost=280
 sound=-1
 
-range=35
-
 EmptyImage[E]=./images/horse-clydesdale-single_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-clydesdale-single_SE.0.0,-13,0
 EmptyImage[S]=./images/horse-clydesdale-single_S.0.0,0,0
@@ -41,7 +39,7 @@ name=road-horse-clydesdale-double
 engine_type=bio
 speed=11
 power=2
-gear=55
+gear=50
 tractive_effort=2
 copyright=James&jamespetts
 intro_year=1826
@@ -59,8 +57,6 @@ cost=120000
 runningcost=30
 fixed_cost=560
 sound=-1
-
-range=35
 
 EmptyImage[E]=./images/horse-clydesdale-double_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-clydesdale-double_SE.0.0,-13,0
