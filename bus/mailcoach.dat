@@ -8,7 +8,7 @@ freight=Post
 payload=120
 speed=16
 weight=1.15
-axles=2
+axle_load=1
 length=3
 cost=87500
 runningcost=18
@@ -33,6 +33,7 @@ Constraint[Prev][2]=road-horse-yorkshire-coach-double
 Constraint[Prev][3]=road-horse-shire-double
 Constraint[Prev][4]=road-horse-irish-draught-double
 Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-hackney-double
 
 Constraint[Next][0]=none
 
