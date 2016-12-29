@@ -5466,7 +5466,17 @@ Leyland National (short)
 HackneyCarriage
 Hackney carriage
 StageCoach
-Stage coach
+Stage coach (rigid)
+stagecoach-georgian
+Stage coach (strap-suspended)
+stagecoach-besant
+Stage coach (sprung)
+stagecoach-regency
+Stage coach (braked)
+MailCoach
+Mail coach (sprung)
+mailcoach-regency
+Mail coach (braked)
 OmnibusSingle
 Horse omnibus
 BTypeSingle
@@ -5795,8 +5805,6 @@ ThornycroftSteamVanMail
 Thornycroft Steam Van (mail)
 YorkshireSteamTank
 Yorkshire Steam Tank (bulk fluids)
-MailCoach
-Mail Coach
 ParcelCoach
 Parcel Coach
 McNamaraDennisVanPost

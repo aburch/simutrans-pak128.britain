@@ -5,7 +5,7 @@ engine_type=bio
 speed=14
 gear=39
 power=2
-tractive_effort=2
+tractive_effort=1
 copyright=James&jamespetts
 intro_year=1785
 intro_month=1
@@ -13,7 +13,7 @@ retire_year=1918
 retire_month=3
 waytype=road
 length=2
-brake_force=2
+brake_force=1
 rolling_resistance=0
 
 weight=1.4

@@ -1,0 +1,55 @@
+# 1770s design with strap suspension
+# https://s-media-cache-ak0.pinimg.com/736x/49/a1/18/49a118c5456a5bab12aa6e0bf534a6e1.jpg
+# http://www.mkheritage.co.uk/sga/coaching/Royal-Mail.html
+obj=vehicle
+name=stagecoach-georgian
+copyright=James
+waytype=road
+freight=Passagiere
+payload=4
+overcrowded_capacity=7
+speed=15
+weight=0.85
+axle_load=1
+length=3
+cost=65000
+runningcost=15
+intro_year=1770
+intro_month=4
+retire_year=1798
+retire_month=7
+brake_force=0
+rolling_resistance=150
+# Inside only
+# Better suspension
+comfort=49
+min_loading_time=300
+max_loading_time=600
+
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+
+Constraint[Next][0]=none
+
+EmptyImage[E]=./images/stagecoach-georgian_E.0.0,-33,14
+EmptyImage[SE]=./images/stagecoach-georgian_SE.0.0,-13,0
+EmptyImage[S]=./images/stagecoach-georgian_S.0.0,0,0
+EmptyImage[SW]=./images/stagecoach-georgian_SW.0.0,-8,10
+EmptyImage[W]=./images/stagecoach-georgian_W.0.0,4,5
+EmptyImage[NW]=./images/stagecoach-georgian_NW.0.0,12,10
+EmptyImage[N]=./images/stagecoach-georgian_N.0.0,0,33
+EmptyImage[NE]=./images/stagecoach-georgian_NE.0.0,0,24
+
+FreightImage[E]=./images/stagecoach-georgian-loaded_E.0.0,-33,14
+FreightImage[SE]=./images/stagecoach-georgian-loaded_SE.0.0,-13,0
+FreightImage[S]=./images/stagecoach-georgian-loaded_S.0.0,0,0
+FreightImage[SW]=./images/stagecoach-georgian-loaded_SW.0.0,-8,10
+FreightImage[W]=./images/stagecoach-georgian-loaded_W.0.0,4,5
+FreightImage[NW]=./images/stagecoach-georgian-loaded_NW.0.0,12,10
+FreightImage[N]=./images/stagecoach-georgian-loaded_N.0.0,0,33
+FreightImage[NE]=./images/stagecoach-georgian-loaded_NE.0.0,0,24
+
