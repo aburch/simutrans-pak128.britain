@@ -3,7 +3,11 @@ name=OmnibusSingle
 copyright=JamesPetts&JamesHood
 waytype=road
 freight=Passagiere
-payload=22
+# This is uncertain; but "The Story of the London Bus"
+# by John Day at p. 6 gives it as probably 20.
+# This is contrary to what is painted inside the replica
+# of this vehicle in the London Transport Museum. 
+payload=20
 speed=8
 weight=1.3
 axle_load=1
