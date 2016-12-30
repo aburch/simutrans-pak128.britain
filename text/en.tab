@@ -2081,10 +2081,18 @@ River3
 Large river (Navigable)
 #______________________________________NarrowGaugeVehicle______________________________________
 #______________________________________NarrowGaugeVehicle______________________________________
-Single-ShireNarrow
-Single Shire Horse
-Twin-ShireNarrow
-Double Shire Horse
+narrowgauge-horse-clydesdale-single
+Clydesdale horse
+narrowgauge-horse-clydesdale-double
+Clydesdale horses (pair)
+narrowgauge-horse-shire-single
+Shire horse
+narrowgauge-horse-shire-double
+Shire horses (pair)
+narrowgauge-horse-irish-draught-single
+Irish draught horse
+narrowgauge-horse-irish-draught-double
+Irish draught horses (pair)
 wagon-ng-bulk
 2t bulk wagon
 wagon-ng-tanker
@@ -4419,10 +4427,18 @@ LMS-10000
 LMS 10000 Class
 BR-Class10800
 BR 10800 Class
-Single-Shire
-Single Shire Horse
-Twin-Shire
-Double Shire Horse
+rail-horse-shire-single
+Shire horse
+rail-horse-shire-double
+Shire horses (pair)
+rail-horse-irish-draught-single
+Irish draught horse
+rail-horse-irish-draught-double
+Irish draught horses (pair)
+rail-horse-clydesdale-single
+Clydesdale horse
+rail-horse-clydesdale-double
+Clydesdale horses (pair)
 BR-121
 BR Class 121 DMU
 BR-378Front
