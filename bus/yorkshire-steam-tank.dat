@@ -7,7 +7,6 @@ waytype=road
 freight=Oel
 payload=12
 power=35
-#gear=150
 speed=23
 weight=6
 axle_load=9
@@ -20,14 +19,11 @@ intro_month=3
 retire_year=1917
 retire_month=6
 
-
 constraint[next][0]=none
 constraint[prev][0]=none
 
 min_loading_time=360
 max_loading_time=480
-available_only_as_upgrade=0
-fixed_maintenance=0
 
 EmptyImage[E]=./images/yorkshire-steam-tank.0.0
 EmptyImage[SE]=./images/yorkshire-steam-tank.0.1

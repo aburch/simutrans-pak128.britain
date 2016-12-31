@@ -1,4 +1,5 @@
-# http://www.leylandsociety.co.uk/publications/torque/pdf/Torque028.pdf
+# http://www.leylandsociety.co.uk/publications/torque/pdf/Torque031.pdf
+# Note: not superheated. See http://www.leylandsociety.co.uk/publications/torque/pdf/Torque034.pdf
 obj=vehicle
 name=leyland-class-h-bulk
 copyright=JamesPetts&JamesHood
@@ -12,12 +13,13 @@ tractive_effort=3
 speed=12
 weight=4.9
 axle_load=4
+way_wear_factor=2931
 length=3
 cost=90000
 runningcost=45
 intro_year=1905
 intro_month=3
-retire_year=1914
+retire_year=1911
 retire_month=12
 
 constraint[prev][0]=none
@@ -98,12 +100,13 @@ tractive_effort=3
 speed=12
 weight=4.9
 axle_load=4
+way_wear_factor=2931
 length=3
 cost=90000
 runningcost=45
 intro_year=1905
 intro_month=3
-retire_year=1914
+retire_year=1911
 retire_month=12
 
 constraint[prev][0]=none
@@ -155,12 +158,13 @@ tractive_effort=3
 speed=12
 weight=4.9
 axle_load=4
+way_wear_factor=2931
 length=3
 cost=90000
 runningcost=45
 intro_year=1905
 intro_month=3
-retire_year=1914
+retire_year=1911
 retire_month=12
 
 constraint[prev][0]=none
@@ -202,12 +206,13 @@ tractive_effort=3
 speed=12
 weight=4.9
 axle_load=4
+way_wear_factor=2931
 length=3
 cost=90000
 runningcost=45
 intro_year=1905
 intro_month=3
-retire_year=1914
+retire_year=1911
 retire_month=12
 
 constraint[prev][0]=none
@@ -248,12 +253,13 @@ tractive_effort=3
 speed=12
 weight=4.9
 axle_load=4
+way_wear_factor=2931
 length=3
 cost=90000
 runningcost=45
 intro_year=1905
 intro_month=3
-retire_year=1914
+retire_year=1911
 retire_month=12
 
 constraint[prev][0]=none
