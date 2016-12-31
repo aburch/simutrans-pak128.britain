@@ -11,7 +11,7 @@ power=18
 tractive_effort=3
 speed=12
 weight=4.2
-axle_load=3
+axle_load=4
 length=3
 cost=85500
 runningcost=33
@@ -20,7 +20,6 @@ intro_month=4
 retire_year=1906
 retire_month=10
 
-constraint[next][0]=none
 constraint[prev][0]=none
 
 min_loading_time=95
@@ -98,7 +97,7 @@ power=18
 tractive_effort=3
 speed=12
 weight=4.2
-axle_load=3
+axle_load=4
 length=3
 cost=85500
 runningcost=33
@@ -107,8 +106,8 @@ intro_month=4
 retire_year=1906
 retire_month=10
 
-constraint[next][0]=none
 constraint[prev][0]=none
+
 
 min_loading_time=95
 max_loading_time=365
@@ -155,7 +154,7 @@ power=18
 tractive_effort=3
 speed=12
 weight=4.2
-axle_load=3
+axle_load=4
 length=3
 cost=85500
 runningcost=33
@@ -164,8 +163,8 @@ intro_month=4
 retire_year=1906
 retire_month=10
 
-constraint[next][0]=none
 constraint[prev][0]=none
+
 
 min_loading_time=95
 max_loading_time=365
@@ -202,7 +201,7 @@ power=18
 tractive_effort=3
 speed=12
 weight=4.2
-axle_load=3
+axle_load=4
 length=3
 cost=85500
 runningcost=33
@@ -211,8 +210,8 @@ intro_month=4
 retire_year=1906
 retire_month=10
 
-constraint[next][0]=none
 constraint[prev][0]=none
+
 
 min_loading_time=95
 max_loading_time=365
@@ -248,7 +247,7 @@ power=18
 tractive_effort=3
 speed=12
 weight=4.2
-axle_load=3
+axle_load=4
 length=3
 cost=85500
 runningcost=33
@@ -257,8 +256,8 @@ intro_month=4
 retire_year=1906
 retire_month=10
 
-constraint[next][0]=none
 constraint[prev][0]=none
+
 
 min_loading_time=95
 max_loading_time=365
