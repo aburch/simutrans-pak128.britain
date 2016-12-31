@@ -14,9 +14,11 @@ way_wear_factor=32036
 length=5
 cost=824000
 runningcost=27
-intro_year=1902
+# It is very difficult to find any information about this.
+# The previous date of 1902 is clearly far too early.
+intro_year=1929
 intro_month=3
-retire_year=1917
+retire_year=1937
 retire_month=6
 
 constraint[next][0]=none
