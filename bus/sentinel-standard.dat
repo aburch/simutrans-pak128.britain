@@ -1,4 +1,7 @@
 # http://www.tractionengine-photos.net/picture/show/1175/Sentinel-Steam-Wagon
+# This is the ligher 4t version
+# Dimensions for this are not available, so guessed as being similar to the
+# Leyland Class H.
 obj=vehicle
 name=SentinelStandardBulk
 copyright=JamesPetts&JamesHood
@@ -6,25 +9,26 @@ engine_type=steam
 smoke=Steam
 waytype=road
 freight=Kohle
-payload=5
+payload=4
 power=30
 tractive_effort=3
 speed=18
-weight=5
-axle_load=5
-way_wear_factor=3052
+weight=5.0
+axle_load=4
+way_wear_factor=2002
 length=4
-cost=124700
-runningcost=47
+cost=117500
+runningcost=53
 intro_year=1906
 intro_month=1
-retire_year=1924
-retire_month=4
+# http://www.sentinelwaggons.co.uk/sentinelpage1.htm
+retire_year=1923
+retire_month=12
 
 constraint[prev][0]=none
 
-min_loading_time=115
-max_loading_time=420
+min_loading_time=95
+max_loading_time=365
 
 EmptyImage[E]=./images/sentinel-standard-tipper-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-tipper-empty_SE.0.0,-13,0
@@ -93,25 +97,25 @@ engine_type=steam
 smoke=Steam
 waytype=road
 freight=Bretter
-payload=5
+payload=4
 power=30
 tractive_effort=3
 speed=18
-weight=5
-axle_load=5
-way_wear_factor=3052
+weight=7.2
+axle_load=4
+way_wear_factor=2002
 length=4
-cost=124700
-runningcost=47
+cost=117500
+runningcost=53
 intro_year=1906
 intro_month=1
-retire_year=1924
-retire_month=4
+retire_year=1923
+retire_month=12
 
 constraint[prev][0]=none
 
-min_loading_time=115
-max_loading_time=420
+min_loading_time=95
+max_loading_time=365
 
 EmptyImage[E]=./images/sentinel-standard-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-flat-empty_SE.0.0,-13,0
@@ -150,25 +154,25 @@ engine_type=steam
 smoke=Steam
 waytype=road
 freight=Bucher
-payload=7
+payload=6
 power=30
 tractive_effort=3
 speed=18
-weight=5
-axle_load=5
-way_wear_factor=3052
+weight=7.2
+axle_load=4
+way_wear_factor=2002
 length=4
-cost=124700
-runningcost=47
+cost=117500
+runningcost=53
 intro_year=1906
 intro_month=1
-retire_year=1924
-retire_month=4
+retire_year=1923
+retire_month=12
 
 constraint[prev][0]=none
 
-min_loading_time=115
-max_loading_time=420
+min_loading_time=95
+max_loading_time=365
 
 EmptyImage[E]=./images/sentinel-standard-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-flat-empty_SE.0.0,-13,0
@@ -196,25 +200,25 @@ engine_type=steam
 smoke=Steam
 waytype=road
 freight=meat
-payload=7
+payload=6
 power=30
 tractive_effort=3
 speed=18
-weight=5
-axle_load=5
-way_wear_factor=3052
+weight=7.2
+axle_load=4
+way_wear_factor=2002
 length=4
-cost=124700
-runningcost=47
+cost=117500
+runningcost=53
 intro_year=1906
 intro_month=1
-retire_year=1924
-retire_month=4
+retire_year=1923
+retire_month=12
 
 constraint[prev][0]=none
 
-min_loading_time=115
-max_loading_time=420
+min_loading_time=95
+max_loading_time=365
 
 EmptyImage[E]=./images/sentinel-standard-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-flat-empty_SE.0.0,-13,0
@@ -242,25 +246,25 @@ engine_type=steam
 smoke=Steam
 waytype=road
 freight=livestock
-payload=7
+payload=6
 power=30
 tractive_effort=3
 speed=18
-weight=5
+weight=7.2
 axle_load=4
 way_wear_factor=1250
 length=4
-cost=124700
-runningcost=47
+cost=117500
+runningcost=53
 intro_year=1906
 intro_month=1
-retire_year=1924
-retire_month=4
+retire_year=1923
+retire_month=12
 
 constraint[prev][0]=none
 
-min_loading_time=115
-max_loading_time=420
+min_loading_time=95
+max_loading_time=365
 
 EmptyImage[E]=./images/sentinel-standard-livestock-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-livestock-empty_SE.0.0,-13,0
@@ -293,21 +297,21 @@ payload=4
 power=30
 tractive_effort=3
 speed=18
-weight=5
+weight=7.2
 axle_load=4
 way_wear_factor=1250
 length=4
-cost=124700
-runningcost=47
+cost=117500
+runningcost=53
 intro_year=1906
 intro_month=1
-retire_year=1924
-retire_month=4
+retire_year=1923
+retire_month=12
 
 constraint[prev][0]=none
 
-min_loading_time=115
-max_loading_time=420
+min_loading_time=95
+max_loading_time=365
 
 EmptyImage[E]=./images/sentinel-standard-tanker_E.0.0,-33,14
 EmptyImage[SE]=./images/sentinel-standard-tanker_SE.0.0,-13,0

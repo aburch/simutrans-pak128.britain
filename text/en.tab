@@ -5804,17 +5804,29 @@ Sentinel S (perishable goods)
 SentinelSLivestock
 Sentinel S (livestock)
 SentinelStandardBulk
-Standard Sentinel Steam Waggon (bulk goods)
+Standard Sentinel Steam Waggon (4t) (bulk goods)
 SentinelStandardLong
-Standard Sentinel Steam Waggon (long goods)
+Standard Sentinel Steam Waggon (4t) (long goods)
 SentinelStandardPiece
-Standard Sentinel Steam Waggon (piece goods)
+Standard Sentinel Steam Waggon (4t) (piece goods)
 SentinelStandardCool
-Standard Sentinel Steam Waggon (perishable goods)
+Standard Sentinel Steam Waggon (4t) (perishable goods)
 SentinelStandardLivestock
-Standard Sentinel Steam Waggon (livestock)
+Standard Sentinel Steam Waggon (4t) (livestock)
 SentinelStandardTanker
-Standard Sentinel Steam Waggon (bulk fluids)
+Standard Sentinel Steam Waggon (4t) (bulk fluids)
+sentinel-standard-6t-bulk
+Standard Sentinel Steam Waggon (6t) (bulk goods)
+sentinel-standard-6t-long
+Standard Sentinel Steam Waggon (6t) (long goods)
+sentinel-standard-6t-piece
+Standard Sentinel Steam Waggon (6t) (piece goods)
+sentinel-standard-6t-cool
+Standard Sentinel Steam Waggon (6t) (perishable goods)
+sentinel-standard-6t-livestock
+Standard Sentinel Steam Waggon (6t) (livestock)
+sentinel-standard-6t-tanker
+Standard Sentinel Steam Waggon (6t) (bulk fluids)
 super-sentinel-bulk
 Super Sentinel Steam Waggon (bulk goods)
 super-sentinel-long
@@ -5827,6 +5839,18 @@ super-sentinel-livestock
 Super Sentinel Steam Waggon (livestock)
 super-sentinel-tanker
 Super Sentinel Steam Waggon (bulk fluids)
+super-sentinel-pneumatic-bulk
+Super Sentinel Steam Waggon (pneumatic tyres) (bulk goods)
+super-sentinel-pneumatic-long
+Super Sentinel Steam Waggon (pneumatic tyres) (long goods)
+super-sentinel-pneumatic-piece
+Super Sentinel Steam Waggon (pneumatic tyres) (piece goods)
+super-sentinel-pneumatic-cool
+Super Sentinel Steam Waggon (pneumatic tyres) (perishable goods)
+super-sentinel-pneumatic-livestock
+Super Sentinel Steam Waggon (pneumatic tyres) (livestock)
+super-sentinel-pneumatic-tanker
+Super Sentinel Steam Waggon (pneumatic tyres) (bulk fluids)
 ThornycroftWagonBulk
 Thornycroft wagon (bulk goods)
 ThornycroftWagonLong

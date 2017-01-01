@@ -1,5 +1,8 @@
 # http://collections.museumvictoria.com.au/items/407359
 # http://www.steam-up.co.uk/sentinel/sentinel_ca6395.htm
+# http://www.sentinelwaggons.co.uk/sentinelpage2.htm
+# These were cheaper to build and run than the standard
+# Sentinels.
 obj=vehicle
 name=super-sentinel-bulk
 copyright=JamesPetts&JamesHood
@@ -16,13 +19,16 @@ axle_load=6
 way_wear_factor=8192
 length=4
 cost=112000
-runningcost=50
+runningcost=35
 intro_year=1923
-intro_month=7
-retire_year=1932
-retire_month=5
+intro_month=6
+# http://www.sentinelwaggons.co.uk/sentinelpage4.htm
+retire_year=1931
+retire_month=10
 
 constraint[prev][0]=none
+
+upgrade[0]=super-sentinel-pneumatic-bulk
 
 min_loading_time=120
 max_loading_time=510
@@ -103,13 +109,15 @@ axle_load=6
 way_wear_factor=8192
 length=4
 cost=112000
-runningcost=50
+runningcost=35
 intro_year=1923
-intro_month=7
-retire_year=1932
-retire_month=5
+intro_month=6
+retire_year=1931
+retire_month=10
 
 constraint[prev][0]=none
+
+upgrade[0]=super-sentinel-pneumatic-long
 
 min_loading_time=120
 max_loading_time=510
@@ -160,13 +168,15 @@ axle_load=6
 way_wear_factor=8192
 length=4
 cost=112000
-runningcost=50
+runningcost=35
 intro_year=1923
-intro_month=7
-retire_year=1932
-retire_month=5
+intro_month=6
+retire_year=1931
+retire_month=10
 
 constraint[prev][0]=none
+
+upgrade[0]=super-sentinel-pneumatic-piece
 
 min_loading_time=120
 max_loading_time=510
@@ -207,13 +217,15 @@ axle_load=6
 way_wear_factor=8192
 length=4
 cost=112000
-runningcost=50
-intro_year=1905
-intro_month=3
-retire_year=1911
-retire_month=12
+runningcost=35
+intro_year=1923
+intro_month=6
+retire_year=1931
+retire_month=10
 
 constraint[prev][0]=none
+
+upgrade[0]=super-sentinel-pneumatic-cool
 
 min_loading_time=120
 max_loading_time=510
@@ -253,34 +265,27 @@ axle_load=6
 way_wear_factor=8192
 length=4
 cost=112000
-runningcost=50
+runningcost=35
 intro_year=1923
-intro_month=7
-retire_year=1932
-retire_month=5
+intro_month=6
+retire_year=1931
+retire_month=10
 
 constraint[prev][0]=none
+
+upgrade[0]=super-sentinel-pneumatic-livestock
 
 min_loading_time=120
 max_loading_time=510
 
-EmptyImage[E]=./images/super-sentinel-livestock-empty_E.0.0,-33,14
-EmptyImage[SE]=./images/super-sentinel-livestock-empty_SE.0.0,-13,0
-EmptyImage[S]=./images/super-sentinel-livestock-empty_S.0.0,0,0
-EmptyImage[SW]=./images/super-sentinel-livestock-empty_SW.0.0,-8,10
-EmptyImage[W]=./images/super-sentinel-livestock-empty_W.0.0,4,5
-EmptyImage[NW]=./images/super-sentinel-livestock-empty_NW.0.0,12,10
-EmptyImage[N]=./images/super-sentinel-livestock-empty_N.0.0,0,33
-EmptyImage[NE]=./images/super-sentinel-livestock-empty_NE.0.0,0,24
-
-FreightImage[E]=./images/super-sentinel-livestock-loaded_E.0.0,-33,14
-FreightImage[SE]=./images/super-sentinel-livestock-loaded_SE.0.0,-13,0
-FreightImage[S]=./images/super-sentinel-livestock-loaded_S.0.0,0,0
-FreightImage[SW]=./images/super-sentinel-livestock-loaded_SW.0.0,-8,10
-FreightImage[W]=./images/super-sentinel-livestock-loaded_W.0.0,4,5
-FreightImage[NW]=./images/super-sentinel-livestock-loaded_NW.0.0,12,10
-FreightImage[N]=./images/super-sentinel-livestock-loaded_N.0.0,0,33
-FreightImage[NE]=./images/super-sentinel-livestock-loaded_NE.0.0,0,24
+EmptyImage[E]=./images/super-sentinel-livestock_E.0.0,-33,14
+EmptyImage[SE]=./images/super-sentinel-livestock_SE.0.0,-13,0
+EmptyImage[S]=./images/super-sentinel-livestock_S.0.0,0,0
+EmptyImage[SW]=./images/super-sentinel-livestock_SW.0.0,-8,10
+EmptyImage[W]=./images/super-sentinel-livestock_W.0.0,4,5
+EmptyImage[NW]=./images/super-sentinel-livestock_NW.0.0,12,10
+EmptyImage[N]=./images/super-sentinel-livestock_N.0.0,0,33
+EmptyImage[NE]=./images/super-sentinel-livestock_NE.0.0,0,24
 
 ---
 
@@ -300,13 +305,15 @@ axle_load=6
 way_wear_factor=8192
 length=4
 cost=112000
-runningcost=50
+runningcost=35
 intro_year=1923
-intro_month=7
-retire_year=1932
-retire_month=5
+intro_month=6
+retire_year=1931
+retire_month=10
 
-constraint[prev][0]=nonerember
+constraint[prev][0]=none
+
+upgrade[0]=super-sentinel-pneumatic-tanker
 
 min_loading_time=120
 max_loading_time=510
