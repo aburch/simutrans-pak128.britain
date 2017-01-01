@@ -4,7 +4,7 @@
 # than the Super Sentinel, so assume lower
 # maintenance and weight.
 obj=vehicle
-name=sentinel-dg4-peneumatic-bulk
+name=sentinel-dg4-pneumatic-bulk
 copyright=JamesPetts&JamesHood
 engine_type=steam
 smoke=Steam
@@ -17,6 +17,7 @@ speed=50
 weight=6.6
 axle_load=6
 way_wear_factor=7692
+length=4
 cost=160000
 upgrade_price=50000
 runningcost=30
@@ -91,7 +92,7 @@ FreightImage[0][NE]=./images/sentinel-dg4-pneumatic-tipper-grain_NE.0.0,0,24
 
 ----------------------------------------
 obj=vehicle
-name=sentinel-dg4-peneumatic-long
+name=sentinel-dg4-pneumatic-long
 copyright=JamesPetts&JamesHood
 engine_type=steam
 smoke=Steam
@@ -104,6 +105,7 @@ speed=50
 weight=6.6
 axle_load=6
 way_wear_factor=7692
+length=4
 cost=160000
 upgrade_price=50000
 runningcost=30
@@ -148,7 +150,7 @@ FreightImage[0][NE]=./images/sentinel-dg4-pneumatic-flat-steel_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
-name=sentinel-dg4-peneumatic-piece
+name=sentinel-dg4-pneumatic-piece
 copyright=JamesPetts&JamesHood
 engine_type=steam
 smoke=Steam
@@ -161,6 +163,7 @@ speed=50
 weight=6
 axle_load=5
 way_wear_factor=3052
+length=4
 cost=160000
 upgrade_price=50000
 runningcost=68
@@ -185,7 +188,7 @@ EmptyImage[NE]=./images/sentinel-dg4-pneumatic-piece_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
-namesentinel-dg4-peneumatic-cool
+namesentinel-dg4-pneumatic-cool
 copyright=JamesPetts&JamesHood
 engine_type=steam
 smoke=Steam
@@ -198,6 +201,7 @@ speed=50
 weight=6
 axle_load=5
 way_wear_factor=3052
+length=4
 cost=160000
 upgrade_price=50000
 runningcost=68
@@ -222,7 +226,7 @@ EmptyImage[NE]=./images/sentinel-dg4-pneumatic-cool_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
-name=sentinel-dg4-peneumatic-livestock
+name=sentinel-dg4-pneumatic-livestock
 copyright=JamesPetts&JamesHood
 engine_type=steam
 smoke=Steam
@@ -235,6 +239,7 @@ speed=50
 weight=6
 axle_load=5
 way_wear_factor=3052
+length=4
 cost=160000
 upgrade_price=50000
 runningcost=68
@@ -259,19 +264,20 @@ EmptyImage[NE]=./images/sentinel-dg4-pneumatic-livestock_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
-name=sentinel-dg4-peneumatic-tanker
+name=sentinel-dg4-pneumatic-tanker
 copyright=JamesPetts&JamesHood
 engine_type=steam
 smoke=Steam
 waytype=road
-freight=livestock
-payload=12
+freight=Oel
+payload=6
 power=72
 tractive_effort=5
 speed=50
 weight=6
 axle_load=5
 way_wear_factor=3052
+length=4
 cost=160000
 upgrade_price=50000
 runningcost=68
