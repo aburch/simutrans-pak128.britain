@@ -24,8 +24,8 @@ retire_month=12
 
 constraint[prev][0]=none
 
-min_loading_time=95
-max_loading_time=380
+min_loading_time=115
+max_loading_time=420
 
 EmptyImage[E]=./images/leyland-class-h-tipper-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-h-tipper-empty_SE.0.0,-13,0
@@ -111,9 +111,8 @@ retire_month=12
 
 constraint[prev][0]=none
 
-
-min_loading_time=95
-max_loading_time=380
+min_loading_time=115
+max_loading_time=420
 
 EmptyImage[E]=./images/leyland-class-h-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-h-flat-empty_SE.0.0,-13,0
@@ -169,9 +168,8 @@ retire_month=12
 
 constraint[prev][0]=none
 
-
-min_loading_time=95
-max_loading_time=380
+min_loading_time=115
+max_loading_time=420
 
 EmptyImage[E]=./images/leyland-class-h-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-h-flat-empty_SE.0.0,-13,0
@@ -217,9 +215,8 @@ retire_month=12
 
 constraint[prev][0]=none
 
-
-min_loading_time=95
-max_loading_time=380
+min_loading_time=115
+max_loading_time=420
 
 EmptyImage[E]=./images/leyland-class-h-flat-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-h-flat-empty_SE.0.0,-13,0
@@ -264,9 +261,8 @@ retire_month=12
 
 constraint[prev][0]=none
 
-
-min_loading_time=95
-max_loading_time=380
+min_loading_time=115
+max_loading_time=420
 
 EmptyImage[E]=./images/leyland-class-h-livestock-empty_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-h-livestock-empty_SE.0.0,-13,0
@@ -312,8 +308,8 @@ retire_month=12
 
 constraint[prev][0]=none
 
-min_loading_time=95
-max_loading_time=380
+min_loading_time=115
+max_loading_time=420
 
 EmptyImage[E]=./images/leyland-class-h-tanker_E.0.0,-33,14
 EmptyImage[SE]=./images/leyland-class-h-tanker_SE.0.0,-13,0
