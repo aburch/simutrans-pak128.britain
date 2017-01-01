@@ -142,6 +142,16 @@ EmptyImage[NW]=./images/horse-wagon-empty_NW.0.0,12,10
 EmptyImage[N]=./images/horse-wagon-empty_N.0.0,0,33
 EmptyImage[NE]=./images/horse-wagon-empty_NE.0.0,0,24
 
+freightimagetype[2]=WroughtIron
+FreightImage[2][E]=./images/horse-wagon-wrought-iron_E.0.0,-33,14
+FreightImage[2][SE]=./images/horse-wagon-wrought-iron_SE.0.0,-13,0
+FreightImage[2][S]=./images/horse-wagon-wrought-iron_S.0.0,0,0
+FreightImage[2][SW]=./images/horse-wagon-wrought-iron_SW.0.0,-8,10
+FreightImage[2][W]=./images/horse-wagon-wrought-iron_W.0.0,4,5
+FreightImage[2][NW]=./images/horse-wagon-wrought-iron_NW.0.0,12,10
+FreightImage[2][N]=./images/horse-wagon-wrought-iron_N.0.0,0,33
+FreightImage[2][NE]=./images/horse-wagon-wrought-iron_NE.0.0,0,24
+
 freightimagetype[1]=Bretter
 FreightImage[1][E]=./images/horse-wagon-wood_E.0.0,-33,14
 FreightImage[1][SE]=./images/horse-wagon-wood_SE.0.0,-13,0

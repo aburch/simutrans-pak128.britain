@@ -129,6 +129,16 @@ EmptyImage[NW]=./images/eagle-wagon-empty_NW.0.0,12,10
 EmptyImage[N]=./images/eagle-wagon-empty_N.0.0,0,33
 EmptyImage[NE]=./images/eagle-wagon-empty_NE.0.0,0,24
 
+freightimagetype[2]=WroughtIron
+FreightImage[2][E]=./images/eagle-wagon-wrought-iron_E.0.0,-33,14
+FreightImage[2][SE]=./images/eagle-wagon-wrought-iron_SE.0.0,-13,0
+FreightImage[2][S]=./images/eagle-wagon-wrought-iron_S.0.0,0,0
+FreightImage[2][SW]=./images/eagle-wagon-wrought-iron_SW.0.0,-8,10
+FreightImage[2][W]=./images/eagle-wagon-wrought-iron_W.0.0,4,5
+FreightImage[2][NW]=./images/eagle-wagon-wrought-iron_NW.0.0,12,10
+FreightImage[2][N]=./images/eagle-wagon-wrought-iron_N.0.0,0,33
+FreightImage[2][NE]=./images/eagle-wagon-wrought-iron_NE.0.0,0,24
+
 freightimagetype[1]=Bretter
 FreightImage[1][E]=./images/eagle-wagon-wood_E.0.0,-33,14
 FreightImage[1][SE]=./images/eagle-wagon-wood_SE.0.0,-13,0
