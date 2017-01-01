@@ -152,7 +152,7 @@ engine_type=steam
 smoke=Steam
 waytype=road
 freight=Bucher
-payload=7
+payload=5
 power=18
 tractive_effort=2
 speed=12
@@ -191,8 +191,8 @@ FreightImage[NW]=./images/leyland-class-b-flat-loaded-piece_NW.0.0,12,10
 FreightImage[N]=./images/leyland-class-b-flat-loaded-piece_N.0.0,0,33
 FreightImage[NE]=./images/leyland-class-b-flat-loaded-piece_NE.0.0,0,24
 
-
 -----------------------------------------
+
 obj=vehicle
 name=leyland-class-b-cool
 copyright=JamesPetts&JamesHood
@@ -200,7 +200,7 @@ engine_type=steam
 smoke=Steam
 waytype=road
 freight=meat
-payload=7
+payload=10
 power=18
 tractive_effort=2
 speed=12

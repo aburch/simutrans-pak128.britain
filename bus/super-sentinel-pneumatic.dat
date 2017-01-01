@@ -21,11 +21,13 @@ length=4
 cost=139000
 upgrade_price=50000
 runningcost=35
-intro_year=1928
-intro_month=11
-# http://www.sentinelwaggons.co.uk/sentinelpage4.htm
-retire_year=1931
+# http://www.sentinelwaggons.co.uk/sentinelpage3.htm
+intro_year=1931
+intro_month=6
+retire_year=1939
 retire_month=10
+
+available_only_as_upgrade=1
 
 constraint[prev][0]=none
 
@@ -110,10 +112,12 @@ length=4
 cost=139000
 upgrade_price=50000
 runningcost=35
-intro_year=1928
-intro_month=11
-retire_year=1931
+intro_year=1931
+intro_month=6
+retire_year=1939
 retire_month=10
+
+available_only_as_upgrade=1
 
 constraint[prev][0]=none
 
@@ -157,7 +161,7 @@ engine_type=steam
 smoke=Steam
 waytype=road
 freight=Bucher
-payload=12
+payload=8
 power=68
 tractive_effort=4
 speed=32
@@ -168,10 +172,12 @@ length=4
 cost=139000
 upgrade_price=50000
 runningcost=35
-intro_year=1928
-intro_month=11
-retire_year=1931
+intro_year=1931
+intro_month=6
+retire_year=1939
 retire_month=10
+
+available_only_as_upgrade=1
 
 constraint[prev][0]=none
 
@@ -205,7 +211,7 @@ engine_type=steam
 smoke=Steam
 waytype=road
 freight=meat
-payload=12
+payload=15
 power=68
 tractive_effort=4
 speed=32
@@ -216,10 +222,12 @@ length=4
 cost=139000
 upgrade_price=50000
 runningcost=35
-intro_year=1928
-intro_month=11
-retire_year=1931
+intro_year=1931
+intro_month=6
+retire_year=1939
 retire_month=10
+
+available_only_as_upgrade=1
 
 constraint[prev][0]=none
 
@@ -263,9 +271,9 @@ length=4
 cost=139000
 upgrade_price=50000
 runningcost=35
-intro_year=1928
-intro_month=11
-retire_year=1931
+intro_year=1931
+intro_month=6
+retire_year=1939
 retire_month=10
 
 constraint[prev][0]=none
@@ -302,10 +310,12 @@ length=4
 cost=139000
 upgrade_price=50000
 runningcost=35
-intro_year=1928
-intro_month=11
-retire_year=1931
+intro_year=1931
+intro_month=6
+retire_year=1939
 retire_month=10
+
+available_only_as_upgrade=1
 
 constraint[prev][0]=none
 

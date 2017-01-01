@@ -155,7 +155,7 @@ name=EagleTrailerPiece
 copyright=James
 waytype=road
 freight=vegetables
-payload=6
+payload=8
 speed=20
 weight=1
 axle_load=3
@@ -171,7 +171,6 @@ rolling_resistance=120
 
 min_loading_time=300
 max_loading_time=960
-
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
@@ -206,7 +205,7 @@ name=EagleTrailerCool
 copyright=James
 waytype=road
 freight=fish
-payload=6
+payload=14
 speed=20
 weight=1
 axle_load=3
@@ -222,7 +221,6 @@ rolling_resistance=120
 
 min_loading_time=300
 max_loading_time=960
-
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
@@ -256,7 +254,7 @@ name=EagleTrailerLivestock
 copyright=James
 waytype=road
 freight=livestock
-payload=6
+payload=7
 speed=20
 weight=1
 axle_load=3
@@ -272,7 +270,6 @@ rolling_resistance=120
 
 min_loading_time=300
 max_loading_time=960
-
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
@@ -306,7 +303,7 @@ name=EagleTrailerFluid
 copyright=James
 waytype=road
 freight=Oel
-payload=8
+payload=6
 speed=20
 weight=1
 axle_load=3
@@ -322,7 +319,6 @@ rolling_resistance=120
 
 min_loading_time=300
 max_loading_time=960
-
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
