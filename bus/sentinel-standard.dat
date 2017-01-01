@@ -13,11 +13,12 @@ speed=18
 weight=5
 axle_load=5
 way_wear_factor=3052
+length=4
 cost=124700
 runningcost=47
 intro_year=1906
 intro_month=1
-retire_year=1928
+retire_year=1924
 retire_month=4
 
 
@@ -100,11 +101,12 @@ speed=18
 weight=5
 axle_load=5
 way_wear_factor=3052
+length=4
 cost=124700
 runningcost=47
 intro_year=1906
 intro_month=1
-retire_year=1928
+retire_year=1924
 retire_month=4
 
 constraint[prev][0]=none
@@ -156,11 +158,12 @@ speed=18
 weight=5
 axle_load=5
 way_wear_factor=3052
+length=4
 cost=124700
 runningcost=47
 intro_year=1906
 intro_month=1
-retire_year=1928
+retire_year=1924
 retire_month=4
 
 constraint[prev][0]=none
@@ -201,13 +204,13 @@ speed=18
 weight=5
 axle_load=5
 way_wear_factor=3052
+length=4
 cost=124700
 runningcost=47
 intro_year=1906
 intro_month=1
-retire_year=1928
+retire_year=1924
 retire_month=4
-
 
 constraint[prev][0]=none
 
@@ -247,13 +250,13 @@ speed=18
 weight=5
 axle_load=4
 way_wear_factor=1250
+length=4
 cost=124700
 runningcost=47
 intro_year=1906
 intro_month=1
-retire_year=1928
+retire_year=1924
 retire_month=4
-
 
 constraint[prev][0]=none
 
@@ -294,11 +297,12 @@ speed=18
 weight=5
 axle_load=4
 way_wear_factor=1250
+length=4
 cost=124700
 runningcost=47
 intro_year=1906
 intro_month=1
-retire_year=1928
+retire_year=1924
 retire_month=4
 
 constraint[prev][0]=none
