@@ -13,6 +13,7 @@ speed=65
 weight=6.4
 axle_load=6
 way_wear_factor=7215
+length=4
 cost=265000
 runningcost=64
 intro_year=1933
@@ -20,7 +21,7 @@ intro_month=4
 retire_year=1951
 retire_month=6
 
-constraint[next][0]=none
+
 constraint[prev][0]=none
 
 min_loading_time=120
@@ -100,6 +101,7 @@ speed=65
 weight=6.4
 axle_load=6
 way_wear_factor=7215
+length=4
 cost=265000
 runningcost=64
 intro_year=1933
@@ -107,7 +109,7 @@ intro_month=4
 retire_year=1951
 retire_month=6
 
-constraint[next][0]=none
+
 constraint[prev][0]=none
 
 min_loading_time=120
@@ -156,7 +158,8 @@ tractive_effort=5
 speed=65
 weight=6.4
 axle_load=6
-way_wear_factor=5867
+way_wear_factor=7215
+length=4
 cost=240000
 runningcost=87
 intro_year=1933
@@ -164,7 +167,7 @@ intro_month=4
 retire_year=1951
 retire_month=6
 
-constraint[next][0]=none
+
 constraint[prev][0]=none
 
 min_loading_time=120
@@ -193,7 +196,8 @@ tractive_effort=5
 speed=65
 weight=6.4
 axle_load=6
-way_wear_factor=5867
+way_wear_factor=7215
+length=4
 cost=240000
 runningcost=87
 intro_year=1933
@@ -201,7 +205,7 @@ intro_month=4
 retire_year=1951
 retire_month=6
 
-constraint[next][0]=none
+
 constraint[prev][0]=none
 
 min_loading_time=120
@@ -229,7 +233,8 @@ tractive_effort=5
 speed=65
 weight=6.4
 axle_load=6
-way_wear_factor=5867
+way_wear_factor=7215
+length=4
 cost=240000
 runningcost=87
 intro_year=1933
@@ -237,7 +242,7 @@ intro_month=4
 retire_year=1951
 retire_month=6
 
-constraint[next][0]=none
+
 constraint[prev][0]=none
 
 min_loading_time=120
@@ -267,7 +272,8 @@ tractive_effort=5
 speed=65
 weight=6.4
 axle_load=6
-way_wear_factor=5867
+way_wear_factor=7215
+length=4
 cost=240000
 runningcost=87
 intro_year=1933
@@ -275,7 +281,7 @@ intro_month=4
 retire_year=1951
 retire_month=6
 
-constraint[next][0]=none
+
 constraint[prev][0]=none
 
 min_loading_time=120
