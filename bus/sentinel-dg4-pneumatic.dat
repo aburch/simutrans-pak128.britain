@@ -119,14 +119,14 @@ constraint[prev][0]=none
 min_loading_time=120
 max_loading_time=560
 
-EmptyImage[E]=./images/sentinel-dg4-pneumatic-piece_E.0.0,-33,14
-EmptyImage[SE]=./images/sentinel-dg4-pneumatic-piece_SE.0.0,-13,0
-EmptyImage[S]=./images/sentinel-dg4-pneumatic-piece_S.0.0,0,0
-EmptyImage[SW]=./images/sentinel-dg4-pneumatic-piece_SW.0.0,-8,10
-EmptyImage[W]=./images/sentinel-dg4-pneumatic-piece_W.0.0,4,5
-EmptyImage[NW]=./images/sentinel-dg4-pneumatic-piece_NW.0.0,12,10
-EmptyImage[N]=./images/sentinel-dg4-pneumatic-piece_N.0.0,0,33
-EmptyImage[NE]=./images/sentinel-dg4-pneumatic-piece_NE.0.0,0,24
+EmptyImage[E]=./images/sentinel-dg4-pneumatic-flat-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/sentinel-dg4-pneumatic-flat-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/sentinel-dg4-pneumatic-flat-empty_S.0.0,0,0
+EmptyImage[SW]=./images/sentinel-dg4-pneumatic-flat-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/sentinel-dg4-pneumatic-flat-empty_W.0.0,4,5
+EmptyImage[NW]=./images/sentinel-dg4-pneumatic-flat-empty_NW.0.0,12,10
+EmptyImage[N]=./images/sentinel-dg4-pneumatic-flat-empty_N.0.0,0,33
+EmptyImage[NE]=./images/sentinel-dg4-pneumatic-flat-empty_NE.0.0,0,24
 
 freightimagetype[1]=Bretter
 FreightImage[1][E]=./images/sentinel-dg4-pneumatic-flat-wood_E.0.0,-33,14

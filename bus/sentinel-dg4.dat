@@ -122,14 +122,14 @@ upgrade[0]=sentinel-dg4-pneumatic-long
 min_loading_time=120
 max_loading_time=560
 
-EmptyImage[E]=./images/sentinel-dg4-piece_E.0.0,-33,14
-EmptyImage[SE]=./images/sentinel-dg4-piece_SE.0.0,-13,0
-EmptyImage[S]=./images/sentinel-dg4-piece_S.0.0,0,0
-EmptyImage[SW]=./images/sentinel-dg4-piece_SW.0.0,-8,10
-EmptyImage[W]=./images/sentinel-dg4-piece_W.0.0,4,5
-EmptyImage[NW]=./images/sentinel-dg4-piece_NW.0.0,12,10
-EmptyImage[N]=./images/sentinel-dg4-piece_N.0.0,0,33
-EmptyImage[NE]=./images/sentinel-dg4-piece_NE.0.0,0,24
+EmptyImage[E]=./images/sentinel-dg4-flat-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/sentinel-dg4-flat-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/sentinel-dg4-flat-empty_S.0.0,0,0
+EmptyImage[SW]=./images/sentinel-dg4-flat-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/sentinel-dg4-flat-empty_W.0.0,4,5
+EmptyImage[NW]=./images/sentinel-dg4-flat-empty_NW.0.0,12,10
+EmptyImage[N]=./images/sentinel-dg4-flat-empty_N.0.0,0,33
+EmptyImage[NE]=./images/sentinel-dg4-flat-empty_NE.0.0,0,24
 
 freightimagetype[1]=Bretter
 FreightImage[1][E]=./images/sentinel-dg4-flat-wood_E.0.0,-33,14
