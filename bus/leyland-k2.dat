@@ -32,13 +32,14 @@ max_loading_time=50
 constraint[next][0]=none 
 constraint[prev][0]=none 
 
+liverytype[0]=LT
 
-EmptyImage[E]=./images/leyland-k2.0.0
-EmptyImage[SE]=./images/leyland-k2.0.1
-EmptyImage[S]=./images/leyland-k2.0.2
-EmptyImage[SW]=./images/leyland-k2.0.3
-EmptyImage[W]=./images/leyland-k2.0.4
-EmptyImage[NW]=./images/leyland-k2.0.5
-EmptyImage[N]=./images/leyland-k2.0.6
-EmptyImage[NE]=./images/leyland-k2.0.7
+EmptyImage[E][0]=./images/leyland-k2-lt_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-k2-lt_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-k2-lt_S.0.0,0,0
+EmptyImage[SW][0]=./images/leyland-k2-lt_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-k2-lt_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-k2-lt_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-k2-lt_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-k2-lt_NE.0.0,0,24
 
