@@ -1,19 +1,21 @@
 # MCW Q1 Trolleybus
-#
-#
+# See p. 47 of "Glasgow Trolleybuses" by Brian T. Deans
+# 8ft wide
 obj=vehicle
 name=MCWQ1
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=electric
 freight=Passagiere
-payload=71
-overcrowded_capacity=6
+payload=70
+overcrowded_capacity=7
 speed=50
-power=135
-tractive_effort=16
+# Trolleybuses generally had only 1 motor:
+# http://www.ltmcollection.org/museum/object/link.html?_IXMAXHITS_=1&IXinv=1981/528&IXexpand=designservice	
+power=89
+tractive_effort=65
 gear=80
-weight=9
+weight=10.1
 axles=3
 cost=42000
 runningcost=96
@@ -22,20 +24,19 @@ intro_month=1
 retire_year=1966
 retire_month=1
 
-comfort=46
+# "The Rolls-Royce of trolleybuses"
+comfort=51
 min_loading_time=10
 max_loading_time=50
 
-constraint[next][0]=none 
-constraint[prev][0]=none 
+liverytype[0]=LT
 
-
-EmptyImage[E]=./images/mcw-q1.0.0
-EmptyImage[SE]=./images/mcw-q1.0.1
-EmptyImage[S]=./images/mcw-q1.0.2
-EmptyImage[SW]=./images/mcw-q1.0.3
-EmptyImage[W]=./images/mcw-q1.0.4
-EmptyImage[NW]=./images/mcw-q1.0.5
-EmptyImage[N]=./images/mcw-q1.0.6
-EmptyImage[NE]=./images/mcw-q1.0.7
+EmptyImage[E][0]=./images/mcw-q1-lt_E.0.0,-33,14
+EmptyImage[SE][0]=./images/mcw-q1-lt_SE.0.0,-13,0
+EmptyImage[S][0]=./images/mcw-q1-lt_S.0.0,0,0
+EmptyImage[SW][0]=./images/mcw-q1-lt_SW.0.0,-8,10
+EmptyImage[W][0]=./images/mcw-q1-lt_W.0.0,4,5
+EmptyImage[NW][0]=./images/mcw-q1-lt_NW.0.0,12,10
+EmptyImage[N][0]=./images/mcw-q1-lt_N.0.0,0,33
+EmptyImage[NE][0]=./images/mcw-q1-lt_NE.0.0,0,24
 

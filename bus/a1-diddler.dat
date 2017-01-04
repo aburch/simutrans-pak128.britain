@@ -10,9 +10,11 @@ engine_type=electric
 freight=Passagiere
 payload=56
 overcrowded_capacity=5
-speed=32
-power=100
-tractive_effort=12
+# http://www.20thcenturylondon.org.uk/trolleybuses
+speed=48
+# Guesssed
+power=70
+tractive_effort=38
 gear=80
 weight=6
 axle_load=3
