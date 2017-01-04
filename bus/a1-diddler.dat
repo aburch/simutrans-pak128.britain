@@ -1,13 +1,14 @@
 # The A1 "Diddler" - London's first trolleybus
 # See here for details: 
-# http://www.20thcenturylondon.org.uk/server.php?show=ConMediaFile.5490
+# http://www.20thcenturylondon.org.uk/ltm-1981-527
+# http://www.dougrose.co.uk/bus_drawings/diddler.htm
 obj=vehicle
 name=A1Diddler
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=electric
 freight=Passagiere
-payload=66
+payload=56
 overcrowded_capacity=5
 speed=32
 power=100
@@ -22,19 +23,31 @@ intro_year=1931
 intro_month=5
 retire_year=1937
 retire_month=8
+
 constraint[next][0]=none 
 constraint[prev][0]=none 
 
 comfort=45
-min_loading_time=10
-max_loading_time=45
+min_loading_time=11
+max_loading_time=47
 
-EmptyImage[E]=./images/a1-diddler.0.0
-EmptyImage[SE]=./images/a1-diddler.0.1
-EmptyImage[S]=./images/a1-diddler.0.2
-EmptyImage[SW]=./images/a1-diddler.0.3
-EmptyImage[W]=./images/a1-diddler.0.4
-EmptyImage[NW]=./images/a1-diddler.0.5
-EmptyImage[N]=./images/a1-diddler.0.6
-EmptyImage[NE]=./images/a1-diddler.0.7
+liverytype[0]=LUT-vermillion
+liverytype[1]=LT
 
+EmptyImage[E][0]=./images/a1-diddler-lut_E.0.0,-33,14
+EmptyImage[SE][0]=./images/a1-diddler-lut_SE.0.0,-13,0
+EmptyImage[S][0]=./images/a1-diddler-lut_S.0.0,0,0
+EmptyImage[SW][0]=./images/a1-diddler-lut_SW.0.0,-8,10
+EmptyImage[W][0]=./images/a1-diddler-lut_W.0.0,4,5
+EmptyImage[NW][0]=./images/a1-diddler-lut_NW.0.0,12,10
+EmptyImage[N][0]=./images/a1-diddler-lut_N.0.0,0,33
+EmptyImage[NE][0]=./images/a1-diddler-lut_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/a1-diddler-lt_E.0.0,-33,14
+EmptyImage[SE][1]=./images/a1-diddler-lt_SE.0.0,-13,0
+EmptyImage[S][1]=./images/a1-diddler-lt_S.0.0,0,0
+EmptyImage[SW][1]=./images/a1-diddler-lt_SW.0.0,-8,10
+EmptyImage[W][1]=./images/a1-diddler-lt_W.0.0,4,5
+EmptyImage[NW][1]=./images/a1-diddler-lt_NW.0.0,12,10
+EmptyImage[N][1]=./images/a1-diddler-lt_N.0.0,0,33
+EmptyImage[NE][1]=./images/a1-diddler-lt_NE.0.0,0,24
