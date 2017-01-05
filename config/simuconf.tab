@@ -1559,8 +1559,9 @@ livery[32][3] = Blackpool-purple
 intro_year[32][3] = 2012
 intro_month[32][3] = 4
 
+# Including SYPTE
 livery_scheme[33] = Sheffield
-retire_year[33] = 2500
+retire_year[33] = 2999
 retire_month[33] = 1
 livery[33][0] = Sheffield-dark
 intro_year[33][0] = 1896
@@ -1568,9 +1569,13 @@ intro_month[33][0] = 4
 livery[33][1] = Sheffield-light
 intro_year[33][1] = 1936
 intro_month[33][1] = 2
-livery[33][2] = Sheffield-modern
-intro_year[33][2] = 1994
-intro_month[33][2] = 3
+livery[33][2] = SYPTE
+intro_year[33][2] = 1974
+intro_month[33][2] = 4
+# For the Super-tram
+livery[33][3] = Sheffield-modern
+intro_year[33][3] = 1994
+intro_month[33][3] = 3
 
 livery_scheme[34] = LCC
 retire_year[34] = 1933
