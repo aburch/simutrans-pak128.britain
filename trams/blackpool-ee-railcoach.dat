@@ -27,16 +27,16 @@ sound=-1
 can_lead_from_rear=1
 bidirectional=1
 
-way_constraint_permissive[0]=1
-way_constraint_prohibitive[x]=0
+way_constraint_permissive[1]=1
+way_constraint_prohibitive[0]=0
 comfort=49
 min_loading_time=10
 max_loading_time=55
 
-upgrade[x]=Blackpool-ProgressTwin-Power
+upgrade[0]=Blackpool-ProgressTwin-Power
 
-Constraint[Prev][x]=none
-Constraint[Next][x]=none
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
 
 liverytype[0]=Blackpool-green
 liverytype[1]=WW2-Austerity
