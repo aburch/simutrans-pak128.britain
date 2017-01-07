@@ -38,6 +38,8 @@ liverytype[3]=Leaf-Green
 liverytype[4]=Poppy-Red
 liverytype[5]=Firstgroup-Mauve
 liverytype[6]=Arriva-original
+liverytype[7]=GGPTE
+liverytype[8]=SPTE
 
 EmptyImage[E][0]=./images/dennis-dominator-private_E.0.0,-33,14
 EmptyImage[SE][0]=./images/dennis-dominator-private_SE.0.0,-13,0
@@ -101,3 +103,21 @@ EmptyImage[W][6]=./images/dennis-dominator-arriva_W.0.0,4,5
 EmptyImage[NW][6]=./images/dennis-dominator-arriva_NW.0.0,12,10
 EmptyImage[N][6]=./images/dennis-dominator-arriva_N.0.0,0,33
 EmptyImage[NE][6]=./images/dennis-dominator-arriva_NE.0.0,0,24
+
+EmptyImage[E][7]=./images/dennis-dominator-ggpte_E.0.0,-33,14
+EmptyImage[SE][7]=./images/dennis-dominator-ggpte_SE.0.0,-13,0
+EmptyImage[S][7]=./images/dennis-dominator-ggpte_S.0.0,4,0
+EmptyImage[SW][7]=./images/dennis-dominator-ggpte_SW.0.0,-8,10
+EmptyImage[W][7]=./images/dennis-dominator-ggpte_W.0.0,4,5
+EmptyImage[NW][7]=./images/dennis-dominator-ggpte_NW.0.0,12,10
+EmptyImage[N][7]=./images/dennis-dominator-ggpte_N.0.0,0,33
+EmptyImage[NE][7]=./images/dennis-dominator-ggpte_NE.0.0,0,24
+
+EmptyImage[E][8]=./images/dennis-dominator-trathclyde_E.0.0,-33,14
+EmptyImage[SE][8]=./images/dennis-dominator-trathclyde_SE.0.0,-13,0
+EmptyImage[S][8]=./images/dennis-dominator-trathclyde_S.0.0,4,0
+EmptyImage[SW][8]=./images/dennis-dominator-trathclyde_SW.0.0,-8,10
+EmptyImage[W][8]=./images/dennis-dominator-trathclyde_W.0.0,4,5
+EmptyImage[NW][8]=./images/dennis-dominator-trathclyde_NW.0.0,12,10
+EmptyImage[N][8]=./images/dennis-dominator-trathclyde_N.0.0,0,33
+EmptyImage[NE][8]=./images/dennis-dominator-trathclyde_NE.0.0,0,24
