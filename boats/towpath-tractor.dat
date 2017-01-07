@@ -1,7 +1,8 @@
 obj=vehicle
 name=TowpathTractor
-engine_type=petrol
+engine_type=diesel
 smoke=Diesel
+sound=tractor.wav
 speed=14
 power=80
 #gear=1200
