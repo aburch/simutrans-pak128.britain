@@ -10,16 +10,14 @@ tractive_effort=34
 copyright=James&JamesPetts
 intro_year=1937
 intro_month=6
-retire_year=1954
+retire_year=1949
 retire_month=3
 waytype=tram_track
 freight=Passagiere
-# Guessed
-payload=66
+# http://www.semple.biz/glasgow/tram%20rolling%20stock.shtml
+payload=64
 # The standing capacity is shown on this video: 
 # https://www.youtube.com/watch?v=XIF_hfYj3NI
-# The first digit of the total capacity, being 6,
-# is also visible.
 overcrowded_capacity=10
 
 # Guessed
