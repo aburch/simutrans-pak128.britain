@@ -450,8 +450,6 @@ Obj=tunnel
 Name=RailTunnelHighSpeed
 copyright=James
 waytype=track
-# Disabled for the reasons set out above
-# way=Channel_Tunnel_Track
 cost=4400000
 maintenance=7000
 # https://de.wikipedia.org/wiki/Schulwaldtunnel
