@@ -8,14 +8,14 @@ engine_type=electric
 freight=Passagiere
 payload=76
 overcrowded_capacity=14
-speed=70
-power=167
+speed=64
+power=132
 tractive_effort=70
 gear=80
-# Weight guessed
-weight=11.4
+weight=10.4
 axles=2
 length=7
+# Actual cost circa £100,000 (Trolleybus Database CD-ROM)
 cost=517000 
 runningcost=67
 intro_year=1977
