@@ -4,6 +4,7 @@ copyright=James
 waytype=water
 engine_type=diesel
 smoke=Diesel
+sound=ship-horn_a.wav
 speed=40
 power=27000
 gear=100
@@ -13,6 +14,7 @@ cost=91000000
 runningcost=710
 intro_year=1991
 intro_month=9
+is_tall=1
 
 # 30-45 minutes
 min_loading_time=2400

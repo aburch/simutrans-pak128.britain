@@ -4,6 +4,7 @@ copyright=Druid/James
 waytype=water
 engine_type=steam
 smoke=Steam
+sound=ship-horn_a.wav
 speed=20
 # https://en.wikipedia.org/wiki/SS_Clan_Alpine_%281942%29#Propulsion
 power=1870
@@ -17,6 +18,7 @@ intro_year=1912
 intro_month=2
 retire_year=1961
 retire_month=6
+is_tall=1
 
 # 2-3 hours
 min_loading_time=7200

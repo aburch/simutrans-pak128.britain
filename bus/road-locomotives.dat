@@ -16,6 +16,7 @@ intro_year=1857
 intro_month=6
 retire_year=1921
 retire_month=9
+is_tall=1
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
@@ -49,6 +50,7 @@ intro_year=1876
 intro_month=4
 retire_year=1932
 retire_month=5
+is_tall=1
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive

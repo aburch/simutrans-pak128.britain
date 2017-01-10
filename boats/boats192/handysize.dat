@@ -3,6 +3,7 @@ name=HandysizePiece
 copyright=Druid/James
 waytype=water
 engine_type=diesel
+sound=ship-horn_a.wav
 # http://marine.man.eu/docs/librariesprovider6/technical-papers/propulsion-of-30000-dwt-handysize-bulk-carrier.pdf?sfvrsn=16
 speed=25
 power=6100
@@ -15,6 +16,7 @@ cost=67500000
 runningcost=350
 intro_year=1958
 intro_month=1
+is_tall=1
 
 # 2-3 hours
 min_loading_time=7200

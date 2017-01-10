@@ -17,6 +17,7 @@ intro_month=1
 # 1-2 hours
 min_loading_time=3600
 max_loading_time=7200
+is_tall=1
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -55,6 +56,7 @@ retire_month=1
 # 1-2 hours
 min_loading_time=3600
 max_loading_time=7200
+is_tall=1
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

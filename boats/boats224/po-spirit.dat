@@ -4,6 +4,7 @@ copyright=James
 waytype=water
 engine_type=diesel
 smoke=Diesel
+sound=ship-horn_a.wav
 speed=40
 power=30400
 gear=100
@@ -15,6 +16,7 @@ cost=94000000
 runningcost=700
 intro_year=2011
 intro_month=7
+is_tall=1
 
 comfort=168
 catering_level=4

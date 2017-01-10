@@ -4,6 +4,7 @@ copyright=James
 waytype=water
 engine_type=diesel
 smoke=Diesel
+sound=ship-horn_a.wav
 speed=35
 power=8835
 #gear=500
@@ -15,6 +16,7 @@ intro_year=1975
 intro_month=11
 retire_year=1991
 retire_month=9
+is_tall=1
 
 # 35-50 minutes
 min_loading_time=2100

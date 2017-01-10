@@ -3,6 +3,7 @@ name=WindjammerHull
 copyright=James
 waytype=water
 engine_type=sail
+sound=ship-horn_a.wav
 speed=18
 power=1200
 weight=500
@@ -13,6 +14,7 @@ intro_year=1880
 intro_month=1
 retire_year=1939
 retire_month=9
+is_tall=1
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

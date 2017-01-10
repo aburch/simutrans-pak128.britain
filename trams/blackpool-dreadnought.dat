@@ -21,6 +21,7 @@ axles=4
 cost=325000
 runningcost=57
 sound=-1
+is_tall=1
 
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0

@@ -4,6 +4,7 @@ copyright=James
 waytype=water
 engine_type=steam
 smoke=Steam
+sound=ship-horn_a.wav
 speed=40
 power=6340
 #gear=400
@@ -17,6 +18,7 @@ intro_year=1925
 intro_month=7
 retire_year=1939
 retire_month=6
+is_tall=1
 
 comfort=145
 catering_level=4
