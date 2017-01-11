@@ -40,6 +40,7 @@ liverytype[5]=Firstgroup-Mauve
 liverytype[6]=Arriva-original
 liverytype[7]=GGPTE
 liverytype[8]=SPTE
+liverytype[9]=WYPTE-Green-Cream
 
 EmptyImage[E][0]=./images/dennis-dominator-trolley-private_E.0.0,-33,14
 EmptyImage[SE][0]=./images/dennis-dominator-trolley-private_SE.0.0,-13,0
@@ -121,3 +122,12 @@ EmptyImage[W][8]=./images/dennis-dominator-trolley-strathclyde_W.0.0,4,5
 EmptyImage[NW][8]=./images/dennis-dominator-trolley-strathclyde_NW.0.0,12,10
 EmptyImage[N][8]=./images/dennis-dominator-trolley-strathclyde_N.0.0,0,33
 EmptyImage[NE][8]=./images/dennis-dominator-trolley-strathclyde_NE.0.0,0,24
+
+EmptyImage[E][9]=./images/dennis-dominator-trolley-wypte_E.0.0,-33,14
+EmptyImage[SE][9]=./images/dennis-dominator-trolley-wypte_SE.0.0,-13,0
+EmptyImage[S][9]=./images/dennis-dominator-trolley-wypte_S.0.0,4,0
+EmptyImage[SW][9]=./images/dennis-dominator-trolley-wypte_SW.0.0,-8,10
+EmptyImage[W][9]=./images/dennis-dominator-trolley-wypte_W.0.0,4,5
+EmptyImage[NW][9]=./images/dennis-dominator-trolley-wypte_NW.0.0,12,10
+EmptyImage[N][9]=./images/dennis-dominator-trolley-wypte_N.0.0,0,33
+EmptyImage[NE][9]=./images/dennis-dominator-trolley-wypte_NE.0.0,0,24
