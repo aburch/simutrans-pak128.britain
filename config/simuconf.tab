@@ -736,6 +736,14 @@ onward_trip_chance_percent = 25
 # trip that is not a commuting trip is classed as a visiting trip.
 commuting_trip_chance_percent = 67
 
+# disable companies from making ways public with the appropiate tool
+# even when disabled companies can still make stops public
+# does not affect public service provider player
+disable_make_way_public = 0
+
+ # The number of months of maintainance that the make public tool costs to use
+cst_make_public_months = 60
+
 ################################### Time settings ################################
 
 # Enforce vehicle introduction dates?
