@@ -41,6 +41,8 @@ liverytype[6]=Arriva-original
 liverytype[7]=GGPTE
 liverytype[8]=SPTE
 liverytype[9]=WYPTE-Green-Cream
+liverytype[10]=GMPTE-orange-brown
+liverytype[11]=GM-buses
 
 EmptyImage[E][0]=./images/dennis-dominator-trolley-private_E.0.0,-33,14
 EmptyImage[SE][0]=./images/dennis-dominator-trolley-private_SE.0.0,-13,0
@@ -131,3 +133,21 @@ EmptyImage[W][9]=./images/dennis-dominator-trolley-wypte_W.0.0,4,5
 EmptyImage[NW][9]=./images/dennis-dominator-trolley-wypte_NW.0.0,12,10
 EmptyImage[N][9]=./images/dennis-dominator-trolley-wypte_N.0.0,0,33
 EmptyImage[NE][9]=./images/dennis-dominator-trolley-wypte_NE.0.0,0,24
+
+EmptyImage[E][10]=./images/dennis-dominator-trolley-gmpte_E.0.0,-33,14
+EmptyImage[SE][10]=./images/dennis-dominator-trolley-gmpte_SE.0.0,-13,0
+EmptyImage[S][10]=./images/dennis-dominator-trolley-gmpte_S.0.0,4,0
+EmptyImage[SW][10]=./images/dennis-dominator-trolley-gmpte_SW.0.0,-8,10
+EmptyImage[W][10]=./images/dennis-dominator-trolley-gmpte_W.0.0,4,5
+EmptyImage[NW][10]=./images/dennis-dominator-trolley-gmpte_NW.0.0,12,10
+EmptyImage[N][10]=./images/dennis-dominator-trolley-gmpte_N.0.0,0,33
+EmptyImage[NE][10]=./images/dennis-dominator-trolley-gmpte_NE.0.0,0,24
+
+EmptyImage[E][11]=./images/dennis-dominator-trolley-gm-buses_E.0.0,-33,14
+EmptyImage[SE][11]=./images/dennis-dominator-trolley-gm-buses_SE.0.0,-13,0
+EmptyImage[S][11]=./images/dennis-dominator-trolley-gm-buses_S.0.0,4,0
+EmptyImage[SW][11]=./images/dennis-dominator-trolley-gm-buses_SW.0.0,-8,10
+EmptyImage[W][11]=./images/dennis-dominator-trolley-gm-buses_W.0.0,4,5
+EmptyImage[NW][11]=./images/dennis-dominator-trolley-gm-buses_NW.0.0,12,10
+EmptyImage[N][11]=./images/dennis-dominator-trolley-gm-buses_N.0.0,0,33
+EmptyImage[NE][11]=./images/dennis-dominator-trolley-gm-buses_NE.0.0,0,24

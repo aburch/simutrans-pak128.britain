@@ -1903,14 +1903,25 @@ intro_year[59][3] = 1997
 intro_month[59][3] = 3
 
 livery_scheme[60] = GMPTE
-retire_year[60] = 1997
-retire_month[60] = 3
-livery[60][0] = GMPTE-orange-white
+retire_year[60] = 2999
+retire_month[60] = 9
+livery[60][0] = SELNEC
 intro_year[60][0] = 1969
 intro_month[60][0] = 4
-livery[60][1] = GMPTE-black-red
-intro_year[60][1] = 1991
-intro_month[60][1] = 5
+livery[60][1] = GMPTE-orange-brown
+intro_year[60][1] = 1974
+intro_month[60][1] = 4
+# https://en.wikipedia.org/wiki/GM_Buses
+livery[60][2] = GM-buses
+intro_year[60][2] = 1986
+intro_month[60][2] =104
+# This is a railway livery (class 323)
+livery[60][3] = GMPTE-black-red
+intro_year[60][3] = 1991
+intro_month[60][3] = 5
+livery[60][4] = TfGM
+intro_year[60][4] = 2011
+intro_month[60][4] = 4
 
 livery_scheme[61] = Arriva
 retire_year[61] = 2999
