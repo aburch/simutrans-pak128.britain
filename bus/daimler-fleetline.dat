@@ -1,5 +1,5 @@
-# Daimler Fleetline
-#
+# http://web.archive.org/web/20130822192322/http://www.countrybus.org/DMS/DMS1.htm
+# https://en.wikipedia.org/wiki/Daimler_Fleetline
 obj=vehicle
 name=DaimlerFleetline
 copyright=JamesPetts&JamesHood
@@ -9,10 +9,10 @@ freight=Passagiere
 payload=68
 overcrowded_capacity=21
 speed=75
-power=95
-tractive_effort=16
+power=134
+tractive_effort=12
 gear=50
-weight=15
+weight=10.0
 axles=2
 length=6
 cost=3440000
@@ -30,12 +30,13 @@ max_loading_time=50
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/daimler-fleetline.0.0
-EmptyImage[SE]=./images/daimler-fleetline.0.1
-EmptyImage[S]=./images/daimler-fleetline.0.2
-EmptyImage[SW]=./images/daimler-fleetline.0.3
-EmptyImage[W]=./images/daimler-fleetline.0.4
-EmptyImage[NW]=./images/daimler-fleetline.0.5
-EmptyImage[N]=./images/daimler-fleetline.0.6
-EmptyImage[NE]=./images/daimler-fleetline.0.7
+liverytype[0]=LT-revised
 
+EmptyImage[E][0]=./images/daimler-fleetline-lt-red_E.0.0,-33,14
+EmptyImage[SE][0]=./images/daimler-fleetline-lt-red_SE.0.0,-13,0
+EmptyImage[S][0]=./images/daimler-fleetline-lt-red_S.0.0,4,0
+EmptyImage[SW][0]=./images/daimler-fleetline-lt-red_SW.0.0,-8,10
+EmptyImage[W][0]=./images/daimler-fleetline-lt-red_W.0.0,4,5
+EmptyImage[NW][0]=./images/daimler-fleetline-lt-red_NW.0.0,12,10
+EmptyImage[N][0]=./images/daimler-fleetline-lt-red_N.0.0,0,33
+EmptyImage[NE][0]=./images/daimler-fleetline-lt-red_NE.0.0,0,24
