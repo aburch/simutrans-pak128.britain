@@ -1,24 +1,25 @@
-# Guy Arab - wartime austerity double-decker
-#
+# http://web.archive.org/web/20121001025604/http://www.countrybus.org/Guy/G1.htm#pk
 obj=vehicle
 name=GuyArab
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
 freight=Passagiere
-payload=62
+# http://www.londonbusmuseum.com/museum-exhibits/double-deck-buses/guy-arab-ii-g-351/
+payload=56
 overcrowded_capacity=5
 speed=32
-power=83
+power=63
+tractive_effort=8
 gear=50
-weight=7
+weight=7.8
 axle_load=4
 length=6
 cost=580000
 runningcost=180
 intro_year=1942
 intro_month=8
-retire_year=1951
+retire_year=1949
 retire_month=3
 is_tall=1
 
@@ -30,12 +31,33 @@ increase_maintenance_after_years=10
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/guy-arab.0.0
-EmptyImage[SE]=./images/guy-arab.0.1
-EmptyImage[S]=./images/guy-arab.0.2
-EmptyImage[SW]=./images/guy-arab.0.3
-EmptyImage[W]=./images/guy-arab.0.4
-EmptyImage[NW]=./images/guy-arab.0.5
-EmptyImage[N]=./images/guy-arab.0.6
-EmptyImage[NE]=./images/guy-arab.0.7
+liverytype[0]=LT
+liverytype[1]=LT-revised
+liverytype[2]=WW2-Austerity
 
+EmptyImage[E][0]=./images/guy-arab-mk1-lt-red-white_E.0.0,-33,14
+EmptyImage[SE][0]=./images/guy-arab-mk1-lt-red-white_SE.0.0,-13,0
+EmptyImage[S][0]=./images/guy-arab-mk1-lt-red-white_S.0.0,4,0
+EmptyImage[SW][0]=./images/guy-arab-mk1-lt-red-white_SW.0.0,-8,10
+EmptyImage[W][0]=./images/guy-arab-mk1-lt-red-white_W.0.0,4,5
+EmptyImage[NW][0]=./images/guy-arab-mk1-lt-red-white_NW.0.0,12,10
+EmptyImage[N][0]=./images/guy-arab-mk1-lt-red-white_N.0.0,0,33
+EmptyImage[NE][0]=./images/guy-arab-mk1-lt-red-white_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/guy-arab-mk1-lt-overall-red_E.0.0,-33,14
+EmptyImage[SE][1]=./images/guy-arab-mk1-lt-overall-red_SE.0.0,-13,0
+EmptyImage[S][1]=./images/guy-arab-mk1-lt-overall-red_S.0.0,4,0
+EmptyImage[SW][1]=./images/guy-arab-mk1-lt-overall-red_SW.0.0,-8,10
+EmptyImage[W][1]=./images/guy-arab-mk1-lt-overall-red_W.0.0,4,5
+EmptyImage[NW][1]=./images/guy-arab-mk1-lt-overall-red_NW.0.0,12,10
+EmptyImage[N][1]=./images/guy-arab-mk1-lt-overall-red_N.0.0,0,33
+EmptyImage[NE][1]=./images/guy-arab-mk1-lt-overall-red_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/guy-arab-mk1-austerity_E.0.0,-33,14
+EmptyImage[SE][2]=./images/guy-arab-mk1-austerity_SE.0.0,-13,0
+EmptyImage[S][2]=./images/guy-arab-mk1-austerity_S.0.0,4,0
+EmptyImage[SW][2]=./images/guy-arab-mk1-austerity_SW.0.0,-8,10
+EmptyImage[W][2]=./images/guy-arab-mk1-austerity_W.0.0,4,5
+EmptyImage[NW][2]=./images/guy-arab-mk1-austerity_NW.0.0,12,10
+EmptyImage[N][2]=./images/guy-arab-mk1-austerity_N.0.0,0,33
+EmptyImage[NE][2]=./images/guy-arab-mk1-austerity_NE.0.0,0,24
