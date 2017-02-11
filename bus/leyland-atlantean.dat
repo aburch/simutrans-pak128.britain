@@ -1,12 +1,5 @@
-# Leyland Atlantean
-# NOTE: This is just the chassis. Need more varieties of bodies.
-# The type in the current graphics is one of hte latest types built,
-# from 1984 (Greater Manchester): see http://en.wikipedia.org/wiki/Leyland_Atlantean
-#
-# This version introduced in 1958 should be based on the first Atlantean,
-# this 'bus: http://201busgroup.wordpress.com/our-buses/fhf-451/.
-# The early version were single door 'buses, with higher seating capacity
-# but slower loading times.
+# https://en.wikipedia.org/wiki/Leyland_Atlantean
+# This is the original, PD version
 obj=vehicle
 name=LeylandAtlantean
 copyright=JamesPetts&JamesHood
@@ -26,8 +19,8 @@ cost=3750000
 runningcost=155
 intro_year=1958
 intro_month=12
-retire_year=1978
-retire_month=8
+retire_year=1974
+retire_month=11
 
 comfort=41
 min_loading_time=35
