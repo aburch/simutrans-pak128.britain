@@ -30,8 +30,9 @@ retire_month=5
 is_tall=1
 
 comfort=21
-min_loading_time=11
-max_loading_time=45
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=68
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

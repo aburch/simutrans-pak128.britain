@@ -22,8 +22,9 @@ retire_year=1936
 retire_month=7
 
 comfort=62
+# Coach: 7.5 seconds per passenger
 min_loading_time=30
-max_loading_time=67
+max_loading_time=218
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

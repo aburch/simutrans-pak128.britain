@@ -26,8 +26,9 @@ cost=5000000
 runningcost=80
 
 comfort=40
-min_loading_time=20
-max_loading_time=60
+# Single entrance pay driver: 4.0 seconds per passenger
+min_loading_time=5
+max_loading_time=168
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

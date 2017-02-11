@@ -31,8 +31,9 @@ constraint[next][0]=none
 constraint[prev][0]=none 
 
 comfort=45
-min_loading_time=11
-max_loading_time=47
+min_loading_time=3
+# Rear platform with conductor: 2.0 seconds per passenger
+max_loading_time=112
 
 liverytype[0]=LUT-vermillion
 liverytype[1]=LT

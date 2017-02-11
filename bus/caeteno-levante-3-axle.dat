@@ -13,7 +13,7 @@ speed=96
 # Volvo DH12E engine at 340hp
 # http://www.volvobuses.com/SiteCollectionDocuments/VBC/United_Kingdom_and_Ireland/Downloads/b12b_ifs_rhd_6x2.pdf
 power=254
-tractive_effort=11
+tractive_effort=45
 gear=50
 weight=19
 axles=3
@@ -26,8 +26,9 @@ intro_month=9
 
 comfort=99
 catering_level=1
-min_loading_time=45
-max_loading_time=270
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=450
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

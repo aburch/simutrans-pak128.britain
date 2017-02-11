@@ -24,8 +24,8 @@ retire_month=7
 is_tall=1
 
 comfort=38
-min_loading_time=20
-# Three seconds per passenger
+min_loading_time=4
+# Three seconds per passenger (AFC)
 max_loading_time=204
 
 Constraint[Prev][0]=none

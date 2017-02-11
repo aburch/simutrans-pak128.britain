@@ -18,13 +18,11 @@ cost=3950000
 runningcost=180
 intro_year=2006
 intro_month=5
-#retire_year=2026
-#retire_month=11
-# Do not retire - has no replacements!
 
 comfort=42
-min_loading_time=12
-max_loading_time=45
+# Two smartcard/prepay: 2.0 seconds per passenger
+min_loading_time=5
+max_loading_time=84
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=WrightStreetcar(Rear)
@@ -58,12 +56,11 @@ cost=0
 runningcost=0
 intro_year=2006
 intro_month=5
-#retire_year=2026
-#retire_month=11
 
 comfort=42
-min_loading_time=12
-max_loading_time=45
+# Two smartcard/prepay: 2.0 seconds per passenger
+min_loading_time=5
+max_loading_time=84
 
 Constraint[Prev][0]=WrightStreetcar(Front)
 Constraint[Next][0]=none

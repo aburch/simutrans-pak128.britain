@@ -23,8 +23,9 @@ retire_month=4
 is_tall=1
 
 comfort=38
-min_loading_time=20
-max_loading_time=80
+# Two door pay driver: 3.0 seconds per passenger
+min_loading_time=5
+max_loading_time=243
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
