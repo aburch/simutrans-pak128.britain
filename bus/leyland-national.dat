@@ -11,25 +11,25 @@ tractive_effort=20
 copyright=Kieron
 intro_year=1972
 intro_month=2
-# TODO: Retire this early when the Mk. II is added
-retire_year=1986
-retire_month=3
+retire_year=1980
+retire_month=9
 waytype=road
 freight=Passagiere
-payload=44
+payload=49
 overcrowded_capacity=20
 length=6
 
 weight=9
 axles=2
-cost=700000
+cost=720000
 runningcost=135
 sound=-1
 
+# Query: did these really have air conditioning, or was the pod just for heating?
 comfort=41
 # Single door pay driver: 4.0 seconds per passenger
 min_loading_time=5
-max_loading_time=176
+max_loading_time=196
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
@@ -81,23 +81,23 @@ tractive_effort=20
 copyright=Kieron
 intro_year=1972
 intro_month=2
-retire_year=1986
-retire_month=3
+retire_year=1980
+retire_month=9
 waytype=road
 freight=Passagiere
-payload=36
-overcrowded_capacity=27
+payload=44
+overcrowded_capacity=23
 length=6
 
 weight=9
-cost=7215000
+cost=7415000
 runningcost=137
 sound=-1
 
 comfort=41
 # Double door pay driver: 3.0 seconds per passenger
 min_loading_time=5
-max_loading_time=108
+max_loading_time=132
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
