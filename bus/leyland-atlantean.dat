@@ -50,7 +50,8 @@ liverytype[11]=Southdown-standard
 liverytype[12]=SELNEC
 liverytype[13]=Bradford-standard
 liverytype[14]=Glasgow-Corporation-revised-2
-liverytype[14]=Birmingham-Corporation
+liverytype[15]=LT-revised
+liverytype[16]=Birmingham-Corporation
 
 EmptyImage[E][0]=./images/leyland-atlantean-pdr1-1-entrance-ribble_E.0.0,-33,14
 EmptyImage[SE][0]=./images/leyland-atlantean-pdr1-1-entrance-ribble_SE.0.0,-13,0
@@ -178,14 +179,32 @@ EmptyImage[NW][13]=./images/leyland-atlantean-pdr1-1-entrance-bradford_NW.0.0,12
 EmptyImage[N][13]=./images/leyland-atlantean-pdr1-1-entrance-bradford_N.0.0,0,33
 EmptyImage[NE][13]=./images/leyland-atlantean-pdr1-1-entrance-bradford_NE.0.0,0,24
 
-EmptyImage[E][14]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_E.0.0,-33,14
-EmptyImage[SE][14]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_SE.0.0,-13,0
-EmptyImage[S][14]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_S.0.0,4,0
-EmptyImage[SW][14]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_SW.0.0,-8,10
-EmptyImage[W][14]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_W.0.0,4,5
-EmptyImage[NW][14]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_NW.0.0,12,10
-EmptyImage[N][14]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_N.0.0,0,33
-EmptyImage[NE][14]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_NE.0.0,0,24
+EmptyImage[E][14]=./images/leyland-atlantean-pdr1-1-entrance-glasgow_E.0.0,-33,14
+EmptyImage[SE][14]=./images/leyland-atlantean-pdr1-1-entrance-glasgow_SE.0.0,-13,0
+EmptyImage[S][14]=./images/leyland-atlantean-pdr1-1-entrance-glasgow_S.0.0,4,0
+EmptyImage[SW][14]=./images/leyland-atlantean-pdr1-1-entrance-glasgow_SW.0.0,-8,10
+EmptyImage[W][14]=./images/leyland-atlantean-pdr1-1-entrance-glasgow_W.0.0,4,5
+EmptyImage[NW][14]=./images/leyland-atlantean-pdr1-1-entrance-glasgow_NW.0.0,12,10
+EmptyImage[N][14]=./images/leyland-atlantean-pdr1-1-entrance-glasgow_N.0.0,0,33
+EmptyImage[NE][14]=./images/leyland-atlantean-pdr1-1-entrance-glasgow_NE.0.0,0,24
+
+EmptyImage[E][15]=./images/leyland-atlantean-pdr1-1-entrance-lt-revised_E.0.0,-33,14
+EmptyImage[SE][15]=./images/leyland-atlantean-pdr1-1-entrance-lt-revised_SE.0.0,-13,0
+EmptyImage[S][15]=./images/leyland-atlantean-pdr1-1-entrance-lt-revised_S.0.0,4,0
+EmptyImage[SW][15]=./images/leyland-atlantean-pdr1-1-entrance-lt-revised_SW.0.0,-8,10
+EmptyImage[W][15]=./images/leyland-atlantean-pdr1-1-entrance-lt-revised_W.0.0,4,5
+EmptyImage[NW][15]=./images/leyland-atlantean-pdr1-1-entrance-lt-revised_NW.0.0,12,10
+EmptyImage[N][15]=./images/leyland-atlantean-pdr1-1-entrance-lt-revised_N.0.0,0,33
+EmptyImage[NE][15]=./images/leyland-atlantean-pdr1-1-entrance-lt-revised_NE.0.0,0,24
+
+EmptyImage[E][16]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_E.0.0,-33,14
+EmptyImage[SE][16]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_SE.0.0,-13,0
+EmptyImage[S][16]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_S.0.0,4,0
+EmptyImage[SW][16]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_SW.0.0,-8,10
+EmptyImage[W][16]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_W.0.0,4,5
+EmptyImage[NW][16]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_NW.0.0,12,10
+EmptyImage[N][16]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_N.0.0,0,33
+EmptyImage[NE][16]=./images/leyland-atlantean-pdr1-1-entrance-birmingham_NE.0.0,0,24
 
 ---
 
@@ -236,7 +255,8 @@ liverytype[11]=Southdown-standard
 liverytype[12]=SELNEC
 liverytype[13]=Bradford-standard
 liverytype[14]=Glasgow-Corporation-revised-2
-liverytype[14]=Birmingham-Corporation
+liverytype[15]=LT-revised
+liverytype[16]=Birmingham-Corporation
 
 EmptyImage[E][0]=./images/leyland-atlantean-pdr1-2-entrance-ribble_E.0.0,-33,14
 EmptyImage[SE][0]=./images/leyland-atlantean-pdr1-2-entrance-ribble_SE.0.0,-13,0
@@ -364,13 +384,30 @@ EmptyImage[NW][13]=./images/leyland-atlantean-pdr1-2-entrance-bradford_NW.0.0,12
 EmptyImage[N][13]=./images/leyland-atlantean-pdr1-2-entrance-bradford_N.0.0,0,33
 EmptyImage[NE][13]=./images/leyland-atlantean-pdr1-2-entrance-bradford_NE.0.0,0,24
 
-EmptyImage[E][14]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_E.0.0,-33,14
-EmptyImage[SE][14]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_SE.0.0,-13,0
-EmptyImage[S][14]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_S.0.0,4,0
-EmptyImage[SW][14]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_SW.0.0,-8,10
-EmptyImage[W][14]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_W.0.0,4,5
-EmptyImage[NW][14]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_NW.0.0,12,10
-EmptyImage[N][14]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_N.0.0,0,33
-EmptyImage[NE][14]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_NE.0.0,0,24
+EmptyImage[E][14]=./images/leyland-atlantean-pdr1-2-entrance-glasgow_E.0.0,-33,14
+EmptyImage[SE][14]=./images/leyland-atlantean-pdr1-2-entrance-glasgow_SE.0.0,-13,0
+EmptyImage[S][14]=./images/leyland-atlantean-pdr1-2-entrance-glasgow_S.0.0,4,0
+EmptyImage[SW][14]=./images/leyland-atlantean-pdr1-2-entrance-glasgow_SW.0.0,-8,10
+EmptyImage[W][14]=./images/leyland-atlantean-pdr1-2-entrance-glasgow_W.0.0,4,5
+EmptyImage[NW][14]=./images/leyland-atlantean-pdr1-2-entrance-glasgow_NW.0.0,12,10
+EmptyImage[N][14]=./images/leyland-atlantean-pdr1-2-entrance-glasgow_N.0.0,0,33
+EmptyImage[NE][14]=./images/leyland-atlantean-pdr1-2-entrance-glasgow_NE.0.0,0,24
 
+EmptyImage[E][15]=./images/leyland-atlantean-pdr1-2-entrance-lt-revised_E.0.0,-33,14
+EmptyImage[SE][15]=./images/leyland-atlantean-pdr1-2-entrance-lt-revised_SE.0.0,-13,0
+EmptyImage[S][15]=./images/leyland-atlantean-pdr1-2-entrance-lt-revised_S.0.0,4,0
+EmptyImage[SW][15]=./images/leyland-atlantean-pdr1-2-entrance-lt-revised_SW.0.0,-8,10
+EmptyImage[W][15]=./images/leyland-atlantean-pdr1-2-entrance-lt-revised_W.0.0,4,5
+EmptyImage[NW][15]=./images/leyland-atlantean-pdr1-2-entrance-lt-revised_NW.0.0,12,10
+EmptyImage[N][15]=./images/leyland-atlantean-pdr1-2-entrance-lt-revised_N.0.0,0,33
+EmptyImage[NE][15]=./images/leyland-atlantean-pdr1-2-entrance-lt-revised_NE.0.0,0,24
+
+EmptyImage[E][16]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_E.0.0,-33,14
+EmptyImage[SE][16]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_SE.0.0,-13,0
+EmptyImage[S][16]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_S.0.0,4,0
+EmptyImage[SW][16]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_SW.0.0,-8,10
+EmptyImage[W][16]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_W.0.0,4,5
+EmptyImage[NW][16]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_NW.0.0,12,10
+EmptyImage[N][16]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_N.0.0,0,33
+EmptyImage[NE][16]=./images/leyland-atlantean-pdr1-2-entrance-birmingham_NE.0.0,0,24
 
