@@ -17,16 +17,16 @@ waytype=road
 freight=Passagiere
 # http://www.reddibus.com/Leyland%20National%20II.htm
 payload=49
-overcrowded_capacity=20
+overcrowded_capacity=16
 length=6
 
 weight=9
 axles=2
-cost=700000
+cost=7250000
 runningcost=135
 sound=-1
 
-comfort=41
+comfort=43
 # Single door pay driver: 4.0 seconds per passenger
 min_loading_time=5
 max_loading_time=196
@@ -85,15 +85,15 @@ retire_month=10
 waytype=road
 freight=Passagiere
 payload=47
-overcrowded_capacity=27
+overcrowded_capacity=18
 length=6
 
 weight=9
-cost=7215000
+cost=7715000
 runningcost=137
 sound=-1
 
-comfort=41
+comfort=43
 # Double door pay driver: 3.0 seconds per passenger
 min_loading_time=5
 max_loading_time=141
