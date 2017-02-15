@@ -7,7 +7,7 @@
 #
 #
 #
-MAKEOBJ ?= ./makeobj-experimental
+MAKEOBJ ?= ./makeobj-extended
 
 DESTDIR  ?= .
 PAKDIR   ?= $(DESTDIR)/pak128.Britain-Ex

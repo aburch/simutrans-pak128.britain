@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EE786BE1-161D-496F-846B-F3541B7AA89D}</ProjectGuid>
     <RootNamespace>Pak128BritainExperimental</RootNamespace>
+    <ProjectName>Pak128.Britain-Ex</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -74,6 +75,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
     <None Include="air\A318_BritishAirways.dat" />
     <None Include="air\A319_BritishAirways.dat" />
     <None Include="air\A319_EasyJet.dat" />
@@ -282,6 +284,7 @@
     <None Include="bus\horse-yorkshire-coach.dat" />
     <None Include="bus\k-type-single.dat" />
     <None Include="bus\large-artics.dat" />
+    <None Include="bus\leyland-atlantean-an68.dat" />
     <None Include="bus\leyland-class-b.dat" />
     <None Include="bus\leyland-class-f.dat" />
     <None Include="bus\leyland-class-f2.dat" />
@@ -291,6 +294,10 @@
     <None Include="bus\leyland-daf-65.dat" />
     <None Include="bus\leyland-daf-85-rigid.dat" />
     <None Include="bus\leyland-g.dat" />
+    <None Include="bus\leyland-national-2-standee.dat" />
+    <None Include="bus\leyland-national-2.dat" />
+    <None Include="bus\leyland-national-b.dat" />
+    <None Include="bus\leyland-national-lnc.dat" />
     <None Include="bus\leyland-roadrunner.dat" />
     <None Include="bus\leyland-sherpa.dat" />
     <None Include="bus\leyland-t45-constructor.dat" />

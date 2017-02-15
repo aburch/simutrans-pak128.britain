@@ -59,8 +59,6 @@ length=4
 constraint[next][0]=none
 constraint[prev][0]=none
 
-#Simutrans-Experimental specific settings: ignored by standard Makeobj
-
 min_loading_time=30
 max_loading_time=300
 

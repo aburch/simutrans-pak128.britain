@@ -160,7 +160,7 @@ random_mode_visiting = 5
 # them might make the game easier or harder, or, if they are changed in odd ways, make it
 # behave eratically. Make sure to know what you are doing before changing these values.
 
-# These settings calibrate the speed bonus. Note that, with Simutrans-Experimental, unlike
+# These settings calibrate the speed bonus. Note that, with Simutrans-Extended, unlike
 # Simutrans-Standard, the speed bonus is based on the convoy or line's *average* speed between
 # any two given stops, not the convoy's overall maximum speed. 
 #
@@ -202,7 +202,7 @@ max_bonus_multiplier_percent = 50
 # This setting is used for calculating journey times, revenues, maintenance costs, comfort and
 # catering values.
 #
-# Note that, in versions of Simutrans-Experimental before 10.0, the setting "distance_per_tile"
+# Note that, in versions of Simutrans-Extended (then known as Experimental) before 10.0, the setting "distance_per_tile"
 # was used instead. That setting was calculated in tens of meters. If "distance_per_tile" is
 # specified in simuconf.tab, it will be converted to meters_per_tile by the game.
 
@@ -369,7 +369,7 @@ seperate_halt_capacities = 1
 
 # This setting determines the extent to which cities should be built far away from
 # other cities when the map is first generated. The higher the number, the further
-# away from each other that the cities are built. This is introduced in Simutrans-Experimental
+# away from each other that the cities are built. This is introduced in Simutrans-Extended
 # 9.0. It replaces Simutrans-Standard's setting of "minimum_city_distance".
 
 city_isolation_factor = 48
@@ -515,7 +515,7 @@ just_in_time = 1
 allow_underground_transformers = 1
 
 # How much is the total electric power available (in relation to total production) 
-# in parts per thousand. 1000 = 100% and default for Simutrans-Experimental.
+# in parts per thousand. 1000 = 100% and default for Simutrans-Extended.
 electric_promille = 1200
 
 # powerlines
@@ -551,7 +551,7 @@ factory_enforce_demand = 1
 # This is only enabled when "just_in_time" is enabled
 # The limit is given in percent of factory storage (0=off)
 # 
-# This number is (as of Simutrans-Experimental 11.16) scaled to the ratio
+# This number is scaled to the ratio
 # of the time that it takes the industry to consume its stock to the average
 # lead time for new deliveries. Values of slightly over 100% are recommended.
 maximum_intransit_percentage = 110
@@ -615,7 +615,7 @@ cost_multiply_airterminal = 1000
 cost_multiply_post = 500
 
 # cost for depots
-# Now multiplied by the level (Simutrans-Experimental 8.0 and later)
+# Multiplied by the level 
 cost_depot_rail = 2000
 cost_depot_road = 1000
 cost_depot_ship = 4000
@@ -962,7 +962,7 @@ enforce_weight_limits=2
 allow_buying_obsolete_vehicles=0
 
 # This allows for a "driving it off the lot" drop in value.
-# This is not on by default, even in Experimental.
+# This is not on by default, even in Extended.
 # vehicle can loose a part of their value, when they are once used
 # the loss is given in 1/1000th, i.e 300 mean the value will be 70%
 
