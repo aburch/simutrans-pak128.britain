@@ -4,10 +4,9 @@ engine_type=diesel
 smoke=Diesel
 speed=75
 gear=50
-# TL11 engine (turbocharged)
-# http://middx.net/aec/board/viewtopic.php?f=1&t=403
-power=194
-tractive_effort=30
+# Leyland O.680 engine
+power=114
+tractive_effort=18
 copyright=Kieron
 intro_year=1980
 intro_month=5
@@ -74,9 +73,9 @@ engine_type=diesel
 smoke=Diesel
 speed=75
 gear=50
-# TL11 engine
-power=194
-tractive_effort=30
+# Leyland O.680 engine
+power=114
+tractive_effort=18
 copyright=Kieron
 intro_year=1980
 intro_month=5
