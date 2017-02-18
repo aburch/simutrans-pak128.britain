@@ -2225,3 +2225,14 @@ intro_month[84][3] = 3
 livery[84][4] = Northern-Metro
 intro_year[84][4] = 2008
 intro_month[84][4] = 5
+
+livery_scheme[85] = London-United
+retire_year[85] = 2999
+retire_month[85] = 9
+livery[85][0] = London-United-grey-white
+intro_year[85][0] = 1989
+intro_month[85][0] = 4
+livery[85][1] = London-United-plain-red
+# Below guessed - check this
+intro_year[85][1] = 2008
+intro_month[85][1] = 2
