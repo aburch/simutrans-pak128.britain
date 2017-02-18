@@ -263,6 +263,7 @@
     <None Include="bus\austin-seven-van.dat" />
     <None Include="bus\but-9613t.dat" />
     <None Include="bus\but-retb1.dat" />
+    <None Include="bus\caeteno-levante-3-axle.dat" />
     <None Include="bus\daf-cf-rigid.dat" />
     <None Include="bus\daf-lf.dat" />
     <None Include="bus\daimler-cc-double.dat" />
@@ -1659,6 +1660,7 @@
     <None Include="trams\sheffield-supertram-rear.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\shiptools.txt" />
     <None Include="citybuildings\sidewalk.dat" />
+    <None Include="ways\TEST.dat" />
     <None Include="ways\tunnel-tracks.dat" />
     <None Include="ways\signals-narrow.dat" />
     <None Include="ways\signals.dat" />
@@ -1827,6 +1829,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="trains\lms-7f.dat" />
+    <ClInclude Include="ways\Header.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="sound\credits.txt" />
