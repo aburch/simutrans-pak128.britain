@@ -1,7 +1,7 @@
 obj=vehicle
 name=Optare-Metrorider-Long
 copyright=MattWilson&JamesPetts
-speed=80
+speed=64
 intro_year=1989
 intro_month=1
 # Extended from April 2000 to match with introduction date of Optare Alero.
@@ -12,11 +12,13 @@ engine_type=diesel
 freight=Passagiere
 payload=33
 overcrowded_capacity=6
-power=115
+power=100
+tractive_effort=18
 gear=50
 length=5
 
-weight=12
+# Guessed
+weight=5.5
 axles=2
 cost=3500000
 runningcost=120
@@ -30,24 +32,32 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
 liverytype[0]=LT
-liverytype[1]=Non-London
+liverytype[1]=Metroline-blue-skirt
+liverytype[2]=Arriva-original
 
-EmptyImage[E][0]=./images/optare-metrorider-long-lt.0.0
-EmptyImage[SE][0]=./images/optare-metrorider-long-lt.0.1
-EmptyImage[S][0]=./images/optare-metrorider-long-lt.0.2
-EmptyImage[SW][0]=./images/optare-metrorider-long-lt.0.3
-EmptyImage[W][0]=./images/optare-metrorider-long-lt.0.4
-EmptyImage[NW][0]=./images/optare-metrorider-long-lt.0.5
-EmptyImage[N][0]=./images/optare-metrorider-long-lt.0.6
-EmptyImage[NE][0]=./images/optare-metrorider-long-lt.0.7
+EmptyImage[E][0]=./images/optare-metrorider-long-london-buses_E.0.0,-33,14
+EmptyImage[SE][0]=./images/optare-metrorider-long-london-buses_SE.0.0,-13,0
+EmptyImage[S][0]=./images/optare-metrorider-long-london-buses_S.0.0,4,0
+EmptyImage[SW][0]=./images/optare-metrorider-long-london-buses_SW.0.0,-8,10
+EmptyImage[W][0]=./images/optare-metrorider-long-london-buses_W.0.0,4,5
+EmptyImage[NW][0]=./images/optare-metrorider-long-london-buses_NW.0.0,12,10
+EmptyImage[N][0]=./images/optare-metrorider-long-london-buses_N.0.0,0,33
+EmptyImage[NE][0]=./images/optare-metrorider-long-london-buses_NE.0.0,0,24
 
-EmptyImage[E][1]=./images/optare-metrorider-long-metrobus.0.0
-EmptyImage[SE][1]=./images/optare-metrorider-long-metrobus.0.1
-EmptyImage[S][1]=./images/optare-metrorider-long-metrobus.0.2
-EmptyImage[SW][1]=./images/optare-metrorider-long-metrobus.0.3
-EmptyImage[W][1]=./images/optare-metrorider-long-metrobus.0.4
-EmptyImage[NW][1]=./images/optare-metrorider-long-metrobus.0.5
-EmptyImage[N][1]=./images/optare-metrorider-long-metrobus.0.6
-EmptyImage[NE][1]=./images/optare-metrorider-long-metrobus.0.7
+EmptyImage[E][1]=./images/optare-metrorider-long-metroline_E.0.0,-33,14
+EmptyImage[SE][1]=./images/optare-metrorider-long-metroline_SE.0.0,-13,0
+EmptyImage[S][1]=./images/optare-metrorider-long-metroline_S.0.0,4,0
+EmptyImage[SW][1]=./images/optare-metrorider-long-metroline_SW.0.0,-8,10
+EmptyImage[W][1]=./images/optare-metrorider-long-metroline_W.0.0,4,5
+EmptyImage[NW][1]=./images/optare-metrorider-long-metroline_NW.0.0,12,10
+EmptyImage[N][1]=./images/optare-metrorider-long-metroline_N.0.0,0,33
+EmptyImage[NE][1]=./images/optare-metrorider-long-metroline_NE.0.0,0,24
 
-----
+EmptyImage[E][2]=./images/optare-metrorider-long-arriva_E.0.0,-33,14
+EmptyImage[SE][2]=./images/optare-metrorider-long-arriva_SE.0.0,-13,0
+EmptyImage[S][2]=./images/optare-metrorider-long-arriva_S.0.0,4,0
+EmptyImage[SW][2]=./images/optare-metrorider-long-arriva_SW.0.0,-8,10
+EmptyImage[W][2]=./images/optare-metrorider-long-arriva_W.0.0,4,5
+EmptyImage[NW][2]=./images/optare-metrorider-long-arriva_NW.0.0,12,10
+EmptyImage[N][2]=./images/optare-metrorider-long-arriva_N.0.0,0,33
+EmptyImage[NE][2]=./images/optare-metrorider-long-arriva_NE.0.0,0,24

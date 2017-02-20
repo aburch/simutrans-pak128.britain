@@ -1,7 +1,7 @@
 obj=vehicle
 name=Optare-Metrorider-Short
 copyright=MattWilson&JamesPetts
-speed=80
+speed=64
 # Extended from April 2000 to match with introduction date of Optare Alero.
 intro_year=1989
 intro_month=1
@@ -13,10 +13,12 @@ freight=Passagiere
 payload=25
 overcrowded_capacity=5
 power=100
+tractive_effort=18
 gear=50
 length=5
 
-weight=10
+# Guessed
+weight=5.0
 axles=2
 cost=2800000
 runningcost=110
