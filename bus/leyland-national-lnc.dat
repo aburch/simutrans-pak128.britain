@@ -3,12 +3,14 @@ obj=vehicle
 name=leyland-national-lnc
 engine_type=diesel
 smoke=Diesel
-speed=75
+# Coach gearings
+speed=85
 gear=50
 # Leyland 510 engine
 # Heavy fuel consumption and hard to maintain
 power=127
-tractive_effort=20
+# Coach gearings
+tractive_effort=17
 copyright=Kieron
 # Guessed
 intro_year=1974
