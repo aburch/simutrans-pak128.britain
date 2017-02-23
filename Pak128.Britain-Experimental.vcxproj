@@ -324,8 +324,10 @@
     <None Include="bus\optare-alero.dat" />
     <None Include="bus\optare-metrorider-long.dat" />
     <None Include="bus\optare-metrorider-short.dat" />
+    <None Include="bus\optare-solo-ev.dat" />
+    <None Include="bus\optare-solo-sr.dat" />
     <None Include="bus\optare-solo.dat" />
-    <None Include="bus\OptareTempoSR.dat" />
+    <None Include="bus\optare-tempo-sr.dat" />
     <None Include="bus\pack-horses.dat" />
     <None Include="bus\parcel-coach.dat" />
     <None Include="bus\post-boy.dat" />

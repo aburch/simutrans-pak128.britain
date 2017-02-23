@@ -39,7 +39,7 @@ Constraint[Next][0]=BR-175Rear
 Constraint[Next][1]=BR-175Middle
 Constraint[Next][2]=BR-175Middle-trolley
 
-liverytype[0]=Arriva
+liverytype[0]=Arriva-original
 liverytype[1]=Firstgroup-Mauve
 
 EmptyImage[E][0]=./images/br-175-front-arriva.1.4
@@ -103,7 +103,7 @@ Constraint[Prev][2]=BR-175Front
 Constraint[Next][0]=BR-175Front
 Constraint[Next][1]=none
 
-liverytype[0]=Arriva
+liverytype[0]=Arriva-original
 liverytype[1]=Firstgroup-Mauve
 
 EmptyImage[E][0]=./images/br-175-rear-arriva.1.4
@@ -170,7 +170,7 @@ Constraint[Next][0]=BR-175Rear
 Constraint[Next][1]=BR-175Middle
 Constraint[Next][2]=BR-175Middle-trolley
 
-liverytype[0]=Arriva
+liverytype[0]=Arriva-original
 liverytype[1]=Firstgroup-Mauve
 
 EmptyImage[E][0]=./images/br-175-middle-arriva.1.4
@@ -238,7 +238,7 @@ Constraint[Next][0]=BR-175Rear
 Constraint[Next][1]=BR-175Middle
 Constraint[Next][2]=BR-175Middle-trolley
 
-liverytype[0]=Arriva
+liverytype[0]=Arriva-original
 liverytype[1]=Firstgroup-Mauve
 
 EmptyImage[E][0]=./images/br-175-middle-arriva.1.4
