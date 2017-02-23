@@ -1,6 +1,6 @@
 obj=vehicle
 name=RMU-aerocab(front)
-engine_type=battery
+engine_type=hydrogene
 speed=320
 power=500
 gear=90
@@ -36,7 +36,7 @@ EmptyImage[NE]=images/RMU_aerocab.0.3,18,-3
 -------------------------------------------
 obj=vehicle
 name=RMU-aerocab(rear)
-engine_type=battery
+engine_type=hydrogene
 speed=320
 power=500
 copyright=AEO

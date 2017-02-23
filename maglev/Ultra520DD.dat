@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-Ultra-520DD(front)
 #alt name "Platinum Jubilee"
-engine_type=battery
+engine_type=hydrogene
 speed=525
 power=5100
 gear=90
@@ -43,7 +43,7 @@ EmptyImage[NE]=images/Ultra520DD.0.3,0,-3
 --------------------------------------------
 obj=vehicle
 name=BR-Ultra-520DD(Open)
-engine_type=battery
+engine_type=hydrogene
 speed=525
 power=5100
 gear=90
@@ -86,7 +86,7 @@ EmptyImage[NE]=images/Ultra520DD.1.3,0,-3
 --------------------------------------------
 obj=vehicle
 name=BR-Ultra-520DD(Buffet)
-engine_type=battery
+engine_type=hydrogene
 speed=525
 power=5100
 gear=90
@@ -130,7 +130,7 @@ EmptyImage[NE]=images/Ultra520DD.2.3,0,-3
 --------------------------------------------
 obj=vehicle
 name=BR-Ultra-520DD(rear)
-engine_type=battery
+engine_type=hydrogene
 speed=525
 power=5100
 gear=90

@@ -1,4 +1,5 @@
 # https://en.wikipedia.org/wiki/MCW_Metrorider
+# http://www.aronline.co.uk/blogs/facts-and-figures/essays/mcw-optare-metrorider-a-bus-right-on-time/
 obj=vehicle
 name=mcw-metrorider-short
 copyright=MattWilson&JamesPetts
@@ -14,8 +15,9 @@ freight=Passagiere
 payload=25
 overcrowded_capacity=5
 # Cummins B Series engine
-power=100
-tractive_effort=18
+# Lower in power than the Optare version
+power=85
+tractive_effort=15
 gear=50
 length=5
 
@@ -26,9 +28,9 @@ cost=2750000
 runningcost=117
 
 comfort=35
-# Single entrance pay driver (with narrow doorway): 4.2 seconds per passenger
+# Single entrance pay driver (with narrow doorway): 4.4 seconds per passenger
 min_loading_time=5
-max_loading_time=105
+max_loading_time=110
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

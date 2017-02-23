@@ -1,6 +1,6 @@
 obj=vehicle
 name=BR-Ultra-450(front)
-engine_type=battery
+engine_type=hydrogene
 speed=430
 power=3400
 gear=90
@@ -42,7 +42,7 @@ EmptyImage[NE]=images/Ultra450.0.3,0,-3
 --------------------------------------------
 obj=vehicle
 name=BR-Ultra-450(Open)
-engine_type=battery
+engine_type=hydrogene
 speed=430
 power=3400
 gear=90
@@ -85,7 +85,7 @@ EmptyImage[NE]=images/Ultra450.1.3,0,-3
 --------------------------------------------
 obj=vehicle
 name=BR-Ultra-450(Buffet)
-engine_type=battery
+engine_type=hydrogene
 speed=430
 power=3400
 gear=90
@@ -129,7 +129,7 @@ EmptyImage[NE]=images/Ultra450.2.3,0,-3
 --------------------------------------------
 obj=vehicle
 name=BR-Ultra-450(rear)
-engine_type=battery
+engine_type=hydrogene
 speed=430
 power=3400
 gear=90

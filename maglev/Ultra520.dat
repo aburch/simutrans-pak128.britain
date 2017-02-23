@@ -1,6 +1,6 @@
 obj=vehicle
 name=BR-Ultra-520(front)
-engine_type=battery
+engine_type=hydrogene
 speed=525
 power=5000
 gear=90
@@ -42,7 +42,7 @@ EmptyImage[NE]=images/Ultra520.0.3,0,-3
 --------------------------------------------
 obj=vehicle
 name=BR-Ultra-520(Open)
-engine_type=battery
+engine_type=hydrogene
 speed=525
 power=5000
 gear=90
@@ -85,7 +85,7 @@ EmptyImage[NE]=images/Ultra520.1.3,0,-3
 --------------------------------------------
 obj=vehicle
 name=BR-Ultra-520(Buffet)
-engine_type=battery
+engine_type=hydrogene
 speed=525
 power=5000
 gear=90
@@ -129,7 +129,7 @@ EmptyImage[NE]=images/Ultra520.2.3,0,-3
 --------------------------------------------
 obj=vehicle
 name=BR-Ultra-520(rear)
-engine_type=battery
+engine_type=hydrogene
 speed=525
 power=5000
 gear=90

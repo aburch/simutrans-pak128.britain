@@ -1,6 +1,6 @@
 obj=vehicle
 name=RMUbox(cooled)
-engine_type=battery
+engine_type=hydrogene
 speed=320
 power=1600
 gear=90
@@ -51,7 +51,7 @@ FreightImage[0][NE]=images/RMU_boxcars.1.7,0,-3
 ---------------------------------------------
 obj=vehicle
 name=RMUbox(piece)
-engine_type=battery
+engine_type=hydrogene
 speed=320
 power=1600
 gear=90

@@ -3,7 +3,7 @@
 -------------------------------------------
 obj=vehicle
 name=RMUflat(cooled)
-engine_type=battery
+engine_type=hydrogene
 speed=160
 power=800
 gear=90
@@ -65,7 +65,7 @@ FreightImage[1][NE]=images/RMU_Flatcars.2.3,0,-3
 ---------------------------------------------
 obj=vehicle
 name=RMUflat(piece)
-engine_type=battery
+engine_type=hydrogene
 speed=160
 power=800
 gear=90

@@ -475,11 +475,11 @@ Road garage (internal combusion)
 OldRoadDepotElectric
 Trolleybus depot
 ModernRoadDepot
-Road depot (diesel)
+Road garage (internal combustion)
 ModernRoadDepotElectric
 Trolleybus depot
 ModernRoadDepotMixed
-Road depot (general)
+Road garage (general)
 ModernTramDepot
 Tram depot
 OldTramDepotHorse
@@ -1647,7 +1647,7 @@ CATEGORY_06
 long goods
 CATEGORY_07
 farm products
-battery
+hydrogene
 maglev
 #___________________________________way-signs____________________________________
 #___________________________________way-signs____________________________________
@@ -5606,6 +5606,8 @@ MercedesCitaroG(Rear)
 Mercedes Citaro G (rear)
 mcw-metrorider-short
 MCW Metrorider (short)
+mcw-metrorider-long
+MCW Metrorider (long)
 OptareExcel
 Optare Excel
 Optare-Metrorider-Long
@@ -5616,6 +5618,10 @@ OptareTempoSR
 Optare Tempo SR
 OptareSolo
 Optare Solo
+optare-solo-sr
+Optare Solo SR
+optare-solo-ev
+Optare Solo EV
 KTypeDouble
 AEC K Type (double deck)
 aec-k-type-single

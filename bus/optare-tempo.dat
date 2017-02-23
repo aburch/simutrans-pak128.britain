@@ -1,15 +1,17 @@
-# Optare Tempo Bus
+# https://en.wikipedia.org/wiki/Optare_Tempo
 obj=vehicle
 name=OptareTempo
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
 freight=Passagiere
-
 payload=46
 overcrowded_capacity=26
-speed=75
-power=210
+speed=74
+# Mercedes OM-906-LA engine
+# https://www.mercedes-benz.com.sg/content/singapore/mpc/mpc_singapore_website/enng/home_mpc/truck_home/home/trucks/econic/engine_transmission_axles/engines.fb0002.html
+power=205
+tractive_effort=39
 gear=50
 weight=9
 axles=2
@@ -22,19 +24,23 @@ retire_year=2012
 retire_month=6
 
 comfort=39
-# Single entrance pay driver: 4.0 seconds per passenger
+# Single entrance pay driver (low floor): 3.8 seconds per passenger
 min_loading_time=5
-max_loading_time=184
+max_loading_time=175
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/optare-tempo.0.0
-EmptyImage[SE]=./images/optare-tempo.0.1
-EmptyImage[S]=./images/optare-tempo.0.2
-EmptyImage[SW]=./images/optare-tempo.0.3
-EmptyImage[W]=./images/optare-tempo.0.4
-EmptyImage[NW]=./images/optare-tempo.0.5
-EmptyImage[N]=./images/optare-tempo.0.6
-EmptyImage[NE]=./images/optare-tempo.0.7
+# TODO: Add more length varients of this.
+
+liverytype[0]=Arriva-original
+
+EmptyImage[E][0]=./images/optare-tempo-arriva_E.0.0,-33,14
+EmptyImage[SE][0]=./images/optare-tempo-arriva_SE.0.0,-13,0
+EmptyImage[S][0]=./images/optare-tempo-arriva_S.0.0,4,0
+EmptyImage[SW][0]=./images/optare-tempo-arriva_SW.0.0,-8,10
+EmptyImage[W][0]=./images/optare-tempo-arriva_W.0.0,4,5
+EmptyImage[NW][0]=./images/optare-tempo-arriva_NW.0.0,12,10
+EmptyImage[N][0]=./images/optare-tempo-arriva_N.0.0,0,33
+EmptyImage[NE][0]=./images/optare-tempo-arriva_NE.0.0,0,24
 
