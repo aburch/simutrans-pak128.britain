@@ -1,19 +1,20 @@
-# Wright StreetCar
+# https://en.wikipedia.org/wiki/Wright_StreetCar
+# https://nbrti.org/docs/pdf/2006_brt_compendium.pdf
 obj=vehicle
 name=WrightStreetcar(Front)
 copyright=JamesHood
 waytype=road
 engine_type=diesel
 freight=Passagiere
-
 payload=25
 overcrowded_capacity=37
 speed=84
-power=225
+power=298
+tractive_effort=48
 gear=50
 weight=13
 axles=2
-length=5
+length=6
 cost=3950000
 runningcost=180
 intro_year=2006
@@ -27,14 +28,14 @@ max_loading_time=84
 Constraint[Prev][0]=none
 Constraint[Next][0]=WrightStreetcar(Rear)
 
-EmptyImage[E]=./images/wright-streetcar.0.0
-EmptyImage[SE]=./images/wright-streetcar.0.1
-EmptyImage[S]=./images/wright-streetcar.0.2
-EmptyImage[SW]=./images/wright-streetcar.0.3
-EmptyImage[W]=./images/wright-streetcar.0.4
-EmptyImage[NW]=./images/wright-streetcar.0.5
-EmptyImage[N]=./images/wright-streetcar.0.6
-EmptyImage[NE]=./images/wright-streetcar.0.7
+EmptyImage[E]=./images/wright-streetcar-front_E.0.0,-33,14
+EmptyImage[SE]=./images/wright-streetcar-front_SE.0.0,-13,0
+EmptyImage[S]=./images/wright-streetcar-front_S.0.0,4,0
+EmptyImage[SW]=./images/wright-streetcar-front_SW.0.0,-8,10
+EmptyImage[W]=./images/wright-streetcar-front_W.0.0,4,5
+EmptyImage[NW]=./images/wright-streetcar-front_NW.0.0,12,10
+EmptyImage[N]=./images/wright-streetcar-front_N.0.0,0,33
+EmptyImage[NE]=./images/wright-streetcar-front_NE.0.0,0,24
 
 ----------------------------------
 
@@ -44,7 +45,6 @@ copyright=JamesHood
 waytype=road
 engine_type=diesel
 freight=Passagiere
-
 payload=17
 overcrowded_capacity=34
 speed=84
@@ -65,11 +65,11 @@ max_loading_time=84
 Constraint[Prev][0]=WrightStreetcar(Front)
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/wright-streetcar.1.0
-EmptyImage[SE]=./images/wright-streetcar.1.1
-EmptyImage[S]=./images/wright-streetcar.1.2
-EmptyImage[SW]=./images/wright-streetcar.1.3
-EmptyImage[W]=./images/wright-streetcar.1.4
-EmptyImage[NW]=./images/wright-streetcar.1.5
-EmptyImage[N]=./images/wright-streetcar.1.6
-EmptyImage[NE]=./images/wright-streetcar.1.7
+EmptyImage[E]=./images/wright-streetcar-rear_E.0.0,-33,14
+EmptyImage[SE]=./images/wright-streetcar-rear_SE.0.0,-13,0
+EmptyImage[S]=./images/wright-streetcar-rear_S.0.0,4,0
+EmptyImage[SW]=./images/wright-streetcar-rear_SW.0.0,-8,10
+EmptyImage[W]=./images/wright-streetcar-rear_W.0.0,4,5
+EmptyImage[NW]=./images/wright-streetcar-rear_NW.0.0,12,10
+EmptyImage[N]=./images/wright-streetcar-rear_N.0.0,0,33
+EmptyImage[NE]=./images/wright-streetcar-rear_NE.0.0,0,24

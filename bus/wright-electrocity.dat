@@ -1,39 +1,45 @@
 # Experimental hybrid 'bus
 # https://en.wikipedia.org/wiki/Wright_Electrocity
+# http://www.explorerticket.co.uk/bustender/electrocity.htm
 obj=vehicle
 name=WrightElectrocity
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
 freight=Passagiere
-payload=35
-speed=78
-power=140
+payload=26
+overcrowded_capacity=32
+speed=70
+# https://en.wikipedia.org/wiki/Cummins_B_Series_engine
+power=175
+tractive_effort=35
 gear=80
-weight=15
+weight=12
 axles=2
 length=6
 cost=5100000
 runningcost=40
-intro_year=2006
+intro_year=2002
 intro_month=2
 retire_year=2014
 retire_month=6
 
 comfort=38
-# Two door pay driver: 3.0 seconds per passenger
+# Two door pay driver (low floor): 2.8 seconds per passenger
 min_loading_time=5
 max_loading_time=105
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/wright-electrocity.0.0
-EmptyImage[SE]=./images/wright-electrocity.0.1
-EmptyImage[S]=./images/wright-electrocity.0.2
-EmptyImage[SW]=./images/wright-electrocity.0.3
-EmptyImage[W]=./images/wright-electrocity.0.4
-EmptyImage[NW]=./images/wright-electrocity.0.5
-EmptyImage[N]=./images/wright-electrocity.0.6
-EmptyImage[NE]=./images/wright-electrocity.0.7
+#TODO: Add multiple liveries and a one door option
+
+EmptyImage[E]=./images/wright-electrocity_E.0.0,-33,14
+EmptyImage[SE]=./images/wright-electrocity_SE.0.0,-13,0
+EmptyImage[S]=./images/wright-electrocity_S.0.0,4,0
+EmptyImage[SW]=./images/wright-electrocity_SW.0.0,-8,10
+EmptyImage[W]=./images/wright-electrocity_W.0.0,4,5
+EmptyImage[NW]=./images/wright-electrocity_NW.0.0,12,10
+EmptyImage[N]=./images/wright-electrocity_N.0.0,0,33
+EmptyImage[NE]=./images/wright-electrocity_NE.0.0,0,24
 
