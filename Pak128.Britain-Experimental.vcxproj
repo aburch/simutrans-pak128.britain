@@ -268,10 +268,13 @@
     <None Include="bus\daf-lf.dat" />
     <None Include="bus\daimler-cc-double.dat" />
     <None Include="bus\daimler-wagonette.dat" />
-    <None Include="bus\Dennis_Dart_CMB.dat" />
-    <None Include="bus\Enviro200-1door.dat" />
-    <None Include="bus\Enviro200-2door.dat" />
-    <None Include="bus\Enviro300.dat" />
+    <None Include="bus\dennis-dart-9.8m.dat" />
+    <None Include="bus\dennis-dart-slf-10.1m.dat" />
+    <None Include="bus\dennis-dart-slf-9.2m.dat" />
+    <None Include="bus\dennis-enviro200-10.2m.dat" />
+    <None Include="bus\dennis-enviro200-10.8m.dat" />
+    <None Include="bus\dennis-enviro200-8.9m.dat" />
+    <None Include="bus\dennis-enviro300.dat" />
     <None Include="bus\ford-escort-van.dat" />
     <None Include="bus\ford-transit-connect.dat" />
     <None Include="bus\ford-transit.dat" />
@@ -1835,6 +1838,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="sound\credits.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bus\Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
