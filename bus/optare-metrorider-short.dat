@@ -12,9 +12,9 @@ engine_type=diesel
 freight=Passagiere
 payload=25
 overcrowded_capacity=5
-# Cummins B Series engine
-power=100
-tractive_effort=18
+# Cummins 6BT engine
+power=123
+tractive_effort=22
 gear=50
 length=5
 
@@ -32,7 +32,7 @@ max_loading_time=100
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-liverytype[0]=LT
+liverytype[0]=LT-revised
 liverytype[1]=Metroline-blue-skirt
 liverytype[2]=Arriva-original
 
