@@ -1,0 +1,89 @@
+# http://www.alexander-dennis.com/wp-content/uploads/2012/11/e200_spec_sheet.pdf
+obj=vehicle
+name=dennis-enviro200-mmc-11.8m-1-door
+copyright=JamesPetts
+speed=76
+intro_year=2015
+intro_month=5
+waytype=road
+engine_type=diesel
+freight=Passagiere
+payload=46
+overcrowded_capacity=26
+# Cummins ISB6.7 engine
+power=193
+tractive_effort=39
+gear=50
+length=7
+
+weight=14.4
+axles=2
+cost=5150000
+runningcost=92
+
+comfort=45
+min_loading_time=5
+# Single entrance pay driver (low floor): 3.8 seconds per passenger
+max_loading_time=175
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# TODO: Add more liveries
+
+liverytype[0]=Metroline-plain-red
+
+EmptyImage[E][0]=./images/dennis-enviro200-mmc-11-8m-1-door--tfl_E.0.0,-33,14
+EmptyImage[SE][0]=./images/dennis-enviro200-mmc-11-8m-1-door--tfl_SE.0.0,-13,0
+EmptyImage[S][0]=./images/dennis-enviro200-mmc-11-8m-1-door--tfl_S.0.0,4,0
+EmptyImage[SW][0]=./images/dennis-enviro200-mmc-11-8m-1-door--tfl_SW.0.0,-8,10
+EmptyImage[W][0]=./images/dennis-enviro200-mmc-11-8m-1-door--tfl_W.0.0,4,5
+EmptyImage[NW][0]=./images/dennis-enviro200-mmc-11-8m-1-door--tfl_NW.0.0,12,10
+EmptyImage[N][0]=./images/dennis-enviro200-mmc-11-8m-1-door--tfl_N.0.0,0,33
+EmptyImage[NE][0]=./images/dennis-enviro200-mmc-11-8m-1-door--tfl_NE.0.0,0,24
+
+---
+
+# http://www.alexander-dennis.com/wp-content/uploads/2012/11/e200_spec_sheet.pdf
+obj=vehicle
+name=dennis-enviro200-mmc-11.8m-2-door
+copyright=JamesPetts
+speed=76
+intro_year=2015
+intro_month=5
+waytype=road
+engine_type=diesel
+freight=Passagiere
+payload=42
+overcrowded_capacity=30
+# Cummins ISB6.7 engine
+power=193
+tractive_effort=39
+gear=50
+length=7
+
+weight=14.4
+axles=2
+cost=5550000
+runningcost=93
+
+comfort=45
+min_loading_time=5
+# Double entrance pay driver (low floor): 2.8 seconds per passenger
+max_loading_time=118
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# TODO: Add more liveries
+
+liverytype[0]=Metroline-plain-red
+
+EmptyImage[E][0]=./images/dennis-enviro200-mmc-11-8m-2-door--tfl_E.0.0,-33,14
+EmptyImage[SE][0]=./images/dennis-enviro200-mmc-11-8m-2-door--tfl_SE.0.0,-13,0
+EmptyImage[S][0]=./images/dennis-enviro200-mmc-11-8m-2-door--tfl_S.0.0,4,0
+EmptyImage[SW][0]=./images/dennis-enviro200-mmc-11-8m-2-door--tfl_SW.0.0,-8,10
+EmptyImage[W][0]=./images/dennis-enviro200-mmc-11-8m-2-door--tfl_W.0.0,4,5
+EmptyImage[NW][0]=./images/dennis-enviro200-mmc-11-8m-2-door--tfl_NW.0.0,12,10
+EmptyImage[N][0]=./images/dennis-enviro200-mmc-11-8m-2-door--tfl_N.0.0,0,33
+EmptyImage[NE][0]=./images/dennis-enviro200-mmc-11-8m-2-door--tfl_NE.0.0,0,24
