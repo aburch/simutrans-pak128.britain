@@ -1,21 +1,23 @@
-# Volvo B7TL
-#
+# https://en.wikipedia.org/wiki/Wright_Eclipse_Gemini
+# https://en.wikipedia.org/wiki/Volvo_B7TL
 obj=vehicle
 name=VolvoB7TL
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
 freight=Passagiere
-payload=83
-overcrowded_capacity=15
-speed=75
-power=230
+# Guessed
+payload=77
+overcrowded_capacity=19
+speed=72
+power=186
+tractive_effort=35
 gear=50
 weight=25
 axles=2
 length=7
-cost=4560000
-runningcost=142
+cost=4050000
+runningcost=130
 intro_year=1999
 intro_month=5
 retire_year=2007
@@ -23,19 +25,105 @@ retire_month=10
 is_tall=1
 
 comfort=37
-# Two door pay driver: 3.0 seconds per passenger
+# Two door pay driver (low floor): 2.8 seconds per passenger
 min_loading_time=5
-max_loading_time=249
+max_loading_time=216
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/volvo-b7tl.0.0
-EmptyImage[SE]=./images/volvo-b7tl.0.1
-EmptyImage[S]=./images/volvo-b7tl.0.2
-EmptyImage[SW]=./images/volvo-b7tl.0.3
-EmptyImage[W]=./images/volvo-b7tl.0.4
-EmptyImage[NW]=./images/volvo-b7tl.0.5
-EmptyImage[N]=./images/volvo-b7tl.0.6
-EmptyImage[NE]=./images/volvo-b7tl.0.7
+liverytype[0]=Firstgroup-Mauve
+liverytype[1]=Metroline-blue-skirt
+liverytype[2]=Metroline-plain-red
 
+EmptyImage[E][0]=./images/volvo-b7tl-wright-gemini-2-door-first_E.0.0,-33,14
+EmptyImage[SE][0]=./images/volvo-b7tl-wright-gemini-2-door-first_SE.0.0,-13,0
+EmptyImage[S][0]=./images/volvo-b7tl-wright-gemini-2-door-first_S.0.0,4,0
+EmptyImage[SW][0]=./images/volvo-b7tl-wright-gemini-2-door-first_SW.0.0,-8,10
+EmptyImage[W][0]=./images/volvo-b7tl-wright-gemini-2-door-first_W.0.0,4,5
+EmptyImage[NW][0]=./images/volvo-b7tl-wright-gemini-2-door-first_NW.0.0,12,10
+EmptyImage[N][0]=./images/volvo-b7tl-wright-gemini-2-door-first_N.0.0,0,33
+EmptyImage[NE][0]=./images/volvo-b7tl-wright-gemini-2-door-first_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/volvo-b7tl-wright-gemini-2-door-metroline_E.0.0,-33,14
+EmptyImage[SE][1]=./images/volvo-b7tl-wright-gemini-2-door-metroline_SE.0.0,-13,0
+EmptyImage[S][1]=./images/volvo-b7tl-wright-gemini-2-door-metroline_S.0.0,4,0
+EmptyImage[SW][1]=./images/volvo-b7tl-wright-gemini-2-door-metroline_SW.0.0,-8,10
+EmptyImage[W][1]=./images/volvo-b7tl-wright-gemini-2-door-metroline_W.0.0,4,5
+EmptyImage[NW][1]=./images/volvo-b7tl-wright-gemini-2-door-metroline_NW.0.0,12,10
+EmptyImage[N][1]=./images/volvo-b7tl-wright-gemini-2-door-metroline_N.0.0,0,33
+EmptyImage[NE][1]=./images/volvo-b7tl-wright-gemini-2-door-metroline_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/volvo-b7tl-wright-gemini-2-door-tfl_E.0.0,-33,14
+EmptyImage[SE][2]=./images/volvo-b7tl-wright-gemini-2-door-tfl_SE.0.0,-13,0
+EmptyImage[S][2]=./images/volvo-b7tl-wright-gemini-2-door-tfl_S.0.0,4,0
+EmptyImage[SW][2]=./images/volvo-b7tl-wright-gemini-2-door-tfl_SW.0.0,-8,10
+EmptyImage[W][2]=./images/volvo-b7tl-wright-gemini-2-door-tfl_W.0.0,4,5
+EmptyImage[NW][2]=./images/volvo-b7tl-wright-gemini-2-door-tfl_NW.0.0,12,10
+EmptyImage[N][2]=./images/volvo-b7tl-wright-gemini-2-door-tfl_N.0.0,0,33
+EmptyImage[NE][2]=./images/volvo-b7tl-wright-gemini-2-door-tfl_NE.0.0,0,24
+
+---
+
+obj=vehicle
+name=VolvoB7TL-1-door
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+freight=Passagiere
+# Guessed
+payload=83
+overcrowded_capacity=15
+speed=72
+power=186
+tractive_effort=35
+gear=50
+weight=25
+axles=2
+length=7
+cost=4000000
+runningcost=128
+intro_year=1999
+intro_month=5
+retire_year=2007
+retire_month=10
+is_tall=1
+
+comfort=37
+# Two door pay driver (low floor): 3.8 seconds per passenger
+min_loading_time=5
+max_loading_time=315
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Firstgroup-Mauve
+liverytype[1]=Metroline-blue-skirt
+liverytype[2]=Metroline-plain-red
+
+EmptyImage[E][0]=./images/volvo-b7tl-wright-gemini-1-door-first_E.0.0,-33,14
+EmptyImage[SE][0]=./images/volvo-b7tl-wright-gemini-1-door-first_SE.0.0,-13,0
+EmptyImage[S][0]=./images/volvo-b7tl-wright-gemini-1-door-first_S.0.0,4,0
+EmptyImage[SW][0]=./images/volvo-b7tl-wright-gemini-1-door-first_SW.0.0,-8,10
+EmptyImage[W][0]=./images/volvo-b7tl-wright-gemini-1-door-first_W.0.0,4,5
+EmptyImage[NW][0]=./images/volvo-b7tl-wright-gemini-1-door-first_NW.0.0,12,10
+EmptyImage[N][0]=./images/volvo-b7tl-wright-gemini-1-door-first_N.0.0,0,33
+EmptyImage[NE][0]=./images/volvo-b7tl-wright-gemini-1-door-first_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/volvo-b7tl-wright-gemini-1-door-metroline_E.0.0,-33,14
+EmptyImage[SE][1]=./images/volvo-b7tl-wright-gemini-1-door-metroline_SE.0.0,-13,0
+EmptyImage[S][1]=./images/volvo-b7tl-wright-gemini-1-door-metroline_S.0.0,4,0
+EmptyImage[SW][1]=./images/volvo-b7tl-wright-gemini-1-door-metroline_SW.0.0,-8,10
+EmptyImage[W][1]=./images/volvo-b7tl-wright-gemini-1-door-metroline_W.0.0,4,5
+EmptyImage[NW][1]=./images/volvo-b7tl-wright-gemini-1-door-metroline_NW.0.0,12,10
+EmptyImage[N][1]=./images/volvo-b7tl-wright-gemini-1-door-metroline_N.0.0,0,33
+EmptyImage[NE][1]=./images/volvo-b7tl-wright-gemini-1-door-metroline_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/volvo-b7tl-wright-gemini-1-door-tfl_E.0.0,-33,14
+EmptyImage[SE][2]=./images/volvo-b7tl-wright-gemini-1-door-tfl_SE.0.0,-13,0
+EmptyImage[S][2]=./images/volvo-b7tl-wright-gemini-1-door-tfl_S.0.0,4,0
+EmptyImage[SW][2]=./images/volvo-b7tl-wright-gemini-1-door-tfl_SW.0.0,-8,10
+EmptyImage[W][2]=./images/volvo-b7tl-wright-gemini-1-door-tfl_W.0.0,4,5
+EmptyImage[NW][2]=./images/volvo-b7tl-wright-gemini-1-door-tfl_NW.0.0,12,10
+EmptyImage[N][2]=./images/volvo-b7tl-wright-gemini-1-door-tfl_N.0.0,0,33
+EmptyImage[NE][2]=./images/volvo-b7tl-wright-gemini-1-door-tfl_NE.0.0,0,24
