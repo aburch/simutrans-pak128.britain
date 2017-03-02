@@ -2250,3 +2250,11 @@ livery[86][1] = Metroline-plain-red
 # Below guessed - check this
 intro_year[86][1] = 2008
 intro_month[86][1] = 2
+
+livery_scheme[87] = Grey-Green
+retire_year[87] = 1998
+retire_month[87] = 10
+# TODO: Find more liveries for this scheme.
+livery[87][0] = Grey-Green-standard
+intro_year[87][0] = 1928
+intro_month[87][0] = 6
