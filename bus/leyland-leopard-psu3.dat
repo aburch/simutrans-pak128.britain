@@ -10,20 +10,20 @@ payload=49
 # Speed limit was incerased from 40mph (64km/h) to 60mph (96km/h) for 'buses on
 # the "open road" in 1961: http://en.wikipedia.org/wiki/Coach_transport_in_the_United_Kingdom
 speed=96
-power=104
-tractive_effort=11
+power=130
+tractive_effort=14
 gear=50
-weight=13
+weight=15.2
 axles=2
 length=6
-cost=4875000
+cost=5875000
 runningcost=210
 intro_year=1961
 intro_month=11
 retire_year=1983
 retire_month=3
 
-comfort=78
+comfort=84
 # Coach: 7.5 seconds per passenger
 min_loading_time=30
 max_loading_time=368
