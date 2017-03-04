@@ -1,0 +1,64 @@
+# https://en.wikipedia.org/wiki/Leyland_Leopard
+# See also "A History of the Leyland Bus" (Ron Phillips), pp. 115-7
+obj=vehicle
+name=leyland-leopard-psu3
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+freight=Passagiere
+payload=49
+# Speed limit was incerased from 40mph (64km/h) to 60mph (96km/h) for 'buses on
+# the "open road" in 1961: http://en.wikipedia.org/wiki/Coach_transport_in_the_United_Kingdom
+speed=96
+power=104
+tractive_effort=11
+gear=50
+weight=13
+axles=2
+length=6
+cost=4875000
+runningcost=210
+intro_year=1961
+intro_month=11
+retire_year=1983
+retire_month=3
+
+comfort=78
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=368
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Ribble-coach
+liverytype[1]=Private
+liverytype[2]=NE-White
+
+EmptyImage[E][0]=./images/leyland-leopard-psu3-ribble_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-leopard-psu3-ribble_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-leopard-psu3-ribble_S.0.0,4,0
+EmptyImage[SW][0]=./images/leyland-leopard-psu3-ribble_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-leopard-psu3-ribble_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-leopard-psu3-ribble_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-leopard-psu3-ribble_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-leopard-psu3-ribble_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-leopard-psu3-private_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-leopard-psu3-private_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-leopard-psu3-private_S.0.0,4,0
+EmptyImage[SW][1]=./images/leyland-leopard-psu3-private_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-leopard-psu3-private_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-leopard-psu3-private_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-leopard-psu3-private_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-leopard-psu3-private_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/leyland-leopard-psu3-national-express_E.0.0,-33,14
+EmptyImage[SE][2]=./images/leyland-leopard-psu3-national-express_SE.0.0,-13,0
+EmptyImage[S][2]=./images/leyland-leopard-psu3-national-express_S.0.0,4,0
+EmptyImage[SW][2]=./images/leyland-leopard-psu3-national-express_SW.0.0,-8,10
+EmptyImage[W][2]=./images/leyland-leopard-psu3-national-express_W.0.0,4,5
+EmptyImage[NW][2]=./images/leyland-leopard-psu3-national-express_NW.0.0,12,10
+EmptyImage[N][2]=./images/leyland-leopard-psu3-national-express_N.0.0,0,33
+EmptyImage[NE][2]=./images/leyland-leopard-psu3-national-express_NE.0.0,0,24
+
