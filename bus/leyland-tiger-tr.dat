@@ -1,0 +1,44 @@
+# https://en.wikipedia.org/wiki/Leyland_Tiger
+obj=vehicle
+name=leyland-tiger-tr
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+freight=Passagiere
+payload=48
+speed=96
+# Leyland TL11 engine
+# (The more powerful version for coaches)
+power=183
+tractive_effort=15
+gear=50
+weight=12
+axles=2
+length=6
+cost=4800000
+runningcost=195
+intro_year=1981
+intro_month=4
+retire_year=1992
+retire_month=1
+
+comfort=83
+catering_level=1
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=360
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=NE-White
+
+EmptyImage[E][0]=./images/leyland-tiger-tr-national-express_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-tiger-tr-national-express_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-tiger-tr-national-express_S.0.0,4,0
+EmptyImage[SW][0]=./images/leyland-tiger-tr-national-express_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-tiger-tr-national-express_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-tiger-tr-national-express_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-tiger-tr-national-express_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-tiger-tr-national-express_NE.0.0,0,24
+
