@@ -7,9 +7,12 @@ engine_type=petrol
 freight=Passagiere
 payload=29
 overcrowded_capacity=0
+# Speed given by Ian's Bus Stop (above) as 60mph - this is fast for 1930!
+# Have very low tractive effort in compensation (a direct calculation
+# suggests 4)
 speed=84
 power=39
-tractive_effort=4
+tractive_effort=3
 gear=50
 weight=5
 axles=2

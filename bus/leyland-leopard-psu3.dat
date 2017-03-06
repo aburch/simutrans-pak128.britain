@@ -10,6 +10,11 @@ payload=49
 # Speed limit was incerased from 40mph (64km/h) to 60mph (96km/h) for 'buses on
 # the "open road" in 1961: http://en.wikipedia.org/wiki/Coach_transport_in_the_United_Kingdom
 speed=96
+# Leyland O.680 engine
+# (This should really be the PSU3A)
+# TODO: Add an original PSU3 with the 
+# O.600 engine using a stretched version
+# of the graphics from the L2. 
 power=130
 tractive_effort=14
 gear=50
