@@ -7,28 +7,22 @@ waytype=road
 engine_type=diesel
 freight=Passagiere
 payload=49
-# Speed limit was incerased from 40mph (64km/h) to 60mph (96km/h) for 'buses on
-# the "open road" in 1961: http://en.wikipedia.org/wiki/Coach_transport_in_the_United_Kingdom
-speed=96
-# Leyland O.680 engine
-# (This should really be the PSU3A)
-# TODO: Add an original PSU3 with the 
-# O.600 engine using a stretched version
-# of the graphics from the L2. 
-power=130
-tractive_effort=14
+# Leyland O.600 engine
+speed=75
+power=104
+tractive_effort=13
 gear=50
-weight=15.2
+weight=14.8
 axles=2
 length=6
-cost=5875000
-runningcost=210
+cost=552500
+runningcost=200
 intro_year=1961
 intro_month=11
-retire_year=1983
+retire_year=1973
 retire_month=3
 
-comfort=84
+comfort=78
 # Coach: 7.5 seconds per passenger
 min_loading_time=30
 max_loading_time=368
