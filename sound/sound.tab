@@ -1,24 +1,25 @@
 # 0..8 standard (old) game sounds
-sound[0]=engine-start-diesel-1.wav
-sound[1]=engine-start-diesel_d.wav
-sound[2]=engine-start-diesel_d.wav
-sound[3]=train-horn-diesel-0.wav
-sound[4]=train-horn-steam-0.wav
+sound[0]=aec-regent3-ff3170.wav
+sound[1]=leyland-atlantean-ff3170.wav
+sound[2]=bus-volvo-ninebilly.wav
+sound[3]=lwalker-class40.wav
+sound[4]=lwalker-br-4mt.wav
 
 # hardcoded game sounds
 # do not alter these numbers!
 #cash
-sound[15]=cash.wav
+sound[15]=kermite607-coin.wav
 # remover sound
-sound[14]=explosion.wav
+sound[14]=ohrwurn-demolition.wav
 # - construction on water
 sound[13]=dock.wav
 # - metal construction gets built
 sound[12]=gavel.wav
 # - stone/concrete construction gets built
-sound[11]=jackhammer.wav
+# This seems to include raising/lowering of land
+sound[11]=vickyleao1-digging.wav
 # - tool failed
-sound[10]=boing.wav
+sound[10]=decembread-breaks.wav
 # - tool selection
 sound[9]=jessepash-switch.wav
 
