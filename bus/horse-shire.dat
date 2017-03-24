@@ -27,7 +27,7 @@ axle_load=0
 cost=80000
 runningcost=12
 fixed_cost=400
-sound=-1
+
 
 EmptyImage[E]=./images/horse-shire-single_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-shire-single_SE.0.0,-13,0
@@ -62,7 +62,7 @@ axle_load=0
 cost=160000
 runningcost=24
 fixed_cost=800
-sound=-1
+
 
 EmptyImage[E]=./images/horse-shire-double_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-shire-double_SE.0.0,-13,0

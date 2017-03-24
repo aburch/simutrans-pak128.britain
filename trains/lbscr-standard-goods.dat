@@ -85,7 +85,7 @@ weight=14
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 
 Constraint[Prev][0]=LBSCR-standard-goods
 Constraint[Prev][1]=LBSCR-small-goods

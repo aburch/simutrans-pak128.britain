@@ -69,7 +69,7 @@ weight=25
 axles=4
 cost=800000
 runningcost=60
-sound=-1
+
 upgrade[0]=BR-Class483NDM
 
 can_lead_from_rear=0
@@ -114,7 +114,7 @@ overcrowded_capacity=150
 weight=18
 cost=400000
 runningcost=20
-sound=-1
+
 upgrade[0]=BR-Class483Trailer
 
 can_lead_from_rear=0
@@ -162,7 +162,7 @@ weight=26
 axles=4
 cost=1000000
 runningcost=60
-sound=-1
+sound=1938-stock-ff3170.wav
 upgrade[0]=BR-Class483Rear
 
 can_lead_from_rear=1

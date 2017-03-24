@@ -23,7 +23,7 @@ weight=12.9
 axles=3
 cost=304000
 runningcost=24
-sound=-1
+
 comfort=69
 
 upgrade[0]=LNWR-6Wheel-lav
@@ -167,7 +167,7 @@ weight=12.9
 axles=3
 upgrade_price=49285
 runningcost=24
-sound=-1
+
 
 # Note that only half the passengers in this carriage have lavatory access:
 # see Jenkinson (LNWR) p. 101 (this is D279).

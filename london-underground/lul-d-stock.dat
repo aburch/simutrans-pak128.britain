@@ -82,7 +82,7 @@ weight=26.1
 axles=4
 cost=5900000
 runningcost=110
-sound=-1
+
 
 Constraint[Prev][0]=LUL_D_StockRearUNDM
 
@@ -130,7 +130,7 @@ weight=18.4
 axles=4
 cost=1300000
 runningcost=33
-sound=-1
+
 
 Constraint[Prev][0]=LUL_D_StockFrontDM
 Constraint[Prev][1]=LUL_D_StockFrontUNDM
@@ -180,7 +180,7 @@ weight=18.4
 axles=4
 cost=1300000
 runningcost=33
-sound=-1
+
 
 Constraint[Prev][0]=LUL_D_StockMiddle1
 
@@ -230,7 +230,7 @@ weight=26.1
 axles=4
 cost=5900000
 runningcost=110
-sound=-1
+
 
 bidirectional=0
 way_constraint_permissive[3]=3
@@ -288,7 +288,7 @@ weight=27.5
 axles=4
 cost=6700000
 runningcost=110
-sound=-1
+sound=1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 way_constraint_permissive[3]=3

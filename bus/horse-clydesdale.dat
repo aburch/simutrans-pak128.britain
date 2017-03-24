@@ -21,7 +21,7 @@ axle_load=0
 cost=60000
 runningcost=15
 fixed_cost=280
-sound=-1
+
 
 EmptyImage[E]=./images/horse-clydesdale-single_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-clydesdale-single_SE.0.0,-13,0
@@ -56,7 +56,7 @@ axle_load=0
 cost=120000
 runningcost=30
 fixed_cost=560
-sound=-1
+
 
 EmptyImage[E]=./images/horse-clydesdale-double_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-clydesdale-double_SE.0.0,-13,0

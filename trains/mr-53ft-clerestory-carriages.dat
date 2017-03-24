@@ -19,7 +19,7 @@ weight=23.5
 axles=6
 cost=717120
 runningcost=32
-sound=-1
+
 upgrade[0]=MR-clayton-12wheel-clerestory-third-lav
 
 can_lead_from_rear=0
@@ -191,7 +191,7 @@ axles=6
 cost=717120
 upgrade_price=40195
 runningcost=32
-sound=-1
+
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=1
 
@@ -351,7 +351,7 @@ weight=23.5
 axles=6
 cost=717120
 runningcost=32
-sound=-1
+
 upgrade[0]=MR-clayton-12wheel-clerestory-brake-lav-front
 
 can_lead_from_rear=0
@@ -464,7 +464,7 @@ weight=23.5
 axles=6
 cost=717120
 runningcost=32
-sound=-1
+
 upgrade[0]=MR-clayton-12wheel-clerestory-brake-lav-rear
 
 can_lead_from_rear=0
@@ -578,7 +578,7 @@ axles=6
 cost=717120
 upgrade_price=40195
 runningcost=32
-sound=-1
+
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=1
 
@@ -680,7 +680,7 @@ weight=23.5
 axles=6
 cost=717120
 runningcost=32
-sound=-1
+
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=1
 

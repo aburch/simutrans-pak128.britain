@@ -20,7 +20,7 @@ axles=4
 cost=350000
 upgrade_price=12000
 runningcost=27
-sound=-1
+
 
 comfort=75
 can_lead_from_rear=0
@@ -111,7 +111,7 @@ axles=4
 cost=390000
 upgrade_price=12000
 runningcost=29
-sound=-1
+
 
 comfort=82
 can_lead_from_rear=0
@@ -202,7 +202,7 @@ axles=4
 cost=390000
 upgrade_price=12000
 runningcost=27
-sound=-1
+
 
 comfort=82
 can_lead_from_rear=0
@@ -331,7 +331,7 @@ axles=4
 cost=350000
 upgrade_price=12000
 runningcost=27
-sound=-1
+
 
 comfort=75
 can_lead_from_rear=0
@@ -459,7 +459,7 @@ axles=4
 cost=350000
 upgrade_price=12000
 runningcost=27
-sound=-1
+
 
 upgrade[0]=LNWR-8wheel-radial-brake-lav-rear
 
@@ -551,7 +551,7 @@ axles=4
 cost=390000
 upgrade_price=12000
 runningcost=27
-sound=-1
+
 
 comfort=82
 can_lead_from_rear=0
@@ -638,7 +638,7 @@ weight=19
 axles=4
 cost=390000
 runningcost=27
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -763,7 +763,7 @@ weight=19
 axles=4
 cost=390000
 runningcost=27
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1

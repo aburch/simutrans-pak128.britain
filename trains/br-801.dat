@@ -24,7 +24,7 @@ weight=40
 axles=4
 cost=2067000
 runningcost=660
-sound=-1
+
 
 min_loading_time=28
 max_loading_time=160
@@ -74,7 +74,7 @@ weight=47
 axles=4
 cost=2067000
 runningcost=660
-sound=-1
+
 
 min_loading_time=28
 max_loading_time=160
@@ -126,7 +126,7 @@ weight=47
 axles=4
 cost=2067000
 runningcost=660
-sound=-1
+
 upgrade[0]=BR-801MiddleTrolley
 
 min_loading_time=28
@@ -177,7 +177,7 @@ weight=47
 axles=4
 cost=2067000
 runningcost=675
-sound=-1
+
 upgrade[0]=BR-801MiddleTrailer
 
 min_loading_time=28
@@ -231,7 +231,7 @@ weight=40
 axles=4
 cost=2067000
 runningcost=660
-sound=-1
+
 
 min_loading_time=28
 max_loading_time=160

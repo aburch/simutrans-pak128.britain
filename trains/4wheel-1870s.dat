@@ -33,7 +33,7 @@ weight=9
 axles=2
 cost=300000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-1870s-fitted
 
 comfort=62
@@ -171,7 +171,7 @@ rolling_resistance=18
 weight=9
 cost=300000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-1870s-brake-fitted
 
 min_loading_time=35
@@ -252,7 +252,7 @@ rolling_resistance=18
 weight=9
 cost=300000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-1870s-mail-fitted
 
 min_loading_time=35
@@ -389,7 +389,7 @@ rolling_resistance=18
 weight=9
 cost=300000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-1870s-tpo-fitted
 
 min_loading_time=35
@@ -527,7 +527,7 @@ rolling_resistance=18
 weight=8
 cost=270000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-1870s-fast-freight-fitted
 
 min_loading_time=300
@@ -664,7 +664,7 @@ rolling_resistance=18
 weight=8
 cost=270000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-1870s-milk-fitted
 
 min_loading_time=300
@@ -805,7 +805,7 @@ weight=9.6
 cost=355000
 upgrade_price=65000
 runningcost=22
-sound=-1
+
 
 comfort=62
 min_loading_time=17
@@ -967,7 +967,7 @@ weight=9.6
 cost=355000
 upgrade_price=65000
 runningcost=22
-sound=-1
+
 
 min_loading_time=35
 max_loading_time=100
@@ -1048,7 +1048,7 @@ weight=9.6
 cost=355000
 upgrade_price=65000
 runningcost=22
-sound=-1
+
 
 min_loading_time=35
 max_loading_time=120
@@ -1209,7 +1209,7 @@ weight=9.6
 cost=355000
 upgrade_price=65000
 runningcost=22
-sound=-1
+
 
 min_loading_time=35
 max_loading_time=120
@@ -1370,7 +1370,7 @@ rolling_resistance=18
 weight=8.6
 cost=320000
 runningcost=22
-sound=-1
+
 
 min_loading_time=300
 max_loading_time=900
@@ -1530,7 +1530,7 @@ rolling_resistance=18
 weight=8.6
 cost=320000
 runningcost=22
-sound=-1
+
 
 min_loading_time=300
 max_loading_time=900

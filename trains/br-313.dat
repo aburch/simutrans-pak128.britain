@@ -21,7 +21,7 @@ weight=36
 axles=4
 cost=1237000
 runningcost=55
-sound=-1
+
 increase_maintenance_after_years=5
 #TODO: Change above when retirement date changes
 
@@ -83,7 +83,7 @@ weight=30
 axles=4
 cost=1237000
 runningcost=55
-sound=-1
+
 increase_maintenance_after_years=5
 #TODO: Change above when retirement date changes
 
@@ -144,7 +144,7 @@ weight=38
 axles=4
 cost=1237000
 runningcost=55
-sound=-1
+
 increase_maintenance_after_years=26
 
 can_lead_from_rear=1

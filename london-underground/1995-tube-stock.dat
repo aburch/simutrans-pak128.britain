@@ -71,7 +71,7 @@ weight=28
 axles=4
 cost=1000000
 runningcost=100
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -118,7 +118,7 @@ weight=21
 axles=4
 cost=800000
 runningcost=40
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -168,7 +168,7 @@ weight=21
 axles=4
 cost=800000
 runningcost=40
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -219,7 +219,7 @@ weight=28
 axles=4
 cost=1000000
 runningcost=100
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -271,7 +271,7 @@ weight=29
 axles=4
 cost=1500000
 runningcost=100
-sound=-1
+sound=adam_n-1992-stock.wav
 
 can_lead_from_rear=1
 bidirectional=0

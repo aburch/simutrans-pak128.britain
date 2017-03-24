@@ -19,7 +19,7 @@ weight=4
 axles=4
 cost=370000
 runningcost=17
-sound=-1
+
 upgrade[0]=FR-bogie-fitted
 
 can_lead_from_rear=0
@@ -109,7 +109,7 @@ weight=4
 cost=370000
 upgrade_price=24000
 runningcost=18
-sound=-1
+
 available_only_as_upgrade=0
 
 can_lead_from_rear=0

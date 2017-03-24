@@ -28,7 +28,7 @@ weight=9
 axles=2
 cost=300000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-sub-1870s-fitted
 
 comfort=52
@@ -169,7 +169,7 @@ weight=9
 axles=2
 cost=300000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-sub-1870s-brake-front-fitted
 
 comfort=52
@@ -282,7 +282,7 @@ weight=9
 axles=2
 cost=300000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-sub-1870s-brake-rear-fitted
 
 comfort=52
@@ -398,7 +398,7 @@ axles=2
 cost=355000
 upgrade_price=65000
 runningcost=22
-sound=-1
+
 
 comfort=52
 min_loading_time=10
@@ -545,7 +545,7 @@ axles=2
 cost=355000
 upgrade_price=65000
 runningcost=22
-sound=-1
+
 
 comfort=52
 min_loading_time=10
@@ -661,7 +661,7 @@ axles=2
 cost=355000
 upgrade_price=65000
 runningcost=22
-sound=-1
+
 
 comfort=52
 min_loading_time=10

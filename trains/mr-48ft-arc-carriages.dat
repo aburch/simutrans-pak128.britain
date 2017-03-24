@@ -17,7 +17,7 @@ weight=24.5
 axles=4
 cost=440000
 runningcost=27
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -184,7 +184,7 @@ weight=24.3
 axles=4
 cost=432000
 runningcost=27
-sound=-1
+
 
 upgrade[0]=MR-push-pull-front
 upgrade[1]=MR-push-pull-rear
@@ -291,7 +291,7 @@ weight=24.3
 axles=4
 cost=432000
 runningcost=27
-sound=-1
+
 
 upgrade[0]=MR-push-pull-front
 upgrade[1]=MR-push-pull-rear
@@ -398,7 +398,7 @@ axles=4
 cost=432000
 runningcost=27
 upgrade_price=25000
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0
@@ -445,7 +445,7 @@ axles=4
 cost=432000
 runningcost=27
 upgrade_price=25000
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0

@@ -23,7 +23,7 @@ weight=49
 axles=4
 cost=1930000
 runningcost=171
-sound=-1
+
 
 min_loading_time=30
 max_loading_time=150
@@ -87,7 +87,7 @@ weight=49
 axles=4
 cost=1930000
 runningcost=170
-sound=-1
+
 
 min_loading_time=30
 max_loading_time=150
@@ -152,7 +152,7 @@ axles=4
 cost=1930000
 upgrade_price=1000
 runningcost=170
-sound=-1
+
 upgrade[0]=BR-175Middle-trolley
 
 min_loading_time=30
@@ -219,7 +219,7 @@ axles=4
 cost=1930000
 upgrade_price=1000
 runningcost=195
-sound=-1
+
 upgrade[0]=BR-175Middle
 
 min_loading_time=30

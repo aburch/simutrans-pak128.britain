@@ -2,7 +2,6 @@ obj=vehicle
 name=TowpathTractor
 engine_type=diesel
 smoke=Diesel
-sound=tractor.wav
 speed=14
 power=80
 #gear=1200
@@ -16,7 +15,7 @@ length=8
 weight=10
 cost=652500
 runningcost=5
-sound=-1
+sound=tractor.wav
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge

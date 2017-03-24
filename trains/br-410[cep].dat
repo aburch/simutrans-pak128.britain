@@ -20,7 +20,7 @@ weight=41
 axles=4
 cost=1680000
 runningcost=165
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0
@@ -104,7 +104,7 @@ weight=36
 axles=4
 cost=1680000
 runningcost=30
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -182,7 +182,7 @@ weight=34
 axles=4
 cost=1680000
 runningcost=30
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -255,7 +255,7 @@ length=11
 weight=36
 cost=1720000
 runningcost=65
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -333,7 +333,7 @@ weight=41
 axles=4
 cost=1680000
 runningcost=165
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0
