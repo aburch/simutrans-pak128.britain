@@ -27,7 +27,7 @@ max_loading_time=3200
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=3850
 
-sound=aircraft-jet_stop.wav
+sound=bigpickel51-jet-takeoff.wav
 range=3500
 
 Constraint[Next][0]=none
@@ -71,7 +71,7 @@ max_loading_time=3200
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=3850
 
-sound=aircraft-jet_stop.wav
+sound=bigpickel51-jet-takeoff.wav
 range=3500
 
 Constraint[Next][0]=none
