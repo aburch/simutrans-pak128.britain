@@ -23,7 +23,7 @@ weight=6
 axles=2
 cost=924000
 runningcost=60
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=42
 
 Constraint[Next][0]=PuffingBilly-Tender

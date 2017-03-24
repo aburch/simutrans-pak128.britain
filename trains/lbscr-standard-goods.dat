@@ -28,8 +28,7 @@ weight=32.5
 axles=3
 cost=7750000
 runningcost=360
-sound=-1
-
+sound=-1sound=lwalker-br-4mt-tank.wav
 Constraint[Next][0]=LBSCR-standard-goods-tender
 
 liverytype[0]=LBSCR-Craven

@@ -21,7 +21,7 @@ axle_load=16
 cost=6552500
 upgrade_price=1310500
 runningcost=743
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 available_only_as_upgrade=1
 
 Constraint[Next][0]=lswr-watercart-tender

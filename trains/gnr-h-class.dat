@@ -24,7 +24,7 @@ weight=37
 axle_load=13
 cost=85920000
 runningcost=900
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=gnr-sturrock-tender
 

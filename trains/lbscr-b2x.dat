@@ -22,7 +22,7 @@ axle_load=15
 cost=5900000
 upgrade_price=2000000
 runningcost=1700
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 available_only_as_upgrade=1
 
 Constraint[Next][0]=LBSCR-B2-tender

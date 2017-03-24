@@ -25,7 +25,7 @@ weight=29
 axle_load=12
 cost=7975000
 runningcost=880
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=MR-1-tender
 

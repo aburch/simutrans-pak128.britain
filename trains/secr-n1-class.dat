@@ -23,7 +23,7 @@ weight=64
 axle_load=18
 cost=7400000
 runningcost=987
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=SECR-N-Class-Tender
 

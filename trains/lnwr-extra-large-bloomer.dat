@@ -23,7 +23,7 @@ weight=31.7
 axle_load=12
 cost=8335250
 runningcost=1005
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Bloomer-Tender
 

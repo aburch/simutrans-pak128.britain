@@ -27,7 +27,7 @@ weight=73.6
 axle_load=18
 cost=3520000
 runningcost=800
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 upgrade[0]=MR-2000-superheated
 
 can_lead_from_rear=0
@@ -84,7 +84,7 @@ axle_load=18
 cost=3659000
 upgrade_price=1750000
 runningcost=700
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 available_only_as_upgrade=1
 
 can_lead_from_rear=0

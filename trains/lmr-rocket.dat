@@ -26,7 +26,7 @@ way_wear_factor=9375
 weight=5
 cost=5544000
 runningcost=500
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Rocket-Tender

@@ -26,6 +26,7 @@ comfort=84
 # Coach: 7.5 seconds per passenger
 min_loading_time=30
 max_loading_time=383
+sound=leyland-atlantean-an68-ff3170.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

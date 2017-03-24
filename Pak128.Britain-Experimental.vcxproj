@@ -305,6 +305,7 @@
     <None Include="bus\leyland-daf-85-rigid.dat" />
     <None Include="bus\leyland-g.dat" />
     <None Include="bus\leyland-leopard-l2.dat" />
+    <None Include="bus\leyland-leopard-psu3a.dat" />
     <None Include="bus\leyland-national-2-standee.dat" />
     <None Include="bus\leyland-national-2.dat" />
     <None Include="bus\leyland-national-b.dat" />
@@ -1673,7 +1674,6 @@
     <None Include="trams\sheffield-supertram-rear.dat" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\shiptools.txt" />
     <None Include="citybuildings\sidewalk.dat" />
-    <None Include="ways\TEST.dat" />
     <None Include="ways\tunnel-tracks.dat" />
     <None Include="ways\signals-narrow.dat" />
     <None Include="ways\signals.dat" />

@@ -22,7 +22,7 @@ weight=49
 axle_load=17
 cost=7000000
 runningcost=2100
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=LBSCR-B4x
 Constraint[Next][0]=LBSCR-B4-tender

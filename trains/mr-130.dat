@@ -25,7 +25,7 @@ brake_force=0
 rolling_resistance=19
 
 # Weight not given - guessed.
-weight=27
+sound=lwalker-br-4mt-tank.wav
 # Cannot be greater than 10 to go with contemporary track
 axle_load=10
 cost=7816000

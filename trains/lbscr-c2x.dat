@@ -26,7 +26,7 @@ axles=3
 cost=3020000
 upgrade_price=1300000
 runningcost=300
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 available_only_as_upgrade=1
 
 Constraint[Next][0]=LBSCR-C2-tender

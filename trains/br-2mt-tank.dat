@@ -23,7 +23,7 @@ weight=67
 axle_load=14
 cost=3205000
 runningcost=601
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=6
 years_before_maintenance_max_reached=12
 
@@ -66,7 +66,7 @@ axle_load=14
 cost=3275000
 upgrade_price=95000
 runningcost=601
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=6
 years_before_maintenance_max_reached=12
 

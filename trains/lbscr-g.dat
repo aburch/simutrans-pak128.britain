@@ -29,7 +29,7 @@ weight=36.2
 axle_load=14
 cost=2850000
 runningcost=400
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-Belgravia-tender
 

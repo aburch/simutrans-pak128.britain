@@ -25,7 +25,7 @@ way_wear_factor=14600
 weight=8.5
 cost=1663200
 runningcost=105
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=SDR-Locomotion-Tender
