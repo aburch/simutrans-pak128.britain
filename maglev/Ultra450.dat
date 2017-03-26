@@ -24,7 +24,7 @@ bidirectional=0
 min_loading_time=25
 max_loading_time=160
 comfort=155
-air_resistance=882
+air_resistance=103
 
 Constraint[Prev][0]=BR-Ultra-450(rear)
 Constraint[Prev][1]=none
@@ -153,7 +153,7 @@ bidirectional=0
 min_loading_time=25
 max_loading_time=160
 comfort=155
-air_resistance=882
+air_resistance=103
 
 Constraint[Prev][0]=BR-Ultra-450(Open)
 Constraint[Prev][1]=BR-Ultra-450(Buffet)

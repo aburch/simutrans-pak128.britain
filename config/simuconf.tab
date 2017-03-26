@@ -1043,10 +1043,6 @@ citycar_life = 1375
 # Pak128.Britain default = 158 (yellow)
 cursor_overlay_color = 158
 
-# how height is a tile in z-direction (default 16, TTD 8)
-# THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
-tile_height = 16
-
 ################################### River settings ##################################
 
 # rivers:
@@ -1117,7 +1113,7 @@ no_lakes = 0
 # Most network settings are found in the base simuconf.tab
 
 # Pakset download URL (for display on the list server)
-server_pakurl = http://www.bridgewater-brunel.me.uk/downloads/Pak128.Britain-Ex-0.9.2.zip
+server_pakurl = http://bridgewater-brunel.me.uk/downloads/nightly/pakset/pak128.britain-ex-nightly.tar.gz
 
 
 ################################### Livery settings ##################################
