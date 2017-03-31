@@ -22,7 +22,7 @@ cost=20000
 runningcost=10
 fixed_cost=75
 
-
+sound=ylearkisto-horse.wav
 range=25
 
 EmptyImage[E]=./images/horse-pony-single_E.0.0,-33,14
@@ -59,7 +59,7 @@ cost=40000
 runningcost=20
 fixed_cost=150
 
-
+sound=ylearkisto-horses.wav
 range=25
 
 EmptyImage[E]=./images/horse-pony-double_E.0.0,-33,14

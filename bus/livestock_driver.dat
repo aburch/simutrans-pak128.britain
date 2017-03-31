@@ -29,6 +29,7 @@ max_loading_time=300
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=75
 increase_maintenance_by_percent=250
+sound=sandeepkurissery-flock-of-sheep.wav
 
 constraint[next][0]=none
 constraint[prev][0]=none

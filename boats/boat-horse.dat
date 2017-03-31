@@ -16,6 +16,7 @@ weight=0.7
 cost=50000
 runningcost=7
 
+sound=arnaud-coutancier-canal-horses.wav
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
@@ -98,7 +99,7 @@ weight=1.4
 cost=100000
 runningcost=15
 
-
+sound=arnaud-coutancier-canal-horses.wav
 range=24
 
 way_constraint_permissive[4]=4  # Waterway

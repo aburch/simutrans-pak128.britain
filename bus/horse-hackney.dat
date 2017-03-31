@@ -22,7 +22,7 @@ cost=60000
 runningcost=12
 fixed_cost=230
 
-
+sound=ylearkisto-horse.wav
 range=30
 
 EmptyImage[E]=./images/horse-hackney-single_E.0.0,-33,14
@@ -59,7 +59,7 @@ cost=120000
 runningcost=24
 fixed_cost=460
 
-
+sound=ylearkisto-horses.wav
 range=30
 
 EmptyImage[E]=./images/horse-hackney-double_E.0.0,-33,14
