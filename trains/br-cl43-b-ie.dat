@@ -24,7 +24,8 @@ weight=70
 axles=4
 cost=9331000
 runningcost=2508
-
+# TODO: This is the MTU engine sound: find a Valenta sound if possible.
+sound=konakaboom-hst-mtu.wav
 
 min_loading_time=20
 max_loading_time=50

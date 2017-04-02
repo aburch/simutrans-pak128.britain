@@ -23,7 +23,7 @@ weight=37
 axles=4
 cost=1822000
 runningcost=91
-
+sound=konakaboom-class-165.wav
 
 min_loading_time=17
 max_loading_time=55
@@ -184,6 +184,7 @@ weight=39
 axles=4
 cost=1822000
 runningcost=91
+sound=konakaboom-class-165.wav
 
 increase_maintenance_after_years=23
 
