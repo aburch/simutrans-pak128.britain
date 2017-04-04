@@ -17,7 +17,7 @@ weight=41
 axles=4
 cost=1690000
 runningcost=160
-
+sound=video47-emu-generic.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -104,7 +104,7 @@ weight=36
 axles=4
 cost=1690000
 runningcost=30
-
+sound=video47-emu-generic.wav
 
 can_lead_from_rear=0
 bidirectional=1
