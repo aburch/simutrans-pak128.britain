@@ -18,6 +18,7 @@ retire_year=1921
 retire_month=9
 is_tall=1
 way_wear_factor=156
+sound=video47-traction-engine.wav
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
@@ -53,6 +54,7 @@ retire_year=1932
 retire_month=5
 is_tall=1
 way_wear_factor=790
+sound=video47-traction-engine.wav
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive

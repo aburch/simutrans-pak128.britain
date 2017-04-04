@@ -27,6 +27,7 @@ comfort=38
 # Two door pay driver: 3.0 seconds per passenger
 min_loading_time=5
 max_loading_time=222
+sound=hkmtrhah-volvo-bm10.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
@@ -90,6 +91,7 @@ comfort=38
 # Single door pay driver: 4.0 seconds per passenger
 min_loading_time=5
 max_loading_time=320
+sound=hkmtrhah-volvo-bm10.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

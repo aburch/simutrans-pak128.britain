@@ -333,6 +333,7 @@
     <None Include="bus\omnibus-double-knifeboard-later.dat" />
     <None Include="bus\omnibus-single-small.dat" />
     <None Include="bus\optare-alero.dat" />
+    <None Include="bus\optare-delta.dat" />
     <None Include="bus\optare-metrorider-long.dat" />
     <None Include="bus\optare-metrorider-short.dat" />
     <None Include="bus\optare-solo-ev.dat" />
@@ -496,6 +497,9 @@
     <None Include="narrowgauge\george-england.dat" />
     <None Include="narrowgauge\hibberd-planet.dat" />
     <None Include="narrowgauge\hunslet-alice.dat" />
+    <None Include="narrowgauge\narrowgauge-horse-clydesdale.dat" />
+    <None Include="narrowgauge\narrowgauge-horse-irish-draught.dat" />
+    <None Include="narrowgauge\narrowgauge-horse-shire.dat" />
     <None Include="narrowgauge\single-fairlie-superheated.dat" />
     <None Include="narrowgauge\single-fairlie.dat" />
     <None Include="narrowgauge\single-shire.dat" />
