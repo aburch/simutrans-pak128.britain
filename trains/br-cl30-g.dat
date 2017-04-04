@@ -26,6 +26,11 @@ runningcost=462
 # first introduced.
 increase_maintenance_after_years=6
 rolling_resistance=13
+sound=laurie-class-31.wav
+
+can_lead_from_rear=0
+bidirectional=1
+upgrade[0]=BR-Class31-1
 
 # Red circle
 Constraint[Prev][0]=BR-Class16
@@ -34,10 +39,6 @@ Constraint[Prev][2]=BR-Class28
 Constraint[Prev][3]=BR-Class29
 Constraint[Prev][4]=BR-Class30
 Constraint[Prev][5]=none
-
-can_lead_from_rear=0
-bidirectional=1
-upgrade[0]=BR-Class31-1
 
 EmptyImage[E]=./images/br-cl30-g.0
 EmptyImage[SE]=./images/br-cl30-g.1
