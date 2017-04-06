@@ -28,6 +28,7 @@ comfort=43
 min_loading_time=5
 # Double entrance pay driver: 3.0 seconds per passenger
 max_loading_time=228
+sound=androo4519-btu9613t.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

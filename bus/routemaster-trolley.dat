@@ -25,6 +25,7 @@ comfort=47
 # Single door with conductor (8ft wide): 2.3 seconds per passenger
 min_loading_time=3
 max_loading_time=175
+sound=androo4519-btu9613t.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

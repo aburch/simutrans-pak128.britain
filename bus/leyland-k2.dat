@@ -30,6 +30,7 @@ comfort=46
 # Rear platform with conductor 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=140
+sound=androo4519-btu9613t.wav
 
 constraint[next][0]=none 
 constraint[prev][0]=none 
