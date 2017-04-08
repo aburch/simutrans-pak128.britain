@@ -11,8 +11,10 @@ speed=50
 power=89
 tractive_effort=12
 gear=50
-# An example of this 'bus at the London 'Bus Museum gives its weight as 6t, 15cwt, 3qrs
-weight=6.9
+# An example of this 'bus at the London 'Bus Museum gives its weight as 7t, 10cwt, 0qrs
+# This is heavier than the earlier RT2 (the pre-war 'buses) probably because this had
+# a metal body and the earlier 'buses a wooden body
+weight=7.6
 length=6
 cost=1042000
 runningcost=190
