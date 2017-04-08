@@ -12,7 +12,8 @@ speed=50
 power=34
 tractive_effort=9
 gear=50
-weight=9.5
+# Guessed as mid-point between ST and RT
+weight=6.8
 axle_load=5
 length=6
 cost=682000

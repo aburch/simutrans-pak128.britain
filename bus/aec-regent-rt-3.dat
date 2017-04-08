@@ -11,7 +11,8 @@ speed=50
 power=89
 tractive_effort=12
 gear=50
-weight=7.2
+# An example of this 'bus at the London 'Bus Museum gives its weight as 6t, 15cwt, 3qrs
+weight=6.9
 length=6
 cost=1042000
 runningcost=190

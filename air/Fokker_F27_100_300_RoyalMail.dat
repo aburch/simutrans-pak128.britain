@@ -25,7 +25,7 @@ max_loading_time=2000
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1950
 
-sound=planelow.wav
+sound=bigpickle51-turboprop.wav
 range=2600
 
 Constraint[Next][0]=none
