@@ -31,7 +31,7 @@ max_loading_time=2400
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1750
 
-andysvideo-vickers-vimy.wav
+sound=andysvideo-vickers-vimy.wav
 range=885
 
 Constraint[Next][0]=none
