@@ -70,7 +70,7 @@ retire_month=12
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1200
 
-sound=planelow.wav
+sound=bigpickle51-turboprop.wav
 range=885
 
 Constraint[Next][0]=none

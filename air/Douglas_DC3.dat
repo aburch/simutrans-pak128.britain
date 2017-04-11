@@ -140,7 +140,7 @@ max_loading_time=2000
 # Not entirely sure about this figure - check this.
 minimum_runway_length=625
 
-sound=planelow.wav
+sound=ylearkisto-dc-3.wav
 range=2400
 
 Constraint[Next][0]=none
