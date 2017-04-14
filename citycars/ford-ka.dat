@@ -4,17 +4,18 @@ copyright=James
 
 DistributionWeight=10
 intro_year=1996
+intro_month=9
 #retire_year=2030
 speed=125
 
-Image[W]=ford-ka.0.0
-Image[NW]=ford-ka.0.1
-Image[N]=ford-ka.0.2
-Image[NE]=ford-ka.0.3
-Image[E]=ford-ka.0.4
-Image[SE]=ford-ka.0.5
-Image[S]=ford-ka.0.6
-Image[SW]=ford-ka.0.7
+Image[E]=./images/ford-ka-blue_E.0.0,-33,14
+Image[SE]=./images/ford-ka-blue_SE.0.0,-13,0
+Image[S]=./images/ford-ka-blue_S.0.0,0,0
+Image[SW]=./images/ford-ka-blue_SW.0.0,-8,10
+Image[W]=./images/ford-ka-blue_W.0.0,4,5
+Image[NW]=./images/ford-ka-blue_NW.0.0,12,10
+Image[N]=./images/ford-ka-blue_N.0.0,0,33
+Image[NE]=./images/ford-ka-blue_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=FordKa(Silver)
@@ -22,17 +23,18 @@ copyright=James
 
 DistributionWeight=10
 intro_year=1996
+intro_month=9
 #retire_year=2030
 speed=125
 
-Image[W]=ford-ka.1.0
-Image[NW]=ford-ka.1.1
-Image[N]=ford-ka.1.2
-Image[NE]=ford-ka.1.3
-Image[E]=ford-ka.1.4
-Image[SE]=ford-ka.1.5
-Image[S]=ford-ka.1.6
-Image[SW]=ford-ka.1.7
+Image[E]=./images/ford-ka-silver_E.0.0,-33,14
+Image[SE]=./images/ford-ka-silver_SE.0.0,-13,0
+Image[S]=./images/ford-ka-silver_S.0.0,0,0
+Image[SW]=./images/ford-ka-silver_SW.0.0,-8,10
+Image[W]=./images/ford-ka-silver_W.0.0,4,5
+Image[NW]=./images/ford-ka-silver_NW.0.0,12,10
+Image[N]=./images/ford-ka-silver_N.0.0,0,33
+Image[NE]=./images/ford-ka-silver_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=FordKa(Red)
@@ -40,17 +42,18 @@ copyright=James
 
 DistributionWeight=8
 intro_year=1996
+intro_month=9
 #retire_year=2030
 speed=125
 
-Image[W]=ford-ka.2.0
-Image[NW]=ford-ka.2.1
-Image[N]=ford-ka.2.2
-Image[NE]=ford-ka.2.3
-Image[E]=ford-ka.2.4
-Image[SE]=ford-ka.2.5
-Image[S]=ford-ka.2.6
-Image[SW]=ford-ka.2.7
+Image[E]=./images/ford-ka-red_E.0.0,-33,14
+Image[SE]=./images/ford-ka-red_SE.0.0,-13,0
+Image[S]=./images/ford-ka-red_S.0.0,0,0
+Image[SW]=./images/ford-ka-red_SW.0.0,-8,10
+Image[W]=./images/ford-ka-red_W.0.0,4,5
+Image[NW]=./images/ford-ka-red_NW.0.0,12,10
+Image[N]=./images/ford-ka-red_N.0.0,0,33
+Image[NE]=./images/ford-ka-red_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=FordKa(Turquoise)
@@ -61,14 +64,14 @@ intro_year=1996
 #retire_year=2030
 speed=125
 
-Image[W]=ford-ka.3.0
-Image[NW]=ford-ka.3.1
-Image[N]=ford-ka.3.2
-Image[NE]=ford-ka.3.3
-Image[E]=ford-ka.3.4
-Image[SE]=ford-ka.3.5
-Image[S]=ford-ka.3.6
-Image[SW]=ford-ka.3.7
+Image[E]=./images/ford-ka-turquoise_E.0.0,-33,14
+Image[SE]=./images/ford-ka-turquoise_SE.0.0,-13,0
+Image[S]=./images/ford-ka-turquoise_S.0.0,0,0
+Image[SW]=./images/ford-ka-turquoise_SW.0.0,-8,10
+Image[W]=./images/ford-ka-turquoise_W.0.0,4,5
+Image[NW]=./images/ford-ka-turquoise_NW.0.0,12,10
+Image[N]=./images/ford-ka-turquoise_N.0.0,0,33
+Image[NE]=./images/ford-ka-turquoise_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=FordKa(Green)
@@ -76,17 +79,18 @@ copyright=James
 
 DistributionWeight=4
 intro_year=1996
+intro_month=9
 #retire_year=2030
 speed=125
 
-Image[W]=ford-ka.4.0
-Image[NW]=ford-ka.4.1
-Image[N]=ford-ka.4.2
-Image[NE]=ford-ka.4.3
-Image[E]=ford-ka.4.4
-Image[SE]=ford-ka.4.5
-Image[S]=ford-ka.4.6
-Image[SW]=ford-ka.4.7
+Image[E]=./images/ford-ka-green_E.0.0,-33,14
+Image[SE]=./images/ford-ka-green_SE.0.0,-13,0
+Image[S]=./images/ford-ka-green_S.0.0,0,0
+Image[SW]=./images/ford-ka-green_SW.0.0,-8,10
+Image[W]=./images/ford-ka-green_W.0.0,4,5
+Image[NW]=./images/ford-ka-green_NW.0.0,12,10
+Image[N]=./images/ford-ka-green_N.0.0,0,33
+Image[NE]=./images/ford-ka-green_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=FordKa(Purple)
@@ -94,14 +98,15 @@ copyright=James
 
 DistributionWeight=3
 intro_year=1996
+intro_month=9
 #retire_year=2030
 speed=125
 
-Image[W]=ford-ka.5.0
-Image[NW]=ford-ka.5.1
-Image[N]=ford-ka.5.2
-Image[NE]=ford-ka.5.3
-Image[E]=ford-ka.5.4
-Image[SE]=ford-ka.5.5
-Image[S]=ford-ka.5.6
-Image[SW]=ford-ka.5.7
+Image[E]=./images/ford-ka-purple_E.0.0,-33,14
+Image[SE]=./images/ford-ka-purple_SE.0.0,-13,0
+Image[S]=./images/ford-ka-purple_S.0.0,0,0
+Image[SW]=./images/ford-ka-purple_SW.0.0,-8,10
+Image[W]=./images/ford-ka-purple_W.0.0,4,5
+Image[NW]=./images/ford-ka-purple_NW.0.0,12,10
+Image[N]=./images/ford-ka-purple_N.0.0,0,33
+Image[NE]=./images/ford-ka-purple_NE.0.0,0,24

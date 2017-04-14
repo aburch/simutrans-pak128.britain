@@ -4,14 +4,16 @@ copyright=James
 
 DistributionWeight=10
 intro_year=1908
-retire_year=1930
+intro_month-10
+retire_year=1935
+retire_month=11
 speed=50
 
-Image[W]=ford-t.0.0
-Image[NW]=ford-t.0.1
-Image[N]=ford-t.0.2
-Image[NE]=ford-t.0.3
-Image[E]=ford-t.0.4
-Image[SE]=ford-t.0.5
-Image[S]=ford-t.0.6
-Image[SW]=ford-t.0.7
+Image[E]=./images/ford-model-t_E.0.0,-33,14
+Image[SE]=./images/ford-model-t_SE.0.0,-13,0
+Image[S]=./images/ford-model-t_S.0.0,0,0
+Image[SW]=./images/ford-model-t_SW.0.0,-8,10
+Image[W]=./images/ford-model-t_W.0.0,4,5
+Image[NW]=./images/ford-model-t_NW.0.0,12,10
+Image[N]=./images/ford-model-t_N.0.0,0,33
+Image[NE]=./images/ford-model-t_NE.0.0,0,24

@@ -1,11 +1,12 @@
+# http://morrisregister.co.uk/3538eight5cwt/
 obj=vehicle
 name=MorrisEightPiece
 copyright=JamesPetts&JamesHood
 waytype=road
 freight=Bucher
+# Could carry 5cwt
 payload=5
 engine_type=petrol
-smoke=Diesel
 power=22
 gear=50
 tractive_effort=4
@@ -25,14 +26,14 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
-EmptyImage[E]=./images/morris-eight-van.0.0
-EmptyImage[SE]=./images/morris-eight-van.0.1
-EmptyImage[S]=./images/morris-eight-van.0.2
-EmptyImage[SW]=./images/morris-eight-van.0.3
-EmptyImage[W]=./images/morris-eight-van.0.4
-EmptyImage[NW]=./images/morris-eight-van.0.5
-EmptyImage[N]=./images/morris-eight-van.0.6
-EmptyImage[NE]=./images/morris-eight-van.0.7
+EmptyImage[E]=./images/morris-eight-piece_E.0.0,-33,14
+EmptyImage[SE]=./images/morris-eight-piece_SE.0.0,-13,0
+EmptyImage[S]=./images/morris-eight-piece_S.0.0,0,0
+EmptyImage[SW]=./images/morris-eight-piece_SW.0.0,-8,10
+EmptyImage[W]=./images/morris-eight-piece_W.0.0,4,5
+EmptyImage[NW]=./images/morris-eight-piece_NW.0.0,12,10
+EmptyImage[N]=./images/morris-eight-piece_N.0.0,0,33
+EmptyImage[NE]=./images/morris-eight-piece_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -42,7 +43,6 @@ waytype=road
 freight=meat
 payload=5
 engine_type=petrol
-smoke=Diesel
 power=22
 gear=50
 tractive_effort=4
@@ -62,14 +62,14 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=300
 
-EmptyImage[E]=./images/morris-eight-van.1.0
-EmptyImage[SE]=./images/morris-eight-van.1.1
-EmptyImage[S]=./images/morris-eight-van.1.2
-EmptyImage[SW]=./images/morris-eight-van.1.3
-EmptyImage[W]=./images/morris-eight-van.1.4
-EmptyImage[NW]=./images/morris-eight-van.1.5
-EmptyImage[N]=./images/morris-eight-van.1.6
-EmptyImage[NE]=./images/morris-eight-van.1.7
+EmptyImage[E]=./images/morris-eight-cool_E.0.0,-33,14
+EmptyImage[SE]=./images/morris-eight-cool_SE.0.0,-13,0
+EmptyImage[S]=./images/morris-eight-cool_S.0.0,0,0
+EmptyImage[SW]=./images/morris-eight-cool_SW.0.0,-8,10
+EmptyImage[W]=./images/morris-eight-cool_W.0.0,4,5
+EmptyImage[NW]=./images/morris-eight-cool_NW.0.0,12,10
+EmptyImage[N]=./images/morris-eight-cool_N.0.0,0,33
+EmptyImage[NE]=./images/morris-eight-cool_NE.0.0,0,24
 -----------------------------------------
 obj=vehicle
 name=MorrisEightPost
@@ -78,7 +78,6 @@ waytype=road
 freight=Post
 payload=160
 engine_type=petrol
-smoke=Diesel
 power=22
 gear=50
 tractive_effort=4
@@ -98,11 +97,11 @@ constraint[prev][0]=none
 min_loading_time=30
 max_loading_time=200
 
-EmptyImage[E]=./images/morris-eight-van.2.0
-EmptyImage[SE]=./images/morris-eight-van.2.1
-EmptyImage[S]=./images/morris-eight-van.2.2
-EmptyImage[SW]=./images/morris-eight-van.2.3
-EmptyImage[W]=./images/morris-eight-van.2.4
-EmptyImage[NW]=./images/morris-eight-van.2.5
-EmptyImage[N]=./images/morris-eight-van.2.6
-EmptyImage[NE]=./images/morris-eight-van.2.7
+EmptyImage[E]=./images/morris-eight-post_E.0.0,-33,14
+EmptyImage[SE]=./images/morris-eight-post_SE.0.0,-13,0
+EmptyImage[S]=./images/morris-eight-post_S.0.0,0,0
+EmptyImage[SW]=./images/morris-eight-post_SW.0.0,-8,10
+EmptyImage[W]=./images/morris-eight-post_W.0.0,4,5
+EmptyImage[NW]=./images/morris-eight-post_NW.0.0,12,10
+EmptyImage[N]=./images/morris-eight-post_N.0.0,0,33
+EmptyImage[NE]=./images/morris-eight-post_NE.0.0,0,24
