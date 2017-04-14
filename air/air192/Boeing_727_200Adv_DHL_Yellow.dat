@@ -27,7 +27,7 @@ max_loading_time=3200
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=3850
 
-sound=robin-pinnock-bac-1-11.wav
+sound=jorge-atc-boeing-727.wav
 range=3500
 
 Constraint[Next][0]=none
