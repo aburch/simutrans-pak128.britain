@@ -1,7 +1,7 @@
 # https://en.wikipedia.org/wiki/Ford_Model_C_Ten
 obj=citycar
 name=FordModelC(Blue)
-copyright=James
+copyright=JamesPetts
 
 DistributionWeight=5
 intro_year=1934
@@ -21,7 +21,7 @@ Image[NE]=./images/ford-model-c-blue_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=FordModelC(Green)
-copyright=James
+copyright=JamesPetts
 
 DistributionWeight=4
 intro_year=1934
@@ -41,7 +41,7 @@ Image[NE]=./images/ford-model-c-green_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=FordModelC(Black)
-copyright=James
+copyright=JamesPetts
 
 DistributionWeight=10
 intro_year=1934
@@ -62,7 +62,7 @@ Image[NE]=./images/ford-model-c-black_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=FordModelC(Cream)
-copyright=James
+copyright=JamesPetts
 
 DistributionWeight=4
 intro_year=1934
