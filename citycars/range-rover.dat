@@ -43,14 +43,14 @@ intro_year=1990
 intro_month=12
 speed=120
 
-Image[W]=range-rover.2.0
-Image[NW]=range-rover.2.1
-Image[N]=range-rover.2.2
-Image[NE]=range-rover.2.3
-Image[E]=range-rover.2.4
-Image[SE]=range-rover.2.5
-Image[S]=range-rover.2.6
-Image[SW]=range-rover.2.7
+Image[E]=./images/range-rover-silver_E.0.0,-33,14
+Image[SE]=./images/range-rover-silver_SE.0.0,-13,0
+Image[S]=./images/range-rover-silver_S.0.0,0,0
+Image[SW]=./images/range-rover-silver_SW.0.0,-8,10
+Image[W]=./images/range-rover-silver_W.0.0,4,5
+Image[NW]=./images/range-rover-silver_NW.0.0,12,10
+Image[N]=./images/range-rover-silver_N.0.0,0,33
+Image[NE]=./images/range-rover-silver_NE.0.0,0,24
 ---------------------------------
 obj=citycar
 name=RangeRover(Black)
