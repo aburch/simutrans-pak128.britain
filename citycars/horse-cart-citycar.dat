@@ -2,11 +2,11 @@ obj=citycar
 name=HorseCart(Brown)
 copyright=James
 
-DistributionWeight=4
+DistributionWeight=12
 intro_year=1750
 intro_month=1
-retire_year=1954
-retire_month=5
+retire_year=1935
+retire_month=3
 speed=8
 
 Image[E]=./images/horse-cart-piece-citycar-brown_E.0.0,-33,14
@@ -23,7 +23,7 @@ obj=citycar
 name=HorseCart(Grey)
 copyright=James
 
-DistributionWeight=4
+DistributionWeight=18
 intro_year=1750
 intro_month=1
 retire_year=1922
@@ -44,11 +44,11 @@ obj=citycar
 name=HorseCart(Turquoise)
 copyright=James
 
-DistributionWeight=4
+DistributionWeight=8
 intro_year=1750
 intro_month=1
-retire_year=1935
-retire_month=3
+retire_year=1954
+retire_month=5
 speed=8
 
 Image[E]=./images/horse-cart-piece-citycar-turquoise_E.0.0,-33,14
