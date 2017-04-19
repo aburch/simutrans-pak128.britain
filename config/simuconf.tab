@@ -983,16 +983,20 @@ max_speed_drive_by_sight_kmh = 35
 # Corners of greater than 45 degrees have their radius calculated. However, because of 
 # the rigid tile system in Simutrans, this produces unrealistic results when applied
 # to corners of 45 degrees. A value is thus specified here. This affects the speed
-# at which vehicles can take 45 degree corners. 
+# at which vehicles can take pairs of directionally correcting 45 degree corners
+# (i.e. not a pair of 45 degree corners which between them add up to 90 degrees,
+# which can be calculated more easily and are dealt with by a separate system). 
 #
-# If this is set to 0, 45 degree corners are treated as straight.
+# If this is set to 0, pairs of self-correcting 45 degree corners are treated
+#  as being straight.
 # 
-# If this is set to 9999, adjacent pairs of degree corners are treated as half the
-# radius of a 90 degree corner (and non-adjacent pairs scaled according to the distance
-# between them). This is techincally correct but does not work well in Simutrans because
-# of the inability to have gentler corners. 
+# For any other value, this serves as a minimum assumed radius for any given pair
+# of self-correcting 45 degree corners. A calculated value will be used to work
+# out what the radius of the self-correcting corners should be, but, because of 
+# the rigid tile system in Simutrans, it is not possible to make gentle corners,
+# so set this as a minimum to allow for this. 
 #
-assumed_curve_radius_45_degrees = 1000
+assumed_curve_radius_45_degrees = 750
 
 ############################### Display settings ###############################
 
