@@ -128,7 +128,7 @@ bidirectional=1
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-460(centre1)
-Constraint[Prev][0]=BR-460(centre2)
+Constraint[Prev][1]=BR-460(centre2)
 
 Constraint[Next][0]=BR-460(rear)
 Constraint[Next][1]=BR-460(centre2)
