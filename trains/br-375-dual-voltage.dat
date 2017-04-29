@@ -125,6 +125,88 @@ liverytype[1]=southeastern
 liverytype[2]=Firstgroup-Neon
 liverytype[3]=Southern
 
+EmptyImage[E][0]=./images/br-375-middle-se.1.4
+EmptyImage[SE][0]=./images/br-375-middle-se.1.5
+EmptyImage[S][0]=./images/br-375-middle-se.1.6
+EmptyImage[SW][0]=./images/br-375-middle-se.1.7
+EmptyImage[W][0]=./images/br-375-middle-se.1.0
+EmptyImage[NW][0]=./images/br-375-middle-se.1.1
+EmptyImage[N][0]=./images/br-375-middle-se.1.2
+EmptyImage[NE][0]=./images/br-375-middle-se.1.3
+
+EmptyImage[E][1]=./images/br-375-middle-se2.1.4
+EmptyImage[SE][1]=./images/br-375-middle-se2.1.5
+EmptyImage[S][1]=./images/br-375-middle-se2.1.6
+EmptyImage[SW][1]=./images/br-375-middle-se2.1.7
+EmptyImage[W][1]=./images/br-375-middle-se2.1.0
+EmptyImage[NW][1]=./images/br-375-middle-se2.1.1
+EmptyImage[N][1]=./images/br-375-middle-se2.1.2
+EmptyImage[NE][1]=./images/br-375-middle-se2.1.3
+
+EmptyImage[E][2]=./images/br-377-middle-fcc.1.4
+EmptyImage[SE][2]=./images/br-377-middle-fcc.1.5
+EmptyImage[S][2]=./images/br-377-middle-fcc.1.6
+EmptyImage[SW][2]=./images/br-377-middle-fcc.1.7
+EmptyImage[W][2]=./images/br-377-middle-fcc.1.0
+EmptyImage[NW][2]=./images/br-377-middle-fcc.1.1
+EmptyImage[N][2]=./images/br-377-middle-fcc.1.2
+EmptyImage[NE][2]=./images/br-377-middle-fcc.1.3
+
+EmptyImage[E][3]=./images/br-377-middle-southern.1.4
+EmptyImage[SE][3]=./images/br-377-middle-southern.1.5
+EmptyImage[S][3]=./images/br-377-middle-southern.1.6
+EmptyImage[SW][3]=./images/br-377-middle-southern.1.7
+EmptyImage[W][3]=./images/br-377-middle-southern.1.0
+EmptyImage[NW][3]=./images/br-377-middle-southern.1.1
+EmptyImage[N][3]=./images/br-377-middle-southern.1.2
+EmptyImage[NE][3]=./images/br-377-middle-southern.1.3
+
+---
+
+obj=vehicle
+name=BR-375-6Panto
+engine_type=electric
+speed=160
+power=500
+tractive_effort=44
+gear=80
+copyright=Kieron
+intro_year=2001
+intro_month=4
+retire_year=2014
+retire_month=12
+waytype=track
+freight=Passagiere
+payload=66
+overcrowded_capacity=50
+length=11
+brake_force=30
+rolling_resistance=13
+
+weight=40
+axles=4
+cost=1008000
+upgrade_price=89610
+runningcost=138
+
+
+min_loading_time=17
+max_loading_time=60
+comfort=86
+
+can_lead_from_rear=0
+bidirectional=1
+
+Constraint[Prev][0]=BR-375-6Middle
+
+Constraint[Next][0]=BR-375-6Rear
+Constraint[Next][1]=BR-377-7Middle2
+
+liverytype[0]=South-Eastern-Trains
+liverytype[1]=southeastern
+liverytype[2]=Firstgroup-Neon
+liverytype[3]=Southern
+
 EmptyImage[E][0]=./images/br-375-panto-se.1.4
 EmptyImage[SE][0]=./images/br-375-panto-se.1.5
 EmptyImage[S][0]=./images/br-375-panto-se.1.6
@@ -164,20 +246,20 @@ EmptyImage[NE][3]=./images/br-377-panto-southern.1.3
 ---
 
 obj=vehicle
-name=BR-375-6Panto
+name=BR-377-7Middle2
 engine_type=electric
 speed=160
-power=500
-tractive_effort=44
+power=0
+tractive_effort=0
 gear=80
 copyright=Kieron
-intro_year=2001
-intro_month=4
+intro_year=2012
+intro_month=1
 retire_year=2014
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=66
+payload=68
 overcrowded_capacity=50
 length=11
 brake_force=30
@@ -185,9 +267,9 @@ rolling_resistance=13
 
 weight=40
 axles=4
-cost=1008000
+cost=1852000
 upgrade_price=89610
-runningcost=138
+runningcost=45
 
 
 min_loading_time=17
@@ -197,7 +279,7 @@ comfort=86
 can_lead_from_rear=0
 bidirectional=1
 
-Constraint[Prev][0]=BR-375-6Middle
+Constraint[Prev][0]=BR-375-6Panto
 
 Constraint[Next][0]=BR-375-6Rear
 
@@ -242,6 +324,7 @@ EmptyImage[NW][3]=./images/br-377-middle-southern.1.1
 EmptyImage[N][3]=./images/br-377-middle-southern.1.2
 EmptyImage[NE][3]=./images/br-377-middle-southern.1.3
 
+
 ---
 
 obj=vehicle
@@ -280,6 +363,7 @@ bidirectional=0
 
 Constraint[Prev][0]=BR-375-6Panto
 Constraint[Prev][1]=BR-375-6Middle
+Constraint[Prev][2]=BR-377-7Middle2
 
 Constraint[Next][0]=BR-375-6Front
 Constraint[Next][1]=BR-375Front
