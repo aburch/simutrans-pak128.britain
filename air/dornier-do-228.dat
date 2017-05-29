@@ -1,0 +1,85 @@
+# https://en.wikipedia.org/wiki/Dornier_Do_228
+# https://www.airlines-inform.com/commercial-aircraft/Dornier-228.html
+obj=vehicle
+name=dornier-do-228
+copyright=Emmanuel Baranger
+# CC-BY-SA
+# https://www.blendswap.com/blends/view/83744
+waytype=air
+engine_type=turbine
+speed=371
+power=1163
+tractive_effort=10
+freight=Passagiere
+payload=19
+weight=4.2
+#length=8
+cost=3200000
+runningcost=633
+intro_year=1982
+intro_month=7
+comfort=80
+min_loading_time=1800
+max_loading_time=1800
+catering_level=0
+
+minimum_runway_length=800
+
+range=1111
+
+sound=bigpickle51-turboprop.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/dornier-do-228_E.0.0
+EmptyImage[SE]=./images/dornier-do-228_SE.0.0
+EmptyImage[S]=./images/dornier-do-228_S.0.0
+EmptyImage[SW]=./images/dornier-do-228_SW.0.0
+EmptyImage[W]=./images/dornier-do-228_W.0.0
+EmptyImage[NW]=./images/dornier-do-228_NW.0.0
+EmptyImage[N]=./images/dornier-do-228_N.0.0
+EmptyImage[NE]=./images/dornier-do-228_NE.0.0
+
+----
+
+obj=vehicle
+name=dornier-do-228-mail
+copyright=Emmanuel Baranger
+# CC-BY-SA
+# https://www.blendswap.com/blends/view/83744
+waytype=air
+engine_type=turbine
+speed=371
+power=1163
+tractive_effort=10
+freight=Post
+payload=2700
+weight=4.2
+#length=8
+cost=3200000
+runningcost=633
+intro_year=1982
+intro_month=7
+comfort=80
+min_loading_time=1800
+max_loading_time=2000
+catering_level=0
+
+minimum_runway_length=800
+
+range=1111
+
+sound=bigpickle51-turboprop.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/dornier-do-228-mail_E.0.0
+EmptyImage[SE]=./images/dornier-do-228-mail_SE.0.0
+EmptyImage[S]=./images/dornier-do-228-mail_S.0.0
+EmptyImage[SW]=./images/dornier-do-228-mail_SW.0.0
+EmptyImage[W]=./images/dornier-do-228-mail_W.0.0
+EmptyImage[NW]=./images/dornier-do-228-mail_NW.0.0
+EmptyImage[N]=./images/dornier-do-228-mail_N.0.0
+EmptyImage[NE]=./images/dornier-do-228-mail_NE.0.0
