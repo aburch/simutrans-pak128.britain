@@ -1,0 +1,90 @@
+# https://en.wikipedia.org/wiki/Boeing_247
+obj=vehicle
+name=boeing-247
+copyright=Emmanuel Baranger
+# CC-BY-SA
+# https://www.blendswap.com/blends/view/69994
+waytype=air
+engine_type=petrol
+speed=304
+power=820
+tractive_effort=8
+freight=Passagiere
+payload=10
+weight=4.1
+#length=8
+cost=225000
+runningcost=895
+intro_year=1933
+intro_month=5
+retire_year=1938
+retire_month=8
+comfort=93
+min_loading_time=1800
+max_loading_time=1800
+catering_level=1
+
+# Guessed
+minimum_runway_length=500
+
+range=1200
+
+sound=ylearkisto-dc-3.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-247_E.0.0
+EmptyImage[SE]=./images/boeing-247_SE.0.0
+EmptyImage[S]=./images/boeing-247_S.0.0
+EmptyImage[SW]=./images/boeing-247_SW.0.0
+EmptyImage[W]=./images/boeing-247_W.0.0
+EmptyImage[NW]=./images/boeing-247_NW.0.0
+EmptyImage[N]=./images/boeing-247_N.0.0
+EmptyImage[NE]=./images/boeing-247_NE.0.0
+
+----
+
+obj=vehicle
+name=boeing-247-mail
+copyright=Emmanuel Baranger
+# CC-BY-SA
+# https://www.blendswap.com/blends/view/69994
+waytype=air
+engine_type=petrol
+speed=304
+power=820
+tractive_effort=8
+freight=Post
+payload=1600
+weight=4.1
+#length=8
+cost=225000
+runningcost=895
+intro_year=1933
+intro_month=5
+retire_year=1938
+retire_month=8
+comfort=93
+min_loading_time=1800
+max_loading_time=2000
+catering_level=1
+
+# Guessed
+minimum_runway_length=500
+
+range=1200
+
+sound=ylearkisto-dc-3.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-247-mail_E.0.0
+EmptyImage[SE]=./images/boeing-247-mail_SE.0.0
+EmptyImage[S]=./images/boeing-247-mail_S.0.0
+EmptyImage[SW]=./images/boeing-247-mail_SW.0.0
+EmptyImage[W]=./images/boeing-247-mail_W.0.0
+EmptyImage[NW]=./images/boeing-247-mail_NW.0.0
+EmptyImage[N]=./images/boeing-247-mail_N.0.0
+EmptyImage[NE]=./images/boeing-247-mail_NE.0.0
