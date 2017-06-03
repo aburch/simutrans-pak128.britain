@@ -1,0 +1,44 @@
+# https://en.wikipedia.org/wiki/De_Havilland_Canada_DHC-3_Otter
+obj=vehicle
+name=dhc3-otter
+copyright=Emmanuel Baranger
+# CC-BY-SA
+# https://www.blendswap.com/blends/view/75392
+waytype=air
+engine_type=petrol
+speed=195
+power=448
+tractive_effort=3
+freight=Post
+payload=1900
+weight=2.0
+#length=8
+cost=2000000
+runningcost=375
+intro_year=1953
+intro_month=6
+retire_year=1967
+retire_month=11
+
+min_loading_time=1600
+max_loading_time=1850
+
+# The only available data is for the Turbo Otter:
+# https://www.airinuit.com/en/fleet/de-havilland-turbo-otter-dhc-3
+minimum_runway_length=609
+
+range=1520
+
+sound=planelow.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/dhc3-otter_E.0.0
+EmptyImage[SE]=./images/dhc3-otter_SE.0.0
+EmptyImage[S]=./images/dhc3-otter_S.0.0
+EmptyImage[SW]=./images/dhc3-otter_SW.0.0
+EmptyImage[W]=./images/dhc3-otter_W.0.0
+EmptyImage[NW]=./images/dhc3-otter_NW.0.0
+EmptyImage[N]=./images/dhc3-otter_N.0.0
+EmptyImage[NE]=./images/dhc3-otter_NE.0.0

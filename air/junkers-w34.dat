@@ -1,0 +1,91 @@
+# https://en.wikipedia.org/wiki/Junkers_W_34
+http://www.wehrmacht-history.com/luftwaffe/transports/junkers-w-34-transport.htm
+obj=vehicle
+name=junkers-w34
+copyright=Emmanuel Baranger
+# CC-0
+# https://www.blendswap.com/blends/view/68261
+waytype=air
+engine_type=petrol
+speed=190
+power=331
+tractive_effort=2
+freight=Passagiere
+payload=6
+weight=1.7
+#length=8
+cost=1750000
+runningcost=375
+intro_year=1926
+intro_month=7
+# Guessed
+retire_year=1935
+retire_month=9
+comfort=66
+min_loading_time=1600
+max_loading_time=1600
+catering_level=0
+
+# Guessed
+minimum_runway_length=300
+
+range=900
+
+sound=planelow.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/junkers-w34_E.0.0
+EmptyImage[SE]=./images/junkers-w34_SE.0.0
+EmptyImage[S]=./images/junkers-w34_S.0.0
+EmptyImage[SW]=./images/junkers-w34_SW.0.0
+EmptyImage[W]=./images/junkers-w34_W.0.0
+EmptyImage[NW]=./images/junkers-w34_NW.0.0
+EmptyImage[N]=./images/junkers-w34_N.0.0
+EmptyImage[NE]=./images/junkers-w34_NE.0.0
+
+----
+
+obj=vehicle
+name=junkers-w34-mail
+copyright=Emmanuel Baranger
+waytype=air
+engine_type=petrol
+speed=190
+power=331
+tractive_effort=2
+freight=Post
+payload=1100
+weight=1.7
+#length=8
+cost=1750000
+runningcost=375
+intro_year=1926
+intro_month=7
+# Guessed
+retire_year=1935
+retire_month=9
+comfort=66
+min_loading_time=1600
+max_loading_time=1800
+catering_level=0
+
+# Guessed
+minimum_runway_length=300
+
+range=900
+
+sound=planelow.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/junkers-w34_E.0.0
+EmptyImage[SE]=./images/junkers-w34_SE.0.0
+EmptyImage[S]=./images/junkers-w34_S.0.0
+EmptyImage[SW]=./images/junkers-w34_SW.0.0
+EmptyImage[W]=./images/junkers-w34_W.0.0
+EmptyImage[NW]=./images/junkers-w34_NW.0.0
+EmptyImage[N]=./images/junkers-w34_N.0.0
+EmptyImage[NE]=./images/junkers-w34_NE.0.0
