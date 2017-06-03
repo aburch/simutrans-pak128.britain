@@ -1,0 +1,91 @@
+# https://en.wikipedia.org/wiki/De_Havilland_Albatross
+# http://www.pilotfriend.com/photo_albums/timeline/between/de%20Havilland%20DH91%20Albatros.htm
+# https://oldmachinepress.com/2015/12/30/de-havilland-dh-91-albatross/
+obj=vehicle
+name=dh-91-albatross
+copyright=Emmanuel Baranger
+# CC-BY-SA
+# https://www.blendswap.com/blends/view/75762
+waytype=air
+engine_type=petrol
+speed=338
+power=1568
+tractive_effort=16
+freight=Passagiere
+payload=22
+weight=9.6
+#length=8
+cost=3000000
+runningcost=1200
+intro_year=1938
+intro_month=10
+retire_year=1945
+retire_month=1
+comfort=93
+min_loading_time=1800
+max_loading_time=1800
+catering_level=1
+
+# Guessed
+minimum_runway_length=655
+
+range=1675
+
+sound=ylearkisto-dc-3.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/dh-91-albatross_E.0.0
+EmptyImage[SE]=./images/dh-91-albatross_SE.0.0
+EmptyImage[S]=./images/dh-91-albatross_S.0.0
+EmptyImage[SW]=./images/dh-91-albatross_SW.0.0
+EmptyImage[W]=./images/dh-91-albatross_W.0.0
+EmptyImage[NW]=./images/dh-91-albatross_NW.0.0
+EmptyImage[N]=./images/dh-91-albatross_N.0.0
+EmptyImage[NE]=./images/dh-91-albatross_NE.0.0
+
+----
+
+obj=vehicle
+name=dh-91-albatross-mail
+copyright=Emmanuel Baranger
+waytype=air
+waytype=air
+engine_type=petrol
+speed=338
+power=1568
+tractive_effort=16
+freight=Post
+payload=3500
+weight=9.6
+#length=8
+cost=3000000
+runningcost=1200
+intro_year=1938
+intro_month=10
+retire_year=1945
+retire_month=1
+
+min_loading_time=1800
+max_loading_time=2000
+
+# Guessed
+minimum_runway_length=655
+
+range=1675
+
+sound=ylearkisto-dc-3.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/dh-91-albatross-mail_E.0.0
+EmptyImage[SE]=./images/dh-91-albatross-mail_SE.0.0
+EmptyImage[S]=./images/dh-91-albatross-mail_S.0.0
+EmptyImage[SW]=./images/dh-91-albatross-mail_SW.0.0
+EmptyImage[W]=./images/dh-91-albatross-mail_W.0.0
+EmptyImage[NW]=./images/dh-91-albatross-mail_NW.0.0
+EmptyImage[N]=./images/dh-91-albatross-mail_N.0.0
+EmptyImage[NE]=./images/dh-91-albatross-mail_NE.0.0
+

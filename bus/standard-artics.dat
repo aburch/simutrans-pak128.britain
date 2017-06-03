@@ -18,14 +18,14 @@ intro_month=1
 retire_year=1990
 retire_month=12
 
-EmptyImage[E]=./images/leyland-t45-roadtrain-tractor.0.0
-EmptyImage[SE]=./images/leyland-t45-roadtrain-tractor.0.1
-EmptyImage[S]=./images/leyland-t45-roadtrain-tractor.0.2
-EmptyImage[SW]=./images/leyland-t45-roadtrain-tractor.0.3
-EmptyImage[W]=./images/leyland-t45-roadtrain-tractor.0.4
-EmptyImage[NW]=./images/leyland-t45-roadtrain-tractor.0.5
-EmptyImage[N]=./images/leyland-t45-roadtrain-tractor.0.6
-EmptyImage[NE]=./images/leyland-t45-roadtrain-tractor.0.7
+EmptyImage[E]=./images/leyland-t45-roadtrain-tractor_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-t45-roadtrain-tractor_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-t45-roadtrain-tractor_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-t45-roadtrain-tractor_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-t45-roadtrain-tractor_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-t45-roadtrain-tractor_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-t45-roadtrain-tractor_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-t45-roadtrain-tractor_NE.0.0,0,24
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=StandardArticTrailerBulk
@@ -59,14 +59,14 @@ retire_month=12
 Freight=Post
 payload=600
 
-EmptyImage[E]=./images/leyland-t45-roadtrain-tractor.1.0
-EmptyImage[SE]=./images/leyland-t45-roadtrain-tractor.1.1
-EmptyImage[S]=./images/leyland-t45-roadtrain-tractor.1.2
-EmptyImage[SW]=./images/leyland-t45-roadtrain-tractor.1.3
-EmptyImage[W]=./images/leyland-t45-roadtrain-tractor.1.4
-EmptyImage[NW]=./images/leyland-t45-roadtrain-tractor.1.5
-EmptyImage[N]=./images/leyland-t45-roadtrain-tractor.1.6
-EmptyImage[NE]=./images/leyland-t45-roadtrain-tractor.1.7
+EmptyImage[E]=./images/leyland-t45-roadtrain-tractor-mail_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-t45-roadtrain-tractor-mail_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-t45-roadtrain-tractor-mail_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-t45-roadtrain-tractor-mail_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-t45-roadtrain-tractor-mail_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-t45-roadtrain-tractor-mail_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-t45-roadtrain-tractor-mail_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-t45-roadtrain-tractor-mail_NE.0.0,0,24
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=StandardArticTrailerMail
@@ -92,14 +92,14 @@ intro_month=4
 retire_year=2000
 retire_month=10
 
-EmptyImage[E]=./images/leyland-daf-85-tractor.0.0
-EmptyImage[SE]=./images/leyland-daf-85-tractor.0.1
-EmptyImage[S]=./images/leyland-daf-85-tractor.0.2
-EmptyImage[SW]=./images/leyland-daf-85-tractor.0.3
-EmptyImage[W]=./images/leyland-daf-85-tractor.0.4
-EmptyImage[NW]=./images/leyland-daf-85-tractor.0.5
-EmptyImage[N]=./images/leyland-daf-85-tractor.0.6
-EmptyImage[NE]=./images/leyland-daf-85-tractor.0.7
+EmptyImage[E]=./images/leyland-daf-85-tractor_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-daf-85-tractor_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-daf-85-tractor_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-daf-85-tractor_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-daf-85-tractor_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-daf-85-tractor_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-daf-85-tractor_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-daf-85-tractor_NE.0.0,0,24
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=StandardArticTrailerBulk
@@ -133,14 +133,14 @@ retire_month=10
 Freight=Post
 payload=750
 
-EmptyImage[E]=./images/leyland-daf-85-tractor.1.0
-EmptyImage[SE]=./images/leyland-daf-85-tractor.1.1
-EmptyImage[S]=./images/leyland-daf-85-tractor.1.2
-EmptyImage[SW]=./images/leyland-daf-85-tractor.1.3
-EmptyImage[W]=./images/leyland-daf-85-tractor.1.4
-EmptyImage[NW]=./images/leyland-daf-85-tractor.1.5
-EmptyImage[N]=./images/leyland-daf-85-tractor.1.6
-EmptyImage[NE]=./images/leyland-daf-85-tractor.1.7
+EmptyImage[E]=./images/leyland-daf-85-tractor-mail_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-daf-85-tractor-mail_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-daf-85-tractor-mail_S.0.0,0,0
+EmptyImage[SW]=./images/leyland-daf-85-tractor-mail_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-daf-85-tractor-mail_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-daf-85-tractor-mail_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-daf-85-tractor-mail_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-daf-85-tractor-mail_NE.0.0,0,24
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=StandardArticTrailerMail
@@ -164,15 +164,14 @@ runningcost=50
 intro_year=2000
 intro_month=4
 
-
-EmptyImage[E]=./images/daf-cf-tractor.0.0
-EmptyImage[SE]=./images/daf-cf-tractor.0.1
-EmptyImage[S]=./images/daf-cf-tractor.0.2
-EmptyImage[SW]=./images/daf-cf-tractor.0.3
-EmptyImage[W]=./images/daf-cf-tractor.0.4
-EmptyImage[NW]=./images/daf-cf-tractor.0.5
-EmptyImage[N]=./images/daf-cf-tractor.0.6
-EmptyImage[NE]=./images/daf-cf-tractor.0.7
+EmptyImage[E]=./images/daf-cf-tractor_E.0.0,-33,14
+EmptyImage[SE]=./images/daf-cf-tractor_SE.0.0,-13,0
+EmptyImage[S]=./images/daf-cf-tractor_S.0.0,0,0
+EmptyImage[SW]=./images/daf-cf-tractor_SW.0.0,-8,10
+EmptyImage[W]=./images/daf-cf-tractor_W.0.0,4,5
+EmptyImage[NW]=./images/daf-cf-tractor_NW.0.0,12,10
+EmptyImage[N]=./images/daf-cf-tractor_N.0.0,0,33
+EmptyImage[NE]=./images/daf-cf-tractor_NE.0.0,0,24
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=StandardArticTrailerBulk
@@ -205,20 +204,20 @@ intro_month=4
 Freight=Post
 payload=900
 
-EmptyImage[E]=./images/daf-cf-tractor.1.0
-EmptyImage[SE]=./images/daf-cf-tractor.1.1
-EmptyImage[S]=./images/daf-cf-tractor.1.2
-EmptyImage[SW]=./images/daf-cf-tractor.1.3
-EmptyImage[W]=./images/daf-cf-tractor.1.4
-EmptyImage[NW]=./images/daf-cf-tractor.1.5
-EmptyImage[N]=./images/daf-cf-tractor.1.6
-EmptyImage[NE]=./images/daf-cf-tractor.1.7
+EmptyImage[E]=./images/daf-cf-tractor-mail_E.0.0,-33,14
+EmptyImage[SE]=./images/daf-cf-tractor-mail_SE.0.0,-13,0
+EmptyImage[S]=./images/daf-cf-tractor-mail_S.0.0,0,0
+EmptyImage[SW]=./images/daf-cf-tractor-mail_SW.0.0,-8,10
+EmptyImage[W]=./images/daf-cf-tractor-mail_W.0.0,4,5
+EmptyImage[NW]=./images/daf-cf-tractor-mail_NW.0.0,12,10
+EmptyImage[N]=./images/daf-cf-tractor-mail_N.0.0,0,33
+EmptyImage[NE]=./images/daf-cf-tractor-mail_NE.0.0,0,24
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=StandardArticTrailerMail
 
 -------------------------------------
-
+# Two axle trailers
 obj=vehicle
 name=StandardArticTrailerBulk
 copyright=JamesHood
@@ -242,64 +241,64 @@ Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
 Constraint[Prev][2]=DAFCFArtic
 
-EmptyImage[E]=./images/leyland-t45-roadtrain-trailer.0.0
-EmptyImage[SE]=./images/leyland-t45-roadtrain-trailer.0.1
-EmptyImage[S]=./images/leyland-t45-roadtrain-trailer.0.2
-EmptyImage[SW]=./images/leyland-t45-roadtrain-trailer.0.3
-EmptyImage[W]=./images/leyland-t45-roadtrain-trailer.0.4
-EmptyImage[NW]=./images/leyland-t45-roadtrain-trailer.0.5
-EmptyImage[N]=./images/leyland-t45-roadtrain-trailer.0.6
-EmptyImage[NE]=./images/leyland-t45-roadtrain-trailer.0.7
+EmptyImage[E]=./images/standard-artic-trailer-bulk-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/standard-artic-trailer-bulk-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/standard-artic-trailer-bulk-empty_S.0.0,0,0
+EmptyImage[SW]=./images/standard-artic-trailer-bulk-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/standard-artic-trailer-bulk-empty_W.0.0,4,5
+EmptyImage[NW]=./images/standard-artic-trailer-bulk-empty_NW.0.0,12,10
+EmptyImage[N]=./images/standard-artic-trailer-bulk-empty_N.0.0,0,33
+EmptyImage[NE]=./images/standard-artic-trailer-bulk-empty_NE.0.0,0,24
 
 freightimagetype[4]=Cement
-FreightImage[4][E]=./images/leyland-t45-roadtrain-trailer.3.0
-FreightImage[4][SE]=./images/leyland-t45-roadtrain-trailer.3.1
-FreightImage[4][S]=./images/leyland-t45-roadtrain-trailer.3.2
-FreightImage[4][SW]=./images/leyland-t45-roadtrain-trailer.3.3
-FreightImage[4][W]=./images/leyland-t45-roadtrain-trailer.3.4
-FreightImage[4][NW]=./images/leyland-t45-roadtrain-trailer.3.5
-FreightImage[4][N]=./images/leyland-t45-roadtrain-trailer.3.6
-FreightImage[4][NE]=./images/leyland-t45-roadtrain-trailer.3.7
+freightimage[4][E]=./images/standard-artic-trailer-bulk-cement_E.0.0,-33,14
+freightimage[4][SE]=./images/standard-artic-trailer-bulk-cement_SE.0.0,-13,0
+freightimage[4][S]=./images/standard-artic-trailer-bulk-cement_S.0.0,0,0
+freightimage[4][SW]=./images/standard-artic-trailer-bulk-cement_SW.0.0,-8,10
+freightimage[4][W]=./images/standard-artic-trailer-bulk-cement_W.0.0,4,5
+freightimage[4][NW]=./images/standard-artic-trailer-bulk-cement_NW.0.0,12,10
+freightimage[4][N]=./images/standard-artic-trailer-bulk-cement_N.0.0,0,33
+freightimage[4][NE]=./images/standard-artic-trailer-bulk-cement_NE.0.0,0,24
 
 freightimagetype[3]=Kohle
-FreightImage[3][E]=./images/leyland-t45-roadtrain-trailer.1.0
-FreightImage[3][SE]=./images/leyland-t45-roadtrain-trailer.1.1
-FreightImage[3][S]=./images/leyland-t45-roadtrain-trailer.1.2
-FreightImage[3][SW]=./images/leyland-t45-roadtrain-trailer.1.3
-FreightImage[3][W]=./images/leyland-t45-roadtrain-trailer.1.4
-FreightImage[3][NW]=./images/leyland-t45-roadtrain-trailer.1.5
-FreightImage[3][N]=./images/leyland-t45-roadtrain-trailer.1.6
-FreightImage[3][NE]=./images/leyland-t45-roadtrain-trailer.1.7
+freightimage[3][E]=./images/standard-artic-trailer-bulk-coal_E.0.0,-33,14
+freightimage[3][SE]=./images/standard-artic-trailer-bulk-coal_SE.0.0,-13,0
+freightimage[3][S]=./images/standard-artic-trailer-bulk-coal_S.0.0,0,0
+freightimage[3][SW]=./images/standard-artic-trailer-bulk-coal_SW.0.0,-8,10
+freightimage[3][W]=./images/standard-artic-trailer-bulk-coal_W.0.0,4,5
+freightimage[3][NW]=./images/standard-artic-trailer-bulk-coal_NW.0.0,12,10
+freightimage[3][N]=./images/standard-artic-trailer-bulk-coal_N.0.0,0,33
+freightimage[3][NE]=./images/standard-artic-trailer-bulk-coal_NE.0.0,0,24
 
 freightimagetype[2]=Eisenerz
-FreightImage[2][E]=./images/leyland-t45-roadtrain-trailer.2.0
-FreightImage[2][SE]=./images/leyland-t45-roadtrain-trailer.2.1
-FreightImage[2][S]=./images/leyland-t45-roadtrain-trailer.2.2
-FreightImage[2][SW]=./images/leyland-t45-roadtrain-trailer.2.3
-FreightImage[2][W]=./images/leyland-t45-roadtrain-trailer.2.4
-FreightImage[2][NW]=./images/leyland-t45-roadtrain-trailer.2.5
-FreightImage[2][N]=./images/leyland-t45-roadtrain-trailer.2.6
-FreightImage[2][NE]=./images/leyland-t45-roadtrain-trailer.2.7
+freightimage[2][E]=./images/standard-artic-trailer-bulk-ore_E.0.0,-33,14
+freightimage[2][SE]=./images/standard-artic-trailer-bulk-ore_SE.0.0,-13,0
+freightimage[2][S]=./images/standard-artic-trailer-bulk-ore_S.0.0,0,0
+freightimage[2][SW]=./images/standard-artic-trailer-bulk-ore_SW.0.0,-8,10
+freightimage[2][W]=./images/standard-artic-trailer-bulk-ore_W.0.0,4,5
+freightimage[2][NW]=./images/standard-artic-trailer-bulk-ore_NW.0.0,12,10
+freightimage[2][N]=./images/standard-artic-trailer-bulk-ore_N.0.0,0,33
+freightimage[2][NE]=./images/standard-artic-trailer-bulk-ore_NE.0.0,0,24
 
 freightimagetype[1]=Stone
-FreightImage[1][E]=./images/leyland-t45-roadtrain-trailer.3.0
-FreightImage[1][SE]=./images/leyland-t45-roadtrain-trailer.3.1
-FreightImage[1][S]=./images/leyland-t45-roadtrain-trailer.3.2
-FreightImage[1][SW]=./images/leyland-t45-roadtrain-trailer.3.3
-FreightImage[1][W]=./images/leyland-t45-roadtrain-trailer.3.4
-FreightImage[1][NW]=./images/leyland-t45-roadtrain-trailer.3.5
-FreightImage[1][N]=./images/leyland-t45-roadtrain-trailer.3.6
-FreightImage[1][NE]=./images/leyland-t45-roadtrain-trailer.3.7
+freightimage[1][E]=./images/standard-artic-trailer-bulk-stone_E.0.0,-33,14
+freightimage[1][SE]=./images/standard-artic-trailer-bulk-stone_SE.0.0,-13,0
+freightimage[1][S]=./images/standard-artic-trailer-bulk-stone_S.0.0,0,0
+freightimage[1][SW]=./images/standard-artic-trailer-bulk-stone_SW.0.0,-8,10
+freightimage[1][W]=./images/standard-artic-trailer-bulk-stone_W.0.0,4,5
+freightimage[1][NW]=./images/standard-artic-trailer-bulk-stone_NW.0.0,12,10
+freightimage[1][N]=./images/standard-artic-trailer-bulk-stone_N.0.0,0,33
+freightimage[1][NE]=./images/standard-artic-trailer-bulk-stone_NE.0.0,0,24
 
 freightimagetype[0]=grain
-FreightImage[0][E]=./images/leyland-t45-roadtrain-trailer.4.0
-FreightImage[0][SE]=./images/leyland-t45-roadtrain-trailer.4.1
-FreightImage[0][S]=./images/leyland-t45-roadtrain-trailer.4.2
-FreightImage[0][SW]=./images/leyland-t45-roadtrain-trailer.4.3
-FreightImage[0][W]=./images/leyland-t45-roadtrain-trailer.4.4
-FreightImage[0][NW]=./images/leyland-t45-roadtrain-trailer.4.5
-FreightImage[0][N]=./images/leyland-t45-roadtrain-trailer.4.6
-FreightImage[0][NE]=./images/leyland-t45-roadtrain-trailer.4.7
+freightimage[0][E]=./images/standard-artic-trailer-bulk-grain_E.0.0,-33,14
+freightimage[0][SE]=./images/standard-artic-trailer-bulk-grain_SE.0.0,-13,0
+freightimage[0][S]=./images/standard-artic-trailer-bulk-grain_S.0.0,0,0
+freightimage[0][SW]=./images/standard-artic-trailer-bulk-grain_SW.0.0,-8,10
+freightimage[0][W]=./images/standard-artic-trailer-bulk-grain_W.0.0,4,5
+freightimage[0][NW]=./images/standard-artic-trailer-bulk-grain_NW.0.0,12,10
+freightimage[0][N]=./images/standard-artic-trailer-bulk-grain_N.0.0,0,33
+freightimage[0][NE]=./images/standard-artic-trailer-bulk-grain_NE.0.0,0,24
 ----------------------------------------
 obj=vehicle
 name=StandardArticTrailerLong
@@ -324,34 +323,34 @@ Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
 Constraint[Prev][2]=DAFCFArtic
 
-EmptyImage[E]=./images/leyland-t45-roadtrain-trailer.12.0
-EmptyImage[SE]=./images/leyland-t45-roadtrain-trailer.12.1
-EmptyImage[S]=./images/leyland-t45-roadtrain-trailer.12.2
-EmptyImage[SW]=./images/leyland-t45-roadtrain-trailer.12.3
-EmptyImage[W]=./images/leyland-t45-roadtrain-trailer.12.4
-EmptyImage[NW]=./images/leyland-t45-roadtrain-trailer.12.5
-EmptyImage[N]=./images/leyland-t45-roadtrain-trailer.12.6
-EmptyImage[NE]=./images/leyland-t45-roadtrain-trailer.12.7
+EmptyImage[E]=./images/standard-artic-trailer-long-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/standard-artic-trailer-long-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/standard-artic-trailer-long-empty_S.0.0,0,0
+EmptyImage[SW]=./images/standard-artic-trailer-long-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/standard-artic-trailer-long-empty_W.0.0,4,5
+EmptyImage[NW]=./images/standard-artic-trailer-long-empty_NW.0.0,12,10
+EmptyImage[N]=./images/standard-artic-trailer-long-empty_N.0.0,0,33
+EmptyImage[NE]=./images/standard-artic-trailer-long-empty_NE.0.0,0,24
 
 freightimagetype[1]=Bretter
-FreightImage[1][E]=./images/leyland-t45-roadtrain-trailer.5.0
-FreightImage[1][SE]=./images/leyland-t45-roadtrain-trailer.5.1
-FreightImage[1][S]=./images/leyland-t45-roadtrain-trailer.5.2
-FreightImage[1][SW]=./images/leyland-t45-roadtrain-trailer.5.3
-FreightImage[1][W]=./images/leyland-t45-roadtrain-trailer.5.4
-FreightImage[1][NW]=./images/leyland-t45-roadtrain-trailer.5.5
-FreightImage[1][N]=./images/leyland-t45-roadtrain-trailer.5.6
-FreightImage[1][NE]=./images/leyland-t45-roadtrain-trailer.5.7
+freightimage[1][E]=./images/standard-artic-trailer-long-wood_E.0.0,-33,14
+freightimage[1][SE]=./images/standard-artic-trailer-long-wood_SE.0.0,-13,0
+freightimage[1][S]=./images/standard-artic-trailer-long-wood_S.0.0,0,0
+freightimage[1][SW]=./images/standard-artic-trailer-long-wood_SW.0.0,-8,10
+freightimage[1][W]=./images/standard-artic-trailer-long-wood_W.0.0,4,5
+freightimage[1][NW]=./images/standard-artic-trailer-long-wood_NW.0.0,12,10
+freightimage[1][N]=./images/standard-artic-trailer-long-wood_N.0.0,0,33
+freightimage[1][NE]=./images/standard-artic-trailer-long-wood_NE.0.0,0,24
 
 freightimagetype[0]=Stahl
-FreightImage[0][E]=./images/leyland-t45-roadtrain-trailer.6.0
-FreightImage[0][SE]=./images/leyland-t45-roadtrain-trailer.6.1
-FreightImage[0][S]=./images/leyland-t45-roadtrain-trailer.6.2
-FreightImage[0][SW]=./images/leyland-t45-roadtrain-trailer.6.3
-FreightImage[0][W]=./images/leyland-t45-roadtrain-trailer.6.4
-FreightImage[0][NW]=./images/leyland-t45-roadtrain-trailer.6.5
-FreightImage[0][N]=./images/leyland-t45-roadtrain-trailer.6.6
-FreightImage[0][NE]=./images/leyland-t45-roadtrain-trailer.6.7
+freightimage[0][E]=./images/standard-artic-trailer-long-steel_E.0.0,-33,14
+freightimage[0][SE]=./images/standard-artic-trailer-long-steel_SE.0.0,-13,0
+freightimage[0][S]=./images/standard-artic-trailer-long-steel_S.0.0,0,0
+freightimage[0][SW]=./images/standard-artic-trailer-long-steel_SW.0.0,-8,10
+freightimage[0][W]=./images/standard-artic-trailer-long-steel_W.0.0,4,5
+freightimage[0][NW]=./images/standard-artic-trailer-long-steel_NW.0.0,12,10
+freightimage[0][N]=./images/standard-artic-trailer-long-steel_N.0.0,0,33
+freightimage[0][NE]=./images/standard-artic-trailer-long-steel_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -377,15 +376,14 @@ Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
 Constraint[Prev][2]=DAFCFArtic
 
-EmptyImage[E]=./images/leyland-t45-roadtrain-trailer.7.0
-EmptyImage[SE]=./images/leyland-t45-roadtrain-trailer.7.1
-EmptyImage[S]=./images/leyland-t45-roadtrain-trailer.7.2
-EmptyImage[SW]=./images/leyland-t45-roadtrain-trailer.7.3
-EmptyImage[W]=./images/leyland-t45-roadtrain-trailer.7.4
-EmptyImage[NW]=./images/leyland-t45-roadtrain-trailer.7.5
-EmptyImage[N]=./images/leyland-t45-roadtrain-trailer.7.6
-EmptyImage[NE]=./images/leyland-t45-roadtrain-trailer.7.7
-
+EmptyImage[E]=./images/standard-artic-trailer-piece_E.0.0,-33,14
+EmptyImage[SE]=./images/standard-artic-trailer-piece_SE.0.0,-13,0
+EmptyImage[S]=./images/standard-artic-trailer-piece_S.0.0,0,0
+EmptyImage[SW]=./images/standard-artic-trailer-piece_SW.0.0,-8,10
+EmptyImage[W]=./images/standard-artic-trailer-piece_W.0.0,4,5
+EmptyImage[NW]=./images/standard-artic-trailer-piece_NW.0.0,12,10
+EmptyImage[N]=./images/standard-artic-trailer-piece_N.0.0,0,33
+EmptyImage[NE]=./images/standard-artic-trailer-piece_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -411,14 +409,14 @@ Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
 Constraint[Prev][2]=DAFCFArtic
 
-EmptyImage[E]=./images/leyland-t45-roadtrain-trailer.8.0
-EmptyImage[SE]=./images/leyland-t45-roadtrain-trailer.8.1
-EmptyImage[S]=./images/leyland-t45-roadtrain-trailer.8.2
-EmptyImage[SW]=./images/leyland-t45-roadtrain-trailer.8.3
-EmptyImage[W]=./images/leyland-t45-roadtrain-trailer.8.4
-EmptyImage[NW]=./images/leyland-t45-roadtrain-trailer.8.5
-EmptyImage[N]=./images/leyland-t45-roadtrain-trailer.8.6
-EmptyImage[NE]=./images/leyland-t45-roadtrain-trailer.8.7
+EmptyImage[E]=./images/standard-artic-trailer-cool_E.0.0,-33,14
+EmptyImage[SE]=./images/standard-artic-trailer-cool_SE.0.0,-13,0
+EmptyImage[S]=./images/standard-artic-trailer-cool_S.0.0,0,0
+EmptyImage[SW]=./images/standard-artic-trailer-cool_SW.0.0,-8,10
+EmptyImage[W]=./images/standard-artic-trailer-cool_W.0.0,4,5
+EmptyImage[NW]=./images/standard-artic-trailer-cool_NW.0.0,12,10
+EmptyImage[N]=./images/standard-artic-trailer-cool_N.0.0,0,33
+EmptyImage[NE]=./images/standard-artic-trailer-cool_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -444,15 +442,14 @@ Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
 Constraint[Prev][2]=DAFCFArtic
 
-EmptyImage[E]=./images/leyland-t45-roadtrain-trailer.10.0
-EmptyImage[SE]=./images/leyland-t45-roadtrain-trailer.10.1
-EmptyImage[S]=./images/leyland-t45-roadtrain-trailer.10.2
-EmptyImage[SW]=./images/leyland-t45-roadtrain-trailer.10.3
-EmptyImage[W]=./images/leyland-t45-roadtrain-trailer.10.4
-EmptyImage[NW]=./images/leyland-t45-roadtrain-trailer.10.5
-EmptyImage[N]=./images/leyland-t45-roadtrain-trailer.10.6
-EmptyImage[NE]=./images/leyland-t45-roadtrain-trailer.10.7
-
+EmptyImage[E]=./images/standard-artic-trailer-livestock_E.0.0,-33,14
+EmptyImage[SE]=./images/standard-artic-trailer-livestock_SE.0.0,-13,0
+EmptyImage[S]=./images/standard-artic-trailer-livestock_S.0.0,0,0
+EmptyImage[SW]=./images/standard-artic-trailer-livestock_SW.0.0,-8,10
+EmptyImage[W]=./images/standard-artic-trailer-livestock_W.0.0,4,5
+EmptyImage[NW]=./images/standard-artic-trailer-livestock_NW.0.0,12,10
+EmptyImage[N]=./images/standard-artic-trailer-livestock_N.0.0,0,33
+EmptyImage[NE]=./images/standard-artic-trailer-livestock_NE.0.0,0,24
 
 -----------------------------------------
 
@@ -479,15 +476,14 @@ Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
 Constraint[Prev][2]=DAFCFArtic
 
-EmptyImage[E]=./images/leyland-t45-roadtrain-trailer.9.0
-EmptyImage[SE]=./images/leyland-t45-roadtrain-trailer.9.1
-EmptyImage[S]=./images/leyland-t45-roadtrain-trailer.9.2
-EmptyImage[SW]=./images/leyland-t45-roadtrain-trailer.9.3
-EmptyImage[W]=./images/leyland-t45-roadtrain-trailer.9.4
-EmptyImage[NW]=./images/leyland-t45-roadtrain-trailer.9.5
-EmptyImage[N]=./images/leyland-t45-roadtrain-trailer.9.6
-EmptyImage[NE]=./images/leyland-t45-roadtrain-trailer.9.7
-
+EmptyImage[E]=./images/standard-artic-trailer-tanker_E.0.0,-33,14
+EmptyImage[SE]=./images/standard-artic-trailer-tanker_SE.0.0,-13,0
+EmptyImage[S]=./images/standard-artic-trailer-tanker_S.0.0,0,0
+EmptyImage[SW]=./images/standard-artic-trailer-tanker_SW.0.0,-8,10
+EmptyImage[W]=./images/standard-artic-trailer-tanker_W.0.0,4,5
+EmptyImage[NW]=./images/standard-artic-trailer-tanker_NW.0.0,12,10
+EmptyImage[N]=./images/standard-artic-trailer-tanker_N.0.0,0,33
+EmptyImage[NE]=./images/standard-artic-trailer-tanker_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -513,24 +509,24 @@ Constraint[Prev][0]=LeylandT45Roadtrain
 Constraint[Prev][1]=LeylandDAF85Artic
 Constraint[Prev][2]=DAFCFArtic
 
-EmptyImage[E]=./images/leyland-t45-roadtrain-trailer.11.0
-EmptyImage[SE]=./images/leyland-t45-roadtrain-trailer.11.1
-EmptyImage[S]=./images/leyland-t45-roadtrain-trailer.11.2
-EmptyImage[SW]=./images/leyland-t45-roadtrain-trailer.11.3
-EmptyImage[W]=./images/leyland-t45-roadtrain-trailer.11.4
-EmptyImage[NW]=./images/leyland-t45-roadtrain-trailer.11.5
-EmptyImage[N]=./images/leyland-t45-roadtrain-trailer.11.6
-EmptyImage[NE]=./images/leyland-t45-roadtrain-trailer.11.7
+EmptyImage[E]=./images/standard-artic-trailer-cars-empty_E.0.0,-33,14
+EmptyImage[SE]=./images/standard-artic-trailer-cars-empty_SE.0.0,-13,0
+EmptyImage[S]=./images/standard-artic-trailer-cars-empty_S.0.0,0,0
+EmptyImage[SW]=./images/standard-artic-trailer-cars-empty_SW.0.0,-8,10
+EmptyImage[W]=./images/standard-artic-trailer-cars-empty_W.0.0,4,5
+EmptyImage[NW]=./images/standard-artic-trailer-cars-empty_NW.0.0,12,10
+EmptyImage[N]=./images/standard-artic-trailer-cars-empty_N.0.0,0,33
+EmptyImage[NE]=./images/standard-artic-trailer-cars-empty_NE.0.0,0,24
 
 freightimagetype[0]=Autos
-FreightImage[0][E]=./images/leyland-t45-roadtrain-trailer.13.0
-FreightImage[0][SE]=./images/leyland-t45-roadtrain-trailer.13.1
-FreightImage[0][S]=./images/leyland-t45-roadtrain-trailer.13.2
-FreightImage[0][SW]=./images/leyland-t45-roadtrain-trailer.13.3
-FreightImage[0][W]=./images/leyland-t45-roadtrain-trailer.13.4
-FreightImage[0][NW]=./images/leyland-t45-roadtrain-trailer.13.5
-FreightImage[0][N]=./images/leyland-t45-roadtrain-trailer.13.6
-FreightImage[0][NE]=./images/leyland-t45-roadtrain-trailer.13.7
+freightimage[0][E]=./images/standard-artic-trailer-cars-loaded_E.0.0,-33,14
+freightimage[0][SE]=./images/standard-artic-trailer-cars-loaded_SE.0.0,-13,0
+freightimage[0][S]=./images/standard-artic-trailer-cars-loaded_S.0.0,0,0
+freightimage[0][SW]=./images/standard-artic-trailer-cars-loaded_SW.0.0,-8,10
+freightimage[0][W]=./images/standard-artic-trailer-cars-loaded_W.0.0,4,5
+freightimage[0][NW]=./images/standard-artic-trailer-cars-loaded_NW.0.0,12,10
+freightimage[0][N]=./images/standard-artic-trailer-cars-loaded_N.0.0,0,33
+freightimage[0][NE]=./images/standard-artic-trailer-cars-loaded_NE.0.0,0,24
 
 -----------------------------------------
 obj=vehicle
@@ -555,12 +551,12 @@ Constraint[Prev][0]=LeylandT45RoadtrainMail
 Constraint[Prev][1]=LeylandDAF85ArticMail
 Constraint[Prev][2]=DAFCFArticMail
 
-EmptyImage[E]=./images/leyland-t45-roadtrain-trailer.14.0
-EmptyImage[SE]=./images/leyland-t45-roadtrain-trailer.14.1
-EmptyImage[S]=./images/leyland-t45-roadtrain-trailer.14.2
-EmptyImage[SW]=./images/leyland-t45-roadtrain-trailer.14.3
-EmptyImage[W]=./images/leyland-t45-roadtrain-trailer.14.4
-EmptyImage[NW]=./images/leyland-t45-roadtrain-trailer.14.5
-EmptyImage[N]=./images/leyland-t45-roadtrain-trailer.14.6
-EmptyImage[NE]=./images/leyland-t45-roadtrain-trailer.14.7
------------------------------------------
+EmptyImage[E]=./images/standard-artic-trailer-mail_E.0.0,-33,14
+EmptyImage[SE]=./images/standard-artic-trailer-mail_SE.0.0,-13,0
+EmptyImage[S]=./images/standard-artic-trailer-mail_S.0.0,0,0
+EmptyImage[SW]=./images/standard-artic-trailer-mail_SW.0.0,-8,10
+EmptyImage[W]=./images/standard-artic-trailer-mail_W.0.0,4,5
+EmptyImage[NW]=./images/standard-artic-trailer-mail_NW.0.0,12,10
+EmptyImage[N]=./images/standard-artic-trailer-mail_N.0.0,0,33
+EmptyImage[NE]=./images/standard-artic-trailer-mail_NE.0.0,0,24
+
