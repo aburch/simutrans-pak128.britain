@@ -1,0 +1,61 @@
+# https://en.wikipedia.org/wiki/De_Havilland_Canada_DHC-6_Twin_Otter
+# http://webcache.googleusercontent.com/search?q=cache:jCnLSwyOypwJ:blog.arlit.co/2017/01/23/top-10-most-common-air-taxi-aircraft/+&cd=8&hl=en&ct=clnk&gl=uk&client=firefox-b
+obj=vehicle
+name=twin-otter-300
+copyright=Sky KoreSCL & .H.
+# https://3dwarehouse.sketchup.com/model/cb52fa98-bde6-41bf-9bb9-d81c72dc95ab/Aerov%C3%ADas-DAP-CC-CHV-de-Havilland-Canada-Twin-Otter-DHC-6-300
+# https://3dwarehouse.sketchup.com/model/d432f207fb22804858fe6ec8fb4e28b/British-Airways-De-Havilland-Canada-DHC-6-Twin-Otter-Series-310
+waytype=air
+engine_type=turbine
+speed=278
+power=920
+tractive_effort=4
+#gear=1
+freight=Passagiere
+payload=20
+weight=3.4
+#length=8
+cost=2700000
+runningcost=650
+intro_year=1969
+intro_month=7
+retire_year=1988
+retire_month=10
+
+comfort=75	
+min_loading_time=1600
+max_loading_time=1600
+
+catering_level=0
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=2484
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=457
+
+sound=bigpickle51-turboprop.wav
+range=1233
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+liverytype[0]=Private-operator
+liverytype[1]=BA-new
+
+EmptyImage[E][0]=./images/twin-otter-private_E.0.0
+EmptyImage[SE][0]=./images/twin-otter-private_SE.0.0
+EmptyImage[S][0]=./images/twin-otter-private_S.0.0
+EmptyImage[SW][0]=./images/twin-otter-private_SW.0.0
+EmptyImage[W][0]=./images/twin-otter-private_W.0.0
+EmptyImage[NW][0]=./images/twin-otter-private_NW.0.0
+EmptyImage[N][0]=./images/twin-otter-private_N.0.0
+EmptyImage[NE][0]=./images/twin-otter-private_NE.0.0
+
+EmptyImage[E][1]=./images/twin-otter-ba_E.0.0
+EmptyImage[SE][1]=./images/twin-otter-ba_SE.0.0
+EmptyImage[S][1]=./images/twin-otter-ba_S.0.0
+EmptyImage[SW][1]=./images/twin-otter-ba_SW.0.0
+EmptyImage[W][1]=./images/twin-otter-ba_W.0.0
+EmptyImage[NW][1]=./images/twin-otter-ba_NW.0.0
+EmptyImage[N][1]=./images/twin-otter-ba_N.0.0
+EmptyImage[NE][1]=./images/twin-otter-ba_NE.0.0
