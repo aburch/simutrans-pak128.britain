@@ -1,0 +1,87 @@
+# http://www.airliners.net/aircraft-data/raytheon-beechcraft-king-air-200/328
+# https://www.aopa.org/go-fly/aircraft-and-ownership/aircraft-fact-sheets/beechcraft-super-king-air-200
+obj=vehicle
+name=king-air-200
+copyright=William T.
+# https://3dwarehouse.sketchup.com/model/fc924985c48e6bd722ef9202b2b5a469/Beechcraft-King-Air-B200
+waytype=air
+engine_type=petrol
+speed=515
+power=1250
+tractive_effort=9
+freight=Passagiere
+payload=10
+weight=4.0
+#length=8
+cost=5000000
+runningcost=400
+intro_year=1974
+intro_month=2
+
+comfort=80
+min_loading_time=1800
+max_loading_time=1800
+
+catering_level=0
+
+# https://books.google.co.uk/books?id=pEF4Ek-CYMMC&pg=PA48&lpg=PA48&dq=king+air+200+%22minimum+runway%22&source=bl&ots=_BiEPWqKWZ&sig=ZwUikypRPHfYo2eObaVrA7GfxSg&hl=en&sa=X&ved=0ahUKEwj3s4_BtKrUAhUNaVAKHWtUBNwQ6AEINDAC#v=onepage&q=king%20air%20200%20%22minimum%20runway%22&f=false
+minimum_runway_length=867
+
+sound=bigpickle51-turboprop.wav
+range=3658
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/king-air-200_E.0.0
+EmptyImage[SE]=./images/king-air-200_SE.0.0
+EmptyImage[S]=./images/king-air-200_S.0.0
+EmptyImage[SW]=./images/king-air-200_SW.0.0
+EmptyImage[W]=./images/king-air-200_W.0.0
+EmptyImage[NW]=./images/king-air-200_NW.0.0
+EmptyImage[N]=./images/king-air-200_N.0.0
+EmptyImage[NE]=./images/king-air-200_NE.0.0
+
+---
+
+obj=vehicle
+name=king-air-200-mail
+copyright=William T.
+# https://3dwarehouse.sketchup.com/model/fc924985c48e6bd722ef9202b2b5a469/Beechcraft-King-Air-B200
+waytype=air
+engine_type=petrol
+speed=515
+power=1250
+tractive_effort=9
+freight=Post
+payload=2000
+weight=4.0
+#length=8
+cost=5000000
+runningcost=400
+intro_year=1974
+intro_month=2
+
+comfort=80
+min_loading_time=1800
+max_loading_time=1800
+
+catering_level=0
+
+# https://books.google.co.uk/books?id=pEF4Ek-CYMMC&pg=PA48&lpg=PA48&dq=king+air+200+%22minimum+runway%22&source=bl&ots=_BiEPWqKWZ&sig=ZwUikypRPHfYo2eObaVrA7GfxSg&hl=en&sa=X&ved=0ahUKEwj3s4_BtKrUAhUNaVAKHWtUBNwQ6AEINDAC#v=onepage&q=king%20air%20200%20%22minimum%20runway%22&f=false
+minimum_runway_length=867
+
+sound=bigpickle51-turboprop.wav
+range=3658
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/king-air-200-mail_E.0.0
+EmptyImage[SE]=./images/king-air-200-mail_SE.0.0
+EmptyImage[S]=./images/king-air-200-mail_S.0.0
+EmptyImage[SW]=./images/king-air-200-mail_SW.0.0
+EmptyImage[W]=./images/king-air-200-mail_W.0.0
+EmptyImage[NW]=./images/king-air-200-mail_NW.0.0
+EmptyImage[N]=./images/king-air-200-mail_N.0.0
+EmptyImage[NE]=./images/king-air-200-mail_NE.0.0
