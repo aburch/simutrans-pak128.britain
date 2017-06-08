@@ -17,10 +17,8 @@ intro_month=6
 # http://www.bagophily.com/images/ford_trimotor_01.jpg
 comfort=69
 catering_level=1
-# Change to 1933 when other aircraft become available. (Perhaps the Boeing 247)
-# Currently, the next aircraft, the DC-2, is available from 1934.
-retire_year=1934
-retire_month=7
+retire_year=1933
+retire_month=5
 smoke=Diesel
 
 min_loading_time=1800
