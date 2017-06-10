@@ -1,0 +1,49 @@
+# https://en.wikipedia.org/wiki/Boeing_377_Stratocruiser
+obj=vehicle
+name=boeing-377
+copyright=SketchVC10
+# https://3dwarehouse.sketchup.com/model/bfa52c24ed71614f48a7b7802dc31138/BOAC-Boeing-377-stratocruiser
+waytype=air
+engine_type=petrol
+speed=483
+power=10440
+tractive_effort=40
+freight=Passagiere
+# "Up to 100 passengers on main deck plus 14 in lower deck lounge; typical seating for 63 or 84 passengers"
+# (Wikipedia)
+payload=84
+weight=37.9
+#length=8
+# US$1,225,000 (1945) (according to Wikipedia)
+cost=14500000
+runningcost=2820
+intro_year=1949
+intro_month=4
+# Guessed
+retire_year=1955
+retire_month=8
+
+comfort=127
+min_loading_time=2400
+max_loading_time=2400
+
+catering_level=4
+
+# Cannot find data, guessing based on DC-6
+minimum_runway_length=1100
+
+sound=tomsplanes-boeing-b29.wav
+
+range=3650
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/boeing-377_E.0.0
+EmptyImage[SE]=./images/boeing-377_SE.0.0
+EmptyImage[S]=./images/boeing-377_S.0.0
+EmptyImage[SW]=./images/boeing-377_SW.0.0
+EmptyImage[W]=./images/boeing-377_W.0.0
+EmptyImage[NW]=./images/boeing-377_NW.0.0
+EmptyImage[N]=./images/boeing-377_N.0.0
+EmptyImage[NE]=./images/boeing-377_NE.0.0
