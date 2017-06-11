@@ -169,7 +169,7 @@ Fokker F27 100 300 (mail)
 BAC_111_200(BUA)
 BAC One-eleven 200 Series
 BAC_111_500(Caledonian)
-BAC One-eleven 500 Series
+BAC One-eleven 500 Series	
 Vickers Viscount 757 (Cambrian)
 Vickers Viscount 757 Series
 Vickers Viscount 802 (BEA)
@@ -188,6 +188,10 @@ vickers-vc10
 Vickers VC-10
 vickers-super-vc10
 Vickers Super VC-10
+convair-cv880
+Convair 880
+convair-cv990
+Convair 990 "Coronado"
 lockheed-10-electra
 Lockheed Model 10 Electra
 lockheed-vega
@@ -198,8 +202,16 @@ lockheed-orion
 Lockheed Orion
 lockheed-orion-mail
 Lockheed Orion (mail)
+lockheed-l049-constellation
+Lockheed L-049 Constellation
+lockheed-l1049-c-super-constellation
+Lockheed L-1049C Super Constellation
+lockheed-l1049-g-super-constellation
+Lockheed L-1049G Super Constellation
+lockheed-l1649-starliner
+Lockheed L-1649A Starliner
 lockheed-electra-l188
-Lockheed Electra L-188
+Lockheed L-188 Electra
 tristar-1
 Lockheed L-1011-1 Tristar
 tristar-200
@@ -368,6 +380,10 @@ Douglas_DC4_C54_CargoPiece
 Douglas C-54
 Douglas_DC4_C54_CargoCool
 Douglas C-54
+douglas-dc7
+Douglad DC-7
+douglas-dc7c
+Douglas DC-7C "Seven Seas"
 dhc3-otter
 DHC 3 Otter (mail)
 twin-otter-300
