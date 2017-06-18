@@ -169,7 +169,7 @@ Fokker F27 100 300 (mail)
 BAC_111_200(BUA)
 BAC One-eleven 200 Series
 BAC_111_500(Caledonian)
-BAC One-eleven 500 Series
+BAC One-eleven 500 Series	
 Vickers Viscount 757 (Cambrian)
 Vickers Viscount 757 Series
 Vickers Viscount 802 (BEA)
@@ -188,6 +188,10 @@ vickers-vc10
 Vickers VC-10
 vickers-super-vc10
 Vickers Super VC-10
+convair-cv880
+Convair 880
+convair-cv990
+Convair 990 "Coronado"
 lockheed-10-electra
 Lockheed Model 10 Electra
 lockheed-vega
@@ -198,14 +202,30 @@ lockheed-orion
 Lockheed Orion
 lockheed-orion-mail
 Lockheed Orion (mail)
+lockheed-l049-constellation
+Lockheed L-049 Constellation
+lockheed-l1049-c-super-constellation
+Lockheed L-1049C Super Constellation
+lockheed-l1049-g-super-constellation
+Lockheed L-1049G Super Constellation
+lockheed-l1649-starliner
+Lockheed L-1649A Starliner
 lockheed-electra-l188
-Lockheed Electra L-188
+Lockheed L-188 Electra
+tristar-1
+Lockheed L-1011-1 Tristar
+tristar-200
+Lockheed L-1011-200 Tristar
+tristar-500
+Lockheed L-1011-500 Tristar
 boeing-247
 Boeing 247
 boeing-247-mail
 Boeing 247 (mail)
 boeing-307-stratoliner
 Boeing 307 Stratoliner
+boeing-377
+Boeing 377 Stratocruiser
 Boeing_707_120
 Boeing 707 120 series
 Boeing_707_420(BOAC)
@@ -254,6 +274,10 @@ Boeing_747_200F(SeaboardWorld)
 Boeing 747 200F series (mail)
 boeing-787-8
 Boeing 787-8 "Dreamliner"
+boeing-787-9
+Boeing 787-9 "Dreamliner"
+boeing-787-10
+Boeing 787-10 "Dreamliner"
 Aerospatiale_BAC_Concorde(BritishAirWays)
 Aerospatiale/BAC Concorde
 Zeppelin_LZ127_GrafZeppelin
@@ -282,6 +306,10 @@ junkers-w34
 Junkers W34
 junkers-w34-mail
 Junkers W34 (mail)
+ju-52
+Junkers JU 52
+caravelle
+Sud Aviation Caravelle
 beechcraft-18
 Beechcraft Model 18
 beechcraft-18-mail
@@ -352,6 +380,10 @@ Douglas_DC4_C54_CargoPiece
 Douglas C-54
 Douglas_DC4_C54_CargoCool
 Douglas C-54
+douglas-dc7
+Douglad DC-7
+douglas-dc7c
+Douglas DC-7C "Seven Seas"
 dhc3-otter
 DHC 3 Otter (mail)
 twin-otter-300
@@ -364,6 +396,12 @@ dh-91-albatross
 De Havilland DH.91 Albatross
 dh-91-albatross-mail
 De Havilland DH.91 Albatross (mail)
+dh-comet-1
+De Havilland Comet
+dh-comet-4
+De Havilland Comet 4
+dh-comet-4c
+De Havilland Comet 4C
 hs-trident-1c
 Hawker Siddeley Trident 1C
 hs-trident-2e
@@ -372,6 +410,12 @@ hs-trident-3b
 Hawker Siddeley Trident 3B
 erj-145
 Embraer ERJ 145
+airspeed-ambassador
+Airspeed Ambassador
+king-air-200
+Beechcraft King Air 200
+king-air-200-mail
+Beechcraft King Air 200 (mail)
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 BrickAqueduct

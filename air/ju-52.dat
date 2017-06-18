@@ -1,0 +1,45 @@
+# https://en.wikipedia.org/wiki/Junkers_Ju_52
+obj=vehicle
+name=ju-52
+copyright=Maquinart and SketchVC10
+# https://3dwarehouse.sketchup.com/model/u3a66d2ab-ec42-4b5e-9d18-5f7546dc69d4/British-European-Airways-Junkers-JU-52-1947
+waytype=air
+engine_type=petrol
+speed=222
+power=1599
+tractive_effort=12
+freight=Passagiere
+payload=17
+weight=5.9
+#length=8
+cost=2400000
+runningcost=620
+intro_year=1931
+intro_month=2
+retire_year=1952
+retire_month=1
+
+comfort=70
+
+min_loading_time=1800
+max_loading_time=1800
+
+catering_level=1
+
+# Guessed based on that of the Ford Trimotor + 125m
+minimum_runway_length=1875
+
+sound=x705547-junkers-ju-52.wav
+range=950
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/ju-52_E.0.0
+EmptyImage[SE]=./images/ju-52_SE.0.0
+EmptyImage[S]=./images/ju-52_S.0.0
+EmptyImage[SW]=./images/ju-52_SW.0.0
+EmptyImage[W]=./images/ju-52_W.0.0
+EmptyImage[NW]=./images/ju-52_NW.0.0
+EmptyImage[N]=./images/ju-52_N.0.0
+EmptyImage[NE]=./images/ju-52_NE.0.0
