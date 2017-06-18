@@ -297,15 +297,15 @@ max_discomfort_penalty_percent=25
 
 catering_min_minutes=45
 catering_level1_minutes=60
-catering_level1_max_revenue=100
+catering_level1_max_revenue=160
 catering_level2_minutes=90
-catering_level2_max_revenue=245
+catering_level2_max_revenue=390
 catering_level3_minutes=120
-catering_level3_max_revenue=520
+catering_level3_max_revenue=830
 catering_level4_minutes=180
-catering_level4_max_revenue=1000
+catering_level4_max_revenue=1600
 catering_level5_minutes=210
-catering_level5_max_revenue=2750
+catering_level5_max_revenue=4400
 
 # Travelling post office revenue is simpler than catering revenue. For every journey that mail makes in a convoy containing
 # a travelling post office vehicle (that is, a mail carrying vehicle with a catering level above zero) where the journey time

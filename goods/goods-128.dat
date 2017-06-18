@@ -60,7 +60,7 @@
 # IV: Pineapples, fresh cured meats, china in boxes or cases, woollen cloth in boxes, cases parcels or hampers.
 # V: Amber, dyes, peaches and apricots, bonnet boxes, basketwork, bismuth, clocks, hats, artificial flowers, silk
 #
-# 1844 Act - 1d/mile for "parliamentary" vehicles for passengers.
+# 1844 Act - 1d/mile for "parliamentary" vehicles for passengers. 50c/km = 80c/mile. Therefore, 80c is equal to 1d at 1900 levels.
 #
 # Ackworth, p. 145 has a table of maximum charges for each class for the GER, which was similar to that for other railway companies.
 # This dates from around the 1890s as far as can be ascertained. (See for example:
@@ -99,10 +99,10 @@ to_distance[0]=16
 value[1]=50
 to_distance[1]=500
 value[2]=45
-to_distance[2]=1500
+to_distance[2]=2500
 value[3]=40
-to_distance[3]=2500
-value[4]=25
+to_distance[3]=5000
+value[4]=35
 to_distance[4]=0
 
 class_revenue_percent[0]=66
