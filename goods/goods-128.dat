@@ -94,12 +94,16 @@ number_of_classes=5
 #value=42
 value=50
 #
-value[0]=60
+value[0]=55
 to_distance[0]=16
 value[1]=50
-to_distance[1]=32
-value[2]=47
-to_distance[2]=0
+to_distance[1]=500
+value[2]=45
+to_distance[2]=1500
+value[3]=40
+to_distance[3]=2500
+value[4]=25
+to_distance[4]=0
 
 class_revenue_percent[0]=66
 class_revenue_percent[1]=100
@@ -126,7 +130,11 @@ to_distance[0]=16
 value[1]=6
 to_distance[1]=32
 value[2]=5
-to_distance[2]=0
+to_distance[2]=500
+value[3]=2
+to_distance[3]=1000
+value[4]=1
+to_distance[4]=0
 
 class_revenue_percent[0]=100
 class_revenue_percent[1]=250
