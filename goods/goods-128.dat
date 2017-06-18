@@ -100,6 +100,13 @@ value[1]=50
 to_distance[1]=32
 value[2]=47
 to_distance[2]=0
+
+class_revenue_percent[0]=66
+class_revenue_percent[1]=100
+class_revenue_percent[2]=133
+class_revenue_percent[3]=150
+class_revenue_percent[4]=200
+
 speed_bonus=18
 weight_per_unit=70
 -----------------------
@@ -120,6 +127,10 @@ value[1]=6
 to_distance[1]=32
 value[2]=5
 to_distance[2]=0
+
+class_revenue_percent[0]=100
+class_revenue_percent[1]=250
+
 speed_bonus=15
 weight_per_unit=1
 -----------------------
