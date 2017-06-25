@@ -28,6 +28,9 @@ minimum_runway_length=1250
 sound=bigpickle51-turboprop.wav
 range=1555
 
+comfort[0]=0
+comfort[1]=0
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
