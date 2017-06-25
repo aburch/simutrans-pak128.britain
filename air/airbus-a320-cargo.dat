@@ -1,5 +1,5 @@
 obj=vehicle
-name=Airbus320(AerLingus)Post
+name=airbus-a320-post
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -9,7 +9,8 @@ tractive_effort=240
 #gear=1
 freight=Post
 #payload 17.8t
-payload=17800
+payload[0]=0
+payload[1]=17800
 weight=51
 #length=8
 cost=50000000
@@ -41,7 +42,7 @@ EmptyImage[NE]=./images/A320_AerLingus_Cargo.0.3
 
 -------------
 obj=vehicle
-name=Airbus320(AerLingus)Piece
+name=airbus-a320-piece
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -83,7 +84,7 @@ EmptyImage[NE]=./images/A320_AerLingus_Cargo.0.3
 
 -------------
 obj=vehicle
-name=Airbus320(AerLingus)Cool
+name=airbus-a320-cool
 copyright=Milko
 waytype=air
 engine_type=turbine

@@ -1,5 +1,5 @@
 obj=vehicle
-name=ATR72_200(FedEx)Post
+name=atr-72-200f-post
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -9,7 +9,8 @@ tractive_effort=25
 #gear=1
 freight=Post
 #payload 4.8t
-payload=4800
+payload[0]=0
+payload[1]=4800
 weight=14
 #length=8
 cost=14000000
@@ -43,7 +44,7 @@ EmptyImage[NE]=./images/ATR_72_200_FedEx.0.3
 
 -------------
 obj=vehicle
-name=ATR72_200(FedEx)Piece
+name=atr-72-200f-piece
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -88,7 +89,7 @@ EmptyImage[NE]=./images/ATR_72_200_FedEx.0.3
 -------------
 
 obj=vehicle
-name=ATR72_200(FedEx)Cool
+name=atr-72-200f-cool
 copyright=Milko
 waytype=air
 engine_type=turbine

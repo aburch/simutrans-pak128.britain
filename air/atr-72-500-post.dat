@@ -1,5 +1,5 @@
 obj=vehicle
-name=ATR_72_500(FarnairEurope)Post
+name=atr-72-500-post
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -9,7 +9,8 @@ tractive_effort=29
 #gear=1
 freight=Post
 #payload=5.4t
-payload=5400
+payload[0]=0
+payload[1]=5400
 weight=15
 #length=8
 cost=15000000

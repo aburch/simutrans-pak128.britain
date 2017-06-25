@@ -88,16 +88,28 @@ Airport
 Airport
 #_______________________air-vehicle___________________________
 #_______________________air-vehicle___________________________
-AirbusA319(EasyJet)
-Airbus A319 (low-cost)
-AirbusA319(BritishAirways)
-Airbus A319 (standard)
-AirbusA321(Monarch)
+airbus-a319-high-capacity
+Airbus A319 (high capacity)
+airbus-a319
+Airbus A319
+airbus-a321
 Airbus A321
-AirbusA318(BritishAirways)
+airbus-a321-high-capacity
+Airbus A321 (high capacity)
+airbus-a318
 Airbus A318
-AirbusA320(Thomson)
+airbus-a318-high-capacity
+Airbus A318 (high capacity)
+airbus-a320
 Airbus A320
+airbus-a320-high-capacity
+Airbus A320 (high capacity)
+airbus-a320-post
+Airbus A320 (mail)
+airbus-a320-piece
+Airbus A320 (piece goods)
+airbus-a320-cool
+Airbus A320 (perishable goods)
 BAE146_300(JerseyEuropean)
 BAE 146 300 Series
 BAE146_100(DanAirLondon)
@@ -108,40 +120,34 @@ BAE146_300QT(TNT)Piece
 BAE 146 300 Series (piece goods)
 BAE146_300QT(TNT)Cool
 BAE 146 300 Series (perishable goods)
-ATR_42_320(BlueIslands)
+atr-42-320
 ATR 42 320 Series
-ATR_42_300F(FedEx)Post
+atr-42-300f-post
 ATR 42 300 Series (mail)
-ATR_42_300F(FedEx)Piece
+atr-42-300f-piece
 ATR 42 300 Series (piece goods)
-ATR_42_300F(FedEx)Cool
+atr-42-300f-cool
 ATR 42 300 Series (perishable goods)
-ATR_42_500F(DHL)Post
+atr-42-500f-post
 ATR 42 500F Series (mail)
-ATR_42_500F(DHL)Piece
+atr-42-500f-piece
 ATR 42 500F Series (goods)
-ATR_42_500F(DHL)Cool
+atr-42-500f-cool
 ATR 42 500F Series (perishable goods)
-ATR_42_500(TitanAirways)
+atr-42-500
 ATR 42 500 Series
-ATR72_200(FedEx)Post
+atr-72-200f-post
 ATR 72 200 Series (mail)
-ATR72_200(FedEx)Piece
+atr-72-200f-piece
 ATR 72 200 Series (piece goods)
-ATR72_200(FedEx)Cool
+atr-72-200f-cool
 ATR 72 200 Series (perishable goods)
-ATR72_200(BritishAirways)
+atr-72-200
 ATR 72 200 Series
-ATR_72_500(AurignyAirServices)
+atr-72-500
 ATR 72 500 Series
-ATR_72_500(FarnairEurope)Post
+atr-72-500-post
 ATR 72 500 Series
-Airbus320(AerLingus)Post
-Airbus A320 (mail)
-Airbus320(AerLingus)Piece
-Airbus A320 (piece goods)
-Airbus320(AerLingus)Cool
-Airbus A320 (perishable goods)
 aero-commander-681
 Aero Commander 680 "Courser"
 aero-commander-500
@@ -278,7 +284,7 @@ boeing-787-9
 Boeing 787-9 "Dreamliner"
 boeing-787-10
 Boeing 787-10 "Dreamliner"
-Aerospatiale_BAC_Concorde(BritishAirWays)
+aerospatiale-bac-concorde
 Aerospatiale/BAC Concorde
 Zeppelin_LZ127_GrafZeppelin
 Graf Zeppelin LZ 127

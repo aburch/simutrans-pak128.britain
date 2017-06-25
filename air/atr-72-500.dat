@@ -1,5 +1,5 @@
 obj=vehicle
-name=ATR_72_500(AurignyAirServices)
+name=atr-72-500
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -8,17 +8,19 @@ power=3690
 tractive_effort=29
 #gear=1
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
 weight=16
 #length=8
 cost=16000000
 runningcost=1700
 intro_year=1997
 intro_month=7
-comfort=107
+comfort[0]=0
+comfort[1]=107
 min_loading_time=2200
 max_loading_time=2200
-catering_level=2
+catering_level=1
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=1300

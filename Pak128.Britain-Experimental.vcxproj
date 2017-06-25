@@ -76,14 +76,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include=".gitignore" />
-    <None Include="air\A318_BritishAirways.dat" />
-    <None Include="air\A319_BritishAirways.dat" />
-    <None Include="air\A319_EasyJet.dat" />
-    <None Include="air\A320_AerLingus_Cargo.dat" />
-    <None Include="air\A320_ThomsonAirways.dat" />
-    <None Include="air\A321_Monarch.dat" />
+    <None Include="air\airbus-a318.dat" />
+    <None Include="air\airbus-a319.dat" />
+    <None Include="air\airbus-a320-cargo.dat" />
+    <None Include="air\airbus-a320.dat" />
+    <None Include="air\airbus-a321.dat" />
     <None Include="air\aero-commander-500.dat" />
-    <None Include="air\air192\Aerospatiale_BAC_Concorde.dat" />
+    <None Include="air\air192\aerospatiale-bac-concorde.dat" />
     <None Include="air\air192\Boeing_707_120.dat" />
     <None Include="air\air192\Boeing_707_320C_PelicanCargoAirlines.dat" />
     <None Include="air\air192\Boeing_707_420_BOAC.dat" />
@@ -103,14 +102,14 @@
     <None Include="air\air256\Zeppelin_LZ127_GrafZeppelin_Mail.dat" />
     <None Include="air\air256\Zeppelin_LZ6.dat" />
     <None Include="air\airspeed-ambassador.dat" />
-    <None Include="air\ATR_42_300F_FedEx.dat" />
-    <None Include="air\ATR_42_320_BlueIslands.dat" />
-    <None Include="air\ATR_42_500F_DHL.dat" />
-    <None Include="air\ATR_42_500_TitanAirways.dat" />
-    <None Include="air\ATR_72_200_BritishAirways.dat" />
-    <None Include="air\ATR_72_200_FedEx_Post.dat" />
-    <None Include="air\ATR_72_500_AurignyAirServices.dat" />
-    <None Include="air\ATR_72_500_FarnairEurope.dat" />
+    <None Include="air\atr-42-300f.dat" />
+    <None Include="air\atr-42-320.dat" />
+    <None Include="air\atr-42-500f.dat" />
+    <None Include="air\atr-42-500.dat" />
+    <None Include="air\atr-72-200.dat" />
+    <None Include="air\atr-72-200f.dat" />
+    <None Include="air\atr-72-500.dat" />
+    <None Include="air\atr-72-500-post.dat" />
     <None Include="air\BAC_111_200_BUA.dat" />
     <None Include="air\BAC_111_500_Caledonian.dat" />
     <None Include="air\BAE_146_100_DanAirLondon.dat" />

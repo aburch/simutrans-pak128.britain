@@ -1,5 +1,5 @@
 obj=vehicle
-name=ATR_42_500F(DHL)Post
+name=atr-42-500f-post
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -9,7 +9,8 @@ tractive_effort=29
 #gear=1
 freight=Post
 #payload 3.35t
-payload=3350
+payload[0]=0
+payload[1]=3350
 weight=14
 #length=8
 cost=10000000
@@ -42,7 +43,7 @@ EmptyImage[NE]=images/ATR_42_500F_DHLWhite_Cargo.0.3
 -------------
 
 obj=vehicle
-name=ATR_42_500F(DHL)Piece
+name=atr-42-500f-piece
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -85,7 +86,7 @@ EmptyImage[NE]=images/ATR_42_500F_DHLYellow_Cargo.0.3
 -------------
 
 obj=vehicle
-name=ATR_42_500F(DHL)Cool
+name=atr-42-500f-cool
 copyright=Milko
 waytype=air
 engine_type=turbine

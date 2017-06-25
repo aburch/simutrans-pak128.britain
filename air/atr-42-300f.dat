@@ -1,5 +1,5 @@
 obj=vehicle
-name=ATR_42_300F(FedEx)Post
+name=atr-42-300f-post
 copyright=Milko
 waytype=air
 engine_type=diesel
@@ -9,7 +9,8 @@ tractive_effort=24
 #gear=1
 freight=Post
 #payload 2.1t
-payload=2100
+payload[0]=0
+payload[1]=2100
 weight=12
 #length=8
 cost=9000000
@@ -43,7 +44,7 @@ EmptyImage[NE]=images/ATR_42_300F_FedEx_Post.0.3
 
 -------------
 obj=vehicle
-name=ATR_42_300F(FedEx)Piece
+name=atr-42-300f-piece
 copyright=Milko
 waytype=air
 engine_type=diesel
@@ -87,7 +88,7 @@ EmptyImage[NE]=images/ATR_42_300F_FedEx_Post.0.3
 
 -------------
 obj=vehicle
-name=ATR_42_300F(FedEx)Cool
+name=atr-42-300f-cool
 copyright=Milko
 waytype=air
 engine_type=diesel
@@ -128,5 +129,3 @@ EmptyImage[W]=images/ATR_42_300F_FedEx_Post.0.6
 EmptyImage[NW]=images/ATR_42_300F_FedEx_Post.0.5
 EmptyImage[N]=images/ATR_42_300F_FedEx_Post.0.4
 EmptyImage[NE]=images/ATR_42_300F_FedEx_Post.0.3
-
--------------
