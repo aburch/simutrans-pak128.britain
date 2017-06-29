@@ -9,7 +9,8 @@ tractive_effort=46
 freight=Post
 #payload=12.8t
 #extended
-payload=12800
+payload[0]=0
+payload[1]=12800
 weight=28.6
 #length=8
 cost=8500000
