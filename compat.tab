@@ -263,9 +263,9 @@ lswr-56ft-augmentation-trailer-rear
 #
 ############### Livery removals from names  #####################
 BAE 146_100 - Dan Air London
-BAE146_100(DanAirLondon)
+bae-146-100
 BAE 146_300 - Jersey European
-BAE146_300(JerseyEuropean)
+bae-146-300
 Mk1-GUV(Rail-Blue)
 BR-Mk1-GUV
 BR-Mk1-BC(Blue-Grey)
@@ -976,6 +976,16 @@ BAC_111_200(BUA)
 bac-1-11-200
 BAC_111_500(Caledonian)
 bac-1-11-500
+BAE146_100(DanAirLondon)
+bae-146-100
+BAE146_300(JerseyEuropean)
+bae-146-300
+BAE146_300QT(TNT)Post
+bae-146-300qt-mail
+BAE146_300QT(TNT)Cool
+bae-146-300qt-cool
+BAE146_300QT(TNT)Piece
+bae-146-300qt-piece
 ################################# New track ##################################
 wrought_iron_track_light
 plateway

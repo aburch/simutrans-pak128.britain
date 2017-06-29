@@ -1,5 +1,5 @@
 obj=vehicle
-name=BAE146_300QT(TNT)Post
+name=bae-146-300qt-mail
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -9,7 +9,8 @@ tractive_effort=125
 #gear=1
 freight=Post
 #payload 9.4t
-payload=9400
+payload[0]=0
+payload[1]=9400
 weight=29.1
 #length=8
 cost=16000000
@@ -44,7 +45,7 @@ EmptyImage[NE]=images/BAE_146_300_TNT.0.3
 
 -------------
 obj=vehicle
-name=BAE146_300QT(TNT)Cool
+name=bae-146-300qt-cool
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -89,7 +90,7 @@ EmptyImage[NE]=images/BAE_146_300_TNT.0.3
 
 -------------
 obj=vehicle
-name=BAE146_300QT(TNT)Piece
+name=bae-146-300qt-piece
 copyright=Milko
 waytype=air
 engine_type=turbine
