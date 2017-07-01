@@ -88,22 +88,22 @@ Airport
 Airport
 #_______________________air-vehicle___________________________
 #_______________________air-vehicle___________________________
-airbus-a319-high-capacity
-Airbus A319 (high capacity)
+airbus-a319-high-density
+Airbus A319 (high density)
 airbus-a319
 Airbus A319
 airbus-a321
 Airbus A321
-airbus-a321-high-capacity
-Airbus A321 (high capacity)
+airbus-a321-high-density
+Airbus A321 (high density)
 airbus-a318
 Airbus A318
-airbus-a318-high-capacity
-Airbus A318 (high capacity)
+airbus-a318-high-density
+Airbus A318 (high density)
 airbus-a320
 Airbus A320
-airbus-a320-high-capacity
-Airbus A320 (high capacity)
+airbus-a320-high-density
+Airbus A320 (high density)
 airbus-a320-post
 Airbus A320 (mail)
 airbus-a320-piece
@@ -233,55 +233,113 @@ Boeing 307 Stratoliner
 boeing-377
 Boeing 377 Stratocruiser
 Boeing_707_120
-Boeing 707 120 series
-Boeing_707_420(BOAC)
-Boeing 707 420 series
-707_320C(PelicanCargoAirlines)Post
-Boeing 707 320 series
-Boeing_727_200(BritishAirWays)
-Boeing 727 200 series
-Boeing_727_200Adv(DHL)Post
-Boeing 727 200 Advanced series (mail)
-Boeing727_100(UPS)Cargo
-Boeing 727 100 series (piece goods)
-Boeing727_100(UPS)CargoCool
-Boeing 727 100 series (perishable goods)
-Boeing_727_200(TNT)CargoPiece
-Boeing 727 200 series (piece goods)
-Boeing_727_200(TNT)CargoCool
-Boeing 727 200 series (perishable goods)
-Boeing_727_100(DanAirLondon)
-Boeing 727 100 series
-Boeing727_100(DHL)Post
-Boeing 727 200 series (mail)
+Boeing 707-120
+boeing-707-120-high-density
+Boeing 707-120 (high density)
+boeing-707-420
+Boeing 707-420
+boeing-707-420-high-density
+Boeing 707-420 (high density)
+boeing-707-320c
+Boeing 707-320
+boeing-727-200
+Boeing 727-200
+boeing-727-200-high-density
+Boeing 727-200 (high density)
+boeing-727-200-advanced-mail
+Boeing 727-200 Advanced (mail)
+boeing-727-100-piece
+Boeing 727-100 (piece goods)
+boeing-727-100-cool
+Boeing 727-100 (perishable goods)
+boeing-727-200-advanced-piece
+Boeing 727-200 (piece goods)
+boeing-727-200-advanced-cool
+Boeing 727 200 (perishable goods)
+boeing-727-100
+Boeing 727-100 
+boeing-727-100-high-density
+Boeing 727-100 (high density)
+boeing-727-100-mail
+Boeing 727-200 (mail)
 boeing-737-100
 Boeing 737-100
+boeing-737-100-high-density
+Boeing 737-100 (high density)
 boeing-737-200
 Boeing 737-200
+boeing-737-200-high-density
+Boeing 737-200 (high density)
 boeing-737-300
 Boeing 737-300
+boeing-737-300-high-density
+Boeing 737-300 (high density)
 boeing-737-400
 Boeing 737-400
+boeing-737-400-high-density
+Boeing 737-400 (high density)
 boeing-737-700
 Boeing 737-700
+boeing-737-700-high-density
+Boeing 737-700 (high density)
 boeing-737-800
 Boeing 737-800
+boeing-737-800-high-density
+Boeing 737-800 (high density)
 boeing-737-900er
 Boeing 737-900ER
-Boeing_747_100(BOAC)
-Boeing 747 100 series
-Boeing_747_200(BritishCaledonian)
-Boeing 747 200 series
-Boeing_747_400(BritishAirWays)
-Boeing 747 400 series
-747_400F(CargoLux)Post
-Boeing 747 400 series (mail)
-Boeing_747_200F(SeaboardWorld)
-Boeing 747 200F series (mail)
+boeing-737-900er-high-density
+Boeing 737-900ER (high density)
+boeing-737-max-7
+Boeing 737 MAX 7
+boeing-737-max-7-high-density
+Boeing 737 MAX 7 (high density)
+boeing-737-max-8
+Boeing 737 MAX 8
+boeing-737-max-8-high-density
+Boeing 737 MAX 200
+boeing-737-max-9
+Boeing 737 MAX 9
+boeing-737-max-9-high-density
+Boeing 737 MAX 9 (high density)
+boeing-747-100
+Boeing 747-100
+boeing-747-100-high-density
+Boeing 747-100 (high density)
+boeing-747-200
+Boeing 747-200B
+boeing-747-200-high-density
+Boeing 747-200B (high density)
+boeing-747-400
+Boeing 747-400
+boeing-747-400-high-density
+Boeing 747-400 (high density)
+boeing-747-400f-mail
+Boeing 747-400F (mail)
+boeing-747-400f-piece
+Boeing 747-400F (piece goods)
+boeing-747-400f-cool
+Boeing 747-400F (perishable goods)
+boeing-747-200f-mail
+Boeing 747-200F (mail)
+boeing-747-200f-piece
+Boeing 747-200F (piece goods)
+boeing-747-200f-cool
+Boeing 747-200F (perishable goods)
+boeing-747-8i
+Boeing 747-8i
+boeing-747-8f-piece
+Boeing 747-8f (piece goods)
+boeing-747-8f-cool
+Boeing 747-8f (perishable goods)
 boeing-787-8
 Boeing 787-8 "Dreamliner"
+boeing-787-8-high-density
+Boeing 787-8 "Dreamliner" (high density)
 boeing-787-9
 Boeing 787-9 "Dreamliner"
+boeing-787-9-high-density
+Boeing 787-9 "Dreamliner" (high density)
 boeing-787-10
 Boeing 787-10 "Dreamliner"
 aerospatiale-bac-concorde

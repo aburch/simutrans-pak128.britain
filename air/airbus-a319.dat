@@ -22,7 +22,7 @@ intro_month=9
 comfort[0]=0
 comfort[1]=131
 comfort[2]=0
-comfort[3]=191
+comfort[3]=181
 min_loading_time=2400
 max_loading_time=2400
 catering_level=3
@@ -35,7 +35,7 @@ minimum_runway_length=1800
 sound=laxspotter97-airbus-a320.wav
 range=6650
 
-upgrade[0]=airbus-a319-high-capacity
+upgrade[0]=airbus-a319-high-density
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -52,7 +52,7 @@ EmptyImage[NE]=./images/A319_BritishAirways.0.3
 -------------
 
 obj=vehicle
-name=airbus-a319-high-capacity
+name=airbus-a319-high-density
 copyright=Milko
 waytype=air
 engine_type=turbine
@@ -82,7 +82,7 @@ minimum_runway_length=2100
 sound=laxspotter97-airbus-a320.wav
 range=6650
 
-upgrade[0]=airbus-a319-high-capacity
+upgrade[0]=airbus-a319-high-density
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

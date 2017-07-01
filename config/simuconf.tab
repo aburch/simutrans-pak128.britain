@@ -236,7 +236,7 @@ meters_per_tile = 125
 # Note that the impact of comfort on revenue decreases with journey time.
 # It is at its maximum level down to tolerable_comfort_median_long_minutes, after which it gradually
 # reduces to 20% of its maximum at tolerable_comfort_short_minutes, and does not decrease further
-# thereafter. 
+# thereafter. Revenue will never decrease below 75% of the base level.
 
 # 0:05h
 tolerable_comfort_short_minutes=5
@@ -252,10 +252,10 @@ tolerable_comfort_median_median=125
 
 # 6:00h
 tolerable_comfort_median_long_minutes=360
-tolerable_comfort_median_long=175
+tolerable_comfort_median_long=165
 
-# 18:00h
-tolerable_comfort_long_minutes=1080
+# 24:00h
+tolerable_comfort_long_minutes=1440
 tolerable_comfort_long=250
 
 # max_luxury_bonus_differential is the maximum number of comfort rating points above the tolerable level
@@ -263,7 +263,7 @@ tolerable_comfort_long=250
 # revenue.
 #
 # max_luxury_bonus_percent is the percentage increase in revenue from the maximum level of luxury specified in
-# max_luxury_bonus_differential. So, if the tolerable comfort level for any given travelling time was 100, the 
+# max_luxury_bonus_differential. So, if the tolerable comfort level for any given travelling time were 100, the 
 # max_luxury_bonus_differential 50, and the max_luxury_bonus_percent 50, then the revenue would increase up to
 # 50% beyond the normal revenue for additional comfort up to 150, but would not increase further with any increase
 # in comfort beyond 150. 
