@@ -1,5 +1,5 @@
 obj=vehicle
-name=Bristol_Type170_Mk32_CargoCar
+name=bristol-type-170-cars
 copyright=Milko/Jamespetts
 waytype=air
 engine_type=petrol
@@ -7,7 +7,10 @@ speed=254
 power=2659
 tractive_effort=38
 freight=Autos
-# It's a ferry!!!! Need to modify in the future.
+# This is actually a passenger/car transport, not a transporter
+# for newly produced cars to be sold.
+# TODO: Modify this as such when the code supports private car
+# transport using player transport.
 #payload=5.45t
 payload=3
 weight=14.4
@@ -27,7 +30,6 @@ max_loading_time=2200
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1250
 
-smoke=Diesel
 range=2140
 
 sound=ylearkisto-dc-3.wav
@@ -47,7 +49,7 @@ EmptyImage[NE]=./images/Bristol_Type170_Mk32_Cargo.0.3
 -------------
 
 obj=vehicle
-name=Bristol_Type170_Mk32_CargoPiece
+name=bristol-type-170-piece
 copyright=Milko/Jamespetts
 waytype=air
 engine_type=petrol
@@ -74,7 +76,6 @@ max_loading_time=2200
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1250
 
-smoke=Diesel
 range=2140
 
 sound=ylearkisto-dc-3.wav
@@ -94,7 +95,7 @@ EmptyImage[NE]=./images/Bristol_Type170_Mk32_Cargo.0.3
 -------------
 
 obj=vehicle
-name=Bristol_Type170_Mk32_CargoCool
+name=bristol-type-170-cool
 copyright=Milko/Jamespetts
 waytype=air
 engine_type=petrol
@@ -121,7 +122,6 @@ max_loading_time=2200
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1250
 
-smoke=Diesel
 range=2140
 
 sound=ylearkisto-dc-3.wav

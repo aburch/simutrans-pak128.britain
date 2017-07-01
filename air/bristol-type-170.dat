@@ -1,5 +1,5 @@
 obj=vehicle
-name=Bristol_Type170_Mk32_BritishUnitedAirFerries
+name=bristol-type-170
 copyright=Milko/Jamespetts
 waytype=air
 engine_type=petrol
@@ -8,7 +8,10 @@ power=2659
 tractive_effort=38
 freight=Passagiere
 #payload=5.45t
-payload=44
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=44
 weight=14.4
 #length=8
 cost=3800000
@@ -17,7 +20,11 @@ intro_year=1946
 intro_month=4
 retire_year=1958
 retire_month=3
-comfort=90
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=92
 min_loading_time=2200
 max_loading_time=2200
 catering_level=1
@@ -27,7 +34,6 @@ catering_level=1
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1250
 
-smoke=Diesel
 range=2140
 
 sound=ylearkisto-dc-3.wav

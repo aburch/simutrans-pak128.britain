@@ -1,5 +1,5 @@
 obj=vehicle
-name=Bristol_Type170_Mk32_RoyalMail
+name=bristol-type-170-mail
 copyright=Milko/Jamespetts
 waytype=air
 engine_type=petrol
@@ -8,7 +8,8 @@ power=2659
 tractive_effort=38
 freight=Post
 #payload=5.45t
-payload=5450
+payload[0]=0
+payload[1]=5450
 weight=14.4
 #length=8
 cost=3600000
@@ -26,7 +27,6 @@ max_loading_time=2200
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1250
 
-smoke=Diesel
 range=2140
 
 sound=ylearkisto-dc-3.wav
@@ -42,5 +42,3 @@ EmptyImage[W]=./images/Bristol_Type170_Mk32_RoyalMail.0.6
 EmptyImage[NW]=./images/Bristol_Type170_Mk32_RoyalMail.0.5
 EmptyImage[N]=./images/Bristol_Type170_Mk32_RoyalMail.0.4
 EmptyImage[NE]=./images/Bristol_Type170_Mk32_RoyalMail.0.3
-
--------------
