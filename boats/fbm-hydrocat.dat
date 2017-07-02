@@ -6,9 +6,10 @@ engine_type=diesel
 smoke=diesel
 speed=45
 power=450
-gear=100
 freight=Passagiere
-payload=65
+payload[0]=0
+payload[1]=0
+payload[2]=65
 weight=30
 length=10
 cost=46000000
@@ -16,7 +17,9 @@ runningcost=820
 intro_year=1991
 intro_month=4
 
-comfort=96
+comfort[0]=0
+comfort[1]=0
+comfort[2]=96
 min_loading_time=40
 max_loading_time=80
 

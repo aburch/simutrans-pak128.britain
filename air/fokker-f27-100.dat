@@ -1,15 +1,16 @@
 obj=vehicle
-name=Fokker_F27_100_300_BritishMidlandAir
+name=fokker-f27-100
 copyright=Milko
 waytype=air
 engine_type=turbine
 speed=437
 power=1193
 tractive_effort=10
-#gear=1
 freight=Passagiere
 #payload 5.25t
-payload=44
+payload[0]=0
+payload[1]=0
+payload[2]=44
 weight=12
 cost=8500000
 runningcost=1700
@@ -17,10 +18,13 @@ intro_year=1958
 intro_month=11
 retire_year=1986
 retire_month=6
-comfort=90
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=112
 min_loading_time=900
 max_loading_time=900
-catering_level=1
+catering_level=2
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=1755
@@ -41,5 +45,3 @@ EmptyImage[W]=./images/F27_100_300_BritishMidlandAir.0.6
 EmptyImage[NW]=./images/F27_100_300_BritishMidlandAir.0.5
 EmptyImage[N]=./images/F27_100_300_BritishMidlandAir.0.4
 EmptyImage[NE]=./images/F27_100_300_BritishMidlandAir.0.3
-
---------
