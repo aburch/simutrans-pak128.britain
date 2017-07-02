@@ -1,12 +1,12 @@
 # https://en.wikipedia.org/wiki/De_Havilland_Comet
 obj=vehicle
-name=dh-comet-4c
+name=dh-comet-4b
 copyright=Emmanuel Baranger
 # CC-BY-SA
 # https://www.blendswap.com/blends/view/83922
 waytype=air
 engine_type=turbine
-speed=805
+speed=853
 power=28195
 tractive_effort=187
 #gear=1
@@ -14,19 +14,19 @@ freight=Passagiere
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
 payload[0]=0
 payload[1]=0
-payload[2]=51
+payload[2]=47
 payload[3]=0
-payload[4]=28
+payload[4]=24
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
 weight=36.1
 #length=8
-cost=14400000
+cost=14200000
 upgrade_price=5000
-# 5,560lb/h per engine: 
+# 6,500lb/h per engine: 
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
 runningcost=3050
-intro_year=1960
-intro_month=1
+intro_year=1959
+intro_month=11
 retire_year=1966
 retire_month=10
 
@@ -45,32 +45,32 @@ minimum_runway_length=2290
 
 sound=robin-pinnock-bac-1-11.wav
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
-range=6900
+range=4023
 
-upgrade[0]=dh-comet-4c-high-density
+upgrade[0]=dh-comet-4b-high-density
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/dh-comet-4c_E.0.0
-EmptyImage[SE]=./images/dh-comet-4c_SE.0.0
-EmptyImage[S]=./images/dh-comet-4c_S.0.0
-EmptyImage[SW]=./images/dh-comet-4c_SW.0.0
-EmptyImage[W]=./images/dh-comet-4c_W.0.0
-EmptyImage[NW]=./images/dh-comet-4c_NW.0.0
-EmptyImage[N]=./images/dh-comet-4c_N.0.0
-EmptyImage[NE]=./images/dh-comet-4c_NE.0.0
+EmptyImage[E]=./images/dh-comet-4b_E.0.0
+EmptyImage[SE]=./images/dh-comet-4b_SE.0.0
+EmptyImage[S]=./images/dh-comet-4b_S.0.0
+EmptyImage[SW]=./images/dh-comet-4b_SW.0.0
+EmptyImage[W]=./images/dh-comet-4b_W.0.0
+EmptyImage[NW]=./images/dh-comet-4b_NW.0.0
+EmptyImage[N]=./images/dh-comet-4b_N.0.0
+EmptyImage[NE]=./images/dh-comet-4b_NE.0.0
 
 ---
 
 obj=vehicle
-name=dh-comet-4c-high-density
+name=dh-comet-4b-high-density
 copyright=Emmanuel Baranger
 # CC-BY-SA
 # https://www.blendswap.com/blends/view/83922
 waytype=air
 engine_type=turbine
-speed=805
+speed=853
 power=28195
 tractive_effort=187
 #gear=1
@@ -82,13 +82,13 @@ payload[2]=119
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
 weight=36.1
 #length=8
-cost=14400000
+cost=14200000
 upgrade_price=5000
-# 5,560lb/h per engine: 
+# 6,500lb/h per engine: 
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
 runningcost=3050
-intro_year=1960
-intro_month=1
+intro_year=1959
+intro_month=11
 retire_year=1966
 retire_month=10
 
@@ -105,18 +105,18 @@ minimum_runway_length=2290
 
 sound=robin-pinnock-bac-1-11.wav
 # http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
-range=6900
+range=4023
 
-upgrade[0]=dh-comet-4c
+upgrade[0]=dh-comet-4b
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-EmptyImage[E]=./images/dh-comet-4c_E.0.0
-EmptyImage[SE]=./images/dh-comet-4c_SE.0.0
-EmptyImage[S]=./images/dh-comet-4c_S.0.0
-EmptyImage[SW]=./images/dh-comet-4c_SW.0.0
-EmptyImage[W]=./images/dh-comet-4c_W.0.0
-EmptyImage[NW]=./images/dh-comet-4c_NW.0.0
-EmptyImage[N]=./images/dh-comet-4c_N.0.0
-EmptyImage[NE]=./images/dh-comet-4c_NE.0.0
+EmptyImage[E]=./images/dh-comet-4b_E.0.0
+EmptyImage[SE]=./images/dh-comet-4b_SE.0.0
+EmptyImage[S]=./images/dh-comet-4b_S.0.0
+EmptyImage[SW]=./images/dh-comet-4b_SW.0.0
+EmptyImage[W]=./images/dh-comet-4b_W.0.0
+EmptyImage[NW]=./images/dh-comet-4b_NW.0.0
+EmptyImage[N]=./images/dh-comet-4b_N.0.0
+EmptyImage[NE]=./images/dh-comet-4b_NE.0.0
