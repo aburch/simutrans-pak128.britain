@@ -1,5 +1,5 @@
 obj=vehicle
-name=Douglas_DC4_C54_Mail
+name=douglas-c54-mail
 copyright=Milko
 waytype=air
 engine_type=petrol
@@ -9,7 +9,8 @@ tractive_effort=28
 freight=Post
 #payload=11.0t
 #extended
-payload=11000
+payload[0]=0
+payload[1]=11000
 #standard
 #payload=220
 weight=22.1
@@ -45,5 +46,3 @@ EmptyImage[W]=./images/Douglas_DC4_C54_Mail.0.6
 EmptyImage[NW]=./images/Douglas_DC4_C54_Mail.0.5
 EmptyImage[N]=./images/Douglas_DC4_C54_Mail.0.4
 EmptyImage[NE]=./images/Douglas_DC4_C54_Mail.0.3
-
--------------

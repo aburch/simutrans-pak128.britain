@@ -1,25 +1,34 @@
 obj=vehicle
-name=Douglas_DC3A
+name=Douglas_DC3
 copyright=Milko/jamespetts
 waytype=air
 engine_type=petrol
-speed=333
-power=1611
+speed=293
+power=1477
 tractive_effort=9
 freight=Passagiere
-payload=21
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=21
 weight=8.7
 #length=8
-cost=2750000
-runningcost=750
-intro_year=1939
-intro_month=4
-retire_year=1950
-retire_month=5
-comfort=90
+cost=2700000
+runningcost=740
+intro_year=1936
+intro_month=6
+retire_year=1942
+retire_month=1
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=91
 min_loading_time=1800
 max_loading_time=1800
-catering_level=1
+catering_level=2
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=???
@@ -27,7 +36,6 @@ catering_level=1
 # Not entirely sure about this figure - check this.
 minimum_runway_length=625
 
-smoke=Diesel
 range=2400
 
 sound=ylearkisto-dc-3.wav
@@ -109,27 +117,26 @@ EmptyImage[NE][6]=./images/Douglas_DC3_dan-air-white-tail.1.1
 -------------
 
 obj=vehicle
-name=Douglas_DC3A_Mail
+name=Douglas_DC3_Mail
 copyright=Milko/jamespetts
 waytype=air
 engine_type=petrol
-speed=333
-power=1611
+speed=293
+power=1477
 tractive_effort=9
 #gear=1
 freight=Post
 #payload=3.3t
-payload=3300
-weight=7.1
+payload[0]=0
+payload[1]=3300
+weight=8.1
 #length=8
-cost=2750000
-runningcost=750
-intro_year=1939
-intro_month=4
-retire_year=1950
-retire_month=5
-
-smoke=Diesel
+cost=2700000
+runningcost=740
+intro_year=1936
+intro_month=6
+retire_year=1942
+retire_month=1
 
 min_loading_time=1800
 max_loading_time=2000
@@ -154,6 +161,5 @@ EmptyImage[W]=./images/Douglas_DC3_mail.1.6
 EmptyImage[NW]=./images/Douglas_DC3_mail.1.7
 EmptyImage[N]=./images/Douglas_DC3_mail.1.0
 EmptyImage[NE]=./images/Douglas_DC3_mail.1.1
-
 
 -------------

@@ -1,5 +1,5 @@
 obj=vehicle
-name=Douglas_DC4_BritishUnitedAirways
+name=douglas-dc-4
 copyright=Milko
 waytype=air
 engine_type=petrol
@@ -8,7 +8,11 @@ power=3760
 tractive_effort=28
 freight=Passagiere
 #payload=8.6t
-payload=80
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=80
 weight=24.5
 #length=8
 cost=10000000
@@ -17,17 +21,21 @@ intro_year=1942
 intro_month=2
 retire_year=1947
 retire_month=8
-comfort=90
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=92
 min_loading_time=2400
 max_loading_time=2400
-catering_level=1
+catering_level=3
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=1130
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1250
 
-smoke=Diesel
 range=4050
 
 sound=kubanskiloewe-dc-6.wav
