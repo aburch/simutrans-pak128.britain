@@ -9,8 +9,8 @@ tractive_effort=13
 #gear=1
 freight=Post
 #payload 1t
-#Extended
-payload=1000
+payload[0]=0
+payload[1]=1000
 weight=4
 #length=8
 cost=1000000
@@ -19,8 +19,6 @@ intro_year=1918
 intro_month=11
 retire_year=1922
 retire_month=12
-
-smoke=Diesel
 
 min_loading_time=1800
 max_loading_time=2000

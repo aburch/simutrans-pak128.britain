@@ -6,9 +6,9 @@ engine_type=diesel
 smoke=diesel
 speed=55
 power=2869
-gear=100
 freight=Passagiere
-payload=290
+payload[0]=0
+payload[1]=290
 weight=200
 length=10
 cost=86000000
@@ -19,7 +19,8 @@ retire_year=1996
 retire_month=7
 
 #http://thm-a01.yimg.com/nimage/dd2a03bd1f034982
-comfort=109
+comfort[0]=0
+comfort[1]=109
 # 15-20 minutes
 min_loading_time=900
 max_loading_time=1200
