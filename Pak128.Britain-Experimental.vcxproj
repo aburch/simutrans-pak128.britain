@@ -178,10 +178,10 @@
     <None Include="air\fokker-f27-200.dat" />
     <None Include="air\ford-trimotor.dat" />
     <None Include="air\ford-trimotor-mail.dat" />
-    <None Include="air\HandleyPageO400_Verde.dat" />
-    <None Include="air\HandleyPage_O400.dat" />
-    <None Include="air\HandleyPage_W8b.dat" />
-    <None Include="air\HandleyPageW8b_Mail.dat" />
+    <None Include="air\handley-page-o400-mail.dat" />
+    <None Include="air\handley-page-o400.dat" />
+    <None Include="air\handley-page-w8b.dat" />
+    <None Include="air\handley-page-w8b-mail.dat" />
     <None Include="air\douglas-dc-2.dat" />
     <None Include="air\douglas-dc-2-mail.dat" />
     <None Include="air\hs-trident-1c.dat" />
@@ -1852,7 +1852,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="trains\lms-7f.dat" />
-    <ClInclude Include="ways\Header.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="sound\credits.txt" />

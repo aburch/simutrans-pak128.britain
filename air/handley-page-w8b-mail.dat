@@ -9,8 +9,8 @@ tractive_effort=13
 #gear=1
 freight=Post
 #payload 1t
-#Extended
-payload=1000
+payload[0]=0
+payload[1]=1000
 weight=4
 #length=8
 cost=1000000
