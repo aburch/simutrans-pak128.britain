@@ -1,18 +1,18 @@
 obj=vehicle
-name=Zeppelin_LZ127_GrafZeppelin_Mail
+name=zeppelin-lz127-mail
 copyright=Milko
 waytype=air
 engine_type=petrol
-# max speed 110km/h
-speed=90
+# Normal operational speed. The maximum speed was 128km/h
+speed=117
 # 5x530CV=1961kW max, SHP=0,9*kW
 power=1765
 tractive_effort=52
-#gear=1
 freight=Post
 
 # payload 15t
-payload=12000
+payload[0]=0
+payload[1]=12000
 
 # dead-weight = 150.000lb
 # The realistic weight does not work with contemporary grass runways/taxiways.
@@ -37,7 +37,8 @@ minimum_runway_length=0
 
 # Not sure that this sound is appropriate here.
 #sound=planelow.wav
-range=1400
+# Guessed
+range=12000
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

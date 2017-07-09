@@ -188,9 +188,9 @@ bac-1-11-200
 BAC One-eleven 200 Series
 bac-1-11-500
 BAC One-eleven 500 Series	
-Vickers Viscount 757 (Cambrian)
-Vickers Viscount 757 Series
-Vickers Viscount 802 (BEA)
+vickers-vc2-viscount-757
+Vickers VC-2 Viscount Type 757
+vickers-vc2-viscount-802
 Vickers Viscount 802 Series
 vickers-vanguard-952
 Vickers Vanguard 952
@@ -204,8 +204,12 @@ vickers-vanguard-953-cool
 Vickers Vanguard 953 "Merchantman" (perishable goods)
 vickers-vc10
 Vickers VC-10
+vickers-vc10-high-density
+Vickers VC-10 (high density)
 vickers-super-vc10
 Vickers Super VC-10
+vickers-super-vc10-high-density
+Vickers Super VC-10 (high density)
 convair-cv880
 Convair 880
 convair-cv880-high-density
@@ -226,12 +230,20 @@ lockheed-orion-mail
 Lockheed Orion (mail)
 lockheed-l049-constellation
 Lockheed L-049 Constellation
+lockheed-l049-constellation-high-density
+Lockheed L-049 Constellation (high density)
 lockheed-l1049-c-super-constellation
 Lockheed L-1049C Super Constellation
+lockheed-l1049-c-super-constellation-high-density
+Lockheed L-1049C Super Constellation (high density)
 lockheed-l1049-g-super-constellation
 Lockheed L-1049G Super Constellation
+lockheed-l1049-g-super-constellation-high-density
+Lockheed L-1049G Super Constellation (high density)
 lockheed-l1649-starliner
 Lockheed L-1649A Starliner
+lockheed-l1649-starliner-high-density
+Lockheed L-1649A Starliner (high density)
 lockheed-electra-l188
 Lockheed L-188A Electra
 lockheed-electra-l188-high-density
@@ -242,10 +254,16 @@ lockheed-electra-l188-c-high-density
 Lockheed L-188C Electra (high density)
 tristar-1
 Lockheed L-1011-1 Tristar
+tristar-1-high-density
+Lockheed L-1011-1 Tristar (high density)
 tristar-200
 Lockheed L-1011-200 Tristar
+tristar-200-high-density
+Lockheed L-1011-200 Tristar (high density)
 tristar-500
 Lockheed L-1011-500 Tristar
+tristar-500-high-density
+Lockheed L-1011-500 Tristar (high density)
 boeing-247
 Boeing 247
 boeing-247-mail
@@ -366,16 +384,18 @@ boeing-787-10
 Boeing 787-10 "Dreamliner"
 aerospatiale-bac-concorde
 Aerospatiale/BAC Concorde
-Zeppelin_LZ127_GrafZeppelin
+zeppelin-lz127
 Graf Zeppelin LZ 127
-Zeppelin_LZ127_GrafZeppelin_Mail
+zeppelin-lz127-mail
 Graf Zeppelin LZ 127 (mail)
 Zeppelin_LZ10
 Zeppelin LZ 10 "Schwaben"
 Zeppelin_LZ10_Mail
 Zeppelin LZ 10 "Schwaben" (mail)
-Zeppelin_LZ6
+zeppelin-lz6
 Zeppelin LZ 6
+zeppelin-lz-129
+Graf Zeppelin LZ 129 "Hindenburg"
 HandleyPageO400
 Handley Page O/400
 HandleyPageO400_Mail
@@ -450,7 +470,7 @@ bristol-type-170-cool
 Bristol Type 170 Mk32 (perishable goods)
 bristol-britannia
 Bristol Britannia
-Vickers_VC1b_Viking_AirFerry
+vickers-vc1b-viking
 Vickers Viking VC1b
 MailMonoPlane
 Mail Mono Plane
