@@ -8,7 +8,11 @@ copyright=SketchVC10 and Garza Industries
 # https://3dwarehouse.sketchup.com/model/u93d3025b-2bb0-44ea-9eda-e85c1efd272c/BEA-Hawker-Siddeley-Tident-2E-1964
 waytype=air
 engine_type=turbine
-speed=937
+# The real economical cruising speed is hard to find.
+# Wikipedia has the "crusing speed" as 937km/h, but this is the maximum cruising speed, not the economical
+# cruising speed. The below speed is therefore the maximum cruising speed multiplied by the ratio of the
+# Boeing 707's economical cruising speed to its maximum cruising speed (slightly above 0.9). 
+speed=848
 power=24080
 tractive_effort=138
 #gear=1
@@ -84,7 +88,11 @@ copyright=SketchVC10 and Garza Industries
 # https://3dwarehouse.sketchup.com/model/u93d3025b-2bb0-44ea-9eda-e85c1efd272c/BEA-Hawker-Siddeley-Tident-2E-1964
 waytype=air
 engine_type=turbine
-speed=937
+# The real economical cruising speed is hard to find.
+# Wikipedia has the "crusing speed" as 937km/h, but this is the maximum cruising speed, not the economical
+# cruising speed. The below speed is therefore the maximum cruising speed multiplied by the ratio of the
+# Boeing 707's economical cruising speed to its maximum cruising speed (slightly above 0.9). 
+speed=848
 power=24080
 tractive_effort=138
 #gear=1

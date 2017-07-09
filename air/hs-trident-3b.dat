@@ -7,7 +7,11 @@ copyright=SketchVC10, Airbus A330 and Tristar
 # https://3dwarehouse.sketchup.com/model/42afceb5cd90d5b87697d3904b168b/British-European-Airways-Trident-3B-1966
 waytype=air
 engine_type=turbine
-speed=917
+# The real economical cruising speed is hard to find.
+# Wikipedia has the "crusing speed" as 937km/h, but this is the maximum cruising speed, not the economical
+# cruising speed. The below speed is therefore the maximum cruising speed multiplied by the ratio of the
+# Boeing 707's economical cruising speed to its maximum cruising speed (slightly above 0.9). 
+speed=830
 power=27849
 # Figure below given with booster
 tractive_effort=182
@@ -94,7 +98,11 @@ copyright=SketchVC10, Airbus A330 and Tristar
 # https://3dwarehouse.sketchup.com/model/42afceb5cd90d5b87697d3904b168b/British-European-Airways-Trident-3B-1966
 waytype=air
 engine_type=turbine
-speed=917
+# The real economical cruising speed is hard to find.
+# Wikipedia has the "crusing speed" as 937km/h, but this is the maximum cruising speed, not the economical
+# cruising speed. The below speed is therefore the maximum cruising speed multiplied by the ratio of the
+# Boeing 707's economical cruising speed to its maximum cruising speed (slightly above 0.9). 
+speed=830
 power=27849
 # Figure below given with booster
 tractive_effort=182

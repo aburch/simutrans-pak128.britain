@@ -1,5 +1,6 @@
 # https://en.wikipedia.org/wiki/Boeing_707
 # http://www.airliners.net/aircraft-data/stats.main?id=87
+# This is *not* the 120B - that had turbofan engines.
 obj=vehicle
 name=Boeing_707_120
 copyright=Milko/jamespetts
@@ -23,7 +24,7 @@ upgrade_price=5000
 # Turbojets are less fuel efficient than turbofans.
 runningcost=3850
 intro_year=1958
-intro_month=8
+intro_month=10
 retire_year=1960
 retire_month=5
 
@@ -104,7 +105,7 @@ upgrade_price=5000
 # Turbojets are less fuel efficient than turbofans.
 runningcost=3850
 intro_year=1958
-intro_month=8
+intro_month=10
 retire_year=1960
 retire_month=5
 
