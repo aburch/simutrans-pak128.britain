@@ -1857,9 +1857,6 @@
   <ItemGroup>
     <Text Include="sound\credits.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="bus\Source.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
