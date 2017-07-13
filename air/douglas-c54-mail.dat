@@ -7,12 +7,9 @@ speed=365
 power=3760
 tractive_effort=28
 freight=Post
-#payload=11.0t
-#extended
+#capacity: 11.0t
 payload[0]=0
 payload[1]=11000
-#standard
-#payload=220
 weight=22.1
 #length=8
 cost=8000000

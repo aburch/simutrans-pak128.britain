@@ -7,7 +7,7 @@ speed=851
 power=38520
 tractive_effort=214
 freight=Post
-#payload: 19.2t
+#capacity: 19.2t
 payload[0]=0
 payload[1]=19200
 weight=57
@@ -41,4 +41,3 @@ EmptyImage[W]=../images/Boeing_727_200_DHL_Yellow.0.6,-31,-46
 EmptyImage[NW]=../images/Boeing_727_200_DHL_Yellow.0.5,-31,-46
 EmptyImage[N]=../images/Boeing_727_200_DHL_Yellow.0.4,-31,-46
 EmptyImage[NE]=../images/Boeing_727_200_DHL_Yellow.0.3,-31,-46
----
