@@ -154,48 +154,6 @@ range_commuting_tolerance = 120
 random_mode_commuting = 2
 random_mode_visiting = 5
 
-# Settings for calibrating the revenue system
-#
-# These settings calibrate the way in which revenue is calculated in the game. Changing
-# them might make the game easier or harder, or, if they are changed in odd ways, make it
-# behave eratically. Make sure to know what you are doing before changing these values.
-
-# These settings calibrate the speed bonus. Note that, with Simutrans-Extended, unlike
-# Simutrans-Standard, the speed bonus is based on the convoy or line's *average* speed between
-# any two given stops, not the convoy's overall maximum speed. 
-#
-# All distances in these settings are measured in kilometres and calibrated using the
-# meters_per_tile setting.
-#
-# min_bonus_max_distance is the distance below which the speed bonus (or penalty) does not
-# apply. Below this distance, goods pay the same no matter what the average speed.
-#
-# median_bonus_distance is the distance at which 100% of the speed bonus/penalty applies. 
-# At anything between min_bonus_max_distance and median_bonus_distance, a scaled proportion
-# of the speed bonus applies. For example, if the min_bonus_max_distance was 10, and the 
-# median_bonus_distance was 110, then, for a journey of 50 tiles, 50% of the speed bonus or
-# penalty would apply. median_bonus_distance is optional: if it is not specified, or set to
-# 0, it will be calculated as the mid point between min_bonus_max_distance and
-# max_bonus_min_distance.
-#
-# max_bonus_min_distance is the distance above which the rate of the speed bonus increases
-# no further. In other words, the rate of the speed bonus (or penalty) keeps increasing with
-# the distance, until it reaches the max_bonus_min_distance, after which it remains steady.
-#
-# max_bonus_multiplier_percent is the percentage of the speed bonus that applies at or above
-# the distance specified in max_bonus_min_distance. So, if the speed bonus rating was 10%, the
-# distance exceeded the max_bonus_min_distance value, and the max_bonus_multiplier_percent was
-# set to 200, the speed bonus rating would effectively be 20% for that journey.
-# Between the median_bonus_distance and the max_bonus_min_distance, a scaled proportion applies.
-# So, if, for example, the median_bonus_distance was 100, the max_bonus_min_distance was 1,100
-# the actual distance 500, and the max_bonus_multiplier_percent 200, the speed bonus rating
-# would be increased by half of the multiplier, or 150%.
-
-min_bonus_max_distance = 1
-median_bonus_distance = 160
-max_bonus_min_distance = 1000
-max_bonus_multiplier_percent = 50
-
 # meters_per_tile represents the length of each tile in meters. 
 # The default is 250.
 #
@@ -208,8 +166,8 @@ max_bonus_multiplier_percent = 50
 
 meters_per_tile = 125
 
-# These next settings affect the interaction between comfort and revenue in Simutrans. Comfort only
-# affects passenger traffic, for obvious reasons. Passengers have a certain level of comfort that
+# These next settings affect the interaction between comfort and revenue. Comfort only
+# affects passenger traffic. Passengers have a certain level of comfort that
 # they will tolerate for certain distances. All comfort ratings are in the range of between 0 and
 # 255. At the tolerable level, the revnue is unaffected. At above the tolerable level, a luxury
 # bonus is applied. At below the tolerable level, a discomfort penalty is applied. The values can
@@ -354,6 +312,9 @@ congestion_density_factor = 141
 # This is also subject to a maximum of thrice the estimated journey time for the
 # whole journey, except where thrice the estimated journty time is less than 1/12th
 # of this value.
+#
+# The speed bonus system has been deprecated, so the relationship to that is
+# likely to change shortly.
 
 passenger_max_wait = 19440
 
@@ -712,16 +673,6 @@ parallel_ways_forge_cost_percentage_air = 85
 interest_rate_percent = 10
 allow_bankruptcy = 1
 allow_purchases_when_insolvent = 0	
-
-# This is a compatibility setting for Simutrans-Standard. Because, in
-# Simutrans-Standard, the speed bonus data (in speedbonus.tab) are based on the
-# *maximum*, rather than the *average* speed of the vehicles, the speeds in
-# speedbonus.tab will be too high. Use this setting to reduce them if playing 
-# with an incompatible pakset. For paksets produced with Simutrans-Standard in
-# mind, the setting should be somewhere between 40-50. For compatible paksets,
-# the setting should be 100. 
-
-speed_bonus_multiplier_percent=100
 
 # These settings determine the population, visitor demand, jobs and mail per "level" of building.
 # Each of these things can be set independently in the buildings' .dat files, but for older paksets
