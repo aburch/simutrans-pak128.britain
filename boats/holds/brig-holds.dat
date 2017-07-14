@@ -1,4 +1,4 @@
-#Pax
+# Steerage
 obj=vehicle
 name=BrigAddPax
 copyright=James
@@ -6,13 +6,14 @@ waytype=water
 engine_type=sail
 speed=15
 freight=Passagiere
-payload=25
+payload[0]=25
 intro_year=1700
 intro_month=1
 retire_year=1880
 retire_month=9
 
-comfort=48
+comfort[0]=80
+catering_level=3
 # 45-90 minutes
 min_loading_time=2700
 max_loading_time=5400
@@ -30,6 +31,7 @@ Constraint[Prev][4]=BrigAddCool
 Constraint[Prev][5]=BrigAddLong
 Constraint[Prev][6]=BrigAddLivestock
 Constraint[Prev][7]=BrigAddPax
+Constraint[Prev][8]=BrigAddPax-first-class
 
 Constraint[Next][0]=BrigAddPax
 Constraint[Next][1]=BrigAddBulk
@@ -38,7 +40,74 @@ Constraint[Next][3]=BrigAddPiece
 Constraint[Next][4]=BrigAddCool
 Constraint[Next][5]=BrigAddLong
 Constraint[Next][6]=BrigAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=BrigAddPax-first-class
+Constraint[Next][8]=none
+
+EmptyImage[E]=../images/holds.0.0,40,56
+EmptyImage[SE]=../images/holds.0.0,48,40
+EmptyImage[S]=../images/holds.0.0,48,48
+EmptyImage[SW]=../images/holds.0.0,64,64
+EmptyImage[W]=../images/holds.0.0,64,32
+EmptyImage[NW]=../images/holds.0.0,48,40
+EmptyImage[N]=../images/holds.0.0,56,48
+EmptyImage[NE]=../images/holds.0.0,64,48
+
+FreightImage[E]=../images/holds.1.0,40,56
+FreightImage[SE]=../images/holds.1.0,48,40
+FreightImage[S]=../images/holds.1.0,48,48
+FreightImage[SW]=../images/holds.1.0,64,64
+FreightImage[W]=../images/holds.1.0,64,32
+FreightImage[NW]=../images/holds.1.0,48,40
+FreightImage[N]=../images/holds.1.0,56,48
+FreightImage[NE]=../images/holds.1.0,64,48
+---
+obj=vehicle
+name=BrigAddPax-first-class
+copyright=James
+waytype=water
+engine_type=sail
+speed=15
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=5
+intro_year=1700
+intro_month=1
+retire_year=1880
+retire_month=9
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=159
+catering_level=3
+# 45-90 minutes
+min_loading_time=2700
+max_loading_time=5400
+
+length=1
+
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
+Constraint[Prev][0]=BrigHull
+Constraint[Prev][1]=BrigAddBulk
+Constraint[Prev][2]=BrigAddMail
+Constraint[Prev][3]=BrigAddPiece
+Constraint[Prev][4]=BrigAddCool
+Constraint[Prev][5]=BrigAddLong
+Constraint[Prev][6]=BrigAddLivestock
+Constraint[Prev][7]=BrigAddPax
+Constraint[Prev][8]=BrigAddPax-first-class
+
+Constraint[Next][0]=BrigAddPax
+Constraint[Next][1]=BrigAddBulk
+Constraint[Next][2]=BrigAddMail
+Constraint[Next][3]=BrigAddPiece
+Constraint[Next][4]=BrigAddCool
+Constraint[Next][5]=BrigAddLong
+Constraint[Next][6]=BrigAddLivestock
+Constraint[Next][7]=BrigAddPax-first-class
+Constraint[Next][8]=none
 
 EmptyImage[E]=../images/holds.0.0,40,56
 EmptyImage[SE]=../images/holds.0.0,48,40

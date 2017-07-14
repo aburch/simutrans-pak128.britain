@@ -6,7 +6,8 @@ engine_type=diesel
 speed=16
 power=100
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 weight=69
 length=13
 cost=62000000
@@ -17,7 +18,8 @@ retire_year=1986
 retire_month=7
 is_tall=1
 
-comfort=82
+comfort[0]=0
+comfort[1]=82
 # 5-10 minutes
 min_loading_time=300
 max_loading_time=600

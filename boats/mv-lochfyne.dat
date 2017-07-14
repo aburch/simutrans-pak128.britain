@@ -8,7 +8,8 @@ sound=ship-horn_b.wav
 speed=30
 power=783
 freight=Passagiere
-payload=1200
+payload[0]=0
+payload[1]=1200
 weight=400
 length=12
 cost=85000000
@@ -22,7 +23,8 @@ intro_month=3
 is_tall=1
 
 # Comfort adversely affected by vibrations
-comfort=99
+comfort[0]=0
+comfort[1]=99
 catering_level=2
 # 20-30 minutes
 min_loading_time=1200

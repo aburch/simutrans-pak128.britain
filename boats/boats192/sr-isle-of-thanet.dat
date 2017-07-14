@@ -11,7 +11,8 @@ power=6340
 weight=853
 length=10
 freight=Passagiere
-payload=1400
+payload[0]=0
+payload[1]=1400
 cost=80000000
 runningcost=1550
 intro_year=1925
@@ -20,7 +21,8 @@ retire_year=1939
 retire_month=6
 is_tall=1
 
-comfort=145
+comfort[0]=0
+comfort[1]=145
 catering_level=4
 # 40-60 minutes
 min_loading_time=2400

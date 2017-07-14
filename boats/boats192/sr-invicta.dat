@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/SS_Invicta_(1939)
 obj=vehicle
 name=SRInvicta
 copyright=James
@@ -7,20 +8,21 @@ smoke=Steam
 sound=ship-horn_a.wav
 speed=41
 power=8200
-#gear=400
 weight=1982
 length=10
 freight=Passagiere
-payload=1304
+payload[0]=0
+payload[1]=1304
 cost=84500000
 runningcost=1500
-intro_year=1939
+intro_year=1940
 intro_month=6
 retire_year=1952
 retire_month=8
 is_tall=1
 
-comfort=154
+comfort[0]=0
+comfort[1]=154
 catering_level=4
 # 40-60 minutes
 min_loading_time=2400
@@ -54,4 +56,3 @@ EmptyImage[W][1]=../images/sr-invicta-sealink.1.4,-20,-30
 EmptyImage[NW][1]=../images/sr-invicta-sealink.1.5,-20,-30
 EmptyImage[N][1]=../images/sr-invicta-sealink.1.6,-20,-30
 EmptyImage[NE][1]=../images/sr-invicta-sealink.1.7,-20,-30
----

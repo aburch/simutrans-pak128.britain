@@ -6919,7 +6919,11 @@ Fastcat class catamaran
 ClipperHull
 Clipper (hull)
 ClipperAddPax
-Clipper passenger berths
+Clipper steerage deck
+ClipperAddPax-second-class
+Clipper second class passenger cabins
+ClipperAddPax-first-class
+Clipper first class passenger cabins
 ClipperAddMail
 Clipper mail hold
 ClipperAddPiece
@@ -6935,7 +6939,9 @@ Clipper livestock hold
 BrigHull
 Brig (hull)
 BrigAddPax
-Brig passenger berths
+Brig steerage deck
+BrigAddPax
+Brig passenger cabins
 BrigAddMail
 Brig mail hold
 BrigAddPiece
@@ -6967,7 +6973,11 @@ Schooner livestock hold
 EastIndiamanHull
 East Indiaman (hull)
 EastIndiamanAddPax
-East Indiaman passenger berths
+East Indiaman steerage deck
+EastIndiamanAddPax-second-class
+East Indiaman second class passenger cabins
+EastIndiamanAddPax-first-class
+East Indiaman first class passenger cabins
 EastIndiamanAddMail
 East Indiaman mail hold
 EastIndiamanAddPiece
@@ -6983,7 +6993,11 @@ East Indiaman livestock hold
 BlackwallFrigateHull
 Blackwall Frigate (hull)
 BlackwallFrigateAddPax
-Blackwall Frigate passenger berths
+Blackwall Frigate steerage deck
+BlackwallFrigateAddPax-second-class
+Blackwall Frigate second class passenger cabins
+BlackwallFrigateAddPax-first-class
+Blackwall Frigate first class passenger cabins
 BlackwallFrigateAddMail
 Blackwall Frigate mail hold
 BlackwallFrigateAddPiece

@@ -25,6 +25,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+
 Constraint[Prev][0]=none
 
 EmptyImage[E]=../images/clipper.1.0,-31,-46
@@ -35,4 +38,3 @@ EmptyImage[W]=../images/clipper.1.4,-31,-46
 EmptyImage[NW]=../images/clipper.1.5,-31,-46
 EmptyImage[N]=../images/clipper.1.6,-31,-46
 EmptyImage[NE]=../images/clipper.1.7,-31,-46
--------------

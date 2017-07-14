@@ -8,7 +8,8 @@ sound=ship-horn_b.wav
 speed=26
 power=1000
 freight=Passagiere
-payload=450
+payload[0]=0
+payload[1]=450
 weight=320
 length=12
 cost=44928000
@@ -26,7 +27,8 @@ max_loading_time=1400
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-comfort=80
+comfort[0]=0
+comfort[1]=80
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

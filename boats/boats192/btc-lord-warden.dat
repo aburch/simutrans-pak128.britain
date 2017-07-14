@@ -7,7 +7,6 @@ smoke=Steam
 sound=ship-horn_a.wav
 speed=36
 power=11900
-#gear=400
 weight=6500
 length=10
 freight=Passagiere
@@ -26,15 +25,15 @@ catering_level=4
 min_loading_time=2400
 max_loading_time=3600
 
-liverytype[0]=BTC
-liverytype[1]=BR-ferries
-
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=BTCLordWardenAddMail
 Constraint[Next][1]=BTCLordWardenAddPiece
 Constraint[Next][2]=BTCLordWardenAddCool
 Constraint[Prev][0]=none
+
+liverytype[0]=BTC
+liverytype[1]=BR-ferries
 
 EmptyImage[E][0]=../images/BTC-lord-warden.1.0,-20,-30
 EmptyImage[SE][0]=../images/BTC-lord-warden.1.1,-20,-30
@@ -53,4 +52,3 @@ EmptyImage[W][1]=../images/BTC-lord-warden-sealink.1.4,-20,-30
 EmptyImage[NW][1]=../images/BTC-lord-warden-sealink.1.5,-20,-30
 EmptyImage[N][1]=../images/BTC-lord-warden-sealink.1.6,-20,-30
 EmptyImage[NE][1]=../images/BTC-lord-warden-sealink.1.7,-20,-30
----

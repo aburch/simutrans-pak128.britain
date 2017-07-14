@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/SS_Great_Britain
 obj=vehicle
 name=SSGreatBritain
 copyright=James
@@ -7,9 +8,12 @@ smoke=Steam
 sound=ship-horn_a.wav
 speed=20
 power=1350
-#gear=1200
 freight=Passagiere
-payload=730
+payload[0]=600
+payload[1]=0
+payload[2]=80
+payload[3]=0
+payload[4]=30
 weight=750
 length=14
 cost=116188800
@@ -20,7 +24,11 @@ retire_year=1886
 retire_month=5
 is_tall=1
 
-comfort=195
+comfort[0]=101
+comfort[1]=0
+comfort[2]=195
+comfort[3]=0
+comfort[4]=202
 catering_level=4
 # 2-3 hours
 min_loading_time=7200

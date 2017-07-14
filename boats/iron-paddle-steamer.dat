@@ -8,7 +8,8 @@ sound=ship-horn_b.wav
 speed=22
 power=90
 freight=Passagiere
-payload=320
+payload[0]=0
+payload[1]=320
 weight=45
 length=8
 cost=15676416
@@ -19,7 +20,8 @@ retire_year=1873
 retire_month=6
 is_tall=1
 
-comfort=68
+comfort[0]=0
+comfort[1]=68
 # 30-45 minutes
 min_loading_time=2400
 max_loading_time=2700

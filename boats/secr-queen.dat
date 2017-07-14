@@ -7,12 +7,12 @@ smoke=Steam
 sound=ship-horn_a.wav
 speed=40
 power=4250
-#gear=400
 weight=800
 length=10
 cost=22500000
 freight=Passagiere
-payload=700
+payload[0]=0
+payload[1]=700
 runningcost=510
 intro_year=1903
 intro_month=4
@@ -20,7 +20,8 @@ retire_year=1925
 retire_month=1
 is_tall=1
 
-comfort=150
+comfort[0]=0
+comfort[1]=147
 catering_level=4
 # 40-60 minutes
 min_loading_time=2400
