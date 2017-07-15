@@ -156,6 +156,7 @@ Constraint[Prev][4]=BrigAddCool
 Constraint[Prev][5]=BrigAddLong
 Constraint[Prev][6]=BrigAddLivestock
 Constraint[Prev][7]=BrigAddPax
+Constraint[Prev][8]=BrigAddPax-first-class
 
 Constraint[Next][0]=BrigAddPax
 Constraint[Next][1]=BrigAddBulk
@@ -164,7 +165,8 @@ Constraint[Next][3]=BrigAddPiece
 Constraint[Next][4]=BrigAddCool
 Constraint[Next][5]=BrigAddLong
 Constraint[Next][6]=BrigAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=BrigAddPax-first-class
+Constraint[Next][8]=none
 
 EmptyImage[E]=../images/holds.0.1,40,56
 EmptyImage[SE]=../images/holds.0.1,48,40
@@ -213,6 +215,7 @@ Constraint[Prev][4]=BrigAddCool
 Constraint[Prev][5]=BrigAddLong
 Constraint[Prev][6]=BrigAddLivestock
 Constraint[Prev][7]=BrigAddPax
+Constraint[Prev][8]=BrigAddPax-first-class
 
 Constraint[Next][0]=BrigAddPax
 Constraint[Next][1]=BrigAddBulk
@@ -221,7 +224,8 @@ Constraint[Next][3]=BrigAddPiece
 Constraint[Next][4]=BrigAddCool
 Constraint[Next][5]=BrigAddLong
 Constraint[Next][6]=BrigAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=BrigAddPax-first-class
+Constraint[Next][8]=none
 
 EmptyImage[E]=../images/holds.0.2,40,56
 EmptyImage[SE]=../images/holds.0.2,48,40
@@ -311,6 +315,7 @@ Constraint[Prev][4]=BrigAddCool
 Constraint[Prev][5]=BrigAddLong
 Constraint[Prev][6]=BrigAddLivestock
 Constraint[Prev][7]=BrigAddPax
+Constraint[Prev][8]=BrigAddPax-first-class
 
 Constraint[Next][0]=BrigAddPax
 Constraint[Next][1]=BrigAddBulk
@@ -319,7 +324,8 @@ Constraint[Next][3]=BrigAddPiece
 Constraint[Next][4]=BrigAddCool
 Constraint[Next][5]=BrigAddLong
 Constraint[Next][6]=BrigAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=BrigAddPax-first-class
+Constraint[Next][8]=none
 
 EmptyImage[E]=../images/holds.1.4,40,56
 EmptyImage[SE]=../images/holds.1.4,48,40
@@ -379,6 +385,7 @@ Constraint[Prev][4]=BrigAddCool
 Constraint[Prev][5]=BrigAddLong
 Constraint[Prev][6]=BrigAddLivestock
 Constraint[Prev][7]=BrigAddPax
+Constraint[Prev][8]=BrigAddPax-first-class
 
 Constraint[Next][0]=BrigAddPax
 Constraint[Next][1]=BrigAddBulk
@@ -387,7 +394,8 @@ Constraint[Next][3]=BrigAddPiece
 Constraint[Next][4]=BrigAddCool
 Constraint[Next][5]=BrigAddLong
 Constraint[Next][6]=BrigAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=BrigAddPax-first-class
+Constraint[Next][8]=none
 
 EmptyImage[E]=../images/holds.0.7,40,56
 EmptyImage[SE]=../images/holds.0.7,48,40
@@ -436,6 +444,7 @@ Constraint[Prev][4]=BrigAddCool
 Constraint[Prev][5]=BrigAddLong
 Constraint[Prev][6]=BrigAddLivestock
 Constraint[Prev][7]=BrigAddPax
+Constraint[Prev][8]=BrigAddPax-first-class
 
 Constraint[Next][0]=BrigAddPax
 Constraint[Next][1]=BrigAddBulk
@@ -444,7 +453,8 @@ Constraint[Next][3]=BrigAddPiece
 Constraint[Next][4]=BrigAddCool
 Constraint[Next][5]=BrigAddLong
 Constraint[Next][6]=BrigAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=BrigAddPax-first-class
+Constraint[Next][8]=none
 
 EmptyImage[E]=../images/holds.0.6,40,56
 EmptyImage[SE]=../images/holds.0.6,48,40
@@ -493,6 +503,7 @@ Constraint[Prev][4]=BrigAddCool
 Constraint[Prev][5]=BrigAddLong
 Constraint[Prev][6]=BrigAddLivestock
 Constraint[Prev][7]=BrigAddPax
+Constraint[Prev][8]=BrigAddPax-first-class
 
 Constraint[Next][0]=BrigAddPax
 Constraint[Next][1]=BrigAddBulk
@@ -501,7 +512,8 @@ Constraint[Next][3]=BrigAddPiece
 Constraint[Next][4]=BrigAddCool
 Constraint[Next][5]=BrigAddLong
 Constraint[Next][6]=BrigAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=BrigAddPax-first-class
+Constraint[Next][8]=none
 
 EmptyImage[E]=../images/holds.0.8,40,56
 EmptyImage[SE]=../images/holds.0.8,48,40

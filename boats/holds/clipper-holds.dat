@@ -226,6 +226,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -234,7 +236,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.1,40,56
 EmptyImage[SE]=../images/holds.0.1,48,40
@@ -282,6 +286,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -290,7 +296,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.2,40,56
 EmptyImage[SE]=../images/holds.0.2,48,40
@@ -379,6 +387,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -387,7 +397,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.1.4,40,56
 EmptyImage[SE]=../images/holds.1.4,48,40
@@ -446,6 +458,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -454,7 +468,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.7,40,56
 EmptyImage[SE]=../images/holds.0.7,48,40
@@ -502,6 +518,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -510,7 +528,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.6,40,56
 EmptyImage[SE]=../images/holds.0.6,48,40
@@ -558,6 +578,8 @@ Constraint[Prev][4]=ClipperAddCool
 Constraint[Prev][5]=ClipperAddLong
 Constraint[Prev][6]=ClipperAddLivestock
 Constraint[Prev][7]=ClipperAddPax
+Constraint[Prev][8]=ClipperAddPax-second-class
+Constraint[Prev][9]=ClipperAddPax-first-class
 
 Constraint[Next][0]=ClipperAddPax
 Constraint[Next][1]=ClipperAddBulk
@@ -566,7 +588,9 @@ Constraint[Next][3]=ClipperAddPiece
 Constraint[Next][4]=ClipperAddCool
 Constraint[Next][5]=ClipperAddLong
 Constraint[Next][6]=ClipperAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=ClipperAddPax-second-class
+Constraint[Next][8]=ClipperAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.8,40,56
 EmptyImage[SE]=../images/holds.0.8,48,40

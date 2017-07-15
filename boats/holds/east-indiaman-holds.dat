@@ -226,6 +226,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -234,7 +236,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.1,80,40
 EmptyImage[SE]=../images/holds.0.1,48,32
@@ -282,6 +286,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -290,7 +296,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.2,80,40
 EmptyImage[SE]=../images/holds.0.2,48,32
@@ -379,6 +387,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -387,7 +397,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.1.4,80,40
 EmptyImage[SE]=../images/holds.1.4,48,32
@@ -446,6 +458,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -454,7 +468,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.7,80,40
 EmptyImage[SE]=../images/holds.0.7,48,32
@@ -502,6 +518,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -510,7 +528,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.6,80,40
 EmptyImage[SE]=../images/holds.0.6,48,32
@@ -559,6 +579,8 @@ Constraint[Prev][4]=EastIndiamanAddCool
 Constraint[Prev][5]=EastIndiamanAddLong
 Constraint[Prev][6]=EastIndiamanAddLivestock
 Constraint[Prev][7]=EastIndiamanAddPax
+Constraint[Prev][8]=EastIndiamanAddPax-second-class
+Constraint[Prev][9]=EastIndiamanAddPax-first-class
 
 Constraint[Next][0]=EastIndiamanAddPax
 Constraint[Next][1]=EastIndiamanAddBulk
@@ -567,7 +589,9 @@ Constraint[Next][3]=EastIndiamanAddPiece
 Constraint[Next][4]=EastIndiamanAddCool
 Constraint[Next][5]=EastIndiamanAddLong
 Constraint[Next][6]=EastIndiamanAddLivestock
-Constraint[Next][7]=none
+Constraint[Next][7]=EastIndiamanAddPax-second-class
+Constraint[Next][8]=EastIndiamanAddPax-first-class
+Constraint[Next][9]=none
 
 EmptyImage[E]=../images/holds.0.8,80,40
 EmptyImage[SE]=../images/holds.0.8,48,32
