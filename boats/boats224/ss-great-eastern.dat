@@ -37,14 +37,14 @@ max_loading_time=10800
 Constraint[Next][0]=SSGreatEasternAddMail
 Constraint[Prev][0]=none
 
-EmptyImage[E]=../images/ss-great-eastern.1.0,-31,-46
-EmptyImage[SE]=../images/ss-great-eastern.1.1,-31,-46
-EmptyImage[S]=../images/ss-great-eastern.1.2,-31,-46
-EmptyImage[SW]=../images/ss-great-eastern.1.3,-31,-46
-EmptyImage[W]=../images/ss-great-eastern.1.4,-31,-46
-EmptyImage[NW]=../images/ss-great-eastern.1.5,-31,-46
-EmptyImage[N]=../images/ss-great-eastern.1.6,-31,-46
-EmptyImage[NE]=../images/ss-great-eastern.1.7,-31,-46
+EmptyImage[E]=../images/ss-great-eastern_E.0.0,-31,-46
+EmptyImage[SE]=../images/ss-great-eastern_SE.0.0,-31,-46
+EmptyImage[S]=../images/ss-great-eastern_S.0.0,-31,-46
+EmptyImage[SW]=../images/ss-great-eastern_SW.0.0,-31,-46
+EmptyImage[W]=../images/ss-great-eastern_W.0.0,-31,-46
+EmptyImage[NW]=../images/ss-great-eastern_NW.0.0,-31,-46
+EmptyImage[N]=../images/ss-great-eastern_N.0.0,-31,-46
+EmptyImage[NE]=../images/ss-great-eastern_NE.0.0,-31,-46
 ----
 obj=vehicle
 name=SSGreatEasternAddMail

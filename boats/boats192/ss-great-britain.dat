@@ -39,14 +39,15 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=SSGreatBritainAddMail
 Constraint[Prev][0]=none
 
-EmptyImage[E]=../images/ss-great-britain.1.0,-31,-46
-EmptyImage[SE]=../images/ss-great-britain.1.1,-31,-46
-EmptyImage[S]=../images/ss-great-britain.1.2,-31,-46
-EmptyImage[SW]=../images/ss-great-britain.1.3,-31,-46
-EmptyImage[W]=../images/ss-great-britain.1.4,-31,-46
-EmptyImage[NW]=../images/ss-great-britain.1.5,-31,-46
-EmptyImage[N]=../images/ss-great-britain.1.6,-31,-46
-EmptyImage[NE]=../images/ss-great-britain.1.7,-31,-46
+EmptyImage[E]=../images/ss-great-britain_E.0.0,-31,-46
+EmptyImage[SE]=../images/ss-great-britain_SE.0.0,-31,-46
+EmptyImage[S]=../images/ss-great-britain_S.0.0,-31,-46
+EmptyImage[SW]=../images/ss-great-britain_SW.0.0,-31,-46
+EmptyImage[W]=../images/ss-great-britain_W.0.0,-31,-46
+EmptyImage[NW]=../images/ss-great-britain_NW.0.0,-31,-46
+EmptyImage[N]=../images/ss-great-britain_N.0.0,-31,-46
+EmptyImage[NE]=../images/ss-great-britain_NE.0.0,-31,-46
+
 ----
 obj=vehicle
 name=SSGreatBritainAddMail
