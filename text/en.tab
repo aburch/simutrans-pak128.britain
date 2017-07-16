@@ -3381,9 +3381,9 @@ BR-801MiddleTrolley
 BR Class 801 "Super Express" (centre trailer with trolley service)
 BR-801Rear
 BR Class 801 "Super Express" (rear)
-BR-142Front(Regional)
+br-142-front
 BR Class 142 "Pacer" DMU
-BR-142Rear(Regional)
+br-142-rear
 BR Class 142 "Pacer" DMU (rear)
 BR-456-DMSO
 BR Class 456 EMU (DMSO)
@@ -3753,11 +3753,11 @@ BR-491[TC]Buffet
 BR Class 491 "4-TC" trailer set (buffet)
 BR-491[TC]Rear
 BR Class 491 "4-TC" trailer set (rear)
-BR-158Front(Regional)
+br-158-front
 BR Class 158 "Express Sprinter" DMU 
-BR-158Middle(Regional)
+br-158-centre
 BR Class 158 "Express Sprinter" DMU (centre)
-BR-158Rear(Regional)
+br-158-rear
 BR Class 158 "Express Sprinter" DMU (rear)
 BR-303Front
 BR Class 303 EMU
@@ -3765,9 +3765,9 @@ BR-303Pantograph
 BR Class 303 EMU (pantograph)
 BR-303Rear
 BR Class 303 EMU (rear)
-BR-153(Regional)
+br-153
 BR Class 153 "Super-Sprinter" DMU
-BR-153-Trolley(Regional)
+br-153-trolley
 BR Class 153 "Super-Sprinter" DMU (with trolley service)
 BR-313Front
 BR Class 313 EMU
@@ -3821,17 +3821,17 @@ BR-321(motor)
 BR Class 321 EMU (motor)
 BR-321(rear)
 BR Class 321 EMU (rear)
-BR-156Front(Regional)
+br-156-front
 BR Class 156 "Super-Sprinter" DMU
-BR-156Front-Trolley(Regional)
+br-156-front-trolley
 BR Class 156 "Super-Sprinter" DMU (with trolley service)
-BR-156Rear(Regional)
+br-156-rear
 BR Class 156 "Super-Sprinter" DMU (rear)
-BR-150Front(Regional)
+br-150-front
 BR Class 150 "Sprinter" DMU
-BR-150Centre(Regional)
+br-150-centre
 BR Class 150 "Sprinter" DMU (centre)
-BR-150Rear(Regional)
+br-150-rear
 BR Class 150 "Sprinter" DMU (rear)
 NER-Tyneside-unit(front)
 NER Tyneside EMU
@@ -5011,11 +5011,11 @@ LMS-Stanier-4P-Tank
 LMS Class 4P 2-6-4T (Stanier design, 2 cylinders)
 LMS-Stanier-4P-Tank-3-cylinder
 LMS Class 4P 2-6-4T (Stanier design, 3 cylinders)
-BR-150Front(Regional)
+br-150-front
 BR Class 150 "Sprinter" DMU (front)
-BR-150Centre(Regional)
+br-150-centre
 BR Class 150 "Sprinter" DMU (centre)
-BR-150Rear(Regional)
+br-150-rear
 BR Class 150 "Sprinter" DMU (rear)
 BR-456-DMSO
 BR Class 456 EMU
