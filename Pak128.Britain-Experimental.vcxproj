@@ -1282,7 +1282,6 @@
     <None Include="bus\carts.dat" />
     <None Include="industry\cattle-farm.dat" />
     <None Include="industry\cement-works.dat" />
-    <None Include="..\doc\changelog.txt" />
     <None Include="industry\chemist.dat" />
     <None Include="trains\choc-cream-clerestory-brake.dat" />
     <None Include="trains\choc-cream-clerestory-dining.dat" />
@@ -1856,6 +1855,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="sound\credits.txt" />
+    <Text Include="text\streetlist_en.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
