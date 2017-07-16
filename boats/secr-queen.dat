@@ -32,12 +32,11 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Next][0]=SECRQueenAddMail
 Constraint[Prev][0]=none
 
-EmptyImage[E]=images/secr-queen.1.0
-EmptyImage[SE]=images/secr-queen.1.1
-EmptyImage[S]=images/secr-queen.1.2
-EmptyImage[SW]=images/secr-queen.1.3
-EmptyImage[W]=images/secr-queen.1.4
-EmptyImage[NW]=images/secr-queen.1.5
-EmptyImage[N]=images/secr-queen.1.6
-EmptyImage[NE]=images/secr-queen.1.7
----
+EmptyImage[E]=./images/secr-queen_E.0.0
+EmptyImage[SE]=./images/secr-queen_SE.0.0
+EmptyImage[S]=./images/secr-queen_S.0.0
+EmptyImage[SW]=./images/secr-queen_SW.0.0
+EmptyImage[W]=./images/secr-queen_W.0.0
+EmptyImage[NW]=./images/secr-queen_NW.0.0
+EmptyImage[N]=./images/secr-queen_N.0.0
+EmptyImage[NE]=./images/secr-queen_NE.0.0
