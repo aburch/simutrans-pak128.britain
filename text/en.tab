@@ -2752,11 +2752,7 @@ BR Class 370 APT (rear power unit)
 BR-373FrontCab
 BR Class 373 "Eurostar"
 BR-373RearCab
-BR Class 373 "Eurostar" (rear cab)
-BR-251Front
-BR Class 251 "Blue Pullman"
-BR-251Rear
-BR Class 251 "Blue Pullman" (rear cab)
+BR Class 373 "Eurostar" (rear)
 BR-442-Front
 BR Class 442 "Wessex Electric" (driving trailer - front)
 BR-442-Middle1
@@ -2913,9 +2909,9 @@ LBSCR-6Wheel-fruit-and-milk-van
 LBSCR six wheel fruit and milk van
 BR-370Restaurant(IC)
 BR Class 370 APT (restaurant)
-BR-220Rear(Virgin)
+BR-220Rear
 BR Class 220 "Voyager" (rear)
-BR-221Rear(Virgin)
+BR-221Rear
 BR Class 221 "Super Voyager" (rear)
 BR-370Buffet(IC)
 BR Class 370 APT (buffet)
@@ -3225,15 +3221,23 @@ MR-54ft-eliptical-non-lav-brake-rear-d1246
 Midland six compartment brake carriage (rear)
 MR-65ft-eliptical-dining-d1196
 Midland dining carriage
-BR-251SecondParlourFront
-BR Class 251 "Blue Pullman" (2nd class front parlour)
-BR-251SecondParlourRear
+BR-251FrontFirst
+BR Class 251 "Blue Pullman" (first class driving motor)
+BR-251FrontSecond
+BR Class 251 "Blue Pullman" (second class driving motor)
+BR-251SecondParlour
+BR Class 251 "Blue Pullman" (second class parlour)
+BR-251Kitchen
 BR Class 251 "Blue Pullman" (kitchen car)
 BR-251FirstParlour
-BR Class 251 "Blue Pullman" (1st class parlour)
-BR-220Front(Virgin)
+BR Class 251 "Blue Pullman" (first class parlour)
+BR-251RearFirst
+BR Class 251 "Blue Pullman" (first class rear motor)
+BR-251RearSecond
+BR Class 251 "Blue Pullman" (second class rear motor)
+BR-220Front
 BR Class 220 "Voyager"
-BR-221Front(Virgin)
+BR-221Front
 BR Class 221 "Super Voyager"
 GWR-ParkRoyal-Railcar
 GWR Park Royal Railcar
@@ -3355,13 +3359,13 @@ BR-175Middle
 BR Class 175 "Coradia" DMU (centre)
 BR-175Middle-trolley
 BR Class 175 "Coradia" DMU (centre, with trolley service)
-BR-220Middle(Virgin)
+BR-220Middle
 BR Class 220 "Voyager" (centre)
-BR-220Middle-shop(Virgin)
+BR-220Middle-shop
 BR Class 220 "Voyager" (centre with shop)
-BR-221Middle(Virgin)
+BR-221Middle
 BR Class 221 "Super Voyager" (centre)
-BR-221Middle-shop(Virgin)
+BR-221Middle-shop
 BR Class 221 "Super Voyager" (centre with shop)
 BR-800Front
 BR Class 800 "Super Express"
