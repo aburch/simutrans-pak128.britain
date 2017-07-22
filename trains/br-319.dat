@@ -1,33 +1,32 @@
 obj=vehicle
-name=BR-321(front)
+name=BR-319Front
 engine_type=electric
 speed=160
 power=0
 copyright=Kieron
-intro_year=1988
-intro_month=1
+intro_year=1987
+intro_month=7
 retire_year=1994
 retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=78
+payload[1]=81
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=62
 length=11
-brake_force=21
+brake_force=23
 rolling_resistance=13
 
-weight=29
+weight=30
 axles=4
-cost=1921000
-runningcost=47
+cost=2400000
+runningcost=50
 sound=video47-class-319.wav
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
@@ -36,30 +35,32 @@ comfort[1]=84
 comfort[2]=0
 comfort[3]=145
 
-Constraint[Prev][0]=BR-321(rear)
+Constraint[Prev][0]=BR-319Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-321(pantograph)
+Constraint[Next][0]=BR-319Pantograph
 
-EmptyImage[E]=./images/br-456-nse.0.0
-EmptyImage[SE]=./images/br-456-nse.0.1
-EmptyImage[S]=./images/br-456-nse.0.2
-EmptyImage[SW]=./images/br-456-nse.0.3
-EmptyImage[W]=./images/br-456-nse.0.4
-EmptyImage[NW]=./images/br-456-nse.0.5
-EmptyImage[N]=./images/br-456-nse.0.6
-EmptyImage[NE]=./images/br-456-nse.0.7
+liverytype[0]=NSE-Standard
 
-----
+EmptyImage[E][0]=./images/br-319-dtso-front-nse_E.0.0
+EmptyImage[SE][0]=./images/br-319-dtso-front-nse_SE.0.0
+EmptyImage[S][0]=./images/br-319-dtso-front-nse_S.0.0
+EmptyImage[SW][0]=./images/br-319-dtso-front-nse_SW.0.0
+EmptyImage[W][0]=./images/br-319-dtso-front-nse_W.0.0
+EmptyImage[NW][0]=./images/br-319-dtso-front-nse_NW.0.0
+EmptyImage[N][0]=./images/br-319-dtso-front-nse_N.0.0
+EmptyImage[NE][0]=./images/br-319-dtso-front-nse_NE.0.0
+
+---
 
 obj=vehicle
-name=BR-321(front-composite)
+name=BR-319FrontComposite
 engine_type=electric
 speed=160
 power=0
 copyright=Kieron
-intro_year=1988
-intro_month=1
+intro_year=1987
+intro_month=7
 retire_year=1994
 retire_month=2
 waytype=track
@@ -68,20 +69,19 @@ payload[0]=0
 payload[1]=56
 payload[2]=0
 payload[3]=16
-overcrowded_capacity=62
+overcrowded_capacity=55
 length=11
-brake_force=21
+brake_force=23
 rolling_resistance=13
 
-weight=29
+weight=30
 axles=4
-cost=1921000
-runningcost=47
+cost=2400000
+runningcost=50
 sound=video47-class-319.wav
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
@@ -90,10 +90,10 @@ comfort[1]=84
 comfort[2]=0
 comfort[3]=145
 
-Constraint[Prev][0]=BR-321(rear)
+Constraint[Prev][0]=BR-319Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-321(pantograph)
+Constraint[Next][0]=BR-319Pantograph
 
 liverytype[0]=NSE-Standard
 
@@ -106,16 +106,16 @@ EmptyImage[NW][0]=./images/br-319-dtco-front-nse_NW.0.0
 EmptyImage[N][0]=./images/br-319-dtco-front-nse_N.0.0
 EmptyImage[NE][0]=./images/br-319-dtco-front-nse_NE.0.0
 
-----
+---
 
 obj=vehicle
-name=BR-321(pantograph)
+name=BR-319Pantograph
 engine_type=electric
 speed=160
 power=0
 copyright=Kieron
-intro_year=1988
-intro_month=1
+intro_year=1987
+intro_month=7
 retire_year=1994
 retire_month=2
 waytype=track
@@ -126,17 +126,16 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=58
 length=11
-brake_force=21
+brake_force=38
 rolling_resistance=13
 
-weight=28
+weight=30
 axles=4
-cost=1921000
-runningcost=47
+cost=2400000
+runningcost=231
 
 can_lead_from_rear=0
 bidirectional=1
-way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
@@ -145,10 +144,10 @@ comfort[1]=84
 comfort[2]=0
 comfort[3]=145
 
-Constraint[Prev][0]=BR-321(front)
-Constraint[Prev][1]=BR-321(front-composite)
+Constraint[Prev][0]=BR-319Front
+Constraint[Prev][1]=BR-319FrontComposite
 
-Constraint[Next][0]=BR-321(motor)
+Constraint[Next][0]=BR-319Engine
 
 liverytype[0]=NSE-Standard
 
@@ -161,40 +160,38 @@ EmptyImage[NW][0]=./images/br-319-mso-nse_NW.0.0
 EmptyImage[N][0]=./images/br-319-mso-nse_N.0.0
 EmptyImage[NE][0]=./images/br-319-mso-nse_NE.0.0
 
-
 ---
 
 obj=vehicle
-name=BR-321(motor)
+name=BR-319Engine
 engine_type=electric
 speed=160
-power=996
+power=990
 tractive_effort=75
 gear=80
 copyright=Kieron
-intro_year=1988
-intro_month=1
+intro_year=1987
+intro_month=7
 retire_year=1994
 retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=74
+payload[1]=76
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=54
+overcrowded_capacity=58
 length=11
-brake_force=39
+brake_force=23
 rolling_resistance=13
 
-weight=52
+weight=51
 axles=4
-cost=2021000
-runningcost=220
+cost=2500000
+runningcost=30
 
 can_lead_from_rear=0
 bidirectional=1
-way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
@@ -203,9 +200,9 @@ comfort[1]=84
 comfort[2]=0
 comfort[3]=145
 
-Constraint[Prev][0]=BR-321(pantograph)
+Constraint[Prev][0]=BR-319Pantograph
 
-Constraint[Next][0]=BR-321(rear)
+Constraint[Next][0]=BR-319Rear
 
 liverytype[0]=NSE-Standard
 
@@ -221,13 +218,13 @@ EmptyImage[NE][0]=./images/br-319-tsol-nse_NE.0.0
 ---
 
 obj=vehicle
-name=BR-321(rear)
+name=BR-319Rear
 engine_type=electric
 speed=160
 power=0
 copyright=Kieron
-intro_year=1988
-intro_month=1
+intro_year=1987
+intro_month=7
 retire_year=1994
 retire_month=2
 waytype=track
@@ -236,20 +233,19 @@ payload[0]=0
 payload[1]=78
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=62
+overcrowded_capacity=79
 length=11
-brake_force=21
+brake_force=23
 rolling_resistance=13
 
-weight=29
+weight=30
 axles=4
-cost=1921000
-runningcost=47
+cost=2400000
+runningcost=50
 sound=video47-class-319.wav
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_permissive[2]=2
 
 min_loading_time=15
 max_loading_time=55
@@ -258,17 +254,19 @@ comfort[1]=84
 comfort[2]=0
 comfort[3]=145
 
-Constraint[Prev][0]=BR-321(motor)
+Constraint[Prev][0]=BR-319Engine
 
-Constraint[Next][0]=BR-321(front)
-Constraint[Next][1]=BR-321(front-composite)
+Constraint[Next][0]=BR-319Front
+Constraint[Next][1]=BR-319FrontComposite
 Constraint[Next][2]=none
 
-EmptyImage[E]=./images/br-456-nse.1.0
-EmptyImage[SE]=./images/br-456-nse.1.1
-EmptyImage[S]=./images/br-456-nse.1.2
-EmptyImage[SW]=./images/br-456-nse.1.3
-EmptyImage[W]=./images/br-456-nse.1.4
-EmptyImage[NW]=./images/br-456-nse.1.5
-EmptyImage[N]=./images/br-456-nse.1.6
-EmptyImage[NE]=./images/br-456-nse.1.7
+liverytype[0]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-319-dtso-rear-nse_E.0.0
+EmptyImage[SE][0]=./images/br-319-dtso-rear-nse_SE.0.0
+EmptyImage[S][0]=./images/br-319-dtso-rear-nse_S.0.0
+EmptyImage[SW][0]=./images/br-319-dtso-rear-nse_SW.0.0
+EmptyImage[W][0]=./images/br-319-dtso-rear-nse_W.0.0
+EmptyImage[NW][0]=./images/br-319-dtso-rear-nse_NW.0.0
+EmptyImage[N][0]=./images/br-319-dtso-rear-nse_N.0.0
+EmptyImage[NE][0]=./images/br-319-dtso-rear-nse_NE.0.0
