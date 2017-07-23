@@ -2745,10 +2745,6 @@ BR-Class91
 BR Class 91 "Electra"
 BR-Class92
 BR Class 92
-BR-370FrontPower(IC)
-BR Class 370 APT (front power unit)
-BR-370RearPower(IC)
-BR Class 370 APT (rear power unit)
 BR-373FrontCab
 BR Class 373 "Eurostar"
 BR-373RearCab
@@ -2907,14 +2903,30 @@ LBSCR-6Wheel-fast-freight-van
 LBSCR six wheel fast freight van
 LBSCR-6Wheel-fruit-and-milk-van
 LBSCR six wheel fruit and milk van
-BR-370Restaurant(IC)
-BR Class 370 APT (restaurant)
 BR-220Rear
 BR Class 220 "Voyager" (rear)
 BR-221Rear
 BR Class 221 "Super Voyager" (rear)
-BR-370Buffet(IC)
-BR Class 370 APT (buffet)
+BR-370FrontCab
+BR Class 370 APT
+BR-370TrailerSecond
+BR Class 370 APT (second class trailer)
+BR-370TrailerFirst
+BR Class 370 APT (first class trailer)
+BR-370BrakeFirstRear
+BR Class 370 APT (rear brake first)
+BR-370RearCab
+BR Class 370 APT (rear cab)
+BR-370FrontPower
+BR Class 370 APT (front power unit)
+BR-370RearPower
+BR Class 370 APT (rear power unit)
+BR-370BrakeFirstFront
+BR Class 370 APT (front brake first)
+BR-370RestaurantRear
+BR Class 370 APT (rear restaurant car)
+BR-370RestaurantFront
+BR Class 370 APT (front restaurant car)
 LMR-4Wheel-Open-Coach
 LMR four wheel carriage (open)
 LMR-4Wheel-Open-Brake
@@ -3311,12 +3323,6 @@ SR-6PAN(trailer4)
 SR 6-PAN EMU (centre)
 SR-6PAN(rear)
 SR 6-PAN EMU (rear)
-BR-370FrontCab(IC)
-BR Class 370 APT
-BR-370Coach(IC)
-BR Class 370 APT (centre)
-BR-370RearCab(IC)
-BR Class 370 APT (rear cab)
 BR-373FrontPower
 BR Class 373 "Eurostar" (front power)
 BR-373RearPower
@@ -3439,13 +3445,13 @@ BR-323Rear
 BR Class 323 EMU (rear)
 BR-323Middle
 BR Class 323 EMU (centre)
-BR-365Front(NSE)
+BR-365Front
 BR Class 365 "Networker Express" EMU
-BR-365Middle(NSE)
+BR-365Middle
 BR Class 365 "Networker Express" EMU (centre)
-BR-365Power(NSE)
+BR-365Power
 BR Class 365 "Networker Express" EMU (power)
-BR-365Rear(NSE)
+BR-365Rear
 BR Class 365 "Networker Express" EMU (rear)
 BR-375Front
 BR Class 375 "Electrostar" EMU
