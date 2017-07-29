@@ -82,9 +82,9 @@ max_small_city_size = 3000
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 1165
-growthfactor_cities = 720
-growthfactor_capitals = 420
+growthfactor_villages = 768
+growthfactor_cities = 480
+growthfactor_capitals = 240
 
 # Enable this to use the old algorithm for city growth from Standard.
 # NOTE: The renovation_percentage in cityrules.tab should be increased if this be done.
