@@ -2,7 +2,7 @@ Obj=building
 Name=COM_KG_1960_00_08
 copyright=Kieron
 type=com
-chance=75
+chance=25
 Level=8
 intro_year=1960
 retire_year=1980
@@ -23,7 +23,7 @@ Name=COM_A_1960_02_18
 # Archon Ugly Office Block #3
 copyright=Archon
 type=com
-chance=100
+chance=40
 Level=18
 intro_year=1960
 retire_year=1990
@@ -53,7 +53,7 @@ Name=COM_A_1960_02_24
 # Archon Ugly Office Block #3
 copyright=Archon
 type=com
-chance=100
+chance=40
 Level=24
 intro_year=1960
 retire_year=1990
