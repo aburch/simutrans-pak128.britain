@@ -6,14 +6,28 @@ retire_year=1840
 retire_month=10
 copyright=James
 level=2
-pax_level=5 
-passenger_demand = 3
-mail_demand = 1
+# Estimate 300 customers/day, x 3 (to take account of the relative size)
+# yields 900/day, / 16 hours * 6.4 hours = 360
+# Divide by 3 for meters/tile adjustment
+population_and_visitor_demand_capacity=120
+# Imagining a staff of 9 in each of 3 pubs (adjustment for size)
+employment_capacity=27
+mail_demand=7
+class_proportion[0]=80
+class_proportion[1]=100
+class_proportion[2]=90
+class_proportion[3]=75
+class_proportion[4]=15
 climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
 Location=city
 distributionweight=24
-Productivity=3
-Range=1
+# Consumption: each barrel is 36 gallons and each gallon is 8 pints.
+# Each pint is therefore 288 pints of beer/cider. Assuming that each
+# customer drinks 3 pints, that yields 96 customers per barrel
+# 360 customers/"month" / 96 customers per barrel = 3.75 barrels/month in total
+# Divide by 2/3rds to get figure adjusted for meters/tile
+Productivity=2
+# No range for consumer only industries with logistics
 passenger_boost=750
 mail_boost=250
 electricity_amount=0
@@ -53,24 +67,38 @@ retire_month=10
 copyright=James
 level=4
 pax_level=16  
-passenger_demand = 3
-mail_demand = 1
+# Estimate 500 customers/day, x 3 (to take account of the relative size)
+# yields 1500/day, / 16 hours * 6.4 hours = 600
+# Divide by 3 for meters/tile adjustment
+population_and_visitor_demand_capacity=200
+# Imagining a staff of 10 in each of 3 pubs (adjustment for size)
+employment_capacity=30
+mail_demand=13
+class_proportion[0]=95
+class_proportion[1]=100
+class_proportion[2]=90
+class_proportion[3]=65
+class_proportion[4]=15
 climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
 Location=city
 distributionweight=30
-Productivity=4
-Range=3
+# Consumption: each barrel is 36 gallons and each gallon is 8 pints.
+# Each pint is therefore 288 pints of beer/cider. Assuming that each
+# customer drinks 3 pints, that yields 96 customers per barrel
+# 600 customers/"month" / 96 customers per barrel = 6.25 barrels/month in total
+Productivity=6
+# No range for consumer only industries with logistics
 passenger_boost=750
 mail_boost=250
 electricity_amount=1
 electricity_boost=200
 MapColor=62
 InputGood[0]=beer
-InputCapacity[0]=30
+InputCapacity[0]=36
 InputFactor[0]=80  
 #InputSupplier[0]=1
 InputGood[1]=cider
-InputCapacity[1]=24 
+InputCapacity[1]=30 
 InputFactor[1]=100  
 #InputSupplier[1]=1
 needs_ground=1
