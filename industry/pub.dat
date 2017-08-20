@@ -8,8 +8,8 @@ copyright=James
 level=2
 # Estimate 300 customers/day, x 3 (to take account of the relative size)
 # yields 900/day, / 16 hours * 6.4 hours = 360
-# Divide by 3 for meters/tile adjustment
-population_and_visitor_demand_capacity=120
+# Divide by 2 for meters/tile adjustment
+population_and_visitor_demand_capacity=180
 # Imagining a staff of 9 in each of 3 pubs (adjustment for size)
 employment_capacity=27
 mail_demand=7
@@ -18,6 +18,11 @@ class_proportion[1]=100
 class_proportion[2]=90
 class_proportion[3]=75
 class_proportion[4]=15
+class_proportion_jobs[0]=50
+class_proportion_jobs[1]=40
+class_proportion_jobs[2]=10
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
 Location=city
 distributionweight=24
@@ -27,7 +32,7 @@ distributionweight=24
 # 360 customers/"month" / 96 customers per barrel = 3.75 barrels/month in total
 # Divide by 2/3rds to get figure adjusted for meters/tile
 Productivity=2
-# No range for consumer only industries with logistics
+range=1
 passenger_boost=750
 mail_boost=250
 electricity_amount=0
@@ -69,8 +74,8 @@ level=4
 pax_level=16  
 # Estimate 500 customers/day, x 3 (to take account of the relative size)
 # yields 1500/day, / 16 hours * 6.4 hours = 600
-# Divide by 3 for meters/tile adjustment
-population_and_visitor_demand_capacity=200
+# Divide by 2 for meters/tile adjustment
+population_and_visitor_demand_capacity=300
 # Imagining a staff of 10 in each of 3 pubs (adjustment for size)
 employment_capacity=30
 mail_demand=13
@@ -79,6 +84,11 @@ class_proportion[1]=100
 class_proportion[2]=90
 class_proportion[3]=65
 class_proportion[4]=15
+class_proportion_jobs[0]=50
+class_proportion_jobs[1]=40
+class_proportion_jobs[2]=10
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
 Location=city
 distributionweight=30
@@ -87,7 +97,7 @@ distributionweight=30
 # customer drinks 3 pints, that yields 96 customers per barrel
 # 600 customers/"month" / 96 customers per barrel = 6.25 barrels/month in total
 Productivity=6
-# No range for consumer only industries with logistics
+range=3
 passenger_boost=750
 mail_boost=250
 electricity_amount=1
