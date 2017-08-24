@@ -42,6 +42,7 @@
 # 21: Intermediate block distant signal
 # 22: Station signal, time interval
 # 23: Auxilliary/distant signal, time interval
+# 24: Three aspect permissive, track circuit block
 ---------------------------------------
 # RETB BOARD
 #--------------------------------------
@@ -1557,7 +1558,7 @@ max_distance_to_signalbox=0
 permissive=1
 signal_groups=5
 allow_underground=0
-upgrade_group=0
+upgrade_group=24
 is_signal=1
 intro_year=1920
 intro_month=4
@@ -3058,7 +3059,7 @@ max_distance_to_signalbox=0
 permissive=0
 signal_groups=5
 allow_underground=0
-upgrade_group=1
+upgrade_group=3
 is_signal=1
 intro_year=1902
 intro_month=8
@@ -3099,7 +3100,7 @@ max_distance_to_signalbox=0
 permissive=1
 signal_groups=5
 allow_underground=0
-upgrade_group=1
+upgrade_group=24
 is_signal=1
 intro_year=1902
 intro_month=8
