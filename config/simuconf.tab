@@ -127,7 +127,7 @@ min_alternative_destinations_per_job_millionths = 2500
 
 min_visiting_tolerance = 3
 range_visiting_tolerance = 5400
-min_commuting_tolerance = 20
+min_commuting_tolerance = 30
 range_commuting_tolerance = 120
 
 # The following settings determine the way in which individual packets of passengers decide

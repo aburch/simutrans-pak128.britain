@@ -29,7 +29,7 @@ InputFactor[0]=100
 #InputSupplier[0]=2  
 OutputGood[0]=flour
 OutputCapacity[0]=140 
-OutputFactor[0]=100  
+OutputFactor[0]=85
 
 expand_probability=10
 expand_minimum=10
@@ -99,7 +99,7 @@ InputFactor[0]=100
 #InputSupplier[0]=2  
 OutputGood[0]=flour
 OutputCapacity[0]=280 
-OutputFactor[0]=100  
+OutputFactor[0]=87  
 Dims=1,2,4
 
 expand_probability=10
@@ -170,7 +170,7 @@ InputFactor[0]=100
 #InputSupplier[0]=2  
 OutputGood[0]=flour
 OutputCapacity[0]=560 
-OutputFactor[0]=100  
+OutputFactor[0]=87  
 Dims=1,2,4
 
 expand_probability=10
@@ -242,7 +242,7 @@ InputFactor[0]=100
 #InputSupplier[0]=2  
 OutputGood[0]=flour
 OutputCapacity[0]=1120 
-OutputFactor[0]=100  
+OutputFactor[0]=87  
 
 expand_probability=10
 expand_minimum=8
@@ -295,7 +295,7 @@ InputFactor[0]=100
 #InputSupplier[0]=2  
 OutputGood[0]=flour
 OutputCapacity[0]=1015 
-OutputFactor[0]=100  
+OutputFactor[0]=90  
 
 expand_probability=10
 expand_minimum=12
