@@ -9,15 +9,20 @@
 #                                                                              #
 #                                   authors:                                   #
 #                            James Hood (The Hood)                             #
-#			    James Petts (jamespetts)			       #
+#							James Petts (jamespetts)						   #
 #                                                                              #
 ################################################################################
 #____________________________________Stop Names_________________________________
 #____________________________________Stop Names_________________________________
+# NOTE: These are numbered 0-9 and then A-Z.
 1center
 %s %s
 1extern
-%s Junction %s
+%s Road %s
+1outer
+%s Corner %s
+1suburb
+%s Village %s
 1nord
 %s North %s
 1nordost
@@ -36,42 +41,76 @@
 %s West %s
 2center
 %s Central %s
+2outer
+%s Park %s
+2suburb
+%s Fields %s
 2extern
-%s Road %s
+%s Junction %s
 3center
 %s Victoria %s
+3outer
+%s Broadway %s
+3suburb
+%s Greenfields %s
 3extern
 %s Fields %s
 4center
 %s Exchange %s
+4outer
+%s Street %s
+4suburb
+%s Copse %s
 4extern
 %s Heights %s
 5center
-%s City %s
+%s Town %s
+5outer
+%s Gate %s
+5suburb
+%s Hall %s
 5extern
 %s Rural %s
 6extern
 %s Woods %s
+6suburb
+%s Hill %s
+6outer
+%s New Town %s
 6center
 %s High Street %s
 7extern
 %s Brook %s
+7outer
+%s Green %s
 7center
 %s Piccadilly %s
+7suburb
+%s Lane %s
 8extern
 %s Meadow %s
+8outer
+%s Bridge %s
 9extern
 %s Stream %s
-10extern
+Aextern
 %s County %s
-11extern
+Bextern
 %s Marsh %s
-12extern
+Cextern
 %s Lake %s
-13extern
+Dextern
 %s Hollow %s
-14extern
+Eextern
 %s Sands %s
+Fextern
+%s Beeches %s
+Gextern
+%s Wood %s
+Hextern
+%s Heath %s
+Iextern
+%s Grove %s
 %s city %d %s
 %s City %d %s
 %s land %d %s
