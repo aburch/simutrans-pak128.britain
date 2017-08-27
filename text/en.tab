@@ -42,7 +42,7 @@
 2center
 %s Central %s
 2outer
-%s Park %s
+%s City %s
 2suburb
 %s Fields %s
 2extern
@@ -91,8 +91,16 @@
 %s Meadow %s
 8outer
 %s Bridge %s
+8suburb
+%s Ponds %s
+8center
+%s Square %s
 9extern
 %s Stream %s
+9suburb
+%s Bankside %s
+9outer
+%s Gardens %s
 Aextern
 %s County %s
 Bextern
@@ -111,6 +119,8 @@ Hextern
 %s Heath %s
 Iextern
 %s Grove %s
+Jextern
+%s Barns %s
 %s city %d %s
 %s City %d %s
 %s land %d %s
@@ -1016,7 +1026,7 @@ Warehouse
 IND_A_1750_00_10
 Workshop
 COM_A_1850_00_10
-The Swan Inn
+Beer House
 RES_A_1950_00_24
 Tower block
 RES_A_1950_00_28
@@ -1192,7 +1202,7 @@ Offices
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
 1980s-Small-Church
-Small Church
+Church
 1990s-Small-Library
 Library
 OldLibrary
@@ -1200,7 +1210,7 @@ Library
 Georgian_Mansion
 Manor house
 Greenhouse
-Greenhouse
+Botanical Gardens
 Large_Football_Ground
 Football stadium
 Small_Cricket_Ground
@@ -1212,7 +1222,7 @@ Rugby pitch
 Stonehenge
 Stonehenge
 Knight_Monument
-Monument of a Knight
+Chivalric Monument
 War_Memorial
 War Memorial
 NelsonColumn2
@@ -1222,19 +1232,19 @@ Fountain
 OldBrickSchool
 School
 LittlePark1870_1
-Small Park
+Park
 LittlePark1870_2
-Small Park
+Park
 Park1930_1
-Small Park
+Park
 Park1930_2
-Small Park
+Park
 SmallFountain
 Fountain
 BellTower
 Bell Tower
 OldTower
-Old Tower
+Tower
 CityCemetery
 Cemetery
 ParishChurchStMichaels
@@ -1270,7 +1280,7 @@ Castle
 Castle2
 Castle
 CastleKeep
-Castle Keep
+Castle
 Folly1
 Folly
 Folly2
@@ -1286,15 +1296,15 @@ Hospital
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
 ArableFarm1750
-Arable farm
+Vegetable farm
 ArableFarm1840
-Arable farm
+Vegetable farm
 ArableFarm1910
-Arable farm
+Vegetable farm
 ArableFarm1945
-Arable farm
+Vegetable farm
 ArableFarm1975
-Arable farm
+Vegetable farm
 Bakery1750
 Bakery
 Bakery1840
@@ -1732,11 +1742,11 @@ Printworks
 Printworks1970
 Printworks
 Pub1750
-Pub
+Tavern
 Pub1840
-Pub
+Public House
 Pub1910
-Pub
+Pubblic House
 Pub1945
 Pub
 Pub1975
