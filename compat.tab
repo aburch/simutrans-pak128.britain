@@ -24,9 +24,6 @@ OilPowerStation1970kraftwerk
 ### Replace Nelsons Column with 1x1 - replace in game with 1x1 fountain
 Nelson-Column
 Fountain
-# Standard industry changes not implemented #
-PaperMill1750
-PaperMill1860
 #
 ### Renaming of citybuildings to fit comaptibility checker convention
 A_COM_1750_00
@@ -1572,4 +1569,8 @@ Volvo-V70-Police
 Volvo-240-Estate(Brown)
 LondonTaxi-Lanchester
 FordPrefectEarly(Black)
-#
+################################ Industry amendments ##########################
+GrainMill1840
+GrainMill1820
+GrainMill1910
+GrainMill1880
