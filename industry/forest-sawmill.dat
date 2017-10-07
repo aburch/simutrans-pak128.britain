@@ -77,11 +77,35 @@ upgrade[1]=ForestSawmill1920
 --------------------
 Obj=field
 name=ForestTrees
-Image[0]=forest-trees-4.0
-Image[1]=forest-trees-4.0
-Image[2]=forest-trees-4.0
-Image[3]=forest-trees-4.0
-Image[4]=forest-trees-4.1
+Image[0]=forest-trees_S.0
+Image[1]=forest-trees_S.0
+Image[2]=forest-trees_S.0
+Image[3]=forest-trees_S.0
+Image[4]=forest-trees-snow_S.0
+---
+Obj=field
+name=ForestTrees-1
+Image[0]=forest-trees_E.0
+Image[1]=forest-trees_E.0
+Image[2]=forest-trees_E.0
+Image[3]=forest-trees_E.0
+Image[4]=forest-trees-snow_E.0
+---
+Obj=field
+name=ForestTrees-2
+Image[0]=forest-trees_N.0
+Image[1]=forest-trees_N.0
+Image[2]=forest-trees_N.0
+Image[3]=forest-trees_N.0
+Image[4]=forest-trees-snow_N.0
+---
+Obj=field
+name=ForestTrees-3
+Image[0]=forest-trees_W.0
+Image[1]=forest-trees_W.0
+Image[2]=forest-trees_W.0
+Image[3]=forest-trees_W.0
+Image[4]=forest-trees-snow_W.0
 --------------------
 Obj=factory
 name=ForestSawmill1850
@@ -147,6 +171,9 @@ BackImage[3][1][0][0][0][1]=forest-sawmill.5.0
 BackImage[3][1][1][0][0][1]=forest-sawmill.5.1
 
 fields[0]=ForestTrees
+fields[1]=ForestTrees-1
+fields[2]=ForestTrees-2
+fields[3]=ForestTrees-3
 probability_to_spawn=20
 production_per_field[0]=3
 max_fields=25
@@ -216,6 +243,9 @@ BackImage[3][1][0][0][0][1]=forest-sawmill.5.0
 BackImage[3][1][1][0][0][1]=forest-sawmill.5.1
 
 fields[0]=ForestTrees
+fields[1]=ForestTrees-1
+fields[2]=ForestTrees-2
+fields[3]=ForestTrees-3
 probability_to_spawn=20
 production_per_field[0]=5
 max_fields=48
@@ -288,6 +318,9 @@ BackImage[3][1][0][0][0][1]=forest-sawmill.5.0
 BackImage[3][1][1][0][0][1]=forest-sawmill.5.1
 
 fields[0]=ForestTrees
+fields[1]=ForestTrees-1
+fields[2]=ForestTrees-2
+fields[3]=ForestTrees-3
 probability_to_spawn=20
 production_per_field[0]=6
 max_fields=48
@@ -356,6 +389,9 @@ BackImage[3][1][0][0][0][1]=forest-sawmill.5.0
 BackImage[3][1][1][0][0][1]=forest-sawmill.5.1
 
 fields[0]=ForestTrees
+fields[1]=ForestTrees-1
+fields[2]=ForestTrees-2
+fields[3]=ForestTrees-3
 probability_to_spawn=20
 production_per_field[0]=7
 max_fields=40
