@@ -1,7 +1,7 @@
 Obj=tree
 Name=NorwaySpruce
 copyright=James
-DistributionWeight=200
+DistributionWeight=175
 climates=temperate,tundra,rocky
 seasons=2
 Image[0][0]=norway-spruce-0_S.0
@@ -80,4 +80,24 @@ Image[1][4]=beech-winter-snow-1_S.0
 Image[2][4]=beech-winter-snow-2_S.0
 Image[3][4]=beech-winter-snow-3_S.0
 Image[4][4]=beech-winter-snow-3_S.0
+-----------------------------------
+Obj=tree
+Name=Pine
+copyright=The Mav
+# Public Domain
+# https://www.blendswap.com/blends/view/77005
+DistributionWeight=225
+climates=tundra,rocky
+seasons=2
+Image[0][0]=pine-0_S.0
+Image[1][0]=pine-1_S.0
+Image[2][0]=pine-2_S.0
+Image[3][0]=pine-3_S.0
+Image[4][0]=pine-4_S.0
+Image[0][1]=pine-snow-0_S.0
+Image[1][1]=pine-snow-1_S.0
+Image[2][1]=pine-snow-2_S.0
+Image[3][1]=pine-snow-3_S.0
+Image[4][1]=pine-snow-4_S.0
+
 
