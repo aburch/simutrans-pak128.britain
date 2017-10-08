@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-153(Regional)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=120
 gear=50
 power=212
@@ -76,7 +76,7 @@ EmptyImage[NE]=./images/br-153-rr.0.7
 obj=vehicle
 name=BR-153-Trolley(Regional)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=120
 gear=50
 power=212

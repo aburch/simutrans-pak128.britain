@@ -4,6 +4,7 @@
 obj=vehicle
 name=BR-800Front
 engine_type=diesel
+smoke=Diesel-light
 speed=225
 power=0
 copyright=Kieron/James
@@ -52,6 +53,7 @@ EmptyImage[NE]=./images/br-800-front-gwr.1.3
 obj=vehicle
 name=BR-800MiddlePower
 engine_type=diesel
+smoke=Diesel-light
 speed=225
 power=700
 tractive_effort=55

@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-150Front(Regional)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=121
 power=212
 gear=50
@@ -59,7 +59,7 @@ EmptyImage[NE]=./images/br-150-rr-1.0.7
 obj=vehicle
 name=BR-150Centre(Regional)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=121
 power=212
 gear=50

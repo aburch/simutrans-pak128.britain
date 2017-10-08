@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-220Rear(Virgin)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=200
 gear=50
 power=560
@@ -54,7 +54,7 @@ EmptyImage[NE]=./images/br-220-virgin.2.7
 obj=vehicle
 name=BR-221Rear(Virgin)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=200
 gear=50
 power=560
