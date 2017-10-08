@@ -28,6 +28,7 @@ catering_level=1
 # Coach: 7.5 seconds per passenger
 min_loading_time=30
 max_loading_time=360
+sound=ff3170-leyland-tiger-tr.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
