@@ -41,9 +41,13 @@ Image[0]=smoke.0.0
 --------------------
 Obj=smoke
 Name=Industry_Fire
-Image[0]=smoke.2.0
-Image[1]=smoke.2.1
+Image[0]=flare-1.0
+Image[1]=flare-2.0
 --------------------
+# This is a very old example taken from Pak64: see
+# http://simutrans-germany.com/wiki/wiki/en_SmokeDef
+# It is not clear why jet aircraft need emissions
+# graphics, as they are usually practically invisible.
 #Obj=smoke
 #Name=Jet
 #Image[0]=smoke.3.0
