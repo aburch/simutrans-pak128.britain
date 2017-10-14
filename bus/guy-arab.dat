@@ -32,6 +32,12 @@ max_loading_time=112
 # so this should sound like a Guy Arab.
 sound=swearingkevo-bristol-l6b.wav
 
+# The Daimler COG-5 also had the Gardner 5LW engine,
+# but it had a pre-selective gearbox; the Arab had a
+# crash gearbox, so would have sounded more like the
+# Bristol 6-LB (as rebuilt)
+#sound=steve-o-hara-daimler-cog5.wav
+
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
