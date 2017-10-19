@@ -20,7 +20,7 @@ axles=2
 cost=285000
 runningcost=17
 
-upgrade[0]=LBSCR-4Wheel-brake-front-fitted
+upgrade[0]=LBSCR-4Wheel-Brake-front-fitted
 
 comfort=52
 min_loading_time=10
@@ -116,7 +116,7 @@ axles=2
 cost=285000
 runningcost=17
 
-upgrade[0]=LBSCR-4Wheel-brake-rear-fitted
+upgrade[0]=LBSCR-4Wheel-Brake-rear-fitted
 
 comfort=52
 min_loading_time=10
@@ -211,8 +211,6 @@ cost=340000
 upgrade_price=80000
 runningcost=18
 
-upgrade[0]=LBSCR-4Wheel-brake-front-fitted
-
 comfort=52
 min_loading_time=10
 max_loading_time=30
@@ -305,8 +303,6 @@ axles=2
 cost=340000
 upgrade_price=80000
 runningcost=18
-
-upgrade[0]=LBSCR-4Wheel-brake-rear-fitted
 
 comfort=52
 min_loading_time=10

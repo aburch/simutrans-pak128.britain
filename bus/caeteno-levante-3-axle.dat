@@ -7,6 +7,8 @@ name=caetano-levante-3-axle
 copyright=Matthew
 waytype=road
 engine_type=diesel
+# Modern coaches are low emission, I imagine
+#smoke=Diesel-light
 freight=Passagiere
 payload=60
 speed=96

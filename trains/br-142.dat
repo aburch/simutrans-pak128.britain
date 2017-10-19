@@ -1,7 +1,7 @@
 obj=vehicle
 name=br-142-front
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=120
 power=168
 gear=50
@@ -59,7 +59,7 @@ EmptyImage[NE]=./images/br-142-rr.0.7
 obj=vehicle
 name=br-142-rear
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=120
 power=168
 gear=50
