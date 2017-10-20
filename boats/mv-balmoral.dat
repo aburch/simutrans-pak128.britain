@@ -9,7 +9,9 @@ speed=35
 power=700
 freight=Passagiere
 payload[0]=0
-payload[1]=750
+payload[1]=500
+payload[2]=0
+payload[3]=150
 weight=300
 length=12
 cost=80000000
@@ -22,7 +24,9 @@ is_tall=1
 
 comfort[0]=0
 comfort[1]=110
-catering_level=2
+comfort[2]=0
+comfort[3]=127
+catering_level=3
 # 20-30 minutes
 min_loading_time=1200
 max_loading_time=1400

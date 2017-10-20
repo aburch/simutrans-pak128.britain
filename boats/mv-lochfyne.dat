@@ -9,7 +9,9 @@ speed=30
 power=783
 freight=Passagiere
 payload[0]=0
-payload[1]=1200
+payload[1]=900
+payload[2]=0
+payload[3]=300
 weight=400
 length=12
 cost=85000000
@@ -18,14 +20,16 @@ cost=85000000
 runningcost=450
 intro_year=1931
 intro_month=3
-#retire_year=1950
-#retire_month=7
+retire_year=1950
+retire_month=7
 is_tall=1
 
 # Comfort adversely affected by vibrations
 comfort[0]=0
 comfort[1]=99
-catering_level=2
+comfort[2]=0
+comfort[3]=117
+catering_level=3
 # 20-30 minutes
 min_loading_time=1200
 max_loading_time=1400
@@ -53,5 +57,3 @@ FreightImage[0][W]=./images/mv-lochfyne-loaded.1.0
 FreightImage[0][NW]=./images/mv-lochfyne-loaded.1.1
 FreightImage[0][N]=./images/mv-lochfyne-loaded.1.2
 FreightImage[0][NE]=./images/mv-lochfyne-loaded.1.3
-
-----------

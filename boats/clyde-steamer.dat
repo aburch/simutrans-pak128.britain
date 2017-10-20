@@ -9,7 +9,9 @@ speed=26
 power=1000
 freight=Passagiere
 payload[0]=0
-payload[1]=450
+payload[1]=300
+payload[2]=0
+payload[3]=150
 weight=320
 length=12
 cost=44928000
@@ -28,7 +30,9 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 comfort[0]=0
-comfort[1]=80
+comfort[1]=38
+comfort[2]=0
+comfort[3]=80
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

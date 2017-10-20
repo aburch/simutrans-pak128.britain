@@ -1,3 +1,4 @@
+# http://website.lineone.net/~tom_lee/madgewildfire.htm
 obj=vehicle
 name=PSMadgeWildfire
 copyright=jamespetts
@@ -9,7 +10,9 @@ speed=30
 power=600
 freight=Passagiere
 payload[0]=0
-payload[1]=983
+payload[1]=800
+payload[2]=0
+payload[3]=183
 weight=450
 length=12
 cost=60000000
@@ -21,8 +24,10 @@ retire_month=3
 is_tall=1
 
 comfort[0]=0
-comfort[1]=109
-catering_level=2
+comfort[1]=82
+comfort[2]=0
+comfort[3]=109
+catering_level=4
 # 20-30 minutes
 min_loading_time=1200
 max_loading_time=1400

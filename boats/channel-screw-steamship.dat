@@ -12,7 +12,9 @@ length=10
 cost=18900000
 freight=Passagiere
 payload[0]=0
-payload[1]=500
+payload[1]=350
+payload[2]=0
+payload[3]=150
 runningcost=460
 intro_year=1886
 intro_month=2
@@ -22,7 +24,9 @@ is_tall=1
 # TODO: Reconfigure this based on historical values: most of these values are guessed.
 
 comfort[0]=0
-comfort[1]=150
+comfort[1]=85
+comfort[2]=0
+comfort[3]=150
 catering_level=4
 # 40-60 minutes
 min_loading_time=2400

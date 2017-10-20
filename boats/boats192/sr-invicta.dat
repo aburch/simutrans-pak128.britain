@@ -12,7 +12,9 @@ weight=1982
 length=10
 freight=Passagiere
 payload[0]=0
-payload[1]=1304
+payload[1]=1004
+payload[2]=0
+payload[3]=300
 cost=84500000
 runningcost=1500
 intro_year=1940
@@ -23,6 +25,8 @@ is_tall=1
 
 comfort[0]=0
 comfort[1]=154
+comfort[2]=0
+comfort[3]=179
 catering_level=4
 # 40-60 minutes
 min_loading_time=2400

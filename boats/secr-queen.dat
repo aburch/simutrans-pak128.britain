@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/TSS_The_Queen
 obj=vehicle
 name=SECRQueen
 copyright=James
@@ -12,7 +13,9 @@ length=10
 cost=22500000
 freight=Passagiere
 payload[0]=0
-payload[1]=700
+payload[1]=450
+payload[2]=0
+payload[3]=125
 runningcost=510
 intro_year=1903
 intro_month=4
@@ -21,7 +24,9 @@ retire_month=1
 is_tall=1
 
 comfort[0]=0
-comfort[1]=147
+comfort[1]=95
+comfort[2]=0
+comfort[3]=165
 catering_level=4
 # 40-60 minutes
 min_loading_time=2400

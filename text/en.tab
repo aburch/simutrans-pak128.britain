@@ -7130,25 +7130,25 @@ Channel screw ship
 ChannelScrewSteamshipAddMail
 Mail hold
 SECRQueen
-SECR TS "The Queen" ferry
+Turbine channel ferry
 SECRQueenAddMail
-SECR TS "The Queen" ferry mail hold
+Turbine channel ferry mail hold
 SRIsleOfThanet
-SR TS "Isle of Thanet" ferry
+Large steam turbine channel ferry
 SRIsleOfThanetAddMail
-SR TS "Isle of Thanet" ferry mail hold
+Large steam turbine channel  ferry mail hold
 BTCLordWarden
-BTC TS "Lord Warden" ferry
+Modern turbine channel ferry
 BTCLordWardenAddMail
-BTC TS "Lord Warden" ferry mail hold
+Modern turbine channel ferry mail hold
 BTCLordWardenAddPiece
-BTC TS "Lord Warden" ferry piece goods hold
+Modern turbine channel ferry piece goods hold
 BTCLordWardenAddCool
-BTC TS "Lord Warden" ferry cooled goods hold
+Modern turbine channel ferry cooled goods hold
 SRInvicta
-SR TS "Invicta" ferry
+Turbine channel ferry
 SRInvictaAddMail
-SR TS "Invicta" ferry mail hold
+Turbine channel ferry mail hold
 SealinkHorsa
 Sealink MV "Horsa" ferry
 SealinkHorsaAddMail
@@ -8772,3 +8772,7 @@ p_class[3]
 High
 p_class[4]
 Very high
+m_class[0]
+Normal
+m_class[1]
+Priority

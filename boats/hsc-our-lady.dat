@@ -1,14 +1,15 @@
+# https://en.wikipedia.org/wiki/HSC_Our_Lady_Pamela
 obj=vehicle
 name=HSC-Our-Lady
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=diesel
-speed=55
+smoke=Diesel-light
+speed=54
 power=2869
 freight=Passagiere
 payload[0]=0
-payload[1]=290
+payload[1]=395
 weight=200
 length=10
 cost=86000000
