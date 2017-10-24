@@ -8,7 +8,7 @@ speed=15
 power=90
 freight=Passagiere
 payload[0]=0
-payload[1]=200
+payload[1]=300
 weight=45
 length=8
 cost=13063680
@@ -19,7 +19,7 @@ retire_year=1860
 retire_month=3
 
 comfort[0]=0
-comfort[1]=66
+comfort[1]=33
 # 30-45 minutes
 min_loading_time=2400
 max_loading_time=2700
