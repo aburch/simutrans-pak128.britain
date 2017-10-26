@@ -23,6 +23,7 @@ catering_level=4
 # 25-30 minutes
 min_loading_time=1500
 max_loading_time=1800
+range=300
 
 Constraint[Next][0]=HSS-1500(AddMail)
 Constraint[Prev][0]=none

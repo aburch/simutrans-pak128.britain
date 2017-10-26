@@ -3,7 +3,7 @@ name=Loch
 copyright=Kieron
 waytype=water
 engine_type=diesel
-smoke=diesel
+smoke=Diesel
 speed=18
 power=300
 freight=Passagiere
@@ -24,6 +24,7 @@ comfort[1]=88
 # 5-10 minutes
 min_loading_time=300
 max_loading_time=600
+range=80
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

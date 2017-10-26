@@ -3,7 +3,7 @@ name=ThameslineRiverbus
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=diesel
+smoke=Diesel
 speed=45
 power=300
 freight=Passagiere
@@ -22,6 +22,7 @@ comfort[0]=0
 comfort[1]=65
 min_loading_time=40
 max_loading_time=80
+range=40
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship

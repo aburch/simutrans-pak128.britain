@@ -3,7 +3,7 @@ name=HSC-FastCat
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=diesel
+smoke=Diesel
 speed=63
 power=4000
 freight=Passagiere
@@ -23,6 +23,7 @@ comfort[1]=112
 # 15-20 minutes
 min_loading_time=900
 max_loading_time=1200
+range=200
 
 way_constraint_prohibitive[6]=6 # Large ship
 

@@ -25,6 +25,7 @@ comfort[1]=38
 # 25-30 minutes
 min_loading_time=1800
 max_loading_time=2400
+range=60
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

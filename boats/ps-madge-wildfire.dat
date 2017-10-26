@@ -31,6 +31,7 @@ catering_level=4
 # 20-30 minutes
 min_loading_time=1200
 max_loading_time=1400
+range=120
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

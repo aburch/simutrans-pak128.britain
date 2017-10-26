@@ -33,6 +33,7 @@ catering_level=5
 # 30-45 minutes
 min_loading_time=2400
 max_loading_time=2700
+range=130
 
 Constraint[Next][0]=RMSColumbaMail
 Constraint[Prev][0]=none

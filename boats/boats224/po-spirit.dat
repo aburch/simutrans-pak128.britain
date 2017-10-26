@@ -24,6 +24,7 @@ catering_level=4
 # 30-45 minutes
 min_loading_time=2400
 max_loading_time=2700
+range=350
 
 Constraint[Next][0]=POSpiritAddMail
 Constraint[Next][1]=POSpiritAddPiece

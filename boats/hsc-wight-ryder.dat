@@ -3,7 +3,7 @@ name=HSC-WightRyder
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=diesel
+smoke=Diesel
 speed=60
 power=3000
 freight=Passagiere
@@ -23,6 +23,7 @@ comfort[1]=101
 # 15-20 minutes
 min_loading_time=900
 max_loading_time=1200
+range=85
 
 way_constraint_prohibitive[6]=6 # Large ship
 

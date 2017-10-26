@@ -24,6 +24,7 @@ catering_level=3
 # 30-40 minutes
 min_loading_time=1800
 max_loading_time=2400
+range=300
 
 Constraint[Next][0]=Incat96m(AddMail)
 Constraint[Prev][0]=none

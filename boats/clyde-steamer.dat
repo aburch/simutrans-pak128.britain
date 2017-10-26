@@ -1,3 +1,5 @@
+# It is not clear which specific ship that this is supposed to represent,
+# but the style suggests that it is a 20th century vessel.
 obj=vehicle
 name=ClydeSteamer
 copyright=Druid/James
@@ -25,6 +27,7 @@ is_tall=1
 # 20-30 minutes
 min_loading_time=1200
 max_loading_time=1400
+range=150
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
