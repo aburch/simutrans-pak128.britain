@@ -13,6 +13,7 @@ payload[1]=400
 weight=200
 length=8
 cost=13970000
+upgrade_price=25000
 runningcost=780
 intro_year=1846
 intro_month=9
@@ -26,6 +27,8 @@ comfort[1]=40
 min_loading_time=1200
 max_loading_time=1400
 range=50
+
+upgrade[0]=ps-premier-covered
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
