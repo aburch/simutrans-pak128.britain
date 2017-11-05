@@ -37,6 +37,7 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
 liverytype[0]=Birmingham-Corporation
+liverytype[1]=Bradford-standard
 
 EmptyImage[E][0]=./images/daimler-cog5-double-birmingham_E.0.0,-33,14
 EmptyImage[SE][0]=./images/daimler-cog5-double-birmingham_SE.0.0,-13,0
@@ -47,3 +48,11 @@ EmptyImage[NW][0]=./images/daimler-cog5-double-birmingham_NW.0.0,12,10
 EmptyImage[N][0]=./images/daimler-cog5-double-birmingham_N.0.0,0,33
 EmptyImage[NE][0]=./images/daimler-cog5-double-birmingham_NE.0.0,0,24
 
+EmptyImage[E][1]=./images/daimler-cog5-double-bradford_E.0.0,-33,14
+EmptyImage[SE][1]=./images/daimler-cog5-double-bradford_SE.0.0,-13,0
+EmptyImage[S][1]=./images/daimler-cog5-double-bradford_S.0.0,0,0
+EmptyImage[SW][1]=./images/daimler-cog5-double-bradford_SW.0.0,-8,10
+EmptyImage[W][1]=./images/daimler-cog5-double-bradford_W.0.0,4,5
+EmptyImage[NW][1]=./images/daimler-cog5-double-bradford_NW.0.0,12,10
+EmptyImage[N][1]=./images/daimler-cog5-double-bradford_N.0.0,0,33
+EmptyImage[NE][1]=./images/daimler-cog5-double-bradford_NE.0.0,0,24
