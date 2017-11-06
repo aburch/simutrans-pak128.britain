@@ -17,7 +17,10 @@ power=63
 tractive_effort=9
 gear=50
 # http://www.classicbuses.co.uk/busnews3.html
-weight=7.5
+# The above weight of 7.5t is for the "Sunseeker" coach
+# body, not the double deck 'bus body.
+# The 6.1t figure is suggested by p. 49 of "Daimler" by Allan Towsin
+weight=6.1
 length=6
 cost=961000
 runningcost=180
