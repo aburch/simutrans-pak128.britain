@@ -43,6 +43,7 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
 liverytype[3]=NSE-Standard
+liverytype[4]=SWT-orange-stripe
 
 EmptyImage[E][0]=./images/br-421-a-g.1.4
 EmptyImage[SE][0]=./images/br-421-a-g.1.5
@@ -79,6 +80,15 @@ EmptyImage[W][3]=./images/br-421-a-nse.1.0
 EmptyImage[NW][3]=./images/br-421-a-nse.1.1
 EmptyImage[N][3]=./images/br-421-a-nse.1.2
 EmptyImage[NE][3]=./images/br-421-a-nse.1.3
+
+EmptyImage[E][4]=./images/br-421-a-swt_E.0.0
+EmptyImage[SE][4]=./images/br-421-a-swt_SE.0.0
+EmptyImage[S][4]=./images/br-421-a-swt_S.0.0
+EmptyImage[SW][4]=./images/br-421-a-swt_SW.0.0
+EmptyImage[W][4]=./images/br-421-a-swt_W.0.0
+EmptyImage[NW][4]=./images/br-421-a-swt_NW.0.0
+EmptyImage[N][4]=./images/br-421-a-swt_N.0.0
+EmptyImage[NE][4]=./images/br-421-a-swt_NE.0.0
 
 ---
 
@@ -122,6 +132,7 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
 liverytype[3]=NSE-Standard
+liverytype[4]=SWT-orange-stripe
 
 EmptyImage[E][0]=./images/br-421-mbso-g.1.4
 EmptyImage[SE][0]=./images/br-421-mbso-g.1.5
@@ -158,6 +169,15 @@ EmptyImage[W][3]=./images/br-421-mbso-nse.1.0
 EmptyImage[NW][3]=./images/br-421-mbso-nse.1.1
 EmptyImage[N][3]=./images/br-421-mbso-nse.1.2
 EmptyImage[NE][3]=./images/br-421-mbso-nse.1.3
+
+EmptyImage[E][4]=./images/br-421-mbso-swt_E.0.0
+EmptyImage[SE][4]=./images/br-421-mbso-swt_SE.0.0
+EmptyImage[S][4]=./images/br-421-mbso-swt_S.0.0
+EmptyImage[SW][4]=./images/br-421-mbso-swt_SW.0.0
+EmptyImage[W][4]=./images/br-421-mbso-swt_W.0.0
+EmptyImage[NW][4]=./images/br-421-mbso-swt_NW.0.0
+EmptyImage[N][4]=./images/br-421-mbso-swt_N.0.0
+EmptyImage[NE][4]=./images/br-421-mbso-swt_NE.0.0
 
 ---
 
@@ -197,6 +217,7 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
 liverytype[3]=NSE-Standard
+liverytype[4]=SWT-orange-stripe
 
 EmptyImage[E][0]=./images/br-mk1-sk-g.1.4
 EmptyImage[SE][0]=./images/br-mk1-sk-g.1.5
@@ -233,6 +254,15 @@ EmptyImage[W][3]=./images/br-mk1-sk-nse.1.0
 EmptyImage[NW][3]=./images/br-mk1-sk-nse.1.1
 EmptyImage[N][3]=./images/br-mk1-sk-nse.1.2
 EmptyImage[NE][3]=./images/br-mk1-sk-nse.1.3
+
+EmptyImage[E][4]=./images/br-410-trailer-swt_E.0.0
+EmptyImage[SE][4]=./images/br-410-trailer-swt_SE.0.0
+EmptyImage[S][4]=./images/br-410-trailer-swt_S.0.0
+EmptyImage[SW][4]=./images/br-410-trailer-swt_SW.0.0
+EmptyImage[W][4]=./images/br-410-trailer-swt_W.0.0
+EmptyImage[NW][4]=./images/br-410-trailer-swt_NW.0.0
+EmptyImage[N][4]=./images/br-410-trailer-swt_N.0.0
+EmptyImage[NE][4]=./images/br-410-trailer-swt_NE.0.0
 
 ---
 
@@ -272,6 +302,7 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
 liverytype[3]=NSE-Standard
+liverytype[4]=SWT-orange-stripe
 
 EmptyImage[E][0]=./images/br-410-buffet-g.1.4
 EmptyImage[SE][0]=./images/br-410-buffet-g.1.5
@@ -308,6 +339,16 @@ EmptyImage[W][3]=./images/br-mk1-rmb-nse.1.0
 EmptyImage[NW][3]=./images/br-mk1-rmb-nse.1.1
 EmptyImage[N][3]=./images/br-mk1-rmb-nse.1.2
 EmptyImage[NE][3]=./images/br-mk1-rmb-nse.1.3
+
+EmptyImage[E][4]=./images/br-410-buffet-swt_E.0.0
+EmptyImage[SE][4]=./images/br-410-buffet-swt_SE.0.0
+EmptyImage[S][4]=./images/br-410-buffet-swt_S.0.0
+EmptyImage[SW][4]=./images/br-410-buffet-swt_SW.0.0
+EmptyImage[W][4]=./images/br-410-buffet-swt_W.0.0
+EmptyImage[NW][4]=./images/br-410-buffet-swt_NW.0.0
+EmptyImage[N][4]=./images/br-410-buffet-swt_N.0.0
+EmptyImage[NE][4]=./images/br-410-buffet-swt_NE.0.0
+
 ---
 
 obj=vehicle
@@ -356,6 +397,7 @@ liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
 liverytype[2]=Jaffa-Cake
 liverytype[3]=NSE-Standard
+liverytype[4]=SWT-orange-stripe
 
 EmptyImage[E][0]=./images/br-421-b-g.1.4
 EmptyImage[SE][0]=./images/br-421-b-g.1.5
@@ -392,3 +434,12 @@ EmptyImage[W][3]=./images/br-421-b-nse.1.0
 EmptyImage[NW][3]=./images/br-421-b-nse.1.1
 EmptyImage[N][3]=./images/br-421-b-nse.1.2
 EmptyImage[NE][3]=./images/br-421-b-nse.1.3
+
+EmptyImage[E][4]=./images/br-421-b-swt_E.0.0
+EmptyImage[SE][4]=./images/br-421-b-swt_SE.0.0
+EmptyImage[S][4]=./images/br-421-b-swt_S.0.0
+EmptyImage[SW][4]=./images/br-421-b-swt_SW.0.0
+EmptyImage[W][4]=./images/br-421-b-swt_W.0.0
+EmptyImage[NW][4]=./images/br-421-b-swt_NW.0.0
+EmptyImage[N][4]=./images/br-421-b-swt_N.0.0
+EmptyImage[NE][4]=./images/br-421-b-swt_NE.0.0
