@@ -813,7 +813,7 @@ intercity_road[7]=sma-road-medium,1997,2300
 # If you want to speed up map creation, lower this value
 # If you want more initial intercity roads, raise this value
 
-intercity_road_length = 320
+intercity_road_length = 512
 
 # This is the maximum number of tiles that a road, river or canal
 # that is a public right of way may be diverted for an existing
