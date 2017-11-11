@@ -39,6 +39,7 @@ Constraint[Next][0]=BR-455-Motor
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=SWT-orange-stripe
+liverytype[3]=Southern
 
 EmptyImage[E][0]=./images/br-455-driving-trailer-front-bg.1.4
 EmptyImage[SE][0]=./images/br-455-driving-trailer-front-bg.1.5
@@ -66,6 +67,15 @@ EmptyImage[W][2]=./images/br-455-driving-trailer-front-swt_W.0.0
 EmptyImage[NW][2]=./images/br-455-driving-trailer-front-swt_NW.0.0
 EmptyImage[N][2]=./images/br-455-driving-trailer-front-swt_N.0.0
 EmptyImage[NE][2]=./images/br-455-driving-trailer-front-swt_NE.0.0
+
+EmptyImage[E][3]=./images/br-455-driving-trailer-front-s_E.0.0
+EmptyImage[SE][3]=./images/br-455-driving-trailer-front-s_SE.0.0
+EmptyImage[S][3]=./images/br-455-driving-trailer-front-s_S.0.0
+EmptyImage[SW][3]=./images/br-455-driving-trailer-front-s_SW.0.0
+EmptyImage[W][3]=./images/br-455-driving-trailer-front-s_W.0.0
+EmptyImage[NW][3]=./images/br-455-driving-trailer-front-s_NW.0.0
+EmptyImage[N][3]=./images/br-455-driving-trailer-front-s_N.0.0
+EmptyImage[NE][3]=./images/br-455-driving-trailer-front-s_NE.0.0
 
 ---
 
@@ -111,6 +121,7 @@ Constraint[Prev][0]=BR-455-Driving-Front
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=SWT-orange-stripe
+liverytype[3]=Southern
 
 EmptyImage[E][0]=./images/br-455-motor-bg.1.4
 EmptyImage[SE][0]=./images/br-455-motor-bg.1.5
@@ -138,6 +149,15 @@ EmptyImage[W][2]=./images/br-455-motor-swt_W.0.0
 EmptyImage[NW][2]=./images/br-455-motor-swt_NW.0.0
 EmptyImage[N][2]=./images/br-455-motor-swt_N.0.0
 EmptyImage[NE][2]=./images/br-455-motor-swt_NE.0.0
+
+EmptyImage[E][3]=./images/br-455-motor-s_E.0.0
+EmptyImage[SE][3]=./images/br-455-motor-s_SE.0.0
+EmptyImage[S][3]=./images/br-455-motor-s_S.0.0
+EmptyImage[SW][3]=./images/br-455-motor-s_SW.0.0
+EmptyImage[W][3]=./images/br-455-motor-s_W.0.0
+EmptyImage[NW][3]=./images/br-455-motor-s_NW.0.0
+EmptyImage[N][3]=./images/br-455-motor-s_N.0.0
+EmptyImage[NE][3]=./images/br-455-motor-s_NE.0.0
 
 ---
 
@@ -182,6 +202,7 @@ Constraint[Next][0]=BR-455-Driving-Rear
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=SWT-orange-stripe
+liverytype[3]=Southern
 
 EmptyImage[E][0]=./images/br-317-trailer-bg.1.4
 EmptyImage[SE][0]=./images/br-317-trailer-bg.1.5
@@ -209,6 +230,15 @@ EmptyImage[W][2]=./images/br-455-trailer-swt_W.0.0
 EmptyImage[NW][2]=./images/br-455-trailer-swt_NW.0.0
 EmptyImage[N][2]=./images/br-455-trailer-swt_N.0.0
 EmptyImage[NE][2]=./images/br-455-trailer-swt_NE.0.0
+
+EmptyImage[E][3]=./images/br-455-trailer-s_E.0.0
+EmptyImage[SE][3]=./images/br-455-trailer-s_SE.0.0
+EmptyImage[S][3]=./images/br-455-trailer-s_S.0.0
+EmptyImage[SW][3]=./images/br-455-trailer-s_SW.0.0
+EmptyImage[W][3]=./images/br-455-trailer-s_W.0.0
+EmptyImage[NW][3]=./images/br-455-trailer-s_NW.0.0
+EmptyImage[N][3]=./images/br-455-trailer-s_N.0.0
+EmptyImage[NE][3]=./images/br-455-trailer-s_NE.0.0
 
 ---
 
@@ -254,6 +284,7 @@ Constraint[Prev][1]=BR-507(centre2)
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 liverytype[2]=SWT-orange-stripe
+liverytype[3]=Southern
 
 EmptyImage[E][0]=./images/br-455-driving-trailer-rear-bg.1.4
 EmptyImage[SE][0]=./images/br-455-driving-trailer-rear-bg.1.5
@@ -281,3 +312,12 @@ EmptyImage[W][2]=./images/br-455-driving-trailer-rear-swt_E.0.0
 EmptyImage[NW][2]=./images/br-455-driving-trailer-rear-swt_SE.0.0
 EmptyImage[N][2]=./images/br-455-driving-trailer-rear-swt_S.0.0
 EmptyImage[NE][2]=./images/br-455-driving-trailer-rear-swt_SW.0.0
+
+EmptyImage[E][3]=./images/br-455-driving-trailer-rear-s_E.0.0
+EmptyImage[SE][3]=./images/br-455-driving-trailer-rear-s_SE.0.0
+EmptyImage[S][3]=./images/br-455-driving-trailer-rear-s_S.0.0
+EmptyImage[SW][3]=./images/br-455-driving-trailer-rear-s_SW.0.0
+EmptyImage[W][3]=./images/br-455-driving-trailer-rear-s_W.0.0
+EmptyImage[NW][3]=./images/br-455-driving-trailer-rear-s_NW.0.0
+EmptyImage[N][3]=./images/br-455-driving-trailer-rear-s_N.0.0
+EmptyImage[NE][3]=./images/br-455-driving-trailer-rear-s_NE.0.0
