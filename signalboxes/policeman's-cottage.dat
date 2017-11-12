@@ -14,6 +14,16 @@ cost=12500
 population_and_visitor_demand_capacity=0
 employment_capacity=1
 mail_demand=1
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=66
+class_proportion[3]=30
+class_proportion[4]=0
+class_proportion_jobs[0]=0
+class_proportion_jobs[1]=100
+class_proportion_jobs[2]=0
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 needs_ground=1
 
 signal_groups=11
@@ -52,6 +62,17 @@ cost=21500
 population_and_visitor_demand_capacity=0
 employment_capacity=1
 mail_demand=1
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=66
+class_proportion[3]=30
+class_proportion[4]=0
+# Higher class jobs as the policemen need to be literate to work the telegraph equipment
+class_proportion_jobs[0]=0
+class_proportion_jobs[1]=0
+class_proportion_jobs[2]=100
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 needs_ground=1
 
 signal_groups=12
