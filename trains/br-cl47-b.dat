@@ -39,6 +39,7 @@ liverytype[2]=BR-Large-Logo
 liverytype[3]=Scotrail-original
 liverytype[4]=IC-Executive
 liverytype[5]=IC-Swallow
+liverytype[6]=NSE-Revised
 
 EmptyImage[E][0]=./images/br-cl47-green.0.0
 EmptyImage[SE][0]=./images/br-cl47-green.0.1
@@ -93,3 +94,12 @@ EmptyImage[W][5]=./images/br-cl47-swallow_W.0.0
 EmptyImage[NW][5]=./images/br-cl47-swallow_NW.0.0
 EmptyImage[N][5]=./images/br-cl47-swallow_N.0.0
 EmptyImage[NE][5]=./images/br-cl47-swallow_NE.0.0
+
+EmptyImage[E][6]=./images/br-cl47-nse-rev_E.0.0
+EmptyImage[SE][6]=./images/br-cl47-nse-rev_SE.0.0
+EmptyImage[S][6]=./images/br-cl47-nse-rev_S.0.0
+EmptyImage[SW][6]=./images/br-cl47-nse-rev_SW.0.0
+EmptyImage[W][6]=./images/br-cl47-nse-rev_W.0.0
+EmptyImage[NW][6]=./images/br-cl47-nse-rev_NW.0.0
+EmptyImage[N][6]=./images/br-cl47-nse-rev_N.0.0
+EmptyImage[NE][6]=./images/br-cl47-nse-rev_NE.0.0
