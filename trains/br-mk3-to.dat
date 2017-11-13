@@ -174,6 +174,7 @@ Constraint[Next][1]=BR-Mk3-DVT
 Constraint[Next][2]=BR-Mk3a-TRB
 Constraint[Next][3]=BR-Mk3a-TRFB
 Constraint[Next][4]=None
+Constraint[Next][5]=BR-Mk2-DBSO
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
@@ -186,6 +187,7 @@ liverytype[7]=National-Express
 liverytype[8]=GC-Original
 liverytype[9]=GC-Daylight
 liverytype[10]=Chiltern-Mainline
+liverytype[11]=Scotrail-original
 
 EmptyImage[E][0]=./images/br-mk3-bg.0.0
 EmptyImage[SE][0]=./images/br-mk3-bg.0.1
@@ -285,3 +287,12 @@ EmptyImage[W][10]=./images/br-mk3-to-chiltern.1.0
 EmptyImage[NW][10]=./images/br-mk3-to-chiltern.1.1
 EmptyImage[N][10]=./images/br-mk3-to-chiltern.1.2
 EmptyImage[NE][10]=./images/br-mk3-to-chiltern.1.3
+
+EmptyImage[E][11]=./images/br-mk3-to-scr_E.0.0
+EmptyImage[SE][11]=./images/br-mk3-to-scr_SE.0.0
+EmptyImage[S][11]=./images/br-mk3-to-scr_S.0.0
+EmptyImage[SW][11]=./images/br-mk3-to-scr_SW.0.0
+EmptyImage[W][11]=./images/br-mk3-to-scr_W.0.0
+EmptyImage[NW][11]=./images/br-mk3-to-scr_NW.0.0
+EmptyImage[N][11]=./images/br-mk3-to-scr_N.0.0
+EmptyImage[NE][11]=./images/br-mk3-to-scr_NE.0.0
