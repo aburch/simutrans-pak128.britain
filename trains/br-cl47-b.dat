@@ -43,6 +43,8 @@ liverytype[6]=NSE-Revised
 liverytype[7]=NSE-Standard
 liverytype[8]=Railfreight-grey
 liverytype[9]=RM-Revised
+liverytype[10]=TF-Two-tone-grey
+liverytype[11]=RfD-Two-tone-grey
 
 EmptyImage[E][0]=./images/br-cl47-green.0.0
 EmptyImage[SE][0]=./images/br-cl47-green.0.1
@@ -133,3 +135,21 @@ EmptyImage[W][9]=./images/br-cl47-parcels_W.0.0
 EmptyImage[NW][9]=./images/br-cl47-parcels_NW.0.0
 EmptyImage[N][9]=./images/br-cl47-parcels_N.0.0
 EmptyImage[NE][9]=./images/br-cl47-parcels_NE.0.0
+
+EmptyImage[E][10]=./images/br-cl47-tl_E.0.0
+EmptyImage[SE][10]=./images/br-cl47-tl_SE.0.0
+EmptyImage[S][10]=./images/br-cl47-tl_S.0.0
+EmptyImage[SW][10]=./images/br-cl47-tl_SW.0.0
+EmptyImage[W][10]=./images/br-cl47-tl_W.0.0
+EmptyImage[NW][10]=./images/br-cl47-tl_NW.0.0
+EmptyImage[N][10]=./images/br-cl47-tl_N.0.0
+EmptyImage[NE][10]=./images/br-cl47-tl_NE.0.0
+
+EmptyImage[E][11]=./images/br-cl47-rfd_E.0.0
+EmptyImage[SE][11]=./images/br-cl47-rfd_SE.0.0
+EmptyImage[S][11]=./images/br-cl47-rfd_S.0.0
+EmptyImage[SW][11]=./images/br-cl47-rfd_SW.0.0
+EmptyImage[W][11]=./images/br-cl47-rfd_W.0.0
+EmptyImage[NW][11]=./images/br-cl47-rfd_NW.0.0
+EmptyImage[N][11]=./images/br-cl47-rfd_N.0.0
+EmptyImage[NE][11]=./images/br-cl47-rfd_NE.0.0
