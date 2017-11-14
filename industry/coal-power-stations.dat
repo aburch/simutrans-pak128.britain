@@ -2,6 +2,7 @@
 # File created with TileCutter version 0.3d.1
 # For more information see http://simutrans.entropy.me.uk/tilecutter/
 #
+# https://en.wikipedia.org/wiki/Holborn_Viaduct_power_station
 Obj=factory
 name=CoalPowerStation1882kraftwerk
 copyright=James
@@ -98,6 +99,8 @@ BackImage[3][1][0][0][0][1]=coal-power-early.6.5
 BackImage[3][1][0][1][0][1]=coal-power-early.6.6
 BackImage[3][1][1][0][0][1]=coal-power-early.6.7
 --------------------
+# https://en.wikipedia.org/wiki/Bankside_Power_Station
+# This had a 25MW capacity in 1910
 Obj=factory
 name=CoalPowerStation1910kraftwerk
 copyright=James
@@ -122,8 +125,8 @@ class_proportion_jobs[4]=0
 climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
 Location=City
 distributionweight=5
-Productivity=14
-Range=6
+Productivity=20
+Range=10
 passenger_boost=700
 mail_boost=50
 MapColor=135
@@ -194,6 +197,8 @@ BackImage[3][1][0][0][0][1]=coal-power-early.6.5
 BackImage[3][1][0][1][0][1]=coal-power-early.6.6
 BackImage[3][1][1][0][0][1]=coal-power-early.6.7
 --------------------
+# https://en.wikipedia.org/wiki/Battersea_Power_Station
+# This opened with a capacity of 243MW
 Obj=factory
 name=CoalPowerStation1920kraftwerk
 copyright=James
@@ -218,8 +223,8 @@ class_proportion_jobs[4]=0
 climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
 Location=City
 distributionweight=5
-Productivity=40
-Range=29
+Productivity=100
+Range=200
 passenger_boost=700
 mail_boost=50
 MapColor=135
