@@ -2232,3 +2232,20 @@ retire_month[87] = 10
 livery[87][0] = Grey-Green-standard
 intro_year[87][0] = 1928
 intro_month[87][0] = 6
+
+livery_scheme[88] = Railfreight
+retire_year[88] = 1994
+retire_month[88] = 1
+livery[88][0] = Railfreight-grey
+intro_year[88][0] = 1982
+intro_month[88][0] = 4
+livery[88][1] = RfD-Two-tone-grey
+intro_year[88][1] = 1987
+intro_month[88][1] = 2
+
+livery_scheme[89] = Trainload-Freight
+retire_year[89] = 1994
+retire_month[89] = 1
+livery[89][0] = TF-Two-tone-grey
+intro_year[89][0] = 1987
+intro_month[89][0] = 2
