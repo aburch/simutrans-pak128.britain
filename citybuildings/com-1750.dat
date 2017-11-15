@@ -5,7 +5,7 @@ copyright=Archon
 type=com
 chance=100
 Level=10
-# Larger  that brews its own beer on the premises.
+# Larger beer house that brews its own beer on the premises.
 # Estimate 250 customers/day, x 4 (to take account of the relative size)
 # yields 1000/day, / 16 hours * 6.4 hours = 400
 # Then halve it to take into account meters/tile, etc.
