@@ -63,6 +63,7 @@ Constraint[Prev][14]=LNER-Gresley-Express-Dining
 Constraint[Prev][15]=LNER-Gresley-Express-Buffet
 
 liverytype[0]=BR-Blue
+liverytype[1]=NSE-Standard
 
 EmptyImage[E][0]=./images/br-mk2a-rmb-bg_E.0
 EmptyImage[SE][0]=./images/br-mk2a-rmb-bg_SE.0
@@ -72,3 +73,12 @@ EmptyImage[W][0]=./images/br-mk2a-rmb-bg_W.0
 EmptyImage[NW][0]=./images/br-mk2a-rmb-bg_NW.0
 EmptyImage[N][0]=./images/br-mk2a-rmb-bg_N.0
 EmptyImage[NE][0]=./images/br-mk2a-rmb-bg_NE.0
+
+EmptyImage[E][1]=./images/br-mk2a-rmb-nse_E.0
+EmptyImage[SE][1]=./images/br-mk2a-rmb-nse_SE.0
+EmptyImage[S][1]=./images/br-mk2a-rmb-nse_S.0
+EmptyImage[SW][1]=./images/br-mk2a-rmb-nse_SW.0
+EmptyImage[W][1]=./images/br-mk2a-rmb-nse_W.0
+EmptyImage[NW][1]=./images/br-mk2a-rmb-nse_NW.0
+EmptyImage[N][1]=./images/br-mk2a-rmb-nse_N.0
+EmptyImage[NE][1]=./images/br-mk2a-rmb-nse_NE.0

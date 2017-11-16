@@ -28,6 +28,7 @@ comfort=140
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
+liverytype[2]=NSE-Standard
 
 EmptyImage[E][0]=./images/br-mk2a-bso-m_E.0
 EmptyImage[SE][0]=./images/br-mk2a-bso-m_SE.0
@@ -47,3 +48,11 @@ EmptyImage[NW][1]=./images/br-mk2a-bso-bg_NW.0
 EmptyImage[N][1]=./images/br-mk2a-bso-bg_N.0
 EmptyImage[NE][1]=./images/br-mk2a-bso-bg_NE.0
 
+EmptyImage[E][2]=./images/br-mk2a-bso-nse_E.0
+EmptyImage[SE][2]=./images/br-mk2a-bso-nse_SE.0
+EmptyImage[S][2]=./images/br-mk2a-bso-nse_S.0
+EmptyImage[SW][2]=./images/br-mk2a-bso-nse_SW.0
+EmptyImage[W][2]=./images/br-mk2a-bso-nse_W.0
+EmptyImage[NW][2]=./images/br-mk2a-bso-nse_NW.0
+EmptyImage[N][2]=./images/br-mk2a-bso-nse_N.0
+EmptyImage[NE][2]=./images/br-mk2a-bso-nse_NE.0
