@@ -160,8 +160,8 @@ class_proportion[1]=50
 class_proportion[2]=25
 class_proportion[3]=3
 class_proportion[4]=2
-class_proportion_jobs[0]=30
-class_proportion_jobs[1]=45
+class_proportion_jobs[0]=35
+class_proportion_jobs[1]=50
 class_proportion_jobs[2]=15
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
@@ -186,7 +186,7 @@ copyright=James
 type=ind
 chance=10
 # Smithy
-population_and_visitor_demand_capacity=0
+population_and_visitor_demand_capacity=10
 # Imagine * 10 for density. 4 workers per smithy
 # Divide by 2 for scaling.
 employment_capacity=20
@@ -196,8 +196,8 @@ class_proportion[1]=50
 class_proportion[2]=25
 class_proportion[3]=3
 class_proportion[4]=2
-class_proportion_jobs[0]=30
-class_proportion_jobs[1]=45
+class_proportion_jobs[0]=35
+class_proportion_jobs[1]=50
 class_proportion_jobs[2]=15
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
@@ -222,7 +222,7 @@ copyright=James
 type=ind
 chance=10
 # Carpenter
-population_and_visitor_demand_capacity=0
+population_and_visitor_demand_capacity=10
 # Imagine * 10 for density. 5 workers per carpenter's shop
 # Divide by 2 for scaling.
 employment_capacity=25
@@ -232,8 +232,8 @@ class_proportion[1]=50
 class_proportion[2]=25
 class_proportion[3]=3
 class_proportion[4]=2
-class_proportion_jobs[0]=30
-class_proportion_jobs[1]=45
+class_proportion_jobs[0]=35
+class_proportion_jobs[1]=50
 class_proportion_jobs[2]=15
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
@@ -331,8 +331,8 @@ class_proportion[1]=50
 class_proportion[2]=25
 class_proportion[3]=3
 class_proportion[4]=2
-class_proportion_jobs[0]=30
-class_proportion_jobs[1]=45
+class_proportion_jobs[0]=35
+class_proportion_jobs[1]=50
 class_proportion_jobs[2]=15
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
