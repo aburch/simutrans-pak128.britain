@@ -1,9 +1,25 @@
+# TODO: Make this into a functional car park instead of a city building
+# when the car parking feature is introduced.
 Obj=building
 Name=IND_WL_1950_00_04
 copyright=WLindley
 type=ind
-chance=15
+chance=8
 Level=4
+# Car park
+population_and_visitor_demand_capacity=6
+employment_capacity=1
+mail_demand=0
+class_proportion[0]=10
+class_proportion[1]=20
+class_proportion[2]=22
+class_proportion[3]=23
+class_proportion[4]=25
+class_proportion_jobs[0]=75
+class_proportion_jobs[1]=25
+class_proportion_jobs[2]=0
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1950
 retire_year=1980
 needs_ground=1
@@ -24,8 +40,22 @@ copyright=Archon
 type=IND
 chance=45
 Level=10
+# Warehouse
+population_and_visitor_demand_capacity=4
+employment_capacity=60
+mail_demand=15
+class_proportion[0]=0
+class_proportion[1]=5
+class_proportion[2]=45
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=40
+class_proportion_jobs[1]=45
+class_proportion_jobs[2]=15
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1950
-retire_year=2050
+#retire_year=2050
 needs_ground=1
 dims=1,1,4
 
@@ -46,8 +76,22 @@ copyright=Archon
 type=IND
 chance=40
 Level=10
+# Warehouse
+population_and_visitor_demand_capacity=4
+employment_capacity=60
+mail_demand=15
+class_proportion[0]=0
+class_proportion[1]=5
+class_proportion[2]=45
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=40
+class_proportion_jobs[1]=45
+class_proportion_jobs[2]=15
+class_proportion_jobs[3]=0
+class_proportion_jobs[4]=0
 intro_year=1950
-retire_year=2050
+#retire_year=2050
 needs_ground=1
 dims=1,1,4
 
@@ -68,8 +112,22 @@ copyright=Archon
 type=IND
 chance=44
 Level=10
+# Light industrial unit
+population_and_visitor_demand_capacity=5
+employment_capacity=65
+mail_demand=16
+class_proportion[0]=0
+class_proportion[1]=5
+class_proportion[2]=45
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=8
+class_proportion_jobs[1]=68
+class_proportion_jobs[2]=20
+class_proportion_jobs[3]=3
+class_proportion_jobs[4]=1
 intro_year=1950
-retire_year=2050
+#retire_year=2050
 needs_ground=1
 dims=1,1,4
 
