@@ -7,6 +7,7 @@ speed=10
 # These values are not fine enough to capture
 # the differing power of different horses.
 # See http://gluedideas.com/content-collection/Textbook-on-Roads-and-Pavements-1908/Tractive-Power-of-Horses.html
+# (also reproduced at https://archive.org/stream/textbookonroadsp00spalrich/textbookonroadsp00spalrich_djvu.txt)
 # for information: an average horse will have a tractive effort
 # of 80lb/f, or 0.33kN at approx. 5km/h and an average power of 0.45kW. "Gear" works only for power. 
 gear=57
