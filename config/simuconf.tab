@@ -90,6 +90,49 @@ growthfactor_capitals = 240
 # NOTE: The renovation_percentage in cityrules.tab should be increased if this be done.
 quick_city_growth = 0
 
+# These settings determine the population, visitor demand, jobs and mail per "level" of building.
+# Each of these things can be set independently in the buildings' .dat files, but for older paksets
+# or paksets from Standard, only a "level" will be supplied, so these conversion factors are
+# important in those cases.
+population_per_level = 4
+visitor_demand_per_level = 4
+jobs_per_level = 3
+mail_per_level = 1
+
+# These settings determine the number of passenger trips that each person makes per game month
+# and the number of items of mail that each unit of mail demand produces per month, in 1/100ths.
+# This does *not* include onward and return trips, however, and is *before* adjustment for the
+# meters per tile and bits per month scales.
+#
+# Note that most statistics show *return* trips, so this needs to be calibrated accordingly.
+# Note also that, because of rounding errors in the passenger generation multi-threading,
+# it is necessary to multiply the numbers by ~1.3 to get the correct results in game at 
+# present. The correct number ought to be 120 (3x trips attempted per 16 hours per passenger),
+# but 156 must be used to overcome the rounding errors. Likewise, mail is intended to be 5
+# but needs to be 7 (rounded up from 6.5) to cope with the rounding errors.
+passenger_trips_per_month_hundredths = 156
+mail_packets_per_month_hundredths = 7
+
+# This setting determines the maximum number of onward trips that passengers may make on a journey.
+# The actual number of onward trips for any given packet of passengers is a random number of anywhere
+# between 1 and this figure. This is only applicable if passengers are in fact going to make an onward
+# trip, the chance of which is determined by a different setting (see below).
+max_onward_trips = 3
+
+# This figure determines how likely that it is that passengers will make any onward trips at all. It
+# is expressed in percentage terms.
+onward_trip_chance_percent = 25
+
+# This is the chance, in percentage, that any given passenger journey will be a commuting trip. Any
+# trip that is not a commuting trip is classed as a visiting trip.
+# Data suggests that a minority of trips are commuting trips: see, e.g.
+# http://webarchive.nationalarchives.gov.uk/+/http:/www.dft.gov.uk/pgr/statistics/datatablespublications/personal/factsheets/traveltowork.pdf
+# and https://www.hertfordshire.gov.uk/media-library/documents/highways/transport-planning/transport-and-accident-data/county-travel-survey/county-travel-survey-summary.pdf
+# Assume 1 commuting trip  attempt per day (out of a total of 3 trip attempts per day), multiplied by 5/7ths (0.714)
+# multiplied by the proportion of the population in work (fluctuates over time, but assume as 60%), and the figure is close to the 18% suggested in the
+# Hertfordshire survey above.
+commuting_trip_chance_percent = 20
+
 # Some passengers who are not able to find a route will be content to go to an alternative destination. 
 # This is set separately for visiting passengers and commuting passengers. It can either be set in
 # absolute figures using max_alternative_destinations_visiting and max_alternative_destinations_commuting,
@@ -125,7 +168,7 @@ min_alternative_destinations_per_job_millionths = 2500
 # between the minimum and maximum amount using a normal distribution, meaning that the numbers
 # are more likely to be in the middle of the range than at either end.
 
-min_visiting_tolerance = 3
+min_visiting_tolerance = 8
 range_visiting_tolerance = 5400
 min_commuting_tolerance = 30
 range_commuting_tolerance = 120
@@ -690,36 +733,6 @@ parallel_ways_forge_cost_percentage_air = 85
 interest_rate_percent = 10
 allow_bankruptcy = 1
 allow_purchases_when_insolvent = 0	
-
-# These settings determine the population, visitor demand, jobs and mail per "level" of building.
-# Each of these things can be set independently in the buildings' .dat files, but for older paksets
-# or paksets from Standard, only a "level" will be supplied, so these conversion factors are
-# important in those cases.
-population_per_level = 4
-visitor_demand_per_level = 4
-jobs_per_level = 3
-mail_per_level = 1
-
-# These settings determine the number of passenger trips that each person makes per game month
-# and the number of items of mail that each unit of mail demand produces per month, in 1/100ths.
-# This does *not* include onward and return trips, however, and is *before* adjustment for the
-# meters per tile and bits per month scales.
-passenger_trips_per_month_hundredths = 60
-mail_packets_per_month_hundredths = 5
-
-# This setting determines the maximum number of onward trips that passengers may make on a journey.
-# The actual number of onward trips for any given packet of passengers is a random number of anywhere
-# between 1 and this figure. This is only applicable if passengers are in fact going to make an onward
-# trip, the chance of which is determined by a different setting (see below).
-max_onward_trips = 3
-
-# This figure determines how likely that it is that passengers will make any onward trips at all. It
-# is expressed in percentage terms.
-onward_trip_chance_percent = 25
-
-# This is the chance, in percentage, that any given passenger journey will be a commuting trip. Any
-# trip that is not a commuting trip is classed as a visiting trip.
-commuting_trip_chance_percent = 67
 
 # disable companies from making ways public with the appropiate tool
 # even when disabled companies can still make stops public
