@@ -12,21 +12,21 @@ waytype=track
 freight=Passagiere
 payload=96
 overcrowded_capacity=48
-length=11
+length=10
 
 weight=32
 axles=4
 cost=1663000
 runningcost=118
-sound=-1
+sound=x24tohayes-epb.wav
 increase_maintenance_after_years=12
 
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[1]=1
 
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=30
 comfort=75
 
 Constraint[Prev][0]=MSJ&A-EMU-driving-motor
@@ -34,14 +34,37 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=MSJ&A-EMU-centre-trailer
 
-EmptyImage[E]=./images/msj&a-emu-driving.0.0
-EmptyImage[SE]=./images/msj&a-emu-driving.0.1
-EmptyImage[S]=./images/msj&a-emu-driving.0.2
-EmptyImage[SW]=./images/msj&a-emu-driving.0.3
-EmptyImage[W]=./images/msj&a-emu-driving.0.4
-EmptyImage[NW]=./images/msj&a-emu-driving.0.5
-EmptyImage[N]=./images/msj&a-emu-driving.0.6
-EmptyImage[NE]=./images/msj&a-emu-driving.0.7
+# Strictly, the MSJ&A had its own livery, but this is unlikely to be relevant here.
+liverytype[0]=LMS-Standard
+liverytype[1]=BR-Early
+liverytype[2]=BR-Blue
+
+EmptyImage[E][0]=./images/msj&a-emu-driving-motor.1.4
+EmptyImage[SE][0]=./images/msj&a-emu-driving-motor.1.5
+EmptyImage[S][0]=./images/msj&a-emu-driving-motor.1.6
+EmptyImage[SW][0]=./images/msj&a-emu-driving-motor.1.7
+EmptyImage[W][0]=./images/msj&a-emu-driving-motor.1.0
+EmptyImage[NW][0]=./images/msj&a-emu-driving-motor.1.1
+EmptyImage[N][0]=./images/msj&a-emu-driving-motor.1.2
+EmptyImage[NE][0]=./images/msj&a-emu-driving-motor.1.3
+
+EmptyImage[E][1]=./images/msj&a-emu-driving-motor-br.1.4
+EmptyImage[SE][1]=./images/msj&a-emu-driving-motor-br.1.5
+EmptyImage[S][1]=./images/msj&a-emu-driving-motor-br.1.6
+EmptyImage[SW][1]=./images/msj&a-emu-driving-motor-br.1.7
+EmptyImage[W][1]=./images/msj&a-emu-driving-motor-br.1.0
+EmptyImage[NW][1]=./images/msj&a-emu-driving-motor-br.1.1
+EmptyImage[N][1]=./images/msj&a-emu-driving-motor-br.1.2
+EmptyImage[NE][1]=./images/msj&a-emu-driving-motor-br.1.3
+
+EmptyImage[E][2]=./images/msj&a-emu-driving-motor-br-blue.1.4
+EmptyImage[SE][2]=./images/msj&a-emu-driving-motor-br-blue.1.5
+EmptyImage[S][2]=./images/msj&a-emu-driving-motor-br-blue.1.6
+EmptyImage[SW][2]=./images/msj&a-emu-driving-motor-br-blue.1.7
+EmptyImage[W][2]=./images/msj&a-emu-driving-motor-br-blue.1.0
+EmptyImage[NW][2]=./images/msj&a-emu-driving-motor-br-blue.1.1
+EmptyImage[N][2]=./images/msj&a-emu-driving-motor-br-blue.1.2
+EmptyImage[NE][2]=./images/msj&a-emu-driving-motor-br-blue.1.3
 
 ----
 
@@ -59,35 +82,58 @@ waytype=track
 freight=Passagiere
 payload=108
 overcrowded_capacity=54
-length=11
+length=10
 
 weight=31
 axles=4
 cost=1663000
 runningcost=118
-sound=-1
+
 increase_maintenance_after_years=12
 
 can_lead_from_rear=0
 bidirectional=0
 way_constraint_permissive[1]=1
 
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=30
 comfort=75
 
 Constraint[Prev][0]=MSJ&A-EMU-driving-trailer
 
 Constraint[Next][0]=MSJ&A-EMU-driving-motor
 
-EmptyImage[E]=./images/msj&a-emu-centre.0.0
-EmptyImage[SE]=./images/msj&a-emu-centre.0.1
-EmptyImage[S]=./images/msj&a-emu-centre.0.2
-EmptyImage[SW]=./images/msj&a-emu-centre.0.3
-EmptyImage[W]=./images/msj&a-emu-centre.0.4
-EmptyImage[NW]=./images/msj&a-emu-centre.0.5
-EmptyImage[N]=./images/msj&a-emu-centre.0.6
-EmptyImage[NE]=./images/msj&a-emu-centre.0.7
+
+liverytype[0]=LMS-Standard
+liverytype[1]=BR-Early
+liverytype[2]=BR-Blue
+
+EmptyImage[E][0]=./images/msj&a-emu-centre-trailer.1.4
+EmptyImage[SE][0]=./images/msj&a-emu-centre-trailer.1.5
+EmptyImage[S][0]=./images/msj&a-emu-centre-trailer.1.6
+EmptyImage[SW][0]=./images/msj&a-emu-centre-trailer.1.7
+EmptyImage[W][0]=./images/msj&a-emu-centre-trailer.1.0
+EmptyImage[NW][0]=./images/msj&a-emu-centre-trailer.1.1
+EmptyImage[N][0]=./images/msj&a-emu-centre-trailer.1.2
+EmptyImage[NE][0]=./images/msj&a-emu-centre-trailer.1.3
+
+EmptyImage[E][1]=./images/msj&a-emu-centre-trailer-br.1.4
+EmptyImage[SE][1]=./images/msj&a-emu-centre-trailer-br.1.5
+EmptyImage[S][1]=./images/msj&a-emu-centre-trailer-br.1.6
+EmptyImage[SW][1]=./images/msj&a-emu-centre-trailer-br.1.7
+EmptyImage[W][1]=./images/msj&a-emu-centre-trailer-br.1.0
+EmptyImage[NW][1]=./images/msj&a-emu-centre-trailer-br.1.1
+EmptyImage[N][1]=./images/msj&a-emu-centre-trailer-br.1.2
+EmptyImage[NE][1]=./images/msj&a-emu-centre-trailer-br.1.3
+
+EmptyImage[E][2]=./images/msj&a-emu-centre-trailer-br-blue.1.4
+EmptyImage[SE][2]=./images/msj&a-emu-centre-trailer-br-blue.1.5
+EmptyImage[S][2]=./images/msj&a-emu-centre-trailer-br-blue.1.6
+EmptyImage[SW][2]=./images/msj&a-emu-centre-trailer-br-blue.1.7
+EmptyImage[W][2]=./images/msj&a-emu-centre-trailer-br-blue.1.0
+EmptyImage[NW][2]=./images/msj&a-emu-centre-trailer-br-blue.1.1
+EmptyImage[N][2]=./images/msj&a-emu-centre-trailer-br-blue.1.2
+EmptyImage[NE][2]=./images/msj&a-emu-centre-trailer-br-blue.1.3
 
 ----
 
@@ -107,20 +153,20 @@ waytype=track
 freight=Passagiere
 payload=72
 overcrowded_capacity=36
-length=11
+length=10
 
 weight=58
 axles=4
 cost=1663000
 runningcost=118
-sound=-1
+sound=x24tohayes-epb.wav
 increase_maintenance_after_years=12
 
 can_lead_from_rear=1
 bidirectional=0
 
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=30
 comfort=75
 way_constraint_permissive[1]=1
 
@@ -129,11 +175,33 @@ Constraint[Prev][0]=MSJ&A-EMU-centre-trailer
 Constraint[Next][0]=MSJ&A-EMU-driving-trailer
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/msj&a-emu-driving.1.0
-EmptyImage[SE]=./images/msj&a-emu-driving.1.1
-EmptyImage[S]=./images/msj&a-emu-driving.1.2
-EmptyImage[SW]=./images/msj&a-emu-driving.1.3
-EmptyImage[W]=./images/msj&a-emu-driving.1.4
-EmptyImage[NW]=./images/msj&a-emu-driving.1.5
-EmptyImage[N]=./images/msj&a-emu-driving.1.6
-EmptyImage[NE]=./images/msj&a-emu-driving.1.7
+liverytype[0]=LMS-Standard
+liverytype[1]=BR-Early
+liverytype[2]=BR-Blue
+
+EmptyImage[E][0]=./images/msj&a-emu-driving-trailer.1.4
+EmptyImage[SE][0]=./images/msj&a-emu-driving-trailer.1.5
+EmptyImage[S][0]=./images/msj&a-emu-driving-trailer.1.6
+EmptyImage[SW][0]=./images/msj&a-emu-driving-trailer.1.7
+EmptyImage[W][0]=./images/msj&a-emu-driving-trailer.1.0
+EmptyImage[NW][0]=./images/msj&a-emu-driving-trailer.1.1
+EmptyImage[N][0]=./images/msj&a-emu-driving-trailer.1.2
+EmptyImage[NE][0]=./images/msj&a-emu-driving-trailer.1.3
+
+EmptyImage[E][1]=./images/msj&a-emu-driving-trailer-br.1.4
+EmptyImage[SE][1]=./images/msj&a-emu-driving-trailer-br.1.5
+EmptyImage[S][1]=./images/msj&a-emu-driving-trailer-br.1.6
+EmptyImage[SW][1]=./images/msj&a-emu-driving-trailer-br.1.7
+EmptyImage[W][1]=./images/msj&a-emu-driving-trailer-br.1.0
+EmptyImage[NW][1]=./images/msj&a-emu-driving-trailer-br.1.1
+EmptyImage[N][1]=./images/msj&a-emu-driving-trailer-br.1.2
+EmptyImage[NE][1]=./images/msj&a-emu-driving-trailer-br.1.3
+
+EmptyImage[E][2]=./images/msj&a-emu-driving-trailer-br-blue.1.4
+EmptyImage[SE][2]=./images/msj&a-emu-driving-trailer-br-blue.1.5
+EmptyImage[S][2]=./images/msj&a-emu-driving-trailer-br-blue.1.6
+EmptyImage[SW][2]=./images/msj&a-emu-driving-trailer-br-blue.1.7
+EmptyImage[W][2]=./images/msj&a-emu-driving-trailer-br-blue.1.0
+EmptyImage[NW][2]=./images/msj&a-emu-driving-trailer-br-blue.1.1
+EmptyImage[N][2]=./images/msj&a-emu-driving-trailer-br-blue.1.2
+EmptyImage[NE][2]=./images/msj&a-emu-driving-trailer-br-blue.1.3

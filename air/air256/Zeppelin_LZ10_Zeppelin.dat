@@ -2,7 +2,7 @@ obj=vehicle
 name=Zeppelin_LZ10
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=petrol
 # https://en.wikipedia.org/wiki/LZ_10_Schwaben
 speed=73
 # 3x108kW=324kW max, SHP=0,9*kW
@@ -13,7 +13,11 @@ freight=Passagiere
 #payload 7t
 payload=20
 # dead-weight = 45.520pound
-weight=21
+# The realistic weight does not work with contemporary grass runways/taxiways.
+# The dead-weight would have no effect on performance of a ligter than air vehicle
+# and is arguably not the correct figure to use anyway.
+#weight=21
+weight=5
 cost=15000000
 runningcost=800
 intro_year=1911
@@ -32,7 +36,9 @@ catering_level=5
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=0
 
-sound=planelow.wav
+# Not sure that this sound is appropriate here.
+#sound=planelow.wav
+range=1400
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

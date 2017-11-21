@@ -3,7 +3,7 @@ obj=vehicle
 name=Boeing_707_420(BOAC)
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 # Cruising speed of the 707-420 is hard to find, so
 # using speed of the 707-320B for the time being.
 speed=890
@@ -31,7 +31,8 @@ catering_level=4
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=3950
 
-sound=aircraft-jet_stop.wav
+sound=alessandro-camilo-boeing-707.wav
+range=7177
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

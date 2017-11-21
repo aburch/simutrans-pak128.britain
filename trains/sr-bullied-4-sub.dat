@@ -4,7 +4,7 @@ engine_type=electric
 speed=120
 power=412
 gear=80
-tractive_effort=35
+tractive_effort=45
 copyright=Kieron/JamesPetts
 intro_year=1941
 intro_month=5
@@ -13,38 +13,67 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload=84
-overcrowded_capacity=42
+overcrowded_capacity=50
 length=11
 
 weight=41
 axles=4
 cost=1850000
 runningcost=123
-sound=-1
+sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
 bidirectional=0
 
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=40
 comfort=70
 way_constraint_permissive[0]=0
 
-Constraint[Prev][0]=SR-4SUB(rear)
-Constraint[Prev][1]=SR-3SUB(rear)
-Constraint[Prev][2]=LSWR-EMU(rear)
-Constraint[Prev][3]=none
+Constraint[Prev][0]=SR-3SUB(rear)
+Constraint[Prev][1]=LSWR-EMU(rear)
+Constraint[Prev][2]=SR-4SUB(rear)
+Constraint[Prev][3]=SR-2-NOL-rear
+Constraint[Prev][4]=SR-4LAV(rear)
+Constraint[Prev][5]=SR-401[BIL]Rear
+Constraint[Prev][6]=SR-6PAN(rear)
+Constraint[Prev][7]=sr-2hal-rear
+Constraint[Prev][8]=SR-404[COR]Rear
+Constraint[Prev][9]=SR-augmentation-trailer(rear)
+Constraint[Prev][10]=none
 
 Constraint[Next][0]=SR-4SUB(centre1)
 
-EmptyImage[E]=./images/sr-4sub-driving-motor.0.0
-EmptyImage[SE]=./images/sr-4sub-driving-motor.0.1
-EmptyImage[S]=./images/sr-4sub-driving-motor.0.2
-EmptyImage[SW]=./images/sr-4sub-driving-motor.0.3
-EmptyImage[W]=./images/sr-4sub-driving-motor.0.4
-EmptyImage[NW]=./images/sr-4sub-driving-motor.0.5
-EmptyImage[N]=./images/sr-4sub-driving-motor.0.6
-EmptyImage[NE]=./images/sr-4sub-driving-motor.0.7
+liverytype[0]=SR-Malachite-Green
+liverytype[1]=BR-Early
+liverytype[2]=BR-Blue
+
+EmptyImage[E][0]=./images/sr-4-sub-driving-motor-front.1.4
+EmptyImage[SE][0]=./images/sr-4-sub-driving-motor-front.1.5
+EmptyImage[S][0]=./images/sr-4-sub-driving-motor-front.1.6
+EmptyImage[SW][0]=./images/sr-4-sub-driving-motor-front.1.7
+EmptyImage[W][0]=./images/sr-4-sub-driving-motor-front.1.0
+EmptyImage[NW][0]=./images/sr-4-sub-driving-motor-front.1.1
+EmptyImage[N][0]=./images/sr-4-sub-driving-motor-front.1.2
+EmptyImage[NE][0]=./images/sr-4-sub-driving-motor-front.1.3
+
+EmptyImage[E][1]=./images/sr-4-sub-driving-motor-front-br.1.4
+EmptyImage[SE][1]=./images/sr-4-sub-driving-motor-front-br.1.5
+EmptyImage[S][1]=./images/sr-4-sub-driving-motor-front-br.1.6
+EmptyImage[SW][1]=./images/sr-4-sub-driving-motor-front-br.1.7
+EmptyImage[W][1]=./images/sr-4-sub-driving-motor-front-br.1.0
+EmptyImage[NW][1]=./images/sr-4-sub-driving-motor-front-br.1.1
+EmptyImage[N][1]=./images/sr-4-sub-driving-motor-front-br.1.2
+EmptyImage[NE][1]=./images/sr-4-sub-driving-motor-front-br.1.3
+
+EmptyImage[E][2]=./images/sr-4-sub-driving-motor-front-br-blue.1.4
+EmptyImage[SE][2]=./images/sr-4-sub-driving-motor-front-br-blue.1.5
+EmptyImage[S][2]=./images/sr-4-sub-driving-motor-front-br-blue.1.6
+EmptyImage[SW][2]=./images/sr-4-sub-driving-motor-front-br-blue.1.7
+EmptyImage[W][2]=./images/sr-4-sub-driving-motor-front-br-blue.1.0
+EmptyImage[NW][2]=./images/sr-4-sub-driving-motor-front-br-blue.1.1
+EmptyImage[N][2]=./images/sr-4-sub-driving-motor-front-br-blue.1.2
+EmptyImage[NE][2]=./images/sr-4-sub-driving-motor-front-br-blue.1.3
 
 ---
 
@@ -54,7 +83,7 @@ engine_type=electric
 speed=120
 power=412
 gear=80
-tractive_effort=35
+tractive_effort=45
 copyright=Kieron/JamesPetts
 intro_year=1941
 intro_month=5
@@ -70,31 +99,60 @@ weight=41
 axles=4
 cost=1850000
 runningcost=123
-sound=-1
+sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[0]=0
 
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=40
 comfort=70
 
 Constraint[Prev][0]=SR-4SUB(centre2)
 
-Constraint[Next][0]=SR-4SUB(front)
-Constraint[Next][1]=SR-3SUB(front)
-Constraint[Next][2]=LSWR-EMU(front)
-Constraint[Next][3]=none
+Constraint[Next][0]=SR-3SUB(front)
+Constraint[Next][1]=LSWR-EMU(front)
+Constraint[Next][2]=SR-4SUB(front)
+Constraint[Next][3]=SR-2-NOL-front
+Constraint[Next][4]=SR-4LAV(front)
+Constraint[Next][5]=SR-401[BIL]Front
+Constraint[Next][6]=SR-6PAN(front)
+Constraint[Next][7]=sr-2hal-front
+Constraint[Next][8]=SR-404[COR]Front
+Constraint[Next][9]=SR-augmentation-trailer(front)
+Constraint[Next][10]=none
 
-EmptyImage[E]=./images/sr-4sub-driving-motor.1.0
-EmptyImage[SE]=./images/sr-4sub-driving-motor.1.1
-EmptyImage[S]=./images/sr-4sub-driving-motor.1.2
-EmptyImage[SW]=./images/sr-4sub-driving-motor.1.3
-EmptyImage[W]=./images/sr-4sub-driving-motor.1.4
-EmptyImage[NW]=./images/sr-4sub-driving-motor.1.5
-EmptyImage[N]=./images/sr-4sub-driving-motor.1.6
-EmptyImage[NE]=./images/sr-4sub-driving-motor.1.7
+liverytype[0]=SR-Malachite-Green
+liverytype[1]=BR-Early
+liverytype[2]=BR-Blue
+
+EmptyImage[E][0]=./images/sr-4-sub-driving-motor-rear.1.4
+EmptyImage[SE][0]=./images/sr-4-sub-driving-motor-rear.1.5
+EmptyImage[S][0]=./images/sr-4-sub-driving-motor-rear.1.6
+EmptyImage[SW][0]=./images/sr-4-sub-driving-motor-rear.1.7
+EmptyImage[W][0]=./images/sr-4-sub-driving-motor-rear.1.0
+EmptyImage[NW][0]=./images/sr-4-sub-driving-motor-rear.1.1
+EmptyImage[N][0]=./images/sr-4-sub-driving-motor-rear.1.2
+EmptyImage[NE][0]=./images/sr-4-sub-driving-motor-rear.1.3
+
+EmptyImage[E][1]=./images/sr-4-sub-driving-motor-rear-br.1.4
+EmptyImage[SE][1]=./images/sr-4-sub-driving-motor-rear-br.1.5
+EmptyImage[S][1]=./images/sr-4-sub-driving-motor-rear-br.1.6
+EmptyImage[SW][1]=./images/sr-4-sub-driving-motor-rear-br.1.7
+EmptyImage[W][1]=./images/sr-4-sub-driving-motor-rear-br.1.0
+EmptyImage[NW][1]=./images/sr-4-sub-driving-motor-rear-br.1.1
+EmptyImage[N][1]=./images/sr-4-sub-driving-motor-rear-br.1.2
+EmptyImage[NE][1]=./images/sr-4-sub-driving-motor-rear-br.1.3
+
+EmptyImage[E][2]=./images/sr-4-sub-driving-motor-rear-br-blue.1.4
+EmptyImage[SE][2]=./images/sr-4-sub-driving-motor-rear-br-blue.1.5
+EmptyImage[S][2]=./images/sr-4-sub-driving-motor-rear-br-blue.1.6
+EmptyImage[SW][2]=./images/sr-4-sub-driving-motor-rear-br-blue.1.7
+EmptyImage[W][2]=./images/sr-4-sub-driving-motor-rear-br-blue.1.0
+EmptyImage[NW][2]=./images/sr-4-sub-driving-motor-rear-br-blue.1.1
+EmptyImage[N][2]=./images/sr-4-sub-driving-motor-rear-br-blue.1.2
+EmptyImage[NE][2]=./images/sr-4-sub-driving-motor-rear-br-blue.1.3
 
 ---
 
@@ -112,35 +170,57 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload=106
-overcrowded_capacity=53
+overcrowded_capacity=63
 length=11
 
 weight=28
 axles=4
 cost=872000
 runningcost=36
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[0]=0
 
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=40
 comfort=70
 
 Constraint[Prev][0]=SR-4SUB(front)
 
 Constraint[Next][0]=SR-4SUB(centre2)
 
-EmptyImage[E]=./images/sr-4sub-trailer.0.0
-EmptyImage[SE]=./images/sr-4sub-trailer.0.1
-EmptyImage[S]=./images/sr-4sub-trailer.0.2
-EmptyImage[SW]=./images/sr-4sub-trailer.0.3
-EmptyImage[W]=./images/sr-4sub-trailer.0.4
-EmptyImage[NW]=./images/sr-4sub-trailer.0.5
-EmptyImage[N]=./images/sr-4sub-trailer.0.6
-EmptyImage[NE]=./images/sr-4sub-trailer.0.7
+liverytype[0]=SR-Malachite-Green
+liverytype[1]=BR-Early
+liverytype[2]=BR-Blue
+
+EmptyImage[E][0]=./images/sr-4-sub-trailer.1.4
+EmptyImage[SE][0]=./images/sr-4-sub-trailer.1.5
+EmptyImage[S][0]=./images/sr-4-sub-trailer.1.6
+EmptyImage[SW][0]=./images/sr-4-sub-trailer.1.7
+EmptyImage[W][0]=./images/sr-4-sub-trailer.1.0
+EmptyImage[NW][0]=./images/sr-4-sub-trailer.1.1
+EmptyImage[N][0]=./images/sr-4-sub-trailer.1.2
+EmptyImage[NE][0]=./images/sr-4-sub-trailer.1.3
+
+EmptyImage[E][1]=./images/sr-4-sub-trailer-br.1.4
+EmptyImage[SE][1]=./images/sr-4-sub-trailer-br.1.5
+EmptyImage[S][1]=./images/sr-4-sub-trailer-br.1.6
+EmptyImage[SW][1]=./images/sr-4-sub-trailer-br.1.7
+EmptyImage[W][1]=./images/sr-4-sub-trailer-br.1.0
+EmptyImage[NW][1]=./images/sr-4-sub-trailer-br.1.1
+EmptyImage[N][1]=./images/sr-4-sub-trailer-br.1.2
+EmptyImage[NE][1]=./images/sr-4-sub-trailer-br.1.3
+
+EmptyImage[E][2]=./images/sr-4-sub-trailer-br-blue.1.4
+EmptyImage[SE][2]=./images/sr-4-sub-trailer-br-blue.1.5
+EmptyImage[S][2]=./images/sr-4-sub-trailer-br-blue.1.6
+EmptyImage[SW][2]=./images/sr-4-sub-trailer-br-blue.1.7
+EmptyImage[W][2]=./images/sr-4-sub-trailer-br-blue.1.0
+EmptyImage[NW][2]=./images/sr-4-sub-trailer-br-blue.1.1
+EmptyImage[N][2]=./images/sr-4-sub-trailer-br-blue.1.2
+EmptyImage[NE][2]=./images/sr-4-sub-trailer-br-blue.1.3
 
 ---
 
@@ -165,14 +245,14 @@ weight=28
 axles=4
 cost=872000
 runningcost=36
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[0]=0
 
-min_loading_time=15
-max_loading_time=45
+min_loading_time=10
+max_loading_time=40
 comfort=70
 
 Constraint[Next][0]=SR-4SUB(rear)
@@ -183,11 +263,33 @@ Constraint[Prev][0]=SR-4SUB(centre1)
 Constraint[Prev][1]=SR-3SUB(centre)
 Constraint[Prev][2]=LSWR-EMU(centre)
 
-EmptyImage[E]=./images/sr-4sub-trailer.0.0
-EmptyImage[SE]=./images/sr-4sub-trailer.0.1
-EmptyImage[S]=./images/sr-4sub-trailer.0.2
-EmptyImage[SW]=./images/sr-4sub-trailer.0.3
-EmptyImage[W]=./images/sr-4sub-trailer.0.4
-EmptyImage[NW]=./images/sr-4sub-trailer.0.5
-EmptyImage[N]=./images/sr-4sub-trailer.0.6
-EmptyImage[NE]=./images/sr-4sub-trailer.0.7
+liverytype[0]=SR-Malachite-Green
+liverytype[1]=BR-Early
+liverytype[2]=BR-Blue
+
+EmptyImage[E][0]=./images/sr-4-sub-trailer.1.4
+EmptyImage[SE][0]=./images/sr-4-sub-trailer.1.5
+EmptyImage[S][0]=./images/sr-4-sub-trailer.1.6
+EmptyImage[SW][0]=./images/sr-4-sub-trailer.1.7
+EmptyImage[W][0]=./images/sr-4-sub-trailer.1.0
+EmptyImage[NW][0]=./images/sr-4-sub-trailer.1.1
+EmptyImage[N][0]=./images/sr-4-sub-trailer.1.2
+EmptyImage[NE][0]=./images/sr-4-sub-trailer.1.3
+
+EmptyImage[E][1]=./images/sr-4-sub-trailer-br.1.4
+EmptyImage[SE][1]=./images/sr-4-sub-trailer-br.1.5
+EmptyImage[S][1]=./images/sr-4-sub-trailer-br.1.6
+EmptyImage[SW][1]=./images/sr-4-sub-trailer-br.1.7
+EmptyImage[W][1]=./images/sr-4-sub-trailer-br.1.0
+EmptyImage[NW][1]=./images/sr-4-sub-trailer-br.1.1
+EmptyImage[N][1]=./images/sr-4-sub-trailer-br.1.2
+EmptyImage[NE][1]=./images/sr-4-sub-trailer-br.1.3
+
+EmptyImage[E][2]=./images/sr-4-sub-trailer-br-blue.1.4
+EmptyImage[SE][2]=./images/sr-4-sub-trailer-br-blue.1.5
+EmptyImage[S][2]=./images/sr-4-sub-trailer-br-blue.1.6
+EmptyImage[SW][2]=./images/sr-4-sub-trailer-br-blue.1.7
+EmptyImage[W][2]=./images/sr-4-sub-trailer-br-blue.1.0
+EmptyImage[NW][2]=./images/sr-4-sub-trailer-br-blue.1.1
+EmptyImage[N][2]=./images/sr-4-sub-trailer-br-blue.1.2
+EmptyImage[NE][2]=./images/sr-4-sub-trailer-br-blue.1.3

@@ -16,11 +16,12 @@ length=5
 brake_force=0
 rolling_resistance=18
 
-weight=9
+# http://www.lbscr.org/coaches/Stroudley/firsts.html
+weight=9.5
 axles=2
 cost=285000
 runningcost=17
-sound=-1
+
 upgrade[0]=LBSCR-4Wheel-First-fitted
 
 comfort=62
@@ -135,12 +136,13 @@ length=5
 brake_force=5
 rolling_resistance=18
 
-weight=10
+# http://www.lbscr.org/coaches/Stroudley/firsts.html
+weight=9.7
 axles=2
 cost=340000
 upgrade_price=80000
 runningcost=18
-sound=-1
+
 
 comfort=62
 min_loading_time=17
@@ -166,6 +168,8 @@ Constraint[Prev][13]=LBSCR-sub-bogie-48ft
 Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
 Constraint[Prev][15]=LBSCR-sub-bogie-54ft
 Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
+Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -184,6 +188,8 @@ Constraint[Next][13]=LBSCR-sub-bogie-48ft
 Constraint[Next][14]=LBSCR-sub-bogie-48ft-brake-rear
 Constraint[Next][15]=LBSCR-sub-bogie-54ft
 Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
+Constraint[Next][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Next][18]=LBSCR-6Wheel-fast-freight-van
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh

@@ -1,6 +1,6 @@
 obj=vehicle
 name=BR-7MT-Tender
-speed=175
+speed=160
 power=0
 copyright=Kieron
 intro_year=1951
@@ -17,7 +17,7 @@ weight=49
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=13
 

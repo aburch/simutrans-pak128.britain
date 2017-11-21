@@ -2,9 +2,9 @@ obj=vehicle
 name=HR-Jones-Goods
 engine_type=steam
 smoke=Steam
-speed=110
+speed=100
 # Extrapolated
-power=258
+power=281
 # http://en.wikipedia.org/wiki/Highland_Railway_Jones_Goods_Class
 tractive_effort=109
 copyright=James
@@ -22,7 +22,7 @@ weight=57
 axle_load=14
 cost=4435200
 runningcost=528
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=27
 years_before_maintenance_max_reached=21
 

@@ -10,7 +10,7 @@ engine_type=steam
 smoke=Steam
 speed=60
 # Extrapolated
-power=114
+power=95
 # http://www.festipedia.org.uk/wiki/Earl_Of_Merioneth_II
 tractive_effort=41
 copyright=James/jamespetts
@@ -31,7 +31,7 @@ axle_load=7
 cost=5396154
 upgrade_price=1079231
 runningcost=162
-sound=-1
+sound=the-mart-ban-double-fairlie.wav
 
 can_lead_from_rear=0
 bidirectional=1

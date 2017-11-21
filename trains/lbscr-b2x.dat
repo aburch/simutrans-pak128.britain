@@ -2,9 +2,9 @@ obj=vehicle
 name=LBSCR-B2x
 engine_type=steam
 smoke=Steam
-speed=130
+speed=132
 # Extrapolated
-power=204
+power=243
 # http://en.wikipedia.org/wiki/LB%26SCR_B2_class
 tractive_effort=67
 copyright=James/jamespetts
@@ -22,7 +22,7 @@ axle_load=15
 cost=5900000
 upgrade_price=2000000
 runningcost=1700
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 available_only_as_upgrade=1
 
 Constraint[Next][0]=LBSCR-B2-tender

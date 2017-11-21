@@ -11,10 +11,11 @@ intro_month=6
 Dims=1,1,16
 NoInfo=1
 Level=1
+allow_underground=0
 
-station_capacity=0
-station_maintenance=2500
-station_price=140000
+capacity=0
+maintenance=2500
+cost=140000
 
 BackImage[0][0][0][0][0][0]=brick-platform-narrow.1.0
 BackImage[1][0][0][0][0][0]=brick-platform-narrow.0.0
@@ -62,15 +63,17 @@ type=stop
 waytype=narrowgauge_track
 enables_pax=1
 #no intro yet - adjust once early station
-intro_year=1850
+intro_year=1849
+intro_month=3
 #retire_year=1960
 Dims=1,1,16
 NoInfo=1
 Level=2
+allow_underground=0
 
-station_maintenance=3400
-station_price=250000
-station_capacity=22
+maintenance=3400
+cost=250000
+capacity=22
 
 BackImage[0][0][0][0][0][0]=brick-platform-building-narrow.0.1
 BackImage[1][0][0][0][0][0]=brick-platform-building-narrow.0.2
@@ -119,15 +122,17 @@ copyright=Kieron/James
 type=stop
 waytype=narrowgauge_track
 enables_pax=1
-intro_year=1850
+intro_year=1849
+intro_month=3
 #retire_year=1960
 Dims=1,1,16
 NoInfo=1
 Level=4
+allow_underground=0
 
-station_maintenance=4200
-station_price=400000
-station_capacity=35
+maintenance=4200
+cost=400000
+capacity=35
 
 BackImage[0][0][0][0][0][0]=brick-platform-overall-narrow.0.1
 BackImage[1][0][0][0][0][0]=brick-platform-overall-narrow.0.2

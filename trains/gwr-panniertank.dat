@@ -3,9 +3,9 @@ obj=vehicle
 name=GWR-PannierTank
 engine_type=steam
 smoke=Steam
-speed=100
+speed=95
 # Extrapolated
-power=160
+power=255
 tractive_effort=100
 copyright=Kieron
 intro_year=1929
@@ -21,7 +21,7 @@ weight=47
 axles=3
 cost=2772000
 runningcost=264
-sound=-1
+sound=konakaboom-gwr-pannier.wav
 increase_maintenance_after_years=9
 years_before_maintenance_max_reached=17
 

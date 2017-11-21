@@ -14,13 +14,13 @@ waytype=track
 freight=Passagiere
 payload=87
 overcrowded_capacity=26
-length=11
+length=10
 
 weight=55
 axles=4
 cost=13210000
 runningcost=114
-sound=-1
+sound=video47-emu-generic.wav
 increase_maintenance_after_years=17
 
 can_lead_from_rear=1
@@ -36,14 +36,26 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=L&YR-EMU-driving-trailer
 
-EmptyImage[E]=./images/l&yr-emu.0.0
-EmptyImage[SE]=./images/l&yr-emu.0.1
-EmptyImage[S]=./images/l&yr-emu.0.2
-EmptyImage[SW]=./images/l&yr-emu.0.3
-EmptyImage[W]=./images/l&yr-emu.0.4
-EmptyImage[NW]=./images/l&yr-emu.0.5
-EmptyImage[N]=./images/l&yr-emu.0.6
-EmptyImage[NE]=./images/l&yr-emu.0.7
+liverytype[0]=LYR-Black
+liverytype[1]=LMS-Standard
+
+EmptyImage[E][0]=./images/lyr-emu-driving-motor.1.4
+EmptyImage[SE][0]=./images/lyr-emu-driving-motor.1.5
+EmptyImage[S][0]=./images/lyr-emu-driving-motor.1.6
+EmptyImage[SW][0]=./images/lyr-emu-driving-motor.1.7
+EmptyImage[W][0]=./images/lyr-emu-driving-motor.1.0
+EmptyImage[NW][0]=./images/lyr-emu-driving-motor.1.1
+EmptyImage[N][0]=./images/lyr-emu-driving-motor.1.2
+EmptyImage[NE][0]=./images/lyr-emu-driving-motor.1.3
+
+EmptyImage[E][1]=./images/lyr-emu-driving-motor-lms.1.4
+EmptyImage[SE][1]=./images/lyr-emu-driving-motor-lms.1.5
+EmptyImage[S][1]=./images/lyr-emu-driving-motor-lms.1.6
+EmptyImage[SW][1]=./images/lyr-emu-driving-motor-lms.1.7
+EmptyImage[W][1]=./images/lyr-emu-driving-motor-lms.1.0
+EmptyImage[NW][1]=./images/lyr-emu-driving-motor-lms.1.1
+EmptyImage[N][1]=./images/lyr-emu-driving-motor-lms.1.2
+EmptyImage[NE][1]=./images/lyr-emu-driving-motor-lms.1.3
 
 ---
 
@@ -61,13 +73,13 @@ waytype=track
 freight=Passagiere
 payload=95
 overcrowded_capacity=29
-length=11
+length=10
 
 weight=29
 axles=4
 cost=13210000
 runningcost=114
-sound=-1
+sound=video47-emu-generic.wav
 increase_maintenance_after_years=17
 
 can_lead_from_rear=1
@@ -83,11 +95,23 @@ Constraint[Prev][0]=L&YR-EMU-driving-motor
 Constraint[Next][0]=L&YR-EMU-driving-motor
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/l&yr-emu.1.0
-EmptyImage[SE]=./images/l&yr-emu.1.1
-EmptyImage[S]=./images/l&yr-emu.1.2
-EmptyImage[SW]=./images/l&yr-emu.1.3
-EmptyImage[W]=./images/l&yr-emu.1.4
-EmptyImage[NW]=./images/l&yr-emu.1.5
-EmptyImage[N]=./images/l&yr-emu.1.6
-EmptyImage[NE]=./images/l&yr-emu.1.7
+liverytype[0]=LYR-Black
+liverytype[1]=LMS-Standard
+
+EmptyImage[E][0]=./images/lyr-emu-driving-trailer.1.4
+EmptyImage[SE][0]=./images/lyr-emu-driving-trailer.1.5
+EmptyImage[S][0]=./images/lyr-emu-driving-trailer.1.6
+EmptyImage[SW][0]=./images/lyr-emu-driving-trailer.1.7
+EmptyImage[W][0]=./images/lyr-emu-driving-trailer.1.0
+EmptyImage[NW][0]=./images/lyr-emu-driving-trailer.1.1
+EmptyImage[N][0]=./images/lyr-emu-driving-trailer.1.2
+EmptyImage[NE][0]=./images/lyr-emu-driving-trailer.1.3
+
+EmptyImage[E][1]=./images/lyr-emu-driving-trailer-lms.1.4
+EmptyImage[SE][1]=./images/lyr-emu-driving-trailer-lms.1.5
+EmptyImage[S][1]=./images/lyr-emu-driving-trailer-lms.1.6
+EmptyImage[SW][1]=./images/lyr-emu-driving-trailer-lms.1.7
+EmptyImage[W][1]=./images/lyr-emu-driving-trailer-lms.1.0
+EmptyImage[NW][1]=./images/lyr-emu-driving-trailer-lms.1.1
+EmptyImage[N][1]=./images/lyr-emu-driving-trailer-lms.1.2
+EmptyImage[NE][1]=./images/lyr-emu-driving-trailer-lms.1.3

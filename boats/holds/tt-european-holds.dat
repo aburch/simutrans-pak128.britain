@@ -6,11 +6,15 @@ speed=35
 freight=Post
 payload=1200
 intro_year=1975
-intro_month=1
+intro_month=11
 retire_year=1991
-retire_month=1
+retire_month=9
 
 length=3
+
+# 30-45 minutes
+min_loading_time=1800
+max_loading_time=2700
 
 Constraint[Prev][0]=TTEuropeanFreight
 Constraint[Prev][1]=TTEuropeanFreightAddMail
@@ -48,11 +52,15 @@ speed=35
 freight=vegetables
 payload=120
 intro_year=1975
-intro_month=1
+intro_month=11
 retire_year=1991
-retire_month=1
+retire_month=9
 
 length=3
+
+# 30-45 minutes
+min_loading_time=1800
+max_loading_time=2700
 
 Constraint[Prev][0]=TTEuropeanFreight
 Constraint[Prev][1]=TTEuropeanFreightAddMail
@@ -90,11 +98,15 @@ speed=35
 freight=meat
 payload=120
 intro_year=1975
-intro_month=1
+intro_month=11
 retire_year=1991
-retire_month=1
+retire_month=9
 
 length=3
+
+# 30-45 minutes
+min_loading_time=1800
+max_loading_time=2700
 
 Constraint[Prev][0]=TTEuropeanFreight
 Constraint[Prev][1]=TTEuropeanFreightAddMail

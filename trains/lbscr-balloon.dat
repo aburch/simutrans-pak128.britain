@@ -14,9 +14,10 @@ overcrowded_capacity=25
 length=9
 
 weight=27
+axles=4
 cost=777000
 runningcost=37
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -41,6 +42,8 @@ Constraint[Prev][13]=LBSCR-sub-bogie-48ft
 Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
 Constraint[Prev][15]=LBSCR-sub-bogie-54ft
 Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
+Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -59,6 +62,8 @@ Constraint[Next][13]=LBSCR-sub-bogie-48ft
 Constraint[Next][14]=LBSCR-sub-bogie-48ft-brake-rear
 Constraint[Next][15]=LBSCR-sub-bogie-54ft
 Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
+Constraint[Next][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Next][18]=LBSCR-6Wheel-fast-freight-van
 
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=LBSCR-Late
@@ -66,14 +71,14 @@ liverytype[2]=SR-Olive-Green
 liverytype[3]=SR-Malachite-Green
 liverytype[4]=BR-Early
 
-EmptyImage[E][0]=./images/lbscr-balloon.1.4
-EmptyImage[SE][0]=./images/lbscr-balloon.1.5
-EmptyImage[S][0]=./images/lbscr-balloon.1.6
-EmptyImage[SW][0]=./images/lbscr-balloon.1.7
-EmptyImage[W][0]=./images/lbscr-balloon.1.0
-EmptyImage[NW][0]=./images/lbscr-balloon.1.1
-EmptyImage[N][0]=./images/lbscr-balloon.1.2
-EmptyImage[NE][0]=./images/lbscr-balloon.1.3
+EmptyImage[E][0]=./images/lbscr-balloon-umber.1.4
+EmptyImage[SE][0]=./images/lbscr-balloon-umber.1.5
+EmptyImage[S][0]=./images/lbscr-balloon-umber.1.6
+EmptyImage[SW][0]=./images/lbscr-balloon-umber.1.7
+EmptyImage[W][0]=./images/lbscr-balloon-umber.1.0
+EmptyImage[NW][0]=./images/lbscr-balloon-umber.1.1
+EmptyImage[N][0]=./images/lbscr-balloon-umber.1.2
+EmptyImage[NE][0]=./images/lbscr-balloon-umber.1.3
 
 EmptyImage[E][1]=./images/lbscr-balloon-late.1.4
 EmptyImage[SE][1]=./images/lbscr-balloon-late.1.5
@@ -128,9 +133,10 @@ overcrowded_capacity=14
 length=9
 
 weight=27
+axles=4
 cost=777000
 runningcost=37
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -155,6 +161,8 @@ Constraint[Prev][13]=LBSCR-sub-bogie-48ft
 Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
 Constraint[Prev][15]=LBSCR-sub-bogie-54ft
 Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
+Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
 
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=LBSCR-Late
@@ -224,9 +232,10 @@ overcrowded_capacity=14
 length=9
 
 weight=27
+axles=4
 cost=777000
 runningcost=37
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -251,7 +260,9 @@ Constraint[Next][13]=LBSCR-sub-bogie-48ft
 Constraint[Next][14]=LBSCR-sub-bogie-48ft-brake-rear
 Constraint[Next][15]=LBSCR-sub-bogie-54ft
 Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
-Constraint[Next][17]=none
+Constraint[Next][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Next][18]=LBSCR-6Wheel-fast-freight-van
+Constraint[Next][19]=none
 
 liverytype[0]=LBSCR-Marsh
 liverytype[1]=LBSCR-Late
@@ -320,9 +331,10 @@ payload=350
 length=8
 
 weight=26
+axles=4
 cost=740000
 runningcost=35
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1

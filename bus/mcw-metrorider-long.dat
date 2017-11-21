@@ -1,0 +1,67 @@
+# http://www.aronline.co.uk/blogs/facts-and-figures/essays/mcw-optare-metrorider-a-bus-right-on-time/
+# Apparently, these had corrosion problems (the long ones in particular)
+obj=vehicle
+name=mcw-metrorider-long
+copyright=MattWilson&JamesPetts
+speed=64
+intro_year=1986
+intro_month=2
+retire_year=1989
+retire_month=1
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+payload=31
+overcrowded_capacity=6
+# Cummins B Series engine
+# Lower in power than the Optare version
+power=85
+tractive_effort=15
+gear=50
+length=5
+
+# Guessed
+weight=5.5
+axles=2
+cost=3400000
+runningcost=121
+
+comfort=36
+# Single entrance pay driver with narrow entrance: 4.4 seconds per passenger
+min_loading_time=5
+max_loading_time=136
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=LT
+liverytype[1]=Metroline-blue-skirt
+liverytype[2]=Arriva-original
+
+EmptyImage[E][0]=./images/mcw-metrorider-long-london-buses_E.0.0,-33,14
+EmptyImage[SE][0]=./images/mcw-metrorider-long-london-buses_SE.0.0,-13,0
+EmptyImage[S][0]=./images/mcw-metrorider-long-london-buses_S.0.0,4,0
+EmptyImage[SW][0]=./images/mcw-metrorider-long-london-buses_SW.0.0,-8,10
+EmptyImage[W][0]=./images/mcw-metrorider-long-london-buses_W.0.0,4,5
+EmptyImage[NW][0]=./images/mcw-metrorider-long-london-buses_NW.0.0,12,10
+EmptyImage[N][0]=./images/mcw-metrorider-long-london-buses_N.0.0,0,33
+EmptyImage[NE][0]=./images/mcw-metrorider-long-london-buses_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/mcw-metrorider-long-metroline_E.0.0,-33,14
+EmptyImage[SE][1]=./images/mcw-metrorider-long-metroline_SE.0.0,-13,0
+EmptyImage[S][1]=./images/mcw-metrorider-long-metroline_S.0.0,4,0
+EmptyImage[SW][1]=./images/mcw-metrorider-long-metroline_SW.0.0,-8,10
+EmptyImage[W][1]=./images/mcw-metrorider-long-metroline_W.0.0,4,5
+EmptyImage[NW][1]=./images/mcw-metrorider-long-metroline_NW.0.0,12,10
+EmptyImage[N][1]=./images/mcw-metrorider-long-metroline_N.0.0,0,33
+EmptyImage[NE][1]=./images/mcw-metrorider-long-metroline_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/mcw-metrorider-long-arriva_E.0.0,-33,14
+EmptyImage[SE][2]=./images/mcw-metrorider-long-arriva_SE.0.0,-13,0
+EmptyImage[S][2]=./images/mcw-metrorider-long-arriva_S.0.0,4,0
+EmptyImage[SW][2]=./images/mcw-metrorider-long-arriva_SW.0.0,-8,10
+EmptyImage[W][2]=./images/mcw-metrorider-long-arriva_W.0.0,4,5
+EmptyImage[NW][2]=./images/mcw-metrorider-long-arriva_NW.0.0,12,10
+EmptyImage[N][2]=./images/mcw-metrorider-long-arriva_N.0.0,0,33
+EmptyImage[NE][2]=./images/mcw-metrorider-long-arriva_NE.0.0,0,24

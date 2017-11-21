@@ -3,11 +3,11 @@
 # to get fresh and ready to deploy .tbz2 and .zip archives
 #
 # Change THIS to change the version string encoded in the pak file
-VERSION_STRING = "pak128.Britain-Ex-0.9.2"
+# VERSION_STRING = "pak128.Britain-Ex-0.9.2"
 #
 #
 #
-MAKEOBJ ?= ./makeobj
+MAKEOBJ ?= ./makeobj-extended
 
 DESTDIR  ?= .
 PAKDIR   ?= $(DESTDIR)/pak128.Britain-Ex
@@ -64,6 +64,8 @@ DIRS128 += smokes
 TR_DIRS += smokes
 DIRS128 += stations
 TR_DIRS += stations
+DIRS128 += signalboxes
+TR_DIRS += signalboxes
 DIRS128 += townhall
 TR_DIRS += townhall
 DIRS128 += trains
@@ -154,12 +156,7 @@ $(DIRS256):
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
-	@echo -e -n "Obj=ground\nName=Outside\ncopyright=$(VERSION_STRING)" >$@/outsiderev.dat
-	@svnversion >>$@/outsiderev.dat
-	@echo -e "Image[0][0]=images/ls-water-outside-128.0.0\n-" >>$@/outsiderev.dat
-	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/outsiderev.dat > /dev/null
-	@rm $@/outsiderev.dat
+	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
 
 clean:
 	@echo "===> CLEAN"

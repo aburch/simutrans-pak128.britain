@@ -1,0 +1,71 @@
+# https://en.wikipedia.org/wiki/Leyland_Leopard
+# See also "A History of the Leyland Bus" (Ron Phillips), pp. 115-7
+# The L2 is the coach version, the L1 the (rarer) 'bus version
+obj=vehicle
+name=leyland-leopard-l2
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+payload=43
+# Speed limit was incerased from 40mph (64km/h) to 60mph (96km/h) for 'buses on
+# the "open road" in 1961: http://en.wikipedia.org/wiki/Coach_transport_in_the_United_Kingdom
+# However, earlier coaches (e.g. the 1930 Regal: http://web.archive.org/web/20161223135021/http://www.countrybus.org/T-regal/T2.htm#green2 )
+# could manage faster speeds (in that case, 60mph!). Is it better to opt for the speed limit on the roads (which changed with time), or the actual
+# maximum speed of the vehicle? Probably the latter, since the road speed limits are based on the roads themselves. 
+# Leyland O.600 engine
+speed=75
+power=104
+tractive_effort=13
+gear=50
+weight=13.5
+axles=2
+length=6
+cost=5025000
+runningcost=195
+intro_year=1958
+intro_month=2
+retire_year=1965
+retire_month=7
+
+comfort=78
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=323
+sound=leyland-atlantean-ff3170.wav
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Ribble-coach
+liverytype[1]=Southdown-standard
+liverytype[2]=NE-White
+
+EmptyImage[E][0]=./images/leyland-leopard-l2-ribble_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-leopard-l2-ribble_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-leopard-l2-ribble_S.0.0,4,0
+EmptyImage[SW][0]=./images/leyland-leopard-l2-ribble_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-leopard-l2-ribble_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-leopard-l2-ribble_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-leopard-l2-ribble_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-leopard-l2-ribble_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-leopard-l2-southdown_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-leopard-l2-southdown_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-leopard-l2-southdown_S.0.0,4,0
+EmptyImage[SW][1]=./images/leyland-leopard-l2-southdown_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-leopard-l2-southdown_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-leopard-l2-southdown_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-leopard-l2-southdown_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-leopard-l2-southdown_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/leyland-leopard-l2-national-express_E.0.0,-33,14
+EmptyImage[SE][2]=./images/leyland-leopard-l2-national-express_SE.0.0,-13,0
+EmptyImage[S][2]=./images/leyland-leopard-l2-national-express_S.0.0,4,0
+EmptyImage[SW][2]=./images/leyland-leopard-l2-national-express_SW.0.0,-8,10
+EmptyImage[W][2]=./images/leyland-leopard-l2-national-express_W.0.0,4,5
+EmptyImage[NW][2]=./images/leyland-leopard-l2-national-express_NW.0.0,12,10
+EmptyImage[N][2]=./images/leyland-leopard-l2-national-express_N.0.0,0,33
+EmptyImage[NE][2]=./images/leyland-leopard-l2-national-express_NE.0.0,0,24
+

@@ -2,9 +2,9 @@ obj=vehicle
 name=LBSCR-sharp-well-tank
 engine_type=steam
 smoke=Steam
-speed=75
-# Data not available, so part guessed from contemporaneous types
-power=78
+speed=80
+# Estimated
+power=85
 # Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
 # with loss factor of 0.7
 tractive_effort=27
@@ -20,13 +20,14 @@ payload=0
 length=4
 brake_force=6
 rolling_resistance=19
+way_wear_factor=36158
 
 # Weight not available, but guessed based on contemporaneous types.
 weight=20.1
 axle_load=9
 cost=5000000
 runningcost=200
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0
 bidirectional=1

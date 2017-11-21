@@ -136,29 +136,29 @@ BR-158Middle(Regional)
 BR Class 158 "Express Sprinter" (SZT) (¶rodek)
 BR-158Rear(Regional)
 BR Class 158 "Express Sprinter" (EZT) (ty³)
-BR-165Front(NSE)
+BR-165Front
 BR Class 165 "Network Turbo" (SZT)
-BR-165Middle(NSE)
+BR-165Middle
 BR Class 165 "Network Turbo" (SZT) (¶rodek)
-BR-165Rear(NSE)
+BR-165Rear
 BR Class 165 "Network Turbo" (SZT) (ty³)
-BR-170Front(Scotrail)
+BR-170Front
 BR Class 170 "Turbostar" (SZT)
-BR-170Middle(Scotrail)
+BR-170Middle
 BR Class 170 "Turbostar" (SZT) (¶rodek)
-BR-170Rear(Scotrail)
+BR-170Rear
 BR Class 170 "Turbostar" (SZT) (ty³)
-BR-180Front(FGW)
+BR-180Front
 BR Class 180 "Adelante"
-BR-180Middle(FGW)
+BR-180Middle
 BR Class 180 "Adelante" (¶rodek)
-BR-180Rear(FGW)
+BR-180Rear
 BR Class 180 "Adelante" (ty³)
-BR-205Front(Rail-Blue)
+BR-205Front
 BR Class 205 (SEZT)
-BR-205Middle(Rail-Blue)
+BR-205Middle
 BR Class 205 (SEZT) (¶rodek)
-BR-205Rear(Rail-Blue)
+BR-205Rear
 BR Class 205 (SEZT) (ty³)
 BR-220Front(Virgin)
 BR Class 220 "Voyager"
@@ -182,21 +182,21 @@ BR-303Pantograph
 BR Class 303 (EZT) (pantograf)
 BR-303Rear
 BR Class 303 (EZT) (ty³)
-BR-309-1Front(Blue-Grey)
+BR-309-1Front
 BR Class 309/1 (dwuwagonowy) (EZT)
-BR-309-2Front(Blue-Grey)
+BR-309-2Front
 BR Class 309/1 (czterowagonowy) (EZT)
-BR-309Middle(Blue-Grey)
+BR-309Middle
 BR Class 309 (EZT) (¶rodkowa naczepa)
-BR-309Power(Blue-Grey)
+BR-309Power
 BR Class 309 (EZT) (wagon silnikowy)
-BR-309Rear(Blue-Grey)
+BR-309Rear
 BR Class 309 (EZT) (ty³)
-BR-313Front(Blue-Grey)
+BR-313Front
 BR Class 313 (EZT)
-BR-313Pantograph(Blue-Grey)
+BR-313Pantograph
 BR Class 313 (EZT) (pantograf)
-BR-313Rear(Blue-Grey)
+BR-313Rear
 BR Class 313 (EZT) (ty³)
 BR-319Engine(NSE)
 BR Class 319 (EZT) (silnik)
@@ -238,11 +238,11 @@ BR-373RearCab
 BR Class 373 "Eurostar" (tylni wagon)
 BR-373RearPower
 BR Class 373 "Eurostar" (tylni wagon silnikowy)
-BR-375Front(SE)
+BR-375Front
 BR Class 375 "Electrostar" (EZT)
 BR-375Middle(SE)
 BR Class 375 "Electrostar" (EZT) (¶rodek)
-BR-375Rear(SE)
+BR-375Rear
 BR Class 375 "Electrostar" (EZT) (ty³)
 BR-378Front
 BR London Overground Class 378 (EZT)
@@ -266,35 +266,35 @@ BR-390RearCoach(Virgin)
 BR Class 390 "Pendolino" (tylni pasa¿erski)
 BR-390RearPantograph(Virgin)
 BR Class 390 "Pendolino" (tylni pantograf)
-BR-395Front(SE)
+BR-395Front
 BR Class 395 "Javelin"
-BR-395Middle(SE)
+BR-395Middle
 BR Class 395 "Javelin" (¶rodek)
-BR-395Rear(SE)
+BR-395Rear
 BR Class 395 "Javelin" (ty³)
-BR-410[CEP]Brake(Blue-Grey)
+BR-410[CEP]Brake
 BR Class 410 "4Cep" (EZT) (¶rodkowy hamulec)
-BR-410[CEP]Front(Blue-Grey)
+BR-410[CEP]Front
 BR Class 410 "4Cep" (EZT)
-BR-410[CEP]Middle(Blue-Grey)
+BR-410[CEP]Middle
 BR Class 410 "4Cep" (EZT) (¶rodek)
-BR-410[CEP]Rear(Blue-Grey)
+BR-410[CEP]Rear
 BR Class 410 "4Cep" (EZT) (ty³)
-BR-414[HAP]Front(Blue-Grey)
+BR-414[HAP]Front
 BR Class 414 "2Hap" (EZT)
-BR-414[HAP]Rear(Blue-Grey)
+BR-414[HAP]Rear
 BR Class 414 "2Hap" (EZT) (ty³)
 BR-419[MLV]
 BR Class 419 MLV
-BR-442-Front(NSE)
+BR-442-Front
 BR Class 442
-BR-442-Middle1(NSE)
+BR-442-Middle1
 BR Class 442 (¶rodek)
-BR-442-Middle2(NSE)
+BR-442-Middle2
 BR Class 442 (¶rodek)
-BR-442-Middle3(NSE)
+BR-442-Middle3
 BR Class 442 (¶rodek)
-BR-442-Rear(NSE)
+BR-442-Rear
 BR Class 442 (ty³)
 BR-465Front(NSE)
 BR Class 465 "Networker" (EZT)
@@ -350,7 +350,7 @@ BR-Class66
 BR Class 66
 BR-Class67
 BR Class 67
-BR-Class71(Green)
+BR-Class71
 BR Class 71
 BR-Class73(Intercity)
 BR Class 73
@@ -672,7 +672,7 @@ GNR-Stirling8Foot
 GNR Stirling Single 4-2-2
 GNR-Stirling8Foot-Tender
 GNR Stirling Single (tender)
-Guy_Special(LT-Green)
+guy-special
 Guy Special
 GuyArab
 Guy Arab
@@ -796,7 +796,7 @@ LBSCR-B1-Gladstone
 LBSCR Class B1 "Gladstone" 0-4-2
 LBSCR-B1-Gladstone-Tender
 LBSCR Class B1 "Gladstone" 0-4-2 (tender)
-LBSCR-L-Tank(Umber)
+LBSCR-L
 LBSCR Class L "Rememberance" 4-6-4T
 Leyland_Cub(LT-Green)
 Leyland Cub
@@ -1082,7 +1082,7 @@ LNWR-Bloomer-Tender
 LNWR "Bloomer" Class 2-2-2 (tender)
 LNWR-Bloomer
 LNWR "Bloomer" Class 2-2-2
-LNWR-DXgoods-Tender(Green)
+LNWR-DXgoods-Tender
 LNWR DX Goods 0-6-0 (tender)
 LNWR-DXgoods
 LNWR DX Goods 0-6-0
@@ -1154,11 +1154,11 @@ Metrolink-T86(Front)
 Metrolink T86
 Metrolink-T86(Rear)
 Metrolink T86 (ty³)
-Metropolitan-Bogie-Third
+met-bogie-third
 Wagon pasa¿erski Metropolitan
 Metropolitan-Class-E
 Metropolitan Class E 0-4-4T
-Metropolitan-Dreadnought-Third
+met-dreadnought-third
 Wagon pasa¿erski Metropolitan "Dreadnought"
 Metropolitan-Motor-Third-Back
 Metropolitan 1907 (ty³)
@@ -1252,7 +1252,7 @@ YorkshireSteamTank
 Yorkshire Steam Tank (p³yny)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
-asphalt_road
+hr-asphalt-road-medium
 Droga asfaltowa
 Canal
 Kana³

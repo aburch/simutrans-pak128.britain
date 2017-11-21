@@ -6,9 +6,9 @@ obj=vehicle
 name=LMS-Stanier-3P-Tank
 engine_type=steam
 smoke=Steam
-speed=110
-# Extrapolated (from Hall class rather than BR 4MT, as underpowered)
-power=151
+speed=100
+# Extrapolated
+power=250
 tractive_effort=96
 copyright=Kieron/JamesPetts
 intro_year=1935
@@ -25,7 +25,7 @@ axle_load=16
 cost=3024049
 # Should be uneconomical compared to Fowler 3P
 runningcost=660
-sound=-1
+
 increase_maintenance_after_years=12
 years_before_maintenance_max_reached=13
 
@@ -80,7 +80,7 @@ axle_load=16
 cost=3064049
 upgrade_price=50000
 runningcost=660
-sound=-1
+
 increase_maintenance_after_years=12
 years_before_maintenance_max_reached=13
 

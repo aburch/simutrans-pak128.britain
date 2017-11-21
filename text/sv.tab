@@ -970,15 +970,15 @@ EndofChooseSignal
 Uteslut från plattformsval
 LongSignals
 Långblocksignal
-Modern_ChooseSignals_right
+two-aspect-colour-light-choose
 Plattformsvalsignal
 Modern_EndofChooseSignal
 Plattformsval upphör
 Modern_LongSignals_right
 Långblocksignal
-Modern_preSignals_right
+two-aspect-colour-light-distant
 Tvåblockssignal
-Modern_Signals_right
+two-aspect-colour-light-stop
 Huvudsignal
 MotorwaySign
 Motorvägspåfart
@@ -1116,29 +1116,29 @@ BR-158Middle(Regional)
 BR Class 158 "Express Sprinter" DMV (mittsektion)
 BR-158Rear(Regional)
 BR Class 158 "Express Sprinter" DMV (b-ände)
-BR-165Front(NSE)
+BR-165Front
 BR Class 165 "Network Turbo" DMV (a-ände)
-BR-165Middle(NSE)
+BR-165Middle
 BR Class 165 "Network Turbo" DMV (mittsektion)
-BR-165Rear(NSE)
+BR-165Rear
 BR Class 165 "Network Turbo" DMV (b-ände)
-BR-170Front(Scotrail)
+BR-170Front
 BR Class 170 "Turbostar" DMV (a-ände)
-BR-170Middle(Scotrail)
+BR-170Middle
 BR Class 170 "Turbostar" DMV (mittsektion)
-BR-170Rear(Scotrail)
+BR-170Rear
 BR Class 170 "Turbostar" DMV (b-ände)
-BR-180Front(FGW)
+BR-180Front
 BR Class 180 "Adelante" (a-ände)
-BR-180Middle(FGW)
+BR-180Middle
 BR Class 180 "Adelante" (mittsektion)
-BR-180Rear(FGW)
+BR-180Rear
 BR Class 180 "Adelante" (b-ände)
-BR-205Front(Rail-Blue)
+BR-205Front
 BR Class 205 DEMV (a-ände)
-BR-205Middle(Rail-Blue)
+BR-205Middle
 BR Class 205 DEMV (mittsektion)
-BR-205Rear(Rail-Blue)
+BR-205Rear
 BR Class 205 DEMV (b-ände)
 BR-220Front(Virgin)
 BR Class 220 "Voyager" (a-ände)
@@ -1162,21 +1162,21 @@ BR-303Pantograph
 BR Class 303 EMV med pantograf
 BR-303Rear
 BR Class 303 EMV bakre sektion
-BR-309-1Front(Blue-Grey)
+BR-309-1Front
 BR Class 309/1 (tvåvagnars) EMV
-BR-309-2Front(Blue-Grey)
+BR-309-2Front
 BR Class 309/2 (fyrvagnars) EMV
-BR-309Middle(Blue-Grey)
+BR-309Middle
 BR Class 309 EMV (mittsläp)
-BR-309Power(Blue-Grey)
+BR-309Power
 BR Class 309 EMV (motorenhet)
-BR-309Rear(Blue-Grey)
+BR-309Rear
 BR Class 309 EMV (b-ände)
-BR-313Front(Blue-Grey)
+BR-313Front
 BR Class 313 EMV
-BR-313Pantograph(Blue-Grey)
+BR-313Pantograph
 BR Class 313 EMV med pantograf
-BR-313Rear(Blue-Grey)
+BR-313Rear
 BR Class 313 EMV bakre sektion
 BR-319Engine(NSE)
 BR Class 319 EMV motorvagn
@@ -1218,11 +1218,11 @@ BR-373RearCab
 BR Class 373 "Eurostar" (manövervagn)
 BR-373RearPower
 BR Class 373 "Eurostar" (B-ände)
-BR-375Front(SE)
+BR-375Front
 BR Class 375 "Electrostar" EMV
 BR-375Middle(SE)
 BR Class 375 "Electrostar" EMV (mittsektion)
-BR-375Rear(SE)
+BR-375Rear
 BR Class 375 "Electrostar" EMV (B-ände)
 BR-378Front
 BR London Overground Class 378 EMV
@@ -1246,23 +1246,23 @@ BR-390RearCoach(Virgin)
 BR Class 390 "Pendolino" bakre passagerarvagn
 BR-390RearPantograph(Virgin)
 BR Class 390 "Pendolino" bakre pantografvagn
-BR-395Front(SE)
+BR-395Front
 BR Class 395 "Javelin"
-BR-395Middle(SE)
+BR-395Middle
 BR Class 395 "Javelin" (mittsektion)
-BR-395Rear(SE)
+BR-395Rear
 BR Class 395 "Javelin" (bakre sektion)
-BR-410[CEP]Brake(Blue-Grey)
+BR-410[CEP]Brake
 BR Class 410 "4Cep" EMV (bromsad mittsektion)
-BR-410[CEP]Front(Blue-Grey)
+BR-410[CEP]Front
 BR Class 410 "4Cep" EMV
-BR-410[CEP]Middle(Blue-Grey)
+BR-410[CEP]Middle
 BR Class 410 "4Cep" EMV (mittsektion)
-BR-410[CEP]Rear(Blue-Grey)
+BR-410[CEP]Rear
 BR Class 410 "4Cep" EMV (b-ände)
-BR-414[HAP]Front(Blue-Grey)
+BR-414[HAP]Front
 BR Class 414 "2Hap" EMV
-BR-414[HAP]Rear(Blue-Grey)
+BR-414[HAP]Rear
 BR Class 414 "2Hap" EMV (b-ände)
 BR-419[MLV]
 BR Class 419 MLV
@@ -1310,7 +1310,7 @@ BR-Class66
 BR Class 66
 BR-Class67
 BR Class 67
-BR-Class71(Green)
+BR-Class71
 BR Class 71
 BR-Class73
 BR Class 73
@@ -1560,7 +1560,7 @@ GNR-Stirling8Foot
 GNR Stirling Single 4-2-2
 GNR-Stirling8Foot-Tender
 Tender till GNR Stirling Single
-Guy_Special(LT-Green)
+guy-special
 Guy Special
 GuyArab
 Guy Arab
@@ -1666,7 +1666,7 @@ LBSCR-B1-Gladstone
 LBSCR Class B1 "Gladstone" 0-4-2
 LBSCR-B1-Gladstone-Tender
 Tender till LBSCR Class B1 "Gladstone" 0-4-2
-LBSCR-L-Tank(Umber)
+LBSCR-L
 LBSCR Class L "Rememberance" 4-6-4T
 Leyland_Cub(LT-Green)
 Leyland Cub
@@ -1952,7 +1952,7 @@ LNWR-Bloomer-Tender
 Tender till LNWR "Bloomer" Class 2-2-2
 LNWR-Bloomer
 LNWR "Bloomer" Class 2-2-2
-LNWR-DXgoods-Tender(Green)
+LNWR-DXgoods-Tender
 Tender till LNWR DX Goods 0-6-0
 LNWR-DXgoods
 LNWR DX Goods 0-6-0
@@ -2022,11 +2022,11 @@ Metrolink-T86(Front)
 Metrolink T86
 Metrolink-T86(Rear)
 Metrolink T86 (bakre sektion)
-Metropolitan-Bogie-Third
+met-bogie-third
 Metropolitan boggievagn
 Metropolitan-Class-E
 Metropolitan Class E 0-4-4T
-Metropolitan-Dreadnought-Third
+met-dreadnought-third
 Metropolitan "Dreadnought" personvagn
 Metropolitan-Motor-Third-Back
 Metropolitan motoriserat tunnelbanetåg (bakre sektion)
@@ -2252,9 +2252,9 @@ ScammellScarab
 Scammell Scarab
 ScammellTownsman
 Scammell Townsman
-SDR-1001-Tender(Green)
+SDR-1001-Tender
 Tender till SDR 1001 Class 0-6-0
-SDR-1001(Green)
+SDR-1001
 SDR 1001 Class 0-6-0
 SDR-Derwent
 SDR "Derwent" 0-6-0
@@ -2318,23 +2318,23 @@ SR-404[COR]Middle2
 SR 4Cor EMV (mittsektion)
 SR-404[COR]Rear
 SR 4Cor EMV (b-ände)
-SR-Bulleid-Express-Brake(Green)
+SR-Bulleid-Express-Brake-rear
 SR Bulleid bromsad snabbpersonvagn
-SR-Bulleid-Express-Coach(Green)
+SR-Bulleid-Express-Coach
 SR Bulleid snabbpersonvagn
-SR-Bulleid-Express-Dining(Green)
+SR-Bulleid-Express-Dining
 SR Bulleid Restaurantvagn
-SR-Maunsell-Brake(Green)
+SR-Maunsell-Brake-rear
 SR Maunsell Bromsad snabbpersonvagn
-SR-Maunsell-Dining(Green)
+SR-Maunsell-Dining
 SR Maunsell Restaurantvagn
-SR-Maunsell-Mail(Green)
+SR-Maunsell-Mail
 SR Maunsell Postvagn
-SR-Maunsell-Parcels(Green)
+SR-Maunsell-Parcels
 SR Maunsell Resgodsvagn
-SR-Maunsell-Third(Green)
+SR-Maunsell-Third
 SR Maunsell Snabbpersonvagn
-SR-Maunsell-TPO(Green)
+SR-Maunsell-TPO
 SR Postsorteringsvagn
 SR-MerchantNavy 4-6-2(Green)
 SR Merchant Navy Class 4-6-2
@@ -2524,7 +2524,7 @@ YorkshireSteamTank
 Yorkshire Steam Tank (vätskor)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
-asphalt_road
+hr-asphalt-road-medium
 Asfalterad väg
 Canal
 Kanal

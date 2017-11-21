@@ -2,9 +2,9 @@ obj=vehicle
 name=LBSCR-victoria
 engine_type=steam
 smoke=Steam
-speed=125
+speed=124
 # Extrapolated
-power=168
+power=176
 # Tractive effort calculated using data from 
 # http://www.steamindex.com/locotype/lbscrloc.htm
 tractive_effort=38
@@ -27,7 +27,7 @@ weight=34
 axle_load=14
 cost=9100000
 runningcost=590
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-craven-tender
 

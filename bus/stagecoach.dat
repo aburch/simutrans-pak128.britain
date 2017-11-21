@@ -1,22 +1,25 @@
+# Early, rigid type with no suspension
+# http://dawlishchronicles.com/naval-artists-of-the-18th-century-part-2/
+# http://www.fotolibra.com/gallery/68390/early-stage-coach-illustration/
 obj=vehicle
 name=StageCoach
 copyright=James
 waytype=road
 freight=Passagiere
 payload=4
-overcrowded_capacity=8
-speed=18
-weight=1.25
-axles=2
+overcrowded_capacity=6
+speed=11
+weight=1.35
+axle_load=1
 length=3
 cost=25000
 runningcost=10
-intro_year=1700
+intro_year=1750
 intro_month=1
-retire_year=1861
-retire_month=8
-increase_maintenance_after_years=32
-years_before_maintenance_max_reached=35
+retire_year=1789
+retire_month=6
+brake_force=0
+rolling_resistance=182
 
 # Inside only
 # Apparently, these have a *very* hard/bumpy ride.
@@ -24,16 +27,31 @@ comfort=38
 min_loading_time=300
 max_loading_time=600
 
-Constraint[Prev][0]=RoadHorsesDouble
-Constraint[Prev][1]=RoadHorsesSingle
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-hackney-double
+
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/stagecoach.0.0
-EmptyImage[SE]=./images/stagecoach.0.1
-EmptyImage[S]=./images/stagecoach.0.2
-EmptyImage[SW]=./images/stagecoach.0.3
-EmptyImage[W]=./images/stagecoach.0.4
-EmptyImage[NW]=./images/stagecoach.0.5
-EmptyImage[N]=./images/stagecoach.0.6
-EmptyImage[NE]=./images/stagecoach.0.7
+EmptyImage[E]=./images/stagecoach-early_E.0.0,-33,14
+EmptyImage[SE]=./images/stagecoach-early_SE.0.0,-13,0
+EmptyImage[S]=./images/stagecoach-early_S.0.0,0,0
+EmptyImage[SW]=./images/stagecoach-early_SW.0.0,-8,10
+EmptyImage[W]=./images/stagecoach-early_W.0.0,4,5
+EmptyImage[NW]=./images/stagecoach-early_NW.0.0,12,10
+EmptyImage[N]=./images/stagecoach-early_N.0.0,0,33
+EmptyImage[NE]=./images/stagecoach-early_NE.0.0,0,24
+
+FreightImage[E]=./images/stagecoach-early-loaded_E.0.0,-33,14
+FreightImage[SE]=./images/stagecoach-early-loaded_SE.0.0,-13,0
+FreightImage[S]=./images/stagecoach-early-loaded_S.0.0,0,0
+FreightImage[SW]=./images/stagecoach-early-loaded_SW.0.0,-8,10
+FreightImage[W]=./images/stagecoach-early-loaded_W.0.0,4,5
+FreightImage[NW]=./images/stagecoach-early-loaded_NW.0.0,12,10
+FreightImage[N]=./images/stagecoach-early-loaded_N.0.0,0,33
+FreightImage[NE]=./images/stagecoach-early-loaded_NE.0.0,0,24
 

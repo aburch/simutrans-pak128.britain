@@ -2,7 +2,7 @@ obj=vehicle
 name=BAE146_100(DanAirLondon)
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=775
 power=22500
 tractive_effort=125
@@ -27,7 +27,8 @@ catering_level=2
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1100
 
-sound=aircraft-jet_stop.wav
+sound=bigpickle51-jet-takeoff.wav
+range=2909
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

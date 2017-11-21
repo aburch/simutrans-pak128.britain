@@ -2,9 +2,9 @@ obj=vehicle
 name=LMS-7F
 engine_type=steam
 smoke=Steam
-speed=90
+speed=95
 # Extrapolated
-power=270
+power=331
 tractive_effort=132
 copyright=James
 intro_year=1929
@@ -20,7 +20,7 @@ weight=62
 axles=4
 cost=4286000
 runningcost=751
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=23
 years_before_maintenance_max_reached=12
 
@@ -51,7 +51,7 @@ EmptyImage[NE][1]=./images/lms-7f-br.1.3
 
 obj=vehicle
 name=LMS-7F-Tender
-speed=90
+speed=95
 power=0
 copyright=James
 intro_year=1929
@@ -66,7 +66,7 @@ length=4
 weight=42
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=23
 years_before_maintenance_max_reached=12
 

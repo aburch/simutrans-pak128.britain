@@ -21,13 +21,16 @@ weight=22
 axles=4
 cost=703000
 runningcost=34
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
-min_loading_time=20
-max_loading_time=50
+min_loading_time=10
+max_loading_time=30
 comfort=75
+
+upgrade[0]=lbscr-48ft-augmentation-trailer-front
+upgrade[1]=lbscr-48ft-augmentation-trailer-rear
 
 Constraint[Prev][0]=LBSCR-4Wheel-Brake-front-fitted
 Constraint[Prev][1]=LBSCR-4Wheel-First-fitted
@@ -46,6 +49,8 @@ Constraint[Prev][13]=LBSCR-sub-bogie-48ft
 Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
 Constraint[Prev][15]=LBSCR-sub-bogie-54ft
 Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
+Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -64,6 +69,8 @@ Constraint[Next][13]=LBSCR-sub-bogie-48ft
 Constraint[Next][14]=LBSCR-sub-bogie-48ft-brake-rear
 Constraint[Next][15]=LBSCR-sub-bogie-54ft
 Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
+Constraint[Next][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Next][18]=LBSCR-6Wheel-fast-freight-van
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -146,13 +153,16 @@ weight=23
 axles=4
 cost=703000
 runningcost=34
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
-min_loading_time=20
-max_loading_time=50
+min_loading_time=10
+max_loading_time=30
 comfort=75
+
+upgrade[0]=lbscr-48ft-augmentation-trailer-front
+upgrade[1]=lbscr-48ft-augmentation-trailer-rear
 
 Constraint[Prev][0]=LBSCR-4Wheel-Brake-front-fitted
 Constraint[Prev][1]=LBSCR-4Wheel-First-fitted
@@ -171,6 +181,8 @@ Constraint[Prev][13]=LBSCR-sub-bogie-48ft
 Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
 Constraint[Prev][15]=LBSCR-sub-bogie-54ft
 Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
+Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -253,13 +265,16 @@ weight=23
 axles=4
 cost=703000
 runningcost=34
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
-min_loading_time=20
-max_loading_time=50
+min_loading_time=10
+max_loading_time=30
 comfort=75
+
+upgrade[0]=lbscr-48ft-augmentation-trailer-front
+upgrade[1]=lbscr-48ft-augmentation-trailer-rear
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -278,7 +293,10 @@ Constraint[Next][13]=LBSCR-sub-bogie-48ft
 Constraint[Next][14]=LBSCR-sub-bogie-48ft-brake-rear
 Constraint[Next][15]=LBSCR-sub-bogie-54ft
 Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
-Constraint[Next][17]=none
+Constraint[Next][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Next][18]=LBSCR-6Wheel-fast-freight-van
+Constraint[Next][19]=none
+
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=LBSCR-Late

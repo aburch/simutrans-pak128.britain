@@ -9,7 +9,7 @@ retire_month=10
 waytype=track
 freight=Post
 payload=200
-length=4
+length=3
 brake_force=2
 rolling_resistance=19
 
@@ -17,7 +17,7 @@ weight=4
 axles=2
 cost=144000
 runningcost=12
-sound=-1
+
 
 min_loading_time=35
 max_loading_time=100
@@ -28,6 +28,8 @@ bidirectional=1
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/4wheel-1840s-brake-lnwr.1.4
 EmptyImage[SE][0]=./images/4wheel-1840s-brake-lnwr.1.5
@@ -55,3 +57,21 @@ EmptyImage[W][2]=./images/4wheel-1840s-brake-mr.1.0
 EmptyImage[NW][2]=./images/4wheel-1840s-brake-mr.1.1
 EmptyImage[N][2]=./images/4wheel-1840s-brake-mr.1.2
 EmptyImage[NE][2]=./images/4wheel-1840s-brake-mr.1.3
+
+EmptyImage[E][3]=./images/4wheel-1840s-brake-gnr.1.4
+EmptyImage[SE][3]=./images/4wheel-1840s-brake-gnr.1.5
+EmptyImage[S][3]=./images/4wheel-1840s-brake-gnr.1.6
+EmptyImage[SW][3]=./images/4wheel-1840s-brake-gnr.1.7
+EmptyImage[W][3]=./images/4wheel-1840s-brake-gnr.1.0
+EmptyImage[NW][3]=./images/4wheel-1840s-brake-gnr.1.1
+EmptyImage[N][3]=./images/4wheel-1840s-brake-gnr.1.2
+EmptyImage[NE][3]=./images/4wheel-1840s-brake-gnr.1.3
+
+EmptyImage[E][4]=./images/4wheel-1840s-brake-lswr.1.4
+EmptyImage[SE][4]=./images/4wheel-1840s-brake-lswr.1.5
+EmptyImage[S][4]=./images/4wheel-1840s-brake-lswr.1.6
+EmptyImage[SW][4]=./images/4wheel-1840s-brake-lswr.1.7
+EmptyImage[W][4]=./images/4wheel-1840s-brake-lswr.1.0
+EmptyImage[NW][4]=./images/4wheel-1840s-brake-lswr.1.1
+EmptyImage[N][4]=./images/4wheel-1840s-brake-lswr.1.2
+EmptyImage[NE][4]=./images/4wheel-1840s-brake-lswr.1.3

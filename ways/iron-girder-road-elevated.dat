@@ -3,11 +3,14 @@ Name=IronGirderElevatedRoad
 waytype=road
 system_type=1
 cost=20000
+# Tarmac road
+way_only_cost=40000
 maintenance=400
 topspeed=64
 max_weight=23
 intro_year=1896
 intro_month=6
+upgrade_group=4
 icon=> ./images/iron-girder-elevated-road.3.4
 cursor=./images/iron-girder-elevated-road.3.5
 Image[-][0]=./images/iron-girder-elevated-road.1.2,0,32

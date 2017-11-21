@@ -1,0 +1,48 @@
+# https://en.wikipedia.org/wiki/Caetano_Levante
+# http://www.busandcoachprofessional.com/news/articles/archive/national-express-goes-for-15m-coaches/
+# http://www.busandcoach.com/news/articles/archive/national-express-unveils-new-levante/
+# TODO: Add four axle version
+obj=vehicle
+name=caetano-levante-3-axle
+copyright=Matthew
+waytype=road
+engine_type=diesel
+# Modern coaches are low emission, I imagine
+#smoke=Diesel-light
+freight=Passagiere
+payload=60
+speed=96
+# Volvo DH12E engine at 340hp
+# http://www.volvobuses.com/SiteCollectionDocuments/VBC/United_Kingdom_and_Ireland/Downloads/b12b_ifs_rhd_6x2.pdf
+power=254
+tractive_effort=28
+gear=50
+weight=19
+axles=3
+length=6
+cost=7760000
+runningcost=210
+intro_year=2005
+intro_month=9
+# Still in production to date
+
+comfort=99
+catering_level=1
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=450
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=NE-Grey-Stripes
+
+EmptyImage[E][0]=./images/catano-levante--3-axle-national-express_E.0.0,-33,14
+EmptyImage[SE][0]=./images/catano-levante--3-axle-national-express_SE.0.0,-13,0
+EmptyImage[S][0]=./images/catano-levante--3-axle-national-express_S.0.0,0,0
+EmptyImage[SW][0]=./images/catano-levante--3-axle-national-express_SW.0.0,-8,10
+EmptyImage[W][0]=./images/catano-levante--3-axle-national-express_W.0.0,4,5
+EmptyImage[NW][0]=./images/catano-levante--3-axle-national-express_NW.0.0,12,10
+EmptyImage[N][0]=./images/catano-levante--3-axle-national-express_N.0.0,0,33
+EmptyImage[NE][0]=./images/catano-levante--3-axle-national-express_NE.0.0,0,24
+

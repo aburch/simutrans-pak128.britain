@@ -17,29 +17,31 @@ retire_month=10
 waytype=track
 freight=None
 payload=0
-length=7
+length=6
 
 weight=81.1
 # http://en.wikipedia.org/wiki/GWR_4073_Class
 axle_load=20
+# Four cylinder
+way_wear_factor=106444
 cost=10975250
 upgrade_price=2195050
 # These were especially economical: see http://www.greatwestern.org.uk/m_in_cas.htm
 runningcost=1750
-sound=-1
+sound=keithpeter-gwr-hall.wav
 increase_maintenance_after_years=8
 years_before_maintenance_max_reached=9
 
 Constraint[Next][0]=GWR-Castle-Tender
 
-EmptyImage[E]=./images/gwr-castle.0.0
-EmptyImage[SE]=./images/gwr-castle.0.1
-EmptyImage[S]=./images/gwr-castle.0.2
-EmptyImage[SW]=./images/gwr-castle.0.3
-EmptyImage[W]=./images/gwr-castle.0.4
-EmptyImage[NW]=./images/gwr-castle.0.5
-EmptyImage[N]=./images/gwr-castle.0.6
-EmptyImage[NE]=./images/gwr-castle.0.7
+EmptyImage[E]=./images/gwr-castle.1.4
+EmptyImage[SE]=./images/gwr-castle.1.5
+EmptyImage[S]=./images/gwr-castle.1.6
+EmptyImage[SW]=./images/gwr-castle.1.7
+EmptyImage[W]=./images/gwr-castle.1.0
+EmptyImage[NW]=./images/gwr-castle.1.1
+EmptyImage[N]=./images/gwr-castle.1.2
+EmptyImage[NE]=./images/gwr-castle.1.3
 
 ----
 
@@ -58,19 +60,21 @@ payload=0
 length=4
 
 weight=47
+axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=8
 years_before_maintenance_max_reached=9
 
 Constraint[Prev][0]=GWR-Castle
 
-EmptyImage[E]=./images/gwr-castle.1.0
-EmptyImage[SE]=./images/gwr-castle.1.1
-EmptyImage[S]=./images/gwr-castle.1.2
-EmptyImage[SW]=./images/gwr-castle.1.3
-EmptyImage[W]=./images/gwr-castle.1.4
-EmptyImage[NW]=./images/gwr-castle.1.5
-EmptyImage[N]=./images/gwr-castle.1.6
-EmptyImage[NE]=./images/gwr-castle.1.7
+EmptyImage[E]=./images/gwr-collett-tender.1.4
+EmptyImage[SE]=./images/gwr-collett-tender.1.5
+EmptyImage[S]=./images/gwr-collett-tender.1.6
+EmptyImage[SW]=./images/gwr-collett-tender.1.7
+EmptyImage[W]=./images/gwr-collett-tender.1.0
+EmptyImage[NW]=./images/gwr-collett-tender.1.1
+EmptyImage[N]=./images/gwr-collett-tender.1.2
+EmptyImage[NE]=./images/gwr-collett-tender.1.3
+

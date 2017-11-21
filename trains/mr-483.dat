@@ -2,9 +2,9 @@ obj=vehicle
 name=MR-483
 engine_type=steam
 smoke=Steam
-speed=135
+speed=142
 # Extrapolated
-power=185
+power=277
 # http://en.wikipedia.org/wiki/Midland_Railway_483_Class
 tractive_effort=78
 copyright=James
@@ -23,14 +23,14 @@ retire_month=1
 waytype=track
 freight=None
 payload=0
-length=6
+length=5
 
 weight=54
 axle_load=16
 cost=6841000
 upgrade_price=3420500
 runningcost=1430
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=25
 
@@ -81,13 +81,13 @@ retire_month=1
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 
 weight=37
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=16
 
 Constraint[Prev][0]=MR-483
@@ -98,29 +98,29 @@ liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/mr-483-tender-red.1.4
-EmptyImage[SE][0]=./images/mr-483-tender-red.1.5
-EmptyImage[S][0]=./images/mr-483-tender-red.1.6
-EmptyImage[SW][0]=./images/mr-483-tender-red.1.7
-EmptyImage[W][0]=./images/mr-483-tender-red.1.0
-EmptyImage[NW][0]=./images/mr-483-tender-red.1.1
-EmptyImage[N][0]=./images/mr-483-tender-red.1.2
-EmptyImage[NE][0]=./images/mr-483-tender-red.1.3
+EmptyImage[E][0]=./images/mr-1000-tender.1.4
+EmptyImage[SE][0]=./images/mr-1000-tender.1.5
+EmptyImage[S][0]=./images/mr-1000-tender.1.6
+EmptyImage[SW][0]=./images/mr-1000-tender.1.7
+EmptyImage[W][0]=./images/mr-1000-tender.1.0
+EmptyImage[NW][0]=./images/mr-1000-tender.1.1
+EmptyImage[N][0]=./images/mr-1000-tender.1.2
+EmptyImage[NE][0]=./images/mr-1000-tender.1.3
 
-EmptyImage[E][1]=./images/mr-483-tender-lms.1.4
-EmptyImage[SE][1]=./images/mr-483-tender-lms.1.5
-EmptyImage[S][1]=./images/mr-483-tender-lms.1.6
-EmptyImage[SW][1]=./images/mr-483-tender-lms.1.7
-EmptyImage[W][1]=./images/mr-483-tender-lms.1.0
-EmptyImage[NW][1]=./images/mr-483-tender-lms.1.1
-EmptyImage[N][1]=./images/mr-483-tender-lms.1.2
-EmptyImage[NE][1]=./images/mr-483-tender-lms.1.3
+EmptyImage[E][1]=./images/mr-1000-tender-lms.1.4
+EmptyImage[SE][1]=./images/mr-1000-tender-lms.1.5
+EmptyImage[S][1]=./images/mr-1000-tender-lms.1.6
+EmptyImage[SW][1]=./images/mr-1000-tender-lms.1.7
+EmptyImage[W][1]=./images/mr-1000-tender-lms.1.0
+EmptyImage[NW][1]=./images/mr-1000-tender-lms.1.1
+EmptyImage[N][1]=./images/mr-1000-tender-lms.1.2
+EmptyImage[NE][1]=./images/mr-1000-tender-lms.1.3
 
-EmptyImage[E][2]=./images/mr-483-tender-br.1.4
-EmptyImage[SE][2]=./images/mr-483-tender-br.1.5
-EmptyImage[S][2]=./images/mr-483-tender-br.1.6
-EmptyImage[SW][2]=./images/mr-483-tender-br.1.7
-EmptyImage[W][2]=./images/mr-483-tender-br.1.0
-EmptyImage[NW][2]=./images/mr-483-tender-br.1.1
-EmptyImage[N][2]=./images/mr-483-tender-br.1.2
-EmptyImage[NE][2]=./images/mr-483-tender-br.1.3
+EmptyImage[E][2]=./images/mr-1000-tender-br.1.4
+EmptyImage[SE][2]=./images/mr-1000-tender-br.1.5
+EmptyImage[S][2]=./images/mr-1000-tender-br.1.6
+EmptyImage[SW][2]=./images/mr-1000-tender-br.1.7
+EmptyImage[W][2]=./images/mr-1000-tender-br.1.0
+EmptyImage[NW][2]=./images/mr-1000-tender-br.1.1
+EmptyImage[N][2]=./images/mr-1000-tender-br.1.2
+EmptyImage[NE][2]=./images/mr-1000-tender-br.1.3

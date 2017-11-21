@@ -5,7 +5,9 @@ waytype[1]=track
 waytype[0]=road
 speed[1]=200
 speed[0]=50
-intro_year=1960
+intro_year=1961
+intro_month=7
+sound=level-crossing.wav
 
 openimage[ew][0]=images/crossing-afb.2.3
 openimage[ns][0]=images/crossing-afb.2.2
@@ -36,9 +38,11 @@ Obj=crossing
 Name=CrossingT
 waytype[1]=track
 waytype[0]=road
-speed[1]=145
+speed[1]=200
 speed[0]=50
-intro_year=1960
+intro_year=1961
+intro_month=7
+sound=level-crossing.wav
 
 openimage[ew][0]=images/crossing-ahb.2.3
 openimage[ns][0]=images/crossing-ahb.2.2
@@ -64,8 +68,6 @@ closedimage[ns][1]=images/crossing-ahb.1.0
 front_closedimage[ew][1]=images/crossing-ahb.0.1
 front_closedimage[ns][1]=images/crossing-ahb.0.0
 --
-
-
 # City road, gated
 Obj=crossing
 Name=CrossingAshpaltGated
@@ -73,8 +75,10 @@ waytype[1]=track
 waytype[0]=road
 speed[1]=160
 speed[0]=50
-intro_year=1920
-retire_year=1960
+intro_year=1896
+intro_month=6
+retire_year=1961
+retire_month=7
 
 openimage[ew][0]=images/crossing-asphalt-gated.2.3
 openimage[ns][0]=images/crossing-asphalt-gated.2.2
@@ -105,10 +109,12 @@ Obj=crossing
 Name=Crossing1850
 waytype[1]=track
 waytype[0]=road
-speed[1]=110
+speed[1]=160
 speed[0]=35
 intro_year=1850
-retire_year=1920
+intro_month=1
+retire_year=1896
+retire_month=6
 
 openimage[ew][0]=images/crossing-cobbles-gated.2.3
 openimage[ns][0]=images/crossing-cobbles-gated.2.2

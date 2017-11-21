@@ -1,6 +1,6 @@
 obj=vehicle
 name=RMU-aerocab(front)
-engine_type=battery
+engine_type=hydrogene
 speed=320
 power=500
 gear=90
@@ -14,11 +14,11 @@ weight=14
 axles=1
 cost=12000000
 runningcost=420
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0
-air_resistance=825
+air_resistance=103
 
 Constraint[Prev][0]=RMU-aerocab(rear)
 Constraint[Prev][1]=none
@@ -36,7 +36,7 @@ EmptyImage[NE]=images/RMU_aerocab.0.3,18,-3
 -------------------------------------------
 obj=vehicle
 name=RMU-aerocab(rear)
-engine_type=battery
+engine_type=hydrogene
 speed=320
 power=500
 copyright=AEO
@@ -49,11 +49,11 @@ weight=14
 axles=1
 cost=12000000
 runningcost=420
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0
-air_resistance=825
+air_resistance=103
 
 Constraint[Prev][0]=RMUbox(cooled)
 Constraint[Prev][1]=RMUbox(piece)

@@ -2,8 +2,8 @@ obj=vehicle
 name=LBSCR-croydon
 engine_type=steam
 smoke=Steam
-speed=100
-# Extrapolated
+speed=92
+# Extrapolated (old system: no firebox data for new system)
 power=117
 # Tractive effort calculated using data from 
 # http://www.steamindex.com/locotype/lbscrloc.htm
@@ -29,7 +29,7 @@ weight=28.1
 axle_load=11
 cost=4750000
 runningcost=400
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-craven-tender
 

@@ -18,7 +18,7 @@ weight=36
 axles=4
 cost=1575000
 runningcost=33
-sound=-1
+sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 
 can_lead_from_rear=1
@@ -29,11 +29,15 @@ min_loading_time=15
 max_loading_time=50
 comfort=79
 
-Constraint[Prev][0]=BR-423-DTCL-Rear
-Constraint[Prev][1]=BR-410[CEP]Rear(Blue-Grey)
+Constraint[Prev][0]=BR-410[CEP]Rear
+Constraint[Prev][1]=BR-414[HAP]Rear
 Constraint[Prev][2]=BR-419[MLV]
 Constraint[Prev][3]=BR-499[TLV]
-Constraint[Prev][4]=none
+Constraint[Prev][4]=BR-423-DTCL-Rear
+Constraint[Prev][5]=BR-421[CIG]Rear
+Constraint[Prev][6]=BR-4EPB(rear)
+Constraint[Prev][7]=BR-2EPB(rear)
+Constraint[Prev][8]=none
 
 Constraint[Next][0]=BR-423-MBSO
 
@@ -68,7 +72,6 @@ EmptyImage[NW][2]=./images/br-423-dtcl-front-nse.1.1
 EmptyImage[N][2]=./images/br-423-dtcl-front-nse.1.2
 EmptyImage[NE][2]=./images/br-423-dtcl-front-nse.1.3
 
-
 -----
 
 obj=vehicle
@@ -93,7 +96,7 @@ weight=41
 axles=4
 cost=1575000
 runningcost=125
-sound=-1
+
 increase_maintenance_after_years=23
 
 can_lead_from_rear=0
@@ -159,7 +162,7 @@ weight=34
 axles=4
 cost=1575000
 runningcost=28
-sound=-1
+
 increase_maintenance_after_years=23
 
 can_lead_from_rear=0
@@ -226,7 +229,7 @@ weight=36
 axles=4
 cost=1575000
 runningcost=33
-sound=-1
+sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 
 can_lead_from_rear=1
@@ -237,12 +240,14 @@ min_loading_time=15
 max_loading_time=50
 comfort=79
 
-Constraint[Next][0]=BR-423-DTCL-Front
-Constraint[Next][1]=BR-410[CEP]Front(Blue-Grey)
-Constraint[Next][2]=BR-414[HAP]Front(Blue-Grey)
-Constraint[Next][3]=BR-419[MLV]
-Constraint[Next][4]=BR-499[TLV]
-Constraint[Next][5]=none
+Constraint[Next][0]=BR-410[CEP]Front
+Constraint[Next][1]=BR-414[HAP]Front
+Constraint[Next][2]=BR-419[MLV]
+Constraint[Next][3]=BR-499[TLV]
+Constraint[Next][4]=BR-423-DTCL-Front
+Constraint[Next][5]=BR-421[CIG]Front
+Constraint[Next][6]=BR-4EPB(front)
+Constraint[Next][7]=none
 
 Constraint[Prev][0]=BR-423-TSO
 

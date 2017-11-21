@@ -20,7 +20,7 @@ weight=32
 axles=4
 cost=760000
 runningcost=38
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -41,8 +41,21 @@ Constraint[Next][5]=LNER-Gresley-Express-Parcel-Brake
 Constraint[Next][6]=LNER-Gresley-Express-Buffet
 Constraint[Next][7]=LNER-Gresley-Express-Coach-All-Doors
 Constraint[Next][8]=LNER-Gresley-Express-Brake-all-doors-rear
-Constraint[Next][9]=none
-# TODO: Add GNR corridor carriages here.
+Constraint[Next][9]=gnr-clerestory-cor-63ft-5
+Constraint[Next][10]=gnr-clerestory-cor-brake-rear-63ft-5
+Constraint[Next][11]=gnr-clerestory-dining-car
+Constraint[Next][12]=gnr-clerestory-cor-53ft-6
+Constraint[Next][13]=gnr-clerestory-cor-brake-rear-53ft-6
+Constraint[Next][14]=gnr-clerestory-cor-full-brake-45ft
+Constraint[Next][15]=gnr-clerestory-cor-mail-45ft
+Constraint[Next][16]=gnr-clerestory-cor-tpo-45ft
+Constraint[Next][17]=gnr-gresley-cor
+Constraint[Next][18]=gnr-gresley-cor-brake-rear
+Constraint[Next][19]=gnr-gresley-cor-dining
+Constraint[Next][20]=gnr-gresley-cor-parcels-brake
+Constraint[Next][21]=gnr-gresley-cor-mail
+Constraint[Next][22]=gnr-gresley-cor-tpo
+Constraint[Next][23]=none
 
 EmptyImage[E][0]=./images/lner-gresley-express-brake-front.1.4
 EmptyImage[SE][0]=./images/lner-gresley-express-brake-front.1.5
@@ -91,7 +104,7 @@ weight=32
 axles=4
 cost=760000
 runningcost=38
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -108,6 +121,20 @@ Constraint[Prev][5]=LNER-Gresley-Express-Parcel-Brake
 Constraint[Prev][6]=LNER-Gresley-Express-Buffet
 Constraint[Prev][7]=LNER-Gresley-Express-Coach-All-Doors
 Constraint[Prev][8]=LNER-Gresley-Express-Brake-all-doors-front
+Constraint[Prev][9]=gnr-clerestory-cor-63ft-5
+Constraint[Prev][10]=gnr-clerestory-cor-brake-front-63ft-5
+Constraint[Prev][11]=gnr-clerestory-dining-car
+Constraint[Prev][12]=gnr-clerestory-cor-53ft-6
+Constraint[Prev][13]=gnr-clerestory-cor-brake-front-53ft-6
+Constraint[Prev][14]=gnr-clerestory-cor-full-brake-45ft
+Constraint[Prev][15]=gnr-clerestory-cor-mail-45ft
+Constraint[Prev][16]=gnr-clerestory-cor-tpo-45ft
+Constraint[Prev][17]=gnr-gresley-cor
+Constraint[Prev][18]=gnr-gresley-cor-brake-front
+Constraint[Prev][19]=gnr-gresley-cor-dining
+Constraint[Prev][20]=gnr-gresley-cor-parcels-brake
+Constraint[Prev][21]=gnr-gresley-cor-mail
+Constraint[Prev][22]=gnr-gresley-cor-tpo
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early

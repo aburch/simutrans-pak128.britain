@@ -4,6 +4,7 @@ copyright=Kieron
 waytype=water
 engine_type=diesel
 smoke=diesel
+sound=ship-horn_b.wav
 speed=20
 power=1200
 #gear=1200
@@ -15,6 +16,7 @@ cost=114000000
 runningcost=3500
 intro_year=2007
 intro_month=6
+is_tall=1
 
 comfort=90
 # 5-10 minutes

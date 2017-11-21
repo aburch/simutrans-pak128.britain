@@ -21,7 +21,7 @@ axles=4
 cost=750000
 upgrade_price=250000
 runningcost=61
-sound=-1
+sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -29,7 +29,7 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=20
+min_loading_time=22
 max_loading_time=80
 comfort=53
 
@@ -66,7 +66,7 @@ weight=15
 axles=4
 cost=250000
 runningcost=5
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -77,7 +77,7 @@ upgrade[1]=1903TubeStockRear
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=20
+min_loading_time=22
 max_loading_time=80
 comfort=53
 
@@ -123,7 +123,7 @@ axles=4
 cost=750000
 upgrade_price=250000
 runningcost=61
-sound=-1
+sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -131,7 +131,7 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=20
+min_loading_time=22
 max_loading_time=80
 comfort=53
 

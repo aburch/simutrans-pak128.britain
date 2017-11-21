@@ -2,12 +2,12 @@ obj=vehicle
 name=LNWR-side-tank
 engine_type=steam
 smoke=Steam
-speed=75
-# Estimated - no heating surface area data available.
-power=67
+speed=78
+# Estimated
+power=72
 # Calculated from data from Ahrons, p. 121
-# Loss factor set at 0.7, assumed 100lbs boiler pressure. 
-tractive_effort=26
+# Loss factor set at 0.7.
+tractive_effort=29
 copyright=James/jamespetts
 intro_year=1856
 intro_month=8
@@ -19,13 +19,14 @@ payload=0
 length=5
 brake_force=7
 rolling_resistance=19
+way_wear_factor=45650
 
 # Weight not given in Ahrons, but guessed based on contemporaneous types.
 weight=22
 axles=3
 cost=7790000
 runningcost=820
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0
 bidirectional=1

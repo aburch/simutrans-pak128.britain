@@ -1,0 +1,39 @@
+obj=vehicle
+name=gnr-g3
+engine_type=steam
+smoke=Steam
+speed=140
+# Extrapolated
+power=250
+tractive_effort=68
+copyright==Kieron/JamesPetts
+intro_year=1900
+intro_month=11
+retire_year=1908
+retire_month=9
+waytype=track
+freight=None
+payload=0
+length=5
+
+# http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
+# Also, Ahrons p. 302
+weight=50.3
+axle_load=20
+cost=13560000
+upgrade_price=2750000
+runningcost=1782
+sound=lwalker-br-4mt-tank.wav
+
+Constraint[Next][0]=GNR-Stirling8Foot-Tender
+
+EmptyImage[E]=./images/gnr-g3.1.4
+EmptyImage[SE]=./images/gnr-g3.1.5
+EmptyImage[S]=./images/gnr-g3.1.6
+EmptyImage[SW]=./images/gnr-g3.1.7
+EmptyImage[W]=./images/gnr-g3.1.0
+EmptyImage[NW]=./images/gnr-g3.1.1
+EmptyImage[N]=./images/gnr-g3.1.2
+EmptyImage[NE]=./images/gnr-g3.1.3
+
+

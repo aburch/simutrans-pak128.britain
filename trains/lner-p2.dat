@@ -19,6 +19,8 @@ waytype=track
 freight=None
 payload=0
 length=8
+# Three cylinders
+way_wear_factor=147125
 
 weight=107
 # http://en.wikipedia.org/wiki/LNER_Class_P2
@@ -26,7 +28,7 @@ axle_load=20
 cost=15206000
 # These were noted as unreliable: http://www.lner.info/locos/P/p2.shtml
 runningcost=2376
-sound=-1
+sound=konakaboom-black-five.wav
 increase_maintenance_after_years=13
 years_before_maintenance_max_reached=10
 
@@ -83,7 +85,7 @@ weight=57
 axles=4
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=13
 years_before_maintenance_max_reached=10
 

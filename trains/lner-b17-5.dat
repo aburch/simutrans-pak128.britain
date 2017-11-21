@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=150
 # Extrapolated
-power=430
+power=418
 tractive_effort=100
 copyright=James
 intro_year=1937
@@ -19,9 +19,11 @@ length=7
 weight=81
 # http://www.lner.info/locos/B/b17.shtml
 axle_load=18
+# Three cylinders
+way_wear_factor=111375
 cost=8467200
 runningcost=1452
-sound=-1
+sound=konakaboom-black-five.wav
 air_resistance=108
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=11

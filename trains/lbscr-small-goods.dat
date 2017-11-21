@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=75
 # Extrapolated
-power=40
+power=135
 # Tractive effort calculated using data from 
 # http://www.steamindex.com/locotype/lbscrloc.htm
 tractive_effort=47
@@ -18,6 +18,7 @@ freight=None
 payload=0
 length=4
 brake_force=0
+way_wear_factor=53328
 
 can_lead_from_rear=0
 bidirectional=0
@@ -27,7 +28,7 @@ weight=25.7
 axles=3
 cost=3750000
 runningcost=290
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-standard-goods-tender
 

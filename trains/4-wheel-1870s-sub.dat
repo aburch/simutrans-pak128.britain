@@ -10,7 +10,7 @@
 
 obj=vehicle
 name=4-wheel-sub-1870s-unfitted
-speed=130
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1870
 intro_month=1
@@ -28,21 +28,17 @@ weight=9
 axles=2
 cost=300000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-sub-1870s-fitted
 
 comfort=52
-min_loading_time=17
-max_loading_time=47
+# Lower loading time for suburban vehicles as passengers have no luggage.
+min_loading_time=10
+max_loading_time=30
 
 can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=45
-
-liverytype[0]=LNWR-Early
-liverytype[1]=MR-Early
-liverytype[2]=MR-Standard
-#liverytype[3]=GNR-Standard
 
 Constraint[Next][0]=4-wheel-1860s
 Constraint[Next][1]=4-wheel-1860s-brake-rear
@@ -100,6 +96,12 @@ Constraint[Prev][24]=4-wheel-1860s-milk
 Constraint[Prev][25]=4-wheel-1870s-fast-freight-unfitted
 Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 
+liverytype[0]=LNWR-Early
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-chocolate-brown
+
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban.1.5
 EmptyImage[S][0]=./images/lnwr-4wheel-suburban.1.6
@@ -127,11 +129,29 @@ EmptyImage[NW][2]=./images/mr-4wheel-suburban.1.1
 EmptyImage[N][2]=./images/mr-4wheel-suburban.1.2
 EmptyImage[NE][2]=./images/mr-4wheel-suburban.1.3
 
+EmptyImage[E][3]=./images/gnr-4wheel-suburban.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-suburban.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-suburban.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-suburban.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-suburban.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-suburban.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-suburban.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-suburban.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban.1.3
+
 ----
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-front-unfitted
-speed=130
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1870
 intro_month=1
@@ -149,12 +169,12 @@ weight=9
 axles=2
 cost=300000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-sub-1870s-brake-front-fitted
 
 comfort=52
-min_loading_time=17
-max_loading_time=47
+min_loading_time=10
+max_loading_time=30
 
 can_lead_from_rear=0
 bidirectional=1
@@ -192,7 +212,8 @@ Constraint[Next][27]=none
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-#liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban-brake-front.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban-brake-front.1.5
@@ -221,11 +242,29 @@ EmptyImage[NW][2]=./images/mr-4wheel-suburban-brake-front.1.1
 EmptyImage[N][2]=./images/mr-4wheel-suburban-brake-front.1.2
 EmptyImage[NE][2]=./images/mr-4wheel-suburban-brake-front.1.3
 
+EmptyImage[E][3]=./images/gnr-4wheel-suburban-brake-front.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-suburban-brake-front.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-suburban-brake-front.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-suburban-brake-front.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-suburban-brake-front.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-suburban-brake-front.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-suburban-brake-front.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-suburban-brake-front.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban-brake-front.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban-brake-front.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban-brake-front.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban-brake-front.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban-brake-front.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban-brake-front.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban-brake-front.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban-brake-front.1.3
+
 ----
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-rear-unfitted
-speed=130
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1870
 intro_month=1
@@ -243,12 +282,12 @@ weight=9
 axles=2
 cost=300000
 runningcost=17
-sound=-1
+
 upgrade[0]=4-wheel-sub-1870s-brake-rear-fitted
 
 comfort=52
-min_loading_time=17
-max_loading_time=47
+min_loading_time=10
+max_loading_time=30
 
 can_lead_from_rear=0
 bidirectional=1
@@ -285,7 +324,8 @@ Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-#liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban-brake-rear.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban-brake-rear.1.5
@@ -314,13 +354,31 @@ EmptyImage[NW][2]=./images/mr-4wheel-suburban-brake-rear.1.1
 EmptyImage[N][2]=./images/mr-4wheel-suburban-brake-rear.1.2
 EmptyImage[NE][2]=./images/mr-4wheel-suburban-brake-rear.1.3
 
+EmptyImage[E][3]=./images/gnr-4wheel-suburban-brake-rear.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-suburban-brake-rear.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-suburban-brake-rear.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-suburban-brake-rear.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-suburban-brake-rear.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-suburban-brake-rear.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-suburban-brake-rear.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-suburban-brake-rear.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban-brake-rear.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban-brake-rear.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban-brake-rear.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban-brake-rear.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban-brake-rear.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban-brake-rear.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban-brake-rear.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban-brake-rear.1.3
+
 ----
 
 # FITTED VEHICLES HEREAFTER #
 
 obj=vehicle
 name=4-wheel-sub-1870s-fitted
-speed=130
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1876
 intro_month=3
@@ -340,20 +398,15 @@ axles=2
 cost=355000
 upgrade_price=65000
 runningcost=22
-sound=-1
+
 
 comfort=52
-min_loading_time=17
-max_loading_time=47
+min_loading_time=10
+max_loading_time=30
 
 can_lead_from_rear=0
 bidirectional=1
 increase_maintenance_after_years=45
-
-liverytype[0]=LNWR-Early
-liverytype[1]=MR-Early
-liverytype[2]=MR-Standard
-#liverytype[3]=GNR-Standard
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -417,6 +470,12 @@ Constraint[Prev][27]=GNR-6Wheel-brake-third-rear
 Constraint[Prev][28]=GNR-6Wheel-Guard
 Constraint[Prev][29]=4-wheel-1870s-milk-fitted
 
+liverytype[0]=LNWR-Early
+liverytype[1]=MR-Early
+liverytype[2]=MR-Standard
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-chocolate-brown
+
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban.1.5
 EmptyImage[S][0]=./images/lnwr-4wheel-suburban.1.6
@@ -444,11 +503,29 @@ EmptyImage[NW][2]=./images/mr-4wheel-suburban.1.1
 EmptyImage[N][2]=./images/mr-4wheel-suburban.1.2
 EmptyImage[NE][2]=./images/mr-4wheel-suburban.1.3
 
+EmptyImage[E][3]=./images/gnr-4wheel-suburban.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-suburban.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-suburban.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-suburban.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-suburban.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-suburban.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-suburban.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-suburban.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban.1.3
+
 ----
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-front-fitted
-speed=130
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1876
 intro_month=3
@@ -468,11 +545,11 @@ axles=2
 cost=355000
 upgrade_price=65000
 runningcost=22
-sound=-1
+
 
 comfort=52
-min_loading_time=17
-max_loading_time=47
+min_loading_time=10
+max_loading_time=30
 
 can_lead_from_rear=0
 bidirectional=1
@@ -510,42 +587,11 @@ Constraint[Next][28]=GNR-6Wheel-Guard
 Constraint[Next][29]=4-wheel-1870s-milk-fitted
 Constraint[Next][30]=none
 
-Constraint[Prev][0]=4-wheel-1870s-fitted
-Constraint[Prev][1]=4-wheel-1870s-brake-fitted
-Constraint[Prev][2]=4-wheel-1870s-mail-fitted
-Constraint[Prev][3]=4-wheel-1870s-tpo-fitted
-Constraint[Prev][4]=4-wheel-sub-1870s-fitted
-Constraint[Prev][5]=4-wheel-sub-1870s-brake-front-fitted
-Constraint[Prev][6]=MR-6Wheel-Mail
-Constraint[Prev][7]=4-wheel-1870s-fast-freight-fitted
-Constraint[Prev][8]=MR-6Wheel-tpo
-Constraint[Prev][9]=MR-6Wheel-non-lav
-Constraint[Prev][10]=MR-6Wheel-lav
-Constraint[Prev][11]=MR-6Wheel-brake-front
-Constraint[Prev][12]=LNWR-6Wheel-non-lav
-Constraint[Prev][13]=LNWR-6Wheel-lav
-Constraint[Prev][14]=LNWR-6Wheel-Mail
-Constraint[Prev][15]=LNWR-6Wheel-tpo
-Constraint[Prev][16]=LNWR-6Wheel-Guard
-Constraint[Prev][17]=LNWR-6Wheel-brake-third
-Constraint[Prev][18]=LNWR-6wheel-radial
-Constraint[Prev][19]=LNWR-6wheel-radial-brake-third
-Constraint[Prev][20]=LNWR-6wheel-radial-full-brake
-Constraint[Prev][21]=LNWR-6wheel-radial-mail
-Constraint[Prev][22]=LNWR-6wheel-radial-tpo
-Constraint[Prev][23]=GNR-6Wheel-First
-Constraint[Prev][24]=GNR-6Wheel-cor-lav
-Constraint[Prev][25]=GNR-6Wheel-Mail
-Constraint[Prev][26]=GNR-6Wheel-tpo
-Constraint[Prev][27]=GNR-6Wheel-brake-third-rear
-Constraint[Prev][28]=GNR-6Wheel-Guard
-Constraint[Prev][29]=4-wheel-1870s-milk-fitted
-Constraint[Prev][30]=none
-
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-#liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban-brake-front.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban-brake-front.1.5
@@ -574,11 +620,29 @@ EmptyImage[NW][2]=./images/mr-4wheel-suburban-brake-front.1.1
 EmptyImage[N][2]=./images/mr-4wheel-suburban-brake-front.1.2
 EmptyImage[NE][2]=./images/mr-4wheel-suburban-brake-front.1.3
 
+EmptyImage[E][3]=./images/gnr-4wheel-suburban-brake-front.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-suburban-brake-front.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-suburban-brake-front.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-suburban-brake-front.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-suburban-brake-front.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-suburban-brake-front.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-suburban-brake-front.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-suburban-brake-front.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban-brake-front.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban-brake-front.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban-brake-front.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban-brake-front.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban-brake-front.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban-brake-front.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban-brake-front.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban-brake-front.1.3
+
 ----
 
 obj=vehicle
 name=4-wheel-sub-1870s-brake-rear-fitted
-speed=130
+speed=145
 copyright=Kieron/James/jamespetts
 intro_year=1876
 intro_month=3
@@ -597,11 +661,11 @@ axles=2
 cost=355000
 upgrade_price=65000
 runningcost=22
-sound=-1
+
 
 comfort=52
-min_loading_time=17
-max_loading_time=47
+min_loading_time=10
+max_loading_time=30
 
 can_lead_from_rear=0
 bidirectional=1
@@ -641,7 +705,8 @@ Constraint[Prev][29]=4-wheel-1870s-milk-fitted
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
-#liverytype[3]=GNR-Standard
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-chocolate-brown
 
 EmptyImage[E][0]=./images/lnwr-4wheel-suburban-brake-rear.1.4
 EmptyImage[SE][0]=./images/lnwr-4wheel-suburban-brake-rear.1.5
@@ -669,3 +734,22 @@ EmptyImage[W][2]=./images/mr-4wheel-suburban-brake-rear.1.0
 EmptyImage[NW][2]=./images/mr-4wheel-suburban-brake-rear.1.1
 EmptyImage[N][2]=./images/mr-4wheel-suburban-brake-rear.1.2
 EmptyImage[NE][2]=./images/mr-4wheel-suburban-brake-rear.1.3
+
+EmptyImage[E][3]=./images/gnr-4wheel-suburban-brake-rear.1.4
+EmptyImage[SE][3]=./images/gnr-4wheel-suburban-brake-rear.1.5
+EmptyImage[S][3]=./images/gnr-4wheel-suburban-brake-rear.1.6
+EmptyImage[SW][3]=./images/gnr-4wheel-suburban-brake-rear.1.7
+EmptyImage[W][3]=./images/gnr-4wheel-suburban-brake-rear.1.0
+EmptyImage[NW][3]=./images/gnr-4wheel-suburban-brake-rear.1.1
+EmptyImage[N][3]=./images/gnr-4wheel-suburban-brake-rear.1.2
+EmptyImage[NE][3]=./images/gnr-4wheel-suburban-brake-rear.1.3
+
+EmptyImage[E][4]=./images/lswr-4wheel-suburban-brake-rear.1.4
+EmptyImage[SE][4]=./images/lswr-4wheel-suburban-brake-rear.1.5
+EmptyImage[S][4]=./images/lswr-4wheel-suburban-brake-rear.1.6
+EmptyImage[SW][4]=./images/lswr-4wheel-suburban-brake-rear.1.7
+EmptyImage[W][4]=./images/lswr-4wheel-suburban-brake-rear.1.0
+EmptyImage[NW][4]=./images/lswr-4wheel-suburban-brake-rear.1.1
+EmptyImage[N][4]=./images/lswr-4wheel-suburban-brake-rear.1.2
+EmptyImage[NE][4]=./images/lswr-4wheel-suburban-brake-rear.1.3
+

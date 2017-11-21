@@ -4,9 +4,9 @@ copyright=James
 waytype=water
 engine_type=steam
 smoke=Steam
+sound=ship-horn_b.wav
 speed=22
 power=90
-#gear=1200
 freight=Passagiere
 payload=320
 weight=45
@@ -17,6 +17,7 @@ intro_year=1844
 intro_month=2
 retire_year=1873
 retire_month=6
+is_tall=1
 
 comfort=68
 # 30-45 minutes

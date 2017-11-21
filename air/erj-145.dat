@@ -1,0 +1,44 @@
+# https://en.wikipedia.org/wiki/Embraer_ERJ_145_family
+# http://www.airliners.net/aircraft-data/embraer-erj-145/198
+obj=vehicle
+name=erj-145
+copyright=Emmanuel Baranger
+# CC-BY-SA
+# https://www.blendswap.com/blends/view/73072
+waytype=air
+engine_type=turbine
+speed=833
+power=11340
+tractive_effort=63
+freight=Passagiere
+payload=50
+weight=12.1
+#length=8
+cost=30000000
+runningcost=3500
+intro_year=1997
+intro_month=4
+# Single class
+comfort=95
+min_loading_time=2320
+max_loading_time=2320
+catering_level=1
+
+# http://www.embraercommercialjets.com.cn/AircraftPDF/E145_Performance.pdf
+minimum_runway_length=1380
+
+range=2445
+
+sound=bigpickle51-jet-takeoff.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/erj-145_E.0.0
+EmptyImage[SE]=./images/erj-145_SE.0.0
+EmptyImage[S]=./images/erj-145_S.0.0
+EmptyImage[SW]=./images/erj-145_SW.0.0
+EmptyImage[W]=./images/erj-145_W.0.0
+EmptyImage[NW]=./images/erj-145_NW.0.0
+EmptyImage[N]=./images/erj-145_N.0.0
+EmptyImage[NE]=./images/erj-145_NE.0.0

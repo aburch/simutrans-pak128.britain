@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=145
 # Extrapolated
-power=238
+power=258
 # http://en.wikipedia.org/wiki/Midland_Railway_115_Class
 tractive_effort=68
 copyright=James
@@ -15,7 +15,7 @@ retire_month=1
 waytype=track
 freight=None
 payload=0
-length=6
+length=4
 
 # http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm
 weight=47
@@ -23,7 +23,7 @@ weight=47
 axle_load=19
 cost=5404500
 runningcost=858
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=34
 years_before_maintenance_max_reached=20
 

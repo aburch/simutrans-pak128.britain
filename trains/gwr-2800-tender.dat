@@ -1,6 +1,6 @@
 obj=vehicle
 name=GWR-2800-Tender
-speed=92
+speed=90
 power=0
 copyright=James
 intro_year=1903
@@ -16,7 +16,7 @@ weight=40
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=13
 

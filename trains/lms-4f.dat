@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=95
 # Extrapolated
-power=187
+power=290
 # http://en.wikipedia.org/wiki/Midland_Railway_3835_Class
 tractive_effort=109
 copyright=James
@@ -21,7 +21,7 @@ weight=50
 axles=3
 cost=3696000
 runningcost=462
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=14
 

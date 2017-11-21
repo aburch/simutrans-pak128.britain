@@ -11,10 +11,11 @@ retire_month=12
 Dims=1,1,16
 NoInfo=1
 Level=1
+allow_underground=0
 
-station_maintenance=2700
-station_price=180000
-station_capacity=0
+maintenance=2700
+cost=180000
+capacity=0
 
 BackImage[0][0][0][0][0][0]=brick-platform.1.0
 BackImage[1][0][0][0][0][0]=brick-platform.0.0
@@ -69,10 +70,11 @@ retire_month=12
 Dims=1,1,16
 NoInfo=1
 Level=2
+allow_underground=0
 
-station_maintenance=3600
-station_price=360000
-station_capacity=30
+maintenance=3600
+cost=360000
+capacity=30
 
 BackImage[0][0][0][0][0][0]=brick-platform-building.0.1
 BackImage[1][0][0][0][0][0]=brick-platform-building.0.2
@@ -128,10 +130,11 @@ retire_month=12
 Dims=1,1,16
 NoInfo=1
 Level=4
+allow_underground=0
 
-station_maintenance=5760
-station_price=576000
-station_capacity=48
+maintenance=5760
+cost=576000
+capacity=48
 
 BackImage[0][0][0][0][0][0]=brick-platform-overall.0.1
 BackImage[1][0][0][0][0][0]=brick-platform-overall.0.2

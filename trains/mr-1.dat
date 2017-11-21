@@ -2,8 +2,8 @@ obj=vehicle
 name=MR-1
 engine_type=steam
 smoke=Steam
-speed=110
-# Approximately extrapolated, given no heating surface data
+speed=113
+# Approximately extrapolated, given no heating surface data (old system)
 power=156
 # Calculated from data from Ahrons, p. 113
 # Loss factor set at 0.7, assumed 120lbs boiler pressure. 
@@ -16,7 +16,7 @@ retire_month=2
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 brake_force=0
 rolling_resistance=19
 
@@ -25,7 +25,7 @@ weight=29
 axle_load=12
 cost=7975000
 runningcost=880
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=MR-1-tender
 
@@ -55,7 +55,7 @@ EmptyImage[NE][1]=./images/mr-1.1.3
 obj=vehicle
 name=MR-1-tender
 engine_type=steam
-speed=110
+speed=113
 copyright=James/jamespetts
 intro_year=1859
 intro_month=4
@@ -71,7 +71,7 @@ brake_force=3
 weight=14
 cost=0
 runningcost=0
-sound=-1
+
 
 Constraint[Prev][0]=MR-1
 

@@ -19,6 +19,7 @@ Location=Land
 distributionweight=35
 Productivity=1  
 Range=0   
+max_distance_to_consumer=50
 passenger_boost=1000
 mail_boost=0
 electricity_amount=0
@@ -51,6 +52,8 @@ max_fields=25
 min_fields=7
 has_snow[0]=1
 spawn_weight[0]=100
+upgrade[0]=ArableFarm1840
+upgrade[1]=ArableFarm1910
 --------------------
 Obj=field
 name=VegetableField
@@ -59,7 +62,6 @@ Image[1]=vegetable-field-spring.0
 Image[2]=vegetable-field-summer.0
 Image[3]=vegetable-field-autumn.0
 Image[4]=vegetable-field-snow.0
-needs_ground=1
 ----------------------------------------
 Obj=factory
 name=ArableFarm1840
@@ -78,6 +80,7 @@ Location=Land
 distributionweight=32
 Productivity=1  
 Range=0   
+max_distance_to_consumer=125
 passenger_boost=1000
 mail_boost=0
 electricity_amount=1
@@ -109,6 +112,8 @@ production_per_field[0]=1
 max_fields=35
 min_fields=11
 has_snow[0]=1
+upgrade[0]=ArableFarm1910
+upgrade[1]=ArableFarm1945
 -------------------------------
 Obj=factory
 name=ArableFarm1910
@@ -127,6 +132,7 @@ Location=Land
 distributionweight=24
 Productivity=1  
 Range=2   
+max_distance_to_consumer=150
 passenger_boost=1000
 mail_boost=0
 electricity_amount=1
@@ -159,6 +165,8 @@ production_per_field[0]=1
 max_fields=40
 min_fields=20
 has_snow[0]=1
+upgrade[0]=ArableFarm1945
+upgrade[1]=ArableFarm1975
 --------------------
 Obj=factory
 name=ArableFarm1945
@@ -209,7 +217,7 @@ production_per_field[0]=2
 max_fields=50
 min_fields=16
 has_snow[0]=1
-
+upgrade[0]=ArableFarm1975
 --------------------
 Obj=factory
 name=ArableFarm1975

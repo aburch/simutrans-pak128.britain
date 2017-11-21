@@ -4,9 +4,9 @@ copyright=jamespetts
 waytype=water
 engine_type=diesel
 smoke=Diesel
+sound=ship-horn_b.wav
 speed=30
 power=783
-#gear=1200
 freight=Passagiere
 payload=1200
 weight=400
@@ -19,6 +19,7 @@ intro_year=1931
 intro_month=3
 #retire_year=1950
 #retire_month=7
+is_tall=1
 
 # Comfort adversely affected by vibrations
 comfort=99

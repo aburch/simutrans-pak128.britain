@@ -4,6 +4,7 @@ copyright=James
 waytype=water
 engine_type=steam
 smoke=Steam
+sound=ship-horn_b.wav
 speed=20
 power=4550
 #gear=400
@@ -15,6 +16,7 @@ intro_year=1869
 intro_month=11
 retire_year=1912
 retire_month=8
+is_tall=1
 
 # 1-2 hours
 min_loading_time=3600

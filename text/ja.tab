@@ -840,13 +840,13 @@ Early_Signals_right
 信号
 LongSignals
 多閉塞信号
-Modern_ChooseSignals_right
+two-aspect-colour-light-choose
 色灯式場内信号機(入線振分)
 Modern_LongSignals_right
 色灯式多閉塞信号
-Modern_preSignals_right
+two-aspect-colour-light-distant
 色灯式プレシグナル
-Modern_Signals_right
+two-aspect-colour-light-stop
 色灯式信号
 MotorwaySign
 高速道路入口(80km/h)
@@ -986,29 +986,29 @@ BR-158Middle(Regional)
 BR 158形 エクスプレス・スプリンター DMU 中間部
 BR-158Rear(Regional)
 BR 158形 エクスプレス・スプリンター DMU 後部
-BR-165Front(NSE)
+BR-165Front
 BR 165形 ネットワーク・ターボ DMU
-BR-165Middle(NSE)
+BR-165Middle
 BR 165形 ネットワーク・ターボ DMU 中間部
-BR-165Rear(NSE)
+BR-165Rear
 BR 165形 ネットワーク・ターボ DMU 後部
-BR-170Front(Scotrail)
+BR-170Front
 BR クラス170 ターボスター DMU
-BR-170Middle(Scotrail)
+BR-170Middle
 BR クラス170 ターボスター DMU 中間部
-BR-170Rear(Scotrail)
+BR-170Rear
 BR クラス170 ターボスター DMU 後部
-BR-180Front(FGW)
+BR-180Front
 BR クラス180 アデランテ
-BR-180Middle(FGW)
+BR-180Middle
 BR クラス180 アデランテ 中間部
-BR-180Rear(FGW)
+BR-180Rear
 BR クラス180 アデランテ 後部
-BR-205Front(Rail-Blue)
+BR-205Front
 BR クラス205 DEMU
-BR-205Middle(Rail-Blue)
+BR-205Middle
 BR クラス205 DEMU 中間部
-BR-205Rear(Rail-Blue)
+BR-205Rear
 BR クラス205 DEMU 後部
 BR-220Front(Virgin)
 BR 220系 ボイジャー
@@ -1032,21 +1032,21 @@ BR-303Pantograph
 BR クラス303 EMU パンタ車
 BR-303Rear
 BR クラス303 EMU 後部
-BR-309-1Front(Blue-Grey)
+BR-309-1Front
 BR クラス309/1 EMU
-BR-309-2Front(Blue-Grey)
+BR-309-2Front
 BR クラス309/2 EMU
-BR-309Middle(Blue-Grey)
+BR-309Middle
 BR クラス309 EMU 中間車
-BR-309Power(Blue-Grey)
+BR-309Power
 BR クラス309 EMU 動力車
-BR-309Rear(Blue-Grey)
+BR-309Rear
 BR クラス309 EMU 後部
-BR-313Front(Blue-Grey)
+BR-313Front
 BR クラス313 EMU
-BR-313Pantograph(Blue-Grey)
+BR-313Pantograph
 BR クラス313 EMU パンタ車
-BR-313Rear(Blue-Grey)
+BR-313Rear
 BR クラス313 EMU 後部
 BR-319Engine(NSE)
 BR 319形 EMU 動力車
@@ -1088,11 +1088,11 @@ BR-373RearCab
 BR 373形 ユーロスター 後部
 BR-373RearPower
 BR 373形 ユーロスター 中間車
-BR-375Front(SE)
+BR-375Front
 BR クラス375 エレクトロスター EMU
 BR-375Middle(SE)
 BR クラス375 エレクトロスター EMU 中間部
-BR-375Rear(SE)
+BR-375Rear
 BR クラス375 エレクトロスター EMU 後部
 BR-378Front
 BR クラス378 EMU
@@ -1116,35 +1116,35 @@ BR-390RearCoach(Virgin)
 BR 390形 ペンドリーノ 中間車
 BR-390RearPantograph(Virgin)
 BR 390形 ペンドリーノ パンタ車
-BR-395Front(SE)
+BR-395Front
 BR 395系 ジャベリン
-BR-395Middle(SE)
+BR-395Middle
 BR 395系 ジャベリン 中間部
-BR-395Rear(SE)
+BR-395Rear
 BR 395系 ジャベリン 後部
-BR-410[CEP]Brake(Blue-Grey)
+BR-410[CEP]Brake
 BR 410形 "4Cep" EMU 緩急車
-BR-410[CEP]Front(Blue-Grey)
+BR-410[CEP]Front
 BR 410形 "4Cep" EMU
-BR-410[CEP]Middle(Blue-Grey)
+BR-410[CEP]Middle
 BR 410形 "4Cep" EMU 中間車
-BR-410[CEP]Rear(Blue-Grey)
+BR-410[CEP]Rear
 BR 410形 "4Cep" EMU 後部
-BR-414[HAP]Front(Blue-Grey)
+BR-414[HAP]Front
 BR クラス414 "2Hap" EMU
-BR-414[HAP]Rear(Blue-Grey)
+BR-414[HAP]Rear
 BR クラス414 "2Hap" EMU 後部
 BR-419[MLV]
 BR クラス419 手荷物車（動力車）
-BR-442-Front(NSE)
+BR-442-Front
 BR クラス442 NSE
-BR-442-Middle1(NSE)
+BR-442-Middle1
 BR クラス442 NSE 中間車
-BR-442-Middle2(NSE)
+BR-442-Middle2
 BR クラス442 NSE 中間車
-BR-442-Middle3(NSE)
+BR-442-Middle3
 BR クラス442 NSE 中間車
-BR-442-Rear(NSE)
+BR-442-Rear
 BR クラス442 NSE 後部
 BR-465Front(NSE)
 BR クラス465 ネットワーカー EMU
@@ -1200,7 +1200,7 @@ BR-Class66
 BR クラス66
 BR-Class67
 BR クラス67
-BR-Class71(Green)
+BR-Class71
 BR クラス71
 BR-Class73
 BR クラス73
@@ -1464,7 +1464,7 @@ GNR-Stirling8Foot
 GNR スターリングシングル 4-2-2
 GNR-Stirling8Foot-Tender
 GNR スターリングシングル 4-2-2 テンダー
-Guy_Special(LT-Green)
+guy-special
 Guy Special バス
 GuyArab
 Guy Arab 2階建てバス
@@ -1570,7 +1570,7 @@ LBSCR-B1-Gladstone
 LBSCR クラスB1 グラッドストーン 0-4-2
 LBSCR-B1-Gladstone-Tender
 LBSCR クラスB1 グラッドストーン 0-4-2 テンダー
-LBSCR-L-Tank(Umber)
+LBSCR-L
 LBSCR L級 リメンバランス 4-6-4T
 Leyland_Cub(LT-Green)
 レイランド カブ
@@ -1856,7 +1856,7 @@ LNWR-Bloomer-Tender
 LNWR ブルーマー型 2-2-2 テンダー
 LNWR-Bloomer
 LNWR ブルーマー型 2-2-2
-LNWR-DXgoods-Tender(Green)
+LNWR-DXgoods-Tender
 LNWR DX Goods 0-6-0 テンダー
 LNWR-DXgoods
 LNWR DX Goods 0-6-0
@@ -1928,11 +1928,11 @@ Metrolink-T86(Front)
 マンチェスター・メトロリンク T86
 Metrolink-T86(Rear)
 マンチェスター・メトロリンク T86 後部
-Metropolitan-Bogie-Third
+met-bogie-third
 メトロポリタン鉄道 ３等ボギー客車
 Metropolitan-Class-E
 メトロポリタン鉄道 E形 0-4-4T
-Metropolitan-Dreadnought-Third
+met-dreadnought-third
 メトロポリタン鉄道  ドレッドノート ３等客車
 Metropolitan-Motor-Third-Back
 メトロポリタン鉄道 ３等車 後部
@@ -2162,9 +2162,9 @@ ScammellScarab
 スキャンメル スカラベ トラクタ
 ScammellTownsman
 スキャンメル タウンズマン トラクタ
-SDR-1001-Tender(Green)
+SDR-1001-Tender
 SDR 1001形 0-6-0 テンダー
-SDR-1001(Green)
+SDR-1001
 SDR 1001形 0-6-0
 SDR-Derwent
 SDR ダーウェント 0-6-0
@@ -2228,23 +2228,23 @@ SR-404[COR]Middle2
 SR 4Cor EMU 中間車
 SR-404[COR]Rear
 SR 4Cor EMU 後部
-SR-Bulleid-Express-Brake(Green)
+SR-Bulleid-Express-Brake-rear
 SR ブレイド急行 緩急車
-SR-Bulleid-Express-Coach(Green)
+SR-Bulleid-Express-Coach
 SR ブレイド急行 客車
-SR-Bulleid-Express-Dining(Green)
+SR-Bulleid-Express-Dining
 SR ブレイド急行 食堂車
-SR-Maunsell-Brake(Green)
+SR-Maunsell-Brake-rear
 SR マウンセル急行 緩急車
-SR-Maunsell-Dining(Green)
+SR-Maunsell-Dining
 SR マウンセル急行 食堂車
-SR-Maunsell-Mail(Green)
+SR-Maunsell-Mail
 SR マウンセル急行 郵便車
-SR-Maunsell-Parcels(Green)
+SR-Maunsell-Parcels
 SR マウンセル急行 手荷物車（ブレーキ室）
-SR-Maunsell-Third(Green)
+SR-Maunsell-Third
 SR マウンセル急行 ３等客車
-SR-Maunsell-TPO(Green)
+SR-Maunsell-TPO
 SR マウンセル急行 移動郵便局
 SR-MerchantNavy 4-6-2(Green)
 SR マーチャントネービー型 4-6-2
@@ -2440,7 +2440,7 @@ YorkshireSteamTank
 ヨークシャー 蒸気自動車 ローリー
 #______________________________________way______________________________________
 #______________________________________way______________________________________
-asphalt_road
+hr-asphalt-road-medium
 アスファルトの道路
 Canal
 運河

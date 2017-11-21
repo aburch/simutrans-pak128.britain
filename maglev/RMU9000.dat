@@ -1,6 +1,6 @@
 obj=vehicle
 name=BR-M-Class9000
-engine_type=battery
+engine_type=hydrogene
 speed=180
 power=800
 gear=90
@@ -14,11 +14,11 @@ weight=15
 axles=1
 cost=30000000
 runningcost=80
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
-air_resistance=1300
+air_resistance=162
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=RMUflat(cooled)

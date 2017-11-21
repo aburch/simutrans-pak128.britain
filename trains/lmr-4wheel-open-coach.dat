@@ -18,7 +18,7 @@ weight=1
 axles=2
 cost=67000
 runningcost=6
-sound=-1
+
 
 comfort=18
 min_loading_time=17
@@ -83,10 +83,11 @@ Constraint[Prev][24]=4-wheel-1860s-milk
 Constraint[Prev][25]=4-wheel-1870s-fast-freight-unfitted
 Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 
-
 liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
 liverytype[2]=LNWR-Early
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-early
 
 EmptyImage[E][0]=./images/4wheel-open-coach.1.4
 EmptyImage[SE][0]=./images/4wheel-open-coach.1.5
@@ -142,6 +143,42 @@ FreightImage[NW][2]=./images/4wheel-open-coach-loaded-lnwr.1.1
 FreightImage[N][2]=./images/4wheel-open-coach-loaded-lnwr.1.2
 FreightImage[NE][2]=./images/4wheel-open-coach-loaded-lnwr.1.3
 
+EmptyImage[E][3]=./images/4wheel-open-coach-gnr.1.4
+EmptyImage[SE][3]=./images/4wheel-open-coach-gnr.1.5
+EmptyImage[S][3]=./images/4wheel-open-coach-gnr.1.6
+EmptyImage[SW][3]=./images/4wheel-open-coach-gnr.1.7
+EmptyImage[W][3]=./images/4wheel-open-coach-gnr.1.0
+EmptyImage[NW][3]=./images/4wheel-open-coach-gnr.1.1
+EmptyImage[N][3]=./images/4wheel-open-coach-gnr.1.2
+EmptyImage[NE][3]=./images/4wheel-open-coach-gnr.1.3
+
+FreightImage[E][3]=./images/4wheel-open-coach-loaded-gnr.1.4
+FreightImage[SE][3]=./images/4wheel-open-coach-loaded-gnr.1.5
+FreightImage[S][3]=./images/4wheel-open-coach-loaded-gnr.1.6
+FreightImage[SW][3]=./images/4wheel-open-coach-loaded-gnr.1.7
+FreightImage[W][3]=./images/4wheel-open-coach-loaded-gnr.1.0
+FreightImage[NW][3]=./images/4wheel-open-coach-loaded-gnr.1.1
+FreightImage[N][3]=./images/4wheel-open-coach-loaded-gnr.1.2
+FreightImage[NE][3]=./images/4wheel-open-coach-loaded-gnr.1.3
+
+EmptyImage[E][4]=./images/4wheel-open-coach-lswr.1.4
+EmptyImage[SE][4]=./images/4wheel-open-coach-lswr.1.5
+EmptyImage[S][4]=./images/4wheel-open-coach-lswr.1.6
+EmptyImage[SW][4]=./images/4wheel-open-coach-lswr.1.7
+EmptyImage[W][4]=./images/4wheel-open-coach-lswr.1.0
+EmptyImage[NW][4]=./images/4wheel-open-coach-lswr.1.1
+EmptyImage[N][4]=./images/4wheel-open-coach-lswr.1.2
+EmptyImage[NE][4]=./images/4wheel-open-coach-lswr.1.3
+
+FreightImage[E][4]=./images/4wheel-open-coach-loaded-lswr.1.4
+FreightImage[SE][4]=./images/4wheel-open-coach-loaded-lswr.1.5
+FreightImage[S][4]=./images/4wheel-open-coach-loaded-lswr.1.6
+FreightImage[SW][4]=./images/4wheel-open-coach-loaded-lswr.1.7
+FreightImage[W][4]=./images/4wheel-open-coach-loaded-lswr.1.0
+FreightImage[NW][4]=./images/4wheel-open-coach-loaded-lswr.1.1
+FreightImage[N][4]=./images/4wheel-open-coach-loaded-lswr.1.2
+FreightImage[NE][4]=./images/4wheel-open-coach-loaded-lswr.1.3
+
 ---
 
 obj=vehicle
@@ -164,7 +201,7 @@ weight=1
 axles=2
 cost=69000
 runningcost=6
-sound=-1
+
 
 comfort=18
 min_loading_time=17
@@ -176,6 +213,8 @@ bidirectional=1
 liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
 liverytype[2]=LNWR-Early
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-early
 
 EmptyImage[E][0]=./images/4wheel-open-brake-rear.1.4
 EmptyImage[SE][0]=./images/4wheel-open-brake-rear.1.5
@@ -230,3 +269,39 @@ FreightImage[W][2]=./images/4wheel-open-brake-rear-loaded-lnwr.1.0
 FreightImage[NW][2]=./images/4wheel-open-brake-rear-loaded-lnwr.1.1
 FreightImage[N][2]=./images/4wheel-open-brake-rear-loaded-lnwr.1.2
 FreightImage[NE][2]=./images/4wheel-open-brake-rear-loaded-lnwr.1.3
+
+EmptyImage[E][3]=./images/4wheel-open-brake-rear-gnr.1.4
+EmptyImage[SE][3]=./images/4wheel-open-brake-rear-gnr.1.5
+EmptyImage[S][3]=./images/4wheel-open-brake-rear-gnr.1.6
+EmptyImage[SW][3]=./images/4wheel-open-brake-rear-gnr.1.7
+EmptyImage[W][3]=./images/4wheel-open-brake-rear-gnr.1.0
+EmptyImage[NW][3]=./images/4wheel-open-brake-rear-gnr.1.1
+EmptyImage[N][3]=./images/4wheel-open-brake-rear-gnr.1.2
+EmptyImage[NE][3]=./images/4wheel-open-brake-rear-gnr.1.3
+
+FreightImage[E][3]=./images/4wheel-open-brake-rear-loaded-gnr.1.4
+FreightImage[SE][3]=./images/4wheel-open-brake-rear-loaded-gnr.1.5
+FreightImage[S][3]=./images/4wheel-open-brake-rear-loaded-gnr.1.6
+FreightImage[SW][3]=./images/4wheel-open-brake-rear-loaded-gnr.1.7
+FreightImage[W][3]=./images/4wheel-open-brake-rear-loaded-gnr.1.0
+FreightImage[NW][3]=./images/4wheel-open-brake-rear-loaded-gnr.1.1
+FreightImage[N][3]=./images/4wheel-open-brake-rear-loaded-gnr.1.2
+FreightImage[NE][3]=./images/4wheel-open-brake-rear-loaded-gnr.1.3
+
+EmptyImage[E][4]=./images/4wheel-open-brake-rear-lswr.1.4
+EmptyImage[SE][4]=./images/4wheel-open-brake-rear-lswr.1.5
+EmptyImage[S][4]=./images/4wheel-open-brake-rear-lswr.1.6
+EmptyImage[SW][4]=./images/4wheel-open-brake-rear-lswr.1.7
+EmptyImage[W][4]=./images/4wheel-open-brake-rear-lswr.1.0
+EmptyImage[NW][4]=./images/4wheel-open-brake-rear-lswr.1.1
+EmptyImage[N][4]=./images/4wheel-open-brake-rear-lswr.1.2
+EmptyImage[NE][4]=./images/4wheel-open-brake-rear-lswr.1.3
+
+FreightImage[E][4]=./images/4wheel-open-brake-rear-loaded-lswr.1.4
+FreightImage[SE][4]=./images/4wheel-open-brake-rear-loaded-lswr.1.5
+FreightImage[S][4]=./images/4wheel-open-brake-rear-loaded-lswr.1.6
+FreightImage[SW][4]=./images/4wheel-open-brake-rear-loaded-lswr.1.7
+FreightImage[W][4]=./images/4wheel-open-brake-rear-loaded-lswr.1.0
+FreightImage[NW][4]=./images/4wheel-open-brake-rear-loaded-lswr.1.1
+FreightImage[N][4]=./images/4wheel-open-brake-rear-loaded-lswr.1.2
+FreightImage[NE][4]=./images/4wheel-open-brake-rear-loaded-lswr.1.3

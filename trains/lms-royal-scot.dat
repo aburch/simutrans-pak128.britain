@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=155
 # Extrapolated
-power=499
+power=623
 tractive_effort=148
 copyright=James/jamespetts
 intro_year=1927
@@ -16,11 +16,13 @@ freight=None
 payload=0
 length=7
 
-weight=86
+weight=86.3
 axle_load=20
+# Three cylinders
+way_wear_factor=118663
 cost=6975000
 runningcost=1500
-sound=-1
+sound=konakaboom-black-five.wav
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=12
 
@@ -79,7 +81,7 @@ weight=43
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=11
 

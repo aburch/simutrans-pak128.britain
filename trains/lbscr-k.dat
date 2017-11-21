@@ -2,10 +2,10 @@ obj=vehicle
 name=LBSCR-K
 engine_type=steam
 smoke=Steam
-speed=135
+speed=115
 # Extrapolated
 # Are values in Wikipedia from which it might be calculated.
-power=228
+power=345
 # http://en.wikipedia.org/wiki/LB%26SCR_K_class#cite_ref-7
 tractive_effort=118
 copyright=Kieron/JamesPetts
@@ -24,7 +24,7 @@ weight=64
 axle_load=18
 cost=6852500
 runningcost=620
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-K-Tender
 
@@ -83,7 +83,7 @@ EmptyImage[NE][4]=./images/lbscr-k-br.1.3
 
 obj=vehicle
 name=LBSCR-K-Tender
-speed=135
+speed=123
 power=0
 copyright=Kieron/JamesPetts
 intro_year=1913
@@ -99,7 +99,7 @@ weight=32
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 
 Constraint[Prev][0]=LBSCR-K
 

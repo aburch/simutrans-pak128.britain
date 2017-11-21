@@ -3,9 +3,9 @@ name=LMS-4P
 engine_type=steam
 smoke=Steam
 # Lower maximum speed than 1000 class, as wheel diameter reduced.
-speed=130
+speed=141
 # Extrapolated
-power=355
+power=393
 # http://en.wikipedia.org/wiki/LMS_Compound_4-4-0
 tractive_effort=101
 copyright=James
@@ -17,13 +17,15 @@ waytype=track
 freight=None
 payload=0
 length=6
+# 3 cylinder compound
+way_wear_factor=88625
 
 # http://en.wikipedia.org/wiki/LMS_Compound_4-4-0
 weight=63
 axle_load=17
 cost=7800000
 runningcost=813
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=24
 years_before_maintenance_max_reached=17
 
@@ -54,7 +56,7 @@ EmptyImage[NE][1]=./images/mr-1000-br.1.3
 
 obj=vehicle
 name=LMS-4P-Tender
-speed=130
+speed=141
 power=0
 copyright=James
 intro_year=1924
@@ -70,7 +72,7 @@ weight=37
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=23
 
 Constraint[Prev][0]=LMS-4P

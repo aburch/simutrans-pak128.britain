@@ -3,8 +3,8 @@ name=SingleFairlie
 engine_type=steam
 smoke=Steam
 speed=55
-# Estimated
-power=95
+# Approximately extrapolated - boiler data not available
+power=34
 # Calculated from values from http://www.festipedia.org.uk/wiki/Taliesin_III 
 # with the 135lb boiler pressure specified at http://www.festipedia.org.uk/wiki/Taliesin
 tractive_effort=17
@@ -27,7 +27,7 @@ weight=14
 axle_load=5
 cost=2877949
 runningcost=92
-sound=-1
+sound=the-mart-ban-wllr-tank.wav
 upgrade[0]=SingleFairlie-superheated
 
 can_lead_from_rear=0

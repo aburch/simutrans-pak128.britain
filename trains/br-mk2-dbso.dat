@@ -19,7 +19,7 @@ cost=644000
 upgrade_price=202400
 available_only_as_upgrade=1
 runningcost=24
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0
@@ -40,16 +40,18 @@ Constraint[Prev][8]=BR-Mk1-RMB
 Constraint[Prev][9]=BR-Mk2a-RMB
 Constraint[Prev][10]=BR-Mk2a-BSO
 Constraint[Prev][11]=BR-Mk2a-TSO
-Constraint[Prev][15]=BR-Mk2a-SO
+Constraint[Prev][12]=BR-Mk2a-SO
 Constraint[Prev][13]=BR-Mk2-TSO
 Constraint[Prev][14]=BR-Mk2-TSOT
 Constraint[Prev][15]=BR-Mk2-BSO
 Constraint[Prev][16]=none
+Constraint[Prev][17]=BR-Mk3a-TSO
 
 Constraint[Next][0]=none
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
+liverytype[2]=Scotrail-original
 
 EmptyImage[E][0]=./images/br-mk2-dbso-bg_E.0
 EmptyImage[SE][0]=./images/br-mk2-dbso-bg_SE.0
@@ -69,3 +71,11 @@ EmptyImage[NW][1]=./images/br-mk2-dbso-ic.5
 EmptyImage[N][1]=./images/br-mk2-dbso-ic.6
 EmptyImage[NE][1]=./images/br-mk2-dbso-ic.7
 
+EmptyImage[E][2]=./images/br-mk2-dbso-scr_E.0
+EmptyImage[SE][2]=./images/br-mk2-dbso-scr_SE.0
+EmptyImage[S][2]=./images/br-mk2-dbso-scr_S.0
+EmptyImage[SW][2]=./images/br-mk2-dbso-scr_SW.0
+EmptyImage[W][2]=./images/br-mk2-dbso-scr_W.0
+EmptyImage[NW][2]=./images/br-mk2-dbso-scr_NW.0
+EmptyImage[N][2]=./images/br-mk2-dbso-scr_N.0
+EmptyImage[NE][2]=./images/br-mk2-dbso-scr_NE.0

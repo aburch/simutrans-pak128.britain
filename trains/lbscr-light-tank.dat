@@ -1,10 +1,11 @@
+# "Kemp Town" tank
 obj=vehicle
 name=LBSCR-light-tank
 engine_type=steam
 smoke=Steam
-speed=100
+speed=76
 # Extrapolated 
-power=63
+power=93
 # Calculated from data obtained from http://www.steamindex.com/locotype/lbscrloc.htm
 tractive_effort=25
 copyright=Kieron/JamesPetts
@@ -27,7 +28,7 @@ weight=25
 axles=3
 cost=1985000
 runningcost=250
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LBSCR-Craven
 liverytype[1]=LBSCR-Stroudley

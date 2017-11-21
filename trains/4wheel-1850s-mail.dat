@@ -9,7 +9,7 @@ retire_month=10
 waytype=track
 freight=Post
 payload=300
-length=4
+length=3
 brake_force=0
 rolling_resistance=19
 
@@ -17,7 +17,7 @@ weight=6
 axles=2
 cost=144000
 runningcost=12
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -85,6 +85,8 @@ Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/4wheel-1840s-mail-lnwr.1.4
 EmptyImage[SE][0]=./images/4wheel-1840s-mail-lnwr.1.5
@@ -113,6 +115,24 @@ EmptyImage[NW][2]=./images/4wheel-1840s-mail-mr.1.1
 EmptyImage[N][2]=./images/4wheel-1840s-mail-mr.1.2
 EmptyImage[NE][2]=./images/4wheel-1840s-mail-mr.1.3
 
+EmptyImage[E][3]=./images/4wheel-1840s-mail-gnr.1.4
+EmptyImage[SE][3]=./images/4wheel-1840s-mail-gnr.1.5
+EmptyImage[S][3]=./images/4wheel-1840s-mail-gnr.1.6
+EmptyImage[SW][3]=./images/4wheel-1840s-mail-gnr.1.7
+EmptyImage[W][3]=./images/4wheel-1840s-mail-gnr.1.0
+EmptyImage[NW][3]=./images/4wheel-1840s-mail-gnr.1.1
+EmptyImage[N][3]=./images/4wheel-1840s-mail-gnr.1.2
+EmptyImage[NE][3]=./images/4wheel-1840s-mail-gnr.1.3
+
+EmptyImage[E][4]=./images/4wheel-1840s-mail-lswr.1.4
+EmptyImage[SE][4]=./images/4wheel-1840s-mail-lswr.1.5
+EmptyImage[S][4]=./images/4wheel-1840s-mail-lswr.1.6
+EmptyImage[SW][4]=./images/4wheel-1840s-mail-lswr.1.7
+EmptyImage[W][4]=./images/4wheel-1840s-mail-lswr.1.0
+EmptyImage[NW][4]=./images/4wheel-1840s-mail-lswr.1.1
+EmptyImage[N][4]=./images/4wheel-1840s-mail-lswr.1.2
+EmptyImage[NE][4]=./images/4wheel-1840s-mail-lswr.1.3
+
 ---
 
 obj=vehicle
@@ -126,7 +146,7 @@ retire_month=10
 waytype=track
 freight=Post
 payload=240
-length=4
+length=3
 brake_force=0
 rolling_resistance=19
 
@@ -134,7 +154,7 @@ weight=4
 axles=2
 cost=153000
 runningcost=11
-sound=-1
+
 
 catering_level=1
 can_lead_from_rear=0
@@ -198,10 +218,11 @@ Constraint[Prev][24]=4-wheel-1860s-milk
 Constraint[Prev][25]=4-wheel-1870s-fast-freight-unfitted
 Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
 
-
 liverytype[0]=LNWR-Early
 liverytype[1]=MR-Early
 liverytype[2]=MR-Standard
+liverytype[3]=GNR-early
+liverytype[4]=LSWR-Indian-red
 
 EmptyImage[E][0]=./images/4wheel-1840s-mail-lnwr.1.4
 EmptyImage[SE][0]=./images/4wheel-1840s-mail-lnwr.1.5
@@ -229,3 +250,21 @@ EmptyImage[W][2]=./images/4wheel-1840s-mail-mr.1.0
 EmptyImage[NW][2]=./images/4wheel-1840s-mail-mr.1.1
 EmptyImage[N][2]=./images/4wheel-1840s-mail-mr.1.2
 EmptyImage[NE][2]=./images/4wheel-1840s-mail-mr.1.3
+
+EmptyImage[E][3]=./images/4wheel-1840s-mail-gnr.1.4
+EmptyImage[SE][3]=./images/4wheel-1840s-mail-gnr.1.5
+EmptyImage[S][3]=./images/4wheel-1840s-mail-gnr.1.6
+EmptyImage[SW][3]=./images/4wheel-1840s-mail-gnr.1.7
+EmptyImage[W][3]=./images/4wheel-1840s-mail-gnr.1.0
+EmptyImage[NW][3]=./images/4wheel-1840s-mail-gnr.1.1
+EmptyImage[N][3]=./images/4wheel-1840s-mail-gnr.1.2
+EmptyImage[NE][3]=./images/4wheel-1840s-mail-gnr.1.3
+
+EmptyImage[E][4]=./images/4wheel-1840s-mail-lswr.1.4
+EmptyImage[SE][4]=./images/4wheel-1840s-mail-lswr.1.5
+EmptyImage[S][4]=./images/4wheel-1840s-mail-lswr.1.6
+EmptyImage[SW][4]=./images/4wheel-1840s-mail-lswr.1.7
+EmptyImage[W][4]=./images/4wheel-1840s-mail-lswr.1.0
+EmptyImage[NW][4]=./images/4wheel-1840s-mail-lswr.1.1
+EmptyImage[N][4]=./images/4wheel-1840s-mail-lswr.1.2
+EmptyImage[NE][4]=./images/4wheel-1840s-mail-lswr.1.3

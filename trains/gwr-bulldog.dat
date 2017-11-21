@@ -2,7 +2,7 @@ obj=vehicle
 name=GWR-Bulldog
 engine_type=steam
 smoke=Steam
-speed=135
+speed=127
 # Extrapolated. Based on non-rebuilt version (superheating was added in 1910)
 power=179
 # Calculated using figures from: http://orion.math.iastate.edu/jdhsmith/term/slgbgw.htm
@@ -16,14 +16,14 @@ retire_month=8
 waytype=track
 freight=None
 payload=0
-length=6
+length=5
 
 # http://en.wikipedia.org/wiki/GWR_3300_Class
 weight=53
 axle_load=18
 cost=9273600
 runningcost=1122
-sound=-1
+sound=keithpeter-gwr-hall.wav
 increase_maintenance_after_years=36
 years_before_maintenance_max_reached=20
 

@@ -2,7 +2,7 @@ obj=vehicle
 name=Ford-Trimotor-NSA
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=petrol
 speed=198
 power=940
 tractive_effort=17
@@ -17,9 +17,8 @@ intro_month=6
 # http://www.bagophily.com/images/ford_trimotor_01.jpg
 comfort=69
 catering_level=1
-# Change retire year to 1933 when more vehicles available
-retire_year=1965
-retire_month=7
+retire_year=1933
+retire_month=5
 smoke=Diesel
 
 min_loading_time=1800
@@ -30,7 +29,8 @@ max_loading_time=1800
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1750
 
-sound=planelow.wav
+sound=andysvideo-vickers-vimy.wav
+range=885
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

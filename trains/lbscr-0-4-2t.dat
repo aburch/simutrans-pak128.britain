@@ -3,8 +3,8 @@ name=LBSCR-0-4-2T
 engine_type=steam
 smoke=Steam
 speed=78
-# Extrapolated
-power=75
+# Estimated
+power=95
 # Calculated from data in http://www.steamindex.com/locotype/lbscrloc.htm  
 # with loss factor of 0.71
 tractive_effort=26
@@ -19,13 +19,14 @@ payload=0
 length=4
 brake_force=7
 rolling_resistance=19
+way_wear_factor=41500
 
 # Weight not given in Ahrons, but guessed based on contemporaneous types.
 weight=20
 axles=3
 cost=7010000
 runningcost=800
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0
 bidirectional=1

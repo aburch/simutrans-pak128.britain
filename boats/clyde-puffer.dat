@@ -7,6 +7,7 @@ speed=15
 power=200
 #gear=1200
 smoke=Steam
+sound=ship-horn_b.wav
 freight=Kohle
 payload=75
 weight=30
@@ -17,6 +18,7 @@ intro_year=1856
 intro_month=5
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
@@ -107,6 +109,7 @@ intro_year=1856
 intro_month=5
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
@@ -167,6 +170,7 @@ intro_year=1856
 intro_month=5
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
@@ -215,6 +219,7 @@ intro_year=1856
 intro_month=5
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
@@ -263,6 +268,7 @@ intro_year=1856
 intro_month=5
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
@@ -311,6 +317,7 @@ intro_year=1856
 intro_month=5
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400

@@ -2,7 +2,7 @@ obj=vehicle
 name=LNER-V2
 engine_type=steam
 smoke=Steam
-speed=150
+speed=147
 # CALIBRATED: see http://www.traintesting.com/bulletin_8.htm
 # Max. speed given as 64mph with a train of 907t (gross)
 # On the level
@@ -24,9 +24,11 @@ length=7
 weight=93
 # http://www.lner.info/locos/V/v2.shtml
 axle_load=22
+# Three cylinders
+way_wear_factor=127875
 cost=6585600
 runningcost=1254
-sound=-1
+sound=konakaboom-black-five.wav
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=9
 

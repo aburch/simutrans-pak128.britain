@@ -20,7 +20,12 @@ Productivity=57
 Range=342  
 passenger_boost=700
 mail_boost=50
-MapColor=223 
+MapColor=223
+sound=magedu-hydro-plant.wav
+smoke=Industry_Smoke
+smoketile=0,0
+smokeoffset=0,0
+smokespeed=5
 dims=4,3,4
 
 BackImage[0][0][0][0][0][0]=gas-power-station.0.0
@@ -233,7 +238,12 @@ Productivity=400
 Range=743 
 passenger_boost=700
 mail_boost=50
-MapColor=223 
+MapColor=223
+sound=magedu-hydro-plant.wav
+smoke=Industry_Smoke
+smoketile=0,0
+smokeoffset=0,0
+smokespeed=5
 dims=4,3,4
 
 BackImage[0][0][0][0][0][0]=gas-power-station.0.0

@@ -2,9 +2,9 @@ obj=vehicle
 name=LMS-Ivatt-2P-Tank
 engine_type=steam
 smoke=Steam
-speed=110
+speed=100
 # Extrapolated
-power=229
+power=227
 tractive_effort=77
 copyright=Kieron/JamesPetts
 intro_year=1946
@@ -20,7 +20,7 @@ weight=64
 axle_load=14
 cost=3201213
 runningcost=612
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=8
 years_before_maintenance_max_reached=12
 
@@ -75,7 +75,7 @@ axle_load=14
 cost=3296213
 upgrade_price=50000
 runningcost=612
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=18
 years_before_maintenance_max_reached=12
 

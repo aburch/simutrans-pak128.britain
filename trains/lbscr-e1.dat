@@ -2,9 +2,9 @@ obj=vehicle
 name=LBSCR-E1
 engine_type=steam
 smoke=Steam
-speed=80
+speed=85
 # Extrapolated
-power=97
+power=193
 # Tractive effort taken from:
 # http://en.wikipedia.org/wiki/LB%26SCR_E1_class
 tractive_effort=78
@@ -16,7 +16,8 @@ retire_month=12
 waytype=track
 freight=None
 payload=0
-length=7
+length=6
+way_wear_factor=70875
 
 can_lead_from_rear=0
 bidirectional=1
@@ -29,7 +30,7 @@ weight=45
 axles=3
 cost=2200000
 runningcost=280
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh

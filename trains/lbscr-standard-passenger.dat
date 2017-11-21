@@ -2,9 +2,9 @@ obj=vehicle
 name=LBSCR-standard-passenger
 engine_type=steam
 smoke=Steam
-speed=110
+speed=112
 # Extrapolated
-power=172
+power=170
 # Tractive effort calculated using data from 
 # http://www.steamindex.com/locotype/lbscrloc.htm
 tractive_effort=27
@@ -27,7 +27,7 @@ weight=30.5
 axle_load=13
 cost=9000000
 runningcost=500
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-craven-tender
 

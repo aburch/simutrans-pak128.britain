@@ -4,6 +4,7 @@ copyright=James
 waytype=water
 engine_type=steam
 smoke=Steam
+sound=ship-horn_b.wav
 speed=20
 power=3550
 #gear=400
@@ -17,6 +18,8 @@ intro_year=1853
 intro_month=5
 retire_year=1880
 retire_month=7
+is_tall=1
+# TODO: Reconfigure this based on historical values: most of these values are (probably) guessed.
 
 comfort=113
 catering_level=4

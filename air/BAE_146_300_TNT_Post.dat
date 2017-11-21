@@ -2,7 +2,7 @@ obj=vehicle
 name=BAE146_300QT(TNT)Post
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=775
 power=22500
 tractive_effort=125
@@ -27,7 +27,8 @@ max_loading_time=3600
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1200
 
-sound=aircraft-jet_stop.wav
+sound=bigpickle51-jet-takeoff.wav
+range=2909
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -46,7 +47,7 @@ obj=vehicle
 name=BAE146_300QT(TNT)Cool
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=775
 power=22500
 tractive_effort=125
@@ -71,7 +72,8 @@ max_loading_time=3600
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1200
 
-sound=aircraft-jet_stop.wav
+sound=bigpickle51-jet-takeoff.wav
+range=2909
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -90,7 +92,7 @@ obj=vehicle
 name=BAE146_300QT(TNT)Piece
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=775
 power=22500
 tractive_effort=125
@@ -115,7 +117,8 @@ max_loading_time=3600
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1200
 
-sound=aircraft-jet_stop.wav
+sound=bigpickle51-jet-takeoff.wav
+range=2909
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

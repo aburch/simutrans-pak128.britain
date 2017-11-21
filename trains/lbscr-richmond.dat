@@ -2,9 +2,9 @@ obj=vehicle
 name=LBSCR-Richmond
 engine_type=steam
 smoke=Steam
-speed=130
+speed=127
 # Extrapolated
-power=159
+power=203
 # Tractive effort taken from:
 # http://en.wikipedia.org/wiki/LB%26SCR_Richmond_class
 tractive_effort=56
@@ -16,7 +16,7 @@ retire_month=9
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 
 can_lead_from_rear=0
 bidirectional=0
@@ -28,10 +28,10 @@ years_before_maintenance_max_reached=35
 weight=37.6
 axle_load=14
 cost=2900000
-runningcost=600
-sound=-1
+runningcost=450
+sound=lwalker-br-4mt-tank.wav
 
-Constraint[Next][0]=LBSCR-B1-Gladstone-Tender
+Constraint[Next][0]=LBSCR-Belgravia-tender
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh

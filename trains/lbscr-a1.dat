@@ -2,10 +2,11 @@ obj=vehicle
 name=LBSCR-A1
 engine_type=steam
 smoke=Steam
-speed=100
-# Extrapolated from: http://orion.math.iastate.edu/jdhsmith/term/slgblbsc.htm 
+speed=85
+# Extrapolated
+power=120
+# http://orion.math.iastate.edu/jdhsmith/term/slgblbsc.htm 
 # See also Ahrons p. 202
-power=70
 # http://www.smileatyou.com/1/5/96/46/1-5-96-46-1.html
 tractive_effort=34
 copyright=Kieron
@@ -29,7 +30,7 @@ weight=27
 axles=3
 cost=2016000
 runningcost=266
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -98,9 +99,9 @@ obj=vehicle
 name=LBSCR-A1X
 engine_type=steam
 smoke=Steam
-speed=100
+speed=85
 # Extrapolated
-power=49
+power=120
 # http://en.wikipedia.org/wiki/LB%26SCR_A1_class
 tractive_effort=48
 copyright=Kieron
@@ -124,7 +125,7 @@ axles=3
 cost=2016000
 upgrade_price=500000
 runningcost=75
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh

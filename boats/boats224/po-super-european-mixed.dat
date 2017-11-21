@@ -4,6 +4,7 @@ copyright=James
 waytype=water
 engine_type=diesel
 smoke=Diesel
+sound=ship-horn_a.wav
 speed=40
 power=27000
 gear=100
@@ -18,6 +19,7 @@ intro_year=2003
 intro_month=3
 retire_year=2011
 retire_month=7
+is_tall=1
 
 comfort=166
 catering_level=4

@@ -2,9 +2,9 @@ obj=vehicle
 name=MR-700
 engine_type=steam
 smoke=Steam
-speed=80
+speed=86
 # Extrapolated
-power=152
+power=190
 # Calculated from data from Ahrons, p. 202
 # Loss factor set at 0.75 
 tractive_effort=53
@@ -18,13 +18,14 @@ freight=None
 payload=0
 length=5
 brake_force=0
+way_wear_factor=56700
 
 # Weight given by Ahrons, p. 202
 weight=36
 axles=3
 cost=7015000
 runningcost=1000
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
 

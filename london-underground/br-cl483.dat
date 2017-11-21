@@ -18,7 +18,7 @@ weight=26
 axles=4
 upgrade_price=100000
 runningcost=7
-sound=-1
+sound=lul-1938-stock-ff3170.wav
 
 available_only_as_upgrade=1
 
@@ -28,8 +28,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[0]=0
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 # http://upload.wikimedia.org/wikipedia/commons/2/25/483004_Interior.JPG
 comfort=61
 
@@ -81,7 +81,7 @@ weight=25
 axles=4
 upgrade_price=80000
 runningcost=6
-sound=-1
+
 
 available_only_as_upgrade=1
 
@@ -91,8 +91,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[0]=0
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 comfort=61
 
 Constraint[Prev][0]=BR-Class483Front
@@ -138,7 +138,7 @@ weight=18
 axles=4
 upgrade_price=40000
 runningcost=3
-sound=-1
+
 
 available_only_as_upgrade=1
 
@@ -148,8 +148,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[0]=0
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 comfort=61
 
 Constraint[Prev][0]=BR-Class483NDM
@@ -198,7 +198,7 @@ weight=26
 axles=4
 upgrade_price=1000000
 runningcost=7
-sound=-1
+sound=lul-1938-stock-ff3170.wav
 
 available_only_as_upgrade=1
 
@@ -208,8 +208,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[0]=0
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 comfort=61
 
 Constraint[Prev][0]=BR-Class483NDM

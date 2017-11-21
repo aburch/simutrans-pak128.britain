@@ -1,39 +1,45 @@
-# Plaxton Paragon Coach
+# https://en.wikipedia.org/wiki/Plaxton_Panther
 obj=vehicle
 name=PlaxtonParagon
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
+smoke=Diesel-light
 freight=Passagiere
 payload=49
 speed=96
-power=270
+power=320
+tractive_effort=27
 gear=50
-weight=13
+weight=15
 axles=2
 length=6
 cost=5600000
 runningcost=205
 intro_year=1999
 intro_month=12
-#retire_year=2021
-#retire_month=11
-# Do not retire - has no replacements!
+retire_year=2010
+retire_month=10
 
 comfort=97
 catering_level=1
-min_loading_time=45
-max_loading_time=180
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=377
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/plaxton-paragon.0.0
-EmptyImage[SE]=./images/plaxton-paragon.0.1
-EmptyImage[S]=./images/plaxton-paragon.0.2
-EmptyImage[SW]=./images/plaxton-paragon.0.3
-EmptyImage[W]=./images/plaxton-paragon.0.4
-EmptyImage[NW]=./images/plaxton-paragon.0.5
-EmptyImage[N]=./images/plaxton-paragon.0.6
-EmptyImage[NE]=./images/plaxton-paragon.0.7
+# TODO: Add more liveries
+
+liverytype[0]=NE-Circles
+
+EmptyImage[E][0]=./images/plaxton-paragon-national-express_E.0.0,-33,14
+EmptyImage[SE][0]=./images/plaxton-paragon-national-express_SE.0.0,-13,0
+EmptyImage[S][0]=./images/plaxton-paragon-national-express_S.0.0,4,0
+EmptyImage[SW][0]=./images/plaxton-paragon-national-express_SW.0.0,-8,10
+EmptyImage[W][0]=./images/plaxton-paragon-national-express_W.0.0,4,5
+EmptyImage[NW][0]=./images/plaxton-paragon-national-express_NW.0.0,12,10
+EmptyImage[N][0]=./images/plaxton-paragon-national-express_N.0.0,0,33
+EmptyImage[NE][0]=./images/plaxton-paragon-national-express_NE.0.0,0,24
 

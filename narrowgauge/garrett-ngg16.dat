@@ -6,7 +6,7 @@ engine_type=steam
 smoke=Steam
 speed=60
 # Extrapolated
-power=184
+power=198
 # http://en.wikipedia.org/wiki/South_African_Class_NG_G16_2-6-2%2B2-6-2
 tractive_effort=84
 copyright=James/jamespetts
@@ -28,7 +28,7 @@ weight=63
 axle_load=7
 cost=8972500
 runningcost=215
-sound=-1
+sound=the-mart-ban-ngg16.wav
 
 Constraint[Next][0]=Garrett-NGG16-middle
 
@@ -65,7 +65,7 @@ rolling_resistance=18
 weight=0
 cost=0
 runningcost=0
-sound=-1
+
 
 Constraint[Prev][0]=Garrett-NGG16-front
 Constraint[Next][0]=Garrett-NGG16-rear
@@ -103,7 +103,7 @@ rolling_resistance=18
 weight=0
 cost=0
 runningcost=0
-sound=-1
+sound=the-mart-ban-ngg16.wav
 
 Constraint[Prev][0]=Garrett-NGG16-middle
 

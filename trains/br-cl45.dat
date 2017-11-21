@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-Class45
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-heavy
 speed=145
 gear=50
 power=1864
@@ -22,20 +22,25 @@ weight=136
 axles=8
 cost=12000000
 runningcost=2050
-sound=-1
+sound=russell-thewils-class-46.wav
 
 can_lead_from_rear=0
 bidirectional=1
 
 # Blue star
-Constraint[Prev][0]=BR-Class20
-Constraint[Prev][1]=BR-Class24
-Constraint[Prev][2]=BR-Class25
-Constraint[Prev][3]=BR-Class31-1
-Constraint[Prev][4]=BR-Class37
-Constraint[Prev][5]=BR-Class40
-Constraint[Prev][6]=BR-Class45
-Constraint[Prev][7]=none
+Constraint[Prev][0]=BR-Class15
+Constraint[Prev][1]=BR-Class17
+Constraint[Prev][2]=BR-Class20
+Constraint[Prev][3]=BR-Class23
+Constraint[Prev][4]=BR-Class24
+Constraint[Prev][5]=BR-Class25
+Constraint[Prev][6]=BR-Class26
+Constraint[Prev][7]=BR-Class27
+Constraint[Prev][8]=BR-Class31-1
+Constraint[Prev][9]=BR-Class37
+Constraint[Prev][10]=BR-Class40
+Constraint[Prev][11]=BR-Class45
+Constraint[Prev][12]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue

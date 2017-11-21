@@ -11,6 +11,10 @@ intro_month=1
 retire_year=1939
 retire_month=9
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 length=3
 
 way_constraint_prohibitive[5]=5 # Ship
@@ -65,6 +69,10 @@ intro_month=1
 retire_year=1939
 retire_month=9
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 length=3
 
 way_constraint_prohibitive[5]=5 # Ship
@@ -118,6 +126,10 @@ intro_year=1880
 intro_month=1
 retire_year=1939
 retire_month=9
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 length=3
 
@@ -214,6 +226,10 @@ intro_month=1
 retire_year=1939
 retire_month=9
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 length=3
 
 way_constraint_prohibitive[5]=5 # Ship
@@ -279,6 +295,10 @@ intro_month=1
 retire_year=1939
 retire_month=9
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 length=3
 
 way_constraint_prohibitive[5]=5 # Ship
@@ -333,6 +353,10 @@ intro_month=1
 retire_year=1939
 retire_month=9
 
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
+
 length=3
 
 way_constraint_prohibitive[5]=5 # Ship
@@ -386,6 +410,10 @@ intro_year=1880
 intro_month=1
 retire_year=1939
 retire_month=9
+
+# 2-3 hours
+min_loading_time=7200
+max_loading_time=10800
 
 length=3
 

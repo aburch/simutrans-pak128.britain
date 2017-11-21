@@ -3,8 +3,8 @@ name=SingleFairlie-superheated
 engine_type=steam
 smoke=Steam
 speed=60
-# Extrapolated (approximately)
-power=86
+# Extrapolated approximately - firegrate and heating surface areas not known
+power=46
 # Calculated from values from http://www.festipedia.org.uk/wiki/Taliesin_III 
 tractive_effort=24
 copyright=James/jamespetts
@@ -25,7 +25,7 @@ axle_load=6
 cost=3597436
 upgrade_price=719487
 runningcost=85
-sound=-1
+sound=the-mart-ban-wllr-tank.wav
 upgrade[0]=SingleFairlie-superheated
 
 can_lead_from_rear=0

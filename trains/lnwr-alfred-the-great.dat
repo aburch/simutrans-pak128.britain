@@ -4,9 +4,9 @@ obj=vehicle
 name=LNWR-Alfred-the-Great
 engine_type=steam
 smoke=Steam
-speed=140
+speed=142
 # Extrapolated
-power=235
+power=259
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Alfred_the_Great_Class
 tractive_effort=136
 copyright=James/jamespetts
@@ -18,6 +18,8 @@ waytype=track
 freight=None
 payload=0
 length=6
+# Fully balanced compound
+way_wear_factor=68750
 
 # Note: These compound locomotives were considered mechanically unreliable.
 
@@ -26,7 +28,7 @@ weight=55
 axle_load=16
 cost=8600000
 runningcost=950
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=21
 upgrade[0]=LNWR-Renown

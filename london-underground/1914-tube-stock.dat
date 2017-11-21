@@ -20,7 +20,7 @@ weight=27
 axles=4
 cost=1050000
 runningcost=90
-sound=-1
+sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -28,7 +28,7 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=16
+min_loading_time=18
 max_loading_time=55
 comfort=54
 
@@ -80,7 +80,7 @@ weight=27
 axles=4
 cost=1050000
 runningcost=90
-sound=-1
+sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -88,7 +88,7 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=16
+min_loading_time=18
 max_loading_time=55
 comfort=54
 

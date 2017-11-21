@@ -1,3 +1,4 @@
+# See http://www.canalmuseum.org.uk/history/grandjun.htm
 obj=vehicle
 Name=PacketBarge
 copyright=Jamespetts
@@ -26,6 +27,7 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=BoatHorsesFly
+Constraint[Prev][1]=BoatHorsesSingle
 
 Constraint[Next][0]=PacketBargeAddMail
 

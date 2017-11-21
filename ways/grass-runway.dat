@@ -5,9 +5,12 @@ system_type=1
 cost=5000
 maintenance=25
 topspeed=100
-max_weight=15
+max_weight=5
 intro_year=1909
 intro_month=8
+# 1 DC3 every 2 hours for 30 game years
+wear_capacity=11520000
+
 icon=> ./images/grass-runway.1.3
 cursor=./images/grass-runway.1.4
 Image[-][0]=./images/grass-runway.1.2

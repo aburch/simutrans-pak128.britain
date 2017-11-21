@@ -2,11 +2,11 @@ obj=vehicle
 name=BR-5MT
 engine_type=steam
 smoke=Steam
-speed=130
+speed=135
 # See http://www.traintesting.com/bulletin_6.htm for information on power.
 # Sadly, the data sheet is missing, but the summary suggests 1,000Hp, or approx.
 # So, extrapolated.
-power=439
+power=413
 tractive_effort=116
 copyright=Kieron/JamesPetts
 intro_year=1951
@@ -23,7 +23,7 @@ weight=77
 axle_load=20
 cost=5210000
 runningcost=1045
-sound=-1
+sound=konakaboom-black-five.wav
 increase_maintenance_after_years=4
 years_before_maintenance_max_reached=13
 

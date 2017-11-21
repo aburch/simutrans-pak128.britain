@@ -1,0 +1,46 @@
+# https://en.wikipedia.org/wiki/Optare_Excel
+obj=vehicle
+name=optare-excel-2
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+payload=45
+overcrowded_capacity=25
+speed=77
+# Mercedes-Benz 900 series engine
+# http://www.todaystrucking.com/the-mbe900-engine-from-mercedes
+power=208
+tractive_effort=39
+gear=50
+weight=9
+axles=2
+length=6
+cost=2775000
+runningcost=144
+intro_year=1999
+intro_month=7
+retire_year=2005
+retire_month=4
+
+comfort=38
+# Single entrance pay driver (low floor): 3.8 seconds per passenger
+min_loading_time=5
+max_loading_time=171
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Non-London
+
+# TODO: Add more liveries and length varients. This is the longest.
+
+EmptyImage[E][0]=./images/optare-excel-2-reading_E.0.0,-33,14
+EmptyImage[SE][0]=./images/optare-excel-2-reading_SE.0.0,-13,0
+EmptyImage[S][0]=./images/optare-excel-2-reading_S.0.0,4,0
+EmptyImage[SW][0]=./images/optare-excel-2-reading_SW.0.0,-8,10
+EmptyImage[W][0]=./images/optare-excel-2-reading_W.0.0,4,5
+EmptyImage[NW][0]=./images/optare-excel-2-reading_NW.0.0,12,10
+EmptyImage[N][0]=./images/optare-excel-2-reading_N.0.0,0,33
+EmptyImage[NE][0]=./images/optare-excel-2-reading_NE.0.0,0,24

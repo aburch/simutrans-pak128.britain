@@ -1,7 +1,7 @@
 obj=vehicle
 name=HR-Jones-Goods-Tender
 engine_type=steam
-speed=110
+speed=100
 copyright=James
 intro_year=1894
 intro_month=7
@@ -16,7 +16,7 @@ weight=25
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=27
 years_before_maintenance_max_reached=21
 

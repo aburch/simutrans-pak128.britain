@@ -4,6 +4,7 @@ copyright=jamespetts
 waytype=water
 engine_type=steam
 smoke=Steam
+sound=ship-horn_b.wav
 speed=25
 power=600
 #gear=1200
@@ -17,6 +18,7 @@ intro_year=1866
 intro_month=4
 retire_year=1886
 retire_month=5
+is_tall=1
 
 comfort=67
 # 30-45 minutes

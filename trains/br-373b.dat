@@ -6,8 +6,8 @@ power=0
 copyright=Kieron
 intro_year=1994
 intro_month=11
-#retire_year=2030
-#retire_month=1
+retire_year=2015
+retire_month=12
 waytype=track
 freight=Passagiere
 payload=52
@@ -19,7 +19,7 @@ weight=44.6
 axles=4
 cost=3248000
 runningcost=1500
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0

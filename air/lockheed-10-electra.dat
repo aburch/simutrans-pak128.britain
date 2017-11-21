@@ -1,0 +1,44 @@
+# https://en.wikipedia.org/wiki/Lockheed_Model_10_Electra
+obj=vehicle
+name=lockheed-10-electra
+copyright=Briney
+# https://www.sharecg.com/v/60893/view/5/3D-Model/Lockheed-10E-Electra
+# "Non-commercial use only"; source model cannot be shared
+waytype=air
+engine_type=petrol
+speed=306
+power=480
+tractive_effort=6
+freight=Passagiere
+payload=10
+weight=2.9
+#length=8
+cost=2350000
+runningcost=875
+intro_year=1935
+intro_month=1
+retire_year=1940
+retire_month=2
+comfort=84
+min_loading_time=1800
+max_loading_time=1800
+catering_level=1
+
+# Guessed
+minimum_runway_length=500
+
+range=1150
+
+sound=yx705547-lockheed-electra-10a.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/lockheed-10-electra_E.0.0
+EmptyImage[SE]=./images/lockheed-10-electra_SE.0.0
+EmptyImage[S]=./images/lockheed-10-electra_S.0.0
+EmptyImage[SW]=./images/lockheed-10-electra_SW.0.0
+EmptyImage[W]=./images/lockheed-10-electra_W.0.0
+EmptyImage[NW]=./images/lockheed-10-electra_NW.0.0
+EmptyImage[N]=./images/lockheed-10-electra_N.0.0
+EmptyImage[NE]=./images/lockheed-10-electra_NE.0.0

@@ -4,6 +4,7 @@ copyright=James
 waytype=water
 engine_type=diesel
 smoke=Diesel
+sound=ship-horn_a.wav
 # http://www.doverferryphotosforums.co.uk/wordpress/mv-horsa-past-and-present/
 speed=36
 power=8575
@@ -18,6 +19,7 @@ intro_year=1972
 intro_month=4
 retire_year=1987
 retire_month=1
+is_tall=1
 
 comfort=157
 catering_level=4

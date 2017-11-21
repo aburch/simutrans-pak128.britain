@@ -5,8 +5,8 @@ name=Hunslet-Alice
 engine_type=steam
 smoke=Steam
 speed=40
-# Estimated
-power=11
+# Extrapolated based on estimated figures
+power=20
 # Estimated
 tractive_effort=20
 copyright=James/jamespetts
@@ -25,7 +25,7 @@ rolling_resistance=19
 weight=6
 cost=1550251
 runningcost=75
-sound=-1
+sound=laurie-barclay-0-4-0.wav
 
 can_lead_from_rear=0
 bidirectional=1

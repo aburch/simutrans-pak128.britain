@@ -13,10 +13,11 @@ length=4
 brake_force=4
 rolling_resistance=18
 
-weight=9
+# http://www.lbscr.org/coaches/Stroudley/brakes.html#D46
+weight=9.1
 cost=285000
 runningcost=17
-sound=-1
+
 upgrade[0]=LBSCR-4Wheel-full-brake-fitted
 
 min_loading_time=35
@@ -83,12 +84,13 @@ length=4
 brake_force=5
 rolling_resistance=18
 
-weight=10
+# http://www.lbscr.org/coaches/Stroudley/brakes.html#D46
+weight=9.3
 axles=2
 cost=340000
 upgrade_price=80000
 runningcost=18
-sound=-1
+
 
 min_loading_time=35
 max_loading_time=100

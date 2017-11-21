@@ -1,6 +1,6 @@
 obj=vehicle
 name=Air Braked Tanker (TTA)
-speed=120
+speed=96
 copyright=Kieron
 intro_year=1964
 intro_month=4
@@ -12,10 +12,11 @@ payload=34
 length=5
 
 weight=13
-axle_load=22
+axle_load=21
+way_wear_factor=52500
 cost=200000
 runningcost=5
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1

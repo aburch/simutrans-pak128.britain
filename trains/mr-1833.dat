@@ -4,9 +4,9 @@ obj=vehicle
 name=MR-1833
 engine_type=steam
 smoke=Steam
-speed=105
-# Extrapolated/estimated
-power=146
+speed=95
+# Extrapolated
+power=209
 # Calculated from data on Ahrons p. 201. 
 # Loss factor set at 0.8
 tractive_effort=53
@@ -18,13 +18,13 @@ retire_month=4
 waytype=track
 freight=None
 payload=0
-length=6
+length=5
 
 weight=44
 axle_load=15
 cost=2898000
 runningcost=260
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=25
 
 can_lead_from_rear=0

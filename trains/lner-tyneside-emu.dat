@@ -4,7 +4,7 @@ engine_type=electric
 speed=90
 gear=80
 power=320
-tractive_effort=107
+tractive_effort=70
 copyright=Junna/Cake
 intro_year=1937
 intro_month=7
@@ -13,14 +13,14 @@ retire_month=12
 waytype=track
 freight=Passagiere
 payload=64
-overcrowded_capacity=55
+overcrowded_capacity=75
 length=10
 
 weight=43
 axles=4
 cost=1512000
 runningcost=22
-sound=-1
+sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 
 can_lead_from_rear=1
@@ -29,7 +29,7 @@ way_constraint_permissive[0]=0
 
 min_loading_time=35
 max_loading_time=59
-comfort=83
+comfort=69
 
 Constraint[Prev][0]=LNER-1937-Tyneside-EMU-rear
 Constraint[Prev][1]=none
@@ -71,15 +71,16 @@ retire_year=1956
 retire_month=12
 waytype=track
 freight=Passagiere
+comfort=69
 payload=64
-overcrowded_capacity=55
+overcrowded_capacity=75
 length=10
 
 weight=31
 axles=4
 cost=1512000
 runningcost=37
-sound=-1
+sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 
 can_lead_from_rear=1
@@ -87,12 +88,13 @@ bidirectional=0
 
 min_loading_time=35
 max_loading_time=59
-comfort=83
+comfort=69
 
 Constraint[Prev][0]=LNER-1937-Tyneside-EMU-front
 
 Constraint[Next][0]=LNER-1937-Tyneside-EMU-front
-Constraint[Next][1]=none
+Constraint[Next][1]=LNER-1937-Tyneside-EMU-MPV
+Constraint[Next][2]=none
 
 liverytype[0]=LNER
 liverytype[1]=BR-Early
@@ -123,11 +125,11 @@ engine_type=electric
 speed=90
 gear=80
 power=640
-tractive_effort=107
+tractive_effort=70
 copyright=Junna/Cake
 intro_year=1937
 intro_month=7
-retire_month=1959
+retire_year=1959
 retire_month=2
 waytype=track
 freight=Post
@@ -138,37 +140,46 @@ weight=43
 axles=4
 cost=1512000
 runningcost=22
-sound=-1
+sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[0]=0
 
-min_loading_time=20
-max_loading_time=46
-comfort=114
+min_loading_time=30
+max_loading_time=180
 
 Constraint[Prev][0]=LNER-1937-Tyneside-EMU-rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=LNER-1937-Tyneside-EMU-rear
+Constraint[Next][0]=LNER-1937-Tyneside-EMU-front
 Constraint[Next][1]=LNER-Gresley-Express-Parcel-Brake
 Constraint[Next][2]=LNER-Gresley-Express-Mail
-Constraint[Next][3]=SR-Maunsell-Mail(Green)
-Constraint[Next][4]=SR-Maunsell-TPO(Green)
-Constraint[Next][5]=SR-Maunsell-Parcels(Green)
+Constraint[Next][3]=SR-Maunsell-Mail
+Constraint[Next][4]=SR-Maunsell-TPO
+Constraint[Next][5]=SR-Maunsell-Parcels
 Constraint[Next][6]=BR-Mk1-POS
 Constraint[Next][7]=BR-Mk1-TPO
 Constraint[Next][8]=none
 
 liverytype[0]=LNER
+liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/lner-tyneside-mpv.1.4
-EmptyImage[SE][0]=./images/lner-tyneside-mpv.1.5
-EmptyImage[S][0]=./images/lner-tyneside-mpv.1.6
-EmptyImage[SW][0]=./images/lner-tyneside-mpv.1.7
-EmptyImage[W][0]=./images/lner-tyneside-mpv.1.0
-EmptyImage[NW][0]=./images/lner-tyneside-mpv.1.1
-EmptyImage[N][0]=./images/lner-tyneside-mpv.1.2
-EmptyImage[NE][0]=./images/lner-tyneside-mpv.1.3
+EmptyImage[E][0]=./images/lner-tyneside-mpv_E.0.0
+EmptyImage[SE][0]=./images/lner-tyneside-mpv_SE.0.0
+EmptyImage[S][0]=./images/lner-tyneside-mpv_S.0.0
+EmptyImage[SW][0]=./images/lner-tyneside-mpv_SW.0.0
+EmptyImage[W][0]=./images/lner-tyneside-mpv_W.0.0
+EmptyImage[NW][0]=./images/lner-tyneside-mpv_NW.0.0
+EmptyImage[N][0]=./images/lner-tyneside-mpv_N.0.0
+EmptyImage[NE][0]=./images/lner-tyneside-mpv_NE.0.0
+
+EmptyImage[E][1]=./images/lner-tyneside-mpv-br-green_E.0.0
+EmptyImage[SE][1]=./images/lner-tyneside-mpv-br-green_SE.0.0
+EmptyImage[S][1]=./images/lner-tyneside-mpv-br-green_S.0.0
+EmptyImage[SW][1]=./images/lner-tyneside-mpv-br-green_SW.0.0
+EmptyImage[W][1]=./images/lner-tyneside-mpv-br-green_W.0.0
+EmptyImage[NW][1]=./images/lner-tyneside-mpv-br-green_NW.0.0
+EmptyImage[N][1]=./images/lner-tyneside-mpv-br-green_N.0.0
+EmptyImage[NE][1]=./images/lner-tyneside-mpv-br-green_NE.0.0

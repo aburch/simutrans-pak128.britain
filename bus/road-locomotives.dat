@@ -9,27 +9,29 @@ tractive_effort=16
 speed=15
 weight=5
 axles=2
-length=4
+length=3
 cost=64000
 runningcost=30
 intro_year=1857
 intro_month=6
 retire_year=1921
 retire_month=9
+is_tall=1
+way_wear_factor=156
+sound=video47-traction-engine.wav
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
 Constraint[Prev][2]=none
 
-EmptyImage[E]=./images/road-locomotives.0.0
-EmptyImage[SE]=./images/road-locomotives.0.1
-EmptyImage[S]=./images/road-locomotives.0.2
-EmptyImage[SW]=./images/road-locomotives.0.3
-EmptyImage[W]=./images/road-locomotives.0.4
-EmptyImage[NW]=./images/road-locomotives.0.5
-EmptyImage[N]=./images/road-locomotives.0.6
-EmptyImage[NE]=./images/road-locomotives.0.7
-
+EmptyImage[E]=./images/road-engine-light_E.0.0,-33,14
+EmptyImage[SE]=./images/road-engine-light_SE.0.0,-13,0
+EmptyImage[S]=./images/road-engine-light_S.0.0,0,0
+EmptyImage[SW]=./images/road-engine-light_SW.0.0,-8,10
+EmptyImage[W]=./images/road-engine-light_W.0.0,4,5
+EmptyImage[NW]=./images/road-engine-light_NW.0.0,12,10
+EmptyImage[N]=./images/road-engine-light_N.0.0,0,33
+EmptyImage[NE]=./images/road-engine-light_NE.0.0,0,24
 --
 
 obj=vehicle
@@ -43,23 +45,26 @@ tractive_effort=27
 speed=20
 weight=7
 axles=2
-length=5
+length=4
 cost=82000
 runningcost=47
 intro_year=1876
 intro_month=4
 retire_year=1932
 retire_month=5
+is_tall=1
+way_wear_factor=790
+sound=video47-traction-engine.wav
 
 Constraint[Prev][0]=LightRoadLocomotive
 Constraint[Prev][1]=HeavyRoadLocomotive
 Constraint[Prev][2]=none
 
-EmptyImage[E]=./images/road-locomotives.1.0
-EmptyImage[SE]=./images/road-locomotives.1.1
-EmptyImage[S]=./images/road-locomotives.1.2
-EmptyImage[SW]=./images/road-locomotives.1.3
-EmptyImage[W]=./images/road-locomotives.1.4
-EmptyImage[NW]=./images/road-locomotives.1.5
-EmptyImage[N]=./images/road-locomotives.1.6
-EmptyImage[NE]=./images/road-locomotives.1.7
+EmptyImage[E]=./images/road-engine-heavy_E.0.0,-33,14
+EmptyImage[SE]=./images/road-engine-heavy_SE.0.0,-13,0
+EmptyImage[S]=./images/road-engine-heavy_S.0.0,0,0
+EmptyImage[SW]=./images/road-engine-heavy_SW.0.0,-8,10
+EmptyImage[W]=./images/road-engine-heavy_W.0.0,4,5
+EmptyImage[NW]=./images/road-engine-heavy_NW.0.0,12,10
+EmptyImage[N]=./images/road-engine-heavy_N.0.0,0,33
+EmptyImage[NE]=./images/road-engine-heavy_NE.0.0,0,24

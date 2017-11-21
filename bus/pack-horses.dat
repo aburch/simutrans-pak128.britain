@@ -17,17 +17,19 @@ length=2
 weight=1
 axle_load=0
 cost=110000
-runningcost=15
-sound=-1
+runningcost=5
+fixed_cost=1700
 
-EmptyImage[E]=./images/pack-horse-grey.1.4
-EmptyImage[SE]=./images/pack-horse-grey.1.5
-EmptyImage[S]=./images/pack-horse-grey.1.6
-EmptyImage[SW]=./images/pack-horse-grey.1.7
-EmptyImage[W]=./images/pack-horse-grey.1.0
-EmptyImage[NW]=./images/pack-horse-grey.1.1
-EmptyImage[N]=./images/pack-horse-grey.1.2
-EmptyImage[NE]=./images/pack-horse-grey.1.3
+sound=arnaud-coutancier-canal-horses.wav
+
+EmptyImage[E]=./images/pack-horse-grey_E.0.0,-33,14
+EmptyImage[SE]=./images/pack-horse-grey_SE.0.0,-13,0
+EmptyImage[S]=./images/pack-horse-grey_S.0.0,0,0
+EmptyImage[SW]=./images/pack-horse-grey_SW.0.0,-8,10
+EmptyImage[W]=./images/pack-horse-grey_W.0.0,4,5
+EmptyImage[NW]=./images/pack-horse-grey_NW.0.0,12,10
+EmptyImage[N]=./images/pack-horse-grey_N.0.0,0,33
+EmptyImage[NE]=./images/pack-horse-grey_NE.0.0,0,24
 
 ---
 
@@ -50,18 +52,19 @@ length=2
 weight=1
 axle_load=0
 cost=110000
-runningcost=15
-sound=-1
+runningcost=5
+fixed_cost=1700
 
-EmptyImage[E]=./images/pack-horse-green.1.4
-EmptyImage[SE]=./images/pack-horse-green.1.5
-EmptyImage[S]=./images/pack-horse-green.1.6
-EmptyImage[SW]=./images/pack-horse-green.1.7
-EmptyImage[W]=./images/pack-horse-green.1.0
-EmptyImage[NW]=./images/pack-horse-green.1.1
-EmptyImage[N]=./images/pack-horse-green.1.2
-EmptyImage[NE]=./images/pack-horse-green.1.3
+sound=arnaud-coutancier-canal-horses.wav
 
+EmptyImage[E]=./images/pack-horse-green_E.0.0,-33,14
+EmptyImage[SE]=./images/pack-horse-green_SE.0.0,-13,0
+EmptyImage[S]=./images/pack-horse-green_S.0.0,0,0
+EmptyImage[SW]=./images/pack-horse-green_SW.0.0,-8,10
+EmptyImage[W]=./images/pack-horse-green_W.0.0,4,5
+EmptyImage[NW]=./images/pack-horse-green_NW.0.0,12,10
+EmptyImage[N]=./images/pack-horse-green_N.0.0,0,33
+EmptyImage[NE]=./images/pack-horse-green_NE.0.0,0,24
 ---
 
 obj=vehicle
@@ -83,17 +86,19 @@ length=2
 weight=1
 axle_load=0
 cost=110000
-runningcost=15
-sound=-1
+runningcost=5
+fixed_cost=1700
 
-EmptyImage[E]=./images/pack-horse-blue.1.4
-EmptyImage[SE]=./images/pack-horse-blue.1.5
-EmptyImage[S]=./images/pack-horse-blue.1.6
-EmptyImage[SW]=./images/pack-horse-blue.1.7
-EmptyImage[W]=./images/pack-horse-blue.1.0
-EmptyImage[NW]=./images/pack-horse-blue.1.1
-EmptyImage[N]=./images/pack-horse-blue.1.2
-EmptyImage[NE]=./images/pack-horse-blue.1.3
+sound=arnaud-coutancier-canal-horses.wav
+
+EmptyImage[E]=./images/pack-horse-blue_E.0.0,-33,14
+EmptyImage[SE]=./images/pack-horse-blue_SE.0.0,-13,0
+EmptyImage[S]=./images/pack-horse-blue_S.0.0,0,0
+EmptyImage[SW]=./images/pack-horse-blue_SW.0.0,-8,10
+EmptyImage[W]=./images/pack-horse-blue_W.0.0,4,5
+EmptyImage[NW]=./images/pack-horse-blue_NW.0.0,12,10
+EmptyImage[N]=./images/pack-horse-blue_N.0.0,0,33
+EmptyImage[NE]=./images/pack-horse-blue_NE.0.0,0,24
 
 ---
 
@@ -116,17 +121,19 @@ length=2
 weight=1
 axle_load=0
 cost=110000
-runningcost=15
-sound=-1
+runningcost=5
+fixed_cost=1700
 
-EmptyImage[E]=./images/pack-horse-red.1.4
-EmptyImage[SE]=./images/pack-horse-red.1.5
-EmptyImage[S]=./images/pack-horse-red.1.6
-EmptyImage[SW]=./images/pack-horse-red.1.7
-EmptyImage[W]=./images/pack-horse-red.1.0
-EmptyImage[NW]=./images/pack-horse-red.1.1
-EmptyImage[N]=./images/pack-horse-red.1.2
-EmptyImage[NE]=./images/pack-horse-red.1.3
+sound=arnaud-coutancier-canal-horses.wav
+
+EmptyImage[E]=./images/pack-horse-red_E.0.0,-33,14
+EmptyImage[SE]=./images/pack-horse-red_SE.0.0,-13,0
+EmptyImage[S]=./images/pack-horse-red_S.0.0,0,0
+EmptyImage[SW]=./images/pack-horse-red_SW.0.0,-8,10
+EmptyImage[W]=./images/pack-horse-red_W.0.0,4,5
+EmptyImage[NW]=./images/pack-horse-red_NW.0.0,12,10
+EmptyImage[N]=./images/pack-horse-red_N.0.0,0,33
+EmptyImage[NE]=./images/pack-horse-red_NE.0.0,0,24
 
 ---
 
@@ -149,14 +156,16 @@ length=2
 weight=1
 axle_load=0
 cost=110000
-runningcost=15
-sound=-1
+runningcost=5
+fixed_cost=1700
 
-EmptyImage[E]=./images/pack-horse-brown.1.4
-EmptyImage[SE]=./images/pack-horse-brown.1.5
-EmptyImage[S]=./images/pack-horse-brown.1.6
-EmptyImage[SW]=./images/pack-horse-brown.1.7
-EmptyImage[W]=./images/pack-horse-brown.1.0
-EmptyImage[NW]=./images/pack-horse-brown.1.1
-EmptyImage[N]=./images/pack-horse-brown.1.2
-EmptyImage[NE]=./images/pack-horse-brown.1.3
+sound=arnaud-coutancier-canal-horses.wav
+
+EmptyImage[E]=./images/pack-horse-brown_E.0.0,-33,14
+EmptyImage[SE]=./images/pack-horse-brown_SE.0.0,-13,0
+EmptyImage[S]=./images/pack-horse-brown_S.0.0,0,0
+EmptyImage[SW]=./images/pack-horse-brown_SW.0.0,-8,10
+EmptyImage[W]=./images/pack-horse-brown_W.0.0,4,5
+EmptyImage[NW]=./images/pack-horse-brown_NW.0.0,12,10
+EmptyImage[N]=./images/pack-horse-brown_N.0.0,0,33
+EmptyImage[NE]=./images/pack-horse-brown_NE.0.0,0,24

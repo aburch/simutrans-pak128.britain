@@ -21,7 +21,7 @@ weight=33
 axles=4
 cost=755000
 runningcost=37
-sound=-1
+
 
 # Long distance three per side in the thirds, no individual compartment doors.
 comfort=145
@@ -182,7 +182,7 @@ weight=32
 axles=4
 cost=755000
 runningcost=37
-sound=-1
+
 
 # Long distance three per side in the thirds, no individual compartment doors.
 comfort=143
@@ -295,7 +295,7 @@ weight=32
 axles=4
 cost=755000
 runningcost=37
-sound=-1
+
 
 # Long distance three per side in the thirds, no individual compartment doors.
 comfort=143
@@ -408,7 +408,7 @@ weight=31
 axles=4
 cost=700000
 runningcost=37
-sound=-1
+
 
 # "High capacity" open third.
 can_lead_from_rear=0
@@ -569,7 +569,7 @@ weight=30
 axles=4
 cost=700000
 runningcost=37
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -681,7 +681,7 @@ weight=30
 axles=4
 cost=700000
 runningcost=37
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -791,7 +791,7 @@ weight=44
 axles=4
 cost=910000
 runningcost=50
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -951,7 +951,7 @@ weight=34
 axles=4
 cost=820000
 runningcost=44
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -1110,7 +1110,7 @@ weight=27
 axles=4
 cost=548000
 runningcost=22
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -1168,7 +1168,7 @@ weight=30
 axles=4
 cost=700000
 runningcost=37
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -1324,7 +1324,7 @@ weight=30
 axles=4
 cost=777500
 runningcost=39
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1

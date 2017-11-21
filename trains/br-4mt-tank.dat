@@ -2,9 +2,9 @@ obj=vehicle
 name=BR-4MT-Tank
 engine_type=steam
 smoke=Steam
-speed=120
+speed=126
 # Extrapolated
-power=353
+power=382
 tractive_effort=111
 copyright=Kieron
 intro_year=1951
@@ -20,7 +20,7 @@ weight=86
 axle_load=18
 cost=4435000
 runningcost=792
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=8
 years_before_maintenance_max_reached=11
 

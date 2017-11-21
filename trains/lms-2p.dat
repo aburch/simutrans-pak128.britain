@@ -2,9 +2,9 @@ obj=vehicle
 name=LMS-2P
 engine_type=steam
 smoke=Steam
-speed=125
+speed=140
 # Extrapolated
-power=265
+power=298
 # http://en.wikipedia.org/wiki/LMS_Class_2P_4-4-0
 tractive_effort=79
 copyright=James
@@ -15,13 +15,13 @@ retire_month=7
 waytype=track
 freight=None
 payload=0
-length=6
+length=5
 
 weight=55
 axle_load=16
 cost=7025000
 runningcost=800
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=23
 years_before_maintenance_max_reached=18
 
@@ -52,7 +52,7 @@ EmptyImage[NE][1]=./images/mr-483-br.1.7
 
 obj=vehicle
 name=LMS-2P-Tender
-speed=125
+speed=140
 power=0
 copyright=James
 intro_year=1928
@@ -68,7 +68,7 @@ weight=43
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=23
 
 Constraint[Prev][0]=LMS-2P
@@ -76,20 +76,20 @@ Constraint[Prev][0]=LMS-2P
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
-EmptyImage[E][0]=./images/lms-2p-tender.1.4
-EmptyImage[SE][0]=./images/lms-2p-tender.1.5
-EmptyImage[S][0]=./images/lms-2p-tender.1.6
-EmptyImage[SW][0]=./images/lms-2p-tender.1.7
-EmptyImage[W][0]=./images/lms-2p-tender.1.0
-EmptyImage[NW][0]=./images/lms-2p-tender.1.1
-EmptyImage[N][0]=./images/lms-2p-tender.1.2
-EmptyImage[NE][0]=./images/lms-2p-tender.1.3
+EmptyImage[E][0]=./images/mr-1000-tender-lms-black.1.4
+EmptyImage[SE][0]=./images/mr-1000-tender-lms-black.1.5
+EmptyImage[S][0]=./images/mr-1000-tender-lms-black.1.6
+EmptyImage[SW][0]=./images/mr-1000-tender-lms-black.1.7
+EmptyImage[W][0]=./images/mr-1000-tender-lms-black.1.0
+EmptyImage[NW][0]=./images/mr-1000-tender-lms-black.1.1
+EmptyImage[N][0]=./images/mr-1000-tender-lms-black.1.2
+EmptyImage[NE][0]=./images/mr-1000-tender-lms-black.1.3
 
-EmptyImage[E][1]=./images/mr-1000-tender-br.1.4
-EmptyImage[SE][1]=./images/mr-1000-tender-br.1.5
-EmptyImage[S][1]=./images/mr-1000-tender-br.1.6
-EmptyImage[SW][1]=./images/mr-1000-tender-br.1.7
-EmptyImage[W][1]=./images/mr-1000-tender-br.1.0
-EmptyImage[NW][1]=./images/mr-1000-tender-br.1.1
-EmptyImage[N][1]=./images/mr-1000-tender-br.1.2
-EmptyImage[NE][1]=./images/mr-1000-tender-br.1.3
+EmptyImage[E][1]=./images/mr-1000-tender-br-unlined.1.4
+EmptyImage[SE][1]=./images/mr-1000-tender-br-unlined.1.5
+EmptyImage[S][1]=./images/mr-1000-tender-br-unlined.1.6
+EmptyImage[SW][1]=./images/mr-1000-tender-br-unlined.1.7
+EmptyImage[W][1]=./images/mr-1000-tender-br-unlined.1.0
+EmptyImage[NW][1]=./images/mr-1000-tender-br-unlined.1.1
+EmptyImage[N][1]=./images/mr-1000-tender-br-unlined.1.2
+EmptyImage[NE][1]=./images/mr-1000-tender-br-unlined.1.3

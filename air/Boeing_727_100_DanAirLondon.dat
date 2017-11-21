@@ -2,7 +2,7 @@ obj=vehicle
 name=Boeing_727_100(DanAirLondon)
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=851
 power=33480
 tractive_effort=186
@@ -28,7 +28,8 @@ max_loading_time=2800
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=2550
 
-sound=aircraft-jet_stop.wav
+sound=robin-pinnock-bac-1-11.wav
+range=4300
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

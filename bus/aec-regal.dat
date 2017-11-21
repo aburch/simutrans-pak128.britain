@@ -1,38 +1,65 @@
+# http://www.countrybus.org/T-regal/T1.htm#general
 obj=vehicle
 name=AECRegalT
 copyright=JamesPetts&JamesHood
 waytype=road
-engine_type=diesel
+engine_type=petrol
 freight=Passagiere
 payload=29
-overcrowded_capacity=4
-speed=32
+overcrowded_capacity=3
+speed=50
 power=39
 tractive_effort=6
 gear=50
-weight=5
+# One of these at the London 'Bus Museum is marked as 6t - the cwt marking is unclear on my photograph.
+weight=6
 axles=2
 length=5
 cost=362000
 runningcost=140
 intro_year=1929
 intro_month=12
-retire_year=1947
-retire_month=6
+retire_year=1948
+retire_month=4
+sound=gareth-bull-leyland-titan-td1.wav
 
 comfort=41
-min_loading_time=15
-max_loading_time=45
+# Single door with conductor: 2.5 seconds per passenger
+min_loading_time=4
+max_loading_time=72
+sound=gareth-bull-leyland-titan-td1.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/aec-regal.0.0
-EmptyImage[SE]=./images/aec-regal.0.1
-EmptyImage[S]=./images/aec-regal.0.2
-EmptyImage[SW]=./images/aec-regal.0.3
-EmptyImage[W]=./images/aec-regal.0.4
-EmptyImage[NW]=./images/aec-regal.0.5
-EmptyImage[N]=./images/aec-regal.0.6
-EmptyImage[NE]=./images/aec-regal.0.7
+liverytype[0]=General
+liverytype[1]=LT
+liverytype[2]=LT-revised
+
+EmptyImage[E][0]=./images/aec-regal-general_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-regal-general_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-regal-general_S.0.0,4,0
+EmptyImage[SW][0]=./images/aec-regal-general_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-regal-general_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-regal-general_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-regal-general_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-regal-general_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-regal-red-white_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-regal-red-white_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-regal-red-white_S.0.0,4,0
+EmptyImage[SW][1]=./images/aec-regal-red-white_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-regal-red-white_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-regal-red-white_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-regal-red-white_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-regal-red-white_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/aec-regal-overall-red_E.0.0,-33,14
+EmptyImage[SE][2]=./images/aec-regal-overall-red_SE.0.0,-13,0
+EmptyImage[S][2]=./images/aec-regal-overall-red_S.0.0,4,0
+EmptyImage[SW][2]=./images/aec-regal-overall-red_SW.0.0,-8,10
+EmptyImage[W][2]=./images/aec-regal-overall-red_W.0.0,4,5
+EmptyImage[NW][2]=./images/aec-regal-overall-red_NW.0.0,12,10
+EmptyImage[N][2]=./images/aec-regal-overall-red_N.0.0,0,33
+EmptyImage[NE][2]=./images/aec-regal-overall-red_NE.0.0,0,24
 

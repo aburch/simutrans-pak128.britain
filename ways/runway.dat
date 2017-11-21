@@ -1,3 +1,4 @@
+# Asphalt
 Obj=way
 Name=runway
 waytype=air
@@ -6,8 +7,11 @@ cost=182500
 maintenance=1063
 topspeed=300
 max_weight=400
-intro_year = 1938
-intro_month = 9
+intro_year=1938
+intro_month=9
+# 6 A320s every hour for 30 game years
+wear_capacity=864000000
+
 icon=> ./images/runway.1.3
 cursor=./images/runway.1.4
 Image[-][0]=./images/runway.1.2
@@ -38,11 +42,9 @@ ImageUp[12][0]=-
 obj=roadsign
 name=airport_oneway
 copyright=Shunter
-type=airport
 waytype=air
-system_type=0
-intro_year = 1938
-intro_month = 9
+intro_year=1938
+intro_month=9
 cost=1500
 min_speed=0
 single_way=1

@@ -20,13 +20,13 @@ weight=24
 axles=4
 cost=700000
 runningcost=35
-sound=-1
+sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 bidirectional=0
 
-min_loading_time=12
-max_loading_time=42
+min_loading_time=17
+max_loading_time=48
 comfort=58
 
 way_constraint_prohibitive[1]=1
@@ -87,7 +87,7 @@ weight=16
 axles=4
 cost=300000
 runningcost=5
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -95,8 +95,8 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=12
-max_loading_time=42
+min_loading_time=17
+max_loading_time=48
 comfort=58
 
 Constraint[Prev][0]=1940TubeStockFront
@@ -158,7 +158,7 @@ weight=24
 axles=4
 cost=700000
 runningcost=35
-sound=-1
+sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -166,8 +166,8 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
 
-min_loading_time=12
-max_loading_time=42
+min_loading_time=17
+max_loading_time=48
 comfort=58
 
 Constraint[Prev][0]=1940TubeStockMiddle

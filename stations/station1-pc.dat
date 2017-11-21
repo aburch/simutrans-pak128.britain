@@ -14,9 +14,9 @@ Level=4
 intro_year=1890
 intro_month=11
 
-station_maintenance=10800
-station_price=2400000
-station_capacity=8
+maintenance=10800
+cost=2400000
+capacity=8
 
 # This needs a more modern replacement
 icon=>/station1-pc.1.8
@@ -90,9 +90,9 @@ Level=4
 intro_year=1890
 intro_month=11
 
-station_maintenance=10800
-station_price=2400000
-station_capacity=8
+maintenance=10800
+cost=2400000
+capacity=8
 
 # This needs a more modern replacement
 icon=>/station1-pc.5.8
@@ -166,9 +166,9 @@ Level=4
 intro_year=1890
 intro_month=11
 
-station_maintenance=10800
-station_price=2400000
-station_capacity=8
+maintenance=10800
+cost=2400000
+capacity=8
 
 # This needs a more modern replacement
 icon=>/station1-pc.9.8

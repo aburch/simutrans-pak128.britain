@@ -1,0 +1,67 @@
+# http://www.countrybus.org/T-regal/T2.htm
+obj=vehicle
+name=aec-regal-t-coach
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+payload=29
+overcrowded_capacity=0
+# Speed given by Ian's Bus Stop (above) as 60mph - this is fast for 1930!
+# Have very low tractive effort in compensation (a direct calculation
+# suggests 4)
+speed=84
+power=39
+tractive_effort=3
+gear=50
+# One of these at the London 'Bus Museum is marked as 6t - the cwt marking is unclear on my photograph.
+weight=6
+axles=2
+length=5
+cost=388750
+runningcost=142
+intro_year=1930
+intro_month=3
+retire_year=1936
+retire_month=7
+sound=gareth-bull-leyland-titan-td1.wav
+
+comfort=62
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=218
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=General
+liverytype[1]=Green-Line-Coaches
+liverytype[2]=Green-Line-two-tone
+
+EmptyImage[E][0]=./images/aec-regal-coach-general_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-regal-coach-general_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-regal-coach-general_S.0.0,4,0
+EmptyImage[SW][0]=./images/aec-regal-coach-general_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-regal-coach-general_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-regal-coach-general_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-regal-coach-general_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-regal-coach-general_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-regal-coach-greenline_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-regal-coach-greenline_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-regal-coach-greenline_S.0.0,4,0
+EmptyImage[SW][1]=./images/aec-regal-coach-greenline_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-regal-coach-greenline_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-regal-coach-greenline_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-regal-coach-greenline_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-regal-coach-greenline_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/aec-regal-coach-greenline-two-tone_E.0.0,-33,14
+EmptyImage[SE][2]=./images/aec-regal-coach-greenline-two-tone_SE.0.0,-13,0
+EmptyImage[S][2]=./images/aec-regal-coach-greenline-two-tone_S.0.0,4,0
+EmptyImage[SW][2]=./images/aec-regal-coach-greenline-two-tone_SW.0.0,-8,10
+EmptyImage[W][2]=./images/aec-regal-coach-greenline-two-tone_W.0.0,4,5
+EmptyImage[NW][2]=./images/aec-regal-coach-greenline-two-tone_NW.0.0,12,10
+EmptyImage[N][2]=./images/aec-regal-coach-greenline-two-tone_N.0.0,0,33
+EmptyImage[NE][2]=./images/aec-regal-coach-greenline-two-tone_NE.0.0,0,24
+

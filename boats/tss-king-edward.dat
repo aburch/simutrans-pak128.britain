@@ -4,6 +4,7 @@ copyright=jamespetts
 waytype=water
 engine_type=steam
 smoke=Steam
+sound=ship-horn_a.wav
 speed=38
 power=1827
 #gear=1200
@@ -17,6 +18,7 @@ intro_year=1901
 intro_month=5
 retire_year=1933
 retire_month=9
+is_tall=1
 
 comfort=115
 catering_level=3

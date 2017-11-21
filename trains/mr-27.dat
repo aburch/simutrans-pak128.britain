@@ -2,9 +2,9 @@ obj=vehicle
 name=MR-27
 engine_type=steam
 smoke=Steam
-speed=120
+speed=122
 # Extrapolated
-power=168
+power=170
 # Calculated from data from Ahrons, p. 145
 # Loss factor set at 0.75, at 140lbs boiler pressure. 
 tractive_effort=36
@@ -17,7 +17,7 @@ retire_month=3
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 brake_force=0
 rolling_resistance=19
 
@@ -26,7 +26,7 @@ weight=33
 axle_load=14
 cost=6972000
 runningcost=1477
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40
 

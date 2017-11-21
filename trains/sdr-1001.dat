@@ -1,10 +1,10 @@
 obj=vehicle
-name=SDR-1001(Green)
+name=SDR-1001
 engine_type=steam
 smoke=Steam
-speed=45
-# Extrapolated, approximately (was 91 when multiplied for heating surface area, but that was excessive)
-power=61
+speed=48
+# Extrapolated
+power=103
 # See "The Locomotive", 14th of January 1928, p. 14
 # TE data taken from: http://www.lner.info/locos/J/ner_1001.shtml
 tractive_effort=66
@@ -16,9 +16,10 @@ retire_month=7
 waytype=track
 freight=None
 payload=0
-length=6
+length=4
 brake_force=0
 rolling_resistance=19
+way_wear_factor=66421
 
 # Weight taken from "The Locomotive", 14th of January 1928, p. 14
 weight=32
@@ -26,16 +27,16 @@ axles=3
 cost=3548160
 # These were economical to run: see above website.
 runningcost=700
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
-Constraint[Next][0]=SDR-1001-Tender(Green)
+Constraint[Next][0]=SDR-1001-Tender
 
-EmptyImage[E]=./images/sdr-1001.0.0
-EmptyImage[SE]=./images/sdr-1001.0.1
-EmptyImage[S]=./images/sdr-1001.0.2
-EmptyImage[SW]=./images/sdr-1001.0.3
-EmptyImage[W]=./images/sdr-1001.0.4
-EmptyImage[NW]=./images/sdr-1001.0.5
-EmptyImage[N]=./images/sdr-1001.0.6
-EmptyImage[NE]=./images/sdr-1001.0.7
+EmptyImage[E]=./images/sdr-1001.1.4
+EmptyImage[SE]=./images/sdr-1001.1.5
+EmptyImage[S]=./images/sdr-1001.1.6
+EmptyImage[SW]=./images/sdr-1001.1.7
+EmptyImage[W]=./images/sdr-1001.1.0
+EmptyImage[NW]=./images/sdr-1001.1.1
+EmptyImage[N]=./images/sdr-1001.1.2
+EmptyImage[NE]=./images/sdr-1001.1.3
 

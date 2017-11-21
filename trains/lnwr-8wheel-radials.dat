@@ -16,7 +16,7 @@ weight=18
 axles=4
 cost=340000
 runningcost=28
-sound=-1
+
 
 upgrade[0]=LNWR-8wheel-radial-brake-lav-front
 upgrade[1]=LNWR-42ft-non-cor-brake-front
@@ -110,7 +110,7 @@ weight=18
 axles=4
 upgrade_price=49285
 runningcost=28
-sound=-1
+
 
 upgrade[0]=LNWR-42ft-non-cor-brake-lav-front
 
@@ -206,7 +206,7 @@ weight=18
 axles=4
 upgrade_price=49285
 runningcost=28
-sound=-1
+
 
 upgrade[0]=LNWR-42ft-non-cor-lav
 
@@ -338,7 +338,7 @@ weight=18
 axles=4
 cost=340000
 runningcost=28
-sound=-1
+
 
 upgrade[0]=LNWR-8wheel-radial-lav
 upgrade[1]=LNWR-42ft-non-cor-non-lav
@@ -468,7 +468,7 @@ weight=18
 axles=4
 cost=350000
 runningcost=28
-sound=-1
+
 
 upgrade[0]=LNWR-8wheel-radial-brake-lav-rear
 upgrade[1]=LNWR-42ft-non-cor-brake-rear
@@ -561,7 +561,7 @@ weight=18
 axles=4
 upgrade_price=49285
 runningcost=28
-sound=-1
+
 
 upgrade[0]=LNWR-42ft-non-cor-brake-lav-rear
 
@@ -653,7 +653,7 @@ weight=18
 axles=4
 cost=350000
 runningcost=28
-sound=-1
+
 
 upgrade[0]=LNWR-42ft-non-cor-full-brake
 
@@ -702,7 +702,7 @@ weight=18
 axles=4
 cost=350000
 runningcost=28
-sound=-1
+
 
 upgrade[0]=LNWR-42ft-non-cor-mail
 
@@ -829,7 +829,7 @@ weight=18
 axles=4
 cost=350000
 runningcost=28
-sound=-1
+
 
 upgrade[0]=LNWR-42ft-non-cor-mail
 

@@ -18,7 +18,7 @@ weight=18
 axles=4
 cost=510000
 runningcost=29
-sound=-1
+
 upgrade[0]=MR-clayton-8wheel-arc-roof-third-lav
 
 can_lead_from_rear=0
@@ -65,8 +65,8 @@ Constraint[Next][34]=MR-48ft-clerestory-non-lav-brake-d500-rear
 Constraint[Next][35]=MR-48ft-clerestory-non-lav
 Constraint[Next][36]=MR-48ft-clerestory-mail
 Constraint[Next][37]=MR-48ft-clerestory-tpo
-Constraint[Next][38]=MR-50ft-arc-d1053
-Constraint[Next][39]=MR-50ft-arc-brake-rear-d1052
+Constraint[Next][38]=MR-50ft-arc-lav-d1060
+Constraint[Next][39]=MR-50ft-arc-brake-rear-d557
 Constraint[Next][40]=MR-clayton-12wheel-arc-roof-third
 Constraint[Next][41]=MR-clayton-12wheel-arc-roof-third-lav
 Constraint[Next][42]=MR-clayton-12wheel-arc-roof-brake-rear
@@ -124,8 +124,8 @@ Constraint[Prev][34]=MR-48ft-clerestory-non-lav-brake-d500-front
 Constraint[Prev][35]=MR-48ft-clerestory-non-lav
 Constraint[Prev][36]=MR-48ft-clerestory-mail
 Constraint[Prev][37]=MR-48ft-clerestory-tpo
-Constraint[Prev][38]=MR-50ft-arc-d1053
-Constraint[Prev][39]=MR-50ft-arc-brake-front-d1052
+Constraint[Prev][38]=MR-50ft-arc-lav-d1060
+Constraint[Prev][39]=MR-50ft-arc-brake-front-d557
 Constraint[Prev][40]=MR-clayton-12wheel-arc-roof-third
 Constraint[Prev][41]=MR-clayton-12wheel-arc-roof-third-lav
 Constraint[Prev][42]=MR-clayton-12wheel-arc-roof-brake-front
@@ -190,7 +190,7 @@ axles=4
 cost=510000
 upgrade_price=40195
 runningcost=29
-sound=-1
+
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=0
 
@@ -238,8 +238,8 @@ Constraint[Next][34]=MR-48ft-clerestory-non-lav-brake-d500-rear
 Constraint[Next][35]=MR-48ft-clerestory-non-lav
 Constraint[Next][36]=MR-48ft-clerestory-mail
 Constraint[Next][37]=MR-48ft-clerestory-tpo
-Constraint[Next][38]=MR-50ft-arc-d1053
-Constraint[Next][39]=MR-50ft-arc-brake-rear-d1052
+Constraint[Next][38]=MR-50ft-arc-lav-d1060
+Constraint[Next][39]=MR-50ft-arc-brake-rear-d557
 Constraint[Next][40]=MR-clayton-12wheel-arc-roof-third
 Constraint[Next][41]=MR-clayton-12wheel-arc-roof-third-lav
 Constraint[Next][42]=MR-clayton-12wheel-arc-roof-brake-rear
@@ -297,8 +297,8 @@ Constraint[Prev][34]=MR-48ft-clerestory-non-lav-brake-d500-front
 Constraint[Prev][35]=MR-48ft-clerestory-non-lav
 Constraint[Prev][36]=MR-48ft-clerestory-mail
 Constraint[Prev][37]=MR-48ft-clerestory-tpo
-Constraint[Prev][38]=MR-50ft-arc-d1053
-Constraint[Prev][39]=MR-50ft-arc-brake-front-d1052
+Constraint[Prev][38]=MR-50ft-arc-lav-d1060
+Constraint[Prev][39]=MR-50ft-arc-brake-front-d557
 Constraint[Prev][40]=MR-clayton-12wheel-arc-roof-third
 Constraint[Prev][41]=MR-clayton-12wheel-arc-roof-third-lav
 Constraint[Prev][42]=MR-clayton-12wheel-arc-roof-brake-front
@@ -350,7 +350,7 @@ weight=18
 axles=4
 cost=510000
 runningcost=29
-sound=-1
+
 upgrade[0]=MR-clayton-8wheel-arc-roof-brake-front-lav
 
 can_lead_from_rear=0
@@ -397,8 +397,8 @@ Constraint[Next][34]=MR-48ft-clerestory-non-lav-brake-d500-rear
 Constraint[Next][35]=MR-48ft-clerestory-non-lav
 Constraint[Next][36]=MR-48ft-clerestory-mail
 Constraint[Next][37]=MR-48ft-clerestory-tpo
-Constraint[Next][38]=MR-50ft-arc-d1053
-Constraint[Next][39]=MR-50ft-arc-brake-rear-d1052
+Constraint[Next][38]=MR-50ft-arc-lav-d1060
+Constraint[Next][39]=MR-50ft-arc-brake-rear-d557
 Constraint[Next][40]=MR-clayton-12wheel-arc-roof-third
 Constraint[Next][41]=MR-clayton-12wheel-arc-roof-third-lav
 Constraint[Next][42]=MR-clayton-12wheel-arc-roof-brake-rear
@@ -462,7 +462,7 @@ weight=18
 axles=4
 cost=510000
 runningcost=29
-sound=-1
+
 upgrade[0]=MR-clayton-8wheel-arc-roof-brake-rear-lav
 
 can_lead_from_rear=0
@@ -509,8 +509,8 @@ Constraint[Prev][34]=MR-48ft-clerestory-non-lav-brake-d500-front
 Constraint[Prev][35]=MR-48ft-clerestory-non-lav
 Constraint[Prev][36]=MR-48ft-clerestory-mail
 Constraint[Prev][37]=MR-48ft-clerestory-tpo
-Constraint[Prev][38]=MR-50ft-arc-d1053
-Constraint[Prev][39]=MR-50ft-arc-brake-front-d1052
+Constraint[Prev][38]=MR-50ft-arc-lav-d1060
+Constraint[Prev][39]=MR-50ft-arc-brake-front-d557
 Constraint[Prev][40]=MR-clayton-12wheel-arc-roof-third
 Constraint[Prev][41]=MR-clayton-12wheel-arc-roof-third-lav
 Constraint[Prev][42]=MR-clayton-12wheel-arc-roof-brake-front
@@ -575,7 +575,7 @@ axles=4
 cost=510000
 upgrade_price=40195
 runningcost=29
-sound=-1
+
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=0
 
@@ -623,8 +623,8 @@ Constraint[Next][34]=MR-48ft-clerestory-non-lav-brake-d500-rear
 Constraint[Next][35]=MR-48ft-clerestory-non-lav
 Constraint[Next][36]=MR-48ft-clerestory-mail
 Constraint[Next][37]=MR-48ft-clerestory-tpo
-Constraint[Next][38]=MR-50ft-arc-d1053
-Constraint[Next][39]=MR-50ft-arc-brake-rear-d1052
+Constraint[Next][38]=MR-50ft-arc-lav-d1060
+Constraint[Next][39]=MR-50ft-arc-brake-rear-d557
 Constraint[Next][40]=MR-clayton-12wheel-arc-roof-third
 Constraint[Next][41]=MR-clayton-12wheel-arc-roof-third-lav
 Constraint[Next][42]=MR-clayton-12wheel-arc-roof-brake-rear
@@ -676,7 +676,7 @@ weight=18
 axles=4
 cost=510000
 runningcost=29
-sound=-1
+
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=0
 
@@ -724,8 +724,8 @@ Constraint[Prev][34]=MR-48ft-clerestory-non-lav-brake-d500-front
 Constraint[Prev][35]=MR-48ft-clerestory-non-lav
 Constraint[Prev][36]=MR-48ft-clerestory-mail
 Constraint[Prev][37]=MR-48ft-clerestory-tpo
-Constraint[Prev][38]=MR-50ft-arc-d1053
-Constraint[Prev][39]=MR-50ft-arc-brake-front-d1052
+Constraint[Prev][38]=MR-50ft-arc-lav-d1060
+Constraint[Prev][39]=MR-50ft-arc-brake-front-d557
 Constraint[Prev][40]=MR-clayton-12wheel-arc-roof-third
 Constraint[Prev][41]=MR-clayton-12wheel-arc-roof-third-lav
 Constraint[Prev][42]=MR-clayton-12wheel-arc-roof-brake-front
@@ -777,7 +777,7 @@ weight=18
 axles=4
 cost=500000
 runningcost=29
-sound=-1
+
 upgrade[0]=MR-clayton-8wheel-arc-roof-third-lav
 
 can_lead_from_rear=0
@@ -823,8 +823,8 @@ Constraint[Next][34]=MR-48ft-clerestory-non-lav-brake-d500-rear
 Constraint[Next][35]=MR-48ft-clerestory-non-lav
 Constraint[Next][36]=MR-48ft-clerestory-mail
 Constraint[Next][37]=MR-48ft-clerestory-tpo
-Constraint[Next][38]=MR-50ft-arc-d1053
-Constraint[Next][39]=MR-50ft-arc-brake-rear-d1052
+Constraint[Next][38]=MR-50ft-arc-lav-d1060
+Constraint[Next][39]=MR-50ft-arc-brake-rear-d557
 Constraint[Next][40]=MR-clayton-12wheel-arc-roof-third
 Constraint[Next][41]=MR-clayton-12wheel-arc-roof-third-lav
 Constraint[Next][42]=MR-clayton-12wheel-arc-roof-brake-rear
@@ -882,8 +882,8 @@ Constraint[Prev][34]=MR-48ft-clerestory-non-lav-brake-d500-front
 Constraint[Prev][35]=MR-48ft-clerestory-non-lav
 Constraint[Prev][36]=MR-48ft-clerestory-mail
 Constraint[Prev][37]=MR-48ft-clerestory-tpo
-Constraint[Prev][38]=MR-50ft-arc-d1053
-Constraint[Prev][39]=MR-50ft-arc-brake-front-d1052
+Constraint[Prev][38]=MR-50ft-arc-lav-d1060
+Constraint[Prev][39]=MR-50ft-arc-brake-front-d557
 Constraint[Prev][40]=MR-clayton-12wheel-arc-roof-third
 Constraint[Prev][41]=MR-clayton-12wheel-arc-roof-third-lav
 Constraint[Prev][42]=MR-clayton-12wheel-arc-roof-brake-front

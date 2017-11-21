@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=120
 # Extrapolated
-power=307
+power=409
 tractive_effort=118
 copyright=Kieron/JamesPetts
 intro_year=1926
@@ -19,7 +19,7 @@ weight=67
 axle_load=19
 cost=4570000
 runningcost=810
-sound=-1
+sound=konakaboom-black-five.wav
 length=7
 increase_maintenance_after_years=24
 years_before_maintenance_max_reached=10
@@ -80,7 +80,7 @@ weight=43
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=24
 years_before_maintenance_max_reached=10
 

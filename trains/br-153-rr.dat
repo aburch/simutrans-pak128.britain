@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-153(Regional)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=120
 gear=50
 power=212
@@ -24,7 +24,8 @@ axles=4
 cost=1296000
 upgrade_price=0
 runningcost=66
-sound=-1
+sound=konakaboom-class-159.wav
+
 increase_maintenance_after_years=23
 
 can_lead_from_rear=1
@@ -75,7 +76,7 @@ EmptyImage[NE]=./images/br-153-rr.0.7
 obj=vehicle
 name=BR-153-Trolley(Regional)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=120
 gear=50
 power=212
@@ -98,7 +99,7 @@ axles=4
 cost=1299000
 upgrade_price=1500
 runningcost=71
-sound=-1
+
 increase_maintenance_after_years=23
 
 can_lead_from_rear=1

@@ -13,9 +13,10 @@ length=9
 
 weight=16
 axle_load=7
+way_wear_factor=33500
 cost=597000
 runningcost=12
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -61,9 +62,10 @@ length=8
 
 weight=16
 axle_load=7
+way_wear_factor=33500
 cost=597000
 runningcost=12
-sound=-1
+
 
 min_loading_time=240
 max_loading_time=600
@@ -108,9 +110,10 @@ length=8
 
 weight=16
 axle_load=7
+way_wear_factor=33500
 cost=597000
 runningcost=12
-sound=-1
+
 
 min_loading_time=240
 max_loading_time=600
@@ -155,9 +158,10 @@ length=9
 
 weight=16
 axle_load=7
+way_wear_factor=33500
 cost=597000
 runningcost=12
-sound=-1
+
 
 min_loading_time=240
 max_loading_time=600

@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=105
 # Extrapolated
-power=117
+power=178
 # Tractive effort taken from:
 # http://www.semgonline.com/steam/d1%28lbsc%29_class_dat.html
 # (Wikipedia seemed unreliable on this locomotive)
@@ -33,7 +33,7 @@ weight=43
 axle_load=16
 cost=2210000
 runningcost=300
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh

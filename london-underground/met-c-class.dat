@@ -1,0 +1,43 @@
+# http://en.wikipedia.org/wiki/Metropolitan_Railway_C_Class
+# These are closely based on the SECR Q Class, and some data are taken from there.
+obj=vehicle
+name=Metropolitan-C-Class
+engine_type=steam
+smoke=Steam
+speed=89
+# Extrapolated: see data here: https://orion.math.iastate.edu/jdhsmith/term/slgbsecr.htm
+power=216
+# http://en.wikipedia.org/wiki/SER_Q_class
+tractive_effort=68
+copyright=James/jamespetts
+intro_year=1891
+intro_month=4
+retire_year=1902
+retire_month=10
+waytype=track
+freight=None
+payload=0
+length=6
+way_wear_factor=50400
+
+# 
+weight=49.4
+axle_load=16
+cost=8950000
+runningcost=867
+sound=lwalker-br-4mt-tank.wav
+
+bidirectional=1
+
+# This only seems to have had the one livery in Metropolitan days (unconfirmed).
+# However, it was nearly identical to the SECR Q class: consider adding that.
+
+EmptyImage[E]=./images/met-c-class.1.4
+EmptyImage[SE]=./images/met-c-class.1.5
+EmptyImage[S]=./images/met-c-class.1.6
+EmptyImage[SW]=./images/met-c-class.1.7
+EmptyImage[W]=./images/met-c-class.1.0
+EmptyImage[NW]=./images/met-c-class.1.1
+EmptyImage[N]=./images/met-c-class.1.2
+EmptyImage[NE]=./images/met-c-class.1.3
+

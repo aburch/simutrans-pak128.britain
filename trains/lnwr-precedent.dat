@@ -9,7 +9,7 @@ speed=130
 # Max. speed given as 50.7mph with a train of 241t (gross)
 # On the level. Too low probably because train did not have
 # enough time to reach max. speed.
-power=178
+power=204
 # Tractive effort calculated from data on Ahrons p. 192
 # Loss factor 0.8
 tractive_effort=44
@@ -21,14 +21,14 @@ retire_month=9
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 brake_force=0
 
 weight=33
 axle_load=12
 cost=9021000
 runningcost=1700
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 upgrade[0]=LNWR-Jumbo
 
 Constraint[Next][0]=LNWR-Precedent-Tender
@@ -50,7 +50,7 @@ engine_type=steam
 speed=130
 copyright=James
 intro_year=1874
-intro_month=12
+intro_month=3
 retire_year=1887
 retire_month=9
 waytype=track
@@ -63,11 +63,12 @@ weight=23
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 
 upgrade[0]=LNWR-Jumbo-Tender
 
 Constraint[Prev][0]=LNWR-Precedent
+Constraint[Prev][1]=LNWR-precursor-webb
 
 EmptyImage[E]=./images/lnwr-express-tender.1.4
 EmptyImage[SE]=./images/lnwr-express-tender.1.5

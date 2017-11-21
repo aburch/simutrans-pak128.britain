@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=120
 # Extrapolated
-power=152
+power=163
 # Calculated from data on Ahrons p. 169
 # Loss factor 0.75
 tractive_effort=36
@@ -25,7 +25,8 @@ weight=29
 axle_load=9
 cost=8850000
 runningcost=1650
-sound=-1
+sound=lwalker-br-4mt-tank.wav
+
 upgrade[0]=LNWR-Jumbo
 
 Constraint[Next][0]=LNWR-Newton-Tender
@@ -72,7 +73,7 @@ rolling_resistance=19
 weight=23
 cost=0
 runningcost=0
-sound=-1
+
 
 upgrade[0]=LNWR-Jumbo-Tender
 

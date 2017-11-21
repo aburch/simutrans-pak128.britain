@@ -2,7 +2,7 @@ obj=vehicle
 name=Zeppelin_LZ127_GrafZeppelin_Mail
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=petrol
 # max speed 110km/h
 speed=90
 # 5x530CV=1961kW max, SHP=0,9*kW
@@ -15,7 +15,11 @@ freight=Post
 payload=12000
 
 # dead-weight = 150.000lb
-weight=68
+# The realistic weight does not work with contemporary grass runways/taxiways.
+# The dead-weight would have no effect on performance of a ligter than air vehicle
+# and is arguably not the correct figure to use anyway.
+#weight=68
+weight=5
 cost=20000000
 runningcost=1000
 intro_year=1928
@@ -31,7 +35,9 @@ max_loading_time=1000
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=0
 
-sound=planelow.wav
+# Not sure that this sound is appropriate here.
+#sound=planelow.wav
+range=1400
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

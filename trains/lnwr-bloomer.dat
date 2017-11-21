@@ -1,6 +1,3 @@
-# Original Bloomer. 
-# Consider adding large type (more TE: see Ahrons p. 95) 
-# and small type (lighter, more economical: see Ahrons p. 94)
 # Note: the LNWR black livery version is the unmodified version
 # (which did exist in black: see http://www.lnwrs.org.uk/PassLocos/P001L2.jpg).
 # The modified versions with full cabs had 120lb boilers - consider adding
@@ -35,7 +32,7 @@ weight=30
 axle_load=12
 cost=8299200
 runningcost=990
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Bloomer-Tender
 

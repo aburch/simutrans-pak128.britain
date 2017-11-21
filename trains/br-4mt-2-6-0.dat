@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=115
 # Extrapolated
-power=276
+power=331
 # http://en.wikipedia.org/wiki/BR_Standard_Class_4_2-6-0
 tractive_effort=108
 copyright=Kieron/JamesPetts
@@ -21,7 +21,7 @@ weight=61
 axle_load=17
 cost=4621000
 runningcost=799
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 length=6
 increase_maintenance_after_years=8
 years_before_maintenance_max_reached=11

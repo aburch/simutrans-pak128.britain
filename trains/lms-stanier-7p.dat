@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=160
 # Extrapolated
-power=803
+power=761
 tractive_effort=180
 copyright=Kieron
 intro_year=1937
@@ -16,11 +16,13 @@ freight=None
 payload=0
 length=9
 
-weight=110
+weight=109.8
 axle_load=22
+# Four cylinder
+way_wear_factor=144113
 cost=10458000
 runningcost=2343
-sound=-1
+sound=konakaboom-black-five.wav
 air_resistance=108
 increase_maintenance_after_years=14
 years_before_maintenance_max_reached=10
@@ -58,12 +60,14 @@ freight=None
 payload=0
 length=8
 
-weight=107
+weight=106.9
 axle_load=22
+# Four cylinders
+way_wear_factor=140306
 cost=10020000
 upgrade_price=10000
 runningcost=2100
-sound=-1
+
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=10
 

@@ -25,11 +25,13 @@ freight=None
 payload=0
 length=8
 
-weight=102
+weight=104.6
 axle_load=22
+# Three cylinders
+way_wear_factor=143825
 cost=11088000
 runningcost=2508
-sound=-1
+sound=konakaboom-black-five.wav
 air_resistance=108
 increase_maintenance_after_years=12
 years_before_maintenance_max_reached=12

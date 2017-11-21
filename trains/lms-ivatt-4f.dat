@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=115
 # Extrapolated
-power=279
+power=316
 # http://en.wikipedia.org/wiki/LMS_Ivatt_Class_4
 tractive_effort=108
 copyright=Kieron/JamesPetts
@@ -20,7 +20,7 @@ weight=60
 axle_load=17
 cost=4500000
 runningcost=790
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 length=6
 increase_maintenance_after_years=12
 years_before_maintenance_max_reached=11
@@ -71,7 +71,7 @@ weight=43
 axle_load=17
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=12
 years_before_maintenance_max_reached=11
 

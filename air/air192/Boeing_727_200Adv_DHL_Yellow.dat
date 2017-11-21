@@ -2,7 +2,7 @@ obj=vehicle
 name=Boeing_727_200Adv(DHL)Post
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=851
 power=38520
 tractive_effort=214
@@ -27,7 +27,8 @@ max_loading_time=3200
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=3850
 
-sound=aircraft-jet_stop.wav
+sound=jorge-atc-boeing-727.wav
+range=3500
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

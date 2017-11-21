@@ -2,9 +2,9 @@ obj=vehicle
 name=SR-Lord-Nelson
 engine_type=steam
 smoke=Steam
-speed=140
+speed=145
 # Extrapolated
-power=445
+power=434
 tractive_effort=149
 copyright=James
 intro_year=1926
@@ -16,6 +16,8 @@ waytype=track
 freight=None
 payload=0
 length=7
+# Four cylinder, but pictures show small balance weights
+way_wear_factor=108938
 
 # http://www.semgonline.com/steam/lnclass_1.html
 weight=83
@@ -23,7 +25,7 @@ weight=83
 axle_load=21
 cost=8250000
 runningcost=1750
-sound=-1
+sound=konakaboom-black-five.wav
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=12
 
@@ -74,7 +76,7 @@ EmptyImage[NE][3]=./images/sr-lord-nelson-br.1.3
 
 obj=vehicle
 name=SR-Lord-Nelson-Tender
-speed=140
+speed=145
 power=0
 copyright=James
 intro_year=1926
@@ -90,7 +92,7 @@ weight=47
 axles=4
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=12
 

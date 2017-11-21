@@ -15,7 +15,7 @@ length=8
 weight=10
 cost=652500
 runningcost=5
-sound=-1
+sound=tractor.wav
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge

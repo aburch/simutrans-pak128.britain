@@ -4,7 +4,7 @@ engine_type=electric
 speed=80
 gear=80
 power=240
-tractive_effort=55
+tractive_effort=42
 copyright=Kieron
 intro_year=1998
 intro_month=3
@@ -17,10 +17,11 @@ length=9
 # http://en.wikipedia.org/wiki/CR4000
 overcrowded_capacity=69
 weight=18.2
+brake_force=23
 axles=3
 cost=587500
 runningcost=36
-sound=-1
+sound=zabuhailo-modern-tram.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -72,7 +73,7 @@ engine_type=electric
 speed=80
 gear=80
 power=240
-tractive_effort=55
+tractive_effort=42
 copyright=Kieron
 intro_year=1998
 intro_month=3
@@ -85,10 +86,11 @@ length=9
 # http://en.wikipedia.org/wiki/CR4000
 overcrowded_capacity=69
 weight=18.2
+brake_force=23
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0

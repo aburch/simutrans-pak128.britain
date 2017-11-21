@@ -1,6 +1,6 @@
 obj=vehicle
 name=LMS-Patriot-Tender
-speed=145
+speed=150
 power=0
 copyright=James
 intro_year=1930
@@ -16,7 +16,7 @@ weight=43
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=24
 years_before_maintenance_max_reached=11
 

@@ -2,9 +2,9 @@ obj=vehicle
 name=LNWR-watford-tank
 engine_type=steam
 smoke=Steam
-speed=115
+speed=96
 # Extrapolated
-power=168
+power=208
 # Calculated using data from: http://orion.math.iastate.edu/jdhsmith/term/slgblnwr.htm
 tractive_effort=73
 copyright=James/jamespetts
@@ -21,7 +21,7 @@ weight=71
 axle_load=19
 cost=3700000
 runningcost=500
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard

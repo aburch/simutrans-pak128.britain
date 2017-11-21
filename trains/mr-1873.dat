@@ -3,8 +3,8 @@ name=MR-1873
 engine_type=steam
 smoke=Steam
 speed=85
-# Estimated - no firebox/heating surface data available.
-power=151
+# Extrapolated from estimated figures on firebox grate area and heating surface area
+power=221
 # Calculated from data http://en.wikipedia.org/wiki/Midland_Railway_Johnson_0-6-0
 # Loss factor set at 0.8 
 tractive_effort=73
@@ -16,14 +16,15 @@ retire_month=5
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
+way_wear_factor=63000
 
 # http://en.wikipedia.org/wiki/Midland_Railway_Johnson_0-6-0
 weight=40
 axles=3
 cost=7616000
 runningcost=995
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=MR-483-Tender
 

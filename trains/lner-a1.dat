@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=155
 # Extrapolated
-power=669
+power=582
 tractive_effort=133
 copyright=Kieron
 intro_year=1922
@@ -16,13 +16,15 @@ freight=None
 payload=0
 length=8
 
-weight=92
+weight=92.8
 axle_load=20
+# Three cylinder
+way_wear_factor=127600
 cost=11276400
 # See here: http://www.lner.info/locos/A/a1a3a10.shtml for
 # information on coal consumption
 runningcost=2408
-sound=-1
+sound=konakaboom-black-five.wav
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=15
 

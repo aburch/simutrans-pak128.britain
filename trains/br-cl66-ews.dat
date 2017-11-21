@@ -10,8 +10,8 @@ length=12
 copyright=Kieron
 intro_year=1998
 intro_month=9
-#retire_year=2020
-#retire_month=1
+retire_year=2014
+retire_month=8
 waytype=track
 freight=None
 payload=0
@@ -22,7 +22,7 @@ weight=126
 axles=6
 cost=5280000
 runningcost=2970
-sound=-1
+sound=treacher-rail-class-66.wav
 
 can_lead_from_rear=0
 bidirectional=1
@@ -30,8 +30,9 @@ bidirectional=1
 # AAR
 Constraint[Prev][0]=BR-Class66
 Constraint[Prev][1]=BR-Class67
-Constraint[Prev][2]=none
-# Also classes 70 and 59
+Constraint[Prev][2]=BR-Class70
+Constraint[Prev][3]=none
+# Also class 59
 
 EmptyImage[E]=./images/br-cl66-ews.0
 EmptyImage[SE]=./images/br-cl66-ews.1

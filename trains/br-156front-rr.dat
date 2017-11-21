@@ -2,7 +2,7 @@ obj=vehicle
 name=BR-156Front(Regional)
 engine_type=diesel
 gear=50
-smoke=Diesel
+smoke=Diesel-light
 speed=120
 gear=50
 power=212
@@ -24,7 +24,7 @@ axles=4
 cost=1960000
 upgrade_price=0
 runningcost=132
-sound=-1
+sound=konakaboom-class-159.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -61,7 +61,7 @@ EmptyImage[NE]=./images/br-156-rr.0.7
 obj=vehicle
 name=BR-156Front-Trolley(Regional)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=120
 gear=50
 power=212
@@ -83,7 +83,7 @@ axles=4
 cost=1990000
 upgrade_price=1500
 runningcost=143
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0

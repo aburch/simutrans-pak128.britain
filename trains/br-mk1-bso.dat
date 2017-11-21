@@ -16,7 +16,7 @@ weight=33
 axles=4
 cost=583000
 runningcost=34
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -24,6 +24,9 @@ min_loading_time=25
 max_loading_time=120
 comfort=137
 increase_maintenance_after_years=22
+
+upgrade[0]=BR-430[REP]Brake
+upgrade[1]=BR-491[TC]Brake
 
 Constraint[Next][0]=BR-Mk1-GUV
 Constraint[Next][1]=BR-Mk1-SK
@@ -124,7 +127,7 @@ weight=33
 axles=4
 cost=583000
 runningcost=34
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1

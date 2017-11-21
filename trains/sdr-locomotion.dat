@@ -3,8 +3,8 @@ name=SDR-Locomotion
 engine_type=steam
 smoke=Steam
 speed=24
-# Extrapolated
-power=4
+# Estimated based on Puffing Billy
+power=10
 # Calculated from data from Ahrons, pp. 1-3
 # Loss factor set at 0.5.
 tractive_effort=5
@@ -19,22 +19,22 @@ payload=0
 length=3
 brake_force=0
 rolling_resistance=19
+way_wear_factor=14600
 
-# Weight given by Ahrons, p. 3
-weight=8
+# Ahrons p. 3
+weight=8.5
 cost=1663200
 runningcost=105
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=SDR-Locomotion-Tender
 
-EmptyImage[E]=./images/sdr-locomotion.0.0
-EmptyImage[SE]=./images/sdr-locomotion.0.1
-EmptyImage[S]=./images/sdr-locomotion.0.2
-EmptyImage[SW]=./images/sdr-locomotion.0.3
-EmptyImage[W]=./images/sdr-locomotion.0.4
-EmptyImage[NW]=./images/sdr-locomotion.0.5
-EmptyImage[N]=./images/sdr-locomotion.0.6
-EmptyImage[NE]=./images/sdr-locomotion.0.7
-
+EmptyImage[E]=./images/sdr-locomotion.1.4
+EmptyImage[SE]=./images/sdr-locomotion.1.5
+EmptyImage[S]=./images/sdr-locomotion.1.6
+EmptyImage[SW]=./images/sdr-locomotion.1.7
+EmptyImage[W]=./images/sdr-locomotion.1.0
+EmptyImage[NW]=./images/sdr-locomotion.1.1
+EmptyImage[N]=./images/sdr-locomotion.1.2
+EmptyImage[NE]=./images/sdr-locomotion.1.3

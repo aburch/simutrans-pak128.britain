@@ -23,7 +23,7 @@ axle_load=12
 cost=10038000
 upgrade_price=1056500
 runningcost=1718
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=35
 years_before_maintenance_max_reached=25
 
@@ -32,14 +32,14 @@ Constraint[Next][0]=LNWR-Jumbo-Tender
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-jumbo.0.0
-EmptyImage[SE][0]=./images/lnwr-jumbo.0.1
-EmptyImage[S][0]=./images/lnwr-jumbo.0.2
-EmptyImage[SW][0]=./images/lnwr-jumbo.0.3
-EmptyImage[W][0]=./images/lnwr-jumbo.0.4
-EmptyImage[NW][0]=./images/lnwr-jumbo.0.5
-EmptyImage[N][0]=./images/lnwr-jumbo.0.6
-EmptyImage[NE][0]=./images/lnwr-jumbo.0.7
+EmptyImage[E][0]=./images/lnwr-jumbo.1.4
+EmptyImage[SE][0]=./images/lnwr-jumbo.1.5
+EmptyImage[S][0]=./images/lnwr-jumbo.1.6
+EmptyImage[SW][0]=./images/lnwr-jumbo.1.7
+EmptyImage[W][0]=./images/lnwr-jumbo.1.0
+EmptyImage[NW][0]=./images/lnwr-jumbo.1.1
+EmptyImage[N][0]=./images/lnwr-jumbo.1.2
+EmptyImage[NE][0]=./images/lnwr-jumbo.1.3
 
 EmptyImage[E][1]=./images/lnwr-jumbo-lms.1.4
 EmptyImage[SE][1]=./images/lnwr-jumbo-lms.1.5

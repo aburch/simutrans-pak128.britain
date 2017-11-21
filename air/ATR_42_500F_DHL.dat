@@ -2,7 +2,7 @@ obj=vehicle
 name=ATR_42_500F(DHL)Post
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=450
 power=3580
 tractive_effort=29
@@ -24,7 +24,8 @@ max_loading_time=2700
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1250
 
-sound=planelow.wav
+sound=bigpickle51-turboprop.wav
+range=1555
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -44,7 +45,7 @@ obj=vehicle
 name=ATR_42_500F(DHL)Piece
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=450
 power=3580
 tractive_effort=29
@@ -66,7 +67,8 @@ max_loading_time=2700
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1250
 
-sound=planelow.wav
+sound=bigpickle51-turboprop.wav
+range=1555
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -86,7 +88,7 @@ obj=vehicle
 name=ATR_42_500F(DHL)Cool
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=450
 power=3580
 tractive_effort=29
@@ -108,7 +110,8 @@ max_loading_time=2700
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1250
 
-sound=planelow.wav
+sound=bigpickle51-turboprop.wav
+range=1555
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

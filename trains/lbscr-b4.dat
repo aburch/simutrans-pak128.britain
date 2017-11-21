@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=145
 # Extrapolated
-power=276
+power=296
 # http://en.wikipedia.org/wiki/LB%26SCR_B4_class
 tractive_effort=79
 copyright=James/jamespetts
@@ -22,7 +22,7 @@ weight=49
 axle_load=17
 cost=7000000
 runningcost=2100
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=LBSCR-B4x
 Constraint[Next][0]=LBSCR-B4-tender
@@ -108,7 +108,7 @@ weight=32
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 
 Constraint[Prev][0]=LBSCR-B4
 Constraint[Prev][1]=LBSCR-B4x

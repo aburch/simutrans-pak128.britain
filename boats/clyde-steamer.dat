@@ -4,9 +4,9 @@ copyright=Druid/James
 waytype=water
 engine_type=steam
 smoke=Steam
+sound=ship-horn_b.wav
 speed=26
 power=1000
-#gear=1200
 freight=Passagiere
 payload=450
 weight=320
@@ -17,6 +17,7 @@ intro_year=1860
 intro_month=2
 retire_year=1886
 retire_month=1
+is_tall=1
 
 # 20-30 minutes
 min_loading_time=1200

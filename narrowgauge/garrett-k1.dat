@@ -6,7 +6,7 @@ engine_type=steam
 smoke=Steam
 speed=60
 # Extrapolated
-power=80
+power=112
 # http://en.wikipedia.org/wiki/TGR_K_class
 tractive_effort=72
 copyright=James/jamespetts
@@ -26,7 +26,7 @@ weight=34
 axles=4
 cost=6700000
 runningcost=190
-sound=-1
+sound=the-mart-ban-ngg16.wav
 
 Constraint[Next][0]=Garrett-K1-middle
 
@@ -64,7 +64,7 @@ rolling_resistance=19
 weight=0
 cost=0
 runningcost=0
-sound=-1
+
 
 Constraint[Prev][0]=Garrett-K1-front
 Constraint[Next][0]=Garrett-K1-rear
@@ -103,7 +103,7 @@ rolling_resistance=19
 weight=0
 cost=0
 runningcost=0
-sound=-1
+sound=the-mart-ban-ngg16.wav
 
 Constraint[Prev][0]=Garrett-K1-middle
 

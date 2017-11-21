@@ -2,7 +2,7 @@ obj=vehicle
 name=Boeing_747_200F(SeaboardWorld)
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=893
 power=160200
 tractive_effort=890
@@ -27,7 +27,8 @@ max_loading_time=3600
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=3600
 
-sound=aircraft-jet_stop.wav
+sound=alessandro-camilo-boeing-707.wav
+range=12690
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

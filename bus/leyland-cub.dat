@@ -1,7 +1,8 @@
+# http://www.countrybus.org/C/Cub.html
 obj=vehicle
-name=Leyland_Cub(LT-Green)
+name=leyland-cub
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=56
 gear=50
 power=30
@@ -16,24 +17,36 @@ payload=20
 length=4
 
 comfort=35
-min_loading_time=15
-max_loading_time=50
+# One door pay driver: 4.0 seconds per passenger
+min_loading_time=5
+max_loading_time=80
 
 weight=4
 axles=2
 cost=220000
 runningcost=100
-sound=-1
+
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/leyland-cub-lt-g.0.0
-EmptyImage[SE]=./images/leyland-cub-lt-g.0.1
-EmptyImage[S]=./images/leyland-cub-lt-g.0.2
-EmptyImage[SW]=./images/leyland-cub-lt-g.0.3
-EmptyImage[W]=./images/leyland-cub-lt-g.0.4
-EmptyImage[NW]=./images/leyland-cub-lt-g.0.5
-EmptyImage[N]=./images/leyland-cub-lt-g.0.6
-EmptyImage[NE]=./images/leyland-cub-lt-g.0.7
+liverytype[0]=LT
+liverytype[1]=LT-Green
 
+EmptyImage[E][0]=./images/leyland-cub-lt_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-cub-lt_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-cub-lt_S.0.0,4,0
+EmptyImage[SW][0]=./images/leyland-cub-lt_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-cub-lt_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-cub-lt_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-cub-lt_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-cub-lt_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-cub-lt-green_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-cub-lt-green_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-cub-lt-green_S.0.0,4,0
+EmptyImage[SW][1]=./images/leyland-cub-lt-green_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-cub-lt-green_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-cub-lt-green_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-cub-lt-green_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-cub-lt-green_NE.0.0,0,24

@@ -1,10 +1,11 @@
+# http://www.lnwrs.org.uk/GoodsLocos/Loco05.php
 obj=vehicle
 name=LNWR-coal-tank
 engine_type=steam
 smoke=Steam
 speed=82
 # Extrapolated
-power=110
+power=206
 # http://en.wikipedia.org/wiki/LNWR_Webb_Coal_Tank
 tractive_effort=74
 copyright=Kieron/JamesPetts
@@ -17,13 +18,14 @@ freight=None
 payload=0
 length=6
 brake_force=13
+way_wear_factor=69300
 
 # http://en.wikipedia.org/wiki/LNWR_Webb_Coal_Tank
 weight=44
 axles=3
 cost=2000000
 runningcost=800
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0
 bidirectional=1

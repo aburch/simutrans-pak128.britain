@@ -1,0 +1,44 @@
+# https://en.wikipedia.org/wiki/Alexander_Dennis_Enviro300
+obj=vehicle
+name=Enviro300
+copyright=MattWilson&JamesPetts
+speed=75
+intro_year=2006
+intro_month=6
+retire_year=2015
+retire_month=12
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+payload=42
+overcrowded_capacity=18
+power=166
+tractive_effort=33
+gear=50
+length=5
+
+weight=14.4
+axles=2
+cost=5100000
+runningcost=115
+sound=video47-dennis-enviro400.wav
+
+comfort=43
+min_loading_time=5
+# Single entrance pay driver (low floor): 3.8 seconds per passenger
+max_loading_time=160
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# TODO: Add multiple liveries
+
+EmptyImage[E]=./images/dennis-enviro300_E.0.0,-33,14
+EmptyImage[SE]=./images/dennis-enviro300_SE.0.0,-13,0
+EmptyImage[S]=./images/dennis-enviro300_S.0.0,4,0
+EmptyImage[SW]=./images/dennis-enviro300_SW.0.0,-8,10
+EmptyImage[W]=./images/dennis-enviro300_W.0.0,4,5
+EmptyImage[NW]=./images/dennis-enviro300_NW.0.0,12,10
+EmptyImage[N]=./images/dennis-enviro300_N.0.0,0,33
+EmptyImage[NE]=./images/dennis-enviro300_NE.0.0,0,24

@@ -7,6 +7,8 @@ topspeed=100
 max_weight=70
 cost=540000
 maintenance=4000
+# Approx. 10msa
+wear_capacity=650000000
 icon=> ./images/concrete-viaduct-elevated-road.3.4
 cursor=./images/concrete-viaduct-elevated-road.3.5
 Image[-][0]=./images/concrete-viaduct-elevated-road.1.2,0,32

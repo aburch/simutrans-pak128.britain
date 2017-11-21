@@ -18,11 +18,13 @@ Location=Land
 DistributionWeight=30 
 Productivity=1  
 Range=0 
+max_distance_to_consumer=75
 passenger_boost=1000
 mail_boost=0
 electricity_amount=0
 electricity_boost=0
 MapColor=5
+sound=felix-blume-sheep-farm.wav
 OutputGood[0]=livestock
 OutputCapacity[0]=10
 OutputFactor[0]=44
@@ -30,16 +32,20 @@ OutputGood[1]=wool
 OutputCapacity[1]=23
 OutputFactor[1]=100
 Dims=1,1,4
-BackImage[0][0][0][0][0][0]=sheep-farm-house-all.0.0
-BackImage[3][0][0][0][0][0]=sheep-farm-house-all.0.1
-BackImage[2][0][0][0][0][0]=sheep-farm-house-all.0.2
-BackImage[1][0][0][0][0][0]=sheep-farm-house-all.0.3
-BackImage[0][0][0][0][0][1]=sheep-farm-house-all.1.0
-BackImage[3][0][0][0][0][1]=sheep-farm-house-all.1.1
-BackImage[2][0][0][0][0][1]=sheep-farm-house-all.1.2
-BackImage[1][0][0][0][0][1]=sheep-farm-house-all.1.3
+BackImage[0][0][0][0][0][0]=sheep-farm-house_W.0
+BackImage[3][0][0][0][0][0]=sheep-farm-house_N.0
+BackImage[2][0][0][0][0][0]=sheep-farm-house_E.0
+BackImage[1][0][0][0][0][0]=sheep-farm-house_S.0
+
+BackImage[0][0][0][0][0][1]=sheep-farm-house-snow_W.0
+BackImage[3][0][0][0][0][1]=sheep-farm-house-snow_N.0
+BackImage[2][0][0][0][0][1]=sheep-farm-house-snow_E.0
+BackImage[1][0][0][0][0][1]=sheep-farm-house-snow_S.0
 
 fields[0]=SheepField
+fields[1]=SheepField-1
+fields[2]=SheepField-2
+fields[3]=SheepField-3
 probability_to_spawn=25
 production_per_field[0]=1
 max_fields=12
@@ -47,15 +53,40 @@ min_fields=7
 needs_ground=1
 
 has_snow[0]=1
+upgrade[0]=SheepFarm1840
+upgrade[1]=SheepFarm1910
 --------------------
 Obj=field
 name=SheepField
-Image[0]=sheep-field.0
-Image[1]=sheep-field.0
-Image[2]=sheep-field.0
-Image[3]=sheep-field.0
-Image[4]=sheep-field.1
-needs_ground=1
+Image[0]=sheep-field-0_S.0
+Image[1]=sheep-field-0_S.0
+Image[2]=sheep-field-0_S.0
+Image[3]=sheep-field-0_S.0
+Image[4]=sheep-field-0_S.0
+--------------------
+Obj=field
+name=SheepField-1
+Image[0]=sheep-field-1_S.0
+Image[1]=sheep-field-1_S.0
+Image[2]=sheep-field-1_S.0
+Image[3]=sheep-field-1_S.0
+Image[4]=sheep-field-1_S.0
+--------------------
+Obj=field
+name=SheepField-2
+Image[0]=sheep-field-2_S.0
+Image[1]=sheep-field-2_S.0
+Image[2]=sheep-field-2_S.0
+Image[3]=sheep-field-2_S.0
+Image[4]=sheep-field-2_S.0
+--------------------
+Obj=field
+name=SheepField-3
+Image[0]=sheep-field-3_S.0
+Image[1]=sheep-field-3_S.0
+Image[2]=sheep-field-3_S.0
+Image[3]=sheep-field-3_S.0
+Image[4]=sheep-field-3_S.0
 --------------------
 Obj=factory
 name=SheepFarm1840
@@ -73,11 +104,13 @@ Location=Land
 DistributionWeight=20 
 Productivity=1  
 Range=0 
+max_distance_to_consumer=200
 passenger_boost=1000
 mail_boost=0
 electricity_amount=1
 electricity_boost=250
 MapColor=5
+sound=felix-blume-sheep-farm.wav
 OutputGood[0]=livestock
 OutputCapacity[0]=50
 OutputFactor[0]=33
@@ -86,14 +119,15 @@ OutputCapacity[1]=65
 OutputFactor[1]=100
 Dims=1,1,4
 
-BackImage[0][0][0][0][0][0]=sheep-farm-house-all.0.0
-BackImage[3][0][0][0][0][0]=sheep-farm-house-all.0.1
-BackImage[2][0][0][0][0][0]=sheep-farm-house-all.0.2
-BackImage[1][0][0][0][0][0]=sheep-farm-house-all.0.3
-BackImage[0][0][0][0][0][1]=sheep-farm-house-all.1.0
-BackImage[3][0][0][0][0][1]=sheep-farm-house-all.1.1
-BackImage[2][0][0][0][0][1]=sheep-farm-house-all.1.2
-BackImage[1][0][0][0][0][1]=sheep-farm-house-all.1.3
+BackImage[0][0][0][0][0][0]=sheep-farm-house_W.0
+BackImage[3][0][0][0][0][0]=sheep-farm-house_N.0
+BackImage[2][0][0][0][0][0]=sheep-farm-house_E.0
+BackImage[1][0][0][0][0][0]=sheep-farm-house_S.0
+
+BackImage[0][0][0][0][0][1]=sheep-farm-house-snow_W.0
+BackImage[3][0][0][0][0][1]=sheep-farm-house-snow_N.0
+BackImage[2][0][0][0][0][1]=sheep-farm-house-snow_E.0
+BackImage[1][0][0][0][0][1]=sheep-farm-house-snow_S.0
 
 fields[0]=SheepField
 probability_to_spawn=30
@@ -102,7 +136,8 @@ max_fields=28
 min_fields=16
 needs_ground=1
 has_snow[0]=1
-
+upgrade[0]=SheepFarm1910
+upgrade[1]=SheepFarm1945
 --------------------
 Obj=factory
 name=SheepFarm1910
@@ -120,6 +155,7 @@ Location=Land
 DistributionWeight=8
 Productivity=1  
 Range=0 
+max_distance_to_consumer=300
 passenger_boost=1000
 mail_boost=0
 electricity_amount=1
@@ -133,14 +169,15 @@ OutputCapacity[1]=270
 OutputFactor[1]=100
 Dims=1,1,4
 
-BackImage[0][0][0][0][0][0]=sheep-farm-house-all.0.0
-BackImage[3][0][0][0][0][0]=sheep-farm-house-all.0.1
-BackImage[2][0][0][0][0][0]=sheep-farm-house-all.0.2
-BackImage[1][0][0][0][0][0]=sheep-farm-house-all.0.3
-BackImage[0][0][0][0][0][1]=sheep-farm-house-all.1.0
-BackImage[3][0][0][0][0][1]=sheep-farm-house-all.1.1
-BackImage[2][0][0][0][0][1]=sheep-farm-house-all.1.2
-BackImage[1][0][0][0][0][1]=sheep-farm-house-all.1.3
+BackImage[0][0][0][0][0][0]=sheep-farm-house_W.0
+BackImage[3][0][0][0][0][0]=sheep-farm-house_N.0
+BackImage[2][0][0][0][0][0]=sheep-farm-house_E.0
+BackImage[1][0][0][0][0][0]=sheep-farm-house_S.0
+
+BackImage[0][0][0][0][0][1]=sheep-farm-house-snow_W.0
+BackImage[3][0][0][0][0][1]=sheep-farm-house-snow_N.0
+BackImage[2][0][0][0][0][1]=sheep-farm-house-snow_E.0
+BackImage[1][0][0][0][0][1]=sheep-farm-house-snow_S.0
 
 fields[0]=SheepField
 probability_to_spawn=30
@@ -149,6 +186,8 @@ max_fields=36
 min_fields=25
 needs_ground=1
 has_snow[0]=1
+upgrade[0]=SheepFarm1945
+upgrade[1]=SheepFarm1975
 --------------------
 Obj=factory
 name=SheepFarm1945
@@ -171,6 +210,7 @@ mail_boost=0
 electricity_amount=2
 electricity_boost=400
 MapColor=5
+sound=felix-blume-sheep-farm.wav
 OutputGood[0]=livestock
 OutputCapacity[0]=96
 OutputFactor[0]=30
@@ -179,14 +219,15 @@ OutputCapacity[1]=324
 OutputFactor[1]=100
 Dims=1,1,4
 
-BackImage[0][0][0][0][0][0]=sheep-farm-house-all.0.0
-BackImage[3][0][0][0][0][0]=sheep-farm-house-all.0.1
-BackImage[2][0][0][0][0][0]=sheep-farm-house-all.0.2
-BackImage[1][0][0][0][0][0]=sheep-farm-house-all.0.3
-BackImage[0][0][0][0][0][1]=sheep-farm-house-all.1.0
-BackImage[3][0][0][0][0][1]=sheep-farm-house-all.1.1
-BackImage[2][0][0][0][0][1]=sheep-farm-house-all.1.2
-BackImage[1][0][0][0][0][1]=sheep-farm-house-all.1.3
+BackImage[0][0][0][0][0][0]=sheep-farm-house_W.0
+BackImage[3][0][0][0][0][0]=sheep-farm-house_N.0
+BackImage[2][0][0][0][0][0]=sheep-farm-house_E.0
+BackImage[1][0][0][0][0][0]=sheep-farm-house_S.0
+
+BackImage[0][0][0][0][0][1]=sheep-farm-house-snow_W.0
+BackImage[3][0][0][0][0][1]=sheep-farm-house-snow_N.0
+BackImage[2][0][0][0][0][1]=sheep-farm-house-snow_E.0
+BackImage[1][0][0][0][0][1]=sheep-farm-house-snow_S.0
 
 fields[0]=SheepField
 
@@ -196,6 +237,7 @@ max_fields=48
 min_fields=36
 needs_ground=1
 has_snow[0]=1
+upgrade[0]=SheepFarm1975
 
 --------------------
 Obj=factory
@@ -217,6 +259,7 @@ mail_boost=0
 electricity_amount=2
 electricity_boost=750
 MapColor=5
+sound=felix-blume-sheep-farm.wav
 OutputGood[0]=livestock
 OutputCapacity[0]=105
 OutputFactor[0]=28
@@ -225,14 +268,15 @@ OutputCapacity[1]=378
 OutputFactor[1]=100
 Dims=1,1,4
 
-BackImage[0][0][0][0][0][0]=sheep-farm-house-all.0.0
-BackImage[3][0][0][0][0][0]=sheep-farm-house-all.0.1
-BackImage[2][0][0][0][0][0]=sheep-farm-house-all.0.2
-BackImage[1][0][0][0][0][0]=sheep-farm-house-all.0.3
-BackImage[0][0][0][0][0][1]=sheep-farm-house-all.1.0
-BackImage[3][0][0][0][0][1]=sheep-farm-house-all.1.1
-BackImage[2][0][0][0][0][1]=sheep-farm-house-all.1.2
-BackImage[1][0][0][0][0][1]=sheep-farm-house-all.1.3
+BackImage[0][0][0][0][0][0]=sheep-farm-house_W.0
+BackImage[3][0][0][0][0][0]=sheep-farm-house_N.0
+BackImage[2][0][0][0][0][0]=sheep-farm-house_E.0
+BackImage[1][0][0][0][0][0]=sheep-farm-house_S.0
+
+BackImage[0][0][0][0][0][1]=sheep-farm-house-snow_W.0
+BackImage[3][0][0][0][0][1]=sheep-farm-house-snow_N.0
+BackImage[2][0][0][0][0][1]=sheep-farm-house-snow_E.0
+BackImage[1][0][0][0][0][1]=sheep-farm-house-snow_S.0
 
 fields[0]=SheepField
 probability_to_spawn=25
@@ -242,12 +286,4 @@ min_fields=28
 needs_ground=1
 has_snow[0]=1
 --------------------
-Obj=field
-name=SheepField
-Image[0]=sheep-field.0
-Image[1]=sheep-field.0
-Image[2]=sheep-field.0
-Image[3]=sheep-field.0
-Image[4]=sheep-field.0
-needs_ground=1
---------------------
+

@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=155
 # Extrapolated
-power=447
+power=421
 # http://mcgavin.no-ip.info/robbie/details/LMS_Royal_Scot_Rebuild_1947.html
 tractive_effort=148
 copyright=James/jamespetts
@@ -21,7 +21,7 @@ weight=86
 axle_load=20
 upgrade_price=5022000
 runningcost=1450
-sound=-1
+sound=konakaboom-black-five.wav
 increase_maintenance_after_years=5
 years_before_maintenance_max_reached=15
 
@@ -80,7 +80,7 @@ weight=55
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=5
 years_before_maintenance_max_reached=15
 

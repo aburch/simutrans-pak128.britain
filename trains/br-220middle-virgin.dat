@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-220Middle(Virgin)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=200
 gear=50
 power=560
@@ -24,7 +24,7 @@ axles=4
 cost=2415000
 runningcost=297
 fixed_maintenance=0
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -57,7 +57,7 @@ EmptyImage[NE]=./images/br-220-virgin.1.7
 obj=vehicle
 name=BR-220Middle-shop(Virgin)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=200
 gear=50
 power=560
@@ -80,7 +80,7 @@ axles=4
 cost=2630000
 runningcost=350
 fixed_maintenance=0
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -110,7 +110,7 @@ EmptyImage[NE]=./images/br-220-virgin.1.7
 obj=vehicle
 name=BR-221Middle(Virgin)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=200
 gear=50
 power=560
@@ -133,7 +133,7 @@ axles=4
 cost=2650000
 runningcost=330
 fixed_maintenance=0
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -147,9 +147,11 @@ comfort=97
 
 Constraint[Prev][0]=BR-221Front(Virgin)
 Constraint[Prev][1]=BR-221Middle(Virgin)
+Constraint[Prev][2]=BR-221Middle-shop(Virgin)
 
 Constraint[Next][0]=BR-221Rear(Virgin)
 Constraint[Next][1]=BR-221Middle(Virgin)
+Constraint[Next][2]=BR-221Middle-shop(Virgin)
 
 EmptyImage[E]=./images/br-220-virgin.1.0
 EmptyImage[SE]=./images/br-220-virgin.1.1
@@ -165,7 +167,7 @@ EmptyImage[NE]=./images/br-220-virgin.1.7
 obj=vehicle
 name=BR-221Middle-shop(Virgin)
 engine_type=diesel
-smoke=Diesel
+smoke=Diesel-light
 speed=200
 gear=50
 power=560
@@ -188,7 +190,7 @@ axles=4
 cost=2865000
 runningcost=385
 fixed_maintenance=0
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=1

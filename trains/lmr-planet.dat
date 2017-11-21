@@ -23,26 +23,27 @@ retire_month=9
 waytype=track
 freight=None
 payload=0
-length=4
+length=3
 brake_force=0
 rolling_resistance=19
+way_wear_factor=14600
 
 # Weight confirmed by Ahrons, p. 19
 weight=8
 cost=4752000
 runningcost=640
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=70
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Planet-Tender
 
-EmptyImage[E]=./images/lmr-planet.0.0
-EmptyImage[SE]=./images/lmr-planet.0.1
-EmptyImage[S]=./images/lmr-planet.0.2
-EmptyImage[SW]=./images/lmr-planet.0.3
-EmptyImage[W]=./images/lmr-planet.0.4
-EmptyImage[NW]=./images/lmr-planet.0.5
-EmptyImage[N]=./images/lmr-planet.0.6
-EmptyImage[NE]=./images/lmr-planet.0.7
+EmptyImage[E]=./images/lmr-planet.1.4
+EmptyImage[SE]=./images/lmr-planet.1.5
+EmptyImage[S]=./images/lmr-planet.1.6
+EmptyImage[SW]=./images/lmr-planet.1.7
+EmptyImage[W]=./images/lmr-planet.1.0
+EmptyImage[NW]=./images/lmr-planet.1.1
+EmptyImage[N]=./images/lmr-planet.1.2
+EmptyImage[NE]=./images/lmr-planet.1.3
 

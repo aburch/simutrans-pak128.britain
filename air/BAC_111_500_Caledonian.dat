@@ -2,7 +2,7 @@ obj=vehicle
 name=BAC_111_500(Caledonian)
 copyright=Milko
 waytype=air
-engine_type=diesel
+engine_type=turbine
 speed=742
 power=20160
 tractive_effort=112
@@ -27,7 +27,8 @@ catering_level=3
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=2200
 
-sound=aircraft-jet_stop.wav
+sound=robin-pinnock-bac-1-11.wav
+range=2744
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

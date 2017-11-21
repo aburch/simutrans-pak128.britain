@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-315Front(Blue-Grey)
+name=BR-315Front
 engine_type=electric
 speed=120
 power=328
@@ -8,9 +8,8 @@ gear=80
 copyright=Kieron
 intro_year=1980
 intro_month=5
-retire_year=2009
+retire_year=1992
 retire_month=7
-# This is late - when the Class 323 is added, this should revert to 1992.
 waytype=track
 freight=Passagiere
 payload=74
@@ -22,9 +21,7 @@ weight=36
 axles=4
 cost=1120000
 runningcost=53
-sound=-1
-increase_maintenance_after_years=6
-#TODO: Change above when retirement date changes
+sound=video47-class-508.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -34,35 +31,45 @@ max_loading_time=50
 comfort=56
 way_constraint_permissive[2]=2
 
-Constraint[Prev][0]=BR-315Rear(Blue-Grey)
+Constraint[Prev][0]=BR-315Rear
 Constraint[Prev][1]=none
 
-Constraint[Next][0]=BR-315Pantograph(Blue-Grey)
+Constraint[Next][0]=BR-315Pantograph
 
-EmptyImage[E]=./images/br-313-bg.0.0
-EmptyImage[SE]=./images/br-313-bg.0.1
-EmptyImage[S]=./images/br-313-bg.0.2
-EmptyImage[SW]=./images/br-313-bg.0.3
-EmptyImage[W]=./images/br-313-bg.0.4
-EmptyImage[NW]=./images/br-313-bg.0.5
-EmptyImage[N]=./images/br-313-bg.0.6
-EmptyImage[NE]=./images/br-313-bg.0.7
+liverytype[0]=BR-Blue
+liverytype[1]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-313-a-bg.1.4
+EmptyImage[SE][0]=./images/br-313-a-bg.1.5
+EmptyImage[S][0]=./images/br-313-a-bg.1.6
+EmptyImage[SW][0]=./images/br-313-a-bg.1.7
+EmptyImage[W][0]=./images/br-313-a-bg.1.0
+EmptyImage[NW][0]=./images/br-313-a-bg.1.1
+EmptyImage[N][0]=./images/br-313-a-bg.1.2
+EmptyImage[NE][0]=./images/br-313-a-bg.1.3
+
+EmptyImage[E][1]=./images/br-313-a-nse.1.4
+EmptyImage[SE][1]=./images/br-313-a-nse.1.5
+EmptyImage[S][1]=./images/br-313-a-nse.1.6
+EmptyImage[SW][1]=./images/br-313-a-nse.1.7
+EmptyImage[W][1]=./images/br-313-a-nse.1.0
+EmptyImage[NW][1]=./images/br-313-a-nse.1.1
+EmptyImage[N][1]=./images/br-313-a-nse.1.2
+EmptyImage[NE][1]=./images/br-313-a-nse.1.3
 
 ---
 
 obj=vehicle
-name=BR-315Pantograph(Blue-Grey)
+name=BR-315Pantograph
 engine_type=electric
 speed=120
 power=0
 tractive_effort=0
-#gear=680
 copyright=Kieron
 intro_year=1980
 intro_month=5
-retire_year=2009
+retire_year=1992
 retire_month=7
-# This is late - when the Class 323 is added, this should revert to 1992.
 waytype=track
 freight=Passagiere
 payload=84
@@ -74,9 +81,7 @@ weight=30
 axles=4
 cost=1120000
 runningcost=53
-sound=-1
-increase_maintenance_after_years=6
-#TODO: Change above when retirement date changes
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -86,23 +91,95 @@ max_loading_time=50
 comfort=56
 way_constraint_permissive[2]=2
 
-Constraint[Prev][0]=BR-315Front(Blue-Grey)
+Constraint[Prev][0]=BR-315Front
 
-Constraint[Next][0]=BR-315Rear(Blue-Grey)
+Constraint[Next][0]=BR-315Rear
+Constraint[Next][1]=BR-315Trailer
 
-EmptyImage[E]=./images/br-313-bg.1.0
-EmptyImage[SE]=./images/br-313-bg.1.1
-EmptyImage[S]=./images/br-313-bg.1.2
-EmptyImage[SW]=./images/br-313-bg.1.3
-EmptyImage[W]=./images/br-313-bg.1.4
-EmptyImage[NW]=./images/br-313-bg.1.5
-EmptyImage[N]=./images/br-313-bg.1.6
-EmptyImage[NE]=./images/br-313-bg.1.7
+liverytype[0]=BR-Blue
+liverytype[1]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-313-b-bg.1.4
+EmptyImage[SE][0]=./images/br-313-b-bg.1.5
+EmptyImage[S][0]=./images/br-313-b-bg.1.6
+EmptyImage[SW][0]=./images/br-313-b-bg.1.7
+EmptyImage[W][0]=./images/br-313-b-bg.1.0
+EmptyImage[NW][0]=./images/br-313-b-bg.1.1
+EmptyImage[N][0]=./images/br-313-b-bg.1.2
+EmptyImage[NE][0]=./images/br-313-b-bg.1.3
+
+EmptyImage[E][1]=./images/br-313-b-nse.1.4
+EmptyImage[SE][1]=./images/br-313-b-nse.1.5
+EmptyImage[S][1]=./images/br-313-b-nse.1.6
+EmptyImage[SW][1]=./images/br-313-b-nse.1.7
+EmptyImage[W][1]=./images/br-313-b-nse.1.0
+EmptyImage[NW][1]=./images/br-313-b-nse.1.1
+EmptyImage[N][1]=./images/br-313-b-nse.1.2
+EmptyImage[NE][1]=./images/br-313-b-nse.1.3
 
 ---
 
 obj=vehicle
-name=BR-315Rear(Blue-Grey)
+name=BR-315Trailer
+engine_type=electric
+speed=120
+power=0
+tractive_effort=0
+copyright=Kieron
+intro_year=1980
+intro_month=5
+retire_year=1992
+retire_month=7
+waytype=track
+freight=Passagiere
+payload=84
+overcrowded_capacity=64
+length=11
+rolling_resistance=13
+
+weight=30
+axles=4
+cost=1120000
+runningcost=53
+
+
+can_lead_from_rear=0
+bidirectional=1
+
+min_loading_time=15
+max_loading_time=50
+comfort=56
+way_constraint_permissive[2]=2
+
+Constraint[Prev][0]=BR-315Pantograph
+
+Constraint[Next][0]=BR-315Rear
+
+liverytype[0]=BR-Blue
+liverytype[1]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-507-trailer-bg.1.4
+EmptyImage[SE][0]=./images/br-507-trailer-bg.1.5
+EmptyImage[S][0]=./images/br-507-trailer-bg.1.6
+EmptyImage[SW][0]=./images/br-507-trailer-bg.1.7
+EmptyImage[W][0]=./images/br-507-trailer-bg.1.0
+EmptyImage[NW][0]=./images/br-507-trailer-bg.1.1
+EmptyImage[N][0]=./images/br-507-trailer-bg.1.2
+EmptyImage[NE][0]=./images/br-507-trailer-bg.1.3
+
+EmptyImage[E][1]=./images/br-507-trailer-nse.1.4
+EmptyImage[SE][1]=./images/br-507-trailer-nse.1.5
+EmptyImage[S][1]=./images/br-507-trailer-nse.1.6
+EmptyImage[SW][1]=./images/br-507-trailer-nse.1.7
+EmptyImage[W][1]=./images/br-507-trailer-nse.1.0
+EmptyImage[NW][1]=./images/br-507-trailer-nse.1.1
+EmptyImage[N][1]=./images/br-507-trailer-nse.1.2
+EmptyImage[NE][1]=./images/br-507-trailer-nse.1.3
+
+---
+
+obj=vehicle
+name=BR-315Rear
 engine_type=electric
 speed=120
 power=328
@@ -110,9 +187,8 @@ tractive_effort=75
 copyright=Kieron
 intro_year=1980
 intro_month=5
-retire_year=2009
+retire_year=1992
 retire_month=7
-#TODO: This is late - when the Class 323 is added, this should revert to 1992.
 waytype=track
 freight=Passagiere
 payload=74
@@ -124,9 +200,7 @@ weight=38
 axles=4
 cost=1120000
 runningcost=53
-sound=-1
-increase_maintenance_after_years=6
-#TODO: Change above when retirement date changes
+sound=video47-class-508.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -136,16 +210,29 @@ min_loading_time=15
 max_loading_time=50
 comfort=56
 
-Constraint[Prev][0]=BR-315Pantograph(Blue-Grey)
+Constraint[Prev][0]=BR-315Pantograph
+Constraint[Prev][1]=BR-315Trailer
 
-Constraint[Next][0]=BR-315Front(Blue-Grey)
+Constraint[Next][0]=BR-315Front
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-313-bg.2.0
-EmptyImage[SE]=./images/br-313-bg.2.1
-EmptyImage[S]=./images/br-313-bg.2.2
-EmptyImage[SW]=./images/br-313-bg.2.3
-EmptyImage[W]=./images/br-313-bg.2.4
-EmptyImage[NW]=./images/br-313-bg.2.5
-EmptyImage[N]=./images/br-313-bg.2.6
-EmptyImage[NE]=./images/br-313-bg.2.7
+liverytype[0]=BR-Blue
+liverytype[1]=NSE-Standard
+
+EmptyImage[E][0]=./images/br-313-c-bg.1.4
+EmptyImage[SE][0]=./images/br-313-c-bg.1.5
+EmptyImage[S][0]=./images/br-313-c-bg.1.6
+EmptyImage[SW][0]=./images/br-313-c-bg.1.7
+EmptyImage[W][0]=./images/br-313-c-bg.1.0
+EmptyImage[NW][0]=./images/br-313-c-bg.1.1
+EmptyImage[N][0]=./images/br-313-c-bg.1.2
+EmptyImage[NE][0]=./images/br-313-c-bg.1.3
+
+EmptyImage[E][1]=./images/br-313-c-nse.1.4
+EmptyImage[SE][1]=./images/br-313-c-nse.1.5
+EmptyImage[S][1]=./images/br-313-c-nse.1.6
+EmptyImage[SW][1]=./images/br-313-c-nse.1.7
+EmptyImage[W][1]=./images/br-313-c-nse.1.0
+EmptyImage[NW][1]=./images/br-313-c-nse.1.1
+EmptyImage[N][1]=./images/br-313-c-nse.1.2
+EmptyImage[NE][1]=./images/br-313-c-nse.1.3

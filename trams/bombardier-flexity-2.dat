@@ -15,13 +15,15 @@ payload=15
 length=4
 overcrowded_capacity=30
 weight=9
+brake_force=12
 axles=3
 cost=620000
 runningcost=34
-sound=-1
+sound=zabuhailo-modern-tram.wav
 
 can_lead_from_rear=1
 bidirectional=0
+
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 comfort=46
@@ -41,6 +43,7 @@ EmptyImage[N]=./images/bombardier-flexity-2-front.1.2
 EmptyImage[NE]=./images/bombardier-flexity-2-front.1.3
 
 ---
+
 obj=vehicle
 name=Bombardier-Flexity-2-middle1
 engine_type=electric
@@ -54,13 +57,15 @@ payload=15
 length=4
 overcrowded_capacity=30
 weight=8
+brake_force=11
 axles=2
 cost=620000
 runningcost=34
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=0
+
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 comfort=46
@@ -80,6 +85,7 @@ EmptyImage[N]=./images/bombardier-flexity-2-middle.1.2
 EmptyImage[NE]=./images/bombardier-flexity-2-middle.1.3
 
 ---
+
 obj=vehicle
 name=Bombardier-Flexity-2-middle2
 engine_type=electric
@@ -93,13 +99,15 @@ payload=15
 length=4
 overcrowded_capacity=74
 weight=8
+brake_force=11
 axles=2
 cost=620000
 runningcost=34
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=0
+
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 comfort=46
@@ -120,6 +128,7 @@ EmptyImage[N]=./images/bombardier-flexity-2-middle.1.2
 EmptyImage[NE]=./images/bombardier-flexity-2-middle.1.3
 
 ---
+
 obj=vehicle
 name=Bombardier-Flexity-2-panto
 engine_type=electric
@@ -127,7 +136,7 @@ speed=70
 copyright=James/jamespetts
 intro_year=2012
 intro_month=4
-gear=300
+gear=80
 power=160
 tractive_effort=55
 waytype=tram_track
@@ -136,13 +145,15 @@ payload=15
 length=2
 overcrowded_capacity=30
 weight=6
+brake_force=8
 axles=2
 cost=620000
 runningcost=34
-sound=-1
+
 
 can_lead_from_rear=0
 bidirectional=0
+
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 comfort=46
@@ -161,6 +172,7 @@ EmptyImage[W]=./images/bombardier-flexity-2-panto.1.0
 EmptyImage[NW]=./images/bombardier-flexity-2-panto.1.1
 EmptyImage[N]=./images/bombardier-flexity-2-panto.1.2
 EmptyImage[NE]=./images/bombardier-flexity-2-panto.1.3
+
 ---
 
 obj=vehicle
@@ -178,13 +190,15 @@ payload=15
 length=4
 overcrowded_capacity=30
 weight=9
+brake_force=11
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 
 can_lead_from_rear=1
 bidirectional=0
+
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 comfort=46

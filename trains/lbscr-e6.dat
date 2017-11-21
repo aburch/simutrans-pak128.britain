@@ -2,9 +2,9 @@ obj=vehicle
 name=LBSCR-E6
 engine_type=steam
 smoke=Steam
-speed=92
+speed=88
 # Extrapolated
-power=163
+power=246
 # http://en.wikipedia.org/wiki/LB%26SCR_E6_class
 tractive_effort=94
 copyright=James/jamespetts
@@ -16,7 +16,7 @@ retire_month=9
 waytype=track
 freight=None
 payload=0
-length=7
+length=6
 
 # http://en.wikipedia.org/wiki/LB%26SCR_E6_class
 weight=62
@@ -24,7 +24,7 @@ weight=62
 axle_load=16
 cost=4500000
 runningcost=750
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0
 bidirectional=1

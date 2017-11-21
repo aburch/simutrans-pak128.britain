@@ -2,9 +2,9 @@ obj=vehicle
 name=LBSCR-D2
 engine_type=steam
 smoke=Steam
-speed=130
+speed=110
 # Extrapolated
-power=148
+power=201
 # Tractive effort taken from:
 # http://en.wikipedia.org/wiki/LB%26SCR_D2_class
 tractive_effort=56
@@ -16,7 +16,7 @@ retire_month=7
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 
 can_lead_from_rear=0
 bidirectional=0
@@ -29,9 +29,9 @@ weight=35
 axle_load=14
 cost=2850000
 runningcost=354
-sound=-1
+sound=lwalker-br-4mt-tank.wav
 
-Constraint[Next][0]=LBSCR-B1-Gladstone-Tender
+Constraint[Next][0]=LBSCR-Belgravia-tender
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh

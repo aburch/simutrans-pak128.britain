@@ -1,6 +1,6 @@
 obj=vehicle
 name=LNER-V2-Tender
-speed=150
+speed=147
 power=0
 copyright=Kieron
 intro_year=1936
@@ -16,7 +16,7 @@ weight=52
 axles=3
 cost=0
 runningcost=0
-sound=-1
+
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=9
 
