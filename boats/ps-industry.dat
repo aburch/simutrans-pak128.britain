@@ -22,6 +22,7 @@ is_tall=1
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=100
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -71,6 +72,7 @@ is_tall=1
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=100
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -120,6 +122,7 @@ is_tall=1
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=100
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

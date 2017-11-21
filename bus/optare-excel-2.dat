@@ -23,6 +23,8 @@ intro_year=1999
 intro_month=7
 retire_year=2005
 retire_month=4
+# TODO: Use a more authentic sound here
+sound=hkmtrhah-volvo-bm10.wav
 
 comfort=38
 # Single entrance pay driver (low floor): 3.8 seconds per passenger
@@ -31,6 +33,7 @@ max_loading_time=171
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
+sound=video47-optare-tempo.wav
 
 liverytype[0]=Non-London
 
