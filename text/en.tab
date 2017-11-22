@@ -3608,21 +3608,23 @@ BR-333(centre-pantograph)
 BR Class 333 EMU (centre trailer)
 BR-333(rear)
 BR Class 333 EMU (rear)
-BR-390FrontCab(Virgin)
+BR-390FrontCab
 BR Class 390 "Pendolino"
-BR-390FrontCoach(Virgin)
-BR Class 390 "Pendolino" (front coach)
-BR-390FrontPantograph(Virgin)
-BR Class 390 "Pendolino" (front pantograph)
-BR-390Coach(Virgin)
+BR-390FrontCoach
+BR Class 390 "Pendolino" (front coach, first class)
+BR-390FrontPantograph
+BR Class 390 "Pendolino" (front pantograph, first class)
+BR-390Coach
 BR Class 390 "Pendolino" (unpowered coach)
-BR-390PoweredCoach(Virgin)
+BR-390PoweredCoach
 BR Class 390 "Pendolino" (powered coach)
-BR-390RearPantograph(Virgin)
+BR-390PoweredCoachFirst
+BR Class 390 "Pendolino" (powered coach, first class)
+BR-390RearPantograph
 BR Class 390 "Pendolino" (rear pantograph)
-BR-390RearCoach(Virgin)
+BR-390RearCoach
 BR Class 390 "Pendolino" (rear coach)
-BR-390RearCab(Virgin)
+BR-390RearCab
 BR Class 390 "Pendolino" (rear cab)
 BR-373Coach
 BR Class 373 "Eurostar" (carriage, standard class)
