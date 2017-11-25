@@ -3476,13 +3476,13 @@ BR-458(centre2)
 BR Class 458 "Juniper" EMU (centre motor)
 BR-458(rear)
 BR Class 458 "Juniper" EMU (rear)
-BR-460(front)
+BR-460-DMSO
 BR Class 460 "Juniper" EMU
-BR-460(centre1)
+BR-460-TSO
 BR Class 460 "Juniper" EMU (centre trailer)
-BR-460(centre2)
+BR-460-MSO
 BR Class 460 "Juniper" EMU (centre motor)
-BR-460(rear)
+BR-460-DMLFO
 BR Class 460 "Juniper" EMU (rear)
 BR-334Front
 BR Class 334 "Juniper" EMU
@@ -4116,11 +4116,11 @@ met-jubilee-brake-front
 Metropolitan four wheel three compartment "Jubilee" brake carriage
 met-jubilee-brake-rear
 Metropolitan four wheel three compartment "Jubilee" brake carriage (rear)
-BR-465Front(NSE)
+BR-465Front
 BR Class 465 "Networker" EMU
-BR-465Middle(NSE)
+BR-465Middle
 BR Class 465 "Networker" EMU (centre)
-BR-465Rear(NSE)
+BR-465Rear
 BR Class 465 "Networker" EMU (rear)
 BR-165Front
 BR Class 165 "Network Turbo" DMU
