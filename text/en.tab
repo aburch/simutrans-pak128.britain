@@ -3756,14 +3756,24 @@ GWR-Droplight-Brake(Mahogany)
 GWR Toplight corridor brake
 GWR-Droplight-Dining(Mahogany)
 GWR Toplight corridor dining carriage
+BR-Mk1-BFK-rear
+BR Mk. 1 corridor brake carriage (first class, rear)
+BR-Mk1-BFK-front
+BR Mk. 1 corridor brake carriage (first class)
 BR-Mk1-RMB
 BR Mk. 1 mini-buffet
 BR-Mk1-RB
 BR Mk. 1 restaurant buffet
 BR-Mk1-TSO
-BR Mk. 1 open carriage
+BR Mk. 1 open carriage (second class)
+BR-Mk1-FO
+BR Mk. 1 open carriage (first class)
 BR-Mk1-SK
-BR Mk. 1 corridor vestibule carriage
+BR Mk. 1 corridor vestibule carriage (second class)
+BR-Mk1-CK
+BR Mk. 1 corridor vestibule carriage (composite)
+BR-Mk1-FK
+BR Mk. 1 corridor vestibule carriage (first class)
 BR-Mk1-BSO-front
 BR Mk. 1 open brake carriage
 BR-Mk1-BSO-rear
@@ -3786,6 +3796,8 @@ BR-Mk1-Sub-Brake-rear
 BR Mk. 1 compartment brake carriage (rear)
 BR-Mk1-Sub-Brake-front
 BR Mk. 1 compartment brake carriage
+BR-Mk1-Sub-cl
+BR Mk. 1 compartment carriage (lavatory composite)
 BR-Mk2-TSO
 BR Mk. 2D Standard Open
 BR-Mk3-TSO
