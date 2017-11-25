@@ -293,7 +293,10 @@ retire_year=1976
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=21
+payload[0]=0
+payload[1]=21
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=6
 length=11
 
