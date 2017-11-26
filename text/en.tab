@@ -3798,14 +3798,6 @@ BR-Mk1-Sub-Brake-front
 BR Mk. 1 compartment brake carriage
 BR-Mk1-Sub-cl
 BR Mk. 1 compartment carriage (lavatory composite)
-BR-Mk2-TSO
-BR Mk. 2D Standard Open
-BR-Mk3-TSO
-BR Mk. 3 Standard Open
-BR-Mk3a-TSO
-BR Mk. 3a Standard Open
-BR-Mk4-TSO
-BR Mk. 4 Standard Open
 BR-423-DTCL-Front
 BR Class 423 "4-Vep" EMU
 BR-423-MBSO
@@ -4938,14 +4930,20 @@ CC-Clerestory-Dining
 GWR corridor clerestory dining car
 GWR-Express-Dining
 GWR express dining car
+BR-Mk2-TSO
+BR Mk. 2D open carriage (second class)
+BR-Mk2-FO
+BR Mk. 2D open carriage (first class)
 BR-Mk2-RFB
-BR Mk. 2D mini-buffet
+BR Mk. 2D mini-buffet (first class)
 BR-Mk2-DBSO
-BR Mk. 2D driving brake carriage
+BR Mk. 2D driving brake carriage (second class)
 BR-Mk2-BSO
 BR Mk. 2D brake carriage (second class)
+BR-Mk2-BFK
+BR Mk. 2D brake carriage (first class)
 BR-Mk2a-RMB
-BR Mk. 2 mini-buffet
+BR Mk. 2 mini-buffet (second class)
 BR-Mk2a-TSO
 BR Mk. 2 tourist open carriage (second class)
 BR-Mk2a-SO
@@ -4957,7 +4955,7 @@ BR Mk. 2 open brake carriage (second class)
 BR-Mk2a-BFK
 BR Mk. 2 corridor brake carriage (first class)
 BR-Mk2-TSOT
-BR Mk. 2D micro-buffet
+BR Mk. 2D micro-buffet (second class)
 BR-Mk3-TRB
 BR Mk. 3 Buffet
 BR-Mk3a-TRB
@@ -4966,6 +4964,12 @@ BR-Mk3-TRFB
 BR Mk. 3 Restaurant Buffet
 BR-Mk3a-TRFB
 BR Mk. 3a Restaurant Buffet
+BR-Mk3-TSO
+BR Mk. 3 Standard Open
+BR-Mk3a-TSO
+BR Mk. 3a Standard Open
+BR-Mk4-TSO
+BR Mk. 4 Standard Open
 BR-Mk4-RSB
 BR Mk. 4 Restaurant Buffet
 4-wheel-1850s-mail

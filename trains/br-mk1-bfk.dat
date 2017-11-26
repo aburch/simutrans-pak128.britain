@@ -53,7 +53,9 @@ Constraint[Next][18]=BR-Mk1-FK
 Constraint[Next][19]=BR-Mk1-FO
 Constraint[Next][20]=BR-Mk2a-FK
 Constraint[Next][21]=BR-Mk2a-BFK
-Constraint[Next][22]=none
+Constraint[Next][22]=BR-Mk2-FO
+Constraint[Next][23]=BR-Mk1-FK
+Constraint[Next][24]=none
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
@@ -172,6 +174,8 @@ Constraint[Prev][18]=BR-Mk1-FK
 Constraint[Prev][19]=BR-Mk1-FO
 Constraint[Prev][20]=BR-Mk2a-FK
 Constraint[Prev][21]=BR-Mk2a-BFK
+Constraint[Prev][22]=BR-Mk2-FO
+Constraint[Prev][23]=BR-Mk1-FK
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised

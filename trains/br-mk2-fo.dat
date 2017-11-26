@@ -1,5 +1,5 @@
 obj=vehicle
-name=BR-Mk2-RFB
+name=BR-Mk2-FO
 speed=177
 copyright=Kieron
 intro_year=1973
@@ -11,19 +11,21 @@ freight=Passagiere
 payload[0]=0
 payload[1]=0
 payload[2]=0
-payload[3]=20
-overcrowded_capacity=10
+payload[3]=48
+overcrowded_capacity=0
 length=11
 rolling_resistance=13
 
+# Mk. 2s should have a higher purchase but
+# lower running/overhaul cost than Mk. 1s.
 weight=32
 axles=4
-cost=552000
+cost=465000
 runningcost=23
 
 can_lead_from_rear=0
 bidirectional=1
-catering_level=3
+upgrade[0]=BR-Mk2-TSOT
 
 min_loading_time=25
 max_loading_time=180
@@ -65,20 +67,20 @@ Constraint[Next][28]=BR-Mk1-BSO-rear
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
 
-EmptyImage[E][0]=./images/br-mk2-rfb-bg_E.0
-EmptyImage[SE][0]=./images/br-mk2-rfb-bg_SE.0
-EmptyImage[S][0]=./images/br-mk2-rfb-bg_S.0
-EmptyImage[SW][0]=./images/br-mk2-rfb-bg_SW.0
-EmptyImage[W][0]=./images/br-mk2-rfb-bg_W.0
-EmptyImage[NW][0]=./images/br-mk2-rfb-bg_NW.0
-EmptyImage[N][0]=./images/br-mk2-rfb-bg_N.0
-EmptyImage[NE][0]=./images/br-mk2-rfb-bg_NE.0
+EmptyImage[E][0]=./images/br-mk2-fo-bg_E.0
+EmptyImage[SE][0]=./images/br-mk2-fo-bg_SE.0
+EmptyImage[S][0]=./images/br-mk2-fo-bg_S.0
+EmptyImage[SW][0]=./images/br-mk2-fo-bg_SW.0
+EmptyImage[W][0]=./images/br-mk2-fo-bg_W.0
+EmptyImage[NW][0]=./images/br-mk2-fo-bg_NW.0
+EmptyImage[N][0]=./images/br-mk2-fo-bg_N.0
+EmptyImage[NE][0]=./images/br-mk2-fo-bg_NE.0
 
-EmptyImage[E][1]=./images/br-mk2-rfb-ic_E.0
-EmptyImage[SE][1]=./images/br-mk2-rfb-ic_SE.0
-EmptyImage[S][1]=./images/br-mk2-rfb-ic_S.0
-EmptyImage[SW][1]=./images/br-mk2-rfb-ic_SW.0
-EmptyImage[W][1]=./images/br-mk2-rfb-ic_W.0
-EmptyImage[NW][1]=./images/br-mk2-rfb-ic_NW.0
-EmptyImage[N][1]=./images/br-mk2-rfb-ic_N.0
-EmptyImage[NE][1]=./images/br-mk2-rfb-ic_NE.0
+EmptyImage[E][1]=./images/br-mk2-fo-ic_E.0
+EmptyImage[SE][1]=./images/br-mk2-fo-ic_SE.0
+EmptyImage[S][1]=./images/br-mk2-fo-ic_S.0
+EmptyImage[SW][1]=./images/br-mk2-fo-ic_SW.0
+EmptyImage[W][1]=./images/br-mk2-fo-ic_W.0
+EmptyImage[NW][1]=./images/br-mk2-fo-ic_NW.0
+EmptyImage[N][1]=./images/br-mk2-fo-ic_N.0
+EmptyImage[NE][1]=./images/br-mk2-fo-ic_NE.0
