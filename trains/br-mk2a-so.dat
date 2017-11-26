@@ -8,7 +8,8 @@ retire_year=1975
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=22
 length=11
 rolling_resistance=13
@@ -26,7 +27,8 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=145
+comfort[0]=0
+comfort[1]=145
 
 Constraint[Next][0]=BR-Mk1-GUV
 Constraint[Next][1]=BR-Mk1-SK
@@ -45,6 +47,12 @@ Constraint[Next][13]=BR-Mk2-RFB
 Constraint[Next][14]=LNER-Gresley-Express-Dining
 Constraint[Next][15]=LNER-Gresley-Express-Buffet
 Constraint[Next][16]=BR-Class27
+Constraint[Next][17]=BR-Mk1-BFK-rear
+Constraint[Next][18]=BR-Mk1-CK
+Constraint[Next][19]=BR-Mk1-FK
+Constraint[Next][20]=BR-Mk1-FO
+Constraint[Next][21]=BR-Mk2a-FK
+Constraint[Next][22]=BR-Mk2a-BFK
 
 Constraint[Prev][0]=BR-Mk1-GUV
 Constraint[Prev][1]=BR-Mk1-SK
@@ -62,6 +70,12 @@ Constraint[Prev][12]=BR-Mk2-TSO
 Constraint[Prev][13]=BR-Mk2-RFB
 Constraint[Prev][14]=LNER-Gresley-Express-Dining
 Constraint[Prev][15]=LNER-Gresley-Express-Buffet
+Constraint[Prev][16]=BR-Mk1-BFK-rear
+Constraint[Prev][17]=BR-Mk1-CK
+Constraint[Prev][18]=BR-Mk1-FK
+Constraint[Prev][19]=BR-Mk1-FO
+Constraint[Prev][20]=BR-Mk2a-FK
+Constraint[Prev][21]=BR-Mk2a-BFK
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
