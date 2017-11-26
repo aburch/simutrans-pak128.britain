@@ -38,6 +38,7 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=BR-Mk3-TSO
 Constraint[Next][1]=BR-Mk3-TRB
 Constraint[Next][2]=BR-Mk3-TRFB
+Constraint[Next][3]=BR-Mk3-FO
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
@@ -190,6 +191,7 @@ bidirectional=0
 Constraint[Prev][0]=BR-Mk3-TSO
 Constraint[Prev][1]=BR-Mk3-TRB
 Constraint[Prev][2]=BR-Mk3-TRFB
+Constraint[Prev][3]=BR-Mk3-FO
 
 Constraint[Next][0]=none
 
