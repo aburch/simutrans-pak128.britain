@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-Mk4-FO
 speed=225
-copyright=Kieron
+copyright=Kieron/Rollmaterial
 intro_year=1989
 intro_month=11
 retire_year=2003
@@ -43,14 +43,14 @@ liverytype[2]=National-Express
 liverytype[3]=East-Coast
 
 # TODO: Add dedicated graphics for this
-EmptyImage[E][0]=./images/br-mk4-tso-ic.0
-EmptyImage[SE][0]=./images/br-mk4-tso-ic.1
-EmptyImage[S][0]=./images/br-mk4-tso-ic.2
-EmptyImage[SW][0]=./images/br-mk4-tso-ic.3
-EmptyImage[W][0]=./images/br-mk4-tso-ic.4
-EmptyImage[NW][0]=./images/br-mk4-tso-ic.5
-EmptyImage[N][0]=./images/br-mk4-tso-ic.6
-EmptyImage[NE][0]=./images/br-mk4-tso-ic.7
+EmptyImage[E][0]=./images/br-mk4-fo-ic_E.0.0
+EmptyImage[SE][0]=./images/br-mk4-fo-ic_SE.0.0
+EmptyImage[S][0]=./images/br-mk4-fo-ic_S.0.0
+EmptyImage[SW][0]=./images/br-mk4-fo-ic_SW.0.0
+EmptyImage[W][0]=./images/br-mk4-fo-ic_W.0.0
+EmptyImage[NW][0]=./images/br-mk4-fo-ic_NW.0.0
+EmptyImage[N][0]=./images/br-mk4-fo-ic_N.0.0
+EmptyImage[NE][0]=./images/br-mk4-fo-ic_NE.0.0
 
 EmptyImage[E][1]=./images/br-mk4-gner.0.0
 EmptyImage[SE][1]=./images/br-mk4-gner.0.1
