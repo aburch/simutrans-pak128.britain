@@ -785,6 +785,7 @@
     <None Include="trains\br-357.dat" />
     <None Include="trains\br-mk3-fo.dat" />
     <None Include="trains\br-mk3-tfrb.dat" />
+    <None Include="trains\br-mk4-fo.dat" />
     <None Include="trains\ger-belpaire-claud.dat" />
     <None Include="trains\ger-super-claud.dat" />
     <None Include="trains\gnr-1321.dat" />
@@ -1238,7 +1239,7 @@
     <None Include="trains\br-mk3-trb.dat" />
     <None Include="trains\br-mk4-dvt.dat" />
     <None Include="trains\br-mk4-rsb.dat" />
-    <None Include="trains\br-mk4-to.dat" />
+    <None Include="trains\br-mk4-tso.dat" />
     <None Include="industry\brewery.dat" />
     <None Include="ways\beam-bridge.dat" />
     <None Include="ways\brick-aqueduct-narrow.dat" />
@@ -1455,9 +1456,7 @@
     <None Include="trains\lms-10000-b.dat" />
     <None Include="trains\lms-4f-tender.dat" />
     <None Include="trains\lms-4f.dat" />
-    <None Include="trains\lms-502back-ml.dat" />
-    <None Include="trains\lms-502front-ml.dat" />
-    <None Include="trains\lms-502middle-ml.dat" />
+    <None Include="trains\lms-502.dat" />
     <None Include="trains\lms-coronation-bfk.dat" />
     <None Include="trains\lms-coronation-btk.dat" />
     <None Include="trains\lms-coronation-fk.dat" />

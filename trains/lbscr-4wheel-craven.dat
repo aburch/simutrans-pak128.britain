@@ -12,7 +12,8 @@ retire_year=1872
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 length=5
 brake_force=0
@@ -23,8 +24,8 @@ axles=2
 cost=200000
 runningcost=20
 
-
-comfort=38
+comfort[0]=0
+comfort[1]=38
 min_loading_time=17
 max_loading_time=47
 
@@ -95,7 +96,8 @@ retire_year=1872
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=20
 length=5
 brake_force=0
@@ -106,8 +108,8 @@ axles=2
 cost=200000
 runningcost=20
 
-
-comfort=42
+comfort[0]=0
+comfort[1]=42
 min_loading_time=17
 max_loading_time=47
 
@@ -177,7 +179,8 @@ retire_year=1872
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 brake_force=3
@@ -188,8 +191,8 @@ axles=2
 cost=200000
 runningcost=21
 
-
-comfort=38
+comfort[0]=0
+comfort[1]=38
 min_loading_time=17
 max_loading_time=47
 
@@ -239,7 +242,8 @@ retire_year=1872
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 brake_force=3
@@ -250,8 +254,8 @@ axles=2
 cost=200000
 runningcost=21
 
-
-comfort=38
+comfort[0]=0
+comfort[1]=38
 min_loading_time=17
 max_loading_time=47
 
@@ -310,7 +314,6 @@ axles=2
 cost=154000
 runningcost=19
 
-
 min_loading_time=35
 max_loading_time=100
 
@@ -348,7 +351,6 @@ weight=8
 axles=2
 cost=154000
 runningcost=19
-
 
 min_loading_time=35
 max_loading_time=120
