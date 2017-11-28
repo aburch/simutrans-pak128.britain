@@ -57,6 +57,10 @@ liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 liverytype[2]=BR-Blue
 
+# NOTE: These graphics have been increased slightly in size 
+# to match graphics produced with the old workflow.
+# The .blend files, however, only have the originally 
+# sized models. The increase in size was 1.05 on all axes.
 EmptyImage[E][0]=./images/br-mk1-sub-cl-cc_E.0
 EmptyImage[SE][0]=./images/br-mk1-sub-cl-cc_SE.0
 EmptyImage[S][0]=./images/br-mk1-sub-cl-cc_S.0

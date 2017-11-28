@@ -42,7 +42,8 @@ liverytype[1]=GNER
 liverytype[2]=National-Express
 liverytype[3]=East-Coast
 
-# TODO: Add dedicated graphics for this
+# NOTE: These graphics have been increased slightly in size 
+# to match graphics produced with the old workflow.
 EmptyImage[E][0]=./images/br-mk4-fo-ic_E.0.0
 EmptyImage[SE][0]=./images/br-mk4-fo-ic_SE.0.0
 EmptyImage[S][0]=./images/br-mk4-fo-ic_S.0.0
