@@ -8,7 +8,8 @@ retire_year=1830
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=9
+payload[0]=0
+payload[1]=9
 length=2
 brake_force=0
 rolling_resistance=19
@@ -18,10 +19,10 @@ axle_load=1
 cost=46000
 runningcost=3
 
-
 bidirectional=1
 
-comfort=8
+comfort[0]=0
+comfort[1]=8
 min_loading_time=20
 max_loading_time=60
 

@@ -11,7 +11,8 @@ retire_year=1941
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=8
 
@@ -27,7 +28,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=75
+comfort[0]=0
+comfort[1]=75
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -82,7 +84,8 @@ retire_year=1941
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=8
 
@@ -98,7 +101,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=75
+comfort[0]=0
+comfort[1]=75
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -112,7 +116,6 @@ Constraint[Prev][4]=lswr-56ft-augmentation-trailer-front
 
 Constraint[Next][0]=SR-3SUB(front)
 Constraint[Next][1]=LSWR-EMU(front)
-
 
 EmptyImage[E][0]=./images/lbscr-48ft-augmentation-trailer-rear-olive.1.4
 EmptyImage[SE][0]=./images/lbscr-48ft-augmentation-trailer-rear-olive.1.5
@@ -154,12 +157,13 @@ retire_year=1941
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=90
+payload[0]=0
+payload[1]=90
 overcrowded_capacity=45
 length=9
 
-# Guessed
-weight=24
+# See Jenkinson p. 386
+weight=23.8
 cost=713000
 runningcost=36
 upgrade_price=109200
@@ -170,7 +174,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=76
+comfort[0]=0
+comfort[1]=75
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -225,12 +230,13 @@ retire_year=1941
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=90
+payload[0]=0
+payload[1]=90
 overcrowded_capacity=45
 length=9
 
-# Guessed
-weight=24
+# See Jenkinson p. 386
+weight=23.8
 cost=713000
 runningcost=36
 upgrade_price=109200
@@ -242,7 +248,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=76
+comfort[0]=0
+comfort[1]=75
 
 Constraint[Prev][0]=lbscr-48ft-augmentation-trailer-front
 Constraint[Prev][1]=lbscr-54ft-augmentation-trailer-front
@@ -297,7 +304,8 @@ retire_year=1941
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=9
 
@@ -314,7 +322,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Prev][0]=SR-3SUB(rear)
 Constraint[Prev][1]=LSWR-EMU(rear)
@@ -379,7 +388,8 @@ retire_year=1941
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=9
 
@@ -396,7 +406,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Prev][0]=lbscr-48ft-augmentation-trailer-front
 Constraint[Prev][1]=lbscr-54ft-augmentation-trailer-front
@@ -461,7 +472,8 @@ retire_year=1941
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=9
 
@@ -478,7 +490,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Prev][0]=SR-3SUB(rear)
 Constraint[Prev][1]=LSWR-EMU(rear)
@@ -543,7 +556,8 @@ retire_year=1941
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=9
 
@@ -560,7 +574,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Prev][0]=lbscr-48ft-augmentation-trailer-front
 Constraint[Prev][1]=lbscr-54ft-augmentation-trailer-front
@@ -625,7 +640,8 @@ retire_year=1941
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=90
+payload[0]=0
+payload[1]=90
 overcrowded_capacity=45
 length=10
 
@@ -636,12 +652,12 @@ cost=720000
 runningcost=36
 upgrade_price=109200
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Prev][0]=SR-3SUB(rear)
 Constraint[Prev][1]=LSWR-EMU(rear)
@@ -706,7 +722,8 @@ retire_year=1941
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=90
+payload[0]=0
+payload[1]=90
 overcrowded_capacity=45
 length=10
 
@@ -717,12 +734,12 @@ cost=720000
 runningcost=36
 upgrade_price=109200
 
-
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=73
+comfort[0]=0
+comfort[1]=73
 
 Constraint[Prev][0]=lbscr-48ft-augmentation-trailer-front
 Constraint[Prev][1]=lbscr-54ft-augmentation-trailer-front

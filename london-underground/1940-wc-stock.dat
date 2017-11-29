@@ -1,3 +1,4 @@
+# See Jenkinson p. 404
 obj=vehicle
 name=1940TubeStockFront
 engine_type=electric
@@ -15,7 +16,7 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=40
-overcrowded_capacity=128
+overcrowded_capacity=60
 
 weight=24
 axles=4
@@ -83,14 +84,13 @@ retire_month=4
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=48
-overcrowded_capacity=168
+payload[1]=52
+overcrowded_capacity=80
 
 weight=16
 axles=4
 cost=300000
 runningcost=5
-
 
 can_lead_from_rear=0
 bidirectional=1
@@ -157,7 +157,7 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=40
-overcrowded_capacity=128
+overcrowded_capacity=60
 
 weight=24
 axles=4

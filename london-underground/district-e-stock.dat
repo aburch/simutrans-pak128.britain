@@ -16,7 +16,8 @@ retire_year=1923
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=74
 
 # Note that these had wooden underframes, which proved insufficiently robust,
@@ -32,7 +33,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=District_E_StockRearDM
 Constraint[Prev][1]=District_KLMN_StockRearDM
@@ -70,7 +72,8 @@ retire_year=1923
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=82
 
 weight=29
@@ -78,13 +81,13 @@ axles=4
 cost=1400000
 runningcost=33
 
-
 bidirectional=0
 way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=District_E_StockFrontDM
 Constraint[Prev][1]=District_KLMN_StockFrontDM
@@ -116,7 +119,9 @@ EmptyImage[W]=./images/district-e-stock.1.0
 EmptyImage[NW]=./images/district-e-stock.1.1
 EmptyImage[N]=./images/district-e-stock.1.2
 EmptyImage[NE]=./images/district-e-stock.1.3
-----
+
+---
+
 obj=vehicle
 name=District_E_StockRearDM
 engine_type=electric
@@ -132,7 +137,8 @@ retire_year=1923
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=74
 
 weight=33.7
@@ -146,7 +152,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=60
+comfort[0]=0
+comfort[1]=60
 
 Constraint[Prev][0]=District_E_StockMiddle
 Constraint[Prev][1]=District_E_StockFrontDM
@@ -176,4 +183,3 @@ EmptyImage[W]=./images/district-e-stock.1.0
 EmptyImage[NW]=./images/district-e-stock.1.1
 EmptyImage[N]=./images/district-e-stock.1.2
 EmptyImage[NE]=./images/district-e-stock.1.3
---
