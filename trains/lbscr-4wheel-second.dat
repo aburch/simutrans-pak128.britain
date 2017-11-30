@@ -12,7 +12,8 @@ retire_year=1877
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 length=5
 brake_force=0
@@ -26,7 +27,8 @@ runningcost=17
 
 upgrade[0]=LBSCR-4Wheel-Second-fitted
 
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 
@@ -128,7 +130,8 @@ retire_year=1901
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 length=5
 brake_force=5
@@ -141,8 +144,8 @@ cost=340000
 upgrade_price=80000
 runningcost=18
 
-
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 

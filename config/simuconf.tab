@@ -82,13 +82,56 @@ max_small_city_size = 3000
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 1165
-growthfactor_cities = 720
-growthfactor_capitals = 420
+growthfactor_villages = 768
+growthfactor_cities = 480
+growthfactor_capitals = 240
 
 # Enable this to use the old algorithm for city growth from Standard.
 # NOTE: The renovation_percentage in cityrules.tab should be increased if this be done.
 quick_city_growth = 0
+
+# These settings determine the population, visitor demand, jobs and mail per "level" of building.
+# Each of these things can be set independently in the buildings' .dat files, but for older paksets
+# or paksets from Standard, only a "level" will be supplied, so these conversion factors are
+# important in those cases.
+population_per_level = 4
+visitor_demand_per_level = 4
+jobs_per_level = 3
+mail_per_level = 1
+
+# These settings determine the number of passenger trips that each person makes per game month
+# and the number of items of mail that each unit of mail demand produces per month, in 1/100ths.
+# This does *not* include onward and return trips, however, and is *before* adjustment for the
+# meters per tile and bits per month scales.
+#
+# Note that most statistics show *return* trips, so this needs to be calibrated accordingly.
+# Note also that, because of rounding errors in the passenger generation multi-threading,
+# it is necessary to multiply the numbers by ~1.3 to get the correct results in game at 
+# present. The correct number ought to be 120 (3x trips attempted per 16 hours per passenger),
+# but 156 must be used to overcome the rounding errors. Likewise, mail is intended to be 5
+# but needs to be 7 (rounded up from 6.5) to cope with the rounding errors.
+passenger_trips_per_month_hundredths = 156
+mail_packets_per_month_hundredths = 7
+
+# This setting determines the maximum number of onward trips that passengers may make on a journey.
+# The actual number of onward trips for any given packet of passengers is a random number of anywhere
+# between 1 and this figure. This is only applicable if passengers are in fact going to make an onward
+# trip, the chance of which is determined by a different setting (see below).
+max_onward_trips = 3
+
+# This figure determines how likely that it is that passengers will make any onward trips at all. It
+# is expressed in percentage terms.
+onward_trip_chance_percent = 25
+
+# This is the chance, in percentage, that any given passenger journey will be a commuting trip. Any
+# trip that is not a commuting trip is classed as a visiting trip.
+# Data suggests that a minority of trips are commuting trips: see, e.g.
+# http://webarchive.nationalarchives.gov.uk/+/http:/www.dft.gov.uk/pgr/statistics/datatablespublications/personal/factsheets/traveltowork.pdf
+# and https://www.hertfordshire.gov.uk/media-library/documents/highways/transport-planning/transport-and-accident-data/county-travel-survey/county-travel-survey-summary.pdf
+# Assume 1 commuting trip  attempt per day (out of a total of 3 trip attempts per day), multiplied by 5/7ths (0.714)
+# multiplied by the proportion of the population in work (fluctuates over time, but assume as 60%), and the figure is close to the 18% suggested in the
+# Hertfordshire survey above.
+commuting_trip_chance_percent = 20
 
 # Some passengers who are not able to find a route will be content to go to an alternative destination. 
 # This is set separately for visiting passengers and commuting passengers. It can either be set in
@@ -105,9 +148,14 @@ quick_city_growth = 0
 
 #max_alternative_destinations_commuting = 6
 #max_alternative_destinations_visiting = 12
+#min_alternative_destinations_commuting = 2
+#min_alternative_destinations_visiting = 1
 
-max_alternative_destinations_per_visitor_demand_millionths = 500
-max_alternative_destinations_per_job_millionths = 675
+max_alternative_destinations_per_visitor_demand_millionths = 2750
+max_alternative_destinations_per_job_millionths = 5000
+
+min_alternative_destinations_per_visitor_demand_millionths = 750
+min_alternative_destinations_per_job_millionths = 2500
 
 # Passengers have a maximum tolerance level for how long that they will spend travelling. 
 # Passengers are generated in two groups: commuting and visiting passengers. Commuting 
@@ -120,9 +168,9 @@ max_alternative_destinations_per_job_millionths = 675
 # between the minimum and maximum amount using a normal distribution, meaning that the numbers
 # are more likely to be in the middle of the range than at either end.
 
-min_visiting_tolerance = 3
+min_visiting_tolerance = 8
 range_visiting_tolerance = 5400
-min_commuting_tolerance = 20
+min_commuting_tolerance = 30
 range_commuting_tolerance = 120
 
 # The following settings determine the way in which individual packets of passengers decide
@@ -154,48 +202,6 @@ range_commuting_tolerance = 120
 random_mode_commuting = 2
 random_mode_visiting = 5
 
-# Settings for calibrating the revenue system
-#
-# These settings calibrate the way in which revenue is calculated in the game. Changing
-# them might make the game easier or harder, or, if they are changed in odd ways, make it
-# behave eratically. Make sure to know what you are doing before changing these values.
-
-# These settings calibrate the speed bonus. Note that, with Simutrans-Extended, unlike
-# Simutrans-Standard, the speed bonus is based on the convoy or line's *average* speed between
-# any two given stops, not the convoy's overall maximum speed. 
-#
-# All distances in these settings are measured in kilometres and calibrated using the
-# meters_per_tile setting.
-#
-# min_bonus_max_distance is the distance below which the speed bonus (or penalty) does not
-# apply. Below this distance, goods pay the same no matter what the average speed.
-#
-# median_bonus_distance is the distance at which 100% of the speed bonus/penalty applies. 
-# At anything between min_bonus_max_distance and median_bonus_distance, a scaled proportion
-# of the speed bonus applies. For example, if the min_bonus_max_distance was 10, and the 
-# median_bonus_distance was 110, then, for a journey of 50 tiles, 50% of the speed bonus or
-# penalty would apply. median_bonus_distance is optional: if it is not specified, or set to
-# 0, it will be calculated as the mid point between min_bonus_max_distance and
-# max_bonus_min_distance.
-#
-# max_bonus_min_distance is the distance above which the rate of the speed bonus increases
-# no further. In other words, the rate of the speed bonus (or penalty) keeps increasing with
-# the distance, until it reaches the max_bonus_min_distance, after which it remains steady.
-#
-# max_bonus_multiplier_percent is the percentage of the speed bonus that applies at or above
-# the distance specified in max_bonus_min_distance. So, if the speed bonus rating was 10%, the
-# distance exceeded the max_bonus_min_distance value, and the max_bonus_multiplier_percent was
-# set to 200, the speed bonus rating would effectively be 20% for that journey.
-# Between the median_bonus_distance and the max_bonus_min_distance, a scaled proportion applies.
-# So, if, for example, the median_bonus_distance was 100, the max_bonus_min_distance was 1,100
-# the actual distance 500, and the max_bonus_multiplier_percent 200, the speed bonus rating
-# would be increased by half of the multiplier, or 150%.
-
-min_bonus_max_distance = 1
-median_bonus_distance = 160
-max_bonus_min_distance = 1000
-max_bonus_multiplier_percent = 50
-
 # meters_per_tile represents the length of each tile in meters. 
 # The default is 250.
 #
@@ -208,8 +214,8 @@ max_bonus_multiplier_percent = 50
 
 meters_per_tile = 125
 
-# These next settings affect the interaction between comfort and revenue in Simutrans. Comfort only
-# affects passenger traffic, for obvious reasons. Passengers have a certain level of comfort that
+# These next settings affect the interaction between comfort and revenue. Comfort only
+# affects passenger traffic. Passengers have a certain level of comfort that
 # they will tolerate for certain distances. All comfort ratings are in the range of between 0 and
 # 255. At the tolerable level, the revnue is unaffected. At above the tolerable level, a luxury
 # bonus is applied. At below the tolerable level, a discomfort penalty is applied. The values can
@@ -236,7 +242,7 @@ meters_per_tile = 125
 # Note that the impact of comfort on revenue decreases with journey time.
 # It is at its maximum level down to tolerable_comfort_median_long_minutes, after which it gradually
 # reduces to 20% of its maximum at tolerable_comfort_short_minutes, and does not decrease further
-# thereafter. 
+# thereafter. Revenue will never decrease below 75% of the base level.
 
 # 0:05h
 tolerable_comfort_short_minutes=5
@@ -252,10 +258,10 @@ tolerable_comfort_median_median=125
 
 # 6:00h
 tolerable_comfort_median_long_minutes=360
-tolerable_comfort_median_long=175
+tolerable_comfort_median_long=165
 
-# 18:00h
-tolerable_comfort_long_minutes=1080
+# 24:00h
+tolerable_comfort_long_minutes=1440
 tolerable_comfort_long=250
 
 # max_luxury_bonus_differential is the maximum number of comfort rating points above the tolerable level
@@ -263,19 +269,19 @@ tolerable_comfort_long=250
 # revenue.
 #
 # max_luxury_bonus_percent is the percentage increase in revenue from the maximum level of luxury specified in
-# max_luxury_bonus_differential. So, if the tolerable comfort level for any given travelling time was 100, the 
+# max_luxury_bonus_differential. So, if the tolerable comfort level for any given travelling time were 100, the 
 # max_luxury_bonus_differential 50, and the max_luxury_bonus_percent 50, then the revenue would increase up to
 # 50% beyond the normal revenue for additional comfort up to 150, but would not increase further with any increase
 # in comfort beyond 150. 
 
-max_luxury_bonus_differential=65
-max_luxury_bonus_percent=50
+max_luxury_bonus_differential=0
+max_luxury_bonus_percent=0
 
 # The discomfort penalty works in exactly the same way as the comfort bonus. max_discomfort_penalty_percent is the
 # percentage decrease in revenue from the maximum level of discomfort specified in max_discomfort_penalty_differential. 
 
 max_discomfort_penalty_differential=220
-max_discomfort_penalty_percent=97
+max_discomfort_penalty_percent=25
 
 # These settings control the revenue that can be earned from catering and travelling post offices. Note that catering
 # vehicles on a convoy also increase the comfort by a small amount, which has an indirect effect on the revenue. These
@@ -297,15 +303,15 @@ max_discomfort_penalty_percent=97
 
 catering_min_minutes=45
 catering_level1_minutes=60
-catering_level1_max_revenue=300
+catering_level1_max_revenue=160
 catering_level2_minutes=90
-catering_level2_max_revenue=450
+catering_level2_max_revenue=390
 catering_level3_minutes=120
-catering_level3_max_revenue=600
+catering_level3_max_revenue=830
 catering_level4_minutes=180
-catering_level4_max_revenue=1000
+catering_level4_max_revenue=1600
 catering_level5_minutes=210
-catering_level5_max_revenue=1500
+catering_level5_max_revenue=4400
 
 # Travelling post office revenue is simpler than catering revenue. For every journey that mail makes in a convoy containing
 # a travelling post office vehicle (that is, a mail carrying vehicle with a catering level above zero) where the journey time
@@ -314,6 +320,18 @@ catering_level5_max_revenue=1500
 
 tpo_min_minutes=90
 tpo_revenue=300
+
+# Passengers who can afford to travel in higher class accommodation on a convoy that also has
+# lower class accommodation will only spend the extra money if they consider the additional
+# comfort worthwhile. Each passenger's preference for this is randomised on creation. The
+# minimum is the same as the maximum comfortable journey time (i.e., at this minimum level,
+# the passengers will only pay to travel in more comfortable accommodation if the journey
+# time exceeds the maximum comfortable journey time for the lower class of accommodation).
+# The maximum a percentage of this figure, set below. For example, if this is set to 500%,
+# passengers will travel in a higher class of accommodation if the journey time is more 
+# than one fifth of the maximum comfortable journey time of the lower class of accommodation.
+
+max_comfort_preference_percentage = 500
 
 # These settings relate to private car use. See /config/privatecar.tab for
 # the configuration of private car ownership for different years.
@@ -354,6 +372,9 @@ congestion_density_factor = 141
 # This is also subject to a maximum of thrice the estimated journey time for the
 # whole journey, except where thrice the estimated journty time is less than 1/12th
 # of this value.
+#
+# The speed bonus system has been deprecated, so the relationship to that is
+# likely to change shortly.
 
 passenger_max_wait = 19440
 
@@ -497,6 +518,46 @@ allow_airports_without_control_towers = 0
 
 way_height_clearance = 2
 
+# This is the fraction of the way's total wear capacity below which
+# the way will count as degraded and be automatically renewed or,
+# if the player has insufficient money or auto-renewal has been
+# disabled for the way in question, will enter a degraded state
+# in which the speed limit will be reduced. (At a state of 0,
+# the way will become totally impassable). 
+# Default: 7 (approx. 14%). 
+
+way_degradation_fraction = 7
+
+# These two settings determine the default relationship between
+# the weight of vehicles and their way wear factors. Air and
+# road vehicles use the "road_type", and all others apart from
+# maglev and water (which are hard coded to zero) use the 
+# "rail_type". This only applies to vehicles whose way wear
+# factor is not specified in the individual vehicle definitions.
+# The default for road is 4, based on the "forth power law":
+# http://www.pavementinteractive.org/article/equivalent-single-axle-load/
+# The default for rail is 1. 
+
+way_wear_power_factor_road_type = 4
+way_wear_power_factor_rail_type = 1
+
+# This is the setting to calibrate the way wear system. This
+# is only effective for vehicles which do not have their way
+# wear factor set in their individual .dat files. For an
+# explanation of the standard axle load (in tonnes), see
+# the link above.
+# The default is 8, which is the UK standard for road.
+
+standard_axle_load = 8
+
+# This is the way wear factor exerted on roads by all
+# "citycars" (that is, the automatically generated
+# private road traffic) in the game, measured in 
+# 1/10,000ths of a standard axle load. 
+# Default = 2
+
+citycar_way_wear_factor = 2
+
 ################################## Industry settings #################################
 
 # allow all possible supplier to connect to your factories?
@@ -556,45 +617,22 @@ factory_enforce_demand = 1
 # lead time for new deliveries. Values of slightly over 100% are recommended.
 maximum_intransit_percentage = 110
 
-# This is the fraction of the way's total wear capacity below which
-# the way will count as degraded and be automatically renewed or,
-# if the player has insufficient money or auto-renewal has been
-# disabled for the way in question, will enter a degraded state
-# in which the speed limit will be reduced. (At a state of 0,
-# the way will become totally impassable). 
-# Default: 7 (approx. 14%). 
+# The following settings determine the thresholds for deciding whether an industry is short
+# of staff. 
+# 
+# minimum_staffing_percentage_consumer_industry is for consumer industries (i.e. shops): it
+# is the threshold (in percentage of the total complement of staff) below which the shop
+# must close until more staff can be found. No visiting passengers can start their journeys
+# to a consumer industry whose staffing level is below this proportion.
+#
+# minimum_staffing_percentage_full_production_producer_industry is for producer industries:
+# it is the threshold below which the production of the industry will be scaled back
+# to match the proportion of the available staff. For example, when this setting is at
+# its default value of 80, if the industry has 81% of staff, it produces at full capacity.
+# If the industry has 75% of staff, it produces at 75% of capacity, and so forth.
 
-way_degradation_fraction = 7
-
-# These two settings determine the default relationship between
-# the weight of vehicles and their way wear factors. Air and
-# road vehicles use the "road_type", and all others apart from
-# maglev and water (which are hard coded to zero) use the 
-# "rail_type". This only applies to vehicles whose way wear
-# factor is not specified in the individual vehicle definitions.
-# The default for road is 4, based on the "forth power law":
-# http://www.pavementinteractive.org/article/equivalent-single-axle-load/
-# The default for rail is 1. 
-
-way_wear_power_factor_road_type = 4
-way_wear_power_factor_rail_type = 1
-
-# This is the setting to calibrate the way wear system. This
-# is only effective for vehicles which do not have their way
-# wear factor set in their individual .dat files. For an
-# explanation of the standard axle load (in tonnes), see
-# the link above.
-# The default is 8, which is the UK standard for road.
-
-standard_axle_load = 8
-
-# This is the way wear factor exerted on roads by all
-# "citycars" (that is, the automatically generated
-# private road traffic) in the game, measured in 
-# 1/10,000ths of a standard axle load. 
-# Default = 2
-
-citycar_way_wear_factor = 2
+minimum_staffing_percentage_consumer_industry = 66
+minimum_staffing_percentage_full_production_producer_industry = 80
 
 ################################## Finance settings #################################
 
@@ -664,7 +702,7 @@ forge_cost_air = 25000
 parallel_ways_forge_cost_percentage_road = 50
 parallel_ways_forge_cost_percentage_track = 35
 parallel_ways_forge_cost_percentage_water = 75
-parallel_ways_forge_cost_percentage_monorail = 35
+parallel_ways_forge_cost_percentage_monorail = 40
 parallel_ways_forge_cost_percentage_maglev = 40
 parallel_ways_forge_cost_percentage_tram = 85
 parallel_ways_forge_cost_percentage_narrowgauge = 35
@@ -695,46 +733,6 @@ parallel_ways_forge_cost_percentage_air = 85
 interest_rate_percent = 10
 allow_bankruptcy = 1
 allow_purchases_when_insolvent = 0	
-
-# This is a compatibility setting for Simutrans-Standard. Because, in
-# Simutrans-Standard, the speed bonus data (in speedbonus.tab) are based on the
-# *maximum*, rather than the *average* speed of the vehicles, the speeds in
-# speedbonus.tab will be too high. Use this setting to reduce them if playing 
-# with an incompatible pakset. For paksets produced with Simutrans-Standard in
-# mind, the setting should be somewhere between 40-50. For compatible paksets,
-# the setting should be 100. 
-
-speed_bonus_multiplier_percent=100
-
-# These settings determine the population, visitor demand, jobs and mail per "level" of building.
-# Each of these things can be set independently in the buildings' .dat files, but for older paksets
-# or paksets from Standard, only a "level" will be supplied, so these conversion factors are
-# important in those cases.
-population_per_level = 4
-visitor_demand_per_level = 4
-jobs_per_level = 3
-mail_per_level = 1
-
-# These settings determine the number of passenger trips that each person makes per game month
-# and the number of items of mail that each unit of mail demand produces per month, in 1/100ths.
-# This does *not* include onward and return trips, however, and is *before* adjustment for the
-# meters per tile and bits per month scales.
-passenger_trips_per_month_hundredths = 60
-mail_packets_per_month_hundredths = 5
-
-# This setting determines the maximum number of onward trips that passengers may make on a journey.
-# The actual number of onward trips for any given packet of passengers is a random number of anywhere
-# between 1 and this figure. This is only applicable if passengers are in fact going to make an onward
-# trip, the chance of which is determined by a different setting (see below).
-max_onward_trips = 3
-
-# This figure determines how likely that it is that passengers will make any onward trips at all. It
-# is expressed in percentage terms.
-onward_trip_chance_percent = 25
-
-# This is the chance, in percentage, that any given passenger journey will be a commuting trip. Any
-# trip that is not a commuting trip is classed as a visiting trip.
-commuting_trip_chance_percent = 67
 
 # disable companies from making ways public with the appropiate tool
 # even when disabled companies can still make stops public
@@ -840,7 +838,7 @@ intercity_road[7]=sma-road-medium,1997,2300
 # If you want to speed up map creation, lower this value
 # If you want more initial intercity roads, raise this value
 
-intercity_road_length = 320
+intercity_road_length = 512
 
 # This is the maximum number of tiles that a road, river or canal
 # that is a public right of way may be diverted for an existing
@@ -1966,15 +1964,15 @@ intro_month[63][1] = 8
 livery_scheme[64] = SWT
 retire_year[64] = 2999
 retire_month[64] = 12
-livery[64][0] = SWT-orange-stripe
+livery[64][0] 
+intro_year[64][2] = 2013
+intro_month[64][2] = 10= SWT-orange-stripe
 intro_year[64][0] = 1996
 intro_month[64][0] = 2
 livery[64][1] = SWT-standard
 intro_year[64][1] = 2000
 intro_month[64][1] = 6
 livery[64][2] = SWT-modified
-intro_year[64][2] = 2013
-intro_month[64][2] = 10
 
 livery_scheme[65] = Hull-Trains
 retire_year[65] = 2008

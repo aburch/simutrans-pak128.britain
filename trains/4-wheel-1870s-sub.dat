@@ -18,7 +18,8 @@ retire_year=1878
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 length=5
 brake_force=0
@@ -31,7 +32,8 @@ runningcost=17
 
 upgrade[0]=4-wheel-sub-1870s-fitted
 
-comfort=52
+comfort[0]=0
+comfort[1]=52
 # Lower loading time for suburban vehicles as passengers have no luggage.
 min_loading_time=10
 max_loading_time=30
@@ -159,7 +161,8 @@ retire_year=1878
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 brake_force=4
@@ -172,7 +175,8 @@ runningcost=17
 
 upgrade[0]=4-wheel-sub-1870s-brake-front-fitted
 
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 
@@ -272,7 +276,8 @@ retire_year=1878
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 brake_force=4
@@ -285,7 +290,8 @@ runningcost=17
 
 upgrade[0]=4-wheel-sub-1870s-brake-rear-fitted
 
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 
@@ -387,7 +393,8 @@ retire_year=1911
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 length=5
 brake_force=4
@@ -399,8 +406,8 @@ cost=355000
 upgrade_price=65000
 runningcost=22
 
-
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 
@@ -534,7 +541,8 @@ retire_month=7
 waytype=track
 freight=Passagiere
 # See here for capacity: http://www.kesr.org.uk/stock-register/coaching-stock/lnwr.html
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 brake_force=4
@@ -546,8 +554,8 @@ cost=355000
 upgrade_price=65000
 runningcost=22
 
-
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 
@@ -650,7 +658,8 @@ retire_year=1911
 retire_month=7
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 brake_force=4
@@ -662,8 +671,8 @@ cost=355000
 upgrade_price=65000
 runningcost=22
 
-
-comfort=52
+comfort[0]=0
+comfort[1]=52
 min_loading_time=10
 max_loading_time=30
 
