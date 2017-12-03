@@ -2808,6 +2808,16 @@ BR-373FrontCab
 BR Class 373 "Eurostar"
 BR-373RearCab
 BR Class 373 "Eurostar" (rear)
+BR-373Coach
+BR Class 373 "Eurostar" (carriage, standard class)
+BR-373CoachFirstClass
+BR Class 373 "Eurostar" (carriage, first class)
+BR-373FrontPower
+BR Class 373 "Eurostar" (front power)
+BR-373RearPower
+BR Class 373 "Eurostar" (rear power)
+BR-373Catering
+BR Class 373 "Eurostar" (buffet)
 BR-442-Front
 BR Class 442 "Wessex Electric" (driving trailer - front)
 BR-442-Middle1
@@ -3382,12 +3392,6 @@ SR-6PAN(trailer4)
 SR 6-PAN EMU (centre)
 SR-6PAN(rear)
 SR 6-PAN EMU (rear)
-BR-373FrontPower
-BR Class 373 "Eurostar" (front power)
-BR-373RearPower
-BR Class 373 "Eurostar" (rear power)
-BR-373Catering
-BR Class 373 "Eurostar" (buffet)
 BR-170Front
 BR Class 170 "Turbostar" DMU
 BR-170Middle
@@ -3626,10 +3630,6 @@ BR-390RearCoach
 BR Class 390 "Pendolino" (rear coach)
 BR-390RearCab
 BR Class 390 "Pendolino" (rear cab)
-BR-373Coach
-BR Class 373 "Eurostar" (carriage, standard class)
-373CoachFirstClass
-BR Class 373 "Eurostar" (carriage, first class)
 BR-202-front
 BR Class 202 DEMU
 BR-202-rear
