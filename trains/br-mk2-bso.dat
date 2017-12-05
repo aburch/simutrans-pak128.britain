@@ -35,6 +35,7 @@ upgrade[0]=BR-Mk2-DBSO
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
+liverytype[2]=Scotrail-original
 
 EmptyImage[E][0]=./images/br-mk2-bso-bg_E.0
 EmptyImage[SE][0]=./images/br-mk2-bso-bg_SE.0
@@ -54,3 +55,11 @@ EmptyImage[NW][1]=./images/br-mk2-bso-ic_NW.0
 EmptyImage[N][1]=./images/br-mk2-bso-ic_N.0
 EmptyImage[NE][1]=./images/br-mk2-bso-ic_NE.0
 
+EmptyImage[E][2]=./images/br-mk2-bso-scr_E.0
+EmptyImage[SE][2]=./images/br-mk2-bso-scr_SE.0
+EmptyImage[S][2]=./images/br-mk2-bso-scr_S.0
+EmptyImage[SW][2]=./images/br-mk2-bso-scr_SW.0
+EmptyImage[W][2]=./images/br-mk2-bso-scr_W.0
+EmptyImage[NW][2]=./images/br-mk2-bso-scr_NW.0
+EmptyImage[N][2]=./images/br-mk2-bso-scr_N.0
+EmptyImage[NE][2]=./images/br-mk2-bso-scr_NE.0
