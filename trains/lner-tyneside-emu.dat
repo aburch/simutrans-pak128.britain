@@ -202,8 +202,9 @@ name=LNER-1937-Tyneside-EMU-MPV
 engine_type=electric
 speed=90
 gear=80
+# These had four motors: https://en.wikipedia.org/wiki/LNER_Tyneside_electric_units
 power=640
-tractive_effort=70
+tractive_effort=140
 copyright=Junna/Cake
 intro_year=1936
 intro_month=7
@@ -216,8 +217,8 @@ length=10
 
 weight=43
 axles=4
-cost=1512000
-runningcost=22
+cost=1620000
+runningcost=44
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 
