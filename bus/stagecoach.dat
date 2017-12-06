@@ -7,9 +7,9 @@ copyright=James
 waytype=road
 freight=Passagiere
 # Outside
-payload[0]=6 
+payload[0]=0 
 payload[1]=0
-payload[2]=0
+payload[2]=6
 # Inside
 payload[3]=4
 overcrowded_capacity=0

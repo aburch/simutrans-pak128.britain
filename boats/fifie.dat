@@ -5,7 +5,6 @@ waytype=water
 engine_type=sail
 speed=15
 power=250
-#gear=1200
 freight=FreshFish
 payload=15
 weight=15
@@ -36,5 +35,3 @@ EmptyImage[W]=./images/fifie.1.4
 EmptyImage[NW]=./images/fifie.1.5
 EmptyImage[N]=./images/fifie.1.6
 EmptyImage[NE]=./images/fifie.1.7
-
--------------
