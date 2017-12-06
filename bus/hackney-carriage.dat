@@ -7,7 +7,7 @@ freight=Passagiere
 payload[0]=0
 payload[1]=0
 payload[2]=0
-payload[3]=4
+payload[3]=2
 speed=13
 weight=0.2
 way_wear_factor=2
@@ -55,4 +55,3 @@ EmptyImage[W]=./images/hackney-carriage_W.0.0,4,5
 EmptyImage[NW]=./images/hackney-carriage_NW.0.0,12,10
 EmptyImage[N]=./images/hackney-carriage_N.0.0,0,33
 EmptyImage[NE]=./images/hackney-carriage_NE.0.0,0,24
-
