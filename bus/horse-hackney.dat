@@ -16,7 +16,7 @@ length=2
 brake_force=1
 rolling_resistance=0
 
-weight=0.5
+weight=0.4
 axle_load=0
 cost=60000
 runningcost=3
@@ -53,7 +53,7 @@ length=2
 brake_force=2
 rolling_resistance=0
 
-weight=1
+weight=0.8
 axle_load=0
 cost=120000
 runningcost=5
@@ -70,4 +70,3 @@ EmptyImage[W]=./images/horse-hackney-double_W.0.0,4,5
 EmptyImage[NW]=./images/horse-hackney-double_NW.0.0,12,10
 EmptyImage[N]=./images/horse-hackney-double_N.0.0,0,33
 EmptyImage[NE]=./images/horse-hackney-double_NE.0.0,0,24
-
