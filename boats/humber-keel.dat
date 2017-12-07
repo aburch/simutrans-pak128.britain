@@ -289,6 +289,7 @@ EmptyImage[NW]=./images/humber-keel.0.5
 EmptyImage[N]=./images/humber-keel.0.6
 EmptyImage[NE]=./images/humber-keel.0.7
 
+# TODO: Fix these graphics - they are out of scale.
 FreightImage[E]=./images/humber-keel-livestock.1.0
 FreightImage[SE]=./images/humber-keel-livestock.1.1
 FreightImage[S]=./images/humber-keel-livestock.1.2
@@ -342,11 +343,4 @@ EmptyImage[NW]=./images/humber-keel.0.5
 EmptyImage[N]=./images/humber-keel.0.6
 EmptyImage[NE]=./images/humber-keel.0.7
 
-FreightImage[E]=./images/humber-keel.7.0
-FreightImage[SE]=./images/humber-keel.7.1
-FreightImage[S]=./images/humber-keel.7.2
-FreightImage[SW]=./images/humber-keel.7.3
-FreightImage[W]=./images/humber-keel.7.4
-FreightImage[NW]=./images/humber-keel.7.5
-FreightImage[N]=./images/humber-keel.7.6
-FreightImage[NE]=./images/humber-keel.7.7
+# TODO: Add loaded images for this.
