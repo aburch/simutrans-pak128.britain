@@ -255,6 +255,7 @@
     <None Include="boats\holds\clyde-cargo-steamer-holds.dat" />
     <None Include="boats\holds\coastal-steamer-holds.dat" />
     <None Include="boats\holds\east-indiaman-holds.dat" />
+    <None Include="boats\holds\humber-keel-mail-hold.dat" />
     <None Include="boats\holds\market-barge-mail.dat" />
     <None Include="boats\holds\market-narrowboat-mail.dat" />
     <None Include="boats\holds\packet-boat-mail.dat" />
@@ -287,6 +288,7 @@
     <None Include="boats\ps-comet.dat" />
     <None Include="boats\ps-industry.dat" />
     <None Include="boats\ps-madge-wildfire.dat" />
+    <None Include="boats\ps-premier-covered.dat" />
     <None Include="boats\ps-premier.dat" />
     <None Include="boats\ps-waverley2.dat" />
     <None Include="boats\river-runner.dat" />
@@ -356,6 +358,7 @@
     <None Include="bus\ford-escort-van.dat" />
     <None Include="bus\ford-transit-connect.dat" />
     <None Include="bus\ford-transit.dat" />
+    <None Include="bus\hansom-cab.dat" />
     <None Include="bus\horse-cleveland-bay.dat" />
     <None Include="bus\horse-clydesdale.dat" />
     <None Include="bus\horse-freisian.dat" />
@@ -1279,7 +1282,6 @@
     <None Include="ways\cast-iron-narrow.dat" />
     <None Include="ways\cast_iron.dat" />
     <None Include="ways\city-road.dat" />
-    <None Include="..\text\citylists\citylist_en.txt" />
     <None Include="..\..\simutrans-experimental-binaries\text\en\citylist_filter.txt" />
     <None Include="config\cityrules.tab" />
     <None Include="boats\boats192\clan-line-steamer.dat" />

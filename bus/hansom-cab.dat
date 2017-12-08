@@ -1,6 +1,7 @@
 # http://www.london-taxi-cabs.com/information/history-of-the-licensed-london-taxi
+# https://en.wikipedia.org/wiki/Hansom_cab
 obj=vehicle
-name=HackneyCarriage
+name=hansom-cab
 copyright=James
 waytype=road
 freight=Passagiere
@@ -8,23 +9,23 @@ payload[0]=0
 payload[1]=0
 payload[2]=0
 payload[3]=2
-speed=12
-weight=0.2
-way_wear_factor=2
-length=3
-cost=10000
+speed=14
+weight=0.1
+way_wear_factor=1
+length=2
+cost=12800
 runningcost=5
-intro_year=1750
-intro_month=1
-retire_year=1845
+intro_year=1834
+intro_month=6
+retire_year=1913
 retire_month=4
-rolling_resistance=40
+rolling_resistance=25
 brake_force=0
 
 comfort[0]=0
 comfort[1]=0
 comfort[2]=0
-comfort[3]=30
+comfort[3]=27
 # Necessary to prohibit this vehicle from bridleways
 axle_load=1
 min_loading_time=7
@@ -47,11 +48,11 @@ Constraint[Prev][11]=road-horse-hackney-double
 
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/hackney-carriage_E.0.0,-33,14
-EmptyImage[SE]=./images/hackney-carriage_SE.0.0,-13,0
-EmptyImage[S]=./images/hackney-carriage_S.0.0,0,0
-EmptyImage[SW]=./images/hackney-carriage_SW.0.0,-8,10
-EmptyImage[W]=./images/hackney-carriage_W.0.0,4,5
-EmptyImage[NW]=./images/hackney-carriage_NW.0.0,12,10
-EmptyImage[N]=./images/hackney-carriage_N.0.0,0,33
-EmptyImage[NE]=./images/hackney-carriage_NE.0.0,0,24
+EmptyImage[E]=./images/hansom-cab_E.0.0,-33,14
+EmptyImage[SE]=./images/hansom-cab_SE.0.0,-13,0
+EmptyImage[S]=./images/hansom-cab_S.0.0,0,0
+EmptyImage[SW]=./images/hansom-cab_SW.0.0,-8,10
+EmptyImage[W]=./images/hansom-cab_W.0.0,4,5
+EmptyImage[NW]=./images/hansom-cab_NW.0.0,12,10
+EmptyImage[N]=./images/hansom-cab_N.0.0,0,33
+EmptyImage[NE]=./images/hansom-cab_NE.0.0,0,24

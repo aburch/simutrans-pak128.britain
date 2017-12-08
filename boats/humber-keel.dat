@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/Humber_Keel
 obj=vehicle
 name=HumberKeelBulk
 copyright=James
@@ -5,7 +6,6 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
 freight=Kohle
 payload=50
 weight=20
@@ -22,10 +22,11 @@ is_tall=1
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -96,7 +97,6 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
 freight=Bretter
 payload=50
 weight=20
@@ -113,10 +113,11 @@ is_tall=1
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -157,7 +158,6 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
 freight=vegetables
 payload=50
 weight=20
@@ -174,10 +174,11 @@ is_tall=1
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -206,7 +207,6 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
 freight=meat
 payload=50
 weight=20
@@ -226,7 +226,8 @@ max_loading_time=3600
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
+range=50
+
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -255,7 +256,6 @@ waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
 freight=livestock
 payload=50
 weight=20
@@ -272,10 +272,11 @@ is_tall=1
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -288,6 +289,7 @@ EmptyImage[NW]=./images/humber-keel.0.5
 EmptyImage[N]=./images/humber-keel.0.6
 EmptyImage[NE]=./images/humber-keel.0.7
 
+# TODO: Fix these graphics - they are out of scale.
 FreightImage[E]=./images/humber-keel-livestock.1.0
 FreightImage[SE]=./images/humber-keel-livestock.1.1
 FreightImage[S]=./images/humber-keel-livestock.1.2
@@ -298,15 +300,15 @@ FreightImage[N]=./images/humber-keel-livestock.1.6
 FreightImage[NE]=./images/humber-keel-livestock.1.7
 ----------------------------------------
 obj=vehicle
-name=HumberKeelMail
+name=HumberKeelPassenger
 copyright=James
 waytype=water
 engine_type=sail
 speed=12
 power=111
-#gear=1200
-freight=Post
-payload=500
+freight=Passagiere
+payload[0]=0
+payload[1]=20
 weight=20
 length=6
 cost=182500
@@ -321,10 +323,14 @@ is_tall=1
 min_loading_time=240
 max_loading_time=360
 
+comfort[0]=0
+comfort[1]=39
+
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -337,11 +343,4 @@ EmptyImage[NW]=./images/humber-keel.0.5
 EmptyImage[N]=./images/humber-keel.0.6
 EmptyImage[NE]=./images/humber-keel.0.7
 
-FreightImage[E]=./images/humber-keel.7.0
-FreightImage[SE]=./images/humber-keel.7.1
-FreightImage[S]=./images/humber-keel.7.2
-FreightImage[SW]=./images/humber-keel.7.3
-FreightImage[W]=./images/humber-keel.7.4
-FreightImage[NW]=./images/humber-keel.7.5
-FreightImage[N]=./images/humber-keel.7.6
-FreightImage[NE]=./images/humber-keel.7.7
+# TODO: Add loaded images for this.
