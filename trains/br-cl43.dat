@@ -51,6 +51,7 @@ liverytype[7]=GNER
 liverytype[8]=National-Express
 liverytype[9]=GC-Original
 liverytype[10]=GC-Daylight
+liverytype[11]=VTEC
 
 EmptyImage[E][0]=./images/br-cl43-bg.0.0
 EmptyImage[SE][0]=./images/br-cl43-bg.0.1
@@ -151,6 +152,15 @@ EmptyImage[NW][10]=./images/br-cl43-gc2.0.5
 EmptyImage[N][10]=./images/br-cl43-gc2.0.6
 EmptyImage[NE][10]=./images/br-cl43-gc2.0.7
 
+EmptyImage[E][11]=./images/br-cl43-front-vtec_E.0.0
+EmptyImage[SE][11]=./images/br-cl43-front-vtec_SE.0.0
+EmptyImage[S][11]=./images/br-cl43-front-vtec_S.0.0
+EmptyImage[SW][11]=./images/br-cl43-front-vtec_SW.0.0
+EmptyImage[W][11]=./images/br-cl43-front-vtec_W.0.0
+EmptyImage[NW][11]=./images/br-cl43-front-vtec_NW.0.0
+EmptyImage[N][11]=./images/br-cl43-front-vtec_N.0.0
+EmptyImage[NE][11]=./images/br-cl43-front-vtec_NE.0.0
+
 ---
 
 obj=vehicle
@@ -206,6 +216,7 @@ liverytype[7]=GNER
 liverytype[8]=National-Express
 liverytype[9]=GC-Original
 liverytype[10]=GC-Daylight
+liverytype[11]=VTEC
 
 EmptyImage[E][0]=./images/br-cl43-bg.1.0
 EmptyImage[SE][0]=./images/br-cl43-bg.1.1
@@ -305,3 +316,12 @@ EmptyImage[W][10]=./images/br-cl43-gc2.1.4
 EmptyImage[NW][10]=./images/br-cl43-gc2.1.5
 EmptyImage[N][10]=./images/br-cl43-gc2.1.6
 EmptyImage[NE][10]=./images/br-cl43-gc2.1.7
+
+EmptyImage[E][11]=./images/br-cl43-rear-vtec_E.0.0
+EmptyImage[SE][11]=./images/br-cl43-rear-vtec_SE.0.0
+EmptyImage[S][11]=./images/br-cl43-rear-vtec_S.0.0
+EmptyImage[SW][11]=./images/br-cl43-rear-vtec_SW.0.0
+EmptyImage[W][11]=./images/br-cl43-rear-vtec_W.0.0
+EmptyImage[NW][11]=./images/br-cl43-rear-vtec_NW.0.0
+EmptyImage[N][11]=./images/br-cl43-rear-vtec_N.0.0
+EmptyImage[NE][11]=./images/br-cl43-rear-vtec_NE.0.0
