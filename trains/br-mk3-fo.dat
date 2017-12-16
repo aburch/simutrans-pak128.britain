@@ -54,6 +54,8 @@ liverytype[6]=GNER
 liverytype[7]=National-Express
 liverytype[8]=GC-Original
 liverytype[9]=GC-Daylight
+liverytype[10]=VTEC
+
 
 EmptyImage[E][0]=./images/br-mk3-fo-bg_E.0.0
 EmptyImage[SE][0]=./images/br-mk3-fo-bg_SE.0.0
@@ -144,6 +146,15 @@ EmptyImage[W][9]=./images/br-mk3-fo-gc2_W.0.0
 EmptyImage[NW][9]=./images/br-mk3-fo-gc2_NW.0.0
 EmptyImage[N][9]=./images/br-mk3-fo-gc2_N.0.0
 EmptyImage[NE][9]=./images/br-mk3-fo-gc2_NE.0.0
+
+EmptyImage[E][10]=./images/br-mk3-fo-vtec_E.0.0
+EmptyImage[SE][10]=./images/br-mk3-fo-vtec_SE.0.0
+EmptyImage[S][10]=./images/br-mk3-fo-vtec_S.0.0
+EmptyImage[SW][10]=./images/br-mk3-fo-vtec_SW.0.0
+EmptyImage[W][10]=./images/br-mk3-fo-vtec_W.0.0
+EmptyImage[NW][10]=./images/br-mk3-fo-vtec_NW.0.0
+EmptyImage[N][10]=./images/br-mk3-fo-vtec_N.0.0
+EmptyImage[NE][10]=./images/br-mk3-fo-vtec_NE.0.0
 
 ---
 
