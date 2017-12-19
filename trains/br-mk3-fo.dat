@@ -55,7 +55,7 @@ liverytype[7]=National-Express
 liverytype[8]=GC-Original
 liverytype[9]=GC-Daylight
 liverytype[10]=VTEC
-
+liverytype[11]=Virgin-original
 
 EmptyImage[E][0]=./images/br-mk3-fo-bg_E.0.0
 EmptyImage[SE][0]=./images/br-mk3-fo-bg_SE.0.0
@@ -156,6 +156,15 @@ EmptyImage[NW][10]=./images/br-mk3-fo-vtec_NW.0.0
 EmptyImage[N][10]=./images/br-mk3-fo-vtec_N.0.0
 EmptyImage[NE][10]=./images/br-mk3-fo-vtec_NE.0.0
 
+EmptyImage[E][11]=./images/br-mk3-fo-vt_E.0.0
+EmptyImage[SE][11]=./images/br-mk3-fo-vt_SE.0.0
+EmptyImage[S][11]=./images/br-mk3-fo-vt_S.0.0
+EmptyImage[SW][11]=./images/br-mk3-fo-vt_SW.0.0
+EmptyImage[W][11]=./images/br-mk3-fo-vt_W.0.0
+EmptyImage[NW][11]=./images/br-mk3-fo-vt_NW.0.0
+EmptyImage[N][11]=./images/br-mk3-fo-vt_N.0.0
+EmptyImage[NE][11]=./images/br-mk3-fo-vt_NE.0.0
+
 ---
 
 obj=vehicle
@@ -212,6 +221,7 @@ liverytype[8]=GC-Original
 liverytype[9]=GC-Daylight
 liverytype[10]=Chiltern-Mainline
 liverytype[11]=Scotrail-original
+liverytype[12]=Virgin-original
 
 EmptyImage[E][0]=./images/br-mk3-fo-bg_E.0.0
 EmptyImage[SE][0]=./images/br-mk3-fo-bg_SE.0.0
@@ -320,3 +330,12 @@ EmptyImage[W][11]=./images/br-mk3-fo-scr_W.0.0
 EmptyImage[NW][11]=./images/br-mk3-fo-scr_NW.0.0
 EmptyImage[N][11]=./images/br-mk3-fo-scr_N.0.0
 EmptyImage[NE][11]=./images/br-mk3-fo-scr_NE.0.0
+
+EmptyImage[E][12]=./images/br-mk3-fo-vt_E.0.0
+EmptyImage[SE][12]=./images/br-mk3-fo-vt_SE.0.0
+EmptyImage[S][12]=./images/br-mk3-fo-vt_S.0.0
+EmptyImage[SW][12]=./images/br-mk3-fo-vt_SW.0.0
+EmptyImage[W][12]=./images/br-mk3-fo-vt_W.0.0
+EmptyImage[NW][12]=./images/br-mk3-fo-vt_NW.0.0
+EmptyImage[N][12]=./images/br-mk3-fo-vt_N.0.0
+EmptyImage[NE][12]=./images/br-mk3-fo-vt_NE.0.0
