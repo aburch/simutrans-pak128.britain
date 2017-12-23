@@ -67,6 +67,7 @@ Constraint[Next][28]=BR-Mk1-BSO-rear
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
 liverytype[2]=Scotrail-original
+liverytype[3]=Virgin-original
 
 EmptyImage[E][0]=./images/br-mk2-tso-bg_E.0
 EmptyImage[SE][0]=./images/br-mk2-tso-bg_SE.0
@@ -94,3 +95,12 @@ EmptyImage[W][2]=./images/br-mk2-to-scr_W.0
 EmptyImage[NW][2]=./images/br-mk2-to-scr_NW.0
 EmptyImage[N][2]=./images/br-mk2-to-scr_N.0
 EmptyImage[NE][2]=./images/br-mk2-to-scr_NE.0
+
+EmptyImage[E][3]=./images/br-mk2-to-vt_E.0
+EmptyImage[SE][3]=./images/br-mk2-to-vt_SE.0
+EmptyImage[S][3]=./images/br-mk2-to-vt_S.0
+EmptyImage[SW][3]=./images/br-mk2-to-vt_SW.0
+EmptyImage[W][3]=./images/br-mk2-to-vt_W.0
+EmptyImage[NW][3]=./images/br-mk2-to-vt_NW.0
+EmptyImage[N][3]=./images/br-mk2-to-vt_N.0
+EmptyImage[NE][3]=./images/br-mk2-to-vt_NE.0
