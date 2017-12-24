@@ -55,6 +55,8 @@ Constraint[Next][23]=4-wheel-1860s-fast-freight
 Constraint[Next][24]=4-wheel-1860s-milk
 Constraint[Next][25]=4-wheel-1870s-fast-freight-unfitted
 Constraint[Next][26]=4-wheel-1870s-milk-unfitted
+Constraint[Next][27]=lmr-4wheel-open-second
+Constraint[Next][28]=lmr-4wheel-open-second-brake
 
 Constraint[Prev][0]=4-wheel-1860s
 Constraint[Prev][1]=4-wheel-1860s-brake-front
@@ -83,6 +85,8 @@ Constraint[Prev][23]=4-wheel-1860s-fast-freight
 Constraint[Prev][24]=4-wheel-1860s-milk
 Constraint[Prev][25]=4-wheel-1870s-fast-freight-unfitted
 Constraint[Prev][26]=4-wheel-1870s-milk-unfitted
+Constraint[Prev][27]=lmr-4wheel-open-second
+Constraint[Prev][28]=lmr-4wheel-open-second-brake
 
 liverytype[0]=LMR-Standard
 liverytype[1]=MR-Early
