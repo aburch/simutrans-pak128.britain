@@ -2831,11 +2831,19 @@ BR Class 442 "Wessex Electric" (driving trailer - rear)
 passenger-wagon
 Passenger wagon
 LMR-4Wheel-First
-Four wheel carriage (enclosed)
+Four wheel carriage (first class)
 LMR-4Wheel-First-Guard-front
-Four wheel brake carriage (enclosed)
+Four wheel brake carriage (first class)
 LMR-4Wheel-First-Guard-rear
-Four wheel brake carriage (enclosed)
+Four wheel brake carriage (first class)
+LMR-4Wheel-Open-Coach
+LMR four wheel carriage (third class)
+LMR-4Wheel-Open-Brake
+LMR four wheel brake carriage (third class)
+lmr-4wheel-open-second
+LMR four wheel open carriage (second class)
+lmr-4wheel-open-second-brake
+LMR four wheel open brake carriage (second class)
 LMR-4Wheel-Parliamentary
 Four wheel Parliamentary carriage
 LMR-4Wheel-TPO
@@ -2996,10 +3004,6 @@ BR-370RestaurantRear
 BR Class 370 APT (rear restaurant car)
 BR-370RestaurantFront
 BR Class 370 APT (front restaurant car)
-LMR-4Wheel-Open-Coach
-LMR four wheel carriage (open)
-LMR-4Wheel-Open-Brake
-LMR four wheel brake carriage (open)
 GNR-6Wheel-First
 GNR six wheel five compartment carriage
 GNR-6Wheel-cor-lav
