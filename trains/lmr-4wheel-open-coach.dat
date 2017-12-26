@@ -1,8 +1,10 @@
+# These are the later, long-wheelbase variety
+# with the sprung buffers, as in the NRM replicas
 obj=vehicle
 name=LMR-4Wheel-Open-Coach
-speed=95
+speed=100
 copyright=Kieron/JamesPetts
-intro_year=1828
+intro_year=1834
 intro_month=7
 retire_year=1850
 retire_month=4
@@ -21,6 +23,7 @@ rolling_resistance=19
 weight=1
 axles=2
 cost=67000
+upgrade_price=15000
 runningcost=6
 
 # This just involves adding awnings.

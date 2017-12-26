@@ -2,8 +2,8 @@ obj=vehicle
 name=LMR-4Wheel-Mail
 speed=100
 copyright=James/jamespetts
-intro_year=1830
-intro_month=2
+intro_year=1834
+intro_month=3
 retire_year=1855
 retire_month=4
 waytype=track
@@ -16,8 +16,8 @@ rolling_resistance=19
 weight=2
 axles=2
 cost=144000
+upgrade_price=15000
 runningcost=9
-
 
 min_loading_time=35
 max_loading_time=120
@@ -117,6 +117,7 @@ rolling_resistance=19
 weight=2
 axles=2
 cost=174000
+upgrade_price=15000
 runningcost=13
 
 min_loading_time=35
@@ -218,8 +219,8 @@ rolling_resistance=19
 weight=2
 axles=2
 cost=150000
+upgrade_price=15000
 runningcost=9
-
 
 min_loading_time=35
 max_loading_time=120
@@ -291,8 +292,8 @@ rolling_resistance=19
 weight=2
 axles=2
 cost=150000
+upgrade_price=15000
 runningcost=9
-
 
 min_loading_time=35
 max_loading_time=120

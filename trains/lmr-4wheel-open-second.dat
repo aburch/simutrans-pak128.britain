@@ -1,9 +1,10 @@
 # http://l7.alamy.com/zooms/308869559f534f3b8ad4e9a7e5044b64/trains-on-the-liverpool-manchester-railway-covered-wagons-for-passengers-erga8k.jpg
+# These are the later, long-wheelbase type with sprung buffers
 obj=vehicle
 name=lmr-4wheel-open-second
-speed=95
+speed=100
 copyright=Kieron/JamesPetts
-intro_year=1828
+intro_year=1834
 intro_month=7
 retire_year=1850
 retire_month=4
@@ -20,7 +21,7 @@ rolling_resistance=19
 weight=1.1
 axles=2
 cost=75000
-upgrade_pric=15000
+upgrade_price=15000
 runningcost=7
 
 comfort[0]=0
