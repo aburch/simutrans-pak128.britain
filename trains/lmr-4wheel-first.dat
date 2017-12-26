@@ -1,9 +1,11 @@
+# This is the later, long wheelbase type
+# as represented by the NRM replicas
 obj=vehicle
 name=LMR-4Wheel-First
 speed=100
 copyright=Kieron/JamesPetts
-intro_year=1830
-intro_month=5
+intro_year=1834
+intro_month=3
 retire_year=1855
 retire_month=4
 waytype=track
@@ -20,6 +22,7 @@ rolling_resistance=19
 weight=2
 axles=2
 cost=144000
+upgrade_price=15000
 runningcost=9
 
 comfort[0]=0
@@ -118,8 +121,8 @@ obj=vehicle
 name=LMR-4Wheel-First-Guard-front
 speed=100
 copyright=Kieron/JamesPetts
-intro_year=1830
-intro_month=5
+intro_year=1834
+intro_month=3
 retire_year=1855
 retire_month=4
 waytype=track
@@ -136,6 +139,7 @@ rolling_resistance=19
 weight=2
 axles=2
 cost=150000
+upgrade_price=15000
 runningcost=9
 
 comfort[0]=0
@@ -207,8 +211,8 @@ obj=vehicle
 name=LMR-4Wheel-First-Guard-rear
 speed=100
 copyright=Kieron/JamesPetts
-intro_year=1830
-intro_month=5
+intro_year=1834
+intro_month=3
 retire_year=1855
 retire_month=4
 waytype=track
@@ -225,6 +229,7 @@ rolling_resistance=19
 weight=2
 axles=2
 cost=150000
+upgrade_price=15000
 runningcost=9
 
 comfort[0]=0
