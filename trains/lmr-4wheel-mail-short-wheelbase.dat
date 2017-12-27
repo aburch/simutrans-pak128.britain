@@ -11,8 +11,13 @@ intro_month=8
 retire_year=1834
 retire_month=7
 waytype=track
-freight=Post
-payload=240
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=12
+overcrowded_capacity=0
 length=3
 brake_force=0
 rolling_resistance=20
@@ -22,6 +27,11 @@ axles=2
 cost=144000
 runningcost=10
 
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=49
 min_loading_time=35
 max_loading_time=120
 
@@ -32,6 +42,7 @@ bidirectional=1
 catering_level=0
 
 # TODO: Constraints
+Constraint[Next][0]=railway-mail-locker
 
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
@@ -60,8 +71,13 @@ intro_month=8
 retire_year=1834
 retire_month=7
 waytype=track
-freight=Post
-payload=240
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=12
+overcrowded_capacity=0
 length=3
 brake_force=1
 rolling_resistance=20
@@ -76,10 +92,16 @@ max_loading_time=120
 
 upgrade[0]=LMR-4Wheel-mail-Guard-front
 
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=49
 can_lead_from_rear=0
 bidirectional=1
 
 # TODO: Constraints
+Constraint[Next][0]=railway-mail-locker
 
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
@@ -107,8 +129,13 @@ intro_month=8
 retire_year=1834
 retire_month=7
 waytype=track
-freight=Post
-payload=240
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=12
+overcrowded_capacity=0
 length=3
 brake_force=1
 rolling_resistance=20
@@ -118,6 +145,11 @@ axles=2
 cost=150000
 runningcost=10
 
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=49
 min_loading_time=35
 max_loading_time=120
 
@@ -128,6 +160,7 @@ bidirectional=1
 catering_level=0
 
 # TODO: Constraints
+Constraint[Next][0]=railway-mail-locker-rear
 
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early

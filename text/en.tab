@@ -2848,12 +2848,16 @@ l&s-composite-carriage-brake-rear
 Light composite brake carriage
 l&s-open-carriage
 Light open carriage
+railway-mail-locker
+Mail locker
+railway-mail-locker-rear
+Mail locker
 LMR-4Wheel-mail-short-wheelbase
-Four wheel mail carriage
+Four wheel mail carriage (+ mail locker)
 LMR-4Wheel-mail-short-wheelbase-Guard-front
-Four wheel mail brake carriage
+Four wheel mail brake carriage (+ mail locker)
 LMR-4Wheel-mail-short-wheelbase-Guard-rear
-Four wheel mail brake carriage
+Four wheel mail brake carriage (+ mail locker)
 lmr-4wheel-open-coach-short-wheelbase-covered
 Four wheel covered carriage (second class)
 lmr-4wheel-open-coach-short-wheelbase
@@ -2879,11 +2883,11 @@ Four wheel Parliamentary carriage
 LMR-4Wheel-TPO
 Four wheel TPO
 LMR-4Wheel-Mail
-Four wheel mail carriage
+Four wheel mail carriage (+ mail locker)
 LMR-4Wheel-Mail-Guard-front
-Four wheel mail/brake carriage
+Four wheel mail/brake carriage (+ mail locker)
 LMR-4Wheel-Mail-Guard-rear
-Four wheel mail/brake carriage (rear)
+Four wheel mail/brake carriage (+ mail locker)
 b&djr-4wheel-first
 Four wheel carriage (first class)
 b&djr-4wheel-first-Guard-front
@@ -6010,9 +6014,9 @@ Stage coach (braked)
 short-stagecoach
 Short stage coach
 MailCoach
-Mail coach (sprung)
+Mail coach (sprung) (+ mail boot)
 mailcoach-regency
-Mail coach (braked)
+Mail coach (braked) (+ mail boot)
 mail-boot
 Mail boot
 OmnibusSingle
