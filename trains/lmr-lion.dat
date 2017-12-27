@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=45
 # Estimated
-power=28
+power=40
 tractive_effort=9
 copyright=Kieron
 intro_year=1837
@@ -17,11 +17,12 @@ payload=0
 length=3
 brake_force=0
 rolling_resistance=19
-way_wear_factor=44225
+way_wear_factor=31988
 
-# No Ahrons data available, guessed from contemporary locomotives.
-weight=23
-axle_load=8
+# No Ahrons data available, guessed from contemporary locomotives
+# (See e.g. p. 24 Ahrons)
+weight=16.5
+axle_load=6
 cost=4640000
 runningcost=600
 sound=lwalker-br-4mt-tank.wav
