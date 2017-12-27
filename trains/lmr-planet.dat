@@ -1,3 +1,4 @@
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-2-0&railroad=lm
 obj=vehicle
 name=LMR-Planet
 engine_type=steam
@@ -30,6 +31,7 @@ way_wear_factor=14600
 
 # Weight confirmed by Ahrons, p. 19
 weight=8
+axle_load=5
 cost=4752000
 runningcost=640
 sound=lwalker-br-4mt-tank.wav

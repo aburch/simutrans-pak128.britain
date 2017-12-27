@@ -164,8 +164,6 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-Constraint[Prev][0]=4-wheel-1860s
-
 #TODO: Add constraints
 
 liverytype[0]=LMR-Standard
