@@ -6,7 +6,8 @@ speed=10
 # Based on real performance data of a locomotive said to be similar to this at p. 21 of this ebook:
 # https://ia600309.us.archive.org/17/items/evolutionofsteam00nokerich/evolutionofsteam00nokerich.pdf
 power=8
-tractive_effort=4
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=0-4-0&railroad=wylam
+tractive_effort=1
 copyright=James
 intro_year=1813
 intro_month=10
@@ -19,7 +20,8 @@ length=2
 brake_force=0
 rolling_resistance=19
 
-weight=6
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=0-4-0&railroad=wylam
+weight=9.1
 axles=2
 cost=924000
 runningcost=60
