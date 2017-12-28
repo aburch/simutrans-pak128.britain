@@ -19,10 +19,10 @@ payload=0
 length=3
 brake_force=0
 rolling_resistance=19
-way_wear_factor=18250
+way_wear_factor=20958
 
-#Weight confirmed by Ahrons, p. 20
-weight=10
+# Weight given by Ahrons, p. 20
+weight=10.1
 cost=4752000
 runningcost=640
 sound=lwalker-br-4mt-tank.wav
