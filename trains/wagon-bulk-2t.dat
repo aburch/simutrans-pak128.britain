@@ -1,9 +1,9 @@
 # https://en.wikipedia.org/wiki/Chaldron
 obj=vehicle
 name=Bulk2T
-speed=10
+speed=25
 copyright=Kieron
-intro_year=1750
+intro_year=1763
 intro_month=1
 retire_year=1918
 retire_month=11
@@ -11,10 +11,7 @@ waytype=track
 freight=Kohle
 payload=2
 length=2
-# These had manual brakes - at these low speeds,
-# the train guards could run alongside the trains
-# and operate the brakes.
-brake_force=1
+brake_force=0
 rolling_resistance=20
 
 weight=1
