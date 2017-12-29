@@ -7746,9 +7746,13 @@ Ultraspeed Class M30 "Platinum Jubilee" (rear)
 waggonway
 Wooden waggonway
 plateway
-Iron plated waggonway
+Strap iron waggonway
 cast_iron_track
 Cast iron track
+wrought_iron_fishbelly_track
+Wrought iron fishbelly track (28lb/yard)
+wrought_iron_fishbelly_heavy_track
+Wrought iron fishbelly track (35lb/yard)
 wrought_iron_light_track
 Wrought iron track (40lb/yard)
 wrought_iron_intermediate_track
@@ -7791,10 +7795,12 @@ tgv
 Steel track (high speed) - hard base (60kg/m)
 rail-mothballed
 Mothballed railway track
-cast_iron_N
-Cast iron narrow gauge track
+fishbelly_N
+Wrought iron fishbelly narrow gauge track (16lb/yard)
 wrought_iron_N
-Wrought iron narrow gauge track (30lb/yard)
+Wrought iron narrow gauge track (18lb/yard)
+wrought_iron_improved_N
+Wrought iron narrow gauge track (46lb/yard)
 wssrN
 Steel narrow gauge track (40lb/yard)
 wssrN-improved
