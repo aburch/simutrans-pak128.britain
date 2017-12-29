@@ -785,6 +785,14 @@ Crossing1750
 Open crossing
 Crossing1850
 Open crossing
+crossing-dirt-iron
+Open crossing
+crossing-cobbles-wood-waggonway
+Open crossing
+crossing-cobbles-iron-waggonway
+Open crossing
+crossing-dirt-iron-waggonway
+Open crossing
 #_____________________________________depot______________________________________
 #_____________________________________depot______________________________________
 AirHangarOld
@@ -7735,8 +7743,10 @@ BR-Ultra-520DD(rear)
 Ultraspeed Class M30 "Platinum Jubilee" (rear)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
+waggonway
+Wooden waggonway
 plateway
-Waggonway
+Iron plated waggonway
 cast_iron_track
 Cast iron track
 wrought_iron_light_track
