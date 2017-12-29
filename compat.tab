@@ -1626,8 +1626,19 @@ IND_A_01_20
 IND_A_1835_01_20
 COM_SAR_1860_00_24
 COM_SAR_1880_00_24
-############################ Railway carriage improvement/classes #####################
+########################## Railway carriage improvement/classes ###################
 lmr-4wheel-open-second-brake
 LMR-4Wheel-First-Guard-rear
 LMR-4Wheel-Open-Brake
 LMR-4Wheel-First-Guard-rear
+############################ Wagon re-organisation/deprecation #####################
+PieceEarly2
+PieceEarly1
+LivestockEarly2
+LivestockEarly1
+CoolEarly2
+CoolEarly1
+LongEarly2
+LongEarly1
+Bulk3T
+Bulk2T

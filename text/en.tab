@@ -4934,10 +4934,18 @@ BR-378Middle-unpowered
 BR London Overground Class 378 EMU (centre)
 BR-378Rear
 BR London Overground Class 378 EMU (rear)
+wagon-bulk-wooden-wheels
+Wooden 2t bulk "chaldron" wagon
+wagon-long-wooden-wheels
+Wooden flat wagon
+wagon-cool-wooden-wheels
+Wooden food wagon
+wagon-piece-wooden-wheels
+Wooden goods wagon
 LivestockEarly1
-Livestock truck
+Livestock wagon
 LivestockEarly2
-Livestock wagon (small)
+[DEPRECATED] Livestock wagon (small)
 LivestockEarly3
 Livestock wagon
 LivestockD21
@@ -4951,9 +4959,9 @@ Cartruck
 Wagon3CarBogie
 Carflat FW
 PieceEarly1
-Goods truck
+Goods wagon
 PieceEarly2
-Goods wagon (small)
+[DEPRECATED] Goods wagon (small)
 PieceEarly3
 Goods wagon
 PieceD32
@@ -4973,9 +4981,9 @@ FAA container flat
 CoolContainer
 FAA container flat (refrigerated containers)
 CoolEarly1
-Food truck
+Food wagon
 CoolEarly2
-Food wagon (small)
+[DEPRECATED] Food wagon (small)
 CoolEarly3
 Food wagon
 CoolD32
@@ -4993,9 +5001,9 @@ BR refrigerated van
 milk-van
 Food van (passenger rated)
 LongEarly1
-Open truck
+Flat wagon
 LongEarly2
-Open wagon (small)
+[DEPRECATED] Open wagon (small)
 LongEarly3
 Open wagon
 LongD1
