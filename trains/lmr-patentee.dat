@@ -9,7 +9,7 @@ smoke=Steam
 speed=80
 power=37
 # Calculated from data from Ahrons, pp. 22-4
-# Loss factor set at 0.5.37
+# Loss factor set at 0.5
 tractive_effort=5
 copyright=James
 intro_year=1833
@@ -22,11 +22,12 @@ payload=0
 length=3
 brake_force=0
 rolling_resistance=19
-way_wear_factor=25125
+way_wear_factor=23728
 
 # Weight not available in Ahrons, guessed on basis of 1t more than "Planet".
 weight=9
-axles=3
+# http://www.steamlocomotive.com/locobase.php?country=Great_Britain&wheel=2-2-2&railroad=lm
+axle_load=4
 cost=7257600
 runningcost=770
 sound=lwalker-br-4mt-tank.wav
