@@ -9,8 +9,11 @@ Name=wrought_iron_fishbelly_heavy_track
 waytype=track
 cost=31700
 maintenance=765
-# See: http://www.rainhilltrials.com/index.cfm/page/article/id/46/listid/27/title/The%20Liverpool%20and%20Manchester%201830%20Onwards
-topspeed=27
+# The following suggests a limit of 27km/h:
+# http://www.rainhilltrials.com/index.cfm/page/article/id/46/listid/27/title/The%20Liverpool%20and%20Manchester%201830%20Onwards
+# However, this is doubtful, as higher speeds on the LMR, which was laid with this track initially and until 1835,
+# are recorded in many sources, e.g. Ahrons p. 65. 
+topspeed=80
 max_weight=6
 intro_year=1827
 intro_month=8
