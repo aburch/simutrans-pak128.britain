@@ -12,12 +12,13 @@ retire_year=1845
 retire_month=4
 waytype=track
 freight=Passagiere
-# Payload assumed to be the same as for the (unillustrated)
-# Birmingham & Derby Junction thirds of 1839: see Lacy & Dow
-# p. 6.
+# The payload of the (unillustrated) Birmingham
+# & Derby Junction thirds of 1839 was 40: see Lacy
+# & Dow p. 6.  However, these are smaller carriages.
+# Their capacity is assumed to be lower.
 payload[0]=0
-payload[1]=40
-overcrowded_capacity=20
+payload[1]=30
+overcrowded_capacity=15
 length=2
 brake_force=0
 rolling_resistance=19
