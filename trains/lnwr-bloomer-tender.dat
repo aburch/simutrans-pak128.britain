@@ -3,8 +3,8 @@ name=LNWR-Bloomer-Tender
 engine_type=steam
 speed=115
 copyright=James
-intro_year=1845
-intro_month=4
+intro_year=1844
+intro_month=12
 retire_year=1866
 retire_month=10
 waytype=track
@@ -20,13 +20,13 @@ axles=3
 cost=0
 runningcost=0
 
-
 Constraint[Prev][0]=LNWR-Bloomer
 Constraint[Prev][1]=LNWR-extra-large-bloomer
 Constraint[Prev][2]=LNWR-small-bloomer
 Constraint[Prev][3]=LNWR-Sharp-goods
 Constraint[Prev][4]=LNWR-crewe-type
 Constraint[Prev][5]=LNWR-mcconnell-large-single
+Constraint[Prev][6]=lnwr-crewe-type-goods
 
 liverytype[0]=LNWR-Early
 liverytype[1]=LNWR-Black
