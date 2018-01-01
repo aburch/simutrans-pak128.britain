@@ -2,8 +2,8 @@ obj=vehicle
 name=lmr-4wheel-open-coach-short-wheelbase-covered
 speed=75
 copyright=Kieron/JamesPetts
-intro_year=1829
-intro_month=8
+intro_year=1831
+intro_month=1
 retire_year=1834
 retire_month=7
 waytype=track
@@ -35,8 +35,9 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-# TODO: Constraints
+Constraint[Next][0]=any
 
+# TODO: Multiple liveries
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
 #liverytype[2]=LNWR-Early

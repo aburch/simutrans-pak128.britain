@@ -32,7 +32,9 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-# TODO: Constraints/liveries
+Constraint[Next][0]=any
+
+# TODO: Liveries
 
 EmptyImage[E]=./images/mcr-4wheel-open-second_E.0.0
 EmptyImage[SE]=./images/mcr-4wheel-open-second_SE.0.0
@@ -87,7 +89,9 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-# TODO: Constraints/liveries
+Constraint[Next][0]=any
+
+# TODO: Liveries
 
 EmptyImage[E]=./images/mcr-4wheel-open-second-brake-front_E.0.0
 EmptyImage[SE]=./images/mcr-4wheel-open-second-brake-front_SE.0.0
@@ -142,7 +146,7 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-# TODO: Constraints/liveries
+# TODO: Liveries
 
 EmptyImage[E]=./images/mcr-4wheel-open-second-brake-rear_E.0.0
 EmptyImage[SE]=./images/mcr-4wheel-open-second-brake-rear_SE.0.0

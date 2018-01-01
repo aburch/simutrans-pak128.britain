@@ -31,8 +31,9 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-#TODO: Add constraints
+Constraint[Next][0]=any
 
+#TODO: Add liveries
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
 #liverytype[2]=LNWR-Early
@@ -92,7 +93,9 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-#TODO: Add constraints
+Constraint[Next][0]=any
+
+#TODO: Add liveries
 
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
@@ -153,7 +156,7 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-#TODO: Add constraints
+#TODO: Add liveries
 
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
