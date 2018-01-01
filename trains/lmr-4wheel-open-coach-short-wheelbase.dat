@@ -34,8 +34,9 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-# TODO: Constraints
+Constraint[Next][0]=any
 
+# TODO: Multiple liveries
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
 #liverytype[2]=LNWR-Early

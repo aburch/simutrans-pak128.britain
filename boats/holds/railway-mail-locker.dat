@@ -22,7 +22,7 @@ Constraint[Prev][2]=LMR-4Wheel-mail-short-wheelbase-Guard-front
 Constraint[Prev][3]=LMR-4Wheel-Mail-Guard-front
 Constraint[Prev][4]=gjr-bed-carriage
 
-# TODO: Add next constraints
+Constraint[Next][0]=any
 
 EmptyImage[E]=../images/holds.0.1,40,56
 EmptyImage[SE]=../images/holds.0.1,48,40
@@ -62,8 +62,6 @@ max_loading_time=120
 
 Constraint[Prev][0]=LMR-4Wheel-mail-short-wheelbase-Guard-rear
 Constraint[Prev][1]=LMR-4Wheel-Mail-Guard-rear
-
-# TODO: Add next constraints
 
 EmptyImage[E]=../images/holds.0.1,40,56
 EmptyImage[SE]=../images/holds.0.1,48,40

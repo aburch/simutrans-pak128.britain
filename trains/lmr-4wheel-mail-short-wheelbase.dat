@@ -41,9 +41,9 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-# TODO: Constraints
 Constraint[Next][0]=railway-mail-locker
 
+# TODO: Multiple liveries
 liverytype[0]=LMR-Standard
 #liverytype[1]=MR-Early
 #liverytype[2]=LNWR-Early
@@ -100,7 +100,6 @@ comfort[4]=49
 can_lead_from_rear=0
 bidirectional=1
 
-# TODO: Constraints
 Constraint[Next][0]=railway-mail-locker
 
 liverytype[0]=LMR-Standard
@@ -159,7 +158,6 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-# TODO: Constraints
 Constraint[Next][0]=railway-mail-locker-rear
 
 liverytype[0]=LMR-Standard

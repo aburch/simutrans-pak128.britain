@@ -33,7 +33,9 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-# TODO: Constraints/liveries
+Constraint[Next][0]=any
+
+# TODO: Liveries
 
 EmptyImage[E]=./images/mcr-4wheel-open-third_E.0.0
 EmptyImage[SE]=./images/mcr-4wheel-open-third_SE.0.0
