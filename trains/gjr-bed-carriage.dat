@@ -6,8 +6,8 @@ speed=125
 copyright=James/jamespetts
 intro_year=1838
 intro_month=2
-retire_year=1855
-retire_month=4
+retire_year=1842
+retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -39,9 +39,7 @@ bidirectional=1
 
 Constraint[Next][0]=railway-mail-locker
 
-# TODO: Prev. constraints
-
-# TODO: Consider setting liveries here
+# TODO: Multiple liveries
 liverytype[0]=LMR-Standard
 
 EmptyImage[E][0]=./images/gjr-bed-carriage_E.0.0
