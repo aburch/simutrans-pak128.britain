@@ -2902,9 +2902,7 @@ LMR-4Wheel-Mail-Guard-rear
 Four wheel mail/brake carriage (+ mail locker)
 lbr-4wheel-open-second
 Four wheel open sided carriage (second class)
-lbr-4wheel-open-second-brake-front
-Four wheel open sided brake carriage (second class)
-lbr-4wheel-open-second-brake-rear
+lbr-4wheel-open-second-brake
 Four wheel open sided brake carriage (second class)
 b&djr-4wheel-first
 Four wheel carriage (first class)
@@ -2928,6 +2926,20 @@ mcr-4wheel-open-second-brake-rear
 Four wheel open sided brake carriage (second class)
 mcr-4wheel-open-third
 Four wheel open carriage (third class)
+mr-4wheel-composite
+Four wheel composite carriage (first/second class)
+mr-4wheel-1848-first
+Four wheel three compartment carriage (first class)
+mr-4wheel-1848-first-brake-front
+Four wheel three compartment front brake carriage (first class)
+mr-4wheel-1848-first-brake-rear
+Four wheel three compartment rear brake carriage (first class)
+mr-4wheel-1848-second
+Four wheel three compartment carriage (second class)
+mr-4wheel-1848-second-brake-front
+Four wheel three compartment front brake carriage (second class)
+mr-4wheel-1848-second-brake-rear
+Four wheel three compartment rear brake carriage (second class)
 4-wheel-1850s
 Four wheel three compartment carriage
 4-wheel-1850s-brake
