@@ -5,7 +5,7 @@ engine_type=steam
 smoke=Steam
 speed=30
 # Extrapolated from estimated data (no grate area data available)
-power=31
+power=27
 # Tractive effort value calculated from data from Ahrons (p. 22)
 # Loss factor set to 0.5, pressure was 70lb.
 tractive_effort=14
