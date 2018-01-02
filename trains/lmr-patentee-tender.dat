@@ -1,12 +1,12 @@
 obj=vehicle
 name=LMR-Patentee-Tender
 engine_type=steam
-speed=85
+speed=96
 copyright=Kieron
 intro_year=1833
 intro_month=6
-retire_year=1847
-retire_month=6
+retire_year=1851
+retire_month=2
 waytype=track
 freight=None
 payload=0
@@ -25,6 +25,7 @@ Constraint[Prev][0]=LMR-Patentee
 Constraint[Prev][1]=LMR-Bird
 Constraint[Prev][2]=stephenson-2-2-2
 Constraint[Prev][3]=tayleur-2-2-2
+Constraint[Prev][4]=hawthorn-2-2-2
 
 EmptyImage[E]=./images/lmr-planet-tender_E.0.0
 EmptyImage[SE]=./images/lmr-planet-tender_SE.0.0
