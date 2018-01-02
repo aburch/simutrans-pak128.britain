@@ -4,7 +4,7 @@ name=stephenson-long-boiler-goods
 engine_type=steam
 smoke=Steam
 speed=56
-power=66
+power=70
 # Calculated from data from Ahrons, p. 58
 # Loss factor set at 0.6, assumed 80lbs pressure as in the earlier engines.
 tractive_effort=22
