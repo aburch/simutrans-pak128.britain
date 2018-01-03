@@ -3033,15 +3033,21 @@ LBSCR four wheel mail/brake carriage
 LBSCR-craven-mail
 LBSCR four wheel mail carriage
 LBSCR-20ft-third
-LBSCR four wheel four compartment carriage (20ft)
+Four wheel four compartment carriage (third class)
 LBSCR-20ft-brake-front
-LBSCR four wheel two compartment brake carriage (20ft)
+Four wheel two compartment brake carriage (composite)
 LBSCR-20ft-brake-rear
-LBSCR four wheel two compartment brake carriage (rear) (20ft)
+Four wheel two compartment brake carriage (composite)
+LBSCR-20ft-brake-third
+Four wheel two compartment brake carriage (third class)
 LBSCR-20ft-mail
-LBSCR four wheel mail carriage (20ft)
+Four wheel mail carriage
 LBSCR-20ft-full-brake
-LBSCR four wheel mail/brake carriage (20ft)
+Four wheel mail/brake carriage
+LBSCR-20ft-first
+Four wheel three compartment carriage (first class)
+LBSCR-20ft-composite
+Four wheel three compartment carriage (composite)
 LBSCR-4Wheel-First
 LBSCR four wheel four compartment carriage
 LBSCR-4Wheel-Second
@@ -5617,7 +5623,7 @@ LBSCR long boiler engine (mixed traffic) 2-4-0
 LBSCR-light-tank
 LBSCR Kemp Town tank 2-4-0T
 LBSCR-single-well-tank
-LBSCR aingle well tank 2-2-2
+LBSCR single well tank 2-2-2
 LBSCR-G
 LBSCR G class 2-2-2
 LBSCR-croydon
@@ -9026,6 +9032,10 @@ Grey-Green
 Grey Green
 Go-Ahead-London
 Go Ahead London
+Virgin-Trains
+Virgin Trains
+Trainload-Freight
+Trainload Freight
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]

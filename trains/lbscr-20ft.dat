@@ -1,9 +1,12 @@
-# These are assumed to be four a side seating.
+# Assume four aside in the thirds -
+# a better class of third class carriage
+# than the early 1850s examples with
+# outside frames.
 
 obj=vehicle
 name=LBSCR-20ft-third
-speed=125
-copyright=Kieron/James
+speed=135
+copyright=Kieron/James/JamesPetts
 intro_year=1855
 intro_month=1
 retire_year=1866
@@ -24,6 +27,8 @@ runningcost=15
 
 comfort[0]=0
 comfort[1]=37
+comfort[2]=44
+comfort[3]=69
 min_loading_time=17
 max_loading_time=47
 
@@ -32,21 +37,24 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/lbscr-4wheel-20ft-third.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-20ft-third.1.5
-EmptyImage[S]=./images/lbscr-4wheel-20ft-third.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-20ft-third.1.7
-EmptyImage[W]=./images/lbscr-4wheel-20ft-third.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-20ft-third.1.1
-EmptyImage[N]=./images/lbscr-4wheel-20ft-third.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-20ft-third.1.3
+# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
+liverytype[0]=LBSCR-Early
+
+EmptyImage[E][0]=./images/lbscr-4wheel-20ft-third_E.0.0
+EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-third_SE.0.0
+EmptyImage[S][0]=./images/lbscr-4wheel-20ft-third_S.0.0
+EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-third_SW.0.0
+EmptyImage[W][0]=./images/lbscr-4wheel-20ft-third_W.0.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-third_NW.0.0
+EmptyImage[N][0]=./images/lbscr-4wheel-20ft-third_N.0.0
+EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-third_NE.0.0
 
 ---
 
 obj=vehicle
-name=LBSCR-20ft-brake-front
-speed=125
-copyright=Kieron/James
+name=LBSCR-20ft-first
+speed=135
+copyright=Kieron/James/JamesPetts
 intro_year=1855
 intro_month=1
 retire_year=1866
@@ -54,19 +62,23 @@ retire_month=7
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=16
-overcrowded_capacity=8
+payload[1]=0
+payload[2]=0
+payload[3]=18
+overcrowded_capacity=6
 length=4
-brake_force=2
+brake_force=0
 rolling_resistance=19
 
 weight=6
 axles=2
-cost=187000
-runningcost=16
+cost=191000
+runningcost=15
 
 comfort[0]=0
 comfort[1]=37
+comfort[2]=44
+comfort[3]=69
 min_loading_time=17
 max_loading_time=47
 
@@ -75,21 +87,173 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/lbscr-4wheel-20ft-brake-third-front.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-20ft-brake-third-front.1.5
-EmptyImage[S]=./images/lbscr-4wheel-20ft-brake-third-front.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-20ft-brake-third-front.1.7
-EmptyImage[W]=./images/lbscr-4wheel-20ft-brake-third-front.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-20ft-brake-third-front.1.1
-EmptyImage[N]=./images/lbscr-4wheel-20ft-brake-third-front.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-20ft-brake-third-front.1.3
+# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
+liverytype[0]=LBSCR-Early
+
+EmptyImage[E][0]=./images/lbscr-4wheel-20ft-first_E.0.0
+EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-first_SE.0.0
+EmptyImage[S][0]=./images/lbscr-4wheel-20ft-first_S.0.0
+EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-first_SW.0.0
+EmptyImage[W][0]=./images/lbscr-4wheel-20ft-first_W.0.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-first_NW.0.0
+EmptyImage[N][0]=./images/lbscr-4wheel-20ft-first_N.0.0
+EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-first_NE.0.0
+
+---
+
+obj=vehicle
+name=LBSCR-20ft-composite
+speed=135
+copyright=Kieron/James/JamesPetts
+intro_year=1855
+intro_month=1
+retire_year=1866
+retire_month=7
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=16
+payload[3]=6
+overcrowded_capacity=6
+length=4
+brake_force=0
+rolling_resistance=19
+
+weight=6
+axles=2
+cost=189500
+runningcost=15
+
+comfort[0]=0
+comfort[1]=37
+comfort[2]=44
+comfort[3]=69
+min_loading_time=17
+max_loading_time=47
+
+can_lead_from_rear=0
+bidirectional=1
+
+Constraint[Next][0]=any
+
+# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
+liverytype[0]=LBSCR-Early
+
+EmptyImage[E][0]=./images/lbscr-4wheel-20ft-first_E.0.0
+EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-first_SE.0.0
+EmptyImage[S][0]=./images/lbscr-4wheel-20ft-first_S.0.0
+EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-first_SW.0.0
+EmptyImage[W][0]=./images/lbscr-4wheel-20ft-first_W.0.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-first_NW.0.0
+EmptyImage[N][0]=./images/lbscr-4wheel-20ft-first_N.0.0
+EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-first_NE.0.0
+
+---
+
+# A first/second composite
+obj=vehicle
+name=LBSCR-20ft-brake-front
+speed=135
+copyright=Kieron/James/JamesPetts
+intro_year=1855
+intro_month=1
+retire_year=1866
+retire_month=7
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=8
+payload[3]=6
+overcrowded_capacity=4
+length=4
+brake_force=2
+rolling_resistance=19
+
+weight=6
+axles=2
+cost=192000
+runningcost=16
+
+comfort[0]=0
+comfort[1]=37
+comfort[2]=44
+comfort[3]=69
+min_loading_time=17
+max_loading_time=47
+
+can_lead_from_rear=0
+bidirectional=1
+
+Constraint[Next][0]=any
+
+# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
+liverytype[0]=LBSCR-Early
+
+EmptyImage[E][0]=./images/lbscr-4wheel-20ft-brake-composite-front_E.0.0
+EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-brake-composite-front_SE.0.0
+EmptyImage[S][0]=./images/lbscr-4wheel-20ft-brake-composite-front_S.0.0
+EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-brake-composite-front_SW.0.0
+EmptyImage[W][0]=./images/lbscr-4wheel-20ft-brake-composite-front_W.0.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-brake-composite-front_NW.0.0
+EmptyImage[N][0]=./images/lbscr-4wheel-20ft-brake-composite-front_N.0.0
+EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-brake-composite-front_NE.0.0
 
 ---
 
 obj=vehicle
 name=LBSCR-20ft-brake-rear
-speed=125
-copyright=Kieron/James
+speed=135
+copyright=Kieron/James/JamesPetts
+intro_year=1855
+intro_month=1
+retire_year=1866
+retire_month=7
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=8
+payload[3]=6
+overcrowded_capacity=4
+length=4
+brake_force=2
+rolling_resistance=19
+
+weight=6
+axles=2
+cost=187000
+runningcost=16
+
+comfort[0]=0
+comfort[1]=37
+comfort[2]=44
+comfort[3]=69
+min_loading_time=17
+max_loading_time=47
+
+can_lead_from_rear=0
+bidirectional=1
+
+# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
+liverytype[0]=LBSCR-Early
+
+EmptyImage[E][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_E.0.0
+EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_SE.0.0
+EmptyImage[S][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_S.0.0
+EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_SW.0.0
+EmptyImage[W][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_W.0.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_NW.0.0
+EmptyImage[N][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_N.0.0
+EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_NE.0.0
+
+---
+
+obj=vehicle
+name=LBSCR-20ft-brake-third
+speed=135
+copyright=Kieron/James/JamesPetts
 intro_year=1855
 intro_month=1
 retire_year=1866
@@ -110,27 +274,32 @@ runningcost=16
 
 comfort[0]=0
 comfort[1]=37
+comfort[2]=44
+comfort[3]=69
 min_loading_time=17
 max_loading_time=47
 
 can_lead_from_rear=0
 bidirectional=1
 
-EmptyImage[E]=./images/lbscr-4wheel-20ft-brake-third-rear.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-20ft-brake-third-rear.1.5
-EmptyImage[S]=./images/lbscr-4wheel-20ft-brake-third-rear.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-20ft-brake-third-rear.1.7
-EmptyImage[W]=./images/lbscr-4wheel-20ft-brake-third-rear.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-20ft-brake-third-rear.1.1
-EmptyImage[N]=./images/lbscr-4wheel-20ft-brake-third-rear.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-20ft-brake-third-rear.1.3
+# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
+liverytype[0]=LBSCR-Early
+
+EmptyImage[E][0]=./images/lbscr-4wheel-20ft-brake-third_E.0.0
+EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-brake-third_SE.0.0
+EmptyImage[S][0]=./images/lbscr-4wheel-20ft-brake-third_S.0.0
+EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-brake-third_SW.0.0
+EmptyImage[W][0]=./images/lbscr-4wheel-20ft-brake-third_W.0.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-brake-third_NW.0.0
+EmptyImage[N][0]=./images/lbscr-4wheel-20ft-brake-third_N.0.0
+EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-brake-third_NE.0.0
 
 ---
 
 obj=vehicle
 name=LBSCR-20ft-full-brake
-speed=125
-copyright=Kieron/James
+speed=135
+copyright=Kieron/James/JamesPetts
 intro_year=1855
 intro_month=1
 retire_year=1866
@@ -153,21 +322,24 @@ max_loading_time=100
 can_lead_from_rear=0
 bidirectional=1
 
-EmptyImage[E]=./images/lbscr-4wheel-20ft-full-brake.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-20ft-full-brake.1.5
-EmptyImage[S]=./images/lbscr-4wheel-20ft-full-brake.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-20ft-full-brake.1.7
-EmptyImage[W]=./images/lbscr-4wheel-20ft-full-brake.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-20ft-full-brake.1.1
-EmptyImage[N]=./images/lbscr-4wheel-20ft-full-brake.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-20ft-full-brake.1.3
+# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
+liverytype[0]=LBSCR-Early
+
+EmptyImage[E][0]=./images/lbscr-4wheel-20ft-full-brake_E.0.0
+EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-full-brake_SE.0.0
+EmptyImage[S][0]=./images/lbscr-4wheel-20ft-full-brake_S.0.0
+EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-full-brake_SW.0.0
+EmptyImage[W][0]=./images/lbscr-4wheel-20ft-full-brake_W.0.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-full-brake_NW.0.0
+EmptyImage[N][0]=./images/lbscr-4wheel-20ft-full-brake_N.0.0
+EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-full-brake_NE.0.0
 
 ---
 
 obj=vehicle
 name=LBSCR-20ft-mail
-speed=125
-copyright=Kieron/James
+speed=135
+copyright=Kieron/James/JamesPetts
 intro_year=1855
 intro_month=1
 retire_year=1866
@@ -192,11 +364,14 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/lbscr-4wheel-20ft-mail.1.4
-EmptyImage[SE]=./images/lbscr-4wheel-20ft-mail.1.5
-EmptyImage[S]=./images/lbscr-4wheel-20ft-mail.1.6
-EmptyImage[SW]=./images/lbscr-4wheel-20ft-mail.1.7
-EmptyImage[W]=./images/lbscr-4wheel-20ft-mail.1.0
-EmptyImage[NW]=./images/lbscr-4wheel-20ft-mail.1.1
-EmptyImage[N]=./images/lbscr-4wheel-20ft-mail.1.2
-EmptyImage[NE]=./images/lbscr-4wheel-20ft-mail.1.3
+# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
+liverytype[0]=LBSCR-Early
+
+EmptyImage[E][0]=./images/lbscr-4wheel-20ft-mail_E.0.0
+EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-mail_SE.0.0
+EmptyImage[S][0]=./images/lbscr-4wheel-20ft-mail_S.0.0
+EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-mail_SW.0.0
+EmptyImage[W][0]=./images/lbscr-4wheel-20ft-mail_W.0.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-mail_NW.0.0
+EmptyImage[N][0]=./images/lbscr-4wheel-20ft-mail_N.0.0
+EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-mail_NE.0.0
