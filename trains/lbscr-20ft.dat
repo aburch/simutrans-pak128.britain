@@ -20,7 +20,8 @@ length=4
 brake_force=0
 rolling_resistance=19
 
-weight=6
+# Guessed
+weight=8.2
 axles=2
 cost=187000
 runningcost=15
@@ -70,7 +71,7 @@ length=4
 brake_force=0
 rolling_resistance=19
 
-weight=6
+weight=8.3
 axles=2
 cost=191000
 runningcost=15
@@ -120,9 +121,59 @@ length=4
 brake_force=0
 rolling_resistance=19
 
-weight=6
+weight=8.3
 axles=2
 cost=189500
+runningcost=15
+
+comfort[0]=0
+comfort[1]=37
+comfort[2]=44
+comfort[3]=69
+min_loading_time=17
+max_loading_time=47
+
+can_lead_from_rear=0
+bidirectional=1
+
+Constraint[Next][0]=any
+
+# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
+liverytype[0]=LBSCR-Early
+
+EmptyImage[E][0]=./images/lbscr-4wheel-20ft-first_E.0.0
+EmptyImage[SE][0]=./images/lbscr-4wheel-20ft-first_SE.0.0
+EmptyImage[S][0]=./images/lbscr-4wheel-20ft-first_S.0.0
+EmptyImage[SW][0]=./images/lbscr-4wheel-20ft-first_SW.0.0
+EmptyImage[W][0]=./images/lbscr-4wheel-20ft-first_W.0.0
+EmptyImage[NW][0]=./images/lbscr-4wheel-20ft-first_NW.0.0
+EmptyImage[N][0]=./images/lbscr-4wheel-20ft-first_N.0.0
+EmptyImage[NE][0]=./images/lbscr-4wheel-20ft-first_NE.0.0
+
+---
+
+obj=vehicle
+name=LBSCR-20ft-second
+speed=135
+copyright=Kieron/James/JamesPetts
+intro_year=1855
+intro_month=1
+retire_year=1866
+retire_month=7
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=24
+payload[3]=0
+overcrowded_capacity=12
+length=4
+brake_force=0
+rolling_resistance=19
+
+weight=8.3
+axles=2
+cost=180000
 runningcost=15
 
 comfort[0]=0
@@ -171,7 +222,7 @@ length=4
 brake_force=2
 rolling_resistance=19
 
-weight=6
+weight=8.2
 axles=2
 cost=192000
 runningcost=16
@@ -221,7 +272,7 @@ length=4
 brake_force=2
 rolling_resistance=19
 
-weight=6
+weight=8.2
 axles=2
 cost=187000
 runningcost=16
@@ -267,7 +318,7 @@ length=4
 brake_force=2
 rolling_resistance=19
 
-weight=6
+weight=8.2
 axles=2
 cost=187000
 runningcost=16
@@ -311,7 +362,7 @@ length=4
 brake_force=2
 rolling_resistance=19
 
-weight=6
+weight=8.0
 axles=2
 cost=144000
 runningcost=12
@@ -351,7 +402,7 @@ length=4
 brake_force=0
 rolling_resistance=19
 
-weight=6
+weight=8.0
 axles=2
 cost=144000
 runningcost=12

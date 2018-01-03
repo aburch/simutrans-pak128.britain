@@ -1,13 +1,17 @@
 # See Lacy & Dow p. 16. Although based on a Midland
 # vehicle, these can be given liveries for all contemporary
 # railway companies, as the types did not vary greatly.
+# Note that Lacy & Dow give the introduction date as 1848,
+# but this is too close to the 1850 vehicles, and it is
+# likely that other railway companies built similar vehicles
+# earlier than 1848.
 obj=vehicle
 name=mr-4wheel-1848-first
 speed=125
 copyright=JamesPetts
-intro_year=1848
+intro_year=1847
 intro_month=5
-retire_year=1858
+retire_year=1851
 retire_month=7
 waytype=track
 freight=Passagiere
@@ -65,9 +69,9 @@ obj=vehicle
 name=mr-4wheel-1848-first-brake-front
 speed=125
 copyright=JamesPetts
-intro_year=1848
+intro_year=1847
 intro_month=5
-retire_year=1858
+retire_year=1851
 retire_month=7
 waytype=track
 freight=Passagiere
@@ -125,9 +129,9 @@ obj=vehicle
 name=mr-4wheel-1848-first-brake-rear
 speed=125
 copyright=JamesPetts
-intro_year=1848
+intro_year=1847
 intro_month=5
-retire_year=1858
+retire_year=1851
 retire_month=7
 waytype=track
 freight=Passagiere
