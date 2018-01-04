@@ -785,6 +785,14 @@ Crossing1750
 Open crossing
 Crossing1850
 Open crossing
+crossing-dirt-iron
+Open crossing
+crossing-cobbles-wood-waggonway
+Open crossing
+crossing-cobbles-iron-waggonway
+Open crossing
+crossing-dirt-iron-waggonway
+Open crossing
 #_____________________________________depot______________________________________
 #_____________________________________depot______________________________________
 AirHangarOld
@@ -2600,6 +2608,10 @@ LMS-Stanier-5MT
 LMS Class 5MT "Black Five" 4-6-0
 LMS-Stanier-5MT-Tender
 LMS Class 5MT "Black Five" (tender)
+stevenson-goods
+Stephenson goods engine 0-4-2
+vulcan
+Stephenson "Vulcan" 0-6-0
 LMR-Lion
 LMR "Lion" 0-4-2
 LMR-Planet
@@ -2830,6 +2842,40 @@ BR-442-Rear
 BR Class 442 "Wessex Electric" (driving trailer - rear)
 passenger-wagon
 Passenger wagon
+l&s-enclosed-carriage
+Light enclosed carriage
+l&s-enclosed-carriage-brake-front
+Light enclosed brake carriage
+l&s-enclosed-carriage-brake-rear
+Light enclosed brake carriage
+l&s-composite-carriage
+Light composite carriage
+l&s-composite-carriage-brake-front
+Light composite brake carriage
+l&s-composite-carriage-brake-rear
+Light composite brake carriage
+l&s-open-carriage
+Light open carriage
+railway-mail-locker
+Mail locker
+railway-mail-locker-rear
+Mail locker
+LMR-4Wheel-mail-short-wheelbase
+Four wheel mail carriage (+ mail locker)
+LMR-4Wheel-mail-short-wheelbase-Guard-front
+Four wheel mail brake carriage (+ mail locker)
+LMR-4Wheel-mail-short-wheelbase-Guard-rear
+Four wheel mail brake carriage (+ mail locker)
+lmr-4wheel-open-coach-short-wheelbase-covered
+Four wheel covered carriage (second class)
+lmr-4wheel-open-coach-short-wheelbase
+Four wheel open carriage (second class)
+LMR-4wheel-first-short-wheelbase
+Four wheel carriage (first class)
+LMR-4wheel-first-short-wheelbase-Guard-front
+Four wheel brake carriage (first class)
+LMR-4wheel-first-short-wheelbase-Guard-rear
+Four wheel brake carriage (first class)
 LMR-4Wheel-First
 Four wheel carriage (first class)
 LMR-4Wheel-First-Guard-front
@@ -2837,25 +2883,81 @@ Four wheel brake carriage (first class)
 LMR-4Wheel-First-Guard-rear
 Four wheel brake carriage (first class)
 LMR-4Wheel-Open-Coach
-LMR four wheel carriage (third class)
-LMR-4Wheel-Open-Brake
-LMR four wheel brake carriage (third class)
+Four wheel open carriage (second class)
 lmr-4wheel-open-second
-LMR four wheel open carriage (second class)
-lmr-4wheel-open-second-brake
-LMR four wheel open brake carriage (second class)
+Four wheel covered carriage (second class)
 LMR-4Wheel-Parliamentary
-Four wheel Parliamentary carriage
+Four wheel Parliamentary carriage (third class)
+6wheel-parliamentary
+Six wheel Parliamentary carriage (third class)
+gjr-bed-carriage
+Four wheel bed carriage (+ mail locker)
 LMR-4Wheel-TPO
-Four wheel TPO
+Four wheel flying post office
+gjr-mail
+Mail stowage carriage
 LMR-4Wheel-Mail
-Four wheel mail carriage
+Four wheel mail carriage (+ mail locker)
 LMR-4Wheel-Mail-Guard-front
-Four wheel mail/brake carriage
+Four wheel mail/brake carriage (+ mail locker)
 LMR-4Wheel-Mail-Guard-rear
-Four wheel mail/brake carriage (rear)
+Four wheel mail/brake carriage (+ mail locker)
+lbr-4wheel-open-second
+Four wheel open sided carriage (second class)
+lbr-4wheel-open-second-brake
+Four wheel open sided brake carriage (second class)
+b&djr-4wheel-first
+Four wheel carriage (first class)
+b&djr-4wheel-first-Guard-front
+Four wheel brake carriage (first class)
+b&djr-4wheel-first-Guard-rear
+Four wheel brake carriage (first class)
+b&djr-4wheel-second
+Four wheel enclosed carriage (second class)
+b&djr-4wheel-second-Guard-front
+Four wheel enclosed brake carriage (second class)
+b&djr-4wheel-second-Guard-rear
+Four wheel enclosed brake carriage (second class)
+4wheel-open-third
+Four wheel open truck (third class)
+4wheel-stanhope-brake
+Four wheel Stanhope brake wagon (fourth class)
+4wheel-stanhope
+4 wheel Stanhope wagon (fourth class)
+6wheel-stanhope
+Six wheel Stanhope wagon (fourth class)
+6wheel-stanhope-brake
+Six wheel Stanhope brake wagon (fourth class)
+mcr-4wheel-open-second
+Four wheel open sided carriage (second class)
+mcr-4wheel-open-second-brake-front
+Four wheel open sided brake carriage (second class)
+mcr-4wheel-open-second-brake-rear
+Four wheel open sided brake carriage (second class)
+mcr-4wheel-open-third
+Four wheel open carriage (third class)
+mr-4wheel-composite
+Four wheel composite carriage (first/second class)
+mr-4wheel-1848-first
+Four wheel three compartment carriage (first class)
+mr-4wheel-1848-first-brake-front
+Four wheel three compartment front brake carriage (first class)
+mr-4wheel-1848-first-brake-rear
+Four wheel three compartment rear brake carriage (first class)
+mr-4wheel-1848-second
+Four wheel three compartment carriage (second class)
+mr-4wheel-1848-second-brake-front
+Four wheel three compartment front brake carriage (second class)
+mr-4wheel-1848-second-brake-rear
+Four wheel three compartment rear brake carriage (second class)
 4-wheel-1850s
-Four wheel three compartment carriage
+Four wheel four compartment carriage (third class)
+4-wheel-1850s-second
+Four wheel four compartment carriage (second class)
+4-wheel-1850s-first
+Four wheel three compartment carriage (first class)
+4-wheel-1850s-composite
+Four wheel three compartment composite carriage (first/second class)
 4-wheel-1850s-brake
 Four wheel mail/brake carriage
 4-wheel-1860s
@@ -2911,19 +3013,19 @@ Four wheel three compartment brake carriage (continuously braked)
 4-wheel-sub-1870s-brake-rear-fitted
 Four wheel three compartment brake carriage (continuously braked)
 LBSCR-4wheel-parliamentary-second
-LBSCR four compartment Parliamentary carriage
+LBSCR four compartment Parliamentary carriage (second class)
 LBSCR-4wheel-parliamentary-third
-LBSCR five compartment Parliamentary carriage
+LBSCR five compartment Parliamentary carriage (third class)
 LBSCR-4wheel-parliamentary-third-brake
-LBSCR five compartment Parliamentary brake carriage
+LBSCR five compartment Parliamentary brake carriage (third class)
 LBSCR-4wheel-open
-LBSCR open carriage
+LBSCR open carriage (fourth class)
 LBSCR-4wheel-open-brake
-LBSCR open carriage (brake)
+LBSCR open brake carriage (fourth class)
 LBSCR-4wheel-open-sided-brake
-LBSCR open sided carriage (brake)
+LBSCR open sided brake carriage (third class)
 LBSCR-4wheel-open-sided
-LBSCR open sided carriage
+LBSCR open sided carriage (third class)
 LBSCR-craven-third
 LBSCR four wheel five compartment carriage
 LBSCR-craven-second
@@ -2937,15 +3039,23 @@ LBSCR four wheel mail/brake carriage
 LBSCR-craven-mail
 LBSCR four wheel mail carriage
 LBSCR-20ft-third
-LBSCR four wheel four compartment carriage (20ft)
+LBSCR Four wheel four compartment carriage (third class)
+LBSCR-20ft-second
+LBSCR Four wheel four compartment carriage (second class)
 LBSCR-20ft-brake-front
-LBSCR four wheel two compartment brake carriage (20ft)
+LBSCR Four wheel two compartment composite brake carriage (first/second class)
 LBSCR-20ft-brake-rear
-LBSCR four wheel two compartment brake carriage (rear) (20ft)
+LBSCR Four wheel two compartment composite brake carriage (first/second class)
+LBSCR-20ft-brake-third
+LBSCR Four wheel two compartment brake carriage (third class)
 LBSCR-20ft-mail
-LBSCR four wheel mail carriage (20ft)
+LBSCR Four wheel mail carriage
 LBSCR-20ft-full-brake
-LBSCR four wheel mail/brake carriage (20ft)
+LBSCR Four wheel mail/brake carriage
+LBSCR-20ft-first
+LBSCR Four wheel three compartment carriage (first class)
+LBSCR-20ft-composite
+LBSCR Four wheel three compartment composite carriage (first/second class)
 LBSCR-4Wheel-First
 LBSCR four wheel four compartment carriage
 LBSCR-4Wheel-Second
@@ -4159,7 +4269,7 @@ BR Mk.3 DVT
 BR-Mk4-DVT
 BR-Mk.4 DVT
 GWR-Gloucester-Parcel-Railcar
-GWR Gloucester Parcel Railcar
+GWR Gloucester parcel railcar
 RM-325Front(RM)
 Royal Mail Class 325 EMU
 RM-325Middle(RM)
@@ -4175,79 +4285,79 @@ BR Class 489 guard's luggage van
 BR-419[MLV]
 BR Class 419 motor luggage van
 Autic-4_Car_Transporter(Front)
-Autic Car Transporter
+Autic car transporter
 Autic-4_Car_Transporter(Middle1)
-Autic Car Transporter (centre)
+Autic car transporter (centre)
 Autic-4_Car_Transporter(Middle2)
-Autic Car Transporter (centre)
+Autic car transporter (centre)
 Autic-4_Car_Transporter(Rear)
-Autic Car Transporter (rear)
+Autic car transporter (rear)
 Cartic-4_Car_Transporter(Front)
-Cartic Car Transporter 
+Cartic car transporter 
 Cartic-4_Car_Transporter(Middle1)
-Cartic Car Transporter (centre)
+Cartic car transporter (centre)
 Cartic-4_Car_Transporter(Middle2)
-Cartic Car Transporter (centre)
+Cartic car transporter (centre)
 Cartic-4_Car_Transporter(Rear)
-Cartic Car Transporter (rear)
+Cartic car transporter (rear)
 Bulk16T
-BR 16t Bulk Wagon
+BR 16t bulk wagon
 BulkRCH12T
-RCH 12t Bulk Wagon
+RCH 12t bulk wagon
 BulkRCH10T
-RCH 10t Bulk Wagon
+RCH 10t bulk wagon
 Bulk8T
-8t Bulk Wagon
+8t bulk wagon
 Bulk5T
-5t Bulk Wagon
+5t bulk wagon
 Bulk2T
-2t Bulk Wagon
+2t bulk "chaldron" wagon
 Bulk3T
-3t Bulk Wagon
+3t bulk wagon
 Bulk Hopper(HAA)
-BR HAA Hopper
+BR HAA hopper
 Bulk Hopper(HTA)
-BR HTA Hopper
+BR HTA hopper
 RCH-Tanker
-RCH Tanker Wagon
-Air Braked Tanker (TTA)
+RCH tanker wagon
+Air braked tanker (TTA)
 BR TTA Air-braked Tanker
-Bogie Tanker(TEA)
+Bogie tanker(TEA)
 BR TEA Bogie Tanker
 LNER-Coronation-Brake-Third-Twin(front)
-LNER "Coronation" Carriage (front brake twin)
+LNER "Coronation" carriage (front brake twin)
 LNER-Coronation-Brake-Third-Twin(rear)
-LNER "Coronation" Carriage (front brake twin)
+LNER "Coronation" carriage (front brake twin)
 LNER-Coronation-Brake-Third-Triple(front)
-LNER "Coronation" Carriage (front brake triple)
+LNER "Coronation" carriage (front brake triple)
 LNER-Coronation-Brake-Third-Triple(middle)
-LNER "Coronation" Carriage (front brake triple)
+LNER "Coronation" carriage (front brake triple)
 LNER-Coronation-Brake-Third-Triple(rear)
-LNER "Coronation" Carriage (front brake triple)
+LNER "Coronation" carriage (front brake triple)
 LNER-Coronation-Restaurant-Triple(front)
-LNER "Coronation" Carriage (restaurant triple)
+LNER "Coronation" carriage (restaurant triple)
 LNER-Coronation-Restaurant-Triple(middle)
-LNER "Coronation" Carriage (restaurant triple)
+LNER "Coronation" carriage (restaurant triple)
 LNER-Coronation-Restaurant-Triple(rear)
-LNER "Coronation" Carriage (restaurant triple)
+LNER "Coronation" carriage (restaurant triple)
 LNER-Coronation-RearBrake-Third-Twin(front)
-LNER "Coronation" Carriage (rear brake twin)
+LNER "Coronation" carriage (rear brake twin)
 LNER-Coronation-RearBrake-Third-Twin(rear)
-LNER "Coronation" Carriage (rear brake twin)
+LNER "Coronation" carriage (rear brake twin)
 LNER-Coronation-Observation
-LNER "Coronation" Observation Car
+LNER "Coronation" observation car
 LMS-Coronation-BFK(Maroon)
-LMS "Coronation Scot" Carriage (front brake)
+LMS "Coronation Scot" carriage (front brake)
 LMS-Coronation-BTK(Maroon)
-LMS "Coronation Scot" Carriage (rear brake)
+LMS "Coronation Scot" carriage (rear brake)
 LMS-Coronation-FK(Maroon)
-LMS "Coronation Scot" Dining Carriage
+LMS "Coronation Scot" dining carriage
 LMS-Coronation-TO(Maroon)
-LMS "Coronation Scot" Carriage 
+LMS "Coronation Scot" carriage 
 MR-Clerestory-Brake
-Midland Clerestory Carriage (brake)
+Midland clerestory carriage (brake)
 MR-Clerestory-Coach
-Midland Clerestory Carriage
+Midland clerestory carriage
 Teak-Clerestory-Brake
 GER five compartment corridor clerestory brake carriage
 Teak-Clerestory-Coach
@@ -4638,10 +4748,38 @@ PuffingBilly
 Wylam Colliery "Puffing Billy" 0-4-0
 PuffingBilly-Tender
 Wylam Colliery "Puffing Billy" (tender)
+stephenson-dodd-patent
+Stephenson and Dodd's Patent Engine 0-4-0
+stephenson-dodd-patent-tender
+Stephenson and Dodd's Patent Engine (tender)
+stephenson-improved
+Stephenson's Improved Engine 0-4-0
+stephenson-improved-tender
+Stephenson's Improved Engine (tender)
+sanspariel
+LMR "Sanspariel" 0-4-0
+sanspariel-tender
+LMR "Sanspariel" (tender)
+lancashire-witch
+B&LR "Lancashire Witch" 0-4-0
+lancashire-witch-tender
+B&LR "Lancashire Witch" (tender)
 SDR-Locomotion
 SDR "Locomotion" 0-4-0
 SDR-Locomotion-Tender
 SDR "Locomotion" (tender)
+royal-george
+SDR "Royal George" 0-6-0
+royal-george-tender
+SDR "Royal George" (tender)
+wilberforce
+SDR "Wilberforce" 0-6-0
+wilberforce-tender
+SDR "Wilberforce" (tender)
+sdr-mineral-engine
+SDR mineral engine 0-6-0
+sdr-mineral-engine-tender
+SDR mineral engine (tender)
 SDR-Derwent
 SDR "Derwent" 0-6-0
 SDR-Derwent-Tender
@@ -4653,7 +4791,23 @@ SDR 1001 Class (tender)
 LMR-Patentee
 LMR "Patentee" 2-2-2
 LMR-Patentee-Tender
-LMR "Patentee" (tender)
+Stephenson express tender
+stephenson-2-2-2
+Stephenson express engine 2-2-2
+tayleur-2-2-2
+Tayleur express engine 2-2-2
+hawthorn-2-2-2
+Hawthorn express engine 2-2-2
+stephenson-long-boiler-passenger
+Stephenson long boiler passenger engine 2-2-2
+stephenson-long-boiler-passenger-tender
+Stephenson long boiler passenger engine (tender)
+bury-bar-frame-goods
+Bury bar frame engine (goods) 0-4-0
+bury-bar-frame-passenger
+Bury bar frame engine (passenger) 2-2-0
+bury-bar-frame-tender
+Bury bar frame engine (tender)
 LNWR-DXgoods
 LNWR DX Goods 0-6-0
 LNWR-special-dx
@@ -4842,6 +4996,14 @@ rail-horse-clydesdale-single
 Clydesdale horse
 rail-horse-clydesdale-double
 Clydesdale horses (pair)
+rail-horse-friesian-single
+Friesian horse
+rail-horse-cleveland-bay-single
+Cleveland Bay horse
+rail-horse-yorkshire-coach-single
+Yorkshire coach horse
+stagecoach-rail
+Railway stage coach
 BR-121
 BR Class 121 DMU
 BR-378Front
@@ -4852,10 +5014,18 @@ BR-378Middle-unpowered
 BR London Overground Class 378 EMU (centre)
 BR-378Rear
 BR London Overground Class 378 EMU (rear)
+wagon-bulk-wooden-wheels
+Wooden 2t bulk "chaldron" wagon
+wagon-long-wooden-wheels
+Wooden flat wagon
+wagon-cool-wooden-wheels
+Wooden food wagon
+wagon-piece-wooden-wheels
+Wooden goods wagon
 LivestockEarly1
-Livestock truck
+Livestock wagon
 LivestockEarly2
-Livestock wagon (small)
+[DEPRECATED] Livestock wagon (small)
 LivestockEarly3
 Livestock wagon
 LivestockD21
@@ -4869,9 +5039,9 @@ Cartruck
 Wagon3CarBogie
 Carflat FW
 PieceEarly1
-Goods truck
+Goods wagon
 PieceEarly2
-Goods wagon (small)
+[DEPRECATED] Goods wagon (small)
 PieceEarly3
 Goods wagon
 PieceD32
@@ -4891,9 +5061,9 @@ FAA container flat
 CoolContainer
 FAA container flat (refrigerated containers)
 CoolEarly1
-Food truck
+Food wagon
 CoolEarly2
-Food wagon (small)
+[DEPRECATED] Food wagon (small)
 CoolEarly3
 Food wagon
 CoolD32
@@ -4911,11 +5081,11 @@ BR refrigerated van
 milk-van
 Food van (passenger rated)
 LongEarly1
-Open truck
+Flat wagon
 LongEarly2
-Open wagon (small)
+[DEPRECATED] Open wagon (small)
 LongEarly3
-Open wagon
+Flat wagon
 LongD1
 8t open wagon
 Long10T
@@ -5331,7 +5501,9 @@ LNWR Mansion House radial tank 2-4-2T
 LNWR-5ft-6-tank
 LNWR 5'6 radial tank 2-4-2T
 LNWR-crewe-type
-LNWR Crewe Type 2-2-2
+LNWR Crewe type 2-2-2
+lnwr-crewe-type-goods
+LNWR Crewe type (goods) 2-4-0
 LNWR-Cauliflower
 LNWR "Cauliflower" Class 0-6-0
 LNWR-Cauliflower-tender
@@ -5363,43 +5535,47 @@ LBSCR B4x Class 4-4-0
 LBSCR-E6
 LBSCR E6 Class 0-6-2T
 MR-133
-Midland 133 Class 2-2-2
+Midland 133 class 2-2-2
 MR-133-tender
-Midland 133 Class tender
+Midland 133 class tender
 MR-130
-Midland 130 "Crampton" Class 4-2-0
+Midland 130 "Crampton" class 4-2-0
 MR-130-tender
-Midland 130 Class tender
+Midland 130 class tender
 MR-1
-Midland 1 Class 2-2-2
+Midland 1 class 2-2-2
 MR-1-tender
-Midland 1 Class tender
+Midland 1 class tender
 MR-27
-Midland 27 Class 2-2-2
+Midland 27 class 2-2-2
 LNWR-Precendent
-LNWR "Precedent" Class 2-4-0
+LNWR "Precedent" class 2-4-0
 LNWR-Newton
-LNWR "Newton" Class 2-4-0
+LNWR "Newton" class 2-4-0
 LNWR-Newton-Tender
 LNWR express tender
 LNWR-Waterloo
-LNWR "Waterloo" Class 2-4-0
+LNWR "Waterloo" class 2-4-0
 LNWR-Waterloo-Tender
 LNWR express tender
 LNWR-Sampson
-LNWR "Sampson" Class 2-4-0
+LNWR "Sampson" class 2-4-0
 LNWR-Sampson-Tender
 LNWR express tender
+stephenson-long-boiler-goods
+Stephenson long boiler goods engine 0-6-0
+stephenson-long-boiler-goods-tender
+Stephenson long boiler goods engine (tender)
 MR-1738
-Midland 1738 Class 4-4-0
+Midland 1738 class 4-4-0
 MR-2203
-Midland 2203 Class 4-4-0
+Midland 2203 class 4-4-0
 MR-2781
-Midland 2781 Class "Belpaire" 4-4-0
+Midland 2781 class "Belpaire" 4-4-0
 MR-2781-Tender
-Midland 2781 Class "Belpaire" 4-4-0 (tender)
+Midland 2781 class "Belpaire" 4-4-0 (tender)
 LNWR-Precursor-tank
-LNWR "Precursor" Tank 4-4-2T
+LNWR "Precursor" tank 4-4-2T
 LNWR-Precursor
 LNWR "Precursor" 4-4-0
 LNWR-George-V
@@ -5415,9 +5591,9 @@ LNWR "Prince of Wales" 4-6-2T
 MR-483-Tender
 Midland tender
 MR-1873
-Midland 1873 "Neilson Goods" Class 0-6-0
+Midland 1873 "Neilson Goods" class 0-6-0
 MR-2736
-Midland 2736 Class 0-6-0
+Midland 2736 class 0-6-0
 LMS-4P-Tender
 LMS 4P Tender
 LMS-2P-Tender
@@ -5425,7 +5601,7 @@ LMS 2P Tender
 LNWR-Precedent-Tender
 LNWR express tender
 LNWR-Claughton
-LNWR Claughton Class 4-6-0
+LNWR Claughton class 4-6-0
 LNWR-Claughton-tender
 LNWR Claughton class tender
 LBSCR-0-4-2T
@@ -5437,37 +5613,37 @@ LBSCR standard goods tender
 LBSCR-standard-passenger
 LBSCR Standard Passenger Engine 2-4-0
 LBSCR-victoria
-LBSCR Victoria Class 2-2-2
+LBSCR Victoria class 2-2-2
 LBSCR-6ft-6-single
 LBSCR 6ft 6" Single 2-2-2
 LBSCR-standard-goods
-LBSCR Standard Goods Engine 0-6-0
+LBSCR standard goods engine 0-6-0
 LBSCR-small-goods
-LBSCR Small Goods Engine 0-6-0
+LBSCR small goods engine 0-6-0
 LBSCR-small-single
-LBSCR Small Single 2-2-2
+LBSCR small single 2-2-2
 LBSCR-Richmond
-LBSCR Richmond Class 0-4-2
+LBSCR Richmond class 0-4-2
 LBSCR-long-boiler-passenger
-LBSCR Long Boiler Engine (passenger) 2-4-0
+LBSCR long boiler engine (passenger) 2-4-0
 LBSCR-long-boiler-mixed
-LBSCR Long Boiler Engine (mixed traffic) 2-4-0
+LBSCR long boiler engine (mixed traffic) 2-4-0
 LBSCR-light-tank
-LBSCR Kemp Town Tank 2-4-0T
+LBSCR Kemp Town tank 2-4-0T
 LBSCR-single-well-tank
-LBSCR Single Well tank 2-2-2
+LBSCR single well tank 2-2-2
 LBSCR-G
-LBSCR G Class 2-2-2
+LBSCR G class 2-2-2
 LBSCR-croydon
-LBSCR Croydon Engine 2-4-0
+LBSCR Croydon engine 2-4-0
 LBSCR-Belgravia
-LBSCR Belgravia Class 2-4-0
+LBSCR Belgravia Ccass 2-4-0
 LBSCR-Belgravia-tender
 LBSCR tender
 LBSCR-sharp-well-tank
-LBSCR Sharp Well Tank 2-2-2WT
+LBSCR Sharp well tank 2-2-2WT
 LBR-2-4-0T
-L&BR Small Tank 2-4-0T
+L&BR small tank 2-4-0T
 LNWR-8wheel-radial-brake-front
 LNWR eight wheel (radial) four compartment brake
 LNWR-8wheel-radial-brake-lav-front
@@ -5948,9 +6124,9 @@ Stage coach (braked)
 short-stagecoach
 Short stage coach
 MailCoach
-Mail coach (sprung)
+Mail coach (sprung) (+ mail boot)
 mailcoach-regency
-Mail coach (braked)
+Mail coach (braked) (+ mail boot)
 mail-boot
 Mail boot
 OmnibusSingle
@@ -7661,10 +7837,16 @@ BR-Ultra-520DD(rear)
 Ultraspeed Class M30 "Platinum Jubilee" (rear)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
+waggonway
+Wooden waggonway
 plateway
-Waggonway
+Strap iron waggonway
 cast_iron_track
 Cast iron track
+wrought_iron_fishbelly_track
+Wrought iron fishbelly track (28lb/yard)
+wrought_iron_fishbelly_heavy_track
+Wrought iron fishbelly track (35lb/yard)
 wrought_iron_light_track
 Wrought iron track (40lb/yard)
 wrought_iron_intermediate_track
@@ -7707,10 +7889,12 @@ tgv
 Steel track (high speed) - hard base (60kg/m)
 rail-mothballed
 Mothballed railway track
-cast_iron_N
-Cast iron narrow gauge track
+fishbelly_N
+Wrought iron fishbelly narrow gauge track (16lb/yard)
 wrought_iron_N
-Wrought iron narrow gauge track (30lb/yard)
+Wrought iron narrow gauge track (18lb/yard)
+wrought_iron_improved_N
+Wrought iron narrow gauge track (46lb/yard)
 wssrN
 Steel narrow gauge track (40lb/yard)
 wssrN-improved
@@ -7949,6 +8133,8 @@ StagingPost
 Staging post
 StagingInn
 Staging inn
+staging-post-rail
+Staging post
 ModernBusShelter
 Bus stop with shelter
 OldBusShelter
@@ -8854,6 +9040,10 @@ Grey-Green
 Grey Green
 Go-Ahead-London
 Go Ahead London
+Virgin-Trains
+Virgin Trains
+Trainload-Freight
+Trainload Freight
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]
