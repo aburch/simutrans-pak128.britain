@@ -1222,7 +1222,7 @@ retire_year[5] = 1923
 retire_month[5] = 1
 livery[5][0] = MR-Early
 intro_year[5][0] = 1844
-intro_month[5][0] = 1
+intro_month[5][0] = 11
 livery[5][1] = MR-Standard
 intro_year[5][1] = 1883
 intro_month[5][1] = 6
@@ -2344,7 +2344,7 @@ intro_month[91][6] = 2
 # Very limited information on this livery, especially for locomotives.
 livery_scheme[92] = B&DJR
 retire_year[92] = 1844
-retire_month[92] = 1
+retire_month[92] = 11
 livery[92][0] = B&DJR-standard
 intro_year[92][0] = 1839
 intro_month[92][0] = 5
@@ -2356,7 +2356,7 @@ intro_month[92][0] = 5
 # Assume a similar green for locomotives unless contrary information becomes available.
 livery_scheme[93] = MCR
 retire_year[93] = 1844
-retire_month[93] = 1
+retire_month[93] = 11
 livery[93][0] = MCR-standard
 intro_year[93][0] = 1839
 intro_month[93][0] = 6
