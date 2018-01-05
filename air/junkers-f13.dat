@@ -8,7 +8,7 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=160
-power=228
+power=126
 tractive_effort=2
 freight=Passagiere
 payload[0]=0
@@ -36,7 +36,7 @@ catering_level=0
 
 minimum_runway_length=200
 
-range=1400
+range=1200
 
 sound=planelow.wav
 
@@ -60,7 +60,7 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=160
-power=228
+power=126
 tractive_effort=2
 freight=Post
 payload[0]=0
@@ -79,7 +79,7 @@ max_loading_time=1750
 
 minimum_runway_length=200
 
-range=1400
+range=1200
 
 sound=planelow.wav
 
