@@ -155,7 +155,7 @@ Obj=crossing
 Name=Crossing1835
 waytype[1]=track
 waytype[0]=road
-speed[1]=8560
+speed[1]=85
 speed[0]=35
 intro_year=1834
 intro_month=6
@@ -185,6 +185,58 @@ closedimage[ns][1]=images/crossing-cobbles-gated.1.0
 
 front_closedimage[ew][1]=images/crossing-cobbles-gated.0.1
 front_closedimage[ns][1]=images/crossing-cobbles-gated.0.0
+
+----
+
+# cobblestone road, fishbelly wrought iron track, unprotected
+Obj=crossing
+Name=Crossing1820
+waytype[1]=track
+waytype[0]=road
+speed[1]=75
+speed[0]=35
+intro_year=1820
+intro_month=2
+retire_year=1839
+retire_month=4
+
+openimage[ew][0]=images/crossing-unprotected.1.1
+openimage[ns][0]=images/crossing-unprotected.1.0
+
+closedimage[ew][0]=images/crossing-unprotected.1.1
+closedimage[ns][0]=images/crossing-unprotected.1.0
+
+openimage[ew][1]=images/crossing-unprotected.0.1
+openimage[ns][1]=images/crossing-unprotected.0.0
+
+closedimage[ew][1]=images/crossing-unprotected.0.1
+closedimage[ns][1]=images/crossing-unprotected.0.0
+
+----
+
+# cobblestone road, cast iron track, unprotected
+Obj=crossing
+Name=Crossing1785
+waytype[1]=track
+waytype[0]=road
+speed[1]=27
+speed[0]=35
+intro_year=1834
+intro_month=6
+retire_year=1872
+retire_month=6
+
+openimage[ew][0]=images/crossing-unprotected.1.1
+openimage[ns][0]=images/crossing-unprotected.1.0
+
+closedimage[ew][0]=images/crossing-unprotected.1.1
+closedimage[ns][0]=images/crossing-unprotected.1.0
+
+openimage[ew][1]=images/crossing-unprotected.0.1
+openimage[ns][1]=images/crossing-unprotected.0.0
+
+closedimage[ew][1]=images/crossing-unprotected.0.1
+closedimage[ns][1]=images/crossing-unprotected.0.0
 
 ----
 
