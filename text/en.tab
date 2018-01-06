@@ -2104,6 +2104,14 @@ vane-signal-junction
 Vane choose signal
 vane-station-signal
 Vane station signal
+vane-signal-stop-with-telegraph
+Vane signal
+vane-signal-distant-with-telegraph
+Vane auxilliary signal
+vane-signal-junction-with-telegraph
+Vane choose signal
+vane-station-signal-with-telegraph
+Vane station signal
 sp-semaphore-stop
 Slotted post stop signal
 sp-semaphore-distant
@@ -8870,8 +8878,10 @@ mini-signalling-centre
 Signalling centre (small)
 policeman's-cottage
 Railway policeman's cottage
+policeman's-cottage-with-telegraph-cooke-and-wheatstone
+Railway policeman's cottage (with telegraph, Cooke & Wheatstone)
 policeman's-cottage-with-telegraph
-Railway policeman's cottage (with telegraph)
+Railway policeman's cottage (with telegraph, two wire)
 power-signalbox-deco
 Power signalbox
 power-signalbox-large
