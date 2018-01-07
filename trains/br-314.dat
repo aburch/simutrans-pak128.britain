@@ -34,7 +34,8 @@ comfort[1]=56
 way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-314Rear
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR-315Rear
+Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-314Pantograph
 
@@ -177,7 +178,8 @@ comfort[1]=56
 Constraint[Prev][0]=BR-314Pantograph
 
 Constraint[Next][0]=BR-314Front
-Constraint[Next][1]=none
+Constraint[Next][1]=BR-315Front
+Constraint[Next][2]=none
 
 liverytype[0]=BR-Blue
 liverytype[1]=Strathclyde-orange-black

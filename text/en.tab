@@ -2104,6 +2104,14 @@ vane-signal-junction
 Vane choose signal
 vane-station-signal
 Vane station signal
+vane-signal-stop-with-telegraph
+Vane signal
+vane-signal-distant-with-telegraph
+Vane auxilliary signal
+vane-signal-junction-with-telegraph
+Vane choose signal
+vane-station-signal-with-telegraph
+Vane station signal
 sp-semaphore-stop
 Slotted post stop signal
 sp-semaphore-distant
@@ -3982,6 +3990,12 @@ BR-313Pantograph
 BR Class 313 EMU (pantograph)
 BR-313Rear
 BR Class 313 EMU (rear)
+BR-314Front
+BR Class 314 EMU
+BR-314Pantograph
+BR Class 314 EMU (pantograph)
+BR-314Rear
+BR Class 314 EMU (rear)
 BR-315Front
 BR Class 315 EMU
 BR-315Pantograph
@@ -5087,17 +5101,21 @@ LongEarly2
 LongEarly3
 Flat wagon
 LongD1
-8t open wagon
+8t bolster wagon
 Long10T
-10t open wagon
+10t bolster wagon
 Long12T
-12t open wagon
+12t bolster wagon
 Long20T
-20t open wagon
+20t bolster wagon
 Long30T
-30t open wagon
+30t bolster wagon
 BrakeSR
 Southern brake van
+brake-6t
+6t brake van
+brake-7-5t
+7.5t brake van
 BrakeD16
 10t brake van
 BrakeD93
@@ -8866,8 +8884,10 @@ mini-signalling-centre
 Signalling centre (small)
 policeman's-cottage
 Railway policeman's cottage
+policeman's-cottage-with-telegraph-cooke-and-wheatstone
+Railway policeman's cottage (with telegraph, Cooke & Wheatstone)
 policeman's-cottage-with-telegraph
-Railway policeman's cottage (with telegraph)
+Railway policeman's cottage (with telegraph, two wire)
 power-signalbox-deco
 Power signalbox
 power-signalbox-large
@@ -9044,6 +9064,10 @@ Virgin-Trains
 Virgin Trains
 Trainload-Freight
 Trainload Freight
+London-&-Birmingham
+London & Birmingham
+Stockton-Darlington
+Stockton & Darlington
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]

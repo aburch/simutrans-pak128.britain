@@ -28,8 +28,6 @@ runningcost=15
 
 comfort[0]=0
 comfort[1]=37
-comfort[2]=44
-comfort[3]=69
 min_loading_time=17
 max_loading_time=47
 
@@ -38,7 +36,6 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
 liverytype[0]=LBSCR-Early
 
 EmptyImage[E][0]=./images/lbscr-4wheel-20ft-third_E.0.0
@@ -88,7 +85,6 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
 liverytype[0]=LBSCR-Early
 
 EmptyImage[E][0]=./images/lbscr-4wheel-20ft-first_E.0.0
@@ -138,7 +134,6 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
 liverytype[0]=LBSCR-Early
 
 EmptyImage[E][0]=./images/lbscr-4wheel-20ft-first_E.0.0
@@ -188,7 +183,6 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
 liverytype[0]=LBSCR-Early
 
 EmptyImage[E][0]=./images/lbscr-4wheel-20ft-first_E.0.0
@@ -239,7 +233,6 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
 liverytype[0]=LBSCR-Early
 
 EmptyImage[E][0]=./images/lbscr-4wheel-20ft-brake-composite-front_E.0.0
@@ -287,7 +280,6 @@ max_loading_time=47
 can_lead_from_rear=0
 bidirectional=1
 
-# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
 liverytype[0]=LBSCR-Early
 
 EmptyImage[E][0]=./images/lbscr-4wheel-20ft-brake-composite-rear_E.0.0
@@ -325,15 +317,12 @@ runningcost=16
 
 comfort[0]=0
 comfort[1]=37
-comfort[2]=44
-comfort[3]=69
 min_loading_time=17
 max_loading_time=47
 
 can_lead_from_rear=0
 bidirectional=1
 
-# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
 liverytype[0]=LBSCR-Early
 
 EmptyImage[E][0]=./images/lbscr-4wheel-20ft-brake-third_E.0.0
@@ -373,7 +362,6 @@ max_loading_time=100
 can_lead_from_rear=0
 bidirectional=1
 
-# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
 liverytype[0]=LBSCR-Early
 
 EmptyImage[E][0]=./images/lbscr-4wheel-20ft-full-brake_E.0.0
@@ -415,7 +403,6 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-# TODO: Add multiple liveries allowing this to proxy for any company's mid-1850s carriages.
 liverytype[0]=LBSCR-Early
 
 EmptyImage[E][0]=./images/lbscr-4wheel-20ft-mail_E.0.0

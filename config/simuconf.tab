@@ -1222,7 +1222,7 @@ retire_year[5] = 1923
 retire_month[5] = 1
 livery[5][0] = MR-Early
 intro_year[5][0] = 1844
-intro_month[5][0] = 1
+intro_month[5][0] = 11
 livery[5][1] = MR-Standard
 intro_year[5][1] = 1883
 intro_month[5][1] = 6
@@ -1395,25 +1395,37 @@ livery[19][0] = Non-London
 intro_year[19][0] = 1750
 intro_month[19][0] = 1
 
-# See: http://www.gersociety.org.uk/index.php?option=com_content&view=article&id=23&Itemid=32
+# Great Eastern/Eastern Counties
+# See Carter p. 37 and https://www.gersociety.org.uk/index.php/locomotives/liveries
+# The ECR is usually regarded as having changed its name to GER and
+# absorbed other companies, rahter than being a separate predecessor.
+# Assume all coaches varnished unless otherwise stated.
 livery_scheme[20] = GER
 retire_year[20] = 1923
 retire_month[20] = 1
-livery[20][0] = GER-Pea-Green
-intro_year[20][0] = 1863
-intro_month[20][0] = 1
-# Similar to early Midland green
+# Locomotives light/pea green with black bands, chocolate coloured frames
+# Green buffer beams
+livery[20][0] = ECR-standard
+intro_year[20][0] = 1839
+intro_month[20][0] = 2
+# Locomotives "a darker green with green buffer beams" (probably similar to early Midland green).
+# Some locomotives "canary" yellow.
 livery[20][1] = GER-Dark-Green
-intro_year[20][1] = 1869
+intro_year[20][1] = 1866
 intro_month[20][1] = 5
+# Locomotives black, lined in red
 livery[20][2] = GER-Black
-intro_year[20][2] = 1876
+intro_year[20][2] = 1873
 intro_month[20][2] = 8
 # Black for goods locomotives
 livery[20][3] = GER-Ultramarine
 intro_year[20][3] = 1882
 intro_month[20][3] = 5
 # Wartime livery was mid grey.
+# Coaches crimson lake, lined in gold
+livery[20][4] = GER-late
+intro_year[20][4] = 1919
+intro_month[20][4] = 1
 
 livery_scheme[21] = FR
 retire_year[21] = 2500
@@ -1758,10 +1770,12 @@ intro_year[46][0] = 1875
 intro_month[46][0] = 1
 
 # https://en.wikipedia.org/wiki/London_and_South_Western_Railway#Locomotive_engineers.2C_works_and_corporate_liveries
-# Early passenger carriage liveries not given.
+# See also Carter, p. 127 onwards
 livery_scheme[47] = LSWR
 retire_year[47] = 1923
 retire_month[47] = 1
+# Details of carriage liveries hard to obtain for the early period:
+# assume varnished until stated otherwise.
 livery[47][0] = LSWR-early
 intro_year[47][0] = 1838
 intro_month[47][0] = 1
@@ -1771,15 +1785,19 @@ intro_month[47][1] = 6
 livery[47][2] = LSWR-chocolate-brown
 intro_year[47][2] = 1866
 intro_month[47][2] = 2
+# Carriages brown lowers with cream "of a dark greenish hue" uppers.
+# Brake ends vermillion
 livery[47][3] = LSWR-purple-brown
 intro_year[47][3] = 1872
 intro_month[47][3] = 10
 livery[47][4] = LSWR-umber
 intro_year[47][4] = 1878
 intro_month[47][4] = 6
+# Carriages all-over chocolate
 livery[47][5] = LSWR-pea-green
 intro_year[47][5] = 1885
 intro_month[47][5] = 9
+# Salmon/chocolate carriages
 livery[47][6] = LSWR-royal-green
 intro_year[47][6] = 1895
 intro_month[47][6] = 1
@@ -2322,3 +2340,137 @@ intro_month[91][5] = 8
 livery[91][6] = GWR-hawksworth
 intro_year[91][6] = 1942
 intro_month[91][6] = 2
+
+# http://www.bartonhistory.co.uk/bartons-railway/the-birmingham-and-derby-junction-railway/
+# Very limited information on this livery, especially for locomotives.
+livery_scheme[92] = B&DJR
+retire_year[92] = 1844
+retire_month[92] = 11
+livery[92][0] = B&DJR-standard
+intro_year[92][0] = 1839
+intro_month[92][0] = 5
+
+# Hard to find information on locomotive liveries for this.
+# Carriage liveries described at p. 4 of Lacy & Dow as
+# "Black upper and green lower panels, the windows being lined red" (first class) and
+# "red sides and black lining, frame and wheels" for open third (second?) class carriages.
+# Assume a similar green for locomotives unless contrary information becomes available.
+livery_scheme[93] = MCR
+retire_year[93] = 1844
+retire_month[93] = 11
+livery[93][0] = MCR-standard
+intro_year[93][0] = 1839
+intro_month[93][0] = 6
+
+# https://d3d00swyhr67nd.cloudfront.net/w1200h1200/NY/NY_NRM_1976_9292.jpg
+# See "Britain's railway liveries" by Earnest F. Carter p. 233
+livery_scheme[94] = London-&-Birmingham
+retire_year[94] = 1846
+retire_month[94] = 1
+# Carriages (first class): buff lowers, black uppers;
+# carriages (second class): green lowers, black uppers
+livery[94][0] = London-&-Birmingham-standard
+intro_year[94][0] = 1837
+intro_month[94][0] = 7
+
+# See Carter, p. 249
+livery_scheme[95] = Stockton-Darlington
+retire_year[95] = 1863
+retire_month[95] = 7
+# Yellow (and black?) carriages
+livery[95][0] = Stockton-Darlington-early
+intro_year[95][0] = 1825
+intro_month[95][0] = 7
+# Yellow changed to lake
+livery[95][1] = Stockton-Darlington-lake
+intro_year[95][1] = 1842
+intro_month[95][1] = 2
+
+# See Carter, p. 182
+# Assume carriages varnished as they were later
+livery_scheme[96] = NLR
+retire_year[96] = 1923
+retire_month[96] = 1
+# Green locomotives, lined in black
+livery[96][0] = NLR-early
+intro_year[96][0] = 1853
+intro_month[96][0] = 1
+# Black locomotives, lined and with frames in red
+livery[96][1] = NLR-black
+intro_year[96][1] = 1882
+intro_month[96][1] = 11
+
+# Inverness & Aberdeen Junction Railway
+# See below under Highland Railway for references
+livery_scheme[97] = I&AJR
+retire_year[97] = 1865
+retire_month[97] = 2
+# Inverness & Aberdeen Jn. Railway
+# Yellow locomotives
+# Coaches uncertain at this stage: assume varnished.
+# Wagons appear to be a rusty red:
+# http://petesnewworkshop.blogspot.co.uk/p/wagons.html
+livery[97][0] = I&AJR-early
+intro_year[97][0] = 1855
+intro_month[97][0] = 11
+# Locomotives dark green, black bands
+# Coaches uncertain: assume varnished
+livery[97][1] = I&AJR-late
+intro_year[97][1] = 1864
+intro_month[97][1] = 1
+
+# Highland Railway
+# See Carter, p. 73
+# See also, "A history of Highland locomotives"
+# by Peter Tatlow, p. 9 onwards
+livery_scheme[98] = HR
+retire_year[98] = 1865
+retire_month[98] = 2
+# Locomotives dark green, black bands
+# Coaches uncertain: assume the later green or varnished
+# http://www.scottish-scale-loco-works.co.uk/images/Skye_Bogie_lined_Highland_thmb.jpg
+livery[98][0] = HR-early
+intro_year[98][0] = 1865
+intro_month[98][0] = 2
+# Brighton yellow/ochre, black bands (pass.)
+# Same as early (goods)
+# Coaches uncertain; Carter suggests
+# that they might have been the same shade
+# as the locomotives, but is unsure.
+livery[98][1] = HR-Stroudley
+intro_year[98][1] = 1866
+intro_month[98][1] = 3
+# Black with (red?) bands (goods)
+# Pass. uncertain - either green or as before
+# (Tatlow/Carter conflict here).
+# Coaches: medium sage green uppers
+# (Carter conflicts with photographs as to
+# whether the lowers were a different colour -
+# Cater suggests "lake" lowers, photographs 
+# (b&w) seem to indicate an overall colour.
+# It is also unclear when this starts.
+livery[98][2] = HR-Jones
+intro_year[98][2] = 1874
+intro_month[98][2] = 12
+# All engines light olive green with black/vermillion bands
+livery[98][3] = HR-Jones
+intro_year[98][3] = 1885
+intro_month[98][3] = 6
+# Coaches: white uppers, dark green lowers.
+# Locomotives: largely as before (some illustrations
+# show the locomotives/carriages as of the same green):
+# http://spellerweb.net/rhindex/UKRH/OtherRailways/HighlandExpress.jpg
+# http://www.tpo-seapost.org.uk/tpo2/image2/tppc09.jpg
+livery[98][4] = HR-Drummond
+intro_year[98][4] = 1896
+intro_month[98][4] = 6
+# Unlined olive green
+livery[98][5] = HR-plain
+intro_year[98][5] = 1902
+intro_month[98][5] = 2
+# As with plain, but locomotives moss green.
+livery[98][6] = HR-late
+intro_year[98][6] = 1902
+intro_month[98][6] = 2
+
+
