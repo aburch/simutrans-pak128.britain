@@ -1985,15 +1985,15 @@ intro_month[63][1] = 8
 livery_scheme[64] = SWT
 retire_year[64] = 2999
 retire_month[64] = 12
-livery[64][0] 
-intro_year[64][2] = 2013
-intro_month[64][2] = 10= SWT-orange-stripe
+livery[64][0] = SWT-orange-stripe
 intro_year[64][0] = 1996
 intro_month[64][0] = 2
 livery[64][1] = SWT-standard
 intro_year[64][1] = 2000
 intro_month[64][1] = 6
 livery[64][2] = SWT-modified
+intro_year[64][2] = 2013
+intro_month[64][2] = 10
 
 livery_scheme[65] = Hull-Trains
 retire_year[65] = 2008
