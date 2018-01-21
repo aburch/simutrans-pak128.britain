@@ -24,7 +24,8 @@ way_wear_factor=15975
 weight=7.1
 axle_load=3
 cost=1400000
-runningcost=80
+runningcost=16
+fixed_cost=1105
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=stephenson-dodd-patent-tender

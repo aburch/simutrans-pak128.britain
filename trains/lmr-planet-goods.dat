@@ -24,7 +24,8 @@ way_wear_factor=20958
 # Weight given by Ahrons, p. 20
 weight=10.1
 cost=4752000
-runningcost=640
+runningcost=7
+fixed_cost=1150
 sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=70
 increase_maintenance_after_years=25

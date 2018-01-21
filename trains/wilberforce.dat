@@ -23,7 +23,8 @@ rolling_resistance=20
 weight=11.9
 axles=3
 cost=6500000
-runningcost=670
+runningcost=8
+fixed_cost=1180
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=wilberforce-tender

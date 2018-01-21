@@ -25,7 +25,8 @@ rolling_resistance=20
 weight=10.0
 axles=3
 cost=6200000
-runningcost=650
+runningcost=11
+fixed_cost=1150
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=royal-george-tender

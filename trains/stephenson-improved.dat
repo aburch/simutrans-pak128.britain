@@ -26,7 +26,8 @@ axle_load=3
 cost=1420000
 # 50lb coke/mile:
 # https://www.libraryindex.com/encyclopedia/pages/cpxkvqow0x/railways-rails-tons-rail.html
-runningcost=78
+runningcost=12
+fixed_cost=1105
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=stephenson-improved-tender
