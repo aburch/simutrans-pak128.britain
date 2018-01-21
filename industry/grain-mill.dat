@@ -38,6 +38,7 @@ mail_boost=50
 electricity_amount=0
 electricity_boost=0
 MapColor=82
+needs_ground=1
 sound=pcwvdmark-windmill.wav
 InputGood[0]=grain
 InputCapacity[0]=140 
