@@ -742,6 +742,11 @@ disable_make_way_public = 0
  # The number of months of maintainance that the make public tool costs to use
 cst_make_public_months = 60
 
+# This setting alters the revenue for electricity transmission.
+# The figure is a percentage of the default revenue. Default: 100.
+power_revenue_factor_percentage = 100
+
+
 ################################### Time settings ################################
 
 # Enforce vehicle introduction dates?
