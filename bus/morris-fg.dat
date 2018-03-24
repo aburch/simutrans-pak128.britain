@@ -23,7 +23,7 @@ retire_month=8
 min_loading_time=60
 max_loading_time=280
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/morris-fg-bulk-empty_E.0.0,-33,14
@@ -110,7 +110,7 @@ retire_month=8
 min_loading_time=60
 max_loading_time=280
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/morris-fg-long-empty_E.0.0,-33,14
@@ -168,7 +168,7 @@ retire_month=8
 min_loading_time=60
 max_loading_time=280
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/morris-fg-piece_E.0.0,-33,14
@@ -207,7 +207,7 @@ retire_month=8
 min_loading_time=60
 max_loading_time=280
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/morris-fg-cool_E.0.0,-33,14
@@ -245,7 +245,7 @@ retire_month=8
 min_loading_time=60
 max_loading_time=280
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/morris-fg-livestock_E.0.0,-33,14
@@ -283,7 +283,7 @@ retire_month=8
 min_loading_time=22
 max_loading_time=225
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/morris-fg-post_E.0.0,-33,14

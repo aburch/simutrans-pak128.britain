@@ -44,7 +44,7 @@ minimum_runway_length=2189
 sound=laxspotter97-boeing737-200.wav
 range=3520
 
-upgrade[0]=oeing-737-200-high-density
+upgrade[0]=boeing-737-200-high-density
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -98,7 +98,7 @@ minimum_runway_length=2189
 sound=laxspotter97-boeing737-200.wav
 range=3520
 
-upgrade[0]=oeing-737-200
+upgrade[0]=boeing-737-200
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
