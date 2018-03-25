@@ -31,8 +31,9 @@ way_wear_factor=29015
 weight=16.2
 # Guessed
 axle_load=7
-cost=7585500
-runningcost=810
+cost=8385500
+runningcost=15
+fixed_cost=1380
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Patentee-Tender

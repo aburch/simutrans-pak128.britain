@@ -26,9 +26,9 @@ sound=lwalker-br-4mt-tank.wav
 # See Ahrons p. 54
 weight=21.7
 axles=3
-cost=6016000
-runningcost=500
-
+cost=15400000
+runningcost=20
+fixed_cost=1800
 Constraint[Next][0]=stephenson-long-boiler-passenger-tender
 
 # TODO: Other liveries.
