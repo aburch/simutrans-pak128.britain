@@ -2968,12 +2968,18 @@ Four wheel three compartment carriage (first class)
 Four wheel three compartment composite carriage (first/second class)
 4-wheel-1850s-brake
 Four wheel mail/brake carriage
+4-wheel-1860s-first
+Four wheel three compartment carriage (first class)
+4-wheel-1860s-second
+Four wheel four compartment carriage (second class)
+4-wheel-1860s-composite
+Four wheel four compartment composite carriage (first/second class)
 4-wheel-1860s
-Four wheel four compartment carriage
+Four wheel four compartment carriage (third class)
 4-wheel-1860s-brake-front
-Four wheel two compartment brake carriage
+Four wheel two compartment brake carriage (third class)
 4-wheel-1860s-brake-rear
-Four wheel two compartment brake carriage
+Four wheel two compartment brake carriage (third class)
 4-wheel-1860s-full-brake
 Four wheel mail/brake carriage
 4-wheel-1860s-mail
@@ -8826,39 +8832,45 @@ Rover 9
 #__________________________________Way constraints__________________________________
 #__________________________________Way constraints__________________________________
 # Permissive
-Permissive 0
+Permissive 2-0
 DC Third Rail Electrification
-Permissive 1
+Permissive 7-1
 DC Overhead Catenary
-Permissive 2
+Permissive 2-1
+DC Overhead Catenary
+Permissive 2-2
 AC Overhead Catenary
-Permissive 3
+Permissive 2-3
 DC Fourth Rail Electrification
-Permissive 4
+Permissive 3-4
 Waterway
 # For the DLR - reserved for future use.
-Permissive 5
+Permissive 2-5
 Light rail electrification
-Permissive 6
+Permissive 7-5
+Light rail electrification
+Permissive 2-6
 [Unused] Permissive 6
-Permissive 7
+Permissive 2-7
 [Unused] Permissive 7
 # Prohibitive
-Prohibitive 0
+Prohibitive 7-0
 Tramway
-Prohibitive 1
+Prohibitive 2-0
+Tramway
+Prohibitive 2-1
 Tube tunnel
-Prohibitive 2
+Prohibitive 3-2
 Barge canal/small river
-Prohibitive 3
+Prohibitive 3-3
 Tub boat canal
-Prohibitive 4
+Prohibitive 3-4
 Narrow canal
-Prohibitive 5
+Prohibitive 3-5
 Ship canal/medium river
-Prohibitive 6
+Prohibitive 3-6
 Large ship canal/large river
-Prohibitive 7
+Prohibitive 3-7
 [Unused] Prohibitive 7
 #_____________________________________Climates_____________________________________
 #_____________________________________Climates_____________________________________

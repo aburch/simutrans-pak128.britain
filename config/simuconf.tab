@@ -742,6 +742,11 @@ disable_make_way_public = 0
  # The number of months of maintainance that the make public tool costs to use
 cst_make_public_months = 60
 
+# This setting alters the revenue for electricity transmission.
+# The figure is a percentage of the default revenue. Default: 100.
+power_revenue_factor_percentage = 100
+
+
 ################################### Time settings ################################
 
 # Enforce vehicle introduction dates?
@@ -1985,15 +1990,18 @@ intro_month[63][1] = 8
 livery_scheme[64] = SWT
 retire_year[64] = 2999
 retire_month[64] = 12
-livery[64][0] 
-intro_year[64][2] = 2013
-intro_month[64][2] = 10= SWT-orange-stripe
+livery[64][0] = SWT-orange-stripe
 intro_year[64][0] = 1996
 intro_month[64][0] = 2
 livery[64][1] = SWT-standard
 intro_year[64][1] = 2000
 intro_month[64][1] = 6
 livery[64][2] = SWT-modified
+intro_year[64][2] = 2013
+intro_month[64][2] = 10
+livery[65][3] = SWR
+intro_year[65][3] = 2017
+intro_month[65][3] = 8
 
 livery_scheme[65] = Hull-Trains
 retire_year[65] = 2008

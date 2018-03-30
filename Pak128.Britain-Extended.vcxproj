@@ -256,6 +256,8 @@
     <None Include="boats\holds\coastal-steamer-holds.dat" />
     <None Include="boats\holds\east-indiaman-holds.dat" />
     <None Include="boats\holds\humber-keel-mail-hold.dat" />
+    <None Include="boats\holds\mail-boot.dat" />
+    <None Include="boats\holds\mail-space.dat" />
     <None Include="boats\holds\market-barge-mail.dat" />
     <None Include="boats\holds\market-narrowboat-mail.dat" />
     <None Include="boats\holds\packet-boat-mail.dat" />
@@ -263,6 +265,7 @@
     <None Include="boats\holds\po-spirit-holds.dat" />
     <None Include="boats\holds\po-super-european-freight-holds.dat" />
     <None Include="boats\holds\po-super-european-mixed-holds.dat" />
+    <None Include="boats\holds\railway-mail-locker.dat" />
     <None Include="boats\holds\schooner-holds.dat" />
     <None Include="boats\holds\sealink-horsa-holds.dat" />
     <None Include="boats\holds\secr-queen-mail.dat" />
@@ -295,6 +298,7 @@
     <None Include="boats\rms-columba.dat" />
     <None Include="boats\secr-queen.dat" />
     <None Include="boats\semi-diesel-narrowboat.dat" />
+    <None Include="boats\skiff-wherry.dat" />
     <None Include="boats\sr-n4-mountbatten-mk1.dat" />
     <None Include="boats\sr-n4-mountbatten-mk3.dat" />
     <None Include="boats\sr-n6-winchester.dat" />
@@ -343,6 +347,7 @@
     <None Include="bus\daimler-cog5-double.dat" />
     <None Include="bus\daimler-cog5-single.dat" />
     <None Include="bus\daimler-wagonette.dat" />
+    <None Include="bus\dennis-15cwt-van.dat" />
     <None Include="bus\dennis-dart-9.8m.dat" />
     <None Include="bus\dennis-dart-slf-10.1m.dat" />
     <None Include="bus\dennis-dart-slf-9.2m.dat" />
@@ -631,6 +636,7 @@
     <None Include="stations\goods-narrow-stations.dat" />
     <None Include="stations\goods-platform-maglev.dat" />
     <None Include="stations\staging-inn.dat" />
+    <None Include="stations\staging-post-rail.dat" />
     <None Include="stations\station1-pc.dat" />
     <None Include="stations\truck-stops.dat" />
     <None Include="stations\wood-building.dat" />
