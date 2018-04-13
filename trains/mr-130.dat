@@ -29,10 +29,11 @@ weight=22.2
 sound=lwalker-br-4mt-tank.wav
 # Cannot be greater than 10 to go with contemporary track
 axle_load=10
-cost=7816000
+cost=19540000
 # These were, according to Ahrons, very fuel inefficient,
 # as they had no brick arch, so much heat energy was wasted.
-runningcost=980
+runningcost=352
+fixed_cost=36142
 
 Constraint[Next][0]=MR-130-tender
 
