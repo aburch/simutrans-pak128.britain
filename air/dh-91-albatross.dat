@@ -9,9 +9,10 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=338
-power=1568
-tractive_effort=16
+power=1411
+tractive_effort=11
 freight=Passagiere
+# 454kg
 payload[0]=0
 payload[1]=0
 payload[2]=0
@@ -38,7 +39,7 @@ catering_level=1
 # Guessed
 minimum_runway_length=655
 
-range=1675
+range=1630
 sound=ylearkisto-dc-3.wav
 
 Constraint[Next][0]=none
@@ -82,7 +83,7 @@ max_loading_time=2000
 # Guessed
 minimum_runway_length=655
 
-range=1675
+range=5300
 sound=ylearkisto-dc-3.wav
 
 Constraint[Next][0]=none
