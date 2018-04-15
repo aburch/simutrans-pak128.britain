@@ -23,7 +23,7 @@ retire_month=12
 min_loading_time=180
 max_loading_time=450
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-g-bulk-empty_E.0.0,-33,14
@@ -110,7 +110,7 @@ retire_month=12
 min_loading_time=180
 max_loading_time=450
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-g-long-empty_E.0.0,-33,14
@@ -168,7 +168,7 @@ retire_month=12
 min_loading_time=180
 max_loading_time=450
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-g-piece_E.0.0,-33,14
@@ -207,7 +207,7 @@ retire_month=12
 min_loading_time=180
 max_loading_time=450
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-g-cool_E.0.0,-33,14
@@ -245,7 +245,7 @@ retire_month=12
 min_loading_time=180
 max_loading_time=450
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-g-livestock_E.0.0,-33,14
@@ -283,7 +283,7 @@ retire_month=12
 min_loading_time=120
 max_loading_time=240
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-g-post_E.0.0,-33,14
