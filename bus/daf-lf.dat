@@ -24,7 +24,7 @@ max_loading_time=360
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/daf-lf-bulk-empty_E.0.0,-33,14
@@ -111,7 +111,7 @@ max_loading_time=360
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/daf-lf-long-empty_E.0.0,-33,14
@@ -169,7 +169,7 @@ max_loading_time=360
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/daf-lf-piece_E.0.0,-33,14
@@ -207,7 +207,7 @@ max_loading_time=360
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/daf-lf-cool_E.0.0,-33,14
@@ -244,7 +244,7 @@ max_loading_time=360
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/daf-lf-livestock_E.0.0,-33,14
@@ -281,7 +281,7 @@ max_loading_time=300
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/daf-lf-post_E.0.0,-33,14
