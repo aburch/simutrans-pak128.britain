@@ -158,7 +158,6 @@ value[1]=56
 to_distance[1]=32
 value[2]=52
 to_distance[2]=0
-speed_bonus=18
 speed_bonus=2
 weight_per_unit=120
 ------------------------------------------
@@ -210,7 +209,6 @@ value[3]=50
 to_distance[3]=0
 speed_bonus=15
 weight_per_unit=1000
-metric=tonnen
 -----------------------
 ### BULK GOODS ###
 # Coal
@@ -327,7 +325,7 @@ weight_per_unit=1000
 # Not given, but treat as C
 obj=good
 name=Cement
-metric=tonnen
+metric=me
 catg=2
 #
 #value=35
@@ -942,7 +940,7 @@ to_distance[2]=80
 value[3]=23
 to_distance[3]=160
 value[4]=0
-to_distance[3]=0
+to_distance[4]=0
 speed_bonus=15
 weight_per_unit=385
 -----------------------
