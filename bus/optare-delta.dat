@@ -30,7 +30,6 @@ comfort=37
 # Single entrance pay driver 4.0 seconds per passenger
 min_loading_time=5
 max_loading_time=196
-sound=hkmtrhah-volvo-bm10.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

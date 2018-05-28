@@ -22,7 +22,7 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/thornycroft-bt-bulk-empty_E.0.0,-33,14
@@ -108,7 +108,7 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/thornycroft-bt-long-empty_E.0.0,-33,14
@@ -165,7 +165,7 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/thornycroft-bt-piece_E.0.0,-33,14
@@ -203,7 +203,7 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/thornycroft-bt-cool_E.0.0,-33,14
@@ -240,7 +240,7 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/thornycroft-bt-livestock_E.0.0,-33,14
@@ -278,7 +278,7 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/thornycroft-bt-post_E.0.0,-33,14
@@ -315,7 +315,7 @@ retire_month=8
 min_loading_time=90
 max_loading_time=360
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/thornycroft-bt-cars-empty_E.0.0,-33,14

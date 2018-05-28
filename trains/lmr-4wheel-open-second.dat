@@ -23,6 +23,7 @@ axles=2
 cost=75000
 upgrade_price=15000
 runningcost=7
+fixed_cost=31
 
 comfort[0]=0
 comfort[1]=0
@@ -208,15 +209,6 @@ FreightImage[W][8]=./images/4wheel-second-covered-sdr-loaded_W.0.0
 FreightImage[NW][8]=./images/4wheel-second-covered-sdr-loaded_NW.0.0
 FreightImage[N][8]=./images/4wheel-second-covered-sdr-loaded_N.0.0
 FreightImage[NE][8]=./images/4wheel-second-covered-sdr-loaded_NE.0.0
-
-EmptyImage[E][9]=./images/4wheel-second-covered-b&djr_E.0.0
-EmptyImage[SE][9]=./images/4wheel-second-covered-b&djr_SE.0.0
-EmptyImage[S][9]=./images/4wheel-second-covered-b&djr_S.0.0
-EmptyImage[SW][9]=./images/4wheel-second-covered-b&djr_SW.0.0
-EmptyImage[W][9]=./images/4wheel-second-covered-b&djr_W.0.0
-EmptyImage[NW][9]=./images/4wheel-second-covered-b&djr_NW.0.0
-EmptyImage[N][9]=./images/4wheel-second-covered-b&djr_N.0.0
-EmptyImage[NE][9]=./images/4wheel-second-covered-b&djr_NE.0.0
 
 EmptyImage[E][9]=./images/4wheel-second-covered-l&br_E.0.0
 EmptyImage[SE][9]=./images/4wheel-second-covered-l&br_SE.0.0
