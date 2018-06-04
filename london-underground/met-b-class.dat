@@ -23,8 +23,9 @@ length=5
 weight=48
 # This should be 18.5, but no tracks that can take this available contemporaneously.
 axle_load=17
-cost=8825000
-runningcost=845
+cost=5295000
+runningcost=309
+fixed_cost=26206
 sound=lwalker-br-4mt-tank.wav
 
 bidirectional=1
