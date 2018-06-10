@@ -25,7 +25,7 @@ max_loading_time=450
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-daf-65-bulk-empty_E.0.0,-33,14
@@ -114,7 +114,7 @@ max_loading_time=450
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-daf-65-long-empty_E.0.0,-33,14
@@ -174,7 +174,7 @@ max_loading_time=450
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-daf-65-piece_E.0.0,-33,14
@@ -215,7 +215,7 @@ max_loading_time=450
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-daf-65-cool_E.0.0,-33,14
@@ -255,7 +255,7 @@ max_loading_time=450
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-daf-65-livestock_E.0.0,-33,14
@@ -294,7 +294,7 @@ max_loading_time=390
 available_only_as_upgrade=0
 fixed_maintenance=0
 
-constraint[next][0]=none 
+constraint[next][0]=none
 constraint[prev][0]=none
 
 EmptyImage[E]=./images/leyland-daf-65-post_E.0.0,-33,14

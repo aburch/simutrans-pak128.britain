@@ -23,8 +23,9 @@ weight=2.7
 axles=2
 cost=140000
 runningcost=10
+fixed_cost=58
 
-upgrade[0]=LMR-4wheel-first
+upgrade[0]=LMR-4Wheel-First
 
 comfort[0]=0
 comfort[1]=0
@@ -88,8 +89,9 @@ weight=2.7
 axles=2
 cost=146000
 runningcost=10
+fixed_cost=4861
 
-upgrade[0]=LMR-4wheel-first-Guard-front
+upgrade[0]=LMR-4Wheel-First-Guard-front
 
 comfort[0]=0
 comfort[1]=0
@@ -153,8 +155,9 @@ weight=2.7
 axles=2
 cost=146000
 runningcost=10
+fixed_cost=4861
 
-upgrade[0]=LMR-4wheel-first-Guard-rear
+upgrade[0]=LMR-4Wheel-First-Guard-rear
 
 comfort[0]=0
 comfort[1]=0
