@@ -447,9 +447,9 @@ retire_month=12
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=80
-payload[2]=0
-payload[3]=0
+payload[1]=0
+payload[2]=40
+payload[3]=16
 overcrowded_capacity=40
 length=7
 
