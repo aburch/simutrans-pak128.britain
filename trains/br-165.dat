@@ -26,7 +26,8 @@ rolling_resistance=13
 weight=37
 axles=4
 cost=1752000
-runningcost=88
+runningcost=78
+fixed_cost=6913
 sound=konakaboom-class-165.wav
 
 increase_maintenance_after_years=23
@@ -84,7 +85,8 @@ brake_force=27
 weight=37
 axles=4
 cost=1752000
-runningcost=88
+runningcost=78
+fixed_cost=913
 
 increase_maintenance_after_years=23
 
@@ -141,7 +143,8 @@ rolling_resistance=13
 weight=39
 axles=4
 cost=1752000
-runningcost=88
+runningcost=78
+fixed_cost=6913
 sound=konakaboom-class-165.wav
 
 increase_maintenance_after_years=23

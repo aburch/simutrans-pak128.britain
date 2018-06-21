@@ -13,7 +13,8 @@ length=11
 weight=43
 axles=4
 cost=1030000
-runningcost=20
+runningcost=0
+fixed_cost=2146
 
 brake_force=32
 rolling_resistance=13

@@ -24,7 +24,8 @@ weight=79.5
 # https://orion.math.iastate.edu/jdhsmith/term/slgbmet.htm
 axle_load=20
 cost=11000000
-runningcost=625
+runningcost=195
+fixed_cost=33167
 sound=lwalker-br-4mt-tank.wav
 
 bidirectional=1

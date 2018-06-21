@@ -23,7 +23,8 @@ length=11
 weight=55.9
 axles=4
 cost=3500000
-runningcost=72
+runningcost=371
+fixed_cost=9646
 sound=spompeytransportvideo-class-205.wav
 
 can_lead_from_rear=1
@@ -92,7 +93,8 @@ length=11
 weight=55.9
 axles=4
 cost=3500000
-runningcost=72
+runningcost=371
+fixed_cost=9646
 sound=spompeytransportvideo-class-205.wav
 increase_maintenance_after_years=15
 
@@ -160,7 +162,8 @@ length=11
 weight=30
 axles=4
 cost=1300000
-runningcost=24
+runningcost=0
+fixed_cost=1548
 
 can_lead_from_rear=0
 bidirectional=1
@@ -227,7 +230,8 @@ length=11
 weight=30
 axles=4
 cost=1300000
-runningcost=24
+runningcost=0
+fixed_cost=1548
 
 can_lead_from_rear=0
 bidirectional=1
@@ -294,7 +298,8 @@ length=11
 weight=31
 axles=4
 cost=1300000
-runningcost=24
+runningcost=0
+fixed_cost=19548
 
 can_lead_from_rear=0
 bidirectional=1

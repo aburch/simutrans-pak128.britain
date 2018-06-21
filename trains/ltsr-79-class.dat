@@ -21,7 +21,8 @@ axle_load=20
 # https://en.wikipedia.org/wiki/LT%26SR_79_Class
 weight=72.7
 cost=8440000
-runningcost=482
+runningcost=127
+fixed_cost=31033
 
 
 can_lead_from_rear=0

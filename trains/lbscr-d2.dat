@@ -28,8 +28,8 @@ years_before_maintenance_max_reached=35
 weight=35
 axle_load=14
 cost=6412500
-runningcost=310
-fixed_cost=26672
+runningcost=202
+fixed_cost=29344
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-Belgravia-tender

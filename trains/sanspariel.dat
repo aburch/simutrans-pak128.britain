@@ -26,8 +26,8 @@ weight=4.8
 axle_load=2
 # Actual cost: £500 in 1829: see Ahrons p. 16
 cost=1022500
-runningcost=12
-fixed_cost=1075
+runningcost=64
+fixed_cost=17420
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=sanspariel-tender
@@ -62,6 +62,7 @@ rolling_resistance=19
 weight=1
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=sanspariel
 

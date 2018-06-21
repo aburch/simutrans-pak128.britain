@@ -18,7 +18,8 @@ length=10
 weight=31
 axles=4
 cost=597000
-runningcost=34
+runningcost=0
+fixed_cost=5511
 
 comfort[0]=0
 comfort[1]=103
@@ -118,7 +119,8 @@ length=10
 weight=31
 axles=4
 cost=597000
-runningcost=34
+runningcost=0
+fixed_cost=5511
 
 comfort[0]=0
 comfort[1]=103
@@ -219,7 +221,8 @@ length=10
 weight=31
 axles=4
 cost=597000
-runningcost=34
+runningcost=0
+fixed_cost=711
 
 comfort[0]=0
 comfort[1]=103

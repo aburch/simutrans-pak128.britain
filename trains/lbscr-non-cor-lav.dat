@@ -18,7 +18,8 @@ brake_force=12
 weight=22
 axles=4
 cost=748000
-runningcost=37
+runningcost=0
+fixed_cost=890
 
 can_lead_from_rear=0
 bidirectional=1
@@ -156,7 +157,8 @@ brake_force=12
 weight=23
 axles=4
 cost=748000
-runningcost=37
+runningcost=0
+fixed_cost=5690
 
 can_lead_from_rear=0
 bidirectional=1
@@ -274,7 +276,8 @@ brake_force=12
 weight=23
 axles=4
 cost=748000
-runningcost=37
+runningcost=0
+fixed_cost=5690
 
 can_lead_from_rear=0
 bidirectional=1

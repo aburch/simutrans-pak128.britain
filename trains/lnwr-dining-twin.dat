@@ -22,7 +22,8 @@ rolling_resistance=17
 weight=35
 axles=6
 cost=665000
-runningcost=38
+runningcost=0
+fixed_cost=18792
 
 comfort[0]=0
 comfort[1]=139
@@ -110,7 +111,8 @@ rolling_resistance=17
 weight=35
 axles=6
 cost=600000
-runningcost=38
+runningcost=0
+fixed_cost=18714
 
 comfort[0]=0
 comfort[1]=139

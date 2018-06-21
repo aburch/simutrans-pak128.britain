@@ -20,7 +20,8 @@ length=11
 weight=36
 axles=4
 cost=1120000
-runningcost=54
+runningcost=49
+fixed_cost=6933
 sound=video47-class-508.wav
 
 can_lead_from_rear=1
@@ -81,7 +82,8 @@ length=11
 weight=27
 axles=4
 cost=1120000
-runningcost=54
+runningcost=0
+fixed_cost=1333
 
 can_lead_from_rear=0
 bidirectional=1
@@ -141,7 +143,8 @@ length=11
 weight=27
 axles=4
 cost=1120000
-runningcost=54
+runningcost=0
+fixed_cost=1333
 
 can_lead_from_rear=0
 bidirectional=1
@@ -213,7 +216,8 @@ length=11
 weight=37
 axles=4
 cost=1120000
-runningcost=54
+runningcost=49
+fixed_cost=6933
 sound=video47-class-508.wav
 
 can_lead_from_rear=1

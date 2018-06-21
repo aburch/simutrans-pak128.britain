@@ -17,7 +17,8 @@ rolling_resistance=18
 weight=10
 axles=2
 cost=300000
-runningcost=16
+runningcost=0
+fixed_cost=357
 
 can_lead_from_rear=0
 bidirectional=1
@@ -91,7 +92,8 @@ rolling_resistance=18
 weight=9
 axles=2
 cost=300000
-runningcost=16
+runningcost=0
+fixed_cost=5157
 
 can_lead_from_rear=0
 bidirectional=1
@@ -155,7 +157,8 @@ rolling_resistance=18
 weight=9
 axles=2
 cost=300000
-runningcost=16
+runningcost=0
+fixed_cost=5157
 
 can_lead_from_rear=0
 bidirectional=1

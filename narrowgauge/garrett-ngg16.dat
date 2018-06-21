@@ -27,7 +27,8 @@ weight=63
 # http://en.wikipedia.org/wiki/NGG16
 axle_load=7
 cost=8972500
-runningcost=215
+runningcost=114
+fixed_cost=23477
 sound=the-mart-ban-ngg16.wav
 
 Constraint[Next][0]=Garrett-NGG16-middle

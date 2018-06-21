@@ -21,7 +21,8 @@ brake_force=5
 weight=12
 axles=3
 cost=304000
-runningcost=24
+runningcost=0
+fixed_cost=5162
 
 
 can_lead_from_rear=0

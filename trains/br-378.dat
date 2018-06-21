@@ -20,7 +20,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1814400
-runningcost=25
+runningcost=90
+fixed_cost=7512
 sound=panos-g-class-375.wav
 
 can_lead_from_rear=1
@@ -70,7 +71,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=2721000
-runningcost=25
+runningcost=90
+fixed_cost=2268
 
 can_lead_from_rear=0
 bidirectional=1
@@ -113,7 +115,8 @@ brake_force=30
 
 weight=40
 cost=2721000
-runningcost=25
+runningcost=0
+fixed_cost=5669
 
 can_lead_from_rear=0
 bidirectional=1
@@ -162,7 +165,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1814400
-runningcost=24
+runningcost=90
+fixed_cost=7512
 sound=panos-g-class-375.wav
 
 can_lead_from_rear=1

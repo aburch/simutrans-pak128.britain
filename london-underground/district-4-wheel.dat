@@ -18,8 +18,8 @@ length=4
 weight=7.2
 axles=2
 cost=220000
-runningcost=26
-fixed_cost=92
+runningcost=0
+fixed_cost=262
 
 
 can_lead_from_rear=0
@@ -84,8 +84,8 @@ length=4
 weight=7.2
 axles=2
 cost=210000
-runningcost=26
-fixed_cost=4888
+runningcost=0
+fixed_cost=5050
 
 can_lead_from_rear=0
 bidirectional=1
@@ -145,8 +145,8 @@ length=4
 weight=7.2
 axles=2
 cost=210000
-runningcost=26
-fixed_cost=4888
+runningcost=0
+fixed_cost=5050
 
 can_lead_from_rear=0
 bidirectional=1
@@ -212,7 +212,8 @@ weight=7.2
 axles=2
 cost=240000
 upgrade_price=65000
-runningcost=26
+runningcost=0
+fixed_cost=286
 
 can_lead_from_rear=0
 bidirectional=1
@@ -291,8 +292,8 @@ weight=7.2
 axles=2
 cost=230000
 upgrade_price=65000
-runningcost=26
-fixed_cost=4896
+runningcost=0
+fixed_cost=5074
 
 can_lead_from_rear=0
 bidirectional=1
@@ -359,8 +360,8 @@ weight=7.2
 axles=2
 cost=230000
 upgrade_price=65000
-runningcost=26
-fixed_cost=4896
+runningcost=0
+fixed_cost=5074
 
 can_lead_from_rear=0
 bidirectional=1

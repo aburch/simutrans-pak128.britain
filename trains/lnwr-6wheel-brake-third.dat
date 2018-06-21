@@ -23,7 +23,8 @@ brake_force=5
 weight=12
 axles=3
 cost=304000
-runningcost=24
+runningcost=0
+fixed_cost=5162
 
 comfort[0]=0
 comfort[1]=69

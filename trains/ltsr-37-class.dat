@@ -21,7 +21,8 @@ axle_load=18
 # https://en.wikipedia.org/wiki/LT%26SR_37_Class
 weight=72.9
 cost=8200000
-runningcost=475
+runningcost=183
+fixed_cost=30833
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

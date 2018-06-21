@@ -24,7 +24,8 @@ rolling_resistance=19
 weight=2.8
 axles=2
 cost=200000
-runningcost=17
+runningcost=0
+fixed_cost=167
 
 comfort[0]=0
 comfort[1]=0

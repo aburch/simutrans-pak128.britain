@@ -31,7 +31,8 @@ brake_force=5
 weight=12
 axles=3
 cost=317500
-runningcost=26
+runningcost=0
+fixed_cost=378
 
 comfort[0]=0
 comfort[1]=63
@@ -450,8 +451,8 @@ brake_force=5
 weight=12
 axles=3
 cost=317500
-runningcost=26
-fixed_cost=4932
+runningcost=0
+fixed_cost=5178
 
 comfort[0]=0
 comfort[1]=63
@@ -490,7 +491,8 @@ brake_force=5
 
 weight=12
 cost=317500
-runningcost=26
+runningcost=0
+fixed_cost=378
 
 can_lead_from_rear=0
 bidirectional=1
@@ -525,7 +527,8 @@ brake_force=5
 weight=11
 axles=3
 cost=314500
-runningcost=26
+runningcost=0
+fixed_cost=131
 
 
 can_lead_from_rear=0
@@ -655,7 +658,7 @@ brake_force=5
 weight=11
 axles=3
 cost=314500
-runningcost=26
+runningcost=0
 fixed_cost=24131
 
 catering_level=1

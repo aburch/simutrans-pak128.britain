@@ -18,7 +18,8 @@ length=11
 weight=45
 axles=4
 cost=1500000
-runningcost=330
+runningcost=75
+fixed_cost=11042
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1

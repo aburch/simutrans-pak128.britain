@@ -21,7 +21,8 @@ overcrowded_capacity=0
 axle_load=1
 length=3
 cost=101000
-runningcost=22
+runningcost=0
+fixed_cost=4842
 brake_force=1
 rolling_resistance=19
 

@@ -23,7 +23,8 @@ brake_force=5
 weight=12.9
 axles=3
 cost=304000
-runningcost=24
+runningcost=0
+fixed_cost=362
 
 comfort[0]=0
 comfort[1]=69
@@ -169,7 +170,9 @@ brake_force=5
 weight=12.9
 axles=3
 upgrade_price=49285
-runningcost=24
+runningcost=0
+fixed_cost=619
+cost=520000
 
 # Note that only half the passengers in this carriage have lavatory access:
 # see Jenkinson (LNWR) p. 101 (this is D279).

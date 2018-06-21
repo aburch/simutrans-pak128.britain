@@ -19,8 +19,8 @@ brake_force=0
 weight=17.5
 axles=4
 cost=320000
-runningcost=26
-fixed_cost=133
+runningcost=0
+fixed_cost=381
 
 can_lead_from_rear=0
 bidirectional=1
@@ -91,8 +91,8 @@ brake_force=0
 weight=17.5
 axles=4
 cost=325000
-runningcost=26
-fixed_cost=135
+runningcost=0
+fixed_cost=387
 
 can_lead_from_rear=0
 bidirectional=1
@@ -163,8 +163,8 @@ brake_force=0
 weight=17.5
 axles=4
 cost=330000
-runningcost=26
-fixed_cost=138
+runningcost=0
+fixed_cost=393
 
 can_lead_from_rear=0
 bidirectional=1
@@ -236,8 +236,8 @@ brake_force=7
 weight=17.5
 axles=4
 cost=310000
-runningcost=26
-fixed_cost=4929
+runningcost=0
+fixed_cost=5169
 
 can_lead_from_rear=0
 bidirectional=1
@@ -302,8 +302,8 @@ brake_force=7
 weight=17.5
 axles=4
 cost=310000
-runningcost=26
-fixed_cost=4929
+runningcost=0
+fixed_cost=5169
 
 can_lead_from_rear=0
 bidirectional=1
@@ -375,7 +375,8 @@ weight=17.5
 axles=4
 cost=340000
 upgrade_price=65000
-runningcost=26
+runningcost=0
+fixed_cost=405
 
 can_lead_from_rear=0
 bidirectional=1
@@ -457,7 +458,8 @@ weight=17.5
 axles=4
 cost=345000
 upgrade_price=65000
-runningcost=26
+runningcost=0
+fixed_cost=411
 
 can_lead_from_rear=0
 bidirectional=1
@@ -539,7 +541,8 @@ weight=17.5
 axles=4
 cost=370000
 upgrade_price=65000
-runningcost=26
+runningcost=0
+fixed_cost=440
 
 can_lead_from_rear=0
 bidirectional=1
@@ -621,8 +624,8 @@ weight=16.5
 axles=4
 cost=330000
 upgrade_price=65000
-runningcost=26
-fixed_cost=4938
+runningcost=0
+fixed_cost=5193
 
 can_lead_from_rear=0
 bidirectional=1
@@ -692,8 +695,8 @@ weight=16.5
 axles=4
 cost=330000
 upgrade_price=65000
-runningcost=26
-fixed_cost=4938
+runningcost=0
+fixed_cost=5193
 
 can_lead_from_rear=0
 bidirectional=1

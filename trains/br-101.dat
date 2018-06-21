@@ -24,7 +24,8 @@ length=10
 weight=32.5
 axles=4
 cost=1240000
-runningcost=96
+runningcost=224
+fixed_cost=11292
 sound=video47-class-121.wav
 
 can_lead_from_rear=1
@@ -135,7 +136,8 @@ length=10
 weight=25.5
 axles=4
 cost=591000
-runningcost=26
+runningcost=0
+fixed_cost=704
 
 can_lead_from_rear=0
 bidirectional=1
@@ -230,7 +232,8 @@ length=10
 weight=32.5
 axles=4
 cost=1240000
-runningcost=96
+runningcost=224
+fixed_cost=11292
 sound=video47-class-121.wav
 
 can_lead_from_rear=1
@@ -340,7 +343,8 @@ length=10
 weight=26.5
 axles=4
 cost=620000
-runningcost=27
+runningcost=0
+fixed_cost=738
 sound=video47-class-121.wav
 
 can_lead_from_rear=1

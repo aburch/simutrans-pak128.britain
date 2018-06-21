@@ -24,7 +24,8 @@ weight=41
 axles=4
 cost=1296000
 upgrade_price=0
-runningcost=66
+runningcost=64
+fixed_cost=6675
 sound=konakaboom-class-159.wav
 
 increase_maintenance_after_years=23
@@ -101,7 +102,8 @@ weight=41
 axles=4
 cost=1299000
 upgrade_price=1500
-runningcost=71
+runningcost=64
+fixed_cost=18677
 
 increase_maintenance_after_years=23
 

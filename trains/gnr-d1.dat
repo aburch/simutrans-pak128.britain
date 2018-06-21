@@ -20,7 +20,8 @@ length=5
 weight=54.2
 axle_load=18
 cost=9450000
-runningcost=800
+runningcost=113
+fixed_cost=31875
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=GNR-C1-Tender

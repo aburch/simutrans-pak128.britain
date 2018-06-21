@@ -21,7 +21,8 @@ axle_load=20
 # Three cylinders
 way_wear_factor=11375
 cost=6689000
-runningcost=1345
+runningcost=267
+fixed_cost=29574
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=11
@@ -79,6 +80,7 @@ weight=55
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=15
 years_before_maintenance_max_reached=11

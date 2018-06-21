@@ -19,7 +19,8 @@ length=9
 weight=27
 axles=4
 cost=560000
-runningcost=32
+runningcost=0
+fixed_cost=5467
 
 comfort[0]=0
 comfort[1]=78
@@ -119,7 +120,8 @@ length=9
 weight=27
 axles=4
 cost=560000
-runningcost=32
+runningcost=0
+fixed_cost=5467
 
 comfort[0]=0
 comfort[1]=78
@@ -219,7 +221,8 @@ length=9
 weight=27
 axles=4
 cost=560000
-runningcost=32
+runningcost=0
+fixed_cost=667
 
 comfort[0]=0
 comfort[1]=78
