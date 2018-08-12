@@ -3209,13 +3209,17 @@ GNR non-corridor full brake carriage
 gnr-non-cor-mail
 GNR non-corridor mail carriage
 LNWR-6Wheel-non-lav
-LNWR six wheel five compartment carriage
+LNWR six wheel five compartment carriage (third class)
 LNWR-6Wheel-lav
-LNWR six wheel four compartment lavatory carriage
+LNWR six wheel four compartment lavatory carriage (third class)
+LNWR-6Wheel-lav-tricomposite
+LNWR six wheel three and a half compartment lavatory tricomposite carriage (first/second/third class)
 LNWR-6Wheel-Guard
 LNWR six wheel brake/mail carriage
 LNWR-6Wheel-brake-third
-LNWR six wheel three compartment brake carriage
+LNWR six wheel three compartment brake carriage (third class)
+LNWR-6Wheel-brake-composite
+LNWR six wheel three compartment brake tricomposite carriage (first/second/third class)
 LNWR-6wheel-radial
 LNWR six wheel (radial) five compartment carriage (third class)
 LNWR-6wheel-radial-first
