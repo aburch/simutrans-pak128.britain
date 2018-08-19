@@ -23,7 +23,8 @@ rolling_resistance=13
 weight=49
 axles=4
 cost=1930000
-runningcost=171
+runningcost=68
+fixed_cost=7005
 sound=video47-class-175.wav
 
 min_loading_time=30
@@ -89,7 +90,8 @@ rolling_resistance=13
 weight=49
 axles=4
 cost=1930000
-runningcost=170
+runningcost=68
+fixed_cost=7005
 sound=video47-class-175.wav
 
 min_loading_time=30
@@ -156,7 +158,8 @@ weight=46
 axles=4
 cost=1930000
 upgrade_price=1000
-runningcost=170
+runningcost=68
+fixed_cost=1005
 
 upgrade[0]=BR-175Middle-trolley
 
@@ -225,7 +228,8 @@ weight=46
 axles=4
 cost=1930000
 upgrade_price=1000
-runningcost=195
+runningcost=68
+fixed_cost=19005
 
 upgrade[0]=BR-175Middle
 

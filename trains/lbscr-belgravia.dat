@@ -27,8 +27,8 @@ years_before_maintenance_max_reached=35
 weight=41.9
 axle_load=8
 cost=12375000
-runningcost=335
-fixed_cost=29156
+runningcost=262
+fixed_cost=34313
 
 
 Constraint[Next][0]=LBSCR-Belgravia-tender
@@ -74,6 +74,7 @@ weight=25
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 can_lead_from_rear=0

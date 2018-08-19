@@ -19,7 +19,8 @@ brake_force=0
 weight=6
 axles=4
 cost=520000
-runningcost=19
+runningcost=0
+fixed_cost=619
 
 comfort[0]=0
 comfort[1]=37
@@ -114,7 +115,8 @@ rolling_resistance=19
 weight=6
 cost=560000
 upgrade_price=26000
-runningcost=21
+runningcost=0
+fixed_cost=5033
 
 comfort[0]=0
 comfort[1]=37

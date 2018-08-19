@@ -17,7 +17,8 @@ length=6
 weight=12
 axles=3
 cost=345000
-runningcost=29
+runningcost=0
+fixed_cost=411
 
 
 can_lead_from_rear=0
@@ -174,7 +175,8 @@ length=6
 weight=13
 axles=3
 cost=372000
-runningcost=40
+runningcost=0
+fixed_cost=18443
 
 
 can_lead_from_rear=0
@@ -275,7 +277,8 @@ length=6
 weight=11.5
 axles=3
 cost=512000
-runningcost=26
+runningcost=0
+fixed_cost=5410
 
 can_lead_from_rear=0
 bidirectional=1
@@ -310,7 +313,8 @@ length=6
 weight=11.3
 axles=3
 cost=452000
-runningcost=25
+runningcost=0
+fixed_cost=538
 
 can_lead_from_rear=0
 bidirectional=1
@@ -347,7 +351,8 @@ length=6
 weight=11
 axles=3
 cost=411000
-runningcost=23
+runningcost=0
+fixed_cost=5289
 
 can_lead_from_rear=0
 bidirectional=1

@@ -7,9 +7,9 @@ engine_type=steam
 smoke=Steam
 speed=85
 # Extrapolated (figures from the 2441 used)
-power=104
-tractive_effort=93
+power=192
 # http://en.wikipedia.org/wiki/Midland_Railway_2441_Class
+tractive_effort=93
 copyright=Kieron
 intro_year=1908
 intro_month=2
@@ -25,7 +25,8 @@ weight=50
 axles=3
 cost=1755000
 upgrade_price=32000
-runningcost=199
+runningcost=45
+fixed_cost=17463
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=30
 years_before_maintenance_max_reached=20

@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=68.5
 axles=4
 cost=9744000
-runningcost=1500
+runningcost=611
+fixed_cost=14120
 sound=panos-g-eurostar.wav
 
 can_lead_from_rear=1
@@ -70,7 +71,8 @@ rolling_resistance=13
 weight=44.6
 axles=4
 cost=3248000
-runningcost=1500
+runningcost=0
+fixed_cost=6767
 
 can_lead_from_rear=1
 bidirectional=0
@@ -122,7 +124,8 @@ rolling_resistance=13
 weight=28.1
 axles=4
 cost=16240
-runningcost=61
+runningcost=0
+fixed_cost=34
 
 
 can_lead_from_rear=0
@@ -179,7 +182,8 @@ rolling_resistance=13
 weight=28.1
 axles=4
 cost=16240
-runningcost=61
+runningcost=0
+fixed_cost=34
 
 
 can_lead_from_rear=0
@@ -233,7 +237,8 @@ rolling_resistance=13
 weight=31.1
 axles=4
 cost=16240
-runningcost=61
+runningcost=0
+fixed_cost=18034
 
 can_lead_from_rear=0
 bidirectional=1
@@ -283,7 +288,8 @@ rolling_resistance=13
 weight=39.4
 axles=4
 cost=3248000
-runningcost=1500
+runningcost=0
+fixed_cost=6767
 
 
 can_lead_from_rear=0
@@ -335,7 +341,8 @@ rolling_resistance=13
 weight=68.5
 axles=4
 cost=9744000
-runningcost=1500
+runningcost=611
+fixed_cost=14120
 sound=panos-g-eurostar.wav
 
 can_lead_from_rear=1

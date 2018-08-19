@@ -23,7 +23,8 @@ air_resistance=108
 weight=70
 axles=4
 cost=9331000
-runningcost=2508
+runningcost=840
+fixed_cost=12480
 sound=sans-pareil-hst-valenta.wav
 # sound=konakaboom-hst-mtu.wav
 
@@ -198,7 +199,8 @@ air_resistance=108
 weight=70
 axles=4
 cost=9331000
-runningcost=2508
+runningcost=840
+fixed_cost=12480
 sound=x84asrd84boxy-hst-valenta.wav
 # sound=konakaboom-hst-mtu.wav
 

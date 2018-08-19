@@ -20,7 +20,8 @@ rolling_resistance=13
 weight=130
 axles=6
 cost=7606000
-runningcost=2465
+runningcost=738
+fixed_cost=13961
 # Sound for this is very hard to find, so use a class 56 for now.
 sound=video47-class-56.wav
 increase_maintenance_after_years=12

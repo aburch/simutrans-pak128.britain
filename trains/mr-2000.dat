@@ -26,7 +26,8 @@ way_wear_factor=114795
 weight=73.6
 axle_load=18
 cost=3520000
-runningcost=800
+runningcost=117
+fixed_cost=26933
 sound=lwalker-br-4mt-tank.wav
 upgrade[0]=MR-2000-superheated
 
@@ -83,7 +84,8 @@ weight=76
 axle_load=18
 cost=3659000
 upgrade_price=1750000
-runningcost=700
+runningcost=168
+fixed_cost=27049
 sound=lwalker-br-4mt-tank.wav
 available_only_as_upgrade=1
 

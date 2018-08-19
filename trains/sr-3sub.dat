@@ -24,7 +24,8 @@ weight=41.7
 axles=4
 cost=1700000
 upgrade_price=1101700
-runningcost=123
+runningcost=164
+fixed_cost=7417
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=25
 
@@ -122,7 +123,8 @@ weight=27.8
 axles=4
 cost=787600
 upgrade_price=157520
-runningcost=36
+runningcost=0
+fixed_cost=938
 
 increase_maintenance_after_years=25
 
@@ -208,7 +210,8 @@ weight=41.7
 axles=4
 cost=1700000
 upgrade_price=1101700
-runningcost=123
+runningcost=164
+fixed_cost=7417
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=25
 

@@ -21,7 +21,8 @@ length=10
 weight=33
 axles=4
 cost=755000
-runningcost=37
+runningcost=0
+fixed_cost=899
 
 # Long distance three per side in the thirds, no individual compartment doors.
 comfort[0]=0
@@ -183,7 +184,8 @@ length=10
 weight=32
 axles=4
 cost=755000
-runningcost=37
+runningcost=0
+fixed_cost=5699
 
 # Long distance three per side in the thirds, no individual compartment doors.
 comfort[0]=0
@@ -297,7 +299,8 @@ length=10
 weight=32
 axles=4
 cost=755000
-runningcost=37
+runningcost=0
+fixed_cost=5699
 
 # Long distance three per side in the thirds, no individual compartment doors.
 comfort[0]=0
@@ -411,7 +414,8 @@ length=10
 weight=31
 axles=4
 cost=700000
-runningcost=37
+runningcost=0
+fixed_cost=833
 
 # "High capacity" open third.
 can_lead_from_rear=0
@@ -573,7 +577,8 @@ length=10
 weight=30
 axles=4
 cost=700000
-runningcost=37
+runningcost=0
+fixed_cost=5633
 
 can_lead_from_rear=0
 bidirectional=1
@@ -686,7 +691,8 @@ length=10
 weight=30
 axles=4
 cost=700000
-runningcost=37
+runningcost=0
+fixed_cost=5633
 
 can_lead_from_rear=0
 bidirectional=1
@@ -797,7 +803,8 @@ rolling_resistance=17
 weight=44
 axles=4
 cost=910000
-runningcost=50
+runningcost=0
+fixed_cost=19083
 
 can_lead_from_rear=0
 bidirectional=1
@@ -958,7 +965,8 @@ length=10
 weight=34
 axles=4
 cost=820000
-runningcost=44
+runningcost=0
+fixed_cost=18976
 
 can_lead_from_rear=0
 bidirectional=1
@@ -1117,7 +1125,8 @@ length=9
 weight=27
 axles=4
 cost=548000
-runningcost=22
+runningcost=0
+fixed_cost=652
 
 can_lead_from_rear=0
 bidirectional=1
@@ -1174,7 +1183,8 @@ length=10
 weight=30
 axles=4
 cost=700000
-runningcost=37
+runningcost=0
+fixed_cost=292
 
 can_lead_from_rear=0
 bidirectional=1
@@ -1329,7 +1339,8 @@ length=10
 weight=30
 axles=4
 cost=777500
-runningcost=39
+runningcost=0
+fixed_cost=24324
 
 can_lead_from_rear=0
 bidirectional=1

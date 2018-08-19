@@ -27,7 +27,8 @@ weight=94
 # http://en.wikipedia.org/wiki/BR_Standard_Class_7
 axle_load=20
 cost=9849000
-runningcost=1732
+runningcost=516
+fixed_cost=48208
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=7
 years_before_maintenance_max_reached=13

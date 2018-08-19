@@ -26,7 +26,8 @@ cost=7344700
 # Should be somewhat uneconomic, as cylinders were too small for the boiler
 # and locomotives had to be worked hard to get required performance: see
 # above link
-runningcost=1162
+runningcost=210
+fixed_cost=46121
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=28
 years_before_maintenance_max_reached=25

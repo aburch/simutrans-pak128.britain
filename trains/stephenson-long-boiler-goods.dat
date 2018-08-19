@@ -28,8 +28,8 @@ sound=lwalker-br-4mt-tank.wav
 weight=21.5
 axle_load=8
 cost=14800000
-runningcost=141
-fixed_cost=38167
+runningcost=117
+fixed_cost=44556
 Constraint[Next][0]=stephenson-long-boiler-goods-tender
 
 # TODO: Other liveries.
@@ -77,6 +77,7 @@ brake_force=3
 weight=14
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=stephenson-long-boiler-goods
 

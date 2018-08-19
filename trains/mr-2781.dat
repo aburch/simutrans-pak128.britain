@@ -24,7 +24,8 @@ weight=56
 axle_load=18
 cost=6841000
 # Noted for high coal consumption: http://chasewaterstuff.wordpress.com/tag/s-w-johnson/
-runningcost=1500
+runningcost=136
+fixed_cost=45701
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=25
@@ -81,6 +82,7 @@ length=4
 weight=37
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=16
 

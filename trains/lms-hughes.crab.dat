@@ -18,7 +18,8 @@ payload=0
 weight=67
 axle_load=19
 cost=4570000
-runningcost=810
+runningcost=234
+fixed_cost=43808
 sound=konakaboom-black-five.wav
 length=7
 increase_maintenance_after_years=24
@@ -80,6 +81,7 @@ weight=43
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=24
 years_before_maintenance_max_reached=10

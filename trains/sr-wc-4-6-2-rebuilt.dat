@@ -26,7 +26,8 @@ way_wear_factor=127325
 # Each rebuild was estimated to cost approx. £5,428 in 1954
 cost=9992500
 upgrade_price=6450000
-runningcost=1765
+runningcost=406
+fixed_cost=60818
 
 increase_maintenance_after_years=3
 years_before_maintenance_max_reached=10

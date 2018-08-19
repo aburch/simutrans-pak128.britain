@@ -18,7 +18,8 @@ length=8
 weight=18
 axles=4
 cost=510000
-runningcost=29
+runningcost=0
+fixed_cost=607
 
 upgrade[0]=MR-clayton-8wheel-arc-roof-third-lav
 
@@ -191,7 +192,8 @@ weight=18
 axles=4
 cost=510000
 upgrade_price=40195
-runningcost=29
+runningcost=0
+fixed_cost=607
 
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=0
@@ -353,8 +355,8 @@ length=8
 weight=18
 axles=4
 cost=510000
-runningcost=29
-fixed_cost=5013
+runningcost=0
+fixed_cost=5407
 
 upgrade[0]=MR-clayton-8wheel-arc-roof-brake-lav-front
 
@@ -468,8 +470,8 @@ length=8
 weight=18
 axles=4
 cost=510000
-runningcost=29
-fixed_cost=5013
+runningcost=0
+fixed_cost=5407
 
 upgrade[0]=MR-clayton-8wheel-arc-roof-brake-lav-rear
 
@@ -584,7 +586,8 @@ weight=18
 axles=4
 cost=510000
 upgrade_price=40195
-runningcost=29
+runningcost=0
+fixed_cost=5407
 
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=0
@@ -687,7 +690,8 @@ length=8
 weight=18
 axles=4
 cost=510000
-runningcost=29
+runningcost=0
+fixed_cost=5407
 
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=0
@@ -789,7 +793,8 @@ length=8
 weight=18
 axles=4
 cost=500000
-runningcost=29
+runningcost=0
+fixed_cost=208
 
 upgrade[0]=MR-clayton-8wheel-arc-roof-third-lav
 

@@ -24,8 +24,8 @@ rolling_resistance=19
 weight=29
 axle_load=12
 cost=15950000
-runningcost=313
-fixed_cost=62646
+runningcost=252
+fixed_cost=37292
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=MR-1-tender
@@ -72,6 +72,7 @@ brake_force=3
 weight=14
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=MR-1

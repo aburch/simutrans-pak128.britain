@@ -21,7 +21,8 @@ axle_load=18
 # https://en.wikipedia.org/wiki/LT%26SR_51_Class
 weight=68.9
 cost=8210000
-runningcost=475
+runningcost=142
+fixed_cost=46842
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

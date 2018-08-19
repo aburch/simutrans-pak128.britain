@@ -27,8 +27,8 @@ bidirectional=0
 weight=29
 axle_load=12
 cost=9100000
-runningcost=288
-fixed_cost=41896
+runningcost=232
+fixed_cost=31583
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-craven-tender

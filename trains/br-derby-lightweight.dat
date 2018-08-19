@@ -23,7 +23,8 @@ length=10
 weight=22
 axles=4
 cost=875000
-runningcost=32
+runningcost=0
+fixed_cost=1042
 sound=stuart-derby-lightweight.wav
 increase_maintenance_after_years=17
 
@@ -110,7 +111,8 @@ length=10
 weight=27
 axles=4
 cost=1073000
-runningcost=66
+runningcost=224
+fixed_cost=11118
 sound=stuart-derby-lightweight.wav
 increase_maintenance_after_years=17
 

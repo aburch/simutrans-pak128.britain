@@ -22,7 +22,8 @@ weight=67.6
 # Ahrons p. 334
 axle_load=18
 cost=10000000
-runningcost=1000
+runningcost=162
+fixed_cost=48333
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=16
 years_before_maintenance_max_reached=22

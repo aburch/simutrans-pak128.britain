@@ -21,7 +21,8 @@ axle_load=17
 # https://en.wikipedia.org/wiki/LT%26SR_69_Class
 weight=65.7
 cost=8200000
-runningcost=470
+runningcost=124
+fixed_cost=46833
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

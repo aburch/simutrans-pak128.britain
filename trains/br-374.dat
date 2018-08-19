@@ -25,7 +25,8 @@ air_resistance=105
 weight=60
 axles=4
 cost=1057500
-runningcost=126
+runningcost=400
+fixed_cost=6881
 
 min_loading_time=35
 max_loading_time=165
@@ -75,7 +76,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=35
 max_loading_time=165
@@ -129,7 +131,8 @@ rolling_resistance=13
 weight=60
 axles=4
 cost=1899100
-runningcost=43
+runningcost=400
+fixed_cost=7583
 
 min_loading_time=35
 max_loading_time=165
@@ -183,7 +186,8 @@ rolling_resistance=13
 weight=60
 axles=4
 cost=1899100
-runningcost=43
+runningcost=400
+fixed_cost=19583
 
 catering_level=4
 
@@ -240,7 +244,8 @@ rolling_resistance=13
 weight=60
 axles=4
 cost=1899100
-runningcost=43
+runningcost=400
+fixed_cost=7583
 
 catering_level=4
 
@@ -297,7 +302,8 @@ air_resistance=105
 weight=60
 axles=4
 cost=1057500
-runningcost=126
+runningcost=400
+fixed_cost=6881
 
 min_loading_time=35
 max_loading_time=165

@@ -27,7 +27,8 @@ weight=107
 axle_load=20
 cost=15206000
 # These were noted as unreliable: http://www.lner.info/locos/P/p2.shtml
-runningcost=2376
+runningcost=376
+fixed_cost=71679
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=13
 years_before_maintenance_max_reached=10
@@ -85,6 +86,7 @@ weight=57
 axles=4
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=13
 years_before_maintenance_max_reached=10

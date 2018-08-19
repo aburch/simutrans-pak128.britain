@@ -20,7 +20,8 @@ length=9
 weight=25
 axles=4
 cost=550000
-runningcost=36
+runningcost=0
+fixed_cost=655
 
 comfort[0]=0
 comfort[1]=115
@@ -141,7 +142,8 @@ length=9
 weight=25
 axles=4
 cost=550000
-runningcost=36
+runningcost=0
+fixed_cost=5455
 
 comfort[0]=0
 comfort[1]=115
