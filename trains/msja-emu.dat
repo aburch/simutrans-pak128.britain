@@ -22,7 +22,8 @@ length=10
 weight=30.9
 axles=4
 cost=1663000
-runningcost=118
+runningcost=0
+fixed_cost=1980
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=12
 
@@ -98,7 +99,8 @@ length=10
 weight=30.9
 axles=4
 cost=1663000
-runningcost=118
+runningcost=0
+fixed_cost=1980
 
 increase_maintenance_after_years=12
 
@@ -175,7 +177,8 @@ length=10
 weight=57.9
 axles=4
 cost=1663000
-runningcost=118
+runningcost=391
+fixed_cost=7386
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=12
 

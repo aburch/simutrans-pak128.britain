@@ -22,7 +22,8 @@ weight=45
 axles=4
 upgrade_price=3500000
 cost=4000000
-runningcost=148
+runningcost=241
+fixed_cost=9333
 sound=lul-1938-stock-ff3170.wav
 length=7
 
@@ -88,7 +89,8 @@ weight=20
 axles=4
 cost=755000
 upgrade_price=7000
-runningcost=22
+runningcost=0
+fixed_cost=899
 
 length=7
 
@@ -158,7 +160,8 @@ weight=45
 axles=4
 upgrade_price=3500000
 cost=4000000
-runningcost=148
+runningcost=241
+fixed_cost=9333
 
 length=7
 

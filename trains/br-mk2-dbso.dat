@@ -21,7 +21,8 @@ axles=4
 cost=644000
 upgrade_price=202400
 available_only_as_upgrade=1
-runningcost=24
+runningcost=0
+fixed_cost=1342
 
 can_lead_from_rear=1
 bidirectional=0

@@ -14,7 +14,8 @@ length=11
 weight=34
 axles=4
 cost=721000
-runningcost=39
+runningcost=0
+fixed_cost=300
 
 
 can_lead_from_rear=0
@@ -67,7 +68,8 @@ length=11
 weight=34
 axles=4
 cost=785000
-runningcost=52
+runningcost=0
+fixed_cost=24327
 
 
 can_lead_from_rear=0

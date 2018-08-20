@@ -22,8 +22,8 @@ brake_force=0
 weight=2
 axles=2
 cost=280000
-runningcost=12
-fixed_cost=117
+runningcost=0
+fixed_cost=333
 
 comfort[0]=0
 comfort[1]=30
@@ -118,7 +118,9 @@ rolling_resistance=19
 weight=2
 axles=2
 upgrade_price=20000
-runningcost=13
+runningcost=0
+fixed_cost=4913
+cost=270000
 
 comfort[0]=0
 comfort[1]=30

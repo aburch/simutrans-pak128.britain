@@ -14,7 +14,8 @@ length=8
 
 weight=10
 cost=652500
-runningcost=5
+runningcost=16
+fixed_cost=16272
 sound=tractor.wav
 
 way_constraint_permissive[4]=4  # Waterway

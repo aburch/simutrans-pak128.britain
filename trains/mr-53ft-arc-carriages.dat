@@ -19,7 +19,8 @@ rolling_resistance=17
 weight=23
 axles=6
 cost=645408
-runningcost=31
+runningcost=0
+fixed_cost=768
 
 upgrade[0]=MR-clayton-12wheel-arc-roof-third-lav
 
@@ -194,7 +195,8 @@ weight=23
 axles=6
 cost=645408
 upgrade_price=40195
-runningcost=31
+runningcost=0
+fixed_cost=768
 
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=0
@@ -356,8 +358,8 @@ rolling_resistance=17
 weight=23
 axles=6
 cost=645408
-runningcost=31
-fixed_cost=5069
+runningcost=0
+fixed_cost=5568
 
 upgrade[0]=MR-clayton-12wheel-arc-roof-brake-lav-front
 
@@ -472,8 +474,8 @@ rolling_resistance=17
 weight=23
 axles=6
 cost=645408
-runningcost=31
-fixed_cost=5069
+runningcost=0
+fixed_cost=5568
 
 upgrade[0]=MR-clayton-12wheel-arc-roof-brake-lav-rear
 
@@ -588,7 +590,8 @@ weight=23
 axles=6
 cost=645408
 upgrade_price=40195
-runningcost=31
+runningcost=0
+fixed_cost=5568
 
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=0
@@ -692,7 +695,8 @@ rolling_resistance=17
 weight=23
 axles=6
 cost=645408
-runningcost=31
+runningcost=0
+fixed_cost=5568
 
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=0

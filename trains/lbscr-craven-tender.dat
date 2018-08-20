@@ -19,6 +19,7 @@ weight=14
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=LBSCR-standard-passenger

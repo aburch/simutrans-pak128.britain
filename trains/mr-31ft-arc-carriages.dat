@@ -31,7 +31,8 @@ length=6
 weight=12.5
 axles=3
 cost=332000
-runningcost=25
+runningcost=0
+fixed_cost=395
 
 upgrade[0]=MR-6Wheel-lav
 
@@ -558,7 +559,8 @@ axles=3
 weight=12.5
 cost=345000
 upgrade_price=49285
-runningcost=27
+runningcost=0
+fixed_cost=411
 
 can_lead_from_rear=0
 bidirectional=1
@@ -725,8 +727,8 @@ length=6
 weight=12.5
 axles=3
 cost=332000
-runningcost=25
-fixed_cost=4938
+runningcost=0
+fixed_cost=5195
 
 can_lead_from_rear=0
 bidirectional=1
@@ -843,8 +845,8 @@ length=6
 weight=12.5
 axles=3
 cost=332000
-runningcost=25
-fixed_cost=4938
+runningcost=0
+fixed_cost=5195
 
 can_lead_from_rear=0
 bidirectional=1
@@ -957,7 +959,8 @@ length=6
 weight=11
 axles=3
 cost=332000
-runningcost=25
+runningcost=0
+fixed_cost=138
 
 can_lead_from_rear=0
 bidirectional=1
@@ -1127,7 +1130,7 @@ length=5
 weight=11
 axles=3
 cost=332000
-runningcost=29
+runningcost=0
 fixed_cost=24138
 
 can_lead_from_rear=0

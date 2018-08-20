@@ -20,7 +20,8 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=1057500
-runningcost=126
+runningcost=150
+fixed_cost=6881
 
 min_loading_time=17
 max_loading_time=55
@@ -68,7 +69,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=17
 max_loading_time=55
@@ -116,7 +118,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=17
 max_loading_time=55
@@ -164,7 +167,8 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=1057500
-runningcost=126
+runningcost=150
+fixed_cost=6881
 
 min_loading_time=17
 max_loading_time=55

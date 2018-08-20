@@ -19,7 +19,8 @@ length=5
 weight=51.4
 axle_load=17
 cost=6400000
-runningcost=1000
+runningcost=129
+fixed_cost=45333
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=lswr-watercart-tender

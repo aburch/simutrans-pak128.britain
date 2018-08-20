@@ -25,7 +25,8 @@ rolling_resistance=19
 weight=34
 axles=4
 cost=6700000
-runningcost=190
+runningcost=76
+fixed_cost=21583
 sound=the-mart-ban-ngg16.wav
 
 Constraint[Next][0]=Garrett-K1-middle

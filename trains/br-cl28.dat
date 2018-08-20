@@ -18,7 +18,8 @@ length=10
 weight=98
 axle_load=20
 cost=4500000
-runningcost=684
+runningcost=896
+fixed_cost=14688
 
 increase_maintenance_after_years=12
 rolling_resistance=13
@@ -82,7 +83,8 @@ weight=98
 axle_load=20
 cost=4500000
 upgrade_price=1125000
-runningcost=594
+runningcost=616
+fixed_cost=13125
 
 # This is a guess, as I can find no recordings of this locomotive anywhere.
 sound=laurie-class-31.wav

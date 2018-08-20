@@ -27,7 +27,8 @@ bidirectional=0
 weight=32.5
 axles=3
 cost=7750000
-runningcost=360
+runningcost=175
+fixed_cost=30458
 sound=-1sound=lwalker-br-4mt-tank.wav
 Constraint[Next][0]=LBSCR-standard-goods-tender
 
@@ -85,6 +86,7 @@ weight=14
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=LBSCR-standard-goods

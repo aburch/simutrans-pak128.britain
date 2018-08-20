@@ -26,7 +26,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1930000
-runningcost=171
+runningcost=95
+fixed_cost=7005
 sound=video47-class-172.wav
 
 can_lead_from_rear=1
@@ -265,7 +266,8 @@ rolling_resistance=13
 weight=42
 axles=4
 cost=1931500
-runningcost=178
+runningcost=95
+fixed_cost=1006
 
 can_lead_from_rear=0
 bidirectional=1
@@ -502,7 +504,8 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=1930000
-runningcost=170
+runningcost=95
+fixed_cost=7005
 sound=video47-class-172.wav
 
 can_lead_from_rear=1

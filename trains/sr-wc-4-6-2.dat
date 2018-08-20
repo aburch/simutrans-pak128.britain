@@ -21,7 +21,8 @@ axle_load=19
 # No hammer blow
 way_wear_factor=109250
 cost=9216500
-runningcost=1950
+runningcost=338
+fixed_cost=31680
 sound=konakaboom-black-five.wav
 air_resistance=140
 increase_maintenance_after_years=7

@@ -18,7 +18,8 @@ length=8
 weight=27.8
 axles=4
 cost=590000
-runningcost=31
+runningcost=0
+fixed_cost=702
 
 can_lead_from_rear=0
 bidirectional=1
@@ -87,7 +88,8 @@ length=8
 weight=27.8
 axles=4
 cost=590000
-runningcost=31
+runningcost=0
+fixed_cost=5502
 
 can_lead_from_rear=0
 bidirectional=1

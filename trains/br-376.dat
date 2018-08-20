@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1814400
-runningcost=25
+runningcost=90
+fixed_cost=7512
 sound=panos-g-class-375.wav
 
 min_loading_time=13
@@ -86,7 +87,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1814400
-runningcost=24
+runningcost=90
+fixed_cost=7512
 sound=panos-g-class-375.wav
 
 min_loading_time=13
@@ -150,7 +152,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=2721000
-runningcost=25
+runningcost=0
+fixed_cost=5669
 
 min_loading_time=13
 max_loading_time=50
@@ -215,7 +218,8 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=2721000
-runningcost=25
+runningcost=90
+fixed_cost=2268
 
 min_loading_time=13
 max_loading_time=50

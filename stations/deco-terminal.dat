@@ -50,8 +50,10 @@ copyright=James
 type=extension
 waytype=air
 enables_pax=1
-intro_year=1922
-intro_month=2
+# Until earlier control towers are built or logic is added for small airfields not to have control towers, 
+# this needs to match the introduction of the earliest airships.
+intro_year=1909
+intro_month=8
 retire_year=1949
 retire_month=8
 # must be 1*2

@@ -17,7 +17,8 @@ overcrowded_capacity=116
 weight=19.5
 axles=4
 cost=587500
-runningcost=36
+runningcost=22
+fixed_cost=6490
 sound=zabuhailo-modern-tram.wav
 
 can_lead_from_rear=1
@@ -62,7 +63,8 @@ overcrowded_capacity=116
 weight=19.5
 axles=4
 cost=0
-runningcost=0
+runningcost=22
+fixed_cost=6000
 sound=zabuhailo-modern-tram.wav
 
 can_lead_from_rear=1

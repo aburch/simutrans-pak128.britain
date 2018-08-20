@@ -26,8 +26,8 @@ way_wear_factor=39633
 weight=19.1
 axles=3
 cost=3750000
-runningcost=68
-fixed_cost=25563
+runningcost=69
+fixed_cost=21208
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=sdr-mineral-engine-tender
@@ -62,6 +62,7 @@ rolling_resistance=19
 weight=1
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=sdr-mineral-engine
 

@@ -19,7 +19,8 @@ length=5
 weight=46.9
 axle_load=17
 cost=6532500
-runningcost=1000
+runningcost=199
+fixed_cost=45444
 sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=LSWR-T9-superheated

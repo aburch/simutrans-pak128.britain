@@ -26,7 +26,8 @@ air_resistance=108
 weight=52
 axles=4
 cost=2705000
-runningcost=428
+runningcost=112
+fixed_cost=7409
 sound=video47-class-175.wav
 
 can_lead_from_rear=1
@@ -85,7 +86,8 @@ rolling_resistance=13
 weight=50
 axles=4
 cost=2705000
-runningcost=428
+runningcost=112
+fixed_cost=1409
 
 can_lead_from_rear=0
 bidirectional=1
@@ -147,7 +149,8 @@ rolling_resistance=13
 weight=50
 axles=4
 cost=2705000
-runningcost=428
+runningcost=112
+fixed_cost=1409
 
 can_lead_from_rear=0
 bidirectional=1
@@ -207,7 +210,8 @@ length=13
 weight=50
 axles=4
 cost=2957000
-runningcost=458
+runningcost=112
+fixed_cost=19540
 
 can_lead_from_rear=0
 bidirectional=1
@@ -266,7 +270,8 @@ rolling_resistance=13
 weight=51
 axles=4
 cost=2705000
-runningcost=428
+runningcost=112
+fixed_cost=7409
 sound=video47-class-175.wav
 
 can_lead_from_rear=1

@@ -25,7 +25,7 @@ rolling_resistance=20
 weight=2.7
 axles=2
 cost=144000
-runningcost=10
+runningcost=0
 fixed_cost=60
 
 comfort[0]=0
@@ -86,7 +86,7 @@ rolling_resistance=20
 weight=2.7
 axles=2
 cost=150000
-runningcost=10
+runningcost=0
 fixed_cost=4863
 
 min_loading_time=35
@@ -144,7 +144,7 @@ rolling_resistance=20
 weight=2.7
 axles=2
 cost=150000
-runningcost=10
+runningcost=0
 fixed_cost=4863
 
 comfort[0]=0

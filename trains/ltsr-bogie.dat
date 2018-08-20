@@ -16,7 +16,8 @@ length=8
 weight=23.6
 axles=4
 cost=400000
-runningcost=28
+runningcost=0
+fixed_cost=476
 
 comfort[0]=0
 comfort[1]=66
@@ -106,7 +107,8 @@ length=8
 weight=23.6
 axles=4
 cost=450000
-runningcost=31
+runningcost=0
+fixed_cost=536
 
 comfort[0]=0
 comfort[1]=74
@@ -196,7 +198,8 @@ length=8
 weight=22.8
 axles=4
 cost=400000
-runningcost=28
+runningcost=0
+fixed_cost=5276
 
 comfort[0]=0
 comfort[1]=66

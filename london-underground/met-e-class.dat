@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=100
 # Extrapolated
-power=230
+power=206
 # Tractive effort from: http://www.brc-stockbook.co.uk/Met1.HTM
 tractive_effort=65
 copyright=Kieron
@@ -20,7 +20,8 @@ length=6
 weight=54
 axle_load=18
 cost=9300000
-runningcost=594
+runningcost=154
+fixed_cost=31750
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=17

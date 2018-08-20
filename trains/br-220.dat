@@ -24,7 +24,8 @@ brake_force=36
 weight=48
 axles=4
 cost=2415000
-runningcost=297
+runningcost=112
+fixed_cost=7258
 fixed_maintenance=0
 sound=video47-class-220.wav
 
@@ -84,7 +85,8 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=2415000
-runningcost=297
+runningcost=112
+fixed_cost=1258
 fixed_maintenance=0
 
 
@@ -146,7 +148,8 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=2630000
-runningcost=350
+runningcost=112
+fixed_cost=1370
 fixed_maintenance=0
 
 can_lead_from_rear=0
@@ -202,7 +205,8 @@ rolling_resistance=13
 weight=48
 axles=4
 cost=2415000
-runningcost=297
+runningcost=112
+fixed_cost=7258
 fixed_maintenance=0
 sound=video47-class-220.wav
 

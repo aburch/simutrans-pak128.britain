@@ -21,7 +21,8 @@ rolling_resistance=18
 weight=9.5
 axles=2
 cost=285000
-runningcost=17
+runningcost=0
+fixed_cost=339
 
 upgrade[0]=LBSCR-4Wheel-First-fitted
 
@@ -104,7 +105,8 @@ weight=9.7
 axles=2
 cost=340000
 upgrade_price=80000
-runningcost=18
+runningcost=0
+fixed_cost=405
 
 comfort[0]=0
 comfort[1]=62

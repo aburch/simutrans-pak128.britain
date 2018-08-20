@@ -23,7 +23,8 @@ length=11
 weight=41.1
 axles=4
 cost=6064000
-runningcost=139
+runningcost=283
+fixed_cost=14211
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
@@ -109,7 +110,8 @@ length=11
 weight=23.6
 axles=4
 cost=163200
-runningcost=65
+runningcost=0
+fixed_cost=194
 
 can_lead_from_rear=0
 bidirectional=1
@@ -194,7 +196,8 @@ length=11
 weight=23.6
 axles=4
 cost=163200
-runningcost=65
+runningcost=0
+fixed_cost=194
 
 can_lead_from_rear=0
 bidirectional=1
@@ -280,7 +283,8 @@ length=11
 weight=25.4
 axles=4
 cost=6064000
-runningcost=139
+runningcost=1
+fixed_cost=7219
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1

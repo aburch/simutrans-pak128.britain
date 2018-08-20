@@ -22,7 +22,8 @@ length=9
 weight=24
 axles=4
 cost=713000
-runningcost=36
+runningcost=0
+fixed_cost=849
 
 can_lead_from_rear=0
 bidirectional=1
@@ -152,7 +153,8 @@ length=9
 weight=25
 axles=4
 cost=713000
-runningcost=36
+runningcost=0
+fixed_cost=5649
 
 can_lead_from_rear=0
 bidirectional=1
@@ -262,7 +264,8 @@ length=9
 weight=25
 axles=4
 cost=713000
-runningcost=36
+runningcost=0
+fixed_cost=5649
 
 can_lead_from_rear=0
 bidirectional=1

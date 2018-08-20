@@ -18,7 +18,8 @@ weight=31
 axles=4
 cost=420000
 upgrade_price=1500
-runningcost=20
+runningcost=0
+fixed_cost=500
 
 upgrade[0]=BR-Mk2a-RMB
 

@@ -19,7 +19,8 @@ length=6
 weight=62
 axles=4
 cost=4286000
-runningcost=751
+runningcost=190
+fixed_cost=27572
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=23
 years_before_maintenance_max_reached=12
@@ -66,6 +67,7 @@ length=4
 weight=42
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=23
 years_before_maintenance_max_reached=12

@@ -17,7 +17,8 @@ brake_force=21
 weight=29
 axles=4
 cost=1200000
-runningcost=181
+runningcost=0
+fixed_cost=2500
 sound=panos-g-class-465.wav
 
 can_lead_from_rear=1

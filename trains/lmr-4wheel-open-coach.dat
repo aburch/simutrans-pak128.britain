@@ -24,8 +24,8 @@ weight=1
 axles=2
 cost=67000
 upgrade_price=15000
-runningcost=6
-fixed_cost=28
+runningcost=0
+fixed_cost=140
 
 # This just involves adding awnings.
 upgrade[0]=lmr-4wheel-open-second

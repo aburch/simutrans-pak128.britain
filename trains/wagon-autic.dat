@@ -15,7 +15,8 @@ weight=13
 axle_load=6
 way_wear_factor=29750
 cost=569000
-runningcost=11
+runningcost=0
+fixed_cost=237
 
 
 can_lead_from_rear=0
@@ -62,7 +63,8 @@ weight=13
 axle_load=6
 way_wear_factor=29750
 cost=569000
-runningcost=11
+runningcost=0
+fixed_cost=237
 
 
 can_lead_from_rear=0
