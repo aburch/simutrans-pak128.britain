@@ -22,7 +22,8 @@ weight=60.5
 # Ahrons p. 328
 axle_load=20
 cost=7600000
-runningcost=810
+runningcost=151
+fixed_cost=46333
 sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=MR-1000-superheated

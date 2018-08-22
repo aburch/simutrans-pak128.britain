@@ -5,8 +5,8 @@ speed=100
 copyright=James/jamespetts
 intro_year=1847
 intro_month=3
-retire_year=1860
-retire_month=1
+retire_year=1867
+retire_month=9
 waytype=track
 freight=None
 payload=0
@@ -19,6 +19,7 @@ weight=15
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=gnr-sturrock-coupled

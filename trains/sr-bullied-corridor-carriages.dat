@@ -17,7 +17,8 @@ length=10
 weight=32
 axles=4
 cost=579000
-runningcost=29
+runningcost=0
+fixed_cost=689
 
 can_lead_from_rear=0
 bidirectional=1
@@ -122,7 +123,8 @@ length=10
 weight=32
 axles=4
 cost=579000
-runningcost=29
+runningcost=0
+fixed_cost=5489
 
 can_lead_from_rear=0
 bidirectional=1
@@ -201,7 +203,8 @@ length=10
 weight=32
 axles=4
 cost=579000
-runningcost=29
+runningcost=0
+fixed_cost=5489
 
 can_lead_from_rear=0
 bidirectional=1
@@ -280,7 +283,8 @@ length=11
 weight=32
 axles=4
 cost=579000
-runningcost=29
+runningcost=0
+fixed_cost=689
 
 can_lead_from_rear=0
 bidirectional=1
@@ -385,7 +389,8 @@ length=11
 weight=32
 axles=4
 cost=570000
-runningcost=29
+runningcost=0
+fixed_cost=6679
 
 can_lead_from_rear=0
 bidirectional=1
@@ -491,7 +496,8 @@ length=11
 weight=32
 axles=4
 cost=677000
-runningcost=40
+runningcost=0
+fixed_cost=18806
 
 can_lead_from_rear=0
 bidirectional=1
@@ -598,7 +604,8 @@ length=11
 weight=32
 axles=4
 cost=655000
-runningcost=34
+runningcost=0
+fixed_cost=18780
 
 can_lead_from_rear=0
 bidirectional=1
@@ -704,7 +711,8 @@ length=11
 weight=32
 axles=4
 cost=434000
-runningcost=22
+runningcost=0
+fixed_cost=5317
 
 can_lead_from_rear=0
 bidirectional=1
@@ -782,7 +790,8 @@ length=11
 weight=32
 axles=4
 cost=434000
-runningcost=22
+runningcost=0
+fixed_cost=5317
 
 can_lead_from_rear=0
 bidirectional=1

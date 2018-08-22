@@ -27,7 +27,8 @@ way_wear_factor=106444
 cost=10975250
 upgrade_price=2195050
 # These were especially economical: see http://www.greatwestern.org.uk/m_in_cas.htm
-runningcost=1750
+runningcost=263
+fixed_cost=49146
 sound=keithpeter-gwr-hall.wav
 increase_maintenance_after_years=8
 years_before_maintenance_max_reached=9
@@ -63,6 +64,7 @@ weight=47
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=8
 years_before_maintenance_max_reached=9

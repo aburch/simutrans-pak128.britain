@@ -17,7 +17,8 @@ brake_force=23
 weight=30
 axles=4
 cost=1200000
-runningcost=181
+runningcost=0
+fixed_cost=2500
 
 
 min_loading_time=30

@@ -25,8 +25,8 @@ way_wear_factor=27365
 weight=14.2
 axle_load=5
 cost=4220000
-runningcost=11
-fixed_cost=1320
+runningcost=89
+fixed_cost=21861
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Planet-Tender

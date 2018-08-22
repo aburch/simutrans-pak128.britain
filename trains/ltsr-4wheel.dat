@@ -19,7 +19,8 @@ rolling_resistance=18
 weight=9.1
 axles=2
 cost=310000
-runningcost=15
+runningcost=0
+fixed_cost=5169
 
 comfort[0]=0
 comfort[1]=51
@@ -93,7 +94,8 @@ rolling_resistance=18
 weight=9.7
 axles=2
 cost=310000
-runningcost=15
+runningcost=0
+fixed_cost=369
 
 comfort[0]=0
 comfort[1]=51
@@ -174,7 +176,8 @@ rolling_resistance=18
 weight=9.1
 axles=2
 cost=310000
-runningcost=15
+runningcost=0
+fixed_cost=369
 
 min_loading_time=35
 max_loading_time=100
@@ -244,7 +247,8 @@ rolling_resistance=18
 weight=9.1
 axles=2
 cost=300000
-runningcost=15
+runningcost=0
+fixed_cost=125
 
 min_loading_time=35
 max_loading_time=100

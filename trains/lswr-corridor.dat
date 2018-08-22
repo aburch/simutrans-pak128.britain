@@ -15,7 +15,8 @@ length=10
 weight=26
 axles=4
 cost=702000
-runningcost=35
+runningcost=0
+fixed_cost=836
 
 can_lead_from_rear=0
 bidirectional=1
@@ -150,7 +151,8 @@ length=10
 weight=26
 axles=4
 cost=702000
-runningcost=35
+runningcost=0
+fixed_cost=5636
 
 can_lead_from_rear=0
 bidirectional=1
@@ -259,7 +261,8 @@ length=10
 weight=26
 axles=4
 cost=702000
-runningcost=35
+runningcost=0
+fixed_cost=5636
 
 can_lead_from_rear=0
 bidirectional=1
@@ -367,7 +370,8 @@ length=10
 weight=26
 axles=4
 cost=725000
-runningcost=45
+runningcost=0
+fixed_cost=18863
 
 can_lead_from_rear=0
 bidirectional=1

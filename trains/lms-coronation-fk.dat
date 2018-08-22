@@ -16,7 +16,8 @@ length=10
 weight=30
 axles=4
 cost=660000
-runningcost=45
+runningcost=0
+fixed_cost=786
 
 # TODO: Define these properly: this is the first class corridor.
 # We need a kitchen car.

@@ -24,7 +24,8 @@ rolling_resistance=19
 # http://welshhighland.freeforums.org/hugh-napier-t1364.html
 weight=6
 cost=1550251
-runningcost=75
+runningcost=15
+fixed_cost=17292
 sound=laurie-barclay-0-4-0.wav
 
 can_lead_from_rear=0

@@ -23,7 +23,8 @@ cost=6041100
 # This should be low: these were the first superheated locomotives and were efficient for their size.
 # See: http://www.semgonline.com/steam/i3class_01.html for information on the economies for this locomotive.
 # (30lbs of coal per mile compared to approx. 40lbs for the saturated equivalent)
-runningcost=750
+runningcost=126
+fixed_cost=29034
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=24
 years_before_maintenance_max_reached=28

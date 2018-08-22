@@ -20,7 +20,8 @@ weight=32
 axles=4
 cost=506000
 upgrade_price=42250
-runningcost=23
+runningcost=0
+fixed_cost=1054
 
 can_lead_from_rear=0
 bidirectional=1

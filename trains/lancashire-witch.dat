@@ -24,8 +24,8 @@ way_wear_factor=15313
 weight=7.0
 axle_load=4
 cost=1000000
-runningcost=15
-fixed_cost=1105
+runningcost=80
+fixed_cost=17389
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=lancashire-witch-tender
@@ -61,6 +61,7 @@ weight=1
 axles=2
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=lancashire-witch
 

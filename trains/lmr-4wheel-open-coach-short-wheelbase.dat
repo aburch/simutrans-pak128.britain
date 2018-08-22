@@ -21,7 +21,8 @@ rolling_resistance=20
 weight=1
 axles=2
 cost=65000
-runningcost=8
+runningcost=0
+fixed_cost=54
 
 upgrade[0]=LMR-4Wheel-Open-Coach
 

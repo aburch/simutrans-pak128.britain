@@ -23,7 +23,8 @@ weight=62.6
 axle_load=20
 cost=7732500
 upgrade_price=1546500
-runningcost=655
+runningcost=170
+fixed_cost=46444
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=MR-1000-Tender

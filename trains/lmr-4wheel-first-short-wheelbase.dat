@@ -22,8 +22,8 @@ rolling_resistance=20
 weight=2.7
 axles=2
 cost=140000
-runningcost=10
-fixed_cost=58
+runningcost=0
+fixed_cost=117
 
 upgrade[0]=LMR-4Wheel-First
 
@@ -88,8 +88,8 @@ rolling_resistance=20
 weight=2.7
 axles=2
 cost=146000
-runningcost=10
-fixed_cost=4861
+runningcost=0
+fixed_cost=4922
 
 upgrade[0]=LMR-4Wheel-First-Guard-front
 
@@ -154,8 +154,8 @@ rolling_resistance=20
 weight=2.7
 axles=2
 cost=146000
-runningcost=10
-fixed_cost=4861
+runningcost=0
+fixed_cost=4922
 
 upgrade[0]=LMR-4Wheel-First-Guard-rear
 

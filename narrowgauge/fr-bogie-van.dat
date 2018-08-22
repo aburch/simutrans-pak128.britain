@@ -18,7 +18,8 @@ brake_force=1
 weight=4
 axles=4
 cost=370000
-runningcost=17
+runningcost=0
+fixed_cost=4954
 
 upgrade[0]=FR-bogie-fitted
 
@@ -108,7 +109,8 @@ rolling_resistance=19
 weight=4
 cost=370000
 upgrade_price=24000
-runningcost=18
+runningcost=0
+fixed_cost=440
 
 available_only_as_upgrade=0
 

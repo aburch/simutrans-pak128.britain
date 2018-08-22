@@ -21,7 +21,8 @@ weight=45
 axle_load=17
 cost=13550000
 upgrade_price=564583
-runningcost=1770
+runningcost=142
+fixed_cost=35292
 sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=gnr-g3

@@ -23,7 +23,8 @@ length=5
 weight=40
 axle_load=17
 cost=5015500
-runningcost=821
+runningcost=163
+fixed_cost=28180
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=MR-Kirtley156Tender

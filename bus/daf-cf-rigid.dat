@@ -14,7 +14,8 @@ axle_load=12
 way_wear_factor=202500
 length=5
 cost=125000
-runningcost=50
+runningcost=40
+fixed_cost=8065
 freight=Kohle
 payload=30
 
@@ -102,7 +103,8 @@ axle_load=12
 way_wear_factor=202500
 length=5
 cost=125000
-runningcost=50
+runningcost=40
+fixed_cost=8065
 freight=Bretter
 payload=30
 
@@ -162,7 +164,8 @@ axle_load=12
 way_wear_factor=202500
 length=5
 cost=125000
-runningcost=50
+runningcost=40
+fixed_cost=8065
 freight=Oel
 payload=30
 

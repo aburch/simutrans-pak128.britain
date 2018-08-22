@@ -22,8 +22,8 @@ rolling_resistance=19
 weight=8
 axles=2
 cost=200000
-runningcost=20
-fixed_cost=83
+runningcost=0
+fixed_cost=238
 
 comfort[0]=0
 comfort[1]=38
@@ -67,8 +67,8 @@ rolling_resistance=19
 weight=8
 axles=2
 cost=200000
-runningcost=20
-fixed_cost=83
+runningcost=0
+fixed_cost=238
 
 comfort[0]=0
 comfort[1]=42
@@ -111,8 +111,8 @@ rolling_resistance=19
 weight=8
 axles=2
 cost=200000
-runningcost=21
-fixed_cost=4883
+runningcost=0
+fixed_cost=5038
 
 comfort[0]=0
 comfort[1]=38
@@ -155,8 +155,8 @@ rolling_resistance=19
 weight=8
 axles=2
 cost=200000
-runningcost=21
-fixed_cost=4883
+runningcost=0
+fixed_cost=5038
 
 comfort[0]=0
 comfort[1]=38
@@ -195,8 +195,8 @@ rolling_resistance=19
 weight=8
 axles=2
 cost=154000
-runningcost=19
-fixed_cost=64
+runningcost=0
+fixed_cost=183
 
 min_loading_time=35
 max_loading_time=100
@@ -234,7 +234,7 @@ rolling_resistance=19
 weight=8
 axles=2
 cost=154000
-runningcost=19
+runningcost=0
 fixed_cost=64
 
 min_loading_time=35

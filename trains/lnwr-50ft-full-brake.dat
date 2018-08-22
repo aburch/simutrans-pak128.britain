@@ -16,7 +16,8 @@ length=9
 weight=25
 axles=4
 cost=630000
-runningcost=36
+runningcost=0
+fixed_cost=750
 
 
 can_lead_from_rear=0
@@ -75,7 +76,8 @@ length=9
 weight=25
 axles=4
 cost=630000
-runningcost=36
+runningcost=0
+fixed_cost=263
 
 
 can_lead_from_rear=0

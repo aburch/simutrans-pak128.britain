@@ -24,7 +24,8 @@ weight=38.5
 # £1.07m new (according to Flight magazine, as above)
 cost=13100000
 # Specific fuel consumption: 0.585lb/bhp/hr
-runningcost=2410
+runningcost=107
+fixed_cost=59097
 intro_year=1957
 intro_month=2
 retire_year=1960

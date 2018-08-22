@@ -16,7 +16,8 @@ length=11
 weight=44
 axles=4
 cost=980000
-runningcost=52
+runningcost=0
+fixed_cost=19167
 
 can_lead_from_rear=0
 bidirectional=1

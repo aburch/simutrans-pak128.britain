@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=54
 axles=4
 cost=2785000
-runningcost=104
+runningcost=128
+fixed_cost=8321
 sound=treacher-rail-class-390.wav
 
 can_lead_from_rear=1
@@ -76,7 +77,8 @@ brake_force=40
 weight=53
 axles=4
 cost=1200000
-runningcost=33
+runningcost=128
+fixed_cost=7000
 
 can_lead_from_rear=0
 bidirectional=1
@@ -127,7 +129,8 @@ rolling_resistance=13
 weight=51
 axles=4
 cost=2785000
-runningcost=1900
+runningcost=0
+fixed_cost=5802
 
 
 can_lead_from_rear=0
@@ -181,7 +184,8 @@ rolling_resistance=13
 weight=43
 axles=4
 cost=1200000
-runningcost=107
+runningcost=0
+fixed_cost=2500
 
 can_lead_from_rear=0
 bidirectional=1
@@ -240,7 +244,8 @@ rolling_resistance=13
 weight=53
 axles=4
 cost=2785000
-runningcost=700
+runningcost=128
+fixed_cost=8321
 
 can_lead_from_rear=0
 bidirectional=1
@@ -299,7 +304,8 @@ rolling_resistance=13
 weight=53
 axles=4
 cost=2785000
-runningcost=700
+runningcost=128
+fixed_cost=8321
 
 can_lead_from_rear=0
 bidirectional=1
@@ -356,7 +362,8 @@ rolling_resistance=13
 weight=43
 axles=4
 cost=2785000
-runningcost=1200
+runningcost=0
+fixed_cost=5802
 
 can_lead_from_rear=0
 bidirectional=1
@@ -412,7 +419,8 @@ rolling_resistance=13
 weight=53
 axles=4
 cost=1200000
-runningcost=33
+runningcost=128
+fixed_cost=7000
 
 can_lead_from_rear=0
 bidirectional=1
@@ -466,7 +474,8 @@ rolling_resistance=13
 weight=53
 axles=4
 cost=2785000
-runningcost=104
+runningcost=128
+fixed_cost=8321
 sound=treacher-rail-class-390.wav
 
 can_lead_from_rear=1

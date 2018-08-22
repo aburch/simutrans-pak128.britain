@@ -26,8 +26,8 @@ weight=32
 axles=3
 cost=7096320
 # These were economical to run: see above website.
-runningcost=172
-fixed_cost=34957
+runningcost=138
+fixed_cost=29914
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=SDR-1001-Tender
