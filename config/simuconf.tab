@@ -168,8 +168,8 @@ min_alternative_destinations_per_job_millionths = 2500
 # between the minimum and maximum amount using a normal distribution, meaning that the numbers
 # are more likely to be in the middle of the range than at either end.
 
-min_visiting_tolerance = 8
-range_visiting_tolerance = 5400
+min_visiting_tolerance = 12
+range_visiting_tolerance = 6000
 min_commuting_tolerance = 30
 range_commuting_tolerance = 180
 
