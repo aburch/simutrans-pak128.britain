@@ -6,7 +6,7 @@
 #                                                                              #
 #                Simutrans Scenario Specific Translation File                  #
 #                           Scenario: pak128.britain                           #
-#                             Language: de Deutsch                             #
+#                              Language: ca Catala                             #
 #                             Encoding: ISO-8859-1                             #
 #                            Font : Prop-Latin1.bdf                            #
 #                           Date Created: 23.10 2018                           #
@@ -16,150 +16,168 @@
 #____________________________________bridge_____________________________________
 #____________________________________bridge_____________________________________
 PowerBridge
-Hochspannungsleitung
+Pont per a línia d'alta tensió
 #___________________________________building____________________________________
 #___________________________________building____________________________________
-00_CITY
-Gemeindehalle
 01_CITY
-Gemeindehalle
+Ajuntament
 02_CITY
-Stadthalle
+Ajuntament
 03_CITY
-Stadthalle
+Ajuntament
 04_CITY
-Stadthalle
+Ajuntament
+MaglevDepot
+Cotxera de maglev
 ModernPostOffice
-Postamt klein - Post (Haltestellenerweiterung)
+Oficina de correus moderna (petita)
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
+Autos
+Automòbils
+Bretter
+Taulons
 Bucher
-Bücher
+Llibres
 Cement
-Zement
+Ciment
 Chemicals
-Chemikalien
+Productes químics
+Eisenerz
+Ferro
 Gasoline
-Benzin
+Benzina
+Kohle
+Carbó
 Moebel
-Möbel
+Mobles
 None
-keine
+Res
 Oel
-Erdöl
+Petroli
+Papier
+Paper
+Passagiere
+Passatgers
+Plastik
+Plàstic
+Post
+Correu
+Stahl
+Acer
 Stone
-Stein
+Pedra
 beer
-Bier
+Cervesa
 canned_food
-Konserven
+Conserves
 fish
-Fisch
+Peix
 flour
-Mehl
+Farina
 grain
-Getreide
+Cereals
 meat
-Fleisch
+Carn
 milk
-Milch
+Llet
 textile
-Textilien
+Teixit
 wool
-Schafwolle
+Llana
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
+%s city %d %s
+%s ciutat %d %s
+%s land %d %s
+%s comarca %d %s
+1center
+%s %s
+1extern
+%s%s Eixample
+2center
+%s%s Centre
+2extern
+%s%s Baixador
+3center
+%s%s Principal
+3extern
+%s%s Extrarradi
+4center
+%s%s Avinguda
+4extern
+%s%s Bosc
+5center
+%s%s Passeig
+5extern
+Això no existeix!
+6center
+%s Connexió %s
+7center
+%s ciutat %s
+Airport
+Aeroport
+BF
+ - Estació
 CATEGORY_01
-Stückgut
+Mercaderies
 CATEGORY_02
-Schüttgut
+Prod. a Granel
 CATEGORY_03
-Öl/Benzin
+Hidrocarburs
 CATEGORY_04
-Kühlwaren
+Congelats
 CATEGORY_05
-flüss. Nahrungsm.
+Líquids
 CATEGORY_06
-Langholz
+Fusta
+Dock
+Moll
+H
+ - Parada
 #___________________________________roadsign____________________________________
 #___________________________________roadsign____________________________________
-ChooseSign
-Wegwahlschlid
 ChooseSignals
-Wegwahlsignal
+Senyal d'elecció d'andana
 Classic_ChooseSignals_right
-Auswahlsignal (Classic)
+Senyal d'elecció de via lliure
 Classic_LongSignals_right
-Langblocksignal (Classic)
+Senyal d'espera de bloc
 Classic_Signals_right
-einfaches Signal (Classic)
+Senyal d'espera
 Classic_preSignals_right
-2-Block-Signal (Classic)
+Pre-senyal
 Early_ChooseSignals_right
-Wegwahlsignal
+Indicació d'elecció de via lliure
 Early_LongSignals_right
-Langblocksignal
+Indicació d'espera de bloc
 Early_Signals_right
-Signal
+Indicació de pas
 Early_preSignals_right
-Zwei-Block Signal
-EndofChooseSignal
-Gleiswahlsignal Ende
+Pre-indicació de pas
 LongSignals
-Langblocksignal
+Senyal de bloqueig de tram llarg
 Modern_ChooseSignals_right
-Gleiswahlsignal
-Modern_EndofChooseSignal
-Gleiswahlsignal Ende
+Semàfor d'elecció de via lliure
 Modern_LongSignals_right
-Langblocksignal
+Semàfor de bloqueig de tram llarg
 Modern_Signals_right
-Signal
+Semàfor de ferrocarril
 Modern_preSignals_right
-Vorsignal
+Semàfor de pre-senyalització
 NoEntry
-Verkehrszeichen: Einfahrverbot
-OneWay
-Einweg Signal
+Direcció contrària
+Railgate
+Porta de ferrocarril
 Signals
-Signal
+Senyal de pas
 preSignals
-Zwei-Block-Signal
+Presenyals (ambdos sentits)
 traffic_light
-Verkehrsampel
-#_____________________________________tree______________________________________
-#_____________________________________tree______________________________________
-EnglishOak
-Englische Eiche
-#____________________________________tunnel_____________________________________
-#____________________________________tunnel_____________________________________
-CanalTunnel
-Kanaltunnel
-#____________________________________vehicle____________________________________
-#____________________________________vehicle____________________________________
-Tram-Horses
-Pferdegespann
+Semàfors
 #______________________________________way______________________________________
 #______________________________________way______________________________________
-Canal
-Kanal
 Powerline
-Hochspannungsleitungsbrücke
-TramTrack
-Tram Gleise
-asphalt_road
-Asphaltstrasse
+Línia d'alt voltatge
 city_road
-Stadtstrasse
-cobblestone_road
-Pflasterstrasse
-tgv
-Hochgeschwindigkeitsgleis
-wssr
-Stahlschienen mit Holzschwellen
-#__________________________________way-object___________________________________
-#__________________________________way-object___________________________________
-TramElectrification
-Tram Oberleitung
-TrollyBusElectrification
-Trolleybus Oberleitung
+Carrer

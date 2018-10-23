@@ -6,78 +6,60 @@
 #                                                                              #
 #                Simutrans Scenario Specific Translation File                  #
 #                           Scenario: pak128.britain                           #
-#                             Language: fr Francais                            #
-#                             Encoding: ISO-8859-1                             #
-#                            Font : Prop-Latin1.bdf                            #
+#                            Language: sk Slovencina                           #
+#                             Encoding: ISO-8859-2                             #
+#                            Font : prop-latin2.fnt                            #
 #                           Date Created: 23.10 2018                           #
 #                                                                              #
 #                                                                              #
 ################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+BrickViaduct
+Cihelný ¾eleznièní most
+BrickViaductRoad
+Cihelný silnièní most
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
 Autos
-Voitures
+Autá
 Bretter
-Planches
+Dosky
 Bucher
-Livres
-Cement
-Ciment
+Knihy
 Chemicals
-Produits chimiques
+Chemikálie
 Eisenerz
-Minerai
+®elezná ruda
 Gasoline
-Carburant
+Benzín
 Kohle
-Charbon
+Uhlie
 Moebel
-Meuble
+Nábytok
 None
-Vide
+Niè
 Oel
-Pétrole
-Passagiere
-Passagers
+Ropa
 Plastik
-Plastique
+Plasty
 Post
-Message
+Po¹ta
 Stahl
-Acier
+Oceµ
 Stone
-Pierre
+Kamenie
 beer
-Bière
+Pivo
 canned_food
-Conserves
-cider
-cidre
+Potr. konzervy
 fish
-Poisson
+Ryby
 flour
-Farine
+Múka
 grain
-Céréales
+Obilie
 meat
-Viande
+Mäso
 milk
-Lait
-textile
-Textiles
-vegetables
-légumes
-wool
-Laine
-#_________________________________program_text__________________________________
-#_________________________________program_text__________________________________
-CATEGORY_01
-biens à la pièce
-CATEGORY_02
-biens en vrac
-CATEGORY_03
-pétrole
-CATEGORY_04
-biens réfrigérés
-CATEGORY_05
-aliments liquides
+Mlieko
