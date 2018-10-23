@@ -19,6 +19,7 @@ retire_year=1886
 retire_month=6
 
 Constraint[Next][0]=ClydeSteamerMail
+Constraint[Next][1]=none
 Constraint[Prev][0]=none
 
 EmptyImage[E]=./images/clyde-steamer.1.4
