@@ -1,5 +1,6 @@
 obj=vehicle
-name=Metropolitan-Class-E
+name=Metropolitan-E-Class
+# do not name this Metropolitan-Class-E because this already exists
 engine_type=steam
 smoke=Steam
 speed=95

@@ -2662,7 +2662,10 @@ Optare-Metrorider-Short
 Optare Metrorider (short)
 OptareSolo
 Optare SoloOptareTempo
+# bad error missing a line here
+OptareTempo
 Optare Tempo
+#
 OptareTempoSR
 Optare Tempo SR
 ParcelCoach
@@ -5201,6 +5204,8 @@ WCR 1940 Tube Stock
 WCR 1940 Tube Stock (trailer)
 1940TubeStockRear
 WCR 1940 Tube Stock (rear DM)
+#
+#
 BR-Class483(NSE)Front
 BR Class 483 EMU
 BR-Class483(NSE)NDM
@@ -5317,6 +5322,8 @@ LUL 1992 Tube Stock (rear UNDM)
 LUL 1992 Tube Stock (front UNDM)
 1992TubeStockRear
 LUL 1992 Tube Stock (rear DM)
+#
+#
 district-4-wheel-brake-front-fitted
 District 4 wheel carriage (front brake)
 district-4-wheel-brake-rear-fitted
@@ -5405,6 +5412,8 @@ LUL_S_Stock(Middle)
 LUL S Stock (middle)
 LUL_S_Stock(Rear)
 LUL S Stock (rear DM)
+#
+#
 Metropolitan1905GateFront
 Metropolitan 1905 Gate Stock
 Metropolitan1905GateMiddle
@@ -5467,7 +5476,6 @@ Metropolitan-g-class
 Metropolitan G Class 0-6-4T
 Metropolitan-h-class
 Metropolitan H Class 4-4-4T
-Metropolitan "Dreadnought" Carriage
 Metropolitan-Motor-Third-Back
 Metropolitan 1907 Mororised Stock (rear)
 Metropolitan-Motor-Third-Front
@@ -6098,4 +6106,5 @@ Minimum Speed Sign (60km/h)
 #______________________other_____________________
 To attract more tourists\n%s built\na %s\nwith the aid of\n%i tax payers.
 %s built a %s - council leaders expect a rise in passenger numbers.
-
+# end
+# end
