@@ -20,7 +20,7 @@ runningcost=29
 sound=-1
 years_before_maintenance_max_reached=75
 
-Constraint[Prev]=none
+Constraint[Prev][0]=none
 way_constraint_prohibitive[0]=0
 
 Constraint[Next][0]=Small-2-Deck-Trailer
@@ -63,7 +63,7 @@ runningcost=55
 sound=-1
 years_before_maintenance_max_reached=75
 
-Constraint[Prev]=none
+Constraint[Prev][0]=none
 way_constraint_prohibitive[0]=0
 
 Constraint[Next][0]=1-Deck-Trailer

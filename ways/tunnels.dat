@@ -1,4 +1,4 @@
-#Obj=tunnel
+Obj=tunnel
 Name=RailTunnelStone
 copyright=James
 waytype=track
@@ -26,7 +26,7 @@ FrontImage[S][1]=rail-tunnel-stone-snow.0.3
 icon=> rail-tunnel-stone.1.3
 cursor=rail-tunnel-stone.1.2
 --------------------------------------
-#Obj=tunnel
+Obj=tunnel
 Name=RailTunnelBrick
 copyright=James
 waytype=track
@@ -52,7 +52,7 @@ FrontImage[S][1]=rail-tunnel-brick-snow.0.3
 icon=> rail-tunnel-brick.1.3
 cursor=rail-tunnel-brick.1.2
 -------------------------------
-#Obj=tunnel
+Obj=tunnel
 Name=RailTunnelConcrete
 copyright=James
 waytype=track

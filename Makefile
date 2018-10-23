@@ -4,11 +4,11 @@
 #
 # Change THIS to change the version string encoded in the pak file
 # The SVN revision will be appended to it
-VERSION_STRING = "pak128.Britain 1.13 112.0 r"
+VERSION_STRING = "pak128.Britain 1.18 120.3 r"
 #
 #
 #
-MAKEOBJ ?= makeobj
+MAKEOBJ ?= ./makeobj
 
 DESTDIR  ?= simutrans
 PAKDIR   ?= $(DESTDIR)/pak128.Britain

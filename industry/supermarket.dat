@@ -1,7 +1,8 @@
 Obj=factory
 Name=Supermarket1950
 # 1950 supermarket (1x1 convenience store)
-Passengers=100
+pax_level=12
+passenger_demand=100
 intro_year=1950
 retire_year=1970
 chance=100
@@ -43,7 +44,8 @@ BackImage[3][0][0][0][0]=1950shops.2.3
 Obj=factory
 Name=Supermarket1960
 # 1960 supermarket (2x2)
-Passengers=150
+pax_level=12
+passenger_demand=450
 intro_year=1960
 #no retire year as this counts as a mid-sized modern supermarket too...
 chance=100
@@ -113,7 +115,8 @@ BackImage[3][1][1][0][0][1]=supermarket-1960.5.1
 Obj=factory
 Name=Supermarket1980
 # 1980 supermarket (3x4)
-Passengers=150
+pax_level=17
+passenger_demand=800
 intro_year=1985
 
 chance=100
