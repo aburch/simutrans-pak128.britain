@@ -434,14 +434,15 @@ Early_LongSignals_right
 flag-signal-stop
 Early_ChooseSignals_right
 flag-signal-junction
-### walsonja new tunnels
 #
+### walsonja new tunnels
 RailTunnelBrick
 brick_Faced_Tunnel
 RailTunnelConcrete
 Channel_Tunnel
 RailTunnelStone
 severn-tunnel
+#
 ### errors in london underground definitions
 Metropolitan-Bogie-Third
 met-bogie-third
@@ -451,3 +452,7 @@ GrainMill
 GrainMill1840
 IronOreMine
 IronOreMine1920
+#
+### roadsign
+PrivateRoad
+roadbarrier
