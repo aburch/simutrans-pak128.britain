@@ -1,7 +1,7 @@
-Pak128.Britain 1.13 (beta) - 21st December 2012
+Pak128.Britain 1.18 (beta) - 23st October 2018
 
 INTRODUCTION
-Pak128.Britain is a graphics set (pak) for Simutrans.  It requires a Simutrans executable in order to play.  This version is compatible with Simutrans version 111.3.1 - it has not been tested fully with earlier versions of Simutrans and may not work fully.  Use of the latest version of Simutrans is therefore recommended.  
+Pak128.Britain is a graphics set (pak) for Simutrans.  It requires a Simutrans executable in order to play.  This version is compatible with Simutrans version 120.3 upwards - it will not work with earlier versions of Simutrans.  Use of the latest version of Simutrans is therefore recommended.  
 
 COMPATIBILITY
 This release of pak128.Britain should be backwards compatible with all previous releases in the 1.xx series, however a number of changes have been made to some of the ships. While this should not break any savegames, you may find that certain convoys cannot drive after being sent to the depot and may lose all their cargo and cargo capacity on loading. You will need to reform these ships in the depot according to the new vehicle constraints.
@@ -231,3 +231,5 @@ HISTORY
 	FIXES: including tube tunnels & electrification, rail vehicle speeds, dates & missing carriages
 	CHANGES: including boats with multiple holds, 4 wheel coach graphics
 	ADDITIONS: including many new ships/boats, ironworks & gasworks industries, powerline tunnels
+... [Lots of things missing until]
+23/10/2018: release of version 1.18
