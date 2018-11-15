@@ -20,7 +20,8 @@ rolling_resistance=13
 weight=125
 axles=6
 cost=6912000
-runningcost=1254
+runningcost=962
+fixed_cost=14800
 sound=video47-class-47.wav
 increase_maintenance_after_years=24
 
@@ -45,6 +46,7 @@ liverytype[8]=Railfreight-grey
 liverytype[9]=RM-Revised
 liverytype[10]=TF-Two-tone-grey
 liverytype[11]=RfD-Two-tone-grey
+liverytype[12]=Virgin-original
 
 EmptyImage[E][0]=./images/br-cl47-green.0.0
 EmptyImage[SE][0]=./images/br-cl47-green.0.1
@@ -153,3 +155,12 @@ EmptyImage[W][11]=./images/br-cl47-rfd_W.0.0
 EmptyImage[NW][11]=./images/br-cl47-rfd_NW.0.0
 EmptyImage[N][11]=./images/br-cl47-rfd_N.0.0
 EmptyImage[NE][11]=./images/br-cl47-rfd_NE.0.0
+
+EmptyImage[E][12]=./images/br-cl47-vt_E.0
+EmptyImage[SE][12]=./images/br-cl47-vt_SE.0
+EmptyImage[S][12]=./images/br-cl47-vt_S.0
+EmptyImage[SW][12]=./images/br-cl47-vt_SW.0
+EmptyImage[W][12]=./images/br-cl47-vt_W.0
+EmptyImage[NW][12]=./images/br-cl47-vt_NW.0
+EmptyImage[N][12]=./images/br-cl47-vt_N.0
+EmptyImage[NE][12]=./images/br-cl47-vt_NE.0

@@ -23,7 +23,8 @@ rolling_resistance=13
 weight=36
 axles=4
 cost=1840000
-runningcost=128
+runningcost=64
+fixed_cost=6958
 sound=konakaboom-class-159.wav
 
 can_lead_from_rear=1
@@ -83,7 +84,8 @@ rolling_resistance=13
 weight=36
 axles=4
 cost=1840000
-runningcost=128
+runningcost=64
+fixed_cost=958
 
 increase_maintenance_after_years=24
 
@@ -134,7 +136,8 @@ rolling_resistance=13
 
 weight=36
 cost=1840000
-runningcost=128
+runningcost=64
+fixed_cost=6958
 sound=konakaboom-class-159.wav
 
 increase_maintenance_after_years=24

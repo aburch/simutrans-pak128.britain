@@ -24,7 +24,8 @@ rolling_resistance=13
 weight=69
 axle_load=18
 cost=4621000
-runningcost=799
+runningcost=316
+fixed_cost=27851
 sound=lwalker-br-4mt-tank.wav
 length=6
 increase_maintenance_after_years=8
@@ -65,6 +66,7 @@ weight=43
 axle_load=17
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=8
 years_before_maintenance_max_reached=11

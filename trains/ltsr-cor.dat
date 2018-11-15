@@ -10,15 +10,16 @@ retire_year=1914
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=35
 length=8
 
 weight=27.8
 axles=4
 cost=590000
-runningcost=31
-
+runningcost=0
+fixed_cost=702
 
 can_lead_from_rear=0
 bidirectional=1
@@ -26,7 +27,8 @@ bidirectional=1
 min_loading_time=25
 max_loading_time=180
 # Saloon. Apparently, not the most comfortable of rides and a somewhat odd layout.
-comfort=116
+comfort[0]=0
+comfort[1]=116
 
 Constraint[Next][0]=ltsr-cor
 Constraint[Next][1]=ltsr-cor-brake
@@ -78,15 +80,16 @@ retire_year=1914
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
 overcrowded_capacity=22
 length=8
 
 weight=27.8
 axles=4
 cost=590000
-runningcost=31
-
+runningcost=0
+fixed_cost=5502
 
 can_lead_from_rear=0
 bidirectional=1
@@ -94,7 +97,8 @@ bidirectional=1
 min_loading_time=25
 max_loading_time=180
 # Saloon. Apparently, not the most comfortable of rides and a somewhat odd layout.
-comfort=116
+comfort[0]=0
+comfort[1]=116
 
 Constraint[Next][0]=ltsr-cor
 Constraint[Next][1]=ltsr-cor-brake

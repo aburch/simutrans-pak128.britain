@@ -19,7 +19,8 @@ length=5
 weight=47.4
 axle_load=16
 cost=5432500
-runningcost=907
+runningcost=165
+fixed_cost=28527
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=lswr-6-wheel-tender
@@ -74,7 +75,6 @@ EmptyImage[SW][4]=./images/lswr-k10-austerity.1.7
 EmptyImage[W][4]=./images/lswr-k10-austerity.1.0
 EmptyImage[NW][4]=./images/lswr-k10-austerity.1.1
 EmptyImage[N][4]=./images/lswr-k10-austerity.1.2
-EmptyImage[NE][4]=./images/lswr-k10-austerity.1.3
 EmptyImage[NE][4]=./images/lswr-k10-austerity.1.3
 
 EmptyImage[E][5]=./images/lswr-k10-br.1.4

@@ -8,7 +8,8 @@ retire_year=1897
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 
@@ -16,14 +17,15 @@ length=5
 weight=13.0
 axles=3
 cost=331850
-runningcost=25
-
+runningcost=0
+fixed_cost=5195
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=72
+comfort[0]=0
+comfort[1]=72
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -107,7 +109,8 @@ retire_year=1897
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 
@@ -115,14 +118,15 @@ length=5
 weight=13.0
 axles=3
 cost=331850
-runningcost=25
-
+runningcost=0
+fixed_cost=5195
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=72
+comfort[0]=0
+comfort[1]=72
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -205,7 +209,8 @@ retire_year=1897
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 length=5
 
@@ -213,14 +218,15 @@ length=5
 weight=13.0
 axles=3
 cost=331850
-runningcost=25
-
+runningcost=0
+fixed_cost=395
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=72
+comfort[0]=0
+comfort[1]=72
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -342,7 +348,8 @@ retire_year=1897
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=20
 length=5
 
@@ -350,14 +357,15 @@ length=5
 weight=13.0
 axles=3
 cost=333000
-runningcost=26
-
+runningcost=0
+fixed_cost=396
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
-comfort=80
+comfort[0]=0
+comfort[1]=80
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -485,8 +493,8 @@ length=5
 weight=12.9
 axles=3
 cost=331850
-runningcost=25
-
+runningcost=0
+fixed_cost=395
 
 can_lead_from_rear=0
 bidirectional=1
@@ -543,8 +551,8 @@ length=5
 weight=12.9
 axles=3
 cost=331850
-runningcost=25
-
+runningcost=0
+fixed_cost=138
 
 can_lead_from_rear=0
 bidirectional=1
@@ -601,8 +609,8 @@ length=5
 weight=12.9
 axles=3
 cost=331850
-runningcost=25
-
+runningcost=0
+fixed_cost=138
 
 can_lead_from_rear=0
 bidirectional=1
@@ -735,8 +743,8 @@ length=5
 weight=12.9
 axles=3
 cost=331850
-runningcost=25
-
+runningcost=0
+fixed_cost=138
 
 can_lead_from_rear=0
 bidirectional=1
@@ -849,4 +857,3 @@ EmptyImage[W][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.0
 EmptyImage[NW][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.1
 EmptyImage[N][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.2
 EmptyImage[NE][2]=./images/lswr-6-wheel-30ft-fruit-van-olive.1.3
-

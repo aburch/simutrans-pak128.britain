@@ -24,7 +24,8 @@ rolling_resistance=13
 weight=47
 axles=4
 cost=1602000
-runningcost=148
+runningcost=63
+fixed_cost=7335
 sound=panos-g-class-465.wav
 increase_maintenance_after_years=26
 
@@ -79,7 +80,8 @@ rolling_resistance=13
 weight=34
 axles=4
 cost=1602000
-runningcost=148
+runningcost=0
+fixed_cost=3338
 
 increase_maintenance_after_years=26
 
@@ -132,7 +134,8 @@ rolling_resistance=13
 weight=33
 axles=4
 cost=1602000
-runningcost=148
+runningcost=0
+fixed_cost=3338
 
 can_lead_from_rear=0
 bidirectional=1
@@ -185,7 +188,8 @@ rolling_resistance=13
 weight=47
 axles=4
 cost=1602000
-runningcost=148
+runningcost=63
+fixed_cost=7335
 sound=panos-g-class-465.wav
 increase_maintenance_after_years=26
 

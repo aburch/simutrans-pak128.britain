@@ -20,7 +20,8 @@ length=12
 weight=24
 axles=4
 cost=4032000
-runningcost=198
+runningcost=196
+fixed_cost=14200
 sound=laurie-gwr-railcar.wav
 
 can_lead_from_rear=0

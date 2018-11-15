@@ -6,7 +6,8 @@ waytype=water
 engine_type=sail
 speed=16
 freight=Passagiere
-payload[0]=100
+payload[0]=0
+payload[1]=100
 intro_year=1830
 intro_month=1
 retire_year=1880
@@ -14,7 +15,8 @@ retire_month=9
 
 length=3
 
-comfort[0]=90
+comfort[0]=0
+comfort[1]=90
 catering_level=4
 # 2-3 hours
 min_loading_time=7200

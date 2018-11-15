@@ -23,7 +23,8 @@ length=6
 weight=64
 axle_load=18
 cost=6852500
-runningcost=620
+runningcost=149
+fixed_cost=29710
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-K-Tender
@@ -99,6 +100,7 @@ weight=32
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=LBSCR-K

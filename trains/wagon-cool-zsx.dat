@@ -16,7 +16,8 @@ weight=12
 axle_load=12
 way_wear_factor=27300
 cost=600000
-runningcost=10
+runningcost=0
+fixed_cost=333
 
 
 bidirectional=1

@@ -15,11 +15,12 @@ payload[2]=100
 weight=48
 length=10
 cost=120000000
-runningcost=9500
+runningcost=20
+fixed_cost=90000
 intro_year=1983
 intro_month=3
 retire_year=2005
-intro_month=11
+retire_month=11
 
 comfort[0]=0
 comfort[1]=0
@@ -59,11 +60,12 @@ payload=25
 weight=48
 length=10
 cost=12000000
-runningcost=9500
+runningcost=18
+fixed_cost=45000
 intro_year=1983
 intro_month=3
 retire_year=2005
-intro_month=11
+retire_month=11
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -108,11 +110,12 @@ payload=25
 weight=48
 length=10
 cost=12000000
-runningcost=9500
+runningcost=18
+fixed_cost=45000
 intro_year=1983
 intro_month=3
 retire_year=2005
-intro_month=11
+retire_month=11
 
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -141,4 +144,3 @@ FreightImage[W]=./images/ap1-88-cargo-cool.1.4
 FreightImage[NW]=./images/ap1-88-cargo-cool.1.5
 FreightImage[N]=./images/ap1-88-cargo-cool.1.6
 FreightImage[NE]=./images/ap1-88-cargo-cool.1.7
----

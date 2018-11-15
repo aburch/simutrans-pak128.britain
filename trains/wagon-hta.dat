@@ -15,9 +15,9 @@ brake_force=20
 weight=27
 axle_load=26
 way_wear_factor=127500
-axle_load=1
 cost=690000
-runningcost=12
+runningcost=0
+fixed_cost=288
 
 bidirectional=1
 min_loading_time=120

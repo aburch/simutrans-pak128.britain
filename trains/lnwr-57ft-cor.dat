@@ -11,7 +11,8 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=25
 length=10
 
@@ -19,10 +20,11 @@ length=10
 weight=31
 axles=4
 cost=650000
-runningcost=37
+runningcost=0
+fixed_cost=774
 
-
-comfort=130
+comfort[0]=0
+comfort[1]=130
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -141,7 +143,8 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=12
 length=10
 
@@ -149,10 +152,11 @@ length=10
 weight=29
 axles=4
 cost=650000
-runningcost=37
+runningcost=0
+fixed_cost=5574
 
-
-comfort=130
+comfort[0]=0
+comfort[1]=130
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -238,7 +242,8 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=12
 length=10
 
@@ -246,10 +251,11 @@ length=10
 weight=29
 axles=4
 cost=650000
-runningcost=37
+runningcost=0
+fixed_cost=5574
 
-
-comfort=130
+comfort[0]=0
+comfort[1]=130
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -340,8 +346,8 @@ length=10
 weight=30
 axles=4
 cost=657500
-runningcost=39
-
+runningcost=0
+fixed_cost=24274
 
 can_lead_from_rear=0
 bidirectional=1
@@ -460,7 +466,8 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=16
 length=10
 
@@ -468,10 +475,11 @@ length=10
 weight=32
 axles=4
 cost=675000
-runningcost=39
+runningcost=0
+fixed_cost=6804
 
-
-comfort=130
+comfort[0]=0
+comfort[1]=130
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20

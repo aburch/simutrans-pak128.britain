@@ -20,7 +20,8 @@ length=6
 weight=64
 axle_load=15
 cost=99000000
-runningcost=1250
+runningcost=152
+fixed_cost=122500
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-PrinceOfWales-Tender

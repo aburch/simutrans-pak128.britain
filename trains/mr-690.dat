@@ -6,8 +6,7 @@ name=MR-690
 engine_type=steam
 smoke=Steam
 speed=85
-# Estimated (no firegrate area data available)
-power=180
+power=192
 # Calculated from data from data at above website.
 # Loss factor set at 0.75 
 tractive_effort=53
@@ -26,8 +25,9 @@ way_wear_factor=69013
 # Guessed based on Johnson tanks
 weight=43
 axles=4
-cost=5612000
-runningcost=950
+cost=8418000
+runningcost=231
+fixed_cost=31015
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=40
 years_before_maintenance_max_reached=40

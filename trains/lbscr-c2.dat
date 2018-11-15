@@ -26,7 +26,8 @@ bidirectional=0
 weight=38.6
 axles=3
 cost=3020000
-runningcost=295
+runningcost=149
+fixed_cost=26517
 sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=LBSCR-C2x
@@ -113,6 +114,7 @@ weight=32
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=LBSCR-C2

@@ -18,13 +18,12 @@ weight=9
 axles=2
 length=6
 cost=2680000
-runningcost=130
+runningcost=48
+fixed_cost=9396
 intro_year=1995
 intro_month=9
 retire_year=2000
 retire_month=3
-# TODO: Use a more accurate sound here.
-sound=ff3170-mcw-metrobus.wav
 
 comfort=38
 # Single entrance pay driver (low floor): 3.8 seconds per passenger

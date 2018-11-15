@@ -21,7 +21,8 @@ rolling_resistance=13
 weight=28
 axles=4
 cost=1550000
-runningcost=190
+runningcost=35
+fixed_cost=7292
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -72,7 +73,8 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1550000
-runningcost=190
+runningcost=35
+fixed_cost=7292
 
 can_lead_from_rear=0
 bidirectional=1
@@ -119,7 +121,8 @@ rolling_resistance=13
 weight=18
 axles=4
 cost=700000
-runningcost=45
+runningcost=0
+fixed_cost=1458
 
 
 can_lead_from_rear=0
@@ -159,7 +162,6 @@ copyright=James
 intro_year=1983
 retire_year=1992
 retire_month=9
-retire_month=4
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -170,7 +172,8 @@ rolling_resistance=13
 weight=18
 axles=4
 cost=700000
-runningcost=45
+runningcost=0
+fixed_cost=1458
 
 
 can_lead_from_rear=0
@@ -222,7 +225,8 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1550000
-runningcost=190
+runningcost=35
+fixed_cost=7292
 
 
 can_lead_from_rear=0
@@ -275,7 +279,8 @@ rolling_resistance=13
 weight=28
 axles=4
 cost=1550000
-runningcost=190
+runningcost=35
+fixed_cost=7292
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -304,5 +309,3 @@ EmptyImage[W]=./images/lu-1983.2.4
 EmptyImage[NW]=./images/lu-1983.2.5
 EmptyImage[N]=./images/lu-1983.2.6
 EmptyImage[NE]=./images/lu-1983.2.7
---
-

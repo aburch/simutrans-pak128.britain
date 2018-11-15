@@ -9,22 +9,24 @@ retire_year=1909
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=58
+payload[0]=0
+payload[1]=58
 overcrowded_capacity=32
 length=9
 
 weight=24
 axles=4
 cost=500000
-runningcost=30
-
+runningcost=0
+fixed_cost=595
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=100
+comfort[0]=0
+comfort[1]=100
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -166,22 +168,24 @@ retire_year=1909
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=22
 length=9
 
 weight=24
 axles=4
 cost=500000
-runningcost=30
-
+runningcost=0
+fixed_cost=5395
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=100
+comfort[0]=0
+comfort[1]=100
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -265,22 +269,24 @@ retire_year=1909
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=22
 length=9
 
 weight=24
 axles=4
 cost=500000
-runningcost=30
-
+runningcost=0
+fixed_cost=5395
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=17
 max_loading_time=47
-comfort=100
+comfort[0]=0
+comfort[1]=100
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -363,15 +369,16 @@ retire_year=1904
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 length=9
 
 weight=24
 axles=4
 cost=500000
-runningcost=30
-
+runningcost=0
+fixed_cost=5395
 
 can_lead_from_rear=0
 bidirectional=1
@@ -379,7 +386,8 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 # These were unusually comfortable suburban carriages
-comfort=81
+comfort[0]=0
+comfort[1]=81
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -464,15 +472,16 @@ retire_year=1904
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=50
+payload[0]=0
+payload[1]=50
 overcrowded_capacity=25
 length=9
 
 weight=24
 axles=4
 cost=500000
-runningcost=30
-
+runningcost=0
+fixed_cost=5395
 
 can_lead_from_rear=0
 bidirectional=1
@@ -480,7 +489,8 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 # These were unusually comfortable suburban carriages
-comfort=81
+comfort[0]=0
+comfort[1]=81
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -562,15 +572,16 @@ retire_year=1904
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=70
+payload[0]=0
+payload[1]=70
 overcrowded_capacity=35
 length=9
 
 weight=24
 axles=4
 cost=500000
-runningcost=30
-
+runningcost=0
+fixed_cost=595
 
 can_lead_from_rear=0
 bidirectional=1
@@ -578,7 +589,8 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 # These were unusually comfortable suburban carriages
-comfort=81
+comfort[0]=0
+comfort[1]=81
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -726,8 +738,8 @@ length=9
 weight=24
 axles=4
 cost=470000
-runningcost=30
-
+runningcost=0
+fixed_cost=196
 
 can_lead_from_rear=0
 bidirectional=1
@@ -881,8 +893,8 @@ length=9
 weight=24
 axles=4
 cost=570000
-runningcost=45
-
+runningcost=0
+fixed_cost=24238
 
 can_lead_from_rear=0
 bidirectional=1

@@ -21,7 +21,8 @@ rolling_resistance=13
 weight=126
 axles=6
 cost=5280000
-runningcost=2970
+runningcost=716
+fixed_cost=12750
 sound=treacher-rail-class-66.wav
 
 can_lead_from_rear=0

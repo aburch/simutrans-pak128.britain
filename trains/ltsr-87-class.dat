@@ -21,7 +21,8 @@ axle_load=18
 # https://en.wikipedia.org/wiki/LT%26SR_2100_Class
 weight=96.1
 cost=7700000
-runningcost=900
+runningcost=164
+fixed_cost=46417
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

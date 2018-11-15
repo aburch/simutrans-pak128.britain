@@ -26,8 +26,9 @@ bidirectional=0
 # Weight not available. Guessed from contemporaneous types
 weight=30
 axle_load=12
-cost=7960000
-runningcost=480
+cost=15920000
+runningcost=168
+fixed_cost=37267
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LBSCR-craven-tender

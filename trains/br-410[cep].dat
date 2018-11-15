@@ -12,14 +12,18 @@ retire_year=1965
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=64
-overcrowded_capacity=19
+payload[0]=0
+payload[1]=24
+payload[2]=0
+payload[3]=24
+overcrowded_capacity=12
 length=11
 
 weight=41
 axles=4
 cost=1680000
-runningcost=165
+runningcost=75
+fixed_cost=7400
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
@@ -28,7 +32,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-410[CEP]Rear
 Constraint[Prev][1]=BR-414[HAP]Rear
@@ -106,22 +113,28 @@ retire_year=1965
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=21
+payload[0]=0
+payload[1]=21
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=7
 length=11
 
 weight=36
 axles=4
 cost=1680000
-runningcost=30
-
+runningcost=0
+fixed_cost=2000
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-410[CEP]Front
 
@@ -194,22 +207,28 @@ retire_year=1965
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=19
 length=11
 
 weight=34
 axles=4
 cost=1680000
-runningcost=30
-
+runningcost=0
+fixed_cost=2000
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-410[CEP]Brake
 Constraint[Next][0]=BR-410[CEP]Rear
@@ -278,21 +297,27 @@ retire_year=1965
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=21
+payload[0]=0
+payload[1]=21
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=6
 length=11
 
 weight=36
 cost=1720000
-runningcost=65
-
+runningcost=0
+fixed_cost=20048
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 catering_level=3
 
 Constraint[Prev][0]=BR-410[CEP]Brake
@@ -366,14 +391,18 @@ retire_year=1965
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=21
 length=11
 
 weight=41
 axles=4
 cost=1680000
-runningcost=165
+runningcost=75
+fixed_cost=7400
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
@@ -382,7 +411,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=25
 max_loading_time=120
-comfort=137
+comfort[0]=0
+comfort[1]=137
+comfort[2]=0
+comfort[3]=154
 
 Constraint[Prev][0]=BR-410[CEP]Middle
 Constraint[Prev][1]=BR-410[CEP]Buffet

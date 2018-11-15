@@ -23,7 +23,8 @@ weight=65
 # http://orion.math.iastate.edu/jdhsmith/term/slgbsr.htm
 axle_load=18
 cost=8075000
-runningcost=1230
+runningcost=199
+fixed_cost=30729
 sound=lwalker-br-4mt-tank.wav
 
 # Should in theory be able to upgrade from SECR K Class, but upgrading from a tank to a tender locomotive presents difficulties.
@@ -92,6 +93,7 @@ weight=45
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=SR-U1-Class

@@ -21,7 +21,8 @@ payload[4]=24
 weight=27.4
 #length=8
 cost=40000000
-runningcost=4125
+runningcost=154
+fixed_cost=77778
 intro_year=1968
 intro_month=2
 retire_year=1988
@@ -44,7 +45,7 @@ minimum_runway_length=2189
 sound=laxspotter97-boeing737-200.wav
 range=3520
 
-upgrade[0]=oeing-737-200-high-density
+upgrade[0]=boeing-737-200-high-density
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -77,7 +78,8 @@ payload[2]=115
 weight=27.4
 #length=8
 cost=40000000
-runningcost=4125
+runningcost=154
+fixed_cost=77778
 intro_year=1968
 intro_month=2
 retire_year=1988
@@ -98,7 +100,7 @@ minimum_runway_length=2189
 sound=laxspotter97-boeing737-200.wav
 range=3520
 
-upgrade[0]=oeing-737-200
+upgrade[0]=boeing-737-200
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

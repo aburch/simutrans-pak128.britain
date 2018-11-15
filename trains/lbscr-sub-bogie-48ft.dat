@@ -13,21 +13,23 @@ retire_year=1905
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=8
 
 weight=22
 axles=4
 cost=703000
-runningcost=34
-
+runningcost=0
+fixed_cost=837
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=75
+comfort[0]=0
+comfort[1]=75
 
 upgrade[0]=lbscr-48ft-augmentation-trailer-front
 upgrade[1]=lbscr-48ft-augmentation-trailer-rear
@@ -145,21 +147,23 @@ retire_year=1905
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=8
 
 weight=23
 axles=4
 cost=703000
-runningcost=34
-
+runningcost=0
+fixed_cost=5637
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=75
+comfort[0]=0
+comfort[1]=75
 
 upgrade[0]=lbscr-48ft-augmentation-trailer-front
 upgrade[1]=lbscr-48ft-augmentation-trailer-rear
@@ -257,21 +261,23 @@ retire_year=1905
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=8
 
 weight=23
 axles=4
 cost=703000
-runningcost=34
-
+runningcost=0
+fixed_cost=5637
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=75
+comfort[0]=0
+comfort[1]=75
 
 upgrade[0]=lbscr-48ft-augmentation-trailer-front
 upgrade[1]=lbscr-48ft-augmentation-trailer-rear

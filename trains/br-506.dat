@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/British_Rail_Class_506
 obj=vehicle
 name=BR-506Front
 engine_type=electric
@@ -12,14 +13,16 @@ retire_year=1965
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=52
+payload[0]=0
+payload[1]=52
 overcrowded_capacity=39
 length=10
 
 weight=51
 axles=4
 cost=1843000
-runningcost=158
+runningcost=111
+fixed_cost=11280
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=15
 
@@ -29,7 +32,8 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=55
-comfort=78
+comfort[0]=0
+comfort[1]=78
 
 Constraint[Prev][0]=BR-506Rear
 Constraint[Prev][1]=none
@@ -81,14 +85,16 @@ retire_year=1965
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=62
+payload[0]=0
+payload[1]=62
 overcrowded_capacity=46
 length=10
 
 weight=26
 axles=4
 cost=1843000
-runningcost=158
+runningcost=0
+fixed_cost=2194
 
 increase_maintenance_after_years=15
 
@@ -98,7 +104,8 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=55
-comfort=78
+comfort[0]=0
+comfort[1]=78
 
 Constraint[Prev][0]=BR-506Front
 
@@ -149,14 +156,16 @@ retire_year=1965
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=45
 length=10
 
 weight=28
 axles=4
 cost=1843000
-runningcost=158
+runningcost=0
+fixed_cost=2194
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=15
 
@@ -166,7 +175,8 @@ way_constraint_permissive[1]=1
 
 min_loading_time=15
 max_loading_time=55
-comfort=78
+comfort[0]=0
+comfort[1]=78
 
 Constraint[Prev][0]=BR-506Centre
 

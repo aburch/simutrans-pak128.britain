@@ -8,18 +8,20 @@ retire_year=1933
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=25
 length=10
 
 weight=31
 axles=4
 cost=662500
-runningcost=30
-
+runningcost=0
+fixed_cost=789
 
 # All doors type
-comfort=134
+comfort[0]=0
+comfort[1]=134
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -166,18 +168,20 @@ retire_year=1933
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=12
 length=10
 
 weight=29
 axles=4
 cost=662500
-runningcost=30
-
+runningcost=0
+fixed_cost=5589
 
 # All doors type
-comfort=134
+comfort[0]=0
+comfort[1]=134
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -276,18 +280,20 @@ retire_year=1933
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=12
 length=10
 
 weight=29
 axles=4
 cost=662500
-runningcost=30
-
+runningcost=0
+fixed_cost=5589
 
 # All doors type
-comfort=134
+comfort[0]=0
+comfort[1]=134
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -385,18 +391,20 @@ retire_year=1933
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=25
 length=10
 
 weight=30
 axles=4
 cost=650000
-runningcost=30
-
+runningcost=0
+fixed_cost=774
 
 # Vestibule/open type
-comfort=139
+comfort[0]=0
+comfort[1]=139
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -543,18 +551,20 @@ retire_year=1933
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
 overcrowded_capacity=18
 length=10
 
 weight=28
 axles=4
 cost=650000
-runningcost=30
-
+runningcost=0
+fixed_cost=5574
 
 # Vestibule/open type
-comfort=139
+comfort[0]=0
+comfort[1]=139
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -653,18 +663,20 @@ retire_year=1933
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=36
+payload[0]=0
+payload[1]=36
 overcrowded_capacity=18
 length=10
 
 weight=28
 axles=4
 cost=650000
-runningcost=30
-
+runningcost=0
+fixed_cost=5574
 
 # Vestibule/open type
-comfort=139
+comfort[0]=0
+comfort[1]=139
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -768,8 +780,8 @@ length=10
 weight=28
 axles=4
 cost=640000
-runningcost=30
-
+runningcost=0
+fixed_cost=267
 
 can_lead_from_rear=0
 bidirectional=1
@@ -923,8 +935,8 @@ length=10
 weight=30
 axles=4
 cost=670000
-runningcost=30
-
+runningcost=0
+fixed_cost=24279
 
 can_lead_from_rear=0
 bidirectional=1
@@ -1079,8 +1091,8 @@ length=9
 weight=25
 axles=4
 cost=630000
-runningcost=30
-
+runningcost=0
+fixed_cost=750
 
 can_lead_from_rear=0
 bidirectional=1
@@ -1130,17 +1142,19 @@ retire_year=1933
 retire_month=6
 waytype=track
 freight=Passagiere
-payload=33
+payload[0]=0
+payload[1]=33
 length=12
 rolling_resistance=17
 
 weight=43
 axles=4
 cost=880000
-runningcost=47
+runningcost=0
+fixed_cost=19048
 
-
-comfort=139
+comfort[0]=0
+comfort[1]=139
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25

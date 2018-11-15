@@ -15,12 +15,12 @@ weight=320
 length=10
 cost=129000000
 # Hovercraft are expensive on fuel: see http://www.youtube.com/watch?v=Cyq0M4WhW9s
-runningcost=9700
+runningcost=292
+fixed_cost=253750
 intro_year=1976
 intro_month=3
-
 retire_year=2000
-intro_month=1
+retire_month=1
 
 comfort[0]=0
 comfort[1]=0

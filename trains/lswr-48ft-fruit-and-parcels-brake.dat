@@ -15,18 +15,13 @@ length=9
 weight=21
 axles=4
 cost=695000
-runningcost=33
-
+runningcost=0
+fixed_cost=5090
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=300
 max_loading_time=900
-
-#TODO: Add these
-Constraint[Prev][0]=
-
-Constraint[Next][0]=
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -88,8 +83,8 @@ length=9
 weight=21
 axles=4
 cost=695000
-runningcost=33
-
+runningcost=0
+fixed_cost=5090
 
 can_lead_from_rear=0
 bidirectional=1
@@ -136,4 +131,3 @@ EmptyImage[W][3]=./images/lswr-48ft-fruit-and-parcels-brake-malachite.1.0
 EmptyImage[NW][3]=./images/lswr-48ft-fruit-and-parcels-brake-malachite.1.1
 EmptyImage[N][3]=./images/lswr-48ft-fruit-and-parcels-brake-malachite.1.2
 EmptyImage[NE][3]=./images/lswr-48ft-fruit-and-parcels-brake-malachite.1.3
-

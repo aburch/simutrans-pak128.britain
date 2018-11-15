@@ -9,7 +9,8 @@ retire_year=1908
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=20
 length=8
 
@@ -17,10 +18,11 @@ length=8
 weight=19
 axles=4
 cost=333000
-runningcost=27
+runningcost=0
+fixed_cost=396
 
-
-comfort=98
+comfort[0]=0
+comfort[1]=98
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -92,17 +94,19 @@ retire_year=1908
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=16
 length=8
 
 weight=19
 axles=4
 cost=333000
-runningcost=27
+runningcost=0
+fixed_cost=5196
 
-
-comfort=98
+comfort[0]=0
+comfort[1]=98
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -153,17 +157,19 @@ retire_year=1908
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=16
 length=8
 
 weight=19
 axles=4
 cost=333000
-runningcost=27
+runningcost=0
+fixed_cost=5196
 
-
-comfort=98
+comfort[0]=0
+comfort[1]=98
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -213,17 +219,19 @@ retire_year=1908
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=8
 
 weight=19
 axles=4
 cost=320000
-runningcost=25
+runningcost=0
+fixed_cost=381
 
-
-comfort=98
+comfort[0]=0
+comfort[1]=98
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -295,17 +303,19 @@ retire_year=1908
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=8
 
 weight=19
 axles=4
 cost=320000
-runningcost=25
+runningcost=0
+fixed_cost=5181
 
-
-comfort=98
+comfort[0]=0
+comfort[1]=98
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -356,17 +366,19 @@ retire_year=1908
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=8
 
 weight=19
 axles=4
 cost=320000
-runningcost=25
+runningcost=0
+fixed_cost=5181
 
-
-comfort=98
+comfort[0]=0
+comfort[1]=98
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -422,10 +434,9 @@ length=8
 weight=18.5
 axles=4
 cost=320000
-runningcost=25
+runningcost=0
+fixed_cost=381
 
-
-comfort=98
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=35

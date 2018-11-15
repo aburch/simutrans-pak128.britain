@@ -22,7 +22,8 @@ weight=84
 cost=18750000
 upgrade_price=5000
 # Turbojets are less fuel efficient than turbofans.
-runningcost=3850
+runningcost=346
+fixed_cost=63021
 intro_year=1958
 intro_month=10
 retire_year=1960
@@ -103,7 +104,8 @@ weight=84
 cost=18750000
 upgrade_price=5000
 # Turbojets are less fuel efficient than turbofans.
-runningcost=3850
+runningcost=346
+fixed_cost=63021
 intro_year=1958
 intro_month=10
 retire_year=1960
@@ -125,7 +127,7 @@ catering_level=4
 sound=robin-pinnock-bac-1-11.wav
 range=5037
 
-upgrade[0]=boeing-707-120
+upgrade[0]=Boeing_707_120
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none

@@ -25,7 +25,8 @@ length=10
 weight=32
 axles=4
 cost=1250000
-runningcost=96
+runningcost=224
+fixed_cost=7302
 sound=video47-class-121.wav
 increase_maintenance_after_years=4
 
@@ -128,7 +129,8 @@ length=10
 weight=32
 axles=4
 cost=1250000
-runningcost=96
+runningcost=224
+fixed_cost=7302
 sound=video47-class-121.wav
 increase_maintenance_after_years=4
 
@@ -228,7 +230,8 @@ length=10
 weight=23
 axles=4
 cost=600000
-runningcost=28
+runningcost=0
+fixed_cost=714
 
 increase_maintenance_after_years=4
 

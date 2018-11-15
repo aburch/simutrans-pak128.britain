@@ -1145,6 +1145,46 @@ BR-370RearPower(IC)
 BR-370RearPower
 BR-370RearCab(IC)
 BR-370RearCab
+BR-370Coach(IC)
+BR-370370TrailerSecond
+BR-370Buffet(IC)
+BR-370BBR-370RestaurantRear
+BR-370Restaurant(IC)
+BR-370BR-370RestaurantFront
+BR-390FrontCab(Virgin)
+BR-390FrontCab
+BR-390FrontCoach(Virgin)
+BR-390FrontCoach
+BR-390FrontPantograph(Virgin)
+BR-390FrontPantograph
+BR-390Coach(Virgin)
+BR-390Coach
+BR-390PoweredCoach(Virgin)
+BR-390PoweredCoach
+BR-390RearPantograph(Virgin)
+BR-390RearPantograph
+BR-390RearCoach(Virgin)
+BR-390RearCoach
+BR-390RearCab(Virgin)
+BR-390RearCab
+BR-465Front(NSE)
+BR-465Front
+BR-465Middle(NSE)
+BR-465Middle
+BR-465Rear(NSE)
+BR-465Rear
+BR-460(front)
+BR-460-DMSO
+BR-460(centre2)
+BR-460-MSO
+BR-460(centre1)
+BR-460-TSO
+BR-460(rear)
+BR-460-DMLFO
+BR-800MiddleTrolley
+BR-800MiddleComposite
+BR-801MiddleTrolley
+BR-801MiddleComposite
 ################################# New track ##################################
 wrought_iron_track_light
 plateway
@@ -1154,6 +1194,8 @@ sssr
 cssr
 sssr_light
 cssr_light
+cast_iron_N
+fishbelly_N
 #
 ### Illegal names of old stuff
 BR-309/1Front(Blue-Grey)
@@ -1363,6 +1405,8 @@ WindjammerCool
 WindjammerHull
 WindjammerFluid
 WindjammerHull
+HumberKeelMail
+HumberKeelPassenger
 ################################# New canal boats ##################################
 SteamBargeBulk
 SteamNarrowboatBulk
@@ -1571,6 +1615,8 @@ Volvo-V70-Police
 Volvo-240-Estate(Brown)
 LondonTaxi-Lanchester
 FordPrefectEarly(Black)
+McNamaraDennisVanPost
+dennis-15cwt-van-post
 ################################ Industry amendments ##########################
 GrainMill1840
 GrainMill1820
@@ -1580,3 +1626,19 @@ IND_A_01_20
 IND_A_1835_01_20
 COM_SAR_1860_00_24
 COM_SAR_1880_00_24
+########################## Railway carriage improvement/classes ###################
+lmr-4wheel-open-second-brake
+LMR-4Wheel-First-Guard-rear
+LMR-4Wheel-Open-Brake
+LMR-4Wheel-First-Guard-rear
+############################ Wagon re-organisation/deprecation #####################
+PieceEarly2
+PieceEarly1
+LivestockEarly2
+LivestockEarly1
+CoolEarly2
+CoolEarly1
+LongEarly2
+LongEarly1
+Bulk3T
+Bulk2T

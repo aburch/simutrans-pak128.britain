@@ -22,7 +22,8 @@ weight=66.8
 # Ahrons p. 334
 axle_load=18
 cost=99000000
-runningcost=1300
+runningcost=157
+fixed_cost=122500
 sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LNWR-Black

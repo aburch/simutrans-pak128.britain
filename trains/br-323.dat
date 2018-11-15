@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=49
 axles=4
 cost=1930000
-runningcost=171
+runningcost=39
+fixed_cost=7608
 sound=video47-class-323.wav
 
 min_loading_time=17
@@ -116,7 +117,8 @@ rolling_resistance=13
 weight=49
 axles=4
 cost=1930000
-runningcost=170
+runningcost=39
+fixed_cost=7608
 sound=video47-class-323.wav
 
 min_loading_time=17
@@ -210,7 +212,8 @@ rolling_resistance=13
 weight=46
 axles=4
 cost=1930000
-runningcost=170
+runningcost=39
+fixed_cost=1608
 
 min_loading_time=17
 max_loading_time=55
