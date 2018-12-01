@@ -171,8 +171,8 @@ retire_year=1886
 retire_month=9
 waytype=track
 freight=Passagiere
-# The composite shown in the model depicted in the above link is a four compartment carriage;
-# this is what I assume that the thirds would have been.
+# FIXME: Apparently, the thirds were five compartment carriages:
+# https://pregroupingrailwaysdotcom.files.wordpress.com/2018/06/lswr-coach-instructions.pdf
 payload[0]=0
 payload[1]=50
 overcrowded_capacity=25
