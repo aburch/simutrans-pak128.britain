@@ -1,4 +1,5 @@
 # http://www.orion-models.co.uk/LSWR_C1.html
+# https://pregroupingrailwaysdotcom.files.wordpress.com/2018/06/lswr-coach-instructions.pdf
 obj=vehicle
 name=lswr-6-wheel-28ft-brake-front
 speed=150
@@ -10,7 +11,7 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=0
+payload[1]=30
 overcrowded_capacity=15
 length=5
 
