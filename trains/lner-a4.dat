@@ -33,8 +33,7 @@ cost=11088000
 runningcost=395
 fixed_cost=63100
 sound=konakaboom-black-five.wav
-# Disabled for TESTing
-#air_resistance=108
+air_resistance=108
 increase_maintenance_after_years=12
 years_before_maintenance_max_reached=12
 
