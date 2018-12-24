@@ -14,7 +14,9 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=18
+payload[1]=0
+payload[2]=0
+payload[3]=18
 length=9
 rolling_resistance=17
 
@@ -26,7 +28,9 @@ runningcost=0
 fixed_cost=18792
 
 comfort[0]=0
-comfort[1]=139
+comfort[1]=0
+comfort[2]=0
+comfort[3]=139
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -71,6 +75,7 @@ Constraint[Prev][32]=LMS-buffet
 Constraint[Prev][33]=LNWR-42ft-cor-first
 Constraint[Prev][34]=LNWR-42ft-cor-composite
 Constraint[Prev][35]=LNWR-42ft-cor-brake-composite-front
+Constraint[Prev][36]=LNWR-50ft-cor-first
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -106,7 +111,9 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=16
+payload[1]=0
+payload[2]=0
+payload[3]=16
 length=9
 rolling_resistance=17
 
@@ -118,7 +125,9 @@ runningcost=0
 fixed_cost=18714
 
 comfort[0]=0
-comfort[1]=139
+comfort[1]=0
+comfort[2]=0
+comfort[3]=139
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -161,6 +170,7 @@ Constraint[Next][32]=LMS-buffet
 Constraint[Next][33]=LNWR-42ft-cor-first
 Constraint[Next][34]=LNWR-42ft-cor-composite
 Constraint[Next][35]=LNWR-42ft-cor-brake-composite-rear
+Constraint[Next][36]=LNWR-50ft-cor-first
 
 Constraint[Prev][0]=LNWR-50ft-6in-diner-twin-kitchen
 
