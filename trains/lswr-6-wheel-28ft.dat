@@ -1,7 +1,7 @@
 # http://www.orion-models.co.uk/LSWR_C1.html
 # https://pregroupingrailwaysdotcom.files.wordpress.com/2018/06/lswr-coach-instructions.pdf
 obj=vehicle
-name=lswr-6-wheel-28ft-brake-front-3rd
+name=lswr-6-wheel-28ft-brake-front
 speed=150
 copyright=JamesPetts
 intro_year=1878
@@ -57,16 +57,16 @@ Constraint[Next][24]=lswr-48ft-arc-lav
 Constraint[Next][25]=lswr-30ft-full-brake-6-wheel-elliptical
 Constraint[Next][26]=lswr-30ft-fruit-brake-6-wheel-elliptical
 Constraint[Next][27]=lswr-6-wheel-28ft-brake-rear
-Constraint[Next][28]=lswr-6-wheel-28ft-3rd
-Constraint[Next][29]=lswr-6-wheel-28ft-1st/2nd
-Constraint[Next][30]=lswr-6-wheel-30ft-lantern-roof-brake
-Constraint[Next][31]=lswr-6-wheel-30ft-brake-rear
-Constraint[Next][32]=lswr-6-wheel-30ft
-Constraint[Next][33]=lswr-6-wheel-30ft-lav
-Constraint[Next][34]=lswr-6-wheel-30ft-full-brake
-Constraint[Next][35]=lswr-6-wheel-30ft-fruit-brake
-Constraint[Next][36]=lswr-6-wheel-30ft-parcels-van
-Constraint[Next][37]=lswr-6-wheel-30ft-fruit-van
+Constraint[Next][28]=lswr-6-wheel-28ft
+Constraint[Next][29]=lswr-6-wheel-30ft-lantern-roof-brake
+Constraint[Next][30]=lswr-6-wheel-30ft-brake-rear
+Constraint[Next][31]=lswr-6-wheel-30ft
+Constraint[Next][32]=lswr-6-wheel-30ft-lav
+Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
+Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
+Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
+Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Next][37]=none
 
 liverytype[0]=LSWR-pea-green
 
@@ -82,7 +82,7 @@ EmptyImage[NE][0]=./images/lswr-6-wheel-28ft-brake-front.1.3
 ---
 
 obj=vehicle
-name=lswr-6-wheel-28ft-brake-rear-3rd
+name=lswr-6-wheel-28ft-brake-rear
 speed=150
 copyright=JamesPetts
 intro_year=1878
@@ -138,16 +138,15 @@ Constraint[Prev][24]=lswr-48ft-arc-lav
 Constraint[Prev][25]=lswr-30ft-full-brake-6-wheel-elliptical
 Constraint[Prev][26]=lswr-30ft-fruit-brake-6-wheel-elliptical
 Constraint[Prev][27]=lswr-6-wheel-28ft-brake-front
-Constraint[Prev][28]=lswr-6-wheel-28ft-3rd
-Constraint[Prev][29]=lswr-6-wheel-28ft-1st/2nd
-Constraint[Prev][30]=lswr-6-wheel-30ft-lantern-roof-brake
-Constraint[Prev][31]=lswr-6-wheel-30ft-brake-front
-Constraint[Prev][32]=lswr-6-wheel-30ft
-Constraint[Prev][33]=lswr-6-wheel-30ft-lav
-Constraint[Prev][34]=lswr-6-wheel-30ft-full-brake
-Constraint[Prev][35]=lswr-6-wheel-30ft-fruit-brake
-Constraint[Prev][36]=lswr-6-wheel-30ft-parcels-van
-Constraint[Prev][37]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][28]=lswr-6-wheel-28ft
+Constraint[Prev][29]=lswr-6-wheel-30ft-lantern-roof-brake
+Constraint[Prev][30]=lswr-6-wheel-30ft-brake-front
+Constraint[Prev][31]=lswr-6-wheel-30ft
+Constraint[Prev][32]=lswr-6-wheel-30ft-lav
+Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
+Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
+Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
+Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
 
 liverytype[0]=LSWR-pea-green
 
@@ -163,7 +162,7 @@ EmptyImage[NE][0]=./images/lswr-6-wheel-28ft-brake-rear.1.3
 ---
 
 obj=vehicle
-name=lswr-6-wheel-28ft-1st/2nd
+name=lswr-6-wheel-28ft
 speed=150
 copyright=JamesPetts
 intro_year=1878
@@ -172,13 +171,8 @@ retire_year=1886
 retire_month=9
 waytype=track
 freight=Passagiere
-<<<<<<< HEAD
-# The composite shown in the model depicted in the above link is a four compartment carriage;
-# the thirds were five compartment carriages
-=======
 # FIXME: Apparently, the thirds were five compartment carriages:
 # https://pregroupingrailwaysdotcom.files.wordpress.com/2018/06/lswr-coach-instructions.pdf
->>>>>>> upstream/master
 payload[0]=0
 payload[1]=50
 overcrowded_capacity=25
@@ -226,16 +220,15 @@ Constraint[Next][24]=lswr-48ft-arc-lav
 Constraint[Next][25]=lswr-30ft-full-brake-6-wheel-elliptical
 Constraint[Next][26]=lswr-30ft-fruit-brake-6-wheel-elliptical
 Constraint[Next][27]=lswr-6-wheel-28ft-brake-rear
-Constraint[Next][28]=lswr-6-wheel-28ft-3rd
-Constraint[Next][29]=lswr-6-wheel-28ft-1st/2nd
-Constraint[Next][30]=lswr-6-wheel-30ft-lantern-roof-brake
-Constraint[Next][31]=lswr-6-wheel-30ft-brake-rear
-Constraint[Next][32]=lswr-6-wheel-30ft
-Constraint[Next][33]=lswr-6-wheel-30ft-lav
-Constraint[Next][34]=lswr-6-wheel-30ft-full-brake
-Constraint[Next][35]=lswr-6-wheel-30ft-fruit-brake
-Constraint[Next][36]=lswr-6-wheel-30ft-parcels-van
-Constraint[Next][37]=lswr-6-wheel-30ft-fruit-van
+Constraint[Next][28]=lswr-6-wheel-28ft
+Constraint[Next][29]=lswr-6-wheel-30ft-lantern-roof-brake
+Constraint[Next][30]=lswr-6-wheel-30ft-brake-rear
+Constraint[Next][31]=lswr-6-wheel-30ft
+Constraint[Next][32]=lswr-6-wheel-30ft-lav
+Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
+Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
+Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
+Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -265,16 +258,15 @@ Constraint[Prev][24]=lswr-48ft-arc-lav
 Constraint[Prev][25]=lswr-30ft-full-brake-6-wheel-elliptical
 Constraint[Prev][26]=lswr-30ft-fruit-brake-6-wheel-elliptical
 Constraint[Prev][27]=lswr-6-wheel-28ft-brake-front
-Constraint[Prev][28]=lswr-6-wheel-28ft-3rd
-Constraint[Prev][29]=lswr-6-wheel-28ft-1st/2nd
-Constraint[Prev][30]=lswr-6-wheel-30ft-lantern-roof-brake
-Constraint[Prev][31]=lswr-6-wheel-30ft-brake-front
-Constraint[Prev][32]=lswr-6-wheel-30ft
-Constraint[Prev][33]=lswr-6-wheel-30ft-lav
-Constraint[Prev][34]=lswr-6-wheel-30ft-full-brake
-Constraint[Prev][35]=lswr-6-wheel-30ft-fruit-brake
-Constraint[Prev][36]=lswr-6-wheel-30ft-parcels-van
-Constraint[Prev][37]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][28]=lswr-6-wheel-28ft
+Constraint[Prev][29]=lswr-6-wheel-30ft-lantern-roof-brake
+Constraint[Prev][30]=lswr-6-wheel-30ft-brake-front
+Constraint[Prev][31]=lswr-6-wheel-30ft
+Constraint[Prev][32]=lswr-6-wheel-30ft-lav
+Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
+Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
+Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
+Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
 
 liverytype[0]=LSWR-pea-green
 
@@ -287,127 +279,3 @@ EmptyImage[NW][0]=./images/lswr-6-wheel-28ft.1.1
 EmptyImage[N][0]=./images/lswr-6-wheel-28ft.1.2
 EmptyImage[NE][0]=./images/lswr-6-wheel-28ft.1.3
 
----
-
-obj=vehicle
-name=lswr-6-wheel-28ft-1st/2nd
-speed=150
-copyright=JamesPetts
-intro_year=1878
-intro_month=5
-retire_year=1886
-retire_month=9
-waytype=track
-freight=Passagiere
-# The composite shown in the model depicted in the above link is a four compartment carriage;
-payload[0]=0
-payload[1]=0
-payload[2]=20
-payload[3]=16
-overcrowded_capacity=8
-length=5
-
-# Estimated
-weight=12.1
-axles=3
-cost=325000
-runningcost=0
-fixed_cost=387
-
-can_lead_from_rear=0
-bidirectional=1
-min_loading_time=17
-max_loading_time=47
-comfort[0]=0
-comfort[1]=0
-comfort[2]=79
-comfort[3]=92
-
-Constraint[Next][0]=4-wheel-1870s-fitted
-Constraint[Next][1]=4-wheel-1870s-brake-fitted
-Constraint[Next][2]=4-wheel-1870s-mail-fitted
-Constraint[Next][3]=4-wheel-1870s-tpo-fitted
-Constraint[Next][4]=4-wheel-sub-1870s-fitted
-Constraint[Next][5]=4-wheel-sub-1870s-brake-rear-fitted
-Constraint[Next][6]=4-wheel-1870s-fast-freight-fitted
-Constraint[Next][7]=4-wheel-1870s-milk-fitted
-Constraint[Next][8]=lswr-56ft-sub
-Constraint[Next][9]=lswr-56ft-sub-brake-rear
-Constraint[Next][10]=lswr-56ft-lav-brake-rear
-Constraint[Next][11]=lswr-56ft-lav
-Constraint[Next][12]=lswr-48ft-sub-brake-rear
-Constraint[Next][13]=lswr-48ft-sub
-Constraint[Next][14]=lswr-48ft-lav
-Constraint[Next][15]=lswr-48ft-arc-parcels-brake
-Constraint[Next][16]=lswr-48ft-arc-fruit-brake
-Constraint[Next][17]=lswr-44ft-full-brake
-Constraint[Next][18]=lswr-44ft-full-brake-elliptical
-Constraint[Next][19]=lswr-48ft-fruit-brake
-Constraint[Next][20]=lswr-48ft-parcels-brake
-Constraint[Next][21]=lswr-48ft-arc-sub-brake-rear
-Constraint[Next][22]=lswr-48ft-arc-sub
-Constraint[Next][23]=lswr-48ft-arc-lav-brake
-Constraint[Next][24]=lswr-48ft-arc-lav
-Constraint[Next][25]=lswr-30ft-full-brake-6-wheel-elliptical
-Constraint[Next][26]=lswr-30ft-fruit-brake-6-wheel-elliptical
-Constraint[Next][27]=lswr-6-wheel-28ft-brake-rear
-Constraint[Next][28]=lswr-6-wheel-28ft-3rd
-Constraint[Next][29]=lswr-6-wheel-28ft-1st/2nd
-Constraint[Next][30]=lswr-6-wheel-30ft-lantern-roof-brake
-Constraint[Next][31]=lswr-6-wheel-30ft-brake-rear
-Constraint[Next][32]=lswr-6-wheel-30ft
-Constraint[Next][33]=lswr-6-wheel-30ft-lav
-Constraint[Next][34]=lswr-6-wheel-30ft-full-brake
-Constraint[Next][35]=lswr-6-wheel-30ft-fruit-brake
-Constraint[Next][36]=lswr-6-wheel-30ft-parcels-van
-Constraint[Next][37]=lswr-6-wheel-30ft-fruit-van
-
-Constraint[Prev][0]=4-wheel-1870s-fitted
-Constraint[Prev][1]=4-wheel-1870s-brake-fitted
-Constraint[Prev][2]=4-wheel-1870s-mail-fitted
-Constraint[Prev][3]=4-wheel-1870s-tpo-fitted
-Constraint[Prev][4]=4-wheel-sub-1870s-fitted
-Constraint[Prev][5]=4-wheel-sub-1870s-brake-front-fitted
-Constraint[Prev][6]=4-wheel-1870s-fast-freight-fitted
-Constraint[Prev][7]=4-wheel-1870s-milk-fitted
-Constraint[Prev][8]=lswr-56ft-sub
-Constraint[Prev][9]=lswr-56ft-sub-brake-front
-Constraint[Prev][10]=lswr-56ft-lav-brake-front
-Constraint[Prev][11]=lswr-56ft-lav
-Constraint[Prev][12]=lswr-48ft-sub-brake-front
-Constraint[Prev][13]=lswr-48ft-sub
-Constraint[Prev][14]=lswr-48ft-lav
-Constraint[Prev][15]=lswr-48ft-arc-parcels-brake
-Constraint[Prev][16]=lswr-48ft-arc-fruit-brake
-Constraint[Prev][17]=lswr-44ft-full-brake
-Constraint[Prev][18]=lswr-44ft-full-brake-elliptical
-Constraint[Prev][19]=lswr-48ft-fruit-brake
-Constraint[Prev][20]=lswr-48ft-parcels-brake
-Constraint[Prev][21]=lswr-48ft-arc-sub-brake-front
-Constraint[Prev][22]=lswr-48ft-arc-sub
-Constraint[Prev][23]=lswr-48ft-arc-lav-brake
-Constraint[Prev][24]=lswr-48ft-arc-lav
-Constraint[Prev][25]=lswr-30ft-full-brake-6-wheel-elliptical
-Constraint[Prev][26]=lswr-30ft-fruit-brake-6-wheel-elliptical
-Constraint[Prev][27]=lswr-6-wheel-28ft-brake-front
-Constraint[Prev][28]=lswr-6-wheel-28ft-3rd
-Constraint[Prev][29]=lswr-6-wheel-28ft-1st/2nd
-Constraint[Prev][30]=lswr-6-wheel-30ft-lantern-roof-brake
-Constraint[Prev][31]=lswr-6-wheel-30ft-brake-front
-Constraint[Prev][32]=lswr-6-wheel-30ft
-Constraint[Prev][33]=lswr-6-wheel-30ft-lav
-Constraint[Prev][34]=lswr-6-wheel-30ft-full-brake
-Constraint[Prev][35]=lswr-6-wheel-30ft-fruit-brake
-Constraint[Prev][36]=lswr-6-wheel-30ft-parcels-van
-Constraint[Prev][37]=lswr-6-wheel-30ft-fruit-van
-
-liverytype[0]=LSWR-pea-green
-
-EmptyImage[E][0]=./images/lswr-6-wheel-28ft.1.4
-EmptyImage[SE][0]=./images/lswr-6-wheel-28ft.1.5
-EmptyImage[S][0]=./images/lswr-6-wheel-28ft.1.6
-EmptyImage[SW][0]=./images/lswr-6-wheel-28ft.1.7
-EmptyImage[W][0]=./images/lswr-6-wheel-28ft.1.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-28ft.1.1
-EmptyImage[N][0]=./images/lswr-6-wheel-28ft.1.2
-EmptyImage[NE][0]=./images/lswr-6-wheel-28ft.1.3

@@ -100,6 +100,7 @@ Constraint[Next][0]=met-ashbury-1863-third-unfitted
 Constraint[Next][1]=met-ashbury-1863-brake-rear-unfitted
 Constraint[Next][2]=district-4-wheel-third-unfitted
 Constraint[Next][3]=district-4-wheel-brake-rear-unfitted
+Constraint[Next][4]=none
 
 liverytype[0]=District-Standard
 liverytype[1]=LT
@@ -317,6 +318,7 @@ Constraint[Next][8]=met-dreadnought-third
 Constraint[Next][9]=met-dreadnought-brake-rear
 Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
+Constraint[Next][12]=none
 
 EmptyImage[E][0]=./images/district-4-wheel-brake-front.1.4
 EmptyImage[SE][0]=./images/district-4-wheel-brake-front.1.5
@@ -416,3 +418,4 @@ EmptyImage[W][1]=./images/district-4-wheel-brake-brown-rear.1.0
 EmptyImage[NW][1]=./images/district-4-wheel-brake-brown-rear.1.1
 EmptyImage[N][1]=./images/district-4-wheel-brake-brown-rear.1.2
 EmptyImage[NE][1]=./images/district-4-wheel-brake-brown-rear.1.3
+
