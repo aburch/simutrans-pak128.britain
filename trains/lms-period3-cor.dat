@@ -84,6 +84,8 @@ Constraint[Next][48]=LNWR-42ft-cor-first
 Constraint[Next][49]=LNWR-42ft-cor-composite
 Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
+Constraint[Next][52]=LNWR-57ft-cor-composite
+Constraint[Next][53]=LNWR-57ft-cor-first
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -137,6 +139,8 @@ Constraint[Prev][48]=LNWR-42ft-cor-first
 Constraint[Prev][49]=LNWR-42ft-cor-composite
 Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
+Constraint[Prev][52]=LNWR-57ft-cor-composite
+Constraint[Prev][53]=LNWR-57ft-cor-first
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -255,7 +259,9 @@ Constraint[Next][48]=LNWR-42ft-cor-first
 Constraint[Next][49]=LNWR-42ft-cor-composite
 Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
-Constraint[Next][52]=none
+Constraint[Next][52]=LNWR-57ft-cor-composite
+Constraint[Next][53]=LNWR-57ft-cor-first
+Constraint[Next][54]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -374,6 +380,8 @@ Constraint[Prev][48]=LNWR-42ft-cor-first
 Constraint[Prev][49]=LNWR-42ft-cor-composite
 Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
+Constraint[Prev][52]=LNWR-57ft-cor-composite
+Constraint[Prev][53]=LNWR-57ft-cor-first
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -493,6 +501,8 @@ Constraint[Next][48]=LNWR-42ft-cor-first
 Constraint[Next][49]=LNWR-42ft-cor-composite
 Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
+Constraint[Next][52]=LNWR-57ft-cor-composite
+Constraint[Next][53]=LNWR-57ft-cor-first
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -546,6 +556,8 @@ Constraint[Prev][48]=LNWR-42ft-cor-first
 Constraint[Prev][49]=LNWR-42ft-cor-composite
 Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
+Constraint[Prev][52]=LNWR-57ft-cor-composite
+Constraint[Prev][53]=LNWR-57ft-cor-first
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -663,7 +675,9 @@ Constraint[Next][48]=LNWR-42ft-cor-first
 Constraint[Next][49]=LNWR-42ft-cor-composite
 Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
-Constraint[Next][52]=none
+Constraint[Next][52]=LNWR-57ft-cor-composite
+Constraint[Next][53]=LNWR-57ft-cor-first
+Constraint[Next][54]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -781,6 +795,8 @@ Constraint[Prev][48]=LNWR-42ft-cor-first
 Constraint[Prev][49]=LNWR-42ft-cor-composite
 Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
+Constraint[Prev][52]=LNWR-57ft-cor-composite
+Constraint[Prev][53]=LNWR-57ft-cor-first
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -898,6 +914,8 @@ Constraint[Next][48]=LNWR-42ft-cor-first
 Constraint[Next][49]=LNWR-42ft-cor-composite
 Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
+Constraint[Next][52]=LNWR-57ft-cor-composite
+Constraint[Next][53]=LNWR-57ft-cor-first
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -951,6 +969,8 @@ Constraint[Prev][48]=LNWR-42ft-cor-first
 Constraint[Prev][49]=LNWR-42ft-cor-composite
 Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
+Constraint[Prev][52]=LNWR-57ft-cor-composite
+Constraint[Prev][53]=LNWR-57ft-cor-first
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1068,6 +1088,8 @@ Constraint[Next][48]=LNWR-42ft-cor-first
 Constraint[Next][49]=LNWR-42ft-cor-composite
 Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
+Constraint[Next][52]=LNWR-57ft-cor-composite
+Constraint[Next][53]=LNWR-57ft-cor-first
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1121,6 +1143,8 @@ Constraint[Prev][48]=LNWR-42ft-cor-first
 Constraint[Prev][49]=LNWR-42ft-cor-composite
 Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
+Constraint[Prev][52]=LNWR-57ft-cor-composite
+Constraint[Prev][53]=LNWR-57ft-cor-first
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1291,6 +1315,8 @@ Constraint[Next][48]=LNWR-42ft-cor-first
 Constraint[Next][49]=LNWR-42ft-cor-composite
 Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
+Constraint[Next][52]=LNWR-57ft-cor-composite
+Constraint[Next][53]=LNWR-57ft-cor-first
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1344,6 +1370,8 @@ Constraint[Prev][48]=LNWR-42ft-cor-first
 Constraint[Prev][49]=LNWR-42ft-cor-composite
 Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
+Constraint[Prev][52]=LNWR-57ft-cor-composite
+Constraint[Prev][53]=LNWR-57ft-cor-first
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1456,6 +1484,8 @@ Constraint[Next][48]=LNWR-42ft-cor-first
 Constraint[Next][49]=LNWR-42ft-cor-composite
 Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
+Constraint[Next][52]=LNWR-57ft-cor-composite
+Constraint[Next][53]=LNWR-57ft-cor-first
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1509,6 +1539,8 @@ Constraint[Prev][48]=LNWR-42ft-cor-first
 Constraint[Prev][49]=LNWR-42ft-cor-composite
 Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
+Constraint[Prev][52]=LNWR-57ft-cor-composite
+Constraint[Prev][53]=LNWR-57ft-cor-first
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
