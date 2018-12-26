@@ -15,6 +15,8 @@ freight=Passagiere
 # Three per side in the thirds. Long distance stock.
 payload[0]=0
 payload[1]=42
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=20
 length=10
 
@@ -27,6 +29,8 @@ fixed_cost=899
 # Long distance three per side in the thirds, no individual compartment doors.
 comfort[0]=0
 comfort[1]=145
+comfort[2]=145
+comfort[3]=159
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -86,6 +90,9 @@ Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
 Constraint[Next][52]=LNWR-57ft-cor-composite
 Constraint[Next][53]=LNWR-57ft-cor-first
+Constraint[Next][54]=LMS-period1-cor-open-first
+Constraint[Next][55]=LMS-period1-cor-first
+Constraint[Next][56]=LMS-period1-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -141,6 +148,9 @@ Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
 Constraint[Prev][52]=LNWR-57ft-cor-composite
 Constraint[Prev][53]=LNWR-57ft-cor-first
+Constraint[Prev][54]=LMS-period1-cor-open-first
+Constraint[Prev][55]=LMS-period1-cor-first
+Constraint[Prev][56]=LMS-period1-cor-composite
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -190,6 +200,8 @@ freight=Passagiere
 # Three per side in the thirds. Long distance stock.
 payload[0]=0
 payload[1]=24
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=10
 length=10
 
@@ -201,7 +213,9 @@ fixed_cost=5699
 
 # Long distance three per side in the thirds, no individual compartment doors.
 comfort[0]=0
-comfort[1]=143
+comfort[1]=145
+comfort[2]=145
+comfort[3]=159
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -261,7 +275,10 @@ Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
 Constraint[Next][52]=LNWR-57ft-cor-composite
 Constraint[Next][53]=LNWR-57ft-cor-first
-Constraint[Next][54]=none
+Constraint[Next][54]=LMS-period1-cor-open-first
+Constraint[Next][55]=LMS-period1-cor-first
+Constraint[Next][56]=LMS-period1-cor-composite
+Constraint[Next][57]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -311,6 +328,8 @@ freight=Passagiere
 # Three per side in the thirds. Long distance stock.
 payload[0]=0
 payload[1]=24
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=10
 length=10
 
@@ -322,7 +341,9 @@ fixed_cost=5699
 
 # Long distance three per side in the thirds, no individual compartment doors.
 comfort[0]=0
-comfort[1]=143
+comfort[1]=145
+comfort[2]=145
+comfort[3]=159
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
@@ -382,6 +403,9 @@ Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
 Constraint[Prev][52]=LNWR-57ft-cor-composite
 Constraint[Prev][53]=LNWR-57ft-cor-first
+Constraint[Prev][54]=LMS-period1-cor-open-first
+Constraint[Prev][55]=LMS-period1-cor-first
+Constraint[Prev][56]=LMS-period1-cor-composite
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -432,6 +456,8 @@ freight=Passagiere
 # 2 + 2 seating
 payload[0]=0
 payload[1]=60
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=32
 length=10
 
@@ -448,6 +474,8 @@ min_loading_time=25
 max_loading_time=180
 comfort[0]=0
 comfort[1]=136
+comfort[2]=136
+comfort[3]=152
 
 Constraint[Next][0]=LNWR-45ft-cor-full-brake
 Constraint[Next][1]=LNWR-42ft-cor
@@ -503,6 +531,9 @@ Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
 Constraint[Next][52]=LNWR-57ft-cor-composite
 Constraint[Next][53]=LNWR-57ft-cor-first
+Constraint[Next][54]=LMS-period1-cor-open-first
+Constraint[Next][55]=LMS-period1-cor-first
+Constraint[Next][56]=LMS-period1-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -558,6 +589,9 @@ Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
 Constraint[Prev][52]=LNWR-57ft-cor-composite
 Constraint[Prev][53]=LNWR-57ft-cor-first
+Constraint[Prev][54]=LMS-period1-cor-open-first
+Constraint[Prev][55]=LMS-period1-cor-first
+Constraint[Prev][56]=LMS-period1-cor-composite
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -607,6 +641,8 @@ freight=Passagiere
 # 2 + 2 seating
 payload[0]=0
 payload[1]=40
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=22
 length=10
 
@@ -622,6 +658,8 @@ min_loading_time=25
 max_loading_time=180
 comfort[0]=0
 comfort[1]=136
+comfort[2]=136
+comfort[3]=152
 
 Constraint[Next][0]=LNWR-45ft-cor-full-brake
 Constraint[Next][1]=LNWR-42ft-cor
@@ -677,7 +715,10 @@ Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
 Constraint[Next][52]=LNWR-57ft-cor-composite
 Constraint[Next][53]=LNWR-57ft-cor-first
-Constraint[Next][54]=none
+Constraint[Next][54]=LMS-period1-cor-open-first
+Constraint[Next][55]=LMS-period1-cor-first
+Constraint[Next][56]=LMS-period1-cor-composite
+Constraint[Next][57]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -727,6 +768,8 @@ freight=Passagiere
 # 2 + 2 seating
 payload[0]=0
 payload[1]=40
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=22
 length=10
 
@@ -742,6 +785,8 @@ min_loading_time=25
 max_loading_time=180
 comfort[0]=0
 comfort[1]=136
+comfort[2]=136
+comfort[3]=152
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -797,6 +842,9 @@ Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
 Constraint[Prev][52]=LNWR-57ft-cor-composite
 Constraint[Prev][53]=LNWR-57ft-cor-first
+Constraint[Prev][54]=LMS-period1-cor-open-first
+Constraint[Prev][55]=LMS-period1-cor-first
+Constraint[Prev][56]=LMS-period1-cor-composite
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -845,6 +893,8 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=33
+payload[2]=0
+payload[3]=0
 length=11
 rolling_resistance=17
 
@@ -858,8 +908,11 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
+
 comfort[0]=0
 comfort[1]=136
+comfort[2]=136
+comfort[3]=152
 catering_level=4
 
 Constraint[Next][0]=LNWR-45ft-cor-full-brake
@@ -916,6 +969,9 @@ Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
 Constraint[Next][52]=LNWR-57ft-cor-composite
 Constraint[Next][53]=LNWR-57ft-cor-first
+Constraint[Next][54]=LMS-period1-cor-open-first
+Constraint[Next][55]=LMS-period1-cor-first
+Constraint[Next][56]=LMS-period1-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -971,6 +1027,9 @@ Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
 Constraint[Prev][52]=LNWR-57ft-cor-composite
 Constraint[Prev][53]=LNWR-57ft-cor-first
+Constraint[Prev][54]=LMS-period1-cor-open-first
+Constraint[Prev][55]=LMS-period1-cor-first
+Constraint[Prev][56]=LMS-period1-cor-composite
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1019,6 +1078,8 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=24
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=10
 length=10
 
@@ -1032,8 +1093,11 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=25
 max_loading_time=180
+
 comfort[0]=0
 comfort[1]=136
+comfort[2]=136
+comfort[3]=152
 catering_level=3
 
 Constraint[Next][0]=LNWR-45ft-cor-full-brake
@@ -1090,6 +1154,9 @@ Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
 Constraint[Next][52]=LNWR-57ft-cor-composite
 Constraint[Next][53]=LNWR-57ft-cor-first
+Constraint[Next][54]=LMS-period1-cor-open-first
+Constraint[Next][55]=LMS-period1-cor-first
+Constraint[Next][56]=LMS-period1-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1145,6 +1212,9 @@ Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
 Constraint[Prev][52]=LNWR-57ft-cor-composite
 Constraint[Prev][53]=LNWR-57ft-cor-first
+Constraint[Prev][54]=LMS-period1-cor-open-first
+Constraint[Prev][55]=LMS-period1-cor-first
+Constraint[Prev][56]=LMS-period1-cor-composite
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1317,6 +1387,9 @@ Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
 Constraint[Next][52]=LNWR-57ft-cor-composite
 Constraint[Next][53]=LNWR-57ft-cor-first
+Constraint[Next][54]=LMS-period1-cor-open-first
+Constraint[Next][55]=LMS-period1-cor-first
+Constraint[Next][56]=LMS-period1-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1372,6 +1445,9 @@ Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
 Constraint[Prev][52]=LNWR-57ft-cor-composite
 Constraint[Prev][53]=LNWR-57ft-cor-first
+Constraint[Prev][54]=LMS-period1-cor-open-first
+Constraint[Prev][55]=LMS-period1-cor-first
+Constraint[Prev][56]=LMS-period1-cor-composite
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1486,6 +1562,9 @@ Constraint[Next][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][51]=LNWR-50ft-cor-first
 Constraint[Next][52]=LNWR-57ft-cor-composite
 Constraint[Next][53]=LNWR-57ft-cor-first
+Constraint[Next][54]=LMS-period1-cor-open-first
+Constraint[Next][55]=LMS-period1-cor-first
+Constraint[Next][56]=LMS-period1-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1541,6 +1620,9 @@ Constraint[Prev][50]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Prev][51]=LNWR-50ft-cor-first
 Constraint[Prev][52]=LNWR-57ft-cor-composite
 Constraint[Prev][53]=LNWR-57ft-cor-first
+Constraint[Prev][54]=LMS-period1-cor-open-first
+Constraint[Prev][55]=LMS-period1-cor-first
+Constraint[Prev][56]=LMS-period1-cor-composite
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early

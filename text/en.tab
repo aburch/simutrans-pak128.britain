@@ -4529,13 +4529,19 @@ LMS mail carriage
 LMS-TPO
 LMS TPO
 LMS-period1-cor
-LMS corridor carriage
+LMS corridor carriage (third class)
+LMS-period1-cor-first
+LMS corridor carriage (first class)
+LMS-period1-cor-composite
+LMS corridor composite carriage (first/third class)
 LMS-period1-cor-brake-front
-LMS corridor brake carriage
+LMS corridor brake carriage (third class)
 LMS-period1-cor-brake-rear
-LMS corridor brake carriage (rear)
+LMS corridor brake carriage (third class) (rear)
 LMS-period1-cor-open
-LMS open carriage
+LMS open carriage (third class)
+LMS-period1-cor-open-first
+LMS open carriage (first class)
 LMS-period1-cor-open-brake-front
 LMS open brake carriage
 LMS-period1-cor-open-brake-rear
