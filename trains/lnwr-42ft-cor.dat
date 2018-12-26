@@ -75,6 +75,13 @@ Constraint[Next][35]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][36]=LNWR-50ft-cor-first
 Constraint[Next][37]=LNWR-57ft-cor-composite
 Constraint[Next][38]=LNWR-57ft-cor-first
+Constraint[Next][39]=LMS-period1-cor-open-first
+Constraint[Next][40]=LMS-period1-cor-first
+Constraint[Next][41]=LMS-period1-cor-composite
+Constraint[Next][42]=LMS-open-first
+Constraint[Next][43]=LMS-open-composite
+Constraint[Next][44]=LMS-cor-first
+Constraint[Next][45]=LMS-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -118,6 +125,10 @@ Constraint[Prev][38]=LNWR-57ft-cor-first
 Constraint[Prev][39]=LMS-period1-cor-open-first
 Constraint[Prev][40]=LMS-period1-cor-first
 Constraint[Prev][41]=LMS-period1-cor-composite
+Constraint[Prev][42]=LMS-open-first
+Constraint[Prev][43]=LMS-open-composite
+Constraint[Prev][44]=LMS-cor-first
+Constraint[Prev][45]=LMS-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -214,6 +225,13 @@ Constraint[Next][35]=LNWR-42ft-cor-brake-composite-rear
 Constraint[Next][36]=LNWR-50ft-cor-first
 Constraint[Next][37]=LNWR-57ft-cor-composite
 Constraint[Next][38]=LNWR-57ft-cor-first
+Constraint[Next][39]=LMS-period1-cor-open-first
+Constraint[Next][40]=LMS-period1-cor-first
+Constraint[Next][41]=LMS-period1-cor-composite
+Constraint[Next][42]=LMS-open-first
+Constraint[Next][43]=LMS-open-composite
+Constraint[Next][44]=LMS-cor-first
+Constraint[Next][45]=LMS-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -257,6 +275,10 @@ Constraint[Prev][38]=LNWR-57ft-cor-first
 Constraint[Prev][39]=LMS-period1-cor-open-first
 Constraint[Prev][40]=LMS-period1-cor-first
 Constraint[Prev][41]=LMS-period1-cor-composite
+Constraint[Prev][42]=LMS-open-first
+Constraint[Prev][43]=LMS-open-composite
+Constraint[Prev][44]=LMS-cor-first
+Constraint[Prev][45]=LMS-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -357,6 +379,10 @@ Constraint[Next][38]=LNWR-57ft-cor-first
 Constraint[Next][39]=LMS-period1-cor-open-first
 Constraint[Next][40]=LMS-period1-cor-first
 Constraint[Next][41]=LMS-period1-cor-composite
+Constraint[Next][42]=LMS-open-first
+Constraint[Next][43]=LMS-open-composite
+Constraint[Next][44]=LMS-cor-first
+Constraint[Next][45]=LMS-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -400,6 +426,10 @@ Constraint[Prev][38]=LNWR-57ft-cor-first
 Constraint[Prev][39]=LMS-period1-cor-open-first
 Constraint[Prev][40]=LMS-period1-cor-first
 Constraint[Prev][41]=LMS-period1-cor-composite
+Constraint[Prev][42]=LMS-open-first
+Constraint[Prev][43]=LMS-open-composite
+Constraint[Prev][44]=LMS-cor-first
+Constraint[Prev][45]=LMS-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -500,7 +530,11 @@ Constraint[Next][38]=LNWR-57ft-cor-first
 Constraint[Next][39]=LMS-period1-cor-open-first
 Constraint[Next][40]=LMS-period1-cor-first
 Constraint[Next][41]=LMS-period1-cor-composite
-Constraint[Next][42]=none
+Constraint[Next][42]=LMS-open-first
+Constraint[Next][43]=LMS-open-composite
+Constraint[Next][44]=LMS-cor-first
+Constraint[Next][45]=LMS-cor-composite
+Constraint[Next][46]=none
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -522,7 +556,6 @@ EmptyImage[W][1]=./images/lnwr-42ft-cor-brake-lms-front_W.0.0
 EmptyImage[NW][1]=./images/lnwr-42ft-cor-brake-lms-front_NW.0.0
 EmptyImage[N][1]=./images/lnwr-42ft-cor-brake-lms-front_N.0.0
 EmptyImage[NE][1]=./images/lnwr-42ft-cor-brake-lms-front_NE.0.0
-
 
 ----
 
@@ -602,6 +635,10 @@ Constraint[Prev][38]=LNWR-57ft-cor-first
 Constraint[Prev][39]=LMS-period1-cor-open-first
 Constraint[Prev][40]=LMS-period1-cor-first
 Constraint[Prev][41]=LMS-period1-cor-composite
+Constraint[Prev][42]=LMS-open-first
+Constraint[Prev][43]=LMS-open-composite
+Constraint[Prev][44]=LMS-cor-first
+Constraint[Prev][45]=LMS-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -702,6 +739,10 @@ Constraint[Prev][38]=LNWR-57ft-cor-first
 Constraint[Prev][39]=LMS-period1-cor-open-first
 Constraint[Prev][40]=LMS-period1-cor-first
 Constraint[Prev][41]=LMS-period1-cor-composite
+Constraint[Prev][42]=LMS-open-first
+Constraint[Prev][43]=LMS-open-composite
+Constraint[Prev][44]=LMS-cor-first
+Constraint[Prev][45]=LMS-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -801,7 +842,11 @@ Constraint[Next][38]=LNWR-57ft-cor-first
 Constraint[Next][39]=LMS-period1-cor-open-first
 Constraint[Next][40]=LMS-period1-cor-first
 Constraint[Next][41]=LMS-period1-cor-composite
-Constraint[Next][42]=none
+Constraint[Next][42]=LMS-open-first
+Constraint[Next][43]=LMS-open-composite
+Constraint[Next][44]=LMS-cor-first
+Constraint[Next][45]=LMS-cor-composite
+Constraint[Next][46]=none
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -935,6 +980,10 @@ Constraint[Prev][38]=LNWR-57ft-cor-first
 Constraint[Prev][39]=LMS-period1-cor-open-first
 Constraint[Prev][40]=LMS-period1-cor-first
 Constraint[Prev][41]=LMS-period1-cor-composite
+Constraint[Prev][42]=LMS-open-first
+Constraint[Prev][43]=LMS-open-composite
+Constraint[Prev][44]=LMS-cor-first
+Constraint[Prev][45]=LMS-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1027,6 +1076,10 @@ Constraint[Next][38]=LNWR-57ft-cor-first
 Constraint[Next][39]=LMS-period1-cor-open-first
 Constraint[Next][40]=LMS-period1-cor-first
 Constraint[Next][41]=LMS-period1-cor-composite
+Constraint[Next][42]=LMS-open-first
+Constraint[Next][43]=LMS-open-composite
+Constraint[Next][44]=LMS-cor-first
+Constraint[Next][45]=LMS-cor-composite
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1070,6 +1123,10 @@ Constraint[Prev][38]=LNWR-57ft-cor-first
 Constraint[Prev][39]=LMS-period1-cor-open-first
 Constraint[Prev][40]=LMS-period1-cor-first
 Constraint[Prev][41]=LMS-period1-cor-composite
+Constraint[Prev][42]=LMS-open-first
+Constraint[Prev][43]=LMS-open-composite
+Constraint[Prev][44]=LMS-cor-first
+Constraint[Prev][45]=LMS-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
