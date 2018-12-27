@@ -13,6 +13,7 @@
 # update: 08-Mar-08
 # update: 10-Oct-08 by Fabio Gonella <fabio@gonella.eu>
 # Adapted April 2010 by James E. Petts for Pak128.Britain-Ex
+# Modified December 2018 by James E. Petts to improve balance with the new passenger generation system
 
 # how far cities should be minimum apart (default 16)
 # 80 tiles = 10km at 125m/tile
@@ -39,23 +40,24 @@ bridge_success_percentage = 35
 # relative affinities for certain building types which can lead to clustering of certain building types
 #
 
+# Note that the below scores are stored as signed 16 bit integers.
 # avoid building next to industry
-res_start_score = 0
+res_start_score = 575
 res_near_ind = -8
 res_near_com = 0
-res_near_res = 8
+res_near_res = 25
 
 # everywhere is good, next to com best
-com_start_score = -10
+com_start_score = -125
 com_near_ind = 1
-com_near_com = 8
-com_near_res = 1
+com_near_com = 6
+com_near_res = 0
 
 # next to res means expensive filters and no truck after 10 pm => avoid this ...
-ind_start_score = 0
+ind_start_score = -95
 ind_near_ind = 8
 ind_near_com = 0
-ind_near_res = -8
+ind_near_res = -12
 
 
 #

@@ -3241,33 +3241,47 @@ LNWR corridor dining car twin set (saloon)
 LNWR-45ft-cor-full-brake
 LNWR corridor full brake (45ft)
 LNWR-42ft-cor
-LNWR corridor carriage (42ft)
+LNWR corridor carriage (third class) (42ft)
+LNWR-42ft-cor-first
+LNWR corridor carriage (first class) (42ft)
+LNWR-42ft-cor-composite
+LNWR corridor composite carriage (first/second class) (42ft)
 LNWR-42ft-cor-brake-front
-LNWR corridor brake carriage (42ft)
+LNWR corridor brake carriage (third class) (42ft)
+LNWR-42ft-cor-brake-composite-front
+LNWR corridor composite brake carriage (first/third class) (42ft)
 LNWR-42ft-cor-brake-rear
-LNWR corridor brake carriage (42ft) (rear)
+LNWR corridor brake carriage (third class) (42ft) (rear)
+LNWR-42ft-cor-brake-composite-rear
+LNWR corridor composite brake carriage (first/third class) (42ft) (rear)
 LNWR-42ft-cor-mail
 LNWR corridor mail carriage (42ft)
 LNWR-42ft-cor-tpo
 LNWR corridor TPO (42ft)
 LNWR-50ft-cor
-LNWR corridor carriage (50ft)
+LNWR corridor carriage (third class) (50ft)
+LNWR-50ft-cor-first
+LNWR corridor carriage (first class) (50ft)
 LNWR-50ft-cor-brake
-LNWR corridor brake carriage (50ft)
+LNWR corridor brake composite carriage (first/second class) (50ft)
 LNWR-60ft-6in-diner
 LNWR twelve wheel clerestory dining car
 LNWR-60ft-6in-diner-non-clerestory
 LNWR twelve wheel dining car
 LNWR-57ft-cor
-LNWR corridor carriage (57ft)
+LNWR corridor carriage (third class) (57ft) 
+LNWR-57ft-cor-composite
+LNWR corridor composite carriage (first/second class) (57ft) 
+LNWR-57ft-cor-first
+LNWR corridor carriage (first class) (57ft) 
 LNWR-57ft-cor-brake-front
-LNWR corridor brake carriage (57ft)
+LNWR corridor brake carriage (third class) (57ft)
 LNWR-57ft-cor-brake-rear
-LNWR corridor brake carriage (57ft) (rear)
+LNWR corridor brake carriage (third class) (57ft) (rear)
 LNWR-57ft-cor-tpo
 LNWR corridor TPO (57ft)
 LNWR-57ft-cor-tea-car
-LNWR corridor tea car
+LNWR corridor tea car (third class)
 LNWR-50ft-cor-full-brake
 LNWR corridor full brake (50ft)
 LNWR-50ft-cor-mail
@@ -4491,23 +4505,31 @@ GWR Express Carriage (brake)
 GWR-Express-Coach
 GWR Express Carriage
 LMS-open
-LMS high capacity open carriage
+LMS high capacity open carriage (third class)
+LMS-open-first
+LMS high capacity open carriage (first class)
+LMS-open-composite
+LMS high capacity open composite carriage (first/third class)
 LMS-open-brake-front
-LMS open brake carriage
+LMS open brake carriage (third class)
 LMS-open-brake-rear
-LMS open brake carriage (rear)
+LMS open brake carriage (third class) (rear)
 LMS-full-brake
 LMS mail/brake carriage
 LMS-diner
-LMS dining car
+LMS dining car (first/third class)
 LMS-cor
-LMS corridor vestibule carriage
+LMS corridor vestibule carriage (third class)
+LMS-cor-first
+LMS corridor vestibule carriage (first class)
+LMS-cor-composite
+LMS corridor vestibule composite carriage (first/third class)
 LMS-cor-brake-front
-LMS corridor vestibule brake carriage
+LMS corridor vestibule brake carriage (third class)
 LMS-cor-brake-rear
-LMS corridor vestibule brake carriage (rear)
+LMS corridor vestibule brake carriage (third class) (rear)
 LMS-buffet
-LMS buffet car
+LMS buffet car (third class)
 LMS-full-brake
 LMS mail/brake carriage
 LMS-Mail
@@ -4515,13 +4537,19 @@ LMS mail carriage
 LMS-TPO
 LMS TPO
 LMS-period1-cor
-LMS corridor carriage
+LMS corridor carriage (third class)
+LMS-period1-cor-first
+LMS corridor carriage (first class)
+LMS-period1-cor-composite
+LMS corridor composite carriage (first/third class)
 LMS-period1-cor-brake-front
-LMS corridor brake carriage
+LMS corridor brake carriage (third class)
 LMS-period1-cor-brake-rear
-LMS corridor brake carriage (rear)
+LMS corridor brake carriage (third class) (rear)
 LMS-period1-cor-open
-LMS open carriage
+LMS open carriage (third class)
+LMS-period1-cor-open-first
+LMS open carriage (first class)
 LMS-period1-cor-open-brake-front
 LMS open brake carriage
 LMS-period1-cor-open-brake-rear
@@ -4723,11 +4751,13 @@ LSWR six wheel fruit brake carriage
 lswr-30ft-full-brake-6-wheel-elliptical
 LSWR six wheel mail/brake carriage
 lswr-6-wheel-28ft-brake-front
-LSWR six wheel three compartment brake carriage
+LSWR six wheel three compartment brake carriage (third class)
 lswr-6-wheel-28ft-brake-rear
-LSWR six wheel three compartment brake carriage (rear)
+LSWR six wheel three compartment brake carriage (third class) (rear)
 lswr-6-wheel-28ft
-LSWR six wheel five compartment carriage
+LSWR six wheel five compartment carriage (third class)
+lswr-6-wheel-28ft-composite
+LSWR six wheel five compartment composite carriage (first/second class)
 lswr-6-wheel-30ft-lantern-roof-brake
 LSWR six wheel mail/brake carriage
 lswr-6-wheel-30ft-brake-front
