@@ -101,6 +101,8 @@ Constraint[Next][53]=LNWR-42ft-non-cor-non-lav-composite
 Constraint[Next][54]=LNWR-6Wheel-lav-tricomposite
 Constraint[Next][55]=LNWR-6Wheel-brake-composite
 Constraint[Next][56]=LNWR-45ft-non-cor-lav-tricomposite
+Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
+Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -159,6 +161,8 @@ Constraint[Prev][53]=LNWR-42ft-non-cor-non-lav-composite
 Constraint[Prev][54]=LNWR-6Wheel-lav-tricomposite
 Constraint[Prev][55]=LNWR-6Wheel-brake-composite
 Constraint[Prev][56]=LNWR-45ft-non-cor-lav-tricomposite
+Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
+Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 
 EmptyImage[E]=./images/lnwr-6wheel-radial-third_E.0.0
 EmptyImage[SE]=./images/lnwr-6wheel-radial-third_SE.0.0
@@ -204,6 +208,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=17
 max_loading_time=47
+
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -262,6 +267,8 @@ Constraint[Next][53]=LNWR-42ft-non-cor-non-lav-composite
 Constraint[Next][54]=LNWR-6Wheel-lav-tricomposite
 Constraint[Next][55]=LNWR-6Wheel-brake-composite
 Constraint[Next][56]=LNWR-45ft-non-cor-lav-tricomposite
+Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
+Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -320,6 +327,8 @@ Constraint[Prev][53]=LNWR-42ft-non-cor-non-lav-composite
 Constraint[Prev][54]=LNWR-6Wheel-lav-tricomposite
 Constraint[Prev][55]=LNWR-6Wheel-brake-composite
 Constraint[Prev][56]=LNWR-45ft-non-cor-lav-tricomposite
+Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
+Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 
 EmptyImage[E]=./images/lnwr-6wheel-radial-first_E.0.0
 EmptyImage[SE]=./images/lnwr-6wheel-radial-first_SE.0.0
@@ -368,6 +377,7 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
+
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
 Constraint[Next][2]=4-wheel-1870s-mail-fitted
@@ -425,6 +435,8 @@ Constraint[Next][53]=LNWR-42ft-non-cor-non-lav-composite
 Constraint[Next][54]=LNWR-6Wheel-lav-tricomposite
 Constraint[Next][55]=LNWR-6Wheel-brake-composite
 Constraint[Next][56]=LNWR-45ft-non-cor-lav-tricomposite
+Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
+Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -483,6 +495,8 @@ Constraint[Prev][53]=LNWR-42ft-non-cor-non-lav-composite
 Constraint[Prev][54]=LNWR-6Wheel-lav-tricomposite
 Constraint[Prev][55]=LNWR-6Wheel-brake-composite
 Constraint[Prev][56]=LNWR-45ft-non-cor-lav-tricomposite
+Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
+Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 
 EmptyImage[E]=./images/lnwr-6wheel-radial-tricomposite_E.0.0
 EmptyImage[SE]=./images/lnwr-6wheel-radial-tricomposite_SE.0.0
@@ -659,6 +673,8 @@ Constraint[Next][53]=LNWR-42ft-non-cor-non-lav-composite
 Constraint[Next][54]=LNWR-6Wheel-lav-tricomposite
 Constraint[Next][55]=LNWR-6Wheel-brake-composite
 Constraint[Next][56]=LNWR-45ft-non-cor-lav-tricomposite
+Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
+Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -717,6 +733,8 @@ Constraint[Prev][53]=LNWR-42ft-non-cor-non-lav-composite
 Constraint[Prev][54]=LNWR-6Wheel-lav-tricomposite
 Constraint[Prev][55]=LNWR-6Wheel-brake-composite
 Constraint[Prev][56]=LNWR-45ft-non-cor-lav-tricomposite
+Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
+Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 
 EmptyImage[E]=./images/lnwr-6wheel-radial-mail_E.0.0
 EmptyImage[SE]=./images/lnwr-6wheel-radial-mail_SE.0.0
@@ -813,6 +831,8 @@ Constraint[Next][53]=LNWR-42ft-non-cor-non-lav-composite
 Constraint[Next][54]=LNWR-6Wheel-lav-tricomposite
 Constraint[Next][55]=LNWR-6Wheel-brake-composite
 Constraint[Next][56]=LNWR-45ft-non-cor-lav-tricomposite
+Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
+Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -871,6 +891,8 @@ Constraint[Prev][53]=LNWR-42ft-non-cor-non-lav-composite
 Constraint[Prev][54]=LNWR-6Wheel-lav-tricomposite
 Constraint[Prev][55]=LNWR-6Wheel-brake-composite
 Constraint[Prev][56]=LNWR-45ft-non-cor-lav-tricomposite
+Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
+Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 
 EmptyImage[E]=./images/lnwr-6wheel-radial-tpo_E.0.0
 EmptyImage[SE]=./images/lnwr-6wheel-radial-tpo_SE.0.0
