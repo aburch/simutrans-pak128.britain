@@ -4418,14 +4418,18 @@ LNER-Coronation-RearBrake-Third-Twin(rear)
 LNER "Coronation" carriage (rear brake twin)
 LNER-Coronation-Observation
 LNER "Coronation" observation car
-LMS-Coronation-BFK(Maroon)
-LMS "Coronation Scot" carriage (front brake)
-LMS-Coronation-BTK(Maroon)
-LMS "Coronation Scot" carriage (rear brake)
-LMS-Coronation-FK(Maroon)
-LMS "Coronation Scot" dining carriage
-LMS-Coronation-TO(Maroon)
-LMS "Coronation Scot" carriage 
+lms-coronation-bfk
+LMS "Coronation Scot" corridor brake carriage (third class)
+lms-coronation-btk
+LMS "Coronation Scot" corridor brake carriage (first class) (rear)
+lms-coronation-fk
+LMS "Coronation Scot" corridor carriage (first class)
+lms-coronation-to
+LMS "Coronation Scot" open vestibule carriage (third class)
+lms-coronation-kitchen
+LMS "Coronation Scot" kitchen car
+lms-coronation-fo
+LMS "Coronation Scot" dining car (first class)
 MR-Clerestory-Brake
 Midland clerestory carriage (brake)
 MR-Clerestory-Coach
@@ -9164,6 +9168,8 @@ London-&-Birmingham
 London & Birmingham
 Stockton-Darlington
 Stockton & Darlington
+LMS-Coronation-Scot
+LMS Coronation Scot
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]
