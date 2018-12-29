@@ -1,5 +1,5 @@
-# D339 - see Jenkinson (LNWR) p. 110
-# This has four compartments.
+# D337 - see Jenkinson (LNWR) p. 110
+# This has five compartments.
 
 obj=vehicle
 name=LNWR-50ft-non-cor-eliptical-brake-front
@@ -7,18 +7,21 @@ speed=160
 copyright=jamespetts
 intro_year=1907
 intro_month=8
-retire_year=1909
-retire_month=11
+# Actual production stopped in 1909, but
+# replacements not available until 1913/1916
+retire_year=1917
+retire_month=3
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=48
+payload[1]=60
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=24
+overcrowded_capacity=30
 length=9
 
-weight=27
+# See Jenkinson (LNWR) p. 176
+weight=26.4
 axles=4
 cost=560000
 runningcost=0
@@ -89,7 +92,11 @@ Constraint[Next][51]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][52]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][53]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][54]=LNWR-50ft-non-cor-eliptical-composite-first-third
-Constraint[Next][55]=none
+Constraint[Next][55]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][56]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][57]=LNWR-57ft-non-cor-first
+Constraint[Next][58]=LNWR-57ft-non-cor-composite
+Constraint[Next][59]=none
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -130,18 +137,21 @@ speed=160
 copyright=jamespetts
 intro_year=1907
 intro_month=8
-retire_year=1909
-retire_month=11
+# Actual production stopped in 1909, but
+# replacements not available until 1913/1916
+retire_year=1917
+retire_month=3
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=48
+payload[1]=60
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=24
+overcrowded_capacity=30
 length=9
 
-weight=27
+# See Jenkinson (LNWR) p. 176
+weight=26.4
 axles=4
 cost=560000
 runningcost=0
@@ -212,6 +222,10 @@ Constraint[Prev][51]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][52]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][53]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][54]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][55]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][56]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][57]=LNWR-57ft-non-cor-first
+Constraint[Prev][58]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -246,15 +260,17 @@ EmptyImage[NE][2]=./images/lnwr-50ft-non-cor-eliptical-brake-rear-br_NE.0.0
 
 ----
 # Third
-# D284 - see Jenkinson p. 110
+# D284 - see Jenkinson (LNWR) p. 110
 obj=vehicle
 name=LNWR-50ft-non-cor-eliptical
 speed=160
 copyright=jamespetts
 intro_year=1907
 intro_month=8
-retire_year=1909
-retire_month=11
+# Actual production stopped in 1909, but
+#  replacements not available until 1913/1916
+retire_year=1917
+retire_month=3
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -264,7 +280,8 @@ payload[3]=0
 overcrowded_capacity=48
 length=9
 
-weight=27
+# See Jenkinson (LNWR) p. 176
+weight=26.9
 axles=4
 cost=560000
 runningcost=0
@@ -335,6 +352,10 @@ Constraint[Next][51]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][52]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][53]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][54]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Next][55]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][56]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][57]=LNWR-57ft-non-cor-first
+Constraint[Next][58]=LNWR-57ft-non-cor-composite
 
 Constraint[Prev][0]=LNWR-6Wheel-non-lav
 Constraint[Prev][1]=LNWR-6Wheel-Mail
@@ -391,6 +412,10 @@ Constraint[Prev][51]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][52]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][53]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][54]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][55]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][56]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][57]=LNWR-57ft-non-cor-first
+Constraint[Prev][58]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -432,8 +457,11 @@ speed=160
 copyright=jamespetts
 intro_year=1907
 intro_month=8
-retire_year=1909
-retire_month=11
+# Actual production stopped in 1909, but
+# replacements not available until 1913/1916;
+# however, second class abolished on the LNWR in 1912.
+retire_year=1912
+retire_month=4
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -443,7 +471,8 @@ payload[3]=32
 overcrowded_capacity=18
 length=9
 
-weight=27
+# See Jenkinson (LNWR) p. 175
+weight=27.4
 axles=4
 cost=565000
 runningcost=0
@@ -514,6 +543,10 @@ Constraint[Next][51]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][52]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][53]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][54]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Next][55]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][56]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][57]=LNWR-57ft-non-cor-first
+Constraint[Next][58]=LNWR-57ft-non-cor-composite
 
 Constraint[Prev][0]=LNWR-6Wheel-non-lav
 Constraint[Prev][1]=LNWR-6Wheel-Mail
@@ -570,6 +603,10 @@ Constraint[Prev][51]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][52]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][53]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][54]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][55]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][56]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][57]=LNWR-57ft-non-cor-first
+Constraint[Prev][58]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -611,8 +648,10 @@ speed=160
 copyright=jamespetts
 intro_year=1907
 intro_month=8
-retire_year=1909
-retire_month=11
+# Actual production stopped in 1909, but
+# replacements not available until 1913/1916
+retire_year=1917
+retire_month=3
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -622,7 +661,8 @@ payload[3]=32
 overcrowded_capacity=18
 length=9
 
-weight=27
+# See Jenkinson (LNWR) p. 175
+weight=27.4
 axles=4
 cost=563000
 runningcost=0
@@ -693,6 +733,10 @@ Constraint[Next][51]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][52]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][53]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][54]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Next][55]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][56]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][57]=LNWR-57ft-non-cor-first
+Constraint[Next][58]=LNWR-57ft-non-cor-composite
 
 Constraint[Prev][0]=LNWR-6Wheel-non-lav
 Constraint[Prev][1]=LNWR-6Wheel-Mail
@@ -749,6 +793,10 @@ Constraint[Prev][51]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][52]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][53]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][54]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][55]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][56]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][57]=LNWR-57ft-non-cor-first
+Constraint[Prev][58]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard

@@ -35,7 +35,6 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
 Constraint[Next][2]=4-wheel-1870s-mail-fitted
@@ -97,7 +96,11 @@ Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
-Constraint[Next][61]=none
+Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][63]=LNWR-57ft-non-cor-first
+Constraint[Next][64]=LNWR-57ft-non-cor-composite
+Constraint[Next][65]=none
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -157,7 +160,6 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
 Constraint[Next][2]=4-wheel-1870s-mail-fitted
@@ -219,7 +221,11 @@ Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
-Constraint[Next][61]=none
+Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][63]=LNWR-57ft-non-cor-first
+Constraint[Next][64]=LNWR-57ft-non-cor-composite
+Constraint[Next][65]=none
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -279,7 +285,6 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
 Constraint[Next][2]=4-wheel-1870s-mail-fitted
@@ -341,6 +346,10 @@ Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][63]=LNWR-57ft-non-cor-first
+Constraint[Next][64]=LNWR-57ft-non-cor-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -403,6 +412,10 @@ Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][63]=LNWR-57ft-non-cor-first
+Constraint[Prev][64]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -462,7 +475,6 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
 Constraint[Next][2]=4-wheel-1870s-mail-fitted
@@ -524,6 +536,10 @@ Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][63]=LNWR-57ft-non-cor-first
+Constraint[Next][64]=LNWR-57ft-non-cor-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -586,6 +602,10 @@ Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][63]=LNWR-57ft-non-cor-first
+Constraint[Prev][64]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -647,7 +667,6 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
 Constraint[Next][2]=4-wheel-1870s-mail-fitted
@@ -709,6 +728,10 @@ Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][63]=LNWR-57ft-non-cor-first
+Constraint[Next][64]=LNWR-57ft-non-cor-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -771,6 +794,10 @@ Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][63]=LNWR-57ft-non-cor-first
+Constraint[Prev][64]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -829,7 +856,6 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
 Constraint[Next][2]=4-wheel-1870s-mail-fitted
@@ -891,6 +917,10 @@ Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][63]=LNWR-57ft-non-cor-first
+Constraint[Next][64]=LNWR-57ft-non-cor-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -953,6 +983,10 @@ Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][63]=LNWR-57ft-non-cor-first
+Constraint[Prev][64]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1014,7 +1048,6 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
 Constraint[Next][2]=4-wheel-1870s-mail-fitted
@@ -1076,6 +1109,10 @@ Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][63]=LNWR-57ft-non-cor-first
+Constraint[Next][64]=LNWR-57ft-non-cor-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -1138,6 +1175,10 @@ Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][63]=LNWR-57ft-non-cor-first
+Constraint[Prev][64]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1199,7 +1240,6 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
 Constraint[Next][2]=4-wheel-1870s-mail-fitted
@@ -1261,6 +1301,10 @@ Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][63]=LNWR-57ft-non-cor-first
+Constraint[Next][64]=LNWR-57ft-non-cor-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -1323,6 +1367,10 @@ Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][63]=LNWR-57ft-non-cor-first
+Constraint[Prev][64]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1444,6 +1492,10 @@ Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][63]=LNWR-57ft-non-cor-first
+Constraint[Prev][64]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1673,6 +1725,10 @@ Constraint[Next][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Next][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Next][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Next][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Next][63]=LNWR-57ft-non-cor-first
+Constraint[Next][64]=LNWR-57ft-non-cor-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -1735,6 +1791,10 @@ Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
+Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
+Constraint[Prev][63]=LNWR-57ft-non-cor-first
+Constraint[Prev][64]=LNWR-57ft-non-cor-composite
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
