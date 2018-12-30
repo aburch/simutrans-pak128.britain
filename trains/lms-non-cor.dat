@@ -661,10 +661,10 @@ retire_month=10
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=108
+payload[1]=72
 payload[2]=0
-payload[3]=0
-overcrowded_capacity=54
+payload[3]=24
+overcrowded_capacity=36
 length=10
 
 weight=27
