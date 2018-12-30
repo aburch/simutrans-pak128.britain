@@ -100,7 +100,10 @@ Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Next][63]=LNWR-57ft-non-cor-first
 Constraint[Next][64]=LNWR-57ft-non-cor-composite
-Constraint[Next][65]=none
+Constraint[Next][65]=LMS-non-cor-lav-first
+Constraint[Next][66]=LMS-non-cor-non-lav-composite
+Constraint[Next][67]=LMS-non-cor-non-lav-first
+Constraint[Next][68]=none
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -225,7 +228,10 @@ Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Next][63]=LNWR-57ft-non-cor-first
 Constraint[Next][64]=LNWR-57ft-non-cor-composite
-Constraint[Next][65]=none
+Constraint[Next][65]=LMS-non-cor-lav-first
+Constraint[Next][66]=LMS-non-cor-non-lav-composite
+Constraint[Next][67]=LMS-non-cor-non-lav-first
+Constraint[Next][68]=none
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -350,6 +356,9 @@ Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Next][63]=LNWR-57ft-non-cor-first
 Constraint[Next][64]=LNWR-57ft-non-cor-composite
+Constraint[Next][65]=LMS-non-cor-lav-first
+Constraint[Next][66]=LMS-non-cor-non-lav-composite
+Constraint[Next][67]=LMS-non-cor-non-lav-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -416,6 +425,9 @@ Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Prev][63]=LNWR-57ft-non-cor-first
 Constraint[Prev][64]=LNWR-57ft-non-cor-composite
+Constraint[Prev][65]=LMS-non-cor-lav-first
+Constraint[Prev][66]=LMS-non-cor-non-lav-composite
+Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -540,6 +552,9 @@ Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Next][63]=LNWR-57ft-non-cor-first
 Constraint[Next][64]=LNWR-57ft-non-cor-composite
+Constraint[Next][65]=LMS-non-cor-lav-first
+Constraint[Next][66]=LMS-non-cor-non-lav-composite
+Constraint[Next][67]=LMS-non-cor-non-lav-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -606,6 +621,9 @@ Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Prev][63]=LNWR-57ft-non-cor-first
 Constraint[Prev][64]=LNWR-57ft-non-cor-composite
+Constraint[Prev][65]=LMS-non-cor-lav-first
+Constraint[Prev][66]=LMS-non-cor-non-lav-composite
+Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -732,6 +750,9 @@ Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Next][63]=LNWR-57ft-non-cor-first
 Constraint[Next][64]=LNWR-57ft-non-cor-composite
+Constraint[Next][65]=LMS-non-cor-lav-first
+Constraint[Next][66]=LMS-non-cor-non-lav-composite
+Constraint[Next][67]=LMS-non-cor-non-lav-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -798,6 +819,9 @@ Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Prev][63]=LNWR-57ft-non-cor-first
 Constraint[Prev][64]=LNWR-57ft-non-cor-composite
+Constraint[Prev][65]=LMS-non-cor-lav-first
+Constraint[Prev][66]=LMS-non-cor-non-lav-composite
+Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -819,6 +843,7 @@ EmptyImage[W][1]=./images/lnwr-42ft-non-cor-lav-tricomposite-lms_W.0.0
 EmptyImage[NW][1]=./images/lnwr-42ft-non-cor-lav-tricomposite-lms_NW.0.0
 EmptyImage[N][1]=./images/lnwr-42ft-non-cor-lav-tricomposite-lms_N.0.0
 EmptyImage[NE][1]=./images/lnwr-42ft-non-cor-lav-tricomposite-lms_NE.0.0
+
 ----
 # D292 - see Jenkinson (LNWR) p. 110
 
@@ -921,6 +946,9 @@ Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Next][63]=LNWR-57ft-non-cor-first
 Constraint[Next][64]=LNWR-57ft-non-cor-composite
+Constraint[Next][65]=LMS-non-cor-lav-first
+Constraint[Next][66]=LMS-non-cor-non-lav-composite
+Constraint[Next][67]=LMS-non-cor-non-lav-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -987,6 +1015,9 @@ Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Prev][63]=LNWR-57ft-non-cor-first
 Constraint[Prev][64]=LNWR-57ft-non-cor-composite
+Constraint[Prev][65]=LMS-non-cor-lav-first
+Constraint[Prev][66]=LMS-non-cor-non-lav-composite
+Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1113,6 +1144,9 @@ Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Next][63]=LNWR-57ft-non-cor-first
 Constraint[Next][64]=LNWR-57ft-non-cor-composite
+Constraint[Next][65]=LMS-non-cor-lav-first
+Constraint[Next][66]=LMS-non-cor-non-lav-composite
+Constraint[Next][67]=LMS-non-cor-non-lav-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -1179,6 +1213,9 @@ Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Prev][63]=LNWR-57ft-non-cor-first
 Constraint[Prev][64]=LNWR-57ft-non-cor-composite
+Constraint[Prev][65]=LMS-non-cor-lav-first
+Constraint[Prev][66]=LMS-non-cor-non-lav-composite
+Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1305,6 +1342,9 @@ Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Next][63]=LNWR-57ft-non-cor-first
 Constraint[Next][64]=LNWR-57ft-non-cor-composite
+Constraint[Next][65]=LMS-non-cor-lav-first
+Constraint[Next][66]=LMS-non-cor-non-lav-composite
+Constraint[Next][67]=LMS-non-cor-non-lav-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -1371,6 +1411,9 @@ Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Prev][63]=LNWR-57ft-non-cor-first
 Constraint[Prev][64]=LNWR-57ft-non-cor-composite
+Constraint[Prev][65]=LMS-non-cor-lav-first
+Constraint[Prev][66]=LMS-non-cor-non-lav-composite
+Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1496,6 +1539,9 @@ Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Prev][63]=LNWR-57ft-non-cor-first
 Constraint[Prev][64]=LNWR-57ft-non-cor-composite
+Constraint[Prev][65]=LMS-non-cor-lav-first
+Constraint[Prev][66]=LMS-non-cor-non-lav-composite
+Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1616,6 +1662,9 @@ Constraint[Prev][57]=LNWR-50ft-non-cor-arc-composite
 Constraint[Prev][58]=LNWR-50ft-non-cor-arc-first
 Constraint[Prev][59]=LNWR-50ft-non-cor-eliptical-composite-first-second
 Constraint[Prev][60]=LNWR-50ft-non-cor-eliptical-composite-first-third
+Constraint[Prev][65]=LMS-non-cor-lav-first
+Constraint[Prev][66]=LMS-non-cor-non-lav-composite
+Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1729,6 +1778,9 @@ Constraint[Next][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Next][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Next][63]=LNWR-57ft-non-cor-first
 Constraint[Next][64]=LNWR-57ft-non-cor-composite
+Constraint[Next][65]=LMS-non-cor-lav-first
+Constraint[Next][66]=LMS-non-cor-non-lav-composite
+Constraint[Next][67]=LMS-non-cor-non-lav-first
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -1795,6 +1847,9 @@ Constraint[Prev][61]=LNWR-54ft-non-cor-lav-third
 Constraint[Prev][62]=LNWR-54ft-non-cor-lav-composite
 Constraint[Prev][63]=LNWR-57ft-non-cor-first
 Constraint[Prev][64]=LNWR-57ft-non-cor-composite
+Constraint[Prev][65]=LMS-non-cor-lav-first
+Constraint[Prev][66]=LMS-non-cor-non-lav-composite
+Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
@@ -1837,7 +1892,6 @@ axles=4
 cost=390000
 runningcost=0
 fixed_cost=464
-
 
 can_lead_from_rear=0
 bidirectional=1

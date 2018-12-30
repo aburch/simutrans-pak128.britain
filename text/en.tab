@@ -4567,17 +4567,23 @@ LMS mail/brake carriage
 LMS-period1-cor-diner
 LMS dining car
 LMS-non-cor-lav
-LMS eight compartment lavatory carriage
+LMS eight compartment lavatory composite carriage (first/third class)
+LMS-non-cor-lav-first
+LMS seven compartment lavatory carriage (first class)
 LMS-non-cor-non-lav
-LMS nine compartment carriage
+LMS nine compartment carriage (third class)
+LMS-non-cor-non-lav-composite
+LMS nine compartment composite carriage (first/third class)
+LMS-non-cor-non-lav-first
+LMS eight compartment carriage (first class)
 LMS-non-cor-brake-front
-LMS six compartment brake carriage
+LMS six compartment brake carriage (third class)
 LMS-non-cor-brake-rear
-LMS six compartment brake carriage (rear)
+LMS six compartment brake carriage (third class) (rear)
 LMS-non-cor-brake-lav-front
-LMS five compartment lavatory brake carriage
+LMS five compartment lavatory brake carriage (third class)
 LMS-non-cor-brake-lav-rear
-LMS five compartment lavatory brake carriage (rear)
+LMS five compartment lavatory brake carriage (third class) (rear)
 LMS-push-pull-brake
 LMS push-pull set (driving trailer)
 LMS-push-pull-centre-1

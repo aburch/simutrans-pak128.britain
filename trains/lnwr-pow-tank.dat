@@ -11,7 +11,8 @@ tractive_effort=102
 copyright=James
 intro_year=1910
 intro_month=4
-retire_year=1916
+# Should be 1916, but are no replacements
+retire_year=1930
 retire_month=8
 waytype=track
 freight=None
@@ -19,7 +20,7 @@ payload=0
 length=7
 
 # http://www.lnwrs.org.uk/PassLocos/PassLoco.php?loco=15a
-weight=77
+weight=78.2
 axle_load=16
 cost=9800000
 runningcost=123
