@@ -42,7 +42,7 @@
 2center
 %s Central %s
 2outer
-%s City %s
+%s Bridge %s
 2suburb
 %s Fields %s
 2extern
@@ -56,11 +56,11 @@
 3extern
 %s Fields %s
 4center
-%s Exchange %s
+%s City %s
 4outer
 %s Street %s
 4suburb
-%s Copse %s
+%s Hill %s
 4extern
 %s Heights %s
 5center
@@ -74,33 +74,21 @@
 6extern
 %s Woods %s
 6suburb
-%s Hill %s
+%s Lane %s
 6outer
-%s New Town %s
+%s Green %s
 6center
 %s High Street %s
 7extern
 %s Brook %s
-7outer
-%s Green %s
 7center
 %s Piccadilly %s
-7suburb
-%s Lane %s
 8extern
 %s Meadow %s
-8outer
-%s Bridge %s
-8suburb
-%s Ponds %s
 8center
 %s Square %s
 9extern
 %s Stream %s
-9suburb
-%s Bankside %s
-9outer
-%s Gardens %s
 Aextern
 %s County %s
 Bextern
@@ -121,8 +109,12 @@ Iextern
 %s Grove %s
 Jextern
 %s Barns %s
+Kextern
+%s Ponds %s
+Lextern
+%s Bankside %s
 %s city %d %s
-%s City %d %s
+%s Town %d %s
 %s land %d %s
 %s County %d %s
 %s factory %s %s
@@ -2487,39 +2479,61 @@ Tanker wagon
 FR-Goods-Brake
 FR brake van
 FR-Superbarn
-WHR "Super barn" carriage
+WHR "Super Saloon" (third class)
 FR-Superbarn-service-coach
-WHR "Super barn" service carriage
+WHR service carriage
 FR-Barn
-FR "Barn" carriage
+FR "Centenary" composite carriage (first/third class)
 FR-Barn-Mail
-FR "Barn" mail carriage
+FR "Centenary" mail carriage
 FR-Barn-Buffet
-FR "Barn" buffet carriage
+FR "Centenary" buffet carriage (third class)
 FR-Barn-Brake
-FR "Barn" brake carriage
+FR "Centenary" brake carriage (third class)
 FR-Small-Birmingham-unfitted
-FR "Small Birmingham" knifeboard carriage
+FR "Small Birmingham" knifeboard carriage (third class)
 FR-Small-Birmingham-fitted
-FR "Small Birmingham" knifeboard carriage (continuously braked)
+FR "Small Birmingham" knifeboard carriage (third class) (continuously braked)
+FR-Small-Birmingham-second-unfitted
+FR "Small Birmingham" knifeboard carriage (second class)
+FR-Small-Birmingham-second-fitted
+FR "Small Birmingham" knifeboard carriage (second class) (continuously braked)
+FR-Small-Birmingham-first-unfitted
+FR "Small Birmingham" knifeboard carriage (first class)
+FR-Small-Birmingham-second-fitted
+FR "Small Birmingham" knifeboard carriage (first class) (continuously braked)
 FR-Ashbury-unfitted
-FR two compartment carriage
+FR two compartment carriage (third class)
 FR-Ashbury-fitted
-FR two compartment carriage (continuously braked)
+FR two compartment carriage (third class) (continuously braked)
+FR-Ashbury-first-unfitted
+FR two compartment carriage (first class)
+FR-Ashbury-first-fitted
+FR two compartment carriage (first class) (continuously braked)
 FR-bogie-unfitted
-FR seven compartment bogie carriage
+FR seven compartment bogie tricomposite carriage (first/second/third class)
 FR-bogie-fitted
-FR seven compartment bogie carriage (continuously braked)
+FR seven compartment bogie tricomposite carriage (first/second/third class) (continuously braked)
+fr-sentry-brake
+FR sentry brake van
 FR-bogie-van-unfitted
 FR bogie van
 FR-bogie-van-fitted
 FR bogie van (continuously braked)
 WHR-open
-NWNG open carriage
+NWNG open carriage (third class)
+WHR-composite
+NWNG open composite carriage (first/third class)
 WHR-buffet
-NWNG buffet carriage
+NWNG buffet carriage (third class)
 WHR-brake
 NWNG brake carriage
+quarrymens-carriage-open
+Open workers' carriage
+quarrymens-carriage-enclosed
+Semi-enclosed workers' carriage
+quarrymens-carriage-glazed
+Glazed workers' carriage
 George-England
 FR "George England" 0-4-0
 George-England-tender
@@ -2534,17 +2548,25 @@ SingleFairlie-superheated
 FR Single Fairlie 0-4-4T (superheated)
 Hunslet-Alice
 Hunslet "Alice" Class 0-4-0T
-Garratt-K1-front
+hunslet-quarry
+Hunslet Quarry Class 0-4-0T
+hunslet-port
+Hunslet "Port" Class 0-4-0T
+Hunslet-large-quarry
+Hunslet "Large Quarry" Class 0-4-0T
+hunslet-lilla
+Hunslet "Lilla" Class 0-4-0T
+Garrett-K1-front
 Garratt K1 Class 0-4-0+0-4-0
-Garratt-K1-middle
+Garrett-K1-middle
 Garratt K1 Class 0-4-0+0-4-0 (centre section)
-Garratt-K1-rear
+Garrett-K1-rear
 Garratt K1 Class 0-4-0+0-4-0 (rear section)
-Garratt-NGG16-front
+Garrett-NGG16-front
 Garratt NG G16 Class 2-6-2+2-6-2
-Garratt-NGG16-middle
+Garrett-NGG16-middle
 Garratt NG G16 Class 2-6-2+2-6-2 (centre section)
-Garratt-NGG16-rear
+Garrett-NGG16-rear
 Garratt NG G16 Class 2-6-2+2-6-2 (rear section)
 Hibberd-Planet
 Hibberd Planet Class 4wDM
