@@ -2490,3 +2490,25 @@ retire_month[99] = 9
 livery[99][0] = LMS-Blue
 intro_year[99][0] = 1937
 intro_month[99][0] = 6
+
+# See "Britain's Railway Liveries"
+# Note 1: During the "Ivory-Umber" phase, Metropolitan and SE&CR carriages were painted lake
+# Note 2: During the second world war, Pullman carriages were painted all over umber
+# Note 3: For BR blue coloured Pullman cars (e.g. the Blue Pullmans and the mk. 1 Pullmans),
+# use the BR livery scheme.
+# by Earnest F. Carter p. 281
+livery_scheme[100] = Pullman
+retire_year[100] = 2500
+retire_month[100] = 12
+livery[100][0] = Pullman-Mahogany
+intro_year[100][0] = 1874
+intro_month[100][0] = 1
+livery[100][1] = Pullman-Bronze-Green
+intro_year[100][1] = 1890
+intro_month[100][1] = 6
+livery[100][2] = Pullman-Ivory-Umber
+intro_year[100][2] = 1906
+intro_month[100][2] = 4
+livery[100][3] = Pullman-Cream-Umber
+intro_year[100][3] = 1929
+intro_month[100][3] = 7
