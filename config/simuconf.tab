@@ -2512,3 +2512,10 @@ intro_month[100][2] = 4
 livery[100][3] = Pullman-Cream-Umber
 intro_year[100][3] = 1929
 intro_month[100][3] = 7
+
+livery_scheme[101] = L&BR
+retire_year[101] = 1923
+retire_month[101] = 1
+livery[100][0] = L&BR-Standard
+intro_year[101][0] = 1898
+intro_month[101][0] = 1
