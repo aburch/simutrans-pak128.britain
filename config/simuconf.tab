@@ -2513,9 +2513,13 @@ livery[100][3] = Pullman-Cream-Umber
 intro_year[100][3] = 1929
 intro_month[100][3] = 7
 
+# Lynton & Barnstaple
+# See Carter p. 235 (albeit there is not much information)
+# Locomotives are described as "dark emerald green" with orange lining
+# See also: http://www.009.cd2.com/lynton_and_barnstaple_modelling/liveries.htm
 livery_scheme[101] = L&BR
 retire_year[101] = 1923
 retire_month[101] = 1
 livery[100][0] = L&BR-Standard
 intro_year[101][0] = 1898
-intro_month[101][0] = 1
+intro_month[101][0] = 5
