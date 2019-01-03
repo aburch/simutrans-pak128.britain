@@ -44,7 +44,8 @@ Constraint[Next][6]=ltsr-46ft-bogie-dia18
 Constraint[Next][7]=ltsr-46ft-bogie-lav
 Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Next][9]=ltsr-4wheel-first-dia1
-Constraint[Next][10]=none
+Constraint[Next][10]=ltsr-6wheel-dia4
+Constraint[Next][11]=none
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
@@ -124,6 +125,7 @@ Constraint[Next][6]=ltsr-46ft-bogie-dia18
 Constraint[Next][7]=ltsr-46ft-bogie-lav
 Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Next][9]=ltsr-4wheel-first-dia1
+Constraint[Next][10]=ltsr-6wheel-dia4
 
 Constraint[Prev][0]=ltsr-4wheel-brake-dia21
 Constraint[Prev][1]=ltsr-4wheel-dia12
@@ -135,6 +137,7 @@ Constraint[Prev][6]=ltsr-46ft-bogie-dia18
 Constraint[Prev][7]=ltsr-46ft-bogie-lav
 Constraint[Prev][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Prev][9]=ltsr-4wheel-first-dia1
+Constraint[Prev][10]=ltsr-6wheel-dia4
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
@@ -214,6 +217,7 @@ Constraint[Next][6]=ltsr-46ft-bogie-dia18
 Constraint[Next][7]=ltsr-46ft-bogie-lav
 Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Next][9]=ltsr-4wheel-first-dia1
+Constraint[Next][10]=ltsr-6wheel-dia4
 
 Constraint[Prev][0]=ltsr-4wheel-brake-dia21
 Constraint[Prev][1]=ltsr-4wheel-dia12
@@ -225,6 +229,7 @@ Constraint[Prev][6]=ltsr-46ft-bogie-dia18
 Constraint[Prev][7]=ltsr-46ft-bogie-lav
 Constraint[Prev][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Prev][9]=ltsr-4wheel-first-dia1
+Constraint[Prev][10]=ltsr-6wheel-dia4
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
@@ -296,7 +301,8 @@ Constraint[Next][6]=ltsr-46ft-bogie-dia18
 Constraint[Next][7]=ltsr-46ft-bogie-lav
 Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Next][9]=ltsr-4wheel-first-dia1
-Constraint[Next][10]=none
+Constraint[Next][10]=ltsr-6wheel-dia4
+Constraint[Next][11]=none
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
@@ -368,6 +374,7 @@ Constraint[Next][6]=ltsr-46ft-bogie-dia18
 Constraint[Next][7]=ltsr-46ft-bogie-lav
 Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Next][9]=ltsr-4wheel-first-dia1
+Constraint[Next][10]=ltsr-6wheel-dia4
 
 Constraint[Prev][0]=ltsr-4wheel-brake-dia21
 Constraint[Prev][1]=ltsr-4wheel-dia12
@@ -379,6 +386,7 @@ Constraint[Prev][6]=ltsr-46ft-bogie-dia18
 Constraint[Prev][7]=ltsr-46ft-bogie-lav
 Constraint[Prev][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Prev][9]=ltsr-4wheel-first-dia1
+Constraint[Prev][10]=ltsr-6wheel-dia4
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
