@@ -44,6 +44,10 @@ Constraint[Next][7]=ltsr-46ft-bogie-lav
 Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Next][9]=ltsr-4wheel-first-dia1
 Constraint[Next][10]=ltsr-6wheel-dia4
+Constraint[Next][11]=ltsr-48ft-bogie-dia10
+Constraint[Next][12]=ltsr-48ft-bogie-dia6
+Constraint[Next][13]=ltsr-48ft-bogie-lav-composite
+Constraint[Next][14]=ltsr-48ft-bogie-lav-first
 
 Constraint[Prev][0]=ltsr-4wheel-brake-dia21
 Constraint[Prev][1]=ltsr-4wheel-dia12
@@ -56,6 +60,10 @@ Constraint[Prev][7]=ltsr-46ft-bogie-lav
 Constraint[Prev][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Prev][9]=ltsr-4wheel-first-dia1
 Constraint[Prev][10]=ltsr-6wheel-dia4
+Constraint[Prev][11]=ltsr-48ft-bogie-dia10
+Constraint[Prev][12]=ltsr-48ft-bogie-dia6
+Constraint[Prev][13]=ltsr-48ft-bogie-lav-composite
+Constraint[Prev][14]=ltsr-48ft-bogie-lav-first
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
@@ -135,6 +143,10 @@ Constraint[Next][7]=ltsr-46ft-bogie-lav
 Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Next][9]=ltsr-4wheel-first-dia1
 Constraint[Next][10]=ltsr-6wheel-dia4
+Constraint[Next][11]=ltsr-48ft-bogie-dia10
+Constraint[Next][12]=ltsr-48ft-bogie-dia6
+Constraint[Next][13]=ltsr-48ft-bogie-lav-composite
+Constraint[Next][14]=ltsr-48ft-bogie-lav-first
 
 Constraint[Prev][0]=ltsr-4wheel-brake-dia21
 Constraint[Prev][1]=ltsr-4wheel-dia12
@@ -147,6 +159,10 @@ Constraint[Prev][7]=ltsr-46ft-bogie-lav
 Constraint[Prev][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Prev][9]=ltsr-4wheel-first-dia1
 Constraint[Prev][10]=ltsr-6wheel-dia4
+Constraint[Prev][11]=ltsr-48ft-bogie-dia10
+Constraint[Prev][12]=ltsr-48ft-bogie-dia6
+Constraint[Prev][13]=ltsr-48ft-bogie-lav-composite
+Constraint[Prev][14]=ltsr-48ft-bogie-lav-first
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
@@ -226,7 +242,11 @@ Constraint[Next][7]=ltsr-46ft-bogie-lav
 Constraint[Next][8]=ltsr-46ft-bogie-brake-dia26
 Constraint[Next][9]=ltsr-4wheel-first-dia1
 Constraint[Next][10]=ltsr-6wheel-dia4
-Constraint[Next][11]=none
+Constraint[Next][11]=ltsr-48ft-bogie-dia10
+Constraint[Next][12]=ltsr-48ft-bogie-dia6
+Constraint[Next][13]=ltsr-48ft-bogie-lav-composite
+Constraint[Next][14]=ltsr-48ft-bogie-lav-first
+Constraint[Next][15]=none
 
 liverytype[0]=LTSR-standard
 liverytype[1]=MR-Standard
