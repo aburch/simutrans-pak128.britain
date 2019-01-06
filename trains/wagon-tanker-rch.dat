@@ -2,14 +2,14 @@ obj=vehicle
 name=RCH-Tanker
 speed=56
 copyright=Kieron
-intro_year=1910
-intro_month=2
+intro_year=1909
+intro_month=12
 retire_year=1964
 retire_month=10
 waytype=track
 freight=Oel
 payload=26
-length=4
+length=3
 brake_force=0
 rolling_resistance=18
 
@@ -28,11 +28,11 @@ max_loading_time=600
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/wagon-tanker-rch.0.0
-EmptyImage[SE]=./images/wagon-tanker-rch.0.1
-EmptyImage[S]=./images/wagon-tanker-rch.0.2
-EmptyImage[SW]=./images/wagon-tanker-rch.0.3
-EmptyImage[W]=./images/wagon-tanker-rch.0.4
-EmptyImage[NW]=./images/wagon-tanker-rch.0.5
-EmptyImage[N]=./images/wagon-tanker-rch.0.6
-EmptyImage[NE]=./images/wagon-tanker-rch.0.7
+EmptyImage[E]=./images/tanker-rch_E.0.0
+EmptyImage[SE]=./images/tanker-rch_SE.0.0
+EmptyImage[S]=./images/tanker-rch_S.0.0
+EmptyImage[SW]=./images/tanker-rch_SW.0.0
+EmptyImage[W]=./images/tanker-rch_W.0.0
+EmptyImage[NW]=./images/tanker-rch_NW.0.0
+EmptyImage[N]=./images/tanker-rch_N.0.0
+EmptyImage[NE]=./images/tanker-rch_NE.0.0
