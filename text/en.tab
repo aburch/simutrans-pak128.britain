@@ -3139,7 +3139,13 @@ LBSCR four wheel three compartment brake carriage (continuously braked)
 LBSCR-4Wheel-full-brake-fitted
 LBSCR four wheel mail/brake carriage (continuously braked)
 LBSCR-6Wheel-5-com
-LBSCR six wheel five compartment carriage
+LBSCR six wheel five compartment carriage (third class)
+LBSCR-6Wheel-5-com-second
+LBSCR six wheel five compartment carriage (second class)
+LBSCR-6Wheel-composite
+LBSCR six wheel five compartment carriage (first/second class composite)
+LBSCR-6Wheel-4-com-first
+LBSCR six wheel four compartment carriage (first class)
 LBSCR-6Wheel-brake-front
 LBSCR six wheel three compartment brake carriage
 LBSCR-6Wheel-brake-rear
@@ -3152,6 +3158,10 @@ LBSCR-6Wheel-fast-freight-van
 LBSCR six wheel fast freight van
 LBSCR-6Wheel-fruit-and-milk-van
 LBSCR six wheel fruit and milk van
+LBSCR-6Wheel-fast-freight-van-brake
+LBSCR six wheel fast freight brake van 
+LBSCR-6Wheel-fruit-and-milk-van-brake
+LBSCR six wheel fruit and milk brake van
 BR-220Rear
 BR Class 220 "Voyager" (rear)
 BR-221Rear
