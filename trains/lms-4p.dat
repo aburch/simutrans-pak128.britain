@@ -35,6 +35,7 @@ Constraint[Next][0]=LMS-4P-Tender
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 
+# TODO: Produce specific graphics for this with correct diameter wheels
 EmptyImage[E][0]=./images/mr-1000-lms.1.4
 EmptyImage[SE][0]=./images/mr-1000-lms.1.5
 EmptyImage[S][0]=./images/mr-1000-lms.1.6

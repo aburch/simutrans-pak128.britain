@@ -1,6 +1,6 @@
+# http://rail.wikia.com/wiki/British_Railways_Standard_Brake_Van
 obj=vehicle
 name=BrakeBR
-#?
 speed=120
 copyright=James
 intro_year=1950
@@ -12,25 +12,23 @@ payload=0
 waytype=track
 brake_force=7
 rolling_resistance=18
+length=3
 
-length=4
-
-#?
-weight=20
-cost=0
+# http://rail.wikia.com/wiki/British_Railways_Standard_Brake_Van
+weight=20.5
+cost=150000
 runningcost=0
-fixed_cost=0
-
+fixed_cost=4720
 
 bidirectional=1
 
-EmptyImage[E]=./images/wagon-brake-br.0.0
-EmptyImage[SE]=./images/wagon-brake-br.0.1
-EmptyImage[S]=./images/wagon-brake-br.0.2
-EmptyImage[SW]=./images/wagon-brake-br.0.3
-EmptyImage[W]=./images/wagon-brake-br.0.4
-EmptyImage[NW]=./images/wagon-brake-br.0.5
-EmptyImage[N]=./images/wagon-brake-br.0.6
-EmptyImage[NE]=./images/wagon-brake-br.0.7
+EmptyImage[E]=./images/brake-br_E.0.0
+EmptyImage[SE]=./images/brake-br_SE.0.0
+EmptyImage[S]=./images/brake-br_S.0.0
+EmptyImage[SW]=./images/brake-br_SW.0.0
+EmptyImage[W]=./images/brake-br_W.0.0
+EmptyImage[NW]=./images/brake-br_NW.0.0
+EmptyImage[N]=./images/brake-br_N.0.0
+EmptyImage[NE]=./images/brake-br_NE.0.0
 
 

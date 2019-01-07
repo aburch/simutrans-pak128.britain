@@ -1185,6 +1185,14 @@ BR-800MiddleTrolley
 BR-800MiddleComposite
 BR-801MiddleTrolley
 BR-801MiddleComposite
+LMS-Coronation-TO(Maroon)
+lms-coronation-to
+LMS-Coronation-FK(Maroon)
+lms-coronation-fk
+LMS-Coronation-BFK(Maroon)
+lms-coronation-bfk
+LMS-Coronation-BTK(Maroon)
+lms-coronation-btk
 ################################# New track ##################################
 wrought_iron_track_light
 plateway
@@ -1631,6 +1639,8 @@ lmr-4wheel-open-second-brake
 LMR-4Wheel-First-Guard-rear
 LMR-4Wheel-Open-Brake
 LMR-4Wheel-First-Guard-rear
+LNWR-8wheel-radial-brake-front
+LNWR-8wheel-radial-brake
 ############################ Wagon re-organisation/deprecation #####################
 PieceEarly2
 PieceEarly1

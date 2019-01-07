@@ -26,12 +26,25 @@ years_before_maintenance_max_reached=10
 Constraint[Prev][0]=LMS-Stanier-7P
 Constraint[Prev][1]=LMS-Stanier-7P-non-streamlined
 
-EmptyImage[E]=./images/lms-stanier-7p.1.0
-EmptyImage[SE]=./images/lms-stanier-7p.1.1
-EmptyImage[S]=./images/lms-stanier-7p.1.2
-EmptyImage[SW]=./images/lms-stanier-7p.1.3
-EmptyImage[W]=./images/lms-stanier-7p.1.4
-EmptyImage[NW]=./images/lms-stanier-7p.1.5
-EmptyImage[N]=./images/lms-stanier-7p.1.6
-EmptyImage[NE]=./images/lms-stanier-7p.1.7
+liverytype[0]=LMS-Standard
+liverytype[1]=LMS-Blue
 
+# The .blend files for this is missing, so this cannot currently be re-rendered.
+# The blue livery was created by altering the colour in the GIMP
+EmptyImage[E][0]=./images/lms-stanier-7p.1.0
+EmptyImage[SE][0]=./images/lms-stanier-7p.1.1
+EmptyImage[S][0]=./images/lms-stanier-7p.1.2
+EmptyImage[SW][0]=./images/lms-stanier-7p.1.3
+EmptyImage[W][0]=./images/lms-stanier-7p.1.4
+EmptyImage[NW][0]=./images/lms-stanier-7p.1.5
+EmptyImage[N][0]=./images/lms-stanier-7p.1.6
+EmptyImage[NE][0]=./images/lms-stanier-7p.1.7
+
+EmptyImage[E][1]=./images/lms-stanier-7p-blue.1.0
+EmptyImage[SE][1]=./images/lms-stanier-7p-blue.1.1
+EmptyImage[S][1]=./images/lms-stanier-7p-blue.1.2
+EmptyImage[SW][1]=./images/lms-stanier-7p-blue.1.3
+EmptyImage[W][1]=./images/lms-stanier-7p-blue.1.4
+EmptyImage[NW][1]=./images/lms-stanier-7p-blue.1.5
+EmptyImage[N][1]=./images/lms-stanier-7p-blue.1.6
+EmptyImage[NE][1]=./images/lms-stanier-7p-blue.1.7
