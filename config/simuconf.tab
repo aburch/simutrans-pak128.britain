@@ -331,7 +331,7 @@ tpo_revenue=300
 # passengers will travel in a higher class of accommodation if the journey time is more 
 # than one fifth of the maximum comfortable journey time of the lower class of accommodation.
 
-max_comfort_preference_percentage = 500
+max_comfort_preference_percentage = 650
 
 # These settings relate to private car use. See /config/privatecar.tab for
 # the configuration of private car ownership for different years.
