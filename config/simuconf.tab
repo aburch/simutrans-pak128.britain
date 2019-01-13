@@ -168,8 +168,8 @@ min_alternative_destinations_per_job_millionths = 2500
 # between the minimum and maximum amount using a normal distribution, meaning that the numbers
 # are more likely to be in the middle of the range than at either end.
 
-min_visiting_tolerance = 8
-range_visiting_tolerance = 5400
+min_visiting_tolerance = 12
+range_visiting_tolerance = 10000
 min_commuting_tolerance = 30
 range_commuting_tolerance = 180
 
@@ -331,7 +331,7 @@ tpo_revenue=300
 # passengers will travel in a higher class of accommodation if the journey time is more 
 # than one fifth of the maximum comfortable journey time of the lower class of accommodation.
 
-max_comfort_preference_percentage = 500
+max_comfort_preference_percentage = 650
 
 # These settings relate to private car use. See /config/privatecar.tab for
 # the configuration of private car ownership for different years.
@@ -686,14 +686,14 @@ cost_multiply_headquarter=10000
 # than build new ones. This cost is added to the base cost of the ways
 # specified in the .dat files.
 
-forge_cost_road = 10000
-forge_cost_track = 20000
-forge_cost_water = 40000
-forge_cost_monorail = 20000
-forge_cost_maglev = 30000
-forge_cost_tram = 5000
-forge_cost_narrowgauge = 10000
-forge_cost_air = 25000
+forge_cost_road = 7500
+forge_cost_track = 15000
+forge_cost_water = 25000
+forge_cost_monorail = 15000
+forge_cost_maglev = 20000
+forge_cost_tram = 4000
+forge_cost_narrowgauge = 80000
+forge_cost_air = 22500
 
 # The parallel ways forge cost percentage is the percentage of the
 # forge cost that is charged when building one way of each type
@@ -821,26 +821,26 @@ signals_on_left = 1
 
 # City roads timeline. Format examples: 
 # city_road[0]=name,1900,1920
-# city_road[1]=name2,1921,1950
+# city_road[1]=name2,1920,1950
 
 city_road[0]=dirt_road,1700,1780
-city_road[1]=cobblestone_road,1781,1910
-city_road[2]=tarmac_city_road,1911,1932
+city_road[1]=cobblestone_road,1780,1910
+city_road[2]=tarmac_city_road,1910,1933
 city_road[3]=city_road,1933,1996
-city_road[4]=city_road-sma,1997,2200
+city_road[4]=city_road-sma,1996,2200
 
 # Intercity roads timeline. Format examples: 
 # intercity_road[0]=name,1900,1920
-# intercity_road[1]=name2,1921,1950
+# intercity_road[1]=name2,1920,1950
 
-intercity_road[0]=bridleway,1700,1784
-intercity_road[1]=dirt_road,1785,1824
+intercity_road[0]=bridleway,1700,1785
+intercity_road[1]=dirt_road,1785,1825
 intercity_road[2]=macadam_road,1825,1902
-intercity_road[3]=tarmac_road,1903,1925
-intercity_road[4]=tarmac_city_road,1926,1932
+intercity_road[3]=tarmac_road,1902,1925
+intercity_road[4]=tarmac_city_road,1925,1933
 intercity_road[5]=hr-asphalt-road-light,1933,1938
-intercity_road[6]=hr-asphalt-road-medium,1939,1996
-intercity_road[7]=sma-road-medium,1997,2300
+intercity_road[6]=hr-asphalt-road-medium,1938,1996
+intercity_road[7]=sma-road-medium,1996,2300
 
 # Max. length of intitial intercity road connections
 # If you want to speed up map creation, lower this value
@@ -2484,4 +2484,42 @@ livery[98][6] = HR-late
 intro_year[98][6] = 1902
 intro_month[98][6] = 2
 
+livery_scheme[99] = LMS-Coronation-Scot
+retire_year[99] = 1939
+retire_month[99] = 9
+livery[99][0] = LMS-Blue
+intro_year[99][0] = 1937
+intro_month[99][0] = 6
 
+# See "Britain's Railway Liveries"
+# Note 1: During the "Ivory-Umber" phase, Metropolitan and SE&CR carriages were painted lake
+# Note 2: During the second world war, Pullman carriages were painted all over umber
+# Note 3: For BR blue coloured Pullman cars (e.g. the Blue Pullmans and the mk. 1 Pullmans),
+# use the BR livery scheme.
+# by Earnest F. Carter p. 281
+livery_scheme[100] = Pullman
+retire_year[100] = 2500
+retire_month[100] = 12
+livery[100][0] = Pullman-Mahogany
+intro_year[100][0] = 1874
+intro_month[100][0] = 1
+livery[100][1] = Pullman-Bronze-Green
+intro_year[100][1] = 1890
+intro_month[100][1] = 6
+livery[100][2] = Pullman-Ivory-Umber
+intro_year[100][2] = 1906
+intro_month[100][2] = 4
+livery[100][3] = Pullman-Cream-Umber
+intro_year[100][3] = 1929
+intro_month[100][3] = 7
+
+# Lynton & Barnstaple
+# See Carter p. 235 (albeit there is not much information)
+# Locomotives are described as "dark emerald green" with orange lining
+# See also: http://www.009.cd2.com/lynton_and_barnstaple_modelling/liveries.htm
+livery_scheme[101] = L&BR
+retire_year[101] = 1923
+retire_month[101] = 1
+livery[100][0] = L&BR-Standard
+intro_year[101][0] = 1898
+intro_month[101][0] = 5
