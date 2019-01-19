@@ -8,7 +8,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=24
 length=10
 
@@ -16,14 +17,15 @@ length=10
 weight=33
 axles=4
 cost=740000
-runningcost=33
-
+runningcost=0
+fixed_cost=881
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=131
+comfort[0]=0
+comfort[1]=131
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear
@@ -116,7 +118,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=16
 length=10
 
@@ -124,14 +127,15 @@ length=10
 weight=32.7
 axles=4
 cost=735000
-runningcost=33
-
+runningcost=0
+fixed_cost=5675
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=131
+comfort[0]=0
+comfort[1]=131
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear
@@ -200,7 +204,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=16
 length=10
 
@@ -208,14 +213,16 @@ length=10
 weight=32.7
 axles=4
 cost=735000
-runningcost=33
+runningcost=0
+fixed_cost=5675
 
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=131
+comfort[0]=0
+comfort[1]=131
 
 Constraint[Prev][0]=LNER-Gresley-Express-Coach
 Constraint[Prev][1]=LNER-Gresley-Express-Brake-front
@@ -284,7 +291,8 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=16
 length=11
 rolling_resistance=17
@@ -293,14 +301,15 @@ rolling_resistance=17
 weight=36
 axles=4
 cost=825000
-runningcost=75
-
+runningcost=0
+fixed_cost=18982
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=131
+comfort[0]=0
+comfort[1]=131
 catering_level=4
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
@@ -401,8 +410,8 @@ length=10
 weight=32
 axles=4
 cost=730000
-runningcost=33
-
+runningcost=0
+fixed_cost=5669
 
 can_lead_from_rear=0
 bidirectional=1
@@ -459,8 +468,8 @@ length=10
 weight=32
 axles=4
 cost=730000
-runningcost=33
-
+runningcost=0
+fixed_cost=304
 
 can_lead_from_rear=0
 bidirectional=1
@@ -565,8 +574,8 @@ length=10
 weight=32
 axles=4
 cost=730000
-runningcost=68
-
+runningcost=0
+fixed_cost=24304
 
 can_lead_from_rear=0
 bidirectional=1

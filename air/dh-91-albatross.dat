@@ -9,19 +9,30 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=338
-power=1568
-tractive_effort=16
+power=1411
+tractive_effort=11
 freight=Passagiere
-payload=22
+# 454kg
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=22
 weight=9.6
 #length=8
 cost=3000000
-runningcost=1200
+runningcost=71
+fixed_cost=52083
 intro_year=1938
 intro_month=10
 retire_year=1945
 retire_month=1
-comfort=93
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=93
 min_loading_time=1800
 max_loading_time=1800
 catering_level=1
@@ -29,8 +40,7 @@ catering_level=1
 # Guessed
 minimum_runway_length=655
 
-range=1675
-
+range=1630
 sound=ylearkisto-dc-3.wav
 
 Constraint[Next][0]=none
@@ -51,17 +61,18 @@ obj=vehicle
 name=dh-91-albatross-mail
 copyright=Emmanuel Baranger
 waytype=air
-waytype=air
 engine_type=petrol
 speed=338
 power=1568
 tractive_effort=16
 freight=Post
-payload=3500
+payload[0]=0
+payload[1]=3500
 weight=9.6
 #length=8
 cost=3000000
-runningcost=1200
+runningcost=78
+fixed_cost=12083
 intro_year=1938
 intro_month=10
 retire_year=1945
@@ -73,8 +84,7 @@ max_loading_time=2000
 # Guessed
 minimum_runway_length=655
 
-range=1675
-
+range=5300
 sound=ylearkisto-dc-3.wav
 
 Constraint[Next][0]=none

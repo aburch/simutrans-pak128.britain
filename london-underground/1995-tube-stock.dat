@@ -13,7 +13,8 @@ retire_year=2010
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=96
 brake_force=21
 rolling_resistance=13
@@ -21,7 +22,8 @@ rolling_resistance=13
 weight=29
 axles=4
 cost=1500000
-runningcost=100
+runningcost=50
+fixed_cost=7250
 sound=multithunder227-1996-stock.wav
 
 can_lead_from_rear=1
@@ -32,7 +34,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=16
 max_loading_time=47
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=1995TubeStockRearDM
 Constraint[Prev][1]=none
@@ -63,15 +66,16 @@ retire_year=2010
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=34
+payload[0]=0
+payload[1]=34
 overcrowded_capacity=110
 brake_force=21
 
 weight=28
 axles=4
 cost=1000000
-runningcost=100
-
+runningcost=50
+fixed_cost=6833
 
 can_lead_from_rear=0
 bidirectional=1
@@ -81,7 +85,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=16
 max_loading_time=47
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=1995TubeStockRearUNDM
 
@@ -109,7 +114,8 @@ retire_year=2010
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=34
+payload[0]=0
+payload[1]=34
 overcrowded_capacity=110
 brake_force=15
 rolling_resistance=13
@@ -117,8 +123,8 @@ rolling_resistance=13
 weight=21
 axles=4
 cost=800000
-runningcost=40
-
+runningcost=0
+fixed_cost=1667
 
 can_lead_from_rear=0
 bidirectional=1
@@ -128,7 +134,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=16
 max_loading_time=47
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=1995TubeStockFrontDM
 Constraint[Prev][1]=1995TubeStockFrontUNDM
@@ -159,7 +166,8 @@ retire_year=2010
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=34
+payload[0]=0
+payload[1]=34
 overcrowded_capacity=110
 brake_force=15
 rolling_resistance=13
@@ -167,8 +175,8 @@ rolling_resistance=13
 weight=21
 axles=4
 cost=800000
-runningcost=40
-
+runningcost=0
+fixed_cost=1667
 
 can_lead_from_rear=0
 bidirectional=1
@@ -178,7 +186,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=16
 max_loading_time=47
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=1995TubeStockMiddle1
 
@@ -210,7 +219,8 @@ retire_year=2010
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=34
+payload[0]=0
+payload[1]=34
 overcrowded_capacity=110
 brake_force=21
 rolling_resistance=13
@@ -218,7 +228,8 @@ rolling_resistance=13
 weight=28
 axles=4
 cost=1000000
-runningcost=100
+runningcost=50
+fixed_cost=6833
 
 
 can_lead_from_rear=0
@@ -229,7 +240,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=16
 max_loading_time=47
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=1995TubeStockMiddle1
 Constraint[Prev][1]=1995TubeStockMiddle2
@@ -262,7 +274,8 @@ retire_year=2010
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=96
 brake_force=21
 rolling_resistance=13
@@ -270,7 +283,8 @@ rolling_resistance=13
 weight=29
 axles=4
 cost=1500000
-runningcost=100
+runningcost=50
+fixed_cost=7250
 sound=multithunder227-1996-stock.wav
 
 can_lead_from_rear=1
@@ -281,7 +295,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=16
 max_loading_time=47
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=1995TubeStockMiddle1
 Constraint[Prev][1]=1995TubeStockMiddle2

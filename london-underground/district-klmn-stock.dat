@@ -17,13 +17,15 @@ retire_year=1937
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=82
 
 weight=34.4
 axles=4
 cost=7000000
-runningcost=112
+runningcost=131
+fixed_cost=11833
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -31,7 +33,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=61
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=LUL_OP_StockRearDM
 Constraint[Prev][1]=District_KLMN_StockRearDM
@@ -55,7 +58,9 @@ EmptyImage[W]=./images/district-klmn-stock.1.0
 EmptyImage[NW]=./images/district-klmn-stock.1.1
 EmptyImage[N]=./images/district-klmn-stock.1.2
 EmptyImage[NE]=./images/district-klmn-stock.1.3
+
 --
+
 obj=vehicle
 name=District_KLMN_StockMiddle
 engine_type=electric
@@ -68,21 +73,23 @@ retire_year=1937
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=44
+payload[0]=0
+payload[1]=44
 overcrowded_capacity=87
 
 weight=29
 axles=4
 cost=1400000
-runningcost=33
-
+runningcost=0
+fixed_cost=1667
 
 bidirectional=0
 way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=61
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=LUL_OP_StockFrontDM
 Constraint[Prev][1]=District_KLMN_StockFrontDM
@@ -93,8 +100,6 @@ Constraint[Next][4]=District_BCD_StockMiddle
 Constraint[Next][0]=LUL_OP_StockRearDM
 Constraint[Next][1]=District_KLMN_StockRearDM
 Constraint[Next][2]=District_G_StockRearDM
-Constraint[Next][3]=District_E_StockMiddle
-Constraint[Next][4]=District_BCD_StockMiddle
 
 EmptyImage[E]=./images/district-klmn-stock.1.4
 EmptyImage[SE]=./images/district-klmn-stock.1.5
@@ -104,7 +109,9 @@ EmptyImage[W]=./images/district-klmn-stock.1.0
 EmptyImage[NW]=./images/district-klmn-stock.1.1
 EmptyImage[N]=./images/district-klmn-stock.1.2
 EmptyImage[NE]=./images/district-klmn-stock.1.3
-----
+
+---
+
 obj=vehicle
 name=District_KLMN_StockRearDM
 engine_type=electric
@@ -120,13 +127,15 @@ retire_year=1937
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=82
 
 weight=34.4
 axles=4
 cost=7000000
-runningcost=112
+runningcost=131
+fixed_cost=11833
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -134,7 +143,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=20
 max_loading_time=47
-comfort=61
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=LUL_OP_StockMiddle
 Constraint[Prev][1]=LUL_OP_StockFrontDM
@@ -150,7 +160,6 @@ Constraint[Next][1]=District_KLMN_StockFrontDM
 Constraint[Next][2]=District_G_StockFrontDM
 Constraint[Next][3]=none
 
-
 EmptyImage[E]=./images/district-klmn-stock.1.4
 EmptyImage[SE]=./images/district-klmn-stock.1.5
 EmptyImage[S]=./images/district-klmn-stock.1.6
@@ -159,4 +168,3 @@ EmptyImage[W]=./images/district-klmn-stock.1.0
 EmptyImage[NW]=./images/district-klmn-stock.1.1
 EmptyImage[N]=./images/district-klmn-stock.1.2
 EmptyImage[NE]=./images/district-klmn-stock.1.3
---

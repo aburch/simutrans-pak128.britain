@@ -23,7 +23,8 @@ weight=62
 # http://orion.math.iastate.edu/jdhsmith/term/slgblbsc.htm
 axle_load=16
 cost=4500000
-runningcost=750
+runningcost=106
+fixed_cost=27750
 sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0

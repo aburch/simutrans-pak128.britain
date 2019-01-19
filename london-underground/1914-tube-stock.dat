@@ -13,13 +13,15 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=80
 
 weight=27
 axles=4
 cost=1050000
 runningcost=90
+fixed_cost=6875
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -30,7 +32,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=18
 max_loading_time=55
-comfort=54
+comfort[0]=0
+comfort[1]=54
 
 Constraint[Prev][0]=1914TubeStockRear
 Constraint[Prev][1]=none
@@ -73,13 +76,15 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=80
 
 weight=27
 axles=4
 cost=1050000
 runningcost=90
+fixed_cost=6875
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -90,7 +95,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=18
 max_loading_time=55
-comfort=54
+comfort[0]=0
+comfort[1]=54
 
 Constraint[Prev][0]=1906TubeStockTrailer
 

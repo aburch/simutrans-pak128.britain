@@ -13,7 +13,7 @@ overcrowded_capacity=2
 speed=20
 # Guessed
 power=36
-tractive_effort=5
+tractive_effort=6
 # Petrol electric has more transmission losses
 gear=40
 weight=4.2
@@ -21,12 +21,15 @@ axles=2
 way_wear_factor=155
 length=4
 cost=97700
-runningcost=115
+runningcost=42
+fixed_cost=8051
 intro_year=1914
 intro_month=5
 retire_year=1921
 retire_month=7
 is_tall=1
+# TODO: Use a more authentic sound for this
+sound=graham-french-leyland-n-type.wav
 
 comfort=21
 # Rear platform with conductor: 2.0 seconds per passenger

@@ -17,11 +17,13 @@ axle_load=1
 way_wear_factor=4
 length=4
 cost=37500
-runningcost=65
+runningcost=19
+fixed_cost=8020
 intro_year=1901
 intro_month=4
 retire_year=1915
 retire_month=6
+sound=graham-french-leyland-n-type.wav
 
 comfort=18
 # Weird arrangement: 5 seconds per passenger

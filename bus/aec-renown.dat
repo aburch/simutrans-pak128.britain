@@ -11,14 +11,15 @@ overcrowded_capacity=5
 speed=50
 # 45hp - see John Day, The Story of the London Bus, p. 68
 power=34
-tractive_effort=9
+tractive_effort=6
 gear=50
 # Guessed
 weight=7.5
 axles=3
 length=6
 cost=725200
-runningcost=185
+runningcost=34
+fixed_cost=8378
 intro_year=1929
 intro_month=10
 retire_year=1933

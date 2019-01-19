@@ -22,7 +22,8 @@ weight=47
 # See http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm
 axle_load=19
 cost=5404500
-runningcost=858
+runningcost=173
+fixed_cost=28504
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=34
 years_before_maintenance_max_reached=20

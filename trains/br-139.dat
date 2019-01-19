@@ -11,7 +11,8 @@ intro_year=2009
 intro_month=6
 waytype=track
 freight=Passagiere
-payload=25
+payload[0]=0
+payload[1]=25
 overcrowded_capacity=35
 length=6
 brake_force=10
@@ -20,12 +21,14 @@ rolling_resistance=13
 weight=12
 axles=2
 cost=1296000
-runningcost=5
+runningcost=13
+fixed_cost=10675
 sound=video47-class-139.wav
 
 min_loading_time=13
 max_loading_time=57
-comfort=45
+comfort[0]=0
+comfort[1]=45
 
 can_lead_from_rear=1
 bidirectional=1

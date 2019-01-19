@@ -12,7 +12,8 @@ retire_year=1991
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=56
 length=11
 rolling_resistance=13
@@ -20,18 +21,18 @@ rolling_resistance=13
 weight=36
 axles=4
 cost=1237000
-runningcost=55
+runningcost=49
+fixed_cost=7031
 sound=video47-class-508.wav
 
-increase_maintenance_after_years=5
-#TODO: Change above when retirement date changes
 
 can_lead_from_rear=1
 bidirectional=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=BR-313Rear
 Constraint[Prev][1]=none
@@ -75,7 +76,8 @@ retire_year=1991
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=84
+payload[0]=0
+payload[1]=84
 overcrowded_capacity=64
 length=11
 rolling_resistance=13
@@ -83,17 +85,16 @@ rolling_resistance=13
 weight=30
 axles=4
 cost=1237000
-runningcost=55
-
-increase_maintenance_after_years=5
-#TODO: Change above when retirement date changes
+runningcost=0
+fixed_cost=1473
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=BR-313Front
 
@@ -136,7 +137,8 @@ retire_year=1991
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=56
 length=11
 rolling_resistance=13
@@ -144,17 +146,17 @@ rolling_resistance=13
 weight=38
 axles=4
 cost=1237000
-runningcost=55
+runningcost=49
+fixed_cost=7031
 sound=video47-class-508.wav
-
-increase_maintenance_after_years=26
 
 can_lead_from_rear=1
 bidirectional=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=BR-313Pantograph
 

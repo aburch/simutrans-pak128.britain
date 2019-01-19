@@ -9,19 +9,20 @@ payload=35
 overcrowded_capacity=2
 speed=50
 power=34
-tractive_effort=9
+tractive_effort=6
 gear=50
 # Guessed
 weight=6.6
 axles=3
 length=6
 cost=723000
-runningcost=181
+runningcost=34
+fixed_cost=8377
 intro_year=1930
 intro_month=12
 retire_year=1942
 retire_month=8
-sound=video47-leyland-titan-pd1.wav
+sound=gareth-bull-leyland-titan-td1.wav
 
 comfort=42
 # Single door with conductor: 2.5 seconds per passenger

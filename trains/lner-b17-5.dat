@@ -22,7 +22,8 @@ axle_load=18
 # Three cylinders
 way_wear_factor=111375
 cost=8467200
-runningcost=1452
+runningcost=240
+fixed_cost=31056
 sound=konakaboom-black-five.wav
 air_resistance=108
 increase_maintenance_after_years=14

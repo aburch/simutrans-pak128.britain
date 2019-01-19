@@ -10,7 +10,8 @@ retire_year=1904
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=9
 
@@ -18,14 +19,15 @@ length=9
 weight=20.9
 axles=4
 cost=702500
-runningcost=34
-
+runningcost=0
+fixed_cost=5636
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -73,7 +75,8 @@ Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
-Constraint[Next][37]=none
+Constraint[Next][37]=lswr-6-wheel-28ft-composite
+Constraint[Next][38]=none
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -128,21 +131,23 @@ retire_year=1904
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 length=9
 
 weight=20.9
 axles=4
 cost=702500
-runningcost=34
-
+runningcost=0
+fixed_cost=5636
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -190,6 +195,7 @@ Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -244,7 +250,8 @@ retire_year=1904
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 length=9
 
@@ -252,14 +259,15 @@ length=9
 weight=21.4
 axles=4
 cost=709000
-runningcost=34
-
+runningcost=0
+fixed_cost=844
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
-comfort=74
+comfort[0]=0
+comfort[1]=74
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -307,6 +315,7 @@ Constraint[Next][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Next][37]=lswr-6-wheel-28ft-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -345,6 +354,7 @@ Constraint[Prev][33]=lswr-6-wheel-30ft-full-brake
 Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
+Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -386,5 +396,3 @@ EmptyImage[W][3]=./images/lswr-48ft-sub-malachite.1.0
 EmptyImage[NW][3]=./images/lswr-48ft-sub-malachite.1.1
 EmptyImage[N][3]=./images/lswr-48ft-sub-malachite.1.2
 EmptyImage[NE][3]=./images/lswr-48ft-sub-malachite.1.3
-
-

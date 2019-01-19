@@ -11,7 +11,7 @@ overcrowded_capacity=4
 speed=20
 # Guessed
 power=36
-tractive_effort=5
+tractive_effort=6
 # Petrol electric has more transmission losses
 gear=40
 weight=4.6
@@ -19,12 +19,15 @@ way_wear_factor=156
 axles=2
 length=4
 cost=106000
-runningcost=116
+runningcost=36
+fixed_cost=8055
 intro_year=1923
 intro_month=1
 retire_year=1927
 retire_month=3
 is_tall=1
+# TODO: Use a more authentic sound for this
+sound=graham-french-tilling-stevens-1930.wav
 
 comfort=21
 # Rear platform with conductor: 2.0 seconds per passenger

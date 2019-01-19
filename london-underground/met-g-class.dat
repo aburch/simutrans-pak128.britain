@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=95
 # Extrapolated
-power=330
+power=295
 # http://en.wikipedia.org/wiki/Metropolitan_Railway_G_Class
 tractive_effort=91
 copyright=James/jamespetts
@@ -22,7 +22,8 @@ length=7
 weight=72.2
 axle_load=19
 cost=10000000
-runningcost=612
+runningcost=143
+fixed_cost=32333
 sound=lwalker-br-4mt-tank.wav
 
 bidirectional=1

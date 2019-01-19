@@ -13,13 +13,15 @@ retire_year=1973
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=138
 
 weight=26
 axles=4
 cost=1250000
-runningcost=120
+runningcost=60
+fixed_cost=7042
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -27,7 +29,8 @@ bidirectional=0
 
 min_loading_time=15
 max_loading_time=45
-comfort=58
+comfort[0]=0
+comfort[1]=58
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
@@ -58,13 +61,15 @@ retire_year=1973
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=130
 
 weight=18
 axles=4
 cost=650000
-runningcost=30
+runningcost=0
+fixed_cost=774
 
 
 can_lead_from_rear=0
@@ -72,7 +77,8 @@ bidirectional=1
 
 min_loading_time=15
 max_loading_time=45
-comfort=58
+comfort[0]=0
+comfort[1]=58
 
 way_constraint_prohibitive[1]=1
 way_constraint_permissive[3]=3
@@ -103,14 +109,15 @@ retire_year=1973
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=150
 
 weight=18
 axles=4
 cost=650000
-runningcost=30
-
+runningcost=0
+fixed_cost=774
 
 can_lead_from_rear=0
 bidirectional=1
@@ -120,7 +127,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=45
-comfort=58
+comfort[0]=0
+comfort[1]=58
 
 Constraint[Prev][0]=1959TubeStockMiddle1
 
@@ -151,13 +159,15 @@ retire_year=1973
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=130
 
 weight=26
 axles=4
 cost=1250000
-runningcost=120
+runningcost=60
+fixed_cost=7042
 sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
@@ -168,7 +178,8 @@ way_constraint_permissive[3]=3
 
 min_loading_time=15
 max_loading_time=45
-comfort=58
+comfort[0]=0
+comfort[1]=58
 
 Constraint[Prev][0]=1959TubeStockMiddle1
 Constraint[Prev][1]=1959TubeStockMiddle2

@@ -9,13 +9,15 @@ tractive_effort=3
 freight=Post
 #payload=100kg
 #extended
-payload=100
+payload[0]=0
+payload[1]=100
 #standard
 #payload=2
 weight=0.7
 #length=8
 cost=600000
-runningcost=50
+runningcost=8
+fixed_cost=10417
 intro_year=1910
 intro_month=1
 retire_year=1919

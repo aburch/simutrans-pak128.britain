@@ -20,15 +20,16 @@ weight=6
 axle_load=3
 length=6
 cost=210000
-runningcost=86
+runningcost=28
+fixed_cost=12219
 intro_year=1931
 intro_month=5
 retire_year=1937
 retire_month=8
 is_tall=1
 
-constraint[next][0]=none 
-constraint[prev][0]=none 
+constraint[next][0]=none
+constraint[prev][0]=none
 
 comfort=45
 min_loading_time=3

@@ -8,7 +8,7 @@ freight=Passagiere
 payload=29
 overcrowded_capacity=3
 speed=50
-power=39
+power=34
 tractive_effort=6
 gear=50
 # One of these at the London 'Bus Museum is marked as 6t - the cwt marking is unclear on my photograph.
@@ -16,7 +16,8 @@ weight=6
 axles=2
 length=5
 cost=362000
-runningcost=140
+runningcost=34
+fixed_cost=8189
 intro_year=1929
 intro_month=12
 retire_year=1948
@@ -27,7 +28,6 @@ comfort=41
 # Single door with conductor: 2.5 seconds per passenger
 min_loading_time=4
 max_loading_time=72
-sound=gareth-bull-leyland-titan-td1.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

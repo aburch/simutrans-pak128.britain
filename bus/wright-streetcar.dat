@@ -17,9 +17,12 @@ weight=13
 axles=2
 length=6
 cost=3950000
-runningcost=180
+runningcost=60
+fixed_cost=10057
 intro_year=2006
 intro_month=5
+# TODO: Add a more authentic sound for this
+sound=volvo-olympian-ff3170.wav
 
 comfort=42
 # Two smartcard/prepay: 2.0 seconds per passenger
@@ -56,6 +59,7 @@ axles=2
 length=4
 cost=0
 runningcost=0
+fixed_cost=0
 intro_year=2006
 intro_month=5
 

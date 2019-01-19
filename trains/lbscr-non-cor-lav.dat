@@ -9,7 +9,8 @@ retire_year=1906
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=56
+payload[0]=0
+payload[1]=56
 overcrowded_capacity=30
 length=8
 brake_force=12
@@ -17,14 +18,15 @@ brake_force=12
 weight=22
 axles=4
 cost=748000
-runningcost=37
-
+runningcost=0
+fixed_cost=890
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=92
+comfort[0]=0
+comfort[1]=92
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -52,6 +54,11 @@ Constraint[Prev][15]=LBSCR-sub-bogie-54ft
 Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
 Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
 Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
+Constraint[Prev][19]=LBSCR-6Wheel-5-com-second
+Constraint[Prev][20]=LBSCR-6Wheel-composite
+Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
+Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
+Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -72,6 +79,11 @@ Constraint[Next][15]=LBSCR-sub-bogie-54ft
 Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
 Constraint[Next][17]=LBSCR-6Wheel-fruit-and-milk-van
 Constraint[Next][18]=LBSCR-6Wheel-fast-freight-van
+Constraint[Next][19]=LBSCR-6Wheel-5-com-second
+Constraint[Next][20]=LBSCR-6Wheel-composite
+Constraint[Next][21]=LBSCR-6Wheel-4-com-first
+Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
+Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -146,7 +158,8 @@ retire_year=1906
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=20
 length=8
 brake_force=12
@@ -154,14 +167,15 @@ brake_force=12
 weight=23
 axles=4
 cost=748000
-runningcost=37
-
+runningcost=0
+fixed_cost=5690
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=92
+comfort[0]=0
+comfort[1]=92
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -189,6 +203,11 @@ Constraint[Prev][15]=LBSCR-sub-bogie-54ft
 Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
 Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
 Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
+Constraint[Prev][19]=LBSCR-6Wheel-5-com-second
+Constraint[Prev][20]=LBSCR-6Wheel-composite
+Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
+Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
+Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -263,7 +282,8 @@ retire_year=1906
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=20
 length=8
 brake_force=12
@@ -271,14 +291,15 @@ brake_force=12
 weight=23
 axles=4
 cost=748000
-runningcost=37
-
+runningcost=0
+fixed_cost=5690
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=92
+comfort[0]=0
+comfort[1]=92
 
 upgrade[0]=LSWR-EMU(centre)
 upgrade[1]=LSWR-EMU(rear)
@@ -306,7 +327,12 @@ Constraint[Next][15]=LBSCR-sub-bogie-54ft
 Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
 Constraint[Next][17]=LBSCR-6Wheel-fruit-and-milk-van
 Constraint[Next][18]=LBSCR-6Wheel-fast-freight-van
-Constraint[Next][19]=none
+Constraint[Next][19]=LBSCR-6Wheel-5-com-second
+Constraint[Next][20]=LBSCR-6Wheel-composite
+Constraint[Next][21]=LBSCR-6Wheel-4-com-first
+Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
+Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Next][24]=none
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh

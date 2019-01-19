@@ -9,22 +9,24 @@ retire_year=1947
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=25
 length=10
 
 weight=32
 axles=4
 cost=579000
-runningcost=29
-
+runningcost=0
+fixed_cost=689
 
 can_lead_from_rear=0
 bidirectional=1
  
 min_loading_time=25
 max_loading_time=55
-comfort=130
+comfort[0]=0
+comfort[1]=130
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -113,22 +115,24 @@ retire_year=1947
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=18
 length=10
 
 weight=32
 axles=4
 cost=579000
-runningcost=29
-
+runningcost=0
+fixed_cost=5489
 
 can_lead_from_rear=0
 bidirectional=1
  
 min_loading_time=25
 max_loading_time=55
-comfort=130
+comfort[0]=0
+comfort[1]=130
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -191,22 +195,24 @@ retire_year=1947
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=18
 length=10
 
 weight=32
 axles=4
 cost=579000
-runningcost=29
-
+runningcost=0
+fixed_cost=5489
 
 can_lead_from_rear=0
 bidirectional=1
  
 min_loading_time=25
 max_loading_time=55
-comfort=130
+comfort[0]=0
+comfort[1]=130
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -269,22 +275,24 @@ retire_year=1951
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=25
 length=11
 
 weight=32
 axles=4
 cost=579000
-runningcost=29
-
+runningcost=0
+fixed_cost=689
 
 can_lead_from_rear=0
 bidirectional=1
  
 min_loading_time=25
 max_loading_time=120
-comfort=142
+comfort[0]=0
+comfort[1]=142
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -373,22 +381,24 @@ retire_year=1951
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=64
+payload[0]=0
+payload[1]=64
 overcrowded_capacity=48
 length=11
 
 weight=32
 axles=4
 cost=570000
-runningcost=29
-
+runningcost=0
+fixed_cost=6679
 
 can_lead_from_rear=0
 bidirectional=1
  
 min_loading_time=25
 max_loading_time=120
-comfort=136
+comfort[0]=0
+comfort[1]=136
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -478,22 +488,24 @@ retire_year=1951
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=24
+payload[0]=0
+payload[1]=24
 overcrowded_capacity=10
 length=11
 
 weight=32
 axles=4
 cost=677000
-runningcost=40
-
+runningcost=0
+fixed_cost=18806
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=142
+comfort[0]=0
+comfort[1]=142
 catering_level=4
 
 Constraint[Prev][0]=SR-Maunsell-Third
@@ -584,22 +596,24 @@ retire_month=2
 waytype=track
 freight=Passagiere
 # This datum is hard to find by research: guessed.
-payload=36
+payload[0]=0
+payload[1]=36
 overcrowded_capacity=18
 length=11
 
 weight=32
 axles=4
 cost=655000
-runningcost=34
-
+runningcost=0
+fixed_cost=18780
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
-comfort=142
+comfort[0]=0
+comfort[1]=142
 catering_level=3
 
 Constraint[Prev][0]=SR-Maunsell-Third
@@ -689,22 +703,24 @@ retire_year=1951
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=24
 length=11
 
 weight=32
 axles=4
 cost=434000
-runningcost=22
-
+runningcost=0
+fixed_cost=5317
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=142
+comfort[0]=0
+comfort[1]=142
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -766,22 +782,24 @@ retire_year=1951
 retire_month=2
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=24
 length=11
 
 weight=32
 axles=4
 cost=434000
-runningcost=22
-
+runningcost=0
+fixed_cost=5317
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=25
 max_loading_time=120
-comfort=142
+comfort[0]=0
+comfort[1]=142
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear

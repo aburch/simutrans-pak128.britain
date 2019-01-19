@@ -17,12 +17,13 @@ weight=6.1
 axles=2
 length=5
 cost=401000
-runningcost=144
+runningcost=76
+fixed_cost=8209
 intro_year=1938
 intro_month=11
 retire_year=1948
 retire_month=4
-sound=video47-leyland-titan-pd1.wav
+sound=richard-walker-aec-stl-diesel.wav
 
 comfort=76
 # Coach: 7.5 seconds per passenger

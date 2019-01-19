@@ -23,7 +23,8 @@ length=4
 weight=43
 axles=3
 cost=7616000
-runningcost=995
+runningcost=83
+fixed_cost=30347
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=MR-483-Tender

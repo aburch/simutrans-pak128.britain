@@ -22,12 +22,15 @@ axles=2
 length=4
 way_wear_factor=14
 cost=96000
-runningcost=100
+runningcost=26
+fixed_cost=8050
 intro_year=1911
 intro_month=2
 retire_year=1913
 retire_month=5
 is_tall=1
+# TODO: Use a more authentic sound for this
+sound=graham-french-leyland-n-type.wav
 
 comfort=21
 # Rear platform with conductor: 2.0 seconds per passenger

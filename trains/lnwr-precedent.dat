@@ -26,8 +26,9 @@ brake_force=0
 
 weight=33
 axle_load=12
-cost=9021000
-runningcost=1700
+cost=13531500
+runningcost=206
+fixed_cost=35276
 sound=lwalker-br-4mt-tank.wav
 upgrade[0]=LNWR-Jumbo
 
@@ -63,6 +64,7 @@ weight=23
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 upgrade[0]=LNWR-Jumbo-Tender

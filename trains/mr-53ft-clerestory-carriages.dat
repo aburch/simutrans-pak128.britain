@@ -8,7 +8,8 @@ retire_year=1879
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=80
+payload[0]=0
+payload[1]=80
 overcrowded_capacity=40
 # 53ft
 length=9
@@ -18,7 +19,8 @@ rolling_resistance=17
 weight=23.5
 axles=6
 cost=717120
-runningcost=32
+runningcost=0
+fixed_cost=854
 
 upgrade[0]=MR-clayton-12wheel-clerestory-third-lav
 
@@ -26,7 +28,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=79
+comfort[0]=0
+comfort[1]=79
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -179,7 +182,8 @@ retire_year=1896
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=68
+payload[0]=0
+payload[1]=68
 overcrowded_capacity=35
 # 53ft
 length=9
@@ -190,7 +194,8 @@ weight=23.5
 axles=6
 cost=717120
 upgrade_price=40195
-runningcost=32
+runningcost=0
+fixed_cost=854
 
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=1
@@ -199,7 +204,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=90
+comfort[0]=0
+comfort[1]=90
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -340,7 +346,8 @@ retire_year=1879
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 # 53ft
 length=9
@@ -350,7 +357,8 @@ rolling_resistance=17
 weight=23.5
 axles=6
 cost=717120
-runningcost=32
+runningcost=0
+fixed_cost=5654
 
 upgrade[0]=MR-clayton-12wheel-clerestory-brake-lav-front
 
@@ -358,7 +366,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=79
+comfort[0]=0
+comfort[1]=79
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -453,7 +462,8 @@ retire_year=1879
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=60
+payload[0]=0
+payload[1]=60
 overcrowded_capacity=30
 # 53ft
 length=9
@@ -463,7 +473,8 @@ rolling_resistance=17
 weight=23.5
 axles=6
 cost=717120
-runningcost=32
+runningcost=0
+fixed_cost=5654
 
 upgrade[0]=MR-clayton-12wheel-clerestory-brake-lav-rear
 
@@ -471,7 +482,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=79
+comfort[0]=0
+comfort[1]=79
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -566,7 +578,8 @@ retire_year=1896
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=25
 # 53ft
 length=9
@@ -577,7 +590,8 @@ weight=23.5
 axles=6
 cost=717120
 upgrade_price=40195
-runningcost=32
+runningcost=0
+fixed_cost=5654
 
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=1
@@ -586,7 +600,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=90
+comfort[0]=0
+comfort[1]=90
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -669,7 +684,8 @@ retire_year=1896
 retire_month=12
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=25
 # 53ft
 length=9
@@ -679,7 +695,8 @@ rolling_resistance=17
 weight=23.5
 axles=6
 cost=717120
-runningcost=32
+runningcost=0
+fixed_cost=5654
 
 # Only arc roof carriages built after 1879.
 available_only_as_upgrade=1
@@ -688,7 +705,8 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
-comfort=90
+comfort[0]=0
+comfort[1]=90
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -748,7 +766,6 @@ Constraint[Prev][54]=MR-54ft-eliptical-non-lav-d1277
 Constraint[Prev][55]=MR-54ft-eliptical-non-lav-brake-front-d1246
 Constraint[Prev][56]=MR-60ft-clerestory-lav-3rd-d484
 Constraint[Prev][57]=MR-60ft-clerestory-brake-3rd-d496-front
-
 
 EmptyImage[E]=./images/mr-clayton-12wheel-clerestory-brake-lav-rear.1.4
 EmptyImage[SE]=./images/mr-clayton-12wheel-clerestory-brake-lav-rear.1.5

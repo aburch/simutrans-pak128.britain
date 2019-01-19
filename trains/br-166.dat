@@ -1,3 +1,4 @@
+# http://web.archive.org/web/20080219234526/http://www.therailwaycentre.com:80/New%20DMU%20Tech%20Data%20/DMU_166.html
 obj=vehicle
 name=BR-166Front
 engine_type=diesel
@@ -13,7 +14,10 @@ retire_year=1998
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=75
+payload[2]=0
+payload[3]=16
 overcrowded_capacity=55
 length=13
 brake_force=27
@@ -22,12 +26,16 @@ rolling_resistance=13
 weight=37
 axles=4
 cost=1822000
-runningcost=91
+runningcost=78
+fixed_cost=6949
 sound=konakaboom-class-165.wav
 
 min_loading_time=17
 max_loading_time=55
-comfort=88
+comfort[0]=0
+comfort[1]=88
+comfort[2]=0
+comfort[3]=116
 
 can_lead_from_rear=1
 bidirectional=0
@@ -66,7 +74,10 @@ retire_year=1998
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=102
+payload[0]=0
+payload[1]=102
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=77
 length=13
 brake_force=27
@@ -75,7 +86,8 @@ weight=37
 axles=4
 cost=1822000
 upgrade_price=0
-runningcost=91
+runningcost=78
+fixed_cost=949
 
 increase_maintenance_after_years=23
 
@@ -84,7 +96,10 @@ bidirectional=1
 
 min_loading_time=17
 max_loading_time=55
-comfort=88
+comfort[0]=0
+comfort[1]=88
+comfort[2]=0
+comfort[3]=116
 
 upgrade[0]=BR-166Middle-Trolley
 
@@ -120,7 +135,10 @@ retire_year=2020
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=102
+payload[0]=0
+payload[1]=96
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=74
 length=13
 brake_force=27
@@ -129,8 +147,8 @@ weight=37
 axles=4
 cost=1822000
 upgrade_price=1500
-runningcost=91
-
+runningcost=78
+fixed_cost=18949
 
 can_lead_from_rear=0
 bidirectional=1
@@ -174,8 +192,11 @@ retire_year=1998
 retire_month=11
 waytype=track
 freight=Passagiere
-payload=86
-overcrowded_capacity=77
+payload[0]=0
+payload[1]=72
+payload[2]=0
+payload[3]=16
+overcrowded_capacity=55
 length=13
 brake_force=27
 rolling_resistance=13
@@ -183,14 +204,18 @@ rolling_resistance=13
 weight=39
 axles=4
 cost=1822000
-runningcost=91
+runningcost=78
+fixed_cost=6949
 sound=konakaboom-class-165.wav
 
 increase_maintenance_after_years=23
 
 min_loading_time=17
 max_loading_time=55
-comfort=88
+comfort[0]=0
+comfort[1]=88
+comfort[2]=0
+comfort[3]=116
 
 can_lead_from_rear=1
 bidirectional=0

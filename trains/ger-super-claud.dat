@@ -22,7 +22,8 @@ weight=56.8
 axle_load=18
 cost=6650000
 upgrade_price=1330000
-runningcost=1140
+runningcost=177
+fixed_cost=29542
 sound=konakaboom-black-five.wav
 
 Constraint[Next][0]=GER-Claud-Hamilton-Tender

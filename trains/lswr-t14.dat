@@ -19,7 +19,8 @@ length=6
 weight=77.7
 axle_load=17
 cost=9552500
-runningcost=1700
+runningcost=157
+fixed_cost=47960
 sound=konakaboom-black-five.wav
 
 upgrade[0]=LSWR-T14-superheated

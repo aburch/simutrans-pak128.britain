@@ -20,7 +20,8 @@ weight=40
 # Ahrons p. 186
 axle_load=15
 cost=13150000
-runningcost=1756
+runningcost=141
+fixed_cost=34958
 sound=lwalker-br-4mt-tank.wav
 
 upgrade[0]=gnr-g2

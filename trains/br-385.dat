@@ -1,3 +1,6 @@
+# https://en.wikipedia.org/wiki/British_Rail_Class_385
+# https://www.railengineer.uk/2016/04/29/from-shinkansen-to-scotland/
+# https://www.railforums.co.uk/threads/scotrail-class-385-discussion.126141/
 obj=vehicle
 name=BR-385(front)
 engine_type=electric
@@ -10,8 +13,11 @@ intro_year=2017
 intro_month=5
 waytype=track
 freight=Passagiere
-payload=59
-overcrowded_capacity=44
+payload[0]=0
+payload[1]=35
+payload[2]=0
+payload[3]=20
+overcrowded_capacity=6
 length=13
 brake_force=35
 rolling_resistance=13
@@ -19,12 +25,16 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=1057500
-runningcost=126
+runningcost=150
+fixed_cost=6881
 sound=panos-g-class-375.wav
 
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort[0]=0
+comfort[1]=86
+comfort[2]=0
+comfort[3]=106
 
 can_lead_from_rear=1
 bidirectional=0
@@ -57,7 +67,10 @@ intro_year=2017
 intro_month=5
 waytype=track
 freight=Passagiere
-payload=73
+payload[0]=0
+payload[1]=80
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=55
 length=13
 brake_force=30
@@ -66,11 +79,15 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
-
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=17
 max_loading_time=55
+comfort[0]=0
+comfort[1]=86
+comfort[2]=0
+comfort[3]=106
 
 can_lead_from_rear=0
 bidirectional=1
@@ -103,7 +120,10 @@ intro_year=2017
 intro_month=5
 waytype=track
 freight=Passagiere
-payload=73
+payload[0]=0
+payload[1]=83
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=55
 length=13
 brake_force=30
@@ -112,12 +132,15 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
-
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort[0]=0
+comfort[1]=86
+comfort[2]=0
+comfort[3]=106
 
 can_lead_from_rear=0
 bidirectional=1
@@ -150,7 +173,10 @@ intro_year=2017
 intro_month=5
 waytype=track
 freight=Passagiere
-payload=59
+payload[0]=0
+payload[1]=62
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=44
 length=13
 brake_force=35
@@ -159,12 +185,16 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=1057500
-runningcost=126
+runningcost=150
+fixed_cost=6881
 sound=panos-g-class-375.wav
 
 min_loading_time=17
 max_loading_time=55
-comfort=85
+comfort[0]=0
+comfort[1]=86
+comfort[2]=0
+comfort[3]=106
 
 can_lead_from_rear=1
 bidirectional=0

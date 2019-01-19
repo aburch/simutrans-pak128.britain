@@ -17,12 +17,14 @@ weight=4.0
 axles=2
 way_wear_factor=156
 cost=83750
-runningcost=74
+runningcost=35
+fixed_cost=8044
 intro_year=1912
 intro_month=1
 retire_year=1921
 retire_month=1
 is_tall=1
+sound=graham-french-leyland-n-type.wav
 
 comfort=20
 # Rear platform with conductor: 2.0 seconds per passenger

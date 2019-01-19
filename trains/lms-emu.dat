@@ -1,4 +1,5 @@
 # http://en.wikipedia.org/wiki/LMS_electric_units
+# Jenkinson, p. 431
 obj=vehicle
 name=LMS-EMU-driving-trailer
 engine_type=electric
@@ -11,14 +12,18 @@ retire_year=1939
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=100
+payload[0]=0
+payload[1]=96
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=48
 length=10
 
-weight=32
+weight=30.4
 axles=4
 cost=1663000
-runningcost=45
+runningcost=0
+fixed_cost=1980
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=12
 
@@ -28,7 +33,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=75
+comfort[0]=0
+comfort[1]=75
+comfort[2]=0
+comfort[3]=88
 
 Constraint[Prev][0]=LMS-EMU-driving-motor
 Constraint[Prev][1]=none
@@ -71,14 +79,18 @@ retire_year=1939
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=78
-overcrowded_capacity=54
+payload[0]=0
+payload[1]=60
+payload[2]=0
+payload[3]=40
+overcrowded_capacity=30
 length=10
 
-weight=31
+weight=28.4
 axles=4
 cost=1663000
-runningcost=49
+runningcost=0
+fixed_cost=1980
 
 increase_maintenance_after_years=12
 
@@ -88,7 +100,10 @@ way_constraint_permissive[0]=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=91
+comfort[0]=0
+comfort[1]=75
+comfort[2]=0
+comfort[3]=88
 
 Constraint[Prev][0]=LMS-EMU-driving-trailer
 
@@ -131,14 +146,18 @@ retire_year=1939
 retire_month=10
 waytype=track
 freight=Passagiere
-payload=100
-overcrowded_capacity=26
+payload[0]=0
+payload[1]=84
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=42
 length=10
 
-weight=58
+weight=56.9
 axles=4
 cost=1663000
-runningcost=138
+runningcost=317
+fixed_cost=7386
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=12
 
@@ -147,7 +166,10 @@ bidirectional=0
 
 min_loading_time=10
 max_loading_time=40
-comfort=75
+comfort[0]=0
+comfort[1]=75
+comfort[2]=0
+comfort[3]=88
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=LMS-EMU-centre-trailer

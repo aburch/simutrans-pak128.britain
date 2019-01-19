@@ -1,4 +1,5 @@
 # https://www.flickr.com/photos/postalheritage/7982579867
+# These were only for mail, not passengers
 obj=vehicle
 name=ParcelCoach
 copyright=James/jamespetts
@@ -11,7 +12,8 @@ axle_load=1
 way_wear_factor=4
 length=3
 cost=100000
-runningcost=21
+runningcost=0
+fixed_cost=4842
 intro_year=1883
 intro_month=11
 retire_year=1912

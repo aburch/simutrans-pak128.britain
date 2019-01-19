@@ -1,3 +1,4 @@
+# See Jenkinson p. 391
 obj=vehicle
 name=SR-4DD-front
 engine_type=electric
@@ -12,14 +13,16 @@ retire_year=1954
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=120
+payload[0]=0
+payload[1]=120
 overcrowded_capacity=37
 length=11
 
 weight=39
 axles=4
 cost=1850000
-runningcost=113
+runningcost=75
+fixed_cost=7542
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
@@ -27,7 +30,8 @@ bidirectional=0
 
 min_loading_time=45
 max_loading_time=125
-comfort=65
+comfort[0]=0
+comfort[1]=65
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=SR-4DD-rear
@@ -82,14 +86,16 @@ retire_year=1954
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=120
+payload[0]=0
+payload[1]=120
 overcrowded_capacity=37
 length=11
 
 weight=39
 axles=4
 cost=1850000
-runningcost=113
+runningcost=75
+fixed_cost=7542
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
@@ -98,7 +104,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=45
 max_loading_time=125
-comfort=65
+comfort[0]=0
+comfort[1]=65
 
 Constraint[Prev][0]=SR-4DD-TT2
 
@@ -151,15 +158,16 @@ retire_year=1954
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=156
+payload[0]=0
+payload[1]=156
 overcrowded_capacity=40
 length=11
 
 weight=28
 axles=4
 cost=872000
-runningcost=76
-
+runningcost=0
+fixed_cost=1038
 
 can_lead_from_rear=0
 bidirectional=1
@@ -167,7 +175,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=45
 max_loading_time=125
-comfort=65
+comfort[0]=0
+comfort[1]=65
 
 Constraint[Prev][0]=SR-4DD-front
 
@@ -219,15 +228,16 @@ retire_year=1954
 retire_month=9
 waytype=track
 freight=Passagiere
-payload=156
+payload[0]=0
+payload[1]=156
 overcrowded_capacity=40
 length=11
 
 weight=28
 axles=4
 cost=872000
-runningcost=76
-
+runningcost=0
+fixed_cost=1038
 
 can_lead_from_rear=0
 bidirectional=1
@@ -235,7 +245,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=45
 max_loading_time=125
-comfort=65
+comfort[0]=0
+comfort[1]=65
 
 Constraint[Next][0]=SR-4DD-rear
 

@@ -3,26 +3,29 @@ name=Loch
 copyright=Kieron
 waytype=water
 engine_type=diesel
-smoke=diesel
+smoke=Diesel
 speed=18
 power=300
-#gear=1200
 freight=Passagiere
-payload=203
+payload[0]=0
+payload[1]=203
 weight=206
 length=15
 cost=81000000
-runningcost=3100
+runningcost=20
+fixed_cost=233750
 intro_year=1986
 intro_month=7
 retire_year=2007
 retire_month=6
 is_tall=1
 
-comfort=88
+comfort[0]=0
+comfort[1]=88
 # 5-10 minutes
 min_loading_time=300
 max_loading_time=600
+range=80
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

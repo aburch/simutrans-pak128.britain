@@ -17,11 +17,14 @@ weight=7.6
 axles=2
 length=6
 cost=1570000
-runningcost=180
+runningcost=93
+fixed_cost=8818
 intro_year=1951
 intro_month=10
 retire_year=1970
 retire_month=8
+# TODO: Use a more authentic sound for this type.
+sound=video47-bristol-k.wav
 
 comfort=77
 # Coach (short distance): 5.0 seconds per passenger
