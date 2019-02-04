@@ -42,7 +42,7 @@
 2center
 %s Central %s
 2outer
-%s City %s
+%s Bridge %s
 2suburb
 %s Fields %s
 2extern
@@ -56,11 +56,11 @@
 3extern
 %s Fields %s
 4center
-%s Exchange %s
+%s City %s
 4outer
 %s Street %s
 4suburb
-%s Copse %s
+%s Hill %s
 4extern
 %s Heights %s
 5center
@@ -74,33 +74,21 @@
 6extern
 %s Woods %s
 6suburb
-%s Hill %s
+%s Lane %s
 6outer
-%s New Town %s
+%s Green %s
 6center
 %s High Street %s
 7extern
 %s Brook %s
-7outer
-%s Green %s
 7center
 %s Piccadilly %s
-7suburb
-%s Lane %s
 8extern
 %s Meadow %s
-8outer
-%s Bridge %s
-8suburb
-%s Ponds %s
 8center
 %s Square %s
 9extern
 %s Stream %s
-9suburb
-%s Bankside %s
-9outer
-%s Gardens %s
 Aextern
 %s County %s
 Bextern
@@ -121,8 +109,12 @@ Iextern
 %s Grove %s
 Jextern
 %s Barns %s
+Kextern
+%s Ponds %s
+Lextern
+%s Bankside %s
 %s city %d %s
-%s City %d %s
+%s Town %d %s
 %s land %d %s
 %s County %d %s
 %s factory %s %s
@@ -2487,39 +2479,71 @@ Tanker wagon
 FR-Goods-Brake
 FR brake van
 FR-Superbarn
-WHR "Super barn" carriage
+WHR "Super Saloon" (third class)
 FR-Superbarn-service-coach
-WHR "Super barn" service carriage
+WHR service carriage
+WHR-pullman
+WHR Pullman carriage
 FR-Barn
-FR "Barn" carriage
+FR "Centenary" composite carriage (first/third class)
 FR-Barn-Mail
-FR "Barn" mail carriage
+FR "Centenary" mail carriage
 FR-Barn-Buffet
-FR "Barn" buffet carriage
+FR "Centenary" buffet carriage (third class)
 FR-Barn-Brake
-FR "Barn" brake carriage
+FR "Centenary" brake carriage (third class)
 FR-Small-Birmingham-unfitted
-FR "Small Birmingham" knifeboard carriage
+FR "Small Birmingham" knifeboard carriage (third class)
 FR-Small-Birmingham-fitted
-FR "Small Birmingham" knifeboard carriage (continuously braked)
+FR "Small Birmingham" knifeboard carriage (third class) (continuously braked)
+FR-Small-Birmingham-second-unfitted
+FR "Small Birmingham" knifeboard carriage (second class)
+FR-Small-Birmingham-second-fitted
+FR "Small Birmingham" knifeboard carriage (second class) (continuously braked)
+FR-Small-Birmingham-first-unfitted
+FR "Small Birmingham" knifeboard carriage (first class)
+FR-Small-Birmingham-second-fitted
+FR "Small Birmingham" knifeboard carriage (first class) (continuously braked)
 FR-Ashbury-unfitted
-FR two compartment carriage
+FR two compartment carriage (third class)
 FR-Ashbury-fitted
-FR two compartment carriage (continuously braked)
+FR two compartment carriage (third class) (continuously braked)
+FR-Ashbury-first-unfitted
+FR two compartment carriage (first class)
+FR-Ashbury-first-fitted
+FR two compartment carriage (first class) (continuously braked)
 FR-bogie-unfitted
-FR seven compartment bogie carriage
+FR seven compartment bogie tricomposite carriage (first/second/third class)
 FR-bogie-fitted
-FR seven compartment bogie carriage (continuously braked)
+FR seven compartment bogie tricomposite carriage (first/second/third class) (continuously braked)
+fr-sentry-brake
+FR sentry brake van
 FR-bogie-van-unfitted
 FR bogie van
 FR-bogie-van-fitted
 FR bogie van (continuously braked)
 WHR-open
-NWNG open carriage
+NWNG open carriage (third class)
+WHR-composite
+NWNG open composite carriage (first/third class)
 WHR-buffet
-NWNG buffet carriage
+NWNG buffet carriage (third class)
 WHR-brake
 NWNG brake carriage
+FR-hudson-toastrack
+Hudson "toastrack" carriage (third class)
+lbr-third
+L&BR seven compartment carriage (third class)
+lbr-composite
+L&BR six compartment composite carriage (first/third class)
+lbr-brake
+L&BR five compartment brake carriage (third class)
+quarrymens-carriage-open
+Open workers' carriage
+quarrymens-carriage-enclosed
+Semi-enclosed workers' carriage
+quarrymens-carriage-glazed
+Glazed workers' carriage
 George-England
 FR "George England" 0-4-0
 George-England-tender
@@ -2534,17 +2558,29 @@ SingleFairlie-superheated
 FR Single Fairlie 0-4-4T (superheated)
 Hunslet-Alice
 Hunslet "Alice" Class 0-4-0T
-Garratt-K1-front
+hunslet-quarry
+Hunslet Quarry Class 0-4-0T
+hunslet-port
+Hunslet "Port" Class 0-4-0T
+Hunslet-large-quarry
+Hunslet "Large Quarry" Class 0-4-0T
+hunslet-lilla
+Hunslet "Lilla" Class 0-4-0T
+manning-wardle-2-6-2t
+Manning-Wardle 2-6-2T
+manning-wardle-2-6-2t-superheated
+Manning-Wardle 2-6-2T (superheated)
+Garrett-K1-front
 Garratt K1 Class 0-4-0+0-4-0
-Garratt-K1-middle
+Garrett-K1-middle
 Garratt K1 Class 0-4-0+0-4-0 (centre section)
-Garratt-K1-rear
+Garrett-K1-rear
 Garratt K1 Class 0-4-0+0-4-0 (rear section)
-Garratt-NGG16-front
+Garrett-NGG16-front
 Garratt NG G16 Class 2-6-2+2-6-2
-Garratt-NGG16-middle
+Garrett-NGG16-middle
 Garratt NG G16 Class 2-6-2+2-6-2 (centre section)
-Garratt-NGG16-rear
+Garrett-NGG16-rear
 Garratt NG G16 Class 2-6-2+2-6-2 (rear section)
 Hibberd-Planet
 Hibberd Planet Class 4wDM
@@ -3111,11 +3147,11 @@ LBSCR six wheel five compartment carriage (third class)
 LBSCR-6Wheel-5-com-second
 LBSCR six wheel five compartment carriage (second class)
 LBSCR-6Wheel-composite
-LBSCR six wheel five compartment carriage (first/second class composite)
+LBSCR six wheel five compartment composite carriage (first/second class)
 LBSCR-6Wheel-4-com-first
 LBSCR six wheel four compartment carriage (first class)
 LBSCR-6Wheel-brake-front
-LBSCR six wheel three compartment brake carriage
+LBSCR six wheel three compartment brake carriage (third class)
 LBSCR-6Wheel-brake-rear
 LBSCR six wheel three compartment brake carriage (rear)
 LBSCR-6Wheel-mail
@@ -4387,11 +4423,11 @@ Cartic car transporter (centre)
 Cartic-4_Car_Transporter(Rear)
 Cartic car transporter (rear)
 Bulk16T
-BR 16t bulk wagon
+16t bulk wagon
 BulkRCH12T
-RCH 12t bulk wagon
+12t bulk wagon
 BulkRCH10T
-RCH 10t bulk wagon
+10t bulk wagon
 Bulk8T
 8t bulk wagon
 Bulk5T
@@ -4405,7 +4441,7 @@ BR HAA hopper
 Bulk Hopper(HTA)
 BR HTA hopper
 RCH-Tanker
-RCH tanker wagon
+Tanker wagon
 Air braked tanker (TTA)
 BR TTA Air-braked Tanker
 Bogie tanker(TEA)
@@ -4432,14 +4468,18 @@ LNER-Coronation-RearBrake-Third-Twin(rear)
 LNER "Coronation" carriage (rear brake twin)
 LNER-Coronation-Observation
 LNER "Coronation" observation car
-LMS-Coronation-BFK(Maroon)
-LMS "Coronation Scot" carriage (front brake)
-LMS-Coronation-BTK(Maroon)
-LMS "Coronation Scot" carriage (rear brake)
-LMS-Coronation-FK(Maroon)
-LMS "Coronation Scot" dining carriage
-LMS-Coronation-TO(Maroon)
-LMS "Coronation Scot" carriage 
+lms-coronation-bfk
+LMS "Coronation Scot" corridor brake carriage (third class)
+lms-coronation-btk
+LMS "Coronation Scot" corridor brake carriage (first class) (rear)
+lms-coronation-fk
+LMS "Coronation Scot" corridor carriage (first class)
+lms-coronation-to
+LMS "Coronation Scot" open vestibule carriage (third class)
+lms-coronation-kitchen
+LMS "Coronation Scot" kitchen car
+lms-coronation-fo
+LMS "Coronation Scot" dining car (first class)
 MR-Clerestory-Brake
 Midland clerestory carriage (brake)
 MR-Clerestory-Coach
@@ -4577,23 +4617,29 @@ LMS mail/brake carriage
 LMS-period1-cor-diner
 LMS dining car
 LMS-non-cor-lav
-LMS eight compartment lavatory carriage
+LMS eight compartment lavatory composite carriage (first/third class)
+LMS-non-cor-lav-first
+LMS seven compartment lavatory carriage (first class)
 LMS-non-cor-non-lav
-LMS nine compartment carriage
+LMS nine compartment carriage (third class)
+LMS-non-cor-non-lav-composite
+LMS nine compartment composite carriage (first/third class)
+LMS-non-cor-non-lav-first
+LMS eight compartment carriage (first class)
 LMS-non-cor-brake-front
-LMS six compartment brake carriage
+LMS six compartment brake carriage (third class)
 LMS-non-cor-brake-rear
-LMS six compartment brake carriage (rear)
+LMS six compartment brake carriage (third class) (rear)
 LMS-non-cor-brake-lav-front
-LMS five compartment lavatory brake carriage
+LMS five compartment lavatory brake carriage (third class)
 LMS-non-cor-brake-lav-rear
-LMS five compartment lavatory brake carriage (rear)
+LMS five compartment lavatory brake carriage (third class) (rear)
 LMS-push-pull-brake
-LMS push-pull set (driving trailer)
+LMS push-pull set (driving brake) (third class)
 LMS-push-pull-centre-1
-LMS push-pull set (centre trailer)
+LMS push-pull set (centre trailer composite) (first/third class)
 LMS-push-pull-centre-2
-LMS push-pull set (centre trailer)
+LMS push-pull set (centre trailer) (third class)
 MR-push-pull-front
 Midland push-pull set (front)
 MR-push-pull-rear
@@ -5132,6 +5178,8 @@ LivestockEarly3
 Livestock wagon
 LivestockD21
 8t livestock wagon
+livestock-10t
+10t livestock wagon
 LivestockD25
 12t livestock wagon
 Livestock16T
@@ -5208,6 +5256,8 @@ BrakeD16
 10t brake van
 BrakeD93
 20t brake van
+brake-6w-15t
+15t brake van
 BrakeGWR
 GWR 20t "toad" brake van
 BrakeLMS
@@ -5577,27 +5627,49 @@ L&TSR 79 Class 4-4-2T
 ltsr-87-class
 L&TSR 87 Class 4-6-4T
 ltsr-cor
-L&TSR corridor vestibule carriage
+L&TSR corridor vestibule carriage (third class)
+ltsr-cor-composite
+L&TSR corridor vestibule composite carriage (first/third class)
 ltsr-cor-brake
-L&TSR corridor vestibule brake carriage
+L&TSR corridor vestibule brake carriage (third class)
 ltsr-4wheel-brake-dia21
-L&TSR 4 wheel 2 compartment brake carriage
+L&TSR 4 wheel 2 compartment brake carriage (third class)
 ltsr-4wheel-dia12
-L&TSR 4 wheel 5 compartment carriage
+L&TSR 4 wheel 5 compartment carriage (third class)
+ltsr-4wheel-composite-dia7
+L&TSR 4 wheel 4 compartment composite carriage (first/second class)
+ltsr-4wheel-first-dia1
+L&TSR 5 wheel 4 compartment carriage (first class)
 ltsr-4wheel-full-brake-dia29
 L&TSR 4 wheel full brake carriage
 ltsr-4wheel-mail
 L&TSR 4 wheel mail carriage
 ltsr-6wheel-dia17
-L&TSR 6 wheel 6 compartment carriage
+L&TSR 6 wheel 6 compartment carriage (third class)
+ltsr-6wheel-composite-dia8
+L&TSR 6 wheel 4 compartment composite carriage (first/third class)
+ltsr-6wheel-composite-dia9
+L&TSR 6 wheel 4 compartment composite carriage (first/second class)
+ltsr-6wheel-dia4
+L&TSR 6 wheel 4 compartment carriage (first class)
 ltsr-6wheel-brake-dia22
-L&TSR 6 wheel 3 compartment brake carriage
+L&TSR 6 wheel 3 compartment brake carriage (third class)
 ltsr-46ft-bogie-dia18
 L&TSR bogie 8 compartment carriage
 ltsr-46ft-bogie-lav
-L&TSR bogie 7 compartment lavatory carriage
+L&TSR bogie 7 compartment lavatory carriage (third class)
 ltsr-46ft-bogie-brake-dia26
-L&TSR bogie 4 compartment brake carriage
+L&TSR bogie 4 compartment brake carriage (third class)
+ltsr-48ft-bogie-dia10
+L&TSR bogie 8 compartment composite carriage (first/third class)
+ltsr-48ft-bogie-dia6
+L&TSR bogie 7 compartment carriage (first class)
+ltsr-48ft-bogie-lav-composite
+L&TSR bogie 7 compartment lavatory composite carriage (first/third class)
+ltsr-48ft-bogie-lav-first
+L&TSR bogie 6 compartment lavatory carriage (first class)
+ltsr-dining-saloon
+L&TSR bogie dining saloon (first class)
 LNWR-BClass
 LNWR B Class 0-8-0
 LNWR-G1Class
@@ -5750,7 +5822,7 @@ LBSCR-sharp-well-tank
 LBSCR Sharp well tank 2-2-2WT
 LBR-2-4-0T
 L&BR small tank 2-4-0T
-LNWR-8wheel-radial-brake-front
+LNWR-8wheel-radial-brake
 LNWR eight wheel (radial) four compartment brake (third class)
 LNWR-8wheel-radial-brake-lav-front
 LNWR eight wheel (radial) three compartment lavatory brake (third class)
@@ -5801,33 +5873,51 @@ LNWR bogie mail carriage (42ft)
 LNWR-42ft-non-cor-full-brake
 LNWR bogie mail/brake carriage (42ft)
 LNWR-45ft-non-cor-lav
-LNWR five compartment bogie lavatory carriage (45ft)
+LNWR five compartment bogie lavatory carriage (third class) (45ft)
+LNWR-45ft-non-cor-lav-tricomposite
+LNWR five compartment bogie lavatory tricomposite carriage (first/second/third class) (45ft)
 LNWR-45ft-non-cor-lav-brake
-LNWR four compartment bogie lavatory brake carriage (45ft)
+LNWR four compartment bogie lavatory brake carriage (third class) (45ft)
 LNWR-50ft-non-cor-arc-brake-front
-LNWR six compartment bogie brake carriage (50ft)
+LNWR six compartment bogie brake carriage (third class) (50ft)
 LNWR-50ft-non-cor-arc
-LNWR eight compartment bogie carriage (50ft)
+LNWR eight compartment bogie carriage (third class) (50ft)
+LNWR-50ft-non-cor-arc-composite
+LNWR seven compartment bogie composite carriage (first/second class) (50ft)
+LNWR-50ft-non-cor-arc-first
+LNWR six compartment bogie carriage (first class) (50ft)
 LNWR-50ft-non-cor-arc-brake-rear
 LNWR six compartment bogie brake carriage (rear) (50ft)
 LNWR-50ft-non-cor-eliptical-brake-front
-LNWR four compartment brake carriage (50ft)
+LNWR four compartment brake carriage (third class) (50ft)
 LNWR-50ft-non-cor-eliptical-brake-rear
-LNWR four compartment brake carriage (rear)
+LNWR four compartment brake carriage (third class) (rear)
 LNWR-50ft-non-cor-eliptical
-LNWR eight compartment carriage
+LNWR eight compartment carriage (third class)
+LNWR-50ft-non-cor-eliptical-composite-first-second
+LNWR seven compartment composite carriage (first/second class)
+LNWR-50ft-non-cor-eliptical-composite-first-third
+LNWR seven compartment composite carriage (first/third class)
+LNWR-54ft-non-cor-lav-composite
+LNWR six compartment lavatory tricomposite carriage (first/second/third class)
+LNWR-54ft-non-cor-lav-third
+LNWR seven compartment lavatory carriage (third class)
 LNWR-57ft-non-cor-lav-brake-front
-LNWR five compartment lavatory brake carriage
+LNWR five compartment lavatory brake carriage (third class)
 LNWR-57ft-non-cor-lav-brake-rear
-LNWR five compartment lavatory brake carriage (rear)
+LNWR five compartment lavatory brake carriage (third class) (rear)
 LNWR-57ft-non-cor-lav
-LNWR six compartment lavatory carriage
+LNWR six compartment lavatory composite carriage (first/third class)
 LNWR-57ft-non-cor-brake-front
-LNWR six compartment brake carriage
+LNWR six compartment brake carriage (third class)
+LNWR-57ft-non-cor-composite
+LNWR nine compartment composite carriage (first/third class)
+LNWR-57ft-non-cor-first
+LNWR eight compartment carriage (first class)
 LNWR-57ft-non-cor-brake-rear
-LNWR six compartment brake carriage (rear)
+LNWR six compartment brake carriage (third class) (rear)
 LNWR-57ft-non-cor
-LNWR nine compartment carriage
+LNWR nine compartment carriage (third class)
 BR-Derby-Lightweight-DTCL
 BR Derby Lightweight DMU (rear)
 BR-Derby-Lightweight-DMBS
@@ -8255,6 +8345,8 @@ StagingPost
 Staging post
 StagingInn
 Staging inn
+LargeInn
+Staging inn (large)
 staging-post-rail
 Staging post
 ModernBusShelter
@@ -9178,6 +9270,8 @@ London-&-Birmingham
 London & Birmingham
 Stockton-Darlington
 Stockton & Darlington
+LMS-Coronation-Scot
+LMS Coronation Scot
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]
