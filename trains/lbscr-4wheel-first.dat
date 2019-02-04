@@ -13,7 +13,7 @@ freight=Passagiere
 payload[0]=0
 payload[1]=0
 payload[2]=0
-payload[3]=30
+payload[3]=12
 overcrowded_capacity=15
 length=5
 brake_force=0
@@ -30,8 +30,8 @@ upgrade[0]=LBSCR-4Wheel-First-fitted
 
 comfort[0]=0
 comfort[1]=62
-comfort[2]=62
-comfort[3]=62
+comfort[2]=68
+comfort[3]=77
 min_loading_time=17
 max_loading_time=47
 
@@ -100,7 +100,7 @@ freight=Passagiere
 payload[0]=0
 payload[1]=0
 payload[2]=0
-payload[3]=30
+payload[3]=12
 overcrowded_capacity=15
 length=5
 brake_force=5
@@ -116,8 +116,8 @@ fixed_cost=405
 
 comfort[0]=0
 comfort[1]=62
-comfort[2]=62
-comfort[3]=62
+comfort[2]=68
+comfort[3]=77
 min_loading_time=17
 max_loading_time=47
 
