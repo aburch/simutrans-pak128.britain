@@ -231,7 +231,7 @@ runningcost=0
 fixed_cost=381
 
 comfort[0]=0
-comfort[1]=98
+comfort[1]=73
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -304,8 +304,8 @@ retire_month=4
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=60
-overcrowded_capacity=30
+payload[1]=50
+overcrowded_capacity=25
 length=8
 
 weight=19
@@ -315,7 +315,7 @@ runningcost=0
 fixed_cost=5181
 
 comfort[0]=0
-comfort[1]=98
+comfort[1]=73
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
@@ -367,8 +367,8 @@ retire_month=4
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=60
-overcrowded_capacity=30
+payload[1]=50
+overcrowded_capacity=25
 length=8
 
 weight=19
@@ -378,7 +378,7 @@ runningcost=0
 fixed_cost=5181
 
 comfort[0]=0
-comfort[1]=98
+comfort[1]=73
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
