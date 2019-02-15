@@ -1,7 +1,7 @@
 # See http://basilicafields.wordpress.com/2010/12/19/lbscr-carriages
 # Four compartments (but compartment capacity as a third)
 obj=vehicle
-name=LBSCR-4Wheel-First
+name=LBSCR-4Wheel-composite
 speed=145
 copyright=Kieron
 intro_year=1872
@@ -12,8 +12,8 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=0
-payload[2]=0
-payload[3]=24
+payload[2]=16
+payload[3]=12
 overcrowded_capacity=0
 length=5
 brake_force=0
@@ -88,7 +88,7 @@ EmptyImage[NE][3]=./images/lbscr-4wheel-first-olive_NE.0.0
 # but are more expensive.
 
 obj=vehicle
-name=LBSCR-4Wheel-First-fitted
+name=LBSCR-4Wheel-composite-fitted
 speed=145
 copyright=Kieron
 intro_year=1875
@@ -99,8 +99,8 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=0
-payload[2]=0
-payload[3]=24
+payload[2]=16
+payload[3]=12
 overcrowded_capacity=0
 length=5
 brake_force=5
