@@ -58,7 +58,7 @@ Constraint[Prev][20]=LBSCR-6Wheel-composite
 Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
 Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
-
+Constraint[Prev][24]=LBSCR-4Wheel-third-fitted
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -84,7 +84,7 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
-
+Constraint[Next][24]=LBSCR-4Wheel-third-fitted
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -186,7 +186,7 @@ Constraint[Prev][20]=LBSCR-6Wheel-composite
 Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
 Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
-
+Constraint[Prev][24]=LBSCR-4Wheel-third-fitted
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -212,6 +212,7 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Next][24]=LBSCR-4Wheel-third-fitted
 
 
 liverytype[0]=LBSCR-Stroudley
@@ -315,7 +316,7 @@ Constraint[Prev][20]=LBSCR-6Wheel-composite
 Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
 Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
-
+Constraint[Prev][24]=LBSCR-4Wheel-third-fitted
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -341,6 +342,7 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Next][24]=LBSCR-4Wheel-third-fitted
 
 
 liverytype[0]=LBSCR-Stroudley
@@ -443,7 +445,7 @@ Constraint[Prev][20]=LBSCR-6Wheel-composite
 Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
 Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
-
+Constraint[Prev][24]=LBSCR-4Wheel-third-fitted
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -469,6 +471,7 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Next][24]=LBSCR-4Wheel-third-fitted
 
 
 liverytype[0]=LBSCR-Stroudley
@@ -568,6 +571,7 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Next][24]=LBSCR-4Wheel-third-fitted
 Constraint[Next][24]=none
 
 liverytype[0]=LBSCR-Stroudley
@@ -666,6 +670,7 @@ Constraint[Prev][20]=LBSCR-6Wheel-composite
 Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
 Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Prev][24]=LBSCR-4Wheel-third-fitted
 
 
 liverytype[0]=LBSCR-Stroudley
@@ -736,6 +741,59 @@ bidirectional=1
 min_loading_time=35
 max_loading_time=100
 
+Constraint[Prev][0]=LBSCR-4Wheel-Brake-front-fitted
+Constraint[Prev][1]=LBSCR-4Wheel-First-fitted
+Constraint[Prev][2]=LBSCR-4Wheel-full-brake-fitted
+Constraint[Prev][3]=LBSCR-4Wheel-Second-fitted
+Constraint[Prev][4]=LBSCR-6Wheel-5-com
+Constraint[Prev][5]=LBSCR-6Wheel-brake-front
+Constraint[Prev][6]=LBSCR-6Wheel-guard
+Constraint[Prev][7]=LBSCR-6Wheel-mail
+Constraint[Prev][8]=LBSCR-balloon
+Constraint[Prev][9]=LBSCR-balloon-brake-front
+Constraint[Prev][10]=LBSCR-balloon-full-brake
+Constraint[Prev][11]=LBSCR-non-cor-lav
+Constraint[Prev][12]=LBSCR-non-cor-lav-brake-front
+Constraint[Prev][13]=LBSCR-sub-bogie-48ft
+Constraint[Prev][14]=LBSCR-sub-bogie-48ft-brake-front
+Constraint[Prev][15]=LBSCR-sub-bogie-54ft
+Constraint[Prev][16]=LBSCR-sub-bogie-54ft-brake-front
+Constraint[Prev][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Prev][18]=LBSCR-6Wheel-fast-freight-van
+Constraint[Prev][19]=LBSCR-6Wheel-5-com-second
+Constraint[Prev][20]=LBSCR-6Wheel-composite
+Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
+Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
+Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Prev][24]=LBSCR-4Wheel-third-fitted
+
+Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
+Constraint[Next][1]=LBSCR-4Wheel-First-fitted
+Constraint[Next][2]=LBSCR-4Wheel-full-brake-fitted
+Constraint[Next][3]=LBSCR-4Wheel-Second-fitted
+Constraint[Next][4]=LBSCR-6Wheel-5-com
+Constraint[Next][5]=LBSCR-6Wheel-brake-rear
+Constraint[Next][6]=LBSCR-6Wheel-guard
+Constraint[Next][7]=LBSCR-6Wheel-mail
+Constraint[Next][8]=LBSCR-balloon
+Constraint[Next][9]=LBSCR-balloon-brake-rear
+Constraint[Next][10]=LBSCR-balloon-full-brake
+Constraint[Next][11]=LBSCR-non-cor-lav
+Constraint[Next][12]=LBSCR-non-cor-lav-brake-rear
+Constraint[Next][13]=LBSCR-sub-bogie-48ft
+Constraint[Next][14]=LBSCR-sub-bogie-48ft-brake-rear
+Constraint[Next][15]=LBSCR-sub-bogie-54ft
+Constraint[Next][16]=LBSCR-sub-bogie-54ft-brake-rear
+Constraint[Next][17]=LBSCR-6Wheel-fruit-and-milk-van
+Constraint[Next][18]=LBSCR-6Wheel-fast-freight-van
+Constraint[Next][19]=LBSCR-6Wheel-5-com-second
+Constraint[Next][20]=LBSCR-6Wheel-composite
+Constraint[Next][21]=LBSCR-6Wheel-4-com-first
+Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
+Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Next][24]=LBSCR-4Wheel-third-fitted
+
+	
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=LBSCR-Late
@@ -828,7 +886,7 @@ Constraint[Prev][20]=LBSCR-6Wheel-composite
 Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
 Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
-
+Constraint[Prev][24]=LBSCR-4Wheel-third-fitted
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -854,6 +912,7 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Next][24]=LBSCR-4Wheel-third-fitted
 
 
 liverytype[0]=LBSCR-Stroudley
@@ -949,7 +1008,7 @@ Constraint[Prev][20]=LBSCR-6Wheel-composite
 Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
 Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
-
+Constraint[Prev][24]=LBSCR-4Wheel-third-fitted
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -975,6 +1034,7 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Next][24]=LBSCR-4Wheel-third-fitted
 
 
 liverytype[0]=LBSCR-Stroudley
@@ -1070,7 +1130,7 @@ Constraint[Prev][20]=LBSCR-6Wheel-composite
 Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
 Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
-
+Constraint[Prev][24]=LBSCR-4Wheel-third-fitted
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -1096,6 +1156,8 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Next][24]=LBSCR-4Wheel-third-fitted
+
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
