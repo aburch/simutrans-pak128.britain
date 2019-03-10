@@ -1101,8 +1101,7 @@ runningcost=0
 fixed_cost=405
 
 upgrade[0]=LNWR-8wheel-radial-lav-tricomposite
-# TODO: Upgrade these to the correct types when these are produced.
-upgrade[1]=LNWR-42ft-non-cor-non-lav
+upgrade[1]=LNWR-42ft-non-cor-non-lav-composite
 
 comfort[0]=0
 comfort[1]=63
