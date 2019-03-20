@@ -19,7 +19,12 @@ Constraint[Next][1]=FlyboatCool
 Constraint[Next][2]=FlyboatMail
 Constraint[Next][3]=FlyboatPax
 Constraint[Next][4]=SteelHullDumbBargeBulk
-Constraint[Next][5]=none
+Constraint[Next][5]=HorseBargeBulk
+Constraint[Next][6]=HorseBargeLong
+Constraint[Next][7]=HorseBargePiece
+Constraint[Next][8]=HorseBargeCool
+Constraint[Next][9]=HorseBargeLivestock
+Constraint[Next][10]=none
 
 
 weight=1
@@ -95,7 +100,12 @@ Constraint[Next][40]=TubBoatCool
 Constraint[Next][41]=MarketBarge
 Constraint[Next][42]=MarketNarrowboat
 Constraint[Next][43]=PacketBarge
-Constraint[Next][44]=none
+Constraint[Next][44]=HorseBargeBulk
+Constraint[Next][45]=HorseBargeLong
+Constraint[Next][46]=HorseBargePiece
+Constraint[Next][47]=HorseBargeCool
+Constraint[Next][48]=HorseBargeLivestock
+Constraint[Next][49]=none
 
 
 weight=1
