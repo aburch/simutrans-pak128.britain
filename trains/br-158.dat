@@ -156,12 +156,11 @@ Constraint[Prev][1]=br-158-front
 Constraint[Next][0]=br-150-front
 Constraint[Next][1]=br-153
 Constraint[Next][2]=br-158-front
-Constraint[Next][3]=BR-158Front-Trolley(Regional)
-Constraint[Next][4]=br-156-front
-Constraint[Next][5]=br-153-trolley
-Constraint[Next][6]=br-156-front-trolley
-Constraint[Next][7]=br-142-front
-Constraint[Next][8]=none
+Constraint[Next][3]=br-156-front
+Constraint[Next][4]=br-153-trolley
+Constraint[Next][5]=br-156-front-trolley
+Constraint[Next][6]=br-142-front
+Constraint[Next][7]=none
 
 EmptyImage[E]=./images/br-158-rr.2.0
 EmptyImage[SE]=./images/br-158-rr.2.1
