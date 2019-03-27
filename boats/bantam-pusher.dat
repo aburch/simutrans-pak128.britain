@@ -23,18 +23,18 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Next][0]=none
+
 Constraint[Prev][0]=SteelHullDumbBargeBulk
 Constraint[Prev][1]=SteelHullDumbBargeLong
 Constraint[Prev][2]=SteelHullDumbBargePiece
 Constraint[Prev][3]=SteelHullDumbBargeCool
-Constraint[Prev][4]=SteelHullDumbBargeMail
+Constraint[Prev][4]=WoodenHullDumbBargeLivestock
 Constraint[Prev][5]=SteelHullDumbBargeLivestock
 Constraint[Prev][6]=WoodenHullDumbBargeBulk
 Constraint[Prev][7]=WoodenHullDumbBargeLong
 Constraint[Prev][8]=WoodenHullDumbBargePiece
 Constraint[Prev][9]=WoodenHullDumbBargeCool
-Constraint[Prev][10]=WoodenHullDumbBargeMail
-Constraint[Prev][11]=WoodenHullDumbBargeLivestock
+
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -56,4 +56,3 @@ EmptyImage[W][1]=./images/bantam-tug-bw.1.0
 EmptyImage[NW][1]=./images/bantam-tug-bw.1.1
 EmptyImage[N][1]=./images/bantam-tug-bw.1.2
 EmptyImage[NE][1]=./images/bantam-tug-bw.1.3
-

@@ -1239,9 +1239,8 @@ EmptyImage[N][1]=./images/lnwr-42ft-non-cor-non-lav-lms_N.0.0
 EmptyImage[NE][1]=./images/lnwr-42ft-non-cor-non-lav-lms_NE.0.0
 
 ---
-# Unclear whether this type would exist as records of 2nd class vehicles not available.
-# Assume 2nd/3rd composite.
-# See Jenkinson (LNWR) p. 110
+# Presumably the same as the 5 1/2 compartment vehicle shown on
+# Jenkinson (LNWR) p. 111
 
 obj=vehicle
 name=LNWR-42ft-non-cor-non-lav-first
@@ -1461,8 +1460,6 @@ cost=350000
 upgrade_price=12000
 runningcost=0
 fixed_cost=5217
-
-upgrade[0]=LNWR-8wheel-radial-brake-lav-rear
 
 comfort[0]=0
 comfort[1]=66

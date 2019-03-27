@@ -496,8 +496,7 @@ runningcost=0
 fixed_cost=633
 cost=530000
 
-# TODO: Allow these to upgrade to the correct class once the classed vehicles become available.
-upgrade[0]=LNWR-42ft-non-cor-lav
+upgrade[0]=LNWR-42ft-non-cor-lav-first
 
 comfort[0]=0
 comfort[1]=70
@@ -1102,8 +1101,7 @@ runningcost=0
 fixed_cost=405
 
 upgrade[0]=LNWR-8wheel-radial-lav-tricomposite
-# TODO: Upgrade these to the correct types when these are produced.
-upgrade[1]=LNWR-42ft-non-cor-non-lav
+upgrade[1]=LNWR-42ft-non-cor-non-lav-composite
 
 comfort[0]=0
 comfort[1]=63
@@ -1279,6 +1277,7 @@ EmptyImage[NE][1]=./images/lnwr-8wheel-radial-non-lav-lms_NE.0.0
 ----
 # Diagram number not known
 # See picture/caption at the top of Jenkinson (LNWR) p. 111
+# 5 1/2 compartment
 
 obj=vehicle
 name=LNWR-8wheel-radial-non-lav-first
