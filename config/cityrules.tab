@@ -42,13 +42,13 @@ bridge_success_percentage = 35
 
 # Note that the below scores are stored as signed 16 bit integers.
 # avoid building next to industry
-res_start_score = 575
+res_start_score = 1125
 res_near_ind = -8
 res_near_com = 0
-res_near_res = 25
+res_near_res = 30
 
 # everywhere is good, next to com best
-com_start_score = -125
+com_start_score = -133
 com_near_ind = 1
 com_near_com = 6
 com_near_res = 0
