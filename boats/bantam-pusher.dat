@@ -28,13 +28,14 @@ Constraint[Prev][0]=SteelHullDumbBargeBulk
 Constraint[Prev][1]=SteelHullDumbBargeLong
 Constraint[Prev][2]=SteelHullDumbBargePiece
 Constraint[Prev][3]=SteelHullDumbBargeCool
-Constraint[Prev][4]=WoodenHullDumbBargeLivestock
-Constraint[Prev][5]=SteelHullDumbBargeLivestock
-Constraint[Prev][6]=WoodenHullDumbBargeBulk
-Constraint[Prev][7]=WoodenHullDumbBargeLong
-Constraint[Prev][8]=WoodenHullDumbBargePiece
-Constraint[Prev][9]=WoodenHullDumbBargeCool
-
+Constraint[Prev][4]=SteelHullDumbBargeLivestock
+Constraint[Prev][5]=SteelHullDumbBargeOil
+Constraint[Prev][6]=WoodenHullDumbBargeLivestock
+Constraint[Prev][7]=WoodenHullDumbBargeBulk
+Constraint[Prev][8]=WoodenHullDumbBargeLong
+Constraint[Prev][9]=WoodenHullDumbBargePiece
+Constraint[Prev][10]=WoodenHullDumbBargeCool
+Constraint[Prev][11]=WoodenHullDumbBargeOil
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
