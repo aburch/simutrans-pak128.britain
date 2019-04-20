@@ -2,10 +2,11 @@ obj=vehicle
 name=BR-Mk3-DVT
 speed=200
 copyright=Kieron
-intro_year=1985
-intro_month=5
-retire_year=1989
-retire_month=11
+intro_year=1988
+intro_month=2
+# Was November 1989, but players might want to build these later to work with existing carriages
+retire_year=1995
+retire_month=4
 waytype=track
 freight=Post
 payload=300
