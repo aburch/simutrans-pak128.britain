@@ -421,6 +421,8 @@ Constraint[Next][12]=district-4-wheel-second-fitted
 Constraint[Next][13]=district-4-wheel-first-fitted
 Constraint[Next][14]=met-jubilee-second
 Constraint[Next][15]=met-jubilee-first
+Constraint[Next][16]=met-bogie-second
+Constraint[Next][17]=met-bogie-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -438,6 +440,8 @@ Constraint[Prev][12]=district-4-wheel-second-fitted
 Constraint[Prev][13]=district-4-wheel-first-fitted
 Constraint[Prev][14]=met-jubilee-second
 Constraint[Prev][15]=met-jubilee-first
+Constraint[Prev][16]=met-bogie-second
+Constraint[Prev][17]=met-bogie-first
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -512,6 +516,8 @@ Constraint[Next][12]=district-4-wheel-second-fitted
 Constraint[Next][13]=district-4-wheel-first-fitted
 Constraint[Next][14]=met-jubilee-second
 Constraint[Next][15]=met-jubilee-first
+Constraint[Next][16]=met-bogie-second
+Constraint[Next][17]=met-bogie-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -529,6 +535,8 @@ Constraint[Prev][12]=district-4-wheel-second-fitted
 Constraint[Prev][13]=district-4-wheel-first-fitted
 Constraint[Prev][14]=met-jubilee-second
 Constraint[Prev][15]=met-jubilee-first
+Constraint[Prev][16]=met-bogie-second
+Constraint[Prev][17]=met-bogie-first
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -603,6 +611,8 @@ Constraint[Next][12]=district-4-wheel-second-fitted
 Constraint[Next][13]=district-4-wheel-first-fitted
 Constraint[Next][14]=met-jubilee-second
 Constraint[Next][15]=met-jubilee-first
+Constraint[Next][16]=met-bogie-second
+Constraint[Next][17]=met-bogie-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -620,6 +630,8 @@ Constraint[Prev][12]=district-4-wheel-second-fitted
 Constraint[Prev][13]=district-4-wheel-first-fitted
 Constraint[Prev][14]=met-jubilee-second
 Constraint[Prev][15]=met-jubilee-first
+Constraint[Prev][16]=met-bogie-second
+Constraint[Prev][17]=met-bogie-first
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -694,7 +706,9 @@ Constraint[Next][12]=district-4-wheel-second-fitted
 Constraint[Next][13]=district-4-wheel-first-fitted
 Constraint[Next][14]=met-jubilee-second
 Constraint[Next][15]=met-jubilee-first
-Constraint[Next][16]=none
+Constraint[Next][16]=met-bogie-second
+Constraint[Next][17]=met-bogie-first
+Constraint[Next][18]=none
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
@@ -769,7 +783,9 @@ Constraint[Next][12]=district-4-wheel-second-fitted
 Constraint[Next][13]=district-4-wheel-first-fitted
 Constraint[Next][14]=met-jubilee-second
 Constraint[Next][15]=met-jubilee-first
-Constraint[Next][16]=none
+Constraint[Next][16]=met-bogie-second
+Constraint[Next][17]=met-bogie-first
+Constraint[Next][18]=none
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -787,6 +803,8 @@ Constraint[Prev][12]=district-4-wheel-second-fitted
 Constraint[Prev][13]=district-4-wheel-first-fitted
 Constraint[Prev][14]=met-jubilee-second
 Constraint[Prev][15]=met-jubilee-first
+Constraint[Prev][16]=met-bogie-second
+Constraint[Prev][17]=met-bogie-first
 
 liverytype[0]=Metropolitan-Green
 liverytype[1]=LT
