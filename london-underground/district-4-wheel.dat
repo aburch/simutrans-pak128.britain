@@ -426,6 +426,8 @@ Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
 Constraint[Next][12]=district-4-wheel-second-fitted
 Constraint[Next][13]=district-4-wheel-first-fitted
+Constraint[Next][14]=met-jubilee-second
+Constraint[Next][15]=met-jubilee-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -441,6 +443,8 @@ Constraint[Prev][10]=district-4-wheel-third-fitted
 Constraint[Prev][11]=district-4-wheel-brake-front-fitted
 Constraint[Prev][12]=district-4-wheel-second-fitted
 Constraint[Prev][13]=district-4-wheel-first-fitted
+Constraint[Prev][14]=met-jubilee-second
+Constraint[Prev][15]=met-jubilee-first
 
 liverytype[0]=District-Standard
 liverytype[1]=LT
@@ -514,6 +518,8 @@ Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
 Constraint[Next][12]=district-4-wheel-second-fitted
 Constraint[Next][13]=district-4-wheel-first-fitted
+Constraint[Next][14]=met-jubilee-second
+Constraint[Next][15]=met-jubilee-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -529,6 +535,8 @@ Constraint[Prev][10]=district-4-wheel-third-fitted
 Constraint[Prev][11]=district-4-wheel-brake-front-fitted
 Constraint[Prev][12]=district-4-wheel-second-fitted
 Constraint[Prev][13]=district-4-wheel-first-fitted
+Constraint[Prev][14]=met-jubilee-second
+Constraint[Prev][15]=met-jubilee-first
 
 liverytype[0]=District-Standard
 liverytype[1]=LT
@@ -602,6 +610,8 @@ Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
 Constraint[Next][12]=district-4-wheel-second-fitted
 Constraint[Next][13]=district-4-wheel-first-fitted
+Constraint[Next][14]=met-jubilee-second
+Constraint[Next][15]=met-jubilee-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -617,6 +627,8 @@ Constraint[Prev][10]=district-4-wheel-third-fitted
 Constraint[Prev][11]=district-4-wheel-brake-front-fitted
 Constraint[Prev][12]=district-4-wheel-second-fitted
 Constraint[Prev][13]=district-4-wheel-first-fitted
+Constraint[Prev][14]=met-jubilee-second
+Constraint[Prev][15]=met-jubilee-first
 
 liverytype[0]=District-Standard
 liverytype[1]=LT
@@ -693,7 +705,9 @@ Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
 Constraint[Next][12]=district-4-wheel-second-fitted
 Constraint[Next][13]=district-4-wheel-first-fitted
-Constraint[Next][15]=none
+Constraint[Next][14]=met-jubilee-second
+Constraint[Next][15]=met-jubilee-first
+Constraint[Next][16]=none
 
 EmptyImage[E][0]=./images/district-4-wheel-brake-front_E.0.0
 EmptyImage[SE][0]=./images/district-4-wheel-brake-front_SE.0.0
@@ -750,9 +764,6 @@ comfort[1]=39
 comfort[2]=42
 comfort[3]=58
 
-liverytype[0]=District-Standard
-liverytype[1]=LT
-
 Constraint[Next][0]=met-jubilee-third
 Constraint[Next][1]=met-jubilee-brake-rear
 Constraint[Next][2]=met-ashbury-1863-brake-rear-fitted
@@ -767,7 +778,9 @@ Constraint[Next][10]=district-4-wheel-third-fitted
 Constraint[Next][11]=district-4-wheel-brake-rear-fitted
 Constraint[Next][12]=district-4-wheel-second-fitted
 Constraint[Next][13]=district-4-wheel-first-fitted
-Constraint[Next][14]=none
+Constraint[Next][14]=met-jubilee-second
+Constraint[Next][15]=met-jubilee-first
+Constraint[Next][16]=none
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -783,6 +796,11 @@ Constraint[Prev][10]=district-4-wheel-third-fitted
 Constraint[Prev][11]=district-4-wheel-brake-front-fitted
 Constraint[Prev][12]=district-4-wheel-second-fitted
 Constraint[Prev][13]=district-4-wheel-first-fitted
+Constraint[Prev][14]=met-jubilee-second
+Constraint[Prev][15]=met-jubilee-first
+
+liverytype[0]=District-Standard
+liverytype[1]=LT
 
 EmptyImage[E][0]=./images/district-4-wheel-brake-rear_E.0.0
 EmptyImage[SE][0]=./images/district-4-wheel-brake-rear_SE.0.0
