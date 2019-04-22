@@ -4215,11 +4215,13 @@ Metropolitan seven compartment EMU centre carriage
 Metropolitan-Motor-Third-Back
 Metropolitan four compartment EMU driving carriage (rear)
 met-mv-stock-front
-Metropolitan MV Stock EMU
+Metropolitan MV stock EMU driving motor (third class)
 met-mv-stock-centre
-Metropolitan MV Stock EMU (trailer)
+Metropolitan MV stock EMU trailer (third class)
+met-mv-stock-centre-first
+Metropolitan MV stock EMU trailer (first class)
 met-mv-stock-rear
-Metropolitan MV Stock EMU (rear)
+Metropolitan MV stock EMU driving motor (third class) (rear)
 met-bogie-third
 Metropolitan seven compartment bogie carriage (third class)
 met-bogie-second
@@ -4237,11 +4239,13 @@ Metropolitan five compartment bogie brake carriage (push pull)
 met-bogie-push-pull-rear
 Metropolitan six compartment bogie driving carriage (push pull)
 met-dreadnought-third
-Metropolitan nine compartment bogie "Dreadnought" carriage
+Metropolitan nine compartment bogie "Dreadnought" carriage (third class)
+met-dreadnought-first
+Metropolitan seven compartment bogie "Dreadnought" carriage (first class)
 met-dreadnought-brake-front
-Metropolitan seven compartment bogie "Dreadnought" brake carriage
+Metropolitan seven compartment bogie "Dreadnought" brake carriage (third class)
 met-dreadnought-brake-rear
-Metropolitan seven compartment bogie "Dreadnought" brake carriage (rear)
+Metropolitan seven compartment bogie "Dreadnought" brake carriage (third class) (rear)
 met-ashbury-1863-third-unfitted
 Metropolitan eight wheel (radial) eight compartment carriage (third class)
 met-ashbury-1863-composite-unfitted

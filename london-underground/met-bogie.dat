@@ -54,6 +54,7 @@ Constraint[Next][14]=met-jubilee-second
 Constraint[Next][15]=met-jubilee-first
 Constraint[Next][16]=met-bogie-second
 Constraint[Next][17]=met-bogie-first
+Constraint[Next][18]=met-dreadnought-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -73,6 +74,7 @@ Constraint[Prev][14]=met-jubilee-second
 Constraint[Prev][15]=met-jubilee-first
 Constraint[Prev][16]=met-bogie-second
 Constraint[Prev][17]=met-bogie-first
+Constraint[Prev][18]=met-dreadnought-first
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
@@ -152,6 +154,7 @@ Constraint[Next][14]=met-jubilee-second
 Constraint[Next][15]=met-jubilee-first
 Constraint[Next][16]=met-bogie-second
 Constraint[Next][17]=met-bogie-first
+Constraint[Next][18]=met-dreadnought-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -171,6 +174,7 @@ Constraint[Prev][14]=met-jubilee-second
 Constraint[Prev][15]=met-jubilee-first
 Constraint[Prev][16]=met-bogie-second
 Constraint[Prev][17]=met-bogie-first
+Constraint[Prev][18]=met-dreadnought-first
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
@@ -248,6 +252,7 @@ Constraint[Next][14]=met-jubilee-second
 Constraint[Next][15]=met-jubilee-first
 Constraint[Next][16]=met-bogie-second
 Constraint[Next][17]=met-bogie-first
+Constraint[Next][18]=met-dreadnought-first
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -267,6 +272,7 @@ Constraint[Prev][14]=met-jubilee-second
 Constraint[Prev][15]=met-jubilee-first
 Constraint[Prev][16]=met-bogie-second
 Constraint[Prev][17]=met-bogie-first
+Constraint[Prev][18]=met-dreadnought-first
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
@@ -345,7 +351,8 @@ Constraint[Next][14]=met-jubilee-second
 Constraint[Next][15]=met-jubilee-first
 Constraint[Next][16]=met-bogie-second
 Constraint[Next][17]=met-bogie-first
-Constraint[Next][18]=none
+Constraint[Next][18]=met-dreadnought-first
+Constraint[Next][19]=none
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
@@ -423,7 +430,8 @@ Constraint[Next][14]=met-jubilee-second
 Constraint[Next][15]=met-jubilee-first
 Constraint[Next][16]=met-bogie-second
 Constraint[Next][17]=met-bogie-first
-Constraint[Next][18]=none
+Constraint[Next][18]=met-dreadnought-first
+Constraint[Next][19]=none
 
 Constraint[Prev][0]=met-jubilee-third
 Constraint[Prev][1]=met-jubilee-brake-front
@@ -443,6 +451,7 @@ Constraint[Prev][14]=met-jubilee-second
 Constraint[Prev][15]=met-jubilee-first
 Constraint[Prev][16]=met-bogie-second
 Constraint[Prev][17]=met-bogie-first
+Constraint[Prev][18]=met-dreadnought-first
 
 liverytype[0]=Metropolitan-Red
 liverytype[1]=LT
