@@ -1,6 +1,6 @@
 # Details about these LBSCR 6-wheel carriages cannot be obtained from the usual sources.
 # Information here extrapolated from MR 6-wheelers and guessed.
-
+# Third class
 obj=vehicle
 name=LBSCR-6Wheel-5-com
 speed=150
@@ -210,7 +210,6 @@ Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
 
-
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
 liverytype[2]=LBSCR-Late
@@ -338,7 +337,6 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
-
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -826,7 +824,6 @@ Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
 Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
 
-
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
 Constraint[Next][2]=LBSCR-4Wheel-full-brake-fitted
@@ -851,7 +848,6 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
-
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
