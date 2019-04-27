@@ -105,8 +105,7 @@ length=7
 
 can_lead_from_rear=0
 bidirectional=1
-upgrade[0]=met-bogie-push-pull-rear
-upgrade[1]=met-bogie-push-pull-centre
+upgrade[0]=met-bogie-push-pull-centre
 way_constraint_permissive[3]=3
 available_only_as_upgrade=1
 
@@ -183,8 +182,7 @@ length=7
 
 can_lead_from_rear=0
 bidirectional=1
-upgrade[0]=met-bogie-push-pull-rear
-upgrade[1]=met-bogie-push-pull-centre
+upgrade[0]=met-bogie-push-pull-centre
 way_constraint_permissive[3]=3
 available_only_as_upgrade=1
 
