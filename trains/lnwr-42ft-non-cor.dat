@@ -373,7 +373,7 @@ Constraint[Prev][9]=LNWR-6Wheel-Guard
 Constraint[Prev][10]=LNWR-6Wheel-lav
 Constraint[Prev][11]=LNWR-6Wheel-brake-third
 Constraint[Prev][12]=LNWR-8wheel-radial-lav
-Constraint[Prev][13]=LNWR-8wheel-radial-brake-front
+Constraint[Prev][13]=LNWR-8wheel-radial-brake
 Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
@@ -569,7 +569,7 @@ Constraint[Prev][9]=LNWR-6Wheel-Guard
 Constraint[Prev][10]=LNWR-6Wheel-lav
 Constraint[Prev][11]=LNWR-6Wheel-brake-third
 Constraint[Prev][12]=LNWR-8wheel-radial-lav
-Constraint[Prev][13]=LNWR-8wheel-radial-brake-front
+Constraint[Prev][13]=LNWR-8wheel-radial-brake
 Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
@@ -767,7 +767,7 @@ Constraint[Prev][9]=LNWR-6Wheel-Guard
 Constraint[Prev][10]=LNWR-6Wheel-lav
 Constraint[Prev][11]=LNWR-6Wheel-brake-third
 Constraint[Prev][12]=LNWR-8wheel-radial-lav
-Constraint[Prev][13]=LNWR-8wheel-radial-brake-front
+Constraint[Prev][13]=LNWR-8wheel-radial-brake
 Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
@@ -963,7 +963,7 @@ Constraint[Prev][9]=LNWR-6Wheel-Guard
 Constraint[Prev][10]=LNWR-6Wheel-lav
 Constraint[Prev][11]=LNWR-6Wheel-brake-third
 Constraint[Prev][12]=LNWR-8wheel-radial-lav
-Constraint[Prev][13]=LNWR-8wheel-radial-brake-front
+Constraint[Prev][13]=LNWR-8wheel-radial-brake
 Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
@@ -1161,7 +1161,7 @@ Constraint[Prev][9]=LNWR-6Wheel-Guard
 Constraint[Prev][10]=LNWR-6Wheel-lav
 Constraint[Prev][11]=LNWR-6Wheel-brake-third
 Constraint[Prev][12]=LNWR-8wheel-radial-lav
-Constraint[Prev][13]=LNWR-8wheel-radial-brake-front
+Constraint[Prev][13]=LNWR-8wheel-radial-brake
 Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
@@ -1239,9 +1239,8 @@ EmptyImage[N][1]=./images/lnwr-42ft-non-cor-non-lav-lms_N.0.0
 EmptyImage[NE][1]=./images/lnwr-42ft-non-cor-non-lav-lms_NE.0.0
 
 ---
-# Unclear whether this type would exist as records of 2nd class vehicles not available.
-# Assume 2nd/3rd composite.
-# See Jenkinson (LNWR) p. 110
+# Presumably the same as the 5 1/2 compartment vehicle shown on
+# Jenkinson (LNWR) p. 111
 
 obj=vehicle
 name=LNWR-42ft-non-cor-non-lav-first
@@ -1359,7 +1358,7 @@ Constraint[Prev][9]=LNWR-6Wheel-Guard
 Constraint[Prev][10]=LNWR-6Wheel-lav
 Constraint[Prev][11]=LNWR-6Wheel-brake-third
 Constraint[Prev][12]=LNWR-8wheel-radial-lav
-Constraint[Prev][13]=LNWR-8wheel-radial-brake-front
+Constraint[Prev][13]=LNWR-8wheel-radial-brake
 Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
@@ -1462,8 +1461,6 @@ upgrade_price=12000
 runningcost=0
 fixed_cost=5217
 
-upgrade[0]=LNWR-8wheel-radial-brake-lav-rear
-
 comfort[0]=0
 comfort[1]=66
 comfort[2]=76
@@ -1487,7 +1484,7 @@ Constraint[Prev][9]=LNWR-6Wheel-Guard
 Constraint[Prev][10]=LNWR-6Wheel-lav
 Constraint[Prev][11]=LNWR-6Wheel-brake-third
 Constraint[Prev][12]=LNWR-8wheel-radial-lav
-Constraint[Prev][13]=LNWR-8wheel-radial-brake-front
+Constraint[Prev][13]=LNWR-8wheel-radial-brake
 Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
@@ -1614,7 +1611,7 @@ Constraint[Prev][9]=LNWR-6Wheel-Guard
 Constraint[Prev][10]=LNWR-6Wheel-lav
 Constraint[Prev][11]=LNWR-6Wheel-brake-third
 Constraint[Prev][12]=LNWR-8wheel-radial-lav
-Constraint[Prev][13]=LNWR-8wheel-radial-brake-front
+Constraint[Prev][13]=LNWR-8wheel-radial-brake
 Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
@@ -1799,7 +1796,7 @@ Constraint[Prev][9]=LNWR-6Wheel-Guard
 Constraint[Prev][10]=LNWR-6Wheel-lav
 Constraint[Prev][11]=LNWR-6Wheel-brake-third
 Constraint[Prev][12]=LNWR-8wheel-radial-lav
-Constraint[Prev][13]=LNWR-8wheel-radial-brake-front
+Constraint[Prev][13]=LNWR-8wheel-radial-brake
 Constraint[Prev][14]=LNWR-8wheel-radial-mail
 Constraint[Prev][15]=LNWR-8wheel-radial-tpo
 Constraint[Prev][16]=LNWR-8wheel-radial-non-lav
