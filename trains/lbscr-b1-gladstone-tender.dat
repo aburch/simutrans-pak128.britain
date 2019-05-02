@@ -23,10 +23,6 @@ increase_maintenance_after_years=42
 years_before_maintenance_max_reached=30
 
 Constraint[Prev][0]=LBSCR-B1-Gladstone
-Constraint[Prev][1]=LBSCR-D2
-Constraint[Prev][2]=LBSCR-Richmond
-Constraint[Prev][3]=LBSCR-G
-Constraint[Prev][4]=LBSCR-Belgravia
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh

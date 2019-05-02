@@ -3,10 +3,10 @@ name=LBSCR-craven-tender
 engine_type=steam
 speed=135
 copyright=James
-intro_year=1852
-intro_month=5
-retire_year=1871
-retire_month=7
+intro_year=1854
+intro_month=11
+retire_year=1872
+retire_month=9
 waytype=track
 freight=None
 payload=0
@@ -20,7 +20,6 @@ axles=3
 cost=0
 runningcost=0
 fixed_cost=0
-
 
 Constraint[Prev][0]=LBSCR-standard-passenger
 Constraint[Prev][1]=LBSCR-victoria

@@ -119,7 +119,7 @@ min_loading_time=20
 max_loading_time=50
 
 comfort[0]=0
-comfort[1]==132
+comfort[1]=132
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear
@@ -185,6 +185,7 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
+
 comfort[0]=0
 comfort[1]=132
 
