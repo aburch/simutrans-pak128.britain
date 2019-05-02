@@ -2457,9 +2457,9 @@ wagon-ng-long
 wagon-ng-box
 2t box van
 wagon-ng-food
-2t foods van
+2t perhisable goods van
 wagon-ng-van-bogie-food
-Bogie food van
+Bogie perhisable goods van
 wagon-ng-van-bogie
 Bogie goods van
 wagon-ng-long-bogie
@@ -2469,7 +2469,7 @@ Bogie bulk wagon
 wagon-ng-piece-sar
 Goods van
 wagon-ng-food-sar
-Foods van
+Perhisable goods van
 wagon-ng-long-sar
 Long wagon
 wagon-ng-bulk-sar
@@ -3119,24 +3119,28 @@ LBSCR Four wheel three compartment carriage (first class)
 LBSCR-20ft-composite
 LBSCR Four wheel three compartment composite carriage (first/second class)
 LBSCR-4Wheel-First
-LBSCR four wheel four compartment carriage
+LBSCR four wheel four compartment carriage (first class)
 LBSCR-4Wheel-Second
-LBSCR four wheel five compartment carriage
+LBSCR four wheel five compartment carriage (second class)
 LBSCR-4Wheel-Brake-rear
-LBSCR four wheel three compartment brake carriage (rear)
+LBSCR four wheel three compartment brake carriage (third class) (rear)
 LBSCR-4Wheel-Brake-front
-LBSCR four wheel three compartment brake carriage
+LBSCR four wheel three compartment brake carriage (third class)
 LBSCR-4Wheel-full-brake
+LBSCR four wheel mail/brake carriage (rear)
+LBSCR-4Wheel-full-brake-front
 LBSCR four wheel mail/brake carriage
 LBSCR-4Wheel-First-fitted
-LBSCR four wheel four compartment carriage (continuously braked)
+LBSCR four wheel four compartment carriage (first class) (continuously braked)
 LBSCR-4Wheel-Second-fitted
-LBSCR four wheel five compartment carriage (continuously braked)
+LBSCR four wheel five compartment carriage (second class) (continuously braked)
 LBSCR-4Wheel-Brake-rear-fitted
-LBSCR four wheel three compartment brake carriage (rear) (continuously braked)
+LBSCR four wheel three compartment brake carriage (third class) (rear) (continuously braked)
 LBSCR-4Wheel-Brake-front-fitted
-LBSCR four wheel three compartment brake carriage (continuously braked)
+LBSCR four wheel three compartment brake carriage (third class) (continuously braked)
 LBSCR-4Wheel-full-brake-fitted
+LBSCR four wheel mail/brake carriage (continuously braked) (rear)
+LBSCR-4Wheel-full-brake-fitted-front
 LBSCR four wheel mail/brake carriage (continuously braked)
 LBSCR-6Wheel-5-com
 LBSCR six wheel five compartment carriage (third class)
@@ -3149,7 +3153,7 @@ LBSCR six wheel four compartment carriage (first class)
 LBSCR-6Wheel-brake-front
 LBSCR six wheel three compartment brake carriage (third class)
 LBSCR-6Wheel-brake-rear
-LBSCR six wheel three compartment brake carriage (rear)
+LBSCR six wheel three compartment brake carriage (third class) (rear)
 LBSCR-6Wheel-mail
 LBSCR six wheel mail carriage
 LBSCR-6Wheel-guard
@@ -3349,57 +3353,73 @@ Midland six wheel three compartment brake carriage (third class)
 MR-6Wheel-brake-rear
 Midland six wheel three compartment brake carriage (third class) (rear)
 MR-clayton-8wheel-arc-roof-third
-Midland eight wheel bogie seven compartment carriage
+Midland eight wheel bogie seven compartment carriage (third class)
+MR-clayton-8wheel-arc-roof-composite
+Midland eight wheel bogie six compartment composite carriage (first/third class)
 MR-clayton-8wheel-arc-roof-third-lav
-Midland eight wheel bogie six compartment lavatory carriage
+Midland eight wheel bogie six compartment lavatory carriage (third class)
 MR-clayton-8wheel-arc-roof-brake-front
-Midland eight wheel bogie five compartment brake carriage
+Midland eight wheel bogie five compartment brake carriage (third class)
 MR-clayton-8wheel-arc-roof-brake-rear
-Midland eight wheel bogie five compartment brake carriage (rear)
+Midland eight wheel bogie five compartment brake carriage (third class) (rear)
 MR-clayton-8wheel-arc-roof-brake-lav-front
-Midland eight wheel bogie four compartment lavatory brake carriage
+Midland eight wheel bogie four compartment lavatory brake carriage (third class)
 MR-clayton-8wheel-arc-roof-brake-lav-rear
 Midland eight wheel bogie four compartment lavatory brake carriage (rear)
+MR-clayton-8wheel-arc-roof-composite-lav
+Midland eight wheel bogie five compartment lavatory composite carriage (first/third class)
 MR-clayton-8wheel-arc-roof-mail
 Midland eight wheel bogie mail carriage
 MR-clayton-8wheel-clerestory-third
-Midland eight wheel bogie seven compartment clerestory carriage
+Midland eight wheel bogie seven compartment clerestory carriage (third class)
+MR-clayton-8wheel-clerestory-composite
+Midland eight wheel bogie six compartment clerestory composite carriage (first/third class)
 MR-clayton-8wheel-clerestory-third-lav
-Midland eight wheel bogie seven compartment clerestory lavatory carriage
+Midland eight wheel bogie seven compartment clerestory lavatory carriage (third class)
+MR-clayton-8wheel-clerestory-composite-lav
+Midland eight wheel bogie five compartment clerestory lavatory composite carriage (first/third class)
 MR-clayton-8wheel-clerestory-brake-front
-Midland eight wheel bogie five compartment clerestory brake carriage
+Midland eight wheel bogie five compartment clerestory brake carriage (third class)
 MR-clayton-8wheel-clerestory-brake-rear
-Midland eight wheel bogie five compartment clerestory brake carriage (rear)
+Midland eight wheel bogie five compartment clerestory brake carriage (third class) (rear)
 MR-clayton-8wheel-clerestory-brake-lav-front
-Midland eight wheel bogie four compartment clerestory lavatory brake carriage
+Midland eight wheel bogie four compartment clerestory lavatory brake carriage (third class)
 MR-clayton-8wheel-clerestory-brake-lav-rear
-Midland eight wheel bogie four compartment clerestory lavatory brake carriage (rear)
+Midland eight wheel bogie four compartment clerestory lavatory brake carriage (third class) (rear)
 MR-clayton-8wheel-clerestory-mail
 Midland eight wheel bogie clerestory mail carriage
 MR-clayton-12wheel-clerestory-third
-Midland twelve wheel bogie eight compartment clerestory carriage
+Midland twelve wheel bogie eight compartment clerestory carriage (third class)
+MR-clayton-12wheel-clerestory-composite
+Midland twelve wheel bogie eight compartment clerestory composite carriage (first/third class)
 MR-clayton-12wheel-clerestory-third-lav
-Midland twelve wheel bogie seven compartment clerestory lavatory carriage
+Midland twelve wheel bogie seven compartment clerestory lavatory carriage (third class)
+MR-clayton-12wheel-clerestory-composite-lav
+Midland twelve wheel bogie seven compartment clerestory lavatory composite carriage (first/third class)
 MR-clayton-12wheel-clerestory-brake-front
-Midland twelve wheel bogie six compartment clerestory brake carriage
+Midland twelve wheel bogie six compartment clerestory brake carriage (third class)
 MR-clayton-12wheel-clerestory-brake-rear
-Midland twelve wheel bogie six compartment clerestory brake carriage (rear)
+Midland twelve wheel bogie six compartment clerestory brake carriage (third class) (rear)
 MR-clayton-12wheel-clerestory-brake-lav-front
-Midland twelve wheel bogie five compartment clerestory lavatory brake carriage
+Midland twelve wheel bogie five compartment clerestory lavatory brake carriage (third class)
 MR-clayton-12wheel-clerestory-brake-lav-rear
-Midland twelve wheel bogie five compartment clerestory lavatory brake carriage (rear)
+Midland twelve wheel bogie five compartment clerestory lavatory brake carriage (third class) (rear)
 MR-clayton-12wheel-arc-roof-third
-Midland twelve wheel bogie eight compartment carriage
+Midland twelve wheel bogie eight compartment carriage (third class)
 MR-clayton-12wheel-arc-roof-third-lav
-Midland twelve wheel bogie seven compartment lavatory carriage
+Midland twelve wheel bogie seven compartment lavatory carriage (third class)
 MR-clayton-12wheel-arc-roof-brake-front
-Midland twelve wheel bogie six compartment brake carriage
+Midland twelve wheel bogie six compartment brake carriage (third class)
 MR-clayton-12wheel-arc-roof-brake-rear
-Midland twelve wheel bogie six compartment brake carriage (rear)
+Midland twelve wheel bogie six compartment brake carriage (third class) (rear)
 MR-clayton-12wheel-arc-roof-brake-lav-front
-Midland twelve wheel bogie five compartment lavatory brake carriage
+Midland twelve wheel bogie five compartment lavatory brake carriage (third class)
 MR-clayton-12wheel-arc-roof-brake-lav-rear
-Midland twelve wheel bogie five compartment lavatory brake carriage (rear)
+Midland twelve wheel bogie five compartment lavatory brake carriage (third class) (rear)
+MR-clayton-12wheel-arc-roof-composite
+Midland twelve wheel bogie seven compartment composite carriage (first/third class)
+MR-clayton-12wheel-arc-roof-composite-lav
+Midland twelve wheel bogie seven compartment lavatory composite carriage (first/third class)
 MR-60ft-clerestory-dining-d448
 Midland clerestory dining twin set
 MR-31ft-clerestory-kitchen-car-d532
@@ -4195,17 +4215,23 @@ Metropolitan seven compartment EMU centre carriage
 Metropolitan-Motor-Third-Back
 Metropolitan four compartment EMU driving carriage (rear)
 met-mv-stock-front
-Metropolitan MV Stock EMU
+Metropolitan MV stock EMU driving motor (third class)
 met-mv-stock-centre
-Metropolitan MV Stock EMU (trailer)
+Metropolitan MV stock EMU trailer (third class)
+met-mv-stock-centre-first
+Metropolitan MV stock EMU trailer (first class)
 met-mv-stock-rear
-Metropolitan MV Stock EMU (rear)
+Metropolitan MV stock EMU driving motor (third class) (rear)
 met-bogie-third
-Metropolitan seven compartment bogie carriage
+Metropolitan seven compartment bogie carriage (third class)
+met-bogie-second
+Metropolitan seven compartment bogie carriage (second class)
+met-bogie-first
+Metropolitan six compartment bogie carriage (first class)
 met-bogie-brake-front
-Metropolitan five compartment bogie brake carriage
+Metropolitan five compartment bogie brake carriage (third class)
 met-bogie-brake-rear
-Metropolitan five compartment bogie brake carriage (rear)
+Metropolitan five compartment bogie brake carriage (third class) (rear)
 met-bogie-push-pull-centre
 Metropolitan seven compartment bogie carriage (push pull)
 met-bogie-push-pull-front
@@ -4213,11 +4239,13 @@ Metropolitan five compartment bogie brake carriage (push pull)
 met-bogie-push-pull-rear
 Metropolitan six compartment bogie driving carriage (push pull)
 met-dreadnought-third
-Metropolitan nine compartment bogie "Dreadnought" carriage
+Metropolitan nine compartment bogie "Dreadnought" carriage (third class)
+met-dreadnought-first
+Metropolitan seven compartment bogie "Dreadnought" carriage (first class)
 met-dreadnought-brake-front
-Metropolitan seven compartment bogie "Dreadnought" brake carriage
+Metropolitan seven compartment bogie "Dreadnought" brake carriage (third class)
 met-dreadnought-brake-rear
-Metropolitan seven compartment bogie "Dreadnought" brake carriage (rear)
+Metropolitan seven compartment bogie "Dreadnought" brake carriage (third class) (rear)
 met-ashbury-1863-third-unfitted
 Metropolitan eight wheel (radial) eight compartment carriage (third class)
 met-ashbury-1863-composite-unfitted
@@ -4239,17 +4267,25 @@ Metropolitan eight wheel (radial) five compartment brake carriage (continuously 
 met-ashbury-1863-brake-rear-fitted
 Metropolitan eight wheel (radial) five compartment brake carriage (rear) (continuously braked) (third class)
 district-4-wheel-third-unfitted
-District four wheel four compartment carriage
+District four wheel four compartment carriage (third class)
+district-4-wheel-second-unfitted
+District four wheel four compartment carriage (second class)
+district-4-wheel-first-unfitted
+District four wheel three compartment carriage (first class)
 district-4-wheel-brake-front-unfitted
-District four wheel two compartment brake carriage
+District four wheel two compartment brake carriage (third class)
 district-4-wheel-brake-rear-unfitted
-District four wheel two compartment brake carriage (rear)
+District four wheel two compartment brake carriage (third class) (rear)
 district-4-wheel-third-fitted
-District four wheel four compartment carriage (continuously braked)
+District four wheel four compartment carriage (third class) (continuously braked)
+district-4-wheel-second-fitted
+District four wheel four compartment carriage (second class) (continuously braked)
+district-4-wheel-first-fitted
+District four wheel four compartment carriage (first class) (continuously braked)
 district-4-wheel-brake-front-fitted
-District four wheel two compartment brake carriage (continuously braked)
+District four wheel two compartment brake carriage (third class) (continuously braked)
 district-4-wheel-brake-rear-fitted
-District four wheel two compartment brake carriage (rear) (continuously braked)
+District four wheel two compartment brake carriage (third class) (rear) (continuously braked)
 District_A_StockFrontDM
 District A Stock
 District_A_StockMiddle
@@ -4357,11 +4393,15 @@ Metropolitan 1921 Circle Stock (trailer)
 Metropolitan1921CircleRear
 Metropolitan 1921 Circle Stock (rear driving motor)
 met-jubilee-third
-Metropolitan four wheel five compartment "Jubilee" carriage
+Metropolitan four wheel five compartment "Jubilee" carriage (third class)
+met-jubilee-second
+Metropolitan four wheel five compartment "Jubilee" carriage (second class)
+met-jubilee-first
+Metropolitan four wheel four compartment "Jubilee" carriage (first class)
 met-jubilee-brake-front
-Metropolitan four wheel three compartment "Jubilee" brake carriage
+Metropolitan four wheel three compartment "Jubilee" brake carriage (third class)
 met-jubilee-brake-rear
-Metropolitan four wheel three compartment "Jubilee" brake carriage (rear)
+Metropolitan four wheel three compartment "Jubilee" brake carriage (third class) (rear)
 BR-465Front
 BR Class 465 "Networker" EMU
 BR-465Middle
@@ -5163,7 +5203,7 @@ Wooden 2t bulk "chaldron" wagon
 wagon-long-wooden-wheels
 Wooden flat wagon
 wagon-cool-wooden-wheels
-Wooden food wagon
+Wooden perhisable goods wagon
 wagon-piece-wooden-wheels
 Wooden goods wagon
 LivestockEarly1
@@ -5207,25 +5247,25 @@ FAA container flat
 CoolContainer
 FAA container flat (refrigerated containers)
 CoolEarly1
-Food wagon
+Perhisable goods wagon
 CoolEarly2
-[DEPRECATED] Food wagon (small)
+[DEPRECATED] Perhisable goods wagon (small)
 CoolEarly3
-Food wagon
+Perhisable goods wagon
 CoolD32
-8t food van
+8t perhisable goods van
 CoolD88
-12t food van
+12t perhisable goods van
 Cool16T
-16t food van
+16t perhisable goods van
 Cool-Fast
-Fitted food van
+Fitted perhisable goods van
 Cool-Bogie
-Fitted bogie food van
+Fitted bogie perhisable goods van
 CoolZSX
 BR refrigerated van
 milk-van
-Food van (passenger rated)
+Perhisable goods van (passenger rated)
 LongEarly1
 Flat wagon
 LongEarly2
@@ -5829,11 +5869,11 @@ LNWR eight wheel (radial) seven compartment composite carriage (second/third cla
 LNWR-8wheel-radial-non-lav-first
 LNWR eight wheel (radial) five and a half compartment carriage (first class)
 LNWR-8wheel-radial-lav
-LNWR eight wheel (radial) four and a half compartment lavatory tricomposite carriage (first/second/third class)
+LNWR eight wheel (radial) six compartment lavatory carriage (third class)
 LNWR-8wheel-radial-lav-first
 LNWR eight wheel (radial) five compartment lavatory carriage (first class)
 LNWR-8wheel-radial-lav-tricomposite
-LNWR eight wheel (radial) five compartment lavatory carriage (first class)
+LNWR eight wheel (radial) four and a half compartment compartment lavatory tricomposite carriage (first/second/third class)
 LNWR-8wheel-radial-brake-rear
 LNWR eight wheel (radial) four compartment brake (third class)
 LNWR-8wheel-radial-brake-lav-rear
@@ -5857,7 +5897,7 @@ LNWR six compartment lavatory bogie tricomposite carriage (42ft) (first/second/t
 LNWR-42ft-non-cor-non-lav
 LNWR seven compartment bogie carriage (42ft) (third class)
 LNWR-42ft-non-cor-non-lav-first
-LNWR six compartment bogie carriage (42ft) (first class)
+LNWR five and a half compartment bogie carriage (42ft) (first class)
 LNWR-42ft-non-cor-non-lav-composite
 LNWR seven compartment bogie composite carriage (42ft) (second/third class)
 LNWR-42ft-non-cor-brake-rear

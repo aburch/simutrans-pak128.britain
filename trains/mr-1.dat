@@ -58,7 +58,7 @@ name=MR-1-tender
 engine_type=steam
 speed=113
 copyright=James/jamespetts
-intro_year=1859
+intro_year=1856
 intro_month=4
 retire_year=1865
 retire_month=2
@@ -73,7 +73,6 @@ weight=14
 cost=0
 runningcost=0
 fixed_cost=0
-
 
 Constraint[Prev][0]=MR-1
 
