@@ -56,6 +56,7 @@ EmptyImage[NE]=./images/br-442.0.7
 
 obj=vehicle
 name=BR-442-Middle1
+engine_type=electric
 speed=160
 copyright=James
 intro_year=1988
@@ -107,6 +108,7 @@ EmptyImage[NE]=./images/br-442.1.7
 
 obj=vehicle
 name=BR-442-Middle2
+engine_type=electric
 speed=160
 copyright=James
 intro_year=1988
@@ -163,6 +165,7 @@ EmptyImage[NE]=./images/br-442.1.7
 
 obj=vehicle
 name=BR-442-Middle3
+engine_type=electric
 speed=160
 copyright=James
 intro_year=1988
@@ -214,8 +217,8 @@ EmptyImage[NE]=./images/br-442.1.7
 
 obj=vehicle
 name=BR-442-Rear
-speed=160
 engine_type=electric
+speed=160
 copyright=James
 intro_year=1988
 intro_month=2

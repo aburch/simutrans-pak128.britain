@@ -4,7 +4,7 @@ engine_type=steam
 speed=82
 copyright=James
 intro_year=1858
-intro_month=8
+intro_month=9
 retire_year=1895
 retire_month=3
 waytype=track
@@ -20,7 +20,6 @@ axles=3
 cost=0
 runningcost=0
 fixed_cost=0
-
 
 Constraint[Prev][0]=LNWR-DXgoods
 Constraint[Prev][1]=LNWR-special-dx

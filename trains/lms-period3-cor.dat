@@ -2315,7 +2315,7 @@ copyright=Kieron/jamespetts
 intro_year=1933
 intro_month=6
 # Make this earlier when adding "porthole" stock.
-retire_year=1951
+retire_year=1959
 retire_month=2
 waytype=track
 freight=Post
@@ -2395,6 +2395,7 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=BR-Mk1-BG
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -2457,6 +2458,7 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
+Constraint[Prev][61]=BR-Mk1-BG
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
