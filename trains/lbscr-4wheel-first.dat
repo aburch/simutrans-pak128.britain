@@ -27,6 +27,7 @@ runningcost=0
 fixed_cost=339
 
 upgrade[0]=LBSCR-4Wheel-First-fitted
+upgrade[0]=LBSCR-4Wheel-First-sub-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -110,9 +111,11 @@ rolling_resistance=18
 weight=9.7
 axles=2
 cost=340000
-upgrade_price=80000
+upgrade_price=5000
 runningcost=0
 fixed_cost=405
+
+upgrade[0]=LBSCR-4Wheel-First-sub-fitted
 
 comfort[0]=0
 comfort[1]=62

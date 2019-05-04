@@ -29,6 +29,7 @@ runningcost=0
 fixed_cost=5139
 
 upgrade[0]=LBSCR-4Wheel-Brake-front-sub-fitted
+upgrade[1]=LBSCR-4Wheel-Brake-front-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -113,6 +114,7 @@ runningcost=0
 fixed_cost=5139
 
 upgrade[0]=LBSCR-4Wheel-Brake-rear-sub-fitted
+upgrade[1]=LBSCR-4Wheel-Brake-rear-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -192,9 +194,11 @@ rolling_resistance=18
 weight=9.2
 axles=2
 cost=340000
-upgrade_price=80000
+upgrade_price=5000
 runningcost=0
 fixed_cost=5205
+
+upgrade[0]=LBSCR-4Wheel-Brake-front-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -273,9 +277,11 @@ rolling_resistance=18
 weight=9.2
 axles=2
 cost=340000
-upgrade_price=80000
+upgrade_price=5000
 runningcost=0
 fixed_cost=5205
+
+upgrade[0]=LBSCR-4Wheel-Brake-rear-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -363,6 +369,7 @@ runningcost=0
 fixed_cost=339
 
 upgrade[0]=LBSCR-4Wheel-composite-sub-fitted
+upgrade[1]=LBSCR-4Wheel-composite-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -451,9 +458,11 @@ rolling_resistance=18
 weight=9.7
 axles=2
 cost=295000
-upgrade_price=80000
+upgrade_price=5000
 runningcost=0
 fixed_cost=405
+
+upgrade[0]=LBSCR-4Wheel-composite-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -546,6 +555,7 @@ runningcost=0
 fixed_cost=339
 
 upgrade[0]=LBSCR-4Wheel-First-sub-fitted
+upgrade[1]=LBSCR-4Wheel-First-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -634,9 +644,11 @@ rolling_resistance=18
 weight=9.7
 axles=2
 cost=320000
-upgrade_price=80000
+upgrade_price=5000
 runningcost=0
 fixed_cost=405
+
+upgrade[0]=LBSCR-4Wheel-First-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -734,6 +746,7 @@ runningcost=0
 fixed_cost=339
 
 upgrade[0]=LBSCR-4Wheel-Second-sub-fitted
+upgrade[1]=LBSCR-4Wheel-Second-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -823,9 +836,11 @@ rolling_resistance=18
 weight=8.7
 axles=2
 cost=305000
-upgrade_price=80000
+upgrade_price=5000
 runningcost=0
 fixed_cost=405
+
+upgrade[0]=LBSCR-4Wheel-Second-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -921,6 +936,7 @@ runningcost=0
 fixed_cost=309
 
 upgrade[0]=LBSCR-4Wheel-third-sub-fitted
+upgrade[1]=LBSCR-4Wheel-third-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -1008,9 +1024,11 @@ rolling_resistance=18
 weight=8.7
 axles=2
 cost=285000
-upgrade_price=70000
+upgrade_price=5000
 runningcost=0
 fixed_cost=375
+
+upgrade[0]=LBSCR-4Wheel-third-fitted
 
 comfort[0]=0
 comfort[1]=62
