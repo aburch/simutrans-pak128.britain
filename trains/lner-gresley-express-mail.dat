@@ -114,8 +114,8 @@ speed=160
 copyright=Kieron/James
 intro_year=1923
 intro_month=5
-retire_year=1951
-retire_month=2
+retire_year=1959
+retire_month=1
 waytype=track
 freight=Post
 payload=400
@@ -160,6 +160,7 @@ Constraint[Next][19]=gnr-gresley-cor-dining
 Constraint[Next][20]=gnr-gresley-cor-parcels-brake
 Constraint[Next][21]=gnr-gresley-cor-mail
 Constraint[Next][22]=gnr-gresley-cor-tpo
+Constraint[Next][23]=BR-Mk1-BG
 
 Constraint[Prev][0]=LNER-Gresley-Express-Coach
 Constraint[Prev][1]=LNER-Gresley-Express-Brake-front
@@ -184,6 +185,7 @@ Constraint[Prev][19]=gnr-gresley-cor-dining
 Constraint[Prev][20]=gnr-gresley-cor-parcels-brake
 Constraint[Prev][21]=gnr-gresley-cor-mail
 Constraint[Prev][22]=gnr-gresley-cor-tpo
+Constraint[Prev][23]=BR-Mk1-BG
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early
