@@ -31,6 +31,8 @@ liverytype[2]=National-Express
 liverytype[3]=East-Coast
 liverytype[4]=VTEC
 
+Constraint[Prev][0]=any
+
 EmptyImage[E][0]=./images/br-mk4-dvt-ic.0
 EmptyImage[SE][0]=./images/br-mk4-dvt-ic.1
 EmptyImage[S][0]=./images/br-mk4-dvt-ic.2
