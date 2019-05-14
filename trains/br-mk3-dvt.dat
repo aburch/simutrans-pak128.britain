@@ -2,10 +2,11 @@ obj=vehicle
 name=BR-Mk3-DVT
 speed=200
 copyright=Kieron
-intro_year=1985
-intro_month=5
-retire_year=1989
-retire_month=11
+intro_year=1988
+intro_month=2
+# Was November 1989, but players might want to build these later to work with existing carriages
+retire_year=1995
+retire_month=4
 waytype=track
 freight=Post
 payload=300
@@ -29,6 +30,11 @@ Constraint[Prev][0]=BR-Mk3a-TSO
 Constraint[Prev][1]=BR-Mk3a-TRB
 Constraint[Prev][2]=BR-Mk3a-TRFB
 Constraint[Prev][3]=BR-Mk3a-FO
+Constraint[Prev][4]=BR-Mk2-BFK
+Constraint[Prev][5]=BR-Mk2-BSO
+Constraint[Prev][6]=BR-Mk2-RFB
+Constraint[Prev][7]=BR-Mk2-TSOT
+Constraint[Prev][8]=BR-Mk2-FO
 
 Constraint[Next][0]=None
 

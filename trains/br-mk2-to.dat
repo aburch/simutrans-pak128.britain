@@ -64,6 +64,11 @@ Constraint[Next][25]=LNER-Gresley-Express-Dining
 Constraint[Next][26]=LNER-Gresley-Express-Buffet
 Constraint[Next][27]=BR-Class27
 Constraint[Next][28]=BR-Mk1-BSO-rear
+Constraint[Next][29]=BR-Mk3-DVT
+Constraint[Next][30]=BR-Mk3a-FO
+Constraint[Next][31]=BR-Mk3a-TRB
+Constraint[Next][32]=BR-Mk3a-TSO
+Constraint[Next][33]=BR-Mk3a-TRFB
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive

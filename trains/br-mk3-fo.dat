@@ -209,7 +209,12 @@ Constraint[Next][2]=BR-Mk3a-TRB
 Constraint[Next][3]=BR-Mk3a-TRFB
 Constraint[Next][4]=BR-Mk3a-FO
 Constraint[Next][5]=BR-Mk2-DBSO
-Constraint[Next][6]=None
+Constraint[Next][6]=BR-Mk2-RFB
+Constraint[Next][7]=BR-Mk2-BFK
+Constraint[Next][8]=BR-Mk2-TSOT
+Constraint[Next][9]=BR-Mk2-TSO
+Constraint[Next][10]=BR-Mk2-FO
+Constraint[Next][11]=None
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
