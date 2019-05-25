@@ -19,7 +19,8 @@ rolling_resistance=13
 weight=31
 axles=4
 cost=426000
-runningcost=20
+runningcost=0
+fixed_cost=507
 
 can_lead_from_rear=0
 bidirectional=1

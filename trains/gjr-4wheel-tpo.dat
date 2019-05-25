@@ -20,7 +20,8 @@ rolling_resistance=19
 weight=4
 axles=2
 cost=184000
-runningcost=13
+runningcost=0
+fixed_cost=24077
 
 min_loading_time=35
 max_loading_time=120

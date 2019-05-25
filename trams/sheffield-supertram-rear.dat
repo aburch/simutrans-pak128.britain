@@ -1,5 +1,6 @@
 obj=vehicle
 name=Sheffield-Supertram(Rear)
+engine_type=electric
 speed=80
 gear=80
 # http://en.wikipedia.org/wiki/Siemens-Duewag_Supertram
@@ -19,7 +20,8 @@ weight=15.5
 brake_force=20
 axles=4
 cost=0
-runningcost=0
+runningcost=55
+fixed_cost=6000
 
 
 can_lead_from_rear=1

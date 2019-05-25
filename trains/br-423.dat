@@ -21,7 +21,8 @@ power=0
 weight=36
 axles=4
 cost=1575000
-runningcost=33
+runningcost=0
+fixed_cost=1875
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 
@@ -105,7 +106,8 @@ engine_type=electric
 weight=41
 axles=4
 cost=1575000
-runningcost=125
+runningcost=113
+fixed_cost=11094
 
 increase_maintenance_after_years=23
 
@@ -177,7 +179,8 @@ length=11
 weight=34
 axles=4
 cost=1575000
-runningcost=28
+runningcost=0
+fixed_cost=1875
 
 increase_maintenance_after_years=23
 
@@ -250,7 +253,8 @@ power=0
 weight=36
 axles=4
 cost=1575000
-runningcost=33
+runningcost=0
+fixed_cost=1875
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 

@@ -37,8 +37,8 @@ rolling_resistance=18
 weight=9
 axles=2
 cost=330000
-runningcost=17
-fixed_cost=138
+runningcost=0
+fixed_cost=393
 
 upgrade[0]=4-wheel-1870s-fitted
 
@@ -160,8 +160,8 @@ rolling_resistance=18
 weight=9
 axles=2
 cost=300000
-runningcost=17
-fixed_cost=125
+runningcost=0
+fixed_cost=357
 
 upgrade[0]=4-wheel-1870s-luggage-third-fitted
 
@@ -283,8 +283,8 @@ rolling_resistance=18
 weight=8.3
 axles=2
 cost=260000
-runningcost=16
-fixed_cost=108
+runningcost=0
+fixed_cost=310
 
 upgrade[0]=4-wheel-1870s-tricomposite-fitted
 
@@ -401,8 +401,8 @@ rolling_resistance=18
 
 weight=7.8
 cost=300000
-runningcost=16
-fixed_cost=4925
+runningcost=0
+fixed_cost=5157
 
 upgrade[0]=4-wheel-1870s-brake-fitted
 
@@ -513,7 +513,7 @@ rolling_resistance=18
 
 weight=9
 cost=300000
-runningcost=17
+runningcost=0
 fixed_cost=125
 
 upgrade[0]=4-wheel-1870s-mail-fitted
@@ -627,7 +627,7 @@ rolling_resistance=18
 
 weight=9
 cost=300000
-runningcost=17
+runningcost=0
 fixed_cost=24125
 
 upgrade[0]=4-wheel-1870s-tpo-fitted
@@ -742,8 +742,8 @@ rolling_resistance=18
 
 weight=8
 cost=270000
-runningcost=17
-fixed_cost=113
+runningcost=0
+fixed_cost=321
 
 upgrade[0]=4-wheel-1870s-fast-freight-fitted
 
@@ -855,8 +855,8 @@ rolling_resistance=18
 
 weight=8
 cost=270000
-runningcost=17
-fixed_cost=113
+runningcost=0
+fixed_cost=321
 
 upgrade[0]=4-wheel-1870s-milk-fitted
 
@@ -977,7 +977,8 @@ rolling_resistance=18
 weight=9.6
 cost=355000
 upgrade_price=65000
-runningcost=22
+runningcost=0
+fixed_cost=423
 
 comfort[0]=0
 comfort[1]=62
@@ -1182,7 +1183,8 @@ weight=9
 axles=2
 cost=310000
 upgrade_price=65000
-runningcost=17
+runningcost=0
+fixed_cost=369
 
 comfort[0]=0
 comfort[1]=62
@@ -1387,7 +1389,8 @@ weight=8.3
 axles=2
 cost=270000
 upgrade_price=65000
-runningcost=16
+runningcost=0
+fixed_cost=321
 
 comfort[0]=0
 comfort[1]=62
@@ -1587,8 +1590,8 @@ rolling_resistance=18
 weight=9.6
 cost=355000
 upgrade_price=65000
-runningcost=22
-fixed_cost=4948
+runningcost=0
+fixed_cost=5223
 
 
 min_loading_time=35
@@ -1699,7 +1702,8 @@ rolling_resistance=18
 weight=9.6
 cost=355000
 upgrade_price=65000
-runningcost=22
+runningcost=0
+fixed_cost=148
 
 
 min_loading_time=35
@@ -1895,7 +1899,7 @@ rolling_resistance=18
 weight=9.6
 cost=355000
 upgrade_price=65000
-runningcost=22
+runningcost=0
 fixed_cost=24148
 
 
@@ -2093,7 +2097,8 @@ rolling_resistance=18
 
 weight=8.6
 cost=320000
-runningcost=22
+runningcost=0
+fixed_cost=133
 
 
 min_loading_time=300
@@ -2289,7 +2294,8 @@ rolling_resistance=18
 
 weight=8.6
 cost=320000
-runningcost=22
+runningcost=0
+fixed_cost=133
 
 
 min_loading_time=300

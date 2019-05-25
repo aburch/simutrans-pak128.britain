@@ -22,8 +22,8 @@ length=4
 weight=33
 axles=3
 cost=4800000
-runningcost=295
-fixed_cost=26000
+runningcost=138
+fixed_cost=28000
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LNWR-Cauliflower-tender
@@ -79,6 +79,7 @@ weight=25
 axles=3
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=LNWR-Cauliflower

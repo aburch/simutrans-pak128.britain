@@ -21,8 +21,8 @@ rolling_resistance=19
 weight=4
 axles=2
 cost=167000
-runningcost=10
-fixed_cost=70
+runningcost=0
+fixed_cost=348
 
 comfort[0]=0
 comfort[1]=0
@@ -212,8 +212,8 @@ rolling_resistance=19
 weight=4
 axles=2
 cost=169000
-runningcost=12
-fixed_cost=4870
+runningcost=0
+fixed_cost=5152
 
 comfort[0]=0
 comfort[1]=0
@@ -404,8 +404,8 @@ rolling_resistance=19
 weight=4
 axles=2
 cost=169000
-runningcost=12
-fixed_cost=4870
+runningcost=0
+fixed_cost=5152
 
 comfort[0]=0
 comfort[1]=0

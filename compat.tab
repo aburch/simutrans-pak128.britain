@@ -1185,6 +1185,14 @@ BR-800MiddleTrolley
 BR-800MiddleComposite
 BR-801MiddleTrolley
 BR-801MiddleComposite
+LMS-Coronation-TO(Maroon)
+lms-coronation-to
+LMS-Coronation-FK(Maroon)
+lms-coronation-fk
+LMS-Coronation-BFK(Maroon)
+lms-coronation-bfk
+LMS-Coronation-BTK(Maroon)
+lms-coronation-btk
 ################################# New track ##################################
 wrought_iron_track_light
 plateway
@@ -1631,6 +1639,8 @@ lmr-4wheel-open-second-brake
 LMR-4Wheel-First-Guard-rear
 LMR-4Wheel-Open-Brake
 LMR-4Wheel-First-Guard-rear
+LNWR-8wheel-radial-brake-front
+LNWR-8wheel-radial-brake
 ############################ Wagon re-organisation/deprecation #####################
 PieceEarly2
 PieceEarly1
@@ -1642,3 +1652,12 @@ LongEarly2
 LongEarly1
 Bulk3T
 Bulk2T
+############################## Remove debugging carriages ########################
+DEBUG1_LNER-Gresley-Express-Coach
+LNER-Gresley-Express-Coach
+DEBUG1_LNER-Gresley-Express-Dining
+LNER-Gresley-Express-Dining
+DEBUG1_LNER-Gresley-Express-Brake-front
+LNER-Gresley-Express-Brake-front
+DEBUG1_LNER-Gresley-Express-Brake-rear
+LNER-Gresley-Express-Brake-rear

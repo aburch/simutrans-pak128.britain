@@ -24,7 +24,8 @@ length=10
 weight=62
 axles=4
 cost=1400000
-runningcost=82
+runningcost=255
+fixed_cost=10729
 # TODO: Find a better sound effect from this: but recordings of this are very rare
 sound=spompeytransportvideo-class-205.wav
 
@@ -101,7 +102,8 @@ length=10
 weight=51
 axles=4
 cost=580000
-runningcost=36
+runningcost=0
+fixed_cost=1208
 
 can_lead_from_rear=0
 bidirectional=1
@@ -178,7 +180,8 @@ length=10
 weight=51
 axles=4
 cost=580000
-runningcost=36
+runningcost=0
+fixed_cost=1208
 
 can_lead_from_rear=0
 bidirectional=1
@@ -255,7 +258,8 @@ length=10
 weight=53
 axles=4
 cost=1400000
-runningcost=60
+runningcost=0
+fixed_cost=2917
 sound=spompeytransportvideo-class-205.wav
 
 can_lead_from_rear=1

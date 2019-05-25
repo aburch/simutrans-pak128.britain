@@ -23,7 +23,8 @@ length=11
 weight=67
 axles=4
 cost=39980
-runningcost=500
+runningcost=375
+fixed_cost=6028
 sound=spompeytransportvideo-class-52.wav
 increase_maintenance_after_years=15
 
@@ -94,7 +95,8 @@ length=11
 weight=67
 axles=4
 cost=39980
-runningcost=500
+runningcost=375
+fixed_cost=28
 sound=spompeytransportvideo-class-52.wav
 increase_maintenance_after_years=15
 
@@ -162,7 +164,8 @@ length=11
 weight=33
 axles=4
 cost=1142000
-runningcost=37
+runningcost=0
+fixed_cost=1360
 
 increase_maintenance_after_years=15
 
@@ -234,7 +237,8 @@ length=11
 weight=45
 axles=4
 cost=1142000
-runningcost=37
+runningcost=0
+fixed_cost=1360
 
 increase_maintenance_after_years=15
 
@@ -305,7 +309,8 @@ length=11
 weight=45
 axles=4
 cost=1657000
-runningcost=78
+runningcost=0
+fixed_cost=19973
 
 increase_maintenance_after_years=15
 
@@ -379,7 +384,8 @@ length=11
 weight=67
 axles=4
 cost=3998000
-runningcost=500
+runningcost=375
+fixed_cost=8776
 sound=spompeytransportvideo-class-52.wav
 increase_maintenance_after_years=15
 
@@ -450,7 +456,8 @@ length=11
 weight=67
 axles=4
 cost=3998000
-runningcost=500
+runningcost=375
+fixed_cost=2776
 sound=spompeytransportvideo-class-52.wav
 increase_maintenance_after_years=15
 

@@ -21,7 +21,8 @@ length=11
 weight=126
 axles=6
 cost=1620000
-runningcost=521
+runningcost=1500
+fixed_cost=11125
 
 increase_maintenance_after_years=30
 rolling_resistance=13

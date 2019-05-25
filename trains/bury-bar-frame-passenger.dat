@@ -28,8 +28,8 @@ way_wear_factor=15888
 weight=8.5
 axle_load=5
 cost=5000000
-runningcost=85
-fixed_cost=26083
+runningcost=87
+fixed_cost=22944
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=bury-bar-frame-tender
@@ -65,6 +65,7 @@ rolling_resistance=19
 weight=1
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=bury-bar-frame-passenger
 Constraint[Prev][1]=bury-bar-frame-goods

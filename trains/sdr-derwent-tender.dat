@@ -17,6 +17,7 @@ rolling_resistance=19
 weight=1
 cost=0
 runningcost=0
+fixed_cost=0
 
 Constraint[Prev][0]=SDR-Derwent
 

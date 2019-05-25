@@ -20,7 +20,8 @@ length=11
 weight=43
 axles=4
 cost=1400000
-runningcost=120
+runningcost=164
+fixed_cost=10972
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
@@ -41,7 +42,7 @@ Constraint[Prev][5]=SR-401[BIL]Rear
 Constraint[Prev][6]=SR-6PAN(rear)
 Constraint[Prev][7]=sr-2hal-rear
 Constraint[Prev][8]=SR-404[COR]Rear
-Constraint[Prev][9]=SR-augmentation-trailer(rear)
+Constraint[Prev][9]=lswr-56ft-augmentation-trailer-rear
 Constraint[Prev][10]=none
 
 Constraint[Next][0]=sr-2hal-rear
@@ -101,7 +102,8 @@ length=11
 weight=31
 axles=4
 cost=1400000
-runningcost=36
+runningcost=0
+fixed_cost=1667
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
@@ -125,9 +127,8 @@ Constraint[Next][5]=SR-401[BIL]Front
 Constraint[Next][6]=SR-6PAN(front)
 Constraint[Next][7]=sr-2hal-front
 Constraint[Next][8]=SR-404[COR]Front
-Constraint[Next][9]=SR-augmentation-trailer(front)
+Constraint[Next][9]=lswr-56ft-augmentation-trailer-front
 Constraint[Next][10]=none
-
 
 liverytype[0]=SR-Malachite-Green
 liverytype[1]=BR-Early

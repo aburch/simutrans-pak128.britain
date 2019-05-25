@@ -20,7 +20,8 @@ length=7
 weight=82
 axle_load=19
 cost=11486200
-runningcost=1782
+runningcost=241
+fixed_cost=49572
 sound=konakaboom-black-five.wav
 upgrade[0]=SR-N15
 increase_maintenance_after_years=25
@@ -99,6 +100,7 @@ weight=57
 axles=4
 cost=0
 runningcost=0
+fixed_cost=0
 
 increase_maintenance_after_years=25
 years_before_maintenance_max_reached=14

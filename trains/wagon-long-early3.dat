@@ -18,7 +18,8 @@ weight=2
 axle_load=4
 way_wear_factor=10000
 cost=77000
-runningcost=1
+runningcost=0
+fixed_cost=128
 
 bidirectional=1
 min_loading_time=360

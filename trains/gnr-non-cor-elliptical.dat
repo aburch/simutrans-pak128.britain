@@ -18,7 +18,8 @@ length=10
 weight=28.5
 axles=4
 cost=580000
-runningcost=32
+runningcost=0
+fixed_cost=690
 
 comfort[0]=0
 comfort[1]=102
@@ -102,7 +103,8 @@ length=10
 weight=28.5
 axles=4
 cost=580000
-runningcost=32
+runningcost=0
+fixed_cost=5490
 
 comfort[0]=0
 comfort[1]=102
@@ -165,7 +167,8 @@ length=10
 weight=28.5
 axles=4
 cost=580000
-runningcost=32
+runningcost=0
+fixed_cost=5490
 
 comfort[0]=0
 comfort[1]=102
@@ -205,7 +208,8 @@ length=10
 weight=27.5
 axles=4
 cost=580000
-runningcost=32
+runningcost=0
+fixed_cost=690
 
 can_lead_from_rear=0
 bidirectional=1
@@ -241,7 +245,8 @@ length=10
 weight=27.5
 axles=4
 cost=580000
-runningcost=32
+runningcost=0
+fixed_cost=242
 
 can_lead_from_rear=0
 bidirectional=1

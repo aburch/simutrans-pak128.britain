@@ -21,7 +21,8 @@ weight=51.1
 # http://www.lner.info/locos/D/d14d15d16.shtml
 axle_load=17
 cost=6462800
-runningcost=2035
+runningcost=129
+fixed_cost=45386
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=27
 years_before_maintenance_max_reached=25

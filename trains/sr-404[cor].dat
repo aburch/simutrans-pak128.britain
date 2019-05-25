@@ -20,7 +20,8 @@ length=11
 weight=47.2
 axles=4
 cost=1680000
-runningcost=132
+runningcost=135
+fixed_cost=7400
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=24
 
@@ -42,7 +43,7 @@ Constraint[Prev][5]=SR-401[BIL]Rear
 Constraint[Prev][6]=SR-6PAN(rear)
 Constraint[Prev][7]=sr-2hal-rear
 Constraint[Prev][8]=SR-404[COR]Rear
-Constraint[Prev][9]=SR-augmentation-trailer(rear)
+Constraint[Prev][9]=lswr-56ft-augmentation-trailer-rear
 Constraint[Prev][10]=none
 
 Constraint[Next][0]=SR-404[COR]Middle1
@@ -113,7 +114,8 @@ length=11
 weight=33.2
 axles=4
 cost=1680000
-runningcost=40
+runningcost=0
+fixed_cost=2000
 
 increase_maintenance_after_years=24
 
@@ -195,7 +197,8 @@ length=11
 weight=35.6
 axles=4
 cost=1880000
-runningcost=95
+runningcost=0
+fixed_cost=2238
 
 increase_maintenance_after_years=24
 
@@ -280,7 +283,8 @@ length=11
 weight=34.2
 axles=4
 cost=1790000
-runningcost=75
+runningcost=0
+fixed_cost=2131
 
 increase_maintenance_after_years=24
 
@@ -351,7 +355,8 @@ length=11
 weight=33.1
 axles=4
 cost=1680000
-runningcost=40
+runningcost=0
+fixed_cost=2000
 
 increase_maintenance_after_years=24
 
@@ -436,7 +441,8 @@ length=11
 weight=47.2
 axles=4
 cost=1680000
-runningcost=132
+runningcost=135
+fixed_cost=7400
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=24
 
@@ -460,7 +466,7 @@ Constraint[Next][5]=SR-401[BIL]Front
 Constraint[Next][6]=SR-6PAN(front)
 Constraint[Next][7]=sr-2hal-front
 Constraint[Next][8]=SR-404[COR]Front
-Constraint[Next][9]=SR-augmentation-trailer(front)
+Constraint[Next][9]=lswr-56ft-augmentation-trailer-front
 Constraint[Next][10]=none
 
 

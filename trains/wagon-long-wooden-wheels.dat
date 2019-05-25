@@ -22,7 +22,8 @@ axle_load=1
 # Much lower than iron wheeled wagons as wooden wheels are soft
 way_wear_factor=1250
 cost=30000
-runningcost=1
+runningcost=0
+fixed_cost=4813
 
 bidirectional=1
 

@@ -24,7 +24,8 @@ weight=68
 # http://en.wikipedia.org/wiki/SR_V_Schools_class
 axle_load=21
 cost=8064000
-runningcost=1625
+runningcost=231
+fixed_cost=30720
 sound=konakaboom-black-five.wav
 increase_maintenance_after_years=18
 years_before_maintenance_max_reached=11

@@ -24,8 +24,8 @@ weight=28.2
 # This has this listed as the "203 class"
 axle_load=11
 cost=16200000
-runningcost=225
-fixed_cost=46750
+runningcost=181
+fixed_cost=37500
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=gnr-early-tender

@@ -32,8 +32,8 @@ axle_load=10
 cost=19540000
 # These were, according to Ahrons, very fuel inefficient,
 # as they had no brick arch, so much heat energy was wasted.
-runningcost=352
-fixed_cost=36142
+runningcost=226
+fixed_cost=40283
 
 Constraint[Next][0]=MR-130-tender
 
@@ -79,6 +79,7 @@ brake_force=3
 weight=14
 cost=0
 runningcost=0
+fixed_cost=0
 
 
 Constraint[Prev][0]=MR-130

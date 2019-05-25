@@ -21,7 +21,8 @@ length=9
 weight=24
 axles=2
 cost=1250000
-runningcost=99
+runningcost=50
+fixed_cost=6651
 sound=video47-class-142.wav
 
 can_lead_from_rear=1
@@ -79,7 +80,8 @@ length=9
 weight=24
 axles=2
 cost=1250000
-runningcost=99
+runningcost=50
+fixed_cost=6651
 sound=video47-class-142.wav
 
 min_loading_time=20
@@ -97,12 +99,11 @@ Constraint[Prev][0]=br-142-front
 Constraint[Next][0]=br-150-front
 Constraint[Next][1]=br-153
 Constraint[Next][2]=br-158-front
-Constraint[Next][3]=BR-158Front-Trolley(Regional)
-Constraint[Next][4]=br-156-front
-Constraint[Next][5]=br-153-trolley
-Constraint[Next][6]=br-156-front-trolley
-Constraint[Next][7]=br-142-front
-Constraint[Next][8]=none
+Constraint[Next][3]=br-156-front
+Constraint[Next][4]=br-153-trolley
+Constraint[Next][5]=br-156-front-trolley
+Constraint[Next][6]=br-142-front
+Constraint[Next][7]=none
 
 EmptyImage[E]=./images/br-142-rr.1.0
 EmptyImage[SE]=./images/br-142-rr.1.1
@@ -112,4 +113,3 @@ EmptyImage[W]=./images/br-142-rr.1.4
 EmptyImage[NW]=./images/br-142-rr.1.5
 EmptyImage[N]=./images/br-142-rr.1.6
 EmptyImage[NE]=./images/br-142-rr.1.7
-

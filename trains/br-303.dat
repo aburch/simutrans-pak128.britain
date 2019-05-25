@@ -19,7 +19,8 @@ rolling_resistance=13
 weight=34
 axles=4
 cost=1967000
-runningcost=42
+runningcost=0
+fixed_cost=2342
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 
@@ -98,7 +99,8 @@ rolling_resistance=13
 weight=56
 axles=4
 cost=1967000
-runningcost=154
+runningcost=124
+fixed_cost=1366
 
 increase_maintenance_after_years=23
 
@@ -169,7 +171,8 @@ rolling_resistance=13
 weight=38
 axles=4
 cost=1967000
-runningcost=42
+runningcost=0
+fixed_cost=2342
 sound=x24tohayes-epb.wav
 increase_maintenance_after_years=23
 

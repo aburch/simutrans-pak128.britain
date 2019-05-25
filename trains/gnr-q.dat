@@ -21,7 +21,8 @@ length=4
 axle_load=17
 weight=40
 cost=14750000
-runningcost=1744
+runningcost=141
+fixed_cost=36292
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=GNR-Stirling8Foot-Tender

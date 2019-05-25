@@ -22,7 +22,8 @@ rolling_resistance=19
 weight=1
 axle_load=1
 cost=46000
-runningcost=3
+runningcost=0
+fixed_cost=19
 
 bidirectional=1
 

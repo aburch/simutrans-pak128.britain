@@ -23,7 +23,8 @@ rolling_resistance=13
 weight=36
 axles=4
 cost=1840000
-runningcost=128
+runningcost=64
+fixed_cost=6958
 sound=konakaboom-class-159.wav
 
 can_lead_from_rear=1
@@ -83,7 +84,8 @@ rolling_resistance=13
 weight=36
 axles=4
 cost=1840000
-runningcost=128
+runningcost=64
+fixed_cost=958
 
 increase_maintenance_after_years=24
 
@@ -134,7 +136,8 @@ rolling_resistance=13
 
 weight=36
 cost=1840000
-runningcost=128
+runningcost=64
+fixed_cost=6958
 sound=konakaboom-class-159.wav
 
 increase_maintenance_after_years=24
@@ -154,12 +157,11 @@ Constraint[Prev][1]=br-150-centre
 Constraint[Next][0]=br-150-front
 Constraint[Next][1]=br-153
 Constraint[Next][2]=br-158-front
-Constraint[Next][3]=BR-158Front-Trolley(Regional)
-Constraint[Next][4]=br-156-front
-Constraint[Next][5]=br-153-trolley
-Constraint[Next][6]=br-156-front-trolley
-Constraint[Next][7]=br-142-front
-Constraint[Next][8]=none
+Constraint[Next][3]=br-156-front
+Constraint[Next][4]=br-153-trolley
+Constraint[Next][5]=br-156-front-trolley
+Constraint[Next][6]=br-142-front
+Constraint[Next][7]=none
 
 EmptyImage[E]=./images/br-150-rr-2.0.0
 EmptyImage[SE]=./images/br-150-rr-2.0.1

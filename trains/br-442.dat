@@ -22,7 +22,8 @@ rolling_resistance=13
 weight=39
 axles=4
 cost=590000
-runningcost=45
+runningcost=0
+fixed_cost=1229
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1
@@ -55,6 +56,7 @@ EmptyImage[NE]=./images/br-442.0.7
 
 obj=vehicle
 name=BR-442-Middle1
+engine_type=electric
 speed=160
 copyright=James
 intro_year=1988
@@ -75,7 +77,8 @@ rolling_resistance=13
 weight=35
 axles=4
 cost=590000
-runningcost=31
+runningcost=0
+fixed_cost=1229
 
 can_lead_from_rear=0
 bidirectional=1
@@ -105,6 +108,7 @@ EmptyImage[NE]=./images/br-442.1.7
 
 obj=vehicle
 name=BR-442-Middle2
+engine_type=electric
 speed=160
 copyright=James
 intro_year=1988
@@ -129,7 +133,8 @@ weight=54
 axles=4
 cost=590000
 upgrade_price=472000
-runningcost=290
+runningcost=0
+fixed_cost=246
 
 can_lead_from_rear=0
 bidirectional=1
@@ -160,6 +165,7 @@ EmptyImage[NE]=./images/br-442.1.7
 
 obj=vehicle
 name=BR-442-Middle3
+engine_type=electric
 speed=160
 copyright=James
 intro_year=1988
@@ -180,7 +186,8 @@ rolling_resistance=13
 weight=35
 axles=4
 cost=590000
-runningcost=31
+runningcost=0
+fixed_cost=1229
 
 can_lead_from_rear=0
 bidirectional=1
@@ -210,8 +217,8 @@ EmptyImage[NE]=./images/br-442.1.7
 
 obj=vehicle
 name=BR-442-Rear
-speed=160
 engine_type=electric
+speed=160
 copyright=James
 intro_year=1988
 intro_month=2
@@ -231,7 +238,8 @@ rolling_resistance=13
 weight=39
 axles=4
 cost=590000
-runningcost=31
+runningcost=0
+fixed_cost=1229
 sound=x24tohayes-epb.wav
 
 can_lead_from_rear=1

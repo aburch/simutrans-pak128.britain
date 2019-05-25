@@ -19,7 +19,8 @@ rolling_resistance=17
 weight=32.5
 axles=6
 cost=800000
-runningcost=38
+runningcost=0
+fixed_cost=952
 
 can_lead_from_rear=0
 bidirectional=1
@@ -109,7 +110,8 @@ rolling_resistance=17
 weight=32.5
 axles=6
 cost=800000
-runningcost=38
+runningcost=0
+fixed_cost=5752
 
 can_lead_from_rear=0
 bidirectional=1
@@ -117,7 +119,7 @@ min_loading_time=20
 max_loading_time=50
 
 comfort[0]=0
-comfort[1]==132
+comfort[1]=132
 
 Constraint[Next][0]=LNER-Gresley-Express-Coach
 Constraint[Next][1]=LNER-Gresley-Express-Brake-rear
@@ -176,12 +178,14 @@ rolling_resistance=17
 weight=32.5
 axles=6
 cost=800000
-runningcost=38
+runningcost=0
+fixed_cost=5752
 
 can_lead_from_rear=0
 bidirectional=1
 min_loading_time=20
 max_loading_time=50
+
 comfort[0]=0
 comfort[1]=132
 
@@ -241,7 +245,8 @@ rolling_resistance=17
 weight=33
 axles=6
 cost=950000
-runningcost=44
+runningcost=0
+fixed_cost=19131
 
 can_lead_from_rear=0
 bidirectional=1
@@ -331,7 +336,8 @@ length=9
 weight=25
 axles=4
 cost=740000
-runningcost=37
+runningcost=0
+fixed_cost=881
 
 can_lead_from_rear=0
 bidirectional=1
@@ -420,7 +426,8 @@ length=9
 weight=25
 axles=4
 cost=740000
-runningcost=37
+runningcost=0
+fixed_cost=5681
 
 can_lead_from_rear=0
 bidirectional=1
@@ -487,7 +494,8 @@ length=9
 weight=25
 axles=4
 cost=740000
-runningcost=37
+runningcost=0
+fixed_cost=5681
 
 can_lead_from_rear=0
 bidirectional=1
@@ -551,7 +559,8 @@ length=8
 weight=23.5
 axles=4
 cost=700000
-runningcost=37
+runningcost=0
+fixed_cost=5633
 
 can_lead_from_rear=0
 bidirectional=1
@@ -587,7 +596,8 @@ length=8
 weight=23.5
 axles=4
 cost=700000
-runningcost=36
+runningcost=0
+fixed_cost=292
 
 can_lead_from_rear=0
 bidirectional=1
@@ -671,7 +681,8 @@ length=8
 weight=23.5
 axles=4
 cost=770000
-runningcost=38
+runningcost=0
+fixed_cost=24321
 
 can_lead_from_rear=0
 bidirectional=1

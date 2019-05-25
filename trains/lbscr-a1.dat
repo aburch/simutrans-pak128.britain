@@ -29,8 +29,8 @@ upgrade[0]=LBSCR-A1X
 weight=27
 axles=3
 cost=4032000
-runningcost=185
-fixed_cost=17680
+runningcost=145
+fixed_cost=27360
 sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LBSCR-Stroudley
@@ -125,7 +125,8 @@ weight=29
 axles=3
 cost=2016000
 upgrade_price=500000
-runningcost=75
+runningcost=52
+fixed_cost=17680
 sound=lwalker-br-4mt-tank.wav
 
 liverytype[0]=LBSCR-Stroudley

@@ -25,7 +25,8 @@ air_resistance=105
 weight=40
 axles=4
 cost=2067000
-runningcost=660
+runningcost=0
+fixed_cost=4306
 sound=panos-g-class-395.wav
 
 min_loading_time=28
@@ -80,7 +81,8 @@ rolling_resistance=13
 weight=47
 axles=4
 cost=2067000
-runningcost=660
+runningcost=140
+fixed_cost=1723
 
 min_loading_time=28
 max_loading_time=160
@@ -135,7 +137,8 @@ rolling_resistance=13
 weight=47
 axles=4
 cost=2067000
-runningcost=660
+runningcost=0
+fixed_cost=4306
 
 upgrade[0]=BR-801MiddleComposite
 
@@ -190,7 +193,8 @@ rolling_resistance=13
 weight=47
 axles=4
 cost=2067000
-runningcost=675
+runningcost=0
+fixed_cost=4306
 
 upgrade[0]=BR-801MiddleTrailer
 
@@ -247,7 +251,8 @@ air_resistance=105
 weight=40
 axles=4
 cost=2067000
-runningcost=660
+runningcost=0
+fixed_cost=4306
 sound=panos-g-class-395.wav
 
 min_loading_time=28

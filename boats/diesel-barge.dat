@@ -12,7 +12,8 @@ payload=50
 weight=20
 length=9
 cost=240000
-runningcost=14
+runningcost=10
+fixed_cost=16100
 intro_year=1930
 intro_month=4
 
@@ -26,14 +27,14 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
+Constraint[Next][6]=none
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -166,7 +167,8 @@ payload=50
 weight=20
 length=9
 cost=240000
-runningcost=14
+runningcost=10
+fixed_cost=16100
 intro_year=1930
 intro_month=4
 
@@ -180,14 +182,15 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
+Constraint[Next][6]=none
+
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -263,7 +266,8 @@ payload=50
 weight=20
 length=9
 cost=240000
-runningcost=14
+runningcost=10
+fixed_cost=16100
 intro_year=1930
 intro_month=4
 
@@ -277,14 +281,15 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
+Constraint[Next][6]=none
+
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -341,7 +346,8 @@ payload=50
 weight=20
 length=9
 cost=240000
-runningcost=14
+runningcost=10
+fixed_cost=16100
 intro_year=1930
 intro_month=4
 
@@ -355,14 +361,15 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
+Constraint[Next][6]=none
+
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -418,7 +425,8 @@ payload=50
 weight=20
 length=9
 cost=240000
-runningcost=14
+runningcost=10
+fixed_cost=16100
 intro_year=1930
 intro_month=4
 
@@ -432,14 +440,15 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
+Constraint[Next][6]=none
+
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -495,7 +504,8 @@ payload=50
 weight=20
 length=9
 cost=240000
-runningcost=14
+runningcost=10
+fixed_cost=16100
 intro_year=1930
 intro_month=4
 
@@ -509,14 +519,15 @@ way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
+
 Constraint[Next][0]=SteelHullDumbBargeBulk
 Constraint[Next][1]=SteelHullDumbBargeLong
 Constraint[Next][2]=SteelHullDumbBargePiece
 Constraint[Next][3]=SteelHullDumbBargeCool
-Constraint[Next][4]=SteelHullDumbBargeMail
+Constraint[Next][4]=SteelHullDumbBargeOil
 Constraint[Next][5]=SteelHullDumbBargeLivestock
-Constraint[Next][6]=SteelHullDumbBargeOil
-Constraint[Next][7]=none
+Constraint[Next][6]=none
+
 
 liverytype[0]=Private
 liverytype[1]=BW-Standard
@@ -557,4 +568,3 @@ FreightImage[0][W][1]=./images/diesel-barge-bw-light-cover.1.0
 FreightImage[0][NW][1]=./images/diesel-barge-bw-light-cover.1.1
 FreightImage[0][N][1]=./images/diesel-barge-bw-light-cover.1.2
 FreightImage[0][NE][1]=./images/diesel-barge-bw-light-cover.1.3
-

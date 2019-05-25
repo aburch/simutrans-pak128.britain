@@ -25,8 +25,8 @@ rolling_resistance=19
 weight=17.2
 axle_load=6
 cost=6790000
-runningcost=16
-fixed_cost=1400
+runningcost=122
+fixed_cost=25431
 sound=lwalker-br-4mt-tank.wav
 
 Constraint[Next][0]=LMR-Planet-Tender
