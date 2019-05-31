@@ -31,7 +31,7 @@ max_loading_time=47
 comfort[0]=0
 comfort[1]=86
 comfort[2]=0
-comfort[3]=96
+comfort[3]=106
 
 Constraint[Next][0]=4-wheel-1870s-fitted
 Constraint[Next][1]=4-wheel-1870s-brake-fitted
@@ -92,6 +92,8 @@ Constraint[Next][55]=MR-54ft-eliptical-non-lav-brake-rear-d1246
 Constraint[Next][56]=MR-60ft-clerestory-lav-3rd-d484
 Constraint[Next][57]=MR-60ft-clerestory-brake-3rd-d496-rear
 Constraint[Next][58]=MR-33ft-6in-clerestory-lav-composite-d514
+Constraint[Next][59]=MR-48ft-clerestory-lav-composite-d509
+Constraint[Next][60]=MR-48ft-clerestory-non-lav-brake-d500-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -152,6 +154,8 @@ Constraint[Prev][55]=MR-54ft-eliptical-non-lav-brake-front-d1246
 Constraint[Prev][56]=MR-60ft-clerestory-lav-3rd-d484
 Constraint[Prev][57]=MR-60ft-clerestory-brake-3rd-d496-front
 Constraint[Prev][58]=MR-33ft-6in-clerestory-lav-composite-d514
+Constraint[Prev][59]=MR-48ft-clerestory-lav-composite-d509
+Constraint[Prev][60]=MR-48ft-clerestory-non-lav-brake-d500-front
 
 liverytype[0]=MR-Standard
 
@@ -191,7 +195,6 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=30
 max_loading_time=30
-comfort=141
 catering_level=4
 
 Constraint[Next][0]=4-wheel-1870s-fitted
@@ -252,6 +255,9 @@ Constraint[Next][54]=MR-54ft-eliptical-non-lav-d1277
 Constraint[Next][55]=MR-54ft-eliptical-non-lav-brake-rear-d1246
 Constraint[Next][56]=MR-60ft-clerestory-lav-3rd-d484
 Constraint[Next][57]=MR-60ft-clerestory-brake-3rd-d496-rear
+Constraint[Next][58]=MR-33ft-6in-clerestory-lav-composite-d514
+Constraint[Next][59]=MR-48ft-clerestory-lav-composite-d509
+Constraint[Next][60]=MR-48ft-clerestory-non-lav-brake-d500-rear
 
 # SPECIAL CONSTRAINT for dining twin.
 Constraint[Prev][0]=MR-60ft-clerestory-dining-d448
