@@ -27,6 +27,12 @@ tile_height = 8
 
 height_conversion_factor = 2
 
+# If the below setting is enabled (i.e. = 1), addons in the ~/addons folder
+# (inside the pakset folder) will be available. 
+#
+# NOTE: Using addons may make it not possible to join an online multiplayer game.
+with_private_paks = 0
+
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
 beginner_price_factor = 1500
 
