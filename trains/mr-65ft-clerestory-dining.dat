@@ -1,5 +1,9 @@
 # See Lacy & Dow vol. 2 pp. 453-4
 # Anglo-Scottish stock
+#
+# This is a third class diner. Do we need
+# a first class diner (D1196, p. 456)?
+#
 obj=vehicle
 name=MR-65ft-clerestory-dining-d575
 speed=160
@@ -95,11 +99,13 @@ Constraint[Prev][29]=LMS-TPO
 Constraint[Prev][30]=LMS-cor
 Constraint[Prev][31]=LMS-cor-brake-front
 
-EmptyImage[E]=./images/mr-65ft-clerestory-dining.1.4
-EmptyImage[SE]=./images/mr-65ft-clerestory-dining.1.5
-EmptyImage[S]=./images/mr-65ft-clerestory-dining.1.6
-EmptyImage[SW]=./images/mr-65ft-clerestory-dining.1.7
-EmptyImage[W]=./images/mr-65ft-clerestory-dining.1.0
-EmptyImage[NW]=./images/mr-65ft-clerestory-dining.1.1
-EmptyImage[N]=./images/mr-65ft-clerestory-dining.1.2
-EmptyImage[NE]=./images/mr-65ft-clerestory-dining.1.3
+liverytype[0]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-65ft-clerestory-dining_E.0.0
+EmptyImage[SE][0]=./images/mr-65ft-clerestory-dining_SE.0.0
+EmptyImage[S][0]=./images/mr-65ft-clerestory-dining_S.0.0
+EmptyImage[SW][0]=./images/mr-65ft-clerestory-dining_SW.0.0
+EmptyImage[W][0]=./images/mr-65ft-clerestory-dining_W.0.0
+EmptyImage[NW][0]=./images/mr-65ft-clerestory-dining_NW.0.0
+EmptyImage[N][0]=./images/mr-65ft-clerestory-dining_N.0.0
+EmptyImage[NE][0]=./images/mr-65ft-clerestory-dining_NE.0.0
