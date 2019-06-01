@@ -95,14 +95,16 @@ Constraint[Prev][29]=LMS-TPO
 Constraint[Prev][30]=LMS-cor
 Constraint[Prev][31]=LMS-cor-brake-front
 
-EmptyImage[E]=./images/mr-54ft-clerestory-cor-d560.1.4
-EmptyImage[SE]=./images/mr-54ft-clerestory-cor-d560.1.5
-EmptyImage[S]=./images/mr-54ft-clerestory-cor-d560.1.6
-EmptyImage[SW]=./images/mr-54ft-clerestory-cor-d560.1.7
-EmptyImage[W]=./images/mr-54ft-clerestory-cor-d560.1.0
-EmptyImage[NW]=./images/mr-54ft-clerestory-cor-d560.1.1
-EmptyImage[N]=./images/mr-54ft-clerestory-cor-d560.1.2
-EmptyImage[NE]=./images/mr-54ft-clerestory-cor-d560.1.3
+liverytype[0]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-54ft-clerestory-cor-d560_E.0.0
+EmptyImage[SE][0]=./images/mr-54ft-clerestory-cor-d560_SE.0.0
+EmptyImage[S][0]=./images/mr-54ft-clerestory-cor-d560_S.0.0
+EmptyImage[SW][0]=./images/mr-54ft-clerestory-cor-d560_SW.0.0
+EmptyImage[W][0]=./images/mr-54ft-clerestory-cor-d560_W.0.0
+EmptyImage[NW][0]=./images/mr-54ft-clerestory-cor-d560_NW.0.0
+EmptyImage[N][0]=./images/mr-54ft-clerestory-cor-d560_N.0.0
+EmptyImage[NE][0]=./images/mr-54ft-clerestory-cor-d560_NE.0.0
 
 ----
 
@@ -171,14 +173,16 @@ Constraint[Next][30]=LMS-cor
 Constraint[Next][31]=LMS-cor-brake-rear
 Constraint[Next][32]=none
 
-EmptyImage[E]=./images/mr-54ft-clerestory-cor-brake-d467-front.1.4
-EmptyImage[SE]=./images/mr-54ft-clerestory-cor-brake-d467-front.1.5
-EmptyImage[S]=./images/mr-54ft-clerestory-cor-brake-d467-front.1.6
-EmptyImage[SW]=./images/mr-54ft-clerestory-cor-brake-d467-front.1.7
-EmptyImage[W]=./images/mr-54ft-clerestory-cor-brake-d467-front.1.0
-EmptyImage[NW]=./images/mr-54ft-clerestory-cor-brake-d467-front.1.1
-EmptyImage[N]=./images/mr-54ft-clerestory-cor-brake-d467-front.1.2
-EmptyImage[NE]=./images/mr-54ft-clerestory-cor-brake-d467-front.1.3
+liverytype[0]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-54ft-clerestory-cor-brake-d467-front_E.0.0
+EmptyImage[SE][0]=./images/mr-54ft-clerestory-cor-brake-d467-front_SE.0.0
+EmptyImage[S][0]=./images/mr-54ft-clerestory-cor-brake-d467-front_S.0.0
+EmptyImage[SW][0]=./images/mr-54ft-clerestory-cor-brake-d467-front_SW.0.0
+EmptyImage[W][0]=./images/mr-54ft-clerestory-cor-brake-d467-front_W.0.0
+EmptyImage[NW][0]=./images/mr-54ft-clerestory-cor-brake-d467-front_NW.0.0
+EmptyImage[N][0]=./images/mr-54ft-clerestory-cor-brake-d467-front_N.0.0
+EmptyImage[NE][0]=./images/mr-54ft-clerestory-cor-brake-d467-front_NE.0.0
 
 ----
 
@@ -246,14 +250,16 @@ Constraint[Prev][29]=LMS-TPO
 Constraint[Prev][30]=LMS-cor
 Constraint[Prev][31]=LMS-cor-brake-front
 
-EmptyImage[E]=./images/mr-54ft-clerestory-cor-brake-d467-rear.1.4
-EmptyImage[SE]=./images/mr-54ft-clerestory-cor-brake-d467-rear.1.5
-EmptyImage[S]=./images/mr-54ft-clerestory-cor-brake-d467-rear.1.6
-EmptyImage[SW]=./images/mr-54ft-clerestory-cor-brake-d467-rear.1.7
-EmptyImage[W]=./images/mr-54ft-clerestory-cor-brake-d467-rear.1.0
-EmptyImage[NW]=./images/mr-54ft-clerestory-cor-brake-d467-rear.1.1
-EmptyImage[N]=./images/mr-54ft-clerestory-cor-brake-d467-rear.1.2
-EmptyImage[NE]=./images/mr-54ft-clerestory-cor-brake-d467-rear.1.3
+liverytype[0]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-54ft-clerestory-cor-brake-d467-rear_E.0.0
+EmptyImage[SE][0]=./images/mr-54ft-clerestory-cor-brake-d467-rear_SE.0.0
+EmptyImage[S][0]=./images/mr-54ft-clerestory-cor-brake-d467-rear_S.0.0
+EmptyImage[SW][0]=./images/mr-54ft-clerestory-cor-brake-d467-rear_SW.0.0
+EmptyImage[W][0]=./images/mr-54ft-clerestory-cor-brake-d467-rear_W.0.0
+EmptyImage[NW][0]=./images/mr-54ft-clerestory-cor-brake-d467-rear_NW.0.0
+EmptyImage[N][0]=./images/mr-54ft-clerestory-cor-brake-d467-rear_N.0.0
+EmptyImage[NE][0]=./images/mr-54ft-clerestory-cor-brake-d467-rear_NE.0.0
 
 ----
 
@@ -322,14 +328,16 @@ Constraint[Next][30]=LMS-cor
 Constraint[Next][31]=LMS-cor-brake-rear
 Constraint[Next][32]=none
 
-EmptyImage[E]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front.1.4
-EmptyImage[SE]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front.1.5
-EmptyImage[S]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front.1.6
-EmptyImage[SW]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front.1.7
-EmptyImage[W]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front.1.0
-EmptyImage[NW]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front.1.1
-EmptyImage[N]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front.1.2
-EmptyImage[NE]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front.1.3
+liverytype[0]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front_E.0.0
+EmptyImage[SE][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front_SE.0.0
+EmptyImage[S][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front_S.0.0
+EmptyImage[SW][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front_SW.0.0
+EmptyImage[W][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front_W.0.0
+EmptyImage[NW][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front_NW.0.0
+EmptyImage[N][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front_N.0.0
+EmptyImage[NE][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-front_NE.0.0
 
 ----
 
@@ -397,14 +405,16 @@ Constraint[Prev][29]=LMS-TPO
 Constraint[Prev][30]=LMS-cor
 Constraint[Prev][31]=LMS-cor-brake-front
 
-EmptyImage[E]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear.1.4
-EmptyImage[SE]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear.1.5
-EmptyImage[S]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear.1.6
-EmptyImage[SW]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear.1.7
-EmptyImage[W]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear.1.0
-EmptyImage[NW]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear.1.1
-EmptyImage[N]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear.1.2
-EmptyImage[NE]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear.1.3
+liverytype[0]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear_E.0.0
+EmptyImage[SE][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear_SE.0.0
+EmptyImage[S][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear_S.0.0
+EmptyImage[SW][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear_SW.0.0
+EmptyImage[W][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear_W.0.0
+EmptyImage[NW][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear_NW.0.0
+EmptyImage[N][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear_N.0.0
+EmptyImage[NE][0]=./images/mr-54ft-clerestory-mini-restaurant-brake-d443-rear_NE.0.0
 
 ----
 
@@ -505,14 +515,16 @@ Constraint[Prev][29]=LMS-TPO
 Constraint[Prev][30]=LMS-cor
 Constraint[Prev][31]=LMS-cor-brake-front
 
-EmptyImage[E]=./images/mr-54ft-clerestory-open-vestibule-d595.1.4
-EmptyImage[SE]=./images/mr-54ft-clerestory-open-vestibule-d595.1.5
-EmptyImage[S]=./images/mr-54ft-clerestory-open-vestibule-d595.1.6
-EmptyImage[SW]=./images/mr-54ft-clerestory-open-vestibule-d595.1.7
-EmptyImage[W]=./images/mr-54ft-clerestory-open-vestibule-d595.1.0
-EmptyImage[NW]=./images/mr-54ft-clerestory-open-vestibule-d595.1.1
-EmptyImage[N]=./images/mr-54ft-clerestory-open-vestibule-d595.1.2
-EmptyImage[NE]=./images/mr-54ft-clerestory-open-vestibule-d595.1.3
+liverytype[0]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-54ft-clerestory-open-vestibule-d595_E.0.0
+EmptyImage[SE][0]=./images/mr-54ft-clerestory-open-vestibule-d595_SE.0.0
+EmptyImage[S][0]=./images/mr-54ft-clerestory-open-vestibule-d595_S.0.0
+EmptyImage[SW][0]=./images/mr-54ft-clerestory-open-vestibule-d595_SW.0.0
+EmptyImage[W][0]=./images/mr-54ft-clerestory-open-vestibule-d595_W.0.0
+EmptyImage[NW][0]=./images/mr-54ft-clerestory-open-vestibule-d595_NW.0.0
+EmptyImage[N][0]=./images/mr-54ft-clerestory-open-vestibule-d595_N.0.0
+EmptyImage[NE][0]=./images/mr-54ft-clerestory-open-vestibule-d595_NE.0.0
 
 ----
 
@@ -581,14 +593,16 @@ Constraint[Next][30]=LMS-cor
 Constraint[Next][31]=LMS-cor-brake-rear
 Constraint[Next][32]=none
 
-EmptyImage[E]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front.1.4
-EmptyImage[SE]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front.1.5
-EmptyImage[S]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front.1.6
-EmptyImage[SW]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front.1.7
-EmptyImage[W]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front.1.0
-EmptyImage[NW]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front.1.1
-EmptyImage[N]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front.1.2
-EmptyImage[NE]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front.1.3
+liverytype[0]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front_E.0.0
+EmptyImage[SE][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front_SE.0.0
+EmptyImage[S][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front_S.0.0
+EmptyImage[SW][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front_SW.0.0
+EmptyImage[W][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front_W.0.0
+EmptyImage[NW][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front_NW.0.0
+EmptyImage[N][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front_N.0.0
+EmptyImage[NE][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-front_NE.0.0
 
 ----
 
@@ -656,11 +670,13 @@ Constraint[Prev][29]=LMS-TPO
 Constraint[Prev][30]=LMS-cor
 Constraint[Prev][31]=LMS-cor-brake-front
 
-EmptyImage[E]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear.1.4
-EmptyImage[SE]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear.1.5
-EmptyImage[S]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear.1.6
-EmptyImage[SW]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear.1.7
-EmptyImage[W]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear.1.0
-EmptyImage[NW]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear.1.1
-EmptyImage[N]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear.1.2
-EmptyImage[NE]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear.1.3
+liverytype[0]=MR-Standard
+
+EmptyImage[E][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear_E.0.0
+EmptyImage[SE][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear_SE.0.0
+EmptyImage[S][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear_S.0.0
+EmptyImage[SW][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear_SW.0.0
+EmptyImage[W][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear_W.0.0
+EmptyImage[NW][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear_NW.0.0
+EmptyImage[N][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear_N.0.0
+EmptyImage[NE][0]=./images/mr-54ft-clerestory-open-vestibule-brake-d594-rear_NE.0.0
