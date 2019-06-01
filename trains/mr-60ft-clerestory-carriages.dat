@@ -99,6 +99,8 @@ Constraint[Next][62]=MR-54ft-clerestory-brake-composite-d519a-rear
 Constraint[Next][63]=MR-54ft-clerestory-lav-brake-composite-d521-rear
 Constraint[Next][64]=MR-48ft-arc-first-d481
 Constraint[Next][65]=MR-48ft-arc-composite-d551
+Constraint[Next][66]=MR-50ft-arc-first-d553
+Constraint[Next][67]=MR-50ft-arc-composite-d554
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -166,6 +168,8 @@ Constraint[Prev][62]=MR-54ft-clerestory-brake-composite-d519a-front
 Constraint[Prev][63]=MR-54ft-clerestory-lav-brake-composite-d521-front
 Constraint[Prev][64]=MR-48ft-arc-first-d481
 Constraint[Prev][65]=MR-48ft-arc-composite-d551
+Constraint[Prev][66]=MR-50ft-arc-first-d553
+Constraint[Prev][67]=MR-50ft-arc-composite-d554
 
 liverytype[0]=MR-Standard
 
@@ -281,6 +285,8 @@ Constraint[Next][62]=MR-54ft-clerestory-brake-composite-d519a-rear
 Constraint[Next][63]=MR-54ft-clerestory-lav-brake-composite-d521-rear
 Constraint[Next][64]=MR-48ft-arc-first-d481
 Constraint[Next][65]=MR-48ft-arc-composite-d551
+Constraint[Next][66]=MR-50ft-arc-first-d553
+Constraint[Next][67]=MR-50ft-arc-composite-d554
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -348,6 +354,8 @@ Constraint[Prev][62]=MR-54ft-clerestory-brake-composite-d519a-front
 Constraint[Prev][63]=MR-54ft-clerestory-lav-brake-composite-d521-front
 Constraint[Prev][64]=MR-48ft-arc-first-d481
 Constraint[Prev][65]=MR-48ft-arc-composite-d551
+Constraint[Prev][66]=MR-50ft-arc-first-d553
+Constraint[Prev][67]=MR-50ft-arc-composite-d554
 
 liverytype[0]=MR-Standard
 
@@ -463,7 +471,9 @@ Constraint[Next][62]=MR-54ft-clerestory-brake-composite-d519a-rear
 Constraint[Next][63]=MR-54ft-clerestory-lav-brake-composite-d521-rear
 Constraint[Next][64]=MR-48ft-arc-first-d481
 Constraint[Next][65]=MR-48ft-arc-composite-d551
-Constraint[Next][66]=none
+Constraint[Next][66]=MR-50ft-arc-first-d553
+Constraint[Next][67]=MR-50ft-arc-composite-d554
+Constraint[Next][68]=none
 
 liverytype[0]=MR-Standard
 
@@ -579,6 +589,8 @@ Constraint[Prev][62]=MR-54ft-clerestory-brake-composite-d519a-front
 Constraint[Prev][63]=MR-54ft-clerestory-lav-brake-composite-d521-front
 Constraint[Prev][64]=MR-48ft-arc-first-d481
 Constraint[Prev][65]=MR-48ft-arc-composite-d551
+Constraint[Prev][66]=MR-50ft-arc-first-d553
+Constraint[Prev][67]=MR-50ft-arc-composite-d554
 
 liverytype[0]=MR-Standard
 
@@ -701,6 +713,8 @@ Constraint[Prev][62]=MR-54ft-clerestory-brake-composite-d519a-front
 Constraint[Prev][63]=MR-54ft-clerestory-lav-brake-composite-d521-front
 Constraint[Prev][64]=MR-48ft-arc-first-d481
 Constraint[Prev][65]=MR-48ft-arc-composite-d551
+Constraint[Prev][66]=MR-50ft-arc-first-d553
+Constraint[Prev][67]=MR-50ft-arc-composite-d554
 
 Constraint[Next][0]=MR-31ft-clerestory-kitchen-car-d532
 
@@ -812,6 +826,8 @@ Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
 Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][66]=MR-50ft-arc-first-d553
+Constraint[Next][67]=MR-50ft-arc-composite-d554
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -876,6 +892,8 @@ Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
 Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
 Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][66]=MR-50ft-arc-first-d553
+Constraint[Prev][67]=MR-50ft-arc-composite-d554
 
 liverytype[0]=MR-Standard
 
