@@ -169,6 +169,7 @@ general_tool[129]=18,,,\
 # TOOL_SHOW_RIBI=129
 # TOOL_RECOLOUR_TOOL=130 (internal use)
 # TOOL_ACCESS_TOOL=131 (internal use)
+# TOOL_SHOW_SIGNALBOX_COVERAGE=132
 #
 simple_tool[0]=0,p
 simple_tool[1]=1,W
@@ -195,6 +196,7 @@ simple_tool[33]=,B
 simple_tool[34]=,O
 simple_tool[35]=,;
 simple_tool[129]=,:
+simple_tool[132]=,$
 
 # THIRD SECTION: dialoge tools
 # since these tools immeadiately open only a dialoge,
