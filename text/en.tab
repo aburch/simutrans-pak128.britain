@@ -1948,8 +1948,10 @@ sack
  sacks
  bundles
   bundles 
-m3
+kilolitres
 kL
+churns (x5)
+ churns (x5)
 #_____________________________________misc______________________________________
 #_____________________________________misc______________________________________
 PowerDest
@@ -3107,7 +3109,7 @@ LBSCR Four wheel four compartment carriage (second class)
 LBSCR-20ft-brake-front
 LBSCR Four wheel two compartment composite brake carriage (first/second class)
 LBSCR-20ft-brake-rear
-LBSCR Four wheel two compartment composite brake carriage (first/second class)
+LBSCR Four wheel two compartment composite brake carriage (first/second class) (rear)
 LBSCR-20ft-brake-third
 LBSCR Four wheel two compartment brake carriage (third class)
 LBSCR-20ft-mail
@@ -3425,25 +3427,33 @@ Midland clerestory dining twin set
 MR-31ft-clerestory-kitchen-car-d532
 Midland kitchen car
 MR-31ft-clerestory-lavatory-d492
-Midland six wheel clerestory lavatory carriage
+Midland six wheel clerestory lavatory carriage (third class)
 MR-33ft-6in-clerestory-d491
-Midland six wheel clerestory carriage
+Midland six wheel clerestory carriage (third class)
+MR-33ft-6in-clerestory-lav-composite-d514
+Midland six wheel clerestory composite carriage (first/third class)
 MR-33ft-6in-clerestory-brake-d503-front
-Midland six wheel clerestory brake carriage
+Midland six wheel clerestory brake carriage (third class)
 MR-33ft-6in-clerestory-brake-d503-rear
-Midland six wheel clerestory brake carriage (rear)
+Midland six wheel clerestory brake carriage (third class) (rear)
 MR-48ft-clerestory-lav-3rd-d486
-Midland six compartment bogie clerestory lavatory carriage
+Midland six compartment bogie clerestory lavatory carriage (third class)
+MR-48ft-clerestory-non-lav-brake-composite-d525-front
+Midland five compartment bogie clerestory brake composite carriage (first/third class)
+MR-48ft-clerestory-non-lav-brake-composite-d525-rear
+Midland five compartment bogie clerestory brake composite carriage (first/third class) (rear)
+MR-48ft-clerestory-lav-composite-d509
+Midland six compartment bogie clerestory lavatory composite carriage (first/third class)
 MR-48ft-clerestory-lav-brake-d499-front
-Midland four compartment bogie clerestory lavatory brake carriage
+Midland four compartment bogie clerestory lavatory brake carriage (third class)
 MR-48ft-clerestory-lav-brake-d499-rear
-Midland four compartment bogie clerestory lavatory brake carriage (rear)
+Midland four compartment bogie clerestory lavatory brake carriage (third class) (rear)
 MR-48ft-clerestory-non-lav-brake-d500-front
-Midland five compartment bogie clerestory brake carriage
+Midland five compartment bogie clerestory brake carriage (third class)
 MR-48ft-clerestory-non-lav-brake-d500-rear
-Midland five compartment bogie clerestory brake carriage (rear)
+Midland five compartment bogie clerestory brake carriage (third class) (rear)
 MR-48ft-clerestory-non-lav
-Midland seven compartment bogie clerestory carriage
+Midland seven compartment bogie clerestory carriage (third class)
 MR-45ft-clerestory-full-brake-d531
 Midland bogie clerestory mail/brake carriage
 MR-48ft-clerestory-mail
@@ -3451,19 +3461,21 @@ Midland bogie clerestory mail carriage
 MR-48ft-clerestory-tpo
 Midland bogie clerestory travelling post office
 MR-60ft-clerestory-lav-3rd-d484
-Midland eight compartment bogie clerestory lavatory carriage
+Midland eight compartment bogie clerestory lavatory carriage (third class)
+MR-60ft-clerestory-lav-composite-d539
+Midland semi-saloon bogie clerestory lavatory composite carriage (first/third class)
 MR-60ft-clerestory-brake-3rd-d496-front
-Midland six compartment bogie clerestory brake carriage
+Midland six compartment bogie clerestory brake carriage (third class)
 MR-60ft-clerestory-brake-3rd-d496-rear
-Midland six compartment bogie clerestory brake carriage (rear)
+Midland six compartment bogie clerestory brake carriage (third class) (rear)
 MR-45ft-clerestory-cor-full-brake-d536
 Midland bogie clerestory gangwayed mail/brake carriage
 MR-48ft-clerestory-cor-d575
-Midland six compartment bogie clerestory gangwayed corridor carriage
+Midland six compartment bogie clerestory gangwayed corridor carriage (third class)
 MR-48ft-clerestory-cor-lav-brake-front
-Midland four compartment bogie clerestory corridor brake carriage
+Midland four compartment bogie clerestory gangwayed corridor brake composite carriage (first/third class)
 MR-48ft-clerestory-cor-lav-brake-rear
-Midland four compartment bogie clerestory gangwayed corridor brake carriage (rear)
+Midland four compartment bogie clerestory gangwayed corridor brake composite carriage (first/third class) (rear)
 MR-31ft-clerestory-cor-brake-d568
 Midland six wheel clerestory corridor mail/brake carriage
 MR-60ft-clerestory-kitchen-dining-d444
@@ -3471,69 +3483,97 @@ Midland clerestory bogie dining/kitchen carriage
 MR-48ft-clerestory-full-brake-d1067
 Midland bogie clerestory gangwayed mail/brake carriage
 MR-54ft-clerestory-cor-d560
-Midland seven compartment clerestory gangwayed corridor carriage
+Midland seven compartment clerestory gangwayed corridor carriage (third class)
+MR-54ft-clerestory-cor-composite-d593
+Midland six and a half compartment clerestory gangwayed corridor composite carriage (first/third class)
+MR-54ft-clerestory-cor-first-d600
+Midland six compartment clerestory gangwayed corridor carriage (first class)
 MR-54ft-clerestory-cor-brake-d467-front
-Midland three compartment clerestory gangwayed corridor brake carriage
+Midland three compartment clerestory gangwayed corridor brake carriage (third class)
 MR-54ft-clerestory-cor-brake-d467-rear
-Midland three compartment clerestory gangwayed corridor brake carriage (rear)
+Midland three compartment clerestory gangwayed corridor brake carriage  (third class)(rear)
 MR-65ft-clerestory-dining-d575
-Midland clerestory dining/kitchen carriage
+Midland clerestory dining/kitchen carriage (third class)
 MR-54ft-clerestory-mini-restaurant-brake-d443-front
-Midland clerestory mini-restaurant brake carriage
+Midland clerestory mini-restaurant brake composite carriage (first/third class)
 MR-54ft-clerestory-mini-restaurant-brake-d443-rear
-Midland clerestory mini-restaurant brake carriage (rear)
+Midland clerestory mini-restaurant brake composite carriage (first/third class) (rear)
 MR-54ft-clerestory-open-vestibule-d595
-Midland clerestory open vestibuled carriage
+Midland clerestory open vestibuled carriage (third class)
 MR-54ft-clerestory-open-vestibule-brake-d594-front
-Midland clerestory open vestibuled brake carriage
+Midland clerestory open vestibuled brake carriage (third class)
 MR-54ft-clerestory-open-vestibule-brake-d594-rear
-Midland clerestory open vestibuled brake carriage (rear)
+Midland clerestory open vestibuled brake carriage (third class) (rear)
 MR-54ft-clerestory-lav-d1056
-Midland seven compartment clerestory lavatory carriage
+Midland seven compartment clerestory lavatory carriage (third class)
 MR-54ft-clerestory-lav-brake-d550-front
-Midland seven compartment clerestory lavatory carriage
-MR-54ft-clerestory-lav-brake-d550-front
-Midland four compartment clerestory lavatory carriage
+Midland four compartment clerestory lavatory brake carriage (third class)
 MR-54ft-clerestory-lav-brake-d550-rear
-Midland four compartment clerestory lavatory carriage (rear)
+Midland four compartment clerestory lavatory brake carriage (third class) (rear)
+MR-54ft-clerestory-lav-brake-composite-d521-front
+Midland six compartment clerestory lavatory brake composite carriage (first/third class)
+MR-54ft-clerestory-lav-brake-composite-d521-rear
+Midland six compartment clerestory lavatory brake composite carriage (first/third class) (rear)
 MR-54ft-clerestory-non-lav-d485
-Midland eight compartment clerestory carriage
+Midland eight compartment clerestory carriage (third class)
 MR-54ft-clerestory-brake-d497-front
-Midland six compartment clerestory brake carriage
+Midland six compartment clerestory brake carriage (third class)
 MR-54ft-clerestory-brake-d497-rear
-Midland six compartment clerestory brake carriage (rear)
+Midland six compartment clerestory brake carriage (third class) (rear)
+MR-54ft-clerestory-brake-composite-d519a-front
+Midland six compartment clerestory brake composite carriage (first/third class)
+MR-54ft-clerestory-brake-composite-d519a-rear
+Midland six compartment clerestory brake composite carriage (first/third class) (rear)
 MR-54ft-clerestory-mail
 Midland clerestory mail carriage
 MR-54ft-clerestory-tpo
 Midland clerestory travelling post office
 MR-48ft-arc-d487
-Midland eight compartment bogie carriage
+Midland eight compartment bogie carriage (third class)
+MR-48ft-arc-first-d481
+Midland seven compartment bogie carriage (first class)
+MR-48ft-arc-composite-d551
+Midland seven compartment bogie composite carriage (first/third class)
 MR-48ft-arc-brake-d501-front
-Midland six compartment bogie brake carriage
+Midland six compartment bogie brake carriage (third class)
 MR-48ft-arc-brake-d501-rear
-Midland six compartment bogie brake carriage (rear)
+Midland six compartment bogie brake carriage (third class) (rear)
 MR-50ft-arc-lav-d1060
-Midland seven compartment bogie lavatory carriage
+Midland seven compartment bogie lavatory carriage (third class)
+MR-50ft-arc-first-d553
+Midland seven compartment bogie carriage (first class)
+MR-50ft-arc-composite-d554
+Midland seven compartment bogie composite carriage (first/third class)
+MR-50ft-arc-non-lav-d555
+Midland eight compartment bogie carriage (third class)
 MR-50ft-arc-brake-front-d557
-Midland six compartment bogie brake carriage
+Midland six compartment bogie brake carriage (third class)
 MR-50ft-arc-brake-rear-d557
-Midland six compartment bogie brake carriage (rear)
+Midland six compartment bogie brake carriage (third class) (rear)
 MR-54ft-eliptical-cor-d1047
-Midland seven compartment gangwayed corridor carriage
+Midland seven compartment gangwayed corridor carriage (third class)
 MR-54ft-eliptical-cor-brake-front-d1048
-Midland three compartment gangwayed corridor brake carriage
+Midland three compartment gangwayed corridor brake carriage (third class)
 MR-54ft-eliptical-cor-brake-rear-d1048
-Midland three compartment gangwayed corridor brake carriage (rear)
+Midland three compartment gangwayed corridor brake carriage (third class) (rear)
+MR-54ft-eliptical-cor-brake-composite-front-d1046
+Midland five compartment gangwayed corridor brake composite carriage (first/third class)
+MR-54ft-eliptical-cor-brake-composite-rear-d1046
+Midland five compartment gangwayed corridor brake composite carriage (first/third class) (rear)
 MR-54ft-eliptical-full-brake-d1114
 Midland gangwayed mail/brake carriage
 MR-54ft-eliptical-non-lav-d1277
-Midland nine compartment carriage
+Midland nine compartment suburban carriage (third class)
+MR-54ft-eliptical-non-lav-first-d1301
+Midland eight compartment suburban carriage (first class)
+MR-54ft-eliptical-non-lav-composite-d1559
+Midland eight compartment suburban composite carriage (first/third class)
 MR-54ft-eliptical-non-lav-brake-front-d1246
-Midland six compartment brake carriage
+Midland six compartment suburban brake carriage (third class)
 MR-54ft-eliptical-non-lav-brake-rear-d1246
-Midland six compartment brake carriage (rear)
+Midland six compartment suburban brake carriage (third class) (rear)
 MR-65ft-eliptical-dining-d1196
-Midland dining carriage
+Midland dining carriage (first class)
 BR-251FrontFirst
 BR Class 251 "Blue Pullman" (first class driving motor)
 BR-251FrontSecond
