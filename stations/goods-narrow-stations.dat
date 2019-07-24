@@ -4,7 +4,8 @@ Name=GoodsSidingNarrow
 type=stop
 waytype=narrowgauge_track
 noconstruction=1
-NoInfo=1
+#NoInfo=1
+
 Dims=1,1,2
 enables_ware=1
 population_and_visitor_demand_capacity=0
@@ -30,7 +31,8 @@ Name=GoodsSidingCraneNarrow
 type=stop
 waytype=narrowgauge_track
 noconstruction=1
-NoInfo=1
+#NoInfo=1
+
 Dims=1,1,2
 level=1
 allow_underground=0
@@ -55,7 +57,8 @@ Name=GoodsShedOldNarrow
 type=stop
 waytype=narrowgauge_track
 noconstruction=1
-NoInfo=1
+#NoInfo=1
+
 Dims=1,1,2
 level=3
 allow_underground=0
@@ -82,7 +85,8 @@ Name=GoodsShedModernNarrow
 type=stop
 waytype=narrowgauge_track
 noconstruction=1
-NoInfo=1
+#NoInfo=1
+
 Dims=1,1,2
 level=3
 allow_underground=0
@@ -107,7 +111,8 @@ Name=BulkLoadingOldNarrow
 type=stop
 waytype=narrowgauge_track
 noconstruction=1
-NoInfo=1
+#NoInfo=1
+
 Dims=1,1,16
 level=2
 allow_underground=0
@@ -182,7 +187,8 @@ Name=BulkLoadingModernNarrow
 type=stop
 waytype=narrowgauge_track
 noconstruction=1
-NoInfo=1
+#NoInfo=1
+
 Dims=1,1,16
 level=2
 allow_underground=0

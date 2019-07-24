@@ -5,7 +5,8 @@ type=depot
 waytype=road
 Dims=1,1,4
 noconstruction=1
-NoInfo=1
+#NoInfo=1
+
 level=10
 population_and_visitor_demand_capacity=6
 employment_capacity=62
@@ -47,7 +48,8 @@ type=depot
 waytype=road
 Dims=1,1,4
 noconstruction=1
-NoInfo=1
+#NoInfo=1
+
 level=9
 population_and_visitor_demand_capacity=5
 employment_capacity=33
@@ -93,7 +95,8 @@ type=depot
 waytype=road
 Dims=1,1,4
 noconstruction=1
-NoInfo=1
+#NoInfo=1
+
 level=9
 population_and_visitor_demand_capacity=5
 employment_capacity=33
@@ -138,7 +141,8 @@ type=depot
 waytype=road
 Dims=1,1,4
 noconstruction=1
-NoInfo=1
+#NoInfo=1
+
 level=6
 population_and_visitor_demand_capacity=5
 employment_capacity=30
