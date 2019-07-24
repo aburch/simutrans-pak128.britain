@@ -5,7 +5,6 @@ type=stop
 waytype=track
 noconstruction=1
 #NoInfo=1
-
 Dims=1,1,2
 enables_ware=1
 population_and_visitor_demand_capacity=0
@@ -32,7 +31,6 @@ type=stop
 waytype=track
 noconstruction=1
 #NoInfo=1
-
 Dims=1,1,2
 level=1
 allow_underground=0
@@ -61,7 +59,6 @@ type=stop
 waytype=track
 noconstruction=1
 #NoInfo=1
-
 Dims=1,1,2
 level=3
 allow_underground=0
@@ -92,7 +89,6 @@ type=stop
 waytype=track
 noconstruction=1
 #NoInfo=1
-
 Dims=1,1,2
 level=3
 allow_underground=0
@@ -121,7 +117,6 @@ type=stop
 waytype=track
 noconstruction=1
 #NoInfo=1
-
 Dims=1,1,16
 level=2
 allow_underground=0
@@ -199,7 +194,6 @@ type=stop
 waytype=track
 noconstruction=1
 #NoInfo=1
-
 Dims=1,1,16
 level=2
 allow_underground=0

@@ -7,7 +7,6 @@ Obj=building
 Name=OldGoodsHarbour
 Dims=1,1,16
 #NoInfo=1
-
 type=habour
 enables_ware=1
 icon=> harbour-goods-old.0.4
@@ -72,7 +71,6 @@ Obj=building
 Name=ModernGoodsHarbour
 Dims=1,1,16
 #NoInfo=1
-
 type=habour
 enables_ware=1
 icon=> harbour-goods-modern.0.4
@@ -135,7 +133,6 @@ Obj=building
 Name=HarbourPassengerOld
 Dims=1,1,16
 #NoInfo=1
-
 type=habour
 enables_pax=1
 enables_post=1
@@ -204,7 +201,6 @@ Obj=building
 Name=HarbourPassengerDeco
 Dims=1,1,16
 #NoInfo=1
-
 type=habour
 enables_pax=1
 enables_post=1
@@ -274,7 +270,6 @@ Obj=building
 Name=HarbourPassenger1950s
 Dims=1,1,16
 #NoInfo=1
-
 type=habour
 enables_pax=1
 enables_post=1
@@ -345,7 +340,6 @@ Obj=building
 Name=HarbourPassengerModern
 Dims=1,1,16
 #NoInfo=1
-
 type=habour
 enables_pax=1
 enables_post=1
