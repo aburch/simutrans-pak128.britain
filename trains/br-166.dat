@@ -42,7 +42,8 @@ bidirectional=0
 increase_maintenance_after_years=23
 
 Constraint[Prev][0]=BR-166Rear
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR-165Rear
+Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-166Rear
 Constraint[Next][1]=BR-166Middle
@@ -226,7 +227,8 @@ Constraint[Prev][1]=BR-166Front
 Constraint[Prev][2]=BR-166Middle-Trolley
 
 Constraint[Next][0]=BR-166Front
-Constraint[Next][1]=none
+Constraint[Next][1]=BR-165Front
+Constraint[Next][2]=none
 
 EmptyImage[E]=./images/br-165-nse.2.0
 EmptyImage[SE]=./images/br-165-nse.2.1
