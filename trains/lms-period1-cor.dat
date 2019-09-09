@@ -93,6 +93,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -155,7 +158,9 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -284,6 +289,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -346,7 +354,9 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -392,10 +402,10 @@ retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=0
+payload[1]=32
 payload[2]=0
-payload[3]=30
-overcrowded_capacity=0
+payload[3]=18
+overcrowded_capacity=16
 length=10
 
 weight=31
@@ -475,6 +485,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -537,7 +550,9 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -666,7 +681,10 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
-Constraint[Next][61]=none
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
+Constraint[Next][64]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -795,7 +813,9 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -829,6 +849,7 @@ EmptyImage[N][2]=./images/lms-period1-cor-brake-rear-br-m_N.0.0
 EmptyImage[NE][2]=./images/lms-period1-cor-brake-rear-br-m_NE.0.0
 
 ---
+# See Jenkinson p. 323 for capacities and weights
 # Third
 obj=vehicle
 name=LMS-period1-cor-open
@@ -847,7 +868,7 @@ payload[3]=0
 overcrowded_capacity=25
 length=10
 
-weight=30
+weight=27.4
 axles=4
 cost=650000
 runningcost=0
@@ -924,6 +945,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -986,7 +1010,9 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1032,13 +1058,13 @@ retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=56
+payload[1]=0
 payload[2]=0
-payload[3]=0
-overcrowded_capacity=25
+payload[3]=36
+overcrowded_capacity=0
 length=10
 
-weight=30
+weight=27.4
 axles=4
 cost=650000
 runningcost=0
@@ -1115,6 +1141,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1177,7 +1206,9 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1223,13 +1254,13 @@ retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=36
+payload[1]=40
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=18
+overcrowded_capacity=22
 length=10
 
-weight=28
+weight=26.4
 axles=4
 cost=650000
 runningcost=0
@@ -1306,7 +1337,10 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
-Constraint[Next][61]=none
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
+Constraint[Next][64]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1352,13 +1386,13 @@ retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=36
+payload[1]=40
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=18
+overcrowded_capacity=22
 length=10
 
-weight=28
+weight=26.4
 axles=4
 cost=650000
 runningcost=0
@@ -1435,6 +1469,9 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1554,6 +1591,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1616,6 +1656,9 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1736,6 +1779,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1798,6 +1844,9 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
@@ -1979,6 +2028,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -2041,6 +2093,9 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
