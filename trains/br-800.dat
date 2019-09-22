@@ -3,11 +3,12 @@
 # https://en.wikipedia.org/wiki/British_Rail_Class_800
 # These have a trolley and a kitchen, so hard to judge appropriate catering level.
 # http://www.hitachi.com/rev/pdf/2014/r2014_10_105.pdf
+# Brake force calculated by Freahk here: https://forum.simutrans.com/index.php/topic,17544.0/all.html Tractive effort guessed on the basis the date that given in Wikipedia from which Feakh calculated the tractive effort is for electric power.
 obj=vehicle
 name=BR-800Front
 engine_type=diesel
 smoke=Diesel-light
-speed=225
+speed=225simutrans-pak128.britain
 power=0
 copyright=Kieron/James
 intro_year=2017
@@ -20,7 +21,7 @@ payload[2]=0
 payload[3]=15
 overcrowded_capacity=0
 length=14
-brake_force=30
+brake_force=49
 rolling_resistance=13
 air_resistance=105
 
@@ -64,7 +65,7 @@ engine_type=diesel
 smoke=Diesel-light
 speed=225
 power=700
-tractive_effort=55
+tractive_effort=62
 gear=50
 copyright=Kieron/James
 intro_year=2017
@@ -77,7 +78,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=18
 length=14
-brake_force=35
+brake_force=49
 rolling_resistance=13
 
 weight=47
@@ -132,7 +133,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=18
 length=14
-brake_force=30
+brake_force=49
 rolling_resistance=13
 
 can_lead_from_rear=0
@@ -145,7 +146,7 @@ comfort[1]=129
 comfort[2]=0
 comfort[3]=142
 
-weight=47
+weight=40
 axles=4
 cost=2067000
 runningcost=0
@@ -185,7 +186,7 @@ payload[2]=0
 payload[3]=30
 overcrowded_capacity=18
 length=14
-brake_force=30
+brake_force=49
 rolling_resistance=13
 
 can_lead_from_rear=0
@@ -198,7 +199,7 @@ comfort[1]=129
 comfort[2]=0
 comfort[3]=142
 
-weight=47
+weight=40
 axles=4
 cost=2067000
 runningcost=0
@@ -239,7 +240,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=12
 length=14
-brake_force=35
+brake_force=49
 rolling_resistance=13
 air_resistance=105
 
