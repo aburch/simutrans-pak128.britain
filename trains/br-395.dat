@@ -36,14 +36,14 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-395Middle
 
-EmptyImage[E]=./images/br-395-front-se.1.4
-EmptyImage[SE]=./images/br-395-front-se.1.5
-EmptyImage[S]=./images/br-395-front-se.1.6
-EmptyImage[SW]=./images/br-395-front-se.1.7
-EmptyImage[W]=./images/br-395-front-se.1.0
-EmptyImage[NW]=./images/br-395-front-se.1.1
-EmptyImage[N]=./images/br-395-front-se.1.2
-EmptyImage[NE]=./images/br-395-front-se.1.3
+EmptyImage[E]=./railcars/br-395-front-se.1.4
+EmptyImage[SE]=./railcars/br-395-front-se.1.5
+EmptyImage[S]=./railcars/br-395-front-se.1.6
+EmptyImage[SW]=./railcars/br-395-front-se.1.7
+EmptyImage[W]=./railcars/br-395-front-se.1.0
+EmptyImage[NW]=./railcars/br-395-front-se.1.1
+EmptyImage[N]=./railcars/br-395-front-se.1.2
+EmptyImage[NE]=./railcars/br-395-front-se.1.3
 
 ---
 
@@ -86,14 +86,14 @@ Constraint[Prev][1]=BR-395Middle
 Constraint[Next][0]=BR-395Middle
 Constraint[Next][1]=BR-395Rear
 
-EmptyImage[E]=./images/br-395-middle-se.1.4
-EmptyImage[SE]=./images/br-395-middle-se.1.5
-EmptyImage[S]=./images/br-395-middle-se.1.6
-EmptyImage[SW]=./images/br-395-middle-se.1.7
-EmptyImage[W]=./images/br-395-middle-se.1.0
-EmptyImage[NW]=./images/br-395-middle-se.1.1
-EmptyImage[N]=./images/br-395-middle-se.1.2
-EmptyImage[NE]=./images/br-395-middle-se.1.3
+EmptyImage[E]=./railcars/br-395-middle-se.1.4
+EmptyImage[SE]=./railcars/br-395-middle-se.1.5
+EmptyImage[S]=./railcars/br-395-middle-se.1.6
+EmptyImage[SW]=./railcars/br-395-middle-se.1.7
+EmptyImage[W]=./railcars/br-395-middle-se.1.0
+EmptyImage[NW]=./railcars/br-395-middle-se.1.1
+EmptyImage[N]=./railcars/br-395-middle-se.1.2
+EmptyImage[NE]=./railcars/br-395-middle-se.1.3
 
 ---
 
@@ -135,11 +135,11 @@ Constraint[Next][1]=none
 
 Constraint[Prev][0]=BR-395Middle
 
-EmptyImage[E]=./images/br-395-rear-se.1.4
-EmptyImage[SE]=./images/br-395-rear-se.1.5
-EmptyImage[S]=./images/br-395-rear-se.1.6
-EmptyImage[SW]=./images/br-395-rear-se.1.7
-EmptyImage[W]=./images/br-395-rear-se.1.0
-EmptyImage[NW]=./images/br-395-rear-se.1.1
-EmptyImage[N]=./images/br-395-rear-se.1.2
-EmptyImage[NE]=./images/br-395-rear-se.1.3
+EmptyImage[E]=./railcars/br-395-rear-se.1.4
+EmptyImage[SE]=./railcars/br-395-rear-se.1.5
+EmptyImage[S]=./railcars/br-395-rear-se.1.6
+EmptyImage[SW]=./railcars/br-395-rear-se.1.7
+EmptyImage[W]=./railcars/br-395-rear-se.1.0
+EmptyImage[NW]=./railcars/br-395-rear-se.1.1
+EmptyImage[N]=./railcars/br-395-rear-se.1.2
+EmptyImage[NE]=./railcars/br-395-rear-se.1.3

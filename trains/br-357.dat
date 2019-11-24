@@ -42,14 +42,14 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=c2c-357(centre1)
 
-EmptyImage[E]=./images/br-357-driving-front.1.4
-EmptyImage[SE]=./images/br-357-driving-front.1.5
-EmptyImage[S]=./images/br-357-driving-front.1.6
-EmptyImage[SW]=./images/br-357-driving-front.1.7
-EmptyImage[W]=./images/br-357-driving-front.1.0
-EmptyImage[NW]=./images/br-357-driving-front.1.1
-EmptyImage[N]=./images/br-357-driving-front.1.2
-EmptyImage[NE]=./images/br-357-driving-front.1.3
+EmptyImage[E]=./railcars/br-357-driving-front.1.4
+EmptyImage[SE]=./railcars/br-357-driving-front.1.5
+EmptyImage[S]=./railcars/br-357-driving-front.1.6
+EmptyImage[SW]=./railcars/br-357-driving-front.1.7
+EmptyImage[W]=./railcars/br-357-driving-front.1.0
+EmptyImage[NW]=./railcars/br-357-driving-front.1.1
+EmptyImage[N]=./railcars/br-357-driving-front.1.2
+EmptyImage[NE]=./railcars/br-357-driving-front.1.3
 
 ---
 
@@ -93,14 +93,14 @@ Constraint[Prev][0]=c2c-357(front)
 
 Constraint[Next][0]=c2c-357(centre2)
 
-EmptyImage[E]=./images/br-357-centre.1.4
-EmptyImage[SE]=./images/br-357-centre.1.5
-EmptyImage[S]=./images/br-357-centre.1.6
-EmptyImage[SW]=./images/br-357-centre.1.7
-EmptyImage[W]=./images/br-357-centre.1.0
-EmptyImage[NW]=./images/br-357-centre.1.1
-EmptyImage[N]=./images/br-357-centre.1.2
-EmptyImage[NE]=./images/br-357-centre.1.3
+EmptyImage[E]=./railcars/br-357-centre.1.4
+EmptyImage[SE]=./railcars/br-357-centre.1.5
+EmptyImage[S]=./railcars/br-357-centre.1.6
+EmptyImage[SW]=./railcars/br-357-centre.1.7
+EmptyImage[W]=./railcars/br-357-centre.1.0
+EmptyImage[NW]=./railcars/br-357-centre.1.1
+EmptyImage[N]=./railcars/br-357-centre.1.2
+EmptyImage[NE]=./railcars/br-357-centre.1.3
 
 ---
 
@@ -143,14 +143,14 @@ Constraint[Prev][0]=c2c-357(centre1)
 
 Constraint[Next][0]=c2c-357(rear)
 
-EmptyImage[E]=./images/br-357-pantograph.1.4
-EmptyImage[SE]=./images/br-357-pantograph.1.5
-EmptyImage[S]=./images/br-357-pantograph.1.6
-EmptyImage[SW]=./images/br-357-pantograph.1.7
-EmptyImage[W]=./images/br-357-pantograph.1.0
-EmptyImage[NW]=./images/br-357-pantograph.1.1
-EmptyImage[N]=./images/br-357-pantograph.1.2
-EmptyImage[NE]=./images/br-357-pantograph.1.3
+EmptyImage[E]=./railcars/br-357-pantograph.1.4
+EmptyImage[SE]=./railcars/br-357-pantograph.1.5
+EmptyImage[S]=./railcars/br-357-pantograph.1.6
+EmptyImage[SW]=./railcars/br-357-pantograph.1.7
+EmptyImage[W]=./railcars/br-357-pantograph.1.0
+EmptyImage[NW]=./railcars/br-357-pantograph.1.1
+EmptyImage[N]=./railcars/br-357-pantograph.1.2
+EmptyImage[NE]=./railcars/br-357-pantograph.1.3
 
 ---
 
@@ -196,11 +196,11 @@ Constraint[Prev][0]=c2c-357(centre2)
 Constraint[Next][0]=c2c-357(front)
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-357-driving-rear.1.4
-EmptyImage[SE]=./images/br-357-driving-rear.1.5
-EmptyImage[S]=./images/br-357-driving-rear.1.6
-EmptyImage[SW]=./images/br-357-driving-rear.1.7
-EmptyImage[W]=./images/br-357-driving-rear.1.0
-EmptyImage[NW]=./images/br-357-driving-rear.1.1
-EmptyImage[N]=./images/br-357-driving-rear.1.2
-EmptyImage[NE]=./images/br-357-driving-rear.1.3
+EmptyImage[E]=./railcars/br-357-driving-rear.1.4
+EmptyImage[SE]=./railcars/br-357-driving-rear.1.5
+EmptyImage[S]=./railcars/br-357-driving-rear.1.6
+EmptyImage[SW]=./railcars/br-357-driving-rear.1.7
+EmptyImage[W]=./railcars/br-357-driving-rear.1.0
+EmptyImage[NW]=./railcars/br-357-driving-rear.1.1
+EmptyImage[N]=./railcars/br-357-driving-rear.1.2
+EmptyImage[NE]=./railcars/br-357-driving-rear.1.3
