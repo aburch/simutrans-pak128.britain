@@ -28,14 +28,14 @@ years_before_maintenance_max_reached=10
 
 Constraint[Next][0]=GWR-Hawksworth-County-Tender
 
-EmptyImage[E]=./images/gwr-county.1.4
-EmptyImage[SE]=./images/gwr-county.1.5
-EmptyImage[S]=./images/gwr-county.1.6
-EmptyImage[SW]=./images/gwr-county.1.7
-EmptyImage[W]=./images/gwr-county.1.0
-EmptyImage[NW]=./images/gwr-county.1.1
-EmptyImage[N]=./images/gwr-county.1.2
-EmptyImage[NE]=./images/gwr-county.1.3
+EmptyImage[E]=./locomotives/gwr-county.1.4
+EmptyImage[SE]=./locomotives/gwr-county.1.5
+EmptyImage[S]=./locomotives/gwr-county.1.6
+EmptyImage[SW]=./locomotives/gwr-county.1.7
+EmptyImage[W]=./locomotives/gwr-county.1.0
+EmptyImage[NW]=./locomotives/gwr-county.1.1
+EmptyImage[N]=./locomotives/gwr-county.1.2
+EmptyImage[NE]=./locomotives/gwr-county.1.3
 
 
 ----
@@ -65,11 +65,11 @@ years_before_maintenance_max_reached=10
 
 Constraint[Prev][0]=GWR-Hawksworth-County
 
-EmptyImage[E]=./images/gwr-hawksworth-tender.1.4
-EmptyImage[SE]=./images/gwr-hawksworth-tender.1.5
-EmptyImage[S]=./images/gwr-hawksworth-tender.1.6
-EmptyImage[SW]=./images/gwr-hawksworth-tender.1.7
-EmptyImage[W]=./images/gwr-hawksworth-tender.1.0
-EmptyImage[NW]=./images/gwr-hawksworth-tender.1.1
-EmptyImage[N]=./images/gwr-hawksworth-tender.1.2
-EmptyImage[NE]=./images/gwr-hawksworth-tender.1.3
+EmptyImage[E]=./locomotives/gwr-hawksworth-tender.1.4
+EmptyImage[SE]=./locomotives/gwr-hawksworth-tender.1.5
+EmptyImage[S]=./locomotives/gwr-hawksworth-tender.1.6
+EmptyImage[SW]=./locomotives/gwr-hawksworth-tender.1.7
+EmptyImage[W]=./locomotives/gwr-hawksworth-tender.1.0
+EmptyImage[NW]=./locomotives/gwr-hawksworth-tender.1.1
+EmptyImage[N]=./locomotives/gwr-hawksworth-tender.1.2
+EmptyImage[NE]=./locomotives/gwr-hawksworth-tender.1.3
