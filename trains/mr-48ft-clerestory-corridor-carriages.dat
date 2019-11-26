@@ -168,14 +168,14 @@ Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-48ft-clerestory-cor-d575_E.0.0
-EmptyImage[SE][0]=./images/mr-48ft-clerestory-cor-d575_SE.0.0
-EmptyImage[S][0]=./images/mr-48ft-clerestory-cor-d575_S.0.0
-EmptyImage[SW][0]=./images/mr-48ft-clerestory-cor-d575_SW.0.0
-EmptyImage[W][0]=./images/mr-48ft-clerestory-cor-d575_W.0.0
-EmptyImage[NW][0]=./images/mr-48ft-clerestory-cor-d575_NW.0.0
-EmptyImage[N][0]=./images/mr-48ft-clerestory-cor-d575_N.0.0
-EmptyImage[NE][0]=./images/mr-48ft-clerestory-cor-d575_NE.0.0
+EmptyImage[E][0]=./carriages/mr-48ft-clerestory-cor-d575_E.0.0
+EmptyImage[SE][0]=./carriages/mr-48ft-clerestory-cor-d575_SE.0.0
+EmptyImage[S][0]=./carriages/mr-48ft-clerestory-cor-d575_S.0.0
+EmptyImage[SW][0]=./carriages/mr-48ft-clerestory-cor-d575_SW.0.0
+EmptyImage[W][0]=./carriages/mr-48ft-clerestory-cor-d575_W.0.0
+EmptyImage[NW][0]=./carriages/mr-48ft-clerestory-cor-d575_NW.0.0
+EmptyImage[N][0]=./carriages/mr-48ft-clerestory-cor-d575_N.0.0
+EmptyImage[NE][0]=./carriages/mr-48ft-clerestory-cor-d575_NE.0.0
 
 ----
 # These appear not to have existed - but it is unclear what the above
@@ -283,14 +283,14 @@ Constraint[Next][64]=none
 
 liverytype[0]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-48ft-clerestory-cor-lav-brake-front_E.0.0
-EmptyImage[SE][0]=./images/mr-48ft-clerestory-cor-lav-brake-front_SE.0.0
-EmptyImage[S][0]=./images/mr-48ft-clerestory-cor-lav-brake-front_S.0.0
-EmptyImage[SW][0]=./images/mr-48ft-clerestory-cor-lav-brake-front_SW.0.0
-EmptyImage[W][0]=./images/mr-48ft-clerestory-cor-lav-brake-front_W.0.0
-EmptyImage[NW][0]=./images/mr-48ft-clerestory-cor-lav-brake-front_NW.0.0
-EmptyImage[N][0]=./images/mr-48ft-clerestory-cor-lav-brake-front_N.0.0
-EmptyImage[NE][0]=./images/mr-48ft-clerestory-cor-lav-brake-front_NE.0.0
+EmptyImage[E][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-front_E.0.0
+EmptyImage[SE][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-front_SE.0.0
+EmptyImage[S][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-front_S.0.0
+EmptyImage[SW][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-front_SW.0.0
+EmptyImage[W][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-front_W.0.0
+EmptyImage[NW][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-front_NW.0.0
+EmptyImage[N][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-front_N.0.0
+EmptyImage[NE][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-front_NE.0.0
 
 ----
 
@@ -395,14 +395,14 @@ Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-48ft-clerestory-cor-lav-brake-rear_E.0.0
-EmptyImage[SE][0]=./images/mr-48ft-clerestory-cor-lav-brake-rear_SE.0.0
-EmptyImage[S][0]=./images/mr-48ft-clerestory-cor-lav-brake-rear_S.0.0
-EmptyImage[SW][0]=./images/mr-48ft-clerestory-cor-lav-brake-rear_SW.0.0
-EmptyImage[W][0]=./images/mr-48ft-clerestory-cor-lav-brake-rear_W.0.0
-EmptyImage[NW][0]=./images/mr-48ft-clerestory-cor-lav-brake-rear_NW.0.0
-EmptyImage[N][0]=./images/mr-48ft-clerestory-cor-lav-brake-rear_N.0.0
-EmptyImage[NE][0]=./images/mr-48ft-clerestory-cor-lav-brake-rear_NE.0.0
+EmptyImage[E][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-rear_E.0.0
+EmptyImage[SE][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-rear_SE.0.0
+EmptyImage[S][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-rear_S.0.0
+EmptyImage[SW][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-rear_SW.0.0
+EmptyImage[W][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-rear_W.0.0
+EmptyImage[NW][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-rear_NW.0.0
+EmptyImage[N][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-rear_N.0.0
+EmptyImage[NE][0]=./carriages/mr-48ft-clerestory-cor-lav-brake-rear_NE.0.0
 
 ----
 
@@ -434,11 +434,11 @@ max_loading_time=90
 
 liverytype[0]=MR-Standard
 
-EmptyImage[E][0]=./images/mr-48ft-clerestory-full-brake-d1067_E.0.0
-EmptyImage[SE][0]=./images/mr-48ft-clerestory-full-brake-d1067_SE.0.0
-EmptyImage[S][0]=./images/mr-48ft-clerestory-full-brake-d1067_S.0.0
-EmptyImage[SW][0]=./images/mr-48ft-clerestory-full-brake-d1067_SW.0.0
-EmptyImage[W][0]=./images/mr-48ft-clerestory-full-brake-d1067_W.0.0
-EmptyImage[NW][0]=./images/mr-48ft-clerestory-full-brake-d1067_NW.0.0
-EmptyImage[N][0]=./images/mr-48ft-clerestory-full-brake-d1067_N.0.0
-EmptyImage[NE][0]=./images/mr-48ft-clerestory-full-brake-d1067_NE.0.0
+EmptyImage[E][0]=./carriages/mr-48ft-clerestory-full-brake-d1067_E.0.0
+EmptyImage[SE][0]=./carriages/mr-48ft-clerestory-full-brake-d1067_SE.0.0
+EmptyImage[S][0]=./carriages/mr-48ft-clerestory-full-brake-d1067_S.0.0
+EmptyImage[SW][0]=./carriages/mr-48ft-clerestory-full-brake-d1067_SW.0.0
+EmptyImage[W][0]=./carriages/mr-48ft-clerestory-full-brake-d1067_W.0.0
+EmptyImage[NW][0]=./carriages/mr-48ft-clerestory-full-brake-d1067_NW.0.0
+EmptyImage[N][0]=./carriages/mr-48ft-clerestory-full-brake-d1067_N.0.0
+EmptyImage[NE][0]=./carriages/mr-48ft-clerestory-full-brake-d1067_NE.0.0
