@@ -30,14 +30,14 @@ can_lead_from_rear=0
 bidirectional=1
 upgrade[0]=GWR-Prairie-Tank-Modified
 
-EmptyImage[E]=./locomotives/gwr-prairie.0.0
-EmptyImage[SE]=./locomotives/gwr-prairie.0.1
-EmptyImage[S]=./locomotives/gwr-prairie.0.2
-EmptyImage[SW]=./locomotives/gwr-prairie.0.3
-EmptyImage[W]=./locomotives/gwr-prairie.0.4
-EmptyImage[NW]=./locomotives/gwr-prairie.0.5
-EmptyImage[N]=./locomotives/gwr-prairie.0.6
-EmptyImage[NE]=./locomotives/gwr-prairie.0.7
+EmptyImage[E]=./locomotives/gwr-prairie_E.0.0
+EmptyImage[SE]=./locomotives/gwr-prairie_SE.0.0
+EmptyImage[S]=./locomotives/gwr-prairie_S.0.0
+EmptyImage[SW]=./locomotives/gwr-prairie_SW.0.0
+EmptyImage[W]=./locomotives/gwr-prairie_W.0.0
+EmptyImage[NW]=./locomotives/gwr-prairie_NW.0.0
+EmptyImage[N]=./locomotives/gwr-prairie_N.0.0
+EmptyImage[NE]=./locomotives/gwr-prairie_NE.0.0
 
 ---
 
@@ -72,11 +72,11 @@ bidirectional=1
 increase_maintenance_after_years=11
 years_before_maintenance_max_reached=11
 
-EmptyImage[E]=./locomotives/gwr-prairie.0
-EmptyImage[SE]=./locomotives/gwr-prairie.1
-EmptyImage[S]=./locomotives/gwr-prairie.2
-EmptyImage[SW]=./locomotives/gwr-prairie.3
-EmptyImage[W]=./locomotives/gwr-prairie.4
-EmptyImage[NW]=./locomotives/gwr-prairie.5
-EmptyImage[N]=./locomotives/gwr-prairie.6
-EmptyImage[NE]=./locomotives/gwr-prairie.7
+EmptyImage[E]=./locomotives/gwr-prairie_E.0.0
+EmptyImage[SE]=./locomotives/gwr-prairie_SE.0.0
+EmptyImage[S]=./locomotives/gwr-prairie_S.0.0
+EmptyImage[SW]=./locomotives/gwr-prairie_SW.0.0
+EmptyImage[W]=./locomotives/gwr-prairie_W.0.0
+EmptyImage[NW]=./locomotives/gwr-prairie_NW.0.0
+EmptyImage[N]=./locomotives/gwr-prairie_N.0.0
+EmptyImage[NE]=./locomotives/gwr-prairie_NE.0.0
