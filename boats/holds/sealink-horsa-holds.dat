@@ -11,6 +11,9 @@ retire_year=1987
 retire_month=1
 
 length=3
+way_constraint_prohibitive[6]=6
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=SealinkHorsa
 Constraint[Prev][1]=SealinkHorsaAddMail
@@ -53,6 +56,9 @@ retire_year=1987
 retire_month=1
 
 length=3
+way_constraint_prohibitive[6]=6
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=SealinkHorsa
 Constraint[Prev][1]=SealinkHorsaAddMail
@@ -95,6 +101,9 @@ retire_year=1987
 retire_month=1
 
 length=3
+way_constraint_prohibitive[6]=6
+
+way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=SealinkHorsa
 Constraint[Prev][1]=SealinkHorsaAddMail
