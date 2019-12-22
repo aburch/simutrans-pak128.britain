@@ -182,14 +182,14 @@ Constraint[Prev][65]=LMS-non-cor-lav-first
 Constraint[Prev][66]=LMS-non-cor-non-lav-composite
 Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
-EmptyImage[E]=./images/lnwr-6wheel-radial-third_E.0.0
-EmptyImage[SE]=./images/lnwr-6wheel-radial-third_SE.0.0
-EmptyImage[S]=./images/lnwr-6wheel-radial-third_S.0.0
-EmptyImage[SW]=./images/lnwr-6wheel-radial-third_SW.0.0
-EmptyImage[W]=./images/lnwr-6wheel-radial-third_W.0.0
-EmptyImage[NW]=./images/lnwr-6wheel-radial-third_NW.0.0
-EmptyImage[N]=./images/lnwr-6wheel-radial-third_N.0.0
-EmptyImage[NE]=./images/lnwr-6wheel-radial-third_NE.0.0
+EmptyImage[E]=./carriages/lnwr-6wheel-radial-third_E.0.0
+EmptyImage[SE]=./carriages/lnwr-6wheel-radial-third_SE.0.0
+EmptyImage[S]=./carriages/lnwr-6wheel-radial-third_S.0.0
+EmptyImage[SW]=./carriages/lnwr-6wheel-radial-third_SW.0.0
+EmptyImage[W]=./carriages/lnwr-6wheel-radial-third_W.0.0
+EmptyImage[NW]=./carriages/lnwr-6wheel-radial-third_NW.0.0
+EmptyImage[N]=./carriages/lnwr-6wheel-radial-third_N.0.0
+EmptyImage[NE]=./carriages/lnwr-6wheel-radial-third_NE.0.0
 
 ----
 #D118
@@ -366,14 +366,14 @@ Constraint[Prev][65]=LMS-non-cor-lav-first
 Constraint[Prev][66]=LMS-non-cor-non-lav-composite
 Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
-EmptyImage[E]=./images/lnwr-6wheel-radial-first_E.0.0
-EmptyImage[SE]=./images/lnwr-6wheel-radial-first_SE.0.0
-EmptyImage[S]=./images/lnwr-6wheel-radial-first_S.0.0
-EmptyImage[SW]=./images/lnwr-6wheel-radial-first_SW.0.0
-EmptyImage[W]=./images/lnwr-6wheel-radial-first_W.0.0
-EmptyImage[NW]=./images/lnwr-6wheel-radial-first_NW.0.0
-EmptyImage[N]=./images/lnwr-6wheel-radial-first_N.0.0
-EmptyImage[NE]=./images/lnwr-6wheel-radial-first_NE.0.0
+EmptyImage[E]=./carriages/lnwr-6wheel-radial-first_E.0.0
+EmptyImage[SE]=./carriages/lnwr-6wheel-radial-first_SE.0.0
+EmptyImage[S]=./carriages/lnwr-6wheel-radial-first_S.0.0
+EmptyImage[SW]=./carriages/lnwr-6wheel-radial-first_SW.0.0
+EmptyImage[W]=./carriages/lnwr-6wheel-radial-first_W.0.0
+EmptyImage[NW]=./carriages/lnwr-6wheel-radial-first_NW.0.0
+EmptyImage[N]=./carriages/lnwr-6wheel-radial-first_N.0.0
+EmptyImage[NE]=./carriages/lnwr-6wheel-radial-first_NE.0.0
 
 ----
 # Diagram unclear as Jenkinson (LNWR) p. 110 
@@ -551,14 +551,14 @@ Constraint[Prev][65]=LMS-non-cor-lav-first
 Constraint[Prev][66]=LMS-non-cor-non-lav-composite
 Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
-EmptyImage[E]=./images/lnwr-6wheel-radial-tricomposite_E.0.0
-EmptyImage[SE]=./images/lnwr-6wheel-radial-tricomposite_SE.0.0
-EmptyImage[S]=./images/lnwr-6wheel-radial-tricomposite_S.0.0
-EmptyImage[SW]=./images/lnwr-6wheel-radial-tricomposite_SW.0.0
-EmptyImage[W]=./images/lnwr-6wheel-radial-tricomposite_W.0.0
-EmptyImage[NW]=./images/lnwr-6wheel-radial-tricomposite_NW.0.0
-EmptyImage[N]=./images/lnwr-6wheel-radial-tricomposite_N.0.0
-EmptyImage[NE]=./images/lnwr-6wheel-radial-tricomposite_NE.0.0
+EmptyImage[E]=./carriages/lnwr-6wheel-radial-tricomposite_E.0.0
+EmptyImage[SE]=./carriages/lnwr-6wheel-radial-tricomposite_SE.0.0
+EmptyImage[S]=./carriages/lnwr-6wheel-radial-tricomposite_S.0.0
+EmptyImage[SW]=./carriages/lnwr-6wheel-radial-tricomposite_SW.0.0
+EmptyImage[W]=./carriages/lnwr-6wheel-radial-tricomposite_W.0.0
+EmptyImage[NW]=./carriages/lnwr-6wheel-radial-tricomposite_NW.0.0
+EmptyImage[N]=./carriages/lnwr-6wheel-radial-tricomposite_N.0.0
+EmptyImage[NE]=./carriages/lnwr-6wheel-radial-tricomposite_NE.0.0
 
 ----
 
@@ -597,14 +597,14 @@ bidirectional=1
 min_loading_time=17
 max_loading_time=47
 
-EmptyImage[E]=./images/lnwr-6wheel-radial-brake-third_E.0.0
-EmptyImage[SE]=./images/lnwr-6wheel-radial-brake-third_SE.0.0
-EmptyImage[S]=./images/lnwr-6wheel-radial-brake-third_S.0.0
-EmptyImage[SW]=./images/lnwr-6wheel-radial-brake-third_SW.0.0
-EmptyImage[W]=./images/lnwr-6wheel-radial-brake-third_W.0.0
-EmptyImage[NW]=./images/lnwr-6wheel-radial-brake-third_NW.0.0
-EmptyImage[N]=./images/lnwr-6wheel-radial-brake-third_N.0.0
-EmptyImage[NE]=./images/lnwr-6wheel-radial-brake-third_NE.0.0
+EmptyImage[E]=./carriages/lnwr-6wheel-radial-brake-third_E.0.0
+EmptyImage[SE]=./carriages/lnwr-6wheel-radial-brake-third_SE.0.0
+EmptyImage[S]=./carriages/lnwr-6wheel-radial-brake-third_S.0.0
+EmptyImage[SW]=./carriages/lnwr-6wheel-radial-brake-third_SW.0.0
+EmptyImage[W]=./carriages/lnwr-6wheel-radial-brake-third_W.0.0
+EmptyImage[NW]=./carriages/lnwr-6wheel-radial-brake-third_NW.0.0
+EmptyImage[N]=./carriages/lnwr-6wheel-radial-brake-third_N.0.0
+EmptyImage[NE]=./carriages/lnwr-6wheel-radial-brake-third_NE.0.0
 
 ----
 
@@ -632,14 +632,14 @@ bidirectional=1
 min_loading_time=35
 max_loading_time=90
 
-EmptyImage[E]=./images/lnwr-6wheel-radial-full-brake_E.0.0
-EmptyImage[SE]=./images/lnwr-6wheel-radial-full-brake_SE.0.0
-EmptyImage[S]=./images/lnwr-6wheel-radial-full-brake_S.0.0
-EmptyImage[SW]=./images/lnwr-6wheel-radial-full-brake_SW.0.0
-EmptyImage[W]=./images/lnwr-6wheel-radial-full-brake_W.0.0
-EmptyImage[NW]=./images/lnwr-6wheel-radial-full-brake_NW.0.0
-EmptyImage[N]=./images/lnwr-6wheel-radial-full-brake_N.0.0
-EmptyImage[NE]=./images/lnwr-6wheel-radial-full-brake_NE.0.0
+EmptyImage[E]=./carriages/lnwr-6wheel-radial-full-brake_E.0.0
+EmptyImage[SE]=./carriages/lnwr-6wheel-radial-full-brake_SE.0.0
+EmptyImage[S]=./carriages/lnwr-6wheel-radial-full-brake_S.0.0
+EmptyImage[SW]=./carriages/lnwr-6wheel-radial-full-brake_SW.0.0
+EmptyImage[W]=./carriages/lnwr-6wheel-radial-full-brake_W.0.0
+EmptyImage[NW]=./carriages/lnwr-6wheel-radial-full-brake_NW.0.0
+EmptyImage[N]=./carriages/lnwr-6wheel-radial-full-brake_N.0.0
+EmptyImage[NE]=./carriages/lnwr-6wheel-radial-full-brake_NE.0.0
 
 ----
 
@@ -807,14 +807,14 @@ Constraint[Prev][65]=LMS-non-cor-lav-first
 Constraint[Prev][66]=LMS-non-cor-non-lav-composite
 Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
-EmptyImage[E]=./images/lnwr-6wheel-radial-mail_E.0.0
-EmptyImage[SE]=./images/lnwr-6wheel-radial-mail_SE.0.0
-EmptyImage[S]=./images/lnwr-6wheel-radial-mail_S.0.0
-EmptyImage[SW]=./images/lnwr-6wheel-radial-mail_SW.0.0
-EmptyImage[W]=./images/lnwr-6wheel-radial-mail_W.0.0
-EmptyImage[NW]=./images/lnwr-6wheel-radial-mail_NW.0.0
-EmptyImage[N]=./images/lnwr-6wheel-radial-mail_N.0.0
-EmptyImage[NE]=./images/lnwr-6wheel-radial-mail_NE.0.0
+EmptyImage[E]=./carriages/lnwr-6wheel-radial-mail_E.0.0
+EmptyImage[SE]=./carriages/lnwr-6wheel-radial-mail_SE.0.0
+EmptyImage[S]=./carriages/lnwr-6wheel-radial-mail_S.0.0
+EmptyImage[SW]=./carriages/lnwr-6wheel-radial-mail_SW.0.0
+EmptyImage[W]=./carriages/lnwr-6wheel-radial-mail_W.0.0
+EmptyImage[NW]=./carriages/lnwr-6wheel-radial-mail_NW.0.0
+EmptyImage[N]=./carriages/lnwr-6wheel-radial-mail_N.0.0
+EmptyImage[NE]=./carriages/lnwr-6wheel-radial-mail_NE.0.0
 
 ----
 
@@ -983,11 +983,11 @@ Constraint[Prev][65]=LMS-non-cor-lav-first
 Constraint[Prev][66]=LMS-non-cor-non-lav-composite
 Constraint[Prev][67]=LMS-non-cor-non-lav-first
 
-EmptyImage[E]=./images/lnwr-6wheel-radial-tpo_E.0.0
-EmptyImage[SE]=./images/lnwr-6wheel-radial-tpo_SE.0.0
-EmptyImage[S]=./images/lnwr-6wheel-radial-tpo_S.0.0
-EmptyImage[SW]=./images/lnwr-6wheel-radial-tpo_SW.0.0
-EmptyImage[W]=./images/lnwr-6wheel-radial-tpo_W.0.0
-EmptyImage[NW]=./images/lnwr-6wheel-radial-tpo_NW.0.0
-EmptyImage[N]=./images/lnwr-6wheel-radial-tpo_N.0.0
-EmptyImage[NE]=./images/lnwr-6wheel-radial-tpo_NE.0.0
+EmptyImage[E]=./carriages/lnwr-6wheel-radial-tpo_E.0.0
+EmptyImage[SE]=./carriages/lnwr-6wheel-radial-tpo_SE.0.0
+EmptyImage[S]=./carriages/lnwr-6wheel-radial-tpo_S.0.0
+EmptyImage[SW]=./carriages/lnwr-6wheel-radial-tpo_SW.0.0
+EmptyImage[W]=./carriages/lnwr-6wheel-radial-tpo_W.0.0
+EmptyImage[NW]=./carriages/lnwr-6wheel-radial-tpo_NW.0.0
+EmptyImage[N]=./carriages/lnwr-6wheel-radial-tpo_N.0.0
+EmptyImage[NE]=./carriages/lnwr-6wheel-radial-tpo_NE.0.0

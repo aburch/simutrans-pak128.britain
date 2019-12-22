@@ -48,14 +48,14 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-800MiddlePower
 
-EmptyImage[E]=./images/br-800-front-gwr.1.4
-EmptyImage[SE]=./images/br-800-front-gwr.1.5
-EmptyImage[S]=./images/br-800-front-gwr.1.6
-EmptyImage[SW]=./images/br-800-front-gwr.1.7
-EmptyImage[W]=./images/br-800-front-gwr.1.0
-EmptyImage[NW]=./images/br-800-front-gwr.1.1
-EmptyImage[N]=./images/br-800-front-gwr.1.2
-EmptyImage[NE]=./images/br-800-front-gwr.1.3
+EmptyImage[E]=./railcars/br-800-front-gwr.1.4
+EmptyImage[SE]=./railcars/br-800-front-gwr.1.5
+EmptyImage[S]=./railcars/br-800-front-gwr.1.6
+EmptyImage[SW]=./railcars/br-800-front-gwr.1.7
+EmptyImage[W]=./railcars/br-800-front-gwr.1.0
+EmptyImage[NW]=./railcars/br-800-front-gwr.1.1
+EmptyImage[N]=./railcars/br-800-front-gwr.1.2
+EmptyImage[NE]=./railcars/br-800-front-gwr.1.3
 
 ---
 
@@ -107,14 +107,14 @@ Constraint[Next][1]=BR-800Rear
 Constraint[Next][2]=BR-800MiddleTrailer
 Constraint[Next][3]=BR-800MiddleComposite
 
-EmptyImage[E]=./images/br-800-middle-gwr.1.4
-EmptyImage[SE]=./images/br-800-middle-gwr.1.5
-EmptyImage[S]=./images/br-800-middle-gwr.1.6
-EmptyImage[SW]=./images/br-800-middle-gwr.1.7
-EmptyImage[W]=./images/br-800-middle-gwr.1.0
-EmptyImage[NW]=./images/br-800-middle-gwr.1.1
-EmptyImage[N]=./images/br-800-middle-gwr.1.2
-EmptyImage[NE]=./images/br-800-middle-gwr.1.3
+EmptyImage[E]=./railcars/br-800-middle-gwr.1.4
+EmptyImage[SE]=./railcars/br-800-middle-gwr.1.5
+EmptyImage[S]=./railcars/br-800-middle-gwr.1.6
+EmptyImage[SW]=./railcars/br-800-middle-gwr.1.7
+EmptyImage[W]=./railcars/br-800-middle-gwr.1.0
+EmptyImage[NW]=./railcars/br-800-middle-gwr.1.1
+EmptyImage[N]=./railcars/br-800-middle-gwr.1.2
+EmptyImage[NE]=./railcars/br-800-middle-gwr.1.3
 
 ---
 
@@ -160,14 +160,14 @@ Constraint[Next][0]=BR-800MiddlePower
 Constraint[Next][1]=BR-800MiddleTrailer
 Constraint[Next][2]=BR-800MiddleComposite
 
-EmptyImage[E]=./images/br-800-middle-gwr.1.4
-EmptyImage[SE]=./images/br-800-middle-gwr.1.5
-EmptyImage[S]=./images/br-800-middle-gwr.1.6
-EmptyImage[SW]=./images/br-800-middle-gwr.1.7
-EmptyImage[W]=./images/br-800-middle-gwr.1.0
-EmptyImage[NW]=./images/br-800-middle-gwr.1.1
-EmptyImage[N]=./images/br-800-middle-gwr.1.2
-EmptyImage[NE]=./images/br-800-middle-gwr.1.3
+EmptyImage[E]=./railcars/br-800-middle-gwr.1.4
+EmptyImage[SE]=./railcars/br-800-middle-gwr.1.5
+EmptyImage[S]=./railcars/br-800-middle-gwr.1.6
+EmptyImage[SW]=./railcars/br-800-middle-gwr.1.7
+EmptyImage[W]=./railcars/br-800-middle-gwr.1.0
+EmptyImage[NW]=./railcars/br-800-middle-gwr.1.1
+EmptyImage[N]=./railcars/br-800-middle-gwr.1.2
+EmptyImage[NE]=./railcars/br-800-middle-gwr.1.3
 
 ---
 
@@ -213,14 +213,14 @@ Constraint[Next][0]=BR-800MiddlePower
 Constraint[Next][1]=BR-800MiddleTrailer
 Constraint[Next][2]=BR-800MiddleComposite
 
-EmptyImage[E]=./images/br-800-middle-gwr.1.4
-EmptyImage[SE]=./images/br-800-middle-gwr.1.5
-EmptyImage[S]=./images/br-800-middle-gwr.1.6
-EmptyImage[SW]=./images/br-800-middle-gwr.1.7
-EmptyImage[W]=./images/br-800-middle-gwr.1.0
-EmptyImage[NW]=./images/br-800-middle-gwr.1.1
-EmptyImage[N]=./images/br-800-middle-gwr.1.2
-EmptyImage[NE]=./images/br-800-middle-gwr.1.3
+EmptyImage[E]=./railcars/br-800-middle-gwr.1.4
+EmptyImage[SE]=./railcars/br-800-middle-gwr.1.5
+EmptyImage[S]=./railcars/br-800-middle-gwr.1.6
+EmptyImage[SW]=./railcars/br-800-middle-gwr.1.7
+EmptyImage[W]=./railcars/br-800-middle-gwr.1.0
+EmptyImage[NW]=./railcars/br-800-middle-gwr.1.1
+EmptyImage[N]=./railcars/br-800-middle-gwr.1.2
+EmptyImage[NE]=./railcars/br-800-middle-gwr.1.3
 
 ---
 
@@ -267,11 +267,11 @@ Constraint[Next][1]=none
 
 Constraint[Prev][0]=BR-800MiddlePower
 
-EmptyImage[E]=./images/br-800-rear-gwr.1.4
-EmptyImage[SE]=./images/br-800-rear-gwr.1.5
-EmptyImage[S]=./images/br-800-rear-gwr.1.6
-EmptyImage[SW]=./images/br-800-rear-gwr.1.7
-EmptyImage[W]=./images/br-800-rear-gwr.1.0
-EmptyImage[NW]=./images/br-800-rear-gwr.1.1
-EmptyImage[N]=./images/br-800-rear-gwr.1.2
-EmptyImage[NE]=./images/br-800-rear-gwr.1.3
+EmptyImage[E]=./railcars/br-800-rear-gwr.1.4
+EmptyImage[SE]=./railcars/br-800-rear-gwr.1.5
+EmptyImage[S]=./railcars/br-800-rear-gwr.1.6
+EmptyImage[SW]=./railcars/br-800-rear-gwr.1.7
+EmptyImage[W]=./railcars/br-800-rear-gwr.1.0
+EmptyImage[NW]=./railcars/br-800-rear-gwr.1.1
+EmptyImage[N]=./railcars/br-800-rear-gwr.1.2
+EmptyImage[NE]=./railcars/br-800-rear-gwr.1.3

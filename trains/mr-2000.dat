@@ -37,23 +37,23 @@ bidirectional=1
 liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/mr-2000.1.4
-EmptyImage[SE][0]=./images/mr-2000.1.5
-EmptyImage[S][0]=./images/mr-2000.1.6
-EmptyImage[SW][0]=./images/mr-2000.1.7
-EmptyImage[W][0]=./images/mr-2000.1.0
-EmptyImage[NW][0]=./images/mr-2000.1.1
-EmptyImage[N][0]=./images/mr-2000.1.2
-EmptyImage[NE][0]=./images/mr-2000.1.3
+EmptyImage[E][0]=./locomotives/mr-2000_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-2000_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-2000_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-2000_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-2000_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-2000_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-2000_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-2000_NE.0.0
 
-EmptyImage[E][1]=./images/mr-2000-lms.1.4
-EmptyImage[SE][1]=./images/mr-2000-lms.1.5
-EmptyImage[S][1]=./images/mr-2000-lms.1.6
-EmptyImage[SW][1]=./images/mr-2000-lms.1.7
-EmptyImage[W][1]=./images/mr-2000-lms.1.0
-EmptyImage[NW][1]=./images/mr-2000-lms.1.1
-EmptyImage[N][1]=./images/mr-2000-lms.1.2
-EmptyImage[NE][1]=./images/mr-2000-lms.1.3
+EmptyImage[E][1]=./locomotives/mr-2000-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-2000-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-2000-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-2000-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-2000-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-2000-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-2000-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-2000-lms_NE.0.0
 
 ---
 
@@ -95,20 +95,20 @@ bidirectional=1
 liverytype[0]=MR-Standard
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/mr-2000-superheated.1.4
-EmptyImage[SE][0]=./images/mr-2000-superheated.1.5
-EmptyImage[S][0]=./images/mr-2000-superheated.1.6
-EmptyImage[SW][0]=./images/mr-2000-superheated.1.7
-EmptyImage[W][0]=./images/mr-2000-superheated.1.0
-EmptyImage[NW][0]=./images/mr-2000-superheated.1.1
-EmptyImage[N][0]=./images/mr-2000-superheated.1.2
-EmptyImage[NE][0]=./images/mr-2000-superheated.1.3
+EmptyImage[E][0]=./locomotives/mr-2000-superheated_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-2000-superheated_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-2000-superheated_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-2000-superheated_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-2000-superheated_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-2000-superheated_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-2000-superheated_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-2000-superheated_NE.0.0
 
-EmptyImage[E][1]=./images/mr-2000-superheated-lms.1.4
-EmptyImage[SE][1]=./images/mr-2000-superheated-lms.1.5
-EmptyImage[S][1]=./images/mr-2000-superheated-lms.1.6
-EmptyImage[SW][1]=./images/mr-2000-superheated-lms.1.7
-EmptyImage[W][1]=./images/mr-2000-superheated-lms.1.0
-EmptyImage[NW][1]=./images/mr-2000-superheated-lms.1.1
-EmptyImage[N][1]=./images/mr-2000-superheated-lms.1.2
-EmptyImage[NE][1]=./images/mr-2000-superheated-lms.1.3
+EmptyImage[E][1]=./locomotives/mr-2000-superheated-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-2000-superheated-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-2000-superheated-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-2000-superheated-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-2000-superheated-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-2000-superheated-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-2000-superheated-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-2000-superheated-lms_NE.0.0

@@ -34,32 +34,32 @@ bidirectional=1
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/long-12t-empty_E.0.0
-EmptyImage[SE]=./images/long-12t-empty_SE.0.0
-EmptyImage[S]=./images/long-12t-empty_S.0.0
-EmptyImage[SW]=./images/long-12t-empty_SW.0.0
-EmptyImage[W]=./images/long-12t-empty_W.0.0
-EmptyImage[NW]=./images/long-12t-empty_NW.0.0
-EmptyImage[N]=./images/long-12t-empty_N.0.0
-EmptyImage[NE]=./images/long-12t-empty_NE.0.0
+EmptyImage[E]=./wagons/wagon-long-12t-empty_E.0.0
+EmptyImage[SE]=./wagons/wagon-long-12t-empty_SE.0.0
+EmptyImage[S]=./wagons/wagon-long-12t-empty_S.0.0
+EmptyImage[SW]=./wagons/wagon-long-12t-empty_SW.0.0
+EmptyImage[W]=./wagons/wagon-long-12t-empty_W.0.0
+EmptyImage[NW]=./wagons/wagon-long-12t-empty_NW.0.0
+EmptyImage[N]=./wagons/wagon-long-12t-empty_N.0.0
+EmptyImage[NE]=./wagons/wagon-long-12t-empty_NE.0.0
 
 freightimagetype[1]=Stahl
-FreightImage[1][E]=./images/long-12t-steel_E.0.0
-FreightImage[1][SE]=./images/long-12t-steel_SE.0.0
-FreightImage[1][S]=./images/long-12t-steel_S.0.0
-FreightImage[1][SW]=./images/long-12t-steel_SW.0.0
-FreightImage[1][W]=./images/long-12t-steel_W.0.0
-FreightImage[1][NW]=./images/long-12t-steel_NW.0.0
-FreightImage[1][N]=./images/long-12t-steel_N.0.0
-FreightImage[1][NE]=./images/long-12t-steel_NE.0.0
+FreightImage[1][E]=./wagons/wagon-long-12t-steel_E.0.0
+FreightImage[1][SE]=./wagons/wagon-long-12t-steel_SE.0.0
+FreightImage[1][S]=./wagons/wagon-long-12t-steel_S.0.0
+FreightImage[1][SW]=./wagons/wagon-long-12t-steel_SW.0.0
+FreightImage[1][W]=./wagons/wagon-long-12t-steel_W.0.0
+FreightImage[1][NW]=./wagons/wagon-long-12t-steel_NW.0.0
+FreightImage[1][N]=./wagons/wagon-long-12t-steel_N.0.0
+FreightImage[1][NE]=./wagons/wagon-long-12t-steel_NE.0.0
 
 freightimagetype[0]=Bretter
-FreightImage[0][E]=./images/long-12t-wood_E.0.0
-FreightImage[0][SE]=./images/long-12t-wood_SE.0.0
-FreightImage[0][S]=./images/long-12t-wood_S.0.0
-FreightImage[0][SW]=./images/long-12t-wood_SW.0.0
-FreightImage[0][W]=./images/long-12t-wood_W.0.0
-FreightImage[0][NW]=./images/long-12t-wood_NW.0.0
-FreightImage[0][N]=./images/long-12t-wood_N.0.0
-FreightImage[0][NE]=./images/long-12t-wood_NE.0.0
+FreightImage[0][E]=./wagons/wagon-long-12t-wood_E.0.0
+FreightImage[0][SE]=./wagons/wagon-long-12t-wood_SE.0.0
+FreightImage[0][S]=./wagons/wagon-long-12t-wood_S.0.0
+FreightImage[0][SW]=./wagons/wagon-long-12t-wood_SW.0.0
+FreightImage[0][W]=./wagons/wagon-long-12t-wood_W.0.0
+FreightImage[0][NW]=./wagons/wagon-long-12t-wood_NW.0.0
+FreightImage[0][N]=./wagons/wagon-long-12t-wood_N.0.0
+FreightImage[0][NE]=./wagons/wagon-long-12t-wood_NE.0.0
 

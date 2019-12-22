@@ -71,14 +71,14 @@ Constraint[Next][38]=none
 
 liverytype[0]=LSWR-pea-green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-28ft-brake-front_E.0.0
-EmptyImage[SE][0]=./images/lswr-6-wheel-28ft-brake-front_SE.0.0
-EmptyImage[S][0]=./images/lswr-6-wheel-28ft-brake-front_S.0.0
-EmptyImage[SW][0]=./images/lswr-6-wheel-28ft-brake-front_SW.0.0
-EmptyImage[W][0]=./images/lswr-6-wheel-28ft-brake-front_W.0.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-28ft-brake-front_NW.0.0
-EmptyImage[N][0]=./images/lswr-6-wheel-28ft-brake-front_N.0.0
-EmptyImage[NE][0]=./images/lswr-6-wheel-28ft-brake-front_NE.0.0
+EmptyImage[E][0]=./carriages/lswr-6-wheel-28ft-brake-front_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-28ft-brake-front_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-6-wheel-28ft-brake-front_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-28ft-brake-front_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-6-wheel-28ft-brake-front_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-28ft-brake-front_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-6-wheel-28ft-brake-front_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-28ft-brake-front_NE.0.0
 
 ---
 
@@ -152,14 +152,14 @@ Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-28ft-brake-rear_E.0.0
-EmptyImage[SE][0]=./images/lswr-6-wheel-28ft-brake-rear_SE.0.0
-EmptyImage[S][0]=./images/lswr-6-wheel-28ft-brake-rear_S.0.0
-EmptyImage[SW][0]=./images/lswr-6-wheel-28ft-brake-rear_SW.0.0
-EmptyImage[W][0]=./images/lswr-6-wheel-28ft-brake-rear_W.0.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-28ft-brake-rear_NW.0.0
-EmptyImage[N][0]=./images/lswr-6-wheel-28ft-brake-rear_N.0.0
-EmptyImage[NE][0]=./images/lswr-6-wheel-28ft-brake-rear_NE.0.0
+EmptyImage[E][0]=./carriages/lswr-6-wheel-28ft-brake-rear_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-28ft-brake-rear_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-6-wheel-28ft-brake-rear_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-28ft-brake-rear_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-6-wheel-28ft-brake-rear_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-28ft-brake-rear_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-6-wheel-28ft-brake-rear_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-28ft-brake-rear_NE.0.0
 
 ---
 # Third
@@ -273,14 +273,14 @@ Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-28ft-third_E.0.0
-EmptyImage[SE][0]=./images/lswr-6-wheel-28ft-third_SE.0.0
-EmptyImage[S][0]=./images/lswr-6-wheel-28ft-third_S.0.0
-EmptyImage[SW][0]=./images/lswr-6-wheel-28ft-third_SW.0.0
-EmptyImage[W][0]=./images/lswr-6-wheel-28ft-third_W.0.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-28ft-third_NW.0.0
-EmptyImage[N][0]=./images/lswr-6-wheel-28ft-third_N.0.0
-EmptyImage[NE][0]=./images/lswr-6-wheel-28ft-third_NE.0.0
+EmptyImage[E][0]=./carriages/lswr-6-wheel-28ft-third_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-28ft-third_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-6-wheel-28ft-third_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-28ft-third_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-6-wheel-28ft-third_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-28ft-third_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-6-wheel-28ft-third_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-28ft-third_NE.0.0
 
 ---
 # First/second
@@ -398,11 +398,11 @@ Constraint[Prev][37]=lswr-6-wheel-28ft-composite
 
 liverytype[0]=LSWR-pea-green
 
-EmptyImage[E][0]=./images/lswr-6-wheel-28ft-composite_E.0.0
-EmptyImage[SE][0]=./images/lswr-6-wheel-28ft-composite_SE.0.0
-EmptyImage[S][0]=./images/lswr-6-wheel-28ft-composite_S.0.0
-EmptyImage[SW][0]=./images/lswr-6-wheel-28ft-composite_SW.0.0
-EmptyImage[W][0]=./images/lswr-6-wheel-28ft-composite_W.0.0
-EmptyImage[NW][0]=./images/lswr-6-wheel-28ft-composite_NW.0.0
-EmptyImage[N][0]=./images/lswr-6-wheel-28ft-composite_N.0.0
-EmptyImage[NE][0]=./images/lswr-6-wheel-28ft-composite_NE.0.0
+EmptyImage[E][0]=./carriages/lswr-6-wheel-28ft-composite_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-6-wheel-28ft-composite_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-6-wheel-28ft-composite_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-6-wheel-28ft-composite_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-6-wheel-28ft-composite_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-6-wheel-28ft-composite_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-6-wheel-28ft-composite_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-6-wheel-28ft-composite_NE.0.0

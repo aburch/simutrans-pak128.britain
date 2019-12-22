@@ -31,14 +31,14 @@ Constraint[Next][0]=GWR-Saint-Tender
 
 upgrade[0]=GWR-Hall
 
-EmptyImage[E]=./images/gwr-saint.1.4
-EmptyImage[SE]=./images/gwr-saint.1.5
-EmptyImage[S]=./images/gwr-saint.1.6
-EmptyImage[SW]=./images/gwr-saint.1.7
-EmptyImage[W]=./images/gwr-saint.1.0
-EmptyImage[NW]=./images/gwr-saint.1.1
-EmptyImage[N]=./images/gwr-saint.1.2
-EmptyImage[NE]=./images/gwr-saint.1.3
+EmptyImage[E]=./locomotives/gwr-saint_E.0.0
+EmptyImage[SE]=./locomotives/gwr-saint_SE.0.0
+EmptyImage[S]=./locomotives/gwr-saint_S.0.0
+EmptyImage[SW]=./locomotives/gwr-saint_SW.0.0
+EmptyImage[W]=./locomotives/gwr-saint_W.0.0
+EmptyImage[NW]=./locomotives/gwr-saint_NW.0.0
+EmptyImage[N]=./locomotives/gwr-saint_N.0.0
+EmptyImage[NE]=./locomotives/gwr-saint_NE.0.0
 
 ----
 
@@ -67,13 +67,13 @@ years_before_maintenance_max_reached=10
 
 Constraint[Prev][0]=GWR-Saint
 
-EmptyImage[E]=./images/gwr-bulldog-tender.1.4
-EmptyImage[SE]=./images/gwr-bulldog-tender.1.5
-EmptyImage[S]=./images/gwr-bulldog-tender.1.6
-EmptyImage[SW]=./images/gwr-bulldog-tender.1.7
-EmptyImage[W]=./images/gwr-bulldog-tender.1.0
-EmptyImage[NW]=./images/gwr-bulldog-tender.1.1
-EmptyImage[N]=./images/gwr-bulldog-tender.1.2
-EmptyImage[NE]=./images/gwr-bulldog-tender.1.3
+EmptyImage[E]=./locomotives/gwr-saint-tender_E.0.0
+EmptyImage[SE]=./locomotives/gwr-saint-tender_SE.0.0
+EmptyImage[S]=./locomotives/gwr-saint-tender_S.0.0
+EmptyImage[SW]=./locomotives/gwr-saint-tender_SW.0.0
+EmptyImage[W]=./locomotives/gwr-saint-tender_W.0.0
+EmptyImage[NW]=./locomotives/gwr-saint-tender_NW.0.0
+EmptyImage[N]=./locomotives/gwr-saint-tender_N.0.0
+EmptyImage[NE]=./locomotives/gwr-saint-tender_NE.0.0
 
 

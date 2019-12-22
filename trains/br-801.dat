@@ -47,14 +47,14 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-801MiddlePower
 
-EmptyImage[E]=./images/br-801-front-virgin.1.4
-EmptyImage[SE]=./images/br-801-front-virgin.1.5
-EmptyImage[S]=./images/br-801-front-virgin.1.6
-EmptyImage[SW]=./images/br-801-front-virgin.1.7
-EmptyImage[W]=./images/br-801-front-virgin.1.0
-EmptyImage[NW]=./images/br-801-front-virgin.1.1
-EmptyImage[N]=./images/br-801-front-virgin.1.2
-EmptyImage[NE]=./images/br-801-front-virgin.1.3
+EmptyImage[E]=./railcars/br-801-front-virgin.1.4
+EmptyImage[SE]=./railcars/br-801-front-virgin.1.5
+EmptyImage[S]=./railcars/br-801-front-virgin.1.6
+EmptyImage[SW]=./railcars/br-801-front-virgin.1.7
+EmptyImage[W]=./railcars/br-801-front-virgin.1.0
+EmptyImage[NW]=./railcars/br-801-front-virgin.1.1
+EmptyImage[N]=./railcars/br-801-front-virgin.1.2
+EmptyImage[NE]=./railcars/br-801-front-virgin.1.3
 
 ---
 
@@ -106,14 +106,14 @@ Constraint[Next][1]=BR-801Rear
 Constraint[Next][2]=BR-801MiddleTrailer
 Constraint[Next][3]=BR-801MiddleComposite
 
-EmptyImage[E]=./images/br-801-middle-virgin.1.4
-EmptyImage[SE]=./images/br-801-middle-virgin.1.5
-EmptyImage[S]=./images/br-801-middle-virgin.1.6
-EmptyImage[SW]=./images/br-801-middle-virgin.1.7
-EmptyImage[W]=./images/br-801-middle-virgin.1.0
-EmptyImage[NW]=./images/br-801-middle-virgin.1.1
-EmptyImage[N]=./images/br-801-middle-virgin.1.2
-EmptyImage[NE]=./images/br-801-middle-virgin.1.3
+EmptyImage[E]=./railcars/br-801-middle-virgin.1.4
+EmptyImage[SE]=./railcars/br-801-middle-virgin.1.5
+EmptyImage[S]=./railcars/br-801-middle-virgin.1.6
+EmptyImage[SW]=./railcars/br-801-middle-virgin.1.7
+EmptyImage[W]=./railcars/br-801-middle-virgin.1.0
+EmptyImage[NW]=./railcars/br-801-middle-virgin.1.1
+EmptyImage[N]=./railcars/br-801-middle-virgin.1.2
+EmptyImage[NE]=./railcars/br-801-middle-virgin.1.3
 
 ---
 
@@ -162,14 +162,14 @@ Constraint[Next][0]=BR-801MiddlePower
 Constraint[Next][1]=BR-801MiddleTrailer
 Constraint[Next][2]=BR-801MiddleComposite
 
-EmptyImage[E]=./images/br-801-middle-virgin.1.4
-EmptyImage[SE]=./images/br-801-middle-virgin.1.5
-EmptyImage[S]=./images/br-801-middle-virgin.1.6
-EmptyImage[SW]=./images/br-801-middle-virgin.1.7
-EmptyImage[W]=./images/br-801-middle-virgin.1.0
-EmptyImage[NW]=./images/br-801-middle-virgin.1.1
-EmptyImage[N]=./images/br-801-middle-virgin.1.2
-EmptyImage[NE]=./images/br-801-middle-virgin.1.3
+EmptyImage[E]=./railcars/br-801-middle-virgin.1.4
+EmptyImage[SE]=./railcars/br-801-middle-virgin.1.5
+EmptyImage[S]=./railcars/br-801-middle-virgin.1.6
+EmptyImage[SW]=./railcars/br-801-middle-virgin.1.7
+EmptyImage[W]=./railcars/br-801-middle-virgin.1.0
+EmptyImage[NW]=./railcars/br-801-middle-virgin.1.1
+EmptyImage[N]=./railcars/br-801-middle-virgin.1.2
+EmptyImage[NE]=./railcars/br-801-middle-virgin.1.3
 
 ---
 
@@ -218,14 +218,14 @@ Constraint[Next][0]=BR-801MiddlePower
 Constraint[Next][1]=BR-801MiddleTrailer
 Constraint[Next][2]=BR-801MiddleComposite
 
-EmptyImage[E]=./images/br-801-middle-virgin.1.4
-EmptyImage[SE]=./images/br-801-middle-virgin.1.5
-EmptyImage[S]=./images/br-801-middle-virgin.1.6
-EmptyImage[SW]=./images/br-801-middle-virgin.1.7
-EmptyImage[W]=./images/br-801-middle-virgin.1.0
-EmptyImage[NW]=./images/br-801-middle-virgin.1.1
-EmptyImage[N]=./images/br-801-middle-virgin.1.2
-EmptyImage[NE]=./images/br-801-middle-virgin.1.3
+EmptyImage[E]=./railcars/br-801-middle-virgin.1.4
+EmptyImage[SE]=./railcars/br-801-middle-virgin.1.5
+EmptyImage[S]=./railcars/br-801-middle-virgin.1.6
+EmptyImage[SW]=./railcars/br-801-middle-virgin.1.7
+EmptyImage[W]=./railcars/br-801-middle-virgin.1.0
+EmptyImage[NW]=./railcars/br-801-middle-virgin.1.1
+EmptyImage[N]=./railcars/br-801-middle-virgin.1.2
+EmptyImage[NE]=./railcars/br-801-middle-virgin.1.3
 
 ---
 
@@ -272,11 +272,11 @@ Constraint[Next][1]=none
 
 Constraint[Prev][0]=BR-801MiddlePower
 
-EmptyImage[E]=./images/br-801-rear-virgin.1.4
-EmptyImage[SE]=./images/br-801-rear-virgin.1.5
-EmptyImage[S]=./images/br-801-rear-virgin.1.6
-EmptyImage[SW]=./images/br-801-rear-virgin.1.7
-EmptyImage[W]=./images/br-801-rear-virgin.1.0
-EmptyImage[NW]=./images/br-801-rear-virgin.1.1
-EmptyImage[N]=./images/br-801-rear-virgin.1.2
-EmptyImage[NE]=./images/br-801-rear-virgin.1.3
+EmptyImage[E]=./railcars/br-801-rear-virgin.1.4
+EmptyImage[SE]=./railcars/br-801-rear-virgin.1.5
+EmptyImage[S]=./railcars/br-801-rear-virgin.1.6
+EmptyImage[SW]=./railcars/br-801-rear-virgin.1.7
+EmptyImage[W]=./railcars/br-801-rear-virgin.1.0
+EmptyImage[NW]=./railcars/br-801-rear-virgin.1.1
+EmptyImage[N]=./railcars/br-801-rear-virgin.1.2
+EmptyImage[NE]=./railcars/br-801-rear-virgin.1.3
