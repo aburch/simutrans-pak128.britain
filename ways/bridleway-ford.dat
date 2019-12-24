@@ -1,5 +1,6 @@
 # Bridleway ford of non-navigable streams and brooks
 # Disabled for the present pending a better algorithm for this.
+# Also - road should be the servient waytype at slot 1, and water the dominant waytype at slot 0, although this will need adjustment of the graphics below.
 #Obj=crossing
 Name=BridlewayFord
 waytype[0]=road
