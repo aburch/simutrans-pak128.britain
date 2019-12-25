@@ -17,8 +17,9 @@ freight=None
 payload=0
 length=6
 
-weight=47
-axles=3
+# https://en.wikipedia.org/wiki/GWR_5700_Class#Variants
+weight=48.3
+axle_load=17
 cost=2772000
 runningcost=128
 fixed_cost=26310
