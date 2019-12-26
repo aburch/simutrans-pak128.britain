@@ -15,7 +15,7 @@ length=5
 brake_force=4
 rolling_resistance=18
 
-# http://www.lbscr.org/coaches/Stroudley/thirds.html#D34
+# http://www.lbscr.org/Rolling-Stock/Coaches/Stroudley-Thirds.xhtml
 weight=9
 axles=2
 cost=285000
@@ -23,9 +23,10 @@ runningcost=0
 fixed_cost=5139
 
 upgrade[0]=LBSCR-4Wheel-Brake-front-fitted
+upgrade[0]=LBSCR-4Wheel-Brake-front-sub-fitted
 
 comfort[0]=0
-comfort[1]=52
+comfort[1]=62
 min_loading_time=10
 max_loading_time=30
 
@@ -94,7 +95,7 @@ length=5
 brake_force=4
 rolling_resistance=18
 
-# http://www.lbscr.org/coaches/Stroudley/thirds.html#D34
+# http://www.lbscr.org/Rolling-Stock/Coaches/Stroudley-Thirds.xhtml
 weight=9
 axles=2
 cost=285000
@@ -102,9 +103,10 @@ runningcost=0
 fixed_cost=5139
 
 upgrade[0]=LBSCR-4Wheel-Brake-rear-fitted
+upgrade[1]=LBSCR-4Wheel-Brake-rear-sub-fitted
 
 comfort[0]=0
-comfort[1]=52
+comfort[1]=62
 min_loading_time=10
 max_loading_time=30
 
@@ -176,12 +178,14 @@ rolling_resistance=18
 weight=9.2
 axles=2
 cost=340000
-upgrade_price=80000
+upgrade_price=5000
 runningcost=0
 fixed_cost=5205
 
+upgrade[0]=LBSCR-4Wheel-Brake-front-sub-fitted
+
 comfort[0]=0
-comfort[1]=52
+comfort[1]=62
 min_loading_time=10
 max_loading_time=30
 
@@ -212,7 +216,9 @@ Constraint[Next][20]=LBSCR-6Wheel-composite
 Constraint[Next][21]=LBSCR-6Wheel-4-com-first
 Constraint[Next][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Next][23]=LBSCR-6Wheel-fast-freight-van-brake
-Constraint[Next][24]=none
+Constraint[Next][24]=LBSCR-4Wheel-third-fitted
+Constraint[Next][25]=LBSCR-4Wheel-composite-fitted
+Constraint[Next][26]=none
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -277,12 +283,14 @@ rolling_resistance=18
 weight=9.2
 axles=2
 cost=340000
-upgrade_price=80000
+upgrade_price=5000
 runningcost=0
 fixed_cost=5205
 
+upgrade[0]=LBSCR-4Wheel-Brake-rear-sub-fitted
+
 comfort[0]=0
-comfort[1]=52
+comfort[1]=62
 min_loading_time=10
 max_loading_time=30
 
@@ -313,6 +321,8 @@ Constraint[Prev][20]=LBSCR-6Wheel-composite
 Constraint[Prev][21]=LBSCR-6Wheel-4-com-first
 Constraint[Prev][22]=LBSCR-6Wheel-fruit-and-milk-van-brake
 Constraint[Prev][23]=LBSCR-6Wheel-fast-freight-van-brake
+Constraint[Prev][24]=LBSCR-4Wheel-third-fitted
+Constraint[Prev][25]=LBSCR-4Wheel-composite-fitted
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
