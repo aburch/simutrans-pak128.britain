@@ -1,5 +1,6 @@
 obj=vehicle
 name=MR-800
+# Rebuilt version: see Ahrons p. 189
 engine_type=steam
 smoke=Steam
 speed=125
@@ -9,7 +10,7 @@ tractive_effort=53
 # Ahrons at p. 233 gives the max. speed as 47mph with a train of 202 tons (278 gross)
 # This was on the flat. This is average, not top, speed, so is too low for calibration purposes.
 # Therefore, extrapolated.
-power=202
+power=208
 copyright=Kieron/JamesPetts
 intro_year=1875
 intro_month=3

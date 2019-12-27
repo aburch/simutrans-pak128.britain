@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=127
 # Extrapolated
-power=217
+power=236
 # Tractive calculated using data from
 # http://en.wikipedia.org/wiki/LB%26SCR_Belgravia_class
 tractive_effort=44
@@ -27,9 +27,8 @@ years_before_maintenance_max_reached=35
 weight=41.9
 axle_load=8
 cost=12375000
-runningcost=262
+runningcost=267
 fixed_cost=34313
-
 
 Constraint[Next][0]=LBSCR-Belgravia-tender
 

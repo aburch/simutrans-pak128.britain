@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=130
 # Extrapolated
-power=340
+power=398
 # http://www.semgonline.com/steam/jclass.html
 # Note: Wikipedia gives 92.5kN, but this seems 
 # out of keeping with other classes of the period.
@@ -22,7 +22,7 @@ length=8
 weight=86
 axle_load=17
 cost=7143100
-runningcost=147
+runningcost=152
 fixed_cost=45953
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=25

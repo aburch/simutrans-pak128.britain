@@ -1,12 +1,12 @@
-#Apparently the A1, A3 and A4 have the same tender. 
-#Therefore graphics re-used until corridor-tender becomes necessary for range
+# Apparently the A1, A3 and A4 have the same tender. 
+# Therefore graphics re-used until corridor-tender becomes necessary for range
 obj=vehicle
 name=LNER-A3
 engine_type=steam
 smoke=Steam
 speed=160
 # Extrapolated
-power=683
+power=655
 tractive_effort=146
 copyright=Kieron
 intro_year=1927

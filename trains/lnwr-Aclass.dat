@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=85
 # Extrapolated
-power=257
+power=283
 # Tractive effort data unavailalbe: guessed from similar classes:
 # http://en.wikipedia.org/wiki/LNWR_G_Class
 tractive_effort=106
@@ -24,7 +24,7 @@ way_wear_factor=70125
 weight=51
 axles=4
 cost=6336000
-runningcost=172
+runningcost=190
 fixed_cost=29280
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=20
