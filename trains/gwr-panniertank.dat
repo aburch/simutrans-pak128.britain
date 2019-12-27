@@ -11,12 +11,16 @@ tractive_effort=100
 copyright=Kieron
 intro_year=1929
 intro_month=4
-retire_year=1950
-retire_month=8
+# Retirement date extended to allow building with auto trailers.
+# Revert this when more suitable engines are introduced
+retire_year=1954
+retire_month=9
+#retire_year=1950
+#retire_month=8
 waytype=track
 freight=None
 payload=0
-length=6
+length=5
 
 # https://en.wikipedia.org/wiki/GWR_5700_Class#Variants
 weight=48.3

@@ -4,8 +4,8 @@ speed=100
 copyright=Kieron
 intro_year=1905
 intro_month=2
-retire_year=1954
-retire_month=10
+retire_year=1950
+retire_month=4
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -25,8 +25,9 @@ bidirectional=1
 min_loading_time=20
 max_loading_time=90
 # http://www.flickr.com/photos/camperdown/6837210593/
+# Assume that this is the Collett version
 comfort[0]=0
-comfort[1]=84
+comfort[1]=70
 
 Constraint[Prev][0]=GWR-517Tank-AutoFitted
 Constraint[Prev][1]=GWR-1400Tank
