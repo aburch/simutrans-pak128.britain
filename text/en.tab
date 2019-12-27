@@ -3126,10 +3126,6 @@ LBSCR-4Wheel-First
 LBSCR four wheel four compartment carriage (first class)
 LBSCR-4Wheel-Second
 LBSCR four wheel five compartment carriage (second class)
-LBSCR-4Wheel-third
-LBSCR four wheel five compartment carriage (third class)
-LBSCR-4Wheel-composite
-LBSCR four wheel five compartment carriage (first/second class)
 LBSCR-4Wheel-Brake-rear
 LBSCR four wheel three compartment brake carriage (third class) (rear)
 LBSCR-4Wheel-Brake-front
@@ -3142,42 +3138,14 @@ LBSCR-4Wheel-First-fitted
 LBSCR four wheel four compartment carriage (first class) (continuously braked)
 LBSCR-4Wheel-Second-fitted
 LBSCR four wheel five compartment carriage (second class) (continuously braked)
-LBSCR-4Wheel-third-fitted
-LBSCR four wheel five compartment carriage (third class) (continuously braked)
-LBSCR-4Wheel-composite-fitted
-LBSCR four wheel five compartment carriage (first/second class) (continuously braked)
 LBSCR-4Wheel-Brake-rear-fitted
 LBSCR four wheel three compartment brake carriage (third class) (rear) (continuously braked)
 LBSCR-4Wheel-Brake-front-fitted
 LBSCR four wheel three compartment brake carriage (third class) (continuously braked)
 LBSCR-4Wheel-full-brake-fitted
-LBSCR four wheel mail/brake carriage (third class) (continuously braked) (rear)
+LBSCR four wheel mail/brake carriage (continuously braked) (rear)
 LBSCR-4Wheel-full-brake-fitted-front
-LBSCR four wheel mail/brake carriage (third class) (continuously braked)
-LBSCR-4Wheel-Brake-front-sub
-LBSCR four wheel suburban five compartment brake carriage (third class)
-LBSCR-4Wheel-Brake-rear-sub
-LBSCR four wheel suburban five compartment brake carriage (third class)
-LBSCR-4Wheel-Brake-front-sub-fitted
-LBSCR four wheel suburban five compartment brake carriage (third class) (continuously braked)
-LBSCR-4Wheel-Brake-rear-sub-fitted
-LBSCR four wheel suburban five compartment brake carriage (third class) (continuously braked) (rear)
-LBSCR-4Wheel-composite-sub
-LBSCR four wheel suburban five compartment carriage (first/second class)
-LBSCR-4Wheel-composite-sub-fitted
-LBSCR four wheel suburban five compartment carriage (first/second class) (continuously braked)
-LBSCR-4Wheel-First-sub
-LBSCR four wheel suburban four compartment carriage (first class)
-LBSCR-4Wheel-First-sub-fitted
-LBSCR four wheel suburban four compartment carriage (first class) (continuously braked)
-LBSCR-4Wheel-Second-sub
-LBSCR four wheel suburban five compartment carriage (second class)
-LBSCR-4Wheel-Second-sub-fitted
-LBSCR four wheel suburban five compartment carriage (second class) (continuously braked)
-LBSCR-4Wheel-third-sub
-LBSCR four wheel suburban five compartment carriage (third class)
-LBSCR-4Wheel-third-sub-fitted
-LBSCR four wheel suburban five compartment carriage (third class) (continuously braked)
+LBSCR four wheel mail/brake carriage (continuously braked)
 LBSCR-6Wheel-5-com
 LBSCR six wheel five compartment carriage (third class)
 LBSCR-6Wheel-5-com-second
@@ -5719,6 +5687,8 @@ Midland 700 Class 0-6-0
 MR-690
 Midland 690 Class 0-4-4T
 MR-800
+Midland 800 Class 2-4-0 (rebuilt)
+MR-800-original
 Midland 800 Class 2-4-0
 LBSCR-C1
 LBSCR C1 Class 0-6-0
@@ -5744,8 +5714,6 @@ ltsr-cor-brake
 L&TSR corridor vestibule brake carriage (third class)
 ltsr-4wheel-brake-dia21
 L&TSR 4 wheel 2 compartment brake carriage (third class)
-ltsr-4wheel-brake-dia22
-L&TSR 4 wheel 2 compartment brake carriage (third class) rear
 ltsr-4wheel-dia12
 L&TSR 4 wheel 5 compartment carriage (third class)
 ltsr-4wheel-composite-dia7

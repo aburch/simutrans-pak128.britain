@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=130
 # Extrapolated
-power=292
+power=291
 tractive_effort=98
 copyright=James
 intro_year=1908
@@ -23,7 +23,7 @@ cost=6041100
 # This should be low: these were the first superheated locomotives and were efficient for their size.
 # See: http://www.semgonline.com/steam/i3class_01.html for information on the economies for this locomotive.
 # (30lbs of coal per mile compared to approx. 40lbs for the saturated equivalent)
-runningcost=126
+runningcost=120
 fixed_cost=29034
 sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=24

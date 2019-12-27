@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=150
 # Extrapolated
-power=375
+power=361
 # http://en.wikipedia.org/wiki/GNR_Class_C1_%28large_boiler%29
 tractive_effort=70
 copyright=Kieron
@@ -52,7 +52,9 @@ EmptyImage[W][1]=./locomotives/gnr-c1-lner_W.0.0
 EmptyImage[NW][1]=./locomotives/gnr-c1-lner_NW.0.0
 EmptyImage[N][1]=./locomotives/gnr-c1-lner_N.0.0
 EmptyImage[NE][1]=./locomotives/gnr-c1-lner_NE.0.0
----------------------------------------
+
+----
+
 # http://www.lner.info/locos/C/c1.php
 obj=vehicle
 name=GNR-C1-superheated
@@ -60,7 +62,7 @@ engine_type=steam
 smoke=Steam
 speed=150
 # Extrapolated
-power=398
+power=434
 # http://en.wikipedia.org/wiki/GNR_Class_C1_%28large_boiler%29
 tractive_effort=77
 copyright=Kieron
