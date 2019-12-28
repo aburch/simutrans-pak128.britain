@@ -1,95 +1,88 @@
 obj=vehicle
-name=GWR-Hall
+name=gwr-grange
 engine_type=steam
 smoke=Steam
-# Slower than the Saint because of the smaller drivers.
-speed=137
-# CALIBRATED: see http://www.traintesting.com/bulletin_1.htm
-# Max. speed given as 47mph with a train of 582t (gross)
-# Adjusting for rising gradient of 1/834 (+14Kw)
-# NOTE: The source itself suggests drawbar horsepower at approx. 550hp,
-# which is equivalent to 410.1Kw, compared to the 338Kw suggested
-# by in-game tests adjusted for by gradient. That is to be preferred
-# given the better efficiency given. 
-power=410
-tractive_effort=121
-copyright=James
-intro_year=1928
-intro_month=1
-retire_year=1944
-retire_month=2
+speed=126
+# Extrapolated
+power=411
+tractive_effort=128
+copyright=James/JamesPetts
+intro_year=1936
+intro_month=8
+# Production was halted due to the war 
+# - so allow these to be built until the
+# BR standards come along.
+retire_year=1950
+retire_month=3
 waytype=track
 freight=None
 payload=0
 length=7
 
-weight=76.2
+weight=75.2
 axle_load=19
 cost=9121000
-upgrade_price=1894200
 runningcost=235
-fixed_cost=31601
-sound=keithpeter-gwr-hall.wav
-increase_maintenance_after_years=16
+fixed_cost=31600
+sound=keithpeter-gwr-grange.wav
+increase_maintenance_after_years=15
 years_before_maintenance_max_reached=13
 
-upgrade[0]=GWR-Modified-Hall
-
-Constraint[Next][0]=GWR-Hall-Tender
+Constraint[Next][0]=gwr-grange-tender
 
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=WW2-Austerity
 liverytype[2]=BR-Early
 liverytype[3]=BR-Revised
 
-# These are visually indistinguishable from the modified Hall class
-EmptyImage[E][0]=./locomotives/gwr-hall-modified_E.0.0
-EmptyImage[SE][0]=./locomotives/gwr-hall-modified_SE.0.0
-EmptyImage[S][0]=./locomotives/gwr-hall-modified_S.0.0
-EmptyImage[SW][0]=./locomotives/gwr-hall-modified_SW.0.0
-EmptyImage[W][0]=./locomotives/gwr-hall-modified_W.0.0
-EmptyImage[NW][0]=./locomotives/gwr-hall-modified_NW.0.0
-EmptyImage[N][0]=./locomotives/gwr-hall-modified_N.0.0
-EmptyImage[NE][0]=./locomotives/gwr-hall-modified_NE.0.0
+# These are visually indistinguishable from the modified grange class
+EmptyImage[E][0]=./locomotives/gwr-grange_E.0.0
+EmptyImage[SE][0]=./locomotives/gwr-grange_SE.0.0
+EmptyImage[S][0]=./locomotives/gwr-grange_S.0.0
+EmptyImage[SW][0]=./locomotives/gwr-grange_SW.0.0
+EmptyImage[W][0]=./locomotives/gwr-grange_W.0.0
+EmptyImage[NW][0]=./locomotives/gwr-grange_NW.0.0
+EmptyImage[N][0]=./locomotives/gwr-grange_N.0.0
+EmptyImage[NE][0]=./locomotives/gwr-grange_NE.0.0
 
-EmptyImage[E][1]=./locomotives/gwr-hall-modified-austerity_E.0.0
-EmptyImage[SE][1]=./locomotives/gwr-hall-modified-austerity_SE.0.0
-EmptyImage[S][1]=./locomotives/gwr-hall-modified-austerity_S.0.0
-EmptyImage[SW][1]=./locomotives/gwr-hall-modified-austerity_SW.0.0
-EmptyImage[W][1]=./locomotives/gwr-hall-modified-austerity_W.0.0
-EmptyImage[NW][1]=./locomotives/gwr-hall-modified-austerity_NW.0.0
-EmptyImage[N][1]=./locomotives/gwr-hall-modified-austerity_N.0.0
-EmptyImage[NE][1]=./locomotives/gwr-hall-modified-austerity_NE.0.0
+EmptyImage[E][1]=./locomotives/gwr-grange-austerity_E.0.0
+EmptyImage[SE][1]=./locomotives/gwr-grange-austerity_SE.0.0
+EmptyImage[S][1]=./locomotives/gwr-grange-austerity_S.0.0
+EmptyImage[SW][1]=./locomotives/gwr-grange-austerity_SW.0.0
+EmptyImage[W][1]=./locomotives/gwr-grange-austerity_W.0.0
+EmptyImage[NW][1]=./locomotives/gwr-grange-austerity_NW.0.0
+EmptyImage[N][1]=./locomotives/gwr-grange-austerity_N.0.0
+EmptyImage[NE][1]=./locomotives/gwr-grange-austerity_NE.0.0
 
-EmptyImage[E][2]=./locomotives/gwr-hall-modified-br_E.0.0
-EmptyImage[SE][2]=./locomotives/gwr-hall-modified-br_SE.0.0
-EmptyImage[S][2]=./locomotives/gwr-hall-modified-br_S.0.0
-EmptyImage[SW][2]=./locomotives/gwr-hall-modified-br_SW.0.0
-EmptyImage[W][2]=./locomotives/gwr-hall-modified-br_W.0.0
-EmptyImage[NW][2]=./locomotives/gwr-hall-modified-br_NW.0.0
-EmptyImage[N][2]=./locomotives/gwr-hall-modified-br_N.0.0
-EmptyImage[NE][2]=./locomotives/gwr-hall-modified-br_NE.0.0
+EmptyImage[E][2]=./locomotives/gwr-grange-br_E.0.0
+EmptyImage[SE][2]=./locomotives/gwr-grange-br_SE.0.0
+EmptyImage[S][2]=./locomotives/gwr-grange-br_S.0.0
+EmptyImage[SW][2]=./locomotives/gwr-grange-br_SW.0.0
+EmptyImage[W][2]=./locomotives/gwr-grange-br_W.0.0
+EmptyImage[NW][2]=./locomotives/gwr-grange-br_NW.0.0
+EmptyImage[N][2]=./locomotives/gwr-grange-br_N.0.0
+EmptyImage[NE][2]=./locomotives/gwr-grange-br_NE.0.0
 
-EmptyImage[E][3]=./locomotives/gwr-hall-modified-br-revised_E.0.0
-EmptyImage[SE][3]=./locomotives/gwr-hall-modified-br-revised_SE.0.0
-EmptyImage[S][3]=./locomotives/gwr-hall-modified-br-revised_S.0.0
-EmptyImage[SW][3]=./locomotives/gwr-hall-modified-br-revised_SW.0.0
-EmptyImage[W][3]=./locomotives/gwr-hall-modified-br-revised_W.0.0
-EmptyImage[NW][3]=./locomotives/gwr-hall-modified-br-revised_NW.0.0
-EmptyImage[N][3]=./locomotives/gwr-hall-modified-br-revised_N.0.0
-EmptyImage[NE][3]=./locomotives/gwr-hall-modified-br-revised_NE.0.0
+EmptyImage[E][3]=./locomotives/gwr-grange-br-revised_E.0.0
+EmptyImage[SE][3]=./locomotives/gwr-grange-br-revised_SE.0.0
+EmptyImage[S][3]=./locomotives/gwr-grange-br-revised_S.0.0
+EmptyImage[SW][3]=./locomotives/gwr-grange-br-revised_SW.0.0
+EmptyImage[W][3]=./locomotives/gwr-grange-br-revised_W.0.0
+EmptyImage[NW][3]=./locomotives/gwr-grange-br-revised_NW.0.0
+EmptyImage[N][3]=./locomotives/gwr-grange-br-revised_N.0.0
+EmptyImage[NE][3]=./locomotives/gwr-grange-br-revised_NE.0.0
 
 ----
 
 obj=vehicle
-name=GWR-Hall-Tender
+name=gwr-grange-tender
 speed=137
 power=0
 copyright=James
-intro_year=1928
-intro_month=1
-retire_year=1965
-retire_month=11
+intro_year=1936
+intro_month=8
+retire_year=1950
+retire_month=3
 waytype=track
 freight=None
 payload=0
@@ -101,10 +94,10 @@ cost=0
 runningcost=0
 fixed_cost=0
 
-increase_maintenance_after_years=16
+increase_maintenance_after_years=15
 years_before_maintenance_max_reached=13
 
-Constraint[Prev][0]=GWR-Hall
+Constraint[Prev][0]=gwr-grange
 
 liverytype[0]=GWR-chocolate-cream-lined
 liverytype[1]=GWR-shirtbutton
