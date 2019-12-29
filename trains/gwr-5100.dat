@@ -14,9 +14,8 @@ tractive_effort=108
 copyright=James/JamesPetts
 intro_year=1912
 intro_month=5
-# TODO: Change this when others are added
-retire_year=1938
-retire_month=4
+retire_year=1929
+retire_month=12
 waytype=track
 freight=None
 payload=0
@@ -31,12 +30,11 @@ upgrade_price=691200
 runningcost=100
 fixed_cost=43456
 sound=nick-parry-gwr-city-class.wav
-increase_maintenance_after_years=18
-years_before_maintenance_max_reached=15
 
 can_lead_from_rear=0
 bidirectional=1
 upgrade[0]=GWR-Prairie-Tank-Modified
+upgrade[1]=gwr-5101
 
 liverytype[0]=GWR-overall-brown
 liverytype[1]=WW1-Austerity
