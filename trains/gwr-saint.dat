@@ -127,6 +127,8 @@ fixed_cost=0
 increase_maintenance_after_years=27
 years_before_maintenance_max_reached=10
 
+upgrade[0]=GWR-Hall-Tender
+
 Constraint[Prev][0]=GWR-Saint
 
 liverytype[0]=GWR-standard-green
@@ -138,6 +140,7 @@ liverytype[4]=GWR-shirtbutton
 liverytype[5]=GWR-hawksworth
 liverytype[6]=WW2-Austerity
 liverytype[7]=BR-Early
+liverytype[8]=BR-Revised
 
 EmptyImage[E][0]=./locomotives/gwr-churchward-tender_E.0.0
 EmptyImage[SE][0]=./locomotives/gwr-churchward-tender_SE.0.0
@@ -201,6 +204,15 @@ EmptyImage[W][6]=./locomotives/gwr-churchward-tender-ww2-austerity_W.0.0
 EmptyImage[NW][6]=./locomotives/gwr-churchward-tender-ww2-austerity_NW.0.0
 EmptyImage[N][6]=./locomotives/gwr-churchward-tender-ww2-austerity_N.0.0
 EmptyImage[NE][6]=./locomotives/gwr-churchward-tender-ww2-austerity_NE.0.0
+
+EmptyImage[E][8]=./locomotives/gwr-churchward-tender-br-black_E.0.0
+EmptyImage[SE][8]=./locomotives/gwr-churchward-tender-br-black_SE.0.0
+EmptyImage[S][8]=./locomotives/gwr-churchward-tender-br-black_S.0.0
+EmptyImage[SW][8]=./locomotives/gwr-churchward-tender-br-black_SW.0.0
+EmptyImage[W][8]=./locomotives/gwr-churchward-tender-br-black_W.0.0
+EmptyImage[NW][8]=./locomotives/gwr-churchward-tender-br-black_NW.0.0
+EmptyImage[N][8]=./locomotives/gwr-churchward-tender-br-black_N.0.0
+EmptyImage[NE][8]=./locomotives/gwr-churchward-tender-br-black_NE.0.0
 
 EmptyImage[E][7]=./locomotives/gwr-churchward-tender-br-green_E.0.0
 EmptyImage[SE][7]=./locomotives/gwr-churchward-tender-br-green_SE.0.0
