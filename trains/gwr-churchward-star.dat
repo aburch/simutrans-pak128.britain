@@ -218,7 +218,8 @@ EmptyImage[N][6]=./locomotives/gwr-churchward-star-br_N.0.0
 EmptyImage[NE][6]=./locomotives/gwr-churchward-star-br_NE.0.0
 
 ----
-
+# This is intended to represent the Churchward 3,500 gallon
+#  tender: http://www.gwr.org.uk/no-tenders.html
 obj=vehicle
 name=GWR-Churchward-Star-Tender
 speed=150
@@ -233,7 +234,8 @@ freight=None
 payload=0
 length=4
 
-weight=57
+# http://www.gwr.org.uk/no-tenders.html
+weight=40.6
 axles=3
 cost=0
 runningcost=0

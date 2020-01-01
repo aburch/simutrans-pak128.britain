@@ -2679,7 +2679,7 @@ GWR 4000 "Star" Class 4-6-0
 GWR-Churchward-Star-superheated
 GWR 4000 "Star" Class 4-6-0 (superheated)
 GWR-Churchward-Star-Tender
-GWR 4000 "Star" Class (tender)
+GWR 3,500 gallon tender
 GNR-C1
 GNR Class C1 4-4-2
 GNR-C1-Tender
@@ -3124,6 +3124,8 @@ LBSCR-20ft-composite
 LBSCR Four wheel three compartment composite carriage (first/second class)
 LBSCR-4Wheel-First
 LBSCR four wheel four compartment carriage (first class)
+LBSCR-4Wheel-First-sub
+LBSCR four wheel five compartment carriage (first class)
 LBSCR-4Wheel-Second
 LBSCR four wheel five compartment carriage (second class)
 LBSCR-4Wheel-Brake-rear
@@ -5176,10 +5178,22 @@ ger-super-claud
 GER H88 Class "Super Claud" 4-4-0
 GWR-Bulldog
 GWR 3300 "Bulldog" Class 4-4-0
-GWR-Bulldog-Tender
-GWR Express tender
+GWR-dean-tender
+GWR 2,500 gallon tender
+gwr-bulldog-superheated
+GWR 3300 "Bulldog" Class 4-4-0 (superheated)
+gwr-churchward-tender
+GWR 3,000 gallon tender
 GWR-City
 GWR 3700 "City" Class 4-4-0
+gwr-duke
+GWR 3252 "Duke" Class 4-4-0
+gwr-duke-superheated
+GWR 3252 "Duke" Class 4-4-0 (superheated)
+gwr-badminton
+GWR 4100 "Badminton" Class 4-4-0
+gwr-badminton-superheated
+GWR 4100 "Badminton" Class 4-4-0 (superheated)
 LNWR-Experiment
 LNWR "Experiment" Class 4-6-0
 LNWR-19in-express-goods
@@ -5565,7 +5579,7 @@ BR Standard Class 5MT 2-6-0
 GWR-Saint
 GWR 2900 "Saint" Class 4-6-0
 GWR-Saint-Tender
-GWR 2900 "Saint" tender
+GWR 3,500 gallon tender
 GWR-Hall
 GWR 4900 "Hall" Class 4-6-0
 GWR-Hall-Tender
