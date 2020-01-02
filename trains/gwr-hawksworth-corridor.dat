@@ -11,10 +11,10 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=48
+payload[1]=64
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=24
+overcrowded_capacity=36
 length=11
 
 weight=32.9
@@ -26,8 +26,9 @@ fixed_cost=5400
 can_lead_from_rear=0
 bidirectional=1
 
+# A weird mix of vestibule and compartment doors
 min_loading_time=25
-max_loading_time=180
+max_loading_time=150
 
 # Spacious, but plastic panelling and fluorescent lighting
 comfort[0]=0
@@ -97,7 +98,7 @@ freight=Passagiere
 payload[0]=0
 payload[1]=32
 payload[2]=0
-payload[3]=12
+payload[3]=18
 overcrowded_capacity=19
 length=11
 
@@ -110,8 +111,9 @@ fixed_cost=5405
 can_lead_from_rear=0
 bidirectional=1
 
+# A weird mix of vestibule and compartment doors
 min_loading_time=25
-max_loading_time=180
+max_loading_time=150
 
 # Spacious, but plastic panelling and fluorescent lighting
 comfort[0]=0
@@ -181,7 +183,7 @@ freight=Passagiere
 payload[0]=0
 payload[1]=0
 payload[2]=0
-payload[3]=30
+payload[3]=42
 overcrowded_capacity=0
 length=11
 
@@ -194,8 +196,9 @@ fixed_cost=5410
 can_lead_from_rear=0
 bidirectional=1
 
+# A weird mix of vestibule and compartment doors
 min_loading_time=25
-max_loading_time=180
+max_loading_time=150
 
 # Spacious, but plastic panelling and fluorescent lighting
 comfort[0]=0
@@ -278,8 +281,9 @@ fixed_cost=5400
 can_lead_from_rear=0
 bidirectional=1
 
+# A weird mix of vestibule and compartment doors
 min_loading_time=25
-max_loading_time=180
+max_loading_time=150
 
 # Spacious, but plastic panelling and fluorescent lighting
 comfort[0]=0
@@ -350,8 +354,9 @@ fixed_cost=5400
 can_lead_from_rear=0
 bidirectional=1
 
+# A weird mix of vestibule and compartment doors
 min_loading_time=25
-max_loading_time=180
+max_loading_time=150
 
 # Spacious, but plastic panelling and fluorescent lighting
 comfort[0]=0
