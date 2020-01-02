@@ -43,12 +43,22 @@ Constraint[Next][1]=gwr-sunshine-corridor-composite-brake-rear
 Constraint[Next][2]=gwr-sunshine-corridor-first
 Constraint[Next][3]=gwr-sunshine-corridor-brake-third-rear
 Constraint[Next][4]=gwr-sunshine-corridor-full-brake
+Constraint[Next][5]=gwr-hawksworth-corridor-third
+Constraint[Next][6]=gwr-hawksworth-corridor-composite
+Constraint[Next][7]=gwr-hawksworth-corridor-first
+Constraint[Next][8]=gwr-hawksworth-corridor-brake-rear
+Constraint[Next][9]=gwr-hawksworth-corridor-full-brake
 
 Constraint[Prev][0]=gwr-sunshine-corridor-third
 Constraint[Prev][1]=gwr-sunshine-corridor-composite-brake-front
 Constraint[Prev][2]=gwr-sunshine-corridor-first
 Constraint[Prev][3]=gwr-sunshine-corridor-brake-third-front
 Constraint[Prev][4]=gwr-sunshine-corridor-full-brake
+Constraint[Prev][5]=gwr-hawksworth-corridor-third
+Constraint[Prev][6]=gwr-hawksworth-corridor-composite
+Constraint[Prev][7]=gwr-hawksworth-corridor-first
+Constraint[Prev][8]=gwr-hawksworth-corridor-brake-front
+Constraint[Prev][9]=gwr-hawksworth-corridor-full-brake
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -124,12 +134,22 @@ Constraint[Next][1]=gwr-sunshine-corridor-composite-brake-rear
 Constraint[Next][2]=gwr-sunshine-corridor-first
 Constraint[Next][3]=gwr-sunshine-corridor-brake-third-rear
 Constraint[Next][4]=gwr-sunshine-corridor-full-brake
+Constraint[Next][5]=gwr-hawksworth-corridor-third
+Constraint[Next][6]=gwr-hawksworth-corridor-composite
+Constraint[Next][7]=gwr-hawksworth-corridor-first
+Constraint[Next][8]=gwr-hawksworth-corridor-brake-rear
+Constraint[Next][9]=gwr-hawksworth-corridor-full-brake
 
 Constraint[Prev][0]=gwr-sunshine-corridor-third
 Constraint[Prev][1]=gwr-sunshine-corridor-composite-brake-front
 Constraint[Prev][2]=gwr-sunshine-corridor-first
 Constraint[Prev][3]=gwr-sunshine-corridor-brake-third-front
 Constraint[Prev][4]=gwr-sunshine-corridor-full-brake
+Constraint[Prev][5]=gwr-hawksworth-corridor-third
+Constraint[Prev][6]=gwr-hawksworth-corridor-composite
+Constraint[Prev][7]=gwr-hawksworth-corridor-first
+Constraint[Prev][8]=gwr-hawksworth-corridor-brake-front
+Constraint[Prev][9]=gwr-hawksworth-corridor-full-brake
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -205,7 +225,12 @@ Constraint[Next][1]=gwr-sunshine-corridor-composite-brake-rear
 Constraint[Next][2]=gwr-sunshine-corridor-first
 Constraint[Next][3]=gwr-sunshine-corridor-brake-third-rear
 Constraint[Next][4]=gwr-sunshine-corridor-full-brake
-Constraint[Next][5]=none
+Constraint[Next][5]=gwr-hawksworth-corridor-third
+Constraint[Next][6]=gwr-hawksworth-corridor-composite
+Constraint[Next][7]=gwr-hawksworth-corridor-first
+Constraint[Next][8]=gwr-hawksworth-corridor-brake-rear
+Constraint[Next][9]=gwr-hawksworth-corridor-full-brake
+Constraint[Next][10]=none
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -281,6 +306,11 @@ Constraint[Prev][1]=gwr-sunshine-corridor-composite-brake-front
 Constraint[Prev][2]=gwr-sunshine-corridor-first
 Constraint[Prev][3]=gwr-sunshine-corridor-brake-third-front
 Constraint[Prev][4]=gwr-sunshine-corridor-full-brake
+Constraint[Prev][5]=gwr-hawksworth-corridor-third
+Constraint[Prev][6]=gwr-hawksworth-corridor-composite
+Constraint[Prev][7]=gwr-hawksworth-corridor-first
+Constraint[Prev][8]=gwr-hawksworth-corridor-brake-front
+Constraint[Prev][9]=gwr-hawksworth-corridor-full-brake
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -356,7 +386,12 @@ Constraint[Next][1]=gwr-sunshine-corridor-composite-brake-rear
 Constraint[Next][2]=gwr-sunshine-corridor-first
 Constraint[Next][3]=gwr-sunshine-corridor-brake-third-rear
 Constraint[Next][4]=gwr-sunshine-corridor-full-brake
-Constraint[Next][5]=none
+Constraint[Next][5]=gwr-hawksworth-corridor-third
+Constraint[Next][6]=gwr-hawksworth-corridor-composite
+Constraint[Next][7]=gwr-hawksworth-corridor-first
+Constraint[Next][8]=gwr-hawksworth-corridor-brake-rear
+Constraint[Next][9]=gwr-hawksworth-corridor-full-brake
+Constraint[Next][10]=none
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -432,6 +467,11 @@ Constraint[Prev][1]=gwr-sunshine-corridor-composite-brake-front
 Constraint[Prev][2]=gwr-sunshine-corridor-first
 Constraint[Prev][3]=gwr-sunshine-corridor-brake-third-front
 Constraint[Prev][4]=gwr-sunshine-corridor-full-brake
+Constraint[Prev][5]=gwr-hawksworth-corridor-third
+Constraint[Prev][6]=gwr-hawksworth-corridor-composite
+Constraint[Prev][7]=gwr-hawksworth-corridor-first
+Constraint[Prev][8]=gwr-hawksworth-corridor-brake-front
+Constraint[Prev][9]=gwr-hawksworth-corridor-full-brake
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -465,8 +505,8 @@ EmptyImage[N][2]=./carriages/gwr-sunshine-corridor-brake-third-rear-br_N.0.0
 EmptyImage[NE][2]=./carriages/gwr-sunshine-corridor-brake-third-rear-br_NE.0.0
 
 ----
-# TODO: Add full brake and diners
-#obj=vehicle
+
+obj=vehicle
 name=gwr-sunshine-corridor-full-brake
 speed=160
 copyright=JamesPetts
