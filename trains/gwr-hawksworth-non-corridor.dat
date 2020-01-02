@@ -35,10 +35,16 @@ comfort[3]=89
 Constraint[Next][0]=gwr-hawksworth-non-corridor-third
 Constraint[Next][1]=gwr-hawksworth-non-corridor-composite
 Constraint[Next][2]=gwr-hawksworth-non-corridor-brake-rear
+Constraint[Next][3]=gwr-non-cor-1930s-third
+Constraint[Next][4]=gwr-non-cor-1930s-first
+Constraint[Next][5]=gwr-non-cor-1930s-brake-rear
 
 Constraint[Prev][0]=gwr-hawksworth-non-corridor-third
 Constraint[Prev][1]=gwr-hawksworth-non-corridor-composite
 Constraint[Prev][2]=gwr-hawksworth-non-corridor-brake-front
+Constraint[Prev][3]=gwr-non-cor-1930s-third
+Constraint[Prev][4]=gwr-non-cor-1930s-first
+Constraint[Prev][5]=gwr-non-cor-1930s-brake-front
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
@@ -99,10 +105,16 @@ comfort[3]=89
 Constraint[Next][0]=gwr-hawksworth-non-corridor-third
 Constraint[Next][1]=gwr-hawksworth-non-corridor-composite
 Constraint[Next][2]=gwr-hawksworth-non-corridor-brake-rear
+Constraint[Next][3]=gwr-non-cor-1930s-third
+Constraint[Next][4]=gwr-non-cor-1930s-first
+Constraint[Next][5]=gwr-non-cor-1930s-brake-rear
 
 Constraint[Prev][0]=gwr-hawksworth-non-corridor-third
 Constraint[Prev][1]=gwr-hawksworth-non-corridor-composite
 Constraint[Prev][2]=gwr-hawksworth-non-corridor-brake-front
+Constraint[Prev][3]=gwr-non-cor-1930s-third
+Constraint[Prev][4]=gwr-non-cor-1930s-first
+Constraint[Prev][5]=gwr-non-cor-1930s-brake-front
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
@@ -164,7 +176,10 @@ comfort[3]=89
 Constraint[Next][0]=gwr-hawksworth-non-corridor-third
 Constraint[Next][1]=gwr-hawksworth-non-corridor-composite
 Constraint[Next][2]=gwr-hawksworth-non-corridor-brake-rear
-Constraint[Next][3]=none
+Constraint[Next][3]=gwr-non-cor-1930s-third
+Constraint[Next][4]=gwr-non-cor-1930s-first
+Constraint[Next][5]=gwr-non-cor-1930s-brake-rear
+Constraint[Next][6]=none
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
@@ -226,11 +241,17 @@ comfort[3]=89
 Constraint[Next][0]=gwr-hawksworth-non-corridor-third
 Constraint[Next][1]=gwr-hawksworth-non-corridor-composite
 Constraint[Next][2]=gwr-hawksworth-non-corridor-brake-rear
-Constraint[Next][3]=none
+Constraint[Next][3]=gwr-non-cor-1930s-third
+Constraint[Next][4]=gwr-non-cor-1930s-first
+Constraint[Next][5]=gwr-non-cor-1930s-brake-rear
+Constraint[Next][6]=none
 
 Constraint[Prev][0]=gwr-hawksworth-non-corridor-third
 Constraint[Prev][1]=gwr-hawksworth-non-corridor-composite
 Constraint[Prev][2]=gwr-hawksworth-non-corridor-brake-front
+Constraint[Prev][3]=gwr-non-cor-1930s-third
+Constraint[Prev][4]=gwr-non-cor-1930s-first
+Constraint[Prev][5]=gwr-non-cor-1930s-brake-front
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early

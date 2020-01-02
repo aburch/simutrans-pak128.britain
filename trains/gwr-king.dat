@@ -101,7 +101,9 @@ power=0
 copyright=James
 intro_year=1927
 intro_month=8
-retire_year=1936
+# Should be earlier, but there are no replacements.
+retire_year=1942
+#retire_year=1936
 retire_month=6
 waytype=track
 freight=None
