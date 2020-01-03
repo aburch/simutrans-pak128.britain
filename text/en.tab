@@ -4643,9 +4643,9 @@ LSWR "Ironclad" mail carriage
 LSWR-Ironclad-TPO
 LSWR "Ironclad" travelling post office
 GWR-Express-Brake
-GWR Express Carriage (brake)
+GWR Express Carriage (brake) [DEPRECATED]
 GWR-Express-Coach
-GWR Express Carriage
+GWR Express Carriage [DEPRECATED]
 LMS-open
 LMS high capacity open carriage (third class)
 LMS-open-first
@@ -5389,19 +5389,19 @@ BR standard 20t brake van
 CC-Clerestory-Dining
 GWR corridor clerestory dining car
 GWR-Express-Dining
-GWR express dining car
+GWR express dining car [DEPRECATED]
 gwr-hawksworth-corridor-third
-GWR eight compartment corridor carriage (third class)
+GWR eight compartment vestibule corridor carriage (third class)
 gwr-hawksworth-corridor-composite
-GWR six compartment corridor composite carriage (first/third class)
+GWR six compartment vestibule corridor composite carriage (first/third class)
 gwr-hawksworth-corridor-first
-GWR seven compartment carriage (first class)
+GWR seven compartment vestibule corridor carriage (first class)
 gwr-hawksworth-corridor-brake-front
-GWR four compartment brake carriage (third class)
+GWR four compartment vestibule corridor brake carriage (third class)
 gwr-hawksworth-corridor-brake-rear
-GWR four compartment brake carriage (third class) (rear)
+GWR four compartment vestibule corriodr brake carriage (third class) (rear)
 gwr-hawksworth-corridor-full-brake
-GWR mail/brake carriage
+GWR corridor mail/brake carriage
 gwr-hawksworth-non-corridor-third
 GWR ten compartment carriage (third class)
 gwr-hawksworth-non-corridor-composite
@@ -5411,19 +5411,19 @@ GWR six compartment composite brake carriage (third class)
 gwr-hawksworth-non-corridor-brake-rear
 GWR six compartment composite brake carriage (third class) (rear)
 gwr-sunshine-corridor-third
-GWR eight compartment corridor carriage (third class)
+GWR eight compartment vestibule corridor carriage (third class)
 gwr-sunshine-corridor-first
-GWR seven compartment corridor carriage (first class)
+GWR seven compartment vestibule corridor carriage (first class)
 gwr-sunshine-corridor-composite-brake-front
-GWR five compartment corridor brake composite carriage (first/third class)
+GWR five compartment vestibule corridor brake composite carriage (first/third class)
 gwr-sunshine-corridor-composite-brake-rear
-GWR five compartment corridor brake composite carriage (first/third class) (rear)
+GWR five compartment vestibule corridor brake composite carriage (first/third class) (rear)
 gwr-sunshine-corridor-brake-third-front
-GWR five compartment corridor brake carriage (third class)
+GWR five compartment vestibule corridor brake carriage (third class)
 gwr-sunshine-corridor-brake-third-rear
-GWR five compartment corridor brake carriage (third class) (rear)
+GWR five compartment vestibule corridor brake carriage (third class) (rear)
 gwr-sunshine-corridor-full-brake
-GWR mail/brake carriage
+GWR corridor mail/brake carriage
 gwr-sunshine-corridor-restaurant
 GWR composite restaurant carriage (first/third class)
 gwr-sunshine-corridor-buffet
@@ -5440,6 +5440,24 @@ gwr-super-saloon
 GWR Super Saloon open carriage (first class with supplement)
 gwr-super-saloon-kitchen
 GWR Super Saloon kitchen carriage (first class with supplement)
+gwr-bow-ended-corridor-third
+GWR eight compartment corridor carriage (third class)
+gwr-bow-ended-corridor-composite
+GWR seven compartment corridor composite carriage (first/third class)
+gwr-bow-ended-corridor-brake-third-front
+GWR four compartment corridor brake carriage (third class)
+gwr-bow-ended-corridor-brake-third-rear
+GWR four compartment corridor brake carriage (third class) (rear)
+gwr-bow-ended-corridor-restaurant
+GWR corridor restaurant carraige (first/third class)
+gwr-bow-ended-corridor-buffet
+GWR corridor "Quick Lunch'" buffet car
+gwr-bow-ended-corridor-full-brake
+GWR corridor mail/brake carriage
+gwr-bow-ended-corridor-mail
+GWR corridor mail carriage
+gwr-bow-ended-corridor-tpo
+GWR corridor TPO
 BR-Mk2-TSO
 BR Mk. 2D open carriage (second class)
 BR-Mk2-FO
@@ -5517,9 +5535,9 @@ GNR six wheel TPO
 MR-6Wheel-tpo
 Midland six wheel TPO
 GWR-Express-Parcel-Brake
-GWR Express parcel brake coach
+GWR Express parcel brake coach [DEPRECATED]
 GWR-Express-TPO
-GWR Travelling Post Office
+GWR Travelling Post Office [DEPRECATED]
 LNER-Gresley-Express-Dining
 LNER dining car
 LNER-Gresley-Express-Brake-front

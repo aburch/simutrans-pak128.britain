@@ -1250,8 +1250,6 @@ Garrett-NGG16-middle
 Garratt-NGG16-middle
 Garrett-NGG16-rear
 Garratt-NGG16-rear
-GWR-bulldog-tender
-GWR-dean-tender
 #
 ############# Variant names for electrification in old Experimental ##############
 DCRailCatenaryCombined
@@ -1663,3 +1661,18 @@ DEBUG1_LNER-Gresley-Express-Brake-front
 LNER-Gresley-Express-Brake-front
 DEBUG1_LNER-Gresley-Express-Brake-rear
 LNER-Gresley-Express-Brake-rear
+###################################### GWR upgrade ################################
+GWR-bulldog-tender
+GWR-dean-tender
+GWR-Express-TPO
+gwr-bow-ended-corridor-tpo
+GWR-Express-Mail
+gwr-bow-ended-corridor-mail
+GWR-Express-Parcel-Brake
+gwr-bow-ended-corridor-full-brake
+GWR-Express-Brake
+gwr-bow-ended-corridor-brake-third-rear
+GWR-Express-Coach
+gwr-bow-ended-corridor-third
+GWR-Express-Dining
+gwr-bow-ended-corridor-restaurant
