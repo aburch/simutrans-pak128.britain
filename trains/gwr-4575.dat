@@ -3,9 +3,10 @@ obj=vehicle
 name=gwr-4575
 engine_type=steam
 smoke=Steam
-speed=90
+# https://en.wikipedia.org/wiki/GWR_4500_Class
+speed=97
 # Extrapolated
-power=271
+power=257
 # https://en.wikipedia.org/wiki/GWR_4575_Class
 tractive_effort=94
 copyright=James/JamesPetts
