@@ -123,7 +123,7 @@ EmptyImage[NE][6]=./locomotives/gwr-bulldog-superheated-black_NE.0.0
 
 obj=vehicle
 name=gwr-churchward-tender
-speed=127
+speed=160
 power=0
 copyright=James/JamesPetts
 intro_year=1910
@@ -150,6 +150,7 @@ Constraint[Prev][0]=gwr-bulldog-superheated
 Constraint[Prev][1]=gwr-city-superheated
 Constraint[Prev][2]=gwr-duke-superheated
 Constraint[Prev][3]=gwr-badminton-superheated
+Constraint[Prev][4]=gwr-4300
 
 liverytype[0]=GWR-standard-green
 liverytype[1]=WW1-Austerity
