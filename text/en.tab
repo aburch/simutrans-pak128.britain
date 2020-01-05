@@ -4039,11 +4039,11 @@ GWR Autocoach
 gwr-collett-autocoach-rear
 GWR Autocoach (rear)
 GWR-Droplight-Third(Mahogany)
-GWR Toplight corridor carriage
+GWR Toplight corridor carriage [DEPRECATED]
 GWR-Droplight-Brake(Mahogany)
-GWR Toplight corridor brake
+GWR Toplight corridor brake [DEPRECATED]
 GWR-Droplight-Dining(Mahogany)
-GWR Toplight corridor dining carriage
+GWR Toplight corridor dining carriage [DEPRECATED]
 BR-Mk1-BFK-rear
 BR Mk. 1 corridor brake carriage (first class, rear)
 BR-Mk1-BFK-front
@@ -5494,6 +5494,10 @@ gwr-toplight-corridor-restaurant
 GWR corridor restaurant carriage (first/third class)
 gwr-toplight-corridor-full-brake
 GWR corridor brake/mail carriage
+gwr-toplight-corridor-mail
+GWR mail stowage carriage
+gwr-toplight-corridor-tpo
+GWR travelling post office
 BR-Mk2-TSO
 BR Mk. 2D open carriage (second class)
 BR-Mk2-FO

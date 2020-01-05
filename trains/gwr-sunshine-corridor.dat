@@ -66,6 +66,8 @@ Constraint[Next][24]=gwr-toplight-corridor-composite-second
 Constraint[Next][25]=gwr-toplight-corridor-brake-third-rear
 Constraint[Next][26]=gwr-toplight-corridor-restaurant
 Constraint[Next][27]=gwr-toplight-corridor-full-brake
+Constraint[Next][28]=gwr-toplight-corridor-mail
+Constraint[Next][29]=gwr-toplight-corridor-tpo
 
 Constraint[Prev][0]=gwr-sunshine-corridor-third
 Constraint[Prev][1]=gwr-sunshine-corridor-composite-brake-front
@@ -95,6 +97,8 @@ Constraint[Prev][24]=gwr-toplight-corridor-composite-second
 Constraint[Prev][25]=gwr-toplight-corridor-brake-third-front
 Constraint[Prev][26]=gwr-toplight-corridor-restaurant
 Constraint[Prev][27]=gwr-toplight-corridor-full-brake
+Constraint[Prev][28]=gwr-toplight-corridor-mail
+Constraint[Prev][29]=gwr-toplight-corridor-tpo
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -193,6 +197,8 @@ Constraint[Next][24]=gwr-toplight-corridor-composite-second
 Constraint[Next][25]=gwr-toplight-corridor-brake-third-rear
 Constraint[Next][26]=gwr-toplight-corridor-restaurant
 Constraint[Next][27]=gwr-toplight-corridor-full-brake
+Constraint[Next][28]=gwr-toplight-corridor-mail
+Constraint[Next][29]=gwr-toplight-corridor-tpo
 
 Constraint[Prev][0]=gwr-sunshine-corridor-third
 Constraint[Prev][1]=gwr-sunshine-corridor-composite-brake-front
@@ -222,6 +228,8 @@ Constraint[Prev][24]=gwr-toplight-corridor-composite-second
 Constraint[Prev][25]=gwr-toplight-corridor-brake-third-front
 Constraint[Prev][26]=gwr-toplight-corridor-restaurant
 Constraint[Prev][27]=gwr-toplight-corridor-full-brake
+Constraint[Prev][28]=gwr-toplight-corridor-mail
+Constraint[Prev][29]=gwr-toplight-corridor-tpo
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -320,7 +328,9 @@ Constraint[Next][24]=gwr-toplight-corridor-composite-second
 Constraint[Next][25]=gwr-toplight-corridor-brake-third-rear
 Constraint[Next][26]=gwr-toplight-corridor-restaurant
 Constraint[Next][27]=gwr-toplight-corridor-full-brake
-Constraint[Next][28]=none
+Constraint[Next][28]=gwr-toplight-corridor-mail
+Constraint[Next][29]=gwr-toplight-corridor-tpo
+Constraint[Next][30]=none
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -419,6 +429,8 @@ Constraint[Prev][24]=gwr-toplight-corridor-composite-second
 Constraint[Prev][25]=gwr-toplight-corridor-brake-third-front
 Constraint[Prev][26]=gwr-toplight-corridor-restaurant
 Constraint[Prev][27]=gwr-toplight-corridor-full-brake
+Constraint[Prev][28]=gwr-toplight-corridor-mail
+Constraint[Prev][29]=gwr-toplight-corridor-tpo
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -517,7 +529,9 @@ Constraint[Next][24]=gwr-toplight-corridor-composite-second
 Constraint[Next][25]=gwr-toplight-corridor-brake-third-rear
 Constraint[Next][26]=gwr-toplight-corridor-restaurant
 Constraint[Next][27]=gwr-toplight-corridor-full-brake
-Constraint[Next][28]=none
+Constraint[Next][28]=gwr-toplight-corridor-mail
+Constraint[Next][29]=gwr-toplight-corridor-tpo
+Constraint[Next][30]=none
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -616,6 +630,8 @@ Constraint[Prev][24]=gwr-toplight-corridor-composite-second
 Constraint[Prev][25]=gwr-toplight-corridor-brake-third-front
 Constraint[Prev][26]=gwr-toplight-corridor-restaurant
 Constraint[Prev][27]=gwr-toplight-corridor-full-brake
+Constraint[Prev][28]=gwr-toplight-corridor-mail
+Constraint[Prev][29]=gwr-toplight-corridor-tpo
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -775,6 +791,8 @@ Constraint[Next][24]=gwr-toplight-corridor-composite-second
 Constraint[Next][25]=gwr-toplight-corridor-brake-third-rear
 Constraint[Next][26]=gwr-toplight-corridor-restaurant
 Constraint[Next][27]=gwr-toplight-corridor-full-brake
+Constraint[Next][28]=gwr-toplight-corridor-mail
+Constraint[Next][29]=gwr-toplight-corridor-tpo
 
 Constraint[Prev][0]=gwr-sunshine-corridor-third
 Constraint[Prev][1]=gwr-sunshine-corridor-composite-brake-front
@@ -804,6 +822,8 @@ Constraint[Prev][24]=gwr-toplight-corridor-composite-second
 Constraint[Prev][25]=gwr-toplight-corridor-brake-third-front
 Constraint[Prev][26]=gwr-toplight-corridor-restaurant
 Constraint[Prev][27]=gwr-toplight-corridor-full-brake
+Constraint[Prev][28]=gwr-toplight-corridor-mail
+Constraint[Prev][29]=gwr-toplight-corridor-tpo
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
@@ -908,6 +928,8 @@ Constraint[Next][24]=gwr-toplight-corridor-composite-second
 Constraint[Next][25]=gwr-toplight-corridor-brake-third-rear
 Constraint[Next][26]=gwr-toplight-corridor-restaurant
 Constraint[Next][27]=gwr-toplight-corridor-full-brake
+Constraint[Next][28]=gwr-toplight-corridor-mail
+Constraint[Next][29]=gwr-toplight-corridor-tpo
 
 Constraint[Prev][0]=gwr-sunshine-corridor-third
 Constraint[Prev][1]=gwr-sunshine-corridor-composite-brake-front
@@ -937,6 +959,8 @@ Constraint[Prev][24]=gwr-toplight-corridor-composite-second
 Constraint[Prev][25]=gwr-toplight-corridor-brake-third-front
 Constraint[Prev][26]=gwr-toplight-corridor-restaurant
 Constraint[Prev][27]=gwr-toplight-corridor-full-brake
+Constraint[Prev][28]=gwr-toplight-corridor-mail
+Constraint[Prev][29]=gwr-toplight-corridor-tpo
 
 liverytype[0]=GWR-shirtbutton
 liverytype[1]=GWR-hawksworth
