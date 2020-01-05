@@ -42,6 +42,8 @@ Constraint[Next][6]=gwr-bow-ended-non-corridor-composite
 Constraint[Next][7]=gwr-bow-ended-non-corridor-brake-third-rear
 Constraint[Next][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Next][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-rear
+Constraint[Next][10]=gwr-toplight-non-corridor-composite
+Constraint[Next][11]=gwr-toplight-brake-third-rear
 
 Constraint[Prev][0]=gwr-hawksworth-non-corridor-third
 Constraint[Prev][1]=gwr-hawksworth-non-corridor-composite
@@ -53,6 +55,8 @@ Constraint[Prev][6]=gwr-bow-ended-non-corridor-composite
 Constraint[Prev][7]=gwr-bow-ended-non-corridor-brake-third-front
 Constraint[Prev][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Prev][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-front
+Constraint[Prev][10]=gwr-toplight-non-corridor-composite
+Constraint[Prev][11]=gwr-toplight-brake-third-front
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
@@ -120,6 +124,8 @@ Constraint[Next][6]=gwr-bow-ended-non-corridor-composite
 Constraint[Next][7]=gwr-bow-ended-non-corridor-brake-third-rear
 Constraint[Next][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Next][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-rear
+Constraint[Next][10]=gwr-toplight-non-corridor-composite
+Constraint[Next][11]=gwr-toplight-brake-third-rear
 
 Constraint[Prev][0]=gwr-hawksworth-non-corridor-third
 Constraint[Prev][1]=gwr-hawksworth-non-corridor-composite
@@ -131,6 +137,8 @@ Constraint[Prev][6]=gwr-bow-ended-non-corridor-composite
 Constraint[Prev][7]=gwr-bow-ended-non-corridor-brake-third-front
 Constraint[Prev][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Prev][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-front
+Constraint[Prev][10]=gwr-toplight-non-corridor-composite
+Constraint[Prev][11]=gwr-toplight-brake-third-front
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
@@ -199,7 +207,9 @@ Constraint[Next][6]=gwr-bow-ended-non-corridor-composite
 Constraint[Next][7]=gwr-bow-ended-non-corridor-brake-third-rear
 Constraint[Next][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Next][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-rear
-Constraint[Next][10]=none
+Constraint[Next][10]=gwr-toplight-non-corridor-composite
+Constraint[Next][11]=gwr-toplight-brake-third-rear
+Constraint[Next][12]=none
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
@@ -268,6 +278,8 @@ Constraint[Prev][6]=gwr-bow-ended-non-corridor-composite
 Constraint[Prev][7]=gwr-bow-ended-non-corridor-brake-third-front
 Constraint[Prev][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Prev][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-front
+Constraint[Prev][10]=gwr-toplight-non-corridor-composite
+Constraint[Prev][11]=gwr-toplight-brake-third-front
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
