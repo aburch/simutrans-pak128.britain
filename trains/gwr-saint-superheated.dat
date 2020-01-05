@@ -6,7 +6,9 @@ speed=150
 # Extrapolated
 power=445
 # http://en.wikipedia.org/wiki/GWR_2900_Class
-tractive_effort=91
+# The higher figure is presumed to be the 
+# tractive effort of the class as superheated.
+tractive_effort=108
 copyright=Kieron/JamesPetts
 intro_year=1910
 intro_month=9
