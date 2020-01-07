@@ -4593,9 +4593,9 @@ GER clerestory travelling post office
 Teak-Clerestory-Mail
 GER clerestory mail carriage
 CC-Clerestory-Brake
-GWR Corridor Clerestory Carriage (brake)
+GWR Corridor Clerestory Carriage (brake) [DEPRECATED]
 CC-Clerestory-Coach
-GWR Corridor Clerestory Carriage
+GWR Corridor Clerestory Carriage [DEPRECATED]
 SR-Bulleid-Express-Coach-all-doors
 SR eight compartment corridor carriage
 SR-Bulleid-Express-brake-front-all-doors
@@ -5401,7 +5401,7 @@ LNER 20t brake van
 BrakeBR
 BR standard 20t brake van
 CC-Clerestory-Dining
-GWR corridor clerestory dining car
+GWR corridor clerestory dining car [DEPRECATED]
 GWR-Express-Dining
 GWR express dining car [DEPRECATED]
 gwr-hawksworth-corridor-third
@@ -5508,6 +5508,24 @@ gwr-toplight-brake-third-front
 GWR five compartment brake carriage (third class)
 gwr-toplight-brake-third-rear
 GWR five compartment brake carriage (third class) (rear)
+gwr-clerestory-corridor-second
+GWR corridor clerestory carriage (second class)
+gwr-clerestory-corridor-first
+GWR corridor clerestory carriage (first class)
+gwr-clerestory-corridor-composite
+GWR corridor clerestory composite carriage (second/third class)
+gwr-clerestory-brake-third-front
+GWR corridor clerestory brake carriage (third class)
+gwr-clerestory-brake-third-rear
+GWR corridor clerestory brake carriage (third class) (rear)
+gwr-clerestory-corridor-restaurant
+GWR corridor clerestory restaurant carriage (first class)
+gwr-clerestory-full-brake
+GWR corridor mail/brake carriage
+gwr-clerestory-mail
+GWR clerestory mail stowage van
+gwr-clerestory-tpo
+GWR clerestory travelling post office
 BR-Mk2-TSO
 BR Mk. 2D open carriage (second class)
 BR-Mk2-FO
@@ -5561,9 +5579,9 @@ Four wheel mail carriage
 4-wheel-1850s-tpo
 Four wheel TPO
 CC-Clerestory-Parcel-Brake
-GWR clerestory parcel brake coach
+GWR clerestory parcel brake coach [DEPRECATED]
 CC-Clerestory-TPO
-GWR clerestory travelling post office
+GWR clerestory travelling post office [DEPRECATED]
 MR-Clerestory-Parcel-Brake
 Midland clerestory parcel brake coach
 MR-Clerestory-TPO
@@ -5611,7 +5629,7 @@ LNER brake/mail carriage
 LNER-Gresley-Express-TPO
 LNER travelling post office
 CC-Clerestory-Mail
-GWR clerestory mail van
+GWR clerestory mail van [DEPRECATED]
 MR-Clerestory-Mail
 Midland clerestory mail van
 GWR-Express-Mail
