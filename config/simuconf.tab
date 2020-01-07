@@ -976,6 +976,9 @@ enforce_weight_limits=3
 # retirement date. The default, allow_buying_obsolete_vehicles=1, allows players
 # to buy old vehicles by clicking a "Show obsolete" button in the depot / replacer
 # window. This button is not shown if this is set to 0.
+#
+# If this is set to 2, players can buy vehicles after their retirement date, but
+# not after they have become obsolete. 
 
 allow_buying_obsolete_vehicles=0
 
