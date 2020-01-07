@@ -24,11 +24,12 @@ payload[1]=56
 overcrowded_capacity=35
 length=11
 
-# Guessed: the 70ft versions are 46.1t - see 
+# The 70ft versions are 46.1t - see 
 # https://didcotrailwaycentre.org.uk/article.php/84/93-steam-railmotor
-weight=44.8
-# Guessed - but the weight would not sit evenly on all axles (which would give 11.2t). 
-axle_load=14
+# The shorter versions are 38 tons 16cwt: https://www.rmweb.co.uk/community/index.php?/topic/150503-gwr-railmotors-grate-area/&do=findComment&comment=3791941
+weight=39.4
+# Guessed - but the weight would not sit evenly on all axles (which would give 9.85t). 
+axle_load=11
 cost=1715000
 runningcost=62
 fixed_cost=18500
