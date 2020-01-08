@@ -125,6 +125,7 @@ EmptyImage[NE][6]=./locomotives/gwr-bulldog-black_NE.0.0
 ----
 # This is intended to represent the Dean 2,500 gallon
 # tender. See: http://www.gwr.org.uk/no-tenders.html
+# These were introduced in 1884.
 obj=vehicle
 name=GWR-dean-tender
 speed=127
