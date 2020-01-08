@@ -4,8 +4,11 @@ name=gwr-2201
 engine_type=steam
 smoke=Steam
 speed=128
-# Extrapolated
-power=221
+# Extrapolated. The grate area is indirectly inferred as it is not in Ahrons. These are said to be
+# continuations of the GWR 806 class: https://en.wikipedia.org/wiki/GWR_2201_Class
+# That class (https://en.wikipedia.org/wiki/GWR_806_Class) is said to have used "Sir Daniel" type boilers.
+# The information for those boilers can be found here: http://www.gwr.org.uk/no-boilers.html
+power=203
 # Calculated from data given at Ahrons p. 266 with a loss factor of 0.77
 tractive_effort=44
 copyright=James/JamesPetts
@@ -26,7 +29,7 @@ weight=39.8
 # Guessed
 axle_load=15
 cost=9933229
-runningcost=139
+runningcost=122
 fixed_cost=32348
 sound=nick-parry-gwr-city-class.wav
 

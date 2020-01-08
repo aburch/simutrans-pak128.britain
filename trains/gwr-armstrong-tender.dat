@@ -5,14 +5,15 @@ name=gwr-armstrong-tender
 speed=150
 power=0
 copyright=James/JamesPetts
-intro_year=1878
-intro_month=11
+intro_year=1873
+intro_month=7
 retire_year=1895
 retire_month=11
 waytype=track
 freight=None
 payload=0
 length=4
+brake_force=4
 
 # Weight not given in sources, so guesed
 # Assumed 3.3t coal capacity
@@ -27,6 +28,7 @@ Constraint[Prev][1]=gwr-157
 Constraint[Prev][2]=gwr-3232
 Constraint[Prev][3]=gwr-queen
 Constraint[Prev][4]=gwr-queen-rebuilt
+Constraint[Prev][5]=gwr-806
 
 liverytype[0]=GWR-early
 liverytype[1]=GWR-dark-green
