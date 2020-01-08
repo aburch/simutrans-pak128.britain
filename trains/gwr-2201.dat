@@ -30,9 +30,7 @@ runningcost=139
 fixed_cost=32348
 sound=nick-parry-gwr-city-class.wav
 
-# TODO: Consider whether to use an earlier tender type for this.
-# See that illustrated at Ahrons p. 267
-Constraint[Next][0]=GWR-dean-tender
+Constraint[Next][0]=gwr-armstrong-tender
 
 liverytype[0]=GWR-standard-green
 liverytype[1]=GWR-overall-brown
