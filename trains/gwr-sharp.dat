@@ -24,9 +24,9 @@ brake_force=0
 weight=21.1
 # See Ahrons p. 145
 axle_load=13
-cost=11800000
-runningcost=220
-fixed_cost=33333
+cost=17200000
+runningcost=210
+fixed_cost=38500
 sound=nick-parry-gwr-city-class.wav
 
 Constraint[Next][0]=gwr-armstrong-tender
