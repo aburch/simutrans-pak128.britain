@@ -2644,10 +2644,6 @@ LMS-3F-Jinty
 LMS Class 3F "Jinty" 0-6-0T
 LMS-3F-Jinty-Push-Pull
 LMS Class 3F "Jinty" 0-6-0T (push-pull)
-GWR-PannierTank
-GWR 5700 Class pannier tank 0-6-0T
-gwr-9400
-GWR 9400 Class pannier tank 0-6-0T
 MR-Kirtley156
 Midland 156 Class 2-4-0
 MR-Kirtley156Tender
@@ -2674,12 +2670,6 @@ LMS-Stanier-8F
 LMS Class 8F 2-8-0
 LMS-Stanier-8F-Tender
 LMS Class 8F (tender)
-GWR-Churchward-Star
-GWR 4000 "Star" Class 4-6-0
-GWR-Churchward-Star-superheated
-GWR 4000 "Star" Class 4-6-0 (superheated)
-GWR-Churchward-Star-Tender
-GWR 3,500 gallon tender
 GNR-C1
 GNR Class C1 4-4-2
 GNR-C1-Tender
@@ -4756,18 +4746,6 @@ LMS-Stanier-Mogul
 LMS 4P5F Class "Stanier Mogul" 2-6-0
 LMS-Stanier-Mogul-Tender
 LMS 4P5F Class "Stanier Mogul" (tender)
-GWR-2800
-GWR 2800 Class 2-8-0
-GWR-2800-Tender
-GWR tender
-gwr-2800-superheated
-GWR 2800 Class 2-8-0 (superheated)
-gwr-2884
-GWR 2884 Class 2-8-0
-gwr-4200
-GWR 4200 Class 2-8-0T
-gwr-5205
-GWR 5205 Class 2-8-0T
 SR-Q1
 SR Q1 Class 0-6-0
 SR-Q1-Tender
@@ -4780,28 +4758,6 @@ LMS-Ivatt-4F
 LMS Class 4F (Ivatt design) 2-6-0
 LMS-Ivatt-4F-Tender
 LMS Class 4F (Ivatt design) (tender)
-GWR-Prairie-Tank
-GWR 3100 Class "Large Prairie" 2-6-2T
-GWR-Prairie-Tank-Modified
-GWR 3100 Class "Large Prairie" 2-6-2T (modified)
-gwr-5100
-GWR 5100 Class "Large Prairie" 2-6-2T
-gwr-5101
-GWR 5101 Class "Large Prairie" 2-6-2T
-gwr-6100
-GWR 6100 Class "Large Prairie" 2-6-2T
-gwr-8100
-GWR 8100 Class "Large Prairie" 2-6-2T
-gwr-3150
-GWR 3150 Class "Large Prairie" 2-6-2T
-gwr-3150-superheated
-GWR 3150 Class "Large Prairie" 2-6-2T (superheated)
-gwr-4575
-GWR 4575 Class "Small Prairie" 2-6-2T
-gwr-4500
-GWR 4500 Class "Small Prairie" 2-6-2T
-gwr-4500-superheated
-GWR 4500 Class "Small Prairie" 2-6-2T (superheated)
 MR-2631
 Midland 2631 Class 4-4-0 (compound)
 MR-1000
@@ -4984,10 +4940,6 @@ SR-Lord-Nelson
 SR "Lord Nelson" Class 4-6-0
 SR-Lord-Nelson-Tender
 SR "Lord Nelson" Class (tender)
-GWR-King
-GWR 6600 "King" Class 4-6-0
-GWR-King-Tender
-GWR 6600 "King" Class (tender)
 LNER-P2
 LNER Class P2 2-8-2
 LNER-P2-Tender
@@ -5106,12 +5058,6 @@ LYR-Class25
 LYR Class 25 0-6-0
 LYR-Class25-Tender
 LYR Class 25 (tender)
-GWR-517Tank
-GWR 517 Class 0-4-2T
-GWR-517Tank-AutoFitted
-GWR 517 Class 0-4-2T (auto fitted)
-GWR-1400Tank
-GWR 1400 Class 0-4-2T
 WD-Austerity-2-8-0
 WD "Austerity" 2-8-0
 WD-Austerity-2-8-0-Tender
@@ -5190,6 +5136,60 @@ ger-belpaire-claud
 GER D56 Class "Belpaire Claud" 4-4-0
 ger-super-claud
 GER H88 Class "Super Claud" 4-4-0
+GWR-PannierTank
+GWR 5700 Class pannier tank 0-6-0T
+gwr-9400
+GWR 9400 Class pannier tank 0-6-0T
+GWR-Churchward-Star
+GWR 4000 "Star" Class 4-6-0
+GWR-Churchward-Star-superheated
+GWR 4000 "Star" Class 4-6-0 (superheated)
+GWR-Churchward-Star-Tender
+GWR 3,500 gallon tender
+GWR-2800
+GWR 2800 Class 2-8-0
+GWR-2800-Tender
+GWR tender
+gwr-2800-superheated
+GWR 2800 Class 2-8-0 (superheated)
+gwr-2884
+GWR 2884 Class 2-8-0
+gwr-4200
+GWR 4200 Class 2-8-0T
+gwr-5205
+GWR 5205 Class 2-8-0T
+GWR-Prairie-Tank
+GWR 3100 Class "Large Prairie" 2-6-2T
+GWR-Prairie-Tank-Modified
+GWR 3100 Class "Large Prairie" 2-6-2T (modified)
+gwr-5100
+GWR 5100 Class "Large Prairie" 2-6-2T
+gwr-5101
+GWR 5101 Class "Large Prairie" 2-6-2T
+gwr-6100
+GWR 6100 Class "Large Prairie" 2-6-2T
+gwr-8100
+GWR 8100 Class "Large Prairie" 2-6-2T
+gwr-3150
+GWR 3150 Class "Large Prairie" 2-6-2T
+gwr-3150-superheated
+GWR 3150 Class "Large Prairie" 2-6-2T (superheated)
+gwr-4575
+GWR 4575 Class "Small Prairie" 2-6-2T
+gwr-4500
+GWR 4500 Class "Small Prairie" 2-6-2T
+gwr-4500-superheated
+GWR 4500 Class "Small Prairie" 2-6-2T (superheated)
+GWR-King
+GWR 6600 "King" Class 4-6-0
+GWR-King-Tender
+GWR 6600 "King" Class (tender)
+GWR-517Tank
+GWR 517 Class 0-4-2T
+GWR-517Tank-AutoFitted
+GWR 517 Class 0-4-2T (auto fitted)
+GWR-1400Tank
+GWR 1400 Class 0-4-2T
 GWR-Bulldog
 GWR 3300 "Bulldog" Class 4-4-0
 GWR-dean-tender
@@ -5260,6 +5260,8 @@ gwr-armstrong-coal-goods
 GWR 927 "Coal Goods" Class 0-6-0
 gwr-dean-goods
 GWR 2301 "Dean Goods" Class 0-6-0
+gwr-collett-goods
+GWR 2251 "Collett Goods" Class 0-6-0
 LNWR-Experiment
 LNWR "Experiment" Class 4-6-0
 LNWR-19in-express-goods
