@@ -34,9 +34,10 @@ comfort[1]=70
 
 Constraint[Prev][0]=none
 
-Constraint[Next][0]=GWR-517Tank-AutoFitted
+Constraint[Next][0]=gwr-517-rebuilt-auto-fitted
 Constraint[Next][1]=GWR-1400Tank
 Constraint[Next][2]=GWR-PannierTank
+Constraint[Next][3]=gwr-railmotor
 
 # NOTE: When other pannier types are added, this will need to be changed.
 # Ony the 54xx and 64xx series were auto fitted in panniers.
@@ -115,9 +116,10 @@ max_loading_time=95
 comfort[0]=0
 comfort[1]=75
 
-Constraint[Prev][0]=GWR-517Tank-AutoFitted
+Constraint[Prev][0]=gwr-517-rebuilt-auto-fitted
 Constraint[Prev][1]=GWR-1400Tank
 Constraint[Prev][2]=GWR-PannierTank
+Constraint[Prev][3]=gwr-railmotor
 
 Constraint[Next][0]=none
 # NOTE: When other pannier types are added, this will need to be changed.

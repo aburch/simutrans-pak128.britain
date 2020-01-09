@@ -37,7 +37,7 @@ comfort[1]=62
 # NOTE: When other pannier types are added, this will need to be changed.
 # Ony the 54xx and 64xx series were auto fitted in panniers.
 
-Constraint[Prev][0]=GWR-517Tank-AutoFitted
+Constraint[Prev][0]=gwr-517-rebuilt-auto-fitted
 Constraint[Prev][1]=GWR-1400Tank
 Constraint[Prev][2]=GWR-PannierTank
 Constraint[Prev][3]=gwr-railmotor
