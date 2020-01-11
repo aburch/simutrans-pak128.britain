@@ -49,6 +49,12 @@ Constraint[Next][10]=gwr-6-wheel-composite
 Constraint[Next][11]=gwr-6-wheel-clerestory-composite
 Constraint[Next][12]=gwr-6-wheel-brake-third
 Constraint[Next][13]=gwr-6-wheel-clerestory-brake-third
+Constraint[Next][14]=gwr-bogie-clerestory-third
+Constraint[Next][15]=gwr-bogie-clerestory-brake-third
+Constraint[Next][16]=gwr-bogie-clerestory-luggage-composite
+Constraint[Next][17]=gwr-bogie-clerestory-brake-composite
+Constraint[Next][18]=gwr-bogie-clerestory-full-brake
+Constraint[Next][19]=gwr-bogie-clerestory-mail
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -64,6 +70,12 @@ Constraint[Prev][10]=gwr-6-wheel-clerestory-composite
 Constraint[Prev][11]=gwr-6-wheel-brake-third
 Constraint[Prev][12]=gwr-6-wheel-clerestory-brake-third
 Constraint[Prev][13]=gwr-6-wheel-third
+Constraint[Prev][14]=gwr-bogie-clerestory-third
+Constraint[Prev][15]=gwr-bogie-clerestory-brake-third
+Constraint[Prev][16]=gwr-bogie-clerestory-luggage-composite
+Constraint[Prev][17]=gwr-bogie-clerestory-brake-composite
+Constraint[Prev][18]=gwr-bogie-clerestory-full-brake
+Constraint[Prev][19]=gwr-bogie-clerestory-mail
 
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
@@ -178,6 +190,12 @@ Constraint[Next][10]=gwr-6-wheel-composite
 Constraint[Next][11]=gwr-6-wheel-clerestory-composite
 Constraint[Next][12]=gwr-6-wheel-brake-third
 Constraint[Next][13]=gwr-6-wheel-clerestory-brake-third
+Constraint[Next][14]=gwr-bogie-clerestory-third
+Constraint[Next][15]=gwr-bogie-clerestory-brake-third
+Constraint[Next][16]=gwr-bogie-clerestory-luggage-composite
+Constraint[Next][17]=gwr-bogie-clerestory-brake-composite
+Constraint[Next][18]=gwr-bogie-clerestory-full-brake
+Constraint[Next][19]=gwr-bogie-clerestory-mail
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -193,6 +211,12 @@ Constraint[Prev][10]=gwr-6-wheel-clerestory-composite
 Constraint[Prev][11]=gwr-6-wheel-brake-third
 Constraint[Prev][12]=gwr-6-wheel-clerestory-brake-third
 Constraint[Prev][13]=gwr-6-wheel-third
+Constraint[Prev][14]=gwr-bogie-clerestory-third
+Constraint[Prev][15]=gwr-bogie-clerestory-brake-third
+Constraint[Prev][16]=gwr-bogie-clerestory-luggage-composite
+Constraint[Prev][17]=gwr-bogie-clerestory-brake-composite
+Constraint[Prev][18]=gwr-bogie-clerestory-full-brake
+Constraint[Prev][19]=gwr-bogie-clerestory-mail
 
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
@@ -257,6 +281,7 @@ EmptyImage[NE][5]=./carriages/gwr-6-wheel-clerestory-third-collett-unlined_NE.0.
 
 ----
 # Diagram U9
+# http://www.penrhos.me.uk/JSDCmed/U9-lot-165.jpg
 obj=vehicle
 name=gwr-6-wheel-composite
 speed=150
@@ -307,6 +332,12 @@ Constraint[Next][10]=gwr-6-wheel-composite
 Constraint[Next][11]=gwr-6-wheel-clerestory-composite
 Constraint[Next][12]=gwr-6-wheel-brake-third
 Constraint[Next][13]=gwr-6-wheel-clerestory-brake-third
+Constraint[Next][14]=gwr-bogie-clerestory-third
+Constraint[Next][15]=gwr-bogie-clerestory-brake-third
+Constraint[Next][16]=gwr-bogie-clerestory-luggage-composite
+Constraint[Next][17]=gwr-bogie-clerestory-brake-composite
+Constraint[Next][18]=gwr-bogie-clerestory-full-brake
+Constraint[Next][19]=gwr-bogie-clerestory-mail
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -322,6 +353,12 @@ Constraint[Prev][10]=gwr-6-wheel-clerestory-composite
 Constraint[Prev][11]=gwr-6-wheel-brake-third
 Constraint[Prev][12]=gwr-6-wheel-clerestory-brake-third
 Constraint[Prev][13]=gwr-6-wheel-third
+Constraint[Prev][14]=gwr-bogie-clerestory-third
+Constraint[Prev][15]=gwr-bogie-clerestory-brake-third
+Constraint[Prev][16]=gwr-bogie-clerestory-luggage-composite
+Constraint[Prev][17]=gwr-bogie-clerestory-brake-composite
+Constraint[Prev][18]=gwr-bogie-clerestory-full-brake
+Constraint[Prev][19]=gwr-bogie-clerestory-mail
 
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
@@ -386,6 +423,7 @@ EmptyImage[NE][5]=./carriages/gwr-6-wheel-composite-collett-unlined_NE.0.0
 
 ----
 # Diagram U10
+# http://www.penrhos.me.uk/JSDCmed/U10-lot-171.jpg
 obj=vehicle
 name=gwr-6-wheel-clerestory-composite
 speed=150
@@ -434,6 +472,12 @@ Constraint[Next][10]=gwr-6-wheel-composite
 Constraint[Next][11]=gwr-6-wheel-clerestory-composite
 Constraint[Next][12]=gwr-6-wheel-brake-third
 Constraint[Next][13]=gwr-6-wheel-clerestory-brake-third
+Constraint[Next][14]=gwr-bogie-clerestory-third
+Constraint[Next][15]=gwr-bogie-clerestory-brake-third
+Constraint[Next][16]=gwr-bogie-clerestory-luggage-composite
+Constraint[Next][17]=gwr-bogie-clerestory-brake-composite
+Constraint[Next][18]=gwr-bogie-clerestory-full-brake
+Constraint[Next][19]=gwr-bogie-clerestory-mail
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -449,6 +493,12 @@ Constraint[Prev][10]=gwr-6-wheel-clerestory-composite
 Constraint[Prev][11]=gwr-6-wheel-brake-third
 Constraint[Prev][12]=gwr-6-wheel-clerestory-brake-third
 Constraint[Prev][13]=gwr-6-wheel-third
+Constraint[Prev][14]=gwr-bogie-clerestory-third
+Constraint[Prev][15]=gwr-bogie-clerestory-brake-third
+Constraint[Prev][16]=gwr-bogie-clerestory-luggage-composite
+Constraint[Prev][17]=gwr-bogie-clerestory-brake-composite
+Constraint[Prev][18]=gwr-bogie-clerestory-full-brake
+Constraint[Prev][19]=gwr-bogie-clerestory-mail
 
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown
