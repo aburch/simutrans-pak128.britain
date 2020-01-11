@@ -44,6 +44,10 @@ Constraint[Next][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Next][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-rear
 Constraint[Next][10]=gwr-toplight-non-corridor-composite
 Constraint[Next][11]=gwr-toplight-brake-third-rear
+Constraint[Next][12]=gwr-clerestory-suburban-third
+Constraint[Next][13]=gwr-clerestory-suburban-second
+Constraint[Next][14]=gwr-clerestory-suburban-first
+Constraint[Next][15]=gwr-clerestory-suburban-brake-third-rear
 
 Constraint[Prev][0]=gwr-hawksworth-non-corridor-third
 Constraint[Prev][1]=gwr-hawksworth-non-corridor-composite
@@ -57,6 +61,10 @@ Constraint[Prev][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Prev][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-front
 Constraint[Prev][10]=gwr-toplight-non-corridor-composite
 Constraint[Prev][11]=gwr-toplight-brake-third-front
+Constraint[Prev][12]=gwr-clerestory-suburban-third
+Constraint[Prev][13]=gwr-clerestory-suburban-second
+Constraint[Prev][14]=gwr-clerestory-suburban-first
+Constraint[Prev][15]=gwr-clerestory-suburban-brake-third-front
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
@@ -126,6 +134,10 @@ Constraint[Next][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Next][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-rear
 Constraint[Next][10]=gwr-toplight-non-corridor-composite
 Constraint[Next][11]=gwr-toplight-brake-third-rear
+Constraint[Next][12]=gwr-clerestory-suburban-third
+Constraint[Next][13]=gwr-clerestory-suburban-second
+Constraint[Next][14]=gwr-clerestory-suburban-first
+Constraint[Next][15]=gwr-clerestory-suburban-brake-third-rear
 
 Constraint[Prev][0]=gwr-hawksworth-non-corridor-third
 Constraint[Prev][1]=gwr-hawksworth-non-corridor-composite
@@ -139,6 +151,10 @@ Constraint[Prev][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Prev][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-front
 Constraint[Prev][10]=gwr-toplight-non-corridor-composite
 Constraint[Prev][11]=gwr-toplight-brake-third-front
+Constraint[Prev][12]=gwr-clerestory-suburban-third
+Constraint[Prev][13]=gwr-clerestory-suburban-second
+Constraint[Prev][14]=gwr-clerestory-suburban-first
+Constraint[Prev][15]=gwr-clerestory-suburban-brake-third-front
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
@@ -209,7 +225,11 @@ Constraint[Next][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Next][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-rear
 Constraint[Next][10]=gwr-toplight-non-corridor-composite
 Constraint[Next][11]=gwr-toplight-brake-third-rear
-Constraint[Next][12]=none
+Constraint[Next][12]=gwr-clerestory-suburban-third
+Constraint[Next][13]=gwr-clerestory-suburban-second
+Constraint[Next][14]=gwr-clerestory-suburban-first
+Constraint[Next][15]=gwr-clerestory-suburban-brake-third-rear
+Constraint[Next][16]=none
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
@@ -280,6 +300,10 @@ Constraint[Prev][8]=gwr-bow-ended-non-corridor-60ft-third
 Constraint[Prev][9]=gwr-bow-ended-non-corridor-60ft-brake-composite-front
 Constraint[Prev][10]=gwr-toplight-non-corridor-composite
 Constraint[Prev][11]=gwr-toplight-brake-third-front
+Constraint[Prev][12]=gwr-clerestory-suburban-third
+Constraint[Prev][13]=gwr-clerestory-suburban-second
+Constraint[Prev][14]=gwr-clerestory-suburban-first
+Constraint[Prev][15]=gwr-clerestory-suburban-brake-third-front
 
 liverytype[0]=GWR-hawksworth
 liverytype[1]=BR-Early
