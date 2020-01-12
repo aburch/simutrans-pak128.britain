@@ -19,11 +19,12 @@ retire_month=7
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
+available_only_as_upgrade=1
 
 # Data not available, so guessed
 weight=38.7
-axle_load=15
+axle_load=13
 cost=250000
 upgrade_price=55555
 runningcost=122

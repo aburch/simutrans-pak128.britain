@@ -41,13 +41,15 @@ Constraint[Prev][0]=gwr-517-rebuilt-auto-fitted
 Constraint[Prev][1]=GWR-1400Tank
 Constraint[Prev][2]=GWR-PannierTank
 Constraint[Prev][3]=gwr-railmotor
-Constraint[Prev][4]=none
+Constraint[Prev][4]=gwr-2021-rebuilt
+Constraint[Prev][5]=none
 
 Constraint[Next][0]=GWR-517Tank-AutoFitted
 Constraint[Next][1]=GWR-1400Tank
 Constraint[Next][2]=GWR-PannierTank
 Constraint[Next][3]=gwr-railmotor
-Constraint[Next][4]=none
+Constraint[Next][4]=gwr-2021-rebuilt
+Constraint[Next][5]=none
 
 liverytype[0]=GWR-two-tone
 liverytype[1]=GWR-overall-brown

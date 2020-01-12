@@ -7,7 +7,7 @@ engine_type=steam
 smoke=Steam
 speed=85
 # Extrapolated
-power=184
+power=203
 # Calculated using data from: https://en.wikipedia.org/wiki/GWR_1813_Class
 # assuming boiler pressure of 140psi and loss factor of 0.8.
 tractive_effort=65
@@ -28,7 +28,7 @@ upgrade[0]=gwr-1813-rebuilt
 weight=48.1
 axle_load=17
 cost=2200000
-runningcost=129
+runningcost=136
 fixed_cost=25850
 sound=konakaboom-gwr-pannier.wav
 
