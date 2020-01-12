@@ -1,11 +1,11 @@
-# Pannier tank version
+# Side tank version
 # http://www.gwr.org.uk/nopanniers.html
 # https://en.wikipedia.org/wiki/GWR_1813_Class
 obj=vehicle
 name=gwr-1813
 engine_type=steam
 smoke=Steam
-speed=80
+speed=85
 # Extrapolated
 power=184
 # Calculated using data from: https://en.wikipedia.org/wiki/GWR_1813_Class
