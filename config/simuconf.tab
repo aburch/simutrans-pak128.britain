@@ -497,7 +497,7 @@ toll_free_public_roads = 1
 # that the player who owns the road will receive for each km traversed by a
 # private car on that road.
 
-private_car_toll_per_km = 1
+private_car_toll_per_km = 15
 
 # If this is set to 1, any road built in a town will be adopted
 # by that town (set to unowned), meaning that the building player
@@ -976,6 +976,9 @@ enforce_weight_limits=3
 # retirement date. The default, allow_buying_obsolete_vehicles=1, allows players
 # to buy old vehicles by clicking a "Show obsolete" button in the depot / replacer
 # window. This button is not shown if this is set to 0.
+#
+# If this is set to 2, players can buy vehicles after their retirement date, but
+# not after they have become obsolete. 
 
 allow_buying_obsolete_vehicles=0
 
@@ -2343,24 +2346,30 @@ intro_month[91][0] = 3
 livery[91][1] = GWR-two-tone
 intro_year[91][1] = 1864
 intro_month[91][1] = 5
-livery[91][2] = GWR-overall-brown
-intro_year[91][2] = 1908
-intro_month[91][2] = 3
-livery[91][3] = GWR-lake
-intro_year[91][3] = 1912
-intro_month[91][3] = 10
-livery[91][3] = GWR-chocolate-cream-lined
-intro_year[91][3] = 1922
-intro_month[91][3] = 1
-livery[91][4] = GWR-chocolate-cream-plain
-intro_year[91][4] = 1927
-intro_month[91][4] = 4
-livery[91][5] = GWR-shirtbutton
-intro_year[91][5] = 1934
-intro_month[91][5] = 8
-livery[91][6] = GWR-hawksworth
-intro_year[91][6] = 1942
-intro_month[91][6] = 2
+livery[91][2] = GWR-dark-green
+intro_year[91][2] = 1875
+intro_month[91][2] = 6
+livery[91][3] = GWR-standard-green
+intro_year[91][3] = 1881
+intro_month[91][3] = 4
+livery[91][4] = GWR-overall-brown
+intro_year[91][4] = 1908
+intro_month[91][4] = 3
+livery[91][5] = GWR-lake
+intro_year[91][5] = 1912
+intro_month[91][5] = 10
+livery[91][6] = GWR-chocolate-cream-lined
+intro_year[91][6] = 1922
+intro_month[91][6] = 1
+livery[91][7] = GWR-chocolate-cream-plain
+intro_year[91][7] = 1927
+intro_month[91][7] = 4
+livery[91][8] = GWR-shirtbutton
+intro_year[91][8] = 1934
+intro_month[91][8] = 8
+livery[91][9] = GWR-hawksworth
+intro_year[91][9] = 1942
+intro_month[91][9] = 2
 
 # http://www.bartonhistory.co.uk/bartons-railway/the-birmingham-and-derby-junction-railway/
 # Very limited information on this livery, especially for locomotives.
