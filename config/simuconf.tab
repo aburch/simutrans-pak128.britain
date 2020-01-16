@@ -71,17 +71,29 @@ station_coverage_factories = 3
 # The rate at which towns grow depends on their size. There are three different size categories:
 # "Villages", "Cities" and "Capitals". The following settings define the thresholds (in numbers 
 # of population) above which towns become "Cities" and "Capitals". Anything smaller than 
-# city_threshold_size is a "Village".
+# city_threshold_size is a "Village". These settings are overriden if any value in 
+# city_threshold_percentage or capital_threshold_percentage be set. 
 
 city_threshold_size = 2500
 capital_threshold_size = 25000
 
+# These values determine which rates of town growth apply depending, not on the absolute size
+# of the city, but rather its size relative to other cities in the game. If capital_threshold_percentage
+# is 5, for example, any city in the top 5% of cities by population count will be a capital. 
+# These settings override the absolute values in city_threshold_size and capital_threshold_size
+# unless their values are 0, which is the default. It is recommended to use these rather than absolute
+# values, especially in longer games, where all towns may grow to the size of "capitals" eventually.
+
+city_threshold_percentage = 20
+capital_threshold_percentage = 2
+
 # These values are used in the city generation algorithm to determine the maximum size of cities.
 # max_city_size is the maximum size, in citizens, of any city at the point of generation.
 # max_small_city_size is the size, in citizens, of any city other than a "big city" at the point of generation. 
+#
 # TIP: Set a lower number for these values the earlier that the game is started.
 
-max_city_size = 16000
+max_city_size = 20000
 max_small_city_size = 3000
 
 # These values represent the rate at which towns grow. The raw growth number is *divided*
@@ -478,7 +490,7 @@ toll_revenue_percentage = 33
 # a trip by aircraft charged to a player landing at another player's
 # airport.
 #
-# seaport_toll_revenue_percentage is the precentage of the revenue
+# seaport_toll_revenue_percentage is the percentage of the revenue
 # of a trip by sea charged to a player docking at another player's
 # sea port.
 
