@@ -587,6 +587,9 @@ crossconnect_factories = 0
 # (100% will give nearly the same results as crossconnect_factories=1)
 crossconnect_factories_percentage = 15
 
+# At what multiple of a town's population that a new consumer industry is built in that town
+industry_increase_every = 2000
+
 # This setting determines the behaviour of industry demand.
 # At 0, industries will always demand goods until their internal storage is full, no matter how many goods are already in transit.
 # At 1, industries will demand enough goods to fill their internal storage initially, then will demand only enough goods to keep up with the demand of their consumers.
