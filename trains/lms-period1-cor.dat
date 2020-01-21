@@ -93,6 +93,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -155,38 +158,40 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-cor-third_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-cor-third_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-cor-third_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-cor-third_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-cor-third_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-cor-third_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-cor-third_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-cor-third_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-cor-third_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-cor-third_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-cor-third_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-cor-third_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-cor-third_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-cor-third_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-cor-third_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-cor-third_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-cor-third-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-cor-third-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-cor-third-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-cor-third-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-cor-third-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-cor-third-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-cor-third-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-cor-third-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-cor-third-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-cor-third-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-cor-third-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-cor-third-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-cor-third-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-cor-third-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-cor-third-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-cor-third-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-cor-third-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-cor-third-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-cor-third-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-cor-third-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-cor-third-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-cor-third-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-cor-third-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-cor-third-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-cor-third-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-cor-third-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-cor-third-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-cor-third-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-cor-third-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-cor-third-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-cor-third-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-cor-third-br-m_NE.0.0
 
 ----
 
@@ -284,6 +289,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -346,38 +354,40 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-cor-first_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-cor-first_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-cor-first_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-cor-first_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-cor-first_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-cor-first_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-cor-first_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-cor-first_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-cor-first_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-cor-first_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-cor-first_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-cor-first_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-cor-first_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-cor-first_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-cor-first_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-cor-first_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-cor-first-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-cor-first-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-cor-first-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-cor-first-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-cor-first-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-cor-first-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-cor-first-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-cor-first-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-cor-first-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-cor-first-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-cor-first-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-cor-first-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-cor-first-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-cor-first-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-cor-first-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-cor-first-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-cor-first-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-cor-first-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-cor-first-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-cor-first-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-cor-first-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-cor-first-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-cor-first-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-cor-first-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-cor-first-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-cor-first-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-cor-first-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-cor-first-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-cor-first-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-cor-first-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-cor-first-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-cor-first-br-m_NE.0.0
 
 ----
 
@@ -392,10 +402,10 @@ retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=0
+payload[1]=32
 payload[2]=0
-payload[3]=30
-overcrowded_capacity=0
+payload[3]=18
+overcrowded_capacity=16
 length=10
 
 weight=31
@@ -475,6 +485,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -537,38 +550,40 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-cor-composite_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-cor-composite_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-cor-composite_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-cor-composite_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-cor-composite_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-cor-composite_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-cor-composite_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-cor-composite_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-cor-composite_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-cor-composite_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-cor-composite_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-cor-composite_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-cor-composite_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-cor-composite_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-cor-composite_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-cor-composite_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-cor-composite-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-cor-composite-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-cor-composite-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-cor-composite-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-cor-composite-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-cor-composite-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-cor-composite-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-cor-composite-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-cor-composite-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-cor-composite-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-cor-composite-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-cor-composite-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-cor-composite-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-cor-composite-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-cor-composite-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-cor-composite-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-cor-composite-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-cor-composite-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-cor-composite-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-cor-composite-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-cor-composite-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-cor-composite-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-cor-composite-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-cor-composite-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-cor-composite-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-cor-composite-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-cor-composite-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-cor-composite-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-cor-composite-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-cor-composite-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-cor-composite-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-cor-composite-br-m_NE.0.0
 
 ----
 
@@ -666,38 +681,41 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
-Constraint[Next][61]=none
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
+Constraint[Next][64]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-cor-brake-front_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-cor-brake-front_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-cor-brake-front_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-cor-brake-front_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-cor-brake-front_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-cor-brake-front_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-cor-brake-front_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-cor-brake-front_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-cor-brake-front_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-cor-brake-front_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-cor-brake-front_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-cor-brake-front_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-cor-brake-front_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-cor-brake-front_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-cor-brake-front_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-cor-brake-front_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-cor-brake-front-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-cor-brake-front-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-cor-brake-front-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-cor-brake-front-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-cor-brake-front-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-cor-brake-front-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-cor-brake-front-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-cor-brake-front-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-cor-brake-front-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-cor-brake-front-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-cor-brake-front-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-cor-brake-front-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-cor-brake-front-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-cor-brake-front-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-cor-brake-front-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-cor-brake-front-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-cor-brake-front-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-cor-brake-front-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-cor-brake-front-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-cor-brake-front-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-cor-brake-front-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-cor-brake-front-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-cor-brake-front-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-cor-brake-front-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-cor-brake-front-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-cor-brake-front-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-cor-brake-front-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-cor-brake-front-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-cor-brake-front-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-cor-brake-front-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-cor-brake-front-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-cor-brake-front-br-m_NE.0.0
 
 ----
 
@@ -795,40 +813,43 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-cor-brake-rear_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-cor-brake-rear_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-cor-brake-rear_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-cor-brake-rear_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-cor-brake-rear_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-cor-brake-rear_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-cor-brake-rear_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-cor-brake-rear_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-cor-brake-rear_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-cor-brake-rear_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-cor-brake-rear_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-cor-brake-rear_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-cor-brake-rear_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-cor-brake-rear_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-cor-brake-rear_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-cor-brake-rear_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-cor-brake-rear-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-cor-brake-rear-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-cor-brake-rear-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-cor-brake-rear-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-cor-brake-rear-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-cor-brake-rear-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-cor-brake-rear-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-cor-brake-rear-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-cor-brake-rear-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-cor-brake-rear-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-cor-brake-rear-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-cor-brake-rear-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-cor-brake-rear-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-cor-brake-rear-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-cor-brake-rear-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-cor-brake-rear-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-cor-brake-rear-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-cor-brake-rear-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-cor-brake-rear-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-cor-brake-rear-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-cor-brake-rear-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-cor-brake-rear-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-cor-brake-rear-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-cor-brake-rear-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-cor-brake-rear-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-cor-brake-rear-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-cor-brake-rear-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-cor-brake-rear-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-cor-brake-rear-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-cor-brake-rear-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-cor-brake-rear-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-cor-brake-rear-br-m_NE.0.0
 
 ---
+# See Jenkinson p. 323 for capacities and weights
 # Third
 obj=vehicle
 name=LMS-period1-cor-open
@@ -847,7 +868,7 @@ payload[3]=0
 overcrowded_capacity=25
 length=10
 
-weight=30
+weight=27.4
 axles=4
 cost=650000
 runningcost=0
@@ -924,6 +945,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -986,38 +1010,40 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-cor-open-third_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-cor-open-third_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-cor-open-third_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-cor-open-third_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-cor-open-third_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-cor-open-third_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-cor-open-third_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-cor-open-third_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-cor-open-third_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-cor-open-third_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-cor-open-third_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-cor-open-third_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-cor-open-third_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-cor-open-third_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-cor-open-third_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-cor-open-third_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-cor-open-third-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-cor-open-third-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-cor-open-third-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-cor-open-third-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-cor-open-third-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-cor-open-third-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-cor-open-third-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-cor-open-third-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-cor-open-third-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-cor-open-third-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-cor-open-third-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-cor-open-third-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-cor-open-third-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-cor-open-third-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-cor-open-third-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-cor-open-third-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-cor-open-third-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-cor-open-third-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-cor-open-third-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-cor-open-third-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-cor-open-third-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-cor-open-third-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-cor-open-third-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-cor-open-third-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-cor-open-third-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-cor-open-third-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-cor-open-third-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-cor-open-third-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-cor-open-third-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-cor-open-third-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-cor-open-third-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-cor-open-third-br-m_NE.0.0
 
 ----
 
@@ -1032,13 +1058,13 @@ retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=56
+payload[1]=0
 payload[2]=0
-payload[3]=0
-overcrowded_capacity=25
+payload[3]=36
+overcrowded_capacity=0
 length=10
 
-weight=30
+weight=27.4
 axles=4
 cost=650000
 runningcost=0
@@ -1115,6 +1141,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1177,38 +1206,40 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
-
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-cor-open-first_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-cor-open-first_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-cor-open-first_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-cor-open-first_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-cor-open-first_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-cor-open-first_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-cor-open-first_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-cor-open-first_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-cor-open-first_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-cor-open-first_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-cor-open-first_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-cor-open-first_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-cor-open-first_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-cor-open-first_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-cor-open-first_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-cor-open-first_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-cor-open-first-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-cor-open-first-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-cor-open-first-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-cor-open-first-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-cor-open-first-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-cor-open-first-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-cor-open-first-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-cor-open-first-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-cor-open-first-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-cor-open-first-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-cor-open-first-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-cor-open-first-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-cor-open-first-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-cor-open-first-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-cor-open-first-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-cor-open-first-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-cor-open-first-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-cor-open-first-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-cor-open-first-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-cor-open-first-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-cor-open-first-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-cor-open-first-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-cor-open-first-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-cor-open-first-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-cor-open-first-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-cor-open-first-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-cor-open-first-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-cor-open-first-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-cor-open-first-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-cor-open-first-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-cor-open-first-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-cor-open-first-br-m_NE.0.0
 
 ----
 
@@ -1223,13 +1254,13 @@ retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=36
+payload[1]=40
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=18
+overcrowded_capacity=22
 length=10
 
-weight=28
+weight=26.4
 axles=4
 cost=650000
 runningcost=0
@@ -1306,38 +1337,41 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
-Constraint[Next][61]=none
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
+Constraint[Next][64]=none
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-cor-open-brake-front_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-cor-open-brake-front_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-cor-open-brake-front_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-cor-open-brake-front_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-cor-open-brake-front_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-cor-open-brake-front_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-cor-open-brake-front_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-cor-open-brake-front_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-cor-open-brake-front_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-cor-open-brake-front_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-cor-open-brake-front_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-cor-open-brake-front_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-cor-open-brake-front_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-cor-open-brake-front_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-cor-open-brake-front_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-cor-open-brake-front_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-cor-open-brake-front-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-cor-open-brake-front-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-cor-open-brake-front-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-cor-open-brake-front-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-cor-open-brake-front-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-cor-open-brake-front-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-cor-open-brake-front-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-cor-open-brake-front-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-cor-open-brake-front-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-cor-open-brake-front-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-cor-open-brake-front-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-cor-open-brake-front-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-cor-open-brake-front-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-cor-open-brake-front-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-cor-open-brake-front-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-cor-open-brake-front-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-cor-open-brake-front-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-cor-open-brake-front-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-cor-open-brake-front-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-cor-open-brake-front-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-cor-open-brake-front-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-cor-open-brake-front-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-cor-open-brake-front-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-cor-open-brake-front-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-cor-open-brake-front-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-cor-open-brake-front-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-cor-open-brake-front-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-cor-open-brake-front-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-cor-open-brake-front-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-cor-open-brake-front-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-cor-open-brake-front-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-cor-open-brake-front-br-m_NE.0.0
 
 ----
 
@@ -1352,13 +1386,13 @@ retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=36
+payload[1]=40
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=18
+overcrowded_capacity=22
 length=10
 
-weight=28
+weight=26.4
 axles=4
 cost=650000
 runningcost=0
@@ -1435,37 +1469,40 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-cor-open-brake-rear_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-cor-open-brake-rear_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-cor-open-brake-rear_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-cor-open-brake-rear_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-cor-open-brake-rear_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-cor-open-brake-rear_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-cor-open-brake-rear_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-cor-open-brake-rear_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-cor-open-brake-rear_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-cor-open-brake-rear_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-cor-open-brake-rear_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-cor-open-brake-rear_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-cor-open-brake-rear_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-cor-open-brake-rear_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-cor-open-brake-rear_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-cor-open-brake-rear_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-cor-open-brake-rear-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-cor-open-brake-rear-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-cor-open-brake-rear-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-cor-open-brake-rear-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-cor-open-brake-rear-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-cor-open-brake-rear-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-cor-open-brake-rear-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-cor-open-brake-rear-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-cor-open-brake-rear-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-cor-open-brake-rear-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-cor-open-brake-rear-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-cor-open-brake-rear-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-cor-open-brake-rear-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-cor-open-brake-rear-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-cor-open-brake-rear-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-cor-open-brake-rear-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-cor-open-brake-rear-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-cor-open-brake-rear-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-cor-open-brake-rear-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-cor-open-brake-rear-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-cor-open-brake-rear-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-cor-open-brake-rear-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-cor-open-brake-rear-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-cor-open-brake-rear-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-cor-open-brake-rear-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-cor-open-brake-rear-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-cor-open-brake-rear-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-cor-open-brake-rear-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-cor-open-brake-rear-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-cor-open-brake-rear-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-cor-open-brake-rear-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-cor-open-brake-rear-br-m_NE.0.0
 
 ----
 
@@ -1554,6 +1591,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1616,37 +1656,40 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-mail_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-mail_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-mail_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-mail_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-mail_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-mail_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-mail_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-mail_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-mail_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-mail_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-mail_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-mail_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-mail_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-mail_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-mail_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-mail_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-mail-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-mail-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-mail-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-mail-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-mail-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-mail-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-mail-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-mail-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-mail-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-mail-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-mail-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-mail-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-mail-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-mail-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-mail-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-mail-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-mail-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-mail-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-mail-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-mail-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-mail-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-mail-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-mail-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-mail-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-mail-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-mail-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-mail-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-mail-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-mail-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-mail-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-mail-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-mail-br-m_NE.0.0
 
 ----
 
@@ -1736,6 +1779,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -1798,37 +1844,40 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-tpo_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-tpo_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-tpo_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-tpo_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-tpo_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-tpo_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-tpo_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-tpo_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-tpo_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-tpo_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-tpo_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-tpo_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-tpo_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-tpo_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-tpo_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-tpo_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-tpo-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-tpo-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-tpo-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-tpo-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-tpo-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-tpo-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-tpo-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-tpo-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-tpo-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-tpo-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-tpo-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-tpo-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-tpo-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-tpo-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-tpo-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-tpo-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-tpo-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-tpo-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-tpo-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-tpo-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-tpo-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-tpo-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-tpo-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-tpo-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-tpo-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-tpo-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-tpo-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-tpo-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-tpo-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-tpo-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-tpo-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-tpo-br-m_NE.0.0
 
 ----
 
@@ -1860,32 +1909,32 @@ liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-full-brake_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-full-brake_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-full-brake_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-full-brake_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-full-brake_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-full-brake_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-full-brake_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-full-brake_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-full-brake_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-full-brake_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-full-brake_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-full-brake_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-full-brake_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-full-brake_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-full-brake_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-full-brake_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-full-brake-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-full-brake-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-full-brake-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-full-brake-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-full-brake-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-full-brake-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-full-brake-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-full-brake-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-full-brake-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-full-brake-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-full-brake-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-full-brake-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-full-brake-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-full-brake-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-full-brake-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-full-brake-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-full-brake-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-full-brake-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-full-brake-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-full-brake-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-full-brake-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-full-brake-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-full-brake-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-full-brake-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-full-brake-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-full-brake-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-full-brake-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-full-brake-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-full-brake-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-full-brake-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-full-brake-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-full-brake-br-m_NE.0.0
 
 ----
 
@@ -1979,6 +2028,9 @@ Constraint[Next][57]=LMS-open-first
 Constraint[Next][58]=LMS-open-composite
 Constraint[Next][59]=LMS-cor-first
 Constraint[Next][60]=LMS-cor-composite
+Constraint[Next][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Next][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Next][63]=MR-54ft-eliptical-cor-brake-composite-rear-d1046
 
 Constraint[Prev][0]=LNWR-45ft-cor-full-brake
 Constraint[Prev][1]=LNWR-42ft-cor
@@ -2041,35 +2093,38 @@ Constraint[Prev][57]=LMS-open-first
 Constraint[Prev][58]=LMS-open-composite
 Constraint[Prev][59]=LMS-cor-first
 Constraint[Prev][60]=LMS-cor-composite
+Constraint[Prev][61]=MR-54ft-clerestory-cor-composite-d593
+Constraint[Prev][62]=MR-54ft-clerestory-cor-first-d600
+Constraint[Prev][63]=MR-54ft-eliptical-cor-brake-composite-front-d1046
 
 liverytype[0]=LMS-Standard
 liverytype[1]=BR-Early
 liverytype[2]=BR-Revised
 
-EmptyImage[E][0]=./images/lms-period1-cor-diner_E.0.0
-EmptyImage[SE][0]=./images/lms-period1-cor-diner_SE.0.0
-EmptyImage[S][0]=./images/lms-period1-cor-diner_S.0.0
-EmptyImage[SW][0]=./images/lms-period1-cor-diner_SW.0.0
-EmptyImage[W][0]=./images/lms-period1-cor-diner_W.0.0
-EmptyImage[NW][0]=./images/lms-period1-cor-diner_NW.0.0
-EmptyImage[N][0]=./images/lms-period1-cor-diner_N.0.0
-EmptyImage[NE][0]=./images/lms-period1-cor-diner_NE.0.0
+EmptyImage[E][0]=./carriages/lms-period1-cor-diner_E.0.0
+EmptyImage[SE][0]=./carriages/lms-period1-cor-diner_SE.0.0
+EmptyImage[S][0]=./carriages/lms-period1-cor-diner_S.0.0
+EmptyImage[SW][0]=./carriages/lms-period1-cor-diner_SW.0.0
+EmptyImage[W][0]=./carriages/lms-period1-cor-diner_W.0.0
+EmptyImage[NW][0]=./carriages/lms-period1-cor-diner_NW.0.0
+EmptyImage[N][0]=./carriages/lms-period1-cor-diner_N.0.0
+EmptyImage[NE][0]=./carriages/lms-period1-cor-diner_NE.0.0
 
-EmptyImage[E][1]=./images/lms-period1-cor-diner-br-cc_E.0.0
-EmptyImage[SE][1]=./images/lms-period1-cor-diner-br-cc_SE.0.0
-EmptyImage[S][1]=./images/lms-period1-cor-diner-br-cc_S.0.0
-EmptyImage[SW][1]=./images/lms-period1-cor-diner-br-cc_SW.0.0
-EmptyImage[W][1]=./images/lms-period1-cor-diner-br-cc_W.0.0
-EmptyImage[NW][1]=./images/lms-period1-cor-diner-br-cc_NW.0.0
-EmptyImage[N][1]=./images/lms-period1-cor-diner-br-cc_N.0.0
-EmptyImage[NE][1]=./images/lms-period1-cor-diner-br-cc_NE.0.0
+EmptyImage[E][1]=./carriages/lms-period1-cor-diner-br-cc_E.0.0
+EmptyImage[SE][1]=./carriages/lms-period1-cor-diner-br-cc_SE.0.0
+EmptyImage[S][1]=./carriages/lms-period1-cor-diner-br-cc_S.0.0
+EmptyImage[SW][1]=./carriages/lms-period1-cor-diner-br-cc_SW.0.0
+EmptyImage[W][1]=./carriages/lms-period1-cor-diner-br-cc_W.0.0
+EmptyImage[NW][1]=./carriages/lms-period1-cor-diner-br-cc_NW.0.0
+EmptyImage[N][1]=./carriages/lms-period1-cor-diner-br-cc_N.0.0
+EmptyImage[NE][1]=./carriages/lms-period1-cor-diner-br-cc_NE.0.0
 
-EmptyImage[E][2]=./images/lms-period1-cor-diner-br-m_E.0.0
-EmptyImage[SE][2]=./images/lms-period1-cor-diner-br-m_SE.0.0
-EmptyImage[S][2]=./images/lms-period1-cor-diner-br-m_S.0.0
-EmptyImage[SW][2]=./images/lms-period1-cor-diner-br-m_SW.0.0
-EmptyImage[W][2]=./images/lms-period1-cor-diner-br-m_W.0.0
-EmptyImage[NW][2]=./images/lms-period1-cor-diner-br-m_NW.0.0
-EmptyImage[N][2]=./images/lms-period1-cor-diner-br-m_N.0.0
-EmptyImage[NE][2]=./images/lms-period1-cor-diner-br-m_NE.0.0
+EmptyImage[E][2]=./carriages/lms-period1-cor-diner-br-m_E.0.0
+EmptyImage[SE][2]=./carriages/lms-period1-cor-diner-br-m_SE.0.0
+EmptyImage[S][2]=./carriages/lms-period1-cor-diner-br-m_S.0.0
+EmptyImage[SW][2]=./carriages/lms-period1-cor-diner-br-m_SW.0.0
+EmptyImage[W][2]=./carriages/lms-period1-cor-diner-br-m_W.0.0
+EmptyImage[NW][2]=./carriages/lms-period1-cor-diner-br-m_NW.0.0
+EmptyImage[N][2]=./carriages/lms-period1-cor-diner-br-m_N.0.0
+EmptyImage[NE][2]=./carriages/lms-period1-cor-diner-br-m_NE.0.0
 

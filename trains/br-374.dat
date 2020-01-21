@@ -43,14 +43,14 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-374(panto)
 
-EmptyImage[E]=./images/br-374-front.1.4
-EmptyImage[SE]=./images/br-374-front.1.5
-EmptyImage[S]=./images/br-374-front.1.6
-EmptyImage[SW]=./images/br-374-front.1.7
-EmptyImage[W]=./images/br-374-front.1.0
-EmptyImage[NW]=./images/br-374-front.1.1
-EmptyImage[N]=./images/br-374-front.1.2
-EmptyImage[NE]=./images/br-374-front.1.3
+EmptyImage[E]=./railcars/br-374-front.1.4
+EmptyImage[SE]=./railcars/br-374-front.1.5
+EmptyImage[S]=./railcars/br-374-front.1.6
+EmptyImage[SW]=./railcars/br-374-front.1.7
+EmptyImage[W]=./railcars/br-374-front.1.0
+EmptyImage[NW]=./railcars/br-374-front.1.1
+EmptyImage[N]=./railcars/br-374-front.1.2
+EmptyImage[NE]=./railcars/br-374-front.1.3
 
 ---
 
@@ -97,14 +97,14 @@ Constraint[Next][0]=BR-374(power)
 Constraint[Next][1]=BR-374(panto)
 Constraint[Next][2]=BR-374(rear)
 
-EmptyImage[E]=./images/br-374-panto.1.4
-EmptyImage[SE]=./images/br-374-panto.1.5
-EmptyImage[S]=./images/br-374-panto.1.6
-EmptyImage[SW]=./images/br-374-panto.1.7
-EmptyImage[W]=./images/br-374-panto.1.0
-EmptyImage[NW]=./images/br-374-panto.1.1
-EmptyImage[N]=./images/br-374-panto.1.2
-EmptyImage[NE]=./images/br-374-panto.1.3
+EmptyImage[E]=./railcars/br-374-panto.1.4
+EmptyImage[SE]=./railcars/br-374-panto.1.5
+EmptyImage[S]=./railcars/br-374-panto.1.6
+EmptyImage[SW]=./railcars/br-374-panto.1.7
+EmptyImage[W]=./railcars/br-374-panto.1.0
+EmptyImage[NW]=./railcars/br-374-panto.1.1
+EmptyImage[N]=./railcars/br-374-panto.1.2
+EmptyImage[NE]=./railcars/br-374-panto.1.3
 
 ---
 
@@ -152,14 +152,14 @@ Constraint[Next][0]=BR-374(power)
 Constraint[Next][1]=BR-374(panto)
 Constraint[Next][2]=BR-374(buffet)
 
-EmptyImage[E]=./images/br-374-power.1.4
-EmptyImage[SE]=./images/br-374-power.1.5
-EmptyImage[S]=./images/br-374-power.1.6
-EmptyImage[SW]=./images/br-374-power.1.7
-EmptyImage[W]=./images/br-374-power.1.0
-EmptyImage[NW]=./images/br-374-power.1.1
-EmptyImage[N]=./images/br-374-power.1.2
-EmptyImage[NE]=./images/br-374-power.1.3
+EmptyImage[E]=./railcars/br-374-power.1.4
+EmptyImage[SE]=./railcars/br-374-power.1.5
+EmptyImage[S]=./railcars/br-374-power.1.6
+EmptyImage[SW]=./railcars/br-374-power.1.7
+EmptyImage[W]=./railcars/br-374-power.1.0
+EmptyImage[NW]=./railcars/br-374-power.1.1
+EmptyImage[N]=./railcars/br-374-power.1.2
+EmptyImage[NE]=./railcars/br-374-power.1.3
 
 ---
 
@@ -210,14 +210,14 @@ Constraint[Next][1]=BR-374(panto)
 Constraint[Next][2]=BR-374(buffet)
 
 # TODO: Create proper graphics for this buffet car
-EmptyImage[E]=./images/br-374-power.1.4
-EmptyImage[SE]=./images/br-374-power.1.5
-EmptyImage[S]=./images/br-374-power.1.6
-EmptyImage[SW]=./images/br-374-power.1.7
-EmptyImage[W]=./images/br-374-power.1.0
-EmptyImage[NW]=./images/br-374-power.1.1
-EmptyImage[N]=./images/br-374-power.1.2
-EmptyImage[NE]=./images/br-374-power.1.3
+EmptyImage[E]=./railcars/br-374-power.1.4
+EmptyImage[SE]=./railcars/br-374-power.1.5
+EmptyImage[S]=./railcars/br-374-power.1.6
+EmptyImage[SW]=./railcars/br-374-power.1.7
+EmptyImage[W]=./railcars/br-374-power.1.0
+EmptyImage[NW]=./railcars/br-374-power.1.1
+EmptyImage[N]=./railcars/br-374-power.1.2
+EmptyImage[NE]=./railcars/br-374-power.1.3
 
 ---
 
@@ -267,14 +267,14 @@ Constraint[Next][0]=BR-374(power)
 Constraint[Next][1]=BR-374(panto)
 Constraint[Next][2]=BR-374(buffet)
 
-EmptyImage[E]=./images/br-374-power.1.4
-EmptyImage[SE]=./images/br-374-power.1.5
-EmptyImage[S]=./images/br-374-power.1.6
-EmptyImage[SW]=./images/br-374-power.1.7
-EmptyImage[W]=./images/br-374-power.1.0
-EmptyImage[NW]=./images/br-374-power.1.1
-EmptyImage[N]=./images/br-374-power.1.2
-EmptyImage[NE]=./images/br-374-power.1.3
+EmptyImage[E]=./railcars/br-374-power.1.4
+EmptyImage[SE]=./railcars/br-374-power.1.5
+EmptyImage[S]=./railcars/br-374-power.1.6
+EmptyImage[SW]=./railcars/br-374-power.1.7
+EmptyImage[W]=./railcars/br-374-power.1.0
+EmptyImage[NW]=./railcars/br-374-power.1.1
+EmptyImage[N]=./railcars/br-374-power.1.2
+EmptyImage[NE]=./railcars/br-374-power.1.3
 
 ---
 
@@ -322,11 +322,11 @@ Constraint[Prev][2]=BR-374(buffet)
 Constraint[Next][0]=BR-374(front)
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-374-rear.1.4
-EmptyImage[SE]=./images/br-374-rear.1.5
-EmptyImage[S]=./images/br-374-rear.1.6
-EmptyImage[SW]=./images/br-374-rear.1.7
-EmptyImage[W]=./images/br-374-rear.1.0
-EmptyImage[NW]=./images/br-374-rear.1.1
-EmptyImage[N]=./images/br-374-rear.1.2
-EmptyImage[NE]=./images/br-374-rear.1.3
+EmptyImage[E]=./railcars/br-374-rear.1.4
+EmptyImage[SE]=./railcars/br-374-rear.1.5
+EmptyImage[S]=./railcars/br-374-rear.1.6
+EmptyImage[SW]=./railcars/br-374-rear.1.7
+EmptyImage[W]=./railcars/br-374-rear.1.0
+EmptyImage[NW]=./railcars/br-374-rear.1.1
+EmptyImage[N]=./railcars/br-374-rear.1.2
+EmptyImage[NE]=./railcars/br-374-rear.1.3
