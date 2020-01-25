@@ -36,8 +36,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Next][0]=LNER-quad-art-b
 
@@ -109,8 +109,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-a
 
@@ -184,8 +184,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-b
 
@@ -259,8 +259,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-b
 
@@ -334,8 +334,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-c-third
 
@@ -407,8 +407,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-c-com
 
@@ -481,8 +481,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Next][0]=LNER-quad-art-f-third
 
@@ -554,8 +554,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Next][0]=LNER-quad-art-f-com
 
@@ -627,8 +627,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-e-third
 
@@ -703,8 +703,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-e-com
 
@@ -854,8 +854,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quad-art-g
 
