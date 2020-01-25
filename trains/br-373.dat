@@ -37,14 +37,14 @@ Constraint[Prev][0]=none
 
 Constraint[Next][0]=BR-373FrontPower
 
-EmptyImage[E]=./images/br-373.0.0
-EmptyImage[SE]=./images/br-373.0.1
-EmptyImage[S]=./images/br-373.0.2
-EmptyImage[SW]=./images/br-373.0.3
-EmptyImage[W]=./images/br-373.0.4
-EmptyImage[NW]=./images/br-373.0.5
-EmptyImage[N]=./images/br-373.0.6
-EmptyImage[NE]=./images/br-373.0.7
+EmptyImage[E]=./railcars/br-373.0.0
+EmptyImage[SE]=./railcars/br-373.0.1
+EmptyImage[S]=./railcars/br-373.0.2
+EmptyImage[SW]=./railcars/br-373.0.3
+EmptyImage[W]=./railcars/br-373.0.4
+EmptyImage[NW]=./railcars/br-373.0.5
+EmptyImage[N]=./railcars/br-373.0.6
+EmptyImage[NE]=./railcars/br-373.0.7
 
 ----
 
@@ -90,14 +90,14 @@ Constraint[Next][0]=BR-373Coach
 Constraint[Next][1]=BR-373Catering
 Constraint[Next][2]=BR-373CoachFirstClass
 
-EmptyImage[E]=./images/br-373.1.0
-EmptyImage[SE]=./images/br-373.1.1
-EmptyImage[S]=./images/br-373.1.2
-EmptyImage[SW]=./images/br-373.1.3
-EmptyImage[W]=./images/br-373.1.4
-EmptyImage[NW]=./images/br-373.1.5
-EmptyImage[N]=./images/br-373.1.6
-EmptyImage[NE]=./images/br-373.1.7
+EmptyImage[E]=./railcars/br-373.1.0
+EmptyImage[SE]=./railcars/br-373.1.1
+EmptyImage[S]=./railcars/br-373.1.2
+EmptyImage[SW]=./railcars/br-373.1.3
+EmptyImage[W]=./railcars/br-373.1.4
+EmptyImage[NW]=./railcars/br-373.1.5
+EmptyImage[N]=./railcars/br-373.1.6
+EmptyImage[NE]=./railcars/br-373.1.7
 
 ----
 
@@ -148,14 +148,14 @@ Constraint[Next][1]=BR-373Coach
 Constraint[Next][2]=BR-373Catering
 Constraint[Next][3]=BR-373CoachFirstClass
 
-EmptyImage[E]=./images/br-373.2.0
-EmptyImage[SE]=./images/br-373.2.1
-EmptyImage[S]=./images/br-373.2.2
-EmptyImage[SW]=./images/br-373.2.3
-EmptyImage[W]=./images/br-373.2.4
-EmptyImage[NW]=./images/br-373.2.5
-EmptyImage[N]=./images/br-373.2.6
-EmptyImage[NE]=./images/br-373.2.7
+EmptyImage[E]=./railcars/br-373.2.0
+EmptyImage[SE]=./railcars/br-373.2.1
+EmptyImage[S]=./railcars/br-373.2.2
+EmptyImage[SW]=./railcars/br-373.2.3
+EmptyImage[W]=./railcars/br-373.2.4
+EmptyImage[NW]=./railcars/br-373.2.5
+EmptyImage[N]=./railcars/br-373.2.6
+EmptyImage[NE]=./railcars/br-373.2.7
 
 ----
 
@@ -206,14 +206,14 @@ Constraint[Next][1]=BR-373Coach
 Constraint[Next][2]=BR-373Catering
 Constraint[Next][3]=BR-373CoachFirstClass
 
-EmptyImage[E]=./images/br-373.2.0
-EmptyImage[SE]=./images/br-373.2.1
-EmptyImage[S]=./images/br-373.2.2
-EmptyImage[SW]=./images/br-373.2.3
-EmptyImage[W]=./images/br-373.2.4
-EmptyImage[NW]=./images/br-373.2.5
-EmptyImage[N]=./images/br-373.2.6
-EmptyImage[NE]=./images/br-373.2.7
+EmptyImage[E]=./railcars/br-373.2.0
+EmptyImage[SE]=./railcars/br-373.2.1
+EmptyImage[S]=./railcars/br-373.2.2
+EmptyImage[SW]=./railcars/br-373.2.3
+EmptyImage[W]=./railcars/br-373.2.4
+EmptyImage[NW]=./railcars/br-373.2.5
+EmptyImage[N]=./railcars/br-373.2.6
+EmptyImage[NE]=./railcars/br-373.2.7
 
 ----
 
@@ -254,14 +254,14 @@ Constraint[Next][0]=BR-373Coach
 Constraint[Next][1]=BR-373CoachFirstClass
 
 #TODO: Produce separate graphics for the buffet car
-EmptyImage[E]=./images/br-373.2.0
-EmptyImage[SE]=./images/br-373.2.1
-EmptyImage[S]=./images/br-373.2.2
-EmptyImage[SW]=./images/br-373.2.3
-EmptyImage[W]=./images/br-373.2.4
-EmptyImage[NW]=./images/br-373.2.5
-EmptyImage[N]=./images/br-373.2.6
-EmptyImage[NE]=./images/br-373.2.7
+EmptyImage[E]=./railcars/br-373.2.0
+EmptyImage[SE]=./railcars/br-373.2.1
+EmptyImage[S]=./railcars/br-373.2.2
+EmptyImage[SW]=./railcars/br-373.2.3
+EmptyImage[W]=./railcars/br-373.2.4
+EmptyImage[NW]=./railcars/br-373.2.5
+EmptyImage[N]=./railcars/br-373.2.6
+EmptyImage[NE]=./railcars/br-373.2.7
 
 ----
 
@@ -308,14 +308,14 @@ Constraint[Prev][2]=BR-373CoachFirstClass
 
 Constraint[Next][0]=BR-373RearCab
 
-EmptyImage[E]=./images/br-373.3.0
-EmptyImage[SE]=./images/br-373.3.1
-EmptyImage[S]=./images/br-373.3.2
-EmptyImage[SW]=./images/br-373.3.3
-EmptyImage[W]=./images/br-373.3.4
-EmptyImage[NW]=./images/br-373.3.5
-EmptyImage[N]=./images/br-373.3.6
-EmptyImage[NE]=./images/br-373.3.7
+EmptyImage[E]=./railcars/br-373.3.0
+EmptyImage[SE]=./railcars/br-373.3.1
+EmptyImage[S]=./railcars/br-373.3.2
+EmptyImage[SW]=./railcars/br-373.3.3
+EmptyImage[W]=./railcars/br-373.3.4
+EmptyImage[NW]=./railcars/br-373.3.5
+EmptyImage[N]=./railcars/br-373.3.6
+EmptyImage[NE]=./railcars/br-373.3.7
 
 ----
 
@@ -356,11 +356,11 @@ Constraint[Prev][0]=BR-373RearPower
 
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/br-373.4.0
-EmptyImage[SE]=./images/br-373.4.1
-EmptyImage[S]=./images/br-373.4.2
-EmptyImage[SW]=./images/br-373.4.3
-EmptyImage[W]=./images/br-373.4.4
-EmptyImage[NW]=./images/br-373.4.5
-EmptyImage[N]=./images/br-373.4.6
-EmptyImage[NE]=./images/br-373.4.7
+EmptyImage[E]=./railcars/br-373.4.0
+EmptyImage[SE]=./railcars/br-373.4.1
+EmptyImage[S]=./railcars/br-373.4.2
+EmptyImage[SW]=./railcars/br-373.4.3
+EmptyImage[W]=./railcars/br-373.4.4
+EmptyImage[NW]=./railcars/br-373.4.5
+EmptyImage[N]=./railcars/br-373.4.6
+EmptyImage[NE]=./railcars/br-373.4.7

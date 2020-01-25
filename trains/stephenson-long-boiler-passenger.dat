@@ -34,14 +34,14 @@ Constraint[Next][0]=stephenson-long-boiler-passenger-tender
 # TODO: Other liveries.
 liverytype[0]=MR-Early
 
-EmptyImage[E][0]=./images/stephenson-long-boiler-passenger-mr-green_E.0.0
-EmptyImage[SE][0]=./images/stephenson-long-boiler-passenger-mr-green_SE.0.0
-EmptyImage[S][0]=./images/stephenson-long-boiler-passenger-mr-green_S.0.0
-EmptyImage[SW][0]=./images/stephenson-long-boiler-passenger-mr-green_SW.0.0
-EmptyImage[W][0]=./images/stephenson-long-boiler-passenger-mr-green_W.0.0
-EmptyImage[NW][0]=./images/stephenson-long-boiler-passenger-mr-green_NW.0.0
-EmptyImage[N][0]=./images/stephenson-long-boiler-passenger-mr-green_N.0.0
-EmptyImage[NE][0]=./images/stephenson-long-boiler-passenger-mr-green_NE.0.0
+EmptyImage[E][0]=./locomotives/stephenson-long-boiler-passenger-mr-green_E.0.0
+EmptyImage[SE][0]=./locomotives/stephenson-long-boiler-passenger-mr-green_SE.0.0
+EmptyImage[S][0]=./locomotives/stephenson-long-boiler-passenger-mr-green_S.0.0
+EmptyImage[SW][0]=./locomotives/stephenson-long-boiler-passenger-mr-green_SW.0.0
+EmptyImage[W][0]=./locomotives/stephenson-long-boiler-passenger-mr-green_W.0.0
+EmptyImage[NW][0]=./locomotives/stephenson-long-boiler-passenger-mr-green_NW.0.0
+EmptyImage[N][0]=./locomotives/stephenson-long-boiler-passenger-mr-green_N.0.0
+EmptyImage[NE][0]=./locomotives/stephenson-long-boiler-passenger-mr-green_NE.0.0
 
 
 ---
@@ -71,12 +71,12 @@ Constraint[Prev][0]=stephenson-long-boiler-passenger
 
 liverytype[0]=MR-Early
 
-EmptyImage[E][0]=./images/mr-133-tender-green_E.0.0
-EmptyImage[SE][0]=./images/mr-133-tender-green_SE.0.0
-EmptyImage[S][0]=./images/mr-133-tender-green_S.0.0
-EmptyImage[SW][0]=./images/mr-133-tender-green_SW.0.0
-EmptyImage[W][0]=./images/mr-133-tender-green_W.0.0
-EmptyImage[NW][0]=./images/mr-133-tender-green_NW.0.0
-EmptyImage[N][0]=./images/mr-133-tender-green_N.0.0
-EmptyImage[NE][0]=./images/mr-133-tender-green_NE.0.0
+EmptyImage[E][0]=./locomotives/mr-133-tender-green_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-133-tender-green_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-133-tender-green_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-133-tender-green_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-133-tender-green_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-133-tender-green_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-133-tender-green_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-133-tender-green_NE.0.0
 

@@ -28,11 +28,11 @@ max_loading_time=600
 
 Constraint[Next][0]=any
 
-EmptyImage[E]=./images/tanker-rch_E.0.0
-EmptyImage[SE]=./images/tanker-rch_SE.0.0
-EmptyImage[S]=./images/tanker-rch_S.0.0
-EmptyImage[SW]=./images/tanker-rch_SW.0.0
-EmptyImage[W]=./images/tanker-rch_W.0.0
-EmptyImage[NW]=./images/tanker-rch_NW.0.0
-EmptyImage[N]=./images/tanker-rch_N.0.0
-EmptyImage[NE]=./images/tanker-rch_NE.0.0
+EmptyImage[E]=./wagons/wagon-tanker-rch_E.0.0
+EmptyImage[SE]=./wagons/wagon-tanker-rch_SE.0.0
+EmptyImage[S]=./wagons/wagon-tanker-rch_S.0.0
+EmptyImage[SW]=./wagons/wagon-tanker-rch_SW.0.0
+EmptyImage[W]=./wagons/wagon-tanker-rch_W.0.0
+EmptyImage[NW]=./wagons/wagon-tanker-rch_NW.0.0
+EmptyImage[N]=./wagons/wagon-tanker-rch_N.0.0
+EmptyImage[NE]=./wagons/wagon-tanker-rch_NE.0.0

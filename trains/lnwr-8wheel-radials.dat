@@ -109,23 +109,23 @@ Constraint[Next][68]=none
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-brake-front_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-brake-front_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-brake-front_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-brake-front_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-brake-front_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-brake-front_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-brake-front_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-brake-front_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-brake-front_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-brake-front_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-brake-front_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-brake-front_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-brake-front_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-brake-front_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-brake-front_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-brake-front_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-brake-lms-front_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-brake-lms-front_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-brake-lms-front_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-brake-lms-front_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-brake-lms-front_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-brake-lms-front_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-brake-lms-front_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-brake-lms-front_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-brake-lms-front_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-brake-lms-front_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-brake-lms-front_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-brake-lms-front_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-brake-lms-front_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-brake-lms-front_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-brake-lms-front_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-brake-lms-front_NE.0.0
 
 ----
 # D329
@@ -245,23 +245,23 @@ liverytype[1]=LMS-Standard
 # These were only converts from 1895 onwards. See Millard p. 10
 available_only_as_upgrade=1
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-brake-lav-front_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-brake-lav-front_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-brake-lav-front_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-brake-lav-front_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-brake-lav-front_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-brake-lav-front_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-brake-lav-front_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-brake-lav-front_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-brake-lav-front_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-brake-lav-front_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-brake-lav-front_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-brake-lav-front_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-brake-lav-front_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-brake-lav-front_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-brake-lav-front_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-brake-lav-front_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-brake-lav-lms-front_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-brake-lav-lms-front_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-brake-lav-lms-front_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-brake-lav-lms-front_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-brake-lav-lms-front_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-brake-lav-lms-front_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-brake-lav-lms-front_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-brake-lav-lms-front_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-front_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-front_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-front_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-front_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-front_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-front_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-front_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-front_NE.0.0
 
 ----
 # D277
@@ -448,23 +448,23 @@ Constraint[Prev][67]=LMS-non-cor-non-lav-first
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-lav_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-lav_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-lav_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-lav_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-lav_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-lav_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-lav_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-lav_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-lav_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-lav_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-lav_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-lav_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-lav_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-lav_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-lav_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-lav_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-lav-lms_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-lav-lms_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-lav-lms_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-lav-lms_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-lav-lms_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-lav-lms_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-lav-lms_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-lav-lms_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-lav-lms_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-lav-lms_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-lav-lms_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-lav-lms_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-lav-lms_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-lav-lms_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-lav-lms_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-lav-lms_NE.0.0
 
 
 ----
@@ -652,23 +652,23 @@ Constraint[Prev][67]=LMS-non-cor-non-lav-first
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-lav-first_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-lav-first_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-lav-first_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-lav-first_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-lav-first_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-lav-first_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-lav-first_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-lav-first_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-lav-first_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-lav-first_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-lav-first_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-lav-first_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-lav-first_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-lav-first_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-lav-first_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-lav-first_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-lav-first-lms_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-lav-first-lms_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-lav-first-lms_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-lav-first-lms_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-lav-first-lms_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-lav-first-lms_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-lav-first-lms_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-lav-first-lms_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-lav-first-lms_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-lav-first-lms_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-lav-first-lms_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-lav-first-lms_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-lav-first-lms_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-lav-first-lms_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-lav-first-lms_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-lav-first-lms_NE.0.0
 
 ---
 # D159
@@ -855,23 +855,23 @@ Constraint[Prev][67]=LMS-non-cor-non-lav-first
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-lav-tricomposite_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-lav-tricomposite_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-lav-tricomposite_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-lav-tricomposite_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-lav-tricomposite_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-lav-tricomposite_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-lav-tricomposite_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-lav-tricomposite_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-lav-tricomposite_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-lav-tricomposite_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-lav-tricomposite_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-lav-tricomposite_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-lav-tricomposite_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-lav-tricomposite_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-lav-tricomposite_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-lav-tricomposite_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-lav-tricomposite-lms_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-lav-tricomposite-lms_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-lav-tricomposite-lms_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-lav-tricomposite-lms_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-lav-tricomposite-lms_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-lav-tricomposite-lms_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-lav-tricomposite-lms_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-lav-tricomposite-lms_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-lav-tricomposite-lms_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-lav-tricomposite-lms_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-lav-tricomposite-lms_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-lav-tricomposite-lms_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-lav-tricomposite-lms_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-lav-tricomposite-lms_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-lav-tricomposite-lms_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-lav-tricomposite-lms_NE.0.0
 
 ----
 # D292
@@ -1054,23 +1054,23 @@ Constraint[Prev][67]=LMS-non-cor-non-lav-first
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-non-lav_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-non-lav_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-non-lav_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-non-lav_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-non-lav_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-non-lav_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-non-lav_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-non-lav_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-non-lav_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-non-lav_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-non-lav_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-non-lav_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-non-lav_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-non-lav_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-non-lav_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-non-lav_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-non-lav-lms_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-non-lav-lms_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-non-lav-lms_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-non-lav-lms_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-non-lav-lms_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-non-lav-lms_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-non-lav-lms_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-non-lav-lms_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_NE.0.0
 
 ----
 # Unclear whether this type would exist as records of 2nd class vehicles not available.
@@ -1256,23 +1256,23 @@ liverytype[1]=LMS-Standard
 
 # Assume that this would be visually indistinguishable from the all 3rd 
 # as the compartment widths would be the same.
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-non-lav_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-non-lav_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-non-lav_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-non-lav_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-non-lav_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-non-lav_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-non-lav_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-non-lav_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-non-lav_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-non-lav_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-non-lav_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-non-lav_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-non-lav_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-non-lav_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-non-lav_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-non-lav_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-non-lav-lms_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-non-lav-lms_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-non-lav-lms_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-non-lav-lms_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-non-lav-lms_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-non-lav-lms_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-non-lav-lms_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-non-lav-lms_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-non-lav-lms_NE.0.0
 
 ----
 # Diagram number not known
@@ -1456,23 +1456,23 @@ Constraint[Prev][67]=LMS-non-cor-non-lav-first
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-non-lav-first_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-non-lav-first_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-non-lav-first_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-non-lav-first_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-non-lav-first_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-non-lav-first_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-non-lav-first_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-non-lav-first_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-non-lav-first_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-non-lav-first_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-non-lav-first_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-non-lav-first_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-non-lav-first_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-non-lav-first_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-non-lav-first_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-non-lav-first_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-non-lav-first-lms_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-non-lav-first-lms_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-non-lav-first-lms_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-non-lav-first-lms_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-non-lav-first-lms_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-non-lav-first-lms_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-non-lav-first-lms_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-non-lav-first-lms_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-non-lav-first-lms_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-non-lav-first-lms_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-non-lav-first-lms_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-non-lav-first-lms_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-non-lav-first-lms_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-non-lav-first-lms_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-non-lav-first-lms_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-non-lav-first-lms_NE.0.0
 
 ----
 # D352
@@ -1586,23 +1586,23 @@ Constraint[Prev][67]=LMS-non-cor-non-lav-first
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-brake-rear_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-brake-rear_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-brake-rear_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-brake-rear_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-brake-rear_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-brake-rear_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-brake-rear_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-brake-rear_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-brake-rear_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-brake-rear_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-brake-rear_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-brake-rear_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-brake-rear_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-brake-rear_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-brake-rear_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-brake-rear_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-brake-lms-rear_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-brake-lms-rear_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-brake-lms-rear_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-brake-lms-rear_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-brake-lms-rear_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-brake-lms-rear_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-brake-lms-rear_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-brake-lms-rear_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-brake-lms-rear_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-brake-lms-rear_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-brake-lms-rear_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-brake-lms-rear_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-brake-lms-rear_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-brake-lms-rear_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-brake-lms-rear_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-brake-lms-rear_NE.0.0
 
 ----
 # D329
@@ -1721,23 +1721,23 @@ Constraint[Prev][67]=LMS-non-cor-non-lav-first
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-brake-lav-rear_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-brake-lav-rear_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-brake-lav-rear_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-brake-lav-rear_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-brake-lav-rear_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-brake-lav-rear_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-brake-lav-rear_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-brake-lav-rear_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-brake-lav-rear_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-brake-lav-rear_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-brake-lav-rear_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-brake-lav-rear_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-brake-lav-rear_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-brake-lav-rear_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-brake-lav-rear_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-brake-lav-rear_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-brake-lav-lms-rear_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-brake-lav-lms-rear_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-brake-lav-lms-rear_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-brake-lav-lms-rear_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-brake-lav-lms-rear_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-brake-lav-lms-rear_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-brake-lav-lms-rear_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-brake-lav-lms-rear_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-rear_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-rear_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-rear_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-rear_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-rear_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-rear_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-rear_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-brake-lav-lms-rear_NE.0.0
 
 ----
 
@@ -1758,7 +1758,7 @@ weight=18
 axles=4
 cost=350000
 runningcost=0
-fixed_cost=417
+fixed_cost=5205
 
 upgrade[0]=LNWR-42ft-non-cor-full-brake
 
@@ -1770,23 +1770,23 @@ max_loading_time=120
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-full-brake_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-full-brake_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-full-brake_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-full-brake_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-full-brake_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-full-brake_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-full-brake_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-full-brake_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-full-brake_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-full-brake_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-full-brake_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-full-brake_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-full-brake_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-full-brake_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-full-brake_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-full-brake_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-full-brake-lms_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-full-brake-lms_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-full-brake-lms_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-full-brake-lms_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-full-brake-lms_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-full-brake-lms_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-full-brake-lms_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-full-brake-lms_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-full-brake-lms_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-full-brake-lms_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-full-brake-lms_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-full-brake-lms_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-full-brake-lms_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-full-brake-lms_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-full-brake-lms_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-full-brake-lms_NE.0.0
 
 ----
 
@@ -1957,23 +1957,23 @@ Constraint[Prev][67]=LMS-non-cor-non-lav-first
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-mail_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-mail_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-mail_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-mail_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-mail_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-mail_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-mail_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-mail_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-mail_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-mail_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-mail_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-mail_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-mail_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-mail_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-mail_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-mail_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-mail-lms_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-mail-lms_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-mail-lms_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-mail-lms_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-mail-lms_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-mail-lms_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-mail-lms_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-mail-lms_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-mail-lms_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-mail-lms_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-mail-lms_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-mail-lms_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-mail-lms_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-mail-lms_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-mail-lms_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-mail-lms_NE.0.0
 
 ----
 
@@ -2145,21 +2145,21 @@ Constraint[Prev][67]=LMS-non-cor-non-lav-first
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-8wheel-radial-tpo_E.0.0
-EmptyImage[SE][0]=./images/lnwr-8wheel-radial-tpo_SE.0.0
-EmptyImage[S][0]=./images/lnwr-8wheel-radial-tpo_S.0.0
-EmptyImage[SW][0]=./images/lnwr-8wheel-radial-tpo_SW.0.0
-EmptyImage[W][0]=./images/lnwr-8wheel-radial-tpo_W.0.0
-EmptyImage[NW][0]=./images/lnwr-8wheel-radial-tpo_NW.0.0
-EmptyImage[N][0]=./images/lnwr-8wheel-radial-tpo_N.0.0
-EmptyImage[NE][0]=./images/lnwr-8wheel-radial-tpo_NE.0.0
+EmptyImage[E][0]=./carriages/lnwr-8wheel-radial-tpo_E.0.0
+EmptyImage[SE][0]=./carriages/lnwr-8wheel-radial-tpo_SE.0.0
+EmptyImage[S][0]=./carriages/lnwr-8wheel-radial-tpo_S.0.0
+EmptyImage[SW][0]=./carriages/lnwr-8wheel-radial-tpo_SW.0.0
+EmptyImage[W][0]=./carriages/lnwr-8wheel-radial-tpo_W.0.0
+EmptyImage[NW][0]=./carriages/lnwr-8wheel-radial-tpo_NW.0.0
+EmptyImage[N][0]=./carriages/lnwr-8wheel-radial-tpo_N.0.0
+EmptyImage[NE][0]=./carriages/lnwr-8wheel-radial-tpo_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-8wheel-radial-tpo-lms_E.0.0
-EmptyImage[SE][1]=./images/lnwr-8wheel-radial-tpo-lms_SE.0.0
-EmptyImage[S][1]=./images/lnwr-8wheel-radial-tpo-lms_S.0.0
-EmptyImage[SW][1]=./images/lnwr-8wheel-radial-tpo-lms_SW.0.0
-EmptyImage[W][1]=./images/lnwr-8wheel-radial-tpo-lms_W.0.0
-EmptyImage[NW][1]=./images/lnwr-8wheel-radial-tpo-lms_NW.0.0
-EmptyImage[N][1]=./images/lnwr-8wheel-radial-tpo-lms_N.0.0
-EmptyImage[NE][1]=./images/lnwr-8wheel-radial-tpo-lms_NE.0.0
+EmptyImage[E][1]=./carriages/lnwr-8wheel-radial-tpo-lms_E.0.0
+EmptyImage[SE][1]=./carriages/lnwr-8wheel-radial-tpo-lms_SE.0.0
+EmptyImage[S][1]=./carriages/lnwr-8wheel-radial-tpo-lms_S.0.0
+EmptyImage[SW][1]=./carriages/lnwr-8wheel-radial-tpo-lms_SW.0.0
+EmptyImage[W][1]=./carriages/lnwr-8wheel-radial-tpo-lms_W.0.0
+EmptyImage[NW][1]=./carriages/lnwr-8wheel-radial-tpo-lms_NW.0.0
+EmptyImage[N][1]=./carriages/lnwr-8wheel-radial-tpo-lms_N.0.0
+EmptyImage[NE][1]=./carriages/lnwr-8wheel-radial-tpo-lms_NE.0.0
 
