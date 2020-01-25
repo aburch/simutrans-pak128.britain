@@ -1146,7 +1146,10 @@ no_tree_climates = 130
 no_trees = 0
 
 # if set, no lakes will be created at all
-no_lakes = 0
+# Note that lakes do not work well with rivers at present:
+# rivers terminate in lakes no matter how large the river
+# nor how small the lake, and there are no outlets to the sea.
+no_lakes = 1
 
 ################################### Network settings ##############################
 
