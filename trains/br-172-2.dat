@@ -41,14 +41,14 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-172-2Rear
 Constraint[Next][1]=BR-172-2Middle
 
-EmptyImage[E]=./images/br-172-front-lm.1.4
-EmptyImage[SE]=./images/br-172-front-lm.1.5
-EmptyImage[S]=./images/br-172-front-lm.1.6
-EmptyImage[SW]=./images/br-172-front-lm.1.7
-EmptyImage[W]=./images/br-172-front-lm.1.0
-EmptyImage[NW]=./images/br-172-front-lm.1.1
-EmptyImage[N]=./images/br-172-front-lm.1.2
-EmptyImage[NE]=./images/br-172-front-lm.1.3
+EmptyImage[E]=./railcars/br-172-front-lm.1.4
+EmptyImage[SE]=./railcars/br-172-front-lm.1.5
+EmptyImage[S]=./railcars/br-172-front-lm.1.6
+EmptyImage[SW]=./railcars/br-172-front-lm.1.7
+EmptyImage[W]=./railcars/br-172-front-lm.1.0
+EmptyImage[NW]=./railcars/br-172-front-lm.1.1
+EmptyImage[N]=./railcars/br-172-front-lm.1.2
+EmptyImage[NE]=./railcars/br-172-front-lm.1.3
 
 ---
 
@@ -95,14 +95,14 @@ Constraint[Prev][1]=BR-172-2Front
 Constraint[Next][0]=BR-172-2Front
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-172-rear-lm.1.4
-EmptyImage[SE]=./images/br-172-rear-lm.1.5
-EmptyImage[S]=./images/br-172-rear-lm.1.6
-EmptyImage[SW]=./images/br-172-rear-lm.1.7
-EmptyImage[W]=./images/br-172-rear-lm.1.0
-EmptyImage[NW]=./images/br-172-rear-lm.1.1
-EmptyImage[N]=./images/br-172-rear-lm.1.2
-EmptyImage[NE]=./images/br-172-rear-lm.1.3
+EmptyImage[E]=./railcars/br-172-rear-lm.1.4
+EmptyImage[SE]=./railcars/br-172-rear-lm.1.5
+EmptyImage[S]=./railcars/br-172-rear-lm.1.6
+EmptyImage[SW]=./railcars/br-172-rear-lm.1.7
+EmptyImage[W]=./railcars/br-172-rear-lm.1.0
+EmptyImage[NW]=./railcars/br-172-rear-lm.1.1
+EmptyImage[N]=./railcars/br-172-rear-lm.1.2
+EmptyImage[NE]=./railcars/br-172-rear-lm.1.3
 
 ---
 
@@ -148,13 +148,13 @@ Constraint[Prev][1]=BR-172-2Middle
 Constraint[Next][0]=BR-172-2Rear
 Constraint[Next][1]=BR-172-2Middle
 
-EmptyImage[E]=./images/br-172-middle-lm.1.4
-EmptyImage[SE]=./images/br-172-middle-lm.1.5
-EmptyImage[S]=./images/br-172-middle-lm.1.6
-EmptyImage[SW]=./images/br-172-middle-lm.1.7
-EmptyImage[W]=./images/br-172-middle-lm.1.0
-EmptyImage[NW]=./images/br-172-middle-lm.1.1
-EmptyImage[N]=./images/br-172-middle-lm.1.2
-EmptyImage[NE]=./images/br-172-middle-lm.1.3
+EmptyImage[E]=./railcars/br-172-middle-lm.1.4
+EmptyImage[SE]=./railcars/br-172-middle-lm.1.5
+EmptyImage[S]=./railcars/br-172-middle-lm.1.6
+EmptyImage[SW]=./railcars/br-172-middle-lm.1.7
+EmptyImage[W]=./railcars/br-172-middle-lm.1.0
+EmptyImage[NW]=./railcars/br-172-middle-lm.1.1
+EmptyImage[N]=./railcars/br-172-middle-lm.1.2
+EmptyImage[NE]=./railcars/br-172-middle-lm.1.3
 
 ---

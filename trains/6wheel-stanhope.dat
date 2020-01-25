@@ -39,23 +39,23 @@ liverytype[0]=LMR-Standard
 #liverytype[3]=GNR-early
 #liverytype[4]=LSWR-early
 
-EmptyImage[E][0]=./images/6wheel-stanhope_E.0.0
-EmptyImage[SE][0]=./images/6wheel-stanhope_SE.0.0
-EmptyImage[S][0]=./images/6wheel-stanhope_S.0.0
-EmptyImage[SW][0]=./images/6wheel-stanhope_SW.0.0
-EmptyImage[W][0]=./images/6wheel-stanhope_W.0.0
-EmptyImage[NW][0]=./images/6wheel-stanhope_NW.0.0
-EmptyImage[N][0]=./images/6wheel-stanhope_N.0.0
-EmptyImage[NE][0]=./images/6wheel-stanhope_NE.0.0
+EmptyImage[E][0]=./carriages/6wheel-stanhope_E.0.0
+EmptyImage[SE][0]=./carriages/6wheel-stanhope_SE.0.0
+EmptyImage[S][0]=./carriages/6wheel-stanhope_S.0.0
+EmptyImage[SW][0]=./carriages/6wheel-stanhope_SW.0.0
+EmptyImage[W][0]=./carriages/6wheel-stanhope_W.0.0
+EmptyImage[NW][0]=./carriages/6wheel-stanhope_NW.0.0
+EmptyImage[N][0]=./carriages/6wheel-stanhope_N.0.0
+EmptyImage[NE][0]=./carriages/6wheel-stanhope_NE.0.0
 
-FreightImage[E][0]=./images/6wheel-stanhope-loaded_E.0.0
-FreightImage[SE][0]=./images/6wheel-stanhope-loaded_SE.0.0
-FreightImage[S][0]=./images/6wheel-stanhope-loaded_S.0.0
-FreightImage[SW][0]=./images/6wheel-stanhope-loaded_SW.0.0
-FreightImage[W][0]=./images/6wheel-stanhope-loaded_W.0.0
-FreightImage[NW][0]=./images/6wheel-stanhope-loaded_NW.0.0
-FreightImage[N][0]=./images/6wheel-stanhope-loaded_N.0.0
-FreightImage[NE][0]=./images/6wheel-stanhope-loaded_NE.0.0
+FreightImage[E][0]=./carriages/6wheel-stanhope-loaded_E.0.0
+FreightImage[SE][0]=./carriages/6wheel-stanhope-loaded_SE.0.0
+FreightImage[S][0]=./carriages/6wheel-stanhope-loaded_S.0.0
+FreightImage[SW][0]=./carriages/6wheel-stanhope-loaded_SW.0.0
+FreightImage[W][0]=./carriages/6wheel-stanhope-loaded_W.0.0
+FreightImage[NW][0]=./carriages/6wheel-stanhope-loaded_NW.0.0
+FreightImage[N][0]=./carriages/6wheel-stanhope-loaded_N.0.0
+FreightImage[NE][0]=./carriages/6wheel-stanhope-loaded_NE.0.0
 
 ---
 
@@ -97,20 +97,20 @@ liverytype[0]=LMR-Standard
 #liverytype[3]=GNR-early
 #liverytype[4]=LSWR-early
 
-EmptyImage[E][0]=./images/6wheel-stanhope-brake_E.0.0
-EmptyImage[SE][0]=./images/6wheel-stanhope-brake_SE.0.0
-EmptyImage[S][0]=./images/6wheel-stanhope-brake_S.0.0
-EmptyImage[SW][0]=./images/6wheel-stanhope-brake_SW.0.0
-EmptyImage[W][0]=./images/6wheel-stanhope-brake_W.0.0
-EmptyImage[NW][0]=./images/6wheel-stanhope-brake_NW.0.0
-EmptyImage[N][0]=./images/6wheel-stanhope-brake_N.0.0
-EmptyImage[NE][0]=./images/6wheel-stanhope-brake_NE.0.0
+EmptyImage[E][0]=./carriages/6wheel-stanhope-brake_E.0.0
+EmptyImage[SE][0]=./carriages/6wheel-stanhope-brake_SE.0.0
+EmptyImage[S][0]=./carriages/6wheel-stanhope-brake_S.0.0
+EmptyImage[SW][0]=./carriages/6wheel-stanhope-brake_SW.0.0
+EmptyImage[W][0]=./carriages/6wheel-stanhope-brake_W.0.0
+EmptyImage[NW][0]=./carriages/6wheel-stanhope-brake_NW.0.0
+EmptyImage[N][0]=./carriages/6wheel-stanhope-brake_N.0.0
+EmptyImage[NE][0]=./carriages/6wheel-stanhope-brake_NE.0.0
 
-FreightImage[E][0]=./images/6wheel-stanhope-brake-loaded_E.0.0
-FreightImage[SE][0]=./images/6wheel-stanhope-brake-loaded_SE.0.0
-FreightImage[S][0]=./images/6wheel-stanhope-brake-loaded_S.0.0
-FreightImage[SW][0]=./images/6wheel-stanhope-brake-loaded_SW.0.0
-FreightImage[W][0]=./images/6wheel-stanhope-brake-loaded_W.0.0
-FreightImage[NW][0]=./images/6wheel-stanhope-brake-loaded_NW.0.0
-FreightImage[N][0]=./images/6wheel-stanhope-brake-loaded_N.0.0
-FreightImage[NE][0]=./images/6wheel-stanhope-brake-loaded_NE.0.0
+FreightImage[E][0]=./carriages/6wheel-stanhope-brake-loaded_E.0.0
+FreightImage[SE][0]=./carriages/6wheel-stanhope-brake-loaded_SE.0.0
+FreightImage[S][0]=./carriages/6wheel-stanhope-brake-loaded_S.0.0
+FreightImage[SW][0]=./carriages/6wheel-stanhope-brake-loaded_SW.0.0
+FreightImage[W][0]=./carriages/6wheel-stanhope-brake-loaded_W.0.0
+FreightImage[NW][0]=./carriages/6wheel-stanhope-brake-loaded_NW.0.0
+FreightImage[N][0]=./carriages/6wheel-stanhope-brake-loaded_N.0.0
+FreightImage[NE][0]=./carriages/6wheel-stanhope-brake-loaded_NE.0.0
