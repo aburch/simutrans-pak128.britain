@@ -659,6 +659,18 @@ maximum_intransit_percentage = 110
 minimum_staffing_percentage_consumer_industry = 66
 minimum_staffing_percentage_full_production_producer_industry = 80
 
+# This setting will connect every industry and attraction not in a town by road to the nearest town 
+# that it can reach whenever an industry or country attraction is built. The number specifies how far down
+# the rank order of nearest towns that the industry/attraction will try to connect to if it cannot
+# connect to the nearest town.
+# 
+# 0 = disabled
+# 1 = try to connect to the nearest town
+# 2 = try to connect to the nearest town, and, if unsuccessful, try to connect to the second nearest town
+# 3 = ...first, second, then third nearest town
+# ...etc.
+auto_connect_industries_and_attractions_by_road = 4
+
 ################################## Finance settings #################################
 
 # Starting money of the player. Given in Credit cents (1/100 Cr)
