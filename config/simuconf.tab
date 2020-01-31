@@ -576,6 +576,12 @@ standard_axle_load = 8
 
 citycar_way_wear_factor = 2
 
+# If this setting should be enabled, it will be possible to see
+# information about what will happen to certain vehicle types in 
+# the future, specifically, when they will stop being produced and
+# whether they will have any upgrades.
+show_future_vehicle_information = 1
+
 ################################## Industry settings #################################
 
 # allow all possible supplier to connect to your factories?
