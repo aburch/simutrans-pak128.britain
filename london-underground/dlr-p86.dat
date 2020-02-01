@@ -31,7 +31,7 @@ max_loading_time=40
 comfort[0]=0
 comfort[1]=54
 
-Constraint[Prev][0]=DLR-P86Front
+Constraint[Prev][0]=DLR-P86Rear
 Constraint[Prev][1]=none
 
 Constraint[Next][0]=DLR-P86Rear
@@ -82,7 +82,7 @@ comfort[1]=54
 
 Constraint[Prev][0]=DLR-P86Front
 
-Constraint[Next][0]=DLR-P86Rear
+Constraint[Next][0]=DLR-P86Front
 Constraint[Next][1]=none
 
 EmptyImage[E]=./images/dlr-p86.1.0
