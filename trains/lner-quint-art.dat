@@ -2,7 +2,7 @@
 
 obj=vehicle
 name=LNER-quint-art-a
-speed=105
+speed=160
 copyright=Jeremy
 #https://www.lner.info/forums/viewtopic.php?t=8089
 intro_year=1925
@@ -36,8 +36,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Next][0]=LNER-quint-art-b-1
 
@@ -76,7 +76,7 @@ EmptyImage[NE][2]=./carriages/lner-quintart-a-m_NE.0.0
 
 obj=vehicle
 name=LNER-quint-art-b-1
-speed=105
+speed=160
 copyright=Jeremy
 intro_year=1925
 intro_month=1
@@ -94,7 +94,7 @@ length=6
 comfort[0]=0
 comfort[1]=60
 comfort[2]=62
-comfort[2]=75
+comfort[3]=75
 
 weight=20
 axles=2
@@ -107,8 +107,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 
 Constraint[Prev][0]=LNER-quint-art-a
@@ -150,7 +150,7 @@ EmptyImage[NE][2]=./carriages/lner-quintart-b-m_NE.0.0
 
 obj=vehicle
 name=LNER-quint-art-b-2
-speed=105
+speed=160
 copyright=Jeremy
 intro_year=1925
 intro_month=1
@@ -168,7 +168,7 @@ length=6
 comfort[0]=0
 comfort[1]=60
 comfort[2]=62
-comfort[2]=75
+comfort[3]=75
 
 weight=24
 axles=2
@@ -181,8 +181,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 
 Constraint[Prev][0]=LNER-quint-art-b-1
@@ -224,7 +224,7 @@ EmptyImage[NE][2]=./carriages/lner-quintart-b-m_NE.0.0
 
 obj=vehicle
 name=LNER-quint-art-b-3
-speed=105
+speed=160
 copyright=Jeremy
 intro_year=1925
 intro_month=1
@@ -242,7 +242,7 @@ length=6
 comfort[0]=0
 comfort[1]=60
 comfort[2]=62
-comfort[2]=75
+comfort[3]=75
 
 weight=24
 axles=2
@@ -255,8 +255,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quint-art-b-2
 
@@ -297,7 +297,7 @@ EmptyImage[NE][2]=./carriages/lner-quintart-b-m_NE.0.0
 
 obj=vehicle
 name=LNER-quint-art-c
-speed=105
+speed=160
 copyright=Jeremy
 intro_year=1925
 intro_month=1
@@ -315,7 +315,7 @@ length=6
 comfort[0]=0
 comfort[1]=60
 comfort[2]=62
-comfort[2]=75
+comfort[3]=75
 
 weight=24
 axles=3
@@ -328,8 +328,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 Constraint[Prev][0]=LNER-quint-art-b-3
 
@@ -368,7 +368,7 @@ EmptyImage[NE][2]=./carriages/lner-quintart-c-m_NE.0.0
 
 obj=vehicle
 name=LNER-quint-art-d
-speed=105
+speed=160
 copyright=Jeremy
 intro_year=1925
 intro_month=1
@@ -386,7 +386,7 @@ length=6
 comfort[0]=0
 comfort[1]=60
 comfort[2]=62
-comfort[2]=75
+comfort[3]=75
 
 weight=24
 axles=3
@@ -399,8 +399,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 
 Constraint[Next][0]=LNER-quint-art-e-1
@@ -440,7 +440,7 @@ EmptyImage[NE][2]=./carriages/lner-quintart-d-m_NE.0.0
 
 obj=vehicle
 name=LNER-quint-art-e-1
-speed=105
+speed=160
 copyright=Jeremy
 intro_year=1925
 intro_month=1
@@ -458,7 +458,7 @@ length=6
 comfort[0]=0
 comfort[1]=60
 comfort[2]=62
-comfort[2]=75
+comfort[3]=75
 
 weight=20
 axles=2
@@ -471,8 +471,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 
 Constraint[Prev][0]=LNER-quint-art-d
@@ -513,7 +513,7 @@ EmptyImage[NE][2]=./carriages/lner-quintart-b-m_NE.0.0
 ----
 obj=vehicle
 name=LNER-quint-art-e-2
-speed=105
+speed=160
 copyright=Jeremy
 intro_year=1925
 intro_month=1
@@ -531,7 +531,7 @@ length=6
 comfort[0]=0
 comfort[1]=60
 comfort[2]=62
-comfort[2]=75
+comfort[3]=75
 
 weight=20
 axles=2
@@ -544,8 +544,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 
 Constraint[Prev][0]=LNER-quint-art-e-1
@@ -586,7 +586,7 @@ EmptyImage[NE][2]=./carriages/lner-quintart-b-m_NE.0.0
 ----
 obj=vehicle
 name=LNER-quint-art-e-3
-speed=105
+speed=160
 copyright=Jeremy
 intro_year=1925
 intro_month=1
@@ -604,7 +604,7 @@ length=6
 comfort[0]=0
 comfort[1]=60
 comfort[2]=62
-comfort[2]=75
+comfort[3]=75
 
 weight=20
 axles=2
@@ -617,8 +617,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 
 Constraint[Prev][0]=LNER-quint-art-e-2
@@ -660,7 +660,7 @@ EmptyImage[NE][2]=./carriages/lner-quintart-b-m_NE.0.0
 
 obj=vehicle
 name=LNER-quint-art-f
-speed=105
+speed=160
 copyright=Jeremy
 intro_year=1925
 intro_month=1
@@ -678,7 +678,7 @@ length=6
 comfort[0]=0
 comfort[1]=60
 comfort[2]=62
-comfort[2]=75
+comfort[3]=75
 
 weight=20
 axles=3
@@ -691,8 +691,8 @@ can_lead_from_rear=0
 bidirectional=1
 catering_level=0
 
-min_loading_time=18
-max_loading_time=64
+min_loading_time=10
+max_loading_time=30
 
 
 Constraint[Prev][0]=LNER-quint-art-e-3
