@@ -14,7 +14,7 @@ payload[0]=0
 payload[1]=80
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=18
+overcrowded_capacity=40
 length=8
 
 comfort[0]=0
@@ -101,7 +101,7 @@ payload[0]=0
 payload[1]=0
 payload[2]=80
 payload[3]=0
-overcrowded_capacity=18
+overcrowded_capacity=40
 length=8
 
 comfort[0]=0
@@ -188,7 +188,7 @@ payload[0]=0
 payload[1]=40
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=9
+overcrowded_capacity=20
 length=8
 
 comfort[0]=0
@@ -267,7 +267,7 @@ payload[0]=0
 payload[1]=40
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=9
+overcrowded_capacity=20
 length=8
 
 comfort[0]=0
@@ -347,7 +347,7 @@ payload[0]=0
 payload[1]=33
 payload[2]=0
 payload[3]=19
-overcrowded_capacity=12
+overcrowded_capacity=16
 length=8
 
 comfort[0]=0
@@ -606,10 +606,10 @@ retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=15
+payload[1]=30
 payload[2]=0
 payload[3]=32
-overcrowded_capacity=9
+overcrowded_capacity=15
 length=8
 
 comfort[0]=0
