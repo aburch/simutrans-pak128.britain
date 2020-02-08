@@ -47,14 +47,14 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-430[REP]Brake
 
-EmptyImage[E]=./railcars/br-430-a-bg.1.4
-EmptyImage[SE]=./railcars/br-430-a-bg.1.5
-EmptyImage[S]=./railcars/br-430-a-bg.1.6
-EmptyImage[SW]=./railcars/br-430-a-bg.1.7
-EmptyImage[W]=./railcars/br-430-a-bg.1.0
-EmptyImage[NW]=./railcars/br-430-a-bg.1.1
-EmptyImage[N]=./railcars/br-430-a-bg.1.2
-EmptyImage[NE]=./railcars/br-430-a-bg.1.3
+EmptyImage[E]=./railcars/br-430-a-bg_E.0.0
+EmptyImage[SE]=./railcars/br-430-a-bg_SE.0.0
+EmptyImage[S]=./railcars/br-430-a-bg_S.0.0
+EmptyImage[SW]=./railcars/br-430-a-bg_SW.0.0
+EmptyImage[W]=./railcars/br-430-a-bg_W.0.0
+EmptyImage[NW]=./railcars/br-430-a-bg_NW.0.0
+EmptyImage[N]=./railcars/br-430-a-bg_N.0.0
+EmptyImage[NE]=./railcars/br-430-a-bg_NE.0.0
 
 ---
 
@@ -95,14 +95,14 @@ Constraint[Prev][0]=BR-430[REP]Front
 Constraint[Next][0]=BR-430[REP]Middle
 Constraint[Next][1]=BR-430[REP]Buffet
 
-EmptyImage[E]=./railcars/br-421-mbso-bg.1.4
-EmptyImage[SE]=./railcars/br-421-mbso-bg.1.5
-EmptyImage[S]=./railcars/br-421-mbso-bg.1.6
-EmptyImage[SW]=./railcars/br-421-mbso-bg.1.7
-EmptyImage[W]=./railcars/br-421-mbso-bg.1.0
-EmptyImage[NW]=./railcars/br-421-mbso-bg.1.1
-EmptyImage[N]=./railcars/br-421-mbso-bg.1.2
-EmptyImage[NE]=./railcars/br-421-mbso-bg.1.3
+EmptyImage[E]=./railcars/br-421-mbso-bg_E.0.0
+EmptyImage[SE]=./railcars/br-421-mbso-bg_SE.0.0
+EmptyImage[S]=./railcars/br-421-mbso-bg_S.0.0
+EmptyImage[SW]=./railcars/br-421-mbso-bg_SW.0.0
+EmptyImage[W]=./railcars/br-421-mbso-bg_W.0.0
+EmptyImage[NW]=./railcars/br-421-mbso-bg_NW.0.0
+EmptyImage[N]=./railcars/br-421-mbso-bg_N.0.0
+EmptyImage[NE]=./railcars/br-421-mbso-bg_NE.0.0
 
 ---
 
@@ -145,14 +145,14 @@ Constraint[Prev][0]=BR-430[REP]Brake
 
 Constraint[Next][0]=BR-430[REP]Rear
 
-EmptyImage[E]=./carriages/br-mk1-sk-bg.1.4
-EmptyImage[SE]=./carriages/br-mk1-sk-bg.1.5
-EmptyImage[S]=./carriages/br-mk1-sk-bg.1.6
-EmptyImage[SW]=./carriages/br-mk1-sk-bg.1.7
-EmptyImage[W]=./carriages/br-mk1-sk-bg.1.0
-EmptyImage[NW]=./carriages/br-mk1-sk-bg.1.1
-EmptyImage[N]=./carriages/br-mk1-sk-bg.1.2
-EmptyImage[NE]=./carriages/br-mk1-sk-bg.1.3
+EmptyImage[E]=./carriages/br-mk1-sk-bg_E.0.0
+EmptyImage[SE]=./carriages/br-mk1-sk-bg_SE.0.0
+EmptyImage[S]=./carriages/br-mk1-sk-bg_S.0.0
+EmptyImage[SW]=./carriages/br-mk1-sk-bg_SW.0.0
+EmptyImage[W]=./carriages/br-mk1-sk-bg_W.0.0
+EmptyImage[NW]=./carriages/br-mk1-sk-bg_NW.0.0
+EmptyImage[N]=./carriages/br-mk1-sk-bg_N.0.0
+EmptyImage[NE]=./carriages/br-mk1-sk-bg_NE.0.0
 
 ---
 
@@ -195,14 +195,14 @@ Constraint[Prev][0]=BR-430[REP]Brake
 
 Constraint[Next][0]=BR-430[REP]Rear
 
-EmptyImage[E]=./carriages/br-mk1-rmb-bg.1.4
-EmptyImage[SE]=./carriages/br-mk1-rmb-bg.1.5
-EmptyImage[S]=./carriages/br-mk1-rmb-bg.1.6
-EmptyImage[SW]=./carriages/br-mk1-rmb-bg.1.7
-EmptyImage[W]=./carriages/br-mk1-rmb-bg.1.0
-EmptyImage[NW]=./carriages/br-mk1-rmb-bg.1.1
-EmptyImage[N]=./carriages/br-mk1-rmb-bg.1.2
-EmptyImage[NE]=./carriages/br-mk1-rmb-bg.1.3
+EmptyImage[E]=./carriages/br-mk1-rmb-bg_E.0.0
+EmptyImage[SE]=./carriages/br-mk1-rmb-bg_SE.0.0
+EmptyImage[S]=./carriages/br-mk1-rmb-bg_S.0.0
+EmptyImage[SW]=./carriages/br-mk1-rmb-bg_SW.0.0
+EmptyImage[W]=./carriages/br-mk1-rmb-bg_W.0.0
+EmptyImage[NW]=./carriages/br-mk1-rmb-bg_NW.0.0
+EmptyImage[N]=./carriages/br-mk1-rmb-bg_N.0.0
+EmptyImage[NE]=./carriages/br-mk1-rmb-bg_NE.0.0
 
 ---
 
@@ -256,11 +256,11 @@ Constraint[Next][0]=BR-430[REP]Front
 Constraint[Next][1]=BR-491[TC]Front
 Constraint[Next][2]=none
 
-EmptyImage[E]=./railcars/br-430-b-bg.1.4
-EmptyImage[SE]=./railcars/br-430-b-bg.1.5
-EmptyImage[S]=./railcars/br-430-b-bg.1.6
-EmptyImage[SW]=./railcars/br-430-b-bg.1.7
-EmptyImage[W]=./railcars/br-430-b-bg.1.0
-EmptyImage[NW]=./railcars/br-430-b-bg.1.1
-EmptyImage[N]=./railcars/br-430-b-bg.1.2
-EmptyImage[NE]=./railcars/br-430-b-bg.1.3
+EmptyImage[E]=./railcars/br-430-b-bg_E.0.0
+EmptyImage[SE]=./railcars/br-430-b-bg_SE.0.0
+EmptyImage[S]=./railcars/br-430-b-bg_S.0.0
+EmptyImage[SW]=./railcars/br-430-b-bg_SW.0.0
+EmptyImage[W]=./railcars/br-430-b-bg_W.0.0
+EmptyImage[NW]=./railcars/br-430-b-bg_NW.0.0
+EmptyImage[N]=./railcars/br-430-b-bg_N.0.0
+EmptyImage[NE]=./railcars/br-430-b-bg_NE.0.0
