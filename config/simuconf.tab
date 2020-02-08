@@ -916,6 +916,7 @@ town_road_speed_limit = 48
 # Default: 8
 # Setting to 0 means that all routes will be processed in
 # a step regardless of number.
+
 max_routes_to_process_in_a_step = 8
 
 # If the following setting is set to 1, private cars will assume
@@ -926,6 +927,7 @@ max_routes_to_process_in_a_step = 8
 # Enabling this might improve performance on slow systems.
 # 
 # Default: 0
+
 assume_everywhere_connected_by_road = 0
 
 ################################ Vehicle settings ##############################
