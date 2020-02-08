@@ -869,7 +869,7 @@ city_road[0]=dirt_road,1700,1780
 city_road[1]=cobblestone_road,1780,1910
 city_road[2]=tarmac_city_road,1910,1933
 city_road[3]=city_road,1933,1996
-city_road[4]=city_road-sma,1996,2200
+city_road[4]=city_road-sma,1997,2200
 
 # Intercity roads timeline. Format examples: 
 # intercity_road[0]=name,1900,1920
@@ -882,7 +882,7 @@ intercity_road[3]=tarmac_road,1902,1925
 intercity_road[4]=tarmac_city_road,1925,1933
 intercity_road[5]=hr-asphalt-road-light,1933,1938
 intercity_road[6]=hr-asphalt-road-medium,1938,1996
-intercity_road[7]=sma-road-medium,1996,2300
+intercity_road[7]=sma-road-medium,1997,2300
 
 # Max. length of intitial intercity road connections
 # If you want to speed up map creation, lower this value
