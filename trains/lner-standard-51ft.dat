@@ -19,8 +19,8 @@ length=8
 
 comfort[0]=0
 comfort[1]=80
-comfort[2]=90
-comfort[3]=100
+comfort[2]=82
+comfort[3]=98
 
 #29T
 weight=32.5
@@ -106,8 +106,8 @@ length=8
 
 comfort[0]=0
 comfort[1]=80
-comfort[2]=90
-comfort[3]=100
+comfort[2]=82
+comfort[3]=98
 
 #29T
 weight=32.5
@@ -193,8 +193,8 @@ length=8
 
 comfort[0]=0
 comfort[1]=80
-comfort[2]=90
-comfort[3]=100
+comfort[2]=82
+comfort[3]=98
 
 #29T
 weight=32.5
@@ -211,8 +211,7 @@ Constraint[Prev][4]=LNER-standard-51ft-cl
 Constraint[Prev][5]=LNER-standard-51ft-f
 Constraint[Prev][6]=LNER-standard-51ft-f2
 Constraint[Prev][7]=LNER-standard-51ft-com
-Constraint[Prev][8]=none
-
+    
 can_lead_from_rear=0
 bidirectional=1
 catering_level=0
@@ -272,8 +271,8 @@ length=8
 
 comfort[0]=0
 comfort[1]=80
-comfort[2]=90
-comfort[3]=100
+comfort[2]=82
+comfort[3]=98
 
 #29T
 weight=32.5
@@ -435,13 +434,13 @@ payload[0]=0
 payload[1]=0
 payload[2]=0
 payload[3]=56
-overcrowded_capacity=12
+overcrowded_capacity=0
 length=8
 
 comfort[0]=0
 comfort[1]=80
-comfort[2]=90
-comfort[3]=100
+comfort[2]=82
+comfort[3]=98
 
 #29T
 weight=32.5
@@ -522,13 +521,14 @@ payload[0]=0
 payload[1]=0
 payload[2]=0
 payload[3]=70
-overcrowded_capacity=12
+overcrowded_capacity=0
 length=8
 
 comfort[0]=0
 comfort[1]=80
-comfort[2]=90
-comfort[3]=95
+comfort[2]=82
+comfort[3]=94
+
 
 #29T
 weight=32.5
@@ -614,8 +614,8 @@ length=8
 
 comfort[0]=0
 comfort[1]=80
-comfort[2]=90
-comfort[3]=100
+comfort[2]=82
+comfort[3]=98
 
 #29T
 weight=32.5
