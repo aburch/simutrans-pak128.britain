@@ -45,6 +45,7 @@ Constraint[Prev][1]=BR-375-6Rear
 Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-375Middle
+Constraint[Next][1]=BR-375Panto
 
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
@@ -93,9 +94,9 @@ rolling_resistance=13
 
 weight=40
 axles=4
-cost=1512000
+cost=1008000
 runningcost=0
-fixed_cost=3150
+fixed_cost=1260
 
 min_loading_time=17
 max_loading_time=60
@@ -111,6 +112,7 @@ way_constraint_permissive[0]=0
 upgrade[0]=BR-375-6Panto
 
 Constraint[Prev][0]=BR-375Middle
+Constraint[Prev][1]=BR-375Front
 
 Constraint[Next][0]=BR-375Rear
 
@@ -163,7 +165,7 @@ brake_force=30
 weight=40
 cost=1512000
 runningcost=75
-fixed_cost=1260
+fixed_cost=3150
 
 min_loading_time=17
 max_loading_time=60
@@ -179,8 +181,7 @@ upgrade[0]=BR-375-6Middle
 
 Constraint[Prev][0]=BR-375Front
 
-Constraint[Next][0]=BR-375Rear
-Constraint[Next][1]=BR-375Panto
+Constraint[Next][0]=BR-375Panto
 
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
@@ -230,7 +231,7 @@ rolling_resistance=13
 
 weight=46
 axles=4
-cost=1008000
+cost=1512000
 runningcost=75
 fixed_cost=6840
 sound=panos-g-class-375.wav
@@ -247,8 +248,7 @@ bidirectional=0
 way_constraint_permissive[0]=0
 upgrade[0]=BR-375-6Rear
 
-Constraint[Prev][0]=BR-375Middle
-Constraint[Prev][1]=BR-375Panto
+Constraint[Prev][0]=BR-375Panto
 
 Constraint[Next][0]=BR-375Front
 Constraint[Next][1]=BR-375-6Front
