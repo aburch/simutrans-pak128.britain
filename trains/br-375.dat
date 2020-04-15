@@ -76,6 +76,7 @@ engine_type=electric
 speed=160
 power=0
 tractive_effort=0
+gear=80
 copyright=Kieron
 intro_year=2001
 intro_month=4
@@ -163,6 +164,7 @@ length=11
 brake_force=30
 
 weight=40
+axles=4
 cost=1512000
 runningcost=75
 fixed_cost=3150
