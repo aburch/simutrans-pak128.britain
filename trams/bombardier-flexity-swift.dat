@@ -4,7 +4,9 @@ engine_type=electric
 speed=80
 gear=80
 power=240
-tractive_effort=42
+# tractive effort calculated from acceleration, brake_force just guessed to be the same
+# https://en.wikipedia.org/wiki/Bombardier_CR4000
+tractive_effort=23
 copyright=Kieron
 intro_year=1998
 intro_month=3
@@ -13,7 +15,7 @@ intro_month=3
 waytype=tram_track
 freight=Passagiere
 payload=35
-length=9
+#length=9	# length reduced to fit on one tile
 # http://en.wikipedia.org/wiki/CR4000
 overcrowded_capacity=69
 weight=18.2
@@ -74,7 +76,7 @@ engine_type=electric
 speed=80
 gear=80
 power=240
-tractive_effort=42
+tractive_effort=23
 copyright=Kieron
 intro_year=1998
 intro_month=3
@@ -83,7 +85,7 @@ intro_month=3
 waytype=tram_track
 freight=Passagiere
 payload=35
-length=7
+#length=9	# length reduced to fit on one tile
 # http://en.wikipedia.org/wiki/CR4000
 overcrowded_capacity=69
 weight=18.2
@@ -109,32 +111,33 @@ liverytype[0]=Tramlink-red
 liverytype[1]=Tramlink-green
 liverytype[2]=Metrolink-yellow
 
-EmptyImage[E][0]=./images/flexity-swift-croydon-red-rear.1.4
-EmptyImage[SE][0]=./images/flexity-swift-croydon-red-rear.1.5
-EmptyImage[S][0]=./images/flexity-swift-croydon-red-rear.1.6
-EmptyImage[SW][0]=./images/flexity-swift-croydon-red-rear.1.7
-EmptyImage[W][0]=./images/flexity-swift-croydon-red-rear.1.0
-EmptyImage[NW][0]=./images/flexity-swift-croydon-red-rear.1.1
-EmptyImage[N][0]=./images/flexity-swift-croydon-red-rear.1.2
-EmptyImage[NE][0]=./images/flexity-swift-croydon-red-rear.1.3
+# offsets to fix appearance of rear car
+EmptyImage[E][0]=./images/flexity-swift-croydon-red-rear.1.4,-4,-2
+EmptyImage[SE][0]=./images/flexity-swift-croydon-red-rear.1.5,0,-2
+EmptyImage[S][0]=./images/flexity-swift-croydon-red-rear.1.6,4,-2
+EmptyImage[SW][0]=./images/flexity-swift-croydon-red-rear.1.7,4,0
+EmptyImage[W][0]=./images/flexity-swift-croydon-red-rear.1.0,4,2
+EmptyImage[NW][0]=./images/flexity-swift-croydon-red-rear.1.1,0,2
+EmptyImage[N][0]=./images/flexity-swift-croydon-red-rear.1.2,-4,2
+EmptyImage[NE][0]=./images/flexity-swift-croydon-red-rear.1.3,-4,0
 
-EmptyImage[E][1]=./images/flexity-swift-croydon-green-rear.1.4
-EmptyImage[SE][1]=./images/flexity-swift-croydon-green-rear.1.5
-EmptyImage[S][1]=./images/flexity-swift-croydon-green-rear.1.6
-EmptyImage[SW][1]=./images/flexity-swift-croydon-green-rear.1.7
-EmptyImage[W][1]=./images/flexity-swift-croydon-green-rear.1.0
-EmptyImage[NW][1]=./images/flexity-swift-croydon-green-rear.1.1
-EmptyImage[N][1]=./images/flexity-swift-croydon-green-rear.1.2
-EmptyImage[NE][1]=./images/flexity-swift-croydon-green-rear.1.3
+EmptyImage[E][1]=./images/flexity-swift-croydon-green-rear.1.4,-4,-2
+EmptyImage[SE][1]=./images/flexity-swift-croydon-green-rear.1.5,0,-2
+EmptyImage[S][1]=./images/flexity-swift-croydon-green-rear.1.6,4,-2
+EmptyImage[SW][1]=./images/flexity-swift-croydon-green-rear.1.7,4,0
+EmptyImage[W][1]=./images/flexity-swift-croydon-green-rear.1.0,4,2
+EmptyImage[NW][1]=./images/flexity-swift-croydon-green-rear.1.1,0,2
+EmptyImage[N][1]=./images/flexity-swift-croydon-green-rear.1.2,-4,2
+EmptyImage[NE][1]=./images/flexity-swift-croydon-green-rear.1.3,-4,0
 
-EmptyImage[E][2]=./images/flexity-swift-metrolink-rear.1.4
-EmptyImage[SE][2]=./images/flexity-swift-metrolink-rear.1.5
-EmptyImage[S][2]=./images/flexity-swift-metrolink-rear.1.6
-EmptyImage[SW][2]=./images/flexity-swift-metrolink-rear.1.7
-EmptyImage[W][2]=./images/flexity-swift-metrolink-rear.1.0
-EmptyImage[NW][2]=./images/flexity-swift-metrolink-rear.1.1
-EmptyImage[N][2]=./images/flexity-swift-metrolink-rear.1.2
-EmptyImage[NE][2]=./images/flexity-swift-metrolink-rear.1.3
+EmptyImage[E][2]=./images/flexity-swift-metrolink-rear.1.4,-4,-2
+EmptyImage[SE][2]=./images/flexity-swift-metrolink-rear.1.5,0,-2
+EmptyImage[S][2]=./images/flexity-swift-metrolink-rear.1.6,4,-2
+EmptyImage[SW][2]=./images/flexity-swift-metrolink-rear.1.7,4,0
+EmptyImage[W][2]=./images/flexity-swift-metrolink-rear.1.0,4,2
+EmptyImage[NW][2]=./images/flexity-swift-metrolink-rear.1.1,0,2
+EmptyImage[N][2]=./images/flexity-swift-metrolink-rear.1.2,-4,2
+EmptyImage[NE][2]=./images/flexity-swift-metrolink-rear.1.3,-4,0
 
 
 
