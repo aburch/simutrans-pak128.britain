@@ -2,6 +2,11 @@ obj=vehicle
 name=Sheffield-Supertram(Middle)
 engine_type=electric
 speed=80
+gear=80
+# http://en.wikipedia.org/wiki/Siemens-Duewag_Supertram
+# tractive and break force are guessed
+power=554
+tractive_effort=80
 copyright=James
 intro_year=1992
 intro_month=12
@@ -12,11 +17,11 @@ freight=Passagiere
 payload=22
 length=6
 overcrowded_capacity=51
-weight=15.5
-brake_force=20
+weight=22.5
+brake_force=32
 axles=4
 cost=0
-runningcost=0
+runningcost=54
 fixed_cost=0
 
 

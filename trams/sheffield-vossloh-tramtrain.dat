@@ -1,11 +1,13 @@
 obj=vehicle
 name=Sheffield-VosslohTramtrain(Front)
 engine_type=electric
-speed=110
+speed=100
 gear=80
 # https://en.wikipedia.org/wiki/British_Rail_Class_399
-power=554
-tractive_effort=55
+# Tractive and brake forces calculated from acceleration
+power=290
+tractive_effort=25
+brake_force=20
 copyright=James
 intro_year=2016
 intro_month=12
@@ -13,13 +15,13 @@ intro_month=12
 #retire_month=10
 waytype=tram_track
 freight=Passagiere
-payload=80
+payload=33
 length=7
 overcrowded_capacity=52
 weight=15.5
-axles=4
+axles=2
 cost=580000
-runningcost=111
+runningcost=29
 fixed_cost=6483
 sound=zabuhailo-modern-tram.wav
 
@@ -48,7 +50,12 @@ EmptyImage[NE]=./images/sheffield-vossloh-tramtrain-front.1.3
 obj=vehicle
 name=Sheffield-VosslohTramtrain(Middle)
 engine_type=electric
-speed=110
+speed=100
+gear=80
+# https://en.wikipedia.org/wiki/British_Rail_Class_399
+power=290
+tractive_effort=25
+brake_force=40
 copyright=James
 intro_year=2016
 intro_month=12
@@ -56,13 +63,13 @@ intro_month=12
 #retire_month=10
 waytype=tram_track
 freight=Passagiere
-payload=80
+payload=22
 length=6
 overcrowded_capacity=51
-weight=15.5
+weight=31
 axles=4
 cost=0
-runningcost=0
+runningcost=29
 fixed_cost=0
 
 
@@ -88,11 +95,12 @@ EmptyImage[NE]=./images/sheffield-vossloh-tramtrain-middle.1.3
 obj=vehicle
 name=Sheffield-VosslohTramtrain(Rear)
 engine_type=electric
-speed=110
+speed=100
 gear=80
 # https://en.wikipedia.org/wiki/British_Rail_Class_399
-power=554
-tractive_effort=55
+power=290
+tractive_effort=25
+brake_force=20
 copyright=James
 intro_year=2016
 intro_month=12
@@ -100,13 +108,13 @@ intro_month=12
 #retire_month=10
 waytype=tram_track
 freight=Passagiere
-payload=80
+payload=33
 length=7
 overcrowded_capacity=52
 weight=15.5
-axles=4
+axles=2
 cost=0
-runningcost=111
+runningcost=29
 fixed_cost=6000
 
 
