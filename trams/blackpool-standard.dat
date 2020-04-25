@@ -5,7 +5,10 @@ speed=32
 gear=80
 # According to this web page: http://www.flickr.com/photos/ingythewingy/6348843530/
 # these use 2x. 35hp motors. 70hp = 52kW
-power=52
+# According to http://blackpool-trams.yolasite.com/standard-trams.php
+# these used the same controller as conteporary pantograph cars
+# conteporary pantograph and boat cars had 2x 40 HP = 60 kW
+power=60
 tractive_effort=35
 copyright=James
 intro_year=1923
@@ -21,7 +24,7 @@ is_tall=1
 weight=17.5
 axles=4
 cost=415000
-runningcost=21
+runningcost=24
 fixed_cost=6346
 sound=tom-tait-tram.wav
 
