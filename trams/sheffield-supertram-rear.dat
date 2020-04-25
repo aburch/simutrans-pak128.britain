@@ -4,7 +4,7 @@ engine_type=electric
 speed=80
 gear=80
 # http://en.wikipedia.org/wiki/Siemens-Duewag_Supertram
-power=554
+power=277
 tractive_effort=40
 copyright=James
 intro_year=1992
@@ -16,11 +16,11 @@ freight=Passagiere
 payload=32
 length=5
 overcrowded_capacity=52
-weight=15.5
-brake_force=20
-axles=4
+weight=12
+brake_force=16
+axles=2
 cost=0
-runningcost=55
+runningcost=27
 fixed_cost=6000
 
 can_lead_from_rear=1
