@@ -6,7 +6,7 @@ gear=80
 # https://en.wikipedia.org/wiki/British_Rail_Class_399
 # Tractive and brake forces calculated from acceleration
 power=290
-tractive_effort=25
+tractive_effort=32
 brake_force=20
 copyright=James
 intro_year=2016
@@ -27,7 +27,8 @@ sound=zabuhailo-modern-tram.wav
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_prohibitive[0]=0
+# dual voltage
+#way_constraint_prohibitive[0]=0
 comfort=44
 min_loading_time=15
 max_loading_time=40
@@ -54,7 +55,7 @@ speed=100
 gear=80
 # https://en.wikipedia.org/wiki/British_Rail_Class_399
 power=290
-tractive_effort=25
+tractive_effort=32
 brake_force=40
 copyright=James
 intro_year=2016
@@ -75,7 +76,7 @@ fixed_cost=0
 
 can_lead_from_rear=0
 bidirectional=1
-way_constraint_prohibitive[0]=0
+#way_constraint_prohibitive[0]=0
 comfort=44
 min_loading_time=15
 max_loading_time=40
@@ -99,7 +100,7 @@ speed=100
 gear=80
 # https://en.wikipedia.org/wiki/British_Rail_Class_399
 power=290
-tractive_effort=25
+tractive_effort=32
 brake_force=20
 copyright=James
 intro_year=2016
@@ -120,7 +121,7 @@ fixed_cost=6000
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_prohibitive[0]=0
+#way_constraint_prohibitive[0]=0
 comfort=44
 min_loading_time=15
 max_loading_time=40
