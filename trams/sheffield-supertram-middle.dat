@@ -4,7 +4,7 @@ engine_type=electric
 speed=80
 gear=80
 # http://en.wikipedia.org/wiki/Siemens-Duewag_Supertram
-# tractive and break force are guessed
+# tractive and brake force are guessed
 power=554
 tractive_effort=80
 copyright=James
@@ -23,7 +23,6 @@ axles=4
 cost=0
 runningcost=54
 fixed_cost=0
-
 
 can_lead_from_rear=0
 bidirectional=1
