@@ -43,7 +43,8 @@ max_loading_time=40
 Constraint[Prev][0]=Metrolink-T86(Front)
 
 Constraint[Next][0]=Metrolink-T86(Front)
-Constraint[Next][1]=none
+Constraint[Next][1]=Metrolink-T68A(Front)
+Constraint[Next][2]=none
 
 EmptyImage[E]=./images/metrolink-t68-rear.1.4
 EmptyImage[SE]=./images/metrolink-t68-rear.1.5
@@ -86,7 +87,7 @@ weight=24
 brake_force=32
 axles=3
 cost=0
-runningcost=21
+runningcost=24
 fixed_cost=6000
 
 
@@ -101,7 +102,8 @@ max_loading_time=40
 Constraint[Prev][0]=Metrolink-T68A(Front)
 
 Constraint[Next][0]=Metrolink-T68A(Front)
-Constraint[Next][1]=none
+Constraint[Next][1]=Metrolink-T86(Front)
+Constraint[Next][2]=none
 
 EmptyImage[E]=./images/metrolink-t68-rear.1.4
 EmptyImage[SE]=./images/metrolink-t68-rear.1.5

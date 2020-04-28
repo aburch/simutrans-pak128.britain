@@ -39,7 +39,8 @@ min_loading_time=15
 max_loading_time=40
 
 Constraint[Prev][0]=Metrolink-T86(Rear)
-Constraint[Prev][1]=none
+Constraint[Prev][1]=Metrolink-T68A(Rear)
+Constraint[Prev][2]=none
 
 Constraint[Next][0]=Metrolink-T86(Rear)
 
@@ -82,8 +83,8 @@ weight=24
 brake_force=32
 axles=3
 cost=800000
-runningcost=21
-fixed_cost=6667
+runningcost=24
+fixed_cost=6577
 sound=zabuhailo-modern-tram.wav
 
 can_lead_from_rear=1
@@ -95,7 +96,8 @@ min_loading_time=15
 max_loading_time=40
 
 Constraint[Prev][0]=Metrolink-T68A(Rear)
-Constraint[Prev][1]=none
+Constraint[Prev][1]=Metrolink-T86(Rear)
+Constraint[Prev][2]=none
 
 Constraint[Next][0]=Metrolink-T68A(Rear)
 
