@@ -5,7 +5,7 @@ speed=100
 gear=80
 # https://en.wikipedia.org/wiki/British_Rail_Class_399
 # Tractive and brake forces calculated from acceleration
-# 4 doors
+# 4 doors, total weight 66t
 power=290
 tractive_effort=32
 brake_force=20
@@ -18,8 +18,8 @@ waytype=tram_track
 freight=Passagiere
 payload=22
 length=7
-overcrowded_capacity=64
-weight=15.5
+overcrowded_capacity=63
+weight=16,5
 axles=2
 cost=580000
 runningcost=29
@@ -67,7 +67,7 @@ freight=Passagiere
 payload=44
 length=6
 overcrowded_capacity=14
-weight=31
+weight=33
 axles=4
 cost=0
 runningcost=29
@@ -111,8 +111,8 @@ waytype=tram_track
 freight=Passagiere
 payload=22
 length=7
-overcrowded_capacity=64
-weight=15.5
+overcrowded_capacity=63
+weight=16,5
 axles=2
 cost=0
 runningcost=29
