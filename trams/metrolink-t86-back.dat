@@ -8,12 +8,14 @@ power=210
 tractive_effort=40
 copyright=James
 # T-68 delivered 1991-1992
+# Service started 6th April 1992
 # T-68A delivered 1999
 # refurbished 2008
-# 2009 new Bombardier M5000 (flexity swift)
-# Withdrawal 2012-2014
+# 13th  July 2009 new Bombardier M5000 (flexity swift)
+# Withdrawal T68 10 February 2014
+# Withdrawal T68A 30 April 2014
 intro_year=1992
-intro_month=1
+intro_month=4
 retire_year=1999
 retire_month=1
 waytype=tram_track
@@ -66,15 +68,10 @@ gear=80
 power=240
 tractive_effort=40
 copyright=James
-# T-68 delivered 1991-1992
-# T-68A delivered 1999
-# refurbished 2008
-# 2009 new Bombardier M5000 (flexity swift)
-# Withdrawal 2012-2014
 intro_year=1999
 intro_month=1
 retire_year=2009
-retire_month=1
+retire_month=7
 waytype=tram_track
 freight=Passagiere
 # http://en.wikipedia.org/wiki/T-68

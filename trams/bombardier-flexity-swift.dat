@@ -6,10 +6,15 @@ gear=80
 power=240
 # tractive effort calculated from acceleration, brake_force just guessed to be the same
 # https://en.wikipedia.org/wiki/Bombardier_CR4000
+# First delivery 13 September 1998 (Croydon)
+# Passenger service since 10 May 2000
+# https://en.wikipedia.org/wiki/Bombardier_M5000
+# First delivery 13 July 2009 (Manchester)
+# Passenger service since 21 December 2009
 tractive_effort=29
 copyright=Kieron
 intro_year=1998
-intro_month=3
+intro_month=9
 # These are still in production as of 2014:
 # http://en.wikipedia.org/wiki/Flexity_Swift
 waytype=tram_track
@@ -79,7 +84,7 @@ power=240
 tractive_effort=29
 copyright=Kieron
 intro_year=1998
-intro_month=3
+intro_month=9
 # These are still in production as of 2014:
 # http://en.wikipedia.org/wiki/Flexity_Swift
 waytype=tram_track
