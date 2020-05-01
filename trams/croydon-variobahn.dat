@@ -4,20 +4,26 @@ engine_type=electric
 speed=80
 power=180
 gear=80
-tractive_effort=54
+# tractive effort and braking based on bombardier incentro (same power, similar weight)
+tractive_effort=29
 copyright=James/jamespetts
+# delivered to Croydon on 24 January 2012 and 
+# carried its first passengers on 30 March 2012.
+# length 32.37 m, 72 seats, 134 standing, 8x45 kW, 80 km/h (wikipedia)
+# Croydon: 6 trams for 16.3 million GBP (2.7 a piece)
+# 4 doors (should have higher loading time than incentro)
 intro_year=2012
 intro_month=3
 waytype=tram_track
 freight=Passagiere
-payload=16
+payload=14
 length=4
-overcrowded_capacity=27
-weight=9
-brake_force=12
-axles=5
+overcrowded_capacity=25
+weight=14
+brake_force=18
+axles=2
 cost=620000
-runningcost=36
+runningcost=18
 fixed_cost=6517
 sound=zabuhailo-modern-tram.wav
 
@@ -52,13 +58,13 @@ intro_year=2012
 intro_month=3
 waytype=tram_track
 freight=Passagiere
-payload=14
+payload=16
 length=4
-overcrowded_capacity=27
-weight=8
-brake_force=10
-axles=5
-cost=620000
+overcrowded_capacity=32
+weight=0
+brake_force=0
+#axles=0
+cost=0
 runningcost=0
 fixed_cost=1292
 
@@ -94,13 +100,13 @@ intro_year=2012
 intro_month=3
 waytype=tram_track
 freight=Passagiere
-payload=14
+payload=16
 length=4
-overcrowded_capacity=27
-weight=8
-brake_force=10
-axles=5
-cost=620000
+overcrowded_capacity=32
+weight=0
+brake_force=0
+#axles=0
+cost=0
 runningcost=0
 fixed_cost=1292
 
@@ -114,8 +120,7 @@ min_loading_time=10
 max_loading_time=45
 
 Constraint[Prev][0]=Croydon-Variobahn-panto
-Constraint[Next][0]=Croydon-Variobahn-panto
-Constraint[Next][1]=Croydon-Variobahn-rear
+Constraint[Next][0]=Croydon-Variobahn-rear
 
 EmptyImage[E]=./images/croydon-variobahn-middle2.1.4
 EmptyImage[SE]=./images/croydon-variobahn-middle2.1.5
@@ -135,19 +140,16 @@ speed=80
 copyright=James/jamespetts
 intro_year=2012
 intro_month=3
-gear=80
-power=160
-tractive_effort=24
 waytype=tram_track
 freight=Passagiere
-payload=14
+payload=12
 length=2
-overcrowded_capacity=27
-weight=6
-brake_force=8
-axles=5
-cost=620000
-runningcost=32
+overcrowded_capacity=20
+weight=14
+brake_force=19
+axles=2
+cost=0
+runningcost=0
 fixed_cost=517
 
 
@@ -160,7 +162,6 @@ min_loading_time=10
 max_loading_time=45
 
 Constraint[Prev][0]=Croydon-Variobahn-middle1
-Constraint[Prev][1]=Croydon-Variobahn-middle2
 Constraint[Next][0]=Croydon-Variobahn-middle2
 
 EmptyImage[E]=./images/croydon-variobahn-panto.1.4
@@ -180,20 +181,20 @@ engine_type=electric
 speed=80
 power=180
 gear=80
-tractive_effort=54
+tractive_effort=29
 copyright=James/jamespetts
 intro_year=2012
 intro_month=3
 waytype=tram_track
 freight=Passagiere
-payload=16
-length=2
-overcrowded_capacity=27
-weight=9
-brake_force=12
-axles=5
+payload=14
+length=4
+overcrowded_capacity=25
+weight=14
+brake_force=18
+axles=2
 cost=0
-runningcost=36
+runningcost=18
 fixed_cost=6000
 
 
