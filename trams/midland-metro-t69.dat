@@ -1,24 +1,27 @@
 # http://en.wikipedia.org/wiki/Midland_Metro_rolling_stock
-# Tractive and braking force set to same values as T68
+# Tractive and braking force set to same acceleration as T68, but T69 is lighter
+# Constructed 1996 - 1999, Line oopen 30 May 1999
+# Intro in service 1999, last withdrawn 8/2015
+# Replacement CAF Urbos3 intro in service 9/2014
 obj=vehicle
 name=MidlandMetroT69Front
 engine_type=electric
 speed=70
 power=210
 gear=80
-tractive_effort=32
+tractive_effort=31
 copyright=James
 intro_year=1996
 intro_month=4
-retire_year=2000
-retire_month=1
+retire_year=2014
+retire_month=9
 waytype=tram_track
 freight=Passagiere
 payload=28
 length=7
 overcrowded_capacity=50
-weight=18.2
-brake_force=32
+weight=19
+brake_force=25
 axles=3
 cost=587500
 runningcost=21
@@ -66,19 +69,19 @@ engine_type=electric
 speed=70
 power=210
 gear=80
-tractive_effort=32
+tractive_effort=31
 copyright=James
 intro_year=1996
 intro_month=4
-retire_year=2000
-retire_month=1
+retire_year=2014
+retire_month=9
 waytype=tram_track
 freight=Passagiere
 payload=28
 length=7
-overcrowded_capacity=52
-weight=18.2
-brake_force=32
+overcrowded_capacity=50
+weight=19
+brake_force=25
 axles=3
 cost=0
 runningcost=21

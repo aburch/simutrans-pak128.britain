@@ -6,10 +6,15 @@ gear=80
 power=240
 # tractive effort calculated from acceleration, brake_force just guessed to be the same
 # https://en.wikipedia.org/wiki/Bombardier_CR4000
-tractive_effort=23
+# First delivery 13 September 1998 (Croydon)
+# Passenger service since 10 May 2000
+# https://en.wikipedia.org/wiki/Bombardier_M5000
+# First delivery 13 July 2009 (Manchester)
+# Passenger service since 21 December 2009
+tractive_effort=30
 copyright=Kieron
 intro_year=1998
-intro_month=3
+intro_month=9
 # These are still in production as of 2014:
 # http://en.wikipedia.org/wiki/Flexity_Swift
 waytype=tram_track
@@ -18,8 +23,9 @@ payload=35
 #length=9	# length reduced to fit on one tile
 # http://en.wikipedia.org/wiki/CR4000
 overcrowded_capacity=69
+# CR4000 total weight 36.3 t, M5000 total weight 39.7 t
 weight=18.2
-brake_force=23
+brake_force=24
 axles=3
 cost=587500
 runningcost=24
@@ -76,10 +82,10 @@ engine_type=electric
 speed=80
 gear=80
 power=240
-tractive_effort=23
+tractive_effort=30
 copyright=Kieron
 intro_year=1998
-intro_month=3
+intro_month=9
 # These are still in production as of 2014:
 # http://en.wikipedia.org/wiki/Flexity_Swift
 waytype=tram_track
@@ -89,7 +95,7 @@ payload=35
 # http://en.wikipedia.org/wiki/CR4000
 overcrowded_capacity=69
 weight=18.2
-brake_force=23
+brake_force=24
 axles=3
 cost=0
 runningcost=24
