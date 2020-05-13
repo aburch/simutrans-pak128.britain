@@ -32,7 +32,9 @@ range=100
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
-Constraint[Next][0]=none
+
+Constraint[Next][0]=ferry-mail
+Constraint[Next][1]=none
 
 EmptyImage[E]=./images/BHT-130.1.0
 EmptyImage[SE]=./images/BHT-130.1.1
@@ -42,4 +44,3 @@ EmptyImage[W]=./images/BHT-130.1.4
 EmptyImage[NW]=./images/BHT-130.1.5
 EmptyImage[N]=./images/BHT-130.1.6
 EmptyImage[NE]=./images/BHT-130.1.7
----
