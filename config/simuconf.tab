@@ -410,7 +410,7 @@ seperate_halt_capacities = 1
 # other cities when the map is first generated. The higher the number, the further
 # away from each other that the cities are built.
 
-city_isolation_factor = 48
+city_isolation_factor = 96
 
 # Minimum distance of a city attraction to other special buildings
 special_building_distance = 2
