@@ -331,14 +331,14 @@ cursor=rail-tunnel-concrete.1.2
 -------------------------------
 Obj=tunnel
 Name=LightRailTunnelConcrete
-copyright=James
+copyright=James, Freahk
 waytype=track
 cost=2000000
 maintenance=2500
 topspeed=100
-max_weight=11
-intro_year=1965
-intro_month=8
+max_weight=22
+intro_year=1980
+intro_month=1
 
 way_constraint_prohibitive[2]=2
 
