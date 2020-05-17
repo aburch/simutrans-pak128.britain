@@ -1,3 +1,10 @@
+# See http://www.districtdavesforum.co.uk/thread/22284/378-fifth-car
+# tractive effort 44kN per powered vehicle
+# https://eversholtrail.co.uk/fleet/class-375/
+# Acceleration 0.62 m/s^2 which equals to 44.43 kN
+# probably should be divided by gear
+# Still in service refurbishment April 2015 - 2018
+# https://en.wikipedia.org/wiki/Bombardier_Electrostar endo of production Nov 2017
 obj=vehicle
 name=BR-375Front
 engine_type=electric
@@ -8,14 +15,14 @@ gear=80
 copyright=Kieron
 intro_year=2001
 intro_month=4
-retire_year=2015
-retire_month=1
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=48
 payload[2]=0
-payload[3]=12
+payload[3]=10
 overcrowded_capacity=46
 length=12
 brake_force=35
@@ -80,12 +87,12 @@ gear=80
 copyright=Kieron
 intro_year=2001
 intro_month=4
-retire_year=2015
-retire_month=1
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=66
+payload[1]=60
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=50
@@ -145,18 +152,17 @@ name=BR-375Middle
 engine_type=electric
 speed=160
 power=500
-# See http://www.districtdavesforum.co.uk/thread/22284/378-fifth-car
 tractive_effort=44
 gear=80
 copyright=Kieron
 intro_year=2001
 intro_month=4
-retire_year=2015
-retire_month=1
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=66
+payload[1]=60
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=50
@@ -218,14 +224,14 @@ gear=80
 copyright=Kieron
 intro_year=2001
 intro_month=4
-retire_year=2015
-retire_month=1
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=48
 payload[2]=0
-payload[3]=12
+payload[3]=10
 overcrowded_capacity=46
 length=12
 brake_force=35
