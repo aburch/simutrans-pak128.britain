@@ -1,3 +1,5 @@
+# This is practically the same as class 377, difference only in coupling.
+# Class 375/3 was renumbered to 377/3 after changing the couplers.
 obj=vehicle
 name=BR-375-6Front
 engine_type=electric
@@ -26,7 +28,7 @@ axles=4
 cost=1852000
 upgrade_price=89610
 runningcost=75
-fixed_cost=6840
+fixed_cost=7260
 sound=panos-g-class-375.wav
 
 min_loading_time=17
@@ -117,7 +119,7 @@ axles=4
 cost=1008000
 upgrade_price=89610
 runningcost=0
-fixed_cost=840
+fixed_cost=1260
 
 min_loading_time=17
 max_loading_time=60
@@ -206,7 +208,7 @@ axles=4
 cost=1852000
 upgrade_price=89610
 runningcost=75
-fixed_cost=3858
+fixed_cost=3150
 
 min_loading_time=17
 max_loading_time=60
@@ -275,8 +277,6 @@ gear=80
 copyright=Kieron
 intro_year=2001
 intro_month=4
-#intro_year=2012
-#intro_month=1
 retire_year=2017
 retire_month=11
 waytype=track
@@ -295,7 +295,7 @@ axles=4
 cost=1852000
 upgrade_price=89610
 runningcost=75
-fixed_cost=3858
+fixed_cost=3150
 
 min_loading_time=17
 max_loading_time=60
@@ -382,7 +382,7 @@ axles=4
 cost=1852000
 upgrade_price=89610
 runningcost=75
-fixed_cost=6840
+fixed_cost=3150
 sound=panos-g-class-375.wav
 
 min_loading_time=17
