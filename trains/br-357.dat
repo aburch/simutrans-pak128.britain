@@ -92,6 +92,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=c2c-357(front)
 
 Constraint[Next][0]=c2c-357(centre2)
+Constraint[Next][1]=c2c-357(rear)
 
 EmptyImage[E]=./railcars/br-357-pantograph.1.4
 EmptyImage[SE]=./railcars/br-357-pantograph.1.5
@@ -192,6 +193,7 @@ bidirectional=0
 way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=c2c-357(centre2)
+Constraint[Prev][1]=c2c-357(centre1)
 
 Constraint[Next][0]=c2c-357(front)
 Constraint[Next][1]=none
