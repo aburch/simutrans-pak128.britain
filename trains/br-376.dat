@@ -29,7 +29,7 @@ rolling_resistance=13
 
 weight=46
 axles=4
-cost=2721000
+cost=1814400
 runningcost=90
 fixed_cost=7512
 sound=panos-g-class-375.wav
@@ -95,7 +95,7 @@ rolling_resistance=13
 
 weight=46
 axles=4
-cost=2721000
+cost=1814400
 runningcost=90
 fixed_cost=5669
 sound=panos-g-class-375.wav
@@ -143,6 +143,7 @@ name=BR-376Middle
 engine_type=electric
 speed=120
 power=0
+gear=80
 copyright=Kieron
 intro_year=2004
 intro_month=8
@@ -159,7 +160,7 @@ rolling_resistance=13
 
 weight=40
 axles=4
-cost=1814400
+cost=1008000
 runningcost=0
 fixed_cost=2268
 
