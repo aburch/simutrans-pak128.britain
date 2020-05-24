@@ -356,7 +356,9 @@ max_comfort_preference_percentage = 650
 #
 # "Always prefer car percent" is the percentage of drivers who prefer to use their
 # car even if walking or taking public transport is faster. The default is 10% 
-#
+
+always_prefer_car_percent = 6
+
 # "Congestion density factor" determines the way in which congestion is calculated.
 # If this number is 0, a very simple system is used for calculating congestion.
 #
@@ -373,8 +375,11 @@ max_comfort_preference_percentage = 650
 # roads in the city in kilometres then multiplied by the congestion density factor
 # to get a percentage figure. When this figure is calculated for all British cities
 # in the TomTom Congestion Index in 2012, the average is 141 (1.41). 
+#
+# NOTE: When the travel time congestion should be implemented, this system 
+# will be used only when "assume_everywhere_connected_by_road" be enabled; 
+# otherwise, measured per tile congestion figures are used.
 
-always_prefer_car_percent = 6
 congestion_density_factor = 141
 
 # This setting gives the maximum time that passengers are prepared to wait for their
