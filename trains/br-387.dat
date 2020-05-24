@@ -39,7 +39,10 @@ can_lead_from_rear=1
 bidirectional=0
 
 Constraint[Prev][0]=BR-387Rear
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR-379Rear
+Constraint[Prev][2]=BR-375Rear
+Constraint[Prev][3]=BR-375-6Rear
+Constraint[Prev][4]=none
 
 Constraint[Next][0]=BR-387Panto
 Constraint[Next][1]=BR-387Middle
@@ -243,7 +246,10 @@ bidirectional=0
 Constraint[Prev][0]=BR-387Panto
 
 Constraint[Next][0]=BR-387Front
-Constraint[Next][1]=none
+Constraint[Next][1]=BR-379Front
+Constraint[Next][2]=BR-375Front
+Constraint[Next][3]=BR-375-6Front
+Constraint[Next][4]=none
 
 liverytype[0]=Southern
 liverytype[1]=GATEX

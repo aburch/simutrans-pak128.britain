@@ -45,7 +45,8 @@ way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-379Rear
 Constraint[Prev][1]=BR-375-6Rear
-Constraint[Prev][2]=none
+Constraint[Prev][2]=BR-387Rear
+Constraint[Prev][3]=none
 
 Constraint[Next][0]=BR-379Middle
 Constraint[Next][1]=BR-379Panto
@@ -217,7 +218,8 @@ Constraint[Prev][0]=BR-379Panto
 
 Constraint[Next][0]=BR-379Front
 Constraint[Next][1]=BR-375-6Front
-Constraint[Next][2]=none
+Constraint[Next][2]=BR-387Front
+Constraint[Next][3]=none
 
 EmptyImage[E]=./railcars/br-379-rear-orig.1.4
 EmptyImage[SE]=./railcars/br-379-rear-orig.1.5

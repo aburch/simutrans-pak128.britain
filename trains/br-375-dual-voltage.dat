@@ -44,7 +44,8 @@ bidirectional=0
 Constraint[Prev][0]=BR-375-6Rear
 Constraint[Prev][1]=BR-375Rear
 Constraint[Prev][2]=BR-379Rear
-Constraint[Prev][3]=none
+Constraint[Prev][3]=BR-387Rear
+Constraint[Prev][4]=none
 
 Constraint[Next][0]=BR-375-6Middle
 Constraint[Next][1]=BR-375-6Panto
@@ -402,7 +403,8 @@ Constraint[Prev][1]=BR-377-7Middle2
 Constraint[Next][0]=BR-375-6Front
 Constraint[Next][1]=BR-375Front
 Constraint[Next][2]=BR-379Front
-Constraint[Next][3]=none
+Constraint[Next][3]=BR-387Front
+Constraint[Next][4]=none
 
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
