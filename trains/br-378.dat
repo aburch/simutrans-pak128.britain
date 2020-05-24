@@ -1,17 +1,26 @@
+# https://en.wikipedia.org/wiki/British_Rail_Class_378
+# 152 individual cars costing some £223 million (24x 3-car AC/DC, 20x 4-car DC)
+# end of 2010: 36 carriages for £36 million (3x 4-car unit AC/DC, 24 extra carriages)
+# 2011: 10x 4-car unit AC/DC; November 2014: 57 cars to make all units 5-car long
+# 150 kN 4-car unit = 17kN per motor with 3 motors per car: http://www.districtdavesforum.co.uk/thread/22284/378-fifth-car
+# https://www.whatdotheyknow.com/request/339955/response/848693/attach/3/Class%20378%20Data%20Sheet.pdf
+# https://en.wikipedia.org/wiki/Bombardier_Electrostar, end of production Nov 2017
 obj=vehicle
 name=BR-378Front
 engine_type=electric
 speed=120
 power=600
 gear=80
-tractive_effort=51
+tractive_effort=50
 copyright=Kieron
 intro_year=2009
 intro_month=7
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=32
+payload[1]=36
 overcrowded_capacity=120
 length=12
 brake_force=35
@@ -19,7 +28,7 @@ rolling_resistance=13
 
 weight=46
 axles=4
-cost=1814400
+cost=2116800
 runningcost=90
 fixed_cost=7512
 sound=panos-g-class-375.wav
@@ -36,7 +45,7 @@ Constraint[Prev][0]=BR-378Rear
 Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-378Middle-unpowered
-Constraint[Next][1]=BR-378Rear
+Constraint[Next][1]=BR-378Middle
 
 EmptyImage[E]=./railcars/br-378-lt.0.0
 EmptyImage[SE]=./railcars/br-378-lt.0.1
@@ -54,15 +63,17 @@ name=BR-378Middle
 engine_type=electric
 speed=120
 power=600
-tractive_effort=51
+tractive_effort=50
 gear=80
 copyright=Kieron
 intro_year=2009
 intro_month=7
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=34
+payload[1]=40
 overcrowded_capacity=140
 length=12
 brake_force=30
@@ -70,9 +81,61 @@ rolling_resistance=13
 
 weight=40
 axles=4
-cost=2721000
+cost=2116800
 runningcost=90
-fixed_cost=2268
+fixed_cost=5669
+
+can_lead_from_rear=0
+bidirectional=1
+
+min_loading_time=12
+max_loading_time=50
+comfort[0]=0
+comfort[1]=59
+
+Constraint[Prev][0]=BR-378Front
+
+Constraint[Next][0]=BR-378Middle-unpowered
+
+EmptyImage[E]=./railcars/br-378-lt.1.0
+EmptyImage[SE]=./railcars/br-378-lt.1.1
+EmptyImage[S]=./railcars/br-378-lt.1.2
+EmptyImage[SW]=./railcars/br-378-lt.1.3
+EmptyImage[W]=./railcars/br-378-lt.1.4
+EmptyImage[NW]=./railcars/br-378-lt.1.5
+EmptyImage[N]=./railcars/br-378-lt.1.6
+EmptyImage[NE]=./railcars/br-378-lt.1.7
+
+---
+
+obj=vehicle
+name=BR-378Middle2
+engine_type=electric
+speed=120
+power=600
+tractive_effort=50
+gear=80
+copyright=Kieron
+intro_year=2009
+intro_month=7
+#intro_year=2014
+#intro_month=11
+retire_year=2017
+retire_month=11
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=40
+overcrowded_capacity=140
+length=12
+brake_force=30
+rolling_resistance=13
+
+weight=40
+axles=4
+cost=2116800
+runningcost=90
+fixed_cost=5669
 
 can_lead_from_rear=0
 bidirectional=1
@@ -101,22 +164,26 @@ obj=vehicle
 name=BR-378Middle-unpowered
 engine_type=electric
 speed=120
+gear=80
 power=0
 copyright=Kieron
 intro_year=2009
 intro_month=7
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=34
-overcrowded_capacity=85
+overcrowded_capacity=140
 length=12
 brake_force=30
 
 weight=40
-cost=2721000
+axles=4
+cost=1008000
 runningcost=0
-fixed_cost=5669
+fixed_cost=2268
 
 can_lead_from_rear=0
 bidirectional=1
@@ -127,9 +194,10 @@ comfort[0]=0
 comfort[1]=59
 
 Constraint[Prev][0]=BR-378Front
+Constraint[Prev][1]=BR-378Middle
 
 Constraint[Next][0]=BR-378Rear
-Constraint[Next][1]=BR-378Middle
+Constraint[Next][1]=BR-378Middle2
 
 EmptyImage[E]=./railcars/br-378-lt.1.0
 EmptyImage[SE]=./railcars/br-378-lt.1.1
@@ -148,15 +216,16 @@ engine_type=electric
 speed=120
 power=600
 gear=80
-# 17kN per motor with 3 motors per car: http://www.districtdavesforum.co.uk/thread/22284/378-fifth-car
-tractive_effort=51
+tractive_effort=50
 copyright=Kieron
 intro_year=2009
 intro_month=7
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=32
+payload[1]=36
 overcrowded_capacity=120
 length=12
 brake_force=35
@@ -164,9 +233,9 @@ rolling_resistance=13
 
 weight=46
 axles=4
-cost=1814400
+cost=2116800
 runningcost=90
-fixed_cost=7512
+fixed_cost=5669
 sound=panos-g-class-375.wav
 
 can_lead_from_rear=1
@@ -177,7 +246,7 @@ max_loading_time=50
 comfort[0]=0
 comfort[1]=59
 
-Constraint[Prev][0]=BR-378Middle
+Constraint[Prev][0]=BR-378Middle2
 Constraint[Prev][1]=BR-378Middle-unpowered
 
 Constraint[Next][0]=BR-378Front
