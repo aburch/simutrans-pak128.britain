@@ -3,7 +3,12 @@ Name=CanalShip
 waytype=water
 cost=240000
 maintenance=250
-topspeed=60
+# Fast sailing is not possible on canals.
+# Exeter Canal (on which this type is based)
+# has a 5 knot speed limit: 
+# https://sites.exeter.gov.uk/leisure-and-culture/sport-and-leisure/exeter-port-authority/navigation-and-byelaws/
+# 5 knots = 9.3km/h
+topspeed=9
 topspeed_gradient_1=2
 topspeed_gradient_2=1
 max_weight=7500

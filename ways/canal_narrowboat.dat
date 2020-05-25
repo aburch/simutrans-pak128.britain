@@ -4,7 +4,9 @@ Name=CanalNarrow
 waytype=water
 cost=15000
 maintenance=100
-topspeed=30
+# http://narrowboatinfo.co.uk/how-fast-and-how-far-can-a-narrowboat-go/
+# Max. speed 4mph
+topspeed=6
 topspeed_gradient_1=2
 topspeed_gradient_2=1
 max_weight=70
