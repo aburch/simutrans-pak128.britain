@@ -33,6 +33,7 @@ InputGood[0]=flour
 InputCapacity[0]=16 
 InputFactor[0]=100  
 #InputSupplier[0]=1
+needs_ground=1
 Dims=1,1,4
 BackImage[0][0][0][0][0][0]=1750-shops.4.0
 BackImage[0][0][0][0][0][1]=1750-shops.6.0
