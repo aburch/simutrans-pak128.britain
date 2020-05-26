@@ -4,9 +4,7 @@ name=HumberKeelBulk
 copyright=James
 waytype=water
 engine_type=sail
-# These were slower than Norfolk Wherries
-# https://en.wikipedia.org/wiki/Norfolk_wherry
-speed=8
+speed=12
 power=111
 freight=Kohle
 payload=50
@@ -98,9 +96,7 @@ name=HumberKeelLong
 copyright=James
 waytype=water
 engine_type=sail
-# These were slower than Norfolk Wherries
-# https://en.wikipedia.org/wiki/Norfolk_wherry
-speed=8
+speed=12
 power=111
 freight=Bretter
 payload=50
@@ -162,9 +158,7 @@ name=HumberKeelPiece
 copyright=James
 waytype=water
 engine_type=sail
-# These were slower than Norfolk Wherries
-# https://en.wikipedia.org/wiki/Norfolk_wherry
-speed=8
+speed=12
 power=111
 freight=vegetables
 payload=50
@@ -216,9 +210,7 @@ name=HumberKeelCool
 copyright=James
 waytype=water
 engine_type=sail
-# These were slower than Norfolk Wherries
-# https://en.wikipedia.org/wiki/Norfolk_wherry
-speed=8
+speed=12
 power=111
 freight=meat
 payload=50
@@ -270,9 +262,7 @@ name=HumberKeelLivestock
 copyright=James
 waytype=water
 engine_type=sail
-# These were slower than Norfolk Wherries
-# https://en.wikipedia.org/wiki/Norfolk_wherry
-speed=8
+speed=12
 power=111
 freight=livestock
 payload=50
@@ -324,9 +314,7 @@ name=HumberKeelPassenger
 copyright=James
 waytype=water
 engine_type=sail
-# These were slower than Norfolk Wherries
-# https://en.wikipedia.org/wiki/Norfolk_wherry
-speed=8
+speed=12
 power=111
 freight=Passagiere
 payload[0]=0
