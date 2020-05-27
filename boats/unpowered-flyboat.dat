@@ -3,6 +3,8 @@ Name=FlyboatPiece
 copyright=Jamespetts
 waytype=water
 speed=18
+# Necessary to allow canal restrictions to apply to all other boats
+override_way_speed=1
 freight=vegetables
 payload=15
 weight=10
@@ -44,6 +46,8 @@ Name=FlyboatCool
 copyright=Jamespetts
 waytype=water
 speed=18
+# Necessary to allow canal restrictions to apply to all other boats
+override_way_speed=1
 freight=fish
 payload=15
 weight=10
@@ -86,6 +90,8 @@ Name=FlyboatMail
 copyright=Jamespetts
 waytype=water
 speed=18
+# Necessary to allow canal restrictions to apply to all other boats
+override_way_speed=1
 freight=Post
 payload=150
 weight=10
@@ -126,6 +132,8 @@ Name=FlyboatPax
 copyright=Jamespetts
 waytype=water
 speed=18
+# Necessary to allow canal restrictions to apply to all other boats
+override_way_speed=1
 freight=Passagiere
 payload=12
 weight=10
@@ -153,7 +161,6 @@ way_constraint_prohibitive[6]=6 # Large ship
 Constraint[Prev][0]=BoatHorsesFly
 
 Constraint[Next][0]=none
-
 
 EmptyImage[E]=./images/unpowered-narrowboat-flyboat-passengers-empty.1.4
 EmptyImage[SE]=./images/unpowered-narrowboat-flyboat-passengers-empty.1.5
