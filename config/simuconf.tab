@@ -151,7 +151,7 @@ onward_trip_chance_percent = 25
 # Hertfordshire survey above.
 commuting_trip_chance_percent = 20
 
-# Some passengers who are not able to find a route will be content to go to an alternative destination. 
+# Passengers who are not able to find a route will be content to go to an alternative destination. 
 # This is set separately for visiting passengers and commuting passengers. It can either be set in
 # absolute figures using max_alternative_destinations_visiting and max_alternative_destinations_commuting,
 # or set as a proportion of the total number of jobs and total level of visitor demand, using 
@@ -187,7 +187,7 @@ min_alternative_destinations_per_job_millionths = 2500
 # are more likely to be in the middle of the range than at either end.
 
 min_visiting_tolerance = 12
-range_visiting_tolerance = 10000
+range_visiting_tolerance = 12000
 min_commuting_tolerance = 30
 range_commuting_tolerance = 180
 
@@ -218,7 +218,19 @@ range_commuting_tolerance = 180
 # 6 and over - Positively skewed normal distribution (cubed multiple recursive)
 
 random_mode_commuting = 2
-random_mode_visiting = 5
+random_mode_visiting = 6
+
+# The tolerance modifier percentage applies a percentage modification to all visiting passengers'
+# journey time tolerances to allow for a more precise adjustment of these numbers than is possible
+# with the basic figures alone, especially where a high skew value be used. 
+#
+# Also, setting this number to zero will disable not only the tolerance modifier percentage, but 
+# also the system for modifying the tolerance dynamically based on the visiting passenger success
+# rates of the individual buildings from which passengers originate.
+#
+# The default is 100.
+
+tolerance_modifier_percentage = 66
 
 # meters_per_tile represents the length of each tile in meters. 
 # The default is 250.
