@@ -12,16 +12,16 @@ copyright=Ranran
 # for line missing scheduled slot
 Image[0]=> ex-gui-icons.1.6
 --------------------
-Obj=symbol
-name=InputOutput
-copyright=Ranran
+#Obj=symbol
+#name=InputOutput
+#copyright=Ranran
 # for industry input/output
-Image[0]=> ex-gui-icons.0.1
-Image[1]=> ex-gui-icons.0.2
+#Image[0]=> ex-gui-icons.0.1
+#Image[1]=> ex-gui-icons.0.2
 --------------------
-Obj=symbol
-name=InTransit
-copyright=Ranran
+#Obj=symbol
+#name=InTransit
+#copyright=Ranran
 # for goods in transit for industry information
-Image[0]=> ex-gui-icons.1.7
+#Image[0]=> ex-gui-icons.1.7
 --------------------
