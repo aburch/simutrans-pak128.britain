@@ -598,6 +598,44 @@ citycar_way_wear_factor = 2
 # whether they will have any upgrades.
 show_future_vehicle_information = 0
 
+
+################################## Region settings #################################
+
+# Regions are defined as stacked rectangles on the map. Each region of a higher number overrides
+# each region of a lower number in so far as they overlap. 
+#
+# For each region definition, specify the upper left and lower right points of the rectangle either
+# in absolute numbers or in percentages. The numbers are specified: x,y. x = east/west; y = north/south.
+# 0,0 is the upper left corner. 
+#
+# NOTE: Region 0 will always be the base region and will by default cover the whole map save 
+# in so far as other regions are defined. There can be a maximum of 16 regions in total.
+
+region_name[0] = Albion
+region_upper_left_percent[0] = 0,0
+region_lower_right_percent[0] = 100,100
+
+region_name[1] = Northumberland
+region_upper_left_percent[1] = 0,0
+region_lower_right_percent[1] = 100,50
+
+region_name[2] = Caledonia
+region_upper_left_percent[2] = 0,0
+region_lower_right_percent[2] = 100,25
+
+region_name[3] = Cambria
+region_upper_left_percent[3] = 0,35
+region_lower_right_percent[3] = 25,65
+
+region_name[4] = Kernow
+region_upper_left_percent[4] = 0,65
+region_lower_right_percent[4] = 20,100
+
+# Currently not used - Irish trains are to a different gauge, so this is difficult to integrate.
+#region_name[5] = Erin
+#region_upper_left_percent[5] = 0,15
+#region_lower_right_percent[5] = 10,70
+
 ################################## Industry settings #################################
 
 # allow all possible supplier to connect to your factories?
