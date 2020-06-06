@@ -609,7 +609,7 @@ show_future_vehicle_information = 0
 # 0,0 is the upper left corner. 
 #
 # NOTE: Region 0 will always be the base region and will by default cover the whole map save 
-# in so far as other regions are defined. There can be a maximum of 16 regions in total.
+# in so far as other regions are defined. There can be a maximum of 16 regions in total. 
 
 region_name[0] = Albion
 region_upper_left_percent[0] = 0,0
@@ -631,10 +631,9 @@ region_name[4] = Kernow
 region_upper_left_percent[4] = 0,65
 region_lower_right_percent[4] = 20,100
 
-# Currently not used - Irish trains are to a different gauge, so this is difficult to integrate.
-#region_name[5] = Erin
-#region_upper_left_percent[5] = 0,15
-#region_lower_right_percent[5] = 10,70
+region_name[5] = Erin
+region_upper_left_percent[5] = 0,0
+region_lower_right_percent[5] = 25,35
 
 ################################## Industry settings #################################
 
@@ -676,8 +675,8 @@ min_factory_spacing = 2
 # Maximum distance for connected factories
 # If percentage>0, it will be in percent of the largest map dimension
 # percentage also over-rides the absolute value (which is in tiles)
-max_factory_spacing_percentage = 25
-#max_factory_spacing = 1280
+max_factory_spacing_percentage = 100
+# max_factory_spacing = 1280
 
 # Some factories have a retirement date, after which they are obsolete. After
 # that date, factories may close down (random chance each month). After the number
