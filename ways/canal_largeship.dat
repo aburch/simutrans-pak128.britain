@@ -3,11 +3,13 @@ Name=CanalLargeShip
 waytype=water
 cost=2500000
 maintenance=300
-topspeed=100
+# https://en.wikipedia.org/wiki/Manchester_Ship_Canal
+topspeed=11
 topspeed_gradient_1=2
 topspeed_gradient_2=1
 max_weight=12000
-max_altitude=3
+# This is a concrete lined canal, so no maximum altitude. 
+#max_altitude=3
 max_vehicles_on_tile=4
 intro_year=1892
 intro_month=1

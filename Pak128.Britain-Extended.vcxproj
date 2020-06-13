@@ -2014,7 +2014,12 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="sound\credits.txt" />
+    <Text Include="text\streetlist[2]_en.txt" />
+    <Text Include="text\streetlist[3]_en.txt" />
     <Text Include="text\streetlist_en.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="stations\staging-post-stop.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

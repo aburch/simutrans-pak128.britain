@@ -722,17 +722,21 @@ Tube tunnel (concrete)
 PowerTunnel
 High voltage transmission line tunnel
 Canal
-Barge Canal
+Barge canal
+canal-lined
+Barge canal (lined)
 CanalNarrow
-Narrowboat Canal
+Narrowboat canal
 CanalTub
-Tub boat Canal
+Tub boat canal
 CanalShip
-Ship Canal
+Ship canal (improved)
 CanalShip-early
-Ship Canal
+Ship canal
+canal-ship-lined
+Ship canal (lined)
 CanalLargeShip
-Large Ship Canal
+Large ship canal
 NarrowTunnelBrick
 Brick tunnel (narrow gauge)
 NarrowTunnelStone
@@ -1225,9 +1229,9 @@ Small_Rugby_Ground
 Rugby pitch
 Stonehenge
 Stonehenge
-Knight_Monument
+Knight-Monument
 Chivalric Monument
-War_Memorial
+War-Memorial
 War Memorial
 NelsonColumn2
 Nelson's Column
@@ -1259,7 +1263,7 @@ ParishChurchHolyTrinity
 Holy Trinity Parish Church
 ParishChurchStJohns
 St John's Parish Church
-ParishChurchAllwrs
+ParishChurchAllSaints
 All Saints Parish Church
 Cathedral1
 Cathedral
@@ -3823,6 +3827,8 @@ BR Class 357 "Electrostar" EMU
 c2c-357(centre1)
 BR Class 357 "Electrostar" EMU (pantograph trailer)
 c2c-357(centre2)
+BR Class 357 "Electrostar" EMU (second motor)
+c2c-357(centre3)
 BR Class 357 "Electrostar" EMU (centre motor)
 c2c-357(rear)
 BR Class 357 "Electrostar" EMU (rear)
@@ -3830,6 +3836,8 @@ BR-379Front
 BR Class 379 "Electrostar" EMU
 BR-379Middle
 BR Class 379 "Electrostar" EMU (centre trailer)
+BR-379Middle2
+BR Class 379 "Electrostar" EMU (second motor)
 BR-379Panto
 BR Class 379 "Electrostar" EMU (centre motor)
 BR-379Rear
@@ -3840,6 +3848,8 @@ BR-387Rear
 BR Class 387 "Electrostar" EMU (rear)
 BR-387Middle
 BR Class 387 "Electrostar" EMU (centre motor)
+BR-387Middle2
+BR Class 387 "Electrostar" EMU (second motor)
 BR-387Panto
 BR Class 387 "Electrostar" EMU (pantograph car)
 BR-360(front)
@@ -8469,6 +8479,8 @@ skiff-wherry-piece
 Skiff wherry (piece goods)
 skiff-wherry-cool
 Skiff wherry (perishable goods)
+skiff-wherry-livestock
+Skiff wherry (livestock)
 mail-space
 Mail space
 #____________________________________maglev-vehicle____________________________________
@@ -9533,6 +9545,8 @@ Uplands
 desert
 Beach
 Mediterranean
+Coastal plains
+mediterran
 Coastal plains
 rocky
 Mountain

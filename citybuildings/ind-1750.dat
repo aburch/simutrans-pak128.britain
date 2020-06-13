@@ -258,6 +258,7 @@ copyright=James
 type=ind
 chance=10
 Level=1
+regions=1,2,3,4,5
 # Pasture
 population_and_visitor_demand_capacity=0
 employment_capacity=2
@@ -291,6 +292,7 @@ Name=IND_JH_1750_07_01
 copyright=James
 type=ind
 chance=10
+regions=2,3,5
 # Pasture
 population_and_visitor_demand_capacity=0
 employment_capacity=2

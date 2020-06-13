@@ -16,7 +16,6 @@ cost=270000
 runningcost=20
 fixed_cost=200113
 
-
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 way_constraint_prohibitive[5]=5 # Ship

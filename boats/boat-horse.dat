@@ -83,6 +83,8 @@ obj=vehicle
 name=BoatHorsesFly
 engine_type=bio
 speed=18
+# Necessary to allow canal restrictions to apply to all other boats
+override_way_speed=1
 power=46
 #gear=1200
 copyright=James

@@ -11,8 +11,13 @@ payload[1]=12
 weight=0.3
 length=6
 cost=10000
-runningcost=0
-fixed_cost=6007
+runningcost=5
+# Calibrated (approximately) to the cost of "messenger" here:
+# https://www.pascalbonenfant.com/18c/wages.html
+# (£34/annum, assuming 8 hours/day 6 days/week)
+# Figures for 1737-1781
+# Calibrated against goods prices in goods128.dat
+fixed_cost=750
 intro_year=1750
 intro_month=1
 # These still run:
@@ -66,8 +71,8 @@ payload=5
 weight=0.3
 length=6
 cost=10000
-runningcost=0
-fixed_cost=6007
+runningcost=5
+fixed_cost=750
 intro_year=1750
 intro_month=1
 # These still run:
@@ -119,8 +124,8 @@ payload=5
 weight=0.3
 length=6
 cost=10000
-runningcost=0
-fixed_cost=6007
+runningcost=5
+fixed_cost=750
 intro_year=1750
 intro_month=1
 # These still run:
@@ -172,8 +177,8 @@ payload=5
 weight=0.3
 length=6
 cost=10000
-runningcost=0
-fixed_cost=6007
+runningcost=5
+fixed_cost=750
 intro_year=1750
 intro_month=1
 # These still run:
@@ -225,8 +230,8 @@ payload=2
 weight=0.3
 length=6
 cost=10000
-runningcost=0
-fixed_cost=6007
+runningcost=5
+fixed_cost=750
 intro_year=1750
 intro_month=1
 # These still run:
@@ -278,8 +283,8 @@ payload=2
 weight=0.3
 length=6
 cost=10000
-runningcost=0
-fixed_cost=6007
+runningcost=5
+fixed_cost=750
 intro_year=1750
 intro_month=1
 # These still run:

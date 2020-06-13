@@ -23,6 +23,7 @@ class_proportion_jobs[3]=2
 class_proportion_jobs[4]=0
 needs_ground=1
 climates=rocky,tundra,temperate,desert,mediterran,arctic,tropic
+max_distance_to_supplier=150
 Location=City
 distributionweight=27
 Productivity=31

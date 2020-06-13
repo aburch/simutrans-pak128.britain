@@ -1,0 +1,69 @@
+# Simutranslator settings for Pak128.Britain-Ex way texts that are not specific to game objects
+# Texts for way constraints
+#
+# Author: jamespetts
+# Created: June 2020
+#
+obj=program_text
+name=Permissive 2-0
+note=DC Third Rail Electrification
+-
+obj=program_text
+name=Permissive 7-1
+note=DC Overhead Catenary
+-
+obj=program_text
+name=Permissive 2-1
+note=DC Overhead Catenary
+-
+obj=program_text
+name=Permissive 2-2
+note=AC Overhead Catenary
+-
+obj=program_text
+name=Permissive 2-3
+note=DC Fourth Rail Electrification
+-
+obj=program_text
+name=Permissive 3-4
+note=Waterway
+-
+obj=program_text
+name=Permissive 2-5
+note=Light rail electrification
+-
+obj=program_text
+name=Permissive 7-5
+note=Light rail electrification
+-
+obj=program_text
+name=Prohibitive 2-0
+note=Tramway
+-
+obj=program_text
+name=Prohibitive 7-0
+note=Tramway
+-
+obj=program_text
+name=Prohibitive 2-1
+note=Tube tunnel
+-
+obj=program_text
+name=Prohibitive 3-2
+note=Barge canal/small river
+-
+obj=program_text
+name=Prohibitive 3-3
+note=Tub boat canal
+-
+obj=program_text
+name=Prohibitive 3-4
+note=Narrow canal
+-
+obj=program_text
+name=Prohibitive 3-5
+note=Ship canal/medium river
+-
+obj=program_text
+name=Prohibitive 3-6
+note=Large ship canal/large river
