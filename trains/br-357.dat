@@ -1,4 +1,6 @@
 # These should have low maintenance costs: they are very reliable and save engery with regenerative braking.
+# https://web.archive.org/web/20150702005602/http://www.porterbrook.co.uk/downloads/brochures/357%20Brochure.pdf
+# http://www.railway-centre.com/class-357.html
 
 obj=vehicle
 name=c2c-357(front)
@@ -21,7 +23,7 @@ length=12
 brake_force=30
 rolling_resistance=13
 
-weight=41
+weight=40.7
 axles=4
 cost=1512000
 runningcost=75
@@ -74,7 +76,7 @@ overcrowded_capacity=59
 length=12
 brake_force=27
 
-weight=40
+weight=36.7
 axles=4
 cost=1512000
 runningcost=75
@@ -125,7 +127,7 @@ length=12
 brake_force=27
 rolling_resistance=13
 
-weight=37
+weight=39.5
 axles=4
 cost=1008000
 runningcost=0
@@ -172,12 +174,12 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=78
+payload[1]=71
 overcrowded_capacity=59
 length=12
 brake_force=27
 
-weight=40
+weight=36.7
 axles=4
 cost=1512000
 runningcost=75
@@ -228,7 +230,7 @@ length=12
 brake_force=30
 rolling_resistance=13
 
-weight=41
+weight=40.7
 axles=4
 cost=1512000
 runningcost=75
