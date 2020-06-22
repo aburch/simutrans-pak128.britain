@@ -5,6 +5,7 @@
 # 150 kN 4-car unit = 17kN per motor with 3 motors per car: http://www.districtdavesforum.co.uk/thread/22284/378-fifth-car
 # https://www.whatdotheyknow.com/request/339955/response/848693/attach/3/Class%20378%20Data%20Sheet.pdf
 # https://en.wikipedia.org/wiki/Bombardier_Electrostar, end of production Nov 2017
+# http://www.railway-centre.com/class-378.html
 obj=vehicle
 name=BR-378Front
 engine_type=electric
@@ -26,7 +27,7 @@ length=12
 brake_force=35
 rolling_resistance=13
 
-weight=46
+weight=43.5
 axles=4
 cost=2116800
 runningcost=90
@@ -42,7 +43,12 @@ comfort[0]=0
 comfort[1]=59
 
 Constraint[Prev][0]=BR-378Rear
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR-375Rear
+Constraint[Prev][2]=BR-376Rear
+Constraint[Prev][3]=BR-375-6Rear
+Constraint[Prev][4]=BR-379Rear
+Constraint[Prev][5]=BR-387Rear
+Constraint[Prev][6]=none
 
 Constraint[Next][0]=BR-378Middle-unpowered
 Constraint[Next][1]=BR-378Middle
@@ -79,7 +85,7 @@ length=12
 brake_force=30
 rolling_resistance=13
 
-weight=40
+weight=39.4
 axles=4
 cost=2116800
 runningcost=90
@@ -131,7 +137,7 @@ length=12
 brake_force=30
 rolling_resistance=13
 
-weight=40
+weight=39.4
 axles=4
 cost=2116800
 runningcost=90
@@ -174,12 +180,12 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=34
+payload[1]=40
 overcrowded_capacity=140
 length=12
 brake_force=30
 
-weight=40
+weight=34.3
 axles=4
 cost=1008000
 runningcost=0
@@ -231,7 +237,7 @@ length=12
 brake_force=35
 rolling_resistance=13
 
-weight=46
+weight=43.1
 axles=4
 cost=2116800
 runningcost=90
@@ -250,7 +256,12 @@ Constraint[Prev][0]=BR-378Middle2
 Constraint[Prev][1]=BR-378Middle-unpowered
 
 Constraint[Next][0]=BR-378Front
-Constraint[Next][1]=none
+Constraint[Next][1]=BR-375Front
+Constraint[Next][2]=BR-376Front
+Constraint[Next][3]=BR-375-6Front
+Constraint[Next][4]=BR-379Front
+Constraint[Next][5]=BR-387Front
+Constraint[Next][6]=none
 
 EmptyImage[E]=./railcars/br-378-lt.2.0
 EmptyImage[SE]=./railcars/br-378-lt.2.1
