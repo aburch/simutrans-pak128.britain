@@ -79,6 +79,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
 min_loading_time=16
@@ -126,6 +127,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
 min_loading_time=16
@@ -179,6 +181,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
 min_loading_time=16
@@ -230,6 +233,7 @@ can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
 min_loading_time=16
@@ -283,6 +287,7 @@ can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
 
 min_loading_time=16
