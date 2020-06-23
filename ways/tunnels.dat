@@ -343,18 +343,18 @@ intro_month=1
 way_constraint_prohibitive[2]=2
 
 # Portal images (single)
-BackImage[W][0]=rail-tunnel-concrete-light.1.0
-FrontImage[W][0]=rail-tunnel-concrete-light.0.0
-BackImage[N][0]=rail-tunnel-concrete-light.1.1
-FrontImage[N][0]=rail-tunnel-concrete-light.0.1
-FrontImage[E][0]=rail-tunnel-concrete-light.0.2
-FrontImage[S][0]=rail-tunnel-concrete-light.0.3
-BackImage[W][1]=rail-tunnel-concrete-light-snow.1.0
-FrontImage[W][1]=rail-tunnel-concrete-light-snow.0.0
-BackImage[N][1]=rail-tunnel-concrete-light-snow.1.1
-FrontImage[N][1]=rail-tunnel-concrete-light-snow.0.1
-FrontImage[E][1]=rail-tunnel-concrete-light-snow.0.2
-FrontImage[S][1]=rail-tunnel-concrete-light-snow.0.3
+BackImage[W][0]=./images/rail-tunnel-concrete-light.1.0
+FrontImage[W][0]=./images/rail-tunnel-concrete-light.0.0
+BackImage[N][0]=./images/rail-tunnel-concrete-light.1.1
+FrontImage[N][0]=./images/rail-tunnel-concrete-light.0.1
+FrontImage[E][0]=./images/rail-tunnel-concrete-light.0.2
+FrontImage[S][0]=./images/rail-tunnel-concrete-light.0.3
+BackImage[W][1]=./images/rail-tunnel-concrete-light-snow.1.0
+FrontImage[W][1]=./images/rail-tunnel-concrete-light-snow.0.0
+BackImage[N][1]=./images/rail-tunnel-concrete-light-snow.1.1
+FrontImage[N][1]=./images/rail-tunnel-concrete-light-snow.0.1
+FrontImage[E][1]=./images/rail-tunnel-concrete-light-snow.0.2
+FrontImage[S][1]=./images/rail-tunnel-concrete-light-snow.0.3
 
 # Underground images
 UndergroundImage[-]=./images/channel-tunnel-notrack.1.2
