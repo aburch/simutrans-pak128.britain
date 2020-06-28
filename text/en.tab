@@ -741,6 +741,8 @@ NarrowTunnelBrick
 Brick tunnel (narrow gauge)
 NarrowTunnelStone
 Stone tunnel (narrow gauge)
+LightRailTunnelConcrete
+Concrete light rail tunnel
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 DCRailCatenary
@@ -759,6 +761,8 @@ DCThirdRailACCCatenary
 AC Overhead Catenary with DC Third Rail Electrification
 DCThirdRailDCCCatenary
 DC Overhead Catenary with DC Third Rail Electrification
+DLRThirdRail
+Driverless Light Rail electrification
 #___________________________________townhall____________________________________
 #___________________________________townhall____________________________________
 00_CITY
@@ -9508,11 +9512,10 @@ Permissive 2-3
 DC Fourth Rail Electrification
 Permissive 3-4
 Waterway
-# For the DLR - reserved for future use.
 Permissive 2-5
-Light rail electrification
+Driverless Light Rail electrification
 Permissive 7-5
-Light rail electrification
+Driverless Light Rail electrification
 Permissive 2-6
 [Unused] Permissive 6
 Permissive 2-7
