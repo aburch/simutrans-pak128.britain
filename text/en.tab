@@ -701,6 +701,8 @@ Channel_Tunnel
 Reinforced concrete rail tunnel
 RailTunnelHighSpeed
 High speed rail tunnel
+LightRailTunnelConcrete
+Light rail tunnel
 RoadTunnelStone
 Stone road tunnel
 RoadTunnelBrick
@@ -753,6 +755,10 @@ DCFourthRail
 DC Fourth Rail Electrification
 TramElectrification
 DC Tramway Catenary
+750VDCRailCatenary
+Light rail catenary
+DLRThirdRail
+DC Bottom contact third rail
 TrollyBusElectrification
 DC Trolleybus Catenary
 DCThirdRailACCCatenary
@@ -9508,15 +9514,15 @@ Permissive 2-3
 DC Fourth Rail Electrification
 Permissive 3-4
 Waterway
-# For the DLR - reserved for future use.
 Permissive 2-5
-Light rail electrification
+DC Bottom Contact Third Rail Electrification
 Permissive 7-5
-Light rail electrification
+DC Bottom Contact Third Rail Electrification
 Permissive 2-6
 [Unused] Permissive 6
 Permissive 2-7
 [Unused] Permissive 7
+
 # Prohibitive
 Prohibitive 7-0
 Tramway
@@ -9524,6 +9530,10 @@ Prohibitive 2-0
 Tramway
 Prohibitive 2-1
 Tube tunnel
+Prohibitive 2-2
+Light rail loading gauge
+Prohibitive 7-2
+Light rail loading gauge
 Prohibitive 3-2
 Barge canal/small river
 Prohibitive 3-3
