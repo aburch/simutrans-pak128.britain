@@ -6,11 +6,12 @@
 # Capacity 344 seats
 # https://districtdavesforum.co.uk/thread/22284/378-fifth-car
 # Power 200 kW, 17 kN per motor (3 motors per car)
+# http://www.railway-centre.com/class-376.html
 obj=vehicle
 name=BR-376Front
 engine_type=electric
 speed=120
-power=600
+power=500
 tractive_effort=50
 gear=80
 copyright=Kieron
@@ -27,7 +28,7 @@ length=12
 brake_force=35
 rolling_resistance=13
 
-weight=46
+weight=42.1
 axles=4
 cost=1814400
 runningcost=90
@@ -44,7 +45,12 @@ bidirectional=0
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-376Rear
-Constraint[Prev][1]=none
+Constraint[Prev][1]=BR-375Rear
+Constraint[Prev][2]=BR-375-6Rear
+Constraint[Prev][3]=BR-378Rear
+Constraint[Prev][4]=BR-379Rear
+Constraint[Prev][5]=BR-387Rear
+Constraint[Prev][6]=none
 
 Constraint[Next][0]=BR-376Middle
 Constraint[Next][1]=BR-376MiddlePower
@@ -76,7 +82,7 @@ obj=vehicle
 name=BR-376Rear
 engine_type=electric
 speed=120
-power=600
+power=500
 tractive_effort=50
 gear=80
 copyright=Kieron
@@ -93,7 +99,7 @@ length=12
 brake_force=35
 rolling_resistance=13
 
-weight=46
+weight=42.1
 axles=4
 cost=1814400
 runningcost=90
@@ -113,7 +119,12 @@ Constraint[Prev][0]=BR-376Middle
 Constraint[Prev][1]=BR-376MiddlePower2
 
 Constraint[Next][0]=BR-376Front
-Constraint[Next][1]=none
+Constraint[Next][1]=BR-375Front
+Constraint[Next][2]=BR-375-6Front
+Constraint[Next][3]=BR-378Front
+Constraint[Next][4]=BR-379Front
+Constraint[Next][5]=BR-387Front
+Constraint[Next][6]=none
 
 liverytype[0]=South-Eastern-Trains
 liverytype[1]=southeastern
@@ -158,7 +169,7 @@ length=11
 brake_force=30
 rolling_resistance=13
 
-weight=40
+weight=36.3
 axles=4
 cost=1008000
 runningcost=0
@@ -206,7 +217,7 @@ obj=vehicle
 name=BR-376MiddlePower
 engine_type=electric
 speed=120
-power=600
+power=500
 tractive_effort=50
 gear=80
 copyright=Kieron
@@ -223,7 +234,7 @@ length=11
 brake_force=30
 rolling_resistance=13
 
-weight=40
+weight=36.2
 axles=4
 cost=1814400
 runningcost=90
@@ -269,7 +280,7 @@ obj=vehicle
 name=BR-376MiddlePower2
 engine_type=electric
 speed=120
-power=600
+power=500
 tractive_effort=50
 gear=80
 copyright=Kieron
@@ -286,7 +297,7 @@ length=11
 brake_force=30
 rolling_resistance=13
 
-weight=40
+weight=36.2
 axles=4
 cost=1814400
 runningcost=90

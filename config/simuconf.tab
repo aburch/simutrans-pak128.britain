@@ -93,8 +93,8 @@ capital_threshold_percentage = 2
 #
 # TIP: Set a lower number for these values the earlier that the game is started.
 
-max_city_size = 20000
-max_small_city_size = 3000
+max_city_size = 100000
+max_small_city_size = 50000
 
 # These values represent the rate at which towns grow. The raw growth number is *divided*
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
