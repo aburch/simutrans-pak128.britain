@@ -7,7 +7,7 @@ engine_type=bio
 speed=18
 power=2
 gear=36
-tractive_effort=1
+tractive_effort=3
 copyright=James&jamespetts
 intro_year=1805
 intro_month=1
@@ -35,4 +35,3 @@ EmptyImage[W]=./images/horse-yorkshire-coach-double_W.0.0,4,5
 EmptyImage[NW]=./images/horse-yorkshire-coach-double_NW.0.0,12,10
 EmptyImage[N]=./images/horse-yorkshire-coach-double_N.0.0,0,33
 EmptyImage[NE]=./images/horse-yorkshire-coach-double_NE.0.0,0,24
-
