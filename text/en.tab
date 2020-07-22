@@ -755,6 +755,8 @@ DCFourthRail
 DC Fourth Rail Electrification
 TramElectrification
 DC Tramway Catenary
+750VDCRailCatenary
+Light rail catenary
 TrollyBusElectrification
 DC Trolleybus Catenary
 DCThirdRailACCCatenary
@@ -9512,6 +9514,7 @@ Permissive 2-3
 DC Fourth Rail Electrification
 Permissive 3-4
 Waterway
+# For the DLR - reserved for future use.
 Permissive 2-5
 Driverless Light Rail electrification
 Permissive 7-5
@@ -9527,6 +9530,10 @@ Prohibitive 2-0
 Tramway
 Prohibitive 2-1
 Tube tunnel
+Prohibitive 2-2
+Light rail loading gauge
+Prohibitive 7-2
+Light rail loading gauge
 Prohibitive 3-2
 Barge canal/small river
 Prohibitive 3-3
