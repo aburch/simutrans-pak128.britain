@@ -25,6 +25,13 @@ sound=colin-taft-horse-tram.wav
 
 way_constraint_prohibitive[0]=0
 
+Constraint[Prev][0]=none
+
+Constraint[Prev][0]=narrowgauge-horse-irish-draught-single
+Constraint[Prev][1]=narrowgauge-horse-shire-single
+Constraint[Prev][2]=narrowgauge-horse-clydesdale-single
+Constraint[Prev][3]=none
+
 EmptyImage[E]=./images/horse-irish-draught-single_E.0.0
 EmptyImage[SE]=./images/horse-irish-draught-single_SE.0.0
 EmptyImage[S]=./images/horse-irish-draught-single_S.0.0

@@ -26,6 +26,14 @@ fixed_cost=521
 sound=ylearkisto-horses.wav
 range=38
 
+Constraint[Prev][0]=rail-horse-friesian-single
+Constraint[Prev][1]=rail-horse-cleveland-bay-single
+Constraint[Prev][2]=rail-horse-yorkshire-coach-single
+Constraint[Prev][3]=rail-horse-irish-draught-single
+Constraint[Prev][4]=rail-horse-clydesdale-single
+Constraint[Prev][5]=rail-horse-shire-single
+Constraint[Prev][6]=none
+
 EmptyImage[E]=./horses/horse-yorkshire-coach-single-rail_E.0.0
 EmptyImage[SE]=./horses/horse-yorkshire-coach-single-rail_SE.0.0
 EmptyImage[S]=./horses/horse-yorkshire-coach-single-rail_S.0.0
