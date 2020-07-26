@@ -2782,7 +2782,26 @@ livery[108][2] = t&w-black&yellow
 intro_year[108][2] = 2012
 intro_month[108][2] = 2
 
-
+livery_scheme[109] = TSGN
+retire_year[109] = 2500
+retire_month[109] = 1
+livery[109][0] = Thameslink-navy
+intro_year[109][0] = 1997
+intro_month[109][0] = 3
+livery[109][1] = Thameslink-later
+intro_year[109][1] = 2001
+#month estimated
+intro_month[109][1] = 2
+livery[109][2] = wagn-initial
+intro_year[109][2] = 1997
+intro_month[109][2] = 1
+livery[109][3] = wagn-purple
+intro_year[109][3] = 2001
+intro_month[109][3] = 11
+#First Capital Connect is covered by scheme 10
+livery[109][4] = GTR
+intro_year[109][4] = 2014
+intro_month[109][4] = 9
 
 
 
