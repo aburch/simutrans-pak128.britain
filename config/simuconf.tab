@@ -1434,6 +1434,9 @@ intro_month[11][2] = 1
 livery[11][3] = VTEC
 intro_year[11][3] = 2015
 intro_month[11][3] = 3
+livery[11][4] = LNER
+intro_year[11][4] = 2018
+intro_month[11][4] = 6
 
 livery_scheme[12] = Grand-Central
 retire_year[12] = 2500
@@ -1497,6 +1500,13 @@ intro_month[16][4] = 5
 livery[16][5] = LOROL
 intro_year[16][5] = 2007
 intro_month[16][5] = 1
+livery[16][6] = TfL-Rail
+intro_year[16][6] = 2015
+intro_month[16][6] = 5
+livery[16][7] = LO-revised
+intro_year[16][7] = 2018
+#month estimated
+intro_month[16][7] = 5
 
 livery_scheme[17] = Island-Line
 retire_year[17] = 2500
@@ -1799,6 +1809,10 @@ intro_month[38][5] = 4
 livery[38][6] = NWM
 intro_year[38][6] = 2008
 intro_month[38][6] = 7
+livery[38][7] = west-midlands-network
+intro_year[38][7] = 2018
+intro_month[38][7] = 7
+
 
 livery_scheme[39] = BOAC
 retire_year[39] = 1974
@@ -2008,6 +2022,12 @@ retire_month[55] = 9
 livery[55][0] = LM-Standard
 intro_year[55][0] = 2007
 intro_month[55][0] = 11
+livery[55][1] = LNwR
+intro_year[55][1] = 2017
+intro_month[55][1] = 12
+livery[55][1] = Silverlink
+intro_year[55][1] = 1997
+intro_month[55][1] = 3
 
 livery_scheme[56] = Northern-Franchise
 retire_year[56] = 2999
@@ -2436,8 +2456,8 @@ intro_year[89][0] = 1987
 intro_month[89][0] = 2
 
 livery_scheme[90] = Virgin-Trains
-retire_year[90] = 2999
-retire_month[90] = 12
+retire_year[90] = 2018
+retire_month[90] = 6
 livery[90][0] = Virgin-original
 intro_year[90][0] = 1997
 intro_month[90][0] = 3
@@ -2654,6 +2674,115 @@ intro_month[100][3] = 7
 livery_scheme[101] = L&BR
 retire_year[101] = 1923
 retire_month[101] = 1
-livery[100][0] = L&BR-Standard
+livery[101][0] = L&BR-Standard
 intro_year[101][0] = 1898
 intro_month[101][0] = 5
+
+livery_scheme[102] = TransPennine
+retire_year[102] = 2500
+retire_month[102] = 1
+livery[102][0] = TPE-1
+intro_year[102][0] = 2016
+intro_month[102][0] = 4
+
+livery_scheme[103] = Wales-&-Borders
+retire_year[103] = 2500
+retire_month[103] = 1
+livery[103][0] = Wales&West
+intro_year[103][0] = 1996
+intro_month[103][0] = 10
+livery[103][1] = ValleyLines
+intro_year[103][1] = 1996
+intro_month[103][1] = 10
+livery[103][2] = Wales&Borders
+intro_year[103][2] = 2001
+intro_month[103][2] = 10
+# Arriva Trains Wales covered by scheme 61
+livery[103][3] = TfW-initial
+intro_year[103][3] = 2018
+intro_month[103][3] = 5
+
+livery_scheme[104] = BristolSW
+retire_year[104] = 2006
+retire_month[104] = 3
+livery[104][0] = WessexTrains
+intro_year[104][0] = 2001
+intro_month[104][0] = 10
+livery[104][1] = metrobus
+intro_year[104][1] = 2018
+intro_month[104][1] = 5
+
+livery_scheme[105] = Caledonian-Sleeper
+retire_year[105] = 2500
+retire_month[105] = 1
+livery[105][0] = Serco-initial
+intro_year[105][0] = 2015
+intro_month[105][0] = 4
+
+livery_scheme[106] = merseytravel
+retire_year[106] = 2500
+retire_month[106] = 1
+#http://www.dartslf.com/PEP/liveries.html
+livery[106][0] = Merseyrail91
+intro_year[106][0] = 1991
+#month estimated
+intro_month[106][0] = 4
+livery[106][1] = Merseyrail00
+intro_year[106][1] = 2000
+#month estimated
+intro_month[106][1] = 4
+livery[106][1] = Merseyrail03
+intro_year[106][1] = 2003
+#month estimated
+intro_month[106][1] = 4
+livery[106][1] = Merseyrail14
+intro_year[106][1] = 2014
+intro_month[106][1] = 2
+
+livery_scheme[107] = essex-thameside
+retire_year[107] = 2500
+retire_month[107] = 1
+#https://en.wikipedia.org/wiki/British_Rail_Class_357
+livery[107][0] = lts-rail
+intro_year[107][0] = 1996
+intro_month[107][0] = 5
+livery[107][1] = c2c-blue
+intro_year[107][1] = 2002
+#month estimated
+intro_month[107][1] = 5
+livery[107][1] = c2c-white
+intro_year[107][1] = 2009
+intro_month[107][1] = 6
+
+livery_scheme[107] = WCML-Franchise
+retire_year[107] = 2500
+retire_month[107] = 1
+livery[107][0] = Avanti-WC
+intro_year[107][0] = 2019
+intro_month[107][0] = 12
+
+#https://en.wikipedia.org/wiki/Tyne_and_Wear_Metro_rolling_stock#Livery
+livery_scheme[108] = Tyne&Wear
+retire_year[108] = 2500
+retire_month[108] = 1
+livery[108][0] = t&wpte
+#year and month estimated. Livery used on buses before Metro opened in August 1980.
+intro_year[108][0] = 1978
+intro_month[108][0] = 8
+livery[108][1] = t&w-rbg
+#year and month estimated
+intro_year[108][1] = 1995
+intro_month[108][1] = 2
+livery[108][2] = t&w-rbg-revised
+#month estimated. Doors painted full yellow to comply with disability standards.
+intro_year[108][2] = 2005
+intro_month[108][2] = 2
+livery[108][2] = t&w-black&yellow
+#month estimated
+intro_year[108][2] = 2012
+intro_month[108][2] = 2
+
+
+
+
+
