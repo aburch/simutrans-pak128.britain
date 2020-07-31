@@ -3928,6 +3928,22 @@ BR-390RearCoach
 BR Class 390 "Pendolino" (rear coach)
 BR-390RearCab
 BR Class 390 "Pendolino" (rear cab)
+BR-395Front
+BR Class 395 "Javelin"
+BR-395Middle
+BR Class 395 "Javelin" (centre)
+BR-395Rear
+BR Class 395 "Javelin" (back)
+BR-397Front
+BR Class 397 "Civity"
+BR-397FrontPanto
+BR Class 397 (front pantograph)
+BR-397Middle
+BR Class 397 (centre motor)
+BR-397RearPanto
+BR Class 397 (rear pantograph)
+BR-397Rear
+BR Class 397 (rear motor)
 BR-202-front
 BR Class 202 DEMU
 BR-202-rear
@@ -4988,12 +5004,6 @@ LNER-ClassEM1
 LNER Class EM1 Bo-Bo
 LNER-ClassEM2
 LNER/BR Class EM2 Co-Co
-BR-395Front
-BR Class 395 "Javelin"
-BR-395Middle
-BR Class 395 "Javelin" (centre)
-BR-395Rear
-BR Class 395 "Javelin" (back)
 PuffingBilly
 Wylam Colliery "Puffing Billy" 0-4-0
 PuffingBilly-Tender
@@ -5716,6 +5726,14 @@ BR-Mk4-FO
 BR Mk. 4 open carriage (first class)
 BR-Mk4-RSB
 BR Mk. 4 restaurant buffet (standard class)
+BR-Mk5a-TFO
+BR Mk. 5a (1st Class)
+BR-Mk5a-TSO
+BR Mk. 5a (Standard Class)
+BR-Mk5a-TSOD
+BR Mk. 5a (Standard Class, luggage space)
+BR-Mk5a-DTSO
+BR Mk. 5a Driving Trailer (Standard Class)
 4-wheel-1850s-mail
 Four wheel mail carriage
 4-wheel-1850s-tpo
@@ -9782,7 +9800,8 @@ Tyne&Wear
 Tyne & Wear
 TSGN
 Thameslink GN
-
+ECTFirst
+East Coast Trains
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]
