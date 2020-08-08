@@ -138,6 +138,9 @@ Constraint[Prev][1]=BR-222MidStandard
 
 Constraint[Next][0]=BR-222MidStandard
 Constraint[Next][1]=BR-222MidBuffet
+Constraint[Next][2]=BR-222Rear
+Constraint[Next][3]=BR-222MidFirst
+Constraint[Next][4]=BR-222MidComposite
 
 liverytype[0]=East-Midlands-Trains
 liverytype[1]=HullTrains
@@ -216,7 +219,11 @@ fixed_maintenance=0
 
 can_lead_from_rear=0
 bidirectional=1
-catering_level=2
+#the prototypical formation of a Class 222 includes both buffet (standard class) and kitchen (first class). As it is not currently
+#possible in Simutrans to cater for separate classes, the higher catering level for the kitchen makes the buffet redundant. To encourage
+#realistic use, the catering levels have been swapped so that, while it will be possible to form a train without a buffet, the higher
+#catering level will only be available when one is included.
+catering_level=4
 
 min_loading_time=35
 max_loading_time=240
@@ -319,6 +326,7 @@ comfort[3]=140
 Constraint[Prev][0]=BR-222MidComposite
 Constraint[Prev][1]=BR-222MidBuffet
 Constraint[Prev][2]=BR-222MidFirst
+Constraint[Prev][3]=BR-222MidStandard
 
 Constraint[Next][0]=BR-222Rear
 Constraint[Next][1]=BR-222MidFirst
@@ -409,6 +417,7 @@ comfort[2]=0
 comfort[3]=140
 
 Constraint[Prev][0]=BR-222MidBuffet
+Constraint[Prev][1]=BR-222MidStandard
 
 Constraint[Next][0]=BR-222MidFirst
 Constraint[Next][1]=BR-222Rear
@@ -490,7 +499,7 @@ sound=video47-class-220.wav
 
 can_lead_from_rear=1
 bidirectional=0
-catering_level=4 
+catering_level=3 
 
 min_loading_time=35
 max_loading_time=240
@@ -502,6 +511,7 @@ air_resistance=108
 
 Constraint[Prev][0]=BR-222MidFirst
 Constraint[Prev][1]=BR-222MidComposite
+Constraint[Prev][2]=BR-222MidStandard
 
 Constraint[Next][0]=BR-222Front
 Constraint[Next][1]=none
