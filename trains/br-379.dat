@@ -2,6 +2,7 @@
 # Page 177: 20 first class, 189 second class, 136 standing, checked on video
 # Could not find engine specs other than wild guess here https://districtdavesforum.co.uk/thread/22284/378-fifth-car
 # Same engine as 376/378, but higher top speed so I put lover tractive effort to compensate (same ase 375/377)
+# http://www.railway-centre.com/class-379.html
 obj=vehicle
 name=BR-379Front
 engine_type=electric
@@ -25,7 +26,7 @@ length=12
 brake_force=35
 rolling_resistance=13
 
-weight=46
+weight=42.1
 axles=4
 cost=2116800
 runningcost=90
@@ -46,7 +47,10 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-379Rear
 Constraint[Prev][1]=BR-375-6Rear
 Constraint[Prev][2]=BR-387Rear
-Constraint[Prev][3]=none
+Constraint[Prev][3]=BR-375Rear
+Constraint[Prev][4]=BR-376Rear
+Constraint[Prev][5]=BR-378Rear
+Constraint[Prev][6]=none
 
 Constraint[Next][0]=BR-379Middle
 Constraint[Next][1]=BR-379Panto
@@ -77,7 +81,7 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=64
+payload[1]=62
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=38
@@ -85,7 +89,7 @@ length=11
 brake_force=30
 rolling_resistance=13
 
-weight=40
+weight=36.65
 axles=4
 cost=2116800
 runningcost=90
@@ -132,7 +136,7 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=64
+payload[1]=62
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=38
@@ -140,7 +144,7 @@ length=11
 brake_force=30
 rolling_resistance=13
 
-weight=40
+weight=36.65
 axles=4
 cost=2116800
 runningcost=90
@@ -187,7 +191,7 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=41
+payload[1]=43
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=47
@@ -195,7 +199,7 @@ length=11
 brake_force=30
 rolling_resistance=13
 
-weight=40
+weight=40.92
 axles=4
 cost=1008000
 runningcost=0
@@ -252,7 +256,7 @@ length=12
 brake_force=35
 rolling_resistance=13
 
-weight=46
+weight=42.3
 axles=4
 cost=2116800
 runningcost=90
@@ -276,7 +280,10 @@ Constraint[Prev][1]=BR-379Middle2
 Constraint[Next][0]=BR-379Front
 Constraint[Next][1]=BR-375-6Front
 Constraint[Next][2]=BR-387Front
-Constraint[Next][3]=none
+Constraint[Next][3]=BR-375Front
+Constraint[Next][4]=BR-376Front
+Constraint[Next][5]=BR-378Front
+Constraint[Next][6]=none
 
 EmptyImage[E]=./railcars/br-379-rear-orig.1.4
 EmptyImage[SE]=./railcars/br-379-rear-orig.1.5

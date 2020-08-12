@@ -1,3 +1,7 @@
+# http://www.railway-centre.com/class-321.html  based on 321/4
+# https://eversholtrail.co.uk/fleet/class-321/ Maximum acceleration: 0.55 ms-2 -> 97 kN
+# Class 318 has the same motors, but lower top speed, so possible TE is 108 kN (accel 0.8 ms-2)
+# Documentation on seats is not consistent, small differences possible due to tip-up seats
 obj=vehicle
 name=BR-321(front)
 engine_type=electric
@@ -19,7 +23,7 @@ length=11
 brake_force=21
 rolling_resistance=13
 
-weight=29
+weight=29.8
 axles=4
 cost=1921000
 runningcost=0
@@ -76,7 +80,7 @@ length=11
 brake_force=21
 rolling_resistance=13
 
-weight=29
+weight=29.8
 axles=4
 cost=1921000
 runningcost=0
@@ -125,7 +129,7 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=79
+payload[1]=74
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=58
@@ -133,7 +137,7 @@ length=11
 brake_force=21
 rolling_resistance=13
 
-weight=28
+weight=29.2
 axles=4
 cost=1921000
 runningcost=0
@@ -173,8 +177,8 @@ obj=vehicle
 name=BR-321(motor)
 engine_type=electric
 speed=160
-power=996
-tractive_effort=75
+power=1072
+tractive_effort=97
 gear=80
 copyright=Kieron
 intro_year=1988
@@ -184,18 +188,18 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=74
+payload[1]=79
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=54
 length=11
-brake_force=39
+brake_force=38
 rolling_resistance=13
 
-weight=52
+weight=51.6
 axles=4
 cost=2021000
-runningcost=100
+runningcost=107
 fixed_cost=11053
 
 can_lead_from_rear=0
@@ -247,7 +251,7 @@ length=11
 brake_force=21
 rolling_resistance=13
 
-weight=29
+weight=29.8
 axles=4
 cost=1921000
 runningcost=0

@@ -486,6 +486,52 @@
     <None Include="citybuildings\res-1850.dat" />
     <None Include="citybuildings\res-1900.dat" />
     <None Include="citybuildings\res-40.dat" />
+    <None Include="citycars\austin-light-twelve.dat" />
+    <None Include="citycars\austin-maestro.dat" />
+    <None Include="citycars\austin-montego.dat" />
+    <None Include="citycars\austin-ten-1937.dat" />
+    <None Include="citycars\austin-ten.dat" />
+    <None Include="citycars\austin-twelve.dat" />
+    <None Include="citycars\citroen-light-15.dat" />
+    <None Include="citycars\citroen-type-a.dat" />
+    <None Include="citycars\citroen-type-b2.dat" />
+    <None Include="citycars\citroen-type-c.dat" />
+    <None Include="citycars\daimler-wagonette.dat" />
+    <None Include="citycars\ford-escort-mk1.dat" />
+    <None Include="citycars\ford-escort-mk3.dat" />
+    <None Include="citycars\ford-escort-mk4.dat" />
+    <None Include="citycars\ford-focus.dat" />
+    <None Include="citycars\ford-galaxy-mk3.dat" />
+    <None Include="citycars\ford-galaxy.dat" />
+    <None Include="citycars\ford-model-a.dat" />
+    <None Include="citycars\ford-model-c.dat" />
+    <None Include="citycars\ford-mondeo-mk1.dat" />
+    <None Include="citycars\ford-mondeo-mk4.dat" />
+    <None Include="citycars\ford-prefect-early.dat" />
+    <None Include="citycars\ford-prefect-late.dat" />
+    <None Include="citycars\leyland-princess.dat" />
+    <None Include="citycars\morris-marina.dat" />
+    <None Include="citycars\morris-minor-1928.dat" />
+    <None Include="citycars\morris-minor.dat" />
+    <None Include="citycars\morris-oxford-2.dat" />
+    <None Include="citycars\morris-oxford-3.dat" />
+    <None Include="citycars\morris-oxford-4.dat" />
+    <None Include="citycars\morris-oxford-bullnose.dat" />
+    <None Include="citycars\morris-oxford-flatnose.dat" />
+    <None Include="citycars\morris-oxford-mo.dat" />
+    <None Include="citycars\new-mini.dat" />
+    <None Include="citycars\nissan-qashqai.dat" />
+    <None Include="citycars\park-drag.dat" />
+    <None Include="citycars\rover-20.dat" />
+    <None Include="citycars\rover-8-1919.dat" />
+    <None Include="citycars\rover-8.dat" />
+    <None Include="citycars\rover-9.dat" />
+    <None Include="citycars\rover-sd1.dat" />
+    <None Include="citycars\standard-vanguard-vignale.dat" />
+    <None Include="citycars\standard-vanguard.dat" />
+    <None Include="citycars\triumph-2000.dat" />
+    <None Include="citycars\triumph-dolomite.dat" />
+    <None Include="citycars\triumph-herald.dat" />
     <None Include="citycars\Volvo-240-Estate.dat" />
     <None Include="citycars\volvo-v70-police.dat" />
     <None Include="config.template" />
@@ -732,6 +778,7 @@
     <None Include="trains\br-202.dat" />
     <None Include="trains\br-210.dat" />
     <None Include="trains\br-221.dat" />
+    <None Include="trains\br-222.dat" />
     <None Include="trains\br-302.dat" />
     <None Include="trains\br-307.dat" />
     <None Include="trains\br-312.dat" />
@@ -1848,9 +1895,6 @@
     <None Include="bus\sentinel-standard.dat" />
     <None Include="industry\sheep-farm.dat" />
     <None Include="trams\sheffield-roberts.dat" />
-    <None Include="trams\sheffield-supertram-front.dat" />
-    <None Include="trams\sheffield-supertram-middle.dat" />
-    <None Include="trams\sheffield-supertram-rear.dat" />
     <None Include="citybuildings\sidewalk.dat" />
     <None Include="ways\tunnel-tracks.dat" />
     <None Include="ways\signals-narrow.dat" />
@@ -2014,6 +2058,8 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="sound\credits.txt" />
+    <Text Include="text\streetlist[2]_en.txt" />
+    <Text Include="text\streetlist[3]_en.txt" />
     <Text Include="text\streetlist_en.txt" />
   </ItemGroup>
   <ItemGroup>

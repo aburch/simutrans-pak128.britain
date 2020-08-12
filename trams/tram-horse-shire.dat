@@ -6,7 +6,7 @@ engine_type=bio
 speed=10
 gear=57
 power=1
-tractive_effort=1
+tractive_effort=3
 copyright=James&jamespetts
 intro_year=1860
 intro_month=1
@@ -25,6 +25,14 @@ fixed_cost=167
 sound=colin-taft-horse-tram.wav
 
 way_constraint_prohibitive[0]=0
+
+Constraint[Prev][0]=tram-horse-clydesdale-single
+Constraint[Prev][1]=tram-horse-clydesdale-double
+Constraint[Prev][2]=tram-horse-irish-draught-single
+Constraint[Prev][3]=tram-horse-irish-draught-double
+Constraint[Prev][4]=tram-horse-shire-single
+Constraint[Prev][5]=tram-horse-shire-double
+Constraint[Prev][6]=none
 
 Constraint[Next][0]=Small-2-Deck-Trailer
 Constraint[Next][1]=1-Deck-Trailer
@@ -52,7 +60,7 @@ engine_type=bio
 speed=10
 gear=57
 power=2
-tractive_effort=2
+tractive_effort=6
 copyright=James&jamespetts
 intro_year=1860
 intro_month=1
@@ -72,7 +80,13 @@ sound=colin-taft-horse-tram.wav
 
 way_constraint_prohibitive[0]=0
 
-Constraint[Prev][0]=none
+Constraint[Prev][0]=tram-horse-clydesdale-single
+Constraint[Prev][1]=tram-horse-clydesdale-double
+Constraint[Prev][2]=tram-horse-irish-draught-single
+Constraint[Prev][3]=tram-horse-irish-draught-double
+Constraint[Prev][4]=tram-horse-shire-single
+Constraint[Prev][5]=tram-horse-shire-double
+Constraint[Prev][6]=none
 
 Constraint[Next][0]=1-Deck-Trailer
 Constraint[Next][1]=Medium-2-Deck-Trailer
@@ -89,4 +103,3 @@ EmptyImage[W]=./images/horse-shire-double_W.0.0
 EmptyImage[NW]=./images/horse-shire-double_NW.0.0
 EmptyImage[N]=./images/horse-shire-double_N.0.0
 EmptyImage[NE]=./images/horse-shire-double_NE.0.0
-
