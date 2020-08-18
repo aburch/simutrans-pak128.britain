@@ -654,7 +654,7 @@ industry_increase_every = 2000
 # At 1, industries will demand enough goods to fill their internal storage initially, then will demand only enough goods to keep up with the demand of their consumers.
 # At 2, industries will demand only enough goods to keep up with the demand of their consumers without trying to fill their internal storage first, but will not demand so many goods that their internal storage is likely to overflow.
 # At 3, industries behave as in 2, save that the internal storage of consumer industries is ignored.
-just_in_time = 2
+just_in_time = 4
 
 # True if substations ("transformers") are allowed to be built underground (default)
 allow_underground_transformers = 1
