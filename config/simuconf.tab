@@ -272,7 +272,7 @@ meters_per_tile = 125
 # Note that the impact of comfort on revenue decreases with journey time.
 # It is at its maximum level down to tolerable_comfort_median_long_minutes, after which it gradually
 # reduces to 20% of its maximum at tolerable_comfort_short_minutes, and does not decrease further
-# thereafter. Revenue will never decrease below 75% of the base level.
+# thereafter.
 
 # 0:05h
 tolerable_comfort_short_minutes=5
