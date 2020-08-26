@@ -1177,6 +1177,22 @@ citycar_life = 1375
 # Pak128.Britain default = 158 (yellow)
 cursor_overlay_color = 158
 
+# The below settings give an offset in pixels per direction for each vehicle 
+# when it is in a reversed state. This allows paksets whose vehicle alignments are
+# not fully centered to have vehicles reversing algorithmically and allowing them
+# to be properly aligned in game when they are reversed. 
+# 
+# By default, all of these values are 0.
+#
+reverse_base_offset_south = 4, -1, 34
+reverse_base_offset_west = -1, 0, 2
+reverse_base_offset_southwest = 0, 0, 0
+reverse_base_offset_southeast = 0, 4, 0
+reverse_base_offset_north = -1, 0, 14
+reverse_base_offset_east = -3, -2, 32
+reverse_base_offset_northeast = 0, 0, 0
+reverse_base_offset_northwest = 0, -4, 0
+
 ################################### River settings ##################################
 
 # rivers:
