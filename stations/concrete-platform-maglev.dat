@@ -4,6 +4,9 @@ copyright=Kieron
 type=stop
 waytype=maglev_track
 enables_pax=1
+population_and_visitor_demand_capacity=0
+employment_capacity=0
+mail_demand=0
 noconstruction=1
 intro_year=1960
 #no retire
@@ -52,7 +55,6 @@ FrontImage[13][0][0][0][0][1]=concrete-platform-snow.0.3
 FrontImage[14][0][0][0][0][1]=concrete-platform-snow.1.7
 FrontImage[15][0][0][0][0][1]=concrete-platform-snow.0.7
 
-
 Icon=> button-concrete-platform.0.0
 Cursor=concrete-platform-cursor.0.0
 
@@ -64,6 +66,9 @@ copyright=Kieron
 type=stop
 waytype=maglev_track
 enables_pax=1
+population_and_visitor_demand_capacity=0
+employment_capacity=0
+mail_demand=0
 noconstruction=1
 intro_year=1960
 #no retire
@@ -123,6 +128,9 @@ copyright=Kieron
 type=stop
 waytype=maglev_track
 enables_pax=1
+population_and_visitor_demand_capacity=0
+employment_capacity=1
+mail_demand=0
 noconstruction=1
 intro_year=1960
 #no retire

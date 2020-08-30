@@ -5,7 +5,7 @@ engine_type=bio
 speed=10
 gear=43
 power=1
-tractive_effort=1
+tractive_effort=3
 copyright=James&jamespetts
 intro_year=1750
 intro_month=1
@@ -24,6 +24,20 @@ fixed_cost=94
 
 sound=ylearkisto-horse.wav
 
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-clydesdale-single
+Constraint[Prev][2]=road-horse-clydesdale-double
+Constraint[Prev][3]=road-horse-friesian-double
+Constraint[Prev][4]=road-horse-hackney-single
+Constraint[Prev][5]=road-horse-hackney-double
+Constraint[Prev][6]=road-horse-irish-draught-single
+Constraint[Prev][7]=road-horse-irish-draught-double
+Constraint[Prev][8]=road-horse-pony-single
+Constraint[Prev][9]=road-horse-pony-double
+Constraint[Prev][10]=road-horse-shire-single
+Constraint[Prev][11]=road-horse-shire-double
+Constraint[Prev][12]=road-horse-yorkshire-coach-double
+Constraint[Prev][13]=none
 
 EmptyImage[E]=./images/horse-irish-draught-single_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-irish-draught-single_SE.0.0,-13,0
@@ -42,7 +56,7 @@ engine_type=bio
 speed=10
 gear=43
 power=2
-tractive_effort=2
+tractive_effort=6
 copyright=James&jamespetts
 intro_year=1750
 intro_month=1
@@ -61,6 +75,20 @@ fixed_cost=188
 
 sound=ylearkisto-horse.wav
 
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-clydesdale-single
+Constraint[Prev][2]=road-horse-clydesdale-double
+Constraint[Prev][3]=road-horse-friesian-double
+Constraint[Prev][4]=road-horse-hackney-single
+Constraint[Prev][5]=road-horse-hackney-double
+Constraint[Prev][6]=road-horse-irish-draught-single
+Constraint[Prev][7]=road-horse-irish-draught-double
+Constraint[Prev][8]=road-horse-pony-single
+Constraint[Prev][9]=road-horse-pony-double
+Constraint[Prev][10]=road-horse-shire-single
+Constraint[Prev][11]=road-horse-shire-double
+Constraint[Prev][12]=road-horse-yorkshire-coach-double
+Constraint[Prev][13]=none
 
 EmptyImage[E]=./images/horse-irish-draught-double_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-irish-draught-double_SE.0.0,-13,0
@@ -70,4 +98,3 @@ EmptyImage[W]=./images/horse-irish-draught-double_W.0.0,4,5
 EmptyImage[NW]=./images/horse-irish-draught-double_NW.0.0,12,10
 EmptyImage[N]=./images/horse-irish-draught-double_N.0.0,0,33
 EmptyImage[NE]=./images/horse-irish-draught-double_NE.0.0,0,24
-

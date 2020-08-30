@@ -1,17 +1,19 @@
 # These should have low maintenance costs: they are very reliable and save engery with regenerative braking.
+# https://web.archive.org/web/20150702005602/http://www.porterbrook.co.uk/downloads/brochures/357%20Brochure.pdf
+# http://www.railway-centre.com/class-357.html
 
 obj=vehicle
 name=c2c-357(front)
 engine_type=electric
 speed=160
-power=560
-tractive_effort=85
+power=500
+tractive_effort=44
 gear=80
 copyright=Kieron/JamesPetts
 intro_year=1999
 intro_month=8
-retire_year=2010
-retire_month=10
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -21,10 +23,10 @@ length=12
 brake_force=30
 rolling_resistance=13
 
-weight=41
+weight=40.7
 axles=4
 cost=1512000
-runningcost=56
+runningcost=75
 fixed_cost=7260
 sound=panos-g-class-375.wav
 
@@ -41,6 +43,7 @@ Constraint[Prev][0]=c2c-357(rear)
 Constraint[Prev][1]=none
 
 Constraint[Next][0]=c2c-357(centre1)
+Constraint[Next][1]=c2c-357(centre3)
 
 EmptyImage[E]=./railcars/br-357-driving-front.1.4
 EmptyImage[SE]=./railcars/br-357-driving-front.1.5
@@ -54,30 +57,29 @@ EmptyImage[NE]=./railcars/br-357-driving-front.1.3
 ---
 
 obj=vehicle
-name=c2c-357(centre1)
+name=c2c-357(centre3)
 engine_type=electric
 speed=160
-power=0
-tractive_effort=0
+power=500
+tractive_effort=44
 gear=80
 copyright=Kieron/JamesPetts
 intro_year=1999
 intro_month=8
-retire_year=2010
-retire_month=10
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=62
-overcrowded_capacity=47
+payload[1]=78
+overcrowded_capacity=59
 length=12
 brake_force=27
-rolling_resistance=13
 
-weight=37
+weight=36.7
 axles=4
 cost=1512000
-runningcost=0
+runningcost=75
 fixed_cost=3150
 
 min_loading_time=17
@@ -91,7 +93,7 @@ way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=c2c-357(front)
 
-Constraint[Next][0]=c2c-357(centre2)
+Constraint[Next][0]=c2c-357(centre1)
 
 EmptyImage[E]=./railcars/br-357-centre.1.4
 EmptyImage[SE]=./railcars/br-357-centre.1.5
@@ -105,30 +107,83 @@ EmptyImage[NE]=./railcars/br-357-centre.1.3
 ---
 
 obj=vehicle
-name=c2c-357(centre2)
+name=c2c-357(centre1)
 engine_type=electric
 speed=160
-power=560
-tractive_effort=85
+power=0
+tractive_effort=0
 gear=80
 copyright=Kieron/JamesPetts
 intro_year=1999
 intro_month=8
-retire_year=2010
-retire_month=10
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=78
+payload[1]=62
+overcrowded_capacity=47
+length=12
+brake_force=27
+rolling_resistance=13
+
+weight=39.5
+axles=4
+cost=1008000
+runningcost=0
+fixed_cost=1260
+
+min_loading_time=17
+max_loading_time=60
+comfort[0]=0
+comfort[1]=87
+
+can_lead_from_rear=1
+bidirectional=0
+way_constraint_permissive[2]=2
+
+Constraint[Prev][0]=c2c-357(front)
+Constraint[Prev][1]=c2c-357(centre3)
+
+Constraint[Next][0]=c2c-357(centre2)
+Constraint[Next][1]=c2c-357(rear)
+
+EmptyImage[E]=./railcars/br-357-pantograph.1.4
+EmptyImage[SE]=./railcars/br-357-pantograph.1.5
+EmptyImage[S]=./railcars/br-357-pantograph.1.6
+EmptyImage[SW]=./railcars/br-357-pantograph.1.7
+EmptyImage[W]=./railcars/br-357-pantograph.1.0
+EmptyImage[NW]=./railcars/br-357-pantograph.1.1
+EmptyImage[N]=./railcars/br-357-pantograph.1.2
+EmptyImage[NE]=./railcars/br-357-pantograph.1.3
+
+---
+
+obj=vehicle
+name=c2c-357(centre2)
+engine_type=electric
+speed=160
+power=500
+tractive_effort=44
+gear=80
+copyright=Kieron/JamesPetts
+intro_year=1999
+intro_month=8
+retire_year=2017
+retire_month=11
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=71
 overcrowded_capacity=59
 length=12
 brake_force=27
 
-weight=40
+weight=36.7
 axles=4
 cost=1512000
-runningcost=56
-fixed_cost=1260
+runningcost=75
+fixed_cost=3150
 
 min_loading_time=17
 max_loading_time=60
@@ -143,14 +198,14 @@ Constraint[Prev][0]=c2c-357(centre1)
 
 Constraint[Next][0]=c2c-357(rear)
 
-EmptyImage[E]=./railcars/br-357-pantograph.1.4
-EmptyImage[SE]=./railcars/br-357-pantograph.1.5
-EmptyImage[S]=./railcars/br-357-pantograph.1.6
-EmptyImage[SW]=./railcars/br-357-pantograph.1.7
-EmptyImage[W]=./railcars/br-357-pantograph.1.0
-EmptyImage[NW]=./railcars/br-357-pantograph.1.1
-EmptyImage[N]=./railcars/br-357-pantograph.1.2
-EmptyImage[NE]=./railcars/br-357-pantograph.1.3
+EmptyImage[E]=./railcars/br-357-centre.1.4
+EmptyImage[SE]=./railcars/br-357-centre.1.5
+EmptyImage[S]=./railcars/br-357-centre.1.6
+EmptyImage[SW]=./railcars/br-357-centre.1.7
+EmptyImage[W]=./railcars/br-357-centre.1.0
+EmptyImage[NW]=./railcars/br-357-centre.1.1
+EmptyImage[N]=./railcars/br-357-centre.1.2
+EmptyImage[NE]=./railcars/br-357-centre.1.3
 
 ---
 
@@ -158,28 +213,28 @@ obj=vehicle
 name=c2c-357(rear)
 engine_type=electric
 speed=160
-power=560
-tractive_effort=85
+power=500
+tractive_effort=44
 gear=80
 copyright=Kieron/JamesPetts
 intro_year=1999
 intro_month=8
-retire_year=2010
-retire_month=10
+retire_year=2017
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=78
+payload[1]=71
 overcrowded_capacity=53
-length=13
+length=12
 brake_force=30
 rolling_resistance=13
 
-weight=41
+weight=40.7
 axles=4
 cost=1512000
-runningcost=56
-fixed_cost=7260
+runningcost=75
+fixed_cost=3150
 sound=panos-g-class-375.wav
 
 min_loading_time=17
@@ -192,6 +247,7 @@ bidirectional=0
 way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=c2c-357(centre2)
+Constraint[Prev][1]=c2c-357(centre1)
 
 Constraint[Next][0]=c2c-357(front)
 Constraint[Next][1]=none

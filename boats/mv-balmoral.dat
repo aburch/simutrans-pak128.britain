@@ -36,8 +36,10 @@ range=120
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+Constraint[Next][0]=ferry-mail
+Constraint[Next][1]=none
 
 EmptyImage[E]=./images/mv-balmoral_E.0.0
 EmptyImage[SE]=./images/mv-balmoral_SE.0.0

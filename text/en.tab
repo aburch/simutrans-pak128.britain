@@ -722,21 +722,27 @@ Tube tunnel (concrete)
 PowerTunnel
 High voltage transmission line tunnel
 Canal
-Barge Canal
+Barge canal
+canal-lined
+Barge canal (lined)
 CanalNarrow
-Narrowboat Canal
+Narrowboat canal
 CanalTub
-Tub boat Canal
+Tub boat canal
 CanalShip
-Ship Canal
+Ship canal (improved)
 CanalShip-early
-Ship Canal
+Ship canal
+canal-ship-lined
+Ship canal (lined)
 CanalLargeShip
-Large Ship Canal
+Large ship canal
 NarrowTunnelBrick
 Brick tunnel (narrow gauge)
 NarrowTunnelStone
 Stone tunnel (narrow gauge)
+LightRailTunnelConcrete
+Concrete light rail tunnel
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 DCRailCatenary
@@ -749,12 +755,16 @@ DCFourthRail
 DC Fourth Rail Electrification
 TramElectrification
 DC Tramway Catenary
+750VDCRailCatenary
+Light rail catenary
 TrollyBusElectrification
 DC Trolleybus Catenary
 DCThirdRailACCCatenary
 AC Overhead Catenary with DC Third Rail Electrification
 DCThirdRailDCCCatenary
 DC Overhead Catenary with DC Third Rail Electrification
+DLRThirdRail
+Driverless Light Rail electrification
 #___________________________________townhall____________________________________
 #___________________________________townhall____________________________________
 00_CITY
@@ -1225,9 +1235,9 @@ Small_Rugby_Ground
 Rugby pitch
 Stonehenge
 Stonehenge
-Knight_Monument
+Knight-Monument
 Chivalric Monument
-War_Memorial
+War-Memorial
 War Memorial
 NelsonColumn2
 Nelson's Column
@@ -1259,7 +1269,7 @@ ParishChurchHolyTrinity
 Holy Trinity Parish Church
 ParishChurchStJohns
 St John's Parish Church
-ParishChurchAllwrs
+ParishChurchAllSaints
 All Saints Parish Church
 Cathedral1
 Cathedral
@@ -2440,16 +2450,10 @@ Large river (Navigable)
 #______________________________________NarrowGaugeVehicle______________________________________
 narrowgauge-horse-clydesdale-single
 Clydesdale horse
-narrowgauge-horse-clydesdale-double
-Clydesdale horses (pair)
 narrowgauge-horse-shire-single
 Shire horse
-narrowgauge-horse-shire-double
-Shire horses (pair)
 narrowgauge-horse-irish-draught-single
 Irish draught horse
-narrowgauge-horse-irish-draught-double
-Irish draught horses (pair)
 wagon-ng-bulk
 2t bulk wagon
 wagon-ng-tanker
@@ -3712,6 +3716,18 @@ BR-221Middle
 BR Class 221 "Super Voyager" (centre)
 BR-221Middle-shop
 BR Class 221 "Super Voyager" (centre with shop)
+BR-222Front
+BR Class 222 "Meridian/Pioneer"
+BR-222MidStandard
+BR Class 222 "Meridian/Pioneer" (standard-class saloon)
+BR-222MidBuffet
+BR Class 222 "Meridian/Pioneer" (standard-class buffet)
+BR-222MidFirst
+BR Class 222 "Meridian/Pioneer" (first-class saloon)
+BR-222MidComposite
+BR Class 222 "Meridian/Pioneer" (composite saloon)
+BR-222Rear
+BR Class 222 "Meridian/Pioneer" (rear, first-class with galley)
 BR-800Front
 BR Class 800 "Super Express"
 BR-800MiddlePower
@@ -3823,6 +3839,8 @@ BR Class 357 "Electrostar" EMU
 c2c-357(centre1)
 BR Class 357 "Electrostar" EMU (pantograph trailer)
 c2c-357(centre2)
+BR Class 357 "Electrostar" EMU (second motor)
+c2c-357(centre3)
 BR Class 357 "Electrostar" EMU (centre motor)
 c2c-357(rear)
 BR Class 357 "Electrostar" EMU (rear)
@@ -3830,6 +3848,8 @@ BR-379Front
 BR Class 379 "Electrostar" EMU
 BR-379Middle
 BR Class 379 "Electrostar" EMU (centre trailer)
+BR-379Middle2
+BR Class 379 "Electrostar" EMU (second motor)
 BR-379Panto
 BR Class 379 "Electrostar" EMU (centre motor)
 BR-379Rear
@@ -3840,6 +3860,8 @@ BR-387Rear
 BR Class 387 "Electrostar" EMU (rear)
 BR-387Middle
 BR Class 387 "Electrostar" EMU (centre motor)
+BR-387Middle2
+BR Class 387 "Electrostar" EMU (second motor)
 BR-387Panto
 BR Class 387 "Electrostar" EMU (pantograph car)
 BR-360(front)
@@ -3906,6 +3928,22 @@ BR-390RearCoach
 BR Class 390 "Pendolino" (rear coach)
 BR-390RearCab
 BR Class 390 "Pendolino" (rear cab)
+BR-395Front
+BR Class 395 "Javelin"
+BR-395Middle
+BR Class 395 "Javelin" (centre)
+BR-395Rear
+BR Class 395 "Javelin" (back)
+BR-397Front
+BR Class 397 "Civity"
+BR-397FrontPanto
+BR Class 397 (front pantograph)
+BR-397Middle
+BR Class 397 (centre motor)
+BR-397RearPanto
+BR Class 397 (rear pantograph)
+BR-397Rear
+BR Class 397 (rear motor)
 BR-202-front
 BR Class 202 DEMU
 BR-202-rear
@@ -4966,12 +5004,6 @@ LNER-ClassEM1
 LNER Class EM1 Bo-Bo
 LNER-ClassEM2
 LNER/BR Class EM2 Co-Co
-BR-395Front
-BR Class 395 "Javelin"
-BR-395Middle
-BR Class 395 "Javelin" (centre)
-BR-395Rear
-BR Class 395 "Javelin" (back)
 PuffingBilly
 Wylam Colliery "Puffing Billy" 0-4-0
 PuffingBilly-Tender
@@ -5360,16 +5392,10 @@ BR-Class10800
 BR 10800 Class
 rail-horse-shire-single
 Shire horse
-rail-horse-shire-double
-Shire horses (pair)
 rail-horse-irish-draught-single
 Irish draught horse
-rail-horse-irish-draught-double
-Irish draught horses (pair)
 rail-horse-clydesdale-single
 Clydesdale horse
-rail-horse-clydesdale-double
-Clydesdale horses (pair)
 rail-horse-friesian-single
 Friesian horse
 rail-horse-cleveland-bay-single
@@ -5700,6 +5726,14 @@ BR-Mk4-FO
 BR Mk. 4 open carriage (first class)
 BR-Mk4-RSB
 BR Mk. 4 restaurant buffet (standard class)
+BR-Mk5a-TFO
+BR Mk. 5a (1st Class)
+BR-Mk5a-TSO
+BR Mk. 5a (Standard Class)
+BR-Mk5a-TSOD
+BR Mk. 5a (Standard Class, luggage space)
+BR-Mk5a-DTSO
+BR Mk. 5a Driving Trailer (Standard Class)
 4-wheel-1850s-mail
 Four wheel mail carriage
 4-wheel-1850s-tpo
@@ -5754,6 +5788,82 @@ LNER-Gresley-Express-Parcel-Brake
 LNER brake/mail carriage
 LNER-Gresley-Express-TPO
 LNER travelling post office
+LNER-quad-art-a-third
+LNER quad articulated five compartment brake carriage (third class)
+LNER-quad-art-a-second
+LNER quad articulated five compartment brake carriage (second class)
+LNER-quad-art-b-third
+LNER quad articulated seven compartment carriage (third class)
+LNER-quad-art-b-second
+LNER quad articulated seven compartment carriage (second class)
+LNER-quad-art-c-third
+LNER quad articulated eight compartment carriage (third class)
+LNER-quad-art-c-com
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-c-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
+LNER-quad-art-d-third
+LNER quad articulated eight compartment carriage (third class)
+LNER-quad-art-d-com
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-d-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
+LNER-quad-art-e-third
+LNER quad articulated eight compartment carriage (third class)
+LNER-quad-art-e-com
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-e-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
+LNER-quad-art-f-third
+LNER quad articulated eight compartment carriage carriage (third class)
+LNER-quad-art-f-com
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-f-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
+LNER-quad-art-g-third
+LNER quad articulated seven compartment carriage (third class)
+LNER-quad-art-g-second
+LNER quad articulated seven compartment carriage (second class)
+LNER-quad-art-h-third
+LNER quad articulated five compartment brake carriage (third class)
+LNER-quad-art-h-second
+LNER quad articulated five compartment brake carriage (second class)
+LNER-quint-art-a
+LNER quint articulated six compartment brake carriage (third class)
+LNER-quint-art-b-1
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-b-2
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-b-3
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-c
+LNER quint articulated seven compartment composite carriage (first/second class)
+LNER-quint-art-d
+LNER quint articulated seven compartment composite carriage (first/second class)
+LNER-quint-art-e-1
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-e-2
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-e-3
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-f
+LNER quint articulated six compartment brake carriage (third class) (rear)
+LNER-standard-51ft-t
+LNER 51ft eight compartment carriage (third class)
+LNER-standard-51ft-s
+LNER 51ft eight compartment carriage (second class)
+LNER-standard-51ft-bt4-for
+LNER 51ft four compartment brake carriage (third class) (rear)
+LNER-standard-51ft-bt4-rev
+LNER 51ft four compartment brake carriage (third class)
+LNER-standard-51ft-cl
+LNER 51ft seven compartment composite lavatory carriage (first/third class)
+LNER-standard-51ft-f
+LNER 51ft seven compartment carriage (first class)
+LNER-standard-51ft-f2
+LNER 51ft seven compartment carriage (first class, armrests removed)
+LNER-standard-51ft-com
+LNER 51ft seven compartment composite carriage (first/third class)
 CC-Clerestory-Mail
 GWR clerestory mail van [DEPRECATED]
 MR-Clerestory-Mail
@@ -8097,6 +8207,8 @@ ClydeCargoSteamerAddBulk
 Clyde cargo ship bulk goods hold
 ClydeCargoSteamerAddLivestock
 Clyde cargo ship livestock hold
+ferry-mail
+Mail locker
 TugBargeLivestock
 Unpowered tug barge (livestock)
 TugBargeBulk
@@ -8391,6 +8503,8 @@ skiff-wherry-piece
 Skiff wherry (piece goods)
 skiff-wherry-cool
 Skiff wherry (perishable goods)
+skiff-wherry-livestock
+Skiff wherry (livestock)
 mail-space
 Mail space
 #____________________________________maglev-vehicle____________________________________
@@ -9420,9 +9534,9 @@ Permissive 3-4
 Waterway
 # For the DLR - reserved for future use.
 Permissive 2-5
-Light rail electrification
+Driverless Light Rail electrification
 Permissive 7-5
-Light rail electrification
+Driverless Light Rail electrification
 Permissive 2-6
 [Unused] Permissive 6
 Permissive 2-7
@@ -9434,6 +9548,10 @@ Prohibitive 2-0
 Tramway
 Prohibitive 2-1
 Tube tunnel
+Prohibitive 2-2
+Light rail loading gauge
+Prohibitive 7-2
+Light rail loading gauge
 Prohibitive 3-2
 Barge canal/small river
 Prohibitive 3-3
@@ -9455,6 +9573,8 @@ Uplands
 desert
 Beach
 Mediterranean
+Coastal plains
+mediterran
 Coastal plains
 rocky
 Mountain
@@ -9605,7 +9725,7 @@ SECR
 Colas-Rail
 Colas Rail
 London-Midland
-London Midland
+London & Midlands
 First-Group
 First Group
 Northern-Franchise
@@ -9662,6 +9782,26 @@ Stockton-Darlington
 Stockton & Darlington
 LMS-Coronation-Scot
 LMS Coronation Scot
+TransPennine
+TransPennine Express
+Wales-&-Borders
+Wales & Borders
+BristolSW
+Bristol & SW
+Caledonian-Sleeper
+Caledonian Sleeper
+merseytravel
+Merseytravel
+essex-thameside
+c2c
+WCML-Franchise
+Avanti West Coast
+Tyne&Wear
+Tyne & Wear
+TSGN
+Thameslink GN
+ECTFirst
+East Coast Trains
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]

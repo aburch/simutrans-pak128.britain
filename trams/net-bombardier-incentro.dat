@@ -1,12 +1,21 @@
 # http://en.wikipedia.org/wiki/Incentro
-
+# Public operation started 9 March 2004
+# New fleet Citadis 302
+# First piece 10 September 2013
+# Regular service 27 July 2014
+# lenght 7.3 + 6.7 + 5.0 + 6.7 + 7.3 = 33 m
+# seats in parts exactly according to specs
+# standing capacity guessed to make total.
+# weight 39.3 t; acceleration 1.2 m/s^2
+# braking 1.4 m/s^2; emergency 2.5 m/s^2
+# 6 doors (should have lower loading time than variobahn)
 obj=vehicle
 name=bombardier-incentro-front
 engine_type=electric
 speed=80
 power=180
 gear=80
-tractive_effort=40
+tractive_effort=29
 copyright=James
 intro_year=2004
 intro_month=3
@@ -14,14 +23,14 @@ retire_year=2013
 retire_month=10
 waytype=tram_track
 freight=Passagiere
-payload=11
-overcrowded_capacity=26
+payload=16
+overcrowded_capacity=18
 length=5
-weight=10
-brake_force=13
-axles=3
+weight=13.1
+brake_force=18
+axles=2
 cost=620000
-runningcost=27
+runningcost=18
 fixed_cost=6517
 sound=zabuhailo-modern-tram.wav
 
@@ -29,6 +38,8 @@ can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=45
 min_loading_time=9
 max_loading_time=45
@@ -59,13 +70,13 @@ retire_month=10
 
 waytype=tram_track
 freight=Passagiere
-payload=11
-overcrowded_capacity=26
+payload=5
+overcrowded_capacity=38
 length=3
-weight=6
-brake_force=8
-axles=3
-cost=620000
+weight=0
+brake_force=0
+#axles=0
+cost=0
 runningcost=0
 fixed_cost=1292
 
@@ -74,6 +85,8 @@ can_lead_from_rear=0
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=45
 min_loading_time=9
 max_loading_time=45
@@ -104,13 +117,13 @@ retire_month=10
 
 waytype=tram_track
 freight=Passagiere
-payload=11
-overcrowded_capacity=26
+payload=5
+overcrowded_capacity=38
 length=3
-weight=6
-brake_force=8
-axles=3
-cost=620000
+weight=0
+brake_force=0
+#axles=0
+cost=0
 runningcost=0
 fixed_cost=1292
 
@@ -119,13 +132,14 @@ can_lead_from_rear=0
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=45
 min_loading_time=9
 max_loading_time=45
 
 Constraint[Prev][0]=bombardier-incentro-panto
-Constraint[Next][0]=bombardier-incentro-panto
-Constraint[Next][1]=bombardier-incentro-rear
+Constraint[Next][0]=bombardier-incentro-rear
 
 EmptyImage[E]=./images/bombardier-incentro-middle.1.4
 EmptyImage[SE]=./images/bombardier-incentro-middle.1.5
@@ -148,18 +162,16 @@ intro_month=3
 retire_year=2013
 retire_month=10
 
-power=160
-tractive_effort=55
 waytype=tram_track
 freight=Passagiere
-payload=11
-overcrowded_capacity=26
+payload=12
+overcrowded_capacity=17
 length=3
-weight=6
-brake_force=8
-axles=3
-cost=620000
-runningcost=24
+weight=13.1
+brake_force=18
+axles=2
+cost=0
+runningcost=0
 fixed_cost=517
 
 
@@ -167,12 +179,13 @@ can_lead_from_rear=0
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=45
 min_loading_time=9
 max_loading_time=45
 
 Constraint[Prev][0]=bombardier-incentro-middle1
-Constraint[Prev][1]=bombardier-incentro-middle2
 Constraint[Next][0]=bombardier-incentro-middle2
 
 EmptyImage[E]=./images/bombardier-incentro-panto.1.4
@@ -190,9 +203,9 @@ obj=vehicle
 name=bombardier-incentro-rear
 engine_type=electric
 speed=80
-power=160
+power=180
 gear=80
-tractive_effort=40
+tractive_effort=29
 copyright=James
 intro_year=2004
 intro_month=3
@@ -201,14 +214,14 @@ retire_month=10
 
 waytype=tram_track
 freight=Passagiere
-payload=11
-overcrowded_capacity=26
+payload=16
+overcrowded_capacity=18
 length=5
-weight=10
-brake_force=13
-axles=3
+weight=13.1
+brake_force=18
+axles=2
 cost=0
-runningcost=24
+runningcost=18
 fixed_cost=6000
 
 
@@ -216,6 +229,8 @@ can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=45
 min_loading_time=9
 max_loading_time=45

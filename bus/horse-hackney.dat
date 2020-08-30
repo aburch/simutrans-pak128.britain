@@ -5,7 +5,7 @@ engine_type=bio
 speed=13
 gear=20
 power=1
-tractive_effort=1
+tractive_effort=3
 copyright=James&jamespetts
 intro_year=1750
 intro_month=1
@@ -30,6 +30,21 @@ sound=ylearkisto-horse.wav
 # http://www.dailymail.co.uk/news/article-2120454/End-road-original-Hackney-carriage-Breed-horse-pulled-London-cabs-faces-wiped-century-motors-took-over.html
 range=20
 
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-clydesdale-single
+Constraint[Prev][2]=road-horse-clydesdale-double
+Constraint[Prev][3]=road-horse-friesian-double
+Constraint[Prev][4]=road-horse-hackney-single
+Constraint[Prev][5]=road-horse-hackney-double
+Constraint[Prev][6]=road-horse-irish-draught-single
+Constraint[Prev][7]=road-horse-irish-draught-double
+Constraint[Prev][8]=road-horse-pony-single
+Constraint[Prev][9]=road-horse-pony-double
+Constraint[Prev][10]=road-horse-shire-single
+Constraint[Prev][11]=road-horse-shire-double
+Constraint[Prev][12]=road-horse-yorkshire-coach-double
+Constraint[Prev][13]=none
+
 EmptyImage[E]=./images/horse-hackney-single_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-hackney-single_SE.0.0,-13,0
 EmptyImage[S]=./images/horse-hackney-single_S.0.0,0,0
@@ -47,7 +62,7 @@ engine_type=bio
 speed=13
 gear=20
 power=2
-tractive_effort=2
+tractive_effort=6
 copyright=James&jamespetts
 intro_year=1750
 intro_month=1
@@ -66,6 +81,21 @@ fixed_cost=250
 
 sound=ylearkisto-horses.wav
 range=20
+
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-clydesdale-single
+Constraint[Prev][2]=road-horse-clydesdale-double
+Constraint[Prev][3]=road-horse-friesian-double
+Constraint[Prev][4]=road-horse-hackney-single
+Constraint[Prev][5]=road-horse-hackney-double
+Constraint[Prev][6]=road-horse-irish-draught-single
+Constraint[Prev][7]=road-horse-irish-draught-double
+Constraint[Prev][8]=road-horse-pony-single
+Constraint[Prev][9]=road-horse-pony-double
+Constraint[Prev][10]=road-horse-shire-single
+Constraint[Prev][11]=road-horse-shire-double
+Constraint[Prev][12]=road-horse-yorkshire-coach-double
+Constraint[Prev][13]=none
 
 EmptyImage[E]=./images/horse-hackney-double_E.0.0,-33,14
 EmptyImage[SE]=./images/horse-hackney-double_SE.0.0,-13,0

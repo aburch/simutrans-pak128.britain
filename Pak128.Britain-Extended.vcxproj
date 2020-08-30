@@ -486,6 +486,52 @@
     <None Include="citybuildings\res-1850.dat" />
     <None Include="citybuildings\res-1900.dat" />
     <None Include="citybuildings\res-40.dat" />
+    <None Include="citycars\austin-light-twelve.dat" />
+    <None Include="citycars\austin-maestro.dat" />
+    <None Include="citycars\austin-montego.dat" />
+    <None Include="citycars\austin-ten-1937.dat" />
+    <None Include="citycars\austin-ten.dat" />
+    <None Include="citycars\austin-twelve.dat" />
+    <None Include="citycars\citroen-light-15.dat" />
+    <None Include="citycars\citroen-type-a.dat" />
+    <None Include="citycars\citroen-type-b2.dat" />
+    <None Include="citycars\citroen-type-c.dat" />
+    <None Include="citycars\daimler-wagonette.dat" />
+    <None Include="citycars\ford-escort-mk1.dat" />
+    <None Include="citycars\ford-escort-mk3.dat" />
+    <None Include="citycars\ford-escort-mk4.dat" />
+    <None Include="citycars\ford-focus.dat" />
+    <None Include="citycars\ford-galaxy-mk3.dat" />
+    <None Include="citycars\ford-galaxy.dat" />
+    <None Include="citycars\ford-model-a.dat" />
+    <None Include="citycars\ford-model-c.dat" />
+    <None Include="citycars\ford-mondeo-mk1.dat" />
+    <None Include="citycars\ford-mondeo-mk4.dat" />
+    <None Include="citycars\ford-prefect-early.dat" />
+    <None Include="citycars\ford-prefect-late.dat" />
+    <None Include="citycars\leyland-princess.dat" />
+    <None Include="citycars\morris-marina.dat" />
+    <None Include="citycars\morris-minor-1928.dat" />
+    <None Include="citycars\morris-minor.dat" />
+    <None Include="citycars\morris-oxford-2.dat" />
+    <None Include="citycars\morris-oxford-3.dat" />
+    <None Include="citycars\morris-oxford-4.dat" />
+    <None Include="citycars\morris-oxford-bullnose.dat" />
+    <None Include="citycars\morris-oxford-flatnose.dat" />
+    <None Include="citycars\morris-oxford-mo.dat" />
+    <None Include="citycars\new-mini.dat" />
+    <None Include="citycars\nissan-qashqai.dat" />
+    <None Include="citycars\park-drag.dat" />
+    <None Include="citycars\rover-20.dat" />
+    <None Include="citycars\rover-8-1919.dat" />
+    <None Include="citycars\rover-8.dat" />
+    <None Include="citycars\rover-9.dat" />
+    <None Include="citycars\rover-sd1.dat" />
+    <None Include="citycars\standard-vanguard-vignale.dat" />
+    <None Include="citycars\standard-vanguard.dat" />
+    <None Include="citycars\triumph-2000.dat" />
+    <None Include="citycars\triumph-dolomite.dat" />
+    <None Include="citycars\triumph-herald.dat" />
     <None Include="citycars\Volvo-240-Estate.dat" />
     <None Include="citycars\volvo-v70-police.dat" />
     <None Include="config.template" />
@@ -573,6 +619,8 @@
     <None Include="narrowgauge\fr-bogie-van.dat" />
     <None Include="narrowgauge\fr-bogie.dat" />
     <None Include="narrowgauge\fr-goods-brake.dat" />
+    <None Include="narrowgauge\fr-hudson-toastrack.dat" />
+    <None Include="narrowgauge\fr-sentry-brake.dat" />
     <None Include="narrowgauge\fr-small-birmingham.dat" />
     <None Include="narrowgauge\fr-superbarn-service-coach.dat" />
     <None Include="narrowgauge\fr-superbarn.dat" />
@@ -582,9 +630,17 @@
     <None Include="narrowgauge\george-england.dat" />
     <None Include="narrowgauge\hibberd-planet.dat" />
     <None Include="narrowgauge\hunslet-alice.dat" />
+    <None Include="narrowgauge\hunslet-large-quarry.dat" />
+    <None Include="narrowgauge\hunslet-lilla.dat" />
+    <None Include="narrowgauge\hunslet-port.dat" />
+    <None Include="narrowgauge\hunslet-quarry.dat" />
+    <None Include="narrowgauge\lbr-carriages.dat" />
+    <None Include="narrowgauge\manning-wardle-2-6-2t-superheated.dat" />
+    <None Include="narrowgauge\manning-wardle-2-6-2t.dat" />
     <None Include="narrowgauge\narrowgauge-horse-clydesdale.dat" />
     <None Include="narrowgauge\narrowgauge-horse-irish-draught.dat" />
     <None Include="narrowgauge\narrowgauge-horse-shire.dat" />
+    <None Include="narrowgauge\quarrymens-carriage.dat" />
     <None Include="narrowgauge\single-fairlie-superheated.dat" />
     <None Include="narrowgauge\single-fairlie.dat" />
     <None Include="narrowgauge\single-shire.dat" />
@@ -606,6 +662,7 @@
     <None Include="narrowgauge\whr-brake.dat" />
     <None Include="narrowgauge\whr-buffet.dat" />
     <None Include="narrowgauge\whr-open.dat" />
+    <None Include="narrowgauge\whr-pullman.dat" />
     <None Include="pak1file\128\outside.dat" />
     <None Include="pedestrians\pedestrians-multiple.bak" />
     <None Include="pedestrians\pedestrians.dat" />
@@ -721,6 +778,7 @@
     <None Include="trains\br-202.dat" />
     <None Include="trains\br-210.dat" />
     <None Include="trains\br-221.dat" />
+    <None Include="trains\br-222.dat" />
     <None Include="trains\br-302.dat" />
     <None Include="trains\br-307.dat" />
     <None Include="trains\br-312.dat" />
@@ -1041,6 +1099,7 @@
     <None Include="trains\lner-gresley-express-coach-all-doors.dat" />
     <None Include="trains\lner-gresley-express-dining.dat" />
     <None Include="trains\lner-p2.dat" />
+    <None Include="trains\lner-qaud-art.dat" />
     <None Include="trains\lner-tyneside-emu.dat" />
     <None Include="trains\lnwr-17in-coal-engine.dat" />
     <None Include="trains\lnwr-19in-express-goods.dat" />
@@ -1836,9 +1895,6 @@
     <None Include="bus\sentinel-standard.dat" />
     <None Include="industry\sheep-farm.dat" />
     <None Include="trams\sheffield-roberts.dat" />
-    <None Include="trams\sheffield-supertram-front.dat" />
-    <None Include="trams\sheffield-supertram-middle.dat" />
-    <None Include="trams\sheffield-supertram-rear.dat" />
     <None Include="citybuildings\sidewalk.dat" />
     <None Include="ways\tunnel-tracks.dat" />
     <None Include="ways\signals-narrow.dat" />
@@ -2002,7 +2058,12 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="sound\credits.txt" />
+    <Text Include="text\streetlist[2]_en.txt" />
+    <Text Include="text\streetlist[3]_en.txt" />
     <Text Include="text\streetlist_en.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="stations\staging-post-stop.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

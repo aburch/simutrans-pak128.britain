@@ -24,7 +24,9 @@ max_loading_time=80
 range=200
 
 Constraint[Prev][0]=none
-Constraint[Next][0]=none
+
+Constraint[Next][0]=ferry-mail
+Constraint[Next][1]=none
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -38,4 +40,3 @@ EmptyImage[W]=./images/fbm-hydrocat.1.4
 EmptyImage[NW]=./images/fbm-hydrocat.1.5
 EmptyImage[N]=./images/fbm-hydrocat.1.6
 EmptyImage[NE]=./images/fbm-hydrocat.1.7
----

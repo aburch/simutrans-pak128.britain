@@ -1,25 +1,30 @@
 # http://en.wikipedia.org/wiki/Edinburgh_Tram_%28vehicle%29
-
+# Length 42,856, capacity 78+170, 70 km/h, 56 t, 12x80 kW
+# The imagery and names are wrong. Pantograph is not on the central piece, but on one of the bogies.
+# I have not found if it is on the powered or unpowered though
+# Built 2009-2011, first delivery 26 Apr 2010, service started 31 May 2014
+# 27 trams for 40 million GBP
+# seats from video: 11+15+11+4+11+15+11, baggage racks everywhere, except the middle - place for 2 wheelchairs
 obj=vehicle
 name=CAF-Edinburgh-front
 engine_type=electric
 speed=70
 power=320
 gear=80
-tractive_effort=55
+tractive_effort=29
 copyright=James/jamespetts
 intro_year=2011
 intro_month=1
 waytype=tram_track
 freight=Passagiere
-payload=13
-overcrowded_capacity=28
+payload=11
+overcrowded_capacity=20
 length=4
-weight=10
-brake_force=13
-axles=3
-cost=620000
-runningcost=64
+weight=14
+brake_force=18
+axles=2
+cost=680000
+runningcost=32
 fixed_cost=6517
 sound=zabuhailo-modern-tram.wav
 
@@ -27,13 +32,14 @@ can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=48
 min_loading_time=10
 max_loading_time=45
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=CAF-Edinburgh-middle1
-Constraint[Next][1]=CAF-Edinburgh-panto
 
 
 EmptyImage[E]=./images/caf-edinburgh-front.1.4
@@ -56,13 +62,13 @@ intro_year=2011
 intro_month=1
 waytype=tram_track
 freight=Passagiere
-payload=13
-overcrowded_capacity=28
+payload=15
+overcrowded_capacity=30
 length=4
-weight=8
-brake_force=11
-axles=3
-cost=620000
+weight=0
+brake_force=0
+#axles=0
+cost=0
 runningcost=0
 fixed_cost=1292
 
@@ -71,6 +77,8 @@ can_lead_from_rear=0
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=48
 min_loading_time=10
 max_loading_time=45
@@ -98,13 +106,13 @@ intro_year=2011
 intro_month=1
 waytype=tram_track
 freight=Passagiere
-payload=13
-overcrowded_capacity=28
+payload=15
+overcrowded_capacity=30
 length=4
-weight=8
-brake_force=11
-axles=3
-cost=620000
+weight=0
+brake_force=0
+#axles=0
+cost=0
 runningcost=0
 fixed_cost=1292
 
@@ -113,11 +121,13 @@ can_lead_from_rear=0
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=48
 min_loading_time=10
 max_loading_time=45
 
-Constraint[Prev][0]=CAF-Edinburgh-bogie
+Constraint[Prev][0]=CAF-Edinburgh-motor
 Constraint[Next][0]=CAF-Edinburgh-rear
 
 EmptyImage[E]=./images/caf-edinburgh-artic-rear.1.4
@@ -140,13 +150,13 @@ intro_year=2011
 intro_month=1
 waytype=tram_track
 freight=Passagiere
-payload=13
-overcrowded_capacity=28
+payload=4
+overcrowded_capacity=40
 length=4
-weight=8
-brake_force=11
-axles=3
-cost=620000
+weight=0
+brake_force=0
+#axles=0
+cost=0
 runningcost=0
 fixed_cost=1292
 
@@ -155,14 +165,14 @@ can_lead_from_rear=0
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=48
 min_loading_time=10
 max_loading_time=45
 
-Constraint[Prev][0]=CAF-Edinburgh-front
-Constraint[Prev][1]=CAF-Edinburgh-bogie
-Constraint[Next][0]=CAF-Edinburgh-bogie
-Constraint[Next][1]=CAF-Edinburgh-rear
+Constraint[Prev][0]=CAF-Edinburgh-bogie
+Constraint[Next][0]=CAF-Edinburgh-motor
 
 EmptyImage[E]=./images/caf-edinburgh-artic-panto.1.4
 EmptyImage[SE]=./images/caf-edinburgh-artic-panto.1.5
@@ -182,19 +192,16 @@ speed=70
 copyright=James/jamespetts
 intro_year=2011
 intro_month=1
-power=320
-gear=80
-tractive_effort=55
 waytype=tram_track
 freight=Passagiere
-payload=13
-overcrowded_capacity=28
+payload=11
+overcrowded_capacity=15
 length=2
-weight=6
-brake_force=8
-axles=3
-cost=620000
-runningcost=64
+weight=14
+brake_force=18
+axles=2
+cost=0
+runningcost=0
 fixed_cost=517
 
 
@@ -202,14 +209,61 @@ can_lead_from_rear=0
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=48
 min_loading_time=10
 max_loading_time=45
 
 Constraint[Prev][0]=CAF-Edinburgh-middle1
-Constraint[Prev][1]=CAF-Edinburgh-panto
+Constraint[Next][0]=CAF-Edinburgh-panto
+
+EmptyImage[E]=./images/caf-edinburgh-bogie.1.4
+EmptyImage[SE]=./images/caf-edinburgh-bogie.1.5
+EmptyImage[S]=./images/caf-edinburgh-bogie.1.6
+EmptyImage[SW]=./images/caf-edinburgh-bogie.1.7
+EmptyImage[W]=./images/caf-edinburgh-bogie.1.0
+EmptyImage[NW]=./images/caf-edinburgh-bogie.1.1
+EmptyImage[N]=./images/caf-edinburgh-bogie.1.2
+EmptyImage[NE]=./images/caf-edinburgh-bogie.1.3
+
+---
+
+obj=vehicle
+name=CAF-Edinburgh-motor
+engine_type=electric
+speed=70
+copyright=James/jamespetts
+intro_year=2011
+intro_month=1
+power=320
+gear=80
+tractive_effort=29
+waytype=tram_track
+freight=Passagiere
+payload=11
+overcrowded_capacity=15
+length=2
+weight=14
+brake_force=18
+axles=2
+cost=0
+runningcost=32
+fixed_cost=6000
+
+
+can_lead_from_rear=0
+bidirectional=0
+way_constraint_permissive[1]=1
+way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
+comfort=48
+min_loading_time=10
+max_loading_time=45
+
+Constraint[Prev][0]=CAF-Edinburgh-panto
 Constraint[Next][0]=CAF-Edinburgh-middle2
-Constraint[Next][1]=CAF-Edinburgh-panto
 
 EmptyImage[E]=./images/caf-edinburgh-bogie.1.4
 EmptyImage[SE]=./images/caf-edinburgh-bogie.1.5
@@ -228,20 +282,20 @@ engine_type=electric
 speed=70
 power=320
 gear=80
-tractive_effort=55
+tractive_effort=29
 copyright=James/jamespetts
 intro_year=2011
 intro_month=1
 waytype=tram_track
 freight=Passagiere
-payload=13
-overcrowded_capacity=28
+payload=11
+overcrowded_capacity=20
 length=4
-weight=10
-brake_force=13
-axles=3
+weight=14
+brake_force=18
+axles=2
 cost=0
-runningcost=64
+runningcost=32
 fixed_cost=6000
 
 
@@ -249,12 +303,13 @@ can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=48
 min_loading_time=10
 max_loading_time=45
 
 Constraint[Prev][0]=CAF-Edinburgh-middle2
-Constraint[Prev][1]=CAF-Edinburgh-panto
 Constraint[Next][0]=none
 
 EmptyImage[E]=./images/caf-edinburgh-rear.1.4

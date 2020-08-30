@@ -14,7 +14,7 @@ payload=500
 length=11
 brake_force=21
 
-weight=29
+weight=29.1
 axles=4
 cost=1200000
 runningcost=0
@@ -24,7 +24,8 @@ sound=panos-g-class-465.wav
 min_loading_time=30
 max_loading_time=240
 
-
+bidirectional=1
+has_front_cab=1
 Constraint[Prev][0]=RM-325Rear(RM)
 Constraint[Prev][1]=none
 

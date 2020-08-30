@@ -6,7 +6,7 @@ engine_type=bio
 speed=18
 power=1
 gear=36
-tractive_effort=1
+tractive_effort=3
 copyright=James&jamespetts
 intro_year=1805
 intro_month=1
@@ -21,10 +21,18 @@ weight=1.4
 axle_load=0
 cost=250000
 runningcost=3
-fixed_cost=2021
+fixed_cost=521
 
 sound=ylearkisto-horses.wav
 range=38
+
+Constraint[Prev][0]=rail-horse-friesian-single
+Constraint[Prev][1]=rail-horse-cleveland-bay-single
+Constraint[Prev][2]=rail-horse-yorkshire-coach-single
+Constraint[Prev][3]=rail-horse-irish-draught-single
+Constraint[Prev][4]=rail-horse-clydesdale-single
+Constraint[Prev][5]=rail-horse-shire-single
+Constraint[Prev][6]=none
 
 EmptyImage[E]=./horses/horse-yorkshire-coach-single-rail_E.0.0
 EmptyImage[SE]=./horses/horse-yorkshire-coach-single-rail_SE.0.0
@@ -34,4 +42,3 @@ EmptyImage[W]=./horses/horse-yorkshire-coach-single-rail_W.0.0
 EmptyImage[NW]=./horses/horse-yorkshire-coach-single-rail_NW.0.0
 EmptyImage[N]=./horses/horse-yorkshire-coach-single-rail_N.0.0
 EmptyImage[NE]=./horses/horse-yorkshire-coach-single-rail_NE.0.0
-

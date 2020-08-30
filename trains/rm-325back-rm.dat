@@ -14,7 +14,7 @@ payload=500
 length=11
 brake_force=21
 
-weight=29
+weight=29.1
 axles=4
 cost=1200000
 runningcost=0
@@ -32,6 +32,7 @@ Constraint[Prev][0]=RM-325Middle(RM)
 
 Constraint[Next][0]=RM-325Front(RM)
 Constraint[Next][1]=none
+has_rear_cab=1
 
 EmptyImage[E]=./railcars/rm-325-rm.3.0
 EmptyImage[SE]=./railcars/rm-325-rm.3.1
