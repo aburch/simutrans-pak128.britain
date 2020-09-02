@@ -24,9 +24,9 @@ air_resistance=105
 #weight an estimate based on Class 331
 weight=45.5
 axles=4
-cost=1998100
-runningcost=0
-fixed_cost=4306
+cost=2590130
+runningcost=220
+fixed_cost=20158
 sound=panos-g-class-395.wav
 
 min_loading_time=28
@@ -77,9 +77,9 @@ rolling_resistance=13
 #weight an estimate based on Class 331
 weight=35.5
 axles=4
-cost=1998100
-runningcost=140
-fixed_cost=1723
+cost=1480074
+runningcost=0
+fixed_cost=3083
 
 min_loading_time=28
 max_loading_time=160
@@ -95,6 +95,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-397Front
 
 Constraint[Next][0]=BR-397Middle
+Constraint[Next][1]=BR-397Rear
 
 EmptyImage[E]=./railcars/br-397-frontpanto-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-frontpanto-tpe_SE.png
@@ -131,9 +132,9 @@ rolling_resistance=13
 #weight an estimate based on Class 331
 weight=42
 axles=4
-cost=1998100
-runningcost=0
-fixed_cost=4306
+cost=1850093
+runningcost=220
+fixed_cost=3854
 
 min_loading_time=28
 max_loading_time=160
@@ -149,6 +150,7 @@ way_constraint_permissive[2]=2
 Constraint[Prev][0]=BR-397FrontPanto
 
 Constraint[Next][0]=BR-397RearPanto
+Constraint[Next][1]=BR-397Rear
 
 EmptyImage[E]=./railcars/br-397-middle-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-middle-tpe_SE.png
@@ -181,9 +183,9 @@ rolling_resistance=13
 #weight an estimate based on Class 331
 weight=35.5
 axles=4
-cost=1998100
+cost=1480074
 runningcost=0
-fixed_cost=4306
+fixed_cost=3083
 
 min_loading_time=28
 max_loading_time=160
@@ -236,9 +238,9 @@ air_resistance=105
 #weight an estimate based on Class 331
 weight=45.5
 axles=4
-cost=1998100
-runningcost=0
-fixed_cost=4306
+cost=2590130
+runningcost=220
+fixed_cost=8158
 sound=panos-g-class-395.wav
 
 min_loading_time=28
@@ -252,10 +254,13 @@ can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[2]=2
 
-Constraint[Next][0]=BR-397Front
-Constraint[Next][1]=none
 
 Constraint[Prev][0]=BR-397RearPanto
+Constraint[Prev][1]=BR-397FrontPanto
+Constraint[Prev][2]=BR-397Middle
+
+Constraint[Next][0]=BR-397Front
+Constraint[Next][1]=none
 
 EmptyImage[E]=./railcars/br-397-rear-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-rear-tpe_SE.png

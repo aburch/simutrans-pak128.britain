@@ -2754,61 +2754,61 @@ livery[107][1] = c2c-white
 intro_year[107][1] = 2009
 intro_month[107][1] = 6
 
-livery_scheme[107] = WCML-Franchise
-retire_year[107] = 2500
-retire_month[107] = 1
-livery[107][0] = Avanti-WC
-intro_year[107][0] = 2019
-intro_month[107][0] = 12
-
-#https://en.wikipedia.org/wiki/Tyne_and_Wear_Metro_rolling_stock#Livery
-livery_scheme[108] = Tyne&Wear
+livery_scheme[108] = WCML-Franchise
 retire_year[108] = 2500
 retire_month[108] = 1
-livery[108][0] = t&wpte
-#year and month estimated. Livery used on buses before Metro opened in August 1980.
-intro_year[108][0] = 1978
-intro_month[108][0] = 8
-livery[108][1] = t&w-rbg
-#year and month estimated
-intro_year[108][1] = 1995
-intro_month[108][1] = 2
-livery[108][2] = t&w-rbg-revised
-#month estimated. Doors painted full yellow to comply with disability standards.
-intro_year[108][2] = 2005
-intro_month[108][2] = 2
-livery[108][2] = t&w-black&yellow
-#month estimated
-intro_year[108][2] = 2012
-intro_month[108][2] = 2
+livery[108][0] = Avanti-WC
+intro_year[108][0] = 2019
+intro_month[108][0] = 12
 
-livery_scheme[109] = TSGN
+#https://en.wikipedia.org/wiki/Tyne_and_Wear_Metro_rolling_stock#Livery
+livery_scheme[109] = Tyne&Wear
 retire_year[109] = 2500
 retire_month[109] = 1
-livery[109][0] = Thameslink-navy
-intro_year[109][0] = 1997
-intro_month[109][0] = 3
-livery[109][1] = Thameslink-later
-intro_year[109][1] = 2001
-#month estimated
+livery[109][0] = t&wpte
+#year and month estimated. Livery used on buses before Metro opened in August 1980.
+intro_year[109][0] = 1978
+intro_month[109][0] = 8
+livery[109][1] = t&w-rbg
+#year and month estimated
+intro_year[109][1] = 1995
 intro_month[109][1] = 2
-livery[109][2] = wagn-initial
-intro_year[109][2] = 1997
-intro_month[109][2] = 1
-livery[109][3] = wagn-purple
-intro_year[109][3] = 2001
-intro_month[109][3] = 11
-#First Capital Connect is covered by scheme 10
-livery[109][4] = GTR
-intro_year[109][4] = 2014
-intro_month[109][4] = 9
+livery[109][2] = t&w-rbg-revised
+#month estimated. Doors painted full yellow to comply with disability standards.
+intro_year[109][2] = 2005
+intro_month[109][2] = 2
+livery[109][2] = t&w-black&yellow
+#month estimated
+intro_year[109][2] = 2012
+intro_month[109][2] = 2
 
-livery_scheme[110] = ECTFirst
+livery_scheme[110] = TSGN
 retire_year[110] = 2500
 retire_month[110] = 1
-livery[109][110] = ectf-1
-intro_year[109][110] = 2021
-intro_month[109][110] = 10
+livery[110][0] = Thameslink-navy
+intro_year[110][0] = 1997
+intro_month[110][0] = 3
+livery[110][1] = Thameslink-later
+intro_year[110][1] = 2001
+#month estimated
+intro_month[110][1] = 2
+livery[110][2] = wagn-initial
+intro_year[110][2] = 1997
+intro_month[110][2] = 1
+livery[110][3] = wagn-purple
+intro_year[110][3] = 2001
+intro_month[110][3] = 11
+#First Capital Connect is covered by scheme 10
+livery[110][4] = GTR
+intro_year[110][4] = 2014
+intro_month[110][4] = 9
+
+livery_scheme[111] = ECTFirst
+retire_year[111] = 2500
+retire_month[111] = 1
+livery[111][0] = ectf-1
+intro_year[111][0] = 2021
+intro_month[111][0] = 10
 
 
 
