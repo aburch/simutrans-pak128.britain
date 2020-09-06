@@ -3,7 +3,7 @@ obj=vehicle
 name=BR-397Front
 engine_type=electric
 speed=200
-#power estimated from similar units
+#power an estimate based on Class 331
 power=880
 tractive_effort=78
 gear=80
@@ -19,7 +19,7 @@ payload[3]=24
 overcrowded_capacity=6
 length=13
 rolling_resistance=13
-brake_force=45
+brake_force=41
 air_resistance=105
 #weight an estimate based on Class 331
 weight=45.5
@@ -72,7 +72,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=18
 length=13
-brake_force=35
+brake_force=41
 rolling_resistance=13
 #weight an estimate based on Class 331
 weight=35.5
@@ -96,6 +96,7 @@ Constraint[Prev][0]=BR-397Front
 
 Constraint[Next][0]=BR-397Middle
 Constraint[Next][1]=BR-397Rear
+Constraint[Next][2]=BR-397MiddleTrailer
 
 EmptyImage[E]=./railcars/br-397-frontpanto-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-frontpanto-tpe_SE.png
@@ -112,7 +113,7 @@ obj=vehicle
 name=BR-397Middle
 engine_type=electric
 speed=200
-#power estimated from similar units
+#power an estimate based on Class 331
 power=880
 tractive_effort=78
 gear=80
@@ -127,7 +128,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=16
 length=13
-brake_force=42
+brake_force=41
 rolling_resistance=13
 #weight an estimate based on Class 331
 weight=42
@@ -148,9 +149,10 @@ bidirectional=1
 way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-397FrontPanto
+Constraint[Prev][1]=BR-397MiddleTrailer
 
 Constraint[Next][0]=BR-397RearPanto
-Constraint[Next][1]=BR-397Rear
+Constraint[Next][1]=BR-397MiddleTrailer
 
 EmptyImage[E]=./railcars/br-397-middle-tpe_E.png
 EmptyImage[SE]=./railcars/br-397-middle-tpe_SE.png
@@ -178,7 +180,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=18
 length=13
-brake_force=35
+brake_force=41
 rolling_resistance=13
 #weight an estimate based on Class 331
 weight=35.5
@@ -217,7 +219,7 @@ obj=vehicle
 name=BR-397Rear
 engine_type=electric
 speed=200
-#power estimated from similar units
+#power an estimate based on Class 331
 power=880
 tractive_effort=78
 gear=80
@@ -232,7 +234,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=11
 length=13
-brake_force=45
+brake_force=41
 rolling_resistance=13
 air_resistance=105
 #weight an estimate based on Class 331
@@ -257,7 +259,7 @@ way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-397RearPanto
 Constraint[Prev][1]=BR-397FrontPanto
-Constraint[Prev][2]=BR-397Middle
+Constraint[Prev][2]=BR-397MiddleTrailer
 
 Constraint[Next][0]=BR-397Front
 Constraint[Next][1]=none
@@ -270,4 +272,56 @@ EmptyImage[W]=./railcars/br-397-rear-tpe_W.png
 EmptyImage[NW]=./railcars/br-397-rear-tpe_NW.png
 EmptyImage[N]=./railcars/br-397-rear-tpe_N.png
 EmptyImage[NE]=./railcars/br-397-rear-tpe_NE.png
+---
+
+#Hypothetical trailer vehicle to allow realistic formations greater than 5 vehicles.
+obj=vehicle
+name=BR-397MiddleTrailer
+engine_type=electric
+speed=200
+copyright=Kieron/James/jonbridg
+intro_year=2019
+intro_month=12
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=76
+payload[2]=0
+payload[3]=0
+overcrowded_capacity=18
+length=13
+brake_force=41
+rolling_resistance=13
+#weight an estimate based on Class 331
+weight=30
+axles=4
+cost=1387570
+runningcost=0
+fixed_cost=2891
+
+min_loading_time=28
+max_loading_time=160
+comfort[0]=0
+comfort[1]=120
+comfort[2]=0
+comfort[3]=140
+
+can_lead_from_rear=0
+bidirectional=1
+way_constraint_permissive[2]=2
+
+Constraint[Prev][0]=BR-397FrontPanto
+Constraint[Prev][1]=BR-397Middle
+
+Constraint[Next][0]=BR-397Rear
+Constraint[Next][1]=BR-397Middle
+
+EmptyImage[E]=./railcars/br-397-middle-tpe_E.png
+EmptyImage[SE]=./railcars/br-397-middle-tpe_SE.png
+EmptyImage[S]=./railcars/br-397-middle-tpe_S.png
+EmptyImage[SW]=./railcars/br-397-middle-tpe_SW.png
+EmptyImage[W]=./railcars/br-397-middle-tpe_W.png
+EmptyImage[NW]=./railcars/br-397-middle-tpe_NW.png
+EmptyImage[N]=./railcars/br-397-middle-tpe_N.png
+EmptyImage[NE]=./railcars/br-397-middle-tpe_NE.png
 ---
