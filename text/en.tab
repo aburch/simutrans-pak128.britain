@@ -3727,43 +3727,51 @@ BR Class 222 "Meridian/Pioneer" (first-class saloon)
 BR-222MidComposite
 BR Class 222 "Meridian/Pioneer" (composite saloon)
 BR-222Rear
-BR Class 222 "Meridian/Pioneer" (rear, first-class with galley)
+BR Class 222 "Meridian/Pioneer" (rear, first-class, compact kitchen)
 BR-800Front
-BR Class 800/802 "IET/Azuma" (full kitchen)
+BR Class 800/802 "AT300"
 BR-800MiddlePower
-BR Class 800 (standard class non-driving motor)
+BR Class 800/802 (standard class centre motor)
 BR-800MiddleFirst
-BR Class 800 (first class non-driving motor)
+BR Class 800/802 (first class centre motor)
 BR-800MiddleTrailer
-BR Class 800 (standard class centre trailer)
+BR Class 800/802 (standard class centre trailer)
 BR-800MiddleComposite
-BR Class 800 (motor composite)
+BR Class 800/802 (composite motor, 30 first-class seats)
 BR-800FrontMS
-BR Class 800
+BR Class 800/802 (standard class centre motor)
 BR-800RearMS
-BR Class 800 (rear)
+BR Class 800/802 (standard class non-driving rear motor)
 BR-800Rear
-BR Class 800 (rear)
+BR Class 800/802 (rear, first class, full kitchen)
+BR-800Rear-compact
+BR Class 800/802 (rear, first class, compact kitchen)
+BR-800Rear-trolley
+BR Class 800/802 (rear, standard class, trolley service)
+BR-800Composite18+58
+BR Class 800/802 (composite motor, 18 first-class seats)
 BR-801Front
 BR Class 801 "Azuma"
 BR-801MiddlePower
-BR Class 801 (standard class non-driving motor)
+BR Class 801 (standard class centre motor)
 BR-801MiddleFirst
-BR Class 801 (first class non-driving motor)
+BR Class 801 (first class centre motor)
 BR-801MiddleTrailer
 BR Class 801 (standard class centre trailer)
 BR-801MiddleComposite
-BR Class 801 (motor composite)
+BR Class 801 (composite motor, 30 first-class seats)
 BR-801FrontMS
-BR Class 801
+BR Class 801 (standard class centre motor)
 BR-801RearMS
-BR Class 801 (rear)
+BR Class 801 (standard class non-driving rear motor)
 BR-801Rear
-BR Class 801 "Azuma" (rear)
-BR-802Front-compact
-BR Class 802 "IET/Paragon/Nova 1" (compact kitchen)
-BR-802-18+58-composite
-BR Class 802 (motor composite)
+BR Class 801 (rear, first class, full kitchen)
+BR-801Rear-compact
+BR Class 801 (rear, first class, compact kitchen)
+BR-801Rear-trolley
+BR Class 801 (rear, standard class, trolley service)
+BR-801Composite18+58
+BR Class 801 (composite motor, 18 first-class seats)
 br-142-front
 BR Class 142 "Pacer" DMU
 br-142-rear
@@ -3956,6 +3964,8 @@ BR-397FrontPanto
 BR Class 397 (front pantograph)
 BR-397Middle
 BR Class 397 (centre motor)
+BR-397MiddleTrailer
+BR Class 397 (centre trailer)
 BR-397RearPanto
 BR Class 397 (rear pantograph)
 BR-397Rear
