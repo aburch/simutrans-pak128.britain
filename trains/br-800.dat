@@ -246,13 +246,13 @@ upgrade_price=0
 
 upgrade[0]=BR-801MiddleTrailer
 
-Constraint[Prev][0]=BR-800MiddleComposite
-Constraint[Prev][1]=BR-800MiddlePower
-Constraint[Prev][2]=BR-800MiddleFirst
-Constraint[Prev][3]=BR-800FrontMS
+
+Constraint[Prev][0]=BR-800MiddlePower
 
 Constraint[Next][0]=BR-800MiddlePower
 Constraint[Next][1]=BR-800RearMS
+Constraint[Next][2]=BR-800MiddleComposite
+Constraint[Next][3]=BR-800Composite18+58
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -759,7 +759,6 @@ upgrade[0]=BR-801RearMS
 
 Constraint[Prev][0]=BR-800MiddleTrailer
 Constraint[Prev][1]=BR-800MiddlePower
-Constraint[Prev][2]=BR-800RearMS
 
 Constraint[Next][0]=BR-800Rear
 Constraint[Next][1]=BR-800Rear-compact
