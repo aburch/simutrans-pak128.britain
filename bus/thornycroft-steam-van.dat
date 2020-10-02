@@ -94,8 +94,9 @@ runningcost=3
 fixed_cost=12026
 intro_year=1896
 intro_month=2
-retire_year=1902
-retire_month=12
+# Different to the others because a replacement is not available until April 1904
+retire_year=1904
+retire_month=8
 way_wear_factor=4
 
 constraint[next][0]=none
