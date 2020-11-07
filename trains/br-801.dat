@@ -207,9 +207,11 @@ upgrade[0]=BR-800MiddleTrailer
 
 Constraint[Prev][0]=BR-801MiddlePower
 
-Constraint[Next][0]=BR-801MiddlePower
-Constraint[Next][1]=BR-801MiddleComposite
-Constraint[Next][2]=BR-801Composite18+58
+Constraint[Next][0]=BR-801RearMS
+Constraint[Next][1]=BR-801MiddlePower
+Constraint[Next][2]=BR-801MiddleFirst
+Constraint[Next][3]=BR-801MiddleComposite
+Constraint[Next][4]=BR-801Composite18+58
 
 liverytype[0]=LNER
 liverytype[1]=Virgin-MU
@@ -371,7 +373,8 @@ upgrade[0]=BR-800MiddleFirst
 Constraint[Prev][0]=BR-801MiddlePower
 Constraint[Prev][1]=BR-801MiddleComposite
 Constraint[Prev][2]=BR-801Composite18+58
-Constraint[Prev][3]=BR-801FrontMS
+Constraint[Prev][3]=BR-801MiddleTrailer
+Constraint[Prev][4]=BR-801FrontMS
 
 Constraint[Next][0]=BR-801Rear
 Constraint[Next][1]=BR-801Rear-compact
@@ -618,8 +621,9 @@ way_constraint_permissive[2]=2
 
 upgrade[0]=BR-800RearMS
 
-Constraint[Prev][0]=BR-801FrontMS
+Constraint[Prev][0]=BR-801MiddleTrailer
 Constraint[Prev][1]=BR-801MiddlePower
+Constraint[Prev][2]=BR-801FrontMS
 
 Constraint[Next][0]=BR-801Rear
 Constraint[Next][1]=BR-801Rear-compact
