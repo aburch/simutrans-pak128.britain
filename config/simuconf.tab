@@ -1104,11 +1104,14 @@ used_vehicle_reduction=1
 
 sighting_distance_meters = 875
 
-# This is the maximum speed in km/h at which rail (including narrow gauge, monorail and maglev)
+# This is the maximum speed at which rail (including narrow gauge, monorail and maglev)
 # vehicles may travel in the drive by sight working method. 0 = as fast as they can
-# stop within their sighting distance with no other limit.
+# stop in time with no other limit. 
+#
+# This is specified separately for trams.
 
 max_speed_drive_by_sight_kmh = 35
+max_speed_drive_by_sight_tram_kmh = 50
 
 # Corners of greater than 45 degrees have their radius calculated. However, because of 
 # the rigid tile system in Simutrans, this produces unrealistic results when applied
