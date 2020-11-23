@@ -1491,14 +1491,17 @@ intro_year[14][2] = 1989
 intro_month[14][2] = 9
 
 livery_scheme[15] = Regional-Railways
-retire_year[15] = 1995
+retire_year[15] = 1997
 retire_month[15] = 4
-livery[15][0] = Regional-Railways-Standard
+livery[15][0] = Provincial
 intro_year[15][0] = 1986
 intro_month[15][0] = 6
-livery[15][1] = Provincial
-intro_year[15][1] = 1982
-intro_month[15][1] = 1
+livery[15][1] = Sprinter
+intro_year[15][1] = 1987
+intro_month[15][1] = 12
+livery[15][2] = Regional-Railways-Standard
+intro_year[15][2] = 1990
+intro_month[15][2] = 12
 
 livery_scheme[16] = London-Transport
 retire_year[16] = 2500
