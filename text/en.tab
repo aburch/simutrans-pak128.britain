@@ -3772,10 +3772,34 @@ BR-801Rear-trolley
 BR Class 801 (rear, standard class, trolley service)
 BR-801Composite18+58
 BR Class 801 (composite motor, 18 first-class seats)
+br-141-0-front
+BR Class 141/0 "Pacer" DMU
+br-141-0-rear
+BR Class 141/0 "Pacer" DMU (rear)
+br-141-1-front
+BR Class 141/1 "Pacer" DMU
+br-141-1-rear
+BR Class 141/1 "Pacer" DMU (rear)
 br-142-front
-BR Class 142 "Pacer" DMU
+BR Class 142/0 "Pacer" DMU
 br-142-rear
-BR Class 142 "Pacer" DMU (rear)
+BR Class 142/0 "Pacer" DMU (rear)
+br-142-1-front
+BR Class 142/1 "Pacer" DMU
+br-142-1-rear
+BR Class 142/1 "Pacer" DMU (rear)
+br-144-0-front
+BR Class 144/0 "Pacer" DMU
+br-144-0-middle
+BR Class 144/0 "Pacer" DMU (centre)
+br-144-0-rear
+BR Class 144/0 "Pacer" DMU (rear)
+br-144-1-front
+BR Class 144/1 "Pacer" DMU
+br-144-0-middle
+BR Class 144/1 "Pacer" DMU (centre)
+br-144-1-rear
+BR Class 144/1 "Pacer" DMU (rear)
 BR-456-DMSO
 BR Class 456 EMU (driving motor)
 BR-456-DTSO
@@ -3917,15 +3941,15 @@ BR Class 195 "Civity" DMU (rear)
 BR-195Middle
 BR Class 195 "Civity" DMU (centre)
 BR-196Front
-BR Class 196 "Civity" DMU
+BR Class 196/197 "Civity" DMU
 BR-196Front-trolley
-BR Class 196 "Civity" DMU (with trolley service)
+BR Class 196/197 "Civity" DMU (with trolley service)
 BR-196Rear
-BR Class 196 "Civity" DMU (rear)
+BR Class 196/197 "Civity" DMU (rear)
 BR-196Rear-first
-BR Class 196 "Civity" DMU (rear, first class)
+BR Class 196/197 "Civity" DMU (rear, first class)
 BR-196Middle
-BR Class 196 "Civity" DMU (centre)
+BR Class 196/197 "Civity" DMU (centre)
 BR-385(front)
 BR Class 385 "AT200" EMU
 BR-385(centre1)
@@ -4102,6 +4126,16 @@ BR-710Middle
 BR Class 710 "Aventra" EMU (centre motor)
 BR-710Panto
 BR Class 710 "Aventra" EMU (pantograph car)
+BR-769Front
+BR Class 769 DEMU (standard class driving trailer)
+BR-769FrontComposite
+BR Class 769 DEMU (composite driving trailer)
+BR-769Motor
+BR Class 769 DEMU (motor)
+BR-769Pantograph
+BR Class 769 DEMU (pantograph)
+BR-769Rear
+BR Class 769 DEMU (rear)
 BR-374(front)
 BR Class 374 "Eurostar e320"
 BR-374(panto)
