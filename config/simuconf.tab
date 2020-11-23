@@ -1303,9 +1303,10 @@ server_pakurl = http://bridgewater-brunel.me.uk/downloads/nightly/pakset/pak128.
 # intro_year[1][1] = 1960
 # intro_month[1][1] = 4
 
+# Late retirement to accommodate Regional Railways livery being introduced only in 1990.
 livery_scheme[0] = British-Railways
-retire_year[0] = 1986
-retire_month[0] = 6
+retire_year[0] = 1990
+retire_month[0] = 12
 livery[0][0] = BR-Early
 intro_year[0][0] = 1948
 intro_month[0][0] = 1
