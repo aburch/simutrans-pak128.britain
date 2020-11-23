@@ -1104,11 +1104,14 @@ used_vehicle_reduction=1
 
 sighting_distance_meters = 875
 
-# This is the maximum speed in km/h at which rail (including narrow gauge, monorail and maglev)
+# This is the maximum speed at which rail (including narrow gauge, monorail and maglev)
 # vehicles may travel in the drive by sight working method. 0 = as fast as they can
-# stop within their sighting distance with no other limit.
+# stop in time with no other limit. 
+#
+# This is specified separately for trams.
 
 max_speed_drive_by_sight_kmh = 35
+max_speed_drive_by_sight_tram_kmh = 50
 
 # Corners of greater than 45 degrees have their radius calculated. However, because of 
 # the rigid tile system in Simutrans, this produces unrealistic results when applied
@@ -1300,9 +1303,10 @@ server_pakurl = http://bridgewater-brunel.me.uk/downloads/nightly/pakset/pak128.
 # intro_year[1][1] = 1960
 # intro_month[1][1] = 4
 
+# Late retirement to accommodate Regional Railways livery being introduced only in 1990.
 livery_scheme[0] = British-Railways
-retire_year[0] = 1986
-retire_month[0] = 6
+retire_year[0] = 1990
+retire_month[0] = 12
 livery[0][0] = BR-Early
 intro_year[0][0] = 1948
 intro_month[0][0] = 1
@@ -1488,11 +1492,17 @@ intro_year[14][2] = 1989
 intro_month[14][2] = 9
 
 livery_scheme[15] = Regional-Railways
-retire_year[15] = 1995
+retire_year[15] = 1997
 retire_month[15] = 4
-livery[15][0] = Regional-Railways-Standard
+livery[15][0] = Provincial
 intro_year[15][0] = 1986
 intro_month[15][0] = 6
+livery[15][1] = Sprinter
+intro_year[15][1] = 1987
+intro_month[15][1] = 12
+livery[15][2] = Regional-Railways-Standard
+intro_year[15][2] = 1990
+intro_month[15][2] = 12
 
 livery_scheme[16] = London-Transport
 retire_year[16] = 2500
