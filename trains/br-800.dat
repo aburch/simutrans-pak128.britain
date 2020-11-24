@@ -7,7 +7,6 @@
 obj=vehicle
 name=BR-800Front
 engine_type=diesel
-smoke=Diesel-light
 speed=200
 power=0
 copyright=Kieron/James/jonbridg/jonbridg
@@ -19,10 +18,10 @@ payload[0]=0
 payload[1]=56
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=0
+overcrowded_capacity=12
 length=14
-brake_force=49
 rolling_resistance=13
+brake_force=49
 air_resistance=105
 
 weight=46
@@ -107,7 +106,6 @@ EmptyImage[NE][4]=./railcars/br-802-front-tpe_NE.png
 obj=vehicle
 name=BR-800MiddlePower
 engine_type=diesel
-smoke=Diesel-light
 speed=200
 power=700
 tractive_effort=122
@@ -115,6 +113,7 @@ gear=50
 copyright=Kieron/James/jonbridg
 intro_year=2017
 intro_month=10
+smoke=Diesel-light
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -153,9 +152,6 @@ Constraint[Next][1]=BR-800MiddleTrailer
 Constraint[Next][2]=BR-800MiddleFirst
 Constraint[Next][3]=BR-800MiddleComposite
 Constraint[Next][4]=BR-800Composite18+58
-Constraint[Next][5]=BR-800Rear
-Constraint[Next][6]=BR-800Rear-compact
-Constraint[Next][7]=BR-800Rear-trolley
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -227,8 +223,12 @@ length=14
 brake_force=49
 rolling_resistance=13
 
-can_lead_from_rear=0
-bidirectional=1
+weight=40.5
+axles=4
+cost=1125000
+runningcost=0
+fixed_cost=2344
+upgrade_price=0
 
 min_loading_time=28
 max_loading_time=160
@@ -237,22 +237,18 @@ comfort[1]=129
 comfort[2]=0
 comfort[3]=142
 
-weight=40.5
-axles=4
-cost=1125000
-runningcost=0
-fixed_cost=2344
-upgrade_price=0
+can_lead_from_rear=0
+bidirectional=1
 
 upgrade[0]=BR-801MiddleTrailer
 
-
 Constraint[Prev][0]=BR-800MiddlePower
 
-Constraint[Next][0]=BR-800MiddlePower
-Constraint[Next][1]=BR-800RearMS
-Constraint[Next][2]=BR-800MiddleComposite
-Constraint[Next][3]=BR-800Composite18+58
+Constraint[Next][0]=BR-800RearMS
+Constraint[Next][1]=BR-800MiddlePower
+Constraint[Next][2]=BR-800MiddleFirst
+Constraint[Next][3]=BR-800MiddleComposite
+Constraint[Next][4]=BR-800Composite18+58
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -309,7 +305,6 @@ EmptyImage[NE][4]=./railcars/br-802-middle-hull_NE.png
 obj=vehicle
 name=BR-800MiddleComposite
 engine_type=diesel
-smoke=Diesel-light
 speed=200
 power=700
 tractive_effort=122
@@ -317,26 +312,17 @@ gear=50
 copyright=Kieron/James/jonbridg
 intro_year=2017
 intro_month=10
+smoke=Diesel-light
 waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=38
 payload[2]=0
 payload[3]=30
-overcrowded_capacity=18
+overcrowded_capacity=9
 length=14
 brake_force=49
 rolling_resistance=13
-
-can_lead_from_rear=0
-bidirectional=1
-
-min_loading_time=28
-max_loading_time=160
-comfort[0]=0
-comfort[1]=129
-comfort[2]=0
-comfort[3]=142
 
 weight=53
 axles=4
@@ -345,12 +331,21 @@ runningcost=210
 fixed_cost=4702
 upgrade_price=338564
 
+min_loading_time=28
+max_loading_time=160
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
+
+can_lead_from_rear=0
+bidirectional=1
+
 upgrade[0]=BR-801MiddleComposite
 
 Constraint[Prev][0]=BR-800MiddleTrailer
 Constraint[Prev][1]=BR-800MiddlePower
-Constraint[Prev][2]=BR-800RearMS
-Constraint[Prev][3]=BR-800FrontMS
+Constraint[Prev][2]=BR-800FrontMS
 
 Constraint[Next][0]=BR-800Rear
 Constraint[Next][1]=BR-800Rear-compact
@@ -412,7 +407,6 @@ EmptyImage[NE][4]=./railcars/br-802-middle-hull_NE.png
 obj=vehicle
 name=BR-800MiddleFirst
 engine_type=diesel
-smoke=Diesel-light
 speed=200
 power=700
 tractive_effort=122
@@ -420,19 +414,24 @@ gear=50
 copyright=Kieron/James/jonbridg
 intro_year=2017
 intro_month=10
+smoke=Diesel-light
 waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=0
 payload[2]=0
-payload[3]=56
-overcrowded_capacity=18
+payload[3]=58
+overcrowded_capacity=0
 length=14
 brake_force=49
 rolling_resistance=13
 
-can_lead_from_rear=0
-bidirectional=1
+weight=53
+axles=4
+cost=2323125
+runningcost=210
+fixed_cost=4840
+upgrade_price=338564
 
 min_loading_time=28
 max_loading_time=160
@@ -441,25 +440,20 @@ comfort[1]=129
 comfort[2]=0
 comfort[3]=142
 
-weight=53
-axles=4
-cost=2323125
-runningcost=0
-fixed_cost=4840
-upgrade_price=338564
+can_lead_from_rear=0
+bidirectional=1
 
 upgrade[0]=BR-801MiddleFirst
 
 Constraint[Prev][0]=BR-800MiddlePower
 Constraint[Prev][1]=BR-800MiddleComposite
 Constraint[Prev][2]=BR-800Composite18+58
-Constraint[Prev][3]=BR-800RearMS
+Constraint[Prev][3]=BR-800MiddleTrailer
 Constraint[Prev][4]=BR-800FrontMS
 
 Constraint[Next][0]=BR-800Rear
 Constraint[Next][1]=BR-800Rear-compact
 Constraint[Next][2]=BR-800Rear-trolley
-
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -527,7 +521,7 @@ payload[0]=0
 payload[1]=0
 payload[2]=0
 payload[3]=15
-overcrowded_capacity=12
+overcrowded_capacity=0
 length=14
 brake_force=49
 rolling_resistance=13
@@ -536,14 +530,10 @@ air_resistance=105
 weight=46
 axles=4
 cost=2475000
-#upgrade_price=1000
 runningcost=0
 fixed_cost=23156
 upgrade_price=0
 sound=johno4521-class-800-diesel.wav
-
-can_lead_from_rear=1
-bidirectional=0
 
 min_loading_time=28
 max_loading_time=160
@@ -553,13 +543,15 @@ comfort[2]=0
 comfort[3]=142
 catering_level=3
 
+can_lead_from_rear=1
+bidirectional=0
+
 upgrade[0]=BR-801Rear
 
 Constraint[Prev][0]=BR-800RearMS
 Constraint[Prev][1]=BR-800MiddleComposite
 Constraint[Prev][2]=BR-800Composite18+58
 Constraint[Prev][3]=BR-800MiddleFirst
-Constraint[Prev][4]=BR-800MiddlePower
 
 Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none
@@ -619,7 +611,6 @@ EmptyImage[NE][4]=./railcars/br-802-rear3-tpe_NE.png
 obj=vehicle
 name=BR-800FrontMS
 engine_type=diesel
-smoke=Diesel-light
 speed=200
 power=700
 tractive_effort=122
@@ -627,6 +618,7 @@ gear=50
 copyright=Kieron/James/jonbridg
 intro_year=2017
 intro_month=10
+smoke=Diesel-light
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -663,6 +655,7 @@ Constraint[Next][0]=BR-800MiddlePower
 Constraint[Next][1]=BR-800MiddleFirst
 Constraint[Next][2]=BR-800MiddleComposite
 Constraint[Next][3]=BR-800Composite18+58
+Constraint[Next][4]=BR-800RearMS
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -719,7 +712,6 @@ EmptyImage[NE][4]=./railcars/br-802-middle-hull_NE.png
 obj=vehicle
 name=BR-800RearMS
 engine_type=diesel
-smoke=Diesel-light
 speed=200
 power=700
 tractive_effort=122
@@ -727,6 +719,7 @@ gear=50
 copyright=Kieron/James/jonbridg
 intro_year=2017
 intro_month=10
+smoke=Diesel-light
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -759,13 +752,11 @@ upgrade[0]=BR-801RearMS
 
 Constraint[Prev][0]=BR-800MiddleTrailer
 Constraint[Prev][1]=BR-800MiddlePower
+Constraint[Prev][2]=BR-800FrontMS
 
 Constraint[Next][0]=BR-800Rear
 Constraint[Next][1]=BR-800Rear-compact
 Constraint[Next][2]=BR-800Rear-trolley
-Constraint[Next][3]=BR-800MiddleFirst
-Constraint[Next][4]=BR-800MiddleComposite
-Constraint[Next][5]=BR-800Composite18+58
 
 liverytype[0]=Firstgroup-GWR
 liverytype[1]=LNER
@@ -823,7 +814,6 @@ EmptyImage[NE][4]=./railcars/br-802-rearms-hull_NE.png
 obj=vehicle
 name=BR-800Rear-compact
 engine_type=diesel
-smoke=Diesel-light
 speed=200
 power=0
 copyright=Kieron/James/jonbridg
@@ -866,7 +856,6 @@ Constraint[Prev][0]=BR-800RearMS
 Constraint[Prev][1]=BR-800MiddleComposite
 Constraint[Prev][2]=BR-800Composite18+58
 Constraint[Prev][3]=BR-800MiddleFirst
-Constraint[Prev][4]=BR-800MiddlePower
 
 Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none
@@ -927,7 +916,6 @@ EmptyImage[NE][4]=./railcars/br-802-rear2-tpe_NE.png
 obj=vehicle
 name=BR-800Composite18+58
 engine_type=diesel
-smoke=Diesel-light
 speed=200
 power=700
 tractive_effort=122
@@ -935,26 +923,17 @@ gear=53
 copyright=Kieron/James/jonbridg
 intro_year=2017
 intro_month=10
+smoke=Diesel-light
 waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=58
 payload[2]=0
 payload[3]=18
-overcrowded_capacity=18
+overcrowded_capacity=12
 length=14
 brake_force=49
 rolling_resistance=13
-
-can_lead_from_rear=0
-bidirectional=1
-
-min_loading_time=28
-max_loading_time=160
-comfort[0]=0
-comfort[1]=129
-comfort[2]=0
-comfort[3]=142
 
 weight=53
 axles=4
@@ -963,12 +942,21 @@ runningcost=210
 fixed_cost=4702
 upgrade_price=338564
 
+min_loading_time=28
+max_loading_time=160
+comfort[0]=0
+comfort[1]=129
+comfort[2]=0
+comfort[3]=142
+
+can_lead_from_rear=0
+bidirectional=1
+
 upgrade[0]=BR-801Composite18+58
 
 Constraint[Prev][0]=BR-800MiddleTrailer
 Constraint[Prev][1]=BR-800MiddlePower
-Constraint[Prev][2]=BR-800RearMS
-Constraint[Prev][3]=BR-800FrontMS
+Constraint[Prev][2]=BR-800FrontMS
 
 Constraint[Next][0]=BR-800Rear
 Constraint[Next][1]=BR-800Rear-compact
@@ -1030,7 +1018,6 @@ EmptyImage[NE][4]=./railcars/br-800-middle-vtec_NE.png
 obj=vehicle
 name=BR-800Rear-trolley
 engine_type=diesel
-smoke=Diesel-light
 speed=200
 power=0
 copyright=Kieron/James/jonbridg
@@ -1042,7 +1029,7 @@ payload[0]=0
 payload[1]=56
 payload[2]=0
 payload[3]=0
-overcrowded_capacity=0
+overcrowded_capacity=12
 length=14
 brake_force=49
 rolling_resistance=13
@@ -1073,7 +1060,6 @@ Constraint[Prev][0]=BR-800RearMS
 Constraint[Prev][1]=BR-800MiddleComposite
 Constraint[Prev][2]=BR-800Composite18+58
 Constraint[Prev][3]=BR-800MiddleFirst
-Constraint[Prev][4]=BR-800MiddlePower
 
 Constraint[Next][0]=BR-800Front
 Constraint[Next][1]=none
