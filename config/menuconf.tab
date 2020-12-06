@@ -70,6 +70,10 @@ icon_height = 32
 # TOOL_ERROR_MESSAGE=37
 # TOOL_CHANGE_WATER_HEIGHT=38
 # TOOL_SET_CLIMATE=39
+# TOOL_ROTATE_BUILDING=40
+# TOOL_MERGE_STOP
+# TOOL_EXEC_SCRIPT
+# TOOL_EXEC_TWO_CLICK_SCRIPT
 # Simutrans-Extended specific tools start at 128
 # TOOL_BUILD_SIGNALBOX=128
 # TOOL_REASSIGN_SIGNAL=129
@@ -164,6 +168,8 @@ general_tool[129]=18,,,\
 # TOOL_TOGGLE_RESERVATION=33
 # TOOL_VIEW_OWNER=34
 # TOOL_HIDE_UNDER_CURSOR=35
+# TOOL_ACCESS_TOOL=36 (internal use)
+# TOOL_ROLLUP_ALL_WIN=37
 # Simutrans-Extended specific tools start at 128
 # TOOL_CHANGE_ROADSIGN=128 (internal use)
 # TOOL_SHOW_RIBI=129
@@ -171,6 +177,7 @@ general_tool[129]=18,,,\
 # TOOL_ACCESS_TOOL=131 (internal use)
 # TOOL_SHOW_SIGNALBOX_COVERAGE=132
 # TOOL_CONVOY_NAMEPLATES=133
+# TOOL_CONVOY_LOADINGBAR=134
 #
 simple_tool[0]=0,p
 simple_tool[1]=1,W
@@ -196,9 +203,11 @@ simple_tool[20]=,'
 simple_tool[33]=,B
 simple_tool[34]=,O
 simple_tool[35]=,;
+simple_tool[37]=,F5
 simple_tool[129]=,:
 simple_tool[132]=,$
 simple_tool[133]=,I
+#simple_tool[134]=,
 
 # THIRD SECTION: dialoge tools
 # since these tools immeadiately open only a dialoge,
@@ -237,6 +246,12 @@ simple_tool[133]=,I
 # TOOL_CLIMATES=26
 # TOOL_SETTINGS=27
 # TOOL_GAMEINFO_NETWORK=28
+# TOOL_THEMES=29
+# DIALOG_SCENARIO=30
+# DIALOG_SCENARIO_INFO=31
+# DIALOG_LIST_DEPOT=32
+# DIALOG_LIST_VEHICLE=33
+# DIALOG_LIST_SIGNALBOX=128
 #
 dialog_tool[0]=0
 dialog_tool[1]=1,Q
@@ -267,6 +282,9 @@ dialog_tool[25]=20
 dialog_tool[26]=,
 dialog_tool[27]=,i
 dialog_tool[28]=26,n
+dialog_tool[32]=27,^D
+dialog_tool[33]=29,^V
+dialog_tool[128]=28,^S
 
 # FINAL SECTION: compose all tool bars
 # now the defintion of all tool bars
