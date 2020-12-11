@@ -1,7 +1,7 @@
 obj=vehicle
 name=BR-414[HAP]Front
 engine_type=electric
-speed=121
+speed=140
 gear=80
 power=370
 tractive_effort=35
@@ -36,10 +36,10 @@ way_constraint_permissive[0]=0
 
 upgrade[0]=BR-489[GLV]
 
-min_loading_time=20
-max_loading_time=46
+min_loading_time=10
+max_loading_time=40
 comfort[0]=0
-comfort[1]=77
+comfort[1]=76
 comfort[2]=0
 comfort[3]=0
 
@@ -101,7 +101,7 @@ EmptyImage[NE][3]=./railcars/br-414-front-nse.1.3
 obj=vehicle
 name=BR-414[HAP]Rear
 engine_type=electric
-speed=121
+speed=140
 power=0
 copyright=Kieron
 intro_year=1956
@@ -111,9 +111,9 @@ retire_month=8
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=18
+payload[1]=44
 payload[2]=0
-payload[3]=44
+payload[3]=18
 overcrowded_capacity=26
 length=11
 
@@ -133,12 +133,12 @@ bidirectional=0
 
 upgrade[0]=BR-489[GLV]
 
-min_loading_time=20
-max_loading_time=46
+min_loading_time=10
+max_loading_time=40
 comfort[0]=0
-comfort[1]=110
+comfort[1]=80
 comfort[2]=0
-comfort[3]=144
+comfort[3]=130
 
 Constraint[Prev][0]=BR-414[HAP]Front
 
