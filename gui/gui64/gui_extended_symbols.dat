@@ -39,12 +39,12 @@ copyright=Ranran
 # for display the average travering time to the distination
 Image[0]=> ex-gui-icons.0.4
 --------------------
-#Obj=symbol
-#name=ReverseArrows
-#copyright=Ranran
+Obj=symbol
+name=ReverseArrows
+copyright=Ranran
 # arrows representing the reverse order of the schedule
-#Image[0]=> ex-gui-icons.0.7
-#Image[1]=> ex-gui-icons.0.8
+Image[0]=> ex-gui-icons.0.7
+Image[1]=> ex-gui-icons.0.8
 --------------------
 Obj=symbol
 name=WaitingTime
