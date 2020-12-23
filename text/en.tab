@@ -9,7 +9,7 @@
 #                                                                              #
 #                                   authors:                                   #
 #                            James Hood (The Hood)                             #
-#							James Petts (jamespetts)						   #
+#			   James Petts (jamespetts)				  #
 #                                                                              #
 ################################################################################
 #____________________________________Stop Names_________________________________
@@ -6165,11 +6165,15 @@ SR 4DD (centre trailer)
 SR-4DD-TT2
 SR 4DD (centre trailer)
 LBSCR-sub-bogie-48ft
-LBSCR eight compartment bogie carriage
+LBSCR eight compartment bogie carriage (third class)
+LBSCR-sub-bogie-48ft-composite
+LBSCR seven compartment bogie composite carriage (first/second class)
+LBSCR-sub-bogie-48ft-first
+LBSCR six compartment bogie carriage (first class)
 LBSCR-sub-bogie-48ft-brake-front
-LBSCR six compartment bogie brake carriage
+LBSCR six compartment bogie brake carriage (third class)
 LBSCR-sub-bogie-48ft-brake-rear
-LBSCR six compartment bogie brake carriage (rear)
+LBSCR six compartment bogie brake carriage (third class) (rear)
 LBSCR-sub-bogie-54ft
 LBSCR nine compartment carriage
 LBSCR-sub-bogie-54ft-brake-front
