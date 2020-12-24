@@ -21,6 +21,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=40
 length=8
+brake_force=12
 
 weight=22
 axles=4
@@ -177,6 +178,7 @@ payload[2]=40
 payload[3]=27
 overcrowded_capacity=20
 length=8
+brake_force=12
 
 weight=22
 axles=4
@@ -333,6 +335,7 @@ payload[2]=0
 payload[3]=54
 overcrowded_capacity=0
 length=8
+brake_force=12
 
 weight=22
 axles=4
@@ -489,6 +492,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=30
 length=8
+brake_force=12
 
 weight=23
 axles=4
@@ -616,6 +620,7 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=30
 length=8
+brake_force=12
 
 weight=23
 axles=4
