@@ -58,7 +58,6 @@ EmptyImage[NW][0]=./railcars/lbscr-48ft-augmentation-trailer-front-olive_NW.0.0
 EmptyImage[N][0]=./railcars/lbscr-48ft-augmentation-trailer-front-olive_N.0.0
 EmptyImage[NE][0]=./railcars/lbscr-48ft-augmentation-trailer-front-olive_NE.0.0
 
-EmptyImage[E][1]=./carriages/lbscr-48ft-augmentation-trailer-front-malachite.1.4
 EmptyImage[E][1]=./railcars/lbscr-48ft-augmentation-trailer-front-malachite_E.0.0
 EmptyImage[SE][1]=./railcars/lbscr-48ft-augmentation-trailer-front-malachite_SE.0.0
 EmptyImage[S][1]=./railcars/lbscr-48ft-augmentation-trailer-front-malachite_S.0.0
@@ -138,7 +137,6 @@ EmptyImage[NW][0]=./railcars/lbscr-48ft-augmentation-trailer-rear-olive_NW.0.0
 EmptyImage[N][0]=./railcars/lbscr-48ft-augmentation-trailer-rear-olive_N.0.0
 EmptyImage[NE][0]=./railcars/lbscr-48ft-augmentation-trailer-rear-olive_NE.0.0
 
-EmptyImage[E][1]=./carriages/lbscr-48ft-augmentation-trailer-rear-malachite.1.4
 EmptyImage[E][1]=./railcars/lbscr-48ft-augmentation-trailer-rear-malachite_E.0.0
 EmptyImage[SE][1]=./railcars/lbscr-48ft-augmentation-trailer-rear-malachite_SE.0.0
 EmptyImage[S][1]=./railcars/lbscr-48ft-augmentation-trailer-rear-malachite_S.0.0
@@ -191,10 +189,6 @@ max_loading_time=30
 comfort[0]=0
 comfort[1]=75
 
-liverytype[0]=SR-Olive-Green
-liverytype[1]=SR-Malachite-Green
-liverytype[2]=BR-Early
-
 Constraint[Prev][0]=SR-3SUB(rear)
 Constraint[Prev][1]=LSWR-EMU(rear)
 
@@ -204,32 +198,36 @@ Constraint[Next][2]=lswr-48ft-arc-augmentation-trailer-rear
 Constraint[Next][3]=lswr-48ft-augmentation-trailer-rear
 Constraint[Next][4]=lswr-56ft-augmentation-trailer-rear
 
-EmptyImage[E][0]=./carriages/lbscr-54ft-augmentation-trailer-front-olive.1.4
-EmptyImage[SE][0]=./carriages/lbscr-54ft-augmentation-trailer-front-olive.1.5
-EmptyImage[S][0]=./carriages/lbscr-54ft-augmentation-trailer-front-olive.1.6
-EmptyImage[SW][0]=./carriages/lbscr-54ft-augmentation-trailer-front-olive.1.7
-EmptyImage[W][0]=./carriages/lbscr-54ft-augmentation-trailer-front-olive.1.0
-EmptyImage[NW][0]=./carriages/lbscr-54ft-augmentation-trailer-front-olive.1.1
-EmptyImage[N][0]=./carriages/lbscr-54ft-augmentation-trailer-front-olive.1.2
-EmptyImage[NE][0]=./carriages/lbscr-54ft-augmentation-trailer-front-olive.1.3
+liverytype[0]=SR-Olive-Green
+liverytype[1]=SR-Malachite-Green
+liverytype[2]=BR-Early
 
-EmptyImage[E][1]=./carriages/lbscr-54ft-augmentation-trailer-front-malachite.1.4
-EmptyImage[SE][1]=./carriages/lbscr-54ft-augmentation-trailer-front-malachite.1.5
-EmptyImage[S][1]=./carriages/lbscr-54ft-augmentation-trailer-front-malachite.1.6
-EmptyImage[SW][1]=./carriages/lbscr-54ft-augmentation-trailer-front-malachite.1.7
-EmptyImage[W][1]=./carriages/lbscr-54ft-augmentation-trailer-front-malachite.1.0
-EmptyImage[NW][1]=./carriages/lbscr-54ft-augmentation-trailer-front-malachite.1.1
-EmptyImage[N][1]=./carriages/lbscr-54ft-augmentation-trailer-front-malachite.1.2
-EmptyImage[NE][1]=./carriages/lbscr-54ft-augmentation-trailer-front-malachite.1.3
+EmptyImage[E][0]=./railcars/lbscr-54ft-augmentation-trailer-front-olive_E.0.0
+EmptyImage[SE][0]=./railcars/lbscr-54ft-augmentation-trailer-front-olive_SE.0.0
+EmptyImage[S][0]=./railcars/lbscr-54ft-augmentation-trailer-front-olive_S.0.0
+EmptyImage[SW][0]=./railcars/lbscr-54ft-augmentation-trailer-front-olive_SW.0.0
+EmptyImage[W][0]=./railcars/lbscr-54ft-augmentation-trailer-front-olive_W.0.0
+EmptyImage[NW][0]=./railcars/lbscr-54ft-augmentation-trailer-front-olive_NW.0.0
+EmptyImage[N][0]=./railcars/lbscr-54ft-augmentation-trailer-front-olive_N.0.0
+EmptyImage[NE][0]=./railcars/lbscr-54ft-augmentation-trailer-front-olive_NE.0.0
 
-EmptyImage[E][2]=./carriages/lbscr-54ft-augmentation-trailer-front-br.1.4
-EmptyImage[SE][2]=./carriages/lbscr-54ft-augmentation-trailer-front-br.1.5
-EmptyImage[S][2]=./carriages/lbscr-54ft-augmentation-trailer-front-br.1.6
-EmptyImage[SW][2]=./carriages/lbscr-54ft-augmentation-trailer-front-br.1.7
-EmptyImage[W][2]=./carriages/lbscr-54ft-augmentation-trailer-front-br.1.0
-EmptyImage[NW][2]=./carriages/lbscr-54ft-augmentation-trailer-front-br.1.1
-EmptyImage[N][2]=./carriages/lbscr-54ft-augmentation-trailer-front-br.1.2
-EmptyImage[NE][2]=./carriages/lbscr-54ft-augmentation-trailer-front-br.1.3
+EmptyImage[E][1]=./railcars/lbscr-54ft-augmentation-trailer-front-malachite_E.0.0
+EmptyImage[SE][1]=./railcars/lbscr-54ft-augmentation-trailer-front-malachite_SE.0.0
+EmptyImage[S][1]=./railcars/lbscr-54ft-augmentation-trailer-front-malachite_S.0.0
+EmptyImage[SW][1]=./railcars/lbscr-54ft-augmentation-trailer-front-malachite_SW.0.0
+EmptyImage[W][1]=./railcars/lbscr-54ft-augmentation-trailer-front-malachite_W.0.0
+EmptyImage[NW][1]=./railcars/lbscr-54ft-augmentation-trailer-front-malachite_NW.0.0
+EmptyImage[N][1]=./railcars/lbscr-54ft-augmentation-trailer-front-malachite_N.0.0
+EmptyImage[NE][1]=./railcars/lbscr-54ft-augmentation-trailer-front-malachite_NE.0.0
+
+EmptyImage[E][2]=./railcars/lbscr-54ft-augmentation-trailer-front-br_E.0.0
+EmptyImage[SE][2]=./railcars/lbscr-54ft-augmentation-trailer-front-br_SE.0.0
+EmptyImage[S][2]=./railcars/lbscr-54ft-augmentation-trailer-front-br_S.0.0
+EmptyImage[SW][2]=./railcars/lbscr-54ft-augmentation-trailer-front-br_SW.0.0
+EmptyImage[W][2]=./railcars/lbscr-54ft-augmentation-trailer-front-br_W.0.0
+EmptyImage[NW][2]=./railcars/lbscr-54ft-augmentation-trailer-front-br_NW.0.0
+EmptyImage[N][2]=./railcars/lbscr-54ft-augmentation-trailer-front-br_N.0.0
+EmptyImage[NE][2]=./railcars/lbscr-54ft-augmentation-trailer-front-br_NE.0.0
 
 ---
 
@@ -278,32 +276,32 @@ liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./carriages/lbscr-54ft-augmentation-trailer-rear-olive.1.4
-EmptyImage[SE][0]=./carriages/lbscr-54ft-augmentation-trailer-rear-olive.1.5
-EmptyImage[S][0]=./carriages/lbscr-54ft-augmentation-trailer-rear-olive.1.6
-EmptyImage[SW][0]=./carriages/lbscr-54ft-augmentation-trailer-rear-olive.1.7
-EmptyImage[W][0]=./carriages/lbscr-54ft-augmentation-trailer-rear-olive.1.0
-EmptyImage[NW][0]=./carriages/lbscr-54ft-augmentation-trailer-rear-olive.1.1
-EmptyImage[N][0]=./carriages/lbscr-54ft-augmentation-trailer-rear-olive.1.2
-EmptyImage[NE][0]=./carriages/lbscr-54ft-augmentation-trailer-rear-olive.1.3
+EmptyImage[E][0]=./railcars/lbscr-54ft-augmentation-trailer-rear-olive_E.0.0
+EmptyImage[SE][0]=./railcars/lbscr-54ft-augmentation-trailer-rear-olive_SE.0.0
+EmptyImage[S][0]=./railcars/lbscr-54ft-augmentation-trailer-rear-olive_S.0.0
+EmptyImage[SW][0]=./railcars/lbscr-54ft-augmentation-trailer-rear-olive_SW.0.0
+EmptyImage[W][0]=./railcars/lbscr-54ft-augmentation-trailer-rear-olive_W.0.0
+EmptyImage[NW][0]=./railcars/lbscr-54ft-augmentation-trailer-rear-olive_NW.0.0
+EmptyImage[N][0]=./railcars/lbscr-54ft-augmentation-trailer-rear-olive_N.0.0
+EmptyImage[NE][0]=./railcars/lbscr-54ft-augmentation-trailer-rear-olive_NE.0.0
 
-EmptyImage[E][1]=./carriages/lbscr-54ft-augmentation-trailer-rear-malachite.1.4
-EmptyImage[SE][1]=./carriages/lbscr-54ft-augmentation-trailer-rear-malachite.1.5
-EmptyImage[S][1]=./carriages/lbscr-54ft-augmentation-trailer-rear-malachite.1.6
-EmptyImage[SW][1]=./carriages/lbscr-54ft-augmentation-trailer-rear-malachite.1.7
-EmptyImage[W][1]=./carriages/lbscr-54ft-augmentation-trailer-rear-malachite.1.0
-EmptyImage[NW][1]=./carriages/lbscr-54ft-augmentation-trailer-rear-malachite.1.1
-EmptyImage[N][1]=./carriages/lbscr-54ft-augmentation-trailer-rear-malachite.1.2
-EmptyImage[NE][1]=./carriages/lbscr-54ft-augmentation-trailer-rear-malachite.1.3
+EmptyImage[E][1]=./railcars/lbscr-54ft-augmentation-trailer-rear-malachite_E.0.0
+EmptyImage[SE][1]=./railcars/lbscr-54ft-augmentation-trailer-rear-malachite_SE.0.0
+EmptyImage[S][1]=./railcars/lbscr-54ft-augmentation-trailer-rear-malachite_S.0.0
+EmptyImage[SW][1]=./railcars/lbscr-54ft-augmentation-trailer-rear-malachite_SW.0.0
+EmptyImage[W][1]=./railcars/lbscr-54ft-augmentation-trailer-rear-malachite_W.0.0
+EmptyImage[NW][1]=./railcars/lbscr-54ft-augmentation-trailer-rear-malachite_NW.0.0
+EmptyImage[N][1]=./railcars/lbscr-54ft-augmentation-trailer-rear-malachite_N.0.0
+EmptyImage[NE][1]=./railcars/lbscr-54ft-augmentation-trailer-rear-malachite_NE.0.0
 
-EmptyImage[E][2]=./carriages/lbscr-54ft-augmentation-trailer-rear-br.1.4
-EmptyImage[SE][2]=./carriages/lbscr-54ft-augmentation-trailer-rear-br.1.5
-EmptyImage[S][2]=./carriages/lbscr-54ft-augmentation-trailer-rear-br.1.6
-EmptyImage[SW][2]=./carriages/lbscr-54ft-augmentation-trailer-rear-br.1.7
-EmptyImage[W][2]=./carriages/lbscr-54ft-augmentation-trailer-rear-br.1.0
-EmptyImage[NW][2]=./carriages/lbscr-54ft-augmentation-trailer-rear-br.1.1
-EmptyImage[N][2]=./carriages/lbscr-54ft-augmentation-trailer-rear-br.1.2
-EmptyImage[NE][2]=./carriages/lbscr-54ft-augmentation-trailer-rear-br.1.3
+EmptyImage[E][2]=./railcars/lbscr-54ft-augmentation-trailer-rear-br_E.0.0
+EmptyImage[SE][2]=./railcars/lbscr-54ft-augmentation-trailer-rear-br_SE.0.0
+EmptyImage[S][2]=./railcars/lbscr-54ft-augmentation-trailer-rear-br_S.0.0
+EmptyImage[SW][2]=./railcars/lbscr-54ft-augmentation-trailer-rear-br_SW.0.0
+EmptyImage[W][2]=./railcars/lbscr-54ft-augmentation-trailer-rear-br_W.0.0
+EmptyImage[NW][2]=./railcars/lbscr-54ft-augmentation-trailer-rear-br_NW.0.0
+EmptyImage[N][2]=./railcars/lbscr-54ft-augmentation-trailer-rear-br_N.0.0
+EmptyImage[NE][2]=./railcars/lbscr-54ft-augmentation-trailer-rear-br_NE.0.0
 
 ---
 

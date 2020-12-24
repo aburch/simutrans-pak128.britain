@@ -168,8 +168,9 @@ speed=160
 copyright=Kieron/JamesPetts
 intro_year=1894
 intro_month=5
-retire_year=1905
-retire_month=8
+# There does not seem to be a 54ft version of these, so extend their life
+retire_year=1918
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -325,8 +326,9 @@ speed=160
 copyright=Kieron/JamesPetts
 intro_year=1894
 intro_month=5
-retire_year=1905
-retire_month=8
+# There does not seem to be a 54ft version of these, so extend their life
+retire_year=1918
+retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
