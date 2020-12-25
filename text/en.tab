@@ -1311,6 +1311,8 @@ ModernHospital
 Hospital
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
+Apothecary
+Apothecary
 ArableFarm1750
 Vegetable farm
 ArableFarm1840
@@ -1321,6 +1323,8 @@ ArableFarm1945
 Vegetable farm
 ArableFarm1975
 Vegetable farm
+Blacksmith1750
+Blacksmith
 Bakery1750
 Bakery
 Bakery1840
@@ -1411,12 +1415,8 @@ Cannery-fruit1945
 Cannery (fruit)
 Cannery-fruit1975
 Food processing plant (fruit)
-Wainwright1750
-Wainwright
-Wainwright1790
-Wainwright
-Wainwright1840
-Wainwright
+Cooper
+Cooper
 CarDealership1910
 Car dealership
 CarDealership1925
@@ -1814,11 +1814,11 @@ Steelworks
 SteelMill1990
 Steelworks
 TextileMill1750_city
-Spinner's Cottage
+Spinner's cottage
 TextileMill1750
-Textile mill (Water-powered)
+Textile mill (water powered)
 TextileMill1840
-Textile mill (Steam-powered)
+Textile mill (steam powered)
 TextileMill1860
 Textile mill
 TextileMill1910
@@ -1827,6 +1827,12 @@ TextileMill1945
 Textile mill
 TextileMill1975
 Textile mill
+Wainwright1750
+Wainwright
+Wainwright1790
+Wainwright
+Wainwright1840
+Wainwright
 FishPort1750
 Fishing port
 FishPort1840
@@ -5055,11 +5061,13 @@ LSWR six wheel fruit van
 LBSCR-balloon-full-brake
 LBSCR "Balloon" mail/brake carriage
 LBSCR-balloon-brake-front
-LBSCR "Balloon" four compartment lavatory brake carriage
+LBSCR "Balloon" four compartment brake carriage (third class)
 LBSCR-balloon-brake-rear
-LBSCR "Balloon" four compartment lavatory brake carriage (rear)
+LBSCR "Balloon" four compartment brake carriage (third class) (rear)
 LBSCR-balloon
-LBSCR "Balloon" eight compartment lavatory carriage
+LBSCR "Balloon" nine compartment carriage (third class)
+LBSCR-balloon-tricomposite
+LBSCR "Balloon" eight compartment tricomposite carriage (first/second/third class)
 LBSCR-balloon-push-pull
 LBSCR seven compartment push-pull carriage
 SR-Schools
