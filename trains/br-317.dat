@@ -46,24 +46,23 @@ Constraint[Next][0]=BR-317-Trailer
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
-EmptyImage[E][0]=./railcars/br-317-driving-trailer-front-bg.1.4
-EmptyImage[SE][0]=./railcars/br-317-driving-trailer-front-bg.1.5
-EmptyImage[S][0]=./railcars/br-317-driving-trailer-front-bg.1.6
-EmptyImage[SW][0]=./railcars/br-317-driving-trailer-front-bg.1.7
-EmptyImage[W][0]=./railcars/br-317-driving-trailer-front-bg.1.0
-EmptyImage[NW][0]=./railcars/br-317-driving-trailer-front-bg.1.1
-EmptyImage[N][0]=./railcars/br-317-driving-trailer-front-bg.1.2
-EmptyImage[NE][0]=./railcars/br-317-driving-trailer-front-bg.1.3
+EmptyImage[E][0]=./railcars/br-317-driving-trailer-front-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-317-driving-trailer-front-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-317-driving-trailer-front-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-317-driving-trailer-front-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-317-driving-trailer-front-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-317-driving-trailer-front-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-317-driving-trailer-front-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-317-driving-trailer-front-bg_NE.0.0
 
-EmptyImage[E][1]=./railcars/br-455-driving-trailer-front-nse.1.4
-EmptyImage[SE][1]=./railcars/br-455-driving-trailer-front-nse.1.5
-EmptyImage[S][1]=./railcars/br-455-driving-trailer-front-nse.1.6
-EmptyImage[SW][1]=./railcars/br-455-driving-trailer-front-nse.1.7
-EmptyImage[W][1]=./railcars/br-455-driving-trailer-front-nse.1.0
-EmptyImage[NW][1]=./railcars/br-455-driving-trailer-front-nse.1.1
-EmptyImage[N][1]=./railcars/br-455-driving-trailer-front-nse.1.2
-EmptyImage[NE][1]=./railcars/br-455-driving-trailer-front-nse.1.3
-
+EmptyImage[E][1]=./railcars/br-455-driving-trailer-front-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-455-driving-trailer-front-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-455-driving-trailer-front-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-455-driving-trailer-front-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-455-driving-trailer-front-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-455-driving-trailer-front-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-455-driving-trailer-front-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-455-driving-trailer-front-nse_NE.0.0
 ---
 
 obj=vehicle
@@ -113,23 +112,23 @@ Constraint[Prev][0]=BR-317-Trailer
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
-EmptyImage[E][0]=./railcars/br-317-motor-bg.1.4
-EmptyImage[SE][0]=./railcars/br-317-motor-bg.1.5
-EmptyImage[S][0]=./railcars/br-317-motor-bg.1.6
-EmptyImage[SW][0]=./railcars/br-317-motor-bg.1.7
-EmptyImage[W][0]=./railcars/br-317-motor-bg.1.0
-EmptyImage[NW][0]=./railcars/br-317-motor-bg.1.1
-EmptyImage[N][0]=./railcars/br-317-motor-bg.1.2
-EmptyImage[NE][0]=./railcars/br-317-motor-bg.1.3
+EmptyImage[E][0]=./railcars/br-317-motor-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-317-motor-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-317-motor-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-317-motor-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-317-motor-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-317-motor-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-317-motor-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-317-motor-bg_NE.0.0
 
-EmptyImage[E][1]=./railcars/br-317-motor-nse.1.4
-EmptyImage[SE][1]=./railcars/br-317-motor-nse.1.5
-EmptyImage[S][1]=./railcars/br-317-motor-nse.1.6
-EmptyImage[SW][1]=./railcars/br-317-motor-nse.1.7
-EmptyImage[W][1]=./railcars/br-317-motor-nse.1.0
-EmptyImage[NW][1]=./railcars/br-317-motor-nse.1.1
-EmptyImage[N][1]=./railcars/br-317-motor-nse.1.2
-EmptyImage[NE][1]=./railcars/br-317-motor-nse.1.3
+EmptyImage[E][1]=./railcars/br-455-motor-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-455-motor-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-455-motor-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-455-motor-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-455-motor-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-455-motor-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-455-motor-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-455-motor-nse_NE.0.0
 
 ---
 
@@ -248,20 +247,20 @@ Constraint[Prev][0]=BR-317-Motor
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
 
-EmptyImage[E][0]=./railcars/br-317-driving-trailer-rear-bg.1.4
-EmptyImage[SE][0]=./railcars/br-317-driving-trailer-rear-bg.1.5
-EmptyImage[S][0]=./railcars/br-317-driving-trailer-rear-bg.1.6
-EmptyImage[SW][0]=./railcars/br-317-driving-trailer-rear-bg.1.7
-EmptyImage[W][0]=./railcars/br-317-driving-trailer-rear-bg.1.0
-EmptyImage[NW][0]=./railcars/br-317-driving-trailer-rear-bg.1.1
-EmptyImage[N][0]=./railcars/br-317-driving-trailer-rear-bg.1.2
-EmptyImage[NE][0]=./railcars/br-317-driving-trailer-rear-bg.1.3
+EmptyImage[E][0]=./railcars/br-317-driving-trailer-rear-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-317-driving-trailer-rear-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-317-driving-trailer-rear-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-317-driving-trailer-rear-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-317-driving-trailer-rear-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-317-driving-trailer-rear-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-317-driving-trailer-rear-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-317-driving-trailer-rear-bg_NE.0.0
 
-EmptyImage[E][1]=./railcars/br-455-driving-trailer-rear-nse.1.4
-EmptyImage[SE][1]=./railcars/br-455-driving-trailer-rear-nse.1.5
-EmptyImage[S][1]=./railcars/br-455-driving-trailer-rear-nse.1.6
-EmptyImage[SW][1]=./railcars/br-455-driving-trailer-rear-nse.1.7
-EmptyImage[W][1]=./railcars/br-455-driving-trailer-rear-nse.1.0
-EmptyImage[NW][1]=./railcars/br-455-driving-trailer-rear-nse.1.1
-EmptyImage[N][1]=./railcars/br-455-driving-trailer-rear-nse.1.2
-EmptyImage[NE][1]=./railcars/br-455-driving-trailer-rear-nse.1.3
+EmptyImage[E][1]=./railcars/br-455-driving-trailer-rear-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-455-driving-trailer-rear-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-455-driving-trailer-rear-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-455-driving-trailer-rear-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-455-driving-trailer-rear-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-455-driving-trailer-rear-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-455-driving-trailer-rear-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-455-driving-trailer-rear-nse_NE.0.0
