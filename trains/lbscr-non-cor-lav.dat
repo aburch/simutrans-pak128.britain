@@ -70,6 +70,8 @@ Constraint[Prev][25]=LBSCR-4Wheel-composite-fitted
 Constraint[Prev][26]=LBSCR-sub-bogie-48ft-composite
 Constraint[Prev][27]=LBSCR-sub-bogie-48ft-first
 Constraint[Prev][28]=LBSCR-non-cor-lav-first
+Constraint[Prev][29]=LBSCR-sub-bogie-54ft-tricomposite
+Constraint[Prev][30]=LBSCR-balloon-tricomposite
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -100,6 +102,8 @@ Constraint[Next][25]=LBSCR-4Wheel-composite-fitted
 Constraint[Next][26]=LBSCR-sub-bogie-48ft-composite
 Constraint[Next][27]=LBSCR-sub-bogie-48ft-first
 Constraint[Next][28]=LBSCR-non-cor-lav-first
+Constraint[Next][29]=LBSCR-sub-bogie-54ft-tricomposite
+Constraint[Next][30]=LBSCR-balloon-tricomposite
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -233,6 +237,8 @@ Constraint[Prev][25]=LBSCR-4Wheel-composite-fitted
 Constraint[Prev][26]=LBSCR-sub-bogie-48ft-composite
 Constraint[Prev][27]=LBSCR-sub-bogie-48ft-first
 Constraint[Prev][28]=LBSCR-non-cor-lav-first
+Constraint[Prev][29]=LBSCR-sub-bogie-54ft-tricomposite
+Constraint[Prev][30]=LBSCR-balloon-tricomposite
 
 Constraint[Next][0]=LBSCR-4Wheel-Brake-rear-fitted
 Constraint[Next][1]=LBSCR-4Wheel-First-fitted
@@ -263,6 +269,8 @@ Constraint[Next][25]=LBSCR-4Wheel-composite-fitted
 Constraint[Next][26]=LBSCR-sub-bogie-48ft-composite
 Constraint[Next][27]=LBSCR-sub-bogie-48ft-first
 Constraint[Next][28]=LBSCR-non-cor-lav-first
+Constraint[Next][29]=LBSCR-sub-bogie-54ft-tricomposite
+Constraint[Next][30]=LBSCR-balloon-tricomposite
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -396,6 +404,8 @@ Constraint[Prev][25]=LBSCR-4Wheel-composite-fitted
 Constraint[Prev][26]=LBSCR-sub-bogie-48ft-composite
 Constraint[Prev][27]=LBSCR-sub-bogie-48ft-first
 Constraint[Prev][28]=LBSCR-non-cor-lav-first
+Constraint[Prev][29]=LBSCR-sub-bogie-54ft-tricomposite
+Constraint[Prev][30]=LBSCR-balloon-tricomposite
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
@@ -529,7 +539,9 @@ Constraint[Next][25]=LBSCR-4Wheel-composite-fitted
 Constraint[Next][26]=LBSCR-sub-bogie-48ft-composite
 Constraint[Next][27]=LBSCR-sub-bogie-48ft-first
 Constraint[Next][28]=LBSCR-non-cor-lav-first
-Constraint[Next][29]=none
+Constraint[Next][29]=LBSCR-sub-bogie-54ft-tricomposite
+Constraint[Next][30]=LBSCR-balloon-tricomposite
+Constraint[Next][31]=none
 
 liverytype[0]=LBSCR-Stroudley
 liverytype[1]=LBSCR-Marsh
