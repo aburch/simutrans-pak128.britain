@@ -19,7 +19,7 @@ freight=Passagiere
 payload[0]=0
 payload[1]=71
 overcrowded_capacity=53
-length=12
+length=11
 brake_force=30
 rolling_resistance=13
 
@@ -45,14 +45,14 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=c2c-357(centre1)
 Constraint[Next][1]=c2c-357(centre3)
 
-EmptyImage[E]=./railcars/br-357-driving-front.1.4
-EmptyImage[SE]=./railcars/br-357-driving-front.1.5
-EmptyImage[S]=./railcars/br-357-driving-front.1.6
-EmptyImage[SW]=./railcars/br-357-driving-front.1.7
-EmptyImage[W]=./railcars/br-357-driving-front.1.0
-EmptyImage[NW]=./railcars/br-357-driving-front.1.1
-EmptyImage[N]=./railcars/br-357-driving-front.1.2
-EmptyImage[NE]=./railcars/br-357-driving-front.1.3
+EmptyImage[E]=./railcars/br-357-driving-front_E.0.0
+EmptyImage[SE]=./railcars/br-357-driving-front_SE.0.0
+EmptyImage[S]=./railcars/br-357-driving-front_S.0.0
+EmptyImage[SW]=./railcars/br-357-driving-front_SW.0.0
+EmptyImage[W]=./railcars/br-357-driving-front_W.0.0
+EmptyImage[NW]=./railcars/br-357-driving-front_NW.0.0
+EmptyImage[N]=./railcars/br-357-driving-front_N.0.0
+EmptyImage[NE]=./railcars/br-357-driving-front_NE.0.0
 
 ---
 
@@ -73,7 +73,7 @@ freight=Passagiere
 payload[0]=0
 payload[1]=78
 overcrowded_capacity=59
-length=12
+length=11
 brake_force=27
 
 weight=36.7
@@ -95,14 +95,14 @@ Constraint[Prev][0]=c2c-357(front)
 
 Constraint[Next][0]=c2c-357(centre1)
 
-EmptyImage[E]=./railcars/br-357-centre.1.4
-EmptyImage[SE]=./railcars/br-357-centre.1.5
-EmptyImage[S]=./railcars/br-357-centre.1.6
-EmptyImage[SW]=./railcars/br-357-centre.1.7
-EmptyImage[W]=./railcars/br-357-centre.1.0
-EmptyImage[NW]=./railcars/br-357-centre.1.1
-EmptyImage[N]=./railcars/br-357-centre.1.2
-EmptyImage[NE]=./railcars/br-357-centre.1.3
+EmptyImage[E]=./railcars/br-357-centre_E.0.0
+EmptyImage[SE]=./railcars/br-357-centre_SE.0.0
+EmptyImage[S]=./railcars/br-357-centre_S.0.0
+EmptyImage[SW]=./railcars/br-357-centre_SW.0.0
+EmptyImage[W]=./railcars/br-357-centre_W.0.0
+EmptyImage[NW]=./railcars/br-357-centre_NW.0.0
+EmptyImage[N]=./railcars/br-357-centre_N.0.0
+EmptyImage[NE]=./railcars/br-357-centre_NE.0.0
 
 ---
 
@@ -123,7 +123,7 @@ freight=Passagiere
 payload[0]=0
 payload[1]=62
 overcrowded_capacity=47
-length=12
+length=11
 brake_force=27
 rolling_resistance=13
 
@@ -148,14 +148,14 @@ Constraint[Prev][1]=c2c-357(centre3)
 Constraint[Next][0]=c2c-357(centre2)
 Constraint[Next][1]=c2c-357(rear)
 
-EmptyImage[E]=./railcars/br-357-pantograph.1.4
-EmptyImage[SE]=./railcars/br-357-pantograph.1.5
-EmptyImage[S]=./railcars/br-357-pantograph.1.6
-EmptyImage[SW]=./railcars/br-357-pantograph.1.7
-EmptyImage[W]=./railcars/br-357-pantograph.1.0
-EmptyImage[NW]=./railcars/br-357-pantograph.1.1
-EmptyImage[N]=./railcars/br-357-pantograph.1.2
-EmptyImage[NE]=./railcars/br-357-pantograph.1.3
+EmptyImage[E]=./railcars/br-357-pantograph_E.0.0
+EmptyImage[SE]=./railcars/br-357-pantograph_SE.0.0
+EmptyImage[S]=./railcars/br-357-pantograph_S.0.0
+EmptyImage[SW]=./railcars/br-357-pantograph_SW.0.0
+EmptyImage[W]=./railcars/br-357-pantograph_W.0.0
+EmptyImage[NW]=./railcars/br-357-pantograph_NW.0.0
+EmptyImage[N]=./railcars/br-357-pantograph_N.0.0
+EmptyImage[NE]=./railcars/br-357-pantograph_NE.0.0
 
 ---
 
@@ -176,7 +176,7 @@ freight=Passagiere
 payload[0]=0
 payload[1]=71
 overcrowded_capacity=59
-length=12
+length=11
 brake_force=27
 
 weight=36.7
@@ -198,14 +198,14 @@ Constraint[Prev][0]=c2c-357(centre1)
 
 Constraint[Next][0]=c2c-357(rear)
 
-EmptyImage[E]=./railcars/br-357-centre.1.4
-EmptyImage[SE]=./railcars/br-357-centre.1.5
-EmptyImage[S]=./railcars/br-357-centre.1.6
-EmptyImage[SW]=./railcars/br-357-centre.1.7
-EmptyImage[W]=./railcars/br-357-centre.1.0
-EmptyImage[NW]=./railcars/br-357-centre.1.1
-EmptyImage[N]=./railcars/br-357-centre.1.2
-EmptyImage[NE]=./railcars/br-357-centre.1.3
+EmptyImage[E]=./railcars/br-357-centre_E.0.0
+EmptyImage[SE]=./railcars/br-357-centre_SE.0.0
+EmptyImage[S]=./railcars/br-357-centre_S.0.0
+EmptyImage[SW]=./railcars/br-357-centre_SW.0.0
+EmptyImage[W]=./railcars/br-357-centre_W.0.0
+EmptyImage[NW]=./railcars/br-357-centre_NW.0.0
+EmptyImage[N]=./railcars/br-357-centre_N.0.0
+EmptyImage[NE]=./railcars/br-357-centre_NE.0.0
 
 ---
 
@@ -226,7 +226,7 @@ freight=Passagiere
 payload[0]=0
 payload[1]=71
 overcrowded_capacity=53
-length=12
+length=11
 brake_force=30
 rolling_resistance=13
 
@@ -252,11 +252,11 @@ Constraint[Prev][1]=c2c-357(centre1)
 Constraint[Next][0]=c2c-357(front)
 Constraint[Next][1]=none
 
-EmptyImage[E]=./railcars/br-357-driving-rear.1.4
-EmptyImage[SE]=./railcars/br-357-driving-rear.1.5
-EmptyImage[S]=./railcars/br-357-driving-rear.1.6
-EmptyImage[SW]=./railcars/br-357-driving-rear.1.7
-EmptyImage[W]=./railcars/br-357-driving-rear.1.0
-EmptyImage[NW]=./railcars/br-357-driving-rear.1.1
-EmptyImage[N]=./railcars/br-357-driving-rear.1.2
-EmptyImage[NE]=./railcars/br-357-driving-rear.1.3
+EmptyImage[E]=./railcars/br-357-driving-rear_E.0.0
+EmptyImage[SE]=./railcars/br-357-driving-rear_SE.0.0
+EmptyImage[S]=./railcars/br-357-driving-rear_S.0.0
+EmptyImage[SW]=./railcars/br-357-driving-rear_SW.0.0
+EmptyImage[W]=./railcars/br-357-driving-rear_W.0.0
+EmptyImage[NW]=./railcars/br-357-driving-rear_NW.0.0
+EmptyImage[N]=./railcars/br-357-driving-rear_N.0.0
+EmptyImage[NE]=./railcars/br-357-driving-rear_NE.0.0
