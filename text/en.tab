@@ -4987,11 +4987,11 @@ LSWR five compartment corridor brake carriage (rear)
 LSWR-dining-saloon
 LSWR corridor dining saloon
 lswr-48ft-sub-brake-rear
-LSWR six compartment brake carriage (rear)
+LSWR six compartment brake carriage (third class) (rear)
 lswr-48ft-sub-brake-front
-LSWR six compartment brake carriage 
+LSWR six compartment brake carriage (third class)
 lswr-48ft-lav
-LSWR seven compartment lavatory carriage
+LSWR seven compartment lavatory carriage (third class)
 lswr-56ft-lav-brake-front
 LSWR four compartment lavatory brake carriage
 lswr-56ft-lav-brake-rear
@@ -5005,7 +5005,7 @@ LSWR seven compartment brake carriage (rear)
 lswr-56ft-sub
 LSWR nine compartment carriage
 lswr-48ft-sub
-LSWR eight compartment carriage
+LSWR eight compartment carriage (third class)
 lswr-48ft-arc-fruit-brake
 LSWR fruit brake carriage
 lswr-48ft-arc-parcels-brake
@@ -5023,15 +5023,23 @@ LSWR fruit brake carriage
 lswr-44ft-fruit-brake-elliptical
 LSWR fruit brake carriage
 lswr-48ft-arc-sub-brake-front
-LSWR six compartment bogie brake carriage
+LSWR six compartment bogie brake carriage (third class)
 lswr-48ft-arc-sub-brake-rear
-LSWR six compartment bogie brake carriage (rear)
+LSWR six compartment bogie brake carriage (third class) (rear)
 lswr-48ft-arc-sub
-LSWR eight compartment bogie carriage
+LSWR eight compartment bogie carriage (third class)
 lswr-48ft-arc-lav-brake
-LSWR five compartment bogie lavatory brake carriage
+LSWR six compartment bogie lavatory brake tricomposite carriage (first/second/third class)
+lswr-48ft-lav-brake
+LSWR six compartment bogie lavatory brake tricomposite carriage (first/second/third class)
 lswr-48ft-arc-lav
-LSWR seven compartment bogie lavatory carriage
+LSWR seven compartment bogie lavatory carriage (third class)
+lswr-48ft-arc-lav-composite
+LSWR seven compartment bogie lavatory composite carriage (first/third class)
+lswr-48ft-lav-composite
+LSWR seven compartment bogie lavatory composite carriage (first/third class)
+lswr-48ft-lav-tricomposite
+LSWR six compartment bogie lavatory tricomposite carriage (first/second/third class)
 lswr-30ft-fruit-brake-6-wheel-elliptical
 LSWR six wheel fruit brake carriage
 lswr-30ft-full-brake-6-wheel-elliptical
@@ -6147,29 +6155,25 @@ SR 4-SUB (centre trailer)
 SR-4SUB(rear)
 SR 4-SUB (rear driving motor)
 lbscr-48ft-augmentation-trailer-front
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft, ex-LBSC)
 lbscr-48ft-augmentation-trailer-rear
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft, ex-LBSC)
 lbscr-54ft-augmentation-trailer-front
-SR EMU augmentation trailer
+SR EMU augmentation trailer (54ft, ex-LBSC)
 lbscr-54ft-augmentation-trailer-rear
-SR EMU augmentation trailer
-lbscr-54ft-augmentation-trailerr-front
-SR EMU augmentation trailer
-lbscr-54ft-augmentation-trailer-rear
-SR EMU augmentation trailer
+SR EMU augmentation trailer (54ft, ex-LBSC)
 lswr-48ft-arc-augmentation-trailer-front
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft)
 lswr-48ft-arc-augmentation-trailer-rear
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft)
 lswr-48ft-augmentation-trailer-front
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft)
 lswr-48ft-augmentation-trailer-rear
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft)
 lswr-56ft-augmentation-trailer-front
-SR EMU augmentation trailer
+SR EMU augmentation trailer (56ft)
 lswr-56ft-augmentation-trailer-rear
-SR EMU augmentation trailer
+SR EMU augmentation trailer (56ft)
 SR-4DD-front
 SR 4DD
 SR-4DD-rear
