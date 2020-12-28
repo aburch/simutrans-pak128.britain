@@ -9,7 +9,12 @@ retire_year=1899
 retire_month=10
 waytype=track
 freight=fruit
-payload=32
+# According to a "Model Railway Cosntructor" article (year/month unknown,
+# but page number given as 754), the 44ft version of these could carry 40
+# large of 90 small churns. It is not clear which of these were the standard
+# 17 gallon churns. 32, as this was originally suggests that this one can
+# carry 160 churns, whereas 98 is probably closer. 100 / 5 = 20
+payload=20
 length=9
 
 # Estimated
@@ -18,7 +23,6 @@ axles=4
 cost=675000
 runningcost=0
 fixed_cost=5604
-
 
 can_lead_from_rear=0
 bidirectional=1
