@@ -1,10 +1,11 @@
-# Non-lavatory compartment carriages with arc rooves
+# Non-lavatory compartment carriages with arc roofs
+
 obj=vehicle
 name=lswr-48ft-arc-sub-brake-front
 speed=160
 copyright=JamesPetts
-intro_year=1885
-intro_month=7
+intro_year=1884
+intro_month=9
 retire_year=1896
 retire_month=10
 waytype=track
@@ -127,8 +128,8 @@ obj=vehicle
 name=lswr-48ft-arc-sub-brake-rear
 speed=160
 copyright=JamesPetts
-intro_year=1885
-intro_month=7
+intro_year=1884
+intro_month=9
 retire_year=1896
 retire_month=10
 waytype=track
@@ -245,12 +246,14 @@ EmptyImage[NE][3]=./carriages/lswr-48ft-arc-sub-brake-third-rear-malachite_NE.0.
 
 ---
 # All third
+# # Introduced 1884: see http://s548745873.websitehome.co.uk/msrsourcev2/tpagesrs/tlswrcoachst.html
+# Dia. 772
 obj=vehicle
 name=lswr-48ft-arc-sub
 speed=160
 copyright=JamesPetts
-intro_year=1885
-intro_month=7
+intro_year=1884
+intro_month=9
 retire_year=1896
 retire_month=10
 waytype=track

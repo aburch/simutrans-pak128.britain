@@ -5023,9 +5023,9 @@ LSWR fruit brake carriage
 lswr-44ft-fruit-brake-elliptical
 LSWR fruit brake carriage
 lswr-48ft-arc-sub-brake-front
-LSWR six compartment bogie brake carriage (third class)
+LSWR five compartment bogie brake carriage (third class)
 lswr-48ft-arc-sub-brake-rear
-LSWR six compartment bogie brake carriage (third class) (rear)
+LSWR five compartment bogie brake carriage (third class) (rear)
 lswr-48ft-arc-sub
 LSWR eight compartment bogie carriage (third class)
 lswr-48ft-arc-lav-brake
@@ -5040,6 +5040,16 @@ lswr-48ft-lav-composite
 LSWR seven compartment bogie lavatory composite carriage (first/third class)
 lswr-48ft-lav-tricomposite
 LSWR six compartment bogie lavatory tricomposite carriage (first/second/third class)
+lswr-42ft-tricomposite
+LSWR seven compartment bogie tricomposite carriage (first/second/third class)
+lswr-42ft-first
+LSWR six compartment bogie carriage (first class)
+lswr-42ft-third
+LSWR seven compartment bogie carriage (third class)
+lswr-42ft-brake-third-rear
+LSWR five compartment bogie brake carriage (third class) (rear)
+lswr-42ft-brake-third-front
+LSWR five compartment bogie brake carriage (third class)
 lswr-30ft-fruit-brake-6-wheel-elliptical
 LSWR six wheel fruit brake carriage
 lswr-30ft-full-brake-6-wheel-elliptical
