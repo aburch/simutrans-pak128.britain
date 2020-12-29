@@ -18,9 +18,9 @@ overcrowded_capacity=25
 length=7
 
 # Estimated
-weight=20.6
+weight=17.4
 axles=4
-cost=650000
+cost=585000
 runningcost=0
 fixed_cost=5600
 
@@ -133,9 +133,9 @@ overcrowded_capacity=25
 length=7
 
 # Estimated
-weight=20.6
+weight=17.4
 axles=4
-cost=650000
+cost=585000
 runningcost=0
 fixed_cost=5600
 
@@ -247,11 +247,11 @@ overcrowded_capacity=35
 length=7
 
 # Estimated
-weight=21.1
+weight=17.8
 axles=4
-cost=709000
+cost=630000
 runningcost=0
-fixed_cost=844
+fixed_cost=842
 
 can_lead_from_rear=0
 bidirectional=1
@@ -356,7 +356,6 @@ Constraint[Prev][42]=lswr-42ft-brake-third-front
 Constraint[Prev][43]=lswr-42ft-third
 Constraint[Prev][44]=lswr-42ft-first
 Constraint[Prev][45]=lswr-42ft-tricomposite
-
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -409,11 +408,11 @@ overcrowded_capacity=0
 length=7
 
 # Estimated
-weight=21.2
+weight=17.7
 axles=4
-cost=716000
+cost=640800
 runningcost=0
-fixed_cost=849
+fixed_cost=847
 
 can_lead_from_rear=0
 bidirectional=1
@@ -519,7 +518,6 @@ Constraint[Prev][43]=lswr-42ft-third
 Constraint[Prev][44]=lswr-42ft-first
 Constraint[Prev][45]=lswr-42ft-tricomposite
 
-
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
@@ -571,11 +569,11 @@ overcrowded_capacity=45
 length=7
 
 # Estimated
-weight=21.2
+weight=17.8
 axles=4
-cost=712000
+cost=640800
 runningcost=0
-fixed_cost=847
+fixed_cost=845
 
 can_lead_from_rear=0
 bidirectional=1
