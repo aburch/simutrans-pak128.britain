@@ -60,6 +60,7 @@ Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 Constraint[Prev][25]=secr-utility-van
 Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -88,6 +89,7 @@ Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
 Constraint[Next][25]=secr-utility-van
 Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -203,6 +205,7 @@ Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 Constraint[Prev][25]=secr-utility-van
 Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -231,6 +234,7 @@ Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
 Constraint[Next][25]=secr-utility-van
 Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -350,7 +354,8 @@ Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
 Constraint[Next][25]=secr-utility-van
 Constraint[Next][26]=LSWR-corridor-composite
-Constraint[Next][27]=none
+Constraint[Next][27]=LSWR-Ironclad-First
+Constraint[Next][28]=none
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -466,6 +471,7 @@ Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 Constraint[Prev][25]=secr-utility-van
 Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -586,6 +592,7 @@ Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 Constraint[Prev][25]=secr-utility-van
 Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -614,6 +621,7 @@ Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
 Constraint[Next][25]=secr-utility-van
 Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
