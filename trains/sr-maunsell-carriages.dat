@@ -15,7 +15,7 @@ payload[3]=0
 overcrowded_capacity=30
 length=10
 
-weight=33
+weight=32.7
 axles=4
 cost=633000
 runningcost=0
@@ -62,6 +62,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -93,6 +96,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -144,7 +150,7 @@ payload[3]=42
 overcrowded_capacity=0
 length=10
 
-weight=33
+weight=32.7
 axles=4
 cost=645000
 runningcost=0
@@ -191,6 +197,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -222,6 +231,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -273,7 +285,7 @@ payload[3]=24
 overcrowded_capacity=15
 length=10
 
-weight=33
+weight=32.7
 axles=4
 cost=640000
 runningcost=0
@@ -320,6 +332,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -351,6 +366,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -402,7 +420,7 @@ payload[3]=0
 overcrowded_capacity=34
 length=10
 
-weight=33
+weight=32.6
 axles=4
 cost=625000
 runningcost=0
@@ -449,6 +467,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -480,6 +501,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -531,7 +555,8 @@ payload[3]=24
 overcrowded_capacity=10
 length=10
 
-weight=35
+# Estimated
+weight=32.8
 axles=4
 cost=675000
 runningcost=0
@@ -579,6 +604,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -610,6 +638,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -661,7 +692,8 @@ payload[3]=0
 overcrowded_capacity=10
 length=10
 
-weight=35
+# Estimated
+weight=32.8
 axles=4
 cost=650000
 runningcost=0
@@ -709,6 +741,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -740,6 +775,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -791,7 +829,10 @@ payload[3]=0
 overcrowded_capacity=24
 length=10
 
-weight=34
+# Tare weight given as 32T on a plate of a brake
+# composite carriage at p. 55 of "An Illustrated 
+# History of Southern Carriages" by Mike King (OPC)
+weight=32.5
 axles=4
 cost=633000
 runningcost=0
@@ -838,6 +879,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -889,7 +933,10 @@ payload[3]=0
 overcrowded_capacity=24
 length=10
 
-weight=34
+# Tare weight given as 32T on a plate of a brake
+# composite carriage at p. 55 of "An Illustrated 
+# History of Southern Carriages" by Mike King (OPC)
+weight=32.5
 axles=4
 cost=633000
 runningcost=0
@@ -906,37 +953,40 @@ comfort[1]=129
 comfort[2]=129
 comfort[3]=146
 
-Constraint[Prev][0]=SR-Maunsell-Third
-Constraint[Prev][1]=SR-Maunsell-Brake-front
-Constraint[Prev][2]=SR-Maunsell-Dining
-Constraint[Prev][3]=SR-Maunsell-Parcels
-Constraint[Prev][4]=SR-Maunsell-Mail
-Constraint[Prev][5]=SR-Maunsell-TPO
-Constraint[Prev][6]=LSWR-Ironclad-Pantry
-Constraint[Prev][7]=SR-Bulleid-Express-Coach
-Constraint[Prev][8]=SR-Bulleid-Express-Brake-front
-Constraint[Prev][9]=SR-Bulleid-Express-Dining
-Constraint[Prev][10]=LSWR-Ironclad-Brake-front
-Constraint[Prev][11]=LSWR-Ironclad
-Constraint[Prev][12]=LSWR-Ironclad-Dining
-Constraint[Prev][13]=LSWR-Ironclad-Mail
-Constraint[Prev][14]=LSWR-Ironclad-TPO
-Constraint[Prev][15]=LSWR-corridor
-Constraint[Prev][16]=LSWR-corridor-brake-front
-Constraint[Prev][17]=SR-Maunsell-Saloon
-Constraint[Prev][18]=SR-Maunsell-Buffet
-Constraint[Prev][19]=SR-Bulleid-Express-Coach-all-doors
-Constraint[Prev][20]=SR-Bulleid-Express-brake-front-all-doors
-Constraint[Prev][21]=SR-Bulleid-Express-Saloon
-Constraint[Prev][22]=SR-Bulleid-Express-Buffet
-Constraint[Prev][23]=LSWR-dining-saloon
-Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
-Constraint[Prev][25]=secr-utility-van
-Constraint[Prev][26]=LSWR-corridor-composite
-Constraint[Prev][27]=LSWR-Ironclad-First
-Constraint[Prev][28]=SR-Maunsell-First
-Constraint[Prev][29]=SR-Maunsell-Composite
-Constraint[Next][30]=none
+Constraint[Next][0]=SR-Maunsell-Third
+Constraint[Next][1]=SR-Maunsell-Brake-rear
+Constraint[Next][2]=SR-Maunsell-Dining
+Constraint[Next][3]=SR-Maunsell-Parcels
+Constraint[Next][4]=SR-Maunsell-Mail
+Constraint[Next][5]=SR-Maunsell-TPO
+Constraint[Next][6]=LSWR-Ironclad-Pantry
+Constraint[Next][7]=SR-Bulleid-Express-Coach
+Constraint[Next][8]=SR-Bulleid-Express-Brake-rear
+Constraint[Next][9]=SR-Bulleid-Express-Dining
+Constraint[Next][10]=LSWR-Ironclad-Brake-rear
+Constraint[Next][11]=LSWR-Ironclad
+Constraint[Next][12]=LSWR-Ironclad-Dining
+Constraint[Next][13]=LSWR-Ironclad-Mail
+Constraint[Next][14]=LSWR-Ironclad-TPO
+Constraint[Next][15]=LSWR-corridor
+Constraint[Next][16]=LSWR-corridor-brake-rear
+Constraint[Next][17]=SR-Maunsell-Saloon
+Constraint[Next][18]=SR-Maunsell-Buffet
+Constraint[Next][19]=SR-Bulleid-Express-Coach-all-doors
+Constraint[Next][20]=SR-Bulleid-Express-brake-rear-all-doors
+Constraint[Next][21]=SR-Bulleid-Express-Saloon
+Constraint[Next][22]=SR-Bulleid-Express-Buffet
+Constraint[Next][23]=LSWR-dining-saloon
+Constraint[Next][24]=SR-Maunsell-Parcels-Brake
+Constraint[Next][25]=secr-utility-van
+Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
+Constraint[Next][28]=SR-Maunsell-First
+Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
+Constraint[Next][33]=none
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -1026,6 +1076,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -1057,6 +1110,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -1156,7 +1212,10 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
-Constraint[Next][30]=none
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
+Constraint[Next][33]=none
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -1214,7 +1273,8 @@ freight=Post
 payload=600
 length=10
 
-weight=33
+# Estimated
+weight=32.3
 axles=4
 cost=633000
 runningcost=0
@@ -1255,6 +1315,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -1286,6 +1349,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -1333,7 +1399,8 @@ freight=Post
 payload=450
 length=10
 
-weight=33
+# Estimated
+weight=32.4
 axles=4
 cost=675000
 runningcost=0
@@ -1376,6 +1443,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -1407,6 +1477,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green

@@ -63,6 +63,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -94,6 +97,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -212,6 +218,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -243,6 +252,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -365,7 +377,10 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
-Constraint[Next][30]=none
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
+Constraint[Next][33]=none
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -484,6 +499,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
@@ -607,6 +625,9 @@ Constraint[Prev][26]=LSWR-corridor-composite
 Constraint[Prev][27]=LSWR-Ironclad-First
 Constraint[Prev][28]=SR-Maunsell-First
 Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -638,6 +659,9 @@ Constraint[Next][26]=LSWR-corridor-composite
 Constraint[Next][27]=LSWR-Ironclad-First
 Constraint[Next][28]=SR-Maunsell-First
 Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
