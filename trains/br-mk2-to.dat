@@ -16,10 +16,11 @@ overcrowded_capacity=22
 length=11
 rolling_resistance=13
 
+# https://www.rmweb.co.uk/community/uploads/monthly_10_2012/post-5212-0-67108500-1350177461.jpg
+weight=33.5
+axles=4
 # Mk. 2s should have a higher purchase but
 # lower running/overhaul cost than Mk. 1s.
-weight=32
-axles=4
 cost=460000
 runningcost=0
 fixed_cost=958

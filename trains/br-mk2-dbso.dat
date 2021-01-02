@@ -16,7 +16,7 @@ overcrowded_capacity=10
 length=11
 rolling_resistance=13
 
-weight=32
+weight=33.2
 axles=4
 cost=644000
 upgrade_price=202400
@@ -81,14 +81,14 @@ EmptyImage[NW][0]=./carriages/br-mk2-dbso-bg_NW.0
 EmptyImage[N][0]=./carriages/br-mk2-dbso-bg_N.0
 EmptyImage[NE][0]=./carriages/br-mk2-dbso-bg_NE.0
 
-EmptyImage[E][1]=./carriages/br-mk2-dbso-ic.0
-EmptyImage[SE][1]=./carriages/br-mk2-dbso-ic.1
-EmptyImage[S][1]=./carriages/br-mk2-dbso-ic.2
-EmptyImage[SW][1]=./carriages/br-mk2-dbso-ic.3
-EmptyImage[W][1]=./carriages/br-mk2-dbso-ic.4
-EmptyImage[NW][1]=./carriages/br-mk2-dbso-ic.5
-EmptyImage[N][1]=./carriages/br-mk2-dbso-ic.6
-EmptyImage[NE][1]=./carriages/br-mk2-dbso-ic.7
+EmptyImage[E][1]=./carriages/br-mk2-dbso-ic_E.0
+EmptyImage[SE][1]=./carriages/br-mk2-dbso-ic_SE.0
+EmptyImage[S][1]=./carriages/br-mk2-dbso-ic_S.0
+EmptyImage[SW][1]=./carriages/br-mk2-dbso-ic_SW.0
+EmptyImage[W][1]=./carriages/br-mk2-dbso-ic_W.0
+EmptyImage[NW][1]=./carriages/br-mk2-dbso-ic_NW.0
+EmptyImage[N][1]=./carriages/br-mk2-dbso-ic_N.0
+EmptyImage[NE][1]=./carriages/br-mk2-dbso-ic_NE.0
 
 EmptyImage[E][2]=./carriages/br-mk2-dbso-scr_E.0
 EmptyImage[SE][2]=./carriages/br-mk2-dbso-scr_SE.0
