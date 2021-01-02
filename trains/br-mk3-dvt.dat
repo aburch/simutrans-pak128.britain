@@ -43,24 +43,27 @@ liverytype[1]=IC-Swallow
 liverytype[2]=Chiltern-Mainline
 liverytype[3]=Virgin-original
 
-EmptyImage[E][0]=./carriages/br-mk3-bg.3.0
-EmptyImage[SE][0]=./carriages/br-mk3-bg.3.1
-EmptyImage[S][0]=./carriages/br-mk3-bg.3.2
-EmptyImage[SW][0]=./carriages/br-mk3-bg.3.3
-EmptyImage[W][0]=./carriages/br-mk3-bg.3.4
-EmptyImage[NW][0]=./carriages/br-mk3-bg.3.5
-EmptyImage[N][0]=./carriages/br-mk3-bg.3.6
-EmptyImage[NE][0]=./carriages/br-mk3-bg.3.7
+# These never wore BR blue livery. The original .blends
+# for the hypothetical BR blue livery are now lost.
+EmptyImage[E][0]=./carriages/br-mk3-dvt-ic_E.0
+EmptyImage[SE][0]=./carriages/br-mk3-dvt-ic_SE.0
+EmptyImage[S][0]=./carriages/br-mk3-dvt-ic_S.0
+EmptyImage[SW][0]=./carriages/br-mk3-dvt-ic_SW.0
+EmptyImage[W][0]=./carriages/br-mk3-dvt-ic_W.0
+EmptyImage[NW][0]=./carriages/br-mk3-dvt-ic_NW.0
+EmptyImage[N][0]=./carriages/br-mk3-dvt-ic_N.0
+EmptyImage[NE][0]=./carriages/br-mk3-dvt-ic_NE.0
 
-EmptyImage[E][1]=./carriages/br-mk3-dvt-ic.0
-EmptyImage[SE][1]=./carriages/br-mk3-dvt-ic.1
-EmptyImage[S][1]=./carriages/br-mk3-dvt-ic.2
-EmptyImage[SW][1]=./carriages/br-mk3-dvt-ic.3
-EmptyImage[W][1]=./carriages/br-mk3-dvt-ic.4
-EmptyImage[NW][1]=./carriages/br-mk3-dvt-ic.5
-EmptyImage[N][1]=./carriages/br-mk3-dvt-ic.6
-EmptyImage[NE][1]=./carriages/br-mk3-dvt-ic.7
+EmptyImage[E][1]=./carriages/br-mk3-dvt-ic_E.0
+EmptyImage[SE][1]=./carriages/br-mk3-dvt-ic_SE.0
+EmptyImage[S][1]=./carriages/br-mk3-dvt-ic_S.0
+EmptyImage[SW][1]=./carriages/br-mk3-dvt-ic_SW.0
+EmptyImage[W][1]=./carriages/br-mk3-dvt-ic_W.0
+EmptyImage[NW][1]=./carriages/br-mk3-dvt-ic_NW.0
+EmptyImage[N][1]=./carriages/br-mk3-dvt-ic_N.0
+EmptyImage[NE][1]=./carriages/br-mk3-dvt-ic_NE.0
 
+# TODO: Re-render these graphics. The .blends are unavailable.
 EmptyImage[E][2]=./carriages/br-mk3-dvt-chiltern.1.4
 EmptyImage[SE][2]=./carriages/br-mk3-dvt-chiltern.1.5
 EmptyImage[S][2]=./carriages/br-mk3-dvt-chiltern.1.6
