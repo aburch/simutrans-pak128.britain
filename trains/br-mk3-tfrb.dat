@@ -17,7 +17,8 @@ length=13
 brake_force=27
 rolling_resistance=13
 
-weight=34
+# https://www.rmweb.co.uk/community/uploads/monthly_10_2012/post-6880-0-53890900-1350212618.jpg
+weight=35.8
 cost=7200000
 runningcost=0
 fixed_cost=15000
@@ -38,12 +39,14 @@ Constraint[Next][1]=BR-Mk3-TRB
 Constraint[Next][2]=BR-Mk3-TRFB
 Constraint[Next][3]=BR-Mk3-FO
 Constraint[Next][4]=BR-Class43Rear
+Constraint[Next][5]=BR-Mk3-TRFB-pullman
 
 Constraint[Prev][0]=BR-Mk3-TSO
 Constraint[Prev][1]=BR-Mk3-TRB
 Constraint[Prev][2]=BR-Mk3-TRFB
 Constraint[Prev][3]=BR-Mk3-FO
 Constraint[Prev][4]=BR-Class43
+Constraint[Prev][5]=BR-Mk3-TRFB-pullman
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
@@ -187,7 +190,8 @@ length=13
 brake_force=26
 rolling_resistance=13
 
-weight=34
+# https://www.rmweb.co.uk/community/uploads/monthly_10_2012/post-6880-0-53890900-1350212618.jpg
+weight=35.8
 cost=7200000
 runningcost=0
 fixed_cost=15000
@@ -214,7 +218,8 @@ Constraint[Next][7]=BR-Mk2-BFK
 Constraint[Next][8]=BR-Mk2-TSOT
 Constraint[Next][9]=BR-Mk2-TSO
 Constraint[Next][10]=BR-Mk2-FO
-Constraint[Next][11]=None
+Constraint[Next][11]=BR-Mk3a-TRFB-pullman
+Constraint[Next][12]=None
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
