@@ -70,6 +70,7 @@ Constraint[Prev][14]=pullman-k-type-brake-third-front
 
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
+liverytype[2]=WW2-Austerity
 
 EmptyImage[E][0]=./carriages/pullman-k-type-parlour-first-ivory_E.0.0
 EmptyImage[SE][0]=./carriages/pullman-k-type-parlour-first-ivory_SE.0.0
@@ -88,6 +89,16 @@ EmptyImage[W][1]=./carriages/pullman-k-type-parlour-first_W.0.0
 EmptyImage[NW][1]=./carriages/pullman-k-type-parlour-first_NW.0.0
 EmptyImage[N][1]=./carriages/pullman-k-type-parlour-first_N.0.0
 EmptyImage[NE][1]=./carriages/pullman-k-type-parlour-first_NE.0.0
+
+EmptyImage[E][2]=./carriages/pullman-k-type-parlour-first-austerity_E.0.0
+EmptyImage[SE][2]=./carriages/pullman-k-type-parlour-first-austerity_SE.0.0
+EmptyImage[S][2]=./carriages/pullman-k-type-parlour-first-austerity_S.0.0
+EmptyImage[SW][2]=./carriages/pullman-k-type-parlour-first-austerity_SW.0.0
+EmptyImage[W][2]=./carriages/pullman-k-type-parlour-first-austerity_W.0.0
+EmptyImage[NW][2]=./carriages/pullman-k-type-parlour-first-austerity_NW.0.0
+EmptyImage[N][2]=./carriages/pullman-k-type-parlour-first-austerity_N.0.0
+EmptyImage[NE][2]=./carriages/pullman-k-type-parlour-first-austerity_NE.0.0
+
 ---
 
 obj=vehicle
@@ -162,6 +173,7 @@ Constraint[Prev][14]=pullman-k-type-brake-third-front
 
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
+liverytype[2]=WW2-Austerity
 
 EmptyImage[E][0]=./carriages/pullman-k-type-parlour-third-ivory_E.0.0
 EmptyImage[SE][0]=./carriages/pullman-k-type-parlour-third-ivory_SE.0.0
@@ -180,6 +192,15 @@ EmptyImage[W][1]=./carriages/pullman-k-type-parlour-third_W.0.0
 EmptyImage[NW][1]=./carriages/pullman-k-type-parlour-third_NW.0.0
 EmptyImage[N][1]=./carriages/pullman-k-type-parlour-third_N.0.0
 EmptyImage[NE][1]=./carriages/pullman-k-type-parlour-third_NE.0.0
+
+EmptyImage[E][2]=./carriages/pullman-k-type-parlour-third-austerity_E.0.0
+EmptyImage[SE][2]=./carriages/pullman-k-type-parlour-third-austerity_SE.0.0
+EmptyImage[S][2]=./carriages/pullman-k-type-parlour-third-austerity_S.0.0
+EmptyImage[SW][2]=./carriages/pullman-k-type-parlour-third-austerity_SW.0.0
+EmptyImage[W][2]=./carriages/pullman-k-type-parlour-third-austerity_W.0.0
+EmptyImage[NW][2]=./carriages/pullman-k-type-parlour-third-austerity_NW.0.0
+EmptyImage[N][2]=./carriages/pullman-k-type-parlour-third-austerity_N.0.0
+EmptyImage[NE][2]=./carriages/pullman-k-type-parlour-third-austerity_NE.0.0
 
 ----
 
@@ -257,6 +278,7 @@ Constraint[Prev][14]=pullman-k-type-brake-third-front
 
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
+liverytype[2]=WW2-Austerity
 
 # First and third class kitchen cars visually indisinguishable at Simutrans resolutions
 EmptyImage[E][0]=./carriages/pullman-k-type-kitchen-ivory_E.0.0
@@ -276,6 +298,15 @@ EmptyImage[W][1]=./carriages/pullman-k-type-kitchen_W.0.0
 EmptyImage[NW][1]=./carriages/pullman-k-type-kitchen_NW.0.0
 EmptyImage[N][1]=./carriages/pullman-k-type-kitchen_N.0.0
 EmptyImage[NE][1]=./carriages/pullman-k-type-kitchen_NE.0.0
+
+EmptyImage[E][2]=./carriages/pullman-k-type-kitchen-austerity_E.0.0
+EmptyImage[SE][2]=./carriages/pullman-k-type-kitchen-austerity_SE.0.0
+EmptyImage[S][2]=./carriages/pullman-k-type-kitchen-austerity_S.0.0
+EmptyImage[SW][2]=./carriages/pullman-k-type-kitchen-austerity_SW.0.0
+EmptyImage[W][2]=./carriages/pullman-k-type-kitchen-austerity_W.0.0
+EmptyImage[NW][2]=./carriages/pullman-k-type-kitchen-austerity_NW.0.0
+EmptyImage[N][2]=./carriages/pullman-k-type-kitchen-austerity_N.0.0
+EmptyImage[NE][2]=./carriages/pullman-k-type-kitchen-austerity_NE.0.0
 
 ----
 
@@ -326,6 +357,7 @@ Constraint[Prev][0]=any
 
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
+liverytype[2]=WW2-Austerity
 
 # First and third class kitchen cars visually indisinguishable at Simutrans resolutions
 
@@ -347,6 +379,14 @@ EmptyImage[NW][1]=./carriages/pullman-k-type-kitchen_NW.0.0
 EmptyImage[N][1]=./carriages/pullman-k-type-kitchen_N.0.0
 EmptyImage[NE][1]=./carriages/pullman-k-type-kitchen_NE.0.0
 
+EmptyImage[E][2]=./carriages/pullman-k-type-kitchen-austerity_E.0.0
+EmptyImage[SE][2]=./carriages/pullman-k-type-kitchen-austerity_SE.0.0
+EmptyImage[S][2]=./carriages/pullman-k-type-kitchen-austerity_S.0.0
+EmptyImage[SW][2]=./carriages/pullman-k-type-kitchen-austerity_SW.0.0
+EmptyImage[W][2]=./carriages/pullman-k-type-kitchen-austerity_W.0.0
+EmptyImage[NW][2]=./carriages/pullman-k-type-kitchen-austerity_NW.0.0
+EmptyImage[N][2]=./carriages/pullman-k-type-kitchen-austerity_N.0.0
+EmptyImage[NE][2]=./carriages/pullman-k-type-kitchen-austerity_NE.0.0
 
 ----
 
@@ -407,6 +447,7 @@ Constraint[Next][15]=none
 
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
+liverytype[2]=WW2-Austerity
 
 EmptyImage[E][0]=./carriages/pullman-k-type-brake-third-front-ivory_E.0.0
 EmptyImage[SE][0]=./carriages/pullman-k-type-brake-third-front-ivory_SE.0.0
@@ -425,6 +466,15 @@ EmptyImage[W][1]=./carriages/pullman-k-type-brake-third-front_W.0.0
 EmptyImage[NW][1]=./carriages/pullman-k-type-brake-third-front_NW.0.0
 EmptyImage[N][1]=./carriages/pullman-k-type-brake-third-front_N.0.0
 EmptyImage[NE][1]=./carriages/pullman-k-type-brake-third-front_NE.0.0
+
+EmptyImage[E][2]=./carriages/pullman-k-type-brake-third-front-austerity_E.0.0
+EmptyImage[SE][2]=./carriages/pullman-k-type-brake-third-front-austerity_SE.0.0
+EmptyImage[S][2]=./carriages/pullman-k-type-brake-third-front-austerity_S.0.0
+EmptyImage[SW][2]=./carriages/pullman-k-type-brake-third-front-austerity_SW.0.0
+EmptyImage[W][2]=./carriages/pullman-k-type-brake-third-front-austerity_W.0.0
+EmptyImage[NW][2]=./carriages/pullman-k-type-brake-third-front-austerity_NW.0.0
+EmptyImage[N][2]=./carriages/pullman-k-type-brake-third-front-austerity_N.0.0
+EmptyImage[NE][2]=./carriages/pullman-k-type-brake-third-front-austerity_NE.0.0
 
 ----
 
@@ -484,6 +534,7 @@ Constraint[Prev][14]=pullman-k-type-brake-third-front
 
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
+liverytype[2]=WW2-Austerity
 
 EmptyImage[E][0]=./carriages/pullman-k-type-brake-third-rear-ivory_E.0.0
 EmptyImage[SE][0]=./carriages/pullman-k-type-brake-third-rear-ivory_SE.0.0
@@ -503,3 +554,11 @@ EmptyImage[NW][1]=./carriages/pullman-k-type-brake-third-rear_NW.0.0
 EmptyImage[N][1]=./carriages/pullman-k-type-brake-third-rear_N.0.0
 EmptyImage[NE][1]=./carriages/pullman-k-type-brake-third-rear_NE.0.0
 
+EmptyImage[E][2]=./carriages/pullman-k-type-brake-third-rear-austerity_E.0.0
+EmptyImage[SE][2]=./carriages/pullman-k-type-brake-third-rear-austerity_SE.0.0
+EmptyImage[S][2]=./carriages/pullman-k-type-brake-third-rear-austerity_S.0.0
+EmptyImage[SW][2]=./carriages/pullman-k-type-brake-third-rear-austerity_SW.0.0
+EmptyImage[W][2]=./carriages/pullman-k-type-brake-third-rear-austerity_W.0.0
+EmptyImage[NW][2]=./carriages/pullman-k-type-brake-third-rear-austerity_NW.0.0
+EmptyImage[N][2]=./carriages/pullman-k-type-brake-third-rear-austerity_N.0.0
+EmptyImage[NE][2]=./carriages/pullman-k-type-brake-third-rear-austerity_NE.0.0

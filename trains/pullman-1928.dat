@@ -69,6 +69,7 @@ Constraint[Prev][13]=pullman-k-type-kitchen-first
 Constraint[Prev][14]=pullman-k-type-brake-third-rear
 
 liverytype[0]=Pullman-Cream-Umber
+liverytype[1]=WW2-Austerity
 
 EmptyImage[E][0]=./carriages/pullman-1928-parlour-first_E.0.0
 EmptyImage[SE][0]=./carriages/pullman-1928-parlour-first_SE.0.0
@@ -78,6 +79,15 @@ EmptyImage[W][0]=./carriages/pullman-1928-parlour-first_W.0.0
 EmptyImage[NW][0]=./carriages/pullman-1928-parlour-first_NW.0.0
 EmptyImage[N][0]=./carriages/pullman-1928-parlour-first_N.0.0
 EmptyImage[NE][0]=./carriages/pullman-1928-parlour-first_NE.0.0
+
+EmptyImage[E][1]=./carriages/pullman-1928-parlour-first-austerity_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-1928-parlour-first-austerity_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-1928-parlour-first-austerity_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-1928-parlour-first-austerity_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-1928-parlour-first-austerity_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-1928-parlour-first-austerity_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-1928-parlour-first-austerity_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-1928-parlour-first-austerity_NE.0.0
 
 ---
 
@@ -152,6 +162,7 @@ Constraint[Prev][13]=pullman-k-type-kitchen-first
 Constraint[Prev][14]=pullman-k-type-brake-third-rear
 
 liverytype[0]=Pullman-Cream-Umber
+liverytype[1]=WW2-Austerity
 
 EmptyImage[E][0]=./carriages/pullman-1928-parlour-third_E.0.0
 EmptyImage[SE][0]=./carriages/pullman-1928-parlour-third_SE.0.0
@@ -161,6 +172,15 @@ EmptyImage[W][0]=./carriages/pullman-1928-parlour-third_W.0.0
 EmptyImage[NW][0]=./carriages/pullman-1928-parlour-third_NW.0.0
 EmptyImage[N][0]=./carriages/pullman-1928-parlour-third_N.0.0
 EmptyImage[NE][0]=./carriages/pullman-1928-parlour-third_NE.0.0
+
+EmptyImage[E][1]=./carriages/pullman-1928-parlour-third-austerity_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-1928-parlour-third-austerity_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-1928-parlour-third-austerity_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-1928-parlour-third-austerity_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-1928-parlour-third-austerity_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-1928-parlour-third-austerity_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-1928-parlour-third-austerity_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-1928-parlour-third-austerity_NE.0.0
 
 ----
 
@@ -237,6 +257,7 @@ Constraint[Prev][13]=pullman-k-type-kitchen-first
 Constraint[Prev][14]=pullman-k-type-brake-third-rear
 
 liverytype[0]=Pullman-Cream-Umber
+liverytype[1]=WW2-Austerity
 
 # First and third class kitchen cars visually indisinguishable at Simutrans resolutions
 EmptyImage[E][0]=./carriages/pullman-1928-kitchen_E.0.0
@@ -296,6 +317,7 @@ Constraint[Next][0]=any
 Constraint[Prev][0]=any
 
 liverytype[0]=Pullman-Cream-Umber
+liverytype[1]=WW2-Austerity
 
 # First and third class kitchen cars visually indisinguishable at Simutrans resolutions
 EmptyImage[E][0]=./carriages/pullman-1928-kitchen_E.0.0
@@ -307,6 +329,14 @@ EmptyImage[NW][0]=./carriages/pullman-1928-kitchen_NW.0.0
 EmptyImage[N][0]=./carriages/pullman-1928-kitchen_N.0.0
 EmptyImage[NE][0]=./carriages/pullman-1928-kitchen_NE.0.0
 
+EmptyImage[E][1]=./carriages/pullman-1928-kitchen-austerity_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-1928-kitchen-austerity_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-1928-kitchen-austerity_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-1928-kitchen-austerity_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-1928-kitchen-austerity_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-1928-kitchen-austerity_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-1928-kitchen-austerity_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-1928-kitchen-austerity_NE.0.0
 
 ----
 
@@ -366,6 +396,7 @@ Constraint[Next][14]=pullman-k-type-brake-third-rear
 Constraint[Next][15]=none
 
 liverytype[0]=Pullman-Cream-Umber
+liverytype[1]=WW2-Austerity
 
 EmptyImage[E][0]=./carriages/pullman-1928-brake-third-front_E.0.0
 EmptyImage[SE][0]=./carriages/pullman-1928-brake-third-front_SE.0.0
@@ -375,6 +406,15 @@ EmptyImage[W][0]=./carriages/pullman-1928-brake-third-front_W.0.0
 EmptyImage[NW][0]=./carriages/pullman-1928-brake-third-front_NW.0.0
 EmptyImage[N][0]=./carriages/pullman-1928-brake-third-front_N.0.0
 EmptyImage[NE][0]=./carriages/pullman-1928-brake-third-front_NE.0.0
+
+EmptyImage[E][1]=./carriages/pullman-1928-brake-third-front-austerity_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-1928-brake-third-front-austerity_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-1928-brake-third-front-austerity_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-1928-brake-third-front-austerity_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-1928-brake-third-front-austerity_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-1928-brake-third-front-austerity_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-1928-brake-third-front-austerity_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-1928-brake-third-front-austerity_NE.0.0
 
 ----
 
@@ -433,6 +473,7 @@ Constraint[Prev][13]=pullman-k-type-kitchen-first
 Constraint[Prev][14]=pullman-k-type-brake-third-rear
 
 liverytype[0]=Pullman-Cream-Umber
+liverytype[1]=WW2-Austerity
 
 EmptyImage[E][0]=./carriages/pullman-1928-brake-third-rear_E.0.0
 EmptyImage[SE][0]=./carriages/pullman-1928-brake-third-rear_SE.0.0
@@ -442,4 +483,13 @@ EmptyImage[W][0]=./carriages/pullman-1928-brake-third-rear_W.0.0
 EmptyImage[NW][0]=./carriages/pullman-1928-brake-third-rear_NW.0.0
 EmptyImage[N][0]=./carriages/pullman-1928-brake-third-rear_N.0.0
 EmptyImage[NE][0]=./carriages/pullman-1928-brake-third-rear_NE.0.0
+
+EmptyImage[E][1]=./carriages/pullman-1928-brake-third-rear-austerity_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-1928-brake-third-rear-austerity_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-1928-brake-third-rear-austerity_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-1928-brake-third-rear-austerity_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-1928-brake-third-rear-austerity_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-1928-brake-third-rear-austerity_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-1928-brake-third-rear-austerity_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-1928-brake-third-rear-austerity_NE.0.0
 
