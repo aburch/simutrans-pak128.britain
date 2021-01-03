@@ -46,6 +46,11 @@ Constraint[Next][6]=pullman-1928-parlour-third
 Constraint[Next][7]=pullman-1928-kitchen-third
 Constraint[Next][8]=pullman-1928-kitchen-first
 Constraint[Next][9]=pullman-1928-brake-third-rear
+Constraint[Next][10]=pullman-k-type-parlour-first
+Constraint[Next][11]=pullman-k-type-parlour-third
+Constraint[Next][12]=pullman-k-type-kitchen-third
+Constraint[Next][13]=pullman-k-type-kitchen-first
+Constraint[Next][14]=pullman-k-type-brake-third-rear
 
 Constraint[Prev][0]=pullman-1928-parlour-first
 Constraint[Prev][1]=pullman-1928-parlour-third
@@ -57,6 +62,11 @@ Constraint[Prev][6]=pullman-1951-parlour-third
 Constraint[Prev][6]=pullman-1951-kitchen-third
 Constraint[Prev][7]=pullman-1951-kitchen-first
 Constraint[Prev][9]=pullman-1951-brake-third-front
+Constraint[Prev][10]=pullman-k-type-parlour-first
+Constraint[Prev][11]=pullman-k-type-parlour-third
+Constraint[Prev][12]=pullman-k-type-kitchen-third
+Constraint[Prev][13]=pullman-k-type-kitchen-first
+Constraint[Prev][14]=pullman-k-type-brake-third-rear
 
 liverytype[0]=Pullman-Cream-Umber
 
@@ -119,6 +129,11 @@ Constraint[Next][6]=pullman-1928-parlour-third
 Constraint[Next][7]=pullman-1928-kitchen-third
 Constraint[Next][8]=pullman-1928-kitchen-first
 Constraint[Next][9]=pullman-1928-brake-third-rear
+Constraint[Next][10]=pullman-k-type-parlour-first
+Constraint[Next][11]=pullman-k-type-parlour-third
+Constraint[Next][12]=pullman-k-type-kitchen-third
+Constraint[Next][13]=pullman-k-type-kitchen-first
+Constraint[Next][14]=pullman-k-type-brake-third-rear
 
 Constraint[Prev][0]=pullman-1928-parlour-first
 Constraint[Prev][1]=pullman-1928-parlour-third
@@ -130,6 +145,11 @@ Constraint[Prev][6]=pullman-1951-parlour-third
 Constraint[Prev][6]=pullman-1951-kitchen-third
 Constraint[Prev][7]=pullman-1951-kitchen-first
 Constraint[Prev][9]=pullman-1951-brake-third-front
+Constraint[Prev][10]=pullman-k-type-parlour-first
+Constraint[Prev][11]=pullman-k-type-parlour-third
+Constraint[Prev][12]=pullman-k-type-kitchen-third
+Constraint[Prev][13]=pullman-k-type-kitchen-first
+Constraint[Prev][14]=pullman-k-type-brake-third-rear
 
 liverytype[0]=Pullman-Cream-Umber
 
@@ -194,6 +214,11 @@ Constraint[Next][6]=pullman-1928-parlour-third
 Constraint[Next][7]=pullman-1928-kitchen-third
 Constraint[Next][8]=pullman-1928-kitchen-first
 Constraint[Next][9]=pullman-1928-brake-third-rear
+Constraint[Next][10]=pullman-k-type-parlour-first
+Constraint[Next][11]=pullman-k-type-parlour-third
+Constraint[Next][12]=pullman-k-type-kitchen-third
+Constraint[Next][13]=pullman-k-type-kitchen-first
+Constraint[Next][14]=pullman-k-type-brake-third-rear
 
 Constraint[Prev][0]=pullman-1928-parlour-first
 Constraint[Prev][1]=pullman-1928-parlour-third
@@ -205,6 +230,11 @@ Constraint[Prev][6]=pullman-1951-parlour-third
 Constraint[Prev][6]=pullman-1951-kitchen-third
 Constraint[Prev][7]=pullman-1951-kitchen-first
 Constraint[Prev][9]=pullman-1951-brake-third-front
+Constraint[Prev][10]=pullman-k-type-parlour-first
+Constraint[Prev][11]=pullman-k-type-parlour-third
+Constraint[Prev][12]=pullman-k-type-kitchen-third
+Constraint[Prev][13]=pullman-k-type-kitchen-first
+Constraint[Prev][14]=pullman-k-type-brake-third-rear
 
 liverytype[0]=Pullman-Cream-Umber
 
@@ -328,7 +358,12 @@ Constraint[Next][6]=pullman-1928-parlour-third
 Constraint[Next][7]=pullman-1928-kitchen-third
 Constraint[Next][8]=pullman-1928-kitchen-first
 Constraint[Next][9]=pullman-1928-brake-third-rear
-Constraint[Next][10]=none
+Constraint[Next][10]=pullman-k-type-parlour-first
+Constraint[Next][11]=pullman-k-type-parlour-third
+Constraint[Next][12]=pullman-k-type-kitchen-third
+Constraint[Next][13]=pullman-k-type-kitchen-first
+Constraint[Next][14]=pullman-k-type-brake-third-rear
+Constraint[Next][15]=none
 
 liverytype[0]=Pullman-Cream-Umber
 
@@ -391,6 +426,11 @@ Constraint[Prev][6]=pullman-1951-parlour-third
 Constraint[Prev][6]=pullman-1951-kitchen-third
 Constraint[Prev][7]=pullman-1951-kitchen-first
 Constraint[Prev][9]=pullman-1951-brake-third-front
+Constraint[Prev][10]=pullman-k-type-parlour-first
+Constraint[Prev][11]=pullman-k-type-parlour-third
+Constraint[Prev][12]=pullman-k-type-kitchen-third
+Constraint[Prev][13]=pullman-k-type-kitchen-first
+Constraint[Prev][14]=pullman-k-type-brake-third-rear
 
 liverytype[0]=Pullman-Cream-Umber
 

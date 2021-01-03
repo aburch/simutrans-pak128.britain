@@ -67,6 +67,7 @@ Constraint[Prev][31]=SR-Bulleid-Express-composite
 Constraint[Prev][32]=SR-Bulleid-Express-first
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -103,6 +104,7 @@ Constraint[Next][31]=SR-Bulleid-Express-composite
 Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -205,6 +207,7 @@ Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
 Constraint[Prev][31]=SR-Bulleid-Express-composite
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -240,6 +243,8 @@ Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
 Constraint[Next][31]=SR-Bulleid-Express-composite
 Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
+Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -343,6 +348,7 @@ Constraint[Prev][31]=SR-Bulleid-Express-composite
 Constraint[Prev][32]=SR-Bulleid-Express-first
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -482,6 +488,7 @@ Constraint[Prev][31]=SR-Bulleid-Express-composite
 Constraint[Prev][32]=SR-Bulleid-Express-first
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -518,6 +525,7 @@ Constraint[Next][31]=SR-Bulleid-Express-composite
 Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -623,6 +631,7 @@ Constraint[Prev][31]=SR-Bulleid-Express-composite
 Constraint[Prev][32]=SR-Bulleid-Express-first
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -659,6 +668,7 @@ Constraint[Next][31]=SR-Bulleid-Express-composite
 Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -764,6 +774,7 @@ Constraint[Prev][31]=SR-Bulleid-Express-composite
 Constraint[Prev][32]=SR-Bulleid-Express-first
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -800,6 +811,7 @@ Constraint[Next][31]=SR-Bulleid-Express-composite
 Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -906,6 +918,7 @@ Constraint[Prev][31]=SR-Bulleid-Express-composite
 Constraint[Prev][32]=SR-Bulleid-Express-first
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -1012,7 +1025,8 @@ Constraint[Next][31]=SR-Bulleid-Express-composite
 Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][34]=pullman-1951-kitchen-first
-Constraint[Next][35]=none
+Constraint[Next][35]=pullman-k-type-kitchen-first
+Constraint[Next][36]=none
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -1107,6 +1121,7 @@ Constraint[Prev][31]=SR-Bulleid-Express-composite
 Constraint[Prev][32]=SR-Bulleid-Express-first
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -1143,6 +1158,7 @@ Constraint[Next][31]=SR-Bulleid-Express-composite
 Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -1247,7 +1263,8 @@ Constraint[Next][31]=SR-Bulleid-Express-composite
 Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][34]=pullman-1951-kitchen-first
-Constraint[Next][35]=none
+Constraint[Next][35]=pullman-k-type-kitchen-first
+Constraint[Next][36]=none
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -1352,6 +1369,7 @@ Constraint[Prev][31]=SR-Bulleid-Express-composite
 Constraint[Prev][32]=SR-Bulleid-Express-first
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -1389,6 +1407,7 @@ Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -1485,6 +1504,7 @@ Constraint[Prev][31]=SR-Bulleid-Express-composite
 Constraint[Prev][32]=SR-Bulleid-Express-first
 Constraint[Prev][33]=pullman-1928-kitchen-first
 Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -1521,6 +1541,7 @@ Constraint[Next][31]=SR-Bulleid-Express-composite
 Constraint[Next][32]=SR-Bulleid-Express-first
 Constraint[Next][33]=pullman-1928-kitchen-first
 Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
