@@ -216,6 +216,7 @@ comfort[3]=153
 Constraint[Prev][0]=SR-6PAN(trailer1)
 
 Constraint[Next][0]=SR-6PAN(buffet)
+Constraint[Next][1]=pullman-kitchen-composite
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
@@ -344,6 +345,74 @@ EmptyImage[N][3]=./railcars/sr-6-pan-buffet-br-revised_N.0.0
 EmptyImage[NE][3]=./railcars/sr-6-pan-buffet-br-revised_NE.0.0
 
 ---
+# For 6-PUL use
+obj=vehicle
+name=pullman-kitchen-composite
+engine_type=electric
+speed=120
+power=0
+copyright=Kieron/JamesPetts
+intro_year=1932
+intro_month=4
+retire_year=1939
+retire_month=5
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=16
+payload[3]=0
+payload[4]=12
+overcrowded_capacity=0
+length=11
+
+weight=38.6
+axles=4
+cost=855000
+runningcost=0
+fixed_cost=20958
+
+can_lead_from_rear=1
+bidirectional=0
+
+# Inward opening doors
+min_loading_time=40
+max_loading_time=200
+
+catering_level=5
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=145
+comfort[3]=145
+comfort[4]=158
+
+Constraint[Prev][0]=SR-6PAN(trailer2)
+
+Constraint[Next][0]=SR-6PAN(trailer4)
+
+liverytype[0]=Pullman-Cream-Umber
+liverytype[1]=WW2-Austerity
+
+EmptyImage[E][0]=./carriages/pullman-kitchen-composite_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-kitchen-composite_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-kitchen-composite_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-kitchen-composite_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-kitchen-composite_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-kitchen-composite_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-kitchen-composite_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-kitchen-composite_NE.0.0
+
+EmptyImage[E][1]=./carriages/pullman-kitchen-composite-austerity_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-kitchen-composite-austerity_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-kitchen-composite-austerity_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-kitchen-composite-austerity_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-kitchen-composite-austerity_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-kitchen-composite-austerity_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-kitchen-composite-austerity_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-kitchen-composite-austerity_NE.0.0
+
+---
 
 obj=vehicle
 name=SR-6PAN(trailer4)
@@ -383,6 +452,7 @@ comfort[2]=0
 comfort[3]=153
 
 Constraint[Prev][0]=SR-6PAN(buffet)
+Constraint[Prev][1]=pullman-kitchen-composite
 
 Constraint[Next][0]=SR-6PAN(rear)
 

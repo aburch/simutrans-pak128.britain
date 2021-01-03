@@ -3641,51 +3641,51 @@ BR Class 104 DMU (centre)
 BR-104Front
 BR Class 104 DMU
 SR-404[COR]Front
-SR 4-COR EMU
-SR-404[COR]Middle(Green)
-SR 4-COR EMU (centre)
+SR 4-COR EMU driving motor (third class)
 SR-404[COR]Middle1
-SR 4-COR EMU (centre)
+SR 4-COR EMU trailer (third class)
 SR-404[COR]Middle-Buf
-SR 4-COR EMU (buffet car)
+SR 4-COR EMU buffet car (third class)
 SR-404[COR]Middle-Res
-SR 4-COR EMU (restaurant car)
+SR 4-COR EMU restaurant car (third class)
 SR-404[COR]Middle2
-SR 4-COR EMU (centre)
+SR 4-COR EMU trailer composite (first/third class)
 SR-404[COR]Rear
-SR 4-Cor EMU (rear)
+SR 4-Cor EMU driving motor (third class) (rear)
 SR-401[BIL]Front
-SR 2-BIL EMU
+SR 2-BIL EMU driving motor lavatory (third class)
 SR-401[BIL]Rear
-SR 2-BIL EMU (rear)
+SR 2-BIL EMU driving motor lavatory composite (first/third class)
 SR-4LAV(front)
-SR 4-LAV EMU
+SR 4-LAV EMU driving motor (third class)
 SR-4LAV(rear)
-SR 4-LAV EMU (rear)
+SR 4-LAV EMU driving motor (third class) (rear)
 SR-4LAV(centre1)
-SR 4-LAV EMU (centre)
+SR 4-LAV EMU trailer composite (first/third class)
 SR-4LAV(centre2)
-SR 4-LAV EMU (centre, with lavatory)
+SR 4-LAV EMU lavatory trailer composite (first/third class)
 sr-2hal-front
-SR 2-HAL EMU
+SR 2-HAL EMU driving motor (third class)
 sr-2hal-rear
-SR 2-HAL EMU (rear)
+SR 2-HAL EMU driving motor lavatory composite (first/third class) (rear)
 SR-2-NOL-front
-SR 2-NOL EMU
+SR 2-NOL EMU driving motor composite (first/third class)
 SR-2-NOL-rear
-SR 2-NOL EMU (rear)
+SR 2-NOL EMU driving motor composite (first/third class) (rear)
 SR-6PAN(front)
-SR 6-PAN EMU
+SR 6-PUL/PAN EMU driving motor (third class)
 SR-6PAN(trailer1)
-SR 6-PAN EMU (centre)
+SR 6-PUL/PAN EMU trailer (third class)
 SR-6PAN(trailer2)
-SR 6-PAN EMU (centre)
+SR 6-PUL/PAN EMU trailer (first class)
 SR-6PAN(buffet)
-SR 6-PAN EMU (pantry car)
+SR 6-PAN EMU pantry car (third class)
+pullman-kitchen-composite
+SR 6-PUL EMU Pullman kitchen composite (first/third class)
 SR-6PAN(trailer4)
-SR 6-PAN EMU (centre)
+SR 6-PUL/PAN EMU trailer (third class)
 SR-6PAN(rear)
-SR 6-PAN EMU (rear)
+SR 6-PAN EMU driving motor (third class) (rear)
 BR-170Front
 BR Class 170 "Turbostar" DMU
 BR-170Middle
@@ -6221,53 +6221,53 @@ Mersey Railway EMU (third class trailer)
 Mersey-EMU-1923(trailer-first)
 Mersey Railway EMU (first class trailer)
 LSWR-EMU(front)
-LSWR suburban EMU (front driving motor)
+LSWR suburban EMU driving motor (third class)
 LSWR-EMU(centre)
-LSWR suburban EMU (composite centre trailer)
+LSWR suburban EMU trailer composite (first/third class)
 LSWR-EMU(rear)
-LSWR suburban EMU (rear driving motor)
+LSWR suburban EMU driving motor (third class) (rear)
 SR-3SUB(front)
-SR 3-SUB 
+SR 3-SUB driving motor (third class)
 SR-3SUB(rear)
-SR 3-SUB (rear driving motor)
+SR 3-SUB driving motor (third class) (rear)
 SR-3SUB(centre)
-SR 3-SUB (centre trailer)
+SR 3-SUB trailer composite (first/third class)
 SR-4SUB(front)
-SR 4-SUB
+SR 4-SUB driving motor (third class)
 SR-4SUB(centre1)
-SR 4-SUB (centre trailer)
+SR 4-SUB trailer (third class)
 SR-4SUB(centre2)
-SR 4-SUB (centre trailer)
+SR 4-SUB trailer (third class)
 SR-4SUB(rear)
-SR 4-SUB (rear driving motor)
+SR 4-SUB driving motor (third class) (rear)
 lbscr-48ft-augmentation-trailer-front
-SR EMU augmentation trailer (48ft, ex-LBSC)
+SR EMU augmentation trailer (48ft, ex-LBSC) (third class)
 lbscr-48ft-augmentation-trailer-rear
-SR EMU augmentation trailer (48ft, ex-LBSC)
+SR EMU augmentation trailer (48ft, ex-LBSC) (third class)
 lbscr-54ft-augmentation-trailer-front
-SR EMU augmentation trailer (54ft, ex-LBSC)
+SR EMU augmentation trailer (54ft, ex-LBSC) (third class)
 lbscr-54ft-augmentation-trailer-rear
-SR EMU augmentation trailer (54ft, ex-LBSC)
+SR EMU augmentation trailer (54ft, ex-LBSC) (third class)
 lswr-48ft-arc-augmentation-trailer-front
-SR EMU augmentation trailer (48ft)
+SR EMU augmentation trailer (48ft) (third class)
 lswr-48ft-arc-augmentation-trailer-rear
-SR EMU augmentation trailer (48ft)
+SR EMU augmentation trailer (48ft) (third class)
 lswr-48ft-augmentation-trailer-front
-SR EMU augmentation trailer (48ft)
+SR EMU augmentation trailer (48ft) (third class)
 lswr-48ft-augmentation-trailer-rear
-SR EMU augmentation trailer (48ft)
+SR EMU augmentation trailer (48ft) (third class)
 lswr-56ft-augmentation-trailer-front
-SR EMU augmentation trailer (56ft)
+SR EMU augmentation trailer (56ft) (third class)
 lswr-56ft-augmentation-trailer-rear
-SR EMU augmentation trailer (56ft)
+SR EMU augmentation trailer (56ft) (third class)
 SR-4DD-front
-SR 4DD
+SR 4DD driving motor (third class)
 SR-4DD-rear
-SR 4DD (rear)
+SR 4DD driving motor (third class) (rear)
 SR-4DD-TT1
-SR 4DD (centre trailer)
+SR 4DD trailer (third class)
 SR-4DD-TT2
-SR 4DD (centre trailer)
+SR 4DD trailer (third class)
 LBSCR-sub-bogie-48ft
 LBSCR eight compartment bogie carriage (third class)
 LBSCR-sub-bogie-48ft-composite
