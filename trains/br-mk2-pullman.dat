@@ -73,6 +73,9 @@ Constraint[Next][34]=BR-Mk3a-TRFB-pullman
 Constraint[Next][35]=BR-Mk2-PFP
 Constraint[Next][36]=BR-Mk2-PFK
 Constraint[Next][37]=BR-Mk2-PFB
+Constraint[Next][38]=BR-Mk1-PFK
+Constraint[Next][39]=BR-Mk1-PSP
+Constraint[Next][40]=BR-Mk1-PFP
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
@@ -172,6 +175,9 @@ Constraint[Next][34]=BR-Mk3a-TRFB-pullman
 Constraint[Next][35]=BR-Mk2-PFP
 Constraint[Next][36]=BR-Mk2-PFK
 Constraint[Next][37]=BR-Mk2-PFB
+Constraint[Next][38]=BR-Mk1-PFK
+Constraint[Next][39]=BR-Mk1-PSP
+Constraint[Next][40]=BR-Mk1-PFP
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
@@ -270,7 +276,10 @@ Constraint[Next][34]=BR-Mk3a-TRFB-pullman
 Constraint[Next][35]=BR-Mk2-PFP
 Constraint[Next][36]=BR-Mk2-PFK
 Constraint[Next][37]=BR-Mk2-PFB
-Constraint[Next][38]=none
+Constraint[Next][38]=BR-Mk1-PFK
+Constraint[Next][39]=BR-Mk1-PSP
+Constraint[Next][40]=BR-Mk1-PFP
+Constraint[Next][41]=none
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
