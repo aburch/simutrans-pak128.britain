@@ -219,7 +219,10 @@ Constraint[Next][8]=BR-Mk2-TSOT
 Constraint[Next][9]=BR-Mk2-TSO
 Constraint[Next][10]=BR-Mk2-FO
 Constraint[Next][11]=BR-Mk3a-TRFB-pullman
-Constraint[Next][12]=None
+Constraint[Next][12]=BR-Mk2-PFP
+Constraint[Next][13]=BR-Mk2-PFK
+Constraint[Next][14]=BR-Mk2-PFB
+Constraint[Next][15]=None
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
