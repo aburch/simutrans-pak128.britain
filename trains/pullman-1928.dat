@@ -1,26 +1,25 @@
 obj=vehicle
-name=pullman-1951-parlour-first
+name=pullman-1928-parlour-first
 speed=160
 copyright=JamesPetts
-intro_year=1951
-intro_month=1
-retire_year=1961
-retire_month=1
+intro_year=1928
+intro_month=7
+retire_year=1951
+retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=0
 payload[2]=0
 payload[3]=0
-payload[4]=28
+payload[4]=24
 overcrowded_capacity=0
 length=11
 
-# https://sremg.org.uk/coach/pullman-pegasus.shtml
-# https://www.kentrail.org.uk/phoenix_pullman.htm
+# http://www.kentrail.org.uk/Lucille_Pullman.htm
 weight=38.6
 axles=4
-cost=702000
+cost=700000
 runningcost=0
 fixed_cost=730
 
@@ -33,9 +32,9 @@ max_loading_time=200
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=148
-comfort[3]=148
-comfort[4]=161
+comfort[2]=145
+comfort[3]=145
+comfort[4]=158
 
 Constraint[Next][0]=pullman-1951-parlour-first
 Constraint[Next][1]=pullman-1951-parlour-third
@@ -61,25 +60,25 @@ Constraint[Prev][9]=pullman-1951-brake-third-front
 
 liverytype[0]=Pullman-Cream-Umber
 
-EmptyImage[E][0]=./carriages/pullman-1951-parlour-first_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1951-parlour-first_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1951-parlour-first_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1951-parlour-first_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1951-parlour-first_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1951-parlour-first_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1951-parlour-first_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1951-parlour-first_NE.0.0
+EmptyImage[E][0]=./carriages/pullman-1928-parlour-first_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-1928-parlour-first_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-1928-parlour-first_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-1928-parlour-first_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-1928-parlour-first_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-1928-parlour-first_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-1928-parlour-first_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-1928-parlour-first_NE.0.0
 
 ---
 
 obj=vehicle
-name=pullman-1951-parlour-third
+name=pullman-1928-parlour-third
 speed=160
 copyright=JamesPetts
-intro_year=1951
-intro_month=1
-retire_year=1961
-retire_month=1
+intro_year=1928
+intro_month=7
+retire_year=1951
+retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -90,11 +89,10 @@ payload[4]=0
 overcrowded_capacity=0
 length=11
 
-# https://sremg.org.uk/coach/pullman-pegasus.shtml
-# https://www.kentrail.org.uk/phoenix_pullman.htm
+# http://www.kentrail.org.uk/Lucille_Pullman.htm
 weight=38.6
 axles=4
-cost=702000
+cost=700000
 runningcost=0
 fixed_cost=730
 
@@ -107,9 +105,9 @@ max_loading_time=200
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=148
-comfort[3]=148
-comfort[4]=161
+comfort[2]=145
+comfort[3]=145
+comfort[4]=158
 
 Constraint[Next][0]=pullman-1951-parlour-first
 Constraint[Next][1]=pullman-1951-parlour-third
@@ -135,25 +133,25 @@ Constraint[Prev][9]=pullman-1951-brake-third-front
 
 liverytype[0]=Pullman-Cream-Umber
 
-EmptyImage[E][0]=./carriages/pullman-1951-parlour-third_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1951-parlour-third_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1951-parlour-third_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1951-parlour-third_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1951-parlour-third_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1951-parlour-third_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1951-parlour-third_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1951-parlour-third_NE.0.0
+EmptyImage[E][0]=./carriages/pullman-1928-parlour-third_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-1928-parlour-third_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-1928-parlour-third_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-1928-parlour-third_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-1928-parlour-third_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-1928-parlour-third_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-1928-parlour-third_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-1928-parlour-third_NE.0.0
 
 ----
 
 obj=vehicle
-name=pullman-1951-kitchen-third
+name=pullman-1928-kitchen-third
 speed=160
 copyright=JamesPetts
-intro_year=1951
-intro_month=1
-retire_year=1961
-retire_month=1
+intro_year=1928
+intro_month=7
+retire_year=1951
+retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -164,11 +162,10 @@ payload[4]=0
 overcrowded_capacity=0
 length=11
 
-# https://sremg.org.uk/coach/pullman-pegasus.shtml
-# https://www.kentrail.org.uk/phoenix_pullman.htm
+# http://www.kentrail.org.uk/Lucille_Pullman.htm
 weight=38.6
 axles=4
-cost=718000
+cost=710000
 runningcost=0
 fixed_cost=1850
 
@@ -183,9 +180,9 @@ catering_level=5
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=148
-comfort[3]=148
-comfort[4]=161
+comfort[2]=145
+comfort[3]=145
+comfort[4]=158
 
 Constraint[Next][0]=pullman-1951-parlour-first
 Constraint[Next][1]=pullman-1951-parlour-third
@@ -211,25 +208,26 @@ Constraint[Prev][9]=pullman-1951-brake-third-front
 
 liverytype[0]=Pullman-Cream-Umber
 
-EmptyImage[E][0]=./carriages/pullman-1951-kitchen-third_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1951-kitchen-third_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1951-kitchen-third_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1951-kitchen-third_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1951-kitchen-third_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1951-kitchen-third_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1951-kitchen-third_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1951-kitchen-third_NE.0.0
+# First and third class kitchen cars visually indisinguishable at Simutrans resolutions
+EmptyImage[E][0]=./carriages/pullman-1928-kitchen_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-1928-kitchen_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-1928-kitchen_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-1928-kitchen_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-1928-kitchen_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-1928-kitchen_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-1928-kitchen_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-1928-kitchen_NE.0.0
 
 ----
 
 obj=vehicle
-name=pullman-1951-kitchen-first
+name=pullman-1928-kitchen-first
 speed=160
 copyright=JamesPetts
-intro_year=1951
-intro_month=1
-retire_year=1961
-retire_month=1
+intro_year=1928
+intro_month=7
+retire_year=1951
+retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -240,11 +238,10 @@ payload[4]=20
 overcrowded_capacity=0
 length=11
 
-# https://sremg.org.uk/coach/pullman-pegasus.shtml
-# https://www.kentrail.org.uk/phoenix_pullman.htm
+# http://www.kentrail.org.uk/Lucille_Pullman.htm
 weight=38.6
 axles=4
-cost=719000
+cost=711000
 runningcost=0
 fixed_cost=1850
 
@@ -259,9 +256,9 @@ catering_level=5
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=148
-comfort[3]=148
-comfort[4]=161
+comfort[2]=145
+comfort[3]=145
+comfort[4]=158
 
 # This is intended to be inserted into other trains.
 Constraint[Next][0]=any
@@ -270,26 +267,27 @@ Constraint[Prev][0]=any
 
 liverytype[0]=Pullman-Cream-Umber
 
-# Visually indistinguishable from the 3rd, probably - sources are hard to find.
-EmptyImage[E][0]=./carriages/pullman-1951-kitchen-third_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1951-kitchen-third_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1951-kitchen-third_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1951-kitchen-third_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1951-kitchen-third_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1951-kitchen-third_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1951-kitchen-third_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1951-kitchen-third_NE.0.0
+# First and third class kitchen cars visually indisinguishable at Simutrans resolutions
+EmptyImage[E][0]=./carriages/pullman-1928-kitchen_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-1928-kitchen_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-1928-kitchen_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-1928-kitchen_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-1928-kitchen_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-1928-kitchen_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-1928-kitchen_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-1928-kitchen_NE.0.0
+
 
 ----
 
 obj=vehicle
-name=pullman-1951-brake-third-front
+name=pullman-1928-brake-third-front
 speed=160
 copyright=JamesPetts
-intro_year=1951
-intro_month=1
-retire_year=1961
-retire_month=1
+intro_year=1928
+intro_month=7
+retire_year=1951
+retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -300,11 +298,10 @@ payload[4]=0
 overcrowded_capacity=0
 length=11
 
-# https://sremg.org.uk/coach/pullman-pegasus.shtml
-# https://www.kentrail.org.uk/phoenix_pullman.htm
+# http://www.kentrail.org.uk/Lucille_Pullman.htm
 weight=38.6
 axles=4
-cost=718000
+cost=700000
 runningcost=0
 fixed_cost=730
 
@@ -317,9 +314,9 @@ max_loading_time=200
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=148
-comfort[3]=148
-comfort[4]=161
+comfort[2]=145
+comfort[3]=145
+comfort[4]=158
 
 Constraint[Next][0]=pullman-1951-parlour-first
 Constraint[Next][1]=pullman-1951-parlour-third
@@ -335,25 +332,25 @@ Constraint[Next][10]=none
 
 liverytype[0]=Pullman-Cream-Umber
 
-EmptyImage[E][0]=./carriages/pullman-1951-brake-third-front_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1951-brake-third-front_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1951-brake-third-front_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1951-brake-third-front_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1951-brake-third-front_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1951-brake-third-front_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1951-brake-third-front_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1951-brake-third-front_NE.0.0
+EmptyImage[E][0]=./carriages/pullman-1928-brake-third-front_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-1928-brake-third-front_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-1928-brake-third-front_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-1928-brake-third-front_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-1928-brake-third-front_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-1928-brake-third-front_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-1928-brake-third-front_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-1928-brake-third-front_NE.0.0
 
 ----
 
 obj=vehicle
-name=pullman-1951-brake-third-rear
+name=pullman-1928-brake-third-rear
 speed=160
 copyright=JamesPetts
-intro_year=1951
-intro_month=1
-retire_year=1961
-retire_month=1
+intro_year=1928
+intro_month=7
+retire_year=1951
+retire_month=6
 waytype=track
 freight=Passagiere
 payload[0]=0
@@ -364,11 +361,10 @@ payload[4]=0
 overcrowded_capacity=0
 length=11
 
-# https://sremg.org.uk/coach/pullman-pegasus.shtml
-# https://www.kentrail.org.uk/phoenix_pullman.htm
+# http://www.kentrail.org.uk/Lucille_Pullman.htm
 weight=38.6
 axles=4
-cost=718000
+cost=700000
 runningcost=0
 fixed_cost=730
 
@@ -381,9 +377,9 @@ max_loading_time=200
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=148
-comfort[3]=148
-comfort[4]=161
+comfort[2]=145
+comfort[3]=145
+comfort[4]=158
 
 Constraint[Prev][0]=pullman-1928-parlour-first
 Constraint[Prev][1]=pullman-1928-parlour-third
@@ -398,12 +394,12 @@ Constraint[Prev][9]=pullman-1951-brake-third-front
 
 liverytype[0]=Pullman-Cream-Umber
 
-EmptyImage[E][0]=./carriages/pullman-1951-brake-third-rear_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1951-brake-third-rear_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1951-brake-third-rear_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1951-brake-third-rear_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1951-brake-third-rear_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1951-brake-third-rear_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1951-brake-third-rear_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1951-brake-third-rear_NE.0.0
+EmptyImage[E][0]=./carriages/pullman-1928-brake-third-rear_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-1928-brake-third-rear_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-1928-brake-third-rear_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-1928-brake-third-rear_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-1928-brake-third-rear_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-1928-brake-third-rear_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-1928-brake-third-rear_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-1928-brake-third-rear_NE.0.0
 
