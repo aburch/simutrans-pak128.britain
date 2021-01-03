@@ -78,6 +78,7 @@ Constraint[Next][37]=BR-Mk2-PFB
 Constraint[Next][38]=BR-Mk1-PFK
 Constraint[Next][39]=BR-Mk1-PSP
 Constraint[Next][40]=BR-Mk1-PFP
+Constraint[Next][41]=pullman-1951-kitchen-first
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
@@ -182,6 +183,7 @@ Constraint[Next][37]=BR-Mk2-PFB
 Constraint[Next][38]=BR-Mk1-PFK
 Constraint[Next][39]=BR-Mk1-PSP
 Constraint[Next][40]=BR-Mk1-PFP
+Constraint[Next][41]=pullman-1951-kitchen-first
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
@@ -285,7 +287,8 @@ Constraint[Next][37]=BR-Mk2-PFB
 Constraint[Next][38]=BR-Mk1-PFK
 Constraint[Next][39]=BR-Mk1-PSP
 Constraint[Next][40]=BR-Mk1-PFP
-Constraint[Next][41]=none
+Constraint[Next][41]=pullman-1951-kitchen-first
+Constraint[Next][42]=none
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
