@@ -3753,15 +3753,15 @@ SR 6-PUL/PAN EMU trailer (third class)
 SR-6PAN(rear)
 SR 6-PUL/PAN EMU driving motor (third class) (rear)
 SR-5-BEL-driving-motor-front
-SR 5-BEL EMU driving motor Pullman parlour car (third class)
+SR 5-BEL EMU driving motor Pullman parlor car (third class)
 SR-5-BEL-parlour-third
-SR 5-BEL EMU trailer Pullman parlour car (third class)
+SR 5-BEL EMU trailer Pullman parlor car (third class)
 SR-5-bel-kitchen-first-1
 SR 5-BEL EMU trailer Pullman kitchen car (first class)
 SR-5-bel-kitchen-first-2
 SR 5-BEL EMU trailer Pullman kitchen car (first class)
 SR-5-BEL-driving-motor-rear
-SR 5-BEL EMU driving motor Pullman parlour car (third class) (rear)
+SR 5-BEL EMU driving motor Pullman parlor car (third class) (rear)
 BR-170Front
 BR Class 170 "Turbostar" DMU
 BR-170Middle
@@ -4261,9 +4261,9 @@ GWR Toplight corridor brake [DEPRECATED]
 GWR-Droplight-Dining(Mahogany)
 GWR Toplight corridor dining carriage [DEPRECATED]
 BR-Mk1-PFP
-BR Mk. 1 Pullman parlour car (first class)
+BR Mk. 1 Pullman parlor car (first class)
 BR-Mk1-PSP
-BR Mk. 1 Pullman parlour car (second class)
+BR Mk. 1 Pullman parlor car (second class)
 BR-Mk1-PFK
 BR Mk. 1 Pullman kitchen car (first class)
 BR-Mk1-BFK-rear
@@ -5935,7 +5935,7 @@ BR Mk. 2 open brake carriage (second class)
 BR-Mk2a-BFK
 BR Mk. 2 corridor brake carriage (first class)
 BR-Mk2-PFP
-BR Mk. 2 Pullman parlour car (first class)
+BR Mk. 2 Pullman parlor car (first class)
 BR-Mk2-PFK
 BR Mk. 2 Pullman kitchen car (first class)
 BR-Mk2-PFB
@@ -5971,15 +5971,25 @@ BR Mk. 4 restaurant buffet (standard class)
 BR-Mk5a-TFO
 BR Mk. 5a (1st Class)
 BR-Mk5a-TSO
-BR Mk. 5a (Standard Class)
+BR Mk. 5a (standard Class)
 BR-Mk5a-TSOD
-BR Mk. 5a (Standard Class, luggage space)
+BR Mk. 5a (standard Class, luggage space)
 BR-Mk5a-DTSO
-BR Mk. 5a Driving Trailer (Standard Class)
+BR Mk. 5a Driving Trailer (standard Class)
+pullman-1908-parlour-first
+Pullman twelve wheel parlor car (first class)
+pullman-1908-parlour-third
+Pullman twelve wheel parlor car (thrird class)
+pullman-1908-kitchen
+Pullman twelve wheel kitchen car (third class)
+pullman-1908-brake-front
+Pullman twelve wheel brake car (first class)
+pullman-1908-brake-rear
+Pullman twelve wheel brake car (rear) (first class)
 pullman-k-type-parlour-first
-Pullman K-type parlour car (first class)
+Pullman K-type parlor car (first class)
 pullman-k-type-parlour-third
-Pullman K-type parlour car (third class)
+Pullman K-type parlor car (third class)
 pullman-k-type-kitchen-third
 Pulllman K-type kitchen car (third class)
 pullman-k-type-kitchen-first
@@ -5989,9 +5999,9 @@ Pullman K-type brake car (third class)
 pullman-k-type-brake-third-rear
 Pullman K-type brake car (third class) (rear)
 pullman-1928-parlour-first
-All steel Pullman K-type parlour car (first class)
+All steel Pullman K-type parlor car (first class)
 pullman-1928-parlour-third
-All steel Pullman K-type parlour car (third class)
+All steel Pullman K-type parlor car (third class)
 pullman-1928-kitchen-third
 All steel Pullman K-type kitchen car (third class)
 pullman-1928-kitchen-first
@@ -6001,9 +6011,9 @@ All steel Pullman K-type brake car (third class)
 pullman-1928-brake-third-rear
 All steel Pullman K-type brake car (third class) (rear)
 pullman-1951-parlour-first
-Metro-Cammell Pullman parlour car (first class)
+Metro-Cammell Pullman parlor car (first class)
 pullman-1951-parlour-third
-Metro-Cammell Pullman parlour car (third class)
+Metro-Cammell Pullman parlor car (third class)
 pullman-1951-kitchen-third
 Metro-Cammell Pullman kitchen car (third class)
 pullman-1951-kitchen-first
