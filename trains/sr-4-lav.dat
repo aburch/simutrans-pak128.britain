@@ -48,8 +48,13 @@ Constraint[Prev][5]=SR-401[BIL]Rear
 Constraint[Prev][6]=SR-6PAN(rear)
 Constraint[Prev][7]=sr-2hal-rear
 Constraint[Prev][8]=SR-404[COR]Rear
-Constraint[Prev][9]=lswr-56ft-augmentation-trailer-rear
-Constraint[Prev][10]=none
+Constraint[Prev][9]=lbscr-48ft-augmentation-trailer-rear
+Constraint[Prev][10]=lbscr-54ft-augmentation-trailer-rear
+Constraint[Prev][11]=lswr-48ft-arc-augmentation-trailer-rear
+Constraint[Prev][12]=lswr-48ft-augmentation-trailer-rear
+Constraint[Prev][13]=lswr-56ft-augmentation-trailer-rear
+Constraint[Prev][14]=SR-5-BEL-driving-motor-rear
+Constraint[Prev][15]=none
 
 Constraint[Next][0]=SR-4LAV(centre1)
 
@@ -314,8 +319,13 @@ Constraint[Next][5]=SR-401[BIL]Front
 Constraint[Next][6]=SR-6PAN(front)
 Constraint[Next][7]=sr-2hal-front
 Constraint[Next][8]=SR-404[COR]Front
-Constraint[Next][9]=lswr-56ft-augmentation-trailer-front
-Constraint[Next][10]=none
+Constraint[Next][9]=lbscr-48ft-augmentation-trailer-front
+Constraint[Next][10]=lbscr-54ft-augmentation-trailer-front
+Constraint[Next][11]=lswr-48ft-arc-augmentation-trailer-front
+Constraint[Next][12]=lswr-48ft-augmentation-trailer-front
+Constraint[Next][13]=lswr-56ft-augmentation-trailer-front
+Constraint[Next][14]=SR-5-BEL-driving-motor-front
+Constraint[Next][15]=none
 
 liverytype[0]=SR-Olive-Green
 liverytype[1]=SR-Malachite-Green
