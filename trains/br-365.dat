@@ -44,14 +44,14 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-365Power
 
-EmptyImage[E]=./railcars/br-465-nse.0.0
-EmptyImage[SE]=./railcars/br-465-nse.0.1
-EmptyImage[S]=./railcars/br-465-nse.0.2
-EmptyImage[SW]=./railcars/br-465-nse.0.3
-EmptyImage[W]=./railcars/br-465-nse.0.4
-EmptyImage[NW]=./railcars/br-465-nse.0.5
-EmptyImage[N]=./railcars/br-465-nse.0.6
-EmptyImage[NE]=./railcars/br-465-nse.0.7
+EmptyImage[E]=./railcars/br-465-driving-front_E.0.0
+EmptyImage[SE]=./railcars/br-465-driving-front_SE.0.0
+EmptyImage[S]=./railcars/br-465-driving-front_S.0.0
+EmptyImage[SW]=./railcars/br-465-driving-front_SW.0.0
+EmptyImage[W]=./railcars/br-465-driving-front_W.0.0
+EmptyImage[NW]=./railcars/br-465-driving-front_NW.0.0
+EmptyImage[N]=./railcars/br-465-driving-front_N.0.0
+EmptyImage[NE]=./railcars/br-465-driving-front_NE.0.0
 
 ---
 
@@ -99,15 +99,14 @@ Constraint[Prev][0]=BR-365Front
 
 Constraint[Next][0]=BR-365Middle
 
-EmptyImage[E]=./railcars/br-365-p-nse.0
-EmptyImage[SE]=./railcars/br-365-p-nse.1
-EmptyImage[S]=./railcars/br-365-p-nse.2
-EmptyImage[SW]=./railcars/br-365-p-nse.3
-EmptyImage[W]=./railcars/br-365-p-nse.4
-EmptyImage[NW]=./railcars/br-365-p-nse.5
-EmptyImage[N]=./railcars/br-365-p-nse.6
-EmptyImage[NE]=./railcars/br-365-p-nse.7
-
+EmptyImage[E]=./railcars/br-365-pantograph_E.0.0
+EmptyImage[SE]=./railcars/br-365-pantograph_SE.0.0
+EmptyImage[S]=./railcars/br-365-pantograph_S.0.0
+EmptyImage[SW]=./railcars/br-365-pantograph_SW.0.0
+EmptyImage[W]=./railcars/br-365-pantograph_W.0.0
+EmptyImage[NW]=./railcars/br-365-pantograph_NW.0.0
+EmptyImage[N]=./railcars/br-365-pantograph_N.0.0
+EmptyImage[NE]=./railcars/br-365-pantograph_NE.0.0
 ---
 
 obj=vehicle
@@ -151,14 +150,15 @@ Constraint[Prev][0]=BR-365Power
 
 Constraint[Next][0]=BR-365Rear
 
-EmptyImage[E]=./railcars/br-465-nse.1.0
-EmptyImage[SE]=./railcars/br-465-nse.1.1
-EmptyImage[S]=./railcars/br-465-nse.1.2
-EmptyImage[SW]=./railcars/br-465-nse.1.3
-EmptyImage[W]=./railcars/br-465-nse.1.4
-EmptyImage[NW]=./railcars/br-465-nse.1.5
-EmptyImage[N]=./railcars/br-465-nse.1.6
-EmptyImage[NE]=./railcars/br-465-nse.1.7
+EmptyImage[E]=./railcars/br-465-centre_E.0.0
+EmptyImage[SE]=./railcars/br-465-centre_SE.0.0
+EmptyImage[S]=./railcars/br-465-centre_S.0.0
+EmptyImage[SW]=./railcars/br-465-centre_SW.0.0
+EmptyImage[W]=./railcars/br-465-centre_W.0.0
+EmptyImage[NW]=./railcars/br-465-centre_NW.0.0
+EmptyImage[N]=./railcars/br-465-centre_N.0.0
+EmptyImage[NE]=./railcars/br-465-centre_NE.0.0
+
 
 ---
 
@@ -209,12 +209,12 @@ Constraint[Prev][1]=BR-365Power
 Constraint[Next][0]=BR-365Front
 Constraint[Next][1]=none
 
-EmptyImage[E]=./railcars/br-465-nse.2.0
-EmptyImage[SE]=./railcars/br-465-nse.2.1
-EmptyImage[S]=./railcars/br-465-nse.2.2
-EmptyImage[SW]=./railcars/br-465-nse.2.3
-EmptyImage[W]=./railcars/br-465-nse.2.4
-EmptyImage[NW]=./railcars/br-465-nse.2.5
-EmptyImage[N]=./railcars/br-465-nse.2.6
-EmptyImage[NE]=./railcars/br-465-nse.2.7
+EmptyImage[E]=./railcars/br-465-driving-rear_E.0.0
+EmptyImage[SE]=./railcars/br-465-driving-rear_SE.0.0
+EmptyImage[S]=./railcars/br-465-driving-rear_S.0.0
+EmptyImage[SW]=./railcars/br-465-driving-rear_SW.0.0
+EmptyImage[W]=./railcars/br-465-driving-rear_W.0.0
+EmptyImage[NW]=./railcars/br-465-driving-rear_NW.0.0
+EmptyImage[N]=./railcars/br-465-driving-rear_N.0.0
+EmptyImage[NE]=./railcars/br-465-driving-rear_NE.0.0
 

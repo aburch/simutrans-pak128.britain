@@ -17,7 +17,7 @@ payload[1]=84
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=45
-length=11
+length=10
 
 weight=34.9
 axles=4
@@ -52,32 +52,33 @@ liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./railcars/br-310-12.0.0
-EmptyImage[SE][0]=./railcars/br-310-12.0.1
-EmptyImage[S][0]=./railcars/br-310-12.0.2
-EmptyImage[SW][0]=./railcars/br-310-12.0.3
-EmptyImage[W][0]=./railcars/br-310-12.0.4
-EmptyImage[NW][0]=./railcars/br-310-12.0.5
-EmptyImage[N][0]=./railcars/br-310-12.0.6
-EmptyImage[NE][0]=./railcars/br-310-12.0.7
 
-EmptyImage[E][1]=./railcars/br-312-front-bg.1.4
-EmptyImage[SE][1]=./railcars/br-312-front-bg.1.5
-EmptyImage[S][1]=./railcars/br-312-front-bg.1.6
-EmptyImage[SW][1]=./railcars/br-312-front-bg.1.7
-EmptyImage[W][1]=./railcars/br-312-front-bg.1.0
-EmptyImage[NW][1]=./railcars/br-312-front-bg.1.1
-EmptyImage[N][1]=./railcars/br-312-front-bg.1.2
-EmptyImage[NE][1]=./railcars/br-312-front-bg.1.3
+EmptyImage[E][0]=./railcars/br-312-driving-front_E.0.0
+EmptyImage[SE][0]=./railcars/br-312-driving-front_SE.0.0
+EmptyImage[S][0]=./railcars/br-312-driving-front_S.0.0
+EmptyImage[SW][0]=./railcars/br-312-driving-front_SW.0.0
+EmptyImage[W][0]=./railcars/br-312-driving-front_W.0.0
+EmptyImage[NW][0]=./railcars/br-312-driving-front_NW.0.0
+EmptyImage[N][0]=./railcars/br-312-driving-front_N.0.0
+EmptyImage[NE][0]=./railcars/br-312-driving-front_NE.0.0
 
-EmptyImage[E][2]=./railcars/br-312-front-nse.1.4
-EmptyImage[SE][2]=./railcars/br-312-front-nse.1.5
-EmptyImage[S][2]=./railcars/br-312-front-nse.1.6
-EmptyImage[SW][2]=./railcars/br-312-front-nse.1.7
-EmptyImage[W][2]=./railcars/br-312-front-nse.1.0
-EmptyImage[NW][2]=./railcars/br-312-front-nse.1.1
-EmptyImage[N][2]=./railcars/br-312-front-nse.1.2
-EmptyImage[NE][2]=./railcars/br-312-front-nse.1.3
+EmptyImage[E][1]=./railcars/br-312-driving-front-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-312-driving-front-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-312-driving-front-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-312-driving-front-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-312-driving-front-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-312-driving-front-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-312-driving-front-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-312-driving-front-bg_NE.0.0
+
+EmptyImage[E][2]=./railcars/br-312-driving-front-nse_E.0.0
+EmptyImage[SE][2]=./railcars/br-312-driving-front-nse_SE.0.0
+EmptyImage[S][2]=./railcars/br-312-driving-front-nse_S.0.0
+EmptyImage[SW][2]=./railcars/br-312-driving-front-nse_SW.0.0
+EmptyImage[W][2]=./railcars/br-312-driving-front-nse_W.0.0
+EmptyImage[NW][2]=./railcars/br-312-driving-front-nse_NW.0.0
+EmptyImage[N][2]=./railcars/br-312-driving-front-nse_N.0.0
+EmptyImage[NE][2]=./railcars/br-312-driving-front-nse_NE.0.0
 
 ---
 
@@ -101,7 +102,7 @@ payload[1]=68
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=45
-length=11
+length=10
 
 weight=56.0
 axles=4
@@ -130,32 +131,32 @@ liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./railcars/br-310-12-pant.0.0
-EmptyImage[SE][0]=./railcars/br-310-12-pant.0.1
-EmptyImage[S][0]=./railcars/br-310-12-pant.0.2
-EmptyImage[SW][0]=./railcars/br-310-12-pant.0.3
-EmptyImage[W][0]=./railcars/br-310-12-pant.0.4
-EmptyImage[NW][0]=./railcars/br-310-12-pant.0.5
-EmptyImage[N][0]=./railcars/br-310-12-pant.0.6
-EmptyImage[NE][0]=./railcars/br-310-12-pant.0.7
+EmptyImage[E][0]=./railcars/br-312-pantograph_E.0.0
+EmptyImage[SE][0]=./railcars/br-312-pantograph_SE.0.0
+EmptyImage[S][0]=./railcars/br-312-pantograph_S.0.0
+EmptyImage[SW][0]=./railcars/br-312-pantograph_SW.0.0
+EmptyImage[W][0]=./railcars/br-312-pantograph_W.0.0
+EmptyImage[NW][0]=./railcars/br-312-pantograph_NW.0.0
+EmptyImage[N][0]=./railcars/br-312-pantograph_N.0.0
+EmptyImage[NE][0]=./railcars/br-312-pantograph_NE.0.0
 
-EmptyImage[E][1]=./railcars/br-312-panto-bg.1.4
-EmptyImage[SE][1]=./railcars/br-312-panto-bg.1.5
-EmptyImage[S][1]=./railcars/br-312-panto-bg.1.6
-EmptyImage[SW][1]=./railcars/br-312-panto-bg.1.7
-EmptyImage[W][1]=./railcars/br-312-panto-bg.1.0
-EmptyImage[NW][1]=./railcars/br-312-panto-bg.1.1
-EmptyImage[N][1]=./railcars/br-312-panto-bg.1.2
-EmptyImage[NE][1]=./railcars/br-312-panto-bg.1.3
+EmptyImage[E][1]=./railcars/br-312-pantograph-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-312-pantograph-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-312-pantograph-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-312-pantograph-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-312-pantograph-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-312-pantograph-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-312-pantograph-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-312-pantograph-bg_NE.0.0
 
-EmptyImage[E][2]=./railcars/br-312-panto-nse.1.4
-EmptyImage[SE][2]=./railcars/br-312-panto-nse.1.5
-EmptyImage[S][2]=./railcars/br-312-panto-nse.1.6
-EmptyImage[SW][2]=./railcars/br-312-panto-nse.1.7
-EmptyImage[W][2]=./railcars/br-312-panto-nse.1.0
-EmptyImage[NW][2]=./railcars/br-312-panto-nse.1.1
-EmptyImage[N][2]=./railcars/br-312-panto-nse.1.2
-EmptyImage[NE][2]=./railcars/br-312-panto-nse.1.3
+EmptyImage[E][2]=./railcars/br-312-pantograph-nse_E.0.0
+EmptyImage[SE][2]=./railcars/br-312-pantograph-nse_SE.0.0
+EmptyImage[S][2]=./railcars/br-312-pantograph-nse_S.0.0
+EmptyImage[SW][2]=./railcars/br-312-pantograph-nse_SW.0.0
+EmptyImage[W][2]=./railcars/br-312-pantograph-nse_W.0.0
+EmptyImage[NW][2]=./railcars/br-312-pantograph-nse_NW.0.0
+EmptyImage[N][2]=./railcars/br-312-pantograph-nse_N.0.0
+EmptyImage[NE][2]=./railcars/br-312-pantograph-nse_NE.0.0
 
 
 ---
@@ -178,7 +179,7 @@ payload[1]=98
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=77
-length=11
+length=10
 
 weight=30.5
 axles=4
@@ -207,33 +208,32 @@ liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./railcars/br-310-12.2.0
-EmptyImage[SE][0]=./railcars/br-310-12.2.1
-EmptyImage[S][0]=./railcars/br-310-12.2.2
-EmptyImage[SW][0]=./railcars/br-310-12.2.3
-EmptyImage[W][0]=./railcars/br-310-12.2.4
-EmptyImage[NW][0]=./railcars/br-310-12.2.5
-EmptyImage[N][0]=./railcars/br-310-12.2.6
-EmptyImage[NE][0]=./railcars/br-310-12.2.7
+EmptyImage[E][0]=./railcars/br-312-trailer_E.0.0
+EmptyImage[SE][0]=./railcars/br-312-trailer_SE.0.0
+EmptyImage[S][0]=./railcars/br-312-trailer_S.0.0
+EmptyImage[SW][0]=./railcars/br-312-trailer_SW.0.0
+EmptyImage[W][0]=./railcars/br-312-trailer_W.0.0
+EmptyImage[NW][0]=./railcars/br-312-trailer_NW.0.0
+EmptyImage[N][0]=./railcars/br-312-trailer_N.0.0
+EmptyImage[NE][0]=./railcars/br-312-trailer_NE.0.0
 
-EmptyImage[E][1]=./railcars/br-312-trailer-bg.1.4
-EmptyImage[SE][1]=./railcars/br-312-trailer-bg.1.5
-EmptyImage[S][1]=./railcars/br-312-trailer-bg.1.6
-EmptyImage[SW][1]=./railcars/br-312-trailer-bg.1.7
-EmptyImage[W][1]=./railcars/br-312-trailer-bg.1.0
-EmptyImage[NW][1]=./railcars/br-312-trailer-bg.1.1
-EmptyImage[N][1]=./railcars/br-312-trailer-bg.1.2
-EmptyImage[NE][1]=./railcars/br-312-trailer-bg.1.3
+EmptyImage[E][1]=./railcars/br-312-trailer-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-312-trailer-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-312-trailer-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-312-trailer-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-312-trailer-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-312-trailer-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-312-trailer-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-312-trailer-bg_NE.0.0
 
-EmptyImage[E][2]=./railcars/br-312-trailer-nse.1.4
-EmptyImage[SE][2]=./railcars/br-312-trailer-nse.1.5
-EmptyImage[S][2]=./railcars/br-312-trailer-nse.1.6
-EmptyImage[SW][2]=./railcars/br-312-trailer-nse.1.7
-EmptyImage[W][2]=./railcars/br-312-trailer-nse.1.0
-EmptyImage[NW][2]=./railcars/br-312-trailer-nse.1.1
-EmptyImage[N][2]=./railcars/br-312-trailer-nse.1.2
-EmptyImage[NE][2]=./railcars/br-312-trailer-nse.1.3
-
+EmptyImage[E][2]=./railcars/br-312-trailer-nse_E.0.0
+EmptyImage[SE][2]=./railcars/br-312-trailer-nse_SE.0.0
+EmptyImage[S][2]=./railcars/br-312-trailer-nse_S.0.0
+EmptyImage[SW][2]=./railcars/br-312-trailer-nse_SW.0.0
+EmptyImage[W][2]=./railcars/br-312-trailer-nse_W.0.0
+EmptyImage[NW][2]=./railcars/br-312-trailer-nse_NW.0.0
+EmptyImage[N][2]=./railcars/br-312-trailer-nse_N.0.0
+EmptyImage[NE][2]=./railcars/br-312-trailer-nse_NE.0.0
 --
 
 obj=vehicle
@@ -254,7 +254,7 @@ payload[1]=47
 payload[2]=0
 payload[3]=25
 overcrowded_capacity=50
-length=11
+length=10
 
 weight=35.2
 axles=4
@@ -289,29 +289,29 @@ liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo
 liverytype[2]=NSE-Standard
 
-EmptyImage[E][0]=./railcars/br-310-12.1.0
-EmptyImage[SE][0]=./railcars/br-310-12.1.1
-EmptyImage[S][0]=./railcars/br-310-12.1.2
-EmptyImage[SW][0]=./railcars/br-310-12.1.3
-EmptyImage[W][0]=./railcars/br-310-12.1.4
-EmptyImage[NW][0]=./railcars/br-310-12.1.5
-EmptyImage[N][0]=./railcars/br-310-12.1.6
-EmptyImage[NE][0]=./railcars/br-310-12.1.7
+EmptyImage[E][0]=./railcars/br-312-driving-rear_E.0.0
+EmptyImage[SE][0]=./railcars/br-312-driving-rear_SE.0.0
+EmptyImage[S][0]=./railcars/br-312-driving-rear_S.0.0
+EmptyImage[SW][0]=./railcars/br-312-driving-rear_SW.0.0
+EmptyImage[W][0]=./railcars/br-312-driving-rear_W.0.0
+EmptyImage[NW][0]=./railcars/br-312-driving-rear_NW.0.0
+EmptyImage[N][0]=./railcars/br-312-driving-rear_N.0.0
+EmptyImage[NE][0]=./railcars/br-312-driving-rear_NE.0.0
 
-EmptyImage[E][1]=./railcars/br-312-rear-bg.1.4
-EmptyImage[SE][1]=./railcars/br-312-rear-bg.1.5
-EmptyImage[S][1]=./railcars/br-312-rear-bg.1.6
-EmptyImage[SW][1]=./railcars/br-312-rear-bg.1.7
-EmptyImage[W][1]=./railcars/br-312-rear-bg.1.0
-EmptyImage[NW][1]=./railcars/br-312-rear-bg.1.1
-EmptyImage[N][1]=./railcars/br-312-rear-bg.1.2
-EmptyImage[NE][1]=./railcars/br-312-rear-bg.1.3
+EmptyImage[E][1]=./railcars/br-312-driving-rear-bg_E.0.0
+EmptyImage[SE][1]=./railcars/br-312-driving-rear-bg_SE.0.0
+EmptyImage[S][1]=./railcars/br-312-driving-rear-bg_S.0.0
+EmptyImage[SW][1]=./railcars/br-312-driving-rear-bg_SW.0.0
+EmptyImage[W][1]=./railcars/br-312-driving-rear-bg_W.0.0
+EmptyImage[NW][1]=./railcars/br-312-driving-rear-bg_NW.0.0
+EmptyImage[N][1]=./railcars/br-312-driving-rear-bg_N.0.0
+EmptyImage[NE][1]=./railcars/br-312-driving-rear-bg_NE.0.0
 
-EmptyImage[E][2]=./railcars/br-312-rear-nse.1.4
-EmptyImage[SE][2]=./railcars/br-312-rear-nse.1.5
-EmptyImage[S][2]=./railcars/br-312-rear-nse.1.6
-EmptyImage[SW][2]=./railcars/br-312-rear-nse.1.7
-EmptyImage[W][2]=./railcars/br-312-rear-nse.1.0
-EmptyImage[NW][2]=./railcars/br-312-rear-nse.1.1
-EmptyImage[N][2]=./railcars/br-312-rear-nse.1.2
-EmptyImage[NE][2]=./railcars/br-312-rear-nse.1.3
+EmptyImage[E][2]=./railcars/br-312-driving-rear-nse_E.0.0
+EmptyImage[SE][2]=./railcars/br-312-driving-rear-nse_SE.0.0
+EmptyImage[S][2]=./railcars/br-312-driving-rear-nse_S.0.0
+EmptyImage[SW][2]=./railcars/br-312-driving-rear-nse_SW.0.0
+EmptyImage[W][2]=./railcars/br-312-driving-rear-nse_W.0.0
+EmptyImage[NW][2]=./railcars/br-312-driving-rear-nse_NW.0.0
+EmptyImage[N][2]=./railcars/br-312-driving-rear-nse_N.0.0
+EmptyImage[NE][2]=./railcars/br-312-driving-rear-nse_NE.0.0

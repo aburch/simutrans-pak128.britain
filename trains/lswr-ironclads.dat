@@ -1,3 +1,4 @@
+# Third
 obj=vehicle
 name=LSWR-Ironclad
 speed=160
@@ -10,10 +11,14 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=64
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=30
 length=10
 
-weight=33
+# Estimated from range of 33-34T in "An Illustrated History of
+# Southern Coaches" by Mike King (OPC)
+weight=34.5
 axles=4
 cost=633000
 runningcost=0
@@ -24,8 +29,15 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
+
+# 6'0" in the thirds
+# 6'10" in the firsts
+# See David Gould, "Maunsell's SR steam carriage stock"
+# The Oakwood Press, pp. 26-27
 comfort[0]=0
 comfort[1]=127
+comfort[2]=127
+comfort[3]=143
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -53,6 +65,16 @@ Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 Constraint[Prev][25]=secr-utility-van
+Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
+Constraint[Prev][28]=SR-Maunsell-First
+Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
+Constraint[Prev][33]=pullman-1928-kitchen-first
+Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -80,47 +102,211 @@ Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
 Constraint[Next][25]=secr-utility-van
+Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
+Constraint[Next][28]=SR-Maunsell-First
+Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
+Constraint[Next][33]=pullman-1928-kitchen-first
+Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=LSWR-sage
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green
 liverytype[3]=BR-Early
 
-EmptyImage[E][0]=./carriages/lswr-ironclad-third.1.4
-EmptyImage[SE][0]=./carriages/lswr-ironclad-third.1.5
-EmptyImage[S][0]=./carriages/lswr-ironclad-third.1.6
-EmptyImage[SW][0]=./carriages/lswr-ironclad-third.1.7
-EmptyImage[W][0]=./carriages/lswr-ironclad-third.1.0
-EmptyImage[NW][0]=./carriages/lswr-ironclad-third.1.1
-EmptyImage[N][0]=./carriages/lswr-ironclad-third.1.2
-EmptyImage[NE][0]=./carriages/lswr-ironclad-third.1.3
+EmptyImage[E][0]=./carriages/lswr-ironclad-third_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-ironclad-third_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-ironclad-third_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-ironclad-third_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-ironclad-third_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-ironclad-third_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-ironclad-third_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-ironclad-third_NE.0.0
 
-EmptyImage[E][1]=./carriages/lswr-ironclad-third-olive.1.4
-EmptyImage[SE][1]=./carriages/lswr-ironclad-third-olive.1.5
-EmptyImage[S][1]=./carriages/lswr-ironclad-third-olive.1.6
-EmptyImage[SW][1]=./carriages/lswr-ironclad-third-olive.1.7
-EmptyImage[W][1]=./carriages/lswr-ironclad-third-olive.1.0
-EmptyImage[NW][1]=./carriages/lswr-ironclad-third-olive.1.1
-EmptyImage[N][1]=./carriages/lswr-ironclad-third-olive.1.2
-EmptyImage[NE][1]=./carriages/lswr-ironclad-third-olive.1.3
+EmptyImage[E][1]=./carriages/lswr-ironclad-third-olive_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-ironclad-third-olive_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-ironclad-third-olive_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-ironclad-third-olive_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-ironclad-third-olive_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-ironclad-third-olive_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-ironclad-third-olive_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-ironclad-third-olive_NE.0.0
 
-EmptyImage[E][2]=./carriages/lswr-ironclad-third-malachite.1.4
-EmptyImage[SE][2]=./carriages/lswr-ironclad-third-malachite.1.5
-EmptyImage[S][2]=./carriages/lswr-ironclad-third-malachite.1.6
-EmptyImage[SW][2]=./carriages/lswr-ironclad-third-malachite.1.7
-EmptyImage[W][2]=./carriages/lswr-ironclad-third-malachite.1.0
-EmptyImage[NW][2]=./carriages/lswr-ironclad-third-malachite.1.1
-EmptyImage[N][2]=./carriages/lswr-ironclad-third-malachite.1.2
-EmptyImage[NE][2]=./carriages/lswr-ironclad-third-malachite.1.3
+EmptyImage[E][2]=./carriages/lswr-ironclad-third-malachite_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-ironclad-third-malachite_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-ironclad-third-malachite_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-ironclad-third-malachite_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-ironclad-third-malachite_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-ironclad-third-malachite_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-ironclad-third-malachite_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-ironclad-third-malachite_NE.0.0
 
-EmptyImage[E][3]=./carriages/lswr-ironclad-third-br.1.4
-EmptyImage[SE][3]=./carriages/lswr-ironclad-third-br.1.5
-EmptyImage[S][3]=./carriages/lswr-ironclad-third-br.1.6
-EmptyImage[SW][3]=./carriages/lswr-ironclad-third-br.1.7
-EmptyImage[W][3]=./carriages/lswr-ironclad-third-br.1.0
-EmptyImage[NW][3]=./carriages/lswr-ironclad-third-br.1.1
-EmptyImage[N][3]=./carriages/lswr-ironclad-third-br.1.2
-EmptyImage[NE][3]=./carriages/lswr-ironclad-third-br.1.3
+EmptyImage[E][3]=./carriages/lswr-ironclad-third-br_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-ironclad-third-br_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-ironclad-third-br_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-ironclad-third-br_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-ironclad-third-br_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-ironclad-third-br_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-ironclad-third-br_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-ironclad-third-br_NE.0.0
+
+
+----
+# There was also a composite (see Gould p. 27)
+# with slightly more space in the firsts. Consider
+# whether to add this.
+obj=vehicle
+name=LSWR-Ironclad-First
+speed=160
+copyright=James/JamesPetts
+intro_year=1921
+intro_month=5
+retire_year=1926
+retire_month=9
+waytype=track
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=28
+overcrowded_capacity=0
+length=10
+
+weight=34.5
+axles=4
+cost=642000
+runningcost=0
+fixed_cost=755
+
+can_lead_from_rear=0
+bidirectional=1
+
+min_loading_time=25
+max_loading_time=55
+
+comfort[0]=0
+comfort[1]=127
+comfort[2]=127
+comfort[3]=143
+
+Constraint[Prev][0]=SR-Maunsell-Third
+Constraint[Prev][1]=SR-Maunsell-Brake-front
+Constraint[Prev][2]=SR-Maunsell-Dining
+Constraint[Prev][3]=SR-Maunsell-Parcels
+Constraint[Prev][4]=SR-Maunsell-Mail
+Constraint[Prev][5]=SR-Maunsell-TPO
+Constraint[Prev][6]=LSWR-Ironclad-Pantry
+Constraint[Prev][7]=SR-Bulleid-Express-Coach
+Constraint[Prev][8]=SR-Bulleid-Express-Brake-front
+Constraint[Prev][9]=SR-Bulleid-Express-Dining
+Constraint[Prev][10]=LSWR-Ironclad-Brake-front
+Constraint[Prev][11]=LSWR-Ironclad
+Constraint[Prev][12]=LSWR-Ironclad-Dining
+Constraint[Prev][13]=LSWR-Ironclad-Mail
+Constraint[Prev][14]=LSWR-Ironclad-TPO
+Constraint[Prev][15]=LSWR-corridor
+Constraint[Prev][16]=LSWR-corridor-brake-front
+Constraint[Prev][17]=SR-Maunsell-Saloon
+Constraint[Prev][18]=SR-Maunsell-Buffet
+Constraint[Prev][19]=SR-Bulleid-Express-Coach-all-doors
+Constraint[Prev][20]=SR-Bulleid-Express-brake-front-all-doors
+Constraint[Prev][21]=SR-Bulleid-Express-Saloon
+Constraint[Prev][22]=SR-Bulleid-Express-Buffet
+Constraint[Prev][23]=LSWR-dining-saloon
+Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
+Constraint[Prev][25]=secr-utility-van
+Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
+Constraint[Prev][28]=SR-Maunsell-First
+Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
+Constraint[Prev][33]=pullman-1928-kitchen-first
+Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
+
+Constraint[Next][0]=SR-Maunsell-Third
+Constraint[Next][1]=SR-Maunsell-Brake-rear
+Constraint[Next][2]=SR-Maunsell-Dining
+Constraint[Next][3]=SR-Maunsell-Parcels
+Constraint[Next][4]=SR-Maunsell-Mail
+Constraint[Next][5]=SR-Maunsell-TPO
+Constraint[Next][6]=LSWR-Ironclad-Pantry
+Constraint[Next][7]=SR-Bulleid-Express-Coach
+Constraint[Next][8]=SR-Bulleid-Express-Brake-rear
+Constraint[Next][9]=SR-Bulleid-Express-Dining
+Constraint[Next][10]=LSWR-Ironclad-Brake-rear
+Constraint[Next][11]=LSWR-Ironclad
+Constraint[Next][12]=LSWR-Ironclad-Dining
+Constraint[Next][13]=LSWR-Ironclad-Mail
+Constraint[Next][14]=LSWR-Ironclad-TPO
+Constraint[Next][15]=LSWR-corridor
+Constraint[Next][16]=LSWR-corridor-brake-rear
+Constraint[Next][17]=SR-Maunsell-Saloon
+Constraint[Next][18]=SR-Maunsell-Buffet
+Constraint[Next][19]=SR-Bulleid-Express-Coach-all-doors
+Constraint[Next][20]=SR-Bulleid-Express-brake-rear-all-doors
+Constraint[Next][21]=SR-Bulleid-Express-Saloon
+Constraint[Next][22]=SR-Bulleid-Express-Buffet
+Constraint[Next][23]=LSWR-dining-saloon
+Constraint[Next][24]=SR-Maunsell-Parcels-Brake
+Constraint[Next][25]=secr-utility-van
+Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
+Constraint[Next][28]=SR-Maunsell-First
+Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
+Constraint[Next][33]=pullman-1928-kitchen-first
+Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
+
+liverytype[0]=LSWR-sage
+liverytype[1]=SR-Olive-Green
+liverytype[2]=SR-Malachite-Green
+liverytype[3]=BR-Early
+
+EmptyImage[E][0]=./carriages/lswr-ironclad-first_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-ironclad-first_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-ironclad-first_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-ironclad-first_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-ironclad-first_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-ironclad-first_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-ironclad-first_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-ironclad-first_NE.0.0
+
+EmptyImage[E][1]=./carriages/lswr-ironclad-first-olive_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-ironclad-first-olive_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-ironclad-first-olive_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-ironclad-first-olive_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-ironclad-first-olive_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-ironclad-first-olive_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-ironclad-first-olive_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-ironclad-first-olive_NE.0.0
+
+EmptyImage[E][2]=./carriages/lswr-ironclad-first-malachite_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-ironclad-first-malachite_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-ironclad-first-malachite_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-ironclad-first-malachite_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-ironclad-first-malachite_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-ironclad-first-malachite_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-ironclad-first-malachite_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-ironclad-first-malachite_NE.0.0
+
+EmptyImage[E][3]=./carriages/lswr-ironclad-first-br_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-ironclad-first-br_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-ironclad-first-br_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-ironclad-first-br_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-ironclad-first-br_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-ironclad-first-br_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-ironclad-first-br_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-ironclad-first-br_NE.0.0
 
 ----
 
@@ -135,11 +321,13 @@ retire_month=9
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=24
-overcrowded_capacity=10
+payload[1]=0
+payload[2]=0
+payload[3]=24
+overcrowded_capacity=0
 length=10
 
-weight=35
+weight=34.8
 axles=4
 cost=675000
 runningcost=0
@@ -151,8 +339,11 @@ catering_level=3
 
 min_loading_time=25
 max_loading_time=55
+
 comfort[0]=0
 comfort[1]=127
+comfort[2]=127
+comfort[3]=143
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -180,6 +371,16 @@ Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 Constraint[Prev][25]=secr-utility-van
+Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
+Constraint[Prev][28]=SR-Maunsell-First
+Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
+Constraint[Prev][33]=pullman-1928-kitchen-first
+Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -207,50 +408,60 @@ Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
 Constraint[Next][25]=secr-utility-van
+Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
+Constraint[Next][28]=SR-Maunsell-First
+Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
+Constraint[Next][33]=pullman-1928-kitchen-first
+Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=LSWR-sage
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green
 liverytype[3]=BR-Early
 
-EmptyImage[E][0]=./carriages/lswr-ironclad-restaurant-car.1.4
-EmptyImage[SE][0]=./carriages/lswr-ironclad-restaurant-car.1.5
-EmptyImage[S][0]=./carriages/lswr-ironclad-restaurant-car.1.6
-EmptyImage[SW][0]=./carriages/lswr-ironclad-restaurant-car.1.7
-EmptyImage[W][0]=./carriages/lswr-ironclad-restaurant-car.1.0
-EmptyImage[NW][0]=./carriages/lswr-ironclad-restaurant-car.1.1
-EmptyImage[N][0]=./carriages/lswr-ironclad-restaurant-car.1.2
-EmptyImage[NE][0]=./carriages/lswr-ironclad-restaurant-car.1.3
+EmptyImage[E][0]=./carriages/lswr-ironclad-restaurant-car_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-ironclad-restaurant-car_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-ironclad-restaurant-car_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-ironclad-restaurant-car_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-ironclad-restaurant-car_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-ironclad-restaurant-car_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-ironclad-restaurant-car_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-ironclad-restaurant-car_NE.0.0
 
-EmptyImage[E][1]=./carriages/lswr-ironclad-restaurant-car-olive.1.4
-EmptyImage[SE][1]=./carriages/lswr-ironclad-restaurant-car-olive.1.5
-EmptyImage[S][1]=./carriages/lswr-ironclad-restaurant-car-olive.1.6
-EmptyImage[SW][1]=./carriages/lswr-ironclad-restaurant-car-olive.1.7
-EmptyImage[W][1]=./carriages/lswr-ironclad-restaurant-car-olive.1.0
-EmptyImage[NW][1]=./carriages/lswr-ironclad-restaurant-car-olive.1.1
-EmptyImage[N][1]=./carriages/lswr-ironclad-restaurant-car-olive.1.2
-EmptyImage[NE][1]=./carriages/lswr-ironclad-restaurant-car-olive.1.3
+EmptyImage[E][1]=./carriages/lswr-ironclad-restaurant-car-olive_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-ironclad-restaurant-car-olive_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-ironclad-restaurant-car-olive_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-ironclad-restaurant-car-olive_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-ironclad-restaurant-car-olive_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-ironclad-restaurant-car-olive_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-ironclad-restaurant-car-olive_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-ironclad-restaurant-car-olive_NE.0.0
 
-EmptyImage[E][2]=./carriages/lswr-ironclad-restaurant-car-malachite.1.4
-EmptyImage[SE][2]=./carriages/lswr-ironclad-restaurant-car-malachite.1.5
-EmptyImage[S][2]=./carriages/lswr-ironclad-restaurant-car-malachite.1.6
-EmptyImage[SW][2]=./carriages/lswr-ironclad-restaurant-car-malachite.1.7
-EmptyImage[W][2]=./carriages/lswr-ironclad-restaurant-car-malachite.1.0
-EmptyImage[NW][2]=./carriages/lswr-ironclad-restaurant-car-malachite.1.1
-EmptyImage[N][2]=./carriages/lswr-ironclad-restaurant-car-malachite.1.2
-EmptyImage[NE][2]=./carriages/lswr-ironclad-restaurant-car-malachite.1.3
+EmptyImage[E][2]=./carriages/lswr-ironclad-restaurant-car-malachite_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-ironclad-restaurant-car-malachite_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-ironclad-restaurant-car-malachite_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-ironclad-restaurant-car-malachite_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-ironclad-restaurant-car-malachite_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-ironclad-restaurant-car-malachite_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-ironclad-restaurant-car-malachite_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-ironclad-restaurant-car-malachite_NE.0.0
 
-EmptyImage[E][3]=./carriages/lswr-ironclad-restaurant-car-br.1.4
-EmptyImage[SE][3]=./carriages/lswr-ironclad-restaurant-car-br.1.5
-EmptyImage[S][3]=./carriages/lswr-ironclad-restaurant-car-br.1.6
-EmptyImage[SW][3]=./carriages/lswr-ironclad-restaurant-car-br.1.7
-EmptyImage[W][3]=./carriages/lswr-ironclad-restaurant-car-br.1.0
-EmptyImage[NW][3]=./carriages/lswr-ironclad-restaurant-car-br.1.1
-EmptyImage[N][3]=./carriages/lswr-ironclad-restaurant-car-br.1.2
-EmptyImage[NE][3]=./carriages/lswr-ironclad-restaurant-car-br.1.3
+EmptyImage[E][3]=./carriages/lswr-ironclad-restaurant-car-br_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-ironclad-restaurant-car-br_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-ironclad-restaurant-car-br_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-ironclad-restaurant-car-br_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-ironclad-restaurant-car-br_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-ironclad-restaurant-car-br_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-ironclad-restaurant-car-br_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-ironclad-restaurant-car-br_NE.0.0
 
 ----
-
+# Pantry third
 obj=vehicle
 name=LSWR-Ironclad-Pantry
 speed=160
@@ -263,10 +474,12 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=56
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=16
 length=10
 
-weight=33
+weight=34.6
 axles=4
 cost=646000
 runningcost=0
@@ -278,8 +491,11 @@ catering_level=2
 
 min_loading_time=25
 max_loading_time=55
+
 comfort[0]=0
 comfort[1]=127
+comfort[2]=127
+comfort[3]=143
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -307,6 +523,16 @@ Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 Constraint[Prev][25]=secr-utility-van
+Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
+Constraint[Prev][28]=SR-Maunsell-First
+Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
+Constraint[Prev][33]=pullman-1928-kitchen-first
+Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -334,50 +560,59 @@ Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
 Constraint[Next][25]=secr-utility-van
+Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
+Constraint[Next][28]=SR-Maunsell-First
+Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
+Constraint[Next][33]=pullman-1928-kitchen-first
+Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
-# An image of what one of these looked like cannot
-# currently be found. Re-using the ordinary graphic
-# for the present.
 liverytype[0]=LSWR-sage
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green
 liverytype[3]=BR-Early
 
-EmptyImage[E][0]=./carriages/lswr-ironclad-third.1.4
-EmptyImage[SE][0]=./carriages/lswr-ironclad-third.1.5
-EmptyImage[S][0]=./carriages/lswr-ironclad-third.1.6
-EmptyImage[SW][0]=./carriages/lswr-ironclad-third.1.7
-EmptyImage[W][0]=./carriages/lswr-ironclad-third.1.0
-EmptyImage[NW][0]=./carriages/lswr-ironclad-third.1.1
-EmptyImage[N][0]=./carriages/lswr-ironclad-third.1.2
-EmptyImage[NE][0]=./carriages/lswr-ironclad-third.1.3
+# The graphics imply two compartments for the pantry, but only
+# one seems to have been taken: see Gould p. 26
+EmptyImage[E][0]=./carriages/lswr-ironclad-pantry-third_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-ironclad-pantry-third_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-ironclad-pantry-third_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-ironclad-pantry-third_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-ironclad-pantry-third_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-ironclad-pantry-third_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-ironclad-pantry-third_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-ironclad-pantry-third_NE.0.0
 
-EmptyImage[E][1]=./carriages/lswr-ironclad-third-olive.1.4
-EmptyImage[SE][1]=./carriages/lswr-ironclad-third-olive.1.5
-EmptyImage[S][1]=./carriages/lswr-ironclad-third-olive.1.6
-EmptyImage[SW][1]=./carriages/lswr-ironclad-third-olive.1.7
-EmptyImage[W][1]=./carriages/lswr-ironclad-third-olive.1.0
-EmptyImage[NW][1]=./carriages/lswr-ironclad-third-olive.1.1
-EmptyImage[N][1]=./carriages/lswr-ironclad-third-olive.1.2
-EmptyImage[NE][1]=./carriages/lswr-ironclad-third-olive.1.3
+EmptyImage[E][1]=./carriages/lswr-ironclad-pantry-third-olive_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-ironclad-pantry-third-olive_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-ironclad-pantry-third-olive_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-ironclad-pantry-third-olive_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-ironclad-pantry-third-olive_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-ironclad-pantry-third-olive_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-ironclad-pantry-third-olive_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-ironclad-pantry-third-olive_NE.0.0
 
-EmptyImage[E][2]=./carriages/lswr-ironclad-third-malachite.1.4
-EmptyImage[SE][2]=./carriages/lswr-ironclad-third-malachite.1.5
-EmptyImage[S][2]=./carriages/lswr-ironclad-third-malachite.1.6
-EmptyImage[SW][2]=./carriages/lswr-ironclad-third-malachite.1.7
-EmptyImage[W][2]=./carriages/lswr-ironclad-third-malachite.1.0
-EmptyImage[NW][2]=./carriages/lswr-ironclad-third-malachite.1.1
-EmptyImage[N][2]=./carriages/lswr-ironclad-third-malachite.1.2
-EmptyImage[NE][2]=./carriages/lswr-ironclad-third-malachite.1.3
+EmptyImage[E][2]=./carriages/lswr-ironclad-pantry-third-malachite_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-ironclad-pantry-third-malachite_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-ironclad-pantry-third-malachite_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-ironclad-pantry-third-malachite_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-ironclad-pantry-third-malachite_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-ironclad-pantry-third-malachite_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-ironclad-pantry-third-malachite_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-ironclad-pantry-third-malachite_NE.0.0
 
-EmptyImage[E][3]=./carriages/lswr-ironclad-third-br.1.4
-EmptyImage[SE][3]=./carriages/lswr-ironclad-third-br.1.5
-EmptyImage[S][3]=./carriages/lswr-ironclad-third-br.1.6
-EmptyImage[SW][3]=./carriages/lswr-ironclad-third-br.1.7
-EmptyImage[W][3]=./carriages/lswr-ironclad-third-br.1.0
-EmptyImage[NW][3]=./carriages/lswr-ironclad-third-br.1.1
-EmptyImage[N][3]=./carriages/lswr-ironclad-third-br.1.2
-EmptyImage[NE][3]=./carriages/lswr-ironclad-third-br.1.3
+EmptyImage[E][3]=./carriages/lswr-ironclad-pantry-third-br_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-ironclad-pantry-third-br_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-ironclad-pantry-third-br_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-ironclad-pantry-third-br_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-ironclad-pantry-third-br_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-ironclad-pantry-third-br_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-ironclad-pantry-third-br_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-ironclad-pantry-third-br_NE.0.0
 
 ----
 
@@ -393,10 +628,14 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=32
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=19
 length=10
 
-weight=34
+# Estimated from range of 33-34T in "An Illustrated History of
+# Southern Coaches" by Mike King (OPC)
+weight=33.5
 axles=4
 cost=633000
 runningcost=0
@@ -407,8 +646,11 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
+
 comfort[0]=0
 comfort[1]=127
+comfort[2]=127
+comfort[3]=143
 
 Constraint[Prev][0]=SR-Maunsell-Third
 Constraint[Prev][1]=SR-Maunsell-Brake-front
@@ -436,47 +678,57 @@ Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 Constraint[Prev][25]=secr-utility-van
+Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
+Constraint[Prev][28]=SR-Maunsell-First
+Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
+Constraint[Prev][33]=pullman-1928-kitchen-first
+Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=LSWR-sage
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green
 liverytype[3]=BR-Early
 
-EmptyImage[E][0]=./carriages/lswr-ironclad-brake-rear.1.4
-EmptyImage[SE][0]=./carriages/lswr-ironclad-brake-rear.1.5
-EmptyImage[S][0]=./carriages/lswr-ironclad-brake-rear.1.6
-EmptyImage[SW][0]=./carriages/lswr-ironclad-brake-rear.1.7
-EmptyImage[W][0]=./carriages/lswr-ironclad-brake-rear.1.0
-EmptyImage[NW][0]=./carriages/lswr-ironclad-brake-rear.1.1
-EmptyImage[N][0]=./carriages/lswr-ironclad-brake-rear.1.2
-EmptyImage[NE][0]=./carriages/lswr-ironclad-brake-rear.1.3
+EmptyImage[E][0]=./carriages/lswr-ironclad-brake-rear_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-ironclad-brake-rear_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-ironclad-brake-rear_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-ironclad-brake-rear_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-ironclad-brake-rear_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-ironclad-brake-rear_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-ironclad-brake-rear_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-ironclad-brake-rear_NE.0.0
 
-EmptyImage[E][1]=./carriages/lswr-ironclad-brake-rear-olive.1.4
-EmptyImage[SE][1]=./carriages/lswr-ironclad-brake-rear-olive.1.5
-EmptyImage[S][1]=./carriages/lswr-ironclad-brake-rear-olive.1.6
-EmptyImage[SW][1]=./carriages/lswr-ironclad-brake-rear-olive.1.7
-EmptyImage[W][1]=./carriages/lswr-ironclad-brake-rear-olive.1.0
-EmptyImage[NW][1]=./carriages/lswr-ironclad-brake-rear-olive.1.1
-EmptyImage[N][1]=./carriages/lswr-ironclad-brake-rear-olive.1.2
-EmptyImage[NE][1]=./carriages/lswr-ironclad-brake-rear-olive.1.3
+EmptyImage[E][1]=./carriages/lswr-ironclad-brake-rear-olive_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-ironclad-brake-rear-olive_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-ironclad-brake-rear-olive_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-ironclad-brake-rear-olive_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-ironclad-brake-rear-olive_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-ironclad-brake-rear-olive_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-ironclad-brake-rear-olive_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-ironclad-brake-rear-olive_NE.0.0
 
-EmptyImage[E][2]=./carriages/lswr-ironclad-brake-rear-malachite.1.4
-EmptyImage[SE][2]=./carriages/lswr-ironclad-brake-rear-malachite.1.5
-EmptyImage[S][2]=./carriages/lswr-ironclad-brake-rear-malachite.1.6
-EmptyImage[SW][2]=./carriages/lswr-ironclad-brake-rear-malachite.1.7
-EmptyImage[W][2]=./carriages/lswr-ironclad-brake-rear-malachite.1.0
-EmptyImage[NW][2]=./carriages/lswr-ironclad-brake-rear-malachite.1.1
-EmptyImage[N][2]=./carriages/lswr-ironclad-brake-rear-malachite.1.2
-EmptyImage[NE][2]=./carriages/lswr-ironclad-brake-rear-malachite.1.3
+EmptyImage[E][2]=./carriages/lswr-ironclad-brake-rear-malachite_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-ironclad-brake-rear-malachite_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-ironclad-brake-rear-malachite_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-ironclad-brake-rear-malachite_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-ironclad-brake-rear-malachite_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-ironclad-brake-rear-malachite_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-ironclad-brake-rear-malachite_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-ironclad-brake-rear-malachite_NE.0.0
 
-EmptyImage[E][3]=./carriages/lswr-ironclad-brake-rear-br.1.4
-EmptyImage[SE][3]=./carriages/lswr-ironclad-brake-rear-br.1.5
-EmptyImage[S][3]=./carriages/lswr-ironclad-brake-rear-br.1.6
-EmptyImage[SW][3]=./carriages/lswr-ironclad-brake-rear-br.1.7
-EmptyImage[W][3]=./carriages/lswr-ironclad-brake-rear-br.1.0
-EmptyImage[NW][3]=./carriages/lswr-ironclad-brake-rear-br.1.1
-EmptyImage[N][3]=./carriages/lswr-ironclad-brake-rear-br.1.2
-EmptyImage[NE][3]=./carriages/lswr-ironclad-brake-rear-br.1.3
+EmptyImage[E][3]=./carriages/lswr-ironclad-brake-rear-br_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-ironclad-brake-rear-br_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-ironclad-brake-rear-br_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-ironclad-brake-rear-br_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-ironclad-brake-rear-br_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-ironclad-brake-rear-br_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-ironclad-brake-rear-br_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-ironclad-brake-rear-br_NE.0.0
 
 ----
 
@@ -492,10 +744,12 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=32
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=19
 length=10
 
-weight=34
+weight=33.5
 axles=4
 cost=633000
 runningcost=0
@@ -506,7 +760,48 @@ bidirectional=1
 
 min_loading_time=25
 max_loading_time=55
-comfort=127
+
+comfort[0]=0
+comfort[1]=127
+comfort[2]=127
+comfort[3]=143
+
+Constraint[Prev][0]=SR-Maunsell-Third
+Constraint[Prev][1]=SR-Maunsell-Brake-front
+Constraint[Prev][2]=SR-Maunsell-Dining
+Constraint[Prev][3]=SR-Maunsell-Parcels
+Constraint[Prev][4]=SR-Maunsell-Mail
+Constraint[Prev][5]=SR-Maunsell-TPO
+Constraint[Prev][6]=LSWR-Ironclad-Pantry
+Constraint[Prev][7]=SR-Bulleid-Express-Coach
+Constraint[Prev][8]=SR-Bulleid-Express-Brake-front
+Constraint[Prev][9]=SR-Bulleid-Express-Dining
+Constraint[Prev][10]=LSWR-Ironclad-Brake-front
+Constraint[Prev][11]=LSWR-Ironclad
+Constraint[Prev][12]=LSWR-Ironclad-Dining
+Constraint[Prev][13]=LSWR-Ironclad-Mail
+Constraint[Prev][14]=LSWR-Ironclad-TPO
+Constraint[Prev][15]=LSWR-corridor
+Constraint[Prev][16]=LSWR-corridor-brake-front
+Constraint[Prev][17]=SR-Maunsell-Saloon
+Constraint[Prev][18]=SR-Maunsell-Buffet
+Constraint[Prev][19]=SR-Bulleid-Express-Coach-all-doors
+Constraint[Prev][20]=SR-Bulleid-Express-brake-front-all-doors
+Constraint[Prev][21]=SR-Bulleid-Express-Saloon
+Constraint[Prev][22]=SR-Bulleid-Express-Buffet
+Constraint[Prev][23]=LSWR-dining-saloon
+Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
+Constraint[Prev][25]=secr-utility-van
+Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
+Constraint[Prev][28]=SR-Maunsell-First
+Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
+Constraint[Prev][33]=pullman-1928-kitchen-first
+Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -534,48 +829,58 @@ Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
 Constraint[Next][25]=secr-utility-van
-Constraint[Next][26]=none
+Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
+Constraint[Next][28]=SR-Maunsell-First
+Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
+Constraint[Next][33]=pullman-1928-kitchen-first
+Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
+Constraint[Next][36]=none
 
 liverytype[0]=LSWR-sage
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green
 liverytype[3]=BR-Early
 
-EmptyImage[E][0]=./carriages/lswr-ironclad-brake-front.1.4
-EmptyImage[SE][0]=./carriages/lswr-ironclad-brake-front.1.5
-EmptyImage[S][0]=./carriages/lswr-ironclad-brake-front.1.6
-EmptyImage[SW][0]=./carriages/lswr-ironclad-brake-front.1.7
-EmptyImage[W][0]=./carriages/lswr-ironclad-brake-front.1.0
-EmptyImage[NW][0]=./carriages/lswr-ironclad-brake-front.1.1
-EmptyImage[N][0]=./carriages/lswr-ironclad-brake-front.1.2
-EmptyImage[NE][0]=./carriages/lswr-ironclad-brake-front.1.3
+EmptyImage[E][0]=./carriages/lswr-ironclad-brake-front_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-ironclad-brake-front_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-ironclad-brake-front_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-ironclad-brake-front_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-ironclad-brake-front_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-ironclad-brake-front_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-ironclad-brake-front_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-ironclad-brake-front_NE.0.0
 
-EmptyImage[E][1]=./carriages/lswr-ironclad-brake-front-olive.1.4
-EmptyImage[SE][1]=./carriages/lswr-ironclad-brake-front-olive.1.5
-EmptyImage[S][1]=./carriages/lswr-ironclad-brake-front-olive.1.6
-EmptyImage[SW][1]=./carriages/lswr-ironclad-brake-front-olive.1.7
-EmptyImage[W][1]=./carriages/lswr-ironclad-brake-front-olive.1.0
-EmptyImage[NW][1]=./carriages/lswr-ironclad-brake-front-olive.1.1
-EmptyImage[N][1]=./carriages/lswr-ironclad-brake-front-olive.1.2
-EmptyImage[NE][1]=./carriages/lswr-ironclad-brake-front-olive.1.3
+EmptyImage[E][1]=./carriages/lswr-ironclad-brake-front-olive_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-ironclad-brake-front-olive_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-ironclad-brake-front-olive_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-ironclad-brake-front-olive_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-ironclad-brake-front-olive_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-ironclad-brake-front-olive_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-ironclad-brake-front-olive_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-ironclad-brake-front-olive_NE.0.0
 
-EmptyImage[E][2]=./carriages/lswr-ironclad-brake-front-malachite.1.4
-EmptyImage[SE][2]=./carriages/lswr-ironclad-brake-front-malachite.1.5
-EmptyImage[S][2]=./carriages/lswr-ironclad-brake-front-malachite.1.6
-EmptyImage[SW][2]=./carriages/lswr-ironclad-brake-front-malachite.1.7
-EmptyImage[W][2]=./carriages/lswr-ironclad-brake-front-malachite.1.0
-EmptyImage[NW][2]=./carriages/lswr-ironclad-brake-front-malachite.1.1
-EmptyImage[N][2]=./carriages/lswr-ironclad-brake-front-malachite.1.2
-EmptyImage[NE][2]=./carriages/lswr-ironclad-brake-front-malachite.1.3
+EmptyImage[E][2]=./carriages/lswr-ironclad-brake-front-malachite_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-ironclad-brake-front-malachite_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-ironclad-brake-front-malachite_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-ironclad-brake-front-malachite_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-ironclad-brake-front-malachite_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-ironclad-brake-front-malachite_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-ironclad-brake-front-malachite_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-ironclad-brake-front-malachite_NE.0.0
 
-EmptyImage[E][3]=./carriages/lswr-ironclad-brake-front-br.1.4
-EmptyImage[SE][3]=./carriages/lswr-ironclad-brake-front-br.1.5
-EmptyImage[S][3]=./carriages/lswr-ironclad-brake-front-br.1.6
-EmptyImage[SW][3]=./carriages/lswr-ironclad-brake-front-br.1.7
-EmptyImage[W][3]=./carriages/lswr-ironclad-brake-front-br.1.0
-EmptyImage[NW][3]=./carriages/lswr-ironclad-brake-front-br.1.1
-EmptyImage[N][3]=./carriages/lswr-ironclad-brake-front-br.1.2
-EmptyImage[NE][3]=./carriages/lswr-ironclad-brake-front-br.1.3
+EmptyImage[E][3]=./carriages/lswr-ironclad-brake-front-br_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-ironclad-brake-front-br_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-ironclad-brake-front-br_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-ironclad-brake-front-br_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-ironclad-brake-front-br_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-ironclad-brake-front-br_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-ironclad-brake-front-br_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-ironclad-brake-front-br_NE.0.0
 
 ----
 
@@ -592,7 +897,7 @@ freight=Post
 payload=600
 length=10
 
-weight=33
+weight=33.3
 axles=4
 cost=633000
 runningcost=0
@@ -629,6 +934,16 @@ Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 Constraint[Prev][25]=secr-utility-van
+Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
+Constraint[Prev][28]=SR-Maunsell-First
+Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
+Constraint[Prev][33]=pullman-1928-kitchen-first
+Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -656,47 +971,57 @@ Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
 Constraint[Next][25]=secr-utility-van
+Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
+Constraint[Next][28]=SR-Maunsell-First
+Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
+Constraint[Next][33]=pullman-1928-kitchen-first
+Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=LSWR-sage
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green
 liverytype[3]=BR-Early
 
-EmptyImage[E][0]=./carriages/lswr-ironclad-mail.1.4
-EmptyImage[SE][0]=./carriages/lswr-ironclad-mail.1.5
-EmptyImage[S][0]=./carriages/lswr-ironclad-mail.1.6
-EmptyImage[SW][0]=./carriages/lswr-ironclad-mail.1.7
-EmptyImage[W][0]=./carriages/lswr-ironclad-mail.1.0
-EmptyImage[NW][0]=./carriages/lswr-ironclad-mail.1.1
-EmptyImage[N][0]=./carriages/lswr-ironclad-mail.1.2
-EmptyImage[NE][0]=./carriages/lswr-ironclad-mail.1.3
+EmptyImage[E][0]=./carriages/lswr-ironclad-mail_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-ironclad-mail_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-ironclad-mail_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-ironclad-mail_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-ironclad-mail_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-ironclad-mail_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-ironclad-mail_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-ironclad-mail_NE.0.0
 
-EmptyImage[E][1]=./carriages/lswr-ironclad-mail-olive.1.4
-EmptyImage[SE][1]=./carriages/lswr-ironclad-mail-olive.1.5
-EmptyImage[S][1]=./carriages/lswr-ironclad-mail-olive.1.6
-EmptyImage[SW][1]=./carriages/lswr-ironclad-mail-olive.1.7
-EmptyImage[W][1]=./carriages/lswr-ironclad-mail-olive.1.0
-EmptyImage[NW][1]=./carriages/lswr-ironclad-mail-olive.1.1
-EmptyImage[N][1]=./carriages/lswr-ironclad-mail-olive.1.2
-EmptyImage[NE][1]=./carriages/lswr-ironclad-mail-olive.1.3
+EmptyImage[E][1]=./carriages/lswr-ironclad-mail-olive_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-ironclad-mail-olive_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-ironclad-mail-olive_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-ironclad-mail-olive_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-ironclad-mail-olive_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-ironclad-mail-olive_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-ironclad-mail-olive_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-ironclad-mail-olive_NE.0.0
 
-EmptyImage[E][2]=./carriages/lswr-ironclad-mail-malachite.1.4
-EmptyImage[SE][2]=./carriages/lswr-ironclad-mail-malachite.1.5
-EmptyImage[S][2]=./carriages/lswr-ironclad-mail-malachite.1.6
-EmptyImage[SW][2]=./carriages/lswr-ironclad-mail-malachite.1.7
-EmptyImage[W][2]=./carriages/lswr-ironclad-mail-malachite.1.0
-EmptyImage[NW][2]=./carriages/lswr-ironclad-mail-malachite.1.1
-EmptyImage[N][2]=./carriages/lswr-ironclad-mail-malachite.1.2
-EmptyImage[NE][2]=./carriages/lswr-ironclad-mail-malachite.1.3
+EmptyImage[E][2]=./carriages/lswr-ironclad-mail-malachite_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-ironclad-mail-malachite_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-ironclad-mail-malachite_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-ironclad-mail-malachite_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-ironclad-mail-malachite_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-ironclad-mail-malachite_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-ironclad-mail-malachite_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-ironclad-mail-malachite_NE.0.0
 
-EmptyImage[E][3]=./carriages/lswr-ironclad-mail-br.1.4
-EmptyImage[SE][3]=./carriages/lswr-ironclad-mail-br.1.5
-EmptyImage[S][3]=./carriages/lswr-ironclad-mail-br.1.6
-EmptyImage[SW][3]=./carriages/lswr-ironclad-mail-br.1.7
-EmptyImage[W][3]=./carriages/lswr-ironclad-mail-br.1.0
-EmptyImage[NW][3]=./carriages/lswr-ironclad-mail-br.1.1
-EmptyImage[N][3]=./carriages/lswr-ironclad-mail-br.1.2
-EmptyImage[NE][3]=./carriages/lswr-ironclad-mail-br.1.3
+EmptyImage[E][3]=./carriages/lswr-ironclad-mail-br_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-ironclad-mail-br_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-ironclad-mail-br_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-ironclad-mail-br_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-ironclad-mail-br_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-ironclad-mail-br_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-ironclad-mail-br_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-ironclad-mail-br_NE.0.0
 
 ----
 
@@ -713,7 +1038,7 @@ freight=Post
 payload=450
 length=10
 
-weight=33
+weight=33.3
 axles=4
 cost=675000
 runningcost=0
@@ -752,6 +1077,16 @@ Constraint[Prev][22]=SR-Bulleid-Express-Buffet
 Constraint[Prev][23]=LSWR-dining-saloon
 Constraint[Prev][24]=SR-Maunsell-Parcels-Brake
 Constraint[Prev][25]=secr-utility-van
+Constraint[Prev][26]=LSWR-corridor-composite
+Constraint[Prev][27]=LSWR-Ironclad-First
+Constraint[Prev][28]=SR-Maunsell-First
+Constraint[Prev][29]=SR-Maunsell-Composite
+Constraint[Prev][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Prev][31]=SR-Bulleid-Express-composite
+Constraint[Prev][32]=SR-Bulleid-Express-first
+Constraint[Prev][33]=pullman-1928-kitchen-first
+Constraint[Prev][34]=pullman-1951-kitchen-first
+Constraint[Prev][35]=pullman-k-type-kitchen-first
 
 Constraint[Next][0]=SR-Maunsell-Third
 Constraint[Next][1]=SR-Maunsell-Brake-rear
@@ -779,44 +1114,54 @@ Constraint[Next][22]=SR-Bulleid-Express-Buffet
 Constraint[Next][23]=LSWR-dining-saloon
 Constraint[Next][24]=SR-Maunsell-Parcels-Brake
 Constraint[Next][25]=secr-utility-van
+Constraint[Next][26]=LSWR-corridor-composite
+Constraint[Next][27]=LSWR-Ironclad-First
+Constraint[Next][28]=SR-Maunsell-First
+Constraint[Next][29]=SR-Maunsell-Composite
+Constraint[Next][30]=SR-Bulleid-Express-Coach-all-doors-composite
+Constraint[Next][31]=SR-Bulleid-Express-composite
+Constraint[Next][32]=SR-Bulleid-Express-first
+Constraint[Next][33]=pullman-1928-kitchen-first
+Constraint[Next][34]=pullman-1951-kitchen-first
+Constraint[Next][35]=pullman-k-type-kitchen-first
 
 liverytype[0]=LSWR-sage
 liverytype[1]=SR-Olive-Green
 liverytype[2]=SR-Malachite-Green
 liverytype[3]=BR-Early
 
-EmptyImage[E][0]=./carriages/lswr-ironclad-tpo.1.4
-EmptyImage[SE][0]=./carriages/lswr-ironclad-tpo.1.5
-EmptyImage[S][0]=./carriages/lswr-ironclad-tpo.1.6
-EmptyImage[SW][0]=./carriages/lswr-ironclad-tpo.1.7
-EmptyImage[W][0]=./carriages/lswr-ironclad-tpo.1.0
-EmptyImage[NW][0]=./carriages/lswr-ironclad-tpo.1.1
-EmptyImage[N][0]=./carriages/lswr-ironclad-tpo.1.2
-EmptyImage[NE][0]=./carriages/lswr-ironclad-tpo.1.3
+EmptyImage[E][0]=./carriages/lswr-ironclad-tpo_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-ironclad-tpo_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-ironclad-tpo_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-ironclad-tpo_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-ironclad-tpo_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-ironclad-tpo_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-ironclad-tpo_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-ironclad-tpo_NE.0.0
 
-EmptyImage[E][1]=./carriages/lswr-ironclad-tpo-olive.1.4
-EmptyImage[SE][1]=./carriages/lswr-ironclad-tpo-olive.1.5
-EmptyImage[S][1]=./carriages/lswr-ironclad-tpo-olive.1.6
-EmptyImage[SW][1]=./carriages/lswr-ironclad-tpo-olive.1.7
-EmptyImage[W][1]=./carriages/lswr-ironclad-tpo-olive.1.0
-EmptyImage[NW][1]=./carriages/lswr-ironclad-tpo-olive.1.1
-EmptyImage[N][1]=./carriages/lswr-ironclad-tpo-olive.1.2
-EmptyImage[NE][1]=./carriages/lswr-ironclad-tpo-olive.1.3
+EmptyImage[E][1]=./carriages/lswr-ironclad-tpo-olive_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-ironclad-tpo-olive_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-ironclad-tpo-olive_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-ironclad-tpo-olive_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-ironclad-tpo-olive_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-ironclad-tpo-olive_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-ironclad-tpo-olive_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-ironclad-tpo-olive_NE.0.0
 
-EmptyImage[E][2]=./carriages/lswr-ironclad-tpo-malachite.1.4
-EmptyImage[SE][2]=./carriages/lswr-ironclad-tpo-malachite.1.5
-EmptyImage[S][2]=./carriages/lswr-ironclad-tpo-malachite.1.6
-EmptyImage[SW][2]=./carriages/lswr-ironclad-tpo-malachite.1.7
-EmptyImage[W][2]=./carriages/lswr-ironclad-tpo-malachite.1.0
-EmptyImage[NW][2]=./carriages/lswr-ironclad-tpo-malachite.1.1
-EmptyImage[N][2]=./carriages/lswr-ironclad-tpo-malachite.1.2
-EmptyImage[NE][2]=./carriages/lswr-ironclad-tpo-malachite.1.3
+EmptyImage[E][2]=./carriages/lswr-ironclad-tpo-malachite_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-ironclad-tpo-malachite_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-ironclad-tpo-malachite_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-ironclad-tpo-malachite_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-ironclad-tpo-malachite_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-ironclad-tpo-malachite_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-ironclad-tpo-malachite_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-ironclad-tpo-malachite_NE.0.0
 
-EmptyImage[E][3]=./carriages/lswr-ironclad-tpo-br.1.4
-EmptyImage[SE][3]=./carriages/lswr-ironclad-tpo-br.1.5
-EmptyImage[S][3]=./carriages/lswr-ironclad-tpo-br.1.6
-EmptyImage[SW][3]=./carriages/lswr-ironclad-tpo-br.1.7
-EmptyImage[W][3]=./carriages/lswr-ironclad-tpo-br.1.0
-EmptyImage[NW][3]=./carriages/lswr-ironclad-tpo-br.1.1
-EmptyImage[N][3]=./carriages/lswr-ironclad-tpo-br.1.2
-EmptyImage[NE][3]=./carriages/lswr-ironclad-tpo-br.1.3
+EmptyImage[E][3]=./carriages/lswr-ironclad-tpo-br_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-ironclad-tpo-br_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-ironclad-tpo-br_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-ironclad-tpo-br_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-ironclad-tpo-br_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-ironclad-tpo-br_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-ironclad-tpo-br_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-ironclad-tpo-br_NE.0.0

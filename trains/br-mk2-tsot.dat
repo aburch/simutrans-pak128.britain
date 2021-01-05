@@ -16,7 +16,7 @@ overcrowded_capacity=18
 length=11
 rolling_resistance=13
 
-weight=32
+weight=33.5
 axles=4
 cost=506000
 upgrade_price=42250
@@ -68,6 +68,14 @@ Constraint[Next][30]=BR-Mk3a-FO
 Constraint[Next][31]=BR-Mk3a-TRB
 Constraint[Next][32]=BR-Mk3a-TSO
 Constraint[Next][33]=BR-Mk3a-TRFB
+Constraint[Next][34]=BR-Mk3a-TRFB-pullman
+Constraint[Next][35]=BR-Mk2-PFP
+Constraint[Next][36]=BR-Mk2-PFK
+Constraint[Next][37]=BR-Mk2-PFB
+Constraint[Next][38]=BR-Mk1-PFK
+Constraint[Next][39]=BR-Mk1-PSP
+Constraint[Next][40]=BR-Mk1-PFP
+Constraint[Next][41]=pullman-1951-kitchen-first
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive

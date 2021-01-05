@@ -64,6 +64,9 @@ Constraint[Next][30]=BR-Mk2a-BSO
 Constraint[Next][31]=BR-Mk2a-RMB
 Constraint[Next][32]=BR-Mk2a-SO
 Constraint[Next][33]=BR-Mk2a-TSO
+Constraint[Next][34]=pullman-1928-kitchen-first
+Constraint[Next][35]=pullman-1951-kitchen-first
+Constraint[Next][36]=pullman-k-type-kitchen-first
 
 Constraint[Prev][0]=LNER-Gresley-Express-Coach
 Constraint[Prev][1]=LNER-Gresley-Express-Brake-front
@@ -99,6 +102,9 @@ Constraint[Prev][30]=BR-Mk2a-BSO
 Constraint[Prev][31]=BR-Mk2a-RMB
 Constraint[Prev][32]=BR-Mk2a-SO
 Constraint[Prev][33]=BR-Mk2a-TSO
+Constraint[Prev][34]=pullman-1928-kitchen-first
+Constraint[Prev][35]=pullman-1951-kitchen-first
+Constraint[Prev][36]=pullman-k-type-kitchen-first
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early

@@ -41,15 +41,14 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-456-DTSO
 
-EmptyImage[E]=./railcars/br-456-nse.0.0
-EmptyImage[SE]=./railcars/br-456-nse.0.1
-EmptyImage[S]=./railcars/br-456-nse.0.2
-EmptyImage[SW]=./railcars/br-456-nse.0.3
-EmptyImage[W]=./railcars/br-456-nse.0.4
-EmptyImage[NW]=./railcars/br-456-nse.0.5
-EmptyImage[N]=./railcars/br-456-nse.0.6
-EmptyImage[NE]=./railcars/br-456-nse.0.7
-
+EmptyImage[E]=./railcars/br-456-motor_E.0.0
+EmptyImage[SE]=./railcars/br-456-motor_SE.0.0
+EmptyImage[S]=./railcars/br-456-motor_S.0.0
+EmptyImage[SW]=./railcars/br-456-motor_SW.0.0
+EmptyImage[W]=./railcars/br-456-motor_W.0.0
+EmptyImage[NW]=./railcars/br-456-motor_NW.0.0
+EmptyImage[N]=./railcars/br-456-motor_N.0.0
+EmptyImage[NE]=./railcars/br-456-motor_NE.0.0
 ---
 
 obj=vehicle
@@ -93,11 +92,11 @@ Constraint[Next][2]=none
 
 Constraint[Prev][0]=BR-456-DMSO
 
-EmptyImage[E]=./railcars/br-456-nse.1.0
-EmptyImage[SE]=./railcars/br-456-nse.1.1
-EmptyImage[S]=./railcars/br-456-nse.1.2
-EmptyImage[SW]=./railcars/br-456-nse.1.3
-EmptyImage[W]=./railcars/br-456-nse.1.4
-EmptyImage[NW]=./railcars/br-456-nse.1.5
-EmptyImage[N]=./railcars/br-456-nse.1.6
-EmptyImage[NE]=./railcars/br-456-nse.1.7
+EmptyImage[E]=./railcars/br-456-trailer_E.0.0
+EmptyImage[SE]=./railcars/br-456-trailer_SE.0.0
+EmptyImage[S]=./railcars/br-456-trailer_S.0.0
+EmptyImage[SW]=./railcars/br-456-trailer_SW.0.0
+EmptyImage[W]=./railcars/br-456-trailer_W.0.0
+EmptyImage[NW]=./railcars/br-456-trailer_NW.0.0
+EmptyImage[N]=./railcars/br-456-trailer_N.0.0
+EmptyImage[NE]=./railcars/br-456-trailer_NE.0.0

@@ -15,7 +15,7 @@ payload[1]=26
 payload[2]=0
 payload[3]=35
 overcrowded_capacity=12
-length=12
+length=11
 brake_force=33
 rolling_resistance=13
 
@@ -45,14 +45,14 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-444(centre1)
 
-EmptyImage[E]=./railcars/br-444-driving.0.0
-EmptyImage[SE]=./railcars/br-444-driving.0.1
-EmptyImage[S]=./railcars/br-444-driving.0.2
-EmptyImage[SW]=./railcars/br-444-driving.0.3
-EmptyImage[W]=./railcars/br-444-driving.0.4
-EmptyImage[NW]=./railcars/br-444-driving.0.5
-EmptyImage[N]=./railcars/br-444-driving.0.6
-EmptyImage[NE]=./railcars/br-444-driving.0.7
+EmptyImage[E]=./railcars/br-444-driving-front_E.0.0
+EmptyImage[SE]=./railcars/br-444-driving-front_SE.0.0
+EmptyImage[S]=./railcars/br-444-driving-front_S.0.0
+EmptyImage[SW]=./railcars/br-444-driving-front_SW.0.0
+EmptyImage[W]=./railcars/br-444-driving-front_W.0.0
+EmptyImage[NW]=./railcars/br-444-driving-front_NW.0.0
+EmptyImage[N]=./railcars/br-444-driving-front_N.0.0
+EmptyImage[NE]=./railcars/br-444-driving-front_NE.0.0
 
 ---
 
@@ -97,14 +97,14 @@ Constraint[Prev][0]=BR-444(front)
 
 Constraint[Next][0]=BR-444(centre2)
 
-EmptyImage[E]=./railcars/br-444-centre.0.0
-EmptyImage[SE]=./railcars/br-444-centre.0.1
-EmptyImage[S]=./railcars/br-444-centre.0.2
-EmptyImage[SW]=./railcars/br-444-centre.0.3
-EmptyImage[W]=./railcars/br-444-centre.0.4
-EmptyImage[NW]=./railcars/br-444-centre.0.5
-EmptyImage[N]=./railcars/br-444-centre.0.6
-EmptyImage[NE]=./railcars/br-444-centre.0.7
+EmptyImage[E]=./railcars/br-444-centre_E.0.0
+EmptyImage[SE]=./railcars/br-444-centre_SE.0.0
+EmptyImage[S]=./railcars/br-444-centre_S.0.0
+EmptyImage[SW]=./railcars/br-444-centre_SW.0.0
+EmptyImage[W]=./railcars/br-444-centre_W.0.0
+EmptyImage[NW]=./railcars/br-444-centre_NW.0.0
+EmptyImage[N]=./railcars/br-444-centre_N.0.0
+EmptyImage[NE]=./railcars/br-444-centre_NE.0.0
 
 ---
 
@@ -149,14 +149,14 @@ Constraint[Prev][0]=BR-444(centre1)
 
 Constraint[Next][0]=BR-444(centre3)
 
-EmptyImage[E]=./railcars/br-444-centre.0.0
-EmptyImage[SE]=./railcars/br-444-centre.0.1
-EmptyImage[S]=./railcars/br-444-centre.0.2
-EmptyImage[SW]=./railcars/br-444-centre.0.3
-EmptyImage[W]=./railcars/br-444-centre.0.4
-EmptyImage[NW]=./railcars/br-444-centre.0.5
-EmptyImage[N]=./railcars/br-444-centre.0.6
-EmptyImage[NE]=./railcars/br-444-centre.0.7
+EmptyImage[E]=./railcars/br-444-centre_E.0.0
+EmptyImage[SE]=./railcars/br-444-centre_SE.0.0
+EmptyImage[S]=./railcars/br-444-centre_S.0.0
+EmptyImage[SW]=./railcars/br-444-centre_SW.0.0
+EmptyImage[W]=./railcars/br-444-centre_W.0.0
+EmptyImage[NW]=./railcars/br-444-centre_NW.0.0
+EmptyImage[N]=./railcars/br-444-centre_N.0.0
+EmptyImage[NE]=./railcars/br-444-centre_NE.0.0
 
 ---
 
@@ -201,14 +201,14 @@ Constraint[Prev][0]=BR-444(centre2)
 
 Constraint[Next][0]=BR-444(rear)
 
-EmptyImage[E]=./railcars/br-444-centre.0.0
-EmptyImage[SE]=./railcars/br-444-centre.0.1
-EmptyImage[S]=./railcars/br-444-centre.0.2
-EmptyImage[SW]=./railcars/br-444-centre.0.3
-EmptyImage[W]=./railcars/br-444-centre.0.4
-EmptyImage[NW]=./railcars/br-444-centre.0.5
-EmptyImage[N]=./railcars/br-444-centre.0.6
-EmptyImage[NE]=./railcars/br-444-centre.0.7
+EmptyImage[E]=./railcars/br-444-centre_E.0.0
+EmptyImage[SE]=./railcars/br-444-centre_SE.0.0
+EmptyImage[S]=./railcars/br-444-centre_S.0.0
+EmptyImage[SW]=./railcars/br-444-centre_SW.0.0
+EmptyImage[W]=./railcars/br-444-centre_W.0.0
+EmptyImage[NW]=./railcars/br-444-centre_NW.0.0
+EmptyImage[N]=./railcars/br-444-centre_N.0.0
+EmptyImage[NE]=./railcars/br-444-centre_NE.0.0
 
 ---
 
@@ -257,11 +257,11 @@ Constraint[Next][0]=BR-450(front)
 Constraint[Next][1]=BR-444(front)
 Constraint[Next][2]=none
 
-EmptyImage[E]=./railcars/br-444-driving.1.0
-EmptyImage[SE]=./railcars/br-444-driving.1.1
-EmptyImage[S]=./railcars/br-444-driving.1.2
-EmptyImage[SW]=./railcars/br-444-driving.1.3
-EmptyImage[W]=./railcars/br-444-driving.1.4
-EmptyImage[NW]=./railcars/br-444-driving.1.5
-EmptyImage[N]=./railcars/br-444-driving.1.6
-EmptyImage[NE]=./railcars/br-444-driving.1.7
+EmptyImage[E]=./railcars/br-444-driving-rear_E.0.0
+EmptyImage[SE]=./railcars/br-444-driving-rear_SE.0.0
+EmptyImage[S]=./railcars/br-444-driving-rear_S.0.0
+EmptyImage[SW]=./railcars/br-444-driving-rear_SW.0.0
+EmptyImage[W]=./railcars/br-444-driving-rear_W.0.0
+EmptyImage[NW]=./railcars/br-444-driving-rear_NW.0.0
+EmptyImage[N]=./railcars/br-444-driving-rear_N.0.0
+EmptyImage[NE]=./railcars/br-444-driving-rear_NE.0.0

@@ -1,21 +1,24 @@
-# Non-lavatory compartment carriages with arc rooves
+# Non-lavatory compartment carriages with arc roofs
+
 obj=vehicle
 name=lswr-48ft-arc-sub-brake-front
 speed=160
 copyright=JamesPetts
-intro_year=1885
-intro_month=7
+intro_year=1884
+intro_month=9
 retire_year=1896
 retire_month=10
 waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=60
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=30
-length=9
+length=8
 
 # Estimated
-weight=23.2
+weight=19.6
 axles=4
 cost=700000
 runningcost=0
@@ -25,8 +28,11 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
+
 comfort[0]=0
-comfort[1]=73
+comfort[1]=77
+comfort[2]=78
+comfort[3]=84
 
 upgrade[0]=lswr-48ft-arc-augmentation-trailer-front
 upgrade[1]=lswr-48ft-arc-augmentation-trailer-rear
@@ -69,48 +75,59 @@ Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
 Constraint[Next][37]=lswr-6-wheel-28ft-composite
-Constraint[Next][38]=none
+Constraint[Next][38]=lswr-56ft-lav-composite-1st-3rd
+Constraint[Next][39]=lswr-56ft-sub-tricomposite
+Constraint[Next][40]=lswr-42ft-brake-third-rear
+Constraint[Next][41]=lswr-42ft-third
+Constraint[Next][42]=lswr-42ft-first
+Constraint[Next][43]=lswr-42ft-tricomposite
+Constraint[Next][44]=lswr-6-wheel-30ft-second
+Constraint[Next][45]=lswr-6-wheel-29ft-6-first
+Constraint[Next][46]=lswr-48ft-arc-lav-composite
+Constraint[Next][47]=lswr-48ft-lav-tricomposite
+Constraint[Next][48]=lswr-48ft-lav-composite
+Constraint[Next][49]=none
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 liverytype[3]=SR-Malachite-Green
 
-EmptyImage[E][0]=./carriages/lswr-48ft-arc-sub-brake-front.1.4
-EmptyImage[SE][0]=./carriages/lswr-48ft-arc-sub-brake-front.1.5
-EmptyImage[S][0]=./carriages/lswr-48ft-arc-sub-brake-front.1.6
-EmptyImage[SW][0]=./carriages/lswr-48ft-arc-sub-brake-front.1.7
-EmptyImage[W][0]=./carriages/lswr-48ft-arc-sub-brake-front.1.0
-EmptyImage[NW][0]=./carriages/lswr-48ft-arc-sub-brake-front.1.1
-EmptyImage[N][0]=./carriages/lswr-48ft-arc-sub-brake-front.1.2
-EmptyImage[NE][0]=./carriages/lswr-48ft-arc-sub-brake-front.1.3
+EmptyImage[E][0]=./carriages/lswr-48ft-arc-sub-brake-third-front_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-48ft-arc-sub-brake-third-front_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-48ft-arc-sub-brake-third-front_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-48ft-arc-sub-brake-third-front_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-48ft-arc-sub-brake-third-front_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-48ft-arc-sub-brake-third-front_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-48ft-arc-sub-brake-third-front_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-48ft-arc-sub-brake-third-front_NE.0.0
 
-EmptyImage[E][1]=./carriages/lswr-48ft-arc-sub-brake-front-sage.1.4
-EmptyImage[SE][1]=./carriages/lswr-48ft-arc-sub-brake-front-sage.1.5
-EmptyImage[S][1]=./carriages/lswr-48ft-arc-sub-brake-front-sage.1.6
-EmptyImage[SW][1]=./carriages/lswr-48ft-arc-sub-brake-front-sage.1.7
-EmptyImage[W][1]=./carriages/lswr-48ft-arc-sub-brake-front-sage.1.0
-EmptyImage[NW][1]=./carriages/lswr-48ft-arc-sub-brake-front-sage.1.1
-EmptyImage[N][1]=./carriages/lswr-48ft-arc-sub-brake-front-sage.1.2
-EmptyImage[NE][1]=./carriages/lswr-48ft-arc-sub-brake-front-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-48ft-arc-sub-brake-third-front-sage_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-48ft-arc-sub-brake-third-front-sage_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-48ft-arc-sub-brake-third-front-sage_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-48ft-arc-sub-brake-third-front-sage_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-48ft-arc-sub-brake-third-front-sage_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-48ft-arc-sub-brake-third-front-sage_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-48ft-arc-sub-brake-third-front-sage_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-48ft-arc-sub-brake-third-front-sage_NE.0.0
 
-EmptyImage[E][2]=./carriages/lswr-48ft-arc-sub-brake-front-olive.1.4
-EmptyImage[SE][2]=./carriages/lswr-48ft-arc-sub-brake-front-olive.1.5
-EmptyImage[S][2]=./carriages/lswr-48ft-arc-sub-brake-front-olive.1.6
-EmptyImage[SW][2]=./carriages/lswr-48ft-arc-sub-brake-front-olive.1.7
-EmptyImage[W][2]=./carriages/lswr-48ft-arc-sub-brake-front-olive.1.0
-EmptyImage[NW][2]=./carriages/lswr-48ft-arc-sub-brake-front-olive.1.1
-EmptyImage[N][2]=./carriages/lswr-48ft-arc-sub-brake-front-olive.1.2
-EmptyImage[NE][2]=./carriages/lswr-48ft-arc-sub-brake-front-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-48ft-arc-sub-brake-third-front-olive_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-48ft-arc-sub-brake-third-front-olive_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-48ft-arc-sub-brake-third-front-olive_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-48ft-arc-sub-brake-third-front-olive_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-48ft-arc-sub-brake-third-front-olive_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-48ft-arc-sub-brake-third-front-olive_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-48ft-arc-sub-brake-third-front-olive_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-48ft-arc-sub-brake-third-front-olive_NE.0.0
 
-EmptyImage[E][3]=./carriages/lswr-48ft-arc-sub-brake-front-malachite.1.4
-EmptyImage[SE][3]=./carriages/lswr-48ft-arc-sub-brake-front-malachite.1.5
-EmptyImage[S][3]=./carriages/lswr-48ft-arc-sub-brake-front-malachite.1.6
-EmptyImage[SW][3]=./carriages/lswr-48ft-arc-sub-brake-front-malachite.1.7
-EmptyImage[W][3]=./carriages/lswr-48ft-arc-sub-brake-front-malachite.1.0
-EmptyImage[NW][3]=./carriages/lswr-48ft-arc-sub-brake-front-malachite.1.1
-EmptyImage[N][3]=./carriages/lswr-48ft-arc-sub-brake-front-malachite.1.2
-EmptyImage[NE][3]=./carriages/lswr-48ft-arc-sub-brake-front-malachite.1.3
+EmptyImage[E][3]=./carriages/lswr-48ft-arc-sub-brake-third-front-malachite_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-48ft-arc-sub-brake-third-front-malachite_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-48ft-arc-sub-brake-third-front-malachite_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-48ft-arc-sub-brake-third-front-malachite_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-48ft-arc-sub-brake-third-front-malachite_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-48ft-arc-sub-brake-third-front-malachite_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-48ft-arc-sub-brake-third-front-malachite_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-48ft-arc-sub-brake-third-front-malachite_NE.0.0
 
 ---
 
@@ -118,18 +135,21 @@ obj=vehicle
 name=lswr-48ft-arc-sub-brake-rear
 speed=160
 copyright=JamesPetts
-intro_year=1885
-intro_month=7
+intro_year=1884
+intro_month=9
 retire_year=1896
 retire_month=10
 waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=60
+payload[1]=0
+payload[1]=0
 overcrowded_capacity=30
-length=9
+length=8
 
-weight=23.2
+# Estimated
+weight=19.6
 axles=4
 cost=700000
 runningcost=0
@@ -139,8 +159,11 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
+
 comfort[0]=0
-comfort[1]=73
+comfort[1]=77
+comfort[2]=78
+comfort[3]=84
 
 upgrade[0]=lswr-48ft-arc-augmentation-trailer-front
 upgrade[1]=lswr-48ft-arc-augmentation-trailer-rear
@@ -183,67 +206,82 @@ Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
 Constraint[Prev][37]=lswr-6-wheel-28ft-composite
+Constraint[Prev][38]=lswr-56ft-lav-composite-1st-3rd
+Constraint[Prev][39]=lswr-56ft-sub-tricomposite
+Constraint[Prev][40]=lswr-42ft-brake-third-front
+Constraint[Prev][41]=lswr-42ft-third
+Constraint[Prev][42]=lswr-42ft-first
+Constraint[Prev][43]=lswr-42ft-tricomposite
+Constraint[Prev][44]=lswr-6-wheel-30ft-second
+Constraint[Prev][45]=lswr-6-wheel-29ft-6-first
+Constraint[Prev][46]=lswr-48ft-arc-lav-composite
+Constraint[Prev][47]=lswr-48ft-lav-tricomposite
+Constraint[Prev][48]=lswr-48ft-lav-composite
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 liverytype[3]=SR-Malachite-Green
 
-EmptyImage[E][0]=./carriages/lswr-48ft-arc-sub-brake-rear.1.4
-EmptyImage[SE][0]=./carriages/lswr-48ft-arc-sub-brake-rear.1.5
-EmptyImage[S][0]=./carriages/lswr-48ft-arc-sub-brake-rear.1.6
-EmptyImage[SW][0]=./carriages/lswr-48ft-arc-sub-brake-rear.1.7
-EmptyImage[W][0]=./carriages/lswr-48ft-arc-sub-brake-rear.1.0
-EmptyImage[NW][0]=./carriages/lswr-48ft-arc-sub-brake-rear.1.1
-EmptyImage[N][0]=./carriages/lswr-48ft-arc-sub-brake-rear.1.2
-EmptyImage[NE][0]=./carriages/lswr-48ft-arc-sub-brake-rear.1.3
+EmptyImage[E][0]=./carriages/lswr-48ft-arc-sub-brake-third-rear_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-48ft-arc-sub-brake-third-rear_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-48ft-arc-sub-brake-third-rear_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-48ft-arc-sub-brake-third-rear_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-48ft-arc-sub-brake-third-rear_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-48ft-arc-sub-brake-third-rear_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-48ft-arc-sub-brake-third-rear_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-48ft-arc-sub-brake-third-rear_NE.0.0
 
-EmptyImage[E][1]=./carriages/lswr-48ft-arc-sub-brake-rear-sage.1.4
-EmptyImage[SE][1]=./carriages/lswr-48ft-arc-sub-brake-rear-sage.1.5
-EmptyImage[S][1]=./carriages/lswr-48ft-arc-sub-brake-rear-sage.1.6
-EmptyImage[SW][1]=./carriages/lswr-48ft-arc-sub-brake-rear-sage.1.7
-EmptyImage[W][1]=./carriages/lswr-48ft-arc-sub-brake-rear-sage.1.0
-EmptyImage[NW][1]=./carriages/lswr-48ft-arc-sub-brake-rear-sage.1.1
-EmptyImage[N][1]=./carriages/lswr-48ft-arc-sub-brake-rear-sage.1.2
-EmptyImage[NE][1]=./carriages/lswr-48ft-arc-sub-brake-rear-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-48ft-arc-sub-brake-third-rear-sage_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-48ft-arc-sub-brake-third-rear-sage_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-48ft-arc-sub-brake-third-rear-sage_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-48ft-arc-sub-brake-third-rear-sage_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-48ft-arc-sub-brake-third-rear-sage_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-48ft-arc-sub-brake-third-rear-sage_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-48ft-arc-sub-brake-third-rear-sage_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-48ft-arc-sub-brake-third-rear-sage_NE.0.0
 
-EmptyImage[E][2]=./carriages/lswr-48ft-arc-sub-brake-rear-olive.1.4
-EmptyImage[SE][2]=./carriages/lswr-48ft-arc-sub-brake-rear-olive.1.5
-EmptyImage[S][2]=./carriages/lswr-48ft-arc-sub-brake-rear-olive.1.6
-EmptyImage[SW][2]=./carriages/lswr-48ft-arc-sub-brake-rear-olive.1.7
-EmptyImage[W][2]=./carriages/lswr-48ft-arc-sub-brake-rear-olive.1.0
-EmptyImage[NW][2]=./carriages/lswr-48ft-arc-sub-brake-rear-olive.1.1
-EmptyImage[N][2]=./carriages/lswr-48ft-arc-sub-brake-rear-olive.1.2
-EmptyImage[NE][2]=./carriages/lswr-48ft-arc-sub-brake-rear-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-48ft-arc-sub-brake-third-rear-olive_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-48ft-arc-sub-brake-third-rear-olive_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-48ft-arc-sub-brake-third-rear-olive_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-48ft-arc-sub-brake-third-rear-olive_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-48ft-arc-sub-brake-third-rear-olive_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-48ft-arc-sub-brake-third-rear-olive_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-48ft-arc-sub-brake-third-rear-olive_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-48ft-arc-sub-brake-third-rear-olive_NE.0.0
 
-EmptyImage[E][3]=./carriages/lswr-48ft-arc-sub-brake-rear-malachite.1.4
-EmptyImage[SE][3]=./carriages/lswr-48ft-arc-sub-brake-rear-malachite.1.5
-EmptyImage[S][3]=./carriages/lswr-48ft-arc-sub-brake-rear-malachite.1.6
-EmptyImage[SW][3]=./carriages/lswr-48ft-arc-sub-brake-rear-malachite.1.7
-EmptyImage[W][3]=./carriages/lswr-48ft-arc-sub-brake-rear-malachite.1.0
-EmptyImage[NW][3]=./carriages/lswr-48ft-arc-sub-brake-rear-malachite.1.1
-EmptyImage[N][3]=./carriages/lswr-48ft-arc-sub-brake-rear-malachite.1.2
-EmptyImage[NE][3]=./carriages/lswr-48ft-arc-sub-brake-rear-malachite.1.3
+EmptyImage[E][3]=./carriages/lswr-48ft-arc-sub-brake-third-rear-malachite_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-48ft-arc-sub-brake-third-rear-malachite_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-48ft-arc-sub-brake-third-rear-malachite_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-48ft-arc-sub-brake-third-rear-malachite_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-48ft-arc-sub-brake-third-rear-malachite_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-48ft-arc-sub-brake-third-rear-malachite_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-48ft-arc-sub-brake-third-rear-malachite_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-48ft-arc-sub-brake-third-rear-malachite_NE.0.0
 
 ---
-
+# All third
+# # Introduced 1884: see http://s548745873.websitehome.co.uk/msrsourcev2/tpagesrs/tlswrcoachst.html
+# Dia. 772
 obj=vehicle
 name=lswr-48ft-arc-sub
 speed=160
 copyright=JamesPetts
-intro_year=1885
-intro_month=7
+intro_year=1884
+intro_month=9
 retire_year=1896
 retire_month=10
 waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=80
+payload[1]=0
+payload[1]=0
 overcrowded_capacity=40
-length=9
+length=8
 
 # Estimated
-weight=22.9
+weight=20.0
 axles=4
 cost=709000
 runningcost=0
@@ -253,8 +291,11 @@ can_lead_from_rear=0
 bidirectional=1
 min_loading_time=10
 max_loading_time=30
+
 comfort[0]=0
-comfort[1]=73
+comfort[1]=77
+comfort[2]=78
+comfort[3]=84
 
 upgrade[0]=lswr-48ft-arc-augmentation-trailer-front
 upgrade[1]=lswr-48ft-arc-augmentation-trailer-rear
@@ -297,6 +338,17 @@ Constraint[Next][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Next][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Next][36]=lswr-6-wheel-30ft-fruit-van
 Constraint[Next][37]=lswr-6-wheel-28ft-composite
+Constraint[Next][38]=lswr-56ft-lav-composite-1st-3rd
+Constraint[Next][39]=lswr-56ft-sub-tricomposite
+Constraint[Next][40]=lswr-42ft-brake-third-rear
+Constraint[Next][41]=lswr-42ft-third
+Constraint[Next][42]=lswr-42ft-first
+Constraint[Next][43]=lswr-42ft-tricomposite
+Constraint[Next][44]=lswr-6-wheel-30ft-second
+Constraint[Next][45]=lswr-6-wheel-29ft-6-first
+Constraint[Next][46]=lswr-48ft-arc-lav-composite
+Constraint[Next][47]=lswr-48ft-lav-tricomposite
+Constraint[Next][48]=lswr-48ft-lav-composite
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -336,44 +388,55 @@ Constraint[Prev][34]=lswr-6-wheel-30ft-fruit-brake
 Constraint[Prev][35]=lswr-6-wheel-30ft-parcels-van
 Constraint[Prev][36]=lswr-6-wheel-30ft-fruit-van
 Constraint[Prev][37]=lswr-6-wheel-28ft-composite
+Constraint[Prev][38]=lswr-56ft-lav-composite-1st-3rd
+Constraint[Prev][39]=lswr-56ft-sub-tricomposite
+Constraint[Prev][40]=lswr-42ft-brake-third-front
+Constraint[Prev][41]=lswr-42ft-third
+Constraint[Prev][42]=lswr-42ft-first
+Constraint[Prev][43]=lswr-42ft-tricomposite
+Constraint[Prev][44]=lswr-6-wheel-30ft-second
+Constraint[Prev][45]=lswr-6-wheel-29ft-6-first
+Constraint[Prev][46]=lswr-48ft-arc-lav-composite
+Constraint[Prev][47]=lswr-48ft-lav-tricomposite
+Constraint[Prev][48]=lswr-48ft-lav-composite
 
 liverytype[0]=LSWR-pea-green
 liverytype[1]=LSWR-sage
 liverytype[2]=SR-Olive-Green
 liverytype[3]=SR-Malachite-Green
 
-EmptyImage[E][0]=./carriages/lswr-48ft-arc-sub.1.4
-EmptyImage[SE][0]=./carriages/lswr-48ft-arc-sub.1.5
-EmptyImage[S][0]=./carriages/lswr-48ft-arc-sub.1.6
-EmptyImage[SW][0]=./carriages/lswr-48ft-arc-sub.1.7
-EmptyImage[W][0]=./carriages/lswr-48ft-arc-sub.1.0
-EmptyImage[NW][0]=./carriages/lswr-48ft-arc-sub.1.1
-EmptyImage[N][0]=./carriages/lswr-48ft-arc-sub.1.2
-EmptyImage[NE][0]=./carriages/lswr-48ft-arc-sub.1.3
+EmptyImage[E][0]=./carriages/lswr-48ft-arc-sub-third_E.0.0
+EmptyImage[SE][0]=./carriages/lswr-48ft-arc-sub-third_SE.0.0
+EmptyImage[S][0]=./carriages/lswr-48ft-arc-sub-third_S.0.0
+EmptyImage[SW][0]=./carriages/lswr-48ft-arc-sub-third_SW.0.0
+EmptyImage[W][0]=./carriages/lswr-48ft-arc-sub-third_W.0.0
+EmptyImage[NW][0]=./carriages/lswr-48ft-arc-sub-third_NW.0.0
+EmptyImage[N][0]=./carriages/lswr-48ft-arc-sub-third_N.0.0
+EmptyImage[NE][0]=./carriages/lswr-48ft-arc-sub-third_NE.0.0
 
-EmptyImage[E][1]=./carriages/lswr-48ft-arc-sub-sage.1.4
-EmptyImage[SE][1]=./carriages/lswr-48ft-arc-sub-sage.1.5
-EmptyImage[S][1]=./carriages/lswr-48ft-arc-sub-sage.1.6
-EmptyImage[SW][1]=./carriages/lswr-48ft-arc-sub-sage.1.7
-EmptyImage[W][1]=./carriages/lswr-48ft-arc-sub-sage.1.0
-EmptyImage[NW][1]=./carriages/lswr-48ft-arc-sub-sage.1.1
-EmptyImage[N][1]=./carriages/lswr-48ft-arc-sub-sage.1.2
-EmptyImage[NE][1]=./carriages/lswr-48ft-arc-sub-sage.1.3
+EmptyImage[E][1]=./carriages/lswr-48ft-arc-sub-third-sage_E.0.0
+EmptyImage[SE][1]=./carriages/lswr-48ft-arc-sub-third-sage_SE.0.0
+EmptyImage[S][1]=./carriages/lswr-48ft-arc-sub-third-sage_S.0.0
+EmptyImage[SW][1]=./carriages/lswr-48ft-arc-sub-third-sage_SW.0.0
+EmptyImage[W][1]=./carriages/lswr-48ft-arc-sub-third-sage_W.0.0
+EmptyImage[NW][1]=./carriages/lswr-48ft-arc-sub-third-sage_NW.0.0
+EmptyImage[N][1]=./carriages/lswr-48ft-arc-sub-third-sage_N.0.0
+EmptyImage[NE][1]=./carriages/lswr-48ft-arc-sub-third-sage_NE.0.0
 
-EmptyImage[E][2]=./carriages/lswr-48ft-arc-sub-olive.1.4
-EmptyImage[SE][2]=./carriages/lswr-48ft-arc-sub-olive.1.5
-EmptyImage[S][2]=./carriages/lswr-48ft-arc-sub-olive.1.6
-EmptyImage[SW][2]=./carriages/lswr-48ft-arc-sub-olive.1.7
-EmptyImage[W][2]=./carriages/lswr-48ft-arc-sub-olive.1.0
-EmptyImage[NW][2]=./carriages/lswr-48ft-arc-sub-olive.1.1
-EmptyImage[N][2]=./carriages/lswr-48ft-arc-sub-olive.1.2
-EmptyImage[NE][2]=./carriages/lswr-48ft-arc-sub-olive.1.3
+EmptyImage[E][2]=./carriages/lswr-48ft-arc-sub-third-olive_E.0.0
+EmptyImage[SE][2]=./carriages/lswr-48ft-arc-sub-third-olive_SE.0.0
+EmptyImage[S][2]=./carriages/lswr-48ft-arc-sub-third-olive_S.0.0
+EmptyImage[SW][2]=./carriages/lswr-48ft-arc-sub-third-olive_SW.0.0
+EmptyImage[W][2]=./carriages/lswr-48ft-arc-sub-third-olive_W.0.0
+EmptyImage[NW][2]=./carriages/lswr-48ft-arc-sub-third-olive_NW.0.0
+EmptyImage[N][2]=./carriages/lswr-48ft-arc-sub-third-olive_N.0.0
+EmptyImage[NE][2]=./carriages/lswr-48ft-arc-sub-third-olive_NE.0.0
 
-EmptyImage[E][3]=./carriages/lswr-48ft-arc-sub-malachite.1.4
-EmptyImage[SE][3]=./carriages/lswr-48ft-arc-sub-malachite.1.5
-EmptyImage[S][3]=./carriages/lswr-48ft-arc-sub-malachite.1.6
-EmptyImage[SW][3]=./carriages/lswr-48ft-arc-sub-malachite.1.7
-EmptyImage[W][3]=./carriages/lswr-48ft-arc-sub-malachite.1.0
-EmptyImage[NW][3]=./carriages/lswr-48ft-arc-sub-malachite.1.1
-EmptyImage[N][3]=./carriages/lswr-48ft-arc-sub-malachite.1.2
-EmptyImage[NE][3]=./carriages/lswr-48ft-arc-sub-malachite.1.3
+EmptyImage[E][3]=./carriages/lswr-48ft-arc-sub-third-malachite_E.0.0
+EmptyImage[SE][3]=./carriages/lswr-48ft-arc-sub-third-malachite_SE.0.0
+EmptyImage[S][3]=./carriages/lswr-48ft-arc-sub-third-malachite_S.0.0
+EmptyImage[SW][3]=./carriages/lswr-48ft-arc-sub-third-malachite_SW.0.0
+EmptyImage[W][3]=./carriages/lswr-48ft-arc-sub-third-malachite_W.0.0
+EmptyImage[NW][3]=./carriages/lswr-48ft-arc-sub-third-malachite_NW.0.0
+EmptyImage[N][3]=./carriages/lswr-48ft-arc-sub-third-malachite_N.0.0
+EmptyImage[NE][3]=./carriages/lswr-48ft-arc-sub-third-malachite_NE.0.0

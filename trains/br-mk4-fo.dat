@@ -44,8 +44,6 @@ liverytype[2]=National-Express
 liverytype[3]=East-Coast
 liverytype[4]=VTEC
 
-# NOTE: These graphics have been increased slightly in size 
-# to match graphics produced with the old workflow.
 EmptyImage[E][0]=./carriages/br-mk4-fo-ic_E.0.0
 EmptyImage[SE][0]=./carriages/br-mk4-fo-ic_SE.0.0
 EmptyImage[S][0]=./carriages/br-mk4-fo-ic_S.0.0
@@ -55,32 +53,32 @@ EmptyImage[NW][0]=./carriages/br-mk4-fo-ic_NW.0.0
 EmptyImage[N][0]=./carriages/br-mk4-fo-ic_N.0.0
 EmptyImage[NE][0]=./carriages/br-mk4-fo-ic_NE.0.0
 
-EmptyImage[E][1]=./carriages/br-mk4-gner.0.0
-EmptyImage[SE][1]=./carriages/br-mk4-gner.0.1
-EmptyImage[S][1]=./carriages/br-mk4-gner.0.2
-EmptyImage[SW][1]=./carriages/br-mk4-gner.0.3
-EmptyImage[W][1]=./carriages/br-mk4-gner.0.4
-EmptyImage[NW][1]=./carriages/br-mk4-gner.0.5
-EmptyImage[N][1]=./carriages/br-mk4-gner.0.6
-EmptyImage[NE][1]=./carriages/br-mk4-gner.0.7
+EmptyImage[E][1]=./carriages/br-mk4-to-gner_E.0.0
+EmptyImage[SE][1]=./carriages/br-mk4-to-gner_SE.0.0
+EmptyImage[S][1]=./carriages/br-mk4-to-gner_S.0.0
+EmptyImage[SW][1]=./carriages/br-mk4-to-gner_SW.0.0
+EmptyImage[W][1]=./carriages/br-mk4-to-gner_W.0.0
+EmptyImage[NW][1]=./carriages/br-mk4-to-gner_NW.0.0
+EmptyImage[N][1]=./carriages/br-mk4-to-gner_N.0.0
+EmptyImage[NE][1]=./carriages/br-mk4-to-gner_NE.0.0
 
-EmptyImage[E][2]=./carriages/br-mk4-nxec.0.0
-EmptyImage[SE][2]=./carriages/br-mk4-nxec.0.1
-EmptyImage[S][2]=./carriages/br-mk4-nxec.0.2
-EmptyImage[SW][2]=./carriages/br-mk4-nxec.0.3
-EmptyImage[W][2]=./carriages/br-mk4-nxec.0.4
-EmptyImage[NW][2]=./carriages/br-mk4-nxec.0.5
-EmptyImage[N][2]=./carriages/br-mk4-nxec.0.6
-EmptyImage[NE][2]=./carriages/br-mk4-nxec.0.7
+EmptyImage[E][2]=./carriages/br-mk4-to-nxec_E.0.0
+EmptyImage[SE][2]=./carriages/br-mk4-to-nxec_SE.0.0
+EmptyImage[S][2]=./carriages/br-mk4-to-nxec_S.0.0
+EmptyImage[SW][2]=./carriages/br-mk4-to-nxec_SW.0.0
+EmptyImage[W][2]=./carriages/br-mk4-to-nxec_W.0.0
+EmptyImage[NW][2]=./carriages/br-mk4-to-nxec_NW.0.0
+EmptyImage[N][2]=./carriages/br-mk4-to-nxec_N.0.0
+EmptyImage[NE][2]=./carriages/br-mk4-to-nxec_NE.0.0
 
-EmptyImage[E][3]=./carriages/br-mk4-ec.0.0
-EmptyImage[SE][3]=./carriages/br-mk4-ec.0.1
-EmptyImage[S][3]=./carriages/br-mk4-ec.0.2
-EmptyImage[SW][3]=./carriages/br-mk4-ec.0.3
-EmptyImage[W][3]=./carriages/br-mk4-ec.0.4
-EmptyImage[NW][3]=./carriages/br-mk4-ec.0.5
-EmptyImage[N][3]=./carriages/br-mk4-ec.0.6
-EmptyImage[NE][3]=./carriages/br-mk4-ec.0.7
+EmptyImage[E][3]=./carriages/br-mk4-to-ec_E.0.0
+EmptyImage[SE][3]=./carriages/br-mk4-to-ec_SE.0.0
+EmptyImage[S][3]=./carriages/br-mk4-to-ec_S.0.0
+EmptyImage[SW][3]=./carriages/br-mk4-to-ec_SW.0.0
+EmptyImage[W][3]=./carriages/br-mk4-to-ec_W.0.0
+EmptyImage[NW][3]=./carriages/br-mk4-to-ec_NW.0.0
+EmptyImage[N][3]=./carriages/br-mk4-to-ec_N.0.0
+EmptyImage[NE][3]=./carriages/br-mk4-to-ec_NE.0.0
 
 EmptyImage[E][4]=./carriages/br-mk4-fo-vtec_E.0
 EmptyImage[SE][4]=./carriages/br-mk4-fo-vtec_SE.0

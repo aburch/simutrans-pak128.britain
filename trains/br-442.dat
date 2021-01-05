@@ -43,14 +43,28 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-442-Middle1
 
-EmptyImage[E]=./railcars/br-442.0.0
-EmptyImage[SE]=./railcars/br-442.0.1
-EmptyImage[S]=./railcars/br-442.0.2
-EmptyImage[SW]=./railcars/br-442.0.3
-EmptyImage[W]=./railcars/br-442.0.4
-EmptyImage[NW]=./railcars/br-442.0.5
-EmptyImage[N]=./railcars/br-442.0.6
-EmptyImage[NE]=./railcars/br-442.0.7
+liverytype[0]=NSE-Standard
+liverytype[1]=SWT-orange-stripe
+
+EmptyImage[E][0]=./railcars/br-442-front_E.0.0
+EmptyImage[SE][0]=./railcars/br-442-front_SE.0.0
+EmptyImage[S][0]=./railcars/br-442-front_S.0.0
+EmptyImage[SW][0]=./railcars/br-442-front_SW.0.0
+EmptyImage[W][0]=./railcars/br-442-front_W.0.0
+EmptyImage[NW][0]=./railcars/br-442-front_NW.0.0
+EmptyImage[N][0]=./railcars/br-442-front_N.0.0
+EmptyImage[NE][0]=./railcars/br-442-front_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-442-front-swt_E.0.0
+EmptyImage[SE][1]=./railcars/br-442-front-swt_SE.0.0
+EmptyImage[S][1]=./railcars/br-442-front-swt_S.0.0
+EmptyImage[SW][1]=./railcars/br-442-front-swt_SW.0.0
+EmptyImage[W][1]=./railcars/br-442-front-swt_W.0.0
+EmptyImage[NW][1]=./railcars/br-442-front-swt_NW.0.0
+EmptyImage[N][1]=./railcars/br-442-front-swt_N.0.0
+EmptyImage[NE][1]=./railcars/br-442-front-swt_NE.0.0
+
+
 
 --
 
@@ -95,14 +109,28 @@ comfort[3]=159
 Constraint[Prev][0]=BR-442-Front
 Constraint[Next][0]=BR-442-Middle2
 
-EmptyImage[E]=./railcars/br-442.1.0
-EmptyImage[SE]=./railcars/br-442.1.1
-EmptyImage[S]=./railcars/br-442.1.2
-EmptyImage[SW]=./railcars/br-442.1.3
-EmptyImage[W]=./railcars/br-442.1.4
-EmptyImage[NW]=./railcars/br-442.1.5
-EmptyImage[N]=./railcars/br-442.1.6
-EmptyImage[NE]=./railcars/br-442.1.7
+liverytype[0]=NSE-Standard
+liverytype[1]=SWT-orange-stripe
+
+EmptyImage[E][0]=./railcars/br-442-tso_E.0.0
+EmptyImage[SE][0]=./railcars/br-442-tso_SE.0.0
+EmptyImage[S][0]=./railcars/br-442-tso_S.0.0
+EmptyImage[SW][0]=./railcars/br-442-tso_SW.0.0
+EmptyImage[W][0]=./railcars/br-442-tso_W.0.0
+EmptyImage[NW][0]=./railcars/br-442-tso_NW.0.0
+EmptyImage[N][0]=./railcars/br-442-tso_N.0.0
+EmptyImage[NE][0]=./railcars/br-442-tso_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-442-tso-swt_E.0.0
+EmptyImage[SE][1]=./railcars/br-442-tso-swt_SE.0.0
+EmptyImage[S][1]=./railcars/br-442-tso-swt_S.0.0
+EmptyImage[SW][1]=./railcars/br-442-tso-swt_SW.0.0
+EmptyImage[W][1]=./railcars/br-442-tso-swt_W.0.0
+EmptyImage[NW][1]=./railcars/br-442-tso-swt_NW.0.0
+EmptyImage[N][1]=./railcars/br-442-tso-swt_N.0.0
+EmptyImage[NE][1]=./railcars/br-442-tso-swt_NE.0.0
+
+
 
 --
 
@@ -152,14 +180,27 @@ comfort[3]=159
 Constraint[Prev][0]=BR-442-Middle1
 Constraint[Next][0]=BR-442-Middle3
 
-EmptyImage[E]=./railcars/br-442.1.0
-EmptyImage[SE]=./railcars/br-442.1.1
-EmptyImage[S]=./railcars/br-442.1.2
-EmptyImage[SW]=./railcars/br-442.1.3
-EmptyImage[W]=./railcars/br-442.1.4
-EmptyImage[NW]=./railcars/br-442.1.5
-EmptyImage[N]=./railcars/br-442.1.6
-EmptyImage[NE]=./railcars/br-442.1.7
+liverytype[0]=NSE-Standard
+liverytype[1]=SWT-orange-stripe
+
+EmptyImage[E][0]=./railcars/br-442-mbls_E.0.0
+EmptyImage[SE][0]=./railcars/br-442-mbls_SE.0.0
+EmptyImage[S][0]=./railcars/br-442-mbls_S.0.0
+EmptyImage[SW][0]=./railcars/br-442-mbls_SW.0.0
+EmptyImage[W][0]=./railcars/br-442-mbls_W.0.0
+EmptyImage[NW][0]=./railcars/br-442-mbls_NW.0.0
+EmptyImage[N][0]=./railcars/br-442-mbls_N.0.0
+EmptyImage[NE][0]=./railcars/br-442-mbls_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-442-mbls-swt_E.0.0
+EmptyImage[SE][1]=./railcars/br-442-mbls-swt_SE.0.0
+EmptyImage[S][1]=./railcars/br-442-mbls-swt_S.0.0
+EmptyImage[SW][1]=./railcars/br-442-mbls-swt_SW.0.0
+EmptyImage[W][1]=./railcars/br-442-mbls-swt_W.0.0
+EmptyImage[NW][1]=./railcars/br-442-mbls-swt_NW.0.0
+EmptyImage[N][1]=./railcars/br-442-mbls-swt_N.0.0
+EmptyImage[NE][1]=./railcars/br-442-mbls-swt_NE.0.0
+
 
 --
 
@@ -204,14 +245,27 @@ comfort[3]=159
 Constraint[Prev][0]=BR-442-Middle2
 Constraint[Next][0]=BR-442-Rear
 
-EmptyImage[E]=./railcars/br-442.1.0
-EmptyImage[SE]=./railcars/br-442.1.1
-EmptyImage[S]=./railcars/br-442.1.2
-EmptyImage[SW]=./railcars/br-442.1.3
-EmptyImage[W]=./railcars/br-442.1.4
-EmptyImage[NW]=./railcars/br-442.1.5
-EmptyImage[N]=./railcars/br-442.1.6
-EmptyImage[NE]=./railcars/br-442.1.7
+liverytype[0]=NSE-Standard
+liverytype[1]=SWT-orange-stripe
+
+EmptyImage[E][0]=./railcars/br-442-tso_E.0.0
+EmptyImage[SE][0]=./railcars/br-442-tso_SE.0.0
+EmptyImage[S][0]=./railcars/br-442-tso_S.0.0
+EmptyImage[SW][0]=./railcars/br-442-tso_SW.0.0
+EmptyImage[W][0]=./railcars/br-442-tso_W.0.0
+EmptyImage[NW][0]=./railcars/br-442-tso_NW.0.0
+EmptyImage[N][0]=./railcars/br-442-tso_N.0.0
+EmptyImage[NE][0]=./railcars/br-442-tso_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-442-tso-swt_E.0.0
+EmptyImage[SE][1]=./railcars/br-442-tso-swt_SE.0.0
+EmptyImage[S][1]=./railcars/br-442-tso-swt_S.0.0
+EmptyImage[SW][1]=./railcars/br-442-tso-swt_SW.0.0
+EmptyImage[W][1]=./railcars/br-442-tso-swt_W.0.0
+EmptyImage[NW][1]=./railcars/br-442-tso-swt_NW.0.0
+EmptyImage[N][1]=./railcars/br-442-tso-swt_N.0.0
+EmptyImage[NE][1]=./railcars/br-442-tso-swt_NE.0.0
+
 
 --
 
@@ -258,11 +312,25 @@ Constraint[Prev][0]=BR-442-Middle3
 Constraint[Next][0]=BR-442-Front
 Constraint[Next][1]=none
 
-EmptyImage[E]=./railcars/br-442.2.0
-EmptyImage[SE]=./railcars/br-442.2.1
-EmptyImage[S]=./railcars/br-442.2.2
-EmptyImage[SW]=./railcars/br-442.2.3
-EmptyImage[W]=./railcars/br-442.2.4
-EmptyImage[NW]=./railcars/br-442.2.5
-EmptyImage[N]=./railcars/br-442.2.6
-EmptyImage[NE]=./railcars/br-442.2.7
+liverytype[0]=NSE-Standard
+liverytype[1]=SWT-orange-stripe
+
+EmptyImage[E][0]=./railcars/br-442-rear_E.0.0
+EmptyImage[SE][0]=./railcars/br-442-rear_SE.0.0
+EmptyImage[S][0]=./railcars/br-442-rear_S.0.0
+EmptyImage[SW][0]=./railcars/br-442-rear_SW.0.0
+EmptyImage[W][0]=./railcars/br-442-rear_W.0.0
+EmptyImage[NW][0]=./railcars/br-442-rear_NW.0.0
+EmptyImage[N][0]=./railcars/br-442-rear_N.0.0
+EmptyImage[NE][0]=./railcars/br-442-rear_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-442-rear-swt_E.0.0
+EmptyImage[SE][1]=./railcars/br-442-rear-swt_SE.0.0
+EmptyImage[S][1]=./railcars/br-442-rear-swt_S.0.0
+EmptyImage[SW][1]=./railcars/br-442-rear-swt_SW.0.0
+EmptyImage[W][1]=./railcars/br-442-rear-swt_W.0.0
+EmptyImage[NW][1]=./railcars/br-442-rear-swt_NW.0.0
+EmptyImage[N][1]=./railcars/br-442-rear-swt_N.0.0
+EmptyImage[NE][1]=./railcars/br-442-rear-swt_NE.0.0
+
+

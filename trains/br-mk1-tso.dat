@@ -56,6 +56,13 @@ Constraint[Next][20]=BR-Mk2a-FK
 Constraint[Next][21]=BR-Mk2a-BFK
 Constraint[Next][22]=BR-Mk2-FO
 Constraint[Next][23]=BR-Mk1-FK
+Constraint[Next][24]=BR-Mk2-PFP
+Constraint[Next][25]=BR-Mk2-PFK
+Constraint[Next][26]=BR-Mk2-PFB
+Constraint[Next][27]=BR-Mk1-PFK
+Constraint[Next][28]=BR-Mk1-PSP
+Constraint[Next][29]=BR-Mk1-PFP
+Constraint[Next][30]=pullman-1951-kitchen-first
 
 Constraint[Prev][0]=BR-Mk1-GUV
 Constraint[Prev][1]=BR-Mk1-SK
@@ -81,6 +88,13 @@ Constraint[Prev][20]=BR-Mk2a-FK
 Constraint[Prev][21]=BR-Mk2a-BFK
 Constraint[Prev][22]=BR-Mk2-FO
 Constraint[Prev][23]=BR-Mk1-FK
+Constraint[Prev][24]=BR-Mk2-PFP
+Constraint[Prev][25]=BR-Mk2-PFK
+Constraint[Prev][26]=BR-Mk2-PFB
+Constraint[Prev][27]=BR-Mk1-PFK
+Constraint[Prev][28]=BR-Mk1-PSP
+Constraint[Prev][29]=BR-Mk1-PFP
+Constraint[Prev][30]=pullman-1951-kitchen-first
 
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
