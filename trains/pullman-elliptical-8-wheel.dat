@@ -1,9 +1,10 @@
 obj=vehicle
-name=pullman-1908-parlour-first
+name=pullman-elliptical-8-wheel-parlour-first
 speed=160
 copyright=JamesPetts
-intro_year=1908
-intro_month=4
+# Estimated; see Hamilton Ellis foot p. 245
+intro_year=1906
+intro_month=9
 retire_year=1924
 retire_month=2
 waytype=track
@@ -12,17 +13,16 @@ payload[0]=0
 payload[1]=0
 payload[2]=0
 payload[3]=0
-payload[4]=33
+payload[4]=28
 overcrowded_capacity=0
-length=11
+length=10
 
-# Hamilton Ellis p. 246 gives 42 long tons for the buffet.
-# This was the heaviest, so other weights inferred.
-weight=39.2
+# Estimated
+weight=36.0
 axles=4
-cost=715000
+cost=665000
 runningcost=0
-fixed_cost=730
+fixed_cost=680
 
 can_lead_from_rear=0
 bidirectional=1
@@ -33,9 +33,9 @@ max_loading_time=200
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=139
-comfort[3]=139
-comfort[4]=153
+comfort[2]=136
+comfort[3]=136
+comfort[4]=150
 
 Constraint[Next][0]=pullman-1951-parlour-first
 Constraint[Next][1]=pullman-1951-parlour-third
@@ -88,28 +88,31 @@ Constraint[Prev][22]=pullman-elliptical-8-wheel-brake-front
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
 
-EmptyImage[E][0]=./carriages/pullman-1908-parlour-ivory_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1908-parlour-ivory_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1908-parlour-ivory_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1908-parlour-ivory_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1908-parlour-ivory_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1908-parlour-ivory_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1908-parlour-ivory_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1908-parlour-ivory_NE.0.0
+# These graphics are shortened versions of the 1908 Southern Belle carriages.
+# In reality, carriages on other lines would have been less tall, but the graphics
+# are intended to depict these as a shorter version of the 1908 types.
+EmptyImage[E][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_NE.0.0
 
-EmptyImage[E][1]=./carriages/pullman-1908-parlour_E.0.0
-EmptyImage[SE][1]=./carriages/pullman-1908-parlour_SE.0.0
-EmptyImage[S][1]=./carriages/pullman-1908-parlour_S.0.0
-EmptyImage[SW][1]=./carriages/pullman-1908-parlour_SW.0.0
-EmptyImage[W][1]=./carriages/pullman-1908-parlour_W.0.0
-EmptyImage[NW][1]=./carriages/pullman-1908-parlour_NW.0.0
-EmptyImage[N][1]=./carriages/pullman-1908-parlour_N.0.0
-EmptyImage[NE][1]=./carriages/pullman-1908-parlour_NE.0.0
+EmptyImage[E][1]=./carriages/pullman-elliptical-8-wheel-parlour_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-elliptical-8-wheel-parlour_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-elliptical-8-wheel-parlour_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-elliptical-8-wheel-parlour_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-elliptical-8-wheel-parlour_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-elliptical-8-wheel-parlour_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-elliptical-8-wheel-parlour_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-elliptical-8-wheel-parlour_NE.0.0
 
-----
+---
 
 obj=vehicle
-name=pullman-1908-parlour-third
+name=pullman-elliptical-8-wheel-parlour-third
 speed=160
 copyright=JamesPetts
 intro_year=1912
@@ -120,20 +123,18 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=0
-# Inferred
-payload[2]=44
+payload[2]=36
 payload[3]=0
 payload[4]=0
 overcrowded_capacity=0
-length=11
+length=10
 
-# Hamilton Ellis p. 246 gives 42 long tons for the buffet.
-# This was the heaviest, so other weights inferred.
-weight=39.2
+# Estimated
+weight=36.0
 axles=4
-cost=715000
+cost=662000
 runningcost=0
-fixed_cost=730
+fixed_cost=678
 
 can_lead_from_rear=0
 bidirectional=1
@@ -144,9 +145,9 @@ max_loading_time=200
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=139
-comfort[3]=139
-comfort[4]=153
+comfort[2]=136
+comfort[3]=136
+comfort[4]=150
 
 Constraint[Next][0]=pullman-1951-parlour-first
 Constraint[Next][1]=pullman-1951-parlour-third
@@ -199,33 +200,32 @@ Constraint[Prev][22]=pullman-elliptical-8-wheel-brake-front
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
 
-EmptyImage[E][0]=./carriages/pullman-1908-parlour-ivory_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1908-parlour-ivory_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1908-parlour-ivory_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1908-parlour-ivory_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1908-parlour-ivory_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1908-parlour-ivory_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1908-parlour-ivory_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1908-parlour-ivory_NE.0.0
+EmptyImage[E][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-elliptical-8-wheel-parlour-ivory_NE.0.0
 
-EmptyImage[E][1]=./carriages/pullman-1908-parlour_E.0.0
-EmptyImage[SE][1]=./carriages/pullman-1908-parlour_SE.0.0
-EmptyImage[S][1]=./carriages/pullman-1908-parlour_S.0.0
-EmptyImage[SW][1]=./carriages/pullman-1908-parlour_SW.0.0
-EmptyImage[W][1]=./carriages/pullman-1908-parlour_W.0.0
-EmptyImage[NW][1]=./carriages/pullman-1908-parlour_NW.0.0
-EmptyImage[N][1]=./carriages/pullman-1908-parlour_N.0.0
-EmptyImage[NE][1]=./carriages/pullman-1908-parlour_NE.0.0
+EmptyImage[E][1]=./carriages/pullman-elliptical-8-wheel-parlour_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-elliptical-8-wheel-parlour_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-elliptical-8-wheel-parlour_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-elliptical-8-wheel-parlour_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-elliptical-8-wheel-parlour_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-elliptical-8-wheel-parlour_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-elliptical-8-wheel-parlour_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-elliptical-8-wheel-parlour_NE.0.0
 
-----
-# Strictly a buffet but this terminology is reserved for level 3
-# catering vehicles in this pakset. 
+---
+
 obj=vehicle
-name=pullman-1908-kitchen
+name=pullman-elliptical-8-wheel-kitchen
 speed=160
 copyright=JamesPetts
-intro_year=1908
-intro_month=4
+intro_year=1906
+intro_month=9
 retire_year=1924
 retire_month=2
 waytype=track
@@ -234,16 +234,16 @@ payload[0]=0
 payload[1]=0
 payload[2]=0
 payload[3]=0
-payload[4]=25
+payload[4]=21
 overcrowded_capacity=0
-length=11
+length=10
 
-# Hamilton Ellis p. 246 gives 42 long tons for the buffet.
-weight=42.7
+# Estimated
+weight=39.9
 axles=4
-cost=725000
+cost=695000
 runningcost=0
-fixed_cost=1950
+fixed_cost=1800
 
 can_lead_from_rear=0
 bidirectional=1
@@ -254,46 +254,43 @@ max_loading_time=200
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=139
-comfort[3]=139
-comfort[4]=153
+comfort[2]=136
+comfort[3]=136
+comfort[4]=150
 
 catering_level=5
 
-# This is intended to be inserted into other trains.
 Constraint[Next][0]=any
-
-Constraint[Prev][0]=any
 
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
 
-EmptyImage[E][0]=./carriages/pullman-1908-kitchen-ivory_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1908-kitchen-ivory_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1908-kitchen-ivory_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1908-kitchen-ivory_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1908-kitchen-ivory_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1908-kitchen-ivory_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1908-kitchen-ivory_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1908-kitchen-ivory_NE.0.0
+EmptyImage[E][0]=./carriages/pullman-elliptical-8-wheel-kitchen-ivory_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-elliptical-8-wheel-kitchen-ivory_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-elliptical-8-wheel-kitchen-ivory_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-elliptical-8-wheel-kitchen-ivory_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-elliptical-8-wheel-kitchen-ivory_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-elliptical-8-wheel-kitchen-ivory_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-elliptical-8-wheel-kitchen-ivory_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-elliptical-8-wheel-kitchen-ivory_NE.0.0
 
-EmptyImage[E][1]=./carriages/pullman-1908-kitchen_E.0.0
-EmptyImage[SE][1]=./carriages/pullman-1908-kitchen_SE.0.0
-EmptyImage[S][1]=./carriages/pullman-1908-kitchen_S.0.0
-EmptyImage[SW][1]=./carriages/pullman-1908-kitchen_SW.0.0
-EmptyImage[W][1]=./carriages/pullman-1908-kitchen_W.0.0
-EmptyImage[NW][1]=./carriages/pullman-1908-kitchen_NW.0.0
-EmptyImage[N][1]=./carriages/pullman-1908-kitchen_N.0.0
-EmptyImage[NE][1]=./carriages/pullman-1908-kitchen_NE.0.0
+EmptyImage[E][1]=./carriages/pullman-elliptical-8-wheel-kitchen_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-elliptical-8-wheel-kitchen_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-elliptical-8-wheel-kitchen_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-elliptical-8-wheel-kitchen_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-elliptical-8-wheel-kitchen_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-elliptical-8-wheel-kitchen_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-elliptical-8-wheel-kitchen_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-elliptical-8-wheel-kitchen_NE.0.0
 
-----
+---
 
 obj=vehicle
-name=pullman-1908-brake-front
+name=pullman-elliptical-8-wheel-brake-front
 speed=160
 copyright=JamesPetts
-intro_year=1908
-intro_month=4
+intro_year=1906
+intro_month=9
 retire_year=1924
 retire_month=2
 waytype=track
@@ -302,17 +299,16 @@ payload[0]=0
 payload[1]=0
 payload[2]=0
 payload[3]=0
-payload[4]=31
+payload[4]=27
 overcrowded_capacity=0
-length=11
+length=10
 
-# Hamilton Ellis p. 246 gives 42 long tons for the buffet.
-# This was the heaviest, so other weights inferred.
-weight=39.0
+# Estimated
+weight=37.1
 axles=4
-cost=714000
+cost=655000
 runningcost=0
-fixed_cost=730
+fixed_cost=675
 
 can_lead_from_rear=0
 bidirectional=1
@@ -323,9 +319,9 @@ max_loading_time=200
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=139
-comfort[3]=139
-comfort[4]=153
+comfort[2]=136
+comfort[3]=136
+comfort[4]=150
 
 Constraint[Next][0]=pullman-1951-parlour-first
 Constraint[Next][1]=pullman-1951-parlour-third
@@ -355,32 +351,32 @@ Constraint[Next][23]=none
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
 
-EmptyImage[E][0]=./carriages/pullman-1908-brake-front-ivory_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1908-brake-front-ivory_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1908-brake-front-ivory_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1908-brake-front-ivory_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1908-brake-front-ivory_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1908-brake-front-ivory_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1908-brake-front-ivory_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1908-brake-front-ivory_NE.0.0
+EmptyImage[E][0]=./carriages/pullman-elliptical-8-wheel-brake-front-ivory_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-elliptical-8-wheel-brake-front-ivory_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-elliptical-8-wheel-brake-front-ivory_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-elliptical-8-wheel-brake-front-ivory_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-elliptical-8-wheel-brake-front-ivory_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-elliptical-8-wheel-brake-front-ivory_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-elliptical-8-wheel-brake-front-ivory_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-elliptical-8-wheel-brake-front-ivory_NE.0.0
 
-EmptyImage[E][1]=./carriages/pullman-1908-brake-front_E.0.0
-EmptyImage[SE][1]=./carriages/pullman-1908-brake-front_SE.0.0
-EmptyImage[S][1]=./carriages/pullman-1908-brake-front_S.0.0
-EmptyImage[SW][1]=./carriages/pullman-1908-brake-front_SW.0.0
-EmptyImage[W][1]=./carriages/pullman-1908-brake-front_W.0.0
-EmptyImage[NW][1]=./carriages/pullman-1908-brake-front_NW.0.0
-EmptyImage[N][1]=./carriages/pullman-1908-brake-front_N.0.0
-EmptyImage[NE][1]=./carriages/pullman-1908-brake-front_NE.0.0
+EmptyImage[E][1]=./carriages/pullman-elliptical-8-wheel-brake-front_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-elliptical-8-wheel-brake-front_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-elliptical-8-wheel-brake-front_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-elliptical-8-wheel-brake-front_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-elliptical-8-wheel-brake-front_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-elliptical-8-wheel-brake-front_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-elliptical-8-wheel-brake-front_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-elliptical-8-wheel-brake-front_NE.0.0
 
-----
+---
 
 obj=vehicle
-name=pullman-1908-brake-rear
+name=pullman-elliptical-8-wheel-brake-rear
 speed=160
 copyright=JamesPetts
-intro_year=1908
-intro_month=4
+intro_year=1906
+intro_month=9
 retire_year=1924
 retire_month=2
 waytype=track
@@ -389,17 +385,16 @@ payload[0]=0
 payload[1]=0
 payload[2]=0
 payload[3]=0
-payload[4]=31
+payload[4]=27
 overcrowded_capacity=0
-length=11
+length=10
 
-# Hamilton Ellis p. 246 gives 42 long tons for the buffet.
-# This was the heaviest, so other weights inferred.
-weight=39.0
+# Estimated
+weight=37.1
 axles=4
-cost=714000
+cost=655000
 runningcost=0
-fixed_cost=730
+fixed_cost=675
 
 can_lead_from_rear=0
 bidirectional=1
@@ -410,9 +405,9 @@ max_loading_time=200
 
 comfort[0]=0
 comfort[1]=0
-comfort[2]=139
-comfort[3]=139
-comfort[4]=153
+comfort[2]=136
+comfort[3]=136
+comfort[4]=150
 
 Constraint[Prev][0]=pullman-1928-parlour-first
 Constraint[Prev][1]=pullman-1928-parlour-third
@@ -441,20 +436,20 @@ Constraint[Prev][22]=pullman-elliptical-8-wheel-brake-front
 liverytype[0]=Pullman-Ivory-Umber
 liverytype[1]=Pullman-Cream-Umber
 
-EmptyImage[E][0]=./carriages/pullman-1908-brake-rear-ivory_E.0.0
-EmptyImage[SE][0]=./carriages/pullman-1908-brake-rear-ivory_SE.0.0
-EmptyImage[S][0]=./carriages/pullman-1908-brake-rear-ivory_S.0.0
-EmptyImage[SW][0]=./carriages/pullman-1908-brake-rear-ivory_SW.0.0
-EmptyImage[W][0]=./carriages/pullman-1908-brake-rear-ivory_W.0.0
-EmptyImage[NW][0]=./carriages/pullman-1908-brake-rear-ivory_NW.0.0
-EmptyImage[N][0]=./carriages/pullman-1908-brake-rear-ivory_N.0.0
-EmptyImage[NE][0]=./carriages/pullman-1908-brake-rear-ivory_NE.0.0
+EmptyImage[E][0]=./carriages/pullman-elliptical-8-wheel-brake-rear-ivory_E.0.0
+EmptyImage[SE][0]=./carriages/pullman-elliptical-8-wheel-brake-rear-ivory_SE.0.0
+EmptyImage[S][0]=./carriages/pullman-elliptical-8-wheel-brake-rear-ivory_S.0.0
+EmptyImage[SW][0]=./carriages/pullman-elliptical-8-wheel-brake-rear-ivory_SW.0.0
+EmptyImage[W][0]=./carriages/pullman-elliptical-8-wheel-brake-rear-ivory_W.0.0
+EmptyImage[NW][0]=./carriages/pullman-elliptical-8-wheel-brake-rear-ivory_NW.0.0
+EmptyImage[N][0]=./carriages/pullman-elliptical-8-wheel-brake-rear-ivory_N.0.0
+EmptyImage[NE][0]=./carriages/pullman-elliptical-8-wheel-brake-rear-ivory_NE.0.0
 
-EmptyImage[E][1]=./carriages/pullman-1908-brake-rear_E.0.0
-EmptyImage[SE][1]=./carriages/pullman-1908-brake-rear_SE.0.0
-EmptyImage[S][1]=./carriages/pullman-1908-brake-rear_S.0.0
-EmptyImage[SW][1]=./carriages/pullman-1908-brake-rear_SW.0.0
-EmptyImage[W][1]=./carriages/pullman-1908-brake-rear_W.0.0
-EmptyImage[NW][1]=./carriages/pullman-1908-brake-rear_NW.0.0
-EmptyImage[N][1]=./carriages/pullman-1908-brake-rear_N.0.0
-EmptyImage[NE][1]=./carriages/pullman-1908-brake-rear_NE.0.0
+EmptyImage[E][1]=./carriages/pullman-elliptical-8-wheel-brake-rear_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-elliptical-8-wheel-brake-rear_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-elliptical-8-wheel-brake-rear_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-elliptical-8-wheel-brake-rear_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-elliptical-8-wheel-brake-rear_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-elliptical-8-wheel-brake-rear_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-elliptical-8-wheel-brake-rear_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-elliptical-8-wheel-brake-rear_NE.0.0
