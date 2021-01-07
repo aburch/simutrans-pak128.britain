@@ -1370,6 +1370,7 @@ livery[4][1] = SR-Malachite-Green
 intro_year[4][1] = 1937
 intro_month[4][1] = 9
 
+# Midland Railway
 livery_scheme[5] = MR
 retire_year[5] = 1923
 retire_month[5] = 1
@@ -2787,12 +2788,12 @@ livery[108][0] = Avanti-WC
 intro_year[108][0] = 2019
 intro_month[108][0] = 12
 
-#https://en.wikipedia.org/wiki/Tyne_and_Wear_Metro_rolling_stock#Livery
+# https://en.wikipedia.org/wiki/Tyne_and_Wear_Metro_rolling_stock#Livery
 livery_scheme[109] = Tyne&Wear
 retire_year[109] = 2500
 retire_month[109] = 1
 livery[109][0] = t&wpte
-#year and month estimated. Livery used on buses before Metro opened in August 1980.
+# Year and month estimated. Livery used on buses before Metro opened in August 1980.
 intro_year[109][0] = 1978
 intro_month[109][0] = 8
 livery[109][1] = t&w-rbg
@@ -2800,7 +2801,7 @@ livery[109][1] = t&w-rbg
 intro_year[109][1] = 1995
 intro_month[109][1] = 2
 livery[109][2] = t&w-rbg-revised
-#month estimated. Doors painted full yellow to comply with disability standards.
+# Month estimated. Doors painted full yellow to comply with disability standards.
 intro_year[109][2] = 2005
 intro_month[109][2] = 2
 livery[109][2] = t&w-black&yellow
@@ -2824,7 +2825,7 @@ intro_month[110][2] = 1
 livery[110][3] = wagn-purple
 intro_year[110][3] = 2001
 intro_month[110][3] = 11
-#First Capital Connect is covered by scheme 10
+# First Capital Connect is covered by scheme 10
 livery[110][4] = GTR
 intro_year[110][4] = 2014
 intro_month[110][4] = 9

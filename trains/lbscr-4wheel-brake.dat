@@ -30,7 +30,6 @@ runningcost=0
 fixed_cost=5139
 
 upgrade[0]=LBSCR-4Wheel-Brake-front-fitted
-upgrade[0]=LBSCR-4Wheel-Brake-front-sub-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -111,7 +110,6 @@ runningcost=0
 fixed_cost=5139
 
 upgrade[0]=LBSCR-4Wheel-Brake-rear-fitted
-upgrade[1]=LBSCR-4Wheel-Brake-rear-sub-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -189,8 +187,6 @@ cost=340000
 upgrade_price=5000
 runningcost=0
 fixed_cost=5205
-
-upgrade[0]=LBSCR-4Wheel-Brake-front-sub-fitted
 
 comfort[0]=0
 comfort[1]=62
@@ -299,8 +295,6 @@ cost=340000
 upgrade_price=5000
 runningcost=0
 fixed_cost=5205
-
-upgrade[0]=LBSCR-4Wheel-Brake-rear-sub-fitted
 
 comfort[0]=0
 comfort[1]=62
