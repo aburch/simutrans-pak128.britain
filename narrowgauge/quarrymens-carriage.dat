@@ -97,7 +97,7 @@ fixed_cost=265
 
 comfort[0]=11
 
-upgrade[0]=quarrymens-carriage-enclosed
+#upgrade[0]=quarrymens-carriage-enclosed
 
 can_lead_from_rear=0
 bidirectional=1
@@ -159,7 +159,8 @@ fixed_cost=265
 
 comfort[0]=29
 
-upgrade[0]=quarrymens-carriage-enclosed
+#upgrade[0]=quarrymens-carriage-enclosed
+#Possible upgrade to FR-Goods-Brake ?
 
 can_lead_from_rear=0
 bidirectional=1

@@ -84,7 +84,7 @@ minimum_runway_length=2100
 sound=laxspotter97-airbus-a320.wav
 range=6650
 
-upgrade[0]=airbus-a319-high-density
+upgrade[0]=airbus-a319
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
