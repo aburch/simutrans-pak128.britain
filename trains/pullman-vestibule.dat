@@ -1,4 +1,4 @@
-# See Hamilton Ellis p. 103
+# See Hamilton Ellis p. 103 and foot p. 101
 # Based on "Prince", "Princess" and "Albert Victor" of the LBSCR
 obj=vehicle
 name=pullman-vestibule-parlour
@@ -41,9 +41,11 @@ comfort[4]=118
 # Intended to attach to any train.
 Constraint[Next][0]=any
 
-# LBSC Pullmans never appeared in green
+# Sources conflict as to whether these would
+# have appeared in green.
 liverytype[0]=Pullman-Mahogany
-liverytype[1]=Pullman-Ivory-Umber
+liverytype[1]=Pullman-Bronze-Green
+liverytype[2]=Pullman-Ivory-Umber
 
 EmptyImage[E][0]=./carriages/pullman-vestibule-parlour-mahogany_E.0.0
 EmptyImage[SE][0]=./carriages/pullman-vestibule-parlour-mahogany_SE.0.0
@@ -54,14 +56,23 @@ EmptyImage[NW][0]=./carriages/pullman-vestibule-parlour-mahogany_NW.0.0
 EmptyImage[N][0]=./carriages/pullman-vestibule-parlour-mahogany_N.0.0
 EmptyImage[NE][0]=./carriages/pullman-vestibule-parlour-mahogany_NE.0.0
 
-EmptyImage[E][1]=./carriages/pullman-vestibule-parlour-ivory_E.0.0
-EmptyImage[SE][1]=./carriages/pullman-vestibule-parlour-ivory_SE.0.0
-EmptyImage[S][1]=./carriages/pullman-vestibule-parlour-ivory_S.0.0
-EmptyImage[SW][1]=./carriages/pullman-vestibule-parlour-ivory_SW.0.0
-EmptyImage[W][1]=./carriages/pullman-vestibule-parlour-ivory_W.0.0
-EmptyImage[NW][1]=./carriages/pullman-vestibule-parlour-ivory_NW.0.0
-EmptyImage[N][1]=./carriages/pullman-vestibule-parlour-ivory_N.0.0
-EmptyImage[NE][1]=./carriages/pullman-vestibule-parlour-ivory_NE.0.0
+EmptyImage[E][1]=./carriages/pullman-vestibule-parlour-green_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-vestibule-parlour-green_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-vestibule-parlour-green_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-vestibule-parlour-green_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-vestibule-parlour-green_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-vestibule-parlour-green_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-vestibule-parlour-green_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-vestibule-parlour-green_NE.0.0
+
+EmptyImage[E][2]=./carriages/pullman-vestibule-parlour-ivory_E.0.0
+EmptyImage[SE][2]=./carriages/pullman-vestibule-parlour-ivory_SE.0.0
+EmptyImage[S][2]=./carriages/pullman-vestibule-parlour-ivory_S.0.0
+EmptyImage[SW][2]=./carriages/pullman-vestibule-parlour-ivory_SW.0.0
+EmptyImage[W][2]=./carriages/pullman-vestibule-parlour-ivory_W.0.0
+EmptyImage[NW][2]=./carriages/pullman-vestibule-parlour-ivory_NW.0.0
+EmptyImage[N][2]=./carriages/pullman-vestibule-parlour-ivory_N.0.0
+EmptyImage[NE][2]=./carriages/pullman-vestibule-parlour-ivory_NE.0.0
 
 ----
 obj=vehicle
@@ -107,9 +118,11 @@ catering_level=5
 # Intended to attach to any train.
 Constraint[Next][0]=any
 
-# LBSC Pullmans never appeared in green
+# Sources conflict as to whether these would
+# have appeared in green.
 liverytype[0]=Pullman-Mahogany
-liverytype[1]=Pullman-Ivory-Umber
+liverytype[1]=Pullman-Bronze-Green
+liverytype[2]=Pullman-Ivory-Umber
 
 EmptyImage[E][0]=./carriages/pullman-vestibule-kitchen-mahogany_E.0.0
 EmptyImage[SE][0]=./carriages/pullman-vestibule-kitchen-mahogany_SE.0.0
@@ -120,11 +133,21 @@ EmptyImage[NW][0]=./carriages/pullman-vestibule-kitchen-mahogany_NW.0.0
 EmptyImage[N][0]=./carriages/pullman-vestibule-kitchen-mahogany_N.0.0
 EmptyImage[NE][0]=./carriages/pullman-vestibule-kitchen-mahogany_NE.0.0
 
-EmptyImage[E][1]=./carriages/pullman-vestibule-kitchen-ivory_E.0.0
-EmptyImage[SE][1]=./carriages/pullman-vestibule-kitchen-ivory_SE.0.0
-EmptyImage[S][1]=./carriages/pullman-vestibule-kitchen-ivory_S.0.0
-EmptyImage[SW][1]=./carriages/pullman-vestibule-kitchen-ivory_SW.0.0
-EmptyImage[W][1]=./carriages/pullman-vestibule-kitchen-ivory_W.0.0
-EmptyImage[NW][1]=./carriages/pullman-vestibule-kitchen-ivory_NW.0.0
-EmptyImage[N][1]=./carriages/pullman-vestibule-kitchen-ivory_N.0.0
-EmptyImage[NE][1]=./carriages/pullman-vestibule-kitchen-ivory_NE.0.0
+EmptyImage[E][1]=./carriages/pullman-vestibule-kitchen-green_E.0.0
+EmptyImage[SE][1]=./carriages/pullman-vestibule-kitchen-green_SE.0.0
+EmptyImage[S][1]=./carriages/pullman-vestibule-kitchen-green_S.0.0
+EmptyImage[SW][1]=./carriages/pullman-vestibule-kitchen-green_SW.0.0
+EmptyImage[W][1]=./carriages/pullman-vestibule-kitchen-green_W.0.0
+EmptyImage[NW][1]=./carriages/pullman-vestibule-kitchen-green_NW.0.0
+EmptyImage[N][1]=./carriages/pullman-vestibule-kitchen-green_N.0.0
+EmptyImage[NE][1]=./carriages/pullman-vestibule-kitchen-green_NE.0.0
+
+
+EmptyImage[E][2]=./carriages/pullman-vestibule-kitchen-ivory_E.0.0
+EmptyImage[SE][2]=./carriages/pullman-vestibule-kitchen-ivory_SE.0.0
+EmptyImage[S][2]=./carriages/pullman-vestibule-kitchen-ivory_S.0.0
+EmptyImage[SW][2]=./carriages/pullman-vestibule-kitchen-ivory_SW.0.0
+EmptyImage[W][2]=./carriages/pullman-vestibule-kitchen-ivory_W.0.0
+EmptyImage[NW][2]=./carriages/pullman-vestibule-kitchen-ivory_NW.0.0
+EmptyImage[N][2]=./carriages/pullman-vestibule-kitchen-ivory_N.0.0
+EmptyImage[NE][2]=./carriages/pullman-vestibule-kitchen-ivory_NE.0.0
