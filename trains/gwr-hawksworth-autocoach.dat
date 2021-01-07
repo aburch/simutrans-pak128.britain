@@ -38,9 +38,6 @@ Constraint[Next][2]=gwr-6400
 Constraint[Next][3]=gwr-railmotor
 Constraint[Next][4]=gwr-2021-rebuilt
 
-# NOTE: When other pannier types are added, this will need to be changed.
-# Ony the 54xx and 64xx series were auto fitted in panniers.
-
 liverytype[0]=BR-Early
 liverytype[1]=BR-Revised
 
