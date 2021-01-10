@@ -6,107 +6,81 @@
 #                                                                              #
 #                Simutrans Scenario Specific Translation File                  #
 #                           Scenario: pak128.britain                           #
-#                             Language: fr Francais                            #
+#                             Language: es Espanol                             #
 #                             Encoding: ISO-8859-1                             #
 #                             Font: Prop-Latin1.bdf                            #
 #                           Date Created: 10.01 2021                           #
 #                                                                              #
 ################################################################################
-#____________________________________citycar____________________________________
-#____________________________________citycar____________________________________
-FordCortina(Black)
-Ford Cortina
-FordCortina(Blue)
-Ford Cortina
-FordCortina(Brown)
-Ford Cortina
-FordCortina(Olive)
-Ford Cortina
-FordCortina(Red)
-Ford Cortina
-FordCortina(White)
-Ford Cortina
-FordKa(Blue)
-Ford Ka
-FordKa(Green)
-Ford Ka
-FordKa(Purple)
-Ford Ka
-FordKa(Red)
-Ford Ka
-FordKa(Silver)
-Ford Ka
-FordKa(Turquoise)
-Ford Ka
-Volvo-240-Estate(Blue)
-Volvo 245
-Volvo-240-Estate(Silver)
-Volvo 245
 #_____________________________________good______________________________________
 #_____________________________________good______________________________________
-Autos
-Voitures
 beer
-Bière
-Bretter
-Planches
+cerveza
+bricks
+ladrillos
 Bucher
-Livres
+libros
 canned_food
-Conserves
+conservas
 Cement
-Ciment
+cemento
 Chemicals
-Produits chimiques
+químicos
+china
+porcelana
 cider
-cidre
-Eisenerz
-Minerai
+sidra
 fish
-Poisson
+pescado
 flour
-Farine
+harina
+FreshFish
+peces
+fruit
+frutas
 Gasoline
-Carburant
+gasolina
 grain
-Céréales
+granos
+hardware
+herramientas
 Kohle
-Charbon
+carbón
 meat
-Viande
+carne
 milk
-Lait
+leche
 Moebel
-Meuble
+muebles
+newspaper
+periódicos
 None
-Vide
-Oel
-Pétrole
+nada
+Papier
+papel
 Passagiere
-Passagers
+pasajeros
+pharmaceuticals
+fármacos
 Plastik
-Plastique
+plástico
 Post
-Message
+correo
 Stahl
-Acier
+acero
 Stone
-Pierre
+piedra
 textile
-Textiles
+textiles
 vegetables
-légumes
+vegetales
+woodchip
+virutas
 wool
-Laine
+lana
+WroughtIron
+hierro forjado
 #_________________________________program_text__________________________________
 #_________________________________program_text__________________________________
-CATEGORY_01
-biens à la pièce
-CATEGORY_02
-biens en vrac
-CATEGORY_03
-pétrole
-CATEGORY_04
-biens réfrigérés
-CATEGORY_05
-aliments liquides
+Airport
+Aeropuerto
