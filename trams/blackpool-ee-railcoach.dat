@@ -3,9 +3,11 @@ name=Blackpool-EE-Railcoach
 engine_type=electric
 speed=65
 gear=80
-# Guessed
-power=54
-tractive_effort=30
+# http://www.britishtramsonline.co.uk/blackpoolfleet.doc
+# 57 electric horse power is 42.5KW, unlike the source states.
+# http://blackpool-trams.yolasite.com/railcoaches.php
+power=85
+tractive_effort=40
 copyright=James
 intro_year=1934
 intro_month=3
@@ -21,7 +23,7 @@ overcrowded_capacity=6
 weight=11.4
 axles=4
 cost=410000
-runningcost=22
+runningcost=34
 fixed_cost=6342
 sound=tom-tait-tram.wav
 

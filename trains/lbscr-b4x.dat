@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=150
 # Extrapolated
-power=360
+power=310
 # http://en.wikipedia.org/wiki/LB%26SCR_B4_class
 tractive_effort=87
 copyright=James/jamespetts
@@ -16,13 +16,13 @@ retire_month=1
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 
 weight=58
 axle_load=20
 cost=5900000
 upgrade_price=1500000
-runningcost=206
+runningcost=186
 fixed_cost=44917
 sound=lwalker-br-4mt-tank.wav
 available_only_as_upgrade=1

@@ -1,29 +1,40 @@
 # https://www.flightglobal.com/FlightPDFArchive/1959/1959%20-%203114.PDF
+# The above is a dead link and not on web.archive.org as of January 2021.
+# This should be a Vanguard 951, not 952.
 obj=vehicle
 name=vickers-vanguard-952
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=675
-power=8270
+speed=644
+power=14869
 tractive_effort=32
 #gear=1
 freight=Passagiere
 # 18 first, 109 economy
-payload=127
+payload[0]=0
+payload[1]=0
+payload[2]=109
+payload[3]=0
+payload[4]=18
 weight=56
 #length=8
 # Approx. £1m in 1960
 cost=12000000
 # 710 gal/hour
-runningcost=50
+runningcost=47
 fixed_cost=58333
 intro_year=1960
 intro_month=12
 retire_year=1963
 retire_month=9
 
-comfort=126
+comfort[0]=0
+comfort[1]=0
+comfort[2]=126
+comfort[3]=126
+comfort[4]=155
+
 min_loading_time=2500
 max_loading_time=2750
 
@@ -54,14 +65,14 @@ EmptyImage[N]=./images/vickers-vanguard-952-bea_N.0.0
 EmptyImage[NE]=./images/vickers-vanguard-952-bea_NE.0.0
 
 ---
-
+# This should be a Vanguard 951, not 952.
 obj=vehicle
 name=vickers-vanguard-952-piece
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=675
-power=8270
+speed=644
+power=14869
 tractive_effort=32
 #gear=1
 freight=Bucher
@@ -72,7 +83,7 @@ weight=56
 cost=12000000
 upgrade_price=50000
 # 710 gal/hour
-runningcost=50
+runningcost=47
 fixed_cost=18333
 intro_year=1960
 intro_month=12
@@ -108,14 +119,14 @@ EmptyImage[N]=./images/vickers-vanguard-952-bea_N.0.0
 EmptyImage[NE]=./images/vickers-vanguard-952-bea_NE.0.0
 
 ---
-
+# This should be a Vanguard 951, not 952.
 obj=vehicle
 name=vickers-vanguard-952-cool
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=675
-power=8270
+speed=644
+power=14869
 tractive_effort=32
 #gear=1
 freight=fish
@@ -126,7 +137,7 @@ weight=56
 cost=12000000
 upgrade_price=50000
 # 710 gal/hour
-runningcost=50
+runningcost=47
 fixed_cost=18333
 intro_year=1960
 intro_month=12

@@ -89,6 +89,9 @@ DIRS256 += air/air256
 
 DIRS := $(OUTSIDE) $(DIRS32) $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224) $(DIRS256)
 
+#generating filenames
+#with this function the filenames are assembled, by removing the dir
+make_name = $(subst /,.,$1).pak
 
 .PHONY: $(DIRS) copy tar zip simutranslator
 
@@ -126,32 +129,32 @@ copy:
 $(DIRS32):
 	@echo "===> PAK32 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK32 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK32 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(DIRS64):
 	@echo "===> PAK64 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(DIRS128):
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(DIRS192):
 	@echo "===> PAK192 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK192 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK192 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(DIRS224):
 	@echo "===> PAK224 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(DIRS256):
 	@echo "===> PAK256 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK256 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK256 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"

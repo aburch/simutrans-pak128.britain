@@ -1,3 +1,7 @@
+# http://www.railway-centre.com/class-318.html
+# https://eversholtrail.co.uk/fleet/class-318/ says Maximum acceleration: 0.56 ms-2 (3-cars, 1072 kW)
+# https://eversholtrail.co.uk/fleet/class-321/ says Maximum acceleration: 0.55 ms-2 (4-cars, 1072 kW)
+# Class 318 has the same motors, but lower top speed, so possible TE is 108 kN (accel 0.8 ms-2)
 obj=vehicle
 name=BR-318-Driving-Front
 speed=145
@@ -9,7 +13,7 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=74
+payload[1]=64
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=52
@@ -19,7 +23,7 @@ power=0
 brake_force=21
 rolling_resistance=13
 
-weight=29
+weight=30.0
 axles=4
 cost=1975000
 runningcost=0
@@ -87,21 +91,22 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=68
+payload[1]=77
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=48
 length=10
 engine_type=electric
-power=764
-tractive_effort=73
+power=1072
+tractive_effort=107
+gear=80
 brake_force=38
 rolling_resistance=13
 
-weight=50
+weight=50.9
 axles=4
 cost=1975000
-runningcost=77
+runningcost=107
 fixed_cost=11029
 
 can_lead_from_rear=1
@@ -163,7 +168,7 @@ retire_month=11
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=70
+payload[1]=72
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=49
@@ -173,7 +178,7 @@ power=0
 brake_force=21
 rolling_resistance=13
 
-weight=29
+weight=26.6
 axles=4
 cost=1975000
 runningcost=0

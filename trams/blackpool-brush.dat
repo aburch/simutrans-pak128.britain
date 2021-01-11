@@ -4,8 +4,9 @@ engine_type=electric
 speed=65
 gear=80
 # http://en.wikipedia.org/wiki/Blackpool_tramway#Boat_cars
-power=60
-tractive_effort=33
+# http://blackpool-trams.yolasite.com/brush-trams.php
+power=85
+tractive_effort=40
 copyright=James
 intro_year=1937
 intro_month=6
@@ -19,7 +20,7 @@ overcrowded_capacity=6
 weight=12
 axles=4
 cost=446000
-runningcost=24
+runningcost=34
 fixed_cost=6372
 sound=tom-tait-tram.wav
 

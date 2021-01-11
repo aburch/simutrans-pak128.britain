@@ -9,7 +9,7 @@
 #                                                                              #
 #                                   authors:                                   #
 #                            James Hood (The Hood)                             #
-#							James Petts (jamespetts)						   #
+#			   James Petts (jamespetts)				  #
 #                                                                              #
 ################################################################################
 #____________________________________Stop Names_________________________________
@@ -234,15 +234,17 @@ Vickers VC-2 Viscount Type 757
 vickers-vc2-viscount-802
 Vickers Viscount 802 Series
 vickers-vanguard-952
-Vickers Vanguard 952
+Vickers Vanguard 951
 vickers-vanguard-952-piece
-Vickers Vanguard 952 "Cargoliner" (piece goods)
+Vickers Vanguard 951 "Cargoliner" (piece goods)
 vickers-vanguard-952-cool
-Vickers Vanguard 952 "Cargoliner" (perishable goods)
+Vickers Vanguard 951 "Cargoliner" (perishable goods)
+vickers-vanguard-953
+Vickers Vanguard 953
 vickers-vanguard-953-piece
-Vickers Vanguard 953 "Merchantman" (piece goods)
+Vickers Vanguard 953C "Merchantman" (piece goods)
 vickers-vanguard-953-cool
-Vickers Vanguard 953 "Merchantman" (perishable goods)
+Vickers Vanguard 953C "Merchantman" (perishable goods)
 vickers-vc10
 Vickers VC-10
 vickers-vc10-high-density
@@ -649,6 +651,8 @@ WoodTrestleRoad
 Wooden trestle bridge
 BrickViaductRoad
 Brick arch viadict
+BrickViaductEarlyRoad
+Brick arch viaduct
 stone_road_bridge_cobbles
 Masonry bridge (cobblestone)
 wooden_road_bridge_dirt
@@ -722,21 +726,27 @@ Tube tunnel (concrete)
 PowerTunnel
 High voltage transmission line tunnel
 Canal
-Barge Canal
+Barge canal
+canal-lined
+Barge canal (lined)
 CanalNarrow
-Narrowboat Canal
+Narrowboat canal
 CanalTub
-Tub boat Canal
+Tub boat canal
 CanalShip
-Ship Canal
+Ship canal (improved)
 CanalShip-early
-Ship Canal
+Ship canal
+canal-ship-lined
+Ship canal (lined)
 CanalLargeShip
-Large Ship Canal
+Large ship canal
 NarrowTunnelBrick
 Brick tunnel (narrow gauge)
 NarrowTunnelStone
 Stone tunnel (narrow gauge)
+LightRailTunnelConcrete
+Concrete light rail tunnel
 #__________________________________way-object___________________________________
 #__________________________________way-object___________________________________
 DCRailCatenary
@@ -749,12 +759,16 @@ DCFourthRail
 DC Fourth Rail Electrification
 TramElectrification
 DC Tramway Catenary
+750VDCRailCatenary
+Light rail catenary
 TrollyBusElectrification
 DC Trolleybus Catenary
 DCThirdRailACCCatenary
 AC Overhead Catenary with DC Third Rail Electrification
 DCThirdRailDCCCatenary
 DC Overhead Catenary with DC Third Rail Electrification
+DLRThirdRail
+Driverless Light Rail electrification
 #___________________________________townhall____________________________________
 #___________________________________townhall____________________________________
 00_CITY
@@ -788,9 +802,9 @@ Open crossing
 #_____________________________________depot______________________________________
 #_____________________________________depot______________________________________
 AirHangarOld
-Aircraft hangar
+Aircraft hangar (piston engined types)
 AirHangarModern
-Aircraft hangar
+Aircraft hangar (all types)
 ModernBoatyard
 Shipyard
 OldBoatyard
@@ -1203,6 +1217,72 @@ COM_A_1950_01_18
 Offices
 COM_A_1950_01_24
 Offices
+COM_EIR_1820_04_01
+Shops and Offices
+COM_EIR_1820_04_02
+Shops and Offices
+COM_EIR_1820_04_03
+Shops and Offices
+COM_EIR_1820_04_04
+Shops and Offices
+COM_EIR_1820_04_04
+Shops and Offices
+RES_TFH_1700_00_01
+Timber Frame House
+RES_TFH_1700_00_02
+Timber Frame House with shed
+RES_TFH_1700_00_03
+Timber Frame House
+RES_TFH_1700_00_04
+Timber Frame House
+RES_TFH_1700_00_05
+Timber Frame House
+RES_TFH_1700_00_06
+Timber Frame House
+RES_TFH_1700_00_07
+Timber Frame House
+RES_SDC_1840_00_01
+Terraced Cottages
+RES_SDC_1870_00_01
+Terraced Cottages
+RES_SDC_1870_00_02
+Terraced Cottages
+RES_SDC_1870_00_03
+Terraced Cottages
+RES_SDC_1870_00_04
+Terraced Cottages
+RES_SDC_1870_00_05
+Terraced Cottages
+RES_SDC_1890_00_01
+Terraced Cottages
+RES_SDC_1890_00_02
+Terraced Cottages
+RES_SDC_1890_00_03
+Terraced Cottages
+RES_SDC_1890_00_04
+Terraced Cottages
+RES_SDC_1910_00_01
+Terraced Cottages with extensions built
+RES_SDC_1910_00_02
+Terraced Cottages with extensions built
+RES_SDC_1915_00_01
+Terraced Cottages with extensions built
+RES_SDC_1915_00_02
+Terraced Cottages
+RES_SDC_1930_00_01
+Terraced Cottages
+RES_SDC_1950_00_01
+Terraced Cottages with extensions built
+RES_SDC_1950_00_02
+Terraced Cottages with extensions built
+RES_SDC_1960_00_01
+Terraced Cottages with extensions built
+RES_SDC_1970_00_01
+Terraced Cottages with extensions built
+RES_SDC_1975_00_01
+Terraced Cottages with extensions built
+RES_SDC_1975_00_02
+Terraced Cottages with extensions built
 #____________________________________attractions____________________________________
 #____________________________________attractions____________________________________
 1980s-Small-Church
@@ -1225,9 +1305,9 @@ Small_Rugby_Ground
 Rugby pitch
 Stonehenge
 Stonehenge
-Knight_Monument
+Knight-Monument
 Chivalric Monument
-War_Memorial
+War-Memorial
 War Memorial
 NelsonColumn2
 Nelson's Column
@@ -1299,6 +1379,8 @@ ModernHospital
 Hospital
 #____________________________________factory____________________________________
 #____________________________________factory____________________________________
+Apothecary
+Apothecary
 ArableFarm1750
 Vegetable farm
 ArableFarm1840
@@ -1309,6 +1391,8 @@ ArableFarm1945
 Vegetable farm
 ArableFarm1975
 Vegetable farm
+Blacksmith1750
+Blacksmith
 Bakery1750
 Bakery
 Bakery1840
@@ -1399,12 +1483,8 @@ Cannery-fruit1945
 Cannery (fruit)
 Cannery-fruit1975
 Food processing plant (fruit)
-Wainwright1750
-Wainwright
-Wainwright1790
-Wainwright
-Wainwright1840
-Wainwright
+Cooper
+Cooper
 CarDealership1910
 Car dealership
 CarDealership1925
@@ -1756,7 +1836,7 @@ Tavern
 Pub1840
 Public House
 Pub1910
-Pubblic House
+Public House
 Pub1945
 Pub
 Pub1975
@@ -1801,9 +1881,13 @@ SteelMill1950
 Steelworks
 SteelMill1990
 Steelworks
+TextileMill1750_city
+Spinner's cottage
 TextileMill1750
-Textile mill
+Textile mill (water powered)
 TextileMill1840
+Textile mill (steam powered)
+TextileMill1860
 Textile mill
 TextileMill1910
 Textile mill
@@ -1811,6 +1895,12 @@ TextileMill1945
 Textile mill
 TextileMill1975
 Textile mill
+Wainwright1750
+Wainwright
+Wainwright1790
+Wainwright
+Wainwright1840
+Wainwright
 FishPort1750
 Fishing port
 FishPort1840
@@ -2440,16 +2530,10 @@ Large river (Navigable)
 #______________________________________NarrowGaugeVehicle______________________________________
 narrowgauge-horse-clydesdale-single
 Clydesdale horse
-narrowgauge-horse-clydesdale-double
-Clydesdale horses (pair)
 narrowgauge-horse-shire-single
 Shire horse
-narrowgauge-horse-shire-double
-Shire horses (pair)
 narrowgauge-horse-irish-draught-single
 Irish draught horse
-narrowgauge-horse-irish-draught-double
-Irish draught horses (pair)
 wagon-ng-bulk
 2t bulk wagon
 wagon-ng-tanker
@@ -2471,7 +2555,7 @@ Bogie bulk wagon
 wagon-ng-piece-sar
 Goods van
 wagon-ng-food-sar
-Perhisable goods van
+Perishable goods van
 wagon-ng-long-sar
 Long wagon
 wagon-ng-bulk-sar
@@ -2504,7 +2588,7 @@ FR-Small-Birmingham-second-fitted
 FR "Small Birmingham" knifeboard carriage (second class) (continuously braked)
 FR-Small-Birmingham-first-unfitted
 FR "Small Birmingham" knifeboard carriage (first class)
-FR-Small-Birmingham-second-fitted
+FR-Small-Birmingham-first-fitted
 FR "Small Birmingham" knifeboard carriage (first class) (continuously braked)
 FR-Ashbury-unfitted
 FR two compartment carriage (third class)
@@ -2644,10 +2728,6 @@ LMS-3F-Jinty
 LMS Class 3F "Jinty" 0-6-0T
 LMS-3F-Jinty-Push-Pull
 LMS Class 3F "Jinty" 0-6-0T (push-pull)
-GWR-PannierTank
-GWR 5700 Class pannier tank 0-6-0T
-gwr-9400
-GWR 9400 Class pannier tank 0-6-0T
 MR-Kirtley156
 Midland 156 Class 2-4-0
 MR-Kirtley156Tender
@@ -2674,12 +2754,6 @@ LMS-Stanier-8F
 LMS Class 8F 2-8-0
 LMS-Stanier-8F-Tender
 LMS Class 8F (tender)
-GWR-Churchward-Star
-GWR 4000 "Star" Class 4-6-0
-GWR-Churchward-Star-superheated
-GWR 4000 "Star" Class 4-6-0 (superheated)
-GWR-Churchward-Star-Tender
-GWR 4000 "Star" Class (tender)
 GNR-C1
 GNR Class C1 4-4-2
 GNR-C1-Tender
@@ -2745,7 +2819,9 @@ SR Merchant Navy Class 4-6-2
 SR-MerchantNavyRebuilt_4-6-2
 SR Rebuilt Merchant Navy Class 4-6-2
 SR-MerchantNavy_4-6-2Tender
-SR Merchant Navy/West Country Class (tender)
+SR Merchant Navy Class (tender)
+R-WestCountry_4-6-2-tender
+SR West Country Class (tender)
 SR-WestCountry_4-6-2
 SR West Country Class 4-6-2
 SR-WestCountryRebuilt_4-6-2
@@ -3067,9 +3143,9 @@ Four wheel three compartment suburban brake carriage (third class)
 4-wheel-sub-1870s-brake-rear-unfitted
 Four wheel three compartment suburban brake carriage (third class)
 4-wheel-sub-1870s-fitted
-Four wheel five compartment carriage (continuously braked) (third class)
+Four wheel five compartment suburban carriage (continuously braked) (third class)
 4-wheel-sub-1870s-fitted-composite
-Four wheel four compartment composite carriage (continuously braked) (first/second class)
+Four wheel four compartment suburban composite carriage (continuously braked) (first/second class)
 4-wheel-1870s-luggage-third-fitted
 Four wheel four compartment luggage carriage (continuously braked) (third class)
 4-wheel-1870s-tricomposite-fitted
@@ -3124,12 +3200,12 @@ LBSCR-20ft-composite
 LBSCR Four wheel three compartment composite carriage (first/second class)
 LBSCR-4Wheel-First
 LBSCR four wheel four compartment carriage (first class)
+LBSCR-4Wheel-composite
+LBSCR four wheel four compartment composite carriage (first/second class)
 LBSCR-4Wheel-Second
 LBSCR four wheel five compartment carriage (second class)
-LBSCR-4Wheel-third
+LBSCR-4Wheel-Third
 LBSCR four wheel five compartment carriage (third class)
-LBSCR-4Wheel-composite
-LBSCR four wheel five compartment carriage (first/second class)
 LBSCR-4Wheel-Brake-rear
 LBSCR four wheel three compartment brake carriage (third class) (rear)
 LBSCR-4Wheel-Brake-front
@@ -3142,42 +3218,18 @@ LBSCR-4Wheel-First-fitted
 LBSCR four wheel four compartment carriage (first class) (continuously braked)
 LBSCR-4Wheel-Second-fitted
 LBSCR four wheel five compartment carriage (second class) (continuously braked)
+LBSCR-4Wheel-composite-fitted
+LBSCR four wheel four compartment composite carriage (first/second class) (continuously braked)
 LBSCR-4Wheel-third-fitted
 LBSCR four wheel five compartment carriage (third class) (continuously braked)
-LBSCR-4Wheel-composite-fitted
-LBSCR four wheel five compartment carriage (first/second class) (continuously braked)
 LBSCR-4Wheel-Brake-rear-fitted
 LBSCR four wheel three compartment brake carriage (third class) (rear) (continuously braked)
 LBSCR-4Wheel-Brake-front-fitted
 LBSCR four wheel three compartment brake carriage (third class) (continuously braked)
 LBSCR-4Wheel-full-brake-fitted
-LBSCR four wheel mail/brake carriage (third class) (continuously braked) (rear)
+LBSCR four wheel mail/brake carriage (continuously braked) (rear)
 LBSCR-4Wheel-full-brake-fitted-front
-LBSCR four wheel mail/brake carriage (third class) (continuously braked)
-LBSCR-4Wheel-Brake-front-sub
-LBSCR four wheel suburban five compartment brake carriage (third class)
-LBSCR-4Wheel-Brake-rear-sub
-LBSCR four wheel suburban five compartment brake carriage (third class)
-LBSCR-4Wheel-Brake-front-sub-fitted
-LBSCR four wheel suburban five compartment brake carriage (third class) (continuously braked)
-LBSCR-4Wheel-Brake-rear-sub-fitted
-LBSCR four wheel suburban five compartment brake carriage (third class) (continuously braked) (rear)
-LBSCR-4Wheel-composite-sub
-LBSCR four wheel suburban five compartment carriage (first/second class)
-LBSCR-4Wheel-composite-sub-fitted
-LBSCR four wheel suburban five compartment carriage (first/second class) (continuously braked)
-LBSCR-4Wheel-First-sub
-LBSCR four wheel suburban four compartment carriage (first class)
-LBSCR-4Wheel-First-sub-fitted
-LBSCR four wheel suburban four compartment carriage (first class) (continuously braked)
-LBSCR-4Wheel-Second-sub
-LBSCR four wheel suburban five compartment carriage (second class)
-LBSCR-4Wheel-Second-sub-fitted
-LBSCR four wheel suburban five compartment carriage (second class) (continuously braked)
-LBSCR-4Wheel-third-sub
-LBSCR four wheel suburban five compartment carriage (third class)
-LBSCR-4Wheel-third-sub-fitted
-LBSCR four wheel suburban five compartment carriage (third class) (continuously braked)
+LBSCR four wheel mail/brake carriage (continuously braked)
 LBSCR-6Wheel-5-com
 LBSCR six wheel five compartment carriage (third class)
 LBSCR-6Wheel-5-com-second
@@ -3609,19 +3661,19 @@ Midland six compartment suburban brake carriage (third class) (rear)
 MR-65ft-eliptical-dining-d1196
 Midland dining carriage (first class)
 BR-251FrontFirst
-BR Class 251 "Blue Pullman" (first class driving motor)
+BR Class 251 "Blue Pullman" (first class driving motor car)
 BR-251FrontSecond
-BR Class 251 "Blue Pullman" (second class driving motor)
+BR Class 251 "Blue Pullman" (second class driving motor car)
 BR-251SecondParlour
-BR Class 251 "Blue Pullman" (second class parlour)
+BR Class 251 "Blue Pullman" (second class parlor car)
 BR-251Kitchen
 BR Class 251 "Blue Pullman" (kitchen car)
 BR-251FirstParlour
-BR Class 251 "Blue Pullman" (first class parlour)
+BR Class 251 "Blue Pullman" (first class parlor car)
 BR-251RearFirst
-BR Class 251 "Blue Pullman" (first class rear motor)
+BR Class 251 "Blue Pullman" (first class rear motor car)
 BR-251RearSecond
-BR Class 251 "Blue Pullman" (second class rear motor)
+BR Class 251 "Blue Pullman" (second class rear motor car)
 BR-220Front
 BR Class 220 "Voyager"
 BR-221Front
@@ -3643,9 +3695,13 @@ BR Class 309/2 (4-car) EMU
 BR-309Rear
 BR Class 309 EMU (rear)
 GWR-Swindon-TwinsetFront
-GWR Swindon Twinset
+GWR Swindon twinset
 GWR-Swindon-TwinsetRear
-GWR Swindon Twinset (rear)
+GWR Swindon twinset (rear)
+gwr-swindon-railcar
+GWR Swindon railcar
+gwr-swindon-railcar-parcels
+GWR Swindon railcar (parcels)
 BR-104Rear
 BR Class 104 DMU (rear)
 BR-104Middle
@@ -3653,51 +3709,61 @@ BR Class 104 DMU (centre)
 BR-104Front
 BR Class 104 DMU
 SR-404[COR]Front
-SR 4-COR EMU
-SR-404[COR]Middle(Green)
-SR 4-COR EMU (centre)
+SR 4-COR EMU driving motor (third class)
 SR-404[COR]Middle1
-SR 4-COR EMU (centre)
+SR 4-COR EMU trailer (third class)
 SR-404[COR]Middle-Buf
-SR 4-COR EMU (buffet car)
+SR 4-COR EMU buffet car (third class)
 SR-404[COR]Middle-Res
-SR 4-COR EMU (restaurant car)
+SR 4-COR EMU restaurant car (third class)
 SR-404[COR]Middle2
-SR 4-COR EMU (centre)
+SR 4-COR EMU trailer composite (first/third class)
 SR-404[COR]Rear
-SR 4-Cor EMU (rear)
+SR 4-Cor EMU driving motor (third class) (rear)
 SR-401[BIL]Front
-SR 2-BIL EMU
+SR 2-BIL EMU driving motor lavatory (third class)
 SR-401[BIL]Rear
-SR 2-BIL EMU (rear)
+SR 2-BIL EMU driving motor lavatory composite (first/third class)
 SR-4LAV(front)
-SR 4-LAV EMU
+SR 4-LAV EMU driving motor (third class)
 SR-4LAV(rear)
-SR 4-LAV EMU (rear)
+SR 4-LAV EMU driving motor (third class) (rear)
 SR-4LAV(centre1)
-SR 4-LAV EMU (centre)
+SR 4-LAV EMU trailer composite (first/third class)
 SR-4LAV(centre2)
-SR 4-LAV EMU (centre, with lavatory)
+SR 4-LAV EMU lavatory trailer composite (first/third class)
 sr-2hal-front
-SR 2-HAL EMU
+SR 2-HAL EMU driving motor (third class)
 sr-2hal-rear
-SR 2-HAL EMU (rear)
+SR 2-HAL EMU driving motor lavatory composite (first/third class) (rear)
 SR-2-NOL-front
-SR 2-NOL EMU
+SR 2-NOL EMU driving motor composite (first/third class)
 SR-2-NOL-rear
-SR 2-NOL EMU (rear)
+SR 2-NOL EMU driving motor composite (first/third class) (rear)
 SR-6PAN(front)
-SR 6-PAN EMU
+SR 6-PUL/PAN EMU driving motor (third class)
 SR-6PAN(trailer1)
-SR 6-PAN EMU (centre)
+SR 6-PUL/PAN EMU trailer (third class)
 SR-6PAN(trailer2)
-SR 6-PAN EMU (centre)
+SR 6-PUL/PAN EMU trailer (first class)
 SR-6PAN(buffet)
-SR 6-PAN EMU (pantry car)
+SR 6-PAN EMU pantry car (third class)
+pullman-kitchen-composite
+SR 6-PUL EMU Pullman kitchen composite (first/third class)
 SR-6PAN(trailer4)
-SR 6-PAN EMU (centre)
+SR 6-PUL/PAN EMU trailer (third class)
 SR-6PAN(rear)
-SR 6-PAN EMU (rear)
+SR 6-PUL/PAN EMU driving motor (third class) (rear)
+SR-5-BEL-driving-motor-front
+SR 5-BEL EMU driving motor Pullman parlor car (third class)
+SR-5-BEL-parlour-third
+SR 5-BEL EMU trailer Pullman parlor car (third class)
+SR-5-bel-kitchen-first-1
+SR 5-BEL EMU trailer Pullman kitchen car (first class)
+SR-5-bel-kitchen-first-2
+SR 5-BEL EMU trailer Pullman kitchen car (first class)
+SR-5-BEL-driving-motor-rear
+SR 5-BEL EMU driving motor Pullman parlor car (third class) (rear)
 BR-170Front
 BR Class 170 "Turbostar" DMU
 BR-170Middle
@@ -3742,34 +3808,94 @@ BR-221Middle
 BR Class 221 "Super Voyager" (centre)
 BR-221Middle-shop
 BR Class 221 "Super Voyager" (centre with shop)
+BR-222Front
+BR Class 222 "Meridian/Pioneer"
+BR-222MidStandard
+BR Class 222 "Meridian/Pioneer" (standard-class saloon)
+BR-222MidBuffet
+BR Class 222 "Meridian/Pioneer" (standard-class buffet)
+BR-222MidFirst
+BR Class 222 "Meridian/Pioneer" (first-class saloon)
+BR-222MidComposite
+BR Class 222 "Meridian/Pioneer" (composite saloon)
+BR-222Rear
+BR Class 222 "Meridian/Pioneer" (rear, first-class, with galley)
 BR-800Front
-BR Class 800 "Super Express"
+BR Class 800/802 "AT300"
 BR-800MiddlePower
-BR Class 800 "Super Express" (centre motor)
+BR Class 800/802 (standard class centre motor)
+BR-800MiddleFirst
+BR Class 800/802 (first class centre motor)
 BR-800MiddleTrailer
-BR Class 800 "Super Express" (centre trailer)
+BR Class 800/802 (standard class centre trailer)
 BR-800MiddleComposite
-BR Class 800 "Super Express" (centre trailer composite)
+BR Class 800/802 (composite motor, 30 first-class seats)
+BR-800FrontMS
+BR Class 800/802 (standard class centre motor)
+BR-800RearMS
+BR Class 800/802 (standard class non-driving rear motor)
 BR-800Rear
-BR Class 800 "Super Express" (rear)
+BR Class 800/802 (rear, first class, full kitchen)
+BR-800Rear-compact
+BR Class 800/802 (rear, first class, compact kitchen)
+BR-800Rear-trolley
+BR Class 800/802 (rear, standard class, trolley service)
+BR-800Composite18+58
+BR Class 800/802 (composite motor, 18 first-class seats)
 BR-801Front
-BR Class 801 "Super Express"
+BR Class 801 "Azuma"
 BR-801MiddlePower
-BR Class 801 "Super Express" (centre motor)
+BR Class 801 (standard class centre motor)
+BR-801MiddleFirst
+BR Class 801 (first class centre motor)
 BR-801MiddleTrailer
-BR Class 801 "Super Express" (centre trailer)
+BR Class 801 (standard class centre trailer)
 BR-801MiddleComposite
-BR Class 801 "Super Express" (centre trailer composite)
+BR Class 801 (composite motor, 30 first-class seats)
+BR-801FrontMS
+BR Class 801 (standard class centre motor)
+BR-801RearMS
+BR Class 801 (standard class non-driving rear motor)
 BR-801Rear
-BR Class 801 "Super Express" (rear)
+BR Class 801 (rear, first class, full kitchen)
+BR-801Rear-compact
+BR Class 801 (rear, first class, compact kitchen)
+BR-801Rear-trolley
+BR Class 801 (rear, standard class, trolley service)
+BR-801Composite18+58
+BR Class 801 (composite motor, 18 first-class seats)
+br-141-0-front
+BR Class 141/0 "Pacer" DMU
+br-141-0-rear
+BR Class 141/0 "Pacer" DMU (rear)
+br-141-1-front
+BR Class 141/1 "Pacer" DMU
+br-141-1-rear
+BR Class 141/1 "Pacer" DMU (rear)
 br-142-front
-BR Class 142 "Pacer" DMU
+BR Class 142/0 "Pacer" DMU
 br-142-rear
-BR Class 142 "Pacer" DMU (rear)
+BR Class 142/0 "Pacer" DMU (rear)
+br-142-1-front
+BR Class 142/1 "Pacer" DMU
+br-142-1-rear
+BR Class 142/1 "Pacer" DMU (rear)
+br-144-0-front
+BR Class 144/0 "Pacer" DMU
+br-144-0-middle
+BR Class 144/0 "Pacer" DMU (centre)
+br-144-0-rear
+BR Class 144/0 "Pacer" DMU (rear)
+br-144-1-front
+BR Class 144/1 "Pacer" DMU
+br-144-0-middle
+BR Class 144/1 "Pacer" DMU (centre)
+br-144-1-rear
+BR Class 144/1 "Pacer" DMU (rear)
 BR-456-DMSO
-BR Class 456 EMU (DMSO)
+BR Class 456 EMU (driving motor)
 BR-456-DTSO
-BR Class 456 EMU (DTSO)
+BR Class 456 EMU (driving trailer)
 BR-455-Driving-Front
 BR Class 455 EMU
 BR-455-Motor
@@ -3853,6 +3979,8 @@ BR Class 357 "Electrostar" EMU
 c2c-357(centre1)
 BR Class 357 "Electrostar" EMU (pantograph trailer)
 c2c-357(centre2)
+BR Class 357 "Electrostar" EMU (second motor)
+c2c-357(centre3)
 BR Class 357 "Electrostar" EMU (centre motor)
 c2c-357(rear)
 BR Class 357 "Electrostar" EMU (rear)
@@ -3860,6 +3988,8 @@ BR-379Front
 BR Class 379 "Electrostar" EMU
 BR-379Middle
 BR Class 379 "Electrostar" EMU (centre trailer)
+BR-379Middle2
+BR Class 379 "Electrostar" EMU (second motor)
 BR-379Panto
 BR Class 379 "Electrostar" EMU (centre motor)
 BR-379Rear
@@ -3870,6 +4000,8 @@ BR-387Rear
 BR Class 387 "Electrostar" EMU (rear)
 BR-387Middle
 BR Class 387 "Electrostar" EMU (centre motor)
+BR-387Middle2
+BR Class 387 "Electrostar" EMU (second motor)
 BR-387Panto
 BR Class 387 "Electrostar" EMU (pantograph car)
 BR-360(front)
@@ -3894,6 +4026,22 @@ BR-185Rear
 BR Class 185 "Desiro" DMU (rear)
 BR-185Middle
 BR Class 185 "Desiro" DMU (centre)
+BR-195Front
+BR Class 195 "Civity" DMU
+BR-195Rear
+BR Class 195 "Civity" DMU (rear)
+BR-195Middle
+BR Class 195 "Civity" DMU (centre)
+BR-196Front
+BR Class 196/197 "Civity" DMU
+BR-196Front-trolley
+BR Class 196/197 "Civity" DMU (with trolley service)
+BR-196Rear
+BR Class 196/197 "Civity" DMU (rear)
+BR-196Rear-first
+BR Class 196/197 "Civity" DMU (rear, first class)
+BR-196Middle
+BR Class 196/197 "Civity" DMU (centre)
 BR-385(front)
 BR Class 385 "AT200" EMU
 BR-385(centre1)
@@ -3902,6 +4050,18 @@ BR-385(centre2)
 BR Class 385 "AT200" EMU (centre trailer)
 BR-385(rear)
 BR Class 385 "AT200" EMU (rear)
+BR-331Front
+BR Class 331 "Civity"
+BR-331FrontPanto
+BR Class 331 (front pantograph)
+BR-331Trailer
+BR Class 331 (centre trailer)
+BR-331Motor
+BR Class 331 (centre motor)
+BR-331RearPanto
+BR Class 331 (rear pantograph)
+BR-331Rear
+BR Class 331 (rear)
 BR-332(front)
 BR Class 332 EMU
 BR-332(centre1)
@@ -3936,6 +4096,24 @@ BR-390RearCoach
 BR Class 390 "Pendolino" (rear coach)
 BR-390RearCab
 BR Class 390 "Pendolino" (rear cab)
+BR-395Front
+BR Class 395 "Javelin"
+BR-395Middle
+BR Class 395 "Javelin" (centre)
+BR-395Rear
+BR Class 395 "Javelin" (back)
+BR-397Front
+BR Class 397 "Civity"
+BR-397FrontPanto
+BR Class 397 (front pantograph)
+BR-397Middle
+BR Class 397 (centre motor)
+BR-397MiddleTrailer
+BR Class 397 (centre trailer)
+BR-397RearPanto
+BR Class 397 (rear pantograph)
+BR-397Rear
+BR Class 397 (rear motor)
 BR-202-front
 BR Class 202 DEMU
 BR-202-rear
@@ -4040,6 +4218,16 @@ BR-710Middle
 BR Class 710 "Aventra" EMU (centre motor)
 BR-710Panto
 BR Class 710 "Aventra" EMU (pantograph car)
+BR-769Front
+BR Class 769 DEMU (standard class driving trailer)
+BR-769FrontComposite
+BR Class 769 DEMU (composite driving trailer)
+BR-769Motor
+BR Class 769 DEMU (motor)
+BR-769Pantograph
+BR Class 769 DEMU (pantograph)
+BR-769Rear
+BR Class 769 DEMU (rear)
 BR-374(front)
 BR Class 374 "Eurostar e320"
 BR-374(panto)
@@ -4055,13 +4243,31 @@ BR Class 374 "Eurostar e320" (rear)
 GWR-Gloucester-Railcar
 GWR Gloucester Railcar
 GWR-Autocoach
-GWR Autocoach
+GWR Autocoach [DEPRECATED]
+gwr-hawksworth-autocoach
+GWR autotrailer
+gwr-hawksworth-autocoach-rear
+GWR autotrailer (rear)
+gwr-collett-autotrailer
+GWR autotrailer
+gwr-collett-autotrailer-rear
+GWR autotrailer (rear)
+gwr-churchward-autotrailer
+GWR autotrailer
+gwr-railmotor
+GWR railmotor 0-4-0T
 GWR-Droplight-Third(Mahogany)
-GWR Toplight corridor carriage
+GWR Toplight corridor carriage [DEPRECATED]
 GWR-Droplight-Brake(Mahogany)
-GWR Toplight corridor brake
+GWR Toplight corridor brake [DEPRECATED]
 GWR-Droplight-Dining(Mahogany)
-GWR Toplight corridor dining carriage
+GWR Toplight corridor dining carriage [DEPRECATED]
+BR-Mk1-PFP
+BR Mk. 1 Pullman parlor car (first class)
+BR-Mk1-PSP
+BR Mk. 1 Pullman parlor car (second class)
+BR-Mk1-PFK
+BR Mk. 1 Pullman kitchen car (first class)
 BR-Mk1-BFK-rear
 BR Mk. 1 corridor brake carriage (first class, rear)
 BR-Mk1-BFK-front
@@ -4502,13 +4708,13 @@ BR-Mk4-DVT
 BR-Mk.4 DVT
 GWR-Gloucester-Parcel-Railcar
 GWR Gloucester parcel railcar
-RM-325Front(RM)
-Royal Mail Class 325 EMU
-RM-325Middle(RM)
-Royal Mail Class 325 EMU (centre)
-RM-325Power(RM)
-Royal Mail Class 325 EMU (power)
-RM-325Rear(RM)
+BR-325Front
+BR Class 325 EMU
+BR-325Middle
+BR Class 325 EMU (centre)
+BR-325Power
+BR Class 325 EMU (power)
+BR-325Rear
 Royal Mail Class 325 EMU (rear)
 BR-499[TLV]
 BR Class 499 trailer luggage van
@@ -4607,39 +4813,49 @@ GER clerestory travelling post office
 Teak-Clerestory-Mail
 GER clerestory mail carriage
 CC-Clerestory-Brake
-GWR Corridor Clerestory Carriage (brake)
+GWR Corridor Clerestory Carriage (brake) [DEPRECATED]
 CC-Clerestory-Coach
-GWR Corridor Clerestory Carriage
+GWR Corridor Clerestory Carriage [DEPRECATED]
 SR-Bulleid-Express-Coach-all-doors
-SR eight compartment corridor carriage
+SR eight compartment corridor carriage (third class)
+SR-Bulleid-Express-Coach-all-doors-composite
+SR seven compartment composite corridor carriage (first/third class)
 SR-Bulleid-Express-brake-front-all-doors
-SR six compartment corridor brake carriage
+SR six compartment corridor brake carriage (third class)
 SR-Bulleid-Express-brake-rear-all-doors
-SR six compartment corridor brake carriage (rear)
+SR six compartment corridor brake carriage (third class) (rear)
 SR-Bulleid-Express-Coach
-SR eight compartment corridor vestibule carriage
+SR eight compartment corridor vestibule carriage (third class)
+SR-Bulleid-Express-composite
+SR seven compartment corridor vestibule composite carriage (first/third class)
+SR-Bulleid-Express-first
+SR seven compartment corridor vestibule carriage (first class)
 SR-Bulleid-Express-Saloon
-SR vestibule saloon carriage
+SR vestibule saloon carriage (third class)
 SR-Bulleid-Express-Dining
-SR restaurant car
+SR restaurant car (first class)
 SR-Bulleid-Express-Buffet
-SR buffet car
+SR buffet car (third class)
 SR-Bulleid-Express-Brake-rear
-SR six compartment vestibule corridor brake carriage (rear)
+SR six compartment vestibule corridor brake carriage (third class) (rear)
 SR-Bulleid-Express-Brake-front
-SR six compartment vestibule corridor brake carriage
+SR six compartment vestibule corridor brake carriage (third class)
 SR-Maunsell-Third
-SR eight compartment corridor carriage
+SR eight compartment corridor carriage (third class)
+SR-Maunsell-First
+SR seven compartment corridor carriage (first class)
+SR-Maunsell-Composite
+SR seven compartment composite carriage (first/third class)
 SR-Maunsell-Saloon
-SR vestibule saloon carriage
+SR vestibule saloon carriage (third class)
 SR-Maunsell-Brake-front
-SR six compartment corridor brake carriage
+SR six compartment corridor brake carriage (third class)
 SR-Maunsell-Brake-rear
-SR six compartment corridor brake carriage (rear)
+SR six compartment corridor brake carriage (third class) (rear)
 SR-Maunsell-Buffet
-SR buffet car
+SR buffet car (third class)
 SR-Maunsell-Dining
-SR restaurant car
+SR restaurant car (first class)
 SR-Maunsell-Parcels
 SR parcels van
 SR-Maunsell-Parcels-Brake
@@ -4651,23 +4867,25 @@ SR travelling post office
 secr-utility-van
 SECR utility van
 LSWR-Ironclad
-LSWR "Ironclad" eight compartment corridor carriage
+LSWR "Ironclad" eight compartment corridor carriage (third class)
+LSWR-Ironclad-First
+LSWR "Ironclad" seven compartment corridor carriage (first class)
 LSWR-Ironclad-Brake-rear
-LSWR "Ironclad" eight compartment corridor brake carriage (rear)
+LSWR "Ironclad" eight compartment corridor brake carriage (third class) (rear)
 LSWR-Ironclad-Brake-front
-LSWR "Ironclad" eight compartment corridor brake carriage
+LSWR "Ironclad" eight compartment corridor brake carriage (third class)
 LSWR-Ironclad-Dining
-LSWR "Ironclad" corridor dining carriage
+LSWR "Ironclad" corridor dining carriage (first class)
 LSWR-Ironclad-Pantry
-LSWR "Ironclad" corridor pantry carriage
+LSWR "Ironclad" corridor pantry carriage (third class)
 LSWR-Ironclad-Mail
 LSWR "Ironclad" mail carriage
 LSWR-Ironclad-TPO
 LSWR "Ironclad" travelling post office
 GWR-Express-Brake
-GWR Express Carriage (brake)
+GWR Express Carriage (brake) [DEPRECATED]
 GWR-Express-Coach
-GWR Express Carriage
+GWR Express Carriage [DEPRECATED]
 LMS-open
 LMS high capacity open carriage (third class)
 LMS-open-first
@@ -4770,10 +4988,6 @@ LMS-Stanier-Mogul
 LMS 4P5F Class "Stanier Mogul" 2-6-0
 LMS-Stanier-Mogul-Tender
 LMS 4P5F Class "Stanier Mogul" (tender)
-GWR-2800
-GWR 2800 Class 2-8-0
-GWR-2800-Tender
-GWR 2800 Class (tender)
 SR-Q1
 SR Q1 Class 0-6-0
 SR-Q1-Tender
@@ -4786,10 +5000,6 @@ LMS-Ivatt-4F
 LMS Class 4F (Ivatt design) 2-6-0
 LMS-Ivatt-4F-Tender
 LMS Class 4F (Ivatt design) (tender)
-GWR-Prairie-Tank
-GWR 3150 Class "Large Prairie" 2-6-2T
-GWR-Prairie-Tank-Modified
-GWR 3100 Class "Large Prairie" 2-6-2T
 MR-2631
 Midland 2631 Class 4-4-0 (compound)
 MR-1000
@@ -4867,33 +5077,39 @@ LSWR S15 Class 4-6-0
 LSWR-S15-Tender
 LSWR S15 Class (tender)
 LSWR-corridor
-LSWR eight compartment corridor carriage
+LSWR eight compartment corridor carriage (third class)
+LSWR-corridor-composite
+LSWR seven compartment corridor composite carriage (first/second class)
 LSWR-corridor-brake-front
-LSWR five compartment corridor brake carriage
+LSWR five compartment corridor brake carriage (third class)
 LSWR-corridor-brake-rear
-LSWR five compartment corridor brake carriage (rear)
+LSWR five compartment corridor brake carriage (third class) (rear)
 LSWR-dining-saloon
 LSWR corridor dining saloon
 lswr-48ft-sub-brake-rear
-LSWR six compartment brake carriage (rear)
+LSWR six compartment brake carriage (third class) (rear)
 lswr-48ft-sub-brake-front
-LSWR six compartment brake carriage 
+LSWR six compartment brake carriage (third class)
 lswr-48ft-lav
-LSWR seven compartment lavatory carriage
+LSWR seven compartment lavatory carriage (third class)
 lswr-56ft-lav-brake-front
-LSWR four compartment lavatory brake carriage
+LSWR four compartment lavatory brake carriage (third class)
 lswr-56ft-lav-brake-rear
-LSWR four compartment lavatory brake carriage (rear)
+LSWR four compartment lavatory brake carriage (third class) (rear)
 lswr-56ft-lav
-LSWR eight compartment lavatory carriage
+LSWR eight compartment lavatory composite carriage (second/third class)
+lswr-56ft-lav-composite-1st-3rd
+LSWR seven compartment lavatory composite carriage (first/third class)
 lswr-56ft-sub-brake-front
-LSWR seven compartment brake carriage
+LSWR seven compartment brake carriage (third class)
 lswr-56ft-sub-brake-rear
-LSWR seven compartment brake carriage (rear)
+LSWR seven compartment brake carriage (third class) (rear)
 lswr-56ft-sub
-LSWR nine compartment carriage
+LSWR nine compartment carriage (third class)
+lswr-56ft-sub-tricomposite
+LSWR eight compartment tricomposite carriage (first/second/third class)
 lswr-48ft-sub
-LSWR eight compartment carriage
+LSWR eight compartment carriage (third class)
 lswr-48ft-arc-fruit-brake
 LSWR fruit brake carriage
 lswr-48ft-arc-parcels-brake
@@ -4906,16 +5122,38 @@ lswr-44ft-full-brake
 LSWR mail/brake carriage
 lswr-44ft-full-brake-elliptical
 LSWR mail/brake carriage
+lswr-44ft-fruit-brake
+LSWR fruit brake carriage
+lswr-44ft-fruit-brake-elliptical
+LSWR fruit brake carriage
 lswr-48ft-arc-sub-brake-front
-LSWR six compartment bogie brake carriage
+LSWR five compartment bogie brake carriage (third class)
 lswr-48ft-arc-sub-brake-rear
-LSWR six compartment bogie brake carriage (rear)
+LSWR five compartment bogie brake carriage (third class) (rear)
 lswr-48ft-arc-sub
-LSWR eight compartment bogie carriage
+LSWR eight compartment bogie carriage (third class)
 lswr-48ft-arc-lav-brake
-LSWR five compartment bogie lavatory brake carriage
+LSWR six compartment bogie lavatory brake tricomposite carriage (first/second/third class)
+lswr-48ft-lav-brake
+LSWR six compartment bogie lavatory brake tricomposite carriage (first/second/third class)
 lswr-48ft-arc-lav
-LSWR seven compartment bogie lavatory carriage
+LSWR seven compartment bogie lavatory carriage (third class)
+lswr-48ft-arc-lav-composite
+LSWR seven compartment bogie lavatory composite carriage (first/third class)
+lswr-48ft-lav-composite
+LSWR seven compartment bogie lavatory composite carriage (first/third class)
+lswr-48ft-lav-tricomposite
+LSWR six compartment bogie lavatory tricomposite carriage (first/second/third class)
+lswr-42ft-tricomposite
+LSWR seven compartment bogie tricomposite carriage (first/second/third class)
+lswr-42ft-first
+LSWR six compartment bogie carriage (first class)
+lswr-42ft-third
+LSWR seven compartment bogie carriage (third class)
+lswr-42ft-brake-third-rear
+LSWR five compartment bogie brake carriage (third class) (rear)
+lswr-42ft-brake-third-front
+LSWR five compartment bogie brake carriage (third class)
 lswr-30ft-fruit-brake-6-wheel-elliptical
 LSWR six wheel fruit brake carriage
 lswr-30ft-full-brake-6-wheel-elliptical
@@ -4931,13 +5169,17 @@ LSWR six wheel five compartment composite carriage (first/second class)
 lswr-6-wheel-30ft-lantern-roof-brake
 LSWR six wheel mail/brake carriage
 lswr-6-wheel-30ft-brake-front
-LSWR six wheel three compartment brake carriage
+LSWR six wheel three compartment brake carriage (third class)
 lswr-6-wheel-30ft-brake-rear
-LSWR six wheel three compartment brake carriage (rear)
+LSWR six wheel three compartment brake carriage (third class) (rear)
 lswr-6-wheel-30ft
-LSWR six wheel five compartment carriage
+LSWR six wheel five compartment carriage (third class)
+lswr-6-wheel-30ft-second
+LSWR six wheel five compartment carriage (second class)
+lswr-6-wheel-29ft-6-first
+LSWR six wheel four compartment carriage (first class)
 lswr-6-wheel-30ft-lav
-LSWR six wheel four compartment lavatory carriage
+LSWR six wheel four compartment lavatory carriage (first class)
 lswr-6-wheel-30ft-full-brake
 LSWR six wheel mail/brake carriage
 lswr-6-wheel-30ft-fruit-brake
@@ -4949,11 +5191,13 @@ LSWR six wheel fruit van
 LBSCR-balloon-full-brake
 LBSCR "Balloon" mail/brake carriage
 LBSCR-balloon-brake-front
-LBSCR "Balloon" four compartment lavatory brake carriage
+LBSCR "Balloon" four compartment brake carriage (third class)
 LBSCR-balloon-brake-rear
-LBSCR "Balloon" four compartment lavatory brake carriage (rear)
+LBSCR "Balloon" four compartment brake carriage (third class) (rear)
 LBSCR-balloon
-LBSCR "Balloon" eight compartment lavatory carriage
+LBSCR "Balloon" nine compartment carriage (third class)
+LBSCR-balloon-tricomposite
+LBSCR "Balloon" eight compartment tricomposite carriage (first/second/third class)
 LBSCR-balloon-push-pull
 LBSCR seven compartment push-pull carriage
 SR-Schools
@@ -4972,10 +5216,6 @@ SR-Lord-Nelson
 SR "Lord Nelson" Class 4-6-0
 SR-Lord-Nelson-Tender
 SR "Lord Nelson" Class (tender)
-GWR-King
-GWR 6600 "King" Class 4-6-0
-GWR-King-Tender
-GWR 6600 "King" Class (tender)
 LNER-P2
 LNER Class P2 2-8-2
 LNER-P2-Tender
@@ -4996,12 +5236,6 @@ LNER-ClassEM1
 LNER Class EM1 Bo-Bo
 LNER-ClassEM2
 LNER/BR Class EM2 Co-Co
-BR-395Front
-BR Class 395 "Javelin"
-BR-395Middle
-BR Class 395 "Javelin" (centre)
-BR-395Rear
-BR Class 395 "Javelin" (back)
 PuffingBilly
 Wylam Colliery "Puffing Billy" 0-4-0
 PuffingBilly-Tender
@@ -5094,12 +5328,6 @@ LYR-Class25
 LYR Class 25 0-6-0
 LYR-Class25-Tender
 LYR Class 25 (tender)
-GWR-517Tank
-GWR 517 Class 0-4-2T
-GWR-517Tank-AutoFitted
-GWR 517 Class 0-4-2T (auto fitted)
-GWR-1400Tank
-GWR 1400 Class 0-4-2T
 WD-Austerity-2-8-0
 WD "Austerity" 2-8-0
 WD-Austerity-2-8-0-Tender
@@ -5157,11 +5385,13 @@ LBSCR H2 Class "Brighton Atlantic" 4-4-2
 LBSCR-K
 LBSCR K Class "Brighton Mogul" 2-6-0
 LBSCR-non-cor-lav
-LBSCR six compartment lavatory carriage
+LBSCR six compartment lavatory composite carriage (first/second class)
+LBSCR-non-cor-lav-first
+LBSCR five compartment lavatory carriage (first class)
 LBSCR-non-cor-lav-brake-rear
-LBSCR four compartment lavatory brake carriage (rear)
+LBSCR four compartment lavatory brake carriage (rear) (third class)
 LBSCR-non-cor-lav-brake-front
-LBSCR four compartment lavatory brake carriage
+LBSCR four compartment lavatory brake carriage (third class)
 LNWR-Jumbo
 LNWR "Jumbo" Class 2-4-0
 LNWR-Jumbo-Tender
@@ -5178,12 +5408,164 @@ ger-belpaire-claud
 GER D56 Class "Belpaire Claud" 4-4-0
 ger-super-claud
 GER H88 Class "Super Claud" 4-4-0
+gwr-1813
+GWR 1813 Class 0-6-0T
+gwr-1813-rebuilt
+GWR 1813 Class  0-6-0PT
+GWR-PannierTank
+GWR 5700 Class 0-6-0PT
+gwr-9400
+GWR 9400 Class 0-6-0PT
+gwr-buffalo
+GWR 1076 "Buffalo" Class 0-6-0T
+gwr-buffalo-rebuilt
+GWR 1076 "Buffalo" Class 0-6-0PT (rebuilt)
+gwr-850
+GWR 850 Class 0-6-0T
+gwr-850-rebuilt
+GWR 850 Class 0-6-0PT (rebuilt)
+gwr-2021
+GWR 2021 Class 0-6-0T
+gwr-2021-rebuilt
+GWR 2021 Class 0-6-0PT (rebuilt)
+gwr-5400
+GWR 5400 Class 0-6-0PT
+gwr-6400
+GWR 6400 Class 0-6-0PT
+gwr-1600
+GWR 1600 Class 0-6-0PT
+GWR-Churchward-Star
+GWR 4000 "Star" Class 4-6-0
+GWR-Churchward-Star-superheated
+GWR 4000 "Star" Class 4-6-0 (superheated)
+GWR-Churchward-Star-Tender
+GWR 3,500 gallon tender
+GWR-2800
+GWR 2800 Class 2-8-0
+GWR-2800-Tender
+GWR tender
+gwr-2800-superheated
+GWR 2800 Class 2-8-0 (superheated)
+gwr-2884
+GWR 2884 Class 2-8-0
+gwr-4200
+GWR 4200 Class 2-8-0T
+gwr-5205
+GWR 5205 Class 2-8-0T
+GWR-Prairie-Tank
+GWR 3100 Class "Large Prairie" 2-6-2T
+GWR-Prairie-Tank-Modified
+GWR 3100 Class "Large Prairie" 2-6-2T (modified)
+gwr-5100
+GWR 5100 Class "Large Prairie" 2-6-2T
+gwr-5101
+GWR 5101 Class "Large Prairie" 2-6-2T
+gwr-6100
+GWR 6100 Class "Large Prairie" 2-6-2T
+gwr-8100
+GWR 8100 Class "Large Prairie" 2-6-2T
+gwr-3150
+GWR 3150 Class "Large Prairie" 2-6-2T
+gwr-3150-superheated
+GWR 3150 Class "Large Prairie" 2-6-2T (superheated)
+gwr-4575
+GWR 4575 Class "Small Prairie" 2-6-2T
+gwr-4500
+GWR 4500 Class "Small Prairie" 2-6-2T
+gwr-4500-superheated
+GWR 4500 Class "Small Prairie" 2-6-2T (superheated)
+gwr-birdcage
+GWR 3600 "Birdcage" Class 2-4-2T
+gwr-birdcage-superheated
+GWR 3600 "Birdcage" Class 2-4-2T (superheated)
+GWR-King
+GWR 6600 "King" Class 4-6-0
+GWR-King-Tender
+GWR 6600 "King" Class (tender)
+gwr-517
+GWR 517 Class 0-4-2T
+gwr-517-rebuilt
+GWR 517 Class 0-4-2T (rebuilt)
+gwr-517-rebuilt-auto-fitted
+GWR 517 Class 0-4-2T (rebuilt; auto fitted)
+gwr-3571
+GWR 3571 Class 0-4-2T
+gwr-metro
+GWR 455 "Metro" Class 2-4-0T
+GWR-1400Tank
+GWR 1400 Class 0-4-2T
 GWR-Bulldog
 GWR 3300 "Bulldog" Class 4-4-0
-GWR-Bulldog-Tender
-GWR Express tender
+GWR-dean-tender
+GWR 2,500 gallon tender
+gwr-bulldog-superheated
+GWR 3300 "Bulldog" Class 4-4-0 (superheated)
+gwr-churchward-tender
+GWR 3,000 gallon tender
+gwr-armstrong-tender
+GWR 1,800 gallon tender
 GWR-City
 GWR 3700 "City" Class 4-4-0
+gwr-duke
+GWR 3252 "Duke" Class 4-4-0
+gwr-duke-superheated
+GWR 3252 "Duke" Class 4-4-0 (superheated)
+gwr-badminton
+GWR 4100 "Badminton" Class 4-4-0
+gwr-badminton-superheated
+GWR 4100 "Badminton" Class 4-4-0 (superheated)
+gwr-aberdare
+GWR 2600 "Aberdare" Class 2-6-0
+gwr-aberdare-superheated
+GWR 2600 "Aberdare" Class 2-6-0 (superheated)
+gwr-achillies
+GWR 3031 "Achillies" Class 4-2-2
+gwr-barnum
+GWR 3206 "Barnum" Class 2-4-0
+gwr-2201
+GWR 2201 Class 2-4-0
+gwr-157
+GWR 157 "Cobham" Class 2-2-2
+gwr-3232
+GWR 3232 Class 2-4-0
+gwr-queen
+GWR 55 "Queen" Class 2-2-2
+gwr-queen-rebuilt
+GWR 55 "Queen" Class 2-2-2 (rebuilt)
+gwr-806
+GWR 806 Class 2-4-0
+gwr-717
+GWR 717 Class 2-4-0
+gwr-481
+GWR 481 Class 2-4-0
+gwr-sir-daniel
+GWR 378 "Sir Daniel" Class 2-2-2
+gwr-river
+GWR 69 "River" Class 2-4-0
+gwr-stella
+GWR 3201 "Stella" Class 2-4-0
+gwr-sharp
+GWR 157 "Sharp" Class 2-2-2
+gwr-69
+GWR 69 Class 2-2-2
+gwr-chancellor
+GWR 149 "Chancellor" Class 2-4-0
+gwr-57
+GWR 57 Class 0-6-0
+gwr-79
+GWR 79 Class 0-6-0
+gwr-131
+GWR 131 Class 0-6-0
+gwr-322
+GWR 322 "Beyer" Class 0-6-0
+gwr-armstrong-standard-goods
+GWR 388 "Standard Goods" Class 0-6-0
+gwr-armstrong-coal-goods
+GWR 927 "Coal Goods" Class 0-6-0
+gwr-dean-goods
+GWR 2301 "Dean Goods" Class 0-6-0
+gwr-collett-goods
+GWR 2251 "Collett Goods" Class 0-6-0
 LNWR-Experiment
 LNWR "Experiment" Class 4-6-0
 LNWR-19in-express-goods
@@ -5244,16 +5626,10 @@ BR-Class10800
 BR 10800 Class
 rail-horse-shire-single
 Shire horse
-rail-horse-shire-double
-Shire horses (pair)
 rail-horse-irish-draught-single
 Irish draught horse
-rail-horse-irish-draught-double
-Irish draught horses (pair)
 rail-horse-clydesdale-single
 Clydesdale horse
-rail-horse-clydesdale-double
-Clydesdale horses (pair)
 rail-horse-friesian-single
 Friesian horse
 rail-horse-cleveland-bay-single
@@ -5321,11 +5697,11 @@ FAA container flat
 CoolContainer
 FAA container flat (refrigerated containers)
 CoolEarly1
-Perhisable goods wagon
+Perishable goods wagon
 CoolEarly2
-[DEPRECATED] Perhisable goods wagon (small)
+[DEPRECATED] Perishable goods wagon (small)
 CoolEarly3
-Perhisable goods wagon
+Perishable goods wagon
 CoolD32
 8t perishable goods van
 CoolD88
@@ -5339,7 +5715,7 @@ Fitted bogie perishable goods van
 CoolZSX
 BR refrigerated van
 milk-van
-Perhisable goods van (passenger rated)
+Perishable goods van (passenger rated)
 LongEarly1
 Flat wagon
 LongEarly2
@@ -5377,9 +5753,165 @@ LNER 20t brake van
 BrakeBR
 BR standard 20t brake van
 CC-Clerestory-Dining
-GWR corridor clerestory dining car
+GWR corridor clerestory dining car [DEPRECATED]
 GWR-Express-Dining
-GWR express dining car
+GWR express dining car [DEPRECATED]
+gwr-hawksworth-corridor-third
+GWR eight compartment vestibule corridor carriage (third class)
+gwr-hawksworth-corridor-composite
+GWR six compartment vestibule corridor composite carriage (first/third class)
+gwr-hawksworth-corridor-first
+GWR seven compartment vestibule corridor carriage (first class)
+gwr-hawksworth-corridor-brake-front
+GWR four compartment vestibule corridor brake carriage (third class)
+gwr-hawksworth-corridor-brake-rear
+GWR four compartment vestibule corriodr brake carriage (third class) (rear)
+gwr-hawksworth-corridor-full-brake
+GWR corridor mail/brake carriage
+gwr-hawksworth-non-corridor-third
+GWR ten compartment carriage (third class)
+gwr-hawksworth-non-corridor-composite
+GWR nine compartment composite carriage (first/third class)
+gwr-hawksworth-non-corridor-brake-front
+GWR six compartment composite brake carriage (third class)
+gwr-hawksworth-non-corridor-brake-rear
+GWR six compartment composite brake carriage (third class) (rear)
+gwr-sunshine-corridor-third
+GWR eight compartment vestibule corridor carriage (third class)
+gwr-sunshine-corridor-first
+GWR seven compartment vestibule corridor carriage (first class)
+gwr-sunshine-corridor-composite-brake-front
+GWR five compartment vestibule corridor brake composite carriage (first/third class)
+gwr-sunshine-corridor-composite-brake-rear
+GWR five compartment vestibule corridor brake composite carriage (first/third class) (rear)
+gwr-sunshine-corridor-brake-third-front
+GWR five compartment vestibule corridor brake carriage (third class)
+gwr-sunshine-corridor-brake-third-rear
+GWR five compartment vestibule corridor brake carriage (third class) (rear)
+gwr-sunshine-corridor-full-brake
+GWR corridor mail/brake carriage
+gwr-sunshine-corridor-restaurant
+GWR composite restaurant carriage (first/third class)
+gwr-sunshine-corridor-buffet
+GWR buffet carriage (third class)
+gwr-non-cor-1930s-third
+GWR nine compartment carriage (third class)
+gwr-non-cor-1930s-first
+GWR eight compartment carriage (first class)
+gwr-non-cor-1930s-brake-front
+GWR seven compartment brake carriage (third class)
+gwr-non-cor-1930s-brake-rear
+GWR seven compartment brake carriage (third class) (rear)
+gwr-super-saloon
+GWR Super Saloon open carriage (first class with supplement)
+gwr-super-saloon-kitchen
+GWR Super Saloon kitchen carriage (first class with supplement)
+gwr-bow-ended-corridor-third
+GWR eight compartment corridor carriage (third class)
+gwr-bow-ended-corridor-composite
+GWR seven compartment corridor composite carriage (first/third class)
+gwr-bow-ended-corridor-brake-third-front
+GWR four compartment corridor brake carriage (third class)
+gwr-bow-ended-corridor-brake-third-rear
+GWR four compartment corridor brake carriage (third class) (rear)
+gwr-bow-ended-corridor-restaurant
+GWR corridor restaurant carraige (first/third class)
+gwr-bow-ended-corridor-buffet
+GWR corridor "Quick Lunch'" buffet car
+gwr-bow-ended-corridor-full-brake
+GWR corridor mail/brake carriage
+gwr-bow-ended-corridor-mail
+GWR corridor mail carriage
+gwr-bow-ended-corridor-tpo
+GWR corridor TPO
+gwr-bow-ended-non-corridor-composite
+GWR nine compartment composite carriage (first/third class)
+gwr-bow-ended-non-corridor-brake-third-front
+GWR six compartment brake carriage (third class)
+gwr-bow-ended-non-corridor-brake-third-rear
+GWR six compartment brake carriage (third class) (rear)
+gwr-bow-ended-non-corridor-60ft-third
+GWR ten compartment carriage (third class)
+gwr-bow-ended-non-corridor-60ft-brake-composite-front
+GWR six compartment brake composite carriage (first/third class)
+gwr-bow-ended-non-corridor-60ft-brake-composite-rear
+GWR six compartment brake composite carriage (first/third class) (rear)
+gwr-toplight-corridor-third
+GWR eight compartment corridor carriage (third class)
+gwr-toplight-corridor-composite
+GWR seven compartment corridor composite carriage (first/third class)
+gwr-toplight-corridor-composite-second
+GWR seven compartment corridor composite carriage (first/second class)
+gwr-toplight-corridor-brake-third-front
+GWR five compartment corridor brake carriage
+gwr-toplight-corridor-brake-third-rear
+GWR five compartment corridor brake carriage (rear)
+gwr-toplight-corridor-restaurant
+GWR corridor restaurant carriage (first/third class)
+gwr-toplight-corridor-full-brake
+GWR corridor brake/mail carriage
+gwr-toplight-corridor-mail
+GWR mail stowage carriage
+gwr-toplight-corridor-tpo
+GWR travelling post office
+gwr-toplight-non-corridor-composite
+GWR nine compartment composite carriage (first/third class)
+gwr-toplight-brake-third-front
+GWR five compartment brake carriage (third class)
+gwr-toplight-brake-third-rear
+GWR five compartment brake carriage (third class) (rear)
+gwr-clerestory-corridor-second
+GWR corridor clerestory carriage (second class)
+gwr-clerestory-corridor-first
+GWR corridor clerestory carriage (first class)
+gwr-clerestory-corridor-composite
+GWR corridor clerestory composite carriage (second/third class)
+gwr-clerestory-brake-third-front
+GWR corridor clerestory brake carriage (third class)
+gwr-clerestory-brake-third-rear
+GWR corridor clerestory brake carriage (third class) (rear)
+gwr-clerestory-corridor-restaurant
+GWR corridor clerestory restaurant carriage (first class)
+gwr-clerestory-full-brake
+GWR corridor mail/brake carriage
+gwr-clerestory-mail
+GWR clerestory mail stowage van
+gwr-clerestory-tpo
+GWR clerestory travelling post office
+gwr-6-wheel-third
+GWR six wheel five compartment carriage (third class)
+gwr-6-wheel-clerestory-third
+GWR six wheel five compartment clerestory carriage (third class)
+gwr-6-wheel-composite
+GWR six wheel four compartment composite carriage (first/second class)
+gwr-6-wheel-clerestory-composite
+GWR six wheel four compartment clerestory composite carriage (first/second class)
+gwr-6-wheel-brake-third
+GWR six wheel four compartment brake carriage (third class)
+gwr-6-wheel-clerestory-brake-third
+GWR six wheel four compartment clerestory brake carriage (third class)
+gwr-bogie-clerestory-third
+GWR seven compartment bogie clerestory carriage (third class)
+gwr-bogie-clerestory-brake-third
+GWR five compartment bogie clerestory brake carriage (third class)
+gwr-bogie-clerestory-luggage-composite
+GWR five compartment bogie clerestory lavatory luggage composite carriage (first/second class)
+gwr-bogie-clerestory-brake-composite
+GWR five compartment bogie clerestory lavatory brake composite carriage (first/second class)
+gwr-bogie-clerestory-full-brake
+GWR bogie clerestory mail/brake carriage
+gwr-bogie-clerestory-mail
+GWR bogie clerestory mail stowage van
+gwr-clerestory-suburban-third
+GWR eight compartment clerestory suburban carriage (third class)
+gwr-clerestory-suburban-second
+GWR eight compartment clerestory suburban carriage (second class)
+gwr-clerestory-suburban-first
+GWR seven compartment clerestory suburban carriage (first class)
+gwr-clerestory-suburban-brake-third-front
+GWR four compartment clerestory suburban brake carriage (third class)
+gwr-clerestory-suburban-brake-third-rear
+GWR four compartment clerestory suburban brake carriage (third class) (rear)
 BR-Mk2-TSO
 BR Mk. 2D open carriage (second class)
 BR-Mk2-FO
@@ -5404,6 +5936,12 @@ BR-Mk2a-BSO
 BR Mk. 2 open brake carriage (second class)
 BR-Mk2a-BFK
 BR Mk. 2 corridor brake carriage (first class)
+BR-Mk2-PFP
+BR Mk. 2 Pullman parlor car (first class)
+BR-Mk2-PFK
+BR Mk. 2 Pullman kitchen car (first class)
+BR-Mk2-PFB
+BR Mk. 2 Pullman brake car (first class)
 BR-Mk2-TSOT
 BR Mk. 2D micro-buffet (second class)
 BR-Mk3-TRB
@@ -5414,6 +5952,10 @@ BR-Mk3-TRFB
 BR Mk. 3 restaurant buffet (first class)
 BR-Mk3a-TRFB
 BR Mk. 3a restaurant buffet (first class)
+BR-Mk3a-TRFB-pullman
+BR Mk. 3a pullman restaurant (first class)
+BR-Mk3-TRFB-pullman
+BR Mk. 3 pullman restaurant (first class)
 BR-Mk3-TSO
 BR Mk. 3 open carriage (second class)
 BR-Mk3a-TSO
@@ -5428,14 +5970,92 @@ BR-Mk4-FO
 BR Mk. 4 open carriage (first class)
 BR-Mk4-RSB
 BR Mk. 4 restaurant buffet (standard class)
+BR-Mk5a-TFO
+BR Mk. 5a (1st Class)
+BR-Mk5a-TSO
+BR Mk. 5a (standard Class)
+BR-Mk5a-TSOD
+BR Mk. 5a (standard Class, luggage space)
+BR-Mk5a-DTSO
+BR Mk. 5a Driving Trailer (standard Class)
+pullman-open-platform-parlour-unfitted
+Pullman drawing room car (first class)
+pullman-open-platform-parlour
+Pullman drawing room car (first class) (continuously braked)
+pullman-open-platform-kitchen
+Pullman kitchen car (first class) (continuously braked)
+pullman-vestibule-parlour
+Pullman vestibule parlor car (first class)
+pullman-vestibule-kitchen
+Pullman vestibule kitchen car (first class)
+pullman-vestibule-12-wheel-parlour
+Pullman twelve wheel vestibule parlor car (first class)
+pullman-vestibule-12-wheel-kitchen
+Pullman twelve wheel vestibule kitchen car (first class)
+pullman-elliptical-8-wheel-parlour-first
+Pullman parlor car (first class)
+pullman-elliptical-8-wheel-parlour-third
+Pullman parlor car (third class)
+pullman-elliptical-8-wheel-kitchen
+Pullman kitchen car (first class)
+pullman-elliptical-8-wheel-brake-front
+Pullman brake car (first class)
+pullman-elliptical-8-wheel-brake-rear
+Pullman brake car (first class) (rear)
+pullman-1908-parlour-first
+Pullman twelve wheel parlor car (first class)
+pullman-1908-parlour-third
+Pullman twelve wheel parlor car (thrird class)
+pullman-1908-kitchen
+Pullman twelve wheel kitchen car (third class)
+pullman-1908-brake-front
+Pullman twelve wheel brake car (first class)
+pullman-1908-brake-rear
+Pullman twelve wheel brake car (rear) (first class)
+pullman-k-type-parlour-first
+Pullman K-type parlor car (first class)
+pullman-k-type-parlour-third
+Pullman K-type parlor car (third class)
+pullman-k-type-kitchen-third
+Pulllman K-type kitchen car (third class)
+pullman-k-type-kitchen-first
+Pullman K-type kitchen car (first class)
+pullman-k-type-brake-third-front
+Pullman K-type brake car (third class)
+pullman-k-type-brake-third-rear
+Pullman K-type brake car (third class) (rear)
+pullman-1928-parlour-first
+All steel Pullman K-type parlor car (first class)
+pullman-1928-parlour-third
+All steel Pullman K-type parlor car (third class)
+pullman-1928-kitchen-third
+All steel Pullman K-type kitchen car (third class)
+pullman-1928-kitchen-first
+All steel Pullman K-type kitchen car (first class)
+pullman-1928-brake-third-front
+All steel Pullman K-type brake car (third class)
+pullman-1928-brake-third-rear
+All steel Pullman K-type brake car (third class) (rear)
+pullman-1951-parlour-first
+Metro-Cammell Pullman parlor car (first class)
+pullman-1951-parlour-third
+Metro-Cammell Pullman parlor car (third class)
+pullman-1951-kitchen-third
+Metro-Cammell Pullman kitchen car (third class)
+pullman-1951-kitchen-first
+Metro-Cammell Pullman kitchen car (first class)
+pullman-1951-brake-third-front
+Metro-Cammell Pullman brake car (third class)
+pullman-1951-brake-third-rear
+Metro-Cammell Pullman brake car (third class) (rear)
 4-wheel-1850s-mail
 Four wheel mail carriage
 4-wheel-1850s-tpo
 Four wheel TPO
 CC-Clerestory-Parcel-Brake
-GWR clerestory parcel brake coach
+GWR clerestory parcel brake coach [DEPRECATED]
 CC-Clerestory-TPO
-GWR clerestory travelling post office
+GWR clerestory travelling post office [DEPRECATED]
 MR-Clerestory-Parcel-Brake
 Midland clerestory parcel brake coach
 MR-Clerestory-TPO
@@ -5457,9 +6077,9 @@ GNR six wheel TPO
 MR-6Wheel-tpo
 Midland six wheel TPO
 GWR-Express-Parcel-Brake
-GWR Express parcel brake coach
+GWR Express parcel brake coach [DEPRECATED]
 GWR-Express-TPO
-GWR Travelling Post Office
+GWR Travelling Post Office [DEPRECATED]
 LNER-Gresley-Express-Dining
 LNER dining car
 LNER-Gresley-Express-Brake-front
@@ -5482,8 +6102,84 @@ LNER-Gresley-Express-Parcel-Brake
 LNER brake/mail carriage
 LNER-Gresley-Express-TPO
 LNER travelling post office
+LNER-quad-art-a-third
+LNER quad articulated five compartment brake carriage (third class)
+LNER-quad-art-a-second
+LNER quad articulated five compartment brake carriage (second class)
+LNER-quad-art-b-third
+LNER quad articulated seven compartment carriage (third class)
+LNER-quad-art-b-second
+LNER quad articulated seven compartment carriage (second class)
+LNER-quad-art-c-third
+LNER quad articulated eight compartment carriage (third class)
+LNER-quad-art-c-com
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-c-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
+LNER-quad-art-d-third
+LNER quad articulated eight compartment carriage (third class)
+LNER-quad-art-d-com
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-d-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
+LNER-quad-art-e-third
+LNER quad articulated eight compartment carriage (third class)
+LNER-quad-art-e-com
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-e-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
+LNER-quad-art-f-third
+LNER quad articulated eight compartment carriage carriage (third class)
+LNER-quad-art-f-com
+LNER quad articulated seven compartment composite carriage (first/third class)
+LNER-quad-art-f-com-second
+LNER quad articulated seven compartment composite carriage (first/second class)
+LNER-quad-art-g-third
+LNER quad articulated seven compartment carriage (third class)
+LNER-quad-art-g-second
+LNER quad articulated seven compartment carriage (second class)
+LNER-quad-art-h-third
+LNER quad articulated five compartment brake carriage (third class)
+LNER-quad-art-h-second
+LNER quad articulated five compartment brake carriage (second class)
+LNER-quint-art-a
+LNER quint articulated six compartment brake carriage (third class)
+LNER-quint-art-b-1
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-b-2
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-b-3
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-c
+LNER quint articulated seven compartment composite carriage (first/second class)
+LNER-quint-art-d
+LNER quint articulated seven compartment composite carriage (first/second class)
+LNER-quint-art-e-1
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-e-2
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-e-3
+LNER quint articulated eight compartment carriage (third class)
+LNER-quint-art-f
+LNER quint articulated six compartment brake carriage (third class) (rear)
+LNER-standard-51ft-t
+LNER 51ft eight compartment carriage (third class)
+LNER-standard-51ft-s
+LNER 51ft eight compartment carriage (second class)
+LNER-standard-51ft-bt4-for
+LNER 51ft four compartment brake carriage (third class) (rear)
+LNER-standard-51ft-bt4-rev
+LNER 51ft four compartment brake carriage (third class)
+LNER-standard-51ft-cl
+LNER 51ft seven compartment composite lavatory carriage (first/third class)
+LNER-standard-51ft-f
+LNER 51ft seven compartment carriage (first class)
+LNER-standard-51ft-f2
+LNER 51ft seven compartment carriage (first class, armrests removed)
+LNER-standard-51ft-com
+LNER 51ft seven compartment composite carriage (first/third class)
 CC-Clerestory-Mail
-GWR clerestory mail van
+GWR clerestory mail van [DEPRECATED]
 MR-Clerestory-Mail
 Midland clerestory mail van
 GWR-Express-Mail
@@ -5549,19 +6245,27 @@ BR Standard Class 5MT 2-6-0
 GWR-Saint
 GWR 2900 "Saint" Class 4-6-0
 GWR-Saint-Tender
-GWR 2900 "Saint" Tender
+GWR 3,500 gallon tender
+gwr-saint-superheated
+GWR 2900 "Saint" Class 4-6-0 (superheated)
 GWR-Hall
 GWR 4900 "Hall" Class 4-6-0
 GWR-Hall-Tender
-GWR 4900 "Hall" Tender
+GWR 4900 "Hall" tender
 GWR-Modified-Hall
 GWR 6959 "Modified Hall" Class 4-6-0
 GWR-Modified-Hall-Tender
-GWR 6959 "Modified Hall" Tender
+GWR 6959 "Modified Hall" tender
 GWR-Hawksworth-County
 GWR 1000 "County" Class 4-6-0
 GWR-Hawksworth-County-Tender
-GWR 1000 "County" Tender
+GWR 1000 "County" tender
+gwr-grange
+GWR 4800 "Grange" Class 4-6-0
+gwr-grange-tender
+GWR 4800 "Grange" tender
+gwr-4300
+GWR 4300 "Mogul" Class 2-6-0
 LMS-Fowler-3P-Tank
 LMS Class 3P 2-6-2T (Fowler design)
 LMS-Fowler-3P-Tank-Push-Pull
@@ -5629,69 +6333,71 @@ Mersey Railway EMU (third class trailer)
 Mersey-EMU-1923(trailer-first)
 Mersey Railway EMU (first class trailer)
 LSWR-EMU(front)
-LSWR suburban EMU (front driving motor)
+LSWR suburban EMU driving motor (third class)
 LSWR-EMU(centre)
-LSWR suburban EMU (composite centre trailer)
+LSWR suburban EMU trailer composite (first/third class)
 LSWR-EMU(rear)
-LSWR suburban EMU (rear driving motor)
+LSWR suburban EMU driving motor (third class) (rear)
 SR-3SUB(front)
-SR 3-SUB 
+SR 3-SUB driving motor (third class)
 SR-3SUB(rear)
-SR 3-SUB (rear driving motor)
+SR 3-SUB driving motor (third class) (rear)
 SR-3SUB(centre)
-SR 3-SUB (centre trailer)
+SR 3-SUB trailer composite (first/third class)
 SR-4SUB(front)
-SR 4-SUB
+SR 4-SUB driving motor (third class)
 SR-4SUB(centre1)
-SR 4-SUB (centre trailer)
+SR 4-SUB trailer (third class)
 SR-4SUB(centre2)
-SR 4-SUB (centre trailer)
+SR 4-SUB trailer (third class)
 SR-4SUB(rear)
-SR 4-SUB (rear driving motor)
+SR 4-SUB driving motor (third class) (rear)
 lbscr-48ft-augmentation-trailer-front
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft, ex-LBSC) (third class)
 lbscr-48ft-augmentation-trailer-rear
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft, ex-LBSC) (third class)
 lbscr-54ft-augmentation-trailer-front
-SR EMU augmentation trailer
+SR EMU augmentation trailer (54ft, ex-LBSC) (third class)
 lbscr-54ft-augmentation-trailer-rear
-SR EMU augmentation trailer
-lbscr-54ft-augmentation-trailerr-front
-SR EMU augmentation trailer
-lbscr-54ft-augmentation-trailer-rear
-SR EMU augmentation trailer
+SR EMU augmentation trailer (54ft, ex-LBSC) (third class)
 lswr-48ft-arc-augmentation-trailer-front
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft) (third class)
 lswr-48ft-arc-augmentation-trailer-rear
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft) (third class)
 lswr-48ft-augmentation-trailer-front
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft) (third class)
 lswr-48ft-augmentation-trailer-rear
-SR EMU augmentation trailer
+SR EMU augmentation trailer (48ft) (third class)
 lswr-56ft-augmentation-trailer-front
-SR EMU augmentation trailer
+SR EMU augmentation trailer (56ft) (third class)
 lswr-56ft-augmentation-trailer-rear
-SR EMU augmentation trailer
+SR EMU augmentation trailer (56ft) (third class)
 SR-4DD-front
-SR 4DD
+SR 4DD driving motor (third class)
 SR-4DD-rear
-SR 4DD (rear)
+SR 4DD driving motor (third class) (rear)
 SR-4DD-TT1
-SR 4DD (centre trailer)
+SR 4DD trailer (third class)
 SR-4DD-TT2
-SR 4DD (centre trailer)
+SR 4DD trailer (third class)
 LBSCR-sub-bogie-48ft
-LBSCR eight compartment bogie carriage
+LBSCR eight compartment bogie carriage (third class)
+LBSCR-sub-bogie-48ft-composite
+LBSCR seven compartment bogie composite carriage (first/second class)
+LBSCR-sub-bogie-48ft-first
+LBSCR six compartment bogie carriage (first class)
 LBSCR-sub-bogie-48ft-brake-front
-LBSCR six compartment bogie brake carriage
+LBSCR six compartment bogie brake carriage (third class)
 LBSCR-sub-bogie-48ft-brake-rear
-LBSCR six compartment bogie brake carriage (rear)
+LBSCR six compartment bogie brake carriage (third class) (rear)
 LBSCR-sub-bogie-54ft
-LBSCR nine compartment carriage
+LBSCR nine compartment carriage (third class)
+LBSCR-sub-bogie-54ft-tricomposite
+LBSCR nine compartment tricomposite carriage (first/second/third class)
 LBSCR-sub-bogie-54ft-brake-front
-LBSCR seven compartment brake carriage
+LBSCR seven compartment brake carriage (third class)
 LBSCR-sub-bogie-54ft-brake-rear
-LBSCR seven compartment brake carriage (rear)
+LBSCR seven compartment brake carriage (third class) (rear)
 LMR-Planet-Goods
 LMR "Planet" Goods 0-4-0
 LMR-Bird
@@ -5719,6 +6425,8 @@ Midland 700 Class 0-6-0
 MR-690
 Midland 690 Class 0-4-4T
 MR-800
+Midland 800 Class 2-4-0 (rebuilt)
+MR-800-original
 Midland 800 Class 2-4-0
 LBSCR-C1
 LBSCR C1 Class 0-6-0
@@ -5745,7 +6453,7 @@ L&TSR corridor vestibule brake carriage (third class)
 ltsr-4wheel-brake-dia21
 L&TSR 4 wheel 2 compartment brake carriage (third class)
 ltsr-4wheel-brake-dia22
-L&TSR 4 wheel 2 compartment brake carriage (third class) rear
+L&TSR 4 wheel 2 compartment brake carriage (third class)
 ltsr-4wheel-dia12
 L&TSR 4 wheel 5 compartment carriage (third class)
 ltsr-4wheel-composite-dia7
@@ -7817,6 +8525,8 @@ ClydeCargoSteamerAddBulk
 Clyde cargo ship bulk goods hold
 ClydeCargoSteamerAddLivestock
 Clyde cargo ship livestock hold
+ferry-mail
+Mail locker
 TugBargeLivestock
 Unpowered tug barge (livestock)
 TugBargeBulk
@@ -8111,6 +8821,8 @@ skiff-wherry-piece
 Skiff wherry (piece goods)
 skiff-wherry-cool
 Skiff wherry (perishable goods)
+skiff-wherry-livestock
+Skiff wherry (livestock)
 mail-space
 Mail space
 #____________________________________maglev-vehicle____________________________________
@@ -8539,8 +9251,6 @@ TerminalModernBuilding
 Terminal building
 CoachStable
 Coaching stable
-AirHangarModern
-Aircraft hangar
 GoodsPlatformMaglevStop
 Maglev goods platform
 GoodsPlatformMaglevCrane
@@ -9142,9 +9852,9 @@ Permissive 3-4
 Waterway
 # For the DLR - reserved for future use.
 Permissive 2-5
-Light rail electrification
+Driverless Light Rail electrification
 Permissive 7-5
-Light rail electrification
+Driverless Light Rail electrification
 Permissive 2-6
 [Unused] Permissive 6
 Permissive 2-7
@@ -9156,6 +9866,10 @@ Prohibitive 2-0
 Tramway
 Prohibitive 2-1
 Tube tunnel
+Prohibitive 2-2
+Light rail loading gauge
+Prohibitive 7-2
+Light rail loading gauge
 Prohibitive 3-2
 Barge canal/small river
 Prohibitive 3-3
@@ -9177,6 +9891,8 @@ Uplands
 desert
 Beach
 Mediterranean
+Coastal plains
+mediterran
 Coastal plains
 rocky
 Mountain
@@ -9327,7 +10043,7 @@ SECR
 Colas-Rail
 Colas Rail
 London-Midland
-London Midland
+London & Midlands
 First-Group
 First Group
 Northern-Franchise
@@ -9384,6 +10100,26 @@ Stockton-Darlington
 Stockton & Darlington
 LMS-Coronation-Scot
 LMS Coronation Scot
+TransPennine
+TransPennine Express
+Wales-&-Borders
+Wales & Borders
+BristolSW
+Bristol & SW
+Caledonian-Sleeper
+Caledonian Sleeper
+merseytravel
+Merseytravel
+essex-thameside
+c2c
+WCML-Franchise
+Avanti West Coast
+Tyne&Wear
+Tyne & Wear
+TSGN
+Thameslink GN
+ECTFirst
+East Coast Trains
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]

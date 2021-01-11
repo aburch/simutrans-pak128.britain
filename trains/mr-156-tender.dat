@@ -23,6 +23,7 @@ years_before_maintenance_max_reached=40
 
 upgrade[0]=MR-483-Tender
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=MR-Kirtley156
 Constraint[Prev][1]=MR-480
 Constraint[Prev][2]=MR-1738
@@ -33,6 +34,7 @@ Constraint[Prev][6]=MR-27
 Constraint[Prev][7]=MR-2203
 Constraint[Prev][8]=MR-25
 Constraint[Prev][9]=MR-1327
+Constraint[Prev][10]=MR-800-original
 
 liverytype[0]=MR-Early
 liverytype[1]=MR-Standard

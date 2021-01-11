@@ -4,7 +4,9 @@ engine_type=electric
 speed=70
 gear=80
 # http://www.britishtramsonline.co.uk/blackpoolfleet.doc
-power=50
+# 57 electric horse power is 42.5KW, unlike the source states.
+# http://blackpool-trams.yolasite.com/centenary-trams.php
+power=85
 tractive_effort=40
 copyright=James
 intro_year=1984
@@ -17,10 +19,10 @@ freight=Passagiere
 payload=52
 overcrowded_capacity=16
 
-weight=20
+weight=17.5
 axles=4
 cost=434000
-runningcost=5
+runningcost=8
 fixed_cost=6362
 sound=tom-tait-tram.wav
 

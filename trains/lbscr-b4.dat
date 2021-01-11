@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=145
 # Extrapolated
-power=296
+power=352
 # http://en.wikipedia.org/wiki/LB%26SCR_B4_class
 tractive_effort=79
 copyright=James/jamespetts
@@ -16,7 +16,7 @@ retire_month=11
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 
 weight=49
 axle_load=17
@@ -111,7 +111,7 @@ cost=0
 runningcost=0
 fixed_cost=0
 
-
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LBSCR-B4
 Constraint[Prev][1]=LBSCR-B4x
 

@@ -4,7 +4,7 @@ engine_type=steam
 smoke=Steam
 speed=150
 # Extrapolated
-power=377
+power=360
 # http://en.wikipedia.org/wiki/LB%26SCR_H1_class
 tractive_effort=85
 copyright=Kieron/JamesPetts
@@ -105,6 +105,7 @@ fixed_cost=0
 increase_maintenance_after_years=28
 years_before_maintenance_max_reached=25
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LBSCR-H1
 Constraint[Prev][1]=LBSCR-H2
 

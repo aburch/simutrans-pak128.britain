@@ -6,7 +6,7 @@ speed=12
 # See http://gluedideas.com/content-collection/Textbook-on-Roads-and-Pavements-1908/Tractive-Power-of-Horses.html
 gear=32
 power=1
-tractive_effort=1
+tractive_effort=3
 copyright=James&jamespetts
 intro_year=1750
 intro_month=1
@@ -25,6 +25,14 @@ fixed_cost=104
 
 sound=ylearkisto-horses.wav
 range=60
+
+Constraint[Prev][0]=rail-horse-friesian-single
+Constraint[Prev][1]=rail-horse-cleveland-bay-single
+Constraint[Prev][2]=rail-horse-yorkshire-coach-single
+Constraint[Prev][3]=rail-horse-irish-draught-single
+Constraint[Prev][4]=rail-horse-clydesdale-single
+Constraint[Prev][5]=rail-horse-shire-single
+Constraint[Prev][6]=none
 
 EmptyImage[E]=./horses/horse-friesian-single-rail_E.0.0
 EmptyImage[SE]=./horses/horse-friesian-single-rail_SE.0.0

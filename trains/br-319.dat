@@ -1,3 +1,6 @@
+# https://web.archive.org/web/20150421071217/http://www.porterbrook.co.uk/downloads/brochures/319%20Brochure.pdf
+# http://www.railway-centre.com/class-319.html
+# Based on 319/3 - that looks mostly as original
 obj=vehicle
 name=BR-319Front
 engine_type=electric
@@ -11,15 +14,15 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=81
+payload[1]=79
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=62
 length=11
-brake_force=23
+brake_force=21
 rolling_resistance=13
 
-weight=30
+weight=29.0
 axles=4
 cost=2400000
 runningcost=0
@@ -28,6 +31,8 @@ sound=video47-class-319.wav
 
 can_lead_from_rear=1
 bidirectional=0
+
+upgrade[0]=BR-769Front
 
 min_loading_time=15
 max_loading_time=55
@@ -38,10 +43,13 @@ comfort[3]=145
 
 Constraint[Prev][0]=BR-319Rear
 Constraint[Prev][1]=none
+#Constraint[Prev][2]=BR-769Rear
+
 
 Constraint[Next][0]=BR-319Pantograph
 
 liverytype[0]=NSE-Standard
+liverytype[1]=Northern
 
 EmptyImage[E][0]=./railcars/br-319-dtso-front-nse_E.0.0
 EmptyImage[SE][0]=./railcars/br-319-dtso-front-nse_SE.0.0
@@ -52,6 +60,14 @@ EmptyImage[NW][0]=./railcars/br-319-dtso-front-nse_NW.0.0
 EmptyImage[N][0]=./railcars/br-319-dtso-front-nse_N.0.0
 EmptyImage[NE][0]=./railcars/br-319-dtso-front-nse_NE.0.0
 
+EmptyImage[E][1]=./railcars/br-319-front-northern2016_E.png
+EmptyImage[SE][1]=./railcars/br-319-front-northern2016_SE.png
+EmptyImage[S][1]=./railcars/br-319-front-northern2016_S.png
+EmptyImage[SW][1]=./railcars/br-319-front-northern2016_SW.png
+EmptyImage[W][1]=./railcars/br-319-front-northern2016_W.png
+EmptyImage[NW][1]=./railcars/br-319-front-northern2016_NW.png
+EmptyImage[N][1]=./railcars/br-319-front-northern2016_N.png
+EmptyImage[NE][1]=./railcars/br-319-front-northern2016_NE.png
 ---
 
 obj=vehicle
@@ -72,10 +88,10 @@ payload[2]=0
 payload[3]=16
 overcrowded_capacity=55
 length=11
-brake_force=23
+brake_force=21
 rolling_resistance=13
 
-weight=30
+weight=29.0
 axles=4
 cost=2400000
 runningcost=0
@@ -84,6 +100,8 @@ sound=video47-class-319.wav
 
 can_lead_from_rear=1
 bidirectional=0
+
+upgrade[0]=BR-769FrontComposite
 
 min_loading_time=15
 max_loading_time=55
@@ -94,6 +112,7 @@ comfort[3]=145
 
 Constraint[Prev][0]=BR-319Rear
 Constraint[Prev][1]=none
+#Constraint[Prev][2]=BR-769Rear
 
 Constraint[Next][0]=BR-319Pantograph
 
@@ -123,15 +142,15 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=79
+payload[1]=74
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=58
 length=11
-brake_force=38
+brake_force=21
 rolling_resistance=13
 
-weight=30
+weight=31.0
 axles=4
 cost=2400000
 runningcost=0
@@ -139,6 +158,8 @@ fixed_cost=5000
 
 can_lead_from_rear=0
 bidirectional=1
+
+upgrade[0]=BR-769Pantograph
 
 min_loading_time=15
 max_loading_time=55
@@ -153,6 +174,7 @@ Constraint[Prev][1]=BR-319FrontComposite
 Constraint[Next][0]=BR-319Engine
 
 liverytype[0]=NSE-Standard
+liverytype[1]=Northern
 
 EmptyImage[E][0]=./railcars/br-319-mso-nse_E.0.0
 EmptyImage[SE][0]=./railcars/br-319-mso-nse_SE.0.0
@@ -163,6 +185,14 @@ EmptyImage[NW][0]=./railcars/br-319-mso-nse_NW.0.0
 EmptyImage[N][0]=./railcars/br-319-mso-nse_N.0.0
 EmptyImage[NE][0]=./railcars/br-319-mso-nse_NE.0.0
 
+EmptyImage[E][1]=./railcars/br-319-mso-northern2016_E.png
+EmptyImage[SE][1]=./railcars/br-319-mso-northern2016_SE.png
+EmptyImage[S][1]=./railcars/br-319-mso-northern2016_S.png
+EmptyImage[SW][1]=./railcars/br-319-mso-northern2016_SW.png
+EmptyImage[W][1]=./railcars/br-319-mso-northern2016_W.png
+EmptyImage[NW][1]=./railcars/br-319-mso-northern2016_NW.png
+EmptyImage[N][1]=./railcars/br-319-mso-northern2016_N.png
+EmptyImage[NE][1]=./railcars/br-319-mso-northern2016_NE.png
 ---
 
 obj=vehicle
@@ -170,7 +200,7 @@ name=BR-319Engine
 engine_type=electric
 speed=160
 power=990
-tractive_effort=75
+tractive_effort=93
 gear=80
 copyright=Kieron
 intro_year=1987
@@ -180,15 +210,15 @@ retire_month=2
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=76
+payload[1]=79
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=58
 length=11
-brake_force=23
+brake_force=38
 rolling_resistance=13
 
-weight=51
+weight=50.6
 axles=4
 cost=2500000
 runningcost=99
@@ -196,6 +226,8 @@ fixed_cost=11302
 
 can_lead_from_rear=0
 bidirectional=1
+
+upgrade[0]=BR-769Motor
 
 min_loading_time=15
 max_loading_time=55
@@ -209,6 +241,7 @@ Constraint[Prev][0]=BR-319Pantograph
 Constraint[Next][0]=BR-319Rear
 
 liverytype[0]=NSE-Standard
+liverytype[1]=Northern
 
 EmptyImage[E][0]=./railcars/br-319-tsol-nse_E.0.0
 EmptyImage[SE][0]=./railcars/br-319-tsol-nse_SE.0.0
@@ -219,6 +252,14 @@ EmptyImage[NW][0]=./railcars/br-319-tsol-nse_NW.0.0
 EmptyImage[N][0]=./railcars/br-319-tsol-nse_N.0.0
 EmptyImage[NE][0]=./railcars/br-319-tsol-nse_NE.0.0
 
+EmptyImage[E][1]=./railcars/br-319-tsol-northern2016_E.png
+EmptyImage[SE][1]=./railcars/br-319-tsol-northern2016_SE.png
+EmptyImage[S][1]=./railcars/br-319-tsol-northern2016_S.png
+EmptyImage[SW][1]=./railcars/br-319-tsol-northern2016_SW.png
+EmptyImage[W][1]=./railcars/br-319-tsol-northern2016_W.png
+EmptyImage[NW][1]=./railcars/br-319-tsol-northern2016_NW.png
+EmptyImage[N][1]=./railcars/br-319-tsol-northern2016_N.png
+EmptyImage[NE][1]=./railcars/br-319-tsol-northern2016_NE.png
 ---
 
 obj=vehicle
@@ -239,10 +280,10 @@ payload[2]=0
 payload[3]=0
 overcrowded_capacity=79
 length=11
-brake_force=23
+brake_force=21
 rolling_resistance=13
 
-weight=30
+weight=29.7
 axles=4
 cost=2400000
 runningcost=0
@@ -251,6 +292,8 @@ sound=video47-class-319.wav
 
 can_lead_from_rear=1
 bidirectional=0
+
+upgrade[0]=BR-769Rear
 
 min_loading_time=15
 max_loading_time=55
@@ -264,8 +307,11 @@ Constraint[Prev][0]=BR-319Engine
 Constraint[Next][0]=BR-319Front
 Constraint[Next][1]=BR-319FrontComposite
 Constraint[Next][2]=none
+#Constraint[Next][3]=BR-769Front
+#Constraint[Next][4]=BR-769FrontComposite
 
 liverytype[0]=NSE-Standard
+liverytype[1]=Northern
 
 EmptyImage[E][0]=./railcars/br-319-dtso-rear-nse_E.0.0
 EmptyImage[SE][0]=./railcars/br-319-dtso-rear-nse_SE.0.0
@@ -275,3 +321,13 @@ EmptyImage[W][0]=./railcars/br-319-dtso-rear-nse_W.0.0
 EmptyImage[NW][0]=./railcars/br-319-dtso-rear-nse_NW.0.0
 EmptyImage[N][0]=./railcars/br-319-dtso-rear-nse_N.0.0
 EmptyImage[NE][0]=./railcars/br-319-dtso-rear-nse_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-319-rear-northern2016_E.png
+EmptyImage[SE][1]=./railcars/br-319-rear-northern2016_SE.png
+EmptyImage[S][1]=./railcars/br-319-rear-northern2016_S.png
+EmptyImage[SW][1]=./railcars/br-319-rear-northern2016_SW.png
+EmptyImage[W][1]=./railcars/br-319-rear-northern2016_W.png
+EmptyImage[NW][1]=./railcars/br-319-rear-northern2016_NW.png
+EmptyImage[N][1]=./railcars/br-319-rear-northern2016_N.png
+EmptyImage[NE][1]=./railcars/br-319-rear-northern2016_NE.png
+---

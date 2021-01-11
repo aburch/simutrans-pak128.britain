@@ -16,10 +16,11 @@ overcrowded_capacity=22
 length=11
 rolling_resistance=13
 
+# https://www.rmweb.co.uk/community/uploads/monthly_10_2012/post-5212-0-67108500-1350177461.jpg
+weight=33.5
+axles=4
 # Mk. 2s should have a higher purchase but
 # lower running/overhaul cost than Mk. 1s.
-weight=32
-axles=4
 cost=460000
 runningcost=0
 fixed_cost=958
@@ -69,29 +70,37 @@ Constraint[Next][30]=BR-Mk3a-FO
 Constraint[Next][31]=BR-Mk3a-TRB
 Constraint[Next][32]=BR-Mk3a-TSO
 Constraint[Next][33]=BR-Mk3a-TRFB
+Constraint[Next][34]=BR-Mk3a-TRFB-pullman
+Constraint[Next][35]=BR-Mk2-PFP
+Constraint[Next][36]=BR-Mk2-PFK
+Constraint[Next][37]=BR-Mk2-PFB
+Constraint[Next][38]=BR-Mk1-PFK
+Constraint[Next][39]=BR-Mk1-PSP
+Constraint[Next][40]=BR-Mk1-PFP
+Constraint[Next][41]=pullman-1951-kitchen-first
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
 liverytype[2]=Scotrail-original
 liverytype[3]=Virgin-original
 
-EmptyImage[E][0]=./carriages/br-mk2-tso-bg_E.0
-EmptyImage[SE][0]=./carriages/br-mk2-tso-bg_SE.0
-EmptyImage[S][0]=./carriages/br-mk2-tso-bg_S.0
-EmptyImage[SW][0]=./carriages/br-mk2-tso-bg_SW.0
-EmptyImage[W][0]=./carriages/br-mk2-tso-bg_W.0
-EmptyImage[NW][0]=./carriages/br-mk2-tso-bg_NW.0
-EmptyImage[N][0]=./carriages/br-mk2-tso-bg_N.0
-EmptyImage[NE][0]=./carriages/br-mk2-tso-bg_NE.0
+EmptyImage[E][0]=./carriages/br-mk2-to-bg_E.0
+EmptyImage[SE][0]=./carriages/br-mk2-to-bg_SE.0
+EmptyImage[S][0]=./carriages/br-mk2-to-bg_S.0
+EmptyImage[SW][0]=./carriages/br-mk2-to-bg_SW.0
+EmptyImage[W][0]=./carriages/br-mk2-to-bg_W.0
+EmptyImage[NW][0]=./carriages/br-mk2-to-bg_NW.0
+EmptyImage[N][0]=./carriages/br-mk2-to-bg_N.0
+EmptyImage[NE][0]=./carriages/br-mk2-to-bg_NE.0
 
-EmptyImage[E][1]=./carriages/br-mk2-tso-ic.0
-EmptyImage[SE][1]=./carriages/br-mk2-tso-ic.1
-EmptyImage[S][1]=./carriages/br-mk2-tso-ic.2
-EmptyImage[SW][1]=./carriages/br-mk2-tso-ic.3
-EmptyImage[W][1]=./carriages/br-mk2-tso-ic.4
-EmptyImage[NW][1]=./carriages/br-mk2-tso-ic.5
-EmptyImage[N][1]=./carriages/br-mk2-tso-ic.6
-EmptyImage[NE][1]=./carriages/br-mk2-tso-ic.7
+EmptyImage[E][1]=./carriages/br-mk2-to-ic_E.0
+EmptyImage[SE][1]=./carriages/br-mk2-to-ic_SE.0
+EmptyImage[S][1]=./carriages/br-mk2-to-ic_S.0
+EmptyImage[SW][1]=./carriages/br-mk2-to-ic_SW.0
+EmptyImage[W][1]=./carriages/br-mk2-to-ic_W.0
+EmptyImage[NW][1]=./carriages/br-mk2-to-ic_NW.0
+EmptyImage[N][1]=./carriages/br-mk2-to-ic_N.0
+EmptyImage[NE][1]=./carriages/br-mk2-to-ic_NE.0
 
 EmptyImage[E][2]=./carriages/br-mk2-to-scr_E.0
 EmptyImage[SE][2]=./carriages/br-mk2-to-scr_SE.0

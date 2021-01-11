@@ -1250,6 +1250,14 @@ Garrett-NGG16-middle
 Garratt-NGG16-middle
 Garrett-NGG16-rear
 Garratt-NGG16-rear
+RM-325Front(RM)
+BR-325Front
+RM-325Power(RM)
+BR-325Power
+RM-325Middle(RM)
+BR-325Middle
+RM-325Rear(RM)
+BR-325Rear
 #
 ############# Variant names for electrification in old Experimental ##############
 DCRailCatenaryCombined
@@ -1641,6 +1649,8 @@ LMR-4Wheel-Open-Brake
 LMR-4Wheel-First-Guard-rear
 LNWR-8wheel-radial-brake-front
 LNWR-8wheel-radial-brake
+4-wheel-1870s-third-fitted
+4-wheel-1870s-luggage-third-fitted
 ############################ Wagon re-organisation/deprecation #####################
 PieceEarly2
 PieceEarly1
@@ -1661,3 +1671,51 @@ DEBUG1_LNER-Gresley-Express-Brake-front
 LNER-Gresley-Express-Brake-front
 DEBUG1_LNER-Gresley-Express-Brake-rear
 LNER-Gresley-Express-Brake-rear
+###################################### GWR upgrade ################################
+GWR-Bulldog-tender
+GWR-dean-tender
+GWR-Express-TPO
+gwr-bow-ended-corridor-tpo
+GWR-Express-Mail
+gwr-bow-ended-corridor-mail
+GWR-Express-Parcel-Brake
+gwr-bow-ended-corridor-full-brake
+GWR-Express-Brake
+gwr-bow-ended-corridor-brake-third-rear
+GWR-Express-Coach
+gwr-bow-ended-corridor-third
+GWR-Express-Dining
+gwr-bow-ended-corridor-restaurant
+GWR-Droplight-Brake(Mahogany)
+gwr-toplight-corridor-brake-third-rear
+GWR-Droplight-Third(Mahogany)
+gwr-toplight-corridor-third
+GWR-Droplight-Dining(Mahogany)
+gwr-toplight-corridor-restaurant
+CC-Clerestory-Coach
+gwr-clerestory-corridor-composite
+CC-Clerestory-Parcel-Brake
+gwr-clerestory-full-brake
+CC-Clerestory-Dining
+gwr-clerestory-corridor-restaurant
+CC-Clerestory-Brake
+gwr-clerestory-brake-third-rear
+CC-Clerestory-Mail
+gwr-clerestory-mail
+GWR-517Tank
+gwr-517-rebuilt
+GWR-517Tank-AutoFitted
+gwr-517-rebuilt-auto-fitted
+###################################### Double rail horse removal ################################
+rail-horse-shire-double
+rail-horse-shire-single
+rail-horse-clydesdale-double
+rail-horse-clydesdale-single
+rail-horse-irish-draught-double
+rail-horse-irish-draught-single
+narrowgauge-horse-clydesdale-double
+narrowgauge-horse-clydesdale-single
+narrowgauge-horse-irish-draught-double
+narrowgauge-horse-irish-draught-single
+narrowgauge-horse-shire-double
+narrowgauge-horse-shire-single

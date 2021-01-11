@@ -30,8 +30,10 @@ range=80
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+Constraint[Next][0]=ferry-mail
+Constraint[Next][1]=none
 
 EmptyImage[E]=./images/loch.0.0,-16,-8
 EmptyImage[SE]=./images/loch.0.1
@@ -41,5 +43,3 @@ EmptyImage[W]=./images/loch.0.4
 EmptyImage[NW]=./images/loch.0.5
 EmptyImage[N]=./images/loch.0.6
 EmptyImage[NE]=./images/loch.0.7
-
-----------------------------------------

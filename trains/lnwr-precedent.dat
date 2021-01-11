@@ -9,7 +9,7 @@ speed=130
 # Max. speed given as 50.7mph with a train of 241t (gross)
 # On the level. Too low probably because train did not have
 # enough time to reach max. speed.
-power=238
+power=232
 # Tractive effort calculated from data on Ahrons p. 192
 # Loss factor 0.8
 tractive_effort=44
@@ -69,6 +69,7 @@ fixed_cost=0
 
 upgrade[0]=LNWR-Jumbo-Tender
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LNWR-Precedent
 Constraint[Prev][1]=LNWR-precursor-webb
 

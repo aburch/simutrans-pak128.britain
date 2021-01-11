@@ -7,10 +7,17 @@ gear=80
 power=210
 tractive_effort=40
 copyright=James
+# T-68 delivered 1991-1992
+# Service started 6th April 1992
+# T-68A delivered 1999
+# refurbished 2008
+# 13th  July 2009 new Bombardier M5000 (flexity swift)
+# Withdrawal T68 10 February 2014
+# Withdrawal T68A 30 April 2014
 intro_year=1992
-intro_month=1
-retire_year=2000
-retire_month=8
+intro_month=4
+retire_year=1999
+retire_month=1
 waytype=tram_track
 freight=Passagiere
 # http://en.wikipedia.org/wiki/T-68
@@ -19,9 +26,9 @@ freight=Passagiere
 # likewise the capacity.
 payload=41
 overcrowded_capacity=58
-weight=22.5
-brake_force=29
-axles=4
+weight=24.5
+brake_force=32
+axles=3
 cost=0
 runningcost=21
 fixed_cost=6000
@@ -31,6 +38,8 @@ can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
 comfort=44
 min_loading_time=15
 max_loading_time=40
@@ -38,7 +47,8 @@ max_loading_time=40
 Constraint[Prev][0]=Metrolink-T86(Front)
 
 Constraint[Next][0]=Metrolink-T86(Front)
-Constraint[Next][1]=none
+Constraint[Next][1]=Metrolink-T68A(Front)
+Constraint[Next][2]=none
 
 EmptyImage[E]=./images/metrolink-t68-rear.1.4
 EmptyImage[SE]=./images/metrolink-t68-rear.1.5
@@ -48,3 +58,60 @@ EmptyImage[W]=./images/metrolink-t68-rear.1.0
 EmptyImage[NW]=./images/metrolink-t68-rear.1.1
 EmptyImage[N]=./images/metrolink-t68-rear.1.2
 EmptyImage[NE]=./images/metrolink-t68-rear.1.3
+
+-------------------------
+
+obj=vehicle
+name=Metrolink-T68A(Rear)
+engine_type=electric
+speed=80
+gear=80
+# http://en.wikipedia.org/wiki/T-68
+power=240
+tractive_effort=40
+copyright=James
+intro_year=1999
+intro_month=1
+retire_year=2009
+retire_month=7
+waytype=tram_track
+freight=Passagiere
+# http://en.wikipedia.org/wiki/T-68
+# This gives "per vehicle" specifications, which can only
+# sensibly mean per set of two, as 45t each is insane,
+# likewise the capacity.
+payload=41
+overcrowded_capacity=58
+weight=24
+brake_force=32
+axles=3
+cost=0
+runningcost=24
+fixed_cost=6000
+
+
+can_lead_from_rear=1
+bidirectional=0
+way_constraint_permissive[1]=1
+way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
+comfort=44
+min_loading_time=15
+max_loading_time=40
+
+Constraint[Prev][0]=Metrolink-T68A(Front)
+
+Constraint[Next][0]=Metrolink-T68A(Front)
+Constraint[Next][1]=Metrolink-T86(Front)
+Constraint[Next][2]=none
+
+EmptyImage[E]=./images/metrolink-t68-rear.1.4
+EmptyImage[SE]=./images/metrolink-t68-rear.1.5
+EmptyImage[S]=./images/metrolink-t68-rear.1.6
+EmptyImage[SW]=./images/metrolink-t68-rear.1.7
+EmptyImage[W]=./images/metrolink-t68-rear.1.0
+EmptyImage[NW]=./images/metrolink-t68-rear.1.1
+EmptyImage[N]=./images/metrolink-t68-rear.1.2
+EmptyImage[NE]=./images/metrolink-t68-rear.1.3
+

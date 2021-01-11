@@ -29,7 +29,9 @@ range=200
 way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
-Constraint[Next][0]=none
+
+Constraint[Next][0]=ferry-mail
+Constraint[Next][1]=none
 
 EmptyImage[E]=./images/hsc-fastcat.1.0
 EmptyImage[SE]=./images/hsc-fastcat.1.1
@@ -39,4 +41,3 @@ EmptyImage[W]=./images/hsc-fastcat.1.4
 EmptyImage[NW]=./images/hsc-fastcat.1.5
 EmptyImage[N]=./images/hsc-fastcat.1.6
 EmptyImage[NE]=./images/hsc-fastcat.1.7
----

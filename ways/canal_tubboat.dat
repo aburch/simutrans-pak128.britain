@@ -3,7 +3,8 @@ Name=CanalTub
 waytype=water
 cost=9000
 maintenance=75
-topspeed=20
+# Guessed
+topspeed=5
 topspeed_gradient_1=5
 topspeed_gradient_2=4
 max_weight=40

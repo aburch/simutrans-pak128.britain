@@ -1,9 +1,16 @@
+# http://www.railway-centre.com/class-315.html
+# https://eversholtrail.co.uk/fleet/class-315/ says: Maximum acceleration: 0.75 m/s/s, that would be 60 kN tractive_effort
+# https://eversholtrail.co.uk/fleet/class-318/ says: Maximum acceleration: 0.56 m/s/s. 
+# I doubt that newer, shorter, and more powerful unit would have lower acceleration than older, longer and less powerful
+# Only the lower speed 120 vs. 145 may point to more powerful gearing.
+# Therefore I think the accel values are swapped. And use 0.56 as acceleration.
+# That means 45 kN tractive effort, also for classes 313 and 314, which have the same traction motors
 obj=vehicle
 name=BR-315Front
 engine_type=electric
 speed=120
 power=328
-tractive_effort=75
+tractive_effort=45
 gear=80
 copyright=Kieron
 intro_year=1980
@@ -18,7 +25,7 @@ overcrowded_capacity=56
 length=11
 rolling_resistance=13
 
-weight=36
+weight=35.0
 axles=4
 cost=1120000
 runningcost=33
@@ -69,6 +76,7 @@ engine_type=electric
 speed=120
 power=0
 tractive_effort=0
+gear=80
 copyright=Kieron
 intro_year=1980
 intro_month=5
@@ -82,7 +90,7 @@ overcrowded_capacity=64
 length=11
 rolling_resistance=13
 
-weight=30
+weight=32.0
 axles=4
 cost=1120000
 runningcost=0
@@ -131,6 +139,7 @@ name=BR-315Trailer
 engine_type=electric
 speed=120
 power=0
+gear=80
 tractive_effort=0
 copyright=Kieron
 intro_year=1980
@@ -140,12 +149,12 @@ retire_month=7
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=84
+payload[1]=86
 overcrowded_capacity=64
 length=11
 rolling_resistance=13
 
-weight=30
+weight=25.5
 axles=4
 cost=1120000
 runningcost=0
@@ -192,7 +201,8 @@ name=BR-315Rear
 engine_type=electric
 speed=120
 power=328
-tractive_effort=75
+tractive_effort=45
+gear=80
 copyright=Kieron
 intro_year=1980
 intro_month=5
@@ -206,7 +216,7 @@ overcrowded_capacity=56
 length=11
 rolling_resistance=13
 
-weight=38 
+weight=35.0
 axles=4
 cost=1120000
 runningcost=33

@@ -5,7 +5,7 @@ smoke=Steam
 # "Capable of running at speed" - Wikipedia
 speed=100
 # Extrapolated
-power=223
+power=230
 # http://en.wikipedia.org/wiki/LB%26SCR_C2_class
 tractive_effort=80
 copyright=Kieron/JamesPetts
@@ -16,7 +16,7 @@ retire_month=2
 waytype=track
 freight=None
 payload=0
-length=5
+length=4
 way_wear_factor=60795
 
 can_lead_from_rear=0
@@ -117,6 +117,7 @@ runningcost=0
 fixed_cost=0
 
 
+#fixed_coupling[prev]=1
 Constraint[Prev][0]=LBSCR-C2
 Constraint[Prev][1]=LBSCR-C2x
 

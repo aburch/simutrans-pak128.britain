@@ -16,8 +16,13 @@ axle_load=0
 cost=2
 length=6
 runningcost=0
-fixed_cost=6000
-intro_year=1492
+# Calibrated (approximately) to the cost of "agricultural labourer" here:
+# https://www.pascalbonenfant.com/18c/wages.html
+# (£25/annum, assuming 10 hours/day 6 days/week)
+# Calibrated against goods prices in goods128.dat
+# Figures for circa 1781
+fixed_cost=350
+intro_year=1700
 intro_month=3
 retire_year=1921
 retire_month=3

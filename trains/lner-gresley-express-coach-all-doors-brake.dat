@@ -56,7 +56,10 @@ Constraint[Next][19]=gnr-gresley-cor-dining
 Constraint[Next][20]=gnr-gresley-cor-parcels-brake
 Constraint[Next][21]=gnr-gresley-cor-mail
 Constraint[Next][22]=gnr-gresley-cor-tpo
-Constraint[Next][23]=none
+Constraint[Next][23]=pullman-1928-kitchen-first
+Constraint[Next][24]=pullman-1951-kitchen-first
+Constraint[Next][25]=pullman-k-type-kitchen-first
+Constraint[Next][26]=none
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early
@@ -142,6 +145,9 @@ Constraint[Prev][19]=gnr-gresley-cor-dining
 Constraint[Prev][20]=gnr-gresley-cor-parcels-brake
 Constraint[Prev][21]=gnr-gresley-cor-mail
 Constraint[Prev][22]=gnr-gresley-cor-tpo
+Constraint[Prev][23]=pullman-1928-kitchen-first
+Constraint[Prev][24]=pullman-1951-kitchen-first
+Constraint[Prev][25]=pullman-k-type-kitchen-first
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early

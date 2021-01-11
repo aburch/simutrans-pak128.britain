@@ -19,14 +19,13 @@ cost=800000
 runningcost=0
 fixed_cost=952
 
-
 can_lead_from_rear=1
 bidirectional=1
 min_loading_time=17
 max_loading_time=50
 
 comfort[0]=0
-comfort[1]=87
+comfort[1]=77
 
 Constraint[Prev][0]=LBSCR-A1X
 
@@ -38,47 +37,47 @@ liverytype[2]=SR-Olive-Green
 liverytype[3]=SR-Malachite-Green
 liverytype[4]=BR-Early
 
-EmptyImage[E][0]=./carriages/lbscr-balloon-push-pull.1.4
-EmptyImage[SE][0]=./carriages/lbscr-balloon-push-pull.1.5
-EmptyImage[S][0]=./carriages/lbscr-balloon-push-pull.1.6
-EmptyImage[SW][0]=./carriages/lbscr-balloon-push-pull.1.7
-EmptyImage[W][0]=./carriages/lbscr-balloon-push-pull.1.0
-EmptyImage[NW][0]=./carriages/lbscr-balloon-push-pull.1.1
-EmptyImage[N][0]=./carriages/lbscr-balloon-push-pull.1.2
-EmptyImage[NE][0]=./carriages/lbscr-balloon-push-pull.1.3
+EmptyImage[E][0]=./carriages/lbscr-balloon-push-pull_E.0.0
+EmptyImage[SE][0]=./carriages/lbscr-balloon-push-pull_SE.0.0
+EmptyImage[S][0]=./carriages/lbscr-balloon-push-pull_S.0.0
+EmptyImage[SW][0]=./carriages/lbscr-balloon-push-pull_SW.0.0
+EmptyImage[W][0]=./carriages/lbscr-balloon-push-pull_W.0.0
+EmptyImage[NW][0]=./carriages/lbscr-balloon-push-pull_NW.0.0
+EmptyImage[N][0]=./carriages/lbscr-balloon-push-pull_N.0.0
+EmptyImage[NE][0]=./carriages/lbscr-balloon-push-pull_NE.0.0
 
-EmptyImage[E][1]=./carriages/lbscr-balloon-push-pull-late.1.4
-EmptyImage[SE][1]=./carriages/lbscr-balloon-push-pull-late.1.5
-EmptyImage[S][1]=./carriages/lbscr-balloon-push-pull-late.1.6
-EmptyImage[SW][1]=./carriages/lbscr-balloon-push-pull-late.1.7
-EmptyImage[W][1]=./carriages/lbscr-balloon-push-pull-late.1.0
-EmptyImage[NW][1]=./carriages/lbscr-balloon-push-pull-late.1.1
-EmptyImage[N][1]=./carriages/lbscr-balloon-push-pull-late.1.2
-EmptyImage[NE][1]=./carriages/lbscr-balloon-push-pull-late.1.3
+EmptyImage[E][1]=./carriages/lbscr-balloon-push-pull-late_E.0.0
+EmptyImage[SE][1]=./carriages/lbscr-balloon-push-pull-late_SE.0.0
+EmptyImage[S][1]=./carriages/lbscr-balloon-push-pull-late_S.0.0
+EmptyImage[SW][1]=./carriages/lbscr-balloon-push-pull-late_SW.0.0
+EmptyImage[W][1]=./carriages/lbscr-balloon-push-pull-late_W.0.0
+EmptyImage[NW][1]=./carriages/lbscr-balloon-push-pull-late_NW.0.0
+EmptyImage[N][1]=./carriages/lbscr-balloon-push-pull-late_N.0.0
+EmptyImage[NE][1]=./carriages/lbscr-balloon-push-pull-late_NE.0.0
 
-EmptyImage[E][2]=./carriages/lbscr-balloon-push-pull-olive.1.4
-EmptyImage[SE][2]=./carriages/lbscr-balloon-push-pull-olive.1.5
-EmptyImage[S][2]=./carriages/lbscr-balloon-push-pull-olive.1.6
-EmptyImage[SW][2]=./carriages/lbscr-balloon-push-pull-olive.1.7
-EmptyImage[W][2]=./carriages/lbscr-balloon-push-pull-olive.1.0
-EmptyImage[NW][2]=./carriages/lbscr-balloon-push-pull-olive.1.1
-EmptyImage[N][2]=./carriages/lbscr-balloon-push-pull-olive.1.2
-EmptyImage[NE][2]=./carriages/lbscr-balloon-push-pull-olive.1.3
+EmptyImage[E][2]=./carriages/lbscr-balloon-push-pull-olive_E.0.0
+EmptyImage[SE][2]=./carriages/lbscr-balloon-push-pull-olive_SE.0.0
+EmptyImage[S][2]=./carriages/lbscr-balloon-push-pull-olive_S.0.0
+EmptyImage[SW][2]=./carriages/lbscr-balloon-push-pull-olive_SW.0.0
+EmptyImage[W][2]=./carriages/lbscr-balloon-push-pull-olive_W.0.0
+EmptyImage[NW][2]=./carriages/lbscr-balloon-push-pull-olive_NW.0.0
+EmptyImage[N][2]=./carriages/lbscr-balloon-push-pull-olive_N.0.0
+EmptyImage[NE][2]=./carriages/lbscr-balloon-push-pull-olive_NE.0.0
 
-EmptyImage[E][3]=./carriages/lbscr-balloon-push-pull-malachite.1.4
-EmptyImage[SE][3]=./carriages/lbscr-balloon-push-pull-malachite.1.5
-EmptyImage[S][3]=./carriages/lbscr-balloon-push-pull-malachite.1.6
-EmptyImage[SW][3]=./carriages/lbscr-balloon-push-pull-malachite.1.7
-EmptyImage[W][3]=./carriages/lbscr-balloon-push-pull-malachite.1.0
-EmptyImage[NW][3]=./carriages/lbscr-balloon-push-pull-malachite.1.1
-EmptyImage[N][3]=./carriages/lbscr-balloon-push-pull-malachite.1.2
-EmptyImage[NE][3]=./carriages/lbscr-balloon-push-pull-malachite.1.3
+EmptyImage[E][3]=./carriages/lbscr-balloon-push-pull-malachite_E.0.0
+EmptyImage[SE][3]=./carriages/lbscr-balloon-push-pull-malachite_SE.0.0
+EmptyImage[S][3]=./carriages/lbscr-balloon-push-pull-malachite_S.0.0
+EmptyImage[SW][3]=./carriages/lbscr-balloon-push-pull-malachite_SW.0.0
+EmptyImage[W][3]=./carriages/lbscr-balloon-push-pull-malachite_W.0.0
+EmptyImage[NW][3]=./carriages/lbscr-balloon-push-pull-malachite_NW.0.0
+EmptyImage[N][3]=./carriages/lbscr-balloon-push-pull-malachite_N.0.0
+EmptyImage[NE][3]=./carriages/lbscr-balloon-push-pull-malachite_NE.0.0
 
-EmptyImage[E][4]=./carriages/lbscr-balloon-push-pull-br.1.4
-EmptyImage[SE][4]=./carriages/lbscr-balloon-push-pull-br.1.5
-EmptyImage[S][4]=./carriages/lbscr-balloon-push-pull-br.1.6
-EmptyImage[SW][4]=./carriages/lbscr-balloon-push-pull-br.1.7
-EmptyImage[W][4]=./carriages/lbscr-balloon-push-pull-br.1.0
-EmptyImage[NW][4]=./carriages/lbscr-balloon-push-pull-br.1.1
-EmptyImage[N][4]=./carriages/lbscr-balloon-push-pull-br.1.2
-EmptyImage[NE][4]=./carriages/lbscr-balloon-push-pull-br.1.3
+EmptyImage[E][4]=./carriages/lbscr-balloon-push-pull-br_E.0.0
+EmptyImage[SE][4]=./carriages/lbscr-balloon-push-pull-br_SE.0.0
+EmptyImage[S][4]=./carriages/lbscr-balloon-push-pull-br_S.0.0
+EmptyImage[SW][4]=./carriages/lbscr-balloon-push-pull-br_SW.0.0
+EmptyImage[W][4]=./carriages/lbscr-balloon-push-pull-br_W.0.0
+EmptyImage[NW][4]=./carriages/lbscr-balloon-push-pull-br_NW.0.0
+EmptyImage[N][4]=./carriages/lbscr-balloon-push-pull-br_N.0.0
+EmptyImage[NE][4]=./carriages/lbscr-balloon-push-pull-br_NE.0.0

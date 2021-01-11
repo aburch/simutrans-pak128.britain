@@ -1,9 +1,10 @@
+# http://www.railway-centre.com/class-313.html
 obj=vehicle
 name=BR-313Front
 engine_type=electric
 speed=120
 power=328
-tractive_effort=75
+tractive_effort=45
 gear=80
 copyright=Kieron
 intro_year=1975
@@ -18,7 +19,7 @@ overcrowded_capacity=56
 length=11
 rolling_resistance=13
 
-weight=36
+weight=36.0
 axles=4
 cost=1237000
 runningcost=49
@@ -77,12 +78,12 @@ retire_month=12
 waytype=track
 freight=Passagiere
 payload[0]=0
-payload[1]=84
+payload[1]=83
 overcrowded_capacity=64
 length=11
 rolling_resistance=13
 
-weight=30
+weight=31.0
 axles=4
 cost=1237000
 runningcost=0
@@ -129,7 +130,7 @@ engine_type=electric
 speed=120
 power=328
 gear=80
-tractive_effort=75
+tractive_effort=45
 copyright=Kieron
 intro_year=1975
 intro_month=12
@@ -143,7 +144,7 @@ overcrowded_capacity=56
 length=11
 rolling_resistance=13
 
-weight=38
+weight=37.5
 axles=4
 cost=1237000
 runningcost=49

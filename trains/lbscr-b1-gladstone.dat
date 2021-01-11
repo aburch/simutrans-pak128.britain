@@ -4,14 +4,15 @@ engine_type=steam
 smoke=Steam
 speed=130
 # Extrapolated
-power=257
+power=275
 # http://www.semgonline.com/steam/gladstone_dat.html
 # See also Ahrons p. 273
 tractive_effort=63
 copyright=James
 intro_year=1882
 intro_month=12
-retire_year=1891
+# Should be 1891, but no replacements until 1895.
+retire_year=1895
 retire_month=10
 waytype=track
 freight=None
@@ -19,7 +20,8 @@ payload=0
 length=4
 brake_force=20
 
-weight=39
+# https://en.wikipedia.org/wiki/LB%26SCR_B1_class
+weight=39.3
 # See Ahrons p. 288
 axle_load=14
 # These should be expensive to construct and run by comparison to equivalents:

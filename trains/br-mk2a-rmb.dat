@@ -59,6 +59,13 @@ Constraint[Next][25]=LNER-Gresley-Express-Dining
 Constraint[Next][26]=LNER-Gresley-Express-Buffet
 Constraint[Next][27]=BR-Class27
 Constraint[Next][28]=BR-Mk1-BSO-rear
+Constraint[Next][29]=BR-Mk2-PFP
+Constraint[Next][30]=BR-Mk2-PFK
+Constraint[Next][31]=BR-Mk2-PFB
+Constraint[Next][32]=BR-Mk1-PFK
+Constraint[Next][33]=BR-Mk1-PSP
+Constraint[Next][34]=BR-Mk1-PFP
+Constraint[Next][35]=pullman-1951-kitchen-first
 
 Constraint[Prev][0]=BR-Mk2-TSO
 Constraint[Prev][1]=BR-489[GLV]
@@ -89,6 +96,12 @@ Constraint[Prev][25]=LNER-Gresley-Express-Dining
 Constraint[Prev][26]=LNER-Gresley-Express-Buffet
 Constraint[Prev][27]=BR-Class27
 Constraint[Prev][28]=BR-Mk1-BSO-front
+Constraint[Prev][29]=BR-Mk2-PFP
+Constraint[Prev][30]=BR-Mk2-PFK
+Constraint[Prev][31]=BR-Mk2-PFB
+Constraint[Prev][32]=BR-Mk1-PFK
+Constraint[Prev][33]=BR-Mk1-PSP
+Constraint[Prev][34]=BR-Mk1-PFP
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard

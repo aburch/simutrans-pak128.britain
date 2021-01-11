@@ -1,12 +1,74 @@
 # https://www.flightglobal.com/FlightPDFArchive/1959/1959%20-%203114.PDF
 obj=vehicle
+name=vickers-vanguard-953
+copyright=Emmanuel Baranger
+waytype=air
+engine_type=turbine
+speed=644
+power=14869
+tractive_effort=32
+#gear=1
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=135
+payload[3]=0
+payload[4]=0
+weight=56
+#length=8
+cost=11500000
+upgrade_price=600000
+# 710 gal/hour
+runningcost=47
+fixed_cost=17986
+intro_year=1969
+intro_month=1
+retire_year=1979
+retire_month=12
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=126
+comfort[3]=126
+comfort[4]=155
+
+min_loading_time=2800
+max_loading_time=2800
+
+upgrade[0]=vickers-vanguard-953-cool
+upgrade[1]=vickers-vanguard-953-piece
+
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=2286
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=2591
+
+sound=robin-pinnock-vickers-viscount.wav
+range=2945
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+# This is probably close enough
+EmptyImage[E]=./images/vickers-vanguard-952-bea_E.0.0
+EmptyImage[SE]=./images/vickers-vanguard-952-bea_SE.0.0
+EmptyImage[S]=./images/vickers-vanguard-952-bea_S.0.0
+EmptyImage[SW]=./images/vickers-vanguard-952-bea_SW.0.0
+EmptyImage[W]=./images/vickers-vanguard-952-bea_W.0.0
+EmptyImage[NW]=./images/vickers-vanguard-952-bea_NW.0.0
+EmptyImage[N]=./images/vickers-vanguard-952-bea_N.0.0
+EmptyImage[NE]=./images/vickers-vanguard-952-bea_NE.0.0
+
+---
+
+obj=vehicle
 name=vickers-vanguard-953-piece
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=634
-power=7853
-tractive_effort=30
+speed=644
+power=14869
+tractive_effort=32
 #gear=1
 freight=Bucher
 # 32 tonnes * 810kg
@@ -56,9 +118,9 @@ name=vickers-vanguard-953-cool
 copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
-speed=634
-power=7853
-tractive_effort=30
+speed=644
+power=14869
+tractive_effort=32
 #gear=1
 freight=fish
 # 32 tonnes * 410kg
