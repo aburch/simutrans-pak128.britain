@@ -47,6 +47,7 @@ liverytype[9]=RM-Revised
 liverytype[10]=TF-Two-tone-grey
 liverytype[11]=RfD-Two-tone-grey
 liverytype[12]=Virgin-original
+liverytype[13]=Anglia-original
 
 EmptyImage[E][0]=./locomotives/br-cl47-green_E.0.0
 EmptyImage[SE][0]=./locomotives/br-cl47-green_SE.0.0
@@ -164,3 +165,12 @@ EmptyImage[W][12]=./locomotives/br-cl47-vt_W.0
 EmptyImage[NW][12]=./locomotives/br-cl47-vt_NW.0
 EmptyImage[N][12]=./locomotives/br-cl47-vt_N.0
 EmptyImage[NE][12]=./locomotives/br-cl47-vt_NE.0
+
+EmptyImage[E][13]=./locomotives/br-cl47-anglia_E.0
+EmptyImage[SE][13]=./locomotives/br-cl47-anglia_SE.0
+EmptyImage[S][13]=./locomotives/br-cl47-anglia_S.0
+EmptyImage[SW][13]=./locomotives/br-cl47-anglia_SW.0
+EmptyImage[W][13]=./locomotives/br-cl47-anglia_W.0
+EmptyImage[NW][13]=./locomotives/br-cl47-anglia_NW.0
+EmptyImage[N][13]=./locomotives/br-cl47-anglia_N.0
+EmptyImage[NE][13]=./locomotives/br-cl47-anglia_NE.0

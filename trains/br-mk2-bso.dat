@@ -40,6 +40,7 @@ liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
 liverytype[2]=Scotrail-original
 liverytype[3]=Virgin-original
+liverytype[4]=Anglia-original
 
 EmptyImage[E][0]=./carriages/br-mk2-bso-bg_E.0
 EmptyImage[SE][0]=./carriages/br-mk2-bso-bg_SE.0
@@ -76,3 +77,12 @@ EmptyImage[W][3]=./carriages/br-mk2-bso-vt_W.0
 EmptyImage[NW][3]=./carriages/br-mk2-bso-vt_NW.0
 EmptyImage[N][3]=./carriages/br-mk2-bso-vt_N.0
 EmptyImage[NE][3]=./carriages/br-mk2-bso-vt_NE.0
+
+EmptyImage[E][4]=./carriages/br-mk2-bso-anglia_E.0
+EmptyImage[SE][4]=./carriages/br-mk2-bso-anglia_SE.0
+EmptyImage[S][4]=./carriages/br-mk2-bso-anglia_S.0
+EmptyImage[SW][4]=./carriages/br-mk2-bso-anglia_SW.0
+EmptyImage[W][4]=./carriages/br-mk2-bso-anglia_W.0
+EmptyImage[NW][4]=./carriages/br-mk2-bso-anglia_NW.0
+EmptyImage[N][4]=./carriages/br-mk2-bso-anglia_N.0
+EmptyImage[NE][4]=./carriages/br-mk2-bso-anglia_NE.0

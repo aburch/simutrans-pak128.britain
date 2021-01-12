@@ -228,6 +228,7 @@ liverytype[8]=GC-Original
 liverytype[9]=GC-Daylight
 liverytype[10]=Chiltern-Mainline
 liverytype[11]=Virgin-original
+liverytype[12]=Anglia-original
 
 EmptyImage[E][0]=./carriages/br-mk3-trb-bg_E.0
 EmptyImage[SE][0]=./carriages/br-mk3-trb-bg_SE.0
@@ -336,3 +337,12 @@ EmptyImage[W][11]=./carriages/br-mk3-trb-vt_W.0.0
 EmptyImage[NW][11]=./carriages/br-mk3-trb-vt_NW.0.0
 EmptyImage[N][11]=./carriages/br-mk3-trb-vt_N.0.0
 EmptyImage[NE][11]=./carriages/br-mk3-trb-vt_NE.0.0
+
+EmptyImage[E][12]=./carriages/br-mk3-trb-anglia_E.0.0
+EmptyImage[SE][12]=./carriages/br-mk3-trb-anglia_SE.0.0
+EmptyImage[S][12]=./carriages/br-mk3-trb-anglia_S.0.0
+EmptyImage[SW][12]=./carriages/br-mk3-trb-anglia_SW.0.0
+EmptyImage[W][12]=./carriages/br-mk3-trb-anglia_W.0.0
+EmptyImage[NW][12]=./carriages/br-mk3-trb-anglia_NW.0.0
+EmptyImage[N][12]=./carriages/br-mk3-trb-anglia_N.0.0
+EmptyImage[NE][12]=./carriages/br-mk3-trb-anglia_NE.0.0

@@ -41,6 +41,7 @@ liverytype[1]=BR-Blue
 liverytype[2]=IC-Executive
 liverytype[3]=IC-Swallow
 liverytype[4]=Virgin-original
+liverytype[5]=Anglia-original
 
 EmptyImage[E][0]=./locomotives/br-cl86-b_E.0
 EmptyImage[SE][0]=./locomotives/br-cl86-b_SE.0
@@ -86,3 +87,12 @@ EmptyImage[W][4]=./locomotives/br-cl86-vt_W.0
 EmptyImage[NW][4]=./locomotives/br-cl86-vt_NW.0
 EmptyImage[N][4]=./locomotives/br-cl86-vt_N.0
 EmptyImage[NE][4]=./locomotives/br-cl86-vt_NE.0
+
+EmptyImage[E][5]=./locomotives/br-cl86-anglia_E.0
+EmptyImage[SE][5]=./locomotives/br-cl86-anglia_SE.0
+EmptyImage[S][5]=./locomotives/br-cl86-anglia_S.0
+EmptyImage[SW][5]=./locomotives/br-cl86-anglia_SW.0
+EmptyImage[W][5]=./locomotives/br-cl86-anglia_W.0
+EmptyImage[NW][5]=./locomotives/br-cl86-anglia_NW.0
+EmptyImage[N][5]=./locomotives/br-cl86-anglia_N.0
+EmptyImage[NE][5]=./locomotives/br-cl86-anglia_NE.0
