@@ -117,6 +117,7 @@ Constraint[Prev][1]=none
 Constraint[Next][0]=BR-319Pantograph
 
 liverytype[0]=NSE-Standard
+liverytype[1]=Northern
 
 EmptyImage[E][0]=./railcars/br-319-dtco-front-nse_E.0.0
 EmptyImage[SE][0]=./railcars/br-319-dtco-front-nse_SE.0.0
@@ -126,6 +127,15 @@ EmptyImage[W][0]=./railcars/br-319-dtco-front-nse_W.0.0
 EmptyImage[NW][0]=./railcars/br-319-dtco-front-nse_NW.0.0
 EmptyImage[N][0]=./railcars/br-319-dtco-front-nse_N.0.0
 EmptyImage[NE][0]=./railcars/br-319-dtco-front-nse_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-319-front-northern2016_E.png
+EmptyImage[SE][1]=./railcars/br-319-front-northern2016_SE.png
+EmptyImage[S][1]=./railcars/br-319-front-northern2016_S.png
+EmptyImage[SW][1]=./railcars/br-319-front-northern2016_SW.png
+EmptyImage[W][1]=./railcars/br-319-front-northern2016_W.png
+EmptyImage[NW][1]=./railcars/br-319-front-northern2016_NW.png
+EmptyImage[N][1]=./railcars/br-319-front-northern2016_N.png
+EmptyImage[NE][1]=./railcars/br-319-front-northern2016_NE.png
 
 ---
 
