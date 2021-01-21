@@ -46,7 +46,9 @@ cost=500
 maintenance=5
 waytype=road
 min_speed=80
-single_way=1
+# Single way no longer necessary since we have oneway mode.
+# Also, this seems to cause trouble with routing.
+#single_way=1
 allow_underground=2
 intro_year=1958
 intro_month=12
