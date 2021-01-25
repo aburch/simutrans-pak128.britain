@@ -24,6 +24,9 @@ Constraint[Prev][8]=Super-Loch
 
 Constraint[Next][0]=none
 
+way_constraint_prohibitive[5]=5 # Ship
+way_constraint_prohibitive[6]=6 # Large ship
+
 EmptyImage[E]=../images/holds.0.1,96,64
 EmptyImage[SE]=../images/holds.0.1,80,32
 EmptyImage[S]=../images/holds.0.1,48,64
