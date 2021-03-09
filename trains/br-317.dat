@@ -2,7 +2,7 @@
 obj=vehicle
 name=BR-317-Driving-Front
 speed=160
-copyright=Kieron/JamesPetts
+copyright=Kieron/JamesPetts/Rollmaterial
 intro_year=1981
 intro_month=1
 retire_year=1987
@@ -45,6 +45,7 @@ Constraint[Next][0]=BR-317-Trailer
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=One
 
 EmptyImage[E][0]=./railcars/br-317-driving-trailer-front-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-317-driving-trailer-front-bg_SE.0.0
@@ -63,12 +64,22 @@ EmptyImage[W][1]=./railcars/br-455-driving-trailer-front-nse_W.0.0
 EmptyImage[NW][1]=./railcars/br-455-driving-trailer-front-nse_NW.0.0
 EmptyImage[N][1]=./railcars/br-455-driving-trailer-front-nse_N.0.0
 EmptyImage[NE][1]=./railcars/br-455-driving-trailer-front-nse_NE.0.0
+
+EmptyImage[E][2]=./railcars/br-317-driving-trailer-front-one_E.0.0
+EmptyImage[SE][2]=./railcars/br-317-driving-trailer-front-one_SE.0.0
+EmptyImage[S][2]=./railcars/br-317-driving-trailer-front-one_S.0.0
+EmptyImage[SW][2]=./railcars/br-317-driving-trailer-front-one_SW.0.0
+EmptyImage[W][2]=./railcars/br-317-driving-trailer-front-one_W.0.0
+EmptyImage[NW][2]=./railcars/br-317-driving-trailer-front-one_NW.0.0
+EmptyImage[N][2]=./railcars/br-317-driving-trailer-front-one_N.0.0
+EmptyImage[NE][2]=./railcars/br-317-driving-trailer-front-one_NE.0.0
+
 ---
 
 obj=vehicle
 name=BR-317-Motor
 speed=160
-copyright=Kieron/JamesPetts
+copyright=Kieron/JamesPetts/Rollmaterial
 intro_year=1981
 intro_month=1
 retire_year=1987
@@ -111,6 +122,7 @@ Constraint[Prev][0]=BR-317-Trailer
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=One
 
 EmptyImage[E][0]=./railcars/br-317-motor-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-317-motor-bg_SE.0.0
@@ -121,21 +133,30 @@ EmptyImage[NW][0]=./railcars/br-317-motor-bg_NW.0.0
 EmptyImage[N][0]=./railcars/br-317-motor-bg_N.0.0
 EmptyImage[NE][0]=./railcars/br-317-motor-bg_NE.0.0
 
-EmptyImage[E][1]=./railcars/br-455-motor-nse_E.0.0
-EmptyImage[SE][1]=./railcars/br-455-motor-nse_SE.0.0
-EmptyImage[S][1]=./railcars/br-455-motor-nse_S.0.0
-EmptyImage[SW][1]=./railcars/br-455-motor-nse_SW.0.0
-EmptyImage[W][1]=./railcars/br-455-motor-nse_W.0.0
-EmptyImage[NW][1]=./railcars/br-455-motor-nse_NW.0.0
-EmptyImage[N][1]=./railcars/br-455-motor-nse_N.0.0
-EmptyImage[NE][1]=./railcars/br-455-motor-nse_NE.0.0
+EmptyImage[E][1]=./railcars/br-317-motor-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-317-motor-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-317-motor-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-317-motor-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-317-motor-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-317-motor-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-317-motor-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-317-motor-nse_NE.0.0
+
+EmptyImage[E][2]=./railcars/br-317-motor-one_E.0.0
+EmptyImage[SE][2]=./railcars/br-317-motor-one_SE.0.0
+EmptyImage[S][2]=./railcars/br-317-motor-one_S.0.0
+EmptyImage[SW][2]=./railcars/br-317-motor-one_SW.0.0
+EmptyImage[W][2]=./railcars/br-317-motor-one_W.0.0
+EmptyImage[NW][2]=./railcars/br-317-motor-one_NW.0.0
+EmptyImage[N][2]=./railcars/br-317-motor-one_N.0.0
+EmptyImage[NE][2]=./railcars/br-317-motor-one_NE.0.0
 
 ---
 
 obj=vehicle
 name=BR-317-Trailer
 speed=160
-copyright=Kieron/JamesPetts
+copyright=Kieron/JamesPetts/Rollmaterial
 intro_year=1981
 intro_month=1
 retire_year=1987
@@ -176,6 +197,7 @@ Constraint[Next][0]=BR-317-Motor
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=One
 
 # The 210 and 317 trailers are identical in appearance.
 # The original 317 graphics (kept in reserve) do not 
@@ -198,12 +220,21 @@ EmptyImage[NW][1]=./railcars/br-210-trailer-composite-nse_NW.0.0
 EmptyImage[N][1]=./railcars/br-210-trailer-composite-nse_N.0.0
 EmptyImage[NE][1]=./railcars/br-210-trailer-composite-nse_NE.0.0
 
+EmptyImage[E][2]=./railcars/br-317-trailer-one_E.0.0
+EmptyImage[SE][2]=./railcars/br-317-trailer-one_SE.0.0
+EmptyImage[S][2]=./railcars/br-317-trailer-one_S.0.0
+EmptyImage[SW][2]=./railcars/br-317-trailer-one_SW.0.0
+EmptyImage[W][2]=./railcars/br-317-trailer-one_W.0.0
+EmptyImage[NW][2]=./railcars/br-317-trailer-one_NW.0.0
+EmptyImage[N][2]=./railcars/br-317-trailer-one_N.0.0
+EmptyImage[NE][2]=./railcars/br-317-trailer-one_NE.0.0
+
 ---
 
 obj=vehicle
 name=BR-317-Driving-Rear
 speed=160
-copyright=Kieron/JamesPetts
+copyright=Kieron/JamesPetts/Rollmaterial
 intro_year=1981
 intro_month=1
 retire_year=1987
@@ -246,6 +277,7 @@ Constraint[Prev][0]=BR-317-Motor
 
 liverytype[0]=BR-Blue
 liverytype[1]=NSE-Standard
+liverytype[2]=One
 
 EmptyImage[E][0]=./railcars/br-317-driving-trailer-rear-bg_E.0.0
 EmptyImage[SE][0]=./railcars/br-317-driving-trailer-rear-bg_SE.0.0
@@ -264,3 +296,12 @@ EmptyImage[W][1]=./railcars/br-455-driving-trailer-rear-nse_W.0.0
 EmptyImage[NW][1]=./railcars/br-455-driving-trailer-rear-nse_NW.0.0
 EmptyImage[N][1]=./railcars/br-455-driving-trailer-rear-nse_N.0.0
 EmptyImage[NE][1]=./railcars/br-455-driving-trailer-rear-nse_NE.0.0
+
+EmptyImage[E][2]=./railcars/br-317-driving-trailer-rear-one_E.0.0
+EmptyImage[SE][2]=./railcars/br-317-driving-trailer-rear-one_SE.0.0
+EmptyImage[S][2]=./railcars/br-317-driving-trailer-rear-one_S.0.0
+EmptyImage[SW][2]=./railcars/br-317-driving-trailer-rear-one_SW.0.0
+EmptyImage[W][2]=./railcars/br-317-driving-trailer-rear-one_W.0.0
+EmptyImage[NW][2]=./railcars/br-317-driving-trailer-rear-one_NW.0.0
+EmptyImage[N][2]=./railcars/br-317-driving-trailer-rear-one_N.0.0
+EmptyImage[NE][2]=./railcars/br-317-driving-trailer-rear-one_NE.0.0
