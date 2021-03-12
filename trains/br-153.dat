@@ -68,16 +68,26 @@ Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
 Constraint[Next][12]=none
 
+liverytype[0]=Regional-Railways-Standard
+liverytype[1]=One
 
+EmptyImage[E][0]=./railcars/br-153-rr.0.0
+EmptyImage[SE][0]=./railcars/br-153-rr.0.1
+EmptyImage[S][0]=./railcars/br-153-rr.0.2
+EmptyImage[SW][0]=./railcars/br-153-rr.0.3
+EmptyImage[W][0]=./railcars/br-153-rr.0.4
+EmptyImage[NW][0]=./railcars/br-153-rr.0.5
+EmptyImage[N][0]=./railcars/br-153-rr.0.6
+EmptyImage[NE][0]=./railcars/br-153-rr.0.7
 
-EmptyImage[E]=./railcars/br-153-rr.0.0
-EmptyImage[SE]=./railcars/br-153-rr.0.1
-EmptyImage[S]=./railcars/br-153-rr.0.2
-EmptyImage[SW]=./railcars/br-153-rr.0.3
-EmptyImage[W]=./railcars/br-153-rr.0.4
-EmptyImage[NW]=./railcars/br-153-rr.0.5
-EmptyImage[N]=./railcars/br-153-rr.0.6
-EmptyImage[NE]=./railcars/br-153-rr.0.7
+EmptyImage[E][1]=./railcars/br-153-one_E.0.0
+EmptyImage[SE][1]=./railcars/br-153-one_SE.0.0
+EmptyImage[S][1]=./railcars/br-153-one_S.0.0
+EmptyImage[SW][1]=./railcars/br-153-one_SW.0.0
+EmptyImage[W][1]=./railcars/br-153-one_W.0.0
+EmptyImage[NW][1]=./railcars/br-153-one_NW.0.0
+EmptyImage[N][1]=./railcars/br-153-one_N.0.0
+EmptyImage[NE][1]=./railcars/br-153-one_NE.0.0
 
 -----
 
@@ -150,11 +160,23 @@ Constraint[Next][10]=br-144-1-front
 Constraint[Next][11]=BR-170Front
 Constraint[Next][12]=none
 
-EmptyImage[E]=./railcars/br-153-rr.0.0
-EmptyImage[SE]=./railcars/br-153-rr.0.1
-EmptyImage[S]=./railcars/br-153-rr.0.2
-EmptyImage[SW]=./railcars/br-153-rr.0.3
-EmptyImage[W]=./railcars/br-153-rr.0.4
-EmptyImage[NW]=./railcars/br-153-rr.0.5
-EmptyImage[N]=./railcars/br-153-rr.0.6
-EmptyImage[NE]=./railcars/br-153-rr.0.7
+liverytype[0]=Regional-Railways-Standard
+liverytype[1]=One
+
+EmptyImage[E][0]=./railcars/br-153-rr.0.0
+EmptyImage[SE][0]=./railcars/br-153-rr.0.1
+EmptyImage[S][0]=./railcars/br-153-rr.0.2
+EmptyImage[SW][0]=./railcars/br-153-rr.0.3
+EmptyImage[W][0]=./railcars/br-153-rr.0.4
+EmptyImage[NW][0]=./railcars/br-153-rr.0.5
+EmptyImage[N][0]=./railcars/br-153-rr.0.6
+EmptyImage[NE][0]=./railcars/br-153-rr.0.7
+
+EmptyImage[E][1]=./railcars/br-153-one_E.0.0
+EmptyImage[SE][1]=./railcars/br-153-one_SE.0.0
+EmptyImage[S][1]=./railcars/br-153-one_S.0.0
+EmptyImage[SW][1]=./railcars/br-153-one_SW.0.0
+EmptyImage[W][1]=./railcars/br-153-one_W.0.0
+EmptyImage[NW][1]=./railcars/br-153-one_NW.0.0
+EmptyImage[N][1]=./railcars/br-153-one_N.0.0
+EmptyImage[NE][1]=./railcars/br-153-one_NE.0.0
