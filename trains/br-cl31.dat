@@ -6,7 +6,7 @@ speed=145
 power=1097
 gear=50
 tractive_effort=160
-copyright=Kieron/JamesPetts
+copyright=Kieron/JamesPetts/Rollmaterial
 intro_year=1964
 intro_month=3
 retire_year=1975
@@ -46,6 +46,7 @@ Constraint[Prev][11]=none
 
 liverytype[0]=BR-Revised
 liverytype[1]=BR-Blue
+liverytype[2]=Regional-Railways-Standard
 
 EmptyImage[E][0]=./locomotives/br-cl31-g_E.0.0
 EmptyImage[SE][0]=./locomotives/br-cl31-g_SE.0.0
@@ -64,3 +65,12 @@ EmptyImage[W][1]=./locomotives/br-cl31-b_W.0.0
 EmptyImage[NW][1]=./locomotives/br-cl31-b_NW.0.0
 EmptyImage[N][1]=./locomotives/br-cl31-b_N.0.0
 EmptyImage[NE][1]=./locomotives/br-cl31-b_NE.0.0
+
+EmptyImage[E][2]=./locomotives/br-cl31-rr_E.0.0
+EmptyImage[SE][2]=./locomotives/br-cl31-rr_SE.0.0
+EmptyImage[S][2]=./locomotives/br-cl31-rr_S.0.0
+EmptyImage[SW][2]=./locomotives/br-cl31-rr_SW.0.0
+EmptyImage[W][2]=./locomotives/br-cl31-rr_W.0.0
+EmptyImage[NW][2]=./locomotives/br-cl31-rr_NW.0.0
+EmptyImage[N][2]=./locomotives/br-cl31-rr_N.0.0
+EmptyImage[NE][2]=./locomotives/br-cl31-rr_NE.0.0
