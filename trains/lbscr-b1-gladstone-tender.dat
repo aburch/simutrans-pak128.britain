@@ -3,9 +3,10 @@ name=LBSCR-B1-Gladstone-Tender
 engine_type=steam
 speed=135
 copyright=James
-intro_year=1872
-intro_month=2
-retire_year=1891
+intro_year=1882
+intro_month=12
+# Should be 1891, but no replacements until 1895.
+retire_year=1895
 retire_month=10
 waytype=track
 freight=None
