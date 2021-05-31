@@ -8,7 +8,7 @@ engine_type=petrol
 freight=Passagiere
 payload=30
 overcrowded_capacity=3
-speed=50
+speed=32
 power=30
 tractive_effort=5
 gear=50
@@ -27,9 +27,9 @@ retire_month=12
 sound=gareth-bull-leyland-titan-td1.wav
 
 comfort=42
-# Single door with conductor: 2.5 seconds per passenger
-min_loading_time=4
-max_loading_time=75
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=60
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
@@ -48,7 +48,7 @@ liverytype[10]=LT-revised
 liverytype[11]=General-Country
 liverytype[12]=LT-Green
 liverytype[13]=LT-Green-modified
-liverytype[14]=Chocolate-Express-Standard
+liverytype[14]=Private
 liverytype[15]=Bradford-standard
 
 EmptyImage[E][0]=./images/adc-416-east-surrey_E.0.0,-33,14
@@ -205,7 +205,7 @@ engine_type=petrol
 freight=Passagiere
 payload=30
 overcrowded_capacity=3
-speed=50
+speed=32
 power=26
 tractive_effort=5
 gear=50
@@ -223,9 +223,9 @@ retire_month=7
 sound=graham-french-tilling-stevens-1930.wav
 
 comfort=42
-# Single door with conductor: 2.5 seconds per passenger
-min_loading_time=4
-max_loading_time=75
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=60
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
@@ -244,7 +244,7 @@ liverytype[10]=LT-revised
 liverytype[11]=General-Country
 liverytype[12]=LT-Green
 liverytype[13]=LT-Green-modified
-liverytype[14]=Chocolate-Express-Standard
+liverytype[14]=Private
 liverytype[15]=Bradford-standard
 
 EmptyImage[E][0]=./images/adc-416-east-surrey_E.0.0,-33,14

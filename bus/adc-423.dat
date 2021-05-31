@@ -8,7 +8,7 @@ engine_type=petrol
 freight=Passagiere
 payload=30
 overcrowded_capacity=3
-speed=50
+speed=32
 power=30
 tractive_effort=5
 gear=50
@@ -48,7 +48,7 @@ liverytype[10]=LT-revised
 liverytype[11]=General-Country
 liverytype[12]=LT-Green
 liverytype[13]=LT-Green-modified
-liverytype[14]=Chocolate-Express-Standard
+liverytype[14]=Private
 liverytype[15]=Bradford-standard
 
 EmptyImage[E][0]=./images/adc-416-east-surrey_E.0.0,-33,14
