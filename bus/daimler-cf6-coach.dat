@@ -1,7 +1,7 @@
-# The normal control coach version of the ADC 423
-# CV25 engine (mark IV)
+# Essentially an engine upgrade to the ADC 424 coach	
+# CV35 engine
 obj=vehicle
-name=adc-424-coach
+name=daimler-cf6-coach
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=petrol
@@ -9,22 +9,20 @@ freight=Passagiere
 payload=24
 overcrowded_capacity=0
 speed=50
-power=30
-# Reduced as assumed to be geard for higher top speed
-tractive_effort=4
+power=36
+tractive_effort=5
 gear=50
 # Guessing to be similar to the Regal
 weight=6.3
 axles=2
 length=5
 cost=404100
-# More reliable than ADC 416D
-runningcost=36
-fixed_cost=8205
-intro_year=1927
-intro_month=11
-retire_year=1930
-retire_month=1
+runningcost=39
+fixed_cost=8200
+intro_year=1928
+intro_month=12
+retire_year=1932
+retire_month=8
 sound=gareth-bull-leyland-titan-td1.wav
 
 comfort=76

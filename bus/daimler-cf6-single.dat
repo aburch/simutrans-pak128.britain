@@ -1,35 +1,36 @@
-# http://web.archive.org/web/20190220170115/http://www.countrybus.org/ADC/ADC.html
-# CV25 engine (mark IV)
+# Townsin p. 28
+# Double deck version not successful
+# Engine upgrade of ADC 423
+# CV35 engine 
 obj=vehicle
-name=adc-423
+name=daimler-cf6-single
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=petrol
 freight=Passagiere
 payload=30
 overcrowded_capacity=3
-speed=32
-power=30
+speed=50
+power=36
 tractive_effort=5
 gear=50
 # Guessing to be similar to the Regal
-weight=6.2
+weight=6.3
 axles=2
 length=5
 cost=381100
-# More reliable than ADC 416D
 runningcost=36
-fixed_cost=8189
-intro_year=1927
-intro_month=11
-retire_year=1930
-retire_month=1
+fixed_cost=8100
+intro_year=1928
+intro_month=12
+retire_year=1932
+retire_month=8
 sound=gareth-bull-leyland-titan-td1.wav
 
 comfort=42
-# Rear platform with conductor: 2.0 seconds per passenger
-min_loading_time=3
-max_loading_time=60
+# Single door with conductor: 2.5 seconds per passenger
+min_loading_time=4
+max_loading_time=75
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
