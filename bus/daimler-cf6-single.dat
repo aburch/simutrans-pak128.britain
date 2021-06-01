@@ -52,6 +52,7 @@ liverytype[12]=LT-Green
 liverytype[13]=LT-Green-modified
 liverytype[14]=Private
 liverytype[15]=Bradford-standard
+liverytype[16]=Ribble-standard
 
 EmptyImage[E][0]=./images/adc-416-east-surrey_E.0.0,-33,14
 EmptyImage[SE][0]=./images/adc-416-east-surrey_SE.0.0,-13,0
@@ -196,4 +197,13 @@ EmptyImage[W][15]=./images/adc-416-bradford_W.0.0,4,5
 EmptyImage[NW][15]=./images/adc-416-bradford_NW.0.0,12,10
 EmptyImage[N][15]=./images/adc-416-bradford_N.0.0,0,33
 EmptyImage[NE][15]=./images/adc-416-bradford_NE.0.0,0,24
+
+EmptyImage[E][16]=./images/adc-416-ribble_E.0.0,-33,14
+EmptyImage[SE][16]=./images/adc-416-ribble_SE.0.0,-13,0
+EmptyImage[S][16]=./images/adc-416-ribble_S.0.0,0,0
+EmptyImage[SW][16]=./images/adc-416-ribble_SW.0.0,-8,10
+EmptyImage[W][16]=./images/adc-416-ribble_W.0.0,4,5
+EmptyImage[NW][16]=./images/adc-416-ribble_NW.0.0,12,10
+EmptyImage[N][16]=./images/adc-416-ribble_N.0.0,0,33
+EmptyImage[NE][16]=./images/adc-416-ribble_NE.0.0,0,24
 

@@ -41,6 +41,7 @@ liverytype[0]=Tilling-early
 liverytype[1]=Tilling-standard
 liverytype[2]=Southdown-standard
 liverytype[3]=Private
+liverytype[4]=Ribble-coach
 
 EmptyImage[E][0]=./images/adc-424-coach-tilling-early_E.0.0,-33,14
 EmptyImage[SE][0]=./images/adc-424-coach-tilling-early_SE.0.0,-13,0
@@ -77,3 +78,12 @@ EmptyImage[W][3]=./images/adc-424-coach-royal-blue_W.0.0,4,5
 EmptyImage[NW][3]=./images/adc-424-coach-royal-blue_NW.0.0,12,10
 EmptyImage[N][3]=./images/adc-424-coach-royal-blue_N.0.0,0,33
 EmptyImage[NE][3]=./images/adc-424-coach-royal-blue_NE.0.0,0,24
+
+EmptyImage[E][4]=./images/adc-424-coach-ribble_E.0.0,-33,14
+EmptyImage[SE][4]=./images/adc-424-coach-ribble_SE.0.0,-13,0
+EmptyImage[S][4]=./images/adc-424-coach-ribble_S.0.0,0,0
+EmptyImage[SW][4]=./images/adc-424-coach-ribble_SW.0.0,-8,10
+EmptyImage[W][4]=./images/adc-424-coach-ribble_W.0.0,4,5
+EmptyImage[NW][4]=./images/adc-424-coach-ribble_NW.0.0,12,10
+EmptyImage[N][4]=./images/adc-424-coach-ribble_N.0.0,0,33
+EmptyImage[NE][4]=./images/adc-424-coach-ribble_NE.0.0,0,24
