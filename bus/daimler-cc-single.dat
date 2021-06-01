@@ -42,6 +42,7 @@ liverytype[4]=Southdown-standard
 liverytype[5]=Birmingham-Corporation
 liverytype[6]=Sheffield-dark
 liverytype[7]=Sheffield-light
+liverytype[8]=Ribble-standard
 
 EmptyImage[E][0]=./images/daimler-cc-single-east-surrey_E.0.0,-33,14
 EmptyImage[SE][0]=./images/daimler-cc-single-east-surrey_SE.0.0,-13,0
@@ -115,3 +116,11 @@ EmptyImage[NW][7]=./images/daimler-cc-single-sheffield_NW.0.0,12,10
 EmptyImage[N][7]=./images/daimler-cc-single-sheffield_N.0.0,0,33
 EmptyImage[NE][7]=./images/daimler-cc-single-sheffield_NE.0.0,0,24
 
+EmptyImage[E][8]=./images/daimler-cc-single-ribble_E.0.0,-33,14
+EmptyImage[SE][8]=./images/daimler-cc-single-ribble_SE.0.0,-13,0
+EmptyImage[S][8]=./images/daimler-cc-single-ribble_S.0.0,0,0
+EmptyImage[SW][8]=./images/daimler-cc-single-ribble_SW.0.0,-8,10
+EmptyImage[W][8]=./images/daimler-cc-single-ribble_W.0.0,4,5
+EmptyImage[NW][8]=./images/daimler-cc-single-ribble_NW.0.0,12,10
+EmptyImage[N][8]=./images/daimler-cc-single-ribble_N.0.0,0,33
+EmptyImage[NE][8]=./images/daimler-cc-single-ribble_NE.0.0,0,24

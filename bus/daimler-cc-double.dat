@@ -43,6 +43,7 @@ liverytype[4]=Southdown-standard
 liverytype[5]=Birmingham-Corporation
 liverytype[6]=Sheffield-dark
 liverytype[7]=Sheffield-light
+liverytype[8]=Ribble-standard
 
 EmptyImage[E][0]=./images/daimler-cc-double-east-surrey_E.0.0,-33,14
 EmptyImage[SE][0]=./images/daimler-cc-double-east-surrey_SE.0.0,-13,0
@@ -187,3 +188,21 @@ FreightImage[W][7]=./images/daimler-cc-double-sheffield-loaded_W.0.0,4,5
 FreightImage[NW][7]=./images/daimler-cc-double-sheffield-loaded_NW.0.0,12,10
 FreightImage[N][7]=./images/daimler-cc-double-sheffield-loaded_N.0.0,0,33
 FreightImage[NE][7]=./images/daimler-cc-double-sheffield-loaded_NE.0.0,0,24
+
+EmptyImage[E][8]=./images/daimler-cc-double-ribble_E.0.0,-33,14
+EmptyImage[SE][8]=./images/daimler-cc-double-ribble_SE.0.0,-13,0
+EmptyImage[S][8]=./images/daimler-cc-double-ribble_S.0.0,0,0
+EmptyImage[SW][8]=./images/daimler-cc-double-ribble_SW.0.0,-8,10
+EmptyImage[W][8]=./images/daimler-cc-double-ribble_W.0.0,4,5
+EmptyImage[NW][8]=./images/daimler-cc-double-ribble_NW.0.0,12,10
+EmptyImage[N][8]=./images/daimler-cc-double-ribble_N.0.0,0,33
+EmptyImage[NE][8]=./images/daimler-cc-double-ribble_NE.0.0,0,24
+
+FreightImage[E][8]=./images/daimler-cc-double-ribble-loaded_E.0.0,-33,14
+FreightImage[SE][8]=./images/daimler-cc-double-ribble-loaded_SE.0.0,-13,0
+FreightImage[S][8]=./images/daimler-cc-double-ribble-loaded_S.0.0,4,0
+FreightImage[SW][8]=./images/daimler-cc-double-ribble-loaded_SW.0.0,-8,10
+FreightImage[W][8]=./images/daimler-cc-double-ribble-loaded_W.0.0,4,5
+FreightImage[NW][8]=./images/daimler-cc-double-ribble-loaded_NW.0.0,12,10
+FreightImage[N][8]=./images/daimler-cc-double-ribble-loaded_N.0.0,0,33
+FreightImage[NE][8]=./images/daimler-cc-double-ribble-loaded_NE.0.0,0,24

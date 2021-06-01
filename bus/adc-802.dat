@@ -46,6 +46,7 @@ liverytype[6]=General
 liverytype[7]=LT
 liverytype[8]=Private
 liverytype[9]=Bradford-standard
+liverytype[10]=Ribble-standard
 
 EmptyImage[E][0]=./images/adc-802-tilling-early_E.0.0,-33,14
 EmptyImage[SE][0]=./images/adc-802-tilling-early_SE.0.0,-13,0
@@ -136,3 +137,12 @@ EmptyImage[W][9]=./images/adc-802-bradford_W.0.0,4,5
 EmptyImage[NW][9]=./images/adc-802-bradford_NW.0.0,12,10
 EmptyImage[N][9]=./images/adc-802-bradford_N.0.0,0,33
 EmptyImage[NE][9]=./images/adc-802-bradford_NE.0.0,0,24
+
+EmptyImage[E][10]=./images/adc-802-ribble_E.0.0,-33,14
+EmptyImage[SE][10]=./images/adc-802-ribble_SE.0.0,-13,0
+EmptyImage[S][10]=./images/adc-802-ribble_S.0.0,0,0
+EmptyImage[SW][10]=./images/adc-802-ribble_SW.0.0,-8,10
+EmptyImage[W][10]=./images/adc-802-ribble_W.0.0,4,5
+EmptyImage[NW][10]=./images/adc-802-ribble_NW.0.0,12,10
+EmptyImage[N][10]=./images/adc-802-ribble_N.0.0,0,33
+EmptyImage[NE][10]=./images/adc-802-ribble_NE.0.0,0,24
