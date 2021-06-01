@@ -1,5 +1,5 @@
 # See Townsin pp. 34-40
-# CV35 sleeve valve engine
+# CV35 sleeve valve engine with epicyclic gearbox
 obj=vehicle
 name=daimler-ch6-double
 copyright=JamesPetts&JamesHood
@@ -10,10 +10,11 @@ payload=52
 overcrowded_capacity=3
 speed=50
 power=36
-tractive_effort=5
+# Better TE owing to epicyclic gearbox (assuming that drivers can change gear faster)
+tractive_effort=6
 gear=50
 # Guessed to be slightly lighter than the COG-5
-weight=5.7
+weight=5.9
 length=6
 cost=465000
 runningcost=41
@@ -37,6 +38,8 @@ liverytype[0]=Birmingham-Corporation
 liverytype[1]=Bradford-standard
 liverytype[2]=Sheffield-dark
 liverytype[3]=Sheffield-light
+liverytype[4]=Southdown-standard
+liverytype[5]=Ribble-standard
 
 EmptyImage[E][0]=./images/daimler-ch6-double-birmingham_E.0.0,-33,14
 EmptyImage[SE][0]=./images/daimler-ch6-double-birmingham_SE.0.0,-13,0
@@ -73,3 +76,21 @@ EmptyImage[W][3]=./images/daimler-ch6-double-sheffield_W.0.0,4,5
 EmptyImage[NW][3]=./images/daimler-ch6-double-sheffield_NW.0.0,12,10
 EmptyImage[N][3]=./images/daimler-ch6-double-sheffield_N.0.0,0,33
 EmptyImage[NE][3]=./images/daimler-ch6-double-sheffield_NE.0.0,0,24
+
+EmptyImage[E][4]=./images/daimler-ch6-double-southdown_E.0.0,-33,14
+EmptyImage[SE][4]=./images/daimler-ch6-double-southdown_SE.0.0,-13,0
+EmptyImage[S][4]=./images/daimler-ch6-double-southdown_S.0.0,0,0
+EmptyImage[SW][4]=./images/daimler-ch6-double-southdown_SW.0.0,-8,10
+EmptyImage[W][4]=./images/daimler-ch6-double-southdown_W.0.0,4,5
+EmptyImage[NW][4]=./images/daimler-ch6-double-southdown_NW.0.0,12,10
+EmptyImage[N][4]=./images/daimler-ch6-double-southdown_N.0.0,0,33
+EmptyImage[NE][4]=./images/daimler-ch6-double-southdown_NE.0.0,0,24
+
+EmptyImage[E][5]=./images/daimler-ch6-double-ribble_E.0.0,-33,14
+EmptyImage[SE][5]=./images/daimler-ch6-double-ribble_SE.0.0,-13,0
+EmptyImage[S][5]=./images/daimler-ch6-double-ribble_S.0.0,0,0
+EmptyImage[SW][5]=./images/daimler-ch6-double-ribble_SW.0.0,-8,10
+EmptyImage[W][5]=./images/daimler-ch6-double-ribble_W.0.0,4,5
+EmptyImage[NW][5]=./images/daimler-ch6-double-ribble_NW.0.0,12,10
+EmptyImage[N][5]=./images/daimler-ch6-double-ribble_N.0.0,0,33
+EmptyImage[NE][5]=./images/daimler-ch6-double-ribble_NE.0.0,0,24
