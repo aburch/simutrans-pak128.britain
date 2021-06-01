@@ -1,5 +1,6 @@
 # See http://beamishtransportonline.co.uk/wp-content/uploads/blogger/-ZQgM9wptifc/Tw8kF6d3VQI/AAAAAAAAGMk/ZM9N3TU0-P4/s1600/18130.jpg
 # for an illustration. These were said to be very similar to the AEC B-type, but I cannot find specific data. 
+# CC30 sleeve valve engine
 obj=vehicle
 name=daimler-cc-double
 copyright=JamesPetts&JamesHood
@@ -9,7 +10,8 @@ freight=Passagiere
 payload=34
 overcrowded_capacity=2
 speed=20
-power=30
+# Townsin p. 17
+power=22
 tractive_effort=5
 gear=50
 weight=4.0
@@ -25,7 +27,7 @@ retire_month=1
 is_tall=1
 sound=graham-french-leyland-n-type.wav
 
-comfort=20
+comfort=22
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=68

@@ -1,5 +1,5 @@
 # http://web.archive.org/web/20190220170115/http://www.countrybus.org/ADC/ADC.html
-
+# CV25 engine
 obj=vehicle
 name=adc-416d
 copyright=JamesPetts&JamesHood
@@ -196,7 +196,7 @@ EmptyImage[N][15]=./images/adc-416-bradford_N.0.0,0,33
 EmptyImage[NE][15]=./images/adc-416-bradford_NE.0.0,0,24
 
 ---
-
+# AEC 4 cylinder engine
 obj=vehicle
 name=adc-416a
 copyright=JamesPetts&JamesHood

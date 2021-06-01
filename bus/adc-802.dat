@@ -1,7 +1,7 @@
 # See Townsin pp. 26-27
 # https://www.flickr.com/photos/116071498@N08/14611348993
 # https://www.flickr.com/photos/116071498@N08/14594478824
-#
+# CV35 engine
 obj=vehicle
 name=adc-802
 copyright=JamesPetts&JamesHood
@@ -35,7 +35,6 @@ max_loading_time=136
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
-
 
 liverytype[0]=Tilling-early
 liverytype[1]=Tilling-standard

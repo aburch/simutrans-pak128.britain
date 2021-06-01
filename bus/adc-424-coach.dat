@@ -1,0 +1,78 @@
+# The normal control coach version of the ADC 423
+# CV25 engine (mark IV)
+obj=vehicle
+name=adc-424-coach
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+payload=24
+overcrowded_capacity=0
+speed=50
+power=30
+# Reduced as assumed to be geard for higher top speed
+tractive_effort=4
+gear=50
+# Guessing to be similar to the Regal
+weight=6.3
+axles=2
+length=5
+cost=404100
+# More reliable than ADC 416D
+runningcost=36
+fixed_cost=8205
+intro_year=1927
+intro_month=11
+# Bring forward when the Daimler CF coach is introduced
+retire_year=1939
+retire_month=7
+sound=gareth-bull-leyland-titan-td1.wav
+
+comfort=76
+# Coach: 7.5 seconds per passenger
+min_loading_time=20
+max_loading_time=180
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Tilling-early
+liverytype[1]=Tilling-standard
+liverytype[2]=Southdown-standard
+liverytype[3]=Private
+
+EmptyImage[E][0]=./images/adc-424-coach-tilling-early_E.0.0,-33,14
+EmptyImage[SE][0]=./images/adc-424-coach-tilling-early_SE.0.0,-13,0
+EmptyImage[S][0]=./images/adc-424-coach-tilling-early_S.0.0,0,0
+EmptyImage[SW][0]=./images/adc-424-coach-tilling-early_SW.0.0,-8,10
+EmptyImage[W][0]=./images/adc-424-coach-tilling-early_W.0.0,4,5
+EmptyImage[NW][0]=./images/adc-424-coach-tilling-early_NW.0.0,12,10
+EmptyImage[N][0]=./images/adc-424-coach-tilling-early_N.0.0,0,33
+EmptyImage[NE][0]=./images/adc-424-coach-tilling-early_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/adc-424-coach-tilling-red_E.0.0,-33,14
+EmptyImage[SE][1]=./images/adc-424-coach-tilling-red_SE.0.0,-13,0
+EmptyImage[S][1]=./images/adc-424-coach-tilling-red_S.0.0,0,0
+EmptyImage[SW][1]=./images/adc-424-coach-tilling-red_SW.0.0,-8,10
+EmptyImage[W][1]=./images/adc-424-coach-tilling-red_W.0.0,4,5
+EmptyImage[NW][1]=./images/adc-424-coach-tilling-red_NW.0.0,12,10
+EmptyImage[N][1]=./images/adc-424-coach-tilling-red_N.0.0,0,33
+EmptyImage[NE][1]=./images/adc-424-coach-tilling-red_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/adc-424-coach-southdown_E.0.0,-33,14
+EmptyImage[SE][2]=./images/adc-424-coach-southdown_SE.0.0,-13,0
+EmptyImage[S][2]=./images/adc-424-coach-southdown_S.0.0,0,0
+EmptyImage[SW][2]=./images/adc-424-coach-southdown_SW.0.0,-8,10
+EmptyImage[W][2]=./images/adc-424-coach-southdown_W.0.0,4,5
+EmptyImage[NW][2]=./images/adc-424-coach-southdown_NW.0.0,12,10
+EmptyImage[N][2]=./images/adc-424-coach-southdown_N.0.0,0,33
+EmptyImage[NE][2]=./images/adc-424-coach-southdown_NE.0.0,0,24
+
+EmptyImage[E][3]=./images/adc-424-coach-royal-blue_E.0.0,-33,14
+EmptyImage[SE][3]=./images/adc-424-coach-royal-blue_SE.0.0,-13,0
+EmptyImage[S][3]=./images/adc-424-coach-royal-blue_S.0.0,0,0
+EmptyImage[SW][3]=./images/adc-424-coach-royal-blue_SW.0.0,-8,10
+EmptyImage[W][3]=./images/adc-424-coach-royal-blue_W.0.0,4,5
+EmptyImage[NW][3]=./images/adc-424-coach-royal-blue_NW.0.0,12,10
+EmptyImage[N][3]=./images/adc-424-coach-royal-blue_N.0.0,0,33
+EmptyImage[NE][3]=./images/adc-424-coach-royal-blue_NE.0.0,0,24

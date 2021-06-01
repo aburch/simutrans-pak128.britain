@@ -1,4 +1,5 @@
 # See the Ian Allen Transport Library, "Daimler", Alan Townsin p. 17 for an illustration
+# CC30 sleeve valve engine
 obj=vehicle
 name=daimler-cc-single
 copyright=JamesPetts&JamesHood
@@ -8,7 +9,8 @@ freight=Passagiere
 payload=22
 overcrowded_capacity=2
 speed=20
-power=30
+# Townsin p. 17
+power=22
 tractive_effort=5
 gear=50
 weight=3.5
@@ -24,7 +26,7 @@ retire_month=1
 is_tall=0
 sound=graham-french-leyland-n-type.wav
 
-comfort=27
+comfort=29
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=44

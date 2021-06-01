@@ -1,5 +1,5 @@
 # http://web.archive.org/web/20190220170115/http://www.countrybus.org/ADC/ADC.html
-
+# CV25 engine (mark IV)
 obj=vehicle
 name=adc-423
 copyright=JamesPetts&JamesHood
@@ -22,6 +22,7 @@ runningcost=36
 fixed_cost=8189
 intro_year=1927
 intro_month=11
+# Bring forward when the Daimler CF6 is introduced
 retire_year=1939
 retire_month=7
 sound=gareth-bull-leyland-titan-td1.wav
