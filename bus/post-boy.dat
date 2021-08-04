@@ -12,6 +12,7 @@ intro_month=1
 retire_year=1855
 retire_month=6
 waytype=road
+is_sidewalker=1
 length=2
 
 weight=1
@@ -28,11 +29,11 @@ max_loading_time=60
 Constraint[next][0]=none
 Constraint[prev][0]=none
 
-EmptyImage[E]=./images/post-boy_E.0.0,-33,14
-EmptyImage[SE]=./images/post-boy_SE.0.0,-13,0
-EmptyImage[S]=./images/post-boy_S.0.0,0,0
-EmptyImage[SW]=./images/post-boy_SW.0.0,-8,10
-EmptyImage[W]=./images/post-boy_W.0.0,4,5
-EmptyImage[NW]=./images/post-boy_NW.0.0,12,10
-EmptyImage[N]=./images/post-boy_N.0.0,0,33
-EmptyImage[NE]=./images/post-boy_NE.0.0,0,24
+EmptyImage[E]=./images/post-boy_E.0.0,-23,9
+EmptyImage[SE]=./images/post-boy_SE.0.0,-6,0
+EmptyImage[S]=./images/post-boy_S.0.0,10,5
+EmptyImage[SW]=./images/post-boy_SW.0.0,-8,13
+EmptyImage[W]=./images/post-boy_W.0.0,0,13
+EmptyImage[NW]=./images/post-boy_NW.0.0,5,2
+EmptyImage[N]=./images/post-boy_N.0.0,-10,28
+EmptyImage[NE]=./images/post-boy_NE.0.0,-5,21
