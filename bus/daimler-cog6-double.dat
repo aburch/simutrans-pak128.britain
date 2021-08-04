@@ -1,0 +1,57 @@
+# See Townsin p. 49
+obj=vehicle
+name=daimler-cog6-double
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# Townsin p. 53
+payload=54
+overcrowded_capacity=4
+speed=50
+# 102HP - Townsin p. 49
+power=76
+tractive_effort=11
+gear=50
+# Townsin p. 49
+weight=6.1
+length=6
+cost=1032000
+runningcost=74
+fixed_cost=8501
+intro_year=1934
+intro_month=9
+retire_year=1945
+retire_month=12
+is_tall=1
+sound=daimler-cvg6-ff3170.wav
+
+comfort=42
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=108
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Glasgow-Corporation-early
+liverytype[1]=Bradford-standard
+
+EmptyImage[E][0]=./images/daimler-cog6-double-glasgow_E.0.0,-33,14
+EmptyImage[SE][0]=./images/daimler-cog6-double-glasgow_SE.0.0,-13,0
+EmptyImage[S][0]=./images/daimler-cog6-double-glasgow_S.0.0,0,0
+EmptyImage[SW][0]=./images/daimler-cog6-double-glasgow_SW.0.0,-8,10
+EmptyImage[W][0]=./images/daimler-cog6-double-glasgow_W.0.0,4,5
+EmptyImage[NW][0]=./images/daimler-cog6-double-glasgow_NW.0.0,12,10
+EmptyImage[N][0]=./images/daimler-cog6-double-glasgow_N.0.0,0,33
+EmptyImage[NE][0]=./images/daimler-cog6-double-glasgow_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/daimler-cog6-double-bradford_E.0.0,-33,14
+EmptyImage[SE][1]=./images/daimler-cog6-double-bradford_SE.0.0,-13,0
+EmptyImage[S][1]=./images/daimler-cog6-double-bradford_S.0.0,0,0
+EmptyImage[SW][1]=./images/daimler-cog6-double-bradford_SW.0.0,-8,10
+EmptyImage[W][1]=./images/daimler-cog6-double-bradford_W.0.0,4,5
+EmptyImage[NW][1]=./images/daimler-cog6-double-bradford_NW.0.0,12,10
+EmptyImage[N][1]=./images/daimler-cog6-double-bradford_N.0.0,0,33
+EmptyImage[NE][1]=./images/daimler-cog6-double-bradford_NE.0.0,0,24
