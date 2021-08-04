@@ -25,7 +25,8 @@ retire_year=1949
 retire_month=3
 is_tall=1
 
-comfort=39
+# Hard wooden seats
+comfort=27
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=112
