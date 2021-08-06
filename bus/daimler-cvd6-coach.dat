@@ -9,7 +9,7 @@ freight=Passagiere
 # https://www.wythall.org.uk/vehicles/vorb277.asp
 payload=35
 overcrowded_capacity=0
-speed=64
+speed=72
 # Guessed
 power=64
 tractive_effort=7
@@ -28,7 +28,7 @@ is_tall=0
 # Awaiting Daimler engine specific sound - a Leyland is apparently a close approximation
 sound=leyland-titan-pd2-ff3170.wav
 
-comfort=78
+comfort=80
 # Coach: 7.5 seconds per passenger
 min_loading_time=20
 max_loading_time=263
