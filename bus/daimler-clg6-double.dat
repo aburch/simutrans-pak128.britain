@@ -1,0 +1,83 @@
+# See Townsin p. 85
+# Note that the history of the lightweight models is complex and has been simplified here.
+# In reality, most of the lightweight types were actually labelled as CVG6, but this is 
+# too confusing with the CVG6 already in existence, so, for Simutrans purposes, all of the
+# lightweight versions are counted as CLG models.
+obj=vehicle
+name=daimler-clg6-double
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# Townsin p. 78
+payload=60
+overcrowded_capacity=6
+speed=50
+# Gardner 6LW engine
+# 102HP - Townsin p. 49
+power=76
+tractive_effort=11
+gear=50
+# See Townsin p. 88 - 6 tons 19 cwt
+weight=7.0
+length=6
+cost=1561000
+runningcost=74
+fixed_cost=8500
+# Townsin p. 85
+intro_year=1952
+intro_month=10
+retire_year=1958
+retire_month=7
+is_tall=1
+sound=daimler-cvg6-ff3170.wav
+
+comfort=42
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=120
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Birmingham-Corporation
+liverytype[1]=Bradford-standard
+liverytype[2]=Glasgow-Corporation-standard
+liverytype[3]=Glasgow-Corporation-revised-2
+
+EmptyImage[E][0]=./images/daimler-clg6-double-birmingham_E.0.0,-33,14
+EmptyImage[SE][0]=./images/daimler-clg6-double-birmingham_SE.0.0,-13,0
+EmptyImage[S][0]=./images/daimler-clg6-double-birmingham_S.0.0,0,0
+EmptyImage[SW][0]=./images/daimler-clg6-double-birmingham_SW.0.0,-8,10
+EmptyImage[W][0]=./images/daimler-clg6-double-birmingham_W.0.0,4,5
+EmptyImage[NW][0]=./images/daimler-clg6-double-birmingham_NW.0.0,12,10
+EmptyImage[N][0]=./images/daimler-clg6-double-birmingham_N.0.0,0,33
+EmptyImage[NE][0]=./images/daimler-clg6-double-birmingham_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/daimler-clg6-double-bradford_E.0.0,-33,14
+EmptyImage[SE][1]=./images/daimler-clg6-double-bradford_SE.0.0,-13,0
+EmptyImage[S][1]=./images/daimler-clg6-double-bradford_S.0.0,0,0
+EmptyImage[SW][1]=./images/daimler-clg6-double-bradford_SW.0.0,-8,10
+EmptyImage[W][1]=./images/daimler-clg6-double-bradford_W.0.0,4,5
+EmptyImage[NW][1]=./images/daimler-clg6-double-bradford_NW.0.0,12,10
+EmptyImage[N][1]=./images/daimler-clg6-double-bradford_N.0.0,0,33
+EmptyImage[NE][1]=./images/daimler-clg6-double-bradford_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/daimler-clg6-double-glasgow_E.0.0,-33,14
+EmptyImage[SE][2]=./images/daimler-clg6-double-glasgow_SE.0.0,-13,0
+EmptyImage[S][2]=./images/daimler-clg6-double-glasgow_S.0.0,0,0
+EmptyImage[SW][2]=./images/daimler-clg6-double-glasgow_SW.0.0,-8,10
+EmptyImage[W][2]=./images/daimler-clg6-double-glasgow_W.0.0,4,5
+EmptyImage[NW][2]=./images/daimler-clg6-double-glasgow_NW.0.0,12,10
+EmptyImage[N][2]=./images/daimler-clg6-double-glasgow_N.0.0,0,33
+EmptyImage[NE][2]=./images/daimler-clg6-double-glasgow_NE.0.0,0,24
+
+EmptyImage[E][3]=./images/daimler-clg6-double-glasgow-revised_E.0.0,-33,14
+EmptyImage[SE][3]=./images/daimler-clg6-double-glasgow-revised_SE.0.0,-13,0
+EmptyImage[S][3]=./images/daimler-clg6-double-glasgow-revised_S.0.0,0,0
+EmptyImage[SW][3]=./images/daimler-clg6-double-glasgow-revised_SW.0.0,-8,10
+EmptyImage[W][3]=./images/daimler-clg6-double-glasgow-revised_W.0.0,4,5
+EmptyImage[NW][3]=./images/daimler-clg6-double-glasgow-revised_NW.0.0,12,10
+EmptyImage[N][3]=./images/daimler-clg6-double-glasgow-revised_N.0.0,0,33
+EmptyImage[NE][3]=./images/daimler-clg6-double-glasgow-revised_NE.0.0,0,24
