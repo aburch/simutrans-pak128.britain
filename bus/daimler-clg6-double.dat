@@ -10,7 +10,6 @@ waytype=road
 engine_type=diesel
 smoke=Diesel-light
 freight=Passagiere
-# Townsin p. 78
 payload=60
 overcrowded_capacity=6
 speed=50
@@ -20,6 +19,7 @@ power=76
 tractive_effort=11
 gear=50
 # See Townsin p. 88 - 6 tons 19 cwt
+# Consider using weight to affect fuel economy figures
 weight=7.0
 length=6
 cost=1561000
