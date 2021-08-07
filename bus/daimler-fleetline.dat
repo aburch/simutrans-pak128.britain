@@ -1,46 +1,111 @@
-# http://web.archive.org/web/20130822192322/http://www.countrybus.org/DMS/DMS1.htm
-# https://en.wikipedia.org/wiki/Daimler_Fleetline
+# See Townsin pp. 98-99
 obj=vehicle
-name=DaimlerFleetline
+name=daimler-fleetline
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
 smoke=Diesel-light
 freight=Passagiere
-payload=68
-overcrowded_capacity=21
+# See Townsin p. 99 (caption)
+payload=77
+overcrowded_capacity=6
 speed=64
-power=134
-tractive_effort=12
+# Gardner 6LX engine
+# 150hp - Townsin p. 96
+power=112
+tractive_effort=15
 gear=50
 weight=10.0
 axles=2
 length=6
-cost=3440000
-runningcost=67
-fixed_cost=9792
+cost=2925000
+runningcost=112
+# This type still had a conductor
+fixed_cost=8700
+# See Townsin p. 101
 intro_year=1960
-intro_month=4
+intro_month=8
+# Note: bring this forward when the Leyland Fleetline is introduced
 retire_year=1980
 retire_month=7
 is_tall=1
 sound=daimler-fleetline-ff3170.wav
 
-comfort=38
+comfort=40
 min_loading_time=4
-# Three seconds per passenger (AFC)
-max_loading_time=204
+# 1.8 seconds per passenger + 4 seconds (double doors with conductor)
+max_loading_time=143
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-liverytype[0]=LT-revised
+liverytype[0]=Birmingham-Corporation
+liverytype[1]=WMPTE-Blue-cream
+liverytype[2]=WMT
+liverytype[3]=Bradford-standard
+liverytype[4]=SYPTE
+liverytype[5]=Glasgow-Corporation-revised-2
+liverytype[6]=GGPTE
 
-EmptyImage[E][0]=./images/daimler-fleetline-lt-red_E.0.0,-33,14
-EmptyImage[SE][0]=./images/daimler-fleetline-lt-red_SE.0.0,-13,0
-EmptyImage[S][0]=./images/daimler-fleetline-lt-red_S.0.0,4,0
-EmptyImage[SW][0]=./images/daimler-fleetline-lt-red_SW.0.0,-8,10
-EmptyImage[W][0]=./images/daimler-fleetline-lt-red_W.0.0,4,5
-EmptyImage[NW][0]=./images/daimler-fleetline-lt-red_NW.0.0,12,10
-EmptyImage[N][0]=./images/daimler-fleetline-lt-red_N.0.0,0,33
-EmptyImage[NE][0]=./images/daimler-fleetline-lt-red_NE.0.0,0,24
+EmptyImage[E][0]=./images/daimler-fleetline-birmingham_E.0.0,-33,14
+EmptyImage[SE][0]=./images/daimler-fleetline-birmingham_SE.0.0,-13,0
+EmptyImage[S][0]=./images/daimler-fleetline-birmingham_S.0.0,4,0
+EmptyImage[SW][0]=./images/daimler-fleetline-birmingham_SW.0.0,-8,10
+EmptyImage[W][0]=./images/daimler-fleetline-birmingham_W.0.0,4,5
+EmptyImage[NW][0]=./images/daimler-fleetline-birmingham_NW.0.0,12,10
+EmptyImage[N][0]=./images/daimler-fleetline-birmingham_N.0.0,0,33
+EmptyImage[NE][0]=./images/daimler-fleetline-birmingham_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/daimler-fleetline-wmpte_E.0.0,-33,14
+EmptyImage[SE][1]=./images/daimler-fleetline-wmpte_SE.0.0,-13,0
+EmptyImage[S][1]=./images/daimler-fleetline-wmpte_S.0.0,4,0
+EmptyImage[SW][1]=./images/daimler-fleetline-wmpte_SW.0.0,-8,10
+EmptyImage[W][1]=./images/daimler-fleetline-wmpte_W.0.0,4,5
+EmptyImage[NW][1]=./images/daimler-fleetline-wmpte_NW.0.0,12,10
+EmptyImage[N][1]=./images/daimler-fleetline-wmpte_N.0.0,0,33
+EmptyImage[NE][1]=./images/daimler-fleetline-wmpte_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/daimler-fleetline-wmt_E.0.0,-33,14
+EmptyImage[SE][2]=./images/daimler-fleetline-wmt_SE.0.0,-13,0
+EmptyImage[S][2]=./images/daimler-fleetline-wmt_S.0.0,4,0
+EmptyImage[SW][2]=./images/daimler-fleetline-wmt_SW.0.0,-8,10
+EmptyImage[W][2]=./images/daimler-fleetline-wmt_W.0.0,4,5
+EmptyImage[NW][2]=./images/daimler-fleetline-wmt_NW.0.0,12,10
+EmptyImage[N][2]=./images/daimler-fleetline-wmt_N.0.0,0,33
+EmptyImage[NE][2]=./images/daimler-fleetline-wmt_NE.0.0,0,24
+
+EmptyImage[E][3]=./images/daimler-fleetline-bradford_E.0.0,-33,14
+EmptyImage[SE][3]=./images/daimler-fleetline-bradford_SE.0.0,-13,0
+EmptyImage[S][3]=./images/daimler-fleetline-bradford_S.0.0,4,0
+EmptyImage[SW][3]=./images/daimler-fleetline-bradford_SW.0.0,-8,10
+EmptyImage[W][3]=./images/daimler-fleetline-bradford_W.0.0,4,5
+EmptyImage[NW][3]=./images/daimler-fleetline-bradford_NW.0.0,12,10
+EmptyImage[N][3]=./images/daimler-fleetline-bradford_N.0.0,0,33
+EmptyImage[NE][3]=./images/daimler-fleetline-bradford_NE.0.0,0,24
+
+EmptyImage[E][4]=./images/daimler-fleetline-sypte_E.0.0,-33,14
+EmptyImage[SE][4]=./images/daimler-fleetline-sypte_SE.0.0,-13,0
+EmptyImage[S][4]=./images/daimler-fleetline-sypte_S.0.0,4,0
+EmptyImage[SW][4]=./images/daimler-fleetline-sypte_SW.0.0,-8,10
+EmptyImage[W][4]=./images/daimler-fleetline-sypte_W.0.0,4,5
+EmptyImage[NW][4]=./images/daimler-fleetline-sypte_NW.0.0,12,10
+EmptyImage[N][4]=./images/daimler-fleetline-sypte_N.0.0,0,33
+EmptyImage[NE][4]=./images/daimler-fleetline-sypte_NE.0.0,0,24
+
+EmptyImage[E][5]=./images/daimler-fleetline-glasgow_E.0.0,-33,14
+EmptyImage[SE][5]=./images/daimler-fleetline-glasgow_SE.0.0,-13,0
+EmptyImage[S][5]=./images/daimler-fleetline-glasgow_S.0.0,4,0
+EmptyImage[SW][5]=./images/daimler-fleetline-glasgow_SW.0.0,-8,10
+EmptyImage[W][5]=./images/daimler-fleetline-glasgow_W.0.0,4,5
+EmptyImage[NW][5]=./images/daimler-fleetline-glasgow_NW.0.0,12,10
+EmptyImage[N][5]=./images/daimler-fleetline-glasgow_N.0.0,0,33
+EmptyImage[NE][5]=./images/daimler-fleetline-glasgow_NE.0.0,0,24
+
+EmptyImage[E][6]=./images/daimler-fleetline-ggpte_E.0.0,-33,14
+EmptyImage[SE][6]=./images/daimler-fleetline-ggpte_SE.0.0,-13,0
+EmptyImage[S][6]=./images/daimler-fleetline-ggpte_S.0.0,4,0
+EmptyImage[SW][6]=./images/daimler-fleetline-ggpte_SW.0.0,-8,10
+EmptyImage[W][6]=./images/daimler-fleetline-ggpte_W.0.0,4,5
+EmptyImage[NW][6]=./images/daimler-fleetline-ggpte_NW.0.0,12,10
+EmptyImage[N][6]=./images/daimler-fleetline-ggpte_N.0.0,0,33
+EmptyImage[NE][6]=./images/daimler-fleetline-ggpte_NE.0.0,0,24

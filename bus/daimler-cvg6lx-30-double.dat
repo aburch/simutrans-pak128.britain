@@ -31,9 +31,9 @@ is_tall=1
 sound=daimler-fleetline-ff3170.wav
 
 comfort=43
-# Rear platform with conductor: 2.0 seconds per passenger
+# Rear platform with conductor (8ft wide): 1.8 seconds per passenger
 min_loading_time=3
-max_loading_time=138
+max_loading_time=124
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
@@ -43,6 +43,7 @@ liverytype[1]=Bradford-standard
 liverytype[2]=Glasgow-Corporation-standard
 liverytype[3]=Glasgow-Corporation-revised-2
 liverytype[4]=GGPTE
+liverytype[5]=WMPTE-Blue-cream
 
 EmptyImage[E][0]=./images/daimler-cvg6lx-30-double-birmingham_E.0.0,-33,14
 EmptyImage[SE][0]=./images/daimler-cvg6lx-30-double-birmingham_SE.0.0,-13,0
@@ -88,3 +89,12 @@ EmptyImage[W][4]=./images/daimler-cvg6lx-30-double-ggpte_W.0.0,4,5
 EmptyImage[NW][4]=./images/daimler-cvg6lx-30-double-ggpte_NW.0.0,12,10
 EmptyImage[N][4]=./images/daimler-cvg6lx-30-double-ggpte_N.0.0,0,33
 EmptyImage[NE][4]=./images/daimler-cvg6lx-30-double-ggpte_NE.0.0,0,24
+
+EmptyImage[E][5]=./images/daimler-cvg6-30-double-wmpte_E.0.0,-33,14
+EmptyImage[SE][5]=./images/daimler-cvg6-30-double-wmpte_SE.0.0,-13,0
+EmptyImage[S][5]=./images/daimler-cvg6-30-double-wmpte_S.0.0,0,0
+EmptyImage[SW][5]=./images/daimler-cvg6-30-double-wmpte_SW.0.0,-8,10
+EmptyImage[W][5]=./images/daimler-cvg6-30-double-wmpte_W.0.0,4,5
+EmptyImage[NW][5]=./images/daimler-cvg6-30-double-wmpte_NW.0.0,12,10
+EmptyImage[N][5]=./images/daimler-cvg6-30-double-wmpte_N.0.0,0,33
+EmptyImage[NE][5]=./images/daimler-cvg6-30-double-wmpte_NE.0.0,0,24

@@ -1,0 +1,67 @@
+# http://web.archive.org/web/20130822192322/http://www.countrybus.org/DMS/DMS1.htm
+# https://en.wikipedia.org/wiki/Daimler_Fleetline
+# This is the DMS version for London Transport.
+obj=vehicle
+name=daimler-fleetline-dms
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# http://web.archive.org/web/20210309095633/http://www.countrybus.org/DMS/DMS2.htm
+# Total capacity: 89
+payload=68
+overcrowded_capacity=21
+speed=64
+# Gardner 6XLB engine, 180HP
+# Townsin p. 119
+power=134
+tractive_effort=15
+gear=50
+weight=10.0
+axles=2
+length=6
+cost=3440000
+runningcost=130
+# Driver only
+fixed_cost=4500
+# Actually introduced in London later than this,
+# but this represents the general DOO version, and
+# DOO for double deckers was possible from 1966.
+# See Townsin p. 115 (caption for picture p. 114)
+intro_year=1969
+intro_month=3
+retire_year=1980
+retire_month=7
+is_tall=1
+sound=daimler-fleetline-ff3170.wav
+
+comfort=39
+min_loading_time=4
+# Three seconds per passenger (AFC)
+# http://web.archive.org/web/20200220091612/http://countrybus.org/DMS/DMS1.htm
+max_loading_time=204
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=LT-revised
+liverytype[1]=London-Buses
+
+EmptyImage[E][0]=./images/daimler-fleetline-dms-lt-red_E.0.0,-33,14
+EmptyImage[SE][0]=./images/daimler-fleetline-dms-lt-red_SE.0.0,-13,0
+EmptyImage[S][0]=./images/daimler-fleetline-dms-lt-red_S.0.0,4,0
+EmptyImage[SW][0]=./images/daimler-fleetline-dms-lt-red_SW.0.0,-8,10
+EmptyImage[W][0]=./images/daimler-fleetline-dms-lt-red_W.0.0,4,5
+EmptyImage[NW][0]=./images/daimler-fleetline-dms-lt-red_NW.0.0,12,10
+EmptyImage[N][0]=./images/daimler-fleetline-dms-lt-red_N.0.0,0,33
+EmptyImage[NE][0]=./images/daimler-fleetline-dms-lt-red_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/daimler-fleetline-dms-london-buses_E.0.0,-33,14
+EmptyImage[SE][1]=./images/daimler-fleetline-dms-london-buses_SE.0.0,-13,0
+EmptyImage[S][1]=./images/daimler-fleetline-dms-london-buses_S.0.0,4,0
+EmptyImage[SW][1]=./images/daimler-fleetline-dms-london-buses_SW.0.0,-8,10
+EmptyImage[W][1]=./images/daimler-fleetline-dms-london-buses_W.0.0,4,5
+EmptyImage[NW][1]=./images/daimler-fleetline-dms-london-buses_NW.0.0,12,10
+EmptyImage[N][1]=./images/daimler-fleetline-dms-london-buses_N.0.0,0,33
+EmptyImage[NE][1]=./images/daimler-fleetline-dms-london-buses_NE.0.0,0,24
