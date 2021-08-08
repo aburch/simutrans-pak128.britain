@@ -33,8 +33,8 @@ sound=daimler-fleetline-ff3170.wav
 
 comfort=40
 min_loading_time=4
-# 1.8 seconds per passenger + 4 seconds (double doors with conductor)
-max_loading_time=143
+# 2 seconds per passenger + 4 seconds (single doors with conductor)
+max_loading_time=158
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
@@ -46,6 +46,7 @@ liverytype[3]=Bradford-standard
 liverytype[4]=SYPTE
 liverytype[5]=Glasgow-Corporation-revised-2
 liverytype[6]=GGPTE
+liverytype[7]=WYPTE-Green-Cream
 
 EmptyImage[E][0]=./images/daimler-fleetline-birmingham_E.0.0,-33,14
 EmptyImage[SE][0]=./images/daimler-fleetline-birmingham_SE.0.0,-13,0
@@ -109,3 +110,12 @@ EmptyImage[W][6]=./images/daimler-fleetline-ggpte_W.0.0,4,5
 EmptyImage[NW][6]=./images/daimler-fleetline-ggpte_NW.0.0,12,10
 EmptyImage[N][6]=./images/daimler-fleetline-ggpte_N.0.0,0,33
 EmptyImage[NE][6]=./images/daimler-fleetline-ggpte_NE.0.0,0,24
+
+EmptyImage[E][7]=./images/daimler-fleetline-wypte_E.0.0,-33,14
+EmptyImage[SE][7]=./images/daimler-fleetline-wypte_SE.0.0,-13,0
+EmptyImage[S][7]=./images/daimler-fleetline-wypte_S.0.0,4,0
+EmptyImage[SW][7]=./images/daimler-fleetline-wypte_SW.0.0,-8,10
+EmptyImage[W][7]=./images/daimler-fleetline-wypte_W.0.0,4,5
+EmptyImage[NW][7]=./images/daimler-fleetline-wypte_NW.0.0,12,10
+EmptyImage[N][7]=./images/daimler-fleetline-wypte_N.0.0,0,33
+EmptyImage[NE][7]=./images/daimler-fleetline-wypte_NE.0.0,0,24
