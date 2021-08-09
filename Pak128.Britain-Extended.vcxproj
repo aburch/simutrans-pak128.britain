@@ -321,6 +321,10 @@
     <None Include="boats\wooden-hull-unpowered-narrowboat.dat" />
     <None Include="boats\wooden-paddle-steamer.dat" />
     <None Include="boats\wooden-river-steamer.dat" />
+    <None Include="bus\adc-416.dat" />
+    <None Include="bus\adc-423.dat" />
+    <None Include="bus\adc-424-coach.dat" />
+    <None Include="bus\adc-802.dat" />
     <None Include="bus\aec-q5.dat" />
     <None Include="bus\aec-q6.dat" />
     <None Include="bus\aec-regal-10t10-coach.dat" />
@@ -344,8 +348,30 @@
     <None Include="bus\daf-cf-rigid.dat" />
     <None Include="bus\daf-lf.dat" />
     <None Include="bus\daimler-cc-double.dat" />
+    <None Include="bus\daimler-cc-single.dat" />
+    <None Include="bus\daimler-cf6-coach.dat" />
+    <None Include="bus\daimler-cf6-single.dat" />
+    <None Include="bus\daimler-ch6-coach.dat" />
+    <None Include="bus\daimler-ch6-double.dat" />
+    <None Include="bus\daimler-ch6-single.dat" />
+    <None Include="bus\daimler-clg5-double.dat" />
+    <None Include="bus\daimler-clg6-double.dat" />
+    <None Include="bus\daimler-cog5-coach.dat" />
     <None Include="bus\daimler-cog5-double.dat" />
     <None Include="bus\daimler-cog5-single.dat" />
+    <None Include="bus\daimler-cog6-double.dat" />
+    <None Include="bus\daimler-cp6-coach.dat" />
+    <None Include="bus\daimler-cp6-double.dat" />
+    <None Include="bus\daimler-cp6-single.dat" />
+    <None Include="bus\daimler-cva6-double.dat" />
+    <None Include="bus\daimler-cvd6-coach.dat" />
+    <None Include="bus\daimler-cvg5-single.dat" />
+    <None Include="bus\daimler-cvg6-30-double.dat" />
+    <None Include="bus\daimler-cvg6-double.dat" />
+    <None Include="bus\daimler-cvg6lx-30-double.dat" />
+    <None Include="bus\daimler-cwa6.dat" />
+    <None Include="bus\daimler-fleetline-dms.dat" />
+    <None Include="bus\daimler-freeline-coach.dat" />
     <None Include="bus\daimler-wagonette.dat" />
     <None Include="bus\dennis-15cwt-van.dat" />
     <None Include="bus\dennis-dart-9.8m.dat" />
@@ -785,6 +811,7 @@
     <None Include="trains\br-222.dat" />
     <None Include="trains\br-302.dat" />
     <None Include="trains\br-307.dat" />
+    <None Include="trains\br-310.dat" />
     <None Include="trains\br-312.dat" />
     <None Include="trains\br-314.dat" />
     <None Include="trains\br-318.dat" />
@@ -1113,6 +1140,8 @@
     <None Include="trains\lner-gresley-express-dining.dat" />
     <None Include="trains\lner-p2.dat" />
     <None Include="trains\lner-qaud-art.dat" />
+    <None Include="trains\lner-quint-art.dat" />
+    <None Include="trains\lner-standard-51ft.dat" />
     <None Include="trains\lner-tyneside-emu.dat" />
     <None Include="trains\lnwr-17in-coal-engine.dat" />
     <None Include="trains\lnwr-19in-express-goods.dat" />
@@ -1498,6 +1527,7 @@
     <None Include="ways\brick-aqueduct-tub.dat" />
     <None Include="ways\brick-aqueduct.dat" />
     <None Include="ways\brick-viaduct-early-elevated.dat" />
+    <None Include="ways\brick-viaduct-early-road.dat" />
     <None Include="ways\brick-viaduct-early.dat" />
     <None Include="ways\brick-viaduct-elevated-narrow.dat" />
     <None Include="ways\brick-viaduct-elevated.dat" />
@@ -1510,6 +1540,7 @@
     <None Include="bus\bus-horse.dat" />
     <None Include="stations\bus-stops.dat" />
     <None Include="industry\butchery.dat" />
+    <None Include="ways\bridleway-ford.dat" />
     <None Include="ways\bridleway.dat" />
     <None Include="ways\canal.dat" />
     <None Include="industry\car-dealership.dat" />
@@ -2085,6 +2116,7 @@
     <Text Include="text\streetlist[2]_en.txt" />
     <Text Include="text\streetlist[3]_en.txt" />
     <Text Include="text\streetlist_en.txt" />
+    <Text Include="text\streetlist_ru.txt" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="stations\staging-post-stop.png" />
