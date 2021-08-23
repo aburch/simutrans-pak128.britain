@@ -566,6 +566,9 @@
     <None Include="depots\narrow-train-depot.dat" />
     <None Include="gui\gui64\pakmak.tab" />
     <None Include="hq\CompanyHeadquarters.dat" />
+    <None Include="industry\apothecary.dat" />
+    <None Include="industry\blacksmith.dat" />
+    <None Include="industry\cooper.dat" />
     <None Include="industry\ironworks.dat" />
     <None Include="industry\cannery.dat" />
     <None Include="industry\1750-ironworks.dat" />
@@ -1542,6 +1545,8 @@
     <None Include="industry\butchery.dat" />
     <None Include="ways\bridleway-ford.dat" />
     <None Include="ways\bridleway.dat" />
+    <None Include="ways\canal-lined.dat" />
+    <None Include="ways\canal-ship-early.dat" />
     <None Include="ways\canal.dat" />
     <None Include="industry\car-dealership.dat" />
     <None Include="industry\car-factory.dat" />
