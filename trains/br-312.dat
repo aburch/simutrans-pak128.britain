@@ -4,7 +4,7 @@ name=BR-312-BDTSOL
 engine_type=electric
 speed=145
 power=0
-copyright=Junna/Cake
+copyright=Junna/Cake/Rollmaterial
 intro_year=1976
 intro_month=10
 # Only produced until 1978, but need to await introduction of the Class 317
@@ -17,7 +17,7 @@ payload[1]=84
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=45
-length=10
+length=11
 
 weight=34.9
 axles=4
@@ -44,7 +44,8 @@ Constraint[Prev][0]=BR-312-DTCOL
 Constraint[Prev][1]=BR-304Rear
 Constraint[Prev][2]=BR-303Rear
 Constraint[Prev][3]=BR-302(rear)
-Constraint[Prev][4]=none
+Constraint[Prev][4]=BR-310-DTCOL
+Constraint[Prev][5]=none
 
 Constraint[Next][0]=BR-312-MBSO
 
@@ -89,7 +90,7 @@ speed=145
 power=806
 tractive_effort=75
 gear=80
-copyright=Junna/Cake
+copyright=Junna/Cake/Rollmaterial
 intro_year=1976
 intro_month=10
 # Only produced until 1978, but need to await introduction of the Class 317
@@ -102,7 +103,7 @@ payload[1]=68
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=45
-length=10
+length=11
 
 weight=56.0
 axles=4
@@ -166,7 +167,7 @@ name=BR-312-TSO
 engine_type=electric
 speed=145
 power=0
-copyright=Junna/Cake
+copyright=Junna/Cake/Rollmaterial
 intro_year=1976
 intro_month=10
 # Only produced until 1978, but need to await introduction of the Class 317
@@ -179,7 +180,7 @@ payload[1]=98
 payload[2]=0
 payload[3]=0
 overcrowded_capacity=77
-length=10
+length=11
 
 weight=30.5
 axles=4
@@ -241,7 +242,7 @@ name=BR-312-DTCOL
 engine_type=electric
 speed=145
 power=0
-copyright=Junna/Cake
+copyright=Junna/Cake/Rollmaterial
 intro_year=1976
 intro_month=10
 # Only produced until 1978, but need to await introduction of the Class 317
@@ -254,7 +255,7 @@ payload[1]=47
 payload[2]=0
 payload[3]=25
 overcrowded_capacity=50
-length=10
+length=11
 
 weight=35.2
 axles=4
@@ -283,7 +284,8 @@ Constraint[Next][0]=BR-312-BDTSOL
 Constraint[Next][1]=BR-304Front
 Constraint[Next][2]=BR-303Front
 Constraint[Next][3]=BR-302(front)
-Constraint[Next][4]=none
+Constraint[Next][4]=BR-310-BDTSOL
+Constraint[Next][5]=none
 
 liverytype[0]=BR-Blue
 liverytype[1]=BR-Large-Logo

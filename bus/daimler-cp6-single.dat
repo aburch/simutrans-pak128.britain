@@ -7,8 +7,8 @@ waytype=road
 engine_type=petrol
 freight=Passagiere
 # Guessed
-payload=34
-overcrowded_capacity=3
+payload=32
+overcrowded_capacity=0
 speed=50
 # Townsin p. 38 - 90HP
 power=67
@@ -18,7 +18,7 @@ gear=50
 weight=5.6
 length=6
 cost=425000
-runningcost=38
+runningcost=67
 fixed_cost=8250
 intro_year=1931
 intro_month=12

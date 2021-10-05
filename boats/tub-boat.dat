@@ -5,21 +5,21 @@ name=TubBoatBulk
 copyright=Jamespetts
 waytype=water
 freight=Kohle
-payload=8
-speed=7
+payload=4
+speed=5
 weight=1
 length=3
 cost=20000
 runningcost=0
-fixed_cost=4814
+fixed_cost=14
 intro_year=1761
 intro_month=1
 retire_year=1918	
 retire_month=3
 
-# 20-30 minutes
-min_loading_time=1200
-max_loading_time=1800
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
@@ -105,21 +105,21 @@ name=TubBoatLong
 copyright=Jamespetts
 waytype=water
 freight=Bretter
-payload=8
-speed=7
+payload=2
+speed=5
 weight=1
 length=3
 cost=20000
 runningcost=0
-fixed_cost=4814
+fixed_cost=14
 intro_year=1761
 intro_month=1
 retire_year=1918	
 retire_month=3
 
-# 20-30 minutes
-min_loading_time=1200
-max_loading_time=1800
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
@@ -175,21 +175,21 @@ name=TubBoatPiece
 copyright=Jamespetts
 waytype=water
 freight=vegetables
-payload=12
-speed=7
+payload=5
+speed=5
 weight=1
 length=3
 cost=20000
 runningcost=0
-fixed_cost=4814
+fixed_cost=14
 intro_year=1761
 intro_month=1
 retire_year=1918	
 retire_month=3
 
-# 20-30 minutes
-min_loading_time=1200
-max_loading_time=1800
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
@@ -234,21 +234,21 @@ name=TubBoatCool
 copyright=Jamespetts
 waytype=water
 freight=fish
-payload=12
-speed=7
+payload=5
+speed=5
 weight=1
 length=3
 cost=20000
 runningcost=0
-fixed_cost=4814
+fixed_cost=14
 intro_year=1761
 intro_month=1
 retire_year=1918	
 retire_month=3
 
-# 20-30 minutes
-min_loading_time=1200
-max_loading_time=1800
+# 45-60 minutes
+min_loading_time=2700
+max_loading_time=3600
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge

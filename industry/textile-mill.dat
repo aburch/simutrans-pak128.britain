@@ -66,7 +66,7 @@ BackImage[3][0][0][0][0][1]=1750-spinners-cottage.1.3
 # This industry conflates wool (in the game) with cotton;
 # a woolen mill would have produced spun yarn for use at
 # separate weaving mills (which would require 'yarn' as an
-# intermediate good in the  game), while a cotton
+# intermediate good in the game), while a cotton
 # mill would have produced textiles. Cotton at the time
 # was entirely imported into the U.K. and would also require
 # at least one new goods type (raw cotton, although there can
@@ -99,7 +99,7 @@ class_proportion_jobs[2]=40
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=0
 climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
-Location=River
+Location=river_city
 distributionweight=9  
 Productivity=18
 Range=7
@@ -326,7 +326,7 @@ class_proportion_jobs[2]=9
 class_proportion_jobs[3]=0
 class_proportion_jobs[4]=1
 climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
-Location=River
+Location=city
 distributionweight=12  
 Productivity=55
 Range=9

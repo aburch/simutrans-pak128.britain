@@ -1,0 +1,54 @@
+# https://en.wikipedia.org/wiki/AEC_Reliance
+# https://www.gracesguide.co.uk/AEC:_Reliance
+obj=vehicle
+name=aec-reliance-new-long
+copyright=JamesPetts
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# See Booth p. 89
+payload=53
+overcrowded_capacity=5
+speed=72
+# Assuming the AH590 engine at 9.6l.
+# Power figures not known
+power=89
+tractive_effort=11
+gear=50
+# Guessed
+weight=8.6
+axles=2
+length=7
+cost=1700000
+runningcost=88
+fixed_cost=4550
+intro_year=1962
+intro_month=11
+# Guessed
+retire_year=1979
+retire_month=12
+is_tall=0
+# TODO: Use a more authentic sound for this type.
+sound=leyland-titan-pd3-ff3170.wav
+
+comfort=40
+# Single entrance pay driver: 4.0 seconds per passenger
+# TODO: Add conductor versions
+min_loading_time=5
+max_loading_time=212
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# TODO: Add more liveries
+liverytype[0]=Private
+
+EmptyImage[E][0]=./images/aec-reliance-long_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-reliance-long_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-reliance-long_S.0.0,0,0
+EmptyImage[SW][0]=./images/aec-reliance-long_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-reliance-long_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-reliance-long_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-reliance-long_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-reliance-long_NE.0.0,0,24
