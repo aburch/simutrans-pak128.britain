@@ -6,9 +6,9 @@ maintenance=400
 above_way_ribi=0x5
 below_way_ribi=0xB
 
-base_mask=0x0000001C
-middle_mask=0x0101011D
-support_mask=0x0000001C
+base_mask=0x00000038
+middle_mask=0x01010139
+support_mask=0x00000038
 
 
 cursor=pier-brick-half-arch.4.1
