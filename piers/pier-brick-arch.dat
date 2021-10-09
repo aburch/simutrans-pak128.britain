@@ -6,9 +6,9 @@ maintenance=300
 above_way_ribi=0x5
 below_way_ribi=0xA
 
-base_mask=0x001C001C
-middle_mask=0x0101011D
-support_mask=0x001C001C
+base_mask=0x00380038
+middle_mask=0x01390139
+support_mask=0x00380038
 
 cursor=pier-brick-arch.2.1
 icon=  pier-brick-arch.2.0
