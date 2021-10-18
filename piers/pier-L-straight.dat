@@ -1,0 +1,20 @@
+obj=pier
+name=Lstraight
+cost=2500
+maintenance=300
+
+above_way_ribi=0x5
+below_way_ribi=0xF
+
+base_mask=0x04040404
+middle_mask=0x81B981B9
+support_mask=0x04040404
+
+cursor=pier-L-straight.0.3
+icon=  pier-L-straight.0.2
+
+backimage[00][0][0] = pier-L-straight.0.0
+backimage[00][1][0] = pier-L-straight.0.1
+
+frontimage[00][0][0] = pier-L-straight.0.0
+frontimage[00][1][0] = pier-L-straight.0.1
