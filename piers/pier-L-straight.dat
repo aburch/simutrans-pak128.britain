@@ -3,6 +3,9 @@ name=Lstraight
 cost=2500
 maintenance=300
 
+intro_year=1860
+intro_month=1
+
 above_way_ribi=0x5
 below_way_ribi=0xF
 
@@ -18,3 +21,9 @@ backimage[00][1][0] = pier-L-straight.0.1
 
 frontimage[00][0][0] = pier-L-straight.0.0
 frontimage[00][1][0] = pier-L-straight.0.1
+
+backimage[00][0][1] = pier-L-straight-snow.0.0
+backimage[00][1][1] = pier-L-straight-snow.0.1
+
+frontimage[00][0][1] = pier-L-straight-snow.0.0
+frontimage[00][1][1] = pier-L-straight-snow.0.1
