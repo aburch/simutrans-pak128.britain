@@ -76,6 +76,8 @@ DIRS128 += trees
 TR_DIRS += trees
 DIRS128 += ways
 TR_DIRS += ways
+DIRS128 += piers
+TR_DIRS += piers
 
 DIRS192 := 
 DIRS192 += boats/boats192
@@ -139,7 +141,7 @@ $(DIRS64):
 $(DIRS128):
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/$(call make_name,$@) $@/ 
 
 $(DIRS192):
 	@echo "===> PAK192 $@"
