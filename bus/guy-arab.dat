@@ -10,13 +10,20 @@ freight=Passagiere
 payload=56
 overcrowded_capacity=5
 speed=55
+# These used the Gardner 5LW,
+# albeit with a crash gearbox
+# 85HP - Townsin p. 41
 power=63
 tractive_effort=8
 gear=50
+# http://web.archive.org/web/20180329142123/http://www.countrybus.org/Guy/G1.htm#pk
+# 7T, 13CWT
 weight=7.8
 axle_load=4
 length=6
 cost=580000
+# Noted for reliability and low running costs:
+# http://www.historywebsite.co.uk/Museum/Transport/Buses/Guy/guyhistory5.htm
 runningcost=63
 fixed_cost=8302
 intro_year=1942
@@ -25,7 +32,8 @@ retire_year=1949
 retire_month=3
 is_tall=1
 
-comfort=39
+# Hard wooden seats
+comfort=27
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=112
@@ -45,6 +53,8 @@ Constraint[Next][0]=none
 liverytype[0]=LT
 liverytype[1]=LT-revised
 liverytype[2]=WW2-Austerity
+liverytype[3]=Glasgow-Corporation-standard
+liverytype[4]=Southdown-standard
 
 EmptyImage[E][0]=./images/guy-arab-mk1-lt-red-white_E.0.0,-33,14
 EmptyImage[SE][0]=./images/guy-arab-mk1-lt-red-white_SE.0.0,-13,0
@@ -72,3 +82,21 @@ EmptyImage[W][2]=./images/guy-arab-mk1-austerity_W.0.0,4,5
 EmptyImage[NW][2]=./images/guy-arab-mk1-austerity_NW.0.0,12,10
 EmptyImage[N][2]=./images/guy-arab-mk1-austerity_N.0.0,0,33
 EmptyImage[NE][2]=./images/guy-arab-mk1-austerity_NE.0.0,0,24
+
+EmptyImage[E][3]=./images/guy-arab-mk1-glasgow_E.0.0,-33,14
+EmptyImage[SE][3]=./images/guy-arab-mk1-glasgow_SE.0.0,-13,0
+EmptyImage[S][3]=./images/guy-arab-mk1-glasgow_S.0.0,4,0
+EmptyImage[SW][3]=./images/guy-arab-mk1-glasgow_SW.0.0,-8,10
+EmptyImage[W][3]=./images/guy-arab-mk1-glasgow_W.0.0,4,5
+EmptyImage[NW][3]=./images/guy-arab-mk1-glasgow_NW.0.0,12,10
+EmptyImage[N][3]=./images/guy-arab-mk1-glasgow_N.0.0,0,33
+EmptyImage[NE][3]=./images/guy-arab-mk1-glasgow_NE.0.0,0,24
+
+EmptyImage[E][4]=./images/guy-arab-mk1-southdown_E.0.0,-33,14
+EmptyImage[SE][4]=./images/guy-arab-mk1-southdown_SE.0.0,-13,0
+EmptyImage[S][4]=./images/guy-arab-mk1-southdown_S.0.0,4,0
+EmptyImage[SW][4]=./images/guy-arab-mk1-southdown_SW.0.0,-8,10
+EmptyImage[W][4]=./images/guy-arab-mk1-southdown_W.0.0,4,5
+EmptyImage[NW][4]=./images/guy-arab-mk1-southdown_NW.0.0,12,10
+EmptyImage[N][4]=./images/guy-arab-mk1-southdown_N.0.0,0,33
+EmptyImage[NE][4]=./images/guy-arab-mk1-southdown_NE.0.0,0,24

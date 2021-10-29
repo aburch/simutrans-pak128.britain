@@ -1,0 +1,52 @@
+# https://en.wikipedia.org/wiki/AEC_Reliance
+# https://www.gracesguide.co.uk/AEC:_Reliance
+obj=vehicle
+name=aec-reliance-new
+copyright=JamesPetts
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+payload=42
+overcrowded_capacity=4
+speed=64
+# AH470 engine, 7.7l
+# Power output not known - guessed
+power=82
+tractive_effort=8
+gear=50
+# Guessed
+weight=7.7
+axles=2
+length=6
+cost=1430000
+runningcost=81
+fixed_cost=4500
+intro_year=1954
+intro_month=6
+# Guessed
+retire_year=1975
+retire_month=10
+is_tall=0
+sound=richard-walker-aec-stl-diesel.wav
+
+comfort=40
+# Single entrance pay driver: 4.0 seconds per passenger
+# TODO: Add conductor versions
+min_loading_time=5
+max_loading_time=168
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# TODO: Add more liveries
+liverytype[0]=Private
+
+EmptyImage[E][0]=./images/aec-reliance-short_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-reliance-short_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-reliance-short_S.0.0,0,0
+EmptyImage[SW][0]=./images/aec-reliance-short_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-reliance-short_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-reliance-short_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-reliance-short_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-reliance-short_NE.0.0,0,24

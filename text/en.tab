@@ -2036,8 +2036,8 @@ paletten
  crates
 sack
  sacks
+bundles
  bundles
-  bundles 
 kilolitres
 kL
 churns (x5)
@@ -2511,9 +2511,9 @@ Norway spruce
 #____________________________________river______________________________________
 #____________________________________river______________________________________
 River0
-Stream (Not Navigable)
-River0a
 Brook (Not Navigable)
+River0a
+Stream (Not Navigable)
 River1
 Upstream small river (Navigable)
 River1a
@@ -7189,6 +7189,10 @@ aec-regal-coach-10t10
 AEC Regal 10T10 (coach)
 aec-regal-15t13
 AEC Regal III 15T13
+aec-reliance-new
+AEC Reliance II
+aec-reliance-new-long
+AEC Reliance II (long)
 leyland-tiger-tf
 Leyland Tiger TF (coach)
 OmnibusDoubleKnifeboard
@@ -7235,14 +7239,46 @@ daimler-ch6-double
 Daimler CH6
 daimler-ch6-single
 Daimler CH6 (single deck)
+daimler-ch6-coach
+Daimler CH6 (coach)
 daimler-cp6-double
 Daimler CP6
 daimler-cp6-single
 Daimler CP6 (single deck)
+daimler-cp6-coach
+Daimler CP6 (coach)
 daimler-cog5-double
 Daimler COG5
 daimler-cog5-single
 Daimler COG5 (single deck)
+daimler-cog5-coach
+Daimler COG5 (coach)
+daimler-cog6-double
+Daimler COG6
+daimler-cwa6-double
+Daimler CWA6
+daimler-cva6-double
+Daimler CVA6
+daimler-cvg6-double
+Daimler CVG6
+daimler-cvg5-single
+Daimler CVG5 (single deck)
+daimler-cvd6-coach
+Daimler CVD6 (coach)
+daimler-clg6-double
+Daimler CLG6
+daimler-clg5-double
+Daimler CLG5
+daimler-freeline-coach
+Daimler Freeline (coach)
+daimler-cvg6-30-double
+Daimler CVG6-30
+daimler-cvg6lx-30-double
+Daimler CVG6lx-30
+daimler-fleetline
+Daimler Fleetline
+daimler-fleetline-dms
+Daimler Fleetline DMS
 adc-416d
 ADC 416D
 adc-416a
@@ -7391,8 +7427,6 @@ LeylandTitanB15-1-door
 Leyland Titan B15 (1 entrance)
 RoutemasterLong
 AEC Routemaster (long)
-DaimlerFleetline
-Daimler Fleetline
 DennisDominator
 Dennis Dominator
 LeylandAtlantean
@@ -8991,8 +9025,10 @@ concrete_road
 Concrete road
 bridleway
 Bridleway
+old_dirt_road
+Unsurfaced road (unimproved)
 dirt_road
-Unsurfaced road
+Unsurfaced road (improved)
 macadam_road
 MacAdam road
 motorway

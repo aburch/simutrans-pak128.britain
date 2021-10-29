@@ -13,6 +13,7 @@ freight=Passagiere
 payload=32
 overcrowded_capacity=0
 speed=50
+# 85HP - Townsin p. 41
 power=63
 tractive_effort=9
 gear=50
@@ -20,12 +21,14 @@ gear=50
 weight=5.2
 length=6
 cost=920000
+# These apparently gave 11.79 - 12.55mpg on local services:
+# see Townsin p. 42
 runningcost=63
 fixed_cost=8479
 intro_year=1934
 intro_month=9
-retire_year=1945
-retire_month=12
+retire_year=1946
+retire_month=5
 is_tall=0
 sound=steve-o-hara-daimler-cog5.wav
 

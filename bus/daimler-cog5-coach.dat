@@ -1,0 +1,67 @@
+# See Townsin p. 51
+obj=vehicle
+name=daimler-cog5-coach
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# Townsin p. 51
+payload=35
+overcrowded_capacity=0
+speed=64
+# 85HP - Townsin p. 41
+power=63
+tractive_effort=7
+gear=50
+# Guessed
+weight=6.7
+length=6
+cost=932500
+runningcost=63
+fixed_cost=8479
+intro_year=1934
+intro_month=9
+retire_year=1947
+retire_month=7
+is_tall=0
+sound=steve-o-hara-daimler-cog5.wav
+
+comfort=78
+# Coach: 7.5 seconds per passenger
+min_loading_time=20
+max_loading_time=263
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Private
+liverytype[2]=Ribble-coach
+
+EmptyImage[E][0]=./images/daimler-cog5-coach-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/daimler-cog5-coach-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/daimler-cog5-coach-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/daimler-cog5-coach-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/daimler-cog5-coach-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/daimler-cog5-coach-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/daimler-cog5-coach-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/daimler-cog5-coach-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/daimler-cog5-coach-royal-blue_E.0.0,-33,14
+EmptyImage[SE][1]=./images/daimler-cog5-coach-royal-blue_SE.0.0,-13,0
+EmptyImage[S][1]=./images/daimler-cog5-coach-royal-blue_S.0.0,0,0
+EmptyImage[SW][1]=./images/daimler-cog5-coach-royal-blue_SW.0.0,-8,10
+EmptyImage[W][1]=./images/daimler-cog5-coach-royal-blue_W.0.0,4,5
+EmptyImage[NW][1]=./images/daimler-cog5-coach-royal-blue_NW.0.0,12,10
+EmptyImage[N][1]=./images/daimler-cog5-coach-royal-blue_N.0.0,0,33
+EmptyImage[NE][1]=./images/daimler-cog5-coach-royal-blue_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/daimler-cog5-coach-ribble_E.0.0,-33,14
+EmptyImage[SE][2]=./images/daimler-cog5-coach-ribble_SE.0.0,-13,0
+EmptyImage[S][2]=./images/daimler-cog5-coach-ribble_S.0.0,0,0
+EmptyImage[SW][2]=./images/daimler-cog5-coach-ribble_SW.0.0,-8,10
+EmptyImage[W][2]=./images/daimler-cog5-coach-ribble_W.0.0,4,5
+EmptyImage[NW][2]=./images/daimler-cog5-coach-ribble_NW.0.0,12,10
+EmptyImage[N][2]=./images/daimler-cog5-coach-ribble_N.0.0,0,33
+EmptyImage[NE][2]=./images/daimler-cog5-coach-ribble_NE.0.0,0,24
