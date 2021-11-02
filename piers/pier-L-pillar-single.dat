@@ -15,6 +15,9 @@ support_mask=0x04000000
 
 drag_ribi=0x9
 
+keep_dry=1
+sub_obj_mask=0x01
+
 cursor=pier-L-pillar-single.36.1
 icon=> pier-L-pillar-single.36.0
 
