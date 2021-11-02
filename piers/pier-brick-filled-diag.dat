@@ -10,6 +10,8 @@ base_mask=0x01017919
 middle_mask=0x01017919
 support_mask=0x01017919
 
+bottom_only=1
+sub_obj_mask=0
 
 cursor=pier-brick-filled-diag.4.1
 icon=> pier-brick-filled-diag.4.0

@@ -10,6 +10,7 @@ base_mask=0x00000038
 middle_mask=0x01010139
 support_mask=0x00000038
 
+sub_obj_mask=0x10
 
 cursor=pier-brick-half-arch.4.1
 icon=> pier-brick-half-arch.4.0

@@ -16,6 +16,9 @@ base_mask=0x04040404
 middle_mask=0x81B981B9
 support_mask=0x04040404
 
+keep_dry=1
+sub_obj_mask=0x02
+
 cursor=pier-L-slope1.0.5
 icon=> pier-L-slope1.0.4
 

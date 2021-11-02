@@ -24,6 +24,9 @@ needs_ground=1
 dims=1,1,4
 clusters=16
 
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x01
+
 BackImage[2][0][0][0][0][0]=images/com/30-parade-shops-2f-a.0.0
 BackImage[1][0][0][0][0][0]=images/com/30-parade-shops-2f-a.0.1
 BackImage[0][0][0][0][0][0]=images/com/30-parade-shops-2f-a.0.2
@@ -58,6 +61,9 @@ retire_year=1960
 needs_ground=1
 dims=1,1,4
 clusters=12
+
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x01
 
 BackImage[2][0][0][0][0][0]=images/com/30-parade-shops-2f-b.0.0
 BackImage[1][0][0][0][0][0]=images/com/30-parade-shops-2f-b.0.1

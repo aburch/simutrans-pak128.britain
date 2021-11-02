@@ -12,6 +12,7 @@ base_mask=0x00380038
 middle_mask=0x01390139
 support_mask=0x00000000
 
+sub_obj_mask=0x10
 
 cursor=pier-brick-arch-slope2.4.1
 icon=> pier-brick-arch-slope2.4.0
