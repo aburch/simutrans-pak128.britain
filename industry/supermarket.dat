@@ -45,7 +45,8 @@ InputFactor[5]=100
 InputGood[6]=canned_food
 InputCapacity[6]=250 
 InputFactor[6]=100  
-
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x01
 passenger_boost=800
 mail_boost=200
 electricity_amount=1
@@ -103,6 +104,8 @@ InputFactor[5]=100
 InputGood[6]=canned_food
 InputCapacity[6]=350 
 InputFactor[6]=100  
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x01
 
 passenger_boost=750
 mail_boost=500
@@ -200,6 +203,8 @@ passenger_boost=750
 mail_boost=500
 electricity_amount=2
 electricity_boost=1600
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x01
 
 
 copyright=James
