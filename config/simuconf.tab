@@ -1142,9 +1142,13 @@ assumed_curve_radius_45_degrees = 750
 # THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
 #diagonal_multiplier = 724
 
-# Show info windows for private cars and pedestrians?
+# Show info windows for private cars?
 # (1=on, 0=off)
-pedes_and_car_info = 1
+privatecar_info = 1
+
+# Show info windows for pedestrians?
+# (1=on, 0=off)
+pedestrian_info = 0
 
 # Show infos on trees?
 # (1=on, 0=off)
