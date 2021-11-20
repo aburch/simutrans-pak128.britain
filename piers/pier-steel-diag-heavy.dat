@@ -8,10 +8,10 @@ intro_year=1860
 intro_month=1
 
 above_way_ribi=0x0
-below_way_ribi=0x9
+below_way_ribi=0x6
 
 base_mask=0x00000000
-base_mask_2=0x00000001
+base_mask_2=0x00000100
 middle_mask=0x01390139
 support_mask=0x0
 
@@ -19,7 +19,7 @@ keep_dry=1
 sub_obj_mask=0
 low_waydeck=1
 
-drag_ribi=0x9
+drag_ribi=0x6
 
 cursor=pier-steel-diag-heavy.0.5
 icon=> pier-steel-diag-heavy.0.4
@@ -56,7 +56,7 @@ above_way_ribi=0x0
 below_way_ribi=0x9
 
 base_mask=0x00000000
-base_mask_2=0x00010000
+base_mask_2=0x00000001
 middle_mask=0x01390139
 support_mask=0x0
 

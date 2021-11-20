@@ -11,7 +11,7 @@ above_way_ribi=0x0
 below_way_ribi=0x5
 
 base_mask=0x00000000
-base_mask_2=0x00000001
+base_mask_2=0x00010000
 middle_mask=0x01390139
 support_mask=0x0
 
