@@ -18,6 +18,9 @@ drag_ribi=0xF
 keep_dry=1
 sub_obj_mask=0x01
 
+auto_group=0x02
+auto_height=0x80
+
 cursor=pier-L-pillars.9.1
 icon=> pier-L-pillars.9.0
 
