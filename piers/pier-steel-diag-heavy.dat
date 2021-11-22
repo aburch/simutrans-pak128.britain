@@ -21,6 +21,8 @@ low_waydeck=1
 
 drag_ribi=0x6
 
+auto_group=0x04
+
 cursor=pier-steel-diag-heavy.0.5
 icon=> pier-steel-diag-heavy.0.4
 
@@ -65,6 +67,8 @@ sub_obj_mask=0
 low_waydeck=1
 
 drag_ribi=0x9
+
+auto_group=0x04
 
 cursor=pier-steel-diag-heavy.0.5
 icon=> pier-steel-diag-heavy.0.4
