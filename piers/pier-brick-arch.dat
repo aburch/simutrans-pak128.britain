@@ -17,6 +17,9 @@ auto_group=0x01
 cursor=pier-brick-arch.2.1
 icon=> pier-brick-arch.2.0
 
+backimage[80][0][0]=> pier-brick-arch.2.0
+backimage[79][0][0] = pier-brick-arch.2.1
+
 backimage[00][0][0] = pier-brick-arch.0.24
 backimage[00][1][0] = pier-brick-arch.1.24
 
