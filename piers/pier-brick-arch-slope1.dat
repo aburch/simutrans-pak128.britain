@@ -9,7 +9,7 @@ below_way_ribi=0xA
 above_slope=36
 
 base_mask=0x00380038
-middle_mask=0x01390139
+middle_mask=0x073F073F
 support_mask=0x00000000
 
 sub_obj_mask=0x10

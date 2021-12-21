@@ -7,7 +7,7 @@ above_way_ribi=0x4
 below_way_ribi=0xB
 
 base_mask=0x00000038
-middle_mask=0x004078 #TODO prevent this from being built to supplement diags
+middle_mask=0x0000407C
 support_mask=0x00000038
 
 sub_obj_mask=0x04

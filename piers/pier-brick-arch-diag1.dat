@@ -6,9 +6,10 @@ maintenance=70
 above_way_ribi=0x3
 below_way_ribi=0xE
 
-base_mask=0x00640000
-middle_mask=0x01791901
-support_mask=0x00640000
+base_mask=0x00680000
+middle_mask=0x056D1D05
+middle_mask_2=0x00040600
+support_mask=0x00680000
 
 sub_obj_mask=0x10
 
