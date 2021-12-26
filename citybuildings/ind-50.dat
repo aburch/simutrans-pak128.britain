@@ -25,6 +25,9 @@ retire_year=1980
 needs_ground=1
 dims=1,1,4
 
+pier_sub_1_mask=0x1F
+pier_sub_2_mask=0xFFFFFFFF
+
 BackImage[2][0][0][0][0][0]=images/ind/1950parking.0.0
 BackImage[1][0][0][0][0][0]=images/ind/1950parking.0.1
 BackImage[0][0][0][0][0][0]=images/ind/1950parking.0.2
@@ -130,6 +133,9 @@ intro_year=1950
 #retire_year=2050
 needs_ground=1
 dims=1,1,4
+
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x01
 
 BackImage[0][0][0][0][0][0]=images/ind/A_modern_light_industry.4.0
 BackImage[1][0][0][0][0][0]=images/ind/A_modern_light_industry.4.1

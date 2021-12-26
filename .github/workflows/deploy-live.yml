@@ -1,0 +1,33 @@
+name: Deploy live builds
+on: push
+jobs:
+  build:
+    uses: simutrans/simutrans-pak128.britain-ex/.github/workflows/build.yml@master
+    with:
+      pakset_ref: ${{ github.ref }}
+
+  upload:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      # Workarround: retrieve the cache key of the build.
+      - name: Download build metadata
+        uses: actions/download-artifact@v2
+        with:
+          name: build-metadata
+      - run: |
+          echo "pakset_sha=$(cat ./build-metadata.json | jq -r '.pakset_version')" >> $GITHUB_ENV
+          echo "simutrans_sha=$(cat ./build-metadata.json | jq -r '.makeobj_version')" >> $GITHUB_ENV
+      # End of workarround
+
+      - name: Load Build results from cache
+        uses: actions/cache@v2
+        with:
+          path: ./pak128.Britain-Ex
+          key: nightly-${{ env.pakset_sha }}@${{ env.simutrans_sha }}
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: pak128.britain-ex
+          path: pak128.Britain-Ex

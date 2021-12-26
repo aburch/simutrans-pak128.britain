@@ -21,6 +21,9 @@ intro_year=1920
 needs_ground=1
 dims=1,1,4
 
+pier_sub_1_mask=0x15
+pier_sub_2_mask=0x1F
+
 BackImage[2][0][0][0][0][0]=images/ind/20-industrial-tanks-a.0.0
 BackImage[1][0][0][0][0][0]=images/ind/20-industrial-tanks-a.0.1
 BackImage[0][0][0][0][0][0]=images/ind/20-industrial-tanks-a.0.2
@@ -78,6 +81,9 @@ class_proportion_jobs[4]=0
 intro_year=1920
 needs_ground=1
 dims=1,1,1
+
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x03
 
 BackImage[0][0][0][0][0][0]=images/ind/1920-silos.0.1
 BackImage[0][0][0][0][0][1]=images/ind/1920-silos.1.1
