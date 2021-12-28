@@ -12,8 +12,8 @@ speed=32
 power=40
 tractive_effort=5
 gear=50
-weight=4.6
-way_wear_factor=125
+# Guessed
+weight=4.7
 axles=2
 length=4
 cost=115000
@@ -25,7 +25,7 @@ retire_year=1929
 retire_month=12
 sound=video47-leyland-lion-lsc.wav
 
-comfort=30
+comfort=39
 # Single door with conductor: 2.5 seconds per passenger
 min_loading_time=4
 max_loading_time=75
