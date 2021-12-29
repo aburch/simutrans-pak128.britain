@@ -1,5 +1,5 @@
 # The normal control coach version of the ADC 423
-# CV25 engine (mark IV)
+# CV25 engine, 3.5l (mark IV)
 obj=vehicle
 name=adc-424-coach
 copyright=JamesPetts&JamesHood
@@ -10,7 +10,7 @@ payload=24
 overcrowded_capacity=0
 speed=50
 power=30
-# Reduced as assumed to be geard for higher top speed
+ # Reduced as assumed to be geard for higher top speed
 tractive_effort=4
 gear=50
 # Guessing to be similar to the Regal
