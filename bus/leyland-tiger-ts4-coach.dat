@@ -1,39 +1,38 @@
-# See Phillips p. 30.
-# The "Popular" was the 'bus version and the "Comfort" the coach version
-# 6.8l 6 cylinder engine
+# See Phillips p. 38
+# E36 7.6l 6 cylinder engine
 obj=vehicle
-name=leyland-tiger-ts1-comfort
+name=leyland-tiger-ts4-coach
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=petrol
 freight=Passagiere
 # Guessed for coach version
-payload=28
-overcrowded_capacity=0
-speed=62
-# Power: 90bhp (Phillips p. 30)
-power=67
-# Assume lower gearing for coach version
-tractive_effort=6
+payload=30
+overcrowded_capacity=2
+speed=85
+# Power: 96bhp (Phillips p. 36)
+power=72
+# Assume higher gearing for coach version
+tractive_effort=7
 gear=50
 # Guessed
-weight=6.8
+weight=7.0
 axles=2
 length=5
-cost=398000
-runningcost=67
-fixed_cost=6950
-intro_year=1928
-intro_month=2
-retire_year=1932
-retire_month=7
+cost=405000
+runningcost=72
+fixed_cost=7000
+intro_year=1932
+intro_month=7
+retire_year=1934
+retire_month=9
 is_tall=0
 sound=gareth-bull-leyland-titan-td1.wav
 
 comfort=74
 # Coach: 7.5 seconds per passenger
 min_loading_time=30
-max_loading_time=210
+max_loading_time=225
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
@@ -58,4 +57,3 @@ EmptyImage[W][1]=./images/leyland-tiger-ts1-ribble-express_W.0.0,4,5
 EmptyImage[NW][1]=./images/leyland-tiger-ts1-ribble-express_NW.0.0,12,10
 EmptyImage[N][1]=./images/leyland-tiger-ts1-ribble-express_N.0.0,0,33
 EmptyImage[NE][1]=./images/leyland-tiger-ts1-ribble-express_NE.0.0,0,24
-
