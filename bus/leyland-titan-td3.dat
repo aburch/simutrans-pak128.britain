@@ -37,6 +37,7 @@ max_loading_time=112
 
 # Convertible to the diesel version for £450 in the mid-1930s:
 # Phillips p. 48
+upgrade[0]=leyland-titan-td4
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
