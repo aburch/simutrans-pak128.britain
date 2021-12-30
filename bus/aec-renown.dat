@@ -9,16 +9,20 @@ freight=Passagiere
 payload=56
 overcrowded_capacity=5
 speed=50
+# AEC 145 7.4l engine: http://www.old-bus-photos.co.uk/?cat=436
 # 45hp - see John Day, The Story of the London Bus, p. 68
-power=34
-tractive_effort=6
+# This equates to 34kW - but this is suspected to be an RAC power rating,  so
+# multiply by 2.31 (to replicate the relationship between the Titan TD1's 38.8 RAC HP
+# and its 90 BHP)
+power=79
+tractive_effort=9
 gear=50
 # Guessed
 weight=7.5
 axles=3
 length=6
 cost=725200
-runningcost=34
+runningcost=78
 fixed_cost=8378
 intro_year=1929
 intro_month=10

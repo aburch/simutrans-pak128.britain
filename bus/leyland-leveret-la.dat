@@ -9,7 +9,11 @@ freight=Passagiere
 payload=20
 overcrowded_capacity=0
 speed=32
-# Guessed. 5.1l 4 cylinder engine
+# 5.1l 4 cylinder engine
+# 40hp: https://petergould.co.uk/manufacturers/chassis/leyland1/
+# This is 30kw. However, this is probably an RAC rating. This
+# means that it will have been based on inaccurate assumptions.
+# It requires multiplying by approx. 1.3: see: http://www.austin7.org/Other%20Articles/RAC%20HP%20Rating/
 power=40
 tractive_effort=5
 gear=50
