@@ -41,6 +41,7 @@ liverytype[1]=Sheffield-light
 liverytype[2]=Ribble-standard
 liverytype[3]=General
 liverytype[4]=LT
+liverytype[5]=Sheffield-dark
 
 EmptyImage[E][0]=./images/leyland-titan-td2-southdown_E.0.0,-33,14
 EmptyImage[SE][0]=./images/leyland-titan-td2-southdown_SE.0.0,-13,0
@@ -86,4 +87,13 @@ EmptyImage[W][4]=./images/leyland-titan-td2-lt_W.0.0,4,5
 EmptyImage[NW][4]=./images/leyland-titan-td2-lt_NW.0.0,12,10
 EmptyImage[N][4]=./images/leyland-titan-td2-lt_N.0.0,0,33
 EmptyImage[NE][4]=./images/leyland-titan-td2-lt_NE.0.0,0,24
+
+EmptyImage[E][5]=./images/leyland-titan-td2-sheffield-dark_E.0.0,-33,14
+EmptyImage[SE][5]=./images/leyland-titan-td2-sheffield-dark_SE.0.0,-13,0
+EmptyImage[S][5]=./images/leyland-titan-td2-sheffield-dark_S.0.0,0,0
+EmptyImage[SW][5]=./images/leyland-titan-td2-sheffield-dark_SW.0.0,-8,10
+EmptyImage[W][5]=./images/leyland-titan-td2-sheffield-dark_W.0.0,4,5
+EmptyImage[NW][5]=./images/leyland-titan-td2-sheffield-dark_NW.0.0,12,10
+EmptyImage[N][5]=./images/leyland-titan-td2-sheffield-dark_N.0.0,0,33
+EmptyImage[NE][5]=./images/leyland-titan-td2-sheffield-dark_NE.0.0,0,24
 
