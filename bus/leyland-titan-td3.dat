@@ -1,0 +1,72 @@
+# See Phillips p. 49
+# E36 7.6l 6 cylinder engine. This is the petrol version.
+obj=vehicle
+name=leyland-titan-td3
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+# See Phillips p. 51
+payload=54
+overcrowded_capacity=4
+speed=50
+# Power: 96bhp (Phillips p. 36)
+power=72
+tractive_effort=9
+gear=50
+# Guessed. Steel body
+weight=9.4
+axles=2
+length=5
+cost=450000
+runningcost=72
+fixed_cost=8045
+intro_year=1933
+intro_month=8
+retire_year=1935
+retire_month=11
+is_tall=1
+sound=gareth-bull-leyland-titan-td1.wav
+
+comfort=42
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=108
+
+# Convertible to the diesel version for £450 in the mid-1930s:
+# Phillips p. 48
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Sheffield-light
+liverytype[2]=Ribble-standard
+
+EmptyImage[E][0]=./images/leyland-titan-td3-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-titan-td3-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-titan-td3-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/leyland-titan-td3-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-titan-td3-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-titan-td3-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-titan-td3-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-titan-td3-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-titan-td3-sheffield_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-titan-td3-sheffield_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-titan-td3-sheffield_S.0.0,0,0
+EmptyImage[SW][1]=./images/leyland-titan-td3-sheffield_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-titan-td3-sheffield_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-titan-td3-sheffield_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-titan-td3-sheffield_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-titan-td3-sheffield_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/leyland-titan-td3-ribble_E.0.0,-33,14
+EmptyImage[SE][2]=./images/leyland-titan-td3-ribble_SE.0.0,-13,0
+EmptyImage[S][2]=./images/leyland-titan-td3-ribble_S.0.0,0,0
+EmptyImage[SW][2]=./images/leyland-titan-td3-ribble_SW.0.0,-8,10
+EmptyImage[W][2]=./images/leyland-titan-td3-ribble_W.0.0,4,5
+EmptyImage[NW][2]=./images/leyland-titan-td3-ribble_NW.0.0,12,10
+EmptyImage[N][2]=./images/leyland-titan-td3-ribble_N.0.0,0,33
+EmptyImage[NE][2]=./images/leyland-titan-td3-ribble_NE.0.0,0,24
+
