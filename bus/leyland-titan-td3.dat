@@ -17,7 +17,7 @@ power=72
 tractive_effort=9
 gear=50
 # Guessed. Steel body
-weight=9.4
+weight=6.9
 axles=2
 length=5
 cost=450000
@@ -25,15 +25,15 @@ runningcost=72
 fixed_cost=8045
 intro_year=1933
 intro_month=8
-retire_year=1935
-retire_month=11
+retire_year=1938
+retire_month=5
 is_tall=1
 sound=gareth-bull-leyland-titan-td1.wav
 
 comfort=42
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
-max_loading_time=108
+max_loading_time=112
 
 # Convertible to the diesel version for £450 in the mid-1930s:
 # Phillips p. 48

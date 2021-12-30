@@ -32,7 +32,7 @@ sound=richard-walker-aec-stl-diesel.wav
 comfort=42
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
-max_loading_time=98
+max_loading_time=112
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

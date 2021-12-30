@@ -1,42 +1,42 @@
 # See Phillips p. 49
 # 8.6l diesel engine
 # In reality, both this and the TD3 came in either petrol or diesel versions,
-# but this is a useful simplification.
-#obj=vehicle
+# but this is a useful simplification. The TD5 is not separately depicted, so
+# the date range for this includes that for the TD5.
+obj=vehicle
 name=leyland-titan-td4
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
-smoke=Diesel-light
+smoke=Diesel
 freight=Passagiere
-# Phillips p. 51 refers to one with a capacity of 54, but this website: 
 # http://web.archive.org/web/20180326150057/http://www.countrybus.org/STD/STD.html
-# refers to them having 56, at least in London usage.
 payload=56
 overcrowded_capacity=5
 speed=50
-# Power: 96bhp (Phillips p. 36)
-power=72
-tractive_effort=9
+# Guessed
+power=68
+tractive_effort=10
 gear=50
 # Guessed. Steel body
-weight=9.4
+weight=7.0
 axles=2
 length=5
-cost=450000
-runningcost=72
-fixed_cost=8045
-intro_year=1933
-intro_month=8
-retire_year=1935
-retire_month=11
+cost=675000
+runningcost=68
+fixed_cost=6705
+intro_year=1935
+intro_month=4
+retire_year=1940
+retire_month=10
 is_tall=1
-sound=gareth-bull-leyland-titan-td1.wav
+# TODO: Find a TD4 sound for this.
+sound=richard-walker-aec-stl-diesel.wav
 
-comfort=42
+comfort=41
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
-max_loading_time=108
+max_loading_time=112
 
 # Convertible to the diesel version for £450 in the mid-1930s:
 # Phillips p. 48
@@ -50,6 +50,7 @@ liverytype[2]=Ribble-standard
 liverytype[3]=LT
 liverytype[4]=LT-revised
 liverytype[5]=WW2-Austerity
+liverytype[6]=Sheffield-dark
 
 EmptyImage[E][0]=./images/leyland-titan-td3-southdown_E.0.0,-33,14
 EmptyImage[SE][0]=./images/leyland-titan-td3-southdown_SE.0.0,-13,0
@@ -105,3 +106,11 @@ EmptyImage[NW][5]=./images/leyland-titan-td3-austerity_NW.0.0,12,10
 EmptyImage[N][5]=./images/leyland-titan-td3-austerity_N.0.0,0,33
 EmptyImage[NE][5]=./images/leyland-titan-td3-austerity_NE.0.0,0,24
 
+EmptyImage[E][6]=./images/leyland-titan-td3-sheffield-dark_E.0.0,-33,14
+EmptyImage[SE][6]=./images/leyland-titan-td3-sheffield-dark_SE.0.0,-13,0
+EmptyImage[S][6]=./images/leyland-titan-td3-sheffield-dark_S.0.0,0,0
+EmptyImage[SW][6]=./images/leyland-titan-td3-sheffield-dark_SW.0.0,-8,10
+EmptyImage[W][6]=./images/leyland-titan-td3-sheffield-dark_W.0.0,4,5
+EmptyImage[NW][6]=./images/leyland-titan-td3-sheffield-dark_NW.0.0,12,10
+EmptyImage[N][6]=./images/leyland-titan-td3-sheffield-dark_N.0.0,0,33
+EmptyImage[NE][6]=./images/leyland-titan-td3-sheffield-dark_NE.0.0,0,24
