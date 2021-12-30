@@ -1,10 +1,13 @@
 # See Phillips p. 49
-# E36 7.6l 6 cylinder engine. This is the petrol version.
-obj=vehicle
-name=leyland-titan-td3
+# 8.6l diesel engine
+# In reality, both this and the TD3 came in either petrol or diesel versions,
+# but this is a useful simplification.
+#obj=vehicle
+name=leyland-titan-td4
 copyright=JamesPetts&JamesHood
 waytype=road
-engine_type=petrol
+engine_type=diesel
+smoke=Diesel-light
 freight=Passagiere
 # Phillips p. 51 refers to one with a capacity of 54, but this website: 
 # http://web.archive.org/web/20180326150057/http://www.countrybus.org/STD/STD.html
@@ -47,7 +50,6 @@ liverytype[2]=Ribble-standard
 liverytype[3]=LT
 liverytype[4]=LT-revised
 liverytype[5]=WW2-Austerity
-liverytype[6]=Sheffield-dark
 
 EmptyImage[E][0]=./images/leyland-titan-td3-southdown_E.0.0,-33,14
 EmptyImage[SE][0]=./images/leyland-titan-td3-southdown_SE.0.0,-13,0
@@ -102,13 +104,4 @@ EmptyImage[W][5]=./images/leyland-titan-td3-austerity_W.0.0,4,5
 EmptyImage[NW][5]=./images/leyland-titan-td3-austerity_NW.0.0,12,10
 EmptyImage[N][5]=./images/leyland-titan-td3-austerity_N.0.0,0,33
 EmptyImage[NE][5]=./images/leyland-titan-td3-austerity_NE.0.0,0,24
-
-EmptyImage[E][6]=./images/leyland-titan-td3-sheffield-dark_E.0.0,-33,14
-EmptyImage[SE][6]=./images/leyland-titan-td3-sheffield-dark_SE.0.0,-13,0
-EmptyImage[S][6]=./images/leyland-titan-td3-sheffield-dark_S.0.0,0,0
-EmptyImage[SW][6]=./images/leyland-titan-td3-sheffield-dark_SW.0.0,-8,10
-EmptyImage[W][6]=./images/leyland-titan-td3-sheffield-dark_W.0.0,4,5
-EmptyImage[NW][6]=./images/leyland-titan-td3-sheffield-dark_NW.0.0,12,10
-EmptyImage[N][6]=./images/leyland-titan-td3-sheffield-dark_N.0.0,0,33
-EmptyImage[NE][6]=./images/leyland-titan-td3-sheffield-dark_NE.0.0,0,24
 
