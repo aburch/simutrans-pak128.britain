@@ -27,9 +27,9 @@ cost=641000
 runningcost=68
 fixed_cost=6050
 intro_year=1933
-intro_month=5
-retire_year=1937
-retire_month=3
+intro_month=11
+retire_year=1940
+retire_month=10
 is_tall=0
 sound=Bus&TrainChaser93-leyland-titan-td5.wav
 
@@ -43,6 +43,7 @@ Constraint[Next][0]=none
 
 liverytype[0]=Southdown-standard
 liverytype[1]=Ribble-coach
+liverytype[2]=Private
 
 EmptyImage[E][0]=./images/leyland-tiger-ts6-coach-southdown_E.0.0,-33,14
 EmptyImage[SE][0]=./images/leyland-tiger-ts6-coach-southdown_SE.0.0,-13,0
@@ -61,3 +62,12 @@ EmptyImage[W][1]=./images/leyland-tiger-ts6-coach-ribble-express_W.0.0,4,5
 EmptyImage[NW][1]=./images/leyland-tiger-ts6-coach-ribble-express_NW.0.0,12,10
 EmptyImage[N][1]=./images/leyland-tiger-ts6-coach-ribble-express_N.0.0,0,33
 EmptyImage[NE][1]=./images/leyland-tiger-ts6-coach-ribble-express_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/leyland-tiger-ts6-coach-royal-blue_E.0.0,-33,14
+EmptyImage[SE][2]=./images/leyland-tiger-ts6-coach-royal-blue_SE.0.0,-13,0
+EmptyImage[S][2]=./images/leyland-tiger-ts6-coach-royal-blue_S.0.0,0,0
+EmptyImage[SW][2]=./images/leyland-tiger-ts6-coach-royal-blue_SW.0.0,-8,10
+EmptyImage[W][2]=./images/leyland-tiger-ts6-coach-royal-blue_W.0.0,4,5
+EmptyImage[NW][2]=./images/leyland-tiger-ts6-coach-royal-blue_NW.0.0,12,10
+EmptyImage[N][2]=./images/leyland-tiger-ts6-coach-royal-blue_N.0.0,0,33
+EmptyImage[NE][2]=./images/leyland-tiger-ts6-coach-royal-blue_NE.0.0,0,24
