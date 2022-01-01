@@ -1,5 +1,5 @@
 # See Phillips p. 46
-# 8.6l diesel engine
+# 8.6l diesel engine (E.166)
 # Note that, in reality, the TS7 was introduced in 1935, and
 # the TS6 had a diesel option from the outset. However, the
 # TS7 was so similar to the TS6 that it makes sense to use
@@ -15,8 +15,8 @@ freight=Passagiere
 payload=39
 overcrowded_capacity=0
 speed=80
-# Guessed
-power=68
+# See Phillips pp. 76-77
+power=73
 tractive_effort=10
 gear=50
 # Guessed
@@ -24,7 +24,7 @@ weight=7.9
 axles=3
 length=6
 cost=800000
-runningcost=68
+runningcost=73
 fixed_cost=6650
 intro_year=1933
 intro_month=11

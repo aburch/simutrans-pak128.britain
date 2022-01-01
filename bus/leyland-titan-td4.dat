@@ -1,5 +1,5 @@
 # See Phillips p. 49
-# 8.6l diesel engine
+# 8.6l diesel engine (E.166)
 # In reality, both this and the TD3 came in either petrol or diesel versions,
 # but this is a useful simplification. The TD5 is not separately depicted, so
 # the date range for this includes that for the TD5.
@@ -14,8 +14,8 @@ freight=Passagiere
 payload=56
 overcrowded_capacity=5
 speed=50
-# Guessed
-power=68
+# See Phillips pp. 76-77
+power=73
 tractive_effort=10
 gear=50
 # Guessed. Steel body
@@ -24,7 +24,7 @@ axles=2
 length=5
 cost=675000
 upgrade_price=168750
-runningcost=68
+runningcost=73
 fixed_cost=6705
 intro_year=1935
 intro_month=4

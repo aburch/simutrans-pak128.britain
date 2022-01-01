@@ -1,6 +1,6 @@
 # http://web.archive.org/web/20170325115736/http://www.countrybus.org/TF/TF.html
 # Leyland Tiger FEC: see Phillips p. 60
-# 8.6l diesel engine
+# 8.6l diesel engine (E.166)
 obj=vehicle
 name=leyland-tiger-tf
 copyright=JamesPetts
@@ -11,8 +11,8 @@ freight=Passagiere
 payload=34
 overcrowded_capacity=0
 speed=64
-# Guessed
-power=68
+# See Phillips pp. 76-77: 98BHP
+power=73
 # Assumed higher gearing for coach version
 tractive_effort=8
 gear=50
@@ -20,7 +20,7 @@ weight=5.4
 axles=2
 length=5
 cost=447500
-runningcost=68
+runningcost=73
 fixed_cost=7233
 intro_year=1939
 intro_month=3
