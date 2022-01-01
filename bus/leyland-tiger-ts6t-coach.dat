@@ -20,7 +20,7 @@ weight=7.8
 axles=3
 length=6
 cost=570000
-runningcost=72
+runningcost=71
 fixed_cost=7650
 intro_year=1933
 intro_month=5
@@ -29,7 +29,7 @@ retire_month=3
 is_tall=0
 sound=gareth-bull-leyland-titan-td1.wav
 
-comfort=76
+comfort=72
 # Coach: 7.5 seconds per passenger
 min_loading_time=30
 max_loading_time=293
