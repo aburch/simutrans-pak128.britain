@@ -1,25 +1,26 @@
+# This is the petrol KP1 version
+# See Phillips p. 34
 # http://www.countrybus.org/C/Cub.html
 obj=vehicle
 name=leyland-cub
-engine_type=diesel
-smoke=Diesel-light
-speed=56
+engine_type=petrol
+speed=50
 gear=50
-power=30
+# 60bhp: Phillips p. 35
+power=45
+tractive_effort=5
 copyright=Kieron
-intro_year=1932
-intro_month=10
-retire_year=1953
-retire_month=10
+intro_year=1931
+intro_month=4
+retire_year=1936
+retire_month=5
 waytype=road
 freight=Passagiere
 payload=20
 length=4
-# This is not quite right for the diesel Cub, but an authentic
-# sound cannot be located for the present.
-sound=graham-french-tilling-stevens-1930.wav
+sound=video47-leyland-lion-lsc.wav
 
-comfort=35
+comfort=36
 # One door pay driver: 4.0 seconds per passenger
 min_loading_time=5
 max_loading_time=80
@@ -27,7 +28,7 @@ max_loading_time=80
 weight=4
 axles=2
 cost=220000
-runningcost=30
+runningcost=45
 fixed_cost=8115
 
 Constraint[Prev][0]=none
@@ -35,6 +36,7 @@ Constraint[Next][0]=none
 
 liverytype[0]=LT
 liverytype[1]=LT-Green
+liverytype[2]=Southdown-standard
 
 EmptyImage[E][0]=./images/leyland-cub-lt_E.0.0,-33,14
 EmptyImage[SE][0]=./images/leyland-cub-lt_SE.0.0,-13,0
@@ -53,3 +55,12 @@ EmptyImage[W][1]=./images/leyland-cub-lt-green_W.0.0,4,5
 EmptyImage[NW][1]=./images/leyland-cub-lt-green_NW.0.0,12,10
 EmptyImage[N][1]=./images/leyland-cub-lt-green_N.0.0,0,33
 EmptyImage[NE][1]=./images/leyland-cub-lt-green_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/leyland-cub-southdown_E.0.0,-33,14
+EmptyImage[SE][2]=./images/leyland-cub-southdown_SE.0.0,-13,0
+EmptyImage[S][2]=./images/leyland-cub-southdown_S.0.0,4,0
+EmptyImage[SW][2]=./images/leyland-cub-southdown_SW.0.0,-8,10
+EmptyImage[W][2]=./images/leyland-cub-southdown_W.0.0,4,5
+EmptyImage[NW][2]=./images/leyland-cub-southdown_NW.0.0,12,10
+EmptyImage[N][2]=./images/leyland-cub-southdown_N.0.0,0,33
+EmptyImage[NE][2]=./images/leyland-cub-southdown_NE.0.0,0,24
