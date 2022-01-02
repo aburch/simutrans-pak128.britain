@@ -7210,9 +7210,9 @@ Leyland Tiger TS4
 leyland-tiger-ts4-coach
 Leyland Tiger TS4 (coach)
 leyland-titan-td3
-Leyland Titan TD3
+Leyland Titan TD3 (STD)
 leyland-titan-td4
-Leyland Titan TD4
+Leyland Titan TD4 (STD)
 leyland-tiger-ts6
 Leyland Tiger TS6
 leyland-tiger-ts7
@@ -7230,7 +7230,7 @@ Leyland Tiger TS7T
 leyland-tiger-ts7t-coach
 Leyland Tiger TS7T (coach)
 leyland-tiger-tf
-Leyland Tiger FEC (coach)
+Leyland Tiger FEC (coach) (TF)
 leyland-cub-kpz1
 Leyland Cub KPZ1
 leyland-cub-kpz1-diesel
@@ -7246,11 +7246,13 @@ Leyland Cheetah LZ2 (coach)
 leyland-titan-pd1
 Leyland Titan PD1
 leyland-tiger-ps1
-Leyland Tiger PS1
+Leyland Tiger PS1 (TD)
 leyland-tiger-ps1-1
 Leyland Tiger PS1/1
 leyland-titan-pd2-1
-Leyland Titan PD2/1
+Leyland Titan PD2/1 (RTL)
+leyland-titan-pd2-3
+Leyland Titan PD2/3 (RTW)
 Leyland_National_11(LC)
 Leyland National (1 entrance)
 leyland-national-11-lc-2-door
@@ -7267,6 +7269,34 @@ leyland-national-b-2-door
 Leyland National B (2 entrance)
 leyland-national-lnc
 Leyland National coach
+LeylandTitanB15
+Leyland Titan B15 (2 entrances)
+LeylandTitanB15-1-door
+Leyland Titan B15 (1 entrance)
+leyland-leopard-psu3a
+Leyland Leopard PSU3A
+leyland-leopard-psu3
+Leyland Leopard PSU3
+leyland-leopard-l2
+Leyland Leopard L2
+leyland-tiger-tr
+Leyland Tiger TR
+LeylandAtlantean
+Leyland Atlantean PDR1/1 (1 entrance)
+leyland-atlantean-pdr1-2-entrance
+Leyland Atlantean PDR1/1 (2 entrances)
+leyland-atlantean-an68-1-entrance
+Leyland Atlantean AN68 (1 entrance)
+leyland-atlantean-an68-2-entrance
+Leyland Atlantean AN68 (2 entrances)
+LeylandOlympian
+Leyland Olympian (2 entrance)
+LeylandOlympian-1-door
+Leyland Olympian (1 entrance)
+LeylandOlympianCoach
+Leyland Olympian (coach)
+LeylandLynx
+Leyland Lynx
 OmnibusDoubleKnifeboard
 "Knifeboard" horse omnibus
 omnibus-double-knifeboard-later
@@ -7427,14 +7457,6 @@ lgoc-x-type-double
 LGOC X Type
 OptareTempo
 Optare Tempo
-leyland-leopard-psu3a
-Leyland Leopard PSU3A
-leyland-leopard-psu3
-Leyland Leopard PSU3
-leyland-leopard-l2
-Leyland Leopard L2
-leyland-tiger-tr
-Leyland Tiger TR
 PlaxtonParagon
 Plaxton Paragon
 plaxton-premiere
@@ -7442,13 +7464,11 @@ Plaxton Premiere
 caetano-levante-3-axle
 Caetano Levante (3 axle)
 AECRegentST
-AEC Regent ST
+AEC Regent (ST)
 aec-renown-lt-bluebird
 AEC Renown LT ("Bluebird")
 aec-renown-lt-scooter
 AEC Renown LTL ("Scooter")
-LeylandLynx
-Leyland Lynx
 STypeDouble
 AEC S Type (double decker)
 STypeSingle
@@ -7460,17 +7480,15 @@ AEC NS Type (covered top)
 aec-ns-type-double-pneumatic
 AEC NS Type (pneumatic)
 aec-regent-rt-2
-AEC Regent II RT
+AEC Regent II (RT)
 aec-regent-rt-3
-AEC Regent III RT
-leyland-titan-rtw
-Leyland Titan RTW
+AEC Regent III (RT)
 AECRenownLT
-AEC Renown LT
+AEC Renown (LT)
 aec-regent-stl
-AEC Regent STL
+AEC Regent (STL)
 aec-regent-stl-late
-AEC Regent STL (revised)
+AEC Regent (STL) (revised)
 aec-rmc
 AEC Routemaster (coach)
 RoutemasterLongCoach
@@ -7491,24 +7509,10 @@ Routemaster
 AEC Routemaster (standard)
 AECQ2
 AEC Q2
-LeylandOlympianCoach
-Leyland Olympian (coach)
-LeylandTitanB15
-Leyland Titan B15 (2 entrances)
-LeylandTitanB15-1-door
-Leyland Titan B15 (1 entrance)
 RoutemasterLong
 AEC Routemaster (long)
 DennisDominator
 Dennis Dominator
-LeylandAtlantean
-Leyland Atlantean PDR1/1 (1 entrance)
-leyland-atlantean-pdr1-2-entrance
-Leyland Atlantean PDR1/1 (2 entrances)
-leyland-atlantean-an68-1-entrance
-Leyland Atlantean AN68 (1 entrance)
-leyland-atlantean-an68-2-entrance
-Leyland Atlantean AN68 (2 entrances)
 VolvoCitybus
 Volvo Citybus (2 entrances)
 VolvoCitybus-1-door
@@ -7521,10 +7525,6 @@ VolvoB7TL
 Volvo B7TL/Wright Eclipse Gemini (2 entrances)
 VolvoB7TL-1-door
 Volvo B7TL/Wright Eclipse Gemini (1 entrance)
-LeylandOlympian
-Leyland Olympian (2 entrance)
-LeylandOlympian-1-door
-Leyland Olympian (1 entrance)
 DennisEnviro400
 Dennis Enviro400 (2 entrances)
 DennisEnviro400-1-door
