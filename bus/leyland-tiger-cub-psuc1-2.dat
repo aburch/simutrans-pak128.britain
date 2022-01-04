@@ -1,0 +1,61 @@
+# See Phillips p. 101
+# O.350 engine, 5.7l
+# Coach version
+obj=vehicle
+name=leyland-tiger-cub-psuc1-2
+copyright=JamesPetts
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# Assumed to be the same as the Royal Tiger
+payload=41
+overcrowded_capacity=0
+# See Phillips p. 101
+speed=113
+# 90BHP - Phillips p. 101
+power=67
+# Assume lower gearing for coach version
+tractive_effort=5
+gear=50
+# See Phillips p. 100 - 2t lighter than a Royal Tiger
+weight=6.1
+length=5
+cost=930000
+runningcost=62
+fixed_cost=7200
+intro_year=1953
+intro_month=4
+retire_year=1962
+retire_month=11
+is_tall=0
+sound=eclectickle-leyland-comet.wav
+
+comfort=75
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=308
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Ribble-coach
+
+EmptyImage[E][0]=./images/leyland-tiger-cub-psuc1-2-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-tiger-cub-psuc1-2-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-tiger-cub-psuc1-2-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/leyland-tiger-cub-psuc1-2-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-tiger-cub-psuc1-2-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-tiger-cub-psuc1-2-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-tiger-cub-psuc1-2-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-tiger-cub-psuc1-2-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-tiger-cub-psuc1-2-ribble-express_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-tiger-cub-psuc1-2-ribble-express_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-tiger-cub-psuc1-2-ribble-express_S.0.0,0,0
+EmptyImage[SW][1]=./images/leyland-tiger-cub-psuc1-2-ribble-express_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-tiger-cub-psuc1-2-ribble-express_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-tiger-cub-psuc1-2-ribble-express_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-tiger-cub-psuc1-2-ribble-express_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-tiger-cub-psuc1-2-ribble-express_NE.0.0,0,24
