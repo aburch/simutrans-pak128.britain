@@ -31,9 +31,9 @@ is_tall=0
 sound=leyland-titan-pd2-ff3170.wav
 
 comfort=42
-# Single entrance with conductor: 1.8 seconds per passenger + 4 seconds
+# Single entrance with conductor but steep entrance: 2.2 seconds per passenger + 4 seconds
 min_loading_time=4
-max_loading_time=83
+max_loading_time=101
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

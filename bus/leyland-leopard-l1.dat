@@ -10,6 +10,7 @@ smoke=Diesel-light
 freight=Passagiere
 # Guessed
 payload=49
+overcrowded_capacity=4
 # Leyland O.600 engine
 speed=64
 power=104
@@ -28,9 +29,9 @@ retire_year=1967
 retire_month=4
 
 comfort=42
-# Single entrance pay driver: 4.0 seconds per passenger
+# Single entrance pay driver with steep steps: 4.5 seconds per passenger
 min_loading_time=4
-max_loading_time=196
+max_loading_time=221
 sound=henergy1994-leyland-leopard.wav
 
 Constraint[Prev][0]=none

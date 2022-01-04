@@ -26,10 +26,10 @@ retire_month=8
 sound=video47-bristol-k.wav
 
 comfort=42
-# Single entrance with conductor: 1.8 seconds per passenger + 4 seconds
+# Single entrance with conductor but steep entrance: 2.2 seconds per passenger + 4 seconds
 # TODO: Add OMO version
 min_loading_time=4
-max_loading_time=78
+max_loading_time=94
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
