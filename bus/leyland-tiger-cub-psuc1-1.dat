@@ -1,0 +1,60 @@
+# See Phillips p. 101
+# O.350 engine, 5.7l
+# 'Bus version
+obj=vehicle
+name=leyland-tiger-cub-psuc1-1
+copyright=JamesPetts
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# See Phillips p. 101
+payload=44
+overcrowded_capacity=3
+speed=55
+# 90BHP - Phillips p. 101
+power=67
+tractive_effort=7
+gear=50
+# See Phillips p. 100 - 2t lighter than a Royal Tiger
+weight=6.1
+axles=2
+length=5
+cost=925000
+runningcost=62
+fixed_cost=7150
+intro_year=1953
+intro_month=4
+retire_year=1962
+retire_month=11
+is_tall=0
+sound=eclectickle-leyland-comet.wav
+
+comfort=42
+# Single entrance with conductor: 1.8 seconds per passenger + 4 seconds
+min_loading_time=4
+max_loading_time=83
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Ribble-standard
+
+EmptyImage[E][0]=./images/leyland-tiger-cub-psuc1-1-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-tiger-cub-psuc1-1-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-tiger-cub-psuc1-1-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/leyland-tiger-cub-psuc1-1-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-tiger-cub-psuc1-1-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-tiger-cub-psuc1-1-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-tiger-cub-psuc1-1-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-tiger-cub-psuc1-1-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-tiger-cub-psuc1-1-ribble_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-tiger-cub-psuc1-1-ribble_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-tiger-cub-psuc1-1-ribble_S.0.0,0,0
+EmptyImage[SW][1]=./images/leyland-tiger-cub-psuc1-1-ribble_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-tiger-cub-psuc1-1-ribble_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-tiger-cub-psuc1-1-ribble_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-tiger-cub-psuc1-1-ribble_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-tiger-cub-psuc1-1-ribble_NE.0.0,0,24
