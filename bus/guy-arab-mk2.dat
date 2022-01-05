@@ -1,6 +1,6 @@
-# http://web.archive.org/web/20121001025604/http://www.countrybus.org/Guy/G1.htm#pk
+# Same as the mk. 1, save for a larger 6LW engine
 obj=vehicle
-name=GuyArab
+name=guy-arab-mk2
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
@@ -10,26 +10,25 @@ freight=Passagiere
 payload=56
 overcrowded_capacity=5
 speed=55
-# These used the Gardner 5LW,
+# These used the Gardner 6LW,
 # albeit with a crash gearbox
-# 85HP - Townsin p. 41
-power=63
-tractive_effort=8
+# 102HP - Townsin p. 49
+power=76
+tractive_effort=10
 gear=50
-# http://web.archive.org/web/20180329142123/http://www.countrybus.org/Guy/G1.htm#pk
-# 7T, 13CWT
-weight=7.8
+# Guessed to be slightly heavier than the mk. 1 owing to the larger engine
+weight=7.9
 axle_load=4
 length=6
-cost=580000
+cost=640000
 # Noted for reliability and low running costs:
 # http://www.historywebsite.co.uk/Museum/Transport/Buses/Guy/guyhistory5.htm
-runningcost=63
-fixed_cost=8302
-intro_year=1942
-intro_month=8
-retire_year=1949
-retire_month=3
+runningcost=76
+fixed_cost=8715
+intro_year=1943
+intro_month=10
+retire_year=1951
+retire_month=2
 is_tall=1
 
 # Hard wooden seats
@@ -37,9 +36,8 @@ comfort=27
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=112
-# The Bristol 6LB was rebuilt with a Gardner 5-cylinder engine in the 1950s,
-# so this should sound like a Guy Arab.
-sound=swearingkevo-bristol-l6b.wav
+# Ideally, one would find a recording of a 6LW in a crash engined 'bus
+sound=daimler-cvg6-ff3170.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
