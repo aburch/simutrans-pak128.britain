@@ -47,6 +47,8 @@ liverytype[4]=SYPTE
 liverytype[5]=Glasgow-Corporation-revised-2
 liverytype[6]=GGPTE
 liverytype[7]=WYPTE-Green-Cream
+liverytype[8]=Leaf-Green
+liverytype[9]=Poppy-Red
 
 EmptyImage[E][0]=./images/daimler-fleetline-birmingham_E.0.0,-33,14
 EmptyImage[SE][0]=./images/daimler-fleetline-birmingham_SE.0.0,-13,0
@@ -119,3 +121,21 @@ EmptyImage[W][7]=./images/daimler-fleetline-wypte_W.0.0,4,5
 EmptyImage[NW][7]=./images/daimler-fleetline-wypte_NW.0.0,12,10
 EmptyImage[N][7]=./images/daimler-fleetline-wypte_N.0.0,0,33
 EmptyImage[NE][7]=./images/daimler-fleetline-wypte_NE.0.0,0,24
+
+EmptyImage[E][8]=./images/daimler-fleetline-leaf-green_E.0.0,-33,14
+EmptyImage[SE][8]=./images/daimler-fleetline-leaf-green_SE.0.0,-13,0
+EmptyImage[S][8]=./images/daimler-fleetline-leaf-green_S.0.0,4,0
+EmptyImage[SW][8]=./images/daimler-fleetline-leaf-green_SW.0.0,-8,10
+EmptyImage[W][8]=./images/daimler-fleetline-leaf-green_W.0.0,4,5
+EmptyImage[NW][8]=./images/daimler-fleetline-leaf-green_NW.0.0,12,10
+EmptyImage[N][8]=./images/daimler-fleetline-leaf-green_N.0.0,0,33
+EmptyImage[NE][8]=./images/daimler-fleetline-leaf-green_NE.0.0,0,24
+
+EmptyImage[E][9]=./images/daimler-fleetline-poppy-red_E.0.0,-33,14
+EmptyImage[SE][9]=./images/daimler-fleetline-poppy-red_SE.0.0,-13,0
+EmptyImage[S][9]=./images/daimler-fleetline-poppy-red_S.0.0,4,0
+EmptyImage[SW][9]=./images/daimler-fleetline-poppy-red_SW.0.0,-8,10
+EmptyImage[W][9]=./images/daimler-fleetline-poppy-red_W.0.0,4,5
+EmptyImage[NW][9]=./images/daimler-fleetline-poppy-red_NW.0.0,12,10
+EmptyImage[N][9]=./images/daimler-fleetline-poppy-red_N.0.0,0,33
+EmptyImage[NE][9]=./images/daimler-fleetline-poppy-red_NE.0.0,0,24

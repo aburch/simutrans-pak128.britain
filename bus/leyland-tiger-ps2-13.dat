@@ -1,0 +1,71 @@
+# See Phillips p. 86
+# O.600 diesel engine, 9.8l
+# 30ft long version
+# 'Bus version
+obj=vehicle
+name=leyland-tiger-ps2-13
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# See Phillips p. 87 (caption)
+payload=39
+overcrowded_capacity=3
+speed=50
+# 125BHP - Phillips p. 86
+power=93
+tractive_effort=12
+gear=50
+# Guessed
+weight=7.5
+axles=2
+length=5
+cost=933000
+runningcost=90
+fixed_cost=7180
+intro_year=1948
+intro_month=9
+retire_year=1953
+retire_month=6
+is_tall=0
+sound=leyland-titan-pd2-ff3170.wav
+
+comfort=43
+# Front platform with conductor (8ft wide): 1.8 seconds per passenger
+min_loading_time=3
+max_loading_time=70
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Sheffield-light
+liverytype[2]=Ribble-standard
+
+EmptyImage[E][0]=./images/leyland-tiger-ps2-13-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-tiger-ps2-13-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-tiger-ps2-13-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/leyland-tiger-ps2-13-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-tiger-ps2-13-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-tiger-ps2-13-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-tiger-ps2-13-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-tiger-ps2-13-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-tiger-ps2-13-sheffield_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-tiger-ps2-13-sheffield_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-tiger-ps2-13-sheffield_S.0.0,0,0
+EmptyImage[SW][1]=./images/leyland-tiger-ps2-13-sheffield_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-tiger-ps2-13-sheffield_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-tiger-ps2-13-sheffield_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-tiger-ps2-13-sheffield_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-tiger-ps2-13-sheffield_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/leyland-tiger-ps2-13-ribble_E.0.0,-33,14
+EmptyImage[SE][2]=./images/leyland-tiger-ps2-13-ribble_SE.0.0,-13,0
+EmptyImage[S][2]=./images/leyland-tiger-ps2-13-ribble_S.0.0,0,0
+EmptyImage[SW][2]=./images/leyland-tiger-ps2-13-ribble_SW.0.0,-8,10
+EmptyImage[W][2]=./images/leyland-tiger-ps2-13-ribble_W.0.0,4,5
+EmptyImage[NW][2]=./images/leyland-tiger-ps2-13-ribble_NW.0.0,12,10
+EmptyImage[N][2]=./images/leyland-tiger-ps2-13-ribble_N.0.0,0,33
+EmptyImage[NE][2]=./images/leyland-tiger-ps2-13-ribble_NE.0.0,0,24
