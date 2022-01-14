@@ -17,7 +17,7 @@ power=89
 tractive_effort=11
 gear=50
 # Guessed
-weight=8.6
+weight=11.6
 axles=2
 length=7
 cost=1700000
@@ -33,16 +33,17 @@ is_tall=0
 sound=leyland-titan-pd3-ff3170.wav
 
 comfort=40
-# Single entrance pay driver: 4.0 seconds per passenger
+# Single entrance pay driver with steep steps: 4.5 seconds per passenger
 # TODO: Add conductor versions
 min_loading_time=5
-max_loading_time=212
+max_loading_time=239
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-# TODO: Add more liveries
 liverytype[0]=Private
+liverytype[1]=Leaf-Green
+liverytype[2]=Poppy-Red
 
 EmptyImage[E][0]=./images/aec-reliance-long_E.0.0,-33,14
 EmptyImage[SE][0]=./images/aec-reliance-long_SE.0.0,-13,0
@@ -52,3 +53,21 @@ EmptyImage[W][0]=./images/aec-reliance-long_W.0.0,4,5
 EmptyImage[NW][0]=./images/aec-reliance-long_NW.0.0,12,10
 EmptyImage[N][0]=./images/aec-reliance-long_N.0.0,0,33
 EmptyImage[NE][0]=./images/aec-reliance-long_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-reliance-long-leaf-green_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-reliance-long-leaf-green_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-reliance-long-leaf-green_S.0.0,0,0
+EmptyImage[SW][1]=./images/aec-reliance-long-leaf-green_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-reliance-long-leaf-green_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-reliance-long-leaf-green_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-reliance-long-leaf-green_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-reliance-long-leaf-green_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/aec-reliance-long-poppy-red_E.0.0,-33,14
+EmptyImage[SE][2]=./images/aec-reliance-long-poppy-red_SE.0.0,-13,0
+EmptyImage[S][2]=./images/aec-reliance-long-poppy-red_S.0.0,0,0
+EmptyImage[SW][2]=./images/aec-reliance-long-poppy-red_SW.0.0,-8,10
+EmptyImage[W][2]=./images/aec-reliance-long-poppy-red_W.0.0,4,5
+EmptyImage[NW][2]=./images/aec-reliance-long-poppy-red_NW.0.0,12,10
+EmptyImage[N][2]=./images/aec-reliance-long-poppy-red_N.0.0,0,33
+EmptyImage[NE][2]=./images/aec-reliance-long-poppy-red_NE.0.0,0,24

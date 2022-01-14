@@ -8,23 +8,24 @@ waytype=road
 engine_type=diesel
 smoke=Diesel-light
 freight=Passagiere
+# https://www.curbsideclassic.com/uncategorized/bus-stop-classic-the-leyland-atlantean-1958-1986-rush-hour-isnt-crush-hour-anymore/
 payload=77
-overcrowded_capacity=12
+overcrowded_capacity=10
 speed=64
 # Leyland O.600
-power=84
-tractive_effort=16
+power=93
+tractive_effort=12
 gear=50
 weight=9.7
 axles=2
 length=6
 cost=3750000
-runningcost=84
+runningcost=93
 fixed_cost=9953
 intro_year=1958
 intro_month=12
 retire_year=1974
-retire_month=11
+retire_month=6
 is_tall=1
 sound=leyland-atlantean-ff3170.wav
 
@@ -233,11 +234,11 @@ fixed_cost=9974
 intro_year=1958
 intro_month=12
 retire_year=1974
-retire_month=11
+retire_month=6
 is_tall=1
 sound=leyland-atlantean-ff3170.wav
 
-comfort=41
+comfort=42
 min_loading_time=5
 # Double entrance pay driver: 3.0 seconds per passenger
 max_loading_time=222

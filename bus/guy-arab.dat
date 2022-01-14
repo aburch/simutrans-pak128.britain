@@ -41,12 +41,6 @@ max_loading_time=112
 # so this should sound like a Guy Arab.
 sound=swearingkevo-bristol-l6b.wav
 
-# The Daimler COG-5 also had the Gardner 5LW engine,
-# but it had a pre-selective gearbox; the Arab had a
-# crash gearbox, so would have sounded more like the
-# Bristol 6-LB (as rebuilt)
-#sound=steve-o-hara-daimler-cog5.wav
-
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
@@ -55,6 +49,7 @@ liverytype[1]=LT-revised
 liverytype[2]=WW2-Austerity
 liverytype[3]=Glasgow-Corporation-standard
 liverytype[4]=Southdown-standard
+liverytype[5]=Non-London
 
 EmptyImage[E][0]=./images/guy-arab-mk1-lt-red-white_E.0.0,-33,14
 EmptyImage[SE][0]=./images/guy-arab-mk1-lt-red-white_SE.0.0,-13,0
@@ -100,3 +95,14 @@ EmptyImage[W][4]=./images/guy-arab-mk1-southdown_W.0.0,4,5
 EmptyImage[NW][4]=./images/guy-arab-mk1-southdown_NW.0.0,12,10
 EmptyImage[N][4]=./images/guy-arab-mk1-southdown_N.0.0,0,33
 EmptyImage[NE][4]=./images/guy-arab-mk1-southdown_NE.0.0,0,24
+
+# This livery of this 'bus is dedicated to the author's grandfather,
+# Aaron Hughes, who conducted a 'bus of this description in the 1950s.
+EmptyImage[E][5]=./images/guy-arab-mk1-united-welsh_E.0.0,-33,14
+EmptyImage[SE][5]=./images/guy-arab-mk1-united-welsh_SE.0.0,-13,0
+EmptyImage[S][5]=./images/guy-arab-mk1-united-welsh_S.0.0,4,0
+EmptyImage[SW][5]=./images/guy-arab-mk1-united-welsh_SW.0.0,-8,10
+EmptyImage[W][5]=./images/guy-arab-mk1-united-welsh_W.0.0,4,5
+EmptyImage[NW][5]=./images/guy-arab-mk1-united-welsh_NW.0.0,12,10
+EmptyImage[N][5]=./images/guy-arab-mk1-united-welsh_N.0.0,0,33
+EmptyImage[NE][5]=./images/guy-arab-mk1-united-welsh_NE.0.0,0,24

@@ -1,0 +1,64 @@
+# See Phillips p. 46
+# 8.6l diesel engine (E.166)
+# 'Bus version
+# Note that, in reality, the TS7 was introduced in 1935, and
+# the TS6 had a diesel option from the outset. However, the
+# TS7 was so similar to the TS6 that it makes sense to use
+# the numbering to distinguish the petrol and diesel models.
+obj=vehicle
+name=leyland-tiger-ts7
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# Guessed - one more row of seats compared to its predecessors
+payload=34
+overcrowded_capacity=2
+speed=50
+# See Phillips pp. 76-77
+power=73
+tractive_effort=10
+gear=50
+# Guessed
+weight=7.1
+axles=2
+length=5
+cost=620000
+runningcost=73
+fixed_cost=6000
+intro_year=1933
+intro_month=11
+retire_year=1940
+retire_month=10
+is_tall=0
+sound=henergy1994-leyland-titan-td4.wav
+
+comfort=41
+# Front platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=68
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Ribble-standard
+
+EmptyImage[E][0]=./images/leyland-tiger-ts6-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-tiger-ts6-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-tiger-ts6-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/leyland-tiger-ts6-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-tiger-ts6-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-tiger-ts6-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-tiger-ts6-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-tiger-ts6-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-tiger-ts6-ribble_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-tiger-ts6-ribble_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-tiger-ts6-ribble_S.0.0,0,0
+EmptyImage[SW][1]=./images/leyland-tiger-ts6-ribble_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-tiger-ts6-ribble_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-tiger-ts6-ribble_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-tiger-ts6-ribble_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-tiger-ts6-ribble_NE.0.0,0,24
