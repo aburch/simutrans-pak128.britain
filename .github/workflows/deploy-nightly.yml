@@ -1,0 +1,108 @@
+name: Deploy nightly builds
+on:
+  # Simutrans-extended nightly deployment will call this as part of the full package deployment
+  workflow_dispatch:
+
+  #Deploy nightly at 2am UTC. Currently the action is started externally from simutrans-extended full packagedeployment.
+  #schedule:
+    #- cron: '15 2 * * *'
+
+jobs:
+  check_updates:
+    runs-on: ubuntu-latest
+    #continue-on-error: true
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      # At first, check if the pakset differs
+      - name: Get latest nightly build metadata
+        id: get-nightly-metadata
+        uses: Legion2/download-release-action@v2.1.0
+        continue-on-error: true #Will fail if there is no release at all. This is not an error. It simply indicates the need to rebuild.
+        with:
+          repository: simutrans/simutrans-pak128.britain-ex
+          tag: Nightly
+          file: build-metadata.json
+      - run: |
+          outdated=$(
+            (
+              [[ ${{ steps.get-nightly-metadata.outcome }} == failure ]] ||\
+              [[ $(jq -r '.pakset_version' ./build-metadata.json) != $(git rev-parse ${{ github.ref }}) ]]
+            ) && echo true || echo false
+          )
+          echo "outdated=$outdated" >> $GITHUB_ENV
+        shell: bash
+
+      # If pakset is up to date, check if makeobj has changed in the meantime
+      - run: |
+          last_makeobj_sha=$(jq -r '.makeobj_version' ./build-metadata.json)
+          git clone --branch Nightly --depth 1 --no-checkout https://github.com/simutrans/simutrans-extended.git simutrans-extended
+          cd simutrans-extended
+
+          outdated=$([[ $last_makeobj_sha != $(git rev-parse Nightly) ]] && echo true || echo false)
+          echo "outdated=$outdated" >> $GITHUB_ENV
+        shell: bash
+        if: env.outdated == 'false'
+    outputs:
+      outdated: ${{ env.outdated}}
+
+  build:
+    needs: check_updates
+    if: needs.check_updates.outputs.outdated == 'true'
+    uses: simutrans/simutrans-pak128.britain-ex/.github/workflows/build.yml@master
+    with:
+      pakset_ref: ${{ github.ref }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      # Workarround: retrieve the cache key of the build.
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: Download build metadata
+        uses: actions/download-artifact@v2
+        with:
+          name: build-metadata
+      - run: |
+          pakset_sha=$(jq -r '.pakset_version' ./build-metadata.json)
+          echo "pakset_sha=$pakset_sha" >> $GITHUB_ENV
+          echo "pakset_short_sha=$(git rev-parse --short $pakset_sha)" >> $GITHUB_ENV
+          echo "simutrans_sha=$(jq -r '.makeobj_version' ./build-metadata.json)" >> $GITHUB_ENV
+      # End of workarround
+
+      - name: Load Build results from cache
+        uses: actions/cache@v2
+        with:
+          path: ./pak128.Britain-Ex
+          key: nightly-${{ env.pakset_sha }}@${{ env.simutrans_sha }}
+
+      - name: Compress
+        uses: papeloto/action-zip@v1
+        with:
+          files: ./pak128.Britain-Ex/
+          dest: ./pak128.britain-ex-nightly.zip
+
+      - name: Create or update Nightly Release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          artifactErrorsFailBuild: true
+          artifacts: "./pak128.britain-ex-nightly.zip, ./build-metadata.json"
+          commit: "${{ env.pakset_sha }}"
+          name: "Nightly #${{ env.pakset_short_sha }}"
+          removeArtifacts: true
+          tag: "Nightly"
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Move the Nightly tag
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.git.updateRef({
+              ...context.repo,
+              ref: "tags/Nightly",
+              sha: "${{ env.pakset_sha }}",
+              force: true
+            })

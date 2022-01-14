@@ -590,6 +590,11 @@ citycar_way_wear_factor = 2
 # whether they will have any upgrades.
 show_future_vehicle_information = 0
 
+# This is the maximum "level" of a building that may be built underneath an elevated way.
+# Set this to 0 to disable building elevated ways and bridges with supports over any buildings.
+# Default: 2. 
+max_elevated_way_building_level=0
+
 
 ################################## Region settings #################################
 

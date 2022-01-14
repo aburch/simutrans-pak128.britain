@@ -6,11 +6,15 @@ maintenance=21
 above_way_ribi=0x0
 below_way_ribi=0xE
 
-base_mask=0x00640000
-middle_mask=0x00640000
-support_mask=0x00640000
+base_mask=0x00680000
+middle_mask=0x00680000
+support_mask=0x00680000
 
-drag_ribi=0xC
+drag_ribi=0x3
+
+sub_obj_mask=0x04
+
+auto_group=0x01
 
 cursor=pier-brick-pillar-diag1.4.1
 icon=> pier-brick-pillar-diag1.4.0

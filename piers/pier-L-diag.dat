@@ -6,13 +6,20 @@ maintenance=210
 intro_year=1860
 intro_month=1
 
-above_way_ribi=0x9
+above_way_ribi=0x6
 below_way_ribi=0xF
 
 base_mask=0x00040404
 middle_mask=0x0181F999
 support_mask=0x00040404
 
+topspeed=100
+max_weight=15
+
+keep_dry=1
+sub_obj_mask=0x02
+
+auto_group=0x02
 
 cursor=pier-L-diag.0.5
 icon=> pier-L-diag.0.4

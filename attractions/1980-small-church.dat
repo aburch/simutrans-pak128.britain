@@ -20,6 +20,9 @@ Dims=1,1,4
 needs_ground=1
 intro_year=1980
 intro_month=4
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x01
+
 BackImage[0][0][0][0][0][0]=images/cur/1980-small-church.0.0
 BackImage[1][0][0][0][0][0]=images/cur/1980-small-church.0.3
 BackImage[2][0][0][0][0][0]=images/cur/1980-small-church.0.2

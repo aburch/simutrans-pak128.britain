@@ -3,13 +3,17 @@ name=brickhalfarchdiag2
 cost=3500
 maintenance=70
 
-above_way_ribi=0x9
+above_way_ribi=0x6
 below_way_ribi=0xB
 
 base_mask=0x00004018
-middle_mask=0x01017919
+middle_mask=0x05056D1D
+middle_mask_2=0x00000406
 support_mask=0x00004018
 
+sub_obj_mask=0x10
+
+auto_group=0x01
 
 cursor=pier-brick-arch-diag2.4.1
 icon=> pier-brick-arch-diag2.4.0

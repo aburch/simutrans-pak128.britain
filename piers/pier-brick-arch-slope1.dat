@@ -3,18 +3,22 @@ name=brickarcharchslope1
 cost=6500
 maintenance=130
 
-above_way_ribi=0x7
+above_way_ribi=0x5
 below_way_ribi=0xA
 
 above_slope=36
 
 base_mask=0x00380038
-middle_mask=0x01390139
+middle_mask=0x073F073F
 support_mask=0x00000000
 
-
+sub_obj_mask=0x10
 cursor=pier-brick-arch-slope1.4.1
 icon=> pier-brick-arch-slope1.4.0
+
+backimage[40][1][0]=> pier-brick-arch-slope1.4.2
+backimage[40][2][0]=> pier-brick-arch-slope1.4.3
+backimage[40][3][0]=> pier-brick-arch-slope1.4.4
 
 backimage[00][0][0] = pier-brick-arch-slope1.0.24
 backimage[00][1][0] = pier-brick-arch-slope1.1.24

@@ -2,7 +2,8 @@ obj=pier
 name=Lstraight
 cost=2500
 maintenance=300
-
+topspeed=100
+max_weight=15
 intro_year=1860
 intro_month=1
 
@@ -12,6 +13,11 @@ below_way_ribi=0xF
 base_mask=0x04040404
 middle_mask=0x81B981B9
 support_mask=0x04040404
+
+keep_dry=1
+sub_obj_mask=0x02
+
+auto_group=0x02
 
 cursor=pier-L-straight.0.3
 icon=> pier-L-straight.0.2

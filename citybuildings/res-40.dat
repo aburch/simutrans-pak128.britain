@@ -18,6 +18,9 @@ needs_ground=1
 dims=1,1,4
 clusters=1
 
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x03
+
 BackImage[2][0][0][0][0][0]=images/res/45-prefab-houses-a.0.0
 BackImage[1][0][0][0][0][0]=images/res/45-prefab-houses-a.0.1
 BackImage[0][0][0][0][0][0]=images/res/45-prefab-houses-a.0.2
@@ -46,6 +49,9 @@ retire_year=1960
 needs_ground=1
 dims=1,1,4
 clusters=1
+
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x03
 
 BackImage[2][0][0][0][0][0]=images/res/45-prefab-houses-b.0.0
 BackImage[1][0][0][0][0][0]=images/res/45-prefab-houses-b.0.1

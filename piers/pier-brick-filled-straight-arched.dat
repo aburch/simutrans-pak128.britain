@@ -7,10 +7,14 @@ above_way_ribi=0x5
 below_way_ribi=0x0
 
 base_mask=0x01390139
-middle_mask=0x01390139
+middle_mask=0x033B023B
 support_mask=0x033B033B
 
+bottom_only=1
 sub_obj_mask=0
+
+auto_group=0x01
+auto_height=0x80
 
 cursor=pier-brick-filled-straight-arched.2.1
 icon=> pier-brick-filled-straight-arched.2.0

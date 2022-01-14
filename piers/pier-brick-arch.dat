@@ -7,11 +7,25 @@ above_way_ribi=0x5
 below_way_ribi=0xA
 
 base_mask=0x00380038
-middle_mask=0x01390139
+middle_mask=0x033B033B
 support_mask=0x00380038
+
+sub_obj_mask=0x8
+
+auto_group=0x01
 
 cursor=pier-brick-arch.2.1
 icon=> pier-brick-arch.2.0
+
+backimage[80][0][0]=> pier-brick-arch.2.0
+backimage[79][0][0] = pier-brick-arch.2.1
+
+backimage[44][0][0] = parapet-brick-straight.1.0
+backimage[44][1][0] = parapet-brick-straight.0.0
+backimage[49][0][0] = parapet-brick-straight.1.1
+backimage[49][1][0] = parapet-brick-straight.0.2
+backimage[50][0][0] = parapet-brick-straight.1.2
+backimage[50][1][0] = parapet-brick-straight.0.1
 
 backimage[00][0][0] = pier-brick-arch.0.24
 backimage[00][1][0] = pier-brick-arch.1.24
