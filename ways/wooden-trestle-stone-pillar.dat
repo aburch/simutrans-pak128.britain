@@ -15,6 +15,7 @@ has_own_way_graphics=1
 
 cursor=images/wooden-trestle-stone-pillar.4.1
 icon=> images/wooden-trestle-stone-pillar.4.0
+
 BackImage[NS][0]=images/wooden-trestle-stone-pillar.0.5,0,32
 FrontImage[NS][0]=images/wooden-trestle-stone-pillar.1.5,0,32
 BackImage[EW][0]=images/wooden-trestle-stone-pillar.0.4,0,32
@@ -59,6 +60,7 @@ FrontRamp2[E][0]=images/wooden-trestle-stone-pillar.3.9
 FrontRamp2[W][0]=images/wooden-trestle-stone-pillar.3.7
 backPillar2[S][0]=images/wooden-trestle-stone-pillar.4.5
 backPillar2[W][0]=images/wooden-trestle-stone-pillar.4.4
+
 BackImage[NS][1]=images/wooden-trestle-stone-pillar-snow.0.5,0,32
 FrontImage[NS][1]=images/wooden-trestle-stone-pillar-snow.1.5,0,32
 BackImage[EW][1]=images/wooden-trestle-stone-pillar-snow.0.4,0,32
