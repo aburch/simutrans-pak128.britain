@@ -9,13 +9,13 @@ below_way_ribi=0xE
 
 above_way_supplement=1
 
-base_mask=0x00F80010
+base_mask=0x00F80020
 base_mask_2=0x00000000
 
 middle_mask=0x00F81020
 middle_mask_2=0x07070301
 
-support_mask=0x00FA0010
+support_mask=0x00FA0020
 support_mask_2=0x00000000
 
 sub_obj_mask=0x10
@@ -29,6 +29,11 @@ backimage[00][0][0] = pier-brick-arch-diag-sup2.0.24
 backimage[00][1][0] = pier-brick-arch-diag-sup2.1.24
 backimage[00][2][0] = pier-brick-arch-diag-sup2.2.24
 backimage[00][3][0] = pier-brick-arch-diag-sup2.3.24
+
+backimage[44][0][0] = pier-brick-arch-diag-sup2.4.5
+backimage[44][1][0] = pier-brick-arch-diag-sup2.4.6
+backimage[44][2][0] = pier-brick-arch-diag-sup2.4.7
+backimage[44][3][0] = pier-brick-arch-diag-sup2.4.8
 
 backimage[31][0][0] = pier-brick-arch-diag-sup2.0.0
 backimage[13][0][0] = pier-brick-arch-diag-sup2.0.1
