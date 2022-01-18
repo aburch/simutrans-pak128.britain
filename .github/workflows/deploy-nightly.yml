@@ -78,7 +78,7 @@ jobs:
           path: ./pak128.Britain-Ex
           key: nightly-${{ env.pakset_sha }}@${{ env.simutrans_sha }}
 
-      - run: zip ./pak128.britain-ex-nightly.zip ./pak128.Britain-Ex/
+      - run: zip -r ./pak128.britain-ex-nightly.zip ./pak128.Britain-Ex/
 
       - name: Create or update Nightly Release
         uses: ncipollo/release-action@v1
