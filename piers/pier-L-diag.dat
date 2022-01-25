@@ -10,7 +10,8 @@ above_way_ribi=0x6
 below_way_ribi=0xF
 
 base_mask=0x00040404
-middle_mask=0x0181F999
+middle_mask=0x04046C1C
+middle_mask_2=0x00000406
 support_mask=0x00040404
 
 topspeed=100

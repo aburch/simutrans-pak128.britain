@@ -11,7 +11,8 @@ above_way_ribi=0x5
 below_way_ribi=0xF
 
 base_mask=0x04040404
-middle_mask=0x81B981B9
+middle_mask=0x033B033B
+middle_mask_2=0x07070707
 support_mask=0x04040404
 
 keep_dry=1
@@ -21,6 +22,9 @@ auto_group=0x02
 
 cursor=pier-L-straight.0.3
 icon=> pier-L-straight.0.2
+
+backimage[80][0][0]=>pier-L-straight.0.2
+backimage[79][0][0]=>pier-L-straight.0.3
 
 backimage[00][0][0] = pier-L-straight.0.0
 backimage[00][1][0] = pier-L-straight.0.1
