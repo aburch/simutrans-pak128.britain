@@ -137,11 +137,11 @@ to_distance[3]=5000
 value[4]=35
 to_distance[4]=0
 
-class_revenue_percent[0]=60
+class_revenue_percent[0]=50
 class_revenue_percent[1]=100
-class_revenue_percent[2]=133
-class_revenue_percent[3]=150
-class_revenue_percent[4]=200
+class_revenue_percent[2]=150
+class_revenue_percent[3]=200
+class_revenue_percent[4]=300
 
 speed_bonus=18
 weight_per_unit=70
