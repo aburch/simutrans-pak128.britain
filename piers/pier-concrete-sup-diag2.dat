@@ -1,7 +1,7 @@
 obj=pier
 name=concretesupdiag2
-cost=1500
-maintenance=30
+cost=2500
+maintenance=50
 
 above_way_ribi=0x1
 below_way_ribi=0xF
@@ -28,6 +28,11 @@ backimage[00][0][0] = pier-concrete-sup-diag2.0.24
 backimage[00][1][0] = pier-concrete-sup-diag2.1.24
 backimage[00][2][0] = pier-concrete-sup-diag2.2.24
 backimage[00][3][0] = pier-concrete-sup-diag2.3.24
+
+backimage[44][0][0] = parapet-concrete-sup-diag2.0.0
+backimage[44][1][0] = parapet-concrete-sup-diag2.1.0
+backimage[44][2][0] = parapet-concrete-sup-diag2.2.0
+backimage[44][3][0] = parapet-concrete-sup-diag2.3.0
 
 backimage[31][0][0] = pier-concrete-sup-diag2.0.0
 backimage[13][0][0] = pier-concrete-sup-diag2.0.1

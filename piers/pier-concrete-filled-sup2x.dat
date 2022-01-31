@@ -1,10 +1,10 @@
 obj=pier
 name=concretefilledsup2x
-cost=1500
-maintenance=30
+cost=3000
+maintenance=60
 
 above_way_ribi=0xA
-below_way_ribi=0xF
+below_way_ribi=0x0
 
 base_mask=0x00000000
 base_mask_2=0x00000000
