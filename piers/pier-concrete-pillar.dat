@@ -19,6 +19,7 @@ support_mask_2=0x00000002
 sub_obj_mask=0x01
 
 auto_group=0x20
+keep_dry=1
 
 cursor=pier-concrete-pillar.4.1
 icon=> pier-concrete-pillar.4.0

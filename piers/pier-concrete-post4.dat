@@ -19,6 +19,7 @@ support_mask_2=0x08080808
 sub_obj_mask=0x01
 
 auto_group=0x20
+keep_dry=1
 
 cursor=pier-concrete-post4.1.1
 icon=> pier-concrete-post4.1.0
@@ -49,28 +50,3 @@ backimage[56][0][0] = pier-concrete-post4.0.21
 backimage[08][0][0] = pier-concrete-post4.0.22
 backimage[24][0][0] = pier-concrete-post4.0.23
 
-frontimage[00][0][0] = pier-concrete-post4-front.0.24
-frontimage[31][0][0] = pier-concrete-post4-front.0.0
-frontimage[13][0][0] = pier-concrete-post4-front.0.1
-frontimage[39][0][0] = pier-concrete-post4-front.0.2
-frontimage[37][0][0] = pier-concrete-post4-front.0.3
-frontimage[62][0][0] = pier-concrete-post4-front.0.4
-frontimage[26][0][0] = pier-concrete-post4-front.0.5
-frontimage[78][0][0] = pier-concrete-post4-front.0.6
-frontimage[74][0][0] = pier-concrete-post4-front.0.7
-frontimage[09][0][0] = pier-concrete-post4-front.0.8
-frontimage[27][0][0] = pier-concrete-post4-front.0.9
-frontimage[01][0][0] = pier-concrete-post4-front.0.10
-frontimage[03][0][0] = pier-concrete-post4-front.0.11
-frontimage[18][0][0] = pier-concrete-post4-front.0.12
-frontimage[54][0][0] = pier-concrete-post4-front.0.13
-frontimage[02][0][0] = pier-concrete-post4-front.0.14
-frontimage[06][0][0] = pier-concrete-post4-front.0.15
-frontimage[36][0][0] = pier-concrete-post4-front.0.16
-frontimage[28][0][0] = pier-concrete-post4-front.0.17
-frontimage[04][0][0] = pier-concrete-post4-front.0.18
-frontimage[12][0][0] = pier-concrete-post4-front.0.19
-frontimage[72][0][0] = pier-concrete-post4-front.0.20
-frontimage[56][0][0] = pier-concrete-post4-front.0.21
-frontimage[08][0][0] = pier-concrete-post4-front.0.22
-frontimage[24][0][0] = pier-concrete-post4-front.0.23
