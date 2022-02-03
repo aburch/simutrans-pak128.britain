@@ -9,11 +9,11 @@ below_way_ribi=0xB
 base_mask=0x00004018
 middle_mask=0x05056D1D
 middle_mask_2=0x00000406
-support_mask=0x00004018
+support_mask=0x00004119
 
 sub_obj_mask=0x10
 
-auto_group=0x08
+auto_group=0x18
 
 cursor=pier-stone-arch-diag2.4.1
 icon=> pier-stone-arch-diag2.4.0
