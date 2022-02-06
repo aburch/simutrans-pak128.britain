@@ -13,11 +13,12 @@ speed=75
 power=104
 tractive_effort=13
 gear=50
-weight=14.8
+# 11 1/4 tons: https://en.wikipedia.org/wiki/Leyland_Leopard
+weight=11.4
 axles=2
 length=6
 cost=5525000
-runningcost=52
+runningcost=104
 fixed_cost=8288
 intro_year=1961
 intro_month=11

@@ -13,11 +13,12 @@ speed=96
 power=130
 tractive_effort=14
 gear=50
-weight=15.2
+# Guessed
+weight=12.1
 axles=2
 length=6
 cost=5875000
-runningcost=66
+runningcost=130
 fixed_cost=11060
 intro_year=1967
 intro_month=5
@@ -25,7 +26,7 @@ retire_year=1983
 retire_month=3
 
 comfort=84
-# Coach: 7.5 seconds per passenger
+# Single entrance pay driver: 4.0 seconds per passenger
 min_loading_time=30
 max_loading_time=383
 sound=leyland-atlantean-an68-ff3170.wav

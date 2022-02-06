@@ -1,0 +1,58 @@
+# https://en.wikipedia.org/wiki/Leyland_Leopard
+# See also "A History of the Leyland Bus" (Ron Phillips), pp. 115-7
+obj=vehicle
+name=leyland-leopard-psu5
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# See Phillips p. 118
+payload=57
+speed=96
+# Leyland O.680 engine
+# 175BHP - Phillips p. 117
+power=130
+tractive_effort=14
+gear=50
+# Guessed
+weight=13.3
+axles=2
+length=7
+cost=6025000
+runningcost=130
+fixed_cost=11060
+intro_year=1970
+intro_month=2
+retire_year=1983
+retire_month=3
+
+comfort=84
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=428
+sound=leyland-atlantean-an68-ff3170.wav
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Ribble-coach
+liverytype[1]=NE-White
+
+EmptyImage[E][0]=./images/leyland-leopard-psu5-ribble_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-leopard-psu5-ribble_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-leopard-psu5-ribble_S.0.0,4,0
+EmptyImage[SW][0]=./images/leyland-leopard-psu5-ribble_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-leopard-psu5-ribble_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-leopard-psu5-ribble_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-leopard-psu5-ribble_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-leopard-psu5-ribble_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-leopard-psu5-national-express_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-leopard-psu5-national-express_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-leopard-psu5-national-express_S.0.0,4,0
+EmptyImage[SW][1]=./images/leyland-leopard-psu5-national-express_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-leopard-psu5-national-express_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-leopard-psu5-national-express_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-leopard-psu5-national-express_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-leopard-psu5-national-express_NE.0.0,0,24

@@ -1,0 +1,106 @@
+# Same as the mk. 1, save for a larger 6LW engine
+obj=vehicle
+name=guy-arab-mk2
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# http://www.londonbusmuseum.com/museum-exhibits/double-deck-buses/guy-arab-ii-g-351/
+payload=56
+overcrowded_capacity=5
+speed=55
+# These used the Gardner 6LW,
+# albeit with a crash gearbox
+# 102HP - Townsin p. 49
+power=76
+tractive_effort=10
+gear=50
+# Guessed to be slightly heavier than the mk. 1 owing to the larger engine
+weight=7.9
+axle_load=4
+length=6
+cost=640000
+# Noted for reliability and low running costs:
+# http://www.historywebsite.co.uk/Museum/Transport/Buses/Guy/guyhistory5.htm
+runningcost=76
+fixed_cost=8715
+intro_year=1943
+intro_month=10
+retire_year=1951
+retire_month=2
+is_tall=1
+
+# Hard wooden seats
+comfort=27
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=112
+# Ideally, one would find a recording of a 6LW in a crash engined 'bus
+sound=daimler-cvg6-ff3170.wav
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=LT
+liverytype[1]=LT-revised
+liverytype[2]=WW2-Austerity
+liverytype[3]=Glasgow-Corporation-standard
+liverytype[4]=Southdown-standard
+liverytype[5]=Non-London
+
+EmptyImage[E][0]=./images/guy-arab-mk1-lt-red-white_E.0.0,-33,14
+EmptyImage[SE][0]=./images/guy-arab-mk1-lt-red-white_SE.0.0,-13,0
+EmptyImage[S][0]=./images/guy-arab-mk1-lt-red-white_S.0.0,4,0
+EmptyImage[SW][0]=./images/guy-arab-mk1-lt-red-white_SW.0.0,-8,10
+EmptyImage[W][0]=./images/guy-arab-mk1-lt-red-white_W.0.0,4,5
+EmptyImage[NW][0]=./images/guy-arab-mk1-lt-red-white_NW.0.0,12,10
+EmptyImage[N][0]=./images/guy-arab-mk1-lt-red-white_N.0.0,0,33
+EmptyImage[NE][0]=./images/guy-arab-mk1-lt-red-white_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/guy-arab-mk1-lt-overall-red_E.0.0,-33,14
+EmptyImage[SE][1]=./images/guy-arab-mk1-lt-overall-red_SE.0.0,-13,0
+EmptyImage[S][1]=./images/guy-arab-mk1-lt-overall-red_S.0.0,4,0
+EmptyImage[SW][1]=./images/guy-arab-mk1-lt-overall-red_SW.0.0,-8,10
+EmptyImage[W][1]=./images/guy-arab-mk1-lt-overall-red_W.0.0,4,5
+EmptyImage[NW][1]=./images/guy-arab-mk1-lt-overall-red_NW.0.0,12,10
+EmptyImage[N][1]=./images/guy-arab-mk1-lt-overall-red_N.0.0,0,33
+EmptyImage[NE][1]=./images/guy-arab-mk1-lt-overall-red_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/guy-arab-mk1-austerity_E.0.0,-33,14
+EmptyImage[SE][2]=./images/guy-arab-mk1-austerity_SE.0.0,-13,0
+EmptyImage[S][2]=./images/guy-arab-mk1-austerity_S.0.0,4,0
+EmptyImage[SW][2]=./images/guy-arab-mk1-austerity_SW.0.0,-8,10
+EmptyImage[W][2]=./images/guy-arab-mk1-austerity_W.0.0,4,5
+EmptyImage[NW][2]=./images/guy-arab-mk1-austerity_NW.0.0,12,10
+EmptyImage[N][2]=./images/guy-arab-mk1-austerity_N.0.0,0,33
+EmptyImage[NE][2]=./images/guy-arab-mk1-austerity_NE.0.0,0,24
+
+EmptyImage[E][3]=./images/guy-arab-mk1-glasgow_E.0.0,-33,14
+EmptyImage[SE][3]=./images/guy-arab-mk1-glasgow_SE.0.0,-13,0
+EmptyImage[S][3]=./images/guy-arab-mk1-glasgow_S.0.0,4,0
+EmptyImage[SW][3]=./images/guy-arab-mk1-glasgow_SW.0.0,-8,10
+EmptyImage[W][3]=./images/guy-arab-mk1-glasgow_W.0.0,4,5
+EmptyImage[NW][3]=./images/guy-arab-mk1-glasgow_NW.0.0,12,10
+EmptyImage[N][3]=./images/guy-arab-mk1-glasgow_N.0.0,0,33
+EmptyImage[NE][3]=./images/guy-arab-mk1-glasgow_NE.0.0,0,24
+
+EmptyImage[E][4]=./images/guy-arab-mk1-southdown_E.0.0,-33,14
+EmptyImage[SE][4]=./images/guy-arab-mk1-southdown_SE.0.0,-13,0
+EmptyImage[S][4]=./images/guy-arab-mk1-southdown_S.0.0,4,0
+EmptyImage[SW][4]=./images/guy-arab-mk1-southdown_SW.0.0,-8,10
+EmptyImage[W][4]=./images/guy-arab-mk1-southdown_W.0.0,4,5
+EmptyImage[NW][4]=./images/guy-arab-mk1-southdown_NW.0.0,12,10
+EmptyImage[N][4]=./images/guy-arab-mk1-southdown_N.0.0,0,33
+EmptyImage[NE][4]=./images/guy-arab-mk1-southdown_NE.0.0,0,24
+
+# This livery of this 'bus is dedicated to the author's grandfather,
+# Aaron Hughes, who conducted a 'bus of this description in the 1950s.
+EmptyImage[E][5]=./images/guy-arab-mk1-united-welsh_E.0.0,-33,14
+EmptyImage[SE][5]=./images/guy-arab-mk1-united-welsh_SE.0.0,-13,0
+EmptyImage[S][5]=./images/guy-arab-mk1-united-welsh_S.0.0,4,0
+EmptyImage[SW][5]=./images/guy-arab-mk1-united-welsh_SW.0.0,-8,10
+EmptyImage[W][5]=./images/guy-arab-mk1-united-welsh_W.0.0,4,5
+EmptyImage[NW][5]=./images/guy-arab-mk1-united-welsh_NW.0.0,12,10
+EmptyImage[N][5]=./images/guy-arab-mk1-united-welsh_N.0.0,0,33
+EmptyImage[NE][5]=./images/guy-arab-mk1-united-welsh_NE.0.0,0,24
