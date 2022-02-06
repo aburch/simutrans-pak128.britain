@@ -17,7 +17,7 @@ support_mask=0x04040404
 support_mask_2=0x08080808
 
 sub_obj_mask=0x0
-
+deck_obj_mask=0x0001FFFF
 bottom_only=1
 
 cursor=pier-concrete-filled-slope2.4.1

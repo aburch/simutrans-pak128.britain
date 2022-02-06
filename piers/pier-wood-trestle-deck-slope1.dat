@@ -12,6 +12,7 @@ middle_mask=0x033B033B
 support_mask_2=0x00000000
 
 sub_obj_mask=0x0
+deck_obj_mask=0x0001FFFF
 
 auto_group=0x80
 above_slope=36
