@@ -18,6 +18,7 @@ support_mask=0x04040404
 
 keep_dry=1
 sub_obj_mask=0x02
+deck_obj_mask=0x0001FFFF
 
 cursor=pier-L-slope1.0.5
 icon=> pier-L-slope1.0.4

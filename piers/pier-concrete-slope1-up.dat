@@ -15,6 +15,7 @@ base_mask_2=0x00000002
 middle_mask=0x073F073F
 support_mask=0x00000000
 
+deck_obj_mask=0x0001FFFF
 sub_obj_mask=0x02
 cursor=pier-concrete-slope1-up.4.1
 icon=> pier-concrete-slope1-up.4.0

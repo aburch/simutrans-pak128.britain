@@ -12,6 +12,7 @@ base_mask=0x01390139
 middle_mask=0x073F073F
 support_mask=0x00000000
 
+deck_obj_mask=0x0001FFFF
 bottom_only=1
 
 cursor=pier-stone-filled-slope2.4.1
