@@ -8,12 +8,12 @@ below_way_ribi=0x0
 
 base_mask=0x01390139
 middle_mask=0x033B023B
-support_mask=0x033B033B
+support_mask=0x013B013B
 
 bottom_only=1
 sub_obj_mask=0
 
-auto_group=0x08
+auto_group=0x108
 auto_height=0x80
 
 cursor=pier-stone-filled-straight-arched.2.1
