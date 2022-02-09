@@ -2,7 +2,7 @@ obj=pier
 name=woodstonedeck
 cost=2000
 maintenance=200
-max_weight=15
+max_weight=18
 intro_year=1839
 intro_month=12
 
@@ -20,8 +20,8 @@ auto_group=0x100
 cursor=pier-wood-stone.2.1
 icon=> pier-wood-stone.2.0
 
-#backimage[80][0][0]=> pier-wood-stone.2.0
-#backimage[79][0][0] = pier-wood-stone.2.1
+backimage[80][0][0]=> pier-wood-stone.2.0
+backimage[79][0][0] = pier-wood-stone.2.1
 
 backimage[00][0][0] = pier-wood-stone.0.24
 backimage[00][1][0] = pier-wood-stone.1.24
