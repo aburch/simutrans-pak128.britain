@@ -2,8 +2,8 @@ obj=pier
 name=bricksinglepillarthin
 cost=1500
 maintenance=30
-intro_year=1815
-intro_month=8=9
+intro_year=1860
+intro_month=1
 
 above_way_ribi=0x0
 below_way_ribi=0xE
@@ -18,7 +18,7 @@ support_mask_2=0x00010000
 
 sub_obj_mask=0x01
 
-auto_group=0x04
+auto_group=0x205
 
 cursor=pier-brick-half-pillar-thin.9.1
 icon=> pier-brick-half-pillar-thin.9.0
