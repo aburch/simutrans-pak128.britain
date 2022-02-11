@@ -9,16 +9,16 @@ above_way_ribi=0x0
 below_way_ribi=0xE
 
 base_mask=0x00000000
-base_mask_2=0x00010000
+base_mask_2=0x00210000
 
 middle_mask=0x00380000
 
 support_mask=0x00000000
-support_mask_2=0x00010000
+support_mask_2=0x00210000
 
 sub_obj_mask=0x01
 
-auto_group=0x205
+auto_group=0x605
 
 cursor=pier-brick-half-pillar-thin.9.1
 icon=> pier-brick-half-pillar-thin.9.0
