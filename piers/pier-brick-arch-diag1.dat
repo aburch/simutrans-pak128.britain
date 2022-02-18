@@ -2,6 +2,8 @@ obj=pier
 name=brickhalfarchdiag1
 cost=3500
 maintenance=70
+intro_year=1815
+intro_month=8=9
 
 above_way_ribi=0x3
 below_way_ribi=0xE
@@ -22,6 +24,19 @@ backimage[00][0][0] = pier-brick-arch-diag1.0.24
 backimage[00][1][0] = pier-brick-arch-diag1.1.24
 backimage[00][2][0] = pier-brick-arch-diag1.2.24
 backimage[00][3][0] = pier-brick-arch-diag1.3.24
+
+backimage[44][0][0] = parapet-brick-diag.0.0
+backimage[44][1][0] = parapet-brick-diag.1.0
+backimage[44][2][0] = parapet-brick-diag.2.0
+backimage[44][3][0] = parapet-brick-diag.3.0
+backimage[49][0][0] = parapet-brick-diag.0.1
+backimage[49][1][0] = parapet-brick-diag.1.1
+backimage[49][2][0] = parapet-brick-diag.2.1
+backimage[49][3][0] = parapet-brick-diag.3.1
+backimage[50][0][0] = parapet-brick-diag.0.1
+backimage[50][1][0] = parapet-brick-diag.1.1
+backimage[50][2][0] = parapet-brick-diag.2.1
+backimage[50][3][0] = parapet-brick-diag.3.1
 
 backimage[31][0][0] = pier-brick-arch-diag1.0.0
 backimage[13][0][0] = pier-brick-arch-diag1.0.1

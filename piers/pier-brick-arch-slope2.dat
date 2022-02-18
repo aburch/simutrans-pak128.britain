@@ -2,6 +2,8 @@ obj=pier
 name=brickarcharchslope2
 cost=13000
 maintenance=260
+intro_year=1815
+intro_month=8=9
 
 above_way_ribi=0x5
 below_way_ribi=0xA
@@ -13,6 +15,7 @@ middle_mask=0x073F073F
 support_mask=0x00000000
 
 sub_obj_mask=0x10
+deck_obj_mask=0x01FFFF
 
 cursor=pier-brick-arch-slope2.4.1
 icon=> pier-brick-arch-slope2.4.0
@@ -21,6 +24,15 @@ backimage[00][0][0] = pier-brick-arch-slope2.0.24
 backimage[00][1][0] = pier-brick-arch-slope2.1.24
 backimage[00][2][0] = pier-brick-arch-slope2.2.24
 backimage[00][3][0] = pier-brick-arch-slope2.3.24
+
+backimage[40][1][0]=> pier-brick-arch-slope2.4.2
+backimage[40][2][0]=> pier-brick-arch-slope2.4.3
+backimage[40][3][0]=> pier-brick-arch-slope2.4.4
+
+backimage[44][0][0] = parapet-brick-slope2.0.0
+backimage[44][1][0] = parapet-brick-slope2.1.0
+backimage[44][2][0] = parapet-brick-slope2.2.0
+backimage[44][3][0] = parapet-brick-slope2.3.0
 
 backimage[31][0][0] = pier-brick-arch-slope2.0.0
 backimage[13][0][0] = pier-brick-arch-slope2.0.1
