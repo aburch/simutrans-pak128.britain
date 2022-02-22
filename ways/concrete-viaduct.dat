@@ -4,9 +4,9 @@ copyright=James
 waytype=track
 intro_year=1946
 intro_month=4
-topspeed=240
-cost=720000
-maintenance=2250
+#topspeed=240
+cost=11648000
+maintenance=89600
 max_weight=3000
 max_length=4
 
@@ -114,10 +114,10 @@ copyright=James
 waytype=track
 intro_year=1978
 intro_month=2
-topspeed=350
+#topspeed=350
 max_weight=3000
-cost=1290000
-maintenance=5000
+cost=11648000
+maintenance=89600
 max_length=4
 
 has_own_way_graphics=0
