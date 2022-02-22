@@ -5,12 +5,12 @@ intro_year=1750
 intro_month=1
 retire_year=1919
 retire_month=5
-topspeed=15
+#topspeed=15
 max_weight=30
 max_height=4
 max_length=3
-cost=90000
-maintenance=320
+cost=5376000
+maintenance=2688000
 #pillar_distance=1
 
 # This has a wooden surface.
@@ -113,12 +113,12 @@ name=wooden_road_bridge_surfaced
 waytype=road
 intro_year=1849
 intro_month=6
-topspeed=45
-max_weight=30
+#topspeed=45
+max_weight=50
 max_height=4
 max_length=3
-cost=15000
-maintenance=375
+cost=5376000
+maintenance=2688000
 
 has_own_way_graphics=0
 
