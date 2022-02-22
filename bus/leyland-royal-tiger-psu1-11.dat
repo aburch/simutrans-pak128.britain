@@ -1,0 +1,60 @@
+# See Phillips p. 98
+# O.600 diesel engine, 9.8l
+# Coach version
+obj=vehicle
+name=leyland-royal-tiger-psu1-11
+copyright=JamesPetts
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# See Phillips p. 98
+payload=41
+overcrowded_capacity=0
+speed=90
+# 125BHP - Phillips p. 98
+power=93
+# Assume lower gearing for coach version
+tractive_effort=8
+gear=50
+# See Phillips p. 98
+weight=8.1
+length=5
+cost=1015000
+runningcost=90
+fixed_cost=7500
+intro_year=1950
+intro_month=7
+retire_year=1955
+retire_month=9
+is_tall=0
+sound=leyland-titan-pd2-ff3170.wav
+
+comfort=75
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=308
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Ribble-coach
+
+EmptyImage[E][0]=./images/leyland-royal-tiger-psu1-11-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-royal-tiger-psu1-11-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-royal-tiger-psu1-11-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/leyland-royal-tiger-psu1-11-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-royal-tiger-psu1-11-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-royal-tiger-psu1-11-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-royal-tiger-psu1-11-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-royal-tiger-psu1-11-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-royal-tiger-psu1-11-ribble-express_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-royal-tiger-psu1-11-ribble-express_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-royal-tiger-psu1-11-ribble-express_S.0.0,0,0
+EmptyImage[SW][1]=./images/leyland-royal-tiger-psu1-11-ribble-express_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-royal-tiger-psu1-11-ribble-express_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-royal-tiger-psu1-11-ribble-express_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-royal-tiger-psu1-11-ribble-express_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-royal-tiger-psu1-11-ribble-express_NE.0.0,0,24

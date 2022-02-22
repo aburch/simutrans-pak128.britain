@@ -8,16 +8,20 @@ freight=Passagiere
 payload=56
 overcrowded_capacity=5
 speed=50
-# 45hp - see John Day, The Story of the London Bus, p. 68
-power=34
-tractive_effort=9
+# http://www.old-bus-photos.co.uk/?cat=436 - the 6.6l petrol engine was used for these
+# 37hp - see John Day, The Story of the London Bus, p. 68
+# This equates to 27kW - but this is suspected to be an RAC power rating, so
+# multiply by 2.31 (to replicate the relationship between the Titan TD1's 38.8 RAC HP
+# and its 90 BHP)
+power=62
+tractive_effort=7
 gear=50
 # Guessed as mid-point between ST and RT
 weight=6.8
 axles=2
 length=6
 cost=682000
-runningcost=34
+runningcost=62
 fixed_cost=8355
 intro_year=1932
 intro_month=12
