@@ -1,9 +1,10 @@
 obj=pier
 name=brickironarch
 cost=350000
-maintenance=1200
+maintenance=1800
 intro_year=1860
 intro_month=10
+max_altitude=1
 
 above_way_ribi=0x5
 below_way_ribi=0xB
