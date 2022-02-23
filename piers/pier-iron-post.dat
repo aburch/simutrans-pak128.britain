@@ -21,6 +21,7 @@ support_mask_2=0x00000020
 sub_obj_mask=0x05
 
 auto_group=0x400
+keep_dry=1
 
 cursor=pier-iron-post.4.1
 icon=> pier-iron-post.4.0
