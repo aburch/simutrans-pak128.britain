@@ -612,11 +612,11 @@ Concrete narrowboat aqueduct
 ConcreteAqueductTub
 Concrete tub boat aqueduct
 BrickViaductEarly
-Brick arch viaduct
+Brick arch ramp
 BrickViaduct
-Brick arch viaduct
+Brick arch ramp
 MasonryViaduct
-Masonry viaduct
+Masonry ramp
 IronViaduct
 Iron viaduct
 IronBowstringGirderRailBridge
@@ -640,7 +640,7 @@ Concrete bridge
 ConcreteViaductHS
 Concrete bridge (high speed)
 WoodenTrestle
-Wooden trestle bridge
+Wooden bridge
 WoodenTrestleStonePillar
 Wooden trestle bridge (stone pillars)
 TubularBoxGirder
@@ -648,17 +648,17 @@ Tubular box girder bridge
 BeamBridge
 Beam bridge
 WoodTrestleRoad
-Wooden trestle bridge
+Wooden bridge
 BrickViaductRoad
-Brick arch viadict
+Brick arch ramp
 BrickViaductEarlyRoad
-Brick arch viaduct
+Brick arch ramp
 stone_road_bridge_cobbles
 Masonry bridge (cobblestone)
 wooden_road_bridge_dirt
-Wooden trestle bridge
+Wooden bridge
 wooden_road_bridge_surfaced
-Wooden trestle bridge (surfaced)
+Wooden bridge (surfaced)
 ConcreteViaductRoad
 Concrete bridge
 IronGirderBridgeRoad
@@ -674,7 +674,7 @@ Plate girder bridge
 PowerBridge
 High voltage transmission line bridge
 MasonryViaductRoad
-Masonry bridge
+Masonry ramp
 MasonryViaductDirt
 Masonry bridge (unsurfaced)
 Concrete_Maglev_Bridge
@@ -682,15 +682,15 @@ Concrete bridge
 Economical_Concrete_Maglev_Bridge
 Lightweight concrete bridge
 WoodenTrestleNarrow
-Wooden trestle
+Wooden bridge
 BrickViaductNarrow
-Brick arch viaduct
+Brick arch ramp
 ConcreteViaductNarrow
-Concrete viaduct
+Concrete bridge
 IronGirderNarrow
 Iron girder bridge
 MasonryViaductNarrow
-Masonry viaduct
+Masonry ramp
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnelStone
