@@ -1,7 +1,9 @@
 obj=pier
 name=stonearchsup
-cost=2500
-maintenance=50
+cost=200000
+maintenance=8
+retire_year=1949
+retire_month=12
 
 above_way_ribi=0x8
 below_way_ribi=0xF

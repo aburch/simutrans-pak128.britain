@@ -1,10 +1,13 @@
 obj=pier
 name=brickfilleddiag
-cost=2100
-maintenance=42
+cost=147000
+maintenance=8
 
 above_way_ribi=0x6
 below_way_ribi=0x0
+intro_year=1815
+intro_month=9
+retire_year=1947
 
 base_mask=0x01017919
 middle_mask=0x05056D1D

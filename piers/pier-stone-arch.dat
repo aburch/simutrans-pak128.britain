@@ -1,7 +1,10 @@
 obj=pier
 name=stonearch
-cost=5000
-maintenance=100
+cost=400000
+maintenance=16
+max_altitude=7
+retire_year=1949
+retire_month=12
 
 above_way_ribi=0x5
 below_way_ribi=0xA
@@ -19,6 +22,7 @@ icon=> pier-stone-arch.2.0
 
 backimage[80][0][0]=> pier-stone-arch.2.0
 backimage[79][0][0] = pier-stone-arch.2.1
+tooltipflagsauto=1
 
 backimage[44][0][0] = parapet-stone-straight.1.0
 backimage[44][1][0] = parapet-stone-straight.0.0

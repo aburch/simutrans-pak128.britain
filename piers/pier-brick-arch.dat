@@ -1,7 +1,11 @@
 obj=pier
 name=brickarch
-cost=5000
-maintenance=100
+cost=350000
+maintenance=16
+intro_year=1815
+intro_month=9
+retire_year=1947
+max_altitude=10
 
 above_way_ribi=0x5
 below_way_ribi=0xA
@@ -19,6 +23,7 @@ icon=> pier-brick-arch.2.0
 
 backimage[80][0][0]=> pier-brick-arch.2.0
 backimage[79][0][0] = pier-brick-arch.2.1
+tooltipflagsauto=1
 
 backimage[44][0][0] = parapet-brick-straight.1.0
 backimage[44][1][0] = parapet-brick-straight.0.0

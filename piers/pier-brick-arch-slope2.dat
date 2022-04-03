@@ -1,7 +1,11 @@
 obj=pier
 name=brickarcharchslope2
-cost=13000
-maintenance=260
+cost=910000
+maintenance=42
+intro_year=1815
+intro_month=9
+max_altitude=8
+retire_year=1947
 
 above_way_ribi=0x5
 below_way_ribi=0xA
@@ -13,6 +17,7 @@ middle_mask=0x073F073F
 support_mask=0x00000000
 
 sub_obj_mask=0x10
+deck_obj_mask=0x01FFFF
 
 cursor=pier-brick-arch-slope2.4.1
 icon=> pier-brick-arch-slope2.4.0

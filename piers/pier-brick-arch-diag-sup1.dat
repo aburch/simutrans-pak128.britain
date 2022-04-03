@@ -1,8 +1,10 @@
 obj=pier
 name=brickarchdiagsup1
-
-cost=2500
-maintenance=50
+cost=280000
+maintenance=13
+intro_year=1815
+retire_year=1947
+intro_month=9
 
 above_way_ribi=0x4
 below_way_ribi=0xB

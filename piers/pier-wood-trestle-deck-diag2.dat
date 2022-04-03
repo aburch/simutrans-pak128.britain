@@ -1,8 +1,9 @@
 obj=pier
 name=woodtrestledeckdiag2
-cost=2800
-maintenance=56
+cost=42000
+maintenance=280
 max_weight=20
+max_altitude=8
 
 above_way_ribi=0xC
 below_way_ribi=0x0
@@ -12,7 +13,7 @@ drag_ribi=0xC
 base_mask=0x00000000
 base_mask_2=0x10000014
 
-middle_mask=0x1D040D6D
+middle_mask=0x1F060F6F
 middle_mask_2=0x06000004
 
 support_mask=0x00000000

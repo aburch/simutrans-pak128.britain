@@ -5,11 +5,12 @@ intro_year=1844
 intro_month=10
 retire_year=1931
 retire_month=6
-max_weight=60
+max_weight=3000
 max_height=10
-topspeed=65
-cost=250000
-maintenance=350
+#topspeed=65
+cost=5120000
+maintenance=205
+max_length=2
 
 has_own_way_graphics=0
 

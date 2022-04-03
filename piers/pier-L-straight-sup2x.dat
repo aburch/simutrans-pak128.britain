@@ -1,7 +1,7 @@
 obj=pier
 name=Lstraightsup2x
-cost=2500
-maintenance=300
+cost=140000
+maintenance=93
 topspeed=100
 max_weight=15
 intro_year=1860
@@ -19,7 +19,7 @@ keep_dry=1
 sub_obj_mask=0x02
 
 auto_group=0x02
-
+max_altitude=4
 above_way_supplement=1
 
 cursor=pier-L-straight-sup2x.0.3

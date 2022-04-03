@@ -1,7 +1,7 @@
 obj=pier
 name=Lpillardiag
-cost=750
-maintenance=90
+cost=42000
+maintenance=28
 
 intro_year=1860
 intro_month=1
@@ -17,6 +17,7 @@ drag_ribi=0x6
 
 keep_dry=1
 sub_obj_mask=0x01
+max_altitude=4
 
 auto_group=0x02
 

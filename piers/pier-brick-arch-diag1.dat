@@ -1,7 +1,11 @@
 obj=pier
 name=brickhalfarchdiag1
-cost=3500
-maintenance=70
+cost=245000
+maintenance=11
+intro_year=1815
+intro_month=9
+retire_year=1947
+max_altitude=10
 
 above_way_ribi=0x3
 below_way_ribi=0xE

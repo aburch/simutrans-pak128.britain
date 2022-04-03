@@ -1,7 +1,9 @@
 obj=pier
 name=stonefilledfilledslope1
-cost=3900
-maintenance=78
+cost=312000
+maintenance=5
+retire_year=1949
+retire_month=12
 
 above_way_ribi=0x5
 below_way_ribi=0x0
@@ -14,6 +16,7 @@ support_mask=0x00000000
 
 bottom_only=1
 sub_obj_mask=0
+deck_obj_mask=0x0001FFFF
 
 cursor=pier-stone-filled-slope1.4.1
 icon=> pier-stone-filled-slope1.4.0

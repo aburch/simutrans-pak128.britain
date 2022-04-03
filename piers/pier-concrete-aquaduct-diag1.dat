@@ -1,7 +1,10 @@
 obj=pier
 name=concreteaquaductdiag1
-cost=15000
-maintenance=300
+cost=273000
+maintenance=28
+intro_year=1946
+intro_month=3
+max_altitude=3
 
 above_way_ribi=0x6
 below_way_ribi=0x0

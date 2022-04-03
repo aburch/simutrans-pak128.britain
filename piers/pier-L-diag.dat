@@ -1,7 +1,7 @@
 obj=pier
 name=Ldiag
-cost=1750
-maintenance=210
+cost=98000
+maintenance=93
 
 intro_year=1860
 intro_month=1
@@ -16,6 +16,7 @@ support_mask=0x00040404
 
 topspeed=100
 max_weight=15
+max_altitude=4
 
 keep_dry=1
 sub_obj_mask=0x02

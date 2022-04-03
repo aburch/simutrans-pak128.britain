@@ -1,7 +1,9 @@
 obj=pier
 name=stonefilledstraightarched
-cost=3000
-maintenance=60
+cost=240000
+maintenance=10
+retire_year=1949
+retire_month=12
 
 above_way_ribi=0x5
 below_way_ribi=0x0

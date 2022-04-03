@@ -1,7 +1,7 @@
 obj=pier
 name=Lslope2
-cost=4000
-maintenance=480
+cost=364000
+maintenance=243
 topspeed=100
 max_weight=15
 intro_year=1860
@@ -15,9 +15,10 @@ below_way_ribi=0xF
 base_mask=0x04040404
 middle_mask=0x81B981B9
 support_mask=0x04040404
-
+max_altitude=2
 keep_dry=1
 sub_obj_mask=0x02
+deck_obj_mask=0x0001FFFF
 
 cursor=pier-L-slope2.0.5
 icon=> pier-L-slope2.0.4

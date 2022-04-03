@@ -4,14 +4,14 @@ Obj=bridge
 name=BrickViaduct
 copyright=kieron
 waytype=track
-intro_year=1838
-intro_month=7
-retire_year=1948
-retire_month=7
-topspeed=250
-max_weight=1500
-cost=750000
-maintenance=1800
+intro_year=1600
+intro_month=1
+retire_year=1600
+retire_month=1
+#topspeed=250
+max_weight=3000
+cost=4480000
+maintenance=205
 
 has_own_way_graphics=0
 

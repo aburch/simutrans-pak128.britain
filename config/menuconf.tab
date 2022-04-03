@@ -275,7 +275,7 @@ dialog_tool[21]=22
 dialog_tool[22]=23
 dialog_tool[23]=24 
 dialog_tool[24]=25 
-dialog_tool[25]=20
+dialog_tool[25]=20,^M
 dialog_tool[26]=,
 dialog_tool[27]=,i
 dialog_tool[28]=26,n
@@ -398,7 +398,7 @@ toolbar[1][9]=general_tool[4],46,,56 #eastslope x2
 toolbar[1][10]=general_tool[4],14,,82 #all up slope
 toolbar[1][11]=general_tool[4],15,,83 #all down slope
 toolbar[1][12]=general_tool[5]
-toolbar[1][13]=piers()
+toolbar[1][13]=piers(m65536)
 
 #pier tools
 toolbar[2][0]=piers(A)

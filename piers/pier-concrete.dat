@@ -1,7 +1,10 @@
 obj=pier
 name=concretePier
-cost=7500
-maintenance=150
+cost=130000
+maintenance=13
+intro_year=1946
+intro_month=3
+max_altitude=12
 
 above_way_ribi=0x5
 below_way_ribi=0xB
@@ -25,6 +28,7 @@ icon=> pier-concrete.4.0
 
 backimage[80][0][0]=> pier-concrete.4.0
 backimage[79][0][0] = pier-concrete.4.1
+tooltipflagsauto=1
 
 backimage[00][0][0] = pier-concrete.0.24
 backimage[00][1][0] = pier-concrete.1.24

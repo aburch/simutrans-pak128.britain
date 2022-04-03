@@ -1,7 +1,10 @@
 obj=pier
 name=concreteslope1
-cost=6500
-maintenance=130
+cost=169000
+maintenance=17
+intro_year=1946
+intro_month=3
+max_altitude=11
 
 above_way_ribi=0x5
 below_way_ribi=0xF
@@ -14,6 +17,7 @@ middle_mask=0x073F073F
 support_mask=0x04040404
 support_mask_2=0x08080808
 
+deck_obj_mask=0x01FF
 sub_obj_mask=0x02
 cursor=pier-concrete-slope1.4.1
 icon=> pier-concrete-slope1.4.0

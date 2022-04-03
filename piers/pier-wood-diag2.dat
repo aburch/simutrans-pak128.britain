@@ -1,8 +1,9 @@
 obj=pier
 name=wooddiag2
-cost=5250
-maintenance=105
+cost=70000
+maintenance=467
 max_weight=15
+max_altitude=4
 
 above_way_ribi=0xC
 below_way_ribi=0xB
@@ -12,7 +13,7 @@ drag_ribi=0xC
 base_mask=0x00000000
 base_mask_2=0x10000014
 
-middle_mask=0x1D040D6D
+middle_mask=0x1F060F6F
 middle_mask_2=0x06000004
 
 support_mask=0x00000000

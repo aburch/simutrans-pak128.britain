@@ -1,11 +1,13 @@
 obj=pier
 name=stonearchdiagsup2pillar
 
-cost=750
-maintenance=15
+cost=275000
+maintenance=11
 
 above_way_ribi=0x0
 below_way_ribi=0xE
+retire_year=1949
+retire_month=12
 
 base_mask=0x00F80020
 base_mask_2=0x00000000

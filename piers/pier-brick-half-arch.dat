@@ -1,10 +1,11 @@
 obj=pier
 name=brickhalfarch
-cost=10500
-maintenance=210
-
+cost=735000
+maintenance=34
 intro_year=1838
 intro_month=7
+retire_year=1860
+retire_month=10
 
 above_way_ribi=0x5
 below_way_ribi=0xB

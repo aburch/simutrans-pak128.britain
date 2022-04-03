@@ -1,7 +1,9 @@
 obj=pier
 name=concretefilledslope2
-cost=7800
-maintenance=156
+cost=202800
+maintenance=21
+intro_year=1946
+intro_month=3
 
 above_way_ribi=0x5
 below_way_ribi=0x0
@@ -15,7 +17,7 @@ support_mask=0x04040404
 support_mask_2=0x08080808
 
 sub_obj_mask=0x0
-
+deck_obj_mask=0x0001FFFF
 bottom_only=1
 
 cursor=pier-concrete-filled-slope2.4.1

@@ -1,7 +1,10 @@
 obj=pier
 name=brickfilledfilledslope2
-cost=7800
-maintenance=156
+cost=546000
+maintenance=25
+intro_year=1815
+intro_month=9
+retire_year=1947
 
 above_way_ribi=0x5
 below_way_ribi=0x0
@@ -13,6 +16,7 @@ middle_mask=0x073F073F
 support_mask=0x00000000
 
 bottom_only=1
+deck_obj_mask=0x0001FFFF
 
 cursor=pier-brick-filled-slope2.4.1
 icon=> pier-brick-filled-slope2.4.0

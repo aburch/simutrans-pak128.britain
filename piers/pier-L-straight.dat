@@ -1,7 +1,7 @@
 obj=pier
 name=Lstraight
-cost=2500
-maintenance=300
+cost=140000
+maintenance=9
 topspeed=100
 max_weight=15
 intro_year=1860
@@ -17,7 +17,7 @@ support_mask=0x04040404
 
 keep_dry=1
 sub_obj_mask=0x02
-
+max_altitude=4
 auto_group=0x02
 
 cursor=pier-L-straight.0.3
@@ -25,6 +25,7 @@ icon=> pier-L-straight.0.2
 
 backimage[80][0][0]=>pier-L-straight.0.2
 backimage[79][0][0]=>pier-L-straight.0.3
+tooltipflagsauto=1
 
 backimage[00][0][0] = pier-L-straight.0.0
 backimage[00][1][0] = pier-L-straight.0.1

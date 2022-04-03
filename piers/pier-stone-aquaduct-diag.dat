@@ -1,7 +1,10 @@
 obj=pier
 name=stoneaquaductdiag
-cost=7000
-maintenance=140
+cost=336000
+maintenance=13
+max_altitude=6
+retire_year=1949
+retire_month=12
 
 above_way_ribi=0xC
 below_way_ribi=0xF

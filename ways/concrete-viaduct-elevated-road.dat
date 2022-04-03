@@ -2,11 +2,12 @@ Obj=way
 Name=ConcreteViaductElevatedRoad
 waytype=road
 system_type=1
-intro_year=1955
+intro_year=1600
+retire_year=1600
 topspeed=100
 max_weight=74
-cost=540000
-maintenance=4000
+cost=1456000
+maintenance=149
 # Approx. 10msa
 wear_capacity=650000000
 icon=> ./images/concrete-viaduct-elevated-road.3.4

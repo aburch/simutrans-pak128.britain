@@ -1,7 +1,7 @@
 obj=pier
 name=Lpillars
-cost=1000
-maintenance=120
+cost=56000
+maintenance=37
 
 intro_year=1860
 intro_month=1
@@ -17,7 +17,7 @@ drag_ribi=0xF
 
 keep_dry=1
 sub_obj_mask=0x01
-
+max_altitude=4
 auto_group=0x02
 auto_height=0x80
 

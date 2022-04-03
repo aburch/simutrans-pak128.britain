@@ -1,8 +1,9 @@
 obj=pier
 name=woodtrestledeckslope1
-cost=5000
-maintenance=100
+cost=78000
+maintenance=520
 max_weight=18
+max_altitude=9
 
 above_way_ribi=0x5
 below_way_ribi=0x0
@@ -12,6 +13,7 @@ middle_mask=0x033B033B
 support_mask_2=0x00000000
 
 sub_obj_mask=0x0
+deck_obj_mask=0x0001FFFF
 
 auto_group=0x80
 above_slope=36

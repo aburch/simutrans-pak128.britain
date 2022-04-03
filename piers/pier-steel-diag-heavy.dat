@@ -1,7 +1,7 @@
 obj=pier
 name=steeldiag1heavy
-cost=2100
-maintenance=280
+cost=21000
+maintenance=37
 topspeed=150
 max_weight=25
 intro_year=1860
@@ -47,15 +47,15 @@ frontimage[43][3][0] = pier-steel-diag-heavy.1.7
 ---------------
 obj=pier
 name=steeldiag2heavy
-cost=2100
-maintenance=280
+cost=21000
+maintenance=37
 topspeed=150
 max_weight=25
 intro_year=1860
 intro_month=1
 
 above_way_ribi=0x0
-below_way_ribi=0x9
+below_way_ribi=0x6
 
 base_mask=0x00000000
 base_mask_2=0x00000001
@@ -66,7 +66,7 @@ keep_dry=1
 sub_obj_mask=0
 low_waydeck=1
 
-drag_ribi=0x9
+drag_ribi=0x6
 
 auto_group=0x04
 

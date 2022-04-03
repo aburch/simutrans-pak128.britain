@@ -1,14 +1,15 @@
 obj=pier
 name=wooddeck
-cost=5000
-maintenance=100
+cost=100000
+maintenance=667
 max_weight=15
+max_altitude=4
 
 above_way_ribi=0x5
 below_way_ribi=0xA
 
 base_mask_2=0x00040004
-middle_mask=0x033B033B
+middle_mask=0x073F073F
 support_mask_2=0x00000000
 
 sub_obj_mask=0x1

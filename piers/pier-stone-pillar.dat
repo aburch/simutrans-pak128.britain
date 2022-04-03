@@ -1,10 +1,12 @@
 obj=pier
 name=stonepillar
-cost=3000
-maintenance=60
+cost=240000
+maintenance=10
 
 above_way_ribi=0x0
 below_way_ribi=0xA
+retire_year=1949
+retire_month=12
 
 drag_ribi=0x5
 
