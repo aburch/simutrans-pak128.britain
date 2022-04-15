@@ -763,6 +763,8 @@ intro_month=9
 #retire_year=2050
 #retire_month=1
 
+half_height=1
+
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[2]=2 # Barge
 
@@ -826,6 +828,8 @@ intro_month=1
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[4]=4 # Narrow
+
+half_height=1
 
 # Portal images (single)
 BackImage[W][0]=narrow-canal-tunnel.1.0
