@@ -12,6 +12,8 @@ retire_year=1968
 retire_month=1
 way_constraint_prohibitive[1]=1
 
+allow_subsea=1
+
 # Portal images (single)
 BackImage[W][0]=tube-tunnel-brick.1.0
 FrontImage[W][0]=tube-tunnel-brick.0.0
@@ -70,6 +72,8 @@ max_weight=17
 intro_year=1965
 intro_month=8
 way_constraint_prohibitive[1]=1
+
+allow_subsea=1
 
 # Portal images (single)
 BackImage[W][0]=tube-tunnel-concrete.1.0

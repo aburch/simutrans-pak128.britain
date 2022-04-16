@@ -177,6 +177,8 @@ intro_month=9
 retire_year=1954
 retire_month=7
 
+allow_subsea=1
+
 # Portal images (single)
 BackImage[W][0]=images/severn-tunnel-portal.1.0
 FrontImage[W][0]=images/severn-tunnel-portal.0.0
@@ -284,6 +286,8 @@ intro_month=7
 retire_year=1997
 retire_month=5
 
+allow_subsea=1
+
 # Portal images (single)
 BackImage[W][0]=rail-tunnel-concrete.1.0
 FrontImage[W][0]=rail-tunnel-concrete.0.0
@@ -341,6 +345,8 @@ intro_year=1980
 intro_month=1
 
 way_constraint_prohibitive[2]=2
+
+allow_subsea=1
 
 # Portal images (single)
 BackImage[W][0]=./images/rail-tunnel-concrete-light.1.0
@@ -402,6 +408,8 @@ intro_month=6
 #retire_year=
 #retire_month=
 # https://en.wikipedia.org/wiki/Channel_Tunnel
+
+allow_subsea=1
 
 # Portal images (single)
 BackImage[W][0]=images/channel-tunnel-portal.1.0
@@ -515,6 +523,8 @@ topspeed=300
 max_weight=23
 intro_year=2001
 intro_month=9
+
+allow_subsea=1
 
 # TODO: Add unique graphics for this
 # (Possibly just recoloured channel tunnel grpahics)
@@ -933,6 +943,9 @@ max_weight=12
 intro_year=1900
 intro_month=1
 
+subsea_cost=800000
+subsea_maintenance=1600
+
 # Portal images (single)
 BackImage[W][0]=road-tunnel-brick.1.0
 FrontImage[W][0]=road-tunnel-brick.0.0
@@ -987,6 +1000,8 @@ topspeed=110
 max_weight=16
 intro_year=1960
 intro_month=1
+
+allow_subsea=1
 
 # Portal images (single)
 BackImage[W][0]=road-tunnel-concrete.1.0
@@ -1044,6 +1059,8 @@ max_weight=50
 intro_year=2004
 intro_month=1
 
+allow_subsea=1
+
 # Portal images (single)
 BackImage[W][0]=maglev-tunnel-concrete.1.0
 FrontImage[W][0]=maglev-tunnel-concrete.0.0
@@ -1099,6 +1116,8 @@ topspeed=200
 max_weight=50
 intro_year=2004
 intro_month=1
+
+allow_subsea=1
 
 # Portal images (single)
 BackImage[W][0]=maglev-tunnel-concrete-eco.1.0
