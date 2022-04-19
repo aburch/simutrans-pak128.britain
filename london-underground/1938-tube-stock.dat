@@ -36,6 +36,7 @@ comfort[1]=61
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 Constraint[Prev][0]=1938TubeStockRear
 Constraint[Prev][1]=none
@@ -84,6 +85,7 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=15
 max_loading_time=45
@@ -133,6 +135,7 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=15
 max_loading_time=45
@@ -185,6 +188,7 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=15
 max_loading_time=45
