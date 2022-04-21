@@ -26,6 +26,7 @@ fixed_cost=262
 can_lead_from_rear=0
 bidirectional=1
 upgrade[0]=district-4-wheel-third-fitted
+is_tall=0
 
 min_loading_time=10
 max_loading_time=30
@@ -103,6 +104,7 @@ fixed_cost=262
 can_lead_from_rear=0
 bidirectional=1
 upgrade[0]=district-4-wheel-second-fitted
+is_tall=0
 
 min_loading_time=10
 max_loading_time=30
@@ -180,6 +182,7 @@ fixed_cost=262
 can_lead_from_rear=0
 bidirectional=1
 upgrade[0]=district-4-wheel-first-fitted
+is_tall=0
 
 min_loading_time=10
 max_loading_time=30
@@ -257,6 +260,7 @@ fixed_cost=5050
 can_lead_from_rear=0
 bidirectional=1
 upgrade[0]=district-4-wheel-brake-front-fitted
+is_tall=0
 
 min_loading_time=10
 max_loading_time=30
@@ -325,6 +329,7 @@ fixed_cost=5050
 can_lead_from_rear=0
 bidirectional=1
 upgrade[0]=district-4-wheel-brake-rear-fitted
+is_tall=0
 
 min_loading_time=10
 max_loading_time=30
@@ -393,6 +398,7 @@ fixed_cost=286
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 
 min_loading_time=10
 max_loading_time=30
@@ -491,6 +497,7 @@ fixed_cost=286
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 
 min_loading_time=10
 max_loading_time=30
@@ -589,6 +596,7 @@ fixed_cost=286
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 
 min_loading_time=10
 max_loading_time=30
@@ -687,6 +695,7 @@ fixed_cost=5074
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 
 min_loading_time=10
 max_loading_time=30
@@ -765,6 +774,7 @@ fixed_cost=5074
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 
 min_loading_time=10
 max_loading_time=30

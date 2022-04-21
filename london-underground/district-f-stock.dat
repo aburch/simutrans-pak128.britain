@@ -34,6 +34,7 @@ comfort[1]=59
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[3]=3
+is_tall=0
 
 Constraint[Prev][0]=District_F_StockRearDM
 Constraint[Prev][1]=none
@@ -86,6 +87,7 @@ comfort[3]=61
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[3]=3
+is_tall=0
 
 Constraint[Prev][0]=District_F_StockFrontDM
 Constraint[Prev][1]=District_F_StockRearDM
@@ -134,6 +136,7 @@ comfort[1]=59
 can_lead_from_rear=0
 bidirectional=1
 way_constraint_permissive[3]=3
+is_tall=0
 
 Constraint[Prev][0]=District_F_StockMiddle1
 Constraint[Prev][1]=District_F_StockMiddle2
@@ -185,6 +188,7 @@ comfort[1]=59
 can_lead_from_rear=1
 bidirectional=0
 way_constraint_permissive[3]=3
+is_tall=0
 
 Constraint[Prev][0]=District_F_StockMiddle2
 

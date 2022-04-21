@@ -26,6 +26,7 @@ sound=lul-1938-stock-ff3170.wav
 
 bidirectional=1
 way_constraint_permissive[3]=3
+is_tall=0
 
 Constraint[Prev][0]=Metropolitan-Vickers
 Constraint[Prev][1]=none

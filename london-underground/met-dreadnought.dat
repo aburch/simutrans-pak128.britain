@@ -25,6 +25,7 @@ fixed_cost=1012
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 upgrade[0]=met-mv-stock-front
 upgrade[1]=met-mv-stock-centre
 upgrade[2]=met-mv-stock-rear
@@ -125,6 +126,7 @@ fixed_cost=1012
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 upgrade[0]=met-mv-stock-front
 upgrade[1]=met-mv-stock-centre
 upgrade[2]=met-mv-stock-rear
@@ -225,6 +227,7 @@ fixed_cost=5812
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 upgrade[0]=met-mv-stock-front
 upgrade[1]=met-mv-stock-centre
 upgrade[2]=met-mv-stock-rear
@@ -306,6 +309,7 @@ fixed_cost=5812
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 upgrade[0]=met-mv-stock-front
 upgrade[1]=met-mv-stock-centre
 upgrade[2]=met-mv-stock-rear
