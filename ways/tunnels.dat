@@ -782,6 +782,8 @@ intro_month=7
 #retire_year=
 #retire_month=
 
+half_height=1
+
 # Portal images (single)
 BackImage[W][0]=narrowgauge-tunnel-brick.1.0
 FrontImage[W][0]=narrowgauge-tunnel-brick.0.0
@@ -798,32 +800,32 @@ FrontImage[S][1]=narrowgauge-tunnel-brick-snow.0.3
 
 # Underground images
 # TODO: Produce narrow gauge specific versions of these
-UndergroundImage[-]=./images/brick-face-tunnel-notrack.1.2
-UndergroundImage[N]=./images/brick-face-tunnel-notrack.1.5
-UndergroundImage[S]=./images/brick-face-tunnel-notrack.2.1
-UndergroundImage[E]=./images/brick-face-tunnel-notrack.2.2
-UndergroundImage[W]=./images/brick-face-tunnel-notrack.2.0
-UndergroundImage[NS]=./images/brick-face-tunnel-notrack.1.0
-UndergroundImage[EW]=./images/brick-face-tunnel-notrack.1.1
-UndergroundImage[NSE]=./images/brick-face-tunnel-notrack.0.2
-UndergroundImage[NSW]=./images/brick-face-tunnel-notrack.0.4
-UndergroundImage[NEW]=./images/brick-face-tunnel-notrack.0.1
-UndergroundImage[SEW]=./images/brick-face-tunnel-notrack.0.3
-UndergroundImage[NSEW]=./images/brick-face-tunnel-notrack.1.2
-UndergroundImage[NE]=./images/brick-face-tunnel-notrack.3.0
-UndergroundImage[SE]=./images/brick-face-tunnel-notrack.2.3
-UndergroundImage[NW]=./images/brick-face-tunnel-notrack.2.4
-UndergroundImage[SW]=./images/brick-face-tunnel-notrack.2.5
+UndergroundImage[-]=./images/brick-face-tunnel-notrack-short.1.2
+UndergroundImage[N]=./images/brick-face-tunnel-notrack-short.1.5
+UndergroundImage[S]=./images/brick-face-tunnel-notrack-short.2.1
+UndergroundImage[E]=./images/brick-face-tunnel-notrack-short.2.2
+UndergroundImage[W]=./images/brick-face-tunnel-notrack-short.2.0
+UndergroundImage[NS]=./images/brick-face-tunnel-notrack-short.1.0
+UndergroundImage[EW]=./images/brick-face-tunnel-notrack-short.1.1
+UndergroundImage[NSE]=./images/brick-face-tunnel-notrack-short.0.2
+UndergroundImage[NSW]=./images/brick-face-tunnel-notrack-short.0.4
+UndergroundImage[NEW]=./images/brick-face-tunnel-notrack-short.0.1
+UndergroundImage[SEW]=./images/brick-face-tunnel-notrack-short.0.3
+UndergroundImage[NSEW]=./images/brick-face-tunnel-notrack-short.1.2
+UndergroundImage[NE]=./images/brick-face-tunnel-notrack-short.3.0
+UndergroundImage[SE]=./images/brick-face-tunnel-notrack-short.2.3
+UndergroundImage[NW]=./images/brick-face-tunnel-notrack-short.2.4
+UndergroundImage[SW]=./images/brick-face-tunnel-notrack-short.2.5
 
-UndergroundImageUp[3]=./images/brick-face-tunnel-notrack.4.2
-UndergroundImageUp[6]=./images/brick-face-tunnel-notrack.4.3
-UndergroundImageUp[9]=./images/brick-face-tunnel-notrack.4.0
-UndergroundImageUp[12]=./images/brick-face-tunnel-notrack.4.1
+UndergroundImageUp[3]=./images/brick-face-tunnel-notrack-short.4.2
+UndergroundImageUp[6]=./images/brick-face-tunnel-notrack-short.4.3
+UndergroundImageUp[9]=./images/brick-face-tunnel-notrack-short.4.0
+UndergroundImageUp[12]=./images/brick-face-tunnel-notrack-short.4.1
 
-UndergroundImageUp2[3]=./images/brick-face-tunnel-notrack.1.3
-UndergroundImageUp2[6]=./images/brick-face-tunnel-notrack.1.4
-UndergroundImageUp2[9]=./images/brick-face-tunnel-notrack.0.0
-UndergroundImageUp2[12]=./images/brick-face-tunnel-notrack.0.5
+UndergroundImageUp2[3]=./images/brick-face-tunnel-notrack-short.1.3
+UndergroundImageUp2[6]=./images/brick-face-tunnel-notrack-short.1.4
+UndergroundImageUp2[9]=./images/brick-face-tunnel-notrack-short.0.0
+UndergroundImageUp2[12]=./images/brick-face-tunnel-notrack-short.0.5
 
 icon=> narrowgauge-tunnel-brick.1.3
 cursor=narrowgauge-tunnel-brick.1.2
@@ -841,6 +843,8 @@ intro_month=5
 retire_year=1871
 retire_month=7
 
+half_height=1
+
 # Portal images (single)
 BackImage[W][0]=narrowgauge-tunnel-stone.1.0
 FrontImage[W][0]=narrowgauge-tunnel-stone.0.0
@@ -857,32 +861,32 @@ FrontImage[S][1]=narrowgauge-tunnel-stone-snow.0.3
 
 # Underground images
 # TODO: Produce unique images for this
-UndergroundImage[-]=./images/severn-tunnel-notrack.1.2
-UndergroundImage[N]=./images/severn-tunnel-notrack.1.5
-UndergroundImage[S]=./images/severn-tunnel-notrack.2.1
-UndergroundImage[E]=./images/severn-tunnel-notrack.2.2
-UndergroundImage[W]=./images/severn-tunnel-notrack.2.0
-UndergroundImage[NS]=./images/severn-tunnel-notrack.1.0
-UndergroundImage[EW]=./images/severn-tunnel-notrack.1.1
-UndergroundImage[NSE]=./images/severn-tunnel-notrack.0.2
-UndergroundImage[NSW]=./images/severn-tunnel-notrack.0.4
-UndergroundImage[NEW]=./images/severn-tunnel-notrack.0.1
-UndergroundImage[SEW]=./images/severn-tunnel-notrack.0.3
-UndergroundImage[NSEW]=./images/severn-tunnel-notrack.1.2
-UndergroundImage[NE]=./images/severn-tunnel-notrack.3.0
-UndergroundImage[SE]=./images/severn-tunnel-notrack.2.3
-UndergroundImage[NW]=./images/severn-tunnel-notrack.2.4
-UndergroundImage[SW]=./images/severn-tunnel-notrack.2.5
+UndergroundImage[-]=./images/severn-tunnel-notrack-short.1.2
+UndergroundImage[N]=./images/severn-tunnel-notrack-short.1.5
+UndergroundImage[S]=./images/severn-tunnel-notrack-short.2.1
+UndergroundImage[E]=./images/severn-tunnel-notrack-short.2.2
+UndergroundImage[W]=./images/severn-tunnel-notrack-short.2.0
+UndergroundImage[NS]=./images/severn-tunnel-notrack-short.1.0
+UndergroundImage[EW]=./images/severn-tunnel-notrack-short.1.1
+UndergroundImage[NSE]=./images/severn-tunnel-notrack-short.0.2
+UndergroundImage[NSW]=./images/severn-tunnel-notrack-short.0.4
+UndergroundImage[NEW]=./images/severn-tunnel-notrack-short.0.1
+UndergroundImage[SEW]=./images/severn-tunnel-notrack-short.0.3
+UndergroundImage[NSEW]=./images/severn-tunnel-notrack-short.1.2
+UndergroundImage[NE]=./images/severn-tunnel-notrack-short.3.0
+UndergroundImage[SE]=./images/severn-tunnel-notrack-short.2.3
+UndergroundImage[NW]=./images/severn-tunnel-notrack-short.2.4
+UndergroundImage[SW]=./images/severn-tunnel-notrack-short.2.5
 
-UndergroundImageUp[3]=./images/severn-tunnel-notrack.4.2
-UndergroundImageUp[6]=./images/severn-tunnel-notrack.4.3
-UndergroundImageUp[9]=./images/severn-tunnel-notrack.4.0
-UndergroundImageUp[12]=./images/severn-tunnel-notrack.4.1
+UndergroundImageUp[3]=./images/severn-tunnel-notrack-short.4.2
+UndergroundImageUp[6]=./images/severn-tunnel-notrack-short.4.3
+UndergroundImageUp[9]=./images/severn-tunnel-notrack-short.4.0
+UndergroundImageUp[12]=./images/severn-tunnel-notrack-short.4.1
 
-UndergroundImageUp2[3]=./images/severn-tunnel-notrack.1.3
-UndergroundImageUp2[6]=./images/severn-tunnel-notrack.1.4
-UndergroundImageUp2[9]=./images/severn-tunnel-notrack.0.0
-UndergroundImageUp2[12]=./images/severn-tunnel-notrack.0.5
+UndergroundImageUp2[3]=./images/severn-tunnel-notrack-short.1.3
+UndergroundImageUp2[6]=./images/severn-tunnel-notrack-short.1.4
+UndergroundImageUp2[9]=./images/severn-tunnel-notrack-short.0.0
+UndergroundImageUp2[12]=./images/severn-tunnel-notrack-short.0.5
 
 icon=> narrowgauge-tunnel-stone.1.3
 cursor=narrowgauge-tunnel-stone.1.2
