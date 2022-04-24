@@ -8,7 +8,11 @@ power=6714
 tractive_effort=48
 freight=Passagiere
 #payload=12.8t
-payload=89
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=89
+payload[4]=0
 weight=32.9
 #length=8
 cost=11000000
@@ -28,7 +32,6 @@ catering_level=1
 # @ ISA+10C, Runway dry = +10%
 minimum_runway_length=1200
 
-smoke=Diesel
 range=4830
 
 sound=kubanskiloewe-dc-6.wav
