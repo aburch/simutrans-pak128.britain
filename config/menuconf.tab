@@ -119,6 +119,8 @@ general_tool[35]=17,,11,K
 general_tool[38]=,,11,
 general_tool[39]=,,11,
 general_tool[129]=18,,,\
+general_tool[132]=20,1,,
+general_tool[133]=19,,,
 
 
 # SECOND SECTION: simple tools
@@ -399,7 +401,6 @@ toolbar[1][9]=general_tool[4],46,,56 #eastslope x2
 toolbar[1][10]=general_tool[4],14,,82 #all up slope
 toolbar[1][11]=general_tool[4],15,,83 #all down slope
 toolbar[1][12]=general_tool[5]
-#toolbar[1][13]=piers(m65536)
 
 #pier tools
 toolbar[2][0]=piers(A)
@@ -546,6 +547,8 @@ toolbar[11][13]=dialog_tool[24]
 toolbar[11][14]=general_tool[29]
 toolbar[11][15]=general_tool[35]
 toolbar[11][16]=general_tool[129]
+toolbar[11][17]=general_tool[132]
+toolbar[11][18]=general_tool[133]
 
 # editor tools
 toolbar[12][0]=general_tool[10],22,,+100
