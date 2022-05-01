@@ -30,6 +30,7 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=17
 max_loading_time=47
@@ -91,6 +92,7 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=17
 max_loading_time=47
@@ -153,6 +155,7 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=17
 max_loading_time=47
@@ -218,6 +221,7 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=17
 max_loading_time=47

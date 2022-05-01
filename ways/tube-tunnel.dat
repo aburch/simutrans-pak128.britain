@@ -13,6 +13,9 @@ retire_month=1
 way_constraint_prohibitive[1]=1
 
 allow_subsea=1
+half_height=1
+sea_depth_limit=3
+length_limit=500
 
 # Portal images (single)
 BackImage[W][0]=tube-tunnel-brick.1.0
@@ -74,6 +77,9 @@ intro_month=8
 way_constraint_prohibitive[1]=1
 
 allow_subsea=1
+half_height=1
+sea_depth_limit=4
+length_limit=1000
 
 # Portal images (single)
 BackImage[W][0]=tube-tunnel-concrete.1.0

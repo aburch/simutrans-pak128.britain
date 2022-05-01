@@ -28,6 +28,7 @@ sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=20
 max_loading_time=47
@@ -81,6 +82,7 @@ fixed_cost=833
 
 bidirectional=0
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=20
 max_loading_time=47
@@ -134,6 +136,7 @@ sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=20
 max_loading_time=47

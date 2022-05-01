@@ -24,6 +24,7 @@ fixed_cost=893
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 upgrade[0]=met-bogie-push-pull-rear
 upgrade[1]=met-bogie-push-pull-centre
 upgrade[2]=Metropolitan-Motor-Third-Middle
@@ -124,6 +125,7 @@ fixed_cost=893
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 upgrade[0]=met-bogie-push-pull-rear
 upgrade[1]=met-bogie-push-pull-centre
 upgrade[2]=Metropolitan-Motor-Third-Middle
@@ -224,6 +226,7 @@ fixed_cost=893
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 upgrade[0]=Metropolitan-Motor-First-Middle
 
 min_loading_time=10
@@ -322,6 +325,7 @@ fixed_cost=5693
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 upgrade[0]=met-bogie-push-pull-front
 upgrade[1]=Metropolitan-Motor-Third-Front
 
@@ -401,6 +405,7 @@ fixed_cost=5693
 
 can_lead_from_rear=0
 bidirectional=1
+is_tall=0
 upgrade[0]=met-bogie-push-pull-rear
 upgrade[1]=Metropolitan-Motor-Third-Back
 
