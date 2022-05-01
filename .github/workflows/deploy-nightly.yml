@@ -78,11 +78,7 @@ jobs:
           path: ./pak128.Britain-Ex
           key: nightly-${{ env.pakset_sha }}@${{ env.simutrans_sha }}
 
-      - name: Compress
-        uses: papeloto/action-zip@v1
-        with:
-          files: ./pak128.Britain-Ex/
-          dest: ./pak128.britain-ex-nightly.zip
+      - run: zip -r ./pak128.britain-ex-nightly.zip ./pak128.Britain-Ex/
 
       - name: Create or update Nightly Release
         uses: ncipollo/release-action@v1
