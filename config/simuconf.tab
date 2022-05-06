@@ -248,12 +248,6 @@ use_timeline = 2
 # Setting it above 2040 will render game bit boring - no new vehicles.
 starting_year = 1930
 
-# Should month be shown in date?
-#(0=no, 1=yes, 2>=show day in japan format=2, us format=3, german=4)
-# This is most useful, if you use longer months than the default length (see below)
-#
-show_month = 1
-
 # Global time multiplier (will be save with new games)
 # 2^bits_per_month = duration of a game month in microseconds real time
 # default is 18. For example, 21 will make the month 2^3=8 times longer in real time

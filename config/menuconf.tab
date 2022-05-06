@@ -154,14 +154,18 @@ general_tool[39]=,,11,
 # WKZ_PWDHASH_TOOL=27 (internal use)
 # WKZ_SET_PLAYER_TOOL=28 (internal use)
 # WKZ_TRAFFIC_LIGHT_TOOL=29 (internal use)
-#WKZ_CHANGE_CITY_TOOL=30 (internal use)
-#WKZ_RENAME_TOOL=31 (internal use)
-#WKZ_ADD_MESSAGE_TOOL=32 (internal use)
-#WKZ_TOGGLE_RESERVATION=33
-#WKZ_VIEW_OWNER=34
-#WKZ_RECOLOUR_TOOL=35 (internal use)
-#WKZ_ACCESS_TOOL=36 (internal use)
-#
+# WKZ_CHANGE_CITY_TOOL=30 (internal use)
+# WKZ_RENAME_TOOL=31 (internal use)
+# WKZ_ADD_MESSAGE_TOOL=32 (internal use)
+# WKZ_TOGGLE_RESERVATION=33
+# WKZ_VIEW_OWNER=34
+# TOOL_HIDE_UNDER_CURSOR=35
+# TOOL_MOVE_MAP=36 (internal use)
+# TOOL_ROLLUP_ALL_WIN=37
+# TOOL_RECOLOUR_TOOL=38 (internal use)
+# TOOL_SHOW_FACTORY_STORAGE=39
+# TOLL_TOGGLE_CONTROL=40
+
 simple_tool[0]=0,p
 simple_tool[1]=1,W
 simple_tool[2]=2,c
@@ -185,6 +189,7 @@ simple_tool[16]=4,R
 simple_tool[20]=,/
 simple_tool[33]=,B
 simple_tool[34]=,O
+simple_tool[40]=40
 
 # THIRD SECTION: dialoge tools
 # since these tools immeadiately open only a dialoge,
@@ -350,6 +355,7 @@ toolbar[0][37]=simple_tool[9]
 # network mode button
 toolbar[0][38]=-
 toolbar[0][39]=dialog_tool[28]
+toolbar[0][40]=simple_tool[40]
 
 # slope tools
 toolbar[1][0]=general_tool[2]
