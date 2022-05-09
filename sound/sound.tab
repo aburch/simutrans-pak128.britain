@@ -1,0 +1,26 @@
+# the following names are reserved
+#
+# landscape sounds:
+# beaches.wav  forest.wav
+#
+# and climate sounds:
+# sea.wav desert.wav tropic.wav mediterran.wav temperate.wav tundra.wav rocky.wav arctic.wav
+#
+
+# game sounds referred to in menuconf.tab
+# do not alter these numbers!
+# cash
+sound[15]=cash.wav
+# remover sound
+sound[14]=explosion.wav
+# - construction on water
+sound[13]=dock.wav
+# - metal construction gets built
+sound[12]=gavel.wav
+# - stone/concrete construction gets built
+sound[11]=jackhammer.wav
+# - tool failed
+sound[10]=boing.wav
+# - tool selection
+sound[9]=click.wav
+
