@@ -114,10 +114,9 @@ copy:
 	@cp -p licence.txt $(PAKDIR)
 	@cp -p readme.txt $(PAKDIR)
 	@cp -p config/* $(PAKDIR)/config
-#	@mkdir -p $(PAKDIR)/sound $(PAKDIR)/text $(PAKDIR)/config $(PAKDIR)/scenario
-#	@cp -p sound/* $(PAKDIR)/sound
-#	@cp -p scenario/* $(PAKDIR)/scenario
-	@cp -p text/*.* $(PAKDIR)/text
+	@cp -rp text $(PAKDIR)
+	@mkdir -p $(PAKDIR)/sound
+	@cp -rp sound $(PAKDIR)
 
 $(DIRS32):
 	@echo "===> PAK32 $@"
