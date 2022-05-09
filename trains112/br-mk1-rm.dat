@@ -20,14 +20,14 @@ Constraint[Prev][0]=BR-Mk1-POS(RoyalMail)
 Constraint[Prev][1]=BR-Mk1-TPO(RoyalMail)
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/br-mk1-bg-rm.0
-EmptyImage[SE]=./images/br-mk1-bg-rm.1
-EmptyImage[S]=./images/br-mk1-bg-rm.2
-EmptyImage[SW]=./images/br-mk1-bg-rm.3
-EmptyImage[W]=./images/br-mk1-bg-rm.4
-EmptyImage[NW]=./images/br-mk1-bg-rm.5
-EmptyImage[N]=./images/br-mk1-bg-rm.6
-EmptyImage[NE]=./images/br-mk1-bg-rm.7
+EmptyImage[E]=./images/br-mk1-bg-rm.0.0
+EmptyImage[SE]=./images/br-mk1-bg-rm.0.1
+EmptyImage[S]=./images/br-mk1-bg-rm.0.2
+EmptyImage[SW]=./images/br-mk1-bg-rm.0.3
+EmptyImage[W]=./images/br-mk1-bg-rm.0.4
+EmptyImage[NW]=./images/br-mk1-bg-rm.0.5
+EmptyImage[N]=./images/br-mk1-bg-rm.0.6
+EmptyImage[NE]=./images/br-mk1-bg-rm.0.7
 ---
 obj=vehicle
 name=BR-Mk1-TPO(RoyalMail)
@@ -52,14 +52,14 @@ Constraint[Next][1]=BR-Mk1-TPO(RoyalMail)
 Constraint[Next][2]=BR-Mk1-BG(RoyalMail)
 
 
-EmptyImage[E]=./images/br-mk1-tpo-rm.0
-EmptyImage[SE]=./images/br-mk1-tpo-rm.1
-EmptyImage[S]=./images/br-mk1-tpo-rm.2
-EmptyImage[SW]=./images/br-mk1-tpo-rm.3
-EmptyImage[W]=./images/br-mk1-tpo-rm.4
-EmptyImage[NW]=./images/br-mk1-tpo-rm.5
-EmptyImage[N]=./images/br-mk1-tpo-rm.6
-EmptyImage[NE]=./images/br-mk1-tpo-rm.7
+EmptyImage[E]=./images/br-mk1-tpo-rm.0.0
+EmptyImage[SE]=./images/br-mk1-tpo-rm.0.1
+EmptyImage[S]=./images/br-mk1-tpo-rm.0.2
+EmptyImage[SW]=./images/br-mk1-tpo-rm.0.3
+EmptyImage[W]=./images/br-mk1-tpo-rm.0.4
+EmptyImage[NW]=./images/br-mk1-tpo-rm.0.5
+EmptyImage[N]=./images/br-mk1-tpo-rm.0.6
+EmptyImage[NE]=./images/br-mk1-tpo-rm.0.7
 
 
 ---
@@ -89,14 +89,14 @@ Constraint[Prev][1]=BR-Mk1-TPO(RoyalMail)
 Constraint[Prev][2]=BR-Mk1-BG(RoyalMail)
 
 
-EmptyImage[E]=./images/br-mk1-pos-rm.0
-EmptyImage[SE]=./images/br-mk1-pos-rm.1
-EmptyImage[S]=./images/br-mk1-pos-rm.2
-EmptyImage[SW]=./images/br-mk1-pos-rm.3
-EmptyImage[W]=./images/br-mk1-pos-rm.4
-EmptyImage[NW]=./images/br-mk1-pos-rm.5
-EmptyImage[N]=./images/br-mk1-pos-rm.6
-EmptyImage[NE]=./images/br-mk1-pos-rm.7
+EmptyImage[E]=./images/br-mk1-pos-rm.0.0
+EmptyImage[SE]=./images/br-mk1-pos-rm.0.1
+EmptyImage[S]=./images/br-mk1-pos-rm.0.2
+EmptyImage[SW]=./images/br-mk1-pos-rm.0.3
+EmptyImage[W]=./images/br-mk1-pos-rm.0.4
+EmptyImage[NW]=./images/br-mk1-pos-rm.0.5
+EmptyImage[N]=./images/br-mk1-pos-rm.0.6
+EmptyImage[NE]=./images/br-mk1-pos-rm.0.7
 
 
 ---

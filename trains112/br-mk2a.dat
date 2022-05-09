@@ -25,14 +25,14 @@ Constraint[Prev][5]=BR-Mk1-RMB(Blue-Grey)
 Constraint[Prev][6]=BR-Mk1-RBR(Blue-Grey)
 Constraint[Prev][7]=BR-Mk1-TO(Blue-Grey)
 
-EmptyImage[E]=./images/br-mk2a-bso-bg.0
-EmptyImage[SE]=./images/br-mk2a-bso-bg.1
-EmptyImage[S]=./images/br-mk2a-bso-bg.2
-EmptyImage[SW]=./images/br-mk2a-bso-bg.3
-EmptyImage[W]=./images/br-mk2a-bso-bg.4
-EmptyImage[NW]=./images/br-mk2a-bso-bg.5
-EmptyImage[N]=./images/br-mk2a-bso-bg.6
-EmptyImage[NE]=./images/br-mk2a-bso-bg.7
+EmptyImage[E]=./images/br-mk2a-bso-bg.0.0
+EmptyImage[SE]=./images/br-mk2a-bso-bg.0.1
+EmptyImage[S]=./images/br-mk2a-bso-bg.0.2
+EmptyImage[SW]=./images/br-mk2a-bso-bg.0.3
+EmptyImage[W]=./images/br-mk2a-bso-bg.0.4
+EmptyImage[NW]=./images/br-mk2a-bso-bg.0.5
+EmptyImage[N]=./images/br-mk2a-bso-bg.0.6
+EmptyImage[NE]=./images/br-mk2a-bso-bg.0.7
 
 ---
 
@@ -73,14 +73,14 @@ Constraint[Next][6]=BR-Mk1-RBR(Blue-Grey)
 Constraint[Next][7]=BR-Mk1-TO(Blue-Grey)
 Constraint[Next][8]=none
 
-EmptyImage[E]=./images/br-mk2a-rmb-bg.0
-EmptyImage[SE]=./images/br-mk2a-rmb-bg.1
-EmptyImage[S]=./images/br-mk2a-rmb-bg.2
-EmptyImage[SW]=./images/br-mk2a-rmb-bg.3
-EmptyImage[W]=./images/br-mk2a-rmb-bg.4
-EmptyImage[NW]=./images/br-mk2a-rmb-bg.5
-EmptyImage[N]=./images/br-mk2a-rmb-bg.6
-EmptyImage[NE]=./images/br-mk2a-rmb-bg.7
+EmptyImage[E]=./images/br-mk2a-rmb-bg.0.0
+EmptyImage[SE]=./images/br-mk2a-rmb-bg.0.1
+EmptyImage[S]=./images/br-mk2a-rmb-bg.0.2
+EmptyImage[SW]=./images/br-mk2a-rmb-bg.0.3
+EmptyImage[W]=./images/br-mk2a-rmb-bg.0.4
+EmptyImage[NW]=./images/br-mk2a-rmb-bg.0.5
+EmptyImage[N]=./images/br-mk2a-rmb-bg.0.6
+EmptyImage[NE]=./images/br-mk2a-rmb-bg.0.7
 
 
 ---
@@ -112,13 +112,13 @@ Constraint[Next][5]=BR-Mk1-RMB(Blue-Grey)
 Constraint[Next][6]=BR-Mk1-RBR(Blue-Grey)
 Constraint[Next][7]=BR-Mk1-TO(Blue-Grey)
 
-EmptyImage[E]=./images/br-mk2a-tso-bg.0
-EmptyImage[SE]=./images/br-mk2a-tso-bg.1
-EmptyImage[S]=./images/br-mk2a-tso-bg.2
-EmptyImage[SW]=./images/br-mk2a-tso-bg.3
-EmptyImage[W]=./images/br-mk2a-tso-bg.4
-EmptyImage[NW]=./images/br-mk2a-tso-bg.5
-EmptyImage[N]=./images/br-mk2a-tso-bg.6
-EmptyImage[NE]=./images/br-mk2a-tso-bg.7
+EmptyImage[E]=./images/br-mk2a-tso-bg.0.0
+EmptyImage[SE]=./images/br-mk2a-tso-bg.0.1
+EmptyImage[S]=./images/br-mk2a-tso-bg.0.2
+EmptyImage[SW]=./images/br-mk2a-tso-bg.0.3
+EmptyImage[W]=./images/br-mk2a-tso-bg.0.4
+EmptyImage[NW]=./images/br-mk2a-tso-bg.0.5
+EmptyImage[N]=./images/br-mk2a-tso-bg.0.6
+EmptyImage[NE]=./images/br-mk2a-tso-bg.0.7
 
 ---

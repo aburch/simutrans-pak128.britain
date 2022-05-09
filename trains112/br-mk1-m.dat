@@ -36,14 +36,14 @@ Constraint[Prev][16]=BR-Mk1-RMB(Crimson-Cream)
 Constraint[Prev][17]=BR-Mk1-RMB(Maroon)
 Constraint[Prev][18]=BR-Mk1-RMB(Blue-Grey)
 
-EmptyImage[E]=./images/br-mk1-bc-m.0
-EmptyImage[SE]=./images/br-mk1-bc-m.1
-EmptyImage[S]=./images/br-mk1-bc-m.2
-EmptyImage[SW]=./images/br-mk1-bc-m.3
-EmptyImage[W]=./images/br-mk1-bc-m.4
-EmptyImage[NW]=./images/br-mk1-bc-m.5
-EmptyImage[N]=./images/br-mk1-bc-m.6
-EmptyImage[NE]=./images/br-mk1-bc-m.7
+EmptyImage[E]=./images/br-mk1-bc-m.0.0
+EmptyImage[SE]=./images/br-mk1-bc-m.0.1
+EmptyImage[S]=./images/br-mk1-bc-m.0.2
+EmptyImage[SW]=./images/br-mk1-bc-m.0.3
+EmptyImage[W]=./images/br-mk1-bc-m.0.4
+EmptyImage[NW]=./images/br-mk1-bc-m.0.5
+EmptyImage[N]=./images/br-mk1-bc-m.0.6
+EmptyImage[NE]=./images/br-mk1-bc-m.0.7
 
 ---
 obj=vehicle
@@ -64,14 +64,14 @@ cost=1500000
 runningcost=67
 sound=-1
 
-EmptyImage[E]=./images/br-mk1-bg-m.0
-EmptyImage[SE]=./images/br-mk1-bg-m.1
-EmptyImage[S]=./images/br-mk1-bg-m.2
-EmptyImage[SW]=./images/br-mk1-bg-m.3
-EmptyImage[W]=./images/br-mk1-bg-m.4
-EmptyImage[NW]=./images/br-mk1-bg-m.5
-EmptyImage[N]=./images/br-mk1-bg-m.6
-EmptyImage[NE]=./images/br-mk1-bg-m.7
+EmptyImage[E]=./images/br-mk1-bg-m.0.0
+EmptyImage[SE]=./images/br-mk1-bg-m.0.1
+EmptyImage[S]=./images/br-mk1-bg-m.0.2
+EmptyImage[SW]=./images/br-mk1-bg-m.0.3
+EmptyImage[W]=./images/br-mk1-bg-m.0.4
+EmptyImage[NW]=./images/br-mk1-bg-m.0.5
+EmptyImage[N]=./images/br-mk1-bg-m.0.6
+EmptyImage[NE]=./images/br-mk1-bg-m.0.7
 
 
 ---
@@ -134,14 +134,14 @@ Constraint[Prev][17]=BR-Mk1-RMB(Maroon)
 Constraint[Prev][18]=BR-Mk1-RMB(Blue-Grey)
 
 
-EmptyImage[E]=./images/br-mk1-rbr-m.0
-EmptyImage[SE]=./images/br-mk1-rbr-m.1
-EmptyImage[S]=./images/br-mk1-rbr-m.2
-EmptyImage[SW]=./images/br-mk1-rbr-m.3
-EmptyImage[W]=./images/br-mk1-rbr-m.4
-EmptyImage[NW]=./images/br-mk1-rbr-m.5
-EmptyImage[N]=./images/br-mk1-rbr-m.6
-EmptyImage[NE]=./images/br-mk1-rbr-m.7
+EmptyImage[E]=./images/br-mk1-rbr-m.0.0
+EmptyImage[SE]=./images/br-mk1-rbr-m.0.1
+EmptyImage[S]=./images/br-mk1-rbr-m.0.2
+EmptyImage[SW]=./images/br-mk1-rbr-m.0.3
+EmptyImage[W]=./images/br-mk1-rbr-m.0.4
+EmptyImage[NW]=./images/br-mk1-rbr-m.0.5
+EmptyImage[N]=./images/br-mk1-rbr-m.0.6
+EmptyImage[NE]=./images/br-mk1-rbr-m.0.7
 
 
 ---
@@ -203,14 +203,14 @@ Constraint[Prev][16]=BR-Mk1-RMB(Crimson-Cream)
 Constraint[Prev][17]=BR-Mk1-RMB(Maroon)
 Constraint[Prev][18]=BR-Mk1-RMB(Blue-Grey)
 
-EmptyImage[E]=./images/br-mk1-rmb-m.0
-EmptyImage[SE]=./images/br-mk1-rmb-m.1
-EmptyImage[S]=./images/br-mk1-rmb-m.2
-EmptyImage[SW]=./images/br-mk1-rmb-m.3
-EmptyImage[W]=./images/br-mk1-rmb-m.4
-EmptyImage[NW]=./images/br-mk1-rmb-m.5
-EmptyImage[N]=./images/br-mk1-rmb-m.6
-EmptyImage[NE]=./images/br-mk1-rmb-m.7
+EmptyImage[E]=./images/br-mk1-rmb-m.0.0
+EmptyImage[SE]=./images/br-mk1-rmb-m.0.1
+EmptyImage[S]=./images/br-mk1-rmb-m.0.2
+EmptyImage[SW]=./images/br-mk1-rmb-m.0.3
+EmptyImage[W]=./images/br-mk1-rmb-m.0.4
+EmptyImage[NW]=./images/br-mk1-rmb-m.0.5
+EmptyImage[N]=./images/br-mk1-rmb-m.0.6
+EmptyImage[NE]=./images/br-mk1-rmb-m.0.7
 ---
 obj=vehicle
 name=BR-Mk1-TO(Maroon)
@@ -250,14 +250,14 @@ Constraint[Next][16]=BR-Mk1-RMB(Crimson-Cream)
 Constraint[Next][17]=BR-Mk1-RMB(Maroon)
 Constraint[Next][18]=BR-Mk1-RMB(Blue-Grey)
 
-EmptyImage[E]=./images/br-mk1-m.0
-EmptyImage[SE]=./images/br-mk1-m.1
-EmptyImage[S]=./images/br-mk1-m.2
-EmptyImage[SW]=./images/br-mk1-m.3
-EmptyImage[W]=./images/br-mk1-m.4
-EmptyImage[NW]=./images/br-mk1-m.5
-EmptyImage[N]=./images/br-mk1-m.6
-EmptyImage[NE]=./images/br-mk1-m.7
+EmptyImage[E]=./images/br-mk1-m.0.0
+EmptyImage[SE]=./images/br-mk1-m.0.1
+EmptyImage[S]=./images/br-mk1-m.0.2
+EmptyImage[SW]=./images/br-mk1-m.0.3
+EmptyImage[W]=./images/br-mk1-m.0.4
+EmptyImage[NW]=./images/br-mk1-m.0.5
+EmptyImage[N]=./images/br-mk1-m.0.6
+EmptyImage[NE]=./images/br-mk1-m.0.7
 
 
 ---
