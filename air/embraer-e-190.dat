@@ -1,0 +1,42 @@
+# https://en.wikipedia.org/wiki/Embraer_E-Jet_family
+obj=vehicle
+name=embraer-e-190
+copyright=Zielinski Czeslaw
+# https://3dwarehouse.sketchup.com/model/87d67d80d85916d493a695ed0795aa6c/Embraer-190
+waytype=air
+engine_type=turbine
+speed=829
+power=16020
+tractive_effort=89
+freight=Passagiere
+payload=100
+weight=27.8
+#length=8
+cost=61173333
+runningcost=64
+fixed_cost=92481
+intro_year=2006
+intro_month=9
+# Single class
+comfort=95
+min_loading_time=2320
+max_loading_time=2320
+catering_level=1
+
+minimum_runway_length=2100
+
+range=4573
+
+sound=bigpickle51-jet-takeoff.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/embraer-erj-190-ba_E.0.0
+EmptyImage[SE]=./images/embraer-erj-190-ba_SE.0.0
+EmptyImage[S]=./images/embraer-erj-190-ba_S.0.0
+EmptyImage[SW]=./images/embraer-erj-190-ba_SW.0.0
+EmptyImage[W]=./images/embraer-erj-190-ba_W.0.0
+EmptyImage[NW]=./images/embraer-erj-190-ba_NW.0.0
+EmptyImage[N]=./images/embraer-erj-190-ba_N.0.0
+EmptyImage[NE]=./images/embraer-erj-190-ba_NE.0.0
