@@ -297,7 +297,8 @@ intro_month=10
 waytype=track
 way_constraint_permissive[2]=2
 own_waytype=electrified_track
-is_tall=1
+# Probably too subtle
+#is_tall=1
 cursor=ac-highspeed-catenary.1.10
 icon=> ac-highspeed-catenary.1.9
 FrontImage[-]=ac-highspeed-catenary.0.2
@@ -584,7 +585,8 @@ waytype=track
 way_constraint_permissive[2]=2
 way_constraint_permissive[0]=0
 own_waytype=electrified_track
-is_tall=1
+# Probably too subtle
+#is_tall=1
 cursor=ac-highspeed-catenary+3rd-rail.1.10
 icon=> ac-highspeed-catenary+3rd-rail.1.9
 FrontImage[-]=ac-highspeed-catenary+3rd-rail.0.2
