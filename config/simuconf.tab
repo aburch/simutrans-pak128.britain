@@ -758,7 +758,8 @@ cost_depot_air  = 7500
 # other construction/destruction stuff
 # The following are adjusted by meters_per_tile:
 cost_alter_land=8000
-cost_set_slope=21000
+cost_reclaim_land=100000
+cost_set_slope=25000
 cost_remove_tree=50
 cost_buy_land=1500
 cost_multiply_remove_haus=500
