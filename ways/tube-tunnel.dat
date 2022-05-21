@@ -15,7 +15,7 @@ way_constraint_prohibitive[1]=1
 allow_subsea=1
 half_height=1
 sea_depth_limit=3
-length_limit=500
+length_limit=750
 
 # Portal images (single)
 BackImage[W][0]=tube-tunnel-brick.1.0
@@ -79,7 +79,7 @@ way_constraint_prohibitive[1]=1
 allow_subsea=1
 half_height=1
 sea_depth_limit=4
-length_limit=1000
+length_limit=1250
 
 # Portal images (single)
 BackImage[W][0]=tube-tunnel-concrete.1.0
