@@ -6,7 +6,7 @@ copyright=Sky KoreSCL
 waytype=air
 engine_type=turbine
 speed=490
-power=1425
+power=2850
 tractive_effort=10
 freight=Passagiere
 payload[0]=0
@@ -31,6 +31,8 @@ min_loading_time=1000
 max_loading_time=1000
 
 catering_level=2
+
+air_resistance=45
 
 # http://www.brinkley.cc/AC/f275.htm
 minimum_runway_length=1189
@@ -84,6 +86,8 @@ min_loading_time=1000
 max_loading_time=1000
 
 catering_level=1
+
+air_resistance=45
 
 # http://www.brinkley.cc/AC/f275.htm
 minimum_runway_length=1189

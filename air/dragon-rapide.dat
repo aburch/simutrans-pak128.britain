@@ -7,8 +7,9 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=214
-power=268
-tractive_effort=3
+# https://en.wikipedia.org/wiki/De_Havilland_Dragon_Rapide#Specifications_(Dragon_Rapide)
+power=300
+tractive_effort=4
 freight=Passagiere
 payload[0]=0
 payload[1]=0
@@ -34,10 +35,11 @@ min_loading_time=1600
 max_loading_time=1600
 catering_level=0
 
-# Guessed
-minimum_runway_length=350
+# https://en.wikipedia.org/wiki/De_Havilland_Dragon_Rapide#Specifications_(Dragon_Rapide)
+minimum_runway_length=265
 
-range=920
+# https://en.wikipedia.org/wiki/De_Havilland_Dragon_Rapide#Specifications_(Dragon_Rapide)
+range=895
 
 sound=andysvideo-vickers-vimy.wav
 

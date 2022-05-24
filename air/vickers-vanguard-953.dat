@@ -5,7 +5,7 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
 speed=644
-power=14869
+power=16540
 tractive_effort=32
 #gear=1
 freight=Passagiere
@@ -38,6 +38,8 @@ max_loading_time=2800
 upgrade[0]=vickers-vanguard-953-cool
 upgrade[1]=vickers-vanguard-953-piece
 
+air_resistance=67
+
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=2286
 # @ ISA+10C, Runway dry = +10%
@@ -67,7 +69,7 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
 speed=644
-power=14869
+power=16540
 tractive_effort=32
 #gear=1
 freight=Bucher
@@ -90,6 +92,8 @@ max_loading_time=2800
 
 #available_only_as_upgrade=1
 upgrade[0]=vickers-vanguard-953-cool
+
+air_resistance=67
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=2286
@@ -119,7 +123,7 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=turbine
 speed=644
-power=14869
+power=16540
 tractive_effort=32
 #gear=1
 freight=fish
@@ -142,6 +146,8 @@ max_loading_time=2800
 
 #available_only_as_upgrade=1
 upgrade[0]=vickers-vanguard-953-piece
+
+air_resistance=67
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=2286

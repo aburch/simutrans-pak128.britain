@@ -9,7 +9,8 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=326
-power=350
+# https://en.wikipedia.org/wiki/Aero_Commander_500_family
+power=432
 tractive_effort=3
 freight=Passagiere
 # Payload: 0.8t
@@ -18,7 +19,7 @@ payload[1]=0
 payload[2]=7
 weight=2.1
 #length=8
-cost=1800000
+cost=1800123
 runningcost=16
 fixed_cost=51250
 intro_year=1951
@@ -31,6 +32,8 @@ comfort[2]=75
 min_loading_time=1600
 max_loading_time=1600
 catering_level=0
+
+air_resistance=25
 
 minimum_runway_length=950
 
@@ -60,14 +63,14 @@ copyright=Emmanuel Baranger
 waytype=air
 engine_type=petrol
 speed=326
-power=350
+power=432
 tractive_effort=3
 freight=Post
 # Payload: 0.8t
 payload=1000
 weight=2.1
 #length=8
-cost=1800000
+cost=1800123
 runningcost=16
 fixed_cost=51250
 intro_year=1951
@@ -78,6 +81,8 @@ retire_month=8
 min_loading_time=1600
 max_loading_time=1800
 catering_level=0
+
+air_resistance=25
 
 minimum_runway_length=950
 
@@ -129,6 +134,8 @@ comfort[2]=76
 min_loading_time=1650
 max_loading_time=1650
 catering_level=0
+
+air_resistance=25
 
 minimum_runway_length=1575
 
