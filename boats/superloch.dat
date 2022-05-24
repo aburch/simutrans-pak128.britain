@@ -31,8 +31,15 @@ way_constraint_prohibitive[6]=6 # Large ship
 
 Constraint[Prev][0]=none
 
-Constraint[Next][0]=ferry-mail
-Constraint[Next][1]=none
+Constraint[Next][0]=CarferryAddOil1
+Constraint[Next][1]=CarferryAddBulk1
+Constraint[Next][2]=CarferryAddPiece1
+Constraint[Next][3]=CarferryAddCool1
+Constraint[Next][4]=CarferryAddLong1
+Constraint[Next][5]=CarferryAddLivestock1
+Constraint[Next][6]=CarferryAddCar1
+Constraint[Next][7]=ferry-mail
+Constraint[Next][8]=none
 
 EmptyImage[E]=./images/superloch.0.0,-16,-8
 EmptyImage[SE]=./images/superloch.0.1,0,0
