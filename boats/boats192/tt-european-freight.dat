@@ -29,10 +29,17 @@ range=320
 liverytype[0]=TT-Orange
 liverytype[1]=P&O-European-Ferries
 
+Constraint[Prev][0]=none
+
 Constraint[Next][0]=TTEuropeanFreightAddMail
 Constraint[Next][1]=TTEuropeanFreightAddPiece
 Constraint[Next][2]=TTEuropeanFreightAddCool
-Constraint[Prev][0]=none
+Constraint[Next][3]=TTEuropeanFreightAddOil
+Constraint[Next][4]=TTEuropeanFreightAddBulk
+Constraint[Next][5]=TTEuropeanFreightAddLong
+Constraint[Next][6]=TTEuropeanFreightAddLivestock
+Constraint[Next][7]=TTEuropeanFreightAddCar
+Constraint[Next][8]=none
 
 EmptyImage[E][0]=../images/tt-european.1.0,-20,-30
 EmptyImage[SE][0]=../images/tt-european.1.1,-20,-30

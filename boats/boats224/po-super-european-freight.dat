@@ -26,6 +26,13 @@ upgrade[0]=POSuperEuropeanMixed
 Constraint[Next][0]=POSuperEuropeanFreightAddMail
 Constraint[Next][1]=POSuperEuropeanFreightAddPiece
 Constraint[Next][2]=POSuperEuropeanFreightAddCool
+Constraint[Next][3]=POSuperEuropeanFreightAddOil
+Constraint[Next][4]=POSuperEuropeanFreightAddBulk
+Constraint[Next][5]=POSuperEuropeanFreightAddLong
+Constraint[Next][6]=POSuperEuropeanFreightAddLivestock
+Constraint[Next][7]=POSuperEuropeanFreightAddCar
+Constraint[Next][8]=none
+
 Constraint[Prev][0]=none
 
 EmptyImage[E]=../images/po-super-european-freight.1.0,-31,-46
