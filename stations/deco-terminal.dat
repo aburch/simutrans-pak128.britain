@@ -54,8 +54,10 @@ enables_pax=1
 # this needs to match the introduction of the earliest airships.
 intro_year=1909
 intro_month=8
-retire_year=1949
-retire_month=8
+# The small control tower is not yet replaced
+# TODO: Add new small control tower (e.g. based on that at London City)
+#retire_year=1949
+#retire_month=8
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4

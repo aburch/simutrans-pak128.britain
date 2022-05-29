@@ -1,10 +1,10 @@
 obj=vehicle
 name=PieceZSX
-#?
+# Actually a VIX wagon: see https://archive.org/details/modelrailwaycons0000unse_z9y2
 speed=120
 copyright=James
-intro_year=1968
-intro_month=6
+intro_year=1963
+intro_month=2
 retire_year=1993
 retire_month=7
 waytype=track
@@ -24,6 +24,7 @@ bidirectional=1
 min_loading_time=300
 max_loading_time=900
 
+# TODO: Add multiple liveries
 EmptyImage[E]=./wagons/wagon-piece-zsx_E.0.0
 EmptyImage[SE]=./wagons/wagon-piece-zsx_SE.0.0
 EmptyImage[S]=./wagons/wagon-piece-zsx_S.0.0

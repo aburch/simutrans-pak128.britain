@@ -5707,7 +5707,9 @@ Fitted goods van
 Piece-Bogie
 Fitted bogie goods van
 PieceZSX
-BR ZSX covered van
+BR VIX covered van
+LivestockZSX
+BR livestock van
 PieceContainer
 FAA container flat
 CoolContainer
@@ -10330,6 +10332,34 @@ m_class[0]
 Normal
 m_class[1]
 Priority
+p_accommodation[0]
+Very low
+p_accommodation[1]
+Low
+p_accommodation[2]
+Medium
+p_accommodation[3]
+High
+p_accommodation[4]
+Very high
+m_accommodation[0]
+Normal
+m_accommodation[1]
+Priority
+p_fare[0]
+Very low
+p_fare[1]
+Low
+p_fare[2]
+Medium
+p_fare[3]
+High
+p_fare[4]
+Very high
+m_fare[0]
+Normal
+m_fare[1]
+Priority
 #______________________________________Piers________________________________________
 #______________________________________Piers________________________________________
 (PierTooltipA0)
@@ -10556,3 +10586,51 @@ woodtrestlediag1
 Wood trestle supports diagonal (right)
 woodtrestlediag2
 Wood trestle supports diagonal (left)
+CarferryAddOil0
+Small truck (oil)
+CarferryAddBulk0
+Small truck (bulk)
+CarferryAddLong0
+Smal truck (long goods)
+CarferryAddPiece0
+Van (piece goods)
+CarferryAddCool0
+Van (cooled goods)
+CarferryAddLivestock0
+Small truck (livestock)
+CarferryAddCar0
+Cars
+CarferryAddOil1
+Small truck (oil)
+CarferryAddBulk1
+Small truck (bulk)
+CarferryAddLong1
+Smal truck (long goods)
+CarferryAddPiece1
+Van (piece goods)
+CarferryAddCool1
+Van (cooled goods)
+CarferryAddLivestock1
+Small truck (livestock)
+CarferryAddCar1
+Cars
+POSuperEuropeanFreightAddOil
+P&O Super European class freight ferry oil hold
+POSuperEuropeanFreightAddBulk
+P&O Super European class freight ferry bulk hold
+POSuperEuropeanFreightAddLong
+P&O Super European class freight ferry long goods hold
+POSuperEuropeanFreightAddLivestock
+P&O Super European class freight ferry livestock hold
+POSuperEuropeanFreightAddCar
+P&O Super European class freight ferry car hold
+TTEuropeanFreightAddOil
+TT European Class freight ferry oil hold
+TTEuropeanFreightAddBulk
+TT European Class freight ferry bulk hold
+TTEuropeanFreightAddLong
+TT European Class freight ferry long goods hold
+TTEuropeanFreightAddLivestock
+TT European Class freight ferry livestock hold
+TTEuropeanFreightAddCar
+TT European Class freight ferry car hold
