@@ -23,6 +23,8 @@ intro_month=4
 retire_year=1916
 retire_month=1
 
+sound=graham-french-leyland-n-type.wav
+
 constraint[next][0]=none
 constraint[prev][0]=none
 
@@ -62,6 +64,9 @@ intro_year=1904
 intro_month=4
 retire_year=1916
 retire_month=1
+
+sound=graham-french-leyland-n-type.wav
+
 
 constraint[next][0]=none
 constraint[prev][0]=none
@@ -103,6 +108,9 @@ intro_year=1904
 intro_month=4
 retire_year=1916
 retire_month=1
+
+sound=graham-french-leyland-n-type.wav
+
 
 constraint[next][0]=none
 constraint[prev][0]=none
