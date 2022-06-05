@@ -1,0 +1,48 @@
+# This was a horse omnibus body mounted on the 15cwt van chassis
+# See Baldwin pp. 8-9
+obj=vehicle
+name=dennis-15cwt-omnibus
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+payload[0]=21
+# 12hp (Baldwin, p. 8)
+power=9
+tractive_effort=2
+gear=50
+speed=20
+# Guessed
+weight=2.2
+axles=2
+way_wear_factor=9
+length=4
+# These cost £715 + lettering: see Baldwin pp. 8-9
+cost=85500
+runningcost=11
+fixed_cost=8044
+intro_year=1904
+intro_month=5
+retire_year=1916
+retire_month=1
+is_tall=1
+sound=graham-french-leyland-n-type.wav
+
+comfort=20
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=42
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+EmptyImage[E]=./images/dennis-15cwt-omnibus_E.0.0,-33,14
+EmptyImage[SE]=./images/dennis-15cwt-omnibus_SE.0.0,-13,0
+EmptyImage[S]=./images/dennis-15cwt-omnibus_S.0.0,0,0
+EmptyImage[SW]=./images/dennis-15cwt-omnibus_SW.0.0,-8,10
+EmptyImage[W]=./images/dennis-15cwt-omnibus_W.0.0,4,5
+EmptyImage[NW]=./images/dennis-15cwt-omnibus_NW.0.0,12,10
+EmptyImage[N]=./images/dennis-15cwt-omnibus_N.0.0,0,33
+EmptyImage[NE]=./images/dennis-15cwt-omnibus_NE.0.0,0,24
+
+
