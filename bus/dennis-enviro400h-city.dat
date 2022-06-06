@@ -25,7 +25,7 @@ is_tall=1
 
 comfort=45
 min_loading_time=5
-# Double entrance pay driver: 2.8 seconds per passenger
+# Double entrance pay driver (low floor): 2.8 seconds per passenger
 max_loading_time=171
 sound=video47-volvo-b5h.wav
 
@@ -71,7 +71,7 @@ is_tall=1
 
 comfort=45
 min_loading_time=5
-# Single entrance pay driver: 3.8 seconds per passenger
+# Single entrance pay driver (low floor): 3.8 seconds per passenger
 max_loading_time=266
 sound=video47-volvo-b5h.wav
 
