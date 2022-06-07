@@ -1,6 +1,7 @@
 # See Baldwin p. 48
 # It is not entirely clear how the GL differed from the G. 
 # However Baldwin refers to a later model with a 42hp engine, so I will assume that the engine is the real difference.
+# Baldwin p. 50 shows a 18-seat G in LT livery.
 obj=vehicle
 name=dennis-gl
 copyright=JamesPetts&JamesHood
@@ -22,8 +23,9 @@ runningcost=21
 fixed_cost=8065
 intro_year=1929
 intro_month=10
-retire_year=1939
-retire_month=11
+# See Baldwin p. 66
+retire_year=1933
+retire_month=10
 
 comfort[0]=39
 
