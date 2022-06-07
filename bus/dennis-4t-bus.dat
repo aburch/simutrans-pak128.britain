@@ -1,0 +1,84 @@
+# http://webcache.googleusercontent.com/search?q=cache:bpEGWwueDI4J:www.countrybus.org/Dennis/D4t.html+&cd=1&hl=en&ct=clnk&gl=uk
+# http://www.londonbusmuseum.com/wp-content/uploads/2011/07/D142.MikeBeamish-1.jpg
+# http://www.old-bus-photos.co.uk/?tag=dennis-4-ton
+# https://motor-car.net/pics/0/rrr/dennis_4-ton.jpg
+# See Baldwin pp. 31
+obj=vehicle
+name=dennis-4t-bus
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+# http://webcache.googleusercontent.com/search?q=cache:bpEGWwueDI4J:www.countrybus.org/Dennis/D4t.html+&cd=1&hl=en&ct=clnk&gl=uk
+payload=48
+overcrowded_capacity=3
+speed=20
+# http://www.old-bus-photos.co.uk/?tag=dennis-4-ton : 40-50hp
+power=34
+tractive_effort=6
+gear=50
+# Guessed
+weight=5.3
+axles=2
+way_wear_factor=2900
+length=5
+cost=112000
+runningcost=27
+fixed_cost=8063
+# Guessed
+intro_year=1922
+intro_month=12
+retire_year=1929
+retire_month=1
+is_tall=1
+sound=graham-french-leyland-n-type.wav
+
+comfort=21
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=96
+
+upgrade[0]=dennis-4t-bus-pneumatic
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=General
+liverytype[1]=LT
+
+EmptyImage[E][0]=./images/dennis-4t-bus-general_E.0.0,-33,14
+EmptyImage[SE][0]=./images/dennis-4t-bus-general_SE.0.0,-13,0
+EmptyImage[S][0]=./images/dennis-4t-bus-general_S.0.0,0,0
+EmptyImage[SW][0]=./images/dennis-4t-bus-general_SW.0.0,-8,10
+EmptyImage[W][0]=./images/dennis-4t-bus-general_W.0.0,4,5
+EmptyImage[NW][0]=./images/dennis-4t-bus-general_NW.0.0,12,10
+EmptyImage[N][0]=./images/dennis-4t-bus-general_N.0.0,0,33
+EmptyImage[NE][0]=./images/dennis-4t-bus-general_NE.0.0,0,24
+
+FreightImage[E][0]=./images/dennis-4t-bus-general-loaded_E.0.0,-33,14
+FreightImage[SE][0]=./images/dennis-4t-bus-general-loaded_SE.0.0,-13,0
+FreightImage[S][0]=./images/dennis-4t-bus-general-loaded_S.0.0,4,0
+FreightImage[SW][0]=./images/dennis-4t-bus-general-loaded_SW.0.0,-8,10
+FreightImage[W][0]=./images/dennis-4t-bus-general-loaded_W.0.0,4,5
+FreightImage[NW][0]=./images/dennis-4t-bus-general-loaded_NW.0.0,12,10
+FreightImage[N][0]=./images/dennis-4t-bus-general-loaded_N.0.0,0,33
+FreightImage[NE][0]=./images/dennis-4t-bus-general-loaded_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/dennis-4t-bus-lt_E.0.0,-33,14
+EmptyImage[SE][1]=./images/dennis-4t-bus-lt_SE.0.0,-13,0
+EmptyImage[S][1]=./images/dennis-4t-bus-lt_S.0.0,0,0
+EmptyImage[SW][1]=./images/dennis-4t-bus-lt_SW.0.0,-8,10
+EmptyImage[W][1]=./images/dennis-4t-bus-lt_W.0.0,4,5
+EmptyImage[NW][1]=./images/dennis-4t-bus-lt_NW.0.0,12,10
+EmptyImage[N][1]=./images/dennis-4t-bus-lt_N.0.0,0,33
+EmptyImage[NE][1]=./images/dennis-4t-bus-lt_NE.0.0,0,24
+
+FreightImage[E][1]=./images/dennis-4t-bus-general-loaded_E.0.0,-33,14
+FreightImage[SE][1]=./images/dennis-4t-bus-general-loaded_SE.0.0,-13,0
+FreightImage[S][1]=./images/dennis-4t-bus-general-loaded_S.0.0,4,0
+FreightImage[SW][1]=./images/dennis-4t-bus-general-loaded_SW.0.0,-8,10
+FreightImage[W][1]=./images/dennis-4t-bus-general-loaded_W.0.0,4,5
+FreightImage[NW][1]=./images/dennis-4t-bus-general-loaded_NW.0.0,12,10
+FreightImage[N][1]=./images/dennis-4t-bus-general-loaded_N.0.0,0,33
+FreightImage[NE][1]=./images/dennis-4t-bus-general-loaded_NE.0.0,0,24
+
