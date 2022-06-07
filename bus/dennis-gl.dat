@@ -1,29 +1,29 @@
-# See Baldwin p. 35
-# https://web.archive.org/web/20210512085632/http://www.countrybus.org/Dennis/DM.html
-# This is the low framed version of the 35cwt bus C
+# See Baldwin p. 48
+# It is not entirely clear how the GL differed from the G. 
+# However Baldwin refers to a later model with a 42hp engine, so I will assume that the engine is the real difference.
 obj=vehicle
-name=dennis-g
+name=dennis-gl
 copyright=JamesPetts&JamesHood
 waytype=road
 freight=Passagiere
 payload[0]=16
 overcrowded_capacity=0
 engine_type=petrol
-# C type engine: 36hp. See Baldwin p. 35
-power=27
-tractive_effort=9
+# Updated OHV engine: 42hp. See Baldwin p. 48
+power=31
+tractive_effort=10
 gear=50
-speed=50
-weight=2.5
+speed=56
+weight=2.6
 axle_load=2
 way_wear_factor=64
 cost=101225
-runningcost=18
-fixed_cost=8060
-intro_year=1927
-intro_month=8
-retire_year=1930
-retire_month=2
+runningcost=21
+fixed_cost=8065
+intro_year=1929
+intro_month=10
+retire_year=1939
+retire_month=11
 
 comfort[0]=39
 
