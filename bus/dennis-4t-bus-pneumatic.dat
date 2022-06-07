@@ -2,7 +2,7 @@
 # http://www.londonbusmuseum.com/wp-content/uploads/2011/07/D142.MikeBeamish-1.jpg
 # http://www.old-bus-photos.co.uk/?tag=dennis-4-ton
 # https://motor-car.net/pics/0/rrr/dennis_4-ton.jpg
-# See Baldwin pp. 31
+# See Baldwin p. 31
 obj=vehicle
 name=dennis-4t-bus-pneumatic
 copyright=JamesPetts&JamesHood
@@ -25,9 +25,9 @@ cost=113500
 upgrade_price=5125
 runningcost=29
 fixed_cost=8063
-# Guessed
-intro_year=1926
-intro_month=4
+# Baldwin p. 30
+intro_year=1928
+intro_month=3
 retire_year=1931
 retire_month=2
 is_tall=1

@@ -2,7 +2,7 @@
 # http://www.londonbusmuseum.com/wp-content/uploads/2011/07/D142.MikeBeamish-1.jpg
 # http://www.old-bus-photos.co.uk/?tag=dennis-4-ton
 # https://motor-car.net/pics/0/rrr/dennis_4-ton.jpg
-# See Baldwin pp. 31
+# See Baldwin p. 31
 obj=vehicle
 name=dennis-4t-bus
 copyright=JamesPetts&JamesHood
@@ -10,6 +10,7 @@ waytype=road
 engine_type=petrol
 freight=Passagiere
 # http://webcache.googleusercontent.com/search?q=cache:bpEGWwueDI4J:www.countrybus.org/Dennis/D4t.html+&cd=1&hl=en&ct=clnk&gl=uk
+# https://www.londonbusmuseum.com/museum-exhibits/double-deck-buses/dennis-4-ton-d-142/
 payload=48
 overcrowded_capacity=3
 speed=20
@@ -25,9 +26,10 @@ length=5
 cost=112000
 runningcost=27
 fixed_cost=8063
-# Guessed
-intro_year=1922
-intro_month=12
+# http://www.old-bus-photos.co.uk/?tag=dennis-4-ton
+intro_year=1923
+# Month guessed
+intro_month=1
 retire_year=1929
 retire_month=1
 is_tall=1
