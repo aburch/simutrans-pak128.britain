@@ -1,0 +1,105 @@
+# https://en.wikipedia.org/wiki/Dennis_Lance
+# http://web.archive.org/web/20180201134841/http://www.countrybus.org/Lance%20SLF/ELW.htm
+obj=vehicle
+name=dennis-lance-slf-2-door
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# Guessed
+payload=41
+overcrowded_capacity=28
+speed=72
+# Cummins C8.3 (https://en.wikipedia.org/wiki/Dennis_Lance)
+# https://en.wikipedia.org/wiki/Cummins_C_Series_engine
+power=209
+tractive_effort=42
+gear=50
+# Guessed
+weight=9.2
+axles=2
+length=6
+cost=3372450
+runningcost=48
+fixed_cost=9500
+intro_year=1993
+intro_month=3
+retire_year=2000
+retire_month=6
+
+comfort=39
+# Double entrance pay driver (low floor): 2.8 seconds per passenger
+min_loading_time=4
+max_loading_time=114
+# TODO: Get correct sound for this
+sound=the-bloke33-dennis-dart-modern.wav
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Arriva-original
+
+# TODO: Add more liveries and length varients. This is the longest 11.6m version.
+
+EmptyImage[E][0]=./images/dennis-lance-slf-2-door-arriva_E.0.0,-33,14
+EmptyImage[SE][0]=./images/dennis-lance-slf-2-door-arriva_SE.0.0,-13,0
+EmptyImage[S][0]=./images/dennis-lance-slf-2-door-arriva_S.0.0,4,0
+EmptyImage[SW][0]=./images/dennis-lance-slf-2-door-arriva_SW.0.0,-8,10
+EmptyImage[W][0]=./images/dennis-lance-slf-2-door-arriva_W.0.0,4,5
+EmptyImage[NW][0]=./images/dennis-lance-slf-2-door-arriva_NW.0.0,12,10
+EmptyImage[N][0]=./images/dennis-lance-slf-2-door-arriva_N.0.0,0,33
+EmptyImage[NE][0]=./images/dennis-lance-slf-2-door-arriva_NE.0.0,0,24
+
+---
+
+obj=vehicle
+name=dennis-lance-slf-1-door
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# Guessed
+payload=48
+overcrowded_capacity=22
+speed=72
+# Cummins C8.3 (https://en.wikipedia.org/wiki/Dennis_Lance)
+# https://en.wikipedia.org/wiki/Cummins_C_Series_engine
+power=209
+tractive_effort=42
+gear=50
+# Guessed
+weight=9.2
+axles=2
+length=6
+cost=3372450
+runningcost=48
+fixed_cost=9500
+intro_year=1993
+intro_month=3
+retire_year=2000
+retire_month=6
+
+comfort=39
+# Double entrance pay driver (low floor): 3.8 seconds per passenger
+min_loading_time=4
+max_loading_time=182
+# TODO: Get correct sound for this
+sound=the-bloke33-dennis-dart-modern.wav
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Arriva-original
+
+# TODO: Add more liveries and length varients. This is the longest 11.6m version.
+
+EmptyImage[E][0]=./images/dennis-lance-slf-arriva_E.0.0,-33,14
+EmptyImage[SE][0]=./images/dennis-lance-slf-arriva_SE.0.0,-13,0
+EmptyImage[S][0]=./images/dennis-lance-slf-arriva_S.0.0,4,0
+EmptyImage[SW][0]=./images/dennis-lance-slf-arriva_SW.0.0,-8,10
+EmptyImage[W][0]=./images/dennis-lance-slf-arriva_W.0.0,4,5
+EmptyImage[NW][0]=./images/dennis-lance-slf-arriva_NW.0.0,12,10
+EmptyImage[N][0]=./images/dennis-lance-slf-arriva_N.0.0,0,33
+EmptyImage[NE][0]=./images/dennis-lance-slf-arriva_NE.0.0,0,24

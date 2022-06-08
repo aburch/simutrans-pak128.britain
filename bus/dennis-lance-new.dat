@@ -9,9 +9,9 @@ engine_type=diesel
 smoke=Diesel-light
 freight=Passagiere
 # Guessed
-payload=39
+payload=41
 overcrowded_capacity=28
-speed=64
+speed=72
 # Cummins C8.3 (https://en.wikipedia.org/wiki/Dennis_Lance)
 # https://en.wikipedia.org/wiki/Cummins_C_Series_engine
 power=209
@@ -33,7 +33,7 @@ retire_month=3
 comfort=39
 # Double entrance pay driver: 3.0 seconds per passenger
 min_loading_time=5
-max_loading_time=117
+max_loading_time=123
 # TODO: Get correct sound for this
 sound=the-bloke33-dennis-dart-modern.wav
 
