@@ -1,0 +1,74 @@
+# https://en.wikipedia.org/wiki/Dennis_Lance
+# This is the original, non-SLF version
+# http://web.archive.org/web/20080513021105/http://www.countrybus.org/Lance/LN.htm
+obj=vehicle
+name=dennis-lance-new
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# Guessed
+payload=39
+overcrowded_capacity=28
+speed=64
+# Cummins C8.3 (https://en.wikipedia.org/wiki/Dennis_Lance)
+# https://en.wikipedia.org/wiki/Cummins_C_Series_engine
+power=209
+tractive_effort=42
+gear=50
+# Guessed
+weight=9.2
+axles=2
+length=6
+cost=3252450
+runningcost=48
+fixed_cost=9500
+intro_year=1991
+intro_month=6
+# Guessed end date for non-SLF version
+retire_year=1995
+retire_month=3
+
+comfort=39
+# Double entrance pay driver: 3.0 seconds per passenger
+min_loading_time=5
+max_loading_time=117
+# TODO: Get correct sound for this
+sound=the-bloke33-dennis-dart-modern.wav
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=LT-revised
+liverytype[1]=Metroline-blue-skirt
+liverytype[2]=LOROL
+
+# TODO: Add more liveries and length varients. This is the longest 11.6m version.
+
+EmptyImage[E][0]=./images/dennis-lance-new-london-buses_E.0.0,-33,14
+EmptyImage[SE][0]=./images/dennis-lance-new-london-buses_SE.0.0,-13,0
+EmptyImage[S][0]=./images/dennis-lance-new-london-buses_S.0.0,4,0
+EmptyImage[SW][0]=./images/dennis-lance-new-london-buses_SW.0.0,-8,10
+EmptyImage[W][0]=./images/dennis-lance-new-london-buses_W.0.0,4,5
+EmptyImage[NW][0]=./images/dennis-lance-new-london-buses_NW.0.0,12,10
+EmptyImage[N][0]=./images/dennis-lance-new-london-buses_N.0.0,0,33
+EmptyImage[NE][0]=./images/dennis-lance-new-london-buses_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/dennis-lance-new-metroline_E.0.0,-33,14
+EmptyImage[SE][1]=./images/dennis-lance-new-metroline_SE.0.0,-13,0
+EmptyImage[S][1]=./images/dennis-lance-new-metroline_S.0.0,4,0
+EmptyImage[SW][1]=./images/dennis-lance-new-metroline_SW.0.0,-8,10
+EmptyImage[W][1]=./images/dennis-lance-new-metroline_W.0.0,4,5
+EmptyImage[NW][1]=./images/dennis-lance-new-metroline_NW.0.0,12,10
+EmptyImage[N][1]=./images/dennis-lance-new-metroline_N.0.0,0,33
+EmptyImage[NE][1]=./images/dennis-lance-new-metroline_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/dennis-lance-new-tfl_E.0.0,-33,14
+EmptyImage[SE][2]=./images/dennis-lance-new-tfl_SE.0.0,-13,0
+EmptyImage[S][2]=./images/dennis-lance-new-tfl_S.0.0,4,0
+EmptyImage[SW][2]=./images/dennis-lance-new-tfl_SW.0.0,-8,10
+EmptyImage[W][2]=./images/dennis-lance-new-tfl_W.0.0,4,5
+EmptyImage[NW][2]=./images/dennis-lance-new-tfl_NW.0.0,12,10
+EmptyImage[N][2]=./images/dennis-lance-new-tfl_N.0.0,0,33
+EmptyImage[NE][2]=./images/dennis-lance-new-tfl_NE.0.0,0,24
