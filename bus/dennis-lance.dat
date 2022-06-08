@@ -12,7 +12,7 @@ overcrowded_capacity=4
 speed=55
 # 100hp 6 cylinder engine (normally): see Baldwin p. 59
 power=75
-tractive_effort=9
+tractive_effort=10
 gear=50
 # Guessed
 weight=6.9
@@ -25,7 +25,7 @@ fixed_cost=8300
 intro_year=1930
 intro_month=2
 retire_year=1933
-retire_month=9
+retire_month=11
 is_tall=1
 sound=graham-french-tilling-stevens-1930.wav
 
