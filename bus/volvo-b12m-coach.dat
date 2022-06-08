@@ -1,6 +1,8 @@
+# # Formerly "Plaxton Paragon", but this is inconsistent as this is the name of the body, not the chassis: the rest of the pakset uses the chassis name only.
 # https://en.wikipedia.org/wiki/Plaxton_Panther
+# https://en.wikipedia.org/wiki/Volvo_B12M
 obj=vehicle
-name=PlaxtonParagon
+name=volvo-b12m-coach
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
@@ -17,10 +19,11 @@ length=6
 cost=5600000
 runningcost=96
 fixed_cost=10917
-intro_year=1999
-intro_month=12
+intro_year=2002
+intro_month=5
 retire_year=2010
 retire_month=10
+# TODO: Find appropriate sound for this
 sound=hkmtrhah-volvo-bm10.wav
 
 comfort=97

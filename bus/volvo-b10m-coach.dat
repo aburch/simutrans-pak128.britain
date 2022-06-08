@@ -1,6 +1,8 @@
 # https://en.wikipedia.org/wiki/Plaxton_Premiere
+# Formerly "Plaxton Premiere", but this is inconsistent as this is the name of the body, not the chassis: the rest of the pakset uses the chassis name only.
+# https://en.wikipedia.org/wiki/Volvo_B10M
 obj=vehicle
-name=plaxton-premiere
+name=volvo-b10m-coach
 copyright=Michael Wilson
 waytype=road
 engine_type=diesel
@@ -20,7 +22,7 @@ runningcost=61
 fixed_cost=10865
 intro_year=1991
 intro_month=6
-retire_year=2000
+retire_year=2003
 retire_month=3
 sound=hkmtrhah-volvo-bm10.wav
 
