@@ -10,6 +10,7 @@ intro_year=1909
 intro_month=8
 # 1 DC3 every 2 hours for 30 game years
 wear_capacity=11520000
+deck_mask=0x04000000
 
 icon=> ./images/grass-runway.1.3
 cursor=./images/grass-runway.1.4

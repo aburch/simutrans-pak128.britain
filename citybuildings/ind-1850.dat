@@ -23,6 +23,9 @@ retire_year=1928
 needs_ground=1
 dims=1,1,8
 
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x03
+
 BackImage[2][0][0][0][0][0]=images/ind/1850-warehouse.0.0
 BackImage[1][0][0][0][0][0]=images/ind/1850-warehouse.0.1
 BackImage[0][0][0][0][0][0]=images/ind/1850-warehouse.0.2
@@ -167,6 +170,9 @@ intro_year=1850
 retire_year=1950
 needs_ground=0
 dims=1,1,4
+
+pier_sub_1_mask=0x01
+pier_sub_2_mask=0x03
 
 BackImage[0][0][0][0][0][0]=images/ind/1850-timber-yard.0.0
 BackImage[3][0][0][0][0][0]=images/ind/1850-timber-yard.0.1

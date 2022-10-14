@@ -1,0 +1,73 @@
+# See Phillips p. 48
+# 5.1l 4 cylinder engine
+obj=vehicle
+name=leyland-lion-lt5a
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+# Guessed. Assumed to be the same as contemporary Tigers.
+payload=34
+overcrowded_capacity=3
+speed=50
+# 5.1l 4 cylinder engine
+# 40hp: https://petergould.co.uk/manufacturers/chassis/leyland1/
+# This is 30kw. However, this is probably an RAC rating. This
+# means that it will have been based on inaccurate assumptions.
+# It requires multiplying by approx. 1.3: see: http://www.austin7.org/Other%20Articles/RAC%20HP%20Rating/
+power=40
+tractive_effort=5
+gear=50
+# Guessed
+weight=6.3
+axles=2
+length=5
+cost=400000
+runningcost=41
+fixed_cost=6800
+intro_year=1933
+intro_month=6
+retire_year=1940
+retire_month=1
+is_tall=0
+sound=video47-leyland-lion-lsc.wav
+
+comfort=42
+# Front platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=68
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Ribble-standard
+liverytype[2]=Non-London
+
+EmptyImage[E][0]=./images/leyland-lion-lt5a-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-lion-lt5a-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-lion-lt5a-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/leyland-lion-lt5a-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-lion-lt5a-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-lion-lt5a-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-lion-lt5a-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-lion-lt5a-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-lion-lt5a-ribble_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-lion-lt5a-ribble_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-lion-lt5a-ribble_S.0.0,0,0
+EmptyImage[SW][1]=./images/leyland-lion-lt5a-ribble_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-lion-lt5a-ribble_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-lion-lt5a-ribble_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-lion-lt5a-ribble_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-lion-lt5a-ribble_NE.0.0,0,24
+
+# This regional livery is based on that of Litham St. Anne's
+EmptyImage[E][2]=./images/leyland-lion-lt5a-regional_E.0.0,-33,14
+EmptyImage[SE][2]=./images/leyland-lion-lt5a-regional_SE.0.0,-13,0
+EmptyImage[S][2]=./images/leyland-lion-lt5a-regional_S.0.0,0,0
+EmptyImage[SW][2]=./images/leyland-lion-lt5a-regional_SW.0.0,-8,10
+EmptyImage[W][2]=./images/leyland-lion-lt5a-regional_W.0.0,4,5
+EmptyImage[NW][2]=./images/leyland-lion-lt5a-regional_NW.0.0,12,10
+EmptyImage[N][2]=./images/leyland-lion-lt5a-regional_N.0.0,0,33
+EmptyImage[NE][2]=./images/leyland-lion-lt5a-regional_NE.0.0,0,24

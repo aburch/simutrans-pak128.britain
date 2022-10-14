@@ -5,6 +5,7 @@ name=MailBike
 copyright=JamesHood&JamesPetts
 engine_type=bio
 waytype=road
+is_sidewalker=1
 #Postman
 freight=Post
 payload=15
@@ -28,11 +29,11 @@ max_loading_time=20
 constraint[next][0]=none
 constraint[prev][0]=none
 
-EmptyImage[E]=./images/postal-bicycle_E.0.0,-33,14
-EmptyImage[SE]=./images/postal-bicycle_SE.0.0,-13,0
-EmptyImage[S]=./images/postal-bicycle_S.0.0,0,0
-EmptyImage[SW]=./images/postal-bicycle_SW.0.0,-8,10
-EmptyImage[W]=./images/postal-bicycle_W.0.0,4,5
-EmptyImage[NW]=./images/postal-bicycle_NW.0.0,12,10
-EmptyImage[N]=./images/postal-bicycle_N.0.0,0,33
-EmptyImage[NE]=./images/postal-bicycle_NE.0.0,0,24
+EmptyImage[E]=./images/postal-bicycle_E.0.0,-23,9
+EmptyImage[SE]=./images/postal-bicycle_SE.0.0,-6,0
+EmptyImage[S]=./images/postal-bicycle_S.0.0,10,5
+EmptyImage[SW]=./images/postal-bicycle_SW.0.0,-8,13
+EmptyImage[W]=./images/postal-bicycle_W.0.0,0,13
+EmptyImage[NW]=./images/postal-bicycle_NW.0.0,5,2
+EmptyImage[N]=./images/postal-bicycle_N.0.0,-10,28
+EmptyImage[NE]=./images/postal-bicycle_NE.0.0,-5,21

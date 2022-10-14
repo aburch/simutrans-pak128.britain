@@ -18,6 +18,7 @@ max_vehicles_on_tile=1
 # Guessed - any data on this?
 intro_year=1877
 intro_month=6
+deck_mask=0x40000000
 
 way_constraint_permissive[4]=4
 way_constraint_prohibitive[5]=5

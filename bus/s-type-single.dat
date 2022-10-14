@@ -1,3 +1,4 @@
+# https://motor-car.net/component/content/article/1344-home-page/cars/marques-a/aec/16393-aec-s-type?Itemid=101
 obj=vehicle
 name=STypeSingle
 copyright=JamesPetts&JamesHood
@@ -11,7 +12,8 @@ speed=20
 power=26
 tractive_effort=5
 gear=50
-weight=7.6
+# Guessed
+weight=4.6
 axles=2
 way_wear_factor=790
 length=5
@@ -20,7 +22,7 @@ runningcost=26
 fixed_cost=8056
 intro_year=1920
 intro_month=12
-retire_year=1931
+retire_year=1925
 retire_month=5
 sound=graham-french-tilling-stevens-1930.wav
 

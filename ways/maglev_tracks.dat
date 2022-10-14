@@ -8,6 +8,7 @@ topspeed=560
 max_weight=50
 intro_year = 2004
 intro_month = 1
+deck_mask=0x40000000
 
 icon=> ./images/maglev-rail-std.3.4
 cursor=./images/maglev-rail-std.3.5
@@ -86,6 +87,7 @@ topspeed=320
 max_weight=1750
 intro_year = 2004
 intro_month = 1
+deck_mask=0x40000000
 
 icon=> ./images/maglev-rail-eco.3.4
 cursor=./images/maglev-rail-eco.3.5

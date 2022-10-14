@@ -11,6 +11,7 @@ intro_year=1938
 intro_month=9
 # 6 A320s every hour for 30 game years
 wear_capacity=864000000
+deck_mask=0x80000000
 
 icon=> ./images/taxiway.1.3
 cursor=./images/taxiway.1.4

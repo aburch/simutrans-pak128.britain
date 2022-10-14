@@ -1,0 +1,41 @@
+obj=pier
+name=Lstraightsup2x
+cost=140000
+maintenance=93
+topspeed=100
+max_weight=15
+
+intro_year=1860
+intro_month=1
+retire_year=1962
+retire_month=2
+
+above_way_ribi=0xA
+below_way_ribi=0xF
+
+base_mask=0x04040404
+middle_mask=0xFCC4FCC4
+middle_mask_2=0x00000000
+support_mask=0x04040404
+
+keep_dry=1
+sub_obj_mask=0x02
+
+auto_group=0x02
+max_altitude=4
+above_way_supplement=1
+
+cursor=pier-L-straight-sup2x.0.3
+icon=> pier-L-straight-sup2x.0.2
+
+backimage[00][0][0] = pier-L-straight-sup2x.0.0
+backimage[00][1][0] = pier-L-straight-sup2x.0.1
+
+frontimage[00][0][0] = pier-L-straight-sup2x-front.0.0
+frontimage[00][1][0] = pier-L-straight-sup2x-front.0.1
+
+backimage[00][0][1] = pier-L-straight-sup2x-snow.0.0
+backimage[00][1][1] = pier-L-straight-sup2x-snow.0.1
+
+frontimage[00][0][1] = pier-L-straight-sup2x-snow-front.0.0
+frontimage[00][1][1] = pier-L-straight-sup2x-snow-front.0.1

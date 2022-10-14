@@ -4,11 +4,11 @@ waytype=road
 intro_year=1750
 intro_month=1
 retire_year=1910
-topspeed=65
-max_weight=8
-cost=150000
-maintenance=1500
-
+#topspeed=65
+max_weight=3000
+cost=5120000
+maintenance=205
+max_length=2
 has_own_way_graphics=0
 
 pillar_distance=1

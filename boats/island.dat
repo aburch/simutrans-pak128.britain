@@ -29,8 +29,17 @@ range=50
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
-Constraint[Next][0]=none
 Constraint[Prev][0]=none
+
+Constraint[Next][0]=CarferryAddOil0
+Constraint[Next][1]=CarferryAddBulk0
+Constraint[Next][2]=CarferryAddPiece0
+Constraint[Next][3]=CarferryAddCool0
+Constraint[Next][4]=CarferryAddLong0
+Constraint[Next][5]=CarferryAddLivestock0
+Constraint[Next][6]=CarferryAddCar0
+Constraint[Next][7]=ferry-mail
+Constraint[Next][8]=none
 
 EmptyImage[E]=./images/island.0.0,-16,-8
 EmptyImage[SE]=./images/island.0.1

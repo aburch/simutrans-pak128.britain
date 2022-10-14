@@ -1,0 +1,67 @@
+# See Baldwin p. 76
+obj=vehicle
+name=dennis-lancet-2-coach
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+payload=30
+overcrowded_capacity=0
+speed=85
+# "Big four" engine 6.786l. Power not given, so guessed.
+power=78
+# Geared lower for coach work
+tractive_effort=5
+gear=50
+# Guessed
+weight=6.5
+axles=2
+length=5
+cost=478500
+# 17MPG - see Baldwin p. 76
+runningcost=75
+fixed_cost=8500
+intro_year=1935
+intro_month=5
+retire_year=1939
+retire_month=10
+sound=video47-leyland-titan-pd1.wav
+
+comfort=69
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=225
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Green-Line-Coaches
+liverytype[1]=Green-Line-two-tone
+liverytype[2]=Private
+
+EmptyImage[E][0]=./images/dennis-lancet-2-coach-greenline_E.0.0,-33,14
+EmptyImage[SE][0]=./images/dennis-lancet-2-coach-greenline_SE.0.0,-13,0
+EmptyImage[S][0]=./images/dennis-lancet-2-coach-greenline_S.0.0,4,0
+EmptyImage[SW][0]=./images/dennis-lancet-2-coach-greenline_SW.0.0,-8,10
+EmptyImage[W][0]=./images/dennis-lancet-2-coach-greenline_W.0.0,4,5
+EmptyImage[NW][0]=./images/dennis-lancet-2-coach-greenline_NW.0.0,12,10
+EmptyImage[N][0]=./images/dennis-lancet-2-coach-greenline_N.0.0,0,33
+EmptyImage[NE][0]=./images/dennis-lancet-2-coach-greenline_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/dennis-lancet-2-coach-greenline_E.0.0,-33,14
+EmptyImage[SE][1]=./images/dennis-lancet-2-coach-greenline_SE.0.0,-13,0
+EmptyImage[S][1]=./images/dennis-lancet-2-coach-greenline_S.0.0,4,0
+EmptyImage[SW][1]=./images/dennis-lancet-2-coach-greenline_SW.0.0,-8,10
+EmptyImage[W][1]=./images/dennis-lancet-2-coach-greenline_W.0.0,4,5
+EmptyImage[NW][1]=./images/dennis-lancet-2-coach-greenline_NW.0.0,12,10
+EmptyImage[N][1]=./images/dennis-lancet-2-coach-greenline_N.0.0,0,33
+EmptyImage[NE][1]=./images/dennis-lancet-2-coach-greenline_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/dennis-lancet-2-coach-royal-blue_E.0.0,-33,14
+EmptyImage[SE][2]=./images/dennis-lancet-2-coach-royal-blue_SE.0.0,-13,0
+EmptyImage[S][2]=./images/dennis-lancet-2-coach-royal-blue_S.0.0,4,0
+EmptyImage[SW][2]=./images/dennis-lancet-2-coach-royal-blue_SW.0.0,-8,10
+EmptyImage[W][2]=./images/dennis-lancet-2-coach-royal-blue_W.0.0,4,5
+EmptyImage[NW][2]=./images/dennis-lancet-2-coach-royal-blue_NW.0.0,12,10
+EmptyImage[N][2]=./images/dennis-lancet-2-coach-royal-blue_N.0.0,0,33
+EmptyImage[NE][2]=./images/dennis-lancet-2-coach-royal-blue_NE.0.0,0,24

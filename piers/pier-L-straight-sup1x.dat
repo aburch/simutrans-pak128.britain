@@ -1,0 +1,49 @@
+obj=pier
+name=Lstraightsup1x
+cost=70000
+maintenance=33
+topspeed=100
+max_weight=15
+
+intro_year=1860
+intro_month=1
+retire_year=1962
+retire_month=2
+
+above_way_ribi=0x8
+below_way_ribi=0xF
+
+base_mask=0x04040404
+middle_mask=0xFC0000C0
+middle_mask_2=0x00000000
+support_mask=0x04000004
+
+keep_dry=1
+sub_obj_mask=0x02
+max_altitude=4
+auto_group=0x02
+
+above_way_supplement=1
+
+cursor=pier-L-straight-sup1x.0.5
+icon=> pier-L-straight-sup1x.0.4
+
+backimage[00][0][0] = pier-L-straight-sup1x.0.0
+backimage[00][1][0] = pier-L-straight-sup1x.0.1
+backimage[00][2][0] = pier-L-straight-sup1x.0.2
+backimage[00][3][0] = pier-L-straight-sup1x.0.3
+
+frontimage[00][0][0] = pier-L-straight-sup1x-front.0.0
+frontimage[00][1][0] = pier-L-straight-sup1x-front.0.1
+frontimage[00][2][0] = pier-L-straight-sup1x-front.0.2
+frontimage[00][3][0] = pier-L-straight-sup1x-front.0.3
+
+backimage[00][0][1] = pier-L-straight-sup1x-snow.0.0
+backimage[00][1][1] = pier-L-straight-sup1x-snow.0.1
+backimage[00][2][1] = pier-L-straight-sup1x-snow.0.2
+backimage[00][3][1] = pier-L-straight-sup1x-snow.0.3
+
+frontimage[00][0][1] = pier-L-straight-sup1x-snow-front.0.0
+frontimage[00][1][1] = pier-L-straight-sup1x-snow-front.0.1
+frontimage[00][2][1] = pier-L-straight-sup1x-snow-front.0.2
+frontimage[00][3][1] = pier-L-straight-sup1x-snow-front.0.3

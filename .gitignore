@@ -14,3 +14,10 @@ _UpgradeReport_Files*
 /pak128.Britain-Ex*
 .~lock*
 makeobj-extended
+*.db
+*.opendb
+*.ipch
+*.sve
+*.pak
+*.exe
+makeobj-extended*

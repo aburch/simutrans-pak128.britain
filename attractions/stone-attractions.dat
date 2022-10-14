@@ -23,7 +23,8 @@ chance=40
 build_time=150
 needs_ground=1
 dims=1,1,1
-Backimage[0][0][0][0][0][0]=images/cur/stone-attractions.3.5
+Frontimage[0][0][0][0][0][0]=images/cur/stone-attractions.3.5
+Backimage[0][0][0][0][0][0]=images/cur/stone-attractions.4.7
 Backimage[0][0][0][0][0][1]=images/cur/stone-attractions-snow.3.5
 ---
 Obj=building
@@ -328,19 +329,15 @@ Backimage[0][0][0][0][0][0]=images/cur/stone-attractions.2.2
 Backimage[0][0][0][0][0][1]=images/cur/stone-attractions-snow.2.2
 Backimage[0][1][0][0][0][0]=images/cur/stone-attractions.2.0
 Backimage[0][1][0][0][0][1]=images/cur/stone-attractions-snow.2.0
-Backimage[0][2][0][0][0][0]=images/cur/stone-attractions.4.2
-Backimage[0][2][0][0][0][1]=images/cur/stone-attractions-snow.4.2
-Backimage[0][2][0][1][0][0]=images/cur/stone-attractions.3.2
-Backimage[0][2][0][1][0][1]=images/cur/stone-attractions-snow.3.2
+Backimage[0][2][0][0][0][0]=images/cur/stone-attractions.4.0,44,-22
+Backimage[0][2][0][0][0][1]=images/cur/stone-attractions-snow.4.0,44,-22
 
 Backimage[1][0][0][0][0][0]=images/cur/stone-attractions.2.3
 Backimage[1][0][0][0][0][1]=images/cur/stone-attractions-snow.2.3
 Backimage[1][0][1][0][0][0]=images/cur/stone-attractions.2.1
 Backimage[1][0][1][0][0][1]=images/cur/stone-attractions-snow.2.1
-Backimage[1][0][2][0][0][0]=images/cur/stone-attractions.4.3
-Backimage[1][0][2][0][0][1]=images/cur/stone-attractions-snow.4.3
-Backimage[1][0][2][1][0][0]=images/cur/stone-attractions.3.3
-Backimage[1][0][2][1][0][1]=images/cur/stone-attractions-snow.3.3
+Backimage[1][0][2][0][0][0]=images/cur/stone-attractions.4.1,-44,-22
+Backimage[1][0][2][0][0][1]=images/cur/stone-attractions-snow.4.1,-44,-22
 
 Backimage[2][2][0][0][0][0]=images/cur/stone-attractions.2.2
 Backimage[2][2][0][0][0][1]=images/cur/stone-attractions-snow.2.2
@@ -348,8 +345,6 @@ Backimage[2][1][0][0][0][0]=images/cur/stone-attractions.2.0
 Backimage[2][1][0][0][0][1]=images/cur/stone-attractions-snow.2.0
 Backimage[2][0][0][0][0][0]=images/cur/stone-attractions.4.0
 Backimage[2][0][0][0][0][1]=images/cur/stone-attractions-snow.4.0
-Backimage[2][0][0][1][0][0]=images/cur/stone-attractions.3.0
-Backimage[2][0][0][1][0][1]=images/cur/stone-attractions-snow.3.0
 
 Backimage[3][0][2][0][0][0]=images/cur/stone-attractions.2.3
 Backimage[3][0][2][0][0][1]=images/cur/stone-attractions-snow.2.3
@@ -357,8 +352,6 @@ Backimage[3][0][1][0][0][0]=images/cur/stone-attractions.2.1
 Backimage[3][0][1][0][0][1]=images/cur/stone-attractions-snow.2.1
 Backimage[3][0][0][0][0][0]=images/cur/stone-attractions.4.1
 Backimage[3][0][0][0][0][1]=images/cur/stone-attractions-snow.4.1
-Backimage[3][0][0][1][0][0]=images/cur/stone-attractions.3.1
-Backimage[3][0][0][1][0][1]=images/cur/stone-attractions-snow.3.1
 
 ---
 Obj=building
@@ -457,10 +450,9 @@ Backimage[0][0][1][0][0][0]=images/cur/stone-attractions.2.2
 Backimage[0][0][1][0][0][1]=images/cur/stone-attractions-snow.2.2
 Backimage[0][1][1][0][0][0]=images/cur/stone-attractions.2.0
 Backimage[0][1][1][0][0][1]=images/cur/stone-attractions-snow.2.0
-Backimage[0][2][1][0][0][0]=images/cur/stone-attractions.4.2
-Backimage[0][2][1][0][0][1]=images/cur/stone-attractions-snow.4.2
-Backimage[0][2][1][1][0][0]=images/cur/stone-attractions.3.2
-Backimage[0][2][1][1][0][1]=images/cur/stone-attractions-snow.3.2
+Frontimage[0][2][1][0][0][0]=images/cur/stone-attractions.4.0,44,-22
+Backimage[0][2][1][0][0][0]=images/cur/stone-attractions.4.7
+Backimage[0][2][1][0][0][1]=images/cur/stone-attractions-snow.4.0,44,-22
 Backimage[0][0][2][0][0][0]=images/cur/stone-attractions.1.1
 Backimage[0][0][2][0][0][1]=images/cur/stone-attractions-snow.1.1
 Backimage[0][1][2][0][0][0]=images/cur/stone-attractions.3.4
@@ -479,10 +471,9 @@ Backimage[1][1][0][0][0][0]=images/cur/stone-attractions.2.3
 Backimage[1][1][0][0][0][1]=images/cur/stone-attractions-snow.2.3
 Backimage[1][1][1][0][0][0]=images/cur/stone-attractions.2.1
 Backimage[1][1][1][0][0][1]=images/cur/stone-attractions-snow.2.1
-Backimage[1][1][2][0][0][0]=images/cur/stone-attractions.4.3
-Backimage[1][1][2][0][0][1]=images/cur/stone-attractions-snow.4.0
-Backimage[1][1][2][1][0][0]=images/cur/stone-attractions.3.3
-Backimage[1][1][2][1][0][1]=images/cur/stone-attractions-snow.3.0
+Frontimage[1][1][2][0][0][0]=images/cur/stone-attractions.4.1,-44,-22
+Backimage[1][1][2][0][0][0]=images/cur/stone-attractions.4.7
+Backimage[1][1][2][0][0][1]=images/cur/stone-attractions-snow.4.1,-44,-22
 Backimage[1][2][0][0][0][0]=images/cur/stone-attractions.1.0
 Backimage[1][2][0][0][0][1]=images/cur/stone-attractions-snow.1.0
 Backimage[1][2][1][0][0][0]=images/cur/stone-attractions.3.4
@@ -503,8 +494,6 @@ Backimage[2][1][1][0][0][0]=images/cur/stone-attractions.2.0
 Backimage[2][1][1][0][0][1]=images/cur/stone-attractions-snow.2.0
 Backimage[2][0][1][0][0][0]=images/cur/stone-attractions.4.0
 Backimage[2][0][1][0][0][1]=images/cur/stone-attractions-snow.4.0
-Backimage[2][0][1][1][0][0]=images/cur/stone-attractions.3.0
-Backimage[2][0][1][1][0][1]=images/cur/stone-attractions-snow.3.0
 Backimage[2][2][2][0][0][0]=images/cur/stone-attractions.1.1
 Backimage[2][2][2][0][0][1]=images/cur/stone-attractions-snow.1.1
 Backimage[2][1][2][0][0][0]=images/cur/stone-attractions.3.4
@@ -524,8 +513,6 @@ Backimage[3][1][1][0][0][0]=images/cur/stone-attractions.2.1
 Backimage[3][1][1][0][0][1]=images/cur/stone-attractions-snow.2.1
 Backimage[3][1][0][0][0][0]=images/cur/stone-attractions.4.1
 Backimage[3][1][0][0][0][1]=images/cur/stone-attractions-snow.4.1
-Backimage[3][1][0][1][0][0]=images/cur/stone-attractions.3.1
-Backimage[3][1][0][1][0][1]=images/cur/stone-attractions-snow.3.1
 Backimage[3][2][2][0][0][0]=images/cur/stone-attractions.1.0
 Backimage[3][2][2][0][0][1]=images/cur/stone-attractions-snow.1.0
 Backimage[3][2][1][0][0][0]=images/cur/stone-attractions.3.4
@@ -846,10 +833,9 @@ Backimage[0][2][1][0][0][0]=images/cur/stone-attractions.2.0
 Backimage[0][2][1][0][0][1]=images/cur/stone-attractions-snow.2.0
 Backimage[0][3][1][0][0][0]=images/cur/stone-attractions.2.0
 Backimage[0][3][1][0][0][1]=images/cur/stone-attractions-snow.2.0
-Backimage[0][4][1][0][0][0]=images/cur/stone-attractions.4.2
-Backimage[0][4][1][0][0][1]=images/cur/stone-attractions-snow.4.2
-Backimage[0][4][1][1][0][0]=images/cur/stone-attractions.3.2
-Backimage[0][4][1][1][0][1]=images/cur/stone-attractions-snow.3.2
+Frontimage[0][4][1][0][0][0]=images/cur/stone-attractions.4.0,44,-22
+Backimage[0][4][1][0][0][0]=images/cur/stone-attractions.4.7
+Backimage[0][4][1][0][0][1]=images/cur/stone-attractions-snow.4.0,44,-22
 Backimage[0][0][2][0][0][0]=images/cur/stone-attractions.4.5
 Backimage[0][0][2][0][0][1]=images/cur/stone-attractions-snow.4.5
 Backimage[0][1][2][0][0][0]=images/cur/stone-attractions.2.3
@@ -889,10 +875,9 @@ Backimage[1][2][3][0][0][0]=images/cur/stone-attractions.3.4
 Backimage[1][2][3][0][0][1]=images/cur/stone-attractions-snow.3.4
 Backimage[1][0][4][0][0][0]=images/cur/stone-attractions.4.7
 Backimage[1][0][4][0][0][1]=images/cur/stone-attractions-snow.4.7
-Backimage[1][1][4][0][0][0]=images/cur/stone-attractions.4.3
-Backimage[1][1][4][0][0][1]=images/cur/stone-attractions-snow.4.3
-Backimage[1][1][4][1][0][0]=images/cur/stone-attractions.3.3
-Backimage[1][1][4][1][0][1]=images/cur/stone-attractions-snow.3.3
+Backimage[1][1][4][0][0][0]=images/cur/stone-attractions.4.7
+Frontimage[1][1][4][0][0][0]=images/cur/stone-attractions.4.1,-44,-22
+Backimage[1][1][4][0][0][1]=images/cur/stone-attractions-snow.4.1,-44,-22
 Backimage[1][2][4][0][0][0]=images/cur/stone-attractions.4.7
 Backimage[1][2][4][0][0][1]=images/cur/stone-attractions-snow.4.7
 
@@ -916,10 +901,9 @@ Backimage[2][2][1][0][0][0]=images/cur/stone-attractions.2.0
 Backimage[2][2][1][0][0][1]=images/cur/stone-attractions-snow.2.0
 Backimage[2][1][1][0][0][0]=images/cur/stone-attractions.2.0
 Backimage[2][1][1][0][0][1]=images/cur/stone-attractions-snow.2.0
-Backimage[2][0][1][0][0][0]=images/cur/stone-attractions.4.0
-Backimage[2][0][1][0][0][1]=images/cur/stone-attractions-snow.4.2
-Backimage[2][0][1][1][0][0]=images/cur/stone-attractions.3.0
-Backimage[2][0][1][1][0][1]=images/cur/stone-attractions-snow.3.2
+Backimage[2][0][1][0][0][0]=images/cur/stone-attractions.4.7
+Frontimage[2][0][1][0][0][0]=images/cur/stone-attractions.4.0
+Backimage[2][0][1][0][0][1]=images/cur/stone-attractions-snow.4.0
 Backimage[2][4][2][0][0][0]=images/cur/stone-attractions.4.5
 Backimage[2][4][2][0][0][1]=images/cur/stone-attractions-snow.4.5
 Backimage[2][3][2][0][0][0]=images/cur/stone-attractions.2.3
@@ -959,10 +943,9 @@ Backimage[3][0][1][0][0][0]=images/cur/stone-attractions.3.4
 Backimage[3][0][1][0][0][1]=images/cur/stone-attractions-snow.3.4
 Backimage[3][2][0][0][0][0]=images/cur/stone-attractions.4.7
 Backimage[3][2][0][0][0][1]=images/cur/stone-attractions-snow.4.7
-Backimage[3][1][0][0][0][0]=images/cur/stone-attractions.4.1
-Backimage[3][1][0][0][0][1]=images/cur/stone-attractions-snow.4.3
-Backimage[3][1][0][1][0][0]=images/cur/stone-attractions.3.1
-Backimage[3][1][0][1][0][1]=images/cur/stone-attractions-snow.3.3
+Backimage[3][1][0][0][0][0]=images/cur/stone-attractions.4.7
+Frontimage[3][1][0][0][0][0]=images/cur/stone-attractions.4.1
+Backimage[3][1][0][0][0][1]=images/cur/stone-attractions-snow.4.1
 Backimage[3][0][0][0][0][0]=images/cur/stone-attractions.4.7
 Backimage[3][0][0][0][0][1]=images/cur/stone-attractions-snow.4.7
 ---
@@ -1018,10 +1001,8 @@ Backimage[1][1][0][0][0][0]=images/cur/stone-attractions.2.0
 Backimage[1][1][0][0][0][1]=images/cur/stone-attractions-snow.2.0
 Backimage[1][2][0][0][0][0]=images/cur/stone-attractions.2.2
 Backimage[1][2][0][0][0][1]=images/cur/stone-attractions-snow.2.2
-Backimage[1][0][1][0][0][0]=images/cur/stone-attractions.4.2
-Backimage[1][0][1][0][0][1]=images/cur/stone-attractions-snow.4.2
-Backimage[1][0][1][1][0][0]=images/cur/stone-attractions.3.2
-Backimage[1][0][1][1][0][1]=images/cur/stone-attractions-snow.3.2
+Backimage[1][0][1][0][0][0]=images/cur/stone-attractions.4.0,44,-22
+Backimage[1][0][1][0][0][1]=images/cur/stone-attractions-snow.4.0,44,-22
 Backimage[1][1][1][0][0][0]=images/cur/stone-attractions.4.7
 Backimage[1][1][1][0][0][1]=images/cur/stone-attractions-snow.4.7
 Backimage[1][2][1][0][0][0]=images/cur/stone-attractions.1.1
@@ -1047,10 +1028,8 @@ Backimage[2][0][1][0][0][0]=images/cur/stone-attractions.2.1
 Backimage[2][0][1][0][0][1]=images/cur/stone-attractions-snow.2.1
 Backimage[2][2][0][0][0][0]=images/cur/stone-attractions.2.1
 Backimage[2][2][0][0][0][1]=images/cur/stone-attractions-snow.2.1
-Backimage[2][1][0][0][0][0]=images/cur/stone-attractions.4.3
-Backimage[2][1][0][0][0][1]=images/cur/stone-attractions-snow.4.3
-Backimage[2][1][0][1][0][0]=images/cur/stone-attractions.3.3
-Backimage[2][1][0][1][0][1]=images/cur/stone-attractions-snow.3.3
+Backimage[2][1][0][0][0][0]=images/cur/stone-attractions.4.1,44,-22
+Backimage[2][1][0][0][0][1]=images/cur/stone-attractions-snow.4.1,44,-22
 Backimage[2][0][0][0][0][0]=images/cur/stone-attractions.2.1
 Backimage[2][0][0][0][0][1]=images/cur/stone-attractions-snow.2.1
 
@@ -1062,8 +1041,6 @@ Backimage[3][0][0][0][0][0]=images/cur/stone-attractions.2.2
 Backimage[3][0][0][0][0][1]=images/cur/stone-attractions-snow.2.2
 Backimage[3][2][1][0][0][0]=images/cur/stone-attractions.4.0
 Backimage[3][2][1][0][0][1]=images/cur/stone-attractions-snow.4.0
-Backimage[3][2][1][1][0][0]=images/cur/stone-attractions.3.0
-Backimage[3][2][1][1][0][1]=images/cur/stone-attractions-snow.3.0
 Backimage[3][1][1][0][0][0]=images/cur/stone-attractions.4.7
 Backimage[3][1][1][0][0][1]=images/cur/stone-attractions-snow.4.7
 Backimage[3][0][1][0][0][0]=images/cur/stone-attractions.1.1
@@ -2003,3 +1980,95 @@ Backimage[1][3][0][0][0][1]=images/cur/stone-attractions-snow.0.6
 Backimage[1][4][0][0][0][0]=images/cur/stone-attractions.1.5
 Backimage[1][4][0][0][0][1]=images/cur/stone-attractions-snow.1.5
 
+---
+Obj=building
+Name=NaturalHistoryMuseum
+copyright=wlindley
+Type=mon
+population_and_visitor_demand_capacity=125
+employment_capacity=70
+mail_demand=50
+class_proportion[0]=10
+class_proportion[1]=20
+class_proportion[2]=20
+class_proportion[3]=25
+class_proportion[4]=25
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=20
+class_proportion_jobs[2]=30
+class_proportion_jobs[3]=25
+class_proportion_jobs[4]=20
+intro_year=1881
+intro_month=1
+needs_ground=1
+chance=20
+dims=5,2,2
+
+# north row, west to east
+Backimage[0][0][0][0][0][0]=images/cur/stone-attractions.4.2
+Backimage[0][0][1][0][0][0]=images/cur/stone-attractions.4.2,-12,-6
+Backimage[0][0][2][0][0][0]=images/cur/stone-attractions.4.2
+Backimage[0][0][3][0][0][0]=images/cur/stone-attractions.4.2,-12,-6
+Backimage[0][0][4][0][0][0]=images/cur/stone-attractions.4.2
+# southernmost row, west to east
+Backimage[0][1][0][0][0][0]=images/cur/stone-attractions.2.6
+Backimage[0][1][0][1][0][0]=images/cur/stone-attractions.1.7
+Backimage[0][1][1][0][0][0]=images/cur/stone-attractions.4.3
+Backimage[0][1][2][0][0][0]=images/cur/stone-attractions.4.6
+Backimage[0][1][2][1][0][0]=images/cur/stone-attractions.3.7
+Backimage[0][1][3][0][0][0]=images/cur/stone-attractions.4.3
+Backimage[0][1][4][0][0][0]=images/cur/stone-attractions.2.6
+Backimage[0][1][4][1][0][0]=images/cur/stone-attractions.1.7
+
+# East-facing rotation
+# Eastern face, south to north
+Backimage[1][4][1][0][0][0]=images/cur/stone-attractions.2.6
+Backimage[1][4][1][1][0][0]=images/cur/stone-attractions.1.7
+Backimage[1][3][1][0][0][0]=images/cur/stone-attractions.4.2
+Backimage[1][2][1][0][0][0]=images/cur/stone-attractions.4.6
+Backimage[1][2][1][1][0][0]=images/cur/stone-attractions.3.7
+Backimage[1][1][1][0][0][0]=images/cur/stone-attractions.4.2
+Backimage[1][0][1][0][0][0]=images/cur/stone-attractions.2.6
+Backimage[1][0][1][1][0][0]=images/cur/stone-attractions.1.7
+# Rear (west) face, south to north
+Backimage[1][4][0][0][0][0]=images/cur/stone-attractions.4.3
+Backimage[1][3][0][0][0][0]=images/cur/stone-attractions.4.3,12,6
+Backimage[1][2][0][0][0][0]=images/cur/stone-attractions.4.3
+Backimage[1][1][0][0][0][0]=images/cur/stone-attractions.4.3,12,6
+Backimage[1][0][0][0][0][0]=images/cur/stone-attractions.4.3
+
+# Snow images.
+# north row, west to east
+Backimage[0][0][0][0][0][1]=images/cur/stone-attractions-snow.4.2
+Backimage[0][0][1][0][0][1]=images/cur/stone-attractions-snow.4.2,-12,-6
+Backimage[0][0][2][0][0][1]=images/cur/stone-attractions-snow.4.2
+Backimage[0][0][3][0][0][1]=images/cur/stone-attractions-snow.4.2,-12,-6
+Backimage[0][0][4][0][0][1]=images/cur/stone-attractions-snow.4.2
+# southernmost row, west to east
+Backimage[0][1][0][0][0][1]=images/cur/stone-attractions-snow.2.6
+Backimage[0][1][0][1][0][1]=images/cur/stone-attractions-snow.1.7
+Backimage[0][1][1][0][0][1]=images/cur/stone-attractions-snow.4.3
+Backimage[0][1][2][0][0][1]=images/cur/stone-attractions-snow.4.6
+Backimage[0][1][2][1][0][1]=images/cur/stone-attractions-snow.3.7
+Backimage[0][1][3][0][0][1]=images/cur/stone-attractions-snow.4.3
+Backimage[0][1][4][0][0][1]=images/cur/stone-attractions-snow.2.6
+Backimage[0][1][4][1][0][1]=images/cur/stone-attractions-snow.1.7
+
+# East-facing rotation
+# Eastern face, south to north
+Backimage[1][4][1][0][0][1]=images/cur/stone-attractions-snow.2.6
+Backimage[1][4][1][1][0][1]=images/cur/stone-attractions-snow.1.7
+Backimage[1][3][1][0][0][1]=images/cur/stone-attractions-snow.4.2
+Backimage[1][2][1][0][0][1]=images/cur/stone-attractions-snow.4.6
+Backimage[1][2][1][1][0][1]=images/cur/stone-attractions-snow.3.7
+Backimage[1][1][1][0][0][1]=images/cur/stone-attractions-snow.4.2
+Backimage[1][0][1][0][0][1]=images/cur/stone-attractions-snow.2.6
+Backimage[1][0][1][1][0][1]=images/cur/stone-attractions-snow.1.7
+# Rear (west) face, south to north
+Backimage[1][4][0][0][0][1]=images/cur/stone-attractions-snow.4.3
+Backimage[1][3][0][0][0][1]=images/cur/stone-attractions-snow.4.3,12,6
+Backimage[1][2][0][0][0][1]=images/cur/stone-attractions-snow.4.3
+Backimage[1][1][0][0][0][1]=images/cur/stone-attractions-snow.4.3,12,6
+Backimage[1][0][0][0][0][1]=images/cur/stone-attractions-snow.4.3
+
+------

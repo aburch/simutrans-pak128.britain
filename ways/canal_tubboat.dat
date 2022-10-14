@@ -12,6 +12,7 @@ max_altitude=18
 max_vehicles_on_tile=1
 intro_year=1761
 intro_month=1
+deck_mask=0x08000000
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[3]=3 # Tub

@@ -4,7 +4,7 @@ copyright=Milko
 waytype=air
 engine_type=turbine
 speed=437
-power=1193
+power=2386
 tractive_effort=10
 freight=Passagiere
 #payload 5.25t
@@ -26,6 +26,8 @@ comfort[2]=112
 min_loading_time=900
 max_loading_time=900
 catering_level=2
+
+air_resistance=45
 
 # @ ISA (sea level, 0Centigrades), Runway Dry
 #minimum_runway_length=1755

@@ -2,8 +2,8 @@ Obj=bridge
 name=TubularBoxGirder
 copyright=AEO/James
 waytype=track
-cost=330000
-maintenance=1250
+cost=1980000
+maintenance=100
 intro_year=1850
 intro_month=1
 retire_year=1910
@@ -44,8 +44,8 @@ BackRamp[W][0]=images/Bridge_rail_boxtubular.0.7
 BackRamp[S][0]=images/Bridge_rail_boxtubular.0.8
 BackRamp[E][0]=images/Bridge_rail_boxtubular.0.9
 
-backPillar[S][0]=images/Bridge_rail_boxtubular.4.5
-backPillar[W][0]=images/Bridge_rail_boxtubular.4.4
+#backPillar[S][0]=images/Bridge_rail_boxtubular.4.5
+#backPillar[W][0]=images/Bridge_rail_boxtubular.4.4
 
 BackStart2[N][0]=images/Bridge_rail_boxtubular.2.0,0,32
 BackStart2[E][0]=images/Bridge_rail_boxtubular.2.1,0,32
@@ -70,8 +70,8 @@ BackRamp2[W][0]=images/Bridge_rail_boxtubular.2.7
 BackRamp2[S][0]=images/Bridge_rail_boxtubular.2.8
 BackRamp2[E][0]=images/Bridge_rail_boxtubular.2.9
 
-backPillar2[S][0]=images/Bridge_rail_boxtubular.4.7
-backPillar2[W][0]=images/Bridge_rail_boxtubular.4.6
+#backPillar2[S][0]=images/Bridge_rail_boxtubular.4.7
+#backPillar2[W][0]=images/Bridge_rail_boxtubular.4.6
 
 BackStart[N][1]=images/Bridge_rail_boxtubular.5.0,0,32
 BackStart[E][1]=images/Bridge_rail_boxtubular.5.1,0,32
@@ -96,8 +96,8 @@ BackRamp[W][1]=images/Bridge_rail_boxtubular.5.7
 BackRamp[S][1]=images/Bridge_rail_boxtubular.5.8
 BackRamp[E][1]=images/Bridge_rail_boxtubular.5.9
 
-backPillar[S][1]=images/Bridge_rail_boxtubular.9.5
-backPillar[W][1]=images/Bridge_rail_boxtubular.9.4
+#backPillar[S][1]=images/Bridge_rail_boxtubular.9.5
+#backPillar[W][1]=images/Bridge_rail_boxtubular.9.4
 
 BackStart2[N][1]=images/Bridge_rail_boxtubular.7.0,0,32
 BackStart2[E][1]=images/Bridge_rail_boxtubular.7.1,0,32
@@ -122,6 +122,6 @@ BackRamp2[W][1]=images/Bridge_rail_boxtubular.7.7
 BackRamp2[S][1]=images/Bridge_rail_boxtubular.7.8
 BackRamp2[E][1]=images/Bridge_rail_boxtubular.7.9
 
-backPillar2[S][1]=images/Bridge_rail_boxtubular.9.7
-backPillar2[W][1]=images/Bridge_rail_boxtubular.9.6
+#backPillar2[S][1]=images/Bridge_rail_boxtubular.9.7
+#backPillar2[W][1]=images/Bridge_rail_boxtubular.9.6
 --------------------------------------------------

@@ -1,0 +1,72 @@
+# http://web.archive.org/web/20210413170315/http://www.countrybus.org/Trident/TA_Metroline/TA_Met.htm
+# This is the 9.9m two entrance type
+obj=vehicle
+name=dennis-trident
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# Guessed
+payload=69
+# Guessed
+overcrowded_capacity=17
+speed=80
+# 250hp: https://en.wikipedia.org/wiki/Dennis_Trident_2
+power=187
+tractive_effort=33
+gear=50
+# Guessed
+weight=15.2
+axles=2
+length=7
+cost=5000000
+runningcost=48
+fixed_cost=8271
+intro_year=1997
+intro_month=4
+retire_year=2005
+retire_month=6
+is_tall=1
+sound=ff3170-dennis-trident.wav
+
+comfort=43
+# Double entrance pay driver (low floor): 2.8 seconds per passenger
+min_loading_time=5
+max_loading_time=193
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=London-Buses
+liverytype[1]=Metroline-blue-skirt
+liverytype[2]=LOROL
+
+EmptyImage[E][0]=./images/dennis-trident--london-buses_E.0.0,-33,14
+EmptyImage[SE][0]=./images/dennis-trident--london-buses_SE.0.0,-13,0
+EmptyImage[S][0]=./images/dennis-trident--london-buses_S.0.0,4,0
+EmptyImage[SW][0]=./images/dennis-trident--london-buses_SW.0.0,-8,10
+EmptyImage[W][0]=./images/dennis-trident--london-buses_W.0.0,4,5
+EmptyImage[NW][0]=./images/dennis-trident--london-buses_NW.0.0,12,10
+EmptyImage[N][0]=./images/dennis-trident--london-buses_N.0.0,0,33
+EmptyImage[NE][0]=./images/dennis-trident--london-buses_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/dennis-trident--metroline_E.0.0,-33,14
+EmptyImage[SE][1]=./images/dennis-trident--metroline_SE.0.0,-13,0
+EmptyImage[S][1]=./images/dennis-trident--metroline_S.0.0,4,0
+EmptyImage[SW][1]=./images/dennis-trident--metroline_SW.0.0,-8,10
+EmptyImage[W][1]=./images/dennis-trident--metroline_W.0.0,4,5
+EmptyImage[NW][1]=./images/dennis-trident--metroline_NW.0.0,12,10
+EmptyImage[N][1]=./images/dennis-trident--metroline_N.0.0,0,33
+EmptyImage[NE][1]=./images/dennis-trident--metroline_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/dennis-trident-tfl_E.0.0,-33,14
+EmptyImage[SE][2]=./images/dennis-trident-tfl_SE.0.0,-13,0
+EmptyImage[S][2]=./images/dennis-trident-tfl_S.0.0,4,0
+EmptyImage[SW][2]=./images/dennis-trident-tfl_SW.0.0,-8,10
+EmptyImage[W][2]=./images/dennis-trident-tfl_W.0.0,4,5
+EmptyImage[NW][2]=./images/dennis-trident-tfl_NW.0.0,12,10
+EmptyImage[N][2]=./images/dennis-trident-tfl_N.0.0,0,33
+EmptyImage[NE][2]=./images/dennis-trident-tfl_NE.0.0,0,24
+
+

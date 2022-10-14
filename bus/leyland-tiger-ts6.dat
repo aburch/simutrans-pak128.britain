@@ -1,0 +1,59 @@
+# See Phillips p. 46
+# E36 7.6l 6 cylinder engine
+# 'Bus version
+obj=vehicle
+name=leyland-tiger-ts6
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+# Guessed - one more row of seats compared to its predecessors
+payload=34
+overcrowded_capacity=2
+speed=50
+# Power: 96bhp (Phillips p. 36)
+power=72
+tractive_effort=9
+gear=50
+# Guessed
+weight=7.0
+axles=2
+length=5
+cost=500000
+runningcost=72
+fixed_cost=7000
+intro_year=1933
+intro_month=5
+retire_year=1937
+retire_month=3
+is_tall=0
+sound=gareth-bull-leyland-titan-td1.wav
+
+comfort=42
+# Front platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=68
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Ribble-standard
+
+EmptyImage[E][0]=./images/leyland-tiger-ts6-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-tiger-ts6-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-tiger-ts6-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/leyland-tiger-ts6-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-tiger-ts6-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-tiger-ts6-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-tiger-ts6-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-tiger-ts6-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-tiger-ts6-ribble_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-tiger-ts6-ribble_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-tiger-ts6-ribble_S.0.0,0,0
+EmptyImage[SW][1]=./images/leyland-tiger-ts6-ribble_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-tiger-ts6-ribble_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-tiger-ts6-ribble_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-tiger-ts6-ribble_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-tiger-ts6-ribble_NE.0.0,0,24

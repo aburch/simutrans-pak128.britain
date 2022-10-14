@@ -12,6 +12,7 @@ max_altitude=8
 max_vehicles_on_tile=1
 intro_year=1750
 intro_month=1
+deck_mask=0x20000000
 
 way_constraint_permissive[4]=4
 way_constraint_prohibitive[2]=2

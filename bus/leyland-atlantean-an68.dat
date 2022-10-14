@@ -6,7 +6,7 @@ waytype=road
 engine_type=diesel
 smoke=Diesel-light
 freight=Passagiere
-payload=75
+payload=85
 overcrowded_capacity=12
 speed=75
 # Leyland O.680 engine
@@ -29,7 +29,7 @@ sound=leyland-atlantean-an68-ff3170.wav
 comfort=43
 min_loading_time=5
 # Single entrance pay driver: 4.0 seconds per passenger
-max_loading_time=300
+max_loading_time=340
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
@@ -183,8 +183,8 @@ copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
 freight=Passagiere
-payload=74
-overcrowded_capacity=10
+payload=81
+overcrowded_capacity=13
 speed=87
 # Leyland O.680 engine
 power=114
@@ -203,10 +203,10 @@ retire_month=6
 is_tall=1
 sound=leyland-atlantean-an68-ff3170.wav
 
-comfort=41
+comfort=43
 min_loading_time=5
 # Twin entrance pay driver: 3.0 seconds per passenger
-max_loading_time=222
+max_loading_time=243
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

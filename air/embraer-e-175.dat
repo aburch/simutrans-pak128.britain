@@ -1,0 +1,42 @@
+# https://en.wikipedia.org/wiki/Embraer_E-Jet_family
+obj=vehicle
+name=embraer-e-175
+copyright=Dre737
+# https://3dwarehouse.sketchup.com/model/70a7a06a-da1f-4dde-b843-1dc097cfc297/Flybe-Embraer-ERJ-175
+waytype=air
+engine_type=turbine
+speed=797
+power=11340
+tractive_effort=63
+freight=Passagiere
+payload=78
+weight=21.9
+#length=8
+cost=53280000
+runningcost=46
+fixed_cost=87000
+intro_year=2004
+intro_month=3
+# Single class
+comfort=95
+min_loading_time=2320
+max_loading_time=2320
+catering_level=1
+
+minimum_runway_length=2244
+
+range=4074
+
+sound=bigpickle51-jet-takeoff.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/embraer-erj-175-flybe_E.0.0
+EmptyImage[SE]=./images/embraer-erj-175-flybe_SE.0.0
+EmptyImage[S]=./images/embraer-erj-175-flybe_S.0.0
+EmptyImage[SW]=./images/embraer-erj-175-flybe_SW.0.0
+EmptyImage[W]=./images/embraer-erj-175-flybe_W.0.0
+EmptyImage[NW]=./images/embraer-erj-175-flybe_NW.0.0
+EmptyImage[N]=./images/embraer-erj-175-flybe_N.0.0
+EmptyImage[NE]=./images/embraer-erj-175-flybe_NE.0.0

@@ -2,17 +2,17 @@ Obj=bridge
 name=BeamBridge
 copyright=AEO/James
 waytype=track
-cost=520000
+cost=3120000
 intro_year=1881
 intro_month=11
 # Does not retire, as is useful low cost
 # bridge for latter day light rail
 max_weight=280
-maintenance=1000
+maintenance=80
 topspeed=120
 max_length=8
 max_height=4
-pillar_distance=2
+#pillar_distance=2
 
 has_own_way_graphics=1
 
@@ -42,8 +42,8 @@ BackRamp[W][0]=images/Bridge_rail_beam_hvy.0.7
 BackRamp[S][0]=images/Bridge_rail_beam_hvy.0.8
 BackRamp[E][0]=images/Bridge_rail_beam_hvy.0.9
 
-backPillar[S][0]=images/Bridge_rail_beam_hvy.4.3
-backPillar[W][0]=images/Bridge_rail_beam_hvy.4.2
+#backPillar[S][0]=images/Bridge_rail_beam_hvy.4.3
+#backPillar[W][0]=images/Bridge_rail_beam_hvy.4.2
 
 BackStart2[N][0]=images/Bridge_rail_beam_hvy.2.0,0,32
 BackStart2[E][0]=images/Bridge_rail_beam_hvy.2.1,0,32
@@ -68,8 +68,8 @@ BackRamp2[W][0]=images/Bridge_rail_beam_hvy.2.7
 BackRamp2[S][0]=images/Bridge_rail_beam_hvy.2.8
 BackRamp2[E][0]=images/Bridge_rail_beam_hvy.2.9
 
-backPillar2[S][0]=images/Bridge_rail_beam_hvy.4.5
-backPillar2[W][0]=images/Bridge_rail_beam_hvy.4.4
+#backPillar2[S][0]=images/Bridge_rail_beam_hvy.4.5
+#backPillar2[W][0]=images/Bridge_rail_beam_hvy.4.4
 
 BackStart[N][1]=images/Bridge_rail_beam_hvy.5.0,0,32
 BackStart[E][1]=images/Bridge_rail_beam_hvy.5.1,0,32
@@ -94,8 +94,8 @@ BackRamp[W][1]=images/Bridge_rail_beam_hvy.5.7
 BackRamp[S][1]=images/Bridge_rail_beam_hvy.5.8
 BackRamp[E][1]=images/Bridge_rail_beam_hvy.5.9
 
-backPillar[S][1]=images/Bridge_rail_beam_hvy.9.3
-backPillar[W][1]=images/Bridge_rail_beam_hvy.9.2
+#backPillar[S][1]=images/Bridge_rail_beam_hvy.9.3
+#backPillar[W][1]=images/Bridge_rail_beam_hvy.9.2
 
 BackStart2[N][1]=images/Bridge_rail_beam_hvy.7.0,0,32
 BackStart2[E][1]=images/Bridge_rail_beam_hvy.7.1,0,32
@@ -120,7 +120,7 @@ BackRamp2[W][1]=images/Bridge_rail_beam_hvy.7.7
 BackRamp2[S][1]=images/Bridge_rail_beam_hvy.7.8
 BackRamp2[E][1]=images/Bridge_rail_beam_hvy.7.9
 
-backPillar2[S][1]=images/Bridge_rail_beam_hvy.9.5
-backPillar2[W][1]=images/Bridge_rail_beam_hvy.9.4
+#backPillar2[S][1]=images/Bridge_rail_beam_hvy.9.5
+#backPillar2[W][1]=images/Bridge_rail_beam_hvy.9.4
 
 ----

@@ -30,6 +30,7 @@ bidirectional=0
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=22
 max_loading_time=80
@@ -92,6 +93,7 @@ bidirectional=1
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=22
 max_loading_time=80
@@ -157,6 +159,7 @@ sound=lul-1938-stock-ff3170.wav
 way_constraint_prohibitive[1]=1
 way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
 min_loading_time=22
 max_loading_time=80

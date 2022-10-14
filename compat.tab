@@ -1258,6 +1258,8 @@ RM-325Middle(RM)
 BR-325Middle
 RM-325Rear(RM)
 BR-325Rear
+BR-321(motor)
+BR-321(trailer)
 #
 ############# Variant names for electrification in old Experimental ##############
 DCRailCatenaryCombined
@@ -1633,6 +1635,8 @@ LondonTaxi-Lanchester
 FordPrefectEarly(Black)
 McNamaraDennisVanPost
 dennis-15cwt-van-post
+leyland-titan-rtw
+leyland-titan-pd2-3
 ################################ Industry amendments ##########################
 GrainMill1840
 GrainMill1820
@@ -1719,3 +1723,8 @@ narrowgauge-horse-irish-draught-double
 narrowgauge-horse-irish-draught-single
 narrowgauge-horse-shire-double
 narrowgauge-horse-shire-single
+#################################### Modern coach name consistency fix ##############################
+plaxton-premiere
+volvo-b10m-coach
+PlaxtonParagon
+volvo-b12m-coach

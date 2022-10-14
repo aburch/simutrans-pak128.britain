@@ -10,6 +10,7 @@ intro_year=1962
 intro_month=7
 # 4 747-200s every hour for 30 game years
 wear_capacity=2695680000
+deck_mask=0x04000000
 
 icon=> ./images/concrete-runway.1.3
 cursor=./images/concrete-runway.1.4

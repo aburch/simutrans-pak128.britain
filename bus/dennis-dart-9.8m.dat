@@ -29,7 +29,7 @@ sound=the-bloke33-dennis-dart-modern.wav
 comfort=39
 # Single door pay driver: 4.0 seconds per passenger
 min_loading_time=5
-max_loading_time=460
+max_loading_time=160
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none

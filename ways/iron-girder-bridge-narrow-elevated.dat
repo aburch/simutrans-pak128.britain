@@ -2,12 +2,13 @@ Obj=way
 Name=IronGirderElevatedNarrow
 waytype=narrowgauge_track
 system_type=1
-intro_year=1860
+intro_year=1600
+retire_year=1600
 topspeed=55
-cost=200000
+cost=1904000
 # Wrought iron narrow
 way_only_cost=9500
-maintenance=200
+maintenance=1269
 max_weight=120
 upgrade_group=4
 wear_capacity=95000000
