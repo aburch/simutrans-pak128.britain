@@ -7,19 +7,20 @@ freight=Passagiere
 # See "Old Trolleybuses" (David Kaye) p. 4
 payload=28
 overcrowded_capacity=2
-speed=37
+speed=32
 power=30
-tractive_effort=7
+tractive_effort=6
 gear=80
 weight=3.7
 axles=2
 way_wear_factor=166
+# Cost £725 in 1911
 cost=66500
 runningcost=10
 fixed_cost=3520
 intro_year=1911
 intro_month=6
-retire_year=1921
+retire_year=1915
 retire_month=1
 is_tall=0
 sound=androo4519-btu9613t.wav2
