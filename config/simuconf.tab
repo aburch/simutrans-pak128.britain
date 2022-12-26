@@ -2862,3 +2862,16 @@ livery[112][0] = Hoverlloyd-Standard
 intro_year[112][0] = 1966
 intro_month[112][0] = 4
 
+livery_scheme[113] = Teesside
+# End date guessed
+retire_year[113] = 1986
+retire_month[113] = 9
+livery[113][0] = Teesside-standard
+intro_year[113][0] = 1919
+intro_month[113][0] = 4
+livery[113][1] = Teesside-municipal-transport
+# Livery adopted in 1967: https://en.wikipedia.org/wiki/County_Borough_of_Teesside#Teesside_Municipal_Transport
+intro_year[113][1] = 1967
+intro_month[113][1] = 4
+
+
