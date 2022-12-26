@@ -10,10 +10,12 @@ speed=35
 power=26
 tractive_effort=7
 gear=80
-weight=6.0
+# Guessed
+weight=5.7
 axles=2
 way_wear_factor=276
 cost=71000
+# 1.875d/mile in 1921
 runningcost=10
 fixed_cost=3950
 intro_year=1921
