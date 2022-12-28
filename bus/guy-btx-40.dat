@@ -4,7 +4,7 @@ copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=electric
 freight=Passagiere
-payload=40
+payload=37
 overcrowded_capacity=2
 speed=48
 power=45
@@ -26,7 +26,7 @@ sound=androo4519-btu9613t.wav2
 comfort=43
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
-max_loading_time=80
+max_loading_time=74
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
