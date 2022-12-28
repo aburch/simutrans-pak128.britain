@@ -35,6 +35,8 @@ Constraint[Next][0]=none
 liverytype[0]=Bradford-standard
 liverytype[1]=Teesside-standard
 liverytype[2]=Birmingham-Corporation
+liverytype[3]=LUT-vermillion
+liverytype[4]=LT
 
 EmptyImage[E][0]=./images/ee-a-type-bradford_E.0.0,-33,14
 EmptyImage[SE][0]=./images/ee-a-type-bradford_SE.0.0,-13,0
@@ -62,3 +64,21 @@ EmptyImage[W][2]=./images/ee-a-type-birmingham_W.0.0,4,5
 EmptyImage[NW][2]=./images/ee-a-type-birmingham_NW.0.0,12,10
 EmptyImage[N][2]=./images/ee-a-type-birmingham_N.0.0,0,33
 EmptyImage[NE][2]=./images/ee-a-type-birmingham_NE.0.0,0,24
+
+EmptyImage[E][3]=./images/ee-a-type-lut_E.0.0,-33,14
+EmptyImage[SE][3]=./images/ee-a-type-lut_SE.0.0,-13,0
+EmptyImage[S][3]=./images/ee-a-type-lut_S.0.0,0,0
+EmptyImage[SW][3]=./images/ee-a-type-lut_SW.0.0,-8,10
+EmptyImage[W][3]=./images/ee-a-type-lut_W.0.0,4,5
+EmptyImage[NW][3]=./images/ee-a-type-lut_NW.0.0,12,10
+EmptyImage[N][3]=./images/ee-a-type-lut_N.0.0,0,33
+EmptyImage[NE][3]=./images/ee-a-type-lut_NE.0.0,0,24
+
+EmptyImage[E][4]=./images/ee-a-type-lt_E.0.0,-33,14
+EmptyImage[SE][4]=./images/ee-a-type-lt_SE.0.0,-13,0
+EmptyImage[S][4]=./images/ee-a-type-lt_S.0.0,0,0
+EmptyImage[SW][4]=./images/ee-a-type-lt_SW.0.0,-8,10
+EmptyImage[W][4]=./images/ee-a-type-lt_W.0.0,4,5
+EmptyImage[NW][4]=./images/ee-a-type-lt_NW.0.0,12,10
+EmptyImage[N][4]=./images/ee-a-type-lt_N.0.0,0,33
+EmptyImage[NE][4]=./images/ee-a-type-lt_NE.0.0,0,24

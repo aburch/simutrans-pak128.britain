@@ -34,6 +34,7 @@ Constraint[Next][0]=none
 liverytype[0]=Bradford-standard
 liverytype[1]=Teesside-standard
 liverytype[2]=Birmingham-Corporation
+liverytype[3]=LUT-vermillion
 
 EmptyImage[E][0]=./images/ret-lf30-bradford_E.0.0,-33,14
 EmptyImage[SE][0]=./images/ret-lf30-bradford_SE.0.0,-13,0
@@ -61,3 +62,12 @@ EmptyImage[W][2]=./images/ret-lf30-birmingham_W.0.0,4,5
 EmptyImage[NW][2]=./images/ret-lf30-birmingham_NW.0.0,12,10
 EmptyImage[N][2]=./images/ret-lf30-birmingham_N.0.0,0,33
 EmptyImage[NE][2]=./images/ret-lf30-birmingham_NE.0.0,0,24
+
+EmptyImage[E][3]=./images/ret-lf30-lut_E.0.0,-33,14
+EmptyImage[SE][3]=./images/ret-lf30-lut_SE.0.0,-13,0
+EmptyImage[S][3]=./images/ret-lf30-lut_S.0.0,0,0
+EmptyImage[SW][3]=./images/ret-lf30-lut_SW.0.0,-8,10
+EmptyImage[W][3]=./images/ret-lf30-lut_W.0.0,4,5
+EmptyImage[NW][3]=./images/ret-lf30-lut_NW.0.0,12,10
+EmptyImage[N][3]=./images/ret-lf30-lut_N.0.0,0,33
+EmptyImage[NE][3]=./images/ret-lf30-lut_NE.0.0,0,24

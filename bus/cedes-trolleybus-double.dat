@@ -34,6 +34,7 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
 liverytype[0]=Bradford-standard
+liverytype[1]=LUT-vermillion
 
 EmptyImage[E][0]=./images/cedes-trolley-double-bradford_E.0.0,-33,14
 EmptyImage[SE][0]=./images/cedes-trolley-double-bradford_SE.0.0,-13,0
@@ -52,3 +53,21 @@ FreightImage[W][0]=./images/cedes-trolley-double-bradford-loaded_W.0.0,4,5
 FreightImage[NW][0]=./images/cedes-trolley-double-bradford-loaded_NW.0.0,12,10
 FreightImage[N][0]=./images/cedes-trolley-double-bradford-loaded_N.0.0,0,33
 FreightImage[NE][0]=./images/cedes-trolley-double-bradford-loaded_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/cedes-trolley-double-lut_E.0.0,-33,14
+EmptyImage[SE][1]=./images/cedes-trolley-double-lut_SE.0.0,-13,0
+EmptyImage[S][1]=./images/cedes-trolley-double-lut_S.0.0,0,0
+EmptyImage[SW][1]=./images/cedes-trolley-double-lut_SW.0.0,-8,10
+EmptyImage[W][1]=./images/cedes-trolley-double-lut_W.0.0,4,5
+EmptyImage[NW][1]=./images/cedes-trolley-double-lut_NW.0.0,12,10
+EmptyImage[N][1]=./images/cedes-trolley-double-lut_N.0.0,0,33
+EmptyImage[NE][1]=./images/cedes-trolley-double-lut_NE.0.0,0,24
+
+FreightImage[E][1]=./images/cedes-trolley-double-lut-loaded_E.0.0,-33,14
+FreightImage[SE][1]=./images/cedes-trolley-double-lut-loaded_SE.0.0,-13,0
+FreightImage[S][1]=./images/cedes-trolley-double-lut-loaded_S.0.0,4,0
+FreightImage[SW][1]=./images/cedes-trolley-double-lut-loaded_SW.0.0,-8,10
+FreightImage[W][1]=./images/cedes-trolley-double-lut-loaded_W.0.0,4,5
+FreightImage[NW][1]=./images/cedes-trolley-double-lut-loaded_NW.0.0,12,10
+FreightImage[N][1]=./images/cedes-trolley-double-lut-loaded_N.0.0,0,33
+FreightImage[NE][1]=./images/cedes-trolley-double-lut-loaded_NE.0.0,0,24

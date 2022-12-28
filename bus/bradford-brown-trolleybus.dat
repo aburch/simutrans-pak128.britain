@@ -33,6 +33,7 @@ Constraint[Next][0]=none
 
 liverytype[0]=Bradford-standard
 liverytype[1]=Teesside-standard
+liverytype[2]=LUT-vermillion
 
 EmptyImage[E][0]=./images/bradford-brown-trolleybus-bradford_E.0.0,-33,14
 EmptyImage[SE][0]=./images/bradford-brown-trolleybus-bradford_SE.0.0,-13,0
@@ -51,3 +52,12 @@ EmptyImage[W][1]=./images/bradford-brown-trolleybus-teesside_W.0.0,4,5
 EmptyImage[NW][1]=./images/bradford-brown-trolleybus-teesside_NW.0.0,12,10
 EmptyImage[N][1]=./images/bradford-brown-trolleybus-teesside_N.0.0,0,33
 EmptyImage[NE][1]=./images/bradford-brown-trolleybus-teesside_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/bradford-brown-trolleybus-lut_E.0.0,-33,14
+EmptyImage[SE][2]=./images/bradford-brown-trolleybus-lut_SE.0.0,-13,0
+EmptyImage[S][2]=./images/bradford-brown-trolleybus-lut_S.0.0,0,0
+EmptyImage[SW][2]=./images/bradford-brown-trolleybus-lut_SW.0.0,-8,10
+EmptyImage[W][2]=./images/bradford-brown-trolleybus-lut_W.0.0,4,5
+EmptyImage[NW][2]=./images/bradford-brown-trolleybus-lut_NW.0.0,12,10
+EmptyImage[N][2]=./images/bradford-brown-trolleybus-lut_N.0.0,0,33
+EmptyImage[NE][2]=./images/bradford-brown-trolleybus-lut_NE.0.0,0,24
