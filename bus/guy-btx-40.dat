@@ -1,3 +1,5 @@
+# Number designation guessed (but incorrectly): actual capacity was 37, not 40. 
+# The en.tab entry has corrected this, but the base incorrect name remains.
 obj=vehicle
 name=guy-btx-40
 copyright=JamesPetts&JamesHood
@@ -13,7 +15,7 @@ gear=80
 # Guessed
 weight=5.2
 axles=3
-cost=94700
+cost=100500
 runningcost=27
 fixed_cost=4125
 intro_year=1928
