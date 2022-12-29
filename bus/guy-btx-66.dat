@@ -35,6 +35,8 @@ liverytype[1]=Teesside-standard
 liverytype[2]=Birmingham-Corporation
 liverytype[3]=LUT-vermillion
 liverytype[4]=LT
+liverytype[5]=LT-revised
+liverytype[6]=WW2-Austerity
 
 EmptyImage[E][0]=./images/guy-btx-66-bradford_E.0.0,-33,14
 EmptyImage[SE][0]=./images/guy-btx-66-bradford_SE.0.0,-13,0
@@ -80,3 +82,21 @@ EmptyImage[W][4]=./images/guy-btx-66-lt_W.0.0,4,5
 EmptyImage[NW][4]=./images/guy-btx-66-lt_NW.0.0,12,10
 EmptyImage[N][4]=./images/guy-btx-66-lt_N.0.0,0,33
 EmptyImage[NE][4]=./images/guy-btx-66-lt_NE.0.0,0,24
+
+EmptyImage[E][5]=./images/guy-btx-66-lt-revised_E.0.0,-33,14
+EmptyImage[SE][5]=./images/guy-btx-66-lt-revised_SE.0.0,-13,0
+EmptyImage[S][5]=./images/guy-btx-66-lt-revised_S.0.0,0,0
+EmptyImage[SW][5]=./images/guy-btx-66-lt-revised_SW.0.0,-8,10
+EmptyImage[W][5]=./images/guy-btx-66-lt-revised_W.0.0,4,5
+EmptyImage[NW][5]=./images/guy-btx-66-lt-revised_NW.0.0,12,10
+EmptyImage[N][5]=./images/guy-btx-66-lt-revised_N.0.0,0,33
+EmptyImage[NE][5]=./images/guy-btx-66-lt-revised_NE.0.0,0,24
+
+EmptyImage[E][6]=./images/guy-btx-66-austerity_E.0.0,-33,14
+EmptyImage[SE][6]=./images/guy-btx-66-austerity_SE.0.0,-13,0
+EmptyImage[S][6]=./images/guy-btx-66-austerity_S.0.0,0,0
+EmptyImage[SW][6]=./images/guy-btx-66-austerity_SW.0.0,-8,10
+EmptyImage[W][6]=./images/guy-btx-66-austerity_W.0.0,4,5
+EmptyImage[NW][6]=./images/guy-btx-66-austerity_NW.0.0,12,10
+EmptyImage[N][6]=./images/guy-btx-66-austerity_N.0.0,0,33
+EmptyImage[NE][6]=./images/guy-btx-66-austerity_NE.0.0,0,24
