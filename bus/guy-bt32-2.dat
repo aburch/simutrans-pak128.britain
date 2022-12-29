@@ -1,26 +1,28 @@
 obj=vehicle
-name=guy-bt32
+name=guy-bt32-2
 copyright=JamesPetts
 waytype=road
 engine_type=electric
 freight=Passagiere
 payload=32
 overcrowded_capacity=2
-speed=48
-# 60hp
-power=45
-tractive_effort=20
+# Capable of >40mph
+speed=64
+# 75hp
+power=56
+# 0-30 in 16 seconds
+tractive_effort=40
 gear=80
 # Guessed
 weight=4.8
 axles=2
-cost=89500
-runningcost=25
-fixed_cost=3925
-intro_year=1930
-intro_month=8
-retire_year=1940
-retire_month=1
+cost=100000
+runningcost=29
+fixed_cost=4000
+intro_year=1933
+intro_month=9
+retire_year=1944
+retire_month=7
 is_tall=0
 sound=androo4519-btu9613t.wav2
 
