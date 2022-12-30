@@ -7743,6 +7743,7 @@ pack-horse-long
 Pack horses (long goods)
 pack-horse-liquid
 Pack horses (bulk liquids)
+### Trolleybuses ###
 bradford-brown-trolleybus
 Bradford-Brown
 cedes-trolley-double
@@ -7792,9 +7793,13 @@ Karrier E6/III
 karrier-e6a
 Karrier E6A
 karrier-e4-single
-Karrier E4 (single deck)
+Karrier E4S
 karrier-e4
 Karrier E4
+karrier-e4-2
+Karrier E4/II
+karrier-w4
+Karrier W4
 A1Diddler
 AEC 663T/A1 "Diddler"
 aec-605
@@ -7819,6 +7824,7 @@ RoutemasterTrolleybus
 AEC Routemaster (trolleybus)
 DennisDominatorTrolley
 Dennis Dominator Electroline
+####
 CartBulk
 Cart (bulk goods)
 CartLong
