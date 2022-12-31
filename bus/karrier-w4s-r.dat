@@ -1,5 +1,5 @@
 obj=vehicle
-name=karrier-w4s
+name=karrier-w4s-r
 copyright=JamesPetts
 waytype=road
 engine_type=electric
@@ -14,18 +14,18 @@ gear=80
 weight=5.9
 axles=2
 cost=81100
+upgrade_cost=7000
 runningcost=33
-fixed_cost=6600
-intro_year=1943
-intro_month=2
-retire_year=1946
-retire_month=9
+fixed_cost=6750
+intro_year=1946
+intro_month=8
+retire_year=1950
+retire_month=12
 is_tall=0
 sound=androo4519-btu9613t.wav
-upgrade[0]=karrier-w4s-r
 
-# Wooden seats
-comfort=30
+# Relaxed utility specification with upholstered seats
+comfort=40
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=66
