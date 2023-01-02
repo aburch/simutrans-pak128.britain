@@ -7,13 +7,22 @@ freight=Passagiere
 payload=60
 overcrowded_capacity=2
 speed=48
-power=60
-tractive_effort=38
+# The Bradford versions had 80hp (60kW) motors,
+# but the London version had the more powerful 95hp
+# (71kW) motor. This is made as the London version
+# in order to distinguish it from the multitude of
+# other 60kW 2 axle double decker trolleybuses 
+# available in this period.
+power=71
+tractive_effort=47
 gear=80
 weight=6.7
 axles=2
-cost=101000
-runningcost=31
+# A similar trolleybus (albeit the Portsmouth, rather than the
+# London version, with a 50 seater body and a 80hp motor) cost 
+# £1,811-8-4 in 1934.
+cost=105000
+runningcost=35
 fixed_cost=9250
 intro_year=1934
 intro_month=5
