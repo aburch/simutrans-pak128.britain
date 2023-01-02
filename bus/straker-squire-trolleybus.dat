@@ -28,9 +28,9 @@ sound=androo4519-btu9613t.wav
 upgrade[0]=straker-squire-trolleybus-pneumatic
 
 comfort=32
-# Rear platform with conductor: 2.0 seconds per passenger
-min_loading_time=3
-max_loading_time=72
+# Single door with conductor: 2.5 seconds per passenger
+min_loading_time=5
+max_loading_time=90
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
