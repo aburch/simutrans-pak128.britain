@@ -1,36 +1,34 @@
-# http://web.archive.org/web/20070906023410/http://www.countrybus.org.uk:80/LT/LT4.html#bluebird
+# http://web.archive.org/web/20210411011756/http://www.countrybus.org/LT/LT.html
+# The early versions of these had petrol engines, upgraded to diesel from 1934 onwards.
 obj=vehicle
-name=aec-renown-lt-bluebird
+name=aec-renown-lt-bluebird-petrol
 copyright=JamesPetts&JamesHood
 waytype=road
-engine_type=diesel
-smoke=Diesel-light
+engine_type=petrol
 freight=Passagiere
 payload=60
 overcrowded_capacity=5
 speed=50
-# These had diesel engines
-# See the Flanders & Swann song for the power rating (97hp)
-# Confirmed here: http://webcache.googleusercontent.com/search?q=cache:zkrkIblLE7cJ:www.countrybus.org/LT/LT.html+&cd=8&hl=en&ct=clnk&gl=uk&client=firefox-b
-power=72
-tractive_effort=9
+# Assuming to be the same as the AEC STL, into which these engines were fitted later in life.
+power=62
+tractive_effort=7
 gear=50
 # Guessed
 weight=7.7
 axles=3
 length=6
-cost=726000
-upgrade_cost=145200
-runningcost=72
-fixed_cost=8378
-intro_year=1934
-intro_month=5
-retire_year=1942
-retire_month=8
+cost=702000
+runningcost=73
+fixed_cost=8978
+intro_year=1932
+intro_month=3
+retire_year=1935
+retire_month=1
 is_tall=1
-sound=richard-walker-aec-stl-diesel.wav
+sound=gareth-bull-leyland-titan-td1.wav
+upgrade[0]=aec-renown-lt-bluebird
 
-comfort=41
+comfort=42
 # Rear platform with conductor: 2.0 seconds per passenger
 min_loading_time=3
 max_loading_time=120
