@@ -5,8 +5,8 @@
 
 #der Ort wo sich makeobj befindet absolut
 #Absolute filepath to where makeobj is located
-!makeobj=C:\Users\James\Documents\Development\Simutrans\simutrans-experimental-sources\simutrans\makeobj.exe
+!makeobj=C:\Users\James E. Petts\Documents\Development\Simutrans\simutrans-extended-sources\simutrans\makeobj-extended.exe
 
 #der Ort wo die Dateien hinkopiert werden sollen absolut MIT / am Ende
 #You need to specify the location of the folder you want to build the pak in here
-!OUTPUT=./Pak128.Britain-Ex-0.9.0/
+!OUTPUT=../../simutrans-extended-sources/simutrans/Pak128.Britain-Ex/

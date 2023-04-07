@@ -1,0 +1,47 @@
+# http://web.archive.org/web/20161223145711/http://www.countrybus.org/T-regal/T7.htm
+obj=vehicle
+name=aec-regal-coach-10t10
+copyright=JamesPetts
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+payload=30
+overcrowded_capacity=0
+speed=70
+power=76
+tractive_effort=5
+gear=50
+# This 'bus in the London 'Bus Museum is marked on the body as being 6t 12cwt.
+weight=6.1
+axles=2
+length=5
+cost=401000
+runningcost=76
+fixed_cost=8209
+intro_year=1938
+intro_month=11
+retire_year=1948
+retire_month=4
+sound=richard-walker-aec-stl-diesel.wav
+
+comfort=76
+# Coach: 7.5 seconds per passenger
+min_loading_time=30
+max_loading_time=225
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Green-Line-Coaches
+
+EmptyImage[E][0]=./images/aec-regal-coach-10t10-greenline_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-regal-coach-10t10-greenline_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-regal-coach-10t10-greenline_S.0.0,4,0
+EmptyImage[SW][0]=./images/aec-regal-coach-10t10-greenline_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-regal-coach-10t10-greenline_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-regal-coach-10t10-greenline_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-regal-coach-10t10-greenline_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-regal-coach-10t10-greenline_NE.0.0,0,24
+
+

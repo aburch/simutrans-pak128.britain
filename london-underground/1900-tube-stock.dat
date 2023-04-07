@@ -4,7 +4,7 @@ engine_type=electric
 speed=50
 gear=80
 power=100
-tractive_effort=55
+tractive_effort=27
 length=8
 copyright=James
 intro_year=1903
@@ -13,25 +13,30 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=84
 
 weight=23
 axles=4
 cost=750000
 upgrade_price=250000
-runningcost=61
-sound=-1
+runningcost=60
+fixed_cost=6625
+sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=20
+min_loading_time=22
 max_loading_time=80
-comfort=53
+comfort[0]=0
+comfort[1]=53
 
 Constraint[Prev][0]=1903TubeStockRear
 Constraint[Prev][1]=none
@@ -59,14 +64,16 @@ retire_year=1923
 retire_month=5
 waytype=track
 freight=Passagiere
-payload=48
+payload[0]=0
+payload[1]=48
 overcrowded_capacity=120
 
 weight=15
 axles=4
 cost=250000
-runningcost=5
-sound=-1
+runningcost=0
+fixed_cost=298
+
 
 can_lead_from_rear=0
 bidirectional=1
@@ -75,11 +82,14 @@ upgrade[0]=1903TubeStockFront
 upgrade[1]=1903TubeStockRear
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=20
+min_loading_time=22
 max_loading_time=80
-comfort=53
+comfort[0]=0
+comfort[1]=53
 
 Constraint[Prev][0]=1903TubeStockFront
 Constraint[Prev][1]=1900TubeStockTrailer
@@ -106,7 +116,7 @@ engine_type=electric
 speed=50
 gear=80
 power=100
-tractive_effort=55
+tractive_effort=27
 length=8
 copyright=James
 intro_year=1903
@@ -115,25 +125,30 @@ retire_year=1923
 retire_month=1
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=84
 
 weight=23
 axles=4
 cost=750000
 upgrade_price=250000
-runningcost=61
-sound=-1
+runningcost=60
+fixed_cost=6625
+sound=lul-1938-stock-ff3170.wav
 
 can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=20
+min_loading_time=22
 max_loading_time=80
-comfort=53
+comfort[0]=0
+comfort[1]=53
 
 Constraint[Prev][0]=1900TubeStockTrailer
 

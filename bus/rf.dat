@@ -1,38 +1,76 @@
-# The RF single decker.
+# http://www.countrybus.org/rf/RF4.htm
 obj=vehicle
 name=RF
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
+smoke=Diesel-light
 freight=Passagiere
 payload=41
 overcrowded_capacity=5
-speed=64
+speed=56
 power=93
+tractive_effort=12
 gear=50
-weight=7
+weight=7.6
 axles=2
 length=6
 cost=1500000
-runningcost=180
-intro_year=1951
+runningcost=93
+fixed_cost=8781
+intro_year=1952
 intro_month=9
 retire_year=1970
 retire_month=8
+# TODO: Use a more authentic sound for this type.
+sound=video47-bristol-k.wav
 
 comfort=42
-min_loading_time=20
-max_loading_time=60
+# Single entrance with conductor but steep entrance: 2.2 seconds per passenger + 4 seconds
+# TODO: Add OMO version
+min_loading_time=4
+max_loading_time=94
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/rf.0.0
-EmptyImage[SE]=./images/rf.0.1
-EmptyImage[S]=./images/rf.0.2
-EmptyImage[SW]=./images/rf.0.3
-EmptyImage[W]=./images/rf.0.4
-EmptyImage[NW]=./images/rf.0.5
-EmptyImage[N]=./images/rf.0.6
-EmptyImage[NE]=./images/rf.0.7
+liverytype[0]=LT-revised
+liverytype[1]=LT-Green-revised
+liverytype[2]=London-Country-standard
+liverytype[3]=Leaf-Green
 
+EmptyImage[E][0]=./images/aec-rf-overall-red_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-rf-overall-red_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-rf-overall-red_S.0.0,0,0
+EmptyImage[SW][0]=./images/aec-rf-overall-red_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-rf-overall-red_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-rf-overall-red_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-rf-overall-red_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-rf-overall-red_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-rf-overall-green_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-rf-overall-green_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-rf-overall-green_S.0.0,4,0
+EmptyImage[SW][1]=./images/aec-rf-overall-green_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-rf-overall-green_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-rf-overall-green_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-rf-overall-green_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-rf-overall-green_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/aec-rf-london-country_E.0.0,-33,14
+EmptyImage[SE][2]=./images/aec-rf-london-country_SE.0.0,-13,0
+EmptyImage[S][2]=./images/aec-rf-london-country_S.0.0,0,0
+EmptyImage[SW][2]=./images/aec-rf-london-country_SW.0.0,-8,10
+EmptyImage[W][2]=./images/aec-rf-london-country_W.0.0,4,5
+EmptyImage[NW][2]=./images/aec-rf-london-country_NW.0.0,12,10
+EmptyImage[N][2]=./images/aec-rf-london-country_N.0.0,0,33
+EmptyImage[NE][2]=./images/aec-rf-london-country_NE.0.0,0,24
+
+EmptyImage[E][3]=./images/aec-rf-leaf-green_E.0.0,-33,14
+EmptyImage[SE][3]=./images/aec-rf-leaf-green_SE.0.0,-13,0
+EmptyImage[S][3]=./images/aec-rf-leaf-green_S.0.0,4,0
+EmptyImage[SW][3]=./images/aec-rf-leaf-green_SW.0.0,-8,10
+EmptyImage[W][3]=./images/aec-rf-leaf-green_W.0.0,4,5
+EmptyImage[NW][3]=./images/aec-rf-leaf-green_NW.0.0,12,10
+EmptyImage[N][3]=./images/aec-rf-leaf-green_N.0.0,0,33
+EmptyImage[NE][3]=./images/aec-rf-leaf-green_NE.0.0,0,24

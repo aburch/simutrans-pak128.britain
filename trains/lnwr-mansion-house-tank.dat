@@ -2,12 +2,12 @@ obj=vehicle
 name=LNWR-Mansion-House-tank
 engine_type=steam
 smoke=Steam
-speed=95
+speed=86
 # Extrapolated
-power=114
+power=172
 # Calculated from data from Ahrons, pp. 219-220
-# Loss factor set at 0.8
-tractive_effort=54
+# Loss factor set at 0.85
+tractive_effort=57
 copyright=James/jamespetts
 intro_year=1880
 intro_month=5
@@ -16,14 +16,15 @@ retire_month=4
 waytype=track
 freight=None
 payload=0
-length=7
+length=5
 
 # Weight taken from Ahrons p. 220
 axle_load=14
 weight=46
-cost=7800000
-runningcost=450
-sound=-1
+cost=4680000
+runningcost=99
+fixed_cost=27900
+sound=lwalker-br-4mt-tank.wav
 
 can_lead_from_rear=0
 bidirectional=1
@@ -32,29 +33,29 @@ liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 liverytype[2]=BR-Early
 
-EmptyImage[E][0]=./images/lnwr-mansion-house-tank_E.0
-EmptyImage[SE][0]=./images/lnwr-mansion-house-tank_SE.0
-EmptyImage[S][0]=./images/lnwr-mansion-house-tank_S.0
-EmptyImage[SW][0]=./images/lnwr-mansion-house-tank_SW.0
-EmptyImage[W][0]=./images/lnwr-mansion-house-tank_W.0
-EmptyImage[NW][0]=./images/lnwr-mansion-house-tank_NW.0
-EmptyImage[N][0]=./images/lnwr-mansion-house-tank_N.0
-EmptyImage[NE][0]=./images/lnwr-mansion-house-tank_NE.0
+EmptyImage[E][0]=./locomotives/lnwr-mansion-house-tank_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-mansion-house-tank_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-mansion-house-tank_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-mansion-house-tank_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-mansion-house-tank_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-mansion-house-tank_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-mansion-house-tank_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-mansion-house-tank_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-mansion-house-tank-lms_E.0
-EmptyImage[SE][1]=./images/lnwr-mansion-house-tank-lms_SE.0
-EmptyImage[S][1]=./images/lnwr-mansion-house-tank-lms_S.0
-EmptyImage[SW][1]=./images/lnwr-mansion-house-tank-lms_SW.0
-EmptyImage[W][1]=./images/lnwr-mansion-house-tank-lms_W.0
-EmptyImage[NW][1]=./images/lnwr-mansion-house-tank-lms_NW.0
-EmptyImage[N][1]=./images/lnwr-mansion-house-tank-lms_N.0
-EmptyImage[NE][1]=./images/lnwr-mansion-house-tank-lms_NE.0
+EmptyImage[E][1]=./locomotives/lnwr-mansion-house-tank-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-mansion-house-tank-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-mansion-house-tank-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-mansion-house-tank-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-mansion-house-tank-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-mansion-house-tank-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-mansion-house-tank-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-mansion-house-tank-lms_NE.0.0
 
-EmptyImage[E][2]=./images/lnwr-mansion-house-tank-br_E.0
-EmptyImage[SE][2]=./images/lnwr-mansion-house-tank-br_SE.0
-EmptyImage[S][2]=./images/lnwr-mansion-house-tank-br_S.0
-EmptyImage[SW][2]=./images/lnwr-mansion-house-tank-br_SW.0
-EmptyImage[W][2]=./images/lnwr-mansion-house-tank-br_W.0
-EmptyImage[NW][2]=./images/lnwr-mansion-house-tank-br_NW.0
-EmptyImage[N][2]=./images/lnwr-mansion-house-tank-br_N.0
-EmptyImage[NE][2]=./images/lnwr-mansion-house-tank-br_NE.0
+EmptyImage[E][2]=./locomotives/lnwr-mansion-house-tank-br_E.0.0
+EmptyImage[SE][2]=./locomotives/lnwr-mansion-house-tank-br_SE.0.0
+EmptyImage[S][2]=./locomotives/lnwr-mansion-house-tank-br_S.0.0
+EmptyImage[SW][2]=./locomotives/lnwr-mansion-house-tank-br_SW.0.0
+EmptyImage[W][2]=./locomotives/lnwr-mansion-house-tank-br_W.0.0
+EmptyImage[NW][2]=./locomotives/lnwr-mansion-house-tank-br_NW.0.0
+EmptyImage[N][2]=./locomotives/lnwr-mansion-house-tank-br_N.0.0
+EmptyImage[NE][2]=./locomotives/lnwr-mansion-house-tank-br_NE.0.0

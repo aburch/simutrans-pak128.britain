@@ -3,7 +3,7 @@ name=BR-507(front)
 engine_type=electric
 speed=120
 power=328
-tractive_effort=137
+tractive_effort=84
 gear=80
 copyright=Kieron
 intro_year=1978
@@ -12,22 +12,25 @@ retire_year=1982
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=56
 length=11
 
 weight=36
 axles=4
 cost=1120000
-runningcost=54
-sound=-1
+runningcost=49
+fixed_cost=6933
+sound=video47-class-508.wav
 
 can_lead_from_rear=1
 bidirectional=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-507(rear)
@@ -35,14 +38,26 @@ Constraint[Prev][1]=none
 
 Constraint[Next][0]=BR-507(centre1)
 
-EmptyImage[E]=./images/br-313-bg.0.0
-EmptyImage[SE]=./images/br-313-bg.0.1
-EmptyImage[S]=./images/br-313-bg.0.2
-EmptyImage[SW]=./images/br-313-bg.0.3
-EmptyImage[W]=./images/br-313-bg.0.4
-EmptyImage[NW]=./images/br-313-bg.0.5
-EmptyImage[N]=./images/br-313-bg.0.6
-EmptyImage[NE]=./images/br-313-bg.0.7
+liverytype[0]=BR-Blue
+liverytype[1]=NSE-Standard
+
+EmptyImage[E][0]=./railcars/br-313-a-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-313-a-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-313-a-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-313-a-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-313-a-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-313-a-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-313-a-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-313-a-bg_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-313-a-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-313-a-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-313-a-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-313-a-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-313-a-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-313-a-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-313-a-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-313-a-nse_NE.0.0
 
 ---
 
@@ -59,22 +74,24 @@ retire_year=1982
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=86
+payload[0]=0
+payload[1]=86
 overcrowded_capacity=64
 length=11
 
 weight=27
 axles=4
 cost=1120000
-runningcost=54
-sound=-1
+runningcost=0
+fixed_cost=1333
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-507(front)
@@ -82,16 +99,29 @@ Constraint[Prev][0]=BR-507(front)
 Constraint[Next][0]=BR-507(centre2)
 Constraint[Next][1]=BR-507(rear)
 
-EmptyImage[E]=./images/br-455-bg-2.0.0
-EmptyImage[SE]=./images/br-455-bg-2.0.1
-EmptyImage[S]=./images/br-455-bg-2.0.2
-EmptyImage[SW]=./images/br-455-bg-2.0.3
-EmptyImage[W]=./images/br-455-bg-2.0.4
-EmptyImage[NW]=./images/br-455-bg-2.0.5
-EmptyImage[N]=./images/br-455-bg-2.0.6
-EmptyImage[NE]=./images/br-455-bg-2.0.7
+liverytype[0]=BR-Blue
+liverytype[1]=NSE-Standard
+
+EmptyImage[E][0]=./railcars/br-507-trailer-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-507-trailer-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-507-trailer-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-507-trailer-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-507-trailer-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-507-trailer-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-507-trailer-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-507-trailer-bg_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-507-trailer-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-507-trailer-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-507-trailer-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-507-trailer-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-507-trailer-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-507-trailer-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-507-trailer-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-507-trailer-nse_NE.0.0
 
 ---
+
 obj=vehicle
 name=BR-507(centre2)
 engine_type=electric
@@ -105,22 +135,24 @@ retire_year=1982
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=86
+payload[0]=0
+payload[1]=86
 overcrowded_capacity=64
 length=11
 
 weight=27
 axles=4
 cost=1120000
-runningcost=54
-sound=-1
+runningcost=0
+fixed_cost=1333
 
 can_lead_from_rear=0
 bidirectional=1
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 way_constraint_permissive[0]=0
 
 Constraint[Prev][0]=BR-507(centre1)
@@ -129,14 +161,37 @@ Constraint[Prev][1]=BR-455-Motor
 Constraint[Next][0]=BR-507(rear)
 Constraint[Next][1]=BR-455-Driving-Rear
 
-EmptyImage[E]=./images/br-455-bg-2.0.0
-EmptyImage[SE]=./images/br-455-bg-2.0.1
-EmptyImage[S]=./images/br-455-bg-2.0.2
-EmptyImage[SW]=./images/br-455-bg-2.0.3
-EmptyImage[W]=./images/br-455-bg-2.0.4
-EmptyImage[NW]=./images/br-455-bg-2.0.5
-EmptyImage[N]=./images/br-455-bg-2.0.6
-EmptyImage[NE]=./images/br-455-bg-2.0.7
+liverytype[0]=BR-Blue
+liverytype[1]=NSE-Standard
+liverytype[2]=SWT-orange-stripe
+
+#images from BR-313-b with layer 4 enabled
+EmptyImage[E][0]=./railcars/br-507-trailer-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-507-trailer-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-507-trailer-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-507-trailer-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-507-trailer-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-507-trailer-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-507-trailer-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-507-trailer-bg_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-507-trailer-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-507-trailer-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-507-trailer-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-507-trailer-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-507-trailer-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-507-trailer-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-507-trailer-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-507-trailer-nse_NE.0.0
+
+EmptyImage[E][2]=./railcars/br-455-7-middle-swt_E.0.0
+EmptyImage[SE][2]=./railcars/br-455-7-middle-swt_SE.0.0
+EmptyImage[S][2]=./railcars/br-455-7-middle-swt_S.0.0
+EmptyImage[SW][2]=./railcars/br-455-7-middle-swt_SW.0.0
+EmptyImage[W][2]=./railcars/br-455-7-middle-swt_W.0.0
+EmptyImage[NW][2]=./railcars/br-455-7-middle-swt_NW.0.0
+EmptyImage[N][2]=./railcars/br-455-7-middle-swt_N.0.0
+EmptyImage[NE][2]=./railcars/br-455-7-middle-swt_NE.0.0
 
 ---
 
@@ -146,7 +201,7 @@ engine_type=electric
 speed=120
 power=328
 gear=80
-tractive_effort=137
+tractive_effort=84
 copyright=Kieron
 intro_year=1978
 intro_month=10
@@ -154,15 +209,17 @@ retire_year=1982
 retire_month=3
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
 overcrowded_capacity=56
 length=11
 
 weight=37
 axles=4
 cost=1120000
-runningcost=54
-sound=-1
+runningcost=49
+fixed_cost=6933
+sound=video47-class-508.wav
 
 can_lead_from_rear=1
 bidirectional=0
@@ -170,7 +227,8 @@ way_constraint_permissive[0]=0
 
 min_loading_time=15
 max_loading_time=50
-comfort=56
+comfort[0]=0
+comfort[1]=56
 
 Constraint[Prev][0]=BR-507(centre1)
 Constraint[Prev][1]=BR-507(centre2)
@@ -178,11 +236,23 @@ Constraint[Prev][1]=BR-507(centre2)
 Constraint[Next][0]=BR-507(front)
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/br-313-bg.2.0
-EmptyImage[SE]=./images/br-313-bg.2.1
-EmptyImage[S]=./images/br-313-bg.2.2
-EmptyImage[SW]=./images/br-313-bg.2.3
-EmptyImage[W]=./images/br-313-bg.2.4
-EmptyImage[NW]=./images/br-313-bg.2.5
-EmptyImage[N]=./images/br-313-bg.2.6
-EmptyImage[NE]=./images/br-313-bg.2.7
+liverytype[0]=BR-Blue
+liverytype[1]=NSE-Standard
+
+EmptyImage[E][0]=./railcars/br-313-c-bg_E.0.0
+EmptyImage[SE][0]=./railcars/br-313-c-bg_SE.0.0
+EmptyImage[S][0]=./railcars/br-313-c-bg_S.0.0
+EmptyImage[SW][0]=./railcars/br-313-c-bg_SW.0.0
+EmptyImage[W][0]=./railcars/br-313-c-bg_W.0.0
+EmptyImage[NW][0]=./railcars/br-313-c-bg_NW.0.0
+EmptyImage[N][0]=./railcars/br-313-c-bg_N.0.0
+EmptyImage[NE][0]=./railcars/br-313-c-bg_NE.0.0
+
+EmptyImage[E][1]=./railcars/br-313-c-nse_E.0.0
+EmptyImage[SE][1]=./railcars/br-313-c-nse_SE.0.0
+EmptyImage[S][1]=./railcars/br-313-c-nse_S.0.0
+EmptyImage[SW][1]=./railcars/br-313-c-nse_SW.0.0
+EmptyImage[W][1]=./railcars/br-313-c-nse_W.0.0
+EmptyImage[NW][1]=./railcars/br-313-c-nse_NW.0.0
+EmptyImage[N][1]=./railcars/br-313-c-nse_N.0.0
+EmptyImage[NE][1]=./railcars/br-313-c-nse_NE.0.0

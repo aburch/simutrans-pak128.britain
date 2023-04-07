@@ -1,42 +1,74 @@
 obj=vehicle
 name=Blackpool-Standard
 engine_type=electric
-speed=55
+speed=32
 gear=80
-power=100
+# According to this web page: http://www.flickr.com/photos/ingythewingy/6348843530/
+# these use 2x. 35hp motors. 70hp = 52kW
+# According to http://blackpool-trams.yolasite.com/standard-trams.php
+# these used the same controller as conteporary pantograph cars
+# conteporary pantograph and boat cars had 2x 40 HP = 60 kW
+power=60
+tractive_effort=35
 copyright=James
 intro_year=1923
 intro_month=8
-retire_year=1939
+retire_year=1936
 retire_month=1
 waytype=tram_track
 freight=Passagiere
 payload=78
 overcrowded_capacity=6
-weight=25
-axles=2
-cost=360000
-runningcost=65
-sound=-1
+is_tall=1
 
-can_lead_from_rear=0
-bidirectional=0
+weight=17.5
+axles=4
+cost=415000
+runningcost=24
+fixed_cost=6346
+sound=tom-tait-tram.wav
+
+can_lead_from_rear=1
+bidirectional=1
+
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
-comfort=45
-min_loading_time=13
-max_loading_time=60
+comfort=37
+min_loading_time=10
+max_loading_time=67
 
 Constraint[Prev][0]=none
-
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/blackpool-standard.0.0
-EmptyImage[SE]=./images/blackpool-standard.0.1
-EmptyImage[S]=./images/blackpool-standard.0.2
-EmptyImage[SW]=./images/blackpool-standard.0.3
-EmptyImage[W]=./images/blackpool-standard.0.4
-EmptyImage[NW]=./images/blackpool-standard.0.5
-EmptyImage[N]=./images/blackpool-standard.0.6
-EmptyImage[NE]=./images/blackpool-standard.0.7
+liverytype[0]=Blackpool-red
+liverytype[1]=Blackpool-green
+liverytype[2]=WW2-Austerity
+
+EmptyImage[E][0]=./images/blackpool-standard-red_E.0.0
+EmptyImage[SE][0]=./images/blackpool-standard-red_SE.0.0
+EmptyImage[S][0]=./images/blackpool-standard-red_S.0.0
+EmptyImage[SW][0]=./images/blackpool-standard-red_SW.0.0
+EmptyImage[W][0]=./images/blackpool-standard-red_W.0.0
+EmptyImage[NW][0]=./images/blackpool-standard-red_NW.0.0
+EmptyImage[N][0]=./images/blackpool-standard-red_N.0.0
+EmptyImage[NE][0]=./images/blackpool-standard-red_NE.0.0
+
+EmptyImage[E][1]=./images/blackpool-standard_E.0.0
+EmptyImage[SE][1]=./images/blackpool-standard_SE.0.0
+EmptyImage[S][1]=./images/blackpool-standard_S.0.0
+EmptyImage[SW][1]=./images/blackpool-standard_SW.0.0
+EmptyImage[W][1]=./images/blackpool-standard_W.0.0
+EmptyImage[NW][1]=./images/blackpool-standard_NW.0.0
+EmptyImage[N][1]=./images/blackpool-standard_N.0.0
+EmptyImage[NE][1]=./images/blackpool-standard_NE.0.0
+
+EmptyImage[E][2]=./images/blackpool-standard-austerity_E.0.0
+EmptyImage[SE][2]=./images/blackpool-standard-austerity_SE.0.0
+EmptyImage[S][2]=./images/blackpool-standard-austerity_S.0.0
+EmptyImage[SW][2]=./images/blackpool-standard-austerity_SW.0.0
+EmptyImage[W][2]=./images/blackpool-standard-austerity_W.0.0
+EmptyImage[NW][2]=./images/blackpool-standard-austerity_NW.0.0
+EmptyImage[N][2]=./images/blackpool-standard-austerity_N.0.0
+EmptyImage[NE][2]=./images/blackpool-standard-austerity_NE.0.0
+
 

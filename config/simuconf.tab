@@ -14,27 +14,38 @@
 
 ################################# General gameplay settings ################################
 
-# Enforce vehicle (and other item) introduction dates?
-# 0 = all vehicles available from start of the game
-# 1 = use introduction dates
-# 2 = (default) use settings during game creation, new games off
-# 3 = use settings during game creation, new games on
+# The height of tiles for the double/half height tile system
+tile_height = 8
+
+height_conversion_factor = 2
+
+# If the below setting is enabled (i.e. = 1), addons in the ~/addons folder
+# (inside the pakset folder) will be available. 
 #
-use_timeline = 3
-
-# Passenger generation (the default is 16): smaller values means fewer passengers.
-# NOTE: This will need to be adjusted depending on the meters_per_tile setting.
-# 16 is calibrated to be correct for 125m/tile. This should be doubled for every
-# halving of the meters per tile setting, and halved for every doubling thereof.
-
-passenger_factor = 15
+# NOTE: Using addons may make it not possible to join an online multiplayer game.
+with_private_paks = 0
 
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
-
 beginner_price_factor = 1500
 
-# Use beginner mode for new maps
+# These settings are used to calculate adjusted figures based on the length of the month. 
+# To assume a base month length based on the settings in Simutrans-Standard, use 1,000
+# base_meters_per_tile and 18 base_bits_per_month.
+# 
+# To assume a base month length of 24 hours (to allow various settings to be calibrated
+# as if months were days), use a base meters per tile of 7500
+base_meters_per_tile = 1000
+base_bits_per_month = 18
 
+# This setting determines the rate at which jobs replenish. At the default, 100, all
+# of a building's jobs replenish in exactly 1 month. At 200, it takes 2 months, and at
+# 50, it takes 1/2 a month. This is useful when calibrating the month/year scale as
+# against the hour/minute scale. If a month is timed as 6.4 hours (6:24), for example,
+# a day (24 hours) consists of 3.75 "months". For jobs to replenish once every 24 hours,
+# therefore, set this to 375 if the length of a month is 6:24.
+job_replenishment_per_hundredths_of_months = 375
+
+# Use beginner mode for new maps
 first_beginner = 0
 
 # Size of the catchment area of a station/stop in tiles.
@@ -42,7 +53,7 @@ first_beginner = 0
 # (In older versions, this was used for both city buildings and factories)
 #
 # Default: 2
-station_coverage = 12
+station_coverage = 16
 
 # Size of the catchment area of a station/stop in tiles.
 # This is for factories only.
@@ -52,132 +63,166 @@ station_coverage_factories = 3
 # The rate at which towns grow depends on their size. There are three different size categories:
 # "Villages", "Cities" and "Capitals". The following settings define the thresholds (in numbers 
 # of population) above which towns become "Cities" and "Capitals". Anything smaller than 
-# city_threshold_size is a "Village".
+# city_threshold_size is a "Village". These settings are overriden if any value in 
+# city_threshold_percentage or capital_threshold_percentage be set. 
 
 city_threshold_size = 2500
 capital_threshold_size = 25000
 
+# These values determine which rates of town growth apply depending, not on the absolute size
+# of the city, but rather its size relative to other cities in the game. If capital_threshold_percentage
+# is 5, for example, any city in the top 5% of cities by population count will be a capital. 
+# These settings override the absolute values in city_threshold_size and capital_threshold_size
+# unless their values are 0, which is the default. It is recommended to use these rather than absolute
+# values, especially in longer games, where all towns may grow to the size of "capitals" eventually.
+
+city_threshold_percentage = 20
+capital_threshold_percentage = 2
+
 # These values are used in the city generation algorithm to determine the maximum size of cities.
 # max_city_size is the maximum size, in citizens, of any city at the point of generation.
 # max_small_city_size is the size, in citizens, of any city other than a "big city" at the point of generation. 
+#
 # TIP: Set a lower number for these values the earlier that the game is started.
 
-max_city_size = 16000
-max_small_city_size = 3000
+max_city_size = 100000
+max_small_city_size = 50000
 
 # These values represent the rate at which towns grow. The raw growth number is *divided*
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 895
-growthfactor_cities = 600
-growthfactor_capitals = 350
+growthfactor_villages = 832
+growthfactor_cities = 480
+growthfactor_capitals = 120
 
-# These settings determine the proportion of passengers who travel to industries and
-# attractions respectively. 
+# Enable this to use the old algorithm for city growth from Standard.
+# NOTE: The renovation_percentage in cityrules.tab should be increased if this be done.
+quick_city_growth = 0
 
-factory_worker_percentage = 15
-tourist_percentage = 8
+# These settings determine the population, visitor demand, jobs and mail per "level" of building.
+# Each of these things can be set independently in the buildings' .dat files, but for older paksets
+# or paksets from Standard, only a "level" will be supplied, so these conversion factors are
+# important in those cases.
+population_per_level = 4
+visitor_demand_per_level = 4
+jobs_per_level = 3
+mail_per_level = 1
 
-# Some passengers who are not able to find a route will be content
-# to go to an alternative destination. Set the maximum number here.
-# (Note: whether any given passenger is content to go to an alternative
-# destination, and, if so, the number, will be random. For each 
-# possible number of alternative destinations, the chances will be even.
-# For example, if the number is set at 2, there will be an equal chance
-# of passengers having 0, 1 or 2 alternative destinations).
+# These settings determine the number of passenger trips that each person makes per game month
+# and the number of items of mail that each unit of mail demand produces per month, in 1/100ths.
+# This does *not* include onward and return trips, however, and is *before* adjustment for the
+# meters per tile and bits per month scales.
 #
-# Max: 7
+# Note that most statistics show *return* trips, so this needs to be calibrated accordingly.
+# Note also that, because of rounding errors in the passenger generation multi-threading,
+# it is necessary to multiply the numbers by ~1.3 to get the correct results in game at 
+# present. The correct number ought to be 120 (3x trips attempted per 16 hours per passenger),
+# but 156 must be used to overcome the rounding errors. Likewise, mail is intended to be 5
+# but needs to be 7 (rounded up from 6.5) to cope with the rounding errors.
+passenger_trips_per_month_hundredths = 156
+mail_packets_per_month_hundredths = 7
 
-max_alternative_destinations = 7
+# This setting determines the maximum number of onward trips that passengers may make on a journey.
+# The actual number of onward trips for any given packet of passengers is a random number of anywhere
+# between 1 and this figure. This is only applicable if passengers are in fact going to make an onward
+# trip, the chance of which is determined by a different setting (see below).
+max_onward_trips = 3
 
-# The program will generate three groups of passengers: (1) local;
-# (2) midrange; and (3) long distance. The program will look for a town within
-# the specified distance ranges for each class of passenger. If it cannot
-# find such a town within a certain number of tries, it will pick a random town.
-# The ranges *may* overlap. These values are in kilometres. 
+# This figure determines how likely that it is that passengers will make any onward trips at all. It
+# is expressed in percentage terms.
+onward_trip_chance_percent = 25
 
-local_passengers_min_distance = 0
-local_passengers_max_distance = 16
-midrange_passengers_min_distance = 16
-midrange_passengers_max_distance = 80
-longdistance_passengers_min_distance = 55
-longdistance_passengers_max_distance = 16384
+# This is the chance, in percentage, that any given passenger journey will be a commuting trip. Any
+# trip that is not a commuting trip is classed as a visiting trip.
+# Data suggests that a minority of trips are commuting trips: see, e.g.
+# http://webarchive.nationalarchives.gov.uk/+/http:/www.dft.gov.uk/pgr/statistics/datatablespublications/personal/factsheets/traveltowork.pdf
+# and https://www.hertfordshire.gov.uk/media-library/documents/highways/transport-planning/transport-and-accident-data/county-travel-survey/county-travel-survey-summary.pdf
+# Assume 1 commuting trip  attempt per day (out of a total of 3 trip attempts per day), multiplied by 5/7ths (0.714)
+# multiplied by the proportion of the population in work (fluctuates over time, but assume as 60%), and the figure is close to the 18% suggested in the
+# Hertfordshire survey above.
+commuting_trip_chance_percent = 20
 
-# The following are percentage chances. They represent the chances that
-# any passengers generated will try to find a town within each of the three
-# ranges, respectively. 
+# Passengers who are not able to find a route will be content to go to an alternative destination. 
+# This is set separately for visiting passengers and commuting passengers. It can either be set in
+# absolute figures using max_alternative_destinations_visiting and max_alternative_destinations_commuting,
+# or set as a proportion of the total number of jobs and total level of visitor demand, using 
+# max_alternative_destinations_per_visitor_demand_millionths and max_alternative_destinations_per_job_millionths.
+# Using the relative settings is recommended, as this scales much better to the map size.
+# 
+# This is specified as the maximum number of alternative destinations, as the actual number for any
+# given packet of passengers will be randomised between zero and this number. 
 #
-# 84% of journeys are 10 miles (16km) or under
-# 14% of journeys are 10 - 50  miles (16-80km)
-# 2% of journeys are >50 miles (80km)
-# See: http://www.sustrans.org.uk/assets/files/connect2/guidelines%2016.pdf
-# Allow for some overlap, however, between midrange and long distance.
+# This figure strongly affects how many passengers will travel, and also can have a significant effect on
+# the computational load.
 
-passenger_routing_local_chance = 84
-passenger_routing_midrange_chance = 12
-# (Longdistance by inference = 4)
-# passenger_routing_longdistance_chance is 100 minus the sum of the two above values,
-# but not stipulated individually. 
+#max_alternative_destinations_commuting = 6
+#max_alternative_destinations_visiting = 12
+#min_alternative_destinations_commuting = 2
+#min_alternative_destinations_visiting = 1
 
-# Passengers have a maximum tolerance level for how long that they will
-# spend travelling. The further that the passengers want to go, the more
-# time that they will be prepared to spend travelling. The number is 
-# expressed in minutes. For each packet of passengers, the number of 
-# minutes travelling time (including waiting time) that they are prepared
-# to tolerate is randomised between the minimum and maximum amount using a
-# normal distribution, meaning that the numbers are more likely to be in
-# the middle of the range than at either end. The local, mid-range and
-# long-distance passenger groups correspond to those above. 
+max_alternative_destinations_per_visitor_demand_millionths = 2750
+max_alternative_destinations_per_job_millionths = 5000
 
-min_local_tolerance = 5
-max_local_tolerance = 150
-min_midrange_tolerance = 15
-max_midrange_tolerance = 270
-min_longdistance_tolerance = 60
-max_longdistance_tolerance = 5400
+min_alternative_destinations_per_visitor_demand_millionths = 750
+min_alternative_destinations_per_job_millionths = 2500
 
-# Settings for calibrating the revenue system
+# Passengers have a maximum tolerance level for how long that they will spend travelling. 
+# Passengers are generated in two groups: commuting and visiting passengers. Commuting 
+# passengers travel to find work, whereas visiting passengers travel for other reasons, such
+# as leisure, business (i.e., travel between workplaces) and shopping. Each of these two
+# different types of passenger has a minimum and maximum journey time tolerance.
 #
-# These settings calibrate the way in which revenue is calculated in the game. Changing
-# them might make the game easier or harder, or, if they are changed in odd ways, make it
-# behave eratically. Make sure to know what you are doing before changing these values.
+# The number is  expressed in minutes. For each packet of passengers, the number of minutes
+# travelling time (including waiting time) that they are prepared to tolerate is randomised 
+# between the minimum and maximum amount using a normal distribution, meaning that the numbers
+# are more likely to be in the middle of the range than at either end.
 
-# These settings calibrate the speed bonus. Note that, with Simutrans-Experimental, unlike
-# Simutrans-Standard, the speed bonus is based on the convoy or line's *average* speed between
-# any two given stops, not the convoy's overall maximum speed. 
-#
-# All distances in these settings are measured in kilometres and calibrated using the
-# meters_per_tile setting.
-#
-# min_bonus_max_distance is the distance below which the speed bonus (or penalty) does not
-# apply. Below this distance, goods pay the same no matter what the average speed.
-#
-# median_bonus_distance is the distance at which 100% of the speed bonus/penalty applies. 
-# At anything between min_bonus_max_distance and median_bonus_distance, a scaled proportion
-# of the speed bonus applies. For example, if the min_bonus_max_distance was 10, and the 
-# median_bonus_distance was 110, then, for a journey of 50 tiles, 50% of the speed bonus or
-# penalty would apply. median_bonus_distance is optional: if it is not specified, or set to
-# 0, it will be calculated as the mid point between min_bonus_max_distance and
-# max_bonus_min_distance.
-#
-# max_bonus_min_distance is the distance above which the rate of the speed bonus increases
-# no further. In other words, the rate of the speed bonus (or penalty) keeps increasing with
-# the distance, until it reaches the max_bonus_min_distance, after which it remains steady.
-#
-# max_bonus_multiplier_percent is the percentage of the speed bonus that applies at or above
-# the distance specified in max_bonus_min_distance. So, if the speed bonus rating was 10%, the
-# distance exceeded the max_bonus_min_distance value, and the max_bonus_multiplier_percent was
-# set to 200, the speed bonus rating would effectively be 20% for that journey.
-# Between the median_bonus_distance and the max_bonus_min_distance, a scaled proportion applies.
-# So, if, for example, the median_bonus_distance was 100, the max_bonus_min_distance was 1,100
-# the actual distance 500, and the max_bonus_multiplier_percent 200, the speed bonus rating
-# would be increased by half of the multiplier, or 150%.
+min_visiting_tolerance = 12
+range_visiting_tolerance = 12000
+min_commuting_tolerance = 30
+range_commuting_tolerance = 180
 
-min_bonus_max_distance = 1
-median_bonus_distance = 160
-max_bonus_min_distance = 1000
-max_bonus_multiplier_percent = 50
+# The following settings determine the way in which individual packets of passengers decide
+# what their actual journey time tolerance is, within the above ranges. The options are:
+#
+# 0 - Even distribution
+# Every point between the minimum and maximum is equally likely to be selected
+#
+# 1 - Normal distribution (http://en.wikipedia.org/wiki/Normal_distribution)
+# Points nearer the middle of the range between minimum and maximum are more likely 
+# to be selected than points nearer the end of the ranges.
+#
+# 2 - Positively skewed normal distribution (squared) (http://en.wikipedia.org/wiki/Skewness)
+# Points nearer the a point in the range that is not the middle but is nearer to the lower
+# end of the range are more likely to be selected. The distance from the middle is the skew.
+#
+# 3 - Positively skewed normal distribution (cubed)
+# As with no. 2, but the degree of skewness (the extent to which the modal point in the range
+# is nearer the beginning than the end) is considerably greater.
+#
+# 4 - Positively skewed normal distribution (squared recursive)
+# As with nos. 2 and 3 with an even greater degree of skew.
+#
+# 5 - Positively skewed normal distribution (cubed recursive)
+# As with nos. 2, 3 and 4 with a still greater degree of skew.
+#
+# 6 and over - Positively skewed normal distribution (cubed multiple recursive)
+
+random_mode_commuting = 2
+random_mode_visiting = 6
+
+# The tolerance modifier percentage applies a percentage modification to all visiting passengers'
+# journey time tolerances to allow for a more precise adjustment of these numbers than is possible
+# with the basic figures alone, especially where a high skew value be used. 
+#
+# Also, setting this number to zero will disable not only the tolerance modifier percentage, but 
+# also the system for modifying the tolerance dynamically based on the visiting passenger success
+# rates of the individual buildings from which passengers originate.
+#
+# The default is 100.
+
+tolerance_modifier_percentage = 66
 
 # meters_per_tile represents the length of each tile in meters. 
 # The default is 250.
@@ -185,14 +230,14 @@ max_bonus_multiplier_percent = 50
 # This setting is used for calculating journey times, revenues, maintenance costs, comfort and
 # catering values.
 #
-# Note that, in versions of Simutrans-Experimental before 10.0, the setting "distance_per_tile"
+# Note that, in versions of Simutrans-Extended (then known as Experimental) before 10.0, the setting "distance_per_tile"
 # was used instead. That setting was calculated in tens of meters. If "distance_per_tile" is
 # specified in simuconf.tab, it will be converted to meters_per_tile by the game.
 
 meters_per_tile = 125
 
-# These next settings affect the interaction between comfort and revenue in Simutrans. Comfort only
-# affects passenger traffic, for obvious reasons. Passengers have a certain level of comfort that
+# These next settings affect the interaction between comfort and revenue. Comfort only
+# affects passenger traffic. Passengers have a certain level of comfort that
 # they will tolerate for certain distances. All comfort ratings are in the range of between 0 and
 # 255. At the tolerable level, the revnue is unaffected. At above the tolerable level, a luxury
 # bonus is applied. At below the tolerable level, a discomfort penalty is applied. The values can
@@ -219,7 +264,7 @@ meters_per_tile = 125
 # Note that the impact of comfort on revenue decreases with journey time.
 # It is at its maximum level down to tolerable_comfort_median_long_minutes, after which it gradually
 # reduces to 20% of its maximum at tolerable_comfort_short_minutes, and does not decrease further
-# thereafter. 
+# thereafter.
 
 # 0:05h
 tolerable_comfort_short_minutes=5
@@ -235,10 +280,10 @@ tolerable_comfort_median_median=125
 
 # 6:00h
 tolerable_comfort_median_long_minutes=360
-tolerable_comfort_median_long=175
+tolerable_comfort_median_long=165
 
-# 18:00h
-tolerable_comfort_long_minutes=1080
+# 24:00h
+tolerable_comfort_long_minutes=1440
 tolerable_comfort_long=250
 
 # max_luxury_bonus_differential is the maximum number of comfort rating points above the tolerable level
@@ -246,19 +291,19 @@ tolerable_comfort_long=250
 # revenue.
 #
 # max_luxury_bonus_percent is the percentage increase in revenue from the maximum level of luxury specified in
-# max_luxury_bonus_differential. So, if the tolerable comfort level for any given travelling time was 100, the 
+# max_luxury_bonus_differential. So, if the tolerable comfort level for any given travelling time were 100, the 
 # max_luxury_bonus_differential 50, and the max_luxury_bonus_percent 50, then the revenue would increase up to
 # 50% beyond the normal revenue for additional comfort up to 150, but would not increase further with any increase
 # in comfort beyond 150. 
 
-max_luxury_bonus_differential=65
-max_luxury_bonus_percent=50
+max_luxury_bonus_differential=0
+max_luxury_bonus_percent=0
 
 # The discomfort penalty works in exactly the same way as the comfort bonus. max_discomfort_penalty_percent is the
 # percentage decrease in revenue from the maximum level of discomfort specified in max_discomfort_penalty_differential. 
 
 max_discomfort_penalty_differential=220
-max_discomfort_penalty_percent=97
+max_discomfort_penalty_percent=25
 
 # These settings control the revenue that can be earned from catering and travelling post offices. Note that catering
 # vehicles on a convoy also increase the comfort by a small amount, which has an indirect effect on the revenue. These
@@ -280,15 +325,15 @@ max_discomfort_penalty_percent=97
 
 catering_min_minutes=45
 catering_level1_minutes=60
-catering_level1_max_revenue=300
+catering_level1_max_revenue=160
 catering_level2_minutes=90
-catering_level2_max_revenue=450
+catering_level2_max_revenue=390
 catering_level3_minutes=120
-catering_level3_max_revenue=600
+catering_level3_max_revenue=830
 catering_level4_minutes=180
-catering_level4_max_revenue=1000
+catering_level4_max_revenue=1600
 catering_level5_minutes=210
-catering_level5_max_revenue=1500
+catering_level5_max_revenue=4400
 
 # Travelling post office revenue is simpler than catering revenue. For every journey that mail makes in a convoy containing
 # a travelling post office vehicle (that is, a mail carrying vehicle with a catering level above zero) where the journey time
@@ -298,12 +343,26 @@ catering_level5_max_revenue=1500
 tpo_min_minutes=90
 tpo_revenue=300
 
+# Passengers who can afford to travel in higher class accommodation on a convoy that also has
+# lower class accommodation will only spend the extra money if they consider the additional
+# comfort worthwhile. Each passenger's preference for this is randomised on creation. The
+# minimum is the same as the maximum comfortable journey time (i.e., at this minimum level,
+# the passengers will only pay to travel in more comfortable accommodation if the journey
+# time exceeds the maximum comfortable journey time for the lower class of accommodation).
+# The maximum a percentage of this figure, set below. For example, if this is set to 500%,
+# passengers will travel in a higher class of accommodation if the journey time is more 
+# than one fifth of the maximum comfortable journey time of the lower class of accommodation.
+
+max_comfort_preference_percentage = 650
+
 # These settings relate to private car use. See /config/privatecar.tab for
 # the configuration of private car ownership for different years.
 #
 # "Always prefer car percent" is the percentage of drivers who prefer to use their
 # car even if walking or taking public transport is faster. The default is 10% 
-#
+
+always_prefer_car_percent = 6
+
 # "Congestion density factor" determines the way in which congestion is calculated.
 # If this number is 0, a very simple system is used for calculating congestion.
 #
@@ -320,8 +379,11 @@ tpo_revenue=300
 # roads in the city in kilometres then multiplied by the congestion density factor
 # to get a percentage figure. When this figure is calculated for all British cities
 # in the TomTom Congestion Index in 2012, the average is 141 (1.41). 
+#
+# NOTE: When the travel time congestion should be implemented, this system 
+# will be used only when "assume_everywhere_connected_by_road" be enabled; 
+# otherwise, measured per tile congestion figures are used.
 
-always_prefer_car_percent = 6
 congestion_density_factor = 141
 
 # This setting gives the maximum time that passengers are prepared to wait for their
@@ -337,6 +399,9 @@ congestion_density_factor = 141
 # This is also subject to a maximum of thrice the estimated journey time for the
 # whole journey, except where thrice the estimated journty time is less than 1/12th
 # of this value.
+#
+# The speed bonus system has been deprecated, so the relationship to that is
+# likely to change shortly.
 
 passenger_max_wait = 19440
 
@@ -345,17 +410,16 @@ passenger_max_wait = 19440
 # air a slower process at the boarding stage than transport by other means such as road
 # or rail. Setting this to 0 will make air transport behave like any other transport.
 
-min_wait_airport = 30
+min_wait_airport = 45
 
 # If this setting is set to 1, halts will have different capacities for each type of goods.
 seperate_halt_capacities = 1
 
 # This setting determines the extent to which cities should be built far away from
 # other cities when the map is first generated. The higher the number, the further
-# away from each other that the cities are built. This is introduced in Simutrans-Experimental
-# 9.0. It replaces Simutrans-Standard's setting of "minimum_city_distance".
+# away from each other that the cities are built.
 
-city_isolation_factor = 32
+city_isolation_factor = 128
 
 # Minimum distance of a city attraction to other special buildings
 special_building_distance = 2
@@ -367,6 +431,13 @@ special_building_distance = 2
 # it is within 1.5km of their origin.
 
 max_walking_distance_km_tenth = 15
+
+# This is the speed in km/h at which passengers will walk. The average walking speed
+# is 5km/h, and this is the default. However, there is much to be said for a lower
+# setting than this to take into account the fact that many walking journeys are
+# not in a straight line.
+
+walking_speed = 4
 
 # This setting determines the relationship between the number of private car trips
 # generated and (1) the congestion recorded in the cities; and (2) the number of
@@ -427,7 +498,7 @@ toll_revenue_percentage = 33
 # a trip by aircraft charged to a player landing at another player's
 # airport.
 #
-# seaport_toll_revenue_percentage is the precentage of the revenue
+# seaport_toll_revenue_percentage is the percentage of the revenue
 # of a trip by sea charged to a player docking at another player's
 # sea port.
 
@@ -445,12 +516,8 @@ toll_free_public_roads = 1
 # This is the amount (in simucents: 100 = 1 simucredit; 1 = 1 simucent)
 # that the player who owns the road will receive for each km traversed by a
 # private car on that road.
-#
-# NOTE: This value will not be saved with the saved game until the 
-# major version is incremented to 11. In a network game, this value
-# will default to 1.
 
-private_car_toll_per_km = 1
+private_car_toll_per_km = 15
 
 # If this is set to 1, any road built in a town will be adopted
 # by that town (set to unowned), meaning that the building player
@@ -458,10 +525,6 @@ private_car_toll_per_km = 1
 # of the way, and cannot prevent other players from upgrading/
 # downgrading/removing it. Setting it to 0 will disable this 
 # feature.
-#
-# NOTE: This value will not be saved with the saved game until the 
-# major version is incremented to 11. In a network game, this value
-# will default to 1.
 
 towns_adopt_player_roads = 1
 
@@ -477,6 +540,98 @@ allow_making_public = 0
 
 allow_airports_without_control_towers = 0
 
+# If this is set to 2, single height bridges cannot be built over ways.
+
+way_height_clearance = 2
+
+# This is the fraction of the way's total wear capacity below which
+# the way will count as degraded and be automatically renewed or,
+# if the player has insufficient money or auto-renewal has been
+# disabled for the way in question, will enter a degraded state
+# in which the speed limit will be reduced. (At a state of 0,
+# the way will become totally impassable). 
+# Default: 7 (approx. 14%). 
+
+way_degradation_fraction = 7
+
+# These two settings determine the default relationship between
+# the weight of vehicles and their way wear factors. Air and
+# road vehicles use the "road_type", and all others apart from
+# maglev and water (which are hard coded to zero) use the 
+# "rail_type". This only applies to vehicles whose way wear
+# factor is not specified in the individual vehicle definitions.
+# The default for road is 4, based on the "forth power law":
+# http://www.pavementinteractive.org/article/equivalent-single-axle-load/
+# The default for rail is 1. 
+
+way_wear_power_factor_road_type = 4
+way_wear_power_factor_rail_type = 1
+
+# This is the setting to calibrate the way wear system. This
+# is only effective for vehicles which do not have their way
+# wear factor set in their individual .dat files. For an
+# explanation of the standard axle load (in tonnes), see
+# the link above.
+# The default is 8, which is the UK standard for road.
+
+standard_axle_load = 8
+
+# This is the way wear factor exerted on roads by all
+# "citycars" (that is, the automatically generated
+# private road traffic) in the game, measured in 
+# 1/10,000ths of a standard axle load. 
+# Default = 2
+
+citycar_way_wear_factor = 2
+
+# If this setting should be enabled, it will be possible to see
+# information about what will happen to certain vehicle types in 
+# the future, specifically, when they will stop being produced and
+# whether they will have any upgrades.
+show_future_vehicle_information = 0
+
+# This is the maximum "level" of a building that may be built underneath an elevated way.
+# Set this to 0 to disable building elevated ways and bridges with supports over any buildings.
+# Default: 2. 
+max_elevated_way_building_level=0
+
+
+################################## Region settings #################################
+
+# Regions are defined as stacked rectangles on the map. Each region of a higher number overrides
+# each region of a lower number in so far as they overlap. 
+#
+# For each region definition, specify the upper left and lower right points of the rectangle either
+# in absolute numbers or in percentages. The numbers are specified: x,y. x = east/west; y = north/south.
+# 0,0 is the upper left corner. 
+#
+# NOTE: Region 0 will always be the base region and will by default cover the whole map save 
+# in so far as other regions are defined. There can be a maximum of 16 regions in total. 
+
+region_name[0] = Albion
+region_upper_left_percent[0] = 0,0
+region_lower_right_percent[0] = 100,100
+
+region_name[1] = Northumberland
+region_upper_left_percent[1] = 0,0
+region_lower_right_percent[1] = 100,50
+
+region_name[2] = Caledonia
+region_upper_left_percent[2] = 0,0
+region_lower_right_percent[2] = 100,25
+
+region_name[3] = Cambria
+region_upper_left_percent[3] = 0,35
+region_lower_right_percent[3] = 25,65
+
+region_name[4] = Kernow
+region_upper_left_percent[4] = 0,65
+region_lower_right_percent[4] = 20,100
+
+region_name[5] = Erin
+region_upper_left_percent[5] = 0,0
+region_lower_right_percent[5] = 25,35
+
 ################################## Industry settings #################################
 
 # allow all possible supplier to connect to your factories?
@@ -488,15 +643,32 @@ crossconnect_factories = 0
 # (100% will give nearly the same results as crossconnect_factories=1)
 crossconnect_factories_percentage = 15
 
-# with this switch on (default), overcrowded factories will not recieve goods any more
-just_in_time = 1
+# At what multiple of a town's population that a new consumer industry is built in that town
+industry_increase_every = 2000
+
+# This setting determines the behaviour of industry demand.
+# At 0, industries will always demand goods until their internal storage is full, no matter how many goods are already in transit.
+# At 1, industries will demand enough goods to fill their internal storage initially, then will demand only enough goods to keep up with the demand of their consumers.
+# At 2, industries will demand only enough goods to keep up with the demand of their consumers without trying to fill their internal storage first, but will not demand so many goods that their internal storage is likely to overflow.
+# At 3, industries behave as in 2, save that the internal storage of consumer industries is ignored.
+# At 4, industries will demand goods whenever their internal storage does not have sufficient stock to last until the next delivery is estimated to arrive if the goods were to leave the producing factory now.
+# At 5, production contracts will be used. Production contracts work as follows:
+# For each industry, it is has production capabilities and production contracts for more than its production capacity, it will evenly reduce the contracts to its linked consumers with the aim of having the 
+# total contracts being equal to its production capacity. If that producing industry's total contracts is less than one eighth of its production capacity, it solicits contracts to its linked consumers. 
+# If the industry consumes goods, it calculates its expected consumption using past consumer data (for consumers), current staffing levels, current production contracts (for manufacturers), and current amount 
+# of goods in transit and in stock (which only reduces, not halts, the expected consumption).  If the total contracts is less than the expected consumption or more than 10 percent of expected consumption, it 
+# tries to adjust the contracts to existing links in two rounds, one concentrating on active and staffed producers, then all producers.  Such adjustments are done evenly with slight weight towards more nearby producers.
+# If that fails to produce a total number of contracts above the expected consumption, a third round is performed more aggressively such that it saturates the supply of each producer, starting with the nearest, until
+# the total exceeds the expected consumption.  If it still cannot meet the expected consumption with existing links, it then will attempt to connect to other suppliers to fill the void. Also, when production contracts
+# are used, industries that have had no production contracts for 12 consecutive months or has been unproductive for 60 consecutive months will close.
+just_in_time = 4
 
 # True if substations ("transformers") are allowed to be built underground (default)
 allow_underground_transformers = 1
 
 # How much is the total electric power available (in relation to total production) 
-# in parts per thousand. 1000 = 100% and default for Simutrans-Experimental.
-electric_promille = 1000
+# in parts per thousand. 1000 = 100% and default for Simutrans-Extended.
+electric_promille = 1200
 
 # powerlines
 cost_transformer = 2500
@@ -510,8 +682,8 @@ min_factory_spacing = 2
 # Maximum distance for connected factories
 # If percentage>0, it will be in percent of the largest map dimension
 # percentage also over-rides the absolute value (which is in tiles)
-max_factory_spacing_percentage = 33
-#max_factory_spacing = 40
+max_factory_spacing_percentage = 100
+# max_factory_spacing = 1280
 
 # Some factories have a retirement date, after which they are obsolete. After
 # that date, factories may close down (random chance each month). After the number
@@ -519,38 +691,59 @@ max_factory_spacing_percentage = 33
 # chance increases the closer to this value that factories get.
 max_years_obsolete = 32
 
-# The following settings determine the minimum and maximum number of towns in which
-# workers in industries live (and thus from which they need to be transported to
-# the industries in question). 
-
-factory_worker_minimum_towns = 1
-factory_worker_maximum_towns = 6
-
 # number of periods for averaging the amount of arrived pax/mail at factories for boost calculation
 # one period represents a fixed interval of 2^18 ms in-game time
 # value can range from 1 to 16, inclusive; 1 means no averaging; default is 4
 factory_arrival_periods = 4
 
-# whether factory's pax/mail demands are enforced or not; default is on
+# whether factory's passenger and mail demands are enforced or not; the default is on (1).
 factory_enforce_demand = 1
 
-# The maximum distance in tiles from which workers at industries may travel.
-factory_worker_radius = 320
-
 # How much amount in transport is sent before further distribution stops
-# This is only enabled when "just_in_time" is enabled
+# This is only enabled when "just_in_time" is enabled (i.e, set to a value > 0)
 # The limit is given in percent of factory storage (0=off)
+# 
+# This number is scaled to the ratio
+# of the time that it takes the industry to consume its stock to the average
+# lead time for new deliveries. Values of slightly over 100% are recommended.
+maximum_intransit_percentage = 110
+
+# The following settings determine the thresholds for deciding whether an industry is short
+# of staff. 
+# 
+# minimum_staffing_percentage_consumer_industry is for consumer industries (i.e. shops): it
+# is the threshold (in percentage of the total complement of staff) below which the shop
+# must close until more staff can be found. No visiting passengers can start their journeys
+# to a consumer industry whose staffing level is below this proportion.
 #
-# This needs to be very high.  Many factories have low storage numbers (like 30)
-# and high production per month (like 600).  Long, slow ship routes can take 6 months
-# to cross the map.  To keep a steady flow, we need a setting like 6 * (600/30) * 100% = 12000.
-# Make it even larger to avoid breakage.
-maximum_intransit_percentage = 16000
+# minimum_staffing_percentage_full_production_producer_industry is for producer industries:
+# it is the threshold below which the production of the industry will be scaled back
+# to match the proportion of the available staff. For example, when this setting is at
+# its default value of 80, if the industry has 81% of staff, it produces at full capacity.
+# If the industry has 75% of staff, it produces at 75% of capacity, and so forth.
+
+minimum_staffing_percentage_consumer_industry = 66
+minimum_staffing_percentage_full_production_producer_industry = 80
+
+# This setting will connect every industry and attraction not in a town by road to the nearest town 
+# that it can reach whenever an industry or country attraction is built. The number specifies how far down
+# the rank order of nearest towns that the industry/attraction will try to connect to if it cannot
+# connect to the nearest town.
+# 
+# 0 = disabled
+# 1 = try to connect to the nearest town
+# 2 = try to connect to the nearest town, and, if unsuccessful, try to connect to the second nearest town
+# 3 = ...first, second, then third nearest town
+# ...etc.
+auto_connect_industries_and_attractions_by_road = 4
 
 ################################## Finance settings #################################
 
 # Starting money of the player. Given in Credit cents (1/100 Cr)
-starting_money = 25000000
+# This varies by year: more starting money is available in later years.
+starting_money[0]=1750,25000000,1
+starting_money[1]=1900,30000000,1
+starting_money[2]=2000,40000000,1
 
 # Maintenance costs of buildings
 # This is also in credit cents
@@ -566,20 +759,17 @@ cost_multiply_airterminal = 1000
 cost_multiply_post = 500
 
 # cost for depots
-# Now multiplied by the level (Simutrans-Experimental 8.0 and later)
+# Multiplied by the level 
 cost_depot_rail = 2000
 cost_depot_road = 1000
 cost_depot_ship = 4000
 cost_depot_air  = 7500
 
-# other way related stuff
-cost_signal = 750
-cost_tunnel = 11000
-
 # other construction/destruction stuff
 # The following are adjusted by meters_per_tile:
-cost_alter_land=16000
-cost_set_slope=42000
+cost_alter_land=8000
+cost_reclaim_land=100000
+cost_set_slope=25000
 cost_remove_tree=50
 cost_buy_land=1500
 cost_multiply_remove_haus=500
@@ -590,6 +780,40 @@ cost_found_city=5000000
 cost_multiply_found_industry=500000
 # Multiplied by headquarters "level"
 cost_multiply_headquarter=10000
+
+# Forge cost settings
+# 
+# The forge cost settings determine the cost of building a new way, in
+# SimuCents per kilometre. This cost is charged when building a new
+# way of a specified type on a tile, but not when upgrading an existing
+# way of that same type. This therefore makes it cheaper to upgrade ways
+# than build new ones. This cost is added to the base cost of the ways
+# specified in the .dat files.
+
+forge_cost_road = 7500
+forge_cost_track = 15000
+forge_cost_water = 25000
+forge_cost_monorail = 15000
+forge_cost_maglev = 20000
+forge_cost_tram = 4000
+forge_cost_narrowgauge = 8000
+forge_cost_air = 22500
+
+# The parallel ways forge cost percentage is the percentage of the
+# forge cost that is charged when building one way of each type
+# adjacent to an already existing way of that same type. For example,
+# if this number is set to 50 for roads, the forge cost (as specified 
+# above) of building one road immediately adjacent to another is 50%
+# of the full value.
+
+parallel_ways_forge_cost_percentage_road = 50
+parallel_ways_forge_cost_percentage_track = 35
+parallel_ways_forge_cost_percentage_water = 75
+parallel_ways_forge_cost_percentage_monorail = 40
+parallel_ways_forge_cost_percentage_maglev = 40
+parallel_ways_forge_cost_percentage_tram = 85
+parallel_ways_forge_cost_percentage_narrowgauge = 35
+parallel_ways_forge_cost_percentage_air = 85
 
 # Insolvency and debt settings
 #
@@ -617,25 +841,28 @@ interest_rate_percent = 10
 allow_bankruptcy = 1
 allow_purchases_when_insolvent = 0	
 
-# This is a compatibility setting for Simutrans-Standard. Because, in
-# Simutrans-Standard, the speed bonus data (in speedbonus.tab) are based on the
-# *maximum*, rather than the *average* speed of the vehicles, the speeds in
-# speedbonus.tab will be too high. Use this setting to reduce them if playing 
-# with an incompatible pakset. For paksets produced with Simutrans-Standard in
-# mind, the setting should be somewhere between 40-50. For compatible paksets,
-# the setting should be 100. 
+# disable companies from making ways public with the appropiate tool
+# even when disabled companies can still make stops public
+# does not affect public service provider player
+disable_make_way_public = 0
 
-speed_bonus_multiplier_percent=100
+ # The number of months of maintainance that the make public tool costs to use
+cst_make_public_months = 60
+
+# This setting alters the revenue for electricity transmission.
+# The figure is a percentage of the default revenue. Default: 100.
+power_revenue_factor_percentage = 100
 
 
 ################################### Time settings ################################
 
-# Enforce vehicle introduction dates?
+# Enforce vehicle (and other item) introduction dates?
 # 0 = all vehicles available from start of the game
 # 1 = use introduction dates
-# 2 = (default) use settings during game creation
-
-use_timeline = 2
+# 2 = (default) use settings during game creation, new games off
+# 3 = use settings during game creation, new games on
+#
+use_timeline = 3
 
 # Default starting year of the game
 # Must be between 1492 and 2050
@@ -647,13 +874,13 @@ starting_year = 1750
 starting_month = 1
 
 # Should month be shown in date?
-# (0=no, 1=yes, 2>=show day in japan format=2, us format=3, german=4, japanese no season=5, us no season=6, german no season = 7, journey time equivalent = 8)
+# (0=no, 1=yes, 2>=show day in japan format=2, us format=3, german=4, japanese no season=5, us no season=6, german no season = 7, hours/minutes scale = 8)
 # This is most useful, if you use longer months than the default length (see below)
-
+# The hours/minutes scale shows the time in hours/minutes as used for determining journey times and other short times. It is the recommended setting. 
 show_month = 8
 
 # Global time multiplier (will be save with new games)
-# 2^bits_per_month = duration of a game month in microseconds real time
+# 2^bits_per_month = duration of a game month in milliseconds real time
 # default is 18. For example, 21 will make the month 2^3=8 times longer in real time
 # production and maintainance cost will be adjusted accordingly.
 
@@ -677,7 +904,7 @@ bits_per_month = 22
 # another stop (possibly owned by a rival player) in the nearby vicinity, and of passengers
 # walking instead of using player transport in some cases.
 #
-# 0 = false; 1 = true. Default: false.
+# 0 = off; 1 = on. Default: off.
 
 allow_routing_on_foot = 1
 
@@ -689,7 +916,7 @@ drive_left = 1
 # Draw the signals on the left.
 # (In Pak128.Britain, this must be set to 0 until the signals are re-drawn to suit
 # this setting).
-signals_on_left = 0
+signals_on_left = 1
 
 # The below sections deal with the types of roads built automatically by the game,
 # both when the map starts and during the game (in the case of city roads). Different
@@ -699,127 +926,145 @@ signals_on_left = 0
 
 # City roads timeline. Format examples: 
 # city_road[0]=name,1900,1920
-# city_road[1]=name2,1921,1950
+# city_road[1]=name2,1920,1950
 
-city_road[0]=city_road,1933,2200
-city_road[1]=tarmac_city_road,1911,1932
-city_road[2]=cobblestone_road,1781,1910
-city_road[3]=dirt_road,1700,1780
+city_road[0]=dirt_road,1700,1780
+city_road[1]=cobblestone_road,1780,1910
+city_road[2]=tarmac_city_road,1910,1933
+city_road[3]=city_road,1933,1996
+city_road[4]=city_road-sma,1997,2200
 
 # Intercity roads timeline. Format examples: 
 # intercity_road[0]=name,1900,1920
-# intercity_road[1]=name2,1921,1950
+# intercity_road[1]=name2,1920,1950
 
-intercity_road[0]=bridleway,1700,1784
-intercity_road[1]=dirt_road,1785,1824
+intercity_road[0]=old_dirt_road,1700,1775
+intercity_road[1]=dirt_road,1775,1825
 intercity_road[2]=macadam_road,1825,1902
-intercity_road[3]=tarmac_road,1903,1932
-intercity_road[4]=asphalt_road,1933,2300
+intercity_road[3]=tarmac_road,1902,1925
+intercity_road[4]=tarmac_city_road,1925,1933
+intercity_road[5]=hr-asphalt-road-light,1933,1938
+intercity_road[6]=hr-asphalt-road-medium,1938,1996
+intercity_road[7]=sma-road-medium,1997,2300
 
+# Industry roads timeline. Format examples: 
+# industry_road[0]=name,1900,1920
+# industry_road[1]=name2,1920,1950
+
+industry_road[0]=bridleway,1700,1785
+industry_road[1]=old_dirt_road,1785,1822
+industry_road[2]=macadam_road,1822,1905
+industry_road[3]=tarmac_city_road,1905,1937
+industry_road[4]=concrete_road,1937,1989
+industry_road[5]=hr-asphalt-road-heavy,1989,1995
+industry_road[6]=sma-road-heavy,1995,2300
+ 
 # Max. length of intitial intercity road connections
 # If you want to speed up map creation, lower this value
 # If you want more initial intercity roads, raise this value
 
-intercity_road_length = 320
+intercity_road_length = 1024
+
+# This is the maximum number of tiles that a road, river or canal
+# that is a public right of way may be diverted for an existing
+# public right of way to be deleted. Diversion allows players to
+# change the course of public rights of way to accomodate, for
+# example, railways whilst protecting their integrity.
+
+max_diversion_tiles = 24
+
+# Towns have speed limits. This value, expressed in km/h, is the speed limit
+# value for urban roads in the game.
+# Default: 50
+# Set to 0 to disable town speed limits (roads will have their base speed limits in towns).
+# This only applies to roads.
+# 48 km/h = 30mph
+
+town_road_speed_limit = 48
+
+# How many private car routes tiles to process in a step.
+# With a higher number, routing data in game will be updated
+# more frequently. With a lower number, responsiveness will
+# be improved. Turn this down if there are frequent moments
+# of unresponsiveness.
+# 
+# Default: 1024
+# Setting to 0 means that all routes will be processed in
+# a step regardless of number.
+max_route_tiles_to_process_in_a_step = 1024
+
+# If the following setting is set to 1, private cars will assume
+# that they can reach anywhere on the map irrespective of the actual
+# road network. Private cars will not follow routes, but will drive
+# around semi-randomly at all times.
+#
+# Enabling this might improve performance on slow systems.
+# 
+# Default: 0
+
+assume_everywhere_connected_by_road = 0
+
+# After how many months a citycar will disappear
+# (by default: normally, this will be determined by the calculated journey time)
+# One day at current settings: 260s
+citycar_life = 1375
 
 ################################ Vehicle settings ##############################
 
 # These settings determine how vehicles take corners, for each individual type of way.  They
 # only apply to vehicles that use fixed ways (road, rail, monorail, etc.), and not aircraft or
-# ships.
-#
-# Corner adjustment facotor (min/max) (%): The percentage of the normal speed limit applied
-# on a 45 degree bend (for example, if the speed limit was 200kph, and the adjustment
-# factor set to 50, the speed limit on the corner would be 100kph). 
+# ships. Note that these settings have changed substantially from versions earlier than 11.
 # 
-# Corner limit (min/max) (kph): The minimum and maximum speed limits for phasing of the 
-# corner adjustment factor. On a way with the speed limit at or below the minimum limit,
-# the minimum adjustment factor applies. On a way with the limit at or above the maximum
-# speed limit, the maximum adjustment factor applies. Between the two, a phased proportion
-# of the adjustment factor applies as a linear function of the difference between the two.
-# For example, at halfway between the minimum and maximum speeds, halfway between the
-# minimum and maximum adjustment factors apply.
+# corner_force_divider_[way type]: The maximum force as a proportion of G (gravitational force)
+# that it is permissible for vehicles of this way type to experience when taking a corner. This
+# number is expressed as a divider: e.g., a value of 10 is 1/10th of G, or 0.1G. The higher this
+# number, the slower that vehicles have to travel in corners. 
 #
-# Direction steps (min/max) (number of tiles): The number of steps that the simulation takes
-# into account when determining how sharp that a corner is. For example, if the number is set
-# to 6, the corner speed limit will be based on the greatest difference in angle between the
-# current direction and the direction in which the vehicle was travelling over the last 6 tiles.
-# The higher the number, therefore, the more important that it is to have straight ways.
-# Higher numbers should be set for railways and track based ways, and lower numbers for roadways.
-# The direction steps are phased in the same way as the adjustment factor.
+# The explanation for this formula can be found here:
+# https://books.google.co.uk/books?id=NbYqQSQcE2MC&pg=PA30&lpg=PA30&dq=curve+radius+speed+limit+formula+rail&source=bl&ots=mbfC3lCnX4&sig=qClyuNSarnvL-zgOj4HlTVgYOr8&hl=en&sa=X&ei=sBGwVOSGHMyBU4mHgNAC&ved=0CCYQ6AEwATgK#v=onepage&q=curve%20radius%20speed%20limit%20formula%20rail&f=false
+# The value of 10 (i.e., 0.1G) is accurate for rail for modern practice in the UK. Road appears
+# to work well at 5 (0.2G), but the value is an estimate. Superelevation is not accounted for.
+# Tilting trains are defined for the individual vehicles.
 #
-# Curve friction factor (x): The number of times extra friction that applies as a vehicle corners.
-# Since the friction occasioned by cornering is not usually a significant speed limiting factor for
-# most transport vehicles, it is recommended to set this to 0. It is preserved for those who prefer
-# the Simutrans-Standard system of cornering.
+# curve_friction_factor_[way type]: The number of times extra friction that applies as a vehicle 
+# corners. 
 #
-# Reverting to the older cornering system: To make Simutrans behave in the conventional way (by
-# using friction rather than speed limits to reduce speed in corners), set the minimum and
-# maximum adjustment factors, and the minimum and maximum direction steps, to 1, and the friction
-# factor to 8. With those settings, the minimum and maximum speed will be irrelevant. 
+# tilting_min_radius_effect: The minimum radius of a corner (in meters, calibrated according
+# to the meters_per_tile setting) at which a tilting train can traverse a corner faster than
+# a non-tilting train. 
 
-max_corner_limit_road=200
-min_corner_limit_road=30
-max_corner_adjustment_factor_road=80
-min_corner_adjustment_factor_road=90
-min_direction_steps_road=2
-max_direction_steps_road=2
+corner_force_divider_road=5
+corner_force_divider_track=10
+corner_force_divider_tram=8
+corner_force_divider_monorail=10
+corner_force_divider_maglev=10
+corner_force_divider_narrowgauge=10
+
 curve_friction_factor_road=0
-
-max_corner_limit_track=425
-min_corner_limit_track=45
-max_corner_adjustment_factor_track=50
-min_corner_adjustment_factor_track=85
-min_direction_steps_track=8
-max_direction_steps_track=28
 curve_friction_factor_track=0
-
-max_corner_limit_tram=250
-min_corner_limit_tram=30
-max_corner_adjustment_factor_tram=70
-min_corner_adjustment_factor_tram=87
-min_direction_steps_tram=3
-max_direction_steps_tram=8
-curve_friction_factor_tram=0
-
-max_corner_limit_monorail=425
-min_corner_limit_monorail=75
-max_corner_adjustment_factor_monorail=62
-min_corner_adjustment_factor_monorail=90
-min_direction_steps_monorail=10
-max_direction_steps_monorail=32
+curve_friction_factor_tram=2
 curve_friction_factor_monorail=0
-
-max_corner_limit_maglev=500
-min_corner_limit_maglev=50
-max_corner_adjustment_factor_maglev=40
-min_corner_adjustment_factor_maglev=80
-min_direction_steps_maglev=8
-max_direction_steps_maglev=32
 curve_friction_factor_maglev=0
-
-max_corner_limit_narrowgauge=250
-min_corner_limit_narrowgauge=30
-max_corner_adjustment_factor_narrowgauge=66
-min_corner_adjustment_factor_narrowgauge=92
-min_direction_steps_narrowgauge=6
-max_direction_steps_narrowgauge=16
 curve_friction_factor_narrowgauge=0
 
-# These settings determine how long that it takes a train-type convoy to turn
-# around when it reaches the end of the line. They do not apply to road vehicles
-# or aircraft.
+# See here: http://self.gutenberg.org/article/WHEBN0019153780/Minimum%20railway%20curve%20radius
+tilting_min_radius_effect=375
+
+# These settings determine how long that it takes a road and rail vehicles to turn
+# around when it reaches the end of the line. They do not apply to boats or aircraft.
 #
-# "unit_reverse_time" refers to trains/convoys, such as multiple units, that have
+# "road_reverse_time_seconds" refers to road vehicles.
+#
+# "unit_reverse_time_seconds" refers to trains/convoys, such as multiple units, that have
 # a cab at each and, and can be driven in reverse without any re-arrangement of 
 # the order of the vehicles. These will generally take the least time to reverse.
 #
-# "hauled_reverse_time" refers to trains/convoys that cannot be driven from the
+# "hauled_reverse_time_seconds" refers to trains/convoys that cannot be driven from the
 # rear, so the locomotive at the front has to run around the train and attach
 # to the rear, but where that locomotive can itself be driven in either direction,
 # so that it does not need to turn around.
 #
-# "turntable_reverse_time" refers to trains/convoys that, as for the above category,
+# "turntable_reverse_time_seconds" refers to trains/convoys that, as for the above category,
 # cannot be driven from the rear, but that also require their locomotive to be turned
 # around to face the other direction (such as steam locomotives with tenders) at the
 # end of the journey. These will genearlly take the most time to reverse.
@@ -830,6 +1075,7 @@ curve_friction_factor_narrowgauge=0
 # "(unit_reverse_time)" etc. still work, but are overridden by the "..._seconds" version
 # where they are present. 
 
+road_reverse_time_seconds=30
 unit_reverse_time_seconds=60
 hauled_reverse_time_seconds=120
 turntable_reverse_time_seconds=360
@@ -842,45 +1088,88 @@ turntable_reverse_time_seconds=360
 # 2.0 and the global_power_factor_percent was set to 200, the vehicle would behave
 # as if it had a total power of 4,800kw. 
 #
-# The default is 100 (but should be set to 50% for Standard paksets).
+# The force factor percent has the same effect for tractive effort. 
+#
+# The default is 100 (but should be set to 50% for Standard paksets
+# in the case of the power factor only).
 
 global_power_factor_percent=100
+global_force_factor_percent=100
 
 # This setting allows the way in which weight limits are enforced to be customised.
-# If enforce_weight_limits is set to 0, weight limits are ignored entirely. If
-# enforce_weight_limits is set to 1, then vehicles can travel over roads, rails,
-# tunnels and bridges for which they are too heavy, but only at greatly reduced
-# speed. If enforce_weight_limits is set to 2, then vehicles cannot travel over
-# ways for which they are overweight at all. 
+# The meanings of each setting are as follows:
+# 0: weight limits are ignored entirely. 
+# 1: then vehicles can travel over roads, rails, tunnels and bridges for which they are too heavy, but only at greatly reduced speed. 
+# 2: Vehicles cannot travel over ways for which they are overweight at all. 
+# 3: Vehciles cannot travel over ways for which they are more than 10% overweight at all, and will travel on ways for which they are up to 10% overweight at a greatly reduced speed.
 #
 # To revert to the behaviour of Simutrans-Standard, set enforce_weight_limits=0
 
-enforce_weight_limits=2
+enforce_weight_limits=3
 
 # This setting controls whether players are permitted to buy vehicles after their
 # retirement date. The default, allow_buying_obsolete_vehicles=1, allows players
 # to buy old vehicles by clicking a "Show obsolete" button in the depot / replacer
 # window. This button is not shown if this is set to 0.
+#
+# If this is set to 2, players can buy vehicles after their retirement date, but
+# not after they have become obsolete. 
 
 allow_buying_obsolete_vehicles=0
 
 # This allows for a "driving it off the lot" drop in value.
-# This is not on by default, even in Experimental.
-# vehicle can loose a part of their value, when they are once used
-# the loss is given in 1/1000th, i.e 300 mean the value will be 70%
+# This is not on by default, even in Extended.
+# Vehicle can lose a part of their value when they have been used
+# the loss is given in 1/1000ths, i.e 300 mean the value will be 70%
 
 used_vehicle_reduction=1
 
+# This is the distance in meters at which train drivers can see signals ahead.
+# Trains have to brake in time for signals which might be at danger, so this
+# distance affects train speed. 
+
+sighting_distance_meters = 875
+
+# This is the maximum speed at which rail (including narrow gauge, monorail and maglev)
+# vehicles may travel in the drive by sight working method. 0 = as fast as they can
+# stop in time with no other limit. 
+#
+# This is specified separately for trams.
+
+max_speed_drive_by_sight_kmh = 35
+max_speed_drive_by_sight_tram_kmh = 50
+
+# Corners of greater than 45 degrees have their radius calculated. However, because of 
+# the rigid tile system in Simutrans, this produces unrealistic results when applied
+# to corners of 45 degrees. A value is thus specified here. This affects the speed
+# at which vehicles can take pairs of directionally correcting 45 degree corners
+# (i.e. not a pair of 45 degree corners which between them add up to 90 degrees,
+# which can be calculated more easily and are dealt with by a separate system). 
+#
+# If this is set to 0, pairs of self-correcting 45 degree corners are treated
+# as being straight.
+# 
+# For any other value, this serves as a minimum assumed radius for any given pair
+# of self-correcting 45 degree corners. A calculated value will be used to work
+# out what the radius of the self-correcting corners should be, but, because of 
+# the rigid tile system in Simutrans, it is not possible to make gentle corners,
+# so set this as a minimum to allow for this. 
+#
+assumed_curve_radius_45_degrees = 750
 
 ############################### Display settings ###############################
 
-# how long is a diagonal (512: faktor 2=1024/512, old way, 724: sqrt(2)=1024/724
+# how long is a diagonal (512: factor 2=1024/512, old way, 724: sqrt(2)=1024/724
 # THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
 #diagonal_multiplier = 724
 
-# Show info windows for private cars and pedestrians?
+# Show info windows for private cars?
 # (1=on, 0=off)
-pedes_and_car_info = 1
+privatecar_info = 1
+
+# Show info windows for pedestrians?
+# (1=on, 0=off)
+pedestrian_info = 0
 
 # Show infos on trees?
 # (1=on, 0=off)
@@ -889,6 +1178,10 @@ tree_info = 1
 # Show passenger level of townhalls?
 # (1=on, 0=off)
 townhall_info = 1
+
+# Show infos also on bare ground?
+# (1=on, 0=off)
+ground_info = 1
 
 # always open only a single info window for the ground,
 # even if there are more objects on this tile
@@ -908,18 +1201,46 @@ numbered_stations = 0
 #   8 = box left of name in yellow outline
 show_names = 7
 
-# After how many months a citycar breaks (and will be forever gone) ...
-# one day at current settings: 260s
-citycar_life = 1375
-
 # Colour of the cursor shading.
 # Pak128 default = 155 (orange)
 # Pak128.Britain default = 158 (yellow)
 cursor_overlay_color = 158
 
-# how height is a tile in z-direction (default 16, TTD 8)
-# THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
-tile_height = 16
+# Waytype colour codes. Note the US spelling of "color".
+# All
+waytype_color[0] = #aaaaaa
+# road
+waytype_color[1] = #cf2b2b
+# rail
+waytype_color[2] = #5eb140
+# ship
+waytype_color[3] = #6588c4
+# monorail
+waytype_color[5] = #aaaaaa
+# maglev
+waytype_color[6] = #eae692
+# tram
+waytype_color[7] = #d8961a
+# narrowgauge
+waytype_color[8] = #a878a4
+# air
+waytype_color[9] = #91cbd0
+
+# The below settings give an offset in pixels per direction for each vehicle 
+# when it is in a reversed state. This allows paksets whose vehicle alignments are
+# not fully centered to have vehicles reversing algorithmically and allowing them
+# to be properly aligned in game when they are reversed. 
+# 
+# By default, all of these values are 0.
+#
+reverse_base_offset_south = 4, -1, 34
+reverse_base_offset_west = -1, 0, 2
+reverse_base_offset_southwest = 0, 0, 0
+reverse_base_offset_southeast = 0, 4, 0
+reverse_base_offset_north = -1, 0, 14
+reverse_base_offset_east = -3, -2, 32
+reverse_base_offset_northeast = 0, 0, 0
+reverse_base_offset_northwest = 0, -4, 0
 
 ################################### River settings ##################################
 
@@ -931,7 +1252,8 @@ river_type[2] = River2a
 river_type[3] = River2
 river_type[4] = River1a
 river_type[5] = River1
-river_type[6] = River0
+river_type[6] = River0a
+river_type[7] = River0
 
 # The number of rivers
 river_number = 128
@@ -949,6 +1271,8 @@ river_max_length = 4096
 
 # Number of trees on square 2 - minimal usable, 3 good, 5 very nice looking
 forest_no_of_trees_per_square = 3
+
+# All following tree options are only active during map generation/extension.
 
 # Base forest size - minimal size of forest - map independent
 forest_base_size = 36
@@ -978,12 +1302,20 @@ no_tree_climates = 130
 
 # if set, no trees will be created at all (save about 30% memory and
 # the season change will be much smoother on small machines)
-no_tree = 0
+no_trees = 0
+
+# if set, no lakes will be created at all
+# Note that lakes do not work well with rivers at present:
+# rivers terminate in lakes no matter how large the river
+# nor how small the lake, and there are no outlets to the sea.
+no_lakes = 1
 
 ################################### Network settings ##############################
 
+# Most network settings are found in the base simuconf.tab
+
 # Pakset download URL (for display on the list server)
-server_pakurl = https://github.com/downloads/jamespetts/simutrans-pak128.britain/Pak128.Britain-Ex.zip
+server_pakurl = http://bridgewater-brunel.me.uk/downloads/nightly/pakset/pak128.britain-ex-nightly.tar.gz
 
 
 ################################### Livery settings ##################################
@@ -1017,21 +1349,26 @@ server_pakurl = https://github.com/downloads/jamespetts/simutrans-pak128.britain
 # intro_year[1][1] = 1960
 # intro_month[1][1] = 4
 
+# Late retirement to accommodate Regional Railways livery being introduced only in 1990.
 livery_scheme[0] = British-Railways
-retire_year[0] = 1986
-retire_month[0] = 6
+retire_year[0] = 1990
+retire_month[0] = 12
 livery[0][0] = BR-Early
 intro_year[0][0] = 1948
 intro_month[0][0] = 1
-livery[0][1] = BR-Revised
-intro_year[0][1] = 1956
-intro_month[0][1] = 2
-livery[0][2] = BR-Blue
-intro_year[0][2] = 1966
-intro_month[0][2] = 6
-livery[0][3] = BR-Large-Logo
-intro_year[0][3] = 1979
+# Used only for steam locomotives for which "early" is the express passenger blue.
+livery[0][1] = BR-Green
+intro_year[0][1] = 1951
+intro_month[0][1] = 11
+livery[0][2] = BR-Revised
+intro_year[0][2] = 1956
+intro_month[0][2] = 2
+livery[0][3] = BR-Blue
+intro_year[0][3] = 1966
 intro_month[0][3] = 6
+livery[0][4] = BR-Large-Logo
+intro_year[0][4] = 1979
+intro_month[0][4] = 6
 
 livery_scheme[1] = LNWR
 retire_year[1] = 1923
@@ -1079,19 +1416,21 @@ livery[4][1] = SR-Malachite-Green
 intro_year[4][1] = 1937
 intro_month[4][1] = 9
 
+# Midland Railway
 livery_scheme[5] = MR
 retire_year[5] = 1923
 retire_month[5] = 1
 livery[5][0] = MR-Early
 intro_year[5][0] = 1844
-intro_month[5][0] = 1
+intro_month[5][0] = 11
 livery[5][1] = MR-Standard
 intro_year[5][1] = 1883
 intro_month[5][1] = 6
 
 livery_scheme[6] = Royal-Mail
-retire_year[6] = 1986
-retire_month[6] = 6
+# Should be 1995, but we have no EWS livery
+retire_year[6] = 2003
+retire_month[6] = 12
 livery[6][0] = RM-Early
 intro_year[6][0] = 1952
 intro_month[6][0] = 2
@@ -1129,12 +1468,12 @@ livery[9][1] = LNER-Cornoation
 intro_year[9][1] = 1937
 intro_month[9][1] = 7
 
-livery_scheme[10] = GW-Franchise
+livery_scheme[10] = First-Group
 retire_year[10] = 2500
 retire_month[10] = 1
 livery[10][0] = GWT
-intro_year[10][0] = 1996
-intro_month[10][0] = 2
+intro_year[10][0] = 1995
+intro_month[10][0] = 12
 livery[10][1] = FGW-Green
 intro_year[10][1] = 1998
 intro_month[10][1] = 9
@@ -1144,6 +1483,9 @@ intro_month[10][2] = 4
 livery[10][3] = Firstgroup-Neon
 intro_year[10][3] = 2006
 intro_month[10][3] = 10
+livery[10][4] = Firstgroup-GWR
+intro_year[10][4] = 2015
+intro_month[10][4] = 9
 
 livery_scheme[11] = ECML-Franchise
 retire_year[11] = 2500
@@ -1157,6 +1499,12 @@ intro_month[11][1] = 3
 livery[11][2] = East-Coast
 intro_year[11][2] = 2010
 intro_month[11][2] = 1
+livery[11][3] = VTEC
+intro_year[11][3] = 2015
+intro_month[11][3] = 3
+livery[11][4] = LNER
+intro_year[11][4] = 2018
+intro_month[11][4] = 6
 
 livery_scheme[12] = Grand-Central
 retire_year[12] = 2500
@@ -1181,16 +1529,28 @@ intro_month[13][1] = 9
 livery_scheme[14] = NSE
 retire_year[14] = 1995
 retire_month[14] = 4
-livery[14][0] = NSE-Standard
-intro_year[14][0] = 1986
-intro_month[14][0] = 6
+livery[14][0] = Jaffa-Cake
+intro_year[14][0] = 1985
+intro_month[14][0] = 3
+livery[14][1] = NSE-Standard
+intro_year[14][1] = 1986
+intro_month[14][1] = 6
+livery[14][2] = NSE-Revised
+intro_year[14][2] = 1989
+intro_month[14][2] = 9
 
 livery_scheme[15] = Regional-Railways
-retire_year[15] = 1995
+retire_year[15] = 1997
 retire_month[15] = 4
-livery[15][0] = Regional-Railways-Standard
+livery[15][0] = Provincial
 intro_year[15][0] = 1986
 intro_month[15][0] = 6
+livery[15][1] = Sprinter
+intro_year[15][1] = 1987
+intro_month[15][1] = 12
+livery[15][2] = Regional-Railways-Standard
+intro_year[15][2] = 1990
+intro_month[15][2] = 12
 
 livery_scheme[16] = London-Transport
 retire_year[16] = 2500
@@ -1201,9 +1561,26 @@ intro_month[16][0] = 1
 livery[16][1] = LT
 intro_year[16][1] = 1933
 intro_month[16][1] = 1
-livery[16][2] = LUL
-intro_year[16][2] = 1990
-intro_month[16][2] = 5
+# This is for the R-stock and all over red 'buses
+livery[16][2] = LT-revised
+intro_year[16][2] = 1952
+intro_month[16][2] = 3
+livery[16][3] = London-Buses
+intro_year[16][3] = 1987
+intro_month[16][3] = 6
+livery[16][4] = LUL
+intro_year[16][4] = 1990
+intro_month[16][4] = 5
+livery[16][5] = LOROL
+intro_year[16][5] = 2007
+intro_month[16][5] = 1
+livery[16][6] = TfL-Rail
+intro_year[16][6] = 2015
+intro_month[16][6] = 5
+livery[16][7] = LO-revised
+intro_year[16][7] = 2018
+#month estimated
+intro_month[16][7] = 5
 
 livery_scheme[17] = Island-Line
 retire_year[17] = 2500
@@ -1218,12 +1595,16 @@ intro_month[17][1] = 1
 livery_scheme[18] = GNR
 retire_year[18] = 1923
 retire_month[18] = 1
-livery[18][0] = GNR-Standard
+livery[18][0] = GNR-early
 intro_year[18][0] = 1846
 intro_month[18][0] = 6
+livery[18][1] = GNR-Standard
+intro_year[18][1] = 1870
+intro_month[18][1] = 1
 
 # Special generic livery for assorted
 # liveries of non-London 'buses
+# TODO: Replace this with specific livery schemes.
 livery_scheme[19] = Regional
 retire_year[19] = 2500
 retire_month[19] = 1
@@ -1231,25 +1612,37 @@ livery[19][0] = Non-London
 intro_year[19][0] = 1750
 intro_month[19][0] = 1
 
-# See: http://www.gersociety.org.uk/index.php?option=com_content&view=article&id=23&Itemid=32
+# Great Eastern/Eastern Counties
+# See Carter p. 37 and https://www.gersociety.org.uk/index.php/locomotives/liveries
+# The ECR is usually regarded as having changed its name to GER and
+# absorbed other companies, rahter than being a separate predecessor.
+# Assume all coaches varnished unless otherwise stated.
 livery_scheme[20] = GER
 retire_year[20] = 1923
 retire_month[20] = 1
-livery[20][0] = GER-Pea-Green
-intro_year[20][0] = 1863
-intro_month[20][0] = 1
-# Similar to early Midland green
+# Locomotives light/pea green with black bands, chocolate coloured frames
+# Green buffer beams
+livery[20][0] = ECR-standard
+intro_year[20][0] = 1839
+intro_month[20][0] = 2
+# Locomotives "a darker green with green buffer beams" (probably similar to early Midland green).
+# Some locomotives "canary" yellow.
 livery[20][1] = GER-Dark-Green
-intro_year[20][1] = 1869
+intro_year[20][1] = 1866
 intro_month[20][1] = 5
+# Locomotives black, lined in red
 livery[20][2] = GER-Black
-intro_year[20][2] = 1876
+intro_year[20][2] = 1873
 intro_month[20][2] = 8
 # Black for goods locomotives
 livery[20][3] = GER-Ultramarine
 intro_year[20][3] = 1882
 intro_month[20][3] = 5
 # Wartime livery was mid grey.
+# Coaches crimson lake, lined in gold
+livery[20][4] = GER-late
+intro_year[20][4] = 1919
+intro_month[20][4] = 1
 
 livery_scheme[21] = FR
 retire_year[21] = 2500
@@ -1324,13 +1717,6 @@ livery[25][1] = P&O-European-Ferries
 intro_year[25][1] = 1987
 intro_month[25][1] = 10
 
-livery_scheme[26] = Hoverlloyd
-retire_year[26] = 1981
-retire_month[26] = 11
-livery[26][0] = Hoverlloyd-Standard
-intro_year[26][0] = 1966
-intro_month[26][0] = 4
-
 livery_scheme[26] = Seaspeed
 retire_year[26] = 1981
 retire_month[26] = 11
@@ -1361,7 +1747,8 @@ intro_year[28][0] = 1965
 intro_month[28][0] = 8
 
 # For canal boats. Can also be used for 
-# small road freight vehicles.
+# small road freight vehicles or aicraft
+# with charter or generic liveries.
 livery_scheme[29] = Private-operator
 retire_year[29] = 2500
 retire_month[29] = 1
@@ -1375,3 +1762,1137 @@ retire_month[30] = 1
 livery[30][0] = BW-Standard
 intro_year[30][0] = 1948
 intro_month[30][0] = 1
+
+livery_scheme[31] = Scotrail
+retire_year[31] = 2500
+retire_month[31] = 1
+livery[31][0] = Scotrail-original
+intro_year[31][0] = 1983
+intro_month[31][0] = 5
+livery[31][1] = Scotrail-NE
+intro_year[31][1] = 1995
+intro_month[31][1] = 4
+livery[31][2] = First-Scotrail
+intro_year[31][2] = 2004
+intro_month[31][2] = 10
+livery[31][3] = Scotrail-Saltire
+intro_year[31][3] = 2010
+intro_month[31][3] = 6
+
+livery_scheme[32] = Blackpool
+retire_year[32] = 2500
+retire_month[32] = 1
+livery[32][0] = Blackpool-red
+intro_year[32][0] = 1890
+intro_month[32][0] = 4
+livery[32][1] = Blackpool-green
+intro_year[32][1] = 1933
+intro_month[32][1] = 3
+livery[32][2] = Blackpool-green-postwar
+intro_year[32][2] = 1945
+intro_month[32][2] = 7
+livery[32][3] = Blackpool-purple
+intro_year[32][3] = 2012
+intro_month[32][3] = 4
+
+# Including SYPTE
+livery_scheme[33] = Sheffield
+retire_year[33] = 2999
+retire_month[33] = 1
+livery[33][0] = Sheffield-dark
+intro_year[33][0] = 1896
+intro_month[33][0] = 4
+livery[33][1] = Sheffield-light
+intro_year[33][1] = 1936
+intro_month[33][1] = 2
+livery[33][2] = SYPTE
+intro_year[33][2] = 1974
+intro_month[33][2] = 4
+# For the Super-tram
+livery[33][3] = Sheffield-modern
+intro_year[33][3] = 1994
+intro_month[33][3] = 3
+
+livery_scheme[34] = LCC
+retire_year[34] = 1933
+retire_month[34] = 7
+livery[34][0] = LCC-plum
+intro_year[34][0] = 1896
+intro_month[34][0] = 4
+livery[34][1] = LCC-red
+intro_year[34][1] = 1926
+intro_month[34][1] = 3
+
+livery_scheme[35] = LUT
+retire_year[35] = 1933
+retire_month[35] = 7
+# There were other liveries before vermillion, but information on them is scarce.
+# Vermillion was actally introduced in 1909.
+livery[35][0] = LUT-vermillion
+intro_year[35][0] = 1900
+intro_month[35][0] = 1
+
+livery_scheme[36] = Tramlink
+retire_year[36] = 2500
+retire_month[36] = 1
+livery[36][0] = Tramlink-red
+intro_year[36][0] = 1998
+intro_month[36][0] = 3
+livery[36][1] = Tramlink-green
+intro_year[36][1] = 2006
+intro_month[36][1] = 5
+
+livery_scheme[37] = Metrolink
+retire_year[37] = 2500
+retire_month[37] = 1
+livery[37][0] = Metrolink-original
+intro_year[37][0] = 1992
+intro_month[37][0] = 1
+livery[37][1] = Metrolink-yellow
+intro_year[37][1] = 2008
+intro_month[37][1] = 7
+
+livery_scheme[38] = WMPTE
+retire_year[38] = 2999
+retire_month[38] = 1
+livery[38][0] = Birmingham-Corporation
+intro_year[38][0] = 1899
+intro_month[38][0] = 3
+livery[38][1] = WMPTE-Blue-cream
+intro_year[38][1] = 1969
+intro_month[38][1] = 1
+livery[38][2] = WMT
+intro_year[38][2] = 1986
+intro_month[38][2] = 10
+livery[38][3] = Centro
+intro_year[38][3] = 1991
+intro_month[38][3] = 5
+livery[38][4] = Central-Trains
+intro_year[38][4] = 1997
+intro_month[38][4] = 3
+livery[38][5] = Midland-Metro
+intro_year[38][5] = 1996
+intro_month[38][5] = 4
+livery[38][6] = NWM
+intro_year[38][6] = 2008
+intro_month[38][6] = 7
+livery[38][7] = west-midlands-network
+intro_year[38][7] = 2018
+intro_month[38][7] = 7
+
+livery_scheme[39] = BOAC
+retire_year[39] = 1974
+retire_month[39] = 3
+livery[39][0] = BOAC-unpainted
+intro_year[39][0] = 1939
+intro_month[39][0] = 11
+livery[39][1] = BOAC-speedbird
+intro_year[39][1] = 1946
+intro_month[39][1] = 1
+
+livery_scheme[40] = BEA
+retire_year[40] = 1974
+retire_month[40] = 3
+livery[40][0] = BEA-unpainted
+intro_year[40][0] = 1946
+intro_month[40][0] = 1
+livery[40][1] = BEA-red-line
+intro_year[40][1] = 1951
+intro_month[40][1] = 2
+livery[40][2] = BEA-red-square
+intro_year[40][2] = 1959
+intro_month[40][2] = 9
+livery[40][3] = BEA-speedjack
+intro_year[40][3] = 1969
+intro_month[40][3] = 1
+
+livery_scheme[41] = BA
+retire_year[41] = 2500
+retire_month[41] = 1
+livery[41][0] = BA-Union-flag
+intro_year[41][0] = 1974
+intro_month[41][0] = 3
+livery[41][1] = BA-Landor
+intro_year[41][1] = 1986
+intro_month[41][1] = 9
+livery[41][2] = BA-new
+intro_year[41][2] = 1997
+intro_month[41][2] = 4
+
+livery_scheme[42] = Dan-Air
+retire_year[42] = 1992
+retire_month[42] = 11
+livery[42][0] = Dan-Air-Early
+intro_year[42][0] = 1953
+intro_month[42][0] = 4
+# http://www.airliners.net/photo/Dan-Air-London/De-Havilland-DH-106/1274037/L/
+# Introduction date guessed
+livery[42][1] = Dan-Air-White-Tail
+intro_year[42][1] = 1960
+intro_month[42][1] = 7
+# http://www.airliners.net/photo/Dan-Air-London/Boeing-707-321/1274058/L/
+# Introduction date guessed
+livery[42][2] = Dan-Air-Red-Tail
+intro_year[42][2] = 1970
+intro_month[42][2] = 1
+# http://www.airliners.net/photo/Dan-Air/Boeing-727-2D3-Adv/1002341/L/
+# Introduction date guessed
+livery[42][3] = Dan-Air-Red-Blue
+intro_year[42][3] = 1981
+intro_month[42][3] = 5
+
+livery_scheme[43] = Metropolitan
+retire_year[43] = 1933
+retire_month[43] = 1
+livery[43][0] = Metropolitan-Green
+intro_year[43][0] = 1863
+intro_month[43][0] = 1
+livery[43][1] = Metropolitan-Red
+intro_year[43][1] = 1885
+intro_month[43][1] = 5
+# Guessed - no easy information available on Metropolitan liveries. There might be more than represented here.
+livery[43][2] = Metropolitan-Late
+intro_year[43][2] = 1915
+intro_month[43][2] = 7
+
+livery_scheme[44] = District
+retire_year[44] = 1933
+retire_month[44] = 1
+livery[44][0] = District-Standard
+intro_year[44][0] = 1869
+intro_month[44][0] = 4
+
+livery_scheme[45] = LYR
+retire_year[45] = 1923
+retire_month[45] = 1
+livery[45][0] = LYR-Dark-Green
+intro_year[45][0] = 1847
+intro_month[45][0] = 7
+livery[45][1] = LYR-Light-Green
+intro_year[45][1] = 1876
+intro_month[45][1] = 4
+livery[45][2] = LYR-Black
+intro_year[45][2] = 1883
+intro_month[45][2] = 8
+
+livery_scheme[46] = LTSR
+retire_year[46] = 1912
+retire_month[46] = 8
+livery[46][0] = LTSR-standard
+intro_year[46][0] = 1875
+intro_month[46][0] = 1
+
+# https://en.wikipedia.org/wiki/London_and_South_Western_Railway#Locomotive_engineers.2C_works_and_corporate_liveries
+# See also Carter, p. 127 onwards
+livery_scheme[47] = LSWR
+retire_year[47] = 1923
+retire_month[47] = 1
+# Details of carriage liveries hard to obtain for the early period:
+# assume varnished until stated otherwise.
+livery[47][0] = LSWR-early
+intro_year[47][0] = 1838
+intro_month[47][0] = 1
+livery[47][1] = LSWR-Indian-red
+intro_year[47][1] = 1850
+intro_month[47][1] = 6
+livery[47][2] = LSWR-chocolate-brown
+intro_year[47][2] = 1866
+intro_month[47][2] = 2
+# Carriages brown lowers with cream "of a dark greenish hue" uppers.
+# Brake ends vermillion
+livery[47][3] = LSWR-purple-brown
+intro_year[47][3] = 1872
+intro_month[47][3] = 10
+livery[47][4] = LSWR-umber
+intro_year[47][4] = 1878
+intro_month[47][4] = 6
+# Carriages all-over chocolate
+livery[47][5] = LSWR-pea-green
+intro_year[47][5] = 1885
+intro_month[47][5] = 9
+# Salmon/chocolate carriages
+livery[47][6] = LSWR-royal-green
+intro_year[47][6] = 1895
+intro_month[47][6] = 1
+livery[47][7] = LSWR-sage
+intro_year[47][7] = 1914
+intro_month[47][7] = 3
+
+livery_scheme[48] = Mersey-Railway
+retire_year[48] = 1948
+retire_month[48] = 1
+livery[48][0] = Mersey-Railway-Standard
+intro_year[48][0] = 1886
+intro_month[48][0] = 1
+
+# http://www.lner.info/co/NER/livery.php
+livery_scheme[49] = North-Eastern
+retire_year[49] = 1923
+retire_month[49] = 1
+livery[49][0] = NER-early
+intro_year[49][0] = 1854
+intro_month[49][0] = 1
+livery[49][1] = NER-standard
+intro_year[49][1] = 1885
+intro_month[49][1] = 7
+# Goods locomotives only
+livery[49][2] = NER-late
+intro_year[49][2] = 1903
+intro_month[49][2] = 10
+
+livery_scheme[50] = SECR
+retire_year[50] = 1923
+retire_month[50] = 1
+livery[50][0] = SECR-standard
+intro_year[50][0] = 1899
+intro_month[50][0] = 4
+
+livery_scheme[51] = Colas-Rail
+retire_year[51] = 2999
+retire_month[51] = 9
+livery[51][0] = Colas-Standard
+intro_year[51][0] = 2007
+intro_month[51][0] = 9
+
+livery_scheme[52] = Freightliner
+retire_year[52] = 2999
+retire_month[52] = 9
+livery[52][0] = Freightliner-early
+intro_year[52][0] = 1995
+intro_month[52][0] = 5
+livery[52][1] = Freightliner-green
+intro_year[52][1] = 1998
+intro_month[52][1] = 9
+
+# There are multiple DRS liveries, but it is very hard to find details of them. 
+livery_scheme[53] = DRS
+retire_year[53] = 2999
+retire_month[53] = 9
+livery[53][0] = DRS-Standard
+intro_year[53][0] = 1995
+intro_month[53][0] = 4
+
+livery_scheme[54] = Chiltern
+retire_year[54] = 2999
+retire_month[54] = 9
+livery[54][0] = Chiltern-Standard
+intro_year[54][0] = 1996
+intro_month[54][0] = 7
+livery[54][1] = Chiltern-Mainline
+intro_year[54][1] = 2011
+intro_month[54][1] = 9
+
+livery_scheme[55] = London-Midland
+retire_year[55] = 2999
+retire_month[55] = 9
+livery[55][0] = LM-Standard
+intro_year[55][0] = 2007
+intro_month[55][0] = 11
+livery[55][1] = LNwR
+intro_year[55][1] = 2017
+intro_month[55][1] = 12
+livery[55][2] = Silverlink
+intro_year[55][2] = 1997
+intro_month[55][2] = 3
+
+livery_scheme[56] = Northern-Franchise
+retire_year[56] = 2999
+retire_month[56] = 9
+livery[56][0] = Northern-Spirit
+intro_year[56][0] = 1997
+intro_month[56][0] = 3
+livery[56][1] = Arriva-Trains-Northern
+intro_year[56][1] = 2001
+intro_month[56][1] = 4
+livery[56][2] = Northern-Rail
+intro_year[56][2] = 2004
+intro_month[56][2] = 12
+livery[56][3] = Northern
+intro_year[56][3] = 2016
+intro_month[56][3] = 4
+
+livery_scheme[57] = Strathclyde
+retire_year[57] = 2008
+retire_month[57] = 9
+livery[57][0] = Trans-Clyde
+intro_year[57][0] = 1972
+intro_month[57][0] = 1
+livery[57][1] = Strathclyde-orange-black
+intro_year[57][1] = 1983
+intro_month[57][1] = 3
+livery[57][2] = Strathclyde-carmine-cream
+intro_year[57][2] = 1996
+intro_month[57][2] = 6
+livery[57][3] = STP
+intro_year[57][3] = 2006
+intro_month[57][3] = 4
+
+livery_scheme[58] = Transport-Scotland
+retire_year[58] = 2999
+retire_month[58] = 9
+livery[58][0] = Saltire
+intro_year[58][0] = 2008
+intro_month[58][0] = 9
+
+livery_scheme[59] = Go-Ahead-London
+retire_year[59] = 2999
+retire_month[59] = 11
+livery[59][0] = London-Central
+intro_year[59][0] = 1989
+intro_month[59][0] = 4
+livery[59][1] = Go-Ahead
+intro_year[59][1] = 2008
+intro_month[59][1] = 8
+
+livery_scheme[60] = GMPTE
+retire_year[60] = 2999
+retire_month[60] = 9
+livery[60][0] = SELNEC
+intro_year[60][0] = 1969
+intro_month[60][0] = 4
+livery[60][1] = GMPTE-orange-brown
+intro_year[60][1] = 1974
+intro_month[60][1] = 4
+# https://en.wikipedia.org/wiki/GM_Buses
+livery[60][2] = GM-buses
+intro_year[60][2] = 1986
+intro_month[60][2] =10
+# This is a railway livery (class 323)
+livery[60][3] = GMPTE-black-red
+intro_year[60][3] = 1991
+intro_month[60][3] = 5
+livery[60][4] = TfGM
+intro_year[60][4] = 2011
+intro_month[60][4] = 4
+
+livery_scheme[61] = Arriva
+retire_year[61] = 2999
+retire_month[61] = 12
+livery[61][0] = Arriva-original
+intro_year[61][0] = 1997
+intro_month[61][0] = 11
+livery[61][1] = Arriva-modified
+intro_year[61][1] = 2008
+intro_month[61][1] = 12
+
+livery_scheme[62] = Anglia
+retire_year[62] = 2999
+retire_month[62] = 12
+livery[62][0] = Anglia-original
+intro_year[62][0] = 1997
+intro_month[62][0] = 1
+livery[62][1] = One
+intro_year[62][1] = 2004
+intro_month[62][1] = 4
+livery[62][2] = NXEA
+intro_year[62][2] = 2008
+intro_month[62][2] = 2
+livery[62][3] = Abellio-Greater-Anglia
+intro_year[62][3] = 2012
+intro_month[62][3] = 2
+
+livery_scheme[63] = South-Central
+retire_year[63] = 2999
+retire_month[63] = 12
+livery[63][0] = Connex-South-Central
+intro_year[63][0] = 1996
+intro_month[63][0] = 5
+livery[63][1] = Southern
+intro_year[63][1] = 2001
+intro_month[63][1] = 8
+
+livery_scheme[64] = SWT
+retire_year[64] = 2999
+retire_month[64] = 12
+livery[64][0] = SWT-orange-stripe
+intro_year[64][0] = 1996
+intro_month[64][0] = 2
+livery[64][1] = SWT-standard
+intro_year[64][1] = 2000
+intro_month[64][1] = 6
+livery[64][2] = SWT-modified
+intro_year[64][2] = 2013
+intro_month[64][2] = 10
+livery[64][3] = SWR
+intro_year[64][3] = 2017
+intro_month[64][3] = 8
+
+livery_scheme[65] = Hull-Trains
+retire_year[65] = 2029
+retire_month[65] = 12
+livery[65][0] = HullTrains
+intro_year[65][0] = 2000
+intro_month[65][0] = 12
+
+livery_scheme[66] = East-Midlands
+retire_year[66] = 2999
+retire_month[66] = 1
+livery[66][0] = Midland-Mainline
+intro_year[66][0] = 1996
+intro_month[66][0] = 4
+livery[66][1] = East-Midlands-Trains
+intro_year[66][1] = 2007
+intro_month[66][1] = 11
+livery[66][2] = East-Midlands-Railway
+intro_year[66][2] = 2019
+intro_month[66][2] = 8
+
+livery_scheme[67] = South-Eastern
+retire_year[67] = 2999
+retire_month[67] = 1
+livery[67][0] = Connex-South-Eastern
+intro_year[67][0] = 1996
+intro_month[67][0] = 10
+livery[67][1] = South-Eastern-Trains
+intro_year[67][1] = 2003
+intro_month[67][1] = 11
+livery[67][2] = southeastern
+intro_year[67][2] = 2006
+intro_month[67][2] = 4
+livery[67][3] = southeastern-blue
+intro_year[67][3] = 2015
+intro_month[67][3] = 5
+
+livery_scheme[68] = Gatwick-Express
+retire_year[68] = 2999
+retire_month[68] = 1
+# This is put as a single livery on the basis that no one type of rolling stock has ever carried more than one type of Gatwick Express livery
+livery[68][0] = GATEX
+intro_year[68][0] = 1984
+intro_month[68][0] = 5
+
+livery_scheme[69] = Heathrow-Express
+retire_year[69] = 2999
+retire_month[69] = 1
+# Includes Heathrow Connect as no one vehicle operates both types of service.
+livery[69][0] = HEX
+intro_year[69][0] = 1998
+intro_month[69][0] = 6
+
+livery_scheme[70] = London-General
+retire_year[70] = 1933
+retire_month[70] = 1
+# The all over dark red livery
+livery[70][0] = General-early
+intro_year[70][0] = 1855
+intro_month[70][0] = 4
+livery[70][1] = General
+# Guessed
+intro_year[70][1] = 1919
+intro_month[70][1] = 1
+livery[70][2] = General-Country
+intro_year[70][2] = 1932
+intro_month[70][2] = 5
+
+# http://www.aim25.ac.uk/cgi-bin/vcdf/detail?coll_id=13315&inst_id=118
+livery_scheme[71] = East-Surrey
+retire_year[71] = 1932
+retire_month[71] = 5
+livery[71][0] = E-Surrey-Blue
+intro_year[71][0] = 1911
+intro_month[71][0] = 3
+livery[71][1] = E-Surrey-Red
+intro_year[71][1] = 1923
+intro_month[71][1] = 6
+
+livery_scheme[72] = Tilling
+retire_year[72] = 1933
+retire_month[72] = 1
+livery[72][0] = Tilling-early
+intro_year[72][0] = 1897
+intro_month[72][0] = 4
+# Difficult to find information about livery progression
+# Below guessed
+livery[72][1] = Tilling-standard
+intro_year[72][1] = 1924
+intro_month[72][1] = 5
+
+# See here for some information on London Country liveries:
+# http://www.ampyx.org.uk/lcountry/history.html
+
+# https://en.wikipedia.org/wiki/London_Country_Bus_Services
+# See the below for information on the two different types of London Country liveries in the 1930s
+# http://www.countrybus.org/STL/STL07.htm
+livery_scheme[73] = London-Country
+retire_year[73] = 1972
+retire_month[73] = 4
+livery[73][0] = LT-Green
+intro_year[73][0] = 1933
+intro_month[73][0] = 1
+livery[73][1] = LT-Green-modified
+intro_year[73][1] = 1939
+intro_month[73][1] = 3
+livery[73][2] = LT-Green-revised
+intro_year[73][2] = 1952
+intro_month[73][2] = 6
+livery[73][3] = London-Country-standard
+intro_year[73][3] = 1970
+intro_month[73][3] = 1
+
+# https://en.wikipedia.org/wiki/Green_Line_Coaches
+livery_scheme[74] = Green-Line
+retire_year[74] = 1972
+retire_month[74] = 4
+livery[74][0] = Green-Line-Coaches
+intro_year[74][0] = 1930
+intro_month[74][0] = 7
+# http://www.countrybus.org/rf/RF3.htm
+livery[74][1] = Green-Line-two-tone
+intro_year[74][1] = 1966
+intro_month[74][1] = 3
+
+# https://en.wikipedia.org/wiki/National_Bus_Company_(UK)#Corporate_identity
+livery_scheme[75] = National-Red
+retire_year[75] = 1988
+retire_month[75] = 4
+livery[75][0] = Poppy-Red
+intro_year[75][0] = 1972
+intro_month[75][0] = 4
+
+# https://en.wikipedia.org/wiki/National_Bus_Company_(UK)#Corporate_identity
+livery_scheme[76] = National-Green
+retire_year[76] = 1988
+retire_month[76] = 4
+livery[76][0] = Leaf-Green
+intro_year[76][0] = 1972
+intro_month[76][0] = 4
+
+# https://en.wikipedia.org/wiki/National_Bus_Company_(UK)#Corporate_identity
+livery_scheme[77] = National-Express
+retire_year[77] = 2999
+retire_month[77] = 12
+livery[77][0] = NE-White
+intro_year[77][0] = 1972
+intro_month[77][0] = 4
+livery[77][1] = NE-Stripes
+intro_year[77][1] = 1978
+intro_month[77][1] = 6
+livery[77][2] = NE-Rapide
+# Guessed date
+intro_year[77][2] = 1984
+intro_month[77][2] = 3
+livery[77][3] = NE-Circles
+# Guessed date
+intro_year[77][3] = 1995
+intro_month[77][3] = 7
+livery[77][4] = NE-Grey-Stripes
+# Guessed date
+intro_year[77][4] = 2002
+intro_month[77][4] = 4
+
+# https://en.wikipedia.org/wiki/Royal_Blue_Coach_Services
+# No readily findable information about different liveries
+livery_scheme[78] = Royal-Blue
+retire_year[78] = 1972
+retire_month[78] = 4
+livery[78][0] = Royal-Blue-standard
+intro_year[78][0] = 1880
+intro_month[78][0] = 5
+
+# https://en.wikipedia.org/wiki/Southdown_Motor_Services
+# No readily findable information about different liveries
+livery_scheme[79] = Southdown
+retire_year[79] = 1972
+retire_month[79] = 4
+livery[79][0] = Southdown-standard
+intro_year[79][0] = 1915
+intro_month[79][0] = 8
+
+# https://en.wikipedia.org/wiki/Ribble_Motor_Services
+# No readily findable information about different liveries,
+# except that coaches tended to have large cream bands
+livery_scheme[80] = Ribble
+retire_year[80] = 1972
+retire_month[80] = 4
+livery[80][0] = Ribble-standard
+intro_year[80][0] = 1919
+intro_month[80][0] = 3
+
+livery_scheme[81] = Ribble-Express
+retire_year[81] = 1972
+retire_month[81] = 4
+livery[81][0] = Ribble-coach
+intro_year[81][0] = 1919
+intro_month[81][0] = 3
+
+livery_scheme[82] = Glasgow
+retire_year[82] = 2999
+retire_month[82] = 12
+# https://en.wikipedia.org/wiki/Glasgow_Corporation_Tramways
+livery[82][0] = Glasgow-Corporation-early
+intro_year[82][0] = 1872
+intro_month[82][0] = 7
+# http://glasgowtransport.co.uk/trams.html
+livery[82][1] = Glasgow-Corporation-standard
+intro_year[82][1] = 1938
+intro_month[82][1] = 12
+livery[82][2] = Glasgow-Corporation-revised-1
+intro_year[82][2] = 1953
+intro_month[82][2] = 5
+# http://web.archive.org/web/20161110220308/http://glasgowtransport.co.uk/buses.html
+# NOTE: Motor 'buses from 1924 onwards only
+livery[82][3] = Glasgow-Corporation-revised-2
+intro_year[82][3] = 1959
+intro_month[82][3] = 11
+# https://en.wikipedia.org/wiki/Strathclyde_Partnership_for_Transport#History
+livery[82][4] = GGPTE
+intro_year[82][4] = 1972
+intro_month[82][4] = 4
+livery[82][5] = SPTE
+intro_year[82][5] = 1981
+intro_month[82][5] = 6
+livery[82][6] = SPTA
+intro_year[82][6] = 1996
+intro_month[82][6] = 4
+
+livery_scheme[83] = Bradford
+retire_year[83] = 1974
+retire_month[83] = 4
+livery[83][0] = Bradford-standard
+# Guessed
+intro_year[83][0] = 1870
+intro_month[83][0] = 5
+
+# The 'buses seem only to have used the green livery.
+livery_scheme[84] = WYPTE
+retire_year[84] = 2999
+retire_month[84] = 9
+livery[84][0] = WYPTE-Green-Cream
+intro_year[84][0] = 1974
+intro_month[84][0] = 1
+livery[84][1] = WYPTE-Red-Cream
+# Date guessed
+intro_year[84][1] = 1983
+intro_month[84][1] = 4
+livery[84][2] = Yorkshire-Rider
+intro_year[84][2] = 1986
+intro_month[84][2] = 10
+livery[84][3] = WYPTE-Northern-Spirit
+intro_year[84][3] = 1997
+intro_month[84][3] = 3
+livery[84][4] = Northern-Metro
+intro_year[84][4] = 2008
+intro_month[84][4] = 5
+
+livery_scheme[85] = London-United
+retire_year[85] = 2999
+retire_month[85] = 9
+livery[85][0] = London-United-grey-white
+intro_year[85][0] = 1989
+intro_month[85][0] = 4
+livery[85][1] = London-United-plain-red
+# Below guessed - check this
+intro_year[85][1] = 2008
+intro_month[85][1] = 2
+
+livery_scheme[86] = Metroline
+retire_year[86] = 2999
+retire_month[86] = 9
+livery[86][0] = Metroline-blue-skirt
+intro_year[86][0] = 1989
+intro_month[86][0] = 4
+livery[86][1] = Metroline-plain-red
+# Below guessed - check this
+intro_year[86][1] = 2008
+intro_month[86][1] = 2
+
+livery_scheme[87] = Grey-Green
+retire_year[87] = 1998
+retire_month[87] = 10
+# TODO: Find more liveries for this scheme.
+livery[87][0] = Grey-Green-standard
+intro_year[87][0] = 1928
+intro_month[87][0] = 6
+
+livery_scheme[88] = Railfreight
+retire_year[88] = 1994
+retire_month[88] = 1
+livery[88][0] = Railfreight-grey
+intro_year[88][0] = 1982
+intro_month[88][0] = 4
+livery[88][1] = RfD-Two-tone-grey
+intro_year[88][1] = 1987
+intro_month[88][1] = 2
+
+livery_scheme[89] = Trainload-Freight
+retire_year[89] = 1994
+retire_month[89] = 1
+livery[89][0] = TF-Two-tone-grey
+intro_year[89][0] = 1987
+intro_month[89][0] = 2
+
+livery_scheme[90] = Virgin-Trains
+retire_year[90] = 2018
+retire_month[90] = 6
+livery[90][0] = Virgin-original
+intro_year[90][0] = 1997
+intro_month[90][0] = 3
+livery[90][1] = Virgin-MU
+intro_year[90][1] = 2001
+intro_month[90][1] = 2
+livery[90][2] = Pretendolino
+intro_year[90][2] = 2007
+intro_month[90][2] = 3
+livery[90][3] = Virgin-flowing-silk
+intro_year[90][3] = 2017
+intro_month[90][3] = 9
+
+# See http://www.gwr.org.uk/liveries.html
+livery_scheme[91] = GWR
+retire_year[91] = 1948
+retire_month[91] = 1
+livery[91][0] = GWR-early
+intro_year[91][0] = 1838
+intro_month[91][0] = 3
+livery[91][1] = GWR-two-tone
+intro_year[91][1] = 1864
+intro_month[91][1] = 5
+livery[91][2] = GWR-dark-green
+intro_year[91][2] = 1875
+intro_month[91][2] = 6
+livery[91][3] = GWR-standard-green
+intro_year[91][3] = 1881
+intro_month[91][3] = 4
+livery[91][4] = GWR-overall-brown
+intro_year[91][4] = 1908
+intro_month[91][4] = 3
+livery[91][5] = GWR-lake
+intro_year[91][5] = 1912
+intro_month[91][5] = 10
+livery[91][6] = GWR-chocolate-cream-lined
+intro_year[91][6] = 1922
+intro_month[91][6] = 1
+livery[91][7] = GWR-chocolate-cream-plain
+intro_year[91][7] = 1927
+intro_month[91][7] = 4
+livery[91][8] = GWR-shirtbutton
+intro_year[91][8] = 1934
+intro_month[91][8] = 8
+livery[91][9] = GWR-hawksworth
+intro_year[91][9] = 1942
+intro_month[91][9] = 2
+
+# http://www.bartonhistory.co.uk/bartons-railway/the-birmingham-and-derby-junction-railway/
+# Very limited information on this livery, especially for locomotives.
+livery_scheme[92] = B&DJR
+retire_year[92] = 1844
+retire_month[92] = 11
+livery[92][0] = B&DJR-standard
+intro_year[92][0] = 1839
+intro_month[92][0] = 5
+
+# Hard to find information on locomotive liveries for this.
+# Carriage liveries described at p. 4 of Lacy & Dow as
+# "Black upper and green lower panels, the windows being lined red" (first class) and
+# "red sides and black lining, frame and wheels" for open third (second?) class carriages.
+# Assume a similar green for locomotives unless contrary information becomes available.
+livery_scheme[93] = MCR
+retire_year[93] = 1844
+retire_month[93] = 11
+livery[93][0] = MCR-standard
+intro_year[93][0] = 1839
+intro_month[93][0] = 6
+
+# https://d3d00swyhr67nd.cloudfront.net/w1200h1200/NY/NY_NRM_1976_9292.jpg
+# See "Britain's railway liveries" by Earnest F. Carter p. 233
+livery_scheme[94] = London-&-Birmingham
+retire_year[94] = 1846
+retire_month[94] = 1
+# Carriages (first class): buff lowers, black uppers;
+# carriages (second class): green lowers, black uppers
+livery[94][0] = London-&-Birmingham-standard
+intro_year[94][0] = 1837
+intro_month[94][0] = 7
+
+# See Carter, p. 249
+livery_scheme[95] = Stockton-Darlington
+retire_year[95] = 1863
+retire_month[95] = 7
+# Yellow (and black?) carriages
+livery[95][0] = Stockton-Darlington-early
+intro_year[95][0] = 1825
+intro_month[95][0] = 7
+# Yellow changed to lake
+livery[95][1] = Stockton-Darlington-lake
+intro_year[95][1] = 1842
+intro_month[95][1] = 2
+
+# See Carter, p. 182
+# Assume carriages varnished as they were later
+livery_scheme[96] = NLR
+retire_year[96] = 1923
+retire_month[96] = 1
+# Green locomotives, lined in black
+livery[96][0] = NLR-early
+intro_year[96][0] = 1853
+intro_month[96][0] = 1
+# Black locomotives, lined and with frames in red
+livery[96][1] = NLR-black
+intro_year[96][1] = 1882
+intro_month[96][1] = 11
+
+# Inverness & Aberdeen Junction Railway
+# See below under Highland Railway for references
+livery_scheme[97] = I&AJR
+retire_year[97] = 1865
+retire_month[97] = 2
+# Inverness & Aberdeen Jn. Railway
+# Yellow locomotives
+# Coaches uncertain at this stage: assume varnished.
+# Wagons appear to be a rusty red:
+# http://petesnewworkshop.blogspot.co.uk/p/wagons.html
+livery[97][0] = I&AJR-early
+intro_year[97][0] = 1855
+intro_month[97][0] = 11
+# Locomotives dark green, black bands
+# Coaches uncertain: assume varnished
+livery[97][1] = I&AJR-late
+intro_year[97][1] = 1864
+intro_month[97][1] = 1
+
+# Highland Railway
+# See Carter, p. 73
+# See also, "A history of Highland locomotives"
+# by Peter Tatlow, p. 9 onwards
+livery_scheme[98] = HR
+retire_year[98] = 1865
+retire_month[98] = 2
+# Locomotives dark green, black bands
+# Coaches uncertain: assume the later green or varnished
+# http://www.scottish-scale-loco-works.co.uk/images/Skye_Bogie_lined_Highland_thmb.jpg
+livery[98][0] = HR-early
+intro_year[98][0] = 1865
+intro_month[98][0] = 2
+# Brighton yellow/ochre, black bands (pass.)
+# Same as early (goods)
+# Coaches uncertain; Carter suggests
+# that they might have been the same shade
+# as the locomotives, but is unsure.
+livery[98][1] = HR-Stroudley
+intro_year[98][1] = 1866
+intro_month[98][1] = 3
+# Black with (red?) bands (goods)
+# Pass. uncertain - either green or as before
+# (Tatlow/Carter conflict here).
+# Coaches: medium sage green uppers
+# (Carter conflicts with photographs as to
+# whether the lowers were a different colour -
+# Cater suggests "lake" lowers, photographs 
+# (b&w) seem to indicate an overall colour.
+# It is also unclear when this starts.
+livery[98][2] = HR-Jones
+intro_year[98][2] = 1874
+intro_month[98][2] = 12
+# All engines light olive green with black/vermillion bands
+livery[98][3] = HR-Jones
+intro_year[98][3] = 1885
+intro_month[98][3] = 6
+# Coaches: white uppers, dark green lowers.
+# Locomotives: largely as before (some illustrations
+# show the locomotives/carriages as of the same green):
+# http://spellerweb.net/rhindex/UKRH/OtherRailways/HighlandExpress.jpg
+# http://www.tpo-seapost.org.uk/tpo2/image2/tppc09.jpg
+livery[98][4] = HR-Drummond
+intro_year[98][4] = 1896
+intro_month[98][4] = 6
+# Unlined olive green
+livery[98][5] = HR-plain
+intro_year[98][5] = 1902
+intro_month[98][5] = 2
+# As with plain, but locomotives moss green.
+livery[98][6] = HR-late
+intro_year[98][6] = 1902
+intro_month[98][6] = 2
+
+livery_scheme[99] = LMS-Coronation-Scot
+retire_year[99] = 1939
+retire_month[99] = 9
+livery[99][0] = LMS-Blue
+intro_year[99][0] = 1937
+intro_month[99][0] = 6
+
+# See "Britain's Railway Liveries"
+# Note 1: During the "Ivory-Umber" phase, Metropolitan and SE&CR carriages were painted lake
+# Note 2: During the second world war, Pullman carriages were painted all over umber
+# Note 3: For BR blue coloured Pullman cars (e.g. the Blue Pullmans and the mk. 1 Pullmans),
+# use the BR livery scheme.
+# by Earnest F. Carter p. 281
+livery_scheme[100] = Pullman
+retire_year[100] = 2500
+retire_month[100] = 12
+livery[100][0] = Pullman-Mahogany
+intro_year[100][0] = 1874
+intro_month[100][0] = 1
+livery[100][1] = Pullman-Bronze-Green
+intro_year[100][1] = 1890
+intro_month[100][1] = 6
+livery[100][2] = Pullman-Ivory-Umber
+intro_year[100][2] = 1906
+intro_month[100][2] = 4
+livery[100][3] = Pullman-Cream-Umber
+intro_year[100][3] = 1929
+intro_month[100][3] = 7
+
+# Lynton & Barnstaple
+# See Carter p. 235 (albeit there is not much information)
+# Locomotives are described as "dark emerald green" with orange lining
+# See also: http://www.009.cd2.com/lynton_and_barnstaple_modelling/liveries.htm
+livery_scheme[101] = L&BR
+retire_year[101] = 1923
+retire_month[101] = 1
+livery[101][0] = L&BR-Standard
+intro_year[101][0] = 1898
+intro_month[101][0] = 5
+
+livery_scheme[102] = TransPennine
+retire_year[102] = 2500
+retire_month[102] = 1
+livery[102][0] = TPE-1
+intro_year[102][0] = 2016
+intro_month[102][0] = 4
+
+livery_scheme[103] = Wales-&-Borders
+retire_year[103] = 2500
+retire_month[103] = 1
+livery[103][0] = Wales&West
+intro_year[103][0] = 1996
+intro_month[103][0] = 10
+livery[103][1] = ValleyLines
+intro_year[103][1] = 1996
+intro_month[103][1] = 10
+livery[103][2] = Wales&Borders
+intro_year[103][2] = 2001
+intro_month[103][2] = 10
+# Arriva Trains Wales covered by scheme 61
+livery[103][3] = TfW-initial
+intro_year[103][3] = 2018
+intro_month[103][3] = 5
+
+livery_scheme[104] = BristolSW
+retire_year[104] = 2006
+retire_month[104] = 3
+livery[104][0] = WessexTrains
+intro_year[104][0] = 2001
+intro_month[104][0] = 10
+livery[104][1] = metrobus
+intro_year[104][1] = 2018
+intro_month[104][1] = 5
+
+livery_scheme[105] = Caledonian-Sleeper
+retire_year[105] = 2500
+retire_month[105] = 1
+livery[105][0] = Serco-initial
+intro_year[105][0] = 2015
+intro_month[105][0] = 4
+
+livery_scheme[106] = merseytravel
+retire_year[106] = 2500
+retire_month[106] = 1
+#http://www.dartslf.com/PEP/liveries.html
+livery[106][0] = Merseyrail91
+intro_year[106][0] = 1991
+#month estimated
+intro_month[106][0] = 4
+livery[106][1] = Merseyrail00
+intro_year[106][1] = 2000
+#month estimated
+intro_month[106][1] = 4
+livery[106][1] = Merseyrail03
+intro_year[106][1] = 2003
+#month estimated
+intro_month[106][1] = 4
+livery[106][2] = Merseyrail14
+intro_year[106][2] = 2014
+intro_month[106][2] = 2
+
+livery_scheme[107] = essex-thameside
+retire_year[107] = 2500
+retire_month[107] = 1
+#https://en.wikipedia.org/wiki/British_Rail_Class_357
+livery[107][0] = lts-rail
+intro_year[107][0] = 1996
+intro_month[107][0] = 5
+livery[107][1] = c2c-blue
+intro_year[107][1] = 2002
+#month estimated
+intro_month[107][1] = 5
+livery[107][2] = c2c-white
+intro_year[107][2] = 2009
+intro_month[107][2] = 6
+
+livery_scheme[108] = WCML-Franchise
+retire_year[108] = 2500
+retire_month[108] = 1
+livery[108][0] = Avanti-WC
+intro_year[108][0] = 2019
+intro_month[108][0] = 12
+
+# https://en.wikipedia.org/wiki/Tyne_and_Wear_Metro_rolling_stock#Livery
+livery_scheme[109] = Tyne&Wear
+retire_year[109] = 2500
+retire_month[109] = 1
+livery[109][0] = t&wpte
+# Year and month estimated. Livery used on buses before Metro opened in August 1980.
+intro_year[109][0] = 1978
+intro_month[109][0] = 8
+livery[109][1] = t&w-rbg
+#year and month estimated
+intro_year[109][1] = 1995
+intro_month[109][1] = 2
+livery[109][2] = t&w-rbg-revised
+# Month estimated. Doors painted full yellow to comply with disability standards.
+intro_year[109][2] = 2005
+intro_month[109][2] = 2
+livery[109][3] = t&w-black&yellow
+#month estimated
+intro_year[109][3] = 2012
+intro_month[109][3] = 2
+
+livery_scheme[110] = TSGN
+retire_year[110] = 2500
+retire_month[110] = 1
+livery[110][0] = Thameslink-navy
+intro_year[110][0] = 1997
+intro_month[110][0] = 3
+livery[110][1] = Thameslink-later
+intro_year[110][1] = 2001
+#month estimated
+intro_month[110][1] = 2
+livery[110][2] = wagn-initial
+intro_year[110][2] = 1997
+intro_month[110][2] = 1
+livery[110][3] = wagn-purple
+intro_year[110][3] = 2001
+intro_month[110][3] = 11
+# First Capital Connect is covered by scheme 10
+livery[110][4] = GTR
+intro_year[110][4] = 2014
+intro_month[110][4] = 9
+
+livery_scheme[111] = ECTFirst
+retire_year[111] = 2500
+retire_month[111] = 1
+livery[111][0] = ectf-1
+intro_year[111][0] = 2021
+intro_month[111][0] = 10
+
+livery_scheme[112] = Hoverlloyd
+retire_year[112] = 1981
+retire_month[112] = 11
+livery[112][0] = Hoverlloyd-Standard
+intro_year[112][0] = 1966
+intro_month[112][0] = 4
+
+livery_scheme[113] = Teesside
+# End date guessed
+retire_year[113] = 1986
+retire_month[113] = 9
+livery[113][0] = Teesside-standard
+intro_year[113][0] = 1916
+intro_month[113][0] = 2
+livery[113][1] = Teesside-municipal-transport
+# Livery adopted in 1967: https://en.wikipedia.org/wiki/County_Borough_of_Teesside#Teesside_Municipal_Transport
+intro_year[113][1] = 1967
+intro_month[113][1] = 4
+
+

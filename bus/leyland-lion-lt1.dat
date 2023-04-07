@@ -1,0 +1,62 @@
+# See Phillips p. 32
+# 5.1l 4 cylinder engine
+obj=vehicle
+name=leyland-lion-lt1
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+# See Phillips p. 32
+payload=32
+overcrowded_capacity=2
+speed=50
+# 5.1l 4 cylinder engine
+# 40hp: https://petergould.co.uk/manufacturers/chassis/leyland1/
+# This is 30kw. However, this is probably an RAC rating. This
+# means that it will have been based on inaccurate assumptions.
+# It requires multiplying by approx. 1.3: see: http://www.austin7.org/Other%20Articles/RAC%20HP%20Rating/
+power=40
+tractive_effort=5
+gear=50
+# Guessed
+weight=6.3
+axles=2
+length=5
+cost=305000
+runningcost=41
+fixed_cost=6800
+intro_year=1929
+intro_month=3
+retire_year=1934
+retire_month=7
+is_tall=0
+sound=video47-leyland-lion-lsc.wav
+
+comfort=41
+# Front platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=64
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Ribble-standard
+
+EmptyImage[E][0]=./images/leyland-lion-lt1-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-lion-lt1-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-lion-lt1-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/leyland-lion-lt1-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-lion-lt1-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-lion-lt1-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-lion-lt1-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-lion-lt1-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/leyland-lion-lt1-ribble_E.0.0,-33,14
+EmptyImage[SE][1]=./images/leyland-lion-lt1-ribble_SE.0.0,-13,0
+EmptyImage[S][1]=./images/leyland-lion-lt1-ribble_S.0.0,0,0
+EmptyImage[SW][1]=./images/leyland-lion-lt1-ribble_SW.0.0,-8,10
+EmptyImage[W][1]=./images/leyland-lion-lt1-ribble_W.0.0,4,5
+EmptyImage[NW][1]=./images/leyland-lion-lt1-ribble_NW.0.0,12,10
+EmptyImage[N][1]=./images/leyland-lion-lt1-ribble_N.0.0,0,33
+EmptyImage[NE][1]=./images/leyland-lion-lt1-ribble_NE.0.0,0,24

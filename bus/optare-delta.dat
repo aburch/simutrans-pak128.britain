@@ -1,0 +1,59 @@
+# https://en.wikipedia.org/wiki/Optare_Excel
+obj=vehicle
+name=optare-delta
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+payload=49
+overcrowded_capacity=20
+speed=64
+# DAF DKTL 1160 (11.6 litres) 
+# http://portal.enginedesk.net/engine/daf/1160_dktl/technical/data/471/0/KOP
+power=185
+tractive_effort=28
+gear=50
+weight=9.1
+axles=2
+length=6
+cost=2590000
+runningcost=56
+fixed_cost=9349
+intro_year=1988
+intro_month=5
+retire_year=1999
+retire_month=2
+# TODO: Use a more accurate sound here.
+sound=ff3170-mcw-metrobus.wav
+
+comfort=37
+# Single entrance pay driver 4.0 seconds per passenger
+min_loading_time=5
+max_loading_time=196
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Non-London
+liverytype[1]=London-Buses
+
+# TODO: Add more liveries and length varients. This is the longest.
+
+EmptyImage[E][0]=./images/optare-delta-reading_E.0.0,-33,14
+EmptyImage[SE][0]=./images/optare-delta-reading_SE.0.0,-13,0
+EmptyImage[S][0]=./images/optare-delta-reading_S.0.0,4,0
+EmptyImage[SW][0]=./images/optare-delta-reading_SW.0.0,-8,10
+EmptyImage[W][0]=./images/optare-delta-reading_W.0.0,4,5
+EmptyImage[NW][0]=./images/optare-delta-reading_NW.0.0,12,10
+EmptyImage[N][0]=./images/optare-delta-reading_N.0.0,0,33
+EmptyImage[NE][0]=./images/optare-delta-reading_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/optare-delta-london-buses_E.0.0,-33,14
+EmptyImage[SE][1]=./images/optare-delta-london-buses_SE.0.0,-13,0
+EmptyImage[S][1]=./images/optare-delta-london-buses_S.0.0,4,0
+EmptyImage[SW][1]=./images/optare-delta-london-buses_SW.0.0,-8,10
+EmptyImage[W][1]=./images/optare-delta-london-buses_W.0.0,4,5
+EmptyImage[NW][1]=./images/optare-delta-london-buses_NW.0.0,12,10
+EmptyImage[N][1]=./images/optare-delta-london-buses_N.0.0,0,33
+EmptyImage[NE][1]=./images/optare-delta-london-buses_NE.0.0,0,24

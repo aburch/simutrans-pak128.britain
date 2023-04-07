@@ -11,12 +11,26 @@ retire_month=8
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=3
+# Passenger data guessed
+population_and_visitor_demand_capacity=4
+employment_capacity=55
+mail_demand=5
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=15
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=45
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 
-station_maintenance=20400
-station_price=2090000
-station_capacity=95
+maintenance=20400
+cost=2090000
+capacity=95
 
 BackImage[0][0][0][0][0][0]=deco-station-entrance.0.2
 BackImage[1][0][0][0][0][0]=deco-station-entrance.0.1
@@ -36,20 +50,38 @@ copyright=James
 type=extension
 waytype=air
 enables_pax=1
-intro_year=1922
-intro_month=2
-retire_year=1949
-retire_month=8
+# Until earlier control towers are built or logic is added for small airfields not to have control towers, 
+# this needs to match the introduction of the earliest airships.
+intro_year=1909
+intro_month=8
+# The small control tower is not yet replaced
+# TODO: Add new small control tower (e.g. based on that at London City)
+#retire_year=1949
+#retire_month=8
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=4
 is_control_tower=1
+# Passenger data guessed
+population_and_visitor_demand_capacity=6
+employment_capacity=75
+mail_demand=7
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=20
+class_proportion_jobs[2]=40
+class_proportion_jobs[3]=35
+class_proportion_jobs[4]=0
 
-station_maintenance=45000
-station_price=4500000
-station_capacity=95
+maintenance=45000
+cost=4500000
+capacity=95
 
 BackImage[0][0][0][0][0][0]=deco-airport-tower.0.2
 BackImage[1][0][0][0][0][0]=deco-airport-tower.0.1
@@ -70,18 +102,32 @@ type=extension
 waytype=track
 enables_pax=1
 intro_year=1922
-intro_year=3
+intro_month=3
 retire_year=1949
 retire_month=8
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=3
+# Passenger data guessed
+population_and_visitor_demand_capacity=4
+employment_capacity=55
+mail_demand=5
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=15
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=45
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 
-station_maintenance=10200
-station_price=1045000
-station_capacity=95
+maintenance=10200
+cost=1045000
+capacity=95
 
 BackImage[0][0][0][0][0][0]=deco-station-entrance.0.2
 BackImage[1][0][0][0][0][0]=deco-station-entrance.0.1

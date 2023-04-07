@@ -1,0 +1,57 @@
+# https://motor-car.net/component/content/article/1344-home-page/cars/marques-a/aec/16393-aec-s-type?Itemid=101
+obj=vehicle
+name=STypeDouble
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+payload=54
+overcrowded_capacity=3
+speed=20
+# See "The Story of the London Bus", John Day, p. 56
+power=26
+tractive_effort=5
+gear=50
+# An example of this 'bus in the London 'Bus Museum has the unladen weight given as 5t, 1cwt, 2qrs
+weight=5.1
+axles=2
+way_wear_factor=2500
+length=5
+cost=120000
+runningcost=26
+fixed_cost=8063
+intro_year=1920
+intro_month=12
+retire_year=1925
+retire_month=5
+is_tall=1
+sound=graham-french-tilling-stevens-1930.wav
+
+comfort=21
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=108
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=General
+
+EmptyImage[E][0]=./images/aec-s-type-double_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-s-type-double_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-s-type-double_S.0.0,0,0
+EmptyImage[SW][0]=./images/aec-s-type-double_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-s-type-double_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-s-type-double_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-s-type-double_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-s-type-double_NE.0.0,0,24
+
+FreightImage[E][0]=./images/aec-s-type-double-loaded_E.0.0,-33,14
+FreightImage[SE][0]=./images/aec-s-type-double-loaded_SE.0.0,-13,0
+FreightImage[S][0]=./images/aec-s-type-double-loaded_S.0.0,4,0
+FreightImage[SW][0]=./images/aec-s-type-double-loaded_SW.0.0,-8,10
+FreightImage[W][0]=./images/aec-s-type-double-loaded_W.0.0,4,5
+FreightImage[NW][0]=./images/aec-s-type-double-loaded_NW.0.0,12,10
+FreightImage[N][0]=./images/aec-s-type-double-loaded_N.0.0,0,33
+FreightImage[NE][0]=./images/aec-s-type-double-loaded_NE.0.0,0,24
+

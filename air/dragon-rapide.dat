@@ -1,0 +1,105 @@
+# https://en.wikipedia.org/wiki/De_Havilland_Dragon_Rapide
+# http://www.aviacaocomercial.net/english/frotavarig.htm
+obj=vehicle
+name=dragon-rapide
+copyright=Emmanuel Baranger
+# CC-BY-SA
+waytype=air
+engine_type=petrol
+speed=214
+# https://en.wikipedia.org/wiki/De_Havilland_Dragon_Rapide#Specifications_(Dragon_Rapide)
+power=300
+tractive_effort=4
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=8
+weight=1.6
+#length=8
+cost=2000000
+runningcost=15
+fixed_cost=51389
+intro_year=1934
+intro_month=4
+retire_year=1939
+retire_month=12
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=68
+min_loading_time=1600
+max_loading_time=1600
+catering_level=0
+
+# https://en.wikipedia.org/wiki/De_Havilland_Dragon_Rapide#Specifications_(Dragon_Rapide)
+minimum_runway_length=265
+
+# https://en.wikipedia.org/wiki/De_Havilland_Dragon_Rapide#Specifications_(Dragon_Rapide)
+range=895
+
+sound=andysvideo-vickers-vimy.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/dragon-rapide_E.0.0
+EmptyImage[SE]=./images/dragon-rapide_SE.0.0
+EmptyImage[S]=./images/dragon-rapide_S.0.0
+EmptyImage[SW]=./images/dragon-rapide_SW.0.0
+EmptyImage[W]=./images/dragon-rapide_W.0.0
+EmptyImage[NW]=./images/dragon-rapide_NW.0.0
+EmptyImage[N]=./images/dragon-rapide_N.0.0
+EmptyImage[NE]=./images/dragon-rapide_NE.0.0
+
+----
+
+obj=vehicle
+name=dragon-rapide-mail
+copyright=Emmanuel Baranger
+waytype=air
+speed=214
+engine_type=petrol
+speed=214
+power=268
+tractive_effort=3
+freight=Post
+# 860kg
+payload[0]=0
+payload[1]=2500
+weight=1.5
+#length=8
+cost=2000000
+runningcost=15
+fixed_cost=11389
+intro_year=1934
+intro_month=4
+retire_year=1939
+retire_month=12
+comfort=68
+min_loading_time=1600
+max_loading_time=1600
+catering_level=0
+
+# Guessed
+minimum_runway_length=350
+
+range=920
+
+sound=andysvideo-vickers-vimy.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/dragon-rapide_E.0.0
+EmptyImage[SE]=./images/dragon-rapide_SE.0.0
+EmptyImage[S]=./images/dragon-rapide_S.0.0
+EmptyImage[SW]=./images/dragon-rapide_SW.0.0
+EmptyImage[W]=./images/dragon-rapide_W.0.0
+EmptyImage[NW]=./images/dragon-rapide_NW.0.0
+EmptyImage[N]=./images/dragon-rapide_N.0.0
+EmptyImage[NE]=./images/dragon-rapide_NE.0.0
+

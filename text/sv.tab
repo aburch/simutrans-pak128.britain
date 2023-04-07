@@ -652,9 +652,9 @@ GrainMill
 Spannmålskvarn
 GrainMill1750
 Spannmålskvarn
-GrainMill1840
+GrainMill1820
 Spannmålskvarn
-GrainMill1910
+GrainMill1880
 Spannmålskvarn
 GrainMill1945
 Spannmålskvarn
@@ -970,15 +970,15 @@ EndofChooseSignal
 Uteslut från plattformsval
 LongSignals
 Långblocksignal
-Modern_ChooseSignals_right
+two-aspect-colour-light-choose
 Plattformsvalsignal
 Modern_EndofChooseSignal
 Plattformsval upphör
 Modern_LongSignals_right
 Långblocksignal
-Modern_preSignals_right
+two-aspect-colour-light-distant
 Tvåblockssignal
-Modern_Signals_right
+two-aspect-colour-light-stop
 Huvudsignal
 MotorwaySign
 Motorvägspåfart
@@ -1100,113 +1100,113 @@ BR-104Rear
 BR Class 104 DMV (b-ände)
 BR-121
 BR Class 121 DMV
-BR-142Front(Regional)
+br-142-front
 BR Class 142 "Pacer" DMV
-BR-142Rear(Regional)
+br-142-rear
 BR Class 142 "Pacer" DMV (b-ände)
-BR-153(Regional)
+br-153
 BR Class 153 "Super-Sprinter" DMV
-BR-156Front(Regional)
+br-156-front
 BR Class 156 "Super-Sprinter" DMV (a-ände)
-BR-156Rear(Regional)
+br-156-rear
 BR Class 156 "Super-Sprinter" DMV (b-ände)
-BR-158Front(Regional)
+br-158-front
 BR Class 158 "Express Sprinter" DMV (a-ände)
-BR-158Middle(Regional)
+br-158-centre
 BR Class 158 "Express Sprinter" DMV (mittsektion)
-BR-158Rear(Regional)
+br-158-rear
 BR Class 158 "Express Sprinter" DMV (b-ände)
-BR-165Front(NSE)
+BR-165Front
 BR Class 165 "Network Turbo" DMV (a-ände)
-BR-165Middle(NSE)
+BR-165Middle
 BR Class 165 "Network Turbo" DMV (mittsektion)
-BR-165Rear(NSE)
+BR-165Rear
 BR Class 165 "Network Turbo" DMV (b-ände)
-BR-170Front(Scotrail)
+BR-170Front
 BR Class 170 "Turbostar" DMV (a-ände)
-BR-170Middle(Scotrail)
+BR-170Middle
 BR Class 170 "Turbostar" DMV (mittsektion)
-BR-170Rear(Scotrail)
+BR-170Rear
 BR Class 170 "Turbostar" DMV (b-ände)
-BR-180Front(FGW)
+BR-180Front
 BR Class 180 "Adelante" (a-ände)
-BR-180Middle(FGW)
+BR-180Middle
 BR Class 180 "Adelante" (mittsektion)
-BR-180Rear(FGW)
+BR-180Rear
 BR Class 180 "Adelante" (b-ände)
-BR-205Front(Rail-Blue)
+BR-205Front
 BR Class 205 DEMV (a-ände)
-BR-205Middle(Rail-Blue)
+BR-205Middle
 BR Class 205 DEMV (mittsektion)
-BR-205Rear(Rail-Blue)
+BR-205Rear
 BR Class 205 DEMV (b-ände)
-BR-220Front(Virgin)
+BR-220Front
 BR Class 220 "Voyager" (a-ände)
-BR-220Middle(Virgin)
+BR-220Middle
 BR Class 220 "Voyager" (mittsektion)
-BR-220Rear(Virgin)
+BR-220Rear
 BR Class 220 "Voyager" (b-ände)
 BR-251FirstParlour
 BR Class 251 "Blue Pullman" (förstaklass-salong)
-BR-251Front
+BR-251FrontFirst
 BR Class 251 "Blue Pullman"
-BR-251Rear
+BR-251RearFirst
 BR Class 251 "Blue Pullman" (manövervagn)
-BR-251SecondParlourFront
+BR-251SecondParlour
 BR Class 251 "Blue Pullman" (främre andraklass-salong)
-BR-251SecondParlourRear
+BR-251Kitchen
 BR Class 251 "Blue Pullman" (bakre andraklass-salong)
-BR-303Front(CaledonianBlue)
+BR-303Front
 BR Class 303 EMV
-BR-303Pantograph(CaledonianBlue)
+BR-303Pantograph
 BR Class 303 EMV med pantograf
-BR-303Rear(CaledonianBlue)
+BR-303Rear
 BR Class 303 EMV bakre sektion
-BR-309-1Front(Blue-Grey)
+BR-309-1Front
 BR Class 309/1 (tvåvagnars) EMV
-BR-309-2Front(Blue-Grey)
+BR-309-2Front
 BR Class 309/2 (fyrvagnars) EMV
-BR-309Middle(Blue-Grey)
+BR-309Middle
 BR Class 309 EMV (mittsläp)
-BR-309Power(Blue-Grey)
+BR-309Power
 BR Class 309 EMV (motorenhet)
-BR-309Rear(Blue-Grey)
+BR-309Rear
 BR Class 309 EMV (b-ände)
-BR-313Front(Blue-Grey)
+BR-313Front
 BR Class 313 EMV
-BR-313Pantograph(Blue-Grey)
+BR-313Pantograph
 BR Class 313 EMV med pantograf
-BR-313Rear(Blue-Grey)
+BR-313Rear
 BR Class 313 EMV bakre sektion
-BR-319Engine(NSE)
+BR-319Engine
 BR Class 319 EMV motorvagn
-BR-319Front(NSE)
+BR-319Front
 BR Class 319 EMV
-BR-319Pantograph(NSE)
+BR-319Pantograph
 BR Class 319 EMV med pantograf
-BR-319Rear(NSE)
+BR-319Rear
 BR Class 319 EMV bakre sektion
-BR-365Front(NSE)
+BR-365Front
 BR Class 365 "Networker Express" EMV
-BR-365Middle(NSE)
+BR-365Middle
 BR Class 365 "Networker Express" EMV mittsektion
-BR-365Power(NSE)
+BR-365Power
 BR Class 365 "Networker Express" EMV motorenhet
-BR-365Rear(NSE)
+BR-365Rear
 BR Class 365 "Networker Express" EMV B-ände
-BR-370Buffet(IC)
+BR-370BrakeFirstFront
 BR Class 370 APT buffévagn
-BR-370Coach(IC)
+BR-370TrailerSecond
 BR Class 370 APT passagerarvagn
-BR-370FrontCab(IC)
+BR-370FrontCab
 BR Class 370 APT
-BR-370FrontPower(IC)
+BR-370FrontPower
 BR Class 370 APT (a-ände)
-BR-370RearCab(IC)
+BR-370RearCab
 BR Class 370 APT bakre manövervagn
-BR-370RearPower(IC)
+BR-370RearPower
 BR Class 370 APT (b-ände)
-BR-370Restaurant(IC)
+BR-370BrakeFirstRear
 BR Class 370 APT restaurantvagn
 BR-373Coach
 BR Class 373 "Eurostar" passagerarvagn
@@ -1218,57 +1218,57 @@ BR-373RearCab
 BR Class 373 "Eurostar" (manövervagn)
 BR-373RearPower
 BR Class 373 "Eurostar" (B-ände)
-BR-375Front(SE)
+BR-375Front
 BR Class 375 "Electrostar" EMV
 BR-375Middle(SE)
 BR Class 375 "Electrostar" EMV (mittsektion)
-BR-375Rear(SE)
+BR-375Rear
 BR Class 375 "Electrostar" EMV (B-ände)
-BR-378Front(LT)
+BR-378Front
 BR London Overground Class 378 EMV
-BR-378Middle(LT)
+BR-378Middle
 BR London Overground Class 378 EMV (mittsektion)
-BR-378Rear(LT)
+BR-378Rear
 BR London Overground Class 378 EMV (B-ände)
-BR-390Coach(Virgin)
+BR-390Coach
 BR Class 390 "Pendolino" passagerarvagn
-BR-390FrontCab(Virgin)
+BR-390FrontCab
 BR Class 390 "Pendolino"
-BR-390FrontCoach(Virgin)
+BR-390FrontCoach
 BR Class 390 "Pendolino" främre passagerarvagn
-BR-390FrontPantograph(Virgin)
+BR-390FrontPantograph
 BR Class 390 "Pendolino" främre pantografvagn
-BR-390PoweredCoach(Virgin)
+BR-390PoweredCoach
 BR Class 390 "Pendolino" motoriserad passagerarvagn
-BR-390RearCab(Virgin)
+BR-390RearCab
 BR Class 390 "Pendolino" (B-ände)
-BR-390RearCoach(Virgin)
+BR-390RearCoach
 BR Class 390 "Pendolino" bakre passagerarvagn
-BR-390RearPantograph(Virgin)
+BR-390RearPantograph
 BR Class 390 "Pendolino" bakre pantografvagn
-BR-395Front(SE)
+BR-395Front
 BR Class 395 "Javelin"
-BR-395Middle(SE)
+BR-395Middle
 BR Class 395 "Javelin" (mittsektion)
-BR-395Rear(SE)
+BR-395Rear
 BR Class 395 "Javelin" (bakre sektion)
-BR-410[CEP]Brake(Blue-Grey)
+BR-410[CEP]Brake
 BR Class 410 "4Cep" EMV (bromsad mittsektion)
-BR-410[CEP]Front(Blue-Grey)
+BR-410[CEP]Front
 BR Class 410 "4Cep" EMV
-BR-410[CEP]Middle(Blue-Grey)
+BR-410[CEP]Middle
 BR Class 410 "4Cep" EMV (mittsektion)
-BR-410[CEP]Rear(Blue-Grey)
+BR-410[CEP]Rear
 BR Class 410 "4Cep" EMV (b-ände)
-BR-414[HAP]Front(Blue-Grey)
+BR-414[HAP]Front
 BR Class 414 "2Hap" EMV
-BR-414[HAP]Rear(Blue-Grey)
+BR-414[HAP]Rear
 BR Class 414 "2Hap" EMV (b-ände)
-BR-419[MLV](Blue-Grey)
+BR-419[MLV]
 BR Class 419 MLV
-BR-489[GLV](Intercity)
+BR-489[GLV]
 BR Class 489 GLV
-BR-499[TLV](Blue-Grey)
+BR-499[TLV]
 BR Class 499 TLV
 BR-4MT-Tank
 BR Standard Class 4MT 2-6-4T
@@ -1282,49 +1282,49 @@ BR-9F
 BR Standard Class 9F 2-10-0
 BR-Class20
 BR Class 20
-BR-Class25(Green)
+BR-Class25
 BR Class 25
 BR-Class30
 BR Class 30
-BR-Class35(Rail-Blue)
+BR-Class35
 BR Class 35 "Hymek"
-BR-Class37(Rail-Blue)
+BR-Class37
 BR Class 37
-BR-Class40(Green)
+BR-Class40
 BR Class 40
 BR-Class43
 BR Class 43 "HST 125"
 BR-Class43Rear
 BR Class 43 "HST 125" (b-ände)
-BR-Class47(Rail-Blue)
+BR-Class47
 BR Class 47
-BR-Class52(Maroon)
+BR-Class52
 BR Class 52 "Western"
-BR-Class55(Green)
+BR-Class55
 BR Class 55 "Deltic"
-BR-Class56(Rail-Blue)
+BR-Class56
 BR Class 56
-BR-Class58(Grey)
+BR-Class58
 BR Class 58
-BR-Class66(EWS)
+BR-Class66
 BR Class 66
-BR-Class67(EWS)
+BR-Class67
 BR Class 67
-BR-Class71(Green)
+BR-Class71
 BR Class 71
 BR-Class73
 BR Class 73
 BR-Class86
 BR Class 86
-BR-Class87(Rail-Blue)
+BR-Class87
 BR Class 87
 BR-Class90
 BR Class 90
 BR-Class91
 BR Class 91 "225"
-BR-Class92(Railfreight)
+BR-Class92
 BR Class 92
-BR-Mk1-BSK
+BR-Mk1-BSK-rear
 BR Mk.1 Bromsad personvagn
 BR-Mk1-BSO
 BR Mk.1 Bromsad personvagn
@@ -1560,7 +1560,7 @@ GNR-Stirling8Foot
 GNR Stirling Single 4-2-2
 GNR-Stirling8Foot-Tender
 Tender till GNR Stirling Single
-Guy_Special(LT-Green)
+guy-special
 Guy Special
 GuyArab
 Guy Arab
@@ -1666,7 +1666,7 @@ LBSCR-B1-Gladstone
 LBSCR Class B1 "Gladstone" 0-4-2
 LBSCR-B1-Gladstone-Tender
 Tender till LBSCR Class B1 "Gladstone" 0-4-2
-LBSCR-L-Tank(Umber)
+LBSCR-L
 LBSCR Class L "Rememberance" 4-6-4T
 Leyland_Cub(LT-Green)
 Leyland Cub
@@ -1818,11 +1818,11 @@ LMS-4F-Tender
 Tender till LMS Class 4F 0-6-0
 LMS-4F
 LMS Class 4F 0-6-0
-LMS-502Front(Maroon)
+LMS-502Front
 LMS Class 502 EMV
-LMS-502Middle(Maroon)
+LMS-502Middle
 LMS Class 502 EMV (mittsektion)
-LMS-502Rear(Maroon)
+LMS-502Rear
 LMS Class 502 EMV (bakre ände)
 LMS-Coronation-BFK(Maroon)
 LMS "Coronation Scot" främre bromsad personvagn
@@ -1952,7 +1952,7 @@ LNWR-Bloomer-Tender
 Tender till LNWR "Bloomer" Class 2-2-2
 LNWR-Bloomer
 LNWR "Bloomer" Class 2-2-2
-LNWR-DXgoods-Tender(Green)
+LNWR-DXgoods-Tender
 Tender till LNWR DX Goods 0-6-0
 LNWR-DXgoods
 LNWR DX Goods 0-6-0
@@ -2022,11 +2022,11 @@ Metrolink-T86(Front)
 Metrolink T86
 Metrolink-T86(Rear)
 Metrolink T86 (bakre sektion)
-Metropolitan-Bogie-Third
+met-bogie-third
 Metropolitan boggievagn
 Metropolitan-Class-E
 Metropolitan Class E 0-4-4T
-Metropolitan-Dreadnought-Third
+met-dreadnought-third
 Metropolitan "Dreadnought" personvagn
 Metropolitan-Motor-Third-Back
 Metropolitan motoriserat tunnelbanetåg (bakre sektion)
@@ -2086,7 +2086,7 @@ MR-4Wheel-Mail
 MR Tvåaxlig postvagn
 MR-6Wheel-First
 MR Treaxlig personvagn
-MR-6Wheel-Guard
+MR-6wheel-clerestory-brake-d530
 MR Bromsad treaxlig postvagn
 MR-6Wheel-Mail
 MR Treaxlig postvagn
@@ -2252,9 +2252,9 @@ ScammellScarab
 Scammell Scarab
 ScammellTownsman
 Scammell Townsman
-SDR-1001-Tender(Green)
+SDR-1001-Tender
 Tender till SDR 1001 Class 0-6-0
-SDR-1001(Green)
+SDR-1001
 SDR 1001 Class 0-6-0
 SDR-Derwent
 SDR "Derwent" 0-6-0
@@ -2306,35 +2306,35 @@ Single-Shire
 Shirehäst
 Small-2-Deck-Trailer
 Litet tvådäckat spårvagnssläp
-SR-401[BIL]Front(Green)
+SR-401[BIL]Front
 SR 2Bil EMV
-SR-401[BIL]Rear(Green)
+SR-401[BIL]Rear
 SR 2Bil EMV (b-ände)
-SR-404[COR]Front(Green)
+SR-404[COR]Front
 SR 4Cor EMV
-SR-404[COR]Middle1(Green)
+SR-404[COR]Middle1
 SR 4Cor EMV (mittsektion)
-SR-404[COR]Middle2(Green)
+SR-404[COR]Middle2
 SR 4Cor EMV (mittsektion)
-SR-404[COR]Rear(Green)
+SR-404[COR]Rear
 SR 4Cor EMV (b-ände)
-SR-Bulleid-Express-Brake(Green)
+SR-Bulleid-Express-Brake-rear
 SR Bulleid bromsad snabbpersonvagn
-SR-Bulleid-Express-Coach(Green)
+SR-Bulleid-Express-Coach
 SR Bulleid snabbpersonvagn
-SR-Bulleid-Express-Dining(Green)
+SR-Bulleid-Express-Dining
 SR Bulleid Restaurantvagn
-SR-Maunsell-Brake(Green)
+SR-Maunsell-Brake-rear
 SR Maunsell Bromsad snabbpersonvagn
-SR-Maunsell-Dining(Green)
+SR-Maunsell-Dining
 SR Maunsell Restaurantvagn
-SR-Maunsell-Mail(Green)
+SR-Maunsell-Mail
 SR Maunsell Postvagn
-SR-Maunsell-Parcels(Green)
+SR-Maunsell-Parcels
 SR Maunsell Resgodsvagn
-SR-Maunsell-Third(Green)
+SR-Maunsell-Third
 SR Maunsell Snabbpersonvagn
-SR-Maunsell-TPO(Green)
+SR-Maunsell-TPO
 SR Postsorteringsvagn
 SR-MerchantNavy 4-6-2(Green)
 SR Merchant Navy Class 4-6-2
@@ -2524,7 +2524,7 @@ YorkshireSteamTank
 Yorkshire Steam Tank (vätskor)
 #______________________________________way______________________________________
 #______________________________________way______________________________________
-asphalt_road
+hr-asphalt-road-medium
 Asfalterad väg
 Canal
 Kanal

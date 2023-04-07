@@ -3,8 +3,8 @@ name=BR-8P
 engine_type=steam
 smoke=Steam
 speed=160
-# Extrapolated
-power=767
+# Calculated from figures at: https://books.google.co.uk/books?id=GVgiRfFBiTgC&pg=PA437&lpg=PA437&dq=locomotive+coal+%22per+mile%22&source=bl&ots=1R8R332rHP&sig=AeHL9rdFv901TWvON1sPXfXkznE&hl=en&sa=X&ved=0ahUKEwjDjtTbqcfJAhXFzRQKHebyBRY4ChDoAQgeMAA#v=onepage&q=locomotive%20coal%20%22per%20mile%22&f=false
+power=697
 tractive_effort=174
 copyright=Kieron/JamesPetts
 intro_year=1954
@@ -16,23 +16,26 @@ freight=None
 payload=0
 rolling_resistance=13
 
-weight=103
+weight=102.9
 # http://en.wikipedia.org/wiki/BR_Standard_Class_8
 axle_load=22
+# Three cylinders
+way_wear_factor=141488
 cost=10450000
-runningcost=2295
-sound=-1
+runningcost=525
+fixed_cost=61771
+sound=konakaboom-black-five.wav
 increase_maintenance_after_years=5
 years_before_maintenance_max_reached=12
 
 Constraint[Next][0]=BR-7MT-Tender
 
-EmptyImage[E]=./images/br-8p.0.0
-EmptyImage[SE]=./images/br-8p.0.1
-EmptyImage[S]=./images/br-8p.0.2
-EmptyImage[SW]=./images/br-8p.0.3
-EmptyImage[W]=./images/br-8p.0.4
-EmptyImage[NW]=./images/br-8p.0.5
-EmptyImage[N]=./images/br-8p.0.6
-EmptyImage[NE]=./images/br-8p.0.7
+EmptyImage[E]=./locomotives/br-8p_E.0.0
+EmptyImage[SE]=./locomotives/br-8p_SE.0.0
+EmptyImage[S]=./locomotives/br-8p_S.0.0
+EmptyImage[SW]=./locomotives/br-8p_SW.0.0
+EmptyImage[W]=./locomotives/br-8p_W.0.0
+EmptyImage[NW]=./locomotives/br-8p_NW.0.0
+EmptyImage[N]=./locomotives/br-8p_N.0.0
+EmptyImage[NE]=./locomotives/br-8p_NE.0.0
 

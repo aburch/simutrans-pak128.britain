@@ -2,11 +2,17 @@ Obj=ground
 Name=Fence
 copyright=fagonella
 # Natural fence
-Image[0][0]=images/fences.1.0
-Image[1][0]=images/fences.1.1
-Image[2][0]=images/fences.1.2
+Image[0][0]=images/fence-3.0.0
+Image[1][0]=images/fence-4.0.0
+Image[2][0]=images/fence-5.0.0
+#Image[0][0]=images/fences.1.0
+#Image[1][0]=images/fences.1.1
+#Image[2][0]=images/fences.1.2
 #building fence
-Image[3][0]=images/fences.2.0
-Image[4][0]=images/fences.2.1
-Image[5][0]=images/fences.2.2
+#Image[3][0]=images/fences.2.0
+#Image[4][0]=images/fences.2.1
+#Image[5][0]=images/fences.2.2
+Image[3][0]=images/fence-3.0.0
+Image[4][0]=images/fence-4.0.0
+Image[5][0]=images/fence-5.0.0
 --------------------

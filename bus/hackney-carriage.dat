@@ -1,20 +1,32 @@
+# https://web.archive.org/web/20190222083226/http://www.london-taxi-cabs.com/information/history-of-the-licensed-london-taxi
+# ORIGINAL OFFLINE: http://www.london-taxi-cabs.com/information/history-of-the-licensed-london-taxi
 obj=vehicle
 name=HackneyCarriage
 copyright=James
 waytype=road
 freight=Passagiere
-payload=5
-speed=10
-weight=0.5
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=2
+speed=12
+weight=0.2
+way_wear_factor=2
 length=3
 cost=10000
-runningcost=5
-intro_year=1700
+runningcost=0
+fixed_cost=4804
+intro_year=1750
 intro_month=1
-retire_year=1913
+retire_year=1845
 retire_month=4
+rolling_resistance=40
+brake_force=0
 
-comfort=30
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=30
 # Necessary to prohibit this vehicle from bridleways
 axle_load=1
 min_loading_time=7
@@ -22,17 +34,26 @@ max_loading_time=15
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=45
 
-Constraint[Prev][0]=RoadHorsesSingle
-Constraint[Prev][1]=RoadHorsesDouble
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-pony-double
+Constraint[Prev][7]=road-horse-clydesdale-single
+Constraint[Prev][8]=road-horse-pony-single
+Constraint[Prev][9]=road-horse-irish-draught-single
+Constraint[Prev][10]=road-horse-hackney-single
+Constraint[Prev][11]=road-horse-hackney-double
 
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/hackney-carriage.0.0
-EmptyImage[SE]=./images/hackney-carriage.0.1
-EmptyImage[S]=./images/hackney-carriage.0.2
-EmptyImage[SW]=./images/hackney-carriage.0.3
-EmptyImage[W]=./images/hackney-carriage.0.4
-EmptyImage[NW]=./images/hackney-carriage.0.5
-EmptyImage[N]=./images/hackney-carriage.0.6
-EmptyImage[NE]=./images/hackney-carriage.0.7
-
+EmptyImage[E]=./images/hackney-carriage_E.0.0,-33,14
+EmptyImage[SE]=./images/hackney-carriage_SE.0.0,-13,0
+EmptyImage[S]=./images/hackney-carriage_S.0.0,0,0
+EmptyImage[SW]=./images/hackney-carriage_SW.0.0,-8,10
+EmptyImage[W]=./images/hackney-carriage_W.0.0,4,5
+EmptyImage[NW]=./images/hackney-carriage_NW.0.0,12,10
+EmptyImage[N]=./images/hackney-carriage_N.0.0,0,33
+EmptyImage[NE]=./images/hackney-carriage_NE.0.0,0,24

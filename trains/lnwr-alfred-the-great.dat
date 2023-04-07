@@ -4,9 +4,9 @@ obj=vehicle
 name=LNWR-Alfred-the-Great
 engine_type=steam
 smoke=Steam
-speed=140
+speed=142
 # Extrapolated
-power=235
+power=259
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Alfred_the_Great_Class
 tractive_effort=136
 copyright=James/jamespetts
@@ -18,6 +18,8 @@ waytype=track
 freight=None
 payload=0
 length=6
+# Fully balanced compound
+way_wear_factor=68750
 
 # Note: These compound locomotives were considered mechanically unreliable.
 
@@ -25,8 +27,9 @@ length=6
 weight=55
 axle_load=16
 cost=8600000
-runningcost=950
-sound=-1
+runningcost=112
+fixed_cost=31167
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=17
 years_before_maintenance_max_reached=21
 upgrade[0]=LNWR-Renown
@@ -37,20 +40,20 @@ liverytype[1]=LMS-Standard
 Constraint[Next][0]=LNWR-PrinceOfWales-Tender
 
 # Graphics also used by "Jubilee" class
-EmptyImage[E][0]=./images/lnwr-alfred-the-great.1.4
-EmptyImage[SE][0]=./images/lnwr-alfred-the-great.1.5
-EmptyImage[S][0]=./images/lnwr-alfred-the-great.1.6
-EmptyImage[SW][0]=./images/lnwr-alfred-the-great.1.7
-EmptyImage[W][0]=./images/lnwr-alfred-the-great.1.0
-EmptyImage[NW][0]=./images/lnwr-alfred-the-great.1.1
-EmptyImage[N][0]=./images/lnwr-alfred-the-great.1.2
-EmptyImage[NE][0]=./images/lnwr-alfred-the-great.1.3
+EmptyImage[E][0]=./locomotives/lnwr-alfred-the-great_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-alfred-the-great_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-alfred-the-great_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-alfred-the-great_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-alfred-the-great_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-alfred-the-great_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-alfred-the-great_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-alfred-the-great_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-alfred-the-great-lms.1.4
-EmptyImage[SE][1]=./images/lnwr-alfred-the-great-lms.1.5
-EmptyImage[S][1]=./images/lnwr-alfred-the-great-lms.1.6
-EmptyImage[SW][1]=./images/lnwr-alfred-the-great-lms.1.7
-EmptyImage[W][1]=./images/lnwr-alfred-the-great-lms.1.0
-EmptyImage[NW][1]=./images/lnwr-alfred-the-great-lms.1.1
-EmptyImage[N][1]=./images/lnwr-alfred-the-great-lms.1.2
-EmptyImage[NE][1]=./images/lnwr-alfred-the-great-lms.1.3
+EmptyImage[E][1]=./locomotives/lnwr-alfred-the-great-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-alfred-the-great-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-alfred-the-great-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-alfred-the-great-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-alfred-the-great-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-alfred-the-great-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-alfred-the-great-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-alfred-the-great-lms_NE.0.0

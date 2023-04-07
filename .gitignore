@@ -8,3 +8,16 @@ _UpgradeReport_Files*
 *.sdf
 *lastbuildstate
 *.lnk
+*~
+/Pak128.Britain-Extended.VC.VC.opendb
+/Pak128.Britain-Extended.VC.db
+/pak128.Britain-Ex*
+.~lock*
+makeobj-extended
+*.db
+*.opendb
+*.ipch
+*.sve
+*.pak
+*.exe
+makeobj-extended*

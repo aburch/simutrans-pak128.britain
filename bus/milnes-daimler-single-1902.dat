@@ -1,0 +1,48 @@
+# https://myntransportblog.files.wordpress.com/2014/06/1903-milnes-daimler-motor-omnibus.jpg
+# https://myntransportblog.com/2014/06/30/milnes-daimler-london-england-uk/
+
+obj=vehicle
+name=milnes-daimler-single-1902
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+payload=16
+overcrowded_capacity=2
+# Below guessed
+speed=20
+power=19
+tractive_effort=1
+gear=50
+weight=1.9
+axle_load=1
+way_wear_factor=5
+length=4
+cost=80000
+runningcost=22
+fixed_cost=8042
+intro_year=1902
+intro_month=3
+# Guessed retirement date
+retire_year=1905
+retire_month=2
+sound=graham-french-leyland-n-type.wav
+
+comfort=25
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=32
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Private-operator
+
+EmptyImage[E][0]=./images/milnes-daimler-single-1902_E.0.0,-33,14
+EmptyImage[SE][0]=./images/milnes-daimler-single-1902_SE.0.0,-13,0
+EmptyImage[S][0]=./images/milnes-daimler-single-1902_S.0.0,0,0
+EmptyImage[SW][0]=./images/milnes-daimler-single-1902_SW.0.0,-8,10
+EmptyImage[W][0]=./images/milnes-daimler-single-1902_W.0.0,4,5
+EmptyImage[NW][0]=./images/milnes-daimler-single-1902_NW.0.0,12,10
+EmptyImage[N][0]=./images/milnes-daimler-single-1902_N.0.0,0,33
+EmptyImage[NE][0]=./images/milnes-daimler-single-1902_NE.0.0,0,24

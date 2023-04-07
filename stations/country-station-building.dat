@@ -10,12 +10,26 @@ retire_year=1960
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=2
+# Passenger data guessed
+population_and_visitor_demand_capacity=2
+employment_capacity=16
+mail_demand=5
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=20
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=42
+class_proportion_jobs[3]=3
+class_proportion_jobs[4]=0
 
-station_maintenance=11800
-station_price=800000
-station_capacity=75
+maintenance=11800
+cost=800000
+capacity=75
 
 BackImage[0][0][0][0][0][0]=country-station-building.0.2
 BackImage[1][0][0][0][0][0]=country-station-building.0.1

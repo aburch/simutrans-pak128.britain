@@ -1,0 +1,69 @@
+# See "London Tramways" (John Reed, pub. Capital Transport, ISBN 1-85414-179-1) p. 75
+obj=vehicle
+name=lcc-e3-class
+engine_type=electric
+speed=50
+gear=80
+# 2x 60hp motors (probably - not confirmed)
+power=89
+tractive_effort=25
+copyright=James/jamespetts
+intro_year=1930
+intro_month=9
+retire_year=1951
+retire_month=2
+waytype=tram_track
+freight=Passagiere
+payload=74
+overcrowded_capacity=6
+length=5
+is_tall=1
+
+weight=17.5
+axles=4
+cost=467000
+upgrade_price=157000
+runningcost=36
+fixed_cost=6389
+sound=tom-tait-tram.wav
+
+can_lead_from_rear=1
+bidirectional=1
+
+way_constraint_permissive[0]=1
+way_constraint_prohibitive[0]=0
+# Padded seats, bogies and fully enclosed upper deck
+comfort=45
+min_loading_time=11
+max_loading_time=65
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# I cannot find information as to the differences between
+# the LCC red livery of post 1926 and the LPTB livery.
+# They were very similar, but must have been at least
+# slightly different. Using the same graphics for now.
+
+liverytype[0]=LCC-red
+liverytype[1]=LT
+
+EmptyImage[E][0]=./images/lcc-e-class-red_E.0.0
+EmptyImage[SE][0]=./images/lcc-e-class-red_SE.0.0
+EmptyImage[S][0]=./images/lcc-e-class-red_S.0.0
+EmptyImage[SW][0]=./images/lcc-e-class-red_SW.0.0
+EmptyImage[W][0]=./images/lcc-e-class-red_W.0.0
+EmptyImage[NW][0]=./images/lcc-e-class-red_NW.0.0
+EmptyImage[N][0]=./images/lcc-e-class-red_N.0.0
+EmptyImage[NE][0]=./images/lcc-e-class-red_NE.0.0
+
+EmptyImage[E][1]=./images/lcc-e-class-red_E.0.0
+EmptyImage[SE][1]=./images/lcc-e-class-red_SE.0.0
+EmptyImage[S][1]=./images/lcc-e-class-red_S.0.0
+EmptyImage[SW][1]=./images/lcc-e-class-red_SW.0.0
+EmptyImage[W][1]=./images/lcc-e-class-red_W.0.0
+EmptyImage[NW][1]=./images/lcc-e-class-red_NW.0.0
+EmptyImage[N][1]=./images/lcc-e-class-red_N.0.0
+EmptyImage[NE][1]=./images/lcc-e-class-red_NE.0.0
+
+

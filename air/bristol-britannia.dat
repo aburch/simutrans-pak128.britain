@@ -1,0 +1,68 @@
+# https://en.wikipedia.org/wiki/Bristol_Britannia
+# https://www.flightglobal.com/FlightPDFArchive/1960/1960%20-%202674.PDF
+obj=vehicle
+name=bristol-britannia
+copyright=707
+# https://3dwarehouse.sketchup.com/model/b84b30bcaa2705c9bc0909d98a1ff2b4/BOAC-Bristol-Britannia-102
+waytype=air
+engine_type=turbine
+speed=575
+power=11952
+tractive_effort=56
+#gear=1
+freight=Passagiere
+# Single class seating is 139 "coach class"
+# Max seats (presumably in high capacity format) is 149.
+payload[0]=0
+payload[1]=0
+payload[2]=115
+payload[3]=0
+payload[4]=24
+
+weight=57.1
+#length=8
+# £700,000 - £1,400,000 (1957) (according to Wikipedia)
+# £1.07m new (according to Flight magazine, as above)
+cost=13100000
+# Specific fuel consumption: 0.585lb/bhp/hr
+runningcost=107
+fixed_cost=59097
+intro_year=1957
+intro_month=2
+retire_year=1960
+retire_month=11
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=121
+comfort[3]=0
+comfort[4]=172
+min_loading_time=2400
+max_loading_time=2400
+
+catering_level=3
+
+# https://www.skybrary.aero/index.php/L188
+# @ ISA (sea level, 0Centigrades), Runway Dry
+#minimum_runway_length=2484
+# @ ISA+10C, Runway dry = +10%
+minimum_runway_length=2732
+
+# It is very hard to find sounds for these.
+sound=robin-pinnock-vickers-viscount.wav
+range=6037
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/bristol-britannia-boac_E.0.0
+EmptyImage[SE]=./images/bristol-britannia-boac_SE.0.0
+EmptyImage[S]=./images/bristol-britannia-boac_S.0.0
+EmptyImage[SW]=./images/bristol-britannia-boac_SW.0.0
+EmptyImage[W]=./images/bristol-britannia-boac_W.0.0
+EmptyImage[NW]=./images/bristol-britannia-boac_NW.0.0
+EmptyImage[N]=./images/bristol-britannia-boac_N.0.0
+EmptyImage[NE]=./images/bristol-britannia-boac_NE.0.0
+
+# TODO: Cargo version (no models currently on 3d Warehouse)
+# For cargo version, the payload sould be 2.5t: see https://forum.simutrans.com/index.php/topic,17150.msg183106.html#msg183106

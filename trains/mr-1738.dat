@@ -2,15 +2,16 @@ obj=vehicle
 name=MR-1738
 engine_type=steam
 smoke=Steam
-speed=130
+speed=140
 # Extrapolated
-power=204
-# Calculated from data from Ahrons, p. 214
+power=221
+# Calculated from data from http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm
+# (Note: that site has the class incorrectly named as the 1740 class)
 # Loss factor set at 0.8
-tractive_effort=50
+tractive_effort=58
 copyright=Kieron/JamesPetts
-intro_year=1877
-intro_month=9
+intro_year=1885
+intro_month=6
 # See http://en.wikipedia.org/wiki/Midland_Railway_Class_2_4-4-0
 # There were many, very similar, classes of locomotives
 retire_year=1893
@@ -18,16 +19,15 @@ retire_month=6
 waytype=track
 freight=None
 payload=0
-length=6
+length=5
 
-# Weight confirmed from Ahrons, p. 214
-weight=42
+# http://orion.math.iastate.edu/jdhsmith/term/slgbmr.htm
+weight=43
 axle_load=14
-cost=7035000
-runningcost=1335
-sound=-1
-increase_maintenance_after_years=40
-years_before_maintenance_max_reached=40
+cost=5935000
+runningcost=148
+fixed_cost=28946
+sound=lwalker-br-4mt-tank.wav
 
 # These were rebuilt, strictly, rather than
 # upgraded to 483 class locomotives - but
@@ -38,23 +38,11 @@ upgrade[0]=MR-483
 
 Constraint[Next][0]=MR-Kirtley156Tender
 
-liverytype[0]=MR-Early
-liverytype[1]=MR-Standard
-
-EmptyImage[E][0]=./images/mr-1738-class-green.1.4
-EmptyImage[SE][0]=./images/mr-1738-class-green.1.5
-EmptyImage[S][0]=./images/mr-1738-class-green.1.6
-EmptyImage[SW][0]=./images/mr-1738-class-green.1.7
-EmptyImage[W][0]=./images/mr-1738-class-green.1.0
-EmptyImage[NW][0]=./images/mr-1738-class-green.1.1
-EmptyImage[N][0]=./images/mr-1738-class-green.1.2
-EmptyImage[NE][0]=./images/mr-1738-class-green.1.3
-
-EmptyImage[E][1]=./images/mr-1738-class.1.4
-EmptyImage[SE][1]=./images/mr-1738-class.1.5
-EmptyImage[S][1]=./images/mr-1738-class.1.6
-EmptyImage[SW][1]=./images/mr-1738-class.1.7
-EmptyImage[W][1]=./images/mr-1738-class.1.0
-EmptyImage[NW][1]=./images/mr-1738-class.1.1
-EmptyImage[N][1]=./images/mr-1738-class.1.2
-EmptyImage[NE][1]=./images/mr-1738-class.1.3
+EmptyImage[E]=./locomotives/mr-1738-class_E.0.0
+EmptyImage[SE]=./locomotives/mr-1738-class_SE.0.0
+EmptyImage[S]=./locomotives/mr-1738-class_S.0.0
+EmptyImage[SW]=./locomotives/mr-1738-class_SW.0.0
+EmptyImage[W]=./locomotives/mr-1738-class_W.0.0
+EmptyImage[NW]=./locomotives/mr-1738-class_NW.0.0
+EmptyImage[N]=./locomotives/mr-1738-class_N.0.0
+EmptyImage[NE]=./locomotives/mr-1738-class_NE.0.0

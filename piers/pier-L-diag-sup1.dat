@@ -1,0 +1,51 @@
+obj=pier
+name=Ldiagsup1
+cost=70000
+maintenance=47
+
+intro_year=1860
+intro_month=1
+retire_year=1962
+retire_month=2
+
+above_way_ribi=0x1
+below_way_ribi=0xF
+
+base_mask=0x04040404
+middle_mask=0x03FB1323
+middle_mask_2=0x07070301
+support_mask=0x04040404
+
+topspeed=100
+max_weight=15
+max_altitude=4
+
+keep_dry=1
+sub_obj_mask=0x02
+
+auto_group=0x02
+
+above_way_supplement=1
+
+cursor=pier-L-diag-sup1.0.5
+icon=> pier-L-diag-sup1.0.4
+
+backimage[00][0][0] = pier-L-diag-sup1.0.0
+backimage[00][1][0] = pier-L-diag-sup1.0.1
+backimage[00][2][0] = pier-L-diag-sup1.0.2
+backimage[00][3][0] = pier-L-diag-sup1.0.3
+
+frontimage[00][0][0] = pier-L-diag-sup1-front.0.0
+frontimage[00][1][0] = pier-L-diag-sup1-front.0.1
+frontimage[00][2][0] = pier-L-diag-sup1-front.0.2
+frontimage[00][3][0] = pier-L-diag-sup1-front.0.3
+
+backimage[00][0][1] = pier-L-diag-sup1-snow.0.0
+backimage[00][1][1] = pier-L-diag-sup1-snow.0.1
+backimage[00][2][1] = pier-L-diag-sup1-snow.0.2
+backimage[00][3][1] = pier-L-diag-sup1-snow.0.3
+
+frontimage[00][0][1] = pier-L-diag-sup1-snow-front.0.0
+frontimage[00][1][1] = pier-L-diag-sup1-snow-front.0.1
+frontimage[00][2][1] = pier-L-diag-sup1-snow-front.0.2
+frontimage[00][3][1] = pier-L-diag-sup1-snow-front.0.3

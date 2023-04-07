@@ -1,0 +1,40 @@
+# See Gladwin pp. 109-202 of vol. 3 and pp. 64-5 of vol. 1 for data.
+obj=vehicle
+waytype=tram_track
+name=kitson-standard-3
+engine_type=steam
+# These had effective condensers
+#smoke=Steam
+speed=16
+# Extrapolated
+power=6
+tractive_effort=18
+copyright=jamespetts
+intro_year=1886
+intro_month=5
+retire_year=1908
+retire_month=4
+length=3
+
+weight=11
+axles=2
+cost=295000
+runningcost=5
+fixed_cost=16246
+sound=laurie-barclay-0-4-0.wav
+
+can_lead_from_rear=0
+bidirectional=1
+way_constraint_prohibitive[0]=0
+
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/kitson-standard-3_E.0.0
+EmptyImage[SE]=./images/kitson-standard-3_SE.0.0
+EmptyImage[S]=./images/kitson-standard-3_S.0.0
+EmptyImage[SW]=./images/kitson-standard-3_SW.0.0
+EmptyImage[W]=./images/kitson-standard-3_W.0.0
+EmptyImage[NW]=./images/kitson-standard-3_NW.0.0
+EmptyImage[N]=./images/kitson-standard-3_N.0.0
+EmptyImage[NE]=./images/kitson-standard-3_NE.0.0
+

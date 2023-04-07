@@ -3,7 +3,7 @@ name=LMR-Planet-Goods
 engine_type=steam
 smoke=Steam
 speed=42
-# Power extrapolated from Planet
+# Same as planet, estimated
 power=10
 # Tractive effort value calculated from data from Ahrons (p. 20)
 # Loss factor set to 0.5, pressure assumed to be 50lb
@@ -16,25 +16,27 @@ retire_month=9
 waytype=track
 freight=None
 payload=0
-length=4
+length=3
 brake_force=0
 rolling_resistance=19
+way_wear_factor=20958
 
-#Weight confirmed by Ahrons, p. 20
-weight=10
+# Weight given by Ahrons, p. 20
+weight=10.1
 cost=4752000
-runningcost=640
-sound=-1
+runningcost=35
+fixed_cost=22600
+sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=70
 increase_maintenance_after_years=25
 
 Constraint[Next][0]=LMR-Planet-Tender
 
-EmptyImage[E]=./images/planet-goods.1.4
-EmptyImage[SE]=./images/planet-goods.1.5
-EmptyImage[S]=./images/planet-goods.1.6
-EmptyImage[SW]=./images/planet-goods.1.7
-EmptyImage[W]=./images/planet-goods.1.0
-EmptyImage[NW]=./images/planet-goods.1.1
-EmptyImage[N]=./images/planet-goods.1.2
-EmptyImage[NE]=./images/planet-goods.1.3
+EmptyImage[E]=./carriages/lmr-planet-goods_E.0.0
+EmptyImage[SE]=./carriages/lmr-planet-goods_SE.0.0
+EmptyImage[S]=./carriages/lmr-planet-goods_S.0.0
+EmptyImage[SW]=./carriages/lmr-planet-goods_SW.0.0
+EmptyImage[W]=./carriages/lmr-planet-goods_W.0.0
+EmptyImage[NW]=./carriages/lmr-planet-goods_NW.0.0
+EmptyImage[N]=./carriages/lmr-planet-goods_N.0.0
+EmptyImage[NE]=./carriages/lmr-planet-goods_NE.0.0

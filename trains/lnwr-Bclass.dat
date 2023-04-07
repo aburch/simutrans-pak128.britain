@@ -2,9 +2,9 @@ obj=vehicle
 name=LNWR-BClass
 engine_type=steam
 smoke=Steam
-speed=90
+speed=85
 # Extrapolated
-power=260
+power=259
 # Tractive effort data unavailalbe: guessed from similar classes:
 # http://en.wikipedia.org/wiki/LNWR_G_Class
 tractive_effort=104
@@ -16,14 +16,17 @@ retire_month=2
 waytype=track
 freight=None
 payload=0
-length=7
+length=6
+# Fully balanced 4 cylinder compound
+way_wear_factor=66250
 
 # Weight given by the LNWR Soceity: http://www.lnwrs.org.uk/GoodsLocos/Loco11.php
 weight=53
 axles=4
 cost=6456000
-runningcost=670
-sound=-1
+runningcost=112
+fixed_cost=29380
+sound=lwalker-br-4mt-tank.wav
 increase_maintenance_after_years=20
 years_before_maintenance_max_reached=25
 
@@ -34,20 +37,21 @@ Constraint[Next][0]=LNWR-AClass-Tender
 liverytype[0]=LNWR-Black
 liverytype[1]=LMS-Standard
 
-EmptyImage[E][0]=./images/lnwr-Bclass_E.0
-EmptyImage[SE][0]=./images/lnwr-Bclass_SE.0
-EmptyImage[S][0]=./images/lnwr-Bclass_S.0
-EmptyImage[SW][0]=./images/lnwr-Bclass_SW.0
-EmptyImage[W][0]=./images/lnwr-Bclass_W.0
-EmptyImage[NW][0]=./images/lnwr-Bclass_NW.0
-EmptyImage[N][0]=./images/lnwr-Bclass_N.0
-EmptyImage[NE][0]=./images/lnwr-Bclass_NE.0
+EmptyImage[E][0]=./locomotives/lnwr-b-class_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-b-class_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-b-class_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-b-class_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-b-class_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-b-class_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-b-class_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-b-class_NE.0.0
 
-EmptyImage[E][1]=./images/lnwr-Bclass-lms_E.0
-EmptyImage[SE][1]=./images/lnwr-Bclass-lms_SE.0
-EmptyImage[S][1]=./images/lnwr-Bclass-lms_S.0
-EmptyImage[SW][1]=./images/lnwr-Bclass-lms_SW.0
-EmptyImage[W][1]=./images/lnwr-Bclass-lms_W.0
-EmptyImage[NW][1]=./images/lnwr-Bclass-lms_NW.0
-EmptyImage[N][1]=./images/lnwr-Bclass-lms_N.0
-EmptyImage[NE][1]=./images/lnwr-Bclass-lms_NE.0
+EmptyImage[E][1]=./locomotives/lnwr-b-class-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-b-class-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-b-class-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-b-class-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-b-class-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-b-class-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-b-class-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-b-class-lms_NE.0.0
+

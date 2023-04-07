@@ -1,0 +1,52 @@
+# http://web.archive.org/web/20160509175310/http://www.countrybus.org/National/SN.htm
+obj=vehicle
+name=leyland-national-lnc
+engine_type=diesel
+smoke=Diesel
+# Coach gearings
+speed=85
+gear=50
+# Leyland 510 engine
+# Heavy fuel consumption and hard to maintain
+power=127
+# Coach gearings
+tractive_effort=17
+copyright=Kieron
+# Guessed
+intro_year=1974
+intro_month=6
+retire_year=1980
+retire_month=9
+waytype=road
+freight=Passagiere
+payload=39
+overcrowded_capacity=0
+length=6
+
+weight=8.5
+axles=2
+cost=7250000
+runningcost=64
+fixed_cost=11776
+sound=video47-leyland-national.wav
+
+# Coach seats
+comfort=68
+# Coach (intermediate distance): 5.0 seconds per passenger
+min_loading_time=20
+max_loading_time=195
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# TODO: Add more liveries
+liverytype[0]=Leaf-Green
+
+EmptyImage[E][0]=./images/leyland-national-lnc-greenline_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-national-lnc-greenline_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-national-lnc-greenline_S.0.0,4,0
+EmptyImage[SW][0]=./images/leyland-national-lnc-greenline_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-national-lnc-greenline_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-national-lnc-greenline_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-national-lnc-greenline_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-national-lnc-greenline_NE.0.0,0,24

@@ -4,7 +4,7 @@ engine_type=electric
 speed=72
 gear=80
 power=200
-tractive_effort=60
+tractive_effort=45
 length=8
 copyright=James
 intro_year=1923
@@ -19,18 +19,21 @@ overcrowded_capacity=72
 weight=29
 axles=4
 cost=1150000
-runningcost=5
-sound=-1
+runningcost=80
+fixed_cost=6958
+sound=lul-1938-stock-ff3170.wav
 upgrade[0]=BR-Class485Front
 
 can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=14
-max_loading_time=45
+min_loading_time=17
+max_loading_time=47
 comfort=57
 
 Constraint[Prev][0]=1923TubeStockRear
@@ -71,25 +74,30 @@ retire_year=1940
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=126
 
 weight=19
 axles=4
 cost=450000
-runningcost=20
-sound=-1
+runningcost=0
+fixed_cost=536
+
 upgrade[0]=BR-Class485Middle1
 
 can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=14
-max_loading_time=45
-comfort=57
+min_loading_time=17
+max_loading_time=47
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1923TubeStockFront
 
@@ -129,25 +137,30 @@ retire_year=1940
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=114
 
 weight=17
 axles=4
 cost=450000
-runningcost=20
-sound=-1
+runningcost=0
+fixed_cost=536
+
 upgrade[0]=BR-Class485Middle2
 
 can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=14
-max_loading_time=45
-comfort=57
+min_loading_time=17
+max_loading_time=47
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1923TubeStockMiddle1
 
@@ -181,7 +194,7 @@ engine_type=electric
 speed=72
 gear=80
 power=150
-tractive_effort=60
+tractive_effort=45
 length=8
 copyright=James
 intro_year=1923
@@ -190,25 +203,30 @@ retire_year=1940
 retire_month=4
 waytype=track
 freight=Passagiere
-payload=26
+payload[0]=0
+payload[1]=26
 overcrowded_capacity=72
 
 weight=29
 axles=4
 cost=1050000
-runningcost=80
-sound=-1
+runningcost=60
+fixed_cost=6875
+sound=lul-1938-stock-ff3170.wav
 upgrade[0]=BR-Class485Rear
 
 can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=14
-max_loading_time=45
-comfort=57
+min_loading_time=17
+max_loading_time=47
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=1923TubeStockMiddle1
 Constraint[Prev][1]=1923TubeStockMiddle2

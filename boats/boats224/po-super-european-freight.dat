@@ -4,25 +4,35 @@ copyright=James
 waytype=water
 engine_type=diesel
 smoke=Diesel
+sound=ship-horn_a.wav
 speed=40
 power=27000
-gear=100
 weight=13000
 length=14
 cost=91000000
-runningcost=710
+runningcost=812
+fixed_cost=237917
 intro_year=1991
 intro_month=9
+is_tall=1
 
 # 30-45 minutes
 min_loading_time=2400
 max_loading_time=2700
+range=360
 
 upgrade[0]=POSuperEuropeanMixed
 
 Constraint[Next][0]=POSuperEuropeanFreightAddMail
 Constraint[Next][1]=POSuperEuropeanFreightAddPiece
 Constraint[Next][2]=POSuperEuropeanFreightAddCool
+Constraint[Next][3]=POSuperEuropeanFreightAddOil
+Constraint[Next][4]=POSuperEuropeanFreightAddBulk
+Constraint[Next][5]=POSuperEuropeanFreightAddLong
+Constraint[Next][6]=POSuperEuropeanFreightAddLivestock
+Constraint[Next][7]=POSuperEuropeanFreightAddCar
+Constraint[Next][8]=none
+
 Constraint[Prev][0]=none
 
 EmptyImage[E]=../images/po-super-european-freight.1.0,-31,-46

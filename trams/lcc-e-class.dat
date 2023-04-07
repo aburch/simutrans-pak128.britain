@@ -1,0 +1,81 @@
+# See "London Tramways" (John Reed, pub. Capital Transport, ISBN 1-85414-179-1) p. 41
+obj=vehicle
+name=lcc-e-class
+engine_type=electric
+speed=32
+gear=80
+# Taken as the earlier batch of 2x 30hp motors.
+# The E/1s will represent those with 42hp motors.
+power=45
+tractive_effort=35
+copyright=James/jamespetts
+intro_year=1906
+intro_month=1
+retire_year=1908
+retire_month=2
+waytype=tram_track
+freight=Passagiere
+payload=76
+overcrowded_capacity=6
+length=5
+is_tall=1
+
+weight=16.5
+axles=4
+cost=411000
+runningcost=27
+fixed_cost=6343
+sound=tom-tait-tram.wav
+
+upgrade[0]=lcc-e3-class
+
+can_lead_from_rear=1
+bidirectional=1
+
+way_constraint_permissive[0]=1
+way_constraint_prohibitive[1]=0
+# Bogies and fully enclosed upper deck
+comfort=38
+min_loading_time=10
+max_loading_time=65
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# I cannot find information as to the differences between
+# the LCC red livery of post 1926 and the LPTB livery.
+# They were very similar, but must have been at least
+# slightly different. Using the same graphics for now.
+
+liverytype[0]=LCC-plum
+liverytype[1]=LCC-red
+liverytype[2]=LT
+
+EmptyImage[E][0]=./images/lcc-e-class_E.0.0
+EmptyImage[SE][0]=./images/lcc-e-class_SE.0.0
+EmptyImage[S][0]=./images/lcc-e-class_S.0.0
+EmptyImage[SW][0]=./images/lcc-e-class_SW.0.0
+EmptyImage[W][0]=./images/lcc-e-class_W.0.0
+EmptyImage[NW][0]=./images/lcc-e-class_NW.0.0
+EmptyImage[N][0]=./images/lcc-e-class_N.0.0
+EmptyImage[NE][0]=./images/lcc-e-class_NE.0.0
+
+EmptyImage[E][1]=./images/lcc-e-class-red_E.0.0
+EmptyImage[SE][1]=./images/lcc-e-class-red_SE.0.0
+EmptyImage[S][1]=./images/lcc-e-class-red_S.0.0
+EmptyImage[SW][1]=./images/lcc-e-class-red_SW.0.0
+EmptyImage[W][1]=./images/lcc-e-class-red_W.0.0
+EmptyImage[NW][1]=./images/lcc-e-class-red_NW.0.0
+EmptyImage[N][1]=./images/lcc-e-class-red_N.0.0
+EmptyImage[NE][1]=./images/lcc-e-class-red_NE.0.0
+
+EmptyImage[E][2]=./images/lcc-e-class-red_E.0.0
+EmptyImage[SE][2]=./images/lcc-e-class-red_SE.0.0
+EmptyImage[S][2]=./images/lcc-e-class-red_S.0.0
+EmptyImage[SW][2]=./images/lcc-e-class-red_SW.0.0
+EmptyImage[W][2]=./images/lcc-e-class-red_W.0.0
+EmptyImage[NW][2]=./images/lcc-e-class-red_NW.0.0
+EmptyImage[N][2]=./images/lcc-e-class-red_N.0.0
+EmptyImage[NE][2]=./images/lcc-e-class-red_NE.0.0
+
+

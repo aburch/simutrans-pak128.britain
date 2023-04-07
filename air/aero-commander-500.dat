@@ -1,0 +1,156 @@
+# https://en.wikipedia.org/wiki/Aero_Commander_500_family
+# http://www.airliners.net/aircraft-data/rockwell-500520560680685720-commander/343
+# http://www.planeandpilotmag.com/article/aero-commander-520/
+obj=vehicle
+name=aero-commander-520
+copyright=Emmanuel Baranger
+# CC-0
+# https://www.blendswap.com/blends/view/66578
+waytype=air
+engine_type=petrol
+speed=326
+# https://en.wikipedia.org/wiki/Aero_Commander_500_family
+power=432
+tractive_effort=3
+freight=Passagiere
+# Payload: 0.8t
+payload[0]=0
+payload[1]=0
+payload[2]=7
+weight=2.1
+#length=8
+cost=1800123
+runningcost=16
+fixed_cost=51250
+intro_year=1951
+intro_month=4
+retire_year=1986
+retire_month=8
+comfort[0]=0
+comfort[1]=0
+comfort[2]=75
+min_loading_time=1600
+max_loading_time=1600
+catering_level=0
+
+air_resistance=25
+
+minimum_runway_length=950
+
+range=850
+
+sound=planelow.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/aero-commander-520_E.0.0
+EmptyImage[SE]=./images/aero-commander-520_SE.0.0
+EmptyImage[S]=./images/aero-commander-520_S.0.0
+EmptyImage[SW]=./images/aero-commander-520_SW.0.0
+EmptyImage[W]=./images/aero-commander-520_W.0.0
+EmptyImage[NW]=./images/aero-commander-520_NW.0.0
+EmptyImage[N]=./images/aero-commander-520_N.0.0
+EmptyImage[NE]=./images/aero-commander-520_NE.0.0
+
+---
+
+obj=vehicle
+name=aero-commander-500
+copyright=Emmanuel Baranger
+# CC-0
+# https://www.blendswap.com/blends/view/66578
+waytype=air
+engine_type=petrol
+speed=326
+power=432
+tractive_effort=3
+freight=Post
+# Payload: 0.8t
+payload=1000
+weight=2.1
+#length=8
+cost=1800123
+runningcost=16
+fixed_cost=51250
+intro_year=1951
+intro_month=4
+retire_year=1986
+retire_month=8
+
+min_loading_time=1600
+max_loading_time=1800
+catering_level=0
+
+air_resistance=25
+
+minimum_runway_length=950
+
+range=850
+
+sound=planelow.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/aero-commander-500_E.0.0
+EmptyImage[SE]=./images/aero-commander-500_SE.0.0
+EmptyImage[S]=./images/aero-commander-500_S.0.0
+EmptyImage[SW]=./images/aero-commander-500_SW.0.0
+EmptyImage[W]=./images/aero-commander-500_W.0.0
+EmptyImage[NW]=./images/aero-commander-500_NW.0.0
+EmptyImage[N]=./images/aero-commander-500_N.0.0
+EmptyImage[NE]=./images/aero-commander-500_NE.0.0
+
+---
+# http://www.planeandpilotmag.com/article/aero-commander-680-courser/
+obj=vehicle
+name=aero-commander-681
+copyright=Emmanuel Baranger
+# CC-0
+# https://www.blendswap.com/blends/view/66578
+waytype=air
+engine_type=petrol
+speed=370
+power=456
+tractive_effort=4
+# Payload: 1.0t
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=11
+weight=4.3
+#length=8
+cost=2200000
+runningcost=20
+fixed_cost=51528
+intro_year=1955
+intro_month=9
+retire_year=1986
+retire_month=8
+comfort[0]=0
+comfort[1]=0
+comfort[2]=76
+min_loading_time=1650
+max_loading_time=1650
+catering_level=0
+
+air_resistance=25
+
+minimum_runway_length=1575
+
+range=1480
+
+sound=bigpickle51-turboprop.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/aero-commander-681_E.0.0
+EmptyImage[SE]=./images/aero-commander-681_SE.0.0
+EmptyImage[S]=./images/aero-commander-681_S.0.0
+EmptyImage[SW]=./images/aero-commander-681_SW.0.0
+EmptyImage[W]=./images/aero-commander-681_W.0.0
+EmptyImage[NW]=./images/aero-commander-681_NW.0.0
+EmptyImage[N]=./images/aero-commander-681_N.0.0
+EmptyImage[NE]=./images/aero-commander-681_NE.0.0

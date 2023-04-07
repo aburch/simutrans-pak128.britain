@@ -11,12 +11,26 @@ retire_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=2
+# Passenger data guessed
+population_and_visitor_demand_capacity=3
+employment_capacity=50
+mail_demand=4
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=55
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 
-station_maintenance=18500
-station_price=2700000
-station_capacity=92
+maintenance=18500
+cost=2700000
+capacity=92
 
 BackImage[0][0][0][0][0][0]=1950s-terminal-entrance.0.2
 BackImage[1][0][0][0][0][0]=1950s-terminal-entrance.0.1
@@ -43,12 +57,26 @@ retire_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,1
-NoInfo=1
+#NoInfo=1
 Level=5
+# Passenger data guessed
+population_and_visitor_demand_capacity=3
+employment_capacity=64
+mail_demand=4
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=55
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 
-station_maintenance=21800
-station_price=3162500
-station_capacity=115
+maintenance=21800
+cost=3162500
+capacity=115
 
 BackImage[0][0][0][0][0][0]=large-terminal-1950s.0.0
 BackImage[0][0][0][0][0][1]=large-terminal-1950s.0.3
@@ -69,12 +97,26 @@ retire_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=2
+# Passenger data guessed
+population_and_visitor_demand_capacity=3
+employment_capacity=50
+mail_demand=4
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=55
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 
-station_maintenance=9250
-station_price=1350000
-station_capacity=92
+maintenance=9250
+cost=1350000
+capacity=92
 
 BackImage[0][0][0][0][0][0]=1950s-terminal-entrance.0.2
 BackImage[1][0][0][0][0][0]=1950s-terminal-entrance.0.1
@@ -101,12 +143,26 @@ retire_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,1
-NoInfo=1
+#NoInfo=1
 Level=5
+# Passenger data guessed
+population_and_visitor_demand_capacity=3
+employment_capacity=64
+mail_demand=4
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=35
+class_proportion_jobs[2]=55
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 
-station_maintenance=10900
-station_price=1581250
-station_capacity=115
+maintenance=10900
+cost=1581250
+capacity=115
 
 BackImage[0][0][0][0][0][0]=large-terminal-1950s.0.0
 BackImage[0][0][0][0][0][1]=large-terminal-1950s.0.3

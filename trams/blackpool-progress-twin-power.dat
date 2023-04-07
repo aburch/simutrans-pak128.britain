@@ -3,29 +3,39 @@ name=Blackpool-ProgressTwin-Power
 engine_type=electric
 speed=70
 gear=80
-power=150
+# http://www.britishtramsonline.co.uk/blackpoolfleet.doc
+# 57 electric horse power is 42.5KW, unlike the source states.
+power=85
+tractive_effort=40
 copyright=James
 intro_year=1958
 intro_month=3
-retire_year=1967
-retire_month=8
+# Actually built for a much shorter period, this is necessary
+# as otherwise there are no trams in the 1960s and 1970s
+retire_year=1979
+retire_month=6
 waytype=tram_track
 freight=Passagiere
 payload=53
 overcrowded_capacity=6
-weight=18
+length=6
+
+weight=13
 axles=4
-cost=302000
-runningcost=30
-sound=-1
+cost=352000
+upgrade_price=12500
+runningcost=17
+fixed_cost=6293
+sound=tom-tait-tram.wav
 
 can_lead_from_rear=1
 bidirectional=1
+
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 comfort=46
-min_loading_time=22
-max_loading_time=55
+min_loading_time=12
+max_loading_time=45
 increase_maintenance_after_years=30
 
 Constraint[Prev][0]=none
@@ -33,12 +43,12 @@ Constraint[Prev][0]=none
 Constraint[Next][0]=Blackpool-ProgressTwin-Trailer
 Constraint[Next][1]=none
 
-EmptyImage[E]=./images/blackpool-progress-twin.0.0
-EmptyImage[SE]=./images/blackpool-progress-twin.0.1
-EmptyImage[S]=./images/blackpool-progress-twin.0.2
-EmptyImage[SW]=./images/blackpool-progress-twin.0.3
-EmptyImage[W]=./images/blackpool-progress-twin.0.4
-EmptyImage[NW]=./images/blackpool-progress-twin.0.5
-EmptyImage[N]=./images/blackpool-progress-twin.0.6
-EmptyImage[NE]=./images/blackpool-progress-twin.0.7
+EmptyImage[E]=./images/blackpool-progress-twin-power_E.0.0
+EmptyImage[SE]=./images/blackpool-progress-twin-power_SE.0.0
+EmptyImage[S]=./images/blackpool-progress-twin-power_S.0.0
+EmptyImage[SW]=./images/blackpool-progress-twin-power_SW.0.0
+EmptyImage[W]=./images/blackpool-progress-twin-power_W.0.0
+EmptyImage[NW]=./images/blackpool-progress-twin-power_NW.0.0
+EmptyImage[N]=./images/blackpool-progress-twin-power_N.0.0
+EmptyImage[NE]=./images/blackpool-progress-twin-power_NE.0.0
 

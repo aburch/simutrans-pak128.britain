@@ -4,27 +4,35 @@ engine_type=electric
 speed=160
 power=750
 gear=80
-tractive_effort=200
+tractive_effort=100
 copyright=Kieron/JamesPetts
 intro_year=2003
 intro_month=8
 waytype=track
 freight=Passagiere
-payload=51
-overcrowded_capacity=22
-length=12
+payload[0]=0
+payload[1]=26
+payload[2]=0
+payload[3]=35
+overcrowded_capacity=12
+length=11
 brake_force=33
 rolling_resistance=13
 
 weight=45
 axles=4
 cost=1057500
-runningcost=144
-sound=-1
+# Awareded the "Golden Spanner" in 2010 for reliability (Wikipedia article)
+runningcost=113
+fixed_cost=6881
+sound=video47-class-350.wav
 
 min_loading_time=30
 max_loading_time=150
-comfort=112
+comfort[0]=0
+comfort[1]=112
+comfort[2]=0
+comfort[3]=134
 
 can_lead_from_rear=1
 bidirectional=0
@@ -37,14 +45,14 @@ Constraint[Prev][2]=none
 
 Constraint[Next][0]=BR-444(centre1)
 
-EmptyImage[E]=./images/br-444-driving.0.0
-EmptyImage[SE]=./images/br-444-driving.0.1
-EmptyImage[S]=./images/br-444-driving.0.2
-EmptyImage[SW]=./images/br-444-driving.0.3
-EmptyImage[W]=./images/br-444-driving.0.4
-EmptyImage[NW]=./images/br-444-driving.0.5
-EmptyImage[N]=./images/br-444-driving.0.6
-EmptyImage[NE]=./images/br-444-driving.0.7
+EmptyImage[E]=./railcars/br-444-driving-front_E.0.0
+EmptyImage[SE]=./railcars/br-444-driving-front_SE.0.0
+EmptyImage[S]=./railcars/br-444-driving-front_S.0.0
+EmptyImage[SW]=./railcars/br-444-driving-front_SW.0.0
+EmptyImage[W]=./railcars/br-444-driving-front_W.0.0
+EmptyImage[NW]=./railcars/br-444-driving-front_NW.0.0
+EmptyImage[N]=./railcars/br-444-driving-front_N.0.0
+EmptyImage[NE]=./railcars/br-444-driving-front_NE.0.0
 
 ---
 
@@ -59,7 +67,10 @@ intro_year=2003
 intro_month=8
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=24
 length=11
 brake_force=30
@@ -68,12 +79,15 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
-sound=-1
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=30
 max_loading_time=150
-comfort=112
+comfort[0]=0
+comfort[1]=112
+comfort[2]=0
+comfort[3]=134
 
 can_lead_from_rear=0
 bidirectional=1
@@ -83,14 +97,14 @@ Constraint[Prev][0]=BR-444(front)
 
 Constraint[Next][0]=BR-444(centre2)
 
-EmptyImage[E]=./images/br-444-centre.0.0
-EmptyImage[SE]=./images/br-444-centre.0.1
-EmptyImage[S]=./images/br-444-centre.0.2
-EmptyImage[SW]=./images/br-444-centre.0.3
-EmptyImage[W]=./images/br-444-centre.0.4
-EmptyImage[NW]=./images/br-444-centre.0.5
-EmptyImage[N]=./images/br-444-centre.0.6
-EmptyImage[NE]=./images/br-444-centre.0.7
+EmptyImage[E]=./railcars/br-444-centre_E.0.0
+EmptyImage[SE]=./railcars/br-444-centre_SE.0.0
+EmptyImage[S]=./railcars/br-444-centre_S.0.0
+EmptyImage[SW]=./railcars/br-444-centre_SW.0.0
+EmptyImage[W]=./railcars/br-444-centre_W.0.0
+EmptyImage[NW]=./railcars/br-444-centre_NW.0.0
+EmptyImage[N]=./railcars/br-444-centre_N.0.0
+EmptyImage[NE]=./railcars/br-444-centre_NE.0.0
 
 ---
 
@@ -105,7 +119,10 @@ intro_year=2003
 intro_month=8
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=26
 length=11
 brake_force=30
@@ -114,12 +131,15 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
-sound=-1
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=30
 max_loading_time=150
-comfort=112
+comfort[0]=0
+comfort[1]=112
+comfort[2]=0
+comfort[3]=134
 
 can_lead_from_rear=0
 bidirectional=1
@@ -129,14 +149,14 @@ Constraint[Prev][0]=BR-444(centre1)
 
 Constraint[Next][0]=BR-444(centre3)
 
-EmptyImage[E]=./images/br-444-centre.0.0
-EmptyImage[SE]=./images/br-444-centre.0.1
-EmptyImage[S]=./images/br-444-centre.0.2
-EmptyImage[SW]=./images/br-444-centre.0.3
-EmptyImage[W]=./images/br-444-centre.0.4
-EmptyImage[NW]=./images/br-444-centre.0.5
-EmptyImage[N]=./images/br-444-centre.0.6
-EmptyImage[NE]=./images/br-444-centre.0.7
+EmptyImage[E]=./railcars/br-444-centre_E.0.0
+EmptyImage[SE]=./railcars/br-444-centre_SE.0.0
+EmptyImage[S]=./railcars/br-444-centre_S.0.0
+EmptyImage[SW]=./railcars/br-444-centre_SW.0.0
+EmptyImage[W]=./railcars/br-444-centre_W.0.0
+EmptyImage[NW]=./railcars/br-444-centre_NW.0.0
+EmptyImage[N]=./railcars/br-444-centre_N.0.0
+EmptyImage[NE]=./railcars/br-444-centre_NE.0.0
 
 ---
 
@@ -151,7 +171,10 @@ intro_year=2003
 intro_month=8
 waytype=track
 freight=Passagiere
-payload=74
+payload[0]=0
+payload[1]=74
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=26
 length=11
 brake_force=30
@@ -160,12 +183,15 @@ rolling_resistance=13
 weight=40
 axles=4
 cost=1899100
-runningcost=43
-sound=-1
+runningcost=0
+fixed_cost=3956
 
 min_loading_time=30
 max_loading_time=150
-comfort=112
+comfort[0]=0
+comfort[1]=112
+comfort[2]=0
+comfort[3]=134
 
 can_lead_from_rear=0
 bidirectional=1
@@ -175,14 +201,14 @@ Constraint[Prev][0]=BR-444(centre2)
 
 Constraint[Next][0]=BR-444(rear)
 
-EmptyImage[E]=./images/br-444-centre.0.0
-EmptyImage[SE]=./images/br-444-centre.0.1
-EmptyImage[S]=./images/br-444-centre.0.2
-EmptyImage[SW]=./images/br-444-centre.0.3
-EmptyImage[W]=./images/br-444-centre.0.4
-EmptyImage[NW]=./images/br-444-centre.0.5
-EmptyImage[N]=./images/br-444-centre.0.6
-EmptyImage[NE]=./images/br-444-centre.0.7
+EmptyImage[E]=./railcars/br-444-centre_E.0.0
+EmptyImage[SE]=./railcars/br-444-centre_SE.0.0
+EmptyImage[S]=./railcars/br-444-centre_S.0.0
+EmptyImage[SW]=./railcars/br-444-centre_SW.0.0
+EmptyImage[W]=./railcars/br-444-centre_W.0.0
+EmptyImage[NW]=./railcars/br-444-centre_NW.0.0
+EmptyImage[N]=./railcars/br-444-centre_N.0.0
+EmptyImage[NE]=./railcars/br-444-centre_NE.0.0
 
 ---
 
@@ -192,13 +218,16 @@ engine_type=electric
 speed=160
 power=750
 gear=80
-tractive_effort=200
+tractive_effort=100
 copyright=Kieron/JamesPetts
 intro_year=2003
 intro_month=8
 waytype=track
 freight=Passagiere
-payload=51
+payload[0]=0
+payload[1]=51
+payload[2]=0
+payload[3]=0
 overcrowded_capacity=22
 length=12
 brake_force=33
@@ -207,12 +236,16 @@ rolling_resistance=13
 weight=45
 axles=4
 cost=1057500
-runningcost=126
-sound=-1
+runningcost=113
+fixed_cost=6881
+sound=video47-class-350.wav
 
 min_loading_time=30
 max_loading_time=150
-comfort=112
+comfort[0]=0
+comfort[1]=112
+comfort[2]=0
+comfort[3]=134
 
 can_lead_from_rear=1
 bidirectional=0
@@ -224,11 +257,11 @@ Constraint[Next][0]=BR-450(front)
 Constraint[Next][1]=BR-444(front)
 Constraint[Next][2]=none
 
-EmptyImage[E]=./images/br-444-driving.1.0
-EmptyImage[SE]=./images/br-444-driving.1.1
-EmptyImage[S]=./images/br-444-driving.1.2
-EmptyImage[SW]=./images/br-444-driving.1.3
-EmptyImage[W]=./images/br-444-driving.1.4
-EmptyImage[NW]=./images/br-444-driving.1.5
-EmptyImage[N]=./images/br-444-driving.1.6
-EmptyImage[NE]=./images/br-444-driving.1.7
+EmptyImage[E]=./railcars/br-444-driving-rear_E.0.0
+EmptyImage[SE]=./railcars/br-444-driving-rear_SE.0.0
+EmptyImage[S]=./railcars/br-444-driving-rear_S.0.0
+EmptyImage[SW]=./railcars/br-444-driving-rear_SW.0.0
+EmptyImage[W]=./railcars/br-444-driving-rear_W.0.0
+EmptyImage[NW]=./railcars/br-444-driving-rear_NW.0.0
+EmptyImage[N]=./railcars/br-444-driving-rear_N.0.0
+EmptyImage[NE]=./railcars/br-444-driving-rear_NE.0.0

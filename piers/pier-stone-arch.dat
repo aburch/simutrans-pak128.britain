@@ -1,0 +1,138 @@
+obj=pier
+name=stonearch
+cost=400000
+maintenance=14
+max_altitude=7
+retire_year=1949
+retire_month=12
+
+above_way_ribi=0x5
+below_way_ribi=0xA
+
+base_mask=0x00380038
+middle_mask=0x033B033B
+support_mask=0x00390039
+
+sub_obj_mask=0x8
+
+auto_group=0x18
+
+cursor=pier-stone-arch.2.1
+icon=> pier-stone-arch.2.0
+
+backimage[80][0][0]=> pier-stone-arch.2.0
+backimage[79][0][0] = pier-stone-arch.2.1
+tooltipflagsauto=1
+
+backimage[44][0][0] = parapet-stone-straight.1.0
+backimage[44][1][0] = parapet-stone-straight.0.0
+backimage[49][0][0] = parapet-stone-straight.1.1
+backimage[49][1][0] = parapet-stone-straight.0.2
+backimage[50][0][0] = parapet-stone-straight.1.2
+backimage[50][1][0] = parapet-stone-straight.0.1
+
+backimage[00][0][0] = pier-stone-arch.0.24
+backimage[00][1][0] = pier-stone-arch.1.24
+
+backimage[31][0][0] = pier-stone-arch.0.0
+backimage[13][0][0] = pier-stone-arch.0.1
+backimage[39][0][0] = pier-stone-arch.0.2
+backimage[37][0][0] = pier-stone-arch.0.3
+backimage[62][0][0] = pier-stone-arch.0.4
+backimage[26][0][0] = pier-stone-arch.0.5
+backimage[78][0][0] = pier-stone-arch.0.6
+backimage[74][0][0] = pier-stone-arch.0.7
+backimage[09][0][0] = pier-stone-arch.0.8
+backimage[27][0][0] = pier-stone-arch.0.9
+backimage[01][0][0] = pier-stone-arch.0.10
+backimage[03][0][0] = pier-stone-arch.0.11
+backimage[18][0][0] = pier-stone-arch.0.12
+backimage[54][0][0] = pier-stone-arch.0.13
+backimage[02][0][0] = pier-stone-arch.0.14
+backimage[06][0][0] = pier-stone-arch.0.15
+backimage[36][0][0] = pier-stone-arch.0.16
+backimage[28][0][0] = pier-stone-arch.0.17
+backimage[04][0][0] = pier-stone-arch.0.18
+backimage[12][0][0] = pier-stone-arch.0.19
+backimage[72][0][0] = pier-stone-arch.0.20
+backimage[56][0][0] = pier-stone-arch.0.21
+backimage[08][0][0] = pier-stone-arch.0.22
+backimage[24][0][0] = pier-stone-arch.0.23
+
+backimage[31][1][0] = pier-stone-arch.1.0
+backimage[13][1][0] = pier-stone-arch.1.1
+backimage[39][1][0] = pier-stone-arch.1.2
+backimage[37][1][0] = pier-stone-arch.1.3
+backimage[62][1][0] = pier-stone-arch.1.4
+backimage[26][1][0] = pier-stone-arch.1.5 
+backimage[78][1][0] = pier-stone-arch.1.6
+backimage[74][1][0] = pier-stone-arch.1.7
+backimage[09][1][0] = pier-stone-arch.1.8
+backimage[27][1][0] = pier-stone-arch.1.9
+backimage[01][1][0] = pier-stone-arch.1.10
+backimage[03][1][0] = pier-stone-arch.1.11
+backimage[18][1][0] = pier-stone-arch.1.12
+backimage[54][1][0] = pier-stone-arch.1.13
+backimage[02][1][0] = pier-stone-arch.1.14
+backimage[06][1][0] = pier-stone-arch.1.15
+backimage[36][1][0] = pier-stone-arch.1.16
+backimage[28][1][0] = pier-stone-arch.1.17
+backimage[04][1][0] = pier-stone-arch.1.18
+backimage[12][1][0] = pier-stone-arch.1.19
+backimage[72][1][0] = pier-stone-arch.1.20
+backimage[56][1][0] = pier-stone-arch.1.21
+backimage[08][1][0] = pier-stone-arch.1.22
+backimage[24][1][0] = pier-stone-arch.1.23
+
+frontimage[00][0][0] = pier-stone-arch-front.0.24
+frontimage[00][1][0] = pier-stone-arch-front.1.24
+
+frontimage[31][0][0] = pier-stone-arch-front.0.0
+frontimage[13][0][0] = pier-stone-arch-front.0.1
+frontimage[39][0][0] = pier-stone-arch-front.0.2
+frontimage[37][0][0] = pier-stone-arch-front.0.3
+frontimage[62][0][0] = pier-stone-arch-front.0.4
+frontimage[26][0][0] = pier-stone-arch-front.0.5
+frontimage[78][0][0] = pier-stone-arch-front.0.6
+frontimage[74][0][0] = pier-stone-arch-front.0.7
+frontimage[09][0][0] = pier-stone-arch-front.0.8
+frontimage[27][0][0] = pier-stone-arch-front.0.9
+frontimage[01][0][0] = pier-stone-arch-front.0.10
+frontimage[03][0][0] = pier-stone-arch-front.0.11
+frontimage[18][0][0] = pier-stone-arch-front.0.12
+frontimage[54][0][0] = pier-stone-arch-front.0.13
+frontimage[02][0][0] = pier-stone-arch-front.0.14
+frontimage[06][0][0] = pier-stone-arch-front.0.15
+frontimage[36][0][0] = pier-stone-arch-front.0.16
+frontimage[28][0][0] = pier-stone-arch-front.0.17
+frontimage[04][0][0] = pier-stone-arch-front.0.18
+frontimage[12][0][0] = pier-stone-arch-front.0.19
+frontimage[72][0][0] = pier-stone-arch-front.0.20
+frontimage[56][0][0] = pier-stone-arch-front.0.21
+frontimage[08][0][0] = pier-stone-arch-front.0.22
+frontimage[24][0][0] = pier-stone-arch-front.0.23
+
+frontimage[31][1][0] = pier-stone-arch-front.1.0
+frontimage[13][1][0] = pier-stone-arch-front.1.1
+frontimage[39][1][0] = pier-stone-arch-front.1.2
+frontimage[37][1][0] = pier-stone-arch-front.1.3
+frontimage[62][1][0] = pier-stone-arch-front.1.4
+frontimage[26][1][0] = pier-stone-arch-front.1.5
+frontimage[78][1][0] = pier-stone-arch-front.1.6
+frontimage[74][1][0] = pier-stone-arch-front.1.7
+frontimage[09][1][0] = pier-stone-arch-front.1.8
+frontimage[27][1][0] = pier-stone-arch-front.1.9
+frontimage[01][1][0] = pier-stone-arch-front.1.10
+frontimage[03][1][0] = pier-stone-arch-front.1.11
+frontimage[18][1][0] = pier-stone-arch-front.1.12
+frontimage[54][1][0] = pier-stone-arch-front.1.13
+frontimage[02][1][0] = pier-stone-arch-front.1.14
+frontimage[06][1][0] = pier-stone-arch-front.1.15
+frontimage[36][1][0] = pier-stone-arch-front.1.16
+frontimage[28][1][0] = pier-stone-arch-front.1.17
+frontimage[04][1][0] = pier-stone-arch-front.1.18
+frontimage[12][1][0] = pier-stone-arch-front.1.19
+frontimage[72][1][0] = pier-stone-arch-front.1.20
+frontimage[56][1][0] = pier-stone-arch-front.1.21
+frontimage[08][1][0] = pier-stone-arch-front.1.22
+frontimage[24][1][0] = pier-stone-arch-front.1.23

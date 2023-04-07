@@ -1,38 +1,44 @@
-# The Routemaster Trolleybus Variant
+# The (hypothetical) Routemaster Trolleybus Variant
 obj=vehicle
 name=RoutemasterTrolleybus
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=electric
 freight=Passagiere
-
-payload=72
-overcrowded_capacity=5
+payload=76
+overcrowded_capacity=6
 speed=50
 power=140
+tractive_effort=67
 gear=80
 weight=5
 axle_load=4
 cost=48000
-runningcost=100
+runningcost=21
+fixed_cost=6050
 intro_year=1966
 intro_month=1
 retire_year=1978
 retire_month=9
+is_tall=1
 
 comfort=47
-min_loading_time=10
-max_loading_time=50
+# Single door with conductor (8ft wide): 2.3 seconds per passenger
+min_loading_time=3
+max_loading_time=175
+sound=androo4519-btu9613t.wav
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/routemaster-trolley.0.0
-EmptyImage[SE]=./images/routemaster-trolley.0.1
-EmptyImage[S]=./images/routemaster-trolley.0.2
-EmptyImage[SW]=./images/routemaster-trolley.0.3
-EmptyImage[W]=./images/routemaster-trolley.0.4
-EmptyImage[NW]=./images/routemaster-trolley.0.5
-EmptyImage[N]=./images/routemaster-trolley.0.6
-EmptyImage[NE]=./images/routemaster-trolley.0.7
+liverytype[0]=LT-revised
+
+EmptyImage[E][0]=./images/aec-rml-trolley_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-rml-trolley_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-rml-trolley_S.0.0,4,0
+EmptyImage[SW][0]=./images/aec-rml-trolley_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-rml-trolley_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-rml-trolley_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-rml-trolley_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-rml-trolley_NE.0.0,0,24
 

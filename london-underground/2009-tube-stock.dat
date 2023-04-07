@@ -4,14 +4,15 @@ engine_type=electric
 speed=100
 gear=80
 power=500
-tractive_effort=80
+tractive_effort=75
 length=9
 copyright=James
 intro_year=2009
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=120
 brake_force=20
 rolling_resistance=13
@@ -19,18 +20,22 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1950000
-runningcost=80
-sound=-1
+runningcost=75
+fixed_cost=7625
+sound=panos-g-2009-stock.wav
 
 can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=12
-max_loading_time=40
-comfort=54
+min_loading_time=16
+max_loading_time=47
+comfort[0]=0
+comfort[1]=54
 
 Constraint[Prev][0]=2009TubeStockRearDM
 Constraint[Prev][1]=none
@@ -52,14 +57,15 @@ engine_type=electric
 speed=100
 gear=80
 power=500
-tractive_effort=80
+tractive_effort=75
 length=9
 copyright=James
 intro_year=2009
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=136
 brake_force=20
 rolling_resistance=13
@@ -67,18 +73,21 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1500000
-runningcost=80
-sound=-1
+runningcost=75
+fixed_cost=7250
 
 can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=12
-max_loading_time=40
-comfort=54
+min_loading_time=16
+max_loading_time=47
+comfort[0]=0
+comfort[1]=54
 
 Constraint[Prev][0]=2009TubeStockRearUNDM
 
@@ -104,7 +113,8 @@ intro_year=2009
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=136
 brake_force=15
 rolling_resistance=13
@@ -112,18 +122,21 @@ rolling_resistance=13
 weight=21
 axles=4
 cost=950000
-runningcost=40
-sound=-1
+runningcost=0
+fixed_cost=1979
 
 can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=12
-max_loading_time=40
-comfort=54
+min_loading_time=16
+max_loading_time=47
+comfort[0]=0
+comfort[1]=54
 
 Constraint[Prev][0]=2009TubeStockFrontDM
 Constraint[Prev][1]=2009TubeStockFrontUNDM
@@ -149,13 +162,14 @@ speed=100
 length=9
 gear=80
 power=500
-tractive_effort=80
+tractive_effort=75
 copyright=James
 intro_year=2009
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=136
 brake_force=20
 rolling_resistance=13
@@ -163,18 +177,21 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=950000
-runningcost=40
-sound=-1
+runningcost=75
+fixed_cost=792
 
 can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=12
-max_loading_time=40
-comfort=54
+min_loading_time=16
+max_loading_time=47
+comfort[0]=0
+comfort[1]=54
 
 Constraint[Prev][0]=2009TubeStockMiddle1
 
@@ -197,14 +214,15 @@ engine_type=electric
 speed=100
 gear=80
 power=500
-tractive_effort=80
+tractive_effort=75
 length=9
 copyright=James
 intro_year=2009
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=32
+payload[0]=0
+payload[1]=32
 overcrowded_capacity=136
 brake_force=20
 rolling_resistance=13
@@ -212,18 +230,21 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1500000
-runningcost=80
-sound=-1
+runningcost=75
+fixed_cost=7250
 
 can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=12
-max_loading_time=40
-comfort=54
+min_loading_time=16
+max_loading_time=47
+comfort[0]=0
+comfort[1]=54
 
 Constraint[Prev][0]=2009TubeStockMiddle1
 Constraint[Prev][1]=2009TubeStockMiddle2
@@ -247,14 +268,15 @@ engine_type=electric
 speed=100
 gear=80
 power=500
-tractive_effort=80
+tractive_effort=75
 length=9
 copyright=James
 intro_year=2009
 intro_month=12
 waytype=track
 freight=Passagiere
-payload=30
+payload[0]=0
+payload[1]=30
 overcrowded_capacity=120
 brake_force=20
 rolling_resistance=13
@@ -262,18 +284,22 @@ rolling_resistance=13
 weight=27
 axles=4
 cost=1950000
-runningcost=80
-sound=-1
+runningcost=75
+fixed_cost=7625
+sound=panos-g-2009-stock.wav
 
 can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[3]=3
+is_tall=0
 
-min_loading_time=12
-max_loading_time=40
-comfort=54
+min_loading_time=16
+max_loading_time=47
+comfort[0]=0
+comfort[1]=54
 
 Constraint[Prev][0]=2009TubeStockMiddle1
 Constraint[Prev][1]=2009TubeStockMiddle2

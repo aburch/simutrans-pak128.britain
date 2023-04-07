@@ -12,11 +12,25 @@ intro_month=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=4
-station_maintenance=7250
-station_price=1925600
-station_capacity=140
+# Passenger data guessed
+population_and_visitor_demand_capacity=2
+employment_capacity=50
+mail_demand=4
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=20
+class_proportion_jobs[1]=30
+class_proportion_jobs[2]=46
+class_proportion_jobs[3]=4
+class_proportion_jobs[4]=0
+maintenance=7250
+cost=1925600
+capacity=140
 
 BackImage[0][0][0][0][0][0]=art-deco-underground-station.1.0
 BackImage[1][0][0][0][0][0]=art-deco-underground-station.1.1

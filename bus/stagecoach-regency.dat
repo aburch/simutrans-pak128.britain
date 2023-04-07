@@ -1,0 +1,67 @@
+# John Besant's improved design with brakes
+# http://carriages-schroven.com/
+# http://www.oldtimers-youngtimers.nl/wp-content/uploads/2015/03/003-Road-Coach-Guiet-Co.6827.jpg
+obj=vehicle
+name=stagecoach-regency
+copyright=James
+waytype=road
+freight=Passagiere
+# Outside
+payload[0]=0 
+payload[1]=0
+payload[2]=7
+# Inside
+payload[3]=4
+overcrowded_capacity=0
+speed=18
+weight=1.2
+axle_load=1
+length=2
+cost=101000
+runningcost=0
+fixed_cost=4842
+intro_year=1795
+intro_month=12
+retire_year=1842
+retire_month=6
+brake_force=1
+rolling_resistance=115
+
+# Leaf springs
+# Outside
+comfort[0]=17
+comfort[1]=17
+comfort[2]=17
+# Inside
+comfort[3]=52
+min_loading_time=300
+max_loading_time=600
+
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-hackney-double
+
+Constraint[Next][0]=none
+
+EmptyImage[E]=./images/stagecoach-regency_E.0.0,-33,14
+EmptyImage[SE]=./images/stagecoach-regency_SE.0.0,-13,0
+EmptyImage[S]=./images/stagecoach-regency_S.0.0,0,0
+EmptyImage[SW]=./images/stagecoach-regency_SW.0.0,-8,10
+EmptyImage[W]=./images/stagecoach-regency_W.0.0,4,5
+EmptyImage[NW]=./images/stagecoach-regency_NW.0.0,12,10
+EmptyImage[N]=./images/stagecoach-regency_N.0.0,0,33
+EmptyImage[NE]=./images/stagecoach-regency_NE.0.0,0,24
+
+FreightImage[E]=./images/stagecoach-regency-loaded_E.0.0,-33,14
+FreightImage[SE]=./images/stagecoach-regency-loaded_SE.0.0,-13,0
+FreightImage[S]=./images/stagecoach-regency-loaded_S.0.0,0,0
+FreightImage[SW]=./images/stagecoach-regency-loaded_SW.0.0,-8,10
+FreightImage[W]=./images/stagecoach-regency-loaded_W.0.0,4,5
+FreightImage[NW]=./images/stagecoach-regency-loaded_NW.0.0,12,10
+FreightImage[N]=./images/stagecoach-regency-loaded_N.0.0,0,33
+FreightImage[NE]=./images/stagecoach-regency-loaded_NE.0.0,0,24
+

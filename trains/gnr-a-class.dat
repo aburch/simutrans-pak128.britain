@@ -1,0 +1,52 @@
+# See Ahrons pp. 171-2
+obj=vehicle
+name=gnr-a-class
+engine_type=steam
+smoke=Steam
+# Mixed traffic engine
+speed=100
+# Extrapolated
+power=170
+tractive_effort=56
+copyright=James/jamespetts
+intro_year=1867
+intro_month=3
+retire_year=1885
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+rolling_resistance=19
+
+# Weight taken from Ahrons, p. 172
+weight=32.8
+axle_load=13
+cost=12423000
+runningcost=206
+fixed_cost=34353
+sound=lwalker-br-4mt-tank.wav
+
+Constraint[Next][0]=gnr-sturrock-tender
+
+liverytype[0]=GNR-early
+liverytype[1]=GNR-Standard
+
+EmptyImage[E][0]=./locomotives/gnr-a-class-dark_E.0.0
+EmptyImage[SE][0]=./locomotives/gnr-a-class-dark_SE.0.0
+EmptyImage[S][0]=./locomotives/gnr-a-class-dark_S.0.0
+EmptyImage[SW][0]=./locomotives/gnr-a-class-dark_SW.0.0
+EmptyImage[W][0]=./locomotives/gnr-a-class-dark_W.0.0
+EmptyImage[NW][0]=./locomotives/gnr-a-class-dark_NW.0.0
+EmptyImage[N][0]=./locomotives/gnr-a-class-dark_N.0.0
+EmptyImage[NE][0]=./locomotives/gnr-a-class-dark_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gnr-a-class_E.0.0
+EmptyImage[SE][1]=./locomotives/gnr-a-class_SE.0.0
+EmptyImage[S][1]=./locomotives/gnr-a-class_S.0.0
+EmptyImage[SW][1]=./locomotives/gnr-a-class_SW.0.0
+EmptyImage[W][1]=./locomotives/gnr-a-class_W.0.0
+EmptyImage[NW][1]=./locomotives/gnr-a-class_NW.0.0
+EmptyImage[N][1]=./locomotives/gnr-a-class_N.0.0
+EmptyImage[NE][1]=./locomotives/gnr-a-class_NE.0.0

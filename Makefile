@@ -3,11 +3,11 @@
 # to get fresh and ready to deploy .tbz2 and .zip archives
 #
 # Change THIS to change the version string encoded in the pak file
-VERSION_STRING = "pak128.Britain-Ex-0.9.0"
+# VERSION_STRING = "pak128.Britain-Ex-0.9.4"
 #
 #
 #
-MAKEOBJ ?= ./makeobj
+MAKEOBJ ?= ./makeobj-extended
 
 DESTDIR  ?= .
 PAKDIR   ?= $(DESTDIR)/pak128.Britain-Ex
@@ -64,6 +64,8 @@ DIRS128 += smokes
 TR_DIRS += smokes
 DIRS128 += stations
 TR_DIRS += stations
+DIRS128 += signalboxes
+TR_DIRS += signalboxes
 DIRS128 += townhall
 TR_DIRS += townhall
 DIRS128 += trains
@@ -74,6 +76,8 @@ DIRS128 += trees
 TR_DIRS += trees
 DIRS128 += ways
 TR_DIRS += ways
+DIRS128 += piers
+TR_DIRS += piers
 
 DIRS192 := 
 DIRS192 += boats/boats192
@@ -87,6 +91,9 @@ DIRS256 += air/air256
 
 DIRS := $(OUTSIDE) $(DIRS32) $(DIRS64) $(DIRS128) $(DIRS192) $(DIRS224) $(DIRS256)
 
+#generating filenames
+#with this function the filenames are assembled, by removing the dir
+make_name = $(subst /,.,$1).pak
 
 .PHONY: $(DIRS) copy tar zip simutranslator
 
@@ -124,42 +131,37 @@ copy:
 $(DIRS32):
 	@echo "===> PAK32 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK32 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK32 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(DIRS64):
 	@echo "===> PAK64 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(DIRS128):
 	@echo "===> PAK128 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null 
 
 $(DIRS192):
 	@echo "===> PAK192 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK192 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK192 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(DIRS224):
 	@echo "===> PAK224 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK224 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(DIRS256):
 	@echo "===> PAK256 $@"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) quiet PAK256 $(PAKDIR)/ $@/ > /dev/null
+	@$(MAKEOBJ) quiet PAK256 $(PAKDIR)/$(call make_name,$@) $@/ > /dev/null
 
 $(OUTSIDE):
 	@echo "===> OUTSIDE with REVISION and grounds"
 	@mkdir -p $(PAKDIR)
-	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/ > /dev/null
-	@echo -e -n "Obj=ground\nName=Outside\ncopyright=$(VERSION_STRING)" >$@/outsiderev.dat
-	@svnversion >>$@/outsiderev.dat
-	@echo -e "Image[0][0]=images/ls-water-outside-128.0.0\n-" >>$@/outsiderev.dat
-	@$(MAKEOBJ) PAK128 $(PAKDIR)/ $@/outsiderev.dat > /dev/null
-	@rm $@/outsiderev.dat
+	@$(MAKEOBJ) quiet PAK128 $(PAKDIR)/ $@/ > /dev/null
 
 clean:
 	@echo "===> CLEAN"

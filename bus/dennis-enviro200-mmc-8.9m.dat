@@ -1,0 +1,46 @@
+# http://www.alexander-dennis.com/wp-content/uploads/2012/11/e200_spec_sheet.pdf
+obj=vehicle
+name=dennis-enviro200-mmc-8.9m
+copyright=JamesPetts
+speed=76
+intro_year=2015
+intro_month=5
+waytype=road
+engine_type=diesel
+freight=Passagiere
+payload=32
+overcrowded_capacity=16
+# Cummins ISB4.5 engine
+power=147
+tractive_effort=30
+gear=50
+length=5
+
+weight=12.9
+axles=2
+cost=4700000
+runningcost=44
+fixed_cost=10448
+sound=the-bloke33-dennis-dart-modern.wav
+
+comfort=45
+min_loading_time=5
+# Single entrance pay driver (low floor): 3.8 seconds per passenger
+max_loading_time=122
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# TODO: Add more liveries
+# TODO: Add the EV version of this.
+
+liverytype[0]=Metroline-plain-red
+
+EmptyImage[E][0]=./images/dennis-enviro200-mmc-8-9m-tfl_E.0.0,-33,14
+EmptyImage[SE][0]=./images/dennis-enviro200-mmc-8-9m-tfl_SE.0.0,-13,0
+EmptyImage[S][0]=./images/dennis-enviro200-mmc-8-9m-tfl_S.0.0,4,0
+EmptyImage[SW][0]=./images/dennis-enviro200-mmc-8-9m-tfl_SW.0.0,-8,10
+EmptyImage[W][0]=./images/dennis-enviro200-mmc-8-9m-tfl_W.0.0,4,5
+EmptyImage[NW][0]=./images/dennis-enviro200-mmc-8-9m-tfl_NW.0.0,12,10
+EmptyImage[N][0]=./images/dennis-enviro200-mmc-8-9m-tfl_N.0.0,0,33
+EmptyImage[NE][0]=./images/dennis-enviro200-mmc-8-9m-tfl_NE.0.0,0,24

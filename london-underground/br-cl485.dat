@@ -13,14 +13,17 @@ retire_year=1989
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=26
+payload[0]=0
+payload[1]=26
 overcrowded_capacity=72
 
 weight=27
 axles=4
 upgrade_price=115000
-runningcost=5
-sound=-1
+runningcost=30
+fixed_cost=7042
+cost=1250000
+sound=lul-1938-stock-ff3170.wav
 
 available_only_as_upgrade=1
 
@@ -28,11 +31,14 @@ can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[0]=0
+is_tall=0
 
-min_loading_time=14
-max_loading_time=45
-comfort=57
+min_loading_time=17
+max_loading_time=47
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=BR-Class485Rear
 Constraint[Prev][1]=none
@@ -61,14 +67,14 @@ EmptyImage[NW][1]=./images/br-cl485-bg.0.5
 EmptyImage[N][1]=./images/br-cl485-bg.0.6
 EmptyImage[NE][1]=./images/br-cl485-bg.0.7
 
-EmptyImage[E][0]=./images/br-cl485-nse.0.0
-EmptyImage[SE][0]=./images/br-cl485-nse.0.1
-EmptyImage[S][0]=./images/br-cl485-nse.0.2
-EmptyImage[SW][0]=./images/br-cl485-nse.0.3
-EmptyImage[W][0]=./images/br-cl485-nse.0.4
-EmptyImage[NW][0]=./images/br-cl485-nse.0.5
-EmptyImage[N][0]=./images/br-cl485-nse.0.6
-EmptyImage[NE][0]=./images/br-cl485-nse.0.7
+EmptyImage[E][2]=./images/br-cl485-nse.0.0
+EmptyImage[SE][2]=./images/br-cl485-nse.0.1
+EmptyImage[S][2]=./images/br-cl485-nse.0.2
+EmptyImage[SW][2]=./images/br-cl485-nse.0.3
+EmptyImage[W][2]=./images/br-cl485-nse.0.4
+EmptyImage[NW][2]=./images/br-cl485-nse.0.5
+EmptyImage[N][2]=./images/br-cl485-nse.0.6
+EmptyImage[NE][2]=./images/br-cl485-nse.0.7
 --
 obj=vehicle
 name=BR-Class485Middle1
@@ -82,14 +88,16 @@ retire_year=1989
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=126
 
 weight=17
 axles=4
 upgrade_price=45000
-runningcost=3
-sound=-1
+runningcost=0
+fixed_cost=893
+cost=750000
 
 available_only_as_upgrade=1
 
@@ -97,11 +105,14 @@ can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[0]=0
+is_tall=0
 
-min_loading_time=14
-max_loading_time=45
-comfort=57
+min_loading_time=17
+max_loading_time=47
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=BR-Class485Front
 
@@ -138,7 +149,9 @@ EmptyImage[W][2]=./images/br-cl485-nse.1.4
 EmptyImage[NW][2]=./images/br-cl485-nse.1.5
 EmptyImage[N][2]=./images/br-cl485-nse.1.6
 EmptyImage[NE][2]=./images/br-cl485-nse.1.7
+
 ----
+
 obj=vehicle
 name=BR-Class485Middle2
 engine_type=electric
@@ -151,14 +164,16 @@ retire_year=1989
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=38
+payload[0]=0
+payload[1]=38
 overcrowded_capacity=114
 
 weight=17
 axles=4
 upgrade_price=45000
-runningcost=3
-sound=-1
+runningcost=0
+fixed_cost=893
+cost=750000
 
 available_only_as_upgrade=1
 
@@ -166,11 +181,14 @@ can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[0]=0
+is_tall=0
 
-min_loading_time=14
-max_loading_time=45
-comfort=57
+min_loading_time=17
+max_loading_time=47
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=BR-Class485Middle1
 
@@ -223,14 +241,17 @@ retire_year=1989
 retire_month=8
 waytype=track
 freight=Passagiere
-payload=26
+payload[0]=0
+payload[1]=26
 overcrowded_capacity=72
 
 weight=27
 axles=4
 upgrade_price=115000
-runningcost=5
-sound=-1
+runningcost=30
+fixed_cost=7042
+cost=1250000
+sound=lul-1938-stock-ff3170.wav
 
 available_only_as_upgrade=1
 
@@ -238,11 +259,14 @@ can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[0]=0
+is_tall=0
 
-min_loading_time=14
-max_loading_time=45
-comfort=57
+min_loading_time=17
+max_loading_time=47
+comfort[0]=0
+comfort[1]=57
 
 Constraint[Prev][0]=BR-Class485Middle1
 Constraint[Prev][1]=BR-Class485Middle2
@@ -280,5 +304,3 @@ EmptyImage[W][2]=./images/br-cl485-nse.2.4
 EmptyImage[NW][2]=./images/br-cl485-nse.2.5
 EmptyImage[N][2]=./images/br-cl485-nse.2.6
 EmptyImage[NE][2]=./images/br-cl485-nse.2.7
---
-

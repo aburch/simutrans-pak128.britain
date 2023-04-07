@@ -1,0 +1,108 @@
+# https://en.wikipedia.org/wiki/Lockheed_Vega
+# https://airandspace.si.edu/collection-objects/lockheed-vega-5b-amelia-earhart
+obj=vehicle
+name=lockheed-vega
+copyright=Emmanuel Baranger and Самолеты
+# CC-BY-SA
+# http://www.3dsociety.ru/3dmodels/3d-model-lockheed-vega
+# This appears to be a retexture of Emmanuel Baranger's Vega here:
+# https://www.blendswap.com/blends/view/84032
+# Therefore, the derivative work would also be under the Creative Commons licence
+waytype=air
+engine_type=petrol
+speed=285
+power=302
+tractive_effort=3
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=0
+payload[4]=6
+weight=1.5
+air_resistance=40
+#length=8
+cost=2290000
+runningcost=15
+fixed_cost=51590
+intro_year=1928
+intro_month=3
+retire_year=1933
+retire_month=1
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=0
+comfort[4]=65
+min_loading_time=1600
+max_loading_time=1600
+catering_level=1
+
+# Guessed
+minimum_runway_length=350
+
+range=1165
+
+sound=planelow.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/lockheed-vega_E.0.0
+EmptyImage[SE]=./images/lockheed-vega_SE.0.0
+EmptyImage[S]=./images/lockheed-vega_S.0.0
+EmptyImage[SW]=./images/lockheed-vega_SW.0.0
+EmptyImage[W]=./images/lockheed-vega_W.0.0
+EmptyImage[NW]=./images/lockheed-vega_NW.0.0
+EmptyImage[N]=./images/lockheed-vega_N.0.0
+EmptyImage[NE]=./images/lockheed-vega_NE.0.0
+
+---
+
+obj=vehicle
+name=lockheed-vega-mail
+copyright=Emmanuel Baranger
+# CC-BY-SA
+# https://www.blendswap.com/blends/view/84032
+waytype=air
+engine_type=petrol
+speed=285
+power=302
+tractive_effort=3
+freight=Post
+# Max. payload 600kg
+payload[0]=0
+payload[1]=1500
+weight=1.5
+air_resistance=40
+#length=8
+cost=2290000
+runningcost=15
+fixed_cost=11590
+intro_year=1928
+intro_month=3
+retire_year=1933
+retire_month=1
+comfort=65
+min_loading_time=1600
+max_loading_time=2000
+
+# Guessed
+minimum_runway_length=500
+
+range=1165
+
+sound=planelow.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/lockheed-vega-mail_E.0.0
+EmptyImage[SE]=./images/lockheed-vega-mail_SE.0.0
+EmptyImage[S]=./images/lockheed-vega-mail_S.0.0
+EmptyImage[SW]=./images/lockheed-vega-mail_SW.0.0
+EmptyImage[W]=./images/lockheed-vega-mail_W.0.0
+EmptyImage[NW]=./images/lockheed-vega-mail_NW.0.0
+EmptyImage[N]=./images/lockheed-vega-mail_N.0.0
+EmptyImage[NE]=./images/lockheed-vega-mail_NE.0.0

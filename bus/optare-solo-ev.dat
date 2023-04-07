@@ -1,0 +1,46 @@
+# https://en.wikipedia.org/wiki/Optare_Solo
+obj=vehicle
+name=optare-solo-ev
+copyright=MattWilson&JamesPetts
+speed=70
+intro_year=2009
+intro_month=3
+waytype=road
+engine_type=battery
+freight=Passagiere
+payload=27
+overcrowded_capacity=12
+power=85
+tractive_effort=23
+gear=50
+length=5
+range=40
+sound=video47-byd-electric-bus.wav
+
+weight=7.1
+axles=2
+cost=5760000
+runningcost=13
+fixed_cost=12000
+
+comfort=40
+# Single entrance pay driver (low floor): 3.8 seconds per passenger
+min_loading_time=5
+max_loading_time=103
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# TODO: Add more length varients of this.
+
+liverytype[0]=Arriva-original
+
+EmptyImage[E][0]=./images/optare-solo-sr-arriva_E.0.0,-33,14
+EmptyImage[SE][0]=./images/optare-solo-sr-arriva_SE.0.0,-13,0
+EmptyImage[S][0]=./images/optare-solo-sr-arriva_S.0.0,4,0
+EmptyImage[SW][0]=./images/optare-solo-sr-arriva_SW.0.0,-8,10
+EmptyImage[W][0]=./images/optare-solo-sr-arriva_W.0.0,4,5
+EmptyImage[NW][0]=./images/optare-solo-sr-arriva_NW.0.0,12,10
+EmptyImage[N][0]=./images/optare-solo-sr-arriva_N.0.0,0,33
+EmptyImage[NE][0]=./images/optare-solo-sr-arriva_NE.0.0,0,24
+

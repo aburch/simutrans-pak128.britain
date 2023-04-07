@@ -1,0 +1,85 @@
+# http://www.old-bus-photos.co.uk/?tag=dennis-4-ton
+# https://motor-car.net/pics/0/rrr/dennis_4-ton.jpg
+# See Baldwin p. 30
+obj=vehicle
+name=dennis-4t-bus-single
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=petrol
+freight=Passagiere
+# Guessed
+payload=29
+overcrowded_capacity=3
+speed=20
+# Guessed to be the same as the double deck 4t bus - but uncertain
+power=34
+tractive_effort=6
+gear=50
+# Guessed
+weight=5.3
+axles=2
+way_wear_factor=850
+length=5
+cost=110300
+runningcost=27
+fixed_cost=8200
+# Guessed
+intro_year=1921
+intro_month=7
+retire_year=1929
+retire_month=1
+is_tall=0
+sound=graham-french-leyland-n-type.wav
+
+comfort=27
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=58
+
+upgrade[0]=dennis-4t-bus-single-pneumatic
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=General
+liverytype[1]=LT
+liverytype[2]=General-Country
+liverytype[3]=LT-Green
+
+EmptyImage[E][0]=./images/dennis-4t-bus-single-general_E.0.0,-33,14
+EmptyImage[SE][0]=./images/dennis-4t-bus-single-general_SE.0.0,-13,0
+EmptyImage[S][0]=./images/dennis-4t-bus-single-general_S.0.0,0,0
+EmptyImage[SW][0]=./images/dennis-4t-bus-single-general_SW.0.0,-8,10
+EmptyImage[W][0]=./images/dennis-4t-bus-single-general_W.0.0,4,5
+EmptyImage[NW][0]=./images/dennis-4t-bus-single-general_NW.0.0,12,10
+EmptyImage[N][0]=./images/dennis-4t-bus-single-general_N.0.0,0,33
+EmptyImage[NE][0]=./images/dennis-4t-bus-single-general_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/dennis-4t-bus-single-lt_E.0.0,-33,14
+EmptyImage[SE][1]=./images/dennis-4t-bus-single-lt_SE.0.0,-13,0
+EmptyImage[S][1]=./images/dennis-4t-bus-single-lt_S.0.0,0,0
+EmptyImage[SW][1]=./images/dennis-4t-bus-single-lt_SW.0.0,-8,10
+EmptyImage[W][1]=./images/dennis-4t-bus-single-lt_W.0.0,4,5
+EmptyImage[NW][1]=./images/dennis-4t-bus-single-lt_NW.0.0,12,10
+EmptyImage[N][1]=./images/dennis-4t-bus-single-lt_N.0.0,0,33
+EmptyImage[NE][1]=./images/dennis-4t-bus-single-lt_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/dennis-4t-bus-single-general-country_E.0.0,-33,14
+EmptyImage[SE][2]=./images/dennis-4t-bus-single-general-country_SE.0.0,-13,0
+EmptyImage[S][2]=./images/dennis-4t-bus-single-general-country_S.0.0,0,0
+EmptyImage[SW][2]=./images/dennis-4t-bus-single-general-country_SW.0.0,-8,10
+EmptyImage[W][2]=./images/dennis-4t-bus-single-general-country_W.0.0,4,5
+EmptyImage[NW][2]=./images/dennis-4t-bus-single-general-country_NW.0.0,12,10
+EmptyImage[N][2]=./images/dennis-4t-bus-single-general-country_N.0.0,0,33
+EmptyImage[NE][2]=./images/dennis-4t-bus-single-general-country_NE.0.0,0,24
+
+EmptyImage[E][3]=./images/dennis-4t-bus-single-general-country_E.0.0,-33,14
+EmptyImage[SE][3]=./images/dennis-4t-bus-single-general-country_SE.0.0,-13,0
+EmptyImage[S][3]=./images/dennis-4t-bus-single-general-country_S.0.0,0,0
+EmptyImage[SW][3]=./images/dennis-4t-bus-single-general-country_SW.0.0,-8,10
+EmptyImage[W][3]=./images/dennis-4t-bus-single-general-country_W.0.0,4,5
+EmptyImage[NW][3]=./images/dennis-4t-bus-single-general-country_NW.0.0,12,10
+EmptyImage[N][3]=./images/dennis-4t-bus-single-general-country_N.0.0,0,33
+EmptyImage[NE][3]=./images/dennis-4t-bus-single-general-country_NE.0.0,0,24
+
+

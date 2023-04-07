@@ -1,0 +1,70 @@
+# See Townsin pp. 91-3
+obj=vehicle
+name=daimler-freeline-coach
+copyright=JamesPetts
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+# https://en.wikipedia.org/wiki/Daimler_Freeline
+# This capacity described as "typical" for the type
+payload=39
+overcrowded_capacity=0
+speed=80
+# Daimler CD650 engine. 
+# 125hp (originally): https://en.wikipedia.org/wiki/Daimler_Freeline
+power=93
+tractive_effort=13
+gear=50
+# Guessed. Said to be heavier than lightweight double decker.
+weight=7.3
+length=6
+cost=1720000
+runningcost=94
+fixed_cost=8499
+intro_year=1952
+intro_month=1
+retire_year=1957
+retire_month=8
+is_tall=0
+# Awaiting Daimler engine specific sound - a Leyland is apparently a close approximation
+sound=leyland-titan-pd2-ff3170.wav
+
+comfort=81
+# Coach: 7.5 seconds per passenger
+min_loading_time=20
+max_loading_time=293
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Southdown-standard
+liverytype[1]=Private
+liverytype[2]=Ribble-coach
+
+EmptyImage[E][0]=./images/daimler-freeline-coach-southdown_E.0.0,-33,14
+EmptyImage[SE][0]=./images/daimler-freeline-coach-southdown_SE.0.0,-13,0
+EmptyImage[S][0]=./images/daimler-freeline-coach-southdown_S.0.0,0,0
+EmptyImage[SW][0]=./images/daimler-freeline-coach-southdown_SW.0.0,-8,10
+EmptyImage[W][0]=./images/daimler-freeline-coach-southdown_W.0.0,4,5
+EmptyImage[NW][0]=./images/daimler-freeline-coach-southdown_NW.0.0,12,10
+EmptyImage[N][0]=./images/daimler-freeline-coach-southdown_N.0.0,0,33
+EmptyImage[NE][0]=./images/daimler-freeline-coach-southdown_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/daimler-freeline-coach-royal-blue_E.0.0,-33,14
+EmptyImage[SE][1]=./images/daimler-freeline-coach-royal-blue_SE.0.0,-13,0
+EmptyImage[S][1]=./images/daimler-freeline-coach-royal-blue_S.0.0,0,0
+EmptyImage[SW][1]=./images/daimler-freeline-coach-royal-blue_SW.0.0,-8,10
+EmptyImage[W][1]=./images/daimler-freeline-coach-royal-blue_W.0.0,4,5
+EmptyImage[NW][1]=./images/daimler-freeline-coach-royal-blue_NW.0.0,12,10
+EmptyImage[N][1]=./images/daimler-freeline-coach-royal-blue_N.0.0,0,33
+EmptyImage[NE][1]=./images/daimler-freeline-coach-royal-blue_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/daimler-freeline-coach-ribble_E.0.0,-33,14
+EmptyImage[SE][2]=./images/daimler-freeline-coach-ribble_SE.0.0,-13,0
+EmptyImage[S][2]=./images/daimler-freeline-coach-ribble_S.0.0,0,0
+EmptyImage[SW][2]=./images/daimler-freeline-coach-ribble_SW.0.0,-8,10
+EmptyImage[W][2]=./images/daimler-freeline-coach-ribble_W.0.0,4,5
+EmptyImage[NW][2]=./images/daimler-freeline-coach-ribble_NW.0.0,12,10
+EmptyImage[N][2]=./images/daimler-freeline-coach-ribble_N.0.0,0,33
+EmptyImage[NE][2]=./images/daimler-freeline-coach-ribble_NE.0.0,0,24

@@ -1,39 +1,68 @@
-# AEC Swift - single decker standee 'busses. Unpopular.
-#
+# http://web.archive.org/web/20130822180950/http://www.countrybus.org/merlswft/swift.html
+# Single door version
 obj=vehicle
 name=AECSwift
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
+smoke=Diesel-light
 freight=Passagiere
-payload=37
-overcrowded_capacity=30
+payload=42
+overcrowded_capacity=20
 speed=72
+# Unable to find this information for the original Swift, so guessed
 power=85
+tractive_effort=12
 gear=50
-weight=8
+# An SMS in the London 'Bus Museum is marked as being 7 tons, 12cwt
+weight=7.7
 axles=2
 length=6
 cost=2700000
-runningcost=141
+runningcost=43
+fixed_cost=9406
 intro_year=1969
 intro_month=11
 retire_year=1976
 retire_month=1
+# Temporary sound until a more suitalbe sound can be found
+sound=leyland-titan-pd3-ff3170.wav
 
 comfort=35
-min_loading_time=25
-max_loading_time=50
+# Single door pay driver: 4.0 seconds per passenger
+min_loading_time=5
+max_loading_time=168
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/aec-swift.0.0
-EmptyImage[SE]=./images/aec-swift.0.1
-EmptyImage[S]=./images/aec-swift.0.2
-EmptyImage[SW]=./images/aec-swift.0.3
-EmptyImage[W]=./images/aec-swift.0.4
-EmptyImage[NW]=./images/aec-swift.0.5
-EmptyImage[N]=./images/aec-swift.0.6
-EmptyImage[NE]=./images/aec-swift.0.7
+liverytype[0]=LT-revised
+liverytype[1]=London-Country-standard
+liverytype[2]=Leaf-Green
 
+EmptyImage[E][0]=./images/aec-swift-sm-lt-red_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-swift-sm-lt-red_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-swift-sm-lt-red_S.0.0,4,0
+EmptyImage[SW][0]=./images/aec-swift-sm-lt-red_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-swift-sm-lt-red_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-swift-sm-lt-red_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-swift-sm-lt-red_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-swift-sm-lt-red_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-swift-sm-london-country_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-swift-sm-london-country_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-swift-sm-london-country_S.0.0,4,0
+EmptyImage[SW][1]=./images/aec-swift-sm-london-country_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-swift-sm-london-country_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-swift-sm-london-country_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-swift-sm-london-country_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-swift-sm-london-country_NE.0.0,0,24
+
+EmptyImage[E][2]=./images/aec-swift-sm-nbc-green_E.0.0,-33,14
+EmptyImage[SE][2]=./images/aec-swift-sm-nbc-green_SE.0.0,-13,0
+EmptyImage[S][2]=./images/aec-swift-sm-nbc-green_S.0.0,4,0
+EmptyImage[SW][2]=./images/aec-swift-sm-nbc-green_SW.0.0,-8,10
+EmptyImage[W][2]=./images/aec-swift-sm-nbc-green_W.0.0,4,5
+EmptyImage[NW][2]=./images/aec-swift-sm-nbc-green_NW.0.0,12,10
+EmptyImage[N][2]=./images/aec-swift-sm-nbc-green_N.0.0,0,33
+EmptyImage[NE][2]=./images/aec-swift-sm-nbc-green_NE.0.0,0,24

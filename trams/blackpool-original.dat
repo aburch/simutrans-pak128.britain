@@ -1,9 +1,11 @@
 obj=vehicle
 name=Blackpool-Original
 engine_type=electric
-speed=40
+speed=30
 gear=80
-power=40
+# No data - guessed
+power=22
+tractive_effort=24
 copyright=James
 intro_year=1885
 intro_month=9
@@ -11,42 +13,46 @@ retire_year=1894
 retire_month=10
 waytype=tram_track
 freight=Passagiere
-payload=25
-overcrowded_capacity=3
-length=4
+# http://www.historywebsite.co.uk/genealogy/Parker/ElwellParker.htm
+payload=55
+overcrowded_capacity=4
+length=3
+is_tall=1
 
-weight=10
+weight=7
 axles=2
-cost=150000
-runningcost=45
-sound=-1
+cost=220000
+runningcost=13
+fixed_cost=6183
+sound=tom-tait-tram.wav
 
-can_lead_from_rear=0
-bidirectional=0
+can_lead_from_rear=1
+bidirectional=1
+
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
 comfort=33
-min_loading_time=17
+min_loading_time=10
 max_loading_time=50
 
 Constraint[Prev][0]=none
 
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/blackpool-original.0.0
-EmptyImage[SE]=./images/blackpool-original.0.1
-EmptyImage[S]=./images/blackpool-original.0.2
-EmptyImage[SW]=./images/blackpool-original.0.3
-EmptyImage[W]=./images/blackpool-original.0.4
-EmptyImage[NW]=./images/blackpool-original.0.5
-EmptyImage[N]=./images/blackpool-original.0.6
-EmptyImage[NE]=./images/blackpool-original.0.7
+EmptyImage[E]=./images/blackpool-original_E.0.0
+EmptyImage[SE]=./images/blackpool-original_SE.0.0
+EmptyImage[S]=./images/blackpool-original_S.0.0
+EmptyImage[SW]=./images/blackpool-original_SW.0.0
+EmptyImage[W]=./images/blackpool-original_W.0.0
+EmptyImage[NW]=./images/blackpool-original_NW.0.0
+EmptyImage[N]=./images/blackpool-original_N.0.0
+EmptyImage[NE]=./images/blackpool-original_NE.0.0
 
-FreightImage[E]=./images/blackpool-original.1.0
-FreightImage[SE]=./images/blackpool-original.1.1
-FreightImage[S]=./images/blackpool-original.1.2
-FreightImage[SW]=./images/blackpool-original.1.3
-FreightImage[W]=./images/blackpool-original.1.4
-FreightImage[NW]=./images/blackpool-original.1.5
-FreightImage[N]=./images/blackpool-original.1.6
-FreightImage[NE]=./images/blackpool-original.1.7
+FreightImage[E]=./images/blackpool-original-loaded_E.0.0
+FreightImage[SE]=./images/blackpool-original-loaded_SE.0.0
+FreightImage[S]=./images/blackpool-original-loaded_S.0.0
+FreightImage[SW]=./images/blackpool-original-loaded_SW.0.0
+FreightImage[W]=./images/blackpool-original-loaded_W.0.0
+FreightImage[NW]=./images/blackpool-original-loaded_NW.0.0
+FreightImage[N]=./images/blackpool-original-loaded_N.0.0
+FreightImage[NE]=./images/blackpool-original-loaded_NE.0.0

@@ -1,0 +1,101 @@
+# https://en.wikipedia.org/wiki/Beechcraft_1900
+# http://www.airliners.net/aircraft-data/raytheon-beechcraft-1900/329
+# http://www.asslpk.com/beech-1900c.html
+obj=vehicle
+name=beechcraft-1900c
+copyright=2001kraft-old
+# https://www.cgtrader.com/items/159850/download-page
+waytype=air
+engine_type=turbine
+speed=495
+power=1640
+tractive_effort=10
+freight=Passagiere
+payload[0]=0
+payload[1]=19
+weight=4.4
+#length=8
+cost=3200000
+runningcost=7
+fixed_cost=52222
+# http://www.maverickairlines.com/maverick-beechcraft1900-airplane.aspx
+intro_year=1984
+intro_month=2
+retire_year=1996
+retire_month=4
+
+comfort[0]=0
+comfort[1]=81
+min_loading_time=1800
+max_loading_time=1800
+catering_level=0
+
+air_resistance=50
+
+# http://www.aero-news.net/index.cfm?do=main.textpost&id=732cbc6e-a18e-4523-b985-cedc2277d071
+minimum_runway_length=1216
+
+range=707
+
+sound=bigpickle51-turboprop.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/beechcraft-1900c_E.0.0
+EmptyImage[SE]=./images/beechcraft-1900c_SE.0.0
+EmptyImage[S]=./images/beechcraft-1900c_S.0.0
+EmptyImage[SW]=./images/beechcraft-1900c_SW.0.0
+EmptyImage[W]=./images/beechcraft-1900c_W.0.0
+EmptyImage[NW]=./images/beechcraft-1900c_NW.0.0
+EmptyImage[N]=./images/beechcraft-1900c_N.0.0
+EmptyImage[NE]=./images/beechcraft-1900c_NE.0.0
+
+---
+
+obj=vehicle
+name=beechcraft-1900c-mail
+copyright=2001kraft-old
+# https://www.cgtrader.com/items/159850/download-page
+waytype=air
+engine_type=turbine
+speed=495
+power=1640
+tractive_effort=10
+freight=Post
+payload[0]=0
+payload[1]=2800
+weight=4.9
+#length=8
+cost=3200000
+runningcost=7
+fixed_cost=12222
+# http://www.maverickairlines.com/maverick-beechcraft1900-airplane.aspx
+intro_year=1984
+intro_month=2
+retire_year=1996
+retire_month=4
+min_loading_time=1800
+max_loading_time=2000
+catering_level=0
+
+air_resistance=50
+
+# http://www.aero-news.net/index.cfm?do=main.textpost&id=732cbc6e-a18e-4523-b985-cedc2277d071
+minimum_runway_length=1162
+
+range=707
+
+sound=bigpickle51-turboprop.wav
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/beechcraft-1900c-mail_E.0.0
+EmptyImage[SE]=./images/beechcraft-1900c-mail_SE.0.0
+EmptyImage[S]=./images/beechcraft-1900c-mail_S.0.0
+EmptyImage[SW]=./images/beechcraft-1900c-mail_SW.0.0
+EmptyImage[W]=./images/beechcraft-1900c-mail_W.0.0
+EmptyImage[NW]=./images/beechcraft-1900c-mail_NW.0.0
+EmptyImage[N]=./images/beechcraft-1900c-mail_N.0.0
+EmptyImage[NE]=./images/beechcraft-1900c-mail_NE.0.0

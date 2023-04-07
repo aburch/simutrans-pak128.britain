@@ -11,14 +11,17 @@ intro_year=1989
 intro_month=1
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=138
 
 weight=26
 axles=4
 upgrade_price=100000
-runningcost=7
-sound=-1
+runningcost=25
+fixed_cost=6667
+cost=800000
+sound=lul-1938-stock-ff3170.wav
 
 available_only_as_upgrade=1
 
@@ -26,12 +29,15 @@ can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[0]=0
+is_tall=0
 
-min_loading_time=10
-max_loading_time=40
+min_loading_time=15
+max_loading_time=45
 # http://upload.wikimedia.org/wikipedia/commons/2/25/483004_Interior.JPG
-comfort=61
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=BR-Class483Rear
 Constraint[Prev][1]=none
@@ -60,7 +66,9 @@ EmptyImage[W][1]=./images/br-cl483-heritage.0.4
 EmptyImage[NW][1]=./images/br-cl483-heritage.0.5
 EmptyImage[N][1]=./images/br-cl483-heritage.0.6
 EmptyImage[NE][1]=./images/br-cl483-heritage.0.7
+
 --
+
 obj=vehicle
 name=BR-Class483NDM
 engine_type=electric
@@ -74,14 +82,16 @@ intro_year=1989
 intro_month=1
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=130
 
 weight=25
 axles=4
 upgrade_price=80000
-runningcost=6
-sound=-1
+runningcost=25
+fixed_cost=6667
+cost=800000
 
 available_only_as_upgrade=1
 
@@ -89,11 +99,14 @@ can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[0]=0
+is_tall=0
 
-min_loading_time=10
-max_loading_time=40
-comfort=61
+min_loading_time=15
+max_loading_time=45
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=BR-Class483Front
 
@@ -120,7 +133,9 @@ EmptyImage[W][1]=./images/br-cl483-heritage.1.4
 EmptyImage[NW][1]=./images/br-cl483-heritage.1.5
 EmptyImage[N][1]=./images/br-cl483-heritage.1.6
 EmptyImage[NE][1]=./images/br-cl483-heritage.1.7
+
 --
+
 obj=vehicle
 name=BR-Class483Trailer
 engine_type=electric
@@ -131,14 +146,16 @@ intro_year=1989
 intro_month=1
 waytype=track
 freight=Passagiere
-payload=40
+payload[0]=0
+payload[1]=40
 overcrowded_capacity=150
 
 weight=18
 axles=4
 upgrade_price=40000
-runningcost=3
-sound=-1
+runningcost=0
+fixed_cost=1667
+cost=800000
 
 available_only_as_upgrade=1
 
@@ -146,11 +163,14 @@ can_lead_from_rear=0
 bidirectional=1
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[0]=0
+is_tall=0
 
-min_loading_time=10
-max_loading_time=40
-comfort=61
+min_loading_time=15
+max_loading_time=45
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=BR-Class483NDM
 Constraint[Prev][1]=BR-Class483Front
@@ -191,14 +211,17 @@ intro_year=1989
 intro_month=1
 waytype=track
 freight=Passagiere
-payload=42
+payload[0]=0
+payload[1]=42
 overcrowded_capacity=138
 
 weight=26
 axles=4
 upgrade_price=1000000
-runningcost=7
-sound=-1
+runningcost=25
+fixed_cost=6667
+cost=800000
+sound=lul-1938-stock-ff3170.wav
 
 available_only_as_upgrade=1
 
@@ -206,11 +229,14 @@ can_lead_from_rear=1
 bidirectional=0
 
 way_constraint_prohibitive[1]=1
+way_constraint_prohibitive[2]=2
 way_constraint_permissive[0]=0
+is_tall=0
 
-min_loading_time=10
-max_loading_time=40
-comfort=61
+min_loading_time=15
+max_loading_time=45
+comfort[0]=0
+comfort[1]=61
 
 Constraint[Prev][0]=BR-Class483NDM
 Constraint[Prev][1]=BR-Class483Trailer
@@ -239,5 +265,3 @@ EmptyImage[W][1]=./images/br-cl483-heritage.2.4
 EmptyImage[NW][1]=./images/br-cl483-heritage.2.5
 EmptyImage[N][1]=./images/br-cl483-heritage.2.6
 EmptyImage[NE][1]=./images/br-cl483-heritage.2.7
---
-

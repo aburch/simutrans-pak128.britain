@@ -7,20 +7,24 @@ speed=15
 power=200
 #gear=1200
 smoke=Steam
+sound=ship-horn_b.wav
 freight=Kohle
 payload=75
 weight=30
 length=6
 cost=11000000
-runningcost=330
+runningcost=107
+fixed_cost=20583
 intro_year=1856
 intro_month=5
-retire_year=1950
+retire_year=1975
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=180
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -101,16 +105,19 @@ freight=Bretter
 payload=75
 weight=75
 length=6
-cost=20000
-runningcost=2
+cost=11000000
+runningcost=107
+fixed_cost=20583
 intro_year=1856
 intro_month=5
-retire_year=1950
+retire_year=1975
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=180
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -161,16 +168,19 @@ freight=vegetables
 payload=75
 weight=75
 length=6
-cost=20000
-runningcost=2
+cost=11000000
+runningcost=107
+fixed_cost=20583
 intro_year=1856
 intro_month=5
-retire_year=1950
+retire_year=1975
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=180
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -209,16 +219,19 @@ freight=meat
 payload=75
 weight=75
 length=6
-cost=20000
-runningcost=2
+cost=11000000
+runningcost=107
+fixed_cost=20583
 intro_year=1856
 intro_month=5
-retire_year=1950
+retire_year=1975
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=180
 
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
@@ -257,16 +270,19 @@ freight=livestock
 payload=75
 weight=75
 length=6
-cost=20000
-runningcost=2
+cost=11000000
+runningcost=107
+fixed_cost=20583
 intro_year=1856
 intro_month=5
-retire_year=1950
+retire_year=1975
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=180
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
@@ -305,16 +321,19 @@ freight=Oel
 payload=75
 weight=75
 length=6
-cost=20000
-runningcost=2
+cost=11000000
+runningcost=107
+fixed_cost=20583
 intro_year=1856
 intro_month=5
-retire_year=1950
+retire_year=1975
 retire_month=6
+is_tall=1
 
 # 40-60 minutes
 min_loading_time=2400
 max_loading_time=3600
+range=180
 
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship

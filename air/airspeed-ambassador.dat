@@ -1,0 +1,53 @@
+# https://en.wikipedia.org/wiki/Airspeed_Ambassador
+obj=vehicle
+name=airspeed-ambassador
+copyright=SketchVC10
+# https://3dwarehouse.sketchup.com/model/u11b78343-fd51-43a1-ba86-c8e4886ec948/British-European-AirwaysBEA-Airspeed-Ambassador-1952
+waytype=air
+engine_type=petrol
+speed=418
+power=3916
+tractive_effort=15
+#gear=1
+freight=Passagiere
+# "Up to" 60 passengers
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=60
+weight=16.0
+#length=8
+cost=8900000
+runningcost=157
+fixed_cost=56181
+intro_year=1951
+intro_month=2
+retire_year=1961
+retire_month=12
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=117
+min_loading_time=2200
+max_loading_time=2200
+
+catering_level=3
+
+# Data not available: guessed from comparable types
+minimum_runway_length=1100
+
+sound=ylearkisto-dc-3.wav
+range=885
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/airspeed-ambassador_E.0.0
+EmptyImage[SE]=./images/airspeed-ambassador_SE.0.0
+EmptyImage[S]=./images/airspeed-ambassador_S.0.0
+EmptyImage[SW]=./images/airspeed-ambassador_SW.0.0
+EmptyImage[W]=./images/airspeed-ambassador_W.0.0
+EmptyImage[NW]=./images/airspeed-ambassador_NW.0.0
+EmptyImage[N]=./images/airspeed-ambassador_N.0.0
+EmptyImage[NE]=./images/airspeed-ambassador_NE.0.0

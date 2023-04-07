@@ -4,10 +4,14 @@ waytype=air
 system_type=0
 cost=3000
 maintenance=15
-topspeed=10
-max_weight=15
-intro_year=1922
-intro_month=2
+topspeed=20
+max_weight=5
+intro_year=1909
+intro_month=8
+# 1 DC3 every 2 hours for 30 game years
+wear_capacity=11520000
+deck_mask=0x80000000
+
 icon=> ./images/grass-taxiway.1.3
 cursor=./images/grass-taxiway.1.4
 Image[-][0]=./images/grass-taxiway.1.2

@@ -5,17 +5,17 @@ waytype=water
 engine_type=sail
 speed=15
 power=250
-#gear=1200
 freight=FreshFish
 payload=15
 weight=15
 length=8
 cost=32000
-runningcost=115
+runningcost=0
+fixed_cost=16022
 intro_year=1852
 intro_month=1
 retire_year=1945
-intro_month=1
+is_tall=1
 
 # 1-2 hours
 min_loading_time=3600
@@ -35,5 +35,3 @@ EmptyImage[W]=./images/fifie.1.4
 EmptyImage[NW]=./images/fifie.1.5
 EmptyImage[N]=./images/fifie.1.6
 EmptyImage[NE]=./images/fifie.1.7
-
--------------

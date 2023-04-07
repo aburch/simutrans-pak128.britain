@@ -3,25 +3,30 @@ name=FBM-Hydrocat
 copyright=James
 waytype=water
 engine_type=diesel
-smoke=diesel
+smoke=Diesel
 speed=45
 power=450
-gear=100
 freight=Passagiere
-payload=65
+payload[0]=0
+payload[1]=65
 weight=30
 length=10
 cost=46000000
-runningcost=820
+runningcost=28
+fixed_cost=219167
 intro_year=1991
 intro_month=4
 
-comfort=96
+comfort[0]=0
+comfort[1]=96
 min_loading_time=40
 max_loading_time=80
+range=200
 
 Constraint[Prev][0]=none
-Constraint[Next][0]=none
+
+Constraint[Next][0]=ferry-mail
+Constraint[Next][1]=none
 
 way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
@@ -35,4 +40,3 @@ EmptyImage[W]=./images/fbm-hydrocat.1.4
 EmptyImage[NW]=./images/fbm-hydrocat.1.5
 EmptyImage[N]=./images/fbm-hydrocat.1.6
 EmptyImage[NE]=./images/fbm-hydrocat.1.7
----

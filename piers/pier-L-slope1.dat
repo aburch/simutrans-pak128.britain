@@ -1,0 +1,56 @@
+obj=pier
+name=Lslope1
+cost=182000
+maintenance=121
+topspeed=100
+max_weight=15
+
+intro_year=1860
+intro_month=1
+retire_year=1962
+retire_month=2
+
+above_way_ribi=0x5
+below_way_ribi=0xF
+
+above_slope=36
+
+base_mask=0x04040404
+middle_mask=0x81B981B9
+support_mask=0x04040404
+max_altitude=3
+keep_dry=1
+sub_obj_mask=0x02
+deck_obj_mask=0x0001FFFF
+
+cursor=pier-L-slope1.0.5
+icon=> pier-L-slope1.0.4
+
+backimage[00][0][0] = pier-L-slope1.0.0
+backimage[00][1][0] = pier-L-slope1.0.1
+
+frontimage[00][0][0] = pier-L-slope1.0.0
+frontimage[00][1][0] = pier-L-slope1.0.1
+
+backimage[00][0][1] = pier-L-slope1-snow.0.0
+backimage[00][1][1] = pier-L-slope1-snow.0.1
+
+frontimage[00][0][1] = pier-L-slope1-snow.0.0
+frontimage[00][1][1] = pier-L-slope1-snow.0.1
+
+backimage[00][2][0] = pier-L-slope1.0.2
+backimage[00][3][0] = pier-L-slope1.0.3
+
+frontimage[00][2][0] = pier-L-slope1.0.2
+frontimage[00][3][0] = pier-L-slope1.0.3
+
+backimage[00][2][1] = pier-L-slope1-snow.0.2
+backimage[00][3][1] = pier-L-slope1-snow.0.3
+
+frontimage[00][2][1] = pier-L-slope1-snow.0.2
+frontimage[00][3][1] = pier-L-slope1-snow.0.3
+
+backimage[40][1][0]=> pier-L-slope1.0.6
+backimage[40][2][0]=> pier-L-slope1.0.7
+backimage[40][3][0]=> pier-L-slope1.0.8
+

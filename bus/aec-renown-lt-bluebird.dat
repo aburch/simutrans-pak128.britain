@@ -1,0 +1,62 @@
+# http://web.archive.org/web/20070906023410/http://www.countrybus.org.uk:80/LT/LT4.html#bluebird
+obj=vehicle
+name=aec-renown-lt-bluebird
+copyright=JamesPetts&JamesHood
+waytype=road
+engine_type=diesel
+smoke=Diesel-light
+freight=Passagiere
+payload=60
+overcrowded_capacity=5
+speed=50
+# These had diesel engines
+# See the Flanders & Swann song for the power rating (97hp)
+# Confirmed here: http://webcache.googleusercontent.com/search?q=cache:zkrkIblLE7cJ:www.countrybus.org/LT/LT.html+&cd=8&hl=en&ct=clnk&gl=uk&client=firefox-b
+power=72
+tractive_effort=9
+gear=50
+# Guessed
+weight=7.7
+axles=3
+length=6
+cost=726000
+upgrade_cost=145200
+runningcost=72
+fixed_cost=8378
+intro_year=1934
+intro_month=5
+retire_year=1942
+retire_month=8
+is_tall=1
+sound=richard-walker-aec-stl-diesel.wav
+
+comfort=41
+# Rear platform with conductor: 2.0 seconds per passenger
+min_loading_time=3
+max_loading_time=120
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=General
+liverytype[1]=LT
+
+EmptyImage[E][0]=./images/aec-renown-lt-bluebird-general_E.0.0,-33,14
+EmptyImage[SE][0]=./images/aec-renown-lt-bluebird-general_SE.0.0,-13,0
+EmptyImage[S][0]=./images/aec-renown-lt-bluebird-general_S.0.0,4,0
+EmptyImage[SW][0]=./images/aec-renown-lt-bluebird-general_SW.0.0,-8,10
+EmptyImage[W][0]=./images/aec-renown-lt-bluebird-general_W.0.0,4,5
+EmptyImage[NW][0]=./images/aec-renown-lt-bluebird-general_NW.0.0,12,10
+EmptyImage[N][0]=./images/aec-renown-lt-bluebird-general_N.0.0,0,33
+EmptyImage[NE][0]=./images/aec-renown-lt-bluebird-general_NE.0.0,0,24
+
+EmptyImage[E][1]=./images/aec-renown-lt-bluebird-red-white_E.0.0,-33,14
+EmptyImage[SE][1]=./images/aec-renown-lt-bluebird-red-white_SE.0.0,-13,0
+EmptyImage[S][1]=./images/aec-renown-lt-bluebird-red-white_S.0.0,4,0
+EmptyImage[SW][1]=./images/aec-renown-lt-bluebird-red-white_SW.0.0,-8,10
+EmptyImage[W][1]=./images/aec-renown-lt-bluebird-red-white_W.0.0,4,5
+EmptyImage[NW][1]=./images/aec-renown-lt-bluebird-red-white_NW.0.0,12,10
+EmptyImage[N][1]=./images/aec-renown-lt-bluebird-red-white_N.0.0,0,33
+EmptyImage[NE][1]=./images/aec-renown-lt-bluebird-red-white_NE.0.0,0,24
+
+

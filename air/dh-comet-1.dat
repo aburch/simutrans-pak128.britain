@@ -1,0 +1,63 @@
+# https://en.wikipedia.org/wiki/De_Havilland_Comet
+# http://www.baesystems.com/en/heritage/de-havilland-comet-1---2
+obj=vehicle
+name=dh-comet-1
+copyright=707
+# https://3dwarehouse.sketchup.com/model/u4b75c3f7-724b-4dab-a12e-8faeeba6bdea/BOAC-1954-de-Havilland-Comet-1
+waytype=air
+engine_type=turbine
+speed=724
+power=15856
+tractive_effort=88
+#gear=1
+freight=Passagiere
+# http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
+# http://s3-eu-west-1.amazonaws.com/cjp-rbi-communities-blogs/wp-content/uploads/mt/flightglobalweb/blogs/aircraft-pictures/assets_c/2009/06/DH%20Comet%201%20DPS%20cutaway-thumb-450x233-39208.jpg
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=28
+payload[4]=8
+# Guessed, as no data available
+weight=30
+#length=8
+# £275,000 (1952) (according to Wikipedia)
+cost=10000000
+# 7,500lb/hour/engine
+# http://www.oocities.org/capecanaveral/lab/8803/fcomette.htm
+runningcost=127
+fixed_cost=56944
+intro_year=1952
+intro_month=5
+retire_year=1958
+retire_month=9
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=124
+comfort[4]=151
+min_loading_time=2000
+max_loading_time=2000
+
+catering_level=4
+
+# Not available for the Comet 1. The below is
+# taken from the Comet 4B, data here:
+# http://www.airliners.net/forum/viewtopic.php?t=757007
+minimum_runway_length=2012
+
+sound=robin-pinnock-bac-1-11.wav
+range=2414
+
+Constraint[Next][0]=none
+Constraint[Prev][0]=none
+
+EmptyImage[E]=./images/dh-comet-1_E.0.0
+EmptyImage[SE]=./images/dh-comet-1_SE.0.0
+EmptyImage[S]=./images/dh-comet-1_S.0.0
+EmptyImage[SW]=./images/dh-comet-1_SW.0.0
+EmptyImage[W]=./images/dh-comet-1_W.0.0
+EmptyImage[NW]=./images/dh-comet-1_NW.0.0
+EmptyImage[N]=./images/dh-comet-1_N.0.0
+EmptyImage[NE]=./images/dh-comet-1_NE.0.0

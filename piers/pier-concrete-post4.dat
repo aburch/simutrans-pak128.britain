@@ -1,0 +1,54 @@
+obj=pier
+name=concretepost4Pier
+cost=52000
+maintenance=4
+intro_year=1946
+intro_month=3
+
+above_way_ribi=0x0
+below_way_ribi=0xF
+
+drag_ribi=0xF
+
+base_mask=0x00000000
+base_mask_2=0x08080808
+
+middle_mask=0x80808080
+
+support_mask=0x04040404
+support_mask_2=0x08080808
+
+sub_obj_mask=0x01
+
+auto_group=0x20
+keep_dry=1
+
+cursor=pier-concrete-post4.1.1
+icon=> pier-concrete-post4.1.0
+
+backimage[00][0][0] = pier-concrete-post4.0.24
+backimage[31][0][0] = pier-concrete-post4.0.0
+backimage[13][0][0] = pier-concrete-post4.0.1
+backimage[39][0][0] = pier-concrete-post4.0.2
+backimage[37][0][0] = pier-concrete-post4.0.3
+backimage[62][0][0] = pier-concrete-post4.0.4
+backimage[26][0][0] = pier-concrete-post4.0.5
+backimage[78][0][0] = pier-concrete-post4.0.6
+backimage[74][0][0] = pier-concrete-post4.0.7
+backimage[09][0][0] = pier-concrete-post4.0.8
+backimage[27][0][0] = pier-concrete-post4.0.9
+backimage[01][0][0] = pier-concrete-post4.0.10
+backimage[03][0][0] = pier-concrete-post4.0.11
+backimage[18][0][0] = pier-concrete-post4.0.12
+backimage[54][0][0] = pier-concrete-post4.0.13
+backimage[02][0][0] = pier-concrete-post4.0.14
+backimage[06][0][0] = pier-concrete-post4.0.15
+backimage[36][0][0] = pier-concrete-post4.0.16
+backimage[28][0][0] = pier-concrete-post4.0.17
+backimage[04][0][0] = pier-concrete-post4.0.18
+backimage[12][0][0] = pier-concrete-post4.0.19
+backimage[72][0][0] = pier-concrete-post4.0.20
+backimage[56][0][0] = pier-concrete-post4.0.21
+backimage[08][0][0] = pier-concrete-post4.0.22
+backimage[24][0][0] = pier-concrete-post4.0.23
+

@@ -1,0 +1,46 @@
+# http://web.archive.org/web/20131202232616/http://www.countrybus.org/National/LS2.htm
+obj=vehicle
+name=leyland-national-2-standee
+engine_type=diesel
+smoke=Diesel
+speed=75
+gear=50
+# TL11 engine
+power=194
+tractive_effort=30
+copyright=Kieron
+intro_year=1980
+intro_month=5
+retire_year=1985
+retire_month=10
+waytype=road
+freight=Passagiere
+payload=24
+overcrowded_capacity=46
+length=6
+
+weight=8.7
+cost=7505000
+runningcost=59
+fixed_cost=11909
+sound=leyland-atlantean-an68-ff3170.wav
+
+comfort=43
+# Double door pay driver: 3.0 seconds per passenger
+min_loading_time=5
+max_loading_time=72
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+# TODO: Add more liveries
+liverytype[0]=LT-revised
+
+EmptyImage[E][0]=./images/leyland-national-2-short-lt-revised_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-national-2-short-lt-revised_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-national-2-short-lt-revised_S.0.0,4,0
+EmptyImage[SW][0]=./images/leyland-national-2-short-lt-revised_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-national-2-short-lt-revised_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-national-2-short-lt-revised_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-national-2-short-lt-revised_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-national-2-short-lt-revised_NE.0.0,0,24

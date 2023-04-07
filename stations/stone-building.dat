@@ -7,18 +7,30 @@ enables_pax=1
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,4
-NoInfo=1
+#NoInfo=1
 Level=1
-# Used for TESTing only.
-# allow_underground=1
+# Passenger data guessed
+population_and_visitor_demand_capacity=4
+employment_capacity=45
+mail_demand=6
+class_proportion[0]=0
+class_proportion[1]=4
+class_proportion[2]=46
+class_proportion[3]=50
+class_proportion[4]=0
+class_proportion_jobs[0]=20
+class_proportion_jobs[1]=30
+class_proportion_jobs[2]=45
+class_proportion_jobs[3]=5
+class_proportion_jobs[4]=0
 intro_year=1825
 intro_month=9
 retire_year=1922
 retire_month=3
 
-station_maintenance=10000
-station_price=850000
-station_capacity=85
+maintenance=10000
+cost=850000
+capacity=85
 
 BackImage[0][0][0][0][0][0]=stone-building.0.0
 BackImage[1][0][0][0][0][0]=stone-building.1.0

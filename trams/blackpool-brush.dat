@@ -3,43 +3,72 @@ name=Blackpool-Brush
 engine_type=electric
 speed=65
 gear=80
-power=100
+# http://en.wikipedia.org/wiki/Blackpool_tramway#Boat_cars
+# http://blackpool-trams.yolasite.com/brush-trams.php
+power=85
+tractive_effort=40
 copyright=James
-intro_year=1934
-intro_month=4
+intro_year=1937
+intro_month=6
 retire_year=1953
 retire_month=6
 waytype=tram_track
 freight=Passagiere
+# http://www.britishtramsonline.co.uk/blackpoolfleet.doc
 payload=48
 overcrowded_capacity=6
-weight=17
+weight=12
 axles=4
-cost=216000
-runningcost=40
-sound=-1
+cost=446000
+runningcost=34
+fixed_cost=6372
+sound=tom-tait-tram.wav
 
 can_lead_from_rear=1
 bidirectional=1
+
 way_constraint_permissive[1]=1
 way_constraint_prohibitive[0]=0
-comfort=46
-min_loading_time=22
-max_loading_time=55
+comfort=49
+min_loading_time=10
+max_loading_time=50
 increase_maintenance_after_years=30
 
-upgrade[0]=Blackpool-ProgressTwin-Trailer
+# This was actually the English Electric railcoaches, 
+# but these were so similar that they should also in principle be upgradeable.
+upgrade[0]=Blackpool-ProgressTwin-Power
 
 Constraint[Prev][0]=none
-
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/blackpool-brush.0.0
-EmptyImage[SE]=./images/blackpool-brush.0.1
-EmptyImage[S]=./images/blackpool-brush.0.2
-EmptyImage[SW]=./images/blackpool-brush.0.3
-EmptyImage[W]=./images/blackpool-brush.0.4
-EmptyImage[NW]=./images/blackpool-brush.0.5
-EmptyImage[N]=./images/blackpool-brush.0.6
-EmptyImage[NE]=./images/blackpool-brush.0.7
+liverytype[0]=Blackpool-green
+liverytype[1]=WW2-Austerity
+liverytype[2]=Blackpool-green-postwar
+
+EmptyImage[E][0]=./images/blackpool-brush_E.0.0
+EmptyImage[SE][0]=./images/blackpool-brush_SE.0.0
+EmptyImage[S][0]=./images/blackpool-brush_S.0.0
+EmptyImage[SW][0]=./images/blackpool-brush_SW.0.0
+EmptyImage[W][0]=./images/blackpool-brush_W.0.0
+EmptyImage[NW][0]=./images/blackpool-brush_NW.0.0
+EmptyImage[N][0]=./images/blackpool-brush_N.0.0
+EmptyImage[NE][0]=./images/blackpool-brush_NE.0.0
+
+EmptyImage[E][1]=./images/blackpool-brush-austerity_E.0.0
+EmptyImage[SE][1]=./images/blackpool-brush-austerity_SE.0.0
+EmptyImage[S][1]=./images/blackpool-brush-austerity_S.0.0
+EmptyImage[SW][1]=./images/blackpool-brush-austerity_SW.0.0
+EmptyImage[W][1]=./images/blackpool-brush-austerity_W.0.0
+EmptyImage[NW][1]=./images/blackpool-brush-austerity_NW.0.0
+EmptyImage[N][1]=./images/blackpool-brush-austerity_N.0.0
+EmptyImage[NE][1]=./images/blackpool-brush-austerity_NE.0.0
+
+EmptyImage[E][2]=./images/blackpool-brush-postwar_E.0.0
+EmptyImage[SE][2]=./images/blackpool-brush-postwar_SE.0.0
+EmptyImage[S][2]=./images/blackpool-brush-postwar_S.0.0
+EmptyImage[SW][2]=./images/blackpool-brush-postwar_SW.0.0
+EmptyImage[W][2]=./images/blackpool-brush-postwar_W.0.0
+EmptyImage[NW][2]=./images/blackpool-brush-postwar_NW.0.0
+EmptyImage[N][2]=./images/blackpool-brush-postwar_N.0.0
+EmptyImage[NE][2]=./images/blackpool-brush-postwar_NE.0.0
 

@@ -1,0 +1,53 @@
+# Ahrons p. 168
+obj=vehicle
+name=GNR-Stirling7Foot
+engine_type=steam
+smoke=Steam
+speed=130
+# Extrapolated
+power=170
+tractive_effort=39
+copyright=Kieron/JamesPetts
+intro_year=1868
+intro_month=3
+retire_year=1873
+retire_month=7
+waytype=track
+freight=None
+payload=0
+length=4
+brake_force=0
+rolling_resistance=21
+
+# http://orion.math.iastate.edu/jdhsmith/term/slgbgnr.htm
+# Recorded here as the "B" class
+weight=34
+axle_load=15
+cost=19125375
+runningcost=212
+fixed_cost=39938
+sound=lwalker-br-4mt-tank.wav
+
+Constraint[Next][0]=gnr-sturrock-tender
+
+liverytype[0]=GNR-early
+liverytype[1]=GNR-Standard
+
+EmptyImage[E][0]=./locomotives/gnr-stirling-7ft-single-dark_E.0.0
+EmptyImage[SE][0]=./locomotives/gnr-stirling-7ft-single-dark_SE.0.0
+EmptyImage[S][0]=./locomotives/gnr-stirling-7ft-single-dark_S.0.0
+EmptyImage[SW][0]=./locomotives/gnr-stirling-7ft-single-dark_SW.0.0
+EmptyImage[W][0]=./locomotives/gnr-stirling-7ft-single-dark_W.0.0
+EmptyImage[NW][0]=./locomotives/gnr-stirling-7ft-single-dark_NW.0.0
+EmptyImage[N][0]=./locomotives/gnr-stirling-7ft-single-dark_N.0.0
+EmptyImage[NE][0]=./locomotives/gnr-stirling-7ft-single-dark_NE.0.0
+
+EmptyImage[E][1]=./locomotives/gnr-stirling-7ft-single_E.0.0
+EmptyImage[SE][1]=./locomotives/gnr-stirling-7ft-single_SE.0.0
+EmptyImage[S][1]=./locomotives/gnr-stirling-7ft-single_S.0.0
+EmptyImage[SW][1]=./locomotives/gnr-stirling-7ft-single_SW.0.0
+EmptyImage[W][1]=./locomotives/gnr-stirling-7ft-single_W.0.0
+EmptyImage[NW][1]=./locomotives/gnr-stirling-7ft-single_NW.0.0
+EmptyImage[N][1]=./locomotives/gnr-stirling-7ft-single_N.0.0
+EmptyImage[NE][1]=./locomotives/gnr-stirling-7ft-single_NE.0.0
+

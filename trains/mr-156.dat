@@ -1,0 +1,53 @@
+obj=vehicle
+name=MR-Kirtley156
+engine_type=steam
+smoke=Steam
+speed=115
+# Extrapolated
+power=167
+# Calculated from data from Ahrons, p. 170
+# Loss factor set at 0.75
+tractive_effort=38
+copyright=Kieron
+intro_year=1866
+intro_month=2
+retire_year=1870
+retire_month=2
+waytype=track
+freight=None
+payload=0
+length=5
+brake_force=0
+
+# Weight given in Ahrons, p. 170
+weight=41
+axle_load=14
+cost=13944000
+runningcost=202
+fixed_cost=35620
+sound=lwalker-br-4mt-tank.wav
+increase_maintenance_after_years=40
+years_before_maintenance_max_reached=40
+
+Constraint[Next][0]=MR-Kirtley156Tender
+
+liverytype[0]=MR-Early
+liverytype[1]=MR-Standard
+
+EmptyImage[E][0]=./locomotives/mr-156-class-green_E.0.0
+EmptyImage[SE][0]=./locomotives/mr-156-class-green_SE.0.0
+EmptyImage[S][0]=./locomotives/mr-156-class-green_S.0.0
+EmptyImage[SW][0]=./locomotives/mr-156-class-green_SW.0.0
+EmptyImage[W][0]=./locomotives/mr-156-class-green_W.0.0
+EmptyImage[NW][0]=./locomotives/mr-156-class-green_NW.0.0
+EmptyImage[N][0]=./locomotives/mr-156-class-green_N.0.0
+EmptyImage[NE][0]=./locomotives/mr-156-class-green_NE.0.0
+
+EmptyImage[E][1]=./locomotives/mr-156-class_E.0.0
+EmptyImage[SE][1]=./locomotives/mr-156-class_SE.0.0
+EmptyImage[S][1]=./locomotives/mr-156-class_S.0.0
+EmptyImage[SW][1]=./locomotives/mr-156-class_SW.0.0
+EmptyImage[W][1]=./locomotives/mr-156-class_W.0.0
+EmptyImage[NW][1]=./locomotives/mr-156-class_NW.0.0
+EmptyImage[N][1]=./locomotives/mr-156-class_N.0.0
+EmptyImage[NE][1]=./locomotives/mr-156-class_NE.0.0

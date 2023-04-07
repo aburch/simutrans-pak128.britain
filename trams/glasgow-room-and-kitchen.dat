@@ -1,0 +1,54 @@
+# http://www.semple.biz/glasgow/tram%20rolling%20stock.shtml
+obj=vehicle
+name=glasgow-room-and-kitchen
+engine_type=electric
+speed=32
+gear=80
+power=52
+tractive_effort=32
+copyright=James/jamespetts
+intro_year=1898
+intro_month=3
+retire_year=1909
+retire_month=2
+waytype=tram_track
+freight=Passagiere
+# Guessed as no data available
+payload=32
+overcrowded_capacity=3
+length=5
+
+weight=8.9
+axles=4
+cost=300000
+runningcost=31
+fixed_cost=6250
+sound=tom-tait-tram.wav
+
+can_lead_from_rear=1
+bidirectional=1
+
+way_constraint_permissive[0]=1
+way_constraint_prohibitive[1]=0
+# Bogies and half enclosed deck
+comfort=35
+# Inefficient at loading
+min_loading_time=15
+max_loading_time=42
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Glasgow-Corporation-early
+
+EmptyImage[E][0]=./images/glasgow-room-and-kitchen_E.0.0
+EmptyImage[SE][0]=./images/glasgow-room-and-kitchen_SE.0.0
+EmptyImage[S][0]=./images/glasgow-room-and-kitchen_S.0.0
+EmptyImage[SW][0]=./images/glasgow-room-and-kitchen_SW.0.0
+EmptyImage[W][0]=./images/glasgow-room-and-kitchen_W.0.0
+EmptyImage[NW][0]=./images/glasgow-room-and-kitchen_NW.0.0
+EmptyImage[N][0]=./images/glasgow-room-and-kitchen_N.0.0
+EmptyImage[NE][0]=./images/glasgow-room-and-kitchen_NE.0.0
+
+
+

@@ -1,0 +1,62 @@
+# Very little record exists of this earlier type, 
+# however mention is made of it as a "box on wheels",
+# smaller than Shillibeer's grand original omnibus,
+# and popular in the 1840s, at p. 9 of John Day's
+# "The story of the London 'bus".  
+obj=vehicle
+name=omnibus-single-small
+copyright=JamesPetts&JamesHood
+waytype=road
+freight=Passagiere
+payload[0]=0
+payload[1]=0
+payload[2]=12
+overcrowded_capacity=3
+speed=11
+weight=0.6
+axle_load=1
+length=3
+cost=69000
+runningcost=0
+fixed_cost=4829
+intro_year=1833
+intro_month=11
+retire_year=1912
+retire_month=6
+rolling_resistance=109
+brake_force=1
+
+comfort[0]=0
+comfort[1]=0
+comfort[2]=26
+# Single door with conductor: 2.5 seconds per passenger
+min_loading_time=3
+max_loading_time=30
+
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+Constraint[Prev][6]=road-horse-hackney-double
+
+Constraint[Next][0]=none
+
+EmptyImage[E]=./images/omnibus-single-small_E.0.0,-33,14
+EmptyImage[SE]=./images/omnibus-single-small_SE.0.0,-13,0
+EmptyImage[S]=./images/omnibus-single-small_S.0.0,0,0
+EmptyImage[SW]=./images/omnibus-single-small_SW.0.0,-8,10
+EmptyImage[W]=./images/omnibus-single-small_W.0.0,4,5
+EmptyImage[NW]=./images/omnibus-single-small_NW.0.0,12,10
+EmptyImage[N]=./images/omnibus-single-small_N.0.0,0,33
+EmptyImage[NE]=./images/omnibus-single-small_NE.0.0,0,24
+
+FreightImage[E]=./images/omnibus-single-small-loaded_E.0.0,-33,14
+FreightImage[SE]=./images/omnibus-single-small-loaded_SE.0.0,-13,0
+FreightImage[S]=./images/omnibus-single-small-loaded_S.0.0,0,0
+FreightImage[SW]=./images/omnibus-single-small-loaded_SW.0.0,-8,10
+FreightImage[W]=./images/omnibus-single-small-loaded_W.0.0,4,5
+FreightImage[NW]=./images/omnibus-single-small-loaded_NW.0.0,12,10
+FreightImage[N]=./images/omnibus-single-small-loaded_N.0.0,0,33
+FreightImage[NE]=./images/omnibus-single-small-loaded_NE.0.0,0,24

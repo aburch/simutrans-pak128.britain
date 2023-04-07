@@ -1,0 +1,50 @@
+# http://web.archive.org/web/20170325115736/http://www.countrybus.org/TF/TF.html
+# Leyland Tiger FEC: see Phillips p. 60
+# 8.6l diesel engine (E.166)
+obj=vehicle
+name=leyland-tiger-tf
+copyright=JamesPetts
+waytype=road
+engine_type=diesel
+smoke=Diesel
+freight=Passagiere
+payload=34
+overcrowded_capacity=0
+speed=64
+# See Phillips pp. 76-77: 98BHP
+power=73
+# Assumed higher gearing for coach version
+tractive_effort=8
+gear=50
+weight=5.4
+axles=2
+length=5
+cost=447500
+runningcost=73
+fixed_cost=7233
+intro_year=1939
+intro_month=3
+retire_year=1950
+retire_month=4
+sound=henergy1994-leyland-titan-td4.wav
+
+comfort=71
+# Coach (short distance): 5.0 seconds per passenger
+min_loading_time=5
+max_loading_time=170
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=none
+
+liverytype[0]=Green-Line-Coaches
+
+EmptyImage[E][0]=./images/leyland-tiger-tf-greenline_E.0.0,-33,14
+EmptyImage[SE][0]=./images/leyland-tiger-tf-greenline_SE.0.0,-13,0
+EmptyImage[S][0]=./images/leyland-tiger-tf-greenline_S.0.0,4,0
+EmptyImage[SW][0]=./images/leyland-tiger-tf-greenline_SW.0.0,-8,10
+EmptyImage[W][0]=./images/leyland-tiger-tf-greenline_W.0.0,4,5
+EmptyImage[NW][0]=./images/leyland-tiger-tf-greenline_NW.0.0,12,10
+EmptyImage[N][0]=./images/leyland-tiger-tf-greenline_N.0.0,0,33
+EmptyImage[NE][0]=./images/leyland-tiger-tf-greenline_NE.0.0,0,24
+
+

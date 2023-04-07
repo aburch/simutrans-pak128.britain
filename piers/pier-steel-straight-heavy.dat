@@ -1,0 +1,42 @@
+obj=pier
+name=steelstraightheavy
+cost=30000
+maintenance=53
+topspeed=150
+max_weight=25
+
+intro_year=1864
+intro_month=9
+retire_year=1967
+retire_month=3
+
+above_way_ribi=0x0
+below_way_ribi=0x5
+
+base_mask=0x00000000
+base_mask_2=0x00010000
+middle_mask=0x01390139
+support_mask=0x0
+
+keep_dry=1
+sub_obj_mask=0
+low_waydeck=1
+
+drag_ribi=0x5
+auto_group=0x04
+
+cursor=pier-steel-straight-heavy.0.3
+icon=> pier-steel-straight-heavy.0.2
+
+backimage[80][0][0] = pier-steel-straight-heavy.0.2
+backimage[79][0][0] = pier-steel-straight-heavy.0.3
+
+backimage[00][0][0] = pier-steel-straight-heavy.0.0
+backimage[00][1][0] = pier-steel-straight-heavy.0.1
+backimage[43][0][0] = pier-steel-straight-heavy.0.6
+backimage[43][1][0] = pier-steel-straight-heavy.0.7
+
+frontimage[00][0][0] = pier-steel-straight-heavy.0.4
+frontimage[00][1][0] = pier-steel-straight-heavy.0.5
+frontimage[43][0][0] = pier-steel-straight-heavy.0.4
+frontimage[43][1][0] = pier-steel-straight-heavy.0.5

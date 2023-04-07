@@ -3,6 +3,9 @@ Name=ConcretePlatformTrainStop
 copyright=Kieron
 type=stop
 waytype=track
+population_and_visitor_demand_capacity=0
+employment_capacity=0
+mail_demand=0
 enables_pax=1
 noconstruction=1
 intro_year=1957
@@ -12,12 +15,14 @@ intro_month=12
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,16
-NoInfo=1
+#NoInfo=1
 Level=1
-
-station_maintenance=2250
-station_price=250000
-station_capacity=0
+allow_underground=0
+pier_sub_1_mask=0x1F
+pier_sub_2_mask=0xFFFFFFFF
+maintenance=2250
+cost=250000
+capacity=0
 
 BackImage[0][0][0][0][0][0]=concrete-platform.1.0
 BackImage[1][0][0][0][0][0]=concrete-platform.0.0
@@ -66,6 +71,9 @@ copyright=Kieron
 type=stop
 waytype=track
 enables_pax=1
+population_and_visitor_demand_capacity=0
+employment_capacity=1
+mail_demand=0
 noconstruction=1
 intro_year=1957
 intro_month=12
@@ -74,12 +82,13 @@ intro_month=12
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,16
-NoInfo=1
+#NoInfo=1
 Level=2
+allow_underground=0
 
-station_maintenance=3000
-station_price=500000
-station_capacity=31
+maintenance=3000
+cost=500000
+capacity=31
 
 BackImage[0][0][0][0][0][0]=concrete-platform-building.0.1
 BackImage[1][0][0][0][0][0]=concrete-platform-building.0.2
@@ -128,6 +137,9 @@ copyright=Kieron
 type=stop
 waytype=track
 enables_pax=1
+population_and_visitor_demand_capacity=0
+employment_capacity=1
+mail_demand=0
 noconstruction=1
 intro_year=1957
 intro_month=12
@@ -136,12 +148,13 @@ intro_month=12
 # must be 1*2
 # 1_1 is the land sqare
 Dims=1,1,16
-NoInfo=1
+#NoInfo=1
 Level=4
+allow_underground=0
 
-station_maintenance=4800
-station_price=800000
-station_capacity=50
+maintenance=4800
+cost=800000
+capacity=50
 
 BackImage[0][0][0][0][0][0]=concrete-platform-overall.0.1
 BackImage[1][0][0][0][0][0]=concrete-platform-overall.0.2

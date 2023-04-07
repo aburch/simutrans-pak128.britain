@@ -1,3 +1,5 @@
+# https://en.wikipedia.org/wiki/Thames_sailing_barge
+# Consider these are one of the larger, seaworthy barges
 obj=vehicle
 name=ThamesSailingBargeBulk
 copyright=James
@@ -5,26 +7,28 @@ waytype=water
 engine_type=sail
 speed=15
 power=175
-#gear=1200
 freight=Kohle
 payload=75
 weight=30
 length=6
 cost=215000
-runningcost=89
+runningcost=0
+fixed_cost=16149
 intro_year=1810
 intro_month=1
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 45-60 minutes
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -95,26 +99,28 @@ waytype=water
 engine_type=sail
 speed=15
 power=175
-#gear=1200
 freight=Bretter
 payload=75
 weight=30
 length=6
 cost=215000
-runningcost=89
+runningcost=0
+fixed_cost=16149
 intro_year=1810
 intro_month=1
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 45-60 minutes
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -156,26 +162,28 @@ waytype=water
 engine_type=sail
 speed=15
 power=175
-#gear=1200
 freight=vegetables
 payload=75
 weight=30
 length=6
 cost=215000
-runningcost=89
+runningcost=0
+fixed_cost=16149
 intro_year=1810
 intro_month=1
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 45-60 minutes
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -204,26 +212,28 @@ waytype=water
 engine_type=sail
 speed=15
 power=175
-#gear=1200
 freight=meat
 payload=75
 weight=30
 length=6
 cost=215000
-runningcost=89
+runningcost=0
+fixed_cost=16149
 intro_year=1810
 intro_month=1
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 45-60 minutes
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -252,26 +262,28 @@ waytype=water
 engine_type=sail
 speed=15
 power=175
-#gear=1200
 freight=livestock
 payload=75
 weight=30
 length=6
 cost=215000
-runningcost=89
+runningcost=0
+fixed_cost=16149
 intro_year=1810
 intro_month=1
 retire_year=1950
 retire_month=6
+is_tall=1
 
 # 45-60 minutes
 min_loading_time=2700
 max_loading_time=3600
 
+range=50
+
 Constraint[Next][0]=none
 Constraint[Prev][0]=none
 
-way_constraint_permissive[4]=4  # Waterway
 way_constraint_prohibitive[5]=5 # Ship
 way_constraint_prohibitive[6]=6 # Large ship
 
@@ -292,4 +304,3 @@ FreightImage[W]=./images/thames-sailing-barge-livestock.1.4
 FreightImage[NW]=./images/thames-sailing-barge-livestock.1.5
 FreightImage[N]=./images/thames-sailing-barge-livestock.1.6
 FreightImage[NE]=./images/thames-sailing-barge-livestock.1.7
-

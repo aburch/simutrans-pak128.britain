@@ -1,39 +1,48 @@
-# Leyland Olympian Coach Version
-#
+# http://web.archive.org/web/20140201062049/http://www.countrybus.org/Olympian/LRC.htm
+# This is the 11m version
 obj=vehicle
 name=LeylandOlympianCoach
 copyright=JamesPetts&JamesHood
 waytype=road
 engine_type=diesel
+smoke=Diesel-light
 freight=Passagiere
-payload=70
+payload=72
 overcrowded_capacity=0
 speed=96
-power=150
+# TL11 engine (turbocharged)
+# http://middx.net/aec/board/viewtopic.php?f=1&t=403
+power=194
+tractive_effort=22
 gear=50
-weight=13
+weight=11.1
 axles=2
 length=7
-cost=501000 
-runningcost=460
+cost=3250000 
+runningcost=58
+fixed_cost=9693
 intro_year=1984
-intro_month=3
-retire_year=1996
+intro_month=4
+retire_year=1993
 retire_month=10
+is_tall=1
+sound=leyland-olympian-ff3170.wav
 
 comfort=80
-min_loading_time=45
-max_loading_time=180
+# Coach (short distance): 5.0 seconds per passenger
+min_loading_time=20
+max_loading_time=360
 
 Constraint[Prev][0]=none
 Constraint[Next][0]=none
 
-EmptyImage[E]=./images/leyland-olympian-coach.0.0
-EmptyImage[SE]=./images/leyland-olympian-coach.0.1
-EmptyImage[S]=./images/leyland-olympian-coach.0.2
-EmptyImage[SW]=./images/leyland-olympian-coach.0.3
-EmptyImage[W]=./images/leyland-olympian-coach.0.4
-EmptyImage[NW]=./images/leyland-olympian-coach.0.5
-EmptyImage[N]=./images/leyland-olympian-coach.0.6
-EmptyImage[NE]=./images/leyland-olympian-coach.0.7
+# TODO: Add multiple liveries
+EmptyImage[E]=./images/leyland-olympian-coach-greenline_E.0.0,-33,14
+EmptyImage[SE]=./images/leyland-olympian-coach-greenline_SE.0.0,-13,0
+EmptyImage[S]=./images/leyland-olympian-coach-greenline_S.0.0,4,0
+EmptyImage[SW]=./images/leyland-olympian-coach-greenline_SW.0.0,-8,10
+EmptyImage[W]=./images/leyland-olympian-coach-greenline_W.0.0,4,5
+EmptyImage[NW]=./images/leyland-olympian-coach-greenline_NW.0.0,12,10
+EmptyImage[N]=./images/leyland-olympian-coach-greenline_N.0.0,0,33
+EmptyImage[NE]=./images/leyland-olympian-coach-greenline_NE.0.0,0,24
 

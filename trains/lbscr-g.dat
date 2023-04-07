@@ -1,0 +1,56 @@
+obj=vehicle
+name=LBSCR-G
+engine_type=steam
+smoke=Steam
+speed=125
+# Extrapolated
+power=206
+# Tractive calculated using data from
+# http://en.wikipedia.org/wiki/LB%26SCR_G_class
+tractive_effort=48
+copyright=Kieron/JamesPetts
+intro_year=1874
+intro_month=1
+retire_year=1882
+retire_month=6
+waytype=track
+freight=None
+payload=0
+length=4
+
+can_lead_from_rear=0
+bidirectional=0
+increase_maintenance_after_years=40
+years_before_maintenance_max_reached=35
+
+# Weight and axle load taken from: 
+# http://en.wikipedia.org/wiki/LB%26SCR_G_class
+weight=36.2
+axle_load=14
+cost=9975000
+runningcost=242
+fixed_cost=32313
+sound=lwalker-br-4mt-tank.wav
+
+Constraint[Next][0]=LBSCR-Belgravia-tender
+
+liverytype[0]=LBSCR-Stroudley
+liverytype[1]=LBSCR-Marsh
+
+EmptyImage[E][0]=./locomotives/lbscr-g-ochre_E.0.0
+EmptyImage[SE][0]=./locomotives/lbscr-g-ochre_SE.0.0
+EmptyImage[S][0]=./locomotives/lbscr-g-ochre_S.0.0
+EmptyImage[SW][0]=./locomotives/lbscr-g-ochre_SW.0.0
+EmptyImage[W][0]=./locomotives/lbscr-g-ochre_W.0.0
+EmptyImage[NW][0]=./locomotives/lbscr-g-ochre_NW.0.0
+EmptyImage[N][0]=./locomotives/lbscr-g-ochre_N.0.0
+EmptyImage[NE][0]=./locomotives/lbscr-g-ochre_NE.0.0
+
+EmptyImage[E][1]=./locomotives/lbscr-g-umber_E.0.0
+EmptyImage[SE][1]=./locomotives/lbscr-g-umber_SE.0.0
+EmptyImage[S][1]=./locomotives/lbscr-g-umber_S.0.0
+EmptyImage[SW][1]=./locomotives/lbscr-g-umber_SW.0.0
+EmptyImage[W][1]=./locomotives/lbscr-g-umber_W.0.0
+EmptyImage[NW][1]=./locomotives/lbscr-g-umber_NW.0.0
+EmptyImage[N][1]=./locomotives/lbscr-g-umber_N.0.0
+EmptyImage[NE][1]=./locomotives/lbscr-g-umber_NE.0.0

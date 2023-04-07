@@ -2,9 +2,10 @@ obj=vehicle
 name=LNWR-Precursor
 engine_type=steam
 smoke=Steam
-speed=140
-# Extrapolated
-power=302
+speed=146
+# CALIBRATED: See 77.4mph with 170 tons recorded by Charles Rous-Marten in the July 1905 Railway Magazine
+# reprinted by Charles Fryer, "British Locomotive Practice and Performance", p. 96. 
+power=290
 # Tractive effort from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
 tractive_effort=81
 copyright=James/jamespetts
@@ -18,33 +19,35 @@ payload=0
 length=6
 
 # Weight from Wikipedia: http://en.wikipedia.org/wiki/LNWR_Whale_Precursor_Class
-weight=60
+weight=60.1
 axle_load=17
 cost=7500000
-runningcost=885
-sound=-1
+runningcost=125
+fixed_cost=30250
+sound=lwalker-br-4mt-tank.wav
 years_before_maintenance_max_reached=21
-
-liverytype[0]=LNWR-Black
-liverytype[1]=LMS-Standard
 
 Constraint[Next][0]=LNWR-PrinceOfWales-Tender
 
 # Graphics also used by "Renown" class
-EmptyImage[E][0]=./images/lnwr-precursor_E.0
-EmptyImage[SE][0]=./images/lnwr-precursor_SE.0
-EmptyImage[S][0]=./images/lnwr-precursor_S.0
-EmptyImage[SW][0]=./images/lnwr-precursor_SW.0
-EmptyImage[W][0]=./images/lnwr-precursor_W.0
-EmptyImage[NW][0]=./images/lnwr-precursor_NW.0
-EmptyImage[N][0]=./images/lnwr-precursor_N.0
-EmptyImage[NE][0]=./images/lnwr-precursor_NE.0
 
-EmptyImage[E][1]=./images/lnwr-precursor-lms_E.0
-EmptyImage[SE][1]=./images/lnwr-precursor-lms_SE.0
-EmptyImage[S][1]=./images/lnwr-precursor-lms_S.0
-EmptyImage[SW][1]=./images/lnwr-precursor-lms_SW.0
-EmptyImage[W][1]=./images/lnwr-precursor-lms_W.0
-EmptyImage[NW][1]=./images/lnwr-precursor-lms_NW.0
-EmptyImage[N][1]=./images/lnwr-precursor-lms_N.0
-EmptyImage[NE][1]=./images/lnwr-precursor-lms_NE.0
+liverytype[0]=LNWR-Black
+liverytype[1]=LMS-Standard
+
+EmptyImage[E][0]=./locomotives/lnwr-precursor_E.0.0
+EmptyImage[SE][0]=./locomotives/lnwr-precursor_SE.0.0
+EmptyImage[S][0]=./locomotives/lnwr-precursor_S.0.0
+EmptyImage[SW][0]=./locomotives/lnwr-precursor_SW.0.0
+EmptyImage[W][0]=./locomotives/lnwr-precursor_W.0.0
+EmptyImage[NW][0]=./locomotives/lnwr-precursor_NW.0.0
+EmptyImage[N][0]=./locomotives/lnwr-precursor_N.0.0
+EmptyImage[NE][0]=./locomotives/lnwr-precursor_NE.0.0
+
+EmptyImage[E][1]=./locomotives/lnwr-precursor-lms_E.0.0
+EmptyImage[SE][1]=./locomotives/lnwr-precursor-lms_SE.0.0
+EmptyImage[S][1]=./locomotives/lnwr-precursor-lms_S.0.0
+EmptyImage[SW][1]=./locomotives/lnwr-precursor-lms_SW.0.0
+EmptyImage[W][1]=./locomotives/lnwr-precursor-lms_W.0.0
+EmptyImage[NW][1]=./locomotives/lnwr-precursor-lms_NW.0.0
+EmptyImage[N][1]=./locomotives/lnwr-precursor-lms_N.0.0
+EmptyImage[NE][1]=./locomotives/lnwr-precursor-lms_NE.0.0

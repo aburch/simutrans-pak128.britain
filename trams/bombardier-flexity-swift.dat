@@ -1,0 +1,153 @@
+obj=vehicle
+name=Flexity-SwiftFront
+engine_type=electric
+speed=80
+gear=80
+power=240
+# tractive effort calculated from acceleration, brake_force just guessed to be the same
+# https://en.wikipedia.org/wiki/Bombardier_CR4000
+# First delivery 13 September 1998 (Croydon)
+# Passenger service since 10 May 2000
+# https://en.wikipedia.org/wiki/Bombardier_M5000
+# First delivery 13 July 2009 (Manchester)
+# Passenger service since 21 December 2009
+tractive_effort=30
+copyright=Kieron
+intro_year=1998
+intro_month=9
+# These are still in production as of 2014:
+# http://en.wikipedia.org/wiki/Flexity_Swift
+waytype=tram_track
+freight=Passagiere
+payload=35
+#length=9	# length reduced to fit on one tile
+# http://en.wikipedia.org/wiki/CR4000
+overcrowded_capacity=69
+# CR4000 total weight 36.3 t, M5000 total weight 39.7 t
+weight=18.2
+brake_force=24
+axles=3
+cost=587500
+runningcost=24
+fixed_cost=6490
+sound=zabuhailo-modern-tram.wav
+
+can_lead_from_rear=1
+bidirectional=0
+way_constraint_permissive[1]=1
+way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
+comfort=44
+min_loading_time=10
+max_loading_time=45
+
+Constraint[Prev][0]=none
+Constraint[Next][0]=Flexity-SwiftRear
+
+liverytype[0]=Tramlink-red
+liverytype[1]=Tramlink-green
+liverytype[2]=Metrolink-yellow
+
+EmptyImage[E][0]=./images/flexity-swift-croydon-red-front.1.4
+EmptyImage[SE][0]=./images/flexity-swift-croydon-red-front.1.5
+EmptyImage[S][0]=./images/flexity-swift-croydon-red-front.1.6
+EmptyImage[SW][0]=./images/flexity-swift-croydon-red-front.1.7
+EmptyImage[W][0]=./images/flexity-swift-croydon-red-front.1.0
+EmptyImage[NW][0]=./images/flexity-swift-croydon-red-front.1.1
+EmptyImage[N][0]=./images/flexity-swift-croydon-red-front.1.2
+EmptyImage[NE][0]=./images/flexity-swift-croydon-red-front.1.3
+
+EmptyImage[E][1]=./images/flexity-swift-croydon-green-front.1.4
+EmptyImage[SE][1]=./images/flexity-swift-croydon-green-front.1.5
+EmptyImage[S][1]=./images/flexity-swift-croydon-green-front.1.6
+EmptyImage[SW][1]=./images/flexity-swift-croydon-green-front.1.7
+EmptyImage[W][1]=./images/flexity-swift-croydon-green-front.1.0
+EmptyImage[NW][1]=./images/flexity-swift-croydon-green-front.1.1
+EmptyImage[N][1]=./images/flexity-swift-croydon-green-front.1.2
+EmptyImage[NE][1]=./images/flexity-swift-croydon-green-front.1.3
+
+EmptyImage[E][2]=./images/flexity-swift-metrolink-front.1.4
+EmptyImage[SE][2]=./images/flexity-swift-metrolink-front.1.5
+EmptyImage[S][2]=./images/flexity-swift-metrolink-front.1.6
+EmptyImage[SW][2]=./images/flexity-swift-metrolink-front.1.7
+EmptyImage[W][2]=./images/flexity-swift-metrolink-front.1.0
+EmptyImage[NW][2]=./images/flexity-swift-metrolink-front.1.1
+EmptyImage[N][2]=./images/flexity-swift-metrolink-front.1.2
+EmptyImage[NE][2]=./images/flexity-swift-metrolink-front.1.3
+
+---
+
+obj=vehicle
+name=Flexity-SwiftRear
+engine_type=electric
+speed=80
+gear=80
+power=240
+tractive_effort=30
+copyright=Kieron
+intro_year=1998
+intro_month=9
+# These are still in production as of 2014:
+# http://en.wikipedia.org/wiki/Flexity_Swift
+waytype=tram_track
+freight=Passagiere
+payload=35
+#length=9	# length reduced to fit on one tile
+# http://en.wikipedia.org/wiki/CR4000
+overcrowded_capacity=69
+weight=18.2
+brake_force=24
+axles=3
+cost=0
+runningcost=24
+fixed_cost=6000
+
+
+can_lead_from_rear=1
+bidirectional=0
+way_constraint_permissive[1]=1
+way_constraint_prohibitive[0]=0
+way_constraint_prohibitive[2]=2
+
+comfort=46
+min_loading_time=10
+max_loading_time=45
+
+Constraint[Prev][0]=Flexity-SwiftFront
+Constraint[Next][0]=none
+
+liverytype[0]=Tramlink-red
+liverytype[1]=Tramlink-green
+liverytype[2]=Metrolink-yellow
+
+# offsets to fix appearance of rear car
+EmptyImage[E][0]=./images/flexity-swift-croydon-red-rear.1.4,-4,-2
+EmptyImage[SE][0]=./images/flexity-swift-croydon-red-rear.1.5,0,-2
+EmptyImage[S][0]=./images/flexity-swift-croydon-red-rear.1.6,4,-2
+EmptyImage[SW][0]=./images/flexity-swift-croydon-red-rear.1.7,4,0
+EmptyImage[W][0]=./images/flexity-swift-croydon-red-rear.1.0,4,2
+EmptyImage[NW][0]=./images/flexity-swift-croydon-red-rear.1.1,0,2
+EmptyImage[N][0]=./images/flexity-swift-croydon-red-rear.1.2,-4,2
+EmptyImage[NE][0]=./images/flexity-swift-croydon-red-rear.1.3,-4,0
+
+EmptyImage[E][1]=./images/flexity-swift-croydon-green-rear.1.4,-4,-2
+EmptyImage[SE][1]=./images/flexity-swift-croydon-green-rear.1.5,0,-2
+EmptyImage[S][1]=./images/flexity-swift-croydon-green-rear.1.6,4,-2
+EmptyImage[SW][1]=./images/flexity-swift-croydon-green-rear.1.7,4,0
+EmptyImage[W][1]=./images/flexity-swift-croydon-green-rear.1.0,4,2
+EmptyImage[NW][1]=./images/flexity-swift-croydon-green-rear.1.1,0,2
+EmptyImage[N][1]=./images/flexity-swift-croydon-green-rear.1.2,-4,2
+EmptyImage[NE][1]=./images/flexity-swift-croydon-green-rear.1.3,-4,0
+
+EmptyImage[E][2]=./images/flexity-swift-metrolink-rear.1.4,-4,-2
+EmptyImage[SE][2]=./images/flexity-swift-metrolink-rear.1.5,0,-2
+EmptyImage[S][2]=./images/flexity-swift-metrolink-rear.1.6,4,-2
+EmptyImage[SW][2]=./images/flexity-swift-metrolink-rear.1.7,4,0
+EmptyImage[W][2]=./images/flexity-swift-metrolink-rear.1.0,4,2
+EmptyImage[NW][2]=./images/flexity-swift-metrolink-rear.1.1,0,2
+EmptyImage[N][2]=./images/flexity-swift-metrolink-rear.1.2,-4,2
+EmptyImage[NE][2]=./images/flexity-swift-metrolink-rear.1.3,-4,0
+
+
+

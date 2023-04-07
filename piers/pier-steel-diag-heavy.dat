@@ -1,0 +1,95 @@
+obj=pier
+name=steeldiag1heavy
+cost=21000
+maintenance=37
+topspeed=150
+max_weight=25
+
+intro_year=1864
+intro_month=9
+retire_year=1967
+retire_month=3
+
+above_way_ribi=0x0
+below_way_ribi=0x6
+
+base_mask=0x00000000
+base_mask_2=0x00000100
+middle_mask=0x01390139
+support_mask=0x0
+
+keep_dry=1
+sub_obj_mask=0
+low_waydeck=1
+
+drag_ribi=0x6
+
+auto_group=0x04
+
+cursor=pier-steel-diag-heavy.0.5
+icon=> pier-steel-diag-heavy.0.4
+
+backimage[00][0][0] = pier-steel-diag-heavy.0.0
+backimage[00][1][0] = pier-steel-diag-heavy.0.1
+backimage[00][2][0] = pier-steel-diag-heavy.0.2
+backimage[00][3][0] = pier-steel-diag-heavy.0.3
+backimage[43][0][0] = pier-steel-diag-heavy.1.0
+backimage[43][1][0] = pier-steel-diag-heavy.1.1
+backimage[43][2][0] = pier-steel-diag-heavy.1.2
+backimage[43][3][0] = pier-steel-diag-heavy.1.3
+
+frontimage[00][0][0] = pier-steel-diag-heavy.1.4
+frontimage[00][1][0] = pier-steel-diag-heavy.1.5
+frontimage[00][2][0] = pier-steel-diag-heavy.1.6
+frontimage[00][3][0] = pier-steel-diag-heavy.1.7
+frontimage[43][0][0] = pier-steel-diag-heavy.1.4
+frontimage[43][1][0] = pier-steel-diag-heavy.1.5
+frontimage[43][2][0] = pier-steel-diag-heavy.1.6
+frontimage[43][3][0] = pier-steel-diag-heavy.1.7
+
+---------------
+obj=pier
+name=steeldiag2heavy
+cost=21000
+maintenance=37
+topspeed=150
+max_weight=25
+intro_year=1860
+intro_month=1
+
+above_way_ribi=0x0
+below_way_ribi=0x6
+
+base_mask=0x00000000
+base_mask_2=0x00000001
+middle_mask=0x01390139
+support_mask=0x0
+
+keep_dry=1
+sub_obj_mask=0
+low_waydeck=1
+
+drag_ribi=0x6
+
+auto_group=0x04
+
+cursor=pier-steel-diag-heavy.0.5
+icon=> pier-steel-diag-heavy.0.4
+
+backimage[00][0][0] = pier-steel-diag-heavy.0.0
+backimage[00][1][0] = pier-steel-diag-heavy.0.1
+backimage[00][2][0] = pier-steel-diag-heavy.0.2
+backimage[00][3][0] = pier-steel-diag-heavy.0.3
+backimage[43][0][0] = pier-steel-diag-heavy.1.0
+backimage[43][1][0] = pier-steel-diag-heavy.1.1
+backimage[43][2][0] = pier-steel-diag-heavy.1.2
+backimage[43][3][0] = pier-steel-diag-heavy.1.3
+
+frontimage[00][0][0] = pier-steel-diag-heavy.1.4
+frontimage[00][1][0] = pier-steel-diag-heavy.1.5
+frontimage[00][2][0] = pier-steel-diag-heavy.1.6
+frontimage[00][3][0] = pier-steel-diag-heavy.1.7
+frontimage[43][0][0] = pier-steel-diag-heavy.1.4
+frontimage[43][1][0] = pier-steel-diag-heavy.1.5
+frontimage[43][2][0] = pier-steel-diag-heavy.1.6
+frontimage[43][3][0] = pier-steel-diag-heavy.1.7

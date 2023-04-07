@@ -69,7 +69,6 @@ build %OUTPUT% ./pak1file/128/
 
 echo Building gui
 !size=64
-#build %OUTPUT%BritGUI64-Ex.pak ./gui/gui64/
 build %OUTPUT%BritGUI64-Ex.pak ./gui/gui64/
 !size=128
 #build %OUTPUT% ./gui/gui128/
@@ -92,6 +91,9 @@ build %OUTPUT%BritNarrowGauge-Ex.pak ./narrowgauge/
 
 echo Building pedestrians
 build %OUTPUT%BritPedestrian-Ex.pak ./pedestrians/
+
+echo Building signalgoxes
+build %OUTPUT%BritSignalboxes-Ex.pak ./signalboxes/
 
 echo Building smokes
 build %OUTPUT%BritSmoke-Ex.pak ./smokes/

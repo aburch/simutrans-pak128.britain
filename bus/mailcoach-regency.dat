@@ -1,0 +1,68 @@
+# Improved type with brakes
+# http://www.scotcities.com/railways/beforetrains.htm
+# http://collections.glasgowmuseums.com/viewimage.html?oid=27066&i=392943
+# http://zephyrinus-zephyrinus.blogspot.co.uk/2016/04/the-portsmouth-regulator-tally-ho.html
+# http://www.themotormuseuminminiature.co.uk/1827-standard-pattern-mail-coach.php
+obj=vehicle
+name=mailcoach-regency
+copyright=James
+waytype=road
+# The post is now in a separate boot
+freight=Passagiere
+# Mail coaches allowed for inside passengers only.
+payload[0]=0
+payload[1]=0
+payload[2]=0
+payload[3]=4
+speed=18
+weight=1.2
+axle_load=1
+way_wear_factor=4
+length=2
+cost=101000
+runningcost=0
+fixed_cost=4842
+intro_year=1795
+intro_month=12
+# Ensure that this is available until the parcel coach comes around.
+#retire_year=1842
+#retire_month=6
+retire_year=1883
+retire_month=11
+rolling_resistance=115
+brake_force=1
+
+# Leaf springs
+comfort[0]=0
+comfort[1]=0
+comfort[2]=0
+comfort[3]=52
+min_loading_time=300
+max_loading_time=600
+
+Constraint[Prev][0]=road-horse-cleveland-bay-double
+Constraint[Prev][1]=road-horse-friesian-double
+Constraint[Prev][2]=road-horse-yorkshire-coach-double
+Constraint[Prev][3]=road-horse-shire-double
+Constraint[Prev][4]=road-horse-irish-draught-double
+Constraint[Prev][5]=road-horse-clydesdale-double
+
+Constraint[Next][0]=mail-boot
+
+EmptyImage[E]=./images/mailcoach-regency_E.0.0,-33,14
+EmptyImage[SE]=./images/mailcoach-regency_SE.0.0,-13,0
+EmptyImage[S]=./images/mailcoach-regency_S.0.0,0,0
+EmptyImage[SW]=./images/mailcoach-regency_SW.0.0,-8,10
+EmptyImage[W]=./images/mailcoach-regency_W.0.0,4,5
+EmptyImage[NW]=./images/mailcoach-regency_NW.0.0,12,10
+EmptyImage[N]=./images/mailcoach-regency_N.0.0,0,33
+EmptyImage[NE]=./images/mailcoach-regency_NE.0.0,0,24
+
+FreightImage[E]=./images/mailcoach-regency-loaded_E.0.0,-33,14
+FreightImage[SE]=./images/mailcoach-regency-loaded_SE.0.0,-13,0
+FreightImage[S]=./images/mailcoach-regency-loaded_S.0.0,0,0
+FreightImage[SW]=./images/mailcoach-regency-loaded_SW.0.0,-8,10
+FreightImage[W]=./images/mailcoach-regency-loaded_W.0.0,4,5
+FreightImage[NW]=./images/mailcoach-regency-loaded_NW.0.0,12,10
+FreightImage[N]=./images/mailcoach-regency-loaded_N.0.0,0,33
+FreightImage[NE]=./images/mailcoach-regency-loaded_NE.0.0,0,24
