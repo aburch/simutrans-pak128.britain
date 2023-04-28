@@ -4,9 +4,7 @@
 # finds all the .dat files,
 # and checks their last lines.
 #
-# If the last line is all whitespace, it's deleted (repeatedly)
-#
-# Then if the last line doesn't start with "--", "--" is added.
+# If the last line doesn't start with "--", "--" is added.
 #
 # This is designed to make the .dat files Simutranslator-compliant.
 
@@ -16,7 +14,7 @@ for x in $FILES; do
     TAIL=`tail -1 "$x"`
     # Bash regular expression
     if [[ "$TAIL" =~ --.* ]]; then
-        # echo "$x: OK"
+        echo "$x: OK"
     else
         # Append to file
         echo "--" >> $x
