@@ -17,14 +17,25 @@ for x in $FILES; do
 done
 echo "Trailing whitespaces removed"
 
+# Second pass: guarantee that all files have a trailing newline.
+# This bash program will do this.
+# See https://stackoverflow.com/questions/10082204/add-a-newline-only-if-it-doesnt-exist
+for x in $FILES; do
+    if [[ $(tail -c1 $x ) && -f $x ]]; then
+        echo ''>>$x
+        echo "$x: added missing newline"
+    fi
+done
+
 # Note, crucial to not use the quotes around $FILES, so that the file list gets split
 for x in $FILES; do
     TAIL=`tail -1 "$x"`
     # Bash regular expression
     if [[ "$TAIL" =~ --.* ]]; then
-        echo "$x: OK"
+        :
+        # Null command, do nothing.
     else
-        # Append to file
+        # Append terminator to file
         echo "--" >> $x
         echo "$x: terminator added"
     fi
