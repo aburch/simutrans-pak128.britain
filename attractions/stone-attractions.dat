@@ -1004,7 +1004,7 @@ Backimage[1][2][0][0][0][1]=images/cur/stone-attractions-snow.2.2
 # The gate tower, orientation 1.  Tricky to align correctly.  Patching can catch the wrong orientation.
 Backimage[1][0][1][0][0][0]=images/cur/stone-attractions.4.0,44,-22
 Backimage[1][0][1][0][0][1]=images/cur/stone-attractions-snow.4.0,44,-22
-# End gate tower.
+# End gate tower orientation 1.
 Backimage[1][1][1][0][0][0]=images/cur/stone-attractions.4.7
 Backimage[1][1][1][0][0][1]=images/cur/stone-attractions-snow.4.7
 Backimage[1][2][1][0][0][0]=images/cur/stone-attractions.1.1
@@ -1033,7 +1033,7 @@ Backimage[2][2][0][0][0][1]=images/cur/stone-attractions-snow.2.1
 # The gate tower, orientation 2.  Tricky to align correctly.  Patching can catch the wrong orientation.
 Backimage[2][1][0][0][0][0]=images/cur/stone-attractions.4.1,-44,-22
 Backimage[2][1][0][0][0][1]=images/cur/stone-attractions-snow.4.1,-44,-22
-# End gate tower.
+# End gate tower orientation 2.
 Backimage[2][0][0][0][0][0]=images/cur/stone-attractions.2.1
 Backimage[2][0][0][0][0][1]=images/cur/stone-attractions-snow.2.1
 
@@ -1046,7 +1046,7 @@ Backimage[3][0][0][0][0][1]=images/cur/stone-attractions-snow.2.2
 # The gate tower, orientation 3.  Tricky to align correctly.  Patching can catch the wrong orientation.
 Backimage[3][2][1][0][0][0]=images/cur/stone-attractions.4.0
 Backimage[3][2][1][0][0][1]=images/cur/stone-attractions-snow.4.0
-# End gate tower.
+# End gate tower orientation 3.
 Backimage[3][1][1][0][0][0]=images/cur/stone-attractions.4.7
 Backimage[3][1][1][0][0][1]=images/cur/stone-attractions-snow.4.7
 Backimage[3][0][1][0][0][0]=images/cur/stone-attractions.1.1
