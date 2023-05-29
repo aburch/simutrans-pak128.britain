@@ -6109,11 +6109,11 @@ GWR Express parcel brake coach [DEPRECATED]
 GWR-Express-TPO
 GWR Travelling Post Office [DEPRECATED]
 LNER-Gresley-Express-Dining
-LNER dining car
+LNER dining car (first class)
 LNER-Gresley-Express-Brake-front
-LNER vestibule corridor brake carriage
+LNER vestibule corridor brake carriage (third class)
 LNER-Gresley-Express-Brake-rear
-LNER vestibule corridor brake carriage (rear)
+LNER vestibule corridor brake carriage (rear) (third class)
 LNER-Gresley-Express-Buffet
 LNER buffet car
 LNER-Gresley-Express-Brake-all-doors-front
@@ -6123,7 +6123,9 @@ LNER corridor brake carriage (rear)
 LNER-Gresley-Express-Coach-All-Doors
 LNER corridor carriage
 LNER-Gresley-Express-Coach
-LNER vestibule corridor carriage
+LNER vestibule corridor carriage (third class)
+LNER-Gresley-Express-first
+LNER vestibule corridor carriage (first class)
 LNER-Gresley-Express-Mail
 LNER mail carriage
 LNER-Gresley-Express-Parcel-Brake
@@ -10862,3 +10864,4 @@ TTEuropeanFreightAddLivestock
 TT European Class freight ferry livestock hold
 TTEuropeanFreightAddCar
 TT European Class freight ferry car hold
+
