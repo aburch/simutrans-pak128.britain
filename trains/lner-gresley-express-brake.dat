@@ -65,7 +65,8 @@ Constraint[Next][22]=gnr-gresley-cor-tpo
 Constraint[Next][23]=pullman-1928-kitchen-first
 Constraint[Next][24]=pullman-1951-kitchen-first
 Constraint[Next][25]=LNER-Gresley-Express-first
-Constraint[Next][26]=none
+Constraint[Next][26]=LNER-Gresley-Express-Coach-All-Doors-first
+Constraint[Next][27]=none
 
 EmptyImage[E][0]=./carriages/lner-gresley-express-brake-front_E.0.0
 EmptyImage[SE][0]=./carriages/lner-gresley-express-brake-front_SE.0.0
@@ -155,6 +156,7 @@ Constraint[Prev][22]=gnr-gresley-cor-tpo
 Constraint[Prev][23]=pullman-1928-kitchen-first
 Constraint[Prev][24]=pullman-1951-kitchen-first
 Constraint[Prev][25]=LNER-Gresley-Express-first
+Constraint[Prev][26]=LNER-Gresley-Express-Coach-All-Doors-first
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early
