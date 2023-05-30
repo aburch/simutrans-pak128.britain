@@ -3355,11 +3355,13 @@ GNR corridor mail carriage
 gnr-gresley-cor-tpo
 GNR corridor travelling post office
 gnr-non-cor-lav-elliptical
-GNR seven compartment lavatory carriage
+GNR seven compartment lavatory carriage (third class)
 gnr-non-cor-lav-elliptical-brake-front
-GNR six compartment lavatory brake carriage
+GNR six compartment lavatory brake carriage (third class)
 gnr-non-cor-lav-elliptical-brake-rear
-GNR six compartment lavatory brake carriage (rear)
+GNR six compartment lavatory brake carriage (third class) (rear)
+gnr-non-cor-lav-elliptical-composite
+GNR six compartment lavatory composite carriage (first/second class)
 gnr-non-cor-full-brake
 GNR non-corridor full brake carriage
 gnr-non-cor-mail
