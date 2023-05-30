@@ -75,6 +75,10 @@ Constraint[Next][35]=pullman-1951-kitchen-first
 Constraint[Next][36]=pullman-k-type-kitchen-first
 Constraint[Next][37]=LNER-Gresley-Express-first
 Constraint[Next][38]=LNER-Gresley-Express-Coach-All-Doors-first
+Constraint[Next][39]=gnr-gresley-cor-first
+Constraint[Next][40]=gnr-clerestory-cor-63ft-5-composite
+Constraint[Next][41]=gnr-clerestory-cor-63ft-5-first
+Constraint[Next][42]=gnr-clerestory-cor-composite-53ft-6
 
 Constraint[Prev][0]=LNER-Gresley-Express-Coach
 Constraint[Prev][1]=LNER-Gresley-Express-Brake-front
@@ -115,6 +119,10 @@ Constraint[Prev][35]=pullman-1951-kitchen-first
 Constraint[Prev][36]=pullman-k-type-kitchen-first
 Constraint[Prev][37]=LNER-Gresley-Express-first
 Constraint[Prev][38]=LNER-Gresley-Express-Coach-All-Doors-first
+Constraint[Prev][39]=gnr-gresley-cor-first
+Constraint[Prev][40]=gnr-clerestory-cor-63ft-5-composite
+Constraint[Prev][41]=gnr-clerestory-cor-63ft-5-first
+Constraint[Prev][42]=gnr-clerestory-cor-composite-53ft-6
 
 liverytype[0]=LNER-Standard
 liverytype[1]=BR-Early
