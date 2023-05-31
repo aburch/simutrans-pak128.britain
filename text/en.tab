@@ -3295,15 +3295,23 @@ BR Class 370 APT (rear restaurant car)
 BR-370RestaurantFront
 BR Class 370 APT (front restaurant car)
 GNR-6Wheel-First
-GNR six wheel five compartment carriage
+GNR six wheel four compartment carriage (first class)
+GNR-6Wheel-Second
+GNR six wheel five compartment carriage (second class)
+GNR-6Wheel-Third
+GNR six wheel five compartment carriage (third class)
 GNR-6Wheel-cor-lav
-GNR six wheel five compartment lavatory corridor (non-gangwayed)
+GNR six wheel four compartment lavatory corridor (non-gangwayed) (first class) 
+GNR-6Wheel-cor-lav-second
+GNR six wheel five compartment lavatory corridor (non-gangwayed) (second class)
+GNR-6Wheel-cor-lav-third
+GNR six wheel five compartment lavatory corridor (non-gangwayed) (third class)
 GNR-6Wheel-Guard
 GNR six wheel brake/mail carriage
 GNR-6Wheel-brake-third-front
-GNR six wheel four compartment brake carriage
+GNR six wheel four compartment brake carriage (third class)
 GNR-6Wheel-brake-third-rear
-GNR six wheel four compartment brake carriage
+GNR six wheel four compartment brake carriage (third class) (rear)
 gnr-howlden-bogie-third
 GNR five compartment bogie lavatory carriage (third class)
 gnr-howlden-bogie-third-brake-front

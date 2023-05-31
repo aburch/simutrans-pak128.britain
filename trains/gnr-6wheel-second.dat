@@ -1,6 +1,6 @@
-# "Non-lavatory
+# Non-lavatory
 obj=vehicle
-name=GNR-6Wheel-First
+name=GNR-6Wheel-Second
 speed=150
 copyright=Kieron/jamespetts
 intro_year=1876
@@ -11,16 +11,16 @@ waytype=track
 freight=Passagiere
 payload[0]=0
 payload[1]=0
-payload[2]=0
-payload[3]=24
-overcrowded_capacity=0
+payload[2]=50
+payload[3]=0
+overcrowded_capacity=25
 length=6
 
 weight=14
 axles=3
-cost=320000
+cost=314000
 runningcost=0
-fixed_cost=377
+fixed_cost=374
 
 can_lead_from_rear=0
 bidirectional=1
@@ -93,20 +93,21 @@ Constraint[Prev][27]=GNR-6Wheel-cor-lav-third
 liverytype[0]=GNR-Standard
 liverytype[1]=LNER-Standard
 
-EmptyImage[E][0]=./carriages/gnr-6wheel-first_E.0.0
-EmptyImage[SE][0]=./carriages/gnr-6wheel-first_SE.0.0
-EmptyImage[S][0]=./carriages/gnr-6wheel-first_S.0.0
-EmptyImage[SW][0]=./carriages/gnr-6wheel-first_SW.0.0
-EmptyImage[W][0]=./carriages/gnr-6wheel-first_W.0.0
-EmptyImage[NW][0]=./carriages/gnr-6wheel-first_NW.0.0
-EmptyImage[N][0]=./carriages/gnr-6wheel-first_N.0.0
-EmptyImage[NE][0]=./carriages/gnr-6wheel-first_NE.0.0
+EmptyImage[E][0]=./carriages/gnr-6wheel-third_E.0.0
+EmptyImage[SE][0]=./carriages/gnr-6wheel-third_SE.0.0
+EmptyImage[S][0]=./carriages/gnr-6wheel-third_S.0.0
+EmptyImage[SW][0]=./carriages/gnr-6wheel-third_SW.0.0
+EmptyImage[W][0]=./carriages/gnr-6wheel-third_W.0.0
+EmptyImage[NW][0]=./carriages/gnr-6wheel-third_NW.0.0
+EmptyImage[N][0]=./carriages/gnr-6wheel-third_N.0.0
+EmptyImage[NE][0]=./carriages/gnr-6wheel-third_NE.0.0
 
-EmptyImage[E][1]=./carriages/gnr-6wheel-first_E.0.0
-EmptyImage[SE][1]=./carriages/gnr-6wheel-first_SE.0.0
-EmptyImage[S][1]=./carriages/gnr-6wheel-first_S.0.0
-EmptyImage[SW][1]=./carriages/gnr-6wheel-first_SW.0.0
-EmptyImage[W][1]=./carriages/gnr-6wheel-first_W.0.0
-EmptyImage[NW][1]=./carriages/gnr-6wheel-first_NW.0.0
-EmptyImage[N][1]=./carriages/gnr-6wheel-first_N.0.0
-EmptyImage[NE][1]=./carriages/gnr-6wheel-first_NE.0.0
+EmptyImage[E][1]=./carriages/gnr-6wheel-third_E.0.0
+EmptyImage[SE][1]=./carriages/gnr-6wheel-third_SE.0.0
+EmptyImage[S][1]=./carriages/gnr-6wheel-third_S.0.0
+EmptyImage[SW][1]=./carriages/gnr-6wheel-third_SW.0.0
+EmptyImage[W][1]=./carriages/gnr-6wheel-third_W.0.0
+EmptyImage[NW][1]=./carriages/gnr-6wheel-third_NW.0.0
+EmptyImage[N][1]=./carriages/gnr-6wheel-third_N.0.0
+EmptyImage[NE][1]=./carriages/gnr-6wheel-third_NE.0.0
+--
