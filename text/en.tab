@@ -3310,6 +3310,10 @@ BR-370RestaurantRear
 BR Class 370 APT (rear restaurant car)
 BR-370RestaurantFront
 BR Class 370 APT (front restaurant car)
+GNR-6Wheel-Mail
+GNR six wheel mail carriage
+GNR-6Wheel-tpo
+GNR six wheel TPO
 GNR-6Wheel-First
 GNR six wheel four compartment carriage (first class)
 GNR-6Wheel-Second
@@ -3328,6 +3332,16 @@ GNR-6Wheel-brake-third-front
 GNR six wheel four compartment brake carriage (third class)
 GNR-6Wheel-brake-third-rear
 GNR six wheel four compartment brake carriage (third class) (rear)
+gnr-suburban-4wheel-third
+GNR 4 wheel six compartment suburban carriage (third class)
+gnr-suburban-4wheel-second
+GNR 4 wheel six compartment suburban carriage (second class)
+gnr-suburban-4wheel-first
+GNR 4 wheel five compartment suburban carriage (first class)
+gnr-suburban-4wheel-brake-third-front
+GNR 4 wheel five compartment suburban brake carriage (third class)
+gnr-suburban-4wheel-brake-third-rear
+GNR 4 wheel five compartment suburban brake carriage (third class) (rear)
 gnr-howlden-bogie-third
 GNR five compartment bogie lavatory carriage (third class)
 gnr-howlden-bogie-third-brake-front
@@ -6136,10 +6150,6 @@ MR-6Wheel-Mail
 Midland six wheel mail carriage
 LNWR-6Wheel-tpo
 LNWR six wheel TPO
-GNR-6Wheel-Mail
-GNR six wheel mail carriage
-GNR-6Wheel-tpo
-GNR six wheel TPO
 MR-6Wheel-tpo
 Midland six wheel TPO
 GWR-Express-Parcel-Brake

@@ -64,6 +64,10 @@ Constraint[Next][31]=LNER-standard-51ft-cl
 Constraint[Next][32]=LNER-standard-51ft-f
 Constraint[Next][33]=LNER-standard-51ft-f2
 Constraint[Next][34]=LNER-standard-51ft-com
+Constraint[Next][35]=gnr-suburban-4wheel-third
+Constraint[Next][36]=gnr-suburban-4wheel-second
+Constraint[Next][37]=gnr-suburban-4wheel-first
+Constraint[Next][38]=gnr-suburban-4wheel-brake-third-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -100,6 +104,10 @@ Constraint[Prev][31]=LNER-standard-51ft-cl
 Constraint[Prev][32]=LNER-standard-51ft-f
 Constraint[Prev][33]=LNER-standard-51ft-f2
 Constraint[Prev][34]=LNER-standard-51ft-com
+Constraint[Prev][35]=gnr-suburban-4wheel-third
+Constraint[Prev][36]=gnr-suburban-4wheel-second
+Constraint[Prev][37]=gnr-suburban-4wheel-first
+Constraint[Prev][38]=gnr-suburban-4wheel-brake-third-front
 
 can_lead_from_rear=0
 bidirectional=1
@@ -205,6 +213,10 @@ Constraint[Next][31]=LNER-standard-51ft-cl
 Constraint[Next][32]=LNER-standard-51ft-f
 Constraint[Next][33]=LNER-standard-51ft-f2
 Constraint[Next][34]=LNER-standard-51ft-com
+Constraint[Next][35]=gnr-suburban-4wheel-third
+Constraint[Next][36]=gnr-suburban-4wheel-second
+Constraint[Next][37]=gnr-suburban-4wheel-first
+Constraint[Next][38]=gnr-suburban-4wheel-brake-third-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -241,6 +253,10 @@ Constraint[Prev][31]=LNER-standard-51ft-cl
 Constraint[Prev][32]=LNER-standard-51ft-f
 Constraint[Prev][33]=LNER-standard-51ft-f2
 Constraint[Prev][34]=LNER-standard-51ft-com
+Constraint[Prev][35]=gnr-suburban-4wheel-third
+Constraint[Prev][36]=gnr-suburban-4wheel-second
+Constraint[Prev][37]=gnr-suburban-4wheel-first
+Constraint[Prev][38]=gnr-suburban-4wheel-brake-third-front
 
 can_lead_from_rear=0
 bidirectional=1
@@ -347,7 +363,11 @@ Constraint[Next][31]=LNER-standard-51ft-cl
 Constraint[Next][32]=LNER-standard-51ft-f
 Constraint[Next][33]=LNER-standard-51ft-f2
 Constraint[Next][34]=LNER-standard-51ft-com
-Constraint[Next][35]=none
+Constraint[Next][35]=gnr-suburban-4wheel-third
+Constraint[Next][36]=gnr-suburban-4wheel-second
+Constraint[Next][37]=gnr-suburban-4wheel-first
+Constraint[Next][38]=gnr-suburban-4wheel-brake-third-rear
+Constraint[Next][39]=none
     
 can_lead_from_rear=0
 bidirectional=1
@@ -454,6 +474,10 @@ Constraint[Prev][31]=LNER-standard-51ft-cl
 Constraint[Prev][32]=LNER-standard-51ft-f
 Constraint[Prev][33]=LNER-standard-51ft-f2
 Constraint[Prev][34]=LNER-standard-51ft-com
+Constraint[Prev][35]=gnr-suburban-4wheel-third
+Constraint[Prev][36]=gnr-suburban-4wheel-second
+Constraint[Prev][37]=gnr-suburban-4wheel-first
+Constraint[Prev][38]=gnr-suburban-4wheel-brake-third-front
 
 can_lead_from_rear=0
 bidirectional=1
@@ -560,6 +584,10 @@ Constraint[Next][31]=LNER-standard-51ft-cl
 Constraint[Next][32]=LNER-standard-51ft-f
 Constraint[Next][33]=LNER-standard-51ft-f2
 Constraint[Next][34]=LNER-standard-51ft-com
+Constraint[Next][35]=gnr-suburban-4wheel-third
+Constraint[Next][36]=gnr-suburban-4wheel-second
+Constraint[Next][37]=gnr-suburban-4wheel-first
+Constraint[Next][38]=gnr-suburban-4wheel-brake-third-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -596,6 +624,10 @@ Constraint[Prev][31]=LNER-standard-51ft-cl
 Constraint[Prev][32]=LNER-standard-51ft-f
 Constraint[Prev][33]=LNER-standard-51ft-f2
 Constraint[Prev][34]=LNER-standard-51ft-com
+Constraint[Prev][35]=gnr-suburban-4wheel-third
+Constraint[Prev][36]=gnr-suburban-4wheel-second
+Constraint[Prev][37]=gnr-suburban-4wheel-first
+Constraint[Prev][38]=gnr-suburban-4wheel-brake-third-front
 
 can_lead_from_rear=0
 bidirectional=1
@@ -702,6 +734,10 @@ Constraint[Next][31]=LNER-standard-51ft-cl
 Constraint[Next][32]=LNER-standard-51ft-f
 Constraint[Next][33]=LNER-standard-51ft-f2
 Constraint[Next][34]=LNER-standard-51ft-com
+Constraint[Next][35]=gnr-suburban-4wheel-third
+Constraint[Next][36]=gnr-suburban-4wheel-second
+Constraint[Next][37]=gnr-suburban-4wheel-first
+Constraint[Next][38]=gnr-suburban-4wheel-brake-third-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -738,6 +774,10 @@ Constraint[Prev][31]=LNER-standard-51ft-cl
 Constraint[Prev][32]=LNER-standard-51ft-f
 Constraint[Prev][33]=LNER-standard-51ft-f2
 Constraint[Prev][34]=LNER-standard-51ft-com
+Constraint[Prev][35]=gnr-suburban-4wheel-third
+Constraint[Prev][36]=gnr-suburban-4wheel-second
+Constraint[Prev][37]=gnr-suburban-4wheel-first
+Constraint[Prev][38]=gnr-suburban-4wheel-brake-third-front
 
 can_lead_from_rear=0
 bidirectional=1
@@ -801,7 +841,6 @@ comfort[1]=80
 comfort[2]=82
 comfort[3]=94
 
-
 #29T
 weight=32.5
 axles=3
@@ -844,6 +883,10 @@ Constraint[Next][31]=LNER-standard-51ft-cl
 Constraint[Next][32]=LNER-standard-51ft-f
 Constraint[Next][33]=LNER-standard-51ft-f2
 Constraint[Next][34]=LNER-standard-51ft-com
+Constraint[Next][35]=gnr-suburban-4wheel-third
+Constraint[Next][36]=gnr-suburban-4wheel-second
+Constraint[Next][37]=gnr-suburban-4wheel-first
+Constraint[Next][38]=gnr-suburban-4wheel-brake-third-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -880,6 +923,10 @@ Constraint[Prev][31]=LNER-standard-51ft-cl
 Constraint[Prev][32]=LNER-standard-51ft-f
 Constraint[Prev][33]=LNER-standard-51ft-f2
 Constraint[Prev][34]=LNER-standard-51ft-com
+Constraint[Prev][35]=gnr-suburban-4wheel-third
+Constraint[Prev][36]=gnr-suburban-4wheel-second
+Constraint[Prev][37]=gnr-suburban-4wheel-first
+Constraint[Prev][38]=gnr-suburban-4wheel-brake-third-front
 
 can_lead_from_rear=0
 bidirectional=1
@@ -985,6 +1032,10 @@ Constraint[Next][31]=LNER-standard-51ft-cl
 Constraint[Next][32]=LNER-standard-51ft-f
 Constraint[Next][33]=LNER-standard-51ft-f2
 Constraint[Next][34]=LNER-standard-51ft-com
+Constraint[Next][35]=gnr-suburban-4wheel-third
+Constraint[Next][36]=gnr-suburban-4wheel-second
+Constraint[Next][37]=gnr-suburban-4wheel-first
+Constraint[Next][38]=gnr-suburban-4wheel-brake-third-rear
 
 Constraint[Prev][0]=4-wheel-1870s-fitted
 Constraint[Prev][1]=4-wheel-1870s-brake-fitted
@@ -1021,6 +1072,10 @@ Constraint[Prev][31]=LNER-standard-51ft-cl
 Constraint[Prev][32]=LNER-standard-51ft-f
 Constraint[Prev][33]=LNER-standard-51ft-f2
 Constraint[Prev][34]=LNER-standard-51ft-com
+Constraint[Prev][35]=gnr-suburban-4wheel-third
+Constraint[Prev][36]=gnr-suburban-4wheel-second
+Constraint[Prev][37]=gnr-suburban-4wheel-first
+Constraint[Prev][38]=gnr-suburban-4wheel-brake-third-front
 
 can_lead_from_rear=0
 bidirectional=1
