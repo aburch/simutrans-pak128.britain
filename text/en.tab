@@ -2841,9 +2841,13 @@ BR Standard Class 9F 2-10-0
 BR-9F-Tender
 BR Standard Class 9F (tender)
 LNER-V2
-LNER Class V2 2-6-2
+LNER V2 Class 2-6-2
 LNER-V2-Tender
 LNER Class V2 (tender)
+lner-v1
+LNER V1 Class 2-6-2T
+lner-v3
+LNER V3 Class 2-6-2T
 SR-Bulleid-Leader
 SR Leader Class 0-6-6-0T
 SR-MerchantNavy_4-6-2
@@ -5584,6 +5588,8 @@ gwr-armstrong-tender
 GWR 1,800 gallon tender
 GWR-City
 GWR 3700 "City" Class 4-4-0
+gwr-city-superheated
+GWR 3700 "City" Class 4-4-0 (superheated)
 gwr-duke
 GWR 3252 "Duke" Class 4-4-0
 gwr-duke-superheated
