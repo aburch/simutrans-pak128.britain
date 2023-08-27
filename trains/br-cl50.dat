@@ -17,7 +17,8 @@ payload=0
 length=12
 rolling_resistance=13
 
-weight=117
+# https://en.wikipedia.org/wiki/British_Rail_Class_50
+weight=117.0
 axles=6
 cost=7221000
 runningcost=1006
