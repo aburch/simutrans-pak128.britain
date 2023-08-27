@@ -1,3 +1,5 @@
+# TODO: Add BR Class 85, the chief difference in which will be lower maintenance cost. 
+# See: https://en.wikipedia.org/wiki/British_Rail_Class_85
 obj=vehicle
 name=BR-Class81
 engine_type=electric
@@ -16,7 +18,7 @@ payload=0
 length=10
 rolling_resistance=13
 
-weight=81
+weight=80.9
 axles=4
 cost=8785000
 runningcost=479
