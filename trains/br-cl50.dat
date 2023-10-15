@@ -17,7 +17,8 @@ payload=0
 length=12
 rolling_resistance=13
 
-weight=117
+# https://en.wikipedia.org/wiki/British_Rail_Class_50
+weight=117.0
 axles=6
 cost=7221000
 runningcost=1006
@@ -72,3 +73,4 @@ EmptyImage[W][3]=./locomotives/br-cl50-nse-revised_W.0.0
 EmptyImage[NW][3]=./locomotives/br-cl50-nse-revised_NW.0.0
 EmptyImage[N][3]=./locomotives/br-cl50-nse-revised_N.0.0
 EmptyImage[NE][3]=./locomotives/br-cl50-nse-revised_NE.0.0
+--

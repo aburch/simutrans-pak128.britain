@@ -2,7 +2,7 @@ obj=vehicle
 name=LSWR-T14
 engine_type=steam
 smoke=Steam
-speed=143
+speed=95
 # Extrapolated
 power=363
 tractive_effort=112
@@ -57,3 +57,4 @@ EmptyImage[W][2]=./locomotives/lswr-t14-olive_W.0.0
 EmptyImage[NW][2]=./locomotives/lswr-t14-olive_NW.0.0
 EmptyImage[N][2]=./locomotives/lswr-t14-olive_N.0.0
 EmptyImage[NE][2]=./locomotives/lswr-t14-olive_NE.0.0
+--

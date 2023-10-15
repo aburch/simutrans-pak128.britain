@@ -162,10 +162,10 @@ commuting_trip_chance_percent = 20
 #min_alternative_destinations_visiting = 1
 
 max_alternative_destinations_per_visitor_demand_millionths = 2750
-max_alternative_destinations_per_job_millionths = 5000
+max_alternative_destinations_per_job_millionths = 12000
 
 min_alternative_destinations_per_visitor_demand_millionths = 750
-min_alternative_destinations_per_job_millionths = 2500
+min_alternative_destinations_per_job_millionths = 6000
 
 # Passengers have a maximum tolerance level for how long that they will spend travelling. 
 # Passengers are generated in two groups: commuting and visiting passengers. Commuting 
@@ -696,8 +696,17 @@ max_years_obsolete = 32
 # value can range from 1 to 16, inclusive; 1 means no averaging; default is 4
 factory_arrival_periods = 4
 
-# whether factory's passenger and mail demands are enforced or not; the default is on (1).
+# If this is disabled, all industries will continue to operate fully despite having no staff.
+# If this is enabled, industries will cease to operate if they are short of staff (subject to
+# the setting in rural_industries_no_staff_shortage).
+# Default: 1 (enabled)
 factory_enforce_demand = 1
+
+# If the below setting is enabled, industries situated outside a town will continue
+# to function as normal even if they are short of staff. It is recommended to enable
+# this, as there is currently no way of ensuring that towns are built close enough
+# to industries in the early years to allow those rural industries to produce.
+rural_industries_no_staff_shortage = 1
 
 # How much amount in transport is sent before further distribution stops
 # This is only enabled when "just_in_time" is enabled (i.e, set to a value > 0)
@@ -707,6 +716,20 @@ factory_enforce_demand = 1
 # of the time that it takes the industry to consume its stock to the average
 # lead time for new deliveries. Values of slightly over 100% are recommended.
 maximum_intransit_percentage = 110
+
+# The maximum_intransit_percentage will catastrophically break freight if the industry
+# capacities are too low.  While this should be fixed in the .dat files, this is difficult
+# due to all the scaling factors.  These act as a "sanity check" backstop.  They should be
+# set to at least the size of a single truckload for a truck which is expected to be economically viable
+# for all goods.  This makes it possible to:
+# (a) set the truck to wait for full at the origin (minimum_industry_output_storage_raw)
+# (b) deliver a full truckload to the destination (minimum_industry_input_storage_raw)
+#
+# For pak128.britain, the 1750 slow horse-drawn wagon has a capacity of 7 perishable goods, 6 everything else.
+# This should be economically usable, so this is the minimum set.  Late game trucks still have similar capacities
+# around 5 to 7 so this shuld still be effective.
+minimum_industry_output_storage_raw = 7
+minimum_industry_input_storage_raw = 7
 
 # The following settings determine the thresholds for deciding whether an industry is short
 # of staff. 

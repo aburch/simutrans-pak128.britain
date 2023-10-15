@@ -17,7 +17,8 @@ payload=0
 length=11
 rolling_resistance=13
 
-weight=105
+# https://en.wikipedia.org/wiki/British_Rail_Class_37
+weight=107.0
 axles=6
 cost=6048000
 runningcost=653
@@ -93,3 +94,4 @@ EmptyImage[S][4]=./locomotives/br-cl37-rr_S.0
 EmptyImage[SW][4]=./locomotives/br-cl37-rr_SW.0
 EmptyImage[W][4]=./locomotives/br-cl37-rr_W.0
 EmptyImage[NW][4]=./locomotives/br-cl37-rr_NW.0
+--

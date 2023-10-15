@@ -2,7 +2,7 @@ obj=vehicle
 name=LSWR-T14-superheated
 engine_type=steam
 smoke=Steam
-speed=143
+speed=100
 # Extrapolated
 power=430
 tractive_effort=98
@@ -78,3 +78,4 @@ EmptyImage[W][4]=./locomotives/lswr-t14-superheated-br_W.0.0
 EmptyImage[NW][4]=./locomotives/lswr-t14-superheated-br_NW.0.0
 EmptyImage[N][4]=./locomotives/lswr-t14-superheated-br_N.0.0
 EmptyImage[NE][4]=./locomotives/lswr-t14-superheated-br_NE.0.0
+--
