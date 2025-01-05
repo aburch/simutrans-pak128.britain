@@ -115,6 +115,7 @@ copy:
 	@cp -p readme.txt $(PAKDIR)
 	@cp -p config/* $(PAKDIR)/config
 	@cp -rp text $(PAKDIR)
+	@cp -rp scenario $(PAKDIR)
 	@mkdir -p $(PAKDIR)/sound
 	@cp -rp sound $(PAKDIR)
 

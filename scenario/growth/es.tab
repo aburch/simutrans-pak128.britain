@@ -1,0 +1,140 @@
+Growth - supply the population and let it grow.
+Growth - Dotar de suministros a la población y dejarla crecer.
+persistent
+persistent
+is_within_limits
+is_within_limits
+PAS
+PAS
+Gen
+Gen
+Dep
+Dep
+Arr
+Arr
+Total population: {world_citizens}<br>
+Población total: {world_citizens}<br>
+JAN
+JAN
+FEB
+FEB
+MAR
+MAR
+APR
+APR
+MAY
+MAY
+JUN
+JUN
+JUL
+JUL
+AUG
+AUG
+SEP
+SEP
+OCT
+OCT
+NOV
+NOV
+DEC
+DEC
+<br><h1>Maximum factory production per tile:</h1>
+<br><h1>Producción máxima de fábrica por baldosa:</h1>
+<em> </em>General limitation in this date: <it>{generalLim}</it><br>
+<em> </em>Limitación general en esta fecha: <it>{generalLim}</it><br>
+<em> </em>Additional limitations for tile {pos_factory}:<br><em> </em><em> </em>
+<em> </em>Limitaciones adicionales para los baldosa {pos_factory}:<br><em> </em><em> </em>
+Oil
+Oil
+Clay
+Clay
+Stone
+Stone
+Wood
+Wood
+Grain
+Grain
+Vegetables
+Vegetables
+Fruit
+Fruit
+Cattle
+Cattle
+Sheep
+Sheep
+Fresh Fish
+Fresh Fish
+No.
+No.
+<br><h1>Raw materials:</h1>
+<br><h1>Materia prima:</h1>
+Coal
+Coal
+Iron
+Iron
+<br><h1>Cities:</h1>
+<br><h1>Ciudades:</h1>
+<a href='(%d,%d)'>%s</a> (Population: %d, height: %.1f, temperature= %.1f C, buildings:%d)<br><em>  </em>Protein:%s  Carbos:%s  Vegs:%s Drinks:%s Clothes:%s Furniture:%s Pottery:%s<br><em> </em>Clay:%s WIron:%s Stone:%s Planks:%s Bricks:%s Cement:%s Steel:%s<br>
+<a href='(%d,%d)'>%s</a> (Population: %d, height: %.1f, temperature= %.1f C, buildings:%d)<br><em>  </em>Protein:%s  Carbos:%s  Vegs:%s Drinks:%s Clothes:%s Furniture:%s Pottery:%s<br><em> </em>Clay:%s WIron:%s Stone:%s Planks:%s Bricks:%s Cement:%s Steel:%s<br>
+<em> </em><em> </em> * %s PAS:[Gen:%02d,Dep:%02d,Arr:%02d] <em>"+f.materials+"</em><br>
+<em> </em><em> </em> * %s PAS:[Gen:%02d,Dep:%02d,Arr:%02d] <em>"+f.materials+"</em><br>
+<br><h1>Attractions:</h1>
+<br><h1>Attractions:</h1>
+Please confirm by clicking again on the same tile once you adjust production following the scenario progress information
+Por favor, confirme haciendo clic nuevamente en el mismo mosaico una vez que ajuste la producción siguiendo la información del progreso del escenario.
+Impossible to build. {city_name} doesn't have enough {sbm}
+Imposible de construir. {city_name} no tiene suficiente {sbm}
+You may not delete a city!
+No puedes eliminar una ciudad!
+[Fish:%4.2f Meat:%4.2f Milk:%4.2f Flour:%4.2f Vegs:%4.2f Fruit:%4.2f Beer:%4.2f Cider:%4.2f]
+[Fish:%4.2f Meat:%4.2f Milk:%4.2f Flour:%4.2f Vegs:%4.2f Fruit:%4.2f Beer:%4.2f Cider:%4.2f]
+[Fish:%03d%% Meat:%03d%% Milk:%03d%% Flour:%03d%% Vegs:%03d%% Fruit:%03d%% Beer:%03d%% Cider:%03d%%]
+[Pescado:%03d%% Carne:%03d%% Leche:%03d%% Harina:%03d%% Vegetales:%03d%% Frutas:%03d%% Cerveza:%03d%% Sidra:%03d%%]
+[Proteins:%4.2f Carbos:%4.2f VegsFr:%4.2f Drinks:%4.2f]
+[Proteins:%4.2f Carbos:%4.2f VegsFr:%4.2f Drinks:%4.2f]
+no city
+No hay Ciudad
+foodQuantities
+foodQuantities
+foodGroupAvailable
+foodGroupAvailable
+neededFoodGroup before
+neededFoodGroup before
+ratio
+ratio
+firstFoodRatio
+firstFoodRatio
+chosenKey
+chosenKey
+ratioCapped
+ratioCapped
+foodGroupPercentages
+foodGroupPercentages
+foodQuantities after
+foodQuantities after
+neededFoodGroup after
+neededFoodGroup after
+foodGroupAvailable
+foodGroupAvailable
+clothesQuantity
+clothesQuantity
+firstClothesRatio
+firstClothesRatio
+furnitureQuantity
+furnitureQuantity
+neededFurniture
+neededFurniture
+firstFurnitureRatio
+firstFurnitureRatio
+potteryQuantity
+potteryQuantity
+firstPotteryRatio
+firstPotteryRatio
+firstRatio
+firstRatio
+neededClothes
+neededClothes
+neededFurniture
+neededFurniture
+neededPottery
+neededPottery

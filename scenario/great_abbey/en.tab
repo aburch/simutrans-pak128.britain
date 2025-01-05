@@ -1,0 +1,364 @@
+// *** great abbey scenario - english translation ***
+// *** great abbey scenario - english translation ***
+Scenario_msg
+Szenario
+Warnings_msg
+Verkehr
+{oldtext}<br><em>list of cities</em><br><br>{city_list}<br><br>Map Information on start:<br>{map_info_start}<br>Map Information now:<br>{map_info_now}<br><br><em>factory chain lists</em><br>{factory_chains}<br>
+{oldtext}<br><em>list of cities</em><br><br>{city_list}<br><br>Map Information on start:<br>{map_info_start}<br>Map Information now:<br>{map_info_now}<br><br><em>factory chain lists</em><br>{factory_chains}<br>
+<br><em>DEVELOPER INFORMATIONS</em><br>
+<br><em>DEVELOPER INFORMATIONS</em><br>
+<br><em>list of cities</em><br><br>{city_list}<br>
+<br><em>list of cities</em><br><br>{city_list}<br>
+<br>Map Information on start:<br>{map_info_start}<br>Map Information now:<br>{map_info_now}<br>
+<br>Map Information on start:<br>{map_info_start}<br>Map Information now:<br>{map_info_now}<br>
+<br><em>factory chain list</em><br>{factory_chains}<br>
+<br><em>factory chain list</em><br>{factory_chains}<br>
+// *** scenario marker ***
+// *** scenario marker ***
+Great Abbey
+Great Abbey
+Great Abbey College
+Great Abbey College
+Abbey Pond
+Abbey Pond
+National Cemetery
+National Cemetery
+Stadium of FC Bromyard
+Stadium of FC Bromyard
+Royal Botanic Gardens
+Royal Botanic Gardens
+Royal Palace
+Royal Palace
+// *** USER TRANSLATION ***
+// *** USER TRANSLATION ***
+no works in heritage conservation area
+no works in heritage conservation area
+// *** CLASS BASIC TRANSLATION ***
+// *** CLASS BASIC TRANSLATION ***
+<em>date:</em> {date}<br><em>money:</em> {startcash}<br><em>inhabitants:</em> {citizen}<br><em>cities:</em> {towns}<br><em>factories:</em> {factories}<br><em>attractions:</em> {attractions}<br><em>map size:</em> {mapsize}<br>
+<em>date:</em> {date}<br><em>money:</em> {startcash}<br><em>inhabitants:</em> {citizen}<br><em>cities:</em> {towns}<br><em>factories:</em> {factories}<br><em>attractions:</em> {attractions}<br><em>map size:</em> {mapsize}<br>
+Savegame has a different {more_info} script version! Maybe, it will work.
+Savegame has a different {more_info} script version! Maybe, it will work.
+Scenario complete.
+Scenario complete.
+{month} {year}
+{month} {year}
+// *** CLASS target_connected TRANSLATION ***
+// *** CLASS target_connected TRANSLATION ***
+false
+false
+true
+true
+Connected places ({amount} targets)
+Connected places ({amount} targets)
+List of connections to support (coord inside of a station coverage):
+List of connections to support (coord inside of a station coverage):
+From {from} to {to} with waytype {waytype} for {good}, max unhappy = {unhappy}
+From {from} to {to} with waytype {waytype} for {good}, max unhappy = {unhappy}
+Minimum transfers {min_transfer}, maximum transfers {max_transfer}, maximum unhappy at each station {max_unhappy}
+Minimum transfers {min_transfer}, maximum transfers {max_transfer}, maximum unhappy at each station {max_unhappy}
+// *** CLASS target_hq TRANSLATION ***
+// *** CLASS target_hq TRANSLATION ***
+Build a headquarter of level {level}
+Build a headquarter of level {level}
+in the area {area}
+in the area {area}
+You did not build a headquarter yet.
+You did not build a headquarter yet.
+You build a small headquarter.
+You build a small headquarter.
+You build a medium size headquarter.
+You build a medium size headquarter.
+You build the second biggest headquarter.
+You build the second biggest headquarter.
+You build a luxurious headquarter.
+You build a luxurious headquarter.
+// *** CLASS target_line_list TRANSLATION ***
+// *** CLASS target_line_list TRANSLATION ***
+offer the following service
+offer the following service
+at station {station} minimum {target} {way} lines for {good}
+at station {station} minimum {target} {way} lines for {good}
+with {halt} different station halts and a maximum of {unhappy} unhappy passengers
+with {halt} different station halts and a maximum of {unhappy} unhappy passengers
+at each station of the line within the last {time} month, type={type}
+at each station of the line within the last {time} month, type={type}
+(no time limit)
+(no time limit)
+line service
+line service
+line service - list of lines for each target station
+line service - list of lines for each target station
+no line at this station
+no line at this station
+are unhappy
+are unhappy
+<st>{name}</st> with {lines} Lines<br>type={type}, target={target}, max_unhappy={unhappy}, good={good}, way={way}, time={time}, halt={halt}<br>
+<st>{name}</st> with {lines} Lines<br>type={type}, target={target}, max_unhappy={unhappy}, good={good}, way={way}, time={time}, halt={halt}<br>
+<em>{listname}</em> ({halt_amount} Halts)<br>
+<em>{listname}</em> ({halt_amount} Halts)<br>
+// *** CLASS target_finance TRANSLATION ***
+// *** CLASS target_finance TRANSLATION ***
+Your account overdraft is limited.
+Your account overdraft is limited.
+<br>total of all weights : <em>{total_weight}</em><br>
+<br>Total of all weights : <em>{total_weight}</em><br>
+{timewords} passanger transport: {result} / {target}
+{timewords} passanger transport: {result} / {target}
+{timewords} mail transport: {result} / {target}
+{timewords} mail transport: {result} / {target}
+{timewords} goods transport: {result} / {target}
+{timewords} goods transport: {result} / {target}
+{timewords} transport of all: {result} / {target}
+{timewords} transport of all: {result} / {target}
+Your bank account shows {result} / {target}.
+Your bank account shows {result} / {target}.
+{timewords} lowest cash flow: {result} / {target}
+{timewords} lowest cash flow: {result} / {target}
+{timewords} heighest maintenance: {result} / {target}
+{timewords} heighest maintenance: {result} / {target}
+{timewords} income from powerlines: {result} / {target}
+{timewords} income from powerlines: {result} / {target}
+You didn't use your account overdraft in the last 24 month.
+You didn't use your account overdraft in the last 24 month.
+You used a account overdraft {result} of maximum -{target}.
+You used a account overdraft {result} of maximum -{target}.
+last year
+Last year
+current year
+Current year
+current month
+Current month
+for {number} month
+For {number} month
+// *** CLASS BASIC SUPPLY CHAINS TRANSLATION ***
+// *** CLASS BASIC SUPPLY CHAINS TRANSLATION ***
+Lists to check your factory chains and internal good names.<br>There is a delay of around 15 seconds until the correct value is shown.
+Lists to check your factory chains and internal good names.<br>There is a delay of around 15 seconds until the correct value is shown.
+<em>factory tree of endconsumers</em>{textline}{factory_tree}<br><em>factory list of goods output</em>{textline}{factory_list}<br><em>list of internal good names</em>{textline}{factory_goods}<br>{textline}
+<em>factory tree of endconsumers</em>{textline}{factory_tree}<br><em>factory list of goods output</em>{textline}{factory_list}<br><em>list of internal good names</em>{textline}{factory_goods}<br>{textline}
+{spaces}{name}: {position} ({c_name}) consumer: {consumer} production: {production} boost: ({boost})<br>{output}{input}
+{spaces}{name}: {position} ({c_name}) consumer: {consumer} production: {production} boost: ({boost})<br>{output}{input}
+{name}: {position} normal: {normal} boost: {boost}<br>
+{name}: {position} normal: {normal} boost: {boost}<br>
+{name}: {position} production: {production}<br>
+{name}: {position} production: {production}<br>
+{good}: {normal} or {boost}<br>
+{good}: {normal} or {boost}<br>
+Input:
+Input:
+Output:
+Output:
+// *** CLASS target_factory TRANSLATION ***
+// *** CLASS target_factory TRANSLATION ***
+factory service targets
+factory service targets
+{name}: {what} {result}/{target} {good}, period of time {month} month<br>
+{name}: {what} {result}/{target} {good}, period of time {month} month<br>
+{name}: {what} {target} {good}, period of time {month} month
+{name}: {what} {target} {good}, period of time {month} month
+result from this list of factory targets:
+result from this list of factory targets:
+// *** scenario names ***
+// *** scenario names ***
+player 1
+Conservation
+Sheep-Slaughter-house
+Sheep-Slaughterhouse
+Cattle-Slaughter-house
+Cattle-Slaughterhouse
+Cemetery
+small Cemetery
+CityCemetery
+Cemetery
+North Brewery
+North Brewery
+South Brewery
+South Brewery
+beer
+beer
+FishPort1840
+Fish Port
+FishingGround1840
+Fishing Ground
+FreshFish
+fresh Fish
+fish
+fish
+milk
+milk
+meat
+meat
+fruit
+fruit
+flour
+flour
+grain
+grain
+livestock
+livestock
+head
+ head
+cider
+cider
+barrels
+ barrels
+vegetables
+vegetables
+Orchard1840
+Orchard
+Orchard1945
+Orchard
+Orchard1975
+Orchard
+Pub1840
+Pub
+Pub1910
+Pub
+Dairy1750
+Dairy
+SheepFarm1750
+Sheep Farm
+SheepFarm1840
+Sheep Farm
+CattleFarm1750
+Cattle Farm
+CattleFarm1840
+Cattle Farm
+GrainFarm1750
+Grain Farm
+GrainFarm1840
+Grain Farm
+GrainFarm1975
+Grain Farm
+GrainMill1750
+Grain Mill
+Bakery1750
+Bakery
+ArableFarm1750
+Arable Farm
+ArableFarm1840
+Arable Farm
+Market1840
+Market
+TextileMill1910
+Textile Mill
+textile
+textile
+wool
+Wool
+ClothesShop1750
+Clothes Shop
+Chemist1860
+Pharmacy
+PharmaceuticalFactory1860
+Pharmaceutical Factory
+pharmaceuticals
+medicament
+CATEGORY_01
+piece goods
+CATEGORY_04
+cooled goods
+Georgian_Mansion
+Georgian Mansion
+Folly1
+Folly
+Cathedral4
+Great Abbey
+Cathedral3
+Church
+TrinityCollege
+Abbey College
+Abbey1
+Abbey Cloister
+ParishChurchStMarks
+Chapel St. Marks
+ParishChurchStMichaels
+Chapel St. Michaels
+Fountain
+Fountain
+SmallFountain
+small Fountain
+War-Memorial
+War Memorial
+BellTower
+BellTower
+Small_Football_Ground
+Small Football Ground
+Large_Football_Ground
+Large Football Ground
+Small_Rugby_Ground
+Small Rugby Ground
+Greenhouse
+Greenhouse
+LittlePark1870_1
+Little Park
+LittlePark1870_2
+Little Park with fountain
+OldBrickSchool
+Old Brick School
+// *** scenario citynames ***
+// *** scenario citynames ***
+Abbeytown
+Abbeytown
+Birchwood
+Birchwood
+Bishop's Stortford
+Bishop's Stortford
+Brentwood
+Brentwood
+Bromyard
+Bromyard
+Buckfastleigh
+Buckfastleigh
+Buxton
+Buxton
+Crosby
+Crosby
+Eccleshall
+Eccleshall
+Fakenham
+Fakenham
+Great Yanmouth
+Great Yanmouth
+Havant
+Havant
+Hedon
+Hedon
+Ivybridge
+Ivybridge
+Lydd
+Lydd
+Marazion
+Marazion
+Middleton
+Middleton
+Oakengates
+Oakengates
+Petherton
+Petherton
+Rugby
+Rugby
+Salisbury
+Salisbury
+Scarborne
+Scarborne
+Selby
+Selby
+Sherborne
+Sherborne
+Snodland
+Snodland
+Sturminster
+Sturminster
+Tidworth
+Tidworth
+Tilbury
+Tilbury
+Wigton
+Wigton
+Wootton Bassett
+Wootton Bassett
+Yeovil
+Yeovil
